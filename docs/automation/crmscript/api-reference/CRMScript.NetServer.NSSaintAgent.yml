@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaintAgent
   commentId: T:CRMScript.NetServer.NSSaintAgent
   id: NSSaintAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.CreateDefaultSaintConfiguration()
   id: 'CreateDefaultSaintConfiguration()'
   so.intellisense: NSSaintAgent.CreateDefaultSaintConfiguration
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultSaintConfiguration()'
@@ -67,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.CreateDefaultStatusMonitor()
   id: 'CreateDefaultStatusMonitor()'
   so.intellisense: NSSaintAgent.CreateDefaultStatusMonitor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultStatusMonitor()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.CreateDefaultStatusMonitorPeriods()
   id: 'CreateDefaultStatusMonitorPeriods()'
   so.intellisense: NSSaintAgent.CreateDefaultStatusMonitorPeriods
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultStatusMonitorPeriods()'
@@ -105,6 +109,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.GetSaintConfigurations()
   id: 'GetSaintConfigurations()'
   so.intellisense: NSSaintAgent.GetSaintConfigurations
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSaintConfigurations()'
@@ -125,6 +130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.GetStatusMonitor(Integer)
   id: 'GetStatusMonitor(Integer)'
   so.intellisense: NSSaintAgent.GetStatusMonitor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatusMonitor(Integer)'
@@ -147,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.GetStatusMonitorPeriods()
   id: 'GetStatusMonitorPeriods()'
   so.intellisense: NSSaintAgent.GetStatusMonitorPeriods
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatusMonitorPeriods()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.GetStatusMonitors(Integer,String)
   id: 'GetStatusMonitors(Integer,String)'
   so.intellisense: NSSaintAgent.GetStatusMonitors
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatusMonitors(Integer,String)'
@@ -191,6 +199,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.RegenerateCounters(Bool)
   id: 'RegenerateCounters(Bool)'
   so.intellisense: NSSaintAgent.RegenerateCounters
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RegenerateCounters(Bool)'
@@ -213,6 +222,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.RegenerateStatusMonitor(Integer)
   id: 'RegenerateStatusMonitor(Integer)'
   so.intellisense: NSSaintAgent.RegenerateStatusMonitor
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RegenerateStatusMonitor(Integer)'
@@ -235,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.RegenerateStatusMonitors(Bool)
   id: 'RegenerateStatusMonitors(Bool)'
   so.intellisense: NSSaintAgent.RegenerateStatusMonitors
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RegenerateStatusMonitors(Bool)'
@@ -257,6 +268,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.SaveSaintConfiguration(NSSaintConfiguration)
   id: 'SaveSaintConfiguration(NSSaintConfiguration)'
   so.intellisense: NSSaintAgent.SaveSaintConfiguration
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveSaintConfiguration(NSSaintConfiguration)'
@@ -279,6 +291,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.SaveStatusMonitor(NSStatusMonitor)
   id: 'SaveStatusMonitor(NSStatusMonitor)'
   so.intellisense: NSSaintAgent.SaveStatusMonitor
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveStatusMonitor(NSStatusMonitor)'
@@ -301,6 +314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.SaveStatusMonitorPeriods(NSStatusMonitorPeriods)
   id: 'SaveStatusMonitorPeriods(NSStatusMonitorPeriods)'
   so.intellisense: NSSaintAgent.SaveStatusMonitorPeriods
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveStatusMonitorPeriods(NSStatusMonitorPeriods)'
@@ -323,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintAgent.SetRankOnStatusMonitors(String,Integer[])
   id: 'SetRankOnStatusMonitors(String,Integer[])'
   so.intellisense: NSSaintAgent.SetRankOnStatusMonitors
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnStatusMonitors(String,Integer[])'

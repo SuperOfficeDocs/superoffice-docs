@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSViewStateAgent
   commentId: T:CRMScript.NetServer.NSViewStateAgent
   id: NSViewStateAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.DeleteHistory(String,Integer)
   id: 'DeleteHistory(String,Integer)'
   so.intellisense: NSViewStateAgent.DeleteHistory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteHistory(String,Integer)'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetCurrent(String)
   id: 'GetCurrent(String)'
   so.intellisense: NSViewStateAgent.GetCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrent(String)'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistories()
   id: 'GetHistories()'
   so.intellisense: NSViewStateAgent.GetHistories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistories()'
@@ -113,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistoriesByName(String)
   id: 'GetHistoriesByName(String)'
   so.intellisense: NSViewStateAgent.GetHistoriesByName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoriesByName(String)'
@@ -135,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistoriesByNames(String[])
   id: 'GetHistoriesByNames(String[])'
   so.intellisense: NSViewStateAgent.GetHistoriesByNames
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoriesByNames(String[])'
@@ -157,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistoriesByNamesAndIds(NSHistoryRequest[])
   id: 'GetHistoriesByNamesAndIds(NSHistoryRequest[])'
   so.intellisense: NSViewStateAgent.GetHistoriesByNamesAndIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoriesByNamesAndIds(NSHistoryRequest[])'
@@ -179,6 +186,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistory(Integer)
   id: 'GetHistory(Integer)'
   so.intellisense: NSViewStateAgent.GetHistory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistory(Integer)'
@@ -201,6 +209,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetHistoryLengthPrefValue()
   id: 'GetHistoryLengthPrefValue()'
   so.intellisense: NSViewStateAgent.GetHistoryLengthPrefValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoryLengthPrefValue()'
@@ -221,6 +230,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetNextCurrent(String,Integer)
   id: 'GetNextCurrent(String,Integer)'
   so.intellisense: NSViewStateAgent.GetNextCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextCurrent(String,Integer)'
@@ -246,6 +256,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.GetPreviousCurrent(String,Integer)
   id: 'GetPreviousCurrent(String,Integer)'
   so.intellisense: NSViewStateAgent.GetPreviousCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousCurrent(String,Integer)'
@@ -271,6 +282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.SaveCurrent(NSHistory)
   id: 'SaveCurrent(NSHistory)'
   so.intellisense: NSViewStateAgent.SaveCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveCurrent(NSHistory)'
@@ -293,6 +305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.SaveCurrents(NSHistory[])
   id: 'SaveCurrents(NSHistory[])'
   so.intellisense: NSViewStateAgent.SaveCurrents
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveCurrents(NSHistory[])'
@@ -315,6 +328,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.SaveHistories(String,NSHistory[])
   id: 'SaveHistories(String,NSHistory[])'
   so.intellisense: NSViewStateAgent.SaveHistories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveHistories(String,NSHistory[])'
@@ -340,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSViewStateAgent.SetHistoryLengthPrefValue(Integer)
   id: 'SetHistoryLengthPrefValue(Integer)'
   so.intellisense: NSViewStateAgent.SetHistoryLengthPrefValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHistoryLengthPrefValue(Integer)'

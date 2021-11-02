@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketMessageEntity
   commentId: T:CRMScript.NetServer.NSTicketMessageEntity
   id: NSTicketMessageEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -59,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetAuthor()
   id: 'GetAuthor()'
   so.intellisense: NSTicketMessageEntity.GetAuthor
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAuthor()'
@@ -79,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetBody()
   id: 'GetBody()'
   so.intellisense: NSTicketMessageEntity.GetBody
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetBody()'
@@ -99,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCreatedAt()
   id: 'GetCreatedAt()'
   so.intellisense: NSTicketMessageEntity.GetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCreatedAt()'
@@ -119,6 +123,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSTicketMessageEntity.GetCreatedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSTicketMessageEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetDebugInfo()
   id: 'GetDebugInfo()'
   so.intellisense: NSTicketMessageEntity.GetDebugInfo
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDebugInfo()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetEjMessageId()
   id: 'GetEjMessageId()'
   so.intellisense: NSTicketMessageEntity.GetEjMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetEjMessageId()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetEmailHeader()
   id: 'GetEmailHeader()'
   so.intellisense: NSTicketMessageEntity.GetEmailHeader
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetEmailHeader()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSTicketMessageEntity.GetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetHtmlBody()
   id: 'GetHtmlBody()'
   so.intellisense: NSTicketMessageEntity.GetHtmlBody
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetHtmlBody()'
@@ -278,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMailSorter()
   id: 'GetMailSorter()'
   so.intellisense: NSTicketMessageEntity.GetMailSorter
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMailSorter()'
@@ -298,6 +310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMessageCategory()
   id: 'GetMessageCategory()'
   so.intellisense: NSTicketMessageEntity.GetMessageCategory
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMessageCategory()'
@@ -338,6 +351,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMessageId()
   id: 'GetMessageId()'
   so.intellisense: NSTicketMessageEntity.GetMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMessageId()'
@@ -358,6 +372,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSTicketMessageEntity.GetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -377,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetSearchTitle()
   id: 'GetSearchTitle()'
   so.intellisense: NSTicketMessageEntity.GetSearchTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSearchTitle()'
@@ -397,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetSlevel()
   id: 'GetSlevel()'
   so.intellisense: NSTicketMessageEntity.GetSlevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSlevel()'
@@ -417,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetTicket()
   id: 'GetTicket()'
   so.intellisense: NSTicketMessageEntity.GetTicket
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicket()'
@@ -436,6 +454,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetTimeSpent()
   id: 'GetTimeSpent()'
   so.intellisense: NSTicketMessageEntity.GetTimeSpent
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeSpent()'
@@ -456,6 +475,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetType()
   id: 'GetType()'
   so.intellisense: NSTicketMessageEntity.GetType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetType()'
@@ -491,6 +511,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetAuthor(String)
   id: 'SetAuthor(String)'
   so.intellisense: NSTicketMessageEntity.SetAuthor
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAuthor(String)'
@@ -513,6 +534,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetBody(String)
   id: 'SetBody(String)'
   so.intellisense: NSTicketMessageEntity.SetBody
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetBody(String)'
@@ -535,6 +557,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCreatedAt(DateTime)
   id: 'SetCreatedAt(DateTime)'
   so.intellisense: NSTicketMessageEntity.SetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCreatedAt(DateTime)'
@@ -552,6 +575,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSTicketMessageEntity.SetCreatedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -569,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSTicketMessageEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -591,6 +616,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetDebugInfo(String)
   id: 'SetDebugInfo(String)'
   so.intellisense: NSTicketMessageEntity.SetDebugInfo
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDebugInfo(String)'
@@ -613,6 +639,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetEjMessageId(Integer)
   id: 'SetEjMessageId(Integer)'
   so.intellisense: NSTicketMessageEntity.SetEjMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetEjMessageId(Integer)'
@@ -635,6 +662,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetEmailHeader(String)
   id: 'SetEmailHeader(String)'
   so.intellisense: NSTicketMessageEntity.SetEmailHeader
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetEmailHeader(String)'
@@ -657,6 +685,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSTicketMessageEntity.SetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -679,6 +708,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetHtmlBody(String)
   id: 'SetHtmlBody(String)'
   so.intellisense: NSTicketMessageEntity.SetHtmlBody
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetHtmlBody(String)'
@@ -723,6 +753,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMailSorter(String)
   id: 'SetMailSorter(String)'
   so.intellisense: NSTicketMessageEntity.SetMailSorter
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMailSorter(String)'
@@ -787,6 +818,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMessageId(String)
   id: 'SetMessageId(String)'
   so.intellisense: NSTicketMessageEntity.SetMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMessageId(String)'
@@ -809,6 +841,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSTicketMessageEntity.SetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -831,6 +864,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetSearchTitle(String)
   id: 'SetSearchTitle(String)'
   so.intellisense: NSTicketMessageEntity.SetSearchTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSearchTitle(String)'
@@ -875,6 +909,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetTicket(NSTicket)
   id: 'SetTicket(NSTicket)'
   so.intellisense: NSTicketMessageEntity.SetTicket
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicket(NSTicket)'
@@ -897,6 +932,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetTimeSpent(Integer)
   id: 'SetTimeSpent(Integer)'
   so.intellisense: NSTicketMessageEntity.SetTimeSpent
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeSpent(Integer)'

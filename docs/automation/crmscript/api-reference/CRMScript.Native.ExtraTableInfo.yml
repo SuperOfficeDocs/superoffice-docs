@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.ExtraTableInfo
   commentId: T:CRMScript.Native.ExtraTableInfo
   id: ExtraTableInfo
+  so.version: 4.2.7
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.Native.ExtraTableInfo.getFlags()
   id: 'getFlags()'
   so.intellisense: ExtraTableInfo.getFlags
+  so.version: 4.2.7
   langs:
   - crmscript
   name: 'getFlags()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.Native.ExtraTableInfo.getId()
   id: 'getId()'
   so.intellisense: ExtraTableInfo.getId
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'getId()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.Native.ExtraTableInfo.getName()
   id: 'getName()'
   so.intellisense: ExtraTableInfo.getName
+  so.version: 4.2.7
   langs:
   - crmscript
   name: 'getName()'
@@ -95,6 +99,7 @@ items:
   commentId: M:CRMScript.Native.ExtraTableInfo.load(String)
   id: 'load(String)'
   so.intellisense: ExtraTableInfo.load
+  so.version: 4.2.7
   langs:
   - crmscript
   name: 'load(String)'

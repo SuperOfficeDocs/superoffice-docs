@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveListResult
   commentId: T:CRMScript.NetServer.NSArchiveListResult
   id: NSArchiveListResult
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveListResult.GetRowCount()
   id: 'GetRowCount()'
   so.intellisense: NSArchiveListResult.GetRowCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRowCount()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveListResult.GetRows()
   id: 'GetRows()'
   so.intellisense: NSArchiveListResult.GetRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRows()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveListResult.SetRowCount(Integer)
   id: 'SetRowCount(Integer)'
   so.intellisense: NSArchiveListResult.SetRowCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRowCount(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveListResult.SetRows(NSArchiveListItem[])
   id: 'SetRows(NSArchiveListItem[])'
   so.intellisense: NSArchiveListResult.SetRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRows(NSArchiveListItem[])'

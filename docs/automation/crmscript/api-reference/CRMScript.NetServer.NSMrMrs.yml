@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMrMrs
   commentId: T:CRMScript.NetServer.NSMrMrs
   id: NSMrMrs
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.GetId()
   id: 'GetId()'
   so.intellisense: NSMrMrs.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSMrMrs.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.GetValue()
   id: 'GetValue()'
   so.intellisense: NSMrMrs.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSMrMrs.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSMrMrs.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMrMrs.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSMrMrs.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

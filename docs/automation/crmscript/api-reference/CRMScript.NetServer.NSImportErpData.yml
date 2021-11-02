@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSImportErpData
   commentId: T:CRMScript.NetServer.NSImportErpData
   id: NSImportErpData
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportErpData.GetColumnInfos()
   id: 'GetColumnInfos()'
   so.intellisense: NSImportErpData.GetColumnInfos
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetColumnInfos()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportErpData.GetImportLines()
   id: 'GetImportLines()'
   so.intellisense: NSImportErpData.GetImportLines
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetImportLines()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
   id: 'SetColumnInfos(NSImportColumnInfo[])'
   so.intellisense: NSImportErpData.SetColumnInfos
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetColumnInfos(NSImportColumnInfo[])'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportErpData.SetImportLines(NSImportLine[])
   id: 'SetImportLines(NSImportLine[])'
   so.intellisense: NSImportErpData.SetImportLines
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetImportLines(NSImportLine[])'

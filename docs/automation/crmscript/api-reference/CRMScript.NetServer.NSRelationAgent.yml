@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRelationAgent
   commentId: T:CRMScript.NetServer.NSRelationAgent
   id: NSRelationAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationAgent.CreateDefaultContactRelationEntity()
   id: 'CreateDefaultContactRelationEntity()'
   so.intellisense: NSRelationAgent.CreateDefaultContactRelationEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultContactRelationEntity()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationAgent.DeleteContactRelation(Integer)
   id: 'DeleteContactRelation(Integer)'
   so.intellisense: NSRelationAgent.DeleteContactRelation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteContactRelation(Integer)'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationAgent.GetContactRelationEntity(Integer)
   id: 'GetContactRelationEntity(Integer)'
   so.intellisense: NSRelationAgent.GetContactRelationEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactRelationEntity(Integer)'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
   id: 'SaveContactRelation(NSContactRelationEntity)'
   so.intellisense: NSRelationAgent.SaveContactRelation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveContactRelation(NSContactRelationEntity)'

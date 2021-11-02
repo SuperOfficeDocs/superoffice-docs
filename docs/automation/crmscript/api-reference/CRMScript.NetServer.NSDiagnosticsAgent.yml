@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDiagnosticsAgent
   commentId: T:CRMScript.NetServer.NSDiagnosticsAgent
   id: NSDiagnosticsAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
   id: 'AddWebAppUsage(NSWebAppUsage[])'
   so.intellisense: NSDiagnosticsAgent.AddWebAppUsage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'AddWebAppUsage(NSWebAppUsage[])'
@@ -69,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
   id: 'ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)'
   so.intellisense: NSDiagnosticsAgent.ChangeLogSettings
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)'
@@ -111,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectDataAdditions()
   id: 'CollectDataAdditions()'
   so.intellisense: NSDiagnosticsAgent.CollectDataAdditions
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CollectDataAdditions()'
@@ -130,6 +134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectTableSizes()
   id: 'CollectTableSizes()'
   so.intellisense: NSDiagnosticsAgent.CollectTableSizes
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CollectTableSizes()'
@@ -149,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectWebUsage()
   id: 'CollectWebUsage()'
   so.intellisense: NSDiagnosticsAgent.CollectWebUsage
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CollectWebUsage()'
@@ -168,6 +174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectWinUsage()
   id: 'CollectWinUsage()'
   so.intellisense: NSDiagnosticsAgent.CollectWinUsage
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CollectWinUsage()'
@@ -187,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.FlushCaches()
   id: 'FlushCaches()'
   so.intellisense: NSDiagnosticsAgent.FlushCaches
+  so.version: 7.0
   langs:
   - crmscript
   name: 'FlushCaches()'
@@ -205,6 +213,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.FlushCachesByName(String[])
   id: 'FlushCachesByName(String[])'
   so.intellisense: NSDiagnosticsAgent.FlushCachesByName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FlushCachesByName(String[])'
@@ -227,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.GetCacheNames()
   id: 'GetCacheNames()'
   so.intellisense: NSDiagnosticsAgent.GetCacheNames
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCacheNames()'
@@ -247,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
   id: 'GetWebAppUsagesForPeriod(DateTime,DateTime,String)'
   so.intellisense: NSDiagnosticsAgent.GetWebAppUsagesForPeriod
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetWebAppUsagesForPeriod(DateTime,DateTime,String)'
@@ -274,6 +285,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.LogViewState(String)
   id: 'LogViewState(String)'
   so.intellisense: NSDiagnosticsAgent.LogViewState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'LogViewState(String)'
@@ -315,6 +327,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.ResyncUsers()
   id: 'ResyncUsers()'
   so.intellisense: NSDiagnosticsAgent.ResyncUsers
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'ResyncUsers()'
@@ -334,6 +347,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
   id: 'WebAppUsageExistsInPeriod(Integer,String,DateTime)'
   so.intellisense: NSDiagnosticsAgent.WebAppUsageExistsInPeriod
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'WebAppUsageExistsInPeriod(Integer,String,DateTime)'

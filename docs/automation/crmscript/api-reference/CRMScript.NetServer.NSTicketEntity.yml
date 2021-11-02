@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketEntity
   commentId: T:CRMScript.NetServer.NSTicketEntity
   id: NSTicketEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -120,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetActivate()
   id: 'GetActivate()'
   so.intellisense: NSTicketEntity.GetActivate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetActivate()'
@@ -140,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetAlertLevel()
   id: 'GetAlertLevel()'
   so.intellisense: NSTicketEntity.GetAlertLevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAlertLevel()'
@@ -160,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetAlertTimeout()
   id: 'GetAlertTimeout()'
   so.intellisense: NSTicketEntity.GetAlertTimeout
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAlertTimeout()'
@@ -180,6 +184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetAuthor()
   id: 'GetAuthor()'
   so.intellisense: NSTicketEntity.GetAuthor
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAuthor()'
@@ -200,6 +205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetBaseStatus()
   id: 'GetBaseStatus()'
   so.intellisense: NSTicketEntity.GetBaseStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetBaseStatus()'
@@ -220,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetCategory()
   id: 'GetCategory()'
   so.intellisense: NSTicketEntity.GetCategory
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCategory()'
@@ -239,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetClosedAt()
   id: 'GetClosedAt()'
   so.intellisense: NSTicketEntity.GetClosedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetClosedAt()'
@@ -259,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetConnectId()
   id: 'GetConnectId()'
   so.intellisense: NSTicketEntity.GetConnectId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetConnectId()'
@@ -279,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetCreatedAt()
   id: 'GetCreatedAt()'
   so.intellisense: NSTicketEntity.GetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCreatedAt()'
@@ -299,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSTicketEntity.GetCreatedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -318,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSTicketEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -338,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetDeadline()
   id: 'GetDeadline()'
   so.intellisense: NSTicketEntity.GetDeadline
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDeadline()'
@@ -358,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSTicketEntity.GetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -378,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetFirstReadByUser()
   id: 'GetFirstReadByUser()'
   so.intellisense: NSTicketEntity.GetFirstReadByUser
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFirstReadByUser()'
@@ -398,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetFromAddress()
   id: 'GetFromAddress()'
   so.intellisense: NSTicketEntity.GetFromAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFromAddress()'
@@ -418,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetHasAttachment()
   id: 'GetHasAttachment()'
   so.intellisense: NSTicketEntity.GetHasAttachment
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetHasAttachment()'
@@ -438,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetLastChanged()
   id: 'GetLastChanged()'
   so.intellisense: NSTicketEntity.GetLastChanged
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetLastChanged()'
@@ -458,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetMessages()
   id: 'GetMessages()'
   so.intellisense: NSTicketEntity.GetMessages
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMessages()'
@@ -478,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetNumMessages()
   id: 'GetNumMessages()'
   so.intellisense: NSTicketEntity.GetNumMessages
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNumMessages()'
@@ -498,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetNumReplies()
   id: 'GetNumReplies()'
   so.intellisense: NSTicketEntity.GetNumReplies
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNumReplies()'
@@ -518,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetOrigin()
   id: 'GetOrigin()'
   so.intellisense: NSTicketEntity.GetOrigin
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOrigin()'
@@ -538,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetOwnedBy()
   id: 'GetOwnedBy()'
   so.intellisense: NSTicketEntity.GetOwnedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOwnedBy()'
@@ -557,6 +580,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSTicketEntity.GetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -576,6 +600,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetPriority()
   id: 'GetPriority()'
   so.intellisense: NSTicketEntity.GetPriority
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPriority()'
@@ -595,6 +620,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetReadByCustomer()
   id: 'GetReadByCustomer()'
   so.intellisense: NSTicketEntity.GetReadByCustomer
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetReadByCustomer()'
@@ -615,6 +641,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetReadByOwner()
   id: 'GetReadByOwner()'
   so.intellisense: NSTicketEntity.GetReadByOwner
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetReadByOwner()'
@@ -635,6 +662,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetReadStatus()
   id: 'GetReadStatus()'
   so.intellisense: NSTicketEntity.GetReadStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetReadStatus()'
@@ -655,6 +683,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRealTimeSpentExternally()
   id: 'GetRealTimeSpentExternally()'
   so.intellisense: NSTicketEntity.GetRealTimeSpentExternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRealTimeSpentExternally()'
@@ -675,6 +704,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRealTimeSpentInternally()
   id: 'GetRealTimeSpentInternally()'
   so.intellisense: NSTicketEntity.GetRealTimeSpentInternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRealTimeSpentInternally()'
@@ -695,6 +725,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRealTimeSpentQueue()
   id: 'GetRealTimeSpentQueue()'
   so.intellisense: NSTicketEntity.GetRealTimeSpentQueue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRealTimeSpentQueue()'
@@ -715,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRealTimeToClose()
   id: 'GetRealTimeToClose()'
   so.intellisense: NSTicketEntity.GetRealTimeToClose
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRealTimeToClose()'
@@ -735,6 +767,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRealTimeToReply()
   id: 'GetRealTimeToReply()'
   so.intellisense: NSTicketEntity.GetRealTimeToReply
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRealTimeToReply()'
@@ -755,6 +788,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetRepliedAt()
   id: 'GetRepliedAt()'
   so.intellisense: NSTicketEntity.GetRepliedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRepliedAt()'
@@ -794,6 +828,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetSlevel()
   id: 'GetSlevel()'
   so.intellisense: NSTicketEntity.GetSlevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSlevel()'
@@ -814,6 +849,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSTicketEntity.GetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -833,6 +869,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTags()
   id: 'GetTags()'
   so.intellisense: NSTicketEntity.GetTags
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTags()'
@@ -852,6 +889,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTicketId()
   id: 'GetTicketId()'
   so.intellisense: NSTicketEntity.GetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketId()'
@@ -872,6 +910,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTimeSpentExternally()
   id: 'GetTimeSpentExternally()'
   so.intellisense: NSTicketEntity.GetTimeSpentExternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeSpentExternally()'
@@ -892,6 +931,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTimeSpentInternally()
   id: 'GetTimeSpentInternally()'
   so.intellisense: NSTicketEntity.GetTimeSpentInternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeSpentInternally()'
@@ -912,6 +952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTimeSpentQueue()
   id: 'GetTimeSpentQueue()'
   so.intellisense: NSTicketEntity.GetTimeSpentQueue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeSpentQueue()'
@@ -932,6 +973,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTimeToClose()
   id: 'GetTimeToClose()'
   so.intellisense: NSTicketEntity.GetTimeToClose
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeToClose()'
@@ -952,6 +994,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTimeToReply()
   id: 'GetTimeToReply()'
   so.intellisense: NSTicketEntity.GetTimeToReply
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeToReply()'
@@ -972,6 +1015,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSTicketEntity.GetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -992,6 +1036,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetActivate(DateTime)
   id: 'SetActivate(DateTime)'
   so.intellisense: NSTicketEntity.SetActivate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetActivate(DateTime)'
@@ -1014,6 +1059,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetAlertLevel(Integer)
   id: 'SetAlertLevel(Integer)'
   so.intellisense: NSTicketEntity.SetAlertLevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAlertLevel(Integer)'
@@ -1036,6 +1082,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetAlertTimeout(DateTime)
   id: 'SetAlertTimeout(DateTime)'
   so.intellisense: NSTicketEntity.SetAlertTimeout
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAlertTimeout(DateTime)'
@@ -1058,6 +1105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetAuthor(String)
   id: 'SetAuthor(String)'
   so.intellisense: NSTicketEntity.SetAuthor
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAuthor(String)'
@@ -1102,6 +1150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetCategory(NSTicketCategoryEntity)
   id: 'SetCategory(NSTicketCategoryEntity)'
   so.intellisense: NSTicketEntity.SetCategory
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCategory(NSTicketCategoryEntity)'
@@ -1124,6 +1173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetClosedAt(DateTime)
   id: 'SetClosedAt(DateTime)'
   so.intellisense: NSTicketEntity.SetClosedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetClosedAt(DateTime)'
@@ -1146,6 +1196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetConnectId(Integer)
   id: 'SetConnectId(Integer)'
   so.intellisense: NSTicketEntity.SetConnectId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetConnectId(Integer)'
@@ -1168,6 +1219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetCreatedAt(DateTime)
   id: 'SetCreatedAt(DateTime)'
   so.intellisense: NSTicketEntity.SetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCreatedAt(DateTime)'
@@ -1190,6 +1242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSTicketEntity.SetCreatedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -1212,6 +1265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSTicketEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -1229,6 +1283,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetDeadline(DateTime)
   id: 'SetDeadline(DateTime)'
   so.intellisense: NSTicketEntity.SetDeadline
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDeadline(DateTime)'
@@ -1251,6 +1306,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSTicketEntity.SetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -1273,6 +1329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetFirstReadByUser(DateTime)
   id: 'SetFirstReadByUser(DateTime)'
   so.intellisense: NSTicketEntity.SetFirstReadByUser
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFirstReadByUser(DateTime)'
@@ -1295,6 +1352,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetFromAddress(String)
   id: 'SetFromAddress(String)'
   so.intellisense: NSTicketEntity.SetFromAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFromAddress(String)'
@@ -1317,6 +1375,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetHasAttachment(Bool)
   id: 'SetHasAttachment(Bool)'
   so.intellisense: NSTicketEntity.SetHasAttachment
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetHasAttachment(Bool)'
@@ -1339,6 +1398,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetLastChanged(DateTime)
   id: 'SetLastChanged(DateTime)'
   so.intellisense: NSTicketEntity.SetLastChanged
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetLastChanged(DateTime)'
@@ -1361,6 +1421,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetMessages(NSTicketMessage[])
   id: 'SetMessages(NSTicketMessage[])'
   so.intellisense: NSTicketEntity.SetMessages
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMessages(NSTicketMessage[])'
@@ -1383,6 +1444,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetNumMessages(Integer)
   id: 'SetNumMessages(Integer)'
   so.intellisense: NSTicketEntity.SetNumMessages
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNumMessages(Integer)'
@@ -1405,6 +1467,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetNumReplies(Integer)
   id: 'SetNumReplies(Integer)'
   so.intellisense: NSTicketEntity.SetNumReplies
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNumReplies(Integer)'
@@ -1449,6 +1512,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetOwnedBy(NSAssociate)
   id: 'SetOwnedBy(NSAssociate)'
   so.intellisense: NSTicketEntity.SetOwnedBy
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetOwnedBy(NSAssociate)'
@@ -1471,6 +1535,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSTicketEntity.SetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -1493,6 +1558,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetPriority(NSTicketPriorityEntity)
   id: 'SetPriority(NSTicketPriorityEntity)'
   so.intellisense: NSTicketEntity.SetPriority
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPriority(NSTicketPriorityEntity)'
@@ -1515,6 +1581,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetReadByCustomer(DateTime)
   id: 'SetReadByCustomer(DateTime)'
   so.intellisense: NSTicketEntity.SetReadByCustomer
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetReadByCustomer(DateTime)'
@@ -1537,6 +1604,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetReadByOwner(DateTime)
   id: 'SetReadByOwner(DateTime)'
   so.intellisense: NSTicketEntity.SetReadByOwner
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetReadByOwner(DateTime)'
@@ -1581,6 +1649,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRealTimeSpentExternally(Integer)
   id: 'SetRealTimeSpentExternally(Integer)'
   so.intellisense: NSTicketEntity.SetRealTimeSpentExternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRealTimeSpentExternally(Integer)'
@@ -1603,6 +1672,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRealTimeSpentInternally(Integer)
   id: 'SetRealTimeSpentInternally(Integer)'
   so.intellisense: NSTicketEntity.SetRealTimeSpentInternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRealTimeSpentInternally(Integer)'
@@ -1625,6 +1695,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRealTimeSpentQueue(Integer)
   id: 'SetRealTimeSpentQueue(Integer)'
   so.intellisense: NSTicketEntity.SetRealTimeSpentQueue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRealTimeSpentQueue(Integer)'
@@ -1647,6 +1718,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRealTimeToClose(Integer)
   id: 'SetRealTimeToClose(Integer)'
   so.intellisense: NSTicketEntity.SetRealTimeToClose
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRealTimeToClose(Integer)'
@@ -1669,6 +1741,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRealTimeToReply(Integer)
   id: 'SetRealTimeToReply(Integer)'
   so.intellisense: NSTicketEntity.SetRealTimeToReply
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRealTimeToReply(Integer)'
@@ -1691,6 +1764,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetRepliedAt(DateTime)
   id: 'SetRepliedAt(DateTime)'
   so.intellisense: NSTicketEntity.SetRepliedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRepliedAt(DateTime)'
@@ -1757,6 +1831,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetStatus(NSTicketStatusEntity)
   id: 'SetStatus(NSTicketStatusEntity)'
   so.intellisense: NSTicketEntity.SetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetStatus(NSTicketStatusEntity)'
@@ -1779,6 +1854,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTags(NSTag[])
   id: 'SetTags(NSTag[])'
   so.intellisense: NSTicketEntity.SetTags
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTags(NSTag[])'
@@ -1801,6 +1877,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTicketId(Integer)
   id: 'SetTicketId(Integer)'
   so.intellisense: NSTicketEntity.SetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketId(Integer)'
@@ -1823,6 +1900,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTimeSpentExternally(Integer)
   id: 'SetTimeSpentExternally(Integer)'
   so.intellisense: NSTicketEntity.SetTimeSpentExternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeSpentExternally(Integer)'
@@ -1845,6 +1923,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTimeSpentInternally(Integer)
   id: 'SetTimeSpentInternally(Integer)'
   so.intellisense: NSTicketEntity.SetTimeSpentInternally
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeSpentInternally(Integer)'
@@ -1867,6 +1946,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTimeSpentQueue(Integer)
   id: 'SetTimeSpentQueue(Integer)'
   so.intellisense: NSTicketEntity.SetTimeSpentQueue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeSpentQueue(Integer)'
@@ -1889,6 +1969,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTimeToClose(Integer)
   id: 'SetTimeToClose(Integer)'
   so.intellisense: NSTicketEntity.SetTimeToClose
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeToClose(Integer)'
@@ -1911,6 +1992,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTimeToReply(Integer)
   id: 'SetTimeToReply(Integer)'
   so.intellisense: NSTicketEntity.SetTimeToReply
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimeToReply(Integer)'
@@ -1933,6 +2015,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketEntity.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSTicketEntity.SetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTitle(String)'

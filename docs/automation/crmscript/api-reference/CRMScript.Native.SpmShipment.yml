@@ -65,6 +65,7 @@ items:
   commentId: M:CRMScript.Native.SpmShipment.addListCRMProject(Integer)
   id: 'addListCRMProject(Integer)'
   so.intellisense: SpmShipment.addListCRMProject
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'addListCRMProject(Integer)'
@@ -86,6 +87,7 @@ items:
   commentId: M:CRMScript.Native.SpmShipment.addListCRMSelection(Integer)
   id: 'addListCRMSelection(Integer)'
   so.intellisense: SpmShipment.addListCRMSelection
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'addListCRMSelection(Integer)'
@@ -107,6 +109,7 @@ items:
   commentId: M:CRMScript.Native.SpmShipment.addListSelection(Integer)
   id: 'addListSelection(Integer)'
   so.intellisense: SpmShipment.addListSelection
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'addListSelection(Integer)'
@@ -128,6 +131,7 @@ items:
   commentId: M:CRMScript.Native.SpmShipment.addListTicketSelection(Integer)
   id: 'addListTicketSelection(Integer)'
   so.intellisense: SpmShipment.addListTicketSelection
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'addListTicketSelection(Integer)'

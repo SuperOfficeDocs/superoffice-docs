@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketStatusEntity
   commentId: T:CRMScript.NetServer.NSTicketStatusEntity
   id: NSTicketStatusEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSTicketStatusEntity.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.GetNoEmailReopen()
   id: 'GetNoEmailReopen()'
   so.intellisense: NSTicketStatusEntity.GetNoEmailReopen
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNoEmailReopen()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSTicketStatusEntity.GetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.GetTicketStatusId()
   id: 'GetTicketStatusId()'
   so.intellisense: NSTicketStatusEntity.GetTicketStatusId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketStatusId()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.GetTimeCounter()
   id: 'GetTimeCounter()'
   so.intellisense: NSTicketStatusEntity.GetTimeCounter
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimeCounter()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTicketStatusEntity.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.SetNoEmailReopen(Bool)
   id: 'SetNoEmailReopen(Bool)'
   so.intellisense: NSTicketStatusEntity.SetNoEmailReopen
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNoEmailReopen(Bool)'
@@ -208,6 +216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketStatusEntity.SetTicketStatusId(Integer)
   id: 'SetTicketStatusId(Integer)'
   so.intellisense: NSTicketStatusEntity.SetTicketStatusId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketStatusId(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCriteriaInformation
   commentId: T:CRMScript.NetServer.NSCriteriaInformation
   id: NSCriteriaInformation
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.GetCriteriaArchiveColumns()
   id: 'GetCriteriaArchiveColumns()'
   so.intellisense: NSCriteriaInformation.GetCriteriaArchiveColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCriteriaArchiveColumns()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.GetCriteriaArchiveRows()
   id: 'GetCriteriaArchiveRows()'
   so.intellisense: NSCriteriaInformation.GetCriteriaArchiveRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCriteriaArchiveRows()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.GetRestrictionGroups()
   id: 'GetRestrictionGroups()'
   so.intellisense: NSCriteriaInformation.GetRestrictionGroups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRestrictionGroups()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.GetRestrictions()
   id: 'GetRestrictions()'
   so.intellisense: NSCriteriaInformation.GetRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRestrictions()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.SetCriteriaArchiveColumns(NSArchiveColumnInfo[])
   id: 'SetCriteriaArchiveColumns(NSArchiveColumnInfo[])'
   so.intellisense: NSCriteriaInformation.SetCriteriaArchiveColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCriteriaArchiveColumns(NSArchiveColumnInfo[])'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.SetCriteriaArchiveRows(NSArchiveListItem[])
   id: 'SetCriteriaArchiveRows(NSArchiveListItem[])'
   so.intellisense: NSCriteriaInformation.SetCriteriaArchiveRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCriteriaArchiveRows(NSArchiveListItem[])'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.SetRestrictionGroups(NSArchiveRestrictionGroup[])
   id: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
   so.intellisense: NSCriteriaInformation.SetRestrictionGroups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCriteriaInformation.SetRestrictions(NSArchiveRestrictionInfo[])
   id: 'SetRestrictions(NSArchiveRestrictionInfo[])'
   so.intellisense: NSCriteriaInformation.SetRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRestrictions(NSArchiveRestrictionInfo[])'

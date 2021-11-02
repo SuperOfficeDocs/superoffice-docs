@@ -41,8 +41,8 @@ items:
   - CRMScript.Global.Void.encodeSHA256(String,String)
   - CRMScript.Global.Void.executeDbiAgentSchedule(Integer,Map)
   - CRMScript.Global.Void.executeMacro(String)
-  - CRMScript.Global.Void.executeScript(String,Map)
   - CRMScript.Global.Void.executeSQLQuery(String)
+  - CRMScript.Global.Void.executeScript(String,Map)
   - CRMScript.Global.Void.exitWithMessage(String)
   - CRMScript.Global.Void.faqSearch(Integer,Integer,String,Parser,Integer)
   - CRMScript.Global.Void.findReplyTemplateToMerge(Integer)
@@ -98,6 +98,7 @@ items:
   - CRMScript.Global.Void.getMainMenu()
   - CRMScript.Global.Void.getNtUser()
   - CRMScript.Global.Void.getNumHtmlElements()
+  - CRMScript.Global.Void.getPID()
   - CRMScript.Global.Void.getParser()
   - CRMScript.Global.Void.getParserParameter(String)
   - CRMScript.Global.Void.getParserParameter(String,Integer)
@@ -106,7 +107,6 @@ items:
   - CRMScript.Global.Void.getParserVariable(String,Integer)
   - CRMScript.Global.Void.getParserVariableAsCSV(String,Bool)
   - CRMScript.Global.Void.getParserVariableCount(String)
-  - CRMScript.Global.Void.getPID()
   - CRMScript.Global.Void.getPriorityIdFromName(String)
   - CRMScript.Global.Void.getProgram(Integer)
   - CRMScript.Global.Void.getProgramAdmin()
@@ -220,6 +220,7 @@ items:
   commentId: M:CRMScript.Global.Void.addChatMessage(Integer,String,Integer,String,Integer,String)
   id: 'addChatMessage(Integer,String,Integer,String,Integer,String)'
   so.intellisense: Void.addChatMessage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'addChatMessage(Integer,String,Integer,String,Integer,String)'
@@ -257,6 +258,7 @@ items:
   commentId: M:CRMScript.Global.Void.addChatMessage(Integer,String,Integer,String,Integer,String,DateTime)
   id: 'addChatMessage(Integer,String,Integer,String,Integer,String,DateTime)'
   so.intellisense: Void.addChatMessage
+  so.version: 8.5R10
   langs:
   - crmscript
   name: 'addChatMessage(Integer,String,Integer,String,Integer,String,DateTime)'
@@ -427,6 +429,7 @@ items:
   commentId: M:CRMScript.Global.Void.assert(Bool)
   id: 'assert(Bool)'
   so.intellisense: Void.assert
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'assert(Bool)'
@@ -448,6 +451,7 @@ items:
   commentId: M:CRMScript.Global.Void.assertEquals(Bool,Bool)
   id: 'assertEquals(Bool,Bool)'
   so.intellisense: Void.assertEquals
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'assertEquals(Bool,Bool)'
@@ -472,6 +476,7 @@ items:
   commentId: M:CRMScript.Global.Void.assertEquals(Float,Float)
   id: 'assertEquals(Float,Float)'
   so.intellisense: Void.assertEquals
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'assertEquals(Float,Float)'
@@ -496,6 +501,7 @@ items:
   commentId: M:CRMScript.Global.Void.assertEquals(Integer,Integer)
   id: 'assertEquals(Integer,Integer)'
   so.intellisense: Void.assertEquals
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'assertEquals(Integer,Integer)'
@@ -520,6 +526,7 @@ items:
   commentId: M:CRMScript.Global.Void.assertEquals(String,String)
   id: 'assertEquals(String,String)'
   so.intellisense: Void.assertEquals
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'assertEquals(String,String)'
@@ -544,6 +551,7 @@ items:
   commentId: M:CRMScript.Global.Void.buildUrl()
   id: 'buildUrl()'
   so.intellisense: Void.buildUrl
+  so.version: 4.8.1
   langs:
   - crmscript
   name: 'buildUrl()'
@@ -563,6 +571,7 @@ items:
   commentId: M:CRMScript.Global.Void.cgiWasPost()
   id: 'cgiWasPost()'
   so.intellisense: Void.cgiWasPost
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'cgiWasPost()'
@@ -582,6 +591,7 @@ items:
   commentId: M:CRMScript.Global.Void.checkReply(String)
   id: 'checkReply(String)'
   so.intellisense: Void.checkReply
+  so.version: 4.0.99
   langs:
   - crmscript
   name: 'checkReply(String)'
@@ -604,6 +614,7 @@ items:
   commentId: M:CRMScript.Global.Void.combineHtmlStrings(Vector)
   id: 'combineHtmlStrings(Vector)'
   so.intellisense: Void.combineHtmlStrings
+  so.version: 4.9.1
   langs:
   - crmscript
   name: 'combineHtmlStrings(Vector)'
@@ -626,6 +637,7 @@ items:
   commentId: M:CRMScript.Global.Void.convertStatus(Integer)
   id: 'convertStatus(Integer)'
   so.intellisense: Void.convertStatus
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'convertStatus(Integer)'
@@ -648,6 +660,7 @@ items:
   commentId: M:CRMScript.Global.Void.copyCRMDocumentToAttachment(Integer)
   id: 'copyCRMDocumentToAttachment(Integer)'
   so.intellisense: Void.copyCRMDocumentToAttachment
+  so.version: 8.5R06
   langs:
   - crmscript
   name: 'copyCRMDocumentToAttachment(Integer)'
@@ -691,6 +704,7 @@ items:
   commentId: M:CRMScript.Global.Void.decodeBase64(String)
   id: 'decodeBase64(String)'
   so.intellisense: Void.decodeBase64
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'decodeBase64(String)'
@@ -713,6 +727,7 @@ items:
   commentId: M:CRMScript.Global.Void.decodeBase64AsStream(String)
   id: 'decodeBase64AsStream(String)'
   so.intellisense: Void.decodeBase64AsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'decodeBase64AsStream(String)'
@@ -735,6 +750,7 @@ items:
   commentId: M:CRMScript.Global.Void.decodeDBValue(String)
   id: 'decodeDBValue(String)'
   so.intellisense: Void.decodeDBValue
+  so.version: 8.4R02
   langs:
   - crmscript
   name: 'decodeDBValue(String)'
@@ -778,6 +794,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeBase64(Byte[])
   id: 'encodeBase64(Byte[])'
   so.intellisense: Void.encodeBase64
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'encodeBase64(Byte[])'
@@ -800,6 +817,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeBase64(Byte[],Bool)
   id: 'encodeBase64(Byte[],Bool)'
   so.intellisense: Void.encodeBase64
+  so.version: 8.4R05
   langs:
   - crmscript
   name: 'encodeBase64(Byte[],Bool)'
@@ -825,6 +843,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeBase64(NSStream)
   id: 'encodeBase64(NSStream)'
   so.intellisense: Void.encodeBase64
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'encodeBase64(NSStream)'
@@ -847,6 +866,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeBase64(NSStream,Bool)
   id: 'encodeBase64(NSStream,Bool)'
   so.intellisense: Void.encodeBase64
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'encodeBase64(NSStream,Bool)'
@@ -872,6 +892,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeHMACSHA1(String,String)
   id: 'encodeHMACSHA1(String,String)'
   so.intellisense: Void.encodeHMACSHA1
+  so.version: 8.4R09
   langs:
   - crmscript
   name: 'encodeHMACSHA1(String,String)'
@@ -897,6 +918,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeHMACSHA256(String,String)
   id: 'encodeHMACSHA256(String,String)'
   so.intellisense: Void.encodeHMACSHA256
+  so.version: 8.4R05
   langs:
   - crmscript
   name: 'encodeHMACSHA256(String,String)'
@@ -948,6 +970,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeSHA1(String)
   id: 'encodeSHA1(String)'
   so.intellisense: Void.encodeSHA1
+  so.version: 8.1
   langs:
   - crmscript
   name: 'encodeSHA1(String)'
@@ -971,6 +994,7 @@ items:
   commentId: M:CRMScript.Global.Void.encodeSHA256(String,String)
   id: 'encodeSHA256(String,String)'
   so.intellisense: Void.encodeSHA256
+  so.version: 8.1
   langs:
   - crmscript
   name: 'encodeSHA256(String,String)'
@@ -1021,6 +1045,7 @@ items:
   commentId: M:CRMScript.Global.Void.executeMacro(String)
   id: 'executeMacro(String)'
   so.intellisense: Void.executeMacro
+  so.version: 7.5
   langs:
   - crmscript
   name: 'executeMacro(String)'
@@ -1043,6 +1068,7 @@ items:
   commentId: M:CRMScript.Global.Void.executeScript(String,Map)
   id: 'executeScript(String,Map)'
   so.intellisense: Void.executeScript
+  so.version: 4.10.1
   langs:
   - crmscript
   name: 'executeScript(String,Map)'
@@ -1090,6 +1116,7 @@ items:
   commentId: M:CRMScript.Global.Void.exitWithMessage(String)
   id: 'exitWithMessage(String)'
   so.intellisense: Void.exitWithMessage
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'exitWithMessage(String)'
@@ -1111,6 +1138,7 @@ items:
   commentId: M:CRMScript.Global.Void.faqSearch(Integer,Integer,String,Parser,Integer)
   id: 'faqSearch(Integer,Integer,String,Parser,Integer)'
   so.intellisense: Void.faqSearch
+  so.version: 3.1.3
   langs:
   - crmscript
   name: 'faqSearch(Integer,Integer,String,Parser,Integer)'
@@ -1144,6 +1172,7 @@ items:
   commentId: M:CRMScript.Global.Void.findReplyTemplateToMerge(Integer)
   id: 'findReplyTemplateToMerge(Integer)'
   so.intellisense: Void.findReplyTemplateToMerge
+  so.version: 4.3.3
   langs:
   - crmscript
   name: 'findReplyTemplateToMerge(Integer)'
@@ -1166,6 +1195,7 @@ items:
   commentId: M:CRMScript.Global.Void.flushCaches()
   id: 'flushCaches()'
   so.intellisense: Void.flushCaches
+  so.version: 7.0
   langs:
   - crmscript
   name: 'flushCaches()'
@@ -1211,6 +1241,7 @@ items:
   commentId: M:CRMScript.Global.Void.getActiveUser()
   id: 'getActiveUser()'
   so.intellisense: Void.getActiveUser
+  so.version: 4.10.1
   langs:
   - crmscript
   name: 'getActiveUser()'
@@ -1230,6 +1261,7 @@ items:
   commentId: M:CRMScript.Global.Void.getAgentId(String)
   id: 'getAgentId(String)'
   so.intellisense: Void.getAgentId
+  so.version: 4.2.1
   langs:
   - crmscript
   name: 'getAgentId(String)'
@@ -1252,6 +1284,7 @@ items:
   commentId: M:CRMScript.Global.Void.getAgentScheduleId(String)
   id: 'getAgentScheduleId(String)'
   so.intellisense: Void.getAgentScheduleId
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'getAgentScheduleId(String)'
@@ -1274,6 +1307,7 @@ items:
   commentId: M:CRMScript.Global.Void.getAttachmentsSize(Integer[])
   id: 'getAttachmentsSize(Integer[])'
   so.intellisense: Void.getAttachmentsSize
+  so.version: 8.4R07
   langs:
   - crmscript
   name: 'getAttachmentsSize(Integer[])'
@@ -1296,6 +1330,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCategoryIdFromFullname(String)
   id: 'getCategoryIdFromFullname(String)'
   so.intellisense: Void.getCategoryIdFromFullname
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getCategoryIdFromFullname(String)'
@@ -1318,6 +1353,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCgiContent()
   id: 'getCgiContent()'
   so.intellisense: Void.getCgiContent
+  so.version: 4.8.15
   langs:
   - crmscript
   name: 'getCgiContent()'
@@ -1378,6 +1414,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCgiVariableArray(String)
   id: 'getCgiVariableArray(String)'
   so.intellisense: Void.getCgiVariableArray
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'getCgiVariableArray(String)'
@@ -1400,6 +1437,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCgiVariables()
   id: 'getCgiVariables()'
   so.intellisense: Void.getCgiVariables
+  so.version: 4.0.1
   langs:
   - crmscript
   name: 'getCgiVariables()'
@@ -1464,6 +1502,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCurrentDate()
   id: 'getCurrentDate()'
   so.intellisense: Void.getCurrentDate
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getCurrentDate()'
@@ -1484,6 +1523,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCurrentDateTime()
   id: 'getCurrentDateTime()'
   so.intellisense: Void.getCurrentDateTime
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getCurrentDateTime()'
@@ -1504,6 +1544,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCurrentTime()
   id: 'getCurrentTime()'
   so.intellisense: Void.getCurrentTime
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getCurrentTime()'
@@ -1523,6 +1564,7 @@ items:
   commentId: M:CRMScript.Global.Void.getCustomerMainEmail(Integer)
   id: 'getCustomerMainEmail(Integer)'
   so.intellisense: Void.getCustomerMainEmail
+  so.version: 7.5.0
   langs:
   - crmscript
   name: 'getCustomerMainEmail(Integer)'
@@ -1564,6 +1606,7 @@ items:
   commentId: M:CRMScript.Global.Void.getDefaultElementConfig(Integer,String,String)
   id: 'getDefaultElementConfig(Integer,String,String)'
   so.intellisense: Void.getDefaultElementConfig
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'getDefaultElementConfig(Integer,String,String)'
@@ -1592,6 +1635,7 @@ items:
   commentId: M:CRMScript.Global.Void.getDocumentId(String)
   id: 'getDocumentId(String)'
   so.intellisense: Void.getDocumentId
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'getDocumentId(String)'
@@ -1637,6 +1681,7 @@ items:
   commentId: M:CRMScript.Global.Void.getEventData()
   id: 'getEventData()'
   so.intellisense: Void.getEventData
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getEventData()'
@@ -1655,6 +1700,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExecutable()
   id: 'getExecutable()'
   so.intellisense: Void.getExecutable
+  so.version: 7.5.0
   langs:
   - crmscript
   name: 'getExecutable()'
@@ -1674,6 +1720,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgram(Integer)
   id: 'getExternalProgram(Integer)'
   so.intellisense: Void.getExternalProgram
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgram(Integer)'
@@ -1696,6 +1743,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramAdmin()
   id: 'getExternalProgramAdmin()'
   so.intellisense: Void.getExternalProgramAdmin
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramAdmin()'
@@ -1715,6 +1763,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramAjax()
   id: 'getExternalProgramAjax()'
   so.intellisense: Void.getExternalProgramAjax
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramAjax()'
@@ -1734,6 +1783,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramBlogic()
   id: 'getExternalProgramBlogic()'
   so.intellisense: Void.getExternalProgramBlogic
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramBlogic()'
@@ -1753,6 +1803,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramChat()
   id: 'getExternalProgramChat()'
   so.intellisense: Void.getExternalProgramChat
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramChat()'
@@ -1772,6 +1823,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramCustomer()
   id: 'getExternalProgramCustomer()'
   so.intellisense: Void.getExternalProgramCustomer
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramCustomer()'
@@ -1791,6 +1843,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramDocument()
   id: 'getExternalProgramDocument()'
   so.intellisense: Void.getExternalProgramDocument
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramDocument()'
@@ -1810,6 +1863,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramHelp()
   id: 'getExternalProgramHelp()'
   so.intellisense: Void.getExternalProgramHelp
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramHelp()'
@@ -1829,6 +1883,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramKnowledge()
   id: 'getExternalProgramKnowledge()'
   so.intellisense: Void.getExternalProgramKnowledge
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramKnowledge()'
@@ -1848,6 +1903,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramRms()
   id: 'getExternalProgramRms()'
   so.intellisense: Void.getExternalProgramRms
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramRms()'
@@ -1867,6 +1923,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramSoap()
   id: 'getExternalProgramSoap()'
   so.intellisense: Void.getExternalProgramSoap
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramSoap()'
@@ -1886,6 +1943,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramStat()
   id: 'getExternalProgramStat()'
   so.intellisense: Void.getExternalProgramStat
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramStat()'
@@ -1905,6 +1963,7 @@ items:
   commentId: M:CRMScript.Global.Void.getExternalProgramTicket()
   id: 'getExternalProgramTicket()'
   so.intellisense: Void.getExternalProgramTicket
+  so.version: 8.0.0
   langs:
   - crmscript
   name: 'getExternalProgramTicket()'
@@ -1987,6 +2046,7 @@ items:
   commentId: M:CRMScript.Global.Void.getGlobalStaticMap()
   id: 'getGlobalStaticMap()'
   so.intellisense: Void.getGlobalStaticMap
+  so.version: 4.8.1
   langs:
   - crmscript
   name: 'getGlobalStaticMap()'
@@ -2006,6 +2066,7 @@ items:
   commentId: M:CRMScript.Global.Void.getGlobalVariable(String)
   id: 'getGlobalVariable(String)'
   so.intellisense: Void.getGlobalVariable
+  so.version: 4.9.1
   langs:
   - crmscript
   name: 'getGlobalVariable(String)'
@@ -2050,6 +2111,7 @@ items:
   commentId: M:CRMScript.Global.Void.getHtmlElementIndex(String)
   id: 'getHtmlElementIndex(String)'
   so.intellisense: Void.getHtmlElementIndex
+  so.version: 3.1.3
   langs:
   - crmscript
   name: 'getHtmlElementIndex(String)'
@@ -2221,6 +2283,7 @@ items:
   commentId: M:CRMScript.Global.Void.getNumHtmlElements()
   id: 'getNumHtmlElements()'
   so.intellisense: Void.getNumHtmlElements
+  so.version: 4.3.5
   langs:
   - crmscript
   name: 'getNumHtmlElements()'
@@ -2422,6 +2485,7 @@ items:
   commentId: M:CRMScript.Global.Void.getPID()
   id: 'getPID()'
   so.intellisense: Void.getPID
+  so.version: 7.5.0
   langs:
   - crmscript
   name: 'getPID()'
@@ -2441,6 +2505,7 @@ items:
   commentId: M:CRMScript.Global.Void.getPriorityIdFromName(String)
   id: 'getPriorityIdFromName(String)'
   so.intellisense: Void.getPriorityIdFromName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getPriorityIdFromName(String)'
@@ -2485,6 +2550,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramAdmin()
   id: 'getProgramAdmin()'
   so.intellisense: Void.getProgramAdmin
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramAdmin()'
@@ -2504,6 +2570,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramAjax()
   id: 'getProgramAjax()'
   so.intellisense: Void.getProgramAjax
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramAjax()'
@@ -2523,6 +2590,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramBlogic()
   id: 'getProgramBlogic()'
   so.intellisense: Void.getProgramBlogic
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramBlogic()'
@@ -2542,6 +2610,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramChat()
   id: 'getProgramChat()'
   so.intellisense: Void.getProgramChat
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramChat()'
@@ -2561,6 +2630,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramCustomer()
   id: 'getProgramCustomer()'
   so.intellisense: Void.getProgramCustomer
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramCustomer()'
@@ -2580,6 +2650,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramDocument()
   id: 'getProgramDocument()'
   so.intellisense: Void.getProgramDocument
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramDocument()'
@@ -2599,6 +2670,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramHelp()
   id: 'getProgramHelp()'
   so.intellisense: Void.getProgramHelp
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramHelp()'
@@ -2618,6 +2690,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramKnowledge()
   id: 'getProgramKnowledge()'
   so.intellisense: Void.getProgramKnowledge
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramKnowledge()'
@@ -2637,6 +2710,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramRms()
   id: 'getProgramRms()'
   so.intellisense: Void.getProgramRms
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramRms()'
@@ -2656,6 +2730,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramSoap()
   id: 'getProgramSoap()'
   so.intellisense: Void.getProgramSoap
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramSoap()'
@@ -2675,6 +2750,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramStat()
   id: 'getProgramStat()'
   so.intellisense: Void.getProgramStat
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramStat()'
@@ -2694,6 +2770,7 @@ items:
   commentId: M:CRMScript.Global.Void.getProgramTicket()
   id: 'getProgramTicket()'
   so.intellisense: Void.getProgramTicket
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getProgramTicket()'
@@ -2854,6 +2931,7 @@ items:
   commentId: M:CRMScript.Global.Void.getScriptId(String)
   id: 'getScriptId(String)'
   so.intellisense: Void.getScriptId
+  so.version: 4.2.1
   langs:
   - crmscript
   name: 'getScriptId(String)'
@@ -2876,6 +2954,7 @@ items:
   commentId: M:CRMScript.Global.Void.getSelectionIds(Integer)
   id: 'getSelectionIds(Integer)'
   so.intellisense: Void.getSelectionIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getSelectionIds(Integer)'
@@ -2898,6 +2977,7 @@ items:
   commentId: M:CRMScript.Global.Void.getSessionVariable(String)
   id: 'getSessionVariable(String)'
   so.intellisense: Void.getSessionVariable
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getSessionVariable(String)'
@@ -2920,6 +3000,7 @@ items:
   commentId: M:CRMScript.Global.Void.getSessionVariables()
   id: 'getSessionVariables()'
   so.intellisense: Void.getSessionVariables
+  so.version: 7.1.0
   langs:
   - crmscript
   name: 'getSessionVariables()'
@@ -2939,6 +3020,7 @@ items:
   commentId: M:CRMScript.Global.Void.getStatusIdFromName(String)
   id: 'getStatusIdFromName(String)'
   so.intellisense: Void.getStatusIdFromName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getStatusIdFromName(String)'
@@ -2980,6 +3062,7 @@ items:
   commentId: M:CRMScript.Global.Void.getSystemLang()
   id: 'getSystemLang()'
   so.intellisense: Void.getSystemLang
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'getSystemLang()'
@@ -2999,6 +3082,7 @@ items:
   commentId: M:CRMScript.Global.Void.getUserLang()
   id: 'getUserLang()'
   so.intellisense: Void.getUserLang
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'getUserLang()'
@@ -3018,6 +3102,7 @@ items:
   commentId: M:CRMScript.Global.Void.getUsername(Integer)
   id: 'getUsername(Integer)'
   so.intellisense: Void.getUsername
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getUsername(Integer)'
@@ -3062,6 +3147,7 @@ items:
   commentId: M:CRMScript.Global.Void.getVariables()
   id: 'getVariables()'
   so.intellisense: Void.getVariables
+  so.version: 7.1.0
   langs:
   - crmscript
   name: 'getVariables()'
@@ -3122,6 +3208,7 @@ items:
   commentId: M:CRMScript.Global.Void.idToLang(Integer)
   id: 'idToLang(Integer)'
   so.intellisense: Void.idToLang
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'idToLang(Integer)'
@@ -3144,6 +3231,7 @@ items:
   commentId: M:CRMScript.Global.Void.invoiceTypesExists()
   id: 'invoiceTypesExists()'
   so.intellisense: Void.invoiceTypesExists
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'invoiceTypesExists()'
@@ -3188,6 +3276,7 @@ items:
   commentId: M:CRMScript.Global.Void.langToId(String)
   id: 'langToId(String)'
   so.intellisense: Void.langToId
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'langToId(String)'
@@ -3346,6 +3435,7 @@ items:
   commentId: M:CRMScript.Global.Void.parseJSON(String)
   id: 'parseJSON(String)'
   so.intellisense: Void.parseJSON
+  so.version: 4.8.1
   langs:
   - crmscript
   name: 'parseJSON(String)'
@@ -3368,6 +3458,7 @@ items:
   commentId: M:CRMScript.Global.Void.parseJSON2(String)
   id: 'parseJSON2(String)'
   so.intellisense: Void.parseJSON2
+  so.version: 8.4R03
   langs:
   - crmscript
   name: 'parseJSON2(String)'
@@ -3390,6 +3481,7 @@ items:
   commentId: M:CRMScript.Global.Void.parseXML(String)
   id: 'parseXML(String)'
   so.intellisense: Void.parseXML
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'parseXML(String)'
@@ -3458,6 +3550,7 @@ items:
   commentId: M:CRMScript.Global.Void.printBinary(Byte[])
   id: 'printBinary(Byte[])'
   so.intellisense: Void.printBinary
+  so.version: 4.10.2
   langs:
   - crmscript
   name: 'printBinary(Byte[])'
@@ -3479,6 +3572,7 @@ items:
   commentId: M:CRMScript.Global.Void.printBinary(NSStream)
   id: 'printBinary(NSStream)'
   so.intellisense: Void.printBinary
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'printBinary(NSStream)'
@@ -3521,6 +3615,7 @@ items:
   commentId: M:CRMScript.Global.Void.printLine(String)
   id: 'printLine(String)'
   so.intellisense: Void.printLine
+  so.version: 7.0
   langs:
   - crmscript
   name: 'printLine(String)'
@@ -3589,6 +3684,7 @@ items:
   commentId: M:CRMScript.Global.Void.removeHtmlElement(Integer)
   id: 'removeHtmlElement(Integer)'
   so.intellisense: Void.removeHtmlElement
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'removeHtmlElement(Integer)'
@@ -3610,6 +3706,7 @@ items:
   commentId: M:CRMScript.Global.Void.resetChat(Integer)
   id: 'resetChat(Integer)'
   so.intellisense: Void.resetChat
+  so.version: 8.5R10
   langs:
   - crmscript
   name: 'resetChat(Integer)'
@@ -3723,6 +3820,7 @@ items:
   commentId: M:CRMScript.Global.Void.setChatStatus(Integer,Integer)
   id: 'setChatStatus(Integer,Integer)'
   so.intellisense: Void.setChatStatus
+  so.version: 8.2
   langs:
   - crmscript
   name: 'setChatStatus(Integer,Integer)'
@@ -3817,6 +3915,7 @@ items:
   commentId: M:CRMScript.Global.Void.setGlobalVariable(String,String)
   id: 'setGlobalVariable(String,String)'
   so.intellisense: Void.setGlobalVariable
+  so.version: 4.9.1
   langs:
   - crmscript
   name: 'setGlobalVariable(String,String)'
@@ -3886,6 +3985,7 @@ items:
   commentId: M:CRMScript.Global.Void.setPageOnLoad(String)
   id: 'setPageOnLoad(String)'
   so.intellisense: Void.setPageOnLoad
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setPageOnLoad(String)'
@@ -3907,6 +4007,7 @@ items:
   commentId: M:CRMScript.Global.Void.setPageRefresh(Integer)
   id: 'setPageRefresh(Integer)'
   so.intellisense: Void.setPageRefresh
+  so.version: 3.1.1
   langs:
   - crmscript
   name: 'setPageRefresh(Integer)'
@@ -3928,6 +4029,7 @@ items:
   commentId: M:CRMScript.Global.Void.setPageTitle(String)
   id: 'setPageTitle(String)'
   so.intellisense: Void.setPageTitle
+  so.version: 3.1.5
   langs:
   - crmscript
   name: 'setPageTitle(String)'
@@ -3973,6 +4075,7 @@ items:
   commentId: M:CRMScript.Global.Void.setSessionVariable(String,String)
   id: 'setSessionVariable(String,String)'
   so.intellisense: Void.setSessionVariable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'setSessionVariable(String,String)'
@@ -3998,6 +4101,7 @@ items:
   commentId: M:CRMScript.Global.Void.setUserIsTyping(Integer,Bool)
   id: 'setUserIsTyping(Integer,Bool)'
   so.intellisense: Void.setUserIsTyping
+  so.version: 8.5R10
   langs:
   - crmscript
   name: 'setUserIsTyping(Integer,Bool)'
@@ -4046,6 +4150,7 @@ items:
   commentId: M:CRMScript.Global.Void.simpleTwoWay(Byte[])
   id: 'simpleTwoWay(Byte[])'
   so.intellisense: Void.simpleTwoWay
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'simpleTwoWay(Byte[])'

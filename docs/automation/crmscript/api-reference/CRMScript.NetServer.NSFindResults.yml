@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFindResults
   commentId: T:CRMScript.NetServer.NSFindResults
   id: NSFindResults
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.GetArchiveColumns()
   id: 'GetArchiveColumns()'
   so.intellisense: NSFindResults.GetArchiveColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveColumns()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.GetArchiveRows()
   id: 'GetArchiveRows()'
   so.intellisense: NSFindResults.GetArchiveRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveRows()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.GetRowCount()
   id: 'GetRowCount()'
   so.intellisense: NSFindResults.GetRowCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRowCount()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
   id: 'SetArchiveColumns(NSArchiveColumnInfo[])'
   so.intellisense: NSFindResults.SetArchiveColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArchiveColumns(NSArchiveColumnInfo[])'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
   id: 'SetArchiveRows(NSArchiveListItem[])'
   so.intellisense: NSFindResults.SetArchiveRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArchiveRows(NSArchiveListItem[])'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindResults.SetRowCount(Integer)
   id: 'SetRowCount(Integer)'
   so.intellisense: NSFindResults.SetRowCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRowCount(Integer)'

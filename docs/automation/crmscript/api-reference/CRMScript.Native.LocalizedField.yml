@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.LocalizedField
   commentId: T:CRMScript.Native.LocalizedField
   id: LocalizedField
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -43,6 +44,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getAddressType()
   id: 'getAddressType()'
   so.intellisense: LocalizedField.getAddressType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getAddressType()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getLabel()
   id: 'getLabel()'
   so.intellisense: LocalizedField.getLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getLabel()'
@@ -81,6 +84,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getName()
   id: 'getName()'
   so.intellisense: LocalizedField.getName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getName()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getTooltip()
   id: 'getTooltip()'
   so.intellisense: LocalizedField.getTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getTooltip()'
@@ -119,6 +124,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getValue()
   id: 'getValue()'
   so.intellisense: LocalizedField.getValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getValue()'
@@ -138,6 +144,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.getValueLength()
   id: 'getValueLength()'
   so.intellisense: LocalizedField.getValueLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getValueLength()'
@@ -157,6 +164,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.setName(String)
   id: 'setName(String)'
   so.intellisense: LocalizedField.setName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'setName(String)'
@@ -178,6 +186,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.setTooltip(String)
   id: 'setTooltip(String)'
   so.intellisense: LocalizedField.setTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'setTooltip(String)'
@@ -199,6 +208,7 @@ items:
   commentId: M:CRMScript.Native.LocalizedField.setValue(String)
   id: 'setValue(String)'
   so.intellisense: LocalizedField.setValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'setValue(String)'

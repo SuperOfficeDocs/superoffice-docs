@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteAlternativeRecalculated
   commentId: T:CRMScript.NetServer.NSQuoteAlternativeRecalculated
   id: NSQuoteAlternativeRecalculated
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative()
   id: 'GetChangedQuoteAlternative()'
   so.intellisense: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedQuoteAlternative()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.GetChanges()
   id: 'GetChanges()'
   so.intellisense: NSQuoteAlternativeRecalculated.GetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChanges()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged()
   id: 'GetQuoteLinesHasChanged()'
   so.intellisense: NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLinesHasChanged()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative(NSQuoteAlternative)
   id: 'SetChangedQuoteAlternative(NSQuoteAlternative)'
   so.intellisense: NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChangedQuoteAlternative(NSQuoteAlternative)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.SetChanges(NSChangedData)
   id: 'SetChanges(NSChangedData)'
   so.intellisense: NSQuoteAlternativeRecalculated.SetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChanges(NSChangedData)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged(Bool)
   id: 'SetQuoteLinesHasChanged(Bool)'
   so.intellisense: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteLinesHasChanged(Bool)'

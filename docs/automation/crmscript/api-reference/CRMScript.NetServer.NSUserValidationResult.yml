@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserValidationResult
   commentId: T:CRMScript.NetServer.NSUserValidationResult
   id: NSUserValidationResult
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserValidationResult.GetReason()
   id: 'GetReason()'
   so.intellisense: NSUserValidationResult.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserValidationResult.GetResult()
   id: 'GetResult()'
   so.intellisense: NSUserValidationResult.GetResult
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetResult()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserValidationResult.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSUserValidationResult.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserValidationResult.SetResult(Bool)
   id: 'SetResult(Bool)'
   so.intellisense: NSUserValidationResult.SetResult
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetResult(Bool)'

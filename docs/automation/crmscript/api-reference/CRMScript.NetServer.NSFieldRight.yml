@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldRight
   commentId: T:CRMScript.NetServer.NSFieldRight
   id: NSFieldRight
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.GetFieldRight()
   id: 'GetFieldRight()'
   so.intellisense: NSFieldRight.GetFieldRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldRight()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.GetMask()
   id: 'GetMask()'
   so.intellisense: NSFieldRight.GetMask
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMask()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.GetReason()
   id: 'GetReason()'
   so.intellisense: NSFieldRight.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -95,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.SetFieldRight(Integer)
   id: 'SetFieldRight(Integer)'
   so.intellisense: NSFieldRight.SetFieldRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldRight(Integer)'
@@ -116,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.SetMask(Integer)
   id: 'SetMask(Integer)'
   so.intellisense: NSFieldRight.SetMask
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMask(Integer)'
@@ -137,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldRight.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSFieldRight.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(String)'

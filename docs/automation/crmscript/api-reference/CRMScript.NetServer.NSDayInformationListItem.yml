@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDayInformationListItem
   commentId: T:CRMScript.NetServer.NSDayInformationListItem
   id: NSDayInformationListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetActivityInformation()
   id: 'GetActivityInformation()'
   so.intellisense: NSDayInformationListItem.GetActivityInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActivityInformation()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetDate()
   id: 'GetDate()'
   so.intellisense: NSDayInformationListItem.GetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDate()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetRedLetterInformation()
   id: 'GetRedLetterInformation()'
   so.intellisense: NSDayInformationListItem.GetRedLetterInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRedLetterInformation()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
   id: 'SetActivityInformation(NSActivitySummary)'
   so.intellisense: NSDayInformationListItem.SetActivityInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityInformation(NSActivitySummary)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSDayInformationListItem.SetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDate(DateTime)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
   id: 'SetRedLetterInformation(NSRedLetterSummary)'
   so.intellisense: NSDayInformationListItem.SetRedLetterInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRedLetterInformation(NSRedLetterSummary)'

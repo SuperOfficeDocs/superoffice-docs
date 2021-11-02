@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldProperty
   commentId: T:CRMScript.NetServer.NSFieldProperty
   id: NSFieldProperty
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldLength()
   id: 'GetFieldLength()'
   so.intellisense: NSFieldProperty.GetFieldLength
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldLength()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldRight()
   id: 'GetFieldRight()'
   so.intellisense: NSFieldProperty.GetFieldRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldRight()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldType()
   id: 'GetFieldType()'
   so.intellisense: NSFieldProperty.GetFieldType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldType()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.GetLength()
   id: 'GetLength()'
   so.intellisense: NSFieldProperty.GetLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLength()'
@@ -116,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.GetType()
   id: 'GetType()'
   so.intellisense: NSFieldProperty.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -135,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldLength(Integer)
   id: 'SetFieldLength(Integer)'
   so.intellisense: NSFieldProperty.SetFieldLength
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFieldLength(Integer)'
@@ -156,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldRight(NSFieldRight)
   id: 'SetFieldRight(NSFieldRight)'
   so.intellisense: NSFieldProperty.SetFieldRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldRight(NSFieldRight)'
@@ -177,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldType(String)
   id: 'SetFieldType(String)'
   so.intellisense: NSFieldProperty.SetFieldType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFieldType(String)'
@@ -198,6 +207,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.SetLength(Integer)
   id: 'SetLength(Integer)'
   so.intellisense: NSFieldProperty.SetLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLength(Integer)'
@@ -219,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldProperty.SetType(String)
   id: 'SetType(String)'
   so.intellisense: NSFieldProperty.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(String)'

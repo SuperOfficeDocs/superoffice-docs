@@ -83,6 +83,7 @@ items:
   commentId: M:CRMScript.Native.ExtraTable.getValues()
   id: 'getValues()'
   so.intellisense: ExtraTable.getValues
+  so.version: 8.4R02
   langs:
   - crmscript
   name: 'getValues()'

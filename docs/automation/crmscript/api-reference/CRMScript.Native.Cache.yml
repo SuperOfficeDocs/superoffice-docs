@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.Cache
   commentId: T:CRMScript.Native.Cache
   id: Cache
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.Native.Cache.eof()
   id: 'eof()'
   so.intellisense: Cache.eof
+  so.version: 7.5
   langs:
   - crmscript
   name: 'eof()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.Native.Cache.first()
   id: 'first()'
   so.intellisense: Cache.first
+  so.version: 7.5
   langs:
   - crmscript
   name: 'first()'
@@ -77,6 +80,7 @@ items:
   commentId: M:CRMScript.Native.Cache.getData(String)
   id: 'getData(String)'
   so.intellisense: Cache.getData
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getData(String)'
@@ -99,6 +103,7 @@ items:
   commentId: M:CRMScript.Native.Cache.getDataSubset(String,String,String)
   id: 'getDataSubset(String,String,String)'
   so.intellisense: Cache.getDataSubset
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getDataSubset(String,String,String)'
@@ -127,6 +132,7 @@ items:
   commentId: M:CRMScript.Native.Cache.getRow()
   id: 'getRow()'
   so.intellisense: Cache.getRow
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getRow()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.Native.Cache.next()
   id: 'next()'
   so.intellisense: Cache.next
+  so.version: 7.5
   langs:
   - crmscript
   name: 'next()'
@@ -165,6 +172,7 @@ items:
   commentId: M:CRMScript.Native.Cache.sort(String,Bool)
   id: 'sort(String,Bool)'
   so.intellisense: Cache.sort
+  so.version: 7.5
   langs:
   - crmscript
   name: 'sort(String,Bool)'

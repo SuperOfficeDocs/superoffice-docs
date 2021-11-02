@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoBool
   commentId: T:CRMScript.NetServer.NSFieldInfoBool
   id: NSFieldInfoBool
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -34,6 +35,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBool.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoBool.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -54,6 +56,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBool.SetDefaultValue(Bool)
   id: 'SetDefaultValue(Bool)'
   so.intellisense: NSFieldInfoBool.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Bool)'

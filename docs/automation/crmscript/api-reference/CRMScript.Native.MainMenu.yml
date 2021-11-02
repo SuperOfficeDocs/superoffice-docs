@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.MainMenu
   commentId: T:CRMScript.Native.MainMenu
   id: MainMenu
+  so.version: 3.0.10
   langs:
   - crmscript
   children:
@@ -32,6 +33,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addGroup(String,String)
   id: 'addGroup(String,String)'
   so.intellisense: MainMenu.addGroup
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'addGroup(String,String)'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addGroup(String,String,Integer)
   id: 'addGroup(String,String,Integer)'
   so.intellisense: MainMenu.addGroup
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'addGroup(String,String,Integer)'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addItem(String,String)
   id: 'addItem(String,String)'
   so.intellisense: MainMenu.addItem
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'addItem(String,String)'
@@ -141,6 +145,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer)
   id: 'addItem(String,String,Integer,Integer)'
   so.intellisense: MainMenu.addItem
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'addItem(String,String,Integer,Integer)'
@@ -172,6 +177,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String)
   id: 'addItem(String,String,Integer,Integer,String,String,String)'
   so.intellisense: MainMenu.addItem
+  so.version: 7.5.0
   langs:
   - crmscript
   name: 'addItem(String,String,Integer,Integer,String,String,String)'
@@ -212,6 +218,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
   id: 'addItem(String,String,Integer,Integer,String,String,String,String)'
   so.intellisense: MainMenu.addItem
+  so.version: 8.1
   langs:
   - crmscript
   name: 'addItem(String,String,Integer,Integer,String,String,String,String)'
@@ -255,6 +262,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.clear()
   id: 'clear()'
   so.intellisense: MainMenu.clear
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'clear()'
@@ -273,6 +281,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.deleteGroup(Integer)
   id: 'deleteGroup(Integer)'
   so.intellisense: MainMenu.deleteGroup
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'deleteGroup(Integer)'
@@ -295,6 +304,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.deleteItem(Integer,Integer)
   id: 'deleteItem(Integer,Integer)'
   so.intellisense: MainMenu.deleteItem
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'deleteItem(Integer,Integer)'
@@ -319,6 +329,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.getGroupId(Integer)
   id: 'getGroupId(Integer)'
   so.intellisense: MainMenu.getGroupId
+  so.version: 4.4.1
   langs:
   - crmscript
   name: 'getGroupId(Integer)'
@@ -365,6 +376,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.getItemId(Integer,Integer)
   id: 'getItemId(Integer,Integer)'
   so.intellisense: MainMenu.getItemId
+  so.version: 4.4.1
   langs:
   - crmscript
   name: 'getItemId(Integer,Integer)'
@@ -391,6 +403,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.getItemIndex(Integer,String)
   id: 'getItemIndex(Integer,String)'
   so.intellisense: MainMenu.getItemIndex
+  so.version: 4.4.1
   langs:
   - crmscript
   name: 'getItemIndex(Integer,String)'
@@ -417,6 +430,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.getNumGroups()
   id: 'getNumGroups()'
   so.intellisense: MainMenu.getNumGroups
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'getNumGroups()'
@@ -437,6 +451,7 @@ items:
   commentId: M:CRMScript.Native.MainMenu.getNumItems(Integer)
   id: 'getNumItems(Integer)'
   so.intellisense: MainMenu.getNumItems
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'getNumItems(Integer)'

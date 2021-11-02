@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSContactAgent
   commentId: T:CRMScript.NetServer.NSContactAgent
   id: NSContactAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -23,7 +24,7 @@ items:
   - CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
   - CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
   - CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
-  - CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  - CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime,Integer[],Integer)
   - CRMScript.NetServer.NSContactAgent.GetMyBizCard()
   - CRMScript.NetServer.NSContactAgent.GetMyContact()
   - CRMScript.NetServer.NSContactAgent.GetMyContacts()
@@ -65,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.AddPerson(Integer,NSPersonEntity)
   id: 'AddPerson(Integer,NSPersonEntity)'
   so.intellisense: NSContactAgent.AddPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddPerson(Integer,NSPersonEntity)'
@@ -91,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.ChangeCountry(NSContactEntity,Integer)
   id: 'ChangeCountry(NSContactEntity,Integer)'
   so.intellisense: NSContactAgent.ChangeCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeCountry(NSContactEntity,Integer)'
@@ -115,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.Copy(Integer,String,String,Bool)
   id: 'Copy(Integer,String,String,Bool)'
   so.intellisense: NSContactAgent.Copy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Copy(Integer,String,String,Bool)'
@@ -147,6 +151,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.CreateDefaultContactEntity()
   id: 'CreateDefaultContactEntity()'
   so.intellisense: NSContactAgent.CreateDefaultContactEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultContactEntity()'
@@ -167,6 +172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.CreateNewEntry(NSDuplicateEntry)
   id: 'CreateNewEntry(NSDuplicateEntry)'
   so.intellisense: NSContactAgent.CreateNewEntry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateNewEntry(NSDuplicateEntry)'
@@ -190,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.DeleteContactEntity(Integer)
   id: 'DeleteContactEntity(Integer)'
   so.intellisense: NSContactAgent.DeleteContactEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteContactEntity(Integer)'
@@ -212,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.DeleteExpired()
   id: 'DeleteExpired()'
   so.intellisense: NSContactAgent.DeleteExpired
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteExpired()'
@@ -230,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetAddress(Integer)
   id: 'GetAddress(Integer)'
   so.intellisense: NSContactAgent.GetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddress(Integer)'
@@ -253,6 +262,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetAddressByCountry(Integer,Integer)
   id: 'GetAddressByCountry(Integer,Integer)'
   so.intellisense: NSContactAgent.GetAddressByCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddressByCountry(Integer,Integer)'
@@ -279,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetContact(Integer)
   id: 'GetContact(Integer)'
   so.intellisense: NSContactAgent.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact(Integer)'
@@ -302,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetContactEntity(Integer)
   id: 'GetContactEntity(Integer)'
   so.intellisense: NSContactAgent.GetContactEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactEntity(Integer)'
@@ -325,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetContactList(Integer[])
   id: 'GetContactList(Integer[])'
   so.intellisense: NSContactAgent.GetContactList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactList(Integer[])'
@@ -348,6 +361,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetContactSummary(Integer,Integer)
   id: 'GetContactSummary(Integer,Integer)'
   so.intellisense: NSContactAgent.GetContactSummary
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetContactSummary(Integer,Integer)'
@@ -374,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
   id: 'GetContactWithPersons(Integer)'
   so.intellisense: NSContactAgent.GetContactWithPersons
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactWithPersons(Integer)'
@@ -397,6 +412,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
   id: 'GetDuplicateRules()'
   so.intellisense: NSContactAgent.GetDuplicateRules
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicateRules()'
@@ -417,6 +433,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
   id: 'GetDuplicates(String)'
   so.intellisense: NSContactAgent.GetDuplicates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicates(String)'
@@ -436,15 +453,16 @@ items:
       description: "Any records matching the specified name."
   example: 
   - "\n<pre><code>NSContactAgent agent;\nString name;\nNSDuplicateEntry[] res = agent.GetDuplicates(name);</code></pre>\n"
-- uid: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
-  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
-  id: 'GetMyActiveContacts(DateTime.Integer[],Integer)'
+- uid: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime,Integer[],Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime,Integer[],Integer)
+  id: 'GetMyActiveContacts(DateTime,Integer[],Integer)'
   so.intellisense: NSContactAgent.GetMyActiveContacts
+  so.version: 7.0
   langs:
   - crmscript
-  name: 'GetMyActiveContacts(DateTime.Integer[],Integer)'
-  nameWithType: NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
-  fullName: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  name: 'GetMyActiveContacts(DateTime,Integer[],Integer)'
+  nameWithType: NSContactAgent.GetMyActiveContacts(DateTime,Integer[],Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime,Integer[],Integer)
   type: Method
   summary: "\nReturns the contacts where there has been activity since activityStartTime.\n"
   remarks: "\nIf activityStartTime is larger than the current date, all contacts with activity since the last log-out are returned. The result set can be filtered by category and action type.\n"
@@ -469,6 +487,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetMyBizCard()
   id: 'GetMyBizCard()'
   so.intellisense: NSContactAgent.GetMyBizCard
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyBizCard()'
@@ -489,6 +508,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetMyContact()
   id: 'GetMyContact()'
   so.intellisense: NSContactAgent.GetMyContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyContact()'
@@ -508,6 +528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetMyContacts()
   id: 'GetMyContacts()'
   so.intellisense: NSContactAgent.GetMyContacts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyContacts()'
@@ -528,6 +549,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetMyRecentContacts(Integer)
   id: 'GetMyRecentContacts(Integer)'
   so.intellisense: NSContactAgent.GetMyRecentContacts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyRecentContacts(Integer)'
@@ -551,6 +573,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetNameDepartmentDuplicates(String,String)
   id: 'GetNameDepartmentDuplicates(String,String)'
   so.intellisense: NSContactAgent.GetNameDepartmentDuplicates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNameDepartmentDuplicates(String,String)'
@@ -577,6 +600,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetPersons(Integer)
   id: 'GetPersons(Integer)'
   so.intellisense: NSContactAgent.GetPersons
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersons(Integer)'
@@ -600,6 +624,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.GetQuoteVersionAddresses(Integer)
   id: 'GetQuoteVersionAddresses(Integer)'
   so.intellisense: NSContactAgent.GetQuoteVersionAddresses
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionAddresses(Integer)'
@@ -623,6 +648,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.IsNumberValid(Integer,String)
   id: 'IsNumberValid(Integer,String)'
   so.intellisense: NSContactAgent.IsNumberValid
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsNumberValid(Integer,String)'
@@ -648,6 +674,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.Merge(Integer,Integer,Bool,Bool)
   id: 'Merge(Integer,Integer,Bool,Bool)'
   so.intellisense: NSContactAgent.Merge
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Merge(Integer,Integer,Bool,Bool)'
@@ -678,6 +705,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.SaveContactEntity(NSContactEntity)
   id: 'SaveContactEntity(NSContactEntity)'
   so.intellisense: NSContactAgent.SaveContactEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveContactEntity(NSContactEntity)'
@@ -701,6 +729,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
   id: 'SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)'
   so.intellisense: NSContactAgent.SaveQuoteVersionAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)'
@@ -733,6 +762,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
   id: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
   so.intellisense: NSContactAgent.SetDuplicateRulesStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
@@ -754,6 +784,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactAgent.Undelete(Integer)
   id: 'Undelete(Integer)'
   so.intellisense: NSContactAgent.Undelete
+  so.version: 8.2
   langs:
   - crmscript
   name: 'Undelete(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreferenceDescriptionLine
   commentId: T:CRMScript.NetServer.NSPreferenceDescriptionLine
   id: NSPreferenceDescriptionLine
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSPreferenceDescriptionLine.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetIsBuiltin()
   id: 'GetIsBuiltin()'
   so.intellisense: NSPreferenceDescriptionLine.GetIsBuiltin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsBuiltin()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescId()
   id: 'GetPrefDescId()'
   so.intellisense: NSPreferenceDescriptionLine.GetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefDescId()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescLineId()
   id: 'GetPrefDescLineId()'
   so.intellisense: NSPreferenceDescriptionLine.GetPrefDescLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefDescLineId()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefShowValue()
   id: 'GetPrefShowValue()'
   so.intellisense: NSPreferenceDescriptionLine.GetPrefShowValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefShowValue()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefValue()
   id: 'GetPrefValue()'
   so.intellisense: NSPreferenceDescriptionLine.GetPrefValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefValue()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSPreferenceDescriptionLine.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
   id: 'SetIsBuiltin(Bool)'
   so.intellisense: NSPreferenceDescriptionLine.SetIsBuiltin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsBuiltin(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescId(Integer)
   id: 'SetPrefDescId(Integer)'
   so.intellisense: NSPreferenceDescriptionLine.SetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefDescId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
   id: 'SetPrefDescLineId(Integer)'
   so.intellisense: NSPreferenceDescriptionLine.SetPrefDescLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefDescLineId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefShowValue(String)
   id: 'SetPrefShowValue(String)'
   so.intellisense: NSPreferenceDescriptionLine.SetPrefShowValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefShowValue(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefValue(String)
   id: 'SetPrefValue(String)'
   so.intellisense: NSPreferenceDescriptionLine.SetPrefValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefValue(String)'

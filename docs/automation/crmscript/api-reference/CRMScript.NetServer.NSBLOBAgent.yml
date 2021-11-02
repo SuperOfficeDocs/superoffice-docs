@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSBLOBAgent
   commentId: T:CRMScript.NetServer.NSBLOBAgent
   id: NSBLOBAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -94,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangePersonImage(Integer,Integer)
   id: 'ChangePersonImage(Integer,Integer)'
   so.intellisense: NSBLOBAgent.ChangePersonImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangePersonImage(Integer,Integer)'
@@ -118,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangeProductImage(Integer,Integer)
   id: 'ChangeProductImage(Integer,Integer)'
   so.intellisense: NSBLOBAgent.ChangeProductImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ChangeProductImage(Integer,Integer)'
@@ -142,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangeProjectImage(Integer,Integer)
   id: 'ChangeProjectImage(Integer,Integer)'
   so.intellisense: NSBLOBAgent.ChangeProjectImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeProjectImage(Integer,Integer)'
@@ -187,6 +191,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.CreateDefaultBlobEntity()
   id: 'CreateDefaultBlobEntity()'
   so.intellisense: NSBLOBAgent.CreateDefaultBlobEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultBlobEntity()'
@@ -207,6 +212,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.DeleteBlobEntity(Integer)
   id: 'DeleteBlobEntity(Integer)'
   so.intellisense: NSBLOBAgent.DeleteBlobEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteBlobEntity(Integer)'
@@ -229,6 +235,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetAppData(String)
   id: 'GetAppData(String)'
   so.intellisense: NSBLOBAgent.GetAppData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAppData(String)'
@@ -252,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntity(Integer)
   id: 'GetBlobEntity(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobEntity(Integer)'
@@ -298,6 +306,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnCountry(Integer)
   id: 'GetBlobEntityOnCountry(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobEntityOnCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobEntityOnCountry(Integer)'
@@ -321,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnPerson(Integer)
   id: 'GetBlobEntityOnPerson(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobEntityOnPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobEntityOnPerson(Integer)'
@@ -344,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProduct(Integer)
   id: 'GetBlobEntityOnProduct(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobEntityOnProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBlobEntityOnProduct(Integer)'
@@ -367,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProject(Integer)
   id: 'GetBlobEntityOnProject(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobEntityOnProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobEntityOnProject(Integer)'
@@ -390,6 +402,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobStream(Integer)
   id: 'GetBlobStream(Integer)'
   so.intellisense: NSBLOBAgent.GetBlobStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobStream(Integer)'
@@ -413,6 +426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
   id: 'GetChatImageWithSize(Integer,Integer,Integer)'
   so.intellisense: NSBLOBAgent.GetChatImageWithSize
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetChatImageWithSize(Integer,Integer,Integer)'
@@ -516,6 +530,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetPersonImage(Integer)
   id: 'GetPersonImage(Integer)'
   so.intellisense: NSBLOBAgent.GetPersonImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonImage(Integer)'
@@ -539,6 +554,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
   id: 'GetPersonImageWithSize(Integer,Integer,Integer)'
   so.intellisense: NSBLOBAgent.GetPersonImageWithSize
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPersonImageWithSize(Integer,Integer,Integer)'
@@ -568,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProductImage(Integer)
   id: 'GetProductImage(Integer)'
   so.intellisense: NSBLOBAgent.GetProductImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductImage(Integer)'
@@ -591,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProductThumbnail(Integer)
   id: 'GetProductThumbnail(Integer)'
   so.intellisense: NSBLOBAgent.GetProductThumbnail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductThumbnail(Integer)'
@@ -614,6 +632,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProjectImage(Integer)
   id: 'GetProjectImage(Integer)'
   so.intellisense: NSBLOBAgent.GetProjectImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectImage(Integer)'
@@ -637,6 +656,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
   id: 'GetProjectImageWithSize(Integer,Integer,Integer)'
   so.intellisense: NSBLOBAgent.GetProjectImageWithSize
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProjectImageWithSize(Integer,Integer,Integer)'
@@ -666,6 +686,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.GetQuoteLineImage(Integer)
   id: 'GetQuoteLineImage(Integer)'
   so.intellisense: NSBLOBAgent.GetQuoteLineImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineImage(Integer)'
@@ -689,6 +710,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
   id: 'SaveBlobEntity(NSBlobEntity)'
   so.intellisense: NSBLOBAgent.SaveBlobEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveBlobEntity(NSBlobEntity)'
@@ -712,6 +734,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
   id: 'SaveImageStream(Integer,NSImage,String)'
   so.intellisense: NSBLOBAgent.SaveImageStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveImageStream(Integer,NSImage,String)'
@@ -741,6 +764,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveProjectImage(String,NSImage)
   id: 'SaveProjectImage(String,NSImage)'
   so.intellisense: NSBLOBAgent.SaveProjectImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveProjectImage(String,NSImage)'
@@ -765,6 +789,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SetAppData(String,String)
   id: 'SetAppData(String,String)'
   so.intellisense: NSBLOBAgent.SetAppData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetAppData(String,String)'
@@ -790,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SetBlobStream(Integer,NSStream)
   id: 'SetBlobStream(Integer,NSStream)'
   so.intellisense: NSBLOBAgent.SetBlobStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBlobStream(Integer,NSStream)'
@@ -838,6 +864,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SetPersonImage(Integer,NSImage)
   id: 'SetPersonImage(Integer,NSImage)'
   so.intellisense: NSBLOBAgent.SetPersonImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonImage(Integer,NSImage)'
@@ -862,6 +889,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SetProductImage(Integer,NSImage)
   id: 'SetProductImage(Integer,NSImage)'
   so.intellisense: NSBLOBAgent.SetProductImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductImage(Integer,NSImage)'
@@ -886,6 +914,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
   id: 'SetProductThumbnail(Integer,NSImage)'
   so.intellisense: NSBLOBAgent.SetProductThumbnail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductThumbnail(Integer,NSImage)'

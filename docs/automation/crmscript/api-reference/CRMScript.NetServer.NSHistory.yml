@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSHistory
   commentId: T:CRMScript.NetServer.NSHistory
   id: NSHistory
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSHistory.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetHistoryId()
   id: 'GetHistoryId()'
   so.intellisense: NSHistory.GetHistoryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoryId()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetHistoryName()
   id: 'GetHistoryName()'
   so.intellisense: NSHistory.GetHistoryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHistoryName()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetId()
   id: 'GetId()'
   so.intellisense: NSHistory.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetItemInfo()
   id: 'GetItemInfo()'
   so.intellisense: NSHistory.GetItemInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetItemInfo()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetName()
   id: 'GetName()'
   so.intellisense: NSHistory.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.GetRank()
   id: 'GetRank()'
   so.intellisense: NSHistory.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSHistory.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetHistoryId(Integer)
   id: 'SetHistoryId(Integer)'
   so.intellisense: NSHistory.SetHistoryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHistoryId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetHistoryName(String)
   id: 'SetHistoryName(String)'
   so.intellisense: NSHistory.SetHistoryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHistoryName(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSHistory.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetItemInfo(String)
   id: 'SetItemInfo(String)'
   so.intellisense: NSHistory.SetItemInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetItemInfo(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSHistory.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistory.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSHistory.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'

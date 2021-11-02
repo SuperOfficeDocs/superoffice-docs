@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCredited
   commentId: T:CRMScript.NetServer.NSCredited
   id: NSCredited
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.GetId()
   id: 'GetId()'
   so.intellisense: NSCredited.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSCredited.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.GetValue()
   id: 'GetValue()'
   so.intellisense: NSCredited.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSCredited.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSCredited.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCredited.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSCredited.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

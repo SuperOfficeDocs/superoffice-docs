@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRedLetterInformationListItem
   commentId: T:CRMScript.NetServer.NSRedLetterInformationListItem
   id: NSRedLetterInformationListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.GetDate()
   id: 'GetDate()'
   so.intellisense: NSRedLetterInformationListItem.GetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDate()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.GetRedLetterDetails()
   id: 'GetRedLetterDetails()'
   so.intellisense: NSRedLetterInformationListItem.GetRedLetterDetails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRedLetterDetails()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.GetRedLetterInformation()
   id: 'GetRedLetterInformation()'
   so.intellisense: NSRedLetterInformationListItem.GetRedLetterInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRedLetterInformation()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSRedLetterInformationListItem.SetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDate(DateTime)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.SetRedLetterDetails(NSRedLetterDetails)
   id: 'SetRedLetterDetails(NSRedLetterDetails)'
   so.intellisense: NSRedLetterInformationListItem.SetRedLetterDetails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRedLetterDetails(NSRedLetterDetails)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
   id: 'SetRedLetterInformation(NSRedLetterSummary)'
   so.intellisense: NSRedLetterInformationListItem.SetRedLetterInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRedLetterInformation(NSRedLetterSummary)'

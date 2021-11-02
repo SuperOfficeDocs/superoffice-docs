@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDeliveryTerm
   commentId: T:CRMScript.NetServer.NSDeliveryTerm
   id: NSDeliveryTerm
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetId()
   id: 'GetId()'
   so.intellisense: NSDeliveryTerm.GetId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSDeliveryTerm.GetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetValue()
   id: 'GetValue()'
   so.intellisense: NSDeliveryTerm.GetValue
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSDeliveryTerm.SetId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSDeliveryTerm.SetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSDeliveryTerm.SetValue
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetValue(String)'

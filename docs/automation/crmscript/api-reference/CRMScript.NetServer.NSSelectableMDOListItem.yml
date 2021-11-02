@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSelectableMDOListItem
   commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
   id: NSSelectableMDOListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetChildItems()
   id: 'GetChildItems()'
   so.intellisense: NSSelectableMDOListItem.GetChildItems
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChildItems()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetColorBlock()
   id: 'GetColorBlock()'
   so.intellisense: NSSelectableMDOListItem.GetColorBlock
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColorBlock()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSSelectableMDOListItem.GetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSSelectableMDOListItem.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSSelectableMDOListItem.GetFullName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetHidden()
   id: 'GetHidden()'
   so.intellisense: NSSelectableMDOListItem.GetHidden
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHidden()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetIconHint()
   id: 'GetIconHint()'
   so.intellisense: NSSelectableMDOListItem.GetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIconHint()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetId()
   id: 'GetId()'
   so.intellisense: NSSelectableMDOListItem.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetLastChanged()
   id: 'GetLastChanged()'
   so.intellisense: NSSelectableMDOListItem.GetLastChanged
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastChanged()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetName()
   id: 'GetName()'
   so.intellisense: NSSelectableMDOListItem.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSelectableMDOListItem.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetSelected()
   id: 'GetSelected()'
   so.intellisense: NSSelectableMDOListItem.GetSelected
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelected()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetStyleHint()
   id: 'GetStyleHint()'
   so.intellisense: NSSelectableMDOListItem.GetStyleHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStyleHint()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetToolTip()
   id: 'GetToolTip()'
   so.intellisense: NSSelectableMDOListItem.GetToolTip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetToolTip()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetType()
   id: 'GetType()'
   so.intellisense: NSSelectableMDOListItem.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
   id: 'SetChildItems(NSSelectableMDOListItem[])'
   so.intellisense: NSSelectableMDOListItem.SetChildItems
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChildItems(NSSelectableMDOListItem[])'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetColorBlock(Integer)
   id: 'SetColorBlock(Integer)'
   so.intellisense: NSSelectableMDOListItem.SetColorBlock
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetColorBlock(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSSelectableMDOListItem.SetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSSelectableMDOListItem.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSSelectableMDOListItem.SetFullName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetHidden(Bool)
   id: 'SetHidden(Bool)'
   so.intellisense: NSSelectableMDOListItem.SetHidden
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHidden(Bool)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetIconHint(String)
   id: 'SetIconHint(String)'
   so.intellisense: NSSelectableMDOListItem.SetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIconHint(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSSelectableMDOListItem.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetLastChanged(DateTime)
   id: 'SetLastChanged(DateTime)'
   so.intellisense: NSSelectableMDOListItem.SetLastChanged
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastChanged(DateTime)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSSelectableMDOListItem.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSelectableMDOListItem.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetSelected(Bool)
   id: 'SetSelected(Bool)'
   so.intellisense: NSSelectableMDOListItem.SetSelected
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelected(Bool)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetStyleHint(String)
   id: 'SetStyleHint(String)'
   so.intellisense: NSSelectableMDOListItem.SetStyleHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStyleHint(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetToolTip(String)
   id: 'SetToolTip(String)'
   so.intellisense: NSSelectableMDOListItem.SetToolTip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetToolTip(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetType(String)
   id: 'SetType(String)'
   so.intellisense: NSSelectableMDOListItem.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(String)'

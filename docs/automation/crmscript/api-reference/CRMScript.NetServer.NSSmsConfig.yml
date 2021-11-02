@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSmsConfig
   commentId: T:CRMScript.NetServer.NSSmsConfig
   id: NSSmsConfig
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.GetDefaultSmsCountry()
   id: 'GetDefaultSmsCountry()'
   so.intellisense: NSSmsConfig.GetDefaultSmsCountry
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDefaultSmsCountry()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.GetNetServerSmsProvider()
   id: 'GetNetServerSmsProvider()'
   so.intellisense: NSSmsConfig.GetNetServerSmsProvider
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetNetServerSmsProvider()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.GetNsPluginConfig()
   id: 'GetNsPluginConfig()'
   so.intellisense: NSSmsConfig.GetNsPluginConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetNsPluginConfig()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.GetNsPluginSender()
   id: 'GetNsPluginSender()'
   so.intellisense: NSSmsConfig.GetNsPluginSender
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetNsPluginSender()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.SetDefaultSmsCountry(String)
   id: 'SetDefaultSmsCountry(String)'
   so.intellisense: NSSmsConfig.SetDefaultSmsCountry
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDefaultSmsCountry(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.SetNetServerSmsProvider(String)
   id: 'SetNetServerSmsProvider(String)'
   so.intellisense: NSSmsConfig.SetNetServerSmsProvider
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetNetServerSmsProvider(String)'
@@ -186,6 +193,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmsConfig.SetNsPluginSender(String)
   id: 'SetNsPluginSender(String)'
   so.intellisense: NSSmsConfig.SetNsPluginSender
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetNsPluginSender(String)'

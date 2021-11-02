@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.AppointmentSlicer
   commentId: T:CRMScript.Native.AppointmentSlicer
   id: AppointmentSlicer
+  so.version: 3.0.9
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.Native.AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
   id: 'addAppointment(Integer,DateTime,DateTime,String)'
   so.intellisense: AppointmentSlicer.addAppointment
+  so.version: 3.0.9
   langs:
   - crmscript
   name: 'addAppointment(Integer,DateTime,DateTime,String)'
@@ -104,6 +106,7 @@ items:
   commentId: M:CRMScript.Native.AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
   id: 'getLoadForDay(Date,Time,Time,Integer)'
   so.intellisense: AppointmentSlicer.getLoadForDay
+  so.version: 3.0.9
   langs:
   - crmscript
   name: 'getLoadForDay(Date,Time,Time,Integer)'

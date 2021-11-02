@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSBlobEntity
   commentId: T:CRMScript.NetServer.NSBlobEntity
   id: NSBlobEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetBlobId()
   id: 'GetBlobId()'
   so.intellisense: NSBlobEntity.GetBlobId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobId()'
@@ -78,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetBlobSize()
   id: 'GetBlobSize()'
   so.intellisense: NSBlobEntity.GetBlobSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlobSize()'
@@ -98,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetConceptualType()
   id: 'GetConceptualType()'
   so.intellisense: NSBlobEntity.GetConceptualType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetConceptualType()'
@@ -118,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSBlobEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSBlobEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSBlobEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSBlobEntity.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetIsEncrypted()
   id: 'GetIsEncrypted()'
   so.intellisense: NSBlobEntity.GetIsEncrypted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsEncrypted()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetIsZipped()
   id: 'GetIsZipped()'
   so.intellisense: NSBlobEntity.GetIsZipped
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsZipped()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetMimeType()
   id: 'GetMimeType()'
   so.intellisense: NSBlobEntity.GetMimeType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMimeType()'
@@ -258,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetOriginalSize()
   id: 'GetOriginalSize()'
   so.intellisense: NSBlobEntity.GetOriginalSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOriginalSize()'
@@ -278,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSBlobEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -298,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSBlobEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetBlobId(Integer)
   id: 'SetBlobId(Integer)'
   so.intellisense: NSBlobEntity.SetBlobId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBlobId(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetBlobSize(Integer)
   id: 'SetBlobSize(Integer)'
   so.intellisense: NSBlobEntity.SetBlobSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBlobSize(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetConceptualType(String)
   id: 'SetConceptualType(String)'
   so.intellisense: NSBlobEntity.SetConceptualType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetConceptualType(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSBlobEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSBlobEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSBlobEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSBlobEntity.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetIsEncrypted(Bool)
   id: 'SetIsEncrypted(Bool)'
   so.intellisense: NSBlobEntity.SetIsEncrypted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsEncrypted(Bool)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetIsZipped(Bool)
   id: 'SetIsZipped(Bool)'
   so.intellisense: NSBlobEntity.SetIsZipped
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsZipped(Bool)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetMimeType(String)
   id: 'SetMimeType(String)'
   so.intellisense: NSBlobEntity.SetMimeType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMimeType(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetOriginalSize(Integer)
   id: 'SetOriginalSize(Integer)'
   so.intellisense: NSBlobEntity.SetOriginalSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOriginalSize(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSBlobEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBlobEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSBlobEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'

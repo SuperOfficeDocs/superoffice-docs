@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSImportColumnInfo
   commentId: T:CRMScript.NetServer.NSImportColumnInfo
   id: NSImportColumnInfo
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSImportColumnInfo.GetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.GetLocked()
   id: 'GetLocked()'
   so.intellisense: NSImportColumnInfo.GetLocked
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLocked()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSImportColumnInfo.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSImportColumnInfo.SetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.SetLocked(Bool)
   id: 'SetLocked(Bool)'
   so.intellisense: NSImportColumnInfo.SetLocked
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLocked(Bool)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportColumnInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSImportColumnInfo.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'

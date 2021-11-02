@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaintConfiguration
   commentId: T:CRMScript.NetServer.NSSaintConfiguration
   id: NSSaintConfiguration
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetEnabled()
   id: 'GetEnabled()'
   so.intellisense: NSSaintConfiguration.GetEnabled
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetEnabled()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetGenerationEnd()
   id: 'GetGenerationEnd()'
   so.intellisense: NSSaintConfiguration.GetGenerationEnd
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetGenerationEnd()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetGenerationStart()
   id: 'GetGenerationStart()'
   so.intellisense: NSSaintConfiguration.GetGenerationStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetGenerationStart()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetOwnerTable()
   id: 'GetOwnerTable()'
   so.intellisense: NSSaintConfiguration.GetOwnerTable
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOwnerTable()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetPeriod1()
   id: 'GetPeriod1()'
   so.intellisense: NSSaintConfiguration.GetPeriod1
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPeriod1()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetPeriod2()
   id: 'GetPeriod2()'
   so.intellisense: NSSaintConfiguration.GetPeriod2
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPeriod2()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetPeriod3()
   id: 'GetPeriod3()'
   so.intellisense: NSSaintConfiguration.GetPeriod3
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPeriod3()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.GetRowsGenerated()
   id: 'GetRowsGenerated()'
   so.intellisense: NSSaintConfiguration.GetRowsGenerated
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRowsGenerated()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetEnabled(Bool)
   id: 'SetEnabled(Bool)'
   so.intellisense: NSSaintConfiguration.SetEnabled
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetEnabled(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetGenerationEnd(DateTime)
   id: 'SetGenerationEnd(DateTime)'
   so.intellisense: NSSaintConfiguration.SetGenerationEnd
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetGenerationEnd(DateTime)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetGenerationStart(DateTime)
   id: 'SetGenerationStart(DateTime)'
   so.intellisense: NSSaintConfiguration.SetGenerationStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetGenerationStart(DateTime)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetOwnerTable(Integer)
   id: 'SetOwnerTable(Integer)'
   so.intellisense: NSSaintConfiguration.SetOwnerTable
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetOwnerTable(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetPeriod1(Integer)
   id: 'SetPeriod1(Integer)'
   so.intellisense: NSSaintConfiguration.SetPeriod1
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPeriod1(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetPeriod2(Integer)
   id: 'SetPeriod2(Integer)'
   so.intellisense: NSSaintConfiguration.SetPeriod2
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPeriod2(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetPeriod3(Integer)
   id: 'SetPeriod3(Integer)'
   so.intellisense: NSSaintConfiguration.SetPeriod3
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPeriod3(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaintConfiguration.SetRowsGenerated(Integer)
   id: 'SetRowsGenerated(Integer)'
   so.intellisense: NSSaintConfiguration.SetRowsGenerated
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRowsGenerated(Integer)'

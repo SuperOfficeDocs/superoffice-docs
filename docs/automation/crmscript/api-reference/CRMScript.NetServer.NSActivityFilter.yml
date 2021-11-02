@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSActivityFilter
   commentId: T:CRMScript.NetServer.NSActivityFilter
   id: NSActivityFilter
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.GetAssociateList()
   id: 'GetAssociateList()'
   so.intellisense: NSActivityFilter.GetAssociateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateList()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.GetFromDate()
   id: 'GetFromDate()'
   so.intellisense: NSActivityFilter.GetFromDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFromDate()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.GetFutureDateList()
   id: 'GetFutureDateList()'
   so.intellisense: NSActivityFilter.GetFutureDateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureDateList()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.GetGroupList()
   id: 'GetGroupList()'
   so.intellisense: NSActivityFilter.GetGroupList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGroupList()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.GetToDate()
   id: 'GetToDate()'
   so.intellisense: NSActivityFilter.GetToDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetToDate()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
   id: 'SetAssociateList(NSSelectableMDOListItem[])'
   so.intellisense: NSActivityFilter.SetAssociateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateList(NSSelectableMDOListItem[])'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.SetFromDate(DateTime)
   id: 'SetFromDate(DateTime)'
   so.intellisense: NSActivityFilter.SetFromDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFromDate(DateTime)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.SetFutureDateList(NSMDOListItem[])
   id: 'SetFutureDateList(NSMDOListItem[])'
   so.intellisense: NSActivityFilter.SetFutureDateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureDateList(NSMDOListItem[])'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
   id: 'SetGroupList(NSSelectableMDOListItem[])'
   so.intellisense: NSActivityFilter.SetGroupList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGroupList(NSSelectableMDOListItem[])'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityFilter.SetToDate(DateTime)
   id: 'SetToDate(DateTime)'
   so.intellisense: NSActivityFilter.SetToDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetToDate(DateTime)'

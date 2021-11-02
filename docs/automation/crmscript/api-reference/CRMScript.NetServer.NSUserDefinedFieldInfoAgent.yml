@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent
   commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfoAgent
   id: NSUserDefinedFieldInfoAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -66,6 +67,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
   id: 'ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)'
   so.intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)'
@@ -94,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
   id: 'CreateDefaultUserDefinedFieldInfo()'
   so.intellisense: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultUserDefinedFieldInfo()'
@@ -113,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
   id: 'CreateUserDefinedFieldInfo(Integer,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateUserDefinedFieldInfo(Integer,Integer)'
@@ -138,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
   id: 'DeleteUserDefinedFieldInfo(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteUserDefinedFieldInfo(Integer)'
@@ -160,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
   id: 'DetectColumnIdChanges(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DetectColumnIdChanges(Integer)'
@@ -183,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
   id: 'DetectUnpublishedChanges(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DetectUnpublishedChanges(Integer)'
@@ -206,6 +213,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
   id: 'FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)'
   so.intellisense: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)'
@@ -228,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
   id: 'GetChangedPageOneFields(Integer,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedPageOneFields(Integer,Integer)'
@@ -252,6 +261,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
   id: 'GetCustomFieldInfo(String,String)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfo
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFieldInfo(String,String)'
@@ -277,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
   id: 'GetCustomFieldInfoList(String,Bool)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFieldInfoList(String,Bool)'
@@ -302,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
   id: 'GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)'
@@ -327,6 +339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
   id: 'GetPublishedUserDefinedFieldFromProgId(String,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPublishedUserDefinedFieldFromProgId(String,Integer)'
@@ -352,6 +365,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
   id: 'GetPublishedUserDefinedFieldList(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPublishedUserDefinedFieldList(Integer)'
@@ -374,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
   id: 'GetPublishedUserDefinedPageOneFields(Integer,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPublishedUserDefinedPageOneFields(Integer,Integer)'
@@ -399,6 +414,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
   id: 'GetUserDefinedFieldFromFieldLabel(String,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFieldFromFieldLabel(String,Integer)'
@@ -424,6 +440,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
   id: 'GetUserDefinedFieldFromIds(Integer[])'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserDefinedFieldFromIds(Integer[])'
@@ -446,6 +463,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
   id: 'GetUserDefinedFieldFromProgId(String,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFieldFromProgId(String,Integer)'
@@ -471,6 +489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
   id: 'GetUserDefinedFieldFromProgIds(String[],Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserDefinedFieldFromProgIds(String[],Integer)'
@@ -496,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
   id: 'GetUserDefinedFieldInfo(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserDefinedFieldInfo(Integer)'
@@ -518,6 +538,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
   id: 'GetUserDefinedFieldList(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFieldList(Integer)'
@@ -540,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
   id: 'GetUserDefinedPageOneFields(Integer,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserDefinedPageOneFields(Integer,Integer)'
@@ -565,6 +587,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
   id: 'IsAnyPublishEventActive()'
   so.intellisense: NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'IsAnyPublishEventActive()'
@@ -584,6 +607,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
   id: 'IsPublishEventActive(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.IsPublishEventActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'IsPublishEventActive(Integer)'
@@ -606,6 +630,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Publish(Integer)
   id: 'Publish(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.Publish
+  so.version: 8.2
   langs:
   - crmscript
   name: 'Publish(Integer)'
@@ -629,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Revert(Integer)
   id: 'Revert(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.Revert
+  so.version: 7.5
   langs:
   - crmscript
   name: 'Revert(Integer)'
@@ -650,6 +676,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
   id: 'SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)'
   so.intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)'
@@ -672,6 +699,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
   id: 'SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])'
   so.intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])'
@@ -693,6 +721,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
   id: 'SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)'
@@ -717,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
   id: 'SetPageOneFieldGrouping(Integer,Bool)'
   so.intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPageOneFieldGrouping(Integer,Bool)'
@@ -741,6 +771,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
   id: 'SetPublishStartSystemEvent(Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPublishStartSystemEvent(Integer)'
@@ -762,6 +793,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
   id: 'SetRankOnFields(Integer,Integer[])'
   so.intellisense: NSUserDefinedFieldInfoAgent.SetRankOnFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnFields(Integer,Integer[])'
@@ -786,6 +818,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
   id: 'SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)'
   so.intellisense: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)'

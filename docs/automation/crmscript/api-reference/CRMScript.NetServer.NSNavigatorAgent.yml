@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSNavigatorAgent
   commentId: T:CRMScript.NetServer.NSNavigatorAgent
   id: NSNavigatorAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -37,6 +38,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanies(String)
   id: 'GetNavigatorCompanies(String)'
   so.intellisense: NSNavigatorAgent.GetNavigatorCompanies
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNavigatorCompanies(String)'
@@ -59,6 +61,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompany(Integer)
   id: 'GetNavigatorCompany(Integer)'
   so.intellisense: NSNavigatorAgent.GetNavigatorCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNavigatorCompany(Integer)'
@@ -81,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
   id: 'GetNavigatorCompanyList(Integer[])'
   so.intellisense: NSNavigatorAgent.GetNavigatorCompanyList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNavigatorCompanyList(Integer[])'

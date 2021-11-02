@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSEntityElement
   commentId: T:CRMScript.NetServer.NSEntityElement
   id: NSEntityElement
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSEntityElement.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.GetStrippedValue()
   id: 'GetStrippedValue()'
   so.intellisense: NSEntityElement.GetStrippedValue
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetStrippedValue()'
@@ -74,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.GetValue()
   id: 'GetValue()'
   so.intellisense: NSEntityElement.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -92,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSEntityElement.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -113,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.SetStrippedValue(String)
   id: 'SetStrippedValue(String)'
   so.intellisense: NSEntityElement.SetStrippedValue
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetStrippedValue(String)'
@@ -134,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityElement.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSEntityElement.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

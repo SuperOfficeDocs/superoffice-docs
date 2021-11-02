@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSReportLabelLayoutEntity
   commentId: T:CRMScript.NetServer.NSReportLabelLayoutEntity
   id: NSReportLabelLayoutEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -56,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetBottomMargin()
   id: 'GetBottomMargin()'
   so.intellisense: NSReportLabelLayoutEntity.GetBottomMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBottomMargin()'
@@ -76,6 +78,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountColumns()
   id: 'GetCountColumns()'
   so.intellisense: NSReportLabelLayoutEntity.GetCountColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountColumns()'
@@ -96,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountRows()
   id: 'GetCountRows()'
   so.intellisense: NSReportLabelLayoutEntity.GetCountRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountRows()'
@@ -116,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSReportLabelLayoutEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -136,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetLeftMargin()
   id: 'GetLeftMargin()'
   so.intellisense: NSReportLabelLayoutEntity.GetLeftMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLeftMargin()'
@@ -156,6 +162,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSReportLabelLayoutEntity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -176,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetOrientation()
   id: 'GetOrientation()'
   so.intellisense: NSReportLabelLayoutEntity.GetOrientation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOrientation()'
@@ -196,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperHeight()
   id: 'GetPaperHeight()'
   so.intellisense: NSReportLabelLayoutEntity.GetPaperHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPaperHeight()'
@@ -216,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperWidth()
   id: 'GetPaperWidth()'
   so.intellisense: NSReportLabelLayoutEntity.GetPaperWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPaperWidth()'
@@ -236,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetReportLabelLayoutId()
   id: 'GetReportLabelLayoutId()'
   so.intellisense: NSReportLabelLayoutEntity.GetReportLabelLayoutId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReportLabelLayoutId()'
@@ -256,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetRightMargin()
   id: 'GetRightMargin()'
   so.intellisense: NSReportLabelLayoutEntity.GetRightMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRightMargin()'
@@ -276,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetTopMargin()
   id: 'GetTopMargin()'
   so.intellisense: NSReportLabelLayoutEntity.GetTopMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTopMargin()'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetBottomMargin(Integer)
   id: 'SetBottomMargin(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetBottomMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBottomMargin(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountColumns(Integer)
   id: 'SetCountColumns(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetCountColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountColumns(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountRows(Integer)
   id: 'SetCountRows(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetCountRows
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountRows(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSReportLabelLayoutEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetLeftMargin(Integer)
   id: 'SetLeftMargin(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetLeftMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLeftMargin(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSReportLabelLayoutEntity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetOrientation(Integer)
   id: 'SetOrientation(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetOrientation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOrientation(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperHeight(Integer)
   id: 'SetPaperHeight(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetPaperHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPaperHeight(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperWidth(Integer)
   id: 'SetPaperWidth(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetPaperWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPaperWidth(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
   id: 'SetReportLabelLayoutId(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReportLabelLayoutId(Integer)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetRightMargin(Integer)
   id: 'SetRightMargin(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetRightMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRightMargin(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetTopMargin(Integer)
   id: 'SetTopMargin(Integer)'
   so.intellisense: NSReportLabelLayoutEntity.SetTopMargin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTopMargin(Integer)'

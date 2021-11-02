@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCsSessionKey
   commentId: T:CRMScript.NetServer.NSCsSessionKey
   id: NSCsSessionKey
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.GetKey()
   id: 'GetKey()'
   so.intellisense: NSCsSessionKey.GetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetKey()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.GetLoginId()
   id: 'GetLoginId()'
   so.intellisense: NSCsSessionKey.GetLoginId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLoginId()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.GetUserId()
   id: 'GetUserId()'
   so.intellisense: NSCsSessionKey.GetUserId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUserId()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSCsSessionKey.SetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.SetLoginId(Integer)
   id: 'SetLoginId(Integer)'
   so.intellisense: NSCsSessionKey.SetLoginId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetLoginId(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsSessionKey.SetUserId(Integer)
   id: 'SetUserId(Integer)'
   so.intellisense: NSCsSessionKey.SetUserId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUserId(Integer)'

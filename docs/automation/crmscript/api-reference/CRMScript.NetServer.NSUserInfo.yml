@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserInfo
   commentId: T:CRMScript.NetServer.NSUserInfo
   id: NSUserInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetCanLogon()
   id: 'GetCanLogon()'
   so.intellisense: NSUserInfo.GetCanLogon
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCanLogon()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSUserInfo.GetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetEjUserId()
   id: 'GetEjUserId()'
   so.intellisense: NSUserInfo.GetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEjUserId()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetGrantedLicenses()
   id: 'GetGrantedLicenses()'
   so.intellisense: NSUserInfo.GetGrantedLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGrantedLicenses()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSUserInfo.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetRank()
   id: 'GetRank()'
   so.intellisense: NSUserInfo.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetRoleName()
   id: 'GetRoleName()'
   so.intellisense: NSUserInfo.GetRoleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRoleName()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetRoleTooltip()
   id: 'GetRoleTooltip()'
   so.intellisense: NSUserInfo.GetRoleTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRoleTooltip()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSUserInfo.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserGroupId()
   id: 'GetUserGroupId()'
   so.intellisense: NSUserInfo.GetUserGroupId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroupId()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserGroupName()
   id: 'GetUserGroupName()'
   so.intellisense: NSUserInfo.GetUserGroupName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroupName()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserGroupTooltip()
   id: 'GetUserGroupTooltip()'
   so.intellisense: NSUserInfo.GetUserGroupTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroupTooltip()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserInfoId()
   id: 'GetUserInfoId()'
   so.intellisense: NSUserInfo.GetUserInfoId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserInfoId()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserName()
   id: 'GetUserName()'
   so.intellisense: NSUserInfo.GetUserName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserName()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.GetUserType()
   id: 'GetUserType()'
   so.intellisense: NSUserInfo.GetUserType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserType()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetCanLogon(Bool)
   id: 'SetCanLogon(Bool)'
   so.intellisense: NSUserInfo.SetCanLogon
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCanLogon(Bool)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSUserInfo.SetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetEjUserId(Integer)
   id: 'SetEjUserId(Integer)'
   so.intellisense: NSUserInfo.SetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEjUserId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetGrantedLicenses(String[])
   id: 'SetGrantedLicenses(String[])'
   so.intellisense: NSUserInfo.SetGrantedLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGrantedLicenses(String[])'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSUserInfo.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSUserInfo.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetRoleName(String)
   id: 'SetRoleName(String)'
   so.intellisense: NSUserInfo.SetRoleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRoleName(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetRoleTooltip(String)
   id: 'SetRoleTooltip(String)'
   so.intellisense: NSUserInfo.SetRoleTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRoleTooltip(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSUserInfo.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserGroupId(Integer)
   id: 'SetUserGroupId(Integer)'
   so.intellisense: NSUserInfo.SetUserGroupId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserGroupId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserGroupName(String)
   id: 'SetUserGroupName(String)'
   so.intellisense: NSUserInfo.SetUserGroupName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserGroupName(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserGroupTooltip(String)
   id: 'SetUserGroupTooltip(String)'
   so.intellisense: NSUserInfo.SetUserGroupTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserGroupTooltip(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserInfoId(Integer)
   id: 'SetUserInfoId(Integer)'
   so.intellisense: NSUserInfo.SetUserInfoId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserInfoId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserName(String)
   id: 'SetUserName(String)'
   so.intellisense: NSUserInfo.SetUserName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserName(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserInfo.SetUserType(Integer)
   id: 'SetUserType(Integer)'
   so.intellisense: NSUserInfo.SetUserType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserType(Integer)'

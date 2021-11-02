@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSImportAgent
   commentId: T:CRMScript.NetServer.NSImportAgent
   id: NSImportAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportAgent.CreateDefaultImportLine(Integer)
   id: 'CreateDefaultImportLine(Integer)'
   so.intellisense: NSImportAgent.CreateDefaultImportLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultImportLine(Integer)'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportAgent.CreateErpImportData(NSArchiveRestrictionInfo[],String[],Integer,Integer)
   id: 'CreateErpImportData(NSArchiveRestrictionInfo[],String[],Integer,Integer)'
   so.intellisense: NSImportAgent.CreateErpImportData
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateErpImportData(NSArchiveRestrictionInfo[],String[],Integer,Integer)'
@@ -91,6 +94,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportAgent.PreviewImport(NSImportLine[],String[],String,String)
   id: 'PreviewImport(NSImportLine[],String[],String,String)'
   so.intellisense: NSImportAgent.PreviewImport
+  so.version: 7.5
   langs:
   - crmscript
   name: 'PreviewImport(NSImportLine[],String[],String,String)'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportAgent.SaveImport(NSImportLine[],String[],Bool,String,String)
   id: 'SaveImport(NSImportLine[],String[],Bool,String,String)'
   so.intellisense: NSImportAgent.SaveImport
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveImport(NSImportLine[],String[],Bool,String,String)'

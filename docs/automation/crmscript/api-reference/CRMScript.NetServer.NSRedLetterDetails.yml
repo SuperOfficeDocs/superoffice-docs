@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRedLetterDetails
   commentId: T:CRMScript.NetServer.NSRedLetterDetails
   id: NSRedLetterDetails
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterDetails.GetOtherCountryDayTexts()
   id: 'GetOtherCountryDayTexts()'
   so.intellisense: NSRedLetterDetails.GetOtherCountryDayTexts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOtherCountryDayTexts()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterDetails.GetOwnCountryDayTexts()
   id: 'GetOwnCountryDayTexts()'
   so.intellisense: NSRedLetterDetails.GetOwnCountryDayTexts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnCountryDayTexts()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterDetails.SetOtherCountryDayTexts(String[])
   id: 'SetOtherCountryDayTexts(String[])'
   so.intellisense: NSRedLetterDetails.SetOtherCountryDayTexts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOtherCountryDayTexts(String[])'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterDetails.SetOwnCountryDayTexts(String[])
   id: 'SetOwnCountryDayTexts(String[])'
   so.intellisense: NSRedLetterDetails.SetOwnCountryDayTexts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnCountryDayTexts(String[])'

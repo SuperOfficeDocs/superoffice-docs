@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTableRight
   commentId: T:CRMScript.NetServer.NSTableRight
   id: NSTableRight
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.GetMask()
   id: 'GetMask()'
   so.intellisense: NSTableRight.GetMask
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMask()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.GetReason()
   id: 'GetReason()'
   so.intellisense: NSTableRight.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -74,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.GetTableRight()
   id: 'GetTableRight()'
   so.intellisense: NSTableRight.GetTableRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTableRight()'
@@ -92,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.SetMask(Integer)
   id: 'SetMask(Integer)'
   so.intellisense: NSTableRight.SetMask
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMask(Integer)'
@@ -113,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSTableRight.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -134,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTableRight.SetTableRight(Integer)
   id: 'SetTableRight(Integer)'
   so.intellisense: NSTableRight.SetTableRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTableRight(Integer)'

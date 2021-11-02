@@ -59,6 +59,7 @@ items:
   commentId: M:CRMScript.Native.Knowledge.rebuildFaqSearch(Integer,String)
   id: 'rebuildFaqSearch(Integer,String)'
   so.intellisense: Knowledge.rebuildFaqSearch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'rebuildFaqSearch(Integer,String)'

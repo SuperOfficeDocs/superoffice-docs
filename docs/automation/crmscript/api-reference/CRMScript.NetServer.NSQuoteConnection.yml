@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteConnection
   commentId: T:CRMScript.NetServer.NSQuoteConnection
   id: NSQuoteConnection
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetAllAccess()
   id: 'GetAllAccess()'
   so.intellisense: NSQuoteConnection.GetAllAccess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllAccess()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetAssociateAccessIds()
   id: 'GetAssociateAccessIds()'
   so.intellisense: NSQuoteConnection.GetAssociateAccessIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssociateAccessIds()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetConnectorName()
   id: 'GetConnectorName()'
   so.intellisense: NSQuoteConnection.GetConnectorName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectorName()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSQuoteConnection.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetDisplayDescription()
   id: 'GetDisplayDescription()'
   so.intellisense: NSQuoteConnection.GetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayDescription()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSQuoteConnection.GetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetErpConnectionId()
   id: 'GetErpConnectionId()'
   so.intellisense: NSQuoteConnection.GetErpConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetErpConnectionId()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetERPName()
   id: 'GetERPName()'
   so.intellisense: NSQuoteConnection.GetERPName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPName()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetExtraData()
   id: 'GetExtraData()'
   so.intellisense: NSQuoteConnection.GetExtraData
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraData()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetInitializeResponse()
   id: 'GetInitializeResponse()'
   so.intellisense: NSQuoteConnection.GetInitializeResponse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInitializeResponse()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetIsAvailable()
   id: 'GetIsAvailable()'
   so.intellisense: NSQuoteConnection.GetIsAvailable
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAvailable()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetPriceLists()
   id: 'GetPriceLists()'
   so.intellisense: NSQuoteConnection.GetPriceLists
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPriceLists()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetQuoteConnectionId()
   id: 'GetQuoteConnectionId()'
   so.intellisense: NSQuoteConnection.GetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteConnectionId()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetRank()
   id: 'GetRank()'
   so.intellisense: NSQuoteConnection.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.GetUserGroupAccessIds()
   id: 'GetUserGroupAccessIds()'
   so.intellisense: NSQuoteConnection.GetUserGroupAccessIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserGroupAccessIds()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetAllAccess(Bool)
   id: 'SetAllAccess(Bool)'
   so.intellisense: NSQuoteConnection.SetAllAccess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAllAccess(Bool)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetAssociateAccessIds(Integer[])
   id: 'SetAssociateAccessIds(Integer[])'
   so.intellisense: NSQuoteConnection.SetAssociateAccessIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssociateAccessIds(Integer[])'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetConnectorName(String)
   id: 'SetConnectorName(String)'
   so.intellisense: NSQuoteConnection.SetConnectorName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetConnectorName(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSQuoteConnection.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetDisplayDescription(String)
   id: 'SetDisplayDescription(String)'
   so.intellisense: NSQuoteConnection.SetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayDescription(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSQuoteConnection.SetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetErpConnectionId(Integer)
   id: 'SetErpConnectionId(Integer)'
   so.intellisense: NSQuoteConnection.SetErpConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetErpConnectionId(Integer)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetERPName(String)
   id: 'SetERPName(String)'
   so.intellisense: NSQuoteConnection.SetERPName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPName(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetExtraData(String)
   id: 'SetExtraData(String)'
   so.intellisense: NSQuoteConnection.SetExtraData
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraData(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetInitializeResponse(NSPluginResponse)
   id: 'SetInitializeResponse(NSPluginResponse)'
   so.intellisense: NSQuoteConnection.SetInitializeResponse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInitializeResponse(NSPluginResponse)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetIsAvailable(Bool)
   id: 'SetIsAvailable(Bool)'
   so.intellisense: NSQuoteConnection.SetIsAvailable
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAvailable(Bool)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetPriceLists(NSPriceList[])
   id: 'SetPriceLists(NSPriceList[])'
   so.intellisense: NSQuoteConnection.SetPriceLists
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPriceLists(NSPriceList[])'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetQuoteConnectionId(Integer)
   id: 'SetQuoteConnectionId(Integer)'
   so.intellisense: NSQuoteConnection.SetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteConnectionId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSQuoteConnection.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteConnection.SetUserGroupAccessIds(Integer[])
   id: 'SetUserGroupAccessIds(Integer[])'
   so.intellisense: NSQuoteConnection.SetUserGroupAccessIds
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserGroupAccessIds(Integer[])'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSServiceAuth
   commentId: T:CRMScript.NetServer.NSServiceAuth
   id: NSServiceAuth
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetAuthType()
   id: 'GetAuthType()'
   so.intellisense: NSServiceAuth.GetAuthType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAuthType()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetPassword()
   id: 'GetPassword()'
   so.intellisense: NSServiceAuth.GetPassword
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPassword()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetPort()
   id: 'GetPort()'
   so.intellisense: NSServiceAuth.GetPort
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPort()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetServer()
   id: 'GetServer()'
   so.intellisense: NSServiceAuth.GetServer
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetServer()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetServiceAuthId()
   id: 'GetServiceAuthId()'
   so.intellisense: NSServiceAuth.GetServiceAuthId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetServiceAuthId()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.GetUsername()
   id: 'GetUsername()'
   so.intellisense: NSServiceAuth.GetUsername
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUsername()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetAuthType(String)
   id: 'SetAuthType(String)'
   so.intellisense: NSServiceAuth.SetAuthType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetAuthType(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetPassword(String)
   id: 'SetPassword(String)'
   so.intellisense: NSServiceAuth.SetPassword
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPassword(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetPort(Integer)
   id: 'SetPort(Integer)'
   so.intellisense: NSServiceAuth.SetPort
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPort(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetServer(String)
   id: 'SetServer(String)'
   so.intellisense: NSServiceAuth.SetServer
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetServer(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetServiceAuthId(Integer)
   id: 'SetServiceAuthId(Integer)'
   so.intellisense: NSServiceAuth.SetServiceAuthId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetServiceAuthId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSServiceAuth.SetUsername(String)
   id: 'SetUsername(String)'
   so.intellisense: NSServiceAuth.SetUsername
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUsername(String)'

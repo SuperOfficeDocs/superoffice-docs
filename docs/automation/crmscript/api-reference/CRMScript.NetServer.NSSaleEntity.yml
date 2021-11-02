@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleEntity
   commentId: T:CRMScript.NetServer.NSSaleEntity
   id: NSSaleEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -120,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetActiveErpLinks()
   id: 'GetActiveErpLinks()'
   so.intellisense: NSSaleEntity.GetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveErpLinks()'
@@ -140,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetActiveLinks()
   id: 'GetActiveLinks()'
   so.intellisense: NSSaleEntity.GetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveLinks()'
@@ -160,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetAmount()
   id: 'GetAmount()'
   so.intellisense: NSSaleEntity.GetAmount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAmount()'
@@ -180,6 +184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetAppointment()
   id: 'GetAppointment()'
   so.intellisense: NSSaleEntity.GetAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointment()'
@@ -199,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSSaleEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -219,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCompetitor()
   id: 'GetCompetitor()'
   so.intellisense: NSSaleEntity.GetCompetitor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompetitor()'
@@ -239,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSSaleEntity.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -259,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetContact()
   id: 'GetContact()'
   so.intellisense: NSSaleEntity.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact()'
@@ -279,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSSaleEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -299,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSSaleEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -319,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCredited()
   id: 'GetCredited()'
   so.intellisense: NSSaleEntity.GetCredited
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCredited()'
@@ -339,6 +351,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCurrency()
   id: 'GetCurrency()'
   so.intellisense: NSSaleEntity.GetCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrency()'
@@ -359,6 +372,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSSaleEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -379,6 +393,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetEarning()
   id: 'GetEarning()'
   so.intellisense: NSSaleEntity.GetEarning
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEarning()'
@@ -399,6 +414,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetEarningPercent()
   id: 'GetEarningPercent()'
   so.intellisense: NSSaleEntity.GetEarningPercent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEarningPercent()'
@@ -419,6 +435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSSaleEntity.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -439,6 +456,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetHeading()
   id: 'GetHeading()'
   so.intellisense: NSSaleEntity.GetHeading
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHeading()'
@@ -459,6 +477,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSSaleEntity.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -478,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetLinks()
   id: 'GetLinks()'
   so.intellisense: NSSaleEntity.GetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinks()'
@@ -498,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetNextDueDate()
   id: 'GetNextDueDate()'
   so.intellisense: NSSaleEntity.GetNextDueDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextDueDate()'
@@ -518,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetNumber()
   id: 'GetNumber()'
   so.intellisense: NSSaleEntity.GetNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumber()'
@@ -538,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSSaleEntity.GetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -557,6 +580,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetPostit()
   id: 'GetPostit()'
   so.intellisense: NSSaleEntity.GetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPostit()'
@@ -577,6 +601,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetProbability()
   id: 'GetProbability()'
   so.intellisense: NSSaleEntity.GetProbability
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProbability()'
@@ -597,6 +622,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetProject()
   id: 'GetProject()'
   so.intellisense: NSSaleEntity.GetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProject()'
@@ -616,6 +642,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishEventDate()
   id: 'GetPublishEventDate()'
   so.intellisense: NSSaleEntity.GetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishEventDate()'
@@ -635,6 +662,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSSaleEntity.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -654,6 +682,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSSaleEntity.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -673,6 +702,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetRating()
   id: 'GetRating()'
   so.intellisense: NSSaleEntity.GetRating
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRating()'
@@ -693,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetReason()
   id: 'GetReason()'
   so.intellisense: NSSaleEntity.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -713,6 +744,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetReasonSold()
   id: 'GetReasonSold()'
   so.intellisense: NSSaleEntity.GetReasonSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonSold()'
@@ -732,6 +764,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetReasonStalled()
   id: 'GetReasonStalled()'
   so.intellisense: NSSaleEntity.GetReasonStalled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonStalled()'
@@ -751,6 +784,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetReopenDate()
   id: 'GetReopenDate()'
   so.intellisense: NSSaleEntity.GetReopenDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReopenDate()'
@@ -771,6 +805,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaledate()
   id: 'GetSaledate()'
   so.intellisense: NSSaleEntity.GetSaledate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaledate()'
@@ -791,6 +826,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSSaleEntity.GetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -811,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleStakeholders()
   id: 'GetSaleStakeholders()'
   so.intellisense: NSSaleEntity.GetSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholders()'
@@ -830,6 +867,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleText()
   id: 'GetSaleText()'
   so.intellisense: NSSaleEntity.GetSaleText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleText()'
@@ -850,6 +888,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleType()
   id: 'GetSaleType()'
   so.intellisense: NSSaleEntity.GetSaleType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleType()'
@@ -869,6 +908,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetSource()
   id: 'GetSource()'
   so.intellisense: NSSaleEntity.GetSource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSource()'
@@ -889,6 +929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSSaleEntity.GetStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -909,6 +950,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSSaleEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -929,6 +971,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSSaleEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -949,6 +992,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetUserDefinedFields()
   id: 'GetUserDefinedFields()'
   so.intellisense: NSSaleEntity.GetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFields()'
@@ -969,6 +1013,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.GetVisibleFor()
   id: 'GetVisibleFor()'
   so.intellisense: NSSaleEntity.GetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleFor()'
@@ -988,6 +1033,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetActiveErpLinks(Integer)
   id: 'SetActiveErpLinks(Integer)'
   so.intellisense: NSSaleEntity.SetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveErpLinks(Integer)'
@@ -1010,6 +1056,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetActiveLinks(Integer)
   id: 'SetActiveLinks(Integer)'
   so.intellisense: NSSaleEntity.SetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveLinks(Integer)'
@@ -1032,6 +1079,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetAmount(Float)
   id: 'SetAmount(Float)'
   so.intellisense: NSSaleEntity.SetAmount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAmount(Float)'
@@ -1054,6 +1102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetAppointment(NSAppointment)
   id: 'SetAppointment(NSAppointment)'
   so.intellisense: NSSaleEntity.SetAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointment(NSAppointment)'
@@ -1076,6 +1125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSSaleEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -1098,6 +1148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCompetitor(NSCompetitor)
   id: 'SetCompetitor(NSCompetitor)'
   so.intellisense: NSSaleEntity.SetCompetitor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompetitor(NSCompetitor)'
@@ -1120,6 +1171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSSaleEntity.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -1142,6 +1194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetContact(NSContact)
   id: 'SetContact(NSContact)'
   so.intellisense: NSSaleEntity.SetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContact(NSContact)'
@@ -1164,6 +1217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSSaleEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -1186,6 +1240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSSaleEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -1208,6 +1263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCredited(NSCredited)
   id: 'SetCredited(NSCredited)'
   so.intellisense: NSSaleEntity.SetCredited
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCredited(NSCredited)'
@@ -1230,6 +1286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCurrency(NSCurrency)
   id: 'SetCurrency(NSCurrency)'
   so.intellisense: NSSaleEntity.SetCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrency(NSCurrency)'
@@ -1252,6 +1309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSSaleEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -1274,6 +1332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetEarning(Float)
   id: 'SetEarning(Float)'
   so.intellisense: NSSaleEntity.SetEarning
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEarning(Float)'
@@ -1296,6 +1355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetEarningPercent(Float)
   id: 'SetEarningPercent(Float)'
   so.intellisense: NSSaleEntity.SetEarningPercent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEarningPercent(Float)'
@@ -1318,6 +1378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSSaleEntity.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -1340,6 +1401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetHeading(String)
   id: 'SetHeading(String)'
   so.intellisense: NSSaleEntity.SetHeading
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHeading(String)'
@@ -1362,6 +1424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSSaleEntity.SIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -1383,6 +1446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetLinks(NSLink[])
   id: 'SetLinks(NSLink[])'
   so.intellisense: NSSaleEntity.SetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinks(NSLink[])'
@@ -1405,6 +1469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetNextDueDate(DateTime)
   id: 'SetNextDueDate(DateTime)'
   so.intellisense: NSSaleEntity.SetNextDueDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNextDueDate(DateTime)'
@@ -1425,6 +1490,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetNumber(String)
   id: 'SetNumber(String)'
   so.intellisense: NSSaleEntity.SetNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumber(String)'
@@ -1447,6 +1513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSSaleEntity.SetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -1469,6 +1536,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetPostit(String)
   id: 'SetPostit(String)'
   so.intellisense: NSSaleEntity.SetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPostit(String)'
@@ -1491,6 +1559,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetProbability(Integer)
   id: 'SetProbability(Integer)'
   so.intellisense: NSSaleEntity.SetProbability
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProbability(Integer)'
@@ -1513,6 +1582,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetProject(NSProject)
   id: 'SetProject(NSProject)'
   so.intellisense: NSSaleEntity.SetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProject(NSProject)'
@@ -1535,6 +1605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishEventDate(DateTime)
   id: 'SetPublishEventDate(DateTime)'
   so.intellisense: NSSaleEntity.SetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishEventDate(DateTime)'
@@ -1556,6 +1627,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSSaleEntity.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -1577,6 +1649,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSSaleEntity.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -1598,6 +1671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetRating(NSRating)
   id: 'SetRating(NSRating)'
   so.intellisense: NSSaleEntity.SetRating
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRating(NSRating)'
@@ -1620,6 +1694,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetReason(NSReason)
   id: 'SetReason(NSReason)'
   so.intellisense: NSSaleEntity.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(NSReason)'
@@ -1642,6 +1717,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetReasonSold(NSReasonSold)
   id: 'SetReasonSold(NSReasonSold)'
   so.intellisense: NSSaleEntity.SetReasonSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReasonSold(NSReasonSold)'
@@ -1664,6 +1740,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetReasonStalled(NSReasonStalled)
   id: 'SetReasonStalled(NSReasonStalled)'
   so.intellisense: NSSaleEntity.SetReasonStalled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReasonStalled(NSReasonStalled)'
@@ -1686,6 +1763,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetReopenDate(DateTime)
   id: 'SetReopenDate(DateTime)'
   so.intellisense: NSSaleEntity.SetReopenDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReopenDate(DateTime)'
@@ -1708,6 +1786,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaledate(DateTime)
   id: 'SetSaledate(DateTime)'
   so.intellisense: NSSaleEntity.SetSaledate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaledate(DateTime)'
@@ -1730,6 +1809,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSSaleEntity.SetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -1752,6 +1832,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
   id: 'SetSaleStakeholders(NSSaleStakeholder[])'
   so.intellisense: NSSaleEntity.SetSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSaleStakeholders(NSSaleStakeholder[])'
@@ -1774,6 +1855,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleText(String)
   id: 'SetSaleText(String)'
   so.intellisense: NSSaleEntity.SetSaleText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleText(String)'
@@ -1796,6 +1878,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleType(NSSaleType)
   id: 'SetSaleType(NSSaleType)'
   so.intellisense: NSSaleEntity.SetSaleType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleType(NSSaleType)'
@@ -1818,6 +1901,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetSource(NSSource)
   id: 'SetSource(NSSource)'
   so.intellisense: NSSaleEntity.SetSource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSource(NSSource)'
@@ -1840,6 +1924,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSSaleEntity.SetStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStatus(Integer)'
@@ -1862,6 +1947,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSSaleEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -1884,6 +1970,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSSaleEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -1906,6 +1993,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleEntity.SetUserDefinedFields(Map)
   id: 'SetUserDefinedFields(Map)'
   so.intellisense: NSSaleEntity.SetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserDefinedFields(Map)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCustomerServiceAgent
   commentId: T:CRMScript.NetServer.NSCustomerServiceAgent
   id: NSCustomerServiceAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -65,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
   id: 'AddMessageFromMailData(Integer,String)'
   so.intellisense: NSCustomerServiceAgent.AddMessageFromMailData
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'AddMessageFromMailData(Integer,String)'
@@ -91,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.ChatSessionsForUser()
   id: 'ChatSessionsForUser()'
   so.intellisense: NSCustomerServiceAgent.ChatSessionsForUser
+  so.version: 8.2
   langs:
   - crmscript
   name: 'ChatSessionsForUser()'
@@ -111,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CheckIfCustomizedTemplates()
   id: 'CheckIfCustomizedTemplates()'
   so.intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CheckIfCustomizedTemplates()'
@@ -131,6 +135,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CheckSymmetricEncryption(String)
   id: 'CheckSymmetricEncryption(String)'
   so.intellisense: NSCustomerServiceAgent.CheckSymmetricEncryption
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CheckSymmetricEncryption(String)'
@@ -154,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
   id: 'CreateDefaultCustomerCenterConfig()'
   so.intellisense: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultCustomerCenterConfig()'
@@ -194,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultSmsConfig()
   id: 'CreateDefaultSmsConfig()'
   so.intellisense: NSCustomerServiceAgent.CreateDefaultSmsConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultSmsConfig()'
@@ -214,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateSession(String)
   id: 'CreateSession(String)'
   so.intellisense: NSCustomerServiceAgent.CreateSession
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateSession(String)'
@@ -236,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
   id: 'CreateTicketFromMailData(Integer,String)'
   so.intellisense: NSCustomerServiceAgent.CreateTicketFromMailData
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateTicketFromMailData(Integer,String)'
@@ -262,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.DeleteChatSessions(Integer[])
   id: 'DeleteChatSessions(Integer[])'
   so.intellisense: NSCustomerServiceAgent.DeleteChatSessions
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteChatSessions(Integer[])'
@@ -284,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
   id: 'DeleteCustomerCenterConfig(Integer)'
   so.intellisense: NSCustomerServiceAgent.DeleteCustomerCenterConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteCustomerCenterConfig(Integer)'
@@ -306,6 +317,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.EventHandlerExists(Integer)
   id: 'EventHandlerExists(Integer)'
   so.intellisense: NSCustomerServiceAgent.EventHandlerExists
+  so.version: 8.2
   langs:
   - crmscript
   name: 'EventHandlerExists(Integer)'
@@ -329,6 +341,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
   id: 'ExecuteEventHandlers(NSEventData)'
   so.intellisense: NSCustomerServiceAgent.ExecuteEventHandlers
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'ExecuteEventHandlers(NSEventData)'
@@ -351,6 +364,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
   id: 'FindTicketsByTitleOrId(String,Integer)'
   so.intellisense: NSCustomerServiceAgent.FindTicketsByTitleOrId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'FindTicketsByTitleOrId(String,Integer)'
@@ -377,6 +391,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
   id: 'GetAllCustomerCenterConfigs()'
   so.intellisense: NSCustomerServiceAgent.GetAllCustomerCenterConfigs
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAllCustomerCenterConfigs()'
@@ -397,6 +412,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
   id: 'GetCustomerCenterConfig(Integer)'
   so.intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomerCenterConfig(Integer)'
@@ -420,6 +436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerServiceStartup()
   id: 'GetCustomerServiceStartup()'
   so.intellisense: NSCustomerServiceAgent.GetCustomerServiceStartup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomerServiceStartup()'
@@ -463,6 +480,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxes()
   id: 'GetMailboxes()'
   so.intellisense: NSCustomerServiceAgent.GetMailboxes
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMailboxes()'
@@ -483,6 +501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetProgramUrl(String,Bool)
   id: 'GetProgramUrl(String,Bool)'
   so.intellisense: NSCustomerServiceAgent.GetProgramUrl
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetProgramUrl(String,Bool)'
@@ -509,6 +528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetSmsConfig()
   id: 'GetSmsConfig()'
   so.intellisense: NSCustomerServiceAgent.GetSmsConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSmsConfig()'
@@ -552,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.HasChatNotify()
   id: 'HasChatNotify()'
   so.intellisense: NSCustomerServiceAgent.HasChatNotify
+  so.version: 8.2
   langs:
   - crmscript
   name: 'HasChatNotify()'
@@ -572,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.RemoveSession(Integer)
   id: 'RemoveSession(Integer)'
   so.intellisense: NSCustomerServiceAgent.RemoveSession
+  so.version: 8.2
   langs:
   - crmscript
   name: 'RemoveSession(Integer)'
@@ -593,6 +615,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
   id: 'SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])'
   so.intellisense: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])'
@@ -615,6 +638,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
   id: 'SaveCustomerCenterConfig(NSCustomerCenterConfig)'
   so.intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveCustomerCenterConfig(NSCustomerCenterConfig)'
@@ -661,6 +685,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
   id: 'SaveSmsConfig(NSSmsConfig)'
   so.intellisense: NSCustomerServiceAgent.SaveSmsConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveSmsConfig(NSSmsConfig)'
@@ -684,6 +709,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SessionIsValid(String)
   id: 'SessionIsValid(String)'
   so.intellisense: NSCustomerServiceAgent.SessionIsValid
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SessionIsValid(String)'
@@ -707,6 +733,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
   id: 'TestSmtpServer(String,String,Bool)'
   so.intellisense: NSCustomerServiceAgent.TestSmtpServer
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'TestSmtpServer(String,String,Bool)'

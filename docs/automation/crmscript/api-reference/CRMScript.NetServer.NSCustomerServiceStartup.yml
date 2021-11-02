@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCustomerServiceStartup
   commentId: T:CRMScript.NetServer.NSCustomerServiceStartup
   id: NSCustomerServiceStartup
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetRecaptchaSiteKey()
   id: 'GetRecaptchaSiteKey()'
   so.intellisense: NSCustomerServiceStartup.GetRecaptchaSiteKey
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRecaptchaSiteKey()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetTimezoneEnabled()
   id: 'GetTimezoneEnabled()'
   so.intellisense: NSCustomerServiceStartup.GetTimezoneEnabled
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTimezoneEnabled()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetTZOffset()
   id: 'GetTZOffset()'
   so.intellisense: NSCustomerServiceStartup.GetTZOffset
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTZOffset()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
   id: 'SetRecaptchaSiteKey(String)'
   so.intellisense: NSCustomerServiceStartup.SetRecaptchaSiteKey
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRecaptchaSiteKey(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
   id: 'SetTimezoneEnabled(Bool)'
   so.intellisense: NSCustomerServiceStartup.SetTimezoneEnabled
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTimezoneEnabled(Bool)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetTZOffset(Integer)
   id: 'SetTZOffset(Integer)'
   so.intellisense: NSCustomerServiceStartup.SetTZOffset
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTZOffset(Integer)'

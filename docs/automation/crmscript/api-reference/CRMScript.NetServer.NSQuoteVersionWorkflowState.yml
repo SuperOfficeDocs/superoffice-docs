@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteVersionWorkflowState
   commentId: T:CRMScript.NetServer.NSQuoteVersionWorkflowState
   id: NSQuoteVersionWorkflowState
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetActionButtons()
   id: 'GetActionButtons()'
   so.intellisense: NSQuoteVersionWorkflowState.GetActionButtons
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActionButtons()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStateImage()
   id: 'GetStateImage()'
   so.intellisense: NSQuoteVersionWorkflowState.GetStateImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStateImage()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSQuoteVersionWorkflowState.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetUpdatePricesButton()
   id: 'GetUpdatePricesButton()'
   so.intellisense: NSQuoteVersionWorkflowState.GetUpdatePricesButton
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdatePricesButton()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
   id: 'SetActionButtons(NSQuoteVersionButtonState[])'
   so.intellisense: NSQuoteVersionWorkflowState.SetActionButtons
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActionButtons(NSQuoteVersionButtonState[])'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
   id: 'SetStateImage(NSQuoteVersionButtonState)'
   so.intellisense: NSQuoteVersionWorkflowState.SetStateImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStateImage(NSQuoteVersionButtonState)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
   id: 'SetStatus(NSQuoteVersionStatusInformation)'
   so.intellisense: NSQuoteVersionWorkflowState.SetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStatus(NSQuoteVersionStatusInformation)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
   id: 'SetUpdatePricesButton(NSQuoteVersionButtonState)'
   so.intellisense: NSQuoteVersionWorkflowState.SetUpdatePricesButton
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdatePricesButton(NSQuoteVersionButtonState)'

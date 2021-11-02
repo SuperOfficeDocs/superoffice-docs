@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.Profile
   commentId: T:CRMScript.Native.Profile
   id: Profile
+  so.version: 3.1.7
   langs:
   - crmscript
   children:
@@ -33,6 +34,7 @@ items:
   commentId: M:CRMScript.Native.Profile.getListTicketsFields(Integer)
   id: 'getListTicketsFields(Integer)'
   so.intellisense: Profile.getListTicketsFields
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'getListTicketsFields(Integer)'

@@ -43,6 +43,7 @@ items:
   commentId: M:CRMScript.Native.DBWrite.addClob(String,String)
   id: 'addClob(String,String)'
   so.intellisense: DBWrite.addClob
+  so.version: 3.1.3
   langs:
   - crmscript
   name: 'addClob(String,String)'

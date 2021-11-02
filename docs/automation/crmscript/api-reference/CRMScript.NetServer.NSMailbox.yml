@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMailbox
   commentId: T:CRMScript.NetServer.NSMailbox
   id: NSMailbox
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.GetAddress()
   id: 'GetAddress()'
   so.intellisense: NSMailbox.GetAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAddress()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.GetCategoryName()
   id: 'GetCategoryName()'
   so.intellisense: NSMailbox.GetCategoryName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCategoryName()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.GetMailInFilterId()
   id: 'GetMailInFilterId()'
   so.intellisense: NSMailbox.GetMailInFilterId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMailInFilterId()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.GetPriorityName()
   id: 'GetPriorityName()'
   so.intellisense: NSMailbox.GetPriorityName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPriorityName()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.SetAddress(String)
   id: 'SetAddress(String)'
   so.intellisense: NSMailbox.SetAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAddress(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.SetCategoryName(String)
   id: 'SetCategoryName(String)'
   so.intellisense: NSMailbox.SetCategoryName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCategoryName(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.SetMailInFilterId(Integer)
   id: 'SetMailInFilterId(Integer)'
   so.intellisense: NSMailbox.SetMailInFilterId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMailInFilterId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailbox.SetPriorityName(String)
   id: 'SetPriorityName(String)'
   so.intellisense: NSMailbox.SetPriorityName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPriorityName(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAppointmentAgent
   commentId: T:CRMScript.NetServer.NSAppointmentAgent
   id: NSAppointmentAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -132,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.Accept(Integer,Integer)
   id: 'Accept(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.Accept
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Accept(Integer,Integer)'
@@ -157,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.AcceptRejected(Integer,Integer)
   id: 'AcceptRejected(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.AcceptRejected
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AcceptRejected(Integer,Integer)'
@@ -183,6 +186,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
   id: 'AcceptWithEmailConfirmation(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.AcceptWithEmailConfirmation
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'AcceptWithEmailConfirmation(Integer,Integer)'
@@ -286,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
   id: 'CanAssignToProjectMember(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.CanAssignToProjectMember
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'CanAssignToProjectMember(Integer,Integer)'
@@ -311,6 +316,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
   id: 'CleanUpBookingDeleted(Integer[])'
   so.intellisense: NSAppointmentAgent.CleanUpBookingDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CleanUpBookingDeleted(Integer[])'
@@ -333,6 +339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CleanUpRecurringBookingDeleted()
   id: 'CleanUpRecurringBookingDeleted()'
   so.intellisense: NSAppointmentAgent.CleanUpRecurringBookingDeleted
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CleanUpRecurringBookingDeleted()'
@@ -352,6 +359,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateAndAccept(Integer,Integer)
   id: 'CreateAndAccept(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.CreateAndAccept
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateAndAccept(Integer,Integer)'
@@ -376,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
   id: 'CreateAndAcceptWithEmailConfirmation(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateAndAcceptWithEmailConfirmation(Integer,Integer)'
@@ -426,6 +435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntity()
   id: 'CreateDefaultAppointmentEntity()'
   so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultAppointmentEntity()'
@@ -446,6 +456,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
   id: 'CreateDefaultAppointmentEntityByType(Integer)'
   so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultAppointmentEntityByType(Integer)'
@@ -469,6 +480,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
   id: 'CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)'
@@ -495,6 +507,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
   id: 'CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)'
   so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)'
@@ -526,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
   id: 'CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)'
   so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)'
@@ -558,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrence()
   id: 'CreateDefaultRecurrence()'
   so.intellisense: NSAppointmentAgent.CreateDefaultRecurrence
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultRecurrence()'
@@ -600,6 +615,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
   id: 'CreateDefaultReOpenAppointment(Integer)'
   so.intellisense: NSAppointmentAgent.CreateDefaultReOpenAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultReOpenAppointment(Integer)'
@@ -623,6 +639,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
   id: 'CreateDefaultSuggestedAppointmentEntity()'
   so.intellisense: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultSuggestedAppointmentEntity()'
@@ -643,6 +660,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultTaskListItem()
   id: 'CreateDefaultTaskListItem()'
   so.intellisense: NSAppointmentAgent.CreateDefaultTaskListItem
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultTaskListItem()'
@@ -663,6 +681,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
   id: 'DeclineInvitationFromEmailItem(Integer,String)'
   so.intellisense: NSAppointmentAgent.DeclineInvitationFromEmailItem
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeclineInvitationFromEmailItem(Integer,String)'
@@ -720,6 +739,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.DeleteAppointmentEntity(Integer)
   id: 'DeleteAppointmentEntity(Integer)'
   so.intellisense: NSAppointmentAgent.DeleteAppointmentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteAppointmentEntity(Integer)'
@@ -742,6 +762,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
   id: 'GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)'
   so.intellisense: NSAppointmentAgent.GenerateLead
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)'
@@ -826,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
   id: 'GetAlarms(Bool,Bool,Integer)'
   so.intellisense: NSAppointmentAgent.GetAlarms
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlarms(Bool,Bool,Integer)'
@@ -854,6 +876,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointment(Integer)
   id: 'GetAppointment(Integer)'
   so.intellisense: NSAppointmentAgent.GetAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointment(Integer)'
@@ -877,6 +900,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentEntity(Integer)
   id: 'GetAppointmentEntity(Integer)'
   so.intellisense: NSAppointmentAgent.GetAppointmentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentEntity(Integer)'
@@ -900,6 +924,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentFromUID(String)
   id: 'GetAppointmentFromUID(String)'
   so.intellisense: NSAppointmentAgent.GetAppointmentFromUID
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAppointmentFromUID(String)'
@@ -923,6 +948,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
   id: 'GetAppointmentHaveParticipantsWithEmail(Integer)'
   so.intellisense: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentHaveParticipantsWithEmail(Integer)'
@@ -946,6 +972,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentList(Integer[])
   id: 'GetAppointmentList(Integer[])'
   so.intellisense: NSAppointmentAgent.GetAppointmentList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentList(Integer[])'
@@ -969,6 +996,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
   id: 'GetAppointmentRecords(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.GetAppointmentRecords
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentRecords(Integer,Integer)'
@@ -993,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
   id: 'GetAppointmentsByTaskHeading(Integer)'
   so.intellisense: NSAppointmentAgent.GetAppointmentsByTaskHeading
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentsByTaskHeading(Integer)'
@@ -1075,6 +1104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
   id: 'GetCanInsertForAssociates(Integer[])'
   so.intellisense: NSAppointmentAgent.GetCanInsertForAssociates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCanInsertForAssociates(Integer[])'
@@ -1385,6 +1415,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyPublishedAppointments()
   id: 'GetMyPublishedAppointments()'
   so.intellisense: NSAppointmentAgent.GetMyPublishedAppointments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyPublishedAppointments()'
@@ -1431,6 +1462,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyTasks(Integer)
   id: 'GetMyTasks(Integer)'
   so.intellisense: NSAppointmentAgent.GetMyTasks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyTasks(Integer)'
@@ -1454,6 +1486,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
   id: 'GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)'
   so.intellisense: NSAppointmentAgent.GetNextSuggestedAppointmentBySale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)'
@@ -1483,6 +1516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetOrganizerName(Integer)
   id: 'GetOrganizerName(Integer)'
   so.intellisense: NSAppointmentAgent.GetOrganizerName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOrganizerName(Integer)'
@@ -1725,6 +1759,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonTasks(Integer,Integer)
   id: 'GetPersonTasks(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.GetPersonTasks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonTasks(Integer,Integer)'
@@ -2089,6 +2124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointment(Integer)
   id: 'GetPublishedAppointment(Integer)'
   so.intellisense: NSAppointmentAgent.GetPublishedAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedAppointment(Integer)'
@@ -2112,6 +2148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointments(Integer[])
   id: 'GetPublishedAppointments(Integer[])'
   so.intellisense: NSAppointmentAgent.GetPublishedAppointments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedAppointments(Integer[])'
@@ -2135,6 +2172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
   id: 'GetPublishedProjectAppointments(Integer)'
   so.intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedProjectAppointments(Integer)'
@@ -2187,6 +2225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointment(Integer)
   id: 'GetSuggestedAppointment(Integer)'
   so.intellisense: NSAppointmentAgent.GetSuggestedAppointment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSuggestedAppointment(Integer)'
@@ -2210,6 +2249,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
   id: 'GetSuggestedAppointmentEntity(Integer)'
   so.intellisense: NSAppointmentAgent.GetSuggestedAppointmentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedAppointmentEntity(Integer)'
@@ -2233,6 +2273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetTaskListItem(Integer)
   id: 'GetTaskListItem(Integer)'
   so.intellisense: NSAppointmentAgent.GetTaskListItem
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTaskListItem(Integer)'
@@ -2255,6 +2296,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetTaskListItems(Bool)
   id: 'GetTaskListItems(Bool)'
   so.intellisense: NSAppointmentAgent.GetTaskListItems
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTaskListItems(Bool)'
@@ -2277,6 +2319,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
   id: 'GetUIDFromAppointmentId(Integer,Bool)'
   so.intellisense: NSAppointmentAgent.GetUIDFromAppointmentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUIDFromAppointmentId(Integer,Bool)'
@@ -2328,6 +2371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.Reject(Integer,String,Integer)
   id: 'Reject(Integer,String,Integer)'
   so.intellisense: NSAppointmentAgent.Reject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Reject(Integer,String,Integer)'
@@ -2356,6 +2400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
   id: 'RejectWithEmailConfirmation(Integer,String,Integer)'
   so.intellisense: NSAppointmentAgent.RejectWithEmailConfirmation
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'RejectWithEmailConfirmation(Integer,String,Integer)'
@@ -2412,6 +2457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
   id: 'RequestForInfo(Integer,String,String,String,String,String,String,String)'
   so.intellisense: NSAppointmentAgent.RequestForInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RequestForInfo(Integer,String,String,String,String,String,String,String)'
@@ -2480,6 +2526,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
   id: 'SaveAppointmentEntity(NSAppointmentEntity)'
   so.intellisense: NSAppointmentAgent.SaveAppointmentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveAppointmentEntity(NSAppointmentEntity)'
@@ -2503,6 +2550,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
   id: 'SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)'
   so.intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)'
@@ -2526,6 +2574,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
   id: 'SaveTaskListItem(NSTaskListItem)'
   so.intellisense: NSAppointmentAgent.SaveTaskListItem
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveTaskListItem(NSTaskListItem)'
@@ -2549,6 +2598,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.SetActivityStatus(String[],Integer)
   id: 'SetActivityStatus(String[],Integer)'
   so.intellisense: NSAppointmentAgent.SetActivityStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityStatus(String[],Integer)'
@@ -2573,6 +2623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.SetSeen(Integer,Integer)
   id: 'SetSeen(Integer,Integer)'
   so.intellisense: NSAppointmentAgent.SetSeen
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSeen(Integer,Integer)'
@@ -2597,6 +2648,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleActivities(String[])
   id: 'ToggleActivities(String[])'
   so.intellisense: NSAppointmentAgent.ToggleActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ToggleActivities(String[])'
@@ -2620,6 +2672,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleActivity(String)
   id: 'ToggleActivity(String)'
   so.intellisense: NSAppointmentAgent.ToggleActivity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ToggleActivity(String)'
@@ -2643,6 +2696,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleAndSetActivities(String[])
   id: 'ToggleAndSetActivities(String[])'
   so.intellisense: NSAppointmentAgent.ToggleAndSetActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ToggleAndSetActivities(String[])'
@@ -2666,6 +2720,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleAppointmentStatus(Integer)
   id: 'ToggleAppointmentStatus(Integer)'
   so.intellisense: NSAppointmentAgent.ToggleAppointmentStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ToggleAppointmentStatus(Integer)'

@@ -33,6 +33,7 @@ items:
   commentId: M:CRMScript.Native.HtmlElement.clearValue()
   id: 'clearValue()'
   so.intellisense: HtmlElement.clearValue
+  so.version: 7.1.0
   langs:
   - crmscript
   name: 'clearValue()'
@@ -133,6 +134,7 @@ items:
   commentId: M:CRMScript.Native.HtmlElement.getTypeName()
   id: 'getTypeName()'
   so.intellisense: HtmlElement.getTypeName
+  so.version: 4.3.5
   langs:
   - crmscript
   name: 'getTypeName()'
@@ -239,6 +241,7 @@ items:
   commentId: M:CRMScript.Native.HtmlElement.setFromCgi()
   id: 'setFromCgi()'
   so.intellisense: HtmlElement.setFromCgi
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setFromCgi()'
@@ -257,6 +260,7 @@ items:
   commentId: M:CRMScript.Native.HtmlElement.setInfoMessage(String)
   id: 'setInfoMessage(String)'
   so.intellisense: HtmlElement.setInfoMessage
+  so.version: 4.2.12
   langs:
   - crmscript
   name: 'setInfoMessage(String)'
@@ -278,6 +282,7 @@ items:
   commentId: M:CRMScript.Native.HtmlElement.setNotEditable(Bool)
   id: 'setNotEditable(Bool)'
   so.intellisense: HtmlElement.setNotEditable
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'setNotEditable(Bool)'

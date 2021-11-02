@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRecurrenceInfo
   commentId: T:CRMScript.NetServer.NSRecurrenceInfo
   id: NSRecurrenceInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -56,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetDates()
   id: 'GetDates()'
   so.intellisense: NSRecurrenceInfo.GetDates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDates()'
@@ -75,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetDayPattern()
   id: 'GetDayPattern()'
   so.intellisense: NSRecurrenceInfo.GetDayPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDayPattern()'
@@ -93,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetEndDate()
   id: 'GetEndDate()'
   so.intellisense: NSRecurrenceInfo.GetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndDate()'
@@ -111,6 +115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetIsRecurrence()
   id: 'GetIsRecurrence()'
   so.intellisense: NSRecurrenceInfo.GetIsRecurrence
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsRecurrence()'
@@ -129,6 +134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetMonthPattern()
   id: 'GetMonthPattern()'
   so.intellisense: NSRecurrenceInfo.GetMonthPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMonthPattern()'
@@ -147,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetPattern()
   id: 'GetPattern()'
   so.intellisense: NSRecurrenceInfo.GetPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPattern()'
@@ -165,6 +172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceCounter()
   id: 'GetRecurrenceCounter()'
   so.intellisense: NSRecurrenceInfo.GetRecurrenceCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecurrenceCounter()'
@@ -183,6 +191,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceEndType()
   id: 'GetRecurrenceEndType()'
   so.intellisense: NSRecurrenceInfo.GetRecurrenceEndType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecurrenceEndType()'
@@ -201,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceId()
   id: 'GetRecurrenceId()'
   so.intellisense: NSRecurrenceInfo.GetRecurrenceId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecurrenceId()'
@@ -219,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetStartDate()
   id: 'GetStartDate()'
   so.intellisense: NSRecurrenceInfo.GetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartDate()'
@@ -237,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetWeekPattern()
   id: 'GetWeekPattern()'
   so.intellisense: NSRecurrenceInfo.GetWeekPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWeekPattern()'
@@ -255,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetYearPattern()
   id: 'GetYearPattern()'
   so.intellisense: NSRecurrenceInfo.GetYearPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetYearPattern()'
@@ -273,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
   id: 'SetDates(NSRecurrenceDate[])'
   so.intellisense: NSRecurrenceInfo.SetDates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDates(NSRecurrenceDate[])'
@@ -294,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetDayPattern(Integer)
   id: 'SetDayPattern(Integer)'
   so.intellisense: NSRecurrenceInfo.SetDayPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDayPattern(Integer)'
@@ -315,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetEndDate(DateTime)
   id: 'SetEndDate(DateTime)'
   so.intellisense: NSRecurrenceInfo.SetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndDate(DateTime)'
@@ -336,6 +352,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetIsRecurrence(Bool)
   id: 'SetIsRecurrence(Bool)'
   so.intellisense: NSRecurrenceInfo.SetIsRecurrence
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsRecurrence(Bool)'
@@ -357,6 +374,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetMonthPattern(Integer)
   id: 'SetMonthPattern(Integer)'
   so.intellisense: NSRecurrenceInfo.SetMonthPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMonthPattern(Integer)'
@@ -378,6 +396,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetPattern(Integer)
   id: 'SetPattern(Integer)'
   so.intellisense: NSRecurrenceInfo.SetPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPattern(Integer)'
@@ -399,6 +418,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceCounter(Integer)
   id: 'SetRecurrenceCounter(Integer)'
   so.intellisense: NSRecurrenceInfo.SetRecurrenceCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRecurrenceCounter(Integer)'
@@ -420,6 +440,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceEndType(Integer)
   id: 'SetRecurrenceEndType(Integer)'
   so.intellisense: NSRecurrenceInfo.SetRecurrenceEndType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRecurrenceEndType(Integer)'
@@ -441,6 +462,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceId(Integer)
   id: 'SetRecurrenceId(Integer)'
   so.intellisense: NSRecurrenceInfo.SetRecurrenceId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRecurrenceId(Integer)'
@@ -462,6 +484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetStartDate(DateTime)
   id: 'SetStartDate(DateTime)'
   so.intellisense: NSRecurrenceInfo.SetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartDate(DateTime)'
@@ -483,6 +506,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetWeekPattern(Integer)
   id: 'SetWeekPattern(Integer)'
   so.intellisense: NSRecurrenceInfo.SetWeekPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWeekPattern(Integer)'
@@ -504,6 +528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetYearPattern(Integer)
   id: 'SetYearPattern(Integer)'
   so.intellisense: NSRecurrenceInfo.SetYearPattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetYearPattern(Integer)'

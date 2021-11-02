@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCheckLicenseStatusResult
   commentId: T:CRMScript.NetServer.NSCheckLicenseStatusResult
   id: NSCheckLicenseStatusResult
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.GetLicenseStatus()
   id: 'GetLicenseStatus()'
   so.intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseStatus()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.GetMessage()
   id: 'GetMessage()'
   so.intellisense: NSCheckLicenseStatusResult.GetMessage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMessage()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSCheckLicenseStatusResult.GetUrl
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.SetLicenseStatus(Integer)
   id: 'SetLicenseStatus(Integer)'
   so.intellisense: NSCheckLicenseStatusResult.SetLicenseStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLicenseStatus(Integer)'
@@ -118,6 +123,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.SetMessage(String)
   id: 'SetMessage(String)'
   so.intellisense: NSCheckLicenseStatusResult.SetMessage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMessage(String)'
@@ -140,6 +146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckLicenseStatusResult.SetUrl(String)
   id: 'SetUrl(String)'
   so.intellisense: NSCheckLicenseStatusResult.SetUrl
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUrl(String)'

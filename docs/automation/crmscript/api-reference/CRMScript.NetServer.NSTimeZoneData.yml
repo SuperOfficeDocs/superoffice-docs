@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTimeZoneData
   commentId: T:CRMScript.NetServer.NSTimeZoneData
   id: NSTimeZoneData
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetIsoNumber()
   id: 'GetIsoNumber()'
   so.intellisense: NSTimeZoneData.GetIsoNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsoNumber()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetName()
   id: 'GetName()'
   so.intellisense: NSTimeZoneData.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetTimeZoneDSTRules()
   id: 'GetTimeZoneDSTRules()'
   so.intellisense: NSTimeZoneData.GetTimeZoneDSTRules
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTimeZoneDSTRules()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetTimeZoneSTDRules()
   id: 'GetTimeZoneSTDRules()'
   so.intellisense: NSTimeZoneData.GetTimeZoneSTDRules
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTimeZoneSTDRules()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetTZLocationCities()
   id: 'GetTZLocationCities()'
   so.intellisense: NSTimeZoneData.GetTZLocationCities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTZLocationCities()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetTZLocationCode()
   id: 'GetTZLocationCode()'
   so.intellisense: NSTimeZoneData.GetTZLocationCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTZLocationCode()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.GetTZLocationID()
   id: 'GetTZLocationID()'
   so.intellisense: NSTimeZoneData.GetTZLocationID
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTZLocationID()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.SetIsoNumber(Integer)
   id: 'SetIsoNumber(Integer)'
   so.intellisense: NSTimeZoneData.SetIsoNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsoNumber(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTimeZoneData.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -274,6 +284,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.SetTZLocationCities(String)
   id: 'SetTZLocationCities(String)'
   so.intellisense: NSTimeZoneData.SetTZLocationCities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTZLocationCities(String)'
@@ -296,6 +307,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.SetTZLocationCode(String)
   id: 'SetTZLocationCode(String)'
   so.intellisense: NSTimeZoneData.SetTZLocationCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTZLocationCode(String)'
@@ -318,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneData.SetTZLocationID(Integer)
   id: 'SetTZLocationID(Integer)'
   so.intellisense: NSTimeZoneData.SetTZLocationID
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTZLocationID(Integer)'

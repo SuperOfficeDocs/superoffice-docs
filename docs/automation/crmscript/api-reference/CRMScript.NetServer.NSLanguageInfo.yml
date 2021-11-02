@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLanguageInfo
   commentId: T:CRMScript.NetServer.NSLanguageInfo
   id: NSLanguageInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetEnglishName()
   id: 'GetEnglishName()'
   so.intellisense: NSLanguageInfo.GetEnglishName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEnglishName()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetIsBuiltIn()
   id: 'GetIsBuiltIn()'
   so.intellisense: NSLanguageInfo.GetIsBuiltIn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsBuiltIn()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetLanguageInfoId()
   id: 'GetLanguageInfoId()'
   so.intellisense: NSLanguageInfo.GetLanguageInfoId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLanguageInfoId()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetLCID()
   id: 'GetLCID()'
   so.intellisense: NSLanguageInfo.GetLCID
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLCID()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetNativeName()
   id: 'GetNativeName()'
   so.intellisense: NSLanguageInfo.GetNativeName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNativeName()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetThreeLetterISOLanguageName()
   id: 'GetThreeLetterISOLanguageName()'
   so.intellisense: NSLanguageInfo.GetThreeLetterISOLanguageName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetThreeLetterISOLanguageName()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.GetTwoLetterISOLanguageName()
   id: 'GetTwoLetterISOLanguageName()'
   so.intellisense: NSLanguageInfo.GetTwoLetterISOLanguageName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTwoLetterISOLanguageName()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetEnglishName(String)
   id: 'SetEnglishName(String)'
   so.intellisense: NSLanguageInfo.SetEnglishName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEnglishName(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetIsBuiltIn(Bool)
   id: 'SetIsBuiltIn(Bool)'
   so.intellisense: NSLanguageInfo.SetIsBuiltIn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsBuiltIn(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetLanguageInfoId(Integer)
   id: 'SetLanguageInfoId(Integer)'
   so.intellisense: NSLanguageInfo.SetLanguageInfoId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLanguageInfoId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetLCID(Integer)
   id: 'SetLCID(Integer)'
   so.intellisense: NSLanguageInfo.SetLCID
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLCID(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetNativeName(String)
   id: 'SetNativeName(String)'
   so.intellisense: NSLanguageInfo.SetNativeName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNativeName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetThreeLetterISOLanguageName(String)
   id: 'SetThreeLetterISOLanguageName(String)'
   so.intellisense: NSLanguageInfo.SetThreeLetterISOLanguageName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetThreeLetterISOLanguageName(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLanguageInfo.SetTwoLetterISOLanguageName(String)
   id: 'SetTwoLetterISOLanguageName(String)'
   so.intellisense: NSLanguageInfo.SetTwoLetterISOLanguageName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTwoLetterISOLanguageName(String)'

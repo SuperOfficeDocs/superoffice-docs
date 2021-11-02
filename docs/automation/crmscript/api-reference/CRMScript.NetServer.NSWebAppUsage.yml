@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWebAppUsage
   commentId: T:CRMScript.NetServer.NSWebAppUsage
   id: NSWebAppUsage
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetAggregateBin()
   id: 'GetAggregateBin()'
   so.intellisense: NSWebAppUsage.GetAggregateBin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAggregateBin()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetAggregateCount()
   id: 'GetAggregateCount()'
   so.intellisense: NSWebAppUsage.GetAggregateCount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAggregateCount()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetAssocId()
   id: 'GetAssocId()'
   so.intellisense: NSWebAppUsage.GetAssocId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssocId()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetTimestamp()
   id: 'GetTimestamp()'
   so.intellisense: NSWebAppUsage.GetTimestamp
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTimestamp()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetVersion()
   id: 'GetVersion()'
   so.intellisense: NSWebAppUsage.GetVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVersion()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetViewState()
   id: 'GetViewState()'
   so.intellisense: NSWebAppUsage.GetViewState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetViewState()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.GetWebAppUsageId()
   id: 'GetWebAppUsageId()'
   so.intellisense: NSWebAppUsage.GetWebAppUsageId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWebAppUsageId()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetAggregateBin(Integer)
   id: 'SetAggregateBin(Integer)'
   so.intellisense: NSWebAppUsage.SetAggregateBin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAggregateBin(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetAggregateCount(Integer)
   id: 'SetAggregateCount(Integer)'
   so.intellisense: NSWebAppUsage.SetAggregateCount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAggregateCount(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetAssocId(Integer)
   id: 'SetAssocId(Integer)'
   so.intellisense: NSWebAppUsage.SetAssocId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssocId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetTimestamp(DateTime)
   id: 'SetTimestamp(DateTime)'
   so.intellisense: NSWebAppUsage.SetTimestamp
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTimestamp(DateTime)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetVersion(Integer)
   id: 'SetVersion(Integer)'
   so.intellisense: NSWebAppUsage.SetVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVersion(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetViewState(String)
   id: 'SetViewState(String)'
   so.intellisense: NSWebAppUsage.SetViewState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetViewState(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebAppUsage.SetWebAppUsageId(Integer)
   id: 'SetWebAppUsageId(Integer)'
   so.intellisense: NSWebAppUsage.SetWebAppUsageId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWebAppUsageId(Integer)'

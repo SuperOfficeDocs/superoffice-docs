@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoTimeSpan
   commentId: T:CRMScript.NetServer.NSFieldInfoTimeSpan
   id: NSFieldInfoTimeSpan
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoTimeSpan.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.GetUseDays()
   id: 'GetUseDays()'
   so.intellisense: NSFieldInfoTimeSpan.GetUseDays
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUseDays()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.GetUseHours()
   id: 'GetUseHours()'
   so.intellisense: NSFieldInfoTimeSpan.GetUseHours
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUseHours()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.GetUseMinutes()
   id: 'GetUseMinutes()'
   so.intellisense: NSFieldInfoTimeSpan.GetUseMinutes
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUseMinutes()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.SetDefaultValue(Integer)
   id: 'SetDefaultValue(Integer)'
   so.intellisense: NSFieldInfoTimeSpan.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.SetUseDays(Bool)
   id: 'SetUseDays(Bool)'
   so.intellisense: NSFieldInfoTimeSpan.SetUseDays
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUseDays(Bool)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.SetUseHours(Bool)
   id: 'SetUseHours(Bool)'
   so.intellisense: NSFieldInfoTimeSpan.SetUseHours
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUseHours(Bool)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoTimeSpan.SetUseMinutes(Bool)
   id: 'SetUseMinutes(Bool)'
   so.intellisense: NSFieldInfoTimeSpan.SetUseMinutes
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUseMinutes(Bool)'

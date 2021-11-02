@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDataRight
   commentId: T:CRMScript.NetServer.NSDataRight
   id: NSDataRight
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRight.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSDataRight.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRight.GetValue()
   id: 'GetValue()'
   so.intellisense: NSDataRight.GetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValue()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRight.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSDataRight.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRight.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSDataRight.SetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValue(String)'

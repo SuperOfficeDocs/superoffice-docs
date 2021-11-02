@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCustomerCenterConfig
   commentId: T:CRMScript.NetServer.NSCustomerCenterConfig
   id: NSCustomerCenterConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetConfig()
   id: 'GetConfig()'
   so.intellisense: NSCustomerCenterConfig.GetConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetConfig()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetCustConfigId()
   id: 'GetCustConfigId()'
   so.intellisense: NSCustomerCenterConfig.GetCustConfigId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustConfigId()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetCustLangId()
   id: 'GetCustLangId()'
   so.intellisense: NSCustomerCenterConfig.GetCustLangId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustLangId()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSCustomerCenterConfig.GetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetRegisteredAssociateId()
   id: 'GetRegisteredAssociateId()'
   so.intellisense: NSCustomerCenterConfig.GetRegisteredAssociateId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRegisteredAssociateId()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetType()
   id: 'GetType()'
   so.intellisense: NSCustomerCenterConfig.GetType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetType()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSCustomerCenterConfig.GetUpdated
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetUpdatedAssociateId()
   id: 'GetUpdatedAssociateId()'
   so.intellisense: NSCustomerCenterConfig.GetUpdatedAssociateId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUpdatedAssociateId()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetConfig(String)
   id: 'SetConfig(String)'
   so.intellisense: NSCustomerCenterConfig.SetConfig
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetConfig(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetCustConfigId(Integer)
   id: 'SetCustConfigId(Integer)'
   so.intellisense: NSCustomerCenterConfig.SetCustConfigId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustConfigId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetCustLangId(Integer)
   id: 'SetCustLangId(Integer)'
   so.intellisense: NSCustomerCenterConfig.SetCustLangId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustLangId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSCustomerCenterConfig.SetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
   id: 'SetRegisteredAssociateId(Integer)'
   so.intellisense: NSCustomerCenterConfig.SetRegisteredAssociateId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRegisteredAssociateId(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSCustomerCenterConfig.SetType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -362,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
   id: 'SetUpdatedAssociateId(Integer)'
   so.intellisense: NSCustomerCenterConfig.SetUpdatedAssociateId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUpdatedAssociateId(Integer)'

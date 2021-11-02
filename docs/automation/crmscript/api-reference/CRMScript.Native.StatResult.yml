@@ -85,6 +85,7 @@ items:
   commentId: M:CRMScript.Native.StatResult.dumpParser()
   id: 'dumpParser()'
   so.intellisense: StatResult.dumpParser
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'dumpParser()'
@@ -204,6 +205,7 @@ items:
   commentId: M:CRMScript.Native.StatResult.saveAsResult(Integer,Integer,Integer)
   id: 'saveAsResult(Integer,Integer,Integer)'
   so.intellisense: StatResult.saveAsResult
+  so.version: 4.2.14
   langs:
   - crmscript
   name: 'saveAsResult(Integer,Integer,Integer)'

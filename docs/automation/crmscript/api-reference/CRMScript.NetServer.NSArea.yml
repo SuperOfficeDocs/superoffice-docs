@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArea
   commentId: T:CRMScript.NetServer.NSArea
   id: NSArea
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetAreaId()
   id: 'GetAreaId()'
   so.intellisense: NSArea.GetAreaId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAreaId()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetFreetextEnabeled()
   id: 'GetFreetextEnabeled()'
   so.intellisense: NSArea.GetFreetextEnabeled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFreetextEnabeled()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetMaxDataAge()
   id: 'GetMaxDataAge()'
   so.intellisense: NSArea.GetMaxDataAge
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMaxDataAge()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetName()
   id: 'GetName()'
   so.intellisense: NSArea.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetNumberOfLogins()
   id: 'GetNumberOfLogins()'
   so.intellisense: NSArea.GetNumberOfLogins
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLogins()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.GetNumberOfUsers()
   id: 'GetNumberOfUsers()'
   so.intellisense: NSArea.GetNumberOfUsers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfUsers()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetAreaId(Integer)
   id: 'SetAreaId(Integer)'
   so.intellisense: NSArea.SetAreaId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAreaId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetFreetextEnabeled(Bool)
   id: 'SetFreetextEnabeled(Bool)'
   so.intellisense: NSArea.SetFreetextEnabeled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFreetextEnabeled(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetMaxDataAge(Integer)
   id: 'SetMaxDataAge(Integer)'
   so.intellisense: NSArea.SetMaxDataAge
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMaxDataAge(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSArea.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetNumberOfLogins(Integer)
   id: 'SetNumberOfLogins(Integer)'
   so.intellisense: NSArea.SetNumberOfLogins
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLogins(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArea.SetNumberOfUsers(Integer)
   id: 'SetNumberOfUsers(Integer)'
   so.intellisense: NSArea.SetNumberOfUsers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfUsers(Integer)'

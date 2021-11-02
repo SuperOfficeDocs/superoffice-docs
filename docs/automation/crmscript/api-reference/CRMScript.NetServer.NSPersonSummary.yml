@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPersonSummary
   commentId: T:CRMScript.NetServer.NSPersonSummary
   id: NSPersonSummary
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetChats()
   id: 'GetChats()'
   so.intellisense: NSPersonSummary.GetChats
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChats()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetDocuments()
   id: 'GetDocuments()'
   so.intellisense: NSPersonSummary.GetDocuments
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDocuments()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetFollowups()
   id: 'GetFollowups()'
   so.intellisense: NSPersonSummary.GetFollowups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFollowups()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSPersonSummary.GetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetSales()
   id: 'GetSales()'
   so.intellisense: NSPersonSummary.GetSales
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSales()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.GetTickets()
   id: 'GetTickets()'
   so.intellisense: NSPersonSummary.GetTickets
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTickets()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetChats(NSChatSummaryItem[])
   id: 'SetChats(NSChatSummaryItem[])'
   so.intellisense: NSPersonSummary.SetChats
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetChats(NSChatSummaryItem[])'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetDocuments(NSActivitySummaryItem[])
   id: 'SetDocuments(NSActivitySummaryItem[])'
   so.intellisense: NSPersonSummary.SetDocuments
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDocuments(NSActivitySummaryItem[])'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetFollowups(NSActivitySummaryItem[])
   id: 'SetFollowups(NSActivitySummaryItem[])'
   so.intellisense: NSPersonSummary.SetFollowups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFollowups(NSActivitySummaryItem[])'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSPersonSummary.SetPerson
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetSales(NSSaleSummaryItem[])
   id: 'SetSales(NSSaleSummaryItem[])'
   so.intellisense: NSPersonSummary.SetSales
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSales(NSSaleSummaryItem[])'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonSummary.SetTickets(NSTicketSummaryItem[])
   id: 'SetTickets(NSTicketSummaryItem[])'
   so.intellisense: NSPersonSummary.SetTickets
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTickets(NSTicketSummaryItem[])'

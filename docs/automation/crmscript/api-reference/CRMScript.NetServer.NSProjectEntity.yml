@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectEntity
   commentId: T:CRMScript.NetServer.NSProjectEntity
   id: NSProjectEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -94,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveErpLinks()
   id: 'GetActiveErpLinks()'
   so.intellisense: NSProjectEntity.GetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveErpLinks()'
@@ -114,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveLinks()
   id: 'GetActiveLinks()'
   so.intellisense: NSProjectEntity.GetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveLinks()'
@@ -134,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveStatusMonitorId()
   id: 'GetActiveStatusMonitorId()'
   so.intellisense: NSProjectEntity.GetActiveStatusMonitorId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveStatusMonitorId()'
@@ -154,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSProjectEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -174,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSProjectEntity.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -194,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSProjectEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -214,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSProjectEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -234,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSProjectEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -254,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSProjectEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -274,6 +284,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetEndDate()
   id: 'GetEndDate()'
   so.intellisense: NSProjectEntity.GetEndDate
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetEndDate()'
@@ -294,6 +305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSProjectEntity.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -314,6 +326,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetHasImage()
   id: 'GetHasImage()'
   so.intellisense: NSProjectEntity.GetHasImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHasImage()'
@@ -334,6 +347,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetImageDescription()
   id: 'GetImageDescription()'
   so.intellisense: NSProjectEntity.GetImageDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetImageDescription()'
@@ -354,6 +368,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSProjectEntity.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -373,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetLinks()
   id: 'GetLinks()'
   so.intellisense: NSProjectEntity.GetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinks()'
@@ -393,6 +409,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSProjectEntity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -413,6 +430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetNextMilestoneDate()
   id: 'GetNextMilestoneDate()'
   so.intellisense: NSProjectEntity.GetNextMilestoneDate
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetNextMilestoneDate()'
@@ -433,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetNmdAppointmentId()
   id: 'GetNmdAppointmentId()'
   so.intellisense: NSProjectEntity.GetNmdAppointmentId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetNmdAppointmentId()'
@@ -453,6 +472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetPostit()
   id: 'GetPostit()'
   so.intellisense: NSProjectEntity.GetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPostit()'
@@ -473,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSProjectEntity.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -493,6 +514,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectMembers()
   id: 'GetProjectMembers()'
   so.intellisense: NSProjectEntity.GetProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMembers()'
@@ -513,6 +535,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectNumber()
   id: 'GetProjectNumber()'
   so.intellisense: NSProjectEntity.GetProjectNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectNumber()'
@@ -533,6 +556,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectStatus()
   id: 'GetProjectStatus()'
   so.intellisense: NSProjectEntity.GetProjectStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectStatus()'
@@ -553,6 +577,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectType()
   id: 'GetProjectType()'
   so.intellisense: NSProjectEntity.GetProjectType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectType()'
@@ -573,6 +598,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishEventDate()
   id: 'GetPublishEventDate()'
   so.intellisense: NSProjectEntity.GetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishEventDate()'
@@ -592,6 +618,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSProjectEntity.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -611,6 +638,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSProjectEntity.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -630,6 +658,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSProjectEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -650,6 +679,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSProjectEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetUrls()
   id: 'GetUrls()'
   so.intellisense: NSProjectEntity.GetUrls
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUrls()'
@@ -690,6 +721,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.GetUserDefinedFields()
   id: 'GetUserDefinedFields()'
   so.intellisense: NSProjectEntity.GetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFields()'
@@ -710,6 +742,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveErpLinks(Integer)
   id: 'SetActiveErpLinks(Integer)'
   so.intellisense: NSProjectEntity.SetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveErpLinks(Integer)'
@@ -732,6 +765,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveLinks(Integer)
   id: 'SetActiveLinks(Integer)'
   so.intellisense: NSProjectEntity.SetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveLinks(Integer)'
@@ -754,6 +788,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveStatusMonitorId(Integer)
   id: 'SetActiveStatusMonitorId(Integer)'
   so.intellisense: NSProjectEntity.SetActiveStatusMonitorId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveStatusMonitorId(Integer)'
@@ -776,6 +811,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSProjectEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -798,6 +834,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetCompleted(Bool)
   id: 'SetCompleted(Bool)'
   so.intellisense: NSProjectEntity.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Bool)'
@@ -820,6 +857,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSProjectEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -842,6 +880,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSProjectEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -864,6 +903,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSProjectEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -886,6 +926,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSProjectEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -908,6 +949,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetEndDate(DateTime)
   id: 'SetEndDate(DateTime)'
   so.intellisense: NSProjectEntity.SetEndDate
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetEndDate(DateTime)'
@@ -930,6 +972,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSProjectEntity.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -952,6 +995,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetHasImage(Bool)
   id: 'SetHasImage(Bool)'
   so.intellisense: NSProjectEntity.SetHasImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHasImage(Bool)'
@@ -974,6 +1018,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetImageDescription(String)
   id: 'SetImageDescription(String)'
   so.intellisense: NSProjectEntity.SetImageDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetImageDescription(String)'
@@ -996,6 +1041,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSProjectEntity.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -1017,6 +1063,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetLinks(NSLink[])
   id: 'SetLinks(NSLink[])'
   so.intellisense: NSProjectEntity.SetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinks(NSLink[])'
@@ -1039,6 +1086,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSProjectEntity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -1061,6 +1109,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetNextMilestoneDate(DateTime)
   id: 'SetNextMilestoneDate(DateTime)'
   so.intellisense: NSProjectEntity.SetNextMilestoneDate
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetNextMilestoneDate(DateTime)'
@@ -1083,6 +1132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetNmdAppointmentId(Integer)
   id: 'SetNmdAppointmentId(Integer)'
   so.intellisense: NSProjectEntity.SetNmdAppointmentId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetNmdAppointmentId(Integer)'
@@ -1105,6 +1155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetPostit(String)
   id: 'SetPostit(String)'
   so.intellisense: NSProjectEntity.SetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPostit(String)'
@@ -1127,6 +1178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSProjectEntity.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -1149,6 +1201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectMembers(NSProjectMember[])
   id: 'SetProjectMembers(NSProjectMember[])'
   so.intellisense: NSProjectEntity.SetProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectMembers(NSProjectMember[])'
@@ -1171,6 +1224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectNumber(String)
   id: 'SetProjectNumber(String)'
   so.intellisense: NSProjectEntity.SetProjectNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectNumber(String)'
@@ -1193,6 +1247,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectStatus(NSProjectStatus)
   id: 'SetProjectStatus(NSProjectStatus)'
   so.intellisense: NSProjectEntity.SetProjectStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectStatus(NSProjectStatus)'
@@ -1215,6 +1270,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectType(NSProjectType)
   id: 'SetProjectType(NSProjectType)'
   so.intellisense: NSProjectEntity.SetProjectType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectType(NSProjectType)'
@@ -1237,6 +1293,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishEventDate(DateTime)
   id: 'SetPublishEventDate(DateTime)'
   so.intellisense: NSProjectEntity.SetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishEventDate(DateTime)'
@@ -1258,6 +1315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSProjectEntity.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -1279,6 +1337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSProjectEntity.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -1300,6 +1359,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSProjectEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -1322,6 +1382,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSProjectEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -1344,6 +1405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetUrls(NSEntityElement[])
   id: 'SetUrls(NSEntityElement[])'
   so.intellisense: NSProjectEntity.SetUrls
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUrls(NSEntityElement[])'
@@ -1366,6 +1428,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEntity.SetUserDefinedFields(Map)
   id: 'SetUserDefinedFields(Map)'
   so.intellisense: NSProjectEntity.SetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserDefinedFields(Map)'

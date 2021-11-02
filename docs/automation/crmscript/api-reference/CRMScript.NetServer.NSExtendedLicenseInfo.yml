@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSExtendedLicenseInfo
   commentId: T:CRMScript.NetServer.NSExtendedLicenseInfo
   id: NSExtendedLicenseInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetAccumulatedNextCheckDate()
   id: 'GetAccumulatedNextCheckDate()'
   so.intellisense: NSExtendedLicenseInfo.GetAccumulatedNextCheckDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAccumulatedNextCheckDate()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetCanBeActivated()
   id: 'GetCanBeActivated()'
   so.intellisense: NSExtendedLicenseInfo.GetCanBeActivated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCanBeActivated()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetCurrent()
   id: 'GetCurrent()'
   so.intellisense: NSExtendedLicenseInfo.GetCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrent()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetExtendedModuleLicenses()
   id: 'GetExtendedModuleLicenses()'
   so.intellisense: NSExtendedLicenseInfo.GetExtendedModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtendedModuleLicenses()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetNew()
   id: 'GetNew()'
   so.intellisense: NSExtendedLicenseInfo.GetNew
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNew()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.GetReason()
   id: 'GetReason()'
   so.intellisense: NSExtendedLicenseInfo.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetAccumulatedNextCheckDate(DateTime)
   id: 'SetAccumulatedNextCheckDate(DateTime)'
   so.intellisense: NSExtendedLicenseInfo.SetAccumulatedNextCheckDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAccumulatedNextCheckDate(DateTime)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetCanBeActivated(Bool)
   id: 'SetCanBeActivated(Bool)'
   so.intellisense: NSExtendedLicenseInfo.SetCanBeActivated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCanBeActivated(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetCurrent(NSLicenseInfo)
   id: 'SetCurrent(NSLicenseInfo)'
   so.intellisense: NSExtendedLicenseInfo.SetCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrent(NSLicenseInfo)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetExtendedModuleLicenses(NSExtendedModuleLicense[])
   id: 'SetExtendedModuleLicenses(NSExtendedModuleLicense[])'
   so.intellisense: NSExtendedLicenseInfo.SetExtendedModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtendedModuleLicenses(NSExtendedModuleLicense[])'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetNew(NSLicenseInfo)
   id: 'SetNew(NSLicenseInfo)'
   so.intellisense: NSExtendedLicenseInfo.SetNew
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNew(NSLicenseInfo)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedLicenseInfo.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSExtendedLicenseInfo.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(String)'

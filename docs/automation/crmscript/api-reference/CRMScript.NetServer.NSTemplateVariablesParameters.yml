@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTemplateVariablesParameters
   commentId: T:CRMScript.NetServer.NSTemplateVariablesParameters
   id: NSTemplateVariablesParameters
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetAppointmentId()
   id: 'GetAppointmentId()'
   so.intellisense: NSTemplateVariablesParameters.GetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentId()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSTemplateVariablesParameters.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetCultureName()
   id: 'GetCultureName()'
   so.intellisense: NSTemplateVariablesParameters.GetCultureName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCultureName()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetCustomTags()
   id: 'GetCustomTags()'
   so.intellisense: NSTemplateVariablesParameters.GetCustomTags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomTags()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentEntity()
   id: 'GetDocumentEntity()'
   so.intellisense: NSTemplateVariablesParameters.GetDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentEntity()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSTemplateVariablesParameters.GetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetEncoding()
   id: 'GetEncoding()'
   so.intellisense: NSTemplateVariablesParameters.GetEncoding
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEncoding()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSTemplateVariablesParameters.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetProductKey()
   id: 'GetProductKey()'
   so.intellisense: NSTemplateVariablesParameters.GetProductKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductKey()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSTemplateVariablesParameters.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteAlternativeId()
   id: 'GetQuoteAlternativeId()'
   so.intellisense: NSTemplateVariablesParameters.GetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternativeId()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteLineId()
   id: 'GetQuoteLineId()'
   so.intellisense: NSTemplateVariablesParameters.GetQuoteLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineId()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSTemplateVariablesParameters.GetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSelectionId()
   id: 'GetSelectionId()'
   so.intellisense: NSTemplateVariablesParameters.GetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionId()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSourceInput()
   id: 'GetSourceInput()'
   so.intellisense: NSTemplateVariablesParameters.GetSourceInput
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSourceInput()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetAppointmentId(Integer)
   id: 'SetAppointmentId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointmentId(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetCultureName(String)
   id: 'SetCultureName(String)'
   so.intellisense: NSTemplateVariablesParameters.SetCultureName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCultureName(String)'
@@ -450,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
   id: 'SetDocumentEntity(NSDocumentEntity)'
   so.intellisense: NSTemplateVariablesParameters.SetDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentEntity(NSDocumentEntity)'
@@ -472,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -494,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetEncoding(Integer)
   id: 'SetEncoding(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetEncoding
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEncoding(Integer)'
@@ -516,6 +538,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -538,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetProductKey(String)
   id: 'SetProductKey(String)'
   so.intellisense: NSTemplateVariablesParameters.SetProductKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductKey(String)'
@@ -560,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -582,6 +607,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
   id: 'SetQuoteAlternativeId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteAlternativeId(Integer)'
@@ -604,6 +630,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteLineId(Integer)
   id: 'SetQuoteLineId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetQuoteLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteLineId(Integer)'
@@ -626,6 +653,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -648,6 +676,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSelectionId(Integer)
   id: 'SetSelectionId(Integer)'
   so.intellisense: NSTemplateVariablesParameters.SetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionId(Integer)'
@@ -670,6 +699,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSourceInput(String)
   id: 'SetSourceInput(String)'
   so.intellisense: NSTemplateVariablesParameters.SetSourceInput
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSourceInput(String)'

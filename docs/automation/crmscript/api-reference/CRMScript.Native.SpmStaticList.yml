@@ -10,7 +10,7 @@ items:
   - CRMScript.Native.SpmStaticList.addRecipient(String,String)
   - CRMScript.Native.SpmStaticList.delete()
   - CRMScript.Native.SpmStaticList.getRecipients()
-  - CRMScript.Native.SpmStaticList.sload(Integer)
+  - CRMScript.Native.SpmStaticList.load(Integer)
   - CRMScript.Native.SpmStaticList.removeRecipient(String)
   - CRMScript.Native.SpmStaticList.save()
   - CRMScript.Native.SpmStaticList.setFolderId(Integer)
@@ -98,15 +98,15 @@ items:
       type: CRMScript.Native.Map
       description: "A map containing all the recipients."
   example: 
-- uid: CRMScript.Native.SpmStaticList.sload(Integer)
-  commentId: M:CRMScript.Native.SpmStaticList.sload(Integer)
-  id: 'sload(Integer)'
+- uid: CRMScript.Native.SpmStaticList.load(Integer)
+  commentId: M:CRMScript.Native.SpmStaticList.load(Integer)
+  id: 'load(Integer)'
   so.intellisense: SpmStaticList.load
   langs:
   - crmscript
-  name: 'sload(Integer)'
-  nameWithType: SpmStaticList.sload(Integer)
-  fullName: CRMScript.Native.SpmStaticList.sload(Integer)
+  name: 'load(Integer)'
+  nameWithType: SpmStaticList.load(Integer)
+  fullName: CRMScript.Native.SpmStaticList.load(Integer)
   type: Method
   summary: "\nLoads an existing static list.\n"
   remarks: 

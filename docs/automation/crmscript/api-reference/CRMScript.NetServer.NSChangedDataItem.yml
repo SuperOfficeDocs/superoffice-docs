@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChangedDataItem
   commentId: T:CRMScript.NetServer.NSChangedDataItem
   id: NSChangedDataItem
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedDataItem.GetRecordId()
   id: 'GetRecordId()'
   so.intellisense: NSChangedDataItem.GetRecordId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRecordId()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedDataItem.GetTablename()
   id: 'GetTablename()'
   so.intellisense: NSChangedDataItem.GetTablename
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTablename()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedDataItem.SetRecordId(Integer)
   id: 'SetRecordId(Integer)'
   so.intellisense: NSChangedDataItem.SetRecordId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRecordId(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedDataItem.SetTablename(String)
   id: 'SetTablename(String)'
   so.intellisense: NSChangedDataItem.SetTablename
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTablename(String)'

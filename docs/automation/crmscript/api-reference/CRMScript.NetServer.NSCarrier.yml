@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCarrier
   commentId: T:CRMScript.NetServer.NSCarrier
   id: NSCarrier
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCarrier.GetFieldProperties()
   id: 'GetFieldProperties()'
   so.intellisense: NSCarrier.GetFieldProperties
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldProperties()'
@@ -55,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCarrier.GetTableRight()
   id: 'GetTableRight()'
   so.intellisense: NSCarrier.GetTableRight
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTableRight()'
@@ -95,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCarrier.SetTableRight(NSTableRight)
   id: 'SetTableRight(NSTableRight)'
   so.intellisense: NSCarrier.SetTableRight
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTableRight(NSTableRight)'

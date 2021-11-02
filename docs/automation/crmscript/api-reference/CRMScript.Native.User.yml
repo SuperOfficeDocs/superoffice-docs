@@ -65,6 +65,7 @@ items:
   commentId: M:CRMScript.Native.User.hasTicketAccess(Integer,Integer)
   id: 'hasTicketAccess(Integer,Integer)'
   so.intellisense: User.hasTicketAccess
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'hasTicketAccess(Integer,Integer)'
@@ -109,6 +110,7 @@ items:
   commentId: M:CRMScript.Native.User.isLoggedIn(Integer)
   id: 'isLoggedIn(Integer)'
   so.intellisense: User.isLoggedIn
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'isLoggedIn(Integer)'

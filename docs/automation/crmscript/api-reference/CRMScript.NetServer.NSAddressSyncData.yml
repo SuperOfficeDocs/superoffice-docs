@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAddressSyncData
   commentId: T:CRMScript.NetServer.NSAddressSyncData
   id: NSAddressSyncData
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -56,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress1()
   id: 'GetAddress1()'
   so.intellisense: NSAddressSyncData.GetAddress1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddress1()'
@@ -76,6 +78,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress2()
   id: 'GetAddress2()'
   so.intellisense: NSAddressSyncData.GetAddress2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddress2()'
@@ -96,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress3()
   id: 'GetAddress3()'
   so.intellisense: NSAddressSyncData.GetAddress3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddress3()'
@@ -116,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddressId()
   id: 'GetAddressId()'
   so.intellisense: NSAddressSyncData.GetAddressId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddressId()'
@@ -136,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddressType()
   id: 'GetAddressType()'
   so.intellisense: NSAddressSyncData.GetAddressType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddressType()'
@@ -156,6 +162,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetCity()
   id: 'GetCity()'
   so.intellisense: NSAddressSyncData.GetCity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCity()'
@@ -176,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetCounty()
   id: 'GetCounty()'
   so.intellisense: NSAddressSyncData.GetCounty
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCounty()'
@@ -196,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetFormattedAddress()
   id: 'GetFormattedAddress()'
   so.intellisense: NSAddressSyncData.GetFormattedAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFormattedAddress()'
@@ -216,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetLatitude()
   id: 'GetLatitude()'
   so.intellisense: NSAddressSyncData.GetLatitude
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLatitude()'
@@ -236,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetLongitude()
   id: 'GetLongitude()'
   so.intellisense: NSAddressSyncData.GetLongitude
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLongitude()'
@@ -256,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetState()
   id: 'GetState()'
   so.intellisense: NSAddressSyncData.GetState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetState()'
@@ -276,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.GetZipCode()
   id: 'GetZipCode()'
   so.intellisense: NSAddressSyncData.GetZipCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetZipCode()'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress1(String)
   id: 'SetAddress1(String)'
   so.intellisense: NSAddressSyncData.SetAddress1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddress1(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress2(String)
   id: 'SetAddress2(String)'
   so.intellisense: NSAddressSyncData.SetAddress2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddress2(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress3(String)
   id: 'SetAddress3(String)'
   so.intellisense: NSAddressSyncData.SetAddress3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddress3(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddressId(Integer)
   id: 'SetAddressId(Integer)'
   so.intellisense: NSAddressSyncData.SetAddressId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddressId(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddressType(Integer)
   id: 'SetAddressType(Integer)'
   so.intellisense: NSAddressSyncData.SetAddressType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddressType(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetCity(String)
   id: 'SetCity(String)'
   so.intellisense: NSAddressSyncData.SetCity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCity(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetCounty(String)
   id: 'SetCounty(String)'
   so.intellisense: NSAddressSyncData.SetCounty
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCounty(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetFormattedAddress(String)
   id: 'SetFormattedAddress(String)'
   so.intellisense: NSAddressSyncData.SetFormattedAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFormattedAddress(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetLatitude(Float)
   id: 'SetLatitude(Float)'
   so.intellisense: NSAddressSyncData.SetLatitude
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLatitude(Float)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetLongitude(Float)
   id: 'SetLongitude(Float)'
   so.intellisense: NSAddressSyncData.SetLongitude
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLongitude(Float)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetState(String)
   id: 'SetState(String)'
   so.intellisense: NSAddressSyncData.SetState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetState(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddressSyncData.SetZipCode(String)
   id: 'SetZipCode(String)'
   so.intellisense: NSAddressSyncData.SetZipCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetZipCode(String)'

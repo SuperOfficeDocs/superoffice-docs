@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.EabEntry
   commentId: T:CRMScript.Native.EabEntry
   id: EabEntry
+  so.version: 3.1.6
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.delete()
   id: 'delete()'
   so.intellisense: EabEntry.delete
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'delete()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.getValue(String)
   id: 'getValue(String)'
   so.intellisense: EabEntry.getValue
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'getValue(String)'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.load(Integer)
   id: 'load(Integer)'
   so.intellisense: EabEntry.load
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'load(Integer)'
@@ -103,6 +107,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.loadFromAgentAndKey(Integer,String)
   id: 'loadFromAgentAndKey(Integer,String)'
   so.intellisense: EabEntry.loadFromAgentAndKey
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'loadFromAgentAndKey(Integer,String)'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.save()
   id: 'save()'
   so.intellisense: EabEntry.save
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'save()'
@@ -147,6 +153,7 @@ items:
   commentId: M:CRMScript.Native.EabEntry.setValue(String,String)
   id: 'setValue(String,String)'
   so.intellisense: EabEntry.setValue
+  so.version: 3.1.6
   langs:
   - crmscript
   name: 'setValue(String,String)'

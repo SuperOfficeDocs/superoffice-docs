@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteVersionAttachment
   commentId: T:CRMScript.NetServer.NSQuoteVersionAttachment
   id: NSQuoteVersionAttachment
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSQuoteVersionAttachment.GetDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.GetIncluded()
   id: 'GetIncluded()'
   so.intellisense: NSQuoteVersionAttachment.GetIncluded
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIncluded()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSQuoteVersionAttachment.SetDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.SetIncluded(Bool)
   id: 'SetIncluded(Bool)'
   so.intellisense: NSQuoteVersionAttachment.SetIncluded
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIncluded(Bool)'

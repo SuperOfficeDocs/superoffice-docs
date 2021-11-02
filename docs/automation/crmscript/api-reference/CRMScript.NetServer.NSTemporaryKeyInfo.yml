@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTemporaryKeyInfo
   commentId: T:CRMScript.NetServer.NSTemporaryKeyInfo
   id: NSTemporaryKeyInfo
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetDomain()
   id: 'GetDomain()'
   so.intellisense: NSTemporaryKeyInfo.GetDomain
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDomain()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetIsExpired()
   id: 'GetIsExpired()'
   so.intellisense: NSTemporaryKeyInfo.GetIsExpired
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetIsExpired()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSTemporaryKeyInfo.GetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetTargetId()
   id: 'GetTargetId()'
   so.intellisense: NSTemporaryKeyInfo.GetTargetId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTargetId()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetDomain(Integer)
   id: 'SetDomain(Integer)'
   so.intellisense: NSTemporaryKeyInfo.SetDomain
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDomain(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetIsExpired(Bool)
   id: 'SetIsExpired(Bool)'
   so.intellisense: NSTemporaryKeyInfo.SetIsExpired
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetIsExpired(Bool)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSTemporaryKeyInfo.SetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetTargetId(Integer)
   id: 'SetTargetId(Integer)'
   so.intellisense: NSTemporaryKeyInfo.SetTargetId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTargetId(Integer)'

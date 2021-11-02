@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSForeignKey
   commentId: T:CRMScript.NetServer.NSForeignKey
   id: NSForeignKey
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSForeignKey.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSForeignKey.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetKey()
   id: 'GetKey()'
   so.intellisense: NSForeignKey.GetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKey()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetRecordId()
   id: 'GetRecordId()'
   so.intellisense: NSForeignKey.GetRecordId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecordId()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetTableName()
   id: 'GetTableName()'
   so.intellisense: NSForeignKey.GetTableName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTableName()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSForeignKey.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSForeignKey.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.GetValue()
   id: 'GetValue()'
   so.intellisense: NSForeignKey.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetCreatedBy(String)
   id: 'SetCreatedBy(String)'
   so.intellisense: NSForeignKey.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSForeignKey.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSForeignKey.SetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetRecordId(Integer)
   id: 'SetRecordId(Integer)'
   so.intellisense: NSForeignKey.SetRecordId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRecordId(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetTableName(String)
   id: 'SetTableName(String)'
   so.intellisense: NSForeignKey.SetTableName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTableName(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetUpdatedBy(String)
   id: 'SetUpdatedBy(String)'
   so.intellisense: NSForeignKey.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSForeignKey.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignKey.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSForeignKey.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

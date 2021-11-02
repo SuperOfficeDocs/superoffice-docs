@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSActivitySummaryItem
   commentId: T:CRMScript.NetServer.NSActivitySummaryItem
   id: NSActivitySummaryItem
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetAppointmentId()
   id: 'GetAppointmentId()'
   so.intellisense: NSActivitySummaryItem.GetAppointmentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAppointmentId()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSActivitySummaryItem.GetCompleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetDate()
   id: 'GetDate()'
   so.intellisense: NSActivitySummaryItem.GetDate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDate()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSActivitySummaryItem.GetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSActivitySummaryItem.GetDocumentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSActivitySummaryItem.GetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetAppointmentId(Integer)
   id: 'SetAppointmentId(Integer)'
   so.intellisense: NSActivitySummaryItem.SetAppointmentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAppointmentId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSActivitySummaryItem.SetCompleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSActivitySummaryItem.SetDate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDate(DateTime)'
@@ -225,6 +235,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSActivitySummaryItem.SetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -247,6 +258,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSActivitySummaryItem.SetDocumentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -269,6 +281,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummaryItem.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSActivitySummaryItem.SetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'

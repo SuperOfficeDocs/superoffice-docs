@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoDateTime
   commentId: T:CRMScript.NetServer.NSFieldInfoDateTime
   id: NSFieldInfoDateTime
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoDateTime.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.GetIsDefaultNow()
   id: 'GetIsDefaultNow()'
   so.intellisense: NSFieldInfoDateTime.GetIsDefaultNow
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsDefaultNow()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.SetDefaultValue(DateTime)
   id: 'SetDefaultValue(DateTime)'
   so.intellisense: NSFieldInfoDateTime.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(DateTime)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.SetIsDefaultNow(Bool)
   id: 'SetIsDefaultNow(Bool)'
   so.intellisense: NSFieldInfoDateTime.SetIsDefaultNow
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsDefaultNow(Bool)'

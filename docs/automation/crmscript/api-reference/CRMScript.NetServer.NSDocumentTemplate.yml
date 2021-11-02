@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDocumentTemplate
   commentId: T:CRMScript.NetServer.NSDocumentTemplate
   id: NSDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetAutoeventId()
   id: 'GetAutoeventId()'
   so.intellisense: NSDocumentTemplate.GetAutoeventId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAutoeventId()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetDefaultOref()
   id: 'GetDefaultOref()'
   so.intellisense: NSDocumentTemplate.GetDefaultOref
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultOref()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSDocumentTemplate.GetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetDirection()
   id: 'GetDirection()'
   so.intellisense: NSDocumentTemplate.GetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDirection()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetDocumentTemplateId()
   id: 'GetDocumentTemplateId()'
   so.intellisense: NSDocumentTemplate.GetDocumentTemplateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplateId()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetFilename()
   id: 'GetFilename()'
   so.intellisense: NSDocumentTemplate.GetFilename
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFilename()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetName()
   id: 'GetName()'
   so.intellisense: NSDocumentTemplate.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetQuoteDocType()
   id: 'GetQuoteDocType()'
   so.intellisense: NSDocumentTemplate.GetQuoteDocType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteDocType()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetRecordType()
   id: 'GetRecordType()'
   so.intellisense: NSDocumentTemplate.GetRecordType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecordType()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetSaveInDb()
   id: 'GetSaveInDb()'
   so.intellisense: NSDocumentTemplate.GetSaveInDb
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaveInDb()'
@@ -254,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSDocumentTemplate.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetAutoeventId(Integer)
   id: 'SetAutoeventId(Integer)'
   so.intellisense: NSDocumentTemplate.SetAutoeventId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAutoeventId(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetDefaultOref(String)
   id: 'SetDefaultOref(String)'
   so.intellisense: NSDocumentTemplate.SetDefaultOref
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDefaultOref(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetDeleted(Integer)
   id: 'SetDeleted(Integer)'
   so.intellisense: NSDocumentTemplate.SetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeleted(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetDirection(Integer)
   id: 'SetDirection(Integer)'
   so.intellisense: NSDocumentTemplate.SetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDirection(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetDocumentTemplateId(Integer)
   id: 'SetDocumentTemplateId(Integer)'
   so.intellisense: NSDocumentTemplate.SetDocumentTemplateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentTemplateId(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetFilename(String)
   id: 'SetFilename(String)'
   so.intellisense: NSDocumentTemplate.SetFilename
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFilename(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSDocumentTemplate.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetQuoteDocType(Integer)
   id: 'SetQuoteDocType(Integer)'
   so.intellisense: NSDocumentTemplate.SetQuoteDocType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteDocType(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetRecordType(NSDocTmplType)
   id: 'SetRecordType(NSDocTmplType)'
   so.intellisense: NSDocumentTemplate.SetRecordType
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetRecordType(NSDocTmplType)'
@@ -471,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetSaveInDb(Integer)
   id: 'SetSaveInDb(Integer)'
   so.intellisense: NSDocumentTemplate.SetSaveInDb
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaveInDb(Integer)'
@@ -493,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplate.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSDocumentTemplate.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'

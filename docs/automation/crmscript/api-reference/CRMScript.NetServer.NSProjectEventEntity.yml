@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectEventEntity
   commentId: T:CRMScript.NetServer.NSProjectEventEntity
   id: NSProjectEventEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -92,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSProjectEventEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -112,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSProjectEventEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -132,6 +135,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetEnabled()
   id: 'GetEnabled()'
   so.intellisense: NSProjectEventEntity.GetEnabled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEnabled()'
@@ -152,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetEventDate()
   id: 'GetEventDate()'
   so.intellisense: NSProjectEventEntity.GetEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEventDate()'
@@ -172,6 +177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetId()
   id: 'GetId()'
   so.intellisense: NSProjectEventEntity.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -192,6 +198,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSProjectEventEntity.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -212,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForCategories()
   id: 'GetIsVisibleForCategories()'
   so.intellisense: NSProjectEventEntity.GetIsVisibleForCategories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsVisibleForCategories()'
@@ -232,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForMembers()
   id: 'GetIsVisibleForMembers()'
   so.intellisense: NSProjectEventEntity.GetIsVisibleForMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsVisibleForMembers()'
@@ -252,6 +261,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForPersonInterests()
   id: 'GetIsVisibleForPersonInterests()'
   so.intellisense: NSProjectEventEntity.GetIsVisibleForPersonInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsVisibleForPersonInterests()'
@@ -272,6 +282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetProjectEventId()
   id: 'GetProjectEventId()'
   so.intellisense: NSProjectEventEntity.GetProjectEventId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventId()'
@@ -292,6 +303,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSProjectEventEntity.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -312,6 +324,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSProjectEventEntity.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -332,6 +345,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSProjectEventEntity.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -352,6 +366,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishType()
   id: 'GetPublishType()'
   so.intellisense: NSProjectEventEntity.GetPublishType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishType()'
@@ -372,6 +387,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOff()
   id: 'GetSignOff()'
   so.intellisense: NSProjectEventEntity.GetSignOff
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOff()'
@@ -392,6 +408,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffConfirmationText()
   id: 'GetSignOffConfirmationText()'
   so.intellisense: NSProjectEventEntity.GetSignOffConfirmationText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOffConfirmationText()'
@@ -412,6 +429,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskEnable()
   id: 'GetSignOffTaskEnable()'
   so.intellisense: NSProjectEventEntity.GetSignOffTaskEnable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOffTaskEnable()'
@@ -432,6 +450,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskId()
   id: 'GetSignOffTaskId()'
   so.intellisense: NSProjectEventEntity.GetSignOffTaskId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOffTaskId()'
@@ -452,6 +471,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffText()
   id: 'GetSignOffText()'
   so.intellisense: NSProjectEventEntity.GetSignOffText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOffText()'
@@ -472,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTriggersAssign()
   id: 'GetSignOffTriggersAssign()'
   so.intellisense: NSProjectEventEntity.GetSignOffTriggersAssign
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOffTriggersAssign()'
@@ -492,6 +513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOn()
   id: 'GetSignOn()'
   so.intellisense: NSProjectEventEntity.GetSignOn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOn()'
@@ -512,6 +534,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnConfirmationText()
   id: 'GetSignOnConfirmationText()'
   so.intellisense: NSProjectEventEntity.GetSignOnConfirmationText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOnConfirmationText()'
@@ -532,6 +555,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskEnable()
   id: 'GetSignOnTaskEnable()'
   so.intellisense: NSProjectEventEntity.GetSignOnTaskEnable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOnTaskEnable()'
@@ -552,6 +576,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskId()
   id: 'GetSignOnTaskId()'
   so.intellisense: NSProjectEventEntity.GetSignOnTaskId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOnTaskId()'
@@ -572,6 +597,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnText()
   id: 'GetSignOnText()'
   so.intellisense: NSProjectEventEntity.GetSignOnText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOnText()'
@@ -592,6 +618,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTriggersAssign()
   id: 'GetSignOnTriggersAssign()'
   so.intellisense: NSProjectEventEntity.GetSignOnTriggersAssign
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignOnTriggersAssign()'
@@ -612,6 +639,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSProjectEventEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -632,6 +660,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSProjectEventEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -652,6 +681,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetVisibleForCategories()
   id: 'GetVisibleForCategories()'
   so.intellisense: NSProjectEventEntity.GetVisibleForCategories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleForCategories()'
@@ -672,6 +702,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetVisibleForPersonInterests()
   id: 'GetVisibleForPersonInterests()'
   so.intellisense: NSProjectEventEntity.GetVisibleForPersonInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleForPersonInterests()'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSProjectEventEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSProjectEventEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetEnabled(Bool)
   id: 'SetEnabled(Bool)'
   so.intellisense: NSProjectEventEntity.SetEnabled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEnabled(Bool)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetEventDate(DateTime)
   id: 'SetEventDate(DateTime)'
   so.intellisense: NSProjectEventEntity.SetEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEventDate(DateTime)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSProjectEventEntity.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSProjectEventEntity.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForCategories(Bool)
   id: 'SetIsVisibleForCategories(Bool)'
   so.intellisense: NSProjectEventEntity.SetIsVisibleForCategories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsVisibleForCategories(Bool)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForMembers(Bool)
   id: 'SetIsVisibleForMembers(Bool)'
   so.intellisense: NSProjectEventEntity.SetIsVisibleForMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsVisibleForMembers(Bool)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
   id: 'SetIsVisibleForPersonInterests(Bool)'
   so.intellisense: NSProjectEventEntity.SetIsVisibleForPersonInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsVisibleForPersonInterests(Bool)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetProjectEventId(Integer)
   id: 'SetProjectEventId(Integer)'
   so.intellisense: NSProjectEventEntity.SetProjectEventId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectEventId(Integer)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSProjectEventEntity.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSProjectEventEntity.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSProjectEventEntity.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishType(Integer)
   id: 'SetPublishType(Integer)'
   so.intellisense: NSProjectEventEntity.SetPublishType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishType(Integer)'
@@ -1000,6 +1045,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOff(Bool)
   id: 'SetSignOff(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOff
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOff(Bool)'
@@ -1022,6 +1068,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffConfirmationText(String)
   id: 'SetSignOffConfirmationText(String)'
   so.intellisense: NSProjectEventEntity.SetSignOffConfirmationText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOffConfirmationText(String)'
@@ -1044,6 +1091,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskEnable(Bool)
   id: 'SetSignOffTaskEnable(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOffTaskEnable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOffTaskEnable(Bool)'
@@ -1066,6 +1114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskId(Integer)
   id: 'SetSignOffTaskId(Integer)'
   so.intellisense: NSProjectEventEntity.SetSignOffTaskId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOffTaskId(Integer)'
@@ -1088,6 +1137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffText(String)
   id: 'SetSignOffText(String)'
   so.intellisense: NSProjectEventEntity.SetSignOffText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOffText(String)'
@@ -1110,6 +1160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
   id: 'SetSignOffTriggersAssign(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOffTriggersAssign
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOffTriggersAssign(Bool)'
@@ -1132,6 +1183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOn(Bool)
   id: 'SetSignOn(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOn(Bool)'
@@ -1154,6 +1206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnConfirmationText(String)
   id: 'SetSignOnConfirmationText(String)'
   so.intellisense: NSProjectEventEntity.SetSignOnConfirmationText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOnConfirmationText(String)'
@@ -1176,6 +1229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskEnable(Bool)
   id: 'SetSignOnTaskEnable(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOnTaskEnable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOnTaskEnable(Bool)'
@@ -1198,6 +1252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskId(Integer)
   id: 'SetSignOnTaskId(Integer)'
   so.intellisense: NSProjectEventEntity.SetSignOnTaskId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOnTaskId(Integer)'
@@ -1220,6 +1275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnText(String)
   id: 'SetSignOnText(String)'
   so.intellisense: NSProjectEventEntity.SetSignOnText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOnText(String)'
@@ -1242,6 +1298,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
   id: 'SetSignOnTriggersAssign(Bool)'
   so.intellisense: NSProjectEventEntity.SetSignOnTriggersAssign
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignOnTriggersAssign(Bool)'
@@ -1264,6 +1321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSProjectEventEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -1286,6 +1344,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSProjectEventEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -1308,6 +1367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
   id: 'SetVisibleForCategories(NSMDOListItem[])'
   so.intellisense: NSProjectEventEntity.SetVisibleForCategories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVisibleForCategories(NSMDOListItem[])'
@@ -1330,6 +1390,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
   id: 'SetVisibleForPersonInterests(NSMDOListItem[])'
   so.intellisense: NSProjectEventEntity.SetVisibleForPersonInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVisibleForPersonInterests(NSMDOListItem[])'

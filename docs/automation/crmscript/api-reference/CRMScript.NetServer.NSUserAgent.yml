@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserAgent
   commentId: T:CRMScript.NetServer.NSUserAgent
   id: NSUserAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -123,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.AddOwnerContact(Integer)
   id: 'AddOwnerContact(Integer)'
   so.intellisense: NSUserAgent.AddOwnerContact
+  so.version: 7.5
   langs:
   - crmscript
   name: 'AddOwnerContact(Integer)'
@@ -144,6 +146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CanChangePassword(Integer)
   id: 'CanChangePassword(Integer)'
   so.intellisense: NSUserAgent.CanChangePassword
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CanChangePassword(Integer)'
@@ -167,6 +170,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.ChangeOwnPassword(String,String)
   id: 'ChangeOwnPassword(String,String)'
   so.intellisense: NSUserAgent.ChangeOwnPassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeOwnPassword(String,String)'
@@ -193,6 +197,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.ChangePassword(Integer,String,String)
   id: 'ChangePassword(Integer,String,String)'
   so.intellisense: NSUserAgent.ChangePassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangePassword(Integer,String,String)'
@@ -222,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.ChangePasswordFromName(String,String,String)
   id: 'ChangePasswordFromName(String,String,String)'
   so.intellisense: NSUserAgent.ChangePasswordFromName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangePasswordFromName(String,String,String)'
@@ -251,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.ChangeUserType(NSUser,Integer)
   id: 'ChangeUserType(NSUser,Integer)'
   so.intellisense: NSUserAgent.ChangeUserType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeUserType(NSUser,Integer)'
@@ -296,6 +303,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntity()
   id: 'CreateDefaultRoleEntity()'
   so.intellisense: NSUserAgent.CreateDefaultRoleEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultRoleEntity()'
@@ -315,6 +323,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
   id: 'CreateDefaultRoleEntityFromType(Integer)'
   so.intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultRoleEntityFromType(Integer)'
@@ -337,6 +346,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultServiceAuth()
   id: 'CreateDefaultServiceAuth()'
   so.intellisense: NSUserAgent.CreateDefaultServiceAuth
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultServiceAuth()'
@@ -356,6 +366,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUntrustedCredentials()
   id: 'CreateDefaultUntrustedCredentials()'
   so.intellisense: NSUserAgent.CreateDefaultUntrustedCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultUntrustedCredentials()'
@@ -375,6 +386,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUser()
   id: 'CreateDefaultUser()'
   so.intellisense: NSUserAgent.CreateDefaultUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultUser()'
@@ -394,6 +406,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserType(Integer)
   id: 'CreateDefaultUserFromUserType(Integer)'
   so.intellisense: NSUserAgent.CreateDefaultUserFromUserType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultUserFromUserType(Integer)'
@@ -416,6 +429,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
   id: 'CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)'
   so.intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)'
@@ -449,6 +463,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
   id: 'CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)'
   so.intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)'
@@ -474,6 +489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
   id: 'CreateExternalUser(Integer,String,String,Integer,Bool)'
   so.intellisense: NSUserAgent.CreateExternalUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateExternalUser(Integer,String,String,Integer,Bool)'
@@ -509,6 +525,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.CreateUserGroup()
   id: 'CreateUserGroup()'
   so.intellisense: NSUserAgent.CreateUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateUserGroup()'
@@ -550,6 +567,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteCredential(Integer,String)
   id: 'DeleteCredential(Integer,String)'
   so.intellisense: NSUserAgent.DeleteCredential
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteCredential(Integer,String)'
@@ -576,6 +594,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteExternalUser(Integer)
   id: 'DeleteExternalUser(Integer)'
   so.intellisense: NSUserAgent.DeleteExternalUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteExternalUser(Integer)'
@@ -597,6 +616,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteRole(Integer,Integer)
   id: 'DeleteRole(Integer,Integer)'
   so.intellisense: NSUserAgent.DeleteRole
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteRole(Integer,Integer)'
@@ -621,6 +641,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteServiceAuth(Integer)
   id: 'DeleteServiceAuth(Integer)'
   so.intellisense: NSUserAgent.DeleteServiceAuth
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteServiceAuth(Integer)'
@@ -643,6 +664,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUser(Integer)
   id: 'DeleteUser(Integer)'
   so.intellisense: NSUserAgent.DeleteUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteUser(Integer)'
@@ -665,6 +687,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUserFromName(String)
   id: 'DeleteUserFromName(String)'
   so.intellisense: NSUserAgent.DeleteUserFromName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteUserFromName(String)'
@@ -687,6 +710,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUserGroup(Integer,Integer)
   id: 'DeleteUserGroup(Integer,Integer)'
   so.intellisense: NSUserAgent.DeleteUserGroup
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteUserGroup(Integer,Integer)'
@@ -711,6 +735,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.FindCredentialsGroups(String,String)
   id: 'FindCredentialsGroups(String,String)'
   so.intellisense: NSUserAgent.FindCredentialsGroups
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FindCredentialsGroups(String,String)'
@@ -736,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.FindCredentialUsers(String,String)
   id: 'FindCredentialUsers(String,String)'
   so.intellisense: NSUserAgent.FindCredentialUsers
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FindCredentialUsers(String,String)'
@@ -760,6 +786,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRight(String)
   id: 'FindRolesWithFunctionalRight(String)'
   so.intellisense: NSUserAgent.FindRolesWithFunctionalRight
+  so.version: 8.2
   langs:
   - crmscript
   name: 'FindRolesWithFunctionalRight(String)'
@@ -782,6 +809,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRights(String[])
   id: 'FindRolesWithFunctionalRights(String[])'
   so.intellisense: NSUserAgent.FindRolesWithFunctionalRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FindRolesWithFunctionalRights(String[])'
@@ -805,6 +833,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithoutFunctionalRights(String[])
   id: 'FindRolesWithoutFunctionalRights(String[])'
   so.intellisense: NSUserAgent.FindRolesWithoutFunctionalRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FindRolesWithoutFunctionalRights(String[])'
@@ -828,6 +857,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GenerateNewPasswordForExternalUser(String)
   id: 'GenerateNewPasswordForExternalUser(String)'
   so.intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GenerateNewPasswordForExternalUser(String)'
@@ -869,6 +899,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetAccessToken(String,Bool)
   id: 'GetAccessToken(String,Bool)'
   so.intellisense: NSUserAgent.GetAccessToken
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAccessToken(String,Bool)'
@@ -895,6 +926,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetAllFunctionalRights(Integer)
   id: 'GetAllFunctionalRights(Integer)'
   so.intellisense: NSUserAgent.GetAllFunctionalRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllFunctionalRights(Integer)'
@@ -917,6 +949,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetAllRoles(Integer)
   id: 'GetAllRoles(Integer)'
   so.intellisense: NSUserAgent.GetAllRoles
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllRoles(Integer)'
@@ -939,6 +972,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetAllUserGroups(Bool)
   id: 'GetAllUserGroups(Bool)'
   so.intellisense: NSUserAgent.GetAllUserGroups
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAllUserGroups(Bool)'
@@ -983,6 +1017,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialTypes()
   id: 'GetCredentialTypes()'
   so.intellisense: NSUserAgent.GetCredentialTypes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCredentialTypes()'
@@ -1002,6 +1037,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialTypesForUserType(Integer)
   id: 'GetCredentialTypesForUserType(Integer)'
   so.intellisense: NSUserAgent.GetCredentialTypesForUserType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCredentialTypesForUserType(Integer)'
@@ -1024,6 +1060,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialUsers(String,String)
   id: 'GetCredentialUsers(String,String)'
   so.intellisense: NSUserAgent.GetCredentialUsers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCredentialUsers(String,String)'
@@ -1048,6 +1085,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialUsersInGroup(String,String)
   id: 'GetCredentialUsersInGroup(String,String)'
   so.intellisense: NSUserAgent.GetCredentialUsersInGroup
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCredentialUsersInGroup(String,String)'
@@ -1072,6 +1110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetDataRight(Integer,String,Integer)
   id: 'GetDataRight(Integer,String,Integer)'
   so.intellisense: NSUserAgent.GetDataRight
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDataRight(Integer,String,Integer)'
@@ -1101,6 +1140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetDataRights(Integer,String)
   id: 'GetDataRights(Integer,String)'
   so.intellisense: NSUserAgent.GetDataRights
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDataRights(Integer,String)'
@@ -1127,6 +1167,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetDefaultAssociateUserName(NSUser)
   id: 'GetDefaultAssociateUserName(NSUser)'
   so.intellisense: NSUserAgent.GetDefaultAssociateUserName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultAssociateUserName(NSUser)'
@@ -1171,6 +1212,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetFunctionalRights(Integer)
   id: 'GetFunctionalRights(Integer)'
   so.intellisense: NSUserAgent.GetFunctionalRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFunctionalRights(Integer)'
@@ -1194,6 +1236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetRole(Integer)
   id: 'GetRole(Integer)'
   so.intellisense: NSUserAgent.GetRole
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRole(Integer)'
@@ -1216,6 +1259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetRoleEntity(Integer)
   id: 'GetRoleEntity(Integer)'
   so.intellisense: NSUserAgent.GetRoleEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleEntity(Integer)'
@@ -1238,6 +1282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetServiceAuth(Integer)
   id: 'GetServiceAuth(Integer)'
   so.intellisense: NSUserAgent.GetServiceAuth
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetServiceAuth(Integer)'
@@ -1260,6 +1305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUntrustedCredentials(String)
   id: 'GetUntrustedCredentials(String)'
   so.intellisense: NSUserAgent.GetUntrustedCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUntrustedCredentials(String)'
@@ -1282,6 +1328,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
   id: 'GetUntrustedCredentialsForAssociate(Integer,String)'
   so.intellisense: NSUserAgent.GetUntrustedCredentialsForAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUntrustedCredentialsForAssociate(Integer,String)'
@@ -1307,6 +1354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUser(Integer)
   id: 'GetUser(Integer)'
   so.intellisense: NSUserAgent.GetUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUser(Integer)'
@@ -1329,6 +1377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromEjUserId(Integer)
   id: 'GetUserFromEjUserId(Integer)'
   so.intellisense: NSUserAgent.GetUserFromEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserFromEjUserId(Integer)'
@@ -1350,6 +1399,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromName(String)
   id: 'GetUserFromName(String)'
   so.intellisense: NSUserAgent.GetUserFromName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserFromName(String)'
@@ -1372,6 +1422,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromPersonId(Integer)
   id: 'GetUserFromPersonId(Integer)'
   so.intellisense: NSUserAgent.GetUserFromPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserFromPersonId(Integer)'
@@ -1393,6 +1444,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserGroup(Integer)
   id: 'GetUserGroup(Integer)'
   so.intellisense: NSUserAgent.GetUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroup(Integer)'
@@ -1415,6 +1467,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserGroupList(Integer[])
   id: 'GetUserGroupList(Integer[])'
   so.intellisense: NSUserAgent.GetUserGroupList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroupList(Integer[])'
@@ -1437,6 +1490,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserInfo(Integer)
   id: 'GetUserInfo(Integer)'
   so.intellisense: NSUserAgent.GetUserInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserInfo(Integer)'
@@ -1459,6 +1513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetUserInfoList(Integer[])
   id: 'GetUserInfoList(Integer[])'
   so.intellisense: NSUserAgent.GetUserInfoList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserInfoList(Integer[])'
@@ -1481,6 +1536,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
   id: 'GetValidUserName(Integer,Integer,Integer,String)'
   so.intellisense: NSUserAgent.GetValidUserName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValidUserName(Integer,Integer,Integer,String)'
@@ -1512,6 +1568,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.GetValidUserNameForNewUser(NSUser)
   id: 'GetValidUserNameForNewUser(NSUser)'
   so.intellisense: NSUserAgent.GetValidUserNameForNewUser
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetValidUserNameForNewUser(NSUser)'
@@ -1559,6 +1616,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
   id: 'IsPasswordValid(Integer,Integer,Integer,String)'
   so.intellisense: NSUserAgent.IsPasswordValid
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsPasswordValid(Integer,Integer,Integer,String)'
@@ -1590,6 +1648,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
   id: 'IsPasswordValidWithReason(Integer,Integer,Integer,String)'
   so.intellisense: NSUserAgent.IsPasswordValidWithReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsPasswordValidWithReason(Integer,Integer,Integer,String)'
@@ -1687,6 +1746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.MakeRetired(Integer,Bool)
   id: 'MakeRetired(Integer,Bool)'
   so.intellisense: NSUserAgent.MakeRetired
+  so.version: 7.5
   langs:
   - crmscript
   name: 'MakeRetired(Integer,Bool)'
@@ -1733,6 +1793,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.RemoveLicenses(Integer)
   id: 'RemoveLicenses(Integer)'
   so.intellisense: NSUserAgent.RemoveLicenses
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RemoveLicenses(Integer)'
@@ -1754,6 +1815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.RemoveOwnerContact(Integer)
   id: 'RemoveOwnerContact(Integer)'
   so.intellisense: NSUserAgent.RemoveOwnerContact
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RemoveOwnerContact(Integer)'
@@ -1775,6 +1837,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentials(String,String)
   id: 'RemoveUntrustedCredentials(String,String)'
   so.intellisense: NSUserAgent.RemoveUntrustedCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveUntrustedCredentials(String,String)'
@@ -1799,6 +1862,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
   id: 'RemoveUntrustedCredentialsForAssociate(Integer,String,String)'
   so.intellisense: NSUserAgent.RemoveUntrustedCredentialsForAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveUntrustedCredentialsForAssociate(Integer,String,String)'
@@ -1860,6 +1924,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveCredential(Integer,NSCredential)
   id: 'SaveCredential(Integer,NSCredential)'
   so.intellisense: NSUserAgent.SaveCredential
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveCredential(Integer,NSCredential)'
@@ -1909,6 +1974,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveRoleEntity(NSRoleEntity)
   id: 'SaveRoleEntity(NSRoleEntity)'
   so.intellisense: NSUserAgent.SaveRoleEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveRoleEntity(NSRoleEntity)'
@@ -1931,6 +1997,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveServiceAuth(NSServiceAuth)
   id: 'SaveServiceAuth(NSServiceAuth)'
   so.intellisense: NSUserAgent.SaveServiceAuth
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveServiceAuth(NSServiceAuth)'
@@ -1953,6 +2020,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
   id: 'SaveUntrustedCredentials(String,NSUntrustedCredentials)'
   so.intellisense: NSUserAgent.SaveUntrustedCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveUntrustedCredentials(String,NSUntrustedCredentials)'
@@ -2004,6 +2072,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveUser(NSUser)
   id: 'SaveUser(NSUser)'
   so.intellisense: NSUserAgent.SaveUser
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveUser(NSUser)'
@@ -2026,6 +2095,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveUserFromName(String,NSUser)
   id: 'SaveUserFromName(String,NSUser)'
   so.intellisense: NSUserAgent.SaveUserFromName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveUserFromName(String,NSUser)'
@@ -2051,6 +2121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SaveUserGroup(NSUserGroup)
   id: 'SaveUserGroup(NSUserGroup)'
   so.intellisense: NSUserAgent.SaveUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveUserGroup(NSUserGroup)'
@@ -2073,6 +2144,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetDataRight(Integer,String,Integer,String)
   id: 'SetDataRight(Integer,String,Integer,String)'
   so.intellisense: NSUserAgent.SetDataRight
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDataRight(Integer,String,Integer,String)'
@@ -2103,6 +2175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
   id: 'SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)'
   so.intellisense: NSUserAgent.SetExternalUserInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)'
@@ -2139,6 +2212,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetFunctionalRights(Integer,Integer[])
   id: 'SetFunctionalRights(Integer,Integer[])'
   so.intellisense: NSUserAgent.SetFunctionalRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFunctionalRights(Integer,Integer[])'
@@ -2163,6 +2237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetGeneratedPassword(Integer)
   id: 'SetGeneratedPassword(Integer)'
   so.intellisense: NSUserAgent.SetGeneratedPassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGeneratedPassword(Integer)'
@@ -2185,6 +2260,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetGeneratedPasswordFromName(String)
   id: 'SetGeneratedPasswordFromName(String)'
   so.intellisense: NSUserAgent.SetGeneratedPasswordFromName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGeneratedPasswordFromName(String)'
@@ -2207,6 +2283,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetPassword(Integer,String)
   id: 'SetPassword(Integer,String)'
   so.intellisense: NSUserAgent.SetPassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPassword(Integer,String)'
@@ -2233,6 +2310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserAgent.SetPasswordFromName(String,String)
   id: 'SetPasswordFromName(String,String)'
   so.intellisense: NSUserAgent.SetPasswordFromName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPasswordFromName(String,String)'

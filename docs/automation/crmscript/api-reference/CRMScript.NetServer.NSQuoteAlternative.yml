@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteAlternative
   commentId: T:CRMScript.NetServer.NSQuoteAlternative
   id: NSQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -78,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSQuoteAlternative.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -98,6 +100,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDiscountAmount()
   id: 'GetDiscountAmount()'
   so.intellisense: NSQuoteAlternative.GetDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDiscountAmount()'
@@ -118,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDiscountPercent()
   id: 'GetDiscountPercent()'
   so.intellisense: NSQuoteAlternative.GetDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDiscountPercent()'
@@ -138,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetEarningAmount()
   id: 'GetEarningAmount()'
   so.intellisense: NSQuoteAlternative.GetEarningAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEarningAmount()'
@@ -158,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetEarningPercent()
   id: 'GetEarningPercent()'
   so.intellisense: NSQuoteAlternative.GetEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEarningPercent()'
@@ -178,6 +184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountAmount()
   id: 'GetERPDiscountAmount()'
   so.intellisense: NSQuoteAlternative.GetERPDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDiscountAmount()'
@@ -198,6 +205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountPercent()
   id: 'GetERPDiscountPercent()'
   so.intellisense: NSQuoteAlternative.GetERPDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDiscountPercent()'
@@ -218,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPQuoteAlternativeKey()
   id: 'GetERPQuoteAlternativeKey()'
   so.intellisense: NSQuoteAlternative.GetERPQuoteAlternativeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPQuoteAlternativeKey()'
@@ -238,6 +247,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField1()
   id: 'GetExtraField1()'
   so.intellisense: NSQuoteAlternative.GetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField1()'
@@ -258,6 +268,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField2()
   id: 'GetExtraField2()'
   so.intellisense: NSQuoteAlternative.GetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField2()'
@@ -278,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField3()
   id: 'GetExtraField3()'
   so.intellisense: NSQuoteAlternative.GetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField3()'
@@ -298,6 +310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField4()
   id: 'GetExtraField4()'
   so.intellisense: NSQuoteAlternative.GetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField4()'
@@ -318,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField5()
   id: 'GetExtraField5()'
   so.intellisense: NSQuoteAlternative.GetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField5()'
@@ -338,6 +352,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetName()
   id: 'GetName()'
   so.intellisense: NSQuoteAlternative.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -358,6 +373,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetQuoteAlternativeId()
   id: 'GetQuoteAlternativeId()'
   so.intellisense: NSQuoteAlternative.GetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternativeId()'
@@ -378,6 +394,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetQuoteVersionId()
   id: 'GetQuoteVersionId()'
   so.intellisense: NSQuoteAlternative.GetQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionId()'
@@ -398,6 +415,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetReason()
   id: 'GetReason()'
   so.intellisense: NSQuoteAlternative.GetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetReason()'
@@ -418,6 +436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSQuoteAlternative.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -438,6 +457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetSubTotal()
   id: 'GetSubTotal()'
   so.intellisense: NSQuoteAlternative.GetSubTotal
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSubTotal()'
@@ -458,6 +478,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetTotalPrice()
   id: 'GetTotalPrice()'
   so.intellisense: NSQuoteAlternative.GetTotalPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTotalPrice()'
@@ -478,6 +499,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetUserValueOverride()
   id: 'GetUserValueOverride()'
   so.intellisense: NSQuoteAlternative.GetUserValueOverride
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserValueOverride()'
@@ -498,6 +520,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetVAT()
   id: 'GetVAT()'
   so.intellisense: NSQuoteAlternative.GetVAT
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVAT()'
@@ -518,6 +541,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetVATInfo()
   id: 'GetVATInfo()'
   so.intellisense: NSQuoteAlternative.GetVATInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVATInfo()'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSQuoteAlternative.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDiscountAmount(Float)
   id: 'SetDiscountAmount(Float)'
   so.intellisense: NSQuoteAlternative.SetDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDiscountAmount(Float)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDiscountPercent(Float)
   id: 'SetDiscountPercent(Float)'
   so.intellisense: NSQuoteAlternative.SetDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDiscountPercent(Float)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetEarningAmount(Float)
   id: 'SetEarningAmount(Float)'
   so.intellisense: NSQuoteAlternative.SetEarningAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEarningAmount(Float)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetEarningPercent(Float)
   id: 'SetEarningPercent(Float)'
   so.intellisense: NSQuoteAlternative.SetEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEarningPercent(Float)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountAmount(Float)
   id: 'SetERPDiscountAmount(Float)'
   so.intellisense: NSQuoteAlternative.SetERPDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDiscountAmount(Float)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountPercent(Float)
   id: 'SetERPDiscountPercent(Float)'
   so.intellisense: NSQuoteAlternative.SetERPDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDiscountPercent(Float)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
   id: 'SetERPQuoteAlternativeKey(String)'
   so.intellisense: NSQuoteAlternative.SetERPQuoteAlternativeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPQuoteAlternativeKey(String)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField1(String)
   id: 'SetExtraField1(String)'
   so.intellisense: NSQuoteAlternative.SetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField1(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField2(String)
   id: 'SetExtraField2(String)'
   so.intellisense: NSQuoteAlternative.SetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField2(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField3(String)
   id: 'SetExtraField3(String)'
   so.intellisense: NSQuoteAlternative.SetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField3(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField4(String)
   id: 'SetExtraField4(String)'
   so.intellisense: NSQuoteAlternative.SetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField4(String)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField5(String)
   id: 'SetExtraField5(String)'
   so.intellisense: NSQuoteAlternative.SetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField5(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSQuoteAlternative.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetQuoteAlternativeId(Integer)
   id: 'SetQuoteAlternativeId(Integer)'
   so.intellisense: NSQuoteAlternative.SetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteAlternativeId(Integer)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetQuoteVersionId(Integer)
   id: 'SetQuoteVersionId(Integer)'
   so.intellisense: NSQuoteAlternative.SetQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteVersionId(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSQuoteAlternative.SetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSQuoteAlternative.SetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStatus(Integer)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetSubTotal(Float)
   id: 'SetSubTotal(Float)'
   so.intellisense: NSQuoteAlternative.SetSubTotal
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSubTotal(Float)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetTotalPrice(Float)
   id: 'SetTotalPrice(Float)'
   so.intellisense: NSQuoteAlternative.SetTotalPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTotalPrice(Float)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetUserValueOverride(Integer)
   id: 'SetUserValueOverride(Integer)'
   so.intellisense: NSQuoteAlternative.SetUserValueOverride
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserValueOverride(Integer)'
@@ -1000,6 +1045,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetVAT(Float)
   id: 'SetVAT(Float)'
   so.intellisense: NSQuoteAlternative.SetVAT
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVAT(Float)'
@@ -1022,6 +1068,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetVATInfo(String)
   id: 'SetVATInfo(String)'
   so.intellisense: NSQuoteAlternative.SetVATInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVATInfo(String)'

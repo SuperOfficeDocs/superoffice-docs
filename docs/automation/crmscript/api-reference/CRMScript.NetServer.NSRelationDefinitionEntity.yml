@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRelationDefinitionEntity
   commentId: T:CRMScript.NetServer.NSRelationDefinitionEntity
   id: NSRelationDefinitionEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSRelationDefinitionEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetDestination()
   id: 'GetDestination()'
   so.intellisense: NSRelationDefinitionEntity.GetDestination
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDestination()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSRelationDefinitionEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetPassiveText()
   id: 'GetPassiveText()'
   so.intellisense: NSRelationDefinitionEntity.GetPassiveText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPassiveText()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSRelationDefinitionEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetReldefId()
   id: 'GetReldefId()'
   so.intellisense: NSRelationDefinitionEntity.GetReldefId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetReldefId()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetSource()
   id: 'GetSource()'
   so.intellisense: NSRelationDefinitionEntity.GetSource
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSource()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSRelationDefinitionEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSRelationDefinitionEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetDestination(Integer)
   id: 'SetDestination(Integer)'
   so.intellisense: NSRelationDefinitionEntity.SetDestination
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDestination(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSRelationDefinitionEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetPassiveText(String)
   id: 'SetPassiveText(String)'
   so.intellisense: NSRelationDefinitionEntity.SetPassiveText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPassiveText(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSRelationDefinitionEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetReldefId(Integer)
   id: 'SetReldefId(Integer)'
   so.intellisense: NSRelationDefinitionEntity.SetReldefId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetReldefId(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetSource(Integer)
   id: 'SetSource(Integer)'
   so.intellisense: NSRelationDefinitionEntity.SetSource
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSource(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSRelationDefinitionEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

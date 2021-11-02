@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSConsentSource
   commentId: T:CRMScript.NetServer.NSConsentSource
   id: NSConsentSource
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetConsentSourceId()
   id: 'GetConsentSourceId()'
   so.intellisense: NSConsentSource.GetConsentSourceId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentSourceId()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSConsentSource.GetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetKey()
   id: 'GetKey()'
   so.intellisense: NSConsentSource.GetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetKey()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetMailTemplateId()
   id: 'GetMailTemplateId()'
   so.intellisense: NSConsentSource.GetMailTemplateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetMailTemplateId()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetName()
   id: 'GetName()'
   so.intellisense: NSConsentSource.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetRank()
   id: 'GetRank()'
   so.intellisense: NSConsentSource.GetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRank()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSConsentSource.GetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetConsentSourceId(Integer)
   id: 'SetConsentSourceId(Integer)'
   so.intellisense: NSConsentSource.SetConsentSourceId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentSourceId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSConsentSource.SetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSConsentSource.SetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetMailTemplateId(Integer)
   id: 'SetMailTemplateId(Integer)'
   so.intellisense: NSConsentSource.SetMailTemplateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetMailTemplateId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSConsentSource.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSConsentSource.SetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentSource.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSConsentSource.SetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTooltip(String)'

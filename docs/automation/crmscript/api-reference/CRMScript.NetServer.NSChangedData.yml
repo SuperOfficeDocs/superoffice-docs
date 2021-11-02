@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChangedData
   commentId: T:CRMScript.NetServer.NSChangedData
   id: NSChangedData
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.GetAddedRecords()
   id: 'GetAddedRecords()'
   so.intellisense: NSChangedData.GetAddedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddedRecords()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.GetDeletedRecords()
   id: 'GetDeletedRecords()'
   so.intellisense: NSChangedData.GetDeletedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeletedRecords()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.GetUpdatedRecords()
   id: 'GetUpdatedRecords()'
   so.intellisense: NSChangedData.GetUpdatedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdatedRecords()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.SetAddedRecords(NSChangedDataItem[])
   id: 'SetAddedRecords(NSChangedDataItem[])'
   so.intellisense: NSChangedData.SetAddedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddedRecords(NSChangedDataItem[])'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.SetDeletedRecords(NSChangedDataItem[])
   id: 'SetDeletedRecords(NSChangedDataItem[])'
   so.intellisense: NSChangedData.SetDeletedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeletedRecords(NSChangedDataItem[])'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChangedData.SetUpdatedRecords(NSChangedDataItem[])
   id: 'SetUpdatedRecords(NSChangedDataItem[])'
   so.intellisense: NSChangedData.SetUpdatedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdatedRecords(NSChangedDataItem[])'

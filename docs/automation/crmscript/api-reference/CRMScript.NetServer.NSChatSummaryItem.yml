@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChatSummaryItem
   commentId: T:CRMScript.NetServer.NSChatSummaryItem
   id: NSChatSummaryItem
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetChatSessionId()
   id: 'GetChatSessionId()'
   so.intellisense: NSChatSummaryItem.GetChatSessionId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChatSessionId()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetCompanyName()
   id: 'GetCompanyName()'
   so.intellisense: NSChatSummaryItem.GetCompanyName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCompanyName()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetFirstMessage()
   id: 'GetFirstMessage()'
   so.intellisense: NSChatSummaryItem.GetFirstMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFirstMessage()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetLastMessage()
   id: 'GetLastMessage()'
   so.intellisense: NSChatSummaryItem.GetLastMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetLastMessage()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetName()
   id: 'GetName()'
   so.intellisense: NSChatSummaryItem.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetWhenEnded()
   id: 'GetWhenEnded()'
   so.intellisense: NSChatSummaryItem.GetWhenEnded
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetWhenEnded()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetWhenRequested()
   id: 'GetWhenRequested()'
   so.intellisense: NSChatSummaryItem.GetWhenRequested
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetWhenRequested()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetChatSessionId(Integer)
   id: 'SetChatSessionId(Integer)'
   so.intellisense: NSChatSummaryItem.SetChatSessionId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetChatSessionId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetCompanyName(String)
   id: 'SetCompanyName(String)'
   so.intellisense: NSChatSummaryItem.SetCompanyName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCompanyName(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetFirstMessage(String)
   id: 'SetFirstMessage(String)'
   so.intellisense: NSChatSummaryItem.SetFirstMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFirstMessage(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetLastMessage(String)
   id: 'SetLastMessage(String)'
   so.intellisense: NSChatSummaryItem.SetLastMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetLastMessage(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSChatSummaryItem.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetWhenEnded(DateTime)
   id: 'SetWhenEnded(DateTime)'
   so.intellisense: NSChatSummaryItem.SetWhenEnded
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetWhenEnded(DateTime)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetWhenRequested(DateTime)
   id: 'SetWhenRequested(DateTime)'
   so.intellisense: NSChatSummaryItem.SetWhenRequested
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetWhenRequested(DateTime)'

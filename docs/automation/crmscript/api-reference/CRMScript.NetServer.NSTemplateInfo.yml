@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTemplateInfo
   commentId: T:CRMScript.NetServer.NSTemplateInfo
   id: NSTemplateInfo
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSTemplateInfo.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.GetExternalReference()
   id: 'GetExternalReference()'
   so.intellisense: NSTemplateInfo.GetExternalReference
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExternalReference()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSTemplateInfo.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.GetPluginId()
   id: 'GetPluginId()'
   so.intellisense: NSTemplateInfo.GetPluginId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPluginId()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSTemplateInfo.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.SetExternalReference(String)
   id: 'SetExternalReference(String)'
   so.intellisense: NSTemplateInfo.SetExternalReference
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExternalReference(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTemplateInfo.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTemplateInfo.SetPluginId(Integer)
   id: 'SetPluginId(Integer)'
   so.intellisense: NSTemplateInfo.SetPluginId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPluginId(Integer)'

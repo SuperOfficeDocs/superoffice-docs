@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProductExtraDataField
   commentId: T:CRMScript.NetServer.NSProductExtraDataField
   id: NSProductExtraDataField
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetName()
   id: 'GetName()'
   so.intellisense: NSProductExtraDataField.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetType()
   id: 'GetType()'
   so.intellisense: NSProductExtraDataField.GetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetType()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetValue()
   id: 'GetValue()'
   so.intellisense: NSProductExtraDataField.GetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSProductExtraDataField.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSProductExtraDataField.SetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSProductExtraDataField.SetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValue(String)'

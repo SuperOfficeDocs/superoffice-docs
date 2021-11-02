@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMessageDeliveryStatus
   commentId: T:CRMScript.NetServer.NSMessageDeliveryStatus
   id: NSMessageDeliveryStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetMessagingId()
   id: 'GetMessagingId()'
   so.intellisense: NSMessageDeliveryStatus.GetMessagingId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetMessagingId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSMessageDeliveryStatus.GetStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetStatusDescription()
   id: 'GetStatusDescription()'
   so.intellisense: NSMessageDeliveryStatus.GetStatusDescription
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetStatusDescription()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetMessagingId(Integer)
   id: 'SetMessagingId(Integer)'
   so.intellisense: NSMessageDeliveryStatus.SetMessagingId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetMessagingId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSMessageDeliveryStatus.SetStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetStatus(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetStatusDescription(String)
   id: 'SetStatusDescription(String)'
   so.intellisense: NSMessageDeliveryStatus.SetStatusDescription
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetStatusDescription(String)'

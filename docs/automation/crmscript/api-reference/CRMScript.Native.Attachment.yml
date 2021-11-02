@@ -45,6 +45,7 @@ items:
   commentId: M:CRMScript.Native.Attachment.dump()
   id: 'dump()'
   so.intellisense: Attachment.dump
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'dump()'
@@ -64,6 +65,7 @@ items:
   commentId: M:CRMScript.Native.Attachment.dump(Bool)
   id: 'dump(Bool)'
   so.intellisense: Attachment.dump
+  so.version: 4.9.0
   langs:
   - crmscript
   name: 'dump(Bool)'
@@ -193,6 +195,7 @@ items:
   commentId: M:CRMScript.Native.Attachment.remove()
   id: 'remove()'
   so.intellisense: Attachment.remove
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'remove()'

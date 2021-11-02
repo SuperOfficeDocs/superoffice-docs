@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSGrantedModuleLicense
   commentId: T:CRMScript.NetServer.NSGrantedModuleLicense
   id: NSGrantedModuleLicense
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSGrantedModuleLicense.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -81,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExpiryDate()
   id: 'GetExpiryDate()'
   so.intellisense: NSGrantedModuleLicense.GetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExpiryDate()'
@@ -100,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExtraFlags()
   id: 'GetExtraFlags()'
   so.intellisense: NSGrantedModuleLicense.GetExtraFlags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFlags()'
@@ -119,6 +123,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSGrantedModuleLicense.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetIsHidden()
   id: 'GetIsHidden()'
   so.intellisense: NSGrantedModuleLicense.GetIsHidden
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsHidden()'
@@ -157,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetIsUnrestricted()
   id: 'GetIsUnrestricted()'
   so.intellisense: NSGrantedModuleLicense.GetIsUnrestricted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsUnrestricted()'
@@ -176,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseNumber()
   id: 'GetLicenseNumber()'
   so.intellisense: NSGrantedModuleLicense.GetLicenseNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseNumber()'
@@ -195,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseType()
   id: 'GetLicenseType()'
   so.intellisense: NSGrantedModuleLicense.GetLicenseType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseType()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetModuleId()
   id: 'GetModuleId()'
   so.intellisense: NSGrantedModuleLicense.GetModuleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetModuleId()'
@@ -233,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetName()
   id: 'GetName()'
   so.intellisense: NSGrantedModuleLicense.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerDescription()
   id: 'GetOwnerDescription()'
   so.intellisense: NSGrantedModuleLicense.GetOwnerDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerDescription()'
@@ -271,6 +283,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerId()
   id: 'GetOwnerId()'
   so.intellisense: NSGrantedModuleLicense.GetOwnerId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerId()'
@@ -290,6 +303,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerName()
   id: 'GetOwnerName()'
   so.intellisense: NSGrantedModuleLicense.GetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerName()'
@@ -309,6 +323,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetSortOrder()
   id: 'GetSortOrder()'
   so.intellisense: NSGrantedModuleLicense.GetSortOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSortOrder()'
@@ -328,6 +343,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetVersion()
   id: 'GetVersion()'
   so.intellisense: NSGrantedModuleLicense.GetVersion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVersion()'
@@ -347,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSGrantedModuleLicense.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -368,6 +385,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExpiryDate(DateTime)
   id: 'SetExpiryDate(DateTime)'
   so.intellisense: NSGrantedModuleLicense.SetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExpiryDate(DateTime)'
@@ -389,6 +407,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExtraFlags(Integer)
   id: 'SetExtraFlags(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetExtraFlags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFlags(Integer)'
@@ -410,6 +429,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSGrantedModuleLicense.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -431,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetIsHidden(Bool)
   id: 'SetIsHidden(Bool)'
   so.intellisense: NSGrantedModuleLicense.SetIsHidden
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsHidden(Bool)'
@@ -452,6 +473,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetIsUnrestricted(Bool)
   id: 'SetIsUnrestricted(Bool)'
   so.intellisense: NSGrantedModuleLicense.SetIsUnrestricted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsUnrestricted(Bool)'
@@ -473,6 +495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseNumber(Integer)
   id: 'SetLicenseNumber(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetLicenseNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseNumber(Integer)'
@@ -494,6 +517,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseType(Integer)
   id: 'SetLicenseType(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetLicenseType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseType(Integer)'
@@ -515,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetModuleId(Integer)
   id: 'SetModuleId(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetModuleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetModuleId(Integer)'
@@ -536,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSGrantedModuleLicense.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -557,6 +583,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerDescription(String)
   id: 'SetOwnerDescription(String)'
   so.intellisense: NSGrantedModuleLicense.SetOwnerDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerDescription(String)'
@@ -578,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerId(Integer)
   id: 'SetOwnerId(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetOwnerId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerId(Integer)'
@@ -599,6 +627,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerName(String)
   id: 'SetOwnerName(String)'
   so.intellisense: NSGrantedModuleLicense.SetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerName(String)'
@@ -620,6 +649,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetSortOrder(Integer)
   id: 'SetSortOrder(Integer)'
   so.intellisense: NSGrantedModuleLicense.SetSortOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSortOrder(Integer)'
@@ -641,6 +671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetVersion(String)
   id: 'SetVersion(String)'
   so.intellisense: NSGrantedModuleLicense.SetVersion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVersion(String)'

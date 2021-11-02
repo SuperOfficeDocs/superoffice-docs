@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSReplicationAgent
   commentId: T:CRMScript.NetServer.NSReplicationAgent
   id: NSReplicationAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.CreateDefaultSatellite()
   id: 'CreateDefaultSatellite()'
   so.intellisense: NSReplicationAgent.CreateDefaultSatellite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultSatellite()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.GetArea(Integer)
   id: 'GetArea(Integer)'
   so.intellisense: NSReplicationAgent.GetArea
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArea(Integer)'
@@ -83,6 +86,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.GetAreaList(Integer[])
   id: 'GetAreaList(Integer[])'
   so.intellisense: NSReplicationAgent.GetAreaList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAreaList(Integer[])'
@@ -105,6 +109,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.GetCentralLicense()
   id: 'GetCentralLicense()'
   so.intellisense: NSReplicationAgent.GetCentralLicense
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCentralLicense()'
@@ -123,6 +128,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.GetSatellite(Integer)
   id: 'GetSatellite(Integer)'
   so.intellisense: NSReplicationAgent.GetSatellite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSatellite(Integer)'
@@ -145,6 +151,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.SaveCentralLicense(NSLicenseOwner[])
   id: 'SaveCentralLicense(NSLicenseOwner[])'
   so.intellisense: NSReplicationAgent.SaveCentralLicense
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveCentralLicense(NSLicenseOwner[])'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.SaveSatellite(NSSatellite)
   id: 'SaveSatellite(NSSatellite)'
   so.intellisense: NSReplicationAgent.SaveSatellite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveSatellite(NSSatellite)'
@@ -189,6 +197,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReplicationAgent.SetFreetextSearchEnabledOnArea(Integer,Bool)
   id: 'SetFreetextSearchEnabledOnArea(Integer,Bool)'
   so.intellisense: NSReplicationAgent.SetFreetextSearchEnabledOnArea
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFreetextSearchEnabledOnArea(Integer,Bool)'

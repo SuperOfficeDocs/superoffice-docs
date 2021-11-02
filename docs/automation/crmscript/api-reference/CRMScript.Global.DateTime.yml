@@ -11,39 +11,39 @@ items:
     - CRMScript.Global.DateTime.#ctor(DateTime)
     - CRMScript.Global.DateTime.#ctor(Integer, Integer, Integer, Integer, Integer, Integer)
     - CRMScript.Global.DateTime.#ctor(String)
-    - CRMScript.Global.DateTime.toString()
-    - CRMScript.Global.DateTime.toString(String)
-    - CRMScript.Global.DateTime.toString(String, String, String)
-    - CRMScript.Global.DateTime.toString(Integer, Integer, Bool)
     - CRMScript.Global.DateTime.addDay(Integer)
-    - CRMScript.Global.DateTime.addMonth(Integer)
-    - CRMScript.Global.DateTime.addYear(Integer)
     - CRMScript.Global.DateTime.addHour(Integer)
     - CRMScript.Global.DateTime.addMin(Integer)
+    - CRMScript.Global.DateTime.addMonth(Integer)
     - CRMScript.Global.DateTime.addSec(Integer)
-    - CRMScript.Global.DateTime.setTime(Time)
-    - CRMScript.Global.DateTime.moveToDayStart()
-    - CRMScript.Global.DateTime.moveToDayEnd()
-    - CRMScript.Global.DateTime.moveToWeekStart()
-    - CRMScript.Global.DateTime.moveToWeekEnd()
-    - CRMScript.Global.DateTime.moveToMonthStart()
-    - CRMScript.Global.DateTime.moveToMonthEnd()
-    - CRMScript.Global.DateTime.moveToQuarterStart()
-    - CRMScript.Global.DateTime.moveToQuarterEnd()
-    - CRMScript.Global.DateTime.moveToYearStart()
-    - CRMScript.Global.DateTime.moveToYearEnd()
-    - CRMScript.Global.DateTime.moveToHourStart()
-    - CRMScript.Global.DateTime.moveToHourEnd()
+    - CRMScript.Global.DateTime.addYear(Integer)
+    - CRMScript.Global.DateTime.diff(DateTime)
     - CRMScript.Global.DateTime.getMDay()
     - CRMScript.Global.DateTime.getMonth()
+    - CRMScript.Global.DateTime.getTime()
+    - CRMScript.Global.DateTime.getUnix()
     - CRMScript.Global.DateTime.getWeek()
     - CRMScript.Global.DateTime.getWeekDay()
     - CRMScript.Global.DateTime.getYear()
-    - CRMScript.Global.DateTime.getTime()
-    - CRMScript.Global.DateTime.diff(DateTime)
-    - CRMScript.Global.DateTime.setUnix(Integer)
-    - CRMScript.Global.DateTime.getUnix()
     - CRMScript.Global.DateTime.isNull()
+    - CRMScript.Global.DateTime.moveToDayEnd()
+    - CRMScript.Global.DateTime.moveToDayStart()
+    - CRMScript.Global.DateTime.moveToHourEnd()
+    - CRMScript.Global.DateTime.moveToHourStart()
+    - CRMScript.Global.DateTime.moveToMonthEnd()
+    - CRMScript.Global.DateTime.moveToMonthStart()
+    - CRMScript.Global.DateTime.moveToQuarterEnd()
+    - CRMScript.Global.DateTime.moveToQuarterStart()
+    - CRMScript.Global.DateTime.moveToWeekEnd()
+    - CRMScript.Global.DateTime.moveToWeekStart()
+    - CRMScript.Global.DateTime.moveToYearEnd()
+    - CRMScript.Global.DateTime.moveToYearStart()
+    - CRMScript.Global.DateTime.setTime(Time)
+    - CRMScript.Global.DateTime.setUnix(Integer)
+    - CRMScript.Global.DateTime.toString()
+    - CRMScript.Global.DateTime.toString(Integer, Integer, Bool)
+    - CRMScript.Global.DateTime.toString(String)
+    - CRMScript.Global.DateTime.toString(String, String, String)
   name: DateTime
   nameWithType: DateTime
   fullName: CRMScript.Global.DateTime
@@ -174,6 +174,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.toString(String)
   id: toString(String)
   so.intellisense: DateTime.toString
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -197,6 +198,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.toString(String, String, String)
   id: toString(String, String, String)
   so.intellisense: DateTime.toString
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -409,6 +411,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.getMDay()
   id: getMDay()
   so.intellisense: DateTime.getMDay
+  so.version: 4.0.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -428,6 +431,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.getMonth()
   id: getMonth()
   so.intellisense: DateTime.getMonth
+  so.version: 4.0.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -447,6 +451,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.getWeek()
   id: getWeek()
   so.intellisense: DateTime.getWeek
+  so.version: 4.0.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -487,6 +492,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.getYear()
   id: getYear()
   so.intellisense: DateTime.getYear
+  so.version: 4.0.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -584,6 +590,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.isNull()
   id: isNull()
   so.intellisense: DateTime.isNull
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -604,6 +611,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToDayStart()
   id: moveToDayStart()
   so.intellisense: DateTime.moveToDayStart
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -621,6 +629,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToHourStart()
   id: moveToHourStart()
   so.intellisense: DateTime.moveToHourStart
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -655,6 +664,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToQuarterStart()
   id: moveToQuarterStart()
   so.intellisense: DateTime.moveToQuarterStart
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -672,6 +682,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToWeekStart()
   id: moveToWeekStart()
   so.intellisense: DateTime.moveToWeekStart
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -706,6 +717,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToDayEnd()
   id: moveToDayEnd()
   so.intellisense: DateTime.moveToDayEnd
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -723,6 +735,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToHourEnd()
   id: moveToHourEnd()
   so.intellisense: DateTime.moveToHourEnd
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -757,6 +770,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToQuarterEnd()
   id: moveToQuarterEnd()
   so.intellisense: DateTime.moveToQuarterEnd
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -774,6 +788,7 @@ items:
   commentId: M:CRMScript.Global.DateTime.moveToWeekEnd()
   id: moveToWeekEnd()
   so.intellisense: DateTime.moveToWeekEnd
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
@@ -831,7 +846,6 @@ references:
   fullName: CRMScript.Global.Integer
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

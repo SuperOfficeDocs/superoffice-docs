@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSReportAgent
   commentId: T:CRMScript.NetServer.NSReportAgent
   id: NSReportAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -47,6 +48,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.CreateDefaultReportEntity()
   id: 'CreateDefaultReportEntity()'
   so.intellisense: NSReportAgent.CreateDefaultReportEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultReportEntity()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.CreateDefaultReportLabelLayoutEntity()
   id: 'CreateDefaultReportLabelLayoutEntity()'
   so.intellisense: NSReportAgent.CreateDefaultReportLabelLayoutEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultReportLabelLayoutEntity()'
@@ -85,6 +88,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.CreateFavorite(Integer,String,String)
   id: 'CreateFavorite(Integer,String,String)'
   so.intellisense: NSReportAgent.CreateFavorite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateFavorite(Integer,String,String)'
@@ -113,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.DeleteFavorite(Integer)
   id: 'DeleteFavorite(Integer)'
   so.intellisense: NSReportAgent.DeleteFavorite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteFavorite(Integer)'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.DeleteReport(Integer)
   id: 'DeleteReport(Integer)'
   so.intellisense: NSReportAgent.DeleteReport
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteReport(Integer)'
@@ -157,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.DeleteReportLabelLayoutEntity(Integer)
   id: 'DeleteReportLabelLayoutEntity(Integer)'
   so.intellisense: NSReportAgent.DeleteReportLabelLayoutEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteReportLabelLayoutEntity(Integer)'
@@ -179,6 +186,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])
   id: 'GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])'
   so.intellisense: NSReportAgent.GenerateReport
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])'
@@ -217,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.GetReportEntity(Integer)
   id: 'GetReportEntity(Integer)'
   so.intellisense: NSReportAgent.GetReportEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReportEntity(Integer)'
@@ -239,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.GetReportLabelLayoutEntity(Integer)
   id: 'GetReportLabelLayoutEntity(Integer)'
   so.intellisense: NSReportAgent.GetReportLabelLayoutEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReportLabelLayoutEntity(Integer)'
@@ -261,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.ImportReport(String)
   id: 'ImportReport(String)'
   so.intellisense: NSReportAgent.ImportReport
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ImportReport(String)'
@@ -284,6 +295,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.SaveReportEntity(NSReportEntity)
   id: 'SaveReportEntity(NSReportEntity)'
   so.intellisense: NSReportAgent.SaveReportEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveReportEntity(NSReportEntity)'
@@ -306,6 +318,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)
   id: 'SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)'
   so.intellisense: NSReportAgent.SaveReportLabelLayoutEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)'
@@ -329,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReportAgent.UpdateFavorite(NSReportEntity)
   id: 'UpdateFavorite(NSReportEntity)'
   so.intellisense: NSReportAgent.UpdateFavorite
+  so.version: 7.0
   langs:
   - crmscript
   name: 'UpdateFavorite(NSReportEntity)'

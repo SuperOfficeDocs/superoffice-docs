@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMultiAlarmData
   commentId: T:CRMScript.NetServer.NSMultiAlarmData
   id: NSMultiAlarmData
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetAlarms()
   id: 'GetAlarms()'
   so.intellisense: NSMultiAlarmData.GetAlarms
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlarms()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetPollingInterval()
   id: 'GetPollingInterval()'
   so.intellisense: NSMultiAlarmData.GetPollingInterval
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPollingInterval()'
@@ -77,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetSilentAfter()
   id: 'GetSilentAfter()'
   so.intellisense: NSMultiAlarmData.GetSilentAfter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSilentAfter()'
@@ -97,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetAlarms(NSAlarmData[])
   id: 'SetAlarms(NSAlarmData[])'
   so.intellisense: NSMultiAlarmData.SetAlarms
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAlarms(NSAlarmData[])'
@@ -119,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetPollingInterval(Integer)
   id: 'SetPollingInterval(Integer)'
   so.intellisense: NSMultiAlarmData.SetPollingInterval
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPollingInterval(Integer)'
@@ -141,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetSilentAfter(Integer)
   id: 'SetSilentAfter(Integer)'
   so.intellisense: NSMultiAlarmData.SetSilentAfter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSilentAfter(Integer)'

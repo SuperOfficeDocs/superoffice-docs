@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDuplicateRule
   commentId: T:CRMScript.NetServer.NSDuplicateRule
   id: NSDuplicateRule
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSDuplicateRule.GetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -59,6 +61,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.GetDisplayTooltip()
   id: 'GetDisplayTooltip()'
   so.intellisense: NSDuplicateRule.GetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.GetIsActive()
   id: 'GetIsActive()'
   so.intellisense: NSDuplicateRule.GetIsActive
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsActive()'
@@ -97,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.GetName()
   id: 'GetName()'
   so.intellisense: NSDuplicateRule.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -116,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSDuplicateRule.SetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -137,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.SetDisplayTooltip(String)
   id: 'SetDisplayTooltip(String)'
   so.intellisense: NSDuplicateRule.SetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayTooltip(String)'
@@ -158,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.SetIsActive(Bool)
   id: 'SetIsActive(Bool)'
   so.intellisense: NSDuplicateRule.SetIsActive
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsActive(Bool)'
@@ -179,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateRule.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSDuplicateRule.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'

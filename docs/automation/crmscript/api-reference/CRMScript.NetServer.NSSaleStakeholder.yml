@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleStakeholder
   commentId: T:CRMScript.NetServer.NSSaleStakeholder
   id: NSSaleStakeholder
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -70,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetComment()
   id: 'GetComment()'
   so.intellisense: NSSaleStakeholder.GetComment
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetComment()'
@@ -90,6 +92,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSSaleStakeholder.GetContactId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -110,6 +113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSSaleStakeholder.GetContactName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -130,6 +134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetCountryId()
   id: 'GetCountryId()'
   so.intellisense: NSSaleStakeholder.GetCountryId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetCountryId()'
@@ -150,6 +155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailAddress()
   id: 'GetEmailAddress()'
   so.intellisense: NSSaleStakeholder.GetEmailAddress
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetEmailAddress()'
@@ -170,6 +176,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailDescription()
   id: 'GetEmailDescription()'
   so.intellisense: NSSaleStakeholder.GetEmailDescription
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetEmailDescription()'
@@ -190,6 +197,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailId()
   id: 'GetEmailId()'
   so.intellisense: NSSaleStakeholder.GetEmailId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetEmailId()'
@@ -210,6 +218,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetFirstname()
   id: 'GetFirstname()'
   so.intellisense: NSSaleStakeholder.GetFirstname
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetFirstname()'
@@ -230,6 +239,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetLastname()
   id: 'GetLastname()'
   so.intellisense: NSSaleStakeholder.GetLastname
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetLastname()'
@@ -250,6 +260,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetMiddleName()
   id: 'GetMiddleName()'
   so.intellisense: NSSaleStakeholder.GetMiddleName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetMiddleName()'
@@ -270,6 +281,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetMrmrs()
   id: 'GetMrmrs()'
   so.intellisense: NSSaleStakeholder.GetMrmrs
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetMrmrs()'
@@ -290,6 +302,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSSaleStakeholder.GetPersonId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -310,6 +323,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPhone()
   id: 'GetPhone()'
   so.intellisense: NSSaleStakeholder.GetPhone
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetPhone()'
@@ -330,6 +344,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPhoneId()
   id: 'GetPhoneId()'
   so.intellisense: NSSaleStakeholder.GetPhoneId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetPhoneId()'
@@ -350,6 +365,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSaleStakeholder.GetRank
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetRank()'
@@ -370,6 +386,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSSaleStakeholder.GetSaleId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -390,6 +407,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetSaleStakeholderId()
   id: 'GetSaleStakeholderId()'
   so.intellisense: NSSaleStakeholder.GetSaleStakeholderId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholderId()'
@@ -410,6 +428,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleId()
   id: 'GetStakeholderRoleId()'
   so.intellisense: NSSaleStakeholder.GetStakeholderRoleId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetStakeholderRoleId()'
@@ -430,6 +449,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleName()
   id: 'GetStakeholderRoleName()'
   so.intellisense: NSSaleStakeholder.GetStakeholderRoleName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetStakeholderRoleName()'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetComment(String)
   id: 'SetComment(String)'
   so.intellisense: NSSaleStakeholder.SetComment
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetComment(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSSaleStakeholder.SetContactId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSSaleStakeholder.SetContactName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetCountryId(Integer)
   id: 'SetCountryId(Integer)'
   so.intellisense: NSSaleStakeholder.SetCountryId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetCountryId(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailAddress(String)
   id: 'SetEmailAddress(String)'
   so.intellisense: NSSaleStakeholder.SetEmailAddress
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetEmailAddress(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailDescription(String)
   id: 'SetEmailDescription(String)'
   so.intellisense: NSSaleStakeholder.SetEmailDescription
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetEmailDescription(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailId(Integer)
   id: 'SetEmailId(Integer)'
   so.intellisense: NSSaleStakeholder.SetEmailId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetEmailId(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetFirstname(String)
   id: 'SetFirstname(String)'
   so.intellisense: NSSaleStakeholder.SetFirstname
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetFirstname(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetLastname(String)
   id: 'SetLastname(String)'
   so.intellisense: NSSaleStakeholder.SetLastname
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetLastname(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetMiddleName(String)
   id: 'SetMiddleName(String)'
   so.intellisense: NSSaleStakeholder.SetMiddleName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetMiddleName(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetMrmrs(String)
   id: 'SetMrmrs(String)'
   so.intellisense: NSSaleStakeholder.SetMrmrs
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetMrmrs(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSSaleStakeholder.SetPersonId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPhone(String)
   id: 'SetPhone(String)'
   so.intellisense: NSSaleStakeholder.SetPhone
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetPhone(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPhoneId(Integer)
   id: 'SetPhoneId(Integer)'
   so.intellisense: NSSaleStakeholder.SetPhoneId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetPhoneId(Integer)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSaleStakeholder.SetRank
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSSaleStakeholder.SetSaleId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetSaleStakeholderId(Integer)
   id: 'SetSaleStakeholderId(Integer)'
   so.intellisense: NSSaleStakeholder.SetSaleStakeholderId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSaleStakeholderId(Integer)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleId(Integer)
   id: 'SetStakeholderRoleId(Integer)'
   so.intellisense: NSSaleStakeholder.SetStakeholderRoleId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetStakeholderRoleId(Integer)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleName(String)
   id: 'SetStakeholderRoleName(String)'
   so.intellisense: NSSaleStakeholder.SetStakeholderRoleName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetStakeholderRoleName(String)'

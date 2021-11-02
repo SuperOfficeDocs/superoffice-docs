@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPocketNotificationMessage
   commentId: T:CRMScript.NetServer.NSPocketNotificationMessage
   id: NSPocketNotificationMessage
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetDate()
   id: 'GetDate()'
   so.intellisense: NSPocketNotificationMessage.GetDate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDate()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetDuration()
   id: 'GetDuration()'
   so.intellisense: NSPocketNotificationMessage.GetDuration
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDuration()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetExtraValues()
   id: 'GetExtraValues()'
   so.intellisense: NSPocketNotificationMessage.GetExtraValues
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetExtraValues()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetMessage()
   id: 'GetMessage()'
   so.intellisense: NSPocketNotificationMessage.GetMessage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetMessage()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetRecordId()
   id: 'GetRecordId()'
   so.intellisense: NSPocketNotificationMessage.GetRecordId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRecordId()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetSilent()
   id: 'GetSilent()'
   so.intellisense: NSPocketNotificationMessage.GetSilent
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSilent()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetTimeToLive()
   id: 'GetTimeToLive()'
   so.intellisense: NSPocketNotificationMessage.GetTimeToLive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTimeToLive()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSPocketNotificationMessage.GetTitle
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetType()
   id: 'GetType()'
   so.intellisense: NSPocketNotificationMessage.GetType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetType()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSPocketNotificationMessage.GetUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSPocketNotificationMessage.SetDate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDate(DateTime)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetDuration(TimeSpan)
   id: 'SetDuration(TimeSpan)'
   so.intellisense: NSPocketNotificationMessage.SetDuration
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDuration(TimeSpan)'
@@ -318,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetMessage(String)
   id: 'SetMessage(String)'
   so.intellisense: NSPocketNotificationMessage.SetMessage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetMessage(String)'
@@ -340,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetRecordId(Integer)
   id: 'SetRecordId(Integer)'
   so.intellisense: NSPocketNotificationMessage.SetRecordId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRecordId(Integer)'
@@ -362,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetSilent(Bool)
   id: 'SetSilent(Bool)'
   so.intellisense: NSPocketNotificationMessage.SetSilent
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetSilent(Bool)'
@@ -384,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetTimeToLive(Integer)
   id: 'SetTimeToLive(Integer)'
   so.intellisense: NSPocketNotificationMessage.SetTimeToLive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTimeToLive(Integer)'
@@ -406,6 +423,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSPocketNotificationMessage.SetTitle
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTitle(String)'
@@ -428,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSPocketNotificationMessage.SetType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -450,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketNotificationMessage.SetUrl(String)
   id: 'SetUrl(String)'
   so.intellisense: NSPocketNotificationMessage.SetUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUrl(String)'

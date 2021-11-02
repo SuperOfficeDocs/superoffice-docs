@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWebhookResult
   commentId: T:CRMScript.NetServer.NSWebhookResult
   id: NSWebhookResult
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookResult.GetMessage()
   id: 'GetMessage()'
   so.intellisense: NSWebhookResult.GetMessage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetMessage()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookResult.GetSuccess()
   id: 'GetSuccess()'
   so.intellisense: NSWebhookResult.GetSuccess
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSuccess()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookResult.SetMessage(String)
   id: 'SetMessage(String)'
   so.intellisense: NSWebhookResult.SetMessage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetMessage(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookResult.SetSuccess(Bool)
   id: 'SetSuccess(Bool)'
   so.intellisense: NSWebhookResult.SetSuccess
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetSuccess(Bool)'

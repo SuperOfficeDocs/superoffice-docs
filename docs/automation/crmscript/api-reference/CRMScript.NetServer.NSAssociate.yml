@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAssociate
   commentId: T:CRMScript.NetServer.NSAssociate
   id: NSAssociate
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -56,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSAssociate.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -76,6 +78,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSAssociate.GetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -96,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetEjUserId()
   id: 'GetEjUserId()'
   so.intellisense: NSAssociate.GetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEjUserId()'
@@ -116,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetFormalName()
   id: 'GetFormalName()'
   so.intellisense: NSAssociate.GetFormalName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFormalName()'
@@ -136,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSAssociate.GetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -156,6 +162,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetGroupIdx()
   id: 'GetGroupIdx()'
   so.intellisense: NSAssociate.GetGroupIdx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGroupIdx()'
@@ -176,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetName()
   id: 'GetName()'
   so.intellisense: NSAssociate.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -196,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSAssociate.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -216,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetRank()
   id: 'GetRank()'
   so.intellisense: NSAssociate.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -236,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSAssociate.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -256,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetType()
   id: 'GetType()'
   so.intellisense: NSAssociate.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -276,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.GetUserName()
   id: 'GetUserName()'
   so.intellisense: NSAssociate.GetUserName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUserName()'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSAssociate.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSAssociate.SetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetEjUserId(Integer)
   id: 'SetEjUserId(Integer)'
   so.intellisense: NSAssociate.SetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEjUserId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetFormalName(String)
   id: 'SetFormalName(String)'
   so.intellisense: NSAssociate.SetFormalName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFormalName(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSAssociate.SetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetGroupIdx(Integer)
   id: 'SetGroupIdx(Integer)'
   so.intellisense: NSAssociate.SetGroupIdx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGroupIdx(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSAssociate.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSAssociate.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSAssociate.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSAssociate.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSAssociate.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociate.SetUserName(String)
   id: 'SetUserName(String)'
   so.intellisense: NSAssociate.SetUserName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUserName(String)'

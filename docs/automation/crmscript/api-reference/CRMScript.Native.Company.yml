@@ -45,6 +45,7 @@ items:
   commentId: M:CRMScript.Native.Company.checkFieldRights(String,String)
   id: 'checkFieldRights(String,String)'
   so.intellisense: Company.checkFieldRights
+  so.version: 7.0
   langs:
   - crmscript
   name: 'checkFieldRights(String,String)'
@@ -71,6 +72,7 @@ items:
   commentId: M:CRMScript.Native.Company.checkTableRights(String)
   id: 'checkTableRights(String)'
   so.intellisense: Company.checkTableRights
+  so.version: 7.0
   langs:
   - crmscript
   name: 'checkTableRights(String)'
@@ -94,6 +96,7 @@ items:
   commentId: M:CRMScript.Native.Company.findFromDomain(String)
   id: 'findFromDomain(String)'
   so.intellisense: Company.findFromDomain
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'findFromDomain(String)'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.Native.Company.getFormattedAddress()
   id: 'getFormattedAddress()'
   so.intellisense: Company.getFormattedAddress
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'getFormattedAddress()'

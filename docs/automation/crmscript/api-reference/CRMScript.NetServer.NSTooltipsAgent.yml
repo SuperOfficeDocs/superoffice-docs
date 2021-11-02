@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTooltipsAgent
   commentId: T:CRMScript.NetServer.NSTooltipsAgent
   id: NSTooltipsAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -35,6 +36,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTooltipsAgent.GetTooltip(String)
   id: 'GetTooltip(String)'
   so.intellisense: NSTooltipsAgent.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip(String)'

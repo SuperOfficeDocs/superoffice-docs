@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSForeignSystemAgent
   commentId: T:CRMScript.NetServer.NSForeignSystemAgent
   id: NSForeignSystemAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -34,7 +35,7 @@ items:
   - CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
   - CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
   - CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
-  - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity)
   - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
   - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
   name: NSForeignSystemAgent
@@ -64,6 +65,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
   id: 'AddDeviceByIdentifier(String,String,String)'
   so.intellisense: NSForeignSystemAgent.AddDeviceByIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddDeviceByIdentifier(String,String,String)'
@@ -92,6 +94,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
   id: 'AddForeignKey(NSForeignKey,String,String,String)'
   so.intellisense: NSForeignSystemAgent.AddForeignKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddForeignKey(NSForeignKey,String,String,String)'
@@ -123,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.CreateDefaultForeignAppEntity()
   id: 'CreateDefaultForeignAppEntity()'
   so.intellisense: NSForeignSystemAgent.CreateDefaultForeignAppEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultForeignAppEntity()'
@@ -143,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
   id: 'DeleteDeviceByIdentifier(String,String,String)'
   so.intellisense: NSForeignSystemAgent.DeleteDeviceByIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteDeviceByIdentifier(String,String,String)'
@@ -171,6 +176,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
   id: 'DeleteForeignAppEntity(Integer)'
   so.intellisense: NSForeignSystemAgent.DeleteForeignAppEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteForeignAppEntity(Integer)'
@@ -193,6 +199,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
   id: 'DeleteForeignDevice(NSForeignDevice,String)'
   so.intellisense: NSForeignSystemAgent.DeleteForeignDevice
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteForeignDevice(NSForeignDevice,String)'
@@ -217,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
   id: 'DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.DeleteForeignKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)'
@@ -254,6 +262,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
   id: 'DeleteForeignKeyOnName(String,String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.DeleteForeignKeyOnName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteForeignKeyOnName(String,String,String,String,String,Integer)'
@@ -317,6 +326,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetAppByName(String)
   id: 'GetAppByName(String)'
   so.intellisense: NSForeignSystemAgent.GetAppByName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppByName(String)'
@@ -340,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetApplicationDevices(String)
   id: 'GetApplicationDevices(String)'
   so.intellisense: NSForeignSystemAgent.GetApplicationDevices
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetApplicationDevices(String)'
@@ -363,6 +374,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetApplicationKeys(String)
   id: 'GetApplicationKeys(String)'
   so.intellisense: NSForeignSystemAgent.GetApplicationKeys
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetApplicationKeys(String)'
@@ -386,6 +398,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
   id: 'GetDeviceByIdentifier(String,String,String)'
   so.intellisense: NSForeignSystemAgent.GetDeviceByIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceByIdentifier(String,String,String)'
@@ -414,6 +427,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByName(String,String)
   id: 'GetDeviceByName(String,String)'
   so.intellisense: NSForeignSystemAgent.GetDeviceByName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceByName(String,String)'
@@ -439,6 +453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeys(String,String)
   id: 'GetDeviceKeys(String,String)'
   so.intellisense: NSForeignSystemAgent.GetDeviceKeys
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceKeys(String,String)'
@@ -464,6 +479,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
   id: 'GetDeviceKeysOnDeviceIdentifier(String,String,String)'
   so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceKeysOnDeviceIdentifier(String,String,String)'
@@ -492,6 +508,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
   id: 'GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)'
   so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)'
@@ -523,6 +540,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
   id: 'GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)'
@@ -557,6 +575,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetForeignAppEntity(Integer)
   id: 'GetForeignAppEntity(Integer)'
   so.intellisense: NSForeignSystemAgent.GetForeignAppEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetForeignAppEntity(Integer)'
@@ -579,6 +598,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetForeignDevice(Integer)
   id: 'GetForeignDevice(Integer)'
   so.intellisense: NSForeignSystemAgent.GetForeignDevice
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetForeignDevice(Integer)'
@@ -601,6 +621,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
   id: 'GetKey(String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.GetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKey(String,String,String,String,Integer)'
@@ -635,6 +656,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
   id: 'GetKeyByValue(String,String,String,String,String)'
   so.intellisense: NSForeignSystemAgent.GetKeyByValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKeyByValue(String,String,String,String,String)'
@@ -669,6 +691,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
   id: 'GetKeyByValueAndIdentifier(String,String,String,String,String,String)'
   so.intellisense: NSForeignSystemAgent.GetKeyByValueAndIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetKeyByValueAndIdentifier(String,String,String,String,String,String)'
@@ -706,6 +729,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
   id: 'GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.GetKeyOnDeviceIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)'
@@ -743,6 +767,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
   id: 'GetKeyValue(String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.GetKeyValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKeyValue(String,String,String,String,Integer)'
@@ -778,6 +803,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
   id: 'GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)'
   so.intellisense: NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)'
@@ -816,6 +842,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
   id: 'SaveDeviceByIdentifier(String,String,String,NSForeignDevice)'
   so.intellisense: NSForeignSystemAgent.SaveDeviceByIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveDeviceByIdentifier(String,String,String,NSForeignDevice)'
@@ -843,15 +870,16 @@ items:
       type: CRMScript.NetServer.NSForeignDevice
   example: 
   - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignDevice foreignDevice;\nNSForeignDevice res = agent.SaveDeviceByIdentifier(applicationName, deviceName, deviceIdentifier, foreignDevice);</code></pre>\n"
-- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
-  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
-  id: 'SaveForeignAppEntity(NSForeignAppEntit)'
+- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity)
+  id: 'SaveForeignAppEntity(NSForeignAppEntity)'
   so.intellisense: NSForeignSystemAgent.SaveForeignAppEntity
+  so.version: 7.0
   langs:
   - crmscript
-  name: 'SaveForeignAppEntity(NSForeignAppEntit)'
-  nameWithType: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
-  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  name: 'SaveForeignAppEntity(NSForeignAppEntity)'
+  nameWithType: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity)
   type: Method
   summary: "\nyUpdates the existing NSForeignAppEntity or creates a new NSForeignAppEntity if the ID parameter is 0.\n"
   remarks: 
@@ -870,6 +898,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
   id: 'SaveForeignDevice(NSForeignDevice,String)'
   so.intellisense: NSForeignSystemAgent.SaveForeignDevice
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveForeignDevice(NSForeignDevice,String)'
@@ -895,6 +924,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
   id: 'SaveForeignKey(NSForeignKey,String,String,String)'
   so.intellisense: NSForeignSystemAgent.SaveForeignKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveForeignKey(NSForeignKey,String,String,String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDocumentTemplateEntity
   commentId: T:CRMScript.NetServer.NSDocumentTemplateEntity
   id: NSDocumentTemplateEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -82,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetAutoeventId()
   id: 'GetAutoeventId()'
   so.intellisense: NSDocumentTemplateEntity.GetAutoeventId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAutoeventId()'
@@ -102,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDefaultOref()
   id: 'GetDefaultOref()'
   so.intellisense: NSDocumentTemplateEntity.GetDefaultOref
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDefaultOref()'
@@ -122,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSDocumentTemplateEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -142,6 +146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDirection()
   id: 'GetDirection()'
   so.intellisense: NSDocumentTemplateEntity.GetDirection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDirection()'
@@ -162,6 +167,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTemplateId()
   id: 'GetDocumentTemplateId()'
   so.intellisense: NSDocumentTemplateEntity.GetDocumentTemplateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateId()'
@@ -182,6 +188,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTypeKey()
   id: 'GetDocumentTypeKey()'
   so.intellisense: NSDocumentTemplateEntity.GetDocumentTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTypeKey()'
@@ -202,6 +209,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetEmailSubject()
   id: 'GetEmailSubject()'
   so.intellisense: NSDocumentTemplateEntity.GetEmailSubject
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetEmailSubject()'
@@ -222,6 +230,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetFilename()
   id: 'GetFilename()'
   so.intellisense: NSDocumentTemplateEntity.GetFilename
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFilename()'
@@ -242,6 +251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIncludeSignature()
   id: 'GetIncludeSignature()'
   so.intellisense: NSDocumentTemplateEntity.GetIncludeSignature
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIncludeSignature()'
@@ -262,6 +272,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIntentId()
   id: 'GetIntentId()'
   so.intellisense: NSDocumentTemplateEntity.GetIntentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIntentId()'
@@ -302,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIsDefaultPublished()
   id: 'GetIsDefaultPublished()'
   so.intellisense: NSDocumentTemplateEntity.GetIsDefaultPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsDefaultPublished()'
@@ -322,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIsInUseInGuides()
   id: 'GetIsInUseInGuides()'
   so.intellisense: NSDocumentTemplateEntity.GetIsInUseInGuides
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsInUseInGuides()'
@@ -342,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
   id: 'GetLoadTemplateFromPlugin()'
   so.intellisense: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLoadTemplateFromPlugin()'
@@ -362,6 +376,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetMimeType()
   id: 'GetMimeType()'
   so.intellisense: NSDocumentTemplateEntity.GetMimeType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMimeType()'
@@ -382,6 +397,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSDocumentTemplateEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -402,6 +418,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetPrivacyDocType()
   id: 'GetPrivacyDocType()'
   so.intellisense: NSDocumentTemplateEntity.GetPrivacyDocType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPrivacyDocType()'
@@ -422,6 +439,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetQuoteDocType()
   id: 'GetQuoteDocType()'
   so.intellisense: NSDocumentTemplateEntity.GetQuoteDocType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteDocType()'
@@ -442,6 +460,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSDocumentTemplateEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -462,6 +481,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetRecordType()
   id: 'GetRecordType()'
   so.intellisense: NSDocumentTemplateEntity.GetRecordType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRecordType()'
@@ -482,6 +502,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSaveInDb()
   id: 'GetSaveInDb()'
   so.intellisense: NSDocumentTemplateEntity.GetSaveInDb
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaveInDb()'
@@ -502,6 +523,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailAddress()
   id: 'GetSenderEmailAddress()'
   so.intellisense: NSDocumentTemplateEntity.GetSenderEmailAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSenderEmailAddress()'
@@ -522,6 +544,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailMode()
   id: 'GetSenderEmailMode()'
   so.intellisense: NSDocumentTemplateEntity.GetSenderEmailMode
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSenderEmailMode()'
@@ -542,6 +565,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetShowCurrents()
   id: 'GetShowCurrents()'
   so.intellisense: NSDocumentTemplateEntity.GetShowCurrents
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetShowCurrents()'
@@ -562,6 +586,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSDocumentTemplateEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -582,6 +607,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetAutoeventId(Integer)
   id: 'SetAutoeventId(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetAutoeventId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAutoeventId(Integer)'
@@ -604,6 +630,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDefaultOref(String)
   id: 'SetDefaultOref(String)'
   so.intellisense: NSDocumentTemplateEntity.SetDefaultOref
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDefaultOref(String)'
@@ -626,6 +653,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSDocumentTemplateEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -648,6 +676,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDirection(Integer)
   id: 'SetDirection(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetDirection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDirection(Integer)'
@@ -670,6 +699,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
   id: 'SetDocumentTemplateId(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetDocumentTemplateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentTemplateId(Integer)'
@@ -692,6 +722,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
   id: 'SetDocumentTypeKey(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetDocumentTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentTypeKey(Integer)'
@@ -714,6 +745,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetEmailSubject(String)
   id: 'SetEmailSubject(String)'
   so.intellisense: NSDocumentTemplateEntity.SetEmailSubject
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetEmailSubject(String)'
@@ -736,6 +768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetFilename(String)
   id: 'SetFilename(String)'
   so.intellisense: NSDocumentTemplateEntity.SetFilename
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFilename(String)'
@@ -758,6 +791,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIncludeSignature(Bool)
   id: 'SetIncludeSignature(Bool)'
   so.intellisense: NSDocumentTemplateEntity.SetIncludeSignature
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIncludeSignature(Bool)'
@@ -780,6 +814,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIntentId(Integer)
   id: 'SetIntentId(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetIntentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIntentId(Integer)'
@@ -824,6 +859,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
   id: 'SetIsDefaultPublished(Bool)'
   so.intellisense: NSDocumentTemplateEntity.SetIsDefaultPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsDefaultPublished(Bool)'
@@ -846,6 +882,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
   id: 'SetIsInUseInGuides(Bool)'
   so.intellisense: NSDocumentTemplateEntity.SetIsInUseInGuides
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsInUseInGuides(Bool)'
@@ -868,6 +905,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
   id: 'SetLoadTemplateFromPlugin(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLoadTemplateFromPlugin(Integer)'
@@ -890,6 +928,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetMimeType(String)
   id: 'SetMimeType(String)'
   so.intellisense: NSDocumentTemplateEntity.SetMimeType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMimeType(String)'
@@ -912,6 +951,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSDocumentTemplateEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -956,6 +996,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetQuoteDocType(Integer)
   id: 'SetQuoteDocType(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetQuoteDocType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteDocType(Integer)'
@@ -978,6 +1019,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -1000,6 +1042,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
   id: 'SetRecordType(NSDocTmplType)'
   so.intellisense: NSDocumentTemplateEntity.SetRecordType
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetRecordType(NSDocTmplType)'
@@ -1022,6 +1065,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetSaveInDb(Integer)
   id: 'SetSaveInDb(Integer)'
   so.intellisense: NSDocumentTemplateEntity.SetSaveInDb
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaveInDb(Integer)'
@@ -1044,6 +1088,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailAddress(String)
   id: 'SetSenderEmailAddress(String)'
   so.intellisense: NSDocumentTemplateEntity.SetSenderEmailAddress
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSenderEmailAddress(String)'
@@ -1088,6 +1133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetShowCurrents(Bool)
   id: 'SetShowCurrents(Bool)'
   so.intellisense: NSDocumentTemplateEntity.SetShowCurrents
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetShowCurrents(Bool)'
@@ -1110,6 +1156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSDocumentTemplateEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

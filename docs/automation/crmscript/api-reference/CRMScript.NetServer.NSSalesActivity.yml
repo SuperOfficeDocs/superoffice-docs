@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSalesActivity
   commentId: T:CRMScript.NetServer.NSSalesActivity
   id: NSSalesActivity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.GetRequestedContacts()
   id: 'GetRequestedContacts()'
   so.intellisense: NSSalesActivity.GetRequestedContacts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRequestedContacts()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.GetRequestedPerson()
   id: 'GetRequestedPerson()'
   so.intellisense: NSSalesActivity.GetRequestedPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRequestedPerson()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.GetSalesRep()
   id: 'GetSalesRep()'
   so.intellisense: NSSalesActivity.GetSalesRep
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSalesRep()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.SetRequestedContacts(NSContact[])
   id: 'SetRequestedContacts(NSContact[])'
   so.intellisense: NSSalesActivity.SetRequestedContacts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRequestedContacts(NSContact[])'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.SetRequestedPerson(NSPerson)
   id: 'SetRequestedPerson(NSPerson)'
   so.intellisense: NSSalesActivity.SetRequestedPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRequestedPerson(NSPerson)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSalesActivity.SetSalesRep(NSPerson)
   id: 'SetSalesRep(NSPerson)'
   so.intellisense: NSSalesActivity.SetSalesRep
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSalesRep(NSPerson)'

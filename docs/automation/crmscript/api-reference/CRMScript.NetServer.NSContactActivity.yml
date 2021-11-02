@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSContactActivity
   commentId: T:CRMScript.NetServer.NSContactActivity
   id: NSContactActivity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -60,6 +61,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetAction()
   id: 'GetAction()'
   so.intellisense: NSContactActivity.GetAction
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAction()'
@@ -80,6 +82,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetActionId()
   id: 'GetActionId()'
   so.intellisense: NSContactActivity.GetActionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActionId()'
@@ -100,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetActionTime()
   id: 'GetActionTime()'
   so.intellisense: NSContactActivity.GetActionTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActionTime()'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetActivityPersonId()
   id: 'GetActivityPersonId()'
   so.intellisense: NSContactActivity.GetActivityPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActivityPersonId()'
@@ -140,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetActivityPersonName()
   id: 'GetActivityPersonName()'
   so.intellisense: NSContactActivity.GetActivityPersonName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActivityPersonName()'
@@ -160,6 +166,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetAssociateFullName()
   id: 'GetAssociateFullName()'
   so.intellisense: NSContactActivity.GetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateFullName()'
@@ -180,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSContactActivity.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -200,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetCategory()
   id: 'GetCategory()'
   so.intellisense: NSContactActivity.GetCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategory()'
@@ -220,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSContactActivity.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -240,6 +250,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetDepartment()
   id: 'GetDepartment()'
   so.intellisense: NSContactActivity.GetDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartment()'
@@ -260,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetName()
   id: 'GetName()'
   so.intellisense: NSContactActivity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -280,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetOrgNr()
   id: 'GetOrgNr()'
   so.intellisense: NSContactActivity.GetOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOrgNr()'
@@ -300,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSContactActivity.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -320,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.GetURL()
   id: 'GetURL()'
   so.intellisense: NSContactActivity.GetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetURL()'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetAction(Integer)
   id: 'SetAction(Integer)'
   so.intellisense: NSContactActivity.SetAction
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAction(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetActionId(Integer)
   id: 'SetActionId(Integer)'
   so.intellisense: NSContactActivity.SetActionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActionId(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetActionTime(DateTime)
   id: 'SetActionTime(DateTime)'
   so.intellisense: NSContactActivity.SetActionTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActionTime(DateTime)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetActivityPersonId(Integer)
   id: 'SetActivityPersonId(Integer)'
   so.intellisense: NSContactActivity.SetActivityPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityPersonId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetActivityPersonName(String)
   id: 'SetActivityPersonName(String)'
   so.intellisense: NSContactActivity.SetActivityPersonName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityPersonName(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetAssociateFullName(String)
   id: 'SetAssociateFullName(String)'
   so.intellisense: NSContactActivity.SetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateFullName(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSContactActivity.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetCategory(String)
   id: 'SetCategory(String)'
   so.intellisense: NSContactActivity.SetCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCategory(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSContactActivity.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetDepartment(String)
   id: 'SetDepartment(String)'
   so.intellisense: NSContactActivity.SetDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDepartment(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSContactActivity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetOrgNr(String)
   id: 'SetOrgNr(String)'
   so.intellisense: NSContactActivity.SetOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOrgNr(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSContactActivity.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactActivity.SetURL(String)
   id: 'SetURL(String)'
   so.intellisense: NSContactActivity.SetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetURL(String)'

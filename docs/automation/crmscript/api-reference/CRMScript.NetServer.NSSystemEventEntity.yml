@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSystemEventEntity
   commentId: T:CRMScript.NetServer.NSSystemEventEntity
   id: NSSystemEventEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetActivatedBy()
   id: 'GetActivatedBy()'
   so.intellisense: NSSystemEventEntity.GetActivatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActivatedBy()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEta()
   id: 'GetEta()'
   so.intellisense: NSSystemEventEntity.GetEta
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEta()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEventkey()
   id: 'GetEventkey()'
   so.intellisense: NSSystemEventEntity.GetEventkey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEventkey()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEventmess()
   id: 'GetEventmess()'
   so.intellisense: NSSystemEventEntity.GetEventmess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEventmess()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSSystemEventEntity.GetExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetOwner()
   id: 'GetOwner()'
   so.intellisense: NSSystemEventEntity.GetOwner
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOwner()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSSystemEventEntity.GetRegistered
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetScope()
   id: 'GetScope()'
   so.intellisense: NSSystemEventEntity.GetScope
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetScope()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetSystemEventId()
   id: 'GetSystemEventId()'
   so.intellisense: NSSystemEventEntity.GetSystemEventId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSystemEventId()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetUpdatedCount()
   id: 'GetUpdatedCount()'
   so.intellisense: NSSystemEventEntity.GetUpdatedCount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdatedCount()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetActivatedBy(NSAssociate)
   id: 'SetActivatedBy(NSAssociate)'
   so.intellisense: NSSystemEventEntity.SetActivatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActivatedBy(NSAssociate)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEta(DateTime)
   id: 'SetEta(DateTime)'
   so.intellisense: NSSystemEventEntity.SetEta
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEta(DateTime)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEventkey(String)
   id: 'SetEventkey(String)'
   so.intellisense: NSSystemEventEntity.SetEventkey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEventkey(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEventmess(String)
   id: 'SetEventmess(String)'
   so.intellisense: NSSystemEventEntity.SetEventmess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEventmess(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetExtraInfo(Integer)
   id: 'SetExtraInfo(Integer)'
   so.intellisense: NSSystemEventEntity.SetExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraInfo(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetOwner(Integer)
   id: 'SetOwner(Integer)'
   so.intellisense: NSSystemEventEntity.SetOwner
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOwner(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSSystemEventEntity.SetRegistered
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetScope(Integer)
   id: 'SetScope(Integer)'
   so.intellisense: NSSystemEventEntity.SetScope
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetScope(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetSystemEventId(Integer)
   id: 'SetSystemEventId(Integer)'
   so.intellisense: NSSystemEventEntity.SetSystemEventId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSystemEventId(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetUpdatedCount(Integer)
   id: 'SetUpdatedCount(Integer)'
   so.intellisense: NSSystemEventEntity.SetUpdatedCount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdatedCount(Integer)'

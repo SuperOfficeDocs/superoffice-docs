@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWebhookAgent
   commentId: T:CRMScript.NetServer.NSWebhookAgent
   id: NSWebhookAgent
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.CreateDefaultWebhook()
   id: 'CreateDefaultWebhook()'
   so.intellisense: NSWebhookAgent.CreateDefaultWebhook
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultWebhook()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.DeleteWebhook(Integer)
   id: 'DeleteWebhook(Integer)'
   so.intellisense: NSWebhookAgent.DeleteWebhook
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteWebhook(Integer)'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.GetAllWebhooks(String,String,Integer)
   id: 'GetAllWebhooks(String,String,Integer)'
   so.intellisense: NSWebhookAgent.GetAllWebhooks
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllWebhooks(String,String,Integer)'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.GetLastError(Integer)
   id: 'GetLastError(Integer)'
   so.intellisense: NSWebhookAgent.GetLastError
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLastError(Integer)'
@@ -135,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.GetWebhook(Integer)
   id: 'GetWebhook(Integer)'
   so.intellisense: NSWebhookAgent.GetWebhook
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetWebhook(Integer)'
@@ -157,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.SaveWebhook(NSWebhook)
   id: 'SaveWebhook(NSWebhook)'
   so.intellisense: NSWebhookAgent.SaveWebhook
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveWebhook(NSWebhook)'
@@ -207,6 +214,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.TestWebhook(NSWebhook)
   id: 'TestWebhook(NSWebhook)'
   so.intellisense: NSWebhookAgent.TestWebhook
+  so.version: 8.2
   langs:
   - crmscript
   name: 'TestWebhook(NSWebhook)'

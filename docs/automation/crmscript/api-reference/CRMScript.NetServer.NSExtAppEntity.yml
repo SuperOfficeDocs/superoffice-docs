@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSExtAppEntity
   commentId: T:CRMScript.NetServer.NSExtAppEntity
   id: NSExtAppEntity
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSExtAppEntity.GetDeleted
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -96,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetExecuteOnEvent()
   id: 'GetExecuteOnEvent()'
   so.intellisense: NSExtAppEntity.GetExecuteOnEvent
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetExecuteOnEvent()'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetExtAppId()
   id: 'GetExtAppId()'
   so.intellisense: NSExtAppEntity.GetExtAppId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetExtAppId()'
@@ -136,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetFilename()
   id: 'GetFilename()'
   so.intellisense: NSExtAppEntity.GetFilename
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetFilename()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetIcon()
   id: 'GetIcon()'
   so.intellisense: NSExtAppEntity.GetIcon
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetIcon()'
@@ -176,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSExtAppEntity.GetName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetName()'
@@ -196,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetOnCentral()
   id: 'GetOnCentral()'
   so.intellisense: NSExtAppEntity.GetOnCentral
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnCentral()'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetOnSalesMarketingPocket()
   id: 'GetOnSalesMarketingPocket()'
   so.intellisense: NSExtAppEntity.GetOnSalesMarketingPocket
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnSalesMarketingPocket()'
@@ -236,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetOnSatellite()
   id: 'GetOnSatellite()'
   so.intellisense: NSExtAppEntity.GetOnSatellite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnSatellite()'
@@ -256,6 +266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetOnTravel()
   id: 'GetOnTravel()'
   so.intellisense: NSExtAppEntity.GetOnTravel
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnTravel()'
@@ -276,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetParameters()
   id: 'GetParameters()'
   so.intellisense: NSExtAppEntity.GetParameters
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetParameters()'
@@ -296,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetPath()
   id: 'GetPath()'
   so.intellisense: NSExtAppEntity.GetPath
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPath()'
@@ -316,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSExtAppEntity.GetRank
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetRank()'
@@ -336,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetShowInAddressBar()
   id: 'GetShowInAddressBar()'
   so.intellisense: NSExtAppEntity.GetShowInAddressBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetShowInAddressBar()'
@@ -356,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetShowInMenuBar()
   id: 'GetShowInMenuBar()'
   so.intellisense: NSExtAppEntity.GetShowInMenuBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetShowInMenuBar()'
@@ -376,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetShowInStatusBar()
   id: 'GetShowInStatusBar()'
   so.intellisense: NSExtAppEntity.GetShowInStatusBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetShowInStatusBar()'
@@ -396,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetShowInToolBar()
   id: 'GetShowInToolBar()'
   so.intellisense: NSExtAppEntity.GetShowInToolBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetShowInToolBar()'
@@ -416,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetShowState()
   id: 'GetShowState()'
   so.intellisense: NSExtAppEntity.GetShowState
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetShowState()'
@@ -436,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSExtAppEntity.GetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -456,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetVisibleIn()
   id: 'GetVisibleIn()'
   so.intellisense: NSExtAppEntity.GetVisibleIn
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetVisibleIn()'
@@ -476,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetWaitToFinish()
   id: 'GetWaitToFinish()'
   so.intellisense: NSExtAppEntity.GetWaitToFinish
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetWaitToFinish()'
@@ -496,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.GetWorkdir()
   id: 'GetWorkdir()'
   so.intellisense: NSExtAppEntity.GetWorkdir
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetWorkdir()'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSExtAppEntity.SetDeleted
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetExecuteOnEvent(NSExecuteOnEvent)
   id: 'SetExecuteOnEvent(NSExecuteOnEvent)'
   so.intellisense: NSExtAppEntity.SetExecuteOnEvent
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetExecuteOnEvent(NSExecuteOnEvent)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetExtAppId(Integer)
   id: 'SetExtAppId(Integer)'
   so.intellisense: NSExtAppEntity.SetExtAppId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetExtAppId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetFilename(String)
   id: 'SetFilename(String)'
   so.intellisense: NSExtAppEntity.SetFilename
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetFilename(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetIcon(Integer)
   id: 'SetIcon(Integer)'
   so.intellisense: NSExtAppEntity.SetIcon
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetIcon(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSExtAppEntity.SetName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetOnCentral(Bool)
   id: 'SetOnCentral(Bool)'
   so.intellisense: NSExtAppEntity.SetOnCentral
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnCentral(Bool)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetOnSalesMarketingPocket(Bool)
   id: 'SetOnSalesMarketingPocket(Bool)'
   so.intellisense: NSExtAppEntity.SetOnSalesMarketingPocket
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnSalesMarketingPocket(Bool)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetOnSatellite(Bool)
   id: 'SetOnSatellite(Bool)'
   so.intellisense: NSExtAppEntity.SetOnSatellite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnSatellite(Bool)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetOnTravel(Bool)
   id: 'SetOnTravel(Bool)'
   so.intellisense: NSExtAppEntity.SetOnTravel
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnTravel(Bool)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetParameters(String)
   id: 'SetParameters(String)'
   so.intellisense: NSExtAppEntity.SetParameters
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetParameters(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetPath(String)
   id: 'SetPath(String)'
   so.intellisense: NSExtAppEntity.SetPath
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetPath(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSExtAppEntity.SetRank
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetShowInAddressBar(Bool)
   id: 'SetShowInAddressBar(Bool)'
   so.intellisense: NSExtAppEntity.SetShowInAddressBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetShowInAddressBar(Bool)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetShowInMenuBar(Bool)
   id: 'SetShowInMenuBar(Bool)'
   so.intellisense: NSExtAppEntity.SetShowInMenuBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetShowInMenuBar(Bool)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetShowInStatusBar(Bool)
   id: 'SetShowInStatusBar(Bool)'
   so.intellisense: NSExtAppEntity.SetShowInStatusBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetShowInStatusBar(Bool)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetShowInToolBar(Bool)
   id: 'SetShowInToolBar(Bool)'
   so.intellisense: NSExtAppEntity.SetShowInToolBar
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetShowInToolBar(Bool)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetShowState(Integer)
   id: 'SetShowState(Integer)'
   so.intellisense: NSExtAppEntity.SetShowState
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetShowState(Integer)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSExtAppEntity.SetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetVisibleIn(Integer)
   id: 'SetVisibleIn(Integer)'
   so.intellisense: NSExtAppEntity.SetVisibleIn
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetVisibleIn(Integer)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetWaitToFinish(Bool)
   id: 'SetWaitToFinish(Bool)'
   so.intellisense: NSExtAppEntity.SetWaitToFinish
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetWaitToFinish(Bool)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtAppEntity.SetWorkdir(String)
   id: 'SetWorkdir(String)'
   so.intellisense: NSExtAppEntity.SetWorkdir
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetWorkdir(String)'

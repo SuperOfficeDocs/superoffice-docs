@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteVersionValidated
   commentId: T:CRMScript.NetServer.NSQuoteVersionValidated
   id: NSQuoteVersionValidated
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuote()
   id: 'GetChangedQuote()'
   so.intellisense: NSQuoteVersionValidated.GetChangedQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedQuote()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteAlternatives()
   id: 'GetChangedQuoteAlternatives()'
   so.intellisense: NSQuoteVersionValidated.GetChangedQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedQuoteAlternatives()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteVersion()
   id: 'GetChangedQuoteVersion()'
   so.intellisense: NSQuoteVersionValidated.GetChangedQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedQuoteVersion()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedSale()
   id: 'GetChangedSale()'
   so.intellisense: NSQuoteVersionValidated.GetChangedSale
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChangedSale()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetErrorCode()
   id: 'GetErrorCode()'
   so.intellisense: NSQuoteVersionValidated.GetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetErrorCode()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetIsOk()
   id: 'GetIsOk()'
   so.intellisense: NSQuoteVersionValidated.GetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsOk()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetTechExplanation()
   id: 'GetTechExplanation()'
   so.intellisense: NSQuoteVersionValidated.GetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTechExplanation()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetUserExplanation()
   id: 'GetUserExplanation()'
   so.intellisense: NSQuoteVersionValidated.GetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserExplanation()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuote(NSQuote)
   id: 'SetChangedQuote(NSQuote)'
   so.intellisense: NSQuoteVersionValidated.SetChangedQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChangedQuote(NSQuote)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
   id: 'SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])'
   so.intellisense: NSQuoteVersionValidated.SetChangedQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
   id: 'SetChangedQuoteVersion(NSQuoteVersion)'
   so.intellisense: NSQuoteVersionValidated.SetChangedQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChangedQuoteVersion(NSQuoteVersion)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedSale(NSSale)
   id: 'SetChangedSale(NSSale)'
   so.intellisense: NSQuoteVersionValidated.SetChangedSale
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChangedSale(NSSale)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetErrorCode(String)
   id: 'SetErrorCode(String)'
   so.intellisense: NSQuoteVersionValidated.SetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetErrorCode(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetIsOk(Bool)
   id: 'SetIsOk(Bool)'
   so.intellisense: NSQuoteVersionValidated.SetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsOk(Bool)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetTechExplanation(String)
   id: 'SetTechExplanation(String)'
   so.intellisense: NSQuoteVersionValidated.SetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTechExplanation(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetUserExplanation(String)
   id: 'SetUserExplanation(String)'
   so.intellisense: NSQuoteVersionValidated.SetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserExplanation(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleSummaryItem
   commentId: T:CRMScript.NetServer.NSSaleSummaryItem
   id: NSSaleSummaryItem
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetAmount()
   id: 'GetAmount()'
   so.intellisense: NSSaleSummaryItem.GetAmount
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAmount()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetAmountInBaseCurrency()
   id: 'GetAmountInBaseCurrency()'
   so.intellisense: NSSaleSummaryItem.GetAmountInBaseCurrency
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAmountInBaseCurrency()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSSaleSummaryItem.GetCompleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetCurrency()
   id: 'GetCurrency()'
   so.intellisense: NSSaleSummaryItem.GetCurrency
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCurrency()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetHeading()
   id: 'GetHeading()'
   so.intellisense: NSSaleSummaryItem.GetHeading
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetHeading()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetProbability()
   id: 'GetProbability()'
   so.intellisense: NSSaleSummaryItem.GetProbability
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetProbability()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSSaleSummaryItem.GetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetSaleDate()
   id: 'GetSaleDate()'
   so.intellisense: NSSaleSummaryItem.GetSaleDate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSaleDate()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSSaleSummaryItem.GetSaleId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSSaleSummaryItem.GetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetAmount(Float)
   id: 'SetAmount(Float)'
   so.intellisense: NSSaleSummaryItem.SetAmount
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAmount(Float)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
   id: 'SetAmountInBaseCurrency(Float)'
   so.intellisense: NSSaleSummaryItem.SetAmountInBaseCurrency
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAmountInBaseCurrency(Float)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSSaleSummaryItem.SetCompleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetCurrency(String)
   id: 'SetCurrency(String)'
   so.intellisense: NSSaleSummaryItem.SetCurrency
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCurrency(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetHeading(String)
   id: 'SetHeading(String)'
   so.intellisense: NSSaleSummaryItem.SetHeading
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetHeading(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetProbability(Integer)
   id: 'SetProbability(Integer)'
   so.intellisense: NSSaleSummaryItem.SetProbability
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetProbability(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSSaleSummaryItem.SetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetSaleDate(DateTime)
   id: 'SetSaleDate(DateTime)'
   so.intellisense: NSSaleSummaryItem.SetSaleDate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSaleDate(DateTime)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSSaleSummaryItem.SetSaleId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSSaleSummaryItem.SetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetStatus(Integer)'

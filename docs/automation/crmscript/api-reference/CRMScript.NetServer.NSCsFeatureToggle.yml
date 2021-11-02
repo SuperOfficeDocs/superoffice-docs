@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCsFeatureToggle
   commentId: T:CRMScript.NetServer.NSCsFeatureToggle
   id: NSCsFeatureToggle
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsFeatureToggle.GetName()
   id: 'GetName()'
   so.intellisense: NSCsFeatureToggle.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsFeatureToggle.GetState()
   id: 'GetState()'
   so.intellisense: NSCsFeatureToggle.GetState
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetState()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsFeatureToggle.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSCsFeatureToggle.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCsFeatureToggle.SetState(Bool)
   id: 'SetState(Bool)'
   so.intellisense: NSCsFeatureToggle.SetState
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetState(Bool)'

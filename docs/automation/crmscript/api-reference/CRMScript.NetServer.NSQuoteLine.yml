@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteLine
   commentId: T:CRMScript.NetServer.NSQuoteLine
   id: NSQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -130,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetCode()
   id: 'GetCode()'
   so.intellisense: NSQuoteLine.GetCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCode()'
@@ -150,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetDeliveredQuantity()
   id: 'GetDeliveredQuantity()'
   so.intellisense: NSQuoteLine.GetDeliveredQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeliveredQuantity()'
@@ -170,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSQuoteLine.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -190,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetDiscountAmount()
   id: 'GetDiscountAmount()'
   so.intellisense: NSQuoteLine.GetDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDiscountAmount()'
@@ -210,6 +215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetDiscountPercent()
   id: 'GetDiscountPercent()'
   so.intellisense: NSQuoteLine.GetDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDiscountPercent()'
@@ -230,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetEarningAmount()
   id: 'GetEarningAmount()'
   so.intellisense: NSQuoteLine.GetEarningAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEarningAmount()'
@@ -250,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetEarningPercent()
   id: 'GetEarningPercent()'
   so.intellisense: NSQuoteLine.GetEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEarningPercent()'
@@ -270,6 +278,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetERPDiscountAmount()
   id: 'GetERPDiscountAmount()'
   so.intellisense: NSQuoteLine.GetERPDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDiscountAmount()'
@@ -290,6 +299,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetERPDiscountPercent()
   id: 'GetERPDiscountPercent()'
   so.intellisense: NSQuoteLine.GetERPDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDiscountPercent()'
@@ -310,6 +320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetERPProductKey()
   id: 'GetERPProductKey()'
   so.intellisense: NSQuoteLine.GetERPProductKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPProductKey()'
@@ -330,6 +341,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetERPQuoteLineKey()
   id: 'GetERPQuoteLineKey()'
   so.intellisense: NSQuoteLine.GetERPQuoteLineKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPQuoteLineKey()'
@@ -350,6 +362,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraField1()
   id: 'GetExtraField1()'
   so.intellisense: NSQuoteLine.GetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField1()'
@@ -370,6 +383,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraField2()
   id: 'GetExtraField2()'
   so.intellisense: NSQuoteLine.GetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField2()'
@@ -390,6 +404,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraField3()
   id: 'GetExtraField3()'
   so.intellisense: NSQuoteLine.GetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField3()'
@@ -410,6 +425,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraField4()
   id: 'GetExtraField4()'
   so.intellisense: NSQuoteLine.GetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField4()'
@@ -430,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraField5()
   id: 'GetExtraField5()'
   so.intellisense: NSQuoteLine.GetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField5()'
@@ -450,6 +467,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSQuoteLine.GetExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -470,6 +488,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetIsSubscription()
   id: 'GetIsSubscription()'
   so.intellisense: NSQuoteLine.GetIsSubscription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsSubscription()'
@@ -490,6 +509,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetItemNumber()
   id: 'GetItemNumber()'
   so.intellisense: NSQuoteLine.GetItemNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetItemNumber()'
@@ -510,6 +530,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetName()
   id: 'GetName()'
   so.intellisense: NSQuoteLine.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -530,6 +551,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetPriceUnit()
   id: 'GetPriceUnit()'
   so.intellisense: NSQuoteLine.GetPriceUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPriceUnit()'
@@ -550,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetProductCategoryKey()
   id: 'GetProductCategoryKey()'
   so.intellisense: NSQuoteLine.GetProductCategoryKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductCategoryKey()'
@@ -570,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetProductFamilyKey()
   id: 'GetProductFamilyKey()'
   so.intellisense: NSQuoteLine.GetProductFamilyKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductFamilyKey()'
@@ -590,6 +614,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetProductTypeKey()
   id: 'GetProductTypeKey()'
   so.intellisense: NSQuoteLine.GetProductTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductTypeKey()'
@@ -610,6 +635,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetQuantity()
   id: 'GetQuantity()'
   so.intellisense: NSQuoteLine.GetQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuantity()'
@@ -630,6 +656,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetQuantityUnit()
   id: 'GetQuantityUnit()'
   so.intellisense: NSQuoteLine.GetQuantityUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuantityUnit()'
@@ -650,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetQuoteAlternativeId()
   id: 'GetQuoteAlternativeId()'
   so.intellisense: NSQuoteLine.GetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternativeId()'
@@ -670,6 +698,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetQuoteLineId()
   id: 'GetQuoteLineId()'
   so.intellisense: NSQuoteLine.GetQuoteLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineId()'
@@ -690,6 +719,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetRank()
   id: 'GetRank()'
   so.intellisense: NSQuoteLine.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -710,6 +740,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetRawExtraInfo()
   id: 'GetRawExtraInfo()'
   so.intellisense: NSQuoteLine.GetRawExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRawExtraInfo()'
@@ -730,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetReason()
   id: 'GetReason()'
   so.intellisense: NSQuoteLine.GetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetReason()'
@@ -750,6 +782,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetRights()
   id: 'GetRights()'
   so.intellisense: NSQuoteLine.GetRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRights()'
@@ -770,6 +803,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetRule()
   id: 'GetRule()'
   so.intellisense: NSQuoteLine.GetRule
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRule()'
@@ -790,6 +824,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSQuoteLine.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -810,6 +845,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSubscriptionQuantity()
   id: 'GetSubscriptionQuantity()'
   so.intellisense: NSQuoteLine.GetSubscriptionQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSubscriptionQuantity()'
@@ -830,6 +866,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSubscriptionStart()
   id: 'GetSubscriptionStart()'
   so.intellisense: NSQuoteLine.GetSubscriptionStart
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSubscriptionStart()'
@@ -850,6 +887,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSubscriptionUnit()
   id: 'GetSubscriptionUnit()'
   so.intellisense: NSQuoteLine.GetSubscriptionUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSubscriptionUnit()'
@@ -870,6 +908,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSubTotal()
   id: 'GetSubTotal()'
   so.intellisense: NSQuoteLine.GetSubTotal
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSubTotal()'
@@ -890,6 +929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSupplier()
   id: 'GetSupplier()'
   so.intellisense: NSQuoteLine.GetSupplier
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSupplier()'
@@ -910,6 +950,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetSupplierCode()
   id: 'GetSupplierCode()'
   so.intellisense: NSQuoteLine.GetSupplierCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSupplierCode()'
@@ -930,6 +971,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetThumbnail()
   id: 'GetThumbnail()'
   so.intellisense: NSQuoteLine.GetThumbnail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetThumbnail()'
@@ -950,6 +992,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetTotalPrice()
   id: 'GetTotalPrice()'
   so.intellisense: NSQuoteLine.GetTotalPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTotalPrice()'
@@ -970,6 +1013,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetUnitCost()
   id: 'GetUnitCost()'
   so.intellisense: NSQuoteLine.GetUnitCost
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUnitCost()'
@@ -990,6 +1034,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetUnitListPrice()
   id: 'GetUnitListPrice()'
   so.intellisense: NSQuoteLine.GetUnitListPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUnitListPrice()'
@@ -1010,6 +1055,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetUnitMinimumPrice()
   id: 'GetUnitMinimumPrice()'
   so.intellisense: NSQuoteLine.GetUnitMinimumPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUnitMinimumPrice()'
@@ -1030,6 +1076,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSQuoteLine.GetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -1050,6 +1097,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetUserValueOverride()
   id: 'GetUserValueOverride()'
   so.intellisense: NSQuoteLine.GetUserValueOverride
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserValueOverride()'
@@ -1070,6 +1118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetVAT()
   id: 'GetVAT()'
   so.intellisense: NSQuoteLine.GetVAT
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVAT()'
@@ -1090,6 +1139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.GetVATInfo()
   id: 'GetVATInfo()'
   so.intellisense: NSQuoteLine.GetVATInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVATInfo()'
@@ -1110,6 +1160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetCode(String)
   id: 'SetCode(String)'
   so.intellisense: NSQuoteLine.SetCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCode(String)'
@@ -1132,6 +1183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetDeliveredQuantity(Float)
   id: 'SetDeliveredQuantity(Float)'
   so.intellisense: NSQuoteLine.SetDeliveredQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeliveredQuantity(Float)'
@@ -1154,6 +1206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSQuoteLine.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -1176,6 +1229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetDiscountAmount(Float)
   id: 'SetDiscountAmount(Float)'
   so.intellisense: NSQuoteLine.SetDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDiscountAmount(Float)'
@@ -1198,6 +1252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetDiscountPercent(Float)
   id: 'SetDiscountPercent(Float)'
   so.intellisense: NSQuoteLine.SetDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDiscountPercent(Float)'
@@ -1220,6 +1275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetEarningAmount(Float)
   id: 'SetEarningAmount(Float)'
   so.intellisense: NSQuoteLine.SetEarningAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEarningAmount(Float)'
@@ -1242,6 +1298,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetEarningPercent(Float)
   id: 'SetEarningPercent(Float)'
   so.intellisense: NSQuoteLine.SetEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEarningPercent(Float)'
@@ -1264,6 +1321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetERPDiscountAmount(Float)
   id: 'SetERPDiscountAmount(Float)'
   so.intellisense: NSQuoteLine.SetERPDiscountAmount
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDiscountAmount(Float)'
@@ -1286,6 +1344,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetERPDiscountPercent(Float)
   id: 'SetERPDiscountPercent(Float)'
   so.intellisense: NSQuoteLine.SetERPDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDiscountPercent(Float)'
@@ -1308,6 +1367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetERPProductKey(String)
   id: 'SetERPProductKey(String)'
   so.intellisense: NSQuoteLine.SetERPProductKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPProductKey(String)'
@@ -1330,6 +1390,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetERPQuoteLineKey(String)
   id: 'SetERPQuoteLineKey(String)'
   so.intellisense: NSQuoteLine.SetERPQuoteLineKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPQuoteLineKey(String)'
@@ -1352,6 +1413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraField1(String)
   id: 'SetExtraField1(String)'
   so.intellisense: NSQuoteLine.SetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField1(String)'
@@ -1374,6 +1436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraField2(String)
   id: 'SetExtraField2(String)'
   so.intellisense: NSQuoteLine.SetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField2(String)'
@@ -1396,6 +1459,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraField3(String)
   id: 'SetExtraField3(String)'
   so.intellisense: NSQuoteLine.SetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField3(String)'
@@ -1418,6 +1482,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraField4(String)
   id: 'SetExtraField4(String)'
   so.intellisense: NSQuoteLine.SetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField4(String)'
@@ -1440,6 +1505,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraField5(String)
   id: 'SetExtraField5(String)'
   so.intellisense: NSQuoteLine.SetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField5(String)'
@@ -1462,6 +1528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetExtraInfo(NSProductExtraDataField[])
   id: 'SetExtraInfo(NSProductExtraDataField[])'
   so.intellisense: NSQuoteLine.SetExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraInfo(NSProductExtraDataField[])'
@@ -1484,6 +1551,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetIsSubscription(Bool)
   id: 'SetIsSubscription(Bool)'
   so.intellisense: NSQuoteLine.SetIsSubscription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsSubscription(Bool)'
@@ -1506,6 +1574,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetItemNumber(String)
   id: 'SetItemNumber(String)'
   so.intellisense: NSQuoteLine.SetItemNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetItemNumber(String)'
@@ -1528,6 +1597,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSQuoteLine.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -1550,6 +1620,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetPriceUnit(String)
   id: 'SetPriceUnit(String)'
   so.intellisense: NSQuoteLine.SetPriceUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPriceUnit(String)'
@@ -1572,6 +1643,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetProductCategoryKey(String)
   id: 'SetProductCategoryKey(String)'
   so.intellisense: NSQuoteLine.SetProductCategoryKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductCategoryKey(String)'
@@ -1594,6 +1666,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetProductFamilyKey(String)
   id: 'SetProductFamilyKey(String)'
   so.intellisense: NSQuoteLine.SetProductFamilyKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductFamilyKey(String)'
@@ -1616,6 +1689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetProductTypeKey(String)
   id: 'SetProductTypeKey(String)'
   so.intellisense: NSQuoteLine.SetProductTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProductTypeKey(String)'
@@ -1638,6 +1712,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetQuantity(Float)
   id: 'SetQuantity(Float)'
   so.intellisense: NSQuoteLine.SetQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuantity(Float)'
@@ -1660,6 +1735,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetQuantityUnit(String)
   id: 'SetQuantityUnit(String)'
   so.intellisense: NSQuoteLine.SetQuantityUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuantityUnit(String)'
@@ -1682,6 +1758,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetQuoteAlternativeId(Integer)
   id: 'SetQuoteAlternativeId(Integer)'
   so.intellisense: NSQuoteLine.SetQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteAlternativeId(Integer)'
@@ -1704,6 +1781,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetQuoteLineId(Integer)
   id: 'SetQuoteLineId(Integer)'
   so.intellisense: NSQuoteLine.SetQuoteLineId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteLineId(Integer)'
@@ -1726,6 +1804,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSQuoteLine.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -1748,6 +1827,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetRawExtraInfo(String)
   id: 'SetRawExtraInfo(String)'
   so.intellisense: NSQuoteLine.SetRawExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRawExtraInfo(String)'
@@ -1770,6 +1850,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSQuoteLine.SetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -1792,6 +1873,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetRights(String)
   id: 'SetRights(String)'
   so.intellisense: NSQuoteLine.SetRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRights(String)'
@@ -1814,6 +1896,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetRule(String)
   id: 'SetRule(String)'
   so.intellisense: NSQuoteLine.SetRule
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRule(String)'
@@ -1836,6 +1919,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSQuoteLine.SetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStatus(Integer)'
@@ -1858,6 +1942,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSubscriptionQuantity(Float)
   id: 'SetSubscriptionQuantity(Float)'
   so.intellisense: NSQuoteLine.SetSubscriptionQuantity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSubscriptionQuantity(Float)'
@@ -1880,6 +1965,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSubscriptionStart(DateTime)
   id: 'SetSubscriptionStart(DateTime)'
   so.intellisense: NSQuoteLine.SetSubscriptionStart
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSubscriptionStart(DateTime)'
@@ -1902,6 +1988,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSubscriptionUnit(String)
   id: 'SetSubscriptionUnit(String)'
   so.intellisense: NSQuoteLine.SetSubscriptionUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSubscriptionUnit(String)'
@@ -1924,6 +2011,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSubTotal(Float)
   id: 'SetSubTotal(Float)'
   so.intellisense: NSQuoteLine.SetSubTotal
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSubTotal(Float)'
@@ -1946,6 +2034,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSupplier(String)
   id: 'SetSupplier(String)'
   so.intellisense: NSQuoteLine.SetSupplier
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSupplier(String)'
@@ -1968,6 +2057,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetSupplierCode(String)
   id: 'SetSupplierCode(String)'
   so.intellisense: NSQuoteLine.SetSupplierCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSupplierCode(String)'
@@ -1990,6 +2080,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetThumbnail(String)
   id: 'SetThumbnail(String)'
   so.intellisense: NSQuoteLine.SetThumbnail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetThumbnail(String)'
@@ -2012,6 +2103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetTotalPrice(Float)
   id: 'SetTotalPrice(Float)'
   so.intellisense: NSQuoteLine.SetTotalPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTotalPrice(Float)'
@@ -2034,6 +2126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetUnitCost(Float)
   id: 'SetUnitCost(Float)'
   so.intellisense: NSQuoteLine.SetUnitCost
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUnitCost(Float)'
@@ -2056,6 +2149,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetUnitListPrice(Float)
   id: 'SetUnitListPrice(Float)'
   so.intellisense: NSQuoteLine.SetUnitListPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUnitListPrice(Float)'
@@ -2078,6 +2172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetUnitMinimumPrice(Float)
   id: 'SetUnitMinimumPrice(Float)'
   so.intellisense: NSQuoteLine.SetUnitMinimumPrice
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUnitMinimumPrice(Float)'
@@ -2100,6 +2195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetUrl(String)
   id: 'SetUrl(String)'
   so.intellisense: NSQuoteLine.SetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUrl(String)'
@@ -2122,6 +2218,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetUserValueOverride(Integer)
   id: 'SetUserValueOverride(Integer)'
   so.intellisense: NSQuoteLine.SetUserValueOverride
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserValueOverride(Integer)'
@@ -2144,6 +2241,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetVAT(Float)
   id: 'SetVAT(Float)'
   so.intellisense: NSQuoteLine.SetVAT
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVAT(Float)'
@@ -2166,6 +2264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLine.SetVATInfo(String)
   id: 'SetVATInfo(String)'
   so.intellisense: NSQuoteLine.SetVATInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVATInfo(String)'

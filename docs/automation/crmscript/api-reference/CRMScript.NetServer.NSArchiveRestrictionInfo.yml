@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveRestrictionInfo
   commentId: T:CRMScript.NetServer.NSArchiveRestrictionInfo
   id: NSArchiveRestrictionInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetColumnInfo()
   id: 'GetColumnInfo()'
   so.intellisense: NSArchiveRestrictionInfo.GetColumnInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColumnInfo()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetDisplayValues()
   id: 'GetDisplayValues()'
   so.intellisense: NSArchiveRestrictionInfo.GetDisplayValues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayValues()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetInterOperator()
   id: 'GetInterOperator()'
   so.intellisense: NSArchiveRestrictionInfo.GetInterOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInterOperator()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetInterParenthesis()
   id: 'GetInterParenthesis()'
   so.intellisense: NSArchiveRestrictionInfo.GetInterParenthesis
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInterParenthesis()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetIsActive()
   id: 'GetIsActive()'
   so.intellisense: NSArchiveRestrictionInfo.GetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsActive()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSArchiveRestrictionInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetOperator()
   id: 'GetOperator()'
   so.intellisense: NSArchiveRestrictionInfo.GetOperator
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOperator()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetParenthesis()
   id: 'GetParenthesis()'
   so.intellisense: NSArchiveRestrictionInfo.GetParenthesis
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetParenthesis()'
@@ -213,6 +222,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetSubRestrictions()
   id: 'GetSubRestrictions()'
   so.intellisense: NSArchiveRestrictionInfo.GetSubRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSubRestrictions()'
@@ -233,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetUniqueHash()
   id: 'GetUniqueHash()'
   so.intellisense: NSArchiveRestrictionInfo.GetUniqueHash
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUniqueHash()'
@@ -253,6 +264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.GetValues()
   id: 'GetValues()'
   so.intellisense: NSArchiveRestrictionInfo.GetValues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValues()'
@@ -273,6 +285,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetColumnInfo(NSArchiveColumnInfo)
   id: 'SetColumnInfo(NSArchiveColumnInfo)'
   so.intellisense: NSArchiveRestrictionInfo.SetColumnInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetColumnInfo(NSArchiveColumnInfo)'
@@ -295,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetDisplayValues(String[])
   id: 'SetDisplayValues(String[])'
   so.intellisense: NSArchiveRestrictionInfo.SetDisplayValues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayValues(String[])'
@@ -317,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetInterOperator(Integer)
   id: 'SetInterOperator(Integer)'
   so.intellisense: NSArchiveRestrictionInfo.SetInterOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInterOperator(Integer)'
@@ -339,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetInterParenthesis(Integer)
   id: 'SetInterParenthesis(Integer)'
   so.intellisense: NSArchiveRestrictionInfo.SetInterParenthesis
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInterParenthesis(Integer)'
@@ -361,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetIsActive(Bool)
   id: 'SetIsActive(Bool)'
   so.intellisense: NSArchiveRestrictionInfo.SetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsActive(Bool)'
@@ -383,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSArchiveRestrictionInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -403,6 +421,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetOperator(String)
   id: 'SetOperator(String)'
   so.intellisense: NSArchiveRestrictionInfo.SetOperator
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOperator(String)'
@@ -425,6 +444,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetParenthesis(Integer)
   id: 'SetParenthesis(Integer)'
   so.intellisense: NSArchiveRestrictionInfo.SetParenthesis
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetParenthesis(Integer)'
@@ -446,6 +466,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetSubRestrictions(NSArchiveRestrictionInfo[])
   id: 'SetSubRestrictions(NSArchiveRestrictionInfo[])'
   so.intellisense: NSArchiveRestrictionInfo.SetSubRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSubRestrictions(NSArchiveRestrictionInfo[])'
@@ -468,6 +489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetUniqueHash(Integer)
   id: 'SetUniqueHash(Integer)'
   so.intellisense: NSArchiveRestrictionInfo.SetUniqueHash
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUniqueHash(Integer)'
@@ -490,6 +512,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionInfo.SetValues(String[])
   id: 'SetValues(String[])'
   so.intellisense: NSArchiveRestrictionInfo.SetValues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValues(String[])'

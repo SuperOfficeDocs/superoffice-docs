@@ -6,24 +6,24 @@ items:
   langs:
   - crmscript
   children:
-  - CRMScript.Native.Generic.getTypeName(Generic)
-  - CRMScript.Native.Generic.getGenericValue(String)
-  - CRMScript.Native.Generic.getGenericValue(Generic, String)
+  - CRMScript.Native.Generic.GenericToArray(Generic)
   - CRMScript.Native.Generic.GenericToBool(Generic)
-  - CRMScript.Native.Generic.GenericToInteger(Generic)
-  - CRMScript.Native.Generic.GenericToFloat(Generic)
   - CRMScript.Native.Generic.GenericToByte(Generic)
-  - CRMScript.Native.Generic.GenericToString(Generic)
   - CRMScript.Native.Generic.GenericToDate(Generic)
   - CRMScript.Native.Generic.GenericToDateTime(Generic)
+  - CRMScript.Native.Generic.GenericToFloat(Generic)
+  - CRMScript.Native.Generic.GenericToInteger(Generic)
+  - CRMScript.Native.Generic.GenericToString(Generic)
   - CRMScript.Native.Generic.GenericToTime(Generic)
   - CRMScript.Native.Generic.GenericToTimeSpan(Generic)
-  - CRMScript.Native.Generic.GenericToArray(Generic)
-  - CRMScript.Native.Generic.getTypeDimensions(Generic)
-  - CRMScript.Native.Generic.typeIsStruct(Generic)
-  - CRMScript.Native.Generic.getStructMembers(String)
   - CRMScript.Native.Generic.convertGenericToString(Generic)
+  - CRMScript.Native.Generic.getGenericValue(Generic, String)
+  - CRMScript.Native.Generic.getGenericValue(String)
+  - CRMScript.Native.Generic.getStructMembers(String)
+  - CRMScript.Native.Generic.getTypeDimensions(Generic)
+  - CRMScript.Native.Generic.getTypeName(Generic)
   - CRMScript.Native.Generic.setGenericFromString(Generic, String)
+  - CRMScript.Native.Generic.typeIsStruct(Generic)
   name: Generic
   nameWithType: Generic
   fullName: CRMScript.Native.Generic

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSStatusMonitorPeriods
   commentId: T:CRMScript.NetServer.NSStatusMonitorPeriods
   id: NSStatusMonitorPeriods
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.GetPeriod1()
   id: 'GetPeriod1()'
   so.intellisense: NSStatusMonitorPeriods.GetPeriod1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPeriod1()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.GetPeriod2()
   id: 'GetPeriod2()'
   so.intellisense: NSStatusMonitorPeriods.GetPeriod2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPeriod2()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.GetPeriod3()
   id: 'GetPeriod3()'
   so.intellisense: NSStatusMonitorPeriods.GetPeriod3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPeriod3()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.SetPeriod1(Integer)
   id: 'SetPeriod1(Integer)'
   so.intellisense: NSStatusMonitorPeriods.SetPeriod1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPeriod1(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.SetPeriod2(Integer)
   id: 'SetPeriod2(Integer)'
   so.intellisense: NSStatusMonitorPeriods.SetPeriod2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPeriod2(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitorPeriods.SetPeriod3(Integer)
   id: 'SetPeriod3(Integer)'
   so.intellisense: NSStatusMonitorPeriods.SetPeriod3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPeriod3(Integer)'

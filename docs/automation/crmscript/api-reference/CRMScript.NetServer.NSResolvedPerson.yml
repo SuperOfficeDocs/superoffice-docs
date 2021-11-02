@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSResolvedPerson
   commentId: T:CRMScript.NetServer.NSResolvedPerson
   id: NSResolvedPerson
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResolvedPerson.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSResolvedPerson.GetPerson
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResolvedPerson.GetPersonCreated()
   id: 'GetPersonCreated()'
   so.intellisense: NSResolvedPerson.GetPersonCreated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonCreated()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResolvedPerson.SetPerson(NSPersonEntity)
   id: 'SetPerson(NSPersonEntity)'
   so.intellisense: NSResolvedPerson.SetPerson
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPerson(NSPersonEntity)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResolvedPerson.SetPersonCreated(Bool)
   id: 'SetPersonCreated(Bool)'
   so.intellisense: NSResolvedPerson.SetPersonCreated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonCreated(Bool)'

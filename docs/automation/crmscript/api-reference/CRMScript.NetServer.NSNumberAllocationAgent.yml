@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSNumberAllocationAgent
   commentId: T:CRMScript.NetServer.NSNumberAllocationAgent
   id: NSNumberAllocationAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -41,6 +42,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.CreateDefaultRefCountEntity()
   id: 'CreateDefaultRefCountEntity()'
   so.intellisense: NSNumberAllocationAgent.CreateDefaultRefCountEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultRefCountEntity()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.DeleteRefCountEntity(Integer)
   id: 'DeleteRefCountEntity(Integer)'
   so.intellisense: NSNumberAllocationAgent.DeleteRefCountEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteRefCountEntity(Integer)'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.GetNumberEachTemplate()
   id: 'GetNumberEachTemplate()'
   so.intellisense: NSNumberAllocationAgent.GetNumberEachTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetNumberEachTemplate()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.GetRefCountEntity(Integer)
   id: 'GetRefCountEntity(Integer)'
   so.intellisense: NSNumberAllocationAgent.GetRefCountEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRefCountEntity(Integer)'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.SaveDefaultNumbering(NSRefCountEntity)
   id: 'SaveDefaultNumbering(NSRefCountEntity)'
   so.intellisense: NSNumberAllocationAgent.SaveDefaultNumbering
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveDefaultNumbering(NSRefCountEntity)'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.SaveRefCountEntity(NSRefCountEntity)
   id: 'SaveRefCountEntity(NSRefCountEntity)'
   so.intellisense: NSNumberAllocationAgent.SaveRefCountEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveRefCountEntity(NSRefCountEntity)'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNumberAllocationAgent.SetNumberEachTemplate(Bool)
   id: 'SetNumberEachTemplate(Bool)'
   so.intellisense: NSNumberAllocationAgent.SetNumberEachTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetNumberEachTemplate(Bool)'

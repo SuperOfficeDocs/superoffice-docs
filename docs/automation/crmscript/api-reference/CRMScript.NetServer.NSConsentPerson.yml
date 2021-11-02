@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSConsentPerson
   commentId: T:CRMScript.NetServer.NSConsentPerson
   id: NSConsentPerson
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetComment()
   id: 'GetComment()'
   so.intellisense: NSConsentPerson.GetComment
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetComment()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentPersonId()
   id: 'GetConsentPersonId()'
   so.intellisense: NSConsentPerson.GetConsentPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPersonId()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentPurpose()
   id: 'GetConsentPurpose()'
   so.intellisense: NSConsentPerson.GetConsentPurpose
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPurpose()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentSource()
   id: 'GetConsentSource()'
   so.intellisense: NSConsentPerson.GetConsentSource
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentSource()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetLegalBase()
   id: 'GetLegalBase()'
   so.intellisense: NSConsentPerson.GetLegalBase
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLegalBase()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSConsentPerson.GetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetComment(String)
   id: 'SetComment(String)'
   so.intellisense: NSConsentPerson.SetComment
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetComment(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentPersonId(Integer)
   id: 'SetConsentPersonId(Integer)'
   so.intellisense: NSConsentPerson.SetConsentPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentPersonId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
   id: 'SetConsentPurpose(NSConsentPurpose)'
   so.intellisense: NSConsentPerson.SetConsentPurpose
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentPurpose(NSConsentPurpose)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentSource(NSConsentSource)
   id: 'SetConsentSource(NSConsentSource)'
   so.intellisense: NSConsentPerson.SetConsentSource
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentSource(NSConsentSource)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetLegalBase(NSLegalBase)
   id: 'SetLegalBase(NSLegalBase)'
   so.intellisense: NSConsentPerson.SetLegalBase
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetLegalBase(NSLegalBase)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPerson.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSConsentPerson.SetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'

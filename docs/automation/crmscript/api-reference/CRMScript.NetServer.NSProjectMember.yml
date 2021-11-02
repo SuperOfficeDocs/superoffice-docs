@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectMember
   commentId: T:CRMScript.NetServer.NSProjectMember
   id: NSProjectMember
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -74,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetComment()
   id: 'GetComment()'
   so.intellisense: NSProjectMember.GetComment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetComment()'
@@ -94,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetContactDepartment()
   id: 'GetContactDepartment()'
   so.intellisense: NSProjectMember.GetContactDepartment
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetContactDepartment()'
@@ -114,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSProjectMember.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -134,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSProjectMember.GetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -154,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetCountryId()
   id: 'GetCountryId()'
   so.intellisense: NSProjectMember.GetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountryId()'
@@ -174,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailAddress()
   id: 'GetEmailAddress()'
   so.intellisense: NSProjectMember.GetEmailAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailAddress()'
@@ -194,6 +201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailAddressName()
   id: 'GetEmailAddressName()'
   so.intellisense: NSProjectMember.GetEmailAddressName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailAddressName()'
@@ -214,6 +222,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailId()
   id: 'GetEmailId()'
   so.intellisense: NSProjectMember.GetEmailId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailId()'
@@ -234,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetFirstname()
   id: 'GetFirstname()'
   so.intellisense: NSProjectMember.GetFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFirstname()'
@@ -254,6 +264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSProjectMember.GetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -274,6 +285,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetLastname()
   id: 'GetLastname()'
   so.intellisense: NSProjectMember.GetLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastname()'
@@ -294,6 +306,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetMiddleName()
   id: 'GetMiddleName()'
   so.intellisense: NSProjectMember.GetMiddleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMiddleName()'
@@ -314,6 +327,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetMrmrs()
   id: 'GetMrmrs()'
   so.intellisense: NSProjectMember.GetMrmrs
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMrmrs()'
@@ -334,6 +348,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSProjectMember.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -354,6 +369,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetPhone()
   id: 'GetPhone()'
   so.intellisense: NSProjectMember.GetPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPhone()'
@@ -374,6 +390,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetPhoneId()
   id: 'GetPhoneId()'
   so.intellisense: NSProjectMember.GetPhoneId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPhoneId()'
@@ -394,6 +411,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSProjectMember.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -414,6 +432,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectmemberId()
   id: 'GetProjectmemberId()'
   so.intellisense: NSProjectMember.GetProjectmemberId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectmemberId()'
@@ -434,6 +453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeId()
   id: 'GetProjectMemberTypeId()'
   so.intellisense: NSProjectMember.GetProjectMemberTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMemberTypeId()'
@@ -454,6 +474,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeName()
   id: 'GetProjectMemberTypeName()'
   so.intellisense: NSProjectMember.GetProjectMemberTypeName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMemberTypeName()'
@@ -474,6 +495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectName()
   id: 'GetProjectName()'
   so.intellisense: NSProjectMember.GetProjectName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetProjectName()'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetComment(String)
   id: 'SetComment(String)'
   so.intellisense: NSProjectMember.SetComment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetComment(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetContactDepartment(String)
   id: 'SetContactDepartment(String)'
   so.intellisense: NSProjectMember.SetContactDepartment
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetContactDepartment(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSProjectMember.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSProjectMember.SetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetCountryId(Integer)
   id: 'SetCountryId(Integer)'
   so.intellisense: NSProjectMember.SetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountryId(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailAddress(String)
   id: 'SetEmailAddress(String)'
   so.intellisense: NSProjectMember.SetEmailAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailAddress(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailAddressName(String)
   id: 'SetEmailAddressName(String)'
   so.intellisense: NSProjectMember.SetEmailAddressName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailAddressName(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailId(Integer)
   id: 'SetEmailId(Integer)'
   so.intellisense: NSProjectMember.SetEmailId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailId(Integer)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetFirstname(String)
   id: 'SetFirstname(String)'
   so.intellisense: NSProjectMember.SetFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFirstname(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSProjectMember.SetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetLastname(String)
   id: 'SetLastname(String)'
   so.intellisense: NSProjectMember.SetLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastname(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetMiddleName(String)
   id: 'SetMiddleName(String)'
   so.intellisense: NSProjectMember.SetMiddleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMiddleName(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetMrmrs(String)
   id: 'SetMrmrs(String)'
   so.intellisense: NSProjectMember.SetMrmrs
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMrmrs(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSProjectMember.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetPhone(String)
   id: 'SetPhone(String)'
   so.intellisense: NSProjectMember.SetPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPhone(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetPhoneId(Integer)
   id: 'SetPhoneId(Integer)'
   so.intellisense: NSProjectMember.SetPhoneId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPhoneId(Integer)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSProjectMember.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectmemberId(Integer)
   id: 'SetProjectmemberId(Integer)'
   so.intellisense: NSProjectMember.SetProjectmemberId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectmemberId(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeId(Integer)
   id: 'SetProjectMemberTypeId(Integer)'
   so.intellisense: NSProjectMember.SetProjectMemberTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectMemberTypeId(Integer)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeName(String)
   id: 'SetProjectMemberTypeName(String)'
   so.intellisense: NSProjectMember.SetProjectMemberTypeName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectMemberTypeName(String)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectName(String)
   id: 'SetProjectName(String)'
   so.intellisense: NSProjectMember.SetProjectName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetProjectName(String)'

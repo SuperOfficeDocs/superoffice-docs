@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleAgent
   commentId: T:CRMScript.NetServer.NSSaleAgent
   id: NSSaleAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -73,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.AddSaleStakeholders(Integer,NSSaleStakeholder[])
   id: 'AddSaleStakeholders(Integer,NSSaleStakeholder[])'
   so.intellisense: NSSaleAgent.AddSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'AddSaleStakeholders(Integer,NSSaleStakeholder[])'
@@ -97,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.BatchUpdateNextDueDate()
   id: 'BatchUpdateNextDueDate()'
   so.intellisense: NSSaleAgent.BatchUpdateNextDueDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'BatchUpdateNextDueDate()'
@@ -115,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.CreateDefaultSaleEntity()
   id: 'CreateDefaultSaleEntity()'
   so.intellisense: NSSaleAgent.CreateDefaultSaleEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultSaleEntity()'
@@ -134,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.CreateDefaultSaleStakeholder()
   id: 'CreateDefaultSaleStakeholder()'
   so.intellisense: NSSaleAgent.CreateDefaultSaleStakeholder
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultSaleStakeholder()'
@@ -153,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.CreateDefaultSaleSummary()
   id: 'CreateDefaultSaleSummary()'
   so.intellisense: NSSaleAgent.CreateDefaultSaleSummary
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultSaleSummary()'
@@ -172,6 +178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.DeleteSaleEntity(Integer)
   id: 'DeleteSaleEntity(Integer)'
   so.intellisense: NSSaleAgent.DeleteSaleEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteSaleEntity(Integer)'
@@ -194,6 +201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.DeleteSaleStakeholder(Integer)
   id: 'DeleteSaleStakeholder(Integer)'
   so.intellisense: NSSaleAgent.DeleteSaleStakeholder
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteSaleStakeholder(Integer)'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.DeleteSaleStakeholders(Integer[])
   id: 'DeleteSaleStakeholders(Integer[])'
   so.intellisense: NSSaleAgent.DeleteSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'DeleteSaleStakeholders(Integer[])'
@@ -237,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetMyOpportunities(Integer)
   id: 'GetMyOpportunities(Integer)'
   so.intellisense: NSSaleAgent.GetMyOpportunities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyOpportunities(Integer)'
@@ -259,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetNextDueDate(Integer)
   id: 'GetNextDueDate(Integer)'
   so.intellisense: NSSaleAgent.GetNextDueDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextDueDate(Integer)'
@@ -282,6 +293,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetNextSaleStage(Integer,Bool)
   id: 'GetNextSaleStage(Integer,Bool)'
   so.intellisense: NSSaleAgent.GetNextSaleStage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextSaleStage(Integer,Bool)'
@@ -307,6 +319,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetOpenSalesForContact(Integer)
   id: 'GetOpenSalesForContact(Integer)'
   so.intellisense: NSSaleAgent.GetOpenSalesForContact
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOpenSalesForContact(Integer)'
@@ -329,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetProbabilityFromStage(Integer)
   id: 'GetProbabilityFromStage(Integer)'
   so.intellisense: NSSaleAgent.GetProbabilityFromStage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProbabilityFromStage(Integer)'
@@ -352,6 +366,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetRecentSales(Integer,Integer)
   id: 'GetRecentSales(Integer,Integer)'
   so.intellisense: NSSaleAgent.GetRecentSales
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecentSales(Integer,Integer)'
@@ -378,6 +393,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSale(Integer)
   id: 'GetSale(Integer)'
   so.intellisense: NSSaleAgent.GetSale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSale(Integer)'
@@ -400,6 +416,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleEntity(Integer)
   id: 'GetSaleEntity(Integer)'
   so.intellisense: NSSaleAgent.GetSaleEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleEntity(Integer)'
@@ -422,6 +439,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleList(Integer[])
   id: 'GetSaleList(Integer[])'
   so.intellisense: NSSaleAgent.GetSaleList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleList(Integer[])'
@@ -444,6 +462,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSalesByDate(DateTime,DateTime,Integer,Integer)
   id: 'GetSalesByDate(DateTime,DateTime,Integer,Integer)'
   so.intellisense: NSSaleAgent.GetSalesByDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSalesByDate(DateTime,DateTime,Integer,Integer)'
@@ -525,6 +544,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleStakeholder(Integer)
   id: 'GetSaleStakeholder(Integer)'
   so.intellisense: NSSaleAgent.GetSaleStakeholder
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholder(Integer)'
@@ -547,6 +567,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleStakeholderById(Integer[])
   id: 'GetSaleStakeholderById(Integer[])'
   so.intellisense: NSSaleAgent.GetSaleStakeholderById
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholderById(Integer[])'
@@ -568,6 +589,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleStakeholderList(Integer[])
   id: 'GetSaleStakeholderList(Integer[])'
   so.intellisense: NSSaleAgent.GetSaleStakeholderList
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholderList(Integer[])'
@@ -590,6 +612,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSaleStakeholders(Integer)
   id: 'GetSaleStakeholders(Integer)'
   so.intellisense: NSSaleAgent.GetSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSaleStakeholders(Integer)'
@@ -611,6 +634,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSummaryByAssociate(Integer,DateTime,DateTime)
   id: 'GetSummaryByAssociate(Integer,DateTime,DateTime)'
   so.intellisense: NSSaleAgent.GetSummaryByAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSummaryByAssociate(Integer,DateTime,DateTime)'
@@ -638,6 +662,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSummaryByContact(Integer,DateTime,DateTime)
   id: 'GetSummaryByContact(Integer,DateTime,DateTime)'
   so.intellisense: NSSaleAgent.GetSummaryByContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSummaryByContact(Integer,DateTime,DateTime)'
@@ -665,6 +690,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetSummaryByGroup(Integer,DateTime,DateTime)
   id: 'GetSummaryByGroup(Integer,DateTime,DateTime)'
   so.intellisense: NSSaleAgent.GetSummaryByGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSummaryByGroup(Integer,DateTime,DateTime)'
@@ -692,6 +718,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.GetUpcomingSales(Integer,Integer)
   id: 'GetUpcomingSales(Integer,Integer)'
   so.intellisense: NSSaleAgent.GetUpcomingSales
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpcomingSales(Integer,Integer)'
@@ -717,6 +744,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.HasGuide(Integer)
   id: 'HasGuide(Integer)'
   so.intellisense: NSSaleAgent.HasGuide
+  so.version: 7.0
   langs:
   - crmscript
   name: 'HasGuide(Integer)'
@@ -740,6 +768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.HasGuideActivities(Integer)
   id: 'HasGuideActivities(Integer)'
   so.intellisense: NSSaleAgent.HasGuideActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'HasGuideActivities(Integer)'
@@ -762,6 +791,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.HasStakeholderSetting(Integer)
   id: 'HasStakeholderSetting(Integer)'
   so.intellisense: NSSaleAgent.HasStakeholderSetting
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'HasStakeholderSetting(Integer)'
@@ -784,6 +814,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.IsNumberValid(Integer,String)
   id: 'IsNumberValid(Integer,String)'
   so.intellisense: NSSaleAgent.IsNumberValid
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsNumberValid(Integer,String)'
@@ -810,6 +841,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.OfferAutoNextStageOnApppointmentCompleted(Integer)
   id: 'OfferAutoNextStageOnApppointmentCompleted(Integer)'
   so.intellisense: NSSaleAgent.OfferAutoNextStageOnApppointmentCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'OfferAutoNextStageOnApppointmentCompleted(Integer)'
@@ -832,6 +864,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.SaveSaleEntity(NSSaleEntity)
   id: 'SaveSaleEntity(NSSaleEntity)'
   so.intellisense: NSSaleAgent.SaveSaleEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveSaleEntity(NSSaleEntity)'
@@ -855,6 +888,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.SaveSaleStakeholder(NSSaleStakeholder)
   id: 'SaveSaleStakeholder(NSSaleStakeholder)'
   so.intellisense: NSSaleAgent.SaveSaleStakeholder
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveSaleStakeholder(NSSaleStakeholder)'
@@ -877,6 +911,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.SetAsLost(Integer[])
   id: 'SetAsLost(Integer[])'
   so.intellisense: NSSaleAgent.SetAsLost
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAsLost(Integer[])'
@@ -898,6 +933,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.SetAsSold(Integer[])
   id: 'SetAsSold(Integer[])'
   so.intellisense: NSSaleAgent.SetAsSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAsSold(Integer[])'
@@ -919,6 +955,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleAgent.UpdateSaleStakeholders(NSSaleStakeholder[])
   id: 'UpdateSaleStakeholders(NSSaleStakeholder[])'
   so.intellisense: NSSaleAgent.UpdateSaleStakeholders
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'UpdateSaleStakeholders(NSSaleStakeholder[])'

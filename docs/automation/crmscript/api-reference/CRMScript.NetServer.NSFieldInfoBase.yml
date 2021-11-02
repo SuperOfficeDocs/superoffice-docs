@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoBase
   commentId: T:CRMScript.NetServer.NSFieldInfoBase
   id: NSFieldInfoBase
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSFieldInfoBase.GetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -78,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSFieldInfoBase.GetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -98,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetFieldName()
   id: 'GetFieldName()'
   so.intellisense: NSFieldInfoBase.GetFieldName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFieldName()'
@@ -118,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetFieldType()
   id: 'GetFieldType()'
   so.intellisense: NSFieldInfoBase.GetFieldType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFieldType()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetHideField()
   id: 'GetHideField()'
   so.intellisense: NSFieldInfoBase.GetHideField
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetHideField()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetHideLabel()
   id: 'GetHideLabel()'
   so.intellisense: NSFieldInfoBase.GetHideLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetHideLabel()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetIsExternal()
   id: 'GetIsExternal()'
   so.intellisense: NSFieldInfoBase.GetIsExternal
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsExternal()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetIsIndexed()
   id: 'GetIsIndexed()'
   so.intellisense: NSFieldInfoBase.GetIsIndexed
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsIndexed()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetIsMandatory()
   id: 'GetIsMandatory()'
   so.intellisense: NSFieldInfoBase.GetIsMandatory
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsMandatory()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetIsReadOnly()
   id: 'GetIsReadOnly()'
   so.intellisense: NSFieldInfoBase.GetIsReadOnly
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsReadOnly()'
@@ -258,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetRank()
   id: 'GetRank()'
   so.intellisense: NSFieldInfoBase.GetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRank()'
@@ -278,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetShortLabel()
   id: 'GetShortLabel()'
   so.intellisense: NSFieldInfoBase.GetShortLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetShortLabel()'
@@ -298,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.GetTemplateVariableName()
   id: 'GetTemplateVariableName()'
   so.intellisense: NSFieldInfoBase.GetTemplateVariableName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTemplateVariableName()'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSFieldInfoBase.SetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSFieldInfoBase.SetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetFieldName(String)
   id: 'SetFieldName(String)'
   so.intellisense: NSFieldInfoBase.SetFieldName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFieldName(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetFieldType(Integer)
   id: 'SetFieldType(Integer)'
   so.intellisense: NSFieldInfoBase.SetFieldType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFieldType(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetHideField(Bool)
   id: 'SetHideField(Bool)'
   so.intellisense: NSFieldInfoBase.SetHideField
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetHideField(Bool)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetHideLabel(Bool)
   id: 'SetHideLabel(Bool)'
   so.intellisense: NSFieldInfoBase.SetHideLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetHideLabel(Bool)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetIsExternal(Bool)
   id: 'SetIsExternal(Bool)'
   so.intellisense: NSFieldInfoBase.SetIsExternal
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsExternal(Bool)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetIsIndexed(Bool)
   id: 'SetIsIndexed(Bool)'
   so.intellisense: NSFieldInfoBase.SetIsIndexed
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsIndexed(Bool)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetIsMandatory(Bool)
   id: 'SetIsMandatory(Bool)'
   so.intellisense: NSFieldInfoBase.SetIsMandatory
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsMandatory(Bool)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetIsReadOnly(Bool)
   id: 'SetIsReadOnly(Bool)'
   so.intellisense: NSFieldInfoBase.SetIsReadOnly
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsReadOnly(Bool)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSFieldInfoBase.SetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetShortLabel(String)
   id: 'SetShortLabel(String)'
   so.intellisense: NSFieldInfoBase.SetShortLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetShortLabel(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoBase.SetTemplateVariableName(String)
   id: 'SetTemplateVariableName(String)'
   so.intellisense: NSFieldInfoBase.SetTemplateVariableName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTemplateVariableName(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPluginResponse
   commentId: T:CRMScript.NetServer.NSPluginResponse
   id: NSPluginResponse
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.GetChanges()
   id: 'GetChanges()'
   so.intellisense: NSPluginResponse.GetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChanges()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.GetErrorCode()
   id: 'GetErrorCode()'
   so.intellisense: NSPluginResponse.GetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetErrorCode()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.GetIsOk()
   id: 'GetIsOk()'
   so.intellisense: NSPluginResponse.GetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsOk()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.GetTechExplanation()
   id: 'GetTechExplanation()'
   so.intellisense: NSPluginResponse.GetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTechExplanation()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.GetUserExplanation()
   id: 'GetUserExplanation()'
   so.intellisense: NSPluginResponse.GetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserExplanation()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.SetChanges(NSChangedData)
   id: 'SetChanges(NSChangedData)'
   so.intellisense: NSPluginResponse.SetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChanges(NSChangedData)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.SetErrorCode(String)
   id: 'SetErrorCode(String)'
   so.intellisense: NSPluginResponse.SetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetErrorCode(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.SetIsOk(Bool)
   id: 'SetIsOk(Bool)'
   so.intellisense: NSPluginResponse.SetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsOk(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.SetTechExplanation(String)
   id: 'SetTechExplanation(String)'
   so.intellisense: NSPluginResponse.SetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTechExplanation(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginResponse.SetUserExplanation(String)
   id: 'SetUserExplanation(String)'
   so.intellisense: NSPluginResponse.SetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserExplanation(String)'

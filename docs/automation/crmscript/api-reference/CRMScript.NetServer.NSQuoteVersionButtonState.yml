@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteVersionButtonState
   commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
   id: NSQuoteVersionButtonState
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetAction()
   id: 'GetAction()'
   so.intellisense: NSQuoteVersionButtonState.GetAction
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAction()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetDisplayText()
   id: 'GetDisplayText()'
   so.intellisense: NSQuoteVersionButtonState.GetDisplayText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayText()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetEnabled()
   id: 'GetEnabled()'
   so.intellisense: NSQuoteVersionButtonState.GetEnabled
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEnabled()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetImageHint()
   id: 'GetImageHint()'
   so.intellisense: NSQuoteVersionButtonState.GetImageHint
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetImageHint()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetTooltipText()
   id: 'GetTooltipText()'
   so.intellisense: NSQuoteVersionButtonState.GetTooltipText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltipText()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetAction(Integer)
   id: 'SetAction(Integer)'
   so.intellisense: NSQuoteVersionButtonState.SetAction
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAction(Integer)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetDisplayText(String)
   id: 'SetDisplayText(String)'
   so.intellisense: NSQuoteVersionButtonState.SetDisplayText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayText(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetEnabled(Bool)
   id: 'SetEnabled(Bool)'
   so.intellisense: NSQuoteVersionButtonState.SetEnabled
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEnabled(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetImageHint(String)
   id: 'SetImageHint(String)'
   so.intellisense: NSQuoteVersionButtonState.SetImageHint
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetImageHint(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetTooltipText(String)
   id: 'SetTooltipText(String)'
   so.intellisense: NSQuoteVersionButtonState.SetTooltipText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltipText(String)'

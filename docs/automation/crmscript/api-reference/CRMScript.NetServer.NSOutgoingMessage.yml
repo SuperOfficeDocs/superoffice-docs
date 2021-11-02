@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSOutgoingMessage
   commentId: T:CRMScript.NetServer.NSOutgoingMessage
   id: NSOutgoingMessage
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetContent()
   id: 'GetContent()'
   so.intellisense: NSOutgoingMessage.GetContent
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetContent()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetFormat()
   id: 'GetFormat()'
   so.intellisense: NSOutgoingMessage.GetFormat
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetFormat()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetFrom()
   id: 'GetFrom()'
   so.intellisense: NSOutgoingMessage.GetFrom
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetFrom()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetParentMessagingId()
   id: 'GetParentMessagingId()'
   so.intellisense: NSOutgoingMessage.GetParentMessagingId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetParentMessagingId()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetSuggestedSessionKey()
   id: 'GetSuggestedSessionKey()'
   so.intellisense: NSOutgoingMessage.GetSuggestedSessionKey
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSuggestedSessionKey()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetTo()
   id: 'GetTo()'
   so.intellisense: NSOutgoingMessage.GetTo
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetTo()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetContent(String)
   id: 'SetContent(String)'
   so.intellisense: NSOutgoingMessage.SetContent
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetContent(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetFormat(String)
   id: 'SetFormat(String)'
   so.intellisense: NSOutgoingMessage.SetFormat
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetFormat(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetFrom(String)
   id: 'SetFrom(String)'
   so.intellisense: NSOutgoingMessage.SetFrom
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetFrom(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetParentMessagingId(Integer)
   id: 'SetParentMessagingId(Integer)'
   so.intellisense: NSOutgoingMessage.SetParentMessagingId
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetParentMessagingId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetSuggestedSessionKey(String)
   id: 'SetSuggestedSessionKey(String)'
   so.intellisense: NSOutgoingMessage.SetSuggestedSessionKey
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSuggestedSessionKey(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetTo(String)
   id: 'SetTo(String)'
   so.intellisense: NSOutgoingMessage.SetTo
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetTo(String)'

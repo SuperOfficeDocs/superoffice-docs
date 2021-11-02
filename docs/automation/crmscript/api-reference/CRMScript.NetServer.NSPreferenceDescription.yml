@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreferenceDescription
   commentId: T:CRMScript.NetServer.NSPreferenceDescription
   id: NSPreferenceDescription
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -68,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetAccessFlags()
   id: 'GetAccessFlags()'
   so.intellisense: NSPreferenceDescription.GetAccessFlags
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAccessFlags()'
@@ -88,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSPreferenceDescription.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -108,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetIsBuiltin()
   id: 'GetIsBuiltin()'
   so.intellisense: NSPreferenceDescription.GetIsBuiltin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsBuiltin()'
@@ -128,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetKey()
   id: 'GetKey()'
   so.intellisense: NSPreferenceDescription.GetKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetKey()'
@@ -148,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetMaxLevel()
   id: 'GetMaxLevel()'
   so.intellisense: NSPreferenceDescription.GetMaxLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMaxLevel()'
@@ -168,6 +174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetMaxValue()
   id: 'GetMaxValue()'
   so.intellisense: NSPreferenceDescription.GetMaxValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMaxValue()'
@@ -188,6 +195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetMinLevel()
   id: 'GetMinLevel()'
   so.intellisense: NSPreferenceDescription.GetMinLevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMinLevel()'
@@ -208,6 +216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetMinValue()
   id: 'GetMinValue()'
   so.intellisense: NSPreferenceDescription.GetMinValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMinValue()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetName()
   id: 'GetName()'
   so.intellisense: NSPreferenceDescription.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -248,6 +258,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetPrefDescId()
   id: 'GetPrefDescId()'
   so.intellisense: NSPreferenceDescription.GetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefDescId()'
@@ -268,6 +279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetRank()
   id: 'GetRank()'
   so.intellisense: NSPreferenceDescription.GetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRank()'
@@ -288,6 +300,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetRequiredLicense()
   id: 'GetRequiredLicense()'
   so.intellisense: NSPreferenceDescription.GetRequiredLicense
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRequiredLicense()'
@@ -308,6 +321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetSection()
   id: 'GetSection()'
   so.intellisense: NSPreferenceDescription.GetSection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSection()'
@@ -328,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetSubGroup()
   id: 'GetSubGroup()'
   so.intellisense: NSPreferenceDescription.GetSubGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSubGroup()'
@@ -348,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetSysMaxLevel()
   id: 'GetSysMaxLevel()'
   so.intellisense: NSPreferenceDescription.GetSysMaxLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSysMaxLevel()'
@@ -368,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetTableName()
   id: 'GetTableName()'
   so.intellisense: NSPreferenceDescription.GetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTableName()'
@@ -388,6 +405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetUserDefinedListId()
   id: 'GetUserDefinedListId()'
   so.intellisense: NSPreferenceDescription.GetUserDefinedListId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetUserDefinedListId()'
@@ -408,6 +426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.GetValueType()
   id: 'GetValueType()'
   so.intellisense: NSPreferenceDescription.GetValueType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValueType()'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetAccessFlags(Integer)
   id: 'SetAccessFlags(Integer)'
   so.intellisense: NSPreferenceDescription.SetAccessFlags
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAccessFlags(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSPreferenceDescription.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetIsBuiltin(Bool)
   id: 'SetIsBuiltin(Bool)'
   so.intellisense: NSPreferenceDescription.SetIsBuiltin
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsBuiltin(Bool)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSPreferenceDescription.SetKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetMaxLevel(Integer)
   id: 'SetMaxLevel(Integer)'
   so.intellisense: NSPreferenceDescription.SetMaxLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMaxLevel(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetMaxValue(Integer)
   id: 'SetMaxValue(Integer)'
   so.intellisense: NSPreferenceDescription.SetMaxValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMaxValue(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetMinLevel(Integer)
   id: 'SetMinLevel(Integer)'
   so.intellisense: NSPreferenceDescription.SetMinLevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMinLevel(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetMinValue(Integer)
   id: 'SetMinValue(Integer)'
   so.intellisense: NSPreferenceDescription.SetMinValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMinValue(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSPreferenceDescription.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetPrefDescId(Integer)
   id: 'SetPrefDescId(Integer)'
   so.intellisense: NSPreferenceDescription.SetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefDescId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSPreferenceDescription.SetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetRequiredLicense(String)
   id: 'SetRequiredLicense(String)'
   so.intellisense: NSPreferenceDescription.SetRequiredLicense
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRequiredLicense(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetSection(String)
   id: 'SetSection(String)'
   so.intellisense: NSPreferenceDescription.SetSection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSection(String)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetSubGroup(String)
   id: 'SetSubGroup(String)'
   so.intellisense: NSPreferenceDescription.SetSubGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSubGroup(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetSysMaxLevel(Integer)
   id: 'SetSysMaxLevel(Integer)'
   so.intellisense: NSPreferenceDescription.SetSysMaxLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSysMaxLevel(Integer)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetTableName(String)
   id: 'SetTableName(String)'
   so.intellisense: NSPreferenceDescription.SetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTableName(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetUserDefinedListId(Integer)
   id: 'SetUserDefinedListId(Integer)'
   so.intellisense: NSPreferenceDescription.SetUserDefinedListId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetUserDefinedListId(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceDescription.SetValueType(Integer)
   id: 'SetValueType(Integer)'
   so.intellisense: NSPreferenceDescription.SetValueType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValueType(Integer)'

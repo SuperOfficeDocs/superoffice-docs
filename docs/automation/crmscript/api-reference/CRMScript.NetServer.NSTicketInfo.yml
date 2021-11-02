@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketInfo
   commentId: T:CRMScript.NetServer.NSTicketInfo
   id: NSTicketInfo
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetCategoryName()
   id: 'GetCategoryName()'
   so.intellisense: NSTicketInfo.GetCategoryName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCategoryName()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSTicketInfo.GetContactName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetOwnerName()
   id: 'GetOwnerName()'
   so.intellisense: NSTicketInfo.GetOwnerName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOwnerName()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetPersonName()
   id: 'GetPersonName()'
   so.intellisense: NSTicketInfo.GetPersonName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPersonName()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetPriorityName()
   id: 'GetPriorityName()'
   so.intellisense: NSTicketInfo.GetPriorityName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPriorityName()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetTicketId()
   id: 'GetTicketId()'
   so.intellisense: NSTicketInfo.GetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketId()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetTicketUrl()
   id: 'GetTicketUrl()'
   so.intellisense: NSTicketInfo.GetTicketUrl
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketUrl()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSTicketInfo.GetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetCategoryName(String)
   id: 'SetCategoryName(String)'
   so.intellisense: NSTicketInfo.SetCategoryName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCategoryName(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSTicketInfo.SetContactName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetOwnerName(String)
   id: 'SetOwnerName(String)'
   so.intellisense: NSTicketInfo.SetOwnerName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetOwnerName(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetPersonName(String)
   id: 'SetPersonName(String)'
   so.intellisense: NSTicketInfo.SetPersonName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPersonName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetPriorityName(String)
   id: 'SetPriorityName(String)'
   so.intellisense: NSTicketInfo.SetPriorityName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPriorityName(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetTicketId(Integer)
   id: 'SetTicketId(Integer)'
   so.intellisense: NSTicketInfo.SetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketId(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetTicketUrl(String)
   id: 'SetTicketUrl(String)'
   so.intellisense: NSTicketInfo.SetTicketUrl
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketUrl(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketInfo.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSTicketInfo.SetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTitle(String)'

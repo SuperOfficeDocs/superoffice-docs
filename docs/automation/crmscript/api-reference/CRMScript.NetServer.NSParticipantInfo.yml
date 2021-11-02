@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSParticipantInfo
   commentId: T:CRMScript.NetServer.NSParticipantInfo
   id: NSParticipantInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSParticipantInfo.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSParticipantInfo.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetEmailId()
   id: 'GetEmailId()'
   so.intellisense: NSParticipantInfo.GetEmailId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailId()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetInvitationStatus()
   id: 'GetInvitationStatus()'
   so.intellisense: NSParticipantInfo.GetInvitationStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetInvitationStatus()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSParticipantInfo.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.GetSendEmail()
   id: 'GetSendEmail()'
   so.intellisense: NSParticipantInfo.GetSendEmail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSendEmail()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSParticipantInfo.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSParticipantInfo.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetEmailId(Integer)
   id: 'SetEmailId(Integer)'
   so.intellisense: NSParticipantInfo.SetEmailId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetInvitationStatus(Integer)
   id: 'SetInvitationStatus(Integer)'
   so.intellisense: NSParticipantInfo.SetInvitationStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetInvitationStatus(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSParticipantInfo.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantInfo.SetSendEmail(Bool)
   id: 'SetSendEmail(Bool)'
   so.intellisense: NSParticipantInfo.SetSendEmail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSendEmail(Bool)'

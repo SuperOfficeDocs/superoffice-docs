@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSContactPersonId
   commentId: T:CRMScript.NetServer.NSContactPersonId
   id: NSContactPersonId
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactPersonId.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSContactPersonId.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -55,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactPersonId.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSContactPersonId.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -74,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactPersonId.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSContactPersonId.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -95,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContactPersonId.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSContactPersonId.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'

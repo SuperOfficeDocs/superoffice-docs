@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAppointmentEntity
   commentId: T:CRMScript.NetServer.NSAppointmentEntity
   id: NSAppointmentEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -146,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetActiveDate()
   id: 'GetActiveDate()'
   so.intellisense: NSAppointmentEntity.GetActiveDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveDate()'
@@ -166,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetActiveLinks()
   id: 'GetActiveLinks()'
   so.intellisense: NSAppointmentEntity.GetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveLinks()'
@@ -186,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAlarmLeadTime()
   id: 'GetAlarmLeadTime()'
   so.intellisense: NSAppointmentEntity.GetAlarmLeadTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlarmLeadTime()'
@@ -206,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAlldayEvent()
   id: 'GetAlldayEvent()'
   so.intellisense: NSAppointmentEntity.GetAlldayEvent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlldayEvent()'
@@ -225,6 +230,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAppointmentId()
   id: 'GetAppointmentId()'
   so.intellisense: NSAppointmentEntity.GetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentId()'
@@ -245,6 +251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAssignedBy()
   id: 'GetAssignedBy()'
   so.intellisense: NSAppointmentEntity.GetAssignedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssignedBy()'
@@ -265,6 +272,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAssignmentStatus()
   id: 'GetAssignmentStatus()'
   so.intellisense: NSAppointmentEntity.GetAssignmentStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssignmentStatus()'
@@ -285,6 +293,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSAppointmentEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -305,6 +314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   id: 'GetBookingType()'
   so.intellisense: NSAppointmentEntity.GetBookingType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBookingType()'
@@ -365,6 +375,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetColorIndex()
   id: 'GetColorIndex()'
   so.intellisense: NSAppointmentEntity.GetColorIndex
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColorIndex()'
@@ -385,6 +396,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSAppointmentEntity.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -405,6 +417,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetContact()
   id: 'GetContact()'
   so.intellisense: NSAppointmentEntity.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact()'
@@ -425,6 +438,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSAppointmentEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -445,6 +459,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSAppointmentEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -465,6 +480,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSAppointmentEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -485,6 +501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSAppointmentEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -505,6 +522,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetEndDate()
   id: 'GetEndDate()'
   so.intellisense: NSAppointmentEntity.GetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndDate()'
@@ -525,6 +543,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSAppointmentEntity.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -545,6 +564,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   id: 'GetFreeBusy()'
   so.intellisense: NSAppointmentEntity.GetFreeBusy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFreeBusy()'
@@ -564,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetHasAlarm()
   id: 'GetHasAlarm()'
   so.intellisense: NSAppointmentEntity.GetHasAlarm
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHasAlarm()'
@@ -584,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetHasConflict()
   id: 'GetHasConflict()'
   so.intellisense: NSAppointmentEntity.GetHasConflict
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHasConflict()'
@@ -604,6 +626,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   id: 'GetInvitationStatus()'
   so.intellisense: NSAppointmentEntity.GetInvitationStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInvitationStatus()'
@@ -624,6 +647,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInvitedPerson()
   id: 'GetInvitedPerson()'
   so.intellisense: NSAppointmentEntity.GetInvitedPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetInvitedPerson()'
@@ -644,6 +668,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetIsAlldayEvent()
   id: 'GetIsAlldayEvent()'
   so.intellisense: NSAppointmentEntity.GetIsAlldayEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAlldayEvent()'
@@ -664,6 +689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetIsFree()
   id: 'GetIsFree()'
   so.intellisense: NSAppointmentEntity.GetIsFree
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsFree()'
@@ -684,6 +710,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetIsMileStone()
   id: 'GetIsMileStone()'
   so.intellisense: NSAppointmentEntity.GetIsMileStone
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetIsMileStone()'
@@ -704,6 +731,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSAppointmentEntity.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -743,6 +771,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetLagTime()
   id: 'GetLagTime()'
   so.intellisense: NSAppointmentEntity.GetLagTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLagTime()'
@@ -763,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetLeadTime()
   id: 'GetLeadTime()'
   so.intellisense: NSAppointmentEntity.GetLeadTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLeadTime()'
@@ -783,6 +813,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetLinks()
   id: 'GetLinks()'
   so.intellisense: NSAppointmentEntity.GetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinks()'
@@ -803,6 +834,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetLocation()
   id: 'GetLocation()'
   so.intellisense: NSAppointmentEntity.GetLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocation()'
@@ -823,6 +855,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetMotherAssociate()
   id: 'GetMotherAssociate()'
   so.intellisense: NSAppointmentEntity.GetMotherAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMotherAssociate()'
@@ -843,6 +876,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetMotherId()
   id: 'GetMotherId()'
   so.intellisense: NSAppointmentEntity.GetMotherId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMotherId()'
@@ -863,6 +897,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetParticipants()
   id: 'GetParticipants()'
   so.intellisense: NSAppointmentEntity.GetParticipants
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetParticipants()'
@@ -883,6 +918,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSAppointmentEntity.GetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -903,6 +939,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPreferredTZLocation()
   id: 'GetPreferredTZLocation()'
   so.intellisense: NSAppointmentEntity.GetPreferredTZLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreferredTZLocation()'
@@ -923,6 +960,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPriority()
   id: 'GetPriority()'
   so.intellisense: NSAppointmentEntity.GetPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPriority()'
@@ -943,6 +981,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPrivate()
   id: 'GetPrivate()'
   so.intellisense: NSAppointmentEntity.GetPrivate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPrivate()'
@@ -963,6 +1002,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetProject()
   id: 'GetProject()'
   so.intellisense: NSAppointmentEntity.GetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProject()'
@@ -983,6 +1023,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPublishEventDate()
   id: 'GetPublishEventDate()'
   so.intellisense: NSAppointmentEntity.GetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishEventDate()'
@@ -1002,6 +1043,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSAppointmentEntity.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -1021,6 +1063,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSAppointmentEntity.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -1040,6 +1083,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetRecurrence()
   id: 'GetRecurrence()'
   so.intellisense: NSAppointmentEntity.GetRecurrence
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecurrence()'
@@ -1060,6 +1104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetRejectCounter()
   id: 'GetRejectCounter()'
   so.intellisense: NSAppointmentEntity.GetRejectCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRejectCounter()'
@@ -1080,6 +1125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetRejectReason()
   id: 'GetRejectReason()'
   so.intellisense: NSAppointmentEntity.GetRejectReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRejectReason()'
@@ -1100,6 +1146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetSale()
   id: 'GetSale()'
   so.intellisense: NSAppointmentEntity.GetSale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSale()'
@@ -1120,6 +1167,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetStartDate()
   id: 'GetStartDate()'
   so.intellisense: NSAppointmentEntity.GetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartDate()'
@@ -1140,6 +1188,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetSuggestedAppointmentId()
   id: 'GetSuggestedAppointmentId()'
   so.intellisense: NSAppointmentEntity.GetSuggestedAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSuggestedAppointmentId()'
@@ -1160,6 +1209,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTask()
   id: 'GetTask()'
   so.intellisense: NSAppointmentEntity.GetTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTask()'
@@ -1180,6 +1230,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetType()
   id: 'GetType()'
   so.intellisense: NSAppointmentEntity.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -1200,6 +1251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSAppointmentEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -1220,6 +1272,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSAppointmentEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -1240,6 +1293,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetUserDefinedFields()
   id: 'GetUserDefinedFields()'
   so.intellisense: NSAppointmentEntity.GetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFields()'
@@ -1260,6 +1314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetVisibleFor()
   id: 'GetVisibleFor()'
   so.intellisense: NSAppointmentEntity.GetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleFor()'
@@ -1280,6 +1335,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetActiveDate(DateTime)
   id: 'SetActiveDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetActiveDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveDate(DateTime)'
@@ -1302,6 +1358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetActiveLinks(Integer)
   id: 'SetActiveLinks(Integer)'
   so.intellisense: NSAppointmentEntity.SetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveLinks(Integer)'
@@ -1324,6 +1381,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAlarmLeadTime(TimeSpan)
   id: 'SetAlarmLeadTime(TimeSpan)'
   so.intellisense: NSAppointmentEntity.SetAlarmLeadTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAlarmLeadTime(TimeSpan)'
@@ -1346,6 +1404,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAlldayEvent(Bool)
   id: 'SetAlldayEvent(Bool)'
   so.intellisense: NSAppointmentEntity.SetAlldayEvent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAlldayEvent(Bool)'
@@ -1367,6 +1426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAppointmentId(Integer)
   id: 'SetAppointmentId(Integer)'
   so.intellisense: NSAppointmentEntity.SetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointmentId(Integer)'
@@ -1389,6 +1449,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAssignedBy(NSAssociate)
   id: 'SetAssignedBy(NSAssociate)'
   so.intellisense: NSAppointmentEntity.SetAssignedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssignedBy(NSAssociate)'
@@ -1411,6 +1472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAssignmentStatus(Integer)
   id: 'SetAssignmentStatus(Integer)'
   so.intellisense: NSAppointmentEntity.SetAssignmentStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssignmentStatus(Integer)'
@@ -1433,6 +1495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSAppointmentEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -1455,6 +1518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetBookingType(Integer)
   id: 'SetBookingType(Integer)'
   so.intellisense: NSAppointmentEntity.SetBookingType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBookingType(Integer)'
@@ -1521,6 +1585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetColorIndex(Integer)
   id: 'SetColorIndex(Integer)'
   so.intellisense: NSAppointmentEntity.SetColorIndex
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetColorIndex(Integer)'
@@ -1543,6 +1608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSAppointmentEntity.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -1565,6 +1631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetContact(NSContact)
   id: 'SetContact(NSContact)'
   so.intellisense: NSAppointmentEntity.SetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContact(NSContact)'
@@ -1587,6 +1654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSAppointmentEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -1609,6 +1677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -1631,6 +1700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSAppointmentEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -1653,6 +1723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSAppointmentEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -1675,6 +1746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetEndDate(DateTime)
   id: 'SetEndDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndDate(DateTime)'
@@ -1697,6 +1769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSAppointmentEntity.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -1719,6 +1792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetFreeBusy(Bool)
   id: 'SetFreeBusy(Bool)'
   so.intellisense: NSAppointmentEntity.SetFreeBusy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFreeBusy(Bool)'
@@ -1740,6 +1814,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetHasAlarm(Bool)
   id: 'SetHasAlarm(Bool)'
   so.intellisense: NSAppointmentEntity.SetHasAlarm
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHasAlarm(Bool)'
@@ -1762,6 +1837,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetHasConflict(Bool)
   id: 'SetHasConflict(Bool)'
   so.intellisense: NSAppointmentEntity.SetHasConflict
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHasConflict(Bool)'
@@ -1784,6 +1860,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   id: 'SetInvitationStatus(Integer)'
   so.intellisense: NSAppointmentEntity.SetInvitationStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInvitationStatus(Integer)'
@@ -1806,6 +1883,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInvitedPerson(NSPerson)
   id: 'SetInvitedPerson(NSPerson)'
   so.intellisense: NSAppointmentEntity.SetInvitedPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetInvitedPerson(NSPerson)'
@@ -1828,6 +1906,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetIsAlldayEvent(Bool)
   id: 'SetIsAlldayEvent(Bool)'
   so.intellisense: NSAppointmentEntity.SetIsAlldayEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAlldayEvent(Bool)'
@@ -1850,6 +1929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetIsFree(Bool)
   id: 'SetIsFree(Bool)'
   so.intellisense: NSAppointmentEntity.SetIsFree
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsFree(Bool)'
@@ -1872,6 +1952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetIsMileStone(Bool)
   id: 'SetIsMileStone(Bool)'
   so.intellisense: NSAppointmentEntity.SetIsMileStone
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetIsMileStone(Bool)'
@@ -1894,6 +1975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSAppointmentEntity.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -1937,6 +2019,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetLagTime(TimeSpan)
   id: 'SetLagTime(TimeSpan)'
   so.intellisense: NSAppointmentEntity.SetLagTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLagTime(TimeSpan)'
@@ -1959,6 +2042,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetLeadTime(TimeSpan)
   id: 'SetLeadTime(TimeSpan)'
   so.intellisense: NSAppointmentEntity.SetLeadTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLeadTime(TimeSpan)'
@@ -1981,6 +2065,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetLinks(NSLink[])
   id: 'SetLinks(NSLink[])'
   so.intellisense: NSAppointmentEntity.SetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinks(NSLink[])'
@@ -2003,6 +2088,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetLocation(String)
   id: 'SetLocation(String)'
   so.intellisense: NSAppointmentEntity.SetLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLocation(String)'
@@ -2025,6 +2111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetMotherAssociate(NSAssociate)
   id: 'SetMotherAssociate(NSAssociate)'
   so.intellisense: NSAppointmentEntity.SetMotherAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMotherAssociate(NSAssociate)'
@@ -2047,6 +2134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetMotherId(Integer)
   id: 'SetMotherId(Integer)'
   so.intellisense: NSAppointmentEntity.SetMotherId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMotherId(Integer)'
@@ -2069,6 +2157,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetParticipants(NSParticipantInfo[])
   id: 'SetParticipants(NSParticipantInfo[])'
   so.intellisense: NSAppointmentEntity.SetParticipants
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetParticipants(NSParticipantInfo[])'
@@ -2091,6 +2180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSAppointmentEntity.SetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -2113,6 +2203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPreferredTZLocation(Integer)
   id: 'SetPreferredTZLocation(Integer)'
   so.intellisense: NSAppointmentEntity.SetPreferredTZLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreferredTZLocation(Integer)'
@@ -2135,6 +2226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPriority(NSPriority)
   id: 'SetPriority(NSPriority)'
   so.intellisense: NSAppointmentEntity.SetPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPriority(NSPriority)'
@@ -2157,6 +2249,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPrivate(Integer)
   id: 'SetPrivate(Integer)'
   so.intellisense: NSAppointmentEntity.SetPrivate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPrivate(Integer)'
@@ -2179,6 +2272,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetProject(NSProject)
   id: 'SetProject(NSProject)'
   so.intellisense: NSAppointmentEntity.SetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProject(NSProject)'
@@ -2201,6 +2295,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPublishEventDate(DateTime)
   id: 'SetPublishEventDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishEventDate(DateTime)'
@@ -2222,6 +2317,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSAppointmentEntity.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -2243,6 +2339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSAppointmentEntity.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -2264,6 +2361,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetRecurrence(NSRecurrenceInfo)
   id: 'SetRecurrence(NSRecurrenceInfo)'
   so.intellisense: NSAppointmentEntity.SetRecurrence
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRecurrence(NSRecurrenceInfo)'
@@ -2286,6 +2384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetRejectCounter(Integer)
   id: 'SetRejectCounter(Integer)'
   so.intellisense: NSAppointmentEntity.SetRejectCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRejectCounter(Integer)'
@@ -2308,6 +2407,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetRejectReason(String)
   id: 'SetRejectReason(String)'
   so.intellisense: NSAppointmentEntity.SetRejectReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRejectReason(String)'
@@ -2330,6 +2430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetSale(NSSale)
   id: 'SetSale(NSSale)'
   so.intellisense: NSAppointmentEntity.SetSale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSale(NSSale)'
@@ -2352,6 +2453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetStartDate(DateTime)
   id: 'SetStartDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartDate(DateTime)'
@@ -2372,6 +2474,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetSuggestedAppointmentId(Integer)
   id: 'SetSuggestedAppointmentId(Integer)'
   so.intellisense: NSAppointmentEntity.SetSuggestedAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSuggestedAppointmentId(Integer)'
@@ -2394,6 +2497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   id: 'SetTask(NSTaskListItem)'
   so.intellisense: NSAppointmentEntity.SetTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTask(NSTaskListItem)'
@@ -2416,6 +2520,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSAppointmentEntity.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -2438,6 +2543,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSAppointmentEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -2460,6 +2566,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSAppointmentEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -2482,6 +2589,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetUserDefinedFields(Map)
   id: 'SetUserDefinedFields(Map)'
   so.intellisense: NSAppointmentEntity.SetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserDefinedFields(Map)'

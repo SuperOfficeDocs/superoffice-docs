@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMDOAgent
   commentId: T:CRMScript.NetServer.NSMDOAgent
   id: NSMDOAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetList(String,Bool,String,Bool)
   id: 'GetList(String,Bool,String,Bool)'
   so.intellisense: NSMDOAgent.GetList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetList(String,Bool,String,Bool)'
@@ -77,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetListIdByListName(String)
   id: 'GetListIdByListName(String)'
   so.intellisense: NSMDOAgent.GetListIdByListName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetListIdByListName(String)'
@@ -100,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetListItem(String,Integer)
   id: 'GetListItem(String,Integer)'
   so.intellisense: NSMDOAgent.GetListItem
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetListItem(String,Integer)'
@@ -125,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetListNames()
   id: 'GetListNames()'
   so.intellisense: NSMDOAgent.GetListNames
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetListNames()'
@@ -145,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetListWithHistory(String,Bool,String,Integer[],Bool)
   id: 'GetListWithHistory(String,Bool,String,Integer[],Bool)'
   so.intellisense: NSMDOAgent.GetListWithHistory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetListWithHistory(String,Bool,String,Integer[],Bool)'
@@ -179,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetListWithRestriction(String,String,String)
   id: 'GetListWithRestriction(String,String,String)'
   so.intellisense: NSMDOAgent.GetListWithRestriction
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetListWithRestriction(String,String,String)'
@@ -207,6 +214,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetSelectableList(String,Bool,String,Bool)
   id: 'GetSelectableList(String,Bool,String,Bool)'
   so.intellisense: NSMDOAgent.GetSelectableList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectableList(String,Bool,String,Bool)'
@@ -238,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetSelectableListWithHistory(String,Bool,String,Integer[],Bool)
   id: 'GetSelectableListWithHistory(String,Bool,String,Integer[],Bool)'
   so.intellisense: NSMDOAgent.GetSelectableListWithHistory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectableListWithHistory(String,Bool,String,Integer[],Bool)'
@@ -272,6 +281,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetSelectableListWithRestriction(String,String,String)
   id: 'GetSelectableListWithRestriction(String,String,String)'
   so.intellisense: NSMDOAgent.GetSelectableListWithRestriction
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectableListWithRestriction(String,String,String)'
@@ -300,6 +310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetSelectableSimpleList(String)
   id: 'GetSelectableSimpleList(String)'
   so.intellisense: NSMDOAgent.GetSelectableSimpleList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectableSimpleList(String)'
@@ -322,6 +333,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMDOAgent.GetSimpleList(String)
   id: 'GetSimpleList(String)'
   so.intellisense: NSMDOAgent.GetSimpleList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSimpleList(String)'

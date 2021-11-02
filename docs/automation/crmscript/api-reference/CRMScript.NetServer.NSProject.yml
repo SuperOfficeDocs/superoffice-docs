@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProject
   commentId: T:CRMScript.NetServer.NSProject
   id: NSProject
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -68,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetActiveErpLinks()
   id: 'GetActiveErpLinks()'
   so.intellisense: NSProject.GetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveErpLinks()'
@@ -88,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetAssociateFullName()
   id: 'GetAssociateFullName()'
   so.intellisense: NSProject.GetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateFullName()'
@@ -108,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSProject.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -128,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSProject.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -148,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSProject.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -168,6 +174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetName()
   id: 'GetName()'
   so.intellisense: NSProject.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -188,6 +195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSProject.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -208,6 +216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetProjectNumber()
   id: 'GetProjectNumber()'
   so.intellisense: NSProject.GetProjectNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectNumber()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSProject.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -248,6 +258,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSProject.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -268,6 +279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSProject.GetStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -288,6 +300,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetStatusId()
   id: 'GetStatusId()'
   so.intellisense: NSProject.GetStatusId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatusId()'
@@ -308,6 +321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetTextId()
   id: 'GetTextId()'
   so.intellisense: NSProject.GetTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTextId()'
@@ -328,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetType()
   id: 'GetType()'
   so.intellisense: NSProject.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -348,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetTypeId()
   id: 'GetTypeId()'
   so.intellisense: NSProject.GetTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTypeId()'
@@ -368,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSProject.GetUpdated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -388,6 +405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetURL()
   id: 'GetURL()'
   so.intellisense: NSProject.GetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetURL()'
@@ -408,6 +426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.GetURLName()
   id: 'GetURLName()'
   so.intellisense: NSProject.GetURLName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetURLName()'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetActiveErpLinks(Integer)
   id: 'SetActiveErpLinks(Integer)'
   so.intellisense: NSProject.SetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveErpLinks(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetAssociateFullName(String)
   id: 'SetAssociateFullName(String)'
   so.intellisense: NSProject.SetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateFullName(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSProject.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSProject.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSProject.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSProject.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSProject.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetProjectNumber(String)
   id: 'SetProjectNumber(String)'
   so.intellisense: NSProject.SetProjectNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectNumber(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSProject.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSProject.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetStatus(String)
   id: 'SetStatus(String)'
   so.intellisense: NSProject.SetStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStatus(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetStatusId(Integer)
   id: 'SetStatusId(Integer)'
   so.intellisense: NSProject.SetStatusId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStatusId(Integer)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetTextId(Integer)
   id: 'SetTextId(Integer)'
   so.intellisense: NSProject.SetTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTextId(Integer)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetType(String)
   id: 'SetType(String)'
   so.intellisense: NSProject.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetTypeId(Integer)
   id: 'SetTypeId(Integer)'
   so.intellisense: NSProject.SetTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTypeId(Integer)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSProject.SetUpdated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetURL(String)
   id: 'SetURL(String)'
   so.intellisense: NSProject.SetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetURL(String)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProject.SetURLName(String)
   id: 'SetURLName(String)'
   so.intellisense: NSProject.SetURLName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetURLName(String)'

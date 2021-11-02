@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRecurrenceDayPattern
   commentId: T:CRMScript.NetServer.NSRecurrenceDayPattern
   id: NSRecurrenceDayPattern
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceDayPattern.GetCycle()
   id: 'GetCycle()'
   so.intellisense: NSRecurrenceDayPattern.GetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCycle()'
@@ -54,6 +56,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceDayPattern.GetPattern()
   id: 'GetPattern()'
   so.intellisense: NSRecurrenceDayPattern.GetPattern
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPattern()'
@@ -72,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceDayPattern.SetCycle(Integer)
   id: 'SetCycle(Integer)'
   so.intellisense: NSRecurrenceDayPattern.SetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCycle(Integer)'
@@ -93,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceDayPattern.SetPattern(Integer)
   id: 'SetPattern(Integer)'
   so.intellisense: NSRecurrenceDayPattern.SetPattern
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPattern(Integer)'

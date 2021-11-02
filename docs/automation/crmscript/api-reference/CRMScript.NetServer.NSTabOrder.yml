@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTabOrder
   commentId: T:CRMScript.NetServer.NSTabOrder
   id: NSTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSTabOrder.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.GetOrder()
   id: 'GetOrder()'
   so.intellisense: NSTabOrder.GetOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOrder()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.GetTabName()
   id: 'GetTabName()'
   so.intellisense: NSTabOrder.GetTabName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabName()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.GetTabOrderId()
   id: 'GetTabOrderId()'
   so.intellisense: NSTabOrder.GetTabOrderId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabOrderId()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSTabOrder.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.SetOrder(String)
   id: 'SetOrder(String)'
   so.intellisense: NSTabOrder.SetOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOrder(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.SetTabName(String)
   id: 'SetTabName(String)'
   so.intellisense: NSTabOrder.SetTabName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTabName(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTabOrder.SetTabOrderId(Integer)
   id: 'SetTabOrderId(Integer)'
   so.intellisense: NSTabOrder.SetTabOrderId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTabOrderId(Integer)'

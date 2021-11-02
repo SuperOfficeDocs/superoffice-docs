@@ -400,6 +400,7 @@ items:
   commentId: M:CRMScript.Native.WeekSchedule.loadFromPriority(Integer)
   id: 'loadFromPriority(Integer)'
   so.intellisense: WeekSchedule.loadFromPriority
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'loadFromPriority(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoInt
   commentId: T:CRMScript.NetServer.NSFieldInfoInt
   id: NSFieldInfoInt
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -34,6 +35,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoInt.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoInt.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -54,6 +56,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoInt.SetDefaultValue(Integer)
   id: 'SetDefaultValue(Integer)'
   so.intellisense: NSFieldInfoInt.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Integer)'

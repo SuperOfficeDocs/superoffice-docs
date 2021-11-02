@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLocalizedField
   commentId: T:CRMScript.NetServer.NSLocalizedField
   id: NSLocalizedField
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetAddressType()
   id: 'GetAddressType()'
   so.intellisense: NSLocalizedField.GetAddressType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddressType()'
@@ -63,6 +65,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetLabel()
   id: 'GetLabel()'
   so.intellisense: NSLocalizedField.GetLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLabel()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetName()
   id: 'GetName()'
   so.intellisense: NSLocalizedField.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -101,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSLocalizedField.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetValue()
   id: 'GetValue()'
   so.intellisense: NSLocalizedField.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -139,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.GetValueLength()
   id: 'GetValueLength()'
   so.intellisense: NSLocalizedField.GetValueLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValueLength()'
@@ -158,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetAddressType(String)
   id: 'SetAddressType(String)'
   so.intellisense: NSLocalizedField.SetAddressType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAddressType(String)'
@@ -179,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetLabel(String)
   id: 'SetLabel(String)'
   so.intellisense: NSLocalizedField.SetLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLabel(String)'
@@ -200,6 +209,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSLocalizedField.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -221,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSLocalizedField.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -242,6 +253,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSLocalizedField.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'
@@ -263,6 +275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedField.SetValueLength(Integer)
   id: 'SetValueLength(Integer)'
   so.intellisense: NSLocalizedField.SetValueLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValueLength(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSVersionInfo
   commentId: T:CRMScript.NetServer.NSVersionInfo
   id: NSVersionInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -50,6 +51,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInByAssociateId()
   id: 'GetCheckedInByAssociateId()'
   so.intellisense: NSVersionInfo.GetCheckedInByAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCheckedInByAssociateId()'
@@ -70,6 +72,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInByName()
   id: 'GetCheckedInByName()'
   so.intellisense: NSVersionInfo.GetCheckedInByName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCheckedInByName()'
@@ -90,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInDate()
   id: 'GetCheckedInDate()'
   so.intellisense: NSVersionInfo.GetCheckedInDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCheckedInDate()'
@@ -110,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSVersionInfo.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -130,6 +135,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetDisplayText()
   id: 'GetDisplayText()'
   so.intellisense: NSVersionInfo.GetDisplayText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayText()'
@@ -150,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSVersionInfo.GetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -170,6 +177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetExternalReference()
   id: 'GetExternalReference()'
   so.intellisense: NSVersionInfo.GetExternalReference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExternalReference()'
@@ -190,6 +198,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSVersionInfo.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -210,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.GetVersionId()
   id: 'GetVersionId()'
   so.intellisense: NSVersionInfo.GetVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVersionId()'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInByAssociateId(Integer)
   id: 'SetCheckedInByAssociateId(Integer)'
   so.intellisense: NSVersionInfo.SetCheckedInByAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCheckedInByAssociateId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInByName(String)
   id: 'SetCheckedInByName(String)'
   so.intellisense: NSVersionInfo.SetCheckedInByName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCheckedInByName(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInDate(DateTime)
   id: 'SetCheckedInDate(DateTime)'
   so.intellisense: NSVersionInfo.SetCheckedInDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCheckedInDate(DateTime)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSVersionInfo.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetDisplayText(String)
   id: 'SetDisplayText(String)'
   so.intellisense: NSVersionInfo.SetDisplayText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayText(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSVersionInfo.SetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetExternalReference(String)
   id: 'SetExternalReference(String)'
   so.intellisense: NSVersionInfo.SetExternalReference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExternalReference(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetExtraFields(String[])
   id: 'SetExtraFields(String[])'
   so.intellisense: NSVersionInfo.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(String[])'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVersionInfo.SetVersionId(String)
   id: 'SetVersionId(String)'
   so.intellisense: NSVersionInfo.SetVersionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVersionId(String)'

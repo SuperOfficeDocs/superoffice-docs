@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreferenceSpec
   commentId: T:CRMScript.NetServer.NSPreferenceSpec
   id: NSPreferenceSpec
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceSpec.GetKey()
   id: 'GetKey()'
   so.intellisense: NSPreferenceSpec.GetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKey()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceSpec.GetSection()
   id: 'GetSection()'
   so.intellisense: NSPreferenceSpec.GetSection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSection()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceSpec.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSPreferenceSpec.SetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceSpec.SetSection(String)
   id: 'SetSection(String)'
   so.intellisense: NSPreferenceSpec.SetSection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSection(String)'

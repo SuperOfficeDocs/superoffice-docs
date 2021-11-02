@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLocalizedText
   commentId: T:CRMScript.NetServer.NSLocalizedText
   id: NSLocalizedText
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetIsBuiltIn()
   id: 'GetIsBuiltIn()'
   so.intellisense: NSLocalizedText.GetIsBuiltIn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsBuiltIn()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetLanguageId()
   id: 'GetLanguageId()'
   so.intellisense: NSLocalizedText.GetLanguageId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLanguageId()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetLocalizedTextId()
   id: 'GetLocalizedTextId()'
   so.intellisense: NSLocalizedText.GetLocalizedTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTextId()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetResourceId()
   id: 'GetResourceId()'
   so.intellisense: NSLocalizedText.GetResourceId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetResourceId()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetText()
   id: 'GetText()'
   so.intellisense: NSLocalizedText.GetText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetText()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.GetType()
   id: 'GetType()'
   so.intellisense: NSLocalizedText.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetIsBuiltIn(Bool)
   id: 'SetIsBuiltIn(Bool)'
   so.intellisense: NSLocalizedText.SetIsBuiltIn
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsBuiltIn(Bool)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetLanguageId(Integer)
   id: 'SetLanguageId(Integer)'
   so.intellisense: NSLocalizedText.SetLanguageId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLanguageId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetLocalizedTextId(Integer)
   id: 'SetLocalizedTextId(Integer)'
   so.intellisense: NSLocalizedText.SetLocalizedTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLocalizedTextId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetResourceId(Integer)
   id: 'SetResourceId(Integer)'
   so.intellisense: NSLocalizedText.SetResourceId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetResourceId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetText(String)
   id: 'SetText(String)'
   so.intellisense: NSLocalizedText.SetText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetText(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLocalizedText.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSLocalizedText.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'

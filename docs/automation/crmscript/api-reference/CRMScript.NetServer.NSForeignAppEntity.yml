@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSForeignAppEntity
   commentId: T:CRMScript.NetServer.NSForeignAppEntity
   id: NSForeignAppEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSForeignAppEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSForeignAppEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetDevices()
   id: 'GetDevices()'
   so.intellisense: NSForeignAppEntity.GetDevices
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDevices()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetForeignAppId()
   id: 'GetForeignAppId()'
   so.intellisense: NSForeignAppEntity.GetForeignAppId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetForeignAppId()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSForeignAppEntity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSForeignAppEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSForeignAppEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSForeignAppEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSForeignAppEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetDevices(NSForeignDevice[])
   id: 'SetDevices(NSForeignDevice[])'
   so.intellisense: NSForeignAppEntity.SetDevices
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDevices(NSForeignDevice[])'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetForeignAppId(Integer)
   id: 'SetForeignAppId(Integer)'
   so.intellisense: NSForeignAppEntity.SetForeignAppId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetForeignAppId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSForeignAppEntity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSForeignAppEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSForeignAppEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'

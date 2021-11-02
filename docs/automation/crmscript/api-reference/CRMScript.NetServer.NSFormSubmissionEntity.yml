@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFormSubmissionEntity
   commentId: T:CRMScript.NetServer.NSFormSubmissionEntity
   id: NSFormSubmissionEntity
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSFormSubmissionEntity.GetContactId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetEmailAddress()
   id: 'GetEmailAddress()'
   so.intellisense: NSFormSubmissionEntity.GetEmailAddress
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetEmailAddress()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetFormId()
   id: 'GetFormId()'
   so.intellisense: NSFormSubmissionEntity.GetFormId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormId()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetFormSubmissionId()
   id: 'GetFormSubmissionId()'
   so.intellisense: NSFormSubmissionEntity.GetFormSubmissionId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormSubmissionId()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSFormSubmissionEntity.GetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetProcessingLog()
   id: 'GetProcessingLog()'
   so.intellisense: NSFormSubmissionEntity.GetProcessingLog
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetProcessingLog()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetResponse()
   id: 'GetResponse()'
   so.intellisense: NSFormSubmissionEntity.GetResponse
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetResponse()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetResponseShipmentAddrId()
   id: 'GetResponseShipmentAddrId()'
   so.intellisense: NSFormSubmissionEntity.GetResponseShipmentAddrId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetResponseShipmentAddrId()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSFormSubmissionEntity.GetStatus
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.GetWhenSubmitted()
   id: 'GetWhenSubmitted()'
   so.intellisense: NSFormSubmissionEntity.GetWhenSubmitted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetWhenSubmitted()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSFormSubmissionEntity.SetContactId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetEmailAddress(String)
   id: 'SetEmailAddress(String)'
   so.intellisense: NSFormSubmissionEntity.SetEmailAddress
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetEmailAddress(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetFormId(Integer)
   id: 'SetFormId(Integer)'
   so.intellisense: NSFormSubmissionEntity.SetFormId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFormId(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetFormSubmissionId(Integer)
   id: 'SetFormSubmissionId(Integer)'
   so.intellisense: NSFormSubmissionEntity.SetFormSubmissionId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFormSubmissionId(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSFormSubmissionEntity.SetPersonId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetProcessingLog(String)
   id: 'SetProcessingLog(String)'
   so.intellisense: NSFormSubmissionEntity.SetProcessingLog
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetProcessingLog(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetResponse(String)
   id: 'SetResponse(String)'
   so.intellisense: NSFormSubmissionEntity.SetResponse
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetResponse(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormSubmissionEntity.SetResponseShipmentAddrId(Integer)
   id: 'SetResponseShipmentAddrId(Integer)'
   so.intellisense: NSFormSubmissionEntity.SetResponseShipmentAddrId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetResponseShipmentAddrId(Integer)'

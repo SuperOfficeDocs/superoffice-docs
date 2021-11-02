@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSStream
   commentId: T:CRMScript.NetServer.NSStream
   id: NSStream
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -34,6 +35,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStream.GetStream()
   id: 'GetStream()'
   so.intellisense: NSStream.GetStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStream()'
@@ -52,6 +54,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStream.SetStream(Byte[])
   id: 'SetStream(Byte[])'
   so.intellisense: NSStream.SetStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStream(Byte[])'

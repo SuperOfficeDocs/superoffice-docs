@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSReturnInfo
   commentId: T:CRMScript.NetServer.NSReturnInfo
   id: NSReturnInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetAdditionalInfo()
   id: 'GetAdditionalInfo()'
   so.intellisense: NSReturnInfo.GetAdditionalInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAdditionalInfo()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetExternalReference()
   id: 'GetExternalReference()'
   so.intellisense: NSReturnInfo.GetExternalReference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExternalReference()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetSuccess()
   id: 'GetSuccess()'
   so.intellisense: NSReturnInfo.GetSuccess
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSuccess()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetType()
   id: 'GetType()'
   so.intellisense: NSReturnInfo.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetValue()
   id: 'GetValue()'
   so.intellisense: NSReturnInfo.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.GetVersionId()
   id: 'GetVersionId()'
   so.intellisense: NSReturnInfo.GetVersionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVersionId()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetAdditionalInfo(String)
   id: 'SetAdditionalInfo(String)'
   so.intellisense: NSReturnInfo.SetAdditionalInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAdditionalInfo(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetExternalReference(String)
   id: 'SetExternalReference(String)'
   so.intellisense: NSReturnInfo.SetExternalReference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExternalReference(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetSuccess(Bool)
   id: 'SetSuccess(Bool)'
   so.intellisense: NSReturnInfo.SetSuccess
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSuccess(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSReturnInfo.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -250,6 +261,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSReturnInfo.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'
@@ -272,6 +284,7 @@ items:
   commentId: M:CRMScript.NetServer.NSReturnInfo.SetVersionId(String)
   id: 'SetVersionId(String)'
   so.intellisense: NSReturnInfo.SetVersionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVersionId(String)'

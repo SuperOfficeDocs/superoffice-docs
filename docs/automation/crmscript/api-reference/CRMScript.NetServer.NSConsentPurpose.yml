@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSConsentPurpose
   commentId: T:CRMScript.NetServer.NSConsentPurpose
   id: NSConsentPurpose
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetActive()
   id: 'GetActive()'
   so.intellisense: NSConsentPurpose.GetActive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetActive()'
@@ -78,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetConsentPurposeId()
   id: 'GetConsentPurposeId()'
   so.intellisense: NSConsentPurpose.GetConsentPurposeId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPurposeId()'
@@ -98,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetConsentText()
   id: 'GetConsentText()'
   so.intellisense: NSConsentPurpose.GetConsentText
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentText()'
@@ -118,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSConsentPurpose.GetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetFormText()
   id: 'GetFormText()'
   so.intellisense: NSConsentPurpose.GetFormText
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormText()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetKey()
   id: 'GetKey()'
   so.intellisense: NSConsentPurpose.GetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetKey()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetName()
   id: 'GetName()'
   so.intellisense: NSConsentPurpose.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementDesc()
   id: 'GetPrivacyStatementDesc()'
   so.intellisense: NSConsentPurpose.GetPrivacyStatementDesc
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPrivacyStatementDesc()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementUrl()
   id: 'GetPrivacyStatementUrl()'
   so.intellisense: NSConsentPurpose.GetPrivacyStatementUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPrivacyStatementUrl()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetRank()
   id: 'GetRank()'
   so.intellisense: NSConsentPurpose.GetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRank()'
@@ -258,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSConsentPurpose.GetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -278,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSConsentPurpose.GetUpdatedBy
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -298,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSConsentPurpose.GetUpdatedDate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetActive(Integer)
   id: 'SetActive(Integer)'
   so.intellisense: NSConsentPurpose.SetActive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetActive(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetConsentPurposeId(Integer)
   id: 'SetConsentPurposeId(Integer)'
   so.intellisense: NSConsentPurpose.SetConsentPurposeId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentPurposeId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetConsentText(String)
   id: 'SetConsentText(String)'
   so.intellisense: NSConsentPurpose.SetConsentText
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsentText(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSConsentPurpose.SetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetFormText(String)
   id: 'SetFormText(String)'
   so.intellisense: NSConsentPurpose.SetFormText
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFormText(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSConsentPurpose.SetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSConsentPurpose.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementDesc(String)
   id: 'SetPrivacyStatementDesc(String)'
   so.intellisense: NSConsentPurpose.SetPrivacyStatementDesc
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPrivacyStatementDesc(String)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementUrl(String)
   id: 'SetPrivacyStatementUrl(String)'
   so.intellisense: NSConsentPurpose.SetPrivacyStatementUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPrivacyStatementUrl(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSConsentPurpose.SetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSConsentPurpose.SetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSConsentPurpose.SetUpdatedBy
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConsentPurpose.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSConsentPurpose.SetUpdatedDate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSelectionEntity
   commentId: T:CRMScript.NetServer.NSSelectionEntity
   id: NSSelectionEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -112,6 +113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSSelectionEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -152,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCompanyUnique()
   id: 'GetCompanyUnique()'
   so.intellisense: NSSelectionEntity.GetCompanyUnique
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyUnique()'
@@ -172,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSSelectionEntity.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -192,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSSelectionEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -212,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSSelectionEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -232,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSSelectionEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -252,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetGroupIdx()
   id: 'GetGroupIdx()'
   so.intellisense: NSSelectionEntity.GetGroupIdx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGroupIdx()'
@@ -272,6 +280,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetIncludePerson()
   id: 'GetIncludePerson()'
   so.intellisense: NSSelectionEntity.GetIncludePerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIncludePerson()'
@@ -412,6 +421,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLeftSelectionId()
   id: 'GetLeftSelectionId()'
   so.intellisense: NSSelectionEntity.GetLeftSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLeftSelectionId()'
@@ -492,6 +502,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMemberCount()
   id: 'GetMemberCount()'
   so.intellisense: NSSelectionEntity.GetMemberCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMemberCount()'
@@ -532,6 +543,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSSelectionEntity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -552,6 +564,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetPostit()
   id: 'GetPostit()'
   so.intellisense: NSSelectionEntity.GetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPostit()'
@@ -572,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetPostitTextId()
   id: 'GetPostitTextId()'
   so.intellisense: NSSelectionEntity.GetPostitTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPostitTextId()'
@@ -592,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetRightSelectionId()
   id: 'GetRightSelectionId()'
   so.intellisense: NSSelectionEntity.GetRightSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRightSelectionId()'
@@ -612,6 +627,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionCategory()
   id: 'GetSelectionCategory()'
   so.intellisense: NSSelectionEntity.GetSelectionCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionCategory()'
@@ -631,6 +647,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionId()
   id: 'GetSelectionId()'
   so.intellisense: NSSelectionEntity.GetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionId()'
@@ -651,6 +668,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionType()
   id: 'GetSelectionType()'
   so.intellisense: NSSelectionEntity.GetSelectionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionType()'
@@ -671,6 +689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionUnionType()
   id: 'GetSelectionUnionType()'
   so.intellisense: NSSelectionEntity.GetSelectionUnionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionUnionType()'
@@ -711,6 +730,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSoundEx()
   id: 'GetSoundEx()'
   so.intellisense: NSSelectionEntity.GetSoundEx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSoundEx()'
@@ -731,6 +751,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSource()
   id: 'GetSource()'
   so.intellisense: NSSelectionEntity.GetSource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSource()'
@@ -751,6 +772,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTargetTableName()
   id: 'GetTargetTableName()'
   so.intellisense: NSSelectionEntity.GetTargetTableName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTargetTableName()'
@@ -771,6 +793,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTargetTableNumber()
   id: 'GetTargetTableNumber()'
   so.intellisense: NSSelectionEntity.GetTargetTableNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTargetTableNumber()'
@@ -791,6 +814,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTextId()
   id: 'GetTextId()'
   so.intellisense: NSSelectionEntity.GetTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTextId()'
@@ -811,6 +835,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSSelectionEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -831,6 +856,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedCount()
   id: 'GetUpdatedCount()'
   so.intellisense: NSSelectionEntity.GetUpdatedCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedCount()'
@@ -851,6 +877,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSSelectionEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -871,6 +898,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetVisibility()
   id: 'GetVisibility()'
   so.intellisense: NSSelectionEntity.GetVisibility
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibility()'
@@ -891,6 +919,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.GetVisibleFor()
   id: 'GetVisibleFor()'
   so.intellisense: NSSelectionEntity.GetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleFor()'
@@ -910,6 +939,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSSelectionEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -954,6 +984,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCompanyUnique(Bool)
   id: 'SetCompanyUnique(Bool)'
   so.intellisense: NSSelectionEntity.SetCompanyUnique
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyUnique(Bool)'
@@ -976,6 +1007,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCompleted(Bool)
   id: 'SetCompleted(Bool)'
   so.intellisense: NSSelectionEntity.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Bool)'
@@ -998,6 +1030,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSSelectionEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -1020,6 +1053,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSSelectionEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -1042,6 +1076,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSSelectionEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -1064,6 +1099,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetGroupIdx(Integer)
   id: 'SetGroupIdx(Integer)'
   so.intellisense: NSSelectionEntity.SetGroupIdx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGroupIdx(Integer)'
@@ -1086,6 +1122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetIncludePerson(Integer)
   id: 'SetIncludePerson(Integer)'
   so.intellisense: NSSelectionEntity.SetIncludePerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIncludePerson(Integer)'
@@ -1238,6 +1275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLeftSelectionId(Integer)
   id: 'SetLeftSelectionId(Integer)'
   so.intellisense: NSSelectionEntity.SetLeftSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLeftSelectionId(Integer)'
@@ -1326,6 +1364,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMemberCount(Integer)
   id: 'SetMemberCount(Integer)'
   so.intellisense: NSSelectionEntity.SetMemberCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMemberCount(Integer)'
@@ -1370,6 +1409,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSSelectionEntity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -1392,6 +1432,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetPostit(String)
   id: 'SetPostit(String)'
   so.intellisense: NSSelectionEntity.SetPostit
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPostit(String)'
@@ -1414,6 +1455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetPostitTextId(Integer)
   id: 'SetPostitTextId(Integer)'
   so.intellisense: NSSelectionEntity.SetPostitTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPostitTextId(Integer)'
@@ -1436,6 +1478,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetRightSelectionId(Integer)
   id: 'SetRightSelectionId(Integer)'
   so.intellisense: NSSelectionEntity.SetRightSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRightSelectionId(Integer)'
@@ -1458,6 +1501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
   id: 'SetSelectionCategory(NSSelectionCategory)'
   so.intellisense: NSSelectionEntity.SetSelectionCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionCategory(NSSelectionCategory)'
@@ -1480,6 +1524,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionId(Integer)
   id: 'SetSelectionId(Integer)'
   so.intellisense: NSSelectionEntity.SetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionId(Integer)'
@@ -1502,6 +1547,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionType(Integer)
   id: 'SetSelectionType(Integer)'
   so.intellisense: NSSelectionEntity.SetSelectionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionType(Integer)'
@@ -1524,6 +1570,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionUnionType(Integer)
   id: 'SetSelectionUnionType(Integer)'
   so.intellisense: NSSelectionEntity.SetSelectionUnionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionUnionType(Integer)'
@@ -1568,6 +1615,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSoundEx(String)
   id: 'SetSoundEx(String)'
   so.intellisense: NSSelectionEntity.SetSoundEx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSoundEx(String)'
@@ -1590,6 +1638,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSource(Integer)
   id: 'SetSource(Integer)'
   so.intellisense: NSSelectionEntity.SetSource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSource(Integer)'
@@ -1612,6 +1661,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTargetTableName(String)
   id: 'SetTargetTableName(String)'
   so.intellisense: NSSelectionEntity.SetTargetTableName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTargetTableName(String)'
@@ -1634,6 +1684,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTargetTableNumber(Integer)
   id: 'SetTargetTableNumber(Integer)'
   so.intellisense: NSSelectionEntity.SetTargetTableNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTargetTableNumber(Integer)'
@@ -1656,6 +1707,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTextId(Integer)
   id: 'SetTextId(Integer)'
   so.intellisense: NSSelectionEntity.SetTextId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTextId(Integer)'
@@ -1678,6 +1730,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSSelectionEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -1700,6 +1753,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedCount(Integer)
   id: 'SetUpdatedCount(Integer)'
   so.intellisense: NSSelectionEntity.SetUpdatedCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedCount(Integer)'
@@ -1722,6 +1776,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSSelectionEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -1744,6 +1799,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionEntity.SetVisibility(Integer)
   id: 'SetVisibility(Integer)'
   so.intellisense: NSSelectionEntity.SetVisibility
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVisibility(Integer)'

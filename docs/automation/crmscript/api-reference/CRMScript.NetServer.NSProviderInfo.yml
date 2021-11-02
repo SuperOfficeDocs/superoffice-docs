@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProviderInfo
   commentId: T:CRMScript.NetServer.NSProviderInfo
   id: NSProviderInfo
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSProviderInfo.GetName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetName()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.GetSupportedMessagingFormats()
   id: 'GetSupportedMessagingFormats()'
   so.intellisense: NSProviderInfo.GetSupportedMessagingFormats
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSupportedMessagingFormats()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.GetSupportsConfig()
   id: 'GetSupportsConfig()'
   so.intellisense: NSProviderInfo.GetSupportsConfig
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetSupportsConfig()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSProviderInfo.SetName
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.SetSupportedMessagingFormats(String[])
   id: 'SetSupportedMessagingFormats(String[])'
   so.intellisense: NSProviderInfo.SetSupportedMessagingFormats
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSupportedMessagingFormats(String[])'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProviderInfo.SetSupportsConfig(Bool)
   id: 'SetSupportsConfig(Bool)'
   so.intellisense: NSProviderInfo.SetSupportsConfig
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetSupportsConfig(Bool)'

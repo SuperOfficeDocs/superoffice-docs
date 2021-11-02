@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPocketAgent
   commentId: T:CRMScript.NetServer.NSPocketAgent
   id: NSPocketAgent
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.GetPocketStartupData(String[])
   id: 'GetPocketStartupData(String[])'
   so.intellisense: NSPocketAgent.GetPocketStartupData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPocketStartupData(String[])'
@@ -67,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.GetPushNotificationTagsForDevice(String)
   id: 'GetPushNotificationTagsForDevice(String)'
   so.intellisense: NSPocketAgent.GetPushNotificationTagsForDevice
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPushNotificationTagsForDevice(String)'
@@ -90,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.GetRegisteredDevices(Integer)
   id: 'GetRegisteredDevices(Integer)'
   so.intellisense: NSPocketAgent.GetRegisteredDevices
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRegisteredDevices(Integer)'
@@ -111,6 +115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
   id: 'RegisterDeviceForPushNotification(NSPocketDeviceInfo)'
   so.intellisense: NSPocketAgent.RegisterDeviceForPushNotification
+  so.version: 8.2
   langs:
   - crmscript
   name: 'RegisterDeviceForPushNotification(NSPocketDeviceInfo)'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.RunAppointmentAlarmBroker()
   id: 'RunAppointmentAlarmBroker()'
   so.intellisense: NSPocketAgent.RunAppointmentAlarmBroker
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'RunAppointmentAlarmBroker()'
@@ -174,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
   id: 'SetPushNotificationTagsForDevice(String,String)'
   so.intellisense: NSPocketAgent.SetPushNotificationTagsForDevice
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPushNotificationTagsForDevice(String,String)'
@@ -198,6 +205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
   id: 'SetPushNotificationTagsForUser(Integer,String)'
   so.intellisense: NSPocketAgent.SetPushNotificationTagsForUser
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPushNotificationTagsForUser(Integer,String)'

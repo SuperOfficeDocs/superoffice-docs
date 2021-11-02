@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectTypeEntity
   commentId: T:CRMScript.NetServer.NSProjectTypeEntity
   id: NSProjectTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSProjectTypeEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetDurationUnit()
   id: 'GetDurationUnit()'
   so.intellisense: NSProjectTypeEntity.GetDurationUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDurationUnit()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetHasGuide()
   id: 'GetHasGuide()'
   so.intellisense: NSProjectTypeEntity.GetHasGuide
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasGuide()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetIsAutoAdvance()
   id: 'GetIsAutoAdvance()'
   so.intellisense: NSProjectTypeEntity.GetIsAutoAdvance
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAutoAdvance()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSProjectTypeEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetProjectDuration()
   id: 'GetProjectDuration()'
   so.intellisense: NSProjectTypeEntity.GetProjectDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectDuration()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetProjTypeId()
   id: 'GetProjTypeId()'
   so.intellisense: NSProjectTypeEntity.GetProjTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjTypeId()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSProjectTypeEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetStages()
   id: 'GetStages()'
   so.intellisense: NSProjectTypeEntity.GetStages
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStages()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSProjectTypeEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSProjectTypeEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetDurationUnit(Integer)
   id: 'SetDurationUnit(Integer)'
   so.intellisense: NSProjectTypeEntity.SetDurationUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDurationUnit(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetHasGuide(Bool)
   id: 'SetHasGuide(Bool)'
   so.intellisense: NSProjectTypeEntity.SetHasGuide
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasGuide(Bool)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetIsAutoAdvance(Bool)
   id: 'SetIsAutoAdvance(Bool)'
   so.intellisense: NSProjectTypeEntity.SetIsAutoAdvance
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAutoAdvance(Bool)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSProjectTypeEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetProjectDuration(Integer)
   id: 'SetProjectDuration(Integer)'
   so.intellisense: NSProjectTypeEntity.SetProjectDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjectDuration(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetProjTypeId(Integer)
   id: 'SetProjTypeId(Integer)'
   so.intellisense: NSProjectTypeEntity.SetProjTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjTypeId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSProjectTypeEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
   id: 'SetStages(NSSelectableMDOListItem[])'
   so.intellisense: NSProjectTypeEntity.SetStages
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStages(NSSelectableMDOListItem[])'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSProjectTypeEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

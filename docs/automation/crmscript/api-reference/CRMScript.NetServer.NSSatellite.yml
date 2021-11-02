@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSatellite
   commentId: T:CRMScript.NetServer.NSSatellite
   id: NSSatellite
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetArea()
   id: 'GetArea()'
   so.intellisense: NSSatellite.GetArea
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArea()'
@@ -67,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetContact()
   id: 'GetContact()'
   so.intellisense: NSSatellite.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetCreated()
   id: 'GetCreated()'
   so.intellisense: NSSatellite.GetCreated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreated()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSSatellite.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -125,6 +130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetLicenseOwners()
   id: 'GetLicenseOwners()'
   so.intellisense: NSSatellite.GetLicenseOwners
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseOwners()'
@@ -145,6 +151,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetSatelliteId()
   id: 'GetSatelliteId()'
   so.intellisense: NSSatellite.GetSatelliteId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSatelliteId()'
@@ -165,6 +172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSSatellite.GetUpdated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -185,6 +193,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSSatellite.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -204,6 +213,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetArea(NSArea)
   id: 'SetArea(NSArea)'
   so.intellisense: NSSatellite.SetArea
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArea(NSArea)'
@@ -226,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetContact(NSContact)
   id: 'SetContact(NSContact)'
   so.intellisense: NSSatellite.SetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContact(NSContact)'
@@ -248,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetCreated(DateTime)
   id: 'SetCreated(DateTime)'
   so.intellisense: NSSatellite.SetCreated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreated(DateTime)'
@@ -270,6 +282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSSatellite.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -292,6 +305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetLicenseOwners(NSLicenseOwner[])
   id: 'SetLicenseOwners(NSLicenseOwner[])'
   so.intellisense: NSSatellite.SetLicenseOwners
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseOwners(NSLicenseOwner[])'
@@ -314,6 +328,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetSatelliteId(Integer)
   id: 'SetSatelliteId(Integer)'
   so.intellisense: NSSatellite.SetSatelliteId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSatelliteId(Integer)'
@@ -336,6 +351,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSSatellite.SetUpdated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -358,6 +374,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSatellite.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSSatellite.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'

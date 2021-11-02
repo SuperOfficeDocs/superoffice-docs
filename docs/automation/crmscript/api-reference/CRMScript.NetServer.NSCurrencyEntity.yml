@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCurrencyEntity
   commentId: T:CRMScript.NetServer.NSCurrencyEntity
   id: NSCurrencyEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetCurrencyId()
   id: 'GetCurrencyId()'
   so.intellisense: NSCurrencyEntity.GetCurrencyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCurrencyId()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSCurrencyEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSCurrencyEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSCurrencyEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetRate()
   id: 'GetRate()'
   so.intellisense: NSCurrencyEntity.GetRate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRate()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSCurrencyEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetUnits()
   id: 'GetUnits()'
   so.intellisense: NSCurrencyEntity.GetUnits
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUnits()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetCurrencyId(Integer)
   id: 'SetCurrencyId(Integer)'
   so.intellisense: NSCurrencyEntity.SetCurrencyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCurrencyId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSCurrencyEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSCurrencyEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSCurrencyEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetRate(Float)
   id: 'SetRate(Float)'
   so.intellisense: NSCurrencyEntity.SetRate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRate(Float)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSCurrencyEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetUnits(Float)
   id: 'SetUnits(Float)'
   so.intellisense: NSCurrencyEntity.SetUnits
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUnits(Float)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMessagingAgent
   commentId: T:CRMScript.NetServer.NSMessagingAgent
   id: NSMessagingAgent
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessagingAgent.CreateMessage(NSIncomingMessage)
   id: 'CreateMessage(NSIncomingMessage)'
   so.intellisense: NSMessagingAgent.CreateMessage
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'CreateMessage(NSIncomingMessage)'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessagingAgent.GetDeliveryStatus(Integer[])
   id: 'GetDeliveryStatus(Integer[])'
   so.intellisense: NSMessagingAgent.GetDeliveryStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetDeliveryStatus(Integer[])'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessagingAgent.GetPlugins()
   id: 'GetPlugins()'
   so.intellisense: NSMessagingAgent.GetPlugins
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetPlugins()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
   id: 'SendMessages(String,NSOutgoingMessage[])'
   so.intellisense: NSMessagingAgent.SendMessages
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SendMessages(String,NSOutgoingMessage[])'
@@ -153,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
   id: 'SetDeliveryStatus(String,String,Integer,String)'
   so.intellisense: NSMessagingAgent.SetDeliveryStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetDeliveryStatus(String,String,Integer,String)'

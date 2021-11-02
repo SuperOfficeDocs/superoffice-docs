@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoShortText
   commentId: T:CRMScript.NetServer.NSFieldInfoShortText
   id: NSFieldInfoShortText
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.GetChoices()
   id: 'GetChoices()'
   so.intellisense: NSFieldInfoShortText.GetChoices
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChoices()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoShortText.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -81,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.GetFormatMask()
   id: 'GetFormatMask()'
   so.intellisense: NSFieldInfoShortText.GetFormatMask
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFormatMask()'
@@ -101,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.GetIsHtml()
   id: 'GetIsHtml()'
   so.intellisense: NSFieldInfoShortText.GetIsHtml
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsHtml()'
@@ -121,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.GetTextLength()
   id: 'GetTextLength()'
   so.intellisense: NSFieldInfoShortText.GetTextLength
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTextLength()'
@@ -141,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.SetChoices(String[])
   id: 'SetChoices(String[])'
   so.intellisense: NSFieldInfoShortText.SetChoices
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetChoices(String[])'
@@ -162,6 +169,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.SetDefaultValue(String)
   id: 'SetDefaultValue(String)'
   so.intellisense: NSFieldInfoShortText.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(String)'
@@ -184,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.SetFormatMask(String)
   id: 'SetFormatMask(String)'
   so.intellisense: NSFieldInfoShortText.SetFormatMask
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFormatMask(String)'
@@ -206,6 +215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.SetIsHtml(Bool)
   id: 'SetIsHtml(Bool)'
   so.intellisense: NSFieldInfoShortText.SetIsHtml
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsHtml(Bool)'
@@ -228,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoShortText.SetTextLength(Integer)
   id: 'SetTextLength(Integer)'
   so.intellisense: NSFieldInfoShortText.SetTextLength
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTextLength(Integer)'

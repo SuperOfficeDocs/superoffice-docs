@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPriceList
   commentId: T:CRMScript.NetServer.NSPriceList
   id: NSPriceList
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetCurrency()
   id: 'GetCurrency()'
   so.intellisense: NSPriceList.GetCurrency
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCurrency()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetCurrencyName()
   id: 'GetCurrencyName()'
   so.intellisense: NSPriceList.GetCurrencyName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCurrencyName()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSPriceList.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetERPPriceListKey()
   id: 'GetERPPriceListKey()'
   so.intellisense: NSPriceList.GetERPPriceListKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPPriceListKey()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetIsActive()
   id: 'GetIsActive()'
   so.intellisense: NSPriceList.GetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsActive()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetName()
   id: 'GetName()'
   so.intellisense: NSPriceList.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetPriceListId()
   id: 'GetPriceListId()'
   so.intellisense: NSPriceList.GetPriceListId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPriceListId()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetQuoteConnectionId()
   id: 'GetQuoteConnectionId()'
   so.intellisense: NSPriceList.GetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteConnectionId()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetValidFrom()
   id: 'GetValidFrom()'
   so.intellisense: NSPriceList.GetValidFrom
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValidFrom()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.GetValidTo()
   id: 'GetValidTo()'
   so.intellisense: NSPriceList.GetValidTo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValidTo()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetCurrency(String)
   id: 'SetCurrency(String)'
   so.intellisense: NSPriceList.SetCurrency
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCurrency(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetCurrencyName(String)
   id: 'SetCurrencyName(String)'
   so.intellisense: NSPriceList.SetCurrencyName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCurrencyName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSPriceList.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetERPPriceListKey(String)
   id: 'SetERPPriceListKey(String)'
   so.intellisense: NSPriceList.SetERPPriceListKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPPriceListKey(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetIsActive(Bool)
   id: 'SetIsActive(Bool)'
   so.intellisense: NSPriceList.SetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsActive(Bool)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSPriceList.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetPriceListId(Integer)
   id: 'SetPriceListId(Integer)'
   so.intellisense: NSPriceList.SetPriceListId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPriceListId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetQuoteConnectionId(Integer)
   id: 'SetQuoteConnectionId(Integer)'
   so.intellisense: NSPriceList.SetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteConnectionId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetValidFrom(DateTime)
   id: 'SetValidFrom(DateTime)'
   so.intellisense: NSPriceList.SetValidFrom
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValidFrom(DateTime)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPriceList.SetValidTo(DateTime)
   id: 'SetValidTo(DateTime)'
   so.intellisense: NSPriceList.SetValidTo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValidTo(DateTime)'

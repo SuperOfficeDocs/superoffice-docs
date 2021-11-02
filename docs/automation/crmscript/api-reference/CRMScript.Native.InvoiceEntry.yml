@@ -44,6 +44,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.getDiscount()
   id: 'getDiscount()'
   so.intellisense: InvoiceEntry.getDiscount
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'getDiscount()'
@@ -63,6 +64,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.getDiscountMoney()
   id: 'getDiscountMoney()'
   so.intellisense: InvoiceEntry.getDiscountMoney
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'getDiscountMoney()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.getPricePrUnit()
   id: 'getPricePrUnit()'
   so.intellisense: InvoiceEntry.getPricePrUnit
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'getPricePrUnit()'
@@ -164,6 +167,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.setDiscount(Float)
   id: 'setDiscount(Float)'
   so.intellisense: InvoiceEntry.setDiscount
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'setDiscount(Float)'
@@ -185,6 +189,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.setDiscountMoney(Float)
   id: 'setDiscountMoney(Float)'
   so.intellisense: InvoiceEntry.setDiscountMoney
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'setDiscountMoney(Float)'
@@ -206,6 +211,7 @@ items:
   commentId: M:CRMScript.Native.InvoiceEntry.setPricePrUnit(Float)
   id: 'setPricePrUnit(Float)'
   so.intellisense: InvoiceEntry.setPricePrUnit
+  so.version: 3.0.11
   langs:
   - crmscript
   name: 'setPricePrUnit(Float)'

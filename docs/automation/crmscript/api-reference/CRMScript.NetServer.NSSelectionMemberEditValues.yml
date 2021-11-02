@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSelectionMemberEditValues
   commentId: T:CRMScript.NetServer.NSSelectionMemberEditValues
   id: NSSelectionMemberEditValues
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyBusiness()
   id: 'GetChangeCompanyBusiness()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyBusiness()'
@@ -95,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCategory()
   id: 'GetChangeCompanyCategory()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyCategory()'
@@ -114,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCode()
   id: 'GetChangeCompanyCode()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyCode()'
@@ -133,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCountry()
   id: 'GetChangeCompanyCountry()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyCountry()'
@@ -152,6 +157,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyDepartment()
   id: 'GetChangeCompanyDepartment()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyDepartment()'
@@ -171,6 +177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyName()
   id: 'GetChangeCompanyName()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyName()'
@@ -190,6 +197,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyNumber()
   id: 'GetChangeCompanyNumber()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyNumber()'
@@ -209,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
   id: 'GetChangeCompanyOrgNr()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyOrgNr()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOurContact()
   id: 'GetChangeCompanyOurContact()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyOurContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeCompanyOurContact()'
@@ -247,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactJobTitle()
   id: 'GetChangeContactJobTitle()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeContactJobTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeContactJobTitle()'
@@ -266,6 +277,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactPosition()
   id: 'GetChangeContactPosition()'
   so.intellisense: NSSelectionMemberEditValues.GetChangeContactPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChangeContactPosition()'
@@ -285,6 +297,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyBusiness()
   id: 'GetCompanyBusiness()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyBusiness()'
@@ -304,6 +317,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCategory()
   id: 'GetCompanyCategory()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyCategory()'
@@ -323,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCode()
   id: 'GetCompanyCode()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyCode()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCountry()
   id: 'GetCompanyCountry()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyCountry()'
@@ -361,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyDepartment()
   id: 'GetCompanyDepartment()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyDepartment()'
@@ -380,6 +397,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyName()
   id: 'GetCompanyName()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyName()'
@@ -399,6 +417,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyNumber()
   id: 'GetCompanyNumber()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyNumber()'
@@ -418,6 +437,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOrgNr()
   id: 'GetCompanyOrgNr()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyOrgNr()'
@@ -437,6 +457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOurContact()
   id: 'GetCompanyOurContact()'
   so.intellisense: NSSelectionMemberEditValues.GetCompanyOurContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyOurContact()'
@@ -456,6 +477,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetContactJobTitle()
   id: 'GetContactJobTitle()'
   so.intellisense: NSSelectionMemberEditValues.GetContactJobTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactJobTitle()'
@@ -475,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetContactPosition()
   id: 'GetContactPosition()'
   so.intellisense: NSSelectionMemberEditValues.GetContactPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactPosition()'
@@ -494,6 +517,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
   id: 'SetChangeCompanyBusiness(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyBusiness(Bool)'
@@ -515,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
   id: 'SetChangeCompanyCategory(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyCategory(Bool)'
@@ -536,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
   id: 'SetChangeCompanyCode(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyCode(Bool)'
@@ -557,6 +583,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
   id: 'SetChangeCompanyCountry(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyCountry(Bool)'
@@ -578,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
   id: 'SetChangeCompanyDepartment(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyDepartment(Bool)'
@@ -599,6 +627,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
   id: 'SetChangeCompanyName(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyName(Bool)'
@@ -620,6 +649,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
   id: 'SetChangeCompanyNumber(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyNumber(Bool)'
@@ -641,6 +671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
   id: 'SetChangeCompanyOrgNr(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyOrgNr(Bool)'
@@ -662,6 +693,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
   id: 'SetChangeCompanyOurContact(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyOurContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeCompanyOurContact(Bool)'
@@ -683,6 +715,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
   id: 'SetChangeContactJobTitle(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeContactJobTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeContactJobTitle(Bool)'
@@ -704,6 +737,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
   id: 'SetChangeContactPosition(Bool)'
   so.intellisense: NSSelectionMemberEditValues.SetChangeContactPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChangeContactPosition(Bool)'
@@ -725,6 +759,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
   id: 'SetCompanyBusiness(Integer)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyBusiness(Integer)'
@@ -746,6 +781,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCategory(Integer)
   id: 'SetCompanyCategory(Integer)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyCategory(Integer)'
@@ -767,6 +803,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCode(String)
   id: 'SetCompanyCode(String)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyCode(String)'
@@ -788,6 +825,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCountry(Integer)
   id: 'SetCompanyCountry(Integer)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyCountry(Integer)'
@@ -809,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyDepartment(String)
   id: 'SetCompanyDepartment(String)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyDepartment(String)'
@@ -830,6 +869,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyName(String)
   id: 'SetCompanyName(String)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyName(String)'
@@ -851,6 +891,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyNumber(String)
   id: 'SetCompanyNumber(String)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyNumber(String)'
@@ -872,6 +913,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOrgNr(String)
   id: 'SetCompanyOrgNr(String)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyOrgNr(String)'
@@ -893,6 +935,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
   id: 'SetCompanyOurContact(Integer)'
   so.intellisense: NSSelectionMemberEditValues.SetCompanyOurContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyOurContact(Integer)'
@@ -914,6 +957,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetContactJobTitle(String)
   id: 'SetContactJobTitle(String)'
   so.intellisense: NSSelectionMemberEditValues.SetContactJobTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactJobTitle(String)'
@@ -935,6 +979,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetContactPosition(Integer)
   id: 'SetContactPosition(Integer)'
   so.intellisense: NSSelectionMemberEditValues.SetContactPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactPosition(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleSummary
   commentId: T:CRMScript.NetServer.NSSaleSummary
   id: NSSaleSummary
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -88,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetBaseCurrency()
   id: 'GetBaseCurrency()'
   so.intellisense: NSSaleSummary.GetBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBaseCurrency()'
@@ -108,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdue()
   id: 'GetCurrentOverdue()'
   so.intellisense: NSSaleSummary.GetCurrentOverdue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrentOverdue()'
@@ -128,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
   id: 'GetCurrentOverdueTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetCurrentOverdueTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrentOverdueTotalBaseCurrency()'
@@ -148,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
   id: 'GetCurrentOverdueTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetCurrentOverdueTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrentOverdueTotalOwnCurrency()'
@@ -168,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
   id: 'GetCurrentOverdueWeightedBaseCurrency()'
   so.intellisense: NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrentOverdueWeightedBaseCurrency()'
@@ -188,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
   id: 'GetCurrentOverdueWeightedOwnCurrency()'
   so.intellisense: NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrentOverdueWeightedOwnCurrency()'
@@ -208,6 +215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpen()
   id: 'GetFutureOpen()'
   so.intellisense: NSSaleSummary.GetFutureOpen
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureOpen()'
@@ -228,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalBaseCurrency()
   id: 'GetFutureOpenTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetFutureOpenTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureOpenTotalBaseCurrency()'
@@ -248,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalOwnCurrency()
   id: 'GetFutureOpenTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetFutureOpenTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureOpenTotalOwnCurrency()'
@@ -268,6 +278,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
   id: 'GetFutureOpenWeightedBaseCurrency()'
   so.intellisense: NSSaleSummary.GetFutureOpenWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureOpenWeightedBaseCurrency()'
@@ -288,6 +299,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
   id: 'GetFutureOpenWeightedOwnCurrency()'
   so.intellisense: NSSaleSummary.GetFutureOpenWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFutureOpenWeightedOwnCurrency()'
@@ -308,6 +320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetLost()
   id: 'GetLost()'
   so.intellisense: NSSaleSummary.GetLost
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLost()'
@@ -328,6 +341,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetLostTotalBaseCurrency()
   id: 'GetLostTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetLostTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLostTotalBaseCurrency()'
@@ -348,6 +362,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetLostTotalOwnCurrency()
   id: 'GetLostTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetLostTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLostTotalOwnCurrency()'
@@ -368,6 +383,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpen()
   id: 'GetOpen()'
   so.intellisense: NSSaleSummary.GetOpen
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOpen()'
@@ -388,6 +404,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenTotalBaseCurrency()
   id: 'GetOpenTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetOpenTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOpenTotalBaseCurrency()'
@@ -408,6 +425,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenTotalOwnCurrency()
   id: 'GetOpenTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetOpenTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOpenTotalOwnCurrency()'
@@ -428,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenWeightedBaseCurrency()
   id: 'GetOpenWeightedBaseCurrency()'
   so.intellisense: NSSaleSummary.GetOpenWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOpenWeightedBaseCurrency()'
@@ -448,6 +467,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenWeightedOwnCurrency()
   id: 'GetOpenWeightedOwnCurrency()'
   so.intellisense: NSSaleSummary.GetOpenWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOpenWeightedOwnCurrency()'
@@ -468,6 +488,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetOwnCurrency()
   id: 'GetOwnCurrency()'
   so.intellisense: NSSaleSummary.GetOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnCurrency()'
@@ -488,6 +509,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdue()
   id: 'GetPreviousOverdue()'
   so.intellisense: NSSaleSummary.GetPreviousOverdue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousOverdue()'
@@ -508,6 +530,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
   id: 'GetPreviousOverdueTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetPreviousOverdueTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousOverdueTotalBaseCurrency()'
@@ -528,6 +551,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
   id: 'GetPreviousOverdueTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetPreviousOverdueTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousOverdueTotalOwnCurrency()'
@@ -548,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
   id: 'GetPreviousOverdueWeightedBaseCurrency()'
   so.intellisense: NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousOverdueWeightedBaseCurrency()'
@@ -568,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
   id: 'GetPreviousOverdueWeightedOwnCurrency()'
   so.intellisense: NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreviousOverdueWeightedOwnCurrency()'
@@ -588,6 +614,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetSold()
   id: 'GetSold()'
   so.intellisense: NSSaleSummary.GetSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSold()'
@@ -608,6 +635,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetSoldTotalBaseCurrency()
   id: 'GetSoldTotalBaseCurrency()'
   so.intellisense: NSSaleSummary.GetSoldTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSoldTotalBaseCurrency()'
@@ -628,6 +656,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.GetSoldTotalOwnCurrency()
   id: 'GetSoldTotalOwnCurrency()'
   so.intellisense: NSSaleSummary.GetSoldTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSoldTotalOwnCurrency()'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetBaseCurrency(String)
   id: 'SetBaseCurrency(String)'
   so.intellisense: NSSaleSummary.SetBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBaseCurrency(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdue(Integer)
   id: 'SetCurrentOverdue(Integer)'
   so.intellisense: NSSaleSummary.SetCurrentOverdue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrentOverdue(Integer)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
   id: 'SetCurrentOverdueTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrentOverdueTotalBaseCurrency(Float)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
   id: 'SetCurrentOverdueTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetCurrentOverdueTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrentOverdueTotalOwnCurrency(Float)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
   id: 'SetCurrentOverdueWeightedBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrentOverdueWeightedBaseCurrency(Float)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
   id: 'SetCurrentOverdueWeightedOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrentOverdueWeightedOwnCurrency(Float)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpen(Integer)
   id: 'SetFutureOpen(Integer)'
   so.intellisense: NSSaleSummary.SetFutureOpen
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureOpen(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
   id: 'SetFutureOpenTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetFutureOpenTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureOpenTotalBaseCurrency(Float)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
   id: 'SetFutureOpenTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetFutureOpenTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureOpenTotalOwnCurrency(Float)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
   id: 'SetFutureOpenWeightedBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetFutureOpenWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureOpenWeightedBaseCurrency(Float)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
   id: 'SetFutureOpenWeightedOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetFutureOpenWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFutureOpenWeightedOwnCurrency(Float)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetLost(Integer)
   id: 'SetLost(Integer)'
   so.intellisense: NSSaleSummary.SetLost
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLost(Integer)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetLostTotalBaseCurrency(Float)
   id: 'SetLostTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetLostTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLostTotalBaseCurrency(Float)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetLostTotalOwnCurrency(Float)
   id: 'SetLostTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetLostTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLostTotalOwnCurrency(Float)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpen(Integer)
   id: 'SetOpen(Integer)'
   so.intellisense: NSSaleSummary.SetOpen
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOpen(Integer)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenTotalBaseCurrency(Float)
   id: 'SetOpenTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetOpenTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOpenTotalBaseCurrency(Float)'
@@ -1000,6 +1045,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenTotalOwnCurrency(Float)
   id: 'SetOpenTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOpenTotalOwnCurrency(Float)'
@@ -1022,6 +1068,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
   id: 'SetOpenWeightedBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetOpenWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOpenWeightedBaseCurrency(Float)'
@@ -1044,6 +1091,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
   id: 'SetOpenWeightedOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetOpenWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOpenWeightedOwnCurrency(Float)'
@@ -1066,6 +1114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetOwnCurrency(String)
   id: 'SetOwnCurrency(String)'
   so.intellisense: NSSaleSummary.SetOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnCurrency(String)'
@@ -1088,6 +1137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdue(Integer)
   id: 'SetPreviousOverdue(Integer)'
   so.intellisense: NSSaleSummary.SetPreviousOverdue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreviousOverdue(Integer)'
@@ -1110,6 +1160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
   id: 'SetPreviousOverdueTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetPreviousOverdueTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreviousOverdueTotalBaseCurrency(Float)'
@@ -1132,6 +1183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
   id: 'SetPreviousOverdueTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetPreviousOverdueTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreviousOverdueTotalOwnCurrency(Float)'
@@ -1154,6 +1206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
   id: 'SetPreviousOverdueWeightedBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreviousOverdueWeightedBaseCurrency(Float)'
@@ -1176,6 +1229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
   id: 'SetPreviousOverdueWeightedOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreviousOverdueWeightedOwnCurrency(Float)'
@@ -1198,6 +1252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetSold(Integer)
   id: 'SetSold(Integer)'
   so.intellisense: NSSaleSummary.SetSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSold(Integer)'
@@ -1220,6 +1275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetSoldTotalBaseCurrency(Float)
   id: 'SetSoldTotalBaseCurrency(Float)'
   so.intellisense: NSSaleSummary.SetSoldTotalBaseCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSoldTotalBaseCurrency(Float)'
@@ -1242,6 +1298,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleSummary.SetSoldTotalOwnCurrency(Float)
   id: 'SetSoldTotalOwnCurrency(Float)'
   so.intellisense: NSSaleSummary.SetSoldTotalOwnCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSoldTotalOwnCurrency(Float)'

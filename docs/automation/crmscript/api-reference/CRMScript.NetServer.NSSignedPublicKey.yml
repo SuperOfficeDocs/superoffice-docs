@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSignedPublicKey
   commentId: T:CRMScript.NetServer.NSSignedPublicKey
   id: NSSignedPublicKey
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.GetExpiryDate()
   id: 'GetExpiryDate()'
   so.intellisense: NSSignedPublicKey.GetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExpiryDate()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.GetKey()
   id: 'GetKey()'
   so.intellisense: NSSignedPublicKey.GetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKey()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.GetOwnerName()
   id: 'GetOwnerName()'
   so.intellisense: NSSignedPublicKey.GetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerName()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.GetSignature()
   id: 'GetSignature()'
   so.intellisense: NSSignedPublicKey.GetSignature
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignature()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.GetSignDate()
   id: 'GetSignDate()'
   so.intellisense: NSSignedPublicKey.GetSignDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignDate()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.SetExpiryDate(DateTime)
   id: 'SetExpiryDate(DateTime)'
   so.intellisense: NSSignedPublicKey.SetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExpiryDate(DateTime)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.SetKey(NSDSAParameters)
   id: 'SetKey(NSDSAParameters)'
   so.intellisense: NSSignedPublicKey.SetKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKey(NSDSAParameters)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.SetOwnerName(String)
   id: 'SetOwnerName(String)'
   so.intellisense: NSSignedPublicKey.SetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerName(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.SetSignature(String)
   id: 'SetSignature(String)'
   so.intellisense: NSSignedPublicKey.SetSignature
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignature(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSignedPublicKey.SetSignDate(DateTime)
   id: 'SetSignDate(DateTime)'
   so.intellisense: NSSignedPublicKey.SetSignDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignDate(DateTime)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSResourceEntity
   commentId: T:CRMScript.NetServer.NSResourceEntity
   id: NSResourceEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSResourceEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetIsLocation()
   id: 'GetIsLocation()'
   so.intellisense: NSResourceEntity.GetIsLocation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsLocation()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetLocationAddress()
   id: 'GetLocationAddress()'
   so.intellisense: NSResourceEntity.GetLocationAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLocationAddress()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSResourceEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSResourceEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetResourceId()
   id: 'GetResourceId()'
   so.intellisense: NSResourceEntity.GetResourceId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetResourceId()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSResourceEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSResourceEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetIsLocation(Bool)
   id: 'SetIsLocation(Bool)'
   so.intellisense: NSResourceEntity.SetIsLocation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsLocation(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetLocationAddress(String)
   id: 'SetLocationAddress(String)'
   so.intellisense: NSResourceEntity.SetLocationAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLocationAddress(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSResourceEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSResourceEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetResourceId(Integer)
   id: 'SetResourceId(Integer)'
   so.intellisense: NSResourceEntity.SetResourceId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetResourceId(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSResourceEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

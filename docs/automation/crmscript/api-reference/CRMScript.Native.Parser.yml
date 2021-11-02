@@ -41,6 +41,7 @@ items:
   commentId: M:CRMScript.Native.Parser.addVariable(String,String)
   id: 'addVariable(String,String)'
   so.intellisense: Parser.addVariable
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'addVariable(String,String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteVersionStatusInformation
   commentId: T:CRMScript.NetServer.NSQuoteVersionStatusInformation
   id: NSQuoteVersionStatusInformation
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayMessage()
   id: 'GetDisplayMessage()'
   so.intellisense: NSQuoteVersionStatusInformation.GetDisplayMessage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayMessage()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayTooltip()
   id: 'GetDisplayTooltip()'
   so.intellisense: NSQuoteVersionStatusInformation.GetDisplayTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayTooltip()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetIconHint()
   id: 'GetIconHint()'
   so.intellisense: NSQuoteVersionStatusInformation.GetIconHint
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIconHint()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSQuoteVersionStatusInformation.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayMessage(String)
   id: 'SetDisplayMessage(String)'
   so.intellisense: NSQuoteVersionStatusInformation.SetDisplayMessage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayMessage(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
   id: 'SetDisplayTooltip(String)'
   so.intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayTooltip(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetIconHint(String)
   id: 'SetIconHint(String)'
   so.intellisense: NSQuoteVersionStatusInformation.SetIconHint
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIconHint(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSQuoteVersionStatusInformation.SetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStatus(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRating
   commentId: T:CRMScript.NetServer.NSRating
   id: NSRating
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.GetId()
   id: 'GetId()'
   so.intellisense: NSRating.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSRating.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.GetValue()
   id: 'GetValue()'
   so.intellisense: NSRating.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSRating.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSRating.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRating.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSRating.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

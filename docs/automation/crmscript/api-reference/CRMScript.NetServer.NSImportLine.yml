@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSImportLine
   commentId: T:CRMScript.NetServer.NSImportLine
   id: NSImportLine
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.GetExternalKey()
   id: 'GetExternalKey()'
   so.intellisense: NSImportLine.GetExternalKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExternalKey()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.GetOperation()
   id: 'GetOperation()'
   so.intellisense: NSImportLine.GetOperation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOperation()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.GetSelected()
   id: 'GetSelected()'
   so.intellisense: NSImportLine.GetSelected
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSelected()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.GetType()
   id: 'GetType()'
   so.intellisense: NSImportLine.GetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetType()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.GetValues()
   id: 'GetValues()'
   so.intellisense: NSImportLine.GetValues
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValues()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.SetExternalKey(String)
   id: 'SetExternalKey(String)'
   so.intellisense: NSImportLine.SetExternalKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExternalKey(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.SetOperation(Integer)
   id: 'SetOperation(Integer)'
   so.intellisense: NSImportLine.SetOperation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOperation(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.SetSelected(Bool)
   id: 'SetSelected(Bool)'
   so.intellisense: NSImportLine.SetSelected
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSelected(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSImportLine.SetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImportLine.SetValues(String[])
   id: 'SetValues(String[])'
   so.intellisense: NSImportLine.SetValues
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValues(String[])'

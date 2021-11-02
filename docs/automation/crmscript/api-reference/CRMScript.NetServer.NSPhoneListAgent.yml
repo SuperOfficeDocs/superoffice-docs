@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPhoneListAgent
   commentId: T:CRMScript.NetServer.NSPhoneListAgent
   id: NSPhoneListAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.AddToFavorites(Integer)
   id: 'AddToFavorites(Integer)'
   so.intellisense: NSPhoneListAgent.AddToFavorites
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddToFavorites(Integer)'
@@ -65,6 +67,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetContactPhones(Integer)
   id: 'GetContactPhones(Integer)'
   so.intellisense: NSPhoneListAgent.GetContactPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactPhones(Integer)'
@@ -87,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetDepartmentPhones(Integer)
   id: 'GetDepartmentPhones(Integer)'
   so.intellisense: NSPhoneListAgent.GetDepartmentPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartmentPhones(Integer)'
@@ -109,6 +113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetFavoritesPhones()
   id: 'GetFavoritesPhones()'
   so.intellisense: NSPhoneListAgent.GetFavoritesPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFavoritesPhones()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetPreferences()
   id: 'GetPreferences()'
   so.intellisense: NSPhoneListAgent.GetPreferences
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreferences()'
@@ -147,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.Search(String)
   id: 'Search(String)'
   so.intellisense: NSPhoneListAgent.Search
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Search(String)'
@@ -169,6 +176,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
   id: 'SearchWithPreferences(String,NSPhoneListPreferences)'
   so.intellisense: NSPhoneListAgent.SearchWithPreferences
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SearchWithPreferences(String,NSPhoneListPreferences)'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
   id: 'SetPreferences(NSPhoneListPreferences)'
   so.intellisense: NSPhoneListAgent.SetPreferences
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPreferences(NSPhoneListPreferences)'

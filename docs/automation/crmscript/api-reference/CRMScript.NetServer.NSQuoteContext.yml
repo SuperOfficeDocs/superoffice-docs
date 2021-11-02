@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteContext
   commentId: T:CRMScript.NetServer.NSQuoteContext
   id: NSQuoteContext
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetCRMAssociate()
   id: 'GetCRMAssociate()'
   so.intellisense: NSQuoteContext.GetCRMAssociate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCRMAssociate()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetCRMQuoteAlternative()
   id: 'GetCRMQuoteAlternative()'
   so.intellisense: NSQuoteContext.GetCRMQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCRMQuoteAlternative()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetCRMQuoteLine()
   id: 'GetCRMQuoteLine()'
   so.intellisense: NSQuoteContext.GetCRMQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCRMQuoteLine()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetCRMQuoteVersion()
   id: 'GetCRMQuoteVersion()'
   so.intellisense: NSQuoteContext.GetCRMQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCRMQuoteVersion()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetCRMSale()
   id: 'GetCRMSale()'
   so.intellisense: NSQuoteContext.GetCRMSale
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCRMSale()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.GetUserLanguageCode()
   id: 'GetUserLanguageCode()'
   so.intellisense: NSQuoteContext.GetUserLanguageCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserLanguageCode()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetCRMAssociate(NSAssociate)
   id: 'SetCRMAssociate(NSAssociate)'
   so.intellisense: NSQuoteContext.SetCRMAssociate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCRMAssociate(NSAssociate)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetCRMQuoteAlternative(NSQuoteAlternative)
   id: 'SetCRMQuoteAlternative(NSQuoteAlternative)'
   so.intellisense: NSQuoteContext.SetCRMQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCRMQuoteAlternative(NSQuoteAlternative)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetCRMQuoteLine(NSQuoteLine)
   id: 'SetCRMQuoteLine(NSQuoteLine)'
   so.intellisense: NSQuoteContext.SetCRMQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCRMQuoteLine(NSQuoteLine)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetCRMQuoteVersion(NSQuoteVersion)
   id: 'SetCRMQuoteVersion(NSQuoteVersion)'
   so.intellisense: NSQuoteContext.SetCRMQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCRMQuoteVersion(NSQuoteVersion)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetCRMSale(NSSale)
   id: 'SetCRMSale(NSSale)'
   so.intellisense: NSQuoteContext.SetCRMSale
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCRMSale(NSSale)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteContext.SetUserLanguageCode(String)
   id: 'SetUserLanguageCode(String)'
   so.intellisense: NSQuoteContext.SetUserLanguageCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserLanguageCode(String)'

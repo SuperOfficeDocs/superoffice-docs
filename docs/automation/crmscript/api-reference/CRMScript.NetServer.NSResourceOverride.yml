@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSResourceOverride
   commentId: T:CRMScript.NetServer.NSResourceOverride
   id: NSResourceOverride
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.GetCulture()
   id: 'GetCulture()'
   so.intellisense: NSResourceOverride.GetCulture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCulture()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.GetIsActive()
   id: 'GetIsActive()'
   so.intellisense: NSResourceOverride.GetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsActive()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.GetResourceName()
   id: 'GetResourceName()'
   so.intellisense: NSResourceOverride.GetResourceName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetResourceName()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.GetResourceValue()
   id: 'GetResourceValue()'
   so.intellisense: NSResourceOverride.GetResourceValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetResourceValue()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.SetCulture(String)
   id: 'SetCulture(String)'
   so.intellisense: NSResourceOverride.SetCulture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCulture(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.SetIsActive(Bool)
   id: 'SetIsActive(Bool)'
   so.intellisense: NSResourceOverride.SetIsActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsActive(Bool)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.SetResourceName(String)
   id: 'SetResourceName(String)'
   so.intellisense: NSResourceOverride.SetResourceName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetResourceName(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceOverride.SetResourceValue(String)
   id: 'SetResourceValue(String)'
   so.intellisense: NSResourceOverride.SetResourceValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetResourceValue(String)'

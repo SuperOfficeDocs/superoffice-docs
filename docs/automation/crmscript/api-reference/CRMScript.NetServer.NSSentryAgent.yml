@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSentryAgent
   commentId: T:CRMScript.NetServer.NSSentryAgent
   id: NSSentryAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -41,6 +42,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
   id: 'CanCreateAppointmentInAllDiaries()'
   so.intellisense: NSSentryAgent.CanCreateAppointmentInAllDiaries
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CanCreateAppointmentInAllDiaries()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
   id: 'CanCreateAppointmentInAssociateDiaries(Integer[])'
   so.intellisense: NSSentryAgent.CanCreateAppointmentInAssociateDiaries
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CanCreateAppointmentInAssociateDiaries(Integer[])'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
   id: 'GetFunctionRights()'
   so.intellisense: NSSentryAgent.GetFunctionRights
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFunctionRights()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
   id: 'GetNewTableRight(String)'
   so.intellisense: NSSentryAgent.GetNewTableRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNewTableRight(String)'
@@ -151,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
   id: 'GetTableRightByOwnership(String,Integer,Integer)'
   so.intellisense: NSSentryAgent.GetTableRightByOwnership
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTableRightByOwnership(String,Integer,Integer)'
@@ -179,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSentryAgent.HasFunctionRight(String)
   id: 'HasFunctionRight(String)'
   so.intellisense: NSSentryAgent.HasFunctionRight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'HasFunctionRight(String)'

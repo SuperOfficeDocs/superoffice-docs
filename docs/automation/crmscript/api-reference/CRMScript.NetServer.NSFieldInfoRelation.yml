@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoRelation
   commentId: T:CRMScript.NetServer.NSFieldInfoRelation
   id: NSFieldInfoRelation
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoRelation.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetTargetLabel()
   id: 'GetTargetLabel()'
   so.intellisense: NSFieldInfoRelation.GetTargetLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTargetLabel()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetTargetTable()
   id: 'GetTargetTable()'
   so.intellisense: NSFieldInfoRelation.GetTargetTable
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTargetTable()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetUseDropDown()
   id: 'GetUseDropDown()'
   so.intellisense: NSFieldInfoRelation.GetUseDropDown
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUseDropDown()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetDefaultValue(Integer)
   id: 'SetDefaultValue(Integer)'
   so.intellisense: NSFieldInfoRelation.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Integer)'
@@ -186,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetTargetLabel(String)
   id: 'SetTargetLabel(String)'
   so.intellisense: NSFieldInfoRelation.SetTargetLabel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTargetLabel(String)'
@@ -208,6 +215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetTargetTable(String)
   id: 'SetTargetTable(String)'
   so.intellisense: NSFieldInfoRelation.SetTargetTable
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTargetTable(String)'
@@ -230,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetUseDropDown(Bool)
   id: 'SetUseDropDown(Bool)'
   so.intellisense: NSFieldInfoRelation.SetUseDropDown
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUseDropDown(Bool)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSParticipantSyncData
   commentId: T:CRMScript.NetServer.NSParticipantSyncData
   id: NSParticipantSyncData 
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -98,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactBusiness()
   id: 'GetContactBusiness()'
   so.intellisense: NSParticipantSyncData.GetContactBusiness
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactBusiness()'
@@ -118,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactCategory()
   id: 'GetContactCategory()'
   so.intellisense: NSParticipantSyncData.GetContactCategory
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactCategory()'
@@ -138,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactCountry()
   id: 'GetContactCountry()'
   so.intellisense: NSParticipantSyncData.GetContactCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactCountry()'
@@ -158,6 +162,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactDepartment()
   id: 'GetContactDepartment()'
   so.intellisense: NSParticipantSyncData.GetContactDepartment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactDepartment()'
@@ -178,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactFullName()
   id: 'GetContactFullName()'
   so.intellisense: NSParticipantSyncData.GetContactFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactFullName()'
@@ -198,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSParticipantSyncData.GetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -218,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSParticipantSyncData.GetContactName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -238,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactUrl()
   id: 'GetContactUrl()'
   so.intellisense: NSParticipantSyncData.GetContactUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactUrl()'
@@ -258,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetCountry()
   id: 'GetCountry()'
   so.intellisense: NSParticipantSyncData.GetCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCountry()'
@@ -278,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetEMail()
   id: 'GetEMail()'
   so.intellisense: NSParticipantSyncData.GetEMail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEMail()'
@@ -298,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetMessenger()
   id: 'GetMessenger()'
   so.intellisense: NSParticipantSyncData.GetMessenger
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMessenger()'
@@ -318,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetParticipantStatus()
   id: 'GetParticipantStatus()'
   so.intellisense: NSParticipantSyncData.GetParticipantStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetParticipantStatus()'
@@ -338,6 +351,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonAcademicTitle()
   id: 'GetPersonAcademicTitle()'
   so.intellisense: NSParticipantSyncData.GetPersonAcademicTitle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonAcademicTitle()'
@@ -358,6 +372,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonAddress()
   id: 'GetPersonAddress()'
   so.intellisense: NSParticipantSyncData.GetPersonAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonAddress()'
@@ -377,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonCountry()
   id: 'GetPersonCountry()'
   so.intellisense: NSParticipantSyncData.GetPersonCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonCountry()'
@@ -397,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFirstName()
   id: 'GetPersonFirstName()'
   so.intellisense: NSParticipantSyncData.GetPersonFirstName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonFirstName()'
@@ -417,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFormalName()
   id: 'GetPersonFormalName()'
   so.intellisense: NSParticipantSyncData.GetPersonFormalName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonFormalName()'
@@ -437,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFullName()
   id: 'GetPersonFullName()'
   so.intellisense: NSParticipantSyncData.GetPersonFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonFullName()'
@@ -457,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSParticipantSyncData.GetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -477,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonLastname()
   id: 'GetPersonLastname()'
   so.intellisense: NSParticipantSyncData.GetPersonLastname
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonLastname()'
@@ -497,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonMiddleName()
   id: 'GetPersonMiddleName()'
   so.intellisense: NSParticipantSyncData.GetPersonMiddleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonMiddleName()'
@@ -517,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonMrmrs()
   id: 'GetPersonMrmrs()'
   so.intellisense: NSParticipantSyncData.GetPersonMrmrs
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonMrmrs()'
@@ -537,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonPosition()
   id: 'GetPersonPosition()'
   so.intellisense: NSParticipantSyncData.GetPersonPosition
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonPosition()'
@@ -557,6 +581,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonTitle()
   id: 'GetPersonTitle()'
   so.intellisense: NSParticipantSyncData.GetPersonTitle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonTitle()'
@@ -577,6 +602,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneContact()
   id: 'GetPhoneContact()'
   so.intellisense: NSParticipantSyncData.GetPhoneContact
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPhoneContact()'
@@ -597,6 +623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneDirect()
   id: 'GetPhoneDirect()'
   so.intellisense: NSParticipantSyncData.GetPhoneDirect
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPhoneDirect()'
@@ -617,6 +644,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneFax()
   id: 'GetPhoneFax()'
   so.intellisense: NSParticipantSyncData.GetPhoneFax
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPhoneFax()'
@@ -637,6 +665,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneMobile()
   id: 'GetPhoneMobile()'
   so.intellisense: NSParticipantSyncData.GetPhoneMobile
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPhoneMobile()'
@@ -657,6 +686,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhonePrivate()
   id: 'GetPhonePrivate()'
   so.intellisense: NSParticipantSyncData.GetPhonePrivate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPhonePrivate()'
@@ -677,6 +707,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPostalAddress()
   id: 'GetPostalAddress()'
   so.intellisense: NSParticipantSyncData.GetPostalAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPostalAddress()'
@@ -697,6 +728,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetStreetAddress()
   id: 'GetStreetAddress()'
   so.intellisense: NSParticipantSyncData.GetStreetAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStreetAddress()'
@@ -717,6 +749,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSParticipantSyncData.GetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -737,6 +770,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetVoip()
   id: 'GetVoip()'
   so.intellisense: NSParticipantSyncData.GetVoip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVoip()'
@@ -757,6 +791,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactBusiness(String)
   id: 'SetContactBusiness(String)'
   so.intellisense: NSParticipantSyncData.SetContactBusiness
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactBusiness(String)'
@@ -779,6 +814,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactCategory(String)
   id: 'SetContactCategory(String)'
   so.intellisense: NSParticipantSyncData.SetContactCategory
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactCategory(String)'
@@ -801,6 +837,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactCountry(String)
   id: 'SetContactCountry(String)'
   so.intellisense: NSParticipantSyncData.SetContactCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactCountry(String)'
@@ -823,6 +860,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactDepartment(String)
   id: 'SetContactDepartment(String)'
   so.intellisense: NSParticipantSyncData.SetContactDepartment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactDepartment(String)'
@@ -845,6 +883,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactFullName(String)
   id: 'SetContactFullName(String)'
   so.intellisense: NSParticipantSyncData.SetContactFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactFullName(String)'
@@ -867,6 +906,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSParticipantSyncData.SetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -889,6 +929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSParticipantSyncData.SetContactName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -911,6 +952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactUrl(String[])
   id: 'SetContactUrl(String[])'
   so.intellisense: NSParticipantSyncData.SetContactUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactUrl(String[])'
@@ -933,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetCountry(String)
   id: 'SetCountry(String)'
   so.intellisense: NSParticipantSyncData.SetCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCountry(String)'
@@ -955,6 +998,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetEMail(String[])
   id: 'SetEMail(String[])'
   so.intellisense: NSParticipantSyncData.SetEMail
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEMail(String[])'
@@ -977,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetMessenger(String[])
   id: 'SetMessenger(String[])'
   so.intellisense: NSParticipantSyncData.SetMessenger
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMessenger(String[])'
@@ -999,6 +1044,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetParticipantStatus(Integer)
   id: 'SetParticipantStatus(Integer)'
   so.intellisense: NSParticipantSyncData.SetParticipantStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetParticipantStatus(Integer)'
@@ -1021,6 +1067,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonAcademicTitle(String)
   id: 'SetPersonAcademicTitle(String)'
   so.intellisense: NSParticipantSyncData.SetPersonAcademicTitle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonAcademicTitle(String)'
@@ -1043,6 +1090,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
   id: 'SetPersonAddress(NSAddressSyncData)'
   so.intellisense: NSParticipantSyncData.SetPersonAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonAddress(NSAddressSyncData)'
@@ -1065,6 +1113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonCountry(String)
   id: 'SetPersonCountry(String)'
   so.intellisense: NSParticipantSyncData.SetPersonCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonCountry(String)'
@@ -1087,6 +1136,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFirstName(String)
   id: 'SetPersonFirstName(String)'
   so.intellisense: NSParticipantSyncData.SetPersonFirstName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonFirstName(String)'
@@ -1109,6 +1159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFormalName(String)
   id: 'SetPersonFormalName(String)'
   so.intellisense: NSParticipantSyncData.SetPersonFormalName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonFormalName(String)'
@@ -1131,6 +1182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFullName(String)
   id: 'SetPersonFullName(String)'
   so.intellisense: NSParticipantSyncData.SetPersonFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonFullName(String)'
@@ -1153,6 +1205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSParticipantSyncData.SetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -1175,6 +1228,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonLastname(String)
   id: 'SetPersonLastname(String)'
   so.intellisense: NSParticipantSyncData.SetPersonLastname
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonLastname(String)'
@@ -1197,6 +1251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonMiddleName(String)
   id: 'SetPersonMiddleName(String)'
   so.intellisense: NSParticipantSyncData.SetPersonMiddleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonMiddleName(String)'
@@ -1219,6 +1274,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonMrmrs(String)
   id: 'SetPersonMrmrs(String)'
   so.intellisense: NSParticipantSyncData.SetPersonMrmrs
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonMrmrs(String)'
@@ -1241,6 +1297,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonPosition(String)
   id: 'SetPersonPosition(String)'
   so.intellisense: NSParticipantSyncData.SetPersonPosition
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonPosition(String)'
@@ -1263,6 +1320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonTitle(String)
   id: 'SetPersonTitle(String)'
   so.intellisense: NSParticipantSyncData.SetPersonTitle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonTitle(String)'
@@ -1285,6 +1343,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneContact(String[])
   id: 'SetPhoneContact(String[])'
   so.intellisense: NSParticipantSyncData.SetPhoneContact
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPhoneContact(String[])'
@@ -1307,6 +1366,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneDirect(String[])
   id: 'SetPhoneDirect(String[])'
   so.intellisense: NSParticipantSyncData.SetPhoneDirect
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPhoneDirect(String[])'
@@ -1329,6 +1389,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneFax(String[])
   id: 'SetPhoneFax(String[])'
   so.intellisense: NSParticipantSyncData.SetPhoneFax
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPhoneFax(String[])'
@@ -1351,6 +1412,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneMobile(String[])
   id: 'SetPhoneMobile(String[])'
   so.intellisense: NSParticipantSyncData.SetPhoneMobile
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPhoneMobile(String[])'
@@ -1373,6 +1435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhonePrivate(String[])
   id: 'SetPhonePrivate(String[])'
   so.intellisense: NSParticipantSyncData.SetPhonePrivate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPhonePrivate(String[])'
@@ -1395,6 +1458,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
   id: 'SetPostalAddress(NSAddressSyncData)'
   so.intellisense: NSParticipantSyncData.SetPostalAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPostalAddress(NSAddressSyncData)'
@@ -1417,6 +1481,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
   id: 'SetStreetAddress(NSAddressSyncData)'
   so.intellisense: NSParticipantSyncData.SetStreetAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStreetAddress(NSAddressSyncData)'
@@ -1439,6 +1504,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetUrl(String[])
   id: 'SetUrl(String[])'
   so.intellisense: NSParticipantSyncData.SetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUrl(String[])'
@@ -1461,6 +1527,7 @@ items:
   commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetVoip(String[])
   id: 'SetVoip(String[])'
   so.intellisense: NSParticipantSyncData.SetVoip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVoip(String[])'

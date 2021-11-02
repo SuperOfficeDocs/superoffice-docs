@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRefCountEntity
   commentId: T:CRMScript.NetServer.NSRefCountEntity
   id: NSRefCountEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetAllocate()
   id: 'GetAllocate()'
   so.intellisense: NSRefCountEntity.GetAllocate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllocate()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetAllowBlank()
   id: 'GetAllowBlank()'
   so.intellisense: NSRefCountEntity.GetAllowBlank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllowBlank()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetCurrentValue()
   id: 'GetCurrentValue()'
   so.intellisense: NSRefCountEntity.GetCurrentValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCurrentValue()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetField()
   id: 'GetField()'
   so.intellisense: NSRefCountEntity.GetField
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetField()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetReadOnly()
   id: 'GetReadOnly()'
   so.intellisense: NSRefCountEntity.GetReadOnly
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetReadOnly()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetRecordId()
   id: 'GetRecordId()'
   so.intellisense: NSRefCountEntity.GetRecordId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRecordId()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetRefCountsId()
   id: 'GetRefCountsId()'
   so.intellisense: NSRefCountEntity.GetRefCountsId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRefCountsId()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetSatPrefix()
   id: 'GetSatPrefix()'
   so.intellisense: NSRefCountEntity.GetSatPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSatPrefix()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetSuggestedRecords()
   id: 'GetSuggestedRecords()'
   so.intellisense: NSRefCountEntity.GetSuggestedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedRecords()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetTravelPrefix()
   id: 'GetTravelPrefix()'
   so.intellisense: NSRefCountEntity.GetTravelPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTravelPrefix()'
@@ -254,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.GetUnique()
   id: 'GetUnique()'
   so.intellisense: NSRefCountEntity.GetUnique
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUnique()'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetAllocate(Bool)
   id: 'SetAllocate(Bool)'
   so.intellisense: NSRefCountEntity.SetAllocate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAllocate(Bool)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetAllowBlank(Bool)
   id: 'SetAllowBlank(Bool)'
   so.intellisense: NSRefCountEntity.SetAllowBlank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAllowBlank(Bool)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetCurrentValue(Integer)
   id: 'SetCurrentValue(Integer)'
   so.intellisense: NSRefCountEntity.SetCurrentValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCurrentValue(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetField(String)
   id: 'SetField(String)'
   so.intellisense: NSRefCountEntity.SetField
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetField(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetReadOnly(Bool)
   id: 'SetReadOnly(Bool)'
   so.intellisense: NSRefCountEntity.SetReadOnly
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetReadOnly(Bool)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetRecordId(Integer)
   id: 'SetRecordId(Integer)'
   so.intellisense: NSRefCountEntity.SetRecordId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRecordId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetRefCountsId(Integer)
   id: 'SetRefCountsId(Integer)'
   so.intellisense: NSRefCountEntity.SetRefCountsId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRefCountsId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetSatPrefix(Integer)
   id: 'SetSatPrefix(Integer)'
   so.intellisense: NSRefCountEntity.SetSatPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSatPrefix(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
   id: 'SetSuggestedRecords(NSMDOListItem[])'
   so.intellisense: NSRefCountEntity.SetSuggestedRecords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSuggestedRecords(NSMDOListItem[])'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetTravelPrefix(Integer)
   id: 'SetTravelPrefix(Integer)'
   so.intellisense: NSRefCountEntity.SetTravelPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTravelPrefix(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRefCountEntity.SetUnique(Bool)
   id: 'SetUnique(Bool)'
   so.intellisense: NSRefCountEntity.SetUnique
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUnique(Bool)'

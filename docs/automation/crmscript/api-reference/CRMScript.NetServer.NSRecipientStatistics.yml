@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRecipientStatistics
   commentId: T:CRMScript.NetServer.NSRecipientStatistics
   id: NSRecipientStatistics
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetNoAddresses()
   id: 'GetNoAddresses()'
   so.intellisense: NSRecipientStatistics.GetNoAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNoAddresses()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetNoFaxOrEmails()
   id: 'GetNoFaxOrEmails()'
   so.intellisense: NSRecipientStatistics.GetNoFaxOrEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNoFaxOrEmails()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetTotal()
   id: 'GetTotal()'
   so.intellisense: NSRecipientStatistics.GetTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTotal()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidEmailAddresses()
   id: 'GetValidEmailAddresses()'
   so.intellisense: NSRecipientStatistics.GetValidEmailAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValidEmailAddresses()'
@@ -116,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidFaxNumbers()
   id: 'GetValidFaxNumbers()'
   so.intellisense: NSRecipientStatistics.GetValidFaxNumbers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValidFaxNumbers()'
@@ -134,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidPostalAddresses()
   id: 'GetValidPostalAddresses()'
   so.intellisense: NSRecipientStatistics.GetValidPostalAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValidPostalAddresses()'
@@ -152,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetNoAddresses(Integer)
   id: 'SetNoAddresses(Integer)'
   so.intellisense: NSRecipientStatistics.SetNoAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNoAddresses(Integer)'
@@ -173,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetNoFaxOrEmails(Integer)
   id: 'SetNoFaxOrEmails(Integer)'
   so.intellisense: NSRecipientStatistics.SetNoFaxOrEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNoFaxOrEmails(Integer)'
@@ -194,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetTotal(Integer)
   id: 'SetTotal(Integer)'
   so.intellisense: NSRecipientStatistics.SetTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTotal(Integer)'
@@ -215,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidEmailAddresses(Integer)
   id: 'SetValidEmailAddresses(Integer)'
   so.intellisense: NSRecipientStatistics.SetValidEmailAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValidEmailAddresses(Integer)'
@@ -236,6 +247,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidFaxNumbers(Integer)
   id: 'SetValidFaxNumbers(Integer)'
   so.intellisense: NSRecipientStatistics.SetValidFaxNumbers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValidFaxNumbers(Integer)'
@@ -257,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidPostalAddresses(Integer)
   id: 'SetValidPostalAddresses(Integer)'
   so.intellisense: NSRecipientStatistics.SetValidPostalAddresses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValidPostalAddresses(Integer)'

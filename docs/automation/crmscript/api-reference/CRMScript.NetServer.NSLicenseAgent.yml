@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLicenseAgent
   commentId: T:CRMScript.NetServer.NSLicenseAgent
   id: NSLicenseAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -53,6 +54,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.ActivateLicenseInfo(NSExtendedLicenseInfo)
   id: 'ActivateLicenseInfo(NSExtendedLicenseInfo)'
   so.intellisense: NSLicenseAgent.ActivateLicenseInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ActivateLicenseInfo(NSExtendedLicenseInfo)'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.AddLicenseFromFile(String)
   id: 'AddLicenseFromFile(String)'
   so.intellisense: NSLicenseAgent.AddLicenseFromFile
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddLicenseFromFile(String)'
@@ -96,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.AssignThirdPartyLicenses(Integer,String,String[])
   id: 'AssignThirdPartyLicenses(Integer,String,String[])'
   so.intellisense: NSLicenseAgent.AssignThirdPartyLicenses
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AssignThirdPartyLicenses(Integer,String,String[])'
@@ -124,6 +128,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.ChangeSerialNumber(String,String)
   id: 'ChangeSerialNumber(String,String)'
   so.intellisense: NSLicenseAgent.ChangeSerialNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeSerialNumber(String,String)'
@@ -149,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetLicenseForAllOwnersFromDB()
   id: 'GetLicenseForAllOwnersFromDB()'
   so.intellisense: NSLicenseAgent.GetLicenseForAllOwnersFromDB
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseForAllOwnersFromDB()'
@@ -167,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetLicenseFromDB(String)
   id: 'GetLicenseFromDB(String)'
   so.intellisense: NSLicenseAgent.GetLicenseFromDB
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseFromDB(String)'
@@ -189,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetLicenseFromFile(String)
   id: 'GetLicenseFromFile(String)'
   so.intellisense: NSLicenseAgent.GetLicenseFromFile
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseFromFile(String)'
@@ -210,6 +218,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetLicenseFromLicenseServer(String)
   id: 'GetLicenseFromLicenseServer(String)'
   so.intellisense: NSLicenseAgent.GetLicenseFromLicenseServer
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseFromLicenseServer(String)'
@@ -231,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetLicenseStatusFromLicenseServer(String)
   id: 'GetLicenseStatusFromLicenseServer(String)'
   so.intellisense: NSLicenseAgent.GetLicenseStatusFromLicenseServer
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseStatusFromLicenseServer(String)'
@@ -253,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetModuleLicenseFromDB(String,String)
   id: 'GetModuleLicenseFromDB(String,String)'
   so.intellisense: NSLicenseAgent.GetModuleLicenseFromDB
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetModuleLicenseFromDB(String,String)'
@@ -278,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo,NSExtendedModuleLicense)
   id: 'GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo,NSExtendedModuleLicense)'
   so.intellisense: NSLicenseAgent.GetModuleLicenseHistoryFromLicenseServer
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo,NSExtendedModuleLicense)'
@@ -304,6 +316,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetSatelliteLicenses(Integer)
   id: 'GetSatelliteLicenses(Integer)'
   so.intellisense: NSLicenseAgent.GetSatelliteLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSatelliteLicenses(Integer)'
@@ -326,6 +339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetShopUrl(String)
   id: 'GetShopUrl(String)'
   so.intellisense: NSLicenseAgent.GetShopUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShopUrl(String)'
@@ -349,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetThirdPartyLicenseAssignments(Integer,String)
   id: 'GetThirdPartyLicenseAssignments(Integer,String)'
   so.intellisense: NSLicenseAgent.GetThirdPartyLicenseAssignments
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetThirdPartyLicenseAssignments(Integer,String)'
@@ -374,6 +389,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetUserLicenses(Integer)
   id: 'GetUserLicenses(Integer)'
   so.intellisense: NSLicenseAgent.GetUserLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserLicenses(Integer)'
@@ -396,6 +412,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.GetUserLicensesMDOList()
   id: 'GetUserLicensesMDOList()'
   so.intellisense: NSLicenseAgent.GetUserLicensesMDOList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserLicensesMDOList()'
@@ -415,6 +432,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.RemoveLicenseFromDB(String)
   id: 'RemoveLicenseFromDB(String)'
   so.intellisense: NSLicenseAgent.RemoveLicenseFromDB
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveLicenseFromDB(String)'
@@ -436,6 +454,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.UnassignThirdPartyLicenses(Integer,String,String[])
   id: 'UnassignThirdPartyLicenses(Integer,String,String[])'
   so.intellisense: NSLicenseAgent.UnassignThirdPartyLicenses
+  so.version: 8.2
   langs:
   - crmscript
   name: 'UnassignThirdPartyLicenses(Integer,String,String[])'
@@ -464,6 +483,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseAgent.ValidateLicenseInfo(NSExtendedLicenseInfo)
   id: 'ValidateLicenseInfo(NSExtendedLicenseInfo)'
   so.intellisense: NSLicenseAgent.ValidateLicenseInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ValidateLicenseInfo(NSExtendedLicenseInfo)'

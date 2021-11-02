@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSImage
   commentId: T:CRMScript.NetServer.NSImage
   id: NSImage
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -34,6 +35,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImage.GetImage()
   id: 'GetImage()'
   so.intellisense: NSImage.GetImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetImage()'
@@ -52,6 +54,7 @@ items:
   commentId: M:CRMScript.NetServer.NSImage.SetImage(Byte[])
   id: 'SetImage(Byte[])'
   so.intellisense: NSImage.SetImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetImage(Byte[])'

@@ -8,21 +8,21 @@ items:
   children:
   - CRMScript.Native.Map.#ctor
   - CRMScript.Native.Map.#ctor(String)
-  - CRMScript.Native.Map.insert(String, String)
+  - CRMScript.Native.Map.clear()
+  - CRMScript.Native.Map.eof()
   - CRMScript.Native.Map.exists(String)
-  - CRMScript.Native.Map.size()
+  - CRMScript.Native.Map.first()
+  - CRMScript.Native.Map.fromJson(String)
   - CRMScript.Native.Map.get(String)
   - CRMScript.Native.Map.getKey()
   - CRMScript.Native.Map.getVal()
-  - CRMScript.Native.Map.increaseValueForKey(String, Integer)
   - CRMScript.Native.Map.increaseValueForKey(String, Float)
-  - CRMScript.Native.Map.remove(String)
-  - CRMScript.Native.Map.clear()
-  - CRMScript.Native.Map.eof()
-  - CRMScript.Native.Map.first()
+  - CRMScript.Native.Map.increaseValueForKey(String, Integer)
+  - CRMScript.Native.Map.insert(String, String)
   - CRMScript.Native.Map.next()
+  - CRMScript.Native.Map.remove(String)
+  - CRMScript.Native.Map.size()
   - CRMScript.Native.Map.toJson()
-  - CRMScript.Native.Map.fromJson(String)
   name: Map
   nameWithType: Map
   fullName: CRMScript.Native.Map
@@ -210,6 +210,7 @@ items:
   commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Integer)
   id: increaseValueForKey(String, Integer)
   so.intellisense: Map.increaseValueForKey
+  so.version: 7.1.1
   langs:
   - crmscript
   parent: CRMScript.Native.Map
@@ -236,6 +237,7 @@ items:
   commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Float)
   id: increaseValueForKey(String, Float)
   so.intellisense: Map.increaseValueForKey
+  so.version: 7.1.1
   langs:
   - crmscript
   parent: CRMScript.Native.Map
@@ -262,6 +264,7 @@ items:
   commentId: M:CRMScript.Native.Map.remove(String)
   id: remove(String)
   so.intellisense: Map.remove
+  so.version: 4.0.1
   langs:
   - crmscript
   parent: CRMScript.Native.Map
@@ -284,6 +287,7 @@ items:
   commentId: M:CRMScript.Native.Map.clear()
   id: clear()
   so.intellisense: Map.clear
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Native.Map
@@ -364,6 +368,7 @@ items:
   commentId: M:CRMScript.Native.Map.toJson()
   id: toJson()
   so.intellisense: Map.toJson
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Native.Map
@@ -384,6 +389,7 @@ items:
   commentId: M:CRMScript.Native.Map.fromJson(String)
   id: fromJson(String)
   so.intellisense: Map.fromJson
+  so.version: 7.1.0
   langs:
   - crmscript
   parent: CRMScript.Native.Map

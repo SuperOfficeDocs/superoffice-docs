@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSActivityInformationListItem
   commentId: T:CRMScript.NetServer.NSActivityInformationListItem
   id: NSActivityInformationListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityInformationListItem.GetActivityInformation()
   id: 'GetActivityInformation()'
   so.intellisense: NSActivityInformationListItem.GetActivityInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActivityInformation()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityInformationListItem.GetDate()
   id: 'GetDate()'
   so.intellisense: NSActivityInformationListItem.GetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDate()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
   id: 'SetActivityInformation(NSActivitySummary)'
   so.intellisense: NSActivityInformationListItem.SetActivityInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityInformation(NSActivitySummary)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivityInformationListItem.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSActivityInformationListItem.SetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDate(DateTime)'

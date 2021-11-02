@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleTypeEntity
   commentId: T:CRMScript.NetServer.NSSaleTypeEntity
   id: NSSaleTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetAllowQuoteAlternatives()
   id: 'GetAllowQuoteAlternatives()'
   so.intellisense: NSSaleTypeEntity.GetAllowQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllowQuoteAlternatives()'
@@ -96,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetConfirmationLinesTemplate()
   id: 'GetConfirmationLinesTemplate()'
   so.intellisense: NSSaleTypeEntity.GetConfirmationLinesTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConfirmationLinesTemplate()'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDefaultQuoteValidity()
   id: 'GetDefaultQuoteValidity()'
   so.intellisense: NSSaleTypeEntity.GetDefaultQuoteValidity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDefaultQuoteValidity()'
@@ -136,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSSaleTypeEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDurationUnit()
   id: 'GetDurationUnit()'
   so.intellisense: NSSaleTypeEntity.GetDurationUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDurationUnit()'
@@ -176,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetGroupQuoteLinesBy()
   id: 'GetGroupQuoteLinesBy()'
   so.intellisense: NSSaleTypeEntity.GetGroupQuoteLinesBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetGroupQuoteLinesBy()'
@@ -196,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetHasGuide()
   id: 'GetHasGuide()'
   so.intellisense: NSSaleTypeEntity.GetHasGuide
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasGuide()'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetHasStakeholders()
   id: 'GetHasStakeholders()'
   so.intellisense: NSSaleTypeEntity.GetHasStakeholders
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasStakeholders()'
@@ -236,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetIsAutoAdvance()
   id: 'GetIsAutoAdvance()'
   so.intellisense: NSSaleTypeEntity.GetIsAutoAdvance
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAutoAdvance()'
@@ -256,6 +266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercent()
   id: 'GetMaxDiscountPercent()'
   so.intellisense: NSSaleTypeEntity.GetMaxDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMaxDiscountPercent()'
@@ -276,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercentSet()
   id: 'GetMaxDiscountPercentSet()'
   so.intellisense: NSSaleTypeEntity.GetMaxDiscountPercentSet
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMaxDiscountPercentSet()'
@@ -296,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercent()
   id: 'GetMinEarningPercent()'
   so.intellisense: NSSaleTypeEntity.GetMinEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMinEarningPercent()'
@@ -316,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercentSet()
   id: 'GetMinEarningPercentSet()'
   so.intellisense: NSSaleTypeEntity.GetMinEarningPercentSet
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMinEarningPercentSet()'
@@ -336,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSSaleTypeEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -356,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetQuoteLinesTemplate()
   id: 'GetQuoteLinesTemplate()'
   so.intellisense: NSSaleTypeEntity.GetQuoteLinesTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLinesTemplate()'
@@ -376,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSaleTypeEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -396,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleDuration()
   id: 'GetSaleDuration()'
   so.intellisense: NSSaleTypeEntity.GetSaleDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleDuration()'
@@ -416,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeCatId()
   id: 'GetSaleTypeCatId()'
   so.intellisense: NSSaleTypeEntity.GetSaleTypeCatId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeCatId()'
@@ -436,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeId()
   id: 'GetSaleTypeId()'
   so.intellisense: NSSaleTypeEntity.GetSaleTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeId()'
@@ -456,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSortGroupLinesBy()
   id: 'GetSortGroupLinesBy()'
   so.intellisense: NSSaleTypeEntity.GetSortGroupLinesBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSortGroupLinesBy()'
@@ -476,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetStages()
   id: 'GetStages()'
   so.intellisense: NSSaleTypeEntity.GetStages
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStages()'
@@ -496,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSSaleTypeEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
   id: 'SetAllowQuoteAlternatives(Bool)'
   so.intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAllowQuoteAlternatives(Bool)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
   id: 'SetConfirmationLinesTemplate(Integer)'
   so.intellisense: NSSaleTypeEntity.SetConfirmationLinesTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetConfirmationLinesTemplate(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
   id: 'SetDefaultQuoteValidity(Integer)'
   so.intellisense: NSSaleTypeEntity.SetDefaultQuoteValidity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDefaultQuoteValidity(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSSaleTypeEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDurationUnit(Integer)
   id: 'SetDurationUnit(Integer)'
   so.intellisense: NSSaleTypeEntity.SetDurationUnit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDurationUnit(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
   id: 'SetGroupQuoteLinesBy(Integer)'
   so.intellisense: NSSaleTypeEntity.SetGroupQuoteLinesBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetGroupQuoteLinesBy(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetHasGuide(Bool)
   id: 'SetHasGuide(Bool)'
   so.intellisense: NSSaleTypeEntity.SetHasGuide
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasGuide(Bool)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetHasStakeholders(Bool)
   id: 'SetHasStakeholders(Bool)'
   so.intellisense: NSSaleTypeEntity.SetHasStakeholders
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasStakeholders(Bool)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetIsAutoAdvance(Bool)
   id: 'SetIsAutoAdvance(Bool)'
   so.intellisense: NSSaleTypeEntity.SetIsAutoAdvance
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAutoAdvance(Bool)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
   id: 'SetMaxDiscountPercent(Integer)'
   so.intellisense: NSSaleTypeEntity.SetMaxDiscountPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMaxDiscountPercent(Integer)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
   id: 'SetMaxDiscountPercentSet(Bool)'
   so.intellisense: NSSaleTypeEntity.SetMaxDiscountPercentSet
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMaxDiscountPercentSet(Bool)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercent(Integer)
   id: 'SetMinEarningPercent(Integer)'
   so.intellisense: NSSaleTypeEntity.SetMinEarningPercent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMinEarningPercent(Integer)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
   id: 'SetMinEarningPercentSet(Bool)'
   so.intellisense: NSSaleTypeEntity.SetMinEarningPercentSet
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMinEarningPercentSet(Bool)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSSaleTypeEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
   id: 'SetQuoteLinesTemplate(Integer)'
   so.intellisense: NSSaleTypeEntity.SetQuoteLinesTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteLinesTemplate(Integer)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSaleTypeEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleDuration(Integer)
   id: 'SetSaleDuration(Integer)'
   so.intellisense: NSSaleTypeEntity.SetSaleDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleDuration(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeCatId(Integer)
   id: 'SetSaleTypeCatId(Integer)'
   so.intellisense: NSSaleTypeEntity.SetSaleTypeCatId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeCatId(Integer)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeId(Integer)
   id: 'SetSaleTypeId(Integer)'
   so.intellisense: NSSaleTypeEntity.SetSaleTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeId(Integer)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
   id: 'SetSortGroupLinesBy(Integer)'
   so.intellisense: NSSaleTypeEntity.SetSortGroupLinesBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSortGroupLinesBy(Integer)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
   id: 'SetStages(NSSelectableMDOListItem[])'
   so.intellisense: NSSaleTypeEntity.SetStages
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStages(NSSelectableMDOListItem[])'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSSaleTypeEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

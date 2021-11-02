@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDocument
   commentId: T:CRMScript.NetServer.NSDocument
   id: NSDocument
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -68,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetAssociateFullName()
   id: 'GetAssociateFullName()'
   so.intellisense: NSDocument.GetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateFullName()'
@@ -88,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSDocument.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -108,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetAttention()
   id: 'GetAttention()'
   so.intellisense: NSDocument.GetAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAttention()'
@@ -128,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSDocument.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -148,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSDocument.GetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -168,6 +174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSDocument.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -188,6 +195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSDocument.GetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -208,6 +216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetDocumentTemplate()
   id: 'GetDocumentTemplate()'
   so.intellisense: NSDocument.GetDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplate()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetHeader()
   id: 'GetHeader()'
   so.intellisense: NSDocument.GetHeader
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHeader()'
@@ -248,6 +258,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSDocument.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -268,6 +279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetName()
   id: 'GetName()'
   so.intellisense: NSDocument.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -288,6 +300,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetOurRef()
   id: 'GetOurRef()'
   so.intellisense: NSDocument.GetOurRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOurRef()'
@@ -308,6 +321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetPersonFullName()
   id: 'GetPersonFullName()'
   so.intellisense: NSDocument.GetPersonFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonFullName()'
@@ -328,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSDocument.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -348,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSDocument.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -368,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetProjectName()
   id: 'GetProjectName()'
   so.intellisense: NSDocument.GetProjectName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectName()'
@@ -408,6 +425,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.GetYourRef()
   id: 'GetYourRef()'
   so.intellisense: NSDocument.GetYourRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetYourRef()'
@@ -428,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetAssociateFullName(String)
   id: 'SetAssociateFullName(String)'
   so.intellisense: NSDocument.SetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateFullName(String)'
@@ -448,6 +467,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSDocument.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -470,6 +490,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetAttention(String)
   id: 'SetAttention(String)'
   so.intellisense: NSDocument.SetAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAttention(String)'
@@ -492,6 +513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSDocument.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -514,6 +536,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSDocument.SetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -536,6 +559,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSDocument.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -558,6 +582,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSDocument.SetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -580,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetDocumentTemplate(String)
   id: 'SetDocumentTemplate(String)'
   so.intellisense: NSDocument.SetDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentTemplate(String)'
@@ -602,6 +628,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetHeader(String)
   id: 'SetHeader(String)'
   so.intellisense: NSDocument.SetHeader
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHeader(String)'
@@ -624,6 +651,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSDocument.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -646,6 +674,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSDocument.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -668,6 +697,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetOurRef(String)
   id: 'SetOurRef(String)'
   so.intellisense: NSDocument.SetOurRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOurRef(String)'
@@ -690,6 +720,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetPersonFullName(String)
   id: 'SetPersonFullName(String)'
   so.intellisense: NSDocument.SetPersonFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonFullName(String)'
@@ -712,6 +743,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSDocument.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -734,6 +766,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSDocument.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -756,6 +789,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetProjectName(String)
   id: 'SetProjectName(String)'
   so.intellisense: NSDocument.SetProjectName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectName(String)'
@@ -800,6 +834,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocument.SetYourRef(String)
   id: 'SetYourRef(String)'
   so.intellisense: NSDocument.SetYourRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetYourRef(String)'

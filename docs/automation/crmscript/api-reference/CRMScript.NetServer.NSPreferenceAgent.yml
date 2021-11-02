@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreferenceAgent
   commentId: T:CRMScript.NetServer.NSPreferenceAgent
   id: NSPreferenceAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -71,6 +72,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreference()
   id: 'CreateDefaultPreference()'
   so.intellisense: NSPreferenceAgent.CreateDefaultPreference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultPreference()'
@@ -90,6 +92,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescription()
   id: 'CreateDefaultPreferenceDescription()'
   so.intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultPreferenceDescription()'
@@ -109,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
   id: 'CreateDefaultPreferenceDescriptionLine()'
   so.intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultPreferenceDescriptionLine()'
@@ -128,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
   id: 'DeleteFromSectionAndKey(String,String)'
   so.intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteFromSectionAndKey(String,String)'
@@ -197,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreference(Integer)
   id: 'DeletePreference(Integer)'
   so.intellisense: NSPreferenceAgent.DeletePreference
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeletePreference(Integer)'
@@ -219,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescription(Integer)
   id: 'DeletePreferenceDescription(Integer)'
   so.intellisense: NSPreferenceAgent.DeletePreferenceDescription
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeletePreferenceDescription(Integer)'
@@ -285,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferences(Integer[])
   id: 'DeletePreferences(Integer[])'
   so.intellisense: NSPreferenceAgent.DeletePreferences
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeletePreferences(Integer[])'
@@ -307,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetAll()
   id: 'GetAll()'
   so.intellisense: NSPreferenceAgent.GetAll
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAll()'
@@ -326,6 +335,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetAllFromSection(String)
   id: 'GetAllFromSection(String)'
   so.intellisense: NSPreferenceAgent.GetAllFromSection
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllFromSection(String)'
@@ -348,6 +358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetFromSectionAndKey(String,String)
   id: 'GetFromSectionAndKey(String,String)'
   so.intellisense: NSPreferenceAgent.GetFromSectionAndKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFromSectionAndKey(String,String)'
@@ -373,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetNetServicesStatusUrl()
   id: 'GetNetServicesStatusUrl()'
   so.intellisense: NSPreferenceAgent.GetNetServicesStatusUrl
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetNetServicesStatusUrl()'
@@ -393,6 +405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreference(Integer)
   id: 'GetPreference(Integer)'
   so.intellisense: NSPreferenceAgent.GetPreference
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPreference(Integer)'
@@ -415,6 +428,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
   id: 'GetPreferenceByName(String,String,Integer)'
   so.intellisense: NSPreferenceAgent.GetPreferenceByName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPreferenceByName(String,String,Integer)'
@@ -443,6 +457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
   id: 'GetPreferenceByNameAndId(String,String,Integer,Integer)'
   so.intellisense: NSPreferenceAgent.GetPreferenceByNameAndId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPreferenceByNameAndId(String,String,Integer,Integer)'
@@ -474,6 +489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescription(Integer)
   id: 'GetPreferenceDescription(Integer)'
   so.intellisense: NSPreferenceAgent.GetPreferenceDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPreferenceDescription(Integer)'
@@ -496,6 +512,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
   id: 'GetPreferenceDescriptionLine(Integer)'
   so.intellisense: NSPreferenceAgent.GetPreferenceDescriptionLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPreferenceDescriptionLine(Integer)'
@@ -518,6 +535,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
   id: 'GetPreferenceDescriptionLineFromIdAndValue(Integer,String)'
   so.intellisense: NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPreferenceDescriptionLineFromIdAndValue(Integer,String)'
@@ -565,6 +583,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
   id: 'GetPreferences(NSPreferenceSpec[])'
   so.intellisense: NSPreferenceAgent.GetPreferences
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreferences(NSPreferenceSpec[])'
@@ -587,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
   id: 'GetPreferencesWithDisplayValues(NSPreferenceSpec[])'
   so.intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPreferencesWithDisplayValues(NSPreferenceSpec[])'
@@ -609,6 +629,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetTabOrder(String)
   id: 'GetTabOrder(String)'
   so.intellisense: NSPreferenceAgent.GetTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabOrder(String)'
@@ -631,6 +652,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetTabOrders()
   id: 'GetTabOrders()'
   so.intellisense: NSPreferenceAgent.GetTabOrders
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabOrders()'
@@ -649,6 +671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
   id: 'SaveFromSectionAndKey(String,String,NSPreferenceDescription)'
   so.intellisense: NSPreferenceAgent.SaveFromSectionAndKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveFromSectionAndKey(String,String,NSPreferenceDescription)'
@@ -677,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreference(NSPreference)
   id: 'SavePreference(NSPreference)'
   so.intellisense: NSPreferenceAgent.SavePreference
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SavePreference(NSPreference)'
@@ -699,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
   id: 'SavePreferenceDescription(NSPreferenceDescription)'
   so.intellisense: NSPreferenceAgent.SavePreferenceDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SavePreferenceDescription(NSPreferenceDescription)'
@@ -765,6 +790,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
   id: 'SavePreferenceEntities(NSPreference[],Bool)'
   so.intellisense: NSPreferenceAgent.SavePreferenceEntities
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SavePreferenceEntities(NSPreference[],Bool)'
@@ -789,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
   id: 'SavePreferenceEntity(NSPreference,Bool)'
   so.intellisense: NSPreferenceAgent.SavePreferenceEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SavePreferenceEntity(NSPreference,Bool)'
@@ -814,6 +841,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferences(NSPreference[])
   id: 'SavePreferences(NSPreference[])'
   so.intellisense: NSPreferenceAgent.SavePreferences
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SavePreferences(NSPreference[])'
@@ -835,6 +863,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveTabOrder(NSTabOrder)
   id: 'SaveTabOrder(NSTabOrder)'
   so.intellisense: NSPreferenceAgent.SaveTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveTabOrder(NSTabOrder)'
@@ -857,6 +886,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
   id: 'SaveTabOrders(NSTabOrder[])'
   so.intellisense: NSPreferenceAgent.SaveTabOrders
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveTabOrders(NSTabOrder[])'
@@ -878,6 +908,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreferenceAgent.UpdateNetServicesStatus(String)
   id: 'UpdateNetServicesStatus(String)'
   so.intellisense: NSPreferenceAgent.UpdateNetServicesStatus
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'UpdateNetServicesStatus(String)'

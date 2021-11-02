@@ -7,16 +7,16 @@ items:
   - crmscript
   children:
     - CRMScript.Global.Time.#ctor
-    - CRMScript.Global.Time.#ctor(Time)
     - CRMScript.Global.Time.#ctor(String)
-    - CRMScript.Global.Time.toString()
-    - CRMScript.Global.Time.setHour(Integer)
-    - CRMScript.Global.Time.setMin(Integer)
-    - CRMScript.Global.Time.setSec(Integer)
+    - CRMScript.Global.Time.#ctor(Time)
     - CRMScript.Global.Time.getHour()
     - CRMScript.Global.Time.getMin()
     - CRMScript.Global.Time.getSec()
     - CRMScript.Global.Time.isNull()
+    - CRMScript.Global.Time.setHour(Integer)
+    - CRMScript.Global.Time.setMin(Integer)
+    - CRMScript.Global.Time.setSec(Integer)
+    - CRMScript.Global.Time.toString()
   name: Time
   nameWithType: Time
   fullName: CRMScript.Global.Time
@@ -68,6 +68,7 @@ items:
   commentId: M:CRMScript.Global.Time.#ctor(String)
   id: '#ctor(String)'
   so.intellisense: Void.Time
+  so.version: 3.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Time
@@ -232,6 +233,7 @@ items:
   commentId: M:CRMScript.Global.Time.isNull()
   id: isNull()
   so.intellisense: Time.isNull
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Time

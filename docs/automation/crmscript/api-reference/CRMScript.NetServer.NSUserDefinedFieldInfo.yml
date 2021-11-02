@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserDefinedFieldInfo
   commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfo
   id: NSUserDefinedFieldInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -102,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetColumnId()
   id: 'GetColumnId()'
   so.intellisense: NSUserDefinedFieldInfo.GetColumnId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColumnId()'
@@ -122,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldDefault()
   id: 'GetFieldDefault()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldDefault
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldDefault()'
@@ -142,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldHeight()
   id: 'GetFieldHeight()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldHeight()'
@@ -162,6 +166,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLabel()
   id: 'GetFieldLabel()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldLabel()'
@@ -182,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLeft()
   id: 'GetFieldLeft()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldLeft
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldLeft()'
@@ -202,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldTop()
   id: 'GetFieldTop()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldTop
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldTop()'
@@ -222,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldType()
   id: 'GetFieldType()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldType()'
@@ -242,6 +250,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldWidth()
   id: 'GetFieldWidth()'
   so.intellisense: NSUserDefinedFieldInfo.GetFieldWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFieldWidth()'
@@ -262,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFormatMask()
   id: 'GetFormatMask()'
   so.intellisense: NSUserDefinedFieldInfo.GetFormatMask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFormatMask()'
@@ -282,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetHasBeenPublished()
   id: 'GetHasBeenPublished()'
   so.intellisense: NSUserDefinedFieldInfo.GetHasBeenPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasBeenPublished()'
@@ -302,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetHideLabel()
   id: 'GetHideLabel()'
   so.intellisense: NSUserDefinedFieldInfo.GetHideLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHideLabel()'
@@ -322,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsIndexed()
   id: 'GetIsIndexed()'
   so.intellisense: NSUserDefinedFieldInfo.GetIsIndexed
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsIndexed()'
@@ -342,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsMandatory()
   id: 'GetIsMandatory()'
   so.intellisense: NSUserDefinedFieldInfo.GetIsMandatory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsMandatory()'
@@ -362,6 +376,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsReadOnly()
   id: 'GetIsReadOnly()'
   so.intellisense: NSUserDefinedFieldInfo.GetIsReadOnly
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsReadOnly()'
@@ -382,6 +397,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetJustification()
   id: 'GetJustification()'
   so.intellisense: NSUserDefinedFieldInfo.GetJustification
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetJustification()'
@@ -402,6 +418,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelHeight()
   id: 'GetLabelHeight()'
   so.intellisense: NSUserDefinedFieldInfo.GetLabelHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLabelHeight()'
@@ -422,6 +439,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelLeft()
   id: 'GetLabelLeft()'
   so.intellisense: NSUserDefinedFieldInfo.GetLabelLeft
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLabelLeft()'
@@ -442,6 +460,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelTop()
   id: 'GetLabelTop()'
   so.intellisense: NSUserDefinedFieldInfo.GetLabelTop
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLabelTop()'
@@ -462,6 +481,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelWidth()
   id: 'GetLabelWidth()'
   so.intellisense: NSUserDefinedFieldInfo.GetLabelWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLabelWidth()'
@@ -482,6 +502,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLastVersionId()
   id: 'GetLastVersionId()'
   so.intellisense: NSUserDefinedFieldInfo.GetLastVersionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastVersionId()'
@@ -502,6 +523,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetListTableId()
   id: 'GetListTableId()'
   so.intellisense: NSUserDefinedFieldInfo.GetListTableId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetListTableId()'
@@ -522,6 +544,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetMdoListName()
   id: 'GetMdoListName()'
   so.intellisense: NSUserDefinedFieldInfo.GetMdoListName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMdoListName()'
@@ -542,6 +565,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetOwnerTableId()
   id: 'GetOwnerTableId()'
   so.intellisense: NSUserDefinedFieldInfo.GetOwnerTableId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerTableId()'
@@ -561,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetPage1LineNo()
   id: 'GetPage1LineNo()'
   so.intellisense: NSUserDefinedFieldInfo.GetPage1LineNo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPage1LineNo()'
@@ -581,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetProgId()
   id: 'GetProgId()'
   so.intellisense: NSUserDefinedFieldInfo.GetProgId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProgId()'
@@ -601,6 +627,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetShortLabel()
   id: 'GetShortLabel()'
   so.intellisense: NSUserDefinedFieldInfo.GetShortLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetShortLabel()'
@@ -621,6 +648,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTabOrder()
   id: 'GetTabOrder()'
   so.intellisense: NSUserDefinedFieldInfo.GetTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabOrder()'
@@ -641,6 +669,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTemplateVariableName()
   id: 'GetTemplateVariableName()'
   so.intellisense: NSUserDefinedFieldInfo.GetTemplateVariableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTemplateVariableName()'
@@ -661,6 +690,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTextLength()
   id: 'GetTextLength()'
   so.intellisense: NSUserDefinedFieldInfo.GetTextLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTextLength()'
@@ -681,6 +711,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSUserDefinedFieldInfo.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -701,6 +732,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetType()
   id: 'GetType()'
   so.intellisense: NSUserDefinedFieldInfo.GetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetType()'
@@ -721,6 +753,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDefFieldId()
   id: 'GetUDefFieldId()'
   so.intellisense: NSUserDefinedFieldInfo.GetUDefFieldId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUDefFieldId()'
@@ -741,6 +774,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUdefIdentity()
   id: 'GetUdefIdentity()'
   so.intellisense: NSUserDefinedFieldInfo.GetUdefIdentity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUdefIdentity()'
@@ -761,6 +795,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDListDefinitionId()
   id: 'GetUDListDefinitionId()'
   so.intellisense: NSUserDefinedFieldInfo.GetUDListDefinitionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUDListDefinitionId()'
@@ -781,6 +816,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetVersion()
   id: 'GetVersion()'
   so.intellisense: NSUserDefinedFieldInfo.GetVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVersion()'
@@ -801,6 +837,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetColumnId(Integer)
   id: 'SetColumnId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetColumnId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetColumnId(Integer)'
@@ -823,6 +860,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldDefault(String)
   id: 'SetFieldDefault(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldDefault
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldDefault(String)'
@@ -845,6 +883,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldHeight(Integer)
   id: 'SetFieldHeight(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldHeight(Integer)'
@@ -867,6 +906,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLabel(String)
   id: 'SetFieldLabel(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldLabel(String)'
@@ -889,6 +929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLeft(Integer)
   id: 'SetFieldLeft(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldLeft
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldLeft(Integer)'
@@ -911,6 +952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldTop(Integer)
   id: 'SetFieldTop(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldTop
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldTop(Integer)'
@@ -933,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldType(Integer)
   id: 'SetFieldType(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldType(Integer)'
@@ -955,6 +998,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldWidth(Integer)
   id: 'SetFieldWidth(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetFieldWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFieldWidth(Integer)'
@@ -977,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFormatMask(String)
   id: 'SetFormatMask(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetFormatMask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFormatMask(String)'
@@ -999,6 +1044,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
   id: 'SetHasBeenPublished(Bool)'
   so.intellisense: NSUserDefinedFieldInfo.SetHasBeenPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasBeenPublished(Bool)'
@@ -1021,6 +1067,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetHideLabel(Bool)
   id: 'SetHideLabel(Bool)'
   so.intellisense: NSUserDefinedFieldInfo.SetHideLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHideLabel(Bool)'
@@ -1043,6 +1090,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsIndexed(Bool)
   id: 'SetIsIndexed(Bool)'
   so.intellisense: NSUserDefinedFieldInfo.SetIsIndexed
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsIndexed(Bool)'
@@ -1065,6 +1113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsMandatory(Bool)
   id: 'SetIsMandatory(Bool)'
   so.intellisense: NSUserDefinedFieldInfo.SetIsMandatory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsMandatory(Bool)'
@@ -1087,6 +1136,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
   id: 'SetIsReadOnly(Bool)'
   so.intellisense: NSUserDefinedFieldInfo.SetIsReadOnly
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsReadOnly(Bool)'
@@ -1109,6 +1159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetJustification(Integer)
   id: 'SetJustification(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetJustification
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetJustification(Integer)'
@@ -1131,6 +1182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelHeight(Integer)
   id: 'SetLabelHeight(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetLabelHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLabelHeight(Integer)'
@@ -1153,6 +1205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelLeft(Integer)
   id: 'SetLabelLeft(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetLabelLeft
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLabelLeft(Integer)'
@@ -1175,6 +1228,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelTop(Integer)
   id: 'SetLabelTop(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetLabelTop
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLabelTop(Integer)'
@@ -1197,6 +1251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelWidth(Integer)
   id: 'SetLabelWidth(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetLabelWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLabelWidth(Integer)'
@@ -1219,6 +1274,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLastVersionId(Integer)
   id: 'SetLastVersionId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetLastVersionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastVersionId(Integer)'
@@ -1241,6 +1297,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetListTableId(Integer)
   id: 'SetListTableId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetListTableId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetListTableId(Integer)'
@@ -1263,6 +1320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetMdoListName(String)
   id: 'SetMdoListName(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetMdoListName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMdoListName(String)'
@@ -1285,6 +1343,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
   id: 'SetOwnerTableId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetOwnerTableId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerTableId(Integer)'
@@ -1306,6 +1365,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
   id: 'SetPage1LineNo(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetPage1LineNo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPage1LineNo(Integer)'
@@ -1328,6 +1388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetProgId(String)
   id: 'SetProgId(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetProgId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProgId(String)'
@@ -1350,6 +1411,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetShortLabel(String)
   id: 'SetShortLabel(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetShortLabel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetShortLabel(String)'
@@ -1372,6 +1434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTabOrder(Integer)
   id: 'SetTabOrder(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTabOrder(Integer)'
@@ -1394,6 +1457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTemplateVariableName(String)
   id: 'SetTemplateVariableName(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetTemplateVariableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTemplateVariableName(String)'
@@ -1416,6 +1480,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTextLength(Integer)
   id: 'SetTextLength(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetTextLength
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTextLength(Integer)'
@@ -1438,6 +1503,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSUserDefinedFieldInfo.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -1460,6 +1526,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -1482,6 +1549,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
   id: 'SetUDefFieldId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetUDefFieldId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUDefFieldId(Integer)'
@@ -1504,6 +1572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
   id: 'SetUdefIdentity(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUdefIdentity(Integer)'
@@ -1526,6 +1595,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
   id: 'SetUDListDefinitionId(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetUDListDefinitionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUDListDefinitionId(Integer)'
@@ -1548,6 +1618,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetVersion(Integer)
   id: 'SetVersion(Integer)'
   so.intellisense: NSUserDefinedFieldInfo.SetVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVersion(Integer)'

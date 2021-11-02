@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteAgent
   commentId: T:CRMScript.NetServer.NSQuoteAgent
   id: NSQuoteAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -132,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
   id: 'AddSaleTypeQuoteAttachment(Integer,Integer)'
   so.intellisense: NSQuoteAgent.AddSaleTypeQuoteAttachment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'AddSaleTypeQuoteAttachment(Integer,Integer)'
@@ -158,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
   id: 'ApproveQuoteVersion(Integer,String,Integer,String)'
   so.intellisense: NSQuoteAgent.ApproveQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ApproveQuoteVersion(Integer,String,Integer,String)'
@@ -189,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
   id: 'CanConnectorProvideCapability(Integer,String)'
   so.intellisense: NSQuoteAgent.CanConnectorProvideCapability
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CanConnectorProvideCapability(Integer,String)'
@@ -215,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
   id: 'CopyQuoteAlternative(Integer,Integer,String)'
   so.intellisense: NSQuoteAgent.CopyQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CopyQuoteAlternative(Integer,Integer,String)'
@@ -243,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
   id: 'CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)'
   so.intellisense: NSQuoteAgent.CopySuperOfficePriceList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)'
@@ -280,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
   id: 'CreateAndSaveQuote(Integer,Integer,String)'
   so.intellisense: NSQuoteAgent.CreateAndSaveQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateAndSaveQuote(Integer,Integer,String)'
@@ -308,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
   id: 'CreateAndSaveQuoteFromSale(Integer,Integer)'
   so.intellisense: NSQuoteAgent.CreateAndSaveQuoteFromSale
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateAndSaveQuoteFromSale(Integer,Integer)'
@@ -333,6 +341,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
   id: 'CreateAndSaveQuoteVersion(Integer)'
   so.intellisense: NSQuoteAgent.CreateAndSaveQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateAndSaveQuoteVersion(Integer)'
@@ -355,6 +364,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateConnectionFromConnectorName(String)
   id: 'CreateConnectionFromConnectorName(String)'
   so.intellisense: NSQuoteAgent.CreateConnectionFromConnectorName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateConnectionFromConnectorName(String)'
@@ -377,6 +387,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultPriceList()
   id: 'CreateDefaultPriceList()'
   so.intellisense: NSQuoteAgent.CreateDefaultPriceList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultPriceList()'
@@ -396,6 +407,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultProduct()
   id: 'CreateDefaultProduct()'
   so.intellisense: NSQuoteAgent.CreateDefaultProduct
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultProduct()'
@@ -415,6 +427,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultQuoteAlternative()
   id: 'CreateDefaultQuoteAlternative()'
   so.intellisense: NSQuoteAgent.CreateDefaultQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultQuoteAlternative()'
@@ -434,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
   id: 'CreateOrUpdateQuoteVersionAttachments(Integer)'
   so.intellisense: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateOrUpdateQuoteVersionAttachments(Integer)'
@@ -456,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
   id: 'CreateQuoteAlternative(Integer,String,String)'
   so.intellisense: NSQuoteAgent.CreateQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateQuoteAlternative(Integer,String,String)'
@@ -484,6 +499,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteLine(Integer,String)
   id: 'CreateQuoteLine(Integer,String)'
   so.intellisense: NSQuoteAgent.CreateQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateQuoteLine(Integer,String)'
@@ -509,6 +525,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
   id: 'CreateQuoteLineFromProduct(Integer,NSProduct)'
   so.intellisense: NSQuoteAgent.CreateQuoteLineFromProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateQuoteLineFromProduct(Integer,NSProduct)'
@@ -534,6 +551,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteConnection(Integer)
   id: 'DeleteConnection(Integer)'
   so.intellisense: NSQuoteAgent.DeleteConnection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteConnection(Integer)'
@@ -556,6 +574,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeletePriceList(Integer)
   id: 'DeletePriceList(Integer)'
   so.intellisense: NSQuoteAgent.DeletePriceList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeletePriceList(Integer)'
@@ -578,6 +597,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteProduct(Integer)
   id: 'DeleteProduct(Integer)'
   so.intellisense: NSQuoteAgent.DeleteProduct
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteProduct(Integer)'
@@ -600,6 +620,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuote(Integer)
   id: 'DeleteQuote(Integer)'
   so.intellisense: NSQuoteAgent.DeleteQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteQuote(Integer)'
@@ -621,6 +642,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuoteAlternative(Integer)
   id: 'DeleteQuoteAlternative(Integer)'
   so.intellisense: NSQuoteAgent.DeleteQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteQuoteAlternative(Integer)'
@@ -643,6 +665,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLine(Integer)
   id: 'DeleteQuoteLine(Integer)'
   so.intellisense: NSQuoteAgent.DeleteQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteQuoteLine(Integer)'
@@ -687,6 +710,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
   id: 'DeleteSaleTypeQuoteAttachment(Integer)'
   so.intellisense: NSQuoteAgent.DeleteSaleTypeQuoteAttachment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteSaleTypeQuoteAttachment(Integer)'
@@ -708,6 +732,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.FindProduct(Integer,String,String)
   id: 'FindProduct(Integer,String,String)'
   so.intellisense: NSQuoteAgent.FindProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'FindProduct(Integer,String,String)'
@@ -736,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
   id: 'GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)'
   so.intellisense: NSQuoteAgent.GenerateQuoteDocuments
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)'
@@ -773,6 +799,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetActivePriceLists(Integer,String)
   id: 'GetActivePriceLists(Integer,String)'
   so.intellisense: NSQuoteAgent.GetActivePriceLists
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActivePriceLists(Integer,String)'
@@ -799,6 +826,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
   id: 'GetActivePriceListsByCurrencyId(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetActivePriceListsByCurrencyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActivePriceListsByCurrencyId(Integer,Integer)'
@@ -825,6 +853,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnections()
   id: 'GetAllAvailableQuoteConnections()'
   so.intellisense: NSQuoteAgent.GetAllAvailableQuoteConnections
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllAvailableQuoteConnections()'
@@ -844,6 +873,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
   id: 'GetAllAvailableQuoteConnectionsWithPriceLists()'
   so.intellisense: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAllAvailableQuoteConnectionsWithPriceLists()'
@@ -863,6 +893,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllInstalledQuoteConnections()
   id: 'GetAllInstalledQuoteConnections()'
   so.intellisense: NSQuoteAgent.GetAllInstalledQuoteConnections
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllInstalledQuoteConnections()'
@@ -882,6 +913,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllPriceLists(Integer,String)
   id: 'GetAllPriceLists(Integer,String)'
   so.intellisense: NSQuoteAgent.GetAllPriceLists
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllPriceLists(Integer,String)'
@@ -908,6 +940,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
   id: 'GetAllPriceListsByCurrencyId(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetAllPriceListsByCurrencyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllPriceListsByCurrencyId(Integer,Integer)'
@@ -934,6 +967,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllQuoteLineConfigurations()
   id: 'GetAllQuoteLineConfigurations()'
   so.intellisense: NSQuoteAgent.GetAllQuoteLineConfigurations
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAllQuoteLineConfigurations()'
@@ -953,6 +987,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConfigurationFields(Integer,String)
   id: 'GetConfigurationFields(Integer,String)'
   so.intellisense: NSQuoteAgent.GetConfigurationFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConfigurationFields(Integer,String)'
@@ -978,6 +1013,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
   id: 'GetConnection(Integer)'
   so.intellisense: NSQuoteAgent.GetConnection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnection(Integer)'
@@ -1000,6 +1036,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionConfigFields(Integer)
   id: 'GetConnectionConfigFields(Integer)'
   so.intellisense: NSQuoteAgent.GetConnectionConfigFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectionConfigFields(Integer)'
@@ -1022,6 +1059,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
   id: 'GetConnectionsForAssociate(Integer)'
   so.intellisense: NSQuoteAgent.GetConnectionsForAssociate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectionsForAssociate(Integer)'
@@ -1044,6 +1082,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupErrors()
   id: 'GetConnectionStartupErrors()'
   so.intellisense: NSQuoteAgent.GetConnectionStartupErrors
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectionStartupErrors()'
@@ -1063,6 +1102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupResponse(Integer)
   id: 'GetConnectionStartupResponse(Integer)'
   so.intellisense: NSQuoteAgent.GetConnectionStartupResponse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectionStartupResponse(Integer)'
@@ -1085,6 +1125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilities(Integer)
   id: 'GetConnectorCapabilities(Integer)'
   so.intellisense: NSQuoteAgent.GetConnectorCapabilities
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectorCapabilities(Integer)'
@@ -1108,6 +1149,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilityNames(Integer)
   id: 'GetConnectorCapabilityNames(Integer)'
   so.intellisense: NSQuoteAgent.GetConnectorCapabilityNames
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetConnectorCapabilityNames(Integer)'
@@ -1131,6 +1173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetExtraInfo(String)
   id: 'GetExtraInfo(String)'
   so.intellisense: NSQuoteAgent.GetExtraInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraInfo(String)'
@@ -1153,6 +1196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetInUseQuoteLineConfigurations()
   id: 'GetInUseQuoteLineConfigurations()'
   so.intellisense: NSQuoteAgent.GetInUseQuoteLineConfigurations
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInUseQuoteLineConfigurations()'
@@ -1172,6 +1216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
   id: 'GetOrderConfirmation(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetOrderConfirmation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOrderConfirmation(Integer,Integer)'
@@ -1198,6 +1243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetOrderState(Integer)
   id: 'GetOrderState(Integer)'
   so.intellisense: NSQuoteAgent.GetOrderState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOrderState(Integer)'
@@ -1220,6 +1266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetPriceList(Integer)
   id: 'GetPriceList(Integer)'
   so.intellisense: NSQuoteAgent.GetPriceList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPriceList(Integer)'
@@ -1242,6 +1289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProduct(Integer,String)
   id: 'GetProduct(Integer,String)'
   so.intellisense: NSQuoteAgent.GetProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProduct(Integer,String)'
@@ -1266,6 +1314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProductFromDbId(Integer)
   id: 'GetProductFromDbId(Integer)'
   so.intellisense: NSQuoteAgent.GetProductFromDbId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductFromDbId(Integer)'
@@ -1288,6 +1337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProductImage(Integer,String,Integer)
   id: 'GetProductImage(Integer,String,Integer)'
   so.intellisense: NSQuoteAgent.GetProductImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProductImage(Integer,String,Integer)'
@@ -1317,6 +1367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuote(Integer)
   id: 'GetQuote(Integer)'
   so.intellisense: NSQuoteAgent.GetQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuote(Integer)'
@@ -1339,6 +1390,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternative(Integer)
   id: 'GetQuoteAlternative(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternative(Integer)'
@@ -1361,6 +1413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternatives(Integer)
   id: 'GetQuoteAlternatives(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternatives(Integer)'
@@ -1383,6 +1436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteEntity(Integer)
   id: 'GetQuoteEntity(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteEntity(Integer)'
@@ -1405,6 +1459,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
   id: 'GetQuoteEntityFromSaleId(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteEntityFromSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteEntityFromSaleId(Integer)'
@@ -1427,6 +1482,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteFromSaleId(Integer)
   id: 'GetQuoteFromSaleId(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteFromSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteFromSaleId(Integer)'
@@ -1449,6 +1505,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLine(Integer)
   id: 'GetQuoteLine(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLine(Integer)'
@@ -1471,6 +1528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfiguration(Integer)
   id: 'GetQuoteLineConfiguration(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteLineConfiguration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineConfiguration(Integer)'
@@ -1493,6 +1551,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
   id: 'GetQuoteLineConfigurationFromFieldName(String)'
   so.intellisense: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineConfigurationFromFieldName(String)'
@@ -1515,6 +1574,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
   id: 'GetQuoteLineImage(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteLineImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineImage(Integer,Integer)'
@@ -1540,6 +1600,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLines(Integer)
   id: 'GetQuoteLines(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteLines
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLines(Integer)'
@@ -1562,6 +1623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteList(String)
   id: 'GetQuoteList(String)'
   so.intellisense: NSQuoteAgent.GetQuoteList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteList(String)'
@@ -1585,6 +1647,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersion(Integer)
   id: 'GetQuoteVersion(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersion(Integer)'
@@ -1607,6 +1670,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersions(Integer)
   id: 'GetQuoteVersions(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersions
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersions(Integer)'
@@ -1629,6 +1693,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
   id: 'GetQuoteVersionWorkflowButtonStates(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionWorkflowButtonStates(Integer,Integer)'
@@ -1654,6 +1719,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
   id: 'GetQuoteVersionWorkflowImageState(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowImageState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionWorkflowImageState(Integer)'
@@ -1676,6 +1742,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
   id: 'GetQuoteVersionWorkflowState(Integer,Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionWorkflowState(Integer,Integer)'
@@ -1701,6 +1768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
   id: 'GetQuoteVersionWorkflowStatusInfo(Integer)'
   so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionWorkflowStatusInfo(Integer)'
@@ -1723,6 +1791,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.HasConnections()
   id: 'HasConnections()'
   so.intellisense: NSQuoteAgent.HasConnections
+  so.version: 7.5
   langs:
   - crmscript
   name: 'HasConnections()'
@@ -1743,6 +1812,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
   id: 'IncludeQuoteVersionAttachment(Integer,Integer,Bool)'
   so.intellisense: NSQuoteAgent.IncludeQuoteVersionAttachment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'IncludeQuoteVersionAttachment(Integer,Integer,Bool)'
@@ -1772,6 +1842,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.MoveQuoteLine(Integer,Bool)
   id: 'MoveQuoteLine(Integer,Bool)'
   so.intellisense: NSQuoteAgent.MoveQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'MoveQuoteLine(Integer,Bool)'
@@ -1797,6 +1868,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
   id: 'PlaceOrder(Integer,Bool,String,String,String)'
   so.intellisense: NSQuoteAgent.PlaceOrder
+  so.version: 7.5
   langs:
   - crmscript
   name: 'PlaceOrder(Integer,Bool,String,String,String)'
@@ -1831,6 +1903,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteAlternative(Integer)
   id: 'RecalculateQuoteAlternative(Integer)'
   so.intellisense: NSQuoteAgent.RecalculateQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RecalculateQuoteAlternative(Integer)'
@@ -1853,6 +1926,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
   id: 'RecalculateQuoteLine(NSQuoteLine,String[])'
   so.intellisense: NSQuoteAgent.RecalculateQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RecalculateQuoteLine(NSQuoteLine,String[])'
@@ -1878,6 +1952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
   id: 'RejectQuoteVersion(Integer,String,Integer,String)'
   so.intellisense: NSQuoteAgent.RejectQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RejectQuoteVersion(Integer,String,Integer,String)'
@@ -1909,6 +1984,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.RemoveProduct(Integer)
   id: 'RemoveProduct(Integer)'
   so.intellisense: NSQuoteAgent.RemoveProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RemoveProduct(Integer)'
@@ -1930,6 +2006,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.RestoreConnection(Integer)
   id: 'RestoreConnection(Integer)'
   so.intellisense: NSQuoteAgent.RestoreConnection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RestoreConnection(Integer)'
@@ -1952,6 +2029,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveConnection(NSQuoteConnection)
   id: 'SaveConnection(NSQuoteConnection)'
   so.intellisense: NSQuoteAgent.SaveConnection
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveConnection(NSQuoteConnection)'
@@ -1974,6 +2052,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
   id: 'SaveConnectionConfigFields(Integer,Map)'
   so.intellisense: NSQuoteAgent.SaveConnectionConfigFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveConnectionConfigFields(Integer,Map)'
@@ -1999,6 +2078,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)
   id: 'SavePriceList(NSPriceList)'
   so.intellisense: NSQuoteAgent.SavePriceList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SavePriceList(NSPriceList)'
@@ -2021,6 +2101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveProduct(NSProduct)
   id: 'SaveProduct(NSProduct)'
   so.intellisense: NSQuoteAgent.SaveProduct
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveProduct(NSProduct)'
@@ -2043,6 +2124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuote(NSQuote)
   id: 'SaveQuote(NSQuote)'
   so.intellisense: NSQuoteAgent.SaveQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuote(NSQuote)'
@@ -2065,6 +2147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
   id: 'SaveQuoteAlternative(NSQuoteAlternative)'
   so.intellisense: NSQuoteAgent.SaveQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteAlternative(NSQuoteAlternative)'
@@ -2087,6 +2170,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
   id: 'SaveQuoteEntity(NSQuoteEntity)'
   so.intellisense: NSQuoteAgent.SaveQuoteEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteEntity(NSQuoteEntity)'
@@ -2109,6 +2193,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
   id: 'SaveQuoteLine(NSQuoteLine)'
   so.intellisense: NSQuoteAgent.SaveQuoteLine
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteLine(NSQuoteLine)'
@@ -2131,6 +2216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
   id: 'SaveQuoteLineConfiguration(NSQuoteLineConfiguration)'
   so.intellisense: NSQuoteAgent.SaveQuoteLineConfiguration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteLineConfiguration(NSQuoteLineConfiguration)'
@@ -2175,6 +2261,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
   id: 'SaveQuoteLineImage(Integer,NSImage,Integer)'
   so.intellisense: NSQuoteAgent.SaveQuoteLineImage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteLineImage(Integer,NSImage,Integer)'
@@ -2225,6 +2312,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
   id: 'SaveQuoteVersion(NSQuoteVersion)'
   so.intellisense: NSQuoteAgent.SaveQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteVersion(NSQuoteVersion)'
@@ -2247,6 +2335,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
   id: 'SaveQuoteVersionNumber(Integer,String)'
   so.intellisense: NSQuoteAgent.SaveQuoteVersionNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveQuoteVersionNumber(Integer,String)'
@@ -2273,6 +2362,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
   id: 'SendQuoteVersion(Integer,DateTime,DateTime,String,String)'
   so.intellisense: NSQuoteAgent.SendQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SendQuoteVersion(Integer,DateTime,DateTime,String,String)'
@@ -2330,6 +2420,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleProductInAssortment(Integer)
   id: 'ToggleProductInAssortment(Integer)'
   so.intellisense: NSQuoteAgent.ToggleProductInAssortment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ToggleProductInAssortment(Integer)'
@@ -2351,6 +2442,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
   id: 'ToggleQuoteVersionAttachmentIncluded(Integer)'
   so.intellisense: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ToggleQuoteVersionAttachmentIncluded(Integer)'
@@ -2374,6 +2466,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
   id: 'ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)'
   so.intellisense: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)'
@@ -2397,6 +2490,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
   id: 'UpdateQuoteVersionPrices(Integer)'
   so.intellisense: NSQuoteAgent.UpdateQuoteVersionPrices
+  so.version: 7.5
   langs:
   - crmscript
   name: 'UpdateQuoteVersionPrices(Integer)'
@@ -2419,6 +2513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
   id: 'ValidateQuoteVersion(Integer,Integer)'
   so.intellisense: NSQuoteAgent.ValidateQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ValidateQuoteVersion(Integer,Integer)'

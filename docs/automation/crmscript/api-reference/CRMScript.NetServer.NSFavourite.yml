@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFavourite
   commentId: T:CRMScript.NetServer.NSFavourite
   id: NSFavourite
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSFavourite.GetAssociateId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSFavourite.GetExtraInfo
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.GetRank()
   id: 'GetRank()'
   so.intellisense: NSFavourite.GetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRank()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.GetRecordId()
   id: 'GetRecordId()'
   so.intellisense: NSFavourite.GetRecordId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetRecordId()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.GetTableName()
   id: 'GetTableName()'
   so.intellisense: NSFavourite.GetTableName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetTableName()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSFavourite.SetAssociateId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSFavourite.SetExtraInfo
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSFavourite.SetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.SetRecordId(Integer)
   id: 'SetRecordId(Integer)'
   so.intellisense: NSFavourite.SetRecordId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetRecordId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavourite.SetTableName(String)
   id: 'SetTableName(String)'
   so.intellisense: NSFavourite.SetTableName
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetTableName(String)'

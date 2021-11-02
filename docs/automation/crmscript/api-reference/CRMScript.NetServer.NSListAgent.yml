@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSListAgent
   commentId: T:CRMScript.NetServer.NSListAgent
   id: NSListAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -302,6 +303,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.AddFromListDefinition(Integer,NSListItemEntity)
   id: 'AddFromListDefinition(Integer,NSListItemEntity)'
   so.intellisense: NSListAgent.AddFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddFromListDefinition(Integer,NSListItemEntity)'
@@ -327,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.AddFromListName(String,NSListItemEntity)
   id: 'AddFromListName(String,NSListItemEntity)'
   so.intellisense: NSListAgent.AddFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddFromListName(String,NSListItemEntity)'
@@ -380,6 +383,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.ChangeCurrency(Float,String,String)
   id: 'ChangeCurrency(Float,String,String)'
   so.intellisense: NSListAgent.ChangeCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeCurrency(Float,String,String)'
@@ -409,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultAmountClassEntity()
   id: 'CreateDefaultAmountClassEntity()'
   so.intellisense: NSListAgent.CreateDefaultAmountClassEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultAmountClassEntity()'
@@ -428,6 +433,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultCountry()
   id: 'CreateDefaultCountry()'
   so.intellisense: NSListAgent.CreateDefaultCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultCountry()'
@@ -447,6 +453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultCurrencyEntity()
   id: 'CreateDefaultCurrencyEntity()'
   so.intellisense: NSListAgent.CreateDefaultCurrencyEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultCurrencyEntity()'
@@ -466,6 +473,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultDocumentTemplateEntity()
   id: 'CreateDefaultDocumentTemplateEntity()'
   so.intellisense: NSListAgent.CreateDefaultDocumentTemplateEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultDocumentTemplateEntity()'
@@ -485,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultDocumentTemplateLanguage(Integer,String)
   id: 'CreateDefaultDocumentTemplateLanguage(Integer,String)'
   so.intellisense: NSListAgent.CreateDefaultDocumentTemplateLanguage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultDocumentTemplateLanguage(Integer,String)'
@@ -510,6 +519,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultExtAppEntity()
   id: 'CreateDefaultExtAppEntity()'
   so.intellisense: NSListAgent.CreateDefaultExtAppEntity
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'CreateDefaultExtAppEntity()'
@@ -529,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultHeadingEntity()
   id: 'CreateDefaultHeadingEntity()'
   so.intellisense: NSListAgent.CreateDefaultHeadingEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultHeadingEntity()'
@@ -548,6 +559,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultHeadingFromListDefinition(Integer)
   id: 'CreateDefaultHeadingFromListDefinition(Integer)'
   so.intellisense: NSListAgent.CreateDefaultHeadingFromListDefinition
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultHeadingFromListDefinition(Integer)'
@@ -589,6 +601,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultListEntity()
   id: 'CreateDefaultListEntity()'
   so.intellisense: NSListAgent.CreateDefaultListEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultListEntity()'
@@ -608,6 +621,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultListItemEntity()
   id: 'CreateDefaultListItemEntity()'
   so.intellisense: NSListAgent.CreateDefaultListItemEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultListItemEntity()'
@@ -627,6 +641,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultProjectTypeEntity()
   id: 'CreateDefaultProjectTypeEntity()'
   so.intellisense: NSListAgent.CreateDefaultProjectTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultProjectTypeEntity()'
@@ -646,6 +661,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultRelationDefinitionEntity()
   id: 'CreateDefaultRelationDefinitionEntity()'
   so.intellisense: NSListAgent.CreateDefaultRelationDefinitionEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultRelationDefinitionEntity()'
@@ -665,6 +681,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultResourceEntity()
   id: 'CreateDefaultResourceEntity()'
   so.intellisense: NSListAgent.CreateDefaultResourceEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultResourceEntity()'
@@ -684,6 +701,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultSaleStageEntity()
   id: 'CreateDefaultSaleStageEntity()'
   so.intellisense: NSListAgent.CreateDefaultSaleStageEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultSaleStageEntity()'
@@ -703,6 +721,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultSaleTypeEntity()
   id: 'CreateDefaultSaleTypeEntity()'
   so.intellisense: NSListAgent.CreateDefaultSaleTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultSaleTypeEntity()'
@@ -722,6 +741,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultTicketCategoryEntity()
   id: 'CreateDefaultTicketCategoryEntity()'
   so.intellisense: NSListAgent.CreateDefaultTicketCategoryEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultTicketCategoryEntity()'
@@ -741,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultTicketPriorityEntity()
   id: 'CreateDefaultTicketPriorityEntity()'
   so.intellisense: NSListAgent.CreateDefaultTicketPriorityEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultTicketPriorityEntity()'
@@ -760,6 +781,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultTicketStatusEntity()
   id: 'CreateDefaultTicketStatusEntity()'
   so.intellisense: NSListAgent.CreateDefaultTicketStatusEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultTicketStatusEntity()'
@@ -779,6 +801,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.CreateDefaultWebPanelEntity()
   id: 'CreateDefaultWebPanelEntity()'
   so.intellisense: NSListAgent.CreateDefaultWebPanelEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultWebPanelEntity()'
@@ -798,6 +821,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteAllFromListDefinition(Integer)
   id: 'DeleteAllFromListDefinition(Integer)'
   so.intellisense: NSListAgent.DeleteAllFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteAllFromListDefinition(Integer)'
@@ -820,6 +844,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteAllFromListName(String)
   id: 'DeleteAllFromListName(String)'
   so.intellisense: NSListAgent.DeleteAllFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteAllFromListName(String)'
@@ -842,6 +867,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteAllHeadingsFromListDefinition(Integer)
   id: 'DeleteAllHeadingsFromListDefinition(Integer)'
   so.intellisense: NSListAgent.DeleteAllHeadingsFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteAllHeadingsFromListDefinition(Integer)'
@@ -864,6 +890,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteAllHeadingsFromName(String)
   id: 'DeleteAllHeadingsFromName(String)'
   so.intellisense: NSListAgent.DeleteAllHeadingsFromName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteAllHeadingsFromName(String)'
@@ -886,6 +913,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteAppWebPanels()
   id: 'DeleteAppWebPanels()'
   so.intellisense: NSListAgent.DeleteAppWebPanels
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'DeleteAppWebPanels()'
@@ -905,6 +933,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteDocumentTemplateLanguage(Integer,String)
   id: 'DeleteDocumentTemplateLanguage(Integer,String)'
   so.intellisense: NSListAgent.DeleteDocumentTemplateLanguage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteDocumentTemplateLanguage(Integer,String)'
@@ -930,6 +959,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteFromListDefinition(Integer,Integer)
   id: 'DeleteFromListDefinition(Integer,Integer)'
   so.intellisense: NSListAgent.DeleteFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteFromListDefinition(Integer,Integer)'
@@ -955,6 +985,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteFromListName(Integer,String)
   id: 'DeleteFromListName(Integer,String)'
   so.intellisense: NSListAgent.DeleteFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteFromListName(Integer,String)'
@@ -1027,6 +1058,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteListEntity(Integer)
   id: 'DeleteListEntity(Integer)'
   so.intellisense: NSListAgent.DeleteListEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteListEntity(Integer)'
@@ -1049,6 +1081,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteListEntityByName(String)
   id: 'DeleteListEntityByName(String)'
   so.intellisense: NSListAgent.DeleteListEntityByName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteListEntityByName(String)'
@@ -1071,6 +1104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteProjectStatus(Integer)
   id: 'DeleteProjectStatus(Integer)'
   so.intellisense: NSListAgent.DeleteProjectStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteProjectStatus(Integer)'
@@ -1093,6 +1127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteResourceEntity(Integer)
   id: 'DeleteResourceEntity(Integer)'
   so.intellisense: NSListAgent.DeleteResourceEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteResourceEntity(Integer)'
@@ -1115,6 +1150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteTicketCategoryEntity(Integer)
   id: 'DeleteTicketCategoryEntity(Integer)'
   so.intellisense: NSListAgent.DeleteTicketCategoryEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteTicketCategoryEntity(Integer)'
@@ -1137,6 +1173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteTicketPriorityEntity(Integer)
   id: 'DeleteTicketPriorityEntity(Integer)'
   so.intellisense: NSListAgent.DeleteTicketPriorityEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteTicketPriorityEntity(Integer)'
@@ -1159,6 +1196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteTicketStatusEntity(Integer)
   id: 'DeleteTicketStatusEntity(Integer)'
   so.intellisense: NSListAgent.DeleteTicketStatusEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteTicketStatusEntity(Integer)'
@@ -1181,6 +1219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.DeleteWebPanel(Integer)
   id: 'DeleteWebPanel(Integer)'
   so.intellisense: NSListAgent.DeleteWebPanel
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'DeleteWebPanel(Integer)'
@@ -1203,6 +1242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GenerateNavigationUrl(Integer,String)
   id: 'GenerateNavigationUrl(Integer,String)'
   so.intellisense: NSListAgent.GenerateNavigationUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GenerateNavigationUrl(Integer,String)'
@@ -1229,6 +1269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllCountries(Bool)
   id: 'GetAllCountries(Bool)'
   so.intellisense: NSListAgent.GetAllCountries
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllCountries(Bool)'
@@ -1251,6 +1292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllCurrencies(Bool)
   id: 'GetAllCurrencies(Bool)'
   so.intellisense: NSListAgent.GetAllCurrencies
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllCurrencies(Bool)'
@@ -1273,6 +1315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllDocumentTemplates(Bool)
   id: 'GetAllDocumentTemplates(Bool)'
   so.intellisense: NSListAgent.GetAllDocumentTemplates
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllDocumentTemplates(Bool)'
@@ -1315,6 +1358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllFromListDefinition(Integer,Bool)
   id: 'GetAllFromListDefinition(Integer,Bool)'
   so.intellisense: NSListAgent.GetAllFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllFromListDefinition(Integer,Bool)'
@@ -1340,6 +1384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllFromListName(String,Bool)
   id: 'GetAllFromListName(String,Bool)'
   so.intellisense: NSListAgent.GetAllFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllFromListName(String,Bool)'
@@ -1390,6 +1435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllSaleStages(Bool)
   id: 'GetAllSaleStages(Bool)'
   so.intellisense: NSListAgent.GetAllSaleStages
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllSaleStages(Bool)'
@@ -1412,6 +1458,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllSaleType()
   id: 'GetAllSaleType()'
   so.intellisense: NSListAgent.GetAllSaleType
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAllSaleType()'
@@ -1431,6 +1478,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllSaleTypeEntities(Bool)
   id: 'GetAllSaleTypeEntities(Bool)'
   so.intellisense: NSListAgent.GetAllSaleTypeEntities
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAllSaleTypeEntities(Bool)'
@@ -1453,6 +1501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllTasks(Bool)
   id: 'GetAllTasks(Bool)'
   so.intellisense: NSListAgent.GetAllTasks
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetAllTasks(Bool)'
@@ -1475,6 +1524,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAllTicketPriorities(Bool)
   id: 'GetAllTicketPriorities(Bool)'
   so.intellisense: NSListAgent.GetAllTicketPriorities
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAllTicketPriorities(Bool)'
@@ -1497,6 +1547,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAmountClassEntity(Integer)
   id: 'GetAmountClassEntity(Integer)'
   so.intellisense: NSListAgent.GetAmountClassEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAmountClassEntity(Integer)'
@@ -1519,6 +1570,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetAppWebPanels()
   id: 'GetAppWebPanels()'
   so.intellisense: NSListAgent.GetAppWebPanels
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAppWebPanels()'
@@ -1538,6 +1590,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetBaseCurrency()
   id: 'GetBaseCurrency()'
   so.intellisense: NSListAgent.GetBaseCurrency
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBaseCurrency()'
@@ -1557,6 +1610,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetBusiness(Integer)
   id: 'GetBusiness(Integer)'
   so.intellisense: NSListAgent.GetBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBusiness(Integer)'
@@ -1579,6 +1633,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetBusinesses()
   id: 'GetBusinesses()'
   so.intellisense: NSListAgent.GetBusinesses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBusinesses()'
@@ -1598,6 +1653,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetBusinessList(Integer[])
   id: 'GetBusinessList(Integer[])'
   so.intellisense: NSListAgent.GetBusinessList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBusinessList(Integer[])'
@@ -1620,6 +1676,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCategories()
   id: 'GetCategories()'
   so.intellisense: NSListAgent.GetCategories
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategories()'
@@ -1639,6 +1696,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCategory(Integer)
   id: 'GetCategory(Integer)'
   so.intellisense: NSListAgent.GetCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategory(Integer)'
@@ -1661,6 +1719,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCategoryList(Integer[])
   id: 'GetCategoryList(Integer[])'
   so.intellisense: NSListAgent.GetCategoryList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategoryList(Integer[])'
@@ -1683,6 +1742,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCompetitor(Integer)
   id: 'GetCompetitor(Integer)'
   so.intellisense: NSListAgent.GetCompetitor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompetitor(Integer)'
@@ -1705,6 +1765,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCompetitorList(Integer[])
   id: 'GetCompetitorList(Integer[])'
   so.intellisense: NSListAgent.GetCompetitorList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompetitorList(Integer[])'
@@ -1727,6 +1788,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCompetitors()
   id: 'GetCompetitors()'
   so.intellisense: NSListAgent.GetCompetitors
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompetitors()'
@@ -1746,6 +1808,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentPurpose(Integer)
   id: 'GetConsentPurpose(Integer)'
   so.intellisense: NSListAgent.GetConsentPurpose
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPurpose(Integer)'
@@ -1768,6 +1831,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentPurposeList(Integer[])
   id: 'GetConsentPurposeList(Integer[])'
   so.intellisense: NSListAgent.GetConsentPurposeList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPurposeList(Integer[])'
@@ -1790,6 +1854,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentPurposes()
   id: 'GetConsentPurposes()'
   so.intellisense: NSListAgent.GetConsentPurposes
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPurposes()'
@@ -1809,6 +1874,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentSource(Integer)
   id: 'GetConsentSource(Integer)'
   so.intellisense: NSListAgent.GetConsentSource
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentSource(Integer)'
@@ -1831,6 +1897,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentSourceList(Integer[])
   id: 'GetConsentSourceList(Integer[])'
   so.intellisense: NSListAgent.GetConsentSourceList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentSourceList(Integer[])'
@@ -1853,6 +1920,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetConsentSources()
   id: 'GetConsentSources()'
   so.intellisense: NSListAgent.GetConsentSources
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentSources()'
@@ -1872,6 +1940,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCountries()
   id: 'GetCountries()'
   so.intellisense: NSListAgent.GetCountries
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountries()'
@@ -1891,6 +1960,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCountry(Integer)
   id: 'GetCountry(Integer)'
   so.intellisense: NSListAgent.GetCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountry(Integer)'
@@ -1913,6 +1983,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCountryList(Integer[])
   id: 'GetCountryList(Integer[])'
   so.intellisense: NSListAgent.GetCountryList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountryList(Integer[])'
@@ -1935,6 +2006,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCredited(Integer)
   id: 'GetCredited(Integer)'
   so.intellisense: NSListAgent.GetCredited
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCredited(Integer)'
@@ -1957,6 +2029,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCreditedList(Integer[])
   id: 'GetCreditedList(Integer[])'
   so.intellisense: NSListAgent.GetCreditedList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreditedList(Integer[])'
@@ -1979,6 +2052,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCrediteds()
   id: 'GetCrediteds()'
   so.intellisense: NSListAgent.GetCrediteds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCrediteds()'
@@ -1997,6 +2071,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCurrencies()
   id: 'GetCurrencies()'
   so.intellisense: NSListAgent.GetCurrencies
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrencies()'
@@ -2016,6 +2091,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCurrency(Integer)
   id: 'GetCurrency(Integer)'
   so.intellisense: NSListAgent.GetCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrency(Integer)'
@@ -2038,6 +2114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCurrencyEntity(Integer)
   id: 'GetCurrencyEntity(Integer)'
   so.intellisense: NSListAgent.GetCurrencyEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCurrencyEntity(Integer)'
@@ -2060,6 +2137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCurrencyList(Integer[])
   id: 'GetCurrencyList(Integer[])'
   so.intellisense: NSListAgent.GetCurrencyList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrencyList(Integer[])'
@@ -2082,6 +2160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCustomerLanguage(Integer)
   id: 'GetCustomerLanguage(Integer)'
   so.intellisense: NSListAgent.GetCustomerLanguage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomerLanguage(Integer)'
@@ -2104,6 +2183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCustomerLanguageList(Integer[])
   id: 'GetCustomerLanguageList(Integer[])'
   so.intellisense: NSListAgent.GetCustomerLanguageList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomerLanguageList(Integer[])'
@@ -2126,6 +2206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetCustomerLanguages()
   id: 'GetCustomerLanguages()'
   so.intellisense: NSListAgent.GetCustomerLanguages
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomerLanguages()'
@@ -2145,6 +2226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDeliveryTerm(Integer)
   id: 'GetDeliveryTerm(Integer)'
   so.intellisense: NSListAgent.GetDeliveryTerm
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDeliveryTerm(Integer)'
@@ -2167,6 +2249,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDeliveryTerms()
   id: 'GetDeliveryTerms()'
   so.intellisense: NSListAgent.GetDeliveryTerms
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDeliveryTerms()'
@@ -2186,6 +2269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDeliveryType(Integer)
   id: 'GetDeliveryType(Integer)'
   so.intellisense: NSListAgent.GetDeliveryType
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDeliveryType(Integer)'
@@ -2208,6 +2292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDeliveryTypes()
   id: 'GetDeliveryTypes()'
   so.intellisense: NSListAgent.GetDeliveryTypes
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDeliveryTypes()'
@@ -2227,6 +2312,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDepartment(Integer)
   id: 'GetDepartment(Integer)'
   so.intellisense: NSListAgent.GetDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartment(Integer)'
@@ -2249,6 +2335,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDepartmentList(Integer[])
   id: 'GetDepartmentList(Integer[])'
   so.intellisense: NSListAgent.GetDepartmentList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartmentList(Integer[])'
@@ -2271,6 +2358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDepartments()
   id: 'GetDepartments()'
   so.intellisense: NSListAgent.GetDepartments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartments()'
@@ -2290,6 +2378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplate(Integer)
   id: 'GetDocumentTemplate(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplate(Integer)'
@@ -2312,6 +2401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateEntity(Integer)
   id: 'GetDocumentTemplateEntity(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateEntity(Integer)'
@@ -2334,6 +2424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateExtension(Integer)
   id: 'GetDocumentTemplateExtension(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateExtension
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateExtension(Integer)'
@@ -2357,6 +2448,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateLanguages(Integer)
   id: 'GetDocumentTemplateLanguages(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateLanguages
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateLanguages(Integer)'
@@ -2380,6 +2472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateList(Integer[])
   id: 'GetDocumentTemplateList(Integer[])'
   so.intellisense: NSListAgent.GetDocumentTemplateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplateList(Integer[])'
@@ -2402,6 +2495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateProperties(Integer,String[])
   id: 'GetDocumentTemplateProperties(Integer,String[])'
   so.intellisense: NSListAgent.GetDocumentTemplateProperties
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateProperties(Integer,String[])'
@@ -2428,6 +2522,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplates()
   id: 'GetDocumentTemplates()'
   so.intellisense: NSListAgent.GetDocumentTemplates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplates()'
@@ -2447,6 +2542,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplatesTasks()
   id: 'GetDocumentTemplatesTasks()'
   so.intellisense: NSListAgent.GetDocumentTemplatesTasks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplatesTasks()'
@@ -2466,6 +2562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateStreamFromId(Integer,String)
   id: 'GetDocumentTemplateStreamFromId(Integer,String)'
   so.intellisense: NSListAgent.GetDocumentTemplateStreamFromId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDocumentTemplateStreamFromId(Integer,String)'
@@ -2491,6 +2588,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateTask(Integer)
   id: 'GetDocumentTemplateTask(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplateTask(Integer)'
@@ -2513,6 +2611,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateUrl(Integer,Bool,String)
   id: 'GetDocumentTemplateUrl(Integer,Bool,String)'
   so.intellisense: NSListAgent.GetDocumentTemplateUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateUrl(Integer,Bool,String)'
@@ -2542,6 +2641,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateUsedInProjectStage(Integer)
   id: 'GetDocumentTemplateUsedInProjectStage(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateUsedInProjectStage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateUsedInProjectStage(Integer)'
@@ -2565,6 +2665,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTemplateUsedInSalesStage(Integer)
   id: 'GetDocumentTemplateUsedInSalesStage(Integer)'
   so.intellisense: NSListAgent.GetDocumentTemplateUsedInSalesStage
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentTemplateUsedInSalesStage(Integer)'
@@ -2588,6 +2689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetDocumentTypesForPlugin(Integer)
   id: 'GetDocumentTypesForPlugin(Integer)'
   so.intellisense: NSListAgent.GetDocumentTypesForPlugin
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDocumentTypesForPlugin(Integer)'
@@ -2611,6 +2713,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetEmarketingStrictMode()
   id: 'GetEmarketingStrictMode()'
   so.intellisense: NSListAgent.GetEmarketingStrictMode
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetEmarketingStrictMode()'
@@ -2631,6 +2734,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetExtAppEntity(Integer)
   id: 'GetExtAppEntity(Integer)'
   so.intellisense: NSListAgent.GetExtAppEntity
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetExtAppEntity(Integer)'
@@ -2653,6 +2757,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetFromListDefinition(Integer,Integer)
   id: 'GetFromListDefinition(Integer,Integer)'
   so.intellisense: NSListAgent.GetFromListDefinition
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFromListDefinition(Integer,Integer)'
@@ -2678,6 +2783,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetFromListName(Integer,String)
   id: 'GetFromListName(Integer,String)'
   so.intellisense: NSListAgent.GetFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFromListName(Integer,String)'
@@ -2703,6 +2809,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetHeadingEntity(Integer)
   id: 'GetHeadingEntity(Integer)'
   so.intellisense: NSListAgent.GetHeadingEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHeadingEntity(Integer)'
@@ -2725,6 +2832,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetHeadings(Integer,Integer,Bool)
   id: 'GetHeadings(Integer,Integer,Bool)'
   so.intellisense: NSListAgent.GetHeadings
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHeadings(Integer,Integer,Bool)'
@@ -2753,6 +2861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetHeadingsForListItemFromListName(String,Integer,Bool)
   id: 'GetHeadingsForListItemFromListName(String,Integer,Bool)'
   so.intellisense: NSListAgent.GetHeadingsForListItemFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetHeadingsForListItemFromListName(String,Integer,Bool)'
@@ -2781,6 +2890,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetHeadingsFromListDefinition(Integer)
   id: 'GetHeadingsFromListDefinition(Integer)'
   so.intellisense: NSListAgent.GetHeadingsFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetHeadingsFromListDefinition(Integer)'
@@ -2803,6 +2913,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetHeadingsFromName(String)
   id: 'GetHeadingsFromName(String)'
   so.intellisense: NSListAgent.GetHeadingsFromName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetHeadingsFromName(String)'
@@ -2875,6 +2986,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetInstalledLanguages()
   id: 'GetInstalledLanguages()'
   so.intellisense: NSListAgent.GetInstalledLanguages
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetInstalledLanguages()'
@@ -2894,6 +3006,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLanguageInfo(Integer)
   id: 'GetLanguageInfo(Integer)'
   so.intellisense: NSListAgent.GetLanguageInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLanguageInfo(Integer)'
@@ -2916,6 +3029,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLanguageInfoList(Integer[])
   id: 'GetLanguageInfoList(Integer[])'
   so.intellisense: NSListAgent.GetLanguageInfoList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLanguageInfoList(Integer[])'
@@ -2938,6 +3052,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLegalBase(Integer)
   id: 'GetLegalBase(Integer)'
   so.intellisense: NSListAgent.GetLegalBase
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLegalBase(Integer)'
@@ -2960,6 +3075,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLegalBaseList(Integer[])
   id: 'GetLegalBaseList(Integer[])'
   so.intellisense: NSListAgent.GetLegalBaseList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLegalBaseList(Integer[])'
@@ -2982,6 +3098,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLegalBases()
   id: 'GetLegalBases()'
   so.intellisense: NSListAgent.GetLegalBases
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLegalBases()'
@@ -3001,6 +3118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLink(Integer)
   id: 'GetLink(Integer)'
   so.intellisense: NSListAgent.GetLink
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLink(Integer)'
@@ -3023,6 +3141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLinkList(Integer[])
   id: 'GetLinkList(Integer[])'
   so.intellisense: NSListAgent.GetLinkList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinkList(Integer[])'
@@ -3045,6 +3164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListDefinitions(Bool)
   id: 'GetListDefinitions(Bool)'
   so.intellisense: NSListAgent.GetListDefinitions
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListDefinitions(Bool)'
@@ -3067,6 +3187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListEntity(Integer)
   id: 'GetListEntity(Integer)'
   so.intellisense: NSListAgent.GetListEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetListEntity(Integer)'
@@ -3089,6 +3210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListEntityByName(String)
   id: 'GetListEntityByName(String)'
   so.intellisense: NSListAgent.GetListEntityByName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListEntityByName(String)'
@@ -3111,6 +3233,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListItemsForHeading(Integer,Integer)
   id: 'GetListItemsForHeading(Integer,Integer)'
   so.intellisense: NSListAgent.GetListItemsForHeading
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListItemsForHeading(Integer,Integer)'
@@ -3137,6 +3260,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListItemsForHeadingFromListName(String,Integer)
   id: 'GetListItemsForHeadingFromListName(String,Integer)'
   so.intellisense: NSListAgent.GetListItemsForHeadingFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListItemsForHeadingFromListName(String,Integer)'
@@ -3163,6 +3287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListItemsForUserGroup(Integer,Integer)
   id: 'GetListItemsForUserGroup(Integer,Integer)'
   so.intellisense: NSListAgent.GetListItemsForUserGroup
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListItemsForUserGroup(Integer,Integer)'
@@ -3189,6 +3314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetListItemsForUserGroupFromListName(String,Integer)
   id: 'GetListItemsForUserGroupFromListName(String,Integer)'
   so.intellisense: NSListAgent.GetListItemsForUserGroupFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetListItemsForUserGroupFromListName(String,Integer)'
@@ -3215,6 +3341,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedText(Integer)
   id: 'GetLocalizedText(Integer)'
   so.intellisense: NSListAgent.GetLocalizedText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedText(Integer)'
@@ -3237,6 +3364,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedTextByType(Integer,Integer,Integer)
   id: 'GetLocalizedTextByType(Integer,Integer,Integer)'
   so.intellisense: NSListAgent.GetLocalizedTextByType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTextByType(Integer,Integer,Integer)'
@@ -3265,6 +3393,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedTextList(Integer[])
   id: 'GetLocalizedTextList(Integer[])'
   so.intellisense: NSListAgent.GetLocalizedTextList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTextList(Integer[])'
@@ -3287,6 +3416,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedTexts()
   id: 'GetLocalizedTexts()'
   so.intellisense: NSListAgent.GetLocalizedTexts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTexts()'
@@ -3306,6 +3436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedTextsByLanguageId(Integer)
   id: 'GetLocalizedTextsByLanguageId(Integer)'
   so.intellisense: NSListAgent.GetLocalizedTextsByLanguageId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTextsByLanguageId(Integer)'
@@ -3328,6 +3459,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetLocalizedTextsByType(Integer[])
   id: 'GetLocalizedTextsByType(Integer[])'
   so.intellisense: NSListAgent.GetLocalizedTextsByType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedTextsByType(Integer[])'
@@ -3350,6 +3482,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetMrMrs(Integer)
   id: 'GetMrMrs(Integer)'
   so.intellisense: NSListAgent.GetMrMrs
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMrMrs(Integer)'
@@ -3372,6 +3505,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetMrMrses()
   id: 'GetMrMrses()'
   so.intellisense: NSListAgent.GetMrMrses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMrMrses()'
@@ -3391,6 +3525,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetMrMrsList(Integer[])
   id: 'GetMrMrsList(Integer[])'
   so.intellisense: NSListAgent.GetMrMrsList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMrMrsList(Integer[])'
@@ -3413,6 +3548,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetOurCurrency()
   id: 'GetOurCurrency()'
   so.intellisense: NSListAgent.GetOurCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOurCurrency()'
@@ -3432,6 +3568,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetOwnerCompanysCurrency()
   id: 'GetOwnerCompanysCurrency()'
   so.intellisense: NSListAgent.GetOwnerCompanysCurrency
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerCompanysCurrency()'
@@ -3451,6 +3588,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPaymentTerm(Integer)
   id: 'GetPaymentTerm(Integer)'
   so.intellisense: NSListAgent.GetPaymentTerm
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPaymentTerm(Integer)'
@@ -3473,6 +3611,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPaymentTerms()
   id: 'GetPaymentTerms()'
   so.intellisense: NSListAgent.GetPaymentTerms
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPaymentTerms()'
@@ -3492,6 +3631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPaymentType(Integer)
   id: 'GetPaymentType(Integer)'
   so.intellisense: NSListAgent.GetPaymentType
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPaymentType(Integer)'
@@ -3514,6 +3654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPaymentTypes()
   id: 'GetPaymentTypes()'
   so.intellisense: NSListAgent.GetPaymentTypes
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPaymentTypes()'
@@ -3533,6 +3674,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPluginCapabilities(Integer)
   id: 'GetPluginCapabilities(Integer)'
   so.intellisense: NSListAgent.GetPluginCapabilities
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPluginCapabilities(Integer)'
@@ -3556,6 +3698,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPluginList()
   id: 'GetPluginList()'
   so.intellisense: NSListAgent.GetPluginList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPluginList()'
@@ -3576,6 +3719,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPosition(Integer)
   id: 'GetPosition(Integer)'
   so.intellisense: NSListAgent.GetPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPosition(Integer)'
@@ -3598,6 +3742,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPositionList(Integer[])
   id: 'GetPositionList(Integer[])'
   so.intellisense: NSListAgent.GetPositionList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPositionList(Integer[])'
@@ -3620,6 +3765,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPositions()
   id: 'GetPositions()'
   so.intellisense: NSListAgent.GetPositions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPositions()'
@@ -3639,6 +3785,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPriorities()
   id: 'GetPriorities()'
   so.intellisense: NSListAgent.GetPriorities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPriorities()'
@@ -3658,6 +3805,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPriority(Integer)
   id: 'GetPriority(Integer)'
   so.intellisense: NSListAgent.GetPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPriority(Integer)'
@@ -3680,6 +3828,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetPriorityList(Integer[])
   id: 'GetPriorityList(Integer[])'
   so.intellisense: NSListAgent.GetPriorityList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPriorityList(Integer[])'
@@ -3702,6 +3851,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductCategories()
   id: 'GetProductCategories()'
   so.intellisense: NSListAgent.GetProductCategories
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductCategories()'
@@ -3721,6 +3871,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductCategory(Integer)
   id: 'GetProductCategory(Integer)'
   so.intellisense: NSListAgent.GetProductCategory
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductCategory(Integer)'
@@ -3743,6 +3894,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductFamilies()
   id: 'GetProductFamilies()'
   so.intellisense: NSListAgent.GetProductFamilies
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductFamilies()'
@@ -3762,6 +3914,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductFamily(Integer)
   id: 'GetProductFamily(Integer)'
   so.intellisense: NSListAgent.GetProductFamily
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductFamily(Integer)'
@@ -3784,6 +3937,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductType(Integer)
   id: 'GetProductType(Integer)'
   so.intellisense: NSListAgent.GetProductType
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductType(Integer)'
@@ -3806,6 +3960,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProductTypes()
   id: 'GetProductTypes()'
   so.intellisense: NSListAgent.GetProductTypes
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProductTypes()'
@@ -3825,6 +3980,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectStatus(Integer)
   id: 'GetProjectStatus(Integer)'
   so.intellisense: NSListAgent.GetProjectStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectStatus(Integer)'
@@ -3847,6 +4003,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectStatuses()
   id: 'GetProjectStatuses()'
   so.intellisense: NSListAgent.GetProjectStatuses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectStatuses()'
@@ -3866,6 +4023,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectStatusList(Integer[])
   id: 'GetProjectStatusList(Integer[])'
   so.intellisense: NSListAgent.GetProjectStatusList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectStatusList(Integer[])'
@@ -3888,6 +4046,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectType(Integer)
   id: 'GetProjectType(Integer)'
   so.intellisense: NSListAgent.GetProjectType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectType(Integer)'
@@ -3910,6 +4069,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectTypeEntity(Integer)
   id: 'GetProjectTypeEntity(Integer)'
   so.intellisense: NSListAgent.GetProjectTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectTypeEntity(Integer)'
@@ -3932,6 +4092,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectTypeList(Integer[])
   id: 'GetProjectTypeList(Integer[])'
   so.intellisense: NSListAgent.GetProjectTypeList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectTypeList(Integer[])'
@@ -3954,6 +4115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetProjectTypes()
   id: 'GetProjectTypes()'
   so.intellisense: NSListAgent.GetProjectTypes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectTypes()'
@@ -3973,6 +4135,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetQuickReplies()
   id: 'GetQuickReplies()'
   so.intellisense: NSListAgent.GetQuickReplies
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetQuickReplies()'
@@ -3992,6 +4155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetRating(Integer)
   id: 'GetRating(Integer)'
   so.intellisense: NSListAgent.GetRating
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRating(Integer)'
@@ -4014,6 +4178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetRatingList(Integer[])
   id: 'GetRatingList(Integer[])'
   so.intellisense: NSListAgent.GetRatingList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRatingList(Integer[])'
@@ -4036,6 +4201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetRatings()
   id: 'GetRatings()'
   so.intellisense: NSListAgent.GetRatings
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRatings()'
@@ -4055,6 +4221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReason(Integer)
   id: 'GetReason(Integer)'
   so.intellisense: NSListAgent.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason(Integer)'
@@ -4077,6 +4244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasonList(Integer[])
   id: 'GetReasonList(Integer[])'
   so.intellisense: NSListAgent.GetReasonList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonList(Integer[])'
@@ -4099,6 +4267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasons()
   id: 'GetReasons()'
   so.intellisense: NSListAgent.GetReasons
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasons()'
@@ -4118,6 +4287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasonSold(Integer)
   id: 'GetReasonSold(Integer)'
   so.intellisense: NSListAgent.GetReasonSold
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonSold(Integer)'
@@ -4140,6 +4310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasonSoldList(Integer[])
   id: 'GetReasonSoldList(Integer[])'
   so.intellisense: NSListAgent.GetReasonSoldList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonSoldList(Integer[])'
@@ -4162,6 +4333,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasonStalled(Integer)
   id: 'GetReasonStalled(Integer)'
   so.intellisense: NSListAgent.GetReasonStalled
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonStalled(Integer)'
@@ -4184,6 +4356,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetReasonStalledList(Integer[])
   id: 'GetReasonStalledList(Integer[])'
   so.intellisense: NSListAgent.GetReasonStalledList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReasonStalledList(Integer[])'
@@ -4206,6 +4379,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetRelationDefinitionEntity(Integer)
   id: 'GetRelationDefinitionEntity(Integer)'
   so.intellisense: NSListAgent.GetRelationDefinitionEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRelationDefinitionEntity(Integer)'
@@ -4228,6 +4402,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetResourceEntity(Integer)
   id: 'GetResourceEntity(Integer)'
   so.intellisense: NSListAgent.GetResourceEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetResourceEntity(Integer)'
@@ -4250,6 +4425,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSaleStageEntity(Integer)
   id: 'GetSaleStageEntity(Integer)'
   so.intellisense: NSListAgent.GetSaleStageEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleStageEntity(Integer)'
@@ -4272,6 +4448,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSaleType(Integer)
   id: 'GetSaleType(Integer)'
   so.intellisense: NSListAgent.GetSaleType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleType(Integer)'
@@ -4294,6 +4471,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSaleTypeEntity(Integer)
   id: 'GetSaleTypeEntity(Integer)'
   so.intellisense: NSListAgent.GetSaleTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeEntity(Integer)'
@@ -4316,6 +4494,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSaleTypeList(Integer[])
   id: 'GetSaleTypeList(Integer[])'
   so.intellisense: NSListAgent.GetSaleTypeList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleTypeList(Integer[])'
@@ -4338,6 +4517,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSelectionCategory(Integer)
   id: 'GetSelectionCategory(Integer)'
   so.intellisense: NSListAgent.GetSelectionCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionCategory(Integer)'
@@ -4360,6 +4540,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSelectionCategoryList(Integer[])
   id: 'GetSelectionCategoryList(Integer[])'
   so.intellisense: NSListAgent.GetSelectionCategoryList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionCategoryList(Integer[])'
@@ -4382,6 +4563,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSource(Integer)
   id: 'GetSource(Integer)'
   so.intellisense: NSListAgent.GetSource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSource(Integer)'
@@ -4404,6 +4586,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSourceList(Integer[])
   id: 'GetSourceList(Integer[])'
   so.intellisense: NSListAgent.GetSourceList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSourceList(Integer[])'
@@ -4426,6 +4609,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetSources()
   id: 'GetSources()'
   so.intellisense: NSListAgent.GetSources
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSources()'
@@ -4445,6 +4629,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTask(Integer)
   id: 'GetTask(Integer)'
   so.intellisense: NSListAgent.GetTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTask(Integer)'
@@ -4467,6 +4652,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTaskList(Integer[])
   id: 'GetTaskList(Integer[])'
   so.intellisense: NSListAgent.GetTaskList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTaskList(Integer[])'
@@ -4489,6 +4675,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTasks()
   id: 'GetTasks()'
   so.intellisense: NSListAgent.GetTasks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTasks()'
@@ -4508,6 +4695,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketCategories()
   id: 'GetTicketCategories()'
   so.intellisense: NSListAgent.GetTicketCategories
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategories()'
@@ -4527,6 +4715,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketCategoriesForUserGroups(Integer[])
   id: 'GetTicketCategoriesForUserGroups(Integer[])'
   so.intellisense: NSListAgent.GetTicketCategoriesForUserGroups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategoriesForUserGroups(Integer[])'
@@ -4571,6 +4760,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketCategoryEntity(Integer)
   id: 'GetTicketCategoryEntity(Integer)'
   so.intellisense: NSListAgent.GetTicketCategoryEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategoryEntity(Integer)'
@@ -4593,6 +4783,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketCategoryList(Integer[])
   id: 'GetTicketCategoryList(Integer[])'
   so.intellisense: NSListAgent.GetTicketCategoryList
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategoryList(Integer[])'
@@ -4615,6 +4806,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketPriorities()
   id: 'GetTicketPriorities()'
   so.intellisense: NSListAgent.GetTicketPriorities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTicketPriorities()'
@@ -4634,6 +4826,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketPriority(Integer)
   id: 'GetTicketPriority(Integer)'
   so.intellisense: NSListAgent.GetTicketPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTicketPriority(Integer)'
@@ -4656,6 +4849,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketPriorityEntity(Integer)
   id: 'GetTicketPriorityEntity(Integer)'
   so.intellisense: NSListAgent.GetTicketPriorityEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketPriorityEntity(Integer)'
@@ -4678,6 +4872,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketPriorityList(Integer[])
   id: 'GetTicketPriorityList(Integer[])'
   so.intellisense: NSListAgent.GetTicketPriorityList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTicketPriorityList(Integer[])'
@@ -4700,6 +4895,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketStatusEntity(Integer)
   id: 'GetTicketStatusEntity(Integer)'
   so.intellisense: NSListAgent.GetTicketStatusEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketStatusEntity(Integer)'
@@ -4722,6 +4918,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketStatuses()
   id: 'GetTicketStatuses()'
   so.intellisense: NSListAgent.GetTicketStatuses
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketStatuses()'
@@ -4741,6 +4938,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetTicketStatusList(Integer[])
   id: 'GetTicketStatusList(Integer[])'
   so.intellisense: NSListAgent.GetTicketStatusList
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketStatusList(Integer[])'
@@ -4763,6 +4961,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetVisibleForUserGroups(Integer,Integer)
   id: 'GetVisibleForUserGroups(Integer,Integer)'
   so.intellisense: NSListAgent.GetVisibleForUserGroups
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVisibleForUserGroups(Integer,Integer)'
@@ -4789,6 +4988,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetVisibleForUserGroupsFromListName(String,Integer)
   id: 'GetVisibleForUserGroupsFromListName(String,Integer)'
   so.intellisense: NSListAgent.GetVisibleForUserGroupsFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetVisibleForUserGroupsFromListName(String,Integer)'
@@ -4815,6 +5015,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetWebPanelByProgId(String)
   id: 'GetWebPanelByProgId(String)'
   so.intellisense: NSListAgent.GetWebPanelByProgId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetWebPanelByProgId(String)'
@@ -4837,6 +5038,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetWebPanelEntity(Integer)
   id: 'GetWebPanelEntity(Integer)'
   so.intellisense: NSListAgent.GetWebPanelEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWebPanelEntity(Integer)'
@@ -4859,6 +5061,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GetWebPanelList()
   id: 'GetWebPanelList()'
   so.intellisense: NSListAgent.GetWebPanelList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWebPanelList()'
@@ -4878,6 +5081,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.GlobalChangeTicketStatus(Integer,Integer)
   id: 'GlobalChangeTicketStatus(Integer,Integer)'
   so.intellisense: NSListAgent.GlobalChangeTicketStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GlobalChangeTicketStatus(Integer,Integer)'
@@ -4903,6 +5107,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.MoveAllTickets(Integer,Integer)
   id: 'MoveAllTickets(Integer,Integer)'
   so.intellisense: NSListAgent.MoveAllTickets
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'MoveAllTickets(Integer,Integer)'
@@ -4928,6 +5133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.MoveListItem(Integer,Integer,Integer)
   id: 'MoveListItem(Integer,Integer,Integer)'
   so.intellisense: NSListAgent.MoveListItem
+  so.version: 7.5
   langs:
   - crmscript
   name: 'MoveListItem(Integer,Integer,Integer)'
@@ -4955,6 +5161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.RebuildFullnames()
   id: 'RebuildFullnames()'
   so.intellisense: NSListAgent.RebuildFullnames
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'RebuildFullnames()'
@@ -4974,6 +5181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveAllFromListDefinition(Integer,NSListItemEntity[])
   id: 'SaveAllFromListDefinition(Integer,NSListItemEntity[])'
   so.intellisense: NSListAgent.SaveAllFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveAllFromListDefinition(Integer,NSListItemEntity[])'
@@ -4999,6 +5207,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveAllFromListName(String,NSListItemEntity[])
   id: 'SaveAllFromListName(String,NSListItemEntity[])'
   so.intellisense: NSListAgent.SaveAllFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveAllFromListName(String,NSListItemEntity[])'
@@ -5024,6 +5233,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveAmountClassEntity(NSAmountClassEntity)
   id: 'SaveAmountClassEntity(NSAmountClassEntity)'
   so.intellisense: NSListAgent.SaveAmountClassEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveAmountClassEntity(NSAmountClassEntity)'
@@ -5046,6 +5256,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveConsentPurpose(NSConsentPurpose)
   id: 'SaveConsentPurpose(NSConsentPurpose)'
   so.intellisense: NSListAgent.SaveConsentPurpose
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveConsentPurpose(NSConsentPurpose)'
@@ -5068,6 +5279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveConsentSource(NSConsentSource)
   id: 'SaveConsentSource(NSConsentSource)'
   so.intellisense: NSListAgent.SaveConsentSource
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveConsentSource(NSConsentSource)'
@@ -5090,6 +5302,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveCountry(NSCountry)
   id: 'SaveCountry(NSCountry)'
   so.intellisense: NSListAgent.SaveCountry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveCountry(NSCountry)'
@@ -5112,6 +5325,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveCurrencyEntity(NSCurrencyEntity)
   id: 'SaveCurrencyEntity(NSCurrencyEntity)'
   so.intellisense: NSListAgent.SaveCurrencyEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveCurrencyEntity(NSCurrencyEntity)'
@@ -5134,6 +5348,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveDocumentTemplateEntity(NSDocumentTemplateEntity)
   id: 'SaveDocumentTemplateEntity(NSDocumentTemplateEntity)'
   so.intellisense: NSListAgent.SaveDocumentTemplateEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveDocumentTemplateEntity(NSDocumentTemplateEntity)'
@@ -5156,6 +5371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
   id: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
   so.intellisense: NSListAgent.SaveDocumentTemplateStream
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
@@ -5187,6 +5403,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveExtAppEntity(NSExtAppEntity)
   id: 'SaveExtAppEntity(NSExtAppEntity)'
   so.intellisense: NSListAgent.SaveExtAppEntity
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SaveExtAppEntity(NSExtAppEntity)'
@@ -5209,6 +5426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveFromListDefinition(Integer,Integer,NSListItemEntity)
   id: 'SaveFromListDefinition(Integer,Integer,NSListItemEntity)'
   so.intellisense: NSListAgent.SaveFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveFromListDefinition(Integer,Integer,NSListItemEntity)'
@@ -5237,6 +5455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveFromListName(Integer,String,NSListItemEntity)
   id: 'SaveFromListName(Integer,String,NSListItemEntity)'
   so.intellisense: NSListAgent.SaveFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveFromListName(Integer,String,NSListItemEntity)'
@@ -5265,6 +5484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveHeadingEntity(NSHeadingEntity)
   id: 'SaveHeadingEntity(NSHeadingEntity)'
   so.intellisense: NSListAgent.SaveHeadingEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveHeadingEntity(NSHeadingEntity)'
@@ -5287,6 +5507,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveHeadingFromListDefinition(Integer,NSHeadingEntity)
   id: 'SaveHeadingFromListDefinition(Integer,NSHeadingEntity)'
   so.intellisense: NSListAgent.SaveHeadingFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveHeadingFromListDefinition(Integer,NSHeadingEntity)'
@@ -5312,6 +5533,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveHeadingFromName(String,NSHeadingEntity)
   id: 'SaveHeadingFromName(String,NSHeadingEntity)'
   so.intellisense: NSListAgent.SaveHeadingFromName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveHeadingFromName(String,NSHeadingEntity)'
@@ -5337,6 +5559,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveHeadingsForListItemFromListDefinition(Integer,Integer,NSSelectableMDOListItem[])
   id: 'SaveHeadingsForListItemFromListDefinition(Integer,Integer,NSSelectableMDOListItem[])'
   so.intellisense: NSListAgent.SaveHeadingsForListItemFromListDefinition
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveHeadingsForListItemFromListDefinition(Integer,Integer,NSSelectableMDOListItem[])'
@@ -5465,6 +5688,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveLegalBase(NSLegalBase)
   id: 'SaveLegalBase(NSLegalBase)'
   so.intellisense: NSListAgent.SaveLegalBase
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveLegalBase(NSLegalBase)'
@@ -5486,6 +5710,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveListEntity(NSListEntity)
   id: 'SaveListEntity(NSListEntity)'
   so.intellisense: NSListAgent.SaveListEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveListEntity(NSListEntity)'
@@ -5508,6 +5733,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveListEntityByName(String,NSListEntity)
   id: 'SaveListEntityByName(String,NSListEntity)'
   so.intellisense: NSListAgent.SaveListEntityByName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveListEntityByName(String,NSListEntity)'
@@ -5533,6 +5759,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveListItemEntity(NSListItemEntity)
   id: 'SaveListItemEntity(NSListItemEntity)'
   so.intellisense: NSListAgent.SaveListItemEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveListItemEntity(NSListItemEntity)'
@@ -5555,6 +5782,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveProjectTypeEntity(NSProjectTypeEntity)
   id: 'SaveProjectTypeEntity(NSProjectTypeEntity)'
   so.intellisense: NSListAgent.SaveProjectTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveProjectTypeEntity(NSProjectTypeEntity)'
@@ -5577,6 +5805,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveQuickReplies(NSQuickReply[])
   id: 'SaveQuickReplies(NSQuickReply[])'
   so.intellisense: NSListAgent.SaveQuickReplies
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveQuickReplies(NSQuickReply[])'
@@ -5598,6 +5827,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveRelationDefinitionEntity(NSRelationDefinitionEntity)
   id: 'SaveRelationDefinitionEntity(NSRelationDefinitionEntity)'
   so.intellisense: NSListAgent.SaveRelationDefinitionEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveRelationDefinitionEntity(NSRelationDefinitionEntity)'
@@ -5620,6 +5850,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveResourceEntity(NSResourceEntity)
   id: 'SaveResourceEntity(NSResourceEntity)'
   so.intellisense: NSListAgent.SaveResourceEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveResourceEntity(NSResourceEntity)'
@@ -5642,6 +5873,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveSaleStageEntity(NSSaleStageEntity)
   id: 'SaveSaleStageEntity(NSSaleStageEntity)'
   so.intellisense: NSListAgent.SaveSaleStageEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveSaleStageEntity(NSSaleStageEntity)'
@@ -5664,6 +5896,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveSaleTypeEntity(NSSaleTypeEntity)
   id: 'SaveSaleTypeEntity(NSSaleTypeEntity)'
   so.intellisense: NSListAgent.SaveSaleTypeEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveSaleTypeEntity(NSSaleTypeEntity)'
@@ -5686,6 +5919,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveTicketCategoryEntity(NSTicketCategoryEntity)
   id: 'SaveTicketCategoryEntity(NSTicketCategoryEntity)'
   so.intellisense: NSListAgent.SaveTicketCategoryEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveTicketCategoryEntity(NSTicketCategoryEntity)'
@@ -5708,6 +5942,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveTicketPriorityEntity(NSTicketPriorityEntity)
   id: 'SaveTicketPriorityEntity(NSTicketPriorityEntity)'
   so.intellisense: NSListAgent.SaveTicketPriorityEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveTicketPriorityEntity(NSTicketPriorityEntity)'
@@ -5730,6 +5965,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveTicketStatusEntity(NSTicketStatusEntity)
   id: 'SaveTicketStatusEntity(NSTicketStatusEntity)'
   so.intellisense: NSListAgent.SaveTicketStatusEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveTicketStatusEntity(NSTicketStatusEntity)'
@@ -5752,6 +5988,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SaveWebPanelEntity(NSWebPanelEntity)
   id: 'SaveWebPanelEntity(NSWebPanelEntity)'
   so.intellisense: NSListAgent.SaveWebPanelEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveWebPanelEntity(NSWebPanelEntity)'
@@ -5774,6 +6011,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetDocumentTemplateFromDocumentTemplate(Integer,NSDocumentTemplateEntity)
   id: 'SetDocumentTemplateFromDocumentTemplate(Integer,NSDocumentTemplateEntity)'
   so.intellisense: NSListAgent.SetDocumentTemplateFromDocumentTemplate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentTemplateFromDocumentTemplate(Integer,NSDocumentTemplateEntity)'
@@ -5799,6 +6037,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetDocumentTemplateStream(NSDocumentTemplateEntity,NSStream,String,Integer)
   id: 'SetDocumentTemplateStream(NSDocumentTemplateEntity,NSStream,String,Integer)'
   so.intellisense: NSListAgent.SetDocumentTemplateStream
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentTemplateStream(NSDocumentTemplateEntity,NSStream,String,Integer)'
@@ -5830,6 +6069,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetEmarketingStrictMode(Bool)
   id: 'SetEmarketingStrictMode(Bool)'
   so.intellisense: NSListAgent.SetEmarketingStrictMode
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetEmarketingStrictMode(Bool)'
@@ -5882,6 +6122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetListItemsForHeading(Integer,Integer,Integer[],Bool)
   id: 'SetListItemsForHeading(Integer,Integer,Integer[],Bool)'
   so.intellisense: NSListAgent.SetListItemsForHeading
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetListItemsForHeading(Integer,Integer,Integer[],Bool)'
@@ -5912,6 +6153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetListItemsForHeadingFromListName(String,Integer,Integer[],Bool)
   id: 'SetListItemsForHeadingFromListName(String,Integer,Integer[],Bool)'
   so.intellisense: NSListAgent.SetListItemsForHeadingFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetListItemsForHeadingFromListName(String,Integer,Integer[],Bool)'
@@ -5942,6 +6184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetListItemsForUserGroup(Integer,Integer,Integer[],Bool)
   id: 'SetListItemsForUserGroup(Integer,Integer,Integer[],Bool)'
   so.intellisense: NSListAgent.SetListItemsForUserGroup
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetListItemsForUserGroup(Integer,Integer,Integer[],Bool)'
@@ -5972,6 +6215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetListItemsForUserGroupFromListName(String,Integer,Integer[],Bool)
   id: 'SetListItemsForUserGroupFromListName(String,Integer,Integer[],Bool)'
   so.intellisense: NSListAgent.SetListItemsForUserGroupFromListName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetListItemsForUserGroupFromListName(String,Integer,Integer[],Bool)'
@@ -6002,6 +6246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetRankOnHeadings(Integer,Integer[])
   id: 'SetRankOnHeadings(Integer,Integer[])'
   so.intellisense: NSListAgent.SetRankOnHeadings
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnHeadings(Integer,Integer[])'
@@ -6026,6 +6271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetRankOnProjectActivity(Integer,Integer[])
   id: 'SetRankOnProjectActivity(Integer,Integer[])'
   so.intellisense: NSListAgent.SetRankOnProjectActivity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnProjectActivity(Integer,Integer[])'
@@ -6050,6 +6296,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetRankOnProjectDocument(Integer,Integer[])
   id: 'SetRankOnProjectDocument(Integer,Integer[])'
   so.intellisense: NSListAgent.SetRankOnProjectDocument
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnProjectDocument(Integer,Integer[])'
@@ -6074,6 +6321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetRankOnSaleActivity(Integer,Integer[])
   id: 'SetRankOnSaleActivity(Integer,Integer[])'
   so.intellisense: NSListAgent.SetRankOnSaleActivity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnSaleActivity(Integer,Integer[])'
@@ -6098,6 +6346,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetRankOnSaleDocument(Integer,Integer[])
   id: 'SetRankOnSaleDocument(Integer,Integer[])'
   so.intellisense: NSListAgent.SetRankOnSaleDocument
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRankOnSaleDocument(Integer,Integer[])'
@@ -6147,6 +6396,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetVisibleForUserGroup(Integer,Integer,Integer[],Bool)
   id: 'SetVisibleForUserGroup(Integer,Integer,Integer[],Bool)'
   so.intellisense: NSListAgent.SetVisibleForUserGroup
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVisibleForUserGroup(Integer,Integer,Integer[],Bool)'
@@ -6177,6 +6427,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])
   id: 'SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])'
   so.intellisense: NSListAgent.SetVisibleForUserGroups
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])'
@@ -6233,6 +6484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.SortListItems(Integer,String)
   id: 'SortListItems(Integer,String)'
   so.intellisense: NSListAgent.SortListItems
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SortListItems(Integer,String)'

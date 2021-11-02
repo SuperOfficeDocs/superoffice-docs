@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCommandInfo
   commentId: T:CRMScript.NetServer.NSCommandInfo
   id: NSCommandInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSCommandInfo.GetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.GetDisplayTooltip()
   id: 'GetDisplayTooltip()'
   so.intellisense: NSCommandInfo.GetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayTooltip()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.GetIconHint()
   id: 'GetIconHint()'
   so.intellisense: NSCommandInfo.GetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIconHint()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSCommandInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.GetReturnType()
   id: 'GetReturnType()'
   so.intellisense: NSCommandInfo.GetReturnType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReturnType()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSCommandInfo.SetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.SetDisplayTooltip(String)
   id: 'SetDisplayTooltip(String)'
   so.intellisense: NSCommandInfo.SetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayTooltip(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.SetIconHint(String)
   id: 'SetIconHint(String)'
   so.intellisense: NSCommandInfo.SetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIconHint(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSCommandInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCommandInfo.SetReturnType(Integer)
   id: 'SetReturnType(Integer)'
   so.intellisense: NSCommandInfo.SetReturnType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReturnType(Integer)'

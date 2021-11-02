@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFormEntity
   commentId: T:CRMScript.NetServer.NSFormEntity
   id: NSFormEntity
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetActive()
   id: 'GetActive()'
   so.intellisense: NSFormEntity.GetActive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetActive()'
@@ -96,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetConfig()
   id: 'GetConfig()'
   so.intellisense: NSFormEntity.GetConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConfig()'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSFormEntity.GetDescription
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -136,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetExpires()
   id: 'GetExpires()'
   so.intellisense: NSFormEntity.GetExpires
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetExpires()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetFolderId()
   id: 'GetFolderId()'
   so.intellisense: NSFormEntity.GetFolderId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFolderId()'
@@ -176,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetFolderName()
   id: 'GetFolderName()'
   so.intellisense: NSFormEntity.GetFolderName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFolderName()'
@@ -196,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetFormId()
   id: 'GetFormId()'
   so.intellisense: NSFormEntity.GetFormId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormId()'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetFormKey()
   id: 'GetFormKey()'
   so.intellisense: NSFormEntity.GetFormKey
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFormKey()'
@@ -236,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetGroupId()
   id: 'GetGroupId()'
   so.intellisense: NSFormEntity.GetGroupId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetGroupId()'
@@ -256,6 +266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetMaxSubmits()
   id: 'GetMaxSubmits()'
   so.intellisense: NSFormEntity.GetMaxSubmits
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetMaxSubmits()'
@@ -276,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSFormEntity.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -296,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetNewTicket()
   id: 'GetNewTicket()'
   so.intellisense: NSFormEntity.GetNewTicket
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNewTicket()'
@@ -316,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetRecaptchaMode()
   id: 'GetRecaptchaMode()'
   so.intellisense: NSFormEntity.GetRecaptchaMode
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRecaptchaMode()'
@@ -336,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetRecipe()
   id: 'GetRecipe()'
   so.intellisense: NSFormEntity.GetRecipe
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRecipe()'
@@ -356,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSFormEntity.GetRegistered
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -376,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetRegisteredAssociateId()
   id: 'GetRegisteredAssociateId()'
   so.intellisense: NSFormEntity.GetRegisteredAssociateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRegisteredAssociateId()'
@@ -396,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetResponseShipmentId()
   id: 'GetResponseShipmentId()'
   so.intellisense: NSFormEntity.GetResponseShipmentId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetResponseShipmentId()'
@@ -416,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetScriptId()
   id: 'GetScriptId()'
   so.intellisense: NSFormEntity.GetScriptId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetScriptId()'
@@ -436,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetType()
   id: 'GetType()'
   so.intellisense: NSFormEntity.GetType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetType()'
@@ -456,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSFormEntity.GetUpdated
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -476,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdatedAssociateId()
   id: 'GetUpdatedAssociateId()'
   so.intellisense: NSFormEntity.GetUpdatedAssociateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdatedAssociateId()'
@@ -496,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdatedCount()
   id: 'GetUpdatedCount()'
   so.intellisense: NSFormEntity.GetUpdatedCount
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdatedCount()'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetActive(Bool)
   id: 'SetActive(Bool)'
   so.intellisense: NSFormEntity.SetActive
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetActive(Bool)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetConfig(String)
   id: 'SetConfig(String)'
   so.intellisense: NSFormEntity.SetConfig
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConfig(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSFormEntity.SetDescription
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetExpires(DateTime)
   id: 'SetExpires(DateTime)'
   so.intellisense: NSFormEntity.SetExpires
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetExpires(DateTime)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetFolderId(Integer)
   id: 'SetFolderId(Integer)'
   so.intellisense: NSFormEntity.SetFolderId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFolderId(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetFolderName(String)
   id: 'SetFolderName(String)'
   so.intellisense: NSFormEntity.SetFolderName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFolderName(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetFormId(Integer)
   id: 'SetFormId(Integer)'
   so.intellisense: NSFormEntity.SetFormId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetFormId(Integer)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetFormKey(String)
   id: 'SetFormKey(String)'
   so.intellisense: NSFormEntity.SetFormKey
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFormKey(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetGroupId(Integer)
   id: 'SetGroupId(Integer)'
   so.intellisense: NSFormEntity.SetGroupId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetGroupId(Integer)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetMaxSubmits(Integer)
   id: 'SetMaxSubmits(Integer)'
   so.intellisense: NSFormEntity.SetMaxSubmits
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetMaxSubmits(Integer)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSFormEntity.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetNewTicket(Bool)
   id: 'SetNewTicket(Bool)'
   so.intellisense: NSFormEntity.SetNewTicket
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNewTicket(Bool)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetRecaptchaMode(Integer)
   id: 'SetRecaptchaMode(Integer)'
   so.intellisense: NSFormEntity.SetRecaptchaMode
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRecaptchaMode(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetRecipe(String)
   id: 'SetRecipe(String)'
   so.intellisense: NSFormEntity.SetRecipe
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRecipe(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSFormEntity.SetRegistered
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetRegisteredAssociateId(Integer)
   id: 'SetRegisteredAssociateId(Integer)'
   so.intellisense: NSFormEntity.SetRegisteredAssociateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRegisteredAssociateId(Integer)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetResponseShipmentId(Integer)
   id: 'SetResponseShipmentId(Integer)'
   so.intellisense: NSFormEntity.SetResponseShipmentId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetResponseShipmentId(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetScriptId(Integer)
   id: 'SetScriptId(Integer)'
   so.intellisense: NSFormEntity.SetScriptId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetScriptId(Integer)'
@@ -934,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSFormEntity.SetUpdated
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -956,6 +998,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdatedAssociateId(Integer)
   id: 'SetUpdatedAssociateId(Integer)'
   so.intellisense: NSFormEntity.SetUpdatedAssociateId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdatedAssociateId(Integer)'
@@ -978,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdatedCount(Integer)
   id: 'SetUpdatedCount(Integer)'
   so.intellisense: NSFormEntity.SetUpdatedCount
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdatedCount(Integer)'

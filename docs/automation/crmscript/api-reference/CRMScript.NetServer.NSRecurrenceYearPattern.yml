@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRecurrenceYearPattern
   commentId: T:CRMScript.NetServer.NSRecurrenceYearPattern
   id: NSRecurrenceYearPattern
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.GetCycle()
   id: 'GetCycle()'
   so.intellisense: NSRecurrenceYearPattern.GetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCycle()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.GetDay()
   id: 'GetDay()'
   so.intellisense: NSRecurrenceYearPattern.GetDay
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDay()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.GetPattern()
   id: 'GetPattern()'
   so.intellisense: NSRecurrenceYearPattern.GetPattern
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPattern()'
@@ -96,6 +100,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.GetWeekday()
   id: 'GetWeekday()'
   so.intellisense: NSRecurrenceYearPattern.GetWeekday
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWeekday()'
@@ -114,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.GetWeekOfMonth()
   id: 'GetWeekOfMonth()'
   so.intellisense: NSRecurrenceYearPattern.GetWeekOfMonth
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWeekOfMonth()'
@@ -132,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.SetCycle(Integer)
   id: 'SetCycle(Integer)'
   so.intellisense: NSRecurrenceYearPattern.SetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCycle(Integer)'
@@ -153,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.SetDay(Integer)
   id: 'SetDay(Integer)'
   so.intellisense: NSRecurrenceYearPattern.SetDay
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDay(Integer)'
@@ -174,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.SetPattern(Integer)
   id: 'SetPattern(Integer)'
   so.intellisense: NSRecurrenceYearPattern.SetPattern
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPattern(Integer)'
@@ -195,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.SetWeekday(Integer)
   id: 'SetWeekday(Integer)'
   so.intellisense: NSRecurrenceYearPattern.SetWeekday
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWeekday(Integer)'
@@ -216,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceYearPattern.SetWeekOfMonth(Integer)
   id: 'SetWeekOfMonth(Integer)'
   so.intellisense: NSRecurrenceYearPattern.SetWeekOfMonth
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWeekOfMonth(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.MacroReturnValue
   commentId: T:CRMScript.Native.MacroReturnValue
   id: MacroReturnValue
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -61,6 +62,7 @@ items:
   commentId: M:CRMScript.Native.MacroReturnValue.getDescription()
   id: 'getDescription()'
   so.intellisense: MacroReturnValue.getDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getDescription()'
@@ -80,6 +82,7 @@ items:
   commentId: M:CRMScript.Native.MacroReturnValue.getName()
   id: 'getName()'
   so.intellisense: MacroReturnValue.getName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getName()'
@@ -99,6 +102,7 @@ items:
   commentId: M:CRMScript.Native.MacroReturnValue.setDescription(String)
   id: 'setDescription(String)'
   so.intellisense: MacroReturnValue.setDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setDescription(String)'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.Native.MacroReturnValue.setName(String)
   id: 'setName(String)'
   so.intellisense: MacroReturnValue.setName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setName(String)'

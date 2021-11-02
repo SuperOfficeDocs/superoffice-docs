@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteListItem
   commentId: T:CRMScript.NetServer.NSQuoteListItem
   id: NSQuoteListItem
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.GetDisplayDescription()
   id: 'GetDisplayDescription()'
   so.intellisense: NSQuoteListItem.GetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayDescription()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.GetDisplayValue()
   id: 'GetDisplayValue()'
   so.intellisense: NSQuoteListItem.GetDisplayValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayValue()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.GetERPQuoteListItemKey()
   id: 'GetERPQuoteListItemKey()'
   so.intellisense: NSQuoteListItem.GetERPQuoteListItemKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPQuoteListItemKey()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.SetDisplayDescription(String)
   id: 'SetDisplayDescription(String)'
   so.intellisense: NSQuoteListItem.SetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayDescription(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.SetDisplayValue(String)
   id: 'SetDisplayValue(String)'
   so.intellisense: NSQuoteListItem.SetDisplayValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayValue(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteListItem.SetERPQuoteListItemKey(String)
   id: 'SetERPQuoteListItemKey(String)'
   so.intellisense: NSQuoteListItem.SetERPQuoteListItemKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPQuoteListItemKey(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoMdoList
   commentId: T:CRMScript.NetServer.NSFieldInfoMdoList
   id: NSFieldInfoMdoList
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoMdoList.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.GetMdoListName()
   id: 'GetMdoListName()'
   so.intellisense: NSFieldInfoMdoList.GetMdoListName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMdoListName()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.SetDefaultValue(Integer)
   id: 'SetDefaultValue(Integer)'
   so.intellisense: NSFieldInfoMdoList.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.SetMdoListName(String)
   id: 'SetMdoListName(String)'
   so.intellisense: NSFieldInfoMdoList.SetMdoListName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMdoListName(String)'

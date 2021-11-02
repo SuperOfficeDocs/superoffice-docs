@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPersonEntity
   commentId: T:CRMScript.NetServer.NSPersonEntity
   id: NSPersonEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -160,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetActiveErpLinks()
   id: 'GetActiveErpLinks()'
   so.intellisense: NSPersonEntity.GetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveErpLinks()'
@@ -180,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetActiveInterests()
   id: 'GetActiveInterests()'
   so.intellisense: NSPersonEntity.GetActiveInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveInterests()'
@@ -200,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetAddress()
   id: 'GetAddress()'
   so.intellisense: NSPersonEntity.GetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddress()'
@@ -219,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSPersonEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -239,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetBirthDate()
   id: 'GetBirthDate()'
   so.intellisense: NSPersonEntity.GetBirthDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBirthDate()'
@@ -259,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
   id: 'GetBlockEmarketing()'
   so.intellisense: NSPersonEntity.GetBlockEmarketing
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBlockEmarketing()'
@@ -298,6 +305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetBusiness()
   id: 'GetBusiness()'
   so.intellisense: NSPersonEntity.GetBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBusiness()'
@@ -318,6 +326,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCategory()
   id: 'GetCategory()'
   so.intellisense: NSPersonEntity.GetCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategory()'
@@ -338,6 +347,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetChatEmails()
   id: 'GetChatEmails()'
   so.intellisense: NSPersonEntity.GetChatEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetChatEmails()'
@@ -357,6 +367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetConsents()
   id: 'GetConsents()'
   so.intellisense: NSPersonEntity.GetConsents
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsents()'
@@ -377,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetContact()
   id: 'GetContact()'
   so.intellisense: NSPersonEntity.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact()'
@@ -397,6 +409,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCorrespondingAssociate()
   id: 'GetCorrespondingAssociate()'
   so.intellisense: NSPersonEntity.GetCorrespondingAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCorrespondingAssociate()'
@@ -417,6 +430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCountry()
   id: 'GetCountry()'
   so.intellisense: NSPersonEntity.GetCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountry()'
@@ -437,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSPersonEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -457,6 +472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSPersonEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -477,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCustomerLanguage()
   id: 'GetCustomerLanguage()'
   so.intellisense: NSPersonEntity.GetCustomerLanguage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomerLanguage()'
@@ -496,6 +513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSPersonEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -516,6 +534,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
   id: 'GetDbiAgentId()'
   so.intellisense: NSPersonEntity.GetDbiAgentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDbiAgentId()'
@@ -536,6 +555,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiKey()
   id: 'GetDbiKey()'
   so.intellisense: NSPersonEntity.GetDbiKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDbiKey()'
@@ -556,6 +576,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiLastModified()
   id: 'GetDbiLastModified()'
   so.intellisense: NSPersonEntity.GetDbiLastModified
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDbiLastModified()'
@@ -576,6 +597,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiLastSyncronized()
   id: 'GetDbiLastSyncronized()'
   so.intellisense: NSPersonEntity.GetDbiLastSyncronized
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDbiLastSyncronized()'
@@ -596,6 +618,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSPersonEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -616,6 +639,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetEmails()
   id: 'GetEmails()'
   so.intellisense: NSPersonEntity.GetEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmails()'
@@ -636,6 +660,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSPersonEntity.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -656,6 +681,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetFaxes()
   id: 'GetFaxes()'
   so.intellisense: NSPersonEntity.GetFaxes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFaxes()'
@@ -675,6 +701,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetFirstname()
   id: 'GetFirstname()'
   so.intellisense: NSPersonEntity.GetFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFirstname()'
@@ -695,6 +722,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetFormalName()
   id: 'GetFormalName()'
   so.intellisense: NSPersonEntity.GetFormalName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFormalName()'
@@ -715,6 +743,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSPersonEntity.GetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -735,6 +764,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetInterests()
   id: 'GetInterests()'
   so.intellisense: NSPersonEntity.GetInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetInterests()'
@@ -755,6 +785,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetInternetPhones()
   id: 'GetInternetPhones()'
   so.intellisense: NSPersonEntity.GetInternetPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetInternetPhones()'
@@ -774,6 +805,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetIsAssociate()
   id: 'GetIsAssociate()'
   so.intellisense: NSPersonEntity.GetIsAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsAssociate()'
@@ -794,6 +826,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetKanafname()
   id: 'GetKanafname()'
   so.intellisense: NSPersonEntity.GetKanafname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKanafname()'
@@ -814,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetKanalname()
   id: 'GetKanalname()'
   so.intellisense: NSPersonEntity.GetKanalname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKanalname()'
@@ -834,6 +868,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetLastname()
   id: 'GetLastname()'
   so.intellisense: NSPersonEntity.GetLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastname()'
@@ -854,6 +889,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetMiddleName()
   id: 'GetMiddleName()'
   so.intellisense: NSPersonEntity.GetMiddleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMiddleName()'
@@ -874,6 +910,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetMobilePhones()
   id: 'GetMobilePhones()'
   so.intellisense: NSPersonEntity.GetMobilePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMobilePhones()'
@@ -893,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetMrmrs()
   id: 'GetMrmrs()'
   so.intellisense: NSPersonEntity.GetMrmrs
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMrmrs()'
@@ -913,6 +951,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetNoMailing()
   id: 'GetNoMailing()'
   so.intellisense: NSPersonEntity.GetNoMailing
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNoMailing()'
@@ -933,6 +972,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetOfficePhones()
   id: 'GetOfficePhones()'
   so.intellisense: NSPersonEntity.GetOfficePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOfficePhones()'
@@ -952,6 +992,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetOtherPhones()
   id: 'GetOtherPhones()'
   so.intellisense: NSPersonEntity.GetOtherPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOtherPhones()'
@@ -971,6 +1012,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPagers()
   id: 'GetPagers()'
   so.intellisense: NSPersonEntity.GetPagers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPagers()'
@@ -989,6 +1031,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSPersonEntity.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -1009,6 +1052,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPersonNumber()
   id: 'GetPersonNumber()'
   so.intellisense: NSPersonEntity.GetPersonNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonNumber()'
@@ -1029,6 +1073,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPosition()
   id: 'GetPosition()'
   so.intellisense: NSPersonEntity.GetPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPosition()'
@@ -1049,6 +1094,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost1()
   id: 'GetPost1()'
   so.intellisense: NSPersonEntity.GetPost1
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPost1()'
@@ -1069,6 +1115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost2()
   id: 'GetPost2()'
   so.intellisense: NSPersonEntity.GetPost2
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPost2()'
@@ -1089,6 +1136,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost3()
   id: 'GetPost3()'
   so.intellisense: NSPersonEntity.GetPost3
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPost3()'
@@ -1109,6 +1157,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetPrivatePhones()
   id: 'GetPrivatePhones()'
   so.intellisense: NSPersonEntity.GetPrivatePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPrivatePhones()'
@@ -1128,6 +1177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetRetired()
   id: 'GetRetired()'
   so.intellisense: NSPersonEntity.GetRetired
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRetired()'
@@ -1148,6 +1198,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetSalutation()
   id: 'GetSalutation()'
   so.intellisense: NSPersonEntity.GetSalutation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSalutation()'
@@ -1168,6 +1219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetSentInfo()
   id: 'GetSentInfo()'
   so.intellisense: NSPersonEntity.GetSentInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSentInfo()'
@@ -1188,6 +1240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetShipmentTypes()
   id: 'GetShipmentTypes()'
   so.intellisense: NSPersonEntity.GetShipmentTypes
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetShipmentTypes()'
@@ -1207,6 +1260,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetShowContactTickets()
   id: 'GetShowContactTickets()'
   so.intellisense: NSPersonEntity.GetShowContactTickets
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetShowContactTickets()'
@@ -1227,6 +1281,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetSource()
   id: 'GetSource()'
   so.intellisense: NSPersonEntity.GetSource
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetSource()'
@@ -1247,6 +1302,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetSupportAssociate()
   id: 'GetSupportAssociate()'
   so.intellisense: NSPersonEntity.GetSupportAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSupportAssociate()'
@@ -1266,6 +1322,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetTicketPriority()
   id: 'GetTicketPriority()'
   so.intellisense: NSPersonEntity.GetTicketPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTicketPriority()'
@@ -1285,6 +1342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSPersonEntity.GetTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -1305,6 +1363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSPersonEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -1325,6 +1384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSPersonEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -1345,6 +1405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUrls()
   id: 'GetUrls()'
   so.intellisense: NSPersonEntity.GetUrls
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUrls()'
@@ -1365,6 +1426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUsePersonAddress()
   id: 'GetUsePersonAddress()'
   so.intellisense: NSPersonEntity.GetUsePersonAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUsePersonAddress()'
@@ -1385,6 +1447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUserDefinedFields()
   id: 'GetUserDefinedFields()'
   so.intellisense: NSPersonEntity.GetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFields()'
@@ -1405,6 +1468,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUserInfo()
   id: 'GetUserInfo()'
   so.intellisense: NSPersonEntity.GetUserInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserInfo()'
@@ -1425,6 +1489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetActiveErpLinks(Integer)
   id: 'SetActiveErpLinks(Integer)'
   so.intellisense: NSPersonEntity.SetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveErpLinks(Integer)'
@@ -1447,6 +1512,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetActiveInterests(Integer)
   id: 'SetActiveInterests(Integer)'
   so.intellisense: NSPersonEntity.SetActiveInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveInterests(Integer)'
@@ -1469,6 +1535,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
   id: 'SetAddress(NSAddress)'
   so.intellisense: NSPersonEntity.SetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAddress(NSAddress)'
@@ -1491,6 +1558,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSPersonEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -1513,6 +1581,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
   id: 'SetBirthDate(DateTime)'
   so.intellisense: NSPersonEntity.SetBirthDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBirthDate(DateTime)'
@@ -1535,6 +1604,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
   id: 'SetBlockEmarketing(Integer)'
   so.intellisense: NSPersonEntity.SetBlockEmarketing
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBlockEmarketing(Integer)'
@@ -1578,6 +1648,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
   id: 'SetBusiness(NSBusiness)'
   so.intellisense: NSPersonEntity.SetBusiness
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBusiness(NSBusiness)'
@@ -1600,6 +1671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
   id: 'SetCategory(NSCategory)'
   so.intellisense: NSPersonEntity.SetCategory
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCategory(NSCategory)'
@@ -1622,6 +1694,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetChatEmails(NSEntityElement[])
   id: 'SetChatEmails(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetChatEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChatEmails(NSEntityElement[])'
@@ -1644,6 +1717,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetConsents(NSConsentInfo[])
   id: 'SetConsents(NSConsentInfo[])'
   so.intellisense: NSPersonEntity.SetConsents
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsents(NSConsentInfo[])'
@@ -1666,6 +1740,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetContact(NSContact)
   id: 'SetContact(NSContact)'
   so.intellisense: NSPersonEntity.SetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContact(NSContact)'
@@ -1688,6 +1763,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
   id: 'SetCorrespondingAssociate(NSAssociate)'
   so.intellisense: NSPersonEntity.SetCorrespondingAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCorrespondingAssociate(NSAssociate)'
@@ -1710,6 +1786,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCountry(NSCountry)
   id: 'SetCountry(NSCountry)'
   so.intellisense: NSPersonEntity.SetCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountry(NSCountry)'
@@ -1732,6 +1809,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSPersonEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -1754,6 +1832,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSPersonEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -1776,6 +1855,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
   id: 'SetCustomerLanguage(NSCustomerLanguage)'
   so.intellisense: NSPersonEntity.SetCustomerLanguage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCustomerLanguage(NSCustomerLanguage)'
@@ -1798,6 +1878,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSPersonEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -1820,6 +1901,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiAgentId(Integer)
   id: 'SetDbiAgentId(Integer)'
   so.intellisense: NSPersonEntity.SetDbiAgentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDbiAgentId(Integer)'
@@ -1842,6 +1924,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiKey(String)
   id: 'SetDbiKey(String)'
   so.intellisense: NSPersonEntity.SetDbiKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDbiKey(String)'
@@ -1864,6 +1947,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiLastModified(DateTime)
   id: 'SetDbiLastModified(DateTime)'
   so.intellisense: NSPersonEntity.SetDbiLastModified
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDbiLastModified(DateTime)'
@@ -1886,6 +1970,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiLastSyncronized(DateTime)
   id: 'SetDbiLastSyncronized(DateTime)'
   so.intellisense: NSPersonEntity.SetDbiLastSyncronized
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDbiLastSyncronized(DateTime)'
@@ -1908,6 +1993,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSPersonEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -1930,6 +2016,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetEmails(NSEntityElement[])
   id: 'SetEmails(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetEmails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmails(NSEntityElement[])'
@@ -1952,6 +2039,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSPersonEntity.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -1974,6 +2062,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetFaxes(NSEntityElement[])
   id: 'SetFaxes(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetFaxes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFaxes(NSEntityElement[])'
@@ -1996,6 +2085,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetFirstname(String)
   id: 'SetFirstname(String)'
   so.intellisense: NSPersonEntity.SetFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFirstname(String)'
@@ -2018,6 +2108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetFormalName(String)
   id: 'SetFormalName(String)'
   so.intellisense: NSPersonEntity.SetFormalName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFormalName(String)'
@@ -2040,6 +2131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSPersonEntity.SetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -2062,6 +2154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
   id: 'SetInterests(NSSelectableMDOListItem[])'
   so.intellisense: NSPersonEntity.SetInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetInterests(NSSelectableMDOListItem[])'
@@ -2084,6 +2177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetInternetPhones(NSEntityElement[])
   id: 'SetInternetPhones(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetInternetPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetInternetPhones(NSEntityElement[])'
@@ -2106,6 +2200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetIsAssociate(Bool)
   id: 'SetIsAssociate(Bool)'
   so.intellisense: NSPersonEntity.SetIsAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsAssociate(Bool)'
@@ -2128,6 +2223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetKanafname(String)
   id: 'SetKanafname(String)'
   so.intellisense: NSPersonEntity.SetKanafname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKanafname(String)'
@@ -2150,6 +2246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetKanalname(String)
   id: 'SetKanalname(String)'
   so.intellisense: NSPersonEntity.SetKanalname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKanalname(String)'
@@ -2172,6 +2269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetLastname(String)
   id: 'SetLastname(String)'
   so.intellisense: NSPersonEntity.SetLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastname(String)'
@@ -2194,6 +2292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetMiddleName(String)
   id: 'SetMiddleName(String)'
   so.intellisense: NSPersonEntity.SetMiddleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMiddleName(String)'
@@ -2216,6 +2315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetMobilePhones(NSEntityElement[])
   id: 'SetMobilePhones(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetMobilePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMobilePhones(NSEntityElement[])'
@@ -2238,6 +2338,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetMrmrs(String)
   id: 'SetMrmrs(String)'
   so.intellisense: NSPersonEntity.SetMrmrs
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMrmrs(String)'
@@ -2260,6 +2361,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetNoMailing(Bool)
   id: 'SetNoMailing(Bool)'
   so.intellisense: NSPersonEntity.SetNoMailing
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNoMailing(Bool)'
@@ -2282,6 +2384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetOfficePhones(NSEntityElement[])
   id: 'SetOfficePhones(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetOfficePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOfficePhones(NSEntityElement[])'
@@ -2304,6 +2407,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetOtherPhones(NSEntityElement[])
   id: 'SetOtherPhones(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetOtherPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOtherPhones(NSEntityElement[])'
@@ -2326,6 +2430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPagers(NSEntityElement[])
   id: 'SetPagers(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetPagers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPagers(NSEntityElement[])'
@@ -2347,6 +2452,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSPersonEntity.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -2369,6 +2475,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPersonNumber(String)
   id: 'SetPersonNumber(String)'
   so.intellisense: NSPersonEntity.SetPersonNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonNumber(String)'
@@ -2391,6 +2498,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPosition(NSPosition)
   id: 'SetPosition(NSPosition)'
   so.intellisense: NSPersonEntity.SetPosition
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPosition(NSPosition)'
@@ -2413,6 +2521,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost1(String)
   id: 'SetPost1(String)'
   so.intellisense: NSPersonEntity.SetPost1
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPost1(String)'
@@ -2435,6 +2544,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost2(String)
   id: 'SetPost2(String)'
   so.intellisense: NSPersonEntity.SetPost2
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPost2(String)'
@@ -2457,6 +2567,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost3(String)
   id: 'SetPost3(String)'
   so.intellisense: NSPersonEntity.SetPost3
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPost3(String)'
@@ -2479,6 +2590,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetPrivatePhones(NSEntityElement[])
   id: 'SetPrivatePhones(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetPrivatePhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPrivatePhones(NSEntityElement[])'
@@ -2501,6 +2613,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetRetired(Bool)
   id: 'SetRetired(Bool)'
   so.intellisense: NSPersonEntity.SetRetired
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRetired(Bool)'
@@ -2523,6 +2636,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetSalutation(String)
   id: 'SetSalutation(String)'
   so.intellisense: NSPersonEntity.SetSalutation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSalutation(String)'
@@ -2545,6 +2659,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetSentInfo(Integer)
   id: 'SetSentInfo(Integer)'
   so.intellisense: NSPersonEntity.SetSentInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSentInfo(Integer)'
@@ -2567,6 +2682,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
   id: 'SetShipmentTypes(NSSelectableMDOListItem[])'
   so.intellisense: NSPersonEntity.SetShipmentTypes
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetShipmentTypes(NSSelectableMDOListItem[])'
@@ -2589,6 +2705,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetShowContactTickets(Integer)
   id: 'SetShowContactTickets(Integer)'
   so.intellisense: NSPersonEntity.SetShowContactTickets
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetShowContactTickets(Integer)'
@@ -2611,6 +2728,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetSource(Integer)
   id: 'SetSource(Integer)'
   so.intellisense: NSPersonEntity.SetSource
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetSource(Integer)'
@@ -2633,6 +2751,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetSupportAssociate(NSAssociate)
   id: 'SetSupportAssociate(NSAssociate)'
   so.intellisense: NSPersonEntity.SetSupportAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSupportAssociate(NSAssociate)'
@@ -2655,6 +2774,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetTicketPriority(NSTicketPriority)
   id: 'SetTicketPriority(NSTicketPriority)'
   so.intellisense: NSPersonEntity.SetTicketPriority
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTicketPriority(NSTicketPriority)'
@@ -2677,6 +2797,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSPersonEntity.SetTitle
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTitle(String)'
@@ -2699,6 +2820,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSPersonEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -2721,6 +2843,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSPersonEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -2743,6 +2866,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUrls(NSEntityElement[])
   id: 'SetUrls(NSEntityElement[])'
   so.intellisense: NSPersonEntity.SetUrls
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUrls(NSEntityElement[])'
@@ -2765,6 +2889,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUsePersonAddress(Bool)
   id: 'SetUsePersonAddress(Bool)'
   so.intellisense: NSPersonEntity.SetUsePersonAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUsePersonAddress(Bool)'
@@ -2787,6 +2912,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUserDefinedFields(Map)
   id: 'SetUserDefinedFields(Map)'
   so.intellisense: NSPersonEntity.SetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserDefinedFields(Map)'
@@ -2809,6 +2935,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetUserInfo(NSUserInfo)
   id: 'SetUserInfo(NSUserInfo)'
   so.intellisense: NSPersonEntity.SetUserInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserInfo(NSUserInfo)'

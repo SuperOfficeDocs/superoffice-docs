@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldMetadata
   commentId: T:CRMScript.NetServer.NSFieldMetadata
   id: NSFieldMetadata
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetAccess()
   id: 'GetAccess()'
   so.intellisense: NSFieldMetadata.GetAccess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAccess()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldMetadata.GetDefaultValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDisplayDescription()
   id: 'GetDisplayDescription()'
   so.intellisense: NSFieldMetadata.GetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayDescription()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSFieldMetadata.GetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetFieldKey()
   id: 'GetFieldKey()'
   so.intellisense: NSFieldMetadata.GetFieldKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldKey()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetFieldType()
   id: 'GetFieldType()'
   so.intellisense: NSFieldMetadata.GetFieldType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldType()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetListName()
   id: 'GetListName()'
   so.intellisense: NSFieldMetadata.GetListName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetListName()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetMaxLength()
   id: 'GetMaxLength()'
   so.intellisense: NSFieldMetadata.GetMaxLength
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMaxLength()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetRank()
   id: 'GetRank()'
   so.intellisense: NSFieldMetadata.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.GetShowInSearch()
   id: 'GetShowInSearch()'
   so.intellisense: NSFieldMetadata.GetShowInSearch
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShowInSearch()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetAccess(Integer)
   id: 'SetAccess(Integer)'
   so.intellisense: NSFieldMetadata.SetAccess
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAccess(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDefaultValue(String)
   id: 'SetDefaultValue(String)'
   so.intellisense: NSFieldMetadata.SetDefaultValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDefaultValue(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDisplayDescription(String)
   id: 'SetDisplayDescription(String)'
   so.intellisense: NSFieldMetadata.SetDisplayDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayDescription(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSFieldMetadata.SetDisplayName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetFieldKey(String)
   id: 'SetFieldKey(String)'
   so.intellisense: NSFieldMetadata.SetFieldKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFieldKey(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetFieldType(Integer)
   id: 'SetFieldType(Integer)'
   so.intellisense: NSFieldMetadata.SetFieldType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFieldType(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetListName(String)
   id: 'SetListName(String)'
   so.intellisense: NSFieldMetadata.SetListName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetListName(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetMaxLength(Integer)
   id: 'SetMaxLength(Integer)'
   so.intellisense: NSFieldMetadata.SetMaxLength
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMaxLength(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSFieldMetadata.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldMetadata.SetShowInSearch(Bool)
   id: 'SetShowInSearch(Bool)'
   so.intellisense: NSFieldMetadata.SetShowInSearch
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetShowInSearch(Bool)'

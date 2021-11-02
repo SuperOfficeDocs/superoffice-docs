@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.JSONBuilder
   commentId: T:CRMScript.Native.JSONBuilder
   id: JSONBuilder
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -92,6 +93,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.addInteger(String,Integer)
   id: 'addInteger(String,Integer)'
   so.intellisense: JSONBuilder.addInteger
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'addInteger(String,Integer)'
@@ -116,6 +118,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.addString(String,String)
   id: 'addString(String,String)'
   so.intellisense: JSONBuilder.addString
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'addString(String,String)'
@@ -140,6 +143,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.finalize()
   id: 'finalize()'
   so.intellisense: JSONBuilder.finalize
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'finalize()'
@@ -158,6 +162,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.getString()
   id: 'getString()'
   so.intellisense: JSONBuilder.getString
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'getString()'
@@ -177,6 +182,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.popLevel()
   id: 'popLevel()'
   so.intellisense: JSONBuilder.popLevel
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'popLevel()'
@@ -195,6 +201,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.pushArray(String)
   id: 'pushArray(String)'
   so.intellisense: JSONBuilder.pushArray
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'pushArray(String)'
@@ -216,6 +223,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.pushObject(String)
   id: 'pushObject(String)'
   so.intellisense: JSONBuilder.pushObject
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'pushObject(String)'
@@ -237,6 +245,7 @@ items:
   commentId: M:CRMScript.Native.JSONBuilder.setPrettyPrint(Integer)
   id: 'setPrettyPrint(Integer)'
   so.intellisense: JSONBuilder.setPrettyPrint
+  so.version: 8.4R07
   langs:
   - crmscript
   name: 'setPrettyPrint(Integer)'

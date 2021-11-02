@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectAgent
   commentId: T:CRMScript.NetServer.NSProjectAgent
   id: NSProjectAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -84,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
   id: 'AddProjectMembers(Integer,NSProjectMember[])'
   so.intellisense: NSProjectAgent.AddProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddProjectMembers(Integer,NSProjectMember[])'
@@ -108,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEntity()
   id: 'CreateDefaultProjectEntity()'
   so.intellisense: NSProjectAgent.CreateDefaultProjectEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultProjectEntity()'
@@ -127,6 +130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEventEntity()
   id: 'CreateDefaultProjectEventEntity()'
   so.intellisense: NSProjectAgent.CreateDefaultProjectEventEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultProjectEventEntity()'
@@ -146,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectMember()
   id: 'CreateDefaultProjectMember()'
   so.intellisense: NSProjectAgent.CreateDefaultProjectMember
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultProjectMember()'
@@ -185,6 +190,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEntity(Integer)
   id: 'DeleteProjectEntity(Integer)'
   so.intellisense: NSProjectAgent.DeleteProjectEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteProjectEntity(Integer)'
@@ -207,6 +213,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntity(Integer)
   id: 'DeleteProjectEventEntity(Integer)'
   so.intellisense: NSProjectAgent.DeleteProjectEventEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteProjectEventEntity(Integer)'
@@ -229,6 +236,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
   id: 'DeleteProjectEventEntityFromProjectId(Integer)'
   so.intellisense: NSProjectAgent.DeleteProjectEventEntityFromProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteProjectEventEntityFromProjectId(Integer)'
@@ -251,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMember(Integer)
   id: 'DeleteProjectMember(Integer)'
   so.intellisense: NSProjectAgent.DeleteProjectMember
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteProjectMember(Integer)'
@@ -273,6 +282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMemberByIds(Integer[])
   id: 'DeleteProjectMemberByIds(Integer[])'
   so.intellisense: NSProjectAgent.DeleteProjectMemberByIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteProjectMemberByIds(Integer[])'
@@ -294,6 +304,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
   id: 'DeleteProjectMembers(Integer,Integer[])'
   so.intellisense: NSProjectAgent.DeleteProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteProjectMembers(Integer,Integer[])'
@@ -318,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetDuplicateRules()
   id: 'GetDuplicateRules()'
   so.intellisense: NSProjectAgent.GetDuplicateRules
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicateRules()'
@@ -337,6 +349,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetDuplicates(String)
   id: 'GetDuplicates(String)'
   so.intellisense: NSProjectAgent.GetDuplicates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicates(String)'
@@ -359,6 +372,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyMemberProjects()
   id: 'GetMyMemberProjects()'
   so.intellisense: NSProjectAgent.GetMyMemberProjects
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyMemberProjects()'
@@ -378,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyProjectEvents()
   id: 'GetMyProjectEvents()'
   so.intellisense: NSProjectAgent.GetMyProjectEvents
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyProjectEvents()'
@@ -398,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyProjects(Bool)
   id: 'GetMyProjects(Bool)'
   so.intellisense: NSProjectAgent.GetMyProjects
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyProjects(Bool)'
@@ -420,6 +436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyPublishedProjects()
   id: 'GetMyPublishedProjects()'
   so.intellisense: NSProjectAgent.GetMyPublishedProjects
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyPublishedProjects()'
@@ -439,6 +456,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetNextMilestone(Integer)
   id: 'GetNextMilestone(Integer)'
   so.intellisense: NSProjectAgent.GetNextMilestone
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetNextMilestone(Integer)'
@@ -461,6 +479,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
   id: 'GetNextProjectStatus(Integer)'
   so.intellisense: NSProjectAgent.GetNextProjectStatus
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetNextProjectStatus(Integer)'
@@ -483,6 +502,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
   id: 'GetProject(Integer)'
   so.intellisense: NSProjectAgent.GetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProject(Integer)'
@@ -505,6 +525,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
   id: 'GetProjectEntity(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEntity(Integer)'
@@ -527,6 +548,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
   id: 'GetProjectEvent(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEvent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEvent(Integer)'
@@ -549,6 +571,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
   id: 'GetProjectEventEntity(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEventEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventEntity(Integer)'
@@ -571,6 +594,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
   id: 'GetProjectEventEntityFromProjectId(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEventEntityFromProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventEntityFromProjectId(Integer)'
@@ -593,6 +617,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventList(Integer[])
   id: 'GetProjectEventList(Integer[])'
   so.intellisense: NSProjectAgent.GetProjectEventList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventList(Integer[])'
@@ -615,6 +640,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
   id: 'GetProjectEventOnPerson(Integer,Integer)'
   so.intellisense: NSProjectAgent.GetProjectEventOnPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventOnPerson(Integer,Integer)'
@@ -639,6 +665,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventsOnPerson(Integer)
   id: 'GetProjectEventsOnPerson(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEventsOnPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectEventsOnPerson(Integer)'
@@ -662,6 +689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectImage(Integer)
   id: 'GetProjectImage(Integer)'
   so.intellisense: NSProjectAgent.GetProjectImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectImage(Integer)'
@@ -684,6 +712,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectList(Integer[])
   id: 'GetProjectList(Integer[])'
   so.intellisense: NSProjectAgent.GetProjectList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectList(Integer[])'
@@ -706,6 +735,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMember(Integer)
   id: 'GetProjectMember(Integer)'
   so.intellisense: NSProjectAgent.GetProjectMember
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMember(Integer)'
@@ -728,6 +758,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMembers(Integer)
   id: 'GetProjectMembers(Integer)'
   so.intellisense: NSProjectAgent.GetProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMembers(Integer)'
@@ -750,6 +781,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMembersById(Integer[])
   id: 'GetProjectMembersById(Integer[])'
   so.intellisense: NSProjectAgent.GetProjectMembersById
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectMembersById(Integer[])'
@@ -772,6 +804,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectsFromContact(Integer)
   id: 'GetProjectsFromContact(Integer)'
   so.intellisense: NSProjectAgent.GetProjectsFromContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectsFromContact(Integer)'
@@ -794,6 +827,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectsFromPerson(Integer)
   id: 'GetProjectsFromPerson(Integer)'
   so.intellisense: NSProjectAgent.GetProjectsFromPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectsFromPerson(Integer)'
@@ -816,6 +850,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProject(Integer)
   id: 'GetPublishedProject(Integer)'
   so.intellisense: NSProjectAgent.GetPublishedProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedProject(Integer)'
@@ -838,6 +873,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProjects(Integer[])
   id: 'GetPublishedProjects(Integer[])'
   so.intellisense: NSProjectAgent.GetPublishedProjects
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedProjects(Integer[])'
@@ -860,6 +896,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
   id: 'GetPublishedProjectsOnPersonId(Integer)'
   so.intellisense: NSProjectAgent.GetPublishedProjectsOnPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedProjectsOnPersonId(Integer)'
@@ -882,6 +919,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.HasGuide(Integer)
   id: 'HasGuide(Integer)'
   so.intellisense: NSProjectAgent.HasGuide
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'HasGuide(Integer)'
@@ -905,6 +943,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.HasGuideActivities(Integer)
   id: 'HasGuideActivities(Integer)'
   so.intellisense: NSProjectAgent.HasGuideActivities
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'HasGuideActivities(Integer)'
@@ -927,6 +966,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.IsNumberValid(Integer,String)
   id: 'IsNumberValid(Integer,String)'
   so.intellisense: NSProjectAgent.IsNumberValid
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsNumberValid(Integer,String)'
@@ -953,6 +993,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.Merge(Integer,Integer,Bool)
   id: 'Merge(Integer,Integer,Bool)'
   so.intellisense: NSProjectAgent.Merge
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Merge(Integer,Integer,Bool)'
@@ -980,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
   id: 'OfferAutoNextStatusOnApppointmentCompleted(Integer)'
   so.intellisense: NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'OfferAutoNextStatusOnApppointmentCompleted(Integer)'
@@ -1002,6 +1044,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
   id: 'SaveProjectEntity(NSProjectEntity)'
   so.intellisense: NSProjectAgent.SaveProjectEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveProjectEntity(NSProjectEntity)'
@@ -1025,6 +1068,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
   id: 'SaveProjectEventEntity(NSProjectEventEntity)'
   so.intellisense: NSProjectAgent.SaveProjectEventEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveProjectEventEntity(NSProjectEventEntity)'
@@ -1048,6 +1092,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
   id: 'SaveProjectMember(NSProjectMember)'
   so.intellisense: NSProjectAgent.SaveProjectMember
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveProjectMember(NSProjectMember)'
@@ -1070,6 +1115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
   id: 'SaveProjectMembersFunctionAndComment(Integer[],Integer,String)'
   so.intellisense: NSProjectAgent.SaveProjectMembersFunctionAndComment
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SaveProjectMembersFunctionAndComment(Integer[],Integer,String)'
@@ -1097,6 +1143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
   id: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
   so.intellisense: NSProjectAgent.SetDuplicateRulesStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
@@ -1118,6 +1165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SetProjectImage(Integer,NSImage)
   id: 'SetProjectImage(Integer,NSImage)'
   so.intellisense: NSProjectAgent.SetProjectImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectImage(Integer,NSImage)'
@@ -1142,6 +1190,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.UpdateProjectMember(NSProjectMember)
   id: 'UpdateProjectMember(NSProjectMember)'
   so.intellisense: NSProjectAgent.UpdateProjectMember
+  so.version: 7.0
   langs:
   - crmscript
   name: 'UpdateProjectMember(NSProjectMember)'

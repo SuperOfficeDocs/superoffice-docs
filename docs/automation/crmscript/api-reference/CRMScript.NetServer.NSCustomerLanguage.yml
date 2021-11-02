@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCustomerLanguage
   commentId: T:CRMScript.NetServer.NSCustomerLanguage
   id: NSCustomerLanguage
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetId()
   id: 'GetId()'
   so.intellisense: NSCustomerLanguage.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSCustomerLanguage.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetValue()
   id: 'GetValue()'
   so.intellisense: NSCustomerLanguage.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSCustomerLanguage.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSCustomerLanguage.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSCustomerLanguage.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleType
   commentId: T:CRMScript.NetServer.NSSaleType
   id: NSSaleType
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.GetId()
   id: 'GetId()'
   so.intellisense: NSSaleType.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSSaleType.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.GetValue()
   id: 'GetValue()'
   so.intellisense: NSSaleType.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSSaleType.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSSaleType.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleType.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSSaleType.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

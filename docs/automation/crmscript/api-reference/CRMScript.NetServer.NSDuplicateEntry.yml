@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDuplicateEntry
   commentId: T:CRMScript.NetServer.NSDuplicateEntry
   id: NSDuplicateEntry
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetEntryIdentifier()
   id: 'GetEntryIdentifier()'
   so.intellisense: NSDuplicateEntry.GetEntryIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEntryIdentifier()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetEntryName()
   id: 'GetEntryName()'
   so.intellisense: NSDuplicateEntry.GetEntryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEntryName()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetRuleDisplayName()
   id: 'GetRuleDisplayName()'
   so.intellisense: NSDuplicateEntry.GetRuleDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRuleDisplayName()'
@@ -99,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetRuleName()
   id: 'GetRuleName()'
   so.intellisense: NSDuplicateEntry.GetRuleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRuleName()'
@@ -118,6 +123,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetSoPrimaryKey()
   id: 'GetSoPrimaryKey()'
   so.intellisense: NSDuplicateEntry.GetSoPrimaryKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSoPrimaryKey()'
@@ -137,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetEntryIdentifier(String)
   id: 'SetEntryIdentifier(String)'
   so.intellisense: NSDuplicateEntry.SetEntryIdentifier
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEntryIdentifier(String)'
@@ -158,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetEntryName(String)
   id: 'SetEntryName(String)'
   so.intellisense: NSDuplicateEntry.SetEntryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEntryName(String)'
@@ -179,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetRuleDisplayName(String)
   id: 'SetRuleDisplayName(String)'
   so.intellisense: NSDuplicateEntry.SetRuleDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRuleDisplayName(String)'
@@ -200,6 +209,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetRuleName(String)
   id: 'SetRuleName(String)'
   so.intellisense: NSDuplicateEntry.SetRuleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRuleName(String)'
@@ -221,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetSoPrimaryKey(Integer)
   id: 'SetSoPrimaryKey(Integer)'
   so.intellisense: NSDuplicateEntry.SetSoPrimaryKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSoPrimaryKey(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSStatusMonitor
   commentId: T:CRMScript.NetServer.NSStatusMonitor
   id: NSStatusMonitor
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDefaultTask()
   id: 'GetDefaultTask()'
   so.intellisense: NSStatusMonitor.GetDefaultTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultTask()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDefaultTaskText()
   id: 'GetDefaultTaskText()'
   so.intellisense: NSStatusMonitor.GetDefaultTaskText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultTaskText()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSStatusMonitor.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSStatusMonitor.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetGenerationStart()
   id: 'GetGenerationStart()'
   so.intellisense: NSStatusMonitor.GetGenerationStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetGenerationStart()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetIsVisual()
   id: 'GetIsVisual()'
   so.intellisense: NSStatusMonitor.GetIsVisual
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsVisual()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetLastGenerated()
   id: 'GetLastGenerated()'
   so.intellisense: NSStatusMonitor.GetLastGenerated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastGenerated()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetName()
   id: 'GetName()'
   so.intellisense: NSStatusMonitor.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNeedsUpdate()
   id: 'GetNeedsUpdate()'
   so.intellisense: NSStatusMonitor.GetNeedsUpdate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetNeedsUpdate()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNumMatches()
   id: 'GetNumMatches()'
   so.intellisense: NSStatusMonitor.GetNumMatches
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetNumMatches()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNumNeedUpdate()
   id: 'GetNumNeedUpdate()'
   so.intellisense: NSStatusMonitor.GetNumNeedUpdate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetNumNeedUpdate()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetOwnerTable()
   id: 'GetOwnerTable()'
   so.intellisense: NSStatusMonitor.GetOwnerTable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerTable()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetPictureId()
   id: 'GetPictureId()'
   so.intellisense: NSStatusMonitor.GetPictureId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPictureId()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetRank()
   id: 'GetRank()'
   so.intellisense: NSStatusMonitor.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.GetStatusMonitorId()
   id: 'GetStatusMonitorId()'
   so.intellisense: NSStatusMonitor.GetStatusMonitorId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStatusMonitorId()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDefaultTask(Integer)
   id: 'SetDefaultTask(Integer)'
   so.intellisense: NSStatusMonitor.SetDefaultTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDefaultTask(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDefaultTaskText(String)
   id: 'SetDefaultTaskText(String)'
   so.intellisense: NSStatusMonitor.SetDefaultTaskText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDefaultTaskText(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSStatusMonitor.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSStatusMonitor.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetGenerationStart(DateTime)
   id: 'SetGenerationStart(DateTime)'
   so.intellisense: NSStatusMonitor.SetGenerationStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetGenerationStart(DateTime)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetIsVisual(Bool)
   id: 'SetIsVisual(Bool)'
   so.intellisense: NSStatusMonitor.SetIsVisual
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsVisual(Bool)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetLastGenerated(DateTime)
   id: 'SetLastGenerated(DateTime)'
   so.intellisense: NSStatusMonitor.SetLastGenerated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastGenerated(DateTime)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSStatusMonitor.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNeedsUpdate(Bool)
   id: 'SetNeedsUpdate(Bool)'
   so.intellisense: NSStatusMonitor.SetNeedsUpdate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetNeedsUpdate(Bool)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNumMatches(Integer)
   id: 'SetNumMatches(Integer)'
   so.intellisense: NSStatusMonitor.SetNumMatches
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetNumMatches(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNumNeedUpdate(Integer)
   id: 'SetNumNeedUpdate(Integer)'
   so.intellisense: NSStatusMonitor.SetNumNeedUpdate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetNumNeedUpdate(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetOwnerTable(Integer)
   id: 'SetOwnerTable(Integer)'
   so.intellisense: NSStatusMonitor.SetOwnerTable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerTable(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetPictureId(Integer)
   id: 'SetPictureId(Integer)'
   so.intellisense: NSStatusMonitor.SetPictureId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPictureId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSStatusMonitor.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatusMonitor.SetStatusMonitorId(Integer)
   id: 'SetStatusMonitorId(Integer)'
   so.intellisense: NSStatusMonitor.SetStatusMonitorId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStatusMonitorId(Integer)'

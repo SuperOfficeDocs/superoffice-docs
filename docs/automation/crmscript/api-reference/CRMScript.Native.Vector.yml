@@ -6,16 +6,16 @@ items:
   langs:
   - crmscript
   children:
-    - CRMScript.Native.Vector.#ctor(Integer[])
-    - CRMScript.Native.Vector.parseString(String, String)
-    - CRMScript.Native.Vector.pushBack(String)
-    - CRMScript.Native.Vector.set(Integer, String)
-    - CRMScript.Native.Vector.get(Integer)
-    - CRMScript.Native.Vector.size()
-    - CRMScript.Native.Vector.toIntegerArray()
-    - CRMScript.Native.Vector.toStringArray()
-    - CRMScript.Native.Vector.buildString(String)
-    - CRMScript.Native.Vector.removeAt(Integer)
+  - CRMScript.Native.Vector.#ctor(Integer[])
+  - CRMScript.Native.Vector.parseString(String, String)
+  - CRMScript.Native.Vector.pushBack(String)
+  - CRMScript.Native.Vector.set(Integer, String)
+  - CRMScript.Native.Vector.get(Integer)
+  - CRMScript.Native.Vector.size()
+  - CRMScript.Native.Vector.toIntegerArray()
+  - CRMScript.Native.Vector.toStringArray()
+  - CRMScript.Native.Vector.buildString(String)
+  - CRMScript.Native.Vector.removeAt(Integer)
   name: Vector
   nameWithType: Vector
   fullName: CRMScript.Native.Vector
@@ -68,6 +68,7 @@ items:
   commentId: M:CRMScript.Native.Vector.removeAt(Integer)
   id: removeAt(Integer)
   so.intellisense: Vector.removeAt
+  so.version: 7.9.0
   langs:
   - crmscript
   parent: CRMScript.Native.Vector
@@ -148,6 +149,7 @@ items:
   commentId: M:CRMScript.Native.Vector.toIntegerArray()
   id: toIntegerArray()
   so.intellisense: Vector.toIntegerArray
+  so.version: 8.4R07
   langs:
   - crmscript
   parent: CRMScript.Native.Vector
@@ -166,6 +168,7 @@ items:
   commentId: M:CRMScript.Native.Vector.toStringArray()
   id: toStringArray()
   so.intellisense: Vector.toStringArray
+  so.version: 4.9.1
   langs:
   - crmscript
   parent: CRMScript.Native.Vector

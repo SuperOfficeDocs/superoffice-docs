@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAlarmData
   commentId: T:CRMScript.NetServer.NSAlarmData
   id: NSAlarmData
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetAlarmTime()
   id: 'GetAlarmTime()'
   so.intellisense: NSAlarmData.GetAlarmTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlarmTime()'
@@ -96,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetAppointmentId()
   id: 'GetAppointmentId()'
   so.intellisense: NSAlarmData.GetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentId()'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetAppointmentText()
   id: 'GetAppointmentText()'
   so.intellisense: NSAlarmData.GetAppointmentText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentText()'
@@ -136,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetAppointmentType()
   id: 'GetAppointmentType()'
   so.intellisense: NSAlarmData.GetAppointmentType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentType()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetAssignmentStatus()
   id: 'GetAssignmentStatus()'
   so.intellisense: NSAlarmData.GetAssignmentStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssignmentStatus()'
@@ -176,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetBookingType()
   id: 'GetBookingType()'
   so.intellisense: NSAlarmData.GetBookingType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBookingType()'
@@ -196,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetContactDepartment()
   id: 'GetContactDepartment()'
   so.intellisense: NSAlarmData.GetContactDepartment
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetContactDepartment()'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetContactFullName()
   id: 'GetContactFullName()'
   so.intellisense: NSAlarmData.GetContactFullName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetContactFullName()'
@@ -236,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSAlarmData.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -256,6 +266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSAlarmData.GetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -276,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetEndDate()
   id: 'GetEndDate()'
   so.intellisense: NSAlarmData.GetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndDate()'
@@ -296,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetFormalName()
   id: 'GetFormalName()'
   so.intellisense: NSAlarmData.GetFormalName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetFormalName()'
@@ -316,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetInvitationStatus()
   id: 'GetInvitationStatus()'
   so.intellisense: NSAlarmData.GetInvitationStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInvitationStatus()'
@@ -336,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetLocation()
   id: 'GetLocation()'
   so.intellisense: NSAlarmData.GetLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocation()'
@@ -356,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetPersonFullName()
   id: 'GetPersonFullName()'
   so.intellisense: NSAlarmData.GetPersonFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonFullName()'
@@ -376,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSAlarmData.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -396,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSAlarmData.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -416,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetProjectName()
   id: 'GetProjectName()'
   so.intellisense: NSAlarmData.GetProjectName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectName()'
@@ -436,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSAlarmData.GetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -456,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetSaleName()
   id: 'GetSaleName()'
   so.intellisense: NSAlarmData.GetSaleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleName()'
@@ -476,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetStartTime()
   id: 'GetStartTime()'
   so.intellisense: NSAlarmData.GetStartTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartTime()'
@@ -496,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.GetTaskName()
   id: 'GetTaskName()'
   so.intellisense: NSAlarmData.GetTaskName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetTaskName()'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetAlarmTime(DateTime)
   id: 'SetAlarmTime(DateTime)'
   so.intellisense: NSAlarmData.SetAlarmTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAlarmTime(DateTime)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetAppointmentId(Integer)
   id: 'SetAppointmentId(Integer)'
   so.intellisense: NSAlarmData.SetAppointmentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointmentId(Integer)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetAppointmentText(String)
   id: 'SetAppointmentText(String)'
   so.intellisense: NSAlarmData.SetAppointmentText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointmentText(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetAppointmentType(Integer)
   id: 'SetAppointmentType(Integer)'
   so.intellisense: NSAlarmData.SetAppointmentType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAppointmentType(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetAssignmentStatus(Integer)
   id: 'SetAssignmentStatus(Integer)'
   so.intellisense: NSAlarmData.SetAssignmentStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssignmentStatus(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetBookingType(Integer)
   id: 'SetBookingType(Integer)'
   so.intellisense: NSAlarmData.SetBookingType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBookingType(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetContactDepartment(String)
   id: 'SetContactDepartment(String)'
   so.intellisense: NSAlarmData.SetContactDepartment
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetContactDepartment(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetContactFullName(String)
   id: 'SetContactFullName(String)'
   so.intellisense: NSAlarmData.SetContactFullName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetContactFullName(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSAlarmData.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSAlarmData.SetContactName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetEndDate(DateTime)
   id: 'SetEndDate(DateTime)'
   so.intellisense: NSAlarmData.SetEndDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndDate(DateTime)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetFormalName(String)
   id: 'SetFormalName(String)'
   so.intellisense: NSAlarmData.SetFormalName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetFormalName(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetInvitationStatus(Integer)
   id: 'SetInvitationStatus(Integer)'
   so.intellisense: NSAlarmData.SetInvitationStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInvitationStatus(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetLocation(String)
   id: 'SetLocation(String)'
   so.intellisense: NSAlarmData.SetLocation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLocation(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetPersonFullName(String)
   id: 'SetPersonFullName(String)'
   so.intellisense: NSAlarmData.SetPersonFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonFullName(String)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSAlarmData.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSAlarmData.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetProjectName(String)
   id: 'SetProjectName(String)'
   so.intellisense: NSAlarmData.SetProjectName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectName(String)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSAlarmData.SetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetSaleName(String)
   id: 'SetSaleName(String)'
   so.intellisense: NSAlarmData.SetSaleName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleName(String)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetStartTime(DateTime)
   id: 'SetStartTime(DateTime)'
   so.intellisense: NSAlarmData.SetStartTime
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartTime(DateTime)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAlarmData.SetTaskName(String)
   id: 'SetTaskName(String)'
   so.intellisense: NSAlarmData.SetTaskName
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetTaskName(String)'

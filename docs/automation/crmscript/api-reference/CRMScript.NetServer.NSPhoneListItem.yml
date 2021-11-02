@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPhoneListItem
   commentId: T:CRMScript.NetServer.NSPhoneListItem
   id: NSPhoneListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetId()
   id: 'GetId()'
   so.intellisense: NSPhoneListItem.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetName()
   id: 'GetName()'
   so.intellisense: NSPhoneListItem.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonCellPhone()
   id: 'GetPersonCellPhone()'
   so.intellisense: NSPhoneListItem.GetPersonCellPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonCellPhone()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonDirectPhone()
   id: 'GetPersonDirectPhone()'
   so.intellisense: NSPhoneListItem.GetPersonDirectPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonDirectPhone()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonEmail()
   id: 'GetPersonEmail()'
   so.intellisense: NSPhoneListItem.GetPersonEmail
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonEmail()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonFaxNumber()
   id: 'GetPersonFaxNumber()'
   so.intellisense: NSPhoneListItem.GetPersonFaxNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonFaxNumber()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonPagerNumber()
   id: 'GetPersonPagerNumber()'
   so.intellisense: NSPhoneListItem.GetPersonPagerNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonPagerNumber()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonPrivatePhone()
   id: 'GetPersonPrivatePhone()'
   so.intellisense: NSPhoneListItem.GetPersonPrivatePhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonPrivatePhone()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSPhoneListItem.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.GetUniqueId()
   id: 'GetUniqueId()'
   so.intellisense: NSPhoneListItem.GetUniqueId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUniqueId()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSPhoneListItem.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSPhoneListItem.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonCellPhone(String)
   id: 'SetPersonCellPhone(String)'
   so.intellisense: NSPhoneListItem.SetPersonCellPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonCellPhone(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonDirectPhone(String)
   id: 'SetPersonDirectPhone(String)'
   so.intellisense: NSPhoneListItem.SetPersonDirectPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonDirectPhone(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonEmail(String)
   id: 'SetPersonEmail(String)'
   so.intellisense: NSPhoneListItem.SetPersonEmail
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonEmail(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonFaxNumber(String)
   id: 'SetPersonFaxNumber(String)'
   so.intellisense: NSPhoneListItem.SetPersonFaxNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonFaxNumber(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonPagerNumber(String)
   id: 'SetPersonPagerNumber(String)'
   so.intellisense: NSPhoneListItem.SetPersonPagerNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonPagerNumber(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonPrivatePhone(String)
   id: 'SetPersonPrivatePhone(String)'
   so.intellisense: NSPhoneListItem.SetPersonPrivatePhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonPrivatePhone(String)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSPhoneListItem.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListItem.SetUniqueId(String)
   id: 'SetUniqueId(String)'
   so.intellisense: NSPhoneListItem.SetUniqueId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUniqueId(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.HTTP
   commentId: T:CRMScript.Native.HTTP
   id: HTTP
+  so.version: 3.1.5
   langs:
   - crmscript
   children:
@@ -174,6 +175,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.deleteAsStream(String)
   id: 'deleteAsStream(String)'
   so.intellisense: HTTP.deleteAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'deleteAsStream(String)'
@@ -219,6 +221,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.getAsStream(String)
   id: 'getAsStream(String)'
   so.intellisense: HTTP.getAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'getAsStream(String)'
@@ -281,6 +284,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.getResponseHeader(String)
   id: 'getResponseHeader(String)'
   so.intellisense: HTTP.getResponseHeader
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getResponseHeader(String)'
@@ -303,6 +307,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.getResponseHeaders()
   id: 'getResponseHeaders()'
   so.intellisense: HTTP.getResponseHeaders
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getResponseHeaders()'
@@ -322,6 +327,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.getValue(String)
   id: 'getValue(String)'
   so.intellisense: HTTP.getValue
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'getValue(String)'
@@ -363,6 +369,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.open(String)
   id: 'open(String)'
   so.intellisense: HTTP.open
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'open(String)'
@@ -386,6 +393,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.openAsStream(String)
   id: 'openAsStream(String)'
   so.intellisense: HTTP.openAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'openAsStream(String)'
@@ -431,6 +439,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.patchAsStream(String)
   id: 'patchAsStream(String)'
   so.intellisense: HTTP.patchAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'patchAsStream(String)'
@@ -477,6 +486,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.postAsStream(String)
   id: 'postAsStream(String)'
   so.intellisense: HTTP.postAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'postAsStream(String)'
@@ -500,6 +510,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.putAsStream(String)
   id: 'putAsStream(String)'
   so.intellisense: HTTP.putAsStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'putAsStream(String)'
@@ -569,6 +580,7 @@ items:
   commentId: M:CRMScript.Native.HTTP.setValue(String,String)
   id: 'setValue(String,String)'
   so.intellisense: HTTP.setValue
+  so.version: 3.1.5
   langs:
   - crmscript
   name: 'setValue(String,String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMailMergeSettings
   commentId: T:CRMScript.NetServer.NSMailMergeSettings
   id: NSMailMergeSettings
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -74,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetAddCompanyInterest()
   id: 'GetAddCompanyInterest()'
   so.intellisense: NSMailMergeSettings.GetAddCompanyInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddCompanyInterest()'
@@ -94,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetAddPersonInterest()
   id: 'GetAddPersonInterest()'
   so.intellisense: NSMailMergeSettings.GetAddPersonInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddPersonInterest()'
@@ -114,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetAlwaysUseCustomAttention()
   id: 'GetAlwaysUseCustomAttention()'
   so.intellisense: NSMailMergeSettings.GetAlwaysUseCustomAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAlwaysUseCustomAttention()'
@@ -134,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetCustomAttention()
   id: 'GetCustomAttention()'
   so.intellisense: NSMailMergeSettings.GetCustomAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomAttention()'
@@ -154,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetCustomMailBody()
   id: 'GetCustomMailBody()'
   so.intellisense: NSMailMergeSettings.GetCustomMailBody
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomMailBody()'
@@ -174,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetCustomMailSubject()
   id: 'GetCustomMailSubject()'
   so.intellisense: NSMailMergeSettings.GetCustomMailSubject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCustomMailSubject()'
@@ -194,6 +201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSMailMergeSettings.GetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -214,6 +222,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSMailMergeSettings.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -234,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetIncludeNoMailingsRecipient()
   id: 'GetIncludeNoMailingsRecipient()'
   so.intellisense: NSMailMergeSettings.GetIncludeNoMailingsRecipient
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIncludeNoMailingsRecipient()'
@@ -254,6 +264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetIncludeRetiredRecipients()
   id: 'GetIncludeRetiredRecipients()'
   so.intellisense: NSMailMergeSettings.GetIncludeRetiredRecipients
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIncludeRetiredRecipients()'
@@ -274,6 +285,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetIncludeStoppedRecipients()
   id: 'GetIncludeStoppedRecipients()'
   so.intellisense: NSMailMergeSettings.GetIncludeStoppedRecipients
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIncludeStoppedRecipients()'
@@ -294,6 +306,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetIsTemporarySelection()
   id: 'GetIsTemporarySelection()'
   so.intellisense: NSMailMergeSettings.GetIsTemporarySelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsTemporarySelection()'
@@ -314,6 +327,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetMailMergeDeliveryType()
   id: 'GetMailMergeDeliveryType()'
   so.intellisense: NSMailMergeSettings.GetMailMergeDeliveryType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMailMergeDeliveryType()'
@@ -334,6 +348,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSMailMergeSettings.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -354,6 +369,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetRemoveCompanyInterest()
   id: 'GetRemoveCompanyInterest()'
   so.intellisense: NSMailMergeSettings.GetRemoveCompanyInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRemoveCompanyInterest()'
@@ -374,6 +390,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetRemovePersonInterest()
   id: 'GetRemovePersonInterest()'
   so.intellisense: NSMailMergeSettings.GetRemovePersonInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRemovePersonInterest()'
@@ -394,6 +411,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetSaveDocument()
   id: 'GetSaveDocument()'
   so.intellisense: NSMailMergeSettings.GetSaveDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaveDocument()'
@@ -414,6 +432,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetSelectionId()
   id: 'GetSelectionId()'
   so.intellisense: NSMailMergeSettings.GetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionId()'
@@ -434,6 +453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetSynchronous()
   id: 'GetSynchronous()'
   so.intellisense: NSMailMergeSettings.GetSynchronous
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSynchronous()'
@@ -454,6 +474,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetTaskEntity()
   id: 'GetTaskEntity()'
   so.intellisense: NSMailMergeSettings.GetTaskEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTaskEntity()'
@@ -474,6 +495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.GetTestOnly()
   id: 'GetTestOnly()'
   so.intellisense: NSMailMergeSettings.GetTestOnly
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTestOnly()'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetAddCompanyInterest(Integer)
   id: 'SetAddCompanyInterest(Integer)'
   so.intellisense: NSMailMergeSettings.SetAddCompanyInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAddCompanyInterest(Integer)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetAddPersonInterest(Integer)
   id: 'SetAddPersonInterest(Integer)'
   so.intellisense: NSMailMergeSettings.SetAddPersonInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAddPersonInterest(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetAlwaysUseCustomAttention(Bool)
   id: 'SetAlwaysUseCustomAttention(Bool)'
   so.intellisense: NSMailMergeSettings.SetAlwaysUseCustomAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAlwaysUseCustomAttention(Bool)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetCustomAttention(String)
   id: 'SetCustomAttention(String)'
   so.intellisense: NSMailMergeSettings.SetCustomAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCustomAttention(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetCustomMailBody(String)
   id: 'SetCustomMailBody(String)'
   so.intellisense: NSMailMergeSettings.SetCustomMailBody
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCustomMailBody(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetCustomMailSubject(String)
   id: 'SetCustomMailSubject(String)'
   so.intellisense: NSMailMergeSettings.SetCustomMailSubject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCustomMailSubject(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSMailMergeSettings.SetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSMailMergeSettings.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetIncludeNoMailingsRecipient(Bool)
   id: 'SetIncludeNoMailingsRecipient(Bool)'
   so.intellisense: NSMailMergeSettings.SetIncludeNoMailingsRecipient
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIncludeNoMailingsRecipient(Bool)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetIncludeRetiredRecipients(Bool)
   id: 'SetIncludeRetiredRecipients(Bool)'
   so.intellisense: NSMailMergeSettings.SetIncludeRetiredRecipients
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIncludeRetiredRecipients(Bool)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetIncludeStoppedRecipients(Bool)
   id: 'SetIncludeStoppedRecipients(Bool)'
   so.intellisense: NSMailMergeSettings.SetIncludeStoppedRecipients
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIncludeStoppedRecipients(Bool)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetIsTemporarySelection(Bool)
   id: 'SetIsTemporarySelection(Bool)'
   so.intellisense: NSMailMergeSettings.SetIsTemporarySelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsTemporarySelection(Bool)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetMailMergeDeliveryType(Integer)
   id: 'SetMailMergeDeliveryType(Integer)'
   so.intellisense: NSMailMergeSettings.SetMailMergeDeliveryType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMailMergeDeliveryType(Integer)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSMailMergeSettings.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetRemoveCompanyInterest(Integer)
   id: 'SetRemoveCompanyInterest(Integer)'
   so.intellisense: NSMailMergeSettings.SetRemoveCompanyInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRemoveCompanyInterest(Integer)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetRemovePersonInterest(Integer)
   id: 'SetRemovePersonInterest(Integer)'
   so.intellisense: NSMailMergeSettings.SetRemovePersonInterest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRemovePersonInterest(Integer)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetSaveDocument(Bool)
   id: 'SetSaveDocument(Bool)'
   so.intellisense: NSMailMergeSettings.SetSaveDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaveDocument(Bool)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetSelectionId(Integer)
   id: 'SetSelectionId(Integer)'
   so.intellisense: NSMailMergeSettings.SetSelectionId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSelectionId(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetSynchronous(Bool)
   id: 'SetSynchronous(Bool)'
   so.intellisense: NSMailMergeSettings.SetSynchronous
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSynchronous(Bool)'
@@ -934,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeSettings.SetTestOnly(Bool)
   id: 'SetTestOnly(Bool)'
   so.intellisense: NSMailMergeSettings.SetTestOnly
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTestOnly(Bool)'

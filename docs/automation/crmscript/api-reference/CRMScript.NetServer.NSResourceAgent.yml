@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSResourceAgent
   commentId: T:CRMScript.NetServer.NSResourceAgent
   id: NSResourceAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
   id: 'ActivateResourceSubstitution(String,String,Bool)'
   so.intellisense: NSResourceAgent.ActivateResourceSubstitution
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ActivateResourceSubstitution(String,String,Bool)'
@@ -67,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceAgent.DeleteResourceSubstitution(String,String)
   id: 'DeleteResourceSubstitution(String,String)'
   so.intellisense: NSResourceAgent.DeleteResourceSubstitution
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteResourceSubstitution(String,String)'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
   id: 'GetResourceSubstitutions(String[],String,Bool)'
   so.intellisense: NSResourceAgent.GetResourceSubstitutions
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetResourceSubstitutions(String[],String,Bool)'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceAgent.IsResourceSubstitutionActive(String[],String)
   id: 'IsResourceSubstitutionActive(String[],String)'
   so.intellisense: NSResourceAgent.IsResourceSubstitutionActive
+  so.version: 7.5
   langs:
   - crmscript
   name: 'IsResourceSubstitutionActive(String[],String)'
@@ -145,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
   id: 'SetResourceSubstitution(String,String,String,Bool)'
   so.intellisense: NSResourceAgent.SetResourceSubstitution
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetResourceSubstitution(String,String,String,Bool)'

@@ -106,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedBy()
   id: 'GetApprovedBy()'
   so.intellisense: NSQuoteVersion.GetApprovedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetApprovedBy()'
@@ -126,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredBy()
   id: 'GetApprovedRegisteredBy()'
   so.intellisense: NSQuoteVersion.GetApprovedRegisteredBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetApprovedRegisteredBy()'
@@ -146,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredDate()
   id: 'GetApprovedRegisteredDate()'
   so.intellisense: NSQuoteVersion.GetApprovedRegisteredDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetApprovedRegisteredDate()'
@@ -166,6 +169,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedText()
   id: 'GetApprovedText()'
   so.intellisense: NSQuoteVersion.GetApprovedText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetApprovedText()'
@@ -186,6 +190,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetArchivedState()
   id: 'GetArchivedState()'
   so.intellisense: NSQuoteVersion.GetArchivedState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetArchivedState()'
@@ -206,6 +211,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetDeliveryCountryId()
   id: 'GetDeliveryCountryId()'
   so.intellisense: NSQuoteVersion.GetDeliveryCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeliveryCountryId()'
@@ -226,6 +232,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSQuoteVersion.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -246,6 +253,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTermsKey()
   id: 'GetERPDeliveryTermsKey()'
   so.intellisense: NSQuoteVersion.GetERPDeliveryTermsKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDeliveryTermsKey()'
@@ -266,6 +274,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTypeKey()
   id: 'GetERPDeliveryTypeKey()'
   so.intellisense: NSQuoteVersion.GetERPDeliveryTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPDeliveryTypeKey()'
@@ -286,6 +295,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTermsKey()
   id: 'GetERPPaymentTermsKey()'
   so.intellisense: NSQuoteVersion.GetERPPaymentTermsKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPPaymentTermsKey()'
@@ -306,6 +316,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTypeKey()
   id: 'GetERPPaymentTypeKey()'
   so.intellisense: NSQuoteVersion.GetERPPaymentTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPPaymentTypeKey()'
@@ -326,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPQuoteVersionKey()
   id: 'GetERPQuoteVersionKey()'
   so.intellisense: NSQuoteVersion.GetERPQuoteVersionKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPQuoteVersionKey()'
@@ -346,6 +358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExpirationDate()
   id: 'GetExpirationDate()'
   so.intellisense: NSQuoteVersion.GetExpirationDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExpirationDate()'
@@ -366,6 +379,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField1()
   id: 'GetExtraField1()'
   so.intellisense: NSQuoteVersion.GetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField1()'
@@ -386,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField2()
   id: 'GetExtraField2()'
   so.intellisense: NSQuoteVersion.GetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField2()'
@@ -406,6 +421,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField3()
   id: 'GetExtraField3()'
   so.intellisense: NSQuoteVersion.GetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField3()'
@@ -426,6 +442,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField4()
   id: 'GetExtraField4()'
   so.intellisense: NSQuoteVersion.GetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField4()'
@@ -446,6 +463,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField5()
   id: 'GetExtraField5()'
   so.intellisense: NSQuoteVersion.GetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetExtraField5()'
@@ -466,6 +484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetFollowupId()
   id: 'GetFollowupId()'
   so.intellisense: NSQuoteVersion.GetFollowupId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFollowupId()'
@@ -486,6 +505,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetHasOwnDeliveryAddress()
   id: 'GetHasOwnDeliveryAddress()'
   so.intellisense: NSQuoteVersion.GetHasOwnDeliveryAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasOwnDeliveryAddress()'
@@ -506,6 +526,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetHasOwnInvoiceAddress()
   id: 'GetHasOwnInvoiceAddress()'
   so.intellisense: NSQuoteVersion.GetHasOwnInvoiceAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasOwnInvoiceAddress()'
@@ -526,6 +547,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetInvoiceCountryId()
   id: 'GetInvoiceCountryId()'
   so.intellisense: NSQuoteVersion.GetInvoiceCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInvoiceCountryId()'
@@ -546,6 +568,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetLastRecalculated()
   id: 'GetLastRecalculated()'
   so.intellisense: NSQuoteVersion.GetLastRecalculated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLastRecalculated()'
@@ -566,6 +589,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetLikelyQuoteAlternativeId()
   id: 'GetLikelyQuoteAlternativeId()'
   so.intellisense: NSQuoteVersion.GetLikelyQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLikelyQuoteAlternativeId()'
@@ -586,6 +610,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetNumber()
   id: 'GetNumber()'
   so.intellisense: NSQuoteVersion.GetNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetNumber()'
@@ -606,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteAlternatives()
   id: 'GetQuoteAlternatives()'
   so.intellisense: NSQuoteVersion.GetQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteAlternatives()'
@@ -626,6 +652,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteId()
   id: 'GetQuoteId()'
   so.intellisense: NSQuoteVersion.GetQuoteId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteId()'
@@ -646,6 +673,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteVersionId()
   id: 'GetQuoteVersionId()'
   so.intellisense: NSQuoteVersion.GetQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteVersionId()'
@@ -666,6 +694,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRank()
   id: 'GetRank()'
   so.intellisense: NSQuoteVersion.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -686,6 +715,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetReason()
   id: 'GetReason()'
   so.intellisense: NSQuoteVersion.GetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetReason()'
@@ -706,6 +736,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSQuoteVersion.GetRegistered
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -726,6 +757,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRegisteredAssociateId()
   id: 'GetRegisteredAssociateId()'
   so.intellisense: NSQuoteVersion.GetRegisteredAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRegisteredAssociateId()'
@@ -746,6 +778,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetSentDate()
   id: 'GetSentDate()'
   so.intellisense: NSQuoteVersion.GetSentDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSentDate()'
@@ -766,6 +799,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetState()
   id: 'GetState()'
   so.intellisense: NSQuoteVersion.GetState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetState()'
@@ -786,6 +820,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSQuoteVersion.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -806,6 +841,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSQuoteVersion.GetUpdated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -826,6 +862,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.GetUpdatedAssociateId()
   id: 'GetUpdatedAssociateId()'
   so.intellisense: NSQuoteVersion.GetUpdatedAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdatedAssociateId()'
@@ -846,6 +883,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedBy(Integer)
   id: 'SetApprovedBy(Integer)'
   so.intellisense: NSQuoteVersion.SetApprovedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetApprovedBy(Integer)'
@@ -868,6 +906,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredBy(Integer)
   id: 'SetApprovedRegisteredBy(Integer)'
   so.intellisense: NSQuoteVersion.SetApprovedRegisteredBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetApprovedRegisteredBy(Integer)'
@@ -890,6 +929,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
   id: 'SetApprovedRegisteredDate(DateTime)'
   so.intellisense: NSQuoteVersion.SetApprovedRegisteredDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetApprovedRegisteredDate(DateTime)'
@@ -912,6 +952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedText(String)
   id: 'SetApprovedText(String)'
   so.intellisense: NSQuoteVersion.SetApprovedText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetApprovedText(String)'
@@ -934,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetArchivedState(Integer)
   id: 'SetArchivedState(Integer)'
   so.intellisense: NSQuoteVersion.SetArchivedState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetArchivedState(Integer)'
@@ -956,6 +998,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetDeliveryCountryId(Integer)
   id: 'SetDeliveryCountryId(Integer)'
   so.intellisense: NSQuoteVersion.SetDeliveryCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeliveryCountryId(Integer)'
@@ -978,6 +1021,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSQuoteVersion.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -1000,6 +1044,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTermsKey(String)
   id: 'SetERPDeliveryTermsKey(String)'
   so.intellisense: NSQuoteVersion.SetERPDeliveryTermsKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDeliveryTermsKey(String)'
@@ -1022,6 +1067,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTypeKey(String)
   id: 'SetERPDeliveryTypeKey(String)'
   so.intellisense: NSQuoteVersion.SetERPDeliveryTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPDeliveryTypeKey(String)'
@@ -1044,6 +1090,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTermsKey(String)
   id: 'SetERPPaymentTermsKey(String)'
   so.intellisense: NSQuoteVersion.SetERPPaymentTermsKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPPaymentTermsKey(String)'
@@ -1066,6 +1113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTypeKey(String)
   id: 'SetERPPaymentTypeKey(String)'
   so.intellisense: NSQuoteVersion.SetERPPaymentTypeKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPPaymentTypeKey(String)'
@@ -1088,6 +1136,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPQuoteVersionKey(String)
   id: 'SetERPQuoteVersionKey(String)'
   so.intellisense: NSQuoteVersion.SetERPQuoteVersionKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPQuoteVersionKey(String)'
@@ -1110,6 +1159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExpirationDate(DateTime)
   id: 'SetExpirationDate(DateTime)'
   so.intellisense: NSQuoteVersion.SetExpirationDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExpirationDate(DateTime)'
@@ -1132,6 +1182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField1(String)
   id: 'SetExtraField1(String)'
   so.intellisense: NSQuoteVersion.SetExtraField1
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField1(String)'
@@ -1154,6 +1205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField2(String)
   id: 'SetExtraField2(String)'
   so.intellisense: NSQuoteVersion.SetExtraField2
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField2(String)'
@@ -1176,6 +1228,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField3(String)
   id: 'SetExtraField3(String)'
   so.intellisense: NSQuoteVersion.SetExtraField3
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField3(String)'
@@ -1198,6 +1251,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField4(String)
   id: 'SetExtraField4(String)'
   so.intellisense: NSQuoteVersion.SetExtraField4
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField4(String)'
@@ -1220,6 +1274,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField5(String)
   id: 'SetExtraField5(String)'
   so.intellisense: NSQuoteVersion.SetExtraField5
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetExtraField5(String)'
@@ -1242,6 +1297,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetFollowupId(Integer)
   id: 'SetFollowupId(Integer)'
   so.intellisense: NSQuoteVersion.SetFollowupId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFollowupId(Integer)'
@@ -1264,6 +1320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
   id: 'SetHasOwnDeliveryAddress(Bool)'
   so.intellisense: NSQuoteVersion.SetHasOwnDeliveryAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasOwnDeliveryAddress(Bool)'
@@ -1286,6 +1343,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
   id: 'SetHasOwnInvoiceAddress(Bool)'
   so.intellisense: NSQuoteVersion.SetHasOwnInvoiceAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasOwnInvoiceAddress(Bool)'
@@ -1308,6 +1366,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetInvoiceCountryId(Integer)
   id: 'SetInvoiceCountryId(Integer)'
   so.intellisense: NSQuoteVersion.SetInvoiceCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInvoiceCountryId(Integer)'
@@ -1330,6 +1389,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetLastRecalculated(DateTime)
   id: 'SetLastRecalculated(DateTime)'
   so.intellisense: NSQuoteVersion.SetLastRecalculated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLastRecalculated(DateTime)'
@@ -1352,6 +1412,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
   id: 'SetLikelyQuoteAlternativeId(Integer)'
   so.intellisense: NSQuoteVersion.SetLikelyQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLikelyQuoteAlternativeId(Integer)'
@@ -1374,6 +1435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetNumber(String)
   id: 'SetNumber(String)'
   so.intellisense: NSQuoteVersion.SetNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetNumber(String)'
@@ -1396,6 +1458,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
   id: 'SetQuoteAlternatives(NSQuoteAlternative[])'
   so.intellisense: NSQuoteVersion.SetQuoteAlternatives
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteAlternatives(NSQuoteAlternative[])'
@@ -1418,6 +1481,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteId(Integer)
   id: 'SetQuoteId(Integer)'
   so.intellisense: NSQuoteVersion.SetQuoteId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteId(Integer)'
@@ -1440,6 +1504,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteVersionId(Integer)
   id: 'SetQuoteVersionId(Integer)'
   so.intellisense: NSQuoteVersion.SetQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteVersionId(Integer)'
@@ -1462,6 +1527,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSQuoteVersion.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -1484,6 +1550,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSQuoteVersion.SetReason
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -1506,6 +1573,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSQuoteVersion.SetRegistered
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -1528,6 +1596,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRegisteredAssociateId(Integer)
   id: 'SetRegisteredAssociateId(Integer)'
   so.intellisense: NSQuoteVersion.SetRegisteredAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRegisteredAssociateId(Integer)'
@@ -1550,6 +1619,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetSentDate(DateTime)
   id: 'SetSentDate(DateTime)'
   so.intellisense: NSQuoteVersion.SetSentDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSentDate(DateTime)'
@@ -1572,6 +1642,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetState(Integer)
   id: 'SetState(Integer)'
   so.intellisense: NSQuoteVersion.SetState
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetState(Integer)'
@@ -1594,6 +1665,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetStatus(Integer)
   id: 'SetStatus(Integer)'
   so.intellisense: NSQuoteVersion.SetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStatus(Integer)'
@@ -1616,6 +1688,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSQuoteVersion.SetUpdated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -1638,6 +1711,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteVersion.SetUpdatedAssociateId(Integer)
   id: 'SetUpdatedAssociateId(Integer)'
   so.intellisense: NSQuoteVersion.SetUpdatedAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdatedAssociateId(Integer)'

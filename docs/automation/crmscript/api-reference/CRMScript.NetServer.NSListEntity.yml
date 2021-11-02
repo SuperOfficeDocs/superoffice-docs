@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSListEntity
   commentId: T:CRMScript.NetServer.NSListEntity
   id: NSListEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -52,6 +53,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSListEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetId()
   id: 'GetId()'
   so.intellisense: NSListEntity.GetId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetId()'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetInUseByUserDefinedFields()
   id: 'GetInUseByUserDefinedFields()'
   so.intellisense: NSListEntity.GetInUseByUserDefinedFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInUseByUserDefinedFields()'
@@ -112,6 +116,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetIsCustomList()
   id: 'GetIsCustomList()'
   so.intellisense: NSListEntity.GetIsCustomList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsCustomList()'
@@ -132,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetIsMDOList()
   id: 'GetIsMDOList()'
   so.intellisense: NSListEntity.GetIsMDOList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsMDOList()'
@@ -152,6 +158,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetListType()
   id: 'GetListType()'
   so.intellisense: NSListEntity.GetListType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetListType()'
@@ -172,6 +179,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSListEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -192,6 +200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSListEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSListEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.GetUseGroupsAndHeadings()
   id: 'GetUseGroupsAndHeadings()'
   so.intellisense: NSListEntity.GetUseGroupsAndHeadings
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUseGroupsAndHeadings()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSListEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSListEntity.SetId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetInUseByUserDefinedFields(Bool)
   id: 'SetInUseByUserDefinedFields(Bool)'
   so.intellisense: NSListEntity.SetInUseByUserDefinedFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInUseByUserDefinedFields(Bool)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetIsCustomList(Bool)
   id: 'SetIsCustomList(Bool)'
   so.intellisense: NSListEntity.SetIsCustomList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsCustomList(Bool)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetIsMDOList(Bool)
   id: 'SetIsMDOList(Bool)'
   so.intellisense: NSListEntity.SetIsMDOList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsMDOList(Bool)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetListType(String)
   id: 'SetListType(String)'
   so.intellisense: NSListEntity.SetListType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetListType(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSListEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSListEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSListEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListEntity.SetUseGroupsAndHeadings(Bool)
   id: 'SetUseGroupsAndHeadings(Bool)'
   so.intellisense: NSListEntity.SetUseGroupsAndHeadings
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUseGroupsAndHeadings(Bool)'

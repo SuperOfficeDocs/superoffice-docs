@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChatPresence
   commentId: T:CRMScript.NetServer.NSChatPresence
   id: NSChatPresence
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.GetChatTopics()
   id: 'GetChatTopics()'
   so.intellisense: NSChatPresence.GetChatTopics
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChatTopics()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSChatPresence.GetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.GetOngoingChats()
   id: 'GetOngoingChats()'
   so.intellisense: NSChatPresence.GetOngoingChats
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetOngoingChats()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.GetPresent()
   id: 'GetPresent()'
   so.intellisense: NSChatPresence.GetPresent
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPresent()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.GetUserId()
   id: 'GetUserId()'
   so.intellisense: NSChatPresence.GetUserId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUserId()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.SetChatTopics(Integer[])
   id: 'SetChatTopics(Integer[])'
   so.intellisense: NSChatPresence.SetChatTopics
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetChatTopics(Integer[])'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSChatPresence.SetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.SetOngoingChats(Integer)
   id: 'SetOngoingChats(Integer)'
   so.intellisense: NSChatPresence.SetOngoingChats
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetOngoingChats(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.SetPresent(Bool)
   id: 'SetPresent(Bool)'
   so.intellisense: NSChatPresence.SetPresent
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPresent(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatPresence.SetUserId(Integer)
   id: 'SetUserId(Integer)'
   so.intellisense: NSChatPresence.SetUserId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUserId(Integer)'

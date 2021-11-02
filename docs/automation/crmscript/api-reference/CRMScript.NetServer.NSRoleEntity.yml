@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRoleEntity
   commentId: T:CRMScript.NetServer.NSRoleEntity
   id: NSRoleEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -56,6 +57,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetCreated()
   id: 'GetCreated()'
   so.intellisense: NSRoleEntity.GetCreated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCreated()'
@@ -76,6 +78,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSRoleEntity.GetCreatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -96,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetDataRights()
   id: 'GetDataRights()'
   so.intellisense: NSRoleEntity.GetDataRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDataRights()'
@@ -116,6 +120,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSRoleEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -136,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSRoleEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -156,6 +162,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSRoleEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -176,6 +183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetRoleId()
   id: 'GetRoleId()'
   so.intellisense: NSRoleEntity.GetRoleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleId()'
@@ -196,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetRoleType()
   id: 'GetRoleType()'
   so.intellisense: NSRoleEntity.GetRoleType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleType()'
@@ -216,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSRoleEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -236,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSRoleEntity.GetUpdated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -256,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSRoleEntity.GetUpdatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -276,6 +288,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.GetUseCategories()
   id: 'GetUseCategories()'
   so.intellisense: NSRoleEntity.GetUseCategories
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUseCategories()'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetCreated(DateTime)
   id: 'SetCreated(DateTime)'
   so.intellisense: NSRoleEntity.SetCreated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCreated(DateTime)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSRoleEntity.SetCreatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetDataRights(NSDataRights)
   id: 'SetDataRights(NSDataRights)'
   so.intellisense: NSRoleEntity.SetDataRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDataRights(NSDataRights)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetDeleted(Integer)
   id: 'SetDeleted(Integer)'
   so.intellisense: NSRoleEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSRoleEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSRoleEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetRoleId(Integer)
   id: 'SetRoleId(Integer)'
   so.intellisense: NSRoleEntity.SetRoleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleId(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetRoleType(Integer)
   id: 'SetRoleType(Integer)'
   so.intellisense: NSRoleEntity.SetRoleType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleType(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSRoleEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSRoleEntity.SetUpdated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSRoleEntity.SetUpdatedBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRoleEntity.SetUseCategories(Integer)
   id: 'SetUseCategories(Integer)'
   so.intellisense: NSRoleEntity.SetUseCategories
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUseCategories(Integer)'

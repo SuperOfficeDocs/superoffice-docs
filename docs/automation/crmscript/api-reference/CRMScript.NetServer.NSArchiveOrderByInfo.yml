@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveOrderByInfo
   commentId: T:CRMScript.NetServer.NSArchiveOrderByInfo
   id: NSArchiveOrderByInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.GetDirection()
   id: 'GetDirection()'
   so.intellisense: NSArchiveOrderByInfo.GetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDirection()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSArchiveOrderByInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.SetDirection(Integer)
   id: 'SetDirection(Integer)'
   so.intellisense: NSArchiveOrderByInfo.SetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDirection(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSArchiveOrderByInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'

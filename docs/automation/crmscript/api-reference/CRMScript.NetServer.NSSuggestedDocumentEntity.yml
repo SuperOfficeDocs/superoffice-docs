@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSuggestedDocumentEntity
   commentId: T:CRMScript.NetServer.NSSuggestedDocumentEntity
   id: NSSuggestedDocumentEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSSuggestedDocumentEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDocTmpl()
   id: 'GetDocTmpl()'
   so.intellisense: NSSuggestedDocumentEntity.GetDocTmpl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocTmpl()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDoctmplId()
   id: 'GetDoctmplId()'
   so.intellisense: NSSuggestedDocumentEntity.GetDoctmplId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDoctmplId()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetHeader()
   id: 'GetHeader()'
   so.intellisense: NSSuggestedDocumentEntity.GetHeader
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHeader()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSSuggestedDocumentEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetOurRef()
   id: 'GetOurRef()'
   so.intellisense: NSSuggestedDocumentEntity.GetOurRef
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOurRef()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
   id: 'GetProjectTypeStatusLink()'
   so.intellisense: NSSuggestedDocumentEntity.GetProjectTypeStatusLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectTypeStatusLink()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSuggestedDocumentEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetSaleTypeStageLink()
   id: 'GetSaleTypeStageLink()'
   so.intellisense: NSSuggestedDocumentEntity.GetSaleTypeStageLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeStageLink()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetSuggestedDocumentId()
   id: 'GetSuggestedDocumentId()'
   so.intellisense: NSSuggestedDocumentEntity.GetSuggestedDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedDocumentId()'
@@ -254,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSSuggestedDocumentEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSSuggestedDocumentEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
   id: 'SetDocTmpl(NSDocumentTemplate)'
   so.intellisense: NSSuggestedDocumentEntity.SetDocTmpl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocTmpl(NSDocumentTemplate)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDoctmplId(Integer)
   id: 'SetDoctmplId(Integer)'
   so.intellisense: NSSuggestedDocumentEntity.SetDoctmplId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDoctmplId(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetHeader(String)
   id: 'SetHeader(String)'
   so.intellisense: NSSuggestedDocumentEntity.SetHeader
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHeader(String)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSSuggestedDocumentEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetOurRef(String)
   id: 'SetOurRef(String)'
   so.intellisense: NSSuggestedDocumentEntity.SetOurRef
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOurRef(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
   id: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
   so.intellisense: NSSuggestedDocumentEntity.SetProjectTypeStatusLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSuggestedDocumentEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
   id: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
   so.intellisense: NSSuggestedDocumentEntity.SetSaleTypeStageLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
   id: 'SetSuggestedDocumentId(Integer)'
   so.intellisense: NSSuggestedDocumentEntity.SetSuggestedDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSuggestedDocumentId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSSuggestedDocumentEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

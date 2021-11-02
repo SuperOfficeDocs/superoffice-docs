@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSIncomingMessage
   commentId: T:CRMScript.NetServer.NSIncomingMessage
   id: NSIncomingMessage
+  so.version: 7.1.1
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetContent()
   id: 'GetContent()'
   so.intellisense: NSIncomingMessage.GetContent
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetContent()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetFormat()
   id: 'GetFormat()'
   so.intellisense: NSIncomingMessage.GetFormat
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetFormat()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetFrom()
   id: 'GetFrom()'
   so.intellisense: NSIncomingMessage.GetFrom
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetFrom()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetPlugin()
   id: 'GetPlugin()'
   so.intellisense: NSIncomingMessage.GetPlugin
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetPlugin()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetSessionKey()
   id: 'GetSessionKey()'
   so.intellisense: NSIncomingMessage.GetSessionKey
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetSessionKey()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.GetTo()
   id: 'GetTo()'
   so.intellisense: NSIncomingMessage.GetTo
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'GetTo()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetContent(String)
   id: 'SetContent(String)'
   so.intellisense: NSIncomingMessage.SetContent
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetContent(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetFormat(String)
   id: 'SetFormat(String)'
   so.intellisense: NSIncomingMessage.SetFormat
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetFormat(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetFrom(String)
   id: 'SetFrom(String)'
   so.intellisense: NSIncomingMessage.SetFrom
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetFrom(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetPlugin(String)
   id: 'SetPlugin(String)'
   so.intellisense: NSIncomingMessage.SetPlugin
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetPlugin(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetSessionKey(String)
   id: 'SetSessionKey(String)'
   so.intellisense: NSIncomingMessage.SetSessionKey
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetSessionKey(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSIncomingMessage.SetTo(String)
   id: 'SetTo(String)'
   so.intellisense: NSIncomingMessage.SetTo
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'SetTo(String)'

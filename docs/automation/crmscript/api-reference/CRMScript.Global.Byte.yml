@@ -9,10 +9,10 @@ items:
     - CRMScript.Global.Byte.#ctor
     - CRMScript.Global.Byte.#ctor(Integer)
     - CRMScript.Global.Byte.toBool()
-    - CRMScript.Global.Byte.toString()
-    - CRMScript.Global.Byte.toInteger()
     - CRMScript.Global.Byte.toHex()
     - CRMScript.Global.Byte.toHex(Integer)
+    - CRMScript.Global.Byte.toInteger()
+    - CRMScript.Global.Byte.toString()
   name: Byte
   nameWithType: Byte
   fullName: CRMScript.Global.Byte
@@ -59,6 +59,7 @@ items:
   commentId: M:CRMScript.Global.Byte.toHex()
   id: toHex()
   so.intellisense: Byte.toHex
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Byte
@@ -78,6 +79,7 @@ items:
   commentId: M:CRMScript.Global.Byte.toHex(Integer)
   id: toHex(Integer)
   so.intellisense: Byte.toHex
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.Byte
@@ -100,6 +102,7 @@ items:
   commentId: M:CRMScript.Global.Byte.toString()
   id: toString()
   so.intellisense: Byte.toString
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Byte
@@ -117,6 +120,7 @@ items:
   commentId: M:CRMScript.Global.Byte.toInteger()
   id: toInteger()
   so.intellisense: Byte.toInteger
+  so.version: 7.1.1
   langs:
   - crmscript
   parent: CRMScript.Global.Byte
@@ -135,6 +139,7 @@ items:
   commentId: M:CRMScript.Global.Byte.toBool()
   id: toBool()
   so.intellisense: Byte.toBool
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Byte

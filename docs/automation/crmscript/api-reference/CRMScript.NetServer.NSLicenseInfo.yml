@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLicenseInfo
   commentId: T:CRMScript.NetServer.NSLicenseInfo
   id: NSLicenseInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -70,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetAdminWarningDate()
   id: 'GetAdminWarningDate()'
   so.intellisense: NSLicenseInfo.GetAdminWarningDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAdminWarningDate()'
@@ -90,6 +92,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetCompanyName()
   id: 'GetCompanyName()'
   so.intellisense: NSLicenseInfo.GetCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompanyName()'
@@ -110,6 +113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetDeploymentType()
   id: 'GetDeploymentType()'
   so.intellisense: NSLicenseInfo.GetDeploymentType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeploymentType()'
@@ -130,6 +134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExpiryDate()
   id: 'GetExpiryDate()'
   so.intellisense: NSLicenseInfo.GetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExpiryDate()'
@@ -150,6 +155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExtraFlags()
   id: 'GetExtraFlags()'
   so.intellisense: NSLicenseInfo.GetExtraFlags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFlags()'
@@ -170,6 +176,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSLicenseInfo.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -189,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetGraceDate()
   id: 'GetGraceDate()'
   so.intellisense: NSLicenseInfo.GetGraceDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGraceDate()'
@@ -209,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetLicenseUrl()
   id: 'GetLicenseUrl()'
   so.intellisense: NSLicenseInfo.GetLicenseUrl
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseUrl()'
@@ -229,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetLicenseVersion()
   id: 'GetLicenseVersion()'
   so.intellisense: NSLicenseInfo.GetLicenseVersion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseVersion()'
@@ -249,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetMaintenanceDate()
   id: 'GetMaintenanceDate()'
   so.intellisense: NSLicenseInfo.GetMaintenanceDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMaintenanceDate()'
@@ -269,6 +280,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetModuleLicenses()
   id: 'GetModuleLicenses()'
   so.intellisense: NSLicenseInfo.GetModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetModuleLicenses()'
@@ -289,6 +301,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetNextCheckDate()
   id: 'GetNextCheckDate()'
   so.intellisense: NSLicenseInfo.GetNextCheckDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNextCheckDate()'
@@ -309,6 +322,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetOwnerDescription()
   id: 'GetOwnerDescription()'
   so.intellisense: NSLicenseInfo.GetOwnerDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerDescription()'
@@ -329,6 +343,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetOwnerName()
   id: 'GetOwnerName()'
   so.intellisense: NSLicenseInfo.GetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerName()'
@@ -349,6 +364,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetProductDescription()
   id: 'GetProductDescription()'
   so.intellisense: NSLicenseInfo.GetProductDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProductDescription()'
@@ -369,6 +385,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetProductType()
   id: 'GetProductType()'
   so.intellisense: NSLicenseInfo.GetProductType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProductType()'
@@ -389,6 +406,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetPublicKey()
   id: 'GetPublicKey()'
   so.intellisense: NSLicenseInfo.GetPublicKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublicKey()'
@@ -409,6 +427,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetSerialNr()
   id: 'GetSerialNr()'
   so.intellisense: NSLicenseInfo.GetSerialNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSerialNr()'
@@ -429,6 +448,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.GetSignature()
   id: 'GetSignature()'
   so.intellisense: NSLicenseInfo.GetSignature
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSignature()'
@@ -449,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetAdminWarningDate(DateTime)
   id: 'SetAdminWarningDate(DateTime)'
   so.intellisense: NSLicenseInfo.SetAdminWarningDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAdminWarningDate(DateTime)'
@@ -471,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetCompanyName(String)
   id: 'SetCompanyName(String)'
   so.intellisense: NSLicenseInfo.SetCompanyName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompanyName(String)'
@@ -493,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetDeploymentType(Integer)
   id: 'SetDeploymentType(Integer)'
   so.intellisense: NSLicenseInfo.SetDeploymentType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeploymentType(Integer)'
@@ -515,6 +538,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExpiryDate(DateTime)
   id: 'SetExpiryDate(DateTime)'
   so.intellisense: NSLicenseInfo.SetExpiryDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExpiryDate(DateTime)'
@@ -537,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExtraFlags(Integer)
   id: 'SetExtraFlags(Integer)'
   so.intellisense: NSLicenseInfo.SetExtraFlags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFlags(Integer)'
@@ -559,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSLicenseInfo.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -580,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetGraceDate(DateTime)
   id: 'SetGraceDate(DateTime)'
   so.intellisense: NSLicenseInfo.SetGraceDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetGraceDate(DateTime)'
@@ -602,6 +629,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetLicenseUrl(String)
   id: 'SetLicenseUrl(String)'
   so.intellisense: NSLicenseInfo.SetLicenseUrl
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseUrl(String)'
@@ -624,6 +652,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetLicenseVersion(String)
   id: 'SetLicenseVersion(String)'
   so.intellisense: NSLicenseInfo.SetLicenseVersion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseVersion(String)'
@@ -646,6 +675,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetMaintenanceDate(DateTime)
   id: 'SetMaintenanceDate(DateTime)'
   so.intellisense: NSLicenseInfo.SetMaintenanceDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetMaintenanceDate(DateTime)'
@@ -668,6 +698,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
   id: 'SetModuleLicenses(NSModuleLicense[])'
   so.intellisense: NSLicenseInfo.SetModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetModuleLicenses(NSModuleLicense[])'
@@ -690,6 +721,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetNextCheckDate(DateTime)
   id: 'SetNextCheckDate(DateTime)'
   so.intellisense: NSLicenseInfo.SetNextCheckDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNextCheckDate(DateTime)'
@@ -712,6 +744,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetOwnerDescription(String)
   id: 'SetOwnerDescription(String)'
   so.intellisense: NSLicenseInfo.SetOwnerDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerDescription(String)'
@@ -734,6 +767,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetOwnerName(String)
   id: 'SetOwnerName(String)'
   so.intellisense: NSLicenseInfo.SetOwnerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerName(String)'
@@ -756,6 +790,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetProductDescription(String)
   id: 'SetProductDescription(String)'
   so.intellisense: NSLicenseInfo.SetProductDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProductDescription(String)'
@@ -778,6 +813,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetProductType(String)
   id: 'SetProductType(String)'
   so.intellisense: NSLicenseInfo.SetProductType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProductType(String)'
@@ -800,6 +836,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
   id: 'SetPublicKey(NSSignedPublicKey)'
   so.intellisense: NSLicenseInfo.SetPublicKey
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublicKey(NSSignedPublicKey)'
@@ -822,6 +859,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetSerialNr(String)
   id: 'SetSerialNr(String)'
   so.intellisense: NSLicenseInfo.SetSerialNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSerialNr(String)'
@@ -844,6 +882,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseInfo.SetSignature(String)
   id: 'SetSignature(String)'
   so.intellisense: NSLicenseInfo.SetSignature
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSignature(String)'

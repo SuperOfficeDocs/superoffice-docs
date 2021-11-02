@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSEntityName
   commentId: T:CRMScript.NetServer.NSEntityName
   id: NSEntityName
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityName.GetTableDescription()
   id: 'GetTableDescription()'
   so.intellisense: NSEntityName.GetTableDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTableDescription()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityName.GetTableName()
   id: 'GetTableName()'
   so.intellisense: NSEntityName.GetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTableName()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityName.SetTableDescription(String)
   id: 'SetTableDescription(String)'
   so.intellisense: NSEntityName.SetTableDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTableDescription(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEntityName.SetTableName(String)
   id: 'SetTableName(String)'
   so.intellisense: NSEntityName.SetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTableName(String)'

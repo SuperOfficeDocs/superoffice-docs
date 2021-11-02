@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFavouriteAgent
   commentId: T:CRMScript.NetServer.NSFavouriteAgent
   id: NSFavouriteAgent
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.AddFavourite(String,Integer,Integer,String)
   id: 'AddFavourite(String,Integer,Integer,String)'
   so.intellisense: NSFavouriteAgent.AddFavourite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'AddFavourite(String,Integer,Integer,String)'
@@ -72,6 +74,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.AddFavourites(String,Integer[],Integer,String)
   id: 'AddFavourites(String,Integer[],Integer,String)'
   so.intellisense: NSFavouriteAgent.AddFavourites
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'AddFavourites(String,Integer[],Integer,String)'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.GetFavourites(String,Integer)
   id: 'GetFavourites(String,Integer)'
   so.intellisense: NSFavouriteAgent.GetFavourites
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetFavourites(String,Integer)'
@@ -126,6 +130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.IsFavourite(String,Integer,Integer)
   id: 'IsFavourite(String,Integer,Integer)'
   so.intellisense: NSFavouriteAgent.IsFavourite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'IsFavourite(String,Integer,Integer)'
@@ -154,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.RemoveAllFavourites(String,Integer)
   id: 'RemoveAllFavourites(String,Integer)'
   so.intellisense: NSFavouriteAgent.RemoveAllFavourites
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'RemoveAllFavourites(String,Integer)'
@@ -178,6 +184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.RemoveFavourite(String,Integer,Integer)
   id: 'RemoveFavourite(String,Integer,Integer)'
   so.intellisense: NSFavouriteAgent.RemoveFavourite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'RemoveFavourite(String,Integer,Integer)'
@@ -205,6 +212,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.RemoveFavouritesById(Integer[])
   id: 'RemoveFavouritesById(Integer[])'
   so.intellisense: NSFavouriteAgent.RemoveFavouritesById
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'RemoveFavouritesById(Integer[])'
@@ -226,6 +234,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFavouriteAgent.ToggleFavourite(String,Integer,Integer,String)
   id: 'ToggleFavourite(String,Integer,Integer,String)'
   so.intellisense: NSFavouriteAgent.ToggleFavourite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'ToggleFavourite(String,Integer,Integer,String)'

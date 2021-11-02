@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFreeText
   commentId: T:CRMScript.NetServer.NSFreeText
   id: NSFreeText
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetAutoEnableTravelAreas()
   id: 'GetAutoEnableTravelAreas()'
   so.intellisense: NSFreeText.GetAutoEnableTravelAreas
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAutoEnableTravelAreas()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetCountWords()
   id: 'GetCountWords()'
   so.intellisense: NSFreeText.GetCountWords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCountWords()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetFreeTextEnabled()
   id: 'GetFreeTextEnabled()'
   so.intellisense: NSFreeText.GetFreeTextEnabled
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFreeTextEnabled()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetLastGenerated()
   id: 'GetLastGenerated()'
   so.intellisense: NSFreeText.GetLastGenerated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLastGenerated()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetMultiWordOperator()
   id: 'GetMultiWordOperator()'
   so.intellisense: NSFreeText.GetMultiWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMultiWordOperator()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetOccurrences()
   id: 'GetOccurrences()'
   so.intellisense: NSFreeText.GetOccurrences
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOccurrences()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.GetSingleWordOperator()
   id: 'GetSingleWordOperator()'
   so.intellisense: NSFreeText.GetSingleWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSingleWordOperator()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetAutoEnableTravelAreas(Bool)
   id: 'SetAutoEnableTravelAreas(Bool)'
   so.intellisense: NSFreeText.SetAutoEnableTravelAreas
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAutoEnableTravelAreas(Bool)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetCountWords(Integer)
   id: 'SetCountWords(Integer)'
   so.intellisense: NSFreeText.SetCountWords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCountWords(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetFreeTextEnabled(Bool)
   id: 'SetFreeTextEnabled(Bool)'
   so.intellisense: NSFreeText.SetFreeTextEnabled
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFreeTextEnabled(Bool)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetLastGenerated(DateTime)
   id: 'SetLastGenerated(DateTime)'
   so.intellisense: NSFreeText.SetLastGenerated
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLastGenerated(DateTime)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetMultiWordOperator(Integer)
   id: 'SetMultiWordOperator(Integer)'
   so.intellisense: NSFreeText.SetMultiWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMultiWordOperator(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetOccurrences(Integer)
   id: 'SetOccurrences(Integer)'
   so.intellisense: NSFreeText.SetOccurrences
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOccurrences(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeText.SetSingleWordOperator(Integer)
   id: 'SetSingleWordOperator(Integer)'
   so.intellisense: NSFreeText.SetSingleWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSingleWordOperator(Integer)'

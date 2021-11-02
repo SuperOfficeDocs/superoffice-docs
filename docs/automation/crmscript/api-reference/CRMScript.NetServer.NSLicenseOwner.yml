@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLicenseOwner
   commentId: T:CRMScript.NetServer.NSLicenseOwner
   id: NSLicenseOwner
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSLicenseOwner.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.GetName()
   id: 'GetName()'
   so.intellisense: NSLicenseOwner.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.GetRestrictedModuleLicenses()
   id: 'GetRestrictedModuleLicenses()'
   so.intellisense: NSLicenseOwner.GetRestrictedModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRestrictedModuleLicenses()'
@@ -99,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.GetUnrestrictedModuleLicenses()
   id: 'GetUnrestrictedModuleLicenses()'
   so.intellisense: NSLicenseOwner.GetUnrestrictedModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUnrestrictedModuleLicenses()'
@@ -119,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSLicenseOwner.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -141,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSLicenseOwner.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -163,6 +170,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
   id: 'SetRestrictedModuleLicenses(NSModuleLicenseLink[])'
   so.intellisense: NSLicenseOwner.SetRestrictedModuleLicenses
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRestrictedModuleLicenses(NSModuleLicenseLink[])'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSHistoryRequest
   commentId: T:CRMScript.NetServer.NSHistoryRequest
   id: NSHistoryRequest
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.GetEntityName()
   id: 'GetEntityName()'
   so.intellisense: NSHistoryRequest.GetEntityName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEntityName()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.GetEntityOrParentId()
   id: 'GetEntityOrParentId()'
   so.intellisense: NSHistoryRequest.GetEntityOrParentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEntityOrParentId()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.GetRequestForNewRecord()
   id: 'GetRequestForNewRecord()'
   so.intellisense: NSHistoryRequest.GetRequestForNewRecord
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRequestForNewRecord()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.SetEntityName(String)
   id: 'SetEntityName(String)'
   so.intellisense: NSHistoryRequest.SetEntityName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEntityName(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.SetEntityOrParentId(Integer)
   id: 'SetEntityOrParentId(Integer)'
   so.intellisense: NSHistoryRequest.SetEntityOrParentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEntityOrParentId(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHistoryRequest.SetRequestForNewRecord(Bool)
   id: 'SetRequestForNewRecord(Bool)'
   so.intellisense: NSHistoryRequest.SetRequestForNewRecord
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRequestForNewRecord(Bool)'

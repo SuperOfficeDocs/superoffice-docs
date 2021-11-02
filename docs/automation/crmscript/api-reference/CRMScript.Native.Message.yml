@@ -53,6 +53,7 @@ items:
   commentId: M:CRMScript.Native.Message.addHeader(String,String)
   id: 'addHeader(String,String)'
   so.intellisense: Message.addHeader
+  so.version: 3.1.1b
   langs:
   - crmscript
   name: 'addHeader(String,String)'
@@ -77,6 +78,7 @@ items:
   commentId: M:CRMScript.Native.Message.convertInlineImages()
   id: 'convertInlineImages()'
   so.intellisense: Message.convertInlineImages
+  so.version: 4.4.0
   langs:
   - crmscript
   name: 'convertInlineImages()'
@@ -95,6 +97,7 @@ items:
   commentId: M:CRMScript.Native.Message.getAttachments()
   id: 'getAttachments()'
   so.intellisense: Message.getAttachments
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'getAttachments()'
@@ -199,6 +202,7 @@ items:
   commentId: M:CRMScript.Native.Message.save(String,Bool)
   id: 'save(String,Bool)'
   so.intellisense: Message.save
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'save(String.Bool)'
@@ -224,6 +228,7 @@ items:
   commentId: M:CRMScript.Native.Message.saveInvolved(String)
   id: 'saveInvolved(String)'
   so.intellisense: Message.saveInvolved
+  so.version: 3.1.1
   langs:
   - crmscript
   name: 'saveInvolved(String)'
@@ -245,6 +250,7 @@ items:
   commentId: M:CRMScript.Native.Message.saveInvolved(Vector)
   id: 'saveInvolved(Vector)'
   so.intellisense: Message.saveInvolved
+  so.version: 3.1.1
   langs:
   - crmscript
   name: 'saveInvolved(Vector)'
@@ -266,6 +272,7 @@ items:
   commentId: M:CRMScript.Native.Message.send(Vector,Vector,Vector)
   id: 'send(Vector,Vector,Vector)'
   so.intellisense: Message.send
+  so.version: 3.0.10
   langs:
   - crmscript
   name: 'send(Vector,Vector,Vector)'
@@ -294,6 +301,7 @@ items:
   commentId: M:CRMScript.Native.Message.send(Vector,Vector,Vector,Integer
   id: 'send(Vector,Vector,Vector,Integer)'
   so.intellisense: Message.send
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'send(Vector,Vector,Vector,Integer)'
@@ -325,6 +333,7 @@ items:
   commentId: M:CRMScript.Native.Message.send(Vector,Vector,Vector,String)
   id: 'send(Vector,Vector,Vector,String)'
   so.intellisense: Message.send
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'send(Vector,Vector,Vector,String)'
@@ -356,6 +365,7 @@ items:
   commentId: M:CRMScript.Native.Message.send(Vector,Vector,Vector,String,String)
   id: 'send(Vector,Vector,Vector,String,String)'
   so.intellisense: Message.send
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'send(Vector,Vector,Vector,String,String)'
@@ -390,6 +400,7 @@ items:
   commentId: M:CRMScript.Native.Message.sendFacebook()
   id: 'sendFacebook()'
   so.intellisense: Message.sendFacebook
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'sendFacebook()'
@@ -408,6 +419,7 @@ items:
   commentId: M:CRMScript.Native.Message.sendSms(Vector)
   id: 'sendSms(Vector)'
   so.intellisense: Message.sendSms
+  so.version: 3.1.1b
   langs:
   - crmscript
   name: 'sendSms(Vector)'
@@ -430,6 +442,7 @@ items:
   commentId: M:CRMScript.Native.Message.setAttachments(Vector)
   id: 'setAttachments(Vector)'
   so.intellisense: Message.setAttachments
+  so.version: 3.1.1b
   langs:
   - crmscript
   name: 'setAttachments(Vector)'
@@ -475,6 +488,7 @@ items:
   commentId: M:CRMScript.Native.Message.toParser(Parser)
   id: 'toParser(Parser)'
   so.intellisense: Message.toParser
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'toParser(Parser)'

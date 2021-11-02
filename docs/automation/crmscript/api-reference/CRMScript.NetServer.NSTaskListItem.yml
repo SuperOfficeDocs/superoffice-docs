@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTaskListItem
   commentId: T:CRMScript.NetServer.NSTaskListItem
   id: NSTaskListItem
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetColorIndex()
   id: 'GetColorIndex()'
   so.intellisense: NSTaskListItem.GetColorIndex
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetColorIndex()'
@@ -98,6 +100,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSTaskListItem.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -118,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetDirection()
   id: 'GetDirection()'
   so.intellisense: NSTaskListItem.GetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDirection()'
@@ -138,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetIntentId()
   id: 'GetIntentId()'
   so.intellisense: NSTaskListItem.GetIntentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIntentId()'
@@ -158,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultAlldayEvent()
   id: 'GetIsDefaultAlldayEvent()'
   so.intellisense: NSTaskListItem.GetIsDefaultAlldayEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsDefaultAlldayEvent()'
@@ -178,6 +184,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultFree()
   id: 'GetIsDefaultFree()'
   so.intellisense: NSTaskListItem.GetIsDefaultFree
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsDefaultFree()'
@@ -198,6 +205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultPublished()
   id: 'GetIsDefaultPublished()'
   so.intellisense: NSTaskListItem.GetIsDefaultPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsDefaultPublished()'
@@ -218,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetRank()
   id: 'GetRank()'
   so.intellisense: NSTaskListItem.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -238,6 +247,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetTaskListItemId()
   id: 'GetTaskListItemId()'
   so.intellisense: NSTaskListItem.GetTaskListItemId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTaskListItemId()'
@@ -258,6 +268,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSTaskListItem.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -278,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetType()
   id: 'GetType()'
   so.intellisense: NSTaskListItem.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -298,6 +310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.GetValue()
   id: 'GetValue()'
   so.intellisense: NSTaskListItem.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -318,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetColorIndex(Integer)
   id: 'SetColorIndex(Integer)'
   so.intellisense: NSTaskListItem.SetColorIndex
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetColorIndex(Integer)'
@@ -362,6 +376,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSTaskListItem.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -384,6 +399,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetDirection(Integer)
   id: 'SetDirection(Integer)'
   so.intellisense: NSTaskListItem.SetDirection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDirection(Integer)'
@@ -406,6 +422,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetIntentId(Integer)
   id: 'SetIntentId(Integer)'
   so.intellisense: NSTaskListItem.SetIntentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIntentId(Integer)'
@@ -428,6 +445,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
   id: 'SetIsDefaultAlldayEvent(Bool)'
   so.intellisense: NSTaskListItem.SetIsDefaultAlldayEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsDefaultAlldayEvent(Bool)'
@@ -450,6 +468,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultFree(Bool)
   id: 'SetIsDefaultFree(Bool)'
   so.intellisense: NSTaskListItem.SetIsDefaultFree
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsDefaultFree(Bool)'
@@ -472,6 +491,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultPublished(Bool)
   id: 'SetIsDefaultPublished(Bool)'
   so.intellisense: NSTaskListItem.SetIsDefaultPublished
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsDefaultPublished(Bool)'
@@ -494,6 +514,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSTaskListItem.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -516,6 +537,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetTaskListItemId(Integer)
   id: 'SetTaskListItemId(Integer)'
   so.intellisense: NSTaskListItem.SetTaskListItemId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTaskListItemId(Integer)'
@@ -538,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSTaskListItem.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -560,6 +583,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSTaskListItem.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -580,6 +604,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTaskListItem.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSTaskListItem.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

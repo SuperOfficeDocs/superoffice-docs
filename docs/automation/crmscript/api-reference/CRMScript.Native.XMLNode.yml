@@ -3,23 +3,24 @@ items:
 - uid: CRMScript.Native.XMLNode
   commentId: T:CRMScript.Native.XMLNode
   id: XMLNode
+  so.version: 4.0.0
   langs:
   - crmscript
   children:
-    - CRMScript.Native.XMLNode.#ctor(XMLNode)
-    - CRMScript.Native.XMLNode.#ctor(String)
-    - CRMScript.Native.XMLNode.toString(Integer)
-    - CRMScript.Native.XMLNode.toJSON(Integer)
-    - CRMScript.Native.XMLNode.addChild(XMLNode)
-    - CRMScript.Native.XMLNode.getChildren()
-    - CRMScript.Native.XMLNode.setChildren(XMLNode[])
-    - CRMScript.Native.XMLNode.getName()
-    - CRMScript.Native.XMLNode.setName(String)
-    - CRMScript.Native.XMLNode.getParameter(String)
-    - CRMScript.Native.XMLNode.setParameter(String, String)
-    - CRMScript.Native.XMLNode.getText()
-    - CRMScript.Native.XMLNode.setText(String)
-    - CRMScript.Native.XMLNode.getValueFromPath(String)
+  - CRMScript.Native.XMLNode.#ctor(String)
+  - CRMScript.Native.XMLNode.#ctor(XMLNode)
+  - CRMScript.Native.XMLNode.addChild(XMLNode)
+  - CRMScript.Native.XMLNode.getChildren()
+  - CRMScript.Native.XMLNode.getName()
+  - CRMScript.Native.XMLNode.getParameter(String)
+  - CRMScript.Native.XMLNode.getText()
+  - CRMScript.Native.XMLNode.getValueFromPath(String)
+  - CRMScript.Native.XMLNode.setChildren(XMLNode[])
+  - CRMScript.Native.XMLNode.setName(String)
+  - CRMScript.Native.XMLNode.setParameter(String, String)
+  - CRMScript.Native.XMLNode.setText(String)
+  - CRMScript.Native.XMLNode.toJSON(Integer)
+  - CRMScript.Native.XMLNode.toString(Integer)
   name: XMLNode
   nameWithType: XMLNode
   fullName: CRMScript.Native.XMLNode
@@ -69,6 +70,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.toString(Integer)
   id: toString(Integer)
   so.intellisense: XMLNode.toString
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -89,6 +91,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.toJSON(Integer)
   id: toJSON(Integer)
   so.intellisense: XMLNode.toJSON
+  so.version: 4.8.1
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -113,6 +116,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.addChild(XMLNode)
   id: addChild(XMLNode)
   so.intellisense: XMLNode.addChild
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -135,6 +139,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.getChildren()
   id: getChildren()
   so.intellisense: XMLNode.getChildren
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -153,6 +158,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.setChildren(XMLNode[])
   id: setChildren(XMLNode[])
   so.intellisense: XMLNode.setChildren
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -175,6 +181,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.getName()
   id: getName()
   so.intellisense: XMLNode.getName
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -195,6 +202,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.setName(String)
   id: setName(String)
   so.intellisense: XMLNode.setName
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -217,6 +225,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.getParameter(String)
   id: getParameter(String)
   so.intellisense: XMLNode.getParameter
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -239,6 +248,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.setParameter(String, String)
   id: setParameter(String, String)
   so.intellisense: XMLNode.setParameter
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -264,6 +274,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.getText()
   id: getText()
   so.intellisense: XMLNode.getText
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -283,6 +294,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.setText(String)
   id: setText(String)
   so.intellisense: XMLNode.setText
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode
@@ -305,6 +317,7 @@ items:
   commentId: M:CRMScript.Native.XMLNode.getValueFromPath(String)
   id: getValueFromPath(String)
   so.intellisense: XMLNode.getValueFromPath
+  so.version: 8.2
   langs:
   - crmscript
   parent: CRMScript.Native.XMLNode

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLink
   commentId: T:CRMScript.NetServer.NSLink
   id: NSLink
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSLink.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.GetEntityName()
   id: 'GetEntityName()'
   so.intellisense: NSLink.GetEntityName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEntityName()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSLink.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.GetId()
   id: 'GetId()'
   so.intellisense: NSLink.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.GetLinkId()
   id: 'GetLinkId()'
   so.intellisense: NSLink.GetLinkId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinkId()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSLink.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.SetEntityName(String)
   id: 'SetEntityName(String)'
   so.intellisense: NSLink.SetEntityName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEntityName(String)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSLink.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSLink.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLink.SetLinkId(Integer)
   id: 'SetLinkId(Integer)'
   so.intellisense: NSLink.SetLinkId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinkId(Integer)'

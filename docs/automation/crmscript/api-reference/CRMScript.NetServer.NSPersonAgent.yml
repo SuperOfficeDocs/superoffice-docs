@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPersonAgent
   commentId: T:CRMScript.NetServer.NSPersonAgent
   id: NSPersonAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -84,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.AddBounce(String)
   id: 'AddBounce(String)'
   so.intellisense: NSPersonAgent.AddBounce
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'AddBounce(String)'
@@ -129,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.AddEmailAddressToPerson(Integer,String,Bool)
   id: 'AddEmailAddressToPerson(Integer,String,Bool)'
   so.intellisense: NSPersonAgent.AddEmailAddressToPerson
+  so.version: 8.2
   langs:
   - crmscript
   name: 'AddEmailAddressToPerson(Integer,String,Bool)'
@@ -156,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.ChangeCountry(NSPersonEntity,Integer)
   id: 'ChangeCountry(NSPersonEntity,Integer)'
   so.intellisense: NSPersonAgent.ChangeCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangeCountry(NSPersonEntity,Integer)'
@@ -181,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.ChangePersonRank(Integer,Bool)
   id: 'ChangePersonRank(Integer,Bool)'
   so.intellisense: NSPersonAgent.ChangePersonRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ChangePersonRank(Integer,Bool)'
@@ -207,6 +212,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.CheckTemporaryKey(String)
   id: 'CheckTemporaryKey(String)'
   so.intellisense: NSPersonAgent.CheckTemporaryKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CheckTemporaryKey(String)'
@@ -229,6 +235,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.CreateDefaultByContactId(Integer)
   id: 'CreateDefaultByContactId(Integer)'
   so.intellisense: NSPersonAgent.CreateDefaultByContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultByContactId(Integer)'
@@ -250,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.CreateDefaultConsentPerson()
   id: 'CreateDefaultConsentPerson()'
   so.intellisense: NSPersonAgent.CreateDefaultConsentPerson
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultConsentPerson()'
@@ -270,6 +278,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.CreateDefaultFromCredential(Integer,String,String,String)
   id: 'CreateDefaultFromCredential(Integer,String,String,String)'
   so.intellisense: NSPersonAgent.CreateDefaultFromCredential
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultFromCredential(Integer,String,String,String)'
@@ -300,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.CreateDefaultPersonEntity()
   id: 'CreateDefaultPersonEntity()'
   so.intellisense: NSPersonAgent.CreateDefaultPersonEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultPersonEntity()'
@@ -352,6 +362,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.DeleteConsentPerson(Integer)
   id: 'DeleteConsentPerson(Integer)'
   so.intellisense: NSPersonAgent.DeleteConsentPerson
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteConsentPerson(Integer)'
@@ -374,6 +385,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.DeleteExpired()
   id: 'DeleteExpired()'
   so.intellisense: NSPersonAgent.DeleteExpired
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteExpired()'
@@ -392,6 +404,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.DeletePersonEntity(Integer)
   id: 'DeletePersonEntity(Integer)'
   so.intellisense: NSPersonAgent.DeletePersonEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeletePersonEntity(Integer)'
@@ -438,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetAddress(Integer)
   id: 'GetAddress(Integer)'
   so.intellisense: NSPersonAgent.GetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddress(Integer)'
@@ -461,6 +475,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetAddressByCountry(Integer,Integer)
   id: 'GetAddressByCountry(Integer,Integer)'
   so.intellisense: NSPersonAgent.GetAddressByCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddressByCountry(Integer,Integer)'
@@ -513,6 +528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetColleagues()
   id: 'GetColleagues()'
   so.intellisense: NSPersonAgent.GetColleagues
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColleagues()'
@@ -533,6 +549,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetColleaguesByDepartment(Integer)
   id: 'GetColleaguesByDepartment(Integer)'
   so.intellisense: NSPersonAgent.GetColleaguesByDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColleaguesByDepartment(Integer)'
@@ -556,6 +573,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetColleaguesBySource(Integer,Integer)
   id: 'GetColleaguesBySource(Integer,Integer)'
   so.intellisense: NSPersonAgent.GetColleaguesBySource
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetColleaguesBySource(Integer,Integer)'
@@ -582,6 +600,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetConsentInfos(Integer)
   id: 'GetConsentInfos(Integer)'
   so.intellisense: NSPersonAgent.GetConsentInfos
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentInfos(Integer)'
@@ -604,6 +623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetConsentPerson(Integer)
   id: 'GetConsentPerson(Integer)'
   so.intellisense: NSPersonAgent.GetConsentPerson
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetConsentPerson(Integer)'
@@ -626,6 +646,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetMyOwner()
   id: 'GetMyOwner()'
   so.intellisense: NSPersonAgent.GetMyOwner
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyOwner()'
@@ -645,6 +666,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetMyPerson()
   id: 'GetMyPerson()'
   so.intellisense: NSPersonAgent.GetMyPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyPerson()'
@@ -664,6 +686,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetOwnerOnPersonId(Integer)
   id: 'GetOwnerOnPersonId(Integer)'
   so.intellisense: NSPersonAgent.GetOwnerOnPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerOnPersonId(Integer)'
@@ -686,6 +709,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPerson(Integer)
   id: 'GetPerson(Integer)'
   so.intellisense: NSPersonAgent.GetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPerson(Integer)'
@@ -708,6 +732,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonEntity(Integer)
   id: 'GetPersonEntity(Integer)'
   so.intellisense: NSPersonAgent.GetPersonEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonEntity(Integer)'
@@ -730,6 +755,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonImage(Integer)
   id: 'GetPersonImage(Integer)'
   so.intellisense: NSPersonAgent.GetPersonImage
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonImage(Integer)'
@@ -752,6 +778,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonList(Integer[])
   id: 'GetPersonList(Integer[])'
   so.intellisense: NSPersonAgent.GetPersonList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonList(Integer[])'
@@ -774,6 +801,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonsFromContact(Integer)
   id: 'GetPersonsFromContact(Integer)'
   so.intellisense: NSPersonAgent.GetPersonsFromContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonsFromContact(Integer)'
@@ -796,6 +824,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonsFromProject(Integer)
   id: 'GetPersonsFromProject(Integer)'
   so.intellisense: NSPersonAgent.GetPersonsFromProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonsFromProject(Integer)'
@@ -818,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPersonSummary(Integer,Integer)
   id: 'GetPersonSummary(Integer,Integer)'
   so.intellisense: NSPersonAgent.GetPersonSummary
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPersonSummary(Integer,Integer)'
@@ -843,6 +873,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetPhones(Integer)
   id: 'GetPhones(Integer)'
   so.intellisense: NSPersonAgent.GetPhones
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPhones(Integer)'
@@ -865,6 +896,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.GetSalesRep(String,String,String,String,String)
   id: 'GetSalesRep(String,String,String,String,String)'
   so.intellisense: NSPersonAgent.GetSalesRep
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSalesRep(String,String,String,String,String)'
@@ -899,6 +931,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.HasConsent(Integer,String)
   id: 'HasConsent(Integer,String)'
   so.intellisense: NSPersonAgent.HasConsent
+  so.version: 8.2
   langs:
   - crmscript
   name: 'HasConsent(Integer,String)'
@@ -925,6 +958,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.IsNumberValid(Integer,String)
   id: 'IsNumberValid(Integer,String)'
   so.intellisense: NSPersonAgent.IsNumberValid
+  so.version: 7.0
   langs:
   - crmscript
   name: 'IsNumberValid(Integer,String)'
@@ -951,6 +985,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.Merge(Integer,Integer,DateTime,Bool,Bool)
   id: 'Merge(Integer,Integer,DateTime,Bool,Bool)'
   so.intellisense: NSPersonAgent.Merge
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Merge(Integer,Integer,DateTime,Bool,Bool)'
@@ -984,6 +1019,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.Move(Integer,Integer,DateTime)
   id: 'Move(Integer,Integer,DateTime)'
   so.intellisense: NSPersonAgent.Move
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Move(Integer,Integer,DateTime)'
@@ -1011,6 +1047,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.NormalizeRanks(Integer)
   id: 'NormalizeRanks(Integer)'
   so.intellisense: NSPersonAgent.NormalizeRanks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'NormalizeRanks(Integer)'
@@ -1034,6 +1071,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.RemoveConsent(Integer,String)
   id: 'RemoveConsent(Integer,String)'
   so.intellisense: NSPersonAgent.RemoveConsent
+  so.version: 8.2
   langs:
   - crmscript
   name: 'RemoveConsent(Integer,String)'
@@ -1058,6 +1096,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.ResolvePersonFromInfo(Integer,String,String[],String[])
   id: 'ResolvePersonFromInfo(Integer,String,String[],String[])'
   so.intellisense: NSPersonAgent.ResolvePersonFromInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ResolvePersonFromInfo(Integer,String,String[],String[])'
@@ -1089,6 +1128,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.SaveConsentPerson(NSConsentPerson)
   id: 'SaveConsentPerson(NSConsentPerson)'
   so.intellisense: NSPersonAgent.SaveConsentPerson
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveConsentPerson(NSConsentPerson)'
@@ -1111,6 +1151,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.SavePersonEntity(NSPersonEntity)
   id: 'SavePersonEntity(NSPersonEntity)'
   so.intellisense: NSPersonAgent.SavePersonEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SavePersonEntity(NSPersonEntity)'
@@ -1133,6 +1174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.SendConsentConfirmationEmail(Integer,String,Integer,Integer,String)
   id: 'SendConsentConfirmationEmail(Integer,String,Integer,Integer,String)'
   so.intellisense: NSPersonAgent.SendConsentConfirmationEmail
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SendConsentConfirmationEmail(Integer,String,Integer,Integer,String)'
@@ -1166,6 +1208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.SetConsent(Integer,String,String,String,String)
   id: 'SetConsent(Integer,String,String,String,String)'
   so.intellisense: NSPersonAgent.SetConsent
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetConsent(Integer,String,String,String,String)'
@@ -1220,6 +1263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.SetPersonRank(Integer,Integer)
   id: 'SetPersonRank(Integer,Integer)'
   so.intellisense: NSPersonAgent.SetPersonRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonRank(Integer,Integer)'
@@ -1246,6 +1290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPersonAgent.Undelete(Integer)
   id: 'Undelete(Integer)'
   so.intellisense: NSPersonAgent.Undelete
+  so.version: 8.2
   langs:
   - crmscript
   name: 'Undelete(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWindowPosSize
   commentId: T:CRMScript.NetServer.NSWindowPosSize
   id: NSWindowPosSize
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSWindowPosSize.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetExtraId()
   id: 'GetExtraId()'
   so.intellisense: NSWindowPosSize.GetExtraId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraId()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetExtraInfo()
   id: 'GetExtraInfo()'
   so.intellisense: NSWindowPosSize.GetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraInfo()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetHeight()
   id: 'GetHeight()'
   so.intellisense: NSWindowPosSize.GetHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHeight()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetLeftX()
   id: 'GetLeftX()'
   so.intellisense: NSWindowPosSize.GetLeftX
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLeftX()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetOwnerWindow()
   id: 'GetOwnerWindow()'
   so.intellisense: NSWindowPosSize.GetOwnerWindow
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerWindow()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSWindowPosSize.GetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetState()
   id: 'GetState()'
   so.intellisense: NSWindowPosSize.GetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetState()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetUpperY()
   id: 'GetUpperY()'
   so.intellisense: NSWindowPosSize.GetUpperY
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpperY()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetWidth()
   id: 'GetWidth()'
   so.intellisense: NSWindowPosSize.GetWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWidth()'
@@ -254,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.GetWindowPosSizeId()
   id: 'GetWindowPosSizeId()'
   so.intellisense: NSWindowPosSize.GetWindowPosSizeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWindowPosSizeId()'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSWindowPosSize.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetExtraId(Integer)
   id: 'SetExtraId(Integer)'
   so.intellisense: NSWindowPosSize.SetExtraId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraId(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetExtraInfo(String)
   id: 'SetExtraInfo(String)'
   so.intellisense: NSWindowPosSize.SetExtraInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraInfo(String)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetHeight(Integer)
   id: 'SetHeight(Integer)'
   so.intellisense: NSWindowPosSize.SetHeight
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHeight(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetLeftX(Integer)
   id: 'SetLeftX(Integer)'
   so.intellisense: NSWindowPosSize.SetLeftX
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLeftX(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetOwnerWindow(String)
   id: 'SetOwnerWindow(String)'
   so.intellisense: NSWindowPosSize.SetOwnerWindow
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerWindow(String)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSWindowPosSize.SetPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetState(Integer)
   id: 'SetState(Integer)'
   so.intellisense: NSWindowPosSize.SetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetState(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetUpperY(Integer)
   id: 'SetUpperY(Integer)'
   so.intellisense: NSWindowPosSize.SetUpperY
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpperY(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetWidth(Integer)
   id: 'SetWidth(Integer)'
   so.intellisense: NSWindowPosSize.SetWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWidth(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWindowPosSize.SetWindowPosSizeId(Integer)
   id: 'SetWindowPosSizeId(Integer)'
   so.intellisense: NSWindowPosSize.SetWindowPosSizeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWindowPosSizeId(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveColumnData
   commentId: T:CRMScript.NetServer.NSArchiveColumnData
   id: NSArchiveColumnData
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetDisplayValue()
   id: 'GetDisplayValue()'
   so.intellisense: NSArchiveColumnData.GetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayValue()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetLinkHint()
   id: 'GetLinkHint()'
   so.intellisense: NSArchiveColumnData.GetLinkHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinkHint()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetTooltipHint()
   id: 'GetTooltipHint()'
   so.intellisense: NSArchiveColumnData.GetTooltipHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltipHint()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetDisplayValue(String)
   id: 'SetDisplayValue(String)'
   so.intellisense: NSArchiveColumnData.SetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayValue(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetLinkHint(String)
   id: 'SetLinkHint(String)'
   so.intellisense: NSArchiveColumnData.SetLinkHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinkHint(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetTooltipHint(String)
   id: 'SetTooltipHint(String)'
   so.intellisense: NSArchiveColumnData.SetTooltipHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltipHint(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSoSystemInfoCarrier
   commentId: T:CRMScript.NetServer.NSSoSystemInfoCarrier
   id: NSSoSystemInfoCarrier
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -72,6 +73,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
   id: 'GetAccumulatedNextCheckDate()'
   so.intellisense: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAccumulatedNextCheckDate()'
@@ -90,6 +92,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetAssemblyVersion()
   id: 'GetAssemblyVersion()'
   so.intellisense: NSSoSystemInfoCarrier.GetAssemblyVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssemblyVersion()'
@@ -108,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBranchName()
   id: 'GetBranchName()'
   so.intellisense: NSSoSystemInfoCarrier.GetBranchName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBranchName()'
@@ -126,6 +130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildLabel()
   id: 'GetBuildLabel()'
   so.intellisense: NSSoSystemInfoCarrier.GetBuildLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBuildLabel()'
@@ -144,6 +149,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildType()
   id: 'GetBuildType()'
   so.intellisense: NSSoSystemInfoCarrier.GetBuildType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBuildType()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyId()
   id: 'GetCompanyId()'
   so.intellisense: NSSoSystemInfoCarrier.GetCompanyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCompanyId()'
@@ -180,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyName()
   id: 'GetCompanyName()'
   so.intellisense: NSSoSystemInfoCarrier.GetCompanyName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCompanyName()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseMinor()
   id: 'GetDatabaseMinor()'
   so.intellisense: NSSoSystemInfoCarrier.GetDatabaseMinor
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDatabaseMinor()'
@@ -216,6 +225,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseName()
   id: 'GetDatabaseName()'
   so.intellisense: NSSoSystemInfoCarrier.GetDatabaseName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDatabaseName()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseType()
   id: 'GetDatabaseType()'
   so.intellisense: NSSoSystemInfoCarrier.GetDatabaseType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDatabaseType()'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseVersion()
   id: 'GetDatabaseVersion()'
   so.intellisense: NSSoSystemInfoCarrier.GetDatabaseVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDatabaseVersion()'
@@ -270,6 +282,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
   id: 'GetDaysUntilNetServerExpiry()'
   so.intellisense: NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDaysUntilNetServerExpiry()'
@@ -288,6 +301,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSSoSystemInfoCarrier.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -306,6 +320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetFileVersion()
   id: 'GetFileVersion()'
   so.intellisense: NSSoSystemInfoCarrier.GetFileVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFileVersion()'
@@ -324,6 +339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsOnTravel()
   id: 'GetIsOnTravel()'
   so.intellisense: NSSoSystemInfoCarrier.GetIsOnTravel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsOnTravel()'
@@ -342,6 +358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsSatellite()
   id: 'GetIsSatellite()'
   so.intellisense: NSSoSystemInfoCarrier.GetIsSatellite
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsSatellite()'
@@ -360,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsUnicode()
   id: 'GetIsUnicode()'
   so.intellisense: NSSoSystemInfoCarrier.GetIsUnicode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsUnicode()'
@@ -378,6 +396,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetLicense()
   id: 'GetLicense()'
   so.intellisense: NSSoSystemInfoCarrier.GetLicense
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLicense()'
@@ -396,6 +415,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningEnglish()
   id: 'GetWarningEnglish()'
   so.intellisense: NSSoSystemInfoCarrier.GetWarningEnglish
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWarningEnglish()'
@@ -414,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningResource()
   id: 'GetWarningResource()'
   so.intellisense: NSSoSystemInfoCarrier.GetWarningResource
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWarningResource()'
@@ -432,6 +453,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
   id: 'SetAccumulatedNextCheckDate(DateTime)'
   so.intellisense: NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAccumulatedNextCheckDate(DateTime)'
@@ -453,6 +475,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetAssemblyVersion(String)
   id: 'SetAssemblyVersion(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetAssemblyVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssemblyVersion(String)'
@@ -474,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBranchName(String)
   id: 'SetBranchName(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetBranchName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBranchName(String)'
@@ -495,6 +519,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildLabel(String)
   id: 'SetBuildLabel(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetBuildLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBuildLabel(String)'
@@ -516,6 +541,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildType(Integer)
   id: 'SetBuildType(Integer)'
   so.intellisense: NSSoSystemInfoCarrier.SetBuildType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBuildType(Integer)'
@@ -537,6 +563,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyId(Integer)
   id: 'SetCompanyId(Integer)'
   so.intellisense: NSSoSystemInfoCarrier.SetCompanyId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCompanyId(Integer)'
@@ -558,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyName(String)
   id: 'SetCompanyName(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetCompanyName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCompanyName(String)'
@@ -579,6 +607,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseMinor(String)
   id: 'SetDatabaseMinor(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetDatabaseMinor
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDatabaseMinor(String)'
@@ -600,6 +629,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseName(String)
   id: 'SetDatabaseName(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetDatabaseName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDatabaseName(String)'
@@ -621,6 +651,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseType(String)
   id: 'SetDatabaseType(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetDatabaseType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDatabaseType(String)'
@@ -642,6 +673,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
   id: 'SetDatabaseVersion(Integer)'
   so.intellisense: NSSoSystemInfoCarrier.SetDatabaseVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDatabaseVersion(Integer)'
@@ -663,6 +695,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
   id: 'SetDaysUntilNetServerExpiry(Integer)'
   so.intellisense: NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDaysUntilNetServerExpiry(Integer)'
@@ -684,6 +717,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -705,6 +739,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetFileVersion(String)
   id: 'SetFileVersion(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetFileVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFileVersion(String)'
@@ -726,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
   id: 'SetIsOnTravel(Bool)'
   so.intellisense: NSSoSystemInfoCarrier.SetIsOnTravel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsOnTravel(Bool)'
@@ -747,6 +783,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsSatellite(Bool)
   id: 'SetIsSatellite(Bool)'
   so.intellisense: NSSoSystemInfoCarrier.SetIsSatellite
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsSatellite(Bool)'
@@ -768,6 +805,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsUnicode(Bool)
   id: 'SetIsUnicode(Bool)'
   so.intellisense: NSSoSystemInfoCarrier.SetIsUnicode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsUnicode(Bool)'
@@ -789,6 +827,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
   id: 'SetLicense(NSLicenseInfo)'
   so.intellisense: NSSoSystemInfoCarrier.SetLicense
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLicense(NSLicenseInfo)'
@@ -810,6 +849,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningEnglish(String)
   id: 'SetWarningEnglish(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetWarningEnglish
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWarningEnglish(String)'
@@ -831,6 +871,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningResource(String)
   id: 'SetWarningResource(String)'
   so.intellisense: NSSoSystemInfoCarrier.SetWarningResource
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWarningResource(String)'

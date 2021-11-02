@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMarketingAgent
   commentId: T:CRMScript.NetServer.NSMarketingAgent
   id: NSMarketingAgent
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.CreateDefaultFormEntity()
   id: 'CreateDefaultFormEntity()'
   so.intellisense: NSMarketingAgent.CreateDefaultFormEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultFormEntity()'
@@ -73,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.CreateDefaultFormSubmissionEntity()
   id: 'CreateDefaultFormSubmissionEntity()'
   so.intellisense: NSMarketingAgent.CreateDefaultFormSubmissionEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'CreateDefaultFormSubmissionEntity()'
@@ -130,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.DeleteFormEntity(Integer)
   id: 'DeleteFormEntity(Integer)'
   so.intellisense: NSMarketingAgent.DeleteFormEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteFormEntity(Integer)'
@@ -152,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.DeleteFormSubmissionEntity(Integer)
   id: 'DeleteFormSubmissionEntity(Integer)'
   so.intellisense: NSMarketingAgent.DeleteFormSubmissionEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteFormSubmissionEntity(Integer)'
@@ -218,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.GetFormEntity(Integer)
   id: 'GetFormEntity(Integer)'
   so.intellisense: NSMarketingAgent.GetFormEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormEntity(Integer)'
@@ -240,6 +246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.GetFormSubmissionEntity(Integer)
   id: 'GetFormSubmissionEntity(Integer)'
   so.intellisense: NSMarketingAgent.GetFormSubmissionEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetFormSubmissionEntity(Integer)'
@@ -372,6 +379,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.SaveFormEntity(NSFormEntity)
   id: 'SaveFormEntity(NSFormEntity)'
   so.intellisense: NSMarketingAgent.SaveFormEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveFormEntity(NSFormEntity)'
@@ -394,6 +402,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.SaveFormSubmissionEntity(NSFormSubmissionEntity)
   id: 'SaveFormSubmissionEntity(NSFormSubmissionEntity)'
   so.intellisense: NSMarketingAgent.SaveFormSubmissionEntity
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SaveFormSubmissionEntity(NSFormSubmissionEntity)'
@@ -460,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMarketingAgent.VerifyGoogleRecaptcha(String,String)
   id: 'VerifyGoogleRecaptcha(String,String)'
   so.intellisense: NSMarketingAgent.VerifyGoogleRecaptcha
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'VerifyGoogleRecaptcha(String,String)'

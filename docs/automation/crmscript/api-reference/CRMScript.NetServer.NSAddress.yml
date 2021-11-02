@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAddress
   commentId: T:CRMScript.NetServer.NSAddress
   id: NSAddress
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.GetLocalizedAddress()
   id: 'GetLocalizedAddress()'
   so.intellisense: NSAddress.GetLocalizedAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLocalizedAddress()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.GetWgs84Latitude()
   id: 'GetWgs84Latitude()'
   so.intellisense: NSAddress.GetWgs84Latitude
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWgs84Latitude()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.GetWgs84Longitude()
   id: 'GetWgs84Longitude()'
   so.intellisense: NSAddress.GetWgs84Longitude
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWgs84Longitude()'
@@ -95,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.SetLocalizedAddress(NSLocalizedField[][])
   id: 'SetLocalizedAddress(NSLocalizedField[][])'
   so.intellisense: NSAddress.SetLocalizedAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLocalizedAddress(NSLocalizedField[][])'
@@ -116,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.SetWgs84Latitude(Float)
   id: 'SetWgs84Latitude(Float)'
   so.intellisense: NSAddress.SetWgs84Latitude
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWgs84Latitude(Float)'
@@ -137,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAddress.SetWgs84Longitude(Float)
   id: 'SetWgs84Longitude(Float)'
   so.intellisense: NSAddress.SetWgs84Longitude
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWgs84Longitude(Float)'

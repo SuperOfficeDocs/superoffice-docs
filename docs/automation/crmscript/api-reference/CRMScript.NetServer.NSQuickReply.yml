@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuickReply
   commentId: T:CRMScript.NetServer.NSQuickReply
   id: NSQuickReply
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.GetHtmlBody()
   id: 'GetHtmlBody()'
   so.intellisense: NSQuickReply.GetHtmlBody
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetHtmlBody()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.GetName()
   id: 'GetName()'
   so.intellisense: NSQuickReply.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.GetQuickReplyId()
   id: 'GetQuickReplyId()'
   so.intellisense: NSQuickReply.GetQuickReplyId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetQuickReplyId()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.SetHtmlBody(String)
   id: 'SetHtmlBody(String)'
   so.intellisense: NSQuickReply.SetHtmlBody
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetHtmlBody(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSQuickReply.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuickReply.SetQuickReplyId(Integer)
   id: 'SetQuickReplyId(Integer)'
   so.intellisense: NSQuickReply.SetQuickReplyId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetQuickReplyId(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWebhook
   commentId: T:CRMScript.NetServer.NSWebhook
   id: NSWebhook
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetEvents()
   id: 'GetEvents()'
   so.intellisense: NSWebhook.GetEvents
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetEvents()'
@@ -78,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetHeaders()
   id: 'GetHeaders()'
   so.intellisense: NSWebhook.GetHeaders
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetHeaders()'
@@ -98,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetName()
   id: 'GetName()'
   so.intellisense: NSWebhook.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -118,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetProperties()
   id: 'GetProperties()'
   so.intellisense: NSWebhook.GetProperties
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetProperties()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSWebhook.GetRegistered
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetRegisteredAssociate()
   id: 'GetRegisteredAssociate()'
   so.intellisense: NSWebhook.GetRegisteredAssociate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRegisteredAssociate()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetSecret()
   id: 'GetSecret()'
   so.intellisense: NSWebhook.GetSecret
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSecret()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetState()
   id: 'GetState()'
   so.intellisense: NSWebhook.GetState
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetState()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetTargetUrl()
   id: 'GetTargetUrl()'
   so.intellisense: NSWebhook.GetTargetUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTargetUrl()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetType()
   id: 'GetType()'
   so.intellisense: NSWebhook.GetType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetType()'
@@ -258,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetUpdated()
   id: 'GetUpdated()'
   so.intellisense: NSWebhook.GetUpdated
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdated()'
@@ -278,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
   id: 'GetUpdatedAssociate()'
   so.intellisense: NSWebhook.GetUpdatedAssociate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetUpdatedAssociate()'
@@ -298,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetWebhookId()
   id: 'GetWebhookId()'
   so.intellisense: NSWebhook.GetWebhookId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetWebhookId()'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetEvents(String[])
   id: 'SetEvents(String[])'
   so.intellisense: NSWebhook.SetEvents
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetEvents(String[])'
@@ -362,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSWebhook.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -406,6 +422,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSWebhook.SetRegistered
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -428,6 +445,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
   id: 'SetRegisteredAssociate(NSAssociate)'
   so.intellisense: NSWebhook.SetRegisteredAssociate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRegisteredAssociate(NSAssociate)'
@@ -450,6 +468,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetSecret(String)
   id: 'SetSecret(String)'
   so.intellisense: NSWebhook.SetSecret
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetSecret(String)'
@@ -494,6 +513,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetTargetUrl(String)
   id: 'SetTargetUrl(String)'
   so.intellisense: NSWebhook.SetTargetUrl
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTargetUrl(String)'
@@ -516,6 +536,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetType(String)
   id: 'SetType(String)'
   so.intellisense: NSWebhook.SetType
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetType(String)'
@@ -538,6 +559,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetUpdated(DateTime)
   id: 'SetUpdated(DateTime)'
   so.intellisense: NSWebhook.SetUpdated
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdated(DateTime)'
@@ -560,6 +582,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetUpdatedAssociate(NSAssociate)
   id: 'SetUpdatedAssociate(NSAssociate)'
   so.intellisense: NSWebhook.SetUpdatedAssociate
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetUpdatedAssociate(NSAssociate)'
@@ -582,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetWebhookId(Integer)
   id: 'SetWebhookId(Integer)'
   so.intellisense: NSWebhook.SetWebhookId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetWebhookId(Integer)'

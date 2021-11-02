@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.DbConverter
   commentId: T:CRMScript.Native.DbConverter
   id: DbConverter
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.eof()
   id: 'eof()'
   so.intellisense: DbConverter.eof
+  so.version: 7.0
   langs:
   - crmscript
   name: 'eof()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.getRow()
   id: 'getRow()'
   so.intellisense: DbConverter.getRow
+  so.version: 7.0
   langs:
   - crmscript
   name: 'getRow()'
@@ -77,6 +80,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.next()
   id: 'next()'
   so.intellisense: DbConverter.next
+  so.version: 7.0
   langs:
   - crmscript
   name: 'next()'
@@ -96,6 +100,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.readBatch(String,Integer,Integer,Integer,Integer)
   id: 'readBatch(String,Integer,Integer,Integer,Integer)'
   so.intellisense: DbConverter.readBatch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'readBatch(String,Integer,Integer,Integer,Integer)'
@@ -129,6 +134,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.setSourceConnection(String,String,String,String,String)
   id: 'setSourceConnection(String,String,String,String,String)'
   so.intellisense: DbConverter.setSourceConnection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'setSourceConnection(String,String,String,String,String)'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.update(String,Map,Map)
   id: 'update(String,Map,Map)'
   so.intellisense: DbConverter.update
+  so.version: 7.0
   langs:
   - crmscript
   name: 'update(String,Map,Map)'
@@ -189,6 +196,7 @@ items:
   commentId: M:CRMScript.Native.DbConverter.rite(String,Map)
   id: 'rite(String,Map)'
   so.intellisense: DbConverter.write
+  so.version: 7.0
   langs:
   - crmscript
   name: 'rite(String,Map)'

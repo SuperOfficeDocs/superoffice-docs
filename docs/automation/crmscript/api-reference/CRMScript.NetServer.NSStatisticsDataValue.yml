@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSStatisticsDataValue
   commentId: T:CRMScript.NetServer.NSStatisticsDataValue
   id: NSStatisticsDataValue
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSStatisticsDataValue.GetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetLabel()
   id: 'GetLabel()'
   so.intellisense: NSStatisticsDataValue.GetLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLabel()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetValue()
   id: 'GetValue()'
   so.intellisense: NSStatisticsDataValue.GetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSStatisticsDataValue.SetDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetLabel(String)
   id: 'SetLabel(String)'
   so.intellisense: NSStatisticsDataValue.SetLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLabel(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetValue(Float)
   id: 'SetValue(Float)'
   so.intellisense: NSStatisticsDataValue.SetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValue(Float)'

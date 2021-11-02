@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSVisibleFor
   commentId: T:CRMScript.NetServer.NSVisibleFor
   id: NSVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.GetDisplayValue()
   id: 'GetDisplayValue()'
   so.intellisense: NSVisibleFor.GetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayValue()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.GetVisibility()
   id: 'GetVisibility()'
   so.intellisense: NSVisibleFor.GetVisibility
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVisibility()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.GetVisibleId()
   id: 'GetVisibleId()'
   so.intellisense: NSVisibleFor.GetVisibleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleId()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.SetDisplayValue(String)
   id: 'SetDisplayValue(String)'
   so.intellisense: NSVisibleFor.SetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayValue(String)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.SetVisibility(Integer)
   id: 'SetVisibility(Integer)'
   so.intellisense: NSVisibleFor.SetVisibility
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVisibility(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSVisibleFor.SetVisibleId(Integer)
   id: 'SetVisibleId(Integer)'
   so.intellisense: NSVisibleFor.SetVisibleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVisibleId(Integer)'

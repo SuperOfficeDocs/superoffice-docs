@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRedLetterSummary
   commentId: T:CRMScript.NetServer.NSRedLetterSummary
   id: NSRedLetterSummary
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterSummary.GetIsOtherCountryHoliday()
   id: 'GetIsOtherCountryHoliday()'
   so.intellisense: NSRedLetterSummary.GetIsOtherCountryHoliday
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsOtherCountryHoliday()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterSummary.GetIsOwnCountryHoliday()
   id: 'GetIsOwnCountryHoliday()'
   so.intellisense: NSRedLetterSummary.GetIsOwnCountryHoliday
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsOwnCountryHoliday()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
   id: 'SetIsOtherCountryHoliday(Bool)'
   so.intellisense: NSRedLetterSummary.SetIsOtherCountryHoliday
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsOtherCountryHoliday(Bool)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
   id: 'SetIsOwnCountryHoliday(Bool)'
   so.intellisense: NSRedLetterSummary.SetIsOwnCountryHoliday
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsOwnCountryHoliday(Bool)'

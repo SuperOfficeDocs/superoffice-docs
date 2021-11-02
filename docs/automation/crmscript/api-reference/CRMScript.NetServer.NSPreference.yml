@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreference
   commentId: T:CRMScript.NetServer.NSPreference
   id: NSPreference
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetDisplayTooltip()
   id: 'GetDisplayTooltip()'
   so.intellisense: NSPreference.GetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayTooltip()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetDisplayType()
   id: 'GetDisplayType()'
   so.intellisense: NSPreference.GetDisplayType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayType()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetDisplayValue()
   id: 'GetDisplayValue()'
   so.intellisense: NSPreference.GetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayValue()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetLevel()
   id: 'GetLevel()'
   so.intellisense: NSPreference.GetLevel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLevel()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetPrefDescId()
   id: 'GetPrefDescId()'
   so.intellisense: NSPreference.GetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPrefDescId()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetRawValue()
   id: 'GetRawValue()'
   so.intellisense: NSPreference.GetRawValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRawValue()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetSpecification()
   id: 'GetSpecification()'
   so.intellisense: NSPreference.GetSpecification
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSpecification()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetTableName()
   id: 'GetTableName()'
   so.intellisense: NSPreference.GetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTableName()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetTabOrder()
   id: 'GetTabOrder()'
   so.intellisense: NSPreference.GetTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTabOrder()'
@@ -233,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetTargetId()
   id: 'GetTargetId()'
   so.intellisense: NSPreference.GetTargetId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTargetId()'
@@ -253,6 +264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.GetUserPreferenceId()
   id: 'GetUserPreferenceId()'
   so.intellisense: NSPreference.GetUserPreferenceId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserPreferenceId()'
@@ -273,6 +285,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetDisplayTooltip(String)
   id: 'SetDisplayTooltip(String)'
   so.intellisense: NSPreference.SetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayTooltip(String)'
@@ -295,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetDisplayType(Integer)
   id: 'SetDisplayType(Integer)'
   so.intellisense: NSPreference.SetDisplayType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayType(Integer)'
@@ -317,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetDisplayValue(String)
   id: 'SetDisplayValue(String)'
   so.intellisense: NSPreference.SetDisplayValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayValue(String)'
@@ -339,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetLevel(Integer)
   id: 'SetLevel(Integer)'
   so.intellisense: NSPreference.SetLevel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLevel(Integer)'
@@ -361,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetPrefDescId(Integer)
   id: 'SetPrefDescId(Integer)'
   so.intellisense: NSPreference.SetPrefDescId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPrefDescId(Integer)'
@@ -383,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetRawValue(String)
   id: 'SetRawValue(String)'
   so.intellisense: NSPreference.SetRawValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRawValue(String)'
@@ -405,6 +423,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetSpecification(NSPreferenceSpec)
   id: 'SetSpecification(NSPreferenceSpec)'
   so.intellisense: NSPreference.SetSpecification
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSpecification(NSPreferenceSpec)'
@@ -427,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetTableName(String)
   id: 'SetTableName(String)'
   so.intellisense: NSPreference.SetTableName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTableName(String)'
@@ -449,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetTabOrder(NSTabOrder)
   id: 'SetTabOrder(NSTabOrder)'
   so.intellisense: NSPreference.SetTabOrder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTabOrder(NSTabOrder)'
@@ -471,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetTargetId(Integer)
   id: 'SetTargetId(Integer)'
   so.intellisense: NSPreference.SetTargetId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTargetId(Integer)'
@@ -493,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreference.SetUserPreferenceId(Integer)
   id: 'SetUserPreferenceId(Integer)'
   so.intellisense: NSPreference.SetUserPreferenceId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserPreferenceId(Integer)'

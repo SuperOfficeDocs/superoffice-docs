@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSContact
   commentId: T:CRMScript.NetServer.NSContact
   id: NSContact|
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -76,6 +77,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetActiveErpLinks()
   id: 'GetActiveErpLinks()'
   so.intellisense: NSContact.GetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveErpLinks()'
@@ -96,6 +98,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetAddress()
   id: 'GetAddress()'
   so.intellisense: NSContact.GetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAddress()'
@@ -116,6 +119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetAssociateFullName()
   id: 'GetAssociateFullName()'
   so.intellisense: NSContact.GetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateFullName()'
@@ -136,6 +140,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSContact.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetBusinessName()
   id: 'GetBusinessName()'
   so.intellisense: NSContact.GetBusinessName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBusinessName()'
@@ -176,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetCategoryName()
   id: 'GetCategoryName()'
   so.intellisense: NSContact.GetCategoryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCategoryName()'
@@ -196,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetCity()
   id: 'GetCity()'
   so.intellisense: NSContact.GetCity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCity()'
@@ -216,6 +224,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSContact.GetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -236,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetCountryId()
   id: 'GetCountryId()'
   so.intellisense: NSContact.GetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountryId()'
@@ -256,6 +266,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetCountryName()
   id: 'GetCountryName()'
   so.intellisense: NSContact.GetCountryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountryName()'
@@ -276,6 +287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetDepartment()
   id: 'GetDepartment()'
   so.intellisense: NSContact.GetDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDepartment()'
@@ -296,6 +308,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetDirectPhone()
   id: 'GetDirectPhone()'
   so.intellisense: NSContact.GetDirectPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDirectPhone()'
@@ -316,6 +329,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetEmailAddress()
   id: 'GetEmailAddress()'
   so.intellisense: NSContact.GetEmailAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailAddress()'
@@ -336,6 +350,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetEmailAddressName()
   id: 'GetEmailAddressName()'
   so.intellisense: NSContact.GetEmailAddressName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEmailAddressName()'
@@ -356,6 +371,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetFormattedAddress()
   id: 'GetFormattedAddress()'
   so.intellisense: NSContact.GetFormattedAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFormattedAddress()'
@@ -376,6 +392,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSContact.GetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -396,6 +413,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetIsOwnerContact()
   id: 'GetIsOwnerContact()'
   so.intellisense: NSContact.GetIsOwnerContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsOwnerContact()'
@@ -416,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetKananame()
   id: 'GetKananame()'
   so.intellisense: NSContact.GetKananame
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetKananame()'
@@ -436,6 +455,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetName()
   id: 'GetName()'
   so.intellisense: NSContact.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -456,6 +476,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetOrgNr()
   id: 'GetOrgNr()'
   so.intellisense: NSContact.GetOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOrgNr()'
@@ -476,6 +497,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetURL()
   id: 'GetURL()'
   so.intellisense: NSContact.GetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetURL()'
@@ -496,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.GetURLName()
   id: 'GetURLName()'
   so.intellisense: NSContact.GetURLName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetURLName()'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetActiveErpLinks(Integer)
   id: 'SetActiveErpLinks(Integer)'
   so.intellisense: NSContact.SetActiveErpLinks
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveErpLinks(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetAddress(NSAddress)
   id: 'SetAddress(NSAddress)'
   so.intellisense: NSContact.SetAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAddress(NSAddress)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetAssociateFullName(String)
   id: 'SetAssociateFullName(String)'
   so.intellisense: NSContact.SetAssociateFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateFullName(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSContact.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetBusinessName(String)
   id: 'SetBusinessName(String)'
   so.intellisense: NSContact.SetBusinessName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetBusinessName(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetCategoryName(String)
   id: 'SetCategoryName(String)'
   so.intellisense: NSContact.SetCategoryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCategoryName(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetCity(String)
   id: 'SetCity(String)'
   so.intellisense: NSContact.SetCity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCity(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSContact.SetContactId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetCountryId(Integer)
   id: 'SetCountryId(Integer)'
   so.intellisense: NSContact.SetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountryId(Integer)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetCountryName(String)
   id: 'SetCountryName(String)'
   so.intellisense: NSContact.SetCountryName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountryName(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetDepartment(String)
   id: 'SetDepartment(String)'
   so.intellisense: NSContact.SetDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDepartment(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetDirectPhone(String)
   id: 'SetDirectPhone(String)'
   so.intellisense: NSContact.SetDirectPhone
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDirectPhone(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetEmailAddress(String)
   id: 'SetEmailAddress(String)'
   so.intellisense: NSContact.SetEmailAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailAddress(String)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetEmailAddressName(String)
   id: 'SetEmailAddressName(String)'
   so.intellisense: NSContact.SetEmailAddressName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEmailAddressName(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetFormattedAddress(String)
   id: 'SetFormattedAddress(String)'
   so.intellisense: NSContact.SetFormattedAddress
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFormattedAddress(String)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSContact.SetFullName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetIsOwnerContact(Bool)
   id: 'SetIsOwnerContact(Bool)'
   so.intellisense: NSContact.SetIsOwnerContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsOwnerContact(Bool)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetKananame(String)
   id: 'SetKananame(String)'
   so.intellisense: NSContact.SetKananame
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetKananame(String)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSContact.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetOrgNr(String)
   id: 'SetOrgNr(String)'
   so.intellisense: NSContact.SetOrgNr
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOrgNr(String)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetURL(String)
   id: 'SetURL(String)'
   so.intellisense: NSContact.SetURL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetURL(String)'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSContact.SetURLName(String)
   id: 'SetURLName(String)'
   so.intellisense: NSContact.SetURLName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetURLName(String)'

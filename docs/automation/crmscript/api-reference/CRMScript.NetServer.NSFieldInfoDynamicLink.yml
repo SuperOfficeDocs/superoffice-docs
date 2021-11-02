@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoDynamicLink
   commentId: T:CRMScript.NetServer.NSFieldInfoDynamicLink
   id: NSFieldInfoDynamicLink
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDynamicLink.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoDynamicLink.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -97,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDynamicLink.SetDefaultValue(Integer)
   id: 'SetDefaultValue(Integer)'
   so.intellisense: NSFieldInfoDynamicLink.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Integer)'

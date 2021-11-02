@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketPriorityEntity
   commentId: T:CRMScript.NetServer.NSTicketPriorityEntity
   id: NSTicketPriorityEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -86,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetChangedOwner()
   id: 'GetChangedOwner()'
   so.intellisense: NSTicketPriorityEntity.GetChangedOwner
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChangedOwner()'
@@ -106,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetDeadline()
   id: 'GetDeadline()'
   so.intellisense: NSTicketPriorityEntity.GetDeadline
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDeadline()'
@@ -126,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFlags()
   id: 'GetFlags()'
   so.intellisense: NSTicketPriorityEntity.GetFlags
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFlags()'
@@ -146,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFriStart()
   id: 'GetFriStart()'
   so.intellisense: NSTicketPriorityEntity.GetFriStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFriStart()'
@@ -166,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFriStop()
   id: 'GetFriStop()'
   so.intellisense: NSTicketPriorityEntity.GetFriStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFriStop()'
@@ -186,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetMonStart()
   id: 'GetMonStart()'
   so.intellisense: NSTicketPriorityEntity.GetMonStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMonStart()'
@@ -206,6 +213,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetMonStop()
   id: 'GetMonStop()'
   so.intellisense: NSTicketPriorityEntity.GetMonStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMonStop()'
@@ -226,6 +234,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSTicketPriorityEntity.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -246,6 +255,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetNonDates()
   id: 'GetNonDates()'
   so.intellisense: NSTicketPriorityEntity.GetNonDates
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNonDates()'
@@ -266,6 +276,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSatStart()
   id: 'GetSatStart()'
   so.intellisense: NSTicketPriorityEntity.GetSatStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSatStart()'
@@ -286,6 +297,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSatStop()
   id: 'GetSatStop()'
   so.intellisense: NSTicketPriorityEntity.GetSatStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSatStop()'
@@ -306,6 +318,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSortOrder()
   id: 'GetSortOrder()'
   so.intellisense: NSTicketPriorityEntity.GetSortOrder
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSortOrder()'
@@ -326,6 +339,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSTicketPriorityEntity.GetStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -346,6 +360,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSunStart()
   id: 'GetSunStart()'
   so.intellisense: NSTicketPriorityEntity.GetSunStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSunStart()'
@@ -366,6 +381,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSunStop()
   id: 'GetSunStop()'
   so.intellisense: NSTicketPriorityEntity.GetSunStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSunStop()'
@@ -386,6 +402,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetThuStart()
   id: 'GetThuStart()'
   so.intellisense: NSTicketPriorityEntity.GetThuStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetThuStart()'
@@ -406,6 +423,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetThuStop()
   id: 'GetThuStop()'
   so.intellisense: NSTicketPriorityEntity.GetThuStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetThuStop()'
@@ -426,6 +444,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketChangedPriority()
   id: 'GetTicketChangedPriority()'
   so.intellisense: NSTicketPriorityEntity.GetTicketChangedPriority
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketChangedPriority()'
@@ -446,6 +465,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketClosed()
   id: 'GetTicketClosed()'
   so.intellisense: NSTicketPriorityEntity.GetTicketClosed
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketClosed()'
@@ -466,6 +486,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNew()
   id: 'GetTicketNew()'
   so.intellisense: NSTicketPriorityEntity.GetTicketNew
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketNew()'
@@ -486,6 +507,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNewinfo()
   id: 'GetTicketNewinfo()'
   so.intellisense: NSTicketPriorityEntity.GetTicketNewinfo
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketNewinfo()'
@@ -506,6 +528,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketPriorityId()
   id: 'GetTicketPriorityId()'
   so.intellisense: NSTicketPriorityEntity.GetTicketPriorityId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketPriorityId()'
@@ -526,6 +549,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketRead()
   id: 'GetTicketRead()'
   so.intellisense: NSTicketPriorityEntity.GetTicketRead
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketRead()'
@@ -546,6 +570,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTueStart()
   id: 'GetTueStart()'
   so.intellisense: NSTicketPriorityEntity.GetTueStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTueStart()'
@@ -566,6 +591,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTueStop()
   id: 'GetTueStop()'
   so.intellisense: NSTicketPriorityEntity.GetTueStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTueStop()'
@@ -586,6 +612,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetWedStart()
   id: 'GetWedStart()'
   so.intellisense: NSTicketPriorityEntity.GetWedStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetWedStart()'
@@ -606,6 +633,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetWedStop()
   id: 'GetWedStop()'
   so.intellisense: NSTicketPriorityEntity.GetWedStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetWedStop()'
@@ -648,6 +676,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetDeadline(Integer)
   id: 'SetDeadline(Integer)'
   so.intellisense: NSTicketPriorityEntity.SetDeadline
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDeadline(Integer)'
@@ -692,6 +721,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetFriStart(DateTime)
   id: 'SetFriStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetFriStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFriStart(DateTime)'
@@ -714,6 +744,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetFriStop(DateTime)
   id: 'SetFriStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetFriStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFriStop(DateTime)'
@@ -736,6 +767,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetMonStart(DateTime)
   id: 'SetMonStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetMonStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMonStart(DateTime)'
@@ -758,6 +790,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetMonStop(DateTime)
   id: 'SetMonStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetMonStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetMonStop(DateTime)'
@@ -780,6 +813,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTicketPriorityEntity.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -802,6 +836,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetNonDates(DateTime[])
   id: 'SetNonDates(DateTime[])'
   so.intellisense: NSTicketPriorityEntity.SetNonDates
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNonDates(DateTime[])'
@@ -824,6 +859,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSatStart(DateTime)
   id: 'SetSatStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetSatStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSatStart(DateTime)'
@@ -846,6 +882,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSatStop(DateTime)
   id: 'SetSatStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetSatStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSatStop(DateTime)'
@@ -868,6 +905,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSortOrder(Integer)
   id: 'SetSortOrder(Integer)'
   so.intellisense: NSTicketPriorityEntity.SetSortOrder
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSortOrder(Integer)'
@@ -912,6 +950,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSunStart(DateTime)
   id: 'SetSunStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetSunStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSunStart(DateTime)'
@@ -934,6 +973,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSunStop(DateTime)
   id: 'SetSunStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetSunStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSunStop(DateTime)'
@@ -956,6 +996,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetThuStart(DateTime)
   id: 'SetThuStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetThuStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetThuStart(DateTime)'
@@ -978,6 +1019,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetThuStop(DateTime)
   id: 'SetThuStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetThuStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetThuStop(DateTime)'
@@ -1088,6 +1130,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketPriorityId(Integer)
   id: 'SetTicketPriorityId(Integer)'
   so.intellisense: NSTicketPriorityEntity.SetTicketPriorityId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketPriorityId(Integer)'
@@ -1132,6 +1175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTueStart(DateTime)
   id: 'SetTueStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetTueStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTueStart(DateTime)'
@@ -1154,6 +1198,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTueStop(DateTime)
   id: 'SetTueStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetTueStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTueStop(DateTime)'
@@ -1176,6 +1221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetWedStart(DateTime)
   id: 'SetWedStart(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetWedStart
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetWedStart(DateTime)'
@@ -1198,6 +1244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetWedStop(DateTime)
   id: 'SetWedStop(DateTime)'
   so.intellisense: NSTicketPriorityEntity.SetWedStop
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetWedStop(DateTime)'

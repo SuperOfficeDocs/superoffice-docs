@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveAgent
   commentId: T:CRMScript.NetServer.NSArchiveAgent
   id: NSArchiveAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -63,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.CreateDefaultArchiveListResult()
   id: 'CreateDefaultArchiveListResult()'
   so.intellisense: NSArchiveAgent.CreateDefaultArchiveListResult
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultArchiveListResult()'
@@ -123,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetActivityFilter()
   id: 'GetActivityFilter()'
   so.intellisense: NSArchiveAgent.GetActivityFilter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActivityFilter()'
@@ -143,6 +146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)
   id: 'GetArchiveConfiguration(String,String)'
   so.intellisense: NSArchiveAgent.GetArchiveConfiguration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveConfiguration(String,String)'
@@ -201,6 +205,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
   id: 'GetArchiveConfigurationWithContext(String,String,String)'
   so.intellisense: NSArchiveAgent.GetArchiveConfigurationWithContext
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetArchiveConfigurationWithContext(String,String,String)'
@@ -265,6 +270,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
   id: 'GetArchiveList2(String,String,String,String,String,Integer,Integer)'
   so.intellisense: NSArchiveAgent.GetArchiveList2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveList2(String,String,String,String,String,Integer,Integer)'
@@ -341,6 +347,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
   id: 'GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)'
   so.intellisense: NSArchiveAgent.GetArchiveListByColumns2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)'
@@ -419,6 +426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
   id: 'GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)'
   so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithContext2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)'
@@ -501,6 +509,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
   id: 'GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)'
   so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeader2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)'
@@ -586,6 +595,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
   id: 'GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)'
   so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)'
@@ -671,6 +681,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
   id: 'GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)'
   so.intellisense: NSArchiveAgent.GetArchiveListWithContext2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)'
@@ -715,6 +726,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetAvailableColumns(String,String)
   id: 'GetAvailableColumns(String,String)'
   so.intellisense: NSArchiveAgent.GetAvailableColumns
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAvailableColumns(String,String)'
@@ -741,6 +753,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetAvailableEntities(String,String)
   id: 'GetAvailableEntities(String,String)'
   so.intellisense: NSArchiveAgent.GetAvailableEntities
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetAvailableEntities(String,String)'
@@ -767,6 +780,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetGroupAssociateIds(Integer[])
   id: 'GetGroupAssociateIds(Integer[])'
   so.intellisense: NSArchiveAgent.GetGroupAssociateIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetGroupAssociateIds(Integer[])'
@@ -790,6 +804,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.GetProviderNames()
   id: 'GetProviderNames()'
   so.intellisense: NSArchiveAgent.GetProviderNames
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProviderNames()'
@@ -810,6 +825,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.SetActivityFilter(NSActivityFilter)
   id: 'SetActivityFilter(NSActivityFilter)'
   so.intellisense: NSArchiveAgent.SetActivityFilter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActivityFilter(NSActivityFilter)'
@@ -831,6 +847,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenColumns(String,String,String[])
   id: 'SetChosenColumns(String,String,String[])'
   so.intellisense: NSArchiveAgent.SetChosenColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChosenColumns(String,String,String[])'
@@ -891,6 +908,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenEntities(String,String,String[])
   id: 'SetChosenEntities(String,String,String[])'
   so.intellisense: NSArchiveAgent.SetChosenEntities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetChosenEntities(String,String,String[])'
@@ -951,6 +969,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveAgent.SetColumnWidths(String,String[])
   id: 'SetColumnWidths(String,String[])'
   so.intellisense: NSArchiveAgent.SetColumnWidths
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetColumnWidths(String,String[])'

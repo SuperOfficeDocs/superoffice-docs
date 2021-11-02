@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSActivitySummary
   commentId: T:CRMScript.NetServer.NSActivitySummary
   id: NSActivitySummary
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.GetNumBusyActivities()
   id: 'GetNumBusyActivities()'
   so.intellisense: NSActivitySummary.GetNumBusyActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumBusyActivities()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.GetNumFreeActivities()
   id: 'GetNumFreeActivities()'
   so.intellisense: NSActivitySummary.GetNumFreeActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumFreeActivities()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.GetPercentageBusy()
   id: 'GetPercentageBusy()'
   so.intellisense: NSActivitySummary.GetPercentageBusy
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPercentageBusy()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.SetNumBusyActivities(Integer)
   id: 'SetNumBusyActivities(Integer)'
   so.intellisense: NSActivitySummary.SetNumBusyActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumBusyActivities(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.SetNumFreeActivities(Integer)
   id: 'SetNumFreeActivities(Integer)'
   so.intellisense: NSActivitySummary.SetNumFreeActivities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumFreeActivities(Integer)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSActivitySummary.SetPercentageBusy(Integer)
   id: 'SetPercentageBusy(Integer)'
   so.intellisense: NSActivitySummary.SetPercentageBusy
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetPercentageBusy(Integer)'

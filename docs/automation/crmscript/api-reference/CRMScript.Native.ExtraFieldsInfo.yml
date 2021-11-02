@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.ExtraFieldsInfo
   commentId: T:CRMScript.Native.ExtraFieldsInfo
   id: ExtraFieldsInfo
+  so.version: 4.0.0
   langs:
   - crmscript
   children:
@@ -47,6 +48,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.eof()
   id: 'eof()'
   so.intellisense: ExtraFieldsInfo.eof
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'eof()'
@@ -67,6 +69,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getChildrenFields(Integer,Integer)
   id: 'getChildrenFields(Integer,Integer)'
   so.intellisense: ExtraFieldsInfo.getChildrenFields
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getChildrenFields(Integer,Integer)'
@@ -92,6 +95,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getCompanyChildrenFields()
   id: 'getCompanyChildrenFields()'
   so.intellisense: ExtraFieldsInfo.getCompanyChildrenFields
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getCompanyChildrenFields()'
@@ -110,6 +114,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getCustomerChildrenFields()
   id: 'getCustomerChildrenFields()'
   so.intellisense: ExtraFieldsInfo.getCustomerChildrenFields
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getCustomerChildrenFields()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getDisplayField()
   id: 'getDisplayField()'
   so.intellisense: ExtraFieldsInfo.getDisplayField
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getDisplayField()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getExtraFields(String)
   id: 'getExtraFields(String)'
   so.intellisense: ExtraFieldsInfo.getExtraFields
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getExtraFields(String)'
@@ -170,6 +177,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getFieldName()
   id: 'getFieldName()'
   so.intellisense: ExtraFieldsInfo.getFieldName
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getFieldName()'
@@ -190,6 +198,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getFlags()
   id: 'getFlags()'
   so.intellisense: ExtraFieldsInfo.getFlags
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getFlags()'
@@ -210,6 +219,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getName()
   id: 'getName()'
   so.intellisense: ExtraFieldsInfo.getName
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getName()'
@@ -252,6 +262,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getTableName()
   id: 'getTableName()'
   so.intellisense: ExtraFieldsInfo.getTableName
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getTableName()'
@@ -272,6 +283,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.getTicketChildrenFields()
   id: 'getTicketChildrenFields()'
   so.intellisense: ExtraFieldsInfo.getTicketChildrenFields
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'getTicketChildrenFields()'
@@ -290,6 +302,7 @@ items:
   commentId: M:CRMScript.Native.ExtraFieldsInfo.next()
   id: 'next()'
   so.intellisense: ExtraFieldsInfo.next
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'next()'

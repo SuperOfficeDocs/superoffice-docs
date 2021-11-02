@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.Timer
   commentId: T:CRMScript.Native.Timer
   id: Timer
+  so.version: 4.6.1
   langs:
   - crmscript
   children:
@@ -39,6 +40,7 @@ items:
   commentId: M:CRMScript.Native.Timer.getHiResTimer()
   id: 'getHiResTimer()'
   so.intellisense: Timer.getHiResTimer
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getHiResTimer()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.Native.Timer.getSeconds()
   id: 'getSeconds()'
   so.intellisense: Timer.getSeconds
+  so.version: 4.6.1
   langs:
   - crmscript
   name: 'getSeconds()'
@@ -77,6 +80,7 @@ items:
   commentId: M:CRMScript.Native.Timer.getTimer()
   id: 'getTimer()'
   so.intellisense: Timer.getTimer
+  so.version: 4.7.1
   langs:
   - crmscript
   name: 'getTimer()'
@@ -96,6 +100,7 @@ items:
   commentId: M:CRMScript.Native.Timer.start()
   id: 'start()'
   so.intellisense: Timer.start
+  so.version: 4.6.1
   langs:
   - crmscript
   name: 'start()'
@@ -115,6 +120,7 @@ items:
   commentId: M:CRMScript.Native.Timer.stop()
   id: 'stop()'
   so.intellisense: Timer.stop
+  so.version: 4.6.1
   langs:
   - crmscript
   name: 'stop()'

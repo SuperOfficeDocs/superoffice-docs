@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSoPrincipalCarrier
   commentId: T:CRMScript.NetServer.NSSoPrincipalCarrier
   id: NSSoPrincipalCarrier
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -84,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSSoPrincipalCarrier.GetAssociate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -102,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSSoPrincipalCarrier.GetAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -120,6 +123,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetBusinessId()
   id: 'GetBusinessId()'
   so.intellisense: NSSoPrincipalCarrier.GetBusinessId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetBusinessId()'
@@ -138,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetCategoryId()
   id: 'GetCategoryId()'
   so.intellisense: NSSoPrincipalCarrier.GetCategoryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCategoryId()'
@@ -156,6 +161,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSSoPrincipalCarrier.GetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -174,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetContactOwner()
   id: 'GetContactOwner()'
   so.intellisense: NSSoPrincipalCarrier.GetContactOwner
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactOwner()'
@@ -192,6 +199,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetCountryId()
   id: 'GetCountryId()'
   so.intellisense: NSSoPrincipalCarrier.GetCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCountryId()'
@@ -210,6 +218,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
   id: 'GetDatabaseContextIdentifier()'
   so.intellisense: NSSoPrincipalCarrier.GetDatabaseContextIdentifier
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDatabaseContextIdentifier()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjAccessLevel()
   id: 'GetEjAccessLevel()'
   so.intellisense: NSSoPrincipalCarrier.GetEjAccessLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEjAccessLevel()'
@@ -246,6 +256,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserId()
   id: 'GetEjUserId()'
   so.intellisense: NSSoPrincipalCarrier.GetEjUserId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEjUserId()'
@@ -264,6 +275,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserStatus()
   id: 'GetEjUserStatus()'
   so.intellisense: NSSoPrincipalCarrier.GetEjUserStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEjUserStatus()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEMailAddress()
   id: 'GetEMailAddress()'
   so.intellisense: NSSoPrincipalCarrier.GetEMailAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEMailAddress()'
@@ -300,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetFullName()
   id: 'GetFullName()'
   so.intellisense: NSSoPrincipalCarrier.GetFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFullName()'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetFunctionRights()
   id: 'GetFunctionRights()'
   so.intellisense: NSSoPrincipalCarrier.GetFunctionRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFunctionRights()'
@@ -336,6 +351,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetGroupId()
   id: 'GetGroupId()'
   so.intellisense: NSSoPrincipalCarrier.GetGroupId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetGroupId()'
@@ -354,6 +370,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetHomeCountryId()
   id: 'GetHomeCountryId()'
   so.intellisense: NSSoPrincipalCarrier.GetHomeCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHomeCountryId()'
@@ -372,6 +389,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetIsPerson()
   id: 'GetIsPerson()'
   so.intellisense: NSSoPrincipalCarrier.GetIsPerson
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsPerson()'
@@ -390,6 +408,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetLicenses()
   id: 'GetLicenses()'
   so.intellisense: NSSoPrincipalCarrier.GetLicenses
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLicenses()'
@@ -408,6 +427,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSSoPrincipalCarrier.GetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -426,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetProvidedCredentials()
   id: 'GetProvidedCredentials()'
   so.intellisense: NSSoPrincipalCarrier.GetProvidedCredentials
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProvidedCredentials()'
@@ -444,6 +465,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleDescription()
   id: 'GetRoleDescription()'
   so.intellisense: NSSoPrincipalCarrier.GetRoleDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleDescription()'
@@ -462,6 +484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleId()
   id: 'GetRoleId()'
   so.intellisense: NSSoPrincipalCarrier.GetRoleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleId()'
@@ -480,6 +503,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleName()
   id: 'GetRoleName()'
   so.intellisense: NSSoPrincipalCarrier.GetRoleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleName()'
@@ -498,6 +522,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleType()
   id: 'GetRoleType()'
   so.intellisense: NSSoPrincipalCarrier.GetRoleType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRoleType()'
@@ -516,6 +541,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetSecondaryGroups()
   id: 'GetSecondaryGroups()'
   so.intellisense: NSSoPrincipalCarrier.GetSecondaryGroups
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSecondaryGroups()'
@@ -534,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetUserType()
   id: 'GetUserType()'
   so.intellisense: NSSoPrincipalCarrier.GetUserType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserType()'
@@ -552,6 +579,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociate(String)
   id: 'SetAssociate(String)'
   so.intellisense: NSSoPrincipalCarrier.SetAssociate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssociate(String)'
@@ -573,6 +601,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetAssociateId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -594,6 +623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetBusinessId(Integer)
   id: 'SetBusinessId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetBusinessId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBusinessId(Integer)'
@@ -615,6 +645,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetCategoryId(Integer)
   id: 'SetCategoryId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetCategoryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCategoryId(Integer)'
@@ -636,6 +667,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -657,6 +689,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetContactOwner(Integer)
   id: 'SetContactOwner(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetContactOwner
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactOwner(Integer)'
@@ -678,6 +711,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetCountryId(Integer)
   id: 'SetCountryId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCountryId(Integer)'
@@ -699,6 +733,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
   id: 'SetDatabaseContextIdentifier(String)'
   so.intellisense: NSSoPrincipalCarrier.SetDatabaseContextIdentifier
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDatabaseContextIdentifier(String)'
@@ -720,6 +755,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
   id: 'SetEjAccessLevel(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetEjAccessLevel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEjAccessLevel(Integer)'
@@ -741,6 +777,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserId(Integer)
   id: 'SetEjUserId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetEjUserId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEjUserId(Integer)'
@@ -762,6 +799,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserStatus(Integer)
   id: 'SetEjUserStatus(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetEjUserStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEjUserStatus(Integer)'
@@ -783,6 +821,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEMailAddress(String)
   id: 'SetEMailAddress(String)'
   so.intellisense: NSSoPrincipalCarrier.SetEMailAddress
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEMailAddress(String)'
@@ -804,6 +843,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetFullName(String)
   id: 'SetFullName(String)'
   so.intellisense: NSSoPrincipalCarrier.SetFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFullName(String)'
@@ -825,6 +865,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetFunctionRights(String[])
   id: 'SetFunctionRights(String[])'
   so.intellisense: NSSoPrincipalCarrier.SetFunctionRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFunctionRights(String[])'
@@ -846,6 +887,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetGroupId(Integer)
   id: 'SetGroupId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetGroupId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetGroupId(Integer)'
@@ -867,6 +909,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetHomeCountryId(Integer)
   id: 'SetHomeCountryId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetHomeCountryId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHomeCountryId(Integer)'
@@ -888,6 +931,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetIsPerson(Bool)
   id: 'SetIsPerson(Bool)'
   so.intellisense: NSSoPrincipalCarrier.SetIsPerson
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsPerson(Bool)'
@@ -909,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
   id: 'SetLicenses(NSGrantedModuleLicense[])'
   so.intellisense: NSSoPrincipalCarrier.SetLicenses
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLicenses(NSGrantedModuleLicense[])'
@@ -930,6 +975,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -951,6 +997,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
   id: 'SetProvidedCredentials(NSProvidedCredential[])'
   so.intellisense: NSSoPrincipalCarrier.SetProvidedCredentials
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProvidedCredentials(NSProvidedCredential[])'
@@ -972,6 +1019,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleDescription(String)
   id: 'SetRoleDescription(String)'
   so.intellisense: NSSoPrincipalCarrier.SetRoleDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleDescription(String)'
@@ -993,6 +1041,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleId(Integer)
   id: 'SetRoleId(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetRoleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleId(Integer)'
@@ -1014,6 +1063,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleName(String)
   id: 'SetRoleName(String)'
   so.intellisense: NSSoPrincipalCarrier.SetRoleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleName(String)'
@@ -1035,6 +1085,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleType(Integer)
   id: 'SetRoleType(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetRoleType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRoleType(Integer)'
@@ -1056,6 +1107,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
   id: 'SetSecondaryGroups(Integer[])'
   so.intellisense: NSSoPrincipalCarrier.SetSecondaryGroups
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSecondaryGroups(Integer[])'
@@ -1077,6 +1129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetUserType(Integer)
   id: 'SetUserType(Integer)'
   so.intellisense: NSSoPrincipalCarrier.SetUserType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserType(Integer)'

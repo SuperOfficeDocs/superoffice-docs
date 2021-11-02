@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveConfiguration
   commentId: T:CRMScript.NetServer.NSArchiveConfiguration
   id: NSArchiveConfiguration
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveColumnInfo()
   id: 'GetArchiveColumnInfo()'
   so.intellisense: NSArchiveConfiguration.GetArchiveColumnInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveColumnInfo()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveEntityInfo()
   id: 'GetArchiveEntityInfo()'
   so.intellisense: NSArchiveConfiguration.GetArchiveEntityInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveEntityInfo()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveOrderByInfo()
   id: 'GetArchiveOrderByInfo()'
   so.intellisense: NSArchiveConfiguration.GetArchiveOrderByInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetArchiveOrderByInfo()'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
   id: 'SetArchiveColumnInfo(NSArchiveColumnInfo[])'
   so.intellisense: NSArchiveConfiguration.SetArchiveColumnInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArchiveColumnInfo(NSArchiveColumnInfo[])'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
   id: 'SetArchiveEntityInfo(NSSelectableMDOListItem[])'
   so.intellisense: NSArchiveConfiguration.SetArchiveEntityInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArchiveEntityInfo(NSSelectableMDOListItem[])'
@@ -164,6 +170,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
   id: 'SetArchiveOrderByInfo(NSArchiveOrderByInfo[])'
   so.intellisense: NSArchiveConfiguration.SetArchiveOrderByInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetArchiveOrderByInfo(NSArchiveOrderByInfo[])'

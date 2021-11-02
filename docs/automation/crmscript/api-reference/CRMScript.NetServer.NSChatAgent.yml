@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChatAgent
   commentId: T:CRMScript.NetServer.NSChatAgent
   id: NSChatAgent
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -358,6 +359,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatAgent.GetChatPresence()
   id: 'GetChatPresence()'
   so.intellisense: NSChatAgent.GetChatPresence
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChatPresence()'
@@ -525,6 +527,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatAgent.IsWithinOpeningHours(Integer)
   id: 'IsWithinOpeningHours(Integer)'
   so.intellisense: NSChatAgent.IsWithinOpeningHours
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'IsWithinOpeningHours(Integer)'
@@ -637,6 +640,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatAgent.SaveChatPresence(NSChatPresence[])
   id: 'SaveChatPresence(NSChatPresence[])'
   so.intellisense: NSChatAgent.SaveChatPresence
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveChatPresence(NSChatPresence[])'

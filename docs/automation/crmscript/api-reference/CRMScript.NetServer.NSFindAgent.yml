@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFindAgent
   commentId: T:CRMScript.NetServer.NSFindAgent
   id: NSFindAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -70,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.CreateRestrictionGroup(String,String,String,String)
   id: 'CreateRestrictionGroup(String,String,String,String)'
   so.intellisense: NSFindAgent.CreateRestrictionGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateRestrictionGroup(String,String,String,String)'
@@ -102,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.DeleteRestrictionGroup(String,String,String,Integer,String)
   id: 'DeleteRestrictionGroup(String,String,String,Integer,String)'
   so.intellisense: NSFindAgent.DeleteRestrictionGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteRestrictionGroup(String,String,String,Integer,String)'
@@ -136,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.Find(String,String,String,Integer,Integer)
   id: 'Find(String,String,String,Integer,Integer)'
   so.intellisense: NSFindAgent.Find
+  so.version: 7.0
   langs:
   - crmscript
   name: 'Find(String,String,String,Integer,Integer)'
@@ -171,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindFromRestrictions(NSArchiveRestrictionInfo[],String,Integer,Integer)
   id: 'FindFromRestrictions(NSArchiveRestrictionInfo[],String,Integer,Integer)'
   so.intellisense: NSFindAgent.FindFromRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'FindFromRestrictions(NSArchiveRestrictionInfo[],String,Integer,Integer)'
@@ -203,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindFromRestrictions2(String,String,Integer,Integer)
   id: 'FindFromRestrictions2(String,String,Integer,Integer)'
   so.intellisense: NSFindAgent.FindFromRestrictions2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'FindFromRestrictions2(String,String,Integer,Integer)'
@@ -235,6 +241,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindFromRestrictionsColumns(NSArchiveRestrictionInfo[],String,String[],Integer,Integer)
   id: 'FindFromRestrictionsColumns(NSArchiveRestrictionInfo[],String,String[],Integer,Integer)'
   so.intellisense: NSFindAgent.FindFromRestrictionsColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'FindFromRestrictionsColumns(NSArchiveRestrictionInfo[],String,String[],Integer,Integer)'
@@ -270,6 +277,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindFromRestrictionsColumns2(String,String,String,Integer,Integer)
   id: 'FindFromRestrictionsColumns2(String,String,String,Integer,Integer)'
   so.intellisense: NSFindAgent.FindFromRestrictionsColumns2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'FindFromRestrictionsColumns2(String,String,String,Integer,Integer)'
@@ -337,6 +345,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindFromRestrictionsColumnsOrderBy2(String,String,String,String,Integer,Integer)
   id: 'FindFromRestrictionsColumnsOrderBy2(String,String,String,String,Integer,Integer)'
   so.intellisense: NSFindAgent.FindFromRestrictionsColumnsOrderBy2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'FindFromRestrictionsColumnsOrderBy2(String,String,String,String,Integer,Integer)'
@@ -410,6 +419,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindOrderBy2(String,String,String,Integer,Integer,String)
   id: 'FindOrderBy2(String,String,String,Integer,Integer,String)'
   so.intellisense: NSFindAgent.FindOrderBy2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'FindOrderBy2(String,String,String,Integer,Integer,String)'
@@ -486,6 +496,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindWithExtraRestrictions(String,String,String,NSArchiveRestrictionInfo[],NSArchiveOrderByInfo[],String[],Integer,Integer)
   id: 'FindWithExtraRestrictions(String,String,String,NSArchiveRestrictionInfo[],NSArchiveOrderByInfo[],String[],Integer,Integer)'
   so.intellisense: NSFindAgent.FindWithExtraRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'FindWithExtraRestrictions(String,String,String,NSArchiveRestrictionInfo[],NSArchiveOrderByInfo[],String[],Integer,Integer)'
@@ -529,6 +540,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.FindWithExtraRestrictions2(String,String,String,String,String,String,Integer,Integer)
   id: 'FindWithExtraRestrictions2(String,String,String,String,String,String,Integer,Integer)'
   so.intellisense: NSFindAgent.FindWithExtraRestrictions2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'FindWithExtraRestrictions2(String,String,String,String,String,String,Integer,Integer)'
@@ -572,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetAvailableRestrictionColumns(String,String)
   id: 'GetAvailableRestrictionColumns(String,String)'
   so.intellisense: NSFindAgent.GetAvailableRestrictionColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAvailableRestrictionColumns(String,String)'
@@ -598,6 +611,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetCriteriaInformation(String,String,String,String[])
   id: 'GetCriteriaInformation(String,String,String,String[])'
   so.intellisense: NSFindAgent.GetCriteriaInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCriteriaInformation(String,String,String,String[])'
@@ -629,6 +643,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetCriteriaInformationWithContext(String,String,String,String[],String)
   id: 'GetCriteriaInformationWithContext(String,String,String,String[],String)'
   so.intellisense: NSFindAgent.GetCriteriaInformationWithContext
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCriteriaInformationWithContext(String,String,String,String[],String)'
@@ -664,6 +679,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetDefaultDesiredColumns(String,String,String)
   id: 'GetDefaultDesiredColumns(String,String,String)'
   so.intellisense: NSFindAgent.GetDefaultDesiredColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultDesiredColumns(String,String,String)'
@@ -693,6 +709,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetDefaultDesiredColumnsFromRestrictions(String,NSArchiveRestrictionInfo[])
   id: 'GetDefaultDesiredColumnsFromRestrictions(String,NSArchiveRestrictionInfo[])'
   so.intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultDesiredColumnsFromRestrictions(String,NSArchiveRestrictionInfo[])'
@@ -718,6 +735,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetDefaultDesiredColumnsFromRestrictions2(String,String)
   id: 'GetDefaultDesiredColumnsFromRestrictions2(String,String)'
   so.intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetDefaultDesiredColumnsFromRestrictions2(String,String)'
@@ -743,6 +761,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetDefaultOrderBy(String,String,String)
   id: 'GetDefaultOrderBy(String,String,String)'
   so.intellisense: NSFindAgent.GetDefaultOrderBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultOrderBy(String,String,String)'
@@ -771,6 +790,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetDefaultOrderByFromDesiredColumns(String,String[])
   id: 'GetDefaultOrderByFromDesiredColumns(String,String[])'
   so.intellisense: NSFindAgent.GetDefaultOrderByFromDesiredColumns
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDefaultOrderByFromDesiredColumns(String,String[])'
@@ -796,6 +816,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetRestrictionGroup(String,String,String,Integer,String)
   id: 'GetRestrictionGroup(String,String,String,Integer,String)'
   so.intellisense: NSFindAgent.GetRestrictionGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRestrictionGroup(String,String,String,Integer,String)'
@@ -830,6 +851,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetRestrictionGroups(String,String,String,String)
   id: 'GetRestrictionGroups(String,String,String,String)'
   so.intellisense: NSFindAgent.GetRestrictionGroups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRestrictionGroups(String,String,String,String)'
@@ -861,6 +883,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetSpecifiedCriteriaInformationWithDefaults(String,String,String,String[],String[])
   id: 'GetSpecifiedCriteriaInformationWithDefaults(String,String,String,String[],String[])'
   so.intellisense: NSFindAgent.GetSpecifiedCriteriaInformationWithDefaults
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSpecifiedCriteriaInformationWithDefaults(String,String,String,String[],String[])'
@@ -895,6 +918,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext(String,String,String,String[],String[],String)
   id: 'GetSpecifiedCriteriaInformationWithDefaultsWithContext(String,String,String,String[],String[],String)'
   so.intellisense: NSFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSpecifiedCriteriaInformationWithDefaultsWithContext(String,String,String,String[],String[],String)'
@@ -932,6 +956,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.PopulateRestrictions(String,NSArchiveRestrictionInfo[])
   id: 'PopulateRestrictions(String,NSArchiveRestrictionInfo[])'
   so.intellisense: NSFindAgent.PopulateRestrictions
+  so.version: 7.0
   langs:
   - crmscript
   name: 'PopulateRestrictions(String,NSArchiveRestrictionInfo[])'
@@ -979,6 +1004,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionGroup(String,String,String,NSArchiveRestrictionGroup,String)
   id: 'SaveRestrictionGroup(String,String,String,NSArchiveRestrictionGroup,String)'
   so.intellisense: NSFindAgent.SaveRestrictionGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveRestrictionGroup(String,String,String,NSArchiveRestrictionGroup,String)'
@@ -1013,6 +1039,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionGroups(String,String,String,NSArchiveRestrictionGroup[],String)
   id: 'SaveRestrictionGroups(String,String,String,NSArchiveRestrictionGroup[],String)'
   so.intellisense: NSFindAgent.SaveRestrictionGroups
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveRestrictionGroups(String,String,String,NSArchiveRestrictionGroup[],String)'
@@ -1075,6 +1102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictions2(String,String,String,String)
   id: 'SaveRestrictions2(String,String,String,String)'
   so.intellisense: NSFindAgent.SaveRestrictions2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SaveRestrictions2(String,String,String,String)'
@@ -1106,6 +1134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionsAndGetCriteriaInformation(String,String,String,NSArchiveRestrictionInfo[],String[])
   id: 'SaveRestrictionsAndGetCriteriaInformation(String,String,String,NSArchiveRestrictionInfo[],String[])'
   so.intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveRestrictionsAndGetCriteriaInformation(String,String,String,NSArchiveRestrictionInfo[],String[])'
@@ -1140,6 +1169,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionsAndGetCriteriaInformation2(String,String,String,String,String)
   id: 'SaveRestrictionsAndGetCriteriaInformation2(String,String,String,String,String)'
   so.intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SaveRestrictionsAndGetCriteriaInformation2(String,String,String,String,String)'
@@ -1174,6 +1204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionsWithContext(String,String,String,NSArchiveRestrictionInfo[],String)
   id: 'SaveRestrictionsWithContext(String,String,String,NSArchiveRestrictionInfo[],String)'
   so.intellisense: NSFindAgent.SaveRestrictionsWithContext
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveRestrictionsWithContext(String,String,String,NSArchiveRestrictionInfo[],String)'
@@ -1208,6 +1239,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFindAgent.SaveRestrictionsWithContext2(String,String,String,String,String)
   id: 'SaveRestrictionsWithContext2(String,String,String,String,String)'
   so.intellisense: NSFindAgent.SaveRestrictionsWithContext2
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SaveRestrictionsWithContext2(String,String,String,String,String)'

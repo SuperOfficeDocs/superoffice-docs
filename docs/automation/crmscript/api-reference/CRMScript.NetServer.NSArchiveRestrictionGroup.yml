@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
   commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
   id: NSArchiveRestrictionGroup
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSArchiveRestrictionGroup.GetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetName()
   id: 'GetName()'
   so.intellisense: NSArchiveRestrictionGroup.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetRank()
   id: 'GetRank()'
   so.intellisense: NSArchiveRestrictionGroup.GetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRank()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetRestrictions()
   id: 'GetRestrictions()'
   so.intellisense: NSArchiveRestrictionGroup.GetRestrictions
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRestrictions()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSArchiveRestrictionGroup.SetDescription
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSArchiveRestrictionGroup.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSArchiveRestrictionGroup.SetRank
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
   id: 'SetRestrictions(NSArchiveRestrictionInfo[])'
   so.intellisense: NSArchiveRestrictionGroup.SetRestrictions
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRestrictions(NSArchiveRestrictionInfo[])'

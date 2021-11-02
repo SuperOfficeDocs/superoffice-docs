@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTag
   commentId: T:CRMScript.NetServer.NSTag
   id: NSTag
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.GetId()
   id: 'GetId()'
   so.intellisense: NSTag.GetId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.GetName()
   id: 'GetName()'
   so.intellisense: NSTag.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.GetToolTip()
   id: 'GetToolTip()'
   so.intellisense: NSTag.GetToolTip
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetToolTip()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSTag.SetId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTag.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTag.SetToolTip(String)
   id: 'SetToolTip(String)'
   so.intellisense: NSTag.SetToolTip
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetToolTip(String)'

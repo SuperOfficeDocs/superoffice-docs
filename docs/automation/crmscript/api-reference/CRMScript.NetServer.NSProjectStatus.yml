@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSProjectStatus
   commentId: T:CRMScript.NetServer.NSProjectStatus
   id: NSProjectStatus
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.GetId()
   id: 'GetId()'
   so.intellisense: NSProjectStatus.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSProjectStatus.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.GetValue()
   id: 'GetValue()'
   so.intellisense: NSProjectStatus.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSProjectStatus.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSProjectStatus.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectStatus.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSProjectStatus.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSuggestedAppointmentEntity
   commentId: T:CRMScript.NetServer.NSSuggestedAppointmentEntity
   id: NSSuggestedAppointmentEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -60,6 +61,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAssignToMember()
   id: 'GetAssignToMember()'
   so.intellisense: NSSuggestedAppointmentEntity.GetAssignToMember
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAssignToMember()'
@@ -80,6 +82,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAutoSuggest()
   id: 'GetAutoSuggest()'
   so.intellisense: NSSuggestedAppointmentEntity.GetAutoSuggest
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAutoSuggest()'
@@ -100,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDaysFuture()
   id: 'GetDaysFuture()'
   so.intellisense: NSSuggestedAppointmentEntity.GetDaysFuture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDaysFuture()'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSSuggestedAppointmentEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -140,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDuration()
   id: 'GetDuration()'
   so.intellisense: NSSuggestedAppointmentEntity.GetDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDuration()'
@@ -160,6 +166,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetIsMilestone()
   id: 'GetIsMilestone()'
   so.intellisense: NSSuggestedAppointmentEntity.GetIsMilestone
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsMilestone()'
@@ -180,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSSuggestedAppointmentEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -200,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
   id: 'GetProjectTypeStatusLink()'
   so.intellisense: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectTypeStatusLink()'
@@ -220,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSuggestedAppointmentEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -240,6 +250,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
   id: 'GetSaleTypeStageLink()'
   so.intellisense: NSSuggestedAppointmentEntity.GetSaleTypeStageLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeStageLink()'
@@ -260,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
   id: 'GetSuggestedAppointmentId()'
   so.intellisense: NSSuggestedAppointmentEntity.GetSuggestedAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedAppointmentId()'
@@ -280,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetText()
   id: 'GetText()'
   so.intellisense: NSSuggestedAppointmentEntity.GetText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetText()'
@@ -300,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSSuggestedAppointmentEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -320,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetType()
   id: 'GetType()'
   so.intellisense: NSSuggestedAppointmentEntity.GetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetType()'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
   id: 'SetAssignToMember(Bool)'
   so.intellisense: NSSuggestedAppointmentEntity.SetAssignToMember
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAssignToMember(Bool)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
   id: 'SetAutoSuggest(Bool)'
   so.intellisense: NSSuggestedAppointmentEntity.SetAutoSuggest
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAutoSuggest(Bool)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
   id: 'SetDaysFuture(Integer)'
   so.intellisense: NSSuggestedAppointmentEntity.SetDaysFuture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDaysFuture(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSSuggestedAppointmentEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
   id: 'SetDuration(TimeSpan)'
   so.intellisense: NSSuggestedAppointmentEntity.SetDuration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDuration(TimeSpan)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
   id: 'SetIsMilestone(Bool)'
   so.intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsMilestone(Bool)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSSuggestedAppointmentEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
   id: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
   so.intellisense: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSuggestedAppointmentEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
   id: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
   so.intellisense: NSSuggestedAppointmentEntity.SetSaleTypeStageLink
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
   id: 'SetSuggestedAppointmentId(Integer)'
   so.intellisense: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSuggestedAppointmentId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetText(String)
   id: 'SetText(String)'
   so.intellisense: NSSuggestedAppointmentEntity.SetText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetText(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSSuggestedAppointmentEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetType(NSTask)
   id: 'SetType(NSTask)'
   so.intellisense: NSSuggestedAppointmentEntity.SetType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetType(NSTask)'

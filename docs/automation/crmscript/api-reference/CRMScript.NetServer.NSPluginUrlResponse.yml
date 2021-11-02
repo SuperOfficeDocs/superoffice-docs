@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPluginUrlResponse
   commentId: T:CRMScript.NetServer.NSPluginUrlResponse
   id: NSPluginUrlResponse
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetChanges()
   id: 'GetChanges()'
   so.intellisense: NSPluginUrlResponse.GetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetChanges()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetErrorCode()
   id: 'GetErrorCode()'
   so.intellisense: NSPluginUrlResponse.GetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetErrorCode()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetIsOk()
   id: 'GetIsOk()'
   so.intellisense: NSPluginUrlResponse.GetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsOk()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetTechExplanation()
   id: 'GetTechExplanation()'
   so.intellisense: NSPluginUrlResponse.GetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTechExplanation()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSPluginUrlResponse.GetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetUserExplanation()
   id: 'GetUserExplanation()'
   so.intellisense: NSPluginUrlResponse.GetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUserExplanation()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetChanges(NSChangedData)
   id: 'SetChanges(NSChangedData)'
   so.intellisense: NSPluginUrlResponse.SetChanges
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetChanges(NSChangedData)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetErrorCode(String)
   id: 'SetErrorCode(String)'
   so.intellisense: NSPluginUrlResponse.SetErrorCode
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetErrorCode(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetIsOk(Bool)
   id: 'SetIsOk(Bool)'
   so.intellisense: NSPluginUrlResponse.SetIsOk
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsOk(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetTechExplanation(String)
   id: 'SetTechExplanation(String)'
   so.intellisense: NSPluginUrlResponse.SetTechExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTechExplanation(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetUrl(String)
   id: 'SetUrl(String)'
   so.intellisense: NSPluginUrlResponse.SetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUrl(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetUserExplanation(String)
   id: 'SetUserExplanation(String)'
   so.intellisense: NSPluginUrlResponse.SetUserExplanation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUserExplanation(String)'

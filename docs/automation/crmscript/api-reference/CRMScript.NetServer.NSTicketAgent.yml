@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketAgent
   commentId: T:CRMScript.NetServer.NSTicketAgent
   id: NSTicketAgent
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -104,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.CreateDefaultTicketEntity()
   id: 'CreateDefaultTicketEntity()'
   so.intellisense: NSTicketAgent.CreateDefaultTicketEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultTicketEntity()'
@@ -123,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.CreateDefaultTicketMessageEntity()
   id: 'CreateDefaultTicketMessageEntity()'
   so.intellisense: NSTicketAgent.CreateDefaultTicketMessageEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'CreateDefaultTicketMessageEntity()'
@@ -142,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.DeleteTicketEntity(Integer)
   id: 'DeleteTicketEntity(Integer)'
   so.intellisense: NSTicketAgent.DeleteTicketEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteTicketEntity(Integer)'
@@ -164,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.DeleteTicketMessageEntity(Integer)
   id: 'DeleteTicketMessageEntity(Integer)'
   so.intellisense: NSTicketAgent.DeleteTicketMessageEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeleteTicketMessageEntity(Integer)'
@@ -252,6 +257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.GetTicket(Integer)
   id: 'GetTicket(Integer)'
   so.intellisense: NSTicketAgent.GetTicket
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicket(Integer)'
@@ -296,6 +302,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.GetTicketEntity(Integer)
   id: 'GetTicketEntity(Integer)'
   so.intellisense: NSTicketAgent.GetTicketEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketEntity(Integer)'
@@ -318,6 +325,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.GetTicketMessage(Integer)
   id: 'GetTicketMessage(Integer)'
   so.intellisense: NSTicketAgent.GetTicketMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketMessage(Integer)'
@@ -340,6 +348,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.GetTicketMessageEntity(Integer)
   id: 'GetTicketMessageEntity(Integer)'
   so.intellisense: NSTicketAgent.GetTicketMessageEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketMessageEntity(Integer)'
@@ -451,6 +460,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.SanitizeMailContent(String)
   id: 'SanitizeMailContent(String)'
   so.intellisense: NSTicketAgent.SanitizeMailContent
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SanitizeMailContent(String)'
@@ -474,6 +484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.SanitizeMailContents(String[])
   id: 'SanitizeMailContents(String[])'
   so.intellisense: NSTicketAgent.SanitizeMailContents
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SanitizeMailContents(String[])'
@@ -519,6 +530,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.SaveTicketEntity(NSTicketEntity)
   id: 'SaveTicketEntity(NSTicketEntity)'
   so.intellisense: NSTicketAgent.SaveTicketEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveTicketEntity(NSTicketEntity)'
@@ -541,6 +553,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketAgent.SaveTicketMessageEntity(NSTicketMessageEntity)
   id: 'SaveTicketMessageEntity(NSTicketMessageEntity)'
   so.intellisense: NSTicketAgent.SaveTicketMessageEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SaveTicketMessageEntity(NSTicketMessageEntity)'

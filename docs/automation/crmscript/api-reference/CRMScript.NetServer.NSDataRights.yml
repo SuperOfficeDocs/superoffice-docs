@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDataRights
   commentId: T:CRMScript.NetServer.NSDataRights
   id: NSDataRights
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.GetColumnsInfo()
   id: 'GetColumnsInfo()'
   so.intellisense: NSDataRights.GetColumnsInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetColumnsInfo()'
@@ -57,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.GetRights()
   id: 'GetRights()'
   so.intellisense: NSDataRights.GetRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRights()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.GetRowsInfo()
   id: 'GetRowsInfo()'
   so.intellisense: NSDataRights.GetRowsInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRowsInfo()'
@@ -95,6 +99,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.SetColumnsInfo(NSRelationToOwner[])
   id: 'SetColumnsInfo(NSRelationToOwner[])'
   so.intellisense: NSDataRights.SetColumnsInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetColumnsInfo(NSRelationToOwner[])'
@@ -117,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.SetRights(NSDataRight[][])
   id: 'SetRights(NSDataRight[][])'
   so.intellisense: NSDataRights.SetRights
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRights(NSDataRight[][])'
@@ -139,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDataRights.SetRowsInfo(NSEntityName[])
   id: 'SetRowsInfo(NSEntityName[])'
   so.intellisense: NSDataRights.SetRowsInfo
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRowsInfo(NSEntityName[])'

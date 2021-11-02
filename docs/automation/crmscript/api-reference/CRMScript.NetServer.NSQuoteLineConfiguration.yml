@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuoteLineConfiguration
   commentId: T:CRMScript.NetServer.NSQuoteLineConfiguration
   id: NSQuoteLineConfiguration
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -50,6 +51,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetEditable()
   id: 'GetEditable()'
   so.intellisense: NSQuoteLineConfiguration.GetEditable
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEditable()'
@@ -70,6 +72,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetFieldName()
   id: 'GetFieldName()'
   so.intellisense: NSQuoteLineConfiguration.GetFieldName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFieldName()'
@@ -90,6 +93,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetInUse()
   id: 'GetInUse()'
   so.intellisense: NSQuoteLineConfiguration.GetInUse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInUse()'
@@ -110,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetLabel()
   id: 'GetLabel()'
   so.intellisense: NSQuoteLineConfiguration.GetLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLabel()'
@@ -130,6 +135,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetMandatory()
   id: 'GetMandatory()'
   so.intellisense: NSQuoteLineConfiguration.GetMandatory
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetMandatory()'
@@ -150,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
   id: 'GetQuoteLineConfigurationId()'
   so.intellisense: NSQuoteLineConfiguration.GetQuoteLineConfigurationId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteLineConfigurationId()'
@@ -170,6 +177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetRank()
   id: 'GetRank()'
   so.intellisense: NSQuoteLineConfiguration.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -190,6 +198,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetRestrictEdit()
   id: 'GetRestrictEdit()'
   so.intellisense: NSQuoteLineConfiguration.GetRestrictEdit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRestrictEdit()'
@@ -210,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSQuoteLineConfiguration.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetEditable(Bool)
   id: 'SetEditable(Bool)'
   so.intellisense: NSQuoteLineConfiguration.SetEditable
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEditable(Bool)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetFieldName(String)
   id: 'SetFieldName(String)'
   so.intellisense: NSQuoteLineConfiguration.SetFieldName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFieldName(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetInUse(Bool)
   id: 'SetInUse(Bool)'
   so.intellisense: NSQuoteLineConfiguration.SetInUse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInUse(Bool)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetLabel(String)
   id: 'SetLabel(String)'
   so.intellisense: NSQuoteLineConfiguration.SetLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLabel(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetMandatory(Bool)
   id: 'SetMandatory(Bool)'
   so.intellisense: NSQuoteLineConfiguration.SetMandatory
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMandatory(Bool)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
   id: 'SetQuoteLineConfigurationId(Integer)'
   so.intellisense: NSQuoteLineConfiguration.SetQuoteLineConfigurationId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteLineConfigurationId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSQuoteLineConfiguration.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetRestrictEdit(Bool)
   id: 'SetRestrictEdit(Bool)'
   so.intellisense: NSQuoteLineConfiguration.SetRestrictEdit
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRestrictEdit(Bool)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSQuoteLineConfiguration.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'

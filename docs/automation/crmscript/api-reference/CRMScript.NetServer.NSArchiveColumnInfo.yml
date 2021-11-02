@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSArchiveColumnInfo
   commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
   id: NSArchiveColumnInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -58,6 +59,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetCanOrderBy()
   id: 'GetCanOrderBy()'
   so.intellisense: NSArchiveColumnInfo.GetCanOrderBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCanOrderBy()'
@@ -78,6 +80,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetCanRestrictBy()
   id: 'GetCanRestrictBy()'
   so.intellisense: NSArchiveColumnInfo.GetCanRestrictBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCanRestrictBy()'
@@ -98,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSArchiveColumnInfo.GetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -118,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayTooltip()
   id: 'GetDisplayTooltip()'
   so.intellisense: NSArchiveColumnInfo.GetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayTooltip()'
@@ -138,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayType()
   id: 'GetDisplayType()'
   so.intellisense: NSArchiveColumnInfo.GetDisplayType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDisplayType()'
@@ -158,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetHeadingIconHint()
   id: 'GetHeadingIconHint()'
   so.intellisense: NSArchiveColumnInfo.GetHeadingIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHeadingIconHint()'
@@ -178,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetIconHint()
   id: 'GetIconHint()'
   so.intellisense: NSArchiveColumnInfo.GetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIconHint()'
@@ -198,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetIsVisible()
   id: 'GetIsVisible()'
   so.intellisense: NSArchiveColumnInfo.GetIsVisible
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsVisible()'
@@ -218,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSArchiveColumnInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -238,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionListName()
   id: 'GetRestrictionListName()'
   so.intellisense: NSArchiveColumnInfo.GetRestrictionListName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRestrictionListName()'
@@ -258,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionType()
   id: 'GetRestrictionType()'
   so.intellisense: NSArchiveColumnInfo.GetRestrictionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRestrictionType()'
@@ -278,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetSourceCode()
   id: 'GetSourceCode()'
   so.intellisense: NSArchiveColumnInfo.GetSourceCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSourceCode()'
@@ -297,6 +310,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetWidth()
   id: 'GetWidth()'
   so.intellisense: NSArchiveColumnInfo.GetWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWidth()'
@@ -317,6 +331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetCanOrderBy(Bool)
   id: 'SetCanOrderBy(Bool)'
   so.intellisense: NSArchiveColumnInfo.SetCanOrderBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCanOrderBy(Bool)'
@@ -339,6 +354,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetCanRestrictBy(Bool)
   id: 'SetCanRestrictBy(Bool)'
   so.intellisense: NSArchiveColumnInfo.SetCanRestrictBy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCanRestrictBy(Bool)'
@@ -361,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSArchiveColumnInfo.SetDisplayName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -383,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayTooltip(String)
   id: 'SetDisplayTooltip(String)'
   so.intellisense: NSArchiveColumnInfo.SetDisplayTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayTooltip(String)'
@@ -405,6 +423,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayType(String)
   id: 'SetDisplayType(String)'
   so.intellisense: NSArchiveColumnInfo.SetDisplayType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDisplayType(String)'
@@ -427,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetHeadingIconHint(String)
   id: 'SetHeadingIconHint(String)'
   so.intellisense: NSArchiveColumnInfo.SetHeadingIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHeadingIconHint(String)'
@@ -449,6 +469,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetIconHint(String)
   id: 'SetIconHint(String)'
   so.intellisense: NSArchiveColumnInfo.SetIconHint
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIconHint(String)'
@@ -471,6 +492,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetIsVisible(Bool)
   id: 'SetIsVisible(Bool)'
   so.intellisense: NSArchiveColumnInfo.SetIsVisible
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsVisible(Bool)'
@@ -493,6 +515,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSArchiveColumnInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -515,6 +538,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionListName(String)
   id: 'SetRestrictionListName(String)'
   so.intellisense: NSArchiveColumnInfo.SetRestrictionListName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRestrictionListName(String)'
@@ -537,6 +561,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionType(String)
   id: 'SetRestrictionType(String)'
   so.intellisense: NSArchiveColumnInfo.SetRestrictionType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRestrictionType(String)'
@@ -559,6 +584,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetSourceCode(String)
   id: 'SetSourceCode(String)'
   so.intellisense: NSArchiveColumnInfo.SetSourceCode
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSourceCode(String)'
@@ -580,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetWidth(String)
   id: 'SetWidth(String)'
   so.intellisense: NSArchiveColumnInfo.SetWidth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetWidth(String)'

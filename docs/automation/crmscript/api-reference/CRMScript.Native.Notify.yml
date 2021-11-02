@@ -38,6 +38,7 @@ items:
   commentId: M:CRMScript.Native.Notify.sendCustomMessage(Integer,String)
   id: 'sendCustomMessage(Integer,String)'
   so.intellisense: Notify.sendCustomMessage
+  so.version: 4.10.2
   langs:
   - crmscript
   name: 'sendCustomMessage(Integer,String)'

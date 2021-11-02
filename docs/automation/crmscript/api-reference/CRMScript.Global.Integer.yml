@@ -9,12 +9,12 @@ items:
     - CRMScript.Global.Integer.#ctor
     - CRMScript.Global.Integer.#ctor(Integer)
     - CRMScript.Global.Integer.#ctor(String)
-    - CRMScript.Global.Integer.toString()
+    - CRMScript.Global.Integer.abs()
+    - CRMScript.Global.Integer.isNull()
     - CRMScript.Global.Integer.toBool()
     - CRMScript.Global.Integer.toHex()
     - CRMScript.Global.Integer.toHex(Integer)
-    - CRMScript.Global.Integer.abs()
-    - CRMScript.Global.Integer.isNull()
+    - CRMScript.Global.Integer.toString()
   name: Integer
   nameWithType: Integer
   fullName: CRMScript.Global.Integer
@@ -61,6 +61,7 @@ items:
   commentId: M:CRMScript.Global.Integer.#ctor(String)
   id: '#ctor(String)'
   so.intellisense: Void.Integer
+  so.version: 3.1.5
   langs:
   - crmscript
   parent: CRMScript.Global.Integer
@@ -160,6 +161,7 @@ items:
   commentId: M:CRMScript.Global.Integer.toHex(Integer)
   id: toHex(Integer)
   so.intellisense: Integer.toHex
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.Integer
@@ -180,6 +182,7 @@ items:
   commentId: M:CRMScript.Global.Integer.isNull()
   id: isNull()
   so.intellisense: Integer.isNull
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.Integer

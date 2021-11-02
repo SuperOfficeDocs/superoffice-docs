@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPocketStartupData
   commentId: T:CRMScript.NetServer.NSPocketStartupData
   id: NSPocketStartupData
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -50,6 +51,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetBaseLocaleTimeZoneData()
   id: 'GetBaseLocaleTimeZoneData()'
   so.intellisense: NSPocketStartupData.GetBaseLocaleTimeZoneData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetBaseLocaleTimeZoneData()'
@@ -69,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetCustomData()
   id: 'GetCustomData()'
   so.intellisense: NSPocketStartupData.GetCustomData
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetCustomData()'
@@ -89,6 +92,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetIsPushNotificationEnabled()
   id: 'GetIsPushNotificationEnabled()'
   so.intellisense: NSPocketStartupData.GetIsPushNotificationEnabled
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetIsPushNotificationEnabled()'
@@ -109,6 +113,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetNotificationsCount()
   id: 'GetNotificationsCount()'
   so.intellisense: NSPocketStartupData.GetNotificationsCount
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetNotificationsCount()'
@@ -129,6 +134,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetOverdueSalesCount()
   id: 'GetOverdueSalesCount()'
   so.intellisense: NSPocketStartupData.GetOverdueSalesCount
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOverdueSalesCount()'
@@ -149,6 +155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetPhoneLocaleTimeZoneData()
   id: 'GetPhoneLocaleTimeZoneData()'
   so.intellisense: NSPocketStartupData.GetPhoneLocaleTimeZoneData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPhoneLocaleTimeZoneData()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetPocketPreferences()
   id: 'GetPocketPreferences()'
   so.intellisense: NSPocketStartupData.GetPocketPreferences
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPocketPreferences()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetSystemWebPanels()
   id: 'GetSystemWebPanels()'
   so.intellisense: NSPocketStartupData.GetSystemWebPanels
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetSystemWebPanels()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.GetTableRights()
   id: 'GetTableRights()'
   so.intellisense: NSPocketStartupData.GetTableRights
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetTableRights()'
@@ -228,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
   id: 'SetBaseLocaleTimeZoneData(NSTimeZoneData)'
   so.intellisense: NSPocketStartupData.SetBaseLocaleTimeZoneData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetBaseLocaleTimeZoneData(NSTimeZoneData)'
@@ -250,6 +261,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetCustomData(String)
   id: 'SetCustomData(String)'
   so.intellisense: NSPocketStartupData.SetCustomData
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetCustomData(String)'
@@ -272,6 +284,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
   id: 'SetIsPushNotificationEnabled(Bool)'
   so.intellisense: NSPocketStartupData.SetIsPushNotificationEnabled
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetIsPushNotificationEnabled(Bool)'
@@ -294,6 +307,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetNotificationsCount(Integer)
   id: 'SetNotificationsCount(Integer)'
   so.intellisense: NSPocketStartupData.SetNotificationsCount
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetNotificationsCount(Integer)'
@@ -316,6 +330,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetOverdueSalesCount(Integer)
   id: 'SetOverdueSalesCount(Integer)'
   so.intellisense: NSPocketStartupData.SetOverdueSalesCount
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOverdueSalesCount(Integer)'
@@ -338,6 +353,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
   id: 'SetPhoneLocaleTimeZoneData(NSTimeZoneData)'
   so.intellisense: NSPocketStartupData.SetPhoneLocaleTimeZoneData
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetPhoneLocaleTimeZoneData(NSTimeZoneData)'
@@ -360,6 +376,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetPocketPreferences(NSPreference[])
   id: 'SetPocketPreferences(NSPreference[])'
   so.intellisense: NSPocketStartupData.SetPocketPreferences
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetPocketPreferences(NSPreference[])'
@@ -382,6 +399,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
   id: 'SetSystemWebPanels(NSWebPanelEntity[])'
   so.intellisense: NSPocketStartupData.SetSystemWebPanels
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetSystemWebPanels(NSWebPanelEntity[])'

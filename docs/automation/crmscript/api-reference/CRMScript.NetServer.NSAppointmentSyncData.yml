@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAppointmentSyncData
   commentId: T:CRMScript.NetServer.NSAppointmentSyncData
   id: NSAppointmentSyncData
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -84,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetAlarmTime()
   id: 'GetAlarmTime()'
   so.intellisense: NSAppointmentSyncData.GetAlarmTime
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAlarmTime()'
@@ -104,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetAppointmentId()
   id: 'GetAppointmentId()'
   so.intellisense: NSAppointmentSyncData.GetAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAppointmentId()'
@@ -124,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetAppointmentText()
   id: 'GetAppointmentText()'
   so.intellisense: NSAppointmentSyncData.GetAppointmentText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAppointmentText()'
@@ -144,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetContactDepartment()
   id: 'GetContactDepartment()'
   so.intellisense: NSAppointmentSyncData.GetContactDepartment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactDepartment()'
@@ -164,6 +169,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetContactFullName()
   id: 'GetContactFullName()'
   so.intellisense: NSAppointmentSyncData.GetContactFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactFullName()'
@@ -184,6 +190,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetContactId()
   id: 'GetContactId()'
   so.intellisense: NSAppointmentSyncData.GetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactId()'
@@ -204,6 +211,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetContactName()
   id: 'GetContactName()'
   so.intellisense: NSAppointmentSyncData.GetContactName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetContactName()'
@@ -224,6 +232,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetEndDate()
   id: 'GetEndDate()'
   so.intellisense: NSAppointmentSyncData.GetEndDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetEndDate()'
@@ -244,6 +253,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetHasAlarm()
   id: 'GetHasAlarm()'
   so.intellisense: NSAppointmentSyncData.GetHasAlarm
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHasAlarm()'
@@ -264,6 +274,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsAllDay()
   id: 'GetIsAllDay()'
   so.intellisense: NSAppointmentSyncData.GetIsAllDay
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAllDay()'
@@ -284,6 +295,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsAssignment()
   id: 'GetIsAssignment()'
   so.intellisense: NSAppointmentSyncData.GetIsAssignment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsAssignment()'
@@ -304,6 +316,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsBusy()
   id: 'GetIsBusy()'
   so.intellisense: NSAppointmentSyncData.GetIsBusy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsBusy()'
@@ -324,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsCompleted()
   id: 'GetIsCompleted()'
   so.intellisense: NSAppointmentSyncData.GetIsCompleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsCompleted()'
@@ -344,6 +358,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsInvitation()
   id: 'GetIsInvitation()'
   so.intellisense: NSAppointmentSyncData.GetIsInvitation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsInvitation()'
@@ -364,6 +379,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetIsTentative()
   id: 'GetIsTentative()'
   so.intellisense: NSAppointmentSyncData.GetIsTentative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetIsTentative()'
@@ -384,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetLocation()
   id: 'GetLocation()'
   so.intellisense: NSAppointmentSyncData.GetLocation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetLocation()'
@@ -404,6 +421,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetParticipants()
   id: 'GetParticipants()'
   so.intellisense: NSAppointmentSyncData.GetParticipants
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetParticipants()'
@@ -424,6 +442,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetPersonFormalName()
   id: 'GetPersonFormalName()'
   so.intellisense: NSAppointmentSyncData.GetPersonFormalName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonFormalName()'
@@ -444,6 +463,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetPersonFullName()
   id: 'GetPersonFullName()'
   so.intellisense: NSAppointmentSyncData.GetPersonFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonFullName()'
@@ -464,6 +484,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetPersonId()
   id: 'GetPersonId()'
   so.intellisense: NSAppointmentSyncData.GetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPersonId()'
@@ -484,6 +505,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSAppointmentSyncData.GetProjectId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -504,6 +526,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetProjectName()
   id: 'GetProjectName()'
   so.intellisense: NSAppointmentSyncData.GetProjectName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProjectName()'
@@ -524,6 +547,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSAppointmentSyncData.GetSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -544,6 +568,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetSaleName()
   id: 'GetSaleName()'
   so.intellisense: NSAppointmentSyncData.GetSaleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleName()'
@@ -564,6 +589,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetStartDate()
   id: 'GetStartDate()'
   so.intellisense: NSAppointmentSyncData.GetStartDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStartDate()'
@@ -584,6 +610,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.GetTaskName()
   id: 'GetTaskName()'
   so.intellisense: NSAppointmentSyncData.GetTaskName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTaskName()'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetAlarmTime(DateTime)
   id: 'SetAlarmTime(DateTime)'
   so.intellisense: NSAppointmentSyncData.SetAlarmTime
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAlarmTime(DateTime)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetAppointmentId(Integer)
   id: 'SetAppointmentId(Integer)'
   so.intellisense: NSAppointmentSyncData.SetAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAppointmentId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetAppointmentText(String)
   id: 'SetAppointmentText(String)'
   so.intellisense: NSAppointmentSyncData.SetAppointmentText
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAppointmentText(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetContactDepartment(String)
   id: 'SetContactDepartment(String)'
   so.intellisense: NSAppointmentSyncData.SetContactDepartment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactDepartment(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetContactFullName(String)
   id: 'SetContactFullName(String)'
   so.intellisense: NSAppointmentSyncData.SetContactFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactFullName(String)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetContactId(Integer)
   id: 'SetContactId(Integer)'
   so.intellisense: NSAppointmentSyncData.SetContactId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactId(Integer)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetContactName(String)
   id: 'SetContactName(String)'
   so.intellisense: NSAppointmentSyncData.SetContactName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetContactName(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetEndDate(DateTime)
   id: 'SetEndDate(DateTime)'
   so.intellisense: NSAppointmentSyncData.SetEndDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEndDate(DateTime)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetHasAlarm(Bool)
   id: 'SetHasAlarm(Bool)'
   so.intellisense: NSAppointmentSyncData.SetHasAlarm
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHasAlarm(Bool)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsAllDay(Bool)
   id: 'SetIsAllDay(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsAllDay
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAllDay(Bool)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsAssignment(Bool)
   id: 'SetIsAssignment(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsAssignment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsAssignment(Bool)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsBusy(Bool)
   id: 'SetIsBusy(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsBusy
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsBusy(Bool)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsCompleted(Bool)
   id: 'SetIsCompleted(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsCompleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsCompleted(Bool)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsInvitation(Bool)
   id: 'SetIsInvitation(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsInvitation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsInvitation(Bool)'
@@ -912,6 +953,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetIsTentative(Bool)
   id: 'SetIsTentative(Bool)'
   so.intellisense: NSAppointmentSyncData.SetIsTentative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetIsTentative(Bool)'
@@ -934,6 +976,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetLocation(String)
   id: 'SetLocation(String)'
   so.intellisense: NSAppointmentSyncData.SetLocation
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetLocation(String)'
@@ -956,6 +999,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetParticipants(NSParticipantSyncData[])
   id: 'SetParticipants(NSParticipantSyncData[])'
   so.intellisense: NSAppointmentSyncData.SetParticipants
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetParticipants(NSParticipantSyncData[])'
@@ -978,6 +1022,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetPersonFormalName(String)
   id: 'SetPersonFormalName(String)'
   so.intellisense: NSAppointmentSyncData.SetPersonFormalName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonFormalName(String)'
@@ -1000,6 +1045,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetPersonFullName(String)
   id: 'SetPersonFullName(String)'
   so.intellisense: NSAppointmentSyncData.SetPersonFullName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonFullName(String)'
@@ -1022,6 +1068,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetPersonId(Integer)
   id: 'SetPersonId(Integer)'
   so.intellisense: NSAppointmentSyncData.SetPersonId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPersonId(Integer)'
@@ -1044,6 +1091,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSAppointmentSyncData.SetProjectId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -1066,6 +1114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetProjectName(String)
   id: 'SetProjectName(String)'
   so.intellisense: NSAppointmentSyncData.SetProjectName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProjectName(String)'
@@ -1088,6 +1137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSAppointmentSyncData.SetSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -1110,6 +1160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetSaleName(String)
   id: 'SetSaleName(String)'
   so.intellisense: NSAppointmentSyncData.SetSaleName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleName(String)'
@@ -1132,6 +1183,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetStartDate(DateTime)
   id: 'SetStartDate(DateTime)'
   so.intellisense: NSAppointmentSyncData.SetStartDate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetStartDate(DateTime)'
@@ -1154,6 +1206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentSyncData.SetTaskName(String)
   id: 'SetTaskName(String)'
   so.intellisense: NSAppointmentSyncData.SetTaskName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTaskName(String)'

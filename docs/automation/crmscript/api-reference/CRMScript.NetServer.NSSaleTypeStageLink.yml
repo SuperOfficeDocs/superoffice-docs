@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleTypeStageLink
   commentId: T:CRMScript.NetServer.NSSaleTypeStageLink
   id: NSSaleTypeStageLink
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbability()
   id: 'GetProbability()'
   so.intellisense: NSSaleTypeStageLink.GetProbability
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProbability()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbId()
   id: 'GetProbId()'
   so.intellisense: NSSaleTypeStageLink.GetProbId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProbId()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbName()
   id: 'GetProbName()'
   so.intellisense: NSSaleTypeStageLink.GetProbName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProbName()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbTooltip()
   id: 'GetProbTooltip()'
   so.intellisense: NSSaleTypeStageLink.GetProbTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProbTooltip()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeId()
   id: 'GetSaleTypeId()'
   so.intellisense: NSSaleTypeStageLink.GetSaleTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeId()'
@@ -138,6 +144,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeName()
   id: 'GetSaleTypeName()'
   so.intellisense: NSSaleTypeStageLink.GetSaleTypeName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeName()'
@@ -156,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeStageLinkId()
   id: 'GetSaleTypeStageLinkId()'
   so.intellisense: NSSaleTypeStageLink.GetSaleTypeStageLinkId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeStageLinkId()'
@@ -174,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeTooltip()
   id: 'GetSaleTypeTooltip()'
   so.intellisense: NSSaleTypeStageLink.GetSaleTypeTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleTypeTooltip()'
@@ -192,6 +201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbability(Integer)
   id: 'SetProbability(Integer)'
   so.intellisense: NSSaleTypeStageLink.SetProbability
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProbability(Integer)'
@@ -213,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbId(Integer)
   id: 'SetProbId(Integer)'
   so.intellisense: NSSaleTypeStageLink.SetProbId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProbId(Integer)'
@@ -234,6 +245,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbName(String)
   id: 'SetProbName(String)'
   so.intellisense: NSSaleTypeStageLink.SetProbName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProbName(String)'
@@ -255,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbTooltip(String)
   id: 'SetProbTooltip(String)'
   so.intellisense: NSSaleTypeStageLink.SetProbTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProbTooltip(String)'
@@ -276,6 +289,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeId(Integer)
   id: 'SetSaleTypeId(Integer)'
   so.intellisense: NSSaleTypeStageLink.SetSaleTypeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeId(Integer)'
@@ -297,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeName(String)
   id: 'SetSaleTypeName(String)'
   so.intellisense: NSSaleTypeStageLink.SetSaleTypeName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeName(String)'
@@ -318,6 +333,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
   id: 'SetSaleTypeStageLinkId(Integer)'
   so.intellisense: NSSaleTypeStageLink.SetSaleTypeStageLinkId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeStageLinkId(Integer)'
@@ -339,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeTooltip(String)
   id: 'SetSaleTypeTooltip(String)'
   so.intellisense: NSSaleTypeStageLink.SetSaleTypeTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleTypeTooltip(String)'

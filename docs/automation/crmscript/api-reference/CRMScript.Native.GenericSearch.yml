@@ -326,6 +326,7 @@ items:
   commentId: M:CRMScript.Native.GenericSearch.setLanguage(Integer)
   id: 'setLanguage(Integer)'
   so.intellisense: GenericSearch.setLanguage
+  so.version: 3.1.7
   langs:
   - crmscript
   name: 'setLanguage(Integer)'

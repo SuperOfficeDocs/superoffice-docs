@@ -37,6 +37,7 @@ items:
   commentId: M:CRMScript.Native.Email.addAttachment(Integer,Bool)
   id: 'addAttachment(Integer,Bool)'
   so.intellisense: Email.addAttachment
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'addAttachment(Integer,Bool)'

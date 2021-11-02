@@ -41,6 +41,7 @@ items:
   commentId: M:CRMScript.Native.ReplyTemplate.getAttachments(Integer)
   id: 'getAttachments(Integer)'
   so.intellisense: ReplyTemplate.getAttachments
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'getAttachments(Integer)'
@@ -85,6 +86,7 @@ items:
   commentId: M:CRMScript.Native.ReplyTemplate.getName()
   id: 'getName()'
   so.intellisense: ReplyTemplate.getName
+  so.version: 4.3.3
   langs:
   - crmscript
   name: 'getName()'
@@ -126,6 +128,7 @@ items:
   commentId: M:CRMScript.Native.ReplyTemplate.getSmsBody(Integer)
   id: 'getSmsBody(Integer)'
   so.intellisense: ReplyTemplate.getSmsBody
+  so.version: 7.1.0
   langs:
   - crmscript
   name: 'getSmsBody(Integer)'
@@ -148,6 +151,7 @@ items:
   commentId: M:CRMScript.Native.ReplyTemplate.getSubject(Integer)
   id: 'getSubject(Integer)'
   so.intellisense: ReplyTemplate.getSubject
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'getSubject(Integer)'

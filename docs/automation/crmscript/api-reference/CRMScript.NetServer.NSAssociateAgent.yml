@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSAssociateAgent
   commentId: T:CRMScript.NetServer.NSAssociateAgent
   id: NSAssociateAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -41,6 +42,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociate(Integer)
   id: 'GetAssociate(Integer)'
   so.intellisense: NSAssociateAgent.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate(Integer)'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociateByPersonId(Integer)
   id: 'GetAssociateByPersonId(Integer)'
   so.intellisense: NSAssociateAgent.GetAssociateByPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateByPersonId(Integer)'
@@ -87,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociateList(Integer[])
   id: 'GetAssociateList(Integer[])'
   so.intellisense: NSAssociateAgent.GetAssociateList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateList(Integer[])'
@@ -110,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
   id: 'GetAssociatesByGroup(Integer,Integer)'
   so.intellisense: NSAssociateAgent.GetAssociatesByGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociatesByGroup(Integer,Integer)'
@@ -136,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.GetNote(Integer)
   id: 'GetNote(Integer)'
   so.intellisense: NSAssociateAgent.GetNote
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNote(Integer)'
@@ -159,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.LogOffWindowsUsers(Integer[])
   id: 'LogOffWindowsUsers(Integer[])'
   so.intellisense: NSAssociateAgent.LogOffWindowsUsers
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'LogOffWindowsUsers(Integer[])'
@@ -181,6 +188,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAssociateAgent.SaveNote(Integer,String[])
   id: 'SaveNote(Integer,String[])'
   so.intellisense: NSAssociateAgent.SaveNote
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveNote(Integer,String[])'

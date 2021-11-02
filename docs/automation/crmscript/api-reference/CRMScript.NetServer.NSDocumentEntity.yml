@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDocumentEntity
   commentId: T:CRMScript.NetServer.NSDocumentEntity
   id: NSDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -100,6 +101,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetActiveLinks()
   id: 'GetActiveLinks()'
   so.intellisense: NSDocumentEntity.GetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetActiveLinks()'
@@ -120,6 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetAssociate()
   id: 'GetAssociate()'
   so.intellisense: NSDocumentEntity.GetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociate()'
@@ -140,6 +143,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetAttention()
   id: 'GetAttention()'
   so.intellisense: NSDocumentEntity.GetAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAttention()'
@@ -160,6 +164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSDocumentEntity.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -180,6 +185,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetContact()
   id: 'GetContact()'
   so.intellisense: NSDocumentEntity.GetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContact()'
@@ -200,6 +206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCreatedBy()
   id: 'GetCreatedBy()'
   so.intellisense: NSDocumentEntity.GetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedBy()'
@@ -220,6 +227,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCreatedDate()
   id: 'GetCreatedDate()'
   so.intellisense: NSDocumentEntity.GetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreatedDate()'
@@ -240,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSDocumentEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -260,6 +269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDate()
   id: 'GetDate()'
   so.intellisense: NSDocumentEntity.GetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDate()'
@@ -280,6 +290,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSDocumentEntity.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -300,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSDocumentEntity.GetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -320,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDocumentTemplate()
   id: 'GetDocumentTemplate()'
   so.intellisense: NSDocumentEntity.GetDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentTemplate()'
@@ -340,6 +353,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetExternalRef()
   id: 'GetExternalRef()'
   so.intellisense: NSDocumentEntity.GetExternalRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExternalRef()'
@@ -360,6 +374,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSDocumentEntity.GetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -380,6 +395,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetHeader()
   id: 'GetHeader()'
   so.intellisense: NSDocumentEntity.GetHeader
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetHeader()'
@@ -400,6 +416,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetIsPublished()
   id: 'GetIsPublished()'
   so.intellisense: NSDocumentEntity.GetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPublished()'
@@ -419,6 +436,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetLinks()
   id: 'GetLinks()'
   so.intellisense: NSDocumentEntity.GetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLinks()'
@@ -439,6 +457,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetLockSemantics()
   id: 'GetLockSemantics()'
   so.intellisense: NSDocumentEntity.GetLockSemantics
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLockSemantics()'
@@ -459,6 +478,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSDocumentEntity.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -479,6 +499,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetOurRef()
   id: 'GetOurRef()'
   so.intellisense: NSDocumentEntity.GetOurRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOurRef()'
@@ -499,6 +520,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSDocumentEntity.GetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -519,6 +541,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetProject()
   id: 'GetProject()'
   so.intellisense: NSDocumentEntity.GetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProject()'
@@ -539,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishEventDate()
   id: 'GetPublishEventDate()'
   so.intellisense: NSDocumentEntity.GetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishEventDate()'
@@ -558,6 +582,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishFrom()
   id: 'GetPublishFrom()'
   so.intellisense: NSDocumentEntity.GetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishFrom()'
@@ -577,6 +602,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishTo()
   id: 'GetPublishTo()'
   so.intellisense: NSDocumentEntity.GetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishTo()'
@@ -596,6 +622,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetSale()
   id: 'GetSale()'
   so.intellisense: NSDocumentEntity.GetSale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSale()'
@@ -636,6 +663,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetSuggestedDocumentId()
   id: 'GetSuggestedDocumentId()'
   so.intellisense: NSDocumentEntity.GetSuggestedDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSuggestedDocumentId()'
@@ -656,6 +684,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetType()
   id: 'GetType()'
   so.intellisense: NSDocumentEntity.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -676,6 +705,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUpdatedBy()
   id: 'GetUpdatedBy()'
   so.intellisense: NSDocumentEntity.GetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedBy()'
@@ -696,6 +726,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUpdatedDate()
   id: 'GetUpdatedDate()'
   so.intellisense: NSDocumentEntity.GetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUpdatedDate()'
@@ -716,6 +747,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUserDefinedFields()
   id: 'GetUserDefinedFields()'
   so.intellisense: NSDocumentEntity.GetUserDefinedFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserDefinedFields()'
@@ -736,6 +768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetVisibleFor()
   id: 'GetVisibleFor()'
   so.intellisense: NSDocumentEntity.GetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleFor()'
@@ -756,6 +789,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.GetYourRef()
   id: 'GetYourRef()'
   so.intellisense: NSDocumentEntity.GetYourRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetYourRef()'
@@ -776,6 +810,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetActiveLinks(Integer)
   id: 'SetActiveLinks(Integer)'
   so.intellisense: NSDocumentEntity.SetActiveLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetActiveLinks(Integer)'
@@ -798,6 +833,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
   so.intellisense: NSDocumentEntity.SetAssociate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociate(NSAssociate)'
@@ -820,6 +856,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetAttention(String)
   id: 'SetAttention(String)'
   so.intellisense: NSDocumentEntity.SetAttention
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAttention(String)'
@@ -842,6 +879,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSDocumentEntity.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -864,6 +902,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetContact(NSContact)
   id: 'SetContact(NSContact)'
   so.intellisense: NSDocumentEntity.SetContact
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContact(NSContact)'
@@ -886,6 +925,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCreatedBy(NSAssociate)
   id: 'SetCreatedBy(NSAssociate)'
   so.intellisense: NSDocumentEntity.SetCreatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedBy(NSAssociate)'
@@ -908,6 +948,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCreatedDate(DateTime)
   id: 'SetCreatedDate(DateTime)'
   so.intellisense: NSDocumentEntity.SetCreatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreatedDate(DateTime)'
@@ -930,6 +971,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSDocumentEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -952,6 +994,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDate(DateTime)
   id: 'SetDate(DateTime)'
   so.intellisense: NSDocumentEntity.SetDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDate(DateTime)'
@@ -974,6 +1017,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSDocumentEntity.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -996,6 +1040,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSDocumentEntity.SetDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -1018,6 +1063,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
   id: 'SetDocumentTemplate(NSDocumentTemplate)'
   so.intellisense: NSDocumentEntity.SetDocumentTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDocumentTemplate(NSDocumentTemplate)'
@@ -1040,6 +1086,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetExternalRef(String)
   id: 'SetExternalRef(String)'
   so.intellisense: NSDocumentEntity.SetExternalRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExternalRef(String)'
@@ -1062,6 +1109,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSDocumentEntity.SetExtraFields
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -1084,6 +1132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetHeader(String)
   id: 'SetHeader(String)'
   so.intellisense: NSDocumentEntity.SetHeader
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetHeader(String)'
@@ -1106,6 +1155,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetIsPublished(Bool)
   id: 'SetIsPublished(Bool)'
   so.intellisense: NSDocumentEntity.SetIsPublished
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPublished(Bool)'
@@ -1127,6 +1177,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetLinks(NSLink[])
   id: 'SetLinks(NSLink[])'
   so.intellisense: NSDocumentEntity.SetLinks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLinks(NSLink[])'
@@ -1149,6 +1200,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetLockSemantics(Integer)
   id: 'SetLockSemantics(Integer)'
   so.intellisense: NSDocumentEntity.SetLockSemantics
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLockSemantics(Integer)'
@@ -1171,6 +1223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSDocumentEntity.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -1193,6 +1246,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetOurRef(String)
   id: 'SetOurRef(String)'
   so.intellisense: NSDocumentEntity.SetOurRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOurRef(String)'
@@ -1215,6 +1269,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSDocumentEntity.SetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -1237,6 +1292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetProject(NSProject)
   id: 'SetProject(NSProject)'
   so.intellisense: NSDocumentEntity.SetProject
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProject(NSProject)'
@@ -1259,6 +1315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishEventDate(DateTime)
   id: 'SetPublishEventDate(DateTime)'
   so.intellisense: NSDocumentEntity.SetPublishEventDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishEventDate(DateTime)'
@@ -1280,6 +1337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishFrom(DateTime)
   id: 'SetPublishFrom(DateTime)'
   so.intellisense: NSDocumentEntity.SetPublishFrom
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishFrom(DateTime)'
@@ -1301,6 +1359,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishTo(DateTime)
   id: 'SetPublishTo(DateTime)'
   so.intellisense: NSDocumentEntity.SetPublishTo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPublishTo(DateTime)'
@@ -1322,6 +1381,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetSale(NSSale)
   id: 'SetSale(NSSale)'
   so.intellisense: NSDocumentEntity.SetSale
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSale(NSSale)'
@@ -1366,6 +1426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetSuggestedDocumentId(Integer)
   id: 'SetSuggestedDocumentId(Integer)'
   so.intellisense: NSDocumentEntity.SetSuggestedDocumentId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSuggestedDocumentId(Integer)'
@@ -1388,6 +1449,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSDocumentEntity.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -1410,6 +1472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
   id: 'SetUpdatedBy(NSAssociate)'
   so.intellisense: NSDocumentEntity.SetUpdatedBy
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedBy(NSAssociate)'
@@ -1432,6 +1495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
   id: 'SetUpdatedDate(DateTime)'
   so.intellisense: NSDocumentEntity.SetUpdatedDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUpdatedDate(DateTime)'
@@ -1496,6 +1560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
   id: 'SetYourRef(String)'
   so.intellisense: NSDocumentEntity.SetYourRef
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetYourRef(String)'

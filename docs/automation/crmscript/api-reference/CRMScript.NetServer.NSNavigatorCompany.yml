@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSNavigatorCompany
   commentId: T:CRMScript.NetServer.NSNavigatorCompany
   id: NSNavigatorCompany
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetId()
   id: 'GetId()'
   so.intellisense: NSNavigatorCompany.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSNavigatorCompany.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetValue()
   id: 'GetValue()'
   so.intellisense: NSNavigatorCompany.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSNavigatorCompany.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSNavigatorCompany.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSNavigatorCompany.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

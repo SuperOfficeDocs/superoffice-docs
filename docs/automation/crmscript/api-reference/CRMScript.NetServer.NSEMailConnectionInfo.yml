@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSEMailConnectionInfo
   commentId: T:CRMScript.NetServer.NSEMailConnectionInfo
   id: NSEMailConnectionInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetFolder()
   id: 'GetFolder()'
   so.intellisense: NSEMailConnectionInfo.GetFolder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFolder()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetPassword()
   id: 'GetPassword()'
   so.intellisense: NSEMailConnectionInfo.GetPassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPassword()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetServerName()
   id: 'GetServerName()'
   so.intellisense: NSEMailConnectionInfo.GetServerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetServerName()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetUserName()
   id: 'GetUserName()'
   so.intellisense: NSEMailConnectionInfo.GetUserName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserName()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetUseSSL()
   id: 'GetUseSSL()'
   so.intellisense: NSEMailConnectionInfo.GetUseSSL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUseSSL()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetFolder(String)
   id: 'SetFolder(String)'
   so.intellisense: NSEMailConnectionInfo.SetFolder
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetFolder(String)'
@@ -165,6 +172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetPassword(String)
   id: 'SetPassword(String)'
   so.intellisense: NSEMailConnectionInfo.SetPassword
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPassword(String)'
@@ -187,6 +195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetServerName(String)
   id: 'SetServerName(String)'
   so.intellisense: NSEMailConnectionInfo.SetServerName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetServerName(String)'
@@ -209,6 +218,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetUserName(String)
   id: 'SetUserName(String)'
   so.intellisense: NSEMailConnectionInfo.SetUserName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserName(String)'
@@ -231,6 +241,7 @@ items:
   commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetUseSSL(Bool)
   id: 'SetUseSSL(Bool)'
   so.intellisense: NSEMailConnectionInfo.SetUseSSL
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUseSSL(Bool)'

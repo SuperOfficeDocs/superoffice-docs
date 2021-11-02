@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketCategoryEntity
   commentId: T:CRMScript.NetServer.NSTicketCategoryEntity
   id: NSTicketCategoryEntity
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -62,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetAssignmentLag()
   id: 'GetAssignmentLag()'
   so.intellisense: NSTicketCategoryEntity.GetAssignmentLag
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetAssignmentLag()'
@@ -82,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetCategoryMaster()
   id: 'GetCategoryMaster()'
   so.intellisense: NSTicketCategoryEntity.GetCategoryMaster
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCategoryMaster()'
@@ -102,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetClosingStatus()
   id: 'GetClosingStatus()'
   so.intellisense: NSTicketCategoryEntity.GetClosingStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetClosingStatus()'
@@ -122,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSTicketCategoryEntity.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -142,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetDelegateMethod()
   id: 'GetDelegateMethod()'
   so.intellisense: NSTicketCategoryEntity.GetDelegateMethod
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDelegateMethod()'
@@ -162,6 +168,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetExternalName()
   id: 'GetExternalName()'
   so.intellisense: NSTicketCategoryEntity.GetExternalName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetExternalName()'
@@ -182,6 +189,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSTicketCategoryEntity.GetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -202,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetFlags()
   id: 'GetFlags()'
   so.intellisense: NSTicketCategoryEntity.GetFlags
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFlags()'
@@ -222,6 +231,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetFullname()
   id: 'GetFullname()'
   so.intellisense: NSTicketCategoryEntity.GetFullname
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetFullname()'
@@ -242,6 +252,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetMsgClosingStatus()
   id: 'GetMsgClosingStatus()'
   so.intellisense: NSTicketCategoryEntity.GetMsgClosingStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetMsgClosingStatus()'
@@ -262,6 +273,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSTicketCategoryEntity.GetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetName()'
@@ -282,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetNotificationEmail()
   id: 'GetNotificationEmail()'
   so.intellisense: NSTicketCategoryEntity.GetNotificationEmail
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNotificationEmail()'
@@ -302,6 +315,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetParentId()
   id: 'GetParentId()'
   so.intellisense: NSTicketCategoryEntity.GetParentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetParentId()'
@@ -322,6 +336,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetReplyTemplate()
   id: 'GetReplyTemplate()'
   so.intellisense: NSTicketCategoryEntity.GetReplyTemplate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetReplyTemplate()'
@@ -342,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetTicketCategoryId()
   id: 'GetTicketCategoryId()'
   so.intellisense: NSTicketCategoryEntity.GetTicketCategoryId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategoryId()'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetAssignmentLag(Integer)
   id: 'SetAssignmentLag(Integer)'
   so.intellisense: NSTicketCategoryEntity.SetAssignmentLag
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetAssignmentLag(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetCategoryMaster(Integer)
   id: 'SetCategoryMaster(Integer)'
   so.intellisense: NSTicketCategoryEntity.SetCategoryMaster
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCategoryMaster(Integer)'
@@ -428,6 +446,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSTicketCategoryEntity.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -470,6 +489,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetExternalName(String)
   id: 'SetExternalName(String)'
   so.intellisense: NSTicketCategoryEntity.SetExternalName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetExternalName(String)'
@@ -492,6 +512,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSTicketCategoryEntity.SetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -534,6 +555,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetFullname(String)
   id: 'SetFullname(String)'
   so.intellisense: NSTicketCategoryEntity.SetFullname
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetFullname(String)'
@@ -578,6 +600,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSTicketCategoryEntity.SetName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -600,6 +623,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetNotificationEmail(String)
   id: 'SetNotificationEmail(String)'
   so.intellisense: NSTicketCategoryEntity.SetNotificationEmail
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNotificationEmail(String)'
@@ -622,6 +646,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetParentId(Integer)
   id: 'SetParentId(Integer)'
   so.intellisense: NSTicketCategoryEntity.SetParentId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetParentId(Integer)'
@@ -644,6 +669,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetReplyTemplate(Integer)
   id: 'SetReplyTemplate(Integer)'
   so.intellisense: NSTicketCategoryEntity.SetReplyTemplate
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetReplyTemplate(Integer)'
@@ -666,6 +692,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetTicketCategoryId(Integer)
   id: 'SetTicketCategoryId(Integer)'
   so.intellisense: NSTicketCategoryEntity.SetTicketCategoryId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketCategoryId(Integer)'

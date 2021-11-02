@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFreeTextAgent
   commentId: T:CRMScript.NetServer.NSFreeTextAgent
   id: NSFreeTextAgent
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.AddWords(String)
   id: 'AddWords(String)'
   so.intellisense: NSFreeTextAgent.AddWords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'AddWords(String)'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.DeleteStopWordsById(Integer[])
   id: 'DeleteStopWordsById(Integer[])'
   so.intellisense: NSFreeTextAgent.DeleteStopWordsById
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteStopWordsById(Integer[])'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetStatus()
   id: 'GetStatus()'
   so.intellisense: NSFreeTextAgent.GetStatus
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStatus()'
@@ -107,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetStopWordList()
   id: 'GetStopWordList()'
   so.intellisense: NSFreeTextAgent.GetStopWordList
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetStopWordList()'
@@ -127,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetSuggestedStopWords(Integer)
   id: 'GetSuggestedStopWords(Integer)'
   so.intellisense: NSFreeTextAgent.GetSuggestedStopWords
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedStopWords(Integer)'
@@ -150,6 +156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.RegenerateIndex(Bool)
   id: 'RegenerateIndex(Bool)'
   so.intellisense: NSFreeTextAgent.RegenerateIndex
+  so.version: 7.5
   langs:
   - crmscript
   name: 'RegenerateIndex(Bool)'
@@ -173,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
   id: 'SetAutoEnableTravelAreas(Bool)'
   so.intellisense: NSFreeTextAgent.SetAutoEnableTravelAreas
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAutoEnableTravelAreas(Bool)'
@@ -195,6 +203,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetEnabled(Bool)
   id: 'SetEnabled(Bool)'
   so.intellisense: NSFreeTextAgent.SetEnabled
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetEnabled(Bool)'
@@ -217,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetMultiWordOperator(Integer)
   id: 'SetMultiWordOperator(Integer)'
   so.intellisense: NSFreeTextAgent.SetMultiWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetMultiWordOperator(Integer)'
@@ -239,6 +249,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetSingleWordOperator(Integer)
   id: 'SetSingleWordOperator(Integer)'
   so.intellisense: NSFreeTextAgent.SetSingleWordOperator
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSingleWordOperator(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSHeadingEntity
   commentId: T:CRMScript.NetServer.NSHeadingEntity
   id: NSHeadingEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSHeadingEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetHeadingId()
   id: 'GetHeadingId()'
   so.intellisense: NSHeadingEntity.GetHeadingId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetHeadingId()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSHeadingEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSHeadingEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSHeadingEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.GetUdListDefinitionId()
   id: 'GetUdListDefinitionId()'
   so.intellisense: NSHeadingEntity.GetUdListDefinitionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUdListDefinitionId()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSHeadingEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetHeadingId(Integer)
   id: 'SetHeadingId(Integer)'
   so.intellisense: NSHeadingEntity.SetHeadingId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetHeadingId(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSHeadingEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSHeadingEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSHeadingEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSHeadingEntity.SetUdListDefinitionId(Integer)
   id: 'SetUdListDefinitionId(Integer)'
   so.intellisense: NSHeadingEntity.SetUdListDefinitionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUdListDefinitionId(Integer)'

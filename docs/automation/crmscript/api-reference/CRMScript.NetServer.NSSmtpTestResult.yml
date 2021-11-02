@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSmtpTestResult
   commentId: T:CRMScript.NetServer.NSSmtpTestResult
   id: NSSmtpTestResult
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmtpTestResult.GetErrorMessage()
   id: 'GetErrorMessage()'
   so.intellisense: NSSmtpTestResult.GetErrorMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetErrorMessage()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmtpTestResult.GetSuccess()
   id: 'GetSuccess()'
   so.intellisense: NSSmtpTestResult.GetSuccess
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSuccess()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmtpTestResult.SetErrorMessage(String)
   id: 'SetErrorMessage(String)'
   so.intellisense: NSSmtpTestResult.SetErrorMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetErrorMessage(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSmtpTestResult.SetSuccess(Bool)
   id: 'SetSuccess(Bool)'
   so.intellisense: NSSmtpTestResult.SetSuccess
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetSuccess(Bool)'

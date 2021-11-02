@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSRecurrenceWeekPattern
   commentId: T:CRMScript.NetServer.NSRecurrenceWeekPattern
   id: NSRecurrenceWeekPattern
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.GetCycle()
   id: 'GetCycle()'
   so.intellisense: NSRecurrenceWeekPattern.GetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCycle()'
@@ -54,6 +56,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.GetWeekdays()
   id: 'GetWeekdays()'
   so.intellisense: NSRecurrenceWeekPattern.GetWeekdays
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWeekdays()'
@@ -72,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.SetCycle(Integer)
   id: 'SetCycle(Integer)'
   so.intellisense: NSRecurrenceWeekPattern.SetCycle
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCycle(Integer)'
@@ -93,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.SetWeekdays(Integer)
   id: 'SetWeekdays(Integer)'
   so.intellisense: NSRecurrenceWeekPattern.SetWeekdays
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWeekdays(Integer)'

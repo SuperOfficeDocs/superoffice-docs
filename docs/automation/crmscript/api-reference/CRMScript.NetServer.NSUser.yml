@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUser
   commentId: T:CRMScript.NetServer.NSUser
   id: NSUser
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -82,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSUser.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -102,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetCredentials()
   id: 'GetCredentials()'
   so.intellisense: NSUser.GetCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCredentials()'
@@ -122,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetCustomFields()
   id: 'GetCustomFields()'
   so.intellisense: NSUser.GetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomFields()'
@@ -142,6 +146,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSUser.GetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -162,6 +167,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetDisplayName()
   id: 'GetDisplayName()'
   so.intellisense: NSUser.GetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDisplayName()'
@@ -181,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetEjUserId()
   id: 'GetEjUserId()'
   so.intellisense: NSUser.GetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEjUserId()'
@@ -201,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetExtraFields()
   id: 'GetExtraFields()'
   so.intellisense: NSUser.GetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetExtraFields()'
@@ -221,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetIsOnTravel()
   id: 'GetIsOnTravel()'
   so.intellisense: NSUser.GetIsOnTravel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsOnTravel()'
@@ -241,6 +250,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetIsPersonRetired()
   id: 'GetIsPersonRetired()'
   so.intellisense: NSUser.GetIsPersonRetired
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsPersonRetired()'
@@ -261,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetLastlogin()
   id: 'GetLastlogin()'
   so.intellisense: NSUser.GetLastlogin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastlogin()'
@@ -281,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetLastlogout()
   id: 'GetLastlogout()'
   so.intellisense: NSUser.GetLastlogout
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastlogout()'
@@ -301,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetLicenseOwners()
   id: 'GetLicenseOwners()'
   so.intellisense: NSUser.GetLicenseOwners
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLicenseOwners()'
@@ -321,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetName()
   id: 'GetName()'
   so.intellisense: NSUser.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -361,6 +375,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetOtherGroups()
   id: 'GetOtherGroups()'
   so.intellisense: NSUser.GetOtherGroups
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOtherGroups()'
@@ -381,6 +396,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetPerson()
   id: 'GetPerson()'
   so.intellisense: NSUser.GetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPerson()'
@@ -401,6 +417,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetRank()
   id: 'GetRank()'
   so.intellisense: NSUser.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -421,6 +438,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetRequestSignature()
   id: 'GetRequestSignature()'
   so.intellisense: NSUser.GetRequestSignature
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRequestSignature()'
@@ -441,6 +459,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetRole()
   id: 'GetRole()'
   so.intellisense: NSUser.GetRole
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRole()'
@@ -461,6 +480,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetTicketCategories()
   id: 'GetTicketCategories()'
   so.intellisense: NSUser.GetTicketCategories
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketCategories()'
@@ -481,6 +501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSUser.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -501,6 +522,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetType()
   id: 'GetType()'
   so.intellisense: NSUser.GetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetType()'
@@ -521,6 +543,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetUserGroup()
   id: 'GetUserGroup()'
   so.intellisense: NSUser.GetUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetUserGroup()'
@@ -541,6 +564,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.GetUserName()
   id: 'GetUserName()'
   so.intellisense: NSUser.GetUserName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUserName()'
@@ -581,6 +605,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSUser.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -603,6 +628,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
   id: 'SetCredentials(NSCredential[])'
   so.intellisense: NSUser.SetCredentials
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCredentials(NSCredential[])'
@@ -625,6 +651,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetCustomFields(Map)
   id: 'SetCustomFields(Map)'
   so.intellisense: NSUser.SetCustomFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCustomFields(Map)'
@@ -647,6 +674,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSUser.SetDeleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -669,6 +697,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetDisplayName(String)
   id: 'SetDisplayName(String)'
   so.intellisense: NSUser.SetDisplayName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDisplayName(String)'
@@ -690,6 +719,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetEjUserId(Integer)
   id: 'SetEjUserId(Integer)'
   so.intellisense: NSUser.SetEjUserId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEjUserId(Integer)'
@@ -712,6 +742,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetExtraFields(Map)
   id: 'SetExtraFields(Map)'
   so.intellisense: NSUser.SetExtraFields
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetExtraFields(Map)'
@@ -734,6 +765,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
   id: 'SetIsOnTravel(Bool)'
   so.intellisense: NSUser.SetIsOnTravel
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsOnTravel(Bool)'
@@ -756,6 +788,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetIsPersonRetired(Bool)
   id: 'SetIsPersonRetired(Bool)'
   so.intellisense: NSUser.SetIsPersonRetired
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsPersonRetired(Bool)'
@@ -778,6 +811,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetLastlogin(DateTime)
   id: 'SetLastlogin(DateTime)'
   so.intellisense: NSUser.SetLastlogin
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastlogin(DateTime)'
@@ -800,6 +834,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetLastlogout(DateTime)
   id: 'SetLastlogout(DateTime)'
   so.intellisense: NSUser.SetLastlogout
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastlogout(DateTime)'
@@ -822,6 +857,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetLicenseOwners(NSLicenseOwner[])
   id: 'SetLicenseOwners(NSLicenseOwner[])'
   so.intellisense: NSUser.SetLicenseOwners
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLicenseOwners(NSLicenseOwner[])'
@@ -844,6 +880,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSUser.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -888,6 +925,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetOtherGroups(NSUserGroup[])
   id: 'SetOtherGroups(NSUserGroup[])'
   so.intellisense: NSUser.SetOtherGroups
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOtherGroups(NSUserGroup[])'
@@ -910,6 +948,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetPerson(NSPerson)
   id: 'SetPerson(NSPerson)'
   so.intellisense: NSUser.SetPerson
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPerson(NSPerson)'
@@ -932,6 +971,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSUser.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -954,6 +994,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetRequestSignature(String)
   id: 'SetRequestSignature(String)'
   so.intellisense: NSUser.SetRequestSignature
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRequestSignature(String)'
@@ -976,6 +1017,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetRole(NSRole)
   id: 'SetRole(NSRole)'
   so.intellisense: NSUser.SetRole
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRole(NSRole)'
@@ -998,6 +1040,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetTicketCategories(NSMDOListItem[])
   id: 'SetTicketCategories(NSMDOListItem[])'
   so.intellisense: NSUser.SetTicketCategories
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketCategories(NSMDOListItem[])'
@@ -1020,6 +1063,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSUser.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -1042,6 +1086,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetType(Integer)
   id: 'SetType(Integer)'
   so.intellisense: NSUser.SetType
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetType(Integer)'
@@ -1064,6 +1109,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetUserGroup(NSUserGroup)
   id: 'SetUserGroup(NSUserGroup)'
   so.intellisense: NSUser.SetUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetUserGroup(NSUserGroup)'
@@ -1086,6 +1132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUser.SetUserName(String)
   id: 'SetUserName(String)'
   so.intellisense: NSUser.SetUserName
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUserName(String)'

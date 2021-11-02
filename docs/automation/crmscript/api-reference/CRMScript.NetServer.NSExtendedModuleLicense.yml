@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSExtendedModuleLicense
   commentId: T:CRMScript.NetServer.NSExtendedModuleLicense
   id: NSExtendedModuleLicense
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetCurrent()
   id: 'GetCurrent()'
   so.intellisense: NSExtendedModuleLicense.GetCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrent()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNew()
   id: 'GetNew()'
   so.intellisense: NSExtendedModuleLicense.GetNew
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNew()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesAdded()
   id: 'GetNumberOfLicensesAdded()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesAdded
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesAdded()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesFree()
   id: 'GetNumberOfLicensesFree()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesFree
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesFree()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesInUse()
   id: 'GetNumberOfLicensesInUse()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesInUse
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesInUse()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesNewFree()
   id: 'GetNumberOfLicensesNewFree()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesNewFree
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesNewFree()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesNewTotal()
   id: 'GetNumberOfLicensesNewTotal()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesNewTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesNewTotal()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.GetNumberOfLicensesTotal()
   id: 'GetNumberOfLicensesTotal()'
   so.intellisense: NSExtendedModuleLicense.GetNumberOfLicensesTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetNumberOfLicensesTotal()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetCurrent(NSModuleLicense)
   id: 'SetCurrent(NSModuleLicense)'
   so.intellisense: NSExtendedModuleLicense.SetCurrent
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrent(NSModuleLicense)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNew(NSModuleLicense)
   id: 'SetNew(NSModuleLicense)'
   so.intellisense: NSExtendedModuleLicense.SetNew
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNew(NSModuleLicense)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesAdded(Integer)
   id: 'SetNumberOfLicensesAdded(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesAdded
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesAdded(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesFree(Integer)
   id: 'SetNumberOfLicensesFree(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesFree
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesFree(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesInUse(Integer)
   id: 'SetNumberOfLicensesInUse(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesInUse
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesInUse(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesNewFree(Integer)
   id: 'SetNumberOfLicensesNewFree(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesNewFree
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesNewFree(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesNewTotal(Integer)
   id: 'SetNumberOfLicensesNewTotal(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesNewTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesNewTotal(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSExtendedModuleLicense.SetNumberOfLicensesTotal(Integer)
   id: 'SetNumberOfLicensesTotal(Integer)'
   so.intellisense: NSExtendedModuleLicense.SetNumberOfLicensesTotal
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetNumberOfLicensesTotal(Integer)'

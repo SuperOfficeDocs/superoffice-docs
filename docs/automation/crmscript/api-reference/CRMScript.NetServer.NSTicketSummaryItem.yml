@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketSummaryItem
   commentId: T:CRMScript.NetServer.NSTicketSummaryItem
   id: NSTicketSummaryItem
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetRegistered()
   id: 'GetRegistered()'
   so.intellisense: NSTicketSummaryItem.GetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetRegistered()'
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTicketId()
   id: 'GetTicketId()'
   so.intellisense: NSTicketSummaryItem.GetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketId()'
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTicketStatus()
   id: 'GetTicketStatus()'
   so.intellisense: NSTicketSummaryItem.GetTicketStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketStatus()'
@@ -100,6 +104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSTicketSummaryItem.GetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
   so.intellisense: NSTicketSummaryItem.SetRegistered
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetRegistered(DateTime)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTicketId(Integer)
   id: 'SetTicketId(Integer)'
   so.intellisense: NSTicketSummaryItem.SetTicketId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketId(Integer)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTicketStatus(Integer)
   id: 'SetTicketStatus(Integer)'
   so.intellisense: NSTicketSummaryItem.SetTicketStatus
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketStatus(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSTicketSummaryItem.SetTitle
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTitle(String)'

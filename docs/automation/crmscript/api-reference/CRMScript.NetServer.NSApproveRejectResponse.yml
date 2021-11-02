@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSApproveRejectResponse
   commentId: T:CRMScript.NetServer.NSApproveRejectResponse
   id: NSApproveRejectResponse
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSApproveRejectResponse.GetCreatedAppointmentId()
   id: 'GetCreatedAppointmentId()'
   so.intellisense: NSApproveRejectResponse.GetCreatedAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCreatedAppointmentId()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSApproveRejectResponse.GetPluginResponse()
   id: 'GetPluginResponse()'
   so.intellisense: NSApproveRejectResponse.GetPluginResponse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPluginResponse()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
   id: 'SetCreatedAppointmentId(Integer)'
   so.intellisense: NSApproveRejectResponse.SetCreatedAppointmentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetCreatedAppointmentId(Integer)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
   id: 'SetPluginResponse(NSPluginResponse)'
   so.intellisense: NSApproveRejectResponse.SetPluginResponse
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPluginResponse(NSPluginResponse)'

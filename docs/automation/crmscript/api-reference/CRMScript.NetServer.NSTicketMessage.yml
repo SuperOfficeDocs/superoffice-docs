@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTicketMessage
   commentId: T:CRMScript.NetServer.NSTicketMessage
   id: NSTicketMessage
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -136,6 +137,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.GetCreatedAt()
   id: 'GetCreatedAt()'
   so.intellisense: NSTicketMessage.GetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCreatedAt()'
@@ -176,6 +178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.GetImportant()
   id: 'GetImportant()'
   so.intellisense: NSTicketMessage.GetImportant
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetImportant()'
@@ -256,6 +259,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.GetSlevel()
   id: 'GetSlevel()'
   so.intellisense: NSTicketMessage.GetSlevel
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSlevel()'
@@ -276,6 +280,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.GetTicketMessageId()
   id: 'GetTicketMessageId()'
   so.intellisense: NSTicketMessage.GetTicketMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetTicketMessageId()'
@@ -384,6 +389,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.SetCreatedAt(DateTime)
   id: 'SetCreatedAt(DateTime)'
   so.intellisense: NSTicketMessage.SetCreatedAt
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetCreatedAt(DateTime)'
@@ -428,6 +434,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.SetImportant(Bool)
   id: 'SetImportant(Bool)'
   so.intellisense: NSTicketMessage.SetImportant
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetImportant(Bool)'
@@ -538,6 +545,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTicketMessage.SetTicketMessageId(Integer)
   id: 'SetTicketMessageId(Integer)'
   so.intellisense: NSTicketMessage.SetTicketMessageId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetTicketMessageId(Integer)'

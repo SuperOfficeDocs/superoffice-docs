@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSDocumentAgent
   commentId: T:CRMScript.NetServer.NSDocumentAgent
   id: NSDocumentAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -117,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
   id: 'CheckinDocument(Integer,String[],String,String[])'
   so.intellisense: NSDocumentAgent.CheckinDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CheckinDocument(Integer,String[],String,String[])'
@@ -149,6 +151,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CheckoutDocument(Integer,String[])
   id: 'CheckoutDocument(Integer,String[])'
   so.intellisense: NSDocumentAgent.CheckoutDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CheckoutDocument(Integer,String[])'
@@ -175,6 +178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntity()
   id: 'CreateDefaultDocumentEntity()'
   so.intellisense: NSDocumentAgent.CreateDefaultDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultDocumentEntity()'
@@ -195,6 +199,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
   id: 'CreateDefaultDocumentEntityFromSuggestion(Integer)'
   so.intellisense: NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultDocumentEntityFromSuggestion(Integer)'
@@ -237,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
   id: 'CreateDefaultSuggestedDocumentEntity()'
   so.intellisense: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultSuggestedDocumentEntity()'
@@ -257,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
   id: 'CreateDefaultTemplateVariablesParameters()'
   so.intellisense: NSDocumentAgent.CreateDefaultTemplateVariablesParameters
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultTemplateVariablesParameters()'
@@ -277,6 +284,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
   id: 'CreateDocumentStream(NSDocumentEntity,Bool)'
   so.intellisense: NSDocumentAgent.CreateDocumentStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDocumentStream(NSDocumentEntity,Bool)'
@@ -303,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
   id: 'CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
   so.intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
@@ -347,6 +356,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
   id: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)'
   so.intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)'
@@ -441,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
   id: 'CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)'
   so.intellisense: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)'
@@ -490,6 +501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.DeleteDocumentEntity(Integer)
   id: 'DeleteDocumentEntity(Integer)'
   so.intellisense: NSDocumentAgent.DeleteDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteDocumentEntity(Integer)'
@@ -512,6 +524,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
   id: 'DeletePhysicalDocument(Integer,String[])'
   so.intellisense: NSDocumentAgent.DeletePhysicalDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeletePhysicalDocument(Integer,String[])'
@@ -537,6 +550,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.DeleteTempFile(String)
   id: 'DeleteTempFile(String)'
   so.intellisense: NSDocumentAgent.DeleteTempFile
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteTempFile(String)'
@@ -558,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
   id: 'ExecuteDocumentCommand(Integer,String,String[],String,String[])'
   so.intellisense: NSDocumentAgent.ExecuteDocumentCommand
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ExecuteDocumentCommand(Integer,String,String[],String,String[])'
@@ -592,6 +607,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetAppointmentDocuments(Integer)
   id: 'GetAppointmentDocuments(Integer)'
   so.intellisense: NSDocumentAgent.GetAppointmentDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAppointmentDocuments(Integer)'
@@ -615,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetCheckoutState(Integer)
   id: 'GetCheckoutState(Integer)'
   so.intellisense: NSDocumentAgent.GetCheckoutState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCheckoutState(Integer)'
@@ -751,6 +768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocument(Integer)
   id: 'GetDocument(Integer)'
   so.intellisense: NSDocumentAgent.GetDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocument(Integer)'
@@ -774,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentCommands(Integer,String[])
   id: 'GetDocumentCommands(Integer,String[])'
   so.intellisense: NSDocumentAgent.GetDocumentCommands
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentCommands(Integer,String[])'
@@ -800,6 +819,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentEntity(Integer)
   id: 'GetDocumentEntity(Integer)'
   so.intellisense: NSDocumentAgent.GetDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentEntity(Integer)'
@@ -823,6 +843,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentList(Integer[])
   id: 'GetDocumentList(Integer[])'
   so.intellisense: NSDocumentAgent.GetDocumentList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentList(Integer[])'
@@ -846,6 +867,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentProperties(Integer,String[])
   id: 'GetDocumentProperties(Integer,String[])'
   so.intellisense: NSDocumentAgent.GetDocumentProperties
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentProperties(Integer,String[])'
@@ -872,6 +894,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
   id: 'GetDocumentsByTemplateHeading(Integer)'
   so.intellisense: NSDocumentAgent.GetDocumentsByTemplateHeading
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentsByTemplateHeading(Integer)'
@@ -894,6 +917,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentStream(Integer)
   id: 'GetDocumentStream(Integer)'
   so.intellisense: NSDocumentAgent.GetDocumentStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentStream(Integer)'
@@ -917,6 +941,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
   id: 'GetDocumentStreamFromEntity(NSDocumentEntity)'
   so.intellisense: NSDocumentAgent.GetDocumentStreamFromEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentStreamFromEntity(NSDocumentEntity)'
@@ -940,6 +965,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
   id: 'GetDocumentUrl(Integer,String,Bool)'
   so.intellisense: NSDocumentAgent.GetDocumentUrl
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDocumentUrl(Integer,String,Bool)'
@@ -969,6 +995,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetMyPublishedDocuments()
   id: 'GetMyPublishedDocuments()'
   so.intellisense: NSDocumentAgent.GetMyPublishedDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyPublishedDocuments()'
@@ -989,6 +1016,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocuments(Integer)
   id: 'GetPersonDocuments(Integer)'
   so.intellisense: NSDocumentAgent.GetPersonDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPersonDocuments(Integer)'
@@ -1136,6 +1164,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPluginCapabilities(Integer)
   id: 'GetPluginCapabilities(Integer)'
   so.intellisense: NSDocumentAgent.GetPluginCapabilities
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPluginCapabilities(Integer)'
@@ -1159,6 +1188,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPluginList()
   id: 'GetPluginList()'
   so.intellisense: NSDocumentAgent.GetPluginList
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPluginList()'
@@ -1428,6 +1458,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedDocument(Integer)
   id: 'GetPublishedDocument(Integer)'
   so.intellisense: NSDocumentAgent.GetPublishedDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedDocument(Integer)'
@@ -1450,6 +1481,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedDocuments(Integer[])
   id: 'GetPublishedDocuments(Integer[])'
   so.intellisense: NSDocumentAgent.GetPublishedDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedDocuments(Integer[])'
@@ -1530,6 +1562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedProjectDocuments(Integer)
   id: 'GetPublishedProjectDocuments(Integer)'
   so.intellisense: NSDocumentAgent.GetPublishedProjectDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPublishedProjectDocuments(Integer)'
@@ -1553,6 +1586,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSaleDocuments(Integer)
   id: 'GetSaleDocuments(Integer)'
   so.intellisense: NSDocumentAgent.GetSaleDocuments
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleDocuments(Integer)'
@@ -1576,6 +1610,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedDocumentStream(Integer)
   id: 'GetSanitizedDocumentStream(Integer)'
   so.intellisense: NSDocumentAgent.GetSanitizedDocumentStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSanitizedDocumentStream(Integer)'
@@ -1599,6 +1634,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
   id: 'GetSanitizedTemplateStream(String,Bool,String)'
   so.intellisense: NSDocumentAgent.GetSanitizedTemplateStream
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSanitizedTemplateStream(String,Bool,String)'
@@ -1628,6 +1664,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
   id: 'GetSanitizedTemplateStreamFromId(Integer,String)'
   so.intellisense: NSDocumentAgent.GetSanitizedTemplateStreamFromId
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetSanitizedTemplateStreamFromId(Integer,String)'
@@ -1654,6 +1691,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
   id: 'GetSuggestedDocumentEntity(Integer)'
   so.intellisense: NSDocumentAgent.GetSuggestedDocumentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSuggestedDocumentEntity(Integer)'
@@ -1677,6 +1715,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTempFile(String)
   id: 'GetTempFile(String)'
   so.intellisense: NSDocumentAgent.GetTempFile
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTempFile(String)'
@@ -1700,6 +1739,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTemplateStream(String,Bool,String)
   id: 'GetTemplateStream(String,Bool,String)'
   so.intellisense: NSDocumentAgent.GetTemplateStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTemplateStream(String,Bool,String)'
@@ -1729,6 +1769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
   id: 'GetTemplateStreamFromId(Integer,String)'
   so.intellisense: NSDocumentAgent.GetTemplateStreamFromId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTemplateStreamFromId(Integer,String)'
@@ -1778,6 +1819,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.GetVersionList(Integer)
   id: 'GetVersionList(Integer)'
   so.intellisense: NSDocumentAgent.GetVersionList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVersionList(Integer)'
@@ -1801,6 +1843,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.RenameDocument(Integer,String)
   id: 'RenameDocument(Integer,String)'
   so.intellisense: NSDocumentAgent.RenameDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RenameDocument(Integer,String)'
@@ -1827,6 +1870,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
   id: 'SaveDocumentEntity(NSDocumentEntity)'
   so.intellisense: NSDocumentAgent.SaveDocumentEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveDocumentEntity(NSDocumentEntity)'
@@ -1850,6 +1894,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
   id: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
   so.intellisense: NSDocumentAgent.SaveDocumentTemplateStream
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
@@ -1882,6 +1927,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SavePrivacyReport(String,String,Integer)
   id: 'SavePrivacyReport(String,String,Integer)'
   so.intellisense: NSDocumentAgent.SavePrivacyReport
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SavePrivacyReport(String,String,Integer)'
@@ -1911,6 +1957,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
   id: 'SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)'
   so.intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)'
@@ -1983,6 +2030,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
   id: 'SetTemplateStream(String,Bool,NSStream)'
   so.intellisense: NSDocumentAgent.SetTemplateStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTemplateStream(String,Bool,NSStream)'
@@ -2011,6 +2059,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
   id: 'SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])'
   so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])'
@@ -2070,6 +2119,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
   id: 'SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])'
   so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])'
@@ -2166,6 +2216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
   id: 'SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
   so.intellisense: NSDocumentAgent.SubstituteTemplateVariables
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
@@ -2236,6 +2287,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
   id: 'SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
   so.intellisense: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
@@ -2345,6 +2397,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
   id: 'UndoCheckoutDocument(Integer,String[])'
   so.intellisense: NSDocumentAgent.UndoCheckoutDocument
+  so.version: 7.0
   langs:
   - crmscript
   name: 'UndoCheckoutDocument(Integer,String[])'
@@ -2394,6 +2447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDocumentAgent.VerifyGetDocumentStream(Integer)
   id: 'VerifyGetDocumentStream(Integer)'
   so.intellisense: NSDocumentAgent.VerifyGetDocumentStream
+  so.version: 7.0
   langs:
   - crmscript
   name: 'VerifyGetDocumentStream(Integer)'

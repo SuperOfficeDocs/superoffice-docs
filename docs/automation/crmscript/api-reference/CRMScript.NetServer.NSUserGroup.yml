@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSUserGroup
   commentId: T:CRMScript.NetServer.NSUserGroup
   id: NSUserGroup
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSUserGroup.GetDeleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -62,6 +64,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.GetId()
   id: 'GetId()'
   so.intellisense: NSUserGroup.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -82,6 +85,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.GetRank()
   id: 'GetRank()'
   so.intellisense: NSUserGroup.GetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRank()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSUserGroup.GetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -122,6 +127,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.GetValue()
   id: 'GetValue()'
   so.intellisense: NSUserGroup.GetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetValue()'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSUserGroup.SetDeleted
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSUserGroup.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSUserGroup.SetRank
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSUserGroup.SetTooltip
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSUserGroup.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSUserGroup.SetValue
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetValue(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLicenseResult
   commentId: T:CRMScript.NetServer.NSLicenseResult
   id: NSLicenseResult
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseResult.GetReason()
   id: 'GetReason()'
   so.intellisense: NSLicenseResult.GetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetReason()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseResult.GetSucceeded()
   id: 'GetSucceeded()'
   so.intellisense: NSLicenseResult.GetSucceeded
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSucceeded()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseResult.SetReason(String)
   id: 'SetReason(String)'
   so.intellisense: NSLicenseResult.SetReason
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetReason(String)'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLicenseResult.SetSucceeded(Bool)
   id: 'SetSucceeded(Bool)'
   so.intellisense: NSLicenseResult.SetSucceeded
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSucceeded(Bool)'

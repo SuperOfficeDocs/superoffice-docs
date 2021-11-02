@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSMailMergeTask
   commentId: T:CRMScript.NetServer.NSMailMergeTask
   id: NSMailMergeTask
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -54,6 +55,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetCompleted()
   id: 'GetCompleted()'
   so.intellisense: NSMailMergeTask.GetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCompleted()'
@@ -74,6 +76,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSMailMergeTask.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -94,6 +97,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetDuration()
   id: 'GetDuration()'
   so.intellisense: NSMailMergeTask.GetDuration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuration()'
@@ -114,6 +118,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetOwnerAssociateId()
   id: 'GetOwnerAssociateId()'
   so.intellisense: NSMailMergeTask.GetOwnerAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOwnerAssociateId()'
@@ -134,6 +139,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetPriorityId()
   id: 'GetPriorityId()'
   so.intellisense: NSMailMergeTask.GetPriorityId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPriorityId()'
@@ -154,6 +160,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetProjectId()
   id: 'GetProjectId()'
   so.intellisense: NSMailMergeTask.GetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetProjectId()'
@@ -174,6 +181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSMailMergeTask.GetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -194,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetSingleEntryOnEachCompany()
   id: 'GetSingleEntryOnEachCompany()'
   so.intellisense: NSMailMergeTask.GetSingleEntryOnEachCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSingleEntryOnEachCompany()'
@@ -214,6 +223,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetStartDate()
   id: 'GetStartDate()'
   so.intellisense: NSMailMergeTask.GetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartDate()'
@@ -234,6 +244,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetTypeId()
   id: 'GetTypeId()'
   so.intellisense: NSMailMergeTask.GetTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTypeId()'
@@ -254,6 +265,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.GetVisibleFor()
   id: 'GetVisibleFor()'
   so.intellisense: NSMailMergeTask.GetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetVisibleFor()'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetCompleted(Integer)
   id: 'SetCompleted(Integer)'
   so.intellisense: NSMailMergeTask.SetCompleted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCompleted(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSMailMergeTask.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetDuration(Integer)
   id: 'SetDuration(Integer)'
   so.intellisense: NSMailMergeTask.SetDuration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDuration(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetOwnerAssociateId(Integer)
   id: 'SetOwnerAssociateId(Integer)'
   so.intellisense: NSMailMergeTask.SetOwnerAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOwnerAssociateId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetPriorityId(Integer)
   id: 'SetPriorityId(Integer)'
   so.intellisense: NSMailMergeTask.SetPriorityId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetPriorityId(Integer)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetProjectId(Integer)
   id: 'SetProjectId(Integer)'
   so.intellisense: NSMailMergeTask.SetProjectId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetProjectId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSMailMergeTask.SetSaleId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
   id: 'SetSingleEntryOnEachCompany(Bool)'
   so.intellisense: NSMailMergeTask.SetSingleEntryOnEachCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSingleEntryOnEachCompany(Bool)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetStartDate(DateTime)
   id: 'SetStartDate(DateTime)'
   so.intellisense: NSMailMergeTask.SetStartDate
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartDate(DateTime)'
@@ -470,6 +491,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)
   id: 'SetTypeId(Integer)'
   so.intellisense: NSMailMergeTask.SetTypeId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTypeId(Integer)'
@@ -492,6 +514,7 @@ items:
   commentId: M:CRMScript.NetServer.NSMailMergeTask.SetVisibleFor(NSVisibleFor)
   id: 'SetVisibleFor(NSVisibleFor)'
   so.intellisense: NSMailMergeTask.SetVisibleFor
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetVisibleFor(NSVisibleFor)'

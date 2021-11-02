@@ -7,75 +7,76 @@ items:
   - crmscript
   children:
     - CRMScript.Global.String.#ctor
-    - CRMScript.Global.String.#ctor(String)
     - CRMScript.Global.String.#ctor(Byte[])
     - CRMScript.Global.String.#ctor(Byte[], String)
     - CRMScript.Global.String.#ctor(NSStream)
     - CRMScript.Global.String.#ctor(NSStream, String)
-    - CRMScript.Global.String.getLength()
-    - CRMScript.Global.String.toLower()
-    - CRMScript.Global.String.toUpper()
-    - CRMScript.Global.String.isLower()
-    - CRMScript.Global.String.isUpper()
-    - CRMScript.Global.String.escape(String)
-    - CRMScript.Global.String.equals(String)
-    - CRMScript.Global.String.equalsIgnoreCase(String)
+    - CRMScript.Global.String.#ctor(String)
+    - CRMScript.Global.String.after(String)
+    - CRMScript.Global.String.afterLast(String)
+    - CRMScript.Global.String.append(Byte)
+    - CRMScript.Global.String.append(String)
+    - CRMScript.Global.String.before(String)
+    - CRMScript.Global.String.beforeLast(String)
     - CRMScript.Global.String.beginsWith(String)
     - CRMScript.Global.String.caseBeginsWith(String)
-    - CRMScript.Global.String.endsWith(String)
+    - CRMScript.Global.String.caseCompare(String)
     - CRMScript.Global.String.caseEndsWith(String)
     - CRMScript.Global.String.compare(String)
-    - CRMScript.Global.String.caseCompare(String)
-    - CRMScript.Global.String.append(String)
-    - CRMScript.Global.String.append(Byte)
-    - CRMScript.Global.String.substitute(String, String)
+    - CRMScript.Global.String.endsWith(String)
+    - CRMScript.Global.String.equals(String)
+    - CRMScript.Global.String.equalsIgnoreCase(String)
+    - CRMScript.Global.String.escape(String)
+    - CRMScript.Global.String.extractHtmlBody(Bool)
+    - CRMScript.Global.String.extractHtmlHead(Bool)
     - CRMScript.Global.String.find(String)
     - CRMScript.Global.String.findCase(String)
     - CRMScript.Global.String.findLast(String)
-    - CRMScript.Global.String.subString(Integer, Integer)
-    - CRMScript.Global.String.until(String)
-    - CRMScript.Global.String.before(String)
-    - CRMScript.Global.String.beforeLast(String)
-    - CRMScript.Global.String.after(String)
-    - CRMScript.Global.String.afterLast(String)
-    - CRMScript.Global.String.split(String)
-    - CRMScript.Global.String.isAlpha()
-    - CRMScript.Global.String.isDigit()
-    - CRMScript.Global.String.isAlphanumeric()
-    - CRMScript.Global.String.isNumber()
-    - CRMScript.Global.String.isNull()
-    - CRMScript.Global.String.isEmpty()
-    - CRMScript.Global.String.toBool()
-    - CRMScript.Global.String.toInteger()
-    - CRMScript.Global.String.toFloat()
-    - CRMScript.Global.String.toByteArray()
-    - CRMScript.Global.String.toDate()
-    - CRMScript.Global.String.toDateTime()
-    - CRMScript.Global.String.toTime()
-    - CRMScript.Global.String.extractHtmlBody(Bool)
-    - CRMScript.Global.String.extractHtmlHead(Bool)
-    - CRMScript.Global.String.htmlDecode()
-    - CRMScript.Global.String.htmlEncode()
     - CRMScript.Global.String.getEmails()
-    - CRMScript.Global.String.isValidEmail()
+    - CRMScript.Global.String.getLength()
     - CRMScript.Global.String.getLine()
     - CRMScript.Global.String.getWord(Integer)
-    - CRMScript.Global.String.urlDecode()
-    - CRMScript.Global.String.urlEncode()
-    - CRMScript.Global.String.utf8Decode()
-    - CRMScript.Global.String.utf8Encode()
-    - CRMScript.Global.String.xmlDecode()
-    - CRMScript.Global.String.xmlEncode()
+    - CRMScript.Global.String.htmlDecode()
+    - CRMScript.Global.String.htmlEncode()
+    - CRMScript.Global.String.isAlpha()
+    - CRMScript.Global.String.isAlphanumeric()
+    - CRMScript.Global.String.isDigit()
+    - CRMScript.Global.String.isEmpty()
+    - CRMScript.Global.String.isHtmlDocument()
+    - CRMScript.Global.String.isLower()
+    - CRMScript.Global.String.isNull()
+    - CRMScript.Global.String.isNumber()
+    - CRMScript.Global.String.isUpper()
+    - CRMScript.Global.String.isValidEmail()
     - CRMScript.Global.String.keepChars(String)
     - CRMScript.Global.String.parseCSV(String)
     - CRMScript.Global.String.parseSOMultiLanguageString(Integer)
     - CRMScript.Global.String.prettyChop(Integer)
-    - CRMScript.Global.String.regexp(String)
     - CRMScript.Global.String.quote(String)
-    - CRMScript.Global.String.wrap(Integer, Bool)
+    - CRMScript.Global.String.regexp(String)
+    - CRMScript.Global.String.split(String)
     - CRMScript.Global.String.stripLeading(String)
     - CRMScript.Global.String.stripLeadingAndTrailing(String)
     - CRMScript.Global.String.stripTrailing(String)
+    - CRMScript.Global.String.subString(Integer, Integer)
+    - CRMScript.Global.String.substitute(String, String)
+    - CRMScript.Global.String.toBool()
+    - CRMScript.Global.String.toByteArray()
+    - CRMScript.Global.String.toDate()
+    - CRMScript.Global.String.toDateTime()
+    - CRMScript.Global.String.toFloat()
+    - CRMScript.Global.String.toInteger()
+    - CRMScript.Global.String.toLower()
+    - CRMScript.Global.String.toTime()
+    - CRMScript.Global.String.toUpper()
+    - CRMScript.Global.String.until(String)
+    - CRMScript.Global.String.urlDecode()
+    - CRMScript.Global.String.urlEncode()
+    - CRMScript.Global.String.utf8Decode()
+    - CRMScript.Global.String.utf8Encode()
+    - CRMScript.Global.String.wrap(Integer, Bool)
+    - CRMScript.Global.String.xmlDecode()
+    - CRMScript.Global.String.xmlEncode()
   name: String
   nameWithType: String
   fullName: CRMScript.Global.String
@@ -178,6 +179,7 @@ items:
   commentId: M:CRMScript.Global.String.#ctor(NSStream)
   id: '#ctor(NSStream)'
   so.intellisense: Void.String
+  so.version: 8.5R08
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -202,6 +204,7 @@ items:
   commentId: M:CRMScript.Global.String.#ctor(NSStream, String)
   id: '#ctor(NSStream, String)'
   so.intellisense: Void.String
+  so.version: 8.5R08
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -287,6 +290,7 @@ items:
   commentId: M:CRMScript.Global.String.isLower()
   id: isLower()
   so.intellisense: String.isLower
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -306,6 +310,7 @@ items:
   commentId: M:CRMScript.Global.String.isUpper()
   id: isUpper()
   so.intellisense: String.isUpper
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.
@@ -325,6 +330,7 @@ items:
   commentId: M:CRMScript.Global.String.equals(String)
   id: equals(String)
   so.intellisense: String.equals
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -348,6 +354,7 @@ items:
   commentId: M:CRMScript.Global.String.equalsIgnoreCase(String)
   id: equalsIgnoreCase(String)
   so.intellisense: String.equalsIgnoreCase
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -461,6 +468,7 @@ items:
   commentId: M:CRMScript.Global.String.compare(String)
   id: compare(String)
   so.intellisense: String.compare
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -484,6 +492,7 @@ items:
   commentId: M:CRMScript.Global.String.caseCompare(String)
   id: caseCompare(String)
   so.intellisense: String.caseCompare
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -507,6 +516,7 @@ items:
   commentId: M:CRMScript.Global.String.append(String)
   id: append(String)
   so.intellisense: String.append
+  so.version: 4.10.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -623,6 +633,7 @@ items:
   commentId: M:CRMScript.Global.String.findLast(String)
   id: findLast(String)
   so.intellisense: String.findLast
+  so.version: 4.8.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -717,6 +728,7 @@ items:
   commentId: M:CRMScript.Global.String.beforeLast(String)
   id: beforeLast(String)
   so.intellisense: String.beforeLast
+  so.version: 4.8.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -764,6 +776,7 @@ items:
   commentId: M:CRMScript.Global.String.afterLast(String)
   id: afterLast(String)
   so.intellisense: String.afterLast
+  so.version: 4.8.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -809,6 +822,7 @@ items:
   commentId: M:CRMScript.Global.String.isAlpha()
   id: isAlpha()
   so.intellisense: String.isAlpha
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -830,6 +844,7 @@ items:
   commentId: M:CRMScript.Global.String.isDigit()
   id: isDigit()
   so.intellisense: String.isDigit
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -848,6 +863,7 @@ items:
   commentId: M:CRMScript.Global.String.isAlphanumeric()
   id: isAlphanumeric()
   so.intellisense: String.isAlphanumeric
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -866,6 +882,7 @@ items:
   commentId: M:CRMScript.Global.String.isNull()
   id: isNull()
   so.intellisense: String.isNull
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -904,6 +921,7 @@ items:
   commentId: M:CRMScript.Global.String.toBool()
   id: toBool()
   so.intellisense: String.toBool
+  so.version: 3.1.7
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1053,6 +1071,7 @@ items:
   commentId: M:CRMScript.Global.String.extractHtmlBody(Bool)
   id: extractHtmlBody(Bool)
   so.intellisense: String.extractHtmlBody
+  so.version: 4.9.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1074,6 +1093,7 @@ items:
   commentId: M:CRMScript.Global.String.extractHtmlHead(Bool)
   id: extractHtmlHead(Bool)
   so.intellisense: String.extractHtmlHead
+  so.version: 4.9.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1095,6 +1115,7 @@ items:
   commentId: M:CRMScript.Global.String.isHtmlDocument()
   id: isHtmlDocument()
   so.intellisense: String.isHtmlDocument
+  so.version: 8.5R08
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1149,6 +1170,7 @@ items:
   commentId: M:CRMScript.Global.String.getEmails()
   id: getEmails()
   so.intellisense: String.getEmails
+  so.version: 4.9.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1228,6 +1250,7 @@ items:
   commentId: M:CRMScript.Global.String.isNumber()
   id: isNumber()
   so.intellisense: String.isNumber
+  so.version: 4.0.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1284,6 +1307,7 @@ items:
   commentId: M:CRMScript.Global.String.utf8Decode()
   id: utf8Decode()
   so.intellisense: String.utf8Decode
+  so.version: 3.1.8
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1302,6 +1326,7 @@ items:
   commentId: M:CRMScript.Global.String.utf8Encode()
   id: utf8Encode()
   so.intellisense: String.utf8Encode
+  so.version: 3.1.8
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1320,6 +1345,7 @@ items:
   commentId: M:CRMScript.Global.String.xmlDecode()
   id: xmlDecode()
   so.intellisense: String.xmlDecode
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1338,6 +1364,7 @@ items:
   commentId: M:CRMScript.Global.String.xmlEncode()
   id: xmlEncode()
   so.intellisense: String.xmlEncode
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1356,6 +1383,7 @@ items:
   commentId: M:CRMScript.Global.String.keepChars(String)
   id: keepChars(String)
   so.intellisense: String.keepChars
+  so.version: 3.1.8
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1377,6 +1405,7 @@ items:
   commentId: M:CRMScript.Global.String.parseCSV(String)
   id: parseCSV(String)
   so.intellisense: String.parseCSV
+  so.version: 7.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1398,6 +1427,7 @@ items:
   commentId: M:CRMScript.Global.String.parseSOMultiLanguageString(Integer)
   id: parseSOMultiLanguageString(Integer)
   so.intellisense: String.parseSOMultiLanguageString
+  so.version: 7.5
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1421,6 +1451,7 @@ items:
   commentId: M:CRMScript.Global.String.prettyChop(Integer)
   id: prettyChop(Integer)
   so.intellisense: String.prettyChop
+  so.version: 3.1.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1442,6 +1473,7 @@ items:
   commentId: M:CRMScript.Global.String.quote(String)
   id: quote(String)
   so.intellisense: String.quote
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1462,6 +1494,7 @@ items:
   commentId: M:CRMScript.Global.String.regexp(String)
   id: regexp(String)
   so.intellisense: String.regexp
+  so.version: 7.0
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1506,6 +1539,7 @@ items:
   commentId: M:CRMScript.Global.String.stripLeadingAndTrailing(String)
   id: stripLeadingAndTrailing(String)
   so.intellisense: String.stripLeadingAndTrailing
+  so.version: 4.7.1
   langs:
   - crmscript
   parent: CRMScript.Global.String
@@ -1548,6 +1582,7 @@ items:
   commentId: M:CRMScript.Global.String.wrap(Integer, Bool)
   id: wrap(Integer, Bool)
   so.intellisense: String.wrap
+  so.version: 3.0.11
   langs:
   - crmscript
   parent: CRMScript.Global.String

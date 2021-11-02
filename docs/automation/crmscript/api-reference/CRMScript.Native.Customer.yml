@@ -56,6 +56,7 @@ items:
   commentId: M:CRMScript.Native.Customer.addEmail(String,Integer,Integer)
   id: 'addEmail(String,Integer,Integer)'
   so.intellisense: Customer.addEmail
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'addEmail(String,Integer,Integer)'
@@ -83,6 +84,7 @@ items:
   commentId: M:CRMScript.Native.Customer.addEmail(String,Integer,Integer,Integer)
   id: 'addEmail(String,Integer,Integer,Integer)'
   so.intellisense: Customer.addEmail
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'addEmail(String,Integer,Integer,Integer)'
@@ -113,6 +115,7 @@ items:
   commentId: M:CRMScript.Native.Customer.checkFieldRights(String,String)
   id: 'checkFieldRights(String,String)'
   so.intellisense: Customer.checkFieldRights
+  so.version: 7.0
   langs:
   - crmscript
   name: 'checkFieldRights(String,String)'
@@ -139,6 +142,7 @@ items:
   commentId: M:CRMScript.Native.Customer.checkTableRights(String)
   id: 'checkTableRights(String)'
   so.intellisense: Customer.checkTableRights
+  so.version: 7.0
   langs:
   - crmscript
   name: 'checkTableRights(String)'
@@ -374,6 +378,7 @@ items:
   commentId: M:CRMScript.Native.Customer.login()
   id: 'login()'
   so.intellisense: Customer.login
+  so.version: 8.2
   langs:
   - crmscript
   name: 'login()'
@@ -392,6 +397,7 @@ items:
   commentId: M:CRMScript.Native.Customer.logout()
   id: 'logout()'
   so.intellisense: Customer.logout
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'logout()'
@@ -430,6 +436,7 @@ items:
   commentId: M:CRMScript.Native.Customer.removeEmail(String)
   id: 'removeEmail(String)'
   so.intellisense: Customer.removeEmail
+  so.version: 3.1.8
   langs:
   - crmscript
   name: 'removeEmail(String)'
@@ -541,6 +548,7 @@ items:
   commentId: M:CRMScript.Native.Customer.toParser(Parser)
   id: 'toParser(Parser)'
   so.intellisense: Customer.toParser
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'toParser(Parser)'

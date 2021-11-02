@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTimeZoneAgent
   commentId: T:CRMScript.NetServer.NSTimeZoneAgent
   id: NSTimeZoneAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -45,6 +46,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.CheckNewTimeZoneDataAvailable()
   id: 'CheckNewTimeZoneDataAvailable()'
   so.intellisense: NSTimeZoneAgent.CheckNewTimeZoneDataAvailable
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CheckNewTimeZoneDataAvailable()'
@@ -65,6 +67,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.DeleteTimeZones()
   id: 'DeleteTimeZones()'
   so.intellisense: NSTimeZoneAgent.DeleteTimeZones
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteTimeZones()'
@@ -83,6 +86,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.GetBaseTimeZoneId()
   id: 'GetBaseTimeZoneId()'
   so.intellisense: NSTimeZoneAgent.GetBaseTimeZoneId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBaseTimeZoneId()'
@@ -103,6 +107,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.GetDefaultTimeZonePreference()
   id: 'GetDefaultTimeZonePreference()'
   so.intellisense: NSTimeZoneAgent.GetDefaultTimeZonePreference
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDefaultTimeZonePreference()'
@@ -123,6 +128,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.InitializeTimeZoneData()
   id: 'InitializeTimeZoneData()'
   so.intellisense: NSTimeZoneAgent.InitializeTimeZoneData
+  so.version: 7.0
   langs:
   - crmscript
   name: 'InitializeTimeZoneData()'
@@ -141,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.SetActiveTimeZoneRow(Integer,Bool)
   id: 'SetActiveTimeZoneRow(Integer,Bool)'
   so.intellisense: NSTimeZoneAgent.SetActiveTimeZoneRow
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveTimeZoneRow(Integer,Bool)'
@@ -165,6 +172,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.SetActiveTimeZonesByFilter(String,Bool)
   id: 'SetActiveTimeZonesByFilter(String,Bool)'
   so.intellisense: NSTimeZoneAgent.SetActiveTimeZonesByFilter
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveTimeZonesByFilter(String,Bool)'
@@ -189,6 +197,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.SetBaseTimeZoneId(Integer)
   id: 'SetBaseTimeZoneId(Integer)'
   so.intellisense: NSTimeZoneAgent.SetBaseTimeZoneId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetBaseTimeZoneId(Integer)'
@@ -212,6 +221,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.TimeOfLastTimeZoneUpdate()
   id: 'TimeOfLastTimeZoneUpdate()'
   so.intellisense: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate
+  so.version: 7.5
   langs:
   - crmscript
   name: 'TimeOfLastTimeZoneUpdate()'
@@ -232,6 +242,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.ToggleActiveTimeZoneRow(Integer)
   id: 'ToggleActiveTimeZoneRow(Integer)'
   so.intellisense: NSTimeZoneAgent.ToggleActiveTimeZoneRow
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ToggleActiveTimeZoneRow(Integer)'
@@ -253,6 +264,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneAgent.UpdateTimeZoneData()
   id: 'UpdateTimeZoneData()'
   so.intellisense: NSTimeZoneAgent.UpdateTimeZoneData
+  so.version: 7.5
   langs:
   - crmscript
   name: 'UpdateTimeZoneData()'

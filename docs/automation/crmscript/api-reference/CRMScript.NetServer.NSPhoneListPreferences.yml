@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPhoneListPreferences
   commentId: T:CRMScript.NetServer.NSPhoneListPreferences
   id: NSPhoneListPreferences
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -48,6 +49,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchCompany()
   id: 'GetSearchCompany()'
   so.intellisense: NSPhoneListPreferences.GetSearchCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchCompany()'
@@ -68,6 +70,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchDepartment()
   id: 'GetSearchDepartment()'
   so.intellisense: NSPhoneListPreferences.GetSearchDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchDepartment()'
@@ -88,6 +91,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchFirstname()
   id: 'GetSearchFirstname()'
   so.intellisense: NSPhoneListPreferences.GetSearchFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchFirstname()'
@@ -108,6 +112,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchLastname()
   id: 'GetSearchLastname()'
   so.intellisense: NSPhoneListPreferences.GetSearchLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchLastname()'
@@ -128,6 +133,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeCompany()
   id: 'GetSearchModeCompany()'
   so.intellisense: NSPhoneListPreferences.GetSearchModeCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchModeCompany()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeDepartment()
   id: 'GetSearchModeDepartment()'
   so.intellisense: NSPhoneListPreferences.GetSearchModeDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchModeDepartment()'
@@ -168,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeFirstname()
   id: 'GetSearchModeFirstname()'
   so.intellisense: NSPhoneListPreferences.GetSearchModeFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchModeFirstname()'
@@ -188,6 +196,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeLastname()
   id: 'GetSearchModeLastname()'
   so.intellisense: NSPhoneListPreferences.GetSearchModeLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSearchModeLastname()'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchCompany(Bool)
   id: 'SetSearchCompany(Bool)'
   so.intellisense: NSPhoneListPreferences.SetSearchCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchCompany(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchDepartment(Bool)
   id: 'SetSearchDepartment(Bool)'
   so.intellisense: NSPhoneListPreferences.SetSearchDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchDepartment(Bool)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchFirstname(Bool)
   id: 'SetSearchFirstname(Bool)'
   so.intellisense: NSPhoneListPreferences.SetSearchFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchFirstname(Bool)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchLastname(Bool)
   id: 'SetSearchLastname(Bool)'
   so.intellisense: NSPhoneListPreferences.SetSearchLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchLastname(Bool)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeCompany(Integer)
   id: 'SetSearchModeCompany(Integer)'
   so.intellisense: NSPhoneListPreferences.SetSearchModeCompany
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchModeCompany(Integer)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeDepartment(Integer)
   id: 'SetSearchModeDepartment(Integer)'
   so.intellisense: NSPhoneListPreferences.SetSearchModeDepartment
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchModeDepartment(Integer)'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeFirstname(Integer)
   id: 'SetSearchModeFirstname(Integer)'
   so.intellisense: NSPhoneListPreferences.SetSearchModeFirstname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchModeFirstname(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeLastname(Integer)
   id: 'SetSearchModeLastname(Integer)'
   so.intellisense: NSPhoneListPreferences.SetSearchModeLastname
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSearchModeLastname(Integer)'

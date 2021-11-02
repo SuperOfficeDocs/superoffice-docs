@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCountry
   commentId: T:CRMScript.NetServer.NSCountry
   id: NSCountry
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -68,6 +69,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetAddressLayoutId()
   id: 'GetAddressLayoutId()'
   so.intellisense: NSCountry.GetAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAddressLayoutId()'
@@ -88,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetCountryId()
   id: 'GetCountryId()'
   so.intellisense: NSCountry.GetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCountryId()'
@@ -108,6 +111,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetCurrencyId()
   id: 'GetCurrencyId()'
   so.intellisense: NSCountry.GetCurrencyId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCurrencyId()'
@@ -128,6 +132,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSCountry.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -148,6 +153,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetDialInPrefix()
   id: 'GetDialInPrefix()'
   so.intellisense: NSCountry.GetDialInPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDialInPrefix()'
@@ -168,6 +174,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetDomainName()
   id: 'GetDomainName()'
   so.intellisense: NSCountry.GetDomainName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDomainName()'
@@ -188,6 +195,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetDomesticAddressLayoutId()
   id: 'GetDomesticAddressLayoutId()'
   so.intellisense: NSCountry.GetDomesticAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDomesticAddressLayoutId()'
@@ -208,6 +216,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetEnglishName()
   id: 'GetEnglishName()'
   so.intellisense: NSCountry.GetEnglishName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEnglishName()'
@@ -228,6 +237,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetForeignAddressLayoutId()
   id: 'GetForeignAddressLayoutId()'
   so.intellisense: NSCountry.GetForeignAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetForeignAddressLayoutId()'
@@ -248,6 +258,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetImageDescription()
   id: 'GetImageDescription()'
   so.intellisense: NSCountry.GetImageDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetImageDescription()'
@@ -268,6 +279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetInterAreaPrefix()
   id: 'GetInterAreaPrefix()'
   so.intellisense: NSCountry.GetInterAreaPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetInterAreaPrefix()'
@@ -288,6 +300,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetName()
   id: 'GetName()'
   so.intellisense: NSCountry.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -308,6 +321,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetOrgNrText()
   id: 'GetOrgNrText()'
   so.intellisense: NSCountry.GetOrgNrText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetOrgNrText()'
@@ -328,6 +342,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetRank()
   id: 'GetRank()'
   so.intellisense: NSCountry.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -348,6 +363,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetThreeLetterISOCountry()
   id: 'GetThreeLetterISOCountry()'
   so.intellisense: NSCountry.GetThreeLetterISOCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetThreeLetterISOCountry()'
@@ -368,6 +384,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSCountry.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -388,6 +405,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetTwoLetterISOCountry()
   id: 'GetTwoLetterISOCountry()'
   so.intellisense: NSCountry.GetTwoLetterISOCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTwoLetterISOCountry()'
@@ -408,6 +426,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.GetZipPrefix()
   id: 'GetZipPrefix()'
   so.intellisense: NSCountry.GetZipPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetZipPrefix()'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetAddressLayoutId(Integer)
   id: 'SetAddressLayoutId(Integer)'
   so.intellisense: NSCountry.SetAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAddressLayoutId(Integer)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetCountryId(Integer)
   id: 'SetCountryId(Integer)'
   so.intellisense: NSCountry.SetCountryId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCountryId(Integer)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetCurrencyId(Integer)
   id: 'SetCurrencyId(Integer)'
   so.intellisense: NSCountry.SetCurrencyId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCurrencyId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSCountry.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetDialInPrefix(String)
   id: 'SetDialInPrefix(String)'
   so.intellisense: NSCountry.SetDialInPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDialInPrefix(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetDomainName(String)
   id: 'SetDomainName(String)'
   so.intellisense: NSCountry.SetDomainName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDomainName(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetDomesticAddressLayoutId(Integer)
   id: 'SetDomesticAddressLayoutId(Integer)'
   so.intellisense: NSCountry.SetDomesticAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDomesticAddressLayoutId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetEnglishName(String)
   id: 'SetEnglishName(String)'
   so.intellisense: NSCountry.SetEnglishName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEnglishName(String)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetForeignAddressLayoutId(Integer)
   id: 'SetForeignAddressLayoutId(Integer)'
   so.intellisense: NSCountry.SetForeignAddressLayoutId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetForeignAddressLayoutId(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetImageDescription(String)
   id: 'SetImageDescription(String)'
   so.intellisense: NSCountry.SetImageDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetImageDescription(String)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetInterAreaPrefix(String)
   id: 'SetInterAreaPrefix(String)'
   so.intellisense: NSCountry.SetInterAreaPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetInterAreaPrefix(String)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSCountry.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetOrgNrText(String)
   id: 'SetOrgNrText(String)'
   so.intellisense: NSCountry.SetOrgNrText
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetOrgNrText(String)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSCountry.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetThreeLetterISOCountry(String)
   id: 'SetThreeLetterISOCountry(String)'
   so.intellisense: NSCountry.SetThreeLetterISOCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetThreeLetterISOCountry(String)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSCountry.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetTwoLetterISOCountry(String)
   id: 'SetTwoLetterISOCountry(String)'
   so.intellisense: NSCountry.SetTwoLetterISOCountry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTwoLetterISOCountry(String)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCountry.SetZipPrefix(String)
   id: 'SetZipPrefix(String)'
   so.intellisense: NSCountry.SetZipPrefix
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetZipPrefix(String)'

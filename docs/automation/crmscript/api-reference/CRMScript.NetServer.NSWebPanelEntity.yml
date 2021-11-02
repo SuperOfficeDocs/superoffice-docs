@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSWebPanelEntity
   commentId: T:CRMScript.NetServer.NSWebPanelEntity
   id: NSWebPanelEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -74,6 +75,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSWebPanelEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -94,6 +96,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetIcon()
   id: 'GetIcon()'
   so.intellisense: NSWebPanelEntity.GetIcon
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetIcon()'
@@ -114,6 +117,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetName()
   id: 'GetName()'
   so.intellisense: NSWebPanelEntity.GetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetName()'
@@ -134,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnCentral()
   id: 'GetOnCentral()'
   so.intellisense: NSWebPanelEntity.GetOnCentral
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOnCentral()'
@@ -154,6 +159,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingPocket()
   id: 'GetOnSalesMarketingPocket()'
   so.intellisense: NSWebPanelEntity.GetOnSalesMarketingPocket
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnSalesMarketingPocket()'
@@ -174,6 +180,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingWeb()
   id: 'GetOnSalesMarketingWeb()'
   so.intellisense: NSWebPanelEntity.GetOnSalesMarketingWeb
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOnSalesMarketingWeb()'
@@ -194,6 +201,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSatellite()
   id: 'GetOnSatellite()'
   so.intellisense: NSWebPanelEntity.GetOnSatellite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetOnSatellite()'
@@ -214,6 +222,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSattelite()
   id: 'GetOnSattelite()'
   so.intellisense: NSWebPanelEntity.GetOnSattelite
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOnSattelite()'
@@ -232,6 +241,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnTravel()
   id: 'GetOnTravel()'
   so.intellisense: NSWebPanelEntity.GetOnTravel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOnTravel()'
@@ -252,6 +262,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetProgId()
   id: 'GetProgId()'
   so.intellisense: NSWebPanelEntity.GetProgId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetProgId()'
@@ -272,6 +283,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSWebPanelEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -292,6 +304,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInAddressBar()
   id: 'GetShowInAddressBar()'
   so.intellisense: NSWebPanelEntity.GetShowInAddressBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShowInAddressBar()'
@@ -312,6 +325,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInMenuBar()
   id: 'GetShowInMenuBar()'
   so.intellisense: NSWebPanelEntity.GetShowInMenuBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShowInMenuBar()'
@@ -332,6 +346,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInStatusBar()
   id: 'GetShowInStatusBar()'
   so.intellisense: NSWebPanelEntity.GetShowInStatusBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShowInStatusBar()'
@@ -352,6 +367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInToolBar()
   id: 'GetShowInToolBar()'
   so.intellisense: NSWebPanelEntity.GetShowInToolBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetShowInToolBar()'
@@ -372,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSWebPanelEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -392,6 +409,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetUrl()
   id: 'GetUrl()'
   so.intellisense: NSWebPanelEntity.GetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUrl()'
@@ -412,6 +430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetUrlEncoding()
   id: 'GetUrlEncoding()'
   so.intellisense: NSWebPanelEntity.GetUrlEncoding
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUrlEncoding()'
@@ -432,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetVisibleIn()
   id: 'GetVisibleIn()'
   so.intellisense: NSWebPanelEntity.GetVisibleIn
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetVisibleIn()'
@@ -452,6 +472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetWebPanelId()
   id: 'GetWebPanelId()'
   so.intellisense: NSWebPanelEntity.GetWebPanelId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWebPanelId()'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetWindowName()
   id: 'GetWindowName()'
   so.intellisense: NSWebPanelEntity.GetWindowName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetWindowName()'
@@ -492,6 +514,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSWebPanelEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -514,6 +537,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetIcon(Integer)
   id: 'SetIcon(Integer)'
   so.intellisense: NSWebPanelEntity.SetIcon
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetIcon(Integer)'
@@ -536,6 +560,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSWebPanelEntity.SetName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -558,6 +583,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnCentral(Bool)
   id: 'SetOnCentral(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnCentral
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOnCentral(Bool)'
@@ -580,6 +606,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
   id: 'SetOnSalesMarketingPocket(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnSalesMarketingPocket(Bool)'
@@ -602,6 +629,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
   id: 'SetOnSalesMarketingWeb(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnSalesMarketingWeb
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOnSalesMarketingWeb(Bool)'
@@ -624,6 +652,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSatellite(Bool)
   id: 'SetOnSatellite(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnSatellite
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetOnSatellite(Bool)'
@@ -646,6 +675,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSattelite(Bool)
   id: 'SetOnSattelite(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnSattelite
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOnSattelite(Bool)'
@@ -667,6 +697,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnTravel(Bool)
   id: 'SetOnTravel(Bool)'
   so.intellisense: NSWebPanelEntity.SetOnTravel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOnTravel(Bool)'
@@ -689,6 +720,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetProgId(String)
   id: 'SetProgId(String)'
   so.intellisense: NSWebPanelEntity.SetProgId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetProgId(String)'
@@ -711,6 +743,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSWebPanelEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -733,6 +766,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInAddressBar(Bool)
   id: 'SetShowInAddressBar(Bool)'
   so.intellisense: NSWebPanelEntity.SetShowInAddressBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetShowInAddressBar(Bool)'
@@ -755,6 +789,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInMenuBar(Bool)
   id: 'SetShowInMenuBar(Bool)'
   so.intellisense: NSWebPanelEntity.SetShowInMenuBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetShowInMenuBar(Bool)'
@@ -777,6 +812,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInStatusBar(Bool)
   id: 'SetShowInStatusBar(Bool)'
   so.intellisense: NSWebPanelEntity.SetShowInStatusBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetShowInStatusBar(Bool)'
@@ -799,6 +835,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInToolBar(Bool)
   id: 'SetShowInToolBar(Bool)'
   so.intellisense: NSWebPanelEntity.SetShowInToolBar
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetShowInToolBar(Bool)'
@@ -821,6 +858,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSWebPanelEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -843,6 +881,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetUrl(String)
   id: 'SetUrl(String)'
   so.intellisense: NSWebPanelEntity.SetUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUrl(String)'
@@ -865,6 +904,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetUrlEncoding(Integer)
   id: 'SetUrlEncoding(Integer)'
   so.intellisense: NSWebPanelEntity.SetUrlEncoding
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUrlEncoding(Integer)'
@@ -887,6 +927,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetVisibleIn(Integer)
   id: 'SetVisibleIn(Integer)'
   so.intellisense: NSWebPanelEntity.SetVisibleIn
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetVisibleIn(Integer)'
@@ -909,6 +950,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetWebPanelId(Integer)
   id: 'SetWebPanelId(Integer)'
   so.intellisense: NSWebPanelEntity.SetWebPanelId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWebPanelId(Integer)'
@@ -931,6 +973,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetWindowName(String)
   id: 'SetWindowName(String)'
   so.intellisense: NSWebPanelEntity.SetWindowName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetWindowName(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPocketDeviceInfo
   commentId: T:CRMScript.NetServer.NSPocketDeviceInfo
   id: NSPocketDeviceInfo
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceIdentifier()
   id: 'GetDeviceIdentifier()'
   so.intellisense: NSPocketDeviceInfo.GetDeviceIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDeviceIdentifier()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceName()
   id: 'GetDeviceName()'
   so.intellisense: NSPocketDeviceInfo.GetDeviceName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDeviceName()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetLanguage()
   id: 'GetLanguage()'
   so.intellisense: NSPocketDeviceInfo.GetLanguage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLanguage()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetOSVersion()
   id: 'GetOSVersion()'
   so.intellisense: NSPocketDeviceInfo.GetOSVersion
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetOSVersion()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPlatform()
   id: 'GetPlatform()'
   so.intellisense: NSPocketDeviceInfo.GetPlatform
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPlatform()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPNSHandle()
   id: 'GetPNSHandle()'
   so.intellisense: NSPocketDeviceInfo.GetPNSHandle
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPNSHandle()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPocketVersion()
   id: 'GetPocketVersion()'
   so.intellisense: NSPocketDeviceInfo.GetPocketVersion
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetPocketVersion()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceIdentifier(String)
   id: 'SetDeviceIdentifier(String)'
   so.intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDeviceIdentifier(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceName(String)
   id: 'SetDeviceName(String)'
   so.intellisense: NSPocketDeviceInfo.SetDeviceName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDeviceName(String)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetLanguage(String)
   id: 'SetLanguage(String)'
   so.intellisense: NSPocketDeviceInfo.SetLanguage
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetLanguage(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetOSVersion(String)
   id: 'SetOSVersion(String)'
   so.intellisense: NSPocketDeviceInfo.SetOSVersion
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetOSVersion(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPlatform(Integer)
   id: 'SetPlatform(Integer)'
   so.intellisense: NSPocketDeviceInfo.SetPlatform
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPlatform(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPNSHandle(String)
   id: 'SetPNSHandle(String)'
   so.intellisense: NSPocketDeviceInfo.SetPNSHandle
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPNSHandle(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPocketVersion(String)
   id: 'SetPocketVersion(String)'
   so.intellisense: NSPocketDeviceInfo.SetPocketVersion
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetPocketVersion(String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSBatchAgent
   commentId: T:CRMScript.NetServer.NSBatchAgent
   id: NSBatchAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -45,6 +46,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.DeleteBatchTask(Integer)
   id: 'DeleteBatchTask(Integer)'
   so.intellisense: NSBatchAgent.DeleteBatchTask
+  so.version: 8.2
   langs:
   - crmscript
   name: 'DeleteBatchTask(Integer)'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.DeleteBatchTasks(Integer[])
   id: 'DeleteBatchTasks(Integer[])'
   so.intellisense: NSBatchAgent.DeleteBatchTasks
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteBatchTasks(Integer[])'
@@ -87,6 +90,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfo(Integer)
   id: 'GetBatchTaskInfo(Integer)'
   so.intellisense: NSBatchAgent.GetBatchTaskInfo
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfo(Integer)'
@@ -110,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
   id: 'GetBatchTaskInfosByAssociates(Integer[])'
   so.intellisense: NSBatchAgent.GetBatchTaskInfosByAssociates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfosByAssociates(Integer[])'
@@ -133,6 +138,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
   id: 'GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)'
   so.intellisense: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)'
@@ -159,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
   id: 'GetBatchTaskInfosByNameAndAssociates(String,Integer[])'
   so.intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfosByNameAndAssociates(String,Integer[])'
@@ -185,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
   id: 'GetBatchTaskInfosByNameAndState(String,Integer)'
   so.intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfosByNameAndState(String,Integer)'
@@ -211,6 +219,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByState(Integer)
   id: 'GetBatchTaskInfosByState(Integer)'
   so.intellisense: NSBatchAgent.GetBatchTaskInfosByState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetBatchTaskInfosByState(Integer)'
@@ -234,6 +243,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
   id: 'StartBatchJob(NSBatchTaskInfo)'
   so.intellisense: NSBatchAgent.StartBatchJob
+  so.version: 7.0
   langs:
   - crmscript
   name: 'StartBatchJob(NSBatchTaskInfo)'
@@ -257,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.StopBatchJob(Integer)
   id: 'StopBatchJob(Integer)'
   so.intellisense: NSBatchAgent.StopBatchJob
+  so.version: 7.0
   langs:
   - crmscript
   name: 'StopBatchJob(Integer)'
@@ -280,6 +291,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
   id: 'UpdateBatchTask(NSBatchTaskInfo)'
   so.intellisense: NSBatchAgent.UpdateBatchTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'UpdateBatchTask(NSBatchTaskInfo)'

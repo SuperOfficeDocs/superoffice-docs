@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSQuote
   commentId: T:CRMScript.NetServer.NSQuote
   id: NSQuote
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -60,6 +61,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetAcceptedQuoteAlternativeId()
   id: 'GetAcceptedQuoteAlternativeId()'
   so.intellisense: NSQuote.GetAcceptedQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetAcceptedQuoteAlternativeId()'
@@ -80,6 +82,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetActiveQuoteVersion()
   id: 'GetActiveQuoteVersion()'
   so.intellisense: NSQuote.GetActiveQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveQuoteVersion()'
@@ -100,6 +103,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetActiveQuoteVersionId()
   id: 'GetActiveQuoteVersionId()'
   so.intellisense: NSQuote.GetActiveQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetActiveQuoteVersionId()'
@@ -120,6 +124,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetDocumentId()
   id: 'GetDocumentId()'
   so.intellisense: NSQuote.GetDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDocumentId()'
@@ -140,6 +145,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetERPOrderKey()
   id: 'GetERPOrderKey()'
   so.intellisense: NSQuote.GetERPOrderKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPOrderKey()'
@@ -160,6 +166,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetERPQuoteKey()
   id: 'GetERPQuoteKey()'
   so.intellisense: NSQuote.GetERPQuoteKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetERPQuoteKey()'
@@ -180,6 +187,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetFavoriteQuoteAlternative()
   id: 'GetFavoriteQuoteAlternative()'
   so.intellisense: NSQuote.GetFavoriteQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetFavoriteQuoteAlternative()'
@@ -200,6 +208,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetOrderComment()
   id: 'GetOrderComment()'
   so.intellisense: NSQuote.GetOrderComment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetOrderComment()'
@@ -220,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetPoNumber()
   id: 'GetPoNumber()'
   so.intellisense: NSQuote.GetPoNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPoNumber()'
@@ -240,6 +250,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetPreferredEmailCulture()
   id: 'GetPreferredEmailCulture()'
   so.intellisense: NSQuote.GetPreferredEmailCulture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetPreferredEmailCulture()'
@@ -260,6 +271,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetQuoteConnectionId()
   id: 'GetQuoteConnectionId()'
   so.intellisense: NSQuote.GetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteConnectionId()'
@@ -280,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetQuoteId()
   id: 'GetQuoteId()'
   so.intellisense: NSQuote.GetQuoteId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetQuoteId()'
@@ -300,6 +313,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetSaleId()
   id: 'GetSaleId()'
   so.intellisense: NSQuote.GetSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleId()'
@@ -320,6 +334,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.GetUseValuesFromQuote()
   id: 'GetUseValuesFromQuote()'
   so.intellisense: NSQuote.GetUseValuesFromQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetUseValuesFromQuote()'
@@ -340,6 +355,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetAcceptedQuoteAlternativeId(Integer)
   id: 'SetAcceptedQuoteAlternativeId(Integer)'
   so.intellisense: NSQuote.SetAcceptedQuoteAlternativeId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetAcceptedQuoteAlternativeId(Integer)'
@@ -362,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetActiveQuoteVersion(NSQuoteVersion)
   id: 'SetActiveQuoteVersion(NSQuoteVersion)'
   so.intellisense: NSQuote.SetActiveQuoteVersion
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveQuoteVersion(NSQuoteVersion)'
@@ -384,6 +401,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetActiveQuoteVersionId(Integer)
   id: 'SetActiveQuoteVersionId(Integer)'
   so.intellisense: NSQuote.SetActiveQuoteVersionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetActiveQuoteVersionId(Integer)'
@@ -406,6 +424,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetDocumentId(Integer)
   id: 'SetDocumentId(Integer)'
   so.intellisense: NSQuote.SetDocumentId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDocumentId(Integer)'
@@ -428,6 +447,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetERPOrderKey(String)
   id: 'SetERPOrderKey(String)'
   so.intellisense: NSQuote.SetERPOrderKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPOrderKey(String)'
@@ -450,6 +470,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetERPQuoteKey(String)
   id: 'SetERPQuoteKey(String)'
   so.intellisense: NSQuote.SetERPQuoteKey
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetERPQuoteKey(String)'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetFavoriteQuoteAlternative(NSQuoteAlternative)
   id: 'SetFavoriteQuoteAlternative(NSQuoteAlternative)'
   so.intellisense: NSQuote.SetFavoriteQuoteAlternative
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetFavoriteQuoteAlternative(NSQuoteAlternative)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetOrderComment(String)
   id: 'SetOrderComment(String)'
   so.intellisense: NSQuote.SetOrderComment
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetOrderComment(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetPoNumber(String)
   id: 'SetPoNumber(String)'
   so.intellisense: NSQuote.SetPoNumber
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPoNumber(String)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetPreferredEmailCulture(String)
   id: 'SetPreferredEmailCulture(String)'
   so.intellisense: NSQuote.SetPreferredEmailCulture
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetPreferredEmailCulture(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetQuoteConnectionId(Integer)
   id: 'SetQuoteConnectionId(Integer)'
   so.intellisense: NSQuote.SetQuoteConnectionId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteConnectionId(Integer)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetQuoteId(Integer)
   id: 'SetQuoteId(Integer)'
   so.intellisense: NSQuote.SetQuoteId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetQuoteId(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetSaleId(Integer)
   id: 'SetSaleId(Integer)'
   so.intellisense: NSQuote.SetSaleId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleId(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSQuote.SetUseValuesFromQuote(Integer)
   id: 'SetUseValuesFromQuote(Integer)'
   so.intellisense: NSQuote.SetUseValuesFromQuote
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetUseValuesFromQuote(Integer)'

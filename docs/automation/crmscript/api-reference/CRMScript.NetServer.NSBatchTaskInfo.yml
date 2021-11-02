@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSBatchTaskInfo
   commentId: T:CRMScript.NetServer.NSBatchTaskInfo
   id: NSBatchTaskInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -72,6 +73,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSBatchTaskInfo.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -92,6 +94,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetContext()
   id: 'GetContext()'
   so.intellisense: NSBatchTaskInfo.GetContext
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetContext()'
@@ -112,6 +115,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetCreated()
   id: 'GetCreated()'
   so.intellisense: NSBatchTaskInfo.GetCreated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCreated()'
@@ -132,6 +136,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDatabaseSerialNumber()
   id: 'GetDatabaseSerialNumber()'
   so.intellisense: NSBatchTaskInfo.GetDatabaseSerialNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDatabaseSerialNumber()'
@@ -152,6 +157,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDescription()
   id: 'GetDescription()'
   so.intellisense: NSBatchTaskInfo.GetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDescription()'
@@ -172,6 +178,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDetailsRecord()
   id: 'GetDetailsRecord()'
   so.intellisense: NSBatchTaskInfo.GetDetailsRecord
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDetailsRecord()'
@@ -192,6 +199,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDetailsTable()
   id: 'GetDetailsTable()'
   so.intellisense: NSBatchTaskInfo.GetDetailsTable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDetailsTable()'
@@ -212,6 +220,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetId()
   id: 'GetId()'
   so.intellisense: NSBatchTaskInfo.GetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetId()'
@@ -232,6 +241,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetIsInternalTask()
   id: 'GetIsInternalTask()'
   so.intellisense: NSBatchTaskInfo.GetIsInternalTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsInternalTask()'
@@ -252,6 +262,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetIsSystemTask()
   id: 'GetIsSystemTask()'
   so.intellisense: NSBatchTaskInfo.GetIsSystemTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetIsSystemTask()'
@@ -272,6 +283,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetLastStarted()
   id: 'GetLastStarted()'
   so.intellisense: NSBatchTaskInfo.GetLastStarted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetLastStarted()'
@@ -292,6 +304,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSBatchTaskInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -312,6 +325,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetParameterObject()
   id: 'GetParameterObject()'
   so.intellisense: NSBatchTaskInfo.GetParameterObject
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetParameterObject()'
@@ -332,6 +346,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetProgressDescription()
   id: 'GetProgressDescription()'
   so.intellisense: NSBatchTaskInfo.GetProgressDescription
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetProgressDescription()'
@@ -352,6 +367,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetProgressPercent()
   id: 'GetProgressPercent()'
   so.intellisense: NSBatchTaskInfo.GetProgressPercent
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetProgressPercent()'
@@ -372,6 +388,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetRequest()
   id: 'GetRequest()'
   so.intellisense: NSBatchTaskInfo.GetRequest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRequest()'
@@ -392,6 +409,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetResponse()
   id: 'GetResponse()'
   so.intellisense: NSBatchTaskInfo.GetResponse
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetResponse()'
@@ -412,6 +430,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetResult()
   id: 'GetResult()'
   so.intellisense: NSBatchTaskInfo.GetResult
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetResult()'
@@ -432,6 +451,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetStartCount()
   id: 'GetStartCount()'
   so.intellisense: NSBatchTaskInfo.GetStartCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartCount()'
@@ -452,6 +472,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetState()
   id: 'GetState()'
   so.intellisense: NSBatchTaskInfo.GetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetState()'
@@ -472,6 +493,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSBatchTaskInfo.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -494,6 +516,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetContext(String)
   id: 'SetContext(String)'
   so.intellisense: NSBatchTaskInfo.SetContext
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetContext(String)'
@@ -516,6 +539,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetCreated(DateTime)
   id: 'SetCreated(DateTime)'
   so.intellisense: NSBatchTaskInfo.SetCreated
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCreated(DateTime)'
@@ -538,6 +562,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDatabaseSerialNumber(String)
   id: 'SetDatabaseSerialNumber(String)'
   so.intellisense: NSBatchTaskInfo.SetDatabaseSerialNumber
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDatabaseSerialNumber(String)'
@@ -560,6 +585,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDescription(String)
   id: 'SetDescription(String)'
   so.intellisense: NSBatchTaskInfo.SetDescription
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDescription(String)'
@@ -582,6 +608,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDetailsRecord(Integer)
   id: 'SetDetailsRecord(Integer)'
   so.intellisense: NSBatchTaskInfo.SetDetailsRecord
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDetailsRecord(Integer)'
@@ -604,6 +631,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDetailsTable(Integer)
   id: 'SetDetailsTable(Integer)'
   so.intellisense: NSBatchTaskInfo.SetDetailsTable
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDetailsTable(Integer)'
@@ -626,6 +654,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSBatchTaskInfo.SetId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -648,6 +677,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetIsInternalTask(Bool)
   id: 'SetIsInternalTask(Bool)'
   so.intellisense: NSBatchTaskInfo.SetIsInternalTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsInternalTask(Bool)'
@@ -670,6 +700,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetIsSystemTask(Bool)
   id: 'SetIsSystemTask(Bool)'
   so.intellisense: NSBatchTaskInfo.SetIsSystemTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetIsSystemTask(Bool)'
@@ -692,6 +723,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetLastStarted(DateTime)
   id: 'SetLastStarted(DateTime)'
   so.intellisense: NSBatchTaskInfo.SetLastStarted
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetLastStarted(DateTime)'
@@ -714,6 +746,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSBatchTaskInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -736,6 +769,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetParameterObject(Map)
   id: 'SetParameterObject(Map)'
   so.intellisense: NSBatchTaskInfo.SetParameterObject
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetParameterObject(Map)'
@@ -758,6 +792,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetProgressDescription(String)
   id: 'SetProgressDescription(String)'
   so.intellisense: NSBatchTaskInfo.SetProgressDescription
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetProgressDescription(String)'
@@ -780,6 +815,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetProgressPercent(Integer)
   id: 'SetProgressPercent(Integer)'
   so.intellisense: NSBatchTaskInfo.SetProgressPercent
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'SetProgressPercent(Integer)'
@@ -802,6 +838,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetRequest(String)
   id: 'SetRequest(String)'
   so.intellisense: NSBatchTaskInfo.SetRequest
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetRequest(String)'
@@ -824,6 +861,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetResponse(String)
   id: 'SetResponse(String)'
   so.intellisense: NSBatchTaskInfo.SetResponse
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetResponse(String)'
@@ -846,6 +884,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetResult(String)
   id: 'SetResult(String)'
   so.intellisense: NSBatchTaskInfo.SetResult
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetResult(String)'
@@ -868,6 +907,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetStartCount(Integer)
   id: 'SetStartCount(Integer)'
   so.intellisense: NSBatchTaskInfo.SetStartCount
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartCount(Integer)'
@@ -890,6 +930,7 @@ items:
   commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetState(Integer)
   id: 'SetState(Integer)'
   so.intellisense: NSBatchTaskInfo.SetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetState(Integer)'

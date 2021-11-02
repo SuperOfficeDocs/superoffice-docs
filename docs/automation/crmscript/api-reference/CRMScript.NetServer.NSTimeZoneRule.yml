@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSTimeZoneRule
   commentId: T:CRMScript.NetServer.NSTimeZoneRule
   id: NSTimeZoneRule
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -46,6 +47,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndDay()
   id: 'GetEndDay()'
   so.intellisense: NSTimeZoneRule.GetEndDay
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndDay()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndMonth()
   id: 'GetEndMonth()'
   so.intellisense: NSTimeZoneRule.GetEndMonth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndMonth()'
@@ -86,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndRulePattern()
   id: 'GetEndRulePattern()'
   so.intellisense: NSTimeZoneRule.GetEndRulePattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetEndRulePattern()'
@@ -106,6 +110,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartDay()
   id: 'GetStartDay()'
   so.intellisense: NSTimeZoneRule.GetStartDay
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartDay()'
@@ -126,6 +131,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartMonth()
   id: 'GetStartMonth()'
   so.intellisense: NSTimeZoneRule.GetStartMonth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartMonth()'
@@ -146,6 +152,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartRulePattern()
   id: 'GetStartRulePattern()'
   so.intellisense: NSTimeZoneRule.GetStartRulePattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetStartRulePattern()'
@@ -166,6 +173,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetTZOffset()
   id: 'GetTZOffset()'
   so.intellisense: NSTimeZoneRule.GetTZOffset
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetTZOffset()'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndDay(Integer)
   id: 'SetEndDay(Integer)'
   so.intellisense: NSTimeZoneRule.SetEndDay
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndDay(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndMonth(Integer)
   id: 'SetEndMonth(Integer)'
   so.intellisense: NSTimeZoneRule.SetEndMonth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndMonth(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndRulePattern(String)
   id: 'SetEndRulePattern(String)'
   so.intellisense: NSTimeZoneRule.SetEndRulePattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetEndRulePattern(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartDay(Integer)
   id: 'SetStartDay(Integer)'
   so.intellisense: NSTimeZoneRule.SetStartDay
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartDay(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartMonth(Integer)
   id: 'SetStartMonth(Integer)'
   so.intellisense: NSTimeZoneRule.SetStartMonth
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartMonth(Integer)'
@@ -296,6 +309,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartRulePattern(String)
   id: 'SetStartRulePattern(String)'
   so.intellisense: NSTimeZoneRule.SetStartRulePattern
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetStartRulePattern(String)'
@@ -318,6 +332,7 @@ items:
   commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetTZOffset(Integer)
   id: 'SetTZOffset(Integer)'
   so.intellisense: NSTimeZoneRule.SetTZOffset
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetTZOffset(Integer)'

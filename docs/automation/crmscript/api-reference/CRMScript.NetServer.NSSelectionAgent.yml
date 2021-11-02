@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSelectionAgent
   commentId: T:CRMScript.NetServer.NSSelectionAgent
   id: NSSelectionAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -88,6 +89,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.AddContactSelectionMembers(Integer,NSContactPersonId[])
   id: 'AddContactSelectionMembers(Integer,NSContactPersonId[])'
   so.intellisense: NSSelectionAgent.AddContactSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddContactSelectionMembers(Integer,NSContactPersonId[])'
@@ -112,6 +114,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.AddContactSelectionMembersFromSearch(Integer,String)
   id: 'AddContactSelectionMembersFromSearch(Integer,String)'
   so.intellisense: NSSelectionAgent.AddContactSelectionMembersFromSearch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddContactSelectionMembersFromSearch(Integer,String)'
@@ -138,6 +141,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.AddRemoveContactSelectionMemberInterests(Integer,Integer[],Integer[],Integer[],Integer[])
   id: 'AddRemoveContactSelectionMemberInterests(Integer,Integer[],Integer[],Integer[],Integer[])'
   so.intellisense: NSSelectionAgent.AddRemoveContactSelectionMemberInterests
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddRemoveContactSelectionMemberInterests(Integer,Integer[],Integer[],Integer[],Integer[])'
@@ -171,6 +175,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.AddSelectionMembers(Integer,Integer[])
   id: 'AddSelectionMembers(Integer,Integer[])'
   so.intellisense: NSSelectionAgent.AddSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddSelectionMembers(Integer,Integer[])'
@@ -197,6 +202,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.AddSelectionMembersFromSearch(Integer,String)
   id: 'AddSelectionMembersFromSearch(Integer,String)'
   so.intellisense: NSSelectionAgent.AddSelectionMembersFromSearch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'AddSelectionMembersFromSearch(Integer,String)'
@@ -223,6 +229,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CopyContactSelectionMembers(Integer,Integer)
   id: 'CopyContactSelectionMembers(Integer,Integer)'
   so.intellisense: NSSelectionAgent.CopyContactSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CopyContactSelectionMembers(Integer,Integer)'
@@ -247,6 +254,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CopySelectionMembers(Integer,Integer)
   id: 'CopySelectionMembers(Integer,Integer)'
   so.intellisense: NSSelectionAgent.CopySelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CopySelectionMembers(Integer,Integer)'
@@ -271,6 +279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateContactSelectionFromSelection(Integer,String,Integer,Bool)
   id: 'CreateContactSelectionFromSelection(Integer,String,Integer,Bool)'
   so.intellisense: NSSelectionAgent.CreateContactSelectionFromSelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateContactSelectionFromSelection(Integer,String,Integer,Bool)'
@@ -302,6 +311,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateContactSelectionFromShadowSelection(Integer,String)
   id: 'CreateContactSelectionFromShadowSelection(Integer,String)'
   so.intellisense: NSSelectionAgent.CreateContactSelectionFromShadowSelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateContactSelectionFromShadowSelection(Integer,String)'
@@ -327,6 +337,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateDefaultMailMergeSettings()
   id: 'CreateDefaultMailMergeSettings()'
   so.intellisense: NSSelectionAgent.CreateDefaultMailMergeSettings
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultMailMergeSettings()'
@@ -346,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateDefaultMailMergeTask()
   id: 'CreateDefaultMailMergeTask()'
   so.intellisense: NSSelectionAgent.CreateDefaultMailMergeTask
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultMailMergeTask()'
@@ -365,6 +377,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateDefaultSelectionEntity()
   id: 'CreateDefaultSelectionEntity()'
   so.intellisense: NSSelectionAgent.CreateDefaultSelectionEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultSelectionEntity()'
@@ -384,6 +397,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateNewEntry(NSDuplicateEntry)
   id: 'CreateNewEntry(NSDuplicateEntry)'
   so.intellisense: NSSelectionAgent.CreateNewEntry
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateNewEntry(NSDuplicateEntry)'
@@ -429,6 +443,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateSelectionFromSelection(Integer,String,Integer,Bool)
   id: 'CreateSelectionFromSelection(Integer,String,Integer,Bool)'
   so.intellisense: NSSelectionAgent.CreateSelectionFromSelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateSelectionFromSelection(Integer,String,Integer,Bool)'
@@ -460,6 +475,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateTemporaryContactSelection()
   id: 'CreateTemporaryContactSelection()'
   so.intellisense: NSSelectionAgent.CreateTemporaryContactSelection
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateTemporaryContactSelection()'
@@ -479,6 +495,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[])
   id: 'CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[])'
   so.intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[])'
@@ -501,6 +518,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(Integer)
   id: 'CreateTemporaryContactSelectionFromProjectMembers(Integer)'
   so.intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateTemporaryContactSelectionFromProjectMembers(Integer)'
@@ -523,6 +541,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(Integer,Integer[])
   id: 'CreateTemporaryContactSelectionFromSelectionMemberIds(Integer,Integer[])'
   so.intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateTemporaryContactSelectionFromSelectionMemberIds(Integer,Integer[])'
@@ -548,6 +567,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.CreateTemporarySelectionFromIds(Integer[],Integer)
   id: 'CreateTemporarySelectionFromIds(Integer[],Integer)'
   so.intellisense: NSSelectionAgent.CreateTemporarySelectionFromIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateTemporarySelectionFromIds(Integer[],Integer)'
@@ -573,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.DeleteContacts(Integer)
   id: 'DeleteContacts(Integer)'
   so.intellisense: NSSelectionAgent.DeleteContacts
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteContacts(Integer)'
@@ -594,6 +615,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.DeleteEntities(Integer)
   id: 'DeleteEntities(Integer)'
   so.intellisense: NSSelectionAgent.DeleteEntities
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteEntities(Integer)'
@@ -615,6 +637,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.DeletePersons(Integer)
   id: 'DeletePersons(Integer)'
   so.intellisense: NSSelectionAgent.DeletePersons
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'DeletePersons(Integer)'
@@ -636,6 +659,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.DeleteSelectionEntity(Integer)
   id: 'DeleteSelectionEntity(Integer)'
   so.intellisense: NSSelectionAgent.DeleteSelectionEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteSelectionEntity(Integer)'
@@ -658,6 +682,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.EditContactSelectionMemberDetails(Integer,NSSelectionMemberEditValues)
   id: 'EditContactSelectionMemberDetails(Integer,NSSelectionMemberEditValues)'
   so.intellisense: NSSelectionAgent.EditContactSelectionMemberDetails
+  so.version: 7.0
   langs:
   - crmscript
   name: 'EditContactSelectionMemberDetails(Integer,NSSelectionMemberEditValues)'
@@ -682,6 +707,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.ExportSelectionMembers(Integer,String,Bool)
   id: 'ExportSelectionMembers(Integer,String,Bool)'
   so.intellisense: NSSelectionAgent.ExportSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ExportSelectionMembers(Integer,String,Bool)'
@@ -710,6 +736,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.ExportSelectionMembersWithOrderBy(Integer,String,Bool,String)
   id: 'ExportSelectionMembersWithOrderBy(Integer,String,Bool,String)'
   so.intellisense: NSSelectionAgent.ExportSelectionMembersWithOrderBy
+  so.version: 8.2
   langs:
   - crmscript
   name: 'ExportSelectionMembersWithOrderBy(Integer,String,Bool,String)'
@@ -741,6 +768,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GenerateFollowUps(Integer,NSAppointmentEntity,Integer,Bool,Bool)
   id: 'GenerateFollowUps(Integer,NSAppointmentEntity,Integer,Bool,Bool)'
   so.intellisense: NSSelectionAgent.GenerateFollowUps
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GenerateFollowUps(Integer,NSAppointmentEntity,Integer,Bool,Bool)'
@@ -774,6 +802,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetDuplicateRules()
   id: 'GetDuplicateRules()'
   so.intellisense: NSSelectionAgent.GetDuplicateRules
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicateRules()'
@@ -793,6 +822,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetDuplicates(String)
   id: 'GetDuplicates(String)'
   so.intellisense: NSSelectionAgent.GetDuplicates
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDuplicates(String)'
@@ -815,6 +845,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetDynamicSelectionCriteria(Integer)
   id: 'GetDynamicSelectionCriteria(Integer)'
   so.intellisense: NSSelectionAgent.GetDynamicSelectionCriteria
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDynamicSelectionCriteria(Integer)'
@@ -859,6 +890,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetParentCombinedSelections(Integer)
   id: 'GetParentCombinedSelections(Integer)'
   so.intellisense: NSSelectionAgent.GetParentCombinedSelections
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetParentCombinedSelections(Integer)'
@@ -882,6 +914,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetRecipientStatistics(Integer)
   id: 'GetRecipientStatistics(Integer)'
   so.intellisense: NSSelectionAgent.GetRecipientStatistics
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecipientStatistics(Integer)'
@@ -923,6 +956,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetRecipientStatisticsFromProjectMembers(Integer)
   id: 'GetRecipientStatisticsFromProjectMembers(Integer)'
   so.intellisense: NSSelectionAgent.GetRecipientStatisticsFromProjectMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetRecipientStatisticsFromProjectMembers(Integer)'
@@ -945,6 +979,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetSelectionEntity(Integer)
   id: 'GetSelectionEntity(Integer)'
   so.intellisense: NSSelectionAgent.GetSelectionEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSelectionEntity(Integer)'
@@ -992,6 +1027,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetSelectionMembersArchiveRows(Integer,String)
   id: 'GetSelectionMembersArchiveRows(Integer,String)'
   so.intellisense: NSSelectionAgent.GetSelectionMembersArchiveRows
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSelectionMembersArchiveRows(Integer,String)'
@@ -1017,6 +1053,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.GetSelectionShadowMembersArchiveRows(Integer,String)
   id: 'GetSelectionShadowMembersArchiveRows(Integer,String)'
   so.intellisense: NSSelectionAgent.GetSelectionShadowMembersArchiveRows
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetSelectionShadowMembersArchiveRows(Integer,String)'
@@ -1042,6 +1079,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveContactSelectionMembers(Integer,NSContactPersonId[])
   id: 'RemoveContactSelectionMembers(Integer,NSContactPersonId[])'
   so.intellisense: NSSelectionAgent.RemoveContactSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveContactSelectionMembers(Integer,NSContactPersonId[])'
@@ -1066,6 +1104,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveContactSelectionMembersFromIds(Integer,Integer[])
   id: 'RemoveContactSelectionMembersFromIds(Integer,Integer[])'
   so.intellisense: NSSelectionAgent.RemoveContactSelectionMembersFromIds
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveContactSelectionMembersFromIds(Integer,Integer[])'
@@ -1090,6 +1129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveContactSelectionMembersFromSearch(Integer,String)
   id: 'RemoveContactSelectionMembersFromSearch(Integer,String)'
   so.intellisense: NSSelectionAgent.RemoveContactSelectionMembersFromSearch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveContactSelectionMembersFromSearch(Integer,String)'
@@ -1116,6 +1156,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveSelectionMembers(Integer,Integer[])
   id: 'RemoveSelectionMembers(Integer,Integer[])'
   so.intellisense: NSSelectionAgent.RemoveSelectionMembers
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveSelectionMembers(Integer,Integer[])'
@@ -1140,6 +1181,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveSelectionMembersById(Integer,Integer[])
   id: 'RemoveSelectionMembersById(Integer,Integer[])'
   so.intellisense: NSSelectionAgent.RemoveSelectionMembersById
+  so.version: 8.2
   langs:
   - crmscript
   name: 'RemoveSelectionMembersById(Integer,Integer[])'
@@ -1164,6 +1206,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.RemoveSelectionMembersFromSearch(Integer,String)
   id: 'RemoveSelectionMembersFromSearch(Integer,String)'
   so.intellisense: NSSelectionAgent.RemoveSelectionMembersFromSearch
+  so.version: 7.0
   langs:
   - crmscript
   name: 'RemoveSelectionMembersFromSearch(Integer,String)'
@@ -1190,6 +1233,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.SaveSelectionEntity(NSSelectionEntity)
   id: 'SaveSelectionEntity(NSSelectionEntity)'
   so.intellisense: NSSelectionAgent.SaveSelectionEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveSelectionEntity(NSSelectionEntity)'
@@ -1213,6 +1257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
   id: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
   so.intellisense: NSSelectionAgent.SetDuplicateRulesStatus
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
@@ -1234,6 +1279,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.SetDynamicSelectionCriteria(Integer,NSArchiveRestrictionInfo[])
   id: 'SetDynamicSelectionCriteria(Integer,NSArchiveRestrictionInfo[])'
   so.intellisense: NSSelectionAgent.SetDynamicSelectionCriteria
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDynamicSelectionCriteria(Integer,NSArchiveRestrictionInfo[])'
@@ -1259,6 +1305,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.SetDynamicSelectionCriteria2(Integer,String)
   id: 'SetDynamicSelectionCriteria2(Integer,String)'
   so.intellisense: NSSelectionAgent.SetDynamicSelectionCriteria2
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDynamicSelectionCriteria2(Integer,String)'
@@ -1284,6 +1331,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSelectionAgent.SetDynamicSelectionCriteria3(Integer,NSArchiveRestrictionInfo[],String)
   id: 'SetDynamicSelectionCriteria3(Integer,NSArchiveRestrictionInfo[],String)'
   so.intellisense: NSSelectionAgent.SetDynamicSelectionCriteria3
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDynamicSelectionCriteria3(Integer,NSArchiveRestrictionInfo[],String)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.MacroParameter
   commentId: T:CRMScript.Native.MacroParameter
   id: MacroParameter
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -130,6 +131,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getControlConfig()
   id: 'getControlConfig()'
   so.intellisense: MacroParameter.getControlConfig
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getControlConfig()'
@@ -149,6 +151,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getDescription()
   id: 'getDescription()'
   so.intellisense: MacroParameter.getDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getDescription()'
@@ -168,6 +171,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getIsFixedValue()
   id: 'getIsFixedValue()'
   so.intellisense: MacroParameter.getIsFixedValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getIsFixedValue()'
@@ -187,6 +191,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getIsOptional()
   id: 'getIsOptional()'
   so.intellisense: MacroParameter.getIsOptional
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getIsOptional()'
@@ -206,6 +211,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getLabel()
   id: 'getLabel()'
   so.intellisense: MacroParameter.getLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getLabel()'
@@ -225,6 +231,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getName()
   id: 'getName()'
   so.intellisense: MacroParameter.getName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getName()'
@@ -244,6 +251,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getSourcePath()
   id: 'getSourcePath()'
   so.intellisense: MacroParameter.getSourcePath
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getSourcePath()'
@@ -264,6 +272,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getType()
   id: 'getType()'
   so.intellisense: MacroParameter.getType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getType()'
@@ -283,6 +292,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.getValue()
   id: 'getValue()'
   so.intellisense: MacroParameter.getValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getValue()'
@@ -302,6 +312,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setControlConfig(Map)
   id: 'setControlConfig(Map)'
   so.intellisense: MacroParameter.setControlConfig
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setControlConfig(Map)'
@@ -323,6 +334,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setDescription(String)
   id: 'setDescription(String)'
   so.intellisense: MacroParameter.setDescription
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setDescription(String)'
@@ -344,6 +356,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setIsFixedValue(Bool)
   id: 'setIsFixedValue(Bool)'
   so.intellisense: MacroParameter.setIsFixedValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setIsFixedValue(Bool)'
@@ -365,6 +378,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setIsOptional(Bool)
   id: 'setIsOptional(Bool)'
   so.intellisense: MacroParameter.setIsOptional
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setIsOptional(Bool)'
@@ -386,6 +400,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setLabel(String)
   id: 'setLabel(String)'
   so.intellisense: MacroParameter.setLabel
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setLabel(String)'
@@ -407,6 +422,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setName(String)
   id: 'setName(String)'
   so.intellisense: MacroParameter.setName
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setName(String)'
@@ -428,6 +444,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setSourcePath(String)
   id: 'setSourcePath(String)'
   so.intellisense: MacroParameter.setSourcePath
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setSourcePath(String)'
@@ -450,6 +467,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setType(String)
   id: 'setType(String)'
   so.intellisense: MacroParameter.setType
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setType(String)'
@@ -471,6 +489,7 @@ items:
   commentId: M:CRMScript.Native.MacroParameter.setValue(String)
   id: 'setValue(String)'
   so.intellisense: MacroParameter.setValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'setValue(String)'

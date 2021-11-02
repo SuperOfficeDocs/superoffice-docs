@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.Native.EventData
   commentId: T:CRMScript.Native.EventData
   id: EventData
+  so.version: 8.1
   langs:
   - crmscript
   children:
@@ -47,6 +48,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getBlockExecution()
   id: 'getBlockExecution()'
   so.intellisense: EventData.getBlockExecution
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getBlockExecution()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getInputValue(String)
   id: 'getInputValue(String)'
   so.intellisense: EventData.getInputValue
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getInputValue(String)'
@@ -89,6 +92,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getInputValues()
   id: 'getInputValues()'
   so.intellisense: EventData.getInputValues
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getInputValues()'
@@ -109,6 +113,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getMessage()
   id: 'getMessage()'
   so.intellisense: EventData.getMessage
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getMessage()'
@@ -129,6 +134,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getNavigateTo()
   id: 'getNavigateTo()'
   so.intellisense: EventData.getNavigateTo
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getNavigateTo()'
@@ -148,6 +154,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getStateValue(String)
   id: 'getStateValue(String)'
   so.intellisense: EventData.getStateValue
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getStateValue(String)'
@@ -170,6 +177,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getStateValues()
   id: 'getStateValues()'
   so.intellisense: EventData.getStateValues
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getStateValues()'
@@ -189,6 +197,7 @@ items:
   commentId: M:CRMScript.Native.EventData.getType()
   id: 'getType()'
   so.intellisense: EventData.getType
+  so.version: 8.1
   langs:
   - crmscript
   name: 'getType()'
@@ -209,6 +218,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setBlockExecution(Bool)
   id: 'setBlockExecution(Bool)'
   so.intellisense: EventData.setBlockExecution
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setBlockExecution(Bool)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setMessage(String)
   id: 'setMessage(String)'
   so.intellisense: EventData.setMessage
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setMessage(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setNavigateTo(String)
   id: 'setNavigateTo(String)'
   so.intellisense: EventData.setNavigateTo
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setNavigateTo(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setOutputValue(String,String)
   id: 'setOutputValue(String,String)'
   so.intellisense: EventData.setOutputValue
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setOutputValue(String,String)'
@@ -299,6 +312,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setStateValue(String,String)
   id: 'setStateValue(String,String)'
   so.intellisense: EventData.setStateValue
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setStateValue(String,String)'
@@ -323,6 +337,7 @@ items:
   commentId: M:CRMScript.Native.EventData.setValidationMessage(String)
   id: 'setValidationMessage(String)'
   so.intellisense: EventData.setValidationMessage
+  so.version: 8.1
   langs:
   - crmscript
   name: 'setValidationMessage(String)'

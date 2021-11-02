@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSConfigurationAgent
   commentId: T:CRMScript.NetServer.NSConfigurationAgent
   id: NSConfigurationAgent
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -70,6 +71,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
   id: 'ClearConfigurationCache(String,String,Bool)'
   so.intellisense: NSConfigurationAgent.ClearConfigurationCache
+  so.version: 7.0
   langs:
   - crmscript
   name: 'ClearConfigurationCache(String,String,Bool)'
@@ -98,6 +100,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.CreateDefaultDiaryViewEntity()
   id: 'CreateDefaultDiaryViewEntity()'
   so.intellisense: NSConfigurationAgent.CreateDefaultDiaryViewEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'CreateDefaultDiaryViewEntity()'
@@ -118,6 +121,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.CreateDefaultSystemEventEntity()
   id: 'CreateDefaultSystemEventEntity()'
   so.intellisense: NSConfigurationAgent.CreateDefaultSystemEventEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'CreateDefaultSystemEventEntity()'
@@ -138,6 +142,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
   id: 'DeleteDiaryViewEntity(Integer)'
   so.intellisense: NSConfigurationAgent.DeleteDiaryViewEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteDiaryViewEntity(Integer)'
@@ -160,6 +165,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteSystemEventEntity(Integer)
   id: 'DeleteSystemEventEntity(Integer)'
   so.intellisense: NSConfigurationAgent.DeleteSystemEventEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'DeleteSystemEventEntity(Integer)'
@@ -182,6 +188,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteWindowPosSize(Integer)
   id: 'DeleteWindowPosSize(Integer)'
   so.intellisense: NSConfigurationAgent.DeleteWindowPosSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'DeleteWindowPosSize(Integer)'
@@ -203,6 +210,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.ExistsSystemEvent(String)
   id: 'ExistsSystemEvent(String)'
   so.intellisense: NSConfigurationAgent.ExistsSystemEvent
+  so.version: 7.5
   langs:
   - crmscript
   name: 'ExistsSystemEvent(String)'
@@ -226,6 +234,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
   id: 'GetAnyConfiguration(String,String,String,String)'
   so.intellisense: NSConfigurationAgent.GetAnyConfiguration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAnyConfiguration(String,String,String,String)'
@@ -258,6 +267,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetApplicationConfiguration(String,String)
   id: 'GetApplicationConfiguration(String,String)'
   so.intellisense: NSConfigurationAgent.GetApplicationConfiguration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetApplicationConfiguration(String,String)'
@@ -284,6 +294,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCRMUrl(String,String,Bool)
   id: 'GetCRMUrl(String,String,Bool)'
   so.intellisense: NSConfigurationAgent.GetCRMUrl
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetCRMUrl(String,String,Bool)'
@@ -313,6 +324,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
   id: 'GetCSAuthUrl(String,String,String,String)'
   so.intellisense: NSConfigurationAgent.GetCSAuthUrl
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetCSAuthUrl(String,String,String,String)'
@@ -345,6 +357,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCsCgiUrlInternal()
   id: 'GetCsCgiUrlInternal()'
   so.intellisense: NSConfigurationAgent.GetCsCgiUrlInternal
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetCsCgiUrlInternal()'
@@ -365,6 +378,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
   id: 'GetCsProgramUrl(String,String,String,String)'
   so.intellisense: NSConfigurationAgent.GetCsProgramUrl
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetCsProgramUrl(String,String,String,String)'
@@ -397,6 +411,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSRegistryValue(Integer)
   id: 'GetCSRegistryValue(Integer)'
   so.intellisense: NSConfigurationAgent.GetCSRegistryValue
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetCSRegistryValue(Integer)'
@@ -420,6 +435,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSWwwFolder()
   id: 'GetCSWwwFolder()'
   so.intellisense: NSConfigurationAgent.GetCSWwwFolder
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetCSWwwFolder()'
@@ -440,6 +456,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCustomerUrl()
   id: 'GetCustomerUrl()'
   so.intellisense: NSConfigurationAgent.GetCustomerUrl
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetCustomerUrl()'
@@ -460,6 +477,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetDiaryViewEntity(Integer)
   id: 'GetDiaryViewEntity(Integer)'
   so.intellisense: NSConfigurationAgent.GetDiaryViewEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetDiaryViewEntity(Integer)'
@@ -483,6 +501,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetEmailNumberOfDays()
   id: 'GetEmailNumberOfDays()'
   so.intellisense: NSConfigurationAgent.GetEmailNumberOfDays
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetEmailNumberOfDays()'
@@ -503,6 +522,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetEMarketingUrl(String)
   id: 'GetEMarketingUrl(String)'
   so.intellisense: NSConfigurationAgent.GetEMarketingUrl
+  so.version: 7.9.0
   langs:
   - crmscript
   name: 'GetEMarketingUrl(String)'
@@ -525,6 +545,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetFilterList(String,String)
   id: 'GetFilterList(String,String)'
   so.intellisense: NSConfigurationAgent.GetFilterList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetFilterList(String,String)'
@@ -551,6 +572,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetHelpDispatcherUrl()
   id: 'GetHelpDispatcherUrl()'
   so.intellisense: NSConfigurationAgent.GetHelpDispatcherUrl
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetHelpDispatcherUrl()'
@@ -571,6 +593,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetMyWindowPosSizes()
   id: 'GetMyWindowPosSizes()'
   so.intellisense: NSConfigurationAgent.GetMyWindowPosSizes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetMyWindowPosSizes()'
@@ -591,6 +614,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetObjectMapping(String,String)
   id: 'GetObjectMapping(String,String)'
   so.intellisense: NSConfigurationAgent.GetObjectMapping
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetObjectMapping(String,String)'
@@ -617,6 +641,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetPageConfiguration(String,String,String)
   id: 'GetPageConfiguration(String,String,String)'
   so.intellisense: NSConfigurationAgent.GetPageConfiguration
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetPageConfiguration(String,String,String)'
@@ -646,6 +671,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
   id: 'GetRefreshedPageConfiguration(String,String,String)'
   so.intellisense: NSConfigurationAgent.GetRefreshedPageConfiguration
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRefreshedPageConfiguration(String,String,String)'
@@ -675,6 +701,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetSystemEventEntity(Integer)
   id: 'GetSystemEventEntity(Integer)'
   so.intellisense: NSConfigurationAgent.GetSystemEventEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSystemEventEntity(Integer)'
@@ -698,6 +725,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSize(Integer)
   id: 'GetWindowPosSize(Integer)'
   so.intellisense: NSConfigurationAgent.GetWindowPosSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWindowPosSize(Integer)'
@@ -721,6 +749,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizeList(Integer[])
   id: 'GetWindowPosSizeList(Integer[])'
   so.intellisense: NSConfigurationAgent.GetWindowPosSizeList
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWindowPosSizeList(Integer[])'
@@ -744,6 +773,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
   id: 'GetWindowPosSizesOnAssociateId(Integer)'
   so.intellisense: NSConfigurationAgent.GetWindowPosSizesOnAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWindowPosSizesOnAssociateId(Integer)'
@@ -767,6 +797,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
   id: 'GetWindowPosSizesOnPersonId(Integer)'
   so.intellisense: NSConfigurationAgent.GetWindowPosSizesOnPersonId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetWindowPosSizesOnPersonId(Integer)'
@@ -790,6 +821,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWwwUrl(String)
   id: 'GetWwwUrl(String)'
   so.intellisense: NSConfigurationAgent.GetWwwUrl
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetWwwUrl(String)'
@@ -813,6 +845,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWwwUrlForSMWeb()
   id: 'GetWwwUrlForSMWeb()'
   so.intellisense: NSConfigurationAgent.GetWwwUrlForSMWeb
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetWwwUrlForSMWeb()'
@@ -833,6 +866,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
   id: 'SaveDiaryViewEntity(NSDiaryViewEntity)'
   so.intellisense: NSConfigurationAgent.SaveDiaryViewEntity
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveDiaryViewEntity(NSDiaryViewEntity)'
@@ -856,6 +890,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
   id: 'SaveSystemEventEntity(NSSystemEventEntity)'
   so.intellisense: NSConfigurationAgent.SaveSystemEventEntity
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SaveSystemEventEntity(NSSystemEventEntity)'
@@ -879,6 +914,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
   id: 'SaveWindowPosSize(NSWindowPosSize)'
   so.intellisense: NSConfigurationAgent.SaveWindowPosSize
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveWindowPosSize(NSWindowPosSize)'
@@ -902,6 +938,7 @@ items:
   commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
   id: 'SaveWindowPosSizes(NSWindowPosSize[])'
   so.intellisense: NSConfigurationAgent.SaveWindowPosSizes
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SaveWindowPosSizes(NSWindowPosSize[])'

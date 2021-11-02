@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPaymentTerm
   commentId: T:CRMScript.NetServer.NSPaymentTerm
   id: NSPaymentTerm
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.GetId()
   id: 'GetId()'
   so.intellisense: NSPaymentTerm.GetId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSPaymentTerm.GetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.GetValue()
   id: 'GetValue()'
   so.intellisense: NSPaymentTerm.GetValue
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetValue()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.SetId(Integer)
   id: 'SetId(Integer)'
   so.intellisense: NSPaymentTerm.SetId
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSPaymentTerm.SetTooltip
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPaymentTerm.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSPaymentTerm.SetValue
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'SetValue(String)'

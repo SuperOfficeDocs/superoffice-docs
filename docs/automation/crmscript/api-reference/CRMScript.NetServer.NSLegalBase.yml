@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSLegalBase
   commentId: T:CRMScript.NetServer.NSLegalBase
   id: NSLegalBase
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSLegalBase.GetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetKey()
   id: 'GetKey()'
   so.intellisense: NSLegalBase.GetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetKey()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetLegalBaseId()
   id: 'GetLegalBaseId()'
   so.intellisense: NSLegalBase.GetLegalBaseId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetLegalBaseId()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetName()
   id: 'GetName()'
   so.intellisense: NSLegalBase.GetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetName()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetRank()
   id: 'GetRank()'
   so.intellisense: NSLegalBase.GetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetRank()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSLegalBase.GetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSLegalBase.SetDeleted
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetKey(String)
   id: 'SetKey(String)'
   so.intellisense: NSLegalBase.SetKey
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetKey(String)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetLegalBaseId(Integer)
   id: 'SetLegalBaseId(Integer)'
   so.intellisense: NSLegalBase.SetLegalBaseId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetLegalBaseId(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSLegalBase.SetName
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSLegalBase.SetRank
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSLegalBase.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSLegalBase.SetTooltip
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetTooltip(String)'

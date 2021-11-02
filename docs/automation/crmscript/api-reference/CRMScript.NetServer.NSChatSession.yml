@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSChatSession
   commentId: T:CRMScript.NetServer.NSChatSession
   id: NSChatSession
+  so.version: 8.2
   langs:
   - crmscript
   children:
@@ -34,6 +35,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSession.GetChatSessionId()
   id: 'GetChatSessionId()'
   so.intellisense: NSChatSession.GetChatSessionId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'GetChatSessionId()'
@@ -54,6 +56,7 @@ items:
   commentId: M:CRMScript.NetServer.NSChatSession.SetChatSessionId(Integer)
   id: 'SetChatSessionId(Integer)'
   so.intellisense: NSChatSession.SetChatSessionId
+  so.version: 8.2
   langs:
   - crmscript
   name: 'SetChatSessionId(Integer)'

@@ -151,6 +151,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.addCriteria(String,String,String)
   id: 'addCriteria(String,String,String)'
   so.intellisense: SearchEngine.addCriteria
+  so.version: 7.1.1
   langs:
   - crmscript
   name: 'addCriteria(String,String,String)'
@@ -269,6 +270,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.addDataField(String,String)
   id: 'addDataField(String,String)'
   so.intellisense: SearchEngine.addDataField
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'addDataField(String,String)'
@@ -294,6 +296,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.addDataField(String,String,String)
   id: 'addDataField(String,String,String)'
   so.intellisense: SearchEngine.addDataField
+  so.version: 4.2.0
   langs:
   - crmscript
   name: 'addDataField(String,String,String)'
@@ -366,6 +369,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.addFields(String,String)
   id: 'addFields(String,String)'
   so.intellisense: SearchEngine.addFields
+  so.version: 8.4R02
   langs:
   - crmscript
   name: 'addFields(String,String)'
@@ -460,6 +464,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.addJoinCriteria(String,String,String,String,Integer)
   id: 'addJoinCriteria(String,String,String,String,Integer)'
   so.intellisense: SearchEngine.addJoinCriteria
+  so.version: 4.10.1
   langs:
   - crmscript
   name: 'addJoinCriteria(String,String,String,String,Integer)'
@@ -563,6 +568,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.buildSql(String)
   id: 'buildSql(String)'
   so.intellisense: SearchEngine.buildSql
+  so.version: 4.5.1
   langs:
   - crmscript
   name: 'buildSql(String)'
@@ -585,6 +591,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.bypassNetServer(Bool)
   id: 'bypassNetServer(Bool)'
   so.intellisense: SearchEngine.bypassNetServer
+  so.version: 7.0
   langs:
   - crmscript
   name: 'bypassNetServer(Bool)'
@@ -606,6 +613,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.countColumns()
   id: 'countColumns()'
   so.intellisense: SearchEngine.countColumns
+  so.version: 7.1.0
   langs:
   - crmscript
   name: 'countColumns()'
@@ -700,6 +708,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.executeHTMLTable()
   id: 'executeHTMLTable()'
   so.intellisense: SearchEngine.executeHTMLTable
+  so.version: 8.4R02
   langs:
   - crmscript
   name: 'executeHTMLTable()'
@@ -738,6 +747,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.executeJSON()
   id: 'executeJSON()'
   so.intellisense: SearchEngine.executeJSON
+  so.version: 7.5
   langs:
   - crmscript
   name: 'executeJSON()'
@@ -757,6 +767,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.executeNS()
   id: 'executeNS()'
   so.intellisense: SearchEngine.executeNS
+  so.version: 4.10.1
   langs:
   - crmscript
   name: 'executeNS()'
@@ -776,6 +787,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.executeTextTable()
   id: 'executeTextTable()'
   so.intellisense: SearchEngine.executeTextTable
+  so.version: 8.4R02
   langs:
   - crmscript
   name: 'executeTextTable()'
@@ -795,6 +807,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.executeToJSONBuilder(JSONBuilder,String,String)
   id: 'executeToJSONBuilder(JSONBuilder,String,String)'
   so.intellisense: SearchEngine.executeToJSONBuilder
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'executeToJSONBuilder(JSONBuilder,String,String)'
@@ -823,6 +836,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.findAlternativeFields(String)
   id: 'findAlternativeFields(String)'
   so.intellisense: SearchEngine.findAlternativeFields
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'findAlternativeFields(String)'
@@ -845,6 +859,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.findRelations(String,Bool)
   id: 'findRelations(String,Bool)'
   so.intellisense: SearchEngine.findRelations
+  so.version: 7.0
   langs:
   - crmscript
   name: 'findRelations(String,Bool)'
@@ -958,6 +973,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.getFieldsJSON()
   id: 'getFieldsJSON()'
   so.intellisense: SearchEngine.getFieldsJSON
+  so.version: 7.5
   langs:
   - crmscript
   name: 'getFieldsJSON()'
@@ -1034,6 +1050,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.setCallBack(String)
   id: 'setCallBack(String)'
   so.intellisense: SearchEngine.setCallBack
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'setCallBack(String)'
@@ -1055,6 +1072,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.setDBDistinct(Bool)
   id: 'setDBDistinct(Bool)'
   so.intellisense: SearchEngine.setDBDistinct
+  so.version: 4.0.0
   langs:
   - crmscript
   name: 'setDBDistinct(Bool)'
@@ -1076,6 +1094,7 @@ items:
   commentId: M:CRMScript.Native.SearchEngine.setDistinct(String)
   id: 'setDistinct(String)'
   so.intellisense: SearchEngine.setDistinct
+  so.version: 3.1.4
   langs:
   - crmscript
   name: 'setDistinct(String)'

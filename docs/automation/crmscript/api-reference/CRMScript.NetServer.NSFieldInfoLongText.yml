@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoLongText
   commentId: T:CRMScript.NetServer.NSFieldInfoLongText
   id: NSFieldInfoLongText
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -42,6 +43,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.GetChoices()
   id: 'GetChoices()'
   so.intellisense: NSFieldInfoLongText.GetChoices
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetChoices()'
@@ -61,6 +63,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoLongText.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -81,6 +84,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.GetIsHtml()
   id: 'GetIsHtml()'
   so.intellisense: NSFieldInfoLongText.GetIsHtml
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetIsHtml()'
@@ -101,6 +105,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.GetNumRows()
   id: 'GetNumRows()'
   so.intellisense: NSFieldInfoLongText.GetNumRows
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetNumRows()'
@@ -121,6 +126,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.GetUseTextArea()
   id: 'GetUseTextArea()'
   so.intellisense: NSFieldInfoLongText.GetUseTextArea
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetUseTextArea()'
@@ -141,6 +147,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.SetChoices(String[])
   id: 'SetChoices(String[])'
   so.intellisense: NSFieldInfoLongText.SetChoices
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetChoices(String[])'
@@ -162,6 +169,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.SetDefaultValue(String)
   id: 'SetDefaultValue(String)'
   so.intellisense: NSFieldInfoLongText.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(String)'
@@ -184,6 +192,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.SetIsHtml(Bool)
   id: 'SetIsHtml(Bool)'
   so.intellisense: NSFieldInfoLongText.SetIsHtml
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetIsHtml(Bool)'
@@ -206,6 +215,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.SetNumRows(Integer)
   id: 'SetNumRows(Integer)'
   so.intellisense: NSFieldInfoLongText.SetNumRows
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetNumRows(Integer)'
@@ -228,6 +238,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoLongText.SetUseTextArea(Bool)
   id: 'SetUseTextArea(Bool)'
   so.intellisense: NSFieldInfoLongText.SetUseTextArea
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetUseTextArea(Bool)'

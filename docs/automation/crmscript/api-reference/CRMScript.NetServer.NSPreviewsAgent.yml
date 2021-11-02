@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSPreviewsAgent
   commentId: T:CRMScript.NetServer.NSPreviewsAgent
   id: NSPreviewsAgent
+  so.version: 8.0sr3
   langs:
   - crmscript
   children:
@@ -35,6 +36,7 @@ items:
   commentId: M:CRMScript.NetServer.NSPreviewsAgent.GetPreview(String)
   id: 'GetPreview(String)'
   so.intellisense: NSPreviewsAgent.GetPreview
+  so.version: 8.0sr3
   langs:
   - crmscript
   name: 'GetPreview(String)'

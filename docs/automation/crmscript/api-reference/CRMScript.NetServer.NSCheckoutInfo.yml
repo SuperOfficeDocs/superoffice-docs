@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSCheckoutInfo
   commentId: T:CRMScript.NetServer.NSCheckoutInfo
   id: NSCheckoutInfo
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -38,6 +39,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetAssociateId()
   id: 'GetAssociateId()'
   so.intellisense: NSCheckoutInfo.GetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetAssociateId()'
@@ -58,6 +60,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetName()
   id: 'GetName()'
   so.intellisense: NSCheckoutInfo.GetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetName()'
@@ -78,6 +81,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetState()
   id: 'GetState()'
   so.intellisense: NSCheckoutInfo.GetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetState()'
@@ -98,6 +102,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetAssociateId(Integer)
   id: 'SetAssociateId(Integer)'
   so.intellisense: NSCheckoutInfo.SetAssociateId
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetAssociateId(Integer)'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetName(String)
   id: 'SetName(String)'
   so.intellisense: NSCheckoutInfo.SetName
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetName(String)'
@@ -142,6 +148,7 @@ items:
   commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetState(Integer)
   id: 'SetState(Integer)'
   so.intellisense: NSCheckoutInfo.SetState
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetState(Integer)'

@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSSaleStageEntity
   commentId: T:CRMScript.NetServer.NSSaleStageEntity
   id: NSSaleStageEntity
+  so.version: 7.5
   langs:
   - crmscript
   children:
@@ -44,6 +45,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetDeleted()
   id: 'GetDeleted()'
   so.intellisense: NSSaleStageEntity.GetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetDeleted()'
@@ -64,6 +66,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetProbability()
   id: 'GetProbability()'
   so.intellisense: NSSaleStageEntity.GetProbability
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetProbability()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetRank()
   id: 'GetRank()'
   so.intellisense: NSSaleStageEntity.GetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetRank()'
@@ -104,6 +108,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetSaleStageId()
   id: 'GetSaleStageId()'
   so.intellisense: NSSaleStageEntity.GetSaleStageId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetSaleStageId()'
@@ -124,6 +129,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetTooltip()
   id: 'GetTooltip()'
   so.intellisense: NSSaleStageEntity.GetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetTooltip()'
@@ -144,6 +150,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetValue()
   id: 'GetValue()'
   so.intellisense: NSSaleStageEntity.GetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'GetValue()'
@@ -164,6 +171,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetDeleted(Bool)
   id: 'SetDeleted(Bool)'
   so.intellisense: NSSaleStageEntity.SetDeleted
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetDeleted(Bool)'
@@ -186,6 +194,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetProbability(Integer)
   id: 'SetProbability(Integer)'
   so.intellisense: NSSaleStageEntity.SetProbability
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetProbability(Integer)'
@@ -208,6 +217,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetRank(Integer)
   id: 'SetRank(Integer)'
   so.intellisense: NSSaleStageEntity.SetRank
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetRank(Integer)'
@@ -230,6 +240,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetSaleStageId(Integer)
   id: 'SetSaleStageId(Integer)'
   so.intellisense: NSSaleStageEntity.SetSaleStageId
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetSaleStageId(Integer)'
@@ -252,6 +263,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetTooltip(String)
   id: 'SetTooltip(String)'
   so.intellisense: NSSaleStageEntity.SetTooltip
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetTooltip(String)'
@@ -274,6 +286,7 @@ items:
   commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetValue(String)
   id: 'SetValue(String)'
   so.intellisense: NSSaleStageEntity.SetValue
+  so.version: 7.5
   langs:
   - crmscript
   name: 'SetValue(String)'

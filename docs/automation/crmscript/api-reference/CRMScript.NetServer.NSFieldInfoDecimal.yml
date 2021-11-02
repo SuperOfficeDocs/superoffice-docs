@@ -3,6 +3,7 @@ items:
 - uid: CRMScript.NetServer.NSFieldInfoDecimal
   commentId: T:CRMScript.NetServer.NSFieldInfoDecimal
   id: NSFieldInfoDecimal
+  so.version: 8.5R08
   langs:
   - crmscript
   children:
@@ -36,6 +37,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDecimal.GetDefaultValue()
   id: 'GetDefaultValue()'
   so.intellisense: NSFieldInfoDecimal.GetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetDefaultValue()'
@@ -56,6 +58,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDecimal.GetPrecision()
   id: 'GetPrecision()'
   so.intellisense: NSFieldInfoDecimal.GetPrecision
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'GetPrecision()'
@@ -76,6 +79,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDecimal.SetDefaultValue(Float)
   id: 'SetDefaultValue(Float)'
   so.intellisense: NSFieldInfoDecimal.SetDefaultValue
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetDefaultValue(Float)'
@@ -96,6 +100,7 @@ items:
   commentId: M:CRMScript.NetServer.NSFieldInfoDecimal.SetPrecision(Integer)
   id: 'SetPrecision(Integer)'
   so.intellisense: NSFieldInfoDecimal.SetPrecision
+  so.version: 8.5R08
   langs:
   - crmscript
   name: 'SetPrecision(Integer)'

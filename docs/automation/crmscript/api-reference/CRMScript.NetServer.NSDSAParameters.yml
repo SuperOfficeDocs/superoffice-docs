@@ -4,6 +4,7 @@ items:
   # TODO FIXME This class is incomplete. It's actually a .NET Datatype that is a property in the NSSignedPublicKey class
   commentId: T:CRMScript.NetServer.NSDSAParameters
   id: NSDSAParameters
+  so.version: 7.0
   langs:
   - crmscript
   children:
@@ -47,6 +48,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetCounter()
   id: 'GetCounter()'
   so.intellisense: NSDSAParameters.GetCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetCounter()'
@@ -66,6 +68,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetG()
   id: 'GetG()'
   so.intellisense: NSDSAParameters.GetG
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetG()'
@@ -84,6 +87,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetJ()
   id: 'GetJ()'
   so.intellisense: NSDSAParameters.GetJ
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetJ()'
@@ -102,6 +106,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetP()
   id: 'GetP()'
   so.intellisense: NSDSAParameters.GetP
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetP()'
@@ -120,6 +125,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetQ()
   id: 'GetQ()'
   so.intellisense: NSDSAParameters.GetQ
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetQ()'
@@ -138,6 +144,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetSeed()
   id: 'GetSeed()'
   so.intellisense: NSDSAParameters.GetSeed
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetSeed()'
@@ -156,6 +163,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.GetY()
   id: 'GetY()'
   so.intellisense: NSDSAParameters.GetY
+  so.version: 7.0
   langs:
   - crmscript
   name: 'GetY()'
@@ -174,6 +182,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetCounter(Integer)
   id: 'SetCounter(Integer)'
   so.intellisense: NSDSAParameters.SetCounter
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetCounter(Integer)'
@@ -195,6 +204,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetG(NSBinary)
   id: 'SetG(NSBinary)'
   so.intellisense: NSDSAParameters.SetG
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetG(NSBinary)'
@@ -216,6 +226,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetJ(NSBinary)
   id: 'SetJ(NSBinary)'
   so.intellisense: NSDSAParameters.SetJ
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetJ(NSBinary)'
@@ -237,6 +248,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetP(NSBinary)
   id: 'SetP(NSBinary)'
   so.intellisense: NSDSAParameters.SetP
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetP(NSBinary)'
@@ -258,6 +270,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetQ(NSBinary)
   id: 'SetQ(NSBinary)'
   so.intellisense: NSDSAParameters.SetQ
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetQ(NSBinary)'
@@ -279,6 +292,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetSeed(NSBinary)
   id: 'SetSeed(NSBinary)'
   so.intellisense: NSDSAParameters.SetSeed
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetSeed(NSBinary)'
@@ -300,6 +314,7 @@ items:
   commentId: M:CRMScript.NetServer.NSDSAParameters.SetY(NSBinary)
   id: 'SetY(NSBinary)'
   so.intellisense: NSDSAParameters.SetY
+  so.version: 7.0
   langs:
   - crmscript
   name: 'SetY(NSBinary)'
