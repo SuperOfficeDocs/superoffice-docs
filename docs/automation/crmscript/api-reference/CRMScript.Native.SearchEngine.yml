@@ -754,7 +754,7 @@ items:
   nameWithType: SearchEngine.executeJSON()
   fullName: CRMScript.Native.SearchEngine.executeJSON()
   type: Method
-  summary: \nExecutes the query and return the result as a JSON formatted text.\n"
+  summary: "\nExecutes the query and return the result as a JSON formatted text.\n"
   remarks: 
   syntax: 
     content: String executeJSON()
