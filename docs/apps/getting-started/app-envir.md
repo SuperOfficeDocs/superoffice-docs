@@ -31,6 +31,21 @@ In stage, an application must prove it can withstand a high degree of traffic wi
 
 This is the public space where SuperOffice CRM Online and all [deployed applications][5] reside. That means both standard applications published to the App Store and custom applications activated on a customer's [tenant][10].
 
+### Maintenance window
+
+Our production environment has some windows where we may upgrade and maintain our system. At these times you might not get access to the tenant and you should handle these so no data is lost. Make sure to [check the tenant status][13].
+
+* Every night between 01.00 (UTC+1) and 03.00 (UTC+1) we recycle the application pools for all customers.
+
+* The maintenance window is **Saturday between 20.00 (UTC+1) and Sunday 06.00 (UTC+1)**.
+
+* The patch window is **Thursdays between 22.00 (UTC+1) and Friday 06.00 (UTC+1)** and at this time the servers may reboot.
+
+We upgrade our customers on Tuesdays and Fridays every third week. Info regarding this will be given on the login page only. The window here is from 20.00 (UTC+1) and may last until 05:00 (UTC+1).
+
+> [!TIP]
+> Sign up for updates at [status.superoffice.com][6].
+
 ## Why different environments?
 
 It's quite simple: **security**. SuperOffice takes security very seriously, while at the same time makes it easy for applications to transition from one environment to the next when ready.
@@ -93,12 +108,15 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [3]: ../activate/index.md
 [4]: ../certification/index.md
 [5]: index.md
+[6]: https://status.superoffice.com/
 [7]: ../app-store.md
 [8]: ../overview.md
 [9]: ../../identity-management/federated-auth.md
 [10]: ../terminology.md
 [11]: ../../../../data-access/docs/authentication/online/certificates/index.md
 [12]: ../../online/test-environment/index.md
+[13]: ../tenant-status/index.md
+
 <!-- Referenced images -->
 [img1]: media/online-environments-sidebyside-650.png
 [img2]: media/online-environments-settings-sidebyside2-650.png
