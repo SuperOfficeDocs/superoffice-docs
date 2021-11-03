@@ -83,13 +83,13 @@ The config data for a view can appear in 2 ways: within the views tag or in a se
 <!-- Referenced links -->
 [1]: panel.md
 [2]: view.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogCard.htm
-[4]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Cards_and_Views_DialogSimpleCard.htm
-[5]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DiaryCard.htm
-[6]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_FloatingCard.htm
-[7]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_FindCard.htm
-[8]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_TabbedCard.htm
-[9]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_DCF_Web_UI_Controls_WizardCard.htm
+[3]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogCard>
+[4]: <xref:SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard>
+[5]: <xref:SuperOffice.CRM.Web.UI.Controls.DiaryCard>
+[6]: <xref:SuperOffice.CRM.Web.UI.Controls.FloatingCard>
+[7]: <xref:SuperOffice.CRM.Web.UI.Controls.FindCard>
+[8]: <xref:SuperOffice.CRM.Web.UI.Controls.TabbedCard>
+[9]: <xref:SuperOffice.CRM.Web.UI.Controls.WizardCard>
 [10]: ../../../soprotocol/index.md
 [11]: soml.md
 

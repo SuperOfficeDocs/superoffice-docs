@@ -128,15 +128,15 @@ These links show us a direct way to open a page with wanted tabs. The SoProtocol
 <!-- Referenced links -->
 [1]: panel.md
 [2]: card.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogView.htm
-[4]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogAbsoluteView.htm
-[5]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogHeaderView.htm
-[6]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogSimpleFooterView.htm
-[7]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_DialogSimpleView.htm
-[8]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_DCF_Web_UI_Controls_GenericView.htm
-[9]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_PlainView.htm
-[10]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_SystemView.htm
-[11]: https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/T_SuperOffice_CRM_Web_UI_Controls_TabbedView.htm
+[3]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogView>
+[4]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogAbsoluteView>
+[5]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogHeaderView>
+[6]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogSimpleFooterView>
+[7]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogSimpleView>
+[8]: <xref:SuperOffice.DCF.Web.UI.Controls.GenericView>
+[9]: <xref:SuperOffice.CRM.Web.UI.Controls.PlainView>
+[10]: <xref:SuperOffice.CRM.Web.UI.Controls.SystemView>
+[11]: <xref:SuperOffice.CRM.Web.UI.Controls.TabbedView>
 
 <!-- Referenced images -->
 [img1]: media/web-client-pagebuilder-framework2.png

@@ -1,10 +1,10 @@
 ---
 title: Validation controls
 uid: validation_controls_web
-description: Validation controls
+description: A tutorial teaching you how to enforce complex business rules and how you can interact with the user and tell them what needs to be done before a save will succeed.
 author: Tony Yates
 so.date: 10.07.2011
-keywords:
+keywords: web client, validation, event handler, ValidationControl, ValidationRules, UI
 so.topic: tutorial
 ---
 
@@ -26,7 +26,7 @@ The JavaScript solution, which I'm not going to talk anymore about in this artic
 
 NetServer web service event handing is discussed in further detail in [this article][2], and will not be discussed here.
 
-Validation components, which I am going to be discussing in this article, are well documented in the SDK, and read more about them reviewing the [documentation covering the ValidationBase class][3].
+Validation components, which I am going to be discussing in this article, are well documented in the SDK and read more about them reviewing the [documentation covering the ValidationBase class][3].
 
 Probably the most widely used validation component is the MandatoryValidator. The validator component in the code below is used by appending an element as a child in the element declaration.
 
@@ -40,11 +40,11 @@ This mechanism is used through the web client application to validate every cont
 
 The really cool thing about this is that we can use this same means to validate fields that interest us and interact with the user if something isn't quite right.
 
-So how do we take advantage of this for our own benefit towards complex rule-based validation? We simply create a generic control for accepting a datasource, and creating a validator that will be responsible for validating the datasource of that control.
+So how do we take advantage of this for our own benefit towards complex rule-based validation? We simply create a generic control for accepting a datasource and creating a validator that will be responsible for validating the datasource of that control.
 
 ## The conceptual overview
 
-In ASP.NET, control validation is a recursive process. This means that when a page checks its `IsValid` property, the page recursively iterates over, and calls `IsValid` on each and every child control on that page. Each child control on that page will then also recursively iterates over each child control it contains and checks the `IsValid` property for each child control as well.
+In ASP.NET, control validation is a recursive process. This means that when a page checks its `IsValid` property, the page recursively iterates over, and calls `IsValid` on each and every child control on that page. Each child control on that page will then also recursively iterate over each child control it contains and checks the `IsValid` property for each child control as well.
 
 As each control validates, the validation results of the collective ultimately determine the validation state of the entire page.
 
@@ -162,7 +162,7 @@ The custom validator, MandatoryFieldValidator, expects a config element that con
 
 A valuable takeaway from the code shown below, specifically in the `_validate` method, is the use of the `DataDispatcher`. This is how you get current field values for controls that are displayed in the browser but not necessarily passed in with the main entity that may have been the datasource of a validator.
 
-Unfortunately, while the control is instantiated and the `Initialize` method is invoked, the `_validate` method never gets called. The reason is that the `SoNameControl` overrides the Validate method internally and does not rely or invoke any other validators.
+Unfortunately, while the control is instantiated and the `Initialize` method is invoked, the `_validate` method never gets called. The reason is that the `SoNameControl` overrides the Validate method internally and does not relay or invoke any other validators.
 
 **The MandatoryFieldValidator class:**
 
@@ -189,9 +189,9 @@ This technique should be used when you want to add business logic to a page, an
 <a href="../../../assets/downloads/webvalidation.zip" download>Click to download examples</a>
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/content/content/samples-and-code/web-client-sdk/overriding-default-save-button-functionality/
-[2]: https://community.superoffice.com/en/content/content/webclient/Scripting-in-the-NetServer-World/
-[3]: https://community.superoffice.com/Documentation/SDK/SO.WebGUI/html/b27602d5-7621-7792-966c-f1b7b659007d.htm
+[1]: ../override-default-save-button/index.md
+[2]: ../../../../../data-access/docs/netserver/services/scripting/index.md
+[3]: <xref:SuperOffice.DCF.Web.UI.Validations.ValidationBase>
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg
