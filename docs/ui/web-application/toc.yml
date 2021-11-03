@@ -126,9 +126,9 @@ items:
   items:
   - name: Ajax create followup
     href: tutorials/ajax-create-followup/index.md
-  - name: Aspnet appointment with login
+  - name: ASP.net appointment with login
     href: tutorials/aspnet-appointment-with-login/index.md
-  - name: Cust page std controls.md
+  - name: Cust page std controls
     href: tutorials/cust-page-std-controls.md/index.md
   - name: Custom archive control
     href: tutorials/custom-archive-control/index.md
@@ -141,7 +141,9 @@ items:
       href: tutorials/custom-archive-control/3-add-row-click-actions.md
     - name: 4. Add archive action button
       href: tutorials/custom-archive-control/4-add-archive-action-button.md
-  - name: Naviagtor button opens contact's selected project
+  - name: Override default save button
+    href: tutorials/override-default-save-button/index.md
+  - name: Navigator button opens contact's selected project
     href: tutorials/navbutton-contacts-selected-project/index.md
   - name: Sale foreignkeys
     href: tutorials/sale-foreignkeys/index.md
@@ -152,13 +154,13 @@ items:
       href: tutorials/sale-foreignkeys/2-create-sale-datahandler.md
     - name: Part 3 - create custom MDO control
       href: tutorials/sale-foreignkeys/3-create-custom-mdo-control.md
-    - name: Time to holiday
-      href: tutorials/time-to-holiday/index.md
+  - name: Time to holiday
+    href: tutorials/time-to-holiday/index.md
+  - name: Validation
+    items:
+    - name: Validate fields
+      href: tutorials/validation/validate-fields.md
     - name: Validation
-      items:
-      - name: Validate fields
-        href: tutorials/validation/validate-fields.md
-      - name: Validation
-        href: tutorials/validation/validation.md
+      href: tutorials/validation/validation.md
 - name: Reference
-  href: reference/index.md 
+  href: reference/index.md
