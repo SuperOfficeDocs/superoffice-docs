@@ -1,1 +1,1 @@
-[Database reference](https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm)
+[Database reference](../../../../database/docs/tables/index.md)

@@ -1,6 +1,7 @@
 ---
 uid: crmscript_custom_db
 title: Database customizations
+description: There are 3 ways to customize the database schema - user-defined fields; extra fields; extra tables
 author: Bergfrid Dias
 so.date: 10.27.2021
 keywords:
@@ -50,4 +51,4 @@ You can't customize the database schema via the APIs. It's on the roadmap, but f
 [1]: udef.md
 [2]: extra-fields.md
 [3]: extra-tables.md
-[4]: https://community.superoffice.com/en/content/.content/database/continuous-database/
+[4]: ../../../database/docs/dictionary/index.md

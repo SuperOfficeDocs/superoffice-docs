@@ -1,10 +1,11 @@
 ---
 uid: crmscript_doc_templates
 title: Document templates
-author:
-so.date:
-keywords:
-so.topic:
+description: A document template is a blueprint consisting of regular text and template variables. How to work with document templates in CRMScript.
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, document, document templates
+so.topic: concept
 ---
 
 # Document templates
@@ -22,7 +23,7 @@ With regards
 {atit}
 ```
 
-For the end-user, these templates behave similar to the service [reply template][1]. However, how you work with them in CRMScript is different.
+For the end-user, these templates behave similarly to the service [reply template][1]. However, how you work with them in CRMScript is different.
 
 > [!CAUTION]
 > Template-based documents are only as good as the quality of your CRM data. It's vital that all customer details are kept up to date. A template won't fix bad input.
@@ -216,7 +217,7 @@ See the [full list of encodings][5].
 
 <!-- Referenced links -->
 [1]: ../parser-and-templates/reply-template.md
-[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Heading.htm
-[3]: https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=StandardCRM%2Fchap02%2FTemplate_variables.htm
-[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-DocTmpl.htm
-[5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_Data_GeneratorEncoding.htm
+[2]: ../../../database/docs/tables/heading.md
+[3]: ../../../superoffice-docs/docs/document/templates/index.md
+[4]: ../../../database/docs/tables/doctmpl.md
+[5]: ../../../data-access/docs/api-reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml

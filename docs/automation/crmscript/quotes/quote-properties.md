@@ -1,10 +1,11 @@
 ---
 uid: crmscript_quote_properties
 title: One quote per sale
-author:
-so.date:
-keywords:
-so.topic:
+description: How to retrieve quote info; create a quote; update a quote; delete a quote in CRMScript
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, quotes
+so.topic: howto
 ---
 
 # One quote per sale
@@ -183,7 +184,7 @@ For a complete list of fields, see the [database reference][7].
 | State                |                                           |
 | LikelyQuoteAlternativeId | alt. most likely to be accepted<br>used to calculate probable income |
 | SentDate             | when the version was sent to the customer |
-| FollowupId           | the follow-up created when version was sent |
+| FollowupId           | the follow-up created when the version was sent |
 | ExpirationDate       | the last date on which the offer is valid |
 | Rank                 | the version number                        |
 
@@ -209,7 +210,7 @@ For a complete list of fields, see the [database reference][8].
 | Status | Description                               |
 |:------:|:------------------------------------------|
 | 0      | OK, all is good                           |
-| 1      | All is good, however the user should be made aware of something |
+| 1      | All is good, however, the user should be made aware of something |
 | 2      | problem - notify user                     |
 | 3      | problem - action required                 |
 
@@ -220,5 +221,5 @@ For a complete list of fields, see the [database reference][8].
 [4]: quote-alternatives.md
 [5]: quote-document.md
 [6]: quote-order.md
-[7]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Quote.htm
-[8]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteVersion.htm
+[7]: ../../../database/docs/tables/quote.md
+[8]: ../../../database/docs/tables/quoteversion.md

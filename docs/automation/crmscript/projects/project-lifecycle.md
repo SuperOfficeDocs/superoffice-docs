@@ -1,10 +1,11 @@
 ---
 uid: crmscript_project_lifecycle
 title: Projects from start to end
-author:
-so.date:
-keywords:
-so.topic:
+description: How to register a project; get selected projects; update, end, and delete a project
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, project
+so.topic: howto
 ---
 
 # Projects from start to end
@@ -172,4 +173,4 @@ For a complete list of fields, see the [database reference][7].
 [4]: ../persons-and-organizations/company.md
 [5]: project-members.md
 [6]: project-guides.md
-[7]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-project.htm
+[7]: ../../../database/docs/tables/project.md

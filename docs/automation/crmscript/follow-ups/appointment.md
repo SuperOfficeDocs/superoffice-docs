@@ -1,10 +1,11 @@
 ---
 uid: crmscript_appointments
 title: Calendar appointments
-author:
-so.date:
-keywords:
-so.topic:
+description: How to get appointments; create, update, move, and delete appointments, mark an appointment as complete, red-letter days
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, calendar, diary, appointments
+so.topic: howto
 ---
 
 # Calendar appointments
@@ -377,4 +378,4 @@ For a complete list of fields, see the [database reference][4].
 [1]: ../persons-and-organizations/employees.md
 [2]: ../netserver/crmscript-archiveagent.md
 [3]: invitations.md
-[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm
+[4]: ../../../database/docs/tables/appointment.md

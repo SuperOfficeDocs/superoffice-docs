@@ -1,10 +1,11 @@
 ---
 uid: crmscript_messages
 title: Messages
-author:
-so.date:
-keywords:
-so.topic:
+description: How to Create and update messages; use a reply template; get message info
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMSCript, Service, ticket, request, message
+so.topic: howto
 ---
 
 # Messages
@@ -16,7 +17,9 @@ so.topic:
 Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the message.
+> Both parameters are strings! Remember to use quotes even for IDs.
+>
+> You must call `save()` after setting all applicable values to actually create or update the message.
 
 ```crmscript!
 Message m;
@@ -274,7 +277,7 @@ For a complete list of fields, see the [database reference][4].
 | timeCharge | time_charge | Minutes to be invoiced for this message |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Message-setValue.htm
+[1]: <xref:CRMScript.Native.Message.setValue(String,String)>
 [2]: ../parser-and-templates/parser.md
 [3]: ../parser-and-templates/reply-template.md
-[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ej_message.htm
+[4]: ../../../database/docs/tables/ej-message.md

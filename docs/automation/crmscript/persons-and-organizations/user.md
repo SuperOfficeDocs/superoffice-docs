@@ -1,10 +1,11 @@
 ---
-title: crmscript-class-user
-description: User (class)
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript_class_user
+title: User (class)
+description: The CRMScript User class and how to create and update customers; get user information
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, ejuser, user, user account
+so.topic: concept
 ---
 
 # User (class)
@@ -25,7 +26,9 @@ The **User** CRMScript class represents the following entities:
 Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the company.
+> Both parameters are strings! Remember to use quotes even for IDs.
+>
+> You must call `save()` after setting all applicable values to actually create or update the company.
 
 ```crmscript
 User u;
@@ -60,7 +63,7 @@ u.load(9);
 
 ### Bool loadFromAgentAndKey(Integer id, String Key)
 
-Brings up the user that is owned by the agent and matching the external key.
+Brings up the user that is owned by the agent and matches the external key.
 
 > [!CAUTION]
 > `loadFromAgentAndKey()`might overwrite existing values!
@@ -174,6 +177,6 @@ Notifications (pop-up warnings) to the user are controlled by a bit mask.
 Learn more about [tickets][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-User-setValue.htm
+[1]: <xref:CRMScript.Native.User.setValue(String,String,String)>
 [2]: ../parser-and-templates/reply-template.md
 [3]: ../requests/tickets.md

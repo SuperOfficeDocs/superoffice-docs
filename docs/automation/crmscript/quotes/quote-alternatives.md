@@ -1,10 +1,11 @@
 ---
 uid: crmscript_quote_alternatives
 title: Alternatives and quote lines
-author:
-so.date:
-keywords:
-so.topic:
+description: Each quote alternative can contain different products, numbers of products, prices, and discounts. How to get alternatives; create alternatives; set alternatives; delete alternatives; work with quote lines
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, quote, quote alternative, quote line
+so.topic: howto
 ---
 
 # Alternatives and quote lines
@@ -185,7 +186,7 @@ printLine(line.GetQuoteLineId().toString());
 
 ## NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
 
-Many numbers in a quote line depend on each other, and changing 1 will affect others. The quote connector recalculates and updates those values so that you don't have to worry about miscalculating. All you have to do is call `RecalculateQuoteLine()` to signal which fields that have changed.
+Many numbers in a quote line depend on each other, and changing 1 will affect others. The quote connector recalculates and updates those values so that you don't have to worry about miscalculating. All you have to do is call `RecalculateQuoteLine()` to signal which fields have changed.
 
 For example, if you change the quantity, the total price and VAT amount should change too.
 
@@ -241,7 +242,7 @@ qa.DeleteQuoteLine(quoteLineId);
 
 ## VAT
 
-The SuperOffice quote connector will calculate VAT **amount** of an alternative based on the VAT **percent** of the individual lines.
+The SuperOffice quote connector will calculate the VAT **amount** of an alternative based on the VAT **percent** of the individual lines.
 
 > [!CAUTION]
 > Other connectors may implement different VAT algorithms at will! Make sure you interpret the VAT field correctly.
@@ -250,27 +251,27 @@ The SuperOffice quote connector will calculate VAT **amount** of an alternative 
 
 ### Frequently used QuoteAlternative fields
 
-| Field                | Description                               |
-|:---------------------|:------------------------------------------|
-| quotealternative_id  | ID                                        |
-| QuoteVersionId       | the version the alternative belongs to    |
-| Name                 | label for UI                              |
-| VAT                  | as calculated amount                      |
-| EarningPercent       | in percent of total                       |
-| EarningAmount        | as amount                                 |
-| TotalPrice           | calculated                                |
+| Field               | Description                            |
+|:--------------------|:---------------------------------------|
+| quotealternative_id | ID                                     |
+| QuoteVersionId      | the version the alternative belongs to |
+| Name                | label for UI                           |
+| VAT                 | as calculated amount                   |
+| EarningPercent      | in percent of total                    |
+| EarningAmount       | as amount                              |
+| TotalPrice          | calculated                             |
 
 For a complete list of fields, see the [database reference][2].
 
 ### Frequently used QuoteLine fields
 
-| Field                | Description                               |
-|:---------------------|:------------------------------------------|
-| quoteline_id         | ID                                        |
-| QuoteAlternativeId   | the alternative this line belongs to      |
-| Name                 | product name                              |
-| Code                 | the product code or article number        |
-| Rank                 | for sorting                               |
+| Field              | Description                          |
+|:-------------------|:-------------------------------------|
+| quoteline_id       | ID                                   |
+| QuoteAlternativeId | the alternative this line belongs to |
+| Name               | product name                         |
+| Code               | the product code or article number   |
+| Rank               | for sorting                          |
 
 The line will also include **information duplicated from the product** (rather than referenced).
 
@@ -278,5 +279,5 @@ For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
 [1]: ./quote-properties.md
-[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteAlternative.htm
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-QuoteLine.htm
+[2]: ../../../database/docs/tables/quotealternative.md
+[3]: ../../../database/docs/tables/quoteline.md

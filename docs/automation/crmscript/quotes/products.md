@@ -1,8 +1,9 @@
 ---
 uid: crmscript_products
-title: Products and price lists 
-author:
-so.date:
+title: Products and price lists
+description: Each product belongs to a single price list. How to retrieve price lists; create, update, and delete price lists; fetch products; create, update, and delete products in CRMScript
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
 keywords:
 so.topic:
 ---
@@ -175,5 +176,5 @@ For a complete list of fields, see the [database reference][1].
 For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-Product.htm
-[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-PriceList.htm
+[1]: ../../../database/docs/tables/product.md
+[2]: ../../../database/docs/tables/pricelist.md

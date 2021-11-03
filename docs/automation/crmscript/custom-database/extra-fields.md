@@ -1,9 +1,10 @@
 ---
 uid: crmscript_extra_fields
 title: Extra fields
-author:
-so.date:
-keywords:
+description: An extra field is a custom field that you add to an existing SuperOffice database table in Service. Extra fields are managed in SuperOffice Service, in the Tables screen.
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: extra field, Service
 so.topic: concept
 ---
 
@@ -59,8 +60,8 @@ Database tables are connected with foreign keys (FK). These are the field types 
 
 ### Add FK
 
-1. Open the **Tables** screen, hover the table you want to alter and click **New field**.
-2. Select the relation type for the the entity you want to connect to and click **OK**.
+1. Open the **Tables** screen, hover the table you want to alter, and click **New field**.
+2. Select the relation type for the entity you want to connect to and click **OK**.
 3. [Set field properties][6].
 4. Click **OK** to save the FK.
 5. Click **Restart NetServer** to apply the changes.
@@ -73,7 +74,7 @@ Unlike user-defined fields, extra fields are added as actual fields to the datab
 
 If you add a field with database name `x_field` to the `ticket` table, the value will be stored in 1 of these 2 places:
 
-* If it's a FK, the actual value is stored in related table. `ticket.x_field` holds only the reference
+* If it's an FK, the actual value is stored in a related table. `ticket.x_field` holds only the reference
 * Otherwise, the value is stored in `ticket.x_field`
 
 ### The extra_fields table
@@ -195,7 +196,7 @@ Scenario: you've added an extra field to a company (`contact` table) conveying w
 ### Display extra field for you
 
 1. In Service, open a request.
-2. Click the tool icon in the request header *or* in the **Details tab**, depending where you want to place the new field.
+2. Click the tool icon in the request header *or* in the **Details tab**, depending on where you want to place the new field.
 3. In the **Edit element profile** dialog, locate the **New field** setting.
 4. Enter a name (UI label) and select your field.
 5. Optionally, select the appropriate styling options.
@@ -226,4 +227,4 @@ All users who have this role will now be able to see the extra field in the **De
 [4]: ../requests/tickets.md
 [5]: ../persons-and-organizations/user.md
 [6]: extra-tables.md
-[7]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-extra_fields.htm
+[7]: ../../../database/docs/tables/extra-fields.md

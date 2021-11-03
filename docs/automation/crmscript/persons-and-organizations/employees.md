@@ -1,16 +1,16 @@
 ---
-title: crmscript-employees
-description: Employees (internal)
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript_employees
+title: Employees (internal)
+description: The associate database table represents employees, resources, and other users - except for external persons.
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, employees, associate
+so.topic: concept
 ---
 
 # Employees (internal)
 
-The **associate** database table represents employees, resources, and other users - except for external persons.
-It is an MDO list item table and has therefore not a corresponding CRMScript class.
+The **associate** database table represents employees, resources, and other users - except for external persons. It is an MDO list item table and has therefore not a corresponding CRMScript class.
 
 Yet, this table is important for understanding and navigating the relationship between a person and their user account as well as the relationship between employees at the organization running the CRM system and the external parties they interact with.
 
@@ -59,4 +59,4 @@ Resources are typically meeting rooms or equipment such as projectors.
 [Database reference][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-associate.htm
+[1]: ../../../database/docs/tables/associate.md

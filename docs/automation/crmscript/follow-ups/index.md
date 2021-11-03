@@ -1,10 +1,11 @@
 ---
 uid: crmscript_followups
 title: Calendar and todo list
-author:
-so.date:
-keywords:
-so.topic:
+description: The SuperOffice diary and 3 types of follow-ups
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, calendar, diary, appointment, follow-up
+so.topic: concept
 ---
 
 # Calendar and todo list
@@ -55,18 +56,14 @@ When working with follow-ups, data will often intersect with the following entit
 * [project][11]
 * [sale][10]
 
-## In this section
-
-1. autolist
-
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/employees.md
 [2]: ../datatypes/datetime-type.md
 [3]: appointment.md
 [4]: task.md
 [5]: call.md
-[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-appointment.htm
-[7]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-NSAppointment-NSAppointment.htm
+[6]: ../../../database/docs/tables/appointment.md
+[7]: ../api-reference/CRMScript.NetServer.NSAppointment.yml
 [8]: ../persons-and-organizations/company.md
 [9]: ../persons-and-organizations/customer.md
 [10]: ../sales/leads.md

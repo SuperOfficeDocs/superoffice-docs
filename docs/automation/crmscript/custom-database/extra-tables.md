@@ -1,15 +1,15 @@
 ---
 uid: crmscript_extra_tables
 title: Third-party tables
-author:
-so.date:
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, database
 so.topic: concept
 ---
 
 # Third-party tables
 
-SuperOffice Expander Service License gives you the possibility to create extra tables in the database. Instantly, these third-party tables will be available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
+SuperOffice Expander Tools license gives you the possibility to create extra tables in the database. Instantly, these third-party tables will be available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
 
 However, an empty table is not very useful. So you have to set up fields for the new table and then you can populate with data.
 
@@ -28,7 +28,9 @@ The **Tables** screen is your tool for customizing the database schema. Here you
 ## Conventions
 
 > [!CAUTION]
-> Choose your database table and field names carefully. They cannot be changed later!<br>A logical name is best because it makes it easier to see what the database contains.
+> Choose your database table and field names carefully. They cannot be changed later!
+>
+> A logical name is best because it makes it easier to see what the database contains.
 
 The prefixes ensure that what you create don't conflict with future SuperOffice table and field names. However, it doesn't guarantee a lack of naming conflicts between different 3rd parties.
 
@@ -118,14 +120,14 @@ For a complete list of properties, see the [help files][1].
 
 ### Field properties
 
-| Property        | Description                                                 |
-|:----------------|:------------------------------------------------------------|
-| Name            | label                                                       |
-| Database field  | for the schema, can't be changed after creation             |
-| Cannot be empty | makes field mandatory                                       |
-| Create index    | whether to index the field                                  |
-| Show in table   | whether to as a column when listing entries                 |
-| Default value   | used if not set explicitly                                  |
+| Property        | Description                                     |
+|:----------------|:------------------------------------------------|
+| Name            | label                                           |
+| Database field  | for the schema, can't be changed after creation |
+| Cannot be empty | makes field mandatory                           |
+| Create index    | whether to index the field                      |
+| Show in table   | whether to as a column when listing entries     |
+| Default value   | used if not set explicitly                      |
 | Update null values now | whether to replace all empty fields with the default value |
 
 In addition, each type has its own set of properties. For example, items for a list box and decimals in a number, or units for a time span.
@@ -133,6 +135,6 @@ In addition, each type has its own set of properties. For example, items for a l
 For a complete list of properties, see the [help files][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/en/CRM/8.5/UserHelp/Service/topics/blogic.listExtraTables.editExtraTable.html
+[1]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html
 [2]: ../searchengine/index.md
-[3]: https://community.superoffice.com/documentation/help/en/crm/8.5/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
+[3]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html

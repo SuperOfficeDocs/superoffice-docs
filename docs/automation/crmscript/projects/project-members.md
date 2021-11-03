@@ -1,10 +1,11 @@
 ---
 uid: crmscript_project_members
 title: Project members
-author:
-so.date:
-keywords:
-so.topic:
+description: A project always has a project manager or owner. In addition, it can have (and usually has) project members. How to view project member info; list project members; add members to project; register, update and delete a member;
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, project, project member
+so.topic: howto
 ---
 
 # Project members
@@ -156,4 +157,4 @@ For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/customer.md
-[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-projectmember.htm
+[2]: ../../../database/docs/tables/projectmember.md

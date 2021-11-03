@@ -1,10 +1,11 @@
 ---
 uid: crmscript_request_logs
 title: Logs
-author:
-so.date:
-keywords:
-so.topic:
+description: The system logs all noteworthy actions and changes pertaining to tickets. Learn how to write messages to the log and to search the log from CRMScript.
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, Service, ticket, log
+so.topic: howto
 ---
 
 # Logs
@@ -78,6 +79,6 @@ For each change to a ticket, new entries are added to both the **ticket_log_acti
 
 <!-- Referenced links -->
 [1]: ../searchengine/index.md
-[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log.htm
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_action.htm
-[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_log_change.htm
+[2]: ../../../database/docs/tables/ticket-log.md
+[3]: ../../../database/docs/tables/ticket-log-action.md
+[4]: ../../../database/docs/tables/ticket-log-change.md

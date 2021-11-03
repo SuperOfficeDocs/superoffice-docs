@@ -1,10 +1,11 @@
 ---
 uid: crmscript_doc_properties
 title: Document properties
-author:
-so.date:
-keywords:
-so.topic:
+description: How to retrieve document info; create a document entity; link document to an appointment; change document properties; work with suggested documents
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: howto
+so.topic: CRMScript, documents, document properties, NSDocument
 ---
 
 # Document properties
@@ -220,5 +221,5 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: doc-templates.md
 [2]: ../sales/guides.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-document.htm
+[3]: ../../../database/docs/tables/document.md
 [4]: ../persons-and-organizations/index.md

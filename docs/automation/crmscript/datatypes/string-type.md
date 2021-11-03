@@ -365,7 +365,7 @@ Similar to `before()`, but will continue copying until the **last** occurrence o
 Useful for example if you are parsing a path or URI and want everything except the document name.
 
 ```crmscript
-String s = "https://community.superoffice.com/sdk-doc/Reference.htm";
+String s = "https://docs.superoffice.com/admin/license/user-plans.html";
 String t = s.beforeLast("/");
 ```
 

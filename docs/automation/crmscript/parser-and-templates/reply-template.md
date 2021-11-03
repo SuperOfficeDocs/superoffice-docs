@@ -2,8 +2,8 @@
 uid: crmscript_reply_template
 title: Reply templates
 description: A reply template is a blueprint for an email. It consists of regular text and template variables.
-author:
-so.date:
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
 keywords: crmscript, reply template, service, template
 so.topic: concept
 ---
@@ -179,8 +179,8 @@ htmlBody = p.parseString(htmlBody);
 ```
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-reply_template.htm
-[2]: https://community.superoffice.com/documentation/help/EN/CRM/8.5/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
-[3]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/cs/parser-variables/
+[1]: ../../../database/docs/tables/reply-template.md
+[2]: ../../../superoffice-docs/docs/document/templates/index.md
+[3]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
 [4]: parser.md
-[5]: https://community.superoffice.com/Documentation/Help/en/CRM/9.2/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listCustLangs.editCustLang.html
+[5]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2Fadmin.listCustLangs.editCustLang.html

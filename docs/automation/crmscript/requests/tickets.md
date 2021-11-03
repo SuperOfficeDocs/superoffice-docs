@@ -1,10 +1,11 @@
 ---
 uid: crmscript_tickets
 title: Tickets
-author:
-so.date:
-keywords:
-so.topic:
+description: Create and update requests; get ticket info; accept ticket; add message to ticket; reply; priority and escalation; delegate; postpone; split and merge; close; delete
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: Service, ticket, request
+so.topic: howto
 ---
 
 # Tickets
@@ -16,7 +17,9 @@ so.topic:
 Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the ticket.
+> Both parameters are strings! Remember to use quotes even for IDs.
+>
+> You must call `save()` after setting all applicable values to actually create or update the ticket.
 
 ```crmscript!
 Ticket t;
@@ -345,7 +348,7 @@ t.save();
 ### Void delegate(Integer notUser)
 
 A variant of `delegate()` that lets you exclude a user from the pool of possible assignees.
-For example if the 2nd owner also passes on the ticket and you want to avoid re-assigning to the original owner.
+For example, if the 2nd owner also passes on the ticket and you want to avoid re-assigning to the original owner.
 
 ```crmscript
 Ticket t;
@@ -464,10 +467,10 @@ For a complete list of fields, see the [database reference][6].
 
 | Parameter      | Db field        | Description                                             |
 |:---------------|:----------------|:--------------------------------------------------------|
-| activate       | activate        | When to activated a postponed ticket                    |
+| activate       | activate        | When to activate a postponed ticket                     |
 | createdAt      | created_at      | When the ticket was created                             |
 | repliedAt      | replied_at      | When the 1st external message was added                 |
-| stopEscalation | stop_escalation |                       |
+| stopEscalation | stop_escalation |                                                         |
 | readStatus     | read_status     | Has the owner has read the ticket? (red, yellow, green) |
 | deadline       | deadline        | The deadline of the ticket                              |
 | timeToClose    | time_to_close   | Minutes between create and close                        |
@@ -486,9 +489,9 @@ For a complete list of fields, see the [database reference][6].
 | 5      | Merged/Linked         |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-setValue.htm
-[2]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Vector-Vector.htm
-[3]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Ticket-getValue.htm
+[1]: <xref:CRMScript.Native.Ticket.setValue(String,String)>
+[2]: ../api-reference/CRMScript.Native.Vector.yml
+[3]: <xref:CRMScript.Native.Ticket.getValue(String)>
 [4]: ../parser-and-templates/reply-template.md
 [5]: ../parser-and-templates/parser.md
-[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket.htm
+[6]: ../../../database/docs/tables/ticket.md

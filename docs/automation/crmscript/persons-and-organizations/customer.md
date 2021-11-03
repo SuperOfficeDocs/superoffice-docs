@@ -1,10 +1,11 @@
 ---
-title: crmscript-class-customer
-description: Customer (class)
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript_class_customer
+title: Customer (class)
+description: The CRMScript customer class and how to create and update customers; get customer info; look up customers; list interests for a person
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, customer, person, contact
+so.topic: concept
 ---
 
 # Customer (class)
@@ -25,7 +26,9 @@ The **Customer** CRMScript class represents the following entities:
 Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the customer.
+> Both parameters are strings! Remember to use quotes even for IDs.
+>
+> You must call `save()` after setting all applicable values to actually create or update the customer.
 
 ```crmscript
 Customer c;
@@ -77,7 +80,7 @@ c.load(2);
 
 ### Bool loadFromAgentAndKey(Integer agent, String key)
 
-Brings up the customer that is owned by the agent and matching the external key.
+Brings up the customer that is owned by the agent and matches the external key.
 
 > [!CAUTION]
 > `loadFromAgentAndKey()` might overwrite existing values!
@@ -264,6 +267,6 @@ viewPersonInterests(5);
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-Classes-Customer-setValue.htm
+[1]: <xref:CRMScript.Native.Customer.setValue(String,String)>
 [2]: ../parser-and-templates/reply-template.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-person.htm
+[3]: ../../../database/docs/tables/person.md

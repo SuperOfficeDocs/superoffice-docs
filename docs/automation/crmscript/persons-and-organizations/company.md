@@ -1,10 +1,11 @@
 ---
-title: crmscript-class-company
-description: Company (class)
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript_class_company
+title: Company (class)
+description: The CRMScript company class and how to create and update companies; get company info
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: CRMScript, company, organization, contact
+so.topic: concept
 ---
 
 # Company (class)
@@ -25,7 +26,9 @@ The **Company** CRMScript class represents the following entities:
 Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
 
 > [!NOTE]
-> Both parameters are strings! Remember to use quotes even for IDs.<br>You must call `save()` after setting all applicable values to actually create or update the company.
+> Both parameters are strings! Remember to use quotes even for IDs.
+>
+> You must call `save()` after setting all applicable values to actually create or update the company.
 
 ```crmscript
 Company c;
@@ -234,8 +237,8 @@ For a complete list of fields, see the [database reference][5].
 > To request more than 1 action type, summarize the values. **63** means **include all**.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/EJScript-Classes-Company-setValue.htm
+[1]: <xref:CRMScript.Native.Company.setValue(String,String)>
 [2]: ../parser-and-templates/reply-template.md
 [3]: addresses.md
 [4]: ../netserver/ns-agents-and-carriers.md
-[5]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-contact.htm
+[5]: ../../../database/docs/tables/contact.md
