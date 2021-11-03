@@ -17,7 +17,7 @@ SuperOffice [Find][1] is a unification of the **Find dialog** and **Selections**
 This section covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
 
 > [!NOTE]
-> The API details provided apply to SuperOffice v.9.2 and higher.
+> The API details provided apply to SuperOffice v.9.2 and higher. SOAP API access via the Services88 endpoints, therefore Online Apps must request Services88 to use this API.
 
 ## Getting started
 

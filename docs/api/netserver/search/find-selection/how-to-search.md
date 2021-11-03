@@ -13,7 +13,7 @@ so.version: 9.2
 # How to Search using Find Selections
 
 > [!NOTE]
-> The API details provided apply to SuperOffice v.9.2 and higher. Find searches do not yet support `custom entities` or `extra tables`. SOAP API access via the Services88 endpoints. Online Apps should request Services88 to use this API.
+> The API details provided apply to SuperOffice v.9.2 and higher. Find searches do not yet support `custom entities` or `extra tables`. SOAP API access via the Services88 endpoints, therefore online Apps must request Services88 to use this API.
 
 The first thing to understand is that search is based on a selection. However, a search doesn’t explicitly require a preexisting selection to perform a search. Using the API the same way the SuperOffice **Find** dialog works, implicitly creates a selection on a per-associate per-entity basis.
 

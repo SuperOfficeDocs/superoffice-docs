@@ -1,7 +1,6 @@
 ---
-uid: soap-web-services
-title: SOAP Web services
-
+uid: web-application-api
+title: SuperOffice CRM Web Application API
 ---
 
 # SuperOffice Web Application API
