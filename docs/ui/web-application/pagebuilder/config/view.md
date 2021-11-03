@@ -133,7 +133,7 @@ These links show us a direct way to open a page with wanted tabs. The SoProtocol
 [5]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogHeaderView>
 [6]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogSimpleFooterView>
 [7]: <xref:SuperOffice.CRM.Web.UI.Controls.DialogSimpleView>
-[8]: <xref:SuperOffice.CRM.Web.UI.Controls.GenericView>
+[8]: <xref:SuperOffice.DCF.Web.UI.Controls.GenericView>
 [9]: <xref:SuperOffice.CRM.Web.UI.Controls.PlainView>
 [10]: <xref:SuperOffice.CRM.Web.UI.Controls.SystemView>
 [11]: <xref:SuperOffice.CRM.Web.UI.Controls.TabbedView>
