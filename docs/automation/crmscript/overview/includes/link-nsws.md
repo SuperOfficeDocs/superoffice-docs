@@ -1,1 +1,1 @@
-[NetServer documentation](../../../../data-access/docs/api-reference/netserver/services/)
+[NetServer documentation](xref:SuperOffice.CRM.Services)
