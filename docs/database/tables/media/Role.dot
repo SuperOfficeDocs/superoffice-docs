@@ -1,0 +1,22 @@
+digraph Role  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Role[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UserRoleLink[fillcolor = "azure1"]
+FunctionRightRoleLink[fillcolor = "azure1"]
+DataRight[fillcolor = "azure1"]
+role_category[fillcolor = "azure1"]
+role_element[fillcolor = "azure1"]
+role_workflow[fillcolor = "azure1"]
+Role -> associate [headlabel = "registered_associate_id"]
+Role -> associate [label = "updated_associate_id"]
+text -> Role [label = "owner_id" style="dashed"]
+UserRoleLink -> Role [label = "role_id"]
+FunctionRightRoleLink -> Role [label = "roleId"]
+DataRight -> Role [label = "roleId"]
+role_category -> Role [label = "crm_role"]
+role_element -> Role [label = "crm_role"]
+role_workflow -> Role [label = "crm_role"]
+}

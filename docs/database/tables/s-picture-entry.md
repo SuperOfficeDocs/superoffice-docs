@@ -1,12 +1,12 @@
 ---
-uid: table-s-picture-entry
-title: s\_picture\_entry table
+uid: table-s_picture_entry
+title: s_picture_entry table
 description: This table describes each picture in the database
 so.generated: true
 keywords:
   - "database"
   - "s_picture_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![s_picture_entry table relationship diagram](./media/s_picture_entry.png)
-
-[!include[details](./includes/s-picture-entry.md)]
 
 ## Indexes
 

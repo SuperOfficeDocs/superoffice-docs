@@ -1,27 +1,27 @@
 ---
-uid: table-contintgrouplink
-title: contintgrouplink table
+uid: table-ContIntGroupLink
+title: ContIntGroupLink table
 description: User group link table for ContInt, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "ContIntGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# contintgrouplink Table (71)
+# ContIntGroupLink Table (71)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |contintgrouplink\_id|Primary key|PK| |
-|contint\_id|Link to ContInt list table|FK [contint](contint.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|contint\_id|Link to ContInt list table|FK [ContInt](contint.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ContIntGroupLink table relationship diagram](./media/ContIntGroupLink.png)
-
-[!include[details](./includes/ContIntGroupLink.md)]
 
 ## Indexes
 

@@ -1,0 +1,13 @@
+digraph SearchCatHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SearchCatHeadingLink[fillcolor = "cadetblue1"]
+SearchCat[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SearchCatHeadingLink -> SearchCat [headlabel = "searchcat_id"]
+SearchCatHeadingLink -> Heading [headlabel = "heading_id"]
+SearchCatHeadingLink -> associate [headlabel = "registered_associate_id"]
+SearchCatHeadingLink -> associate [label = "updated_associate_id"]
+}

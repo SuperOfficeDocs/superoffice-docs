@@ -1,29 +1,29 @@
 ---
-uid: table-languageinfocountry
-title: languageinfocountry table
+uid: table-LanguageInfoCountry
+title: LanguageInfoCountry table
 description: Many-many link between countries and languages, to give intelligent choices for language
 so.generated: true
 keywords:
   - "database"
   - "LanguageInfoCountry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# languageinfocountry Table (211)
+# LanguageInfoCountry Table (211)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |LanguageInfoCountry\_id|Primary key|PK| |
-|languageId|Key to language|FK [languageinfo](languageinfo.md)| |
+|languageId|Key to language|FK [LanguageInfo](languageinfo.md)| |
 |countryId|Key to country|FK [country](country.md)| |
 |percentage|Percentage of Country that speaks Language, 0 means we don&apos;t know|Short| |
-|official|1: This is an official language; 2: it&apos;s not; 0: We don&apos;t know|Enum [officiallanguage](enums/officiallanguage.md)| |
+|official|1: This is an official language; 2: it&apos;s not; 0: We don&apos;t know|Enum [OfficialLanguage](enums/officiallanguage.md)| |
 |lcid|Language/culture as a string, such as en-us or nb-no|Id| |
 |isDefault|If 1, this is the default language for the country|Bool| |
 |registered|Registered when|UtcDateTime| |
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![LanguageInfoCountry table relationship diagram](./media/LanguageInfoCountry.png)
-
-[!include[details](./includes/LanguageInfoCountry.md)]
 
 ## Indexes
 

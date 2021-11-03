@@ -1,0 +1,13 @@
+digraph ProductCategory  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProductCategory[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ProductCategoryGroupLink[fillcolor = "azure1"]
+ProductCategoryHeadingLink[fillcolor = "azure1"]
+ProductCategory -> associate [headlabel = "registered_associate_id"]
+ProductCategory -> associate [label = "updated_associate_id"]
+ProductCategoryGroupLink -> ProductCategory [label = "productcategory_id"]
+ProductCategoryHeadingLink -> ProductCategory [label = "productcategory_id"]
+}

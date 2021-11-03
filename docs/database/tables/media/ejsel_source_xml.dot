@@ -1,0 +1,6 @@
+digraph ejsel_source_xml  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejsel_source_xml[fillcolor = "cadetblue1"]
+}

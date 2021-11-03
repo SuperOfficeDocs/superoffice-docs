@@ -1,34 +1,34 @@
 ---
-uid: table-erpfield
-title: erpfield table
+uid: table-ErpField
+title: ErpField table
 description: Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector
 so.generated: true
 keywords:
   - "database"
   - "ErpField"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# erpfield Table (425)
+# ErpField Table (425)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |erpfield\_id|Primary key|PK| |
-|ErpConnectionActorTypeId|Link to Erp Connection/Actor type|FK [erpconnectionactortype](erpconnectionactortype.md)| |
+|ErpConnectionActorTypeId|Link to Erp Connection/Actor type|FK [ErpConnectionActorType](erpconnectionactortype.md)| |
 |ErpFieldKey|The ERP field key|String(254)| |
 |DisplayName|Localized field name – shown in the GUI as the label for the control.|String(254)| |
 |DisplayDescription|Tooltip for the field name.|String(254)|&#x25CF;|
-|FieldType|Field type|Enum [fieldmetadatatype](enums/fieldmetadatatype.md)|&#x25CF;|
+|FieldType|Field type|Enum [FieldMetadataType](enums/fieldmetadatatype.md)|&#x25CF;|
 |ListName|The ERP list name, if the field has a list of values supplied by the ERP Connector|String(254)|&#x25CF;|
 |DefaultValue|Default value, stored using CultureDataFormatter format if it is not a string|String(254)|&#x25CF;|
 |MaxLength|Maximum size of the field, if there is a limit|Int|&#x25CF;|
-|Access|Access restrictions for the field|Enum [fieldaccess](enums/fieldaccess.md)|&#x25CF;|
+|Access|Access restrictions for the field|Enum [FieldAccess](enums/fieldaccess.md)|&#x25CF;|
 |HasFirstSyncDefaultValue|Should a default value be set on first sync|Bool|&#x25CF;|
 |FirstSyncDefaultValue|The default value to be set, can be blank|String(254)|&#x25CF;|
 |PromptUser|Should the field be shown in the first-sync GUI; independent of whether a default value should be set|Bool|&#x25CF;|
@@ -49,8 +49,6 @@ so.envir:
 
 
 ![ErpField table relationship diagram](./media/ErpField.png)
-
-[!include[details](./includes/ErpField.md)]
 
 ## Indexes
 

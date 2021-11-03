@@ -1,0 +1,8 @@
+digraph dbi_agent_field  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dbi_agent_field[fillcolor = "cadetblue1"]
+dbi_agent[fillcolor = "azure1"]
+dbi_agent_field -> dbi_agent [headlabel = "agent_id"]
+}

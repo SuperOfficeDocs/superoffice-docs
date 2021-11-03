@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "registry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![registry table relationship diagram](./media/registry.png)
-
-[!include[details](./includes/registry.md)]
 
 ## Indexes
 

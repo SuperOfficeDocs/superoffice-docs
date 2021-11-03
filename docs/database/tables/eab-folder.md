@@ -1,12 +1,12 @@
 ---
-uid: table-eab-folder
-title: eab\_folder table
+uid: table-eab_folder
+title: eab_folder table
 description: This table contains eab (email address book) folders, used for containing email addresses.
 so.generated: true
 keywords:
   - "database"
   - "eab_folder"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,15 +20,13 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|folder\_id|The id of the parent folder for this folder. NULL or -1 if this is a toplevel folder.|FK [eab-folder](eab-folder.md)| |
+|folder\_id|The id of the parent folder for this folder. NULL or -1 if this is a toplevel folder.|FK [eab_folder](eab-folder.md)| |
 |name|The folder&amp;apos;s name.|String(64)| |
 |description|The folder&amp;apos;s description.|String(255)|&#x25CF;|
 |fullname|The full name of this category, i.e. Foo/bar/test.|Clob|&#x25CF;|
 
 
 ![eab_folder table relationship diagram](./media/eab_folder.png)
-
-[!include[details](./includes/eab-folder.md)]
 
 ## Indexes
 

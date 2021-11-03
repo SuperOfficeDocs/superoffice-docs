@@ -1,21 +1,21 @@
 ---
-uid: table-source
-title: source table
+uid: table-Source
+title: Source table
 description: Source list table. Source for sale (list)
 so.generated: true
 keywords:
   - "database"
   - "Source"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# source Table (100)
+# Source Table (100)
 
-source MDO list item table.
+Source MDO list item table.
 Source list table. Source for sale (list)
 
 ## Fields
@@ -35,8 +35,6 @@ Source list table. Source for sale (list)
 
 
 ![Source table relationship diagram](./media/Source.png)
-
-[!include[details](./includes/Source.md)]
 
 ## Indexes
 

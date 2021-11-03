@@ -1,12 +1,12 @@
 ---
-uid: table-kb-attachment
-title: kb\_attachment table
+uid: table-kb_attachment
+title: kb_attachment table
 description: This table connects FAQ entries to attachments.
 so.generated: true
 keywords:
   - "database"
   - "kb_attachment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,13 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|entry\_id|The id of the corresponding kb_entry.|FK [kb-entry](kb-entry.md)| |
+|entry\_id|The id of the corresponding kb_entry.|FK [kb_entry](kb-entry.md)| |
 |attachment\_id|The id of the corresponding kb_category.|FK [attachment](attachment.md)| |
 
 
 ![kb_attachment table relationship diagram](./media/kb_attachment.png)
-
-[!include[details](./includes/kb-attachment.md)]
 
 ## Indexes
 

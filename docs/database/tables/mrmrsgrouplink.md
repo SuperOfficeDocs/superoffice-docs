@@ -1,27 +1,27 @@
 ---
-uid: table-mrmrsgrouplink
-title: mrmrsgrouplink table
+uid: table-MrMrsGroupLink
+title: MrMrsGroupLink table
 description: User group link table for MrMrs, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "MrMrsGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# mrmrsgrouplink Table (95)
+# MrMrsGroupLink Table (95)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |mrmrsgrouplink\_id|Primary key|PK| |
-|mrmrs\_id|Link to MrMrs list table|FK [mrmrs](mrmrs.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|mrmrs\_id|Link to MrMrs list table|FK [MrMrs](mrmrs.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![MrMrsGroupLink table relationship diagram](./media/MrMrsGroupLink.png)
-
-[!include[details](./includes/MrMrsGroupLink.md)]
 
 ## Indexes
 

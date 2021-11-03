@@ -1,19 +1,19 @@
 ---
-uid: table-ownercontactlink
-title: ownercontactlink table
+uid: table-OwnerContactLink
+title: OwnerContactLink table
 description: Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency. 
 so.generated: true
 keywords:
   - "database"
   - "OwnerContactLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ownercontactlink Table (167)
+# OwnerContactLink Table (167)
 
 ## Fields
 
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![OwnerContactLink table relationship diagram](./media/OwnerContactLink.png)
-
-[!include[details](./includes/OwnerContactLink.md)]
 
 ## Indexes
 

@@ -1,19 +1,19 @@
 ---
-uid: table-erpinternalkey
-title: erpinternalkey table
+uid: table-ErpInternalKey
+title: ErpInternalKey table
 description: The internal (superoffice-facing) key related to a synchronized record
 so.generated: true
 keywords:
   - "database"
   - "ErpInternalKey"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# erpinternalkey Table (422)
+# ErpInternalKey Table (422)
 
 ## Fields
 
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![ErpInternalKey table relationship diagram](./media/ErpInternalKey.png)
-
-[!include[details](./includes/ErpInternalKey.md)]
 
 ## Indexes
 

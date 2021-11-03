@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "appointment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,17 +23,17 @@ so.envir:
 |contact\_id|Contact ID of owning contact, may be 0|FK [contact](contact.md)|&#x25CF;|
 |person\_id|Person ID of person the appointment is with, may be 0|FK [person](person.md)|&#x25CF;|
 |associate\_id|ID of associate whose diary the appointment is in, REQUIRED|FK [associate](associate.md)| |
-|group\_idx|Group of owning associate at the time tha ppnt was created|FK [usergroup](usergroup.md)| |
+|group\_idx|Group of owning associate at the time tha ppnt was created|FK [UserGroup](usergroup.md)| |
 |registered|Registered date|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)|&#x25CF;|
 |done|date + start time this task was done|DateTime| |
 |do\_by|date + start time planned|DateTime|&#x25CF;|
 |leadtime|Time blocked (minutes) BEFORE starttime|UShort|&#x25CF;|
-|task\_idx|Link to Task list, OR to DocTmpl list, if this is a document|FK [task](task.md)| |
-|priority\_idx|Link to priority list|FK [priority](priority.md)|&#x25CF;|
-|type|where=no start time,note,docin, docout |Enum [appointmenttype](enums/appointmenttype.md)|&#x25CF;|
-|status|status=done,started, not started, hidden|Enum [appointmentstatus](enums/appointmentstatus.md)|&#x25CF;|
-|private|Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status|Enum [appointmentprivate](enums/appointmentprivate.md)|&#x25CF;|
+|task\_idx|Link to Task list, OR to DocTmpl list, if this is a document|FK [Task](task.md)| |
+|priority\_idx|Link to priority list|FK [Priority](priority.md)|&#x25CF;|
+|type|where=no start time,note,docin, docout |Enum [AppointmentType](enums/appointmenttype.md)|&#x25CF;|
+|status|status=done,started, not started, hidden|Enum [AppointmentStatus](enums/appointmentstatus.md)|&#x25CF;|
+|private|Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status|Enum [AppointmentPrivate](enums/appointmentprivate.md)|&#x25CF;|
 |alarm|Alarm leadtime, the alarm flag has moved to hasAlarm|UShort|&#x25CF;|
 |text\_id|ID of record containing appointment text|FK [text](text.md)|&#x25CF;|
 |project\_id|ID of project referred to, may be 0|FK [project](project.md)|&#x25CF;|
@@ -51,30 +51,28 @@ so.envir:
 |updated\_associate\_id|Updated by who|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |activeLinks|Number of active links to documents, other appointments, and such|UInt|&#x25CF;|
-|recurrenceRuleId|Pointer to recurrence rule, for recurring appointments, otherwise 0|FK [recurrencerule](recurrencerule.md)|&#x25CF;|
+|recurrenceRuleId|Pointer to recurrence rule, for recurring appointments, otherwise 0|FK [RecurrenceRule](recurrencerule.md)|&#x25CF;|
 |location|Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here|String(254)|&#x25CF;|
-|alldayEvent|Is this an all day event: 0 = No, 1 = Yes|Enum [alldayevent](enums/alldayevent.md)|&#x25CF;|
-|freeBusy|What kind of time is this: 0 = Busy, 1 = Free|Enum [freebusy](enums/freebusy.md)|&#x25CF;|
+|alldayEvent|Is this an all day event: 0 = No, 1 = Yes|Enum [AllDayEvent](enums/alldayevent.md)|&#x25CF;|
+|freeBusy|What kind of time is this: 0 = Busy, 1 = Free|Enum [FreeBusy](enums/freebusy.md)|&#x25CF;|
 |rejectCounter|How many invitees have rejected this appointment|UShort|&#x25CF;|
-|emailId|If invitation and status changes should be mailed, this is the ID of the email address used|FK [email](email.md)|&#x25CF;|
+|emailId|If invitation and status changes should be mailed, this is the ID of the email address used|FK [Email](email.md)|&#x25CF;|
 |rejectReason|Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here|String(254)|&#x25CF;|
 |hasAlarm|Does this appointment have an alarm|Bool|&#x25CF;|
 |assignedBy|Who (last) assigned this appointment to associate_id?|FK [associate](associate.md)|&#x25CF;|
-|preferredTZLocation|Preferred timezone location to use when displaying/editing this appointment|FK [tzlocation](tzlocation.md)|&#x25CF;|
+|preferredTZLocation|Preferred timezone location to use when displaying/editing this appointment|FK [TZLocation](tzlocation.md)|&#x25CF;|
 |sale\_id|Owning sale, if any (may be 0)|FK [sale](sale.md)|&#x25CF;|
-|suggestedAppointmentId|Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)|FK [suggestedappointment](suggestedappointment.md)|&#x25CF;|
-|suggestedDocumentId|Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)|FK [suggesteddocument](suggesteddocument.md)|&#x25CF;|
+|suggestedAppointmentId|Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)|FK [SuggestedAppointment](suggestedappointment.md)|&#x25CF;|
+|suggestedDocumentId|Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)|FK [SuggestedDocument](suggesteddocument.md)|&#x25CF;|
 |isMilestone|Is this appointment a milestone?|Bool|&#x25CF;|
 |join\_videomeet\_url|Blank when not a video meeting. Filled with Join Meeting URL when created.|String(2000)|&#x25CF;|
 |centralservice\_videomeet\_id|GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.|String(100)|&#x25CF;|
 |original\_start\_date|The original start date for an appointment in a recurring series|DateTime|&#x25CF;|
-|cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [appointmentcautionwarning](enums/appointmentcautionwarning.md)|&#x25CF;|
+|cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
 
 
 ![appointment table relationship diagram](./media/appointment.png)
-
-[!include[details](./includes/appointment.md)]
 
 ## Indexes
 

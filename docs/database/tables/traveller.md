@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "traveller"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,7 +29,7 @@ so.envir:
 |last\_playbacktime|Datetime when we last read a file from this traveller|DateTime|&#x25CF;|
 |last\_playbacknumber|File number of last file receieved from this traveller|FK [traveltransactionlog](traveltransactionlog.md)|&#x25CF;|
 |databasetype|The database type he has|UShort|&#x25CF;|
-|encryptedComm|Use encrypted communication for this traveller: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [travelencryptionchild](enums/travelencryptionchild.md)|&#x25CF;|
+|encryptedComm|Use encrypted communication for this traveller: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [TravelEncryptionChild](enums/travelencryptionchild.md)|&#x25CF;|
 |dbTag|Database tag, used for encryption key|String(39)|&#x25CF;|
 |defaultMakeReturn|Default value for the &apos;make return log&apos; checkbox, based on last answer|UShort|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -40,8 +40,6 @@ so.envir:
 
 
 ![traveller table relationship diagram](./media/traveller.png)
-
-[!include[details](./includes/traveller.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-status
-title: ticket\_status table
+uid: table-ticket_status
+title: ticket_status table
 description: This table user defined ticket status values.
 so.generated: true
 keywords:
   - "database"
   - "ticket_status"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,17 +20,15 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|status|The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted|Enum [ticketbasestatus](enums/ticketbasestatus.md)| |
+|status|The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted|Enum [TicketBaseStatus](enums/ticketbasestatus.md)| |
 |ts\_rank|Sort order|Int| |
 |name|Name of user defined ticket status|String(255)| |
-|time\_counter|Which field in ticket we count time spent on (queue, internal, external) |Enum [ticketstatustimecounter](enums/ticketstatustimecounter.md)|&#x25CF;|
+|time\_counter|Which field in ticket we count time spent on (queue, internal, external) |Enum [TicketStatusTimeCounter](enums/ticketstatustimecounter.md)|&#x25CF;|
 |deleted|Whether the status is deleted (unavailable) or not|Bool|&#x25CF;|
 |no\_email\_reopen|Whether inbound emails can reopen requests with this status or not|Bool|&#x25CF;|
 
 
 ![ticket_status table relationship diagram](./media/ticket_status.png)
-
-[!include[details](./includes/ticket-status.md)]
 
 ## Indexes
 

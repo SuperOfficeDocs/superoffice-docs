@@ -1,27 +1,27 @@
 ---
-uid: table-stakeholderrolegrouplink
-title: stakeholderrolegrouplink table
+uid: table-StakeholderRoleGroupLink
+title: StakeholderRoleGroupLink table
 description: User group link table for StakeholderRole, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "StakeholderRoleGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# stakeholderrolegrouplink Table (123)
+# StakeholderRoleGroupLink Table (123)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |stakeholderrolegrouplink\_id|Primary key|PK| |
-|stakeholderrole\_id|Link to StakeholderRole list table|FK [stakeholderrole](stakeholderrole.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|stakeholderrole\_id|Link to StakeholderRole list table|FK [StakeholderRole](stakeholderrole.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![StakeholderRoleGroupLink table relationship diagram](./media/StakeholderRoleGroupLink.png)
-
-[!include[details](./includes/StakeholderRoleGroupLink.md)]
 
 ## Indexes
 

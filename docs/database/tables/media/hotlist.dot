@@ -1,0 +1,10 @@
+digraph hotlist  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+hotlist[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+hotlist -> ejuser [headlabel = "user_id"]
+hotlist -> ticket [headlabel = "ticket_id"]
+}

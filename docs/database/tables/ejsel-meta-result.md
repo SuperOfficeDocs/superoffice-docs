@@ -1,12 +1,12 @@
 ---
-uid: table-ejsel-meta-result
-title: ejsel\_meta\_result table
+uid: table-ejsel_meta_result
+title: ejsel_meta_result table
 description: This table stores result meta data
 so.generated: true
 keywords:
   - "database"
   - "ejsel_meta_result"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![ejsel_meta_result table relationship diagram](./media/ejsel_meta_result.png)
-
-[!include[details](./includes/ejsel-meta-result.md)]
 
 ## Indexes
 

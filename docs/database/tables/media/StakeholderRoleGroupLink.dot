@@ -1,0 +1,13 @@
+digraph StakeholderRoleGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+StakeholderRoleGroupLink[fillcolor = "cadetblue1"]
+StakeholderRole[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+StakeholderRoleGroupLink -> StakeholderRole [headlabel = "stakeholderrole_id"]
+StakeholderRoleGroupLink -> UserGroup [headlabel = "group_id"]
+StakeholderRoleGroupLink -> associate [headlabel = "registered_associate_id"]
+StakeholderRoleGroupLink -> associate [label = "updated_associate_id"]
+}

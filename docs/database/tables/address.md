@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "address"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |address\_id|Primary key|PK| |
 |owner\_id|Record id of owner: Contact or Person|Id| |
-|atype\_idx|Bit mask, combines address type (EAddressType) and owner type (EOwnerType)|Enum [addresstype](enums/addresstype.md)| |
+|atype\_idx|Bit mask, combines address type (EAddressType) and owner type (EOwnerType)|Enum [AddressType](enums/addresstype.md)| |
 |zipcode|Zip code, alphanumeric|String(11)| |
 |city|City corresponding to zip code|String(79)|&#x25CF;|
 |state|State|String(5)|&#x25CF;|
@@ -41,8 +41,6 @@ so.envir:
 
 
 ![address table relationship diagram](./media/address.png)
-
-[!include[details](./includes/address.md)]
 
 ## Indexes
 

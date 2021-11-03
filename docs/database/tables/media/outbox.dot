@@ -1,0 +1,12 @@
+digraph outbox  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+outbox[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+ej_message[fillcolor = "azure1"]
+sms[fillcolor = "azure1"]
+outbox -> ticket [headlabel = "ticket_id"]
+outbox -> ej_message [headlabel = "message_id"]
+sms -> outbox [label = "outbox_id"]
+}

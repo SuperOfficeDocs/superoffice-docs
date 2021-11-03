@@ -1,0 +1,9 @@
+digraph ejpackage_item  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejpackage_item[fillcolor = "cadetblue1"]
+ejpackage[fillcolor = "azure1"]
+ejpackage_item -> ejpackage [headlabel = "ejpackage"]
+ejpackage_item -> ejpackage_item [headlabel = "parent_id"]
+}

@@ -1,12 +1,12 @@
 ---
-uid: table-company-domain
-title: company\_domain table
+uid: table-company_domain
+title: company_domain table
 description: This table contains web-domains associated with a certain cust_company entry.
 so.generated: true
 keywords:
   - "database"
   - "company_domain"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![company_domain table relationship diagram](./media/company_domain.png)
-
-[!include[details](./includes/company-domain.md)]
 
 ## Indexes
 

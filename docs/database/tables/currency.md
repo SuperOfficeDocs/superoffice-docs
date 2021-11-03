@@ -1,21 +1,21 @@
 ---
-uid: table-currency
-title: currency table
+uid: table-Currency
+title: Currency table
 description: Currency list table
 so.generated: true
 keywords:
   - "database"
   - "Currency"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# currency Table (112)
+# Currency Table (112)
 
-currency MDO list item table.
+Currency MDO list item table.
 Currency list table
 
 ## Fields
@@ -38,8 +38,6 @@ Currency list table
 
 
 ![Currency table relationship diagram](./media/Currency.png)
-
-[!include[details](./includes/Currency.md)]
 
 ## Indexes
 

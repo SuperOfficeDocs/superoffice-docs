@@ -1,19 +1,19 @@
 ---
-uid: table-importobject
-title: importobject table
+uid: table-ImportObject
+title: ImportObject table
 description: Import object types - see localetext for names.
 so.generated: true
 keywords:
   - "database"
   - "ImportObject"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# importobject Table (186)
+# ImportObject Table (186)
 
 ## Fields
 
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![ImportObject table relationship diagram](./media/ImportObject.png)
-
-[!include[details](./includes/ImportObject.md)]
 
 ## Indexes
 

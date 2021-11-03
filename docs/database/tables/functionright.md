@@ -1,19 +1,19 @@
 ---
-uid: table-functionright
-title: functionright table
+uid: table-FunctionRight
+title: FunctionRight table
 description: Functional right definition
 so.generated: true
 keywords:
   - "database"
   - "FunctionRight"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# functionright Table (193)
+# FunctionRight Table (193)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |FunctionRight\_id|Primary key|PK| |
 |name|Readable, internal ID (not a GUI text)|String(254)| |
-|rightType|0 = functional right|Enum [functionrighttype](enums/functionrighttype.md)| |
+|rightType|0 = functional right|Enum [FunctionRightType](enums/functionrighttype.md)| |
 |isBuiltIn|0 = added by partner, 1 = supplied by SuperOffice|Bool| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)| |
 |requiredModule|If non-blank, specifies a module license that is also needed, for this right to be granted|String(239)|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![FunctionRight table relationship diagram](./media/FunctionRight.png)
-
-[!include[details](./includes/FunctionRight.md)]
 
 ## Indexes
 

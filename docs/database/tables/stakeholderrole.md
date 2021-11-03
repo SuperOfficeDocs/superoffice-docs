@@ -1,21 +1,21 @@
 ---
-uid: table-stakeholderrole
-title: stakeholderrole table
+uid: table-StakeholderRole
+title: StakeholderRole table
 description: Role a stakeholder has in a sale
 so.generated: true
 keywords:
   - "database"
   - "StakeholderRole"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# stakeholderrole Table (122)
+# StakeholderRole Table (122)
 
-stakeholderrole MDO list item table.
+StakeholderRole MDO list item table.
 Role a stakeholder has in a sale
 
 ## Fields
@@ -35,8 +35,6 @@ Role a stakeholder has in a sale
 
 
 ![StakeholderRole table relationship diagram](./media/StakeholderRole.png)
-
-[!include[details](./includes/StakeholderRole.md)]
 
 ## Indexes
 

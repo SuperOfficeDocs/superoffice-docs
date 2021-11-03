@@ -1,12 +1,12 @@
 ---
-uid: table-wsdl-description
-title: wsdl\_description table
+uid: table-wsdl_description
+title: wsdl_description table
 description: Soap wsdl files
 so.generated: true
 keywords:
   - "database"
   - "wsdl_description"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![wsdl_description table relationship diagram](./media/wsdl_description.png)
-
-[!include[details](./includes/wsdl-description.md)]
 
 ## Indexes
 

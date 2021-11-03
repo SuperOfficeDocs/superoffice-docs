@@ -1,19 +1,19 @@
 ---
-uid: table-statusdef
-title: statusdef table
+uid: table-StatusDef
+title: StatusDef table
 description: Status definitions. Name and description are in LocaleText for internationalization
 so.generated: true
 keywords:
   - "database"
   - "StatusDef"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# statusdef Table (198)
+# StatusDef Table (198)
 
 ## Fields
 
@@ -26,7 +26,7 @@ so.envir:
 |deleted|Deleted flag, 1 if this record is deleted (never from the database)|Bool|&#x25CF;|
 |ownerTable|The owning entity, currently contact or project|TableNumber|&#x25CF;|
 |dirtyOnChange|If 1, the statusValue records should be set to dirty whenever information related to the owning entity changes. If 0, nothing happens.|Bool|&#x25CF;|
-|defaultTask|Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables|FK [task](task.md)|&#x25CF;|
+|defaultTask|Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables|FK [Task](task.md)|&#x25CF;|
 |lastGenerated|When was the last generation finished  (i.e., statusValue rows created)|DateTime|&#x25CF;|
 |numMatches|Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1|UInt|&#x25CF;|
 |numNeedUpdate|Number of targets that had this status, but have their needsUpdate bit set due to some change|UInt|&#x25CF;|
@@ -39,8 +39,6 @@ so.envir:
 
 
 ![StatusDef table relationship diagram](./media/StatusDef.png)
-
-[!include[details](./includes/StatusDef.md)]
 
 ## Indexes
 

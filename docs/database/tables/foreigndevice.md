@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreigndevice"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![foreigndevice table relationship diagram](./media/foreigndevice.png)
-
-[!include[details](./includes/foreigndevice.md)]
 
 ## Indexes
 

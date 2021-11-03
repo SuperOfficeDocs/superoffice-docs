@@ -1,12 +1,12 @@
 ---
-uid: table-element-profile
-title: element\_profile table
+uid: table-element_profile
+title: element_profile table
 description: The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link
 so.generated: true
 keywords:
   - "database"
   - "element_profile"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,10 +21,10 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |name|This is the name used by common profiles|String(255)|&#x25CF;|
-|static\_element|An enum for which HtmlElement this is. All profileable elements in static screens has a unique enum matching this one.|static-element|&#x25CF;|
-|screen\_definition\_element|The id of the screen_definition_element.|FK [screen-definition-element](screen-definition-element.md)| |
-|profile\_type|Enum indicating whether this is the default profile (only one), user profile or a common profile. Defined in Profile.h|profile-type|&#x25CF;|
-|element\_type|What kind of element is this? Static, blogic or extra table?|element-type|&#x25CF;|
+|static\_element|An enum for which HtmlElement this is. All profileable elements in static screens has a unique enum matching this one.|static_element|&#x25CF;|
+|screen\_definition\_element|The id of the screen_definition_element.|FK [screen_definition_element](screen-definition-element.md)| |
+|profile\_type|Enum indicating whether this is the default profile (only one), user profile or a common profile. Defined in Profile.h|profile_type|&#x25CF;|
+|element\_type|What kind of element is this? Static, blogic or extra table?|element_type|&#x25CF;|
 |owned\_by\_user|The id of the user.|FK [ejuser](ejuser.md)| |
 |config|The actual profile data. Each HtmlElement may choose format. Normally XML.|Clob|&#x25CF;|
 |filter\_field|Name of field, if any, that is used to filter which profiles should be shown|String(254)|&#x25CF;|
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![element_profile table relationship diagram](./media/element_profile.png)
-
-[!include[details](./includes/element-profile.md)]
 
 ## Indexes
 

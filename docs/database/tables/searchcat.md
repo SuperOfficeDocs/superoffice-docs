@@ -1,21 +1,21 @@
 ---
-uid: table-searchcat
-title: searchcat table
+uid: table-SearchCat
+title: SearchCat table
 description: SearchCat list table
 so.generated: true
 keywords:
   - "database"
   - "SearchCat"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# searchcat Table (106)
+# SearchCat Table (106)
 
-searchcat MDO list item table.
+SearchCat MDO list item table.
 SearchCat list table
 
 ## Fields
@@ -35,8 +35,6 @@ SearchCat list table
 
 
 ![SearchCat table relationship diagram](./media/SearchCat.png)
-
-[!include[details](./includes/SearchCat.md)]
 
 ## Indexes
 

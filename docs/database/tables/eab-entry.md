@@ -1,12 +1,12 @@
 ---
-uid: table-eab-entry
-title: eab\_entry table
+uid: table-eab_entry
+title: eab_entry table
 description: This table contains eab (email address book) entries, i.e. an alias (&amp;apos;Ola Hansen&amp;apos;) and an address (&amp;apos;ola@hansen.as&amp;apos;).
 so.generated: true
 keywords:
   - "database"
   - "eab_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,11 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|folder\_id|The id of the folder in which this entry is located.|FK [eab-folder](eab-folder.md)| |
+|folder\_id|The id of the folder in which this entry is located.|FK [eab_folder](eab-folder.md)| |
 |name|The name of this email address|String(64)| |
 |email\_address|The actual email address.|String(255)|&#x25CF;|
 |sms\_number|The sms number for this person|String(255)|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)| |
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)| |
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)| |
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![eab_entry table relationship diagram](./media/eab_entry.png)
-
-[!include[details](./includes/eab-entry.md)]
 
 ## Indexes
 

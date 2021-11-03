@@ -1,27 +1,27 @@
 ---
-uid: table-connectionconfigfield
-title: connectionconfigfield table
+uid: table-ConnectionConfigField
+title: ConnectionConfigField table
 description: Configuration data for Erp and Quote Connections
 so.generated: true
 keywords:
   - "database"
   - "ConnectionConfigField"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# connectionconfigfield Table (421)
+# ConnectionConfigField Table (421)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |connectionconfigfield\_id|Primary key|PK| |
-|ErpConnectionId|Erp connection, if this row belongs to an ERP Connector|FK [erpconnection](erpconnection.md)|&#x25CF;|
-|QuoteConnectionId|Quote connection, if this row belongs to a Quote Connector|FK [quoteconnection](quoteconnection.md)|&#x25CF;|
+|ErpConnectionId|Erp connection, if this row belongs to an ERP Connector|FK [ErpConnection](erpconnection.md)|&#x25CF;|
+|QuoteConnectionId|Quote connection, if this row belongs to a Quote Connector|FK [QuoteConnection](quoteconnection.md)|&#x25CF;|
 |FieldKey|The key that identifies the field, taken from the connector&apos;s metadata|String(254)|&#x25CF;|
 |FieldValue|The field value, formatted for transport as a string using CultureDataFormatter|String(1023)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![ConnectionConfigField table relationship diagram](./media/ConnectionConfigField.png)
-
-[!include[details](./includes/ConnectionConfigField.md)]
 
 ## Indexes
 

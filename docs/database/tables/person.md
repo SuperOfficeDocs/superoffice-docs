@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "person"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,12 +27,12 @@ so.envir:
 |mrmrs|e.g. Mrs   sex_title|String(239)|&#x25CF;|
 |title|Title|String(239)|&#x25CF;|
 |text\_id|Info tab contents|FK [text](text.md)|&#x25CF;|
-|position\_idx|Link to Position list|FK [perspos](perspos.md)|&#x25CF;|
+|position\_idx|Link to Position list|FK [PersPos](perspos.md)|&#x25CF;|
 |year\_of\_birth|Birth year (4 digit)|UShort|&#x25CF;|
 |month\_of\_birth|Birth month|UShort|&#x25CF;|
 |day\_of\_birth|Birth date (day of month)|UShort|&#x25CF;|
 |phone\_present|flag to show there are phone registrations |UShort|&#x25CF;|
-|userdef\_id|User defined table record 1|FK [udpersonsmall](udpersonsmall.md)|&#x25CF;|
+|userdef\_id|User defined table record 1|FK [udpersonSmall](udpersonsmall.md)|&#x25CF;|
 |registered|Registered date|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated date|UtcDateTime| |
@@ -48,7 +48,7 @@ so.envir:
 |source|How did we get this person? For future integration needs|UShort|&#x25CF;|
 |nomailing|Do not send DM&apos;s to this person|Bool|&#x25CF;|
 |country\_id|Country|FK [country](country.md)| |
-|userdef2\_id|User defined table record 2|FK [udpersonlarge](udpersonlarge.md)|&#x25CF;|
+|userdef2\_id|User defined table record 2|FK [udpersonLarge](udpersonlarge.md)|&#x25CF;|
 |retired|1 = the user is retired and should have no rights, not appear in lists, etc.|UShort|&#x25CF;|
 |activeInterests|Number of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true|UShort|&#x25CF;|
 |updatedCount|Number of times updated|UShort| |
@@ -57,16 +57,16 @@ so.envir:
 |salutation|Academic title, populated from Salutation list but can be overwritten with anything at all|String(239)|&#x25CF;|
 |department|Internal department address|String(254)|&#x25CF;|
 |initials|Where Pierre van Mever becomes P. van Mever.  Actually, initials to be used in formal addresses, mostly in the Ducth market|String(63)|&#x25CF;|
-|gender|Male/female. No jokes please.  To be used for selecting correct salutations &amp; grammar. 0 = unknown, 1 = female, 2 = male|Enum [persongender](enums/persongender.md)|&#x25CF;|
-|business\_idx|Business if this is a B2C person, otherwise mirror of contact.business_idx|FK [business](business.md)| |
-|category\_idx|Category if this is a B2C person, otherwise mirror of contact.category_idx|FK [category](category.md)| |
-|tzLocationId|Default timezone location for this person|FK [tzlocation](tzlocation.md)|&#x25CF;|
+|gender|Male/female. No jokes please.  To be used for selecting correct salutations &amp; grammar. 0 = unknown, 1 = female, 2 = male|Enum [PersonGender](enums/persongender.md)|&#x25CF;|
+|business\_idx|Business if this is a B2C person, otherwise mirror of contact.business_idx|FK [Business](business.md)| |
+|category\_idx|Category if this is a B2C person, otherwise mirror of contact.category_idx|FK [Category](category.md)| |
+|tzLocationId|Default timezone location for this person|FK [TZLocation](tzlocation.md)|&#x25CF;|
 |sentInfo|Has information on username/password been sent (ejournal)|UShort|&#x25CF;|
 |showContactTickets|Should tickets related to the company be shown to this person|UShort|&#x25CF;|
-|ticketPriorityId|Default ticket priority for new tickets|FK [ticket-priority](ticket-priority.md)|&#x25CF;|
-|supportLanguageId|Customers language (does not necessarily map to ISO languages)|FK [cust-lang](cust-lang.md)|&#x25CF;|
+|ticketPriorityId|Default ticket priority for new tickets|FK [ticket_priority](ticket-priority.md)|&#x25CF;|
+|supportLanguageId|Customers language (does not necessarily map to ISO languages)|FK [cust_lang](cust-lang.md)|&#x25CF;|
 |supportAssociateId|Our contact, but for support context, not sales/primary contact|FK [associate](associate.md)|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)|&#x25CF;|
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)|&#x25CF;|
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)|&#x25CF;|
 |dbi\_last\_syncronized|Last external syncronization.|DateTime|&#x25CF;|
 |dbi\_last\_modified|When the entry was last modified.|DateTime|&#x25CF;|
@@ -76,8 +76,6 @@ so.envir:
 
 
 ![person table relationship diagram](./media/person.png)
-
-[!include[details](./includes/person.md)]
 
 ## Indexes
 

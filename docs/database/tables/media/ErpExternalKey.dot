@@ -1,0 +1,15 @@
+digraph ErpExternalKey  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpExternalKey[fillcolor = "cadetblue1"]
+ErpInternalKey[fillcolor = "azure1"]
+ErpConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ErpSyncLog[fillcolor = "azure1"]
+ErpExternalKey -> ErpInternalKey [headlabel = "ErpInternalKeyId"]
+ErpExternalKey -> ErpConnection [headlabel = "ErpConnectionId"]
+ErpExternalKey -> associate [headlabel = "registered_associate_id"]
+ErpExternalKey -> associate [label = "updated_associate_id"]
+ErpSyncLog -> ErpExternalKey [label = "ErpExternalKeyId"]
+}

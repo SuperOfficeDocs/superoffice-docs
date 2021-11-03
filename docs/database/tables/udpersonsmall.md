@@ -1,19 +1,19 @@
 ---
-uid: table-udpersonsmall
-title: udpersonsmall table
+uid: table-udpersonSmall
+title: udpersonSmall table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
   - "udpersonSmall"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udpersonsmall Table (140)
+# udpersonSmall Table (140)
 
 ## Fields
 
@@ -133,8 +133,6 @@ so.envir:
 
 
 ![udpersonSmall table relationship diagram](./media/udpersonSmall.png)
-
-[!include[details](./includes/udpersonSmall.md)]
 
 ## Indexes
 

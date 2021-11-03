@@ -1,0 +1,9 @@
+digraph kb_solution_finder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_solution_finder[fillcolor = "cadetblue1"]
+kb_solution_finder_entry[fillcolor = "azure1"]
+kb_solution_finder -> kb_solution_finder [headlabel = "parent_id"]
+kb_solution_finder_entry -> kb_solution_finder [label = "solution_finder"]
+}

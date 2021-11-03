@@ -1,0 +1,13 @@
+digraph UDListHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UDListHeadingLink[fillcolor = "cadetblue1"]
+UDList[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UDListHeadingLink -> UDList [headlabel = "udlist_id"]
+UDListHeadingLink -> Heading [headlabel = "heading_id"]
+UDListHeadingLink -> associate [headlabel = "registered_associate_id"]
+UDListHeadingLink -> associate [label = "updated_associate_id"]
+}

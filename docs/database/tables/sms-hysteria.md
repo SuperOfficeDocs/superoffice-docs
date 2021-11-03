@@ -1,12 +1,12 @@
 ---
-uid: table-sms-hysteria
-title: sms\_hysteria table
+uid: table-sms_hysteria
+title: sms_hysteria table
 description: Avoid sending too many sms messages in a short time interval to one person
 so.generated: true
 keywords:
   - "database"
   - "sms_hysteria"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![sms_hysteria table relationship diagram](./media/sms_hysteria.png)
-
-[!include[details](./includes/sms-hysteria.md)]
 
 ## Indexes
 

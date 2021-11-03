@@ -1,12 +1,12 @@
 ---
-uid: table-dictionary-base
-title: dictionary\_base table
+uid: table-dictionary_base
+title: dictionary_base table
 description: Language catalog for the ejournal dictionaries (automatic proof reading of message text etc)
 so.generated: true
 keywords:
   - "database"
   - "dictionary_base"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![dictionary_base table relationship diagram](./media/dictionary_base.png)
-
-[!include[details](./includes/dictionary-base.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "country"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,7 +33,7 @@ Country information
 |addressLayout|Points to address format used in the GUI|Id| |
 |addressLayoutDomestic|Points to address format used for labels to own country|Id| |
 |addressLayoutForeign|Points to address format used for labels to other countries than own country|Id| |
-|currency\_id|Default currency for this country|FK [currency](currency.md)|&#x25CF;|
+|currency\_id|Default currency for this country|FK [Currency](currency.md)|&#x25CF;|
 |orgNrText|Lead text for organisation field|String(254)|&#x25CF;|
 |domainName|Default Web domain identifier (.no, .uk, etc; but without the dot)|String(9)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -51,12 +51,10 @@ Country information
 |isoNumber|The primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-)|UInt|&#x25CF;|
 |abbrev3|ISO 3-letter abbreviation|String(3)|&#x25CF;|
 |abbrev2|ISO 2-letter abbreviation|String(2)|&#x25CF;|
-|tzLocationId|Default timezone location for this country|FK [tzlocation](tzlocation.md)|&#x25CF;|
+|tzLocationId|Default timezone location for this country|FK [TZLocation](tzlocation.md)|&#x25CF;|
 
 
 ![country table relationship diagram](./media/country.png)
-
-[!include[details](./includes/country.md)]
 
 ## Indexes
 

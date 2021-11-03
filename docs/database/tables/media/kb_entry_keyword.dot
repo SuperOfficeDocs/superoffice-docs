@@ -1,0 +1,8 @@
+digraph kb_entry_keyword  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_entry_keyword[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+kb_entry_keyword -> kb_entry [headlabel = "kb_entry_id"]
+}

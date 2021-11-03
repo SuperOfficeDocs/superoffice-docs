@@ -1,0 +1,12 @@
+digraph UserRoleLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UserRoleLink[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+Role[fillcolor = "azure1"]
+UserRoleLink -> associate [headlabel = "associate_id"]
+UserRoleLink -> Role [headlabel = "role_id"]
+UserRoleLink -> associate [label = "registered_associate_id"]
+UserRoleLink -> associate [label = "updated_associate_id"]
+}

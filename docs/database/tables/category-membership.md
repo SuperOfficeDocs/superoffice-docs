@@ -1,12 +1,12 @@
 ---
-uid: table-category-membership
-title: category\_membership table
+uid: table-category_membership
+title: category_membership table
 description: This table connects users to categories (many-to-many).
 so.generated: true
 keywords:
   - "database"
   - "category_membership"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|category\_id|The reference to the category.|FK [ej-category](ej-category.md)| |
+|category\_id|The reference to the category.|FK [ej_category](ej-category.md)| |
 |user\_id|The reference to the ej user.|FK [ejuser](ejuser.md)| |
 |weight|The proportion used for weighted delegation within category if weighted assignment is active. 0 = no automatic assignment, -1 = defined by usergroup via ejCategoryGroup, counts as 0 weight. |Short|&#x25CF;|
 
 
 ![category_membership table relationship diagram](./media/category_membership.png)
-
-[!include[details](./includes/category-membership.md)]
 
 ## Indexes
 

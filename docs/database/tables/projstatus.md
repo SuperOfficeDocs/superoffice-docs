@@ -1,21 +1,21 @@
 ---
-uid: table-projstatus
-title: projstatus table
+uid: table-ProjStatus
+title: ProjStatus table
 description: ProjStatus list table. Project status
 so.generated: true
 keywords:
   - "database"
   - "ProjStatus"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# projstatus Table (88)
+# ProjStatus Table (88)
 
-projstatus MDO list item table.
+ProjStatus MDO list item table.
 ProjStatus list table. Project status
 
 ## Fields
@@ -35,8 +35,6 @@ ProjStatus list table. Project status
 
 
 ![ProjStatus table relationship diagram](./media/ProjStatus.png)
-
-[!include[details](./includes/ProjStatus.md)]
 
 ## Indexes
 

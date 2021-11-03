@@ -1,27 +1,27 @@
 ---
-uid: table-saletypecatheadinglink
-title: saletypecatheadinglink table
+uid: table-SaleTypeCatHeadingLink
+title: SaleTypeCatHeadingLink table
 description: Heading link table for SaleTypeCat, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "SaleTypeCatHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# saletypecatheadinglink Table (120)
+# SaleTypeCatHeadingLink Table (120)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |saletypecatheadinglink\_id|Primary key|PK| |
-|saletypecat\_id|Link to SaleTypeCat list table|FK [saletypecat](saletypecat.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|saletypecat\_id|Link to SaleTypeCat list table|FK [SaleTypeCat](saletypecat.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SaleTypeCatHeadingLink table relationship diagram](./media/SaleTypeCatHeadingLink.png)
-
-[!include[details](./includes/SaleTypeCatHeadingLink.md)]
 
 ## Indexes
 

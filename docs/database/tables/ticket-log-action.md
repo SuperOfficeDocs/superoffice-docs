@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-log-action
-title: ticket\_log\_action table
+uid: table-ticket_log_action
+title: ticket_log_action table
 description: This table contains actions for the tickets.
 so.generated: true
 keywords:
   - "database"
   - "ticket_log_action"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,7 +22,7 @@ so.envir:
 |id|The primary key (auto-incremented)|PK| |
 |ticket\_id|The id of the ticket this entry is connected to.|FK [ticket](ticket.md)| |
 |org\_ticket\_id|The id of the orignal ticket this entry was connected to.|FK [ticket](ticket.md)| |
-|message\_id|If this entry is connected to a message, then this is a message change log entry.|FK [ej-message](ej-message.md)| |
+|message\_id|If this entry is connected to a message, then this is a message change log entry.|FK [ej_message](ej-message.md)| |
 |user\_id|The id of the user this entry is connected to.|FK [ejuser](ejuser.md)| |
 |customer\_id|The id of the customer this entry is connected to.|FK [person](person.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![ticket_log_action table relationship diagram](./media/ticket_log_action.png)
-
-[!include[details](./includes/ticket-log-action.md)]
 
 ## Indexes
 

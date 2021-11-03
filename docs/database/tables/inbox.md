@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "inbox"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|mail\_in\_filter|A reference to the id of the mail box|FK [mail-in-filter](mail-in-filter.md)| |
+|mail\_in\_filter|A reference to the id of the mail box|FK [mail_in_filter](mail-in-filter.md)| |
 |locking\_id|A reference to the id of lock|FK [locking](locking.md)| |
 |uidl|The uidl of the message. stored before the retrieval starts to prevent double import For locking purposes|String(255)|&#x25CF;|
 |created|When the mail was created|DateTime|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![inbox table relationship diagram](./media/inbox.png)
-
-[!include[details](./includes/inbox.md)]
 
 ## Indexes
 

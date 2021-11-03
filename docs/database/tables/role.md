@@ -1,19 +1,19 @@
 ---
-uid: table-role
-title: role table
-description: User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com
+uid: table-Role
+title: Role table
+description: User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http;//techdoc.superoffice.com
 so.generated: true
 keywords:
   - "database"
   - "Role"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# role Table (191)
+# Role Table (191)
 
 ## Fields
 
@@ -24,7 +24,7 @@ so.envir:
 |rank|Sorting rank of this role in lists|UShort| |
 |tooltip|Visible tooltip|String(254)|&#x25CF;|
 |deleted|1 if role has been deleted (we do not actually delete)|UShort| |
-|roleType|0 = employee, 1 = external user, 2 = anonymous|Enum [roletype](enums/roletype.md)| |
+|roleType|0 = employee, 1 = external user, 2 = anonymous|Enum [RoleType](enums/roletype.md)| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![Role table relationship diagram](./media/Role.png)
-
-[!include[details](./includes/Role.md)]
 
 ## Indexes
 

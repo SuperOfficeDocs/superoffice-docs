@@ -1,12 +1,12 @@
 ---
 uid: table-activeuser
 title: activeuser table
-description: Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use - for determining who is logged on, at what location, etc.
+description: Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use; for determining who is logged on, at what location, etc.
 so.generated: true
 keywords:
   - "database"
   - "activeuser"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![activeuser table relationship diagram](./media/activeuser.png)
-
-[!include[details](./includes/activeuser.md)]
 
 ## Indexes
 

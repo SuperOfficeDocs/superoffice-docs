@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "phone"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |phone\_id|Primary key|PK| |
 |owner\_id|Record id of owner: Contact or Person|Id| |
-|ptype\_idx|Bit mask, combines phone type (EPhoneType) and owner type (EOwnerType)|Enum [phonetype](enums/phonetype.md)| |
+|ptype\_idx|Bit mask, combines phone type (EPhoneType) and owner type (EOwnerType)|Enum [PhoneType](enums/phonetype.md)| |
 |phone|Actual phone number as eneterd by the user|String(239)| |
 |rank|Sort order|UShort|&#x25CF;|
 |description|Visible description|String(99)|&#x25CF;|
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![phone table relationship diagram](./media/phone.png)
-
-[!include[details](./includes/phone.md)]
 
 ## Indexes
 

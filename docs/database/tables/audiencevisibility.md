@@ -1,19 +1,19 @@
 ---
-uid: table-audiencevisibility
-title: audiencevisibility table
+uid: table-AudienceVisibility
+title: AudienceVisibility table
 description: How projects (or whatever) should be made visible in audience
 so.generated: true
 keywords:
   - "database"
   - "AudienceVisibility"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# audiencevisibility Table (232)
+# AudienceVisibility Table (232)
 
 ## Fields
 
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![AudienceVisibility table relationship diagram](./media/AudienceVisibility.png)
-
-[!include[details](./includes/AudienceVisibility.md)]
 
 ## Indexes
 

@@ -1,19 +1,19 @@
 ---
-uid: table-moduleowner
-title: moduleowner table
+uid: table-ModuleOwner
+title: ModuleOwner table
 description: Unique owner of a set of licensed modules
 so.generated: true
 keywords:
   - "database"
   - "ModuleOwner"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# moduleowner Table (212)
+# ModuleOwner Table (212)
 
 ## Fields
 
@@ -45,8 +45,6 @@ so.envir:
 
 
 ![ModuleOwner table relationship diagram](./media/ModuleOwner.png)
-
-[!include[details](./includes/ModuleOwner.md)]
 
 ## Indexes
 

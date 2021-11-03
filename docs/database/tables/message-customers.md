@@ -1,12 +1,12 @@
 ---
-uid: table-message-customers
-title: message\_customers table
+uid: table-message_customers
+title: message_customers table
 description: This table contains all cutomers who are involved in a message
 so.generated: true
 keywords:
   - "database"
   - "message_customers"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|message\_id|The id of the message the customer is involved in|FK [ej-message](ej-message.md)| |
+|message\_id|The id of the message the customer is involved in|FK [ej_message](ej-message.md)| |
 |customer\_id|The id of the customer who has received this message, or another message in this ticket|FK [person](person.md)| |
 |email|The email-adresse used in this message|String(255)|&#x25CF;|
 
 
 ![message_customers table relationship diagram](./media/message_customers.png)
-
-[!include[details](./includes/message-customers.md)]
 
 ## Indexes
 

@@ -1,21 +1,21 @@
 ---
-uid: table-udlist
-title: udlist table
+uid: table-UDList
+title: UDList table
 description: List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
 so.generated: true
 keywords:
   - "database"
   - "UDList"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udlist Table (136)
+# UDList Table (136)
 
-udlist MDO list item table.
+UDList MDO list item table.
 List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
 
 ## Fields
@@ -27,7 +27,7 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 |rank|Rank order |UShort|&#x25CF;|
 |tooltip|Tooltip or other description|String(254)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
-|UDListDefinition\_id|List to use for populating dropdown or listbox|FK [udlistdefinition](udlistdefinition.md)| |
+|UDListDefinition\_id|List to use for populating dropdown or listbox|FK [UDListDefinition](udlistdefinition.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -36,8 +36,6 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 
 
 ![UDList table relationship diagram](./media/UDList.png)
-
-[!include[details](./includes/UDList.md)]
 
 ## Indexes
 

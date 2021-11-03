@@ -1,22 +1,22 @@
 ---
-uid: table-priority
-title: priority table
-description: Priority list table. Used with appointments - low, high.
+uid: table-Priority
+title: Priority table
+description: Priority list table. Used with appointments; low, high.
 so.generated: true
 keywords:
   - "database"
   - "Priority"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# priority Table (79)
+# Priority Table (79)
 
-priority MDO list item table.
-Priority list table. Used with appointments: low, high.
+Priority MDO list item table.
+Priority list table. Used with appointments; low, high.
 
 ## Fields
 
@@ -35,8 +35,6 @@ Priority list table. Used with appointments: low, high.
 
 
 ![Priority table relationship diagram](./media/Priority.png)
-
-[!include[details](./includes/Priority.md)]
 
 ## Indexes
 

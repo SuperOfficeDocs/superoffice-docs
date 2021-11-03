@@ -1,12 +1,12 @@
 ---
-uid: table-kb-entry-log
-title: kb\_entry\_log table
+uid: table-kb_entry_log
+title: kb_entry_log table
 description: Who and when, if somebody edits a knowledge base entry
 so.generated: true
 keywords:
   - "database"
   - "kb_entry_log"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|kb\_entry\_id|The id of the kb_entry that triggered this action.|FK [kb-entry](kb-entry.md)| |
+|kb\_entry\_id|The id of the kb_entry that triggered this action.|FK [kb_entry](kb-entry.md)| |
 |user\_id|The id of the user that created this comment.|FK [ejuser](ejuser.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
 
 
 ![kb_entry_log table relationship diagram](./media/kb_entry_log.png)
-
-[!include[details](./includes/kb-entry-log.md)]
 
 ## Indexes
 

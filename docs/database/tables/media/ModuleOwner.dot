@@ -1,0 +1,11 @@
+digraph ModuleOwner  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ModuleOwner[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ModuleLicense[fillcolor = "azure1"]
+ModuleOwner -> associate [headlabel = "registered_associate_id"]
+ModuleOwner -> associate [label = "updated_associate_id"]
+ModuleLicense -> ModuleOwner [label = "ModuleOwner_id"]
+}

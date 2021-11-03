@@ -1,12 +1,12 @@
 ---
-uid: table-session-object
-title: session\_object table
+uid: table-session_object
+title: session_object table
 description: Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big
 so.generated: true
 keywords:
   - "database"
   - "session_object"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,8 +28,6 @@ so.envir:
 
 
 ![session_object table relationship diagram](./media/session_object.png)
-
-[!include[details](./includes/session-object.md)]
 
 ## Indexes
 

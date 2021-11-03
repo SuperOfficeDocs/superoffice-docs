@@ -1,27 +1,27 @@
 ---
-uid: table-paymenttermsgrouplink
-title: paymenttermsgrouplink table
+uid: table-PaymentTermsGroupLink
+title: PaymentTermsGroupLink table
 description: User group link table for PaymentTerms, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "PaymentTermsGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# paymenttermsgrouplink Table (428)
+# PaymentTermsGroupLink Table (428)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |paymenttermsgrouplink\_id|Primary key|PK| |
-|paymentterms\_id|Link to PaymentTerms list table|FK [paymentterms](paymentterms.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|paymentterms\_id|Link to PaymentTerms list table|FK [PaymentTerms](paymentterms.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![PaymentTermsGroupLink table relationship diagram](./media/PaymentTermsGroupLink.png)
-
-[!include[details](./includes/PaymentTermsGroupLink.md)]
 
 ## Indexes
 

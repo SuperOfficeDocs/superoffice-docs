@@ -1,27 +1,27 @@
 ---
-uid: table-subscriptionunitgrouplink
-title: subscriptionunitgrouplink table
+uid: table-SubscriptionUnitGroupLink
+title: SubscriptionUnitGroupLink table
 description: User group link table for SubscriptionUnit, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "SubscriptionUnitGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# subscriptionunitgrouplink Table (443)
+# SubscriptionUnitGroupLink Table (443)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |subscriptionunitgrouplink\_id|Primary key|PK| |
-|subscriptionunit\_id|Link to SubscriptionUnit list table|FK [subscriptionunit](subscriptionunit.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|subscriptionunit\_id|Link to SubscriptionUnit list table|FK [SubscriptionUnit](subscriptionunit.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SubscriptionUnitGroupLink table relationship diagram](./media/SubscriptionUnitGroupLink.png)
-
-[!include[details](./includes/SubscriptionUnitGroupLink.md)]
 
 ## Indexes
 

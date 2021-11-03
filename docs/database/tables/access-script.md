@@ -1,12 +1,12 @@
 ---
-uid: table-access-script
-title: access\_script table
+uid: table-access_script
+title: access_script table
 description: Scripts to implement row-based access rules (sentry light)
 so.generated: true
 keywords:
   - "database"
   - "access_script"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![access_script table relationship diagram](./media/access_script.png)
-
-[!include[details](./includes/access-script.md)]
 
 ## Indexes
 

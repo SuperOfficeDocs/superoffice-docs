@@ -1,19 +1,19 @@
 ---
-uid: table-publish
-title: publish table
+uid: table-Publish
+title: Publish table
 description: Publishing system for external users
 so.generated: true
 keywords:
   - "database"
   - "Publish"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# publish Table (200)
+# Publish Table (200)
 
 ## Fields
 
@@ -22,7 +22,7 @@ so.envir:
 |Publish\_id|Primary key|PK| |
 |tableNumber|Table number this record refers to|TableNumber| |
 |recordId|Record number that has been published|RecordId|&#x25CF;|
-|publishType|Type of publishing action, 0 = Unknown, 1 = to external persons|Enum [publishtype](enums/publishtype.md)|&#x25CF;|
+|publishType|Type of publishing action, 0 = Unknown, 1 = to external persons|Enum [PublishType](enums/publishtype.md)|&#x25CF;|
 |publishFrom|Publication valid from (inclusive)|DateTime|&#x25CF;|
 |publishTo|Publication valid to (inclusive)|DateTime|&#x25CF;|
 |eventDate|The date an event actually happens; you may want to have some special processing around that date|DateTime|&#x25CF;|
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![Publish table relationship diagram](./media/Publish.png)
-
-[!include[details](./includes/Publish.md)]
 
 ## Indexes
 

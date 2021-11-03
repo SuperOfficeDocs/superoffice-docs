@@ -1,12 +1,12 @@
 ---
-uid: table-kb-group-entry
-title: kb\_group\_entry table
+uid: table-kb_group_entry
+title: kb_group_entry table
 description: This table contains group entries for FAQ groups.
 so.generated: true
 keywords:
   - "database"
   - "kb_group_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|kb\_group\_id|The id of the group in which this entry is located.|FK [kb-group](kb-group.md)| |
-|kb\_entry\_id|The id of the kb_entry this entry references.|FK [kb-entry](kb-entry.md)| |
+|kb\_group\_id|The id of the group in which this entry is located.|FK [kb_group](kb-group.md)| |
+|kb\_entry\_id|The id of the kb_entry this entry references.|FK [kb_entry](kb-entry.md)| |
 |sort\_pos|A number (strictly ascending) indicating the sorted position for this element.|Int|&#x25CF;|
 
 
 ![kb_group_entry table relationship diagram](./media/kb_group_entry.png)
-
-[!include[details](./includes/kb-group-entry.md)]
 
 ## Indexes
 

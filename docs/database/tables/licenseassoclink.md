@@ -1,26 +1,26 @@
 ---
-uid: table-licenseassoclink
-title: licenseassoclink table
+uid: table-LicenseAssocLink
+title: LicenseAssocLink table
 description: Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed
 so.generated: true
 keywords:
   - "database"
   - "LicenseAssocLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# licenseassoclink Table (238)
+# LicenseAssocLink Table (238)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |LicenseAssocLink\_id|Primary key|PK| |
-|moduleLicenseId|The license being linked|FK [modulelicense](modulelicense.md)| |
+|moduleLicenseId|The license being linked|FK [ModuleLicense](modulelicense.md)| |
 |assocId|The associate who occupies one instance of this license|FK [associate](associate.md)| |
 |validFrom|Reserved field: Valid from date|DateTime| |
 |validTo|Reserved field: Valid to date|DateTime| |
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![LicenseAssocLink table relationship diagram](./media/LicenseAssocLink.png)
-
-[!include[details](./includes/LicenseAssocLink.md)]
 
 ## Indexes
 

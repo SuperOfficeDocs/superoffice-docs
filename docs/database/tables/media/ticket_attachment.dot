@@ -1,0 +1,10 @@
+digraph ticket_attachment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_attachment[fillcolor = "cadetblue1"]
+attachment[fillcolor = "azure1"]
+ej_message[fillcolor = "azure1"]
+ticket_attachment -> attachment [headlabel = "attachment_id"]
+ticket_attachment -> ej_message [headlabel = "message_id"]
+}

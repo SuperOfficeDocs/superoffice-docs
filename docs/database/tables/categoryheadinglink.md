@@ -1,27 +1,27 @@
 ---
-uid: table-categoryheadinglink
-title: categoryheadinglink table
+uid: table-CategoryHeadingLink
+title: CategoryHeadingLink table
 description: Heading link table for Category, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "CategoryHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# categoryheadinglink Table (66)
+# CategoryHeadingLink Table (66)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |categoryheadinglink\_id|Primary key|PK| |
-|category\_id|Link to Category list table|FK [category](category.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|category\_id|Link to Category list table|FK [Category](category.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![CategoryHeadingLink table relationship diagram](./media/CategoryHeadingLink.png)
-
-[!include[details](./includes/CategoryHeadingLink.md)]
 
 ## Indexes
 

@@ -1,0 +1,9 @@
+digraph profile  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+profile[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+profile -> ejuser [headlabel = "user_id"]
+ejuser -> profile [label = "profile_id"]
+}

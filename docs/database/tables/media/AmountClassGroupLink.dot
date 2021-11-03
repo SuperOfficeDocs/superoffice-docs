@@ -1,0 +1,13 @@
+digraph AmountClassGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+AmountClassGroupLink[fillcolor = "cadetblue1"]
+AmountClass[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+AmountClassGroupLink -> AmountClass [headlabel = "amountclass_id"]
+AmountClassGroupLink -> UserGroup [headlabel = "group_id"]
+AmountClassGroupLink -> associate [headlabel = "registered_associate_id"]
+AmountClassGroupLink -> associate [label = "updated_associate_id"]
+}

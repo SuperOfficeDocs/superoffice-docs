@@ -1,0 +1,16 @@
+digraph sms  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+sms[fillcolor = "cadetblue1"]
+outbox[fillcolor = "azure1"]
+s_shipment[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+ej_message[fillcolor = "azure1"]
+outgoing_message[fillcolor = "azure1"]
+sms -> outbox [headlabel = "outbox_id"]
+sms -> s_shipment [headlabel = "shipment_id"]
+sms -> person [headlabel = "customer_id"]
+sms -> ej_message [headlabel = "message_id"]
+sms -> outgoing_message [headlabel = "outgoing_message_id"]
+}

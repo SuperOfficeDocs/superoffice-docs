@@ -1,27 +1,27 @@
 ---
-uid: table-tagsheadinglink
-title: tagsheadinglink table
+uid: table-TagsHeadingLink
+title: TagsHeadingLink table
 description: Heading link table for Source, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "TagsHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# tagsheadinglink Table (461)
+# TagsHeadingLink Table (461)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |tagsheadinglink\_id|Primary key|PK| |
-|tags\_id|Link to Tags list table|FK [tags](tags.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|tags\_id|Link to Tags list table|FK [Tags](tags.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |

@@ -1,0 +1,16 @@
+digraph ej_role  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ej_role[fillcolor = "cadetblue1"]
+hierarchy[fillcolor = "azure1"]
+role_member[fillcolor = "azure1"]
+role_category[fillcolor = "azure1"]
+role_element[fillcolor = "azure1"]
+role_workflow[fillcolor = "azure1"]
+ej_role -> hierarchy [headlabel = "user_group"]
+role_member -> ej_role [label = "role"]
+role_category -> ej_role [label = "role"]
+role_element -> ej_role [label = "role"]
+role_workflow -> ej_role [label = "role"]
+}

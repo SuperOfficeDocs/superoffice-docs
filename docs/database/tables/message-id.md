@@ -1,12 +1,12 @@
 ---
-uid: table-message-id
-title: message\_id table
+uid: table-message_id
+title: message_id table
 description: This table links an email message id to an eJournal item
 so.generated: true
 keywords:
   - "database"
   - "message_id"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![message_id table relationship diagram](./media/message_id.png)
-
-[!include[details](./includes/message-id.md)]
 
 ## Indexes
 

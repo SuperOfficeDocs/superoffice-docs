@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "notify"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,16 +26,14 @@ so.envir:
 |owner\_id|The id of the user who is the original owner of this notification.|FK [ejuser](ejuser.md)| |
 |ticket\_id|The id of the ticket this notification message affects.|FK [ticket](ticket.md)| |
 |user2\_id|A second user involved in this notification|FK [ejuser](ejuser.md)|&#x25CF;|
-|category\_id|The category involed in this notification|FK [ej-category](ej-category.md)|&#x25CF;|
-|chat\_topic\_id|Chat topic involed in this notification|FK [chat-topic](chat-topic.md)|&#x25CF;|
+|category\_id|The category involed in this notification|FK [ej_category](ej-category.md)|&#x25CF;|
+|chat\_topic\_id|Chat topic involed in this notification|FK [chat_topic](chat-topic.md)|&#x25CF;|
 |chat\_nick\_name|Chat customer nick name in this notification|String(255)|&#x25CF;|
-|ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket-alert](ticket-alert.md)|&#x25CF;|
+|ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket-alert.md)|&#x25CF;|
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
 
 
 ![notify table relationship diagram](./media/notify.png)
-
-[!include[details](./includes/notify.md)]
 
 ## Indexes
 

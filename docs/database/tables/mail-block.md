@@ -1,12 +1,12 @@
 ---
-uid: table-mail-block
-title: mail\_block table
+uid: table-mail_block
+title: mail_block table
 description: This table controls the spam-protection system, ensuring that a single email recipient does not recieve too many emails during a certain period of time.
 so.generated: true
 keywords:
   - "database"
   - "mail_block"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![mail_block table relationship diagram](./media/mail_block.png)
-
-[!include[details](./includes/mail-block.md)]
 
 ## Indexes
 

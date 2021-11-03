@@ -1,26 +1,26 @@
 ---
-uid: table-tzstdrule
-title: tzstdrule table
+uid: table-TZStdRule
+title: TZStdRule table
 description: Time zone rule for standard time
 so.generated: true
 keywords:
   - "database"
   - "TZStdRule"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# tzstdrule Table (246)
+# TZStdRule Table (246)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |TZStdRule\_id|Primary key|PK| |
-|TZLocationId|Location that this rule is valid for - one location has at least one rule; multiple rules are discerned by their validFrom dates|FK [tzlocation](tzlocation.md)| |
+|TZLocationId|Location that this rule is valid for - one location has at least one rule; multiple rules are discerned by their validFrom dates|FK [TZLocation](tzlocation.md)| |
 |validFrom|Date this rule is valid from|DateTime| |
 |bias|number of minutes bias relative to UTC time|Short| |
 |description|Description, for identifying the rule in SoAdmin|String(2047)|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![TZStdRule table relationship diagram](./media/TZStdRule.png)
-
-[!include[details](./includes/TZStdRule.md)]
 
 ## Indexes
 

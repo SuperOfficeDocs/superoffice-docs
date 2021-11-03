@@ -1,0 +1,10 @@
+digraph chat_message  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+chat_message[fillcolor = "cadetblue1"]
+chat_session[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+chat_message -> chat_session [headlabel = "session_id"]
+chat_message -> ejuser [headlabel = "created_by"]
+}

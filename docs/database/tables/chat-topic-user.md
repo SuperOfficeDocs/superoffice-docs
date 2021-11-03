@@ -1,12 +1,12 @@
 ---
-uid: table-chat-topic-user
-title: chat\_topic\_user table
+uid: table-chat_topic_user
+title: chat_topic_user table
 description: This table connected the chat topics with the users (i.e. the membership).
 so.generated: true
 keywords:
   - "database"
   - "chat_topic_user"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |user\_id|The reference to the associated user|FK [ejuser](ejuser.md)| |
-|topic\_id|The reference to the associated chat topic.|FK [chat-topic](chat-topic.md)| |
+|topic\_id|The reference to the associated chat topic.|FK [chat_topic](chat-topic.md)| |
 |can\_respond|True if the user can respond to chats in this topic|Bool|&#x25CF;|
 |notifications|True if the user should receive notifications for this topic|Bool|&#x25CF;|
 |can\_listen|True of a user can listen in on this topic|Bool|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![chat_topic_user table relationship diagram](./media/chat_topic_user.png)
-
-[!include[details](./includes/chat-topic-user.md)]
 
 ## Indexes
 

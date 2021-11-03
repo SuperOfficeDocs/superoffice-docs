@@ -1,0 +1,11 @@
+digraph PrefDescLine  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PrefDescLine[fillcolor = "cadetblue1"]
+PrefDesc[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PrefDescLine -> PrefDesc [headlabel = "PrefDesc_id"]
+PrefDescLine -> associate [headlabel = "registered_associate_id"]
+PrefDescLine -> associate [label = "updated_associate_id"]
+}

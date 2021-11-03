@@ -1,26 +1,26 @@
 ---
-uid: table-basetzlocation
-title: basetzlocation table
+uid: table-BaseTZLocation
+title: BaseTZLocation table
 description: Time zone location for the database (how tz-related datetimes should be stored in the database)
 so.generated: true
 keywords:
   - "database"
   - "BaseTZLocation"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# basetzlocation Table (248)
+# BaseTZLocation Table (248)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |BaseTZLocation\_id|Primary key|PK| |
-|TZLocation\_id|Country that this timezone location is defined for|FK [tzlocation](tzlocation.md)| |
+|TZLocation\_id|Country that this timezone location is defined for|FK [TZLocation](tzlocation.md)| |
 |validFrom|When is this tzLocation valid from, as THE database timezonelocation|DateTime| |
 |databaseId|Actually travelcurrent.current_id, the id of the database this basetimezonelocation is meant for|Id| |
 |description|Descriptive text|String(254)| |
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![BaseTZLocation table relationship diagram](./media/BaseTZLocation.png)
-
-[!include[details](./includes/BaseTZLocation.md)]
 
 ## Indexes
 

@@ -1,26 +1,26 @@
 ---
-uid: table-script-trace-run
-title: script\_trace\_run table
+uid: table-script_trace_run
+title: script_trace_run table
 description: Traces of executed scripts
 so.generated: true
 keywords:
   - "database"
   - "script_trace_run"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# script\_trace\_run Table (469)
+# script\_trace\_run Table (470)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |script\_trace\_run\_id|Primary key|PK| |
-|script\_trace\_id|Id of parent script_trace record|FK [script-trace](script-trace.md)|&#x25CF;|
+|script\_trace\_id|Id of parent script_trace record|FK [script_trace](script-trace.md)|&#x25CF;|
 |started\_at|When the trace was started|DateTime|&#x25CF;|
 |ended\_at|When the trace was ended|DateTime|&#x25CF;|
 |execution\_time|Real seconds spent executing|Int|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![script_trace_run table relationship diagram](./media/script_trace_run.png)
-
-[!include[details](./includes/script-trace-run.md)]
 
 ## Indexes
 

@@ -1,0 +1,17 @@
+digraph form_submission  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+form_submission[fillcolor = "cadetblue1"]
+form[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+s_shipment_addr[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+form_submission -> form [headlabel = "form_id"]
+form_submission -> contact [headlabel = "contact_id"]
+form_submission -> person [headlabel = "person_id"]
+form_submission -> s_shipment_addr [headlabel = "response_shipment_addr_id"]
+ticket -> form_submission [label = "form_submission_id"]
+s_shipment_addr -> form_submission [label = "form_submission_id"]
+}

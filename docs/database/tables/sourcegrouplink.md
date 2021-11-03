@@ -1,27 +1,27 @@
 ---
-uid: table-sourcegrouplink
-title: sourcegrouplink table
+uid: table-SourceGroupLink
+title: SourceGroupLink table
 description: User group link table for Source, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "SourceGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sourcegrouplink Table (101)
+# SourceGroupLink Table (101)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |sourcegrouplink\_id|Primary key|PK| |
-|source\_id|Link to Source list table|FK [source](source.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|source\_id|Link to Source list table|FK [Source](source.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SourceGroupLink table relationship diagram](./media/SourceGroupLink.png)
-
-[!include[details](./includes/SourceGroupLink.md)]
 
 ## Indexes
 

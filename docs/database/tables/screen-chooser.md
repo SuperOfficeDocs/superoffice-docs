@@ -1,12 +1,12 @@
 ---
-uid: table-screen-chooser
-title: screen\_chooser table
+uid: table-screen_chooser
+title: screen_chooser table
 description: Screen choosers
 so.generated: true
 keywords:
   - "database"
   - "screen_chooser"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|screen\_type|Event id that triggers script.  See EventHandlerType enum.|screen-type|&#x25CF;|
+|screen\_type|Event id that triggers script.  See EventHandlerType enum.|screen_type|&#x25CF;|
 |screen\_target|What screen this is a chooser for|Int| |
 |ejscript|The CRMscript code for this event handler|Clob|&#x25CF;|
 |description|Optional description of what this script is used for.|String(2047)|&#x25CF;|
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![screen_chooser table relationship diagram](./media/screen_chooser.png)
-
-[!include[details](./includes/screen-chooser.md)]
 
 ## Indexes
 

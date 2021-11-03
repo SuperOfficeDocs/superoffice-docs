@@ -1,19 +1,19 @@
 ---
-uid: table-quotealternative
-title: quotealternative table
+uid: table-QuoteAlternative
+title: QuoteAlternative table
 description: Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.
 so.generated: true
 keywords:
   - "database"
   - "QuoteAlternative"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# quotealternative Table (47)
+# QuoteAlternative Table (47)
 
 ## Fields
 
@@ -21,16 +21,16 @@ so.envir:
 |------|-------------|------|:----:|
 |quotealternative\_id|Primary key|PK| |
 |ERPQuoteAlternativeKey|Key that identifies this alternative in the ERP system, if it exists there.|String(254)|&#x25CF;|
-|QuoteVersionId|The version that owns this alternative (the chain is Sale 1-&gt;1 Quote 1-&gt;+ QuoteVersion 1-&gt;+ QuoteAlternative.|FK [quoteversion](quoteversion.md)| |
+|QuoteVersionId|The version that owns this alternative (the chain is Sale 1-&gt;1 Quote 1-&gt;+ QuoteVersion 1-&gt;+ QuoteAlternative.|FK [QuoteVersion](quoteversion.md)| |
 |Name|Name of Alternative. Shown in tab in user interface, intentionally kept short|String(59)|&#x25CF;|
 |Description|The tool-tip to use in the user interface (on the tab, for instance).|String(2047)|&#x25CF;|
-|Status|If there was a problem with for instance calculation, this field is set to warning or error.|Enum [quotestatus](enums/quotestatus.md)|&#x25CF;|
+|Status|If there was a problem with for instance calculation, this field is set to warning or error.|Enum [QuoteStatus](enums/quotestatus.md)|&#x25CF;|
 |Reason|If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.|String(2047)|&#x25CF;|
 |ERPDiscountPercent|The discount the system calculates based on customer /amount / whatever. Can be overridden by the sales rep in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.|Double|&#x25CF;|
 |ERPDiscountAmount|The discount the system calculates based on customer /amount / whatever. Can be overridden by the user in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.|Double|&#x25CF;|
 |DiscountPercent|The discount the sales rep specifies, in percent. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.|Double|&#x25CF;|
 |DiscountAmount|The discount the sales rep specifies, in whatever currency the sale is in. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.|Double|&#x25CF;|
-|UserValueOverride|Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)|Enum [valueoverride](enums/valueoverride.md)|&#x25CF;|
+|UserValueOverride|Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)|Enum [ValueOverride](enums/valueoverride.md)|&#x25CF;|
 |VATInfo|Extra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.|String(254)|&#x25CF;|
 |VAT|Tax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. The SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.|Double|&#x25CF;|
 |EarningPercent|The earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.|Double|&#x25CF;|
@@ -49,8 +49,6 @@ so.envir:
 
 
 ![QuoteAlternative table relationship diagram](./media/QuoteAlternative.png)
-
-[!include[details](./includes/QuoteAlternative.md)]
 
 ## Indexes
 

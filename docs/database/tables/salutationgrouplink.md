@@ -1,27 +1,27 @@
 ---
-uid: table-salutationgrouplink
-title: salutationgrouplink table
+uid: table-SalutationGroupLink
+title: SalutationGroupLink table
 description: User group link table for Salutation, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "SalutationGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# salutationgrouplink Table (220)
+# SalutationGroupLink Table (220)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |salutationgrouplink\_id|Primary key|PK| |
-|salutation\_id|Link to Salutation list table|FK [salutation](salutation.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|salutation\_id|Link to Salutation list table|FK [Salutation](salutation.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SalutationGroupLink table relationship diagram](./media/SalutationGroupLink.png)
-
-[!include[details](./includes/SalutationGroupLink.md)]
 
 ## Indexes
 

@@ -1,31 +1,31 @@
 ---
-uid: table-searchcriterion
-title: searchcriterion table
+uid: table-SearchCriterion
+title: SearchCriterion table
 description: Criteria storage for Selection and other Find mechanisms
 so.generated: true
 keywords:
   - "database"
   - "SearchCriterion"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# searchcriterion Table (203)
+# SearchCriterion Table (203)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SearchCriterion\_id|Primary key|PK| |
-|SearchCriteriaGroup\_id|Owning group|FK [searchcriteriagroup](searchcriteriagroup.md)| |
+|SearchCriteriaGroup\_id|Owning group|FK [SearchCriteriaGroup](searchcriteriagroup.md)| |
 |criterionId|Usually DbFieldId of field to be searched|FieldId| |
 |extraId|Extra info, forms part of the internal unique identification of the criterion|Id|&#x25CF;|
 |udefIdentity|Extra info for searching udef fields, to keep track of actual field across layout changes|Id|&#x25CF;|
-|operatorId|Operator ID|Enum [criterionoperator](enums/criterionoperator.md)| |
-|linkType|Link type, AND or OR|Enum [criterionlinktype](enums/criterionlinktype.md)| |
+|operatorId|Operator ID|Enum [CriterionOperator](enums/criterionoperator.md)| |
+|linkType|Link type, AND or OR|Enum [CriterionLinkType](enums/criterionlinktype.md)| |
 |active|Should this criterion be executed|UShort| |
 |rank|Ordering within this group|UShort| |
 |registered|Registered when|UtcDateTime| |
@@ -40,8 +40,6 @@ so.envir:
 
 
 ![SearchCriterion table relationship diagram](./media/SearchCriterion.png)
-
-[!include[details](./includes/SearchCriterion.md)]
 
 ## Indexes
 

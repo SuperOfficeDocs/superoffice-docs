@@ -1,22 +1,22 @@
 ---
-uid: table-amountclass
-title: amountclass table
-description: Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com 
+uid: table-AmountClass
+title: AmountClass table
+description: Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "AmountClass"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# amountclass Table (225)
+# AmountClass Table (225)
 
-amountclass MDO list item table.
-Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com 
+AmountClass MDO list item table.
+Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 
 ## Fields
 
@@ -29,7 +29,7 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
 |amountFrom|Lower limit of this amount class|Double|&#x25CF;|
 |amountTo|Upper limit of this amount class|Double|&#x25CF;|
-|currencyId|Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.|FK [currency](currency.md)|&#x25CF;|
+|currencyId|Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.|FK [Currency](currency.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -38,8 +38,6 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 
 
 ![AmountClass table relationship diagram](./media/AmountClass.png)
-
-[!include[details](./includes/AmountClass.md)]
 
 ## Indexes
 

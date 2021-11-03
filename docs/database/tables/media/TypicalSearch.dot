@@ -1,0 +1,9 @@
+digraph TypicalSearch  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TypicalSearch[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+TypicalSearch -> associate [headlabel = "registered_associate_id"]
+TypicalSearch -> associate [label = "updated_associate_id"]
+}

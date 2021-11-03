@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,7 +27,7 @@ so.envir:
 |body|The script|Clob|&#x25CF;|
 |html\_output|True if this script will return HTML output|Bool| |
 |long\_description|Optional description of what this script is used for.|String(2047)|&#x25CF;|
-|extra\_menus\_id|Optional id of related extra menu pointing to this script|FK [extra-menus](extra-menus.md)|&#x25CF;|
+|extra\_menus\_id|Optional id of related extra menu pointing to this script|FK [extra_menus](extra-menus.md)|&#x25CF;|
 |unique\_identifier|Global unique identifier, accross customers/tenants|String(64)| |
 |registered|Registered when|UtcDateTime|&#x25CF;|
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)|&#x25CF;|
@@ -37,8 +37,6 @@ so.envir:
 
 
 ![ejscript table relationship diagram](./media/ejscript.png)
-
-[!include[details](./includes/ejscript.md)]
 
 ## Indexes
 

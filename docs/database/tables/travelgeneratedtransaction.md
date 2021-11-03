@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "travelgeneratedtransaction"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![travelgeneratedtransaction table relationship diagram](./media/travelgeneratedtransaction.png)
-
-[!include[details](./includes/travelgeneratedtransaction.md)]
 
 ## Indexes
 

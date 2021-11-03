@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "project"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,22 +22,22 @@ so.envir:
 |project\_id|Primary key|PK| |
 |name|Project name|String(219)|&#x25CF;|
 |project\_number|Automatically generated number|String(49)|&#x25CF;|
-|type\_idx|Link to ProjType list|FK [projtype](projtype.md)| |
-|status\_idx|Link to ProjStatus list|FK [projstatus](projstatus.md)|&#x25CF;|
+|type\_idx|Link to ProjType list|FK [ProjType](projtype.md)| |
+|status\_idx|Link to ProjStatus list|FK [ProjStatus](projstatus.md)|&#x25CF;|
 |associate\_id|Project manager/owner|FK [associate](associate.md)| |
 |text\_id|Description field|FK [text](text.md)|&#x25CF;|
 |registered|Registered date|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated date|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
-|userdef\_id|Pointer to userdef small table|FK [udprojectsmall](udprojectsmall.md)|&#x25CF;|
+|userdef\_id|Pointer to userdef small table|FK [udprojectSmall](udprojectsmall.md)|&#x25CF;|
 |soundEx|What the name sounds like, for duplicate detection|String(9)|&#x25CF;|
 |source|How did we get this project? For future integration needs|UShort|&#x25CF;|
-|userdef2\_id|User defined table record 2|FK [udprojectlarge](udprojectlarge.md)|&#x25CF;|
+|userdef2\_id|User defined table record 2|FK [udprojectLarge](udprojectlarge.md)|&#x25CF;|
 |postitText\_id|Paperclip text|FK [text](text.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
-|group\_id|Group id of original owning associate, semantics like appnt.grp_id|FK [usergroup](usergroup.md)|&#x25CF;|
-|tzLocationId|Default timezone location for this project|FK [tzlocation](tzlocation.md)|&#x25CF;|
+|group\_id|Group id of original owning associate, semantics like appnt.grp_id|FK [UserGroup](usergroup.md)|&#x25CF;|
+|tzLocationId|Default timezone location for this project|FK [TZLocation](tzlocation.md)|&#x25CF;|
 |activeLinks|Number of active links to documents, other appointments, and such|UInt|&#x25CF;|
 |done|Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated|Bool|&#x25CF;|
 |endDate|Planned end date for project, inhertied from type and later editable|DateTime|&#x25CF;|
@@ -47,8 +47,6 @@ so.envir:
 
 
 ![project table relationship diagram](./media/project.png)
-
-[!include[details](./includes/project.md)]
 
 ## Indexes
 

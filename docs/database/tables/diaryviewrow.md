@@ -1,26 +1,26 @@
 ---
-uid: table-diaryviewrow
-title: diaryviewrow table
+uid: table-DiaryViewRow
+title: DiaryViewRow table
 description: Configuration of a multi-user diary view
 so.generated: true
 keywords:
   - "database"
   - "DiaryViewRow"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# diaryviewrow Table (215)
+# DiaryViewRow Table (215)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |DiaryViewRow\_id|Primary key|PK| |
-|diaryViewId|Owning view|FK [diaryview](diaryview.md)| |
+|diaryViewId|Owning view|FK [DiaryView](diaryview.md)| |
 |assoc\_id|Associate to be displayed|FK [associate](associate.md)| |
 |rank|Sorting rank|UShort| |
 |registered|Registered when|UtcDateTime| |
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![DiaryViewRow table relationship diagram](./media/DiaryViewRow.png)
-
-[!include[details](./includes/DiaryViewRow.md)]
 
 ## Indexes
 

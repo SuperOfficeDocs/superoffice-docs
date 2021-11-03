@@ -1,28 +1,28 @@
 ---
-uid: table-message
-title: message table
+uid: table-Message
+title: Message table
 description: Definition of a message, corresponding to the header of a protocol
 so.generated: true
 keywords:
   - "database"
   - "Message"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# message Table (242)
+# Message Table (242)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |Message\_id|Primary key|PK| |
-|sourceHandler|Originating message handler|FK [messagehandler](messagehandler.md)| |
-|targetHandler|Target message handler|FK [messagehandler](messagehandler.md)| |
-|motherId|ID of message that this message is correlated to; 0 if this is the first message of a conversation|FK [message](message.md)|&#x25CF;|
+|sourceHandler|Originating message handler|FK [MessageHandler](messagehandler.md)| |
+|targetHandler|Target message handler|FK [MessageHandler](messagehandler.md)| |
+|motherId|ID of message that this message is correlated to; 0 if this is the first message of a conversation|FK [Message](message.md)|&#x25CF;|
 |messageType|Application-specific message type|UInt| |
 |detailsTable|Table containing message body (BatchTask, or some thing else)|TableNumber| |
 |detailsRecord|Record containing message body|RecordId| |
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![Message table relationship diagram](./media/Message.png)
-
-[!include[details](./includes/Message.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-cust-lang
-title: cust\_lang table
+uid: table-cust_lang
+title: cust_lang table
 description: This table contains entries for customer languages.
 so.generated: true
 keywords:
   - "database"
   - "cust_lang"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,14 +26,12 @@ so.envir:
 |web\_domains|The domains from where the user should originate (when surfing) in order to trigger this language. Commaseparated list.|String(255)|&#x25CF;|
 |email\_domains|Commaseparated list of toplevel domains from where an email should originate in order to trigger this language.|String(255)|&#x25CF;|
 |email\_header|The email header line for this language (&amp;apos;Please keep the subject in any replies...&amp;apos;).|String(255)|&#x25CF;|
-|kb\_root|The reference to the FAQ category which is the root category for this language (for separating the FAQ per language).|FK [kb-category](kb-category.md)|&#x25CF;|
+|kb\_root|The reference to the FAQ category which is the root category for this language (for separating the FAQ per language).|FK [kb_category](kb-category.md)|&#x25CF;|
 |is\_default|Bool indicating whether this language is the default (fallback) language.|Bool|&#x25CF;|
 |iso\_code|A two letter iso code for this customer language|String(63)|&#x25CF;|
 
 
 ![cust_lang table relationship diagram](./media/cust_lang.png)
-
-[!include[details](./includes/cust-lang.md)]
 
 ## Indexes
 

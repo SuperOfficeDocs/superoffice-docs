@@ -1,0 +1,11 @@
+digraph UserGroup  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UserGroup[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UserGroup -> associate [headlabel = "registered_associate_id"]
+UserGroup -> associate [label = "updated_associate_id"]
+dashboard -> UserGroup [label = "visible_for_groups" style="dashed"]
+dashboard -> UserGroup [label = "pin_for_groups" style="dashed"]
+}

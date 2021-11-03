@@ -1,0 +1,17 @@
+digraph ProjStatus  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProjStatus[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+ProjStatusGroupLink[fillcolor = "azure1"]
+ProjStatusHeadingLink[fillcolor = "azure1"]
+ProjectTypeStatusLink[fillcolor = "azure1"]
+ProjStatus -> associate [headlabel = "registered_associate_id"]
+ProjStatus -> associate [label = "updated_associate_id"]
+project -> ProjStatus [label = "status_idx"]
+ProjStatusGroupLink -> ProjStatus [label = "projstatus_id"]
+ProjStatusHeadingLink -> ProjStatus [label = "projstatus_id"]
+ProjectTypeStatusLink -> ProjStatus [label = "projStatus_id"]
+}

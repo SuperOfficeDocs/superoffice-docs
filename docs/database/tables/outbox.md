@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "outbox"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |ticket\_id|The ticket.id this reference is connected to.|FK [ticket](ticket.md)|&#x25CF;|
-|message\_id|The message.id this reference is connected to.|FK [ej-message](ej-message.md)|&#x25CF;|
+|message\_id|The message.id this reference is connected to.|FK [ej_message](ej-message.md)|&#x25CF;|
 |subject|Subject of the mail|String(255)| |
 |from\_email|Mail address of the sender|String(255)| |
 |from\_envelope|Envelope (smtp) Mail address of the sender|String(255)| |
@@ -38,8 +38,6 @@ so.envir:
 
 
 ![outbox table relationship diagram](./media/outbox.png)
-
-[!include[details](./includes/outbox.md)]
 
 ## Indexes
 

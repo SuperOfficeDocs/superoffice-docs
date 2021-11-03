@@ -1,19 +1,19 @@
 ---
-uid: table-phoneformat
-title: phoneformat table
+uid: table-PhoneFormat
+title: PhoneFormat table
 description: Formatting information for telephone numbers
 so.generated: true
 keywords:
   - "database"
   - "PhoneFormat"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# phoneformat Table (251)
+# PhoneFormat Table (251)
 
 ## Fields
 
@@ -37,8 +37,6 @@ so.envir:
 
 
 ![PhoneFormat table relationship diagram](./media/PhoneFormat.png)
-
-[!include[details](./includes/PhoneFormat.md)]
 
 ## Indexes
 

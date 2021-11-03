@@ -1,27 +1,27 @@
 ---
-uid: table-probgrouplink
-title: probgrouplink table
+uid: table-ProbGroupLink
+title: ProbGroupLink table
 description: User group link table for Prob, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "ProbGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# probgrouplink Table (83)
+# ProbGroupLink Table (83)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |probgrouplink\_id|Primary key|PK| |
-|prob\_id|Link to Prob list table|FK [prob](prob.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|prob\_id|Link to Prob list table|FK [Prob](prob.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ProbGroupLink table relationship diagram](./media/ProbGroupLink.png)
-
-[!include[details](./includes/ProbGroupLink.md)]
 
 ## Indexes
 

@@ -1,0 +1,21 @@
+digraph ErpConnection  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpConnection[fillcolor = "cadetblue1"]
+ErpConnector[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+QuoteConnection[fillcolor = "azure1"]
+ErpConnectionActorType[fillcolor = "azure1"]
+ErpConnectionAccess[fillcolor = "azure1"]
+ConnectionConfigField[fillcolor = "azure1"]
+ErpExternalKey[fillcolor = "azure1"]
+ErpConnection -> ErpConnector [headlabel = "ErpConnectorId"]
+ErpConnection -> associate [headlabel = "registered_associate_id"]
+ErpConnection -> associate [label = "updated_associate_id"]
+QuoteConnection -> ErpConnection [label = "ErpConnectionId"]
+ErpConnectionActorType -> ErpConnection [label = "ErpConnectionId"]
+ErpConnectionAccess -> ErpConnection [label = "ErpConnectionId"]
+ConnectionConfigField -> ErpConnection [label = "ErpConnectionId"]
+ErpExternalKey -> ErpConnection [label = "ErpConnectionId"]
+}

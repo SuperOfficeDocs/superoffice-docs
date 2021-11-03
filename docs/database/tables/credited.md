@@ -1,21 +1,21 @@
 ---
-uid: table-credited
-title: credited table
+uid: table-Credited
+title: Credited table
 description: Credited list table. List of who is to be credited for the sale.
 so.generated: true
 keywords:
   - "database"
   - "Credited"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# credited Table (97)
+# Credited Table (97)
 
-credited MDO list item table.
+Credited MDO list item table.
 Credited list table. List of who is to be credited for the sale.
 
 ## Fields
@@ -35,8 +35,6 @@ Credited list table. List of who is to be credited for the sale.
 
 
 ![Credited table relationship diagram](./media/Credited.png)
-
-[!include[details](./includes/Credited.md)]
 
 ## Indexes
 

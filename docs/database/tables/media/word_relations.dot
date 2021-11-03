@@ -1,0 +1,10 @@
+digraph word_relations  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+word_relations[fillcolor = "cadetblue1"]
+kb_entry_words[fillcolor = "azure1"]
+kb_entry[fillcolor = "azure1"]
+word_relations -> kb_entry_words [headlabel = "entry_word_id"]
+word_relations -> kb_entry [headlabel = "entry_id"]
+}

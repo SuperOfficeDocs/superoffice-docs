@@ -1,12 +1,12 @@
 ---
-uid: table-ms-trashbin
-title: ms\_trashbin table
+uid: table-ms_trashbin
+title: ms_trashbin table
 description: This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import.
 so.generated: true
 keywords:
   - "database"
   - "ms_trashbin"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,15 +20,13 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|mail\_sorter\_id|The id of the filter which sent this email to the trashbin.|FK [ms-filter](ms-filter.md)| |
-|mail\_in\_filter\_id|The id of the mailbox from which this email came.|FK [mail-in-filter](mail-in-filter.md)| |
+|mail\_sorter\_id|The id of the filter which sent this email to the trashbin.|FK [ms_filter](ms-filter.md)| |
+|mail\_in\_filter\_id|The id of the mailbox from which this email came.|FK [mail_in_filter](mail-in-filter.md)| |
 |when\_trashed|When the email was trashed by the filter.|DateTime|&#x25CF;|
 |subject|The subject field of the trashed email|String(255)|&#x25CF;|
 
 
 ![ms_trashbin table relationship diagram](./media/ms_trashbin.png)
-
-[!include[details](./includes/ms-trashbin.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-login-customer
-title: login\_customer table
+uid: table-login_customer
+title: login_customer table
 description: This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins
 so.generated: true
 keywords:
   - "database"
   - "login_customer"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![login_customer table relationship diagram](./media/login_customer.png)
-
-[!include[details](./includes/login-customer.md)]
 
 ## Indexes
 

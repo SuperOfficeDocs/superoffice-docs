@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "document"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |document\_id|Primary key|PK| |
-|application\_id|Application this document was made with|FK [extapp](extapp.md)| |
+|application\_id|Application this document was made with|FK [ExtApp](extapp.md)| |
 |name|File name|String(511)| |
 |header|Visible document name|String(219)|&#x25CF;|
 |our\_ref|Our reference, searchable field from freetext search|String(99)|&#x25CF;|
@@ -39,11 +39,10 @@ so.envir:
 |userdef\_id|User-defined fields|FK [uddocsmall](uddocsmall.md)|&#x25CF;|
 |userdef2\_id|User-defined fields|FK [uddoclarge](uddoclarge.md)|&#x25CF;|
 |snum|The sequence number allocated from refcount on used template when creating the document|Int|&#x25CF;|
+|ExtUrl|For DocPlugin-internal use only. Used to optionally cache URL of external documents.|String(1023)|&#x25CF;|
 
 
 ![document table relationship diagram](./media/document.png)
-
-[!include[details](./includes/document.md)]
 
 ## Indexes
 

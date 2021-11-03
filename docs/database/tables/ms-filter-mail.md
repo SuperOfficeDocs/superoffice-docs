@@ -1,12 +1,12 @@
 ---
-uid: table-ms-filter-mail
-title: ms\_filter\_mail table
+uid: table-ms_filter_mail
+title: ms_filter_mail table
 description: This table connects mail filters (ms_filter) to mailboxes (mail_in_filter).
 so.generated: true
 keywords:
   - "database"
   - "ms_filter_mail"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,13 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|mail\_sorter\_id|The reference to the mail filter entry.|FK [ms-filter](ms-filter.md)| |
-|mail\_in\_filter\_id|The reference to the mailbox.|FK [mail-in-filter](mail-in-filter.md)| |
+|mail\_sorter\_id|The reference to the mail filter entry.|FK [ms_filter](ms-filter.md)| |
+|mail\_in\_filter\_id|The reference to the mailbox.|FK [mail_in_filter](mail-in-filter.md)| |
 
 
 ![ms_filter_mail table relationship diagram](./media/ms_filter_mail.png)
-
-[!include[details](./includes/ms-filter-mail.md)]
 
 ## Indexes
 

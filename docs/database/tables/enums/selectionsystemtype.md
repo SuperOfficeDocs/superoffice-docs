@@ -5,7 +5,7 @@ description: Lists the enum values for SelectionSystemType.
 so.generated: true
 keywords:
   - "database"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,6 +21,9 @@ Selection system type - defines if this selection is one that is managed by the 
 |User|0|User selection, managed by users|
 |TemporaryShortTermStatic|1|Temporary static selection, one per user, for short-term operations|
 |PersonalForFind|2|Personal dynamic, for the Find mode in the selection panel|
+|DashboardTileSelection|3|Selecton is associated with a dashboard tile|
+|PersonalForDashboard|4|Personal dynamic, for dashboard tiles|
+|PersonalForDashboardSecondary|5|Personal dynamic secondary, for dashboard tiles|
 
 ## Usage
 

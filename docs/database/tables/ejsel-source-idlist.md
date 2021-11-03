@@ -1,12 +1,12 @@
 ---
-uid: table-ejsel-source-idlist
-title: ejsel\_source\_idlist table
+uid: table-ejsel_source_idlist
+title: ejsel_source_idlist table
 description: This table stores id list source for selections
 so.generated: true
 keywords:
   - "database"
   - "ejsel_source_idlist"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,8 +24,6 @@ so.envir:
 
 
 ![ejsel_source_idlist table relationship diagram](./media/ejsel_source_idlist.png)
-
-[!include[details](./includes/ejsel-source-idlist.md)]
 
 ## Indexes
 

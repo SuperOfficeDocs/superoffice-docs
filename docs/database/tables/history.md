@@ -1,19 +1,19 @@
 ---
-uid: table-history
-title: history table
+uid: table-History
+title: History table
 description: History lists for lists and searchable controls. Maintains history for Navigator or other search (find dialogs). A single table may have more than one record here, as indicated by the extra_id field. The HistorySize (preference may be set in maintenance client) defines how many records you can have in a history list.
 so.generated: true
 keywords:
   - "database"
   - "History"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# history Table (53)
+# History Table (53)
 
 ## Fields
 
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![History table relationship diagram](./media/History.png)
-
-[!include[details](./includes/History.md)]
 
 ## Indexes
 

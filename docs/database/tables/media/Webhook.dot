@@ -1,0 +1,9 @@
+digraph Webhook  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Webhook[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+Webhook -> associate [headlabel = "registered_associate_id"]
+Webhook -> associate [label = "updated_associate_id"]
+}

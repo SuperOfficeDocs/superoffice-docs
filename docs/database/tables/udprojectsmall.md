@@ -1,19 +1,19 @@
 ---
-uid: table-udprojectsmall
-title: udprojectsmall table
+uid: table-udprojectSmall
+title: udprojectSmall table
 description: User-defined fields
 so.generated: true
 keywords:
   - "database"
   - "udprojectSmall"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udprojectsmall Table (142)
+# udprojectSmall Table (142)
 
 ## Fields
 
@@ -133,8 +133,6 @@ so.envir:
 
 
 ![udprojectSmall table relationship diagram](./media/udprojectSmall.png)
-
-[!include[details](./includes/udprojectSmall.md)]
 
 ## Indexes
 

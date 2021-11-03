@@ -1,0 +1,13 @@
+digraph SaleTypeCatGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SaleTypeCatGroupLink[fillcolor = "cadetblue1"]
+SaleTypeCat[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SaleTypeCatGroupLink -> SaleTypeCat [headlabel = "saletypecat_id"]
+SaleTypeCatGroupLink -> UserGroup [headlabel = "group_id"]
+SaleTypeCatGroupLink -> associate [headlabel = "registered_associate_id"]
+SaleTypeCatGroupLink -> associate [label = "updated_associate_id"]
+}

@@ -1,27 +1,27 @@
 ---
-uid: table-categorygrouplink
-title: categorygrouplink table
+uid: table-CategoryGroupLink
+title: CategoryGroupLink table
 description: User group link table for Category, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "CategoryGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# categorygrouplink Table (65)
+# CategoryGroupLink Table (65)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |categorygrouplink\_id|Primary key|PK| |
-|category\_id|Link to Category list table|FK [category](category.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|category\_id|Link to Category list table|FK [Category](category.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![CategoryGroupLink table relationship diagram](./media/CategoryGroupLink.png)
-
-[!include[details](./includes/CategoryGroupLink.md)]
 
 ## Indexes
 

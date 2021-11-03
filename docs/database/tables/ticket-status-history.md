@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-status-history
-title: ticket\_status\_history table
+uid: table-ticket_status_history
+title: ticket_status_history table
 description: This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved 
 so.generated: true
 keywords:
   - "database"
   - "ticket_status_history"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |ticket\_id|Reference to a ticket|FK [ticket](ticket.md)| |
-|ticket\_status|User defined ticket status|FK [ticket-status](ticket-status.md)| |
+|ticket\_status|User defined ticket status|FK [ticket_status](ticket-status.md)| |
 |timespan|The time (seconds) the ticket was in that status. Calculated based on priority&amp;apos;s timeframe.|Int|&#x25CF;|
 |real\_timespan|The time (seconds) the ticket was in that status. Not calculated based on priority&amp;apos;s timeframe.|Int|&#x25CF;|
 |from\_datetime||DateTime|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![ticket_status_history table relationship diagram](./media/ticket_status_history.png)
-
-[!include[details](./includes/ticket-status-history.md)]
 
 ## Indexes
 

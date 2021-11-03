@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "relations"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,7 +27,7 @@ so.envir:
 |destination\_record|Actual target record|RecordId| |
 |relcomment|Comment for relation|String(254)|&#x25CF;|
 |reversed|Is direction reversed relative to definition|UShort|&#x25CF;|
-|group\_idx|User group owning this relation|FK [usergroup](usergroup.md)|&#x25CF;|
+|group\_idx|User group owning this relation|FK [UserGroup](usergroup.md)|&#x25CF;|
 |startDate|Start date of validity|DateTime|&#x25CF;|
 |endDate|End date of validity|DateTime|&#x25CF;|
 |relFlags|Relation flags, meaning as yet unspecified|UInt|&#x25CF;|
@@ -40,8 +40,6 @@ so.envir:
 
 
 ![relations table relationship diagram](./media/relations.png)
-
-[!include[details](./includes/relations.md)]
 
 ## Indexes
 

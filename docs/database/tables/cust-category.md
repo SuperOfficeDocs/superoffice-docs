@@ -1,12 +1,12 @@
 ---
-uid: table-cust-category
-title: cust\_category table
+uid: table-cust_category
+title: cust_category table
 description: This table contains entries for categories exposed through a customer language.
 so.generated: true
 keywords:
   - "database"
   - "cust_category"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,15 +21,13 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |name|The external name for this category.|String(255)|&#x25CF;|
-|language\_id|The reference to the associated customer language.|FK [cust-lang](cust-lang.md)|&#x25CF;|
-|category\_id|The reference to the associated category.|FK [ej-category](ej-category.md)|&#x25CF;|
-|parent\_id|The parent category for this cust_category. -1 if this is a toplevel cust_category.|FK [cust-category](cust-category.md)|&#x25CF;|
+|language\_id|The reference to the associated customer language.|FK [cust_lang](cust-lang.md)|&#x25CF;|
+|category\_id|The reference to the associated category.|FK [ej_category](ej-category.md)|&#x25CF;|
+|parent\_id|The parent category for this cust_category. -1 if this is a toplevel cust_category.|FK [cust_category](cust-category.md)|&#x25CF;|
 |fullname|The fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.|String(255)|&#x25CF;|
 
 
 ![cust_category table relationship diagram](./media/cust_category.png)
-
-[!include[details](./includes/cust-category.md)]
 
 ## Indexes
 

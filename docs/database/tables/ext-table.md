@@ -1,12 +1,12 @@
 ---
-uid: table-ext-table
-title: ext\_table table
+uid: table-ext_table
+title: ext_table table
 description: This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration.
 so.generated: true
 keywords:
   - "database"
   - "ext_table"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,9 +20,9 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|ext\_datasource|The reference to the associated datasource.|FK [ext-datasource](ext-datasource.md)|&#x25CF;|
-|parent\_table|The reference to the parent table.|FK [ext-table](ext-table.md)|&#x25CF;|
-|child\_table|The reference to the child table.|FK [ext-table](ext-table.md)|&#x25CF;|
+|ext\_datasource|The reference to the associated datasource.|FK [ext_datasource](ext-datasource.md)|&#x25CF;|
+|parent\_table|The reference to the parent table.|FK [ext_table](ext-table.md)|&#x25CF;|
+|child\_table|The reference to the child table.|FK [ext_table](ext-table.md)|&#x25CF;|
 |name|The name for this field|String(64)|&#x25CF;|
 |target|Enum indicating the target table (customer or cust_company).|Int|&#x25CF;|
 |priority|TODO: depreciated?|Int|&#x25CF;|
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![ext_table table relationship diagram](./media/ext_table.png)
-
-[!include[details](./includes/ext-table.md)]
 
 ## Indexes
 

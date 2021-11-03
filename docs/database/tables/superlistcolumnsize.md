@@ -1,19 +1,19 @@
 ---
-uid: table-superlistcolumnsize
-title: superlistcolumnsize table
+uid: table-SuperListColumnSize
+title: SuperListColumnSize table
 description: Stores the relative size (in percent) or in characters of a column in a SuperList
 so.generated: true
 keywords:
   - "database"
   - "SuperListColumnSize"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# superlistcolumnsize Table (209)
+# SuperListColumnSize Table (209)
 
 ## Fields
 
@@ -35,13 +35,11 @@ so.envir:
 |orderByDirection|Direction, 1 = ascending, 2 = descending; 0 = not an orderby column|UShort|&#x25CF;|
 |ownerTable|Optional owner table, if layout is bound to an owner (Selection, ...)|TableNumber|&#x25CF;|
 |ownerRecord|Optional owner record id, if layout is bound to an owner|RecordId|&#x25CF;|
-|group\_id|Optional group id, if layout is bound to a group|FK [usergroup](usergroup.md)|&#x25CF;|
+|group\_id|Optional group id, if layout is bound to a group|FK [UserGroup](usergroup.md)|&#x25CF;|
 |configurationName|Name to show in dropdowns/menus so this configuration can be selected|String(255)|&#x25CF;|
 
 
 ![SuperListColumnSize table relationship diagram](./media/SuperListColumnSize.png)
-
-[!include[details](./includes/SuperListColumnSize.md)]
 
 ## Indexes
 

@@ -1,19 +1,19 @@
 ---
-uid: table-heading
-title: heading table
+uid: table-Heading
+title: Heading table
 description: Heading items for all MDO lists, lists that are grouped and filtered.
 so.generated: true
 keywords:
   - "database"
   - "Heading"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# heading Table (58)
+# Heading Table (58)
 
 ## Fields
 
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![Heading table relationship diagram](./media/Heading.png)
-
-[!include[details](./includes/Heading.md)]
 
 ## Indexes
 

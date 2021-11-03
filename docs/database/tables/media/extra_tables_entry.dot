@@ -1,0 +1,8 @@
+digraph extra_tables_entry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+extra_tables_entry[fillcolor = "cadetblue1"]
+extra_tables_result[fillcolor = "azure1"]
+extra_tables_entry -> extra_tables_result [headlabel = "extra_tables_result"]
+}

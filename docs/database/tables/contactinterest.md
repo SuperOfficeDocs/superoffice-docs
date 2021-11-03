@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "contactinterest"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |contactinterest\_id|Primary key|PK| |
 |contact\_id|Owning contact|FK [contact](contact.md)| |
-|cinterest\_idx|Contact interest link|FK [contint](contint.md)| |
+|cinterest\_idx|Contact interest link|FK [ContInt](contint.md)| |
 |startDate|Start date for this interest - no GUI|DateTime|&#x25CF;|
 |endDate|End date for this interest - no GUI|DateTime|&#x25CF;|
 |flags|Spare flag field|UInt|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![contactinterest table relationship diagram](./media/contactinterest.png)
-
-[!include[details](./includes/contactinterest.md)]
 
 ## Indexes
 

@@ -1,0 +1,13 @@
+digraph PersPosHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PersPosHeadingLink[fillcolor = "cadetblue1"]
+PersPos[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PersPosHeadingLink -> PersPos [headlabel = "perspos_id"]
+PersPosHeadingLink -> Heading [headlabel = "heading_id"]
+PersPosHeadingLink -> associate [headlabel = "registered_associate_id"]
+PersPosHeadingLink -> associate [label = "updated_associate_id"]
+}

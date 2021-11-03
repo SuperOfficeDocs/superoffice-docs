@@ -1,19 +1,19 @@
 ---
-uid: table-localetext
-title: localetext table
+uid: table-LocaleText
+title: LocaleText table
 description: Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted. 
 so.generated: true
 keywords:
   - "database"
   - "LocaleText"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# localetext Table (169)
+# LocaleText Table (169)
 
 ## Fields
 
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![LocaleText table relationship diagram](./media/LocaleText.png)
-
-[!include[details](./includes/LocaleText.md)]
 
 ## Indexes
 

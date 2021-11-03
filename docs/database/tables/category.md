@@ -1,21 +1,21 @@
 ---
-uid: table-category
-title: category table
+uid: table-Category
+title: Category table
 description: Category list table
 so.generated: true
 keywords:
   - "database"
   - "Category"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# category Table (64)
+# Category Table (64)
 
-category MDO list item table.
+Category MDO list item table.
 Category list table
 
 ## Fields
@@ -32,12 +32,10 @@ Category list table
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|CategoryFamily\_id|Optional link to family, for grouping things like multiple kinds of customer category under family &apos;customer&apos;|FK [categoryfamily](categoryfamily.md)|&#x25CF;|
+|CategoryFamily\_id|Optional link to family, for grouping things like multiple kinds of customer category under family &apos;customer&apos;|FK [CategoryFamily](categoryfamily.md)|&#x25CF;|
 
 
 ![Category table relationship diagram](./media/Category.png)
-
-[!include[details](./includes/Category.md)]
 
 ## Indexes
 

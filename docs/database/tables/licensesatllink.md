@@ -1,26 +1,26 @@
 ---
-uid: table-licensesatllink
-title: licensesatllink table
+uid: table-LicenseSatlLink
+title: LicenseSatlLink table
 description: Link between License and Satellite, for per-database licenses
 so.generated: true
 keywords:
   - "database"
   - "LicenseSatlLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# licensesatllink Table (239)
+# LicenseSatlLink Table (239)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |LicenseSatlLink\_id|Primary key|PK| |
-|moduleLicenseId|The license being linked|FK [modulelicense](modulelicense.md)| |
+|moduleLicenseId|The license being linked|FK [ModuleLicense](modulelicense.md)| |
 |satelliteId|The Satellite who occupies one instance of this license|FK [satellite](satellite.md)| |
 |validFrom|Reserved field: Valid from date|DateTime| |
 |validTo|Reserved field: Valid to date|DateTime| |
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![LicenseSatlLink table relationship diagram](./media/LicenseSatlLink.png)
-
-[!include[details](./includes/LicenseSatlLink.md)]
 
 ## Indexes
 

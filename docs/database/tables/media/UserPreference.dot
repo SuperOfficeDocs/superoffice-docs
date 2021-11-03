@@ -1,0 +1,10 @@
+digraph UserPreference  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UserPreference[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UserPreference -> associate [headlabel = "registered_associate_id"]
+UserPreference -> associate [label = "updated_associate_id"]
+text -> UserPreference [label = "owner_id" style="dashed"]
+}

@@ -1,12 +1,12 @@
 ---
-uid: table-reply-template-body
-title: reply\_template\_body table
+uid: table-reply_template_body
+title: reply_template_body table
 description: Contains the body of the reply templates in different languages
 so.generated: true
 keywords:
   - "database"
   - "reply_template_body"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,8 +20,8 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|reply\_template\_id|Links the body to a reply template|FK [reply-template](reply-template.md)| |
-|language\_id|Links the body to a reply template|FK [cust-lang](cust-lang.md)| |
+|reply\_template\_id|Links the body to a reply template|FK [reply_template](reply-template.md)| |
+|language\_id|Links the body to a reply template|FK [cust_lang](cust-lang.md)| |
 |flags|Identifies the status of the template body. Default, not default etc.|Int| |
 |body\_plain|The plain text version of the body.|Clob|&#x25CF;|
 |body\_html|The html version of the body.|Clob|&#x25CF;|
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![reply_template_body table relationship diagram](./media/reply_template_body.png)
-
-[!include[details](./includes/reply-template-body.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-extra-fields
-title: extra\_fields table
+uid: table-extra_fields
+title: extra_fields table
 description: This table contains entries for the extra fields in the system.
 so.generated: true
 keywords:
   - "database"
   - "extra_fields"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,8 +21,8 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |domain|Enum indicating for what table this is an extra field (ticket, customer, company, etc).|domain|&#x25CF;|
-|extra\_table|The reference to the extra_table if this table is related to an extra_table. NULL or -1 if not set.|FK [extra-tables](extra-tables.md)|&#x25CF;|
-|target\_extra\_table|If this extra field is a extra table relation, then this is the id of the extra table this entry *points* to.|FK [extra-tables](extra-tables.md)|&#x25CF;|
+|extra\_table|The reference to the extra_table if this table is related to an extra_table. NULL or -1 if not set.|FK [extra_tables](extra-tables.md)|&#x25CF;|
+|target\_extra\_table|If this extra field is a extra table relation, then this is the id of the extra table this entry *points* to.|FK [extra_tables](extra-tables.md)|&#x25CF;|
 |field\_name|The database name of this extra field.|String(64)|&#x25CF;|
 |name|The name of this extra field.|String(128)|&#x25CF;|
 |default\_value|The default value of this extra field.|String(255)|&#x25CF;|
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![extra_fields table relationship diagram](./media/extra_fields.png)
-
-[!include[details](./includes/extra-fields.md)]
 
 ## Indexes
 

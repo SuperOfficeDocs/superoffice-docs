@@ -1,0 +1,8 @@
+digraph invoice_type  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+invoice_type[fillcolor = "cadetblue1"]
+invoice_entry[fillcolor = "azure1"]
+invoice_entry -> invoice_type [label = "type"]
+}

@@ -1,0 +1,11 @@
+digraph ErpSyncLog  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpSyncLog[fillcolor = "cadetblue1"]
+ErpExternalKey[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ErpSyncLog -> ErpExternalKey [headlabel = "ErpExternalKeyId"]
+ErpSyncLog -> associate [headlabel = "registered_associate_id"]
+ErpSyncLog -> associate [label = "updated_associate_id"]
+}

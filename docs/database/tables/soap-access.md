@@ -1,12 +1,12 @@
 ---
-uid: table-soap-access
-title: soap\_access table
+uid: table-soap_access
+title: soap_access table
 description: Table that contains constraints on the access to the soap interface
 so.generated: true
 keywords:
   - "database"
   - "soap_access"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![soap_access table relationship diagram](./media/soap_access.png)
-
-[!include[details](./includes/soap-access.md)]
 
 ## Indexes
 

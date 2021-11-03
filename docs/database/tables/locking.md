@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "locking"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![locking table relationship diagram](./media/locking.png)
-
-[!include[details](./includes/locking.md)]
 
 ## Indexes
 

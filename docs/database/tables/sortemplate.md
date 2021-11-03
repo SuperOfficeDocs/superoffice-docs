@@ -1,19 +1,19 @@
 ---
-uid: table-sortemplate
-title: sortemplate table
+uid: table-SORTemplate
+title: SORTemplate table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
   - "SORTemplate"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sortemplate Table (173)
+# SORTemplate Table (173)
 
 ## Fields
 
@@ -39,8 +39,6 @@ so.envir:
 
 
 ![SORTemplate table relationship diagram](./media/SORTemplate.png)
-
-[!include[details](./includes/SORTemplate.md)]
 
 ## Indexes
 

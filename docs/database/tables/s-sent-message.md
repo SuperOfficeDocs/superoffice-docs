@@ -1,12 +1,12 @@
 ---
-uid: table-s-sent-message
-title: s\_sent\_message table
+uid: table-s_sent_message
+title: s_sent_message table
 description: Emarketeer message control
 so.generated: true
 keywords:
   - "database"
   - "s_sent_message"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,8 +20,8 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|shipment\_id|Which shipment the customer received.|FK [s-shipment](s-shipment.md)| |
-|message\_id|The id of the message that is sent in this shipment|FK [s-message](s-message.md)| |
+|shipment\_id|Which shipment the customer received.|FK [s_shipment](s-shipment.md)| |
+|message\_id|The id of the message that is sent in this shipment|FK [s_message](s-message.md)| |
 |customer\_id|The id of the customer that received the message|FK [person](person.md)| |
 |email|The email-adresse the received the message|String(255)|&#x25CF;|
 |when\_sent|When the email was sent.|DateTime|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![s_sent_message table relationship diagram](./media/s_sent_message.png)
-
-[!include[details](./includes/s-sent-message.md)]
 
 ## Indexes
 

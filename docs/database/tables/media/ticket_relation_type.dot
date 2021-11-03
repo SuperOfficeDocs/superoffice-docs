@@ -1,0 +1,17 @@
+digraph ticket_relation_type  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_relation_type[fillcolor = "cadetblue1"]
+ticket_type[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ticket_relation_action[fillcolor = "azure1"]
+ticket_relation[fillcolor = "azure1"]
+ticket_relation_type -> ticket_type [headlabel = "source_type"]
+ticket_relation_type -> ticket_type [label = "target_type"]
+ticket_relation_type -> associate [headlabel = "registered_associate_id"]
+ticket_relation_type -> associate [label = "updated_associate_id"]
+ticket_relation_action -> ticket_relation_type [label = "source_relation_type"]
+ticket_relation_action -> ticket_relation_type [label = "target_relation_type"]
+ticket_relation -> ticket_relation_type [label = "relation_type"]
+}

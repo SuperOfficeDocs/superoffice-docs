@@ -1,19 +1,19 @@
 ---
-uid: table-udcontactsmall
-title: udcontactsmall table
+uid: table-udcontactSmall
+title: udcontactSmall table
 description: User-defined fields for contact
 so.generated: true
 keywords:
   - "database"
   - "udcontactSmall"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udcontactsmall Table (35)
+# udcontactSmall Table (35)
 
 ## Fields
 
@@ -133,8 +133,6 @@ so.envir:
 
 
 ![udcontactSmall table relationship diagram](./media/udcontactSmall.png)
-
-[!include[details](./includes/udcontactSmall.md)]
 
 ## Indexes
 

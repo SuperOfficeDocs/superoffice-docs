@@ -1,0 +1,11 @@
+digraph SORFCT  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SORFCT[fillcolor = "cadetblue1"]
+SORSection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SORFCT -> SORSection [headlabel = "SORSection_id"]
+SORFCT -> associate [headlabel = "registered_associate_id"]
+SORFCT -> associate [label = "updated_associate_id"]
+}

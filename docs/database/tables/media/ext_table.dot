@@ -1,0 +1,12 @@
+digraph ext_table  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ext_table[fillcolor = "cadetblue1"]
+ext_datasource[fillcolor = "azure1"]
+ext_field[fillcolor = "azure1"]
+ext_table -> ext_datasource [headlabel = "ext_datasource"]
+ext_table -> ext_table [headlabel = "parent_table"]
+ext_table -> ext_table [label = "child_table"]
+ext_field -> ext_table [label = "ext_table"]
+}

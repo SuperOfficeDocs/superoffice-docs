@@ -1,28 +1,28 @@
 ---
-uid: table-sorcriteria
-title: sorcriteria table
+uid: table-SORCriteria
+title: SORCriteria table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
   - "SORCriteria"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sorcriteria Table (175)
+# SORCriteria Table (175)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORCriteria\_id|Primary key|PK| |
-|SORPublish\_id|Owning publish name|FK [sorpublish](sorpublish.md)| |
+|SORPublish\_id|Owning publish name|FK [SORPublish](sorpublish.md)| |
 |fieldName|Database field name|String(29)| |
-|SOROperators\_id|Operator foreign key|FK [soroperators](soroperators.md)| |
+|SOROperators\_id|Operator foreign key|FK [SOROperators](soroperators.md)| |
 |value1|First part of value|String(254)|&#x25CF;|
 |value2|Second part of value|String(254)|&#x25CF;|
 |useIt|1=criterion is in use, otherwise 0|UShort| |
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![SORCriteria table relationship diagram](./media/SORCriteria.png)
-
-[!include[details](./includes/SORCriteria.md)]
 
 ## Indexes
 

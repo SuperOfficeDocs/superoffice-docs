@@ -1,0 +1,14 @@
+digraph ReporterListDef  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ReporterListDef[fillcolor = "cadetblue1"]
+OLEView[fillcolor = "azure1"]
+OLEField[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ReporterListDef -> OLEView [headlabel = "oleViewId"]
+ReporterListDef -> OLEField [headlabel = "oleFieldKey"]
+ReporterListDef -> OLEField [label = "oleFieldName"]
+ReporterListDef -> associate [headlabel = "registered_associate_id"]
+ReporterListDef -> associate [label = "updated_associate_id"]
+}

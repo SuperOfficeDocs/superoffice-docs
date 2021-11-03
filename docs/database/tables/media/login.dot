@@ -1,0 +1,14 @@
+digraph login  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+login[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+session_object[fillcolor = "azure1"]
+invoice_sum[fillcolor = "azure1"]
+extra_tables_result[fillcolor = "azure1"]
+login -> ejuser [headlabel = "user_id"]
+session_object -> login [label = "login_id"]
+invoice_sum -> login [label = "login_id"]
+extra_tables_result -> login [label = "login_id"]
+}

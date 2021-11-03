@@ -1,0 +1,11 @@
+digraph cust_category  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+cust_category[fillcolor = "cadetblue1"]
+cust_lang[fillcolor = "azure1"]
+ej_category[fillcolor = "azure1"]
+cust_category -> cust_lang [headlabel = "language_id"]
+cust_category -> ej_category [headlabel = "category_id"]
+cust_category -> cust_category [headlabel = "parent_id"]
+}

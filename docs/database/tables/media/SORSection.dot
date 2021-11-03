@@ -1,0 +1,15 @@
+digraph SORSection  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SORSection[fillcolor = "cadetblue1"]
+SORTemplate[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SORFCT[fillcolor = "azure1"]
+SORField[fillcolor = "azure1"]
+SORSection -> SORTemplate [headlabel = "SORTemplate_id"]
+SORSection -> associate [headlabel = "registered_associate_id"]
+SORSection -> associate [label = "updated_associate_id"]
+SORFCT -> SORSection [label = "SORSection_id"]
+SORField -> SORSection [label = "SORSection_id"]
+}

@@ -1,19 +1,19 @@
 ---
-uid: table-quoteline
-title: quoteline table
+uid: table-QuoteLine
+title: QuoteLine table
 description: One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.
 so.generated: true
 keywords:
   - "database"
   - "QuoteLine"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# quoteline Table (127)
+# QuoteLine Table (127)
 
 ## Fields
 
@@ -21,9 +21,9 @@ so.envir:
 |------|-------------|------|:----:|
 |quoteline\_id|Primary key|PK| |
 |ERPQuoteLineKey|The foreign key to the quoteline in ERP system (if it has such a representation).|String(254)|&#x25CF;|
-|QuoteAlternativeId|The alternative this line is part of, the conceptual Parent in CRM database.|FK [quotealternative](quotealternative.md)|&#x25CF;|
+|QuoteAlternativeId|The alternative this line is part of, the conceptual Parent in CRM database.|FK [QuoteAlternative](quotealternative.md)|&#x25CF;|
 |ERPProductKey|Foreign key of product+pricelist this line is based on. Can be blank since the QuoteLine doesn’t have to be connected to a product.|String(254)|&#x25CF;|
-|Status|If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.|Enum [quotestatus](enums/quotestatus.md)|&#x25CF;|
+|Status|If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.|Enum [QuoteStatus](enums/quotestatus.md)|&#x25CF;|
 |Reason|If QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.|String(2047)|&#x25CF;|
 |Quantity|How many units; this is a decimal field since you might want to offer fractional units (2.5kg, or 0.5PC).|Double|&#x25CF;|
 |DeliveredQuantity|How many units have been delivered - updated by ERP system.|Double|&#x25CF;|
@@ -54,7 +54,7 @@ so.envir:
 |ERPDiscountAmount|The discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. If UserValueOverride is set to ‘None’ then the value is copied to DiscountAmount. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out.|Double|&#x25CF;|
 |DiscountPercent|The discount for the line, in percent. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.|Double|&#x25CF;|
 |DiscountAmount|The discount for the line, in whatever currency the sale is in. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field.|Double|&#x25CF;|
-|UserValueOverride|Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)|Enum [valueoverride](enums/valueoverride.md)|&#x25CF;|
+|UserValueOverride|Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)|Enum [ValueOverride](enums/valueoverride.md)|&#x25CF;|
 |EarningPercent|The earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.|Double|&#x25CF;|
 |EarningAmount|The earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last.|Double|&#x25CF;|
 |TotalPrice|TotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last.|Double|&#x25CF;|
@@ -73,8 +73,6 @@ so.envir:
 
 
 ![QuoteLine table relationship diagram](./media/QuoteLine.png)
-
-[!include[details](./includes/QuoteLine.md)]
 
 ## Indexes
 

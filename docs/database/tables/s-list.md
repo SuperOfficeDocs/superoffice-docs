@@ -1,12 +1,12 @@
 ---
-uid: table-s-list
-title: s\_list table
+uid: table-s_list
+title: s_list table
 description: A list, dynamic or static
 so.generated: true
 keywords:
   - "database"
   - "s_list"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,15 +27,13 @@ so.envir:
 |flag|Not used|Short|&#x25CF;|
 |number\_of\_elements|How many elements this list contains|Int|&#x25CF;|
 |folder\_id|The folder which this link belongs to. -1 indicates that the link is on the root|Int| |
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)| |
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)| |
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)| |
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
 
 ![s_list table relationship diagram](./media/s_list.png)
-
-[!include[details](./includes/s-list.md)]
 
 ## Indexes
 

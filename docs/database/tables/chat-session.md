@@ -1,12 +1,12 @@
 ---
-uid: table-chat-session
-title: chat\_session table
+uid: table-chat_session
+title: chat_session table
 description: This table contains chat sessions.
 so.generated: true
 keywords:
   - "database"
   - "chat_session"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,11 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|topic\_id|The reference to the associated chat topic.|FK [chat-topic](chat-topic.md)| |
+|topic\_id|The reference to the associated chat topic.|FK [chat_topic](chat-topic.md)| |
 |user\_id|The reference to the associated user.|FK [ejuser](ejuser.md)| |
 |customer\_id|The reference to the associated customer. May be NULL or -1.|FK [person](person.md)| |
 |customer\_alias|The alias for the customer.|String(64)|&#x25CF;|
-|status|Enum indicating the status for the session (pending, active, closed, etc).|Enum [chatsessionstatus](enums/chatsessionstatus.md)|&#x25CF;|
+|status|Enum indicating the status for the session (pending, active, closed, etc).|Enum [ChatSessionStatus](enums/chatsessionstatus.md)|&#x25CF;|
 |when\_requested|When the session was requested by the customer.|DateTime|&#x25CF;|
 |when\_started|When the session was accepted by a user.|DateTime|&#x25CF;|
 |when\_ended|When the session was ended.|DateTime|&#x25CF;|
@@ -41,7 +41,7 @@ so.envir:
 |phone|The phone number of the customer, if provided|String(32)|&#x25CF;|
 |first\_message|A copy of the first message in the chat session|String(1024)|&#x25CF;|
 |last\_message|A copy of the last message in the chat session|String(1024)|&#x25CF;|
-|flags|Various flags for the chat session|Enum [chatsessionflags](enums/chatsessionflags.md)|&#x25CF;|
+|flags|Various flags for the chat session|Enum [ChatSessionFlags](enums/chatsessionflags.md)|&#x25CF;|
 |project\_id|The project that this chat session is connected to|FK [project](project.md)|&#x25CF;|
 |sale\_id|The sale that this chat session is connected to|FK [sale](sale.md)|&#x25CF;|
 |ticket\_id|The ticket that this chat session is connected to|FK [ticket](ticket.md)|&#x25CF;|
@@ -49,11 +49,10 @@ so.envir:
 |transfer\_to|The ejuser that has a pending transfer of the chat session|FK [ejuser](ejuser.md)|&#x25CF;|
 |consented|The customer consented when starting the session|Bool|&#x25CF;|
 |chatbot\_isactive|Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.|Bool|&#x25CF;|
+|country|The country that the chat customer selected.|Int|&#x25CF;|
 
 
 ![chat_session table relationship diagram](./media/chat_session.png)
-
-[!include[details](./includes/chat-session.md)]
 
 ## Indexes
 

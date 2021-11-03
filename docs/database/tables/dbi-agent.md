@@ -1,12 +1,12 @@
 ---
-uid: table-dbi-agent
-title: dbi\_agent table
+uid: table-dbi_agent
+title: dbi_agent table
 description: DBI agent settings
 so.generated: true
 keywords:
   - "database"
   - "dbi_agent"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,8 +27,6 @@ so.envir:
 
 
 ![dbi_agent table relationship diagram](./media/dbi_agent.png)
-
-[!include[details](./includes/dbi-agent.md)]
 
 ## Indexes
 

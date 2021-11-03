@@ -1,19 +1,19 @@
 ---
-uid: table-script-trace
-title: script\_trace table
+uid: table-script_trace
+title: script_trace table
 description: Scripts which should be traced
 so.generated: true
 keywords:
   - "database"
   - "script_trace"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# script\_trace Table (468)
+# script\_trace Table (469)
 
 ## Fields
 
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![script_trace table relationship diagram](./media/script_trace.png)
-
-[!include[details](./includes/script-trace.md)]
 
 ## Indexes
 

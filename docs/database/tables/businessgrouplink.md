@@ -1,27 +1,27 @@
 ---
-uid: table-businessgrouplink
-title: businessgrouplink table
+uid: table-BusinessGroupLink
+title: BusinessGroupLink table
 description: User group link table for Business, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "BusinessGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# businessgrouplink Table (62)
+# BusinessGroupLink Table (62)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |businessgrouplink\_id|Primary key|PK| |
-|business\_id|Link to Business list table|FK [business](business.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|business\_id|Link to Business list table|FK [Business](business.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![BusinessGroupLink table relationship diagram](./media/BusinessGroupLink.png)
-
-[!include[details](./includes/BusinessGroupLink.md)]
 
 ## Indexes
 

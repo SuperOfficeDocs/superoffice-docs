@@ -1,0 +1,11 @@
+digraph TZDstRule  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TZDstRule[fillcolor = "cadetblue1"]
+TZLocation[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TZDstRule -> TZLocation [headlabel = "TZLocationId"]
+TZDstRule -> associate [headlabel = "registered_associate_id"]
+TZDstRule -> associate [label = "updated_associate_id"]
+}

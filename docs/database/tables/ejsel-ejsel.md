@@ -1,12 +1,12 @@
 ---
-uid: table-ejsel-ejsel
-title: ejsel\_ejsel table
+uid: table-ejsel_ejsel
+title: ejsel_ejsel table
 description: This table defines sources for complex selections in a many/many relationship
 so.generated: true
 keywords:
   - "database"
   - "ejsel_ejsel"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,8 +27,6 @@ so.envir:
 
 
 ![ejsel_ejsel table relationship diagram](./media/ejsel_ejsel.png)
-
-[!include[details](./includes/ejsel-ejsel.md)]
 
 ## Indexes
 

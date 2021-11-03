@@ -1,27 +1,27 @@
 ---
-uid: table-userpreference
-title: userpreference table
+uid: table-UserPreference
+title: UserPreference table
 description: Preference system. If deflevel is set to 5; the user may change the preferences
 so.generated: true
 keywords:
   - "database"
   - "UserPreference"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# userpreference Table (56)
+# UserPreference Table (56)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |userpreference\_id|Primary key|PK| |
-|deflevel|The level: 0=hard default, 1=systemwide, 2=database, 3=group, 4=individual|Enum [preferencelevel](enums/preferencelevel.md)| |
-|maxlevel|Highest override level allowed|Enum [preferencelevel](enums/preferencelevel.md)| |
+|deflevel|The level: 0=hard default, 1=systemwide, 2=database, 3=group, 4=individual|Enum [PreferenceLevel](enums/preferencelevel.md)| |
+|maxlevel|Highest override level allowed|Enum [PreferenceLevel](enums/preferencelevel.md)| |
 |owner\_id|level=3: group; level=4: associate|Id| |
 |prefsection|Preference section name|String(199)| |
 |prefkey|Preference key name|String(199)| |
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![UserPreference table relationship diagram](./media/UserPreference.png)
-
-[!include[details](./includes/UserPreference.md)]
 
 ## Indexes
 

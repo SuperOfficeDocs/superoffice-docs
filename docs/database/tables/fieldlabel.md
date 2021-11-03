@@ -1,19 +1,19 @@
 ---
-uid: table-fieldlabel
-title: fieldlabel table
+uid: table-FieldLabel
+title: FieldLabel table
 description: Field label override table, makes it possible to override internal string resources. Define your own text for the panels in SuperOffice, e.g. rename Project to Cars in SOAdmin - System Options - Labels  This table contains controlling data for the string substitution mechanism. There is one row in this table for each label or string that can be substituted; the active field indicates whether the string is actually being substituted or not. Initially, all rows have this field set to 0. The table is loaded with initial data during database setup.  Only SuperOffice Development has the necessary expertise to safely add rows to this table.  If a row has active = 1, the table LocaleText should contain one or more rows pointing back to this table, with the actual text to be used. 
 so.generated: true
 keywords:
   - "database"
   - "FieldLabel"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# fieldlabel Table (168)
+# FieldLabel Table (168)
 
 ## Fields
 
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![FieldLabel table relationship diagram](./media/FieldLabel.png)
-
-[!include[details](./includes/FieldLabel.md)]
 
 ## Indexes
 

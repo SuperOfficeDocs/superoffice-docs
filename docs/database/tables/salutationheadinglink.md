@@ -1,27 +1,27 @@
 ---
-uid: table-salutationheadinglink
-title: salutationheadinglink table
+uid: table-SalutationHeadingLink
+title: SalutationHeadingLink table
 description: Heading link table for Salutation, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "SalutationHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# salutationheadinglink Table (221)
+# SalutationHeadingLink Table (221)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |salutationheadinglink\_id|Primary key|PK| |
-|salutation\_id|Link to Salutation list table|FK [salutation](salutation.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|salutation\_id|Link to Salutation list table|FK [Salutation](salutation.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SalutationHeadingLink table relationship diagram](./media/SalutationHeadingLink.png)
-
-[!include[details](./includes/SalutationHeadingLink.md)]
 
 ## Indexes
 

@@ -1,26 +1,26 @@
 ---
-uid: table-quoteversionattachment
-title: quoteversionattachment table
+uid: table-QuoteVersionAttachment
+title: QuoteVersionAttachment table
 description: Actual attachments to a quote
 so.generated: true
 keywords:
   - "database"
   - "QuoteVersionAttachment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# quoteversionattachment Table (447)
+# QuoteVersionAttachment Table (447)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |quoteversionattachment\_id|Primary key|PK| |
-|QuoteVersionId|Link to QuoteVersion|FK [quoteversion](quoteversion.md)| |
+|QuoteVersionId|Link to QuoteVersion|FK [QuoteVersion](quoteversion.md)| |
 |DocumentId|Link to document|FK [document](document.md)| |
 |Included|Will this attachment be included in the next &apos;Send Quote&apos; operation|Bool|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![QuoteVersionAttachment table relationship diagram](./media/QuoteVersionAttachment.png)
-
-[!include[details](./includes/QuoteVersionAttachment.md)]
 
 ## Indexes
 

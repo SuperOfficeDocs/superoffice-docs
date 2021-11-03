@@ -1,12 +1,12 @@
 ---
-uid: table-log-events
-title: log\_events table
+uid: table-log_events
+title: log_events table
 description: System log
 so.generated: true
 keywords:
   - "database"
   - "log_events"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![log_events table relationship diagram](./media/log_events.png)
-
-[!include[details](./includes/log-events.md)]
 
 ## Indexes
 

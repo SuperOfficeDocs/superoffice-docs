@@ -1,21 +1,21 @@
 ---
-uid: table-contint
-title: contint table
+uid: table-ContInt
+title: ContInt table
 description: ContInt list table. List-text of all valid contact interest types.
 so.generated: true
 keywords:
   - "database"
   - "ContInt"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# contint Table (70)
+# ContInt Table (70)
 
-contint MDO list item table.
+ContInt MDO list item table.
 ContInt list table. List-text of all valid contact interest types.
 
 ## Fields
@@ -35,8 +35,6 @@ ContInt list table. List-text of all valid contact interest types.
 
 
 ![ContInt table relationship diagram](./media/ContInt.png)
-
-[!include[details](./includes/ContInt.md)]
 
 ## Indexes
 

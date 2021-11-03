@@ -1,0 +1,20 @@
+digraph projectmember  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+projectmember[fillcolor = "cadetblue1"]
+project[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+PMembType[fillcolor = "azure1"]
+text[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+projectmember -> project [headlabel = "project_id"]
+projectmember -> contact [headlabel = "contact_id"]
+projectmember -> person [headlabel = "person_id"]
+projectmember -> PMembType [headlabel = "mtype_idx"]
+projectmember -> text [headlabel = "text_id"]
+projectmember -> associate [headlabel = "registered_associate_id"]
+projectmember -> associate [label = "updated_associate_id"]
+text -> projectmember [label = "owner_id" style="dashed"]
+}

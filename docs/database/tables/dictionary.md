@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dictionary"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,15 +20,13 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|base\_id|The reference to the dictionary base.|FK [dictionary-base](dictionary-base.md)| |
+|base\_id|The reference to the dictionary base.|FK [dictionary_base](dictionary-base.md)| |
 |user\_id|The reference to the user.|FK [ejuser](ejuser.md)| |
 |include|Include/Exclude word.|Int| |
 |word|User word|String(32)| |
 
 
 ![dictionary table relationship diagram](./media/dictionary.png)
-
-[!include[details](./includes/dictionary.md)]
 
 ## Indexes
 

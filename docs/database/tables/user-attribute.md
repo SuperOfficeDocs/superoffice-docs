@@ -1,12 +1,12 @@
 ---
-uid: table-user-attribute
-title: user\_attribute table
+uid: table-user_attribute
+title: user_attribute table
 description: This table is used for storing various attributes for users.
 so.generated: true
 keywords:
   - "database"
   - "user_attribute"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![user_attribute table relationship diagram](./media/user_attribute.png)
-
-[!include[details](./includes/user-attribute.md)]
 
 ## Indexes
 

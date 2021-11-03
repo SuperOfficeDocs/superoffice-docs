@@ -1,26 +1,26 @@
 ---
-uid: table-email-attachment
-title: email\_attachment table
+uid: table-email_attachment
+title: email_attachment table
 description: Attachment info related to an email_item
 so.generated: true
 keywords:
   - "database"
   - "email_attachment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_attachment Table (478)
+# email\_attachment Table (484)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |email\_attachment\_id|Primary key|PK| |
-|email\_item\_id|Id of the email_item|FK [email-item](email-item.md)|&#x25CF;|
+|email\_item\_id|Id of the email_item|FK [email_item](email-item.md)|&#x25CF;|
 |cid|The actual cid or the index of the mime part (an integer)|String(255)|&#x25CF;|
 |description|Attachment description|String(255)|&#x25CF;|
 |filename|Filename of attachment|String(255)|&#x25CF;|
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![email_attachment table relationship diagram](./media/email_attachment.png)
-
-[!include[details](./includes/email-attachment.md)]
 
 ## Indexes
 

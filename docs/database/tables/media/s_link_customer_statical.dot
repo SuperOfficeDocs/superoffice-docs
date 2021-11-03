@@ -1,0 +1,10 @@
+digraph s_link_customer_statical  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_link_customer_statical[fillcolor = "cadetblue1"]
+s_link[fillcolor = "azure1"]
+s_shipment[fillcolor = "azure1"]
+s_link_customer_statical -> s_link [headlabel = "link_id"]
+s_link_customer_statical -> s_shipment [headlabel = "shipment_id"]
+}

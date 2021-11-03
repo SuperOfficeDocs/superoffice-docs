@@ -1,12 +1,12 @@
 ---
-uid: table-reply-template
-title: reply\_template table
+uid: table-reply_template
+title: reply_template table
 description: Templates for automatic and manual replies to emails/sms organized hierachically
 so.generated: true
 keywords:
   - "database"
   - "reply_template"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,16 +22,14 @@ so.envir:
 |id|The primary key (auto-incremented)|PK| |
 |name|The name for this reply template.|String(255)| |
 |description|The description for this reply template.|String(255)|&#x25CF;|
-|folder\_id|The id of the folder in which this reply template is located. NULL or -1 if this is a toplevel reply template.|FK [reply-template-folder](reply-template-folder.md)| |
+|folder\_id|The id of the folder in which this reply template is located. NULL or -1 if this is a toplevel reply template.|FK [reply_template_folder](reply-template-folder.md)| |
 |owned\_by|The id of the user who owns this reply template.|FK [ejuser](ejuser.md)|&#x25CF;|
 |last\_changed|When the reply template was last changed.|DateTime|&#x25CF;|
-|access\_level|The access level (enum) for this reply template.|access-level|&#x25CF;|
+|access\_level|The access level (enum) for this reply template.|access_level|&#x25CF;|
 |flags|A bitmap for flags.not used for anything [snarum 29 aug 2001]|Int|&#x25CF;|
 
 
 ![reply_template table relationship diagram](./media/reply_template.png)
-
-[!include[details](./includes/reply-template.md)]
 
 ## Indexes
 

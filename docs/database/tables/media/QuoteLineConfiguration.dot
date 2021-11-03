@@ -1,0 +1,9 @@
+digraph QuoteLineConfiguration  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteLineConfiguration[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+QuoteLineConfiguration -> associate [headlabel = "registered_associate_id"]
+QuoteLineConfiguration -> associate [label = "updated_associate_id"]
+}

@@ -1,0 +1,13 @@
+digraph DeliveryTermsGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+DeliveryTermsGroupLink[fillcolor = "cadetblue1"]
+DeliveryTerms[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+DeliveryTermsGroupLink -> DeliveryTerms [headlabel = "deliveryterms_id"]
+DeliveryTermsGroupLink -> UserGroup [headlabel = "group_id"]
+DeliveryTermsGroupLink -> associate [headlabel = "registered_associate_id"]
+DeliveryTermsGroupLink -> associate [label = "updated_associate_id"]
+}

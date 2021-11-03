@@ -1,27 +1,27 @@
 ---
-uid: table-producttypeheadinglink
-title: producttypeheadinglink table
+uid: table-ProductTypeHeadingLink
+title: ProductTypeHeadingLink table
 description: Heading link table for ProductType, for MDO item headings
 so.generated: true
 keywords:
   - "database"
   - "ProductTypeHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# producttypeheadinglink Table (416)
+# ProductTypeHeadingLink Table (416)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |producttypeheadinglink\_id|Primary key|PK| |
-|producttype\_id|Link to ProductType list table|FK [producttype](producttype.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|producttype\_id|Link to ProductType list table|FK [ProductType](producttype.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ProductTypeHeadingLink table relationship diagram](./media/ProductTypeHeadingLink.png)
-
-[!include[details](./includes/ProductTypeHeadingLink.md)]
 
 ## Indexes
 

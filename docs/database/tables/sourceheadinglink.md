@@ -1,27 +1,27 @@
 ---
-uid: table-sourceheadinglink
-title: sourceheadinglink table
+uid: table-SourceHeadingLink
+title: SourceHeadingLink table
 description: Heading link table for Source, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "SourceHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sourceheadinglink Table (102)
+# SourceHeadingLink Table (102)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |sourceheadinglink\_id|Primary key|PK| |
-|source\_id|Link to Source list table|FK [source](source.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|source\_id|Link to Source list table|FK [Source](source.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![SourceHeadingLink table relationship diagram](./media/SourceHeadingLink.png)
-
-[!include[details](./includes/SourceHeadingLink.md)]
 
 ## Indexes
 

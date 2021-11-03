@@ -1,19 +1,19 @@
 ---
-uid: table-categoryfamily
-title: categoryfamily table
+uid: table-CategoryFamily
+title: CategoryFamily table
 description: Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;
 so.generated: true
 keywords:
   - "database"
   - "CategoryFamily"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# categoryfamily Table (467)
+# CategoryFamily Table (468)
 
 ## Fields
 

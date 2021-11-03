@@ -1,19 +1,19 @@
 ---
-uid: table-olesubject
-title: olesubject table
+uid: table-OLESubject
+title: OLESubject table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
   - "OLESubject"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# olesubject Table (161)
+# OLESubject Table (161)
 
 ## Fields
 
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![OLESubject table relationship diagram](./media/OLESubject.png)
-
-[!include[details](./includes/OLESubject.md)]
 
 ## Indexes
 

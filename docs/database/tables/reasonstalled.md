@@ -1,21 +1,21 @@
 ---
-uid: table-reasonstalled
-title: reasonstalled table
+uid: table-ReasonStalled
+title: ReasonStalled table
 description: Why was the sale marked as stalled
 so.generated: true
 keywords:
   - "database"
   - "ReasonStalled"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# reasonstalled Table (154)
+# ReasonStalled Table (154)
 
-reasonstalled MDO list item table.
+ReasonStalled MDO list item table.
 Why was the sale marked as stalled
 
 ## Fields
@@ -35,8 +35,6 @@ Why was the sale marked as stalled
 
 
 ![ReasonStalled table relationship diagram](./media/ReasonStalled.png)
-
-[!include[details](./includes/ReasonStalled.md)]
 
 ## Indexes
 

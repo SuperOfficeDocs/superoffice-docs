@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "text"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |text\_id|Primary key|PK| |
-|type|Text type, enum that specifies owning table and role|Enum [texttype](enums/texttype.md)|&#x25CF;|
+|type|Text type, enum that specifies owning table and role|Enum [TextType](enums/texttype.md)|&#x25CF;|
 |owner\_id|Record ID of owner record|Id|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![text table relationship diagram](./media/text.png)
-
-[!include[details](./includes/text.md)]
 
 ## Indexes
 

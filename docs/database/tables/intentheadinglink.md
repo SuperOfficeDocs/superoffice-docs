@@ -1,27 +1,27 @@
 ---
-uid: table-intentheadinglink
-title: intentheadinglink table
+uid: table-IntentHeadingLink
+title: IntentHeadingLink table
 description: Heading link table for Intent, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "IntentHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# intentheadinglink Table (218)
+# IntentHeadingLink Table (218)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |intentheadinglink\_id|Primary key|PK| |
-|intent\_id|Link to Intent list table|FK [intent](intent.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|intent\_id|Link to Intent list table|FK [Intent](intent.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![IntentHeadingLink table relationship diagram](./media/IntentHeadingLink.png)
-
-[!include[details](./includes/IntentHeadingLink.md)]
 
 ## Indexes
 

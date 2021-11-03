@@ -1,19 +1,19 @@
 ---
-uid: table-countervalue
-title: countervalue table
+uid: table-CounterValue
+title: CounterValue table
 description: Visible for rights
 so.generated: true
 keywords:
   - "database"
   - "CounterValue"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# countervalue Table (197)
+# CounterValue Table (197)
 
 ## Fields
 
@@ -25,11 +25,11 @@ so.envir:
 |project\_id|Link to project, 0 if this counter is not for project|FK [project](project.md)| |
 |extra1\_id|Spare ID for future links|Id| |
 |extra2\_id|Spare ID for future links|Id| |
-|record\_type|Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes|Enum [appntrecordtype](enums/appntrecordtype.md)| |
-|direction|Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing|Enum [appntdirection](enums/appntdirection.md)| |
-|intent\_id|Link to Intent list|FK [intent](intent.md)| |
-|sale\_status|Sale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales|Enum [salestatus](enums/salestatus.md)| |
-|amountClassId|Sale amount class, for splitting sale counters by amounts|FK [amountclass](amountclass.md)| |
+|record\_type|Same as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes|Enum [AppntRecordType](enums/appntrecordtype.md)| |
+|direction|Same as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing|Enum [AppntDirection](enums/appntdirection.md)| |
+|intent\_id|Link to Intent list|FK [Intent](intent.md)| |
+|sale\_status|Sale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales|Enum [SaleStatus](enums/salestatus.md)| |
+|amountClassId|Sale amount class, for splitting sale counters by amounts|FK [AmountClass](amountclass.md)| |
 |totalReg|Total registered records of this type|UInt| |
 |totalRegInPeriod|Total registered records of this type in the first period (there are up to three period definitions)|UInt| |
 |notCompleted|Total records with status Not Completed|UInt| |
@@ -49,8 +49,6 @@ so.envir:
 
 
 ![CounterValue table relationship diagram](./media/CounterValue.png)
-
-[!include[details](./includes/CounterValue.md)]
 
 ## Indexes
 

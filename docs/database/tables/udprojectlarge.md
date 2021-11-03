@@ -1,19 +1,19 @@
 ---
-uid: table-udprojectlarge
-title: udprojectlarge table
+uid: table-udprojectLarge
+title: udprojectLarge table
 description: User-defined fields. During conversion of user defined fields the data is stored in this table.
 so.generated: true
 keywords:
   - "database"
   - "udprojectLarge"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udprojectlarge Table (143)
+# udprojectLarge Table (143)
 
 ## Fields
 
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![udprojectLarge table relationship diagram](./media/udprojectLarge.png)
-
-[!include[details](./includes/udprojectLarge.md)]
 
 ## Indexes
 

@@ -1,21 +1,21 @@
 ---
-uid: table-paymenttype
-title: paymenttype table
+uid: table-PaymentType
+title: PaymentType table
 description: The list of payment types, in the internal product register
 so.generated: true
 keywords:
   - "database"
   - "PaymentType"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# paymenttype Table (430)
+# PaymentType Table (430)
 
-paymenttype MDO list item table.
+PaymentType MDO list item table.
 The list of payment types, in the internal product register
 
 ## Fields
@@ -35,8 +35,6 @@ The list of payment types, in the internal product register
 
 
 ![PaymentType table relationship diagram](./media/PaymentType.png)
-
-[!include[details](./includes/PaymentType.md)]
 
 ## Indexes
 

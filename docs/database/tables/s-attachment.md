@@ -1,12 +1,12 @@
 ---
-uid: table-s-attachment
-title: s\_attachment table
+uid: table-s_attachment
+title: s_attachment table
 description: A connector between a message and attachments. One message can contain many attachments.
 so.generated: true
 keywords:
   - "database"
   - "s_attachment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,12 +21,10 @@ so.envir:
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |attachment\_id|The id of the attachment|FK [attachment](attachment.md)| |
-|message\_id|The id of the message|FK [s-message](s-message.md)| |
+|message\_id|The id of the message|FK [s_message](s-message.md)| |
 
 
 ![s_attachment table relationship diagram](./media/s_attachment.png)
-
-[!include[details](./includes/s-attachment.md)]
 
 ## Indexes
 

@@ -1,26 +1,26 @@
 ---
-uid: table-olefieldtext
-title: olefieldtext table
+uid: table-OLEFieldText
+title: OLEFieldText table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
   - "OLEFieldText"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# olefieldtext Table (166)
+# OLEFieldText Table (166)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |OLEFieldText\_id|Primary key|PK| |
-|OLEField\_id|OLE View|FK [olesubject](olesubject.md)| |
+|OLEField\_id|OLE View|FK [OLESubject](olesubject.md)| |
 |languageId|LCID (see locale help) of language|Id| |
 |name|OLE View name|String(29)| |
 |description|Field name as shown in reporter studio|String(99)|&#x25CF;|
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![OLEFieldText table relationship diagram](./media/OLEFieldText.png)
-
-[!include[details](./includes/OLEFieldText.md)]
 
 ## Indexes
 

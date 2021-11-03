@@ -1,0 +1,17 @@
+digraph email_account  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+email_account[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+service_auth[fillcolor = "azure1"]
+email_folder[fillcolor = "azure1"]
+email_item[fillcolor = "azure1"]
+email_account -> associate [headlabel = "associate_id"]
+email_account -> service_auth [headlabel = "incoming_auth"]
+email_account -> service_auth [label = "outgoing_auth"]
+email_account -> associate [label = "registered_associate_id"]
+email_account -> associate [label = "updated_associate_id"]
+email_folder -> email_account [label = "account_id"]
+email_item -> email_account [label = "account_id"]
+}

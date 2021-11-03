@@ -1,27 +1,27 @@
 ---
-uid: table-ejcategorygrouplink
-title: ejcategorygrouplink table
+uid: table-EjCategoryGroupLink
+title: EjCategoryGroupLink table
 description: User group link table for EjCategory, for mass handling ej_category members
 so.generated: true
 keywords:
   - "database"
   - "EjCategoryGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ejcategorygrouplink Table (450)
+# EjCategoryGroupLink Table (450)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ej\_categorygrouplink\_id|Primary key|PK| |
-|ej\_category\_id|Link to EjCategory list table|FK [ej-category](ej-category.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|ej\_category\_id|Link to EjCategory list table|FK [ej_category](ej-category.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![EjCategoryGroupLink table relationship diagram](./media/EjCategoryGroupLink.png)
-
-[!include[details](./includes/EjCategoryGroupLink.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-external-document
-title: external\_document table
+uid: table-external_document
+title: external_document table
 description: This table stores documents which can be viewed externaly, through the customer module
 so.generated: true
 keywords:
   - "database"
   - "external_document"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,12 +29,10 @@ so.envir:
 |last\_changed|When the document last was changed|DateTime|&#x25CF;|
 |changed\_by|Who last changed the document|FK [ejuser](ejuser.md)|&#x25CF;|
 |deleted|A boolean telling if the external document is to be treated as deleted|Bool| |
-|s\_message|Relation to s_message if this document is an image in a newsletter|FK [s-message](s-message.md)|&#x25CF;|
+|s\_message|Relation to s_message if this document is an image in a newsletter|FK [s_message](s-message.md)|&#x25CF;|
 
 
 ![external_document table relationship diagram](./media/external_document.png)
-
-[!include[details](./includes/external-document.md)]
 
 ## Indexes
 

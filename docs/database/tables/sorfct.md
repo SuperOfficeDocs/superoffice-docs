@@ -1,26 +1,26 @@
 ---
-uid: table-sorfct
-title: sorfct table
+uid: table-SORFCT
+title: SORFCT table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
   - "SORFCT"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sorfct Table (178)
+# SORFCT Table (178)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORFCT\_id|Primary key|PK| |
-|SORSection\_id|Foreign key to Section|FK [sorsection](sorsection.md)| |
+|SORSection\_id|Foreign key to Section|FK [SORSection](sorsection.md)| |
 |fieldType|-1=NULL, 0=hidden, 1=Column, 2=Row, 3=Data, 6=pagenr, 7=title, 8=associatename|Short| |
 |content|if field type in (0,1,2,3) then Field name from db to be selected|String(29)|&#x25CF;|
 |groupFooterType|-1=NULL, 0=none, 1=Sum, 2=Avg, 3=Count|Short| |
@@ -39,8 +39,6 @@ so.envir:
 
 
 ![SORFCT table relationship diagram](./media/SORFCT.png)
-
-[!include[details](./includes/SORFCT.md)]
 
 ## Indexes
 

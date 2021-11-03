@@ -1,0 +1,8 @@
+digraph kb_http_link  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_http_link[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+kb_http_link -> kb_entry [headlabel = "entry_id"]
+}

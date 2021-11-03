@@ -1,12 +1,12 @@
 ---
-uid: table-kb-entry-comment
-title: kb\_entry\_comment table
+uid: table-kb_entry_comment
+title: kb_entry_comment table
 description: Comments to entries in the knowledge base, typically made by customers
 so.generated: true
 keywords:
   - "database"
   - "kb_entry_comment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,21 +20,19 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|kb\_entry\_id|The id of the kb_entry which this comment belongs to.|FK [kb-entry](kb-entry.md)| |
+|kb\_entry\_id|The id of the kb_entry which this comment belongs to.|FK [kb_entry](kb-entry.md)| |
 |time\_posted|When the comment was posted.|DateTime| |
-|publish\_status|Publish status of comment. 0 is undefined, 1 is not published, 2 is published|publish-status| |
+|publish\_status|Publish status of comment. 0 is undefined, 1 is not published, 2 is published|publish_status| |
 |author|The author of the entry|String(255)|&#x25CF;|
 |customer\_id|The id of the customer that created this comment.|FK [person](person.md)| |
 |body|The contents of the comment.|Clob|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)| |
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)| |
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)| |
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
 
 ![kb_entry_comment table relationship diagram](./media/kb_entry_comment.png)
-
-[!include[details](./includes/kb-entry-comment.md)]
 
 ## Indexes
 

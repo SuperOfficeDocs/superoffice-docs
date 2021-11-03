@@ -1,12 +1,12 @@
 ---
-uid: table-dbi-agent-schedule
-title: dbi\_agent\_schedule table
+uid: table-dbi_agent_schedule
+title: dbi_agent_schedule table
 description: DBI agent schedule settings
 so.generated: true
 keywords:
   - "database"
   - "dbi_agent_schedule"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|agent\_id|Agent|FK [dbi-agent](dbi-agent.md)|&#x25CF;|
+|agent\_id|Agent|FK [dbi_agent](dbi-agent.md)|&#x25CF;|
 |script\_id|Communication script|FK [ejscript](ejscript.md)|&#x25CF;|
 |schedule\_id|Update schedule|FK [schedule](schedule.md)|&#x25CF;|
 |sent\_objects|Number of objects sent during the last syncronization|Int| |
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![dbi_agent_schedule table relationship diagram](./media/dbi_agent_schedule.png)
-
-[!include[details](./includes/dbi-agent-schedule.md)]
 
 ## Indexes
 

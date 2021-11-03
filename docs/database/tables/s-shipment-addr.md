@@ -1,12 +1,12 @@
 ---
-uid: table-s-shipment-addr
-title: s\_shipment\_addr table
+uid: table-s_shipment_addr
+title: s_shipment_addr table
 description: Addresses that are ready to be sent in a shipment.
 so.generated: true
 keywords:
   - "database"
   - "s_shipment_addr"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|shipment\_id|Which shipment this address belongs to|FK [s-shipment](s-shipment.md)| |
+|shipment\_id|Which shipment this address belongs to|FK [s_shipment](s-shipment.md)| |
 |address|The email address|String(255)| |
 |name|The name of the recipient|String(255)|&#x25CF;|
 |timestamp|A stamp set when this address it taken by ejSender to prevent two ejSenders to take one address.|Int|&#x25CF;|
@@ -28,15 +28,17 @@ so.envir:
 |type|Indicates if this is an email or a sms|Int|&#x25CF;|
 |sender\_nr|Used for multiple ejSenders. This field indicate which ejSender process this belongs to|Int|&#x25CF;|
 |ticket\_id|Id of the ticket if this entry is created by a ticketSelection list|FK [ticket](ticket.md)| |
-|status|Status for sending to this particular recipient|Enum [shipmentaddrstatus](enums/shipmentaddrstatus.md)|&#x25CF;|
+|status|Status for sending to this particular recipient|Enum [ShipmentAddrStatus](enums/shipmentaddrstatus.md)|&#x25CF;|
 |contact\_id|Id of contact bound to shipment address|FK [contact](contact.md)|&#x25CF;|
 |sending\_time|Estimated or actual sent time (depends on status)|DateTime|&#x25CF;|
 |bounce\_reason|Reason text received from mailing system|String(1023)|&#x25CF;|
+|form\_submission\_id|If this mailing recipient is created from a form submission, this will contain a reference to that submission|FK [form_submission](form-submission.md)|&#x25CF;|
+|bounce\_code|If this recipient bounced and we have a bounce code, this field will contain the code|Int|&#x25CF;|
+|bounce\_reasontag|If this recipient bounced and we have a bounce reason, this field will contain the reason|String(4000)|&#x25CF;|
+|cleaned|Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list|Bool|&#x25CF;|
 
 
 ![s_shipment_addr table relationship diagram](./media/s_shipment_addr.png)
-
-[!include[details](./includes/s-shipment-addr.md)]
 
 ## Indexes
 

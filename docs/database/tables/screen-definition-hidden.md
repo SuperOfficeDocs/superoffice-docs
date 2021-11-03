@@ -1,12 +1,12 @@
 ---
-uid: table-screen-definition-hidden
-title: screen\_definition\_hidden table
+uid: table-screen_definition_hidden
+title: screen_definition_hidden table
 description: The name of a hidden variable to keep for this screen
 so.generated: true
 keywords:
   - "database"
   - "screen_definition_hidden"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,13 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|screen\_definition|The screen-definition this element belongs to|FK [screen-definition](screen-definition.md)|&#x25CF;|
+|screen\_definition|The screen-definition this element belongs to|FK [screen_definition](screen-definition.md)|&#x25CF;|
 |variable|The name of the variable to keep|String(255)|&#x25CF;|
 
 
 ![screen_definition_hidden table relationship diagram](./media/screen_definition_hidden.png)
-
-[!include[details](./includes/screen-definition-hidden.md)]
 
 ## Indexes
 

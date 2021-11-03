@@ -1,27 +1,27 @@
 ---
-uid: table-projstatusgrouplink
-title: projstatusgrouplink table
+uid: table-ProjStatusGroupLink
+title: ProjStatusGroupLink table
 description: User group link table for ProjStatus, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "ProjStatusGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# projstatusgrouplink Table (89)
+# ProjStatusGroupLink Table (89)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |projstatusgrouplink\_id|Primary key|PK| |
-|projstatus\_id|Link to ProjStatus list table|FK [projstatus](projstatus.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|projstatus\_id|Link to ProjStatus list table|FK [ProjStatus](projstatus.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ProjStatusGroupLink table relationship diagram](./media/ProjStatusGroupLink.png)
-
-[!include[details](./includes/ProjStatusGroupLink.md)]
 
 ## Indexes
 

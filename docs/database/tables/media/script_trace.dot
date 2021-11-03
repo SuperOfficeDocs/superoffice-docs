@@ -1,0 +1,12 @@
+digraph script_trace  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+script_trace[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+script_trace_run[fillcolor = "azure1"]
+script_trace -> associate [headlabel = "associate_id"]
+script_trace -> associate [label = "registered_associate_id"]
+script_trace -> associate [label = "updated_associate_id"]
+script_trace_run -> script_trace [label = "script_trace_id"]
+}

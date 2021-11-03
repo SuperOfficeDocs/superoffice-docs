@@ -1,12 +1,12 @@
 ---
-uid: table-ejscript-debug
-title: ejscript\_debug table
+uid: table-ejscript_debug
+title: ejscript_debug table
 description: This table contains information when debugging an ejscript
 so.generated: true
 keywords:
   - "database"
   - "ejscript_debug"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![ejscript_debug table relationship diagram](./media/ejscript_debug.png)
-
-[!include[details](./includes/ejscript-debug.md)]
 
 ## Indexes
 

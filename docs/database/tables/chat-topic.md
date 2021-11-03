@@ -1,12 +1,12 @@
 ---
-uid: table-chat-topic
-title: chat\_topic table
+uid: table-chat_topic
+title: chat_topic table
 description: This table contains chat topics.
 so.generated: true
 keywords:
   - "database"
   - "chat_topic"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,19 +21,19 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |description|The descriptiong for this topic.|String(255)|&#x25CF;|
-|language\_id|The reference to the associated customer language. NULL or -1 if not set.|FK [cust-lang](cust-lang.md)|&#x25CF;|
+|language\_id|The reference to the associated customer language. NULL or -1 if not set.|FK [cust_lang](cust-lang.md)|&#x25CF;|
 |welcome\_message|The welcome message sent to the customer when the chat session starts.|Clob|&#x25CF;|
 |last\_accept|The last time a session was accepted from the inside for this topic.|DateTime|&#x25CF;|
 |seconds\_pr\_accept|The average number of seconds per accept for this topic.|Int|&#x25CF;|
 |alert\_timeout|The number of seconds for an unanswered session before we alert|Int|&#x25CF;|
 |alert\_template|The reply template to use for alerting|Int|&#x25CF;|
 |alert\_recipient|The recipient(s) for the alert template|String(255)|&#x25CF;|
-|flags|Flags for this topic: show popup alert?, collect consent first?, use custom message?|Enum [chattopicflag](enums/chattopicflag.md)|&#x25CF;|
+|flags|Flags for this topic: show popup alert?, collect consent first?, use custom message?|Enum [ChatTopicFlag](enums/chattopicflag.md)|&#x25CF;|
 |name|The name of this chat topic|String(255)|&#x25CF;|
 |badge\_header|The badge header of the chat topic|String(255)|&#x25CF;|
 |warning\_new\_chat|Contains the user notify time in minutes|Int|&#x25CF;|
 |manager\_warning\_new\_chat|Contains the manager notify time in minutes|Int|&#x25CF;|
-|widget\_theme|Predefined themes for the chat widget|Enum [widgettheme](enums/widgettheme.md)|&#x25CF;|
+|widget\_theme|Predefined themes for the chat widget|Enum [WidgetTheme](enums/widgettheme.md)|&#x25CF;|
 |widget\_color|The base color of the widget|String(16)|&#x25CF;|
 |widget\_font|The font used in the widget|String(64)|&#x25CF;|
 |widget\_show\_logo|Indicates if the logo should be shown in the widget|Bool|&#x25CF;|
@@ -43,21 +43,21 @@ so.envir:
 |widget\_offline\_header|Offline text shown in widget header|String(255)|&#x25CF;|
 |widget\_offline\_message|Offline message shown in widget|String(1024)|&#x25CF;|
 |widget\_enable\_ticket|Enable ticket submission in offline mode|Bool|&#x25CF;|
-|category\_id|Category on ticket created from off-line request|FK [ej-category](ej-category.md)|&#x25CF;|
-|priority\_id|Priority on ticket created from off-line request|FK [ticket-priority](ticket-priority.md)|&#x25CF;|
-|widget\_offline\_fields|Required field when creating ticket in offline mode|Enum [widgetrequiredfields](enums/widgetrequiredfields.md)|&#x25CF;|
+|category\_id|Category on ticket created from off-line request|FK [ej_category](ej-category.md)|&#x25CF;|
+|priority\_id|Priority on ticket created from off-line request|FK [ticket_priority](ticket-priority.md)|&#x25CF;|
+|widget\_offline\_fields|Required field when creating ticket in offline mode|Enum [WidgetRequiredFields](enums/widgetrequiredfields.md)|&#x25CF;|
 |widget\_auto\_faq|Enable automatic FAQ suggestions|Bool|&#x25CF;|
-|kb\_category\_id|Root folder for FAQ suggestions|FK [kb-category](kb-category.md)|&#x25CF;|
+|kb\_category\_id|Root folder for FAQ suggestions|FK [kb_category](kb-category.md)|&#x25CF;|
 |widget\_pre\_form|Enable pre-chat form for anonymous users|Bool|&#x25CF;|
 |widget\_pre\_message|Message to be shown in a pre-chat|String(1024)|&#x25CF;|
-|widget\_required\_fields|Fields required to start a chat|Enum [widgetrequiredfields](enums/widgetrequiredfields.md)|&#x25CF;|
+|widget\_required\_fields|Fields required to start a chat|Enum [WidgetRequiredFields](enums/widgetrequiredfields.md)|&#x25CF;|
 |widget\_post\_form|Enable post chat form|Bool|&#x25CF;|
 |widget\_post\_header|Header text to show in post chat form|String(255)|&#x25CF;|
 |widget\_post\_message|Message text to show in post chat form|String(1024)|&#x25CF;|
 |widget\_post\_transcript|Enable transcript of chat session|Bool|&#x25CF;|
 |widget\_language|The language ISO code for the widget language|String(63)|&#x25CF;|
 |use\_opening\_hours|Whether to use opening hours or not.|Bool|&#x25CF;|
-|tzLocationId|Timezone used for the start/stop times for this topic.|FK [tzlocation](tzlocation.md)|&#x25CF;|
+|tzLocationId|Timezone used for the start/stop times for this topic.|FK [TZLocation](tzlocation.md)|&#x25CF;|
 |mon\_enabled|Whether open on Mondays.|Bool|&#x25CF;|
 |mon\_start|When opening hours start on Mondays. Only time-part is used.|DateTime|&#x25CF;|
 |mon\_stop|When opening hours stop on Mondays. Only time-part is used.|DateTime|&#x25CF;|
@@ -86,11 +86,13 @@ so.envir:
 |bot\_session\_created\_scriptid|Script id to run on new session.|FK [ejscript](ejscript.md)|&#x25CF;|
 |bot\_session\_changed\_scriptid|Script id to run when session state changes.|FK [ejscript](ejscript.md)|&#x25CF;|
 |bot\_message\_received\_scriptid|Script id to run when new messages received from customer.|FK [ejscript](ejscript.md)|&#x25CF;|
+|use\_lunch\_hours|Whether to use lunch hours or not.|Bool|&#x25CF;|
+|lunch\_start|When opening hours starts for lunch. Only time-part is used.|DateTime|&#x25CF;|
+|lunch\_stop|When opening hours stops for lunch. Only time-part is used.|DateTime|&#x25CF;|
+|widget\_agent\_use\_firstname|Whether to use the firstname of the agent in the chat widget.|Bool|&#x25CF;|
 
 
 ![chat_topic table relationship diagram](./media/chat_topic.png)
-
-[!include[details](./includes/chat-topic.md)]
 
 ## Indexes
 

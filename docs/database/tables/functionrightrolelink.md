@@ -1,27 +1,27 @@
 ---
-uid: table-functionrightrolelink
-title: functionrightrolelink table
+uid: table-FunctionRightRoleLink
+title: FunctionRightRoleLink table
 description: Functional right definition
 so.generated: true
 keywords:
   - "database"
   - "FunctionRightRoleLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# functionrightrolelink Table (194)
+# FunctionRightRoleLink Table (194)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |FunctionRightRoleLink\_id|Primary key|PK| |
-|roleId|Role id|FK [role](role.md)| |
-|functionRightId|Functional right id|FK [functionright](functionright.md)| |
+|roleId|Role id|FK [Role](role.md)| |
+|functionRightId|Functional right id|FK [FunctionRight](functionright.md)| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -31,8 +31,6 @@ so.envir:
 
 
 ![FunctionRightRoleLink table relationship diagram](./media/FunctionRightRoleLink.png)
-
-[!include[details](./includes/FunctionRightRoleLink.md)]
 
 ## Indexes
 

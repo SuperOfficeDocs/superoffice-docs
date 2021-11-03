@@ -1,21 +1,21 @@
 ---
-uid: table-mrmrs
-title: mrmrs table
+uid: table-MrMrs
+title: MrMrs table
 description: MrMrs list table. List of salutations.
 so.generated: true
 keywords:
   - "database"
   - "MrMrs"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# mrmrs Table (94)
+# MrMrs Table (94)
 
-mrmrs MDO list item table.
+MrMrs MDO list item table.
 MrMrs list table. List of salutations.
 
 ## Fields
@@ -35,8 +35,6 @@ MrMrs list table. List of salutations.
 
 
 ![MrMrs table relationship diagram](./media/MrMrs.png)
-
-[!include[details](./includes/MrMrs.md)]
 
 ## Indexes
 

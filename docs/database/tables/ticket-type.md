@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-type
-title: ticket\_type table
+uid: table-ticket_type
+title: ticket_type table
 description: Contains ticket types, used to drive processing logic together with ticket relations
 so.generated: true
 keywords:
   - "database"
   - "ticket_type"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![ticket_type table relationship diagram](./media/ticket_type.png)
-
-[!include[details](./includes/ticket-type.md)]
 
 ## Indexes
 

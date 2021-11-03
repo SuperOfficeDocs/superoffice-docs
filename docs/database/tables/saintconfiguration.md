@@ -1,19 +1,19 @@
 ---
-uid: table-saintconfiguration
-title: saintconfiguration table
+uid: table-SaintConfiguration
+title: SaintConfiguration table
 description: Configuration information for the Saint system
 so.generated: true
 keywords:
   - "database"
   - "SaintConfiguration"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# saintconfiguration Table (458)
+# SaintConfiguration Table (458)
 
 ## Fields
 

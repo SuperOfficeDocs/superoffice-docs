@@ -1,12 +1,12 @@
 ---
-uid: table-s-message
-title: s\_message table
+uid: table-s_message
+title: s_message table
 description: A message used in a shipment. Can be html and/or plain text
 so.generated: true
 keywords:
   - "database"
   - "s_message"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,7 +26,7 @@ so.envir:
 |description|Describes this message|String(255)|&#x25CF;|
 |subject|The mail subject field of the message|String(255)|&#x25CF;|
 |header\_field|Extra header fields added to mail. Must be formatted correctly|Clob|&#x25CF;|
-|flags|Identifies if HTML or plain message is included in message.|Enum [shipmentmessagetype](enums/shipmentmessagetype.md)| |
+|flags|Identifies if HTML or plain message is included in message.|Enum [ShipmentMessageType](enums/shipmentmessagetype.md)| |
 |folder\_id|The folder which this message belongs to. -1 indicates that the message is on the root|Int| |
 |inline\_images|Should images be included inline?|Bool|&#x25CF;|
 |register\_views|Register message views?|Bool|&#x25CF;|
@@ -39,12 +39,10 @@ so.envir:
 |document\_message|The SM document used as template for this mailing|FK [document](document.md)|&#x25CF;|
 |long\_description|A field for a long description of this template|String(4000)|&#x25CF;|
 |design|Will contain the design part of a message. The format will vary based on the type of designer used to create the message|Clob|&#x25CF;|
-|designtype|Enum containing the type of the design|Enum [designtype](enums/designtype.md)| |
+|designtype|Enum containing the type of the design|Enum [DesignType](enums/designtype.md)| |
 
 
 ![s_message table relationship diagram](./media/s_message.png)
-
-[!include[details](./includes/s-message.md)]
 
 ## Indexes
 

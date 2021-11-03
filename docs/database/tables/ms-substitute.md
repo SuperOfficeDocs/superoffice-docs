@@ -1,12 +1,12 @@
 ---
-uid: table-ms-substitute
-title: ms\_substitute table
+uid: table-ms_substitute
+title: ms_substitute table
 description: Regexp for extracting info from emails when they enter they system
 so.generated: true
 keywords:
   - "database"
   - "ms_substitute"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,16 +20,14 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|ms\_filter\_id||FK [ms-filter](ms-filter.md)| |
+|ms\_filter\_id||FK [ms_filter](ms-filter.md)| |
 |parser\_name|The name of the variable as used in the parser.|String(255)|&#x25CF;|
 |the\_regexp|The regular expression searched for.|String(255)|&#x25CF;|
-|subst\_type|Enum indicating the target domain for this regexp (customer connection, parser, etc).|subst-type|&#x25CF;|
+|subst\_type|Enum indicating the target domain for this regexp (customer connection, parser, etc).|subst_type|&#x25CF;|
 |flags|Bitmap for flags for this entry.|Int|&#x25CF;|
 
 
 ![ms_substitute table relationship diagram](./media/ms_substitute.png)
-
-[!include[details](./includes/ms-substitute.md)]
 
 ## Indexes
 

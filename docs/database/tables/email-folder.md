@@ -1,27 +1,27 @@
 ---
-uid: table-email-folder
-title: email\_folder table
+uid: table-email_folder
+title: email_folder table
 description: Corresponds to an email folder on a mail server
 so.generated: true
 keywords:
   - "database"
   - "email_folder"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_folder Table (475)
+# email\_folder Table (481)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |email\_folder\_id|Primary key|PK| |
-|account\_id|Account id|FK [email-account](email-account.md)|&#x25CF;|
-|parent\_folder\_id|Parent folder|FK [email-folder](email-folder.md)|&#x25CF;|
+|account\_id|Account id|FK [email_account](email-account.md)|&#x25CF;|
+|parent\_folder\_id|Parent folder|FK [email_folder](email-folder.md)|&#x25CF;|
 |name|Folder name|String(255)|&#x25CF;|
 |attributes|Folder attributes like Subscribed, HasChildren, Junk, Sent...|Int|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![email_folder table relationship diagram](./media/email_folder.png)
-
-[!include[details](./includes/email-folder.md)]
 
 ## Indexes
 

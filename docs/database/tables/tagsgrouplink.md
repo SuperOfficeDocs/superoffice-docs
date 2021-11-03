@@ -1,27 +1,27 @@
 ---
-uid: table-tagsgrouplink
-title: tagsgrouplink table
+uid: table-TagsGroupLink
+title: TagsGroupLink table
 description: User group link table for Tags, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "TagsGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# tagsgrouplink Table (460)
+# TagsGroupLink Table (460)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |tagsgrouplink\_id|Primary key|PK| |
-|tags\_id|Link to Tags list table|FK [tags](tags.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|tags\_id|Link to Tags list table|FK [Tags](tags.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |

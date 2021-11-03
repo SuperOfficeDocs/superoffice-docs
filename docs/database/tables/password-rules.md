@@ -1,12 +1,12 @@
 ---
-uid: table-password-rules
-title: password\_rules table
+uid: table-password_rules
+title: password_rules table
 description: This table may contain one entry specifying rules for passwords.
 so.generated: true
 keywords:
   - "database"
   - "password_rules"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![password_rules table relationship diagram](./media/password_rules.png)
-
-[!include[details](./includes/password-rules.md)]
 
 ## Indexes
 

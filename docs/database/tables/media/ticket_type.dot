@@ -1,0 +1,14 @@
+digraph ticket_type  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_type[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+ticket_relation_type[fillcolor = "azure1"]
+ticket_type -> associate [headlabel = "registered_associate_id"]
+ticket_type -> associate [label = "updated_associate_id"]
+ticket -> ticket_type [label = "ticket_type"]
+ticket_relation_type -> ticket_type [label = "source_type"]
+ticket_relation_type -> ticket_type [label = "target_type"]
+}

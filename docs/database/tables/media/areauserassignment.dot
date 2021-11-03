@@ -1,0 +1,12 @@
+digraph areauserassignment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+areauserassignment[fillcolor = "cadetblue1"]
+area[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+areauserassignment -> area [headlabel = "area_id"]
+areauserassignment -> associate [headlabel = "associate_id"]
+areauserassignment -> associate [label = "registered_associate_id"]
+areauserassignment -> associate [label = "updated_associate_id"]
+}

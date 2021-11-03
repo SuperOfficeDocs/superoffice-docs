@@ -1,32 +1,32 @@
 ---
-uid: table-sorpublish
-title: sorpublish table
+uid: table-SORPublish
+title: SORPublish table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
   - "SORPublish"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sorpublish Table (174)
+# SORPublish Table (174)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORPublish\_id|Primary key|PK| |
-|SORTemplate\_id|Owning template|FK [sortemplate](sortemplate.md)| |
+|SORTemplate\_id|Owning template|FK [SORTemplate](sortemplate.md)| |
 |name|Template name|String(239)| |
 |nameResId|Resource ID for translatable tempalte names; otherwise 0|UInt| |
 |associate\_id|Owner id; 0=SO standard template; 0xFFFFFFFF=owner is Template User (?)|FK [associate](associate.md)| |
 |cCount|Label template: column count; Calendar Week: work start hour; otherwise unused (0)|UShort| |
 |descriptionResId|ResId of description if translatable text|UInt| |
-|defaultLabelLayout|Default template ID|FK [sorlabellayout](sorlabellayout.md)| |
+|defaultLabelLayout|Default template ID|FK [SORLabelLayout](sorlabellayout.md)| |
 |forceDefault|Don&apos;t ask the user if there is a default, just use it|UShort| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -39,8 +39,6 @@ so.envir:
 
 
 ![SORPublish table relationship diagram](./media/SORPublish.png)
-
-[!include[details](./includes/SORPublish.md)]
 
 ## Indexes
 

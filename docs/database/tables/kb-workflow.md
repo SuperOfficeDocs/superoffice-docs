@@ -1,12 +1,12 @@
 ---
-uid: table-kb-workflow
-title: kb\_workflow table
+uid: table-kb_workflow
+title: kb_workflow table
 description: Knowledge base workflow steps
 so.generated: true
 keywords:
   - "database"
   - "kb_workflow"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|next|The next workflow phase.|FK [kb-workflow](kb-workflow.md)| |
-|previous|The previous workflow phase.|FK [kb-workflow](kb-workflow.md)| |
+|next|The next workflow phase.|FK [kb_workflow](kb-workflow.md)| |
+|previous|The previous workflow phase.|FK [kb_workflow](kb-workflow.md)| |
 |name||String(255)|&#x25CF;|
 
 
 ![kb_workflow table relationship diagram](./media/kb_workflow.png)
-
-[!include[details](./includes/kb-workflow.md)]
 
 ## Indexes
 

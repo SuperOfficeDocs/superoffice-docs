@@ -1,12 +1,12 @@
 ---
-uid: table-ej-role
-title: ej\_role table
+uid: table-ej_role
+title: ej_role table
 description: Define access rights, memberships and other properties for role user members
 so.generated: true
 keywords:
   - "database"
   - "ej_role"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![ej_role table relationship diagram](./media/ej_role.png)
-
-[!include[details](./includes/ej-role.md)]
 
 ## Indexes
 

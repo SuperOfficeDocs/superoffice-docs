@@ -1,12 +1,12 @@
 ---
-uid: table-temporary-words
-title: temporary\_words table
+uid: table-temporary_words
+title: temporary_words table
 description: This table is used as a temporary table, containing the words we want                  to search for in the FAQs
 so.generated: true
 keywords:
   - "database"
   - "temporary_words"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![temporary_words table relationship diagram](./media/temporary_words.png)
-
-[!include[details](./includes/temporary-words.md)]
 
 ## Indexes
 

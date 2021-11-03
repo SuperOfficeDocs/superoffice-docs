@@ -1,26 +1,26 @@
 ---
-uid: table-olefield
-title: olefield table
+uid: table-OLEField
+title: OLEField table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
   - "OLEField"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# olefield Table (165)
+# OLEField Table (165)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |OLEField\_id|Primary key|PK| |
-|OLEView\_id|Owner subject|FK [oleview](oleview.md)| |
+|OLEView\_id|Owner subject|FK [OLEView](oleview.md)| |
 |fieldId|SODBIF field ID (including table!)|FieldId| |
 |predefined|1 = predefined subject, do not change|UShort| |
 |datatype|Data type, same as in dictionary|UShort| |
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![OLEField table relationship diagram](./media/OLEField.png)
-
-[!include[details](./includes/OLEField.md)]
 
 ## Indexes
 

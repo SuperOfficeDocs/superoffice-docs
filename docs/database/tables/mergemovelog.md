@@ -1,19 +1,19 @@
 ---
-uid: table-mergemovelog
-title: mergemovelog table
+uid: table-MergeMoveLog
+title: MergeMoveLog table
 description: Log of merge and move operations (person, contact, project)
 so.generated: true
 keywords:
   - "database"
   - "MergeMoveLog"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# mergemovelog Table (37)
+# MergeMoveLog Table (37)
 
 ## Fields
 
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![MergeMoveLog table relationship diagram](./media/MergeMoveLog.png)
-
-[!include[details](./includes/MergeMoveLog.md)]
 
 ## Indexes
 

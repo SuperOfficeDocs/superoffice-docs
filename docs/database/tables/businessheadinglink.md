@@ -1,27 +1,27 @@
 ---
-uid: table-businessheadinglink
-title: businessheadinglink table
+uid: table-BusinessHeadingLink
+title: BusinessHeadingLink table
 description: Heading link table for Business, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "BusinessHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# businessheadinglink Table (63)
+# BusinessHeadingLink Table (63)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |businessheadinglink\_id|Primary key|PK| |
-|business\_id|Link to Business list table|FK [business](business.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|business\_id|Link to Business list table|FK [Business](business.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![BusinessHeadingLink table relationship diagram](./media/BusinessHeadingLink.png)
-
-[!include[details](./includes/BusinessHeadingLink.md)]
 
 ## Indexes
 

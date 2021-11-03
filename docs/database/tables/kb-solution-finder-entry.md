@@ -1,12 +1,12 @@
 ---
-uid: table-kb-solution-finder-entry
-title: kb\_solution\_finder\_entry table
+uid: table-kb_solution_finder_entry
+title: kb_solution_finder_entry table
 description: Knowledge base problem solving wizard, items in a category linking to a knowledge base entry
 so.generated: true
 keywords:
   - "database"
   - "kb_solution_finder_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,13 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|solution\_finder||FK [kb-solution-finder](kb-solution-finder.md)| |
-|kb\_entry||FK [kb-entry](kb-entry.md)| |
+|solution\_finder||FK [kb_solution_finder](kb-solution-finder.md)| |
+|kb\_entry||FK [kb_entry](kb-entry.md)| |
 
 
 ![kb_solution_finder_entry table relationship diagram](./media/kb_solution_finder_entry.png)
-
-[!include[details](./includes/kb-solution-finder-entry.md)]
 
 ## Indexes
 

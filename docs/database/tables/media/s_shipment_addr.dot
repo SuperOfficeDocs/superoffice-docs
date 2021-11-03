@@ -1,0 +1,17 @@
+digraph s_shipment_addr  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_shipment_addr[fillcolor = "cadetblue1"]
+s_shipment[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+form_submission[fillcolor = "azure1"]
+s_shipment_addr -> s_shipment [headlabel = "shipment_id"]
+s_shipment_addr -> person [headlabel = "customer_id"]
+s_shipment_addr -> ticket [headlabel = "ticket_id"]
+s_shipment_addr -> contact [headlabel = "contact_id"]
+s_shipment_addr -> form_submission [headlabel = "form_submission_id"]
+form_submission -> s_shipment_addr [label = "response_shipment_addr_id"]
+}

@@ -5,7 +5,7 @@ description: Lists the enum values for WidgetRequiredFields.
 so.generated: true
 keywords:
   - "database"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,6 +23,7 @@ Fields required to start a chat
 |Name|2|Name field is required|
 |Company|4|Company field is required|
 |Phone|8|Phone field is required|
+|Country|16|Country field is required|
 
 ## Usage
 

@@ -1,0 +1,15 @@
+digraph PriceList  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PriceList[fillcolor = "cadetblue1"]
+QuoteConnection[fillcolor = "azure1"]
+Currency[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+Product[fillcolor = "azure1"]
+PriceList -> QuoteConnection [headlabel = "QuoteConnectionId"]
+PriceList -> Currency [headlabel = "CurrencyId"]
+PriceList -> associate [headlabel = "registered_associate_id"]
+PriceList -> associate [label = "updated_associate_id"]
+Product -> PriceList [label = "PriceListId"]
+}

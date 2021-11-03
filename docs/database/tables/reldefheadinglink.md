@@ -1,19 +1,19 @@
 ---
-uid: table-reldefheadinglink
-title: reldefheadinglink table
+uid: table-RelDefHeadingLink
+title: RelDefHeadingLink table
 description: Heading link table for RelDef, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "RelDefHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# reldefheadinglink Table (50)
+# RelDefHeadingLink Table (50)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |reldefheadinglink\_id|Primary key|PK| |
 |reldef\_id|Link to RelDef list table|FK [relationdefinition](relationdefinition.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![RelDefHeadingLink table relationship diagram](./media/RelDefHeadingLink.png)
-
-[!include[details](./includes/RelDefHeadingLink.md)]
 
 ## Indexes
 

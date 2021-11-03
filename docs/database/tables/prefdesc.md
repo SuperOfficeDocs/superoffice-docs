@@ -1,19 +1,19 @@
 ---
-uid: table-prefdesc
-title: prefdesc table
-description: Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
+uid: table-PrefDesc
+title: PrefDesc table
+description: Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http;//techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
 so.generated: true
 keywords:
   - "database"
   - "PrefDesc"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# prefdesc Table (184)
+# PrefDesc Table (184)
 
 ## Fields
 
@@ -23,10 +23,10 @@ so.envir:
 |prefsection|Preference section name|String(199)| |
 |prefkey|Preference key name|String(199)| |
 |name|Multi-language name|String(254)|&#x25CF;|
-|valueType|1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID|Enum [prefdescvaluetype](enums/prefdescvaluetype.md)|&#x25CF;|
-|maxLevel|Lowest allowed setting level, set by user, but not lower than sysMaxLevel|Enum [preferencelevel](enums/preferencelevel.md)|&#x25CF;|
-|sysMaxLevel|Lowest allowed setting level, set by SuperOffice|Enum [preferencelevel](enums/preferencelevel.md)|&#x25CF;|
-|accessFlags|1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui|Enum [prefdescaccessflags](enums/prefdescaccessflags.md)|&#x25CF;|
+|valueType|1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID|Enum [PrefDescValueType](enums/prefdescvaluetype.md)|&#x25CF;|
+|maxLevel|Lowest allowed setting level, set by user, but not lower than sysMaxLevel|Enum [PreferenceLevel](enums/preferencelevel.md)|&#x25CF;|
+|sysMaxLevel|Lowest allowed setting level, set by SuperOffice|Enum [PreferenceLevel](enums/preferencelevel.md)|&#x25CF;|
+|accessFlags|1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui|Enum [PrefDescAccessFlags](enums/prefdescaccessflags.md)|&#x25CF;|
 |maxValue|Max value (if type 1); list table ID (if type 5)|Int|&#x25CF;|
 |minValue|Min value (if type 1); list extra id (if type 5)|Int|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -43,8 +43,6 @@ so.envir:
 
 
 ![PrefDesc table relationship diagram](./media/PrefDesc.png)
-
-[!include[details](./includes/PrefDesc.md)]
 
 ## Indexes
 

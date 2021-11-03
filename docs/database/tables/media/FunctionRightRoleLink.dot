@@ -1,0 +1,13 @@
+digraph FunctionRightRoleLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+FunctionRightRoleLink[fillcolor = "cadetblue1"]
+Role[fillcolor = "azure1"]
+FunctionRight[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+FunctionRightRoleLink -> Role [headlabel = "roleId"]
+FunctionRightRoleLink -> FunctionRight [headlabel = "functionRightId"]
+FunctionRightRoleLink -> associate [headlabel = "registered_associate_id"]
+FunctionRightRoleLink -> associate [label = "updated_associate_id"]
+}

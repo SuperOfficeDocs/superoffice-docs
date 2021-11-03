@@ -1,29 +1,29 @@
 ---
-uid: table-dataright
-title: dataright table
+uid: table-DataRight
+title: DataRight table
 description: Data right definition
 so.generated: true
 keywords:
   - "database"
   - "DataRight"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dataright Table (195)
+# DataRight Table (195)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |DataRight\_id|Primary key|PK| |
-|roleId|Role this dataright is valid for|FK [role](role.md)| |
+|roleId|Role this dataright is valid for|FK [Role](role.md)| |
 |tableId|ID of table this right is valid for|TableNumber| |
 |fieldId|ID of field this right is valid for. 0 = whole table. Must correspond to tableId!|FieldId| |
-|relationToOwner|How is the owner related to the target -  0 = Owner, 1 = Primary group, 2 = Other, 3 = Other group, 4 = External, 5 = Anonymous, 6 = My company, 7 = Same project, 8 = Other to external, 9 = Hide this relation (used with ShownOtherCompanyAssoc functional right)|Enum [relationtoowner](enums/relationtoowner.md)| |
+|relationToOwner|How is the owner related to the target -  0 = Owner, 1 = Primary group, 2 = Other, 3 = Other group, 4 = External, 5 = Anonymous, 6 = My company, 7 = Same project, 8 = Other to external, 9 = Hide this relation (used with ShownOtherCompanyAssoc functional right)|Enum [RelationToOwner](enums/relationtoowner.md)| |
 |CRUD|Allowed operations, composed of characters indicating operations.|String(39)| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)| |
 |registered|Registered when|UtcDateTime| |
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![DataRight table relationship diagram](./media/DataRight.png)
-
-[!include[details](./includes/DataRight.md)]
 
 ## Indexes
 

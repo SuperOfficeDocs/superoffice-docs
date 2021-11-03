@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "travelcurrent"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,7 +35,7 @@ so.envir:
 |dbTag|128-bit database tag (in hex) of this database|String(39)| |
 |parentDbTag|128-bit database tag (in hex) of this database&apos;s parent database|String(39)| |
 |centralDbTag|128-bit database tag (in hex) of the central database|String(39)| |
-|encryptedComm|Use encrypted communication back to parent: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [travelencryptionown](enums/travelencryptionown.md)|&#x25CF;|
+|encryptedComm|Use encrypted communication back to parent: 0 = no, 1 = serial no as key, 2 = target db tag as key (secure but lots of hassle for support)|Enum [TravelEncryptionOwn](enums/travelencryptionown.md)|&#x25CF;|
 |defaultMakeReturn|Default value for the &apos;make return log&apos; checkbox, based on last answer|UShort|&#x25CF;|
 |adminLogin|Encrypted string containing user name &amp; password of DB user who has create/delete user authority for this database|String(127)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -46,8 +46,6 @@ so.envir:
 
 
 ![travelcurrent table relationship diagram](./media/travelcurrent.png)
-
-[!include[details](./includes/travelcurrent.md)]
 
 ## Indexes
 

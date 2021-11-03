@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "login"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,15 +29,13 @@ so.envir:
 |status|The status (enum) for this session.|Int| |
 |origin|1=soap call, 2=web pages|Int| |
 |error\_message|Stores the last error message recorded on this session|String(255)|&#x25CF;|
-|authentication\_type|The authentication type (enum) for this session.|authentication-type|&#x25CF;|
+|authentication\_type|The authentication type (enum) for this session.|authentication_type|&#x25CF;|
 |active\_menu|The currently active (open) left-menu for this session.|Int|&#x25CF;|
 |ns\_secret|Netserver login secret.|String(255)|&#x25CF;|
-|flags|Bitmask of flags for a service login session|Enum [loginflags](enums/loginflags.md)|&#x25CF;|
+|flags|Bitmask of flags for a service login session|Enum [LoginFlags](enums/loginflags.md)|&#x25CF;|
 
 
 ![login table relationship diagram](./media/login.png)
-
-[!include[details](./includes/login.md)]
 
 ## Indexes
 

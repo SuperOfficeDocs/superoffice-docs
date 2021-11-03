@@ -1,0 +1,17 @@
+digraph ticket_log_action  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_log_action[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+ej_message[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+ticket_log_change[fillcolor = "azure1"]
+ticket_log_action -> ticket [headlabel = "ticket_id"]
+ticket_log_action -> ticket [label = "org_ticket_id"]
+ticket_log_action -> ej_message [headlabel = "message_id"]
+ticket_log_action -> ejuser [headlabel = "user_id"]
+ticket_log_action -> person [headlabel = "customer_id"]
+ticket_log_change -> ticket_log_action [label = "action_id"]
+}

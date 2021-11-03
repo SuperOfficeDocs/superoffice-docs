@@ -1,12 +1,12 @@
 ---
-uid: table-s-bounce-shipment
-title: s\_bounce\_shipment table
+uid: table-s_bounce_shipment
+title: s_bounce_shipment table
 description: Email bounces from customers
 so.generated: true
 keywords:
   - "database"
   - "s_bounce_shipment"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|shipment\_id|The shipment this bounce belongs to|FK [s-shipment](s-shipment.md)| |
+|shipment\_id|The shipment this bounce belongs to|FK [s_shipment](s-shipment.md)| |
 |customer\_id|The customer this bounce came from|FK [person](person.md)| |
 |email|The email address for this particular bounce|String(255)|&#x25CF;|
 
 
 ![s_bounce_shipment table relationship diagram](./media/s_bounce_shipment.png)
-
-[!include[details](./includes/s-bounce-shipment.md)]
 
 ## Indexes
 

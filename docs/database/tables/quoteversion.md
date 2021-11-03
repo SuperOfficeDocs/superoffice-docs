@@ -1,19 +1,19 @@
 ---
-uid: table-quoteversion
-title: quoteversion table
+uid: table-QuoteVersion
+title: QuoteVersion table
 description: There may be multiple Versions of a Quote, with one of them active
 so.generated: true
 keywords:
   - "database"
   - "QuoteVersion"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# quoteversion Table (39)
+# QuoteVersion Table (39)
 
 ## Fields
 
@@ -21,14 +21,14 @@ so.envir:
 |------|-------------|------|:----:|
 |quoteversion\_id|Primary key|PK| |
 |ERPQuoteVersionKey|Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).|String(254)|&#x25CF;|
-|QuoteId|Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.|FK [quote](quote.md)| |
+|QuoteId|Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.|FK [Quote](quote.md)| |
 |Description|Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K.|String(2047)|&#x25CF;|
 |Number|A quote number that the user (or ERP connector) can fill out.|String(254)|&#x25CF;|
-|State|Current state of this quote version.|Enum [quoteversionstate](enums/quoteversionstate.md)|&#x25CF;|
-|ArchivedState|State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.|Enum [quoteversionstate](enums/quoteversionstate.md)|&#x25CF;|
-|Status|If there was a problem with for instance calculation, this field is set to warning or error.|Enum [quotestatus](enums/quotestatus.md)|&#x25CF;|
+|State|Current state of this quote version.|Enum [QuoteVersionState](enums/quoteversionstate.md)|&#x25CF;|
+|ArchivedState|State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.|Enum [QuoteVersionState](enums/quoteversionstate.md)|&#x25CF;|
+|Status|If there was a problem with for instance calculation, this field is set to warning or error.|Enum [QuoteStatus](enums/quotestatus.md)|&#x25CF;|
 |Reason|If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.|String(2047)|&#x25CF;|
-|LikelyQuoteAlternativeId|The alternative that is considered most likely to be accepted. Used to calculate probable income.|FK [quotealternative](quotealternative.md)|&#x25CF;|
+|LikelyQuoteAlternativeId|The alternative that is considered most likely to be accepted. Used to calculate probable income.|FK [QuoteAlternative](quotealternative.md)|&#x25CF;|
 |SentDate|The date the version was sent to the customer.|DateTime|&#x25CF;|
 |FollowupId|Link to a follow-up activity, created when this quote version was sent to the customer.|FK [appointment](appointment.md)|&#x25CF;|
 |ExpirationDate|Last date the quote Version is valid, expiration is at midnight end of this day.|DateTime|&#x25CF;|
@@ -59,8 +59,6 @@ so.envir:
 
 
 ![QuoteVersion table relationship diagram](./media/QuoteVersion.png)
-
-[!include[details](./includes/QuoteVersion.md)]
 
 ## Indexes
 

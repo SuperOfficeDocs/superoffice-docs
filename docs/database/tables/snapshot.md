@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "snapshot"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![snapshot table relationship diagram](./media/snapshot.png)
-
-[!include[details](./includes/snapshot.md)]
 
 ## Indexes
 

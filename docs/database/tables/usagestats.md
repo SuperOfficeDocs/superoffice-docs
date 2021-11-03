@@ -1,19 +1,19 @@
 ---
-uid: table-usagestats
-title: usagestats table
+uid: table-UsageStats
+title: UsageStats table
 description: Usage statistics
 so.generated: true
 keywords:
   - "database"
   - "UsageStats"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# usagestats Table (190)
+# UsageStats Table (190)
 
 ## Fields
 
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![UsageStats table relationship diagram](./media/UsageStats.png)
-
-[!include[details](./includes/UsageStats.md)]
 
 ## Indexes
 

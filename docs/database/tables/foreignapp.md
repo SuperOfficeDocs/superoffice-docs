@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreignapp"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![foreignapp table relationship diagram](./media/foreignapp.png)
-
-[!include[details](./includes/foreignapp.md)]
 
 ## Indexes
 

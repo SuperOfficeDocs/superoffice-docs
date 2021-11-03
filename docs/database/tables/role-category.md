@@ -1,12 +1,12 @@
 ---
-uid: table-role-category
-title: role\_category table
+uid: table-role_category
+title: role_category table
 description: Category membership associated with a role
 so.generated: true
 keywords:
   - "database"
   - "role_category"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|role|The id of the group. Deprecated.|FK [ej-role](ej-role.md)| |
-|category|The id of the category.|FK [ej-category](ej-category.md)| |
-|crm\_role|Link to Role|FK [role](role.md)|&#x25CF;|
+|role|The id of the group. Deprecated.|FK [ej_role](ej-role.md)| |
+|category|The id of the category.|FK [ej_category](ej-category.md)| |
+|crm\_role|Link to Role|FK [Role](role.md)|&#x25CF;|
 
 
 ![role_category table relationship diagram](./media/role_category.png)
-
-[!include[details](./includes/role-category.md)]
 
 ## Indexes
 

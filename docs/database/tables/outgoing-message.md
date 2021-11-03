@@ -1,12 +1,12 @@
 ---
-uid: table-outgoing-message
-title: outgoing\_message table
+uid: table-outgoing_message
+title: outgoing_message table
 description: Delivery of outgoing messages to messageplugins, updated with status asynchroneously
 so.generated: true
 keywords:
   - "database"
   - "outgoing_message"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![outgoing_message table relationship diagram](./media/outgoing_message.png)
-
-[!include[details](./includes/outgoing-message.md)]
 
 ## Indexes
 

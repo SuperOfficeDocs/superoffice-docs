@@ -1,0 +1,19 @@
+digraph dashboard_tile_definition  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dashboard_tile_definition[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+selection[fillcolor = "azure1"]
+Currency[fillcolor = "azure1"]
+dashboard_tile[fillcolor = "azure1"]
+dashboard_tile_field[fillcolor = "azure1"]
+dashboard_tile_definition -> associate [headlabel = "registered_associate_id"]
+dashboard_tile_definition -> associate [label = "updated_associate_id"]
+dashboard_tile_definition -> selection [headlabel = "selection_id"]
+dashboard_tile_definition -> Currency [headlabel = "currency_id"]
+dashboard_tile_definition -> selection [label = "secondary_selection_id"]
+selection -> dashboard_tile_definition [label = "dashboard_tile_definition_id"]
+dashboard_tile -> dashboard_tile_definition [label = "dashboard_tile_definition_id"]
+dashboard_tile_field -> dashboard_tile_definition [label = "dashboard_tile_definition_id"]
+}

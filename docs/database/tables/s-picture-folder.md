@@ -1,12 +1,12 @@
 ---
-uid: table-s-picture-folder
-title: s\_picture\_folder table
+uid: table-s_picture_folder
+title: s_picture_folder table
 description: This table contains all picture folders
 so.generated: true
 keywords:
   - "database"
   - "s_picture_folder"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![s_picture_folder table relationship diagram](./media/s_picture_folder.png)
-
-[!include[details](./includes/s-picture-folder.md)]
 
 ## Indexes
 

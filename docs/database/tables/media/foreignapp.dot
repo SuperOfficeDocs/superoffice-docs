@@ -1,0 +1,11 @@
+digraph foreignapp  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+foreignapp[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+foreigndevice[fillcolor = "azure1"]
+foreignapp -> associate [headlabel = "registered_associate_id"]
+foreignapp -> associate [label = "updated_associate_id"]
+foreigndevice -> foreignapp [label = "foreignapp_id"]
+}

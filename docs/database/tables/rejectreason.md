@@ -1,21 +1,21 @@
 ---
-uid: table-rejectreason
-title: rejectreason table
+uid: table-RejectReason
+title: RejectReason table
 description: Rejection reason (suggested) for bookings
 so.generated: true
 keywords:
   - "database"
   - "RejectReason"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# rejectreason Table (222)
+# RejectReason Table (222)
 
-rejectreason MDO list item table.
+RejectReason MDO list item table.
 Rejection reason (suggested) for bookings
 
 ## Fields
@@ -35,8 +35,6 @@ Rejection reason (suggested) for bookings
 
 
 ![RejectReason table relationship diagram](./media/RejectReason.png)
-
-[!include[details](./includes/RejectReason.md)]
 
 ## Indexes
 

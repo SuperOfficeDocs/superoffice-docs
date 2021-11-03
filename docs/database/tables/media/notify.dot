@@ -1,0 +1,18 @@
+digraph notify  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+notify[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+ej_category[fillcolor = "azure1"]
+chat_topic[fillcolor = "azure1"]
+ticket_alert[fillcolor = "azure1"]
+notify -> ejuser [headlabel = "user_id"]
+notify -> ejuser [label = "owner_id"]
+notify -> ticket [headlabel = "ticket_id"]
+notify -> ejuser [label = "user2_id"]
+notify -> ej_category [headlabel = "category_id"]
+notify -> chat_topic [headlabel = "chat_topic_id"]
+notify -> ticket_alert [headlabel = "ticket_alert_id"]
+}

@@ -1,0 +1,10 @@
+digraph kb_workflow_access  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_workflow_access[fillcolor = "cadetblue1"]
+kb_workflow[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+kb_workflow_access -> kb_workflow [headlabel = "kb_workflow"]
+kb_workflow_access -> ejuser [headlabel = "user_id"]
+}

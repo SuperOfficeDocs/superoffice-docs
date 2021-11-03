@@ -1,27 +1,27 @@
 ---
-uid: table-creditedheadinglink
-title: creditedheadinglink table
+uid: table-CreditedHeadingLink
+title: CreditedHeadingLink table
 description: Heading link table for Credited, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "CreditedHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# creditedheadinglink Table (99)
+# CreditedHeadingLink Table (99)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |creditedheadinglink\_id|Primary key|PK| |
-|credited\_id|Link to Credited list table|FK [credited](credited.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|credited\_id|Link to Credited list table|FK [Credited](credited.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![CreditedHeadingLink table relationship diagram](./media/CreditedHeadingLink.png)
-
-[!include[details](./includes/CreditedHeadingLink.md)]
 
 ## Indexes
 

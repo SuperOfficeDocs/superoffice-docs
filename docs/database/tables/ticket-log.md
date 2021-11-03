@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-log
-title: ticket\_log table
+uid: table-ticket_log
+title: ticket_log table
 description: This table contains log entries for the tickets.
 so.generated: true
 keywords:
   - "database"
   - "ticket_log"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |ticket\_id|The id of the ticket this entry is connected to.|FK [ticket](ticket.md)| |
-|log\_code|An enum indicating what kind of log-entry this is.|log-code|&#x25CF;|
+|log\_code|An enum indicating what kind of log-entry this is.|log_code|&#x25CF;|
 |log\_who|The username/alias of the user performing the action.|String(255)|&#x25CF;|
 |log\_when|When the action occured.|DateTime|&#x25CF;|
 |log\_description|A string describing the event (or part of such) to be logged.|Clob|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![ticket_log table relationship diagram](./media/ticket_log.png)
-
-[!include[details](./includes/ticket-log.md)]
 
 ## Indexes
 

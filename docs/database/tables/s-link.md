@@ -1,12 +1,12 @@
 ---
-uid: table-s-link
-title: s\_link table
+uid: table-s_link
+title: s_link table
 description: Links in messages to measure success rate of a campaign.
 so.generated: true
 keywords:
   - "database"
   - "s_link"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,25 +30,25 @@ so.envir:
 |folder\_id|The folder which this link belongs to. -1 indicates that the link is on the root|Int| |
 |script\_id|The ejScript which will be run when the link is clicked. -1 means no script is run|FK [ejscript](ejscript.md)| |
 |ticket\_title|The title on the ticket if the clicks results in creating a request.|String(255)|&#x25CF;|
-|ticket\_category|The id of the category a ticket is in.|FK [ej-category](ej-category.md)| |
-|ticket\_priority|The reference to the ticket_priority table.|FK [ticket-priority](ticket-priority.md)| |
+|ticket\_category|The id of the category a ticket is in.|FK [ej_category](ej-category.md)| |
+|ticket\_priority|The reference to the ticket_priority table.|FK [ticket_priority](ticket-priority.md)| |
 |ticket\_owned\_by|The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.|FK [ejuser](ejuser.md)| |
 |remove\_from\_selection|The id of the selection that the customer shall be removed from|FK [ejselection](ejselection.md)| |
 |add\_to\_selection|The id of the selection that the customer shall be added to|FK [ejselection](ejselection.md)| |
 |template\_text|Text to print when link is clicked.|Clob|&#x25CF;|
 |redirect\_is\_url|1 if url is used, 0 if custom text is used.|Bool| |
-|action\_flags|Bitmask defining what action should be taken|Enum [shipmentlinkaction](enums/shipmentlinkaction.md)|&#x25CF;|
-|add\_contact\_interest|Contact interest to add to recipient person|FK [contint](contint.md)|&#x25CF;|
-|remove\_contact\_interest|Person interest to remove from recipient person|FK [contint](contint.md)|&#x25CF;|
-|add\_person\_interest|Person interest to add to recipient person|FK [persint](persint.md)|&#x25CF;|
-|remove\_person\_interest|Person interest to remove from recipient person|FK [persint](persint.md)|&#x25CF;|
+|action\_flags|Bitmask defining what action should be taken|Enum [ShipmentLinkAction](enums/shipmentlinkaction.md)|&#x25CF;|
+|add\_contact\_interest|Contact interest to add to recipient person|FK [ContInt](contint.md)|&#x25CF;|
+|remove\_contact\_interest|Person interest to remove from recipient person|FK [ContInt](contint.md)|&#x25CF;|
+|add\_person\_interest|Person interest to add to recipient person|FK [PersInt](persint.md)|&#x25CF;|
+|remove\_person\_interest|Person interest to remove from recipient person|FK [PersInt](persint.md)|&#x25CF;|
 |add\_contact\_selection|Static contact selection to add person to|FK [selection](selection.md)|&#x25CF;|
 |remove\_contact\_selection|Static contact selection to remove person from|FK [selection](selection.md)|&#x25CF;|
 |add\_project|Project to add person to, as member|FK [project](project.md)|&#x25CF;|
 |remove\_project|Project to remove person from, as member|FK [project](project.md)|&#x25CF;|
 |task\_text|Text of task to be created|String(2047)|&#x25CF;|
-|task\_idx|Task type of new task|FK [task](task.md)|&#x25CF;|
-|task\_flags|Flags that control how the task is created|Enum [shipmentlinktaskflags](enums/shipmentlinktaskflags.md)|&#x25CF;|
+|task\_idx|Task type of new task|FK [Task](task.md)|&#x25CF;|
+|task\_flags|Flags that control how the task is created|Enum [ShipmentLinkTaskFlags](enums/shipmentlinktaskflags.md)|&#x25CF;|
 |task\_associate\_id|Associate whose diary should receive the task or assignment (unless AssignToOurContact is specified)|FK [associate](associate.md)|&#x25CF;|
 |task\_creating\_associate\_id|Associate who should stand as creator of task; also works as fallback if an assigned task is rejected. Usually the associate who ordered the shipment|FK [associate](associate.md)|&#x25CF;|
 |task\_project|Project to connect task to, can be 0|FK [project](project.md)|&#x25CF;|
@@ -62,8 +62,6 @@ so.envir:
 
 
 ![s_link table relationship diagram](./media/s_link.png)
-
-[!include[details](./includes/s-link.md)]
 
 ## Indexes
 

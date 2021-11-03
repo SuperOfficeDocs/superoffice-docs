@@ -1,27 +1,27 @@
 ---
-uid: table-persposheadinglink
-title: persposheadinglink table
+uid: table-PersPosHeadingLink
+title: PersPosHeadingLink table
 description: Heading link table for PersPos, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "PersPosHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# persposheadinglink Table (78)
+# PersPosHeadingLink Table (78)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |persposheadinglink\_id|Primary key|PK| |
-|perspos\_id|Link to PersPos list table|FK [perspos](perspos.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|perspos\_id|Link to PersPos list table|FK [PersPos](perspos.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![PersPosHeadingLink table relationship diagram](./media/PersPosHeadingLink.png)
-
-[!include[details](./includes/PersPosHeadingLink.md)]
 
 ## Indexes
 

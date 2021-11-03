@@ -1,26 +1,26 @@
 ---
-uid: table-erpsynclog
-title: erpsynclog table
+uid: table-ErpSyncLog
+title: ErpSyncLog table
 description: Record all field changes done by the Erp Sync
 so.generated: true
 keywords:
   - "database"
   - "ErpSyncLog"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# erpsynclog Table (426)
+# ErpSyncLog Table (426)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |erpsynclog\_id|Primary key|PK| |
-|ErpExternalKeyId|Link to the external key, indirectly also to the connection and internal key|FK [erpexternalkey](erpexternalkey.md)|&#x25CF;|
+|ErpExternalKeyId|Link to the external key, indirectly also to the connection and internal key|FK [ErpExternalKey](erpexternalkey.md)|&#x25CF;|
 |ErpFieldKey|ERP field name/key|String(254)|&#x25CF;|
 |CrmFieldKey|CRM field name/key|String(254)|&#x25CF;|
 |TargetIsCrm|Was the CRM field the target of the change? If false, then it was the ERP field that was changed by this sync operation|Bool|&#x25CF;|
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![ErpSyncLog table relationship diagram](./media/ErpSyncLog.png)
-
-[!include[details](./includes/ErpSyncLog.md)]
 
 ## Indexes
 

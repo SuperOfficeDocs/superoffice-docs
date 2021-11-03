@@ -1,12 +1,12 @@
 ---
-uid: table-quick-reply
-title: quick\_reply table
+uid: table-quick_reply
+title: quick_reply table
 description: Personal quick reply text fragments
 so.generated: true
 keywords:
   - "database"
   - "quick_reply"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![quick_reply table relationship diagram](./media/quick_reply.png)
-
-[!include[details](./includes/quick-reply.md)]
 
 ## Indexes
 

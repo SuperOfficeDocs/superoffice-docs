@@ -1,27 +1,27 @@
 ---
-uid: table-currencyheadinglink
-title: currencyheadinglink table
+uid: table-CurrencyHeadingLink
+title: CurrencyHeadingLink table
 description: Heading link table for Currency, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "CurrencyHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# currencyheadinglink Table (114)
+# CurrencyHeadingLink Table (114)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |currencyheadinglink\_id|Primary key|PK| |
-|currency\_id|Link to Currency list table|FK [currency](currency.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|currency\_id|Link to Currency list table|FK [Currency](currency.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![CurrencyHeadingLink table relationship diagram](./media/CurrencyHeadingLink.png)
-
-[!include[details](./includes/CurrencyHeadingLink.md)]
 
 ## Indexes
 

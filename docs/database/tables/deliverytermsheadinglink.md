@@ -1,27 +1,27 @@
 ---
-uid: table-deliverytermsheadinglink
-title: deliverytermsheadinglink table
+uid: table-DeliveryTermsHeadingLink
+title: DeliveryTermsHeadingLink table
 description: Heading link table for DeliveryTerms, for MDO item headings
 so.generated: true
 keywords:
   - "database"
   - "DeliveryTermsHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# deliverytermsheadinglink Table (435)
+# DeliveryTermsHeadingLink Table (435)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |deliverytermsheadinglink\_id|Primary key|PK| |
-|deliveryterms\_id|Link to DeliveryTerms list table|FK [deliveryterms](deliveryterms.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|deliveryterms\_id|Link to DeliveryTerms list table|FK [DeliveryTerms](deliveryterms.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![DeliveryTermsHeadingLink table relationship diagram](./media/DeliveryTermsHeadingLink.png)
-
-[!include[details](./includes/DeliveryTermsHeadingLink.md)]
 
 ## Indexes
 

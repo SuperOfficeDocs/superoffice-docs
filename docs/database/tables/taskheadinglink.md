@@ -1,27 +1,27 @@
 ---
-uid: table-taskheadinglink
-title: taskheadinglink table
+uid: table-TaskHeadingLink
+title: TaskHeadingLink table
 description: Heading link table for Task, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "TaskHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# taskheadinglink Table (69)
+# TaskHeadingLink Table (69)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |taskheadinglink\_id|Primary key|PK| |
-|task\_id|Link to Task list table|FK [task](task.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|task\_id|Link to Task list table|FK [Task](task.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![TaskHeadingLink table relationship diagram](./media/TaskHeadingLink.png)
-
-[!include[details](./includes/TaskHeadingLink.md)]
 
 ## Indexes
 

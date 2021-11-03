@@ -1,12 +1,12 @@
 ---
-uid: table-dbi-agent-field
-title: dbi\_agent\_field table
+uid: table-dbi_agent_field
+title: dbi_agent_field table
 description: DBI agent fields
 so.generated: true
 keywords:
   - "database"
   - "dbi_agent_field"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,13 +20,11 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|agent\_id|The agent owning this field|FK [dbi-agent](dbi-agent.md)| |
+|agent\_id|The agent owning this field|FK [dbi_agent](dbi-agent.md)| |
 |field\_name|Field name|String(255)|&#x25CF;|
 
 
 ![dbi_agent_field table relationship diagram](./media/dbi_agent_field.png)
-
-[!include[details](./includes/dbi-agent-field.md)]
 
 ## Indexes
 

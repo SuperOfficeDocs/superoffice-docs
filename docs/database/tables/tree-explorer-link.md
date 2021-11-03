@@ -1,12 +1,12 @@
 ---
-uid: table-tree-explorer-link
-title: tree\_explorer\_link table
+uid: table-tree_explorer_link
+title: tree_explorer_link table
 description: This table stores the link of entries in a tree-explorer
 so.generated: true
 keywords:
   - "database"
   - "tree_explorer_link"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|entry\_id|The id of the entry|FK [tree-explorer-entry](tree-explorer-entry.md)| |
+|entry\_id|The id of the entry|FK [tree_explorer_entry](tree-explorer-entry.md)| |
 |icon|The icon of the entry|String(255)|&#x25CF;|
 |href|The href of the entry|String(255)|&#x25CF;|
 |target|The target of the href of the entry|String(255)|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![tree_explorer_link table relationship diagram](./media/tree_explorer_link.png)
-
-[!include[details](./includes/tree-explorer-link.md)]
 
 ## Indexes
 

@@ -1,19 +1,19 @@
 ---
-uid: table-associategrouplink
-title: associategrouplink table
+uid: table-AssociateGroupLink
+title: AssociateGroupLink table
 description: User group link table for Associate, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "AssociateGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# associategrouplink Table (3)
+# AssociateGroupLink Table (3)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |associategrouplink\_id|Primary key|PK| |
 |associate\_id|Link to Associate list table|FK [associate](associate.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![AssociateGroupLink table relationship diagram](./media/AssociateGroupLink.png)
-
-[!include[details](./includes/AssociateGroupLink.md)]
 
 ## Indexes
 

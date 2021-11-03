@@ -1,12 +1,12 @@
 ---
-uid: table-tree-explorer-entry
-title: tree\_explorer\_entry table
+uid: table-tree_explorer_entry
+title: tree_explorer_entry table
 description: This table stores the entries in a tree-explorer
 so.generated: true
 keywords:
   - "database"
   - "tree_explorer_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|parent\_id|The parent id of the entry|FK [tree-explorer-entry](tree-explorer-entry.md)| |
+|parent\_id|The parent id of the entry|FK [tree_explorer_entry](tree-explorer-entry.md)| |
 |name|The name of the entry|String(255)| |
 |icon|The icon of the entry|String(255)|&#x25CF;|
 |onclick|The onclick action of the entry|String(255)|&#x25CF;|
@@ -37,8 +37,6 @@ so.envir:
 
 
 ![tree_explorer_entry table relationship diagram](./media/tree_explorer_entry.png)
-
-[!include[details](./includes/tree-explorer-entry.md)]
 
 ## Indexes
 

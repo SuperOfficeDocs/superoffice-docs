@@ -1,0 +1,10 @@
+digraph scheduled_task  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+scheduled_task[fillcolor = "cadetblue1"]
+ejscript[fillcolor = "azure1"]
+schedule[fillcolor = "azure1"]
+scheduled_task -> ejscript [headlabel = "script_id"]
+scheduled_task -> schedule [headlabel = "schedule_id"]
+}

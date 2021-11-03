@@ -1,19 +1,19 @@
 ---
-uid: table-consentsource
-title: consentsource table
+uid: table-ConsentSource
+title: ConsentSource table
 description: Consent source for GDPR
 so.generated: true
 keywords:
   - "database"
   - "ConsentSource"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# consentsource Table (465)
+# ConsentSource Table (466)
 
 ## Fields
 
@@ -25,7 +25,7 @@ so.envir:
 |tooltip|The tooltip for the list item|String(4000)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
 |key|The list item key, to be recognized by application logic|String(255)|&#x25CF;|
-|mailTemplate\_id|The document template to be used for sending &apos;You have been added to our system, is this ok&apos; emails when a new person is registered using this source|FK [doctmpl](doctmpl.md)|&#x25CF;|
+|mailTemplate\_id|The document template to be used for sending &apos;You have been added to our system, is this ok&apos; emails when a new person is registered using this source|FK [DocTmpl](doctmpl.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |

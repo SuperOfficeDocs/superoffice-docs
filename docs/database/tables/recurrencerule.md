@@ -1,27 +1,27 @@
 ---
-uid: table-recurrencerule
-title: recurrencerule table
+uid: table-RecurrenceRule
+title: RecurrenceRule table
 description: The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.
 so.generated: true
 keywords:
   - "database"
   - "RecurrenceRule"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# recurrencerule Table (207)
+# RecurrenceRule Table (207)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |RecurrenceRule\_id|Primary key|PK| |
-|pattern|Recurrence pattern (daily, weekly etc)|Enum [recurrencepattern](enums/recurrencepattern.md)| |
-|subPattern|Subpattern (workday, everyday, weekday etc)|Enum [recurrencesubpattern](enums/recurrencesubpattern.md)| |
+|pattern|Recurrence pattern (daily, weekly etc)|Enum [RecurrencePattern](enums/recurrencepattern.md)| |
+|subPattern|Subpattern (workday, everyday, weekday etc)|Enum [RecurrenceSubPattern](enums/recurrencesubpattern.md)| |
 |weekdays|Weekdays used, bitmask based on  ERecurrenceWeekDays enumeration|UShort| |
 |startDate|Start date for repetition pattern|DateTime| |
 |endDate|End date for repetition pattern|DateTime| |
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![RecurrenceRule table relationship diagram](./media/RecurrenceRule.png)
-
-[!include[details](./includes/RecurrenceRule.md)]
 
 ## Indexes
 

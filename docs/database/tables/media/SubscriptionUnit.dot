@@ -1,0 +1,13 @@
+digraph SubscriptionUnit  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SubscriptionUnit[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+SubscriptionUnitGroupLink[fillcolor = "azure1"]
+SubscriptionUnitHeadingLink[fillcolor = "azure1"]
+SubscriptionUnit -> associate [headlabel = "registered_associate_id"]
+SubscriptionUnit -> associate [label = "updated_associate_id"]
+SubscriptionUnitGroupLink -> SubscriptionUnit [label = "subscriptionunit_id"]
+SubscriptionUnitHeadingLink -> SubscriptionUnit [label = "subscriptionunit_id"]
+}

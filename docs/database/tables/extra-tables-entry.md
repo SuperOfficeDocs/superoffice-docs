@@ -1,12 +1,12 @@
 ---
-uid: table-extra-tables-entry
-title: extra\_tables\_entry table
+uid: table-extra_tables_entry
+title: extra_tables_entry table
 description: Hits/entries in result set of executed search in ejournal extra tables
 so.generated: true
 keywords:
   - "database"
   - "extra_tables_entry"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|extra\_tables\_result|The id of the result.|FK [extra-tables-result](extra-tables-result.md)| |
+|extra\_tables\_result|The id of the result.|FK [extra_tables_result](extra-tables-result.md)| |
 |entry\_id|The id of the entry in the extra table.|Int|&#x25CF;|
 |prev\_id|The id of the entry in the extra table.|Int|&#x25CF;|
 |next\_id|The id of the entry in the extra table.|Int|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![extra_tables_entry table relationship diagram](./media/extra_tables_entry.png)
-
-[!include[details](./includes/extra-tables-entry.md)]
 
 ## Indexes
 

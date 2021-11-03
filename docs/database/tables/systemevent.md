@@ -1,19 +1,19 @@
 ---
-uid: table-systemevent
-title: systemevent table
+uid: table-SystemEvent
+title: SystemEvent table
 description: System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated. 
 so.generated: true
 keywords:
   - "database"
   - "SystemEvent"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# systemevent Table (153)
+# SystemEvent Table (153)
 
 ## Fields
 
@@ -35,13 +35,12 @@ so.envir:
 
 ![SystemEvent table relationship diagram](./media/SystemEvent.png)
 
-[!include[details](./includes/SystemEvent.md)]
-
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |SystemEvent\_id |PK |Clustered, Unique |
+|eventkey, scope, owner |String(254), Id, Id |Unique |
 
 ## Replication Flags
 

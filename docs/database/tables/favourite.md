@@ -1,19 +1,19 @@
 ---
-uid: table-favourite
-title: favourite table
+uid: table-Favourite
+title: Favourite table
 description: Favourite records (star-marking)
 so.generated: true
 keywords:
   - "database"
   - "Favourite"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# favourite Table (455)
+# Favourite Table (455)
 
 ## Fields
 
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![Favourite table relationship diagram](./media/Favourite.png)
-
-[!include[details](./includes/Favourite.md)]
 
 ## Indexes
 

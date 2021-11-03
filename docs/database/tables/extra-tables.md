@@ -1,12 +1,12 @@
 ---
-uid: table-extra-tables
-title: extra\_tables table
+uid: table-extra_tables
+title: extra_tables table
 description: This table contains entries for the extra tables in the system.
 so.generated: true
 keywords:
   - "database"
   - "extra_tables"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,19 +28,17 @@ so.envir:
 |edit\_entry\_header|The header when editing an entry in this table.|String(255)|&#x25CF;|
 |hierarchy\_id|This extra table is inside this hierarchy folder|FK [hierarchy](hierarchy.md)| |
 |sort\_order|The default sort_order for this extra table.|String(255)|&#x25CF;|
-|display\_field|The default field to display for this extra table.|FK [extra-fields](extra-fields.md)|&#x25CF;|
+|display\_field|The default field to display for this extra table.|FK [extra_fields](extra-fields.md)|&#x25CF;|
 |flags|Bitmap for flags for this entry.|UInt|&#x25CF;|
-|parent\_field|If this table is hierarchically organized, then this field can contain a field which is a parent-field, creating a hierarchy.|FK [extra-tables](extra-tables.md)|&#x25CF;|
-|fullname\_field|If this table is hierarchically organized, then this field can contain a field which will be assigned a fullname, such as &amp;apos;Support/Hardware/Keyboards&amp;apos;.|FK [extra-tables](extra-tables.md)|&#x25CF;|
-|screen\_chooser\_entry|The screen chooser to use for this extra table when viewing an entry.|FK [screen-chooser](screen-chooser.md)|&#x25CF;|
-|screen\_chooser\_all|The screen chooser to use for this extra table when viewing the table.|FK [screen-chooser](screen-chooser.md)|&#x25CF;|
-|screen\_chooser\_edit|The screen chooser to use for this extra table when editing the table.|FK [screen-chooser](screen-chooser.md)|&#x25CF;|
+|parent\_field|If this table is hierarchically organized, then this field can contain a field which is a parent-field, creating a hierarchy.|FK [extra_tables](extra-tables.md)|&#x25CF;|
+|fullname\_field|If this table is hierarchically organized, then this field can contain a field which will be assigned a fullname, such as &amp;apos;Support/Hardware/Keyboards&amp;apos;.|FK [extra_tables](extra-tables.md)|&#x25CF;|
+|screen\_chooser\_entry|The screen chooser to use for this extra table when viewing an entry.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
+|screen\_chooser\_all|The screen chooser to use for this extra table when viewing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
+|screen\_chooser\_edit|The screen chooser to use for this extra table when editing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
 |description|Optional description of what this table is used for|String(2047)|&#x25CF;|
 
 
 ![extra_tables table relationship diagram](./media/extra_tables.png)
-
-[!include[details](./includes/extra-tables.md)]
 
 ## Indexes
 

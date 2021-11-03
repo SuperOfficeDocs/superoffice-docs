@@ -1,26 +1,26 @@
 ---
-uid: table-importfield
-title: importfield table
+uid: table-ImportField
+title: ImportField table
 description: Import object types - see localetext for names
 so.generated: true
 keywords:
   - "database"
   - "ImportField"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# importfield Table (187)
+# ImportField Table (187)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ImportField\_id|Primary key|PK| |
-|ImportObject\_id|The primary object type for this import field|FK [importobject](importobject.md)| |
+|ImportObject\_id|The primary object type for this import field|FK [ImportObject](importobject.md)| |
 |dbFieldId|Database field id of target field (implies table)|FieldId| |
 |guiCategory|Used for grouping objects in GUI; see LocaleText for name|Id| |
 |tag|Name of field, not visible to the user|String(11)|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![ImportField table relationship diagram](./media/ImportField.png)
-
-[!include[details](./includes/ImportField.md)]
 
 ## Indexes
 

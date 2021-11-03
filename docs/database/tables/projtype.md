@@ -1,21 +1,21 @@
 ---
-uid: table-projtype
-title: projtype table
+uid: table-ProjType
+title: ProjType table
 description: ProjType list table. List of valid Project types.
 so.generated: true
 keywords:
   - "database"
   - "ProjType"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# projtype Table (85)
+# ProjType Table (85)
 
-projtype MDO list item table.
+ProjType MDO list item table.
 ProjType list table. List of valid Project types.
 
 ## Fields
@@ -33,14 +33,12 @@ ProjType list table. List of valid Project types.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |projectDuration|Expected duration of project, in given units|Int|&#x25CF;|
-|durationUnit|Units for the duration|Enum [durationunit](enums/durationunit.md)|&#x25CF;|
+|durationUnit|Units for the duration|Enum [DurationUnit](enums/durationunit.md)|&#x25CF;|
 |hasGuide|Does this project type have a guide attached|Bool|&#x25CF;|
 |isAutoAdvance|Does the project status advance automatically, when the last guided activity in a status is completed?|Bool|&#x25CF;|
 
 
 ![ProjType table relationship diagram](./media/ProjType.png)
-
-[!include[details](./includes/ProjType.md)]
 
 ## Indexes
 

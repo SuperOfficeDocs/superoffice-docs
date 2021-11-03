@@ -1,12 +1,12 @@
 ---
-uid: table-invoice-type
-title: invoice\_type table
+uid: table-invoice_type
+title: invoice_type table
 description: A invoiceable item category (a product or service) that provides default invoice line values
 so.generated: true
 keywords:
   - "database"
   - "invoice_type"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,8 +27,6 @@ so.envir:
 
 
 ![invoice_type table relationship diagram](./media/invoice_type.png)
-
-[!include[details](./includes/invoice-type.md)]
 
 ## Indexes
 

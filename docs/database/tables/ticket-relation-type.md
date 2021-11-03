@@ -1,12 +1,12 @@
 ---
-uid: table-ticket-relation-type
-title: ticket\_relation\_type table
+uid: table-ticket_relation_type
+title: ticket_relation_type table
 description: Contains ticket relation types, used to drive processing logic together with ticket relations
 so.generated: true
 keywords:
   - "database"
   - "ticket_relation_type"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,8 +21,8 @@ so.envir:
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |name|Multi-language name, shown in the administrative GUI|String(2047)|&#x25CF;|
-|source\_type|Type of ticket that can be used as source for this type of relation|FK [ticket-type](ticket-type.md)|&#x25CF;|
-|target\_type|Type of ticket that can be used as target for this type of relation|FK [ticket-type](ticket-type.md)|&#x25CF;|
+|source\_type|Type of ticket that can be used as source for this type of relation|FK [ticket_type](ticket-type.md)|&#x25CF;|
+|target\_type|Type of ticket that can be used as target for this type of relation|FK [ticket_type](ticket-type.md)|&#x25CF;|
 |source\_label|Multi-language name of relation when viewed from source (&apos;caused by&apos;)|String(2047)|&#x25CF;|
 |target\_label|Multi-language name of relation when viewed from target (&apos;causes&apos;)|String(2047)|&#x25CF;|
 |rank|Display sort sequence for default sort order|UShort|&#x25CF;|
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![ticket_relation_type table relationship diagram](./media/ticket_relation_type.png)
-
-[!include[details](./includes/ticket-relation-type.md)]
 
 ## Indexes
 

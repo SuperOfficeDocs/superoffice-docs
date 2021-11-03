@@ -1,27 +1,27 @@
 ---
-uid: table-deliverytypeheadinglink
-title: deliverytypeheadinglink table
+uid: table-DeliveryTypeHeadingLink
+title: DeliveryTypeHeadingLink table
 description: Heading link table for DeliveryType, for MDO item headings
 so.generated: true
 keywords:
   - "database"
   - "DeliveryTypeHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# deliverytypeheadinglink Table (438)
+# DeliveryTypeHeadingLink Table (438)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |deliverytypeheadinglink\_id|Primary key|PK| |
-|deliverytype\_id|Link to DeliveryType list table|FK [deliverytype](deliverytype.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|deliverytype\_id|Link to DeliveryType list table|FK [DeliveryType](deliverytype.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![DeliveryTypeHeadingLink table relationship diagram](./media/DeliveryTypeHeadingLink.png)
-
-[!include[details](./includes/DeliveryTypeHeadingLink.md)]
 
 ## Indexes
 

@@ -1,0 +1,19 @@
+digraph CounterValue  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+CounterValue[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+Intent[fillcolor = "azure1"]
+AmountClass[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CounterValue -> contact [headlabel = "contact_id"]
+CounterValue -> person [headlabel = "person_id"]
+CounterValue -> project [headlabel = "project_id"]
+CounterValue -> Intent [headlabel = "intent_id"]
+CounterValue -> AmountClass [headlabel = "amountClassId"]
+CounterValue -> associate [headlabel = "registered_associate_id"]
+CounterValue -> associate [label = "updated_associate_id"]
+}

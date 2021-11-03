@@ -1,26 +1,26 @@
 ---
-uid: table-oleviewtext
-title: oleviewtext table
+uid: table-OLEViewText
+title: OLEViewText table
 description: Control data table for the OLE DB Provider
 so.generated: true
 keywords:
   - "database"
   - "OLEViewText"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# oleviewtext Table (164)
+# OLEViewText Table (164)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |OLEViewText\_id|Primary key|PK| |
-|OLEView\_id|OLE View|FK [olesubject](olesubject.md)| |
+|OLEView\_id|OLE View|FK [OLESubject](olesubject.md)| |
 |languageId|LCID (see locale help) of language|Id| |
 |name|OLE View name|String(29)| |
 |description|View name as shown in Reporter studio.|String(99)|&#x25CF;|
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![OLEViewText table relationship diagram](./media/OLEViewText.png)
-
-[!include[details](./includes/OLEViewText.md)]
 
 ## Indexes
 

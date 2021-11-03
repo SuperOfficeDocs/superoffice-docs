@@ -1,0 +1,13 @@
+digraph ComptrHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ComptrHeadingLink[fillcolor = "cadetblue1"]
+Comptr[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ComptrHeadingLink -> Comptr [headlabel = "comptr_id"]
+ComptrHeadingLink -> Heading [headlabel = "heading_id"]
+ComptrHeadingLink -> associate [headlabel = "registered_associate_id"]
+ComptrHeadingLink -> associate [label = "updated_associate_id"]
+}

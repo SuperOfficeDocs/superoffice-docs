@@ -1,19 +1,19 @@
 ---
-uid: table-batchtaskdefinition
-title: batchtaskdefinition table
+uid: table-BatchTaskDefinition
+title: BatchTaskDefinition table
 description: Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute
 so.generated: true
 keywords:
   - "database"
   - "BatchTaskDefinition"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# batchtaskdefinition Table (244)
+# BatchTaskDefinition Table (244)
 
 ## Fields
 
@@ -36,8 +36,6 @@ so.envir:
 
 
 ![BatchTaskDefinition table relationship diagram](./media/BatchTaskDefinition.png)
-
-[!include[details](./includes/BatchTaskDefinition.md)]
 
 ## Indexes
 

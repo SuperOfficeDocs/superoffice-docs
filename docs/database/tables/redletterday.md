@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "redletterday"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![redletterday table relationship diagram](./media/redletterday.png)
-
-[!include[details](./includes/redletterday.md)]
 
 ## Indexes
 

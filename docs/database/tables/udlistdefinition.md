@@ -1,19 +1,19 @@
 ---
-uid: table-udlistdefinition
-title: udlistdefinition table
+uid: table-UDListDefinition
+title: UDListDefinition table
 description: List table that contains the list of user-defined lists, as well as system-defined lists. The list items are stored in the UDList table. 
 so.generated: true
 keywords:
   - "database"
   - "UDListDefinition"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# udlistdefinition Table (139)
+# UDListDefinition Table (139)
 
 ## Fields
 
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![UDListDefinition table relationship diagram](./media/UDListDefinition.png)
-
-[!include[details](./includes/UDListDefinition.md)]
 
 ## Indexes
 

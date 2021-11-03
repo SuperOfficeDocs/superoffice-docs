@@ -1,27 +1,27 @@
 ---
-uid: table-doctmplheadinglink
-title: doctmplheadinglink table
+uid: table-DocTmplHeadingLink
+title: DocTmplHeadingLink table
 description: Heading link table for DocTmpl, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "DocTmplHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# doctmplheadinglink Table (132)
+# DocTmplHeadingLink Table (132)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |doctmplheadinglink\_id|Primary key|PK| |
-|doctmpl\_id|Link to DocTmpl list table|FK [doctmpl](doctmpl.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|doctmpl\_id|Link to DocTmpl list table|FK [DocTmpl](doctmpl.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![DocTmplHeadingLink table relationship diagram](./media/DocTmplHeadingLink.png)
-
-[!include[details](./includes/DocTmplHeadingLink.md)]
 
 ## Indexes
 

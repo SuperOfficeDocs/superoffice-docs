@@ -1,0 +1,13 @@
+digraph PriceUnit  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PriceUnit[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+PriceUnitGroupLink[fillcolor = "azure1"]
+PriceUnitHeadingLink[fillcolor = "azure1"]
+PriceUnit -> associate [headlabel = "registered_associate_id"]
+PriceUnit -> associate [label = "updated_associate_id"]
+PriceUnitGroupLink -> PriceUnit [label = "priceunit_id"]
+PriceUnitHeadingLink -> PriceUnit [label = "priceunit_id"]
+}

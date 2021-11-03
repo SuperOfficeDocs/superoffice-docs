@@ -1,12 +1,12 @@
 ---
-uid: table-ext-field
-title: ext\_field table
+uid: table-ext_field
+title: ext_field table
 description: This table contains entries mapping an external field to an internal field. Used for database integration.
 so.generated: true
 keywords:
   - "database"
   - "ext_field"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|ext\_table|The reference to the associated ext_table|FK [ext-table](ext-table.md)|&#x25CF;|
+|ext\_table|The reference to the associated ext_table|FK [ext_table](ext-table.md)|&#x25CF;|
 |seq\_order|The column number for this field. Strictly ascending.|Int|&#x25CF;|
 |name|The name for this field.|String(255)|&#x25CF;|
 |target|The target for this field. E.g. &amp;apos;customer.name&amp;apos;. |String(64)|&#x25CF;|
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![ext_field table relationship diagram](./media/ext_field.png)
-
-[!include[details](./includes/ext-field.md)]
 
 ## Indexes
 

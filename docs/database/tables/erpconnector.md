@@ -1,19 +1,19 @@
 ---
-uid: table-erpconnector
-title: erpconnector table
+uid: table-ErpConnector
+title: ErpConnector table
 description: One ERP Connector, known by its URL
 so.generated: true
 keywords:
   - "database"
   - "ErpConnector"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# erpconnector Table (417)
+# ErpConnector Table (417)
 
 ## Fields
 
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![ErpConnector table relationship diagram](./media/ErpConnector.png)
-
-[!include[details](./includes/ErpConnector.md)]
 
 ## Indexes
 

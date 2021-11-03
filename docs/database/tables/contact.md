@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "contact"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,8 +27,8 @@ so.envir:
 |number2|Alphanumeric user field|String(49)|&#x25CF;|
 |associate\_id|Our contact|FK [associate](associate.md)|&#x25CF;|
 |country\_id|Country|FK [country](country.md)| |
-|business\_idx|Link to Business|FK [business](business.md)| |
-|category\_idx|Link to Category|FK [category](category.md)| |
+|business\_idx|Link to Business|FK [Business](business.md)| |
+|category\_idx|Link to Category|FK [Category](category.md)| |
 |xstop|STOP flag|Bool|&#x25CF;|
 |nomailing|No mailings flags|Bool|&#x25CF;|
 |registered|Date registered|UtcDateTime| |
@@ -37,21 +37,21 @@ so.envir:
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |text\_id|Paperclip note|FK [text](text.md)|&#x25CF;|
 |mother\_id|Reserved|FK [contact](contact.md)|&#x25CF;|
-|userdef\_id|User defined table record 1|FK [udcontactsmall](udcontactsmall.md)|&#x25CF;|
+|userdef\_id|User defined table record 1|FK [udcontactSmall](udcontactsmall.md)|&#x25CF;|
 |orgNr|VAT number or similar|String(49)|&#x25CF;|
 |soundEx|What the name sounds like, for duplicate detection|String(9)|&#x25CF;|
 |source|How did we get this contact? For future integration needs|UShort|&#x25CF;|
-|userdef2\_id|User defined table record 2|FK [udcontactlarge](udcontactlarge.md)|&#x25CF;|
+|userdef2\_id|User defined table record 2|FK [udcontactLarge](udcontactlarge.md)|&#x25CF;|
 |activeInterests|Number of records in cintr table; select count(*) from cintr ci where ci.contact_id = this.contact_id == activeInterests is always true|UShort|&#x25CF;|
 |updatedCount|Number of times updated|UShort| |
-|group\_id|Group id of original owning associate, semantics like appnt.grp_id|FK [usergroup](usergroup.md)|&#x25CF;|
-|tzLocationId|Default timezone location for this contact|FK [tzlocation](tzlocation.md)|&#x25CF;|
-|ticketPriorityId|Default ticket priority for new tickets|FK [ticket-priority](ticket-priority.md)|&#x25CF;|
+|group\_id|Group id of original owning associate, semantics like appnt.grp_id|FK [UserGroup](usergroup.md)|&#x25CF;|
+|tzLocationId|Default timezone location for this contact|FK [TZLocation](tzlocation.md)|&#x25CF;|
+|ticketPriorityId|Default ticket priority for new tickets|FK [ticket_priority](ticket-priority.md)|&#x25CF;|
 |deleted|If nonzero, then this contact is &apos;deleted&apos; and should generally not be shown|UShort|&#x25CF;|
-|supportLanguageId|Customers language (does not necessarily map to ISO languages)|FK [cust-lang](cust-lang.md)|&#x25CF;|
+|supportLanguageId|Customers language (does not necessarily map to ISO languages)|FK [cust_lang](cust-lang.md)|&#x25CF;|
 |supportAssociateId|Our contact, but for support context, not sales/primary contact|FK [associate](associate.md)|&#x25CF;|
 |supportPersonId|The person (at the customer) who support talks to (the counterpart of supportAssociateId)|FK [person](person.md)|&#x25CF;|
-|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi-agent](dbi-agent.md)|&#x25CF;|
+|dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)|&#x25CF;|
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)|&#x25CF;|
 |dbi\_last\_syncronized|Last external syncronization.|DateTime|&#x25CF;|
 |dbi\_last\_modified|When the entry was last modified.|DateTime|&#x25CF;|
@@ -60,8 +60,6 @@ so.envir:
 
 
 ![contact table relationship diagram](./media/contact.png)
-
-[!include[details](./includes/contact.md)]
 
 ## Indexes
 

@@ -1,0 +1,13 @@
+digraph PMembTypeHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PMembTypeHeadingLink[fillcolor = "cadetblue1"]
+PMembType[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PMembTypeHeadingLink -> PMembType [headlabel = "pmembtype_id"]
+PMembTypeHeadingLink -> Heading [headlabel = "heading_id"]
+PMembTypeHeadingLink -> associate [headlabel = "registered_associate_id"]
+PMembTypeHeadingLink -> associate [label = "updated_associate_id"]
+}

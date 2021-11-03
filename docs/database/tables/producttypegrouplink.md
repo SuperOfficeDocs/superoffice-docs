@@ -1,27 +1,27 @@
 ---
-uid: table-producttypegrouplink
-title: producttypegrouplink table
+uid: table-ProductTypeGroupLink
+title: ProductTypeGroupLink table
 description: User group link table for ProductType, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "ProductTypeGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# producttypegrouplink Table (415)
+# ProductTypeGroupLink Table (415)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |producttypegrouplink\_id|Primary key|PK| |
-|producttype\_id|Link to ProductType list table|FK [producttype](producttype.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|producttype\_id|Link to ProductType list table|FK [ProductType](producttype.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ProductTypeGroupLink table relationship diagram](./media/ProductTypeGroupLink.png)
-
-[!include[details](./includes/ProductTypeGroupLink.md)]
 
 ## Indexes
 

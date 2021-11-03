@@ -1,12 +1,12 @@
 ---
-uid: table-log-debug
-title: log\_debug table
+uid: table-log_debug
+title: log_debug table
 description: A log used for debugging, especially useful for bLogic/ejscript
 so.generated: true
 keywords:
   - "database"
   - "log_debug"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![log_debug table relationship diagram](./media/log_debug.png)
-
-[!include[details](./includes/log-debug.md)]
 
 ## Indexes
 

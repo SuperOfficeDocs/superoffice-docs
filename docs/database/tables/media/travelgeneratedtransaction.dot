@@ -1,0 +1,12 @@
+digraph travelgeneratedtransaction  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+travelgeneratedtransaction[fillcolor = "cadetblue1"]
+traveltransactionlog[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+travelgeneratedtransaction -> traveltransactionlog [headlabel = "tranlogfirst_id"]
+travelgeneratedtransaction -> traveltransactionlog [label = "tranloglast_id"]
+travelgeneratedtransaction -> associate [headlabel = "registered_associate_id"]
+travelgeneratedtransaction -> associate [label = "updated_associate_id"]
+}

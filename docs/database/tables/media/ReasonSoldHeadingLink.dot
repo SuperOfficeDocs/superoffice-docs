@@ -1,0 +1,13 @@
+digraph ReasonSoldHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ReasonSoldHeadingLink[fillcolor = "cadetblue1"]
+ReasonSold[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ReasonSoldHeadingLink -> ReasonSold [headlabel = "reasonsold_id"]
+ReasonSoldHeadingLink -> Heading [headlabel = "heading_id"]
+ReasonSoldHeadingLink -> associate [headlabel = "registered_associate_id"]
+ReasonSoldHeadingLink -> associate [label = "updated_associate_id"]
+}

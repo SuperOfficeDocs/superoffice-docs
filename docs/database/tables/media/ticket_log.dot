@@ -1,0 +1,8 @@
+digraph ticket_log  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_log[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+ticket_log -> ticket [headlabel = "ticket_id"]
+}

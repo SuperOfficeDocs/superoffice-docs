@@ -1,21 +1,21 @@
 ---
-uid: table-pmembtype
-title: pmembtype table
+uid: table-PMembType
+title: PMembType table
 description: PMembType list table. List text of titles (member types) for project members.
 so.generated: true
 keywords:
   - "database"
   - "PMembType"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# pmembtype Table (91)
+# PMembType Table (91)
 
-pmembtype MDO list item table.
+PMembType MDO list item table.
 PMembType list table. List text of titles (member types) for project members.
 
 ## Fields
@@ -35,8 +35,6 @@ PMembType list table. List text of titles (member types) for project members.
 
 
 ![PMembType table relationship diagram](./media/PMembType.png)
-
-[!include[details](./includes/PMembType.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-kb-category-log
-title: kb\_category\_log table
+uid: table-kb_category_log
+title: kb_category_log table
 description: Who and when, if somebody edits a knowledge base folder
 so.generated: true
 keywords:
   - "database"
   - "kb_category_log"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,14 +20,12 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
-|kb\_category\_id|The id of the kb_category that triggered this action.|FK [kb-category](kb-category.md)| |
+|kb\_category\_id|The id of the kb_category that triggered this action.|FK [kb_category](kb-category.md)| |
 |user\_id|The id of the user that created this comment.|FK [ejuser](ejuser.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
 
 
 ![kb_category_log table relationship diagram](./media/kb_category_log.png)
-
-[!include[details](./includes/kb-category-log.md)]
 
 ## Indexes
 

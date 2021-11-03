@@ -1,19 +1,19 @@
 ---
-uid: table-service-auth
-title: service\_auth table
+uid: table-service_auth
+title: service_auth table
 description: Authentication for a service (imap, smtp...)
 so.generated: true
 keywords:
   - "database"
   - "service_auth"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# service\_auth Table (476)
+# service\_auth Table (482)
 
 ## Fields
 
@@ -31,13 +31,11 @@ so.envir:
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |associate\_id|Associate who owns this authentication entry|FK [associate](associate.md)|&#x25CF;|
-|auth\_status|The status of this authentication entry|Enum [serviceauthstatus](enums/serviceauthstatus.md)|&#x25CF;|
+|auth\_status|The status of this authentication entry|Enum [ServiceAuthStatus](enums/serviceauthstatus.md)|&#x25CF;|
 |encryptedCheck|Encrypted hash checksum|String(254)| |
 
 
 ![service_auth table relationship diagram](./media/service_auth.png)
-
-[!include[details](./includes/service-auth.md)]
 
 ## Indexes
 

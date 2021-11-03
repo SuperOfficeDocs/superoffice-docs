@@ -1,19 +1,19 @@
 ---
-uid: table-shipmenttypereservation
-title: shipmenttypereservation table
+uid: table-ShipmentTypeReservation
+title: ShipmentTypeReservation table
 description: ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 so.generated: true
 keywords:
   - "database"
   - "ShipmentTypeReservation"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# shipmenttypereservation Table (485)
+# ShipmentTypeReservation Table (491)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |ShipmentTypeReservation\_id|Primary key|PK| |
 |person\_id|Owning person|FK [person](person.md)| |
-|ShipmentType\_id|Shipment type to reserve against|FK [shipmenttype](shipmenttype.md)| |
+|ShipmentType\_id|Shipment type to reserve against|FK [ShipmentType](shipmenttype.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |

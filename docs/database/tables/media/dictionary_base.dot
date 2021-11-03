@@ -1,0 +1,8 @@
+digraph dictionary_base  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dictionary_base[fillcolor = "cadetblue1"]
+dictionary[fillcolor = "azure1"]
+dictionary -> dictionary_base [label = "base_id"]
+}

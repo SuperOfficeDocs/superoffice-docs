@@ -1,0 +1,13 @@
+digraph service_auth  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+service_auth[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+email_account[fillcolor = "azure1"]
+service_auth -> associate [headlabel = "registered_associate_id"]
+service_auth -> associate [label = "updated_associate_id"]
+service_auth -> associate [label = "associate_id"]
+email_account -> service_auth [label = "incoming_auth"]
+email_account -> service_auth [label = "outgoing_auth"]
+}

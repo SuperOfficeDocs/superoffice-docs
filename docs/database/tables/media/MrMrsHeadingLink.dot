@@ -1,0 +1,13 @@
+digraph MrMrsHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+MrMrsHeadingLink[fillcolor = "cadetblue1"]
+MrMrs[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+MrMrsHeadingLink -> MrMrs [headlabel = "mrmrs_id"]
+MrMrsHeadingLink -> Heading [headlabel = "heading_id"]
+MrMrsHeadingLink -> associate [headlabel = "registered_associate_id"]
+MrMrsHeadingLink -> associate [label = "updated_associate_id"]
+}

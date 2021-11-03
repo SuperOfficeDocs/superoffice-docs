@@ -1,0 +1,13 @@
+digraph ConnectionConfigField  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ConnectionConfigField[fillcolor = "cadetblue1"]
+ErpConnection[fillcolor = "azure1"]
+QuoteConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ConnectionConfigField -> ErpConnection [headlabel = "ErpConnectionId"]
+ConnectionConfigField -> QuoteConnection [headlabel = "QuoteConnectionId"]
+ConnectionConfigField -> associate [headlabel = "registered_associate_id"]
+ConnectionConfigField -> associate [label = "updated_associate_id"]
+}

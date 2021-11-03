@@ -1,0 +1,13 @@
+digraph LicenseSatlLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+LicenseSatlLink[fillcolor = "cadetblue1"]
+ModuleLicense[fillcolor = "azure1"]
+satellite[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+LicenseSatlLink -> ModuleLicense [headlabel = "moduleLicenseId"]
+LicenseSatlLink -> satellite [headlabel = "satelliteId"]
+LicenseSatlLink -> associate [headlabel = "registered_associate_id"]
+LicenseSatlLink -> associate [label = "updated_associate_id"]
+}

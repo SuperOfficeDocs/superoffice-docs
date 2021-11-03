@@ -1,0 +1,11 @@
+digraph outgoing_message  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+outgoing_message[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sms[fillcolor = "azure1"]
+outgoing_message -> associate [headlabel = "registered_associate_id"]
+outgoing_message -> associate [label = "updated_associate_id"]
+sms -> outgoing_message [label = "outgoing_message_id"]
+}

@@ -1,19 +1,19 @@
 ---
-uid: table-tzlocation
-title: tzlocation table
+uid: table-TZLocation
+title: TZLocation table
 description: Time zone location
 so.generated: true
 keywords:
   - "database"
   - "TZLocation"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# tzlocation Table (245)
+# TZLocation Table (245)
 
 ## Fields
 
@@ -38,8 +38,6 @@ so.envir:
 
 
 ![TZLocation table relationship diagram](./media/TZLocation.png)
-
-[!include[details](./includes/TZLocation.md)]
 
 ## Indexes
 

@@ -1,19 +1,19 @@
 ---
-uid: table-legalbase
-title: legalbase table
+uid: table-LegalBase
+title: LegalBase table
 description: Legal base for GDPR (Article 6)
 so.generated: true
 keywords:
   - "database"
   - "LegalBase"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# legalbase Table (464)
+# LegalBase Table (465)
 
 ## Fields
 

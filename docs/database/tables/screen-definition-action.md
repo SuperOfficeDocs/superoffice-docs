@@ -1,12 +1,12 @@
 ---
-uid: table-screen-definition-action
-title: screen\_definition\_action table
+uid: table-screen_definition_action
+title: screen_definition_action table
 description: An action to perform for a certain button in an screen
 so.generated: true
 keywords:
   - "database"
   - "screen_definition_action"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,7 +20,7 @@ so.envir:
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|screen\_definition|The screen-definition this element belongs to|FK [screen-definition](screen-definition.md)|&#x25CF;|
+|screen\_definition|The screen-definition this element belongs to|FK [screen_definition](screen-definition.md)|&#x25CF;|
 |button|The name of the button triggering this action|String(255)|&#x25CF;|
 |ejscript|Deprecated. The ejscript to execute if this is a form which is posted|FK [ejscript](ejscript.md)|&#x25CF;|
 |ejscript\_body|The script to execute for this button/action|Clob|&#x25CF;|
@@ -28,8 +28,6 @@ so.envir:
 
 
 ![screen_definition_action table relationship diagram](./media/screen_definition_action.png)
-
-[!include[details](./includes/screen-definition-action.md)]
 
 ## Indexes
 

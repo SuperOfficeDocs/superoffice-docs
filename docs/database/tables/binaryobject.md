@@ -1,19 +1,19 @@
 ---
-uid: table-binaryobject
-title: binaryobject table
+uid: table-BinaryObject
+title: BinaryObject table
 description: Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items
 so.generated: true
 keywords:
   - "database"
   - "BinaryObject"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# binaryobject Table (205)
+# BinaryObject Table (205)
 
 ## Fields
 
@@ -37,8 +37,6 @@ so.envir:
 
 
 ![BinaryObject table relationship diagram](./media/BinaryObject.png)
-
-[!include[details](./includes/BinaryObject.md)]
 
 ## Indexes
 

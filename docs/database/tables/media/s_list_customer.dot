@@ -1,0 +1,10 @@
+digraph s_list_customer  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_list_customer[fillcolor = "cadetblue1"]
+s_list[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+s_list_customer -> s_list [headlabel = "list_id"]
+s_list_customer -> person [headlabel = "customer_id"]
+}

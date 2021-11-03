@@ -1,19 +1,19 @@
 ---
-uid: table-cachetables
-title: cachetables table
+uid: table-CacheTables
+title: CacheTables table
 description: Specifies which tables should be cached to local files (or otherwise), generally these are the lists and other low-frequency-of-change tables. Contains the ID of any tables cached in SOCache. The files are binary and called &lt;tablename&gt;.bin.  &lt;Shift&gt;+&lt;F5&gt; throws all cache files. 
 so.generated: true
 keywords:
   - "database"
   - "CacheTables"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# cachetables Table (148)
+# CacheTables Table (148)
 
 ## Fields
 
@@ -27,8 +27,6 @@ so.envir:
 
 
 ![CacheTables table relationship diagram](./media/CacheTables.png)
-
-[!include[details](./includes/CacheTables.md)]
 
 ## Indexes
 

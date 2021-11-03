@@ -1,29 +1,29 @@
 ---
-uid: table-email-item
-title: email\_item table
+uid: table-email_item
+title: email_item table
 description: Email data
 so.generated: true
 keywords:
   - "database"
   - "email_item"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_item Table (477)
+# email\_item Table (483)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |email\_item\_id|Primary key|PK| |
-|account\_id|Account id|FK [email-account](email-account.md)|&#x25CF;|
+|account\_id|Account id|FK [email_account](email-account.md)|&#x25CF;|
 |server\_id|Email server id of this email item|Int| |
-|flags|Email flags - answered, deleted, seen, flagged, draft, recent...|Enum [emailflags](enums/emailflags.md)|&#x25CF;|
-|email\_folder\_id|Folder this email is in on the imap server|FK [email-folder](email-folder.md)|&#x25CF;|
+|flags|Email flags - answered, deleted, seen, flagged, draft, recent...|Enum [EMailFlags](enums/emailflags.md)|&#x25CF;|
+|email\_folder\_id|Folder this email is in on the imap server|FK [email_folder](email-folder.md)|&#x25CF;|
 |mime|Mime text|Clob|&#x25CF;|
 |messageId|Email MessageId|String(512)|&#x25CF;|
 |sent\_at|Sent datetime from mime|DateTime|&#x25CF;|
@@ -31,7 +31,7 @@ so.envir:
 |subject|Email subject|String(255)|&#x25CF;|
 |plain\_body|Plain body text|Clob|&#x25CF;|
 |html\_body|Html body text|Clob|&#x25CF;|
-|priority|Email priority|Enum [emailpriority](enums/emailpriority.md)|&#x25CF;|
+|priority|Email priority|Enum [EMailPriority](enums/emailpriority.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -53,8 +53,6 @@ so.envir:
 
 
 ![email_item table relationship diagram](./media/email_item.png)
-
-[!include[details](./includes/email-item.md)]
 
 ## Indexes
 

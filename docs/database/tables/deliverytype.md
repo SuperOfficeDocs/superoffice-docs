@@ -1,21 +1,21 @@
 ---
-uid: table-deliverytype
-title: deliverytype table
+uid: table-DeliveryType
+title: DeliveryType table
 description: The list of Delivery types, in the internal product register
 so.generated: true
 keywords:
   - "database"
   - "DeliveryType"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# deliverytype Table (436)
+# DeliveryType Table (436)
 
-deliverytype MDO list item table.
+DeliveryType MDO list item table.
 The list of Delivery types, in the internal product register
 
 ## Fields
@@ -35,8 +35,6 @@ The list of Delivery types, in the internal product register
 
 
 ![DeliveryType table relationship diagram](./media/DeliveryType.png)
-
-[!include[details](./includes/DeliveryType.md)]
 
 ## Indexes
 

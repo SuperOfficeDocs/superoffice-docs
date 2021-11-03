@@ -1,19 +1,19 @@
 ---
-uid: table-webappusage
-title: webappusage table
+uid: table-WebAppUsage
+title: WebAppUsage table
 description: Usage statistics for web applications
 so.generated: true
 keywords:
   - "database"
   - "WebAppUsage"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# webappusage Table (249)
+# WebAppUsage Table (249)
 
 ## Fields
 
@@ -29,8 +29,6 @@ so.envir:
 
 
 ![WebAppUsage table relationship diagram](./media/WebAppUsage.png)
-
-[!include[details](./includes/WebAppUsage.md)]
 
 ## Indexes
 

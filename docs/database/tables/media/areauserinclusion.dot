@@ -1,0 +1,12 @@
+digraph areauserinclusion  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+areauserinclusion[fillcolor = "cadetblue1"]
+area[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+areauserinclusion -> area [headlabel = "area_id"]
+areauserinclusion -> associate [headlabel = "associate_id"]
+areauserinclusion -> associate [label = "registered_associate_id"]
+areauserinclusion -> associate [label = "updated_associate_id"]
+}

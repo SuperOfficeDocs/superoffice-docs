@@ -1,0 +1,14 @@
+digraph QuoteConnectionAccess  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteConnectionAccess[fillcolor = "cadetblue1"]
+QuoteConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+QuoteConnectionAccess -> QuoteConnection [headlabel = "QuoteConnectionId"]
+QuoteConnectionAccess -> associate [headlabel = "AssociateId"]
+QuoteConnectionAccess -> UserGroup [headlabel = "UserGroupId"]
+QuoteConnectionAccess -> associate [label = "registered_associate_id"]
+QuoteConnectionAccess -> associate [label = "updated_associate_id"]
+}

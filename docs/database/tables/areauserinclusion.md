@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "areauserinclusion"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![areauserinclusion table relationship diagram](./media/areauserinclusion.png)
-
-[!include[details](./includes/areauserinclusion.md)]
 
 ## Indexes
 

@@ -1,0 +1,15 @@
+digraph ModuleLicense  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ModuleLicense[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ModuleOwner[fillcolor = "azure1"]
+LicenseAssocLink[fillcolor = "azure1"]
+LicenseSatlLink[fillcolor = "azure1"]
+ModuleLicense -> associate [headlabel = "registered_associate_id"]
+ModuleLicense -> associate [label = "updated_associate_id"]
+ModuleLicense -> ModuleOwner [headlabel = "ModuleOwner_id"]
+LicenseAssocLink -> ModuleLicense [label = "moduleLicenseId"]
+LicenseSatlLink -> ModuleLicense [label = "moduleLicenseId"]
+}

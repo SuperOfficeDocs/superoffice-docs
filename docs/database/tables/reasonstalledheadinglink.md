@@ -1,27 +1,27 @@
 ---
-uid: table-reasonstalledheadinglink
-title: reasonstalledheadinglink table
+uid: table-ReasonStalledHeadingLink
+title: ReasonStalledHeadingLink table
 description: Heading link table for ReasonStalled, for MDO headers
 so.generated: true
 keywords:
   - "database"
   - "ReasonStalledHeadingLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# reasonstalledheadinglink Table (156)
+# ReasonStalledHeadingLink Table (156)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |reasonstalledheadinglink\_id|Primary key|PK| |
-|reasonstalled\_id|Link to ReasonStalled list table|FK [reasonstalled](reasonstalled.md)| |
-|heading\_id|Link to Heading table|FK [heading](heading.md)| |
+|reasonstalled\_id|Link to ReasonStalled list table|FK [ReasonStalled](reasonstalled.md)| |
+|heading\_id|Link to Heading table|FK [Heading](heading.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![ReasonStalledHeadingLink table relationship diagram](./media/ReasonStalledHeadingLink.png)
-
-[!include[details](./includes/ReasonStalledHeadingLink.md)]
 
 ## Indexes
 

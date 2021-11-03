@@ -1,26 +1,26 @@
 ---
-uid: table-audiencelayoutlink
-title: audiencelayoutlink table
+uid: table-AudienceLayoutLink
+title: AudienceLayoutLink table
 description: Link between an audience layout and some target grouping table - might be Role or Category
 so.generated: true
 keywords:
   - "database"
   - "AudienceLayoutLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# audiencelayoutlink Table (235)
+# AudienceLayoutLink Table (235)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |AudienceLayoutLink\_id|Primary key|PK| |
-|audienceLayoutId|The name of the installed instance of Audience - must match the web.config file|FK [audiencelayout](audiencelayout.md)| |
+|audienceLayoutId|The name of the installed instance of Audience - must match the web.config file|FK [AudienceLayout](audiencelayout.md)| |
 |targetTable|Table number of target table - entity that the layout is valid for|TableNumber| |
 |targetRecord|ID of record in target table that this layout is valid for|RecordId| |
 |comment|A possible user comment when making this link|String(254)|&#x25CF;|
@@ -32,8 +32,6 @@ so.envir:
 
 
 ![AudienceLayoutLink table relationship diagram](./media/AudienceLayoutLink.png)
-
-[!include[details](./includes/AudienceLayoutLink.md)]
 
 ## Indexes
 

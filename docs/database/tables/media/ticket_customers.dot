@@ -1,0 +1,10 @@
+digraph ticket_customers  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_customers[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+ticket_customers -> ticket [headlabel = "ticket_id"]
+ticket_customers -> person [headlabel = "customer_id"]
+}

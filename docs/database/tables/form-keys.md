@@ -1,12 +1,12 @@
 ---
-uid: table-form-keys
-title: form\_keys table
+uid: table-form_keys
+title: form_keys table
 description: Keys that makes sure a form is not posted twice
 so.generated: true
 keywords:
   - "database"
   - "form_keys"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,8 +25,6 @@ so.envir:
 
 
 ![form_keys table relationship diagram](./media/form_keys.png)
-
-[!include[details](./includes/form-keys.md)]
 
 ## Indexes
 

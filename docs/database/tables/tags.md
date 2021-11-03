@@ -1,21 +1,21 @@
 ---
-uid: table-tags
-title: tags table
+uid: table-Tags
+title: Tags table
 description: MDO List of tags for Service entities
 so.generated: true
 keywords:
   - "database"
   - "Tags"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# tags Table (459)
+# Tags Table (459)
 
-tags MDO list item table.
+Tags MDO list item table.
 MDO List of tags for Service entities
 
 ## Fields

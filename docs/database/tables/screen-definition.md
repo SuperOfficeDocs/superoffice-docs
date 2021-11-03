@@ -1,12 +1,12 @@
 ---
-uid: table-screen-definition
-title: screen\_definition table
+uid: table-screen_definition
+title: screen_definition table
 description: A configurable screen
 so.generated: true
 keywords:
   - "database"
   - "screen_definition"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,7 +24,7 @@ so.envir:
 |id\_string|A field for an id_string which may be used to access the screen|String(255)| |
 |hierarchy\_id|The screen definition is inside this hierarchy folder|FK [hierarchy](hierarchy.md)| |
 |screen\_key|This field holds the authentication key if used|String(255)| |
-|layout\_model|An enum for which layout model this screen is using.|layout-model|&#x25CF;|
+|layout\_model|An enum for which layout model this screen is using.|layout_model|&#x25CF;|
 |load\_script\_body|The ejscript to execute the first time this screen is loaded, e.g. for form loading|Clob|&#x25CF;|
 |load\_post\_cgi\_script\_body|The ejscript to execute after setFromCgi, e.g. when the page is submitted|Clob|&#x25CF;|
 |load\_final\_script\_body|The ejscript to execute just before the page is printed, after button/action scripts have been run|Clob|&#x25CF;|
@@ -35,8 +35,6 @@ so.envir:
 
 
 ![screen_definition table relationship diagram](./media/screen_definition.png)
-
-[!include[details](./includes/screen-definition.md)]
 
 ## Indexes
 

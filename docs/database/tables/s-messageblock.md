@@ -1,19 +1,19 @@
 ---
-uid: table-s-messageblock
-title: s\_messageblock table
+uid: table-s_messageblock
+title: s_messageblock table
 description: Contains a block of a mailing message, that can be reused in a mailing
 so.generated: true
 keywords:
   - "database"
   - "s_messageblock"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# s\_messageblock Table (480)
+# s\_messageblock Table (486)
 
 ## Fields
 

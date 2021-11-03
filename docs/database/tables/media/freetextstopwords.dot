@@ -1,0 +1,6 @@
+digraph freetextstopwords  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+freetextstopwords[fillcolor = "cadetblue1"]
+}

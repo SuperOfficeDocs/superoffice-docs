@@ -1,27 +1,27 @@
 ---
-uid: table-intentgrouplink
-title: intentgrouplink table
+uid: table-IntentGroupLink
+title: IntentGroupLink table
 description: User group link table for Intent, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "IntentGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# intentgrouplink Table (217)
+# IntentGroupLink Table (217)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |intentgrouplink\_id|Primary key|PK| |
-|intent\_id|Link to Intent list table|FK [intent](intent.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|intent\_id|Link to Intent list table|FK [Intent](intent.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![IntentGroupLink table relationship diagram](./media/IntentGroupLink.png)
-
-[!include[details](./includes/IntentGroupLink.md)]
 
 ## Indexes
 

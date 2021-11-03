@@ -1,12 +1,12 @@
 ---
-uid: table-user-candidate
-title: user\_candidate table
+uid: table-user_candidate
+title: user_candidate table
 description: This table will hold user candidate secrets
 so.generated: true
 keywords:
   - "database"
   - "user_candidate"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,8 +26,6 @@ so.envir:
 
 
 ![user_candidate table relationship diagram](./media/user_candidate.png)
-
-[!include[details](./includes/user-candidate.md)]
 
 ## Indexes
 

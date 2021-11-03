@@ -1,22 +1,22 @@
 ---
-uid: table-intent
-title: intent table
-description: Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com 
+uid: table-Intent
+title: Intent table
+description: Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "Intent"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# intent Table (216)
+# Intent Table (216)
 
-intent MDO list item table.
-Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com 
+Intent MDO list item table.
+Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 
 ## Fields
 
@@ -35,8 +35,6 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 
 
 ![Intent table relationship diagram](./media/Intent.png)
-
-[!include[details](./includes/Intent.md)]
 
 ## Indexes
 

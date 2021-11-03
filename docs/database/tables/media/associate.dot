@@ -1,0 +1,20 @@
+digraph associate  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+associate[fillcolor = "cadetblue1"]
+UserGroup[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+TZLocation[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+associate -> UserGroup [headlabel = "group_idx"]
+associate -> person [headlabel = "person_id"]
+associate -> associate [headlabel = "registered_associate_id"]
+associate -> associate [label = "updated_associate_id"]
+associate -> TZLocation [headlabel = "tzLocationId"]
+associate -> ejuser [headlabel = "ejuserId"]
+text -> associate [label = "owner_id" style="dashed"]
+RefCountRange -> associate [label = "traveller_id" style="dashed"]
+dashboard -> associate [label = "visible_for_associates" style="dashed"]
+dashboard -> associate [label = "pin_for_associates" style="dashed"]
+}

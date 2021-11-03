@@ -1,0 +1,11 @@
+digraph reply_template_folder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+reply_template_folder[fillcolor = "cadetblue1"]
+reply_template[fillcolor = "azure1"]
+ms_filter[fillcolor = "azure1"]
+reply_template_folder -> reply_template_folder [headlabel = "parent_id"]
+reply_template -> reply_template_folder [label = "folder_id"]
+ms_filter -> reply_template_folder [label = "autofaq_reply_category"]
+}

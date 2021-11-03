@@ -1,0 +1,10 @@
+digraph s_messageblock  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_messageblock[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+s_messageblock -> associate [headlabel = "associateId"]
+s_messageblock -> associate [label = "registered_associate_id"]
+s_messageblock -> associate [label = "updated_associate_id"]
+}

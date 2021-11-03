@@ -1,19 +1,19 @@
 ---
-uid: table-countrygrouplink
-title: countrygrouplink table
+uid: table-CountryGroupLink
+title: CountryGroupLink table
 description: User group link table for Country, for MDO item hiding
 so.generated: true
 keywords:
   - "database"
   - "CountryGroupLink"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# countrygrouplink Table (20)
+# CountryGroupLink Table (20)
 
 ## Fields
 
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |countrygrouplink\_id|Primary key|PK| |
 |country\_id|Link to Country list table|FK [country](country.md)| |
-|group\_id|Link to Group table|FK [usergroup](usergroup.md)| |
+|group\_id|Link to Group table|FK [UserGroup](usergroup.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -30,8 +30,6 @@ so.envir:
 
 
 ![CountryGroupLink table relationship diagram](./media/CountryGroupLink.png)
-
-[!include[details](./includes/CountryGroupLink.md)]
 
 ## Indexes
 

@@ -1,12 +1,12 @@
 ---
-uid: table-ej-message
-title: ej\_message table
+uid: table-ej_message
+title: ej_message table
 description: This table contains the messages listed under tickets.
 so.generated: true
 keywords:
   - "database"
   - "ej_message"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,10 +24,10 @@ so.envir:
 |search\_title|A copy of the title of the ticket, for search optimisation and simpler reporting.|String(255)| |
 |created\_at|When the message was posted.|DateTime|&#x25CF;|
 |created\_by|The id of the user who posted the message. The value 1 (system user) for externally posted messages.|FK [ejuser](ejuser.md)| |
-|type|The type of the message (plaintext/html).|Enum [ticketmessagetype](enums/ticketmessagetype.md)|&#x25CF;|
-|message\_category|Defines what kind of message this is.|Enum [ticketmessagecategory](enums/ticketmessagecategory.md)| |
+|type|The type of the message (plaintext/html).|Enum [TicketMessageType](enums/ticketmessagetype.md)|&#x25CF;|
+|message\_category|Defines what kind of message this is.|Enum [TicketMessageCategory](enums/ticketmessagecategory.md)| |
 |author|A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address.|String(255)|&#x25CF;|
-|slevel|The securitylevel of the message.|Enum [ticketsecuritylevel](enums/ticketsecuritylevel.md)|&#x25CF;|
+|slevel|The securitylevel of the message.|Enum [TicketSecurityLevel](enums/ticketsecuritylevel.md)|&#x25CF;|
 |message\_id|The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.|String(255)| |
 |time\_spent|The time spent (minutes) for this message.|Int|&#x25CF;|
 |time\_charge|The amount of time (minutes) which should be invoiced for this message.|Int|&#x25CF;|
@@ -48,8 +48,6 @@ so.envir:
 
 
 ![ej_message table relationship diagram](./media/ej_message.png)
-
-[!include[details](./includes/ej-message.md)]
 
 ## Indexes
 

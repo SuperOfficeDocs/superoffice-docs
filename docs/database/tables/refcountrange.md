@@ -1,19 +1,19 @@
 ---
-uid: table-refcountrange
-title: refcountrange table
+uid: table-RefCountRange
+title: RefCountRange table
 description: Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases
 so.generated: true
 keywords:
   - "database"
   - "RefCountRange"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# refcountrange Table (172)
+# RefCountRange Table (172)
 
 ## Fields
 
@@ -22,7 +22,7 @@ so.envir:
 |RefCountRange\_id|Primary key|PK| |
 |rangeStart|Start of range that is in use|UInt| |
 |rangeSize|Size of in-use range|UInt| |
-|RefCounts\_id|ID of counter this range is reserved for|FK [refcounts](refcounts.md)| |
+|RefCounts\_id|ID of counter this range is reserved for|FK [RefCounts](refcounts.md)| |
 |traveller\_id|ID of traveller (associate) who owns this range|UShort| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![RefCountRange table relationship diagram](./media/RefCountRange.png)
-
-[!include[details](./includes/RefCountRange.md)]
 
 ## Indexes
 

@@ -1,21 +1,21 @@
 ---
-uid: table-saletypecat
-title: saletypecat table
+uid: table-SaleTypeCat
+title: SaleTypeCat table
 description: Category for sale type
 so.generated: true
 keywords:
   - "database"
   - "SaleTypeCat"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# saletypecat Table (118)
+# SaleTypeCat Table (118)
 
-saletypecat MDO list item table.
+SaleTypeCat MDO list item table.
 Category for sale type
 
 ## Fields
@@ -35,8 +35,6 @@ Category for sale type
 
 
 ![SaleTypeCat table relationship diagram](./media/SaleTypeCat.png)
-
-[!include[details](./includes/SaleTypeCat.md)]
 
 ## Indexes
 

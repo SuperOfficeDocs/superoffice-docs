@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,15 +29,13 @@ so.envir:
 |delivery\_ext\_status|Indicates extended delivery status for the sms|String(255)|&#x25CF;|
 |delivery\_ext\_status\_desc|Indicates extended delivery status description for the sms|String(255)|&#x25CF;|
 |delivered\_at|The date and time when the sms was delivered|DateTime|&#x25CF;|
-|shipment\_id|Reference to the shipment id, used for eMarketeer|FK [s-shipment](s-shipment.md)| |
+|shipment\_id|Reference to the shipment id, used for eMarketeer|FK [s_shipment](s-shipment.md)| |
 |customer\_id|Reference to the customer id, used for eMarketeer|FK [person](person.md)| |
-|message\_id|Reference to the message id this SMS was sent from|FK [ej-message](ej-message.md)| |
-|outgoing\_message\_id|Reference to the outgoing message entry created by netserver for sending and status update|FK [outgoing-message](outgoing-message.md)|&#x25CF;|
+|message\_id|Reference to the message id this SMS was sent from|FK [ej_message](ej-message.md)| |
+|outgoing\_message\_id|Reference to the outgoing message entry created by netserver for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
 
 
 ![sms table relationship diagram](./media/sms.png)
-
-[!include[details](./includes/sms.md)]
 
 ## Indexes
 

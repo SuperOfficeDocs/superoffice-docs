@@ -1,0 +1,12 @@
+digraph dbi_agent_schedule  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dbi_agent_schedule[fillcolor = "cadetblue1"]
+dbi_agent[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+schedule[fillcolor = "azure1"]
+dbi_agent_schedule -> dbi_agent [headlabel = "agent_id"]
+dbi_agent_schedule -> ejscript [headlabel = "script_id"]
+dbi_agent_schedule -> schedule [headlabel = "schedule_id"]
+}

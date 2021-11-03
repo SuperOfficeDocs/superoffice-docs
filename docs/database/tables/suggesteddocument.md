@@ -1,19 +1,19 @@
 ---
-uid: table-suggesteddocument
-title: suggesteddocument table
+uid: table-SuggestedDocument
+title: SuggestedDocument table
 description: Unique owner of a set of licensed modules
 so.generated: true
 keywords:
   - "database"
   - "SuggestedDocument"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# suggesteddocument Table (126)
+# SuggestedDocument Table (126)
 
 ## Fields
 
@@ -24,9 +24,9 @@ so.envir:
 |rank|Rank, controls rank of non-instantiated items in Guide|UShort|&#x25CF;|
 |tooltip|Tooltip / description|String(254)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
-|saleTypeStageLinkId|Link to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time.|FK [saletypestagelink](saletypestagelink.md)|&#x25CF;|
-|projectTypeStatusLinkId|Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.|FK [projecttypestatuslink](projecttypestatuslink.md)|&#x25CF;|
-|doctmpl\_id|Type of the suggested document|FK [doctmpl](doctmpl.md)|&#x25CF;|
+|saleTypeStageLinkId|Link to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time.|FK [SaleTypeStageLink](saletypestagelink.md)|&#x25CF;|
+|projectTypeStatusLinkId|Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.|FK [ProjectTypeStatusLink](projecttypestatuslink.md)|&#x25CF;|
+|doctmpl\_id|Type of the suggested document|FK [DocTmpl](doctmpl.md)|&#x25CF;|
 |header|Suggested &apos;header&apos;|String(219)|&#x25CF;|
 |our\_ref|Suggested &apos;our reference&apos;|String(99)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -37,8 +37,6 @@ so.envir:
 
 
 ![SuggestedDocument table relationship diagram](./media/SuggestedDocument.png)
-
-[!include[details](./includes/SuggestedDocument.md)]
 
 ## Indexes
 

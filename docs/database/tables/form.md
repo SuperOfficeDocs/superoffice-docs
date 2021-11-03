@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "form"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# form Table (472)
+# form Table (478)
 
 ## Fields
 
@@ -23,9 +23,9 @@ so.envir:
 |name|The name of this form|String(4000)|&#x25CF;|
 |description|Detailed description|String(4000)|&#x25CF;|
 |config|The JSON-formatted config of this form|Clob|&#x25CF;|
-|folder\_id|The folder which this form belongs to. -1 indicates that the shipment is on the root|FK [s-picture-folder](s-picture-folder.md)| |
+|folder\_id|The folder which this form belongs to. -1 indicates that the shipment is on the root|FK [s_picture_folder](s-picture-folder.md)| |
 |script\_id|The CRMScript Macro which will be run when the form is submitted.|FK [ejscript](ejscript.md)| |
-|response\_shipment\_id|The id of the s_shipment that is used to send the response mails|FK [s-shipment](s-shipment.md)| |
+|response\_shipment\_id|The id of the s_shipment that is used to send the response mails|FK [s_shipment](s-shipment.md)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -34,9 +34,9 @@ so.envir:
 |active|Indicates if this form is active and available for customers|Bool|&#x25CF;|
 |expires|After this datetime, the form will become inactive|DateTime|&#x25CF;|
 |maxSubmits|After this number of submits, the form will become inactive|Int|&#x25CF;|
-|type|What kind of form is this? Indicates if this is a normal form or a template|Enum [formtype](enums/formtype.md)| |
+|type|What kind of form is this? Indicates if this is a normal form or a template|Enum [FormType](enums/formtype.md)| |
 |recipe|The JSON-formatted recipe of this form|Clob|&#x25CF;|
-|group\_id|The group which this form belongs to.|FK [usergroup](usergroup.md)| |
+|group\_id|The group which this form belongs to.|FK [UserGroup](usergroup.md)| |
 |form\_key|A short string used as unique id to access this form|String(32)|&#x25CF;|
 |new\_ticket|True if this form creates a new ticket|Bool|&#x25CF;|
 

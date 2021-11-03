@@ -1,12 +1,12 @@
 ---
 uid: table-personinterest
 title: personinterest table
-description: Note, If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note, The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest.
+description: Note; If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note; The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest.
 so.generated: true
 keywords:
   - "database"
   - "personinterest"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,7 +21,7 @@ so.envir:
 |------|-------------|------|:----:|
 |personinterest\_id|Primary key|PK| |
 |person\_id|Owning person|FK [person](person.md)| |
-|pinterest\_idx|Person interest link|FK [persint](persint.md)| |
+|pinterest\_idx|Person interest link|FK [PersInt](persint.md)| |
 |startDate|Start date for this interest - no GUI|DateTime|&#x25CF;|
 |endDate|End date for this interest - no GUI|DateTime|&#x25CF;|
 |flags|Spare flag field|UInt|&#x25CF;|
@@ -33,8 +33,6 @@ so.envir:
 
 
 ![personinterest table relationship diagram](./media/personinterest.png)
-
-[!include[details](./includes/personinterest.md)]
 
 ## Indexes
 

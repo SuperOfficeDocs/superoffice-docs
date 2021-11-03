@@ -1,0 +1,8 @@
+digraph ziptocity  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ziptocity[fillcolor = "cadetblue1"]
+country[fillcolor = "azure1"]
+ziptocity -> country [headlabel = "country_id"]
+}

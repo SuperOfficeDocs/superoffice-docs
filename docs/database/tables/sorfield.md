@@ -1,26 +1,26 @@
 ---
-uid: table-sorfield
-title: sorfield table
+uid: table-SORField
+title: SORField table
 description: SuperOffice reporter data
 so.generated: true
 keywords:
   - "database"
   - "SORField"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# sorfield Table (179)
+# SORField Table (179)
 
 ## Fields
 
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |SORField\_id|Primary key|PK| |
-|SORSection\_id|Foreign key to Section|FK [sorsection](sorsection.md)| |
+|SORSection\_id|Foreign key to Section|FK [SORSection](sorsection.md)| |
 |fieldType|field, label, line, image, pagenr, pages, date, associatename|String(14)| |
 |content|Field: db field name; Label: caption; image: file name; otherwise - empty|String(254)|&#x25CF;|
 |contentResId|resource id if translatable resource|UInt| |
@@ -50,8 +50,6 @@ so.envir:
 
 
 ![SORField table relationship diagram](./media/SORField.png)
-
-[!include[details](./includes/SORField.md)]
 
 ## Indexes
 

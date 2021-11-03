@@ -1,19 +1,19 @@
 ---
-uid: table-messagehandler
-title: messagehandler table
+uid: table-MessageHandler
+title: MessageHandler table
 description: Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale
 so.generated: true
 keywords:
   - "database"
   - "MessageHandler"
-so.date: 03.22.2021
+so.date: 11.02.2021
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# messagehandler Table (241)
+# MessageHandler Table (241)
 
 ## Fields
 
@@ -34,8 +34,6 @@ so.envir:
 
 
 ![MessageHandler table relationship diagram](./media/MessageHandler.png)
-
-[!include[details](./includes/MessageHandler.md)]
 
 ## Indexes
 
