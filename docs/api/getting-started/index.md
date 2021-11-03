@@ -18,7 +18,7 @@ It can sometimes be daunting for people new to SuperOffice programming to know w
 
 The primary focus of this article is to discuss the APIs that enable external integration with SuperOffice. This typically means applications that are compiled into executables and run in their own process. However, there are also important internal integration points in SuperOffice that are just as important and are covered briefly.
 
-Both SuperOffice CRM and SuperOffice Customer Service (CS) support different forms of scripting automation. SuperOffice CS, available in both on-site and online, supports scripting automation and accounts for a majority of CS integrations. SuperOffice CRM on the other hand, is available as four unique platforms, each of which has their own extensible characteristics:
+Both SuperOffice CRM and SuperOffice Customer Service (CS) support different forms of scripting automation. SuperOffice CS, available in both onsite and online, supports scripting automation and accounts for a majority of CS integrations. SuperOffice CRM on the other hand is available as four unique platforms, each of which has its own extensible characteristics:
 
 * Windows client
 * Onsite Web client
@@ -33,7 +33,7 @@ The sections below discuss the capabilities of both internal automation and exte
 
 Automation allows an application to execute code when an event occurs inside the client. These events occur when an action takes place: such as when a dialog is opened, or a person is created.
 
-While automation code is usually defined by customer requirements, consultants often create routines that assist with common tasks. Automation code can perform just about any tasks imaginable, but generally involve validating, transforming and/or moving data. These types of routines are commonly discussed in the [Developer Forums][1].
+While automation code is usually defined by customer requirements, consultants often create routines that assist with common tasks. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data. These types of routines are commonly discussed in the [Developer Forums][1].
 
 **Script automation options by platform:**
 
@@ -84,7 +84,7 @@ SuperOffice has several partners and 3rd party vendors who have built tightly-co
 
 Where to get started depends on your target SuperOffice platform and your preferred technology stack.
 
-The list of available APIs for integrations decreases the closer they are to on-line. That is just the nature of the respective environment and not the limitations of the platforms or APIs.
+The list of available APIs for integrations decreases the closer they are to online. That is just the nature of the respective environment and not the limitations of the platforms or APIs.
 
 **Recommended APIs for each platform:**
 
@@ -139,7 +139,7 @@ SuperOffice CRM Web also enjoys many integration capabilities. I would go so far
 
 **Related SDK**:
 
-* [Web Client SDK][5]
+* [Web Client SDK][7]
 
 ### Web Client (Online)
 
@@ -183,7 +183,7 @@ There are no prebuilt SuperOffice proxies available for these APIs. You must use
 
 ### NetServer Architecture
 
-All SuperOffice clients, in one form or another, depend on NetServer for database access. While each client has its own extensibility points, NetServer also has extensibility points. Some of NetServer extensibility options surface to the clients, such as the Document Plug-in.
+All SuperOffice clients, in one form or another, depend on NetServer for database access. While each client has its own extensibility points, NetServer also has extensibility points. Some of NetServer's extensibility options surface to the clients, such as the Document Plug-in.
 
 As a multi-tiered database access layer that bridges communications between clients and the SuperOffice database, NetServer uses database-independent database access code, as well as high-level web services for both the SuperOffice Web and PocketCRM clients.
 
@@ -241,8 +241,9 @@ Read more about each platform API in the SDK documentation.
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/forum/?clubId=3
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
-[5]: https://community.superoffice.com/documentation/SDK/SO.Application/html/top_home.htm
-[6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
+[5]: https://github.com/SuperOffice/SDK-Doc/tree/master/COM.IApplication
+[6]: https://github.com/SuperOffice/SDK-Doc/tree/master/COM.IDatabase
+[7]: ../api-reference/web/index.md
 [8]: ../../../superoffice-docs/docs/identity-management/federated-auth.md
 [11]: ../netserver/services/reference/index.md
 [12]: ../netserver/what-is-netserver.md

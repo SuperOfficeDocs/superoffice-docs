@@ -32,7 +32,7 @@ Click **OK**. As long as authorization successed, the Record Tool window appears
 
 ![x][img3]
 
-The drill down adds another tranformational step to the **APPLIED STEPS** list (in the lower right of the window). This action creates another list of items called Records. Each record contains the select fields entered in the query. To see the fields, we need to apply one more transformational step. Right-click the List row and select **To Table**.
+The drill-down adds another tranformational step to the **APPLIED STEPS** list (in the lower right of the window). This action creates another list of items called Records. Each record contains the select fields entered in the query. To see the fields, we need to apply one more transformational step. Right-click the List row and select **To Table**.
 
 ![x][img4]
 
@@ -66,12 +66,12 @@ The Basic credentials used in this blog example uses the username and password, 
 
 `username:password => dXNlcm5hbWU6cGFzc3dvcmQ=`
 
-To obtain a Bearer access token, you'll need a registered application that can get these for you. If you don't have one, first register as an [online developer][5], then you will received instructions to register an application. If you don't have the infrastructure to create an online application, use the [helper application][5] to sign in online as an application and obtain an access token. Remember to use the helper application redirect URL when registering your application.
+To obtain a Bearer access token, you'll need a registered application that can get these for you. If you don't have one, first register as an [online developer][5], then you will receive instructions to register an application. If you don't have the infrastructure to create an online application, use the [helper application][5] to sign in online as an application and obtain an access token. Remember to use the helper application redirect URL when registering your application.
 
 <!-- Referenced links -->
 [1]: https://www.odata.org/documentation/odata-version-2-0/uri-conventions/
-[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-Search.htm
-[3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-Authentication-Authentication.htm
+[2]: ../../netserver/search/odata/index.md
+[3]: ../../authentication/onsite/webapi/index.md
 [4]: https://www.base64encode.org/
 [5]: https://community.superoffice.com/register-as-developer
 [6]: ../../../../superoffice-docs/docs/authentication/helper-application.md

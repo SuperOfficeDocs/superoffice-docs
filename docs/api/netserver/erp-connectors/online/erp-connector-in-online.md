@@ -3,12 +3,12 @@ title: ERP Sync Connectors
 uid: erp_sync
 description: ERP Sync Connectors
 author: {github-id}
-keywords:
+keywords: ERP, EIS, sync connector
 ---
 
 # ERP Sync Connectors
 
-The **SuperOffice ERP Integration Server** (EIS) was introduced in SuperOffice CRM in version 7.5, and provides partners an API to create Sync Connectors that handle the synchronization of data between SuperOffice and an ERP system.
+The **SuperOffice ERP Integration Server** (EIS) was introduced in SuperOffice CRM in version 7.5 and provides partners an API to create Sync Connectors that handle the synchronization of data between SuperOffice and an ERP system.
 
 While this article is not an instruction on how to build an ERP Sync Connector, the [existing documentation does a great job of that][1], it is an instructional read that defines an additional requirement when building ERP Connectors for SuperOffice Online.
 
@@ -36,7 +36,7 @@ SuperOffice EIS will periodically invoke the web services to conduct data synchr
 * [API changes][3]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/DevelopersGuide-ERPConnectors-ERPSyncConnectorInterface-ERPSyncConnectorInterface.htm
+[1]: ../index.md
 [2]: secure-in-online.md
 [3]: example-api.md
 

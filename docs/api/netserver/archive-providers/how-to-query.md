@@ -72,8 +72,8 @@ Using the RESTful Agent Find endpoint (see [documentation][2]):
 [!code-csharp[NetServer Web Services](includes/query-rest-agent.js)]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/v1SaleEntity_GetAll.htm
-[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/v1FindAgent_FindFromRestrictionsColumns.htm
+[1]: ../../api-reference/restful/rest/Sale/v1SaleEntity_GetAll.md
+[2]: <xref:SuperOffice.CRM.Services.FindAgent.FindFromRestrictionsColumns(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Int32)>
 
 <!-- Referenced images -->
 [img1]: media/query-1.jpg

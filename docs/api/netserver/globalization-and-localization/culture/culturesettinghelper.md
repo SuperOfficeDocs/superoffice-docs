@@ -1,6 +1,6 @@
 ---
 title: Culture Helper
-uid: globalization_culturesettinghelper    
+uid: globalization_culturesettinghelper
 description: CultureSettingHelper class
 author: {github-id}
 so.date: 05.08.2018
@@ -26,4 +26,4 @@ using( new CultureSettingHelper("es-ES") )
 Multiple overloads enable more behaviors. See the [CultureSettingsHelper reference][1] for more details.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/T_SuperOffice_Globalization_CultureSettingHelper.htm
+[1]: <xref:SuperOffice.Globalization.CultureSettingHelper>

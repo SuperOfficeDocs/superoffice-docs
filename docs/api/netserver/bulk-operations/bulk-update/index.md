@@ -59,10 +59,10 @@ After that, you should be all set for exploring the [NetServer Core examples][6]
 
 ## Bulk Update using NetServer Web Services API
 
-The web client version 8.3 introduced support for bulk update via  web services. exist to facilitate this functionality in the web client or distributed architectures. It is, however, on the roadmap! When you see bulk update in the web client, then you know the web services are available to facilitate this functionality. [View reference][1].
+The web client version 8.3 introduced support for bulk update via web services. exist to facilitate this functionality in the web client or distributed architectures. It is, however, on the roadmap! When you see bulk update in the web client, then you know the web services are available to facilitate this functionality. [View reference][1].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-Agents-BulkUpdate\_Agent-BulkUpdate\_Agent.htm
+[1]: <xref:SuperOffice.CRM.Services.BulkUpdateAgent>
 [2]: using-bulk-update.md
 [3]: operations-and-values.md
 [4]: entities-field-types.md

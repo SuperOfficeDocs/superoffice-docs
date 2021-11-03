@@ -77,7 +77,7 @@ The image below demonstrates setting the `apppool` permissions.
 * [Web Client and Interactive NetServer Web Service Scripts][2]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/videos/video-player/?videoId=138
+[1]: https://www.youtube.com/watch?v=5iJmyaIpr0g
 [2]: https://community.superoffice.com/en/developer/videos/video-player/?videoId=841
 
 <!-- Referenced images -->

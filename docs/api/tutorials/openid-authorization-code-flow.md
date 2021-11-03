@@ -4,7 +4,7 @@ uid: oidc_auth_code_flow
 description: OpenId Authorization Code flow
 author: {github-id}
 keywords:
-so.topic: guide
+so.topic: tutorial
 so.envir: cloud
 # so.client:
 ---
@@ -41,7 +41,7 @@ You can run it and you should get a nice error page because we haven’t defined
 
 ![1526999139989][img4]
 
-If we take a peek in the *App_Start/RouteConfig.cs* file, we can see the default controller is **Home**, with default action **Index**.
+If we take a peek at the *App_Start/RouteConfig.cs* file, we can see the default controller is **Home**, with default action **Index**.
 
 ```csharp
 public static void RegisterRoutes(RouteCollection routes)
@@ -120,7 +120,7 @@ The `SoAppId` we need to fill in. We also need to add a couple of more settings 
 
 Add the file *SOD_SuperOfficeFederatedLogin.crt* to the *App_Data* folder.
 
-You can find the file in the [Online certificates ZIP][2] on Community.
+You can find the file in the <a href="../assets/downloads/superofficeonlinecertificates.zip" download>Online certificates ZIP</a>.
 
 We need this X509 certificate to verify that the tokens we have received are actually from SuperId, and not from some hacker trying to trick us.
 
@@ -219,7 +219,7 @@ catch( Exception ex)
 
 This is where the main app logic will go. We are logged in at this point, and we have an access token and a refresh token in our session state.
 
-First we check that the access token is set.
+First, we check that the access token is set.
 
 Then we check if the access token has expired. If it has, we need to get a new access token using the refresh token.
 
@@ -270,7 +270,7 @@ We use a List rather than an Array to work around a problem with array construct
 
 Add two classes to *Models* folder: `AppModel` and `ContactModel`. These classes are used in the `ODataResponse`, and as the view-model for rendering the App index view.
 
-The `AppModel` describes the App user-interface.
+The `AppModel` describes the App user interface.
 
 [!code-csharp[CS](includes/appmodel.cs)]
 
@@ -370,8 +370,7 @@ This is rendered as a table using the App Index view:
 
 <!-- Referenced links -->
 [1]: https://github.com/restsharp/RestSharp
-[2]: https://community.superoffice.com/en/CRM-Online/Partners-and-App-Store/How-To-Develop-on-the-SuperOffice-Online-Platform/building-your-first-application/online-sdk-downloads/
-[3]: https://community.superoffice.com/en/crm-online/Partners-and-App-Store/how-to-develop-on-the-superoffice-online-platform/building-your-first-application/Security-and-Authentication/online-superoffice-online-open-id-connect/
+[3]: ../authentication/online/index.md
 
 <!-- Referenced images -->
 [img1]: media/1526999027785.png

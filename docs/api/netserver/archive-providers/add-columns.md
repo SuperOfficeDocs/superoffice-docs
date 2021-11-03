@@ -4,7 +4,7 @@ uid: add_columns
 description: Add columns to archive providers
 author: Tony Yates
 so.date: 08.03.2017
-keywords:
+keywords: NetServer, archive provider
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -14,11 +14,11 @@ so.client: online
 
 How to extend an archive provider with an `ArchiveExtenderExtender`.
 
-This article demonstrates how easy it is to add columns of related data to existing archive extenders through out SuperOffice without the complexity of creating multiple extenders and base extenders previously required before SuperOffice CRM version 8.
+This article demonstrates how easy it is to add columns of related data to existing archive extenders throughout SuperOffice without the complexity of creating multiple extenders and base extenders previously required before SuperOffice CRM version 8.
 
-Prior to NetServer version 8, it was possible to extend archive providers by either the addition of new entity rows to an existing provider or add extenders to add columns to existing row types.
+Prior to NetServer version 8, it was possible to extend archive providers by either the addition of new entity rows to an existing provider or adding extenders to add columns to existing row types.
 
-While the "add-an-extender" model works reasonably well, it is fairly complicated to use. If interested, read about how archive providers work in the [Archives Providers in Depth][1] section of the NetServer Core documentation.
+While the "add-an-extender" model works reasonably well, it is fairly complicated to use. If interested, read about [how the archive providers work][1].
 
 The complication stems from the fact that a new extender is tagged with the `ArchiveExtender` attribute that specifies the name of the provider to extend. This works OK when adding columns to one particular provider, but not when the desired effect is to add columns to a particular table or other well-defined entity.
 
@@ -74,13 +74,13 @@ Here is the example code used to demonstrate how easy it is to show the new Sale
 
 * Use an ExtenderExtender to easily expose new columns anywhere.
 * Use the same techniques as before to:
-  * automate detection of columns declared with \_col prefix.
+  * automate the detection of columns declared with \_col prefix.
   * use SetJoin to expand existing table joins, or add criteria
   * use ForceRestriction to invoke InnerModifyQuery to add return fields, or change an existing query
   * use InnerPopulateRowFromReader to access reader and add column data to ArchiveRow output
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/0ca0cab8-0ca1-4aad-82f0-d244eb54b4f5.htm
+[1]: index.md
 
 <!-- Referenced images -->
 [img1]: media/extenderextender.png

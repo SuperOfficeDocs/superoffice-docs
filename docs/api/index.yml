@@ -248,10 +248,10 @@ additionalContent:
        # Card
       - title: "IApplication COM API"
         summary: API reference for windows client IApplication interface
-        url: https://community.superoffice.com/documentation/SDK/SO.COM.IApplication/index.html
+        url: https://github.com/SuperOffice/SDK-Doc/tree/master/COM.IApplication
        # Card
       - title: "IDatabase COM API"
         summary: API reference for windows client IDatabase interface
-        url: https://community.superoffice.com/documentation/SDK/SO.COM.IDatabase/index.html
+        url: https://github.com/SuperOffice/SDK-Doc/tree/master/COM.IDatabase
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
