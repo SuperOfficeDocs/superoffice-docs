@@ -33,7 +33,7 @@ Open the IIS Manager on the server level and on the right side under Actions sel
 
 ![2018-10-17_16-31-02.png -screenshot][img2]
 
-Download and install the Web Platform Installer, which is an extension to the IIS Manager console.
+Download and install the [Web Platform Installer][2], which is an extension to the IIS Manager console.
 
 ![blobid0.png -screenshot][img3]
 
@@ -192,6 +192,7 @@ If you just want to expose the Customer center, Chat, or Mailings to the Interne
 
 <!-- Referenced links -->
 [1]: ../../security/deployment-scenarios.md
+[2]: https://www.microsoft.com/web/downloads/platform.aspx
 
 <!-- Referenced images -->
 [img1]: media/server-role-security.jpg

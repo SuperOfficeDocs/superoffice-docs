@@ -3,7 +3,7 @@ title: Set up EMET
 uid: set_up_emet
 description: Installing Enhanced Mitigation Experience Toolkit (EMET)
 author: {github-id}
-keywords: security
+keywords: security, emet
 so.topic: howto
 so.envir: onsite
 so.client: web
@@ -11,8 +11,7 @@ so.client: web
 
 # Installing EMET
 
-**E**nhanced **M**itigation **E**xperience **T**oolkit (EMET) can be downloaded from [technet.microsoft.com][1]
-.
+**E**nhanced **M**itigation **E**xperience **T**oolkit (EMET) can be downloaded from [technet.microsoft.com][1].
 
 The installation is straightforward, continue through the install wizard to complete the installation. Once EMET is installed it can be accessed from the lower-right corner. Double-click the icon to open the graphical user interface.
 
@@ -25,8 +24,8 @@ The following changes should be made to the settings:
 
 Next, we want to use EMET to protect some more applications than those that are protected by default. Depending on which sort of server this is, different settings should be applied. There are setting files available on the website that will protect SuperOffice executables. There are 2 different files at the moment:
 
-* *emet_config_CS_v0.2.xml*
-* *emet_config_superoffice_general_including_netserver_v0.1.xml*
+* <a href="../../assets/downloads/emet_config_CS_v0.2.zip" download>emet_config_CS_v0.2.xml</a>
+* <a href="../../assets/downloads/emet_config_superoffice_general_including_netserver_v0.1.zip" download>emet_config_superoffice_general_including_netserver_v0.1.xml</a>
 
 This is because Customer Service is packaged into executables and all of these need to be configured to be protected by EMET, the first file addresses this. The second file can be used on web servers in general including the NetServer. It configures EMET to protect IIS in addition to all the default EMET protection rules.
 
