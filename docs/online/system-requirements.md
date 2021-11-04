@@ -64,6 +64,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 ## SuperOffice for Outlook
 
 * Microsoft Outlook 365 subscription
+* SuperOffice for Outlook works only with SuperOffice Online
 
 [View in app store][2]
 
