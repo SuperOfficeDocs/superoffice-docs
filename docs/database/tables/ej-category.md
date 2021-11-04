@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_category"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![ej_category table relationship diagram](./media/ej_category.png)
+
+[!include[details](./includes/ej-category.md)]
 
 ## Indexes
 

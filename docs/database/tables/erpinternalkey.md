@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpInternalKey"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,8 @@ so.envir:
 
 
 ![ErpInternalKey table relationship diagram](./media/ErpInternalKey.png)
+
+[!include[details](./includes/erpinternalkey.md)]
 
 ## Indexes
 

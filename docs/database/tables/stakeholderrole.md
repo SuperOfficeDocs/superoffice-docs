@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StakeholderRole"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Role a stakeholder has in a sale
 
 
 ![StakeholderRole table relationship diagram](./media/StakeholderRole.png)
+
+[!include[details](./includes/stakeholderrole.md)]
 
 ## Indexes
 

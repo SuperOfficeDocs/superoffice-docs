@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UDListGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![UDListGroupLink table relationship diagram](./media/UDListGroupLink.png)
+
+[!include[details](./includes/udlistgrouplink.md)]
 
 ## Indexes
 

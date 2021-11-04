@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "element_profile"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![element_profile table relationship diagram](./media/element_profile.png)
+
+[!include[details](./includes/element-profile.md)]
 
 ## Indexes
 

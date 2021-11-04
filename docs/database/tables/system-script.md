@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "system_script"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![system_script table relationship diagram](./media/system_script.png)
+
+[!include[details](./includes/system-script.md)]
 
 ## Indexes
 

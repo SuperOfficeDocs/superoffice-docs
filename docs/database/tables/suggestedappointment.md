@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuggestedAppointment"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -41,6 +41,8 @@ so.envir:
 
 
 ![SuggestedAppointment table relationship diagram](./media/SuggestedAppointment.png)
+
+[!include[details](./includes/suggestedappointment.md)]
 
 ## Indexes
 

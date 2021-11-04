@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ContInt"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ ContInt list table. List-text of all valid contact interest types.
 
 
 ![ContInt table relationship diagram](./media/ContInt.png)
+
+[!include[details](./includes/contint.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms_hysteria"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![sms_hysteria table relationship diagram](./media/sms_hysteria.png)
+
+[!include[details](./includes/sms-hysteria.md)]
 
 ## Indexes
 

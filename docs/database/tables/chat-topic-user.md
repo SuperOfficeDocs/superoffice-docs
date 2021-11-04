@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_topic_user"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![chat_topic_user table relationship diagram](./media/chat_topic_user.png)
+
+[!include[details](./includes/chat-topic-user.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "inbox"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![inbox table relationship diagram](./media/inbox.png)
+
+[!include[details](./includes/inbox.md)]
 
 ## Indexes
 

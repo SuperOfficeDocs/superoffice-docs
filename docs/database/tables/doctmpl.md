@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DocTmpl"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -57,6 +57,8 @@ DocTmpl list table. Describes templates available for writing new documents.
 
 
 ![DocTmpl table relationship diagram](./media/DocTmpl.png)
+
+[!include[details](./includes/doctmpl.md)]
 
 ## Indexes
 

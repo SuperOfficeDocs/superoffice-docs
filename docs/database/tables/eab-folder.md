@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "eab_folder"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![eab_folder table relationship diagram](./media/eab_folder.png)
+
+[!include[details](./includes/eab-folder.md)]
 
 ## Indexes
 

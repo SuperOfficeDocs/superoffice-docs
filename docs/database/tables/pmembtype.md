@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PMembType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ PMembType list table. List text of titles (member types) for project members.
 
 
 ![PMembType table relationship diagram](./media/PMembType.png)
+
+[!include[details](./includes/pmembtype.md)]
 
 ## Indexes
 

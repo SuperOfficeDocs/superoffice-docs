@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "FunctionRight"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![FunctionRight table relationship diagram](./media/FunctionRight.png)
+
+[!include[details](./includes/functionright.md)]
 
 ## Indexes
 

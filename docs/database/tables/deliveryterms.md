@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTerms"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of Delivery terms, in the internal product register
 
 
 ![DeliveryTerms table relationship diagram](./media/DeliveryTerms.png)
+
+[!include[details](./includes/deliveryterms.md)]
 
 ## Indexes
 

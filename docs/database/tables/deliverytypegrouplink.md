@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTypeGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![DeliveryTypeGroupLink table relationship diagram](./media/DeliveryTypeGroupLink.png)
+
+[!include[details](./includes/deliverytypegrouplink.md)]
 
 ## Indexes
 

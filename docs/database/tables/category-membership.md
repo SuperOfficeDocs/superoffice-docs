@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "category_membership"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![category_membership table relationship diagram](./media/category_membership.png)
+
+[!include[details](./includes/category-membership.md)]
 
 ## Indexes
 

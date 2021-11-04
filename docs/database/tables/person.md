@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "person"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -76,6 +76,8 @@ so.envir:
 
 
 ![person table relationship diagram](./media/person.png)
+
+[!include[details](./includes/person.md)]
 
 ## Indexes
 

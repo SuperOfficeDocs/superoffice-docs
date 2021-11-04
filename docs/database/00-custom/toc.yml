@@ -31,7 +31,6 @@ items:
     href: ../dictionary/howto-make-db-changes.md
   - name: Imp file format
     href: ../dictionary/imp-file-format.md
-  - name: Methods
   - name: Custompriming
     href: ../dictionary/custompriming-method.md
   - name: Impfilenames

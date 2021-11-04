@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "external_document"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![external_document table relationship diagram](./media/external_document.png)
+
+[!include[details](./includes/external-document.md)]
 
 ## Indexes
 

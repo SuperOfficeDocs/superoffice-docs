@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_workflow_access"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![kb_workflow_access table relationship diagram](./media/kb_workflow_access.png)
+
+[!include[details](./includes/kb-workflow-access.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_message"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,8 @@ so.envir:
 
 
 ![s_message table relationship diagram](./media/s_message.png)
+
+[!include[details](./includes/s-message.md)]
 
 ## Indexes
 

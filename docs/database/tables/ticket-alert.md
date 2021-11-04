@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_alert"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,8 @@ so.envir:
 
 
 ![ticket_alert table relationship diagram](./media/ticket_alert.png)
+
+[!include[details](./includes/ticket-alert.md)]
 
 ## Indexes
 

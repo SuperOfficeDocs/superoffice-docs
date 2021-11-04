@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejuser"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -69,6 +69,8 @@ so.envir:
 
 
 ![ejuser table relationship diagram](./media/ejuser.png)
+
+[!include[details](./includes/ejuser.md)]
 
 ## Indexes
 

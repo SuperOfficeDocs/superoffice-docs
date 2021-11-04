@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Intent"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 
 
 ![Intent table relationship diagram](./media/Intent.png)
+
+[!include[details](./includes/intent.md)]
 
 ## Indexes
 

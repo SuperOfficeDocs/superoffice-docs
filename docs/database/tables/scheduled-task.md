@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "scheduled_task"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![scheduled_task table relationship diagram](./media/scheduled_task.png)
+
+[!include[details](./includes/scheduled-task.md)]
 
 ## Indexes
 

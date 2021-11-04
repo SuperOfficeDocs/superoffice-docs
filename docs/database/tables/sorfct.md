@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORFCT"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,8 @@ so.envir:
 
 
 ![SORFCT table relationship diagram](./media/SORFCT.png)
+
+[!include[details](./includes/sorfct.md)]
 
 ## Indexes
 

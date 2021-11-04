@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_solution_finder_entry"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![kb_solution_finder_entry table relationship diagram](./media/kb_solution_finder_entry.png)
+
+[!include[details](./includes/kb-solution-finder-entry.md)]
 
 ## Indexes
 

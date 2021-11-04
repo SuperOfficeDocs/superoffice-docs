@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Reason"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Reason list table. Why we lost the sale (list)
 
 
 ![Reason table relationship diagram](./media/Reason.png)
+
+[!include[details](./includes/reason.md)]
 
 ## Indexes
 

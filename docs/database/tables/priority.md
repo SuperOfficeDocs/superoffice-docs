@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Priority"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Priority list table. Used with appointments; low, high.
 
 
 ![Priority table relationship diagram](./media/Priority.png)
+
+[!include[details](./includes/priority.md)]
 
 ## Indexes
 

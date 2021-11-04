@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "legal_html_tags"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,8 @@ so.envir:
 
 
 ![legal_html_tags table relationship diagram](./media/legal_html_tags.png)
+
+[!include[details](./includes/legal-html-tags.md)]
 
 ## Indexes
 

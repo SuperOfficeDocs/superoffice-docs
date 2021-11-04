@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceLayout"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![AudienceLayout table relationship diagram](./media/AudienceLayout.png)
+
+[!include[details](./includes/audiencelayout.md)]
 
 ## Indexes
 

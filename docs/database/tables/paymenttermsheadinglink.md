@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentTermsHeadingLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![PaymentTermsHeadingLink table relationship diagram](./media/PaymentTermsHeadingLink.png)
+
+[!include[details](./includes/paymenttermsheadinglink.md)]
 
 ## Indexes
 

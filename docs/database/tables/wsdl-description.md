@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "wsdl_description"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![wsdl_description table relationship diagram](./media/wsdl_description.png)
+
+[!include[details](./includes/wsdl-description.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,8 @@ so.envir:
 
 
 ![ejscript table relationship diagram](./media/ejscript.png)
+
+[!include[details](./includes/ejscript.md)]
 
 ## Indexes
 

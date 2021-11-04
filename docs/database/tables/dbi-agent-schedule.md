@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dbi_agent_schedule"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![dbi_agent_schedule table relationship diagram](./media/dbi_agent_schedule.png)
+
+[!include[details](./includes/dbi-agent-schedule.md)]
 
 ## Indexes
 

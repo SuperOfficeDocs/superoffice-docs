@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriorityGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![PriorityGroupLink table relationship diagram](./media/PriorityGroupLink.png)
+
+[!include[details](./includes/prioritygrouplink.md)]
 
 ## Indexes
 

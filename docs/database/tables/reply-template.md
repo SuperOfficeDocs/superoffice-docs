@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "reply_template"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![reply_template table relationship diagram](./media/reply_template.png)
+
+[!include[details](./includes/reply-template.md)]
 
 ## Indexes
 

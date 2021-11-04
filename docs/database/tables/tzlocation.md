@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZLocation"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,6 +38,8 @@ so.envir:
 
 
 ![TZLocation table relationship diagram](./media/TZLocation.png)
+
+[!include[details](./includes/tzlocation.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORField"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -50,6 +50,8 @@ so.envir:
 
 
 ![SORField table relationship diagram](./media/SORField.png)
+
+[!include[details](./includes/sorfield.md)]
 
 ## Indexes
 

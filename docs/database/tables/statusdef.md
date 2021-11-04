@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StatusDef"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,8 @@ so.envir:
 
 
 ![StatusDef table relationship diagram](./media/StatusDef.png)
+
+[!include[details](./includes/statusdef.md)]
 
 ## Indexes
 

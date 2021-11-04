@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dictionary_base"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![dictionary_base table relationship diagram](./media/dictionary_base.png)
+
+[!include[details](./includes/dictionary-base.md)]
 
 ## Indexes
 

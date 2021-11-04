@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTermsHeadingLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![DeliveryTermsHeadingLink table relationship diagram](./media/DeliveryTermsHeadingLink.png)
+
+[!include[details](./includes/deliverytermsheadinglink.md)]
 
 ## Indexes
 

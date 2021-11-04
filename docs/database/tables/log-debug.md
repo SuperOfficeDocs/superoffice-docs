@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "log_debug"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![log_debug table relationship diagram](./media/log_debug.png)
+
+[!include[details](./includes/log-debug.md)]
 
 ## Indexes
 

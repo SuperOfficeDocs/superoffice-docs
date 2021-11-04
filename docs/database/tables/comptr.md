@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Comptr"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Comptr list table. List of all possible competitors (sale).
 
 
 ![Comptr table relationship diagram](./media/Comptr.png)
+
+[!include[details](./includes/comptr.md)]
 
 ## Indexes
 

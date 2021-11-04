@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Product"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -59,6 +59,8 @@ so.envir:
 
 
 ![Product table relationship diagram](./media/Product.png)
+
+[!include[details](./includes/product.md)]
 
 ## Indexes
 

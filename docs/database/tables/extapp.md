@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ExtApp"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -50,6 +50,8 @@ ExtApp list table. Applications startable from SuperOffice
 
 
 ![ExtApp table relationship diagram](./media/ExtApp.png)
+
+[!include[details](./includes/extapp.md)]
 
 ## Indexes
 

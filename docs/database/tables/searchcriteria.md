@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriteria"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![SearchCriteria table relationship diagram](./media/SearchCriteria.png)
+
+[!include[details](./includes/searchcriteria.md)]
 
 ## Indexes
 

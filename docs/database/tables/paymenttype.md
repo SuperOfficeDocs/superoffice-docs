@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of payment types, in the internal product register
 
 
 ![PaymentType table relationship diagram](./media/PaymentType.png)
+
+[!include[details](./includes/paymenttype.md)]
 
 ## Indexes
 

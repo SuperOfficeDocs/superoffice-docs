@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "outbox"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,6 +38,8 @@ so.envir:
 
 
 ![outbox table relationship diagram](./media/outbox.png)
+
+[!include[details](./includes/outbox.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "script_trace_run"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![script_trace_run table relationship diagram](./media/script_trace_run.png)
+
+[!include[details](./includes/script-trace-run.md)]
 
 ## Indexes
 

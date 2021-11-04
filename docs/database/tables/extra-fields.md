@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_fields"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,8 @@ so.envir:
 
 
 ![extra_fields table relationship diagram](./media/extra_fields.png)
+
+[!include[details](./includes/extra-fields.md)]
 
 ## Indexes
 

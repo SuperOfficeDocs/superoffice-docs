@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Category"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ Category list table
 
 
 ![Category table relationship diagram](./media/Category.png)
+
+[!include[details](./includes/category.md)]
 
 ## Indexes
 

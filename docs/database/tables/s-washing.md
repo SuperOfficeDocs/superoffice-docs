@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_washing"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![s_washing table relationship diagram](./media/s_washing.png)
+
+[!include[details](./includes/s-washing.md)]
 
 ## Indexes
 

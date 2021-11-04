@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_link"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -62,6 +62,8 @@ so.envir:
 
 
 ![s_link table relationship diagram](./media/s_link.png)
+
+[!include[details](./includes/s-link.md)]
 
 ## Indexes
 

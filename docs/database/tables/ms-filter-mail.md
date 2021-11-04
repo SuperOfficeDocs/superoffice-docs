@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_filter_mail"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![ms_filter_mail table relationship diagram](./media/ms_filter_mail.png)
+
+[!include[details](./includes/ms-filter-mail.md)]
 
 ## Indexes
 

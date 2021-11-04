@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "traveller"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -40,6 +40,8 @@ so.envir:
 
 
 ![traveller table relationship diagram](./media/traveller.png)
+
+[!include[details](./includes/traveller.md)]
 
 ## Indexes
 

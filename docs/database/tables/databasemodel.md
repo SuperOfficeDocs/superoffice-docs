@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DatabaseModel"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![DatabaseModel table relationship diagram](./media/DatabaseModel.png)
+
+[!include[details](./includes/databasemodel.md)]
 
 ## Indexes
 

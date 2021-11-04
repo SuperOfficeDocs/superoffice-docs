@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "hotlist"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![hotlist table relationship diagram](./media/hotlist.png)
+
+[!include[details](./includes/hotlist.md)]
 
 ## Indexes
 

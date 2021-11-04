@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEField"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![OLEField table relationship diagram](./media/OLEField.png)
+
+[!include[details](./includes/olefield.md)]
 
 ## Indexes
 

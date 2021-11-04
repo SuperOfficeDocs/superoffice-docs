@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Source"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Source list table. Source for sale (list)
 
 
 ![Source table relationship diagram](./media/Source.png)
+
+[!include[details](./includes/source.md)]
 
 ## Indexes
 

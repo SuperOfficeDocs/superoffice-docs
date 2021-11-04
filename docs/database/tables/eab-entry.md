@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "eab_entry"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![eab_entry table relationship diagram](./media/eab_entry.png)
+
+[!include[details](./includes/eab-entry.md)]
 
 ## Indexes
 

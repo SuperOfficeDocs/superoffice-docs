@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "preference"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![preference table relationship diagram](./media/preference.png)
+
+[!include[details](./includes/preference.md)]
 
 ## Indexes
 

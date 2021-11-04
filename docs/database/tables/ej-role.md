@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_role"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![ej_role table relationship diagram](./media/ej_role.png)
+
+[!include[details](./includes/ej-role.md)]
 
 ## Indexes
 

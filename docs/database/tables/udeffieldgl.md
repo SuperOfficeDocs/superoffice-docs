@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UDefFieldGL"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,8 @@ so.envir:
 
 
 ![UDefFieldGL table relationship diagram](./media/UDefFieldGL.png)
+
+[!include[details](./includes/udeffieldgl.md)]
 
 ## Indexes
 

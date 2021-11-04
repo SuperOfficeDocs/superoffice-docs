@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeCat"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Category for sale type
 
 
 ![SaleTypeCat table relationship diagram](./media/SaleTypeCat.png)
+
+[!include[details](./includes/saletypecat.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "service_auth"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![service_auth table relationship diagram](./media/service_auth.png)
+
+[!include[details](./includes/service-auth.md)]
 
 ## Indexes
 

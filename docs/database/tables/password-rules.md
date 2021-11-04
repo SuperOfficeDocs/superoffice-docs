@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "password_rules"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![password_rules table relationship diagram](./media/password_rules.png)
+
+[!include[details](./includes/password-rules.md)]
 
 ## Indexes
 

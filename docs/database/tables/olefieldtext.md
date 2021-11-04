@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEFieldText"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![OLEFieldText table relationship diagram](./media/OLEFieldText.png)
+
+[!include[details](./includes/olefieldtext.md)]
 
 ## Indexes
 

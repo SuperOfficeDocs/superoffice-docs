@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "company_domain"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![company_domain table relationship diagram](./media/company_domain.png)
+
+[!include[details](./includes/company-domain.md)]
 
 ## Indexes
 

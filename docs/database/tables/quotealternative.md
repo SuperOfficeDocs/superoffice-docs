@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteAlternative"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,6 +49,8 @@ so.envir:
 
 
 ![QuoteAlternative table relationship diagram](./media/QuoteAlternative.png)
+
+[!include[details](./includes/quotealternative.md)]
 
 ## Indexes
 

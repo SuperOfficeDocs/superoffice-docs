@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of Delivery types, in the internal product register
 
 
 ![DeliveryType table relationship diagram](./media/DeliveryType.png)
+
+[!include[details](./includes/deliverytype.md)]
 
 ## Indexes
 

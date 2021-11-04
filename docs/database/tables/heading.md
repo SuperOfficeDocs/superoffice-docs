@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Heading"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,8 @@ so.envir:
 
 
 ![Heading table relationship diagram](./media/Heading.png)
+
+[!include[details](./includes/heading.md)]
 
 ## Indexes
 

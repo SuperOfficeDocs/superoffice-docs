@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "FieldLabel"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,8 @@ so.envir:
 
 
 ![FieldLabel table relationship diagram](./media/FieldLabel.png)
+
+[!include[details](./includes/fieldlabel.md)]
 
 ## Indexes
 

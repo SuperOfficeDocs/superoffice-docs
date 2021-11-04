@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORSection"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![SORSection table relationship diagram](./media/SORSection.png)
+
+[!include[details](./includes/sorsection.md)]
 
 ## Indexes
 

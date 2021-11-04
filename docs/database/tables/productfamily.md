@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductFamily"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ List for the ProductFamily field of the Product table (Quote Management)
 
 
 ![ProductFamily table relationship diagram](./media/ProductFamily.png)
+
+[!include[details](./includes/productfamily.md)]
 
 ## Indexes
 

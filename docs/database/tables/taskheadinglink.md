@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TaskHeadingLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![TaskHeadingLink table relationship diagram](./media/TaskHeadingLink.png)
+
+[!include[details](./includes/taskheadinglink.md)]
 
 ## Indexes
 

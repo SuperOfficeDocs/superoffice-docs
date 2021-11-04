@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TaskGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![TaskGroupLink table relationship diagram](./media/TaskGroupLink.png)
+
+[!include[details](./includes/taskgrouplink.md)]
 
 ## Indexes
 

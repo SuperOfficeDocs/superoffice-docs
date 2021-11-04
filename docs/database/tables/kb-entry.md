@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,8 @@ so.envir:
 
 
 ![kb_entry table relationship diagram](./media/kb_entry.png)
+
+[!include[details](./includes/kb-entry.md)]
 
 ## Indexes
 

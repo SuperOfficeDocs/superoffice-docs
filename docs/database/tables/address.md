@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "address"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -41,6 +41,8 @@ so.envir:
 
 
 ![address table relationship diagram](./media/address.png)
+
+[!include[details](./includes/address.md)]
 
 ## Indexes
 

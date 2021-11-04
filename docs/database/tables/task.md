@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Task"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,8 @@ Task list table, activity types, like Phone, Meeting
 
 
 ![Task table relationship diagram](./media/Task.png)
+
+[!include[details](./includes/task.md)]
 
 ## Indexes
 

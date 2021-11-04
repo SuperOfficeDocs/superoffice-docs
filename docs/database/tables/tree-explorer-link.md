@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "tree_explorer_link"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![tree_explorer_link table relationship diagram](./media/tree_explorer_link.png)
+
+[!include[details](./includes/tree-explorer-link.md)]
 
 ## Indexes
 

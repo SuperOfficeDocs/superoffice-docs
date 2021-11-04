@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udcontactSmall"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -133,6 +133,8 @@ so.envir:
 
 
 ![udcontactSmall table relationship diagram](./media/udcontactSmall.png)
+
+[!include[details](./includes/udcontactsmall.md)]
 
 ## Indexes
 

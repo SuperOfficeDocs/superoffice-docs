@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_dyn_criteria"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,8 @@ so.envir:
 
 
 ![s_dyn_criteria table relationship diagram](./media/s_dyn_criteria.png)
+
+[!include[details](./includes/s-dyn-criteria.md)]
 
 ## Indexes
 

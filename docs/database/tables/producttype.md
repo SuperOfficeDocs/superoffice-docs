@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ List for the ProductType field of the Product table (Quote Management)
 
 
 ![ProductType table relationship diagram](./media/ProductType.png)
+
+[!include[details](./includes/producttype.md)]
 
 ## Indexes
 

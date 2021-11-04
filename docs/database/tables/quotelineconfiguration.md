@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteLineConfiguration"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,8 @@ so.envir:
 
 
 ![QuoteLineConfiguration table relationship diagram](./media/QuoteLineConfiguration.png)
+
+[!include[details](./includes/quotelineconfiguration.md)]
 
 ## Indexes
 

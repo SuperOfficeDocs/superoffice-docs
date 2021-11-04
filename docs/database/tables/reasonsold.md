@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReasonSold"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Why was the sale marked as sold (why did we succeed)
 
 
 ![ReasonSold table relationship diagram](./media/ReasonSold.png)
+
+[!include[details](./includes/reasonsold.md)]
 
 ## Indexes
 

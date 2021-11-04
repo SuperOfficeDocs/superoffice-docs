@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "access_script"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![access_script table relationship diagram](./media/access_script.png)
+
+[!include[details](./includes/access-script.md)]
 
 ## Indexes
 

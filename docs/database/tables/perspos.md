@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersPos"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ PersPos list table. Contact person position list
 
 
 ![PersPos table relationship diagram](./media/PersPos.png)
+
+[!include[details](./includes/perspos.md)]
 
 ## Indexes
 

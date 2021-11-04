@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RecurrenceRule"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![RecurrenceRule table relationship diagram](./media/RecurrenceRule.png)
+
+[!include[details](./includes/recurrencerule.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Currency"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,6 +38,8 @@ Currency list table
 
 
 ![Currency table relationship diagram](./media/Currency.png)
+
+[!include[details](./includes/currency.md)]
 
 ## Indexes
 

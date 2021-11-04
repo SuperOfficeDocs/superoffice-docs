@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry_comment"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![kb_entry_comment table relationship diagram](./media/kb_entry_comment.png)
+
+[!include[details](./includes/kb-entry-comment.md)]
 
 ## Indexes
 

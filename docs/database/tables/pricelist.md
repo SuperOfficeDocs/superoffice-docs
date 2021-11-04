@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriceList"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,8 @@ so.envir:
 
 
 ![PriceList table relationship diagram](./media/PriceList.png)
+
+[!include[details](./includes/pricelist.md)]
 
 ## Indexes
 

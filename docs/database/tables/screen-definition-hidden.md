@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_hidden"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![screen_definition_hidden table relationship diagram](./media/screen_definition_hidden.png)
+
+[!include[details](./includes/screen-definition-hidden.md)]
 
 ## Indexes
 

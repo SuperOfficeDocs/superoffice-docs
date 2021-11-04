@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZDstRule"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,8 @@ so.envir:
 
 
 ![TZDstRule table relationship diagram](./media/TZDstRule.png)
+
+[!include[details](./includes/tzdstrule.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConnection"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ so.envir:
 
 
 ![ErpConnection table relationship diagram](./media/ErpConnection.png)
+
+[!include[details](./includes/erpconnection.md)]
 
 ## Indexes
 

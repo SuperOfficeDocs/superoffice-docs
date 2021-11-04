@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "document"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,8 @@ so.envir:
 
 
 ![document table relationship diagram](./media/document.png)
+
+[!include[details](./includes/document.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SubscriptionUnit"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of Subscription units, in the internal product register (year/quarter/m
 
 
 ![SubscriptionUnit table relationship diagram](./media/SubscriptionUnit.png)
+
+[!include[details](./includes/subscriptionunit.md)]
 
 ## Indexes
 

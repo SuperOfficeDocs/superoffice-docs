@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Credited"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Credited list table. List of who is to be credited for the sale.
 
 
 ![Credited table relationship diagram](./media/Credited.png)
+
+[!include[details](./includes/credited.md)]
 
 ## Indexes
 

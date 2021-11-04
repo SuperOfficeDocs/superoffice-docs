@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TrayApp"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![TrayApp table relationship diagram](./media/TrayApp.png)
+
+[!include[details](./includes/trayapp.md)]
 
 ## Indexes
 

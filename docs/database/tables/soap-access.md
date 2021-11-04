@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "soap_access"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![soap_access table relationship diagram](./media/soap_access.png)
+
+[!include[details](./includes/soap-access.md)]
 
 ## Indexes
 

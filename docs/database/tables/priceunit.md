@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriceUnit"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 
 
 ![PriceUnit table relationship diagram](./media/PriceUnit.png)
+
+[!include[details](./includes/priceunit.md)]
 
 ## Indexes
 

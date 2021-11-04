@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DataRight"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,8 @@ so.envir:
 
 
 ![DataRight table relationship diagram](./media/DataRight.png)
+
+[!include[details](./includes/dataright.md)]
 
 ## Indexes
 

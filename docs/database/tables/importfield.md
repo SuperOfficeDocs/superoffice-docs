@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ImportField"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,8 @@ so.envir:
 
 
 ![ImportField table relationship diagram](./media/ImportField.png)
+
+[!include[details](./includes/importfield.md)]
 
 ## Indexes
 

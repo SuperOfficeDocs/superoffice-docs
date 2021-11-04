@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_trashbin"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![ms_trashbin table relationship diagram](./media/ms_trashbin.png)
+
+[!include[details](./includes/ms-trashbin.md)]
 
 ## Indexes
 

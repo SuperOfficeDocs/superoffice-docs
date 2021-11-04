@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Business"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ Business list table
 
 
 ![Business table relationship diagram](./media/Business.png)
+
+[!include[details](./includes/business.md)]
 
 ## Indexes
 

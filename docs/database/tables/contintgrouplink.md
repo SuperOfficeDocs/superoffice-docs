@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ContIntGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![ContIntGroupLink table relationship diagram](./media/ContIntGroupLink.png)
+
+[!include[details](./includes/contintgrouplink.md)]
 
 ## Indexes
 

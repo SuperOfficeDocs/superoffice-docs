@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Credentials"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,8 @@ so.envir:
 
 
 ![Credentials table relationship diagram](./media/Credentials.png)
+
+[!include[details](./includes/credentials.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "WinPosSize"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,8 @@ so.envir:
 
 
 ![WinPosSize table relationship diagram](./media/WinPosSize.png)
+
+[!include[details](./includes/winpossize.md)]
 
 ## Indexes
 

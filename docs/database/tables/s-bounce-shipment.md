@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_bounce_shipment"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,8 @@ so.envir:
 
 
 ![s_bounce_shipment table relationship diagram](./media/s_bounce_shipment.png)
+
+[!include[details](./includes/s-bounce-shipment.md)]
 
 ## Indexes
 

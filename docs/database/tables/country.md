@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "country"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -55,6 +55,8 @@ Country information
 
 
 ![country table relationship diagram](./media/country.png)
+
+[!include[details](./includes/country.md)]
 
 ## Indexes
 

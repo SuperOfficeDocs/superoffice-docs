@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "log_events"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ so.envir:
 
 
 ![log_events table relationship diagram](./media/log_events.png)
+
+[!include[details](./includes/log-events.md)]
 
 ## Indexes
 

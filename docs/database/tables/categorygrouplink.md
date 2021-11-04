@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CategoryGroupLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![CategoryGroupLink table relationship diagram](./media/CategoryGroupLink.png)
+
+[!include[details](./includes/categorygrouplink.md)]
 
 ## Indexes
 

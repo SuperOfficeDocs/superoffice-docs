@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_result_set"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,8 @@ so.envir:
 
 
 ![ejsel_result_set table relationship diagram](./media/ejsel_result_set.png)
+
+[!include[details](./includes/ejsel-result-set.md)]
 
 ## Indexes
 

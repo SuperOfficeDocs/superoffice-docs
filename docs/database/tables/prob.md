@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Prob"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ Prob list table. Probability, used in  sales .
 
 
 ![Prob table relationship diagram](./media/Prob.png)
+
+[!include[details](./includes/prob.md)]
 
 ## Indexes
 

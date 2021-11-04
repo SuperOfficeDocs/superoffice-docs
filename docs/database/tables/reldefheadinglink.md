@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RelDefHeadingLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,8 @@ so.envir:
 
 
 ![RelDefHeadingLink table relationship diagram](./media/RelDefHeadingLink.png)
+
+[!include[details](./includes/reldefheadinglink.md)]
 
 ## Indexes
 

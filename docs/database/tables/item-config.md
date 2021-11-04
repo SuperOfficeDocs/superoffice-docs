@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "item_config"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![item_config table relationship diagram](./media/item_config.png)
+
+[!include[details](./includes/item-config.md)]
 
 ## Indexes
 

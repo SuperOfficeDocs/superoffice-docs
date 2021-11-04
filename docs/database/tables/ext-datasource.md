@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ext_datasource"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,8 @@ so.envir:
 
 
 ![ext_datasource table relationship diagram](./media/ext_datasource.png)
+
+[!include[details](./includes/ext-datasource.md)]
 
 ## Indexes
 

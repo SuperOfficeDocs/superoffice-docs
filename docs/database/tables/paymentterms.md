@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentTerms"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ The list of payment terms, in the internal product register
 
 
 ![PaymentTerms table relationship diagram](./media/PaymentTerms.png)
+
+[!include[details](./includes/paymentterms.md)]
 
 ## Indexes
 

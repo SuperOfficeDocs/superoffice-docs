@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_element"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,8 @@ so.envir:
 
 
 ![screen_definition_element table relationship diagram](./media/screen_definition_element.png)
+
+[!include[details](./includes/screen-definition-element.md)]
 
 ## Indexes
 

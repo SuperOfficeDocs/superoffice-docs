@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -51,6 +51,8 @@ Type of sale - large solution, incremental, whatever fits the organization
 
 
 ![SaleType table relationship diagram](./media/SaleType.png)
+
+[!include[details](./includes/saletype.md)]
 
 ## Indexes
 

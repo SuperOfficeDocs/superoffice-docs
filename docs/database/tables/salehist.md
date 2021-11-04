@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleHist"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -64,6 +64,8 @@ so.envir:
 
 
 ![SaleHist table relationship diagram](./media/SaleHist.png)
+
+[!include[details](./includes/salehist.md)]
 
 ## Indexes
 

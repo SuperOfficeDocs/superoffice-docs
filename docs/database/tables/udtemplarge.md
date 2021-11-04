@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udtempLarge"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![udtempLarge table relationship diagram](./media/udtempLarge.png)
+
+[!include[details](./includes/udtemplarge.md)]
 
 ## Indexes
 

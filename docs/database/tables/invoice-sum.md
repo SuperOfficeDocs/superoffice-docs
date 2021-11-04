@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "invoice_sum"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,8 @@ so.envir:
 
 
 ![invoice_sum table relationship diagram](./media/invoice_sum.png)
+
+[!include[details](./includes/invoice-sum.md)]
 
 ## Indexes
 

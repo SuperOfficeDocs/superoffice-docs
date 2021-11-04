@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjType"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,8 @@ ProjType list table. List of valid Project types.
 
 
 ![ProjType table relationship diagram](./media/ProjType.png)
+
+[!include[details](./includes/projtype.md)]
 
 ## Indexes
 

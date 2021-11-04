@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UDList"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,8 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 
 
 ![UDList table relationship diagram](./media/UDList.png)
+
+[!include[details](./includes/udlist.md)]
 
 ## Indexes
 

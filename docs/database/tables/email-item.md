@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "email_item"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -53,6 +53,8 @@ so.envir:
 
 
 ![email_item table relationship diagram](./media/email_item.png)
+
+[!include[details](./includes/email-item.md)]
 
 ## Indexes
 

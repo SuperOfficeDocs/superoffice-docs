@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersInt"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,8 @@ PersInt list table. List of Person interests.
 
 
 ![PersInt table relationship diagram](./media/PersInt.png)
+
+[!include[details](./includes/persint.md)]
 
 ## Indexes
 

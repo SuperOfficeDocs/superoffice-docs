@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjectTypeStatusLink"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,8 @@ so.envir:
 
 
 ![ProjectTypeStatusLink table relationship diagram](./media/ProjectTypeStatusLink.png)
+
+[!include[details](./includes/projecttypestatuslink.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_language"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![screen_definition_language table relationship diagram](./media/screen_definition_language.png)
+
+[!include[details](./includes/screen-definition-language.md)]
 
 ## Indexes
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ziptocity"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,8 @@ so.envir:
 
 
 ![ziptocity table relationship diagram](./media/ziptocity.png)
+
+[!include[details](./includes/ziptocity.md)]
 
 ## Indexes
 

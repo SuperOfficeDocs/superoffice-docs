@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuperListColumnSize"
-so.date: 11.02.2021
+so.date: 11.04.2021
 so.topic: reference
 so.envir:
   - "onsite"
@@ -40,6 +40,8 @@ so.envir:
 
 
 ![SuperListColumnSize table relationship diagram](./media/SuperListColumnSize.png)
+
+[!include[details](./includes/superlistcolumnsize.md)]
 
 ## Indexes
 
