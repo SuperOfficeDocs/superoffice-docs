@@ -33,7 +33,7 @@ Open the IIS Manager on the server level and on the right side under Actions sel
 
 ![2018-10-17_16-31-02.png -screenshot][img2]
 
-Download and install the Web Platform Installer, which is an extension to the IIS Manager console.
+Download and install the [Web Platform Installer][2], which is an extension to the IIS Manager console.
 
 ![blobid0.png -screenshot][img3]
 
@@ -191,7 +191,8 @@ Multiple site bindings enable multiple base addresses (enables the proxy to forw
 If you just want to expose the Customer center, Chat, or Mailings to the Internet, then you may only expose `socrm.myorganization.com/service/scripts/customer.exe/fcgi`. In addition, the static files need to be exposed as well. We do not have a strict categorization on which files need to be exposed and we do not see a security issue with exposing them, so our recommendation is to expose all static Service files (*/javascript*, */graphics*, and */css* with sub-folders. These files are the static files we distribute through our installers and no customer-specific files are located in these folders.
 
 <!-- Referenced links -->
-[1]: ../../security/deployment-scenarios.md
+[1]: ../../security/deployment-scenarios.md#scenario2
+[2]: https://www.microsoft.com/web/downloads/platform.aspx
 
 <!-- Referenced images -->
 [img1]: media/server-role-security.jpg

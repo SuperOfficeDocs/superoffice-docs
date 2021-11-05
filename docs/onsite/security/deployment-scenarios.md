@@ -19,7 +19,7 @@ In this scenario, SuperOffice is available from any location when connected to t
 
 ![Click to enlarge image -screenshot][img1]
 
-## Scenario 2: Directly accessible from the internet through a proxy
+## <a name="scenario2"></a>Scenario 2: Directly accessible from the internet through a proxy
 
 Instead of making the NetServer directly accessible from the Internet we recommend placing a reverse proxy in the DMZ to forward traffic to and from the Web Server. This proxy server isolates the Web Server from the Internet and allows us to inspect and filter web traffic to and from the Web Server using a web application firewall.
 

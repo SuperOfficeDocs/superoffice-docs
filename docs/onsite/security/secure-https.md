@@ -13,9 +13,8 @@ so.client: web
 
 To apply the best practice HTTPS configuration on a Windows server, we can run a Powershell script written by NSM (Nasjonal Sikkerhetsmyndighet). This script will make changes to the Windows registry to enable the latest encryption algorithms and disable old and insecure algorithms and ciphers.
 
-[Download the script from NSMs website][1]
 
-1. Unzip the first ZIP file. Then inside the unpacked directory, unzip the second ZIP file *Schannel.zip* and enter the unpacked directory again. Holding shift and right-clicking will give us a menu where we can open a command window in the current directory.
+1. Unzip the <a href="../../assets/downloads/u-03_sikring_av_windows_tls.zip" download>*u-03_sikring_av_windows_tls.zip*</a> file. Then inside the unpacked directory, unzip the second zip file *Schannel.zip* and enter the unpacked directory again. Holding shift and right-clicking will give us a menu where we can open a command window in the current directory.
 
     > [!NOTE]
     > The following must be done with administrator-level access.
@@ -36,7 +35,7 @@ To apply the best practice HTTPS configuration on a Windows server, we can run a
 To read more about the script, what it does and why check out the PDF file in the unzipped directory called *U-03_Sikring_av_Windows_TLS.pdf*.
 
 <!-- Referenced links -->
-[1]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhet/u-03_sikring_av_windows_tls.zip
+
 
 <!-- Referenced images -->
 [img1]: media/schannel.jpg
