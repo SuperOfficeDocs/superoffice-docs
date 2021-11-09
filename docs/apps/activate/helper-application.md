@@ -74,7 +74,7 @@ If your SuperID user is associated with multiple tenants, you will first be pres
 
 You are shown the **Allow** page. Select **I approve** to continue.
 
-![AllowScreen.png -screenshot][img6]
+![AllowScreen.png -screenshot][img1]
 
 Finally, you will be redirected to the DevNet-tokens account page where you may collect the system user token.
 
