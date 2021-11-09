@@ -26,6 +26,7 @@ After your upgrade to SuperOffice 10, there are some changes to note:  
 ## Details of the new features
 
 * 10.0.1: Configurable screens, Dashboards, Forms
+* 10.0.2: Dashboards, Screen designer, Forms, Scripts
 
 You can read more about these in the [product news][1].
 

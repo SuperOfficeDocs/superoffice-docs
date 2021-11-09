@@ -5,7 +5,7 @@ so.date: 10.20.2021
 
 # API changes
 
-* [Dashboards – Improved functionality (10.0.1)][1]
+* [API – New license structure (10.0.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
