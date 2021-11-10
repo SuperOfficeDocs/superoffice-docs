@@ -16,7 +16,7 @@ items:
     href: authentication/terminology.md
   - name: Users and associates
     href: authentication/users-and-associates.md
-  - name: Online authentication (OIDC/OAuth 2.0)
+  - name: Online authentication
     href: authentication/online/index.md
     items:
     - name: Which flow should I use?
@@ -239,7 +239,7 @@ items:
     - name: Update an entity through an entity
       href: netserver/entities/update-entity-in-entity.md
     - name: Delete an entity
-      href: netserver/entities/update-entity.md
+      href: netserver/entities/delete-entity.md
     - name: Delete an entity through an entity
       href: netserver/entities/delete-entity-from-entity.md
 - name: Rows
