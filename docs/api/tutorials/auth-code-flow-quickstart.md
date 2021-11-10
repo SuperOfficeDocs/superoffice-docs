@@ -45,7 +45,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
 2. In Visual Studio, go to the *Source* directory and **open** the *SuperOffice.DevNet.RazorPages.sln* file.
 
-    ![image8z7wl.png][2]
+    ![image8z7wl.png][img2]
 
 3. In the *appSettings.json* file, enter the **Environment**, **ClientId** and **ClientSecret** settings. The environment setting pertains to SuperOffice [online environment][8] where the application will be operating. The options are sod, stage, or online.
 

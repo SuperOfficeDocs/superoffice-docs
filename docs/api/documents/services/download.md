@@ -7,7 +7,7 @@ so.date: 06.11.2008
 so.topic: howto
 so.category: document
 so.area: api-services
-keywords:
+keywords: document, API, services, DocumenyAgent, DocumentAgent.CreateTempFile, DocumentEntity
 ---
 
 # How to download a new document

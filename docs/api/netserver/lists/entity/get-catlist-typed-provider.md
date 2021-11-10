@@ -28,7 +28,7 @@ The `RootItems` are defined by the records in the `category` table only if the M
 
 **Output of the example:**
 
-![01][img1]
+![01 -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: typed-list.md

@@ -1,16 +1,18 @@
 ---
 title: Diary
 uid: diary_ns_overview
-description: Diary
-author: {github-id}
-so.date:
-keywords:
+description: You can create an appointment at multiple levels of NetServer.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, associate
 so.topic: concept
 ---
 
 # Diary
 
 Appointments are the foundation of the SuperOffice diary.
+
+![Diary screen -screenshot][img1]
 
 ## Create appointments
 
@@ -36,3 +38,6 @@ You can create an appointment at multiple levels of NetServer:
 [5]: row/create-apt-rows.md
 [6]: osql/create-apt-osql.md
 [7]: sql/create-apt-sql.md
+
+<!-- Referenced images -->
+[img1]: media/diary-screen.png

@@ -1,12 +1,15 @@
 ---
-title: person
+title: Working with persons
 description: Person
-author: {github-id}
-so.topic: generic
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+so.topic: concept
+keywords: person, contact, API
 ---
 
 # Person
+
+![Edit person dialog -screenshot][img1]
 
 ## Person picture and blobs
 
@@ -24,3 +27,6 @@ Blobs are currently used for four things:
 If you add a picture to a person, you must write the picture to the `BinaryObject` table, and then write the corresponding `BinaryObjectLink` to link the BLOB with the person record.
 
 Without the link record, the picture will not appear.
+
+<!-- Referenced images -->
+[img1]: media/edit-person.png

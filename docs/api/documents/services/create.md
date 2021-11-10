@@ -1,13 +1,13 @@
 ---
 title: How to create a new document in SO_ARC
 uid: create_document_services
-description: How to create a new document in SO_ARC from template
+description: How to create a new document in SO_ARC from template.
 author: Tony Yates
 so.date: 06.11.2008
 so.topic: howto
 so.category: document
 so.area: api-services
-keywords:
+keywords: document, API, services, document agent, DocumentAgent.SaveDocumentEntity, DocumentEntity, CreateNewPhysicalDocumentFromTemplate
 ---
 
 # How to create a new document in SO_ARC

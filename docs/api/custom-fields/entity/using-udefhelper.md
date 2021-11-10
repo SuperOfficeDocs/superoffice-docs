@@ -3,8 +3,8 @@ title: UDEFHelper class
 uid: using_udefhelper
 description: How to use the UDFHelper class
 author: Tony Yates
-so.date: 01.17.2007
-keywords: udef
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, UDFHelper, UDFSearch, GetUDFInfo, GetUDFData
 so.topic: howto
 ---
 

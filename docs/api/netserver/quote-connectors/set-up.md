@@ -53,7 +53,7 @@ The key in the Dictionary is the `FieldKey`, and must match the key in the `Fiel
 ## Pitfall
 
 > [!NOTE]
-> You cannot populate lists based on the partially filled out user-interface during first-time setup.
+> You cannot populate lists based on the partially filled out user interface during first-time setup.
 
 Dropdown lists are fetched when the GUI is constructed, so having a configuration GUI like shown below won’t work. The call to fetch the Dataset list will come before the WebServiceURL field is filled in.
 

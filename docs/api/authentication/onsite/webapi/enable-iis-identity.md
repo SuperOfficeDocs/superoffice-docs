@@ -37,15 +37,15 @@ You must explicitly enable the authentication methods you want to use in the *we
 
 3. Enable Windows Authentication, and disable the others.
 
-    ![iis-authentication-windows][img1]
+    ![iis-authentication-windows -screenshot][img1]
 
 4. Click **Advanced Settings** to enable Kernel-mode authentication.
 
-    ![iis-kernel-mode-auth][img2]
+    ![iis-kernel-mode-auth -screenshot][img2]
 
 5. Click **Providers** to ensure that **Negotiate** is the first enabled provider.
 
-    ![iis-auth-providers][img3]
+    ![iis-auth-providers -screenshot][img3]
 
 Your SuperOffice and WebAPI should now be accessable able without logging in.
 

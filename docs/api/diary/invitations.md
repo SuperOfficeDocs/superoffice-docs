@@ -1,8 +1,9 @@
 ---
-title: invitations       
+title: Invitations
 description: Invitations
-author: {github-id}
-keywords: diary
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, associate
 so.topic: concept
 ---
 

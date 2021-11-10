@@ -24,4 +24,3 @@ The connector interface declares methods to handle:
 * Creating, removing, and updating links between ERP entities (Actors) and SuperOffice entities (like companies or projects)
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg

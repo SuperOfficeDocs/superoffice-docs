@@ -1,7 +1,16 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-so.date: 05.29.2021
+title: Diary - OSQL
+uid: api_diary_osql
+description: Working with appointments via Objectified SWL.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, OSQL
+so.topic: concept
 ---
 
-[!include[placeholder](../../includes/default-index.md)]
+# Diary - OSQL
+
+* [Create appointment][1]
+
+<!-- Referenced links -->
+[1]: create-apt-osql.md

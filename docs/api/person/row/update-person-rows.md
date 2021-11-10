@@ -1,10 +1,10 @@
 ---
 title: Update a person with a new name, address, position using rows
 uid: update_person_rows
-description: Update a person with new name, address, position using rows
+description: How to update a person with new name, address, position using rows.
 author: {github-id}
 so.date: 05.11.2016
-keywords: rows
+keywords: person, contact, API, rows, PersonRow, update, AddressRow
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # Update a person with a new name, address, position using rows
 
-Now let’s focus on how we can update the person name, position, and address using rows.
+Now let's focus on how we can update the person's name, position, and address using rows.
 
 ## Code
 

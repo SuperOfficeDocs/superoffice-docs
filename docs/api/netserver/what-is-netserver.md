@@ -404,8 +404,6 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [img1]: media/netserverhilevelview.png
 [img2]: media/sm-serviceinterfaces.png
 [img3]: media/servicedatapath-sm.png
-
-<!-- Referenced images -->
 [img4]: media/persontableinfo.gif
 [img5]: media/personrowsobject.gif
 [img6]: media/contactchart.png

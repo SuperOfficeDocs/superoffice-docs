@@ -28,7 +28,7 @@ using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
 
 When the above code is executed wherever in the application a calendar is displayed, its starting date will be Sunday:
 
-![01][img1]
+![Calendar -screenshot][img1]
 
 ## SetPreference
 
@@ -81,4 +81,4 @@ See also: [intro to cache][1]
 [1]: ../caching/index.md
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/start-week-sunday.png

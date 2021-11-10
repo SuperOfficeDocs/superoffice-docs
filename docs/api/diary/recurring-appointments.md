@@ -2,9 +2,9 @@
 title: Recurring appointments
 uid: recurring_appointment
 description: Recurring appointment
-author:
-so.date:
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, associate, recurrence, recurrencerule
 so.topic: concept
 ---
 
@@ -39,7 +39,7 @@ A recurring appointment is stored in 2 parts:
 
 The enum values correspond to what you see in the **Pattern** dialog.
 
-![Recurring appointment dialog][img1]
+![Recurring follow-up dialog -screenshot][img1]
 
 > [!CAUTION]
 > The sub-pattern should match the pattern. There is little error-checking if you mix the wrong set. You can set pattern = yearly and sub-pattern = dailyEveryDay and something strange will probably happen.
@@ -48,31 +48,39 @@ The system generates appointment records for all the recurrence instances:
 
 ```SQL
 SELECT appointment_id, associate_id, activeDate, type, status, recurrenceRuleId 
-FROM appointment WHERE recurrenceRuleId = 5
+FROM appointment WHERE recurrenceRuleId = 1
 ```
 
-![x][igm2]
+| appointment_id | associate_id | activeDate | type | status | recurrenceRuleId |
+|---|---|---|---|---|---|
+| 264 | 15 | 2021-11-04 11:30:00 | 1 | 1 | 1 |
+| 267 | 15 | 2021-11-09 11:30:00 | 1 | 1 | 1 |
+| 268 | 15 | 2021-11-11 11:30:00 | 1 | 1 | 1 |
+| 269 | 15 | 2021-11-16 11:30:00 | 1 | 1 | 1 |
+| 270 | 15 | 2021-11-18 11:30:00 | 1 | 1 | 1 |
+| 271 | 15 | 2021-11-23 11:30:00 | 1 | 1 | 1 |
 
 Taking a look at the rule itself:
 
 ```SQL
-SELECT * FROM recurrencerule WHERE recurrencerule_id = 5
+SELECT * FROM recurrencerule WHERE recurrencerule_id = 1
 ```
 
-![x][img3]
+| RecurrenceRule_id | pattern | subPattern | startDate | endDate | cyclicDay | cyclicWeek | cyclicMonth|
+|---|---|---|---|---|---|---|---|
+| 1 | 2 | 0 | 2021-11-04 11:30:00 | 2022-01-27 12:00:00 | 0 | 1 | 0 |
 
 This recurrence rule has:
 
 * pattern = 2 (weekly) (corresponds to the radio-button choice in the dialog).
 * subPattern = 0 (none)
-* weekdays = 3 ( = 1+3 = monday + tuesday) (corresponds to the checkboxes marked in the dialog)
 * cyclicWeek = 1  = "every 1 week(s)"
 
 ## Editing
 
 If you decide to change the rule pattern in the middle of a series of appointments, then a new rule is created, and the old rule is stopped at the point where the break occurs.
 
-If you change the start-time for a single appointment, the rule is not affected. The appointment is treated as an exception to the rule. The exception can be made un-exceptional by moving it back into line with the other appointments.
+If you change the start time for a single appointment, the rule is not affected. The appointment is treated as an exception to the rule. The exception can be made un-exceptional by moving it back into line with the other appointments.
 
 ## See also
 
@@ -82,6 +90,4 @@ If you change the start-time for a single appointment, the rule is not affected.
 [1]: ../../../database/docs/tables/recurrencerule.md
 
 <!-- Referenced images -->
-[img1]: media/repeat-dialog.gif
-[img2]: media/recurrence-rule-table.png
-[img3]: media/recurrence-rule-5.png
+[img1]: media/recurrence-dialog.png

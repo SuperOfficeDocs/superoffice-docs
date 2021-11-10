@@ -1,10 +1,10 @@
 ---
 title: Get all user-defined fields
 uid: get_udef_list_and_values_services
-description: How to display all user-defined fields using services
-author: {github-id}
-so.date: 06.24.2016
-keywords: api-services
+description: How to display all user-defined fields using services.
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, api-services, GetUserDefinedFieldList, UserDefinedFieldInfoAgent, UserDefinedFieldInfo
 so.topic: howto
 # so.envir:
 # so.client:
@@ -14,7 +14,7 @@ so.topic: howto
 
 This example shows how to get all the user-defined fields along with the field values on a given contact.
 
-![02][img1]
+![02 -screenshot][img1]
 
 ## Code
 

@@ -2,9 +2,9 @@
 title: How to add a person picture
 uid: add_person_picture_blob_sql
 description: Person picture and blobs
-author:
-so.date:
-keywords: blob, person
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: blob, person, contact, image, picture, API, BinaryObject, BinaryObjectLink
 so.topic: howto
 ---
 
@@ -12,9 +12,9 @@ so.topic: howto
 
 To add a picture to a person, you must write the picture to the [BinaryObject table][1], and then write the corresponding [BinaryObjectLink][2] to link the BLOB with the person record.
 
-## Update binaryobject table
+## Update BinaryObject table
 
-First, the BLOB data is inserted into the `binaryobject` table:
+First, the BLOB data is inserted into the `BinaryObject` table:
 
 ```SQL
 INSERT INTO CRM."binaryobject" ("BinaryObject_id", "conceptualType", "mimeType", "description", "originalSize", "blobSize", "isZipped", "isEncrypted", "extraInfo", "binaryData", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (624, 'PersonImage', 'image/jpeg', 'Njål Narvestad', 1333, 1333, 0, 0, '', (blobdata), 1164194209, 13, 0, 0, 0)

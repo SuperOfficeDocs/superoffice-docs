@@ -64,7 +64,7 @@ private void button4_Click(object sender, EventArgs e)
 
 Below is a screenshot of the application that we have developed.
 
-![01][img1]
+![01 -screenshot][img1]
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

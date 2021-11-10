@@ -1,9 +1,10 @@
 ---
 title: Generate document
 uid: generate_document_webapi
-description: Generate a document
-author: {github-id}
-keywords: document, webapi, agents
+description: How to generate a document with the WebAPI.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: contact, company, API, WebAPI, agents, SaveDocumentEntity, SetDocumentStreamFromId, CreateNewPhysicalDocumentFromTemplate
 so.topic: howto
 # so.envir:
 # so.client:
@@ -20,7 +21,7 @@ doc.YourRef = "bar/99";
 doc.Description = "BAZ FTW";
 doc.DocumentTemplate = { DocumentTemplateId = 2 };
 doc.Contact = { ContactId = 25 };
-doc.Person = { PersonId = 63, ContactId = 25 }; 
+doc.Person = { PersonId = 63, ContactId = 25 };
 doc = Post("api/v1/Agents/Document/SaveDocumentEntity", doc);
 ```
 

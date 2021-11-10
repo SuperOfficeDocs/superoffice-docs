@@ -40,7 +40,7 @@ To utilize direct-loading, you need to
 
 * Instead of a site URL for the connector, use `plugin://<connectorname>`, where `<connectorname>` represents the name given in the `ErpConnector` attribute on the implementing class.
 
-![x][img1]
+![Edit sync connector -screenshot][img1]
 
 The plugin loader used by the connector host is part of the *SuperOffice.Plugins.DLL* assembly that is also present in the normal website, and the same loading code is run.
 

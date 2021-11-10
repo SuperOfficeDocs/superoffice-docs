@@ -3,14 +3,14 @@ title: Creating a quote
 uid: quote_connectors_create_quote
 description: How to creating a quote
 author: {github-id}
-so.date:
-keywords: quote
+so.date: 11.08.2021
+keywords: quote, sale, product, price list, QuoteConnectorExtender
 so.topic: howto
 ---
 
 # Creating a quote
 
-![07][img1]
+![Create quote -screenshot][img1]
 
 1. When the user creates a quote by clicking the CREATE A NEW QUOTE link, the following happens.
 
@@ -18,7 +18,7 @@ so.topic: howto
 
 2. If there is more than one connection with price lists in the right currency, then the user must select the connection to use:
 
-    ![09][img3]
+    ![09 -screenshot][img3]
 
 ## Product and price list information
 
@@ -48,7 +48,7 @@ Will return all price lists if `isoCurrencyCode` is empty. Returns an empty arra
 
 ## PriceListInfo[] GetAllPriceLists( string isoCurrencyCode )
 
-Gets all `PriceLists` in the given currency, including those inactive. Will return all price lists if `isoCurrencyCode` is empty. Will return empty array if there is no `PriceList` available.
+Gets all `PriceLists` in the given currency, including those inactive. Will return all price lists if `isoCurrencyCode` is empty. Will return an empty array if there is no `PriceList` available.
 
 Currently not used.
 
@@ -95,7 +95,7 @@ Rank: Which of the images to return, will in the first version only ask for the 
 [1]: http://www.currency-iso.org/dl_iso_table_a1.xls
 
 <!-- Referenced images -->
-[img1]: media/image007.jpg
+[img1]: media/create-quote.png
 [img2]: media/image008.jpg
 [img3]: media/image009.png
 [img4]: media/image010.png

@@ -10,7 +10,7 @@ ValidateQuoteVersion calls the **ValidateVersion** implementation method, which 
 
 Validates the version, looks for problems. Will typically change the Status and Reason fields.
 
-Should for instance validates the alternatives and then concatenates the problems into the Status and reason fields.
+Should for instance validate the alternatives and then concatenate the problems into the Status and reason fields.
 
 ## QuoteAlternativeWithLinesInfo ValidateAlternative(QuoteAlternativeWithLinesInfo quoteAlternativeWithLines, bool clearOldValues = false)
 

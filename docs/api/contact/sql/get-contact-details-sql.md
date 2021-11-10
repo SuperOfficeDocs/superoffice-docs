@@ -1,10 +1,10 @@
 ---
 title: Get contact details
 uid: get_contact_details
-description: Get contact details from the SuperOffice database
-author:
-so.date:
-keywords:
+description: How to get contact details from the SuperOffice database using raw SQL.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: contact, company, SQL, API
 so.topic: howto
 ---
 
@@ -18,7 +18,9 @@ SELECT * FROM contact WHERE name = 'Client System AS'
 
 Which gives us the name, the code and number, and a bunch of list item IDs.
 
-![x][img1]
+| contact_id | name | department | number1 | number2 | associate_id | country_id | business_idx |
+|---|---|---|---|---|---|---|---|
+| 15184 | Client System AS | | 120832 | 1011044987 | 287 | 578 | 301 | 317 |
 
 ## List items: category and business
 
@@ -33,7 +35,9 @@ AND contact.business_idx = business.business_id
 
 Now we get the category name and description, as well as the category name.
 
-![x][img2]
+| contact_id | name | department | &gt;Category_id | name | rank | &gt;business_idx | name | rank |
+|---|---|---|---|---|---|---|---|---|
+| 15184 | Client System AS | | 317 | Tidligere kunde | 13 | 301 | IT og telecom | 12 |
 
 ## Phone numbers
 
@@ -65,7 +69,9 @@ AND p.ptype_idx = 1
 AND p.rank = 1
 ```
 
-![x][img3]
+| name | name | name | phone_id | owner_id | ptype_id | search_phone | phone | rank | description |
+|---|---|---|---|---|---|---|---|---|---|
+| Client System AS | Tidligere kunde | IT og telecom | 21537 | 15184 | 1 | 667763900 | 66 77 636 90 | 1 | Phone |
 
 ## Address: street or postal
 
@@ -89,14 +95,12 @@ AND a.atype_idx = 2
 
 [Address type][2]: 2 = street address
 
-![x][img4]
+| name | name | name | phone | name | address_id | owner_id | atype_idx | ... |
+|---|---|---|---|---|---|---|---|---|
+| Client System AS | Tidligere kunde | IT og telecom | 66 77 63 90 | Norway | 15834 | 15184 | 2 | |
 
 <!-- Referenced links -->
 [1]: ../../../../database/docs/tables/phone.md
 [2]: ../../../../database/docs/tables/address.md
 
 <!-- Referenced images -->
-[img1]: media/select-contact2.gif
-[img2]: media/select-contact3.gif
-[img3]: media/select-contact4.gif
-[img4]: media/select-contact5.gif

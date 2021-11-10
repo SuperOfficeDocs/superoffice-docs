@@ -3,8 +3,8 @@ title: How to list all selected interests
 uid: list_contact_interests_ws
 description: How to list all selected interests for a contact using services
 author: {github-id}
-so.date: 06.24.2016
-keywords: interest
+so.date: 11.04.2021
+keywords: contact, company, services, API, interest, IContactAgent, SelectableMDOListItem
 so.topic: howto
 # so.envir:
 # so.client:
@@ -26,14 +26,4 @@ By iterating on the array, we can retrieve details of each interest available. S
 
 Comparing the **Interest** tab of the **Company** card in the SuperOffice and our obtained output we can confirm our results.
 
-**Company card:**
-
-![07][img1]
-
-**Console output of our program:**
-
-![output][img2]
-
 <!-- Referenced images -->
-[img1]: media/image007.jpg
-[img2]: media/image008.jpg

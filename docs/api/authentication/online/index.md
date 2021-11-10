@@ -196,4 +196,3 @@ The Hybrid flow offers more flexibility with this token flow, but it’s **less 
 <!-- Referenced images -->
 [img3]: media/keyplayers.jpg
 [img4]: media/token-flow-web-user.jpg
-[img5]: media/jwt.png

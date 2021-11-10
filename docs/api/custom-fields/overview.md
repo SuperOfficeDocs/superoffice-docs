@@ -2,9 +2,9 @@
 title: Custom fields
 uid: custom_fields
 description: Custom fields
-author: {github-id}
-so.date: 10.27.2021
-keywords: udef
+author: Bergfrid Dias
+so.date: 11.05.2021
+keywords: udef, API, user-defined field, UDefField, updatedCount, udefidentity
 so.topic: concept
 ---
 
@@ -14,14 +14,14 @@ so.topic: concept
 
 ## What are Udef fields?
 
-You are allowed to add your own fields to contact, project, person, sale, appointment, and documents tables. These fields are known as **user-defined** fields. In the application, user-defined fields are visible in the corresponding main cards.
+You are allowed to add your own fields to contact, project, person, sale, appointment, and documents tables. These fields are known as **user-defined** fields. In the application, user-defined fields are visible in the **More** tab.
 
 > [!NOTE]
 > Only an administrator can add a user-defined field. You can **update** the data stored in a user-defined field.
 
 ## UDefField table
 
-User-defined fields use a layout described in a table called `UDefField`.
+User-defined fields use a layout described in a table called [UDefField][1].
 
 One row in the `UDefField` table describes one field in one particular version of the layout. The same field can be described many times in the table, once for each layout that has been published.
 
@@ -40,9 +40,9 @@ The owner-table tells you where the field belongs (contact, person, project, sal
 
 The `updatedCount` is a unique ID for each field that does not change as the field is changed.
 
-The version is updated every time a new layout is published. The current version number is stored in a user-preference.
+The version is updated every time a new layout is published. The current version number is stored in a user preference.
 
-For most fields, you’ll see the same info repeated for each version. Sometimes a new field is added, sometimes the tab-order will change slightly.
+For most fields, you’ll see the same info repeated for each version. Sometimes a new field is added, sometimes the tab order will change slightly.
 
 The travel system uses these old versions to handle travelers who return home after the layout has changed. Their changed data is mapped to the new layout when they return.
 
@@ -64,7 +64,7 @@ Some fields are indexed, some are not. The first 4 fields are indexed for search
 
 The same structure applies to all the user-defined fields.
 
-![x][img2]
+![UdXxxSmall and UdXxxLarge tables diagram][img2]
 
 ```SQL
 SELECT userdef_id FROM project WHERE name='Client SDK Work'
@@ -72,7 +72,9 @@ SELECT userdef_id FROM project WHERE name='Client SDK Work'
 SELECT * FROM udprojectsmall WHERE udprojectsmall_id = 2345
 ```
 
-![x][img3]
+| udprojectSmall_id | long01 | long02 | long03 | long04 | long05 | ... |
+|---|---|---|---|---|---|---|
+211 | 0 | 0 | 0 | 0 | 0 | |
 
 If you change a field from non-searchable to searchable, its values are moved from a non-indexed to indexed field when you publish the change. For example, from `long05` to `long01`
 
@@ -104,7 +106,26 @@ WHERE ownerTable_id = 9
 ORDER BY udefidentity, version
 ```
 
-![x][img1]
+| columnId | fieldLabel | fieldType | version | udefidentity |
+|---|---|---|---|---|
+| 36417 | projectshorttext | 2 | 2 | 1 |
+| 36417 | projectshorttext | 2 | 3 | 1 |
+| 36417 | projectshorttext | 2 | 4 | 1 |
+| 36417 | projectshorttext | 2 | 5 | 1 |
+| 36417 | projectshorttext | 2 | 6 | 1 |
+| 36417 | projectshorttext | 2 | 7 | 1 |
+| 36417 | projectshorttext | 2 | 8 | 1 |
+| 36417 | projectshorttext | 2 | 9 | 1 |
+| 36613 | projectlongtext | 3 | 2 | 2 |
+| 36613 | projectlongtext | 3 | 3 | 2 |
+| 36613 | projectlongtext | 3 | 4 | 2 |
+| 36613 | projectlongtext | 3 | 5 | 2 |
+| 36613 | projectlongtext | 3 | 6 | 2 |
+| 36613 | projectlongtext | 3 | 7 | 2 |
+| 36613 | projectlongtext | 3 | 8 | 2 |
+| 36613 | projectlongtext | 3 | 9 | 2 |
+| 36357 | projectnumber | 1 | 2 | 3 |
+| 36357 | projectnumber | 1 | 3 | 3 |
 
 `udefidentity` is a unique identifier for the field allocated by the udef system when a field is created. You can change the tab-order, the name of the field, or the type – the `udefidentity` remains the same.
 
@@ -135,13 +156,13 @@ Given this information, we can determine that the column identity values for the
 
 ## See also
 
-* [udeffield Table][1]
-* [udcontactsmall Table][2]
-* [udpersonsmall Table][3]
-* [udprojectsmall Table][4]
-* [udsalesmall Table][5]
-* [uddocsmall Table][6]
-* [udappntsmall Table][7]
+* [udeffield table][1]
+* [udcontactsmall table][2]
+* [udpersonsmall table][3]
+* [udprojectsmall table][4]
+* [udsalesmall table][5]
+* [uddocsmall table][6]
+* [udappntsmall table][7]
 
 <!-- Referenced links -->
 [1]: ../../../database/docs/tables/udeffield.md
@@ -153,6 +174,4 @@ Given this information, we can determine that the column identity values for the
 [7]: ../../../database/docs/tables/udappntsmall.md
 
 <!-- Referenced images -->
-[img1]: media/udef-field.png
 [img2]: media/udef-diagram.png
-[img3]: media/udprojectsmall.png

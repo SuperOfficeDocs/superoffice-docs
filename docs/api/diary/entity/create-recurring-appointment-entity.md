@@ -1,10 +1,10 @@
 ---
 title: How to create a recurring appointment (data layer)
 uid: create_recurring_appointment_entity
-description: How to create a recurring appointment using entities
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary, entity
+description: How to create a recurring appointment using entities.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, AppointmentMatrix, RecurrencePattern, RecurrenceDailyPattern
 so.topic: howto
 # so.envir:
 # so.client:
@@ -15,10 +15,6 @@ so.topic: howto
 This demonstrates the use of `AppointmentMatrix` to create recurring appointments. `SuperOffice.CRM.Entities.AppointmentMatrix` is a matrix holding information about repeating appointments and their participants.
 
 In the following example, we will be creating an appointment at 2.00 P.M. tomorrow that will recur for the next 8 working days.
-
-The following screenshot shows the resulting recurring appointment in the SuperOffice diary week-view.
-
-![01][img1]
 
 ## Code
 
@@ -41,4 +37,3 @@ Finally, the recurrence information is assigned to the matrix and the matrix is 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg

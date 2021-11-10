@@ -1,10 +1,10 @@
 ---
 title: Display person image
 uid: display_person_image
-description: Display person image
-author: {github-id}
-so.date: 06.24.2016
-keywords: services
+description: How to display person's image using web services.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, web services, API, ImageUtility
 so.topic: howto
 # so.envir:
 # so.client:

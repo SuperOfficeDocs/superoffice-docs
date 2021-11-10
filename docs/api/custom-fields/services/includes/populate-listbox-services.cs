@@ -17,7 +17,7 @@ using (SoSession newSession = SoSession.Authenticate("p", "p"))
       // Create a IUserDefinedFieldInfoAgent
       IUserDefinedFieldInfoAgent udefFieldInfoAgent = new UserDefinedFieldInfoAgent();
 
-      // Get the UserDefinedFieldInfo of 'Udlist one' through the IUserDefinedFieldInfoAgent                      
+      // Get the UserDefinedFieldInfo of 'Udlist one' through the IUserDefinedFieldInfoAgent
       UserDefinedFieldInfo udefFieldInfo = udefFieldInfoAgent.GetUserDefinedFieldFromProgId("SuperOffice:12", 7);
 
       // Create MDOAgent

@@ -40,9 +40,9 @@ using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
 }
 ```
 
-Once the code is executed the results can be see through the application:
+Once the code is executed the results can be seen through the application:
 
-![01][img1]
+![Calendar -screenshot][img1]
 
 The relevant section from the code that made the above change is:
 
@@ -59,4 +59,4 @@ See also: [how to get and set preferences at the data layer][1] | [and using ser
 [2]: get-set-preferences-preferenceagent.md
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/start-week-sunday.png

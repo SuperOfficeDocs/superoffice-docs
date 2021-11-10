@@ -1,72 +1,91 @@
 ---
-title: Add project
-uid: add_project
-description: Adding a project
+title: Projects
+uid: api_project
+description: Working with projects in API with raw SQL.
 author: Bergfrid Dias
-so.date: 10.27.2021
-keywords: project, project management
-so.topic: howto
+so.date: 11.05.2021
+keywords: project, project management, SQL, API, ProjType, type_idx, ProjStatus, status_idx
+so.topic: concept
 # so.envir:
 # so.client:
 ---
 
-# Adding a project
-
-When you register a project in SuperOffice, quite a bit happens behind the scenes.
+# Projects
 
 > [!NOTE]
-> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][7].
+> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][12].
 
-Create a new project called *Client SDK Work* and save it. (Click on the **New** button and fill in the name, then click **OK**.)
+![Project card -screenshot][img1]
 
-You may be required to fill in several required fields, depending on the database you are using.
+The [project table][5] contains the name and IDs of some of the other items.
 
-![Registering a new Project][img1]
+![Diagram of project related tables][img2]
 
-Use your favorite query tool and try this query:
+The relations are one-to-one mostly. At this level, the database structure isn’t very complicated. So putting together a project display is just a matter of reading the right record, and then following the relations arrows out to the right tables.
+
+## Project type
+
+The **project type** comes from the [ProjType][6] table. The `project` table contains a `type_idx` field, which contains the foreign key of the ProjType record we want. The name and tooltip are stored in the `ProjType` table.
+
+To find the project type:
 
 ```SQL
- SELECT * FROM project WHERE name = 'client sdk work'
+SELECT * FROM projtype WHERE projtype_id = 1234
 ```
 
-You should get one line back in the result window.
+Replace 1234 with the `type_idx` in your project.
 
-The SuperOffice client has done quite a bit of work for us: it has added records to four different tables:
+Here, we get one record with a text and a tooltip description. The tooltip is displayed when you hover the mouse over the text, and when you are editing the record.
 
-* Project
-* Text
-* UDProjectSmall
-* transaction log
+## Project status
 
-It may also have indexed the name and description text into a free-text index – this depends on your setup.
+The **project status** is similar – the project table contains the foreign key in the `status_idx` field, and the actual name of the status is held in the [ProjStatus][7] table.
 
-It has generated unique numbers for us (not just `record_id` numbers) and put these numbers into specific fields in the project record ( `project_number` field in this case)
+Both type and status fields are examples of [list items][1].
 
-It has updated a transaction log to allow synchronizing remote databases. We’ll see more about this in a bit.
+## Project manager/owner
 
-It has generated a soundex value based on the project’s `name` field. This value is used for detecting duplicates.
+The **employees** are stored in the [associate][8] table. The `project` table has an `associate_id` field that we use to look up the associate record. The associate record refers to a person record through its `person_id`.
 
- | Project name | Soundex value |
- |---|---|
- | Client SDK Work   | KLNTSTKAR |
- | Klient SDK –woork | KLNTSTKAR |
+> [!NOTE]
+> The name in the `associate` table is not the full name – it's the login name, the user name. The full name is stored in the person record.
 
-It has timestamped and marked the record with the creator. You can see this in the registered and `registered_associate` fields.
+## Custom fields
 
-The tables are described in more detail here:
+Any **user-defined field** values are stored in [udprojectSmall][9] or [udprojectLarge][10], while the labels and default values for these fields are stored in a table called [UdefField][11].
 
-* [Project tables][1]
-* [Guided project][2]
-* [Project type and URLs][3]
-* [Text table][4]
+## URL records
+
+The UI field called **Website** can contain zero or more web addresses. There is no URL field in the project record, but there is a table called `URL` that contains a many-to-one relation through its `project_id` field.
+
+If you want to put together a list of the URLs that belong to this project, the SQL is this:
+
+```SQL
+SELECT * FROM url WHERE project_id = 1234 ORDER BY rank
+```
+
+There may be several URLs all referencing the same `project_id`. This is OK. The URLs will be presented in rank order. The first rank will always be 1.
+
+## More info
+
+* [How to create a project][4]
+* [Project guides][3]
+* [Description and notes][2]
 
 <!-- Referenced links -->
-[1]: project-tables.md
-[2]: project-guide.md
-[3]: project-type-and-url.md
-[4]: text-table.md
-[7]: ../../../superoffice-docs/docs/license/user-plans.md
+[1]: ../netserver/lists/mdo-lists.md
+[2]: text-table.md
+[3]: project-guide.md
+[4]: create-project.md
+[5]: ../../../database/docs/tables/project.md
+[6]: ../../../database/docs/tables/projtype.md
+[7]: ../../../database/docs/tables/projstatus.md
+[8]: ../../../database/docs/tables/associate.md
+[9]: ../../../database/docs/tables/udprojectsmall.md
+[10]: ../../../database/docs/tables/udprojectlarge.md
+[11]: ../../../database/docs/tables/udeffield.md
+[12]: ../../../superoffice-docs/docs/license/user-plans.md
 
 <!-- Referenced images -->
-
-[img1]: media/so-project.gif
+[img1]: media/project.png
+[img2]: media/so-project-tables.gif

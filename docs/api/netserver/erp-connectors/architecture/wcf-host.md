@@ -31,13 +31,13 @@ Use Visual Studio to build the project. You may need to fix the reference to *Su
 
 Once the building is successful, you can use Visual Studio to deploy to IIS, or you can make an application using IIS Control Panel.
 
-![x][img2]
+![x -screenshot][img2]
 
 Remember to make Application pool .Net 4.0 or newer, since `SuperOffice.Plugins` is a .Net 4.0 DLL.
 
-![x][img3]
+![x -screenshot][img3]
 
-Once the IIS is set up, you should be able to browse to the web site and see the web service page.
+Once the IIS is set up, you should be able to browse to the website and see the web service page.
 
 ## Configuring the WCF host
 

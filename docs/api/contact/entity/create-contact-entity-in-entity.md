@@ -1,10 +1,10 @@
 ---
 title: Create a Contact entity through an entity
 uid: create_contact_entity_in_entity
-description: Create a Contact entity through an entity
+description: How to create a Contact entity through an entity two ways.
 author: {github-id}
 so.date: 05.11.2016
-keywords: diary,entity
+keywords: contact, company, entity, API,
 so.topic: howto
 # so.envir:
 # so.client:

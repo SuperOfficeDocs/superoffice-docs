@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: overview.md
 - name: Web services
-  href: services/set-udef-listitem-value.md
+  href: services/index.md
   items:
   - name: Set udef list-item value
     href: services/set-udef-listitem-value.md
@@ -11,7 +11,7 @@ items:
   - name: Find contact by udef
     href: services/find-contact-by-udef.md
 - name: Entities
-  href: entity/get-udef-field-value.md
+  href: entity/index.md
   items:
   - name: Set udef list-item value
     href: entity/set-udef-listitem-value.md
@@ -24,7 +24,7 @@ items:
   - name: UDFHelper class
     href: entity/udefhelper-class.md
 - name: SQL
-  href: sql/set-udef.md
+  href: sql/index.md
   items:
   - name: Set udef
     href: sql/set-udef.md

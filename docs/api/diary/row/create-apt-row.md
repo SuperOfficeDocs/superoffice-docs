@@ -1,10 +1,10 @@
 ---
 title: Create an appointment row
 uid: create_appointment_row
-description: Create an appointment row
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary, row
+description: How to create an appointment row.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, row, AppointmentRow
 so.topic: howto
 # so.envir:
 # so.client:
@@ -26,4 +26,4 @@ The first step of the example shows how to instantiate an `AppointmentRow` class
 
 [!code-csharp[CS](includes/create-apt-row.cs?range=6,9)]
 
-The next statements show how the different properties of the `AppointmentRow` are assigned. Once such assignments are made, the row could be saved with `Save` method available in the `AppointmentRow` class.
+The next statements show how the different properties of the `AppointmentRow` are assigned. Once such assignments are made, the row could be saved with the `Save` method available in the `AppointmentRow` class.

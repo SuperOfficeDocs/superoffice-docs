@@ -1,10 +1,10 @@
 ---
 title: How to add a new contact interest
 uid: create_contact_interest
-description: How to add a new contact interest
+description: How to add a new contact interest with rows.
 author: {github-id}
 so.date: 05.11.2016
-keywords: interest, rows
+keywords: company, contact, interest, API, row, ContIntRow, ContactInterestRow, ContIntGroupLinkRow, ContIntHeadingLinkRow
 so.topic: howto
 # so.envir:
 # so.client:
@@ -58,24 +58,34 @@ Once the example code is executed, the following rows will be added to the table
 
 **ContInt table:**
 
-![01][img1]
+| ContInt_id | name | rank | tooltip | deleted | registered | ...|
+|---|---|---|---|---|---|---|
+| 1 | Reference cust. | 1 | Referansekunde | 0 | 0 | |
+| 2 | Prestige cust. | 2 | Prestisjekunde | 0 | 0 | |
+| 3 | Big customer | 3 | Storkunde | 0 | 0 | |
+| 4 | Sam's Interest | 0 | Sam's Interests | 0 | 1214207393 | |
 
 **ContactInterest table:**
 
-![02][img2]
+| contactinterest_id | contact_id | cinterest_idx | startDate | endDate | flags | registered |
+|---|---|---|---|---|---|---|
+| 6 | 1 | 4 | 0 | 31.12.2021 02:13:49 | 0 | 28.10.2021 13.14:59 |
+| 1 | 1 | 1 | 0 | 31.12.2021 02:13:49 | 0 | 28.10.2021 13.14:59 |
+| 2 | 4 | 2 | 0 | 31.12.2021 02:13:49| 0 | 28.10.2021 13.14:59 |
+| 3 | 9 | 3 | 0 | 31.12.2021 02:13:49| 0 | 28.10.2021 13.14:59 |
 
 **ConIntGroupLink table:**
 
-![03][img3]
+| contintgrouplink | contint_id | group_id | registered | registered_associate | ... |
+|---|---|---|---|---|---|
+| 1 | 4 | 1 | 1214207393 | 103 | |
 
 **ContIntHeadingLink table:**
 
-![04][img4]
+| contintheadinglink | contint_id | heading_id | registered | registerred_ass | ... |
+|---|---|---|---|---|---|
+| 1 | 4 | 24 | 1214207393 | 103 | |
 
 <!-- Originally written for NetServer 3.0 -->
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
-[img2]: media/image002.jpg
-[img3]: media/image003.jpg
-[img4]: media/image004.jpg

@@ -1,7 +1,16 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-so.date: 05.29.2021
+title: SAINT - row
+uid: api_saint_row
+description: Working with SAINT.
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: sale, SAINT, API, row
+so.topic: concept
 ---
 
-[!include[placeholder](../../../includes/default-index.md)]
+# SAINT - row
+
+* [Search for contacts with a given SAINT counter using ContactRow.CustomSearch][1]
+
+<!-- Referenced links -->
+[1]: search-saint-contactrow-customsearch.md

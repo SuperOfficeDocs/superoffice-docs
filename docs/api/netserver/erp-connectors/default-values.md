@@ -23,7 +23,7 @@ See `DefaultValue` in [FieldMetadataInfo][1].
 
 * If the user needs to fill in some values, these are displayed in a dialog:
 
-  ![create in ERP][img2]
+  ![create in ERP- screenshot][img1]
 
 * When the user clicks **OK**, the ERP Sync Connector's `CreateActor` method is called with the ERP actor. The actor is populated with the field values from the user and the SuperOffice database.
 

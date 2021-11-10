@@ -16,7 +16,7 @@ To successfully use the REST APIs (introduced in SuperOffice version 8), you mus
 
 Below is an HTML page that contains a few text boxes for determining where, or what version of, the services reside, user name, and password. With this required information, the user can specify a project ID and click the **Get** button to execute an XMLHttpRequest.
 
-![request-page][img1]
+![request-page -screenshot][img1]
 
 ## Options
 

@@ -1,10 +1,10 @@
 ---
 title: Create an Appointment entity through an entity
 uid: create_appointment_entity_in_entity
-description: Create an Appointment entity through an entity
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary,entity
+description: How to create an Appointment entity through another entity.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity
 so.topic: howto
 # so.envir:
 # so.client:
@@ -37,7 +37,9 @@ The difference between example 1 and example 2 is that here we have created an i
 The `Appointment` created will be saved when saving the `Contact` entity with the use of its `Save` method.
 
 > [!NOTE]
-> When adding an appointment by indexing through the Appointment collection of any entity, you should take caution to identify and add to the newly created `Appointment`, without updating an earlier `Appointment`. For instance, in example 2 if there was an appointment already existing in `Appointment[0]` location when you assigned values to properties what actually would happen is an update instead of an insert since the values that already exist in the 0th location will be modified.
+> When adding an appointment by indexing through the Appointment collection of any entity, you should take caution to identify and add to the newly created `Appointment`, without updating an earlier `Appointment`.
+>
+> For instance, in example 2 if there was an appointment already existing in `Appointment[0]` location when you assigned values to properties what actually would happen is an update instead of an insert since the values that already exist in the 0th location will be modified.
 
 <!-- Referenced links -->
 [1]: create-apt-entity.md

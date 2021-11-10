@@ -37,11 +37,11 @@ Write your own connector in PHP, Perl, or c#. Needs to not be more than 10 lines
 
 The other CRM system is kept in a SQL database
 
-![x][img1]
+![x -screenshot][img1]
 
 ### Configure the agent
 
-![x][img2]
+![x -screenshot][img2]
 
 ### Configure the task
 

@@ -1,7 +1,18 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-so.date: 05.29.2021
+title: Documents - REST
+uid: api_documents_rest
+description: Working with documents via the REST API.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: document, API, REST
+so.topic: concept
 ---
 
-[!include[placeholder](../../includes/default-index.md)]
+# Documents REST
+
+* [Add document template][1]
+* [Generate document][2]
+
+<!-- Referenced links -->
+[1]: add-document-template.md
+[2]: generate-document.md

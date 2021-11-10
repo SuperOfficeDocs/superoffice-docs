@@ -22,4 +22,4 @@ So now we can search for dateparts, all the databases support it.
 See the QueryExecutionHelper class for more help.
 
 <!-- Referenced links -->
-[1]: media/image001.jpg
+[img1]: media/image001.jpg

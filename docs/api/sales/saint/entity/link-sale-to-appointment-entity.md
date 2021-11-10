@@ -2,9 +2,9 @@
 title: How to link a sale to an appointment (data layer)
 uid: link_salerow_to_appointment
 description: How to link a sale to an appointment using entities
-author: {github-id}
-so.date: 05.11.2016
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: sale, SAINT, API, entity, ActivityLinksHelper, appointment
 so.topic: howto
 # so.envir:
 # so.client:
@@ -14,7 +14,7 @@ so.topic: howto
 
 This section shows how we can add a link using the `ActivityLinksHelper` class. The link to a related sale appears in the **Links** tab of the **Appointment** dialog:
 
-![04][img1]
+![Links tab of the Appointment dialog -screenshot][img1]
 
 ## Code
 
@@ -66,4 +66,4 @@ newApp.LinksHelper.AddSaleLink(newSaleRw);
 ```
 
 <!-- Referenced images -->
-[img1]: media/image004.jpg
+[img1]: media/sale-apt-link.png

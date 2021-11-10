@@ -4,7 +4,7 @@ items:
 - name: Interests
   href: interests.md
 - name: Web services
-  href: services/create-contact-services.md
+  href: services/index.md
   items:
   - name: Create contact
     href: services/create-contact-services.md
@@ -21,7 +21,7 @@ items:
   - name: Set interest on/off
     href: services/set-interest-on-off-services.md
 - name: Entities
-  href: entity/create-contact-entity.md
+  href: entity/index.md
   items:
   - name: Create contact
     href: entity/create-contact-entity.md
@@ -36,7 +36,7 @@ items:
   - name: Set interest on/off
     href: entity/set-interest-on-off-entity.md
 - name: Rows
-  href: row/add-new-contact-interest.md
+  href: row/index.md
   items:
   - name: Create contact (Row)
     href: row/create-contact-row.md
@@ -45,13 +45,12 @@ items:
   - name: Add new contact interest
     href: row/add-new-contact-interest.md
 - name: Objectified SQL
-  href: osql/create-contact-osql.md
+  href: osql/index.md
   items:
   - name: Create contact
     href: osql/create-contact-osql.md
-
 - name: Raw SQL
-  href: sql/create-contact-sql.md
+  href: sql/index.md
   items:
   - name: Create contact
     href: sql/create-contact-sql.md

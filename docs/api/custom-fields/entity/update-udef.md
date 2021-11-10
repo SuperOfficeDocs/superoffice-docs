@@ -2,9 +2,9 @@
 title: Update user-defined field
 uid: update_udef_entity
 description: How to update a user-defined field
-author: {github-id}
-so.date:
-keywords: udefhelper
+author: Tony Yates
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, UdefHelper, UdefLarge, UdefSmall, progId, udeffield
 so.topic: howto
 # so.envir:
 # so.client:
@@ -38,10 +38,13 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 
 ## Walk-through
 
-In the above example, we refer to a particular user-defined field by using a string called **the progId**. It is stored under the `progId` field of the `udeffield` table. These values stay constant throughout the life of a field even if the name or the type of the field is changed.
+In the above example, we refer to a particular user-defined field by using a string called **the progId**. It is stored under the `progId` field of the [udeffield][1] table. These values stay constant throughout the life of a field even if the name or the type of the field is changed.
 
 If the `progId` is blank, we can assume it to be equal to *"SuperOffice:" + udeffield.identity* (For example, SuperOffice: 1).
 
 **Identity** is a sequence number that is allocated whenever you create a new user-defined field. This is not an ID field, but it remains unchanged between different versions of the same user-defined fields. Just like progId, the identity field also remains a constant throughout the lifetime of a user-defined field.
 
 The main purpose of the `progId` is to facilitate 3rd-party developers to make their fields with a name they can use in their code to find their user-defined fields again.
+
+<!-- Referenced links -->
+[1]: ../../../../database/docs/tables/udeffield.md

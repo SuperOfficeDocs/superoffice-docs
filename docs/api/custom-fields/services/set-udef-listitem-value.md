@@ -1,10 +1,10 @@
 ---
-title: 
+title: Set a user-defined list item on a Udef field
 uid: set_udef_listitem_value_ws
 description: How to set a user-defined list item on a Udef field using services
-author: {github-id}
-so.date:
-keywords: api-services
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, api-services, ContactAgent, GetContactEntity, GetUserDefinedFieldFromProgId, SaveContactEntity, MDOAgent, MDOListItem
 so.topic: howto
 # so.envir:
 # so.client:
@@ -18,9 +18,9 @@ We will be using the user-defined field `Udlist one` and populate a list box wit
 
 The following screenshot shows how the application displays the list of values for the given user-defined field.
 
-![03][img1]
+![Application displays the list of values for the given user-defined field -screenshot][img1]
 
-## Populate the listbox
+## Populate the list box
 
 [!code-csharp[CS](includes/populate-listbox-services.cs)]
 

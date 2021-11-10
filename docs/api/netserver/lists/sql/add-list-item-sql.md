@@ -3,8 +3,8 @@ title: Adding a list item
 uid: add_list_item_sql
 description: Adding a list item
 author:
-so.date:
-keywords: 
+so.date: 11.08.2021
+keywords: category, list, CategoryGL
 so.topic: howto
 ---
 
@@ -20,9 +20,9 @@ Adding a list item to a list requires 2, possibly 3, possibly 4 things:
 
 We edit lists in the SuperOffice Admin client. Here we add a new category item to the category list:
 
-![x][img1]
+![Edit category -screenshot][img1]
 
-![x][img2]
+![Edit list item -screenshot][img2]
 
 ## Insert the category item
 
@@ -73,5 +73,5 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 ```
 
 <!-- Referenced images -->
-[img1]: media/screencap2.png
+[img1]: media/edit-category.png
 [img2]: media/edit-list-item.png

@@ -1,10 +1,10 @@
 ---
 title: How to link a sale to an appointment (services)
 uid: link_sale_to_appointment_ws
-description: How to link a sale to an appointment using services
-author: {github-id}
-so.date: 06.24.2016
-keywords:
+description: How to link a sale to an appointment using web services.
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: sale, SAINT, API, web services, AppointmentAgent, appointment
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,9 +12,7 @@ so.topic: howto
 
 # How to link a sale to an appointment (services)
 
-This section shows how we can add a link using the NetServer Services layer. The link to a related sale appears in the **Links** tab of the **Appointment** dialog:
-
-![01][img1]
+This section shows how we can add a link using the NetServer Services layer. The link to a related sale appears in the **Links** tab of the **Appointment** dialog. ([See screenshot][1])
 
 ## Code
 
@@ -62,5 +60,5 @@ There is no tool available through the services layer to just add a link to the 
 
 By calling the agent's `SaveAppointmentEntity` method, we save the appointment *and* the established link.
 
-<!-- Referenced images -->
-[img1]: media/image001.jpg
+<!-- Referenced links -->
+[1]: ../entity/link-sale-to-appointment-entity.md

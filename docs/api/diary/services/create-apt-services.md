@@ -2,9 +2,9 @@
 title: Create an appointment using services
 uid: create_appointment_services
 description: Create an appointment using NetServer services
-author: {github-id}
-so.date: 06.24.2016
-keywords: diary, api-services
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, web services
 so.topic: howto
 # so.envir:
 # so.client:

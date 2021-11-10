@@ -14,13 +14,13 @@ so.topic: concept
 
 Configure the SuperOffice IIS website for Anonymous access.
 
-![iis-config-site][img1]
+![iis-config-site -screenshot][img1]
 
 Open the IIS Authentication dialog.
 
 Disable all except **Anonymous** authentication.
 
-![iis-authentication-anonymous][img2]
+![iis-authentication-anonymous -screenshot][img2]
 
 This sets up the site so that anyone can access the application and the WebAPI, but they will still need a valid SuperOffice username and password to access the site.
 
@@ -44,13 +44,13 @@ You must explicitly enable the authentication methods you want to use in the *we
 
 Accessing the SuperOffice web page, you should see the login page, asking for a username and password.
 
-![login-page][img3]
+![login-page -screenshot][img3]
 
 ## Testing WebApi
 
 If we access the `/api/`endpoint, we should get a page describing the WebAPI
 
-![api-page][img4]
+![api-page -screenshot][img4]
 
 This page should require any login to access.
 
@@ -62,15 +62,15 @@ If we try to get some information out of the API, we should be asked to log in.
 
 If we try to use the browser, we will get an error message: **401 Unauthorized**
 
-![api-error][img5]
+![api-error -screenshot][img5]
 
 If we use [Postman][1], we can add the Authorization HTTP header to the request.
 
-![api-postman-basic][img6]
+![api-postman-basic -screenshot][img6]
 
 This adds the `Authorization` header to the request, with the username:password base64 encoded:
 
-![api-postman-header][img7]
+![api-postman-header -screenshot][img7]
 
 ```http
 GET /SuperOffice/api/v1/Contact/2

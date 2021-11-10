@@ -12,7 +12,7 @@ so.topic: howto
 
 # Importing from ERP
 
-![import][img1]
+![import -screenshot][img1]
 
 Importing allows an administrator to populate a SuperOffice database with companies/projects from the ERP system.
 
@@ -24,7 +24,7 @@ All the actors with one or more searchable fields are added to the actor type dr
 
 ## Searching for actors
 
-![search][img2]
+![search -screenshot][img2]
 
 Search-in-ERP dialog uses the list of fields from the `GetSearchableFields` call to fill in the upper grid.
 

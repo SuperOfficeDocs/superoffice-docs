@@ -1,10 +1,8 @@
 items:
 - name: Overview
   href: overview.md
-- name: Project tables
-  href: project-tables.md
-- name: Project type and URL
-  href: project-type-and-url.md
+- name: Create project
+  href: create-project.md
 - name: Text table
   href: text-table.md
 - name: Project guide

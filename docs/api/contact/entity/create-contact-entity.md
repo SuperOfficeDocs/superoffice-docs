@@ -4,7 +4,7 @@ uid: create_contact_entity
 description: Create a contact entity
 author: {github-id}
 so.date: 05.11.2016
-keywords: entity
+keywords: contact, company, entity, API
 so.topic: howto
 # so.envir:
 # so.client:

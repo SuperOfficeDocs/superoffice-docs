@@ -81,6 +81,4 @@ The image below demonstrates setting the `apppool` permissions.
 [2]: https://community.superoffice.com/en/developer/videos/video-player/?videoId=841
 
 <!-- Referenced images -->
-[img1]: media/netserverservicescripting_750.png
-[img2]: media/scriptingsetup.png
 [img3]: media/permissions2.png

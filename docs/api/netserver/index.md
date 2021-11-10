@@ -21,7 +21,7 @@ You can choose to work at the level that suits you best.
 * [Rows][2]
 * [SQL Data Objects (OSQL)][1]
 
-![NetServer Architecture](media/netserver-components-overview.png)
+![NetServer Architecture][img1]
 
 Each level is described briefly below and in detail in the linked sections.
 
@@ -204,3 +204,6 @@ The fields support composition using SQL-like methods: `c.ContactId.Equal( S.Par
 [3]: ../netserver/entities/index.md
 [4]: ../netserver/archive-providers/index.md
 [5]: ../netserver/services/index.md
+
+<!-- Referenced images -->
+[img1]: media/netserver-components-overview.png

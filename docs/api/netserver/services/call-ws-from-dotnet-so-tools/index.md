@@ -14,16 +14,13 @@ To access SuperOffice web services from .Net using SuperOffice tools, you need t
 
 ## Required DLLs
 
-When we are using the following set of DLLs, we don’t have to add a web service reference to the application. The `SuperOffice.Services.Proxy` DLL will communicate with the web service that we have specified in our `app.config` file.
+When we are using the following set of DLLs, we don’t have to add a web service reference to the application. The `SuperOffice.Services.Proxy` DLL will communicate with the web service that we have specified in our *app.config* file.
 
 * SOCore
 * SuperOffice.Services
 * SuperOffice.Services.Proxy
 
-![01][img1]
-
-<!-- Referenced images -->
-[img1]: media/image001.jpg
+![01 -screenshot][img1]
 
 ## Steps
 
@@ -33,3 +30,6 @@ When we are using the following set of DLLs, we don’t have to add a web servic
 <!-- Referenced links -->
 [1]: config.md
 [2]: calling.md
+
+<!-- Referenced images -->
+[img1]: media/image001.jpg

@@ -1,9 +1,10 @@
 ---
 title: Add template
 uid:  add_document_template_webapi_agents
-description: Add a document template
-author: {github-id}
-keywords: document, webapi, agents
+description: How to add a document template using the WebAPI.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: document, WebAPI, agents, SetDocumentTemplateStream, SaveDocumentTemplateEntity, SaveDocumentTemplateStream
 so.topic: howto
 # so.envir:
 # so.client:

@@ -1,10 +1,10 @@
 ---
 title: Update a person with new name, address, position using OSQL
 uid: update_person_osql
-description: Update a person with new name, address, position using OSQL
+description: How to update a person with new name, address, position using OSQL.
 author: {github-id}
 so.date: 05.11.2016
-keywords: osql
+keywords: person, contact, API, OSQL, update
 so.topic: howto
 # so.envir:
 # so.client:

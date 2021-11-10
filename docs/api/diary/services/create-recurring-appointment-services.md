@@ -2,9 +2,9 @@
 title: How to create a recurring appointment (services)
 uid: create_recurring_appointment_ws
 description: How to create a recurring appointment using services
-author: {github-id}
-so.date: 06.24.2016
-keywords: diary, api-services
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, web services
 so.topic: howto
 # so.envir:
 # so.client:
@@ -15,10 +15,6 @@ so.topic: howto
 This demonstrates how to create recurring appointments using NetServer services.
 
 In the following example, we will be creating an appointment at 2.00 P.M. tomorrow that will recur for the next 8 working days.
-
-The following screenshot shows the resulting recurring appointment in the SuperOffice diary week-view.
-
-![02][img1]
 
 ## Code
 
@@ -43,4 +39,3 @@ Next, the recurrence pattern is created using the `CalculateDays` method of the 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image002.jpg

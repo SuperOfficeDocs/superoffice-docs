@@ -1,10 +1,10 @@
 ---
 title: Create an Appointment entity through an entity collection
 uid: create_appointment_entity_in_collection
-description: Create an Appointment entity through an entity collection
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary,entity, collection
+description: How to create an Appointment entity through an entity collection.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, collection, AppointmentCollectio
 so.topic: howto
 # so.envir:
 # so.client:

@@ -4,7 +4,7 @@ uid: add_list_item
 description: How to add a list item
 author: {github-id}
 so.date: 11.05.2016
-keywords: row
+keywords: row, list, category, CategoryRow, CategoryGroupLinkRow
 so.topic: howto
 ---
 
@@ -25,7 +25,7 @@ In the above example, we have used purely [rows][1] to get the job done.
 
 We have created a `CategoryRow`, filled some basic properties of the row, and saved it. This means that we have a new category and we can now use this category.
 
-We have not stopped at creating a category, but we have a created a `CategoryGroupLinkRow` as well. This is necessary to specify that this category belongs to this group. Creating a category group link row makes the category appear for the given group in the GUI.
+We have not stopped at creating a category, but we have created a `CategoryGroupLinkRow` as well. This is necessary to specify that this category belongs to this group. Creating a category group link row makes the category appear for the given group in the GUI.
 
 ## Example 2
 
@@ -35,10 +35,10 @@ In the above code, we have created a new category called *Cat-Dush* which is sto
 
 Next, we have added an entry to the `CategoryHeadingLink` table that determines under which heading the created category should be displayed. The created category can be seen in the SuperOffice CRM Admin as shown below.
 
-![01][img1]
+![Category page -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../rows/index.md
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/cat-dush.png

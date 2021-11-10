@@ -1,10 +1,10 @@
 ---
 title: How to accept an invitation (data layer)
 uid: accept_invitation_entity
-description: How to accept an invitation using entities
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary
+description: How to accept an invitation using entities.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, InvitationProvider, ArchiveRows, AppointmentMatrix
 so.topic: howto
 # so.envir:
 # so.client:
@@ -17,7 +17,7 @@ When you are trying to accept an invitation, two things come to your mind:
 * What is the method to retrieve the invitations?
 * What are the invitations that we are going to accept?
 
-We will build an example that uses the providers to retrieve an invitation. Then let’s accept the first invitation in the list that has an invitation date greater than today.
+We will build an example that uses the providers to retrieve an invitation. Then let's accept the first invitation in the list that has an invitation date greater than today.
 
 ## Code
 

@@ -48,11 +48,11 @@ Here we have initially created an archive provider of type Person. PersonProvide
 
 In the above example, we have retrieved the `ColumnInfo` and `EntityInfo` from the `PersonProvider` and displayed them in 2 list-boxes.
 
-![ALT][img1]
+![PersonProvider -screenshot][img1]
 
 Finally, we have retrieved the set of rows satisfying the above query and displayed them in another Listbox.
 
-![ALT][img2]
+![Result -screenshot][img2]
 
 ## NetServer REST WebApi
 

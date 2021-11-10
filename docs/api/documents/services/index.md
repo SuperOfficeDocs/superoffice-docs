@@ -1,13 +1,11 @@
 ---
-title: Document services
-uid: document_services
-description: Document services
-author: Tony Yates
-so.date: 06.11.2008
+title: Documents - services
+uid: api_documents_services
+description: Working with documents via the services
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: document, API, services, document agent
 so.topic: concept
-so.category: document
-so.area: api-services
-keywords:
 ---
 
 # Document services

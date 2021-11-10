@@ -1,10 +1,10 @@
 ---
 title: Retrieve a list of people using rows
 uid: get_person_from_contact_row
-description: Retrieve a list of people using rows
+description: How to retrieve a list of people using rows.
 author: {github-id}
 so.date: 05.11.2016
-keywords: row
+keywords: person, contact, API, rows, PersonRows
 so.topic: howto
 # so.envir:
 # so.client:
@@ -29,13 +29,13 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
     {
       cmbPersonName.Items.Add(myPersonRow.Firstname + " " + myPersonRow.Lastname);
     }
- }
+  }
 }
 ```
 
 The code in the above example is similar to [retrieving a list of persons using entities][1]. The only difference is that we have used rows to do the operation for us.
 
-Here, we retrieve the list of persons as a person rows collection to a `PersonRows` object using the contact ID of the contact that the people we want belongs to.
+Here, we retrieve the list of persons as a person rows collection to a `PersonRows` object using the contact ID of the contact that the people we want belong to.
 
 Once we have the person row collection, it is a matter of iterating through the collection to access the individual properties of a `PersonRow` like we have done above in the example.
 

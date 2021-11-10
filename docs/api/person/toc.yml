@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: overview.md
 - name: Web services
-  href: services/get-persons-ipersonagent.md
+  href: services/index.md
   items:
   - name: Get persons IContactAgent
     href: services/get-persons-icontactagent.md
@@ -19,7 +19,7 @@ items:
   - name: Display image from BLOB table
     href: services/display-image-from-blob-table-services.md
 - name: Entities
-  href: entity/get-persons-from-contact-entities.md
+  href: entity/index.md
   items:
   - name: Get persons from contact
     href: entity/get-persons-from-contact-entities.md
@@ -28,21 +28,21 @@ items:
   - name: Display image from BLOB table
     href: entity/display-image-from-blob-table-entity.md
 - name: Rows
-  href: row/get-persons-from-contact-rows.md
+  href: row/index.md
   items:
   - name: Get persons from contact
     href: row/get-persons-from-contact-rows.md
   - name: Update person
     href: row/update-person-rows.md
 - name: Objectified SQL
-  href: osql/get-persons-from-contact-sodatareader.md
+  href: osql/index.md
   items:
   - name: Get persons from contact (sodatareader)
     href: osql/get-persons-from-contact-sodatareader.md
   - name: Update person
     href: osql/update-person-osql.md
 - name: Raw SQL
-  href: sql/add-person-picture-blobs-sql.md
+  href: sql/index.md
   items:
   - name: Get persons from contact
     href: sql/get-persons-from-contact-sql.md

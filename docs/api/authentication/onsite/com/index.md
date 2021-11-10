@@ -22,11 +22,11 @@ If you are required to interact with the **Windows client**, you will need only 
 
 **COM Reference Dialog - filtered to see SuperOffice libraries:**
 
-![com-app][img2]
+![com-app -screenshot][img2]
 
 With a reference made, and the **SuperOffice.COM.Application using** statement declared, all it takes to instantiate the `IApplication` interface is to instantiate a new object of the `SoApplication` class:
 
-![com-app][img3]
+![com-app -screenshot][img3]
 
 * If the SuperOffice application was not already open, it will open now.
 * If the application is not configured for single sign-on, you will be prompted for credentials now.
@@ -47,7 +47,7 @@ Using the `SoApplication` type, you have complete access to both the SuperOffice
 
 2. With a reference made, and the **SuperOffice.COM.SuperOfficeDB using** statement declared, it's possible to instantiate a new object of the `Database` class:
 
-    ![com-app][img4]
+    ![com-app -screenshot][img4]
 
 3. Using the `Database` class instance, call the `Login` method with either a normal user, external user, or system user credentials.
 

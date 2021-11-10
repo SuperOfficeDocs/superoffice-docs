@@ -55,8 +55,3 @@ Version was rejected by the customer
 ## Sold
 
 Quote was accepted and the sale was carried through all steps
-
-![26][img1]
-
-<!-- Referenced images -->
-[img1]: media/image026.png

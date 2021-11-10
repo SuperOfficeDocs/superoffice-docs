@@ -2,9 +2,9 @@
 title: Find contact by udef
 uid: find_contact_by_udef
 description: Find a contact using a user-defined field
-author: {github-id}
-so.date: 06.24.2016
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, FindAgent, GetSpecifiedCriteriaInformationWithDefaults
 so.topic: howto
 # so.envir:
 # so.client:

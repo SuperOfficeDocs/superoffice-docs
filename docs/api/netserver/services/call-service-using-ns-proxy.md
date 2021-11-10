@@ -40,7 +40,7 @@ The application code cannot tell the difference between the 2 because the `GetCo
 
 For the `AgentFactory` to return the proxy rather than the implementation object, we would change the Implementation reference in the previous example to the *SuperOffice.Services.Proxy.dll* assembly which will look like the following.
 
-![05][img2]
+![05 -screenshot][img2]
 
 The proxy object will use Microsoft's WSE toolkit to do a SOAP call to the remote URL specified in the config file. If WSE is not installed, an error will occur during the processing of a configuration file required to service this request.
 

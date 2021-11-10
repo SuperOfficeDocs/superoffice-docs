@@ -1,10 +1,10 @@
 ---
 title: Set user-defined list item value
 uid: set_udef_listitem_value_entity
-description: How to set a user-defined list item on a Udef field using entities
-author: {github-id}
-so.date:
-keywords: udefhelper
+description: How to set a user-defined list item on a Udef field using entities.
+author: Tony Yates
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API, UdefHelper, ListTableId, TaskRows, GetFromCustomSearch
 so.topic: howto
 # so.envir:
 # so.client:
@@ -18,9 +18,9 @@ We will be using the user-defined field `companydropdownlistbox` and populate a 
 
 The following screenshot shows how the application displays the list of values for the given user-defined field.
 
-![01][img1]
+![A list of values for the given user-defined field -screenshot][img1]
 
-## Populate the listbox
+## Populate the list box
 
 [!code-csharp[CS](includes/populate-listbox-entity.cs)]
 

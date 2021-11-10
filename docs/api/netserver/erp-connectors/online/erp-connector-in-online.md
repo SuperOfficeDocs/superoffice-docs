@@ -24,7 +24,7 @@ On the right is the remote ERP Connector, a remote website that exposes the web 
 
 When administrators configure an ERP Sync Connector inside SuperOffice today, they must fill in a Sync Connector name and a Sync Connector URL.
 
-![editsyncconnector][img2]
+![editsyncconnector -screenconnector][img2]
 
 The Sync Connector name will be used as a reference for all connections created to this connector, and the Sync Connector URL specifies where SuperOffice EIS will contact to synchronize data.
 

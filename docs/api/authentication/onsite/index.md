@@ -137,9 +137,7 @@ Expired tickets cannot be renewed. They will be deleted in due course (typically
 
 ## Credentials table
 
-Tickets are stored in the `Credentials` table. It holds **outgoing** credentials (such as mail server logins for CRM.Web), **incoming** credentials (password, SID), and tickets as types. Custom plugins can add their own information.
-
-![Credentials table][img1]
+Tickets are stored in the [Credentials][3] table. It holds **outgoing** credentials (such as mail server logins for CRM.Web), **incoming** credentials (password, SID), and tickets as types. Custom plugins can add their own information.
 
 A checksum column prevents tampering (not shown here) – simply put: change anything important, and the row becomes invalid.
 
@@ -160,6 +158,6 @@ For the time being, a user can have either password or AD authentication. The da
 <!-- Referenced links -->
 [1]: http://en.wikipedia.org/wiki/Globally_Unique_Identifier
 [2]: pipeline.md
+[3]: ../../../../database/docs/tables/credentials.md
 
 <!-- Referenced images -->
-[img1]: media/image001.gif

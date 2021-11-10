@@ -9,22 +9,22 @@ items:
   - name: Values
     href: saint/values.md
   - name: Web services
-    href: saint/services/link-sale-to-appointment-services.md
+    href: saint/services/index.md
     items:
     - name: Link sale to appointment
       href: saint/services/link-sale-to-appointment-services.md
   - name: Entities
-    href: saint/entity/link-sale-to-appointment-entity.md
+    href: saint/entity/index.md
     items:
     - name: Link sale to appointment
       href: saint/entity/link-sale-to-appointment-entity.md
   - name: Rows
-    href: saint/row/search-saint-contactrow-customsearch.md
+    href: saint/row/index.md
     items:
     - name: Search SAINT (ContactRow.CustomSearch)
       href: saint/row/search-saint-contactrow-customsearch.md
   - name: Raw SQL
-    href: saint/sql/get-contact-by-saint-value-sql.md
+    href: saint/sql/index.md
     items:
     - name: Get contact by saint value
       href: saint/sql/get-contact-by-saint-value-sql.md

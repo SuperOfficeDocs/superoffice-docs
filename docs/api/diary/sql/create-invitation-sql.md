@@ -2,9 +2,9 @@
 title: Create invitation
 uid: create_invitation_sql
 description: Create an appointment invitation
-author:
-so.date:
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API
 so.topic: howto
 ---
 
@@ -13,8 +13,6 @@ so.topic: howto
 Inviting a co-worker, an external person to a meeting in a meeting room.
 
 Here we create four appointment records, one for the inviter, one for the co-worker, one for the external person, and one for the resource.
-
-![x][img1]
 
 > [!NOTE]
 > The external person (Frantz) and the meeting room (ResourceItem 1) have both automatically accepted the invitation - since they don't have a SuperOffice login.
@@ -132,4 +130,3 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "per
 [1]: ../../../../database/docs/tables/appointment.md
 
 <!-- Referenced images -->
-[img1]: media/invitation-dlg.png

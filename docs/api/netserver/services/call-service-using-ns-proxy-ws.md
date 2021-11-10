@@ -14,11 +14,11 @@ so.topic: howto
 
 To call a NetServer service through a proxy as a web service you have to set up the NetServer provided web services as an application in the IIS. After configuring the IIS application you have to add the web service you are going to use in your application as a web reference. The following figure shows the web reference added to a web application.
 
-![06][img1]
+![06 -screenshot][img1]
 
 The below figure shows the add web reference dialog of the Visual Studio IDE.
 
-![AddServiceReference][img2]
+![AddServiceReference -screenshot][img2]
 
 The URL in the above figure is the kind of URL that you have to specify when you are adding a web service running in a web server to your application.
 

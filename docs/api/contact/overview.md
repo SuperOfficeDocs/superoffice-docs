@@ -1,22 +1,25 @@
 ---
-title: contact      
-description: Contact
-author: {github-id}
-so.topic: generic
-keywords:
+title: Working with companies
+description: The company card uses the contact table and its related tables. There are multiple person records for any contact.
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+so.topic: concept
+keywords: company, person, contact
 ---
 
 # Contact
 
-The company card uses the `Contact` table and its related tables:
+![Company card -screenshot][img2]
 
-![Company tables][img1]
+The company card uses the `contact` table and its related tables:
+
+![Company tables diagram][img1]
 
 > [!NOTE]
-> There are multiple Person records for any contact. A classic many-to-one relationship.
+> There are multiple person records for any contact. A classic many-to-one relationship.
 
-* A Person can only belong to one Contact.
-* A Contact can have zero or more Persons.
+* A person can only belong to one contact.
+* A contact can have zero or more persons.
 
 It is this relationship that drives the first to fields in the appointment, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
 
@@ -30,7 +33,20 @@ The `type_idx` is 1, 2, 16387, or 16388
 SELECT * FROM address WHERE owner_id < 10
 ```
 
-![select-address][img2]
+| address_id | owner_id | atype_idx | zipcode | city | address1 |
+|---|---|---|---|---|---|
+| 1 | 1 | 1 | MK16 9PY | Milton Keynes | Suite 114 |
+| 3 | 6 | 16387 | 0124 | Oslo | Postboks 1884 Vika |
+| 4 | 7 | 16387 | 0167 | Oslo | Wergelandsveien 7 |
+| 5 | 3 | 1 | 4770 | Høvåg | Grosøya |
+| 6 | 3 | 2 | 0277 | Oslo | Drammensv 211 |
+| 7 | 8 | 16387 | 0902 | Oslo | Postboks 131, Kalbakken |
+| 8 | 9 | 16387 | 0902 | Oslo | Stålfjæra 27|
+| 9 | 4 | 1 | 2016 | Frogner | Duevegen 1 |
+| 10 | 4 | 2 | 2016 | Frogner | Trondheimsveien 350 |
+| 12 | 5 | 1 | 2061 | Gardermoen | Postboks 150 |
+
+(Result is cropped.)
 
 [Address][11]: `type_idx`
 
@@ -125,4 +141,4 @@ You can get a `Contact` entity either by using the classes provided in the entit
 
 <!-- Referenced images -->
 [img1]: media/so-contact.gif
-[img2]: media/select-address.gif
+[img2]: media/company-card.png

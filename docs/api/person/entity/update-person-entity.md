@@ -4,7 +4,7 @@ uid: update_person_entity
 description: Update a person with new name, address, position using entities
 author: {github-id}
 so.date: 05.11.2016
-keywords: entity
+keywords: person, contact, entity, API
 so.topic: howto
 # so.envir:
 # so.client:

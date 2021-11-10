@@ -4,7 +4,7 @@ uid: create_contact_row
 description: Create a contact row
 author: {github-id}
 so.date: 05.11.2016
-keywords: row
+keywords: company, contact, API, row, ContactRow
 so.topic: howto
 # so.envir:
 # so.client:

@@ -22,8 +22,3 @@ To access SuperOffice web services from Java via SOAP calls, you need the follow
 [2]: create-secret-java.md
 [3]: auth-java.md
 [4]: get-entity.md
-
-<!-- Referenced images -->
-[img1]: media/image001.jpg
-[img2]: media/image002.jpg
-[img3]: media/image003.jpg

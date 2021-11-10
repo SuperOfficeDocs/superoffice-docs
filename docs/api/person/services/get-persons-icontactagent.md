@@ -1,10 +1,10 @@
 ---
 title: Retrieving list of persons with IContactAgent
 uid: get_person_icontactagent
-description: Retrieving list of persons with IContactAgent
-author: {github-id}
-so.date: 06.24.2016
-keywords: api-serices, icontactagent
+description: How to retrieve a list of persons with IContactAgent.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, services, API, api-serices, IContactAgent, PersonAgent, GetContactWithPersons
 so.topic: howto
 # so.envir:
 # so.client:

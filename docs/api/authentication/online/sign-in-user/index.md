@@ -70,4 +70,3 @@ Below is a high-level overview of the flow. For details, check out the [Implicit
 
 <!-- Referenced images -->
 [img1]: media/oauth-code-flow.png
-[img2]: ../media/id-token.png

@@ -1,10 +1,10 @@
 ---
 title: Create a Contact using services
 uid: create_contact_services
-description: Create a contact using services
+description: How to create a contact using services.
 author: {github-id}
-so.date: 
-keywords: api-services
+so.date: 11.04.2021
+keywords: contact, company, services, API, api-services, ContactAgent, CreateDefaultContactEntity
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # Create a Contact using services
 
-This example shows how to create a new contact and assign values to its properties of the entity through the NetServer Services layer.
+This example shows how to create a new contact and assign values to the properties of the entity through the NetServer Services layer.
 
 ## Code
 

@@ -11,14 +11,14 @@ items:
   - name: Configure access
     href: services/configure-access.md
 - name: Agents WebApi
-  href: agents-web-api/add-document-template.md
+  href: agents-web-api/index.md
   items:
   - name: Add document template
     href: agents-web-api/add-document-template.md
   - name: Generate document
     href: agents-web-api/generate-document.md
 - name: REST
-  href: rest/add-document-template.md
+  href: rest/index.md
   items:
   - name: Add document template
     href: rest/add-document-template.md

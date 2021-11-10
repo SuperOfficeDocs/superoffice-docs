@@ -23,7 +23,7 @@ With more and more ERP Connectors now becoming available in SuperOffice Online, 
 
 No longer should the Sync Connector URL property define an actual URL, but instead be prefixed with `app://` followed by an application identifier.
 
-![editsyncconnector-new][img2]
+![editsyncconnector-new -screenshot][img2]
 
 The way the infrastructure works is as follows:
 

@@ -3,8 +3,8 @@ title: How to set an interest on or off
 uid: toggle_contact_interest_ws
 description: How to set an interest on or off for a contact using services
 author: {github-id}
-so.date: 06.24.2016
-keywords: interest
+so.date: 11.04.2021
+keywords: contact, company, services, API, interest, IContactAgent, electableMDOListItem
 so.topic: howto
 # so.envir:
 # so.client:
@@ -24,14 +24,4 @@ We have first retrieved a `Contact` entity using the `IContactAgent`. And then u
 
 Next, we iterate on the array and change its Boolean `Selected` property status. By using the `SaveContactEntity` method available in the `Contact` agent, we save the modifications made to the entity.
 
-**Before:**
-
-![before][img1]
-
-**After:**
-
-![after][img2]
-
 <!-- Referenced images -->
-[img1]: media/image005.jpg
-[img2]: media/image006.jpg

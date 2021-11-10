@@ -2,9 +2,9 @@
 title: How to create an invitation (data layer)
 uid: create_invitation_entity
 description: How to create an invitation using entities
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, ParticipantInfo, AddParticipant, AppointmentMatrix
 so.topic: howto
 # so.envir:
 # so.client:

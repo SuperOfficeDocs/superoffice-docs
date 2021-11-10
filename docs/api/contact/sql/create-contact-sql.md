@@ -2,9 +2,9 @@
 title: Create a contact
 uid: add_contact
 description: Add a contact to the SuperOffice database using raw SQL
-author:
-so.date:
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: contact, company, SQL, API
 so.topic: howto
 ---
 
@@ -17,11 +17,9 @@ Adding a contact to the database - this is roughly what happens:
 3. Get travel transaction log IDs from sequence
 4. Save the address with a pointer to the contact record.
 5. Save the contact record with the given contact ID.
-6. Add records to travel transaction-log for the new contact and address records.
+6. Add records to travel transaction log for the new contact and address records.
 
-The reality is a bit more detailed. Below is a transcript of the database updates that occur when **OK** is clicked in the **Company** card:
-
-![x][img1]
+The reality is a bit more detailed. Below is a transcript of the database updates that occur when **OK** is clicked in the **Company** card.
 
 > [!NOTE]
 > Sequence ID picking is omitted for clarity.
@@ -167,6 +165,3 @@ INSERT INTO CRM."countervalue" ("CounterValue_id", "contact_id", "person_id", "p
 
 INSERT INTO CRM."countervalue" ("CounterValue_id", "contact_id", "person_id", "project_id", "extra1_id", "extra2_id", "record_type", "direction", "intent_id", "sale_status", "amountClassId", "totalReg", "totalRegInPeriod", "notCompleted", "notCompletedInPeriod", "lastRegistered", "lastCompleted", "lastDoBy", "extra1_count", "extra2_count", "extra3_count", "extra4_count", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (42350, 131, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1163101627, 13, 0, 0, 0)
 ```
-
-<!-- Referenced images -->
-[img1]: media/new-contact.gif

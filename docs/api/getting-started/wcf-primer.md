@@ -69,7 +69,7 @@ Install the web services as part of the Sales & Marketing or the Customer Servic
 
 ### App server
 
-![config-app-server][img1]
+![config-app-server -screenshot][img1]
 
 In the *web.config* file for the application server you can turn on help pages to verify that the services are working. They also describe the API, so you should probably turn these off when exposing services on the open internet.
 
@@ -96,7 +96,7 @@ The most common issue by far is to low default values on the bindings. Remember 
 
 Use the web browser to navigate to the web-service end-point and see what you get back.
 
-![trouble-svc][img4]
+![trouble-svc -screenshot][img4]
 
 ### Fiddler
 

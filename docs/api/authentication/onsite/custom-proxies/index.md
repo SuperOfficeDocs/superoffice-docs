@@ -20,11 +20,11 @@ With the WSDL files and using a tool like SOAPUI, raw SOAP requests are sent to 
 
 ## [SOAPUI](#tab/wsdl-1)
 
-![soapui][img5]
+![soapui -screenshot][img5]
 
 ## [Fiddler2](#tab/wsdl-2)
 
-![fiddler][img6]
+![fiddler -screenshot][img6]
 
 ***
 

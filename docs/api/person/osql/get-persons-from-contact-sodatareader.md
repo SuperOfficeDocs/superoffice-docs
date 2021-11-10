@@ -1,10 +1,10 @@
 ---
 title: Retrieve a list of people using SODataReader
 uid: get_person_from_contact_sodatareader
-description: Retrieve a list of people using SODataReader
+description: How to retrieve a list of people using SODataReader.
 author: {github-id}
 so.date: 05.11.2016
-keywords: sodatareader,person
+keywords: person, contact, SoReader, SODataReader, API, OSQL
 so.topic: howto
 # so.envir:
 # so.client:
@@ -23,7 +23,3 @@ We start by specifying the return fields, the restriction we want (`Contact_Id =
 Then we can order the results of our select statement, in this case by the `FirstName` in the ascending order. You can leave the ordering out if you prefer.
 
 Now we can execute the reader and get our results to an `SoReader` object. Once you have the records in the reader, you can loop through the results and access individual fields returned. Here, we have concatenated the first name and the last name of the person records returned and assigned to a combo box.
-
-<!-- Referenced links -->
-[1]: ../../osql/so-data-reader.md
-[2]: ../../osql/inded.md

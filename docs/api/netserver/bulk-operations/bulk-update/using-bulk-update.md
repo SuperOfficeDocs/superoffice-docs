@@ -4,7 +4,7 @@ uid: using_bulk_update
 description: Practical details
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -29,7 +29,7 @@ When it comes to using the bulk update API, there are three aspects to its orche
 
 ![x][img1]
 
-Once the orchestration is defined, and the update is executed, it’s up to the API consumer to determine how the action results are monitors and or recorded.
+Once the orchestration is defined, and the update is executed, it’s up to the API consumer to determine how the action results are monitored and or recorded.
 
 There is a preference that determines whether to log the update or not.
 
@@ -37,7 +37,7 @@ In the Windows client, a user can click a button to view the results:
 
 **Bulk update log:**
 
-![x][img2]
+![Bulk update log -screenshot][img2]
 
 The preference that enables the Bulk Update log is in the BulkUpdate section, has a `LogResultOfJob` prefkey, and has a prefvalue that is set to either true or false.
 
@@ -53,7 +53,7 @@ The first two lines of code execute a NetServer OSQL query that gets all `person
 
 `BulkUpdateSystem` is a class that contains several useful methods for fetching all relevant `FieldValueInfos` supported by an entity.
 
-The example above uses `BulkUpdateSystem.GetAvailablePersonFields` to obtain the field where the key equals *title*. This is somewhat foolish as there are constant values available for each entity field. I should of course used `BulkUpdateSystem.PersonFieldValueKeys.Title`, and so I recommend that you use the constants in your code.
+The example above uses `BulkUpdateSystem.GetAvailablePersonFields` to obtain the field where the key equals *title*. This is somewhat foolish as there are constant values available for each entity field. I should of course have used `BulkUpdateSystem.PersonFieldValueKeys.Title`, and so I recommend that you use the constants in your code.
 
 There are constants for each entity and are defined in the following:
 
@@ -82,7 +82,7 @@ The table name will always be one of the following constants:
 * SuperOffice.CRM.Data.SaleTableInfo.DictionaryTableName
 * SuperOffice.CRM.Data.SelectionTableInfo.DictionaryTableName
 
-The `BackgroundJob` constructor accepts an array of `FieldValueInfos`, and therefore it is possible to process more than one field in a single job. The only restriction is that all `FieldValueInfos` must be a field of the same table. You cannot, for example, pass in `FieldValueInfos` from both the `Appointment` and `Contact` table. They must all belong to one or the other.
+The `BackgroundJob` constructor accepts an array of `FieldValueInfos`, and therefore it is possible to process more than one field in a single job. The only restriction is that all `FieldValueInfos` must be a field of the same table. You cannot, for example, pass in `FieldValueInfos` from both the `Appointment` and `Contact` tables. They must all belong to one or the other.
 
 Finally, the job is performed for each entity ID by calling `BackgroundJob.UpdateFieldsAsync`.
 

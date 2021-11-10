@@ -1,9 +1,10 @@
 ---
 title: Update the person's picture
 uid: update_person_image
-description: Update the person's picture
-author: {github-id}
-keywords: rest, person
+description: How to update the person's picture with the REST API.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, services, API, REST
 so.topic: howto
 # so.envir:
 # so.client:

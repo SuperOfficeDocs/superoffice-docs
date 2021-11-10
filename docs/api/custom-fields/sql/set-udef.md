@@ -1,20 +1,14 @@
 ---
 title: Set a user-defined field
 uid: set_udef_sql
-description: Set a user-defined field
-author:
-so.date:
-keywords:
+description: Set a user-defined field using raw SQL.
+author: Bergfrid Skaara Dias
+so.date: 11.05.2021
+keywords: udef, user-defined field, custom field, API
 so.topic: howto
 ---
 
 # Set a user-defined field
-
-We edit the user-defined fields on a contact like this:
-
-![x][img1]
-
-The resulting SQL is detailed in the following sections.
 
 ## Contact update
 
@@ -111,6 +105,3 @@ INSERT INTO CRM."freetextindex" ("freetextindex_id", "freetextwords_id", "table_
 ```SQL
 SELECT t198a0.StatusDef_id, t198a0.isVisual, t198a0.needsUpdate, t198a0.rank, t198a0.deleted, t198a0.ownerTable, t198a0.dirtyOnChange, t198a0.defaultTask, t198a0.lastGenerated, t198a0.numMatches, t198a0.numNeedUpdate, t198a0.registered, t198a0.registered_associate_id, t198a0.updated, t198a0.updated_associate_id, t198a0.updatedCount, t199a0.StatusValue_id, t199a0.StatusDef_id, t199a0.contact_id, t199a0.person_id, t199a0.project_id, t199a0.extra1_id, t199a0.extra2_id, t199a0.isSignalled, t199a0.needsUpdate, t199a0.registered, t199a0.registered_associate_id, t199a0.updated, t199a0.updated_associate_id, t199a0.updatedCount FROM CRM."statusvalue" t199a0 (NOLOCK), CRM."statusdef" t198a0 (NOLOCK) WHERE t199a0."contact_id" = 29 AND t199a0."StatusDef_id" = t198a0."StatusDef_id" AND t199a0."needsUpdate" = 0 AND t198a0."needsUpdate" = 0 AND t198a0."dirtyOnChange" = 1
 ```
-
-<!-- Referenced images -->
-[img1]: media/contact-udef-update.png

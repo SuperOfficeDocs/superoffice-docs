@@ -2,9 +2,9 @@
 title: How to display an image from the Blob table (services)
 uid: display_image_from_blob_ws
 description: How to display an image from the Blob table using services
-author: {github-id}
-so.date: 06.24.2016
-keywords: services
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, services, API, BinaryObject, image, BLOB, SelectableMDOListItem, IMDOAgent, GetSelectableListWithRestriction, GetBlobStream
 so.topic: howto
 # so.envir:
 # so.client:
@@ -14,9 +14,7 @@ so.topic: howto
 
 All pictures are stored in the `BinaryObject` table in the database. You can retrieve such information using `SoCore` and `SoDatabase` DLLs.
 
-In this example, we display the image `Name`, which is contained in a `SelectableMDOListItem` object. We use the `IMDOAgent`’s `GetSelectableList` method to retrieve the information:
-
-![01][img1]
+In this example, we display the image `Name`, which is contained in a `SelectableMDOListItem` object. We use the `IMDOAgent`’s `GetSelectableList` method to retrieve the information.
 
 ## Display image list
 
@@ -40,6 +38,3 @@ Once the list is displayed, the user will be able to select a name of which he w
 Above, we have used the `GetSelectableListWithRestriction` method and passed the image types, any additional information, and the ID of the item that was selected from the ListBox. This will retrieve a `SelectableMDOListItem`.
 
 To get the image we need to use the `IBLOBAgent`. By using its `GetBlobStream` method, we can get the image into the `Stream`, which in turn can be used to display the image inside the PictureBox. The ID of the item contained in the `SelectableMDOListItem` should be passed to `GetBlobStream()`.
-
-<!-- Referenced images -->
-[img1]: media/image001.jpg

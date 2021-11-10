@@ -25,17 +25,17 @@ To use a web service in a Java application we are required to create a web servi
 
 4. Complete the wizard.
 
-    ![01][img1]
+    ![01 -screenshot][img1]
 
     Once the **Finish** button has been clicked and returned to the development environment the added web service can be seen on the left side of the screen on both the Files and Projects tabs.
 
 The added web service client seen on the **projects** tab:
 
-![02][img2]
+![02 -screenshot][img2]
 
 In the **files** tab, once the client has been loaded, it will allow the programmer to see the class file and Java files available.
 
-![03][img3]
+![03 -screenshot][img3]
 
 **Next:** [Create the secret][1]
 

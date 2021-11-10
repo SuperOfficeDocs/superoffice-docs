@@ -36,12 +36,8 @@ Here, we have said give us the contacts with a name starting with the letter c a
 
 Once we have the restrictions ready, we need to store them against the selection to tell the system that this restriction is for a particular selection. We can do this with a `RestrictionCriteriaStorage` provider. We can save our restrictions using the `SaveRestriction` method. In the `SaveRestriction` method, the second parameter will act as the key. If you want you can access this criterion using this key.
 
-Now that we have completed the job, you can open SuperOffice and view this selection. You can see the contacts that we wanted to be listed under the selection.
-
-![03][img1]
+Now that we have completed the job, you can open SuperOffice and view this selection. [See screenshot of the dialog.][2]
 
 <!-- Referenced links -->
 [1]: ../../../entities/index.md
-
-<!-- Referenced images -->
-[img1]: media/image003.jpg
+[2]: ../dynamic-selections.md

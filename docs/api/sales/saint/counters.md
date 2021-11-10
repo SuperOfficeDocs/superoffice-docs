@@ -2,8 +2,9 @@
 title: Counters
 uid: saint_counters
 description: SAINT counters
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 11.05.2021
+keywords: sale, saint, statusvalue, countervalue
 so.topic: concept
 # so.envir:
 # so.client:
@@ -22,7 +23,7 @@ When a sale is created, it is saved with sale status = 1 (open)
 
 This updates the `CounterValue` for the `contact_id` in the sale with `saleStatus` = 1 and `saleStatus` = 4 (all).
 
-Sales are grouped into amount-classes, depending on the value (in the base currency) of the sale.
+Sales are grouped into amount classes, depending on the value (in the base currency) of the sale.
 
 Assume the sale falls into amount-class 2.
 
@@ -32,7 +33,12 @@ We would then have to update the four counter values that correspond to this que
 SELECT * FROM countervalue WHERE project_id = 56 AND sale_status in (1,4) AND amountclassid in (2,0)
 ```
 
-![x][img1]
+| CounterValue_id | contact_id | person_id | project_id | sale_status | amountClassId | ... |
+|---|---|---|---|---|---|---|
+| 40265 | 0 | 0 | 56 | 1 | 2 | |
+| 40268 | 0 | 0 | 56 | 1 | 0 | |
+| 40280 | 0 | 0 | 56 | 4 | 2 | |
+| 40283 | 0 | 0 | 56 | 4 | 0 | |
 
  The counter values themselves are stored in:
 
@@ -42,17 +48,11 @@ SELECT * FROM countervalue WHERE project_id = 56 AND sale_status in (1,4) AND am
 * notCompletedInPeriod
 * ...
 
-![x][img2]
-
-The `lastRegistered` and `lastDoBy` values are all equal because these match the sale we just registered on this contact.
-
 Here is a larger extraction for the same project, but now also with `sale_status` 2 (sold) and `amountclass` 1 (small)
 
 ```SQL
 SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and amountclassid in (2,1,0)
 ```
-
-![x][img3]
 
 ## See also
 
@@ -66,6 +66,3 @@ SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and a
 [3]: ../../../../database/docs/tables/statusdef.md
 
 <!-- Referenced images -->
-[img1]: media/countervalue-table.png
-[img2]: media/countervalue-values.png
-[img3]: media/countervalues-more.png

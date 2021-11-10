@@ -1,16 +1,14 @@
 ---
 title: Update a person
 uid: update_person_sql
-description: Update a person in the SuperOffice database
-author:
-so.date:
-keywords: person
+description: How to update a person in the SuperOffice database with raq SQL
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: person, contact, update, API, SQL
 so.topic: howto
 ---
 
 # Update a person
-
-![Edit person dialog][img1]
 
 ## Phone numbers added
 
@@ -117,6 +115,3 @@ INSERT INTO CRM."binaryobjectlink" ("BinaryObjectLink_id", "binaryObjectId", "ow
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110416, 1164197809, 0, 4352, 13, 206, 267)
 ```
-
-<!-- Referenced images -->
-[img1]: media/edit-person-dlg.png

@@ -2,9 +2,9 @@
 title: How to display an image from the Blob table
 uid: display_image_from_blob_entity
 description: How to display an image from the Blob table
-author: {github-id}
-so.date: 05.11.2016
-keywords: row
+author: Bergfrid Skaara Dias
+so.date: 11.02.2021
+keywords: person, contact, entity, API, BinaryObject, BLOB, image, BinaryObjectRow, GetFromIdxMimeType
 so.topic: howto
 # so.envir:
 # so.client:
@@ -15,8 +15,6 @@ so.topic: howto
 All pictures are stored in the `BinaryObject` table in the database. You can retrieve such information using `SoCore` and `SoDatabase` DLLs.
 
 In the following example, we have displayed the Image description in ListBox. Based on the selection made by the user we would retrieve and display that image in a PictureBox.
-
-![02][img1]
 
 ## Display image list
 
@@ -36,11 +34,8 @@ Since we are retrieving `BinaryObjectRow` based on the image description, we nee
 
 [!code-csharp[CS](includes/display-image-entity.cs?range=18-20)]
 
-Once we have defined the `CustomSearch`, we can use it with the `GetFromCustomSearch` method available in the `BinaryObjectRow` class. We use the `BinaryData` property of the `BinaryObjectRow` class to fill our image into the Stream and then displaying it using the following statement.
+Once we have defined the `CustomSearch`, we can use it with the `GetFromCustomSearch` method available in the `BinaryObjectRow` class. We use the `BinaryData` property of the `BinaryObjectRow` class to fill our image into the Stream and then display it using the following statement.
 
 [!code-csharp[CS](includes/display-image-entity.cs?range=27)]
 
 <!-- [Source Code (zip)](media/blob-image.zip) -->
-
-<!-- Referenced images -->
-[img1]: media/image002.jpg

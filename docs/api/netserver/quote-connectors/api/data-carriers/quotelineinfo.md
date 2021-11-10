@@ -15,7 +15,7 @@ Quote Line archive - list of quote lines in an alternative.
 
 Quote Line dialog - details of one quote line in an alternative.
 
-![30][img2]
+![30 -screenshot][img2]
 
 QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.
 

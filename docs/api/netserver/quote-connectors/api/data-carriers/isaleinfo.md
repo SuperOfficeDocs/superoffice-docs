@@ -92,4 +92,5 @@ Total cost
 Total profit (Amount - Cost)
 
 <!-- Referenced images -->
-[img1]: media/image025.png <!-- http://www.yuml.me/diagram/scruffy;/class/%5BSale%5D-%3E%5BQuote%5D,%20%5BQuote%5D-%3E%5BQuoteRevision%5D,%20%5BQuoteRevision%5D-%3E%5BQuoteAlternative%5D.png -->
+[img1]: media/image025.png
+<!-- http://www.yuml.me/diagram/scruffy;/class/%5BSale%5D-%3E%5BQuote%5D,%20%5BQuote%5D-%3E%5BQuoteRevision%5D,%20%5BQuoteRevision%5D-%3E%5BQuoteAlternative%5D.png -->

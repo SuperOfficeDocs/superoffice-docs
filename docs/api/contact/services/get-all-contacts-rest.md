@@ -1,16 +1,16 @@
 ---
 title: Select all companies
 uid: rest_api_search_contact
-description: REST Web API contact
+description: How to read all the companies in SuperOffice with REST Web API.
 author: {github-id}
-keywords: search
-so.date:
+keywords: contact, company, services, API, search, rest
+so.date: 11.04.2021
 so.topic: howto
 ---
 
 # Select all companies
 
-Read all the companies in SuperOffice
+Read all the companies in SuperOffice.
 
 ```http
 GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName HTTP/1.1

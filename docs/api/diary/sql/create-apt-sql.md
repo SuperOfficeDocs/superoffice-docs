@@ -2,9 +2,9 @@
 title: Create appointment
 uid: create_appointment_sql
 description: Create an appointment
-author:
-so.date:
-keywords:
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API
 so.topic: howto
 ---
 
@@ -13,8 +13,6 @@ so.topic: howto
 1. Insert an appointment record.
 2. Insert a text record for the appointment text.
 3. Insert a VisibleFor record that points to the appointment record.
-
-![appointment][img1]
 
 ## Create the appointment
 
@@ -81,6 +79,3 @@ INSERT INTO CRM."visiblefor" ("VisibleFor_id", "tableId", "recordId", "forAll", 
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110420, 1164199649, 0, 4352, 13, 196, 914)
 ```
-
-<!-- Referenced images -->
-[img1]: media/appointment.png

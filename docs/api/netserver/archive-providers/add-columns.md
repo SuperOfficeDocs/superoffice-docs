@@ -24,7 +24,7 @@ The complication stems from the fact that a new extender is tagged with the `Arc
 
 For instance, adding extra columns to a person that should be present in all contexts where person information is shown (Find, Contact archive under company card, Activity archive, Selection members, Shadow selection members, etc) would require a lot of coding and overriding; as well as a fair amount of reverse-engineering to find out how the providers are actually structured. In the case of Find and Selection this can be a Big Deal.
 
-![x][img1]
+![x -screenshot][img1]
 
 ## Add columns to related archive, wherever!
 

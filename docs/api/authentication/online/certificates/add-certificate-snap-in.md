@@ -15,27 +15,27 @@ The **Certificate** snap-in is a useful tool when configuring certificates.
 
 1. Open the Windows **Run** dialog and enter `mmc.exe`.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. Click **File** and select **Add/Remove Snap-in**.
 
 3. Select **Certificates** and click **Add**.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 4. Select **Computer account** and click **Next**.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 5. Select **Local computer** and click **Finish**.
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 6. You should now see the following dialog with **Certificates (Local Computer)** on the right pane.
 
     Click **OK** to finish the task.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 You can now proceed to [configure certificates][1].
 

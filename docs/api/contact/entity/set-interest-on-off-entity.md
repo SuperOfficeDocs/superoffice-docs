@@ -4,7 +4,7 @@ uid: toggle_contact_interest_entity
 description: How to set an interest on or off for a contact using entities
 author: {github-id}
 so.date: 05.11.2016
-keywords: interest, contactinteresthelper
+keywords: contact, company, interest, entity, API, ContactInterestHelper, SetItemSelection
 so.topic: howto
 # so.envir:
 # so.client:

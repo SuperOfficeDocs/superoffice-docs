@@ -14,11 +14,11 @@ This is a helper class used to encode, parse and reformat culturally sensitive d
 
 Additionally, MDO lists such as Business and Category often contain delimited multicultural strings that require parsing. In the administration pages of SuperOffice, an MDO Item is easily edited in an MDO Item dialog.
 
-![MDOListItem Dialog][img1]
+![MDOListItem dialog -screenshot][img1]
 
 As seen in the database, the record is stored as:
 
-![MDOListItem Dialog][img2]
+![MDOListItem record][img2]
 
 ## Using CultureDataFormatter
 

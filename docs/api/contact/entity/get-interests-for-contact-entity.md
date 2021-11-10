@@ -4,7 +4,7 @@ uid: list_contact_interests_entity
 description: How to list all selected interests for a contact using entities
 author: {github-id}
 so.date: 05.11.2016
-keywords: interest
+keywords: contact, company, interest, entity, API, ContactInterestHelper, SelectHeadingItems, SelectRootItems
 so.topic: howto
 # so.envir:
 # so.client:

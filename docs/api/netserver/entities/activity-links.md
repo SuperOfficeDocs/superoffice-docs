@@ -18,7 +18,7 @@ This replaced the old single-value `DocumentLink` property that `Appointment` an
 
 The system uses the relation table to allow many-to-many links between all activities.
 
-![x][img1]
+![Appointment link -screenshot][img1]
 
 This appointment is saved with `appointment_id = 24`
 
@@ -68,7 +68,7 @@ To summarize in diagram form:
 [4]: ../../../../database/docs/tables/relationtarget.md
 
 <!-- Referenced images -->
-[img1]: media/screencap4.png
+[img1]: ../../sales/saint/entity/media/sale-apt-link.png
 [img2]: media/links-appointment-record.png
 [img3]: media/links-relations.png
 [img4]: media/links-reldeflist.png

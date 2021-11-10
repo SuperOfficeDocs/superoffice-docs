@@ -1,10 +1,10 @@
 ---
 title: Update a person with a new name, address, position using services
 uid: update_person_ws
-description: Update a person with a new name, address, position using services
-author: {github-id}
-so.date: 05.11.2016
-keywords: api-services
+description: How to update a person with a new name, address, position using NetServer services.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, services, API api-services, GetPersonEntity, PersonAgent
 so.topic: howto
 # so.envir:
 # so.client:
@@ -52,7 +52,7 @@ The above would appear as a new email in the emails list of the Person. However,
 
 [!code-csharp[CS](includes/update-person-services.cs?range=38-39)]
 
-Here we give the index of the Person’s Email location that need s to be changed.
+Here we give the index of the Person’s Email location that needs to be changed.
 
 [!code-csharp[CS](includes/update-person-services.cs?range=42)]
 

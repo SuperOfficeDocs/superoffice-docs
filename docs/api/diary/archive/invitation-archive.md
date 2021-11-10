@@ -2,9 +2,9 @@
 title: Invitation Archive
 uid: invitation_archive
 description: Invitation Archive
-author: {github-id}
-so.date: 06.24.2016
-keywords: diary, search, archiveagent
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
 so.topic: howto
 # so.envir:
 # so.client:

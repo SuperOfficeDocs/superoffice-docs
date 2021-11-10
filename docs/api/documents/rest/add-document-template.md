@@ -1,9 +1,10 @@
 ---
 title: Add a document template
 uid: add_document_template_rest
-description: Add a document template
-author: {github-id}
-keywords: rest, document
+description: How to add a document template with REST.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: document, API, REST, DocumentTemplate
 so.topic: howto
 # so.envir:
 # so.client:

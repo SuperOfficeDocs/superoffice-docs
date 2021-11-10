@@ -40,19 +40,19 @@ This procedure **must be completed on all computers that will be hosting your ap
     3. Select **Import**
     4. Click **Next**
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 4. Select the certificate file from disk and click **Next**.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 5. Select **Place all certificates** and click **Next**.
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 6. Click **Finish**.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 > [!NOTE]
 > Remember to step through this procedure for both *SuperOfficeRoot.crt* and the *SuperOffice{Environment}.crt* certificates!
@@ -92,12 +92,12 @@ On the computer in each hosting environment:
 5. Verify the hierarchy on the **Certificate Path** tab.
 6. Verify the thumbprint on the **Details** tab.
 
-![x][img6]
+![x -screenshot][img6]
 
 > [!NOTE]
 > Following image shows Stage certificate
 
-![x][img7]
+![x -screenshot][img7]
 
 <!-- Referenced links -->
 [1]: index.md

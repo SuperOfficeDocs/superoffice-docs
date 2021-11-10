@@ -1,10 +1,10 @@
 ---
 title: Create an Appointment entity
 uid: create_appointment_entity
-description: Create an appointment entity
-author: {github-id}
-so.date: 05.11.2016
-keywords: diary, entity
+description: How to create an appointment entity.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: diary, calendar, appointment, API, entity, SuperOffice.CRM.Entities
 so.topic: howto
 # so.envir:
 # so.client:

@@ -20,7 +20,7 @@ To call a NetServer service through the binaries first you have to add the follo
 
 The following figure shows the added binaries in a windows application.
 
-![01][img1]
+![01 -screenshot][img1]
 
 After adding the binaries to your project references you can use the namespaces of the binaries in the using section of your code file in the following way:
 

@@ -1,12 +1,13 @@
 ---
-title: rest
+title: SuperOffice RESTful WebAPI
 description: SuperOffice RESTful WebAPI
 author: Tony Yates
 so.date: 11.26.2015
-keywords:
+keywords: REST, API, RESTful, WebAPI
 so.topic: article
 so.envir: cloud
 so.client: online
+so.version: 8.1
 ---
 
 # SuperOffice RESTful WebAPI
@@ -237,15 +238,15 @@ Navigate to the **API root** and see available REST service versions.
 
 **REST API root in a browser:**
 
-![imagebr9pi.png][img5]
+![REST API root in a browser -screenshot][img5]
 
 While you can click the links on the page to view the REST API endpoints, we recommend you use the published REST documentation here for the pure [REST API][4]; and one for the [RESTful Agents API][6].
 
-![image09ess.png][img6]
+![REST API reference -screenshot][img6]
 
 **Available actions for the Person resource:**
 
-![image8th4dv.png][img7]
+![REST Person API reference -screenshot][img7]
 
 ### Interactive Documentation
 
@@ -544,8 +545,8 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [img3]: media/soapplicationauthentication.png
 [img4]: media/rest-layers.png
 [img5]: media/imagebr9pi.png
-[img6]: media/image09ess.png
-[img7]: media/image8th4dv.png
+[img6]: media/rest-docs.png
+[img7]: media/rest-person-docs.png
 [img8]: media/image12qvq.png
 [img9]: media/rest-1.png
 [img10]: media/rest-2.png

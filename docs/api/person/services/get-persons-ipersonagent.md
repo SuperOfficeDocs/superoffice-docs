@@ -1,10 +1,10 @@
 ---
 title: Retrieving list of persons with IPersonAgent
 uid: get_person_ipersonagent
-description: Retrieving list of persons with IPersonAgent
-author: {github-id}
-so.date: 06.24.2016
-keywords: api-serices, ipersonagent
+description: How to retrieve a list of persons with IPersonAgent.
+author: Bergfrid Skaara Dias
+so.date: 11.04.2021
+keywords: person, contact, services, API, api-serices, IPersonAgent, PersonAgent, GetPersonList
 so.topic: howto
 # so.envir:
 # so.client:
@@ -37,7 +37,7 @@ Wilma Wetter      Werner & Werner               example@example.com
 
 We could also have used the Person agent’s `GetPersonsFromContact` method since we are just reading some simple properties out of the results. `GetPersonsFromContact` returns simple read-only carriers.
 
-Another option is to use the [ContactAgent][1]
+Another option is to use the [ContactAgent][1].
 
 <!-- Referenced links -->
 [1]: get-persons-icontactagent.md
