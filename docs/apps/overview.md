@@ -3,7 +3,8 @@ title: Applications
 uid: apps
 description: About SuperOffice CRM Online applications
 author: {github-id}
-keywords:
+so.date: 11.10.2021
+keywords: app, application, extensibility, integration point
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -49,6 +50,18 @@ Applications can be or do the following:
 * Synchronize data between SuperOffice and an ERP system
 * Trigger workflows between systems
 * One-way data update (address, financial and similar) between SuperOffice and external data providers
+
+The extensibility points are platform-independent.
+
+Anything a consultant can do inside the SuperOffice Admin application, any application can programmatically do during or after [provisioning][3]:
+
+* Custom lists and list items
+* User-defined fields
+* Web panels
+* Custom buttons
+* Sales guide, project guide
+* Preferences
+* Re-skinned to customer's brand
 
 Applications are either developed by SuperOffice or one of our partners. The creator of the application is responsible for [hosting][2] it. SuperOffice will not bill, [provision][3], or host partner applications. Instead, the App Store redirects to our partner’s websites where customers buy directly from the partner.
 
