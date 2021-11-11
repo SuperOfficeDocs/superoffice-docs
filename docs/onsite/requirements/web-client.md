@@ -95,7 +95,7 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 ## Requisites installed by the client installer
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05**
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
 * Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 

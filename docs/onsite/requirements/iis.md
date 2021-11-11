@@ -56,7 +56,7 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 
 ## Requisites
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05, 9 and 10**
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
 * Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 * Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
