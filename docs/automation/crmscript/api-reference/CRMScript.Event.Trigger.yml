@@ -4,6 +4,7 @@ items:
   commentId: T:CRMScript.Event.Trigger
   id: Trigger
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   children:
@@ -108,19 +109,20 @@ items:
   fullName: CRMScript.Event.Trigger
   type: Class
   summary: "\n\n"
-  example: 
+  example:
 - uid: CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
   commentId: M:CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
   id: 'ChatAfterSaveNewMessage()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ChatAfterSaveNewMessage()'
   nameWithType: Trigger.ChatAfterSaveNewMessage()
   fullName: CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
   type: Method
-  summary: "\nCalled after a chat message is saved.\n"
-  remarks: 
+  summary: "\n(403) Called after a chat message is saved.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>chatSession.topicId</td><td>the topic this chat session belongs to</td></tr><tr><td>chatSession.userId</td><td>ejUser ID</td></tr><tr><td>chatSession.customerId</td><td>person ID</td></tr><tr><td>chatSession.customerName</td><td>person name</td></tr><tr><td>chatSession.customerEmail</td><td>person email</td></tr><tr><td>chatSession.companyName</td><td>company name</td></tr><tr><td>chatSession.customerPhone</td><td>person phone</td></tr><tr><td>chatMessage.sessionId</td><td>session</td></tr><tr><td>chatMessage.id</td><td>message ID</td></tr><tr><td>chatMessage.message</td><td>message text</td></tr><tr><td>chatMessage.type</td><td>type of message (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatMessageType\">enum</a>)</td></tr><tr><td>chatMessage.specialType</td><td>Special type of message (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatSessionSpecialType\">enum</a>)</td></tr><tr><td>chatMessage.specialParam</td><td>depends on type</td></tr><tr><td>chatMessage.author</td><td>author name</td></tr></tbody></table><p></p>\nThe message has a list of clickable options. Options are as JSON array in specialParam.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.userId&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);\nprint(&quot;Params: &quot; + param1 + &quot; &quot; + param2);</code></pre>\n"
@@ -128,14 +130,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
   id: 'ChatBeforeSaveNewMessage()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ChatBeforeSaveNewMessage()'
   nameWithType: Trigger.ChatBeforeSaveNewMessage()
   fullName: CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
   type: Method
-  summary: "\nCalled before a chat message is saved.\n"
-  remarks: 
+  summary: "\n(402) Called before a chat message is saved.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>chatSession.topicId</td><td>the topic this chat session belongs to</td></tr><tr><td>chatSession.userId</td><td>ejUser ID</td></tr><tr><td>chatSession.customerId</td><td>person ID</td></tr><tr><td>chatSession.customerName</td><td>person name</td></tr><tr><td>chatSession.customerEmail</td><td>person email</td></tr><tr><td>chatSession.companyName</td><td>company name</td></tr><tr><td>chatSession.customerPhone</td><td>person phone</td></tr><tr><td>chatMessage.sessionId</td><td>session</td></tr><tr><td>chatMessage.message</td><td>message text</td></tr><tr><td>chatMessage.type</td><td>type of message (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatMessageType\">enum</a>)</td></tr><tr><td>chatMessage.specialType</td><td>Special type of message (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatMessageSpecialType\">enum</a>)</td></tr><tr><td>chatMessage.specialParam</td><td>depends on type</td></tr><tr><td>chatMessage.author</td><td>author name</td></tr></tbody></table><p></p>\nThe message has a list of clickable options. Options are as JSON array in specialParam.<p></p>\n<Strong>Output values</strong>\n<table><table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>chatMessage.message</td><td></td></tr><tr><td>chatMessage.specialType</td><td>Special type of message</td></tr><tr>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.userId&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);\nprint(&quot;Params: &quot; + param1 + &quot; &quot; + param2);</code></pre>\n"
@@ -143,6 +146,7 @@ items:
   commentId: M:CRMScript.Event.Trigger.ChatNewSession()
   id: 'ChatNewSession()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ChatNewSession()'
@@ -150,7 +154,7 @@ items:
   fullName: CRMScript.Event.Trigger.ChatNewSession()
   type: Method
   summary: "\nFires when a new chat session starts.<p></p>\nCorresponds to the webhook chatsession.created event.\n"
-  remarks: 
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>chatSession.id</td><td>session ID</td></tr><tr><td>chatSession.topicId</td><td>the chat topic this chat session belongs to</td></tr><tr><td>chatSession.customerAlias</td><td>person name from form</td></tr><tr><td>chatSession.sessionKey</td><td>secret key</td></tr><tr><td>chatSession.customerHost</td><td>hostname</td></tr><tr><td>chatSession.status</td><td>session status (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatSessionStatus\">enum</a>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.id&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);</code></pre>\n"
@@ -158,14 +162,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ChatSessionChangedStatus()
   id: 'ChatSessionChangedStatus()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ChatSessionChangedStatus()'
   nameWithType: Trigger.ChatSessionChangedStatus()
   fullName: CRMScript.Event.Trigger.ChatSessionChangedStatus()
   type: Method
-  summary: "\nCalled when session changes status. Equivalent to webhook chatsession.changed.\n"
-  remarks: 
+  summary: "\n(401) Called when session changes status. Equivalent to webhook chatsession.changed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>chatSession.id</td><td>the session ID</td></tr><tr><td>chatSession.status</td><td>new status (<a href=\"https://docs.superoffice.com/automation/crmscript/chatbot/reference.html#chatSessionStatus\">enum</a>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;chatSession.id&quot;);</code></pre>\n"
@@ -173,14 +178,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.CompactModeInjection()
   id: 'CompactModeInjection()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'CompactModeInjection()'
   nameWithType: Trigger.CompactModeInjection()
   fullName: CRMScript.Event.Trigger.CompactModeInjection()
   type: Method
-  summary: "\nAdd custom stuff to our CompactMode client\n"
-  remarks: 
+  summary: "\n(200) Add custom stuff to our CompactMode client.\n"
+  remarks: "\n<Strong>Input values</strong><p></p>\nnone<p></p>\n<Strong>Output values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>injection</td><td>Output string to inject into parser as variable.</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nprint(&quot;window.alert('foo!');&quot;);</code></pre>\n"
@@ -188,14 +194,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.CustomerCenterAuthentication()
   id: 'CustomerCenterAuthentication()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'CustomerCenterAuthentication()'
   nameWithType: Trigger.CustomerCenterAuthentication()
   fullName: CRMScript.Event.Trigger.CustomerCenterAuthentication()
   type: Method
-  summary: "\nCalled when customer logs into Customer centre.\n"
-  remarks: 
+  summary: "\n(210) Called when customer logs into Customer centre.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>username</td><td>user string</td></tr><tr><td>targetId</td><td>temporary key info ID (optional)</td></tr></tbody></table>\n<Strong>Output values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>navigateTo</td><td>set to URL to redirect to</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
@@ -203,14 +210,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.CustomerSetSubscriptions()
   id: 'CustomerSetSubscriptions()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'CustomerSetSubscriptions()'
   nameWithType: Trigger.CustomerSetSubscriptions()
   fullName: CRMScript.Event.Trigger.CustomerSetSubscriptions()
   type: Method
-  summary: "\nCalled when setting subscriptions from Manage subscription page.\n"
-  remarks: 
+  summary: "\n(302) Called when setting subscriptions from Manage subscription page.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>personId</td><td>person ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
@@ -218,14 +226,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.DbiTaskFailed()
   id: 'DbiTaskFailed()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'DbiTaskFailed()'
   nameWithType: Trigger.DbiTaskFailed()
   fullName: CRMScript.Event.Trigger.DbiTaskFailed()
   type: Method
-  summary: "\nCalled when a DBI task fails to execute successfully.\n"
-  remarks: 
+  summary: "\n(301) Called when a DBI task fails to execute successfully.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>the dbi agent schedule ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -233,14 +242,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ImportMailAfterProcessing()
   id: 'ImportMailAfterProcessing()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ImportMailAfterProcessing()'
   nameWithType: Trigger.ImportMailAfterProcessing()
   fullName: CRMScript.Event.Trigger.ImportMailAfterProcessing()
   type: Method
-  summary: "\nCalled after email is processed by email filters and save to the system.\n"
-  remarks: 
+  summary: "\n(304) Called after email is processed by email filters and save to the system.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>messageId</td><td>message ID (int)</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>customerId</td><td>The ID of the primary person connected to this ticket</td></tr><tr><td>customerEmail</td><td>Email address of the primary person connected to this ticket</td></tr><tr><td>mailBackup</td><td>Raw version of the email</td></tr><tr><td>filterId</td><td>filter ID</td></tr><tr><td>to</td><td>to header value</td></tr><tr><td>from</td><td>from header value</td></tr><tr><td>isNewCustomer</td><td>set to 1 if this email created a new customer/person (0/1)</td></tr></tbody></table><p></p>\nIn addition, any variables set by the email filter are also available with the name specified in the email filter.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -248,6 +258,7 @@ items:
   commentId: M:CRMScript.Event.Trigger.ImportMailBeforeProcessing()
   id: 'ImportMailBeforeProcessing()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ImportMailBeforeProcessing()'
@@ -255,7 +266,7 @@ items:
   fullName: CRMScript.Event.Trigger.ImportMailBeforeProcessing()
   type: Method
   summary: "\nThere are several variables available in this context.<p></p>\n<ul><li>To get a variable:<code>getVariable(&quot;xxx&quot;)</code></li><li>To set a variable:<code>setVariable(&quot;xxx&quot;, &lt;value&gt;)</code>, where &lt;value&gt; is a valid value for the field you are trying to set.</li></ul>\n"
-  remarks: 
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>subject</td><td>message subject</td></tr><tr><td>body</td><td>message body</td></tr><tr><td>bodyHtml</td><td>message html body</td></tr><tr><td>author</td><td>message sender</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>ticketExists</td><td>1 if this is a mail on an existing request, else 0 (0/1)</td></tr><tr><td>sendAutoReply</td><td>1 if there will be sent an auto reply, else 0 (0/1)</td></tr><tr><td>whyNoAutoReply</td><td>why? message</td></tr><tr><td>toTrashcan</td><td>1 if this mail will be sent to trashcan, else 0 (0/1)</td></tr><tr><td>toBeDeleted</td><td>1 if this mail will be deleted, else 0 (0/1)</td></tr><tr><td>fromEjournal</td><td>1 if the mail is from another AIM Server, else 0 (0/1)</td></tr><tr><td>isBounce</td><td>1 if this is a bounce, else 0 (0/1)</td></tr><tr><td>mailboxId</td><td>The ID of the mailbox that the mail came in to</td></tr><tr><td>smtpId</td><td>smtp message ID</td></tr><tr><td>mailBackup</td><td>raw message text</td></tr><tr><td>filterId</td><td>ID</td></tr><tr><td>to</td><td>message to header</td></tr><tr><td>from</td><td>message from header</td></tr></tbody></table><Strong>Output values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>subject</td><td>message subject</td></tr><tr><td>author</td><td>message sender</td></tr><tr><td>ticketExists</td><td>request found? (0/1)</td></tr><tr><td>sendAutoReply</td><td>should send reply? (0/1)</td></tr><tr><td>whyNoAutoReply</td><td>why? message</td></tr><tr><td>toTrashcan</td><td>0/1</td></tr><tr><td>toBeDeleted</td><td>0/1</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\nThe following is an example of a script that will generate a new request if the incoming email is originally supposed to be connected to an existing request. The script will tell the email engine to generate a new request only if the original request is closed.<p></p>\n<pre><code>#setLanguageLevel 3;\nTicket ticket;\nticket.load(getVariable(&quot;ticketId&quot;).toInteger());\n\nif (ticket.getValue(&quot;status&quot;) == &quot;2&quot;)\n  setVariable(&quot;ticketExists&quot;, &quot;0&quot;);  // Generate new request</code></pre>\n"
@@ -263,13 +274,14 @@ items:
   commentId: M:CRMScript.Event.Trigger.MainMenu()
   id: 'MainMenu()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'MainMenu()'
   nameWithType: Trigger.MainMenu()
   fullName: CRMScript.Event.Trigger.MainMenu()
   type: Method
-  summary: "\nRuns when the main menu is rendered.\n"
+  summary: "\n(113) Runs when the main menu is rendered.\n"
   remarks: 
   syntax: 
   example: 
@@ -278,14 +290,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewNotifyTicketFromForm()
   id: 'NewNotifyTicketFromForm()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewNotifyTicketFromForm()'
   nameWithType: Trigger.NewNotifyTicketFromForm()
   fullName: CRMScript.Event.Trigger.NewNotifyTicketFromForm()
   type: Method
-  summary: "\nCalled when a new ticket was created from a form.\n"
-  remarks: 
+  summary: "\n(105) Called when a new ticket was created from a form.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>contactId</td><td>the contact ID</td></tr><tr><td>personId</td><td>the person ID</td></tr><tr><td>formId</td><td>the new Form ID</td></tr><tr><td>formDescription</td><td>the form description</td></tr><tr><td>formName</td><td>the form name</td></tr><tr><td>formSubmissionId</td><td>the form submission ID</td></tr><tr><td>projectId</td><td>the project ID</td></tr><tr><td>selectionId</td><td>the selection ID</td></tr><tr><td>entryId</td><td>the new ticket ID</td></tr><tr><td>ticketId</td><td>the new ticket ID</td></tr><tr><td>Additional form specific fields</td><td></td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;entryId&quot;);</code></pre>\n"
@@ -293,14 +306,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicket()
   id: 'NewTicket()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicket()'
   nameWithType: Trigger.NewTicket()
   fullName: CRMScript.Event.Trigger.NewTicket()
   type: Method
-  summary: "\nRuns when a new ticket is created.\n"
-  remarks: 
+  summary: "\n(100) Runs when a new ticket is created.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -308,14 +322,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
   id: 'NewTicketFromCustomerCenter()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicketFromCustomerCenter()'
   nameWithType: Trigger.NewTicketFromCustomerCenter()
   fullName: CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
   type: Method
-  summary: "\nCalled when a new ticket is created and saved from Customer center.\n"
-  remarks: 
+  summary: "\n(101) Called when a new ticket is created and saved from Customer center\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>ticket ID</td></tr><tr><td>ticketId</td><td>ticket ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -323,14 +338,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
   id: 'NewTicketFromCustomerCenterBeforeSave()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicketFromCustomerCenterBeforeSave()'
   nameWithType: Trigger.NewTicketFromCustomerCenterBeforeSave()
   fullName: CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
   type: Method
-  summary: "\nCalled before a new ticket is created and saved from Customer center.\n"
-  remarks: 
+  summary: "\n(103) Called before a new ticket is created and saved from Customer center.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>customerId</td><td>person ID</td></tr></tbody></table><Strong>Output values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>errorMessage</td><td></td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -338,14 +354,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicketFromEmail()
   id: 'NewTicketFromEmail()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicketFromEmail()'
   nameWithType: Trigger.NewTicketFromEmail()
   fullName: CRMScript.Event.Trigger.NewTicketFromEmail()
   type: Method
-  summary: "\nRuns after ImportMailAfterProcessing (304) if ticket did not exist.\n"
-  remarks: 
+  summary: "\n(102) Runs after ImportMailAfterProcessing (304) if ticket did not exist.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>messageId</td><td>message ID (int)</td></tr><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>customerId</td><td>person ID</td></tr><tr><td>customerEmail</td><td>person email address</td></tr><tr><td>mailBackup</td><td>backup string</td></tr><tr><td>filterId</td><td>filter ID</td></tr><tr><td>to</td><td>to header value</td></tr><tr><td>from</td><td>from header value</td></tr><tr><td>isNewCustomer</td><td>new customer? (0/1)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -353,14 +370,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicketFromForm()
   id: 'NewTicketFromForm()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicketFromForm()'
   nameWithType: Trigger.NewTicketFromForm()
   fullName: CRMScript.Event.Trigger.NewTicketFromForm()
   type: Method
-  summary: "\nCalled when a form submission creates a new ticket.\n"
-  remarks: 
+  summary: "\n(106) Called when a form submission creates a new ticket.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>contactId</td><td>the contact ID</td></tr><tr><td>personId</td><td>the person ID</td></tr><tr><td>formId</td><td>the new Form ID</td></tr><tr><td>formDescription</td><td>the form description</td></tr><tr><td>formName</td><td>the form name</td></tr><tr><td>formSubmissionId</td><td>the form submission ID</td></tr><tr><td>projectId</td><td>the project ID</td></tr><tr><td>selectionId</td><td>the selection ID</td></tr><tr><td>entryId</td><td>the new ticket ID</td></tr><tr><td>ticketId</td><td>the new ticket ID</td></tr><tr><td>categoryId</td><td>the new ticket category ID</td></tr><tr><td>title</td><td>the new ticket title</td></tr><tr><td>message</td><td>the new ticket body text</td></tr><tr><td>Additional form specific fields</td><td></td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;entryId&quot;);</code></pre>\n"
@@ -368,14 +386,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.NewTicketFromSpmLink()
   id: 'NewTicketFromSpmLink()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'NewTicketFromSpmLink()'
   nameWithType: Trigger.NewTicketFromSpmLink()
   fullName: CRMScript.Event.Trigger.NewTicketFromSpmLink()
   type: Method
-  summary: "\nCalled when a mailing link was clicked and mailing specifies link tracking.\n"
-  remarks: 
+  summary: "\n(104) Called when a mailing link was clicked and mailing specifies link tracking.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>custId</td><td>customer person ID</td></tr><tr><td>personId</td><td>customer person ID</td></tr><tr><td>linkId</td><td>link ID</td></tr><tr><td>shipmentId</td><td>mailing ID</td></tr><tr><td>linkUrl</td><td>url</td></tr><tr><td>linkHits</td><td>number of hits</td></tr><tr><td>ticketTitle</td><td>ticket title</td></tr><tr><td>ticketCategory</td><td>ticket category ID</td></tr><tr><td>ticketPriority</td><td>ticket priority ID</td></tr><tr><td>ticketOwnedBy</td><td>owner of ticket</td></tr><tr><td>firstHit</td><td>first click (0/1)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -383,14 +402,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveAppointment()
   id: 'SalesAfterSaveAppointment()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveAppointment()'
   nameWithType: Trigger.SalesAfterSaveAppointment()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveAppointment()
   type: Method
-  summary: "\nCalled after an appointment is saved. EventData contains all variables passed by datahandler in the Sales client. It is also possible to create and pass custom variables from BeforeSave event trigger.\n"
-  remarks: 
+  summary: "\n(1101) Called after an appointment is saved. EventData contains all variables passed by datahandler in the Sales client. It is also possible to create and pass custom variables from BeforeSave event trigger.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AppointmentEntity.ActiveDate</td><td>Activate date</td></tr><tr><td>AppointmentEntity.ActiveLinks</td><td>Has active links</td></tr><tr><td>AppointmentEntity.AppointmentId</td><td>Appointment ID</td></tr><tr><td>AppointmentEntity.AssignmentStatus</td><td>Assignment status</td></tr><tr><td>AppointmentEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>AppointmentEntity.BookingType</td><td>Booking type</td></tr><tr><td>AppointmentEntity.CautionWarning</td><td>Caution warning</td></tr><tr><td>AppointmentEntity.CentralserviceVideomeetId</td><td>CentralserviceVideomeetId</td></tr><tr><td>AppointmentEntity.Completed</td><td>Completed</td></tr><tr><td>AppointmentEntity.CompletedBool</td><td>Is completed</td></tr><tr><td>AppointmentEntity.Contact.ActiveErpLinks</td><td>Has active Erp links</td></tr><tr><td>AppointmentEntity.Contact.Address.*</td><td>Contact Address variables</td></tr><tr><td>AppointmentEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>AppointmentEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>AppointmentEntity.CreatedDate</td><td>Created date</td></tr><tr><td>AppointmentEntity.Description</td><td>Description</td></tr><tr><td>AppointmentEntity.EndDate</td><td>End date</td></tr><tr><td>AppointmentEntity.HasAlarm</td><td>Has alarm</td></tr><tr><td>AppointmentEntity.HasConflict</td><td>Has conflict</td></tr><tr><td>AppointmentEntity.InvitationStatus</td><td>InvitationStatus</td></tr><tr><td>AppointmentEntity.InvitedPerson.*</td><td>Invited person variables</td></tr><tr><td>AppointmentEntity.IsAlldayEvent</td><td>Is allday event</td></tr><tr><td>AppointmentEntity.IsFree</td><td>Is free</td></tr><tr><td>AppointmentEntity.IsMileStone</td><td>Is milestone</td></tr><tr><td>AppointmentEntity.IsPublished</td><td>Is published</td></tr><tr><td>AppointmentEntity.JoinVideomeetUrl</td><td>JoinVideomeetUrl</td></tr><tr><td>AppointmentEntity.Links.length</td><td>Links length</td></tr><tr><td>AppointmentEntity.Location</td><td>Location</td></tr><tr><td>AppointmentEntity.MotherAssociate.*</td><td>Mother associate variables</td></tr><tr><td>AppointmentEntity.MotherId</td><td>MotherId</td></tr><tr><td>AppointmentEntity.Participants.length</td><td>Participants length</td></tr><tr><td>AppointmentEntity.PreferredTZLocation</td><td>PreferredTZLocation</td></tr><tr><td>AppointmentEntity.Private</td><td>Is private</td></tr><tr><td>AppointmentEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>AppointmentEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>AppointmentEntity.PublishTo</td><td>Publish to</td></tr><tr><td>AppointmentEntity.RejectReason</td><td>Reject reason</td></tr><tr><td>AppointmentEntity.StartDate</td><td>Start date</td></tr><tr><td>AppointmentEntity.SuggestedAppointmentId</td><td>Suggested AppointmentId</td></tr><tr><td>AppointmentEntity.Task.*</td><td>Task variables</td></tr><tr><td>AppointmentEntity.Type</td><td>Type</td></tr><tr><td>AppointmentEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>AppointmentEntity.VisibleFor.*</td><td>VisibleFor variables</td></tr><tr><td>DialogCaption</td><td>Dialog caption</td></tr><tr><td>DoSendEmail</td><td>DoSendEmail</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>IsVideoJoinButtonEnabled</td><td>Is VideoJoinButton enabled</td></tr><tr><td>Links.length</td><td>Links length</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;AppointmentEntity.AppointmentId&quot;);</code></pre>\n"
@@ -398,14 +418,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveContact()
   id: 'SalesAfterSaveContact()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveContact()'
   nameWithType: Trigger.SalesAfterSaveContact()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveContact()
   type: Method
-  summary: "\nCalled after a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1105) Called after a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>ContactEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>ContactEntity.ActiveInterests</td><td>Active interests</td></tr><tr><td>ContactEntity.ActiveStatusMonitorId</td><td>ActiveStatusMonitorId</td></tr><tr><td>ContactEntity.Address.*</td><td>Address variables</td></tr><tr><td>ContactEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>ContactEntity.BounceEmails.length</td><td>BounceEmails length</td></tr><tr><td>ContactEntity.Business.*</td><td>Business variables</td></tr><tr><td>ContactEntity.Category.*</td><td>Category variables</td></tr><tr><td>ContactEntity.ContactId</td><td>ContactId</td></tr><tr><td>ContactEntity.Country.*</td><td>Country variables</td></tr><tr><td>ContactEntity.CreatedBy.*</td><td>Created by variables</td></tr><tr><td>ContactEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ContactEntity.CustomerLanguage.*</td><td>Customer language variables</td></tr><tr><td>ContactEntity.DbiAgentId</td><td>DbiAgentId</td></tr><tr><td>ContactEntity.DbiKey</td><td>DbiKey</td></tr><tr><td>ContactEntity.DbiLastModified</td><td>DbiLastModified</td></tr><tr><td>ContactEntity.DbiLastSyncronized</td><td>DbiLastSyncronized</td></tr><tr><td>ContactEntity.Department</td><td>Department</td></tr><tr><td>ContactEntity.Description</td><td>Description</td></tr><tr><td>ContactEntity.Emails.length</td><td>Emails length</td></tr><tr><td>ContactEntity.Faxes.length</td><td>Faxes length</td></tr><tr><td>ContactEntity.GroupId</td><td>GroupId</td></tr><tr><td>ContactEntity.Interests.length</td><td>Interests length</td></tr><tr><td>ContactEntity.Interests[<em>].</em></td><td>List of interests</td></tr><tr><td>ContactEntity.Kananame</td><td>Kananame</td></tr><tr><td>ContactEntity.Name</td><td>Name</td></tr><tr><td>ContactEntity.NoMailing</td><td>No mailing</td></tr><tr><td>ContactEntity.Number1</td><td>Number 1</td></tr><tr><td>ContactEntity.Number2</td><td>Number 2</td></tr><tr><td>ContactEntity.OrgNr</td><td>Org nr/VAT no</td></tr><tr><td>ContactEntity.Persons.length</td><td>Persons length</td></tr><tr><td>ContactEntity.Phones.length</td><td>Phones length</td></tr><tr><td>ContactEntity.SupportPerson.*</td><td>Supportperson variables</td></tr><tr><td>ContactEntity.TicketPriority.*</td><td>Ticket priority variables</td></tr><tr><td>ContactEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>ContactEntity.Urls.length</td><td>Urls length</td></tr><tr><td>ContactEntity.Xstop</td><td>Stop</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>PreviousCountryId</td><td>PreviousCountryId</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\nString contactId = ed.getInputValue(&quot;ContactEntity.ContactId&quot;);\n\n// If contact is new and category is &quot;Prospect&quot; create a new Sale opportunity\nif(ed.getInputValue(&quot;IsNew&quot;) == &quot;true&quot; &amp;&amp; ed.getInputValue(&quot;ContactEntity.Category.Value&quot;) == &quot;Prospect&quot;))\n{\n  NSSaleAgent saleAgent;\n  NSContactAgent contactAgent;\n  NSContact contact = contactAgent.GetContact(contactId.toInteger());\n  NSSaleEntity entity = saleAgent.CreateDefaultSaleEntity();\n\n  entity.SetHeading(&quot;New potential sale on &quot; + ed.getInputValue(&quot;ContactEntity.Name&quot;));\n  entity.SetContact(contact);\n\n  NSSaleType saleType;\n  saleType.SetId(1);\n  entity.SetSaleType(saleType);\n\n  saleAgent.SaveSaleEntity(entity);\n}</code></pre>\n"
@@ -413,14 +434,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveDocument()
   id: 'SalesAfterSaveDocument()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveDocument()'
   nameWithType: Trigger.SalesAfterSaveDocument()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveDocument()
   type: Method
-  summary: "\nCalled after a document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1104) Called after a document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>DocumentDate</td><td>Document date</td></tr><tr><td>DocumentEntity.ActiveLinks</td><td>Active links</td></tr><tr><td>DocumentEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>DocumentEntity.Attention</td><td>Attention</td></tr><tr><td>DocumentEntity.Completed</td><td>Completed</td></tr><tr><td>DocumentEntity.CompletedBool</td><td>true/false</td></tr><tr><td>DocumentEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>DocumentEntity.Contact.Address.*</td><td>Contact address variables</td></tr><tr><td>DocumentEntity.CreatedBy.*</td><td>Created by variables</td></tr><tr><td>DocumentEntity.CreatedDate</td><td>Created date</td></tr><tr><td>DocumentEntity.Date</td><td>Date</td></tr><tr><td>DocumentEntity.Description</td><td>Description</td></tr><tr><td>DocumentEntity.DocumentId</td><td>Document Id</td></tr><tr><td>DocumentEntity.DocumentTemplate.*</td><td>Document template variables</td></tr><tr><td>DocumentEntity.ExternalRef</td><td>External ref</td></tr><tr><td>DocumentEntity.Header</td><td>Header</td></tr><tr><td>DocumentEntity.IsPublished</td><td>Is published</td></tr><tr><td>DocumentEntity.Links.length</td><td>Links length</td></tr><tr><td>DocumentEntity.Name</td><td>Document name</td></tr><tr><td>DocumentEntity.OurRef</td><td>Our ref</td></tr><tr><td>DocumentEntity.Person.*</td><td>Person variables</td></tr><tr><td>DocumentEntity.Project.*</td><td>Project variables</td></tr><tr><td>DocumentEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>DocumentEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>DocumentEntity.PublishTo</td><td>Publish to</td></tr><tr><td>DocumentEntity.Sale.*</td><td>Sale variables</td></tr><tr><td>DocumentEntity.Snum</td><td>Snum</td></tr><tr><td>DocumentEntity.SuggestedDocumentId</td><td>Suggested documentId</td></tr><tr><td>DocumentEntity.Type</td><td>Type</td></tr><tr><td>DocumentEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>DocumentEntity.UpdatedBy.*</td><td>Updated by variables</td></tr><tr><td>DocumentEntity.VisibleFor.length</td><td>Visible for length</td></tr><tr><td>DocumentEntity.VisibleFor[].&#42;</td><td>List of visible for</td></tr><tr><td>DocumentEntity.YourRef</td><td>Your ref</td></tr><tr><td>DocumentName</td><td>Document name</td></tr><tr><td>EmailItemId</td><td>EmailItemId</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Links.length</td><td>Links length</td></tr><tr><td>SelectedDocumentTemplateLanguage</td><td>Document template language</td></tr><tr><td>TemplateListName</td><td>Template list name</td></tr><tr><td>TemplatesExtraInfo</td><td>Extra info</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;IsNew&quot;);\nif(param1 == &quot;true&quot; &amp;&amp; ed.getInputValue(&quot;DocumentEntity.DocumentTemplate.Name&quot;) == &quot;Incoming contract&quot;)\n{\n    //Do something when new document of type &quot;Incoming contract&quot; is created\n}</code></pre>\n"
@@ -428,14 +450,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSavePerson()
   id: 'SalesAfterSavePerson()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSavePerson()'
   nameWithType: Trigger.SalesAfterSavePerson()
   fullName: CRMScript.Event.Trigger.SalesAfterSavePerson()
   type: Method
-  summary: "\nCalled after a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1106) Called after a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>Associate</td><td>Associate</td></tr><tr><td>Business</td><td>Business</td></tr><tr><td>Category</td><td>Category</td></tr><tr><td>ContactId</td><td>ContactId</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>MailingConsent.HasConsent</td><td>true/false</td></tr><tr><td>PersonEntity.ActiveErpLinks</td><td>ActiveErpLinks</td></tr><tr><td>PersonEntity.ActiveInterests</td><td>ActiveInterests</td></tr><tr><td>PersonEntity.Address.*</td><td>Address variables</td></tr><tr><td>PersonEntity.BirthDate</td><td>BirthDate</td></tr><tr><td>PersonEntity.BounceEmails.length</td><td>Bounce email length</td></tr><tr><td>PersonEntity.Business.*</td><td>Business variables</td></tr><tr><td>PersonEntity.Category.*</td><td>Category variables</td></tr><tr><td>PersonEntity.ChatEmails.length</td><td>Chat emails length</td></tr><tr><td>PersonEntity.Consents.length</td><td>Consents length</td></tr><tr><td>PersonEntity.Consents[].&#42;</td><td>List of consents variables</td></tr><tr><td>PersonEntity.Contact.Address.*</td><td>Contact address variables</td></tr><tr><td>PersonEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>PersonEntity.Country.*</td><td>Country variables</td></tr><tr><td>PersonEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>PersonEntity.CreatedDate</td><td>Created date</td></tr><tr><td>PersonEntity.CustomerLanguage.*</td><td>Customer language variables</td></tr><tr><td>PersonEntity.DbiAgentId</td><td>DbiAgentId</td></tr><tr><td>PersonEntity.DbiKey</td><td>DbiKey</td></tr><tr><td>PersonEntity.DbiLastModified</td><td>DbiLastModified</td></tr><tr><td>PersonEntity.DbiLastSyncronized</td><td>DbiLastSyncronized</td></tr><tr><td>PersonEntity.Description</td><td>Description</td></tr><tr><td>PersonEntity.Emails.length</td><td>Emails length</td></tr><tr><td>PersonEntity.Faxes.length</td><td>Faxes length</td></tr><tr><td>PersonEntity.Faxes[].&#42;</td><td>List of faxes</td></tr><tr><td>PersonEntity.Firstname</td><td>First name</td></tr><tr><td>PersonEntity.FormalName</td><td>Formal name</td></tr><tr><td>PersonEntity.FullName</td><td>Full name</td></tr><tr><td>PersonEntity.Interests.length</td><td>Interests length</td></tr><tr><td>PersonEntity.Interests[].&#42;</td><td>Lists of interest variables</td></tr><tr><td>PersonEntity.InternetPhones.length</td><td>Internet phones length</td></tr><tr><td>PersonEntity.IsAssociate</td><td>true/false</td></tr><tr><td>PersonEntity.Kanafname</td><td>Kanafname</td></tr><tr><td>PersonEntity.Kanalname</td><td>Kanalname</td></tr><tr><td>PersonEntity.Lastname</td><td>Lastname</td></tr><tr><td>PersonEntity.MiddleName</td><td>Middle name</td></tr><tr><td>PersonEntity.MobilePhones.length</td><td>Mobile phones length</td></tr><tr><td>PersonEntity.MobilePhones[].&#42;</td><td>List of mobile phones variables</td></tr><tr><td>PersonEntity.Mrmrs</td><td>Mrmrs</td></tr><tr><td>PersonEntity.NoMailing</td><td>true/false</td></tr><tr><td>PersonEntity.OfficePhones.length</td><td>Office phones length</td></tr><tr><td>PersonEntity.OfficePhones[].&#42;</td><td>List of office phones variables</td></tr><tr><td>PersonEntity.OtherPhones.length</td><td>Other phones length</td></tr><tr><td>PersonEntity.OtherPhones[].&#42;</td><td>List of other phones variables</td></tr><tr><td>PersonEntity.PersonId</td><td>PersonId</td></tr><tr><td>PersonEntity.PersonNumber</td><td>Person number</td></tr><tr><td>PersonEntity.Position.*</td><td>Position variables</td></tr><tr><td>PersonEntity.Post1</td><td>Post1</td></tr><tr><td>PersonEntity.Post2</td><td>Post2</td></tr><tr><td>PersonEntity.Post3</td><td>Post3</td></tr><tr><td>PersonEntity.PrivatePhones.length</td><td>Private phones length</td></tr><tr><td>PersonEntity.PrivatePhones[].&#42;</td><td>List of private phones variables</td></tr><tr><td>PersonEntity.Retired</td><td>true/false</td></tr><tr><td>PersonEntity.Salutation</td><td>Salutation</td></tr><tr><td>PersonEntity.ShipmentTypes.length</td><td>Shipment types length</td></tr><tr><td>PersonEntity.ShipmentTypes[].&#42;</td><td>List of shipment types variables</td></tr><tr><td>PersonEntity.SupportAssociate.*</td><td>Associate variables</td></tr><tr><td>PersonEntity.TicketPriority.*</td><td>Ticket priority variables</td></tr><tr><td>PersonEntity.Title</td><td>Title</td></tr><tr><td>PersonEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>PersonEntity.Urls.length</td><td>Urls length</td></tr><tr><td>PersonEntity.UsePersonAddress</td><td>true/false</td></tr><tr><td>PreviousCountryId</td><td>Previous countryId</td></tr><tr><td>UseAcademicTitle</td><td>true/false</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;PersonEntity.PersonId&quot;);</code></pre>\n"
@@ -443,14 +466,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveProject()
   id: 'SalesAfterSaveProject()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveProject()'
   nameWithType: Trigger.SalesAfterSaveProject()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveProject()
   type: Method
-  summary: "\nCalled after a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1109) Called after a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>CurrentEntityName</td><td>Current entity name</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>Links.length</td><td>Links length</td></tr><tr><td>ProjectEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>ProjectEntity.ActiveStatusMonitorId</td><td>Status monitor ID</td></tr><tr><td>ProjectEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>ProjectEntity.Completed</td><td>Completed</td></tr><tr><td>ProjectEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>ProjectEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ProjectEntity.Description</td><td>Description</td></tr><tr><td>ProjectEntity.EndDate</td><td>End date</td></tr><tr><td>ProjectEntity.HasImage</td><td>true/false</td></tr><tr><td>ProjectEntity.ImageDescription</td><td>Image description</td></tr><tr><td>ProjectEntity.IsPublished</td><td>true/false</td></tr><tr><td>ProjectEntity.Links.length</td><td>Links length</td></tr><tr><td>ProjectEntity.Name</td><td>Name</td></tr><tr><td>ProjectEntity.NextMilestoneDate</td><td>Next milestone date</td></tr><tr><td>ProjectEntity.NmdAppointmentId</td><td>NmdAppointmentId</td></tr><tr><td>ProjectEntity.Postit</td><td>Postit</td></tr><tr><td>ProjectEntity.ProjectId</td><td>ProjectId</td></tr><tr><td>ProjectEntity.ProjectMembers.length</td><td>Project members length</td></tr><tr><td>ProjectEntity.ProjectNumber</td><td>Project number</td></tr><tr><td>ProjectEntity.ProjectStatus.*</td><td>Project status variables</td></tr><tr><td>ProjectEntity.ProjectType.*</td><td>Project type variables</td></tr><tr><td>ProjectEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>ProjectEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>ProjectEntity.PublishTo</td><td>Publish to</td></tr><tr><td>ProjectEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>ProjectEntity.Urls.length</td><td>Urls length</td></tr><tr><td>ProjectEventEntity.*</td><td>Project event variables</td></tr><tr><td>ProjectImage.*</td><td>Project image variables</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();</code></pre>\n"
@@ -458,14 +482,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
   id: 'SalesAfterSaveProjectMember()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveProjectMember()'
   nameWithType: Trigger.SalesAfterSaveProjectMember()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
   type: Method
-  summary: "\nCalled after project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1011) Called after project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>§ separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, person name, projectmember role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
@@ -473,14 +498,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveQuote()
   id: 'SalesAfterSaveQuote()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveQuote()'
   nameWithType: Trigger.SalesAfterSaveQuote()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveQuote()
   type: Method
-  summary: "\nCalled after an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1103) Called after an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddAlternativeCreateOrCopy</td><td>AddAlternativeCreateOrCopy</td></tr><tr><td>AlternativeDiscountAmount</td><td>AlternativeDiscountPercent</td></tr><tr><td>AlternativeDiscountPercent</td><td>AlternativeDiscountPercent</td></tr><tr><td>CanProvideDeliveryTermsList</td><td>true/false</td></tr><tr><td>CanProvideDeliveryTypeList</td><td>true/false</td></tr><tr><td>CanProvidePaymentTermsList</td><td>true/false</td></tr><tr><td>CanProvidePaymentTypeList</td><td>true/false</td></tr><tr><td>CannotProvideDeliveryTermsList</td><td>true/false</td></tr><tr><td>CannotProvideDeliveryTypeList</td><td>true/false</td></tr><tr><td>CannotProvidePaymentTermsList</td><td>true/false</td></tr><tr><td>CannotProvidePaymentTypeList</td><td>true/false</td></tr><tr><td>DeliveryAddress.LocalizedAddress.length</td><td>Length of list</td></tr><tr><td>DeliveryAddress.LocalizedAddress[*].length</td><td>Length of lists</td></tr><tr><td>DeliveryAddress.LocalizedAddress[*][].&#42;</td><td>Delivery address variables</td></tr><tr><td>DeliveryAddress.Wgs84Latitude</td><td>Latitude</td></tr><tr><td>DeliveryAddress.Wgs84Longitude</td><td>Longitude</td></tr><tr><td>DeliveryAddressShowContact</td><td>true/false</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>NewAlternativeName</td><td>New Alternative name</td></tr><tr><td>NotInDraft</td><td>true/false</td></tr><tr><td>PaymentAddress.LocalizedAddress.length</td><td>Length of list</td></tr><tr><td>PaymentAddress.LocalizedAddress[*].length</td><td>Length of lists</td></tr><tr><td>PaymentAddress.LocalizedAddress[*][].&#42;</td><td>Payment address variables</td></tr><tr><td>PaymentAddress.Wgs84Latitude</td><td>Latitude</td></tr><tr><td>PaymentAddress.Wgs84Longitude</td><td>Longitude</td></tr><tr><td>PaymentAddressShowContact</td><td>true/false</td></tr><tr><td>PreviousDeliveryCountryId</td><td>PreviousDeliveryCountryId</td></tr><tr><td>PreviousPaymentCountryId</td><td>PreviousPaymentCountryId</td></tr><tr><td>Quote.AcceptedQuoteAlternativeId</td><td>AcceptedQuoteAlternativeId</td></tr><tr><td>Quote.ActiveQuoteVersion.*</td><td>Active QuoteVersion variables</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>ActiveQuoteVersionId</td></tr><tr><td>Quote.DocumentId</td><td>DocumentId</td></tr><tr><td>Quote.ERPOrderKey</td><td>ERPOrderKey</td></tr><tr><td>Quote.ERPQuoteKey</td><td>ERPQuoteKey</td></tr><tr><td>Quote.FavoriteQuoteAlternative.*</td><td>Favorite QuoteAlternative variables</td></tr><tr><td>Quote.OrderComment</td><td>OrderComment</td></tr><tr><td>Quote.PoNumber</td><td>PoNumber</td></tr><tr><td>Quote.PreferredEmailCulture</td><td>PreferredEmailCulture</td></tr><tr><td>Quote.QuoteConnectionId</td><td>QuoteConnectionId</td></tr><tr><td>Quote.QuoteId</td><td>QuoteId</td></tr><tr><td>Quote.SaleId</td><td>SaleId</td></tr><tr><td>QuoteDocumentName</td><td>Quote document name</td></tr><tr><td>QuoteExtraInfo</td><td>QuoteExtraInfo</td></tr><tr><td>QuoteState</td><td>QuoteState</td></tr><tr><td>QuoteVersion.*</td><td>Quoteversion variables</td></tr><tr><td>QuoteVersionEarning</td><td>QuoteVersionEarning</td></tr><tr><td>QuoteVersionEarningPercent</td><td>QuoteVersionEarningPercent</td></tr><tr><td>QuoteVersionExtraInfo</td><td>QuoteVersionExtraInfo</td></tr><tr><td>QuoteVersionTotal</td><td>QuoteVersionTotal</td></tr><tr><td>SaleCurrency</td><td>SaleCurrency</td></tr><tr><td>SaleTypeOrderConfirmationTemplateId</td><td>SaleTypeOrderConfirmationTemplateId</td></tr><tr><td>SelectedCopyAlternative</td><td>SelectedCopyAlternative</td></tr><tr><td>Title</td><td>Title</td></tr><tr><td>UseDiscountOnTotal</td><td>true/false</td></tr><tr><td>Additional variables connected to UI</td><td>Full list can be found using tracing option of trigger</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;Quote.SaleId&quot;);</code></pre>\n"
@@ -488,14 +514,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
   id: 'SalesAfterSaveQuoteLine()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveQuoteLine()'
   nameWithType: Trigger.SalesAfterSaveQuoteLine()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
   type: Method
-  summary: "\nCalled after an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1113)Called after an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MandatoryFields</td><td>Mandatory fields</td></tr><tr><td>QuoteLine.Code</td><td>Code</td></tr><tr><td>QuoteLine.DeliveredQuantity</td><td>Delivered quantity</td></tr><tr><td>QuoteLine.Description</td><td>Description</td></tr><tr><td>QuoteLine.DiscountAmount</td><td>Discount amount</td></tr><tr><td>QuoteLine.DiscountPercent</td><td>Discount percent</td></tr><tr><td>QuoteLine.ERPDiscountAmount</td><td>Erp discount amount</td></tr><tr><td>QuoteLine.ERPDiscountPercent</td><td>Erp discount percent</td></tr><tr><td>QuoteLine.ERPProductKey</td><td>Erp product key</td></tr><tr><td>QuoteLine.EarningAmount</td><td>Earning amount</td></tr><tr><td>QuoteLine.EarningPercent</td><td>Earning percent</td></tr><tr><td>QuoteLine.ExtraField1</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField2</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField3</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField4</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField5</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraInfo.length</td><td>Extra fields length</td></tr><tr><td>QuoteLine.IsSubscription</td><td>Is subscription</td></tr><tr><td>QuoteLine.ItemNumber</td><td>Item number</td></tr><tr><td>QuoteLine.Name</td><td>Name</td></tr><tr><td>QuoteLine.PriceUnit</td><td>Price unit</td></tr><tr><td>QuoteLine.ProductCategoryKey</td><td>Product category key</td></tr><tr><td>QuoteLine.ProductFamilyKey</td><td>Product family key</td></tr><tr><td>QuoteLine.ProductTypeKey</td><td>Product type key</td></tr><tr><td>QuoteLine.Quantity</td><td>Quantity</td></tr><tr><td>QuoteLine.QuantityUnit</td><td>QuantityUnit</td></tr><tr><td>QuoteLine.QuoteAlternativeId</td><td>QuoteAlternativeId</td></tr><tr><td>QuoteLine.QuoteLineId</td><td>QuoteLineId</td></tr><tr><td>QuoteLine.Rank</td><td>Rank</td></tr><tr><td>QuoteLine.RawExtraInfo</td><td>RawExtraInfo</td></tr><tr><td>QuoteLine.Rights</td><td>Rights</td></tr><tr><td>QuoteLine.Rule</td><td>Rule</td></tr><tr><td>QuoteLine.Status</td><td>Status</td></tr><tr><td>QuoteLine.SubTotal</td><td>Subtotal</td></tr><tr><td>QuoteLine.SubscriptionQuantity</td><td>Subscription quantity</td></tr><tr><td>QuoteLine.SubscriptionStart</td><td>Subscription start</td></tr><tr><td>QuoteLine.SubscriptionUnit</td><td>Subscription unit</td></tr><tr><td>QuoteLine.Supplier</td><td>Supplier</td></tr><tr><td>QuoteLine.SupplierCode</td><td>Supplier code</td></tr><tr><td>QuoteLine.Thumbnail</td><td>Thumbnail</td></tr><tr><td>QuoteLine.TotalPrice</td><td>Total price</td></tr><tr><td>QuoteLine.UnitCost</td><td>Unit cost</td></tr><tr><td>QuoteLine.UnitListPrice</td><td>Unit list price</td></tr><tr><td>QuoteLine.UnitMinimumPrice</td><td>Unit minimum price</td></tr><tr><td>QuoteLine.Url</td><td>Url</td></tr><tr><td>QuoteLine.UserValueOverride</td><td>User value override</td></tr><tr><td>QuoteLine.VAT</td><td>VAT</td></tr><tr><td>QuoteLine.VATInfo</td><td>VAT info</td></tr><tr><td>QuoteLineExists</td><td>QuoteLineExists</td></tr><tr><td>StatusText</td><td>Status text</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
@@ -503,14 +530,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveRelation()
   id: 'SalesAfterSaveRelation()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveRelation()'
   nameWithType: Trigger.SalesAfterSaveRelation()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveRelation()
   type: Method
-  summary: "\nCalled after a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1107) Called after a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>ContactRelationEntity.ActiveText</td><td>Active text</td></tr><tr><td>ContactRelationEntity.Comment</td><td>Comment</td></tr><tr><td>ContactRelationEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ContactRelationEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>ContactRelationEntity.DestinationContactId</td><td>Destination contactId</td></tr><tr><td>ContactRelationEntity.DestinationContactName</td><td>Destination contact name</td></tr><tr><td>ContactRelationEntity.DestinationPersonId</td><td>Destination personId</td></tr><tr><td>ContactRelationEntity.DestinationPersonName</td><td>Destination person name</td></tr><tr><td>ContactRelationEntity.PassiveText</td><td>Passive text</td></tr><tr><td>ContactRelationEntity.RelationDefinitionId</td><td>Relation definitionId</td></tr><tr><td>ContactRelationEntity.RelationId</td><td>RelationId</td></tr><tr><td>ContactRelationEntity.SourceContactId</td><td>Source contactId</td></tr><tr><td>ContactRelationEntity.SourceContactName</td><td>Source contact name</td></tr><tr><td>ContactRelationEntity.SourcePersonId</td><td>Source personId</td></tr><tr><td>ContactRelationEntity.SourcePersonName</td><td>Source person name</td></tr><tr><td>ContactRelationEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>IsNew</td><td>true/false</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;ContactRelationEntity.RelationId&quot;);</code></pre>\n"
@@ -518,14 +546,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSale()
   id: 'SalesAfterSaveSale()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveSale()'
   nameWithType: Trigger.SalesAfterSaveSale()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveSale()
   type: Method
-  summary: "\nCalled after a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1108)Called after a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>CurrentEntityName</td><td>Current entity name</td></tr><tr><td>DurationInMinutes</td><td>Duration in minutes</td></tr><tr><td>EarningPst</td><td>Earning percent</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>NextDueDateFormatted</td><td>Next due date</td></tr><tr><td>OurCurrency</td><td>Our currency</td></tr><tr><td>ProbabilityPst</td><td>Probability percent</td></tr><tr><td>SaleEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>SaleEntity.ActiveLinks</td><td>Active links</td></tr><tr><td>SaleEntity.Amount</td><td>Amount</td></tr><tr><td>SaleEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>SaleEntity.Competitor.*</td><td>Competitor variables</td></tr><tr><td>SaleEntity.Completed</td><td>Completed</td></tr><tr><td>SaleEntity.CompletedBool</td><td>true/false</td></tr><tr><td>SaleEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>SaleEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>SaleEntity.CreatedDate</td><td>Created date</td></tr><tr><td>SaleEntity.Credited.*</td><td>Credited variables</td></tr><tr><td>SaleEntity.Currency.*</td><td>Currency variables</td></tr><tr><td>SaleEntity.Earning</td><td>Earning</td></tr><tr><td>SaleEntity.EarningPercent</td><td>Earning percent</td></tr><tr><td>SaleEntity.Heading</td><td>Heading</td></tr><tr><td>SaleEntity.IsPublished</td><td>true/false</td></tr><tr><td>SaleEntity.Links.length</td><td>Links length</td></tr><tr><td>SaleEntity.NextDueDate</td><td>Next duedate</td></tr><tr><td>SaleEntity.Number</td><td>Number</td></tr><tr><td>SaleEntity.Person.*</td><td>Person variables</td></tr><tr><td>SaleEntity.Postit</td><td>Postit</td></tr><tr><td>SaleEntity.Project.*</td><td>Project variables</td></tr><tr><td>SaleEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>SaleEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>SaleEntity.PublishTo</td><td>Publish to</td></tr><tr><td>SaleEntity.Rating.*</td><td>Rating variables</td></tr><tr><td>SaleEntity.Reason.*</td><td>Reason variables</td></tr><tr><td>SaleEntity.ReasonSold.*</td><td>Reason sold variables</td></tr><tr><td>SaleEntity.SaleId</td><td>SaleId</td></tr><tr><td>SaleEntity.SaleStakeholders.length</td><td>Stakeholders length</td></tr><tr><td>SaleEntity.SaleText</td><td>Sale text</td></tr><tr><td>SaleEntity.SaleType.*</td><td>Saletype variables</td></tr><tr><td>SaleEntity.Saledate</td><td>Sale date</td></tr><tr><td>SaleEntity.Source.*</td><td>Source variables</td></tr><tr><td>SaleEntity.Status</td><td>Status</td></tr><tr><td>SaleEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>SaleEntity.VisibleFor.length</td><td>Visiblefor length</td></tr><tr><td>SaleEntity.VisibleFor[].&#42;</td><td>Visiblefor variables</td></tr><tr><td>SaleLostSoldTime</td><td>Lost sold time</td></tr><tr><td>SaleOpenAppointment</td><td>Open appointment</td></tr><tr><td>SaleStageHasChanged</td><td>true/false</td></tr><tr><td>SaleStalled</td><td>true/false</td></tr><tr><td>SaleStatus</td><td>Sale status</td></tr><tr><td>SaleStatusChanged</td><td>Status changed</td></tr><tr><td>SaleTypeChanged</td><td>true/false</td></tr><tr><td>TotalCost</td><td>Total cost</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>//If sale status has changed and is sold* Change customer category\nif(ed.getInputValue(&quot;SaleStatusChanged&quot;) == &quot;True&quot; &amp;&amp; ed.getInputValue(&quot;SaleStatus&quot;) == &quot;2&quot;)\n{\n    if(ed.getInputValue(&quot;SaleEntity.Contact.CategoryName&quot;) == &quot;Prospect&quot;)\n    {\n      NSContactAgent contactAgent;\n      NSContactEntity entity = contactAgent.GetContactEntity(ed.getInputValue(&quot;SaleEntity.Contact.ContactId&quot;).toInteger());\n\n      NSCategory category;\n      category.SetId(1);\n      entity.SetCategory(category);\n\n      contactAgent.SaveContactEntity(entity);\n\n    }\n}</code></pre>\n"
@@ -533,13 +562,14 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSelection()
   id: 'SalesAfterSaveSelection()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveSelection()'
   nameWithType: Trigger.SalesAfterSaveSelection()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveSelection()
   type: Method
-  summary: "\nCalled after selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  summary: "\n(1110) Called after selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
   remarks: 
   syntax: 
   example: 
@@ -548,14 +578,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
   id: 'SalesAfterSaveSelectionMember()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveSelectionMember()'
   nameWithType: Trigger.SalesAfterSaveSelectionMember()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
   type: Method
-  summary: "\nCalled after selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1112) Called after selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, person name, selectionmember role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
@@ -563,14 +594,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
   id: 'SalesAfterSaveStakeholder()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesAfterSaveStakeholder()'
   nameWithType: Trigger.SalesAfterSaveStakeholder()
   fullName: CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
   type: Method
-  summary: "\nCalled after a sale stakeholder is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1002) Called after a sale stakeholder is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, stakeholder role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n//Do something with each new member\n}</code></pre>\n"
@@ -578,14 +610,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
   id: 'SalesBeforeSaveAppointment()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveAppointment()'
   nameWithType: Trigger.SalesBeforeSaveAppointment()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
   type: Method
-  summary: "\nCalled before an appointment is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1001) Called before an appointment is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AppointmentEntity.ActiveDate</td><td>Activate date</td></tr><tr><td>AppointmentEntity.ActiveLinks</td><td>Has active links</td></tr><tr><td>AppointmentEntity.AppointmentId</td><td>Appointment ID</td></tr><tr><td>AppointmentEntity.AssignmentStatus</td><td>Assignment status</td></tr><tr><td>AppointmentEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>AppointmentEntity.BookingType</td><td>Booking type</td></tr><tr><td>AppointmentEntity.CautionWarning</td><td>Caution warning</td></tr><tr><td>AppointmentEntity.CentralserviceVideomeetId</td><td>CentralserviceVideomeetId</td></tr><tr><td>AppointmentEntity.Completed</td><td>Completed</td></tr><tr><td>AppointmentEntity.CompletedBool</td><td>Is completed</td></tr><tr><td>AppointmentEntity.Contact.ActiveErpLinks</td><td>Has active Erp links</td></tr><tr><td>AppointmentEntity.Contact.Address.*</td><td>Contact Address variables</td></tr><tr><td>AppointmentEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>AppointmentEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>AppointmentEntity.CreatedDate</td><td>Created date</td></tr><tr><td>AppointmentEntity.Description</td><td>Description</td></tr><tr><td>AppointmentEntity.EndDate</td><td>End date</td></tr><tr><td>AppointmentEntity.HasAlarm</td><td>Has alarm</td></tr><tr><td>AppointmentEntity.HasConflict</td><td>Has conflict</td></tr><tr><td>AppointmentEntity.InvitationStatus</td><td>InvitationStatus</td></tr><tr><td>AppointmentEntity.InvitedPerson.*</td><td>Invited person variables</td></tr><tr><td>AppointmentEntity.IsAlldayEvent</td><td>Is allday event</td></tr><tr><td>AppointmentEntity.IsFree</td><td>Is free</td></tr><tr><td>AppointmentEntity.IsMileStone</td><td>Is milestone</td></tr><tr><td>AppointmentEntity.IsPublished</td><td>Is published</td></tr><tr><td>AppointmentEntity.JoinVideomeetUrl</td><td>JoinVideomeetUrl</td></tr><tr><td>AppointmentEntity.Links.length</td><td>Links length</td></tr><tr><td>AppointmentEntity.Location</td><td>Location</td></tr><tr><td>AppointmentEntity.MotherAssociate.*</td><td>Mother associate variables</td></tr><tr><td>AppointmentEntity.MotherId</td><td>MotherId</td></tr><tr><td>AppointmentEntity.Participants.length</td><td>Participants length</td></tr><tr><td>AppointmentEntity.PreferredTZLocation</td><td>PreferredTZLocation</td></tr><tr><td>AppointmentEntity.Private</td><td>Is private</td></tr><tr><td>AppointmentEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>AppointmentEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>AppointmentEntity.PublishTo</td><td>Publish to</td></tr><tr><td>AppointmentEntity.RejectReason</td><td>Reject reason</td></tr><tr><td>AppointmentEntity.StartDate</td><td>Start date</td></tr><tr><td>AppointmentEntity.SuggestedAppointmentId</td><td>Suggested AppointmentId</td></tr><tr><td>AppointmentEntity.Task.*</td><td>Task variables</td></tr><tr><td>AppointmentEntity.Type</td><td>Type</td></tr><tr><td>AppointmentEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>AppointmentEntity.VisibleFor.*</td><td>VisibleFor variables</td></tr><tr><td>DialogCaption</td><td>Dialog caption</td></tr><tr><td>DoSendEmail</td><td>DoSendEmail</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>IsVideoJoinButtonEnabled</td><td>Is VideoJoinButton enabled</td></tr><tr><td>Links.length</td><td>Links length</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;AppointmentEntity.AppointmentId&quot;);</code></pre>\n"
@@ -593,14 +626,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveContact()
   id: 'SalesBeforeSaveContact()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveContact()'
   nameWithType: Trigger.SalesBeforeSaveContact()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveContact()
   type: Method
-  summary: "\nCalled before a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1005) Called before a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>ContactEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>ContactEntity.ActiveInterests</td><td>Active interests</td></tr><tr><td>ContactEntity.ActiveStatusMonitorId</td><td>ActiveStatusMonitorId</td></tr><tr><td>ContactEntity.Address.*</td><td>Address variables</td></tr><tr><td>ContactEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>ContactEntity.BounceEmails.length</td><td>BounceEmails length</td></tr><tr><td>ContactEntity.Business.*</td><td>Business variables</td></tr><tr><td>ContactEntity.Category.*</td><td>Category variables</td></tr><tr><td>ContactEntity.ContactId</td><td>ContactId</td></tr><tr><td>ContactEntity.Country.*</td><td>Country variables</td></tr><tr><td>ContactEntity.CreatedBy.*</td><td>Created by variables</td></tr><tr><td>ContactEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ContactEntity.CustomerLanguage.*</td><td>Customer language variables</td></tr><tr><td>ContactEntity.DbiAgentId</td><td>DbiAgentId</td></tr><tr><td>ContactEntity.DbiKey</td><td>DbiKey</td></tr><tr><td>ContactEntity.DbiLastModified</td><td>DbiLastModified</td></tr><tr><td>ContactEntity.DbiLastSyncronized</td><td>DbiLastSyncronized</td></tr><tr><td>ContactEntity.Department</td><td>Department</td></tr><tr><td>ContactEntity.Description</td><td>Description</td></tr><tr><td>ContactEntity.Emails.length</td><td>Emails length</td></tr><tr><td>ContactEntity.Faxes.length</td><td>Faxes length</td></tr><tr><td>ContactEntity.GroupId</td><td>GroupId</td></tr><tr><td>ContactEntity.Interests.length</td><td>Interests length</td></tr><tr><td>ContactEntity.Interests[<em>].</em></td><td>List of interests</td></tr><tr><td>ContactEntity.Kananame</td><td>Kananame</td></tr><tr><td>ContactEntity.Name</td><td>Name</td></tr><tr><td>ContactEntity.NoMailing</td><td>No mailing</td></tr><tr><td>ContactEntity.Number1</td><td>Number 1</td></tr><tr><td>ContactEntity.Number2</td><td>Number 2</td></tr><tr><td>ContactEntity.OrgNr</td><td>Org nr/VAT no</td></tr><tr><td>ContactEntity.Persons.length</td><td>Persons length</td></tr><tr><td>ContactEntity.Phones.length</td><td>Phones length</td></tr><tr><td>ContactEntity.SupportPerson.*</td><td>Supportperson variables</td></tr><tr><td>ContactEntity.TicketPriority.*</td><td>Ticket priority variables</td></tr><tr><td>ContactEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>ContactEntity.Urls.length</td><td>Urls length</td></tr><tr><td>ContactEntity.Xstop</td><td>Stop</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>PreviousCountryId</td><td>PreviousCountryId</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\n// Get the input value from the current company\nString orgNr = ed.getInputValue(&quot;ContactEntity.OrgNr&quot;);\nBool blockExecution = false;\n\n// If the orgNr field is empty, block save with a message\nif(orgNr.isEmpty())\n{\n  ed.setMessage(&quot;Please type in a Org.Nr&quot;);\n  blockExecution = true;\n}// If the orgNr field has letters or is not 9 digits\nelse if(!orgNr.isDigit() || orgNr.getLength() != 9)\n{\n  ed.setMessage(&quot;Please type in a valid Org.Nr (9 digits)&quot;);\n  blockExecution = true;\n}\ned.setBlockExecution(blockExecution);</code></pre>\n"
@@ -608,14 +642,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveDocument()
   id: 'SalesBeforeSaveDocument()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveDocument()'
   nameWithType: Trigger.SalesBeforeSaveDocument()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveDocument()
   type: Method
-  summary: "\nCalled before an document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1004) Called before an document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>DocumentDate</td><td>Document date</td></tr><tr><td>DocumentEntity.ActiveLinks</td><td>Active links</td></tr><tr><td>DocumentEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>DocumentEntity.Attention</td><td>Attention</td></tr><tr><td>DocumentEntity.Completed</td><td>Completed</td></tr><tr><td>DocumentEntity.CompletedBool</td><td>true/false</td></tr><tr><td>DocumentEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>DocumentEntity.Contact.Address.*</td><td>Contact address variables</td></tr><tr><td>DocumentEntity.CreatedBy.*</td><td>Created by variables</td></tr><tr><td>DocumentEntity.CreatedDate</td><td>Created date</td></tr><tr><td>DocumentEntity.Date</td><td>Date</td></tr><tr><td>DocumentEntity.Description</td><td>Description</td></tr><tr><td>DocumentEntity.DocumentId</td><td>Document Id</td></tr><tr><td>DocumentEntity.DocumentTemplate.*</td><td>Document template variables</td></tr><tr><td>DocumentEntity.ExternalRef</td><td>External ref</td></tr><tr><td>DocumentEntity.Header</td><td>Header</td></tr><tr><td>DocumentEntity.IsPublished</td><td>Is published</td></tr><tr><td>DocumentEntity.Links.length</td><td>Links length</td></tr><tr><td>DocumentEntity.Name</td><td>Document name</td></tr><tr><td>DocumentEntity.OurRef</td><td>Our ref</td></tr><tr><td>DocumentEntity.Person.*</td><td>Person variables</td></tr><tr><td>DocumentEntity.Project.*</td><td>Project variables</td></tr><tr><td>DocumentEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>DocumentEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>DocumentEntity.PublishTo</td><td>Publish to</td></tr><tr><td>DocumentEntity.Sale.*</td><td>Sale variables</td></tr><tr><td>DocumentEntity.Snum</td><td>Snum</td></tr><tr><td>DocumentEntity.SuggestedDocumentId</td><td>Suggested documentId</td></tr><tr><td>DocumentEntity.Type</td><td>Type</td></tr><tr><td>DocumentEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>DocumentEntity.UpdatedBy.*</td><td>Updated by variables</td></tr><tr><td>DocumentEntity.VisibleFor.length</td><td>Visible for length</td></tr><tr><td>DocumentEntity.VisibleFor[].&#42;</td><td>List of visible for</td></tr><tr><td>DocumentEntity.YourRef</td><td>Your ref</td></tr><tr><td>DocumentName</td><td>Document name</td></tr><tr><td>EmailItemId</td><td>EmailItemId</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Links.length</td><td>Links length</td></tr><tr><td>SelectedDocumentTemplateLanguage</td><td>Document template language</td></tr><tr><td>TemplateListName</td><td>Template list name</td></tr><tr><td>TemplatesExtraInfo</td><td>Extra info</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;IsNew&quot;);</code></pre>\n"
@@ -623,14 +658,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSavePerson()
   id: 'SalesBeforeSavePerson()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSavePerson()'
   nameWithType: Trigger.SalesBeforeSavePerson()
   fullName: CRMScript.Event.Trigger.SalesBeforeSavePerson()
   type: Method
-  summary: "\nCalled before a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1006) Called before a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>Associate</td><td>Associate</td></tr><tr><td>Business</td><td>Business</td></tr><tr><td>Category</td><td>Category</td></tr><tr><td>ContactId</td><td>ContactId</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>MailingConsent.HasConsent</td><td>true/false</td></tr><tr><td>PersonEntity.ActiveErpLinks</td><td>ActiveErpLinks</td></tr><tr><td>PersonEntity.ActiveInterests</td><td>ActiveInterests</td></tr><tr><td>PersonEntity.Address.*</td><td>Address variables</td></tr><tr><td>PersonEntity.BirthDate</td><td>BirthDate</td></tr><tr><td>PersonEntity.BounceEmails.length</td><td>Bounce email length</td></tr><tr><td>PersonEntity.Business.*</td><td>Business variables</td></tr><tr><td>PersonEntity.Category.*</td><td>Category variables</td></tr><tr><td>PersonEntity.ChatEmails.length</td><td>Chat emails length</td></tr><tr><td>PersonEntity.Consents.length</td><td>Consents length</td></tr><tr><td>PersonEntity.Consents[].&#42;</td><td>List of consents variables</td></tr><tr><td>PersonEntity.Contact.Address.*</td><td>Contact address variables</td></tr><tr><td>PersonEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>PersonEntity.Country.*</td><td>Country variables</td></tr><tr><td>PersonEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>PersonEntity.CreatedDate</td><td>Created date</td></tr><tr><td>PersonEntity.CustomerLanguage.*</td><td>Customer language variables</td></tr><tr><td>PersonEntity.DbiAgentId</td><td>DbiAgentId</td></tr><tr><td>PersonEntity.DbiKey</td><td>DbiKey</td></tr><tr><td>PersonEntity.DbiLastModified</td><td>DbiLastModified</td></tr><tr><td>PersonEntity.DbiLastSyncronized</td><td>DbiLastSyncronized</td></tr><tr><td>PersonEntity.Description</td><td>Description</td></tr><tr><td>PersonEntity.Emails.length</td><td>Emails length</td></tr><tr><td>PersonEntity.Faxes.length</td><td>Faxes length</td></tr><tr><td>PersonEntity.Faxes[].&#42;</td><td>List of faxes</td></tr><tr><td>PersonEntity.Firstname</td><td>First name</td></tr><tr><td>PersonEntity.FormalName</td><td>Formal name</td></tr><tr><td>PersonEntity.FullName</td><td>Full name</td></tr><tr><td>PersonEntity.Interests.length</td><td>Interests length</td></tr><tr><td>PersonEntity.Interests[].&#42;</td><td>Lists of interest variables</td></tr><tr><td>PersonEntity.InternetPhones.length</td><td>Internet phones length</td></tr><tr><td>PersonEntity.IsAssociate</td><td>true/false</td></tr><tr><td>PersonEntity.Kanafname</td><td>Kanafname</td></tr><tr><td>PersonEntity.Kanalname</td><td>Kanalname</td></tr><tr><td>PersonEntity.Lastname</td><td>Lastname</td></tr><tr><td>PersonEntity.MiddleName</td><td>Middle name</td></tr><tr><td>PersonEntity.MobilePhones.length</td><td>Mobile phones length</td></tr><tr><td>PersonEntity.MobilePhones[].&#42;</td><td>List of mobile phones variables</td></tr><tr><td>PersonEntity.Mrmrs</td><td>Mrmrs</td></tr><tr><td>PersonEntity.NoMailing</td><td>true/false</td></tr><tr><td>PersonEntity.OfficePhones.length</td><td>Office phones length</td></tr><tr><td>PersonEntity.OfficePhones[].&#42;</td><td>List of office phones variables</td></tr><tr><td>PersonEntity.OtherPhones.length</td><td>Other phones length</td></tr><tr><td>PersonEntity.OtherPhones[].&#42;</td><td>List of other phones variables</td></tr><tr><td>PersonEntity.PersonId</td><td>PersonId</td></tr><tr><td>PersonEntity.PersonNumber</td><td>Person number</td></tr><tr><td>PersonEntity.Position.*</td><td>Position variables</td></tr><tr><td>PersonEntity.Post1</td><td>Post1</td></tr><tr><td>PersonEntity.Post2</td><td>Post2</td></tr><tr><td>PersonEntity.Post3</td><td>Post3</td></tr><tr><td>PersonEntity.PrivatePhones.length</td><td>Private phones length</td></tr><tr><td>PersonEntity.PrivatePhones[].&#42;</td><td>List of private phones variables</td></tr><tr><td>PersonEntity.Retired</td><td>true/false</td></tr><tr><td>PersonEntity.Salutation</td><td>Salutation</td></tr><tr><td>PersonEntity.ShipmentTypes.length</td><td>Shipment types length</td></tr><tr><td>PersonEntity.ShipmentTypes[].&#42;</td><td>List of shipment types variables</td></tr><tr><td>PersonEntity.SupportAssociate.*</td><td>Associate variables</td></tr><tr><td>PersonEntity.TicketPriority.*</td><td>Ticket priority variables</td></tr><tr><td>PersonEntity.Title</td><td>Title</td></tr><tr><td>PersonEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>PersonEntity.Urls.length</td><td>Urls length</td></tr><tr><td>PersonEntity.UsePersonAddress</td><td>true/false</td></tr><tr><td>PreviousCountryId</td><td>Previous countryId</td></tr><tr><td>UseAcademicTitle</td><td>true/false</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;PersonEntity.PersonId&quot;);</code></pre>\n"
@@ -638,14 +674,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveProject()
   id: 'SalesBeforeSaveProject()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveProject()'
   nameWithType: Trigger.SalesBeforeSaveProject()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveProject()
   type: Method
-  summary: "\nCalled before a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1009) Called before a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>CurrentEntityName</td><td>Current entity name</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>Links.length</td><td>Links length</td></tr><tr><td>ProjectEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>ProjectEntity.ActiveStatusMonitorId</td><td>Status monitor ID</td></tr><tr><td>ProjectEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>ProjectEntity.Completed</td><td>Completed</td></tr><tr><td>ProjectEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>ProjectEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ProjectEntity.Description</td><td>Description</td></tr><tr><td>ProjectEntity.EndDate</td><td>End date</td></tr><tr><td>ProjectEntity.HasImage</td><td>true/false</td></tr><tr><td>ProjectEntity.ImageDescription</td><td>Image description</td></tr><tr><td>ProjectEntity.IsPublished</td><td>true/false</td></tr><tr><td>ProjectEntity.Links.length</td><td>Links length</td></tr><tr><td>ProjectEntity.Name</td><td>Name</td></tr><tr><td>ProjectEntity.NextMilestoneDate</td><td>Next milestone date</td></tr><tr><td>ProjectEntity.NmdAppointmentId</td><td>NmdAppointmentId</td></tr><tr><td>ProjectEntity.Postit</td><td>Postit</td></tr><tr><td>ProjectEntity.ProjectId</td><td>ProjectId</td></tr><tr><td>ProjectEntity.ProjectMembers.length</td><td>Project members length</td></tr><tr><td>ProjectEntity.ProjectNumber</td><td>Project number</td></tr><tr><td>ProjectEntity.ProjectStatus.*</td><td>Project status variables</td></tr><tr><td>ProjectEntity.ProjectType.*</td><td>Project type variables</td></tr><tr><td>ProjectEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>ProjectEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>ProjectEntity.PublishTo</td><td>Publish to</td></tr><tr><td>ProjectEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>ProjectEntity.Urls.length</td><td>Urls length</td></tr><tr><td>ProjectEventEntity.*</td><td>Project event variables</td></tr><tr><td>ProjectImage.*</td><td>Project image variables</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\nif(ed.getInputValue(&quot;IsNew&quot;) == &quot;true&quot;)\n{\n    //If project is new make sure Description is not empty\n    Bool blockExecution = false;\n    String description = ed.getInputValue(&quot;ProjectEntity.Description&quot;);\n\n    // If the length of description field is less than 2 chars, block save with a message\n    if(description.getLength() &lt;= 2)\n    {\n      ed.setMessage(&quot;Please type in a description&quot;);\n      blockExecution = true;\n    }\n    ed.setBlockExecution(blockExecution);\n}</code></pre>\n"
@@ -653,14 +690,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
   id: 'SalesBeforeSaveProjectMember()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveProjectMember()'
   nameWithType: Trigger.SalesBeforeSaveProjectMember()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
   type: Method
-  summary: "\nCalled before project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1011) Called before project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>§ separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, person name, projectmember role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
@@ -668,14 +706,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveQuote()
   id: 'SalesBeforeSaveQuote()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveQuote()'
   nameWithType: Trigger.SalesBeforeSaveQuote()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveQuote()
   type: Method
-  summary: "\nCalled before an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1003) Called before an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddAlternativeCreateOrCopy</td><td>AddAlternativeCreateOrCopy</td></tr><tr><td>AlternativeDiscountAmount</td><td>AlternativeDiscountPercent</td></tr><tr><td>AlternativeDiscountPercent</td><td>AlternativeDiscountPercent</td></tr><tr><td>CanProvideDeliveryTermsList</td><td>true/false</td></tr><tr><td>CanProvideDeliveryTypeList</td><td>true/false</td></tr><tr><td>CanProvidePaymentTermsList</td><td>true/false</td></tr><tr><td>CanProvidePaymentTypeList</td><td>true/false</td></tr><tr><td>CannotProvideDeliveryTermsList</td><td>true/false</td></tr><tr><td>CannotProvideDeliveryTypeList</td><td>true/false</td></tr><tr><td>CannotProvidePaymentTermsList</td><td>true/false</td></tr><tr><td>CannotProvidePaymentTypeList</td><td>true/false</td></tr><tr><td>DeliveryAddress.LocalizedAddress.length</td><td>Length of list</td></tr><tr><td>DeliveryAddress.LocalizedAddress[*].length</td><td>Length of lists</td></tr><tr><td>DeliveryAddress.LocalizedAddress[*][].&#42;</td><td>Delivery address variables</td></tr><tr><td>DeliveryAddress.Wgs84Latitude</td><td>Latitude</td></tr><tr><td>DeliveryAddress.Wgs84Longitude</td><td>Longitude</td></tr><tr><td>DeliveryAddressShowContact</td><td>true/false</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>NewAlternativeName</td><td>New Alternative name</td></tr><tr><td>NotInDraft</td><td>true/false</td></tr><tr><td>PaymentAddress.LocalizedAddress.length</td><td>Length of list</td></tr><tr><td>PaymentAddress.LocalizedAddress[*].length</td><td>Length of lists</td></tr><tr><td>PaymentAddress.LocalizedAddress[*][].&#42;</td><td>Payment address variables</td></tr><tr><td>PaymentAddress.Wgs84Latitude</td><td>Latitude</td></tr><tr><td>PaymentAddress.Wgs84Longitude</td><td>Longitude</td></tr><tr><td>PaymentAddressShowContact</td><td>true/false</td></tr><tr><td>PreviousDeliveryCountryId</td><td>PreviousDeliveryCountryId</td></tr><tr><td>PreviousPaymentCountryId</td><td>PreviousPaymentCountryId</td></tr><tr><td>Quote.AcceptedQuoteAlternativeId</td><td>AcceptedQuoteAlternativeId</td></tr><tr><td>Quote.ActiveQuoteVersion.*</td><td>Active QuoteVersion variables</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>ActiveQuoteVersionId</td></tr><tr><td>Quote.DocumentId</td><td>DocumentId</td></tr><tr><td>Quote.ERPOrderKey</td><td>ERPOrderKey</td></tr><tr><td>Quote.ERPQuoteKey</td><td>ERPQuoteKey</td></tr><tr><td>Quote.FavoriteQuoteAlternative.*</td><td>Favorite QuoteAlternative variables</td></tr><tr><td>Quote.OrderComment</td><td>OrderComment</td></tr><tr><td>Quote.PoNumber</td><td>PoNumber</td></tr><tr><td>Quote.PreferredEmailCulture</td><td>PreferredEmailCulture</td></tr><tr><td>Quote.QuoteConnectionId</td><td>QuoteConnectionId</td></tr><tr><td>Quote.QuoteId</td><td>QuoteId</td></tr><tr><td>Quote.SaleId</td><td>SaleId</td></tr><tr><td>QuoteDocumentName</td><td>Quote document name</td></tr><tr><td>QuoteExtraInfo</td><td>QuoteExtraInfo</td></tr><tr><td>QuoteState</td><td>QuoteState</td></tr><tr><td>QuoteVersion.*</td><td>Quoteversion variables</td></tr><tr><td>QuoteVersionEarning</td><td>QuoteVersionEarning</td></tr><tr><td>QuoteVersionEarningPercent</td><td>QuoteVersionEarningPercent</td></tr><tr><td>QuoteVersionExtraInfo</td><td>QuoteVersionExtraInfo</td></tr><tr><td>QuoteVersionTotal</td><td>QuoteVersionTotal</td></tr><tr><td>SaleCurrency</td><td>SaleCurrency</td></tr><tr><td>SaleTypeOrderConfirmationTemplateId</td><td>SaleTypeOrderConfirmationTemplateId</td></tr><tr><td>SelectedCopyAlternative</td><td>SelectedCopyAlternative</td></tr><tr><td>Title</td><td>Title</td></tr><tr><td>UseDiscountOnTotal</td><td>true/false</td></tr><tr><td>Additional variables connected to UI</td><td>Full list can be found using tracing option of trigger</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;Quote.SaleId&quot;);</code></pre>\n"
@@ -683,14 +722,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
   id: 'SalesBeforeSaveQuoteLine()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveQuoteLine()'
   nameWithType: Trigger.SalesBeforeSaveQuoteLine()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
   type: Method
-  summary: "\nCalled before an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1013) Called before an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MandatoryFields</td><td>Mandatory fields</td></tr><tr><td>QuoteLine.Code</td><td>Code</td></tr><tr><td>QuoteLine.DeliveredQuantity</td><td>Delivered quantity</td></tr><tr><td>QuoteLine.Description</td><td>Description</td></tr><tr><td>QuoteLine.DiscountAmount</td><td>Discount amount</td></tr><tr><td>QuoteLine.DiscountPercent</td><td>Discount percent</td></tr><tr><td>QuoteLine.ERPDiscountAmount</td><td>Erp discount amount</td></tr><tr><td>QuoteLine.ERPDiscountPercent</td><td>Erp discount percent</td></tr><tr><td>QuoteLine.ERPProductKey</td><td>Erp product key</td></tr><tr><td>QuoteLine.EarningAmount</td><td>Earning amount</td></tr><tr><td>QuoteLine.EarningPercent</td><td>Earning percent</td></tr><tr><td>QuoteLine.ExtraField1</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField2</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField3</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField4</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField5</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraInfo.length</td><td>Extra fields length</td></tr><tr><td>QuoteLine.IsSubscription</td><td>Is subscription</td></tr><tr><td>QuoteLine.ItemNumber</td><td>Item number</td></tr><tr><td>QuoteLine.Name</td><td>Name</td></tr><tr><td>QuoteLine.PriceUnit</td><td>Price unit</td></tr><tr><td>QuoteLine.ProductCategoryKey</td><td>Product category key</td></tr><tr><td>QuoteLine.ProductFamilyKey</td><td>Product family key</td></tr><tr><td>QuoteLine.ProductTypeKey</td><td>Product type key</td></tr><tr><td>QuoteLine.Quantity</td><td>Quantity</td></tr><tr><td>QuoteLine.QuantityUnit</td><td>QuantityUnit</td></tr><tr><td>QuoteLine.QuoteAlternativeId</td><td>QuoteAlternativeId</td></tr><tr><td>QuoteLine.QuoteLineId</td><td>QuoteLineId</td></tr><tr><td>QuoteLine.Rank</td><td>Rank</td></tr><tr><td>QuoteLine.RawExtraInfo</td><td>RawExtraInfo</td></tr><tr><td>QuoteLine.Rights</td><td>Rights</td></tr><tr><td>QuoteLine.Rule</td><td>Rule</td></tr><tr><td>QuoteLine.Status</td><td>Status</td></tr><tr><td>QuoteLine.SubTotal</td><td>Subtotal</td></tr><tr><td>QuoteLine.SubscriptionQuantity</td><td>Subscription quantity</td></tr><tr><td>QuoteLine.SubscriptionStart</td><td>Subscription start</td></tr><tr><td>QuoteLine.SubscriptionUnit</td><td>Subscription unit</td></tr><tr><td>QuoteLine.Supplier</td><td>Supplier</td></tr><tr><td>QuoteLine.SupplierCode</td><td>Supplier code</td></tr><tr><td>QuoteLine.Thumbnail</td><td>Thumbnail</td></tr><tr><td>QuoteLine.TotalPrice</td><td>Total price</td></tr><tr><td>QuoteLine.UnitCost</td><td>Unit cost</td></tr><tr><td>QuoteLine.UnitListPrice</td><td>Unit list price</td></tr><tr><td>QuoteLine.UnitMinimumPrice</td><td>Unit minimum price</td></tr><tr><td>QuoteLine.Url</td><td>Url</td></tr><tr><td>QuoteLine.UserValueOverride</td><td>User value override</td></tr><tr><td>QuoteLine.VAT</td><td>VAT</td></tr><tr><td>QuoteLine.VATInfo</td><td>VAT info</td></tr><tr><td>QuoteLineExists</td><td>QuoteLineExists</td></tr><tr><td>StatusText</td><td>Status text</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
@@ -698,14 +738,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveRelation()
   id: 'SalesBeforeSaveRelation()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveRelation()'
   nameWithType: Trigger.SalesBeforeSaveRelation()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveRelation()
   type: Method
-  summary: "\nCalled before a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1007) Called before a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>ContactRelationEntity.ActiveText</td><td>Active text</td></tr><tr><td>ContactRelationEntity.Comment</td><td>Comment</td></tr><tr><td>ContactRelationEntity.CreatedDate</td><td>Created date</td></tr><tr><td>ContactRelationEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>ContactRelationEntity.DestinationContactId</td><td>Destination contactId</td></tr><tr><td>ContactRelationEntity.DestinationContactName</td><td>Destination contact name</td></tr><tr><td>ContactRelationEntity.DestinationPersonId</td><td>Destination personId</td></tr><tr><td>ContactRelationEntity.DestinationPersonName</td><td>Destination person name</td></tr><tr><td>ContactRelationEntity.PassiveText</td><td>Passive text</td></tr><tr><td>ContactRelationEntity.RelationDefinitionId</td><td>Relation definitionId</td></tr><tr><td>ContactRelationEntity.RelationId</td><td>RelationId</td></tr><tr><td>ContactRelationEntity.SourceContactId</td><td>Source contactId</td></tr><tr><td>ContactRelationEntity.SourceContactName</td><td>Source contact name</td></tr><tr><td>ContactRelationEntity.SourcePersonId</td><td>Source personId</td></tr><tr><td>ContactRelationEntity.SourcePersonName</td><td>Source person name</td></tr><tr><td>ContactRelationEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>IsNew</td><td>true/false</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;ContactRelationEntity.RelationId&quot;);</code></pre>\n"
@@ -713,14 +754,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSale()
   id: 'SalesBeforeSaveSale()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveSale()'
   nameWithType: Trigger.SalesBeforeSaveSale()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveSale()
   type: Method
-  summary: "\nCalled before a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1008) Called before a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>CurrentEntityName</td><td>Current entity name</td></tr><tr><td>DurationInMinutes</td><td>Duration in minutes</td></tr><tr><td>EarningPst</td><td>Earning percent</td></tr><tr><td>IsNew</td><td>true/false</td></tr><tr><td>NextDueDateFormatted</td><td>Next due date</td></tr><tr><td>OurCurrency</td><td>Our currency</td></tr><tr><td>ProbabilityPst</td><td>Probability percent</td></tr><tr><td>SaleEntity.ActiveErpLinks</td><td>Active Erp links</td></tr><tr><td>SaleEntity.ActiveLinks</td><td>Active links</td></tr><tr><td>SaleEntity.Amount</td><td>Amount</td></tr><tr><td>SaleEntity.Associate.*</td><td>Associate variables</td></tr><tr><td>SaleEntity.Competitor.*</td><td>Competitor variables</td></tr><tr><td>SaleEntity.Completed</td><td>Completed</td></tr><tr><td>SaleEntity.CompletedBool</td><td>true/false</td></tr><tr><td>SaleEntity.Contact.*</td><td>Contact variables</td></tr><tr><td>SaleEntity.CreatedBy.*</td><td>Associate variables</td></tr><tr><td>SaleEntity.CreatedDate</td><td>Created date</td></tr><tr><td>SaleEntity.Credited.*</td><td>Credited variables</td></tr><tr><td>SaleEntity.Currency.*</td><td>Currency variables</td></tr><tr><td>SaleEntity.Earning</td><td>Earning</td></tr><tr><td>SaleEntity.EarningPercent</td><td>Earning percent</td></tr><tr><td>SaleEntity.Heading</td><td>Heading</td></tr><tr><td>SaleEntity.IsPublished</td><td>true/false</td></tr><tr><td>SaleEntity.Links.length</td><td>Links length</td></tr><tr><td>SaleEntity.NextDueDate</td><td>Next duedate</td></tr><tr><td>SaleEntity.Number</td><td>Number</td></tr><tr><td>SaleEntity.Person.*</td><td>Person variables</td></tr><tr><td>SaleEntity.Postit</td><td>Postit</td></tr><tr><td>SaleEntity.Project.*</td><td>Project variables</td></tr><tr><td>SaleEntity.PublishEventDate</td><td>Publish event date</td></tr><tr><td>SaleEntity.PublishFrom</td><td>Publish from</td></tr><tr><td>SaleEntity.PublishTo</td><td>Publish to</td></tr><tr><td>SaleEntity.Rating.*</td><td>Rating variables</td></tr><tr><td>SaleEntity.Reason.*</td><td>Reason variables</td></tr><tr><td>SaleEntity.ReasonSold.*</td><td>Reason sold variables</td></tr><tr><td>SaleEntity.SaleId</td><td>SaleId</td></tr><tr><td>SaleEntity.SaleStakeholders.length</td><td>Stakeholders length</td></tr><tr><td>SaleEntity.SaleText</td><td>Sale text</td></tr><tr><td>SaleEntity.SaleType.*</td><td>Saletype variables</td></tr><tr><td>SaleEntity.Saledate</td><td>Sale date</td></tr><tr><td>SaleEntity.Source.*</td><td>Source variables</td></tr><tr><td>SaleEntity.Status</td><td>Status</td></tr><tr><td>SaleEntity.UpdatedDate</td><td>Updated date</td></tr><tr><td>SaleEntity.VisibleFor.length</td><td>Visiblefor length</td></tr><tr><td>SaleEntity.VisibleFor[].&#42;</td><td>Visiblefor variables</td></tr><tr><td>SaleLostSoldTime</td><td>Lost sold time</td></tr><tr><td>SaleOpenAppointment</td><td>Open appointment</td></tr><tr><td>SaleStageHasChanged</td><td>true/false</td></tr><tr><td>SaleStalled</td><td>true/false</td></tr><tr><td>SaleStatus</td><td>Sale status</td></tr><tr><td>SaleStatusChanged</td><td>Status changed</td></tr><tr><td>SaleTypeChanged</td><td>true/false</td></tr><tr><td>TotalCost</td><td>Total cost</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();</code></pre>\n"
@@ -728,13 +770,14 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSelection()
   id: 'SalesBeforeSaveSelection()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveSelection()'
   nameWithType: Trigger.SalesBeforeSaveSelection()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveSelection()
   type: Method
-  summary: "\nCalled before selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  summary: "\n(1010) Called before selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
   remarks: 
   syntax: 
   example: 
@@ -743,14 +786,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
   id: 'SalesBeforeSaveSelectionMember()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveSelectionMember()'
   nameWithType: Trigger.SalesBeforeSaveSelectionMember()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
   type: Method
-  summary: "\nCalled before selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1012) Called before selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, person name, selectionmember role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
@@ -758,14 +802,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
   id: 'SalesBeforeSaveStakeholder()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'SalesBeforeSaveStakeholder()'
   nameWithType: Trigger.SalesBeforeSaveStakeholder()
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
   type: Method
-  summary: "\nCalled before a sale stakeholder is saved.EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: 
+  summary: "\n(1002) Called before a sale stakeholder is saved.EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, stakeholder role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
@@ -773,14 +818,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ScheduledTaskFailed()
   id: 'ScheduledTaskFailed()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ScheduledTaskFailed()'
   nameWithType: Trigger.ScheduledTaskFailed()
   fullName: CRMScript.Event.Trigger.ScheduledTaskFailed()
   type: Method
-  summary: "\nRuns after scheduled task failed\n"
-  remarks: 
+  summary: "\n(300) Runs after scheduled task failed\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>scheduled task ID</td></tr><tr><td>retries</td><td>schedule number of retries</td></tr><tr><td>disabled</td><td>schedule disabled ?</td></tr><tr><td>errorMessage</td><td>error message string</td></tr><tr><td>nextExecution</td><td>next scheduled start (datetime)</td></tr><tr><td>executionTime</td><td>int</td></tr><tr><td>scriptId</td><td>script ID to execute</td></tr><tr><td>scriptName</td><td>name of script</td></tr><tr><td>scriptIncludeId</td><td>unique ID of script</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -788,14 +834,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
   id: 'ServiceScreenAddMessageAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenAddMessageAfterSubmit()'
   nameWithType: Trigger.ServiceScreenAddMessageAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(703) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -803,14 +850,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
   id: 'ServiceScreenAddMessageBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenAddMessageBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenAddMessageBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(603) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -818,14 +866,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
   id: 'ServiceScreenAddMessageLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenAddMessageLoad()'
   nameWithType: Trigger.ServiceScreenAddMessageLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
-  remarks: 
+  summary: "\n(503) Called when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -833,14 +882,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
   id: 'ServiceScreenEditCompanyAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCompanyAfterSubmit()'
   nameWithType: Trigger.ServiceScreenEditCompanyAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(708) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -848,14 +898,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
   id: 'ServiceScreenEditCompanyBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCompanyBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenEditCompanyBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(608) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -863,14 +914,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
   id: 'ServiceScreenEditCompanyLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCompanyLoad()'
   nameWithType: Trigger.ServiceScreenEditCompanyLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
   type: Method
-  summary: "\nRuns for<code>HtmlPage.lang_ticket_newCompany</code>screen. Called when screen is constructed, useful for setting default values into HTML elements\n"
-  remarks: 
+  summary: "\n(508) Runs for<code>HtmlPage.lang_ticket_newCompany</code>screen. Called when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -878,14 +930,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
   id: 'ServiceScreenEditCustomerAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCustomerAfterSubmit()'
   nameWithType: Trigger.ServiceScreenEditCustomerAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(706) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -893,14 +946,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
   id: 'ServiceScreenEditCustomerBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCustomerBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenEditCustomerBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(606) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -908,14 +962,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
   id: 'ServiceScreenEditCustomerLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditCustomerLoad()'
   nameWithType: Trigger.ServiceScreenEditCustomerLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
   type: Method
-  summary: "\nRuns for<code>HtmlPage.lang_ticket_editCustomer</code><p></p>\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
-  remarks: 
+  summary: "\n(506) Runs for<code>HtmlPage.lang_ticket_editCustomer</code><p></p>\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -923,14 +978,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
   id: 'ServiceScreenEditExtraTableAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditExtraTableAfterSubmit()'
   nameWithType: Trigger.ServiceScreenEditExtraTableAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(710) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -938,14 +994,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
   id: 'ServiceScreenEditExtraTableBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditExtraTableBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenEditExtraTableBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(610) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -953,14 +1010,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
   id: 'ServiceScreenEditExtraTableLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditExtraTableLoad()'
   nameWithType: Trigger.ServiceScreenEditExtraTableLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
-  remarks: 
+  summary: "\n(510) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -968,14 +1026,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
   id: 'ServiceScreenEditTicketAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditTicketAfterSubmit()'
   nameWithType: Trigger.ServiceScreenEditTicketAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(704) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -983,14 +1042,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
   id: 'ServiceScreenEditTicketBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditTicketBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenEditTicketBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(604) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -998,14 +1058,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
   id: 'ServiceScreenEditTicketLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenEditTicketLoad()'
   nameWithType: Trigger.ServiceScreenEditTicketLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
-  remarks: 
+  summary: "\n(504) Called when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1013,14 +1074,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
   id: 'ServiceScreenForwardAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenForwardAfterSubmit()'
   nameWithType: Trigger.ServiceScreenForwardAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(709) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1028,14 +1090,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
   id: 'ServiceScreenForwardBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenForwardBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenForwardBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(609) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1043,14 +1106,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardLoad()
   id: 'ServiceScreenForwardLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenForwardLoad()'
   nameWithType: Trigger.ServiceScreenForwardLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenForwardLoad()
   type: Method
-  summary: "\nRuns for<code>HtmlPage.forward</code>event. Called when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(509) Runs for<code>HtmlPage.forward</code>event. Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1058,14 +1122,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
   id: 'ServiceScreenListTicketMessagesAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenListTicketMessagesAfterSubmit()'
   nameWithType: Trigger.ServiceScreenListTicketMessagesAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(702) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1073,14 +1138,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
   id: 'ServiceScreenListTicketMessagesBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenListTicketMessagesBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(602) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1088,14 +1154,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
   id: 'ServiceScreenListTicketMessagesLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenListTicketMessagesLoad()'
   nameWithType: Trigger.ServiceScreenListTicketMessagesLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(502) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1103,14 +1170,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
   id: 'ServiceScreenNewQuickTicketAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewQuickTicketAfterSubmit()'
   nameWithType: Trigger.ServiceScreenNewQuickTicketAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(701) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1118,14 +1186,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
   id: 'ServiceScreenNewQuickTicketBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewQuickTicketBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(601) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1133,14 +1202,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
   id: 'ServiceScreenNewQuickTicketLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewQuickTicketLoad()'
   nameWithType: Trigger.ServiceScreenNewQuickTicketLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(501) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1148,14 +1218,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
   id: 'ServiceScreenNewTicketAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewTicketAfterSubmit()'
   nameWithType: Trigger.ServiceScreenNewTicketAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(700) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1163,14 +1234,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
   id: 'ServiceScreenNewTicketBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewTicketBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenNewTicketBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(600) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1178,14 +1250,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
   id: 'ServiceScreenNewTicketLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenNewTicketLoad()'
   nameWithType: Trigger.ServiceScreenNewTicketLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(500) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1193,14 +1266,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
   id: 'ServiceScreenViewCompanyAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCompanyAfterSubmit()'
   nameWithType: Trigger.ServiceScreenViewCompanyAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(707) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1208,14 +1282,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
   id: 'ServiceScreenViewCompanyBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCompanyBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenViewCompanyBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(607) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1223,14 +1298,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
   id: 'ServiceScreenViewCompanyLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCompanyLoad()'
   nameWithType: Trigger.ServiceScreenViewCompanyLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(507) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1238,14 +1314,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
   id: 'ServiceScreenViewCustomerAfterSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCustomerAfterSubmit()'
   nameWithType: Trigger.ServiceScreenViewCustomerAfterSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
   type: Method
-  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
-  remarks: 
+  summary: "\n(705) Called after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1253,14 +1330,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
   id: 'ServiceScreenViewCustomerBeforeSubmit()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCustomerBeforeSubmit()'
   nameWithType: Trigger.ServiceScreenViewCustomerBeforeSubmit()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
   type: Method
-  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
-  remarks: 
+  summary: "\n(605) Called before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1268,14 +1346,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
   id: 'ServiceScreenViewCustomerLoad()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'ServiceScreenViewCustomerLoad()'
   nameWithType: Trigger.ServiceScreenViewCustomerLoad()
   fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
   type: Method
-  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
-  remarks: 
+  summary: "\n(505) Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
@@ -1283,14 +1362,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketActivated()
   id: 'TicketActivated()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketActivated()'
   nameWithType: Trigger.TicketActivated()
   fullName: CRMScript.Event.Trigger.TicketActivated()
   type: Method
-  summary: "\nRuns when ticket is saved and status changed from postponed to active.\n"
-  remarks: 
+  summary: "\n(113) Runs when ticket is saved and status changed from postponed to active.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1298,14 +1378,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedCategory()
   id: 'TicketChangedCategory()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedCategory()'
   nameWithType: Trigger.TicketChangedCategory()
   fullName: CRMScript.Event.Trigger.TicketChangedCategory()
   type: Method
-  summary: "\nRuns when a ticket is saved and the ticket category changes ID.\n"
-  remarks: 
+  summary: "\n(141) Runs when a ticket is saved and the ticket category changes ID.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>category.old</td><td>old value</td></tr><tr><td>category.new</td><td>new value</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
@@ -1313,14 +1394,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedOwnedBy()
   id: 'TicketChangedOwnedBy()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedOwnedBy()'
   nameWithType: Trigger.TicketChangedOwnedBy()
   fullName: CRMScript.Event.Trigger.TicketChangedOwnedBy()
   type: Method
-  summary: "\nRuns when a ticket is saved and the owner changed.\n"
-  remarks: 
+  summary: "\n(142) Runs when a ticket is saved and the owner changed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>owned_by.old</td><td>old value</td></tr><tr><td>owned_by.new</td><td>new value</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1328,14 +1410,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
   id: 'TicketChangedPrimaryCustomer()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedPrimaryCustomer()'
   nameWithType: Trigger.TicketChangedPrimaryCustomer()
   fullName: CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
   type: Method
-  summary: "\nRuns when a ticket is saved and the customer ID changes.\n"
-  remarks: 
+  summary: "\n(143) Runs when a ticket is saved and the customer ID changes.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>cust_id.old</td><td>old value</td></tr><tr><td>cust_id.new</td><td>new value</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
@@ -1343,14 +1426,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedPriority()
   id: 'TicketChangedPriority()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedPriority()'
   nameWithType: Trigger.TicketChangedPriority()
   fullName: CRMScript.Event.Trigger.TicketChangedPriority()
   type: Method
-  summary: "\nRuns when a ticket is saved and priority changed.\n"
-  remarks: 
+  summary: "\n(140) Runs when a ticket is saved and priority changed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>priority.old</td><td>old value</td></tr><tr><td>priority.new</td><td>new value</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1358,14 +1442,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedSlevel()
   id: 'TicketChangedSlevel()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedSlevel()'
   nameWithType: Trigger.TicketChangedSlevel()
   fullName: CRMScript.Event.Trigger.TicketChangedSlevel()
   type: Method
-  summary: "\nRuns when a ticket is saved and the security level changed.\n"
-  remarks: 
+  summary: "\n(145) Runs when a ticket is saved and the security level changed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>slevel.old</td><td>old value</td></tr><tr><td>slevel.new</td><td>new value</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1373,14 +1458,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketChangedTicketStatus()
   id: 'TicketChangedTicketStatus()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketChangedTicketStatus()'
   nameWithType: Trigger.TicketChangedTicketStatus()
   fullName: CRMScript.Event.Trigger.TicketChangedTicketStatus()
   type: Method
-  summary: "\nRuns when a ticket is saved and status changed. If user-defined statuses are present in solution available values will differ from below.\n"
-  remarks: 
+  summary: "\n(144) Runs when a ticket is saved and status changed. If user-defined statuses are present in solution available values will differ from below.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1388,14 +1474,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketClosed()
   id: 'TicketClosed()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketClosed()'
   nameWithType: Trigger.TicketClosed()
   fullName: CRMScript.Event.Trigger.TicketClosed()
   type: Method
-  summary: "\nRuns when a ticket is saved and the status changes to closed.\n"
-  remarks: 
+  summary: "\n(110) Runs when a ticket is saved and the status changes to closed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -1403,14 +1490,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketDeleted()
   id: 'TicketDeleted()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketDeleted()'
   nameWithType: Trigger.TicketDeleted()
   fullName: CRMScript.Event.Trigger.TicketDeleted()
   type: Method
-  summary: "\nRuns when a ticket is saved and the status changes to deleted.\n"
-  remarks: 
+  summary: "\n(112) Runs when a ticket is saved and the status changes to deleted.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -1418,14 +1506,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketExternalMessageAdded()
   id: 'TicketExternalMessageAdded()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketExternalMessageAdded()'
   nameWithType: Trigger.TicketExternalMessageAdded()
   fullName: CRMScript.Event.Trigger.TicketExternalMessageAdded()
   type: Method
-  summary: "\nCalled for all external messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
-  remarks: 
+  summary: "\n(152) Called for all external messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>the ticket ID</td></tr><tr><td>ticketId</td><td>the ticket ID</td></tr><tr><td>messageId</td><td>the ticket message ID</td></tr></tbody></table>  \n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -1433,14 +1522,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketInternalMessageAdded()
   id: 'TicketInternalMessageAdded()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketInternalMessageAdded()'
   nameWithType: Trigger.TicketInternalMessageAdded()
   fullName: CRMScript.Event.Trigger.TicketInternalMessageAdded()
   type: Method
-  summary: "\nCalled for all internal messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
-  remarks: 
+  summary: "\n(151) Called for all internal messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>the ticket ID</td></tr><tr><td>ticketId</td><td>the ticket ID</td></tr><tr><td>messageId</td><td>the ticket message ID</td></tr></tbody></table>  \n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -1448,14 +1538,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketMessageAdded()
   id: 'TicketMessageAdded()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketMessageAdded()'
   nameWithType: Trigger.TicketMessageAdded()
   fullName: CRMScript.Event.Trigger.TicketMessageAdded()
   type: Method
-  summary: "\nCalled for all messages added to a ticket, followed by call to either<code>TicketInternalMessageAdded</code>or<code>TicketExternalMessageAdded</code>trigger.\n"
-  remarks: 
+  summary: "\n(150) Called for all messages added to a ticket, followed by call to either<code>TicketInternalMessageAdded</code>or<code>TicketExternalMessageAdded</code>trigger.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>the ticket ID</td></tr><tr><td>ticketId</td><td>the ticket ID</td></tr><tr><td>messageId</td><td>the ticket message ID</td></tr></tbody></table>  \n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
@@ -1463,14 +1554,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
   id: 'TicketMessageSentimentCalculated()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketMessageSentimentCalculated()'
   nameWithType: Trigger.TicketMessageSentimentCalculated()
   fullName: CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
   type: Method
-  summary: "\nRuns when a new sentiment is calculated.\n"
-  remarks: 
+  summary: "\n(153) Runs when a new sentiment is calculated.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>language</td><td>Two letter language code</td></tr><tr><td>sentiment</td><td></td></tr><tr><td>sentimentConfidence</td><td></td></tr><tr><td>messageId</td><td>message ID</td></tr><tr><td>messageIsExternal</td><td>Bool</td></tr><tr><td>messageIsFirst</td><td>Bool</td></tr><tr><td>ticketTitle</td><td>title for request</td></tr><tr><td>ticketPriorityId</td><td>priority ID</td></tr><tr><td>ticketPriorityName</td><td>priority name</td></tr><tr><td>ticketCategoryId</td><td>category ID</td></tr><tr><td>ticketCategoryName</td><td>category name</td></tr><tr><td>ticketStatusId</td><td>status ID</td></tr><tr><td>ticketStatusName</td><td>status name</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1478,14 +1570,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketPostponed()
   id: 'TicketPostponed()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketPostponed()'
   nameWithType: Trigger.TicketPostponed()
   fullName: CRMScript.Event.Trigger.TicketPostponed()
   type: Method
-  summary: "\nRuns when a ticket is saved and the status changed to postponed.\n"
-  remarks: 
+  summary: "\n(111) Runs when a ticket is saved and the status changed to postponed.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -1493,14 +1586,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketReopened()
   id: 'TicketReopened()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketReopened()'
   nameWithType: Trigger.TicketReopened()
   fullName: CRMScript.Event.Trigger.TicketReopened()
   type: Method
-  summary: "\nRuns when a ticket is saved and the status changed from closed to active.\n"
-  remarks: 
+  summary: "\n(120) Runs when a ticket is saved and the status changed from closed to active.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>personId</td><td>customer (person) ID</td></tr><tr><td>contactId</td><td>company (contact) ID</td></tr><tr><td>ticketStatus.old</td><td>old value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr><tr><td>ticketStatus.new</td><td>new value (enum <xref href=\"CRMScript.NetServer.TicketBaseStatus\" data-throw-if-not-resolved=\"false\"></xref>)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -1508,14 +1602,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
   id: 'TicketReopenedFromCustomerCenter()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketReopenedFromCustomerCenter()'
   nameWithType: Trigger.TicketReopenedFromCustomerCenter()
   fullName: CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
   type: Method
-  summary: "\nCalled when a ticket is reopened from Customer center.\n"
-  remarks: 
+  summary: "\n(121) Called when a ticket is reopened from Customer center.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>ticket ID</td></tr><tr><td>ticketId</td><td>ticket ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
@@ -1523,14 +1618,15 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketReopenedFromEmail()
   id: 'TicketReopenedFromEmail()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketReopenedFromEmail()'
   nameWithType: Trigger.TicketReopenedFromEmail()
   fullName: CRMScript.Event.Trigger.TicketReopenedFromEmail()
   type: Method
-  summary: "\nRuns after ImportMailAfterProcessing (304) if ticket existed before.\n"
-  remarks: 
+  summary: "\n(122) Runs after ImportMailAfterProcessing (304) if ticket existed before.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>messageId</td><td>message ID (int)</td></tr><tr><td>entryId</td><td>request ID</td></tr><tr><td>ticketId</td><td>request ID</td></tr><tr><td>customerId</td><td>person ID</td></tr><tr><td>customerEmail</td><td>person email address</td></tr><tr><td>mailBackup</td><td>backup string</td></tr><tr><td>filterId</td><td>filter ID</td></tr><tr><td>to</td><td>to header value</td></tr><tr><td>from</td><td>from header value</td></tr><tr><td>isNewCustomer</td><td>new customer? (0/1)</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
@@ -1538,6 +1634,7 @@ items:
   commentId: M:CRMScript.Event.Trigger.TicketSave()
   id: 'TicketSave()'
   so.intellisense: 
+  so.version: 9.2 R08
   langs:
   - crmscript
   name: 'TicketSave()'
@@ -1545,7 +1642,7 @@ items:
   fullName: CRMScript.Event.Trigger.TicketSave()
   type: Method
   summary: "\nCalled when a ticket is being saved.\n"
-  remarks: 
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>ticketId</td><td>ticket ID</td></tr><tr><td>activeUser</td><td>ejUser ID</td></tr></tbody></table>  \n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre><strong>Example parser variables:</strong><p></p>\n<pre><code>if(getParserVariable(&quot;ticket.new.category&quot;) != getParserVariable(&quot;ticket.old.value&quot;))\n    log(&quot;Category has changed&quot;);</code></pre>In this event it is possible to get more information regarding changes done using Parser variables to compare old values against new values.\n"

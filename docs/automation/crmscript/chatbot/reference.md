@@ -66,7 +66,7 @@ This script is called when the session changes status (when pre-form is filled i
 
 Variables `status.old` and `status.new` contain old and new values for chat session status.
 
-### Chat session status values
+### <a name="chatSessionStatus"></a>Chat session status values
 
 | Value | Status |
 |:-:|---|
@@ -132,7 +132,7 @@ This starts the session over (session status starts at the beginning again).
 
 This changes the session status. This may trigger the session changed event.
 
-## Chat message types
+## <a name="chatMessageType">Chat message types
 
 | Value | Type |
 |:-:|---|
@@ -140,7 +140,7 @@ This changes the session status. This may trigger the session changed event.
 | 2 | ToUser |
 | 3 | Special |
 
-## Chat message special types
+## <a name="chatMessageSpecialType">Chat message special types
 
 | Value | Type |
 |:-:|---|
