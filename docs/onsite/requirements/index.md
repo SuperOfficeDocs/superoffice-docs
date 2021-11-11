@@ -27,7 +27,7 @@ Use this overview to get to the specific requirements.
 
 ## Microsoft .NET
 
-### Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and 9
+### Microsoft .NET v 4.8 from SuperOffice 8.5 R05, 9 and 10
 
 The installer will handle the installation of .NET 4.8 for you, but some clients may like to pre-install it themselves.
 
@@ -60,7 +60,8 @@ See: [.NET system requirements][13]
 
 | Versions | Web client | Service client |
 |----------|------------|----------------|
-| 9.1 and newer | services88 | services88 |
+| 10 | services88 | services88 |
+| 9 | services88 | services88 |
 | 8.5 R09 - R15 | services88 | services88 |
 | 8.5 R01 - R08 | services87 | services87 |
 | 8.4 R07 - R08 | services87 | services87 |
