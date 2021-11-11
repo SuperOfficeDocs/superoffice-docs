@@ -15,16 +15,17 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 
 ## Operating systems
 
+* Windows 11
 * Windows 10
 * Windows 8.1
+* Mac OS 11.0 (Big Sur)
 * Mac OS 10.15 (Catalina)
 * Mac OS 10.14 (Mojave)
-* Mac OS 10.13 (High Sierra)
+
 
 ## Browsers
 
 * Microsoft Edge
-* Internet Explorer 11
 * Chrome Mac / Win
 * Firefox Mac / Win
 * Safari Mac
@@ -34,7 +35,6 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
-* Microsoft Office 2010
 * Support for Google and Microsoft 365 authentication and document storage
 
 ### Documents in CRM online
@@ -56,7 +56,6 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 * Outlook 2019
 * Outlook 2016
 * Outlook 2013
-* Outlook 2010
 
 > [!NOTE]
 > Lotus Notes is NOT supported as a mail client for SuperOffice MailLink in CRM Online.
