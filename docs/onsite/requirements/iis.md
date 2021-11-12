@@ -1,7 +1,7 @@
 ---
 title: Requirements
 uid: iis_server_requirements
-description: System requirements for SuperOffice 8, 9 and 10 server
+description: System requirements for SuperOffice server
 author: {github-id}
 keywords:
 so.topic: reference
@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# System requirements for SuperOffice 8, 9 and 10 server hosting IIS
+# System requirements for SuperOffice server hosting IIS
 
 This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOffice Mailings, and SuperOffice Audience.
 

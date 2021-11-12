@@ -1,7 +1,7 @@
 ---
 title: Requirements
 uid: crm_server_requirements
-description: System requirements for SuperOffice 8, 9 and 10 server
+description: System requirements for SuperOffice server
 author: {github-id}
 keywords:
 so.topic: reference
@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# System requirements for SuperOffice 8, 9 and 10 server hosting CRM server
+# System requirements for SuperOffice server hosting CRM server
 
 The SuperOffice CRM server is used for hosting the client files and document archive.
 

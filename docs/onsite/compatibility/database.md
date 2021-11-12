@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# Databases supported by SuperOffice CRM 8 and 9
+# Databases supported by SuperOffice CRM
 
 Our experience tells us that other configurations also should work but SuperOffice will not guarantee any other configurations than the ones listed below.
 
