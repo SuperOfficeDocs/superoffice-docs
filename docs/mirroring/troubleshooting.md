@@ -294,6 +294,6 @@ Once the `AuthenticateResponse` is sent back to SuperOffice and validated, the d
 
 <!-- reference images -->
 [wcf-iis-page]: media/database-mirror-service-iis-page.png
-[wcf-unavilable]: media/database-mirror-unavilable.png
+[wcf-unavailable]: media/database-mirror-unavailable.png
 [wcf-404]: media/database-mirror-404.png
 [authenticate-claims]: media/database-mirror-authenticate-jwt-claims.png
