@@ -127,6 +127,14 @@ A complete system.serviceModel configuration example:
                  maxBufferPoolSize="2147483647" 
                  maxReceivedMessageSize="2147483647" 
                  maxBufferSize="2147483647">
+
+          <!-- Uncomment the security element if 
+           experiencing 404 service not found
+           or unavailable.-->  
+          <!--<security mode="Transport">
+            <transport clientCredentialType="None" />
+          </security>-->
+      
           <readerQuotas maxDepth="2147483647" 
                         maxStringContentLength="2147483647" 
                         maxArrayLength="2147483647" 
