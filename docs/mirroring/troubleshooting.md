@@ -30,7 +30,7 @@ Please ensure that the address is correct and try accessing the service again la
 
 This is often observed in the log files as seen here.
 
-![unavailable wcf service error message -screenshot][wcf-unavilable]
+![unavailable wcf service error message -screenshot][wcf-unavailable]
 
 This problem is difficult to understand because viewing the web service in IIS delivers the expected WCF service web page.
 
