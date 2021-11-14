@@ -24,8 +24,9 @@ These apply to computers running the Sales, Marketing, and Service clients.
 
 * 2 GB
 
-## Operation system
+## Operating system
 
+* Microsoft Windows 11
 * Microsoft Windows 10, minimum Anniversary update
 * Microsoft Windows 8.1 (32bit) or (64bit)
 * Mac - Web client only
@@ -44,7 +45,6 @@ These apply to computers running the Sales, Marketing, and Service clients.
 ## Browsers - Web panels
 
 * Microsoft Edge
-* Internet Explorer 11
 * Chrome Win
 * Firefox 20+ Win
 * Chrome Mac
@@ -57,7 +57,6 @@ These apply to computers running the Sales, Marketing, and Service clients.
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
-* Microsoft Office 2010
 
 ## SuperOffice MailLink
 
@@ -67,7 +66,6 @@ Windows operating system only
 * Outlook 2019
 * Outlook 2016
 * Outlook 2013
-* Outlook 2010
 * Lotus Notes 10
 * Lotus Notes 9
 
@@ -78,7 +76,6 @@ SuperOffice Win client only
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
-* Microsoft Office 2010
 
 ## WebTools
 
@@ -98,7 +95,7 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 ## Requisites installed by the client installer
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05**
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
 * Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 
