@@ -27,3 +27,5 @@ items:
     href: getting-started/i-mirror-client-service.md
 - name: How to force resync
   href: force-resync.md
+- name: Troubleshooting
+  href: troubleshooting.md
