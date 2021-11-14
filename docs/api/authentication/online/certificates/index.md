@@ -26,6 +26,8 @@ At the lowest level, the **subject certificates** establish trust for each envir
 * each environmental certificate has a dependency on each federated login certificate
 * each federated login certificate depends on its corresponding environmental certificate
 
+[Download certificates][5]
+
 ## Supported trust types
 
 There are 3 main types of certificate trust:
@@ -67,6 +69,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
 [2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md
+[5]: ../../../assets/downloads/superofficeonlinecertificates.zip
 
 <!-- Referenced images -->
 [img1]: media/certificateheirarchy.png
