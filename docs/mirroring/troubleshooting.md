@@ -267,7 +267,7 @@ Here is an example response:
 </s:Envelope>
 ```
 
-To sign the token, create a `Sign` method that accepts two parameters, the none and the private XMLRSA certificate key issued to you by SuperOffice. See the code example below how to complete signing the response.
+To sign the token, create a `Sign` method that accepts two parameters, the NONCE and the private XMLRSA certificate key issued to you by SuperOffice. See the code example below how to complete signing the response.
 
 ```csharp
 /// <summary>
