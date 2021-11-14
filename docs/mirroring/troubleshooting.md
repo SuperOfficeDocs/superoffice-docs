@@ -18,7 +18,8 @@ The most common problems during setup and configuration of Database Mirroring ar
 
 ## Unavailable service
 
-> [!NOTE] This section assumes your service is hosted as a WCF service in IIS.
+> [!NOTE]
+> This section assumes your service is hosted as a WCF service in IIS.
 
 The most common error message observed is the unavailability of a customer Database Mirroring endpoint.
 
@@ -40,7 +41,8 @@ The error message in this case is misleading. To better understand what's going 
 
 This can easily be verified by issuing a POST request to the Database Mirror URL. The following example is useful for testing this theory.
 
-> [!NOTE] The following example contains an invalid JWT token, and does not affect the point of testing service availability.
+> [!NOTE]
+> The following example contains an invalid JWT token, and does not affect the point of testing service availability.
 
 ```http
 POST https://DATABASE-MIRROR-URL/MirroringClientService.svc HTTP/1.1
@@ -92,7 +94,8 @@ When the Database Mirroring service is available to GET requests but unavailable
 </bindings>
 ```
 
-> [!NOTE] If the WCF service returns a 404 when the security element is present, remove the security element from the basicHttpBinding binding section and try again.
+> [!NOTE]
+> If the WCF service returns a 404 when the security element is present, remove the security element from the basicHttpBinding binding section and try again.
 
 If your network infrastructure has more complex requirements, please consult the Microsoft [WCF bindings and security](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/bindings-and-security) documentation for guidance, or review the [security transport](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/wcf/transport-of-basichttpbinding) documentation.
 
