@@ -28,15 +28,11 @@ The database user and password go the other way, from superoffice.config to both
 
 1. To find the configuration file for SuperOffice (*SuperOffice.ini*), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
 
-2. In the window the opens up - click **Open File Location**.
-
-    ![Open_File_Location -screenshot][img1]
-
-    A file explorer window will open - and you will see the SuperOffice program files.
+2. In the window that opens up click **Open File Location**. A file explorer window will open and you will see the SuperOffice program files.
 
 3. Find the file *SuperOffice.ini*, and open this file.
 
-    ![SuperOffice_ini -screenshot][img2]
+
 
 ## SuperOffice Web
 
@@ -107,5 +103,4 @@ The following steps are recommended to increase security:
 [12]: ../../service/automated-tasks/index.md
 
 <!-- Referenced images -->
-[img1]: media/open-file-location.jpg
-[img2]: media/superoffice-ini.jpg
+
