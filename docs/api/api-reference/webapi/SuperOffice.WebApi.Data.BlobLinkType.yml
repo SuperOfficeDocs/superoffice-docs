@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
   - SuperOffice.WebApi.Data.BlobLinkType.ContactImage
   - SuperOffice.WebApi.Data.BlobLinkType.Dashboard
+  - SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
   - SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
   - SuperOffice.WebApi.Data.BlobLinkType.EventImage
   - SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
@@ -567,6 +568,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.BlobLinkType
     content.vb: Public Const ContactImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
+  id: DashboardHtmlTileData
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: DashboardHtmlTileData
+  nameWithType: BlobLinkType.DashboardHtmlTileData
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.DashboardHtmlTileData
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n18: HTML data for dashboard tiles\n"
+  syntax:
+    content: public const BlobLinkType DashboardHtmlTileData
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const DashboardHtmlTileData As BlobLinkType
   modifiers.csharp:
   - public
   - const

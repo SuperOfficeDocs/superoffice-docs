@@ -72,19 +72,6 @@ items:
   assemblies:
   - SuperOffice.WebApi
 references:
-- uid: SuperOffice.WebApi.Agents.AgentBase
-  commentId: T:SuperOffice.WebApi.Agents.AgentBase
-  parent: SuperOffice.WebApi.Agents
-  isExternal: true
-  name: AgentBase
-  nameWithType: AgentBase
-  fullName: SuperOffice.WebApi.Agents.AgentBase
-- uid: SuperOffice.WebApi.Agents.ApiAgent
-  commentId: T:SuperOffice.WebApi.Agents.ApiAgent
-  isExternal: true
-  name: ApiAgent
-  nameWithType: ApiAgent
-  fullName: SuperOffice.WebApi.Agents.ApiAgent
 - uid: SuperOffice.WebApi.Agents.AIAgent
   commentId: T:SuperOffice.WebApi.Agents.AIAgent
   isExternal: true
@@ -415,6 +402,19 @@ references:
   name: WebhookAgent
   nameWithType: WebhookAgent
   fullName: SuperOffice.WebApi.Agents.WebhookAgent
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.ApiAgent
+  commentId: T:SuperOffice.WebApi.Agents.ApiAgent
+  isExternal: true
+  name: ApiAgent
+  nameWithType: ApiAgent
+  fullName: SuperOffice.WebApi.Agents.ApiAgent
 - uid: SuperOffice.WebApi.Agents.OidcConfigAgent
   commentId: T:SuperOffice.WebApi.Agents.OidcConfigAgent
   isExternal: true

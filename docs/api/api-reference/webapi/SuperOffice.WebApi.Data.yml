@@ -332,6 +332,7 @@ items:
   - SuperOffice.WebApi.Data.Configuration_GetWwwUrlRequest
   - SuperOffice.WebApi.Data.Configuration_RebuildUdefDeltasRequest
   - SuperOffice.WebApi.Data.Configuration_RebuildWebpanelDeltasRequest
+  - SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
   - SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
   - SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizesRequest
   - SuperOffice.WebApi.Data.ConsentInfo
@@ -444,10 +445,15 @@ items:
   - SuperOffice.WebApi.Data.Dash_CreateDefaultTileDefinitionForEntityRequest
   - SuperOffice.WebApi.Data.Dash_CreateDefaultTileForEntityRequest
   - SuperOffice.WebApi.Data.Dash_DuplicateDashboardRequest
+  - SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
   - SuperOffice.WebApi.Data.Dash_GetDashCollectionRequest
+  - SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  - SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
+  - SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
   - SuperOffice.WebApi.Data.Dash_GetDashTilesRequest
   - SuperOffice.WebApi.Data.Dash_GetSecondaryTempTileSelectionRequest
   - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
   - SuperOffice.WebApi.Data.Dashboard
   - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
@@ -469,6 +475,7 @@ items:
   - SuperOffice.WebApi.Data.DashTileCurrencyMode
   - SuperOffice.WebApi.Data.DashTileDefinition
   - SuperOffice.WebApi.Data.DashTileEntityType
+  - SuperOffice.WebApi.Data.DashTileHtml
   - SuperOffice.WebApi.Data.DashTileMeasure
   - SuperOffice.WebApi.Data.DashTileType
   - SuperOffice.WebApi.Data.Database_GetStepsFromNetServerCodeRequest
@@ -1084,8 +1091,10 @@ items:
   - SuperOffice.WebApi.Data.Mailbox
   - SuperOffice.WebApi.Data.MailboxEntity
   - SuperOffice.WebApi.Data.MailboxType
+  - SuperOffice.WebApi.Data.MailingStatistics
   - SuperOffice.WebApi.Data.MailMergeSettings
   - SuperOffice.WebApi.Data.MailMergeTask
+  - SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
   - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingHeaderRequest
   - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
   - SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
@@ -7256,6 +7265,12 @@ references:
   name: Configuration_RebuildWebpanelDeltasRequest
   nameWithType: Configuration_RebuildWebpanelDeltasRequest
   fullName: SuperOffice.WebApi.Data.Configuration_RebuildWebpanelDeltasRequest
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  isExternal: true
+  name: Configuration_SaveAndPublishRequest
+  nameWithType: Configuration_SaveAndPublishRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
 - uid: SuperOffice.WebApi.Data.DeltaQuery
   commentId: T:SuperOffice.WebApi.Data.DeltaQuery
   parent: SuperOffice.WebApi.Data
@@ -11298,6 +11313,12 @@ references:
   name: Dash_DuplicateDashboardRequest
   nameWithType: Dash_DuplicateDashboardRequest
   fullName: SuperOffice.WebApi.Data.Dash_DuplicateDashboardRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  isExternal: true
+  name: Dash_GetDashListRequest
+  nameWithType: Dash_GetDashListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest
 - uid: SuperOffice.WebApi.Data.DashTheme
   commentId: T:SuperOffice.WebApi.Data.DashTheme
   parent: SuperOffice.WebApi.Data
@@ -11354,6 +11375,12 @@ references:
   name: Dash_CreateDefaultTileForEntityRequest
   nameWithType: Dash_CreateDefaultTileForEntityRequest
   fullName: SuperOffice.WebApi.Data.Dash_CreateDefaultTileForEntityRequest
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  isExternal: true
+  name: Dash_DuplicateTileRequest
+  nameWithType: Dash_DuplicateTileRequest
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
 - uid: SuperOffice.WebApi.Data.DashTileDefinition
   commentId: T:SuperOffice.WebApi.Data.DashTileDefinition
   parent: SuperOffice.WebApi.Data
@@ -11379,6 +11406,30 @@ references:
   name: Dash_GetDashCollectionRequest
   nameWithType: Dash_GetDashCollectionRequest
   fullName: SuperOffice.WebApi.Data.Dash_GetDashCollectionRequest
+- uid: SuperOffice.WebApi.Data.DashTileHtml
+  commentId: T:SuperOffice.WebApi.Data.DashTileHtml
+  isExternal: true
+  name: DashTileHtml
+  nameWithType: DashTileHtml
+  fullName: SuperOffice.WebApi.Data.DashTileHtml
+- uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
+  isExternal: true
+  name: Dash_GetDashTileHtmlRequest
+  nameWithType: Dash_GetDashTileHtmlRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
+  isExternal: true
+  name: Dash_GetDashTileHtmlListRequest
+  nameWithType: Dash_GetDashTileHtmlListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+  isExternal: true
+  name: Dash_SaveDashTileHtmlListRequest
+  nameWithType: Dash_SaveDashTileHtmlListRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
 - uid: SuperOffice.WebApi.Data.Favourite
   commentId: T:SuperOffice.WebApi.Data.Favourite
   isExternal: true
@@ -11581,6 +11632,18 @@ references:
   name: Marketing_GetPreviewMailingHeaderRequest
   nameWithType: Marketing_GetPreviewMailingHeaderRequest
   fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingHeaderRequest
+- uid: SuperOffice.WebApi.Data.MailingStatistics
+  commentId: T:SuperOffice.WebApi.Data.MailingStatistics
+  isExternal: true
+  name: MailingStatistics
+  nameWithType: MailingStatistics
+  fullName: SuperOffice.WebApi.Data.MailingStatistics
+- uid: SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
+  isExternal: true
+  name: Marketing_CalculateMailingStatisticsRequest
+  nameWithType: Marketing_CalculateMailingStatisticsRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity
   commentId: T:SuperOffice.WebApi.Data.CRMScriptEntity
   parent: SuperOffice.WebApi.Data
@@ -13154,26 +13217,6 @@ references:
   name: ChatWidgetSize
   nameWithType: ChatWidgetSize
   fullName: SuperOffice.WebApi.Data.ChatWidgetSize
-- uid: SuperOffice.WebApi.Data.OnlineEnvironment
-  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: OnlineEnvironment
-  nameWithType: OnlineEnvironment
-  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
-- uid: SuperOffice.WebApi.Data.TenantState
-  commentId: T:SuperOffice.WebApi.Data.TenantState
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  name: TenantState
-  nameWithType: TenantState
-  fullName: SuperOffice.WebApi.Data.TenantState
-- uid: SuperOffice.WebApi.Data.TenantStatus
-  commentId: T:SuperOffice.WebApi.Data.TenantStatus
-  isExternal: true
-  name: TenantStatus
-  nameWithType: TenantStatus
-  fullName: SuperOffice.WebApi.Data.TenantStatus
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
   commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings
   isExternal: true
@@ -13510,6 +13553,26 @@ references:
   name: CultureDataFormatter
   nameWithType: CultureDataFormatter
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter
+- uid: SuperOffice.WebApi.Data.OnlineEnvironment
+  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OnlineEnvironment
+  nameWithType: OnlineEnvironment
+  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
+- uid: SuperOffice.WebApi.Data.TenantState
+  commentId: T:SuperOffice.WebApi.Data.TenantState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TenantState
+  nameWithType: TenantState
+  fullName: SuperOffice.WebApi.Data.TenantState
+- uid: SuperOffice.WebApi.Data.TenantStatus
+  commentId: T:SuperOffice.WebApi.Data.TenantStatus
+  isExternal: true
+  name: TenantStatus
+  nameWithType: TenantStatus
+  fullName: SuperOffice.WebApi.Data.TenantStatus
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true

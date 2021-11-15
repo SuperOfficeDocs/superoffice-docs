@@ -23,7 +23,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\nThis Enum is used by:  ej_category.closing_status; ej_category.msg_closing_status\n"
+  summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\n"
   syntax:
     content: 'public sealed class TicketCategoryClosingStatus : Enum'
     content.vb: >-
@@ -59,10 +59,10 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
-    content: public short value__
+    content: public int value__
     return:
-      type: System.Int16
-    content.vb: Public value__ As Short
+      type: System.Int32
+    content.vb: Public value__ As Integer
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -203,13 +203,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
+- uid: System.Int32
+  commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
   commentId: T:SuperOffice.WebApi.Data.TicketCategoryClosingStatus
   parent: SuperOffice.WebApi.Data

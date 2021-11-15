@@ -26,6 +26,8 @@ items:
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
@@ -892,6 +894,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+  id: WarnChatMessageMinutes
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnChatMessageMinutes
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the user notify time in minutes for new chat messages\n"
+  syntax:
+    content: public virtual int WarnChatMessageMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnChatMessageMinutes As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
+  id: WarnManagerChatMessageMinutes
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnManagerChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnManagerChatMessageMinutes
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the manager notify time in minutes for new chat messages\n"
+  syntax:
+    content: public virtual int WarnManagerChatMessageMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnManagerChatMessageMinutes As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1173,3 +1241,15 @@ references:
   name: OfflineCollectConsent
   nameWithType: ChatTopicEntity.OfflineCollectConsent
   fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineCollectConsent
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+  isExternal: true
+  name: WarnChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnChatMessageMinutes
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
+  isExternal: true
+  name: WarnManagerChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnManagerChatMessageMinutes
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes

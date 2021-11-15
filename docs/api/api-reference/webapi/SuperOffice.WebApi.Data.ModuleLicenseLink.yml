@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
   - SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
   - SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags
   - SuperOffice.WebApi.Data.ModuleLicenseLink.Free
   - SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
   - SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
@@ -32,7 +33,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ModuleLicenseLink.\n\n"
+  summary: "\nCarrier object for ModuleLicenseLink.\nLicense assignments carrier    \n"
   syntax:
     content: 'public class ModuleLicenseLink : Carrier'
     content.vb: >-
@@ -327,7 +328,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs the module license assigned to a given user\n"
+  summary: "\nIs the module license assigned to a given user?\n"
   syntax:
     content: public virtual bool Assigned { get; set; }
     parameters: []
@@ -459,7 +460,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: "\nName of module that must be active for this license to be used.\n"
   syntax:
     content: public virtual string PrerequisiteModuleName { get; set; }
     parameters: []
@@ -492,7 +493,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: "\nSort order of licenses.\n"
   syntax:
     content: public virtual int SortOrder { get; set; }
     parameters: []
@@ -500,6 +501,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SortOrder As Integer
   overload: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: ModuleLicenseLink.ExtraFlags
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLicense flags. 1 = user plan\n"
+  syntax:
+    content: public virtual int ExtraFlags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraFlags As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags*
   modifiers.csharp:
   - public
   - virtual
@@ -660,3 +694,9 @@ references:
   name: SortOrder
   nameWithType: ModuleLicenseLink.SortOrder
   fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags
+  isExternal: true
+  name: ExtraFlags
+  nameWithType: ModuleLicenseLink.ExtraFlags
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ExtraFlags

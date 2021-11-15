@@ -9,12 +9,15 @@ items:
   - SuperOffice.WebApi.Data.DashTileType.Bar
   - SuperOffice.WebApi.Data.DashTileType.BigNum
   - SuperOffice.WebApi.Data.DashTileType.Column
-  - SuperOffice.WebApi.Data.DashTileType.Combined
+  - SuperOffice.WebApi.Data.DashTileType.CombinedBarLine
+  - SuperOffice.WebApi.Data.DashTileType.CombinedColumnLine
+  - SuperOffice.WebApi.Data.DashTileType.HTML
   - SuperOffice.WebApi.Data.DashTileType.Line
   - SuperOffice.WebApi.Data.DashTileType.List
   - SuperOffice.WebApi.Data.DashTileType.None
   - SuperOffice.WebApi.Data.DashTileType.Pie
   - SuperOffice.WebApi.Data.DashTileType.value__
+  - SuperOffice.WebApi.Data.DashTileType.WebPanel
   langs:
   - csharp
   - vb
@@ -304,16 +307,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.WebApi.Data.DashTileType.Combined
-  commentId: F:SuperOffice.WebApi.Data.DashTileType.Combined
-  id: Combined
+- uid: SuperOffice.WebApi.Data.DashTileType.CombinedBarLine
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.CombinedBarLine
+  id: CombinedBarLine
   parent: SuperOffice.WebApi.Data.DashTileType
   langs:
   - csharp
   - vb
-  name: Combined
-  nameWithType: DashTileType.Combined
-  fullName: SuperOffice.WebApi.Data.DashTileType.Combined
+  name: CombinedBarLine
+  nameWithType: DashTileType.CombinedBarLine
+  fullName: SuperOffice.WebApi.Data.DashTileType.CombinedBarLine
   type: Field
   source:
     path: SuperOffice.WebApi
@@ -321,12 +324,99 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Combined\n"
+  summary: "\n8: CombinedBarLine\n"
   syntax:
-    content: public const DashTileType Combined
+    content: public const DashTileType CombinedBarLine
     return:
       type: SuperOffice.WebApi.Data.DashTileType
-    content.vb: Public Const Combined As DashTileType
+    content.vb: Public Const CombinedBarLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.CombinedColumnLine
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.CombinedColumnLine
+  id: CombinedColumnLine
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: CombinedColumnLine
+  nameWithType: DashTileType.CombinedColumnLine
+  fullName: SuperOffice.WebApi.Data.DashTileType.CombinedColumnLine
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: CombinedColumnLine\n"
+  syntax:
+    content: public const DashTileType CombinedColumnLine
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const CombinedColumnLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.WebPanel
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.WebPanel
+  id: WebPanel
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: WebPanel
+  nameWithType: DashTileType.WebPanel
+  fullName: SuperOffice.WebApi.Data.DashTileType.WebPanel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: WebPanel\n"
+  syntax:
+    content: public const DashTileType WebPanel
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const WebPanel As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.HTML
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.HTML
+  id: HTML
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: HTML
+  nameWithType: DashTileType.HTML
+  fullName: SuperOffice.WebApi.Data.DashTileType.HTML
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: HTML\n"
+  syntax:
+    content: public const DashTileType HTML
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const HTML As DashTileType
   modifiers.csharp:
   - public
   - const

@@ -107,6 +107,7 @@ items:
   - SuperOffice.WebApi.Data.DashTheme
   - SuperOffice.WebApi.Data.DashTile
   - SuperOffice.WebApi.Data.DashTileDefinition
+  - SuperOffice.WebApi.Data.DashTileHtml
   - SuperOffice.WebApi.Data.DataRight
   - SuperOffice.WebApi.Data.DataRights
   - SuperOffice.WebApi.Data.DayInformationListItem
@@ -185,6 +186,7 @@ items:
   - SuperOffice.WebApi.Data.Logging
   - SuperOffice.WebApi.Data.Mailbox
   - SuperOffice.WebApi.Data.MailboxEntity
+  - SuperOffice.WebApi.Data.MailingStatistics
   - SuperOffice.WebApi.Data.MailMergeSettings
   - SuperOffice.WebApi.Data.MailMergeTask
   - SuperOffice.WebApi.Data.MassOperationResult

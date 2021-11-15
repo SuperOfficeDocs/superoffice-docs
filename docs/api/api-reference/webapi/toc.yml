@@ -6,6 +6,11 @@
     name: WebApiException
   - uid: SuperOffice.Exceptions.WebApiUnauthorizedException
     name: WebApiUnauthorizedException
+- uid: SuperOffice.License
+  name: SuperOffice.License
+  items:
+  - uid: SuperOffice.License.SoLicenseNames
+    name: SoLicenseNames
 - uid: SuperOffice.WebApi
   name: SuperOffice.WebApi
   items:
@@ -837,6 +842,8 @@
     name: Configuration_RebuildUdefDeltasRequest
   - uid: SuperOffice.WebApi.Data.Configuration_RebuildWebpanelDeltasRequest
     name: Configuration_RebuildWebpanelDeltasRequest
+  - uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+    name: Configuration_SaveAndPublishRequest
   - uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
     name: Configuration_SaveWindowPosSizeRequest
   - uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizesRequest
@@ -1061,14 +1068,24 @@
     name: Dash_CreateDefaultTileForEntityRequest
   - uid: SuperOffice.WebApi.Data.Dash_DuplicateDashboardRequest
     name: Dash_DuplicateDashboardRequest
+  - uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+    name: Dash_DuplicateTileRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashCollectionRequest
     name: Dash_GetDashCollectionRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+    name: Dash_GetDashListRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
+    name: Dash_GetDashTileHtmlListRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
+    name: Dash_GetDashTileHtmlRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashTilesRequest
     name: Dash_GetDashTilesRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetSecondaryTempTileSelectionRequest
     name: Dash_GetSecondaryTempTileSelectionRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
     name: Dash_GetTempTileSelectionRequest
+  - uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
+    name: Dash_SaveDashTileHtmlListRequest
   - uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
     name: Dash_SaveDashTilesRequest
   - uid: SuperOffice.WebApi.Data.Dashboard
@@ -1111,6 +1128,8 @@
     name: DashTileDefinition
   - uid: SuperOffice.WebApi.Data.DashTileEntityType
     name: DashTileEntityType
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
   - uid: SuperOffice.WebApi.Data.DashTileMeasure
     name: DashTileMeasure
   - uid: SuperOffice.WebApi.Data.DashTileType
@@ -2341,10 +2360,14 @@
     name: MailboxEntity
   - uid: SuperOffice.WebApi.Data.MailboxType
     name: MailboxType
+  - uid: SuperOffice.WebApi.Data.MailingStatistics
+    name: MailingStatistics
   - uid: SuperOffice.WebApi.Data.MailMergeSettings
     name: MailMergeSettings
   - uid: SuperOffice.WebApi.Data.MailMergeTask
     name: MailMergeTask
+  - uid: SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
+    name: Marketing_CalculateMailingStatisticsRequest
   - uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingHeaderRequest
     name: Marketing_GetPreviewMailingHeaderRequest
   - uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest

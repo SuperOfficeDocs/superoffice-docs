@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Agents.MarketingAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.MarketingAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -847,6 +848,42 @@ items:
       description: PreviewMailingHeader
     content.vb: Public Function GetPreviewMailingHeaderAsync(shipmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreviewMailingHeader)
   overload: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingHeaderAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CalculateMailingStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CalculateMailingStatisticsAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.CalculateMailingStatisticsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCalculate open and click rates for one or more mailings\n"
+  syntax:
+    content: public Task CalculateMailingStatisticsAsync(int shipmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentId
+      type: System.Int32
+      description: If 0, calculate rates for all dirty (are_statistics_dirty) shipments
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function CalculateMailingStatisticsAsync(shipmentId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2196,3 +2233,9 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync
+  isExternal: true
+  name: CalculateMailingStatisticsAsync
+  nameWithType: MarketingAgent.CalculateMailingStatisticsAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CalculateMailingStatisticsAsync

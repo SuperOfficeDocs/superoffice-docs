@@ -15,6 +15,7 @@ items:
   - SuperOffice.WebApi.Data.Dash.PinForAssociates
   - SuperOffice.WebApi.Data.Dash.PinForGroups
   - SuperOffice.WebApi.Data.Dash.Theme
+  - SuperOffice.WebApi.Data.Dash.UniqueId
   - SuperOffice.WebApi.Data.Dash.VisibleForAll
   - SuperOffice.WebApi.Data.Dash.VisibleForAssociates
   - SuperOffice.WebApi.Data.Dash.VisibleForGroups
@@ -105,6 +106,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DashboardId As Integer
   overload: SuperOffice.WebApi.Data.Dash.DashboardId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Dash.UniqueId
+  commentId: P:SuperOffice.WebApi.Data.Dash.UniqueId
+  id: UniqueId
+  parent: SuperOffice.WebApi.Data.Dash
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: Dash.UniqueId
+  fullName: SuperOffice.WebApi.Data.Dash.UniqueId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGUID identifying a default dashboard from SuperOffice\n"
+  syntax:
+    content: public virtual string UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueId As String
+  overload: SuperOffice.WebApi.Data.Dash.UniqueId*
   modifiers.csharp:
   - public
   - virtual
@@ -542,12 +576,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.WebApi.Data.Dash.Name*
-  commentId: Overload:SuperOffice.WebApi.Data.Dash.Name
+- uid: SuperOffice.WebApi.Data.Dash.UniqueId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash.UniqueId
   isExternal: true
-  name: Name
-  nameWithType: Dash.Name
-  fullName: SuperOffice.WebApi.Data.Dash.Name
+  name: UniqueId
+  nameWithType: Dash.UniqueId
+  fullName: SuperOffice.WebApi.Data.Dash.UniqueId
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -555,6 +589,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Data.Dash.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash.Name
+  isExternal: true
+  name: Name
+  nameWithType: Dash.Name
+  fullName: SuperOffice.WebApi.Data.Dash.Name
 - uid: SuperOffice.WebApi.Data.Dash.Description*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.Description
   isExternal: true

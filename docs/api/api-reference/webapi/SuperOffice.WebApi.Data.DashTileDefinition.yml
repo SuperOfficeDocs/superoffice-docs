@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.DashTileDefinition.#ctor
-  - SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
+  - SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
   - SuperOffice.WebApi.Data.DashTileDefinition.CurrencyMode
   - SuperOffice.WebApi.Data.DashTileDefinition.CurrencyMode_String
   - SuperOffice.WebApi.Data.DashTileDefinition.DashboardTileDefinitionId
@@ -525,16 +525,16 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
-  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
-  id: CurrencyId
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
+  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
+  id: CurrencyCode
   parent: SuperOffice.WebApi.Data.DashTileDefinition
   langs:
   - csharp
   - vb
-  name: CurrencyId
-  nameWithType: DashTileDefinition.CurrencyId
-  fullName: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
+  name: CurrencyCode
+  nameWithType: DashTileDefinition.CurrencyCode
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -542,14 +542,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCurrency of sale\n"
+  summary: "\nCurrency code\n"
   syntax:
-    content: public virtual int CurrencyId { get; set; }
+    content: public virtual string CurrencyCode { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Overridable Property CurrencyId As Integer
-  overload: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId*
+      type: System.String
+    content.vb: Public Overridable Property CurrencyCode As String
+  overload: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode*
   modifiers.csharp:
   - public
   - virtual
@@ -1154,12 +1154,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId*
-  commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
   isExternal: true
-  name: CurrencyId
-  nameWithType: DashTileDefinition.CurrencyId
-  fullName: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyId
+  name: CurrencyCode
+  nameWithType: DashTileDefinition.CurrencyCode
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.CurrencyCode
 - uid: SuperOffice.WebApi.Data.DashTileDefinition.Measure_String*
   commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.Measure_String
   isExternal: true

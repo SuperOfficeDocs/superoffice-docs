@@ -10,6 +10,9 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSLanguageDetection
   - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSSentiment
   - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSTranslate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeAttachments
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeMailbox
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeSenderEmail
   - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.Section
   langs:
   - csharp
@@ -205,6 +208,93 @@ items:
     return:
       type: System.String
     content.vb: Public Const BusinessCardScan As String = "BusinessCardScan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeMailbox
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeMailbox
+  id: IncludeMailbox
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: IncludeMailbox
+  nameWithType: UserPreferenceStrings.HugoAI.IncludeMailbox
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeMailbox
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) If we include the Mailbox information in training and categorization\n"
+  syntax:
+    content: public const string IncludeMailbox = "IncludeMailbox"
+    return:
+      type: System.String
+    content.vb: Public Const IncludeMailbox As String = "IncludeMailbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeSenderEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeSenderEmail
+  id: IncludeSenderEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: IncludeSenderEmail
+  nameWithType: UserPreferenceStrings.HugoAI.IncludeSenderEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeSenderEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) If we include the SenderEmail information in training and categorization\n"
+  syntax:
+    content: public const string IncludeSenderEmail = "SenderEmail"
+    return:
+      type: System.String
+    content.vb: Public Const IncludeSenderEmail As String = "SenderEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeAttachments
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeAttachments
+  id: IncludeAttachments
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: IncludeAttachments
+  nameWithType: UserPreferenceStrings.HugoAI.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.IncludeAttachments
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) If we include the attachment names in training and categorization\n"
+  syntax:
+    content: public const string IncludeAttachments = "IncludeAttachments"
+    return:
+      type: System.String
+    content.vb: Public Const IncludeAttachments As String = "IncludeAttachments"
   modifiers.csharp:
   - public
   - const

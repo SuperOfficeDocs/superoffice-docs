@@ -11,6 +11,8 @@ items:
   - SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus
   - SuperOffice.WebApi.Data.TicketCategoryEntity.ClosingStatus_String
   - SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields
+  - SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+  - SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   - SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   - SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
   - SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
@@ -438,7 +440,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected.\nRaw string enum value.\n"
+  summary: "\nDetermines the default status used in the GUI when creating a ticket\nRaw string enum value.\n"
   syntax:
     content: public string ClosingStatus_String { get; set; }
     parameters: []
@@ -472,7 +474,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected.\nNULL if unknown enum value.\n"
+  summary: "\nDetermines the default status used in the GUI when creating a ticket\nNULL if unknown enum value.\n"
   syntax:
     content: public Nullable<TicketCategoryClosingStatus> ClosingStatus { get; set; }
     parameters: []
@@ -506,7 +508,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected.\nRaw string enum value.\n"
+  summary: "\nDetermines the default status used in the GUI when adding a request to a ticket\nRaw string enum value.\n"
   syntax:
     content: public string MsgClosingStatus_String { get; set; }
     parameters: []
@@ -540,7 +542,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAn integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected.\nNULL if unknown enum value.\n"
+  summary: "\nDetermines the default status used in the GUI when adding a request to a ticket\nNULL if unknown enum value.\n"
   syntax:
     content: public Nullable<TicketCategoryClosingStatus> MsgClosingStatus { get; set; }
     parameters: []
@@ -648,6 +650,72 @@ items:
       type: System.String
     content.vb: Public Overridable Property NotificationEmail As String
   overload: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
+  id: DefaultTicketStatus
+  parent: SuperOffice.WebApi.Data.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketStatus
+  nameWithType: TicketCategoryEntity.DefaultTicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault status for new tickets, if 0 then there is a fallback to a user-dependent value\n"
+  syntax:
+    content: public virtual TicketStatusEntity DefaultTicketStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketStatusEntity
+    content.vb: Public Overridable Property DefaultTicketStatus As TicketStatusEntity
+  overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+  id: DefaultMessageStatus
+  parent: SuperOffice.WebApi.Data.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageStatus
+  nameWithType: TicketCategoryEntity.DefaultMessageStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault status for new messages, if 0 then there is a fallback to a user-dependent value\n"
+  syntax:
+    content: public virtual TicketStatusEntity DefaultMessageStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketStatusEntity
+    content.vb: Public Overridable Property DefaultMessageStatus As TicketStatusEntity
+  overload: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus*
   modifiers.csharp:
   - public
   - virtual
@@ -1084,6 +1152,25 @@ references:
   name: NotificationEmail
   nameWithType: TicketCategoryEntity.NotificationEmail
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.NotificationEmail
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
+  isExternal: true
+  name: DefaultTicketStatus
+  nameWithType: TicketCategoryEntity.DefaultTicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketStatusEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketStatusEntity
+  nameWithType: TicketStatusEntity
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+  isExternal: true
+  name: DefaultMessageStatus
+  nameWithType: TicketCategoryEntity.DefaultMessageStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   isExternal: true

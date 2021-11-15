@@ -13,6 +13,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DefaultMailClientCookie
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableContactDogEar
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDashboardTileExport
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDelKey
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
@@ -1376,6 +1377,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const JoinPilotForWebTools As String = "JoinPilotForWebTools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  id: DisableDashboardTileExport
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDashboardTileExport
+  nameWithType: UserPreferenceStrings.Functions.DisableDashboardTileExport
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisable export functionaliy for dashboard tiles. Customers who dont want to\nsend chart data to external serviers can enable this.\n"
+  syntax:
+    content: public const string DisableDashboardTileExport = "DisableDashboardTileExport"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDashboardTileExport As String = "DisableDashboardTileExport"
   modifiers.csharp:
   - public
   - const

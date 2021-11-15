@@ -23,11 +23,15 @@ items:
   - SuperOffice.WebApi.Agents.DashAgent.DeleteDashTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.DeleteDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.DuplicateDashboardAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTilesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetTempTileSelectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -35,6 +39,7 @@ items:
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashThemeAsync(SuperOffice.WebApi.Data.DashTheme,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashTileAsync(SuperOffice.WebApi.Data.DashTile,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashTileDefinitionAsync(SuperOffice.WebApi.Data.DashTileDefinition,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.Data.DashTileHtml[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashTilesAsync(System.Int32,SuperOffice.WebApi.Data.DashTile[],SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -755,6 +760,45 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetDashListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashListAsync(Int32[], RequestOptions)
+  nameWithType: DashAgent.GetDashListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the ordered list of dashboards\n"
+  syntax:
+    content: public Task<Dash[]> GetDashListAsync(int[] dashboards, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboards
+      type: System.Int32[]
+      description: List of dashboardIds
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dash[]}
+      description: List of dashboards
+    content.vb: Public Function GetDashListAsync(dashboards As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Dash())
+  overload: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync*
+  nameWithType.vb: DashAgent.GetDashListAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashListAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDashThemeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1084,6 +1128,45 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: DuplicateTileAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: DuplicateTileAsync(Int32, String, RequestOptions)
+  nameWithType: DashAgent.DuplicateTileAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDuplicate for the tile and all the sub elements\n"
+  syntax:
+    content: public Task<DashTile> DuplicateTileAsync(int dashTileId, string name, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashTileId
+      type: System.Int32
+      description: The id of the tile to copy
+    - id: name
+      type: System.String
+      description: The name of the new tile
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTile}
+      description: New tile
+    content.vb: Public Function DuplicateTileAsync(dashTileId As Integer, name As String, requestOptions As RequestOptions = Nothing) As Task(Of DashTile)
+  overload: SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1189,6 +1272,121 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashTileHtmlAsync(Int32, String, RequestOptions)
+  nameWithType: DashAgent.GetDashTileHtmlAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML\n"
+  syntax:
+    content: public Task<DashTileHtml> GetDashTileHtmlAsync(int dashboardTileDefinitionId, string languageCode, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    - id: languageCode
+      type: System.String
+      description: Preferred language code.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml}
+      description: HTML data
+    content.vb: Public Function GetDashTileHtmlAsync(dashboardTileDefinitionId As Integer, languageCode As String, requestOptions As RequestOptions = Nothing) As Task(Of DashTileHtml)
+  overload: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashTileHtmlListAsync(Int32, RequestOptions)
+  nameWithType: DashAgent.GetDashTileHtmlListAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.\n"
+  syntax:
+    content: public Task<DashTileHtml[]> GetDashTileHtmlListAsync(int dashboardTileDefinitionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml[]}
+    content.vb: Public Function GetDashTileHtmlListAsync(dashboardTileDefinitionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of DashTileHtml())
+  overload: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.Data.DashTileHtml[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.Data.DashTileHtml[],SuperOffice.WebApi.RequestOptions)
+  id: SaveDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.Data.DashTileHtml[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashTileHtmlListAsync(Int32, DashTileHtml[], RequestOptions)
+  nameWithType: DashAgent.SaveDashTileHtmlListAsync(Int32, DashTileHtml[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync(System.Int32, SuperOffice.WebApi.Data.DashTileHtml[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the HTML data for a tile with TileType = HTML.\n"
+  syntax:
+    content: public Task<DashTileHtml[]> SaveDashTileHtmlListAsync(int dashboardTileDefinitionId, DashTileHtml[] languages, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    - id: languages
+      type: SuperOffice.WebApi.Data.DashTileHtml[]
+      description: List of HTML content per language
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml[]}
+    content.vb: Public Function SaveDashTileHtmlListAsync(dashboardTileDefinitionId As Integer, languages As DashTileHtml(), requestOptions As RequestOptions = Nothing) As Task(Of DashTileHtml())
+  overload: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync*
+  nameWithType.vb: DashAgent.SaveDashTileHtmlListAsync(Int32, DashTileHtml(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync(System.Int32, SuperOffice.WebApi.Data.DashTileHtml(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveDashTileHtmlListAsync(Int32, DashTileHtml(), RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -2381,6 +2579,87 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync
+  isExternal: true
+  name: GetDashListAsync
+  nameWithType: DashAgent.GetDashListAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dash[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dash[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dash[]>
+  nameWithType: Task<Dash[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Dash[]>
+  nameWithType.vb: Task(Of Dash())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Dash())
+  name.vb: Task(Of Dash())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.WebApi.Data.Dash
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.WebApi.Data.Dash
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync
   isExternal: true
@@ -2553,6 +2832,12 @@ references:
   name: CreateDefaultTileForEntityAsync
   nameWithType: DashAgent.CreateDefaultTileForEntityAsync
   fullName: SuperOffice.WebApi.Agents.DashAgent.CreateDefaultTileForEntityAsync
+- uid: SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync
+  isExternal: true
+  name: DuplicateTileAsync
+  nameWithType: DashAgent.DuplicateTileAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.DuplicateTileAsync
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync
   isExternal: true
@@ -2571,3 +2856,139 @@ references:
   name: GetDashCollectionAsync
   nameWithType: DashAgent.GetDashCollectionAsync
   fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync
+  isExternal: true
+  name: GetDashTileHtmlAsync
+  nameWithType: DashAgent.GetDashTileHtmlAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DashTileHtml>
+  nameWithType: Task<DashTileHtml>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DashTileHtml>
+  nameWithType.vb: Task(Of DashTileHtml)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DashTileHtml)
+  name.vb: Task(Of DashTileHtml)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync
+  isExternal: true
+  name: GetDashTileHtmlListAsync
+  nameWithType: DashAgent.GetDashTileHtmlListAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashTileHtml[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DashTileHtml[]>
+  nameWithType: Task<DashTileHtml[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DashTileHtml[]>
+  nameWithType.vb: Task(Of DashTileHtml())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DashTileHtml())
+  name.vb: Task(Of DashTileHtml())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync
+  isExternal: true
+  name: SaveDashTileHtmlListAsync
+  nameWithType: DashAgent.SaveDashTileHtmlListAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.SaveDashTileHtmlListAsync
+- uid: SuperOffice.WebApi.Data.DashTileHtml[]
+  isExternal: true
+  name: DashTileHtml[]
+  nameWithType: DashTileHtml[]
+  fullName: SuperOffice.WebApi.Data.DashTileHtml[]
+  nameWithType.vb: DashTileHtml()
+  fullName.vb: SuperOffice.WebApi.Data.DashTileHtml()
+  name.vb: DashTileHtml()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.WebApi.Data.DashTileHtml
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

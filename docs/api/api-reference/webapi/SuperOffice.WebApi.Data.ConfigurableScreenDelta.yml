@@ -15,7 +15,7 @@ items:
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
-  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
   langs:
   - csharp
   - vb
@@ -379,16 +379,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
-  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
-  id: UserGroupId
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+  id: UserGroupIds
   parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
   langs:
   - csharp
   - vb
-  name: UserGroupId
-  nameWithType: ConfigurableScreenDelta.UserGroupId
-  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  name: UserGroupIds
+  nameWithType: ConfigurableScreenDelta.UserGroupIds
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -396,14 +396,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMembers of this usergroup will have this delta applied to their resulting ui\n"
+  summary: "\nMembers of these usergroups will have this delta applied to their resulting ui\n"
   syntax:
-    content: public virtual int UserGroupId { get; set; }
+    content: public virtual int[] UserGroupIds { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Overridable Property UserGroupId As Integer
-  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId*
+      type: System.Int32[]
+    content.vb: Public Overridable Property UserGroupIds As Integer()
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds*
   modifiers.csharp:
   - public
   - virtual
@@ -669,9 +669,35 @@ references:
   name: RecipeId
   nameWithType: ConfigurableScreenDelta.RecipeId
   fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
-- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId*
-  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
   isExternal: true
-  name: UserGroupId
-  nameWithType: ConfigurableScreenDelta.UserGroupId
-  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  name: UserGroupIds
+  nameWithType: ConfigurableScreenDelta.UserGroupIds
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -48,6 +48,7 @@ items:
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWwwUrlForSMWebAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveDiaryViewEntityAsync(SuperOffice.WebApi.Data.DiaryViewEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveSystemEventEntityAsync(SuperOffice.WebApi.Data.SystemEventEntity,SuperOffice.WebApi.RequestOptions)
@@ -1850,6 +1851,42 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  id: SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAndPublishAsync(ConfigurableScreenDelta, RequestOptions)
+  nameWithType: ConfigurationAgent.SaveAndPublishAsync(ConfigurableScreenDelta, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSave the incomming draft and publish\n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta> SaveAndPublishAsync(ConfigurableScreenDelta configurableScreenDelta, RequestOptions requestOptions = null)
+    parameters:
+    - id: configurableScreenDelta
+      type: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+      description: The ConfigurableScreenDelta draft that is going to be published
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}
+      description: The newly published version of the ConfigurbleScreenDelta
+    content.vb: Public Function SaveAndPublishAsync(configurableScreenDelta As ConfigurableScreenDelta, requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -3480,3 +3517,9 @@ references:
   name: RebuildWebpanelDeltasAsync
   nameWithType: ConfigurationAgent.RebuildWebpanelDeltasAsync
   fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync
+  isExternal: true
+  name: SaveAndPublishAsync
+  nameWithType: ConfigurationAgent.SaveAndPublishAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveAndPublishAsync
