@@ -34,7 +34,6 @@ items:
   - CRMScript.Native.SearchEngine.executeHTMLTable()
   - CRMScript.Native.SearchEngine.executeInto(StringMatrix)
   - CRMScript.Native.SearchEngine.executeJSON()
-  - CRMScript.Native.SearchEngine.executeNS()
   - CRMScript.Native.SearchEngine.executeTextTable()
   - CRMScript.Native.SearchEngine.executeToJSONBuilder(JSONBuilder,String,String)
   - CRMScript.Native.SearchEngine.findAlternativeFields(String)
@@ -761,26 +760,6 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.String
-      description:
-  example: 
-- uid: CRMScript.Native.SearchEngine.executeNS()
-  commentId: M:CRMScript.Native.SearchEngine.executeNS()
-  id: 'executeNS()'
-  so.intellisense: SearchEngine.executeNS
-  so.version: 4.10.1
-  langs:
-  - crmscript
-  name: 'executeNS()'
-  nameWithType: SearchEngine.executeNS()
-  fullName: CRMScript.Native.SearchEngine.executeNS()
-  type: Method
-  summary: "\nExecutes the query against NetServer instead of the SQL database. Must be called to get the results.\n"
-  remarks: 
-  syntax: 
-    content: Integer executeNS()
-    parameters: []
-    return:
-      type: CRMScript.Global.Integer
       description:
   example: 
 - uid: CRMScript.Native.SearchEngine.executeTextTable()
