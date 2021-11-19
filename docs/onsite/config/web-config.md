@@ -350,7 +350,38 @@ Now you will be able to use the new features in the Web client.
 | Email Template           | EmailTemplate       |                        |  9.x                |                    |
 | User Management          | UserManagement      |                        |  9.x                |                    |
 
+***Lookup enabled features by feature toggle, on your own installation***
 
+You can use the value from feature_toggle field of the config table to determine if a feature is enabled.
+The feature_toggle field contains a delimited string of all the enabled feature toggles (',' as delimiter between the feature toggles, ':' as delimiter between the feature toggle name, and if it's enabled or not).
+
+Example CRMScript:
+```
+#setLanguageLevel 3;
+
+SearchEngine seConfig;
+seConfig.addField("config.feature_toggle");
+seConfig.execute();
+
+String featureTogglesString = seConfig.getField("config.feature_toggle");
+
+String[] featureToggles = featureTogglesString.split(",");
+
+for (Integer i = 0; i < featureToggles.length(); i++)
+{
+	String[] featureToggleValues = featureToggles[i].split(":");
+  	String featureToggleName = featureToggleValues[0];
+ 	String featureToggleEnabled = featureToggleValues[1];
+  
+  
+  	printLine(featureToggleName + " = " + featureToggleEnabled);
+}  	
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/42037679/142609061-d6baf87e-00b6-45a9-8cf4-2f52e080ca10.png)
+
+You can retrieve the feature_toggle field value using the dynamic archive provider when using the SuperOffice Web Services.
 
 ## See Also
 
