@@ -282,16 +282,81 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 | CORSEnable | Default value true |
 | CORSOrigin | Default value enables our [SuperOfficeGmail link][9] to talk to the web client. |
 
+
+## Feature Toggles
+Some features are enabled by "Feature Toggles".
+To enable toggled features - you need to add 2 sections manually in your web.config file:
+
+
+1. Open web.config file for your web installation
+2. There are 2 sections to include into the web.config
+
+    ***a) Under sectionGroup name="SuperOffice"***
+
+      Under ``` <configuration> -> <configSections> -> <sectionGroup name="SuperOffice"> ```
+
+      Section to add:
+      ```
+      <sectionGroup name="FeatureToggles">
+        <section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      </sectionGroup>
+      ```
+      _Original without the needed section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607241-bc958091-640c-4495-91ac-57cbb3bbed15.png)
+
+
+      _After added the new section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607385-7cb214e0-5f1d-42c8-812e-8903f7255921.png)
+
+    ***b) Under configuration -> SuperOffice***
+
+      Section to add:
+      ```
+      <FeatureToggles>
+        <State>
+          <add key="FeatureToggleName1" value="true" />
+          <add key="FeatureToggleName2" value="true" />
+        </State>
+      </FeatureToggles>
+      ```
+      Update the key name with the feature you want to add.
+      
+      ![image7tvjr.png -screenshot][img3]
+  
+      _Original without the needed section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607443-f768f7dc-4cd2-4096-885d-b6c58854b893.png)
+  
+      _After added the new section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607468-b76acbb6-5c51-4d36-944d-82c2fd2a4b88.png)
+  
+3. Save the file
+  Save the web.config file, and the application pool will be recycled to get the new settings.
+Now you will be able to use the new features in the Web client.
+
+***Overview of some of the previous Feature Toggles***
+  
+| Feature                  | Toggle Name         | Available from version | Released in version | Pilot in version   |
+|--------------------------|---------------------|------------------------|---------------------|--------------------|
+| Configurable Screens     | ConfigurableScreens |  10.0.2                |                     |                    |
+| Dashboards 2.0           | NewDashboards       |  10.0.2                |                     |                    |
+| OAuth 2.0 Authentication | NewAuthentication   |  10.x                  |                     |                    |
+| Bulk Update              | BulkUpdate          |                        |  9.x                |                    |
+| Consent Management       | ConsentManagement   |                        |  9.x                |                    |
+| New Ivitation            | NewInvitation       |                        |  9.x                |                    |
+| Email Template           | EmailTemplate       |                        |  9.x                |                    |
+| User Management          | UserManagement      |                        |  9.x                |                    |
+
+
+
 ## See Also
 
 **MSDN** [Configuration files][10]
-
-![imagef0sx9.png -screenshot][img1]
-
-![images95t.png -screenshot][img2]
-
-![image7tvjr.png -screenshot][img3]
-
+  
+  
 <!-- Referenced links -->
 [1]: ../install/web-client/index.md
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
@@ -304,6 +369,4 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 [10]: http://msdn.microsoft.com/en-us/library/1xtk877y(VS.80).aspx
 
 <!-- Referenced images -->
-[img1]: media/imagef0sx9.png
-[img2]: media/images95t.png
 [img3]: media/image7tvjr.png
