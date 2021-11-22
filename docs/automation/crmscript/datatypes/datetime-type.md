@@ -348,10 +348,13 @@ print(dt.isNull().toString());
 |--------|----------------------|---------------------|
 | ISOW1  | week number          | 1 or 2              |
 | ISOW2  | week number          | 2                   |
-| ISOWY2 | week number and year | week 1 or 2, year 2 |
-| ISOWY4 | week number and year | week 1 or 2, year 4 |
+| ISOWY2 | year according to ISO week | 2 |
+| ISOWY4 | year according to ISO week|  4 |
 | YY2    | year                 | 2                   |
 | YY4    | year                 | 4                   |
+
+> [!CAUTION]
+> ISOWY2/4 will calculate and return the year corresponding to the ISO week number of the given date. This year may be different from the "date" year.
 
 ### Month and day
 
