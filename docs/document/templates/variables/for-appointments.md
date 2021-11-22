@@ -60,7 +60,8 @@ so.topic: reference
 | btzd | The time zone offset for summer time, for the PC's local time. Formatted as +0200 or -1200 |
 | btze | The appointment's end time, converted into the PC's local time. Formatted as YYYYMMdd |
 | btzf | The appointment's end time, converted into the PC's local time. Formatted as HHmmss |
-| btzk | The time zone key, from the appointment's start date. (AR-CN means the Argentina-Corrientes time zone -0300.) | | btzl | The time zone ID of the appointment |
+| btzk | The time zone key, from the appointment's start date. (AR-CN means the Argentina-Corrientes time zone -0300.) | 
+| btzl | The time zone ID of the appointment |
 | btzn | The appointment's date and time converted to UTC if time zones are enabled. For example, 30.03.2005 (17:00)-(18:00) |
 | btzm | Time zone formatted as Norway (GMT +1:00) if time zones are enabled |
 | btzs | The time zone offset for summer time, for the PC's local time. Formatted as +0200 or -1200 |
