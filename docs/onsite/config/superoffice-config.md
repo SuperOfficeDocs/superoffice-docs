@@ -95,8 +95,69 @@ This configuration is required when the user executing SoAdmin has limited right
 
 This advanced configuration has to be tweaked manually in the SuperOffice.config file. These settings are not added by default when installing the Windows client, so they have to be added manually. [Read more in this blog][5].
 
+## FeatureToggles - Onsite Windows client
+
+Some features are enabled by "FeatureToggles".
+This is how you do it for the Onsite Windows client:
+
+Both [SOUSER.INI][6] and SuperOffice.config files for each client need to be updated.
+
+**How to update SuperOffice.config:**
+
+To enable toggled features - you need to add 2 sections manually in your web.config file:
+
+
+1. Open web.config file for your web installation
+2. There are 2 sections to include into the web.config
+
+    ***a) Under sectionGroup name="SuperOffice"***
+
+      Under ``` <configuration> -> <configSections> -> <sectionGroup name="SuperOffice"> ```
+
+      Section to add:
+      ```
+      <sectionGroup name="FeatureToggles">
+        <section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      </sectionGroup>
+      ```
+      _Original without the needed section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607241-bc958091-640c-4495-91ac-57cbb3bbed15.png)
+
+
+      _After added the new section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607385-7cb214e0-5f1d-42c8-812e-8903f7255921.png)
+
+    ***b) Under configuration -> SuperOffice***
+
+      Section to add:
+      ```
+      <FeatureToggles>
+        <State>
+          <add key="FeatureToggleName1" value="true" />
+          <add key="FeatureToggleName2" value="true" />
+        </State>
+      </FeatureToggles>
+      ```
+      Update the key name with the feature you want to add.
+      
+      You can see some of the previous FeatureToggle names here: https://docs.superoffice.com/onsite/config/web-config.html#feature-toggles
+  
+      _Original without the needed section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607443-f768f7dc-4cd2-4096-885d-b6c58854b893.png)
+  
+      _After added the new section:_
+      
+      ![image](https://user-images.githubusercontent.com/42037679/142607468-b76acbb6-5c51-4d36-944d-82c2fd2a4b88.png)
+  
+3. Save the file
+Restart the windows client.
+
 <!-- Referenced links -->
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
 [3]: ../debug/win-client.md
 [4]: ../command-line-switches.md
 [5]: ../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md
+[6]: https://docs.superoffice.com/onsite/config/souser-ini.html#FeatureToggles---Onsite-Windows-client
