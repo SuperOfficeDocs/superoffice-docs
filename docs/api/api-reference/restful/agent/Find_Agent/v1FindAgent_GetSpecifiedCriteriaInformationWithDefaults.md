@@ -1,9 +1,9 @@
 ---
-title: GetSpecifiedCriteriaInformationWithDefaults
+title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
 ---
 
-# GetSpecifiedCriteriaInformationWithDefaults
+# POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
@@ -85,20 +85,20 @@ Response body: object
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Ledner-Schimmel",
-  "StorageKey": "vel",
+  "StorageType": "ut",
+  "ProviderName": "Ernser, Kuphal and Torp",
+  "StorageKey": "consequuntur",
   "DesiredColumnNames": [
-    "Labadie-Heller",
-    "Mann-Weissnat"
+    "Lynch, Cummerata and Torp",
+    "Becker LLC"
   ],
   "StaticColumns": [
-    "sed",
-    "maxime"
+    "magni",
+    "debitis"
   ]
 }
 ```
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dickinson LLC",
-      "Operator": "debitis",
+      "Name": "Schiller, Stark and Hettinger",
+      "Operator": "repellat",
       "Values": [
-        "debitis",
-        "ad"
+        "repellendus",
+        "in"
       ],
       "DisplayValues": [
-        "optio",
-        "et"
+        "odit",
+        "accusantium"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -126,41 +126,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 236,
+      "InterParenthesis": 887,
       "InterOperator": "And",
-      "UniqueHash": 265
+      "UniqueHash": 81
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bergstrom-Huel",
-      "DisplayTooltip": "tempora",
-      "DisplayType": "saepe",
+      "DisplayName": "Rutherford, Kovacek and Lockman",
+      "DisplayTooltip": "mollitia",
+      "DisplayType": "minima",
       "CanOrderBy": true,
-      "Name": "Kozey LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Leuschke LLC",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "nostrum",
-      "IconHint": "nihil",
-      "HeadingIconHint": "id"
+      "Name": "Bailey, Lemke and Bins",
+      "CanRestrictBy": true,
+      "RestrictionType": "possimus",
+      "RestrictionListName": "McLaughlin-Green",
+      "IsVisible": false,
+      "ExtraInfo": "deleniti",
+      "Width": "consectetur",
+      "IconHint": "et",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hermann-Dare",
-      "PrimaryKey": 22,
+      "EntityName": "Nolan Inc and Sons",
+      "PrimaryKey": 309,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "et",
-          "LinkHint": "minus"
+          "DisplayValue": "atque",
+          "TooltipHint": "rerum",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "temporibus",
-      "StyleHint": "ipsam",
+      "LinkHint": "aliquam",
+      "StyleHint": "dignissimos",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 579
+          "FieldLength": 615
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Connelly-Boyle",
-      "Description": "Multi-lateral intangible portal",
-      "Rank": 218,
+      "Name": "Herzog Group",
+      "Description": "Pre-emptive exuding moratorium",
+      "Rank": 598,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Connelly-Boyle",
-      "Description": "Multi-lateral intangible portal",
-      "Rank": 218,
+      "Name": "Herzog Group",
+      "Description": "Pre-emptive exuding moratorium",
+      "Rank": 598,
       "Restrictions": [
         {},
         {}
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 604
     }
   }
 }

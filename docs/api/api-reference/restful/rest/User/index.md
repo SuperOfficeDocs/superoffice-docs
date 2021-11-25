@@ -2,8 +2,6 @@
 title: User
 ---
 
-# User
-
 ```http
 /api/v1/User
 ```

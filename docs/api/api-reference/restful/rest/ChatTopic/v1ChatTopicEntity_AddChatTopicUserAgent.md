@@ -80,27 +80,27 @@ Response body: object
 POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 371,
+  "TopicId": 886,
   "User": {
-    "AssociateId": 574,
-    "Name": "Renner Group",
-    "PersonId": 32,
-    "Rank": 253,
-    "Tooltip": "ducimus",
+    "AssociateId": 721,
+    "Name": "Murray, McCullough and Johnson",
+    "PersonId": 483,
+    "Rank": 274,
+    "Tooltip": "nobis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 690,
-    "FullName": "Palma Veum",
-    "FormalName": "Rodriguez, Konopelski and Ratke",
+    "GroupIdx": 875,
+    "FullName": "Alexandrea Jacobi",
+    "FormalName": "Zboncak Inc and Sons",
     "Deleted": true,
-    "EjUserId": 761,
-    "UserName": "Bayer-Schumm"
+    "EjUserId": 587,
+    "UserName": "Welch-Crooks"
   },
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": false,
   "CanNotify": true
 }
@@ -111,20 +111,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 45,
+  "TopicId": 884,
   "User": {
-    "AssociateId": 981,
-    "Name": "Lang-Veum",
-    "PersonId": 448,
-    "Rank": 985,
-    "Tooltip": "facere",
+    "AssociateId": 230,
+    "Name": "Hartmann, Von and Okuneva",
+    "PersonId": 898,
+    "Rank": 124,
+    "Tooltip": "id",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 978,
-    "FullName": "Justina Emmerich",
-    "FormalName": "Feeney Inc and Sons",
+    "GroupIdx": 755,
+    "FullName": "Breana Turcotte",
+    "FormalName": "Rogahn Group",
     "Deleted": false,
-    "EjUserId": 407,
-    "UserName": "Nader, McKenzie and Carter",
+    "EjUserId": 50,
+    "UserName": "Stanton Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 148
       }
     }
   },
   "CanListen": true,
-  "CanRespond": true,
+  "CanRespond": false,
   "CanManage": true,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Schiller-Romaguera",
-    "ToolTip": "Enim ut impedit qui perferendis quia.",
+    "Id": 333,
+    "Name": "Schowalter, Schuster and Deckow",
+    "ToolTip": "Dolor fugit ipsam ea necessitatibus quia est.",
     "Deleted": true,
-    "Rank": 430,
-    "Type": "laudantium",
-    "ColorBlock": 121,
-    "IconHint": "neque",
+    "Rank": 536,
+    "Type": "dolorem",
+    "ColorBlock": 588,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2015-08-07T15:05:43.7621169+02:00",
+    "LastChanged": "2004-02-28T18:25:52.1510217+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Johnston-Hammes",
-        "ToolTip": "Dolorem placeat occaecati.",
+        "Id": 181,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Magnam dolorem.",
         "Deleted": true,
-        "Rank": 383,
-        "Type": "aliquid",
-        "ColorBlock": 444,
-        "IconHint": "cumque",
+        "Rank": 136,
+        "Type": "ut",
+        "ColorBlock": 719,
+        "IconHint": "aperiam",
         "Selected": true,
-        "LastChanged": "2009-02-05T15:05:43.7621169+01:00",
+        "LastChanged": "2021-01-25T18:25:52.1510217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "quo",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Stanley Powlowski"
+        "FullName": "Thea Prohaska"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "earum",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "libero",
     "Hidden": true,
-    "FullName": "Maxine Johnson"
+    "FullName": "Erna Bernhard"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Schuster-Gottlieb",
-    "ToolTip": "Sit laboriosam autem et quam voluptas.",
+    "Id": 236,
+    "Name": "Stehr-Bode",
+    "ToolTip": "Culpa soluta optio dicta quidem.",
     "Deleted": false,
-    "Rank": 907,
-    "Type": "eos",
-    "ColorBlock": 542,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-10-21T15:05:43.7631202+02:00",
+    "Rank": 209,
+    "Type": "est",
+    "ColorBlock": 286,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "1997-09-22T18:25:52.1520191+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Johnston, Brown and Haley",
-        "ToolTip": "Incidunt reprehenderit.",
+        "Id": 131,
+        "Name": "Nitzsche Group",
+        "ToolTip": "Consequatur sed mollitia autem illum deleniti.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "aperiam",
-        "ColorBlock": 379,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2015-07-03T15:05:43.7631202+02:00",
+        "Rank": 965,
+        "Type": "veniam",
+        "ColorBlock": 426,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2016-01-16T18:25:52.1520191+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "ab",
+        "StyleHint": "delectus",
         "Hidden": true,
-        "FullName": "Mollie Steuber",
+        "FullName": "Cecilia Wisozk",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 479
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Trystan Conn",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Chadrick Goldner",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "matrix rich applications"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 116
       }
     }
   }

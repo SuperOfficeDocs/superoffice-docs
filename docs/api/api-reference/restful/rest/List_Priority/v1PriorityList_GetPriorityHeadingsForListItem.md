@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Hayes Group",
-    "ToolTip": "Ut voluptatem qui doloribus.",
+    "Id": 983,
+    "Name": "Abbott-Abshire",
+    "ToolTip": "Est optio.",
     "Deleted": true,
-    "Rank": 89,
-    "Type": "itaque",
-    "ColorBlock": 411,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2003-07-19T15:05:43.6010798+02:00",
+    "Rank": 180,
+    "Type": "et",
+    "ColorBlock": 417,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "1996-06-13T18:25:51.9862449+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Hansen, Hills and Runolfsson",
-        "ToolTip": "Est voluptatibus dolores.",
+        "Id": 760,
+        "Name": "Barton, Dooley and Wilderman",
+        "ToolTip": "Consequatur repellat eum explicabo dolorem atque a.",
         "Deleted": true,
-        "Rank": 379,
-        "Type": "est",
-        "ColorBlock": 305,
-        "IconHint": "laborum",
+        "Rank": 430,
+        "Type": "in",
+        "ColorBlock": 578,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2012-03-01T15:05:43.6010798+01:00",
+        "LastChanged": "2001-07-07T18:25:51.9862449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Lennie Yundt",
+        "ExtraInfo": "commodi",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Dillon Greenfelder",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldType": "System.Int32",
+            "FieldLength": 610
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "vero",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "debitis",
     "Hidden": true,
-    "FullName": "Federico Crooks",
+    "FullName": "Ms. Abelardo Daniel",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 43
       }
     }
   }

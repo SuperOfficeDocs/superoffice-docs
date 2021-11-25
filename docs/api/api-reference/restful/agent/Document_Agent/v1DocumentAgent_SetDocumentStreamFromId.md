@@ -1,9 +1,9 @@
 ---
-title: SetDocumentStreamFromId
+title: POST Agents/Document/SetDocumentStreamFromId
 id: v1DocumentAgent_SetDocumentStreamFromId
 ---
 
-# SetDocumentStreamFromId
+# POST Agents/Document/SetDocumentStreamFromId
 
 ```http
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
@@ -107,11 +107,11 @@ Response body: object
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 954,
+  "DocumentId": 340,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -121,20 +121,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 920,
+  "DocumentId": 522,
   "UpdatedBy": {
-    "AssociateId": 414,
-    "Name": "McGlynn LLC",
-    "PersonId": 458,
-    "Rank": 318,
-    "Tooltip": "id",
+    "AssociateId": 172,
+    "Name": "Kuhlman Inc and Sons",
+    "PersonId": 728,
+    "Rank": 484,
+    "Tooltip": "impedit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 912,
-    "FullName": "Theo Auer",
-    "FormalName": "Kunze Group",
-    "Deleted": false,
-    "EjUserId": 917,
-    "UserName": "Conn LLC",
+    "GroupIdx": 214,
+    "FullName": "Ulises O'Reilly",
+    "FormalName": "Hammes-Beer",
+    "Deleted": true,
+    "EjUserId": 166,
+    "UserName": "Herzog LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -143,23 +143,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 78
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 586,
-    "Name": "Mitchell-Stroman",
-    "PersonId": 753,
-    "Rank": 621,
-    "Tooltip": "qui",
+    "AssociateId": 226,
+    "Name": "Pouros, Moore and Altenwerth",
+    "PersonId": 953,
+    "Rank": 320,
+    "Tooltip": "fugiat",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 32,
-    "FullName": "Abe Abbott",
-    "FormalName": "Conroy, Koepp and Douglas",
-    "Deleted": false,
-    "EjUserId": 692,
-    "UserName": "West Group",
+    "GroupIdx": 303,
+    "FullName": "Alexander Hane",
+    "FormalName": "Lowe, Auer and Homenick",
+    "Deleted": true,
+    "EjUserId": 888,
+    "UserName": "Cruickshank Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -168,29 +168,29 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldLength": 487
       }
     }
   },
-  "Attention": "rerum",
-  "Header": "dolores",
-  "Name": "Berge Inc and Sons",
-  "OurRef": "officiis",
-  "YourRef": "beatae",
-  "CreatedDate": "1997-12-10T14:58:03.8614597+01:00",
-  "UpdatedDate": "2009-11-25T14:58:03.8614597+01:00",
-  "Description": "Focused 3rd generation product",
+  "Attention": "doloribus",
+  "Header": "sed",
+  "Name": "Harber, Zieme and Kuphal",
+  "OurRef": "eveniet",
+  "YourRef": "est",
+  "CreatedDate": "2014-10-03T18:28:48.7979565+02:00",
+  "UpdatedDate": "2013-09-06T18:28:48.7979565+02:00",
+  "Description": "Programmable solution-oriented projection",
   "DocumentTemplate": {
-    "DocumentTemplateId": 719,
-    "Name": "Russel Group",
-    "Tooltip": "quia",
-    "SaveInDb": 132,
-    "Filename": "modi",
-    "DefaultOref": "quos",
+    "DocumentTemplateId": 21,
+    "Name": "Considine Group",
+    "Tooltip": "aut",
+    "SaveInDb": 501,
+    "Filename": "perferendis",
+    "DefaultOref": "aut",
     "RecordType": "Appointment",
-    "Deleted": 227,
+    "Deleted": 728,
     "Direction": "Incoming",
-    "AutoeventId": 229,
+    "AutoeventId": 88,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -199,52 +199,112 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 834
       }
     }
   },
   "Person": {
-    "Position": "aut",
-    "PersonId": 817,
-    "Mrmrs": "minus",
-    "Firstname": "Rebekah",
-    "Lastname": "Strosin",
-    "MiddleName": "Howe-Harvey",
-    "Title": "in",
-    "Description": "Configurable client-driven capability",
-    "Email": "reggie@nikolaus.com",
-    "FullName": "Shemar Marks",
-    "DirectPhone": "(813)078-3648",
-    "FormalName": "Breitenberg-Buckridge",
-    "CountryId": 799,
-    "ContactId": 304,
-    "ContactName": "Grant-Torp",
-    "Retired": 891,
-    "Rank": 94,
-    "ActiveInterests": 74,
+    "Position": "non",
+    "PersonId": 443,
+    "Mrmrs": "dolorem",
+    "Firstname": "Amira",
+    "Lastname": "O'Keefe",
+    "MiddleName": "Monahan, Corkery and McDermott",
+    "Title": "suscipit",
+    "Description": "Focused stable core",
+    "Email": "lura.denesik@kingrosenbaum.co.uk",
+    "FullName": "Ignatius Watsica",
+    "DirectPhone": "(057)738-1471",
+    "FormalName": "Koelpin Inc and Sons",
+    "CountryId": 579,
+    "ContactId": 60,
+    "ContactName": "Pfeffer, Moore and Reinger",
+    "Retired": 433,
+    "Rank": 991,
+    "ActiveInterests": 850,
     "ContactDepartment": "",
-    "ContactCountryId": 561,
-    "ContactOrgNr": "1164714",
-    "FaxPhone": "1-735-048-0576",
-    "MobilePhone": "(244)035-2767",
-    "ContactPhone": "218-384-0854 x76080",
-    "AssociateName": "Hodkiewicz-Kerluke",
-    "AssociateId": 13,
-    "UsePersonAddress": true,
-    "ContactFax": "deserunt",
-    "Kanafname": "delectus",
-    "Kanalname": "eum",
-    "Post1": "rerum",
-    "Post2": "ipsam",
-    "Post3": "deleniti",
-    "EmailName": "adolphus@kshlerin.com",
-    "ContactFullName": "Lexie Muller",
-    "ActiveErpLinks": 961,
-    "TicketPriorityId": 114,
-    "SupportLanguageId": 617,
-    "SupportAssociateId": 451,
+    "ContactCountryId": 820,
+    "ContactOrgNr": "290419",
+    "FaxPhone": "1-263-031-5803",
+    "MobilePhone": "031.335.5708 x3833",
+    "ContactPhone": "1-401-185-2676 x4053",
+    "AssociateName": "O'Reilly-Bayer",
+    "AssociateId": 514,
+    "UsePersonAddress": false,
+    "ContactFax": "reprehenderit",
+    "Kanafname": "quidem",
+    "Kanalname": "et",
+    "Post1": "laboriosam",
+    "Post2": "ea",
+    "Post3": "debitis",
+    "EmailName": "margie@morissette.name",
+    "ContactFullName": "Carmen Rogahn",
+    "ActiveErpLinks": 667,
+    "TicketPriorityId": 307,
+    "SupportLanguageId": 634,
+    "SupportAssociateId": 932,
     "CategoryName": "VIP Customer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 468
+      }
+    }
+  },
+  "Associate": {
+    "AssociateId": 262,
+    "Name": "Homenick-Kling",
+    "PersonId": 781,
+    "Rank": 323,
+    "Tooltip": "odio",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 211,
+    "FullName": "Earnest Dooley",
+    "FormalName": "Bartoletti Group",
+    "Deleted": true,
+    "EjUserId": 392,
+    "UserName": "Reinger, Bednar and Volkman",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "scale next-generation models"
+        },
+        "FieldType": "System.String",
+        "FieldLength": 6
+      }
+    }
+  },
+  "Contact": {
+    "ContactId": 529,
+    "Name": "Dicki-Smith",
+    "OrgNr": "749502",
+    "Department": "",
+    "URL": "http://www.example.com/",
+    "City": "error",
+    "DirectPhone": "(330)065-7432 x74106",
+    "AssociateId": 413,
+    "CountryId": 347,
+    "EmailAddress": "dejah@watsica.uk",
+    "Kananame": "qui",
+    "EmailAddressName": "isabell_casper@heidenreichterry.uk",
+    "URLName": "http://www.example.com/",
+    "AssociateFullName": "Francisca Yost",
+    "BusinessName": "Information Technology",
+    "CategoryName": "VIP Customer",
+    "CountryName": "Sokovia",
+    "Address": {},
+    "FormattedAddress": "qui",
+    "FullName": "Savannah Grimes",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 674,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -253,89 +313,29 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 362
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 232,
-    "Name": "Kilback, Prohaska and Hettinger",
-    "PersonId": 908,
-    "Rank": 636,
-    "Tooltip": "rerum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 613,
-    "FullName": "Gaylord Labadie",
-    "FormalName": "Hickle LLC",
-    "Deleted": true,
-    "EjUserId": 67,
-    "UserName": "McGlynn, Gleason and Feeney",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 978
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 480,
-    "Name": "Langworth, Kutch and Williamson",
-    "OrgNr": "296988",
-    "Department": "brand turn-key users",
-    "URL": "http://www.example.com/",
-    "City": "odit",
-    "DirectPhone": "1-810-212-4720 x332",
-    "AssociateId": 774,
-    "CountryId": 965,
-    "EmailAddress": "trudie.langworth@crona.ca",
-    "Kananame": "qui",
-    "EmailAddressName": "everett@rempel.name",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Lyda Bayer",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "amet",
-    "FullName": "Leatha Lebsack MD",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 462,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 159
       }
     }
   },
   "Project": {
-    "ProjectId": 202,
-    "Name": "Powlowski, Konopelski and Huel",
-    "Description": "Devolved explicit forecast",
+    "ProjectId": 61,
+    "Name": "Schinner Inc and Sons",
+    "Description": "Ergonomic systematic time-frame",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 669,
-    "AssociateFullName": "Caesar Brekke",
-    "TypeId": 3,
-    "Updated": "2007-06-13T14:58:03.9074313+02:00",
-    "StatusId": 438,
-    "Status": "in",
-    "TextId": 945,
-    "PublishTo": "2018-04-03T14:58:03.9074313+02:00",
-    "PublishFrom": "1996-07-21T14:58:03.9074313+02:00",
-    "IsPublished": false,
+    "Type": "illo",
+    "AssociateId": 636,
+    "AssociateFullName": "Sarai Zboncak",
+    "TypeId": 433,
+    "Updated": "1995-09-14T18:28:48.8019515+02:00",
+    "StatusId": 277,
+    "Status": "dignissimos",
+    "TextId": 616,
+    "PublishTo": "2004-09-19T18:28:48.8019515+02:00",
+    "PublishFrom": "2010-07-02T18:28:48.8019515+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "872790",
-    "ActiveErpLinks": 914,
+    "ProjectNumber": "905270",
+    "ActiveErpLinks": 752,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -344,22 +344,97 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldLength": 270
       }
     }
   },
-  "Date": "2009-01-19T14:58:03.9074313+01:00",
-  "ExternalRef": "id",
+  "Date": "2004-06-23T18:28:48.8019515+02:00",
+  "ExternalRef": "eos",
   "Completed": "Completed",
-  "ActiveLinks": 144,
+  "ActiveLinks": 441,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Corwin Inc and Sons",
-      "Id": 785,
-      "Description": "Universal discrete database",
-      "ExtraInfo": "occaecati",
-      "LinkId": 382,
+      "EntityName": "Hane-Flatley",
+      "Id": 101,
+      "Description": "Ameliorated interactive standardization",
+      "ExtraInfo": "aliquid",
+      "LinkId": 996,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 341
+        }
+      }
+    }
+  ],
+  "LockSemantics": "Locking",
+  "Sale": {
+    "ContactName": "Russel, Johnson and Nienow",
+    "SaleDate": "2001-08-05T18:28:48.8019515+02:00",
+    "SaleId": 646,
+    "Probability": 770,
+    "Title": "ut",
+    "Amount": 17356.092,
+    "Currency": "quia",
+    "ProjectName": "Johns-Jenkins",
+    "AssociateFullName": "Emerald Lockman",
+    "Description": "Automated leading edge throughput",
+    "Status": "Lost",
+    "WeightedAmount": 10749.619999999999,
+    "ProjectId": 594,
+    "EarningPercent": 2864.476,
+    "Earning": 17302.814,
+    "ContactId": 108,
+    "AssociateId": 77,
+    "PersonId": 486,
+    "SaleTypeId": 170,
+    "SaleTypeName": "Huels Inc and Sons",
+    "PersonFullName": "Maxine Kilback MD",
+    "Completed": "Completed",
+    "ActiveErpLinks": 699,
+    "NextDueDate": "2001-07-31T18:28:48.8029296+02:00",
+    "Number": "636575",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 216
+      }
+    }
+  },
+  "SuggestedDocumentId": 382,
+  "Snum": 890,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Adelia Hyatt",
+    "SuperOffice:2": "Hildegard Simonis"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "eligendi"
+  },
+  "CustomFields": {
+    "CustomFields1": "autem",
+    "CustomFields2": "fuga"
+  },
+  "PublishEventDate": "2021-04-13T18:28:48.8049283+02:00",
+  "PublishTo": "2014-08-12T18:28:48.8049283+02:00",
+  "PublishFrom": "2002-03-25T18:28:48.8049283+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 15,
+      "Visibility": "All",
+      "DisplayValue": "corporis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -368,89 +443,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 189
-        }
-      }
-    }
-  ],
-  "LockSemantics": "Locking",
-  "Sale": {
-    "ContactName": "Dietrich Group",
-    "SaleDate": "2011-03-22T14:58:03.9084608+01:00",
-    "SaleId": 285,
-    "Probability": 317,
-    "Title": "aliquid",
-    "Amount": 15083.942,
-    "Currency": "et",
-    "ProjectName": "Shanahan-Carroll",
-    "AssociateFullName": "Conner Lubowitz",
-    "Description": "Versatile zero tolerance infrastructure",
-    "Status": "Lost",
-    "WeightedAmount": 25604.78,
-    "ProjectId": 620,
-    "EarningPercent": 962.13799999999992,
-    "Earning": 25958.922,
-    "ContactId": 666,
-    "AssociateId": 961,
-    "PersonId": 238,
-    "SaleTypeId": 738,
-    "SaleTypeName": "Yundt-Stoltenberg",
-    "PersonFullName": "Tyler Halvorson",
-    "Completed": "Completed",
-    "ActiveErpLinks": 763,
-    "NextDueDate": "2015-11-12T14:58:03.9084608+01:00",
-    "Number": "1549505",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 14
-      }
-    }
-  },
-  "SuggestedDocumentId": 48,
-  "Snum": 828,
-  "UserDefinedFields": {
-    "SuperOffice:1": "926097628",
-    "SuperOffice:2": "Issac O'Conner"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "in"
-  },
-  "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "ex"
-  },
-  "PublishEventDate": "2002-06-01T14:58:03.9084608+02:00",
-  "PublishTo": "2004-11-02T14:58:03.9084608+01:00",
-  "PublishFrom": "2020-12-30T14:58:03.9084608+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 6,
-      "Visibility": "All",
-      "DisplayValue": "et",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 799
         }
       }
     },
     {
-      "VisibleId": 6,
+      "VisibleId": 15,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "corporis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -458,8 +458,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     }
@@ -474,8 +474,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 224
     }
   }
 }

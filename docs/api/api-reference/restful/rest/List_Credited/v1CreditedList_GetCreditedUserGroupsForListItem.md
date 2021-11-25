@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Dietrich-Brakus",
-    "ToolTip": "Architecto praesentium est atque nulla.",
+    "Id": 6,
+    "Name": "Wisozk-Hartmann",
+    "ToolTip": "Quam facilis.",
     "Deleted": false,
-    "Rank": 406,
-    "Type": "aspernatur",
-    "ColorBlock": 505,
-    "IconHint": "repellendus",
+    "Rank": 281,
+    "Type": "nam",
+    "ColorBlock": 863,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2007-01-03T15:05:43.3875101+01:00",
+    "LastChanged": "2019-07-22T18:25:51.7663254+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Wyman, Kovacek and Rolfson",
-        "ToolTip": "Cum qui dolorem.",
-        "Deleted": false,
-        "Rank": 424,
-        "Type": "voluptatem",
-        "ColorBlock": 512,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "1999-02-02T15:05:43.3875101+01:00",
+        "Id": 563,
+        "Name": "Blick-VonRueden",
+        "ToolTip": "Dolorem aliquam.",
+        "Deleted": true,
+        "Rank": 708,
+        "Type": "at",
+        "ColorBlock": 137,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2020-12-07T18:25:51.7663254+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Bettye Doyle",
+        "ExtraInfo": "qui",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Carissa Cruickshank",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldType": "System.String",
+            "FieldLength": 822
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Scot Conn",
+    "ExtraInfo": "rerum",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Miss Tyrese Mitchell",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "generate best-of-breed systems"
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldLength": 509
       }
     }
   }

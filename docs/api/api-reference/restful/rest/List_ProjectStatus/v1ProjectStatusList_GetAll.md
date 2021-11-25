@@ -24,7 +24,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
 ```
 
 
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Halvorson, Jakubowski and Oberbrunner",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "UdListDefinitionId": 657,
-    "Rank": 471,
+    "Id": 606,
+    "Name": "Bartoletti Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 226,
+    "Rank": 94,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "benchmark transparent markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 681
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   }

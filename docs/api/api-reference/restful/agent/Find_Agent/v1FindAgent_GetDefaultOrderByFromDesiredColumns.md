@@ -1,9 +1,9 @@
 ---
-title: GetDefaultOrderByFromDesiredColumns
+title: POST Agents/Find/GetDefaultOrderByFromDesiredColumns
 id: v1FindAgent_GetDefaultOrderByFromDesiredColumns
 ---
 
-# GetDefaultOrderByFromDesiredColumns
+# POST Agents/Find/GetDefaultOrderByFromDesiredColumns
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ledner LLC",
+  "ProviderName": "Treutel Group",
   "DesiredColumns": [
-    "qui",
-    "neque"
+    "iusto",
+    "distinctio"
   ]
 }
 ```
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke-Rolfson",
+    "Name": "Price-Kulas",
     "Direction": "ASC"
   },
   {
-    "Name": "Bradtke-Rolfson",
+    "Name": "Price-Kulas",
     "Direction": "ASC"
   }
 ]

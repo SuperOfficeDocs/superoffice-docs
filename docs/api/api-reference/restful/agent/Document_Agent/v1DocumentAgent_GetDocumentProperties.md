@@ -1,9 +1,9 @@
 ---
-title: GetDocumentProperties
+title: POST Agents/Document/GetDocumentProperties
 id: v1DocumentAgent_GetDocumentProperties
 ---
 
-# GetDocumentProperties
+# POST Agents/Document/GetDocumentProperties
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentProperties
@@ -69,14 +69,14 @@ Response body: object
 POST /api/v1/Agents/Document/GetDocumentProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 680,
+  "DocumentId": 32,
   "RequestedProperties": [
-    "explicabo",
-    "qui"
+    "quia",
+    "et"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ratione",
-  "2": "adipisci"
+  "1": "sapiente",
+  "2": "magni"
 }
 ```

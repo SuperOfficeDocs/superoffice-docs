@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Funk LLC",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 369,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 643,
+  "Name": "White-West",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "Rank": 484,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "similique",
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   },
   "_Links": {

@@ -2,8 +2,6 @@
 title: List_Competitor
 ---
 
-# List_Competitor
-
 ```http
 /api/v1/List/Competitor
 ```

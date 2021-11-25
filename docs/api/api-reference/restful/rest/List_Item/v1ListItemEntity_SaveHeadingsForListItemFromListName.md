@@ -96,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Runte-Mertz",
-    "ToolTip": "Eius voluptatibus vel commodi.",
-    "Deleted": false,
-    "Rank": 775,
-    "Type": "quis",
-    "ColorBlock": 543,
+    "Id": 43,
+    "Name": "Hyatt Group",
+    "ToolTip": "Ad quaerat ut et.",
+    "Deleted": true,
+    "Rank": 319,
+    "Type": "commodi",
+    "ColorBlock": 703,
     "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2014-08-28T15:05:43.2228992+02:00",
+    "LastChanged": "2015-07-16T18:25:51.5912945+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Runolfsson, Lang and Kunze",
-        "ToolTip": "Quod voluptatibus debitis voluptas vel aut.",
-        "Deleted": true,
-        "Rank": 301,
-        "Type": "ut",
-        "ColorBlock": 893,
-        "IconHint": "molestiae",
+        "Id": 192,
+        "Name": "Wiegand, Rippin and Green",
+        "ToolTip": "Accusantium earum non vero error.",
+        "Deleted": false,
+        "Rank": 860,
+        "Type": "deleniti",
+        "ColorBlock": 323,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2017-07-06T15:05:43.2228992+02:00",
+        "LastChanged": "1997-02-13T18:25:51.5912945+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Margie Conn"
+        "ExtraInfo": "labore",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Russ Kub"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "quod",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Rafaela Mosciski"
+    "FullName": "Millie Abshire"
   }
 ]
 ```
@@ -147,36 +147,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Rowe-Franecki",
-    "ToolTip": "Cupiditate esse temporibus adipisci.",
-    "Deleted": false,
-    "Rank": 93,
-    "Type": "magnam",
-    "ColorBlock": 329,
-    "IconHint": "corrupti",
+    "Id": 770,
+    "Name": "Hansen, Koch and Osinski",
+    "ToolTip": "Nesciunt reiciendis.",
+    "Deleted": true,
+    "Rank": 900,
+    "Type": "qui",
+    "ColorBlock": 586,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2015-09-28T15:05:43.2239037+02:00",
+    "LastChanged": "2007-03-20T18:25:51.5932943+01:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Hane, Metz and Roob",
-        "ToolTip": "Sit omnis voluptatem quasi.",
-        "Deleted": false,
-        "Rank": 787,
-        "Type": "aut",
-        "ColorBlock": 994,
-        "IconHint": "et",
+        "Id": 451,
+        "Name": "Tillman-Schaefer",
+        "ToolTip": "Deserunt id provident quibusdam.",
+        "Deleted": true,
+        "Rank": 486,
+        "Type": "similique",
+        "ColorBlock": 267,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2018-09-01T15:05:43.2239037+02:00",
+        "LastChanged": "2016-08-20T18:25:51.5942944+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Cordia Gutmann II",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Hailee Crona",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,16 +184,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Maudie Gleason",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Dino Pollich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldLength": 68
       }
     }
   }

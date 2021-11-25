@@ -1,9 +1,9 @@
 ---
-title: SetBaseTimeZoneId
+title: POST Agents/TimeZone/SetBaseTimeZoneId
 id: v1TimeZoneAgent_SetBaseTimeZoneId
 ---
 
-# SetBaseTimeZoneId
+# POST Agents/TimeZone/SetBaseTimeZoneId
 
 ```http
 POST /api/v1/Agents/TimeZone/SetBaseTimeZoneId
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneId": 83
+  "TimezoneId": 319
 }
 ```
 

@@ -96,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Carroll LLC",
-    "ToolTip": "Voluptatem voluptatem perspiciatis modi.",
+    "Id": 938,
+    "Name": "O'Reilly, Lubowitz and Kerluke",
+    "ToolTip": "Mollitia quo consequatur libero harum non.",
     "Deleted": true,
-    "Rank": 526,
-    "Type": "vitae",
-    "ColorBlock": 327,
-    "IconHint": "a",
+    "Rank": 837,
+    "Type": "adipisci",
+    "ColorBlock": 828,
+    "IconHint": "quasi",
     "Selected": true,
-    "LastChanged": "1998-06-09T15:05:43.2138996+02:00",
+    "LastChanged": "2001-05-26T18:25:51.5832948+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Pagac-Glover",
-        "ToolTip": "Corporis aut non.",
+        "Id": 387,
+        "Name": "Hermann Inc and Sons",
+        "ToolTip": "Totam nulla velit suscipit nam exercitationem odio.",
         "Deleted": false,
-        "Rank": 657,
-        "Type": "mollitia",
-        "ColorBlock": 257,
-        "IconHint": "itaque",
+        "Rank": 898,
+        "Type": "odio",
+        "ColorBlock": 516,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2019-02-11T15:05:43.2138996+01:00",
+        "LastChanged": "2006-11-02T18:25:51.5832948+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "ea",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Catharine Runolfsson"
+        "FullName": "Anderson Ward"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "illo",
+    "StyleHint": "accusantium",
     "Hidden": true,
-    "FullName": "Bettye Smitham III"
+    "FullName": "Jacinthe Hackett"
   }
 ]
 ```
@@ -147,36 +147,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Schuster-McDermott",
-    "ToolTip": "Dolores veritatis culpa veniam ea.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "dicta",
-    "ColorBlock": 483,
-    "IconHint": "minus",
+    "Id": 389,
+    "Name": "Wiegand, Hagenes and VonRueden",
+    "ToolTip": "Provident deleniti excepturi consectetur nemo.",
+    "Deleted": false,
+    "Rank": 558,
+    "Type": "aut",
+    "ColorBlock": 373,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "1996-04-18T15:05:43.2159008+02:00",
+    "LastChanged": "2008-01-13T18:25:51.5842949+01:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Rosenbaum, Crooks and Flatley",
-        "ToolTip": "Itaque maiores quis ullam assumenda.",
+        "Id": 530,
+        "Name": "Rau-Kautzer",
+        "ToolTip": "Aliquam quidem et praesentium.",
         "Deleted": true,
-        "Rank": 53,
-        "Type": "ullam",
-        "ColorBlock": 495,
-        "IconHint": "tempore",
+        "Rank": 697,
+        "Type": "aperiam",
+        "ColorBlock": 69,
+        "IconHint": "praesentium",
         "Selected": true,
-        "LastChanged": "2015-08-19T15:05:43.2159008+02:00",
+        "LastChanged": "2010-09-27T18:25:51.5842949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "alias",
         "Hidden": true,
-        "FullName": "Hazle Runte",
+        "FullName": "Johnnie Gottlieb",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,16 +184,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "non",
+    "ExtraInfo": "modi",
+    "StyleHint": "iste",
     "Hidden": true,
-    "FullName": "Kody Abshire MD",
+    "FullName": "D'angelo Larson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 99
       }
     }
   }

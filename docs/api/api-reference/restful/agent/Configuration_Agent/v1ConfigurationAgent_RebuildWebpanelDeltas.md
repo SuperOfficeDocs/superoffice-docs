@@ -1,9 +1,9 @@
 ---
-title: RebuildWebpanelDeltas
+title: POST Agents/Configuration/RebuildWebpanelDeltas
 id: v1ConfigurationAgent_RebuildWebpanelDeltas
 ---
 
-# RebuildWebpanelDeltas
+# POST Agents/Configuration/RebuildWebpanelDeltas
 
 ```http
 POST /api/v1/Agents/Configuration/RebuildWebpanelDeltas

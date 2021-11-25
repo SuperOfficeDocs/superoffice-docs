@@ -1,9 +1,9 @@
 ---
-title: GetProjectMembersById
+title: POST Agents/Project/GetProjectMembersById
 id: v1ProjectAgent_GetProjectMembersById
 ---
 
-# GetProjectMembersById
+# POST Agents/Project/GetProjectMembersById
 
 ```http
 POST /api/v1/Agents/Project/GetProjectMembersById
@@ -93,13 +93,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    92,
-    76
+    796,
+    60
   ]
 }
 ```
@@ -110,27 +110,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 666,
-    "ContactId": 943,
-    "ProjectId": 85,
-    "ContactName": "Lynch, Jones and Wolf",
+    "ProjectmemberId": 427,
+    "ContactId": 14,
+    "ProjectId": 288,
+    "ContactName": "Rutherford-Crist",
     "ContactDepartment": "",
-    "ProjectName": "Adams, Lynch and Wilderman",
-    "EmailId": 460,
-    "EmailAddress": "raymundo@maggiolarkin.co.uk",
-    "CountryId": 282,
-    "Firstname": "Sandra",
-    "MiddleName": "Walker-Quitzon",
-    "Lastname": "Kris",
-    "PersonId": 952,
-    "Mrmrs": "praesentium",
-    "ProjectMemberTypeName": "Klocko, Mayert and Douglas",
-    "Phone": "(845)465-0460",
-    "PhoneId": 684,
-    "ProjectMemberTypeId": 109,
-    "EmailAddressName": "hubert.strosin@hills.ca",
-    "Comment": "provident",
-    "FullName": "Mr. Garnett Hegmann",
+    "ProjectName": "Leffler Group",
+    "EmailId": 809,
+    "EmailAddress": "carmela@hillljones.name",
+    "CountryId": 63,
+    "Firstname": "Dessie",
+    "MiddleName": "Mann Inc and Sons",
+    "Lastname": "Hirthe",
+    "PersonId": 712,
+    "Mrmrs": "molestiae",
+    "ProjectMemberTypeName": "Skiles-Reinger",
+    "Phone": "463.765.2833",
+    "PhoneId": 804,
+    "ProjectMemberTypeId": 607,
+    "EmailAddressName": "domenica@feeneyhessel.com",
+    "Comment": "dolorum",
+    "FullName": "Ken Kshlerin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldLength": 544
       }
     }
   }

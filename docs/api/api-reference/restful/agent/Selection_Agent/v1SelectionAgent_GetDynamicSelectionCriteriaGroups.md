@@ -1,9 +1,9 @@
 ---
-title: GetDynamicSelectionCriteriaGroups
+title: POST Agents/Selection/GetDynamicSelectionCriteriaGroups
 id: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
 ---
 
-# GetDynamicSelectionCriteriaGroups
+# POST Agents/Selection/GetDynamicSelectionCriteriaGroups
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -74,11 +74,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 911
+  "SelectionId": 501
 }
 ```
 
@@ -88,20 +88,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolf, Romaguera and Koelpin",
-    "Description": "Multi-layered executive time-frame",
-    "Rank": 844,
+    "Name": "Koepp Inc and Sons",
+    "Description": "Organic heuristic flexibility",
+    "Rank": 221,
     "Restrictions": [
       {
-        "Name": "Abernathy LLC",
-        "Operator": "quas",
+        "Name": "Spinka Group",
+        "Operator": "debitis",
         "Values": [
-          "nobis",
-          "beatae"
+          "non",
+          "est"
         ],
         "DisplayValues": [
-          "ut",
-          "ea"
+          "autem",
+          "dolor"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 54,
+        "InterParenthesis": 985,
         "InterOperator": "And",
-        "UniqueHash": 837
+        "UniqueHash": 656
       }
     ]
   },
   {
-    "Name": "Wolf, Romaguera and Koelpin",
-    "Description": "Multi-layered executive time-frame",
-    "Rank": 844,
+    "Name": "Koepp Inc and Sons",
+    "Description": "Organic heuristic flexibility",
+    "Rank": 221,
     "Restrictions": [
       {
-        "Name": "Abernathy LLC",
-        "Operator": "quas",
+        "Name": "Spinka Group",
+        "Operator": "debitis",
         "Values": [
-          "nobis",
-          "beatae"
+          "non",
+          "est"
         ],
         "DisplayValues": [
-          "ut",
-          "ea"
+          "autem",
+          "dolor"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -137,9 +137,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 54,
+        "InterParenthesis": 985,
         "InterOperator": "And",
-        "UniqueHash": 837
+        "UniqueHash": 656
       }
     ]
   }

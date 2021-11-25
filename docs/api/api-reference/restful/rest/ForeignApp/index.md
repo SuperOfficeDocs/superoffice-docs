@@ -2,8 +2,6 @@
 title: ForeignApp
 ---
 
-# ForeignApp
-
 ```http
 /api/v1/ForeignApp
 ```

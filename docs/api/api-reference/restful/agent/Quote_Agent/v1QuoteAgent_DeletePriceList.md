@@ -1,9 +1,9 @@
 ---
-title: DeletePriceList
+title: POST Agents/Quote/DeletePriceList
 id: v1QuoteAgent_DeletePriceList
 ---
 
-# DeletePriceList
+# POST Agents/Quote/DeletePriceList
 
 ```http
 POST /api/v1/Agents/Quote/DeletePriceList
@@ -24,7 +24,7 @@ Deletes the PriceList
 | PriceListId | int32 | **Required** The id of the PriceList to be deleted. |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?PriceListId=122
+POST /api/v1/Agents/Quote/DeletePriceList?PriceListId=1000
 ```
 
 

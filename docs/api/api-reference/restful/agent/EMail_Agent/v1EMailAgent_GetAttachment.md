@@ -1,9 +1,9 @@
 ---
-title: GetAttachment
+title: POST Agents/EMail/GetAttachment
 id: v1EMailAgent_GetAttachment
 ---
 
-# GetAttachment
+# POST Agents/EMail/GetAttachment
 
 ```http
 POST /api/v1/Agents/EMail/GetAttachment
@@ -89,19 +89,19 @@ Response body: object
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Ziemann-Kemmer",
-    "UserName": "Batz, Emmerich and Prosacco",
-    "Password": "magnam",
-    "Folder": "voluptas",
+    "ServerName": "Rowe LLC",
+    "UserName": "Durgan LLC",
+    "Password": "dolores",
+    "Folder": "repellendus",
     "UseSSL": false
   },
-  "MessageServerId": 139,
-  "AttachmentId": "delectus"
+  "MessageServerId": 899,
+  "AttachmentId": "dolores"
 }
 ```
 
@@ -110,17 +110,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral asynchronous algorithm",
-  "Filename": "neque",
-  "Size": 445,
-  "Type": "sapiente",
-  "Encoding": "dolore",
-  "Id": "aut",
-  "Disposition": "impedit",
+  "Description": "Expanded zero tolerance orchestration",
+  "Filename": "in",
+  "Size": 221,
+  "Type": "et",
+  "Encoding": "aspernatur",
+  "Id": "est",
+  "Disposition": "aut",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "innovate bleeding-edge schemas"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldLength": 827
     }
   }
 }

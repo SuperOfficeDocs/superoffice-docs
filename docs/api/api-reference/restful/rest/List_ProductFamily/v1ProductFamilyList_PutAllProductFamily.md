@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Nitzsche, Mante and Hilll",
+    "Id": 619,
+    "Name": "Wilkinson Group",
     "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 945
+    "Deleted": false,
+    "UdListDefinitionId": 327,
+    "Rank": 842
   },
   {
-    "Id": 782,
-    "Name": "Nitzsche, Mante and Hilll",
+    "Id": 619,
+    "Name": "Wilkinson Group",
     "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 945
+    "Deleted": false,
+    "UdListDefinitionId": 327,
+    "Rank": 842
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Klocko-Block",
-    "Tooltip": "nam",
+    "Id": 118,
+    "Name": "Johnson-Botsford",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "UdListDefinitionId": 832,
-    "Rank": 383,
+    "UdListDefinitionId": 324,
+    "Rank": 900,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

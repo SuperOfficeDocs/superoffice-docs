@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTaskListItem
+title: POST Agents/Appointment/CreateDefaultTaskListItem
 id: v1AppointmentAgent_CreateDefaultTaskListItem
 ---
 
-# CreateDefaultTaskListItem
+# POST Agents/Appointment/CreateDefaultTaskListItem
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
@@ -67,7 +67,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 961,
-  "Value": "est",
+  "TaskListItemId": 985,
+  "Value": "itaque",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
+  "Tooltip": "ea",
   "Deleted": false,
-  "IntentId": 113,
-  "Rank": 55,
+  "IntentId": 312,
+  "Rank": 897,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": {
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 541
     }
   }
 }

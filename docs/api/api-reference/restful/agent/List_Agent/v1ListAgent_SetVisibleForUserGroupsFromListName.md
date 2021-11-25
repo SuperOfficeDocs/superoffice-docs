@@ -1,9 +1,9 @@
 ---
-title: SetVisibleForUserGroupsFromListName
+title: POST Agents/List/SetVisibleForUserGroupsFromListName
 id: v1ListAgent_SetVisibleForUserGroupsFromListName
 ---
 
-# SetVisibleForUserGroupsFromListName
+# POST Agents/List/SetVisibleForUserGroupsFromListName
 
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hand-Greenfelder",
-  "ListItemId": 87,
+  "UdListDefinitionName": "Jacobs-Rohan",
+  "ListItemId": 414,
   "UserGroups": [
     {
-      "Id": 272,
-      "Name": "Smith Inc and Sons",
-      "ToolTip": "Qui quia rem ratione sit autem.",
-      "Deleted": true,
-      "Rank": 651,
-      "Type": "ipsum",
-      "ColorBlock": 500,
-      "IconHint": "quasi",
-      "Selected": false,
-      "LastChanged": "2010-04-01T14:58:04.4164652+02:00",
+      "Id": 278,
+      "Name": "Cartwright Group",
+      "ToolTip": "Vero quisquam aliquid veritatis ut.",
+      "Deleted": false,
+      "Rank": 560,
+      "Type": "porro",
+      "ColorBlock": 199,
+      "IconHint": "quia",
+      "Selected": true,
+      "LastChanged": "2003-05-26T18:28:49.3101182+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellat",
-      "StyleHint": "vitae",
-      "Hidden": false,
-      "FullName": "Dennis Altenwerth"
+      "ExtraInfo": "soluta",
+      "StyleHint": "nihil",
+      "Hidden": true,
+      "FullName": "Darby Monahan"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Purdy, Wehner and Wiza",
-    "ToolTip": "Maiores animi tempora itaque nisi ut quasi.",
+    "Id": 595,
+    "Name": "Metz-Terry",
+    "ToolTip": "Aliquid voluptate.",
     "Deleted": false,
-    "Rank": 158,
-    "Type": "dolorem",
-    "ColorBlock": 34,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2003-05-06T14:58:04.4174655+02:00",
+    "Rank": 799,
+    "Type": "earum",
+    "ColorBlock": 555,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2008-04-25T18:28:49.3131223+02:00",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Welch Group",
-        "ToolTip": "Qui dolore.",
-        "Deleted": true,
-        "Rank": 211,
-        "Type": "eveniet",
-        "ColorBlock": 737,
-        "IconHint": "impedit",
+        "Id": 82,
+        "Name": "Walter-Labadie",
+        "ToolTip": "Dicta rem qui aliquam.",
+        "Deleted": false,
+        "Rank": 912,
+        "Type": "non",
+        "ColorBlock": 969,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2007-09-26T14:58:04.4174655+02:00",
+        "LastChanged": "2006-11-02T18:28:49.3131223+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "id",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Charlie Weimann DVM",
+        "FullName": "Mrs. Laurianne Bailey",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -163,16 +163,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldType": "System.Int32",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Keenan Ziemann",
+    "ExtraInfo": "iure",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Nestor Muller",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

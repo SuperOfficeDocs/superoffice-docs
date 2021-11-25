@@ -1,9 +1,9 @@
 ---
-title: SaveProjectEntity
+title: POST Agents/Project/SaveProjectEntity
 id: v1ProjectAgent_SaveProjectEntity
 ---
 
-# SaveProjectEntity
+# POST Agents/Project/SaveProjectEntity
 
 ```http
 POST /api/v1/Agents/Project/SaveProjectEntity
@@ -128,147 +128,147 @@ Response body: object
 POST /api/v1/Agents/Project/SaveProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 398,
-  "Name": "Grady Inc and Sons",
-  "ProjectNumber": "670695",
+  "ProjectId": 250,
+  "Name": "Terry, Mueller and Balistreri",
+  "ProjectNumber": "351267",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 189,
-      "ContactId": 579,
-      "ProjectId": 385,
-      "ContactName": "Stamm-Gulgowski",
+      "ProjectmemberId": 323,
+      "ContactId": 558,
+      "ProjectId": 548,
+      "ContactName": "Dibbert, Batz and Zemlak",
       "ContactDepartment": "",
-      "ProjectName": "Eichmann, Leannon and Hettinger",
-      "EmailId": 74,
-      "EmailAddress": "cloyd@metzlynch.ca",
-      "CountryId": 698,
-      "Firstname": "Colleen",
-      "MiddleName": "Schinner Group",
-      "Lastname": "Hyatt",
-      "PersonId": 27,
-      "Mrmrs": "delectus",
-      "ProjectMemberTypeName": "Gulgowski-Boehm",
-      "Phone": "024.271.4450 x1752",
-      "PhoneId": 648,
-      "ProjectMemberTypeId": 97,
-      "EmailAddressName": "kathlyn@pfannerstill.us",
-      "Comment": "reprehenderit",
-      "FullName": "Woodrow Lebsack"
+      "ProjectName": "Kuhlman LLC",
+      "EmailId": 984,
+      "EmailAddress": "eldridge@wisokymclaughlin.com",
+      "CountryId": 97,
+      "Firstname": "Emil",
+      "MiddleName": "Schuster Group",
+      "Lastname": "Bergnaum",
+      "PersonId": 771,
+      "Mrmrs": "dolorem",
+      "ProjectMemberTypeName": "Gibson-Mante",
+      "Phone": "725.267.2841",
+      "PhoneId": 571,
+      "ProjectMemberTypeId": 382,
+      "EmailAddressName": "darian@rau.info",
+      "Comment": "quis",
+      "FullName": "Tomasa Abshire"
     }
   ],
   "Urls": [
     {
-      "Value": "suscipit",
-      "StrippedValue": "error",
-      "Description": "Customer-focused real-time focus group"
+      "Value": "et",
+      "StrippedValue": "atque",
+      "Description": "Visionary bi-directional strategy"
     },
     {
-      "Value": "suscipit",
-      "StrippedValue": "error",
-      "Description": "Customer-focused real-time focus group"
+      "Value": "et",
+      "StrippedValue": "atque",
+      "Description": "Visionary bi-directional strategy"
     }
   ],
-  "CreatedDate": "2000-01-01T14:58:04.8834598+01:00",
-  "UpdatedDate": "2001-01-16T14:58:04.8834598+01:00",
-  "Description": "User-friendly methodical help-desk",
-  "Postit": "eos",
+  "CreatedDate": "2012-09-03T18:28:49.8601393+02:00",
+  "UpdatedDate": "1996-12-02T18:28:49.8601393+01:00",
+  "Description": "Monitored bi-directional open system",
+  "Postit": "saepe",
   "CreatedBy": {
-    "AssociateId": 36,
-    "Name": "Wisozk Inc and Sons",
-    "PersonId": 189,
-    "Rank": 174,
-    "Tooltip": "earum",
+    "AssociateId": 51,
+    "Name": "Buckridge, Gusikowski and Grimes",
+    "PersonId": 606,
+    "Rank": 125,
+    "Tooltip": "dignissimos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 908,
-    "FullName": "Gordon Berge",
-    "FormalName": "Bahringer-Hessel",
+    "GroupIdx": 834,
+    "FullName": "Eve Kuphal",
+    "FormalName": "Klein, Goyette and Wolff",
     "Deleted": false,
-    "EjUserId": 26,
-    "UserName": "Wisoky LLC"
+    "EjUserId": 244,
+    "UserName": "Rodriguez-Yundt"
   },
   "UpdatedBy": {
-    "AssociateId": 328,
-    "Name": "Mante-O'Conner",
-    "PersonId": 867,
-    "Rank": 885,
-    "Tooltip": "nisi",
+    "AssociateId": 370,
+    "Name": "Schuster LLC",
+    "PersonId": 857,
+    "Rank": 659,
+    "Tooltip": "delectus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 954,
-    "FullName": "Lila Luettgen",
-    "FormalName": "Berge-Connelly",
-    "Deleted": true,
-    "EjUserId": 574,
-    "UserName": "Considine, Streich and Ruecker"
+    "GroupIdx": 494,
+    "FullName": "Lexi Abbott",
+    "FormalName": "Yost, Block and Hane",
+    "Deleted": false,
+    "EjUserId": 598,
+    "UserName": "Beahan LLC"
   },
   "Associate": {
-    "AssociateId": 518,
-    "Name": "Rice Group",
-    "PersonId": 893,
-    "Rank": 771,
-    "Tooltip": "explicabo",
+    "AssociateId": 448,
+    "Name": "Hilll, Kemmer and Klocko",
+    "PersonId": 161,
+    "Rank": 162,
+    "Tooltip": "quos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 258,
-    "FullName": "Ms. Melisa Morissette",
-    "FormalName": "Hettinger-Hammes",
-    "Deleted": true,
-    "EjUserId": 525,
-    "UserName": "Collier-Wilkinson"
+    "GroupIdx": 305,
+    "FullName": "Ned Zieme",
+    "FormalName": "Yost-Gleichner",
+    "Deleted": false,
+    "EjUserId": 505,
+    "UserName": "Gutkowski, Beatty and Leannon"
   },
   "ProjectStatus": {
-    "Id": 139,
-    "Value": "quas",
-    "Tooltip": "sapiente"
+    "Id": 887,
+    "Value": "omnis",
+    "Tooltip": "eveniet"
   },
   "ProjectType": {
-    "Id": 224,
-    "Value": "qui",
-    "Tooltip": "qui"
+    "Id": 540,
+    "Value": "ut",
+    "Tooltip": "earum"
   },
   "HasImage": false,
-  "ImageDescription": "Organic actuating installation",
-  "ActiveStatusMonitorId": 918,
+  "ImageDescription": "Synchronised 4th generation database",
+  "ActiveStatusMonitorId": 421,
   "Links": [
     {
-      "EntityName": "Zemlak Inc and Sons",
-      "Id": 953,
-      "Description": "Future-proofed exuding array",
-      "ExtraInfo": "inventore",
-      "LinkId": 833
+      "EntityName": "Satterfield Group",
+      "Id": 695,
+      "Description": "Adaptive human-resource extranet",
+      "ExtraInfo": "rerum",
+      "LinkId": 991
     },
     {
-      "EntityName": "Zemlak Inc and Sons",
-      "Id": 953,
-      "Description": "Future-proofed exuding array",
-      "ExtraInfo": "inventore",
-      "LinkId": 833
+      "EntityName": "Satterfield Group",
+      "Id": 695,
+      "Description": "Adaptive human-resource extranet",
+      "ExtraInfo": "rerum",
+      "LinkId": 991
     }
   ],
-  "ActiveLinks": 446,
-  "Completed": false,
-  "NextMilestoneDate": "2021-04-29T14:58:04.8844599+02:00",
-  "NmdAppointmentId": 252,
-  "EndDate": "2007-04-08T14:58:04.8844599+02:00",
-  "ActiveErpLinks": 623,
+  "ActiveLinks": 606,
+  "Completed": true,
+  "NextMilestoneDate": "2005-02-13T18:28:49.8621093+01:00",
+  "NmdAppointmentId": 824,
+  "EndDate": "2006-10-04T18:28:49.8621093+02:00",
+  "ActiveErpLinks": 311,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Willa Schowalter Sr."
+    "SuperOffice:1": "850844058",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "et",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "commodi",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "2009-06-08T14:58:04.8844599+02:00",
-  "PublishTo": "2017-04-29T14:58:04.8844599+02:00",
-  "PublishFrom": "2013-07-28T14:58:04.8844599+02:00",
-  "IsPublished": true
+  "PublishEventDate": "2021-02-14T18:28:49.8621093+01:00",
+  "PublishTo": "2018-01-14T18:28:49.8621093+01:00",
+  "PublishFrom": "2009-11-11T18:28:49.8621093+01:00",
+  "IsPublished": false
 }
 ```
 
@@ -277,200 +277,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 921,
-  "Name": "Klein LLC",
-  "ProjectNumber": "630024",
+  "ProjectId": 343,
+  "Name": "Altenwerth, Mohr and Tremblay",
+  "ProjectNumber": "781769",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 120,
-      "ContactId": 506,
-      "ProjectId": 791,
-      "ContactName": "Bartoletti Inc and Sons",
-      "ContactDepartment": "maximize back-end models",
-      "ProjectName": "Rath, Keeling and Herman",
-      "EmailId": 714,
-      "EmailAddress": "joshua@pagac.com",
-      "CountryId": 748,
-      "Firstname": "Cooper",
-      "MiddleName": "Oberbrunner, Brakus and Douglas",
-      "Lastname": "Steuber",
-      "PersonId": 665,
-      "Mrmrs": "odit",
-      "ProjectMemberTypeName": "Walker, Adams and Metz",
-      "Phone": "173.450.5171",
-      "PhoneId": 297,
-      "ProjectMemberTypeId": 335,
-      "EmailAddressName": "peter_conn@beahan.us",
-      "Comment": "in",
-      "FullName": "Betty Fisher",
+      "ProjectmemberId": 368,
+      "ContactId": 342,
+      "ProjectId": 595,
+      "ContactName": "Zemlak LLC",
+      "ContactDepartment": "",
+      "ProjectName": "Upton, Smitham and Harris",
+      "EmailId": 376,
+      "EmailAddress": "haylie_leuschke@connmarks.us",
+      "CountryId": 533,
+      "Firstname": "Ryley",
+      "MiddleName": "Bins-Walter",
+      "Lastname": "Thompson",
+      "PersonId": 512,
+      "Mrmrs": "est",
+      "ProjectMemberTypeName": "Lehner-Dickens",
+      "Phone": "413-866-8321",
+      "PhoneId": 875,
+      "ProjectMemberTypeId": 527,
+      "EmailAddressName": "ernie_predovic@jacobskoss.us",
+      "Comment": "deserunt",
+      "FullName": "Tressie Larson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "maximize global users"
+            "Reason": "iterate mission-critical portals"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sapiente",
-      "StrippedValue": "voluptatibus",
-      "Description": "Enhanced transitional benchmark",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 454
-        }
-      }
-    },
-    {
-      "Value": "sapiente",
-      "StrippedValue": "voluptatibus",
-      "Description": "Enhanced transitional benchmark",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 454
-        }
-      }
-    }
-  ],
-  "CreatedDate": "1999-08-05T14:58:04.8904652+02:00",
-  "UpdatedDate": "1997-11-28T14:58:04.8904652+01:00",
-  "Description": "Vision-oriented systemic synergy",
-  "Postit": "repudiandae",
-  "CreatedBy": {
-    "AssociateId": 878,
-    "Name": "Fahey Group",
-    "PersonId": 349,
-    "Rank": 440,
-    "Tooltip": "suscipit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 129,
-    "FullName": "Josiah Lueilwitz",
-    "FormalName": "Stroman-Mayert",
-    "Deleted": true,
-    "EjUserId": 834,
-    "UserName": "Crist, Marvin and Considine",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 665
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 948,
-    "Name": "Franecki Inc and Sons",
-    "PersonId": 84,
-    "Rank": 201,
-    "Tooltip": "ex",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 238,
-    "FullName": "Marianne Morissette",
-    "FormalName": "Mayer Group",
-    "Deleted": true,
-    "EjUserId": 3,
-    "UserName": "Lubowitz-Medhurst",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 674
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 37,
-    "Name": "Schultz LLC",
-    "PersonId": 732,
-    "Rank": 505,
-    "Tooltip": "rerum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 494,
-    "FullName": "Arvilla Cummings",
-    "FormalName": "Hamill Group",
-    "Deleted": true,
-    "EjUserId": 495,
-    "UserName": "Beatty-Nikolaus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 682
-      }
-    }
-  },
-  "ProjectStatus": {
-    "Id": 663,
-    "Value": "libero",
-    "Tooltip": "quasi",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 579
-      }
-    }
-  },
-  "ProjectType": {
-    "Id": 48,
-    "Value": "eum",
-    "Tooltip": "sit",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 934
-      }
-    }
-  },
-  "HasImage": false,
-  "ImageDescription": "Focused scalable extranet",
-  "ActiveStatusMonitorId": 957,
-  "Links": [
-    {
-      "EntityName": "Pagac LLC",
-      "Id": 554,
-      "Description": "Front-line content-based algorithm",
-      "ExtraInfo": "excepturi",
-      "LinkId": 240,
+      "Value": "quia",
+      "StrippedValue": "veniam",
+      "Description": "Ergonomic logistical software",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -479,32 +329,182 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldLength": 296
+        }
+      }
+    },
+    {
+      "Value": "quia",
+      "StrippedValue": "veniam",
+      "Description": "Ergonomic logistical software",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 296
         }
       }
     }
   ],
-  "ActiveLinks": 971,
-  "Completed": false,
-  "NextMilestoneDate": "2005-06-12T14:58:04.8914657+02:00",
-  "NmdAppointmentId": 96,
-  "EndDate": "2018-03-13T14:58:04.8914657+01:00",
-  "ActiveErpLinks": 591,
+  "CreatedDate": "2003-01-01T18:28:49.8661371+01:00",
+  "UpdatedDate": "2007-05-27T18:28:49.8661371+02:00",
+  "Description": "Optimized attitude-oriented knowledge user",
+  "Postit": "quia",
+  "CreatedBy": {
+    "AssociateId": 163,
+    "Name": "Berge Group",
+    "PersonId": 889,
+    "Rank": 937,
+    "Tooltip": "blanditiis",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 579,
+    "FullName": "Antonia Fisher",
+    "FormalName": "Ortiz, Mante and Homenick",
+    "Deleted": false,
+    "EjUserId": 188,
+    "UserName": "Kilback-Strosin",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 402
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 300,
+    "Name": "Jaskolski, Witting and Bode",
+    "PersonId": 562,
+    "Rank": 56,
+    "Tooltip": "quia",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 244,
+    "FullName": "Edison Durgan",
+    "FormalName": "Schimmel-Collins",
+    "Deleted": true,
+    "EjUserId": 774,
+    "UserName": "Osinski-Kassulke",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 460
+      }
+    }
+  },
+  "Associate": {
+    "AssociateId": 366,
+    "Name": "Pacocha-Green",
+    "PersonId": 445,
+    "Rank": 991,
+    "Tooltip": "corrupti",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 814,
+    "FullName": "Ms. Jerome Bergstrom",
+    "FormalName": "Daniel LLC",
+    "Deleted": true,
+    "EjUserId": 329,
+    "UserName": "Hessel Group",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 301
+      }
+    }
+  },
+  "ProjectStatus": {
+    "Id": 301,
+    "Value": "qui",
+    "Tooltip": "quibusdam",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 198
+      }
+    }
+  },
+  "ProjectType": {
+    "Id": 588,
+    "Value": "sint",
+    "Tooltip": "magnam",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 844
+      }
+    }
+  },
+  "HasImage": false,
+  "ImageDescription": "Programmable real-time orchestration",
+  "ActiveStatusMonitorId": 508,
+  "Links": [
+    {
+      "EntityName": "Runolfsson-Sporer",
+      "Id": 634,
+      "Description": "Business-focused asynchronous functionalities",
+      "ExtraInfo": "sit",
+      "LinkId": 556,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 761
+        }
+      }
+    }
+  ],
+  "ActiveLinks": 768,
+  "Completed": true,
+  "NextMilestoneDate": "2005-06-21T18:28:49.8701112+02:00",
+  "NmdAppointmentId": 665,
+  "EndDate": "1998-01-06T18:28:49.8701112+01:00",
+  "ActiveErpLinks": 872,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Elwin Tromp",
-    "SuperOffice:2": "1299841785"
+    "SuperOffice:1": "1673332476",
+    "SuperOffice:2": "Dr. Kelly Jaskolski"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "cumque",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2003-02-18T14:58:04.8914657+01:00",
-  "PublishTo": "2012-02-28T14:58:04.8914657+01:00",
-  "PublishFrom": "1997-07-13T14:58:04.8914657+02:00",
+  "PublishEventDate": "1995-11-20T18:28:49.8701112+01:00",
+  "PublishTo": "1999-07-29T18:28:49.8701112+02:00",
+  "PublishFrom": "2001-07-14T18:28:49.8701112+02:00",
   "IsPublished": false,
   "TableRight": {
     "Mask": "Delete",
@@ -516,8 +516,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

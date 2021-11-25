@@ -1,9 +1,9 @@
 ---
-title: ResolvePersonFromInfo
+title: POST Agents/Person/ResolvePersonFromInfo
 id: v1PersonAgent_ResolvePersonFromInfo
 ---
 
-# ResolvePersonFromInfo
+# POST Agents/Person/ResolvePersonFromInfo
 
 ```http
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
@@ -82,19 +82,19 @@ Response body: object
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 477,
-  "PersonName": "Nicolas, Grady and Cummings",
+  "ContactId": 570,
+  "PersonName": "Labadie Inc and Sons",
   "PhoneNumbers": [
-    "1406863",
-    "1515516"
+    "711680",
+    "1240443"
   ],
   "Emails": [
-    "micah.rohan@okon.com",
-    "carissa_sporer@hermann.biz"
+    "emmett@turcotte.com",
+    "gina.rohan@rolfson.com"
   ]
 }
 ```
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": {
-    "PersonId": 895,
-    "Firstname": "Kari",
-    "MiddleName": "Torphy-Vandervort",
-    "Lastname": "Green",
-    "Mrmrs": "nam",
-    "Title": "dicta",
-    "UpdatedDate": "2018-04-18T14:58:04.8154622+02:00",
-    "CreatedDate": "1999-08-22T14:58:04.8154622+02:00",
-    "BirthDate": "2005-06-16T14:58:04.8154622+02:00",
+    "PersonId": 230,
+    "Firstname": "Lupe",
+    "MiddleName": "Little-Wisozk",
+    "Lastname": "McKenzie",
+    "Mrmrs": "expedita",
+    "Title": "alias",
+    "UpdatedDate": "2004-06-09T18:28:49.7391402+02:00",
+    "CreatedDate": "2018-10-02T18:28:49.7401396+02:00",
+    "BirthDate": "2018-07-06T18:28:49.7401396+02:00",
     "CreatedBy": {},
     "Emails": [
       {},
       {}
     ],
-    "Description": "Enhanced zero defect customer loyalty",
-    "IsAssociate": false,
+    "Description": "Persistent radical orchestration",
+    "IsAssociate": true,
     "PrivatePhones": [
       {},
       {}
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "PersonNumber": "1099825",
-    "FullName": "Gabe Brakus",
+    "PersonNumber": "1222953",
+    "FullName": "Cooper Kirlin IV",
     "NoMailing": false,
     "UsePersonAddress": true,
     "Retired": true,
@@ -158,28 +158,28 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FormalName": "Stamm, Olson and Murray",
+    "FormalName": "Carter, Gottlieb and Dooley",
     "Address": {},
-    "Post3": "placeat",
-    "Post2": "et",
-    "Post1": "nihil",
-    "Kanalname": "et",
-    "Kanafname": "facere",
+    "Post3": "aliquam",
+    "Post2": "perspiciatis",
+    "Post1": "corrupti",
+    "Kanalname": "velit",
+    "Kanafname": "ut",
     "CorrespondingAssociate": {},
     "Category": {},
     "Business": {},
     "Associate": {},
-    "Salutation": "aut",
-    "ActiveInterests": 626,
+    "Salutation": "quam",
+    "ActiveInterests": 616,
     "SupportAssociate": {},
     "TicketPriority": {},
     "CustomerLanguage": {},
-    "DbiAgentId": 110,
-    "DbiKey": "ut",
-    "DbiLastModified": "1998-12-23T14:58:04.8154622+01:00",
-    "DbiLastSyncronized": "1995-02-24T14:58:04.8154622+01:00",
-    "SentInfo": 410,
-    "ShowContactTickets": 88,
+    "DbiAgentId": 645,
+    "DbiKey": "libero",
+    "DbiLastModified": "2016-09-26T18:28:49.7401396+02:00",
+    "DbiLastSyncronized": "2016-02-21T18:28:49.7401396+01:00",
+    "SentInfo": 11,
+    "ShowContactTickets": 291,
     "UserInfo": {},
     "ChatEmails": [
       {},
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Source": 240,
-    "ActiveErpLinks": 929,
+    "Source": 722,
+    "ActiveErpLinks": 40,
     "ShipmentTypes": [
       {},
       {}
@@ -200,20 +200,21 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "BounceEmails": [
-      "rocky.jacobs@bahringer.com",
-      "julie@blanda.biz"
+      "vilma.ryan@hessel.name",
+      "rocio.treutel@homenick.ca"
     ],
+    "ActiveStatusMonitorId": 254,
     "UserDefinedFields": {
-      "SuperOffice:1": "583178232",
-      "SuperOffice:2": "1793781235"
+      "SuperOffice:1": "True",
+      "SuperOffice:2": "1092687044"
     },
     "ExtraFields": {
-      "ExtraFields1": "minus",
-      "ExtraFields2": "voluptatem"
+      "ExtraFields1": "temporibus",
+      "ExtraFields2": "rerum"
     },
     "CustomFields": {
-      "CustomFields1": "maxime",
-      "CustomFields2": "aut"
+      "CustomFields1": "quam",
+      "CustomFields2": "similique"
     },
     "TableRight": {},
     "FieldProperties": {
@@ -222,12 +223,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   },
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -239,7 +240,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldLength": 956
     }
   }
 }

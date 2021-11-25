@@ -1,9 +1,9 @@
 ---
-title: GetAppointment
+title: POST Agents/Appointment/GetAppointment
 id: v1AppointmentAgent_GetAppointment
 ---
 
-# GetAppointment
+# POST Agents/Appointment/GetAppointment
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointment
@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=717
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=155
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -127,53 +127,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 462,
-  "StartDate": "2018-04-22T14:58:03.1035724+02:00",
-  "EndDate": "2002-01-22T14:58:03.1035724+01:00",
+  "AppointmentId": 117,
+  "StartDate": "2021-06-26T18:28:47.946845+02:00",
+  "EndDate": "2013-07-21T18:28:47.946845+02:00",
   "Type": "BookingForChecklist",
   "Task": "ut",
-  "AssociateFullName": "Mr. Erica Reichel",
-  "ContactName": "Klein, Nicolas and Conroy",
-  "Description": "Seamless even-keeled service-desk",
-  "PersonFullName": "Raegan Roob",
-  "PersonId": 452,
-  "ContactId": 549,
-  "ProjectId": 964,
-  "ProjectName": "Runolfsson LLC",
-  "IsPublished": true,
-  "AssociateId": 707,
-  "ColorIndex": 183,
-  "IsFree": false,
-  "HasAlarm": true,
+  "AssociateFullName": "Marguerite Hagenes",
+  "ContactName": "Gulgowski Group",
+  "Description": "Pre-emptive system-worthy task-force",
+  "PersonFullName": "Alessia Tremblay DVM",
+  "PersonId": 166,
+  "ContactId": 98,
+  "ProjectId": 838,
+  "ProjectName": "Koelpin Group",
+  "IsPublished": false,
+  "AssociateId": 467,
+  "ColorIndex": 36,
+  "IsFree": true,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 229,
-  "PriorityName": "Bartell, Hettinger and Okuneva",
+  "PriorityId": 22,
+  "PriorityName": "Mitchell Inc and Sons",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2008-06-18T14:58:03.1045736+02:00",
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2007-08-03T18:28:47.9478442+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-08-12T14:58:03.1045736+02:00",
-  "RecurringEndDate": "2008-10-23T14:58:03.1045736+02:00",
-  "MotherId": 818,
-  "AssignedBy": 927,
-  "AssignedByFullName": "Lucy Rolfson",
-  "RejectReason": "",
-  "Location": "laudantium",
-  "AlarmLeadTime": "quia",
-  "SaleId": 89,
-  "SaleName": "Weber-Howe",
-  "AssociateName": "Swaniawski-Torp",
-  "CreatedDate": "2010-06-24T14:58:03.1045736+02:00",
-  "CreatedBy": "possimus",
-  "CreatedByFullName": "Charley Murphy",
-  "CreatedByAssociateId": 85,
+  "RecurringStartDate": "1994-10-13T18:28:47.9478442+02:00",
+  "RecurringEndDate": "2016-12-11T18:28:47.9478442+01:00",
+  "MotherId": 327,
+  "AssignedBy": 144,
+  "AssignedByFullName": "Donavon Gorczany",
+  "RejectReason": "orchestrate B2B infomediaries",
+  "Location": "velit",
+  "AlarmLeadTime": "assumenda",
+  "SaleId": 865,
+  "SaleName": "McGlynn Group",
+  "AssociateName": "Reinger, Koelpin and Goldner",
+  "CreatedDate": "2000-08-12T18:28:47.9478442+02:00",
+  "CreatedBy": "molestiae",
+  "CreatedByFullName": "Osbaldo Nitzsche",
+  "CreatedByAssociateId": 791,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 711
     }
   }
 }

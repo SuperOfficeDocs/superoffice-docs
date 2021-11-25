@@ -1,9 +1,9 @@
 ---
-title: GetConsentInfos
+title: POST Agents/Person/GetConsentInfos
 id: v1PersonAgent_GetConsentInfos
 ---
 
-# GetConsentInfos
+# POST Agents/Person/GetConsentInfos
 
 ```http
 POST /api/v1/Agents/Person/GetConsentInfos
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 684
+  "PersonId": 614
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 235,
-    "Comment": "vero",
-    "Registered": "1996-01-28T14:58:04.8124601+01:00",
-    "RegisteredAssociateId": 783,
-    "Updated": "2019-08-02T14:58:04.8124601+02:00",
-    "UpdatedAssociateId": 1000,
-    "LegalBaseId": 44,
-    "LegalBaseKey": "mollitia",
-    "LegalBaseName": "Hodkiewicz, Koss and Ferry",
-    "ConsentPurposeId": 754,
-    "ConsentPurposeKey": "esse",
-    "ConsentPurposeName": "Lubowitz-Rolfson",
-    "ConsentSourceId": 515,
-    "ConsentSourceKey": "molestias",
-    "ConsentSourceName": "Erdman LLC",
+    "ConsentPersonId": 226,
+    "Comment": "ea",
+    "Registered": "2009-10-07T18:28:49.7341372+02:00",
+    "RegisteredAssociateId": 270,
+    "Updated": "2006-05-30T18:28:49.7341372+02:00",
+    "UpdatedAssociateId": 654,
+    "LegalBaseId": 750,
+    "LegalBaseKey": "voluptatem",
+    "LegalBaseName": "Stehr-Johns",
+    "ConsentPurposeId": 172,
+    "ConsentPurposeKey": "veniam",
+    "ConsentPurposeName": "Sanford LLC",
+    "ConsentSourceId": 8,
+    "ConsentSourceKey": "et",
+    "ConsentSourceName": "Nitzsche-Becker",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "disintermediate turn-key applications"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 959
       }
     }
   }

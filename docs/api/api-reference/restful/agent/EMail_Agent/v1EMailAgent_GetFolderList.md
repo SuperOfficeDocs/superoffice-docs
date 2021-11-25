@@ -1,9 +1,9 @@
 ---
-title: GetFolderList
+title: POST Agents/EMail/GetFolderList
 id: v1EMailAgent_GetFolderList
 ---
 
-# GetFolderList
+# POST Agents/EMail/GetFolderList
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderList
@@ -77,11 +77,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Leffler-Sauer",
-    "UserName": "Hoeger Inc and Sons",
-    "Password": "non",
-    "Folder": "sunt",
-    "UseSSL": true
+    "ServerName": "Romaguera-Grimes",
+    "UserName": "Sauer, Mosciski and Ankunding",
+    "Password": "nostrum",
+    "Folder": "ipsa",
+    "UseSSL": false
   },
   "IncludeItemCount": false
 }
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "id",
-  "vitae"
+  "quis",
+  "sed"
 ]
 ```

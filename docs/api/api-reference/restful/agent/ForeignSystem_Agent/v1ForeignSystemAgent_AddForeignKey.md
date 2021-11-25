@@ -1,9 +1,9 @@
 ---
-title: AddForeignKey
+title: POST Agents/ForeignSystem/AddForeignKey
 id: v1ForeignSystemAgent_AddForeignKey
 ---
 
-# AddForeignKey
+# POST Agents/ForeignSystem/AddForeignKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": {
-    "Key": "est",
-    "Value": "incidunt",
-    "RecordId": 210,
-    "CreatedDate": "2009-08-05T14:58:04.3074343+02:00",
-    "UpdatedDate": "2016-12-01T14:58:04.3074343+01:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "facere",
-    "TableName": "Corwin, Stark and Gleichner"
+    "Key": "accusamus",
+    "Value": "ipsa",
+    "RecordId": 721,
+    "CreatedDate": "2018-08-17T18:28:49.213087+02:00",
+    "UpdatedDate": "2009-05-05T18:28:49.213087+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "et",
+    "TableName": "O'Hara-Kuhn"
   },
-  "ApplicationName": "Feest Group",
-  "DeviceName": "Aufderhar-Ullrich",
-  "DeviceIdentifier": "distinctio"
+  "ApplicationName": "Hegmann, Marvin and Schamberger",
+  "DeviceName": "Fisher Group",
+  "DeviceIdentifier": "eveniet"
 }
 ```
 
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "deleniti",
-  "Value": "itaque",
-  "RecordId": 584,
-  "CreatedDate": "2013-01-13T14:58:04.3074343+01:00",
-  "UpdatedDate": "2006-02-12T14:58:04.3074343+01:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "sed",
-  "TableName": "Tillman, Buckridge and Herman",
+  "Key": "eos",
+  "Value": "quas",
+  "RecordId": 640,
+  "CreatedDate": "2010-01-15T18:28:49.2141185+01:00",
+  "UpdatedDate": "2007-02-12T18:28:49.2141185+01:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "qui",
+  "TableName": "Torp Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 379
     }
   }
 }

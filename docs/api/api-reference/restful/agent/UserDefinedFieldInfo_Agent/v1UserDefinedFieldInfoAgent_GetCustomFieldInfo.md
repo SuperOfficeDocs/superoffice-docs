@@ -1,9 +1,9 @@
 ---
-title: GetCustomFieldInfo
+title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
 ---
 
-# GetCustomFieldInfo
+# POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ferry, Hamill and Batz",
-  "FieldName": "Bartoletti, Thiel and Olson"
+  "TableName": "Reilly-Ondricka",
+  "FieldName": "Auer, Kunde and Wintheiser"
 }
 ```
 
@@ -104,17 +104,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Walter-Stiedemann",
-  "DisplayName": "Jast-Corwin",
-  "Description": "Face to face 3rd generation core",
-  "ShortLabel": "quo",
-  "HideLabel": true,
-  "HideField": false,
-  "IsIndexed": false,
+  "FieldName": "Waelchi-Reynolds",
+  "DisplayName": "Rippin Group",
+  "Description": "Enterprise-wide multi-state matrices",
+  "ShortLabel": "eum",
+  "HideLabel": false,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 836,
-  "TemplateVariableName": "Kshlerin Inc and Sons"
+  "IsExternal": true,
+  "Rank": 691,
+  "TemplateVariableName": "Crist-Keeling"
 }
 ```

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 496,
-    "Name": "Effertz-Aufderhar",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 876,
-    "UdListDefinitionId": 837,
+    "HeadingId": 157,
+    "Name": "Skiles-Berge",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 180,
+    "UdListDefinitionId": 299,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 308
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: SetLogoImage
+title: POST Agents/Audience/SetLogoImage
 id: v1AudienceAgent_SetLogoImage
 ---
 
-# SetLogoImage
+# POST Agents/Audience/SetLogoImage
 
 ```http
 POST /api/v1/Agents/Audience/SetLogoImage

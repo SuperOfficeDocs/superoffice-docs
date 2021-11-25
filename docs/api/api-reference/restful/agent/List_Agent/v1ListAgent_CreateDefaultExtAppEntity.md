@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultExtAppEntity
+title: POST Agents/List/CreateDefaultExtAppEntity
 id: v1ListAgent_CreateDefaultExtAppEntity
 ---
 
-# CreateDefaultExtAppEntity
+# POST Agents/List/CreateDefaultExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 339,
-  "Name": "Brakus, Aufderhar and Heller",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 570,
-  "Filename": "non",
-  "Parameters": "fuga",
-  "Workdir": "delectus",
+  "ExtAppId": 640,
+  "Name": "Beer Group",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 879,
+  "Filename": "fugit",
+  "Parameters": "aut",
+  "Workdir": "natus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "Icon": 316,
-  "WaitToFinish": true,
+  "Icon": 959,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "facere",
+  "Path": "soluta",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

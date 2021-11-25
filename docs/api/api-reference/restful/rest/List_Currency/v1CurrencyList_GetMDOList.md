@@ -26,7 +26,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=ut
+GET /api/v1/List/Currency/MDOItems?query=quidem
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Bednar-Donnelly",
-    "ToolTip": "Repellendus ut qui culpa modi.",
+    "Id": 608,
+    "Name": "Brown LLC",
+    "ToolTip": "Voluptas facere.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "excepturi",
+    "Rank": 870,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Rowe Group",
-        "ToolTip": "A maiores ab.",
+        "Id": 330,
+        "Name": "Botsford Inc and Sons",
+        "ToolTip": "Dolores saepe.",
         "Deleted": false,
-        "Rank": 671,
-        "Type": "deserunt",
+        "Rank": 189,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 462,
-        "ExtraInfo": "dolore",
-        "StyleHint": "aspernatur",
-        "FullName": "Ms. Alta Bernier",
+        "IconHint": "sapiente",
+        "ColorBlock": 840,
+        "ExtraInfo": "dolor",
+        "StyleHint": "deleniti",
+        "FullName": "Carmelo Gusikowski",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "e-enable collaborative e-tailers"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldType": "System.String",
+            "FieldLength": 689
           }
         }
       }
     ],
     "IconHint": "quia",
-    "ColorBlock": 302,
-    "ExtraInfo": "modi",
-    "StyleHint": "autem",
-    "FullName": "Curt Abshire",
+    "ColorBlock": 575,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "est",
+    "FullName": "Lauryn Grimes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 283
       }
     }
   }

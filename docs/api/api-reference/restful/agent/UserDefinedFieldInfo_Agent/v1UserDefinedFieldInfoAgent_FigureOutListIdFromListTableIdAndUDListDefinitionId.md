@@ -1,9 +1,9 @@
 ---
-title: FigureOutListIdFromListTableIdAndUDListDefinitionId
+title: POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
 id: v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
 ---
 
-# FigureOutListIdFromListTableIdAndUDListDefinitionId
+# POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
@@ -68,45 +68,45 @@ Response body: int32
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": {
-    "UDefFieldId": 500,
-    "ColumnId": 261,
-    "FieldDefault": "modi",
-    "FieldHeight": 344,
-    "FieldLabel": "perspiciatis",
-    "FieldLeft": 540,
-    "FieldTop": 576,
+    "UDefFieldId": 842,
+    "ColumnId": 667,
+    "FieldDefault": "qui",
+    "FieldHeight": 420,
+    "FieldLabel": "et",
+    "FieldLeft": 377,
+    "FieldTop": 439,
     "FieldType": "Checkbox",
-    "FieldWidth": 511,
-    "FormatMask": "dolore",
+    "FieldWidth": 937,
+    "FormatMask": "delectus",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 720,
-    "LabelLeft": 12,
-    "LabelTop": 798,
-    "LabelWidth": 834,
-    "LastVersionId": 436,
-    "ListTableId": 432,
-    "IsMandatory": false,
+    "LabelHeight": 330,
+    "LabelLeft": 234,
+    "LabelTop": 578,
+    "LabelWidth": 776,
+    "LastVersionId": 456,
+    "ListTableId": 253,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 667,
-    "ProgId": "perspiciatis",
-    "IsReadOnly": false,
-    "ShortLabel": "sed",
-    "TabOrder": 737,
-    "TextLength": 866,
-    "Tooltip": "nisi",
-    "UdefIdentity": 773,
-    "UDListDefinitionId": 806,
+    "Page1LineNo": 501,
+    "ProgId": "laboriosam",
+    "IsReadOnly": true,
+    "ShortLabel": "nam",
+    "TabOrder": 908,
+    "TextLength": 434,
+    "Tooltip": "et",
+    "UdefIdentity": 513,
+    "UDListDefinitionId": 154,
     "Justification": "Center",
-    "Version": 217,
-    "TemplateVariableName": "Wiza, Lubowitz and Bernhard",
+    "Version": 122,
+    "TemplateVariableName": "McGlynn Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Kihn-Reilly"
+    "MdoListName": "Morar-Gutmann"
   }
 }
 ```
@@ -115,5 +115,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-36
+871
 ```

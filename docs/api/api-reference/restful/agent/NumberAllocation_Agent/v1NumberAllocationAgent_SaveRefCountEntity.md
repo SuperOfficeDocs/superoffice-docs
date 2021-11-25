@@ -1,9 +1,9 @@
 ---
-title: SaveRefCountEntity
+title: POST Agents/NumberAllocation/SaveRefCountEntity
 id: v1NumberAllocationAgent_SaveRefCountEntity
 ---
 
-# SaveRefCountEntity
+# POST Agents/NumberAllocation/SaveRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
@@ -92,35 +92,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 445,
-  "Field": "consequuntur",
-  "RecordId": 570,
+  "RefCountsId": 97,
+  "Field": "inventore",
+  "RecordId": 655,
   "SuggestedRecords": [
     {
-      "Id": 389,
-      "Name": "Lueilwitz-Barton",
-      "ToolTip": "Voluptas dolorem inventore vitae.",
+      "Id": 659,
+      "Name": "Weimann LLC",
+      "ToolTip": "Dignissimos nesciunt saepe nihil repellat voluptatibus.",
       "Deleted": false,
-      "Rank": 543,
-      "Type": "explicabo",
+      "Rank": 102,
+      "Type": "optio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 395,
-      "ExtraInfo": "velit",
-      "StyleHint": "quam",
-      "FullName": "Phyllis Gislason"
+      "IconHint": "unde",
+      "ColorBlock": 771,
+      "ExtraInfo": "ea",
+      "StyleHint": "ullam",
+      "FullName": "Franco Larkin V"
     }
   ],
-  "CurrentValue": 76,
-  "TravelPrefix": 338,
-  "SatPrefix": 718,
+  "CurrentValue": 200,
+  "TravelPrefix": 628,
+  "SatPrefix": 181,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false
+  "Unique": true,
+  "ReadOnly": true,
+  "AllowBlank": true
 }
 ```
 
@@ -129,26 +129,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 919,
-  "Field": "vel",
-  "RecordId": 372,
+  "RefCountsId": 874,
+  "Field": "tempora",
+  "RecordId": 572,
   "SuggestedRecords": [
     {
-      "Id": 918,
-      "Name": "Daugherty, Koelpin and Durgan",
-      "ToolTip": "Mollitia qui quia sunt reiciendis.",
-      "Deleted": true,
-      "Rank": 86,
-      "Type": "unde",
+      "Id": 731,
+      "Name": "Gaylord Group",
+      "ToolTip": "Quos fugit dolores ut.",
+      "Deleted": false,
+      "Rank": 238,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 316,
-      "ExtraInfo": "dolorum",
-      "StyleHint": "perspiciatis",
-      "FullName": "Ms. Columbus Becker",
+      "IconHint": "ullam",
+      "ColorBlock": 625,
+      "ExtraInfo": "at",
+      "StyleHint": "quia",
+      "FullName": "Julia Lowe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -157,18 +157,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 589
         }
       }
     }
   ],
-  "CurrentValue": 674,
-  "TravelPrefix": 228,
-  "SatPrefix": 103,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 767,
+  "TravelPrefix": 406,
+  "SatPrefix": 701,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 930
     }
   }
 }

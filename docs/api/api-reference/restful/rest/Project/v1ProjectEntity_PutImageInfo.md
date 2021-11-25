@@ -28,7 +28,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=968
+PUT /api/v1/Project/{id}/ImageInfo?projectId=774
 ```
 
 
@@ -107,45 +107,45 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 725,
-  "BlobSize": 478,
-  "Description": "Business-focused holistic circuit",
-  "ExtraInfo": "odit",
+  "BlobId": 449,
+  "BlobSize": 978,
+  "Description": "Extended system-worthy product",
+  "ExtraInfo": "repudiandae",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "expedita",
-  "OriginalSize": 281,
-  "CreatedDate": "2000-08-20T15:05:42.5416348+02:00",
-  "UpdatedDate": "2004-05-29T15:05:42.5416348+02:00",
+  "MimeType": "libero",
+  "OriginalSize": 353,
+  "CreatedDate": "2017-08-10T18:25:50.8528853+02:00",
+  "UpdatedDate": "2009-07-06T18:25:50.8528853+02:00",
   "CreatedBy": {
-    "AssociateId": 754,
-    "Name": "Murray-Bergnaum",
-    "PersonId": 395,
-    "Rank": 196,
-    "Tooltip": "dolorem",
+    "AssociateId": 475,
+    "Name": "Yundt-Hickle",
+    "PersonId": 498,
+    "Rank": 977,
+    "Tooltip": "pariatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 701,
-    "FullName": "Keyshawn Gutmann",
-    "FormalName": "Jenkins-Tillman",
-    "Deleted": false,
-    "EjUserId": 64,
-    "UserName": "Gutkowski Inc and Sons"
+    "GroupIdx": 902,
+    "FullName": "Dr. Arvid Blanda",
+    "FormalName": "Bayer, Glover and Reynolds",
+    "Deleted": true,
+    "EjUserId": 57,
+    "UserName": "Strosin-Ortiz"
   },
   "UpdatedBy": {
-    "AssociateId": 735,
-    "Name": "Nikolaus Group",
-    "PersonId": 72,
-    "Rank": 549,
-    "Tooltip": "recusandae",
+    "AssociateId": 929,
+    "Name": "Lesch-Fritsch",
+    "PersonId": 42,
+    "Rank": 363,
+    "Tooltip": "eum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 634,
-    "FullName": "Bryce Collier",
-    "FormalName": "Cartwright, Hoppe and Roob",
+    "GroupIdx": 608,
+    "FullName": "Letitia Leffler",
+    "FormalName": "Steuber, Anderson and Kreiger",
     "Deleted": true,
-    "EjUserId": 549,
-    "UserName": "Treutel Group"
+    "EjUserId": 601,
+    "UserName": "Hirthe Group"
   },
-  "ConceptualType": "nulla"
+  "ConceptualType": "eaque"
 }
 ```
 
@@ -154,54 +154,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 915,
-  "BlobSize": 243,
-  "Description": "Configurable intangible flexibility",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 163,
-  "CreatedDate": "1998-08-25T15:05:42.5426353+02:00",
-  "UpdatedDate": "2021-06-05T15:05:42.5426353+02:00",
+  "BlobId": 287,
+  "BlobSize": 450,
+  "Description": "Secured optimizing definition",
+  "ExtraInfo": "inventore",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "doloribus",
+  "OriginalSize": 613,
+  "CreatedDate": "1996-03-19T18:25:50.8548851+01:00",
+  "UpdatedDate": "2005-04-15T18:25:50.8548851+02:00",
   "CreatedBy": {
-    "AssociateId": 784,
-    "Name": "Nikolaus, Kris and Walsh",
-    "PersonId": 397,
-    "Rank": 11,
-    "Tooltip": "sint",
+    "AssociateId": 37,
+    "Name": "Hammes LLC",
+    "PersonId": 678,
+    "Rank": 258,
+    "Tooltip": "unde",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 881,
-    "FullName": "Christop Howell",
-    "FormalName": "Durgan, Gleichner and Stroman",
-    "Deleted": true,
-    "EjUserId": 374,
-    "UserName": "Herzog Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 666
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 400,
-    "Name": "Kuhn, Blanda and Mitchell",
-    "PersonId": 614,
-    "Rank": 708,
-    "Tooltip": "cupiditate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 549,
-    "FullName": "Flavie Oberbrunner",
-    "FormalName": "Hand Group",
+    "GroupIdx": 954,
+    "FullName": "Benjamin McLaughlin",
+    "FormalName": "Schuppe-Sawayn",
     "Deleted": false,
-    "EjUserId": 82,
-    "UserName": "Fahey-Hudson",
+    "EjUserId": 127,
+    "UserName": "Beahan-Mohr",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -210,14 +185,39 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 41
       }
     }
   },
-  "ConceptualType": "repellat",
+  "UpdatedBy": {
+    "AssociateId": 547,
+    "Name": "Legros LLC",
+    "PersonId": 372,
+    "Rank": 652,
+    "Tooltip": "explicabo",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 275,
+    "FullName": "Ada Ratke IV",
+    "FormalName": "Howe, Rice and Howe",
+    "Deleted": false,
+    "EjUserId": 148,
+    "UserName": "Block LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 865
+      }
+    }
+  },
+  "ConceptualType": "necessitatibus",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "exploit 24/7 convergence"
   },
   "FieldProperties": {
     "fieldName": {
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

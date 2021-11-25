@@ -1,9 +1,9 @@
 ---
-title: GetUserGroupList
+title: POST Agents/User/GetUserGroupList
 id: v1UserAgent_GetUserGroupList
 ---
 
-# GetUserGroupList
+# POST Agents/User/GetUserGroupList
 
 ```http
 POST /api/v1/Agents/User/GetUserGroupList
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/User/GetUserGroupList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -85,11 +85,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "qui",
-    "Tooltip": "dignissimos",
-    "Id": 521,
-    "Rank": 262,
-    "Deleted": true,
+    "Value": "eligendi",
+    "Tooltip": "libero",
+    "Id": 984,
+    "Rank": 949,
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "revolutionize open-source paradigms"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldLength": 210
       }
     }
   }

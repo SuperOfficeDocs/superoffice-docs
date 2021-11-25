@@ -2,8 +2,6 @@
 title: String
 ---
 
-# String
-
 ```http
 /api/v1/String
 ```

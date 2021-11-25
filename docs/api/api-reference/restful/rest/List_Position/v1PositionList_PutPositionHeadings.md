@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 273,
-    "Name": "Schumm, Lubowitz and Wilderman",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 865,
-    "UdListDefinitionId": 556
+    "HeadingId": 683,
+    "Name": "Veum-Toy",
+    "Tooltip": "dolorum",
+    "Deleted": false,
+    "Rank": 3,
+    "UdListDefinitionId": 757
   },
   {
-    "HeadingId": 273,
-    "Name": "Schumm, Lubowitz and Wilderman",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 865,
-    "UdListDefinitionId": 556
+    "HeadingId": 683,
+    "Name": "Veum-Toy",
+    "Tooltip": "dolorum",
+    "Deleted": false,
+    "Rank": 3,
+    "UdListDefinitionId": 757
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 215,
-    "Name": "Witting Group",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 870,
-    "UdListDefinitionId": 975,
+    "HeadingId": 895,
+    "Name": "Larson-Heidenreich",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "Rank": 577,
+    "UdListDefinitionId": 978,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

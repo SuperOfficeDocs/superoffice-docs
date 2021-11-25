@@ -77,25 +77,25 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Maggio-Grimes",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "UdListDefinitionId": 866,
-    "Rank": 421
+    "Id": 116,
+    "Name": "Raynor, Buckridge and Franecki",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 178,
+    "Rank": 4
   },
   {
-    "Id": 882,
-    "Name": "Maggio-Grimes",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "UdListDefinitionId": 866,
-    "Rank": 421
+    "Id": 116,
+    "Name": "Raynor, Buckridge and Franecki",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 178,
+    "Rank": 4
   }
 ]
 ```
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Waters, O'Reilly and Steuber",
-    "Tooltip": "sint",
+    "Id": 931,
+    "Name": "Mosciski Inc and Sons",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "UdListDefinitionId": 154,
-    "Rank": 330,
+    "UdListDefinitionId": 809,
+    "Rank": 124,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "implement transparent content"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldType": "System.Int32",
+        "FieldLength": 701
       }
     }
   }

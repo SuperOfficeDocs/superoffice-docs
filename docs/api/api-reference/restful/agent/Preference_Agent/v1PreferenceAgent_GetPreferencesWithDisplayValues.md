@@ -1,9 +1,9 @@
 ---
-title: GetPreferencesWithDisplayValues
+title: POST Agents/Preference/GetPreferencesWithDisplayValues
 id: v1PreferenceAgent_GetPreferencesWithDisplayValues
 ---
 
-# GetPreferencesWithDisplayValues
+# POST Agents/Preference/GetPreferencesWithDisplayValues
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "in",
-      "Key": "voluptas"
+      "Section": "laudantium",
+      "Key": "dicta"
     },
     {
-      "Section": "in",
-      "Key": "voluptas"
+      "Section": "laudantium",
+      "Key": "dicta"
     }
   ]
 }
@@ -107,10 +107,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "aliquid",
+    "RawValue": "illo",
     "Specification": {
-      "Section": "qui",
-      "Key": "officiis",
+      "Section": "ut",
+      "Key": "unde",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 173
         }
       }
     },
-    "DisplayValue": "in",
-    "DisplayTooltip": "tempora",
+    "DisplayValue": "pariatur",
+    "DisplayTooltip": "quibusdam",
     "DisplayType": "Bool",
     "TabOrder": {
-      "TabOrderId": 471,
-      "TabName": "Bednar, Skiles and Fritsch",
-      "Order": "necessitatibus",
-      "AssociateId": 26,
+      "TabOrderId": 550,
+      "TabName": "Friesen, Abbott and Quigley",
+      "Order": "hic",
+      "AssociateId": 700,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldLength": 134
         }
       }
     },
-    "TargetId": 343,
-    "PrefDescId": 553,
-    "TableName": "Lakin, Jakubowski and Koepp",
-    "UserPreferenceId": 358,
+    "TargetId": 498,
+    "PrefDescId": 86,
+    "TableName": "Strosin, Stokes and Gerhold",
+    "UserPreferenceId": 487,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -155,10 +155,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "aggregate mission-critical functionalities"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldLength": 155
       }
     }
   }

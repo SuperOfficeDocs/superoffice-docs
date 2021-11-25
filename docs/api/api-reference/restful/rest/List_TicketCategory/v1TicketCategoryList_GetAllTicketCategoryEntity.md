@@ -52,11 +52,13 @@ Response body: array
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -77,26 +79,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 170,
-    "ParentId": 957,
-    "Name": "Trantow, Walsh and Wiza",
-    "Fullname": "sed",
-    "CategoryMaster": 914,
+    "TicketCategoryId": 857,
+    "ParentId": 255,
+    "Name": "Satterfield Group",
+    "Fullname": "est",
+    "CategoryMaster": 640,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Turner Group",
+    "ExternalName": "Hessel-Jakubowski",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 810,
-    "ReplyTemplate": 680,
-    "NotificationEmail": "vivienne_parisian@wolffhegmann.com",
+    "AssignmentLag": 889,
+    "ReplyTemplate": 945,
+    "NotificationEmail": "marilie.stamm@baumbach.co.uk",
+    "DefaultTicketStatus": {
+      "TicketStatusId": 575,
+      "Name": "Nolan-Schamberger",
+      "Status": "Active",
+      "TimeCounter": "Externally",
+      "NoEmailReopen": false,
+      "IsDefault": true,
+      "UsedInQueue": true,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 185
+        }
+      }
+    },
+    "DefaultMessageStatus": {
+      "TicketStatusId": 875,
+      "Name": "Nader, Mills and Walker",
+      "Status": "Active",
+      "TimeCounter": "Externally",
+      "NoEmailReopen": false,
+      "IsDefault": false,
+      "UsedInQueue": false,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "transition turn-key synergies"
+          },
+          "FieldType": "System.String",
+          "FieldLength": 194
+        }
+      }
+    },
     "ExtraFields": {
-      "ExtraFields1": "ad",
-      "ExtraFields2": "cumque"
+      "ExtraFields1": "non",
+      "ExtraFields2": "possimus"
     },
     "CustomFields": {
-      "CustomFields1": "unde",
-      "CustomFields2": "ut"
+      "CustomFields1": "ut",
+      "CustomFields2": "pariatur"
     },
     "TableRight": {
       "Mask": "Delete",
@@ -109,7 +151,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 164
       }
     }
   }

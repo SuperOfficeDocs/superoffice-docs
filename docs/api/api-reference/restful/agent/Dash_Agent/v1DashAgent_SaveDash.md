@@ -1,9 +1,9 @@
 ---
-title: SaveDash
+title: POST Agents/Dash/SaveDash
 id: v1DashAgent_SaveDash
 ---
 
-# SaveDash
+# POST Agents/Dash/SaveDash
 
 ```http
 POST /api/v1/Agents/Dash/SaveDash
@@ -39,6 +39,7 @@ The Dash to be saved.
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -70,6 +71,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -90,38 +92,40 @@ Response body: object
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 397,
-  "Name": "Little-Towne",
-  "Description": "Upgradable needs-based capability",
-  "AssociateId": 882,
-  "Columns": 393,
+  "DashboardId": 495,
+  "UniqueId": "ipsa",
+  "Name": "Wisozk Inc and Sons",
+  "Description": "Phased stable methodology",
+  "AssociateId": 885,
+  "Columns": 702,
   "Theme": {
-    "DashboardThemeId": 139,
-    "Name": "Ziemann-Sipes",
-    "Config": "recusandae",
-    "Rank": 733
+    "DashboardThemeId": 984,
+    "Name": "Kertzmann-VonRueden",
+    "Config": "pariatur",
+    "Rank": 188,
+    "Client": "et"
   },
-  "VisibleForAll": 798,
+  "VisibleForAll": 61,
   "VisibleForAssociates": [
-    632,
-    713
+    695,
+    609
   ],
   "VisibleForGroups": [
-    195,
-    559
+    597,
+    720
   ],
-  "PinForAll": 125,
+  "PinForAll": 782,
   "PinForAssociates": [
-    275,
-    581
+    303,
+    813
   ],
   "PinForGroups": [
-    254,
-    590
+    521,
+    87
   ]
 }
 ```
@@ -131,16 +135,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 193,
-  "Name": "Murray, Boyer and Runte",
-  "Description": "Phased static support",
-  "AssociateId": 235,
-  "Columns": 46,
+  "DashboardId": 251,
+  "UniqueId": "cum",
+  "Name": "Renner LLC",
+  "Description": "Versatile heuristic collaboration",
+  "AssociateId": 659,
+  "Columns": 65,
   "Theme": {
-    "DashboardThemeId": 600,
-    "Name": "Mohr, Weber and Abernathy",
-    "Config": "dolorem",
-    "Rank": 531,
+    "DashboardThemeId": 133,
+    "Name": "Halvorson, Parisian and O'Conner",
+    "Config": "recusandae",
+    "Rank": 830,
+    "Client": "quia",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -149,27 +155,27 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 547
       }
     }
   },
-  "VisibleForAll": 284,
+  "VisibleForAll": 17,
   "VisibleForAssociates": [
-    987,
-    924
+    819,
+    843
   ],
   "VisibleForGroups": [
-    775,
-    330
+    28,
+    349
   ],
-  "PinForAll": 172,
+  "PinForAll": 440,
   "PinForAssociates": [
-    891,
-    532
+    427,
+    360
   ],
   "PinForGroups": [
-    116,
-    682
+    860,
+    521
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -179,10 +185,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "deploy e-business methodologies"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 534
     }
   }
 }

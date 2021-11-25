@@ -1,9 +1,9 @@
 ---
-title: GetConfigurableScreenDeltasByQuery
+title: POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
 id: v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery
 ---
 
-# GetConfigurableScreenDeltasByQuery
+# POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
 
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
@@ -70,7 +70,11 @@ Response body: array
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -80,23 +84,23 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DeltaQuery": {
-    "RecipeId": "quos",
+    "RecipeId": "eaque",
     "DeltaStates": [
-      "sapiente",
-      "dolores"
+      "sequi",
+      "deserunt"
     ],
     "DeltaTypes": [
-      "omnis",
-      "ea"
+      "ullam",
+      "blanditiis"
     ],
     "UserGroupIds": [
-      532,
-      10
+      3,
+      328
     ]
   }
 }
@@ -108,14 +112,69 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 37,
-    "Name": "Schmitt-Klocko",
-    "Description": "Organic national pricing structure",
-    "DeltaJson": "facere",
+    "ConfigurableScreenDeltaId": 636,
+    "Name": "Medhurst Inc and Sons",
+    "Description": "Synchronised mission-critical encoding",
+    "DeltaJson": "iste",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "perferendis",
-    "UserGroupId": 49,
+    "RecipeId": "quae",
+    "UpdatedDate": "1997-06-02T18:28:48.4156236+02:00",
+    "CreatedDate": "1996-09-01T18:28:48.4156236+02:00",
+    "UpdatedBy": {
+      "AssociateId": 345,
+      "Name": "Friesen Group",
+      "PersonId": 143,
+      "Rank": 652,
+      "Tooltip": "qui",
+      "Type": "AnonymousAssociate",
+      "GroupIdx": 17,
+      "FullName": "Dr. Antone Buckridge",
+      "FormalName": "Dietrich, Borer and Hills",
+      "Deleted": false,
+      "EjUserId": 797,
+      "UserName": "Pouros Inc and Sons",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 819
+        }
+      }
+    },
+    "CreatedBy": {
+      "AssociateId": 515,
+      "Name": "Ratke-DuBuque",
+      "PersonId": 497,
+      "Rank": 822,
+      "Tooltip": "in",
+      "Type": "AnonymousAssociate",
+      "GroupIdx": 903,
+      "FullName": "Rylee Rogahn",
+      "FormalName": "Prohaska, Wisozk and Collier",
+      "Deleted": false,
+      "EjUserId": 712,
+      "UserName": "Jakubowski LLC",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 507
+        }
+      }
+    },
+    "UserGroupIds": [
+      100,
+      623
+    ],
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -127,7 +186,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 835
       }
     }
   }

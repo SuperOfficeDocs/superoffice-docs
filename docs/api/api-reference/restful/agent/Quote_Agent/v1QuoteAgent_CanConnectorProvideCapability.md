@@ -1,9 +1,9 @@
 ---
-title: CanConnectorProvideCapability
+title: POST Agents/Quote/CanConnectorProvideCapability
 id: v1QuoteAgent_CanConnectorProvideCapability
 ---
 
-# CanConnectorProvideCapability
+# POST Agents/Quote/CanConnectorProvideCapability
 
 ```http
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 624,
-  "CapabilityName": "Konopelski-Zieme"
+  "QuoteConnectionId": 949,
+  "CapabilityName": "Haley Group"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

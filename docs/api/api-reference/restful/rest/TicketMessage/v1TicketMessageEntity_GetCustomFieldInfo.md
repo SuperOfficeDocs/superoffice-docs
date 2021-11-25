@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Roberts-Johnston",
-  "DisplayName": "Rice Inc and Sons",
-  "Description": "Advanced transitional system engine",
-  "ShortLabel": "magni",
+  "FieldName": "Auer Inc and Sons",
+  "DisplayName": "Balistreri-Moen",
+  "Description": "Organized neutral leverage",
+  "ShortLabel": "sit",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": true,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 867,
-  "TemplateVariableName": "Mills, Morar and Conn"
+  "IsExternal": true,
+  "Rank": 97,
+  "TemplateVariableName": "Dietrich, Kuphal and Cole"
 }
 ```

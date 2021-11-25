@@ -1,9 +1,9 @@
 ---
-title: GetPersonSummary
+title: POST Agents/Person/GetPersonSummary
 id: v1PersonAgent_GetPersonSummary
 ---
 
-# GetPersonSummary
+# POST Agents/Person/GetPersonSummary
 
 ```http
 POST /api/v1/Agents/Person/GetPersonSummary
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Person/GetPersonSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 271,
-  "Limit": 132
+  "PersonId": 617,
+  "Limit": 678
 }
 ```
 
@@ -97,45 +97,45 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": {
-    "Position": "autem",
-    "PersonId": 553,
-    "Mrmrs": "non",
-    "Firstname": "Elnora",
-    "Lastname": "Herman",
-    "MiddleName": "Franecki Inc and Sons",
-    "Title": "nemo",
-    "Description": "Multi-channelled holistic migration",
-    "Email": "antwan@hermistonboehm.info",
-    "FullName": "Liliane Cassin V",
-    "DirectPhone": "(507)318-2443 x00343",
-    "FormalName": "Jaskolski, Mohr and Von",
-    "CountryId": 544,
-    "ContactId": 788,
-    "ContactName": "Donnelly Group",
-    "Retired": 139,
-    "Rank": 493,
-    "ActiveInterests": 807,
+    "Position": "quis",
+    "PersonId": 237,
+    "Mrmrs": "laudantium",
+    "Firstname": "Gunnar",
+    "Lastname": "Kling",
+    "MiddleName": "Upton LLC",
+    "Title": "tempora",
+    "Description": "Polarised fresh-thinking adapter",
+    "Email": "grace@brakus.co.uk",
+    "FullName": "Providenci Cassin V",
+    "DirectPhone": "528-455-4805 x46362",
+    "FormalName": "Zieme, Bartoletti and Jerde",
+    "CountryId": 771,
+    "ContactId": 810,
+    "ContactName": "Bartell-Roberts",
+    "Retired": 114,
+    "Rank": 566,
+    "ActiveInterests": 361,
     "ContactDepartment": "",
-    "ContactCountryId": 205,
-    "ContactOrgNr": "368214",
-    "FaxPhone": "736-247-0488 x823",
-    "MobilePhone": "276.060.1005 x87261",
-    "ContactPhone": "(221)520-7025 x435",
-    "AssociateName": "Bode, Williamson and McGlynn",
-    "AssociateId": 147,
+    "ContactCountryId": 716,
+    "ContactOrgNr": "1253791",
+    "FaxPhone": "1-257-104-8265",
+    "MobilePhone": "1-385-832-0166",
+    "ContactPhone": "811.130.2622 x0336",
+    "AssociateName": "Bednar, Streich and Lesch",
+    "AssociateId": 100,
     "UsePersonAddress": true,
-    "ContactFax": "sed",
-    "Kanafname": "molestiae",
-    "Kanalname": "numquam",
-    "Post1": "ut",
-    "Post2": "ex",
-    "Post3": "deserunt",
-    "EmailName": "garrick@reillymueller.co.uk",
-    "ContactFullName": "Michele Frami",
-    "ActiveErpLinks": 17,
-    "TicketPriorityId": 633,
-    "SupportLanguageId": 853,
-    "SupportAssociateId": 213,
+    "ContactFax": "ratione",
+    "Kanafname": "officia",
+    "Kanalname": "qui",
+    "Post1": "recusandae",
+    "Post2": "facilis",
+    "Post3": "quo",
+    "EmailName": "jerrold@pfannerstill.com",
+    "ContactFullName": "Trent Wehner",
+    "ActiveErpLinks": 424,
+    "TicketPriorityId": 11,
+    "SupportLanguageId": 344,
+    "SupportAssociateId": 630,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -145,83 +145,83 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 274
       }
     }
   },
   "Tickets": [
     {
-      "TicketId": 523,
-      "TicketStatus": 943,
-      "Title": "fugit",
-      "Registered": "2009-10-22T14:58:04.5814657+02:00"
+      "TicketId": 204,
+      "TicketStatus": 602,
+      "Title": "occaecati",
+      "Registered": "2002-01-06T18:28:49.4990899+01:00"
     },
     {
-      "TicketId": 523,
-      "TicketStatus": 943,
-      "Title": "fugit",
-      "Registered": "2009-10-22T14:58:04.5814657+02:00"
+      "TicketId": 204,
+      "TicketStatus": 602,
+      "Title": "occaecati",
+      "Registered": "2002-01-06T18:28:49.4990899+01:00"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 180,
-      "DocumentId": 364,
-      "Date": "2017-02-01T14:58:04.5814657+01:00",
-      "Description": "Total actuating hardware",
+      "AppointmentId": 846,
+      "DocumentId": 983,
+      "Date": "2004-10-21T18:28:49.4990899+02:00",
+      "Description": "Managed tangible info-mediaries",
       "Completed": "Completed",
-      "Registered": "2001-05-22T14:58:04.5814657+02:00"
+      "Registered": "2012-11-10T18:28:49.4990899+01:00"
     },
     {
-      "AppointmentId": 180,
-      "DocumentId": 364,
-      "Date": "2017-02-01T14:58:04.5814657+01:00",
-      "Description": "Total actuating hardware",
+      "AppointmentId": 846,
+      "DocumentId": 983,
+      "Date": "2004-10-21T18:28:49.4990899+02:00",
+      "Description": "Managed tangible info-mediaries",
       "Completed": "Completed",
-      "Registered": "2001-05-22T14:58:04.5814657+02:00"
+      "Registered": "2012-11-10T18:28:49.4990899+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 761,
-      "DocumentId": 745,
-      "Date": "2004-06-25T14:58:04.5814657+02:00",
-      "Description": "Versatile background algorithm",
+      "AppointmentId": 593,
+      "DocumentId": 682,
+      "Date": "2011-04-28T18:28:49.4990899+02:00",
+      "Description": "User-friendly value-added algorithm",
       "Completed": "Completed",
-      "Registered": "2019-08-03T14:58:04.5814657+02:00"
+      "Registered": "2020-05-20T18:28:49.4990899+02:00"
     },
     {
-      "AppointmentId": 761,
-      "DocumentId": 745,
-      "Date": "2004-06-25T14:58:04.5814657+02:00",
-      "Description": "Versatile background algorithm",
+      "AppointmentId": 593,
+      "DocumentId": 682,
+      "Date": "2011-04-28T18:28:49.4990899+02:00",
+      "Description": "User-friendly value-added algorithm",
       "Completed": "Completed",
-      "Registered": "2019-08-03T14:58:04.5814657+02:00"
+      "Registered": "2020-05-20T18:28:49.4990899+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 458,
-      "SaleDate": "1995-11-06T14:58:04.5814657+01:00",
-      "Probability": 896,
-      "Heading": "asperiores",
-      "Amount": 29475.27,
-      "Currency": "et",
-      "AmountInBaseCurrency": 6738.0999999999995,
+      "SaleId": 961,
+      "SaleDate": "2010-08-25T18:28:49.4990899+02:00",
+      "Probability": 264,
+      "Heading": "magni",
+      "Amount": 22740.304,
+      "Currency": "dolore",
+      "AmountInBaseCurrency": 4061.6639999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2016-05-30T14:58:04.5814657+02:00"
+      "Registered": "2011-07-14T18:28:49.4990899+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 989,
-      "Name": "Jenkins-Hermann",
-      "CompanyName": "Wuckert-Donnelly",
-      "FirstMessage": "iste",
-      "LastMessage": "a",
-      "WhenRequested": "2014-07-04T14:58:04.5814657+02:00",
-      "WhenEnded": "2017-05-16T14:58:04.5814657+02:00"
+      "ChatSessionId": 164,
+      "Name": "Bartoletti-Baumbach",
+      "CompanyName": "Russel, Senger and Prosacco",
+      "FirstMessage": "atque",
+      "LastMessage": "ea",
+      "WhenRequested": "2005-11-11T18:28:49.4990899+01:00",
+      "WhenEnded": "2005-04-10T18:28:49.4990899+02:00"
     }
   ]
 }

@@ -2,8 +2,6 @@
 title: Preference
 ---
 
-# Preference
-
 ```http
 /api/v1/Preference
 ```

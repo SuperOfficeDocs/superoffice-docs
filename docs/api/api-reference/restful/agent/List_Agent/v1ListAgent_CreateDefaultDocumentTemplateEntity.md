@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDocumentTemplateEntity
+title: POST Agents/List/CreateDefaultDocumentTemplateEntity
 id: v1ListAgent_CreateDefaultDocumentTemplateEntity
 ---
 
-# CreateDefaultDocumentTemplateEntity
+# POST Agents/List/CreateDefaultDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 385,
-  "Name": "Stamm-Torp",
-  "Tooltip": "laudantium",
-  "SaveInDb": 1001,
-  "Filename": "aspernatur",
-  "DefaultOref": "neque",
+  "DocumentTemplateId": 900,
+  "Name": "Purdy LLC",
+  "Tooltip": "aut",
+  "SaveInDb": 287,
+  "Filename": "deleniti",
+  "DefaultOref": "quis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 238,
-  "IntentId": 996,
+  "AutoeventId": 7,
+  "IntentId": 530,
   "IsDefaultPublished": true,
-  "Rank": 564,
-  "LoadTemplateFromPlugin": 120,
-  "MimeType": "ut",
+  "Rank": 82,
+  "LoadTemplateFromPlugin": 547,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 475,
+  "DocumentTypeKey": 249,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lizeth@millerleuschke.info",
-  "IncludeSignature": false,
+  "EmailSubject": "mateo.bogisich@stiedemanndubuque.com",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "antoinette@stoltenberg.name",
+  "SenderEmailAddress": "kendra_conroy@baumbachroberts.us",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetLocalizedTextsByType
+title: POST Agents/List/GetLocalizedTextsByType
 id: v1ListAgent_GetLocalizedTextsByType
 ---
 
-# GetLocalizedTextsByType
+# POST Agents/List/GetLocalizedTextsByType
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByType
@@ -78,13 +78,13 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "velit",
-    "optio"
+    "eum",
+    "ex"
   ]
 }
 ```
@@ -95,12 +95,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 43,
-    "ResourceId": 915,
-    "Text": "quia",
+    "LanguageId": 949,
+    "ResourceId": 769,
+    "Text": "quas",
     "Type": "Column",
-    "LocalizedTextId": 740,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 938,
+    "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldLength": 111
       }
     }
   }

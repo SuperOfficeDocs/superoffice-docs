@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -82,36 +82,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Mueller-Waelchi",
-    "ToolTip": "Dolorem maxime.",
-    "Deleted": false,
-    "Rank": 984,
-    "Type": "et",
-    "ColorBlock": 875,
-    "IconHint": "nesciunt",
-    "Selected": false,
-    "LastChanged": "2017-04-01T15:05:43.2098985+02:00",
+    "Id": 26,
+    "Name": "Kuhn LLC",
+    "ToolTip": "Ipsum et vel qui tempore.",
+    "Deleted": true,
+    "Rank": 487,
+    "Type": "quae",
+    "ColorBlock": 324,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2010-01-09T18:25:51.5772946+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Donnelly Group",
-        "ToolTip": "Et inventore iusto dicta.",
+        "Id": 804,
+        "Name": "Hegmann Group",
+        "ToolTip": "Nobis ullam.",
         "Deleted": false,
-        "Rank": 711,
-        "Type": "ipsum",
-        "ColorBlock": 155,
-        "IconHint": "facilis",
-        "Selected": false,
-        "LastChanged": "1997-03-28T15:05:43.2098985+01:00",
+        "Rank": 341,
+        "Type": "mollitia",
+        "ColorBlock": 337,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "1999-01-11T18:25:51.5772946+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quia",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Rasheed Quitzon Sr.",
+        "FullName": "Justina Schulist",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,16 +119,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldType": "System.String",
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Nathen O'Reilly",
+    "ExtraInfo": "atque",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Leola Berge MD",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldLength": 464
       }
     }
   }

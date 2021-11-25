@@ -1,9 +1,9 @@
 ---
-title: GetMySyncAppointments
+title: POST Agents/Appointment/GetMySyncAppointments
 id: v1AppointmentAgent_GetMySyncAppointments
 ---
 
-# GetMySyncAppointments
+# POST Agents/Appointment/GetMySyncAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
@@ -99,12 +99,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2014-11-28T14:58:03.1055728+01:00",
-  "EndTime": "2021-01-20T14:58:03.1055728+01:00"
+  "StartTime": "2010-08-01T18:28:47.746844+02:00",
+  "EndTime": "2015-03-21T18:28:47.746844+01:00"
 }
 ```
 
@@ -114,72 +114,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2008-11-04T14:58:03.1075676+01:00",
-    "AppointmentId": 963,
-    "AppointmentText": "veritatis",
+    "AlarmTime": "2015-03-02T18:28:47.7498176+01:00",
+    "AppointmentId": 968,
+    "AppointmentText": "aut",
     "ContactDepartment": "",
-    "ContactFullName": "Richie Fisher PhD",
-    "ContactName": "Shanahan, Reichert and Moen",
-    "ContactId": 2,
-    "EndDate": "2004-09-01T14:58:03.1075676+02:00",
-    "HasAlarm": true,
-    "IsAllDay": false,
-    "IsAssignment": true,
+    "ContactFullName": "Anya Lebsack",
+    "ContactName": "Friesen-Olson",
+    "ContactId": 786,
+    "EndDate": "2014-10-10T18:28:47.7498176+02:00",
+    "HasAlarm": false,
+    "IsAllDay": true,
+    "IsAssignment": false,
     "IsBusy": true,
     "IsCompleted": false,
     "IsInvitation": false,
-    "IsTentative": true,
-    "Location": "assumenda",
+    "IsTentative": false,
+    "Location": "nihil",
     "Participants": [
       {
-        "PersonId": 416,
-        "PersonFirstName": "Osinski, Vandervort and Hickle",
-        "PersonMiddleName": "Beier Group",
-        "PersonLastname": "Morar",
-        "PersonMrmrs": "accusamus",
-        "PersonTitle": "autem",
-        "PersonPosition": "officiis",
-        "PersonAcademicTitle": "consequuntur",
-        "PersonFormalName": "Greenfelder-Kuhn",
-        "PersonFullName": "Jack Abbott",
-        "ContactId": 149,
-        "ContactName": "Adams Inc and Sons",
+        "PersonId": 338,
+        "PersonFirstName": "Becker-Turner",
+        "PersonMiddleName": "Robel-Wyman",
+        "PersonLastname": "Zemlak",
+        "PersonMrmrs": "explicabo",
+        "PersonTitle": "sapiente",
+        "PersonPosition": "facere",
+        "PersonAcademicTitle": "maiores",
+        "PersonFormalName": "Beahan-Rogahn",
+        "PersonFullName": "Gillian Von",
+        "ContactId": 38,
+        "ContactName": "Hand, Green and Hagenes",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Dr. Mayra Boehm",
+        "ContactFullName": "Tobin Breitenberg",
         "EMail": [
-          "eligendi",
-          "ex"
+          "neque",
+          "et"
         ],
         "PhonePrivate": [
-          "(876)680-8150 x627",
-          "806-387-4537 x4760"
+          "072.244.7542",
+          "1-324-240-6234"
         ],
         "PhoneFax": [
-          "265.401.5473 x3006",
-          "1-521-268-0264 x82481"
+          "(523)863-8570",
+          "1-385-732-8044"
         ],
         "PhoneMobile": [
-          "(373)230-7732",
-          "805.647.3126 x427"
+          "886-755-5321",
+          "1-820-856-4584 x2284"
         ],
         "PhoneDirect": [
-          "380-171-5528",
-          "644-533-7331"
+          "(654)330-5424 x1773",
+          "378.583.7451 x58445"
         ],
         "PhoneContact": [
-          "(064)407-8385",
-          "080.764.1826 x547"
+          "728-788-7762 x6634",
+          "1-518-143-2438 x18271"
         ],
         "Messenger": [
-          "eveniet",
-          "nulla"
+          "doloremque",
+          "saepe"
         ],
         "Voip": [
-          "culpa",
-          "commodi"
+          "occaecati",
+          "qui"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -203,23 +203,23 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 982
           }
         }
       }
     ],
-    "PersonFormalName": "Beatty-Rolfson",
-    "PersonFullName": "Thad Bayer",
-    "PersonId": 644,
-    "ProjectId": 117,
-    "ProjectName": "Lemke-King",
-    "SaleId": 620,
-    "SaleName": "Hermiston, Dibbert and Keebler",
-    "StartDate": "1998-11-03T14:58:03.1085663+01:00",
-    "TaskName": "Kautzer-Gerlach",
+    "PersonFormalName": "Mohr-Beier",
+    "PersonFullName": "Berenice Fisher DVM",
+    "PersonId": 741,
+    "ProjectId": 582,
+    "ProjectName": "Breitenberg-Gerlach",
+    "SaleId": 589,
+    "SaleName": "Lindgren, Turcotte and Streich",
+    "StartDate": "1995-02-15T18:28:47.7508443+01:00",
+    "TaskName": "Abernathy-Lynch",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "reinvent mission-critical markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

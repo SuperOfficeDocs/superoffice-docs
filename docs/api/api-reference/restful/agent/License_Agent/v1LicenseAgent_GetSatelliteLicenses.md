@@ -1,9 +1,9 @@
 ---
-title: GetSatelliteLicenses
+title: POST Agents/License/GetSatelliteLicenses
 id: v1LicenseAgent_GetSatelliteLicenses
 ---
 
-# GetSatelliteLicenses
+# POST Agents/License/GetSatelliteLicenses
 
 ```http
 POST /api/v1/Agents/License/GetSatelliteLicenses
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 930
+  "SatelliteId": 539
 }
 ```
 
@@ -90,23 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen, Glover and O'Hara",
-    "Description": "Public-key grid-enabled success",
+    "Name": "Rodriguez Group",
+    "Description": "Stand-alone user-facing middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 696,
-        "Tooltip": "in",
+        "Total": 835,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 539,
-        "InUse": 821,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Harvey, Schultz and Kutch",
-        "Description": "Horizontal static matrix",
-        "PrerequisiteModuleName": "Hane Group",
-        "SortOrder": 801,
+        "Free": 251,
+        "InUse": 25,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 665,
+        "Name": "Quitzon-Hettinger",
+        "Description": "Synergistic global algorithm",
+        "PrerequisiteModuleName": "Ankunding Inc and Sons",
+        "SortOrder": 45,
+        "ExtraFlags": 486,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -114,8 +115,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 932
+            "FieldType": "System.Int32",
+            "FieldLength": 627
           }
         }
       }
@@ -123,18 +124,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 285,
-        "Tooltip": "voluptas",
-        "CanAssign": true,
-        "Free": 217,
-        "InUse": 716,
-        "IsHidden": false,
+        "Total": 40,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 341,
+        "InUse": 364,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 997,
-        "Name": "Armstrong-Brown",
-        "Description": "Multi-layered secondary ability",
-        "PrerequisiteModuleName": "Hermiston LLC",
-        "SortOrder": 363,
+        "ModuleLicenseId": 952,
+        "Name": "Grady-Rohan",
+        "Description": "Versatile asynchronous knowledge base",
+        "PrerequisiteModuleName": "Funk, Schneider and O'Connell",
+        "SortOrder": 516,
+        "ExtraFlags": 993,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 593
           }
         }
       }
@@ -156,31 +158,32 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "cultivate scalable platforms"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 424
       }
     }
   },
   {
-    "Name": "Luettgen, Glover and O'Hara",
-    "Description": "Public-key grid-enabled success",
+    "Name": "Rodriguez Group",
+    "Description": "Stand-alone user-facing middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 696,
-        "Tooltip": "in",
+        "Total": 835,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 539,
-        "InUse": 821,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Harvey, Schultz and Kutch",
-        "Description": "Horizontal static matrix",
-        "PrerequisiteModuleName": "Hane Group",
-        "SortOrder": 801,
+        "Free": 251,
+        "InUse": 25,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 665,
+        "Name": "Quitzon-Hettinger",
+        "Description": "Synergistic global algorithm",
+        "PrerequisiteModuleName": "Ankunding Inc and Sons",
+        "SortOrder": 45,
+        "ExtraFlags": 486,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -188,8 +191,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 932
+            "FieldType": "System.Int32",
+            "FieldLength": 627
           }
         }
       }
@@ -197,18 +200,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 285,
-        "Tooltip": "voluptas",
-        "CanAssign": true,
-        "Free": 217,
-        "InUse": 716,
-        "IsHidden": false,
+        "Total": 40,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 341,
+        "InUse": 364,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 997,
-        "Name": "Armstrong-Brown",
-        "Description": "Multi-layered secondary ability",
-        "PrerequisiteModuleName": "Hermiston LLC",
-        "SortOrder": 363,
+        "ModuleLicenseId": 952,
+        "Name": "Grady-Rohan",
+        "Description": "Versatile asynchronous knowledge base",
+        "PrerequisiteModuleName": "Funk, Schneider and O'Connell",
+        "SortOrder": 516,
+        "ExtraFlags": 993,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -216,8 +220,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 593
           }
         }
       }
@@ -230,10 +234,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "cultivate scalable platforms"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 424
       }
     }
   }

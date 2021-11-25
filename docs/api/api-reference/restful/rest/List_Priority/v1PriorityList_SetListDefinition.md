@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
-  "Name": "Kuhic-Okuneva",
-  "Tooltip": "architecto",
-  "Deleted": true,
-  "Rank": 201,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 294,
+  "Name": "Marvin, Muller and Lehner",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 519,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Nikolaus, Deckow and Murphy",
-  "Tooltip": "ullam",
-  "Deleted": true,
-  "Rank": 905,
+  "Id": 264,
+  "Name": "Johnson Group",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 741,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quibusdam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

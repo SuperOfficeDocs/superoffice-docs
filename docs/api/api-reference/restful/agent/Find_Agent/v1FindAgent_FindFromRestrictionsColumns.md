@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictionsColumns
+title: POST Agents/Find/FindFromRestrictionsColumns
 id: v1FindAgent_FindFromRestrictionsColumns
 ---
 
-# FindFromRestrictionsColumns
+# POST Agents/Find/FindFromRestrictionsColumns
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
@@ -110,40 +110,40 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Swaniawski-Gottlieb",
-      "Operator": "eaque",
+      "Name": "Davis-Purdy",
+      "Operator": "earum",
       "Values": [
-        "et",
-        "est"
+        "ut",
+        "veniam"
       ],
       "DisplayValues": [
-        "eveniet",
-        "et"
+        "dolorum",
+        "quis"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 943,
+      "InterParenthesis": 180,
       "InterOperator": "And",
-      "UniqueHash": 414
+      "UniqueHash": 996
     }
   ],
-  "ProviderName": "Bayer Group",
+  "ProviderName": "Halvorson-Kreiger",
   "DesiredColumns": [
-    "vitae",
-    "maxime"
+    "ducimus",
+    "velit"
   ],
-  "PageSize": 721,
-  "PageNumber": 748
+  "PageSize": 581,
+  "PageNumber": 837
 }
 ```
 
@@ -154,34 +154,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Beatty Inc and Sons",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "assumenda",
-      "CanOrderBy": true,
-      "Name": "Glover Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "ratione",
-      "RestrictionListName": "Klocko Group",
+      "DisplayName": "Schoen, Kris and Hyatt",
+      "DisplayTooltip": "quasi",
+      "DisplayType": "aut",
+      "CanOrderBy": false,
+      "Name": "Weber-Wiegand",
+      "CanRestrictBy": false,
+      "RestrictionType": "eaque",
+      "RestrictionListName": "Schaden, Rau and Stanton",
       "IsVisible": true,
-      "ExtraInfo": "provident",
-      "Width": "rerum",
-      "IconHint": "maiores",
-      "HeadingIconHint": "sint"
+      "ExtraInfo": "harum",
+      "Width": "voluptatem",
+      "IconHint": "numquam",
+      "HeadingIconHint": "magnam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Monahan Inc and Sons",
-      "PrimaryKey": 982,
+      "EntityName": "Gibson, Padberg and Smith",
+      "PrimaryKey": 26,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "rerum",
-          "LinkHint": "atque"
+          "DisplayValue": "corporis",
+          "TooltipHint": "fuga",
+          "LinkHint": "fugiat"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "est",
+      "LinkHint": "dolorem",
+      "StyleHint": "quasi",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -189,13 +189,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
-  "RowCount": 419,
+  "RowCount": 191,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -204,10 +204,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "grow robust technologies"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

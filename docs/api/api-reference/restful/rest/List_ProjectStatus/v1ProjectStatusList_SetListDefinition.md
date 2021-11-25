@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Murphy LLC",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 722,
-  "IsCustomList": true,
+  "Id": 948,
+  "Name": "Mante Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 367,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": false
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Barton-Flatley",
-  "Tooltip": "et",
+  "Id": 245,
+  "Name": "Kling LLC",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 696,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 96,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 107
     }
   }
 }

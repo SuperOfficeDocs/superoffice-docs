@@ -1,9 +1,9 @@
 ---
-title: GetTaskList
+title: POST Agents/List/GetTaskList
 id: v1ListAgent_GetTaskList
 ---
 
-# GetTaskList
+# POST Agents/List/GetTaskList
 
 ```http
 POST /api/v1/Agents/List/GetTaskList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTaskList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Value": "veritatis",
-    "Tooltip": "voluptate",
+    "Id": 521,
+    "Value": "non",
+    "Tooltip": "a",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   },
   {
-    "Id": 56,
-    "Value": "veritatis",
-    "Tooltip": "voluptate",
+    "Id": 521,
+    "Value": "non",
+    "Tooltip": "a",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

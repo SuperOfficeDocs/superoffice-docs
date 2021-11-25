@@ -1,9 +1,9 @@
 ---
-title: FindWithColumns
+title: POST Agents/Find/FindWithColumns
 id: v1FindAgent_FindWithColumns
 ---
 
-# FindWithColumns
+# POST Agents/Find/FindWithColumns
 
 ```http
 POST /api/v1/Agents/Find/FindWithColumns
@@ -86,26 +86,26 @@ Response body: object
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nulla",
-  "ProviderName": "Stark LLC",
-  "StorageKey": "iusto",
+  "StorageType": "voluptates",
+  "ProviderName": "Powlowski-Collins",
+  "StorageKey": "error",
   "DesiredColumns": [
-    "qui",
-    "tenetur"
+    "quod",
+    "alias"
   ],
-  "PageSize": 967,
-  "PageNumber": 163,
+  "PageSize": 299,
+  "PageNumber": 74,
   "OrderBy": [
     {
-      "Name": "Mayert, O'Hara and Bergnaum",
+      "Name": "Hegmann-Bruen",
       "Direction": "ASC"
     },
     {
-      "Name": "Mayert, O'Hara and Bergnaum",
+      "Name": "Hegmann-Bruen",
       "Direction": "ASC"
     }
   ]
@@ -119,48 +119,48 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Donnelly Group",
-      "DisplayTooltip": "esse",
-      "DisplayType": "quasi",
+      "DisplayName": "Ritchie Inc and Sons",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "mollitia",
       "CanOrderBy": false,
-      "Name": "Jewess Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "tenetur",
-      "RestrictionListName": "Johnston-King",
+      "Name": "Kshlerin-Parisian",
+      "CanRestrictBy": true,
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Skiles, Abshire and Rodriguez",
       "IsVisible": false,
-      "ExtraInfo": "dignissimos",
-      "Width": "accusamus",
-      "IconHint": "voluptatum",
-      "HeadingIconHint": "dolore"
+      "ExtraInfo": "quibusdam",
+      "Width": "quia",
+      "IconHint": "et",
+      "HeadingIconHint": "dolor"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Renner LLC",
-      "PrimaryKey": 916,
+      "EntityName": "Abernathy-Gulgowski",
+      "PrimaryKey": 439,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nostrum",
-          "TooltipHint": "magnam",
-          "LinkHint": "voluptate"
+          "DisplayValue": "aut",
+          "TooltipHint": "qui",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "iste",
-      "StyleHint": "sint",
+      "LinkHint": "voluptas",
+      "StyleHint": "assumenda",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "incubate holistic technologies"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldType": "System.String",
+          "FieldLength": 155
         }
       }
     }
   ],
-  "RowCount": 265,
+  "RowCount": 508,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 569
     }
   }
 }

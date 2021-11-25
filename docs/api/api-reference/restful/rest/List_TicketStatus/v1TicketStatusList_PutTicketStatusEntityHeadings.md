@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Johnston-Stoltenberg",
-    "Tooltip": "officia",
+    "HeadingId": 905,
+    "Name": "Carter, Blanda and Lakin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 857,
-    "UdListDefinitionId": 633
+    "Rank": 142,
+    "UdListDefinitionId": 144
   },
   {
-    "HeadingId": 369,
-    "Name": "Johnston-Stoltenberg",
-    "Tooltip": "officia",
+    "HeadingId": 905,
+    "Name": "Carter, Blanda and Lakin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 857,
-    "UdListDefinitionId": 633
+    "Rank": 142,
+    "UdListDefinitionId": 144
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 381,
-    "Name": "Bashirian, Dach and Nicolas",
-    "Tooltip": "ex",
+    "HeadingId": 825,
+    "Name": "Bartell-Davis",
+    "Tooltip": "odit",
     "Deleted": false,
-    "Rank": 97,
-    "UdListDefinitionId": 442,
+    "Rank": 616,
+    "UdListDefinitionId": 325,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 516
       }
     }
   }

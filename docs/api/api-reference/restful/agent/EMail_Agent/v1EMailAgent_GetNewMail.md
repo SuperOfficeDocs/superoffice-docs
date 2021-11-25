@@ -1,9 +1,9 @@
 ---
-title: GetNewMail
+title: POST Agents/EMail/GetNewMail
 id: v1EMailAgent_GetNewMail
 ---
 
-# GetNewMail
+# POST Agents/EMail/GetNewMail
 
 ```http
 POST /api/v1/Agents/EMail/GetNewMail
@@ -84,13 +84,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    897,
-    733
+    728,
+    562
   ]
 }
 ```
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 411,
-    "MessageId": "ex",
-    "Subject": "suscipit",
+    "ServerId": 999,
+    "MessageId": "reprehenderit",
+    "Subject": "adipisci",
     "From": {
-      "ContactId": 984,
-      "ContactName": "Schuppe, Schiller and Reichert",
-      "PersonId": 446,
-      "PersonName": "Breitenberg-Bergstrom",
-      "AssociateId": 124,
-      "Address": "asperiores",
-      "EmailId": 421,
+      "ContactId": 121,
+      "ContactName": "Schowalter-Cassin",
+      "PersonId": 2,
+      "PersonName": "Barrows LLC",
+      "AssociateId": 719,
+      "Address": "autem",
+      "EmailId": 245,
       "DuplicatePersonIds": [
-        952,
-        905
+        557,
+        825
       ],
-      "Name": "Trantow, Kiehn and King",
+      "Name": "Metz Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -125,24 +125,24 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 126
         }
       }
     },
     "To": [
       {
-        "ContactId": 239,
-        "ContactName": "Wunsch-O'Reilly",
-        "PersonId": 238,
-        "PersonName": "Cassin, Boehm and Rath",
-        "AssociateId": 797,
-        "Address": "qui",
-        "EmailId": 535,
+        "ContactId": 810,
+        "ContactName": "White Group",
+        "PersonId": 412,
+        "PersonName": "Dickinson Inc and Sons",
+        "AssociateId": 262,
+        "Address": "blanditiis",
+        "EmailId": 411,
         "DuplicatePersonIds": [
-          968,
-          306
+          938,
+          791
         ],
-        "Name": "Jerde, Hyatt and Lockman",
+        "Name": "Towne Inc and Sons",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -151,24 +151,24 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldLength": 701
           }
         }
       }
     ],
-    "Sent": "2008-05-16T14:58:04.0694658+02:00",
+    "Sent": "1997-01-28T18:28:48.9819509+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 824,
+    "Size": 218,
     "EMailSOInfo": {
-      "DocumentId": 517,
-      "AppointmentId": 993,
-      "ProjectId": 906,
-      "SaleId": 955,
+      "DocumentId": 222,
+      "AppointmentId": 920,
+      "ProjectId": 419,
+      "SaleId": 814,
       "Archived": false,
-      "ArchivedAt": "2004-11-29T14:58:04.0694658+01:00",
-      "ArchivedBy": 468,
-      "ArchivedDisplayName": "Funk-Robel",
+      "ArchivedAt": "2015-11-30T18:28:48.9819509+01:00",
+      "ArchivedBy": 506,
+      "ArchivedDisplayName": "Bernhard, Hagenes and Hudson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     },
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

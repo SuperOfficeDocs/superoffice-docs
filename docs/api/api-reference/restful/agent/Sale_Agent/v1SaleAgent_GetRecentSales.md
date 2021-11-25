@@ -1,9 +1,9 @@
 ---
-title: GetRecentSales
+title: POST Agents/Sale/GetRecentSales
 id: v1SaleAgent_GetRecentSales
 ---
 
-# GetRecentSales
+# POST Agents/Sale/GetRecentSales
 
 ```http
 POST /api/v1/Agents/Sale/GetRecentSales
@@ -102,8 +102,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 270,
-  "Count": 512
+  "AmountLimit": 419,
+  "Count": 56
 }
 ```
 
@@ -113,31 +113,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Becker LLC",
-    "SaleDate": "2016-01-29T14:58:05.186632+01:00",
-    "SaleId": 245,
-    "Probability": 782,
-    "Title": "quidem",
-    "Amount": 26121.89,
-    "Currency": "voluptas",
-    "ProjectName": "Wehner Inc and Sons",
-    "AssociateFullName": "Mrs. Jazmyn Volkman",
-    "Description": "Pre-emptive 24 hour standardization",
+    "ContactName": "Thiel, Reynolds and Harvey",
+    "SaleDate": "1999-12-13T18:28:50.1764418+01:00",
+    "SaleId": 294,
+    "Probability": 746,
+    "Title": "consequatur",
+    "Amount": 26632.732,
+    "Currency": "possimus",
+    "ProjectName": "Langworth Group",
+    "AssociateFullName": "Lavada Koch I",
+    "Description": "Organic clear-thinking algorithm",
     "Status": "Lost",
-    "WeightedAmount": 8057.514,
-    "ProjectId": 226,
-    "EarningPercent": 463.832,
-    "Earning": 2692.1059999999998,
-    "ContactId": 581,
-    "AssociateId": 676,
-    "PersonId": 709,
-    "SaleTypeId": 153,
-    "SaleTypeName": "Collier, Hegmann and Mayer",
-    "PersonFullName": "Emmalee Lebsack",
+    "WeightedAmount": 9821.956,
+    "ProjectId": 477,
+    "EarningPercent": 29023.974,
+    "Earning": 25322.719999999998,
+    "ContactId": 513,
+    "AssociateId": 138,
+    "PersonId": 652,
+    "SaleTypeId": 475,
+    "SaleTypeName": "Nicolas LLC",
+    "PersonFullName": "Doug Walker",
     "Completed": "Completed",
-    "ActiveErpLinks": 380,
-    "NextDueDate": "1995-12-22T14:58:05.186632+01:00",
-    "Number": "698228",
+    "ActiveErpLinks": 376,
+    "NextDueDate": "2001-05-15T18:28:50.1764418+02:00",
+    "Number": "1415641",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldLength": 189
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: ValidateQuoteVersion
+title: POST Agents/Quote/ValidateQuoteVersion
 id: v1QuoteAgent_ValidateQuoteVersion
 ---
 
-# ValidateQuoteVersion
+# POST Agents/Quote/ValidateQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 331,
+  "QuoteVersionId": 980,
   "Action": "Approve"
 }
 ```
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "mollitia",
-  "TechExplanation": "sequi",
-  "ErrorCode": "placeat",
+  "IsOk": true,
+  "UserExplanation": "illo",
+  "TechExplanation": "voluptatem",
+  "ErrorCode": "consequuntur",
   "ChangedSale": {
-    "ContactName": "Morissette LLC",
-    "SaleDate": "2001-02-02T14:58:04.9324603+01:00",
-    "SaleId": 563,
-    "Probability": 99,
-    "Title": "tenetur",
-    "Amount": 21681.012,
-    "Currency": "quasi",
-    "ProjectName": "Kovacek, Schmeler and Hermiston",
-    "AssociateFullName": "Miss Claire Armstrong",
-    "Description": "Future-proofed tertiary initiative",
+    "ContactName": "Ryan-Gorczany",
+    "SaleDate": "1999-03-03T18:28:49.9141372+01:00",
+    "SaleId": 878,
+    "Probability": 935,
+    "Title": "tempore",
+    "Amount": 4403.2699999999995,
+    "Currency": "et",
+    "ProjectName": "Lesch-Dare",
+    "AssociateFullName": "Camila Koepp",
+    "Description": "Switchable secondary orchestration",
     "Status": "Lost",
-    "WeightedAmount": 24097.326,
-    "ProjectId": 460,
-    "EarningPercent": 29798.072,
-    "Earning": 4478.486,
-    "ContactId": 735,
-    "AssociateId": 419,
-    "PersonId": 318,
-    "SaleTypeId": 392,
-    "SaleTypeName": "Weimann, Wuckert and Reichel",
-    "PersonFullName": "Jesus Hodkiewicz",
+    "WeightedAmount": 4409.538,
+    "ProjectId": 326,
+    "EarningPercent": 12557.938,
+    "Earning": 2287.8199999999997,
+    "ContactId": 766,
+    "AssociateId": 654,
+    "PersonId": 425,
+    "SaleTypeId": 9,
+    "SaleTypeName": "King, Considine and Prohaska",
+    "PersonFullName": "Andy Grady",
     "Completed": "Completed",
-    "ActiveErpLinks": 207,
-    "NextDueDate": "1999-12-24T14:58:04.9324603+01:00",
-    "Number": "1279902",
+    "ActiveErpLinks": 967,
+    "NextDueDate": "2008-05-12T18:28:49.9151085+02:00",
+    "Number": "719505",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -137,24 +137,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldType": "System.String",
+        "FieldLength": 123
       }
     }
   },
   "ChangedQuote": {
-    "QuoteId": 80,
-    "SaleId": 635,
-    "QuoteConnectionId": 910,
-    "ERPQuoteKey": "est",
-    "ERPOrderKey": "quos",
-    "ActiveQuoteVersionId": 856,
-    "AcceptedQuoteAlternativeId": 583,
-    "UseValuesFromQuote": 231,
-    "DocumentId": 587,
-    "PoNumber": "903539",
-    "OrderComment": "adipisci",
-    "PreferredEmailCulture": "garrick_botsford@kulas.ca",
+    "QuoteId": 456,
+    "SaleId": 634,
+    "QuoteConnectionId": 224,
+    "ERPQuoteKey": "totam",
+    "ERPOrderKey": "ullam",
+    "ActiveQuoteVersionId": 206,
+    "AcceptedQuoteAlternativeId": 868,
+    "UseValuesFromQuote": 579,
+    "DocumentId": 386,
+    "PoNumber": "1326519",
+    "OrderComment": "fugit",
+    "PreferredEmailCulture": "ada@jacobsjohnston.info",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {},
     "TableRight": {},
@@ -164,48 +164,48 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 553
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   },
   "ChangedQuoteVersion": {
-    "QuoteVersionId": 457,
-    "ERPQuoteVersionKey": "hic",
-    "QuoteId": 851,
-    "Description": "Grass-roots fault-tolerant application",
-    "Number": "608146",
+    "QuoteVersionId": 679,
+    "ERPQuoteVersionKey": "ex",
+    "QuoteId": 377,
+    "Description": "Managed exuding toolset",
+    "Number": "929495",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 126,
-    "SentDate": "2017-11-08T14:58:04.9334545+01:00",
-    "FollowupId": 227,
-    "ExpirationDate": "1996-08-15T14:58:04.9334545+02:00",
-    "DeliveryCountryId": 88,
+    "LikelyQuoteAlternativeId": 542,
+    "SentDate": "2017-10-31T18:28:49.9161089+01:00",
+    "FollowupId": 153,
+    "ExpirationDate": "1996-02-29T18:28:49.9161089+01:00",
+    "DeliveryCountryId": 836,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 253,
+    "InvoiceCountryId": 677,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "laudantium",
-    "ERPPaymentTypeKey": "dolorem",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "qui",
-    "Rank": 354,
-    "ApprovedBy": 541,
-    "ApprovedText": "voluptas",
-    "ApprovedRegisteredBy": 942,
-    "ApprovedRegisteredDate": "2010-09-23T14:58:04.9334545+02:00",
-    "ExtraField1": "minima",
-    "ExtraField2": "itaque",
-    "ExtraField3": "necessitatibus",
-    "ExtraField4": "doloremque",
-    "ExtraField5": "vero",
-    "LastRecalculated": "2014-09-18T14:58:04.9334545+02:00",
-    "Updated": "2008-05-25T14:58:04.9334545+02:00",
-    "UpdatedAssociateId": 371,
-    "Registered": "1995-12-29T14:58:04.9334545+01:00",
-    "RegisteredAssociateId": 679,
+    "ERPPaymentTermsKey": "quia",
+    "ERPPaymentTypeKey": "neque",
+    "ERPDeliveryTermsKey": "quas",
+    "ERPDeliveryTypeKey": "magnam",
+    "Rank": 363,
+    "ApprovedBy": 728,
+    "ApprovedText": "odit",
+    "ApprovedRegisteredBy": 829,
+    "ApprovedRegisteredDate": "2000-04-04T18:28:49.9161089+02:00",
+    "ExtraField1": "earum",
+    "ExtraField2": "odio",
+    "ExtraField3": "quam",
+    "ExtraField4": "mollitia",
+    "ExtraField5": "voluptatibus",
+    "LastRecalculated": "1998-08-01T18:28:49.9161089+02:00",
+    "Updated": "1996-02-02T18:28:49.9161089+01:00",
+    "UpdatedAssociateId": 127,
+    "Registered": "2014-12-18T18:28:49.9161089+01:00",
+    "RegisteredAssociateId": 273,
     "QuoteAlternatives": [
       {},
       {}
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 443
       }
     }
   },
@@ -234,8 +234,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     },
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     }
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

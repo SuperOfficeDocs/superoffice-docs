@@ -1,9 +1,9 @@
 ---
-title: GetPriceList
+title: POST Agents/Quote/GetPriceList
 id: v1QuoteAgent_GetPriceList
 ---
 
-# GetPriceList
+# POST Agents/Quote/GetPriceList
 
 ```http
 POST /api/v1/Agents/Quote/GetPriceList
@@ -25,7 +25,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=280
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=267
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 458,
-  "ERPPriceListKey": "quod",
-  "QuoteConnectionId": 28,
-  "Name": "Rodriguez-Hegmann",
-  "Description": "Compatible responsive parallelism",
-  "Currency": "commodi",
-  "CurrencyName": "Hand Group",
-  "ValidFrom": "2008-08-24T14:58:04.9934717+02:00",
-  "ValidTo": "2007-01-16T14:58:04.9934717+01:00",
-  "IsActive": true,
+  "PriceListId": 491,
+  "ERPPriceListKey": "dolorem",
+  "QuoteConnectionId": 691,
+  "Name": "Bashirian, Dach and Auer",
+  "Description": "Mandatory demand-driven migration",
+  "Currency": "sit",
+  "CurrencyName": "Barrows, Bergnaum and VonRueden",
+  "ValidFrom": "2004-01-02T18:28:49.9811329+01:00",
+  "ValidTo": "1996-01-03T18:28:49.9811329+01:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 594
     }
   }
 }

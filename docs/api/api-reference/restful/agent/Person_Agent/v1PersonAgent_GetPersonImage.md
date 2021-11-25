@@ -1,9 +1,9 @@
 ---
-title: GetPersonImage
+title: POST Agents/Person/GetPersonImage
 id: v1PersonAgent_GetPersonImage
 ---
 
-# GetPersonImage
+# POST Agents/Person/GetPersonImage
 
 ```http
 POST /api/v1/Agents/Person/GetPersonImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Person/GetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 275
+  "PersonId": 523
 }
 ```
 

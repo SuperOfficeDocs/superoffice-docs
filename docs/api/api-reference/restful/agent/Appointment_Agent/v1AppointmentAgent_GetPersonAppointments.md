@@ -1,9 +1,9 @@
 ---
-title: GetPersonAppointments
+title: POST Agents/Appointment/GetPersonAppointments
 id: v1AppointmentAgent_GetPersonAppointments
 ---
 
-# GetPersonAppointments
+# POST Agents/Appointment/GetPersonAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointments
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 411,
+  "PersonId": 205,
   "IncludeProjectAppointments": true,
-  "StartTime": "2012-08-21T14:58:03.0415384+02:00",
-  "EndTime": "2020-07-27T14:58:03.0415384+02:00",
-  "Count": 281
+  "StartTime": "2000-10-15T18:28:47.8848454+02:00",
+  "EndTime": "2001-05-19T18:28:47.8848454+02:00",
+  "Count": 999
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 847,
-    "StartDate": "1994-05-02T14:58:03.0425385+02:00",
-    "EndDate": "2007-10-31T14:58:03.0425385+01:00",
+    "AppointmentId": 168,
+    "StartDate": "2011-04-12T18:28:47.8858448+02:00",
+    "EndDate": "2010-04-12T18:28:47.8858448+02:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Chyna Vandervort",
-    "ContactName": "Powlowski-Rippin",
-    "Description": "Advanced optimizing service-desk",
-    "PersonFullName": "Shirley Mohr",
-    "PersonId": 62,
-    "ContactId": 545,
-    "ProjectId": 3,
-    "ProjectName": "O'Keefe-Effertz",
+    "Task": "magni",
+    "AssociateFullName": "Nikolas Cassin",
+    "ContactName": "Fahey, Veum and Walter",
+    "Description": "Networked even-keeled ability",
+    "PersonFullName": "Lessie Fahey",
+    "PersonId": 125,
+    "ContactId": 380,
+    "ProjectId": 164,
+    "ProjectName": "Kovacek-Greenfelder",
     "IsPublished": true,
-    "AssociateId": 779,
-    "ColorIndex": 892,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 42,
+    "ColorIndex": 105,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 279,
-    "PriorityName": "Prosacco-Douglas",
+    "PriorityId": 380,
+    "PriorityName": "Prosacco-Considine",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1999-05-23T14:58:03.0425385+02:00",
+    "ActiveDate": "2009-12-27T18:28:47.8858448+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-02-19T14:58:03.0435384+01:00",
-    "RecurringEndDate": "1995-03-18T14:58:03.0435384+01:00",
-    "MotherId": 78,
-    "AssignedBy": 232,
-    "AssignedByFullName": "Willow Graham",
+    "RecurringStartDate": "2008-11-12T18:28:47.8858448+01:00",
+    "RecurringEndDate": "2003-04-14T18:28:47.8858448+02:00",
+    "MotherId": 530,
+    "AssignedBy": 786,
+    "AssignedByFullName": "Mireille Gleason",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "nisi",
-    "SaleId": 294,
-    "SaleName": "Roberts-Boyer",
-    "AssociateName": "VonRueden Inc and Sons",
-    "CreatedDate": "2005-05-30T14:58:03.0435384+02:00",
-    "CreatedBy": "ullam",
-    "CreatedByFullName": "Karl Shields",
-    "CreatedByAssociateId": 709,
+    "Location": "consequatur",
+    "AlarmLeadTime": "hic",
+    "SaleId": 522,
+    "SaleName": "Borer-Keebler",
+    "AssociateName": "Kulas Inc and Sons",
+    "CreatedDate": "1999-11-29T18:28:47.8868444+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Cordelia Renner",
+    "CreatedByAssociateId": 357,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 707
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   }

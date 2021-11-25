@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Swaniawski-Howell",
-    "Tooltip": "quae",
+    "Id": 705,
+    "Name": "Schowalter-Mayer",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 32
+    "UdListDefinitionId": 837,
+    "Rank": 398
   },
   {
-    "Id": 152,
-    "Name": "Swaniawski-Howell",
-    "Tooltip": "quae",
+    "Id": 705,
+    "Name": "Schowalter-Mayer",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 32
+    "UdListDefinitionId": 837,
+    "Rank": 398
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Jacobson LLC",
-    "Tooltip": "exercitationem",
+    "Id": 586,
+    "Name": "Zboncak Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 154,
-    "Rank": 941,
+    "UdListDefinitionId": 555,
+    "Rank": 45,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

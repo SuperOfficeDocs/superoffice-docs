@@ -1,9 +1,9 @@
 ---
-title: CreateForwardEmail
+title: POST Agents/EMail/CreateForwardEmail
 id: v1EMailAgent_CreateForwardEmail
 ---
 
-# CreateForwardEmail
+# POST Agents/EMail/CreateForwardEmail
 
 ```http
 POST /api/v1/Agents/EMail/CreateForwardEmail
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "eum",
-    "HTMLBody": "rerum",
+    "Subject": "magni",
+    "HTMLBody": "perspiciatis",
     "From": {},
-    "Sent": "2015-01-16T14:58:04.1634604+01:00",
-    "Size": 407,
+    "Sent": "2020-04-01T18:28:48.973955+02:00",
+    "Size": 295,
     "Priority": "High",
     "Flags": "Answered",
     "MessageID": "quis",
-    "PlainBody": "sed",
+    "PlainBody": "est",
     "IsSent": false,
     "EMailSOInfo": {},
-    "ServerId": 725,
+    "ServerId": 112,
     "Attachments": [
       {},
       {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Ziemann, Wilkinson and Kirlin",
-    "EmailItemId": 408,
-    "AccountId": 661,
-    "ReceivedAt": "2001-09-28T14:58:04.1634604+02:00",
+    "FolderName": "Will-Kiehn",
+    "EmailItemId": 676,
+    "AccountId": 580,
+    "ReceivedAt": "2014-08-24T18:28:48.9749549+02:00",
     "InReplyTo": {},
-    "RepliedAt": "2003-10-13T14:58:04.1634604+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2007-01-31T18:28:48.9749549+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   }
@@ -162,18 +162,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 813,
-      "ContactName": "McCullough, Thiel and Sporer",
-      "PersonId": 404,
-      "PersonName": "Swaniawski, Fadel and Ferry",
-      "AssociateId": 488,
-      "Address": "voluptatem",
-      "EmailId": 210,
+      "ContactId": 902,
+      "ContactName": "Marks-Huel",
+      "PersonId": 563,
+      "PersonName": "Von LLC",
+      "AssociateId": 239,
+      "Address": "quisquam",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        963,
-        133
+        889,
+        300
       ],
-      "Name": "Borer, Schamberger and Lang",
+      "Name": "Padberg-Koss",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -182,25 +182,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldLength": 319
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 172,
-      "ContactName": "Wiegand-Turcotte",
-      "PersonId": 682,
-      "PersonName": "Macejkovic-Hane",
-      "AssociateId": 280,
-      "Address": "reiciendis",
-      "EmailId": 642,
+      "ContactId": 915,
+      "ContactName": "Wisoky, Bashirian and Beahan",
+      "PersonId": 514,
+      "PersonName": "Zieme-McCullough",
+      "AssociateId": 346,
+      "Address": "quis",
+      "EmailId": 801,
       "DuplicatePersonIds": [
-        315,
-        437
+        139,
+        823
       ],
-      "Name": "Casper, Moore and Bergnaum",
+      "Name": "Lehner, Crist and Kihn",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -209,25 +209,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldLength": 228
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 390,
-      "ContactName": "Lemke Inc and Sons",
-      "PersonId": 882,
-      "PersonName": "Kiehn LLC",
-      "AssociateId": 843,
+      "ContactId": 174,
+      "ContactName": "Sipes, Monahan and Gerhold",
+      "PersonId": 585,
+      "PersonName": "Jewess-Moen",
+      "AssociateId": 217,
       "Address": "maiores",
-      "EmailId": 476,
+      "EmailId": 941,
       "DuplicatePersonIds": [
-        710,
-        221
+        603,
+        358
       ],
-      "Name": "Wisoky-Dicki",
+      "Name": "Mueller-Johnson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -236,26 +236,26 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 685
         }
       }
     }
   ],
-  "Subject": "incidunt",
-  "HTMLBody": "illum",
+  "Subject": "sunt",
+  "HTMLBody": "vel",
   "From": {
-    "ContactId": 468,
-    "ContactName": "Orn Group",
-    "PersonId": 323,
-    "PersonName": "Daniel, Kreiger and Kessler",
-    "AssociateId": 239,
-    "Address": "consequatur",
-    "EmailId": 396,
+    "ContactId": 8,
+    "ContactName": "Schuster, Champlin and Zemlak",
+    "PersonId": 17,
+    "PersonName": "Klocko Group",
+    "AssociateId": 105,
+    "Address": "ut",
+    "EmailId": 237,
     "DuplicatePersonIds": [
-      547,
-      281
+      415,
+      56
     ],
-    "Name": "Schaden, Hoppe and Wisoky",
+    "Name": "Keeling, Bernier and Mills",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -263,27 +263,27 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   },
-  "Sent": "2003-04-08T14:58:04.1654603+02:00",
-  "Size": 647,
+  "Sent": "2004-05-09T18:28:48.9779273+02:00",
+  "Size": 823,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "totam",
-  "PlainBody": "exercitationem",
+  "MessageID": "officiis",
+  "PlainBody": "sed",
   "IsSent": false,
   "EMailSOInfo": {
-    "DocumentId": 215,
-    "AppointmentId": 470,
-    "ProjectId": 416,
-    "SaleId": 57,
+    "DocumentId": 452,
+    "AppointmentId": 446,
+    "ProjectId": 579,
+    "SaleId": 591,
     "Archived": false,
-    "ArchivedAt": "2005-05-30T14:58:04.1654603+02:00",
-    "ArchivedBy": 521,
-    "ArchivedDisplayName": "Schroeder Group",
+    "ArchivedAt": "2008-10-16T18:28:48.9779273+02:00",
+    "ArchivedBy": 224,
+    "ArchivedDisplayName": "Raynor LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -291,21 +291,21 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   },
-  "ServerId": 798,
+  "ServerId": 187,
   "Attachments": [
     {
-      "Description": "Exclusive foreground definition",
-      "Filename": "impedit",
-      "Size": 265,
-      "Type": "reiciendis",
-      "Encoding": "qui",
-      "Id": "aliquam",
-      "Disposition": "fuga",
+      "Description": "User-centric methodical hardware",
+      "Filename": "maxime",
+      "Size": 487,
+      "Type": "recusandae",
+      "Encoding": "voluptas",
+      "Id": "nemo",
+      "Disposition": "quasi",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
@@ -314,18 +314,18 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 946
+          "FieldType": "System.Int32",
+          "FieldLength": 988
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cremin, Walsh and Cole",
+      "Name": "King-Schiller",
       "Values": [
-        "odit",
-        "et"
+        "laudantium",
+        "tenetur"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -334,16 +334,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 402
         }
       }
     },
     {
-      "Name": "Cremin, Walsh and Cole",
+      "Name": "King-Schiller",
       "Values": [
-        "odit",
-        "et"
+        "laudantium",
+        "tenetur"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -352,29 +352,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 402
         }
       }
     }
   ],
-  "FolderName": "Bauch-Bayer",
-  "EmailItemId": 78,
-  "AccountId": 937,
-  "ReceivedAt": "2003-03-18T14:58:04.1654603+01:00",
+  "FolderName": "Waelchi LLC",
+  "EmailItemId": 99,
+  "AccountId": 970,
+  "ReceivedAt": "2021-11-03T18:28:48.9779273+01:00",
   "InReplyTo": {
-    "ServerId": 194,
-    "MessageId": "qui",
-    "Subject": "unde",
+    "ServerId": 391,
+    "MessageId": "labore",
+    "Subject": "aliquam",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "2008-04-02T14:58:04.1664604+02:00",
+    "Sent": "2009-11-26T18:28:48.9779273+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 784,
+    "Size": 828,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -383,12 +383,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldType": "System.Int32",
+        "FieldLength": 113
       }
     }
   },
-  "RepliedAt": "1994-08-31T14:58:04.1664604+02:00",
+  "RepliedAt": "2009-11-23T18:28:48.9779273+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -400,10 +400,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enable revolutionary e-tailers"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 67
     }
   }
 }

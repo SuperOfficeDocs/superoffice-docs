@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Kihn, Denesik and Nader",
-  "Tooltip": "sit",
+  "Id": 532,
+  "Name": "Lemke Group",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "Rank": 934,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 986,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 40
     }
   },
   "_Links": {

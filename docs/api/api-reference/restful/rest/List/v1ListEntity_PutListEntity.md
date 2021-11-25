@@ -101,20 +101,20 @@ Response body: object
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Homenick-Adams",
-  "Tooltip": "tempora",
+  "Id": 568,
+  "Name": "Robel-Heathcote",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 609,
-  "IsCustomList": false,
+  "Rank": 569,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -123,15 +123,15 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "Name": "Weber, Wisozk and Mayert",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 77,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 561,
+  "Name": "Marks LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 414,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "ListType": "sit",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 223
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

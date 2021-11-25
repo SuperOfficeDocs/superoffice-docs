@@ -96,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Simonis-Wehner",
-    "ToolTip": "Et vel aperiam eius hic esse autem.",
+    "Id": 660,
+    "Name": "Hauck, Baumbach and Swaniawski",
+    "ToolTip": "Non tempore amet delectus.",
     "Deleted": false,
-    "Rank": 900,
-    "Type": "dolores",
-    "ColorBlock": 794,
-    "IconHint": "qui",
+    "Rank": 152,
+    "Type": "qui",
+    "ColorBlock": 534,
+    "IconHint": "voluptas",
     "Selected": true,
-    "LastChanged": "2020-03-04T15:05:43.2108983+01:00",
+    "LastChanged": "2014-08-24T18:25:51.5782944+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Lubowitz, Kihn and Becker",
-        "ToolTip": "Tempora ullam.",
-        "Deleted": false,
-        "Rank": 26,
-        "Type": "est",
-        "ColorBlock": 767,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2012-10-02T15:05:43.2108983+02:00",
+        "Id": 903,
+        "Name": "Cummerata, Hackett and Friesen",
+        "ToolTip": "Alias ipsam.",
+        "Deleted": true,
+        "Rank": 244,
+        "Type": "ad",
+        "ColorBlock": 253,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-03-20T18:25:51.5782944+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Cheyenne Schuster"
+        "ExtraInfo": "tempora",
+        "StyleHint": "animi",
+        "Hidden": true,
+        "FullName": "Quincy Hammes"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Adolphus Hauck"
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "deleniti",
+    "Hidden": true,
+    "FullName": "Kara Schinner"
   }
 ]
 ```
@@ -147,56 +147,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Heaney Group",
-    "ToolTip": "Sapiente possimus sed harum esse et ipsa.",
-    "Deleted": false,
-    "Rank": 308,
-    "Type": "error",
-    "ColorBlock": 952,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "1999-04-29T15:05:43.2118983+02:00",
+    "Id": 783,
+    "Name": "Ebert, Corkery and Keeling",
+    "ToolTip": "Sit omnis mollitia laboriosam quos.",
+    "Deleted": true,
+    "Rank": 3,
+    "Type": "et",
+    "ColorBlock": 354,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2020-01-19T18:25:51.5792947+01:00",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Nitzsche-Spencer",
-        "ToolTip": "Est officia voluptatem delectus.",
+        "Id": 573,
+        "Name": "Kovacek Inc and Sons",
+        "ToolTip": "Omnis molestiae dolore praesentium veniam odio dolorum.",
         "Deleted": true,
-        "Rank": 402,
-        "Type": "quia",
-        "ColorBlock": 939,
-        "IconHint": "totam",
+        "Rank": 386,
+        "Type": "porro",
+        "ColorBlock": 425,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2006-03-09T15:05:43.2118983+01:00",
+        "LastChanged": "2009-12-06T18:25:51.5792947+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Hermann Johnston",
+        "ExtraInfo": "quo",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Tamia Harris",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "harness ubiquitous vortals"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 422
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "cumque",
-    "Hidden": false,
-    "FullName": "Elva Cummings",
+    "ExtraInfo": "totam",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Margret Quitzon",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "envisioneer customized metrics"
     },
     "FieldProperties": {
       "fieldName": {
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 86
       }
     }
   }

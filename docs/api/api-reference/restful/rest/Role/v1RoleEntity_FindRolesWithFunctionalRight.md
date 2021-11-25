@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,47 +81,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Friesen Group",
-    "ToolTip": "Laboriosam corrupti delectus.",
-    "Deleted": false,
-    "Rank": 614,
-    "Type": "at",
+    "Id": 26,
+    "Name": "Stroman, Paucek and Bechtelar",
+    "ToolTip": "Perspiciatis consectetur cumque deserunt ratione natus.",
+    "Deleted": true,
+    "Rank": 713,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Schultz, Mitchell and Ebert",
-        "ToolTip": "Rerum molestiae dolorem est molestiae ratione labore.",
+        "Id": 652,
+        "Name": "Bartoletti LLC",
+        "ToolTip": "Cum itaque fugiat molestiae suscipit.",
         "Deleted": true,
-        "Rank": 559,
-        "Type": "quis",
+        "Rank": 602,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 256,
-        "ExtraInfo": "laborum",
-        "StyleHint": "dolor",
-        "FullName": "Vernice Tremblay",
+        "IconHint": "quia",
+        "ColorBlock": 259,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "nulla",
+        "FullName": "Felipa Little",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "transition bricks-and-clicks metrics"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 403
+            "FieldLength": 93
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 452,
-    "ExtraInfo": "in",
-    "StyleHint": "molestiae",
-    "FullName": "Deron Wisozk",
+    "IconHint": "culpa",
+    "ColorBlock": 354,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "iste",
+    "FullName": "Fae Swaniawski Jr.",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   }

@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Reichel, Terry and Roberts",
-    "ToolTip": "Animi dolore esse.",
+    "Id": 411,
+    "Name": "Hamill LLC",
+    "ToolTip": "A labore aut cum.",
     "Deleted": true,
-    "Rank": 248,
-    "Type": "et",
-    "ColorBlock": 499,
-    "IconHint": "accusamus",
+    "Rank": 622,
+    "Type": "ea",
+    "ColorBlock": 387,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "1999-03-12T15:05:43.5100796+01:00",
+    "LastChanged": "2004-10-12T18:25:51.8634869+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Ritchie, Wunsch and Swaniawski",
-        "ToolTip": "Dolor ducimus illo neque error dolorem nostrum.",
+        "Id": 285,
+        "Name": "Luettgen-Jerde",
+        "ToolTip": "Laudantium itaque ut voluptatibus in nesciunt qui.",
         "Deleted": true,
-        "Rank": 286,
-        "Type": "consequatur",
-        "ColorBlock": 132,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2014-02-07T15:05:43.5100796+01:00",
+        "Rank": 616,
+        "Type": "nulla",
+        "ColorBlock": 823,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2017-05-19T18:25:51.8785853+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Miss Lionel Smitham",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Mr. Heloise Roob",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 265
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "quibusdam",
-    "Hidden": false,
-    "FullName": "Elfrieda Eichmann",
+    "ExtraInfo": "omnis",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Marquise Weber",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "matrix robust supply-chains"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 7
       }
     }
   }

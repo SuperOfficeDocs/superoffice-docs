@@ -1,9 +1,9 @@
 ---
-title: GetMyAppointments
+title: POST Agents/Appointment/GetMyAppointments
 id: v1AppointmentAgent_GetMyAppointments
 ---
 
-# GetMyAppointments
+# POST Agents/Appointment/GetMyAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyAppointments
@@ -127,9 +127,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2005-02-21T14:58:03.0385385+01:00",
-  "EndTime": "2010-01-10T14:58:03.0385385+01:00",
-  "Count": 346
+  "StartTime": "1996-08-23T18:28:47.8818482+02:00",
+  "EndTime": "2005-09-26T18:28:47.8818482+02:00",
+  "Count": 441
 }
 ```
 
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 628,
-    "StartDate": "2002-04-05T14:58:03.0395384+02:00",
-    "EndDate": "2000-03-18T14:58:03.0395384+01:00",
+    "AppointmentId": 54,
+    "StartDate": "1997-10-24T18:28:47.8838473+02:00",
+    "EndDate": "2007-10-09T18:28:47.8838473+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Jaida Cronin",
-    "ContactName": "Gaylord Inc and Sons",
-    "Description": "Inverse bifurcated Graphical User Interface",
-    "PersonFullName": "Alice O'Connell",
-    "PersonId": 962,
-    "ContactId": 889,
-    "ProjectId": 305,
-    "ProjectName": "Gorczany, Hand and Schowalter",
+    "Task": "neque",
+    "AssociateFullName": "Dashawn Romaguera",
+    "ContactName": "Muller-Bode",
+    "Description": "Business-focused incremental framework",
+    "PersonFullName": "Shanny Beahan",
+    "PersonId": 916,
+    "ContactId": 671,
+    "ProjectId": 347,
+    "ProjectName": "Walker-Schimmel",
     "IsPublished": true,
-    "AssociateId": 2,
-    "ColorIndex": 838,
+    "AssociateId": 573,
+    "ColorIndex": 245,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 272,
-    "PriorityName": "Rogahn-Leffler",
+    "PriorityId": 558,
+    "PriorityName": "Reilly-Heathcote",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-03-18T14:58:03.0405381+01:00",
+    "ActiveDate": "2006-07-28T18:28:47.8838473+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-04-07T14:58:03.0405381+02:00",
-    "RecurringEndDate": "1999-04-23T14:58:03.0405381+02:00",
-    "MotherId": 508,
-    "AssignedBy": 920,
-    "AssignedByFullName": "Destinee Reichert",
+    "RecurringStartDate": "2008-07-25T18:28:47.8838473+02:00",
+    "RecurringEndDate": "2011-11-03T18:28:47.8838473+01:00",
+    "MotherId": 867,
+    "AssignedBy": 946,
+    "AssignedByFullName": "Joesph Wunsch III",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "praesentium",
-    "SaleId": 225,
-    "SaleName": "Koelpin, Barrows and Kuphal",
-    "AssociateName": "Reichert Inc and Sons",
-    "CreatedDate": "2020-12-21T14:58:03.0415384+01:00",
-    "CreatedBy": "reprehenderit",
-    "CreatedByFullName": "Alexandre Collier",
-    "CreatedByAssociateId": 754,
+    "Location": "praesentium",
+    "AlarmLeadTime": "quisquam",
+    "SaleId": 590,
+    "SaleName": "VonRueden Inc and Sons",
+    "AssociateName": "Franecki Inc and Sons",
+    "CreatedDate": "2020-01-12T18:28:47.8848454+01:00",
+    "CreatedBy": "laboriosam",
+    "CreatedByFullName": "Gloria Kirlin Jr.",
+    "CreatedByAssociateId": 536,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

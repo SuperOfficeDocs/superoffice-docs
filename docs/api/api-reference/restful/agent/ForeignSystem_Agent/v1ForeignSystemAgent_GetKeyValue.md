@@ -1,9 +1,9 @@
 ---
-title: GetKeyValue
+title: POST Agents/ForeignSystem/GetKeyValue
 id: v1ForeignSystemAgent_GetKeyValue
 ---
 
-# GetKeyValue
+# POST Agents/ForeignSystem/GetKeyValue
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
@@ -72,15 +72,15 @@ Response body: string
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gleason LLC",
-  "DeviceName": "Baumbach Inc and Sons",
-  "KeyName": "Swift, Wuckert and Pfannerstill",
-  "TableName": "Kshlerin-Williamson",
-  "RecordId": 312
+  "ApplicationName": "Lang LLC",
+  "DeviceName": "Crist Group",
+  "KeyName": "Raynor, Thompson and White",
+  "TableName": "Leffler-Schimmel",
+  "RecordId": 579
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"possimus"
+"eius"
 ```

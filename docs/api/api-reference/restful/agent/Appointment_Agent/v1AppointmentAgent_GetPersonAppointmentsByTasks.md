@@ -1,9 +1,9 @@
 ---
-title: GetPersonAppointmentsByTasks
+title: POST Agents/Appointment/GetPersonAppointmentsByTasks
 id: v1AppointmentAgent_GetPersonAppointmentsByTasks
 ---
 
-# GetPersonAppointmentsByTasks
+# POST Agents/Appointment/GetPersonAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
@@ -126,18 +126,18 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 674,
+  "PersonId": 747,
   "IncludeProjectAppointments": false,
-  "StartTime": "1999-09-17T14:58:02.847573+02:00",
-  "EndTime": "2015-06-08T14:58:02.847573+02:00",
-  "Count": 859,
+  "StartTime": "2002-11-30T18:28:47.6978174+01:00",
+  "EndTime": "2012-11-24T18:28:47.6978174+01:00",
+  "Count": 190,
   "TaskIds": [
-    360,
-    856
+    101,
+    771
   ]
 }
 ```
@@ -148,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 179,
-    "StartDate": "2013-09-24T14:58:02.849575+02:00",
-    "EndDate": "1997-08-09T14:58:02.849575+02:00",
+    "AppointmentId": 627,
+    "StartDate": "2000-10-28T18:28:47.6988176+02:00",
+    "EndDate": "2003-05-11T18:28:47.6988176+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Alysson Koelpin",
-    "ContactName": "Morar-Krajcik",
-    "Description": "Mandatory executive attitude",
-    "PersonFullName": "Halle Jones",
-    "PersonId": 599,
-    "ContactId": 378,
-    "ProjectId": 894,
-    "ProjectName": "Daniel, Bruen and Mante",
-    "IsPublished": false,
-    "AssociateId": 104,
-    "ColorIndex": 705,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "aut",
+    "AssociateFullName": "Heloise Carter",
+    "ContactName": "Schultz Group",
+    "Description": "Automated system-worthy policy",
+    "PersonFullName": "Ansel Cremin",
+    "PersonId": 339,
+    "ContactId": 982,
+    "ProjectId": 999,
+    "ProjectName": "Senger, Beer and Brown",
+    "IsPublished": true,
+    "AssociateId": 535,
+    "ColorIndex": 712,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 407,
-    "PriorityName": "Tremblay, Ortiz and Bradtke",
+    "PriorityId": 783,
+    "PriorityName": "Kuhic, Grant and Auer",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1997-12-17T14:58:02.8505736+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2008-10-23T18:28:47.6998171+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-06-15T14:58:02.8505736+02:00",
-    "RecurringEndDate": "2003-10-27T14:58:02.8505736+01:00",
-    "MotherId": 866,
-    "AssignedBy": 764,
-    "AssignedByFullName": "Faustino Bergnaum",
+    "RecurringStartDate": "2001-03-27T18:28:47.6998171+02:00",
+    "RecurringEndDate": "2018-10-06T18:28:47.6998171+02:00",
+    "MotherId": 757,
+    "AssignedBy": 103,
+    "AssignedByFullName": "Carmine Olson",
     "RejectReason": "",
-    "Location": "fugit",
-    "AlarmLeadTime": "velit",
-    "SaleId": 448,
-    "SaleName": "Brown, Boehm and Powlowski",
-    "AssociateName": "Huels Inc and Sons",
-    "CreatedDate": "2005-08-29T14:58:02.8505736+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Audrey Romaguera",
-    "CreatedByAssociateId": 382,
+    "Location": "rerum",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 641,
+    "SaleName": "Cartwright-Farrell",
+    "AssociateName": "Kuhn-Spencer",
+    "CreatedDate": "2017-07-22T18:28:47.6998171+02:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Jo Fay",
+    "CreatedByAssociateId": 565,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldType": "System.String",
+        "FieldLength": 407
       }
     }
   }

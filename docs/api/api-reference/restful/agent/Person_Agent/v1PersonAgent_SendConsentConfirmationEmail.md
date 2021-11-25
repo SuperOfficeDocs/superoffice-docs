@@ -1,9 +1,9 @@
 ---
-title: SendConsentConfirmationEmail
+title: POST Agents/Person/SendConsentConfirmationEmail
 id: v1PersonAgent_SendConsentConfirmationEmail
 ---
 
-# SendConsentConfirmationEmail
+# POST Agents/Person/SendConsentConfirmationEmail
 
 ```http
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail

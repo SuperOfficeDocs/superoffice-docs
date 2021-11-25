@@ -79,18 +79,18 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 11 Sep 2007 15:05:42 G9T
+Last-Modified: Mon, 24 Apr 2000 18:25:50 G4T
 
 {
-  "ForeignDeviceId": 176,
-  "Name": "Raynor, Jast and Jerde",
-  "CreatedDate": "2013-02-05T15:05:42.2406339+01:00",
-  "UpdatedDate": "2007-09-11T15:05:42.2406339+02:00",
-  "AssociateFullName": "Cody Kovacek IV",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "nihil",
-  "DeviceIdentifier": "dignissimos",
-  "ForeignAppId": 193,
+  "ForeignDeviceId": 415,
+  "Name": "Lindgren Group",
+  "CreatedDate": "2000-08-16T18:25:50.5705973+02:00",
+  "UpdatedDate": "2000-04-24T18:25:50.5705973+02:00",
+  "AssociateFullName": "Tevin Kuvalis DVM",
+  "CreatedBy": "laborum",
+  "UpdatedBy": "enim",
+  "DeviceIdentifier": "dolores",
+  "ForeignAppId": 497,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -101,8 +101,8 @@ Last-Modified: Tue, 11 Sep 2007 15:05:42 G9T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

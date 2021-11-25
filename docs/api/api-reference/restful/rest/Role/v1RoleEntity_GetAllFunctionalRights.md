@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Reichel LLC",
-    "ToolTip": "Et consequatur perferendis.",
+    "Id": 421,
+    "Name": "Crooks Inc and Sons",
+    "ToolTip": "Asperiores blanditiis cupiditate labore et.",
     "Deleted": false,
-    "Rank": 623,
-    "Type": "autem",
-    "ColorBlock": 837,
-    "IconHint": "amet",
+    "Rank": 782,
+    "Type": "placeat",
+    "ColorBlock": 431,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2010-05-11T15:05:42.5676353+02:00",
+    "LastChanged": "1997-06-08T18:25:50.8768836+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Lakin-Legros",
-        "ToolTip": "Est placeat eum.",
-        "Deleted": false,
-        "Rank": 641,
-        "Type": "reprehenderit",
-        "ColorBlock": 220,
-        "IconHint": "quis",
+        "Id": 542,
+        "Name": "Brakus-Crona",
+        "ToolTip": "Rerum facilis possimus eum labore nisi quisquam.",
+        "Deleted": true,
+        "Rank": 617,
+        "Type": "ut",
+        "ColorBlock": 235,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2004-11-26T15:05:42.5676353+01:00",
+        "LastChanged": "2000-10-20T18:25:50.8768836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Russell Towne",
+        "ExtraInfo": "veniam",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Berry Runolfsdottir",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,16 +121,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 464
+            "FieldType": "System.String",
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Irma Koss",
+    "FullName": "Emmy Turner I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

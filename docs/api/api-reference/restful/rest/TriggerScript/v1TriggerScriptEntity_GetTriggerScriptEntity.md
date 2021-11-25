@@ -94,16 +94,16 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 869,
-  "Name": "White-Beer",
+  "ScreenChooserId": 232,
+  "Name": "O'Hara Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "deserunt",
-  "Source": "qui",
-  "Registered": "2013-05-08T15:05:42.9586326+02:00",
-  "RegisteredAssociateId": 247,
-  "Updated": "2010-07-30T15:05:42.9586326+02:00",
-  "UpdatedAssociateId": 720,
+  "Enabled": false,
+  "UniqueIdentifier": "nam",
+  "Source": "ex",
+  "Registered": "2009-08-24T18:25:51.3171054+02:00",
+  "RegisteredAssociateId": 871,
+  "Updated": "1994-12-23T18:25:51.3171054+01:00",
+  "UpdatedAssociateId": 334,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   },
   "_Links": {

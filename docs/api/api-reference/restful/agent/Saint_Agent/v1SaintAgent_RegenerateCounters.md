@@ -1,9 +1,9 @@
 ---
-title: RegenerateCounters
+title: POST Agents/Saint/RegenerateCounters
 id: v1SaintAgent_RegenerateCounters
 ---
 
-# RegenerateCounters
+# POST Agents/Saint/RegenerateCounters
 
 ```http
 POST /api/v1/Agents/Saint/RegenerateCounters
@@ -98,11 +98,11 @@ Response body: object
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -111,33 +111,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Harris LLC",
-  "AssociateId": 666,
-  "DetailsTable": 300,
-  "DetailsRecord": 950,
+  "Id": 628,
+  "Name": "Gulgowski, Stanton and Rosenbaum",
+  "AssociateId": 101,
+  "DetailsTable": 559,
+  "DetailsRecord": 275,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "inventore"
+    "ParameterObject1": "praesentium",
+    "ParameterObject2": "non"
   },
-  "LastStarted": "2003-01-18T14:58:05.1086289+01:00",
-  "Created": "2012-06-24T14:58:05.1086289+02:00",
-  "StartCount": 727,
-  "DatabaseSerialNumber": "461348",
-  "Context": "placeat",
-  "Result": "rem",
+  "LastStarted": "2019-05-14T18:28:50.043671+02:00",
+  "Created": "2021-03-28T18:28:50.043671+02:00",
+  "StartCount": 774,
+  "DatabaseSerialNumber": "1746647",
+  "Context": "totam",
+  "Result": "incidunt",
   "State": "All",
-  "Description": "Networked fault-tolerant help-desk",
-  "Response": "qui",
-  "Request": "vel",
-  "ProgressDescription": "Fundamental tangible model",
-  "ProgressPercent": 611,
-  "FileName": "Greenfelder Group",
+  "Description": "Configurable 4th generation portal",
+  "Response": "eum",
+  "Request": "aut",
+  "ProgressDescription": "Robust content-based ability",
+  "ProgressPercent": 449,
+  "FileName": "Prohaska LLC",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "mesh mission-critical action-items"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldLength": 326
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetConfigParametersByLayoutName
+title: POST Agents/Audience/GetConfigParametersByLayoutName
 id: v1AudienceAgent_GetConfigParametersByLayoutName
 ---
 
-# GetConfigParametersByLayoutName
+# POST Agents/Audience/GetConfigParametersByLayoutName
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Jenkins LLC"
+  "LayoutName": "Sipes Inc and Sons"
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 325,
-    "Name": "Thompson-Aufderhar",
-    "Value": "nam",
-    "CreatedDate": "2019-03-24T14:58:03.2592353+01:00",
-    "UpdatedDate": "2021-03-06T14:58:03.2592353+01:00",
-    "CreatedBy": "hic",
-    "UpdatedBy": "recusandae",
+    "AudienceLayoutId": 69,
+    "Name": "Donnelly Inc and Sons",
+    "Value": "facilis",
+    "CreatedDate": "2003-06-25T18:28:48.1315431+02:00",
+    "UpdatedDate": "2003-10-02T18:28:48.1315431+02:00",
+    "CreatedBy": "ut",
+    "UpdatedBy": "aliquam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 280
       }
     }
   }

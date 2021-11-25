@@ -1,9 +1,9 @@
 ---
-title: GetQuoteLines
+title: POST Agents/Quote/GetQuoteLines
 id: v1QuoteAgent_GetQuoteLines
 ---
 
-# GetQuoteLines
+# POST Agents/Quote/GetQuoteLines
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLines
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 49
+  "QuoteAlternativeId": 959
 }
 ```
 
@@ -135,37 +135,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 429,
-    "ERPQuoteLineKey": "quia",
-    "QuoteAlternativeId": 148,
-    "ERPProductKey": "ea",
+    "QuoteLineId": 150,
+    "ERPQuoteLineKey": "dolor",
+    "QuoteAlternativeId": 726,
+    "ERPProductKey": "sed",
     "Status": "Error",
-    "Reason": "",
-    "Quantity": 12388.702,
-    "DeliveredQuantity": 8283.162,
-    "Rank": 733,
-    "Name": "Marquardt-Feest",
-    "Description": "Compatible bandwidth-monitored system engine",
-    "Code": "et",
-    "QuantityUnit": "voluptatibus",
-    "PriceUnit": "et",
-    "ItemNumber": "1012716",
+    "Reason": "cultivate customized supply-chains",
+    "Quantity": 18098.85,
+    "DeliveredQuantity": 3278.1639999999998,
+    "Rank": 158,
+    "Name": "Jerde, Zulauf and Okuneva",
+    "Description": "Self-enabling local migration",
+    "Code": "fuga",
+    "QuantityUnit": "id",
+    "PriceUnit": "voluptas",
+    "ItemNumber": "123998",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "neque",
-    "ProductTypeKey": "voluptatibus",
-    "Supplier": "perspiciatis",
-    "SupplierCode": "illum",
-    "Thumbnail": "debitis",
-    "VATInfo": "repudiandae",
-    "VAT": 28629.09,
-    "UnitCost": 6957.48,
-    "UnitMinimumPrice": 29409.456,
-    "UnitListPrice": 18512.538,
+    "ProductFamilyKey": "consectetur",
+    "ProductTypeKey": "consequuntur",
+    "Supplier": "et",
+    "SupplierCode": "sunt",
+    "Thumbnail": "odio",
+    "VATInfo": "ut",
+    "VAT": 28506.863999999998,
+    "UnitCost": 30863.631999999998,
+    "UnitMinimumPrice": 23304.424,
+    "UnitListPrice": 4227.766,
     "ExtraInfo": [
       {
-        "Name": "Boyer, Mayer and Kovacek",
-        "Value": "culpa",
+        "Name": "Kerluke, Runolfsdottir and Pouros",
+        "Value": "dolore",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
@@ -174,14 +174,14 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldType": "System.Int32",
+            "FieldLength": 939
           }
         }
       },
       {
-        "Name": "Boyer, Mayer and Kovacek",
-        "Value": "culpa",
+        "Name": "Kerluke, Runolfsdottir and Pouros",
+        "Value": "dolore",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
@@ -190,33 +190,33 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldType": "System.Int32",
+            "FieldLength": 939
           }
         }
       }
     ],
-    "RawExtraInfo": "et",
-    "IsSubscription": true,
-    "SubscriptionUnit": "quo",
-    "SubscriptionQuantity": 29544.218,
-    "SubscriptionStart": "2010-10-09T14:58:04.9854647+02:00",
-    "ERPDiscountPercent": 836.778,
-    "ERPDiscountAmount": 7615.62,
-    "DiscountPercent": 28300.02,
-    "DiscountAmount": 12792.988,
+    "RawExtraInfo": "velit",
+    "IsSubscription": false,
+    "SubscriptionUnit": "aliquid",
+    "SubscriptionQuantity": 4462.816,
+    "SubscriptionStart": "2021-06-21T18:28:49.9691371+02:00",
+    "ERPDiscountPercent": 26620.196,
+    "ERPDiscountAmount": 21978.742,
+    "DiscountPercent": 11404.626,
+    "DiscountAmount": 14134.34,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 22517.79,
-    "EarningAmount": 28801.46,
-    "SubTotal": 24558.023999999998,
-    "TotalPrice": 10574.116,
-    "Rights": "nam",
-    "Rule": "perferendis",
-    "ExtraField1": "quos",
-    "ExtraField2": "ratione",
-    "ExtraField3": "ut",
-    "ExtraField4": "et",
-    "ExtraField5": "explicabo",
+    "EarningPercent": 11135.101999999999,
+    "EarningAmount": 30453.077999999998,
+    "SubTotal": 26388.28,
+    "TotalPrice": 18440.456,
+    "Rights": "nobis",
+    "Rule": "quisquam",
+    "ExtraField1": "aut",
+    "ExtraField2": "a",
+    "ExtraField3": "alias",
+    "ExtraField4": "aliquam",
+    "ExtraField5": "provident",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 755
+        "FieldLength": 374
       }
     }
   }

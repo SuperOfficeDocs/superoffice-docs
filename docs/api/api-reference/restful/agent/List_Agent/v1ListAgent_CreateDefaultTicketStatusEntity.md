@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTicketStatusEntity
+title: POST Agents/List/CreateDefaultTicketStatusEntity
 id: v1ListAgent_CreateDefaultTicketStatusEntity
 ---
 
-# CreateDefaultTicketStatusEntity
+# POST Agents/List/CreateDefaultTicketStatusEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
@@ -54,6 +54,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -63,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -71,11 +73,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 424,
-  "Name": "Bergnaum, Torphy and Kerluke",
+  "TicketStatusId": 596,
+  "Name": "Rutherford-Conn",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,8 +90,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

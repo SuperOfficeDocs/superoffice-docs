@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedFieldFromProgId
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
 ---
 
-# GetUserDefinedFieldFromProgId
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
@@ -112,11 +112,11 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "aut",
+  "ProgId": "quisquam",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 881,
-  "ColumnId": 435,
-  "FieldDefault": "velit",
-  "FieldHeight": 783,
-  "FieldLabel": "sit",
-  "FieldLeft": 280,
-  "FieldTop": 644,
+  "UDefFieldId": 721,
+  "ColumnId": 378,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 163,
+  "FieldLabel": "aut",
+  "FieldLeft": 10,
+  "FieldTop": 357,
   "FieldType": "Checkbox",
-  "FieldWidth": 750,
-  "FormatMask": "optio",
-  "HideLabel": true,
+  "FieldWidth": 413,
+  "FormatMask": "itaque",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 501,
-  "LabelLeft": 266,
-  "LabelTop": 928,
-  "LabelWidth": 575,
-  "LastVersionId": 154,
-  "ListTableId": 899,
+  "LabelHeight": 689,
+  "LabelLeft": 258,
+  "LabelTop": 518,
+  "LabelWidth": 41,
+  "LastVersionId": 782,
+  "ListTableId": 537,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 753,
-  "ProgId": "nihil",
-  "IsReadOnly": false,
-  "ShortLabel": "ducimus",
-  "TabOrder": 994,
-  "TextLength": 343,
-  "Tooltip": "est",
-  "UdefIdentity": 415,
-  "UDListDefinitionId": 36,
+  "Page1LineNo": 776,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "a",
+  "TabOrder": 478,
+  "TextLength": 151,
+  "Tooltip": "et",
+  "UdefIdentity": 59,
+  "UDListDefinitionId": 828,
   "Justification": "Center",
-  "Version": 246,
-  "TemplateVariableName": "Osinski Inc and Sons",
+  "Version": 276,
+  "TemplateVariableName": "Pouros, Prohaska and Morissette",
   "HasBeenPublished": true,
-  "MdoListName": "Kemmer-Romaguera",
+  "MdoListName": "Greenholt, Hessel and Cronin",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

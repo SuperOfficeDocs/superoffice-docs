@@ -1,9 +1,9 @@
 ---
-title: GetTask
+title: POST Agents/List/GetTask
 id: v1ListAgent_GetTask
 ---
 
-# GetTask
+# POST Agents/List/GetTask
 
 ```http
 POST /api/v1/Agents/List/GetTask
@@ -25,7 +25,7 @@ Gets a Task object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTask?taskId=3
+POST /api/v1/Agents/List/GetTask?taskId=123
 POST /api/v1/Agents/List/GetTask?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Value": "et",
-  "Tooltip": "sed",
+  "Id": 310,
+  "Value": "doloremque",
+  "Tooltip": "molestias",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldLength": 178
     }
   }
 }

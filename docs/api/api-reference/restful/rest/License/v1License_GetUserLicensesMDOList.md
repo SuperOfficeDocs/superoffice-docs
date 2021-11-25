@@ -68,7 +68,7 @@ Response body: array
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -77,36 +77,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Hamill, Vandervort and Klein",
-    "ToolTip": "Assumenda labore deserunt molestiae tempore voluptate.",
+    "Id": 212,
+    "Name": "Schneider Group",
+    "ToolTip": "Quo ea.",
     "Deleted": false,
-    "Rank": 99,
-    "Type": "sint",
-    "ColorBlock": 766,
-    "IconHint": "et",
+    "Rank": 696,
+    "Type": "et",
+    "ColorBlock": 193,
+    "IconHint": "cumque",
     "Selected": false,
-    "LastChanged": "2019-09-30T15:05:43.0116671+02:00",
+    "LastChanged": "2013-06-14T18:25:51.3721179+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Lockman-Crist",
-        "ToolTip": "Quis praesentium at officiis et.",
-        "Deleted": true,
-        "Rank": 244,
-        "Type": "ipsam",
-        "ColorBlock": 251,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "1995-01-27T15:05:43.0116671+01:00",
+        "Id": 706,
+        "Name": "Rutherford Inc and Sons",
+        "ToolTip": "Praesentium quis.",
+        "Deleted": false,
+        "Rank": 499,
+        "Type": "iusto",
+        "ColorBlock": 634,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "1998-06-15T18:25:51.3721179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "non",
+        "ExtraInfo": "officiis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Constance Rempel",
+        "FullName": "Tatum Rutherford",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -114,16 +114,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "qui",
+    "ExtraInfo": "animi",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Nicole Steuber",
+    "FullName": "Lexi Swift",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 424
+        "FieldLength": 212
       }
     }
   }

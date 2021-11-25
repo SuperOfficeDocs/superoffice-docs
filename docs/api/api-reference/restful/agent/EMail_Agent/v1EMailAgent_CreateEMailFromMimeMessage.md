@@ -1,9 +1,9 @@
 ---
-title: CreateEMailFromMimeMessage
+title: POST Agents/EMail/CreateEMailFromMimeMessage
 id: v1EMailAgent_CreateEMailFromMimeMessage
 ---
 
-# CreateEMailFromMimeMessage
+# POST Agents/EMail/CreateEMailFromMimeMessage
 
 ```http
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "eius"
+  "MimeMessage": "consectetur"
 }
 ```
 
@@ -120,18 +120,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 239,
-      "ContactName": "Kassulke, Koelpin and Grady",
-      "PersonId": 888,
-      "PersonName": "Howell, Rowe and Christiansen",
-      "AssociateId": 11,
-      "Address": "animi",
-      "EmailId": 503,
+      "ContactId": 4,
+      "ContactName": "Reichert Group",
+      "PersonId": 444,
+      "PersonName": "Collier, Denesik and Zboncak",
+      "AssociateId": 18,
+      "Address": "quis",
+      "EmailId": 945,
       "DuplicatePersonIds": [
-        669,
-        412
+        500,
+        16
       ],
-      "Name": "Anderson-Windler",
+      "Name": "Dickinson-Fadel",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -140,52 +140,52 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldLength": 362
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 393,
-      "ContactName": "Wintheiser-Weissnat",
-      "PersonId": 425,
-      "PersonName": "Littel, Kris and Raynor",
-      "AssociateId": 802,
-      "Address": "unde",
-      "EmailId": 375,
+      "ContactId": 898,
+      "ContactName": "Balistreri-Shanahan",
+      "PersonId": 228,
+      "PersonName": "Wisoky-Von",
+      "AssociateId": 935,
+      "Address": "quos",
+      "EmailId": 620,
       "DuplicatePersonIds": [
-        292,
-        808
+        515,
+        677
       ],
-      "Name": "Hayes, Harvey and Hackett",
+      "Name": "Ledner Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "optimize efficient communities"
           },
           "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldLength": 963
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 637,
-      "ContactName": "Halvorson-Schimmel",
-      "PersonId": 406,
-      "PersonName": "Feil, Reichel and Ondricka",
-      "AssociateId": 283,
-      "Address": "aperiam",
-      "EmailId": 91,
+      "ContactId": 431,
+      "ContactName": "Howell, Jast and Kunde",
+      "PersonId": 909,
+      "PersonName": "Zieme Inc and Sons",
+      "AssociateId": 643,
+      "Address": "ea",
+      "EmailId": 751,
       "DuplicatePersonIds": [
-        321,
-        945
+        618,
+        751
       ],
-      "Name": "Medhurst-Eichmann",
+      "Name": "Emmerich-Bins",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -194,26 +194,26 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldLength": 327
         }
       }
     }
   ],
-  "Subject": "exercitationem",
-  "HTMLBody": "possimus",
+  "Subject": "laboriosam",
+  "HTMLBody": "libero",
   "From": {
-    "ContactId": 340,
-    "ContactName": "Sporer-Fadel",
-    "PersonId": 528,
-    "PersonName": "Klein, Stanton and Hansen",
-    "AssociateId": 338,
-    "Address": "alias",
-    "EmailId": 143,
+    "ContactId": 953,
+    "ContactName": "Schmeler Group",
+    "PersonId": 797,
+    "PersonName": "Rodriguez-Bergstrom",
+    "AssociateId": 398,
+    "Address": "voluptatem",
+    "EmailId": 558,
     "DuplicatePersonIds": [
-      588,
-      483
+      421,
+      27
     ],
-    "Name": "Bruen Inc and Sons",
+    "Name": "Kulas-Moore",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -222,26 +222,26 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 354
+        "FieldLength": 778
       }
     }
   },
-  "Sent": "2010-10-13T14:58:04.1334325+02:00",
-  "Size": 865,
+  "Sent": "2003-12-07T18:28:49.0489689+01:00",
+  "Size": 731,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facilis",
-  "PlainBody": "vel",
-  "IsSent": false,
+  "MessageID": "dolorem",
+  "PlainBody": "dolorem",
+  "IsSent": true,
   "EMailSOInfo": {
-    "DocumentId": 25,
-    "AppointmentId": 676,
-    "ProjectId": 648,
-    "SaleId": 558,
+    "DocumentId": 896,
+    "AppointmentId": 52,
+    "ProjectId": 247,
+    "SaleId": 832,
     "Archived": false,
-    "ArchivedAt": "1997-09-04T14:58:04.1334325+02:00",
-    "ArchivedBy": 441,
-    "ArchivedDisplayName": "Schultz, McClure and Fisher",
+    "ArchivedAt": "1994-11-18T18:28:49.0489689+01:00",
+    "ArchivedBy": 201,
+    "ArchivedDisplayName": "Stamm LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -250,20 +250,20 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 404
       }
     }
   },
-  "ServerId": 75,
+  "ServerId": 218,
   "Attachments": [
     {
-      "Description": "Business-focused scalable standardization",
-      "Filename": "soluta",
-      "Size": 637,
-      "Type": "ipsa",
-      "Encoding": "modi",
-      "Id": "molestias",
-      "Disposition": "dolorem",
+      "Description": "Programmable multi-state analyzer",
+      "Filename": "corporis",
+      "Size": 714,
+      "Type": "omnis",
+      "Encoding": "necessitatibus",
+      "Id": "autem",
+      "Disposition": "rerum",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
@@ -273,17 +273,17 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldLength": 902
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hane LLC",
+      "Name": "Kirlin Inc and Sons",
       "Values": [
-        "et",
-        "tempore"
+        "officia",
+        "et"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -292,16 +292,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 478
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     },
     {
-      "Name": "Hane LLC",
+      "Name": "Kirlin Inc and Sons",
       "Values": [
-        "et",
-        "tempore"
+        "officia",
+        "et"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -310,29 +310,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 478
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
   ],
-  "FolderName": "Schamberger-Kunde",
-  "EmailItemId": 124,
-  "AccountId": 144,
-  "ReceivedAt": "2003-03-25T14:58:04.1344627+01:00",
+  "FolderName": "Botsford-Kemmer",
+  "EmailItemId": 329,
+  "AccountId": 456,
+  "ReceivedAt": "2016-08-16T18:28:49.0499621+02:00",
   "InReplyTo": {
-    "ServerId": 837,
-    "MessageId": "aut",
-    "Subject": "iure",
+    "ServerId": 838,
+    "MessageId": "aperiam",
+    "Subject": "reprehenderit",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "1999-07-05T14:58:04.1344627+02:00",
+    "Sent": "2000-07-02T18:28:49.0499621+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 393,
+    "Size": 942,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -342,11 +342,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 385
       }
     }
   },
-  "RepliedAt": "2000-07-23T14:58:04.1344627+02:00",
+  "RepliedAt": "2007-01-20T18:28:49.0499621+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -360,8 +360,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

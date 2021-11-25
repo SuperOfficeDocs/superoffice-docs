@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 425,
-    "Name": "Hansen Inc and Sons",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 183
+    "HeadingId": 802,
+    "Name": "Turner-Carroll",
+    "Tooltip": "praesentium",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 190
   },
   {
-    "HeadingId": 425,
-    "Name": "Hansen Inc and Sons",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 183
+    "HeadingId": 802,
+    "Name": "Turner-Carroll",
+    "Tooltip": "praesentium",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 190
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 818,
-    "Name": "Considine Inc and Sons",
-    "Tooltip": "aut",
+    "HeadingId": 61,
+    "Name": "Macejkovic-Glover",
+    "Tooltip": "tempore",
     "Deleted": true,
-    "Rank": 949,
-    "UdListDefinitionId": 823,
+    "Rank": 539,
+    "UdListDefinitionId": 796,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

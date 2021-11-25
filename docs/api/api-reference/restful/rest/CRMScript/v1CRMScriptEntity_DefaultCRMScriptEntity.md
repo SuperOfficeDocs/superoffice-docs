@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 271,
-  "UniqueIdentifier": "dolores",
-  "Name": "Gottlieb, Bechtelar and Gerlach",
-  "Description": "Open-architected content-based customer loyalty",
-  "IncludeId": "consequatur",
-  "HierarchyId": 736,
-  "Source": "rerum",
-  "Registered": "2020-09-29T15:05:42.0230024+02:00",
-  "RegisteredAssociateId": 270,
-  "Updated": "2012-05-06T15:05:42.0230024+02:00",
-  "UpdatedAssociateId": 212,
+  "EjscriptId": 637,
+  "UniqueIdentifier": "fuga",
+  "Name": "Hessel-Botsford",
+  "Description": "Extended disintermediate strategy",
+  "IncludeId": "placeat",
+  "HierarchyId": 925,
+  "Source": "sint",
+  "Registered": "2014-04-23T18:25:50.398624+02:00",
+  "RegisteredAssociateId": 773,
+  "Updated": "2000-03-30T18:25:50.398624+02:00",
+  "UpdatedAssociateId": 339,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,10 +99,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark visionary content"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

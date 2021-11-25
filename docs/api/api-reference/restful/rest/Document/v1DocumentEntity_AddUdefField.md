@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 852,
-  "ColumnId": 222,
-  "FieldDefault": "odit",
-  "FieldHeight": 955,
-  "FieldLabel": "qui",
-  "FieldLeft": 167,
-  "FieldTop": 447,
+  "UDefFieldId": 61,
+  "ColumnId": 240,
+  "FieldDefault": "qui",
+  "FieldHeight": 926,
+  "FieldLabel": "aut",
+  "FieldLeft": 823,
+  "FieldTop": 294,
   "FieldType": "Checkbox",
-  "FieldWidth": 874,
-  "FormatMask": "eius",
+  "FieldWidth": 209,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 244,
-  "LabelLeft": 577,
-  "LabelTop": 304,
-  "LabelWidth": 485,
-  "LastVersionId": 749,
-  "ListTableId": 527,
-  "IsMandatory": false,
+  "LabelHeight": 609,
+  "LabelLeft": 312,
+  "LabelTop": 135,
+  "LabelWidth": 676,
+  "LastVersionId": 427,
+  "ListTableId": 704,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 987,
-  "ProgId": "commodi",
-  "IsReadOnly": true,
-  "ShortLabel": "sed",
-  "TabOrder": 134,
-  "TextLength": 873,
-  "Tooltip": "inventore",
-  "UdefIdentity": 308,
-  "UDListDefinitionId": 983,
+  "Page1LineNo": 248,
+  "ProgId": "quasi",
+  "IsReadOnly": false,
+  "ShortLabel": "magni",
+  "TabOrder": 237,
+  "TextLength": 853,
+  "Tooltip": "ex",
+  "UdefIdentity": 530,
+  "UDListDefinitionId": 41,
   "Justification": "Center",
-  "Version": 921,
-  "TemplateVariableName": "Lubowitz Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Schaden, Lesch and Cole",
+  "Version": 745,
+  "TemplateVariableName": "Littel, Klein and Thiel",
+  "HasBeenPublished": true,
+  "MdoListName": "Rice, Olson and Fritsch",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,10 +152,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "transition next-generation supply-chains"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 230
     }
   }
 }

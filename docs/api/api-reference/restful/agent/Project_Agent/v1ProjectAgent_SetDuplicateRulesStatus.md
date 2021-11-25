@@ -1,9 +1,9 @@
 ---
-title: SetDuplicateRulesStatus
+title: POST Agents/Project/SetDuplicateRulesStatus
 id: v1ProjectAgent_SetDuplicateRulesStatus
 ---
 
-# SetDuplicateRulesStatus
+# POST Agents/Project/SetDuplicateRulesStatus
 
 ```http
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus

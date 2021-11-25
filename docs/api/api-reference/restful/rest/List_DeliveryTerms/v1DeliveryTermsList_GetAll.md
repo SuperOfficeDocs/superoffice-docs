@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Nolan LLC",
-    "Tooltip": "doloremque",
+    "Id": 899,
+    "Name": "Stroman Group",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 121,
-    "Rank": 691,
+    "UdListDefinitionId": 363,
+    "Rank": 708,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldLength": 969
       }
     }
   }

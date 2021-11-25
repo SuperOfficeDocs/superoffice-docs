@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 511,
-  "ColumnId": 327,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 833,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 949,
-  "FieldTop": 907,
+  "UDefFieldId": 604,
+  "ColumnId": 18,
+  "FieldDefault": "eveniet",
+  "FieldHeight": 26,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 922,
+  "FieldTop": 713,
   "FieldType": "Checkbox",
-  "FieldWidth": 108,
-  "FormatMask": "ab",
+  "FieldWidth": 291,
+  "FormatMask": "minima",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 835,
-  "LabelLeft": 995,
-  "LabelTop": 564,
-  "LabelWidth": 2,
-  "LastVersionId": 361,
-  "ListTableId": 438,
+  "LabelHeight": 96,
+  "LabelLeft": 551,
+  "LabelTop": 990,
+  "LabelWidth": 505,
+  "LastVersionId": 741,
+  "ListTableId": 338,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 458,
-  "ProgId": "blanditiis",
-  "IsReadOnly": true,
-  "ShortLabel": "ea",
-  "TabOrder": 85,
-  "TextLength": 752,
-  "Tooltip": "rem",
-  "UdefIdentity": 876,
-  "UDListDefinitionId": 244,
+  "Page1LineNo": 707,
+  "ProgId": "non",
+  "IsReadOnly": false,
+  "ShortLabel": "vel",
+  "TabOrder": 63,
+  "TextLength": 362,
+  "Tooltip": "quidem",
+  "UdefIdentity": 725,
+  "UDListDefinitionId": 554,
   "Justification": "Center",
-  "Version": 56,
-  "TemplateVariableName": "Bergnaum-Auer",
-  "HasBeenPublished": false,
-  "MdoListName": "Gusikowski-Maggio",
+  "Version": 263,
+  "TemplateVariableName": "Kohler, Harvey and Dickinson",
+  "HasBeenPublished": true,
+  "MdoListName": "Wiegand, Hirthe and Mueller",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldLength": 839
     }
   }
 }

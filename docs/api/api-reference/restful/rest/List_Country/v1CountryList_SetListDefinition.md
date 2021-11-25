@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 803,
-  "Name": "Bartoletti Group",
-  "Tooltip": "iure",
+  "Id": 651,
+  "Name": "Fadel Group",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 411,
+  "Rank": 459,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 518,
+  "Id": 533,
+  "Name": "Beatty, Schinner and Tromp",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "Rank": 970,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

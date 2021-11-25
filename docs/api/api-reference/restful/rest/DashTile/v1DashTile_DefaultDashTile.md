@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/DashTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 158,
-  "DashboardId": 644,
-  "Height": 649,
-  "Width": 14,
-  "Rank": 707,
+  "DashboardTileId": 663,
+  "DashboardId": 663,
+  "Height": 365,
+  "Width": 234,
+  "Rank": 701,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 161,
-    "Name": "Heller Group",
-    "Description": "Networked actuating hardware",
-    "DefaultHeight": 873,
-    "DefaultWidth": 281,
+    "DashboardTileDefinitionId": 19,
+    "Name": "Price-McClure",
+    "Description": "Front-line bi-directional customer loyalty",
+    "DefaultHeight": 755,
+    "DefaultWidth": 674,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Gutmann, Berge and Brown",
-    "SelectionId": 85,
+    "EntityName": "Watsica, Conroy and Walker",
+    "SelectionId": 537,
     "CurrencyMode": "Base",
-    "CurrencyId": 563,
+    "CurrencyCode": "totam",
     "Measure": "Average",
-    "MeasureField": "reiciendis",
-    "SortBy": "voluptas",
-    "LayoutConfig": "distinctio",
-    "SecondarySelectionId": 605,
-    "MeasureByField": "id",
-    "ProviderName": "Gleason Group",
+    "MeasureField": "facilis",
+    "SortBy": "aspernatur",
+    "LayoutConfig": "porro",
+    "SecondarySelectionId": 802,
+    "MeasureByField": "sunt",
+    "ProviderName": "Kshlerin, Quitzon and Keebler",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   },
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

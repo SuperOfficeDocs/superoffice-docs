@@ -1,9 +1,9 @@
 ---
-title: ReadRow
+title: POST Agents/DatabaseTable/ReadRow
 id: v1DatabaseTableAgent_ReadRow
 ---
 
-# ReadRow
+# POST Agents/DatabaseTable/ReadRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/ReadRow
@@ -11,8 +11,13 @@ POST /api/v1/Agents/DatabaseTable/ReadRow
 
 Read a row from a table
 
-> [!NOTE]
-> Must have function right admin-all or cs-listextratablecontent.
+
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 
@@ -76,12 +81,12 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rempel-Padberg",
-  "Id": 622
+  "TableName": "Lehner-Block",
+  "Id": 10
 }
 ```
 
@@ -91,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "adipisci",
-    "Values2": "enim"
+    "Values1": "pariatur",
+    "Values2": "ipsa"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -102,10 +107,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "productize out-of-the-box action-items"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

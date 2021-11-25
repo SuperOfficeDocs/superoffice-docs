@@ -92,16 +92,16 @@ Response body: object
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 201,
-  "Name": "Breitenberg-Boyer",
-  "Tooltip": "id",
-  "PassiveText": "ullam",
+  "ReldefId": 497,
+  "Name": "Cassin Inc and Sons",
+  "Tooltip": "repudiandae",
+  "PassiveText": "rerum",
   "Deleted": true,
-  "Rank": 401,
+  "Rank": 345,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 579,
-  "Name": "Balistreri Inc and Sons",
-  "Tooltip": "sit",
-  "PassiveText": "a",
-  "Deleted": false,
-  "Rank": 482,
+  "ReldefId": 546,
+  "Name": "Carroll, Langosh and Rath",
+  "Tooltip": "voluptatem",
+  "PassiveText": "ut",
+  "Deleted": true,
+  "Rank": 431,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 718
     }
   },
   "_Links": {

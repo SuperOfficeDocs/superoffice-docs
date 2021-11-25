@@ -1,9 +1,9 @@
 ---
-title: GetBestSoLanguageForTemplate
+title: POST Agents/Person/GetBestSoLanguageForTemplate
 id: v1PersonAgent_GetBestSoLanguageForTemplate
 ---
 
-# GetBestSoLanguageForTemplate
+# POST Agents/Person/GetBestSoLanguageForTemplate
 
 ```http
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 329,
-  "TemplateId": 643
+  "PersonId": 916,
+  "TemplateId": 321
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quasi"
+"debitis"
 ```

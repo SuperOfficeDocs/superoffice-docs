@@ -1,9 +1,9 @@
 ---
-title: DeleteContactEntity
+title: POST Agents/Contact/DeleteContactEntity
 id: v1ContactAgent_DeleteContactEntity
 ---
 
-# DeleteContactEntity
+# POST Agents/Contact/DeleteContactEntity
 
 ```http
 POST /api/v1/Agents/Contact/DeleteContactEntity
@@ -24,7 +24,7 @@ Deletes the ContactEntity
 | ContactEntityId | int32 | **Required** The id of the ContactEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=83
+POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=93
 ```
 
 

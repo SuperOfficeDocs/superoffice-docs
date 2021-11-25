@@ -1,9 +1,9 @@
 ---
-title: GetLicenseForAllOwnersFromDB
+title: POST Agents/License/GetLicenseForAllOwnersFromDB
 id: v1LicenseAgent_GetLicenseForAllOwnersFromDB
 ---
 
-# GetLicenseForAllOwnersFromDB
+# POST Agents/License/GetLicenseForAllOwnersFromDB
 
 ```http
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,133 +77,133 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": {
-      "CompanyName": "Wolff Group",
+      "CompanyName": "Von Group",
       "SerialNr": "1010000006",
-      "OwnerName": "Schulist Group",
-      "OwnerDescription": "Sharable multi-state concept",
-      "NextCheckDate": "2006-05-15T14:58:04.3234438+02:00",
-      "MaintenanceDate": "1999-11-11T14:58:04.3234438+01:00",
-      "AdminWarningDate": "2000-05-20T14:58:04.3234438+02:00",
-      "ExpiryDate": "2001-11-03T14:58:04.3234438+01:00",
-      "GraceDate": "2014-07-09T14:58:04.3234438+02:00",
-      "ExtraFlags": 177,
-      "ExtraInfo": "delectus",
+      "OwnerName": "Schmidt Group",
+      "OwnerDescription": "Total actuating Graphic Interface",
+      "NextCheckDate": "2007-09-12T18:28:49.2321247+02:00",
+      "MaintenanceDate": "2008-11-02T18:28:49.2321247+01:00",
+      "AdminWarningDate": "2016-12-24T18:28:49.2321247+01:00",
+      "ExpiryDate": "1998-11-13T18:28:49.2321247+01:00",
+      "GraceDate": "1996-11-27T18:28:49.2321247+01:00",
+      "ExtraFlags": 273,
+      "ExtraInfo": "tempora",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "omnis",
-      "DeploymentType": 43,
-      "ProductType": "perferendis",
-      "ProductDescription": "Stand-alone next generation database",
+      "LicenseVersion": "aspernatur",
+      "DeploymentType": 266,
+      "ProductType": "ducimus",
+      "ProductDescription": "Organized solution-oriented software",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "et"
+      "Signature": "repellat"
     },
     "Current": {
-      "CompanyName": "Kuvalis, Kuphal and Herman",
+      "CompanyName": "Zemlak, Ondricka and Johnston",
       "SerialNr": "1010000006",
-      "OwnerName": "Shields, Hintz and Anderson",
-      "OwnerDescription": "Optional client-driven frame",
-      "NextCheckDate": "1999-09-23T14:58:04.3234438+02:00",
-      "MaintenanceDate": "2000-06-08T14:58:04.3234438+02:00",
-      "AdminWarningDate": "2004-08-06T14:58:04.3234438+02:00",
-      "ExpiryDate": "1994-08-16T14:58:04.3234438+02:00",
-      "GraceDate": "2006-04-04T14:58:04.3234438+02:00",
-      "ExtraFlags": 211,
-      "ExtraInfo": "dolores",
+      "OwnerName": "Turner-Labadie",
+      "OwnerDescription": "De-engineered methodical portal",
+      "NextCheckDate": "2003-05-04T18:28:49.2331227+02:00",
+      "MaintenanceDate": "2004-02-13T18:28:49.2331227+01:00",
+      "AdminWarningDate": "1996-04-29T18:28:49.2331227+02:00",
+      "ExpiryDate": "2010-05-12T18:28:49.2331227+02:00",
+      "GraceDate": "2017-01-02T18:28:49.2331227+01:00",
+      "ExtraFlags": 946,
+      "ExtraInfo": "dolore",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "qui",
-      "DeploymentType": 256,
-      "ProductType": "tempore",
-      "ProductDescription": "Expanded didactic moderator",
+      "LicenseVersion": "dolore",
+      "DeploymentType": 293,
+      "ProductType": "facilis",
+      "ProductDescription": "Vision-oriented zero tolerance pricing structure",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "eaque"
+      "Signature": "similique"
     },
     "ExtendedModuleLicenses": [
       {
         "New": {},
         "Current": {},
-        "NumberOfLicensesInUse": 155,
-        "NumberOfLicensesFree": 130,
-        "NumberOfLicensesAdded": 11,
-        "NumberOfLicensesNewTotal": 835,
-        "NumberOfLicensesNewFree": 863,
-        "NumberOfLicensesTotal": 824
+        "NumberOfLicensesInUse": 725,
+        "NumberOfLicensesFree": 340,
+        "NumberOfLicensesAdded": 153,
+        "NumberOfLicensesNewTotal": 161,
+        "NumberOfLicensesNewFree": 884,
+        "NumberOfLicensesTotal": 881
       }
     ],
-    "AccumulatedNextCheckDate": "2017-08-05T14:58:04.3234438+02:00"
+    "AccumulatedNextCheckDate": "1995-12-19T18:28:49.2331227+01:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": {
-      "CompanyName": "Wolff Group",
+      "CompanyName": "Von Group",
       "SerialNr": "1010000006",
-      "OwnerName": "Schulist Group",
-      "OwnerDescription": "Sharable multi-state concept",
-      "NextCheckDate": "2006-05-15T14:58:04.3234438+02:00",
-      "MaintenanceDate": "1999-11-11T14:58:04.3234438+01:00",
-      "AdminWarningDate": "2000-05-20T14:58:04.3234438+02:00",
-      "ExpiryDate": "2001-11-03T14:58:04.3234438+01:00",
-      "GraceDate": "2014-07-09T14:58:04.3234438+02:00",
-      "ExtraFlags": 177,
-      "ExtraInfo": "delectus",
+      "OwnerName": "Schmidt Group",
+      "OwnerDescription": "Total actuating Graphic Interface",
+      "NextCheckDate": "2007-09-12T18:28:49.2321247+02:00",
+      "MaintenanceDate": "2008-11-02T18:28:49.2321247+01:00",
+      "AdminWarningDate": "2016-12-24T18:28:49.2321247+01:00",
+      "ExpiryDate": "1998-11-13T18:28:49.2321247+01:00",
+      "GraceDate": "1996-11-27T18:28:49.2321247+01:00",
+      "ExtraFlags": 273,
+      "ExtraInfo": "tempora",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "omnis",
-      "DeploymentType": 43,
-      "ProductType": "perferendis",
-      "ProductDescription": "Stand-alone next generation database",
+      "LicenseVersion": "aspernatur",
+      "DeploymentType": 266,
+      "ProductType": "ducimus",
+      "ProductDescription": "Organized solution-oriented software",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "et"
+      "Signature": "repellat"
     },
     "Current": {
-      "CompanyName": "Kuvalis, Kuphal and Herman",
+      "CompanyName": "Zemlak, Ondricka and Johnston",
       "SerialNr": "1010000006",
-      "OwnerName": "Shields, Hintz and Anderson",
-      "OwnerDescription": "Optional client-driven frame",
-      "NextCheckDate": "1999-09-23T14:58:04.3234438+02:00",
-      "MaintenanceDate": "2000-06-08T14:58:04.3234438+02:00",
-      "AdminWarningDate": "2004-08-06T14:58:04.3234438+02:00",
-      "ExpiryDate": "1994-08-16T14:58:04.3234438+02:00",
-      "GraceDate": "2006-04-04T14:58:04.3234438+02:00",
-      "ExtraFlags": 211,
-      "ExtraInfo": "dolores",
+      "OwnerName": "Turner-Labadie",
+      "OwnerDescription": "De-engineered methodical portal",
+      "NextCheckDate": "2003-05-04T18:28:49.2331227+02:00",
+      "MaintenanceDate": "2004-02-13T18:28:49.2331227+01:00",
+      "AdminWarningDate": "1996-04-29T18:28:49.2331227+02:00",
+      "ExpiryDate": "2010-05-12T18:28:49.2331227+02:00",
+      "GraceDate": "2017-01-02T18:28:49.2331227+01:00",
+      "ExtraFlags": 946,
+      "ExtraInfo": "dolore",
       "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "qui",
-      "DeploymentType": 256,
-      "ProductType": "tempore",
-      "ProductDescription": "Expanded didactic moderator",
+      "LicenseVersion": "dolore",
+      "DeploymentType": 293,
+      "ProductType": "facilis",
+      "ProductDescription": "Vision-oriented zero tolerance pricing structure",
       "ModuleLicenses": [
         {},
         {}
       ],
       "PublicKey": {},
-      "Signature": "eaque"
+      "Signature": "similique"
     },
     "ExtendedModuleLicenses": [
       {
         "New": {},
         "Current": {},
-        "NumberOfLicensesInUse": 155,
-        "NumberOfLicensesFree": 130,
-        "NumberOfLicensesAdded": 11,
-        "NumberOfLicensesNewTotal": 835,
-        "NumberOfLicensesNewFree": 863,
-        "NumberOfLicensesTotal": 824
+        "NumberOfLicensesInUse": 725,
+        "NumberOfLicensesFree": 340,
+        "NumberOfLicensesAdded": 153,
+        "NumberOfLicensesNewTotal": 161,
+        "NumberOfLicensesNewFree": 884,
+        "NumberOfLicensesTotal": 881
       }
     ],
-    "AccumulatedNextCheckDate": "2017-08-05T14:58:04.3234438+02:00"
+    "AccumulatedNextCheckDate": "1995-12-19T18:28:49.2331227+01:00"
   }
 ]
 ```

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Raynor LLC",
-    "ToolTip": "Labore est impedit voluptates non consectetur.",
-    "Deleted": true,
-    "Rank": 859,
-    "Type": "est",
-    "ColorBlock": 23,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2017-02-16T15:05:43.3715102+01:00",
+    "Id": 261,
+    "Name": "Monahan-Hodkiewicz",
+    "ToolTip": "Eius eius.",
+    "Deleted": false,
+    "Rank": 675,
+    "Type": "recusandae",
+    "ColorBlock": 847,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2000-01-19T18:25:51.7513289+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Berge, Wintheiser and Purdy",
-        "ToolTip": "Quos similique.",
-        "Deleted": false,
-        "Rank": 418,
-        "Type": "iste",
-        "ColorBlock": 786,
-        "IconHint": "quo",
+        "Id": 363,
+        "Name": "Nader Inc and Sons",
+        "ToolTip": "Porro laboriosam neque.",
+        "Deleted": true,
+        "Rank": 281,
+        "Type": "temporibus",
+        "ColorBlock": 528,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2008-03-07T15:05:43.3715102+01:00",
+        "LastChanged": "2014-04-27T18:25:51.7513289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "sequi",
-        "Hidden": false,
-        "FullName": "Kiara Rippin I",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "General Windler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "orchestrate impactful methodologies"
             },
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "impedit",
+    "ExtraInfo": "est",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Antonia Rolfson",
+    "FullName": "Elyssa Lind",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "revolutionize dot-com ROI"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   }

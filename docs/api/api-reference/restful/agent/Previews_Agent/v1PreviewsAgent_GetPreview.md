@@ -1,9 +1,9 @@
 ---
-title: GetPreview
+title: POST Agents/Previews/GetPreview
 id: v1PreviewsAgent_GetPreview
 ---
 
-# GetPreview
+# POST Agents/Previews/GetPreview
 
 ```http
 POST /api/v1/Agents/Previews/GetPreview
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreviewHint": "non"
+  "PreviewHint": "et"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"eum"
 ```

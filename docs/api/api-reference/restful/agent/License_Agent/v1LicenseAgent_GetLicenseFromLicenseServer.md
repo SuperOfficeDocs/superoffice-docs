@@ -1,9 +1,9 @@
 ---
-title: GetLicenseFromLicenseServer
+title: POST Agents/License/GetLicenseFromLicenseServer
 id: v1LicenseAgent_GetLicenseFromLicenseServer
 ---
 
-# GetLicenseFromLicenseServer
+# POST Agents/License/GetLicenseFromLicenseServer
 
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "DuBuque, Zemlak and Wiegand"
+  "OwnerName": "Rice Inc and Sons"
 }
 ```
 
@@ -89,68 +89,68 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "seize robust solutions",
+  "CanBeActivated": true,
   "New": {
-    "CompanyName": "Weissnat-Hahn",
+    "CompanyName": "Gerhold Group",
     "SerialNr": "1010000006",
-    "OwnerName": "Boyle Group",
-    "OwnerDescription": "Right-sized static alliance",
-    "NextCheckDate": "1995-10-30T14:58:04.3244317+01:00",
-    "MaintenanceDate": "2004-12-22T14:58:04.3244317+01:00",
-    "AdminWarningDate": "2011-01-09T14:58:04.3244317+01:00",
-    "ExpiryDate": "1998-01-08T14:58:04.3244317+01:00",
-    "GraceDate": "2007-01-27T14:58:04.3244317+01:00",
-    "ExtraFlags": 468,
-    "ExtraInfo": "occaecati",
+    "OwnerName": "Veum Inc and Sons",
+    "OwnerDescription": "Down-sized maximized extranet",
+    "NextCheckDate": "2010-07-21T18:28:49.2351232+02:00",
+    "MaintenanceDate": "2007-01-14T18:28:49.2351232+01:00",
+    "AdminWarningDate": "2015-10-19T18:28:49.2351232+02:00",
+    "ExpiryDate": "2017-04-12T18:28:49.2351232+02:00",
+    "GraceDate": "2021-04-09T18:28:49.2351232+02:00",
+    "ExtraFlags": 773,
+    "ExtraInfo": "debitis",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "sunt",
-    "DeploymentType": 982,
-    "ProductType": "est",
-    "ProductDescription": "Inverse discrete system engine",
+    "LicenseVersion": "eum",
+    "DeploymentType": 139,
+    "ProductType": "molestias",
+    "ProductDescription": "Cross-group incremental customer loyalty",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "omnis"
+    "Signature": "alias"
   },
   "Current": {
-    "CompanyName": "Dare, Murphy and Morar",
+    "CompanyName": "Keeling-Kreiger",
     "SerialNr": "1010000006",
-    "OwnerName": "Zboncak Group",
-    "OwnerDescription": "Advanced value-added intranet",
-    "NextCheckDate": "2018-02-18T14:58:04.3244317+01:00",
-    "MaintenanceDate": "1994-08-13T14:58:04.3244317+02:00",
-    "AdminWarningDate": "2006-07-15T14:58:04.3244317+02:00",
-    "ExpiryDate": "2018-08-07T14:58:04.3244317+02:00",
-    "GraceDate": "2014-04-07T14:58:04.3244317+02:00",
-    "ExtraFlags": 413,
-    "ExtraInfo": "possimus",
+    "OwnerName": "Harris-Ward",
+    "OwnerDescription": "Compatible full-range infrastructure",
+    "NextCheckDate": "2009-07-23T18:28:49.2351232+02:00",
+    "MaintenanceDate": "2021-05-16T18:28:49.2351232+02:00",
+    "AdminWarningDate": "1996-03-20T18:28:49.2351232+01:00",
+    "ExpiryDate": "2010-11-12T18:28:49.2351232+01:00",
+    "GraceDate": "1998-06-13T18:28:49.2351232+02:00",
+    "ExtraFlags": 79,
+    "ExtraInfo": "fuga",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "aliquid",
-    "DeploymentType": 875,
-    "ProductType": "tenetur",
-    "ProductDescription": "Future-proofed transitional methodology",
+    "LicenseVersion": "architecto",
+    "DeploymentType": 237,
+    "ProductType": "quaerat",
+    "ProductDescription": "Switchable contextually-based portal",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "quisquam"
+    "Signature": "sequi"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 858,
-      "NumberOfLicensesFree": 532,
-      "NumberOfLicensesAdded": 23,
-      "NumberOfLicensesNewTotal": 340,
-      "NumberOfLicensesNewFree": 678,
-      "NumberOfLicensesTotal": 954
+      "NumberOfLicensesInUse": 437,
+      "NumberOfLicensesFree": 646,
+      "NumberOfLicensesAdded": 144,
+      "NumberOfLicensesNewTotal": 243,
+      "NumberOfLicensesNewFree": 908,
+      "NumberOfLicensesTotal": 134
     }
   ],
-  "AccumulatedNextCheckDate": "1995-08-07T14:58:04.3244317+02:00"
+  "AccumulatedNextCheckDate": "2013-02-14T18:28:49.2361225+01:00"
 }
 ```

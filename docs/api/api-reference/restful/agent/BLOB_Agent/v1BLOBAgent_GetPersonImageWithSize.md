@@ -1,9 +1,9 @@
 ---
-title: GetPersonImageWithSize
+title: POST Agents/BLOB/GetPersonImageWithSize
 id: v1BLOBAgent_GetPersonImageWithSize
 ---
 
-# GetPersonImageWithSize
+# POST Agents/BLOB/GetPersonImageWithSize
 
 ```http
 POST /api/v1/Agents/BLOB/GetPersonImageWithSize
@@ -70,13 +70,13 @@ Response body:
 POST /api/v1/Agents/BLOB/GetPersonImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 136,
-  "Width": 22,
-  "Height": 594
+  "PersonId": 747,
+  "Width": 333,
+  "Height": 297
 }
 ```
 

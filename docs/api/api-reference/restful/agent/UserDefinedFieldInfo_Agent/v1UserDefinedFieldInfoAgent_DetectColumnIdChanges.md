@@ -1,9 +1,9 @@
 ---
-title: DetectColumnIdChanges
+title: POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 id: v1UserDefinedFieldInfoAgent_DetectColumnIdChanges
 ---
 
-# DetectColumnIdChanges
+# POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges

@@ -66,10 +66,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert-Willms",
-    "DisplayName": "Lind Inc and Sons",
-    "DisplayTooltip": "cupiditate",
-    "IsActive": false,
+    "Name": "Wehner Group",
+    "DisplayName": "Kemmer, Homenick and Schaefer",
+    "DisplayTooltip": "dicta",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -80,16 +80,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   },
   {
-    "Name": "Ebert-Willms",
-    "DisplayName": "Lind Inc and Sons",
-    "DisplayTooltip": "cupiditate",
-    "IsActive": false,
+    "Name": "Wehner Group",
+    "DisplayName": "Kemmer, Homenick and Schaefer",
+    "DisplayTooltip": "dicta",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

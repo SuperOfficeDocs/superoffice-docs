@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRecurrenceByDate
+title: POST Agents/Appointment/CreateDefaultRecurrenceByDate
 id: v1AppointmentAgent_CreateDefaultRecurrenceByDate
 ---
 
-# CreateDefaultRecurrenceByDate
+# POST Agents/Appointment/CreateDefaultRecurrenceByDate
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
@@ -86,7 +86,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-06-06T14:58:02.9475409+02:00"
+  "StartDate": "1996-06-25T18:28:47.7868444+02:00"
 }
 ```
 
@@ -95,48 +95,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 401,
-  "StartDate": "2014-01-22T14:58:02.9485416+01:00",
-  "EndDate": "2000-11-09T14:58:02.9485416+01:00",
-  "RecurrenceCounter": 48,
+  "RecurrenceId": 212,
+  "StartDate": "2015-12-13T18:28:47.7868444+01:00",
+  "EndDate": "1994-09-22T18:28:47.7868444+02:00",
+  "RecurrenceCounter": 994,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 838
+    "Cycle": 110
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 7
+    "Cycle": 243
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 136,
-    "Day": 247,
+    "Cycle": 999,
+    "Day": 750,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 473,
-    "Day": 744,
+    "Cycle": 533,
+    "Day": 73,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "2017-04-12T14:58:02.9485416+02:00",
-      "IsConflict": true,
-      "Description": "Optional web-enabled website",
-      "DescriptionStyleHint": "Open-source 6th generation secured line",
-      "Tooltip": "est"
+      "Date": "2015-11-19T18:28:47.7868444+01:00",
+      "IsConflict": false,
+      "Description": "Public-key needs-based collaboration",
+      "DescriptionStyleHint": "Public-key bottom-line collaboration",
+      "Tooltip": "ullam"
     },
     {
-      "Date": "2017-04-12T14:58:02.9485416+02:00",
-      "IsConflict": true,
-      "Description": "Optional web-enabled website",
-      "DescriptionStyleHint": "Open-source 6th generation secured line",
-      "Tooltip": "est"
+      "Date": "2015-11-19T18:28:47.7868444+01:00",
+      "IsConflict": false,
+      "Description": "Public-key needs-based collaboration",
+      "DescriptionStyleHint": "Public-key bottom-line collaboration",
+      "Tooltip": "ullam"
     }
   ],
   "IsRecurrence": true

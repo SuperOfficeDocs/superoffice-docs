@@ -1,9 +1,9 @@
 ---
-title: GetCRMScriptEntity
+title: POST Agents/CRMScript/GetCRMScriptEntity
 id: v1CRMScriptAgent_GetCRMScriptEntity
 ---
 
-# GetCRMScriptEntity
+# POST Agents/CRMScript/GetCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=700
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=643
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -92,16 +92,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EjscriptId": 76,
-  "UniqueIdentifier": "praesentium",
-  "Name": "Brekke-Hane",
-  "Description": "User-friendly impactful success",
-  "IncludeId": "maiores",
-  "HierarchyId": 599,
-  "Source": "rem",
-  "Registered": "2017-11-02T14:58:03.7404596+01:00",
-  "RegisteredAssociateId": 63,
-  "Updated": "2009-10-09T14:58:03.7404596+02:00",
-  "UpdatedAssociateId": 913,
+  "UniqueIdentifier": "expedita",
+  "Name": "Aufderhar, Trantow and Fritsch",
+  "Description": "Visionary intermediate support",
+  "IncludeId": "ut",
+  "HierarchyId": 444,
+  "Source": "tenetur",
+  "Registered": "2009-12-20T18:28:48.6329579+01:00",
+  "RegisteredAssociateId": 31,
+  "Updated": "1995-04-07T18:28:48.6329579+02:00",
+  "UpdatedAssociateId": 353,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

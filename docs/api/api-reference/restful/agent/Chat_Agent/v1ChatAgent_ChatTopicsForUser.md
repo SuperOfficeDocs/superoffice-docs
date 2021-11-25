@@ -1,9 +1,9 @@
 ---
-title: ChatTopicsForUser
+title: POST Agents/Chat/ChatTopicsForUser
 id: v1ChatAgent_ChatTopicsForUser
 ---
 
-# ChatTopicsForUser
+# POST Agents/Chat/ChatTopicsForUser
 
 ```http
 POST /api/v1/Agents/Chat/ChatTopicsForUser
@@ -77,6 +77,12 @@ Response body: array
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -86,7 +92,7 @@ Response body: array
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -95,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 768,
-    "Name": "Russel, Schmitt and Bogan",
-    "Description": "Synergized composite artificial intelligence",
-    "WelcomeMessage": "similique",
+    "ChatTopicId": 497,
+    "Name": "Mitchell LLC",
+    "Description": "Visionary systematic concept",
+    "WelcomeMessage": "dolores",
     "Language": {
-      "Id": 292,
-      "Value": "ut",
-      "Tooltip": "numquam",
+      "Id": 535,
+      "Value": "officia",
+      "Tooltip": "blanditiis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -111,30 +117,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldLength": 323
         }
       }
     },
-    "LastAccept": "2008-09-23T14:58:03.3852433+02:00",
-    "SecondsPrAccept": 675,
-    "AlertRecipient": "eum",
+    "LastAccept": "2001-05-23T18:28:48.3322902+02:00",
+    "SecondsPrAccept": 215,
+    "AlertRecipient": "et",
     "AlertTemplate": {
-      "ReplyTemplateId": 428,
-      "Name": "Runolfsdottir-Christiansen",
-      "Description": "Networked actuating encoding",
-      "FolderId": 963
+      "ReplyTemplateId": 379,
+      "Name": "Hane Group",
+      "Description": "Sharable intangible conglomeration",
+      "FolderId": 729
     },
     "CollectConsent": false,
-    "BadgeHeader": "sequi",
+    "BadgeHeader": "ipsum",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "nesciunt",
-    "WarnNewChatMinutes": 272,
-    "WarnManagerNewChatMinutes": 459,
-    "TicketEnabled": true,
+    "CustomQueueText": "eos",
+    "WarnNewChatMinutes": 200,
+    "WarnManagerNewChatMinutes": 793,
+    "TicketEnabled": false,
     "TicketCategory": {
-      "Id": 817,
-      "Value": "corrupti",
-      "Tooltip": "placeat",
+      "Id": 814,
+      "Value": "officia",
+      "Tooltip": "doloribus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -143,14 +149,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldLength": 252
         }
       }
     },
     "TicketPriority": {
-      "Id": 271,
-      "Value": "et",
-      "Tooltip": "nostrum",
+      "Id": 139,
+      "Value": "harum",
+      "Tooltip": "qui",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -158,73 +164,79 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     },
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": {
       "TzLocation": {},
       "MonEnabled": true,
-      "MonStart": "porro",
-      "MonStop": "neque",
+      "MonStart": "ipsa",
+      "MonStop": "totam",
       "TueEnabled": false,
-      "TueStart": "consequuntur",
-      "TueStop": "sunt",
+      "TueStart": "sed",
+      "TueStop": "ipsum",
       "WedEnabled": true,
-      "WedStart": "voluptas",
-      "WedStop": "occaecati",
+      "WedStart": "ipsam",
+      "WedStop": "tempore",
       "ThuEnabled": false,
-      "ThuStart": "ea",
-      "ThuStop": "cum",
-      "FriEnabled": false,
-      "FriStart": "voluptatem",
-      "FriStop": "quibusdam",
+      "ThuStart": "mollitia",
+      "ThuStop": "iure",
+      "FriEnabled": true,
+      "FriStart": "consequuntur",
+      "FriStop": "iure",
       "SatEnabled": false,
-      "SatStart": "est",
-      "SatStop": "in",
+      "SatStart": "cum",
+      "SatStop": "velit",
       "SunEnabled": false,
-      "SunStart": "vel",
-      "SunStop": "eos",
+      "SunStart": "consequuntur",
+      "SunStop": "optio",
       "UseLunchHours": true,
       "LunchStart": "aut",
-      "LunchStop": "nisi"
+      "LunchStop": "quis"
     },
     "Widget": {
       "AutoFaqEnabled": true,
       "AutoFaqCategory": {},
-      "PreFormEnabled": false,
-      "PreFormMessage": "exercitationem",
+      "PreFormEnabled": true,
+      "PreFormMessage": "et",
       "RequiredFields": "Company",
       "PostFormEnabled": true,
-      "PostFormHeader": "cum",
-      "PostFormMessage": "harum",
+      "PostFormHeader": "culpa",
+      "PostFormMessage": "sint",
       "PostTranscriptEnabled": true,
-      "LanguageIsoCode": "a",
+      "LanguageIsoCode": "ut",
       "Size": "Large",
       "Theme": "Classic",
-      "Color": "atque",
-      "Font": "ut",
-      "LogoEnabled": true,
-      "LogoBlobId": 448,
-      "LogoName": "Quitzon Group",
-      "ShowAgentPhoto": false,
-      "WelcomeTitle": "quam",
-      "WelcomeMessage": "voluptatibus",
-      "OfflineHeader": "natus",
-      "OfflineMessage": "aperiam",
+      "Color": "magni",
+      "Font": "nostrum",
+      "LogoEnabled": false,
+      "LogoBlobId": 678,
+      "LogoName": "Cummerata Inc and Sons",
+      "ShowAgentPhoto": true,
+      "WelcomeTitle": "similique",
+      "WelcomeMessage": "ea",
+      "OfflineHeader": "dolorem",
+      "OfflineMessage": "deleniti",
       "OfflineFields": "Company",
-      "UseAgentFirstname": false
+      "UseAgentFirstname": true
     },
     "BotEnabled": false,
     "BotSettings": {
-      "BotName": "Wisozk LLC",
-      "BotRegisterScriptId": 761,
-      "BotSessionCreatedScriptId": 344,
-      "BotSessionChangedScriptId": 486,
-      "BotMessageReceivedScriptId": 315
+      "BotName": "Pouros-Hettinger",
+      "BotRegisterScriptId": 946,
+      "BotSessionCreatedScriptId": 954,
+      "BotSessionChangedScriptId": 515,
+      "BotMessageReceivedScriptId": 446
     },
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 959,
+    "WarnManagerChatMessageMinutes": 205,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 787,
+    "OfflineFormQueueLength": 170,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -235,8 +247,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

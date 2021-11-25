@@ -1,9 +1,9 @@
 ---
-title: GetParentCombinedSelections
+title: POST Agents/Selection/GetParentCombinedSelections
 id: v1SelectionAgent_GetParentCombinedSelections
 ---
 
-# GetParentCombinedSelections
+# POST Agents/Selection/GetParentCombinedSelections
 
 ```http
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 558
+  "SelectionId": 921
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  45,
-  892
+  767,
+  242
 ]
 ```

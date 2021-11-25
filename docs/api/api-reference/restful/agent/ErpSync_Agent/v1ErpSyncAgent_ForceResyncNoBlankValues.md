@@ -1,9 +1,9 @@
 ---
-title: ForceResyncNoBlankValues
+title: POST Agents/ErpSync/ForceResyncNoBlankValues
 id: v1ErpSyncAgent_ForceResyncNoBlankValues
 ---
 
-# ForceResyncNoBlankValues
+# POST Agents/ErpSync/ForceResyncNoBlankValues
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncNoBlankValues
@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 17,
+  "ErpConnectionId": 136,
   "InternalKeyIds": [
-    445,
-    399
+    203,
+    786
   ]
 }
 ```
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "dolor",
-  "TechExplanation": "autem",
-  "ErrorCode": "dolor",
+  "UserExplanation": "veritatis",
+  "TechExplanation": "ut",
+  "ErrorCode": "a",
   "Changes": {
     "AddedRecords": [
       {},
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 668
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   },
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 806
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetHeadings
+title: POST Agents/List/GetHeadings
 id: v1ListAgent_GetHeadings
 ---
 
-# GetHeadings
+# POST Agents/List/GetHeadings
 
 ```http
 POST /api/v1/Agents/List/GetHeadings
@@ -89,13 +89,13 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 364,
-  "ListItemId": 550,
-  "ShowDeleted": true
+  "UdListDefinitionId": 404,
+  "ListItemId": 101,
+  "ShowDeleted": false
 }
 ```
 
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Funk-Prohaska",
-    "ToolTip": "A quis vitae quas enim dolores corrupti.",
+    "Id": 858,
+    "Name": "Oberbrunner Group",
+    "ToolTip": "Aut hic error eaque atque velit qui.",
     "Deleted": true,
-    "Rank": 309,
-    "Type": "qui",
-    "ColorBlock": 103,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "1999-10-25T14:58:04.4224652+02:00",
+    "Rank": 223,
+    "Type": "nihil",
+    "ColorBlock": 803,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2002-05-25T18:28:49.3190894+02:00",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Itaque beatae vel ut.",
-        "Deleted": false,
-        "Rank": 958,
-        "Type": "repudiandae",
-        "ColorBlock": 596,
-        "IconHint": "voluptate",
+        "Id": 157,
+        "Name": "Lockman LLC",
+        "ToolTip": "Nulla vitae.",
+        "Deleted": true,
+        "Rank": 263,
+        "Type": "voluptas",
+        "ColorBlock": 981,
+        "IconHint": "cumque",
         "Selected": true,
-        "LastChanged": "2016-02-01T14:58:04.4224652+01:00",
+        "LastChanged": "2011-10-17T18:28:49.3190894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "aut",
+        "ExtraInfo": "amet",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Eliza Cormier",
+        "FullName": "Buddy Koss",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,16 +142,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 475
+            "FieldType": "System.String",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Everett Koepp",
+    "ExtraInfo": "dolore",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Maxwell Simonis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 726
+        "FieldLength": 497
       }
     }
   }

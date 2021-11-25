@@ -33,12 +33,12 @@ g. by email or sms
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=esse,dolore
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=repellat,dolorem
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=est,occaecati
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=eius
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=324
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=et
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=praesentium,aspernatur
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=iste,impedit
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=reprehenderit,ratione
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=sed
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=51
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=cum
 ```
 
 

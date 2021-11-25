@@ -1,9 +1,9 @@
 ---
-title: GetAppWebPanels
+title: POST Agents/List/GetAppWebPanels
 id: v1ListAgent_GetAppWebPanels
 ---
 
-# GetAppWebPanels
+# POST Agents/List/GetAppWebPanels
 
 ```http
 POST /api/v1/Agents/List/GetAppWebPanels
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 777,
-    "Name": "Ferry Inc and Sons",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "Rank": 868,
+    "WebPanelId": 800,
+    "Name": "Kuphal, Lehner and Corwin",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "Rank": 459,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": true,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Sipes, McLaughlin and Rice",
+    "WindowName": "Mills-Barton",
     "Url": "http://www.example.com/",
-    "ProgId": "porro",
-    "Icon": 298,
+    "ProgId": "necessitatibus",
+    "Icon": 494,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "morph transparent communities"
         },
         "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldLength": 669
       }
     }
   }

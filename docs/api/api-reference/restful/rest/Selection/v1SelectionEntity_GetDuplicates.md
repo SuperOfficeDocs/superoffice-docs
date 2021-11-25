@@ -71,14 +71,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Sporer Inc and Sons",
-    "SoPrimaryKey": 108,
-    "EntryName": "Simonis-Dicki",
-    "EntryIdentifier": "quae",
-    "RuleDisplayName": "Kerluke Group",
+    "RuleName": "Emard-Hermiston",
+    "SoPrimaryKey": 273,
+    "EntryName": "Walter, Blick and Jones",
+    "EntryIdentifier": "quia",
+    "RuleDisplayName": "Beatty, Runolfsdottir and Beahan",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "integrate dynamic systems"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

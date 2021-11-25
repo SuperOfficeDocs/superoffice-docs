@@ -1,9 +1,9 @@
 ---
-title: SaveDocumentTemplateEntity
+title: POST Agents/List/SaveDocumentTemplateEntity
 id: v1ListAgent_SaveDocumentTemplateEntity
 ---
 
-# SaveDocumentTemplateEntity
+# POST Agents/List/SaveDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
@@ -120,30 +120,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 383,
-  "Name": "Barton, Padberg and Russel",
-  "Tooltip": "nihil",
-  "SaveInDb": 523,
-  "Filename": "et",
-  "DefaultOref": "nulla",
+  "DocumentTemplateId": 857,
+  "Name": "Fadel, Beahan and D'Amore",
+  "Tooltip": "recusandae",
+  "SaveInDb": 42,
+  "Filename": "minima",
+  "DefaultOref": "quisquam",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 55,
-  "IntentId": 560,
-  "IsDefaultPublished": true,
-  "Rank": 447,
-  "LoadTemplateFromPlugin": 188,
-  "MimeType": "id",
+  "AutoeventId": 722,
+  "IntentId": 945,
+  "IsDefaultPublished": false,
+  "Rank": 838,
+  "LoadTemplateFromPlugin": 696,
+  "MimeType": "ipsam",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 934,
+  "DocumentTypeKey": 137,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "valerie@bahringer.co.uk",
+  "EmailSubject": "aimee_jast@kuhlman.co.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sage.aufderhar@oconnell.co.uk",
+  "SenderEmailAddress": "brett_lebsack@stoltenberg.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,30 +153,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 607,
-  "Name": "McDermott, Goodwin and Kuphal",
-  "Tooltip": "quae",
-  "SaveInDb": 885,
-  "Filename": "sapiente",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 590,
+  "Name": "Daugherty-Crist",
+  "Tooltip": "aut",
+  "SaveInDb": 483,
+  "Filename": "illo",
+  "DefaultOref": "voluptate",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 287,
-  "IntentId": 281,
-  "IsDefaultPublished": true,
-  "Rank": 395,
-  "LoadTemplateFromPlugin": 62,
-  "MimeType": "omnis",
+  "AutoeventId": 355,
+  "IntentId": 120,
+  "IsDefaultPublished": false,
+  "Rank": 568,
+  "LoadTemplateFromPlugin": 409,
+  "MimeType": "nihil",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 157,
+  "DocumentTypeKey": 187,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jay.gutmann@ullrich.info",
+  "EmailSubject": "yesenia.roberts@schmitt.com",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonel_oreilly@mcglynnrosenbaum.info",
+  "SenderEmailAddress": "immanuel@kuvalis.name",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -186,10 +186,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reinvent innovative infrastructures"
+        "Reason": "harness killer technologies"
       },
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 675
     }
   }
 }

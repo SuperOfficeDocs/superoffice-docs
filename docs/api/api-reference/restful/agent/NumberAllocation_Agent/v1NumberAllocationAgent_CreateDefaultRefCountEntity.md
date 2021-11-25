@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRefCountEntity
+title: POST Agents/NumberAllocation/CreateDefaultRefCountEntity
 id: v1NumberAllocationAgent_CreateDefaultRefCountEntity
 ---
 
-# CreateDefaultRefCountEntity
+# POST Agents/NumberAllocation/CreateDefaultRefCountEntity
 
 ```http
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,26 +77,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 89,
-  "Field": "consectetur",
-  "RecordId": 52,
+  "RefCountsId": 575,
+  "Field": "sapiente",
+  "RecordId": 380,
   "SuggestedRecords": [
     {
-      "Id": 943,
-      "Name": "Hand, Rutherford and Kutch",
-      "ToolTip": "Magnam voluptatum at officia necessitatibus tempora.",
-      "Deleted": true,
-      "Rank": 760,
-      "Type": "enim",
+      "Id": 655,
+      "Name": "Eichmann Inc and Sons",
+      "ToolTip": "Sunt voluptas ipsam asperiores veniam ea mollitia.",
+      "Deleted": false,
+      "Rank": 863,
+      "Type": "fugit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laborum",
-      "ColorBlock": 942,
-      "ExtraInfo": "doloribus",
-      "StyleHint": "aut",
-      "FullName": "Damon Jaskolski",
+      "IconHint": "et",
+      "ColorBlock": 136,
+      "ExtraInfo": "eius",
+      "StyleHint": "optio",
+      "FullName": "Agustin Fritsch IV",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -105,17 +105,17 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 736
         }
       }
     }
   ],
-  "CurrentValue": 181,
-  "TravelPrefix": 449,
-  "SatPrefix": 809,
-  "Allocate": true,
+  "CurrentValue": 593,
+  "TravelPrefix": 811,
+  "SatPrefix": 403,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": {
     "Mask": "Delete",
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

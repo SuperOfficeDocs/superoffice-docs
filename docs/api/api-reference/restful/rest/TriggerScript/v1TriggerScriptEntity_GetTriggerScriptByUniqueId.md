@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 690,
-  "Name": "Smith, Dooley and Donnelly",
+  "ScreenChooserId": 997,
+  "Name": "Olson, Monahan and Borer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nobis",
-  "Source": "eveniet",
-  "Registered": "2003-12-05T15:05:42.9626322+01:00",
-  "RegisteredAssociateId": 737,
-  "Updated": "2017-01-09T15:05:42.9626322+01:00",
-  "UpdatedAssociateId": 395,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "quis",
+  "Registered": "2001-02-27T18:25:51.3221056+01:00",
+  "RegisteredAssociateId": 533,
+  "Updated": "2019-02-20T18:25:51.3221056+01:00",
+  "UpdatedAssociateId": 1000,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "target synergistic architectures"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 693
     }
   }
 }

@@ -117,45 +117,45 @@ Response body: object
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "nihil",
     "value": {
       "value1": {
-        "PrimaryKey": 1334,
-        "EntityName": "sale",
-        "saleId": 1334,
-        "contactId": 3066,
-        "name": "Ankunding, Heathcote and Cremin"
+        "PrimaryKey": 9879,
+        "EntityName": "person",
+        "personId": 9879,
+        "fullName": "Ludie Franecki"
       },
       "value2": {
-        "PrimaryKey": 2519,
-        "EntityName": "person",
-        "personId": 2519,
-        "fullName": "Damon McDermott"
+        "PrimaryKey": 6697,
+        "EntityName": "sale",
+        "saleId": 6697,
+        "contactId": 4373,
+        "name": "Bashirian, Ratke and Lehner"
       }
     }
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "nihil",
     "value": {
       "value1": {
-        "PrimaryKey": 1334,
-        "EntityName": "sale",
-        "saleId": 1334,
-        "contactId": 3066,
-        "name": "Ankunding, Heathcote and Cremin"
+        "PrimaryKey": 9879,
+        "EntityName": "person",
+        "personId": 9879,
+        "fullName": "Ludie Franecki"
       },
       "value2": {
-        "PrimaryKey": 2519,
-        "EntityName": "person",
-        "personId": 2519,
-        "fullName": "Damon McDermott"
+        "PrimaryKey": 6697,
+        "EntityName": "sale",
+        "saleId": 6697,
+        "contactId": 4373,
+        "name": "Bashirian, Ratke and Lehner"
       }
     }
   }
@@ -167,14 +167,14 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 65,
-  "AssociateId": 852,
-  "Block": "architecto",
-  "Registered": "2003-09-04T15:05:42.7576622+02:00",
-  "RegisteredAssociateId": 322,
-  "Updated": "2019-01-26T15:05:42.7576622+01:00",
-  "UpdatedAssociateId": 534,
-  "UpdatedCount": 235,
+  "ShipmentMessageBlockId": 791,
+  "AssociateId": 517,
+  "Block": "atque",
+  "Registered": "2005-02-12T18:25:51.1099465+01:00",
+  "RegisteredAssociateId": 587,
+  "Updated": "2009-02-28T18:25:51.1099465+01:00",
+  "UpdatedAssociateId": 484,
+  "UpdatedCount": 377,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 82
     }
   },
   "_Links": {

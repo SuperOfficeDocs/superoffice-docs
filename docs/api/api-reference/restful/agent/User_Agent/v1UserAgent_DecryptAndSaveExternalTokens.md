@@ -1,9 +1,9 @@
 ---
-title: DecryptAndSaveExternalTokens
+title: POST Agents/User/DecryptAndSaveExternalTokens
 id: v1UserAgent_DecryptAndSaveExternalTokens
 ---
 
-# DecryptAndSaveExternalTokens
+# POST Agents/User/DecryptAndSaveExternalTokens
 
 ```http
 POST /api/v1/Agents/User/DecryptAndSaveExternalTokens
@@ -70,14 +70,14 @@ Response body: string
 POST /api/v1/Agents/User/DecryptAndSaveExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TokenManagementInfo": {
-    "Provider": "sed",
-    "AccessToken": "corporis",
-    "RefreshToken": "blanditiis"
+    "Provider": "et",
+    "AccessToken": "itaque",
+    "RefreshToken": "et"
   }
 }
 ```

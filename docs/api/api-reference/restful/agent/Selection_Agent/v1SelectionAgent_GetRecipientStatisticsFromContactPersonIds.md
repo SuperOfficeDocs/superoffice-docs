@@ -1,9 +1,9 @@
 ---
-title: GetRecipientStatisticsFromContactPersonIds
+title: POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 id: v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds
 ---
 
-# GetRecipientStatisticsFromContactPersonIds
+# POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 647,
-      "ContactId": 281
+      "PersonId": 287,
+      "ContactId": 51
     },
     {
-      "PersonId": 647,
-      "ContactId": 281
+      "PersonId": 287,
+      "ContactId": 51
     }
   ]
 }
@@ -104,12 +104,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 73,
-  "ValidPostalAddresses": 916,
-  "ValidEmailAddresses": 467,
-  "ValidFaxNumbers": 466,
-  "NoAddresses": 102,
-  "NoFaxOrEmails": 829,
+  "Total": 526,
+  "ValidPostalAddresses": 320,
+  "ValidEmailAddresses": 190,
+  "ValidFaxNumbers": 276,
+  "NoAddresses": 392,
+  "NoFaxOrEmails": 416,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,10 +118,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "deploy sexy communities"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 103
     }
   }
 }

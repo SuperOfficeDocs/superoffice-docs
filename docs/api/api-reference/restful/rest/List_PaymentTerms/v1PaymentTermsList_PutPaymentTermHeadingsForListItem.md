@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Hamill-Treutel",
-    "ToolTip": "Et harum.",
+    "Id": 922,
+    "Name": "Homenick-Bogan",
+    "ToolTip": "Nesciunt rerum qui et vel.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "voluptas",
-    "ColorBlock": 733,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2007-04-25T15:05:43.5470794+02:00",
+    "Rank": 43,
+    "Type": "autem",
+    "ColorBlock": 470,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2020-01-08T18:25:51.9302417+01:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Fahey-Kohler",
-        "ToolTip": "Fugit et deserunt commodi voluptas cumque quisquam.",
-        "Deleted": false,
-        "Rank": 521,
-        "Type": "voluptatibus",
-        "ColorBlock": 891,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2004-07-15T15:05:43.5470794+02:00",
+        "Id": 580,
+        "Name": "Howell, Wiegand and Mante",
+        "ToolTip": "Velit ut possimus dolores debitis consequatur.",
+        "Deleted": true,
+        "Rank": 794,
+        "Type": "delectus",
+        "ColorBlock": 882,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "1995-04-09T18:25:51.931244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Maria Fahey"
+        "ExtraInfo": "ipsa",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Alexzander Dickens"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Cade O'Conner"
+    "FullName": "Miss Justina Jones"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Glover, Treutel and Abernathy",
-    "ToolTip": "Est laboriosam adipisci at illum.",
+    "Id": 335,
+    "Name": "Cole-Douglas",
+    "ToolTip": "Quam quae sint mollitia amet atque.",
     "Deleted": false,
-    "Rank": 486,
-    "Type": "et",
-    "ColorBlock": 210,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2018-04-04T15:05:43.5490794+02:00",
+    "Rank": 76,
+    "Type": "nobis",
+    "ColorBlock": 402,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2000-08-10T18:25:51.9322398+02:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Stark-DuBuque",
-        "ToolTip": "Provident alias excepturi.",
+        "Id": 609,
+        "Name": "Volkman Inc and Sons",
+        "ToolTip": "Quos quod quia et reprehenderit voluptatem.",
         "Deleted": true,
-        "Rank": 583,
-        "Type": "aut",
-        "ColorBlock": 39,
-        "IconHint": "quas",
+        "Rank": 905,
+        "Type": "non",
+        "ColorBlock": 969,
+        "IconHint": "sequi",
         "Selected": true,
-        "LastChanged": "2010-02-18T15:05:43.5490794+01:00",
+        "LastChanged": "1997-02-11T18:25:51.9322398+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "quia",
+        "ExtraInfo": "qui",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Sienna Schultz",
+        "FullName": "Guiseppe Ziemann",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 553
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Belle Welch",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Haleigh Ernser",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldType": "System.String",
+        "FieldLength": 262
       }
     }
   }

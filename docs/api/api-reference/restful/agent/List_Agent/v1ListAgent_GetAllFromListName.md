@@ -1,9 +1,9 @@
 ---
-title: GetAllFromListName
+title: POST Agents/List/GetAllFromListName
 id: v1ListAgent_GetAllFromListName
 ---
 
-# GetAllFromListName
+# POST Agents/List/GetAllFromListName
 
 ```http
 POST /api/v1/Agents/List/GetAllFromListName
@@ -79,12 +79,12 @@ Response body: array
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wunsch-Prosacco",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Williamson Inc and Sons",
+  "IncludeDeleted": false
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Von, Cummerata and Barton",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 516,
-    "Rank": 490,
+    "Id": 34,
+    "Name": "Sauer Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 488,
+    "Rank": 340,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver proactive experiences"
     },
     "FieldProperties": {
       "fieldName": {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 627
       }
     }
   }

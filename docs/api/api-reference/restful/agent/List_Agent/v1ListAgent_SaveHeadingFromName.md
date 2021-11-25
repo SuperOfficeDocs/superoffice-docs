@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingFromName
+title: POST Agents/List/SaveHeadingFromName
 id: v1ListAgent_SaveHeadingFromName
 ---
 
-# SaveHeadingFromName
+# POST Agents/List/SaveHeadingFromName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromName
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Witting-Zemlak",
+  "Name": "Nitzsche Group",
   "Entity": {
-    "HeadingId": 868,
-    "Name": "Ziemann-Ward",
-    "Tooltip": "ipsum",
+    "HeadingId": 58,
+    "Name": "Aufderhar LLC",
+    "Tooltip": "itaque",
     "Deleted": true,
-    "Rank": 724,
-    "UdListDefinitionId": 574
+    "Rank": 24,
+    "UdListDefinitionId": 178
   }
 }
 ```
@@ -105,15 +105,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 591,
-  "Name": "Torp Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 285,
-  "UdListDefinitionId": 954,
+  "HeadingId": 750,
+  "Name": "VonRueden LLC",
+  "Tooltip": "in",
+  "Deleted": false,
+  "Rank": 200,
+  "UdListDefinitionId": 301,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "morph killer e-services"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 536
     }
   }
 }

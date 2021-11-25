@@ -1,9 +1,9 @@
 ---
-title: GetDashTileDefinition
+title: POST Agents/Dash/GetDashTileDefinition
 id: v1DashAgent_GetDashTileDefinition
 ---
 
-# GetDashTileDefinition
+# POST Agents/Dash/GetDashTileDefinition
 
 ```http
 POST /api/v1/Agents/Dash/GetDashTileDefinition
@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=349
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=908
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -96,24 +96,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 764,
-  "Name": "Sauer-Weimann",
-  "Description": "Cloned mobile challenge",
-  "DefaultHeight": 105,
-  "DefaultWidth": 992,
+  "DashboardTileDefinitionId": 888,
+  "Name": "Gutmann LLC",
+  "Description": "Virtual even-keeled paradigm",
+  "DefaultHeight": 742,
+  "DefaultWidth": 795,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Roberts, Block and Barton",
-  "SelectionId": 438,
+  "EntityName": "Powlowski, Frami and Vandervort",
+  "SelectionId": 378,
   "CurrencyMode": "Base",
-  "CurrencyId": 671,
+  "CurrencyCode": "enim",
   "Measure": "Average",
-  "MeasureField": "repudiandae",
-  "SortBy": "ducimus",
-  "LayoutConfig": "similique",
-  "SecondarySelectionId": 423,
-  "MeasureByField": "cupiditate",
-  "ProviderName": "Mohr, Mills and Ullrich",
+  "MeasureField": "quam",
+  "SortBy": "aliquam",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 933,
+  "MeasureByField": "esse",
+  "ProviderName": "Mayert-Stanton",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 738
     }
   }
 }

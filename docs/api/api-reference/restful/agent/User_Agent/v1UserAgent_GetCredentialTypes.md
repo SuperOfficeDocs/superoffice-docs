@@ -1,9 +1,9 @@
 ---
-title: GetCredentialTypes
+title: POST Agents/User/GetCredentialTypes
 id: v1UserAgent_GetCredentialTypes
 ---
 
-# GetCredentialTypes
+# POST Agents/User/GetCredentialTypes
 
 ```http
 POST /api/v1/Agents/User/GetCredentialTypes
@@ -71,7 +71,7 @@ Response body: array
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -80,15 +80,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "voluptates",
-    "Type": "sed",
-    "Description": "De-engineered zero defect paradigm",
+    "DisplayType": "qui",
+    "Type": "voluptatem",
+    "Description": "Persistent disintermediate internet solution",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "reinvent integrated vortals"
     },
     "FieldProperties": {
       "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 959
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetQuoteVersionWorkflowButtonStates
+title: POST Agents/Quote/GetQuoteVersionWorkflowButtonStates
 id: v1QuoteAgent_GetQuoteVersionWorkflowButtonStates
 ---
 
-# GetQuoteVersionWorkflowButtonStates
+# POST Agents/Quote/GetQuoteVersionWorkflowButtonStates
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 353,
-  "QuoteAlternativeId": 919
+  "QuoteVersionId": 249,
+  "QuoteAlternativeId": 950
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "dolorem",
-      "DisplayText": "beatae",
-      "TooltipText": "dolores",
-      "Enabled": false,
+      "ImageHint": "repellat",
+      "DisplayText": "maxime",
+      "TooltipText": "rerum",
+      "Enabled": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition holistic portals"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 84
         }
       }
     }
   ],
   "StateImage": {
     "Action": "Approve",
-    "ImageHint": "illum",
-    "DisplayText": "et",
+    "ImageHint": "sint",
+    "DisplayText": "dolor",
     "TooltipText": "ut",
-    "Enabled": true,
+    "Enabled": false,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -130,15 +130,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 503
+        "FieldLength": 333
       }
     }
   },
   "UpdatePricesButton": {
     "Action": "Approve",
-    "ImageHint": "doloribus",
-    "DisplayText": "modi",
-    "TooltipText": "deserunt",
+    "ImageHint": "vel",
+    "DisplayText": "quas",
+    "TooltipText": "pariatur",
     "Enabled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -147,25 +147,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   },
   "Status": {
     "Status": "Error",
-    "IconHint": "non",
-    "DisplayMessage": "animi",
-    "DisplayTooltip": "consequatur",
+    "IconHint": "architecto",
+    "DisplayMessage": "quasi",
+    "DisplayTooltip": "magni",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "unleash cross-media communities"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 903
       }
     }
   },
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 10
     }
   }
 }

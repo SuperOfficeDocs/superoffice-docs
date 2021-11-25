@@ -24,7 +24,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -78,24 +78,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Kris-Lowe",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 350,
-    "Rank": 214,
+    "Id": 837,
+    "Name": "O'Hara-Jenkins",
+    "Tooltip": "ipsa",
+    "Deleted": true,
+    "UdListDefinitionId": 195,
+    "Rank": 876,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "extend intuitive communities"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "iterate out-of-the-box content"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 249
       }
     }
   }

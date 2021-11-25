@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 911,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "aliquam",
-    "Deleted": true,
-    "Rank": 662,
-    "UdListDefinitionId": 214
+    "HeadingId": 360,
+    "Name": "Waters, Brown and Sauer",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 585
   },
   {
-    "HeadingId": 911,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "aliquam",
-    "Deleted": true,
-    "Rank": 662,
-    "UdListDefinitionId": 214
+    "HeadingId": 360,
+    "Name": "Waters, Brown and Sauer",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 585
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 495,
-    "Name": "Marquardt-Erdman",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 556,
-    "UdListDefinitionId": 740,
+    "HeadingId": 541,
+    "Name": "Cartwright Inc and Sons",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 341,
+    "UdListDefinitionId": 869,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   }

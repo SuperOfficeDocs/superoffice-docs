@@ -1,9 +1,9 @@
 ---
-title: GetKey
+title: POST Agents/ForeignSystem/GetKey
 id: v1ForeignSystemAgent_GetKey
 ---
 
-# GetKey
+# POST Agents/ForeignSystem/GetKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKey
@@ -85,15 +85,15 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Von Inc and Sons",
-  "DeviceName": "Bartoletti LLC",
-  "KeyName": "Leannon, Yost and Leffler",
-  "TableName": "Deckow, Mohr and Jenkins",
-  "RecordId": 381
+  "ApplicationName": "Grady-Hermiston",
+  "DeviceName": "Grady Group",
+  "KeyName": "Nicolas-Klocko",
+  "TableName": "Carter Inc and Sons",
+  "RecordId": 881
 }
 ```
 
@@ -102,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quasi",
-  "Value": "suscipit",
-  "RecordId": 835,
-  "CreatedDate": "2008-03-30T14:58:04.3054599+02:00",
-  "UpdatedDate": "2019-11-19T14:58:04.3054599+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "consequatur",
-  "TableName": "Bins LLC",
+  "Key": "earum",
+  "Value": "ipsum",
+  "RecordId": 92,
+  "CreatedDate": "2012-12-26T18:28:49.212088+01:00",
+  "UpdatedDate": "2016-10-19T18:28:49.212088+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "tempora",
+  "TableName": "Casper LLC",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize 24/7 e-commerce"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "enable impactful communities"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldLength": 373
     }
   }
 }

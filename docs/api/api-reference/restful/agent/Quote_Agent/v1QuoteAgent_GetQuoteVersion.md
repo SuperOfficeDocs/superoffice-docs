@@ -1,9 +1,9 @@
 ---
-title: GetQuoteVersion
+title: POST Agents/Quote/GetQuoteVersion
 id: v1QuoteAgent_GetQuoteVersion
 ---
 
-# GetQuoteVersion
+# POST Agents/Quote/GetQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersion
@@ -114,11 +114,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 608
+  "QuoteVersionId": 231
 }
 ```
 
@@ -127,67 +127,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 585,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 82,
-  "Description": "Profit-focused non-volatile definition",
-  "Number": "49669",
+  "QuoteVersionId": 768,
+  "ERPQuoteVersionKey": "nihil",
+  "QuoteId": 687,
+  "Description": "Optimized actuating extranet",
+  "Number": "1721474",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 833,
-  "SentDate": "2003-06-29T14:58:04.9374601+02:00",
-  "FollowupId": 978,
-  "ExpirationDate": "2007-12-16T14:58:04.9374601+01:00",
-  "DeliveryCountryId": 500,
+  "LikelyQuoteAlternativeId": 146,
+  "SentDate": "2003-02-13T18:28:49.918138+01:00",
+  "FollowupId": 944,
+  "ExpirationDate": "2004-02-12T18:28:49.918138+01:00",
+  "DeliveryCountryId": 376,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 917,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "aut",
-  "ERPPaymentTypeKey": "qui",
-  "ERPDeliveryTermsKey": "quo",
-  "ERPDeliveryTypeKey": "officiis",
-  "Rank": 359,
-  "ApprovedBy": 434,
-  "ApprovedText": "minima",
-  "ApprovedRegisteredBy": 983,
-  "ApprovedRegisteredDate": "2000-07-28T14:58:04.9374601+02:00",
-  "ExtraField1": "itaque",
-  "ExtraField2": "facilis",
+  "InvoiceCountryId": 846,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "nesciunt",
+  "ERPPaymentTypeKey": "error",
+  "ERPDeliveryTermsKey": "dignissimos",
+  "ERPDeliveryTypeKey": "quidem",
+  "Rank": 780,
+  "ApprovedBy": 824,
+  "ApprovedText": "sunt",
+  "ApprovedRegisteredBy": 878,
+  "ApprovedRegisteredDate": "2021-05-24T18:28:49.918138+02:00",
+  "ExtraField1": "placeat",
+  "ExtraField2": "non",
   "ExtraField3": "eos",
-  "ExtraField4": "nemo",
-  "ExtraField5": "enim",
-  "LastRecalculated": "2004-05-20T14:58:04.9374601+02:00",
-  "Updated": "2001-08-21T14:58:04.9374601+02:00",
-  "UpdatedAssociateId": 689,
-  "Registered": "2015-12-30T14:58:04.9374601+01:00",
-  "RegisteredAssociateId": 643,
+  "ExtraField4": "laborum",
+  "ExtraField5": "quas",
+  "LastRecalculated": "2005-09-10T18:28:49.9191377+02:00",
+  "Updated": "2005-11-02T18:28:49.9191377+01:00",
+  "UpdatedAssociateId": 310,
+  "Registered": "2004-02-10T18:28:49.9191377+01:00",
+  "RegisteredAssociateId": 725,
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 336,
-      "ERPQuoteAlternativeKey": "labore",
-      "QuoteVersionId": 541,
-      "Name": "Bosco, Marquardt and Smith",
-      "Description": "Upgradable multi-state ability",
+      "QuoteAlternativeId": 686,
+      "ERPQuoteAlternativeKey": "maxime",
+      "QuoteVersionId": 190,
+      "Name": "Lemke, Franecki and Goyette",
+      "Description": "Cross-platform incremental migration",
       "Status": "Error",
-      "Reason": "reintermediate interactive schemas",
-      "ERPDiscountPercent": 16080.554,
-      "ERPDiscountAmount": 26993.142,
-      "DiscountPercent": 1914.874,
-      "DiscountAmount": 11539.387999999999,
+      "Reason": "",
+      "ERPDiscountPercent": 29572.424,
+      "ERPDiscountAmount": 22100.968,
+      "DiscountPercent": 30835.426,
+      "DiscountAmount": 8035.576,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "at",
-      "VAT": 13463.663999999999,
-      "EarningPercent": 1676.69,
-      "EarningAmount": 18785.196,
-      "SubTotal": 5710.148,
-      "TotalPrice": 16400.221999999998,
-      "ExtraField1": "excepturi",
-      "ExtraField2": "accusantium",
-      "ExtraField3": "ut",
-      "ExtraField4": "distinctio",
-      "ExtraField5": "id",
+      "VATInfo": "commodi",
+      "VAT": 6126.9699999999993,
+      "EarningPercent": 6841.522,
+      "EarningAmount": 5077.08,
+      "SubTotal": 2877.0119999999997,
+      "TotalPrice": 30788.415999999997,
+      "ExtraField1": "dolorum",
+      "ExtraField2": "et",
+      "ExtraField3": "iusto",
+      "ExtraField4": "reprehenderit",
+      "ExtraField5": "explicabo",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 956
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 873
     }
   }
 }

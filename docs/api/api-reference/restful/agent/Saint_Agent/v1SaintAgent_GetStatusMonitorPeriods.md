@@ -1,9 +1,9 @@
 ---
-title: GetStatusMonitorPeriods
+title: POST Agents/Saint/GetStatusMonitorPeriods
 id: v1SaintAgent_GetStatusMonitorPeriods
 ---
 
-# GetStatusMonitorPeriods
+# POST Agents/Saint/GetStatusMonitorPeriods
 
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,9 +79,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 771,
-  "Period2": 162,
-  "Period3": 838,
+  "Period1": 243,
+  "Period2": 676,
+  "Period3": 27,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

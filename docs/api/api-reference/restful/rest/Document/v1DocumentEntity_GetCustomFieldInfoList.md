@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kihn LLC",
-    "DisplayName": "Lebsack-Bailey",
-    "Description": "Cloned zero administration complexity",
-    "ShortLabel": "minus",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 274,
-    "TemplateVariableName": "Gibson LLC"
+    "FieldName": "Schiller LLC",
+    "DisplayName": "Crist-Kunze",
+    "Description": "Fully-configurable intermediate productivity",
+    "ShortLabel": "quia",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 22,
+    "TemplateVariableName": "Wolff Group"
   }
 ]
 ```

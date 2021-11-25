@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Gusikowski, Kulas and Carroll",
-    "ToolTip": "Quaerat alias.",
+    "Id": 338,
+    "Name": "Harris-Runolfsdottir",
+    "ToolTip": "Qui sunt odit.",
     "Deleted": true,
-    "Rank": 962,
-    "Type": "illum",
-    "ColorBlock": 812,
-    "IconHint": "inventore",
+    "Rank": 981,
+    "Type": "commodi",
+    "ColorBlock": 840,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "1997-11-01T15:05:43.7651172+01:00",
+    "LastChanged": "2005-07-10T18:25:52.1530195+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Klein-Kulas",
-        "ToolTip": "Quam laborum eius voluptatum.",
-        "Deleted": false,
-        "Rank": 318,
-        "Type": "nihil",
-        "ColorBlock": 636,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2006-01-16T15:05:43.7651172+01:00",
+        "Id": 916,
+        "Name": "Johnston, Feest and Hessel",
+        "ToolTip": "Tempora enim omnis aperiam molestiae quibusdam earum.",
+        "Deleted": true,
+        "Rank": 847,
+        "Type": "est",
+        "ColorBlock": 47,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2005-04-24T18:25:52.1549849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "nulla",
+        "ExtraInfo": "maxime",
+        "StyleHint": "architecto",
         "Hidden": true,
-        "FullName": "Greta Blanda",
+        "FullName": "Austyn Ruecker",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 331
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Juanita Senger IV",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Bennett Kirlin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 792
       }
     }
   }

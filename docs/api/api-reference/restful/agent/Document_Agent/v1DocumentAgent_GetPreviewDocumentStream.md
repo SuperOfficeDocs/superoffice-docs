@@ -1,9 +1,9 @@
 ---
-title: GetPreviewDocumentStream
+title: POST Agents/Document/GetPreviewDocumentStream
 id: v1DocumentAgent_GetPreviewDocumentStream
 ---
 
-# GetPreviewDocumentStream
+# POST Agents/Document/GetPreviewDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
@@ -81,11 +81,11 @@ Response body: object
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 375
+  "DocumentId": 723
 }
 ```
 
@@ -94,13 +94,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmeler, Rosenbaum and Lemke",
-  "Type": "nihil",
-  "Size": 876,
+  "Name": "Altenwerth-Gerhold",
+  "Type": "voluptas",
+  "Size": 962,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "aggregate collaborative action-items"
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

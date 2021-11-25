@@ -1,9 +1,9 @@
 ---
-title: GetDefaultDesiredColumnsFromRestrictions2
+title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 id: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2
 ---
 
-# GetDefaultDesiredColumnsFromRestrictions2
+# POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
@@ -170,12 +170,12 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howe, Bode and Heathcote",
-  "Restrictions": "esse"
+  "ProviderName": "Ankunding Group",
+  "Restrictions": "sint"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Haag-Kunde",
-    "DisplayTooltip": "et",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "Bernhard, Bogan and Skiles",
+    "DisplayName": "Stiedemann-Beatty",
+    "DisplayTooltip": "quibusdam",
+    "DisplayType": "veritatis",
+    "CanOrderBy": true,
+    "Name": "Steuber Group",
     "CanRestrictBy": false,
-    "RestrictionType": "et",
-    "RestrictionListName": "Huel-Zulauf",
-    "IsVisible": false,
-    "ExtraInfo": "cupiditate",
-    "Width": "illo",
-    "IconHint": "ipsa",
-    "HeadingIconHint": "accusamus"
+    "RestrictionType": "sint",
+    "RestrictionListName": "Champlin-Pagac",
+    "IsVisible": true,
+    "ExtraInfo": "voluptatibus",
+    "Width": "quis",
+    "IconHint": "aut",
+    "HeadingIconHint": "ipsum"
   }
 ]
 ```

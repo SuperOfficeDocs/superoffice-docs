@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 397,
-    "Name": "Harvey-Balistreri",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 427,
-    "UdListDefinitionId": 845,
+    "HeadingId": 393,
+    "Name": "Hills-Lindgren",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "Rank": 493,
+    "UdListDefinitionId": 500,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldLength": 142
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: RebuildFullnames
+title: POST Agents/List/RebuildFullnames
 id: v1ListAgent_RebuildFullnames
 ---
 
-# RebuildFullnames
+# POST Agents/List/RebuildFullnames
 
 ```http
 POST /api/v1/Agents/List/RebuildFullnames

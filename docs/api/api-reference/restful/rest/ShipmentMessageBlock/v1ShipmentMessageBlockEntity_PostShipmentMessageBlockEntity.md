@@ -92,18 +92,18 @@ Response body: object
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 985,
-  "AssociateId": 282,
-  "Block": "est",
-  "Registered": "2005-03-25T15:05:42.7556624+01:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "1996-08-10T15:05:42.7556624+02:00",
-  "UpdatedAssociateId": 147,
-  "UpdatedCount": 437
+  "ShipmentMessageBlockId": 462,
+  "AssociateId": 370,
+  "Block": "eveniet",
+  "Registered": "2010-01-04T18:25:51.1079471+01:00",
+  "RegisteredAssociateId": 689,
+  "Updated": "1999-01-21T18:25:51.1079471+01:00",
+  "UpdatedAssociateId": 883,
+  "UpdatedCount": 924
 }
 ```
 
@@ -112,14 +112,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 309,
-  "AssociateId": 185,
-  "Block": "et",
-  "Registered": "1994-07-12T15:05:42.7566623+02:00",
-  "RegisteredAssociateId": 689,
-  "Updated": "1997-05-31T15:05:42.7566623+02:00",
-  "UpdatedAssociateId": 129,
-  "UpdatedCount": 66,
+  "ShipmentMessageBlockId": 190,
+  "AssociateId": 440,
+  "Block": "voluptates",
+  "Registered": "1998-10-28T18:25:51.1079471+01:00",
+  "RegisteredAssociateId": 825,
+  "Updated": "2013-02-26T18:25:51.1079471+01:00",
+  "UpdatedAssociateId": 682,
+  "UpdatedCount": 891,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "integrate global models"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

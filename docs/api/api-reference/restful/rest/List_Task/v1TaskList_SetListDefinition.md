@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Murray Inc and Sons",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 346,
+  "Id": 149,
+  "Name": "Pfeffer, Mayer and Williamson",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 939,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "temporibus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sint",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 290,
-  "Name": "Beier-Lakin",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "Rank": 803,
-  "IsCustomList": false,
+  "Id": 557,
+  "Name": "McCullough, Feeney and Barton",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 423,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 938
     }
   }
 }

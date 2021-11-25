@@ -111,30 +111,30 @@ Response body: object
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 840,
-  "Name": "Rippin-Kling",
-  "Tooltip": "ut",
+  "WebPanelId": 949,
+  "Name": "Auer, Kiehn and Carroll",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 579,
+  "Rank": 409,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Reichel-Monahan",
+  "WindowName": "Dach-Lehner",
   "Url": "http://www.example.com/",
-  "ProgId": "nemo",
-  "Icon": 587
+  "ProgId": "est",
+  "Icon": 103
 }
 ```
 
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 430,
-  "Name": "Heller, Lemke and Deckow",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 206,
+  "WebPanelId": 674,
+  "Name": "Shields Group",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 917,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Witting-Casper",
+  "WindowName": "Abbott, Douglas and Prohaska",
   "Url": "http://www.example.com/",
-  "ProgId": "officiis",
-  "Icon": 899,
+  "ProgId": "accusamus",
+  "Icon": 631,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,10 +171,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "seize efficient web-readiness"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

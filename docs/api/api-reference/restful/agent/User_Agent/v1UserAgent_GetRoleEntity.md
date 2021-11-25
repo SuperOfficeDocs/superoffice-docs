@@ -1,9 +1,9 @@
 ---
-title: GetRoleEntity
+title: POST Agents/User/GetRoleEntity
 id: v1UserAgent_GetRoleEntity
 ---
 
-# GetRoleEntity
+# POST Agents/User/GetRoleEntity
 
 ```http
 POST /api/v1/Agents/User/GetRoleEntity
@@ -27,7 +27,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=707
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=415
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -88,27 +88,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 730,
-  "Name": "Pollich-Ferry",
-  "Tooltip": "rerum",
+  "RoleId": 89,
+  "Name": "Hand, Padberg and Bartoletti",
+  "Tooltip": "harum",
   "RoleType": "Anonymous",
-  "Deleted": 920,
-  "Rank": 891,
-  "Created": "2018-10-24T14:58:05.5660639+02:00",
-  "UseCategories": 30,
+  "Deleted": 522,
+  "Rank": 778,
+  "Created": "2015-06-28T18:28:50.5664469+02:00",
+  "UseCategories": 16,
   "CreatedBy": {
-    "AssociateId": 531,
-    "Name": "Kertzmann, Thompson and Collins",
-    "PersonId": 412,
-    "Rank": 331,
-    "Tooltip": "repellendus",
+    "AssociateId": 681,
+    "Name": "Boyle LLC",
+    "PersonId": 843,
+    "Rank": 833,
+    "Tooltip": "libero",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 407,
-    "FullName": "Kevin Dietrich",
-    "FormalName": "Marquardt Group",
-    "Deleted": false,
-    "EjUserId": 639,
-    "UserName": "Bechtelar Group",
+    "GroupIdx": 342,
+    "FullName": "Luther Waters",
+    "FormalName": "Hintz Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 437,
+    "UserName": "Hane-Yost",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -117,24 +117,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 590
       }
     }
   },
-  "Updated": "1994-05-27T14:58:05.5660639+02:00",
+  "Updated": "2018-03-02T18:28:50.5664469+01:00",
   "UpdatedBy": {
-    "AssociateId": 938,
-    "Name": "Dooley Inc and Sons",
-    "PersonId": 517,
-    "Rank": 283,
-    "Tooltip": "animi",
+    "AssociateId": 884,
+    "Name": "Strosin-Hermiston",
+    "PersonId": 690,
+    "Rank": 638,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 769,
-    "FullName": "Matt Barton IV",
-    "FormalName": "Treutel Group",
-    "Deleted": true,
-    "EjUserId": 200,
-    "UserName": "Baumbach LLC",
+    "GroupIdx": 422,
+    "FullName": "Ivory Morissette PhD",
+    "FormalName": "Baumbach-Spencer",
+    "Deleted": false,
+    "EjUserId": 106,
+    "UserName": "Rodriguez, Swaniawski and Gleichner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 319
       }
     }
   },
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "reiciendis",
-          "Description": "Persistent actuating artificial intelligence",
+          "Value": "accusantium",
+          "Description": "Organic stable software",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -172,15 +172,15 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 588
+              "FieldLength": 891
             }
           }
         }
       ],
       [
         {
-          "Value": "necessitatibus",
-          "Description": "Adaptive modular matrix",
+          "Value": "doloribus",
+          "Description": "Open-architected reciprocal approach",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 769
+              "FieldLength": 714
             }
           }
         }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 155
       }
     }
   },
@@ -218,10 +218,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "disintermediate cross-media e-markets"
       },
-      "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

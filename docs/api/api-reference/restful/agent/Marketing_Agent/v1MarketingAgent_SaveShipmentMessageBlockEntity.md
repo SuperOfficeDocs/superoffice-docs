@@ -1,9 +1,9 @@
 ---
-title: SaveShipmentMessageBlockEntity
+title: POST Agents/Marketing/SaveShipmentMessageBlockEntity
 id: v1MarketingAgent_SaveShipmentMessageBlockEntity
 ---
 
-# SaveShipmentMessageBlockEntity
+# POST Agents/Marketing/SaveShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
@@ -82,18 +82,18 @@ Response body: object
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 479,
-  "AssociateId": 211,
-  "Block": "quis",
-  "Registered": "1994-08-09T14:58:04.4964654+02:00",
-  "RegisteredAssociateId": 873,
-  "Updated": "2012-11-04T14:58:04.4964654+01:00",
-  "UpdatedAssociateId": 75,
-  "UpdatedCount": 432
+  "ShipmentMessageBlockId": 274,
+  "AssociateId": 605,
+  "Block": "qui",
+  "Registered": "2009-02-25T18:28:49.4650876+01:00",
+  "RegisteredAssociateId": 735,
+  "Updated": "2003-09-24T18:28:49.4650876+02:00",
+  "UpdatedAssociateId": 111,
+  "UpdatedCount": 694
 }
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 973,
-  "AssociateId": 540,
-  "Block": "aperiam",
-  "Registered": "2009-02-27T14:58:04.4964654+01:00",
-  "RegisteredAssociateId": 19,
-  "Updated": "1995-10-06T14:58:04.4964654+02:00",
-  "UpdatedAssociateId": 78,
-  "UpdatedCount": 966,
+  "ShipmentMessageBlockId": 375,
+  "AssociateId": 221,
+  "Block": "consequatur",
+  "Registered": "2019-07-22T18:28:49.4650876+02:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "2010-08-08T18:28:49.4650876+02:00",
+  "UpdatedAssociateId": 473,
+  "UpdatedCount": 259,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 680
     }
   }
 }

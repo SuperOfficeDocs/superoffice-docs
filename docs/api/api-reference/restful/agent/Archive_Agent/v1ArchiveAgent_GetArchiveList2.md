@@ -1,9 +1,9 @@
 ---
-title: GetArchiveList2
+title: POST Agents/Archive/GetArchiveList2
 id: v1ArchiveAgent_GetArchiveList2
 ---
 
-# GetArchiveList2
+# POST Agents/Archive/GetArchiveList2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList2
@@ -169,17 +169,17 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ernser, Balistreri and Stroman",
-  "ProviderName": "Schmidt LLC",
-  "SortOrder": "facilis",
-  "Restriction": "sed",
-  "Entities": "recusandae",
-  "Page": 396,
-  "PageSize": 470
+  "GuiName": "Batz Inc and Sons",
+  "ProviderName": "Jakubowski LLC",
+  "SortOrder": "sit",
+  "Restriction": "rerum",
+  "Entities": "harum",
+  "Page": 546,
+  "PageSize": 164
 }
 ```
 
@@ -189,17 +189,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Berge-Wolff",
-    "PrimaryKey": 763,
+    "EntityName": "Tillman, Frami and Schultz",
+    "PrimaryKey": 76,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "molestiae",
-        "TooltipHint": "accusamus",
-        "LinkHint": "aut"
+        "DisplayValue": "dolore",
+        "TooltipHint": "odio",
+        "LinkHint": "vitae"
       }
     },
-    "LinkHint": "id",
-    "StyleHint": "dolor",
+    "LinkHint": "itaque",
+    "StyleHint": "quas",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 981
       }
     }
   }

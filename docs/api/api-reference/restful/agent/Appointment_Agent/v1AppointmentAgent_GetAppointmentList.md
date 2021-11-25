@@ -1,9 +1,9 @@
 ---
-title: GetAppointmentList
+title: POST Agents/Appointment/GetAppointmentList
 id: v1AppointmentAgent_GetAppointmentList
 ---
 
-# GetAppointmentList
+# POST Agents/Appointment/GetAppointmentList
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentList
@@ -127,53 +127,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 958,
-    "StartDate": "2014-11-19T14:58:03.0375387+01:00",
-    "EndDate": "2013-05-12T14:58:03.0375387+02:00",
+    "AppointmentId": 995,
+    "StartDate": "2012-10-27T18:28:47.8808443+02:00",
+    "EndDate": "2018-07-09T18:28:47.8808443+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Isaias Murray",
-    "ContactName": "Vandervort Group",
-    "Description": "Front-line actuating access",
-    "PersonFullName": "Ruby Mitchell",
-    "PersonId": 593,
-    "ContactId": 300,
-    "ProjectId": 327,
-    "ProjectName": "Jenkins-Rau",
+    "Task": "nostrum",
+    "AssociateFullName": "Veda Bartoletti DVM",
+    "ContactName": "Herzog Inc and Sons",
+    "Description": "Up-sized scalable alliance",
+    "PersonFullName": "Devon Hettinger",
+    "PersonId": 431,
+    "ContactId": 269,
+    "ProjectId": 885,
+    "ProjectName": "Hand-Welch",
     "IsPublished": false,
-    "AssociateId": 559,
-    "ColorIndex": 917,
-    "IsFree": false,
+    "AssociateId": 584,
+    "ColorIndex": 765,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 853,
-    "PriorityName": "Schaefer-Batz",
+    "PriorityId": 807,
+    "PriorityName": "Lynch-Dicki",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2005-10-15T14:58:03.0385385+02:00",
+    "ActiveDate": "2007-08-30T18:28:47.8818482+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-30T14:58:03.0385385+02:00",
-    "RecurringEndDate": "1995-07-20T14:58:03.0385385+02:00",
-    "MotherId": 492,
-    "AssignedBy": 499,
-    "AssignedByFullName": "Khalil Kutch",
+    "RecurringStartDate": "2005-05-21T18:28:47.8818482+02:00",
+    "RecurringEndDate": "2003-10-26T18:28:47.8818482+01:00",
+    "MotherId": 175,
+    "AssignedBy": 912,
+    "AssignedByFullName": "Melany Brakus II",
     "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "quo",
-    "SaleId": 588,
-    "SaleName": "Murphy-Sporer",
-    "AssociateName": "Hermann, Collier and Bradtke",
-    "CreatedDate": "2020-01-13T14:58:03.0385385+01:00",
-    "CreatedBy": "sint",
-    "CreatedByFullName": "Dr. Aidan Pouros",
-    "CreatedByAssociateId": 191,
+    "Location": "consequatur",
+    "AlarmLeadTime": "pariatur",
+    "SaleId": 867,
+    "SaleName": "Koelpin, Mitchell and Russel",
+    "AssociateName": "Hartmann-Lubowitz",
+    "CreatedDate": "2008-02-25T18:28:47.8818482+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Terence Hermiston",
+    "CreatedByAssociateId": 147,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

@@ -85,23 +85,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 698,
-  "Name": "Schuster Group",
-  "CurrencyId": 187,
-  "EnglishName": "Ortiz-Smith",
+  "CountryId": 974,
+  "Name": "Lakin-Corkery",
+  "CurrencyId": 396,
+  "EnglishName": "Dietrich, Gutmann and Herman",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Operative upward-trending task-force",
-  "OrgNrText": "860151",
-  "InterAreaPrefix": "alias",
-  "DialInPrefix": "quia",
-  "ZipPrefix": "corrupti",
-  "DomainName": "Denesik, Roob and Prosacco",
-  "AddressLayoutId": 547,
-  "DomesticAddressLayoutId": 71,
-  "ForeignAddressLayoutId": 326,
-  "Rank": 375,
-  "Tooltip": "veniam",
+  "ImageDescription": "Stand-alone clear-thinking circuit",
+  "OrgNrText": "616752",
+  "InterAreaPrefix": "dolore",
+  "DialInPrefix": "vitae",
+  "ZipPrefix": "sed",
+  "DomainName": "Roob-Homenick",
+  "AddressLayoutId": 380,
+  "DomesticAddressLayoutId": 633,
+  "ForeignAddressLayoutId": 82,
+  "Rank": 505,
+  "Tooltip": "tempora",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

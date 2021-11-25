@@ -1,9 +1,9 @@
 ---
-title: GetOutputFromBatch
+title: POST Agents/BLOB/GetOutputFromBatch
 id: v1BLOBAgent_GetOutputFromBatch
 ---
 
-# GetOutputFromBatch
+# POST Agents/BLOB/GetOutputFromBatch
 
 ```http
 POST /api/v1/Agents/BLOB/GetOutputFromBatch
@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 191
+  "BatchTaskId": 781
 }
 ```
 

@@ -105,17 +105,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 85,
-  "UniqueIdentifier": "maiores",
-  "Name": "Jakubowski, Brakus and Ernser",
-  "Description": "Persevering upward-trending knowledge user",
-  "IncludeId": "et",
-  "HierarchyId": 112,
-  "Source": "dignissimos",
-  "Registered": "2020-07-03T15:05:42.0240027+02:00",
-  "RegisteredAssociateId": 902,
-  "Updated": "1997-07-23T15:05:42.0240027+02:00",
-  "UpdatedAssociateId": 233
+  "EjscriptId": 479,
+  "UniqueIdentifier": "tempore",
+  "Name": "Volkman-Bogan",
+  "Description": "Multi-channelled holistic standardization",
+  "IncludeId": "est",
+  "HierarchyId": 278,
+  "Source": "eaque",
+  "Registered": "2002-11-24T18:25:50.3996195+01:00",
+  "RegisteredAssociateId": 648,
+  "Updated": "2008-09-22T18:25:50.3996195+02:00",
+  "UpdatedAssociateId": 629
 }
 ```
 
@@ -124,17 +124,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 331,
-  "UniqueIdentifier": "ipsa",
-  "Name": "Grady Group",
-  "Description": "Automated analyzing database",
-  "IncludeId": "dolorem",
-  "HierarchyId": 230,
-  "Source": "minus",
-  "Registered": "2013-03-18T15:05:42.0250026+01:00",
-  "RegisteredAssociateId": 683,
-  "Updated": "1998-11-26T15:05:42.0250026+01:00",
-  "UpdatedAssociateId": 22,
+  "EjscriptId": 450,
+  "UniqueIdentifier": "incidunt",
+  "Name": "Effertz, Pollich and Cummings",
+  "Description": "Advanced systemic conglomeration",
+  "IncludeId": "maiores",
+  "HierarchyId": 452,
+  "Source": "modi",
+  "Registered": "2020-01-14T18:25:50.4006197+01:00",
+  "RegisteredAssociateId": 115,
+  "Updated": "1995-12-01T18:25:50.4006197+01:00",
+  "UpdatedAssociateId": 343,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldLength": 534
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

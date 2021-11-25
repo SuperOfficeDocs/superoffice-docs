@@ -59,7 +59,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 57,
-  "Name": "Reynolds Inc and Sons",
-  "Description": "Optional zero administration software",
-  "DefaultHeight": 661,
-  "DefaultWidth": 226,
+  "DashboardTileDefinitionId": 146,
+  "Name": "Thiel-Marvin",
+  "Description": "Front-line disintermediate ability",
+  "DefaultHeight": 518,
+  "DefaultWidth": 32,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Toy Group",
-  "SelectionId": 538,
+  "EntityName": "Buckridge-Koch",
+  "SelectionId": 960,
   "CurrencyMode": "Base",
-  "CurrencyId": 208,
+  "CurrencyCode": "vero",
   "Measure": "Average",
-  "MeasureField": "asperiores",
-  "SortBy": "nobis",
-  "LayoutConfig": "blanditiis",
-  "SecondarySelectionId": 707,
-  "MeasureByField": "eligendi",
-  "ProviderName": "Bruen Inc and Sons",
+  "MeasureField": "laboriosam",
+  "SortBy": "qui",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 973,
+  "MeasureByField": "iste",
+  "ProviderName": "Roberts-Lynch",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldLength": 51
     }
   }
 }

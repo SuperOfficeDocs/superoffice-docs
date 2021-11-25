@@ -1,9 +1,9 @@
 ---
-title: HasConnections
+title: POST Agents/Quote/HasConnections
 id: v1QuoteAgent_HasConnections
 ---
 
-# HasConnections
+# POST Agents/Quote/HasConnections
 
 ```http
 POST /api/v1/Agents/Quote/HasConnections
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Quote/HasConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -82,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "ut",
-  "TechExplanation": "dolorum",
-  "ErrorCode": "quos",
+  "UserExplanation": "eveniet",
+  "TechExplanation": "est",
+  "ErrorCode": "labore",
   "Changes": {
     "AddedRecords": [
       {},
@@ -103,10 +103,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate leading-edge platforms"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 506
       }
     }
   },
@@ -118,10 +118,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver e-business models"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 340
     }
   }
 }

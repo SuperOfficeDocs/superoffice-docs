@@ -93,16 +93,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471,
-  "Name": "Gleason, Stoltenberg and Kulas",
-  "Tooltip": "voluptate",
+  "Id": 364,
+  "Name": "Howe, Thompson and Orn",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 294,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 243,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false
+  "ListType": "debitis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "Satterfield-Leffler",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 453,
+  "Id": 319,
+  "Name": "Sipes, Weissnat and Jacobs",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "Rank": 339,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

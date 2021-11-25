@@ -1,9 +1,9 @@
 ---
-title: Copy
+title: POST Agents/Contact/Copy
 id: v1ContactAgent_Copy
 ---
 
-# Copy
+# POST Agents/Contact/Copy
 
 ```http
 POST /api/v1/Agents/Contact/Copy
@@ -71,14 +71,14 @@ Response body: int32
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 754,
-  "DestinationContactName": "Beatty, Donnelly and Trantow",
+  "SourceContactId": 771,
+  "DestinationContactName": "Gaylord, Johnston and Hilpert",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-576
+857
 ```

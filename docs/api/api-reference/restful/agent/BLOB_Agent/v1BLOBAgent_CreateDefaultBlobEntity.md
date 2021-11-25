@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultBlobEntity
+title: POST Agents/BLOB/CreateDefaultBlobEntity
 id: v1BLOBAgent_CreateDefaultBlobEntity
 ---
 
-# CreateDefaultBlobEntity
+# POST Agents/BLOB/CreateDefaultBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
@@ -75,54 +75,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 842,
-  "BlobSize": 144,
-  "Description": "Down-sized motivating flexibility",
-  "ExtraInfo": "tenetur",
-  "IsEncrypted": false,
+  "BlobId": 982,
+  "BlobSize": 329,
+  "Description": "Versatile fault-tolerant capacity",
+  "ExtraInfo": "repellat",
+  "IsEncrypted": true,
   "IsZipped": false,
   "MimeType": "itaque",
-  "OriginalSize": 286,
-  "CreatedDate": "2016-02-21T14:58:03.2782074+01:00",
-  "UpdatedDate": "2001-09-14T14:58:03.2782074+02:00",
+  "OriginalSize": 426,
+  "CreatedDate": "2008-03-27T18:28:48.1505424+01:00",
+  "UpdatedDate": "1996-10-23T18:28:48.1505424+02:00",
   "CreatedBy": {
-    "AssociateId": 638,
-    "Name": "Fahey, Rutherford and Rippin",
-    "PersonId": 973,
-    "Rank": 165,
-    "Tooltip": "est",
+    "AssociateId": 100,
+    "Name": "Thompson, Erdman and O'Hara",
+    "PersonId": 307,
+    "Rank": 93,
+    "Tooltip": "numquam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 71,
-    "FullName": "Markus McCullough",
-    "FormalName": "Lynch, Shanahan and Mueller",
-    "Deleted": false,
-    "EjUserId": 942,
-    "UserName": "Veum Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 544
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 319,
-    "Name": "Yost, Rosenbaum and Heidenreich",
-    "PersonId": 675,
-    "Rank": 391,
-    "Tooltip": "nostrum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 753,
-    "FullName": "Bailey Vandervort",
-    "FormalName": "Johns, Lueilwitz and Marks",
+    "GroupIdx": 591,
+    "FullName": "Lindsey Hoppe",
+    "FormalName": "Braun-Ortiz",
     "Deleted": true,
-    "EjUserId": 258,
-    "UserName": "Thompson-Feil",
+    "EjUserId": 234,
+    "UserName": "O'Keefe LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -131,11 +106,36 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldLength": 498
       }
     }
   },
-  "ConceptualType": "est",
+  "UpdatedBy": {
+    "AssociateId": 690,
+    "Name": "Wolf, Ritchie and Schmidt",
+    "PersonId": 632,
+    "Rank": 197,
+    "Tooltip": "totam",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 193,
+    "FullName": "William Witting",
+    "FormalName": "Satterfield-Brown",
+    "Deleted": true,
+    "EjUserId": 804,
+    "UserName": "Marvin-Moore",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 934
+      }
+    }
+  },
+  "ConceptualType": "voluptatem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 157
     }
   }
 }

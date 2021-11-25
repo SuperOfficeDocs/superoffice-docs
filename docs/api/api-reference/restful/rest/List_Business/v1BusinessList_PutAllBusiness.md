@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Leannon Inc and Sons",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "UdListDefinitionId": 528,
-    "Rank": 763
+    "Id": 122,
+    "Name": "Greenfelder LLC",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 1000,
+    "Rank": 564
   },
   {
-    "Id": 998,
-    "Name": "Leannon Inc and Sons",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "UdListDefinitionId": 528,
-    "Rank": 763
+    "Id": 122,
+    "Name": "Greenfelder LLC",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 1000,
+    "Rank": 564
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Durgan-Lueilwitz",
-    "Tooltip": "suscipit",
+    "Id": 821,
+    "Name": "Wintheiser-Witting",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 132,
-    "Rank": 161,
+    "UdListDefinitionId": 154,
+    "Rank": 715,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 482
       }
     }
   }

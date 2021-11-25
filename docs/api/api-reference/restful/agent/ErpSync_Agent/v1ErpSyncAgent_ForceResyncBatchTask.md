@@ -1,9 +1,9 @@
 ---
-title: ForceResyncBatchTask
+title: POST Agents/ErpSync/ForceResyncBatchTask
 id: v1ErpSyncAgent_ForceResyncBatchTask
 ---
 
-# ForceResyncBatchTask
+# POST Agents/ErpSync/ForceResyncBatchTask
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask

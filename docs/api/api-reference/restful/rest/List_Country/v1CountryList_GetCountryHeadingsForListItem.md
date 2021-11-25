@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Johnston LLC",
-    "ToolTip": "Deserunt repellat veritatis quia est ut consectetur.",
+    "Id": 290,
+    "Name": "Casper Group",
+    "ToolTip": "Voluptatem et nostrum.",
     "Deleted": false,
-    "Rank": 87,
-    "Type": "consequuntur",
-    "ColorBlock": 552,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2013-02-17T15:05:43.3755104+01:00",
+    "Rank": 161,
+    "Type": "blanditiis",
+    "ColorBlock": 978,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2003-07-29T18:25:51.7543202+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Schowalter, Ratke and Runolfsson",
-        "ToolTip": "Id ipsum quo sunt.",
-        "Deleted": true,
-        "Rank": 654,
-        "Type": "ut",
-        "ColorBlock": 235,
-        "IconHint": "numquam",
+        "Id": 965,
+        "Name": "Simonis-Nitzsche",
+        "ToolTip": "Consequatur amet ipsam.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "optio",
+        "ColorBlock": 415,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2015-08-22T15:05:43.3765102+02:00",
+        "LastChanged": "2001-07-27T18:25:51.7553263+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Royce Harris",
+        "ExtraInfo": "cumque",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Keenan Mosciski",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 386
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sed",
+    "ExtraInfo": "quasi",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Phyllis Bruen",
+    "FullName": "Eliezer Friesen",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

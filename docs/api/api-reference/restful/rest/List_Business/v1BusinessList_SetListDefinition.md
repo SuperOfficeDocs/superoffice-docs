@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Lebsack Group",
-  "Tooltip": "voluptas",
+  "Id": 452,
+  "Name": "Balistreri, Haley and Eichmann",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 301,
-  "IsCustomList": false,
+  "Rank": 48,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 468,
-  "Name": "Feeney LLC",
-  "Tooltip": "tempore",
+  "Id": 841,
+  "Name": "Huel-Schroeder",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 341,
+  "Rank": 635,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "innovate best-of-breed platforms"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "syndicate cutting-edge ROI"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

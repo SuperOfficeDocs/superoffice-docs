@@ -1,9 +1,9 @@
 ---
-title: CreateOrUpdateQuoteVersionAttachments
+title: POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 id: v1QuoteAgent_CreateOrUpdateQuoteVersionAttachments
 ---
 
-# CreateOrUpdateQuoteVersionAttachments
+# POST Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 
 ```http
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 759
+  "QuoteVersionId": 343
 }
 ```
 
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 760,
+    "DocumentId": 338,
     "Included": true,
     "TableRight": {
       "Mask": "Delete",
@@ -100,13 +100,13 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   },
   {
-    "DocumentId": 760,
+    "DocumentId": 338,
     "Included": true,
     "TableRight": {
       "Mask": "Delete",
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

@@ -65,7 +65,7 @@ Response body: object
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -73,48 +73,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 236,
-  "Name": "Daugherty-Green",
-  "CreatedDate": "1994-12-20T15:05:42.1786354+01:00",
-  "UpdatedDate": "2007-11-10T15:05:42.1786354+01:00",
+  "ForeignAppId": 458,
+  "Name": "Labadie, Altenwerth and Considine",
+  "CreatedDate": "2003-03-28T18:25:50.5475974+01:00",
+  "UpdatedDate": "2018-12-21T18:25:50.5475974+01:00",
   "CreatedBy": {
-    "AssociateId": 689,
-    "Name": "Collier-Macejkovic",
-    "PersonId": 647,
-    "Rank": 246,
-    "Tooltip": "ut",
+    "AssociateId": 605,
+    "Name": "Welch Group",
+    "PersonId": 264,
+    "Rank": 882,
+    "Tooltip": "consequatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 832,
-    "FullName": "Jermain Gutmann MD",
-    "FormalName": "Parisian-Conn",
-    "Deleted": true,
-    "EjUserId": 651,
-    "UserName": "Monahan, Cremin and Yost",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 444
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 800,
-    "Name": "Kerluke-Swaniawski",
-    "PersonId": 69,
-    "Rank": 943,
-    "Tooltip": "aliquam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 17,
-    "FullName": "Melany Champlin",
-    "FormalName": "Bradtke-Schiller",
+    "GroupIdx": 600,
+    "FullName": "Carolyne Kunze",
+    "FormalName": "Barrows, Oberbrunner and Oberbrunner",
     "Deleted": false,
-    "EjUserId": 253,
-    "UserName": "Thompson-Quitzon",
+    "EjUserId": 86,
+    "UserName": "Ullrich Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,21 +98,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 857
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 625,
+    "Name": "Mayert LLC",
+    "PersonId": 985,
+    "Rank": 837,
+    "Tooltip": "cupiditate",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 24,
+    "FullName": "Karley Quitzon",
+    "FormalName": "Hintz, McKenzie and Willms",
+    "Deleted": true,
+    "EjUserId": 838,
+    "UserName": "Gerhold, Raynor and Kautzer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 61
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 642,
-      "Name": "Trantow LLC",
-      "CreatedDate": "2005-03-14T15:05:42.1796351+01:00",
-      "UpdatedDate": "2008-06-12T15:05:42.1796351+02:00",
-      "AssociateFullName": "Amy Schmitt Jr.",
-      "CreatedBy": "quis",
-      "UpdatedBy": "neque",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 385,
+      "ForeignDeviceId": 562,
+      "Name": "Schuster Inc and Sons",
+      "CreatedDate": "2011-12-20T18:25:50.5475974+01:00",
+      "UpdatedDate": "2015-05-07T18:25:50.5475974+02:00",
+      "AssociateFullName": "Deshawn Carter",
+      "CreatedBy": "alias",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 77,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

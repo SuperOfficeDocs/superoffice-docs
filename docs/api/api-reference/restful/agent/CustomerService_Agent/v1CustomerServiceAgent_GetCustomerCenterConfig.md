@@ -1,9 +1,9 @@
 ---
-title: GetCustomerCenterConfig
+title: POST Agents/CustomerService/GetCustomerCenterConfig
 id: v1CustomerServiceAgent_GetCustomerCenterConfig
 ---
 
-# GetCustomerCenterConfig
+# POST Agents/CustomerService/GetCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
@@ -25,7 +25,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=805
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=652
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,14 +86,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 937,
+  "CustConfigId": 386,
   "Type": "Options",
-  "Config": "et",
-  "CustLangId": 627,
-  "Registered": "2017-12-11T14:58:03.7594651+01:00",
-  "RegisteredAssociateId": 818,
-  "Updated": "1998-08-07T14:58:03.7594651+02:00",
-  "UpdatedAssociateId": 855,
+  "Config": "nisi",
+  "CustLangId": 970,
+  "Registered": "2000-06-24T18:28:48.6509261+02:00",
+  "RegisteredAssociateId": 704,
+  "Updated": "1997-09-03T18:28:48.6509261+02:00",
+  "UpdatedAssociateId": 539,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,10 +102,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reintermediate B2B users"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 79
     }
   }
 }

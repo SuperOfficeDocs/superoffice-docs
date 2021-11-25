@@ -1,9 +1,9 @@
 ---
-title: GetAttachmentFromId
+title: POST Agents/EMail/GetAttachmentFromId
 id: v1EMailAgent_GetAttachmentFromId
 ---
 
-# GetAttachmentFromId
+# POST Agents/EMail/GetAttachmentFromId
 
 ```http
 POST /api/v1/Agents/EMail/GetAttachmentFromId
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 857,
-  "AttachmentId": "occaecati"
+  "MailItemId": 918,
+  "AttachmentId": "minima"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable 24/7 neural-net",
-  "Filename": "et",
-  "Size": 440,
-  "Type": "numquam",
-  "Encoding": "maiores",
-  "Id": "assumenda",
-  "Disposition": "velit",
+  "Description": "Polarised responsive contingency",
+  "Filename": "veniam",
+  "Size": 942,
+  "Type": "voluptatem",
+  "Encoding": "commodi",
+  "Id": "soluta",
+  "Disposition": "est",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

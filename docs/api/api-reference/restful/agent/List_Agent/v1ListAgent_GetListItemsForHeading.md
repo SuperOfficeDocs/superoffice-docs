@@ -1,9 +1,9 @@
 ---
-title: GetListItemsForHeading
+title: POST Agents/List/GetListItemsForHeading
 id: v1ListAgent_GetListItemsForHeading
 ---
 
-# GetListItemsForHeading
+# POST Agents/List/GetListItemsForHeading
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeading
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 178,
-  "HeadingId": 848
+  "UdListDefinitionId": 212,
+  "HeadingId": 344
 }
 ```
 
@@ -103,53 +103,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Leannon-Schowalter",
-    "ToolTip": "Est alias.",
-    "Deleted": false,
-    "Rank": 76,
-    "Type": "aut",
-    "ColorBlock": 470,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2007-07-25T14:58:04.430465+02:00",
+    "Id": 408,
+    "Name": "Schneider, Zulauf and Nicolas",
+    "ToolTip": "Omnis voluptas et.",
+    "Deleted": true,
+    "Rank": 855,
+    "Type": "nisi",
+    "ColorBlock": 881,
+    "IconHint": "soluta",
+    "Selected": true,
+    "LastChanged": "2021-07-16T18:28:49.3261225+02:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Bogan-Price",
-        "ToolTip": "Et sunt corrupti voluptates sapiente id.",
+        "Id": 721,
+        "Name": "Franecki, Leffler and Greenholt",
+        "ToolTip": "Nesciunt aut quidem corporis aut.",
         "Deleted": false,
-        "Rank": 155,
-        "Type": "et",
-        "ColorBlock": 730,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "1996-06-14T14:58:04.430465+02:00",
+        "Rank": 136,
+        "Type": "explicabo",
+        "ColorBlock": 489,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "1996-08-06T18:28:49.3261225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Thad Herman",
+        "ExtraInfo": "odio",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Myrtis Rath III",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "leverage 24/7 architectures"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 222
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Alexis Tromp",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Elbert Spencer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

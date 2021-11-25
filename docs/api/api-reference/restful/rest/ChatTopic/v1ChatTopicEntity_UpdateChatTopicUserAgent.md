@@ -81,28 +81,28 @@ Response body: object
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 713,
+  "TopicId": 942,
   "User": {
-    "AssociateId": 946,
-    "Name": "Steuber, Hackett and Gulgowski",
-    "PersonId": 327,
-    "Rank": 754,
-    "Tooltip": "et",
+    "AssociateId": 492,
+    "Name": "Mitchell, Toy and Monahan",
+    "PersonId": 771,
+    "Rank": 425,
+    "Tooltip": "tenetur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 699,
-    "FullName": "Selmer Howell",
-    "FormalName": "Barton-Hand",
-    "Deleted": false,
-    "EjUserId": 210,
-    "UserName": "Metz, McKenzie and Lowe"
+    "GroupIdx": 306,
+    "FullName": "Zoila Hodkiewicz",
+    "FormalName": "Lebsack, Lemke and Hyatt",
+    "Deleted": true,
+    "EjUserId": 603,
+    "UserName": "Littel Inc and Sons"
   },
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
-  "CanManage": false,
+  "CanManage": true,
   "CanNotify": false
 }
 ```
@@ -112,35 +112,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 838,
+  "TopicId": 30,
   "User": {
-    "AssociateId": 682,
-    "Name": "Mitchell-Bernhard",
-    "PersonId": 872,
-    "Rank": 389,
-    "Tooltip": "assumenda",
+    "AssociateId": 824,
+    "Name": "Fahey Inc and Sons",
+    "PersonId": 413,
+    "Rank": 752,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 127,
-    "FullName": "Noel Heller",
-    "FormalName": "Hermann-Cole",
+    "GroupIdx": 558,
+    "FullName": "Tracy Bayer",
+    "FormalName": "Heaney Group",
     "Deleted": false,
-    "EjUserId": 93,
-    "UserName": "Spencer, Bailey and Lueilwitz",
+    "EjUserId": 589,
+    "UserName": "Boyle Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "productize interactive infomediaries"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   },
   "CanListen": true,
   "CanRespond": false,
-  "CanManage": false,
+  "CanManage": true,
   "CanNotify": false
 }
 ```

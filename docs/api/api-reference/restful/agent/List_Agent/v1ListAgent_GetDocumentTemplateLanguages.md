@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplateLanguages
+title: POST Agents/List/GetDocumentTemplateLanguages
 id: v1ListAgent_GetDocumentTemplateLanguages
 ---
 
-# GetDocumentTemplateLanguages
+# POST Agents/List/GetDocumentTemplateLanguages
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages
@@ -68,11 +68,11 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 498
+  "DocumentTemplateId": 953
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "fugit",
-  "qui"
+  "recusandae",
+  "nobis"
 ]
 ```

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Farrell-Murray",
-    "ToolTip": "Animi fugiat fugiat.",
-    "Deleted": false,
-    "Rank": 120,
-    "Type": "molestiae",
-    "ColorBlock": 326,
-    "IconHint": "praesentium",
+    "Id": 424,
+    "Name": "Maggio-Shanahan",
+    "ToolTip": "Esse praesentium qui nostrum et non.",
+    "Deleted": true,
+    "Rank": 393,
+    "Type": "fugit",
+    "ColorBlock": 229,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2020-10-13T15:05:43.5110793+02:00",
+    "LastChanged": "2000-06-30T18:25:51.879509+02:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Reichert-Hartmann",
-        "ToolTip": "Facere exercitationem veritatis veniam blanditiis.",
+        "Id": 510,
+        "Name": "Friesen Group",
+        "ToolTip": "Placeat nam incidunt.",
         "Deleted": false,
-        "Rank": 917,
-        "Type": "doloribus",
-        "ColorBlock": 248,
-        "IconHint": "voluptatem",
+        "Rank": 402,
+        "Type": "doloremque",
+        "ColorBlock": 896,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "1994-08-06T15:05:43.5110793+02:00",
+        "LastChanged": "2016-08-18T18:25:51.879509+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Bria Mayert"
+        "ExtraInfo": "debitis",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Phoebe Koepp"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "labore",
-    "Hidden": true,
-    "FullName": "Terrell Crist"
+    "ExtraInfo": "totam",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Fausto Torp"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Breitenberg, Langworth and Hayes",
-    "ToolTip": "Aliquid dolores voluptas illum est id.",
-    "Deleted": false,
-    "Rank": 66,
-    "Type": "possimus",
-    "ColorBlock": 887,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2008-08-09T15:05:43.5130796+02:00",
+    "Id": 482,
+    "Name": "Herman LLC",
+    "ToolTip": "Odio iste culpa vitae dolor nulla.",
+    "Deleted": true,
+    "Rank": 330,
+    "Type": "molestias",
+    "ColorBlock": 397,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2000-02-09T18:25:51.8964853+01:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Veum-Heaney",
-        "ToolTip": "Corporis in fugit atque praesentium sequi.",
-        "Deleted": false,
-        "Rank": 777,
-        "Type": "in",
-        "ColorBlock": 559,
-        "IconHint": "quia",
+        "Id": 273,
+        "Name": "Smith Group",
+        "ToolTip": "Inventore eaque quo vitae.",
+        "Deleted": true,
+        "Rank": 20,
+        "Type": "qui",
+        "ColorBlock": 780,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2000-10-22T15:05:43.5130796+02:00",
+        "LastChanged": "2013-11-06T18:25:51.8964853+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Nelson Dooley",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Jonathan Schiller",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 981
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Khalil Hudson DDS",
+    "ExtraInfo": "facilis",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Helene Mann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

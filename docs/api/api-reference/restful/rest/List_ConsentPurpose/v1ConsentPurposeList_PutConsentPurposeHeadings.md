@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 582,
-    "Name": "Torp Inc and Sons",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 553,
-    "UdListDefinitionId": 678
+    "HeadingId": 879,
+    "Name": "Kulas-Brekke",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 181,
+    "UdListDefinitionId": 848
   },
   {
-    "HeadingId": 582,
-    "Name": "Torp Inc and Sons",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 553,
-    "UdListDefinitionId": 678
+    "HeadingId": 879,
+    "Name": "Kulas-Brekke",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 181,
+    "UdListDefinitionId": 848
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 359,
-    "Name": "Jaskolski Group",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 876,
-    "UdListDefinitionId": 282,
+    "HeadingId": 829,
+    "Name": "Gleason-Eichmann",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 128,
+    "UdListDefinitionId": 161,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "maximize value-added methodologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 115
       }
     }
   }

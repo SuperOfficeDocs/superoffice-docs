@@ -71,63 +71,63 @@ Response body: array
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stehr-Bruen",
-    "Description": "Streamlined even-keeled utilisation",
-    "Rank": 820,
+    "Name": "Walker, Ferry and Feil",
+    "Description": "Profit-focused empowering knowledge user",
+    "Rank": 236,
     "Restrictions": [
       {
-        "Name": "Lindgren, Hills and Mante",
-        "Operator": "rem",
+        "Name": "Thompson Group",
+        "Operator": "qui",
         "Values": [
-          "eligendi",
-          "eligendi"
+          "ipsa",
+          "et"
         ],
         "DisplayValues": [
-          "est",
-          "minima"
+          "esse",
+          "praesentium"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 350,
+        "InterParenthesis": 292,
         "InterOperator": "And",
-        "UniqueHash": 468
+        "UniqueHash": 478
       }
     ]
   },
   {
-    "Name": "Stehr-Bruen",
-    "Description": "Streamlined even-keeled utilisation",
-    "Rank": 820,
+    "Name": "Walker, Ferry and Feil",
+    "Description": "Profit-focused empowering knowledge user",
+    "Rank": 236,
     "Restrictions": [
       {
-        "Name": "Lindgren, Hills and Mante",
-        "Operator": "rem",
+        "Name": "Thompson Group",
+        "Operator": "qui",
         "Values": [
-          "eligendi",
-          "eligendi"
+          "ipsa",
+          "et"
         ],
         "DisplayValues": [
-          "est",
-          "minima"
+          "esse",
+          "praesentium"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 350,
+        "InterParenthesis": 292,
         "InterOperator": "And",
-        "UniqueHash": 468
+        "UniqueHash": 478
       }
     ]
   }
@@ -140,20 +140,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bailey LLC",
-    "Description": "Fully-configurable system-worthy utilisation",
-    "Rank": 506,
+    "Name": "Torphy, Hammes and Watsica",
+    "Description": "Re-contextualized 24 hour migration",
+    "Rank": 276,
     "Restrictions": [
       {
-        "Name": "Hills LLC",
-        "Operator": "quasi",
+        "Name": "Renner, Fay and Watsica",
+        "Operator": "sunt",
         "Values": [
-          "doloribus",
-          "similique"
+          "dicta",
+          "expedita"
         ],
         "DisplayValues": [
-          "eaque",
-          "totam"
+          "et",
+          "aut"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -161,27 +161,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 575,
+        "InterParenthesis": 359,
         "InterOperator": "And",
-        "UniqueHash": 223
+        "UniqueHash": 83
       }
     ]
   },
   {
-    "Name": "Bailey LLC",
-    "Description": "Fully-configurable system-worthy utilisation",
-    "Rank": 506,
+    "Name": "Torphy, Hammes and Watsica",
+    "Description": "Re-contextualized 24 hour migration",
+    "Rank": 276,
     "Restrictions": [
       {
-        "Name": "Hills LLC",
-        "Operator": "quasi",
+        "Name": "Renner, Fay and Watsica",
+        "Operator": "sunt",
         "Values": [
-          "doloribus",
-          "similique"
+          "dicta",
+          "expedita"
         ],
         "DisplayValues": [
-          "eaque",
-          "totam"
+          "et",
+          "aut"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -189,9 +189,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 575,
+        "InterParenthesis": 359,
         "InterOperator": "And",
-        "UniqueHash": 223
+        "UniqueHash": 83
       }
     ]
   }

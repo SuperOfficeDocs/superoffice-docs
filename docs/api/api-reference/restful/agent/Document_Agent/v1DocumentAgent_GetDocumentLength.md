@@ -1,9 +1,9 @@
 ---
-title: GetDocumentLength
+title: POST Agents/Document/GetDocumentLength
 id: v1DocumentAgent_GetDocumentLength
 ---
 
-# GetDocumentLength
+# POST Agents/Document/GetDocumentLength
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentLength
@@ -69,12 +69,12 @@ Response body: int64
 POST /api/v1/Agents/Document/GetDocumentLength
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 826,
-  "VersionId": "adipisci"
+  "DocumentId": 672,
+  "VersionId": "id"
 }
 ```
 

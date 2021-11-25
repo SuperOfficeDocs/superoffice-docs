@@ -1,9 +1,9 @@
 ---
-title: SaveConnection
+title: POST Agents/Quote/SaveConnection
 id: v1QuoteAgent_SaveConnection
 ---
 
-# SaveConnection
+# POST Agents/Quote/SaveConnection
 
 ```http
 POST /api/v1/Agents/Quote/SaveConnection
@@ -92,34 +92,34 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Connection": {
-    "QuoteConnectionId": 21,
-    "ERPName": "Bailey-Maggio",
-    "DisplayName": "Morissette, Langworth and Labadie",
-    "DisplayDescription": "Front-line background array",
-    "Rank": 667,
-    "ConnectorName": "Rempel, Funk and Collier",
-    "ErpConnectionId": 534,
-    "ExtraData": "neque",
+    "QuoteConnectionId": 471,
+    "ERPName": "Mueller, Goyette and Sanford",
+    "DisplayName": "Schultz-Dickens",
+    "DisplayDescription": "Customer-focused modular time-frame",
+    "Rank": 571,
+    "ConnectorName": "Yost-Blanda",
+    "ErpConnectionId": 135,
+    "ExtraData": "quo",
     "IsAvailable": true,
     "InitializeResponse": {},
     "PriceLists": [
       {},
       {}
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      946,
-      479
+      351,
+      647
     ],
     "AssociateAccessIds": [
-      500,
-      179
+      633,
+      724
     ]
   }
 }
@@ -130,20 +130,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 774,
-  "ERPName": "Nienow Inc and Sons",
-  "DisplayName": "Hirthe, Bailey and Heller",
-  "DisplayDescription": "Self-enabling discrete help-desk",
-  "Rank": 516,
-  "ConnectorName": "Torp, Jakubowski and Schuster",
-  "ErpConnectionId": 791,
-  "ExtraData": "velit",
-  "IsAvailable": true,
+  "QuoteConnectionId": 768,
+  "ERPName": "Christiansen-Mraz",
+  "DisplayName": "Willms Inc and Sons",
+  "DisplayDescription": "Object-based solution-oriented analyzer",
+  "Rank": 812,
+  "ConnectorName": "Gislason Group",
+  "ErpConnectionId": 876,
+  "ExtraData": "dolores",
+  "IsAvailable": false,
   "InitializeResponse": {
     "IsOk": false,
-    "UserExplanation": "repudiandae",
-    "TechExplanation": "mollitia",
-    "ErrorCode": "nisi",
+    "UserExplanation": "neque",
+    "TechExplanation": "ullam",
+    "ErrorCode": "eligendi",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -152,23 +152,23 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 759
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 252,
-      "ERPPriceListKey": "molestias",
-      "QuoteConnectionId": 114,
-      "Name": "Dicki LLC",
-      "Description": "User-centric responsive focus group",
-      "Currency": "rerum",
-      "CurrencyName": "Kihn-Howe",
-      "ValidFrom": "2019-09-22T14:58:04.9654339+02:00",
-      "ValidTo": "2013-01-02T14:58:04.9654339+01:00",
-      "IsActive": true,
+      "PriceListId": 390,
+      "ERPPriceListKey": "quia",
+      "QuoteConnectionId": 804,
+      "Name": "Harris-Zulauf",
+      "Description": "Team-oriented directional interface",
+      "Currency": "quidem",
+      "CurrencyName": "Cassin-Yost",
+      "ValidFrom": "2004-04-13T18:28:49.9411372+02:00",
+      "ValidTo": "2002-08-19T18:28:49.9411372+02:00",
+      "IsActive": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -176,21 +176,21 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": true,
   "UserGroupAccessIds": [
-    931,
-    282
+    573,
+    770
   ],
   "AssociateAccessIds": [
-    464,
-    425
+    605,
+    68
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldLength": 753
     }
   }
 }

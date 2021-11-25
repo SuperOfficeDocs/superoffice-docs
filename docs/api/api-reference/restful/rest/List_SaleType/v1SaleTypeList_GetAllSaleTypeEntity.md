@@ -24,7 +24,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -94,63 +94,63 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 639,
-    "Name": "Wiegand-Pouros",
-    "Tooltip": "culpa",
-    "Rank": 61,
+    "SaleTypeId": 421,
+    "Name": "Graham-Hagenes",
+    "Tooltip": "sed",
+    "Rank": 203,
     "DurationUnit": "Century",
-    "SaleDuration": 465,
-    "SaleTypeCatId": 869,
-    "Deleted": false,
+    "SaleDuration": 114,
+    "SaleTypeCatId": 670,
+    "Deleted": true,
     "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 108,
-    "QuoteLinesTemplate": 352,
-    "ConfirmationLinesTemplate": 77,
-    "MaxDiscountPercentSet": true,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 726,
+    "QuoteLinesTemplate": 417,
+    "ConfirmationLinesTemplate": 984,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 830,
-    "MinEarningPercent": 683,
-    "GroupQuoteLinesBy": 567,
-    "SortGroupLinesBy": 233,
+    "MaxDiscountPercent": 846,
+    "MinEarningPercent": 559,
+    "GroupQuoteLinesBy": 493,
+    "SortGroupLinesBy": 293,
     "Stages": [
       {
-        "Id": 607,
-        "Name": "Feest, Hayes and Heathcote",
-        "ToolTip": "A quos laudantium.",
+        "Id": 778,
+        "Name": "Goodwin, Fisher and Koch",
+        "ToolTip": "Voluptatem aut at.",
         "Deleted": true,
-        "Rank": 748,
-        "Type": "minus",
-        "ColorBlock": 815,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2009-11-25T15:05:43.7871195+01:00",
+        "Rank": 328,
+        "Type": "qui",
+        "ColorBlock": 56,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2000-09-01T18:25:52.1790241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "alias",
+        "StyleHint": "ex",
         "Hidden": true,
-        "FullName": "Kasey Ferry",
+        "FullName": "Dwight Yundt",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "incentivize value-added markets"
+              "Reason": "recontextualize intuitive e-tailers"
             },
             "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldLength": 116
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "leverage virtual models"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 142
       }
     }
   }

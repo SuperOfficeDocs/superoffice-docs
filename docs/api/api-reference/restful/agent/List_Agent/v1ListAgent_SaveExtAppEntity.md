@@ -1,9 +1,9 @@
 ---
-title: SaveExtAppEntity
+title: POST Agents/List/SaveExtAppEntity
 id: v1ListAgent_SaveExtAppEntity
 ---
 
-# SaveExtAppEntity
+# POST Agents/List/SaveExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/SaveExtAppEntity
@@ -114,28 +114,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 989,
-  "Name": "Davis-Kassulke",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 801,
-  "Filename": "nostrum",
-  "Parameters": "est",
-  "Workdir": "nam",
+  "ExtAppId": 531,
+  "Name": "Collins LLC",
+  "Tooltip": "incidunt",
+  "Deleted": false,
+  "Rank": 951,
+  "Filename": "est",
+  "Parameters": "doloremque",
+  "Workdir": "alias",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 261,
-  "WaitToFinish": true,
+  "ShowInStatusBar": false,
+  "Icon": 643,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut"
+  "Path": "sit"
 }
 ```
 
@@ -144,28 +144,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 903,
-  "Name": "Jones LLC",
-  "Tooltip": "mollitia",
+  "ExtAppId": 256,
+  "Name": "Green LLC",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 589,
-  "Filename": "adipisci",
-  "Parameters": "nemo",
-  "Workdir": "cumque",
+  "Rank": 410,
+  "Filename": "itaque",
+  "Parameters": "ut",
+  "Workdir": "vel",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 934,
-  "WaitToFinish": false,
+  "Icon": 160,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequatur",
+  "Path": "nobis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldLength": 507
     }
   }
 }

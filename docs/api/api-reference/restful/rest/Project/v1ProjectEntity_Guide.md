@@ -72,12 +72,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=corrupti
-GET /api/v1/Project/{id}/Guide?$top=342
-GET /api/v1/Project/{id}/Guide?$skip=578
+GET /api/v1/Project/{id}/Guide?$entities=magnam
+GET /api/v1/Project/{id}/Guide?$top=810
+GET /api/v1/Project/{id}/Guide?$skip=900
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=dolor
+GET /api/v1/Project/{id}/Guide?$context=voluptas
 GET /api/v1/Project/{id}/Guide?$format=JSON
 GET /api/v1/Project/{id}/Guide?$jsonSafe=False
 GET /api/v1/Project/{id}/Guide?$output=Display
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "veritatis",
+  "odata.nextLink": "minus",
   "value": [
     {
-      "PrimaryKey": 2146,
-      "EntityName": "person",
-      "personId": 2146,
-      "fullName": "Freeda Roob"
+      "PrimaryKey": 2782,
+      "EntityName": "sale",
+      "saleId": 2782,
+      "contactId": 3586,
+      "name": "Stokes, Huel and Roberts"
     },
     {
-      "PrimaryKey": 1403,
-      "EntityName": "person",
-      "personId": 1403,
-      "fullName": "Dayton Bauch"
+      "PrimaryKey": 2531,
+      "EntityName": "sale",
+      "saleId": 2531,
+      "contactId": 6298,
+      "name": "Erdman LLC"
     }
   ]
 }

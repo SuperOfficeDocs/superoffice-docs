@@ -1,9 +1,9 @@
 ---
-title: GetEMailFromTemp
+title: POST Agents/EMail/GetEMailFromTemp
 id: v1EMailAgent_GetEMailFromTemp
 ---
 
-# GetEMailFromTemp
+# POST Agents/EMail/GetEMailFromTemp
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromTemp
@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Buckridge LLC"
+  "FileName": "Nolan-Kassulke"
 }
 ```
 
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 228,
-      "ContactName": "Hettinger, Johns and Labadie",
-      "PersonId": 704,
-      "PersonName": "Keebler, Crist and Abshire",
-      "AssociateId": 300,
-      "Address": "maiores",
-      "EmailId": 784,
+      "ContactId": 700,
+      "ContactName": "Tromp, Labadie and Friesen",
+      "PersonId": 982,
+      "PersonName": "Stanton, Klein and Koelpin",
+      "AssociateId": 134,
+      "Address": "aut",
+      "EmailId": 875,
       "DuplicatePersonIds": [
-        872,
-        401
+        245,
+        164
       ],
-      "Name": "Howe Group",
+      "Name": "Ondricka Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -138,25 +138,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 841
+          "FieldLength": 457
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 486,
-      "ContactName": "Hoppe Inc and Sons",
-      "PersonId": 819,
-      "PersonName": "Crona Group",
-      "AssociateId": 715,
-      "Address": "aut",
-      "EmailId": 955,
+      "ContactId": 551,
+      "ContactName": "Bergstrom LLC",
+      "PersonId": 563,
+      "PersonName": "Kovacek-Bahringer",
+      "AssociateId": 492,
+      "Address": "dignissimos",
+      "EmailId": 845,
       "DuplicatePersonIds": [
-        870,
-        304
+        702,
+        809
       ],
-      "Name": "Stroman, Marvin and Satterfield",
+      "Name": "Mertz, Feil and Tillman",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -165,25 +165,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 882
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 499,
-      "ContactName": "Dare, Schuppe and Erdman",
-      "PersonId": 797,
-      "PersonName": "Hirthe Group",
-      "AssociateId": 430,
-      "Address": "aut",
-      "EmailId": 880,
+      "ContactId": 31,
+      "ContactName": "Quitzon, Mills and Price",
+      "PersonId": 169,
+      "PersonName": "Torp LLC",
+      "AssociateId": 571,
+      "Address": "sed",
+      "EmailId": 353,
       "DuplicatePersonIds": [
-        288,
-        125
+        191,
+        184
       ],
-      "Name": "Bahringer-Feeney",
+      "Name": "Hammes-Kessler",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -192,54 +192,54 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldLength": 940
         }
       }
     }
   ],
-  "Subject": "eum",
-  "HTMLBody": "aspernatur",
+  "Subject": "doloremque",
+  "HTMLBody": "ex",
   "From": {
-    "ContactId": 548,
-    "ContactName": "Fadel-Goldner",
-    "PersonId": 957,
-    "PersonName": "Smitham LLC",
-    "AssociateId": 637,
-    "Address": "doloribus",
-    "EmailId": 1000,
+    "ContactId": 328,
+    "ContactName": "Quitzon Group",
+    "PersonId": 234,
+    "PersonName": "Wisoky Group",
+    "AssociateId": 290,
+    "Address": "voluptas",
+    "EmailId": 961,
     "DuplicatePersonIds": [
-      977,
-      364
+      710,
+      308
     ],
-    "Name": "Harvey-Lemke",
+    "Name": "Mitchell, Hackett and Swaniawski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "brand real-time technologies"
         },
         "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldLength": 563
       }
     }
   },
-  "Sent": "2009-03-20T14:58:04.139463+01:00",
-  "Size": 747,
+  "Sent": "1996-12-29T18:28:49.0549578+01:00",
+  "Size": 358,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "aliquid",
+  "MessageID": "accusantium",
+  "PlainBody": "inventore",
   "IsSent": true,
   "EMailSOInfo": {
-    "DocumentId": 786,
-    "AppointmentId": 348,
-    "ProjectId": 818,
-    "SaleId": 126,
+    "DocumentId": 842,
+    "AppointmentId": 239,
+    "ProjectId": 178,
+    "SaleId": 817,
     "Archived": true,
-    "ArchivedAt": "2007-07-21T14:58:04.139463+02:00",
-    "ArchivedBy": 153,
-    "ArchivedDisplayName": "Kovacek-Corwin",
+    "ArchivedAt": "2002-03-20T18:28:49.0559616+01:00",
+    "ArchivedBy": 569,
+    "ArchivedDisplayName": "Turcotte, Schroeder and McGlynn",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -248,40 +248,40 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 502
+        "FieldLength": 728
       }
     }
   },
-  "ServerId": 551,
+  "ServerId": 39,
   "Attachments": [
     {
-      "Description": "Ameliorated demand-driven migration",
-      "Filename": "dolore",
-      "Size": 753,
-      "Type": "aut",
-      "Encoding": "tempore",
-      "Id": "est",
-      "Disposition": "sint",
+      "Description": "Pre-emptive responsive contingency",
+      "Filename": "eveniet",
+      "Size": 776,
+      "Type": "ut",
+      "Encoding": "quia",
+      "Id": "et",
+      "Disposition": "velit",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "enable mission-critical technologies"
+            "Reason": "iterate viral vortals"
           },
-          "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stark Inc and Sons",
+      "Name": "Lemke-Boehm",
       "Values": [
-        "amet",
-        "odit"
+        "est",
+        "animi"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -291,15 +291,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 685
         }
       }
     },
     {
-      "Name": "Stark Inc and Sons",
+      "Name": "Lemke-Boehm",
       "Values": [
-        "amet",
-        "odit"
+        "est",
+        "animi"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -309,43 +309,43 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 685
         }
       }
     }
   ],
-  "FolderName": "Kuhic Group",
-  "EmailItemId": 330,
-  "AccountId": 294,
-  "ReceivedAt": "2020-03-23T14:58:04.139463+01:00",
+  "FolderName": "Dooley LLC",
+  "EmailItemId": 231,
+  "AccountId": 455,
+  "ReceivedAt": "2003-04-06T18:28:49.0559616+02:00",
   "InReplyTo": {
-    "ServerId": 106,
-    "MessageId": "iure",
-    "Subject": "impedit",
+    "ServerId": 448,
+    "MessageId": "qui",
+    "Subject": "est",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "2009-04-12T14:58:04.139463+02:00",
+    "Sent": "2021-07-06T18:28:49.0559616+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 966,
+    "Size": 253,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "implement rich infrastructures"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 462
       }
     }
   },
-  "RepliedAt": "1996-10-16T14:58:04.1404598+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-10-15T18:28:49.0559616+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
@@ -358,8 +358,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

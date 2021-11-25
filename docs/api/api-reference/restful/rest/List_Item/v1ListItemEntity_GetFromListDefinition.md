@@ -70,7 +70,7 @@ Response body: object
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -78,12 +78,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Corwin-Brekke",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "UdListDefinitionId": 406,
-  "Rank": 455,
+  "Id": 914,
+  "Name": "Connelly Inc and Sons",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "UdListDefinitionId": 768,
+  "Rank": 196,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 530
     }
   }
 }

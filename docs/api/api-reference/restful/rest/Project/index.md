@@ -2,8 +2,6 @@
 title: Project
 ---
 
-# Project
-
 ```http
 /api/v1/Project
 ```

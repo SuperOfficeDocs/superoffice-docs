@@ -1,9 +1,9 @@
 ---
-title: GetAppByName
+title: POST Agents/ForeignSystem/GetAppByName
 id: v1ForeignSystemAgent_GetAppByName
 ---
 
-# GetAppByName
+# POST Agents/ForeignSystem/GetAppByName
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAppByName
@@ -80,11 +80,11 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Tremblay-Blick"
+  "ApplicationName": "Skiles Inc and Sons"
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 961,
-  "Name": "Kozey, Rosenbaum and Thiel",
-  "CreatedDate": "1998-12-08T14:58:04.2994605+01:00",
-  "UpdatedDate": "1995-12-13T14:58:04.2994605+01:00",
+  "ForeignAppId": 32,
+  "Name": "Doyle-Fisher",
+  "CreatedDate": "2005-06-17T18:28:49.2031229+02:00",
+  "UpdatedDate": "1997-03-04T18:28:49.2031229+01:00",
   "CreatedBy": {
-    "AssociateId": 442,
-    "Name": "Kutch Inc and Sons",
-    "PersonId": 294,
-    "Rank": 115,
-    "Tooltip": "rerum",
+    "AssociateId": 590,
+    "Name": "Sawayn, Ratke and Wintheiser",
+    "PersonId": 374,
+    "Rank": 882,
+    "Tooltip": "blanditiis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 809,
-    "FullName": "Miss Mireya Bergstrom",
-    "FormalName": "Trantow LLC",
-    "Deleted": true,
-    "EjUserId": 114,
-    "UserName": "Hyatt-Bode",
+    "GroupIdx": 6,
+    "FullName": "Adele Anderson",
+    "FormalName": "Lehner-Buckridge",
+    "Deleted": false,
+    "EjUserId": 500,
+    "UserName": "Leannon Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,23 +118,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 611
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 125,
-    "Name": "Larson Group",
-    "PersonId": 439,
-    "Rank": 859,
-    "Tooltip": "quae",
+    "AssociateId": 422,
+    "Name": "Dietrich, Kerluke and Kulas",
+    "PersonId": 990,
+    "Rank": 534,
+    "Tooltip": "libero",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 689,
-    "FullName": "Mrs. Bennie Bosco",
-    "FormalName": "Wolff, Kuphal and Lesch",
-    "Deleted": true,
-    "EjUserId": 629,
-    "UserName": "Donnelly, Schimmel and Stiedemann",
+    "GroupIdx": 700,
+    "FullName": "Roslyn Frami",
+    "FormalName": "Wolff, Blick and Rempel",
+    "Deleted": false,
+    "EjUserId": 165,
+    "UserName": "Raynor-Krajcik",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -142,22 +142,22 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 543,
-      "Name": "Casper-Cronin",
-      "CreatedDate": "2012-10-07T14:58:04.2994605+02:00",
-      "UpdatedDate": "2006-02-27T14:58:04.2994605+01:00",
-      "AssociateFullName": "Penelope Hickle",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 480,
+      "ForeignDeviceId": 478,
+      "Name": "Ritchie-Prosacco",
+      "CreatedDate": "1999-10-10T18:28:49.204123+02:00",
+      "UpdatedDate": "2016-05-10T18:28:49.204123+02:00",
+      "AssociateFullName": "Vaughn Barrows",
+      "CreatedBy": "sit",
+      "UpdatedBy": "perferendis",
+      "DeviceIdentifier": "unde",
+      "ForeignAppId": 343,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -165,15 +165,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldType": "System.String",
+          "FieldLength": 58
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "deliver integrated e-services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 703
     }
   }
 }

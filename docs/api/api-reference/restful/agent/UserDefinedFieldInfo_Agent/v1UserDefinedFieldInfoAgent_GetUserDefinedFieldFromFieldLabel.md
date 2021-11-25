@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedFieldFromFieldLabel
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel
 ---
 
-# GetUserDefinedFieldFromFieldLabel
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
@@ -116,7 +116,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "itaque",
+  "FieldLabel": "eum",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 736,
-  "ColumnId": 798,
-  "FieldDefault": "et",
-  "FieldHeight": 733,
-  "FieldLabel": "est",
-  "FieldLeft": 670,
-  "FieldTop": 668,
+  "UDefFieldId": 922,
+  "ColumnId": 404,
+  "FieldDefault": "quia",
+  "FieldHeight": 134,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 120,
+  "FieldTop": 228,
   "FieldType": "Checkbox",
-  "FieldWidth": 87,
-  "FormatMask": "quas",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 861,
-  "LabelLeft": 700,
-  "LabelTop": 820,
-  "LabelWidth": 711,
-  "LastVersionId": 420,
-  "ListTableId": 122,
+  "FieldWidth": 834,
+  "FormatMask": "cupiditate",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 391,
+  "LabelLeft": 613,
+  "LabelTop": 532,
+  "LabelWidth": 655,
+  "LastVersionId": 339,
+  "ListTableId": 767,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 662,
-  "ProgId": "corrupti",
+  "Page1LineNo": 614,
+  "ProgId": "quam",
   "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 990,
-  "TextLength": 958,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 555,
-  "UDListDefinitionId": 819,
+  "ShortLabel": "earum",
+  "TabOrder": 599,
+  "TextLength": 212,
+  "Tooltip": "enim",
+  "UdefIdentity": 82,
+  "UDListDefinitionId": 802,
   "Justification": "Center",
-  "Version": 142,
-  "TemplateVariableName": "Bernhard, Rippin and Wunsch",
-  "HasBeenPublished": true,
-  "MdoListName": "Hayes Inc and Sons",
+  "Version": 754,
+  "TemplateVariableName": "Shanahan-Beer",
+  "HasBeenPublished": false,
+  "MdoListName": "Feest-Bauch",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,10 +168,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "repurpose dot-com initiatives"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 177
     }
   }
 }

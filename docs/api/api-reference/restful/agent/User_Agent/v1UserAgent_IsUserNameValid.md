@@ -1,9 +1,9 @@
 ---
-title: IsUserNameValid
+title: POST Agents/User/IsUserNameValid
 id: v1UserAgent_IsUserNameValid
 ---
 
-# IsUserNameValid
+# POST Agents/User/IsUserNameValid
 
 ```http
 POST /api/v1/Agents/User/IsUserNameValid
@@ -71,14 +71,14 @@ Response body: bool
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 301,
+  "AssociateId": 523,
   "Type": "AnonymousAssociate",
-  "PersonId": 433,
-  "UserName": "Eichmann-Jast"
+  "PersonId": 378,
+  "UserName": "Botsford, Block and Mueller"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

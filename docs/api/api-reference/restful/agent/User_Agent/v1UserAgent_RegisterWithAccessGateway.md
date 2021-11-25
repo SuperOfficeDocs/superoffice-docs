@@ -1,9 +1,9 @@
 ---
-title: RegisterWithAccessGateway
+title: POST Agents/User/RegisterWithAccessGateway
 id: v1UserAgent_RegisterWithAccessGateway
 ---
 
-# RegisterWithAccessGateway
+# POST Agents/User/RegisterWithAccessGateway
 
 ```http
 POST /api/v1/Agents/User/RegisterWithAccessGateway
@@ -81,11 +81,11 @@ Response body: object
 POST /api/v1/Agents/User/RegisterWithAccessGateway
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "praesentium"
+  "RedirectUri": "quam"
 }
 ```
 
@@ -94,8 +94,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "quaerat",
-  "RedirectUri": "et",
+  "ClientId": "reiciendis",
+  "RedirectUri": "debitis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -104,10 +104,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "harness dynamic experiences"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

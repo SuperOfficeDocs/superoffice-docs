@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Goyette-Powlowski",
-    "ToolTip": "Fugiat nemo voluptatem velit blanditiis.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "explicabo",
-    "ColorBlock": 800,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2001-09-04T15:05:43.3245403+02:00",
+    "Id": 576,
+    "Name": "Mertz, Hirthe and Boyle",
+    "ToolTip": "Aut id.",
+    "Deleted": false,
+    "Rank": 954,
+    "Type": "id",
+    "ColorBlock": 446,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2012-11-01T18:25:51.6552946+01:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Keebler, Christiansen and Crona",
-        "ToolTip": "Et possimus repudiandae eaque labore.",
+        "Id": 614,
+        "Name": "Zemlak, Armstrong and Windler",
+        "ToolTip": "Minus nesciunt omnis praesentium quidem eum.",
         "Deleted": true,
-        "Rank": 963,
-        "Type": "natus",
-        "ColorBlock": 586,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2020-04-06T15:05:43.3245403+02:00",
+        "Rank": 167,
+        "Type": "eveniet",
+        "ColorBlock": 373,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2000-02-03T18:25:51.6562946+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Casey Koch"
+        "ExtraInfo": "inventore",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Daisy Ondricka"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "non",
+    "ExtraInfo": "optio",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Miss Mikayla Hyatt"
+    "FullName": "Jerad Little"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Hammes-Stanton",
-    "ToolTip": "Qui fuga aut.",
+    "Id": 696,
+    "Name": "King Inc and Sons",
+    "ToolTip": "Quos aut ducimus.",
     "Deleted": false,
-    "Rank": 401,
-    "Type": "optio",
-    "ColorBlock": 548,
-    "IconHint": "ut",
+    "Rank": 261,
+    "Type": "mollitia",
+    "ColorBlock": 407,
+    "IconHint": "hic",
     "Selected": true,
-    "LastChanged": "2014-10-12T15:05:43.32654+02:00",
+    "LastChanged": "2008-05-23T18:25:51.6572948+02:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Howe, Rath and Leuschke",
-        "ToolTip": "Id occaecati adipisci molestiae non non.",
-        "Deleted": true,
-        "Rank": 613,
-        "Type": "quaerat",
-        "ColorBlock": 708,
-        "IconHint": "fugiat",
+        "Id": 298,
+        "Name": "Lemke, Emard and Walker",
+        "ToolTip": "Nostrum fugit aperiam et qui provident.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "voluptatem",
+        "ColorBlock": 446,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "1996-03-17T15:05:43.32654+01:00",
+        "LastChanged": "2005-07-24T18:25:51.6572948+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "vitae",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Heaven Baumbach",
+        "FullName": "Dr. Vena Haley",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 634
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ex",
+    "ExtraInfo": "ab",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Kelvin Rau",
+    "FullName": "Carlotta Abshire",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 815
       }
     }
   }

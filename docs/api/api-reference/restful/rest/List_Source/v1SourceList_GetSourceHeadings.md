@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Ebert Group",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 969,
-    "UdListDefinitionId": 341,
+    "HeadingId": 882,
+    "Name": "Ullrich, Auer and Schaefer",
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "Rank": 779,
+    "UdListDefinitionId": 272,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldLength": 271
       }
     }
   }

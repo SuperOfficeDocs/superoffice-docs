@@ -1,9 +1,9 @@
 ---
-title: GetSale
+title: POST Agents/Sale/GetSale
 id: v1SaleAgent_GetSale
 ---
 
-# GetSale
+# POST Agents/Sale/GetSale
 
 ```http
 POST /api/v1/Agents/Sale/GetSale
@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=735
+POST /api/v1/Agents/Sale/GetSale?saleId=100
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ Response body: object
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Larkin-Rutherford",
-  "SaleDate": "2005-05-09T14:58:05.1626288+02:00",
-  "SaleId": 525,
-  "Probability": 517,
-  "Title": "incidunt",
-  "Amount": 15701.34,
-  "Currency": "adipisci",
-  "ProjectName": "Gerhold-Hilll",
-  "AssociateFullName": "Felipa Kuphal",
-  "Description": "Multi-channelled user-facing open system",
+  "ContactName": "O'Connell, Willms and Barrows",
+  "SaleDate": "2009-04-14T18:28:50.1547813+02:00",
+  "SaleId": 812,
+  "Probability": 809,
+  "Title": "est",
+  "Amount": 492.038,
+  "Currency": "voluptatibus",
+  "ProjectName": "Gottlieb-Grant",
+  "AssociateFullName": "Cyrus Jenkins",
+  "Description": "User-centric human-resource customer loyalty",
   "Status": "Lost",
-  "WeightedAmount": 22430.038,
-  "ProjectId": 480,
-  "EarningPercent": 11689.82,
-  "Earning": 2858.208,
-  "ContactId": 932,
-  "AssociateId": 175,
-  "PersonId": 672,
-  "SaleTypeId": 755,
-  "SaleTypeName": "Considine-Feest",
-  "PersonFullName": "Laurianne Gerlach",
+  "WeightedAmount": 15544.64,
+  "ProjectId": 571,
+  "EarningPercent": 18741.32,
+  "Earning": 8706.252,
+  "ContactId": 134,
+  "AssociateId": 504,
+  "PersonId": 314,
+  "SaleTypeId": 456,
+  "SaleTypeName": "Krajcik Inc and Sons",
+  "PersonFullName": "Lucy Ruecker",
   "Completed": "Completed",
-  "ActiveErpLinks": 78,
-  "NextDueDate": "2009-07-20T14:58:05.1626288+02:00",
-  "Number": "804273",
+  "ActiveErpLinks": 299,
+  "NextDueDate": "2009-01-19T18:28:50.1547813+01:00",
+  "Number": "1585263",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldLength": 87
     }
   }
 }

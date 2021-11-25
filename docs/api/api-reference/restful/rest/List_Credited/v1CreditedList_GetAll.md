@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Wiegand Inc and Sons",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 372,
-    "Rank": 903,
+    "Id": 223,
+    "Name": "Macejkovic, Schulist and King",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "UdListDefinitionId": 222,
+    "Rank": 827,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

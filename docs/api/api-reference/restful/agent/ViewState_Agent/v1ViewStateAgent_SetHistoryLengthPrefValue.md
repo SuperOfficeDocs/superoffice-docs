@@ -1,9 +1,9 @@
 ---
-title: SetHistoryLengthPrefValue
+title: POST Agents/ViewState/SetHistoryLengthPrefValue
 id: v1ViewStateAgent_SetHistoryLengthPrefValue
 ---
 
-# SetHistoryLengthPrefValue
+# POST Agents/ViewState/SetHistoryLengthPrefValue
 
 ```http
 POST /api/v1/Agents/ViewState/SetHistoryLengthPrefValue

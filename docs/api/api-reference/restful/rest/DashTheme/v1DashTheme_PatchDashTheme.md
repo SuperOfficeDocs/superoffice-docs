@@ -103,6 +103,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -113,43 +114,45 @@ Response body: object
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "fugiat",
     "value": {
       "value1": {
-        "PrimaryKey": 8253,
-        "EntityName": "person",
-        "personId": 8253,
-        "fullName": "Mrs. Tyson Kirlin"
+        "PrimaryKey": 720,
+        "EntityName": "sale",
+        "saleId": 720,
+        "contactId": 1136,
+        "name": "Kuphal, Wilderman and Lang"
       },
       "value2": {
-        "PrimaryKey": 6042,
+        "PrimaryKey": 3625,
         "EntityName": "person",
-        "personId": 6042,
-        "fullName": "Abigale Runte"
+        "personId": 3625,
+        "fullName": "Elna Price"
       }
     }
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "fugiat",
     "value": {
       "value1": {
-        "PrimaryKey": 8253,
-        "EntityName": "person",
-        "personId": 8253,
-        "fullName": "Mrs. Tyson Kirlin"
+        "PrimaryKey": 720,
+        "EntityName": "sale",
+        "saleId": 720,
+        "contactId": 1136,
+        "name": "Kuphal, Wilderman and Lang"
       },
       "value2": {
-        "PrimaryKey": 6042,
+        "PrimaryKey": 3625,
         "EntityName": "person",
-        "personId": 6042,
-        "fullName": "Abigale Runte"
+        "personId": 3625,
+        "fullName": "Elna Price"
       }
     }
   }
@@ -161,10 +164,11 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 294,
-  "Name": "Stoltenberg-Senger",
-  "Config": "qui",
-  "Rank": 131,
+  "DashboardThemeId": 595,
+  "Name": "Kautzer-Predovic",
+  "Config": "nemo",
+  "Rank": 604,
+  "Client": "iure",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -175,13 +179,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

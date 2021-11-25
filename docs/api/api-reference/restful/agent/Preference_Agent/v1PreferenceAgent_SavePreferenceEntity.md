@@ -1,9 +1,9 @@
 ---
-title: SavePreferenceEntity
+title: POST Agents/Preference/SavePreferenceEntity
 id: v1PreferenceAgent_SavePreferenceEntity
 ---
 
-# SavePreferenceEntity
+# POST Agents/Preference/SavePreferenceEntity
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceEntity
@@ -89,22 +89,22 @@ Response body: object
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": {
     "Level": "Database",
-    "RawValue": "porro",
+    "RawValue": "vitae",
     "Specification": {},
-    "DisplayValue": "cum",
-    "DisplayTooltip": "dignissimos",
+    "DisplayValue": "eligendi",
+    "DisplayTooltip": "quibusdam",
     "DisplayType": "Bool",
     "TabOrder": {},
-    "TargetId": 512,
-    "PrefDescId": 996,
-    "TableName": "Lehner, Cummerata and Stark",
-    "UserPreferenceId": 623
+    "TargetId": 252,
+    "PrefDescId": 682,
+    "TableName": "Raynor, Bernier and Powlowski",
+    "UserPreferenceId": 972
   },
   "RemoveLowerLevels": true
 }
@@ -116,30 +116,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consectetur",
+  "RawValue": "qui",
   "Specification": {
-    "Section": "libero",
-    "Key": "non",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 832
-      }
-    }
-  },
-  "DisplayValue": "sunt",
-  "DisplayTooltip": "veritatis",
-  "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 381,
-    "TabName": "Vandervort-Huels",
-    "Order": "quis",
-    "AssociateId": 38,
+    "Section": "eos",
+    "Key": "voluptas",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -148,14 +128,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 295
       }
     }
   },
-  "TargetId": 659,
-  "PrefDescId": 900,
-  "TableName": "Grant, Kerluke and Stracke",
-  "UserPreferenceId": 563,
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "vel",
+  "DisplayType": "Bool",
+  "TabOrder": {
+    "TabOrderId": 766,
+    "TabName": "Hammes Inc and Sons",
+    "Order": "exercitationem",
+    "AssociateId": 715,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 697
+      }
+    }
+  },
+  "TargetId": 760,
+  "PrefDescId": 380,
+  "TableName": "Erdman-Turcotte",
+  "UserPreferenceId": 582,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldLength": 85
     }
   }
 }

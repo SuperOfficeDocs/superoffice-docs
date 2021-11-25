@@ -1,9 +1,9 @@
 ---
-title: GetSelectableListWithRestriction
+title: POST Agents/MDO/GetSelectableListWithRestriction
 id: v1MDOAgent_GetSelectableListWithRestriction
 ---
 
-# GetSelectableListWithRestriction
+# POST Agents/MDO/GetSelectableListWithRestriction
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
@@ -89,13 +89,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel-Hoppe",
-  "AdditionalInfo": "iste",
-  "SearchValue": "ipsa"
+  "Name": "Adams LLC",
+  "AdditionalInfo": "veritatis",
+  "SearchValue": "iste"
 }
 ```
 
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Lindgren, Hirthe and Ledner",
-    "ToolTip": "In ullam quia dolorem.",
+    "Id": 501,
+    "Name": "Altenwerth Inc and Sons",
+    "ToolTip": "Possimus cumque.",
     "Deleted": true,
-    "Rank": 27,
-    "Type": "veritatis",
-    "ColorBlock": 373,
-    "IconHint": "non",
+    "Rank": 438,
+    "Type": "sed",
+    "ColorBlock": 808,
+    "IconHint": "minus",
     "Selected": true,
-    "LastChanged": "2005-05-06T14:58:04.5144677+02:00",
+    "LastChanged": "2002-09-01T18:28:49.4830902+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Roberts, Koss and Marquardt",
-        "ToolTip": "Aut quis fugiat quam.",
-        "Deleted": false,
-        "Rank": 425,
-        "Type": "quaerat",
-        "ColorBlock": 509,
-        "IconHint": "explicabo",
-        "Selected": false,
-        "LastChanged": "2000-09-23T14:58:04.5144677+02:00",
+        "Id": 750,
+        "Name": "Gorczany-Greenfelder",
+        "ToolTip": "Laudantium dolor minus dolore qui ex et.",
+        "Deleted": true,
+        "Rank": 714,
+        "Type": "aut",
+        "ColorBlock": 860,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2010-11-29T18:28:49.4830902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "libero",
-        "Hidden": true,
-        "FullName": "Vida Denesik III",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Jaycee Hand",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -143,15 +143,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 163
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "cum",
-    "Hidden": true,
-    "FullName": "Walter Zulauf",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Mr. Abdiel Gorczany",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldLength": 726
       }
     }
   }

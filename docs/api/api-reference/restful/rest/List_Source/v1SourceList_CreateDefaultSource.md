@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Kemmer LLC",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "UdListDefinitionId": 425,
-  "Rank": 804,
+  "Id": 101,
+  "Name": "Breitenberg LLC",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "UdListDefinitionId": 532,
+  "Rank": 195,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "utilize mission-critical web-readiness"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 797
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: FindCredentialUsers
+title: POST Agents/User/FindCredentialUsers
 id: v1UserAgent_FindCredentialUsers
 ---
 
-# FindCredentialUsers
+# POST Agents/User/FindCredentialUsers
 
 ```http
 POST /api/v1/Agents/User/FindCredentialUsers
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nihil",
-  "SearchString": "cumque"
+  "Type": "sint",
+  "SearchString": "deleniti"
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "id",
-    "alias"
+    "similique",
+    "veritatis"
   ],
   "Users": [
     {
-      "Value": "voluptatum",
-      "DisplayValue": "aut",
+      "Value": "dolore",
+      "DisplayValue": "corporis",
       "Columns": [
-        "amet",
-        "deleniti"
+        "ipsa",
+        "quis"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -116,19 +116,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     },
     {
-      "Value": "voluptatum",
-      "DisplayValue": "aut",
+      "Value": "dolore",
+      "DisplayValue": "corporis",
       "Columns": [
-        "amet",
-        "deleniti"
+        "ipsa",
+        "quis"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   }
 }

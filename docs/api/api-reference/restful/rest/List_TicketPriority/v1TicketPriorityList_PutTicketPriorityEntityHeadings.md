@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Jewess LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 730,
-    "UdListDefinitionId": 913
+    "HeadingId": 17,
+    "Name": "Stroman-Fadel",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 218,
+    "UdListDefinitionId": 848
   },
   {
-    "HeadingId": 963,
-    "Name": "Jewess LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 730,
-    "UdListDefinitionId": 913
+    "HeadingId": 17,
+    "Name": "Stroman-Fadel",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 218,
+    "UdListDefinitionId": 848
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 673,
-    "Name": "Gorczany, Reinger and Collins",
-    "Tooltip": "velit",
+    "HeadingId": 758,
+    "Name": "Heaney Inc and Sons",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 50,
-    "UdListDefinitionId": 577,
+    "Rank": 895,
+    "UdListDefinitionId": 213,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldLength": 465
       }
     }
   }

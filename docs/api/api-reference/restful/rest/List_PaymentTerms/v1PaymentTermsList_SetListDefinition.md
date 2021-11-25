@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Hauck Group",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 180,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 396,
+  "Name": "Dicki, Toy and Robel",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 25,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "mollitia",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Leannon-Abbott",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "Rank": 982,
+  "Id": 309,
+  "Name": "Hauck, Stracke and Hilll",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 202,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enhance plug-and-play relationships"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "Berge-Harris",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "UdListDefinitionId": 666,
-  "Rank": 994,
+  "Id": 37,
+  "Name": "Gaylord Group",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "UdListDefinitionId": 797,
+  "Rank": 656,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 251
     }
   }
 }

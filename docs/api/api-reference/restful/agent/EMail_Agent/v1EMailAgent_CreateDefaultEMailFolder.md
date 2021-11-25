@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailFolder
+title: POST Agents/EMail/CreateDefaultEMailFolder
 id: v1EMailAgent_CreateDefaultEMailFolder
 ---
 
-# CreateDefaultEMailFolder
+# POST Agents/EMail/CreateDefaultEMailFolder
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Huels, Lindgren and Rowe",
-  "Delimiter": "quas",
-  "Flags": "officiis",
-  "TotalItems": 831,
-  "UnreadItems": 350,
-  "Subscribed": true,
-  "EmailFolderId": 217,
+  "Name": "Considine, Collins and Hegmann",
+  "Delimiter": "est",
+  "Flags": "ad",
+  "TotalItems": 768,
+  "UnreadItems": 746,
+  "Subscribed": false,
+  "EmailFolderId": 602,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

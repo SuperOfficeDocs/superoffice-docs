@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=consectetur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
 ```
 
 
@@ -79,23 +79,23 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 09 Nov 2012 15:05:42 G11T
+Last-Modified: Thu, 20 Nov 2014 18:25:50 G11T
 
 {
-  "Key": "ex",
-  "Value": "voluptatibus",
-  "RecordId": 668,
-  "CreatedDate": "1995-12-28T15:05:42.248666+01:00",
-  "UpdatedDate": "2012-11-09T15:05:42.248666+01:00",
-  "UpdatedBy": "cum",
-  "CreatedBy": "quam",
-  "TableName": "Eichmann Inc and Sons",
+  "Key": "ut",
+  "Value": "fuga",
+  "RecordId": 531,
+  "CreatedDate": "1999-05-31T18:25:50.5765972+02:00",
+  "UpdatedDate": "2014-11-20T18:25:50.5765972+01:00",
+  "UpdatedBy": "harum",
+  "CreatedBy": "dignissimos",
+  "TableName": "Greenfelder-Kautzer",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -106,8 +106,8 @@ Last-Modified: Fri, 09 Nov 2012 15:05:42 G11T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 645
     }
   }
 }

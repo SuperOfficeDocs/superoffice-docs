@@ -97,12 +97,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 777,
-  "PrefDescId": 371,
-  "PrefValue": "dolorem",
-  "PrefShowValue": "dicta",
-  "Description": "Sharable client-server collaboration",
-  "IsBuiltin": true
+  "PrefDescLineId": 271,
+  "PrefDescId": 905,
+  "PrefValue": "in",
+  "PrefShowValue": "itaque",
+  "Description": "Profound 24/7 time-frame",
+  "IsBuiltin": false
 }
 ```
 
@@ -111,12 +111,12 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 757,
-  "PrefDescId": 296,
-  "PrefValue": "nisi",
-  "PrefShowValue": "tempora",
-  "Description": "Extended exuding paradigm",
-  "IsBuiltin": false,
+  "PrefDescLineId": 619,
+  "PrefDescId": 943,
+  "PrefValue": "quam",
+  "PrefShowValue": "quos",
+  "Description": "Open-architected hybrid knowledge user",
+  "IsBuiltin": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

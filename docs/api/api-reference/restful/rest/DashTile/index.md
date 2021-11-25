@@ -2,8 +2,6 @@
 title: DashTile
 ---
 
-# DashTile
-
 ```http
 /api/v1/DashTile
 ```

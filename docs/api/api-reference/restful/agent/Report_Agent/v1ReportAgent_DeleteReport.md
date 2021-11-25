@@ -1,9 +1,9 @@
 ---
-title: DeleteReport
+title: POST Agents/Report/DeleteReport
 id: v1ReportAgent_DeleteReport
 ---
 
-# DeleteReport
+# POST Agents/Report/DeleteReport
 
 ```http
 POST /api/v1/Agents/Report/DeleteReport
@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 766
+  "ReportId": 146
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

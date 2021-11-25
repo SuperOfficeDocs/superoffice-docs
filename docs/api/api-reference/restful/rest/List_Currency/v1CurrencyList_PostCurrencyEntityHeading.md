@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 210,
-  "Name": "Bode Inc and Sons",
-  "Tooltip": "eveniet",
+  "HeadingId": 555,
+  "Name": "Schoen Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 791
+  "Rank": 558,
+  "UdListDefinitionId": 463
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 913,
-  "Name": "Bogisich LLC",
-  "Tooltip": "consequatur",
+  "HeadingId": 574,
+  "Name": "Jacobi Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 216,
-  "UdListDefinitionId": 874,
+  "Rank": 973,
+  "UdListDefinitionId": 585,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

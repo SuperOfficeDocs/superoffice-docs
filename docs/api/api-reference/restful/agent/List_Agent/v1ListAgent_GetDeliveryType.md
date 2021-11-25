@@ -1,9 +1,9 @@
 ---
-title: GetDeliveryType
+title: POST Agents/List/GetDeliveryType
 id: v1ListAgent_GetDeliveryType
 ---
 
-# GetDeliveryType
+# POST Agents/List/GetDeliveryType
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryType
@@ -25,7 +25,7 @@ Gets a DeliveryType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=167
+POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=856
 POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetDeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Value": "nemo",
-  "Tooltip": "est",
+  "Id": 508,
+  "Value": "ullam",
+  "Tooltip": "numquam",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 797
     }
   }
 }

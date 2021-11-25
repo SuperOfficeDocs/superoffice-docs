@@ -1,9 +1,9 @@
 ---
-title: Truncate
+title: POST Agents/DatabaseTable/Truncate
 id: v1DatabaseTableAgent_Truncate
 ---
 
-# Truncate
+# POST Agents/DatabaseTable/Truncate
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Truncate
@@ -13,8 +13,12 @@ Drop all rows in a table.
 
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
-> [!NOTE]
-> Must be a system user to perform this operation.
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 
@@ -82,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Conn Inc and Sons"
+  "TableName": "Dietrich, Breitenberg and Carter"
 }
 ```
 
@@ -96,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "impedit",
-  "Inserts": 120,
-  "Updates": 877,
-  "Deletes": 76,
+  "Message": "est",
+  "Inserts": 814,
+  "Updates": 706,
+  "Deletes": 948,
   "RowStatus": [
     {
-      "PrimaryKey": 914,
+      "PrimaryKey": 700,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "consequatur"
+        "nemo",
+        "molestiae"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -115,17 +119,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 209
         }
       }
     },
     {
-      "PrimaryKey": 914,
+      "PrimaryKey": 700,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "consequatur"
+        "nemo",
+        "molestiae"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -134,8 +138,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 209
         }
       }
     }
@@ -151,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldLength": 540
     }
   }
 }

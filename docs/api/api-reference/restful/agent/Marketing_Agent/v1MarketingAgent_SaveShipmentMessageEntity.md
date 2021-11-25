@@ -1,9 +1,9 @@
 ---
-title: SaveShipmentMessageEntity
+title: POST Agents/Marketing/SaveShipmentMessageEntity
 id: v1MarketingAgent_SaveShipmentMessageEntity
 ---
 
-# SaveShipmentMessageEntity
+# POST Agents/Marketing/SaveShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
@@ -112,27 +112,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 922,
+  "ShipmentMessageId": 533,
   "PlainMessage": "qui",
-  "HtmlMessage": "aliquid",
-  "SmsMessage": "facere",
-  "Description": "Enterprise-wide asynchronous complexity",
-  "Subject": "aut",
-  "FolderId": 40,
-  "HeaderField": "aut",
-  "Design": "architecto",
+  "HtmlMessage": "labore",
+  "SmsMessage": "distinctio",
+  "Description": "Multi-layered didactic support",
+  "Subject": "deleniti",
+  "FolderId": 446,
+  "HeaderField": "similique",
+  "Design": "perspiciatis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Expanded discrete local area network",
-  "AccessKey": "aliquid",
-  "DocumentMessage": 837,
-  "Registered": "2001-02-24T14:58:04.4944653+01:00",
-  "RegisteredAssociateId": 390,
-  "Updated": "2015-09-09T14:58:04.4944653+02:00",
-  "UpdatedAssociateId": 545,
-  "UpdatedCount": 63
+  "LongDescription": "Monitored modular process improvement",
+  "AccessKey": "dolorem",
+  "DocumentMessage": 79,
+  "Registered": "2014-08-06T18:28:49.4660876+02:00",
+  "RegisteredAssociateId": 510,
+  "Updated": "2018-12-29T18:28:49.4660876+01:00",
+  "UpdatedAssociateId": 531,
+  "UpdatedCount": 630
 }
 ```
 
@@ -141,27 +141,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 123,
-  "PlainMessage": "corporis",
-  "HtmlMessage": "quibusdam",
-  "SmsMessage": "sit",
-  "Description": "Ameliorated tertiary leverage",
-  "Subject": "accusamus",
-  "FolderId": 306,
-  "HeaderField": "qui",
-  "Design": "enim",
+  "ShipmentMessageId": 116,
+  "PlainMessage": "ratione",
+  "HtmlMessage": "dolorem",
+  "SmsMessage": "consequatur",
+  "Description": "Visionary intangible open system",
+  "Subject": "in",
+  "FolderId": 834,
+  "HeaderField": "velit",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Monitored systematic local area network",
-  "AccessKey": "nulla",
-  "DocumentMessage": 520,
-  "Registered": "2011-07-30T14:58:04.4954688+02:00",
-  "RegisteredAssociateId": 74,
-  "Updated": "1994-09-06T14:58:04.4954688+02:00",
-  "UpdatedAssociateId": 171,
-  "UpdatedCount": 617,
+  "LongDescription": "Integrated 24/7 neural-net",
+  "AccessKey": "vitae",
+  "DocumentMessage": 844,
+  "Registered": "2009-11-01T18:28:49.4670875+01:00",
+  "RegisteredAssociateId": 734,
+  "Updated": "2003-06-17T18:28:49.4670875+02:00",
+  "UpdatedAssociateId": 238,
+  "UpdatedCount": 638,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   }
 }

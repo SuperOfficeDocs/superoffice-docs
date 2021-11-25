@@ -1,9 +1,9 @@
 ---
-title: AddDeviceByIdentifier
+title: POST Agents/ForeignSystem/AddDeviceByIdentifier
 id: v1ForeignSystemAgent_AddDeviceByIdentifier
 ---
 
-# AddDeviceByIdentifier
+# POST Agents/ForeignSystem/AddDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
@@ -92,9 +92,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Homenick, Doyle and Zieme",
-  "DeviceName": "Ebert-Barrows",
-  "DeviceIdentifier": "accusantium"
+  "ApplicationName": "Hand, Schmidt and Treutel",
+  "DeviceName": "Goyette, Mitchell and Dietrich",
+  "DeviceIdentifier": "occaecati"
 }
 ```
 
@@ -103,15 +103,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 7,
-  "Name": "Padberg-Schaden",
-  "CreatedDate": "2002-05-29T14:58:04.3034634+02:00",
-  "UpdatedDate": "2020-02-27T14:58:04.3034634+01:00",
-  "AssociateFullName": "Mrs. Janice Huel",
-  "CreatedBy": "ut",
-  "UpdatedBy": "perferendis",
-  "DeviceIdentifier": "eaque",
-  "ForeignAppId": 812,
+  "ForeignDeviceId": 891,
+  "Name": "Sporer, Barton and Rolfson",
+  "CreatedDate": "2013-09-20T18:28:49.2090869+02:00",
+  "UpdatedDate": "2015-08-30T18:28:49.2090869+02:00",
+  "AssociateFullName": "Kailyn Rice",
+  "CreatedBy": "minima",
+  "UpdatedBy": "laborum",
+  "DeviceIdentifier": "vel",
+  "ForeignAppId": 335,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

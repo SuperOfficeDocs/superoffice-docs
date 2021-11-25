@@ -1,9 +1,9 @@
 ---
-title: SupportsAdvancedSearch
+title: POST Agents/ErpSync/SupportsAdvancedSearch
 id: v1ErpSyncAgent_SupportsAdvancedSearch
 ---
 
-# SupportsAdvancedSearch
+# POST Agents/ErpSync/SupportsAdvancedSearch
 
 ```http
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
@@ -71,11 +71,11 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 46,
+  "ErpConnectionId": 561,
   "ErpActorType": "Customer"
 }
 ```

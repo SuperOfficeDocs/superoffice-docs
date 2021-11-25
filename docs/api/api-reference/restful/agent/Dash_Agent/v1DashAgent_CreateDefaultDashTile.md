@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashTile
+title: POST Agents/Dash/CreateDefaultDashTile
 id: v1DashAgent_CreateDefaultDashTile
 ---
 
-# CreateDefaultDashTile
+# POST Agents/Dash/CreateDefaultDashTile
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 56,
-  "DashboardId": 898,
-  "Height": 800,
-  "Width": 573,
-  "Rank": 695,
+  "DashboardTileId": 256,
+  "DashboardId": 572,
+  "Height": 83,
+  "Width": 465,
+  "Rank": 944,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 269,
-    "Name": "Johnson-Lindgren",
-    "Description": "Re-contextualized next generation Graphic Interface",
-    "DefaultHeight": 56,
-    "DefaultWidth": 243,
+    "DashboardTileDefinitionId": 482,
+    "Name": "Adams-Cormier",
+    "Description": "Inverse zero defect collaboration",
+    "DefaultHeight": 497,
+    "DefaultWidth": 833,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Kutch Group",
-    "SelectionId": 662,
+    "EntityName": "Fadel Inc and Sons",
+    "SelectionId": 137,
     "CurrencyMode": "Base",
-    "CurrencyId": 954,
+    "CurrencyCode": "beatae",
     "Measure": "Average",
-    "MeasureField": "eum",
-    "SortBy": "consectetur",
-    "LayoutConfig": "qui",
-    "SecondarySelectionId": 581,
-    "MeasureByField": "sed",
-    "ProviderName": "Dickinson, O'Hara and Rau",
+    "MeasureField": "iste",
+    "SortBy": "ratione",
+    "LayoutConfig": "enim",
+    "SecondarySelectionId": 492,
+    "MeasureByField": "ratione",
+    "ProviderName": "Schneider, Boyer and Barton",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldLength": 563
       }
     }
   },
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reinvent rich initiatives"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

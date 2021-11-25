@@ -1,9 +1,9 @@
 ---
-title: GetDashboardTiles
+title: POST Agents/Dashboard/GetDashboardTiles
 id: v1DashboardAgent_GetDashboardTiles
 ---
 
-# GetDashboardTiles
+# POST Agents/Dashboard/GetDashboardTiles
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    444,
-    698
+    293,
+    788
   ]
 }
 ```
@@ -103,30 +103,48 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 536,
-    "Caption": "impedit",
-    "Description": "Ergonomic tangible customer loyalty",
-    "ChartName": "Luettgen Inc and Sons",
-    "ChartId": "rerum",
+    "DashboardTileId": 519,
+    "Caption": "non",
+    "Description": "Total clear-thinking Graphical User Interface",
+    "ChartName": "Beahan, Bednar and Johnson",
+    "ChartId": "sed",
     "IsDefault": true,
-    "AssociateId": 150,
-    "GroupId": 312,
-    "SelectionId": 53,
-    "Config": "eveniet",
+    "AssociateId": 419,
+    "GroupId": 822,
+    "SelectionId": 830,
+    "Config": "ut",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Jacobson-Daugherty",
-        "Description": "Customizable 24 hour success",
+        "Name": "Schimmel, Howell and Cartwright",
+        "Description": "Multi-tiered content-based focus group",
         "Type": "Boolean",
-        "ListName": "Kilback, Hintz and Walsh",
+        "ListName": "Weissnat-Effertz",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "voluptatum",
-        "DefaultDataOption": true,
+        "Value": "minima",
+        "DefaultDataOption": false,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.String",
+            "FieldLength": 815
+          }
+        }
+      }
+    ],
+    "VisibleFor": [
+      {
+        "VisibleId": 398,
+        "Visibility": "All",
+        "DisplayValue": "accusamus",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -135,32 +153,14 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 792
-          }
-        }
-      }
-    ],
-    "VisibleFor": [
-      {
-        "VisibleId": 707,
-        "Visibility": "All",
-        "DisplayValue": "quasi",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 308
+            "FieldLength": 789
           }
         }
       },
       {
-        "VisibleId": 707,
+        "VisibleId": 398,
         "Visibility": "All",
-        "DisplayValue": "quasi",
+        "DisplayValue": "accusamus",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 308
+            "FieldType": "System.Int32",
+            "FieldLength": 789
           }
         }
       }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldLength": 938
       }
     }
   }

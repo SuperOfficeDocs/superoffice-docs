@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Keebler-Marvin",
-    "ToolTip": "Vel ex et eius dolore omnis similique.",
+    "Id": 12,
+    "Name": "Daugherty, Mayert and Blick",
+    "ToolTip": "Molestiae beatae.",
     "Deleted": true,
-    "Rank": 270,
-    "Type": "et",
-    "ColorBlock": 966,
-    "IconHint": "ut",
+    "Rank": 40,
+    "Type": "consequatur",
+    "ColorBlock": 924,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2007-11-10T15:05:43.59708+01:00",
+    "LastChanged": "2017-02-23T18:25:51.9822472+01:00",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Cole-Wilderman",
-        "ToolTip": "Natus eos iusto totam quibusdam nisi soluta.",
+        "Id": 82,
+        "Name": "Trantow, Gorczany and Ward",
+        "ToolTip": "Rerum ut quis nihil odio et.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "quod",
-        "ColorBlock": 928,
-        "IconHint": "et",
+        "Rank": 692,
+        "Type": "dolorem",
+        "ColorBlock": 711,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2008-10-10T15:05:43.59708+02:00",
+        "LastChanged": "2017-09-07T18:25:51.9822472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "quia",
+        "ExtraInfo": "modi",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Dr. Jedidiah O'Conner",
+        "FullName": "Vernice Wolf",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "maximize best-of-breed e-tailers"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldType": "System.String",
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "eius",
-    "Hidden": false,
-    "FullName": "Ivy Durgan",
+    "ExtraInfo": "et",
+    "StyleHint": "itaque",
+    "Hidden": true,
+    "FullName": "Mr. Elaina Heaney",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldLength": 349
       }
     }
   }

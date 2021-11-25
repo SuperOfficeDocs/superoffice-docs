@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 851,
-    "Name": "Schaden, Bergnaum and Green",
-    "Tooltip": "dicta",
+    "HeadingId": 115,
+    "Name": "Keeling, Parker and Hodkiewicz",
+    "Tooltip": "minus",
     "Deleted": true,
-    "Rank": 605,
-    "UdListDefinitionId": 285,
+    "Rank": 130,
+    "UdListDefinitionId": 107,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   }

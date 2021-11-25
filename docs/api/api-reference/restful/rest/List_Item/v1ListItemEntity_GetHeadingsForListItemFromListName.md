@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Lehner-Altenwerth",
-    "ToolTip": "Et doloremque debitis est saepe sunt nostrum.",
+    "Id": 277,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Nisi et ex.",
     "Deleted": false,
-    "Rank": 855,
-    "Type": "itaque",
-    "ColorBlock": 160,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2010-06-12T15:05:43.2218988+02:00",
+    "Rank": 389,
+    "Type": "architecto",
+    "ColorBlock": 793,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2017-08-29T18:25:51.5912945+02:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Balistreri Group",
-        "ToolTip": "Perspiciatis ratione at iure dolore.",
+        "Id": 659,
+        "Name": "Friesen LLC",
+        "ToolTip": "Libero et sint est eius nihil distinctio.",
         "Deleted": true,
-        "Rank": 780,
-        "Type": "dicta",
-        "ColorBlock": 153,
-        "IconHint": "earum",
+        "Rank": 348,
+        "Type": "cum",
+        "ColorBlock": 843,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2014-05-14T15:05:43.2218988+02:00",
+        "LastChanged": "1996-09-01T18:25:51.5912945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Cleta Donnelly",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Alison Welch",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,16 +129,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldType": "System.String",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Angie Herzog",
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Iliana Marquardt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 161
       }
     }
   }

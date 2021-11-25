@@ -1,9 +1,9 @@
 ---
-title: GetPreviousCurrent
+title: POST Agents/ViewState/GetPreviousCurrent
 id: v1ViewStateAgent_GetPreviousCurrent
 ---
 
-# GetPreviousCurrent
+# POST Agents/ViewState/GetPreviousCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
@@ -85,12 +85,12 @@ Response body: object
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Leannon-Renner",
-  "Id": 562
+  "HistoryName": "Carroll, Krajcik and Ondricka",
+  "Id": 271
 }
 ```
 
@@ -99,16 +99,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 983,
-  "Id": 860,
-  "HistoryName": "Luettgen Inc and Sons",
-  "HistoryId": 430,
-  "AssociateId": 438,
-  "Name": "Ryan, Crona and Casper",
-  "ItemInfo": "voluptatem",
+  "Rank": 343,
+  "Id": 913,
+  "HistoryName": "Conn, Denesik and Dickens",
+  "HistoryId": 666,
+  "AssociateId": 386,
+  "Name": "Parker, Wyman and Kertzmann",
+  "ItemInfo": "enim",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "architect frictionless schemas"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldType": "System.String",
+      "FieldLength": 238
     }
   }
 }

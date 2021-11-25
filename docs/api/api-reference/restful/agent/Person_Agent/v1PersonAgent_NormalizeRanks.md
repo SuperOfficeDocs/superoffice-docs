@@ -1,9 +1,9 @@
 ---
-title: NormalizeRanks
+title: POST Agents/Person/NormalizeRanks
 id: v1PersonAgent_NormalizeRanks
 ---
 
-# NormalizeRanks
+# POST Agents/Person/NormalizeRanks
 
 ```http
 POST /api/v1/Agents/Person/NormalizeRanks
@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 714
+  "ContactId": 697
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

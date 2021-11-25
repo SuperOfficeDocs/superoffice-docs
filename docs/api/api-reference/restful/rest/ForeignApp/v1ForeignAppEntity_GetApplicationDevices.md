@@ -66,25 +66,25 @@ Response body: array
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 11 Sep 2014 15:05:42 G9T
+Last-Modified: Sun, 04 Feb 2018 18:25:50 G2T
 
 [
   {
-    "ForeignDeviceId": 835,
-    "Name": "Schaden-Lueilwitz",
-    "CreatedDate": "2010-04-04T15:05:42.2386367+02:00",
-    "UpdatedDate": "2014-09-11T15:05:42.2386367+02:00",
-    "AssociateFullName": "Tierra Boyer",
-    "CreatedBy": "repellat",
-    "UpdatedBy": "ut",
-    "DeviceIdentifier": "minima",
-    "ForeignAppId": 24,
+    "ForeignDeviceId": 464,
+    "Name": "Schneider, Gibson and Kuhlman",
+    "CreatedDate": "2015-01-29T18:25:50.5695973+01:00",
+    "UpdatedDate": "2018-02-04T18:25:50.5695973+01:00",
+    "AssociateFullName": "Loyce Moen",
+    "CreatedBy": "sint",
+    "UpdatedBy": "amet",
+    "DeviceIdentifier": "eveniet",
+    "ForeignAppId": 35,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,8 +95,8 @@ Last-Modified: Thu, 11 Sep 2014 15:05:42 G9T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

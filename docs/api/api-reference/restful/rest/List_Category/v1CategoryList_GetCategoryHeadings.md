@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 703,
-    "Name": "Jast Inc and Sons",
-    "Tooltip": "officia",
+    "HeadingId": 983,
+    "Name": "Hagenes-Macejkovic",
+    "Tooltip": "laudantium",
     "Deleted": true,
-    "Rank": 140,
-    "UdListDefinitionId": 923,
+    "Rank": 110,
+    "UdListDefinitionId": 397,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 188
       }
     }
   }

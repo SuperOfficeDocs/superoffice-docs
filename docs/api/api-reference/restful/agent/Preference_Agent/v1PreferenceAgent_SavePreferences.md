@@ -1,9 +1,9 @@
 ---
-title: SavePreferences
+title: POST Agents/Preference/SavePreferences
 id: v1PreferenceAgent_SavePreferences
 ---
 
-# SavePreferences
+# POST Agents/Preference/SavePreferences
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferences

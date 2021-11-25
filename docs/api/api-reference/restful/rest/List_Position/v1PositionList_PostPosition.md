@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Kub-Morissette",
-  "Tooltip": "non",
+  "Id": 747,
+  "Name": "Glover Group",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 3,
-  "Rank": 61
+  "UdListDefinitionId": 380,
+  "Rank": 66
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 572,
-  "Name": "Brakus, Little and Okuneva",
-  "Tooltip": "rerum",
+  "Id": 269,
+  "Name": "Schneider-Haag",
+  "Tooltip": "cupiditate",
   "Deleted": true,
-  "UdListDefinitionId": 665,
-  "Rank": 180,
+  "UdListDefinitionId": 901,
+  "Rank": 41,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

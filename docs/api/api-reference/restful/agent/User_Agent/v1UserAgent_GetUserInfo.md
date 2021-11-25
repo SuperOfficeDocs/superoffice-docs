@@ -1,9 +1,9 @@
 ---
-title: GetUserInfo
+title: POST Agents/User/GetUserInfo
 id: v1UserAgent_GetUserInfo
 ---
 
-# GetUserInfo
+# POST Agents/User/GetUserInfo
 
 ```http
 POST /api/v1/Agents/User/GetUserInfo
@@ -27,7 +27,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=145
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=871
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -92,23 +92,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": true,
-  "UserInfoId": 48,
-  "UserName": "Parisian, Kshlerin and Rath",
-  "PersonId": 957,
-  "Rank": 224,
-  "Tooltip": "quibusdam",
-  "UserGroupId": 170,
-  "EjUserId": 932,
+  "UserInfoId": 909,
+  "UserName": "Crooks Group",
+  "PersonId": 203,
+  "Rank": 333,
+  "Tooltip": "numquam",
+  "UserGroupId": 568,
+  "EjUserId": 161,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "et",
-    "non"
+    "consequatur",
+    "ut"
   ],
   "CanLogon": true,
-  "RoleName": "Witting-Ritchie",
-  "RoleTooltip": "eligendi",
-  "UserGroupName": "Mills, Armstrong and Bruen",
-  "UserGroupTooltip": "sit",
+  "RoleName": "Hammes, Towne and Schimmel",
+  "RoleTooltip": "quaerat",
+  "UserGroupName": "Harris-Harris",
+  "UserGroupTooltip": "omnis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=voluptate
+GET /api/v1/List/LegalBase/MDOItems?flat=False
+GET /api/v1/List/LegalBase/MDOItems?query=qui
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Ritchie Inc and Sons",
-    "ToolTip": "Commodi quidem sit aut et enim.",
-    "Deleted": true,
-    "Rank": 229,
-    "Type": "itaque",
+    "Id": 381,
+    "Name": "Lynch-Rice",
+    "ToolTip": "Quasi ratione reprehenderit excepturi ut facilis rerum.",
+    "Deleted": false,
+    "Rank": 250,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Heidenreich-Kulas",
-        "ToolTip": "Culpa dolore laborum eveniet.",
+        "Id": 907,
+        "Name": "Kshlerin-Jewess",
+        "ToolTip": "Cumque voluptates cumque possimus.",
         "Deleted": false,
-        "Rank": 103,
-        "Type": "placeat",
+        "Rank": 871,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 617,
-        "ExtraInfo": "quis",
-        "StyleHint": "nihil",
-        "FullName": "Nella Wolff",
+        "IconHint": "hic",
+        "ColorBlock": 823,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "accusantium",
+        "FullName": "Jailyn Rippin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldType": "System.String",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "IconHint": "sapiente",
-    "ColorBlock": 27,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "tempora",
-    "FullName": "Jasper Sawayn",
+    "IconHint": "sint",
+    "ColorBlock": 348,
+    "ExtraInfo": "similique",
+    "StyleHint": "fugit",
+    "FullName": "Sadie Upton",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 982
       }
     }
   }

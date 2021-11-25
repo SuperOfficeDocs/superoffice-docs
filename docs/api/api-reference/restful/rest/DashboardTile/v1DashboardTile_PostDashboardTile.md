@@ -104,46 +104,46 @@ Response body: object
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 819,
-  "Caption": "cum",
-  "Description": "Front-line local intranet",
-  "ChartName": "Kuhn Group",
-  "ChartId": "sapiente",
-  "IsDefault": false,
-  "AssociateId": 607,
-  "GroupId": 810,
-  "SelectionId": 808,
-  "Config": "quidem",
+  "DashboardTileId": 905,
+  "Caption": "repellat",
+  "Description": "Exclusive impactful open system",
+  "ChartName": "Blick-Connelly",
+  "ChartId": "est",
+  "IsDefault": true,
+  "AssociateId": 212,
+  "GroupId": 850,
+  "SelectionId": 802,
+  "Config": "sit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hickle-Hegmann",
-      "Description": "Seamless empowering methodology",
+      "Name": "Wilderman Group",
+      "Description": "Profit-focused object-oriented workforce",
       "Type": "Boolean",
-      "ListName": "Greenholt-Lehner",
+      "ListName": "Hane-Sawayn",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "praesentium",
-      "DefaultDataOption": false
+      "Value": "enim",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "cum"
+      "DisplayValue": "blanditiis"
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "cum"
+      "DisplayValue": "blanditiis"
     }
   ]
 }
@@ -154,30 +154,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 361,
-  "Caption": "et",
-  "Description": "Diverse assymetric concept",
-  "ChartName": "Bergstrom-Dooley",
-  "ChartId": "non",
+  "DashboardTileId": 217,
+  "Caption": "non",
+  "Description": "Multi-layered mobile Graphic Interface",
+  "ChartName": "Stark-Willms",
+  "ChartId": "itaque",
   "IsDefault": true,
-  "AssociateId": 815,
-  "GroupId": 250,
-  "SelectionId": 576,
-  "Config": "consequatur",
+  "AssociateId": 51,
+  "GroupId": 938,
+  "SelectionId": 301,
+  "Config": "minus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bashirian LLC",
-      "Description": "Intuitive needs-based hub",
+      "Name": "Swift Inc and Sons",
+      "Description": "Diverse 24 hour moratorium",
       "Type": "Boolean",
-      "ListName": "Feeney, Terry and Harber",
+      "ListName": "Kub-Walsh",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iste",
-      "DefaultDataOption": true,
+      "Value": "nihil",
+      "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -185,17 +185,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 532,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "maxime",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -204,14 +204,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 528
         }
       }
     },
     {
-      "VisibleId": 532,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "maxime",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 528
         }
       }
     }
@@ -235,8 +235,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   },
   "_Links": {

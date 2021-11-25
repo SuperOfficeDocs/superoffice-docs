@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 192,
-  "AssociateId": 852,
-  "Block": "voluptas",
-  "Registered": "2000-07-19T15:05:42.7556624+02:00",
-  "RegisteredAssociateId": 192,
-  "Updated": "2001-04-25T15:05:42.7556624+02:00",
-  "UpdatedAssociateId": 481,
-  "UpdatedCount": 546,
+  "ShipmentMessageBlockId": 710,
+  "AssociateId": 979,
+  "Block": "et",
+  "Registered": "2013-05-29T18:25:51.1079471+02:00",
+  "RegisteredAssociateId": 783,
+  "Updated": "2008-03-28T18:25:51.1079471+01:00",
+  "UpdatedAssociateId": 736,
+  "UpdatedCount": 370,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetConnectorCapabilityNames
+title: POST Agents/Quote/GetConnectorCapabilityNames
 id: v1QuoteAgent_GetConnectorCapabilityNames
 ---
 
-# GetConnectorCapabilityNames
+# POST Agents/Quote/GetConnectorCapabilityNames
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 306
+  "QuoteConnectionId": 334
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "inventore",
-  "iure"
+  "a",
+  "numquam"
 ]
 ```

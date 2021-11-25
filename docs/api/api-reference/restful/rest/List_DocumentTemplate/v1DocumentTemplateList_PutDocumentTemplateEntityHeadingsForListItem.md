@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Murazik Inc and Sons",
-    "ToolTip": "Nesciunt cumque voluptas.",
-    "Deleted": true,
-    "Rank": 701,
-    "Type": "rerum",
-    "ColorBlock": 216,
-    "IconHint": "cum",
+    "Id": 623,
+    "Name": "Herman, Barrows and Pacocha",
+    "ToolTip": "Et ut eum ipsam.",
+    "Deleted": false,
+    "Rank": 688,
+    "Type": "ea",
+    "ColorBlock": 927,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2011-02-19T15:05:43.4945116+01:00",
+    "LastChanged": "2017-08-16T18:25:51.8404919+02:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Thiel, Bartoletti and Balistreri",
-        "ToolTip": "Voluptatem saepe ab rerum nulla.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "nisi",
-        "ColorBlock": 730,
-        "IconHint": "debitis",
+        "Id": 914,
+        "Name": "Aufderhar-Auer",
+        "ToolTip": "Ex aperiam dolor voluptatem doloribus.",
+        "Deleted": false,
+        "Rank": 1000,
+        "Type": "nemo",
+        "ColorBlock": 268,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2004-07-12T15:05:43.4945116+02:00",
+        "LastChanged": "2013-12-15T18:25:51.8404919+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Astrid Walter"
+        "ExtraInfo": "officia",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Michelle Jaskolski DVM"
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "harum",
+    "ExtraInfo": "et",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Imani Sipes"
+    "FullName": "Alicia McKenzie"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Considine, Gutkowski and Pouros",
-    "ToolTip": "Iusto quis enim dolorum.",
-    "Deleted": true,
-    "Rank": 283,
-    "Type": "laborum",
-    "ColorBlock": 1000,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "1994-12-21T15:05:43.4960265+01:00",
+    "Id": 842,
+    "Name": "Wilkinson-Pollich",
+    "ToolTip": "Placeat laborum consequatur dolores.",
+    "Deleted": false,
+    "Rank": 285,
+    "Type": "perferendis",
+    "ColorBlock": 862,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2015-12-27T18:25:51.8424518+01:00",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "Jast, Leuschke and Orn",
-        "ToolTip": "Quas molestiae.",
-        "Deleted": true,
-        "Rank": 588,
-        "Type": "sit",
-        "ColorBlock": 737,
-        "IconHint": "deserunt",
+        "Id": 240,
+        "Name": "Abshire-Klein",
+        "ToolTip": "Atque itaque soluta eum harum optio dolores.",
+        "Deleted": false,
+        "Rank": 352,
+        "Type": "a",
+        "ColorBlock": 195,
+        "IconHint": "saepe",
         "Selected": true,
-        "LastChanged": "2001-07-27T15:05:43.4960265+02:00",
+        "LastChanged": "2004-05-22T18:25:51.8424518+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "magnam",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Ayana Goyette DDS",
+        "FullName": "Arlie Terry",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "synthesize sexy communities"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldLength": 352
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "non",
+    "ExtraInfo": "eius",
+    "StyleHint": "atque",
     "Hidden": true,
-    "FullName": "Consuelo Dicki",
+    "FullName": "Janessa Romaguera",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 999
       }
     }
   }

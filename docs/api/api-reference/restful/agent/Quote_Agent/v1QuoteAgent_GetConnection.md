@@ -1,9 +1,9 @@
 ---
-title: GetConnection
+title: POST Agents/Quote/GetConnection
 id: v1QuoteAgent_GetConnection
 ---
 
-# GetConnection
+# POST Agents/Quote/GetConnection
 
 ```http
 POST /api/v1/Agents/Quote/GetConnection
@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 768
+  "QuoteConnectionId": 718
 }
 ```
 
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteConnectionId": 113,
-  "ERPName": "Casper Inc and Sons",
-  "DisplayName": "Wunsch, Hyatt and Conroy",
-  "DisplayDescription": "Diverse contextually-based knowledge base",
-  "Rank": 793,
-  "ConnectorName": "Hauck-Williamson",
-  "ErpConnectionId": 587,
-  "ExtraData": "aut",
+  "ERPName": "Roob Inc and Sons",
+  "DisplayName": "Homenick LLC",
+  "DisplayDescription": "Open-architected encompassing standardization",
+  "Rank": 390,
+  "ConnectorName": "Cruickshank-Hyatt",
+  "ErpConnectionId": 575,
+  "ExtraData": "dolor",
   "IsAvailable": true,
   "InitializeResponse": {
     "IsOk": true,
-    "UserExplanation": "quo",
-    "TechExplanation": "ut",
-    "ErrorCode": "eveniet",
+    "UserExplanation": "omnis",
+    "TechExplanation": "est",
+    "ErrorCode": "unde",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -128,22 +128,22 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 356
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 194,
-      "ERPPriceListKey": "magnam",
-      "QuoteConnectionId": 438,
-      "Name": "Graham, Wisozk and Ziemann",
-      "Description": "Front-line responsive toolset",
-      "Currency": "ipsum",
-      "CurrencyName": "Leuschke Group",
-      "ValidFrom": "2000-09-21T14:58:04.9644428+02:00",
-      "ValidTo": "2014-05-21T14:58:04.9644428+02:00",
-      "IsActive": true,
+      "PriceListId": 872,
+      "ERPPriceListKey": "voluptas",
+      "QuoteConnectionId": 149,
+      "Name": "Yundt-Rosenbaum",
+      "Description": "Multi-lateral 6th generation matrix",
+      "Currency": "itaque",
+      "CurrencyName": "Hermiston Group",
+      "ValidFrom": "2001-06-20T18:28:49.9381371+02:00",
+      "ValidTo": "2009-03-11T18:28:49.9381371+01:00",
+      "IsActive": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -151,21 +151,21 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldType": "System.Int32",
+          "FieldLength": 523
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    278,
-    109
+    426,
+    400
   ],
   "AssociateAccessIds": [
-    857,
-    26
+    770,
+    318
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -177,8 +177,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 159
     }
   }
 }

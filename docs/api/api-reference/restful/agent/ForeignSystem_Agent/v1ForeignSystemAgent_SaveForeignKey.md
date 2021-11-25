@@ -1,9 +1,9 @@
 ---
-title: SaveForeignKey
+title: POST Agents/ForeignSystem/SaveForeignKey
 id: v1ForeignSystemAgent_SaveForeignKey
 ---
 
-# SaveForeignKey
+# POST Agents/ForeignSystem/SaveForeignKey
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
@@ -84,23 +84,23 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": {
-    "Key": "quibusdam",
-    "Value": "consequatur",
-    "RecordId": 718,
-    "CreatedDate": "2001-05-31T14:58:04.3084602+02:00",
-    "UpdatedDate": "2009-05-31T14:58:04.3084602+02:00",
-    "UpdatedBy": "sit",
-    "CreatedBy": "omnis",
-    "TableName": "Franecki Inc and Sons"
+    "Key": "consequatur",
+    "Value": "tempora",
+    "RecordId": 457,
+    "CreatedDate": "1996-02-05T18:28:49.2151141+01:00",
+    "UpdatedDate": "2008-08-13T18:28:49.2151141+02:00",
+    "UpdatedBy": "id",
+    "CreatedBy": "earum",
+    "TableName": "Koss, White and McGlynn"
   },
-  "ApplicationName": "Jewess, Wunsch and Schuster",
-  "DeviceName": "Kuhn Inc and Sons",
-  "DeviceIdentifier": "nesciunt"
+  "ApplicationName": "Glover-Bins",
+  "DeviceName": "Gislason, Miller and Mills",
+  "DeviceIdentifier": "optio"
 }
 ```
 
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repudiandae",
-  "Value": "aperiam",
-  "RecordId": 653,
-  "CreatedDate": "2012-04-03T14:58:04.3084602+02:00",
-  "UpdatedDate": "2013-04-15T14:58:04.3084602+02:00",
-  "UpdatedBy": "ex",
-  "CreatedBy": "et",
-  "TableName": "Nienow LLC",
+  "Key": "et",
+  "Value": "iure",
+  "RecordId": 65,
+  "CreatedDate": "2000-01-24T18:28:49.2151141+01:00",
+  "UpdatedDate": "2019-12-31T18:28:49.2151141+01:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "soluta",
+  "TableName": "Block-Reilly",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 115
     }
   }
 }

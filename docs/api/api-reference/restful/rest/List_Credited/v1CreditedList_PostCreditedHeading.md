@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 106,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 417,
-  "UdListDefinitionId": 494
+  "HeadingId": 350,
+  "Name": "Hilpert Inc and Sons",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 290,
+  "UdListDefinitionId": 483
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 321,
-  "Name": "Graham-Sanford",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 138,
-  "UdListDefinitionId": 204,
+  "HeadingId": 984,
+  "Name": "Fisher LLC",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 805,
+  "UdListDefinitionId": 100,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "innovate killer communities"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   }
 }

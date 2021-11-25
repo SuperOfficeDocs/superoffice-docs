@@ -1,9 +1,9 @@
 ---
-title: SaveHierarchyEntity
+title: POST Agents/List/SaveHierarchyEntity
 id: v1ListAgent_SaveHierarchyEntity
 ---
 
-# SaveHierarchyEntity
+# POST Agents/List/SaveHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/SaveHierarchyEntity
@@ -86,36 +86,36 @@ Response body: object
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 138,
+  "HierarchyId": 675,
   "Domain": "Dashboards",
-  "Name": "Barton Inc and Sons",
-  "Fullname": "nihil",
-  "ParentId": 277,
+  "Name": "Cremin Group",
+  "Fullname": "odit",
+  "ParentId": 33,
   "Children": [
     {
-      "HierarchyId": 419,
+      "HierarchyId": 545,
       "Domain": "Dashboards",
-      "Name": "Kilback, Spinka and Gibson",
-      "Fullname": "aliquam",
-      "ParentId": 502,
+      "Name": "Kshlerin LLC",
+      "Fullname": "illum",
+      "ParentId": 594,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-01-14T14:58:04.4714655+01:00",
-      "RegisteredAssociateId": 390,
-      "Updated": "2015-02-24T14:58:04.4714655+01:00",
-      "UpdatedAssociateId": 601
+      "Registered": "2009-03-08T18:28:49.4400903+01:00",
+      "RegisteredAssociateId": 736,
+      "Updated": "2019-02-11T18:28:49.4400903+01:00",
+      "UpdatedAssociateId": 922
     }
   ],
-  "Registered": "2013-11-12T14:58:04.4714655+01:00",
-  "RegisteredAssociateId": 809,
-  "Updated": "1998-08-13T14:58:04.4714655+02:00",
-  "UpdatedAssociateId": 790
+  "Registered": "1997-12-28T18:28:49.4400903+01:00",
+  "RegisteredAssociateId": 357,
+  "Updated": "2009-08-04T18:28:49.4400903+02:00",
+  "UpdatedAssociateId": 86
 }
 ```
 
@@ -124,26 +124,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 957,
+  "HierarchyId": 656,
   "Domain": "Dashboards",
-  "Name": "Wilkinson Group",
-  "Fullname": "numquam",
-  "ParentId": 656,
+  "Name": "Nitzsche Inc and Sons",
+  "Fullname": "aut",
+  "ParentId": 304,
   "Children": [
     {
-      "HierarchyId": 239,
+      "HierarchyId": 502,
       "Domain": "Dashboards",
-      "Name": "Streich, Gleason and Connelly",
-      "Fullname": "eveniet",
-      "ParentId": 802,
+      "Name": "Welch Inc and Sons",
+      "Fullname": "adipisci",
+      "ParentId": 788,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-03-10T14:58:04.4714655+01:00",
-      "RegisteredAssociateId": 984,
-      "Updated": "2013-04-12T14:58:04.4714655+02:00",
-      "UpdatedAssociateId": 62,
+      "Registered": "2014-09-11T18:28:49.4420901+02:00",
+      "RegisteredAssociateId": 187,
+      "Updated": "2017-10-08T18:28:49.4420901+02:00",
+      "UpdatedAssociateId": 622,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -151,16 +151,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
   ],
-  "Registered": "2016-12-18T14:58:04.4724649+01:00",
-  "RegisteredAssociateId": 67,
-  "Updated": "2007-07-19T14:58:04.4724649+02:00",
-  "UpdatedAssociateId": 352,
+  "Registered": "2001-01-25T18:28:49.4420901+01:00",
+  "RegisteredAssociateId": 524,
+  "Updated": "2009-08-26T18:28:49.4420901+02:00",
+  "UpdatedAssociateId": 286,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 96
     }
   }
 }

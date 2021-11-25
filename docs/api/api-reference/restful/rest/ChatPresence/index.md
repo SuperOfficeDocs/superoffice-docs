@@ -2,8 +2,6 @@
 title: ChatPresence
 ---
 
-# ChatPresence
-
 ```http
 /api/v1/ChatPresence
 ```

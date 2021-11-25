@@ -1,9 +1,9 @@
 ---
-title: GetDeviceByName
+title: POST Agents/ForeignSystem/GetDeviceByName
 id: v1ForeignSystemAgent_GetDeviceByName
 ---
 
-# GetDeviceByName
+# POST Agents/ForeignSystem/GetDeviceByName
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
@@ -87,12 +87,12 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kris, Kohler and Jacobs",
-  "DeviceName": "O'Conner-Hayes"
+  "ApplicationName": "Wilderman Group",
+  "DeviceName": "Spinka-Koch"
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 35,
-  "Name": "Simonis-Senger",
-  "CreatedDate": "1996-04-12T14:58:04.3014597+02:00",
-  "UpdatedDate": "2012-12-24T14:58:04.3014597+01:00",
-  "AssociateFullName": "Alaina Klocko",
-  "CreatedBy": "et",
-  "UpdatedBy": "praesentium",
-  "DeviceIdentifier": "nisi",
-  "ForeignAppId": 968,
+  "ForeignDeviceId": 730,
+  "Name": "Lemke, Bradtke and Torp",
+  "CreatedDate": "2014-12-18T18:28:49.2051234+01:00",
+  "UpdatedDate": "2001-02-05T18:28:49.2051234+01:00",
+  "AssociateFullName": "Gloria Frami",
+  "CreatedBy": "cum",
+  "UpdatedBy": "ea",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 483,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldLength": 370
     }
   }
 }

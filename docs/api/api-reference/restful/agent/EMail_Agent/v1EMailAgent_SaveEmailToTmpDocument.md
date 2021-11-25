@@ -1,9 +1,9 @@
 ---
-title: SaveEmailToTmpDocument
+title: POST Agents/EMail/SaveEmailToTmpDocument
 id: v1EMailAgent_SaveEmailToTmpDocument
 ---
 
-# SaveEmailToTmpDocument
+# POST Agents/EMail/SaveEmailToTmpDocument
 
 ```http
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
@@ -72,7 +72,7 @@ Response body: string
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -89,18 +89,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "consectetur",
-    "HTMLBody": "vel",
+    "Subject": "ullam",
+    "HTMLBody": "temporibus",
     "From": {},
-    "Sent": "1997-04-17T14:58:04.0784655+02:00",
-    "Size": 7,
+    "Sent": "2000-06-05T18:28:48.990955+02:00",
+    "Size": 432,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "animi",
-    "PlainBody": "soluta",
-    "IsSent": true,
+    "MessageID": "eaque",
+    "PlainBody": "adipisci",
+    "IsSent": false,
     "EMailSOInfo": {},
-    "ServerId": 76,
+    "ServerId": 783,
     "Attachments": [
       {},
       {}
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Koelpin Inc and Sons",
-    "EmailItemId": 602,
-    "AccountId": 937,
-    "ReceivedAt": "2001-07-15T14:58:04.0794657+02:00",
+    "FolderName": "Harris, Torp and Mraz",
+    "EmailItemId": 246,
+    "AccountId": 750,
+    "ReceivedAt": "2020-04-27T18:28:48.990955+02:00",
     "InReplyTo": {},
-    "RepliedAt": "2011-12-10T14:58:04.0794657+01:00",
+    "RepliedAt": "2004-02-12T18:28:48.990955+01:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   },
-  "FolderId": 663,
-  "StripAttachments": false
+  "FolderId": 909,
+  "StripAttachments": true
 }
 ```
 
@@ -128,5 +128,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"emelie_brekke@blandamedhurst.co.uk"
+"faustino@jacobson.name"
 ```

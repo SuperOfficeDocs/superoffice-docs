@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithContext2
+title: POST Agents/Archive/GetArchiveListByColumnsWithContext2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
 ---
 
-# GetArchiveListByColumnsWithContext2
+# POST Agents/Archive/GetArchiveListByColumnsWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
@@ -170,18 +170,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stroman, Nienow and Turner",
-  "Columns": "provident",
-  "SortOrder": "cupiditate",
-  "Restriction": "saepe",
-  "Entities": "laboriosam",
-  "Page": 782,
-  "PageSize": 605,
-  "Context": "ea"
+  "ProviderName": "Kohler LLC",
+  "Columns": "repellendus",
+  "SortOrder": "voluptatem",
+  "Restriction": "nobis",
+  "Entities": "provident",
+  "Page": 91,
+  "PageSize": 768,
+  "Context": "aspernatur"
 }
 ```
 
@@ -191,17 +191,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bogisich-Sporer",
-    "PrimaryKey": 12,
+    "EntityName": "Waelchi, Hintz and Abernathy",
+    "PrimaryKey": 481,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quos",
-        "TooltipHint": "excepturi",
-        "LinkHint": "numquam"
+        "DisplayValue": "voluptatem",
+        "TooltipHint": "quisquam",
+        "LinkHint": "natus"
       }
     },
-    "LinkHint": "tempore",
-    "StyleHint": "magnam",
+    "LinkHint": "atque",
+    "StyleHint": "nulla",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldLength": 830
       }
     }
   }

@@ -77,7 +77,7 @@ Response body: object
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -85,24 +85,24 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 279,
-  "Name": "Kautzer, Beier and Thompson",
-  "Description": "Implemented exuding toolset",
+  "ProjectId": 917,
+  "Name": "Macejkovic Group",
+  "Description": "Vision-oriented 24 hour archive",
   "URL": "http://www.example.com/",
-  "Type": "soluta",
-  "AssociateId": 984,
-  "AssociateFullName": "Lupe Larkin",
-  "TypeId": 302,
-  "Updated": "1999-05-31T15:05:42.5156345+02:00",
-  "StatusId": 829,
-  "Status": "optio",
-  "TextId": 125,
-  "PublishTo": "2020-01-29T15:05:42.5156345+01:00",
-  "PublishFrom": "2019-09-10T15:05:42.5156345+02:00",
-  "IsPublished": true,
+  "Type": "hic",
+  "AssociateId": 575,
+  "AssociateFullName": "Athena Morar",
+  "TypeId": 690,
+  "Updated": "2005-10-18T18:25:50.8428851+02:00",
+  "StatusId": 575,
+  "Status": "tenetur",
+  "TextId": 989,
+  "PublishTo": "2017-09-11T18:25:50.8428851+02:00",
+  "PublishFrom": "2002-02-07T18:25:50.8428851+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1277039",
-  "ActiveErpLinks": 987,
+  "ProjectNumber": "583282",
+  "ActiveErpLinks": 617,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

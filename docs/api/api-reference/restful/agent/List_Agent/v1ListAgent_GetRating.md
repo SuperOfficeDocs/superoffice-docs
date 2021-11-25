@@ -1,9 +1,9 @@
 ---
-title: GetRating
+title: POST Agents/List/GetRating
 id: v1ListAgent_GetRating
 ---
 
-# GetRating
+# POST Agents/List/GetRating
 
 ```http
 POST /api/v1/Agents/List/GetRating
@@ -25,7 +25,7 @@ Gets a Rating object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRating?ratingId=466
+POST /api/v1/Agents/List/GetRating?ratingId=748
 POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetRating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Value": "provident",
-  "Tooltip": "eveniet",
+  "Id": 443,
+  "Value": "sequi",
+  "Tooltip": "libero",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 879
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetAllSaleTypeEntities
+title: POST Agents/List/GetAllSaleTypeEntities
 id: v1ListAgent_GetAllSaleTypeEntities
 ---
 
-# GetAllSaleTypeEntities
+# POST Agents/List/GetAllSaleTypeEntities
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
@@ -94,7 +94,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,72 +108,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 626,
-    "Name": "Connelly-Hermiston",
-    "Tooltip": "dolorem",
-    "Rank": 746,
+    "SaleTypeId": 683,
+    "Name": "Wolf-Hickle",
+    "Tooltip": "qui",
+    "Rank": 490,
     "DurationUnit": "Century",
-    "SaleDuration": 884,
-    "SaleTypeCatId": 740,
+    "SaleDuration": 367,
+    "SaleTypeCatId": 929,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 678,
-    "QuoteLinesTemplate": 152,
-    "ConfirmationLinesTemplate": 380,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 492,
-    "MinEarningPercent": 203,
-    "GroupQuoteLinesBy": 325,
-    "SortGroupLinesBy": 401,
+    "DefaultQuoteValidity": 989,
+    "QuoteLinesTemplate": 155,
+    "ConfirmationLinesTemplate": 568,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 324,
+    "MinEarningPercent": 51,
+    "GroupQuoteLinesBy": 676,
+    "SortGroupLinesBy": 452,
     "Stages": [
       {
-        "Id": 862,
-        "Name": "Bartell-Ferry",
-        "ToolTip": "Eos rerum iste magnam aspernatur velit.",
+        "Id": 782,
+        "Name": "Simonis, Homenick and Feeney",
+        "ToolTip": "Vero aut et delectus adipisci commodi praesentium.",
         "Deleted": false,
-        "Rank": 914,
-        "Type": "voluptatem",
-        "ColorBlock": 592,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2003-09-01T14:58:04.372465+02:00",
+        "Rank": 43,
+        "Type": "aut",
+        "ColorBlock": 199,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2011-06-26T18:28:49.2621308+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Hermann Cremin",
+        "FullName": "Demarco O'Hara",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "benchmark killer action-items"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 500
+            "FieldLength": 525
           }
         }
       }
     ],
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate seamless mindshare"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "synergize web-enabled markets"
         },
         "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldLength": 719
       }
     }
   }

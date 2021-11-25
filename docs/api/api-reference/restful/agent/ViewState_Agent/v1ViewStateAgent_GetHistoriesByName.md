@@ -1,9 +1,9 @@
 ---
-title: GetHistoriesByName
+title: POST Agents/ViewState/GetHistoriesByName
 id: v1ViewStateAgent_GetHistoriesByName
 ---
 
-# GetHistoriesByName
+# POST Agents/ViewState/GetHistoriesByName
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByName
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ankunding Inc and Sons"
+  "HistoryName": "Orn-King"
 }
 ```
 
@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 429,
-    "Id": 802,
-    "HistoryName": "Johnston-Tillman",
-    "HistoryId": 84,
-    "AssociateId": 921,
-    "Name": "Lesch, Veum and Jacobs",
-    "ItemInfo": "excepturi",
+    "Rank": 744,
+    "Id": 977,
+    "HistoryName": "Connelly LLC",
+    "HistoryId": 523,
+    "AssociateId": 701,
+    "Name": "Gutmann LLC",
+    "ItemInfo": "unde",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "redefine scalable users"
     },
     "FieldProperties": {
       "fieldName": {
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

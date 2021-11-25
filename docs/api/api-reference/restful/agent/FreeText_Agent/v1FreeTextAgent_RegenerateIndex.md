@@ -1,9 +1,9 @@
 ---
-title: RegenerateIndex
+title: POST Agents/FreeText/RegenerateIndex
 id: v1FreeTextAgent_RegenerateIndex
 ---
 
-# RegenerateIndex
+# POST Agents/FreeText/RegenerateIndex
 
 ```http
 POST /api/v1/Agents/FreeText/RegenerateIndex
@@ -98,11 +98,11 @@ Response body: object
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -111,30 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Hilll, Abshire and Gaylord",
-  "AssociateId": 171,
-  "DetailsTable": 652,
-  "DetailsRecord": 518,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 629,
+  "Name": "Doyle-Price",
+  "AssociateId": 436,
+  "DetailsTable": 773,
+  "DetailsRecord": 182,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "occaecati",
-    "ParameterObject2": "porro"
+    "ParameterObject1": "ex",
+    "ParameterObject2": "perspiciatis"
   },
-  "LastStarted": "2011-04-15T14:58:04.319462+02:00",
-  "Created": "2012-05-06T14:58:04.319462+02:00",
-  "StartCount": 145,
-  "DatabaseSerialNumber": "392801",
-  "Context": "iusto",
-  "Result": "et",
+  "LastStarted": "1999-01-31T18:28:49.2291233+01:00",
+  "Created": "2018-07-11T18:28:49.2291233+02:00",
+  "StartCount": 667,
+  "DatabaseSerialNumber": "333721",
+  "Context": "numquam",
+  "Result": "quo",
   "State": "All",
-  "Description": "Monitored asynchronous secured line",
-  "Response": "dicta",
-  "Request": "eos",
-  "ProgressDescription": "Secured context-sensitive knowledge user",
-  "ProgressPercent": 179,
-  "FileName": "Donnelly LLC",
+  "Description": "Exclusive 3rd generation array",
+  "Response": "officiis",
+  "Request": "eveniet",
+  "ProgressDescription": "Advanced web-enabled complexity",
+  "ProgressPercent": 649,
+  "FileName": "Sauer Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetCacheNames
+title: POST Agents/Diagnostics/GetCacheNames
 id: v1DiagnosticsAgent_GetCacheNames
 ---
 
-# GetCacheNames
+# POST Agents/Diagnostics/GetCacheNames
 
 ```http
 POST /api/v1/Agents/Diagnostics/GetCacheNames
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aut",
-  "quasi"
+  "vel",
+  "et"
 ]
 ```

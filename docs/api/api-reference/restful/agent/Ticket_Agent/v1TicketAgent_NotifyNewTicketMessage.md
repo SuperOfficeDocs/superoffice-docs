@@ -1,9 +1,9 @@
 ---
-title: NotifyNewTicketMessage
+title: POST Agents/Ticket/NotifyNewTicketMessage
 id: v1TicketAgent_NotifyNewTicketMessage
 ---
 
-# NotifyNewTicketMessage
+# POST Agents/Ticket/NotifyNewTicketMessage
 
 ```http
 POST /api/v1/Agents/Ticket/NotifyNewTicketMessage

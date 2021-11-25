@@ -1,9 +1,9 @@
 ---
-title: GetProjectsFromPerson
+title: POST Agents/Project/GetProjectsFromPerson
 id: v1ProjectAgent_GetProjectsFromPerson
 ---
 
-# GetProjectsFromPerson
+# POST Agents/Project/GetProjectsFromPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromPerson
@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 34
+  "PersonId": 581
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 505,
-    "Name": "Ruecker Group",
-    "Description": "Extended responsive complexity",
+    "ProjectId": 404,
+    "Name": "Watsica-Bins",
+    "Description": "Synchronised global collaboration",
     "URL": "http://www.example.com/",
-    "Type": "quia",
-    "AssociateId": 772,
-    "AssociateFullName": "Madyson Wiza",
-    "TypeId": 262,
-    "Updated": "2017-10-08T14:58:04.8574604+02:00",
-    "StatusId": 797,
-    "Status": "sit",
-    "TextId": 26,
-    "PublishTo": "2015-07-31T14:58:04.8574604+02:00",
-    "PublishFrom": "2018-05-09T14:58:04.8574604+02:00",
+    "Type": "autem",
+    "AssociateId": 602,
+    "AssociateFullName": "Ms. Elizabeth Will",
+    "TypeId": 163,
+    "Updated": "2011-10-14T18:28:49.7821424+02:00",
+    "StatusId": 796,
+    "Status": "architecto",
+    "TextId": 88,
+    "PublishTo": "2011-02-04T18:28:49.7821424+01:00",
+    "PublishFrom": "2018-11-06T18:28:49.7821424+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1232688",
-    "ActiveErpLinks": 109,
+    "ProjectNumber": "833193",
+    "ActiveErpLinks": 448,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 426
       }
     }
   }

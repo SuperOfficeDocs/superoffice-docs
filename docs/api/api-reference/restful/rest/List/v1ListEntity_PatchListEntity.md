@@ -119,45 +119,43 @@ Response body: object
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "est",
     "value": {
       "value1": {
-        "PrimaryKey": 4385,
+        "PrimaryKey": 135,
         "EntityName": "person",
-        "personId": 4385,
-        "fullName": "Devan Bruen MD"
+        "personId": 135,
+        "fullName": "Mr. Harold Padberg"
       },
       "value2": {
-        "PrimaryKey": 3116,
-        "EntityName": "sale",
-        "saleId": 3116,
-        "contactId": 1083,
-        "name": "Brekke-Kiehn"
+        "PrimaryKey": 3007,
+        "EntityName": "person",
+        "personId": 3007,
+        "fullName": "Ramon Schowalter"
       }
     }
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "est",
     "value": {
       "value1": {
-        "PrimaryKey": 4385,
+        "PrimaryKey": 135,
         "EntityName": "person",
-        "personId": 4385,
-        "fullName": "Devan Bruen MD"
+        "personId": 135,
+        "fullName": "Mr. Harold Padberg"
       },
       "value2": {
-        "PrimaryKey": 3116,
-        "EntityName": "sale",
-        "saleId": 3116,
-        "contactId": 1083,
-        "name": "Brekke-Kiehn"
+        "PrimaryKey": 3007,
+        "EntityName": "person",
+        "personId": 3007,
+        "fullName": "Ramon Schowalter"
       }
     }
   }
@@ -169,15 +167,15 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Schultz-Dibbert",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 882,
+  "Id": 491,
+  "Name": "Becker, Haag and Greenfelder",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 78,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequuntur",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -187,15 +185,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "repurpose ubiquitous ROI"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

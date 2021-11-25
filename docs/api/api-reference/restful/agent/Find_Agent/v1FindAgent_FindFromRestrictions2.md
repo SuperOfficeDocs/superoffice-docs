@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictions2
+title: POST Agents/Find/FindFromRestrictions2
 id: v1FindAgent_FindFromRestrictions2
 ---
 
-# FindFromRestrictions2
+# POST Agents/Find/FindFromRestrictions2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions2
@@ -169,14 +169,14 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "placeat",
-  "ProviderName": "Beer, Nienow and Bashirian",
-  "PageSize": 947,
-  "PageNumber": 1001
+  "Restrictions": "consequuntur",
+  "ProviderName": "Will-Thiel",
+  "PageSize": 644,
+  "PageNumber": 235
 }
 ```
 
@@ -187,48 +187,48 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hettinger, Williamson and Auer",
-      "DisplayTooltip": "perspiciatis",
-      "DisplayType": "sunt",
+      "DisplayName": "Gaylord LLC",
+      "DisplayTooltip": "dignissimos",
+      "DisplayType": "doloribus",
       "CanOrderBy": true,
-      "Name": "Mraz LLC",
+      "Name": "Prosacco, Kilback and Howe",
       "CanRestrictBy": true,
-      "RestrictionType": "a",
-      "RestrictionListName": "Emmerich Group",
-      "IsVisible": true,
-      "ExtraInfo": "maiores",
-      "Width": "nulla",
-      "IconHint": "consequuntur",
-      "HeadingIconHint": "ea"
+      "RestrictionType": "harum",
+      "RestrictionListName": "Rutherford LLC",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "in",
+      "IconHint": "tenetur",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rath, Stark and Green",
-      "PrimaryKey": 239,
+      "EntityName": "Wolf LLC",
+      "PrimaryKey": 725,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloribus",
-          "TooltipHint": "saepe",
-          "LinkHint": "nisi"
+          "DisplayValue": "rem",
+          "TooltipHint": "est",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "blanditiis",
-      "StyleHint": "sed",
+      "LinkHint": "aut",
+      "StyleHint": "soluta",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "repurpose revolutionary e-markets"
           },
           "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldLength": 386
         }
       }
     }
   ],
-  "RowCount": 570,
+  "RowCount": 696,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldLength": 690
     }
   }
 }

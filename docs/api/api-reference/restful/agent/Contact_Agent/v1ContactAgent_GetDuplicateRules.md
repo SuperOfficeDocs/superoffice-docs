@@ -1,9 +1,9 @@
 ---
-title: GetDuplicateRules
+title: POST Agents/Contact/GetDuplicateRules
 id: v1ContactAgent_GetDuplicateRules
 ---
 
-# GetDuplicateRules
+# POST Agents/Contact/GetDuplicateRules
 
 ```http
 POST /api/v1/Agents/Contact/GetDuplicateRules
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schulist-Grady",
-    "DisplayName": "Wintheiser Group",
-    "DisplayTooltip": "in",
-    "IsActive": false,
+    "Name": "Klocko, Gerhold and Ruecker",
+    "DisplayName": "Borer-Mayer",
+    "DisplayTooltip": "minus",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,16 +90,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   },
   {
-    "Name": "Schulist-Grady",
-    "DisplayName": "Wintheiser Group",
-    "DisplayTooltip": "in",
-    "IsActive": false,
+    "Name": "Klocko, Gerhold and Ruecker",
+    "DisplayName": "Borer-Mayer",
+    "DisplayTooltip": "minus",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   }

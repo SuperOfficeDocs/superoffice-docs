@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Walker-Hodkiewicz",
-    "ToolTip": "Quia velit.",
+    "Id": 534,
+    "Name": "Monahan, Cole and Wilderman",
+    "ToolTip": "Autem quidem.",
     "Deleted": false,
-    "Rank": 545,
-    "Type": "ut",
-    "ColorBlock": 533,
-    "IconHint": "et",
+    "Rank": 956,
+    "Type": "qui",
+    "ColorBlock": 469,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2015-11-26T15:05:43.6120798+01:00",
+    "LastChanged": "1995-04-05T18:25:51.9972125+02:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Tempora dolor molestiae voluptatem dolorum aut.",
-        "Deleted": true,
-        "Rank": 992,
-        "Type": "vitae",
-        "ColorBlock": 926,
-        "IconHint": "dolor",
+        "Id": 846,
+        "Name": "DuBuque LLC",
+        "ToolTip": "Ut libero dolorem.",
+        "Deleted": false,
+        "Rank": 31,
+        "Type": "qui",
+        "ColorBlock": 549,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2012-09-20T15:05:43.6120798+02:00",
+        "LastChanged": "2002-04-19T18:25:51.9972125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "ut",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Edyth Swaniawski",
+        "FullName": "Aubrey Collins",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 203
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "eum",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Dandre Aufderhar",
+    "FullName": "Beaulah Franecki",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 380
       }
     }
   }

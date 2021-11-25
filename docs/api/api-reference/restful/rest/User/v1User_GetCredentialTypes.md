@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -70,12 +70,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "corrupti",
-    "Type": "delectus",
-    "Description": "Upgradable bandwidth-monitored knowledge base",
+    "DisplayType": "quia",
+    "Type": "et",
+    "Description": "Re-contextualized systemic secured line",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 194
       }
     }
   }

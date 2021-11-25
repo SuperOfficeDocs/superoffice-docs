@@ -117,45 +117,47 @@ Response body: object
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "ut",
     "value": {
       "value1": {
-        "PrimaryKey": 8518,
+        "PrimaryKey": 7273,
         "EntityName": "sale",
-        "saleId": 8518,
-        "contactId": 4208,
-        "name": "Stracke-Effertz"
+        "saleId": 7273,
+        "contactId": 660,
+        "name": "Auer, Purdy and Medhurst"
       },
       "value2": {
-        "PrimaryKey": 1743,
-        "EntityName": "person",
-        "personId": 1743,
-        "fullName": "Webster Rogahn"
+        "PrimaryKey": 3155,
+        "EntityName": "sale",
+        "saleId": 3155,
+        "contactId": 4679,
+        "name": "Kutch, Wisoky and Ruecker"
       }
     }
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "ut",
     "value": {
       "value1": {
-        "PrimaryKey": 8518,
+        "PrimaryKey": 7273,
         "EntityName": "sale",
-        "saleId": 8518,
-        "contactId": 4208,
-        "name": "Stracke-Effertz"
+        "saleId": 7273,
+        "contactId": 660,
+        "name": "Auer, Purdy and Medhurst"
       },
       "value2": {
-        "PrimaryKey": 1743,
-        "EntityName": "person",
-        "personId": 1743,
-        "fullName": "Webster Rogahn"
+        "PrimaryKey": 3155,
+        "EntityName": "sale",
+        "saleId": 3155,
+        "contactId": 4679,
+        "name": "Kutch, Wisoky and Ruecker"
       }
     }
   }
@@ -167,12 +169,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 915,
-  "Name": "O'Conner, Nitzsche and Heathcote",
-  "Tooltip": "est",
-  "PassiveText": "quisquam",
+  "ReldefId": 784,
+  "Name": "Beahan, Brekke and Corkery",
+  "Tooltip": "fugiat",
+  "PassiveText": "eum",
   "Deleted": true,
-  "Rank": 164,
+  "Rank": 795,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -186,12 +188,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldLength": 134
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

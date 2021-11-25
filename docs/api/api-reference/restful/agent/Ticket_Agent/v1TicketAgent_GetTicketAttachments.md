@@ -1,9 +1,9 @@
 ---
-title: GetTicketAttachments
+title: POST Agents/Ticket/GetTicketAttachments
 id: v1TicketAgent_GetTicketAttachments
 ---
 
-# GetTicketAttachments
+# POST Agents/Ticket/GetTicketAttachments
 
 ```http
 POST /api/v1/Agents/Ticket/GetTicketAttachments
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 933
+  "TicketEntityId": 150
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 172,
-    "Name": "Kassulke LLC",
-    "ContentType": "mollitia",
-    "AttSize": 671,
+    "AttachmentId": 495,
+    "Name": "Hahn Group",
+    "ContentType": "cum",
+    "AttSize": 673,
     "InlineImage": false,
-    "ContentId": "ullam",
+    "ContentId": "blanditiis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "incubate extensible technologies"
         },
         "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldLength": 442
       }
     }
   }

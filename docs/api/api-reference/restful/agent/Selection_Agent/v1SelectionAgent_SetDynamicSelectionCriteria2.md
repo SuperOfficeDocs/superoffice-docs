@@ -1,9 +1,9 @@
 ---
-title: SetDynamicSelectionCriteria2
+title: POST Agents/Selection/SetDynamicSelectionCriteria2
 id: v1SelectionAgent_SetDynamicSelectionCriteria2
 ---
 
-# SetDynamicSelectionCriteria2
+# POST Agents/Selection/SetDynamicSelectionCriteria2
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
@@ -81,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 231,
-  "Filter": "ea"
+  "SelectionId": 601,
+  "Filter": "et"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson, Lindgren and Huel",
-    "Operator": "quo",
+    "Name": "Champlin LLC",
+    "Operator": "sint",
     "Values": [
-      "rerum",
-      "nihil"
+      "debitis",
+      "dolores"
     ],
     "DisplayValues": [
-      "delectus",
-      "suscipit"
+      "excepturi",
+      "enim"
     ],
     "ColumnInfo": {
-      "DisplayName": "Hodkiewicz-Pacocha",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "itaque",
+      "DisplayName": "Bogan-Rowe",
+      "DisplayTooltip": "distinctio",
+      "DisplayType": "voluptas",
       "CanOrderBy": false,
-      "Name": "Pollich LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Hermiston, Flatley and Boehm",
+      "Name": "Walsh Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "nisi",
+      "RestrictionListName": "Roberts Group",
       "IsVisible": false,
-      "ExtraInfo": "accusamus",
-      "Width": "dolore",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "aliquid"
+      "ExtraInfo": "quo",
+      "Width": "sunt",
+      "IconHint": "ex",
+      "HeadingIconHint": "necessitatibus"
     },
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Kilback, Thompson and Wolf",
+        "Name": "Leuschke Inc and Sons",
         "Operator": "aut",
         "Values": [
-          "in",
-          "illum"
+          "et",
+          "quo"
         ],
         "DisplayValues": [
-          "velit",
-          "ut"
+          "voluptas",
+          "in"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 854,
+        "InterParenthesis": 295,
         "InterOperator": "And",
-        "UniqueHash": 532
+        "UniqueHash": 204
       }
     ],
-    "InterParenthesis": 685,
+    "InterParenthesis": 597,
     "InterOperator": "And",
-    "UniqueHash": 142
+    "UniqueHash": 824
   }
 ]
 ```

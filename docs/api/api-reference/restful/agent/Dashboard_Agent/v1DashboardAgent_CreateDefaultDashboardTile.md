@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashboardTile
+title: POST Agents/Dashboard/CreateDefaultDashboardTile
 id: v1DashboardAgent_CreateDefaultDashboardTile
 ---
 
-# CreateDefaultDashboardTile
+# POST Agents/Dashboard/CreateDefaultDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -80,30 +80,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 667,
-  "Caption": "illo",
-  "Description": "Realigned composite archive",
-  "ChartName": "Mills, Macejkovic and Braun",
-  "ChartId": "ad",
+  "DashboardTileId": 1000,
+  "Caption": "eos",
+  "Description": "User-centric 24/7 standardization",
+  "ChartName": "Ratke-Medhurst",
+  "ChartId": "molestiae",
   "IsDefault": false,
-  "AssociateId": 696,
-  "GroupId": 895,
-  "SelectionId": 798,
-  "Config": "temporibus",
+  "AssociateId": 286,
+  "GroupId": 310,
+  "SelectionId": 241,
+  "Config": "aut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Ward-Greenfelder",
-      "Description": "Programmable encompassing software",
+      "Name": "Klocko Inc and Sons",
+      "Description": "Integrated national strategy",
       "Type": "Boolean",
-      "ListName": "Ratke Inc and Sons",
+      "ListName": "Hermiston, D'Amore and Kautzer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
-      "DefaultDataOption": false,
+      "Value": "modi",
+      "DefaultDataOption": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -111,42 +111,42 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldType": "System.String",
+          "FieldLength": 240
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "a",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "syndicate plug-and-play infomediaries"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 830
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "a",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "syndicate plug-and-play infomediaries"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 830
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 709
     }
   }
 }

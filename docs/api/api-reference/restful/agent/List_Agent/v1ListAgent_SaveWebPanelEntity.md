@@ -1,9 +1,9 @@
 ---
-title: SaveWebPanelEntity
+title: POST Agents/List/SaveWebPanelEntity
 id: v1ListAgent_SaveWebPanelEntity
 ---
 
-# SaveWebPanelEntity
+# POST Agents/List/SaveWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/SaveWebPanelEntity
@@ -110,26 +110,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 769,
-  "Name": "Corkery-Toy",
-  "Tooltip": "error",
+  "WebPanelId": 34,
+  "Name": "Volkman Group",
+  "Tooltip": "ex",
   "Deleted": true,
-  "Rank": 981,
+  "Rank": 10,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Yost-McDermott",
+  "ShowInStatusBar": false,
+  "WindowName": "Moen, Kuhn and Johnson",
   "Url": "http://www.example.com/",
-  "ProgId": "distinctio",
-  "Icon": 293
+  "ProgId": "facere",
+  "Icon": 599
 }
 ```
 
@@ -138,26 +138,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 326,
-  "Name": "Miller-Yundt",
-  "Tooltip": "commodi",
+  "WebPanelId": 362,
+  "Name": "Crona, Bayer and Bergstrom",
+  "Tooltip": "itaque",
   "Deleted": true,
-  "Rank": 142,
+  "Rank": 289,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Mohr Inc and Sons",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Champlin Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "veritatis",
-  "Icon": 640,
+  "ProgId": "tempora",
+  "Icon": 719,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

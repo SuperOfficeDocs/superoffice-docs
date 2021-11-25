@@ -1,9 +1,9 @@
 ---
-title: SetColumnWidths
+title: POST Agents/Archive/SetColumnWidths
 id: v1ArchiveAgent_SetColumnWidths
 ---
 
-# SetColumnWidths
+# POST Agents/Archive/SetColumnWidths
 
 ```http
 POST /api/v1/Agents/Archive/SetColumnWidths

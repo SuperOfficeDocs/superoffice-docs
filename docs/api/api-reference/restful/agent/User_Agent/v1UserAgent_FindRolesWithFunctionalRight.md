@@ -1,9 +1,9 @@
 ---
-title: FindRolesWithFunctionalRight
+title: POST Agents/User/FindRolesWithFunctionalRight
 id: v1UserAgent_FindRolesWithFunctionalRight
 ---
 
-# FindRolesWithFunctionalRight
+# POST Agents/User/FindRolesWithFunctionalRight
 
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Batz Inc and Sons"
+  "FunctionalRightName": "Jast, Grimes and Howell"
 }
 ```
 
@@ -101,29 +101,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Cummerata, Franecki and Cormier",
-    "ToolTip": "Excepturi non quibusdam non.",
-    "Deleted": false,
-    "Rank": 135,
-    "Type": "ea",
+    "Id": 416,
+    "Name": "Hodkiewicz-Jaskolski",
+    "ToolTip": "Nulla iste natus enim repellat vero.",
+    "Deleted": true,
+    "Rank": 238,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Ondricka-Huels",
-        "ToolTip": "Amet voluptatem neque saepe eum temporibus voluptatem.",
-        "Deleted": true,
-        "Rank": 246,
-        "Type": "voluptas",
+        "Id": 829,
+        "Name": "Kiehn, Durgan and Emmerich",
+        "ToolTip": "At omnis.",
+        "Deleted": false,
+        "Rank": 25,
+        "Type": "laborum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 870,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "dolorum",
-        "FullName": "Maynard Jaskolski",
+        "IconHint": "voluptatem",
+        "ColorBlock": 61,
+        "ExtraInfo": "iste",
+        "StyleHint": "fugiat",
+        "FullName": "Nolan Keebler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -132,16 +132,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 870
+            "FieldLength": 794
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 79,
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
-    "FullName": "Nina Skiles",
+    "IconHint": "quis",
+    "ColorBlock": 832,
+    "ExtraInfo": "possimus",
+    "StyleHint": "atque",
+    "FullName": "Hollie Ullrich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

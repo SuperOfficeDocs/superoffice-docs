@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultChatTopicEntity
+title: POST Agents/Chat/CreateDefaultChatTopicEntity
 id: v1ChatAgent_CreateDefaultChatTopicEntity
 ---
 
-# CreateDefaultChatTopicEntity
+# POST Agents/Chat/CreateDefaultChatTopicEntity
 
 ```http
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
@@ -72,6 +72,12 @@ Response body: object
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -81,7 +87,7 @@ Response body: object
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -89,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 86,
-  "Name": "Marks-Deckow",
-  "Description": "Managed 3rd generation instruction set",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 24,
+  "Name": "Raynor-Gorczany",
+  "Description": "Adaptive analyzing moderator",
+  "WelcomeMessage": "accusantium",
   "Language": {
-    "Id": 835,
-    "Value": "tempora",
-    "Tooltip": "nulla",
+    "Id": 354,
+    "Value": "et",
+    "Tooltip": "voluptatum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -104,31 +110,31 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 731
       }
     }
   },
-  "LastAccept": "1995-04-12T14:58:03.3012407+02:00",
-  "SecondsPrAccept": 749,
-  "AlertRecipient": "laudantium",
+  "LastAccept": "2018-10-24T18:28:48.2402972+02:00",
+  "SecondsPrAccept": 962,
+  "AlertRecipient": "qui",
   "AlertTemplate": {
-    "ReplyTemplateId": 21,
-    "Name": "Donnelly, Dickens and Crona",
-    "Description": "Front-line stable parallelism",
-    "FolderId": 814
+    "ReplyTemplateId": 596,
+    "Name": "Mohr-Howell",
+    "Description": "Focused systemic concept",
+    "FolderId": 738
   },
   "CollectConsent": false,
-  "BadgeHeader": "ea",
+  "BadgeHeader": "quo",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ea",
-  "WarnNewChatMinutes": 894,
-  "WarnManagerNewChatMinutes": 841,
-  "TicketEnabled": false,
+  "CustomQueueText": "voluptatibus",
+  "WarnNewChatMinutes": 841,
+  "WarnManagerNewChatMinutes": 728,
+  "TicketEnabled": true,
   "TicketCategory": {
-    "Id": 66,
-    "Value": "temporibus",
-    "Tooltip": "est",
+    "Id": 735,
+    "Value": "aut",
+    "Tooltip": "eum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,15 +142,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 171
       }
     }
   },
   "TicketPriority": {
-    "Id": 824,
-    "Value": "consequatur",
-    "Tooltip": "mollitia",
+    "Id": 514,
+    "Value": "in",
+    "Tooltip": "hic",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -153,72 +159,78 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 861
       }
     }
   },
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": true,
-    "MonStart": "non",
-    "MonStop": "vitae",
+    "MonEnabled": false,
+    "MonStart": "dolor",
+    "MonStop": "sunt",
     "TueEnabled": true,
-    "TueStart": "qui",
-    "TueStop": "maiores",
+    "TueStart": "adipisci",
+    "TueStop": "quidem",
     "WedEnabled": false,
-    "WedStart": "et",
-    "WedStop": "quia",
-    "ThuEnabled": false,
-    "ThuStart": "cum",
-    "ThuStop": "accusantium",
-    "FriEnabled": false,
-    "FriStart": "blanditiis",
-    "FriStop": "sit",
-    "SatEnabled": true,
-    "SatStart": "alias",
-    "SatStop": "maiores",
-    "SunEnabled": true,
-    "SunStart": "ut",
-    "SunStop": "id",
+    "WedStart": "doloremque",
+    "WedStop": "in",
+    "ThuEnabled": true,
+    "ThuStart": "ex",
+    "ThuStop": "non",
+    "FriEnabled": true,
+    "FriStart": "ipsam",
+    "FriStop": "aliquid",
+    "SatEnabled": false,
+    "SatStart": "blanditiis",
+    "SatStop": "esse",
+    "SunEnabled": false,
+    "SunStart": "quia",
+    "SunStop": "inventore",
     "UseLunchHours": false,
-    "LunchStart": "dolore",
-    "LunchStop": "error"
+    "LunchStart": "impedit",
+    "LunchStop": "doloribus"
   },
   "Widget": {
-    "AutoFaqEnabled": true,
+    "AutoFaqEnabled": false,
     "AutoFaqCategory": {},
     "PreFormEnabled": true,
-    "PreFormMessage": "porro",
+    "PreFormMessage": "odio",
     "RequiredFields": "Company",
-    "PostFormEnabled": true,
-    "PostFormHeader": "totam",
-    "PostFormMessage": "repudiandae",
+    "PostFormEnabled": false,
+    "PostFormHeader": "expedita",
+    "PostFormMessage": "similique",
     "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "voluptatem",
+    "LanguageIsoCode": "aut",
     "Size": "Large",
     "Theme": "Classic",
-    "Color": "voluptate",
-    "Font": "pariatur",
+    "Color": "ullam",
+    "Font": "dignissimos",
     "LogoEnabled": true,
-    "LogoBlobId": 20,
-    "LogoName": "O'Keefe-Wyman",
-    "ShowAgentPhoto": false,
-    "WelcomeTitle": "voluptatem",
-    "WelcomeMessage": "id",
-    "OfflineHeader": "eum",
-    "OfflineMessage": "aut",
+    "LogoBlobId": 954,
+    "LogoName": "Emard Group",
+    "ShowAgentPhoto": true,
+    "WelcomeTitle": "odio",
+    "WelcomeMessage": "nobis",
+    "OfflineHeader": "nihil",
+    "OfflineMessage": "nisi",
     "OfflineFields": "Company",
     "UseAgentFirstname": false
   },
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": {
-    "BotName": "Ritchie, Hayes and Torphy",
-    "BotRegisterScriptId": 250,
-    "BotSessionCreatedScriptId": 537,
-    "BotSessionChangedScriptId": 458,
-    "BotMessageReceivedScriptId": 578
+    "BotName": "Thiel-McLaughlin",
+    "BotRegisterScriptId": 399,
+    "BotSessionCreatedScriptId": 232,
+    "BotSessionChangedScriptId": 679,
+    "BotMessageReceivedScriptId": 883
   },
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 454,
+  "WarnManagerChatMessageMinutes": 946,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 473,
+  "OfflineFormQueueLength": 898,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -230,7 +242,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 39
     }
   }
 }

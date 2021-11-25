@@ -2,8 +2,6 @@
 title: Ticket
 ---
 
-# Ticket
-
 ```http
 /api/v1/Ticket
 ```

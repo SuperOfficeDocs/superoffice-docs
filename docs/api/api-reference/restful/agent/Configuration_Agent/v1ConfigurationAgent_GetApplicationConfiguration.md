@@ -1,9 +1,9 @@
 ---
-title: GetApplicationConfiguration
+title: POST Agents/Configuration/GetApplicationConfiguration
 id: v1ConfigurationAgent_GetApplicationConfiguration
 ---
 
-# GetApplicationConfiguration
+# POST Agents/Configuration/GetApplicationConfiguration
 
 ```http
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "iste",
-  "Instance": "sunt"
+  "Application": "voluptatibus",
+  "Instance": "quae"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fugiat"
+"repellendus"
 ```

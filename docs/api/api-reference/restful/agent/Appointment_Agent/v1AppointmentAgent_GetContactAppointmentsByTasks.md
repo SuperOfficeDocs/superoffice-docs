@@ -1,9 +1,9 @@
 ---
-title: GetContactAppointmentsByTasks
+title: POST Agents/Appointment/GetContactAppointmentsByTasks
 id: v1AppointmentAgent_GetContactAppointmentsByTasks
 ---
 
-# GetContactAppointmentsByTasks
+# POST Agents/Appointment/GetContactAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
@@ -125,17 +125,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 87,
-  "StartTime": "2007-09-22T14:58:02.8695638+02:00",
-  "EndTime": "1999-06-04T14:58:02.8695638+02:00",
-  "Count": 345,
+  "ContactId": 770,
+  "StartTime": "2008-12-31T18:28:47.7188144+01:00",
+  "EndTime": "2016-04-14T18:28:47.7188144+02:00",
+  "Count": 929,
   "TaskIds": [
-    68,
-    982
+    852,
+    564
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 147,
-    "StartDate": "2005-05-08T14:58:02.8705386+02:00",
-    "EndDate": "2020-08-04T14:58:02.8705386+02:00",
+    "AppointmentId": 651,
+    "StartDate": "2020-08-21T18:28:47.7198142+02:00",
+    "EndDate": "2015-05-21T18:28:47.7198142+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Amber Schinner",
-    "ContactName": "Keebler-Braun",
-    "Description": "Virtual radical paradigm",
-    "PersonFullName": "Jamal Welch",
-    "PersonId": 303,
-    "ContactId": 646,
-    "ProjectId": 730,
-    "ProjectName": "Oberbrunner-Sawayn",
-    "IsPublished": false,
-    "AssociateId": 836,
-    "ColorIndex": 929,
-    "IsFree": false,
+    "Task": "omnis",
+    "AssociateFullName": "Mrs. Nichole Hilpert",
+    "ContactName": "Zieme-Marvin",
+    "Description": "User-centric context-sensitive encryption",
+    "PersonFullName": "Russel Gibson",
+    "PersonId": 640,
+    "ContactId": 662,
+    "ProjectId": 411,
+    "ProjectName": "Morar Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 422,
+    "ColorIndex": 931,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 549,
-    "PriorityName": "McGlynn, Pfeffer and Homenick",
+    "PriorityId": 319,
+    "PriorityName": "Friesen Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2007-12-03T14:58:02.8715731+01:00",
+    "ActiveDate": "2013-07-26T18:28:47.7208141+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1994-10-26T14:58:02.8715731+02:00",
-    "RecurringEndDate": "2003-08-23T14:58:02.8715731+02:00",
-    "MotherId": 976,
-    "AssignedBy": 430,
-    "AssignedByFullName": "Darrick Lynch",
+    "RecurringStartDate": "2014-05-27T18:28:47.7208141+02:00",
+    "RecurringEndDate": "2016-04-05T18:28:47.7208141+02:00",
+    "MotherId": 461,
+    "AssignedBy": 320,
+    "AssignedByFullName": "Jazmyne Luettgen",
     "RejectReason": "",
-    "Location": "maxime",
-    "AlarmLeadTime": "aliquam",
-    "SaleId": 589,
-    "SaleName": "Emard-Hirthe",
-    "AssociateName": "Heathcote-Okuneva",
-    "CreatedDate": "1997-06-30T14:58:02.8715731+02:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Mrs. Elda Haley",
-    "CreatedByAssociateId": 840,
+    "Location": "labore",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 956,
+    "SaleName": "Hermann, Cole and Zulauf",
+    "AssociateName": "Crist, Daniel and Pagac",
+    "CreatedDate": "2014-09-29T18:28:47.7208141+02:00",
+    "CreatedBy": "sequi",
+    "CreatedByFullName": "Dr. Eduardo Beer",
+    "CreatedByAssociateId": 336,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldType": "System.String",
+        "FieldLength": 216
       }
     }
   }

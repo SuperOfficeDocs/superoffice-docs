@@ -90,19 +90,19 @@ Response body: object
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Wilkinson Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 278,
+  "Id": 389,
+  "Name": "Schaden-Stanton",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "Rank": 752,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "culpa",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -112,16 +112,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 33,
-  "Name": "Boyle-Borer",
-  "Tooltip": "ratione",
+  "Id": 281,
+  "Name": "Jacobson, Farrell and Hilpert",
+  "Tooltip": "tenetur",
   "Deleted": true,
-  "Rank": 904,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
-  "InUseByUserDefinedFields": true,
+  "Rank": 492,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldLength": 321
     }
   }
 }

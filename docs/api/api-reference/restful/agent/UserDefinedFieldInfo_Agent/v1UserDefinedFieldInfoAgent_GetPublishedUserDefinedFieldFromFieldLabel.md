@@ -1,9 +1,9 @@
 ---
-title: GetPublishedUserDefinedFieldFromFieldLabel
+title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
 ---
 
-# GetPublishedUserDefinedFieldFromFieldLabel
+# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
@@ -112,11 +112,11 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "qui",
+  "FieldLabel": "mollitia",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 579,
-  "ColumnId": 963,
-  "FieldDefault": "repudiandae",
-  "FieldHeight": 874,
-  "FieldLabel": "nihil",
-  "FieldLeft": 640,
-  "FieldTop": 593,
+  "UDefFieldId": 822,
+  "ColumnId": 894,
+  "FieldDefault": "est",
+  "FieldHeight": 968,
+  "FieldLabel": "ea",
+  "FieldLeft": 397,
+  "FieldTop": 468,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
-  "FormatMask": "assumenda",
+  "FieldWidth": 794,
+  "FormatMask": "voluptate",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 490,
-  "LabelLeft": 311,
-  "LabelTop": 879,
-  "LabelWidth": 323,
-  "LastVersionId": 927,
-  "ListTableId": 69,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 754,
+  "LabelLeft": 2,
+  "LabelTop": 514,
+  "LabelWidth": 961,
+  "LastVersionId": 939,
+  "ListTableId": 449,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 594,
-  "ProgId": "eaque",
-  "IsReadOnly": true,
-  "ShortLabel": "temporibus",
-  "TabOrder": 596,
-  "TextLength": 460,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 875,
-  "UDListDefinitionId": 416,
+  "Page1LineNo": 641,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "reiciendis",
+  "TabOrder": 355,
+  "TextLength": 839,
+  "Tooltip": "et",
+  "UdefIdentity": 231,
+  "UDListDefinitionId": 766,
   "Justification": "Center",
-  "Version": 8,
-  "TemplateVariableName": "Wisozk-Rodriguez",
+  "Version": 39,
+  "TemplateVariableName": "Windler-D'Amore",
   "HasBeenPublished": true,
-  "MdoListName": "Schmeler LLC",
+  "MdoListName": "D'Amore, Gutkowski and Cruickshank",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

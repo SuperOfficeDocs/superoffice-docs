@@ -1,9 +1,9 @@
 ---
-title: GetDeviceKeysOnDeviceIdentifier
+title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
 ---
 
-# GetDeviceKeysOnDeviceIdentifier
+# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -82,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jewess Inc and Sons",
-  "DeviceName": "Kutch Inc and Sons",
-  "DeviceIdentifier": "itaque"
+  "ApplicationName": "Kling Group",
+  "DeviceName": "Armstrong, Rippin and Pollich",
+  "DeviceIdentifier": "debitis"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "illo",
-    "Value": "dolorem",
-    "RecordId": 929,
-    "CreatedDate": "2014-01-20T14:58:04.3144604+01:00",
-    "UpdatedDate": "2018-12-27T14:58:04.3144604+01:00",
-    "UpdatedBy": "sed",
-    "CreatedBy": "nostrum",
-    "TableName": "Smitham-Kutch",
+    "Key": "tenetur",
+    "Value": "repellat",
+    "RecordId": 522,
+    "CreatedDate": "2016-01-11T18:28:49.2230983+01:00",
+    "UpdatedDate": "2010-07-27T18:28:49.2230983+02:00",
+    "UpdatedBy": "ratione",
+    "CreatedBy": "id",
+    "TableName": "Larkin-Hammes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

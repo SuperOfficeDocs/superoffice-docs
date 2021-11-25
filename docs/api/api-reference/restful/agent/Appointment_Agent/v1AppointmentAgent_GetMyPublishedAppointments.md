@@ -1,9 +1,9 @@
 ---
-title: GetMyPublishedAppointments
+title: POST Agents/Appointment/GetMyPublishedAppointments
 id: v1AppointmentAgent_GetMyPublishedAppointments
 ---
 
-# GetMyPublishedAppointments
+# POST Agents/Appointment/GetMyPublishedAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
@@ -112,7 +112,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -121,53 +121,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 884,
-    "StartDate": "1997-09-01T14:58:02.8795731+02:00",
-    "EndDate": "2010-03-14T14:58:02.8795731+01:00",
+    "AppointmentId": 149,
+    "StartDate": "1998-12-02T18:28:47.7298451+01:00",
+    "EndDate": "1997-05-07T18:28:47.7298451+02:00",
     "Type": "BookingForChecklist",
-    "Task": "minima",
-    "AssociateFullName": "Esther Christiansen",
-    "ContactName": "Marquardt, Koss and Walsh",
-    "Description": "Compatible explicit moratorium",
-    "PersonFullName": "Madge Wintheiser",
-    "PersonId": 411,
-    "ContactId": 709,
-    "ProjectId": 297,
-    "ProjectName": "Hammes, Walsh and Goldner",
-    "IsPublished": true,
-    "AssociateId": 360,
-    "ColorIndex": 244,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "ea",
+    "AssociateFullName": "Dr. Ena Kovacek",
+    "ContactName": "Reynolds, Beatty and Stehr",
+    "Description": "Organic fresh-thinking orchestration",
+    "PersonFullName": "Lavina Breitenberg",
+    "PersonId": 818,
+    "ContactId": 94,
+    "ProjectId": 95,
+    "ProjectName": "Steuber LLC",
+    "IsPublished": false,
+    "AssociateId": 826,
+    "ColorIndex": 321,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 474,
-    "PriorityName": "Macejkovic, West and Hudson",
+    "PriorityId": 88,
+    "PriorityName": "Purdy-Hilpert",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1997-09-10T14:58:02.8805755+02:00",
+    "ActiveDate": "2019-11-02T18:28:47.7298451+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-12-11T14:58:02.8805755+01:00",
-    "RecurringEndDate": "2017-06-29T14:58:02.8805755+02:00",
-    "MotherId": 125,
-    "AssignedBy": 66,
-    "AssignedByFullName": "Mrs. Winston McGlynn",
+    "RecurringStartDate": "2014-06-27T18:28:47.7298451+02:00",
+    "RecurringEndDate": "2011-05-15T18:28:47.7298451+02:00",
+    "MotherId": 518,
+    "AssignedBy": 281,
+    "AssignedByFullName": "Elnora Smith IV",
     "RejectReason": "",
-    "Location": "temporibus",
-    "AlarmLeadTime": "magni",
-    "SaleId": 475,
-    "SaleName": "Koss Group",
-    "AssociateName": "Gerhold-Kirlin",
-    "CreatedDate": "2012-12-24T14:58:02.8805755+01:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Rowland Roberts PhD",
-    "CreatedByAssociateId": 182,
+    "Location": "cum",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 478,
+    "SaleName": "Lindgren Group",
+    "AssociateName": "Homenick Inc and Sons",
+    "CreatedDate": "1995-07-08T18:28:47.7298451+02:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Mr. Mallie Fahey",
+    "CreatedByAssociateId": 257,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

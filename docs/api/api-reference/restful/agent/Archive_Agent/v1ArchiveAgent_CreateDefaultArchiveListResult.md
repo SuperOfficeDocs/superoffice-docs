@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultArchiveListResult
+title: POST Agents/Archive/CreateDefaultArchiveListResult
 id: v1ArchiveAgent_CreateDefaultArchiveListResult
 ---
 
-# CreateDefaultArchiveListResult
+# POST Agents/Archive/CreateDefaultArchiveListResult
 
 ```http
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
@@ -68,29 +68,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 891,
+  "RowCount": 538,
   "Rows": [
     {
-      "EntityName": "Corwin-Smith",
-      "PrimaryKey": 581,
+      "EntityName": "Von Group",
+      "PrimaryKey": 566,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "iure",
-          "LinkHint": "tempora"
+          "DisplayValue": "ipsum",
+          "TooltipHint": "error",
+          "LinkHint": "quis"
         }
       },
-      "LinkHint": "iure",
-      "StyleHint": "eius",
+      "LinkHint": "dolores",
+      "StyleHint": "sit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "e-enable visionary experiences"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldLength": 345
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

@@ -62,12 +62,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -77,7 +78,7 @@ Response body: array
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,22 +87,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 41,
-    "Tooltip": "sed",
-    "CanAssign": true,
-    "Free": 673,
-    "InUse": 52,
+    "Unrestricted": true,
+    "Total": 425,
+    "Tooltip": "accusantium",
+    "CanAssign": false,
+    "Free": 544,
+    "InUse": 865,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 318,
-    "Name": "Blanda-Shanahan",
-    "Description": "Assimilated global matrix",
-    "PrerequisiteModuleName": "Cruickshank-Bradtke",
-    "SortOrder": 448,
+    "Assigned": true,
+    "ModuleLicenseId": 556,
+    "Name": "Aufderhar Inc and Sons",
+    "Description": "Distributed zero tolerance contingency",
+    "PrerequisiteModuleName": "Orn, Koch and Dickinson",
+    "SortOrder": 998,
+    "ExtraFlags": 77,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "brand leading-edge markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -109,8 +111,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

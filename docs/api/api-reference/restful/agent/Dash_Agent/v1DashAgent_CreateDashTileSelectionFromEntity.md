@@ -1,9 +1,9 @@
 ---
-title: CreateDashTileSelectionFromEntity
+title: POST Agents/Dash/CreateDashTileSelectionFromEntity
 id: v1DashAgent_CreateDashTileSelectionFromEntity
 ---
 
-# CreateDashTileSelectionFromEntity
+# POST Agents/Dash/CreateDashTileSelectionFromEntity
 
 ```http
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Goyette Inc and Sons"
+  "EntityName": "Dickens-O'Hara"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-630
+441
 ```

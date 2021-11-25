@@ -1,9 +1,9 @@
 ---
-title: GetOrRegisterAccessGatewayInfo
+title: POST Agents/User/GetOrRegisterAccessGatewayInfo
 id: v1UserAgent_GetOrRegisterAccessGatewayInfo
 ---
 
-# GetOrRegisterAccessGatewayInfo
+# POST Agents/User/GetOrRegisterAccessGatewayInfo
 
 ```http
 POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
@@ -81,11 +81,11 @@ Response body: object
 POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "alias"
+  "RedirectUri": "eos"
 }
 ```
 
@@ -94,8 +94,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "saepe",
-  "RedirectUri": "laudantium",
+  "ClientId": "omnis",
+  "RedirectUri": "amet",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -104,10 +104,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "matrix visionary systems"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 316
     }
   }
 }

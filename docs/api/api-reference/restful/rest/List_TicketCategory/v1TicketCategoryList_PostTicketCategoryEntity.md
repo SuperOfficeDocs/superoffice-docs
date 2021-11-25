@@ -46,11 +46,13 @@ The TicketCategoryEntity to be created.
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
@@ -80,11 +82,13 @@ Response body: object
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -100,26 +104,44 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 574,
-  "ParentId": 414,
-  "Name": "Lueilwitz-Ortiz",
-  "Fullname": "aut",
-  "CategoryMaster": 782,
+  "TicketCategoryId": 298,
+  "ParentId": 263,
+  "Name": "Adams, Wisozk and Lubowitz",
+  "Fullname": "dolores",
+  "CategoryMaster": 966,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Carter-Pouros",
+  "ExternalName": "Senger-Sawayn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 489,
-  "ReplyTemplate": 498,
-  "NotificationEmail": "karli_ritchie@jerde.us",
+  "AssignmentLag": 909,
+  "ReplyTemplate": 591,
+  "NotificationEmail": "tess@kris.uk",
+  "DefaultTicketStatus": {
+    "TicketStatusId": 580,
+    "Name": "McLaughlin, Rolfson and Hand",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": true,
+    "IsDefault": false,
+    "UsedInQueue": true
+  },
+  "DefaultMessageStatus": {
+    "TicketStatusId": 566,
+    "Name": "Brown, Nienow and Beatty",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": false,
+    "IsDefault": true,
+    "UsedInQueue": true
+  },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "in"
+    "CustomFields1": "soluta",
+    "CustomFields2": "nisi"
   }
 }
 ```
@@ -129,30 +151,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 272,
-  "ParentId": 367,
-  "Name": "Steuber LLC",
-  "Fullname": "hic",
-  "CategoryMaster": 160,
+  "TicketCategoryId": 628,
+  "ParentId": 739,
+  "Name": "Kohler, Dach and Bartoletti",
+  "Fullname": "est",
+  "CategoryMaster": 478,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Metz, Moen and Hyatt",
+  "ExternalName": "Quitzon Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 143,
-  "ReplyTemplate": 549,
-  "NotificationEmail": "milton@goodwinarmstrong.us",
+  "AssignmentLag": 295,
+  "ReplyTemplate": 120,
+  "NotificationEmail": "kelsi.smith@wintheiser.us",
+  "DefaultTicketStatus": {
+    "TicketStatusId": 704,
+    "Name": "Reilly-Lang",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": true,
+    "IsDefault": true,
+    "UsedInQueue": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 838
+      }
+    }
+  },
+  "DefaultMessageStatus": {
+    "TicketStatusId": 965,
+    "Name": "Tromp Group",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": true,
+    "IsDefault": true,
+    "UsedInQueue": true,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 394
+      }
+    }
+  },
   "ExtraFields": {
-    "ExtraFields1": "quam",
+    "ExtraFields1": "beatae",
     "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "libero"
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reintermediate vertical supply-chains"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -160,8 +222,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   }
 }

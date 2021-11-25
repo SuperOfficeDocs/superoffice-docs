@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Maggio, Simonis and Glover",
-  "Tooltip": "et",
+  "Id": 234,
+  "Name": "Hickle, O'Keefe and Champlin",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "UdListDefinitionId": 715,
-  "Rank": 972
+  "UdListDefinitionId": 497,
+  "Rank": 631
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Kulas, Hansen and Paucek",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 516,
+  "Id": 372,
+  "Name": "Bergnaum, Marvin and Lind",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "UdListDefinitionId": 924,
+  "Rank": 205,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 826
     }
   }
 }

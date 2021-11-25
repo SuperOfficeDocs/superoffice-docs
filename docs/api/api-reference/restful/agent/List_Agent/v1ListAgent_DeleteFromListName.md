@@ -1,9 +1,9 @@
 ---
-title: DeleteFromListName
+title: POST Agents/List/DeleteFromListName
 id: v1ListAgent_DeleteFromListName
 ---
 
-# DeleteFromListName
+# POST Agents/List/DeleteFromListName
 
 ```http
 POST /api/v1/Agents/List/DeleteFromListName

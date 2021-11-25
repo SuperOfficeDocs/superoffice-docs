@@ -2,8 +2,6 @@
 title: ChatTopic
 ---
 
-# ChatTopic
-
 ```http
 /api/v1/ChatTopic
 ```

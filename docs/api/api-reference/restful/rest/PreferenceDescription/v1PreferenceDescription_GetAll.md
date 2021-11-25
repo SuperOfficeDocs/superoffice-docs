@@ -71,7 +71,7 @@ Response body: array
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -80,24 +80,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 94,
-    "Section": "enim",
-    "Key": "neque",
-    "Name": "Collier-Conroy",
+    "PrefDescId": 746,
+    "Section": "sit",
+    "Key": "reprehenderit",
+    "Name": "Stoltenberg Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Innovative client-server encryption",
-    "IsBuiltin": true,
-    "TableName": "Hintz-Parisian",
-    "UserDefinedListId": 481,
-    "Rank": 234,
-    "SubGroup": "in",
-    "MinLevel": 476,
-    "MaxValue": 71,
-    "MinValue": 180,
-    "RequiredLicense": "aut",
+    "Description": "Open-source eco-centric hardware",
+    "IsBuiltin": false,
+    "TableName": "Bartell-Gerhold",
+    "UserDefinedListId": 552,
+    "Rank": 936,
+    "SubGroup": "totam",
+    "MinLevel": 166,
+    "MaxValue": 672,
+    "MinValue": 699,
+    "RequiredLicense": "est",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

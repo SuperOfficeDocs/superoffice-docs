@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,19 +81,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequatur",
+  "odata.nextLink": "quisquam",
   "value": [
     {
-      "PrimaryKey": 4632,
-      "EntityName": "person",
-      "personId": 4632,
-      "fullName": "Abby Raynor"
+      "PrimaryKey": 9367,
+      "EntityName": "sale",
+      "saleId": 9367,
+      "contactId": 33,
+      "name": "Jacobs, Goodwin and Schroeder"
     },
     {
-      "PrimaryKey": 6763,
-      "EntityName": "person",
-      "personId": 6763,
-      "fullName": "Alek Quigley"
+      "PrimaryKey": 5166,
+      "EntityName": "sale",
+      "saleId": 5166,
+      "contactId": 8928,
+      "name": "Rohan-Wisoky"
     }
   ]
 }

@@ -1,9 +1,9 @@
 ---
-title: CreateTicketFromMailData
+title: POST Agents/CustomerService/CreateTicketFromMailData
 id: v1CustomerServiceAgent_CreateTicketFromMailData
 ---
 
-# CreateTicketFromMailData
+# POST Agents/CustomerService/CreateTicketFromMailData
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
@@ -86,12 +86,12 @@ Response body: object
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 885,
-  "Data": "quo"
+  "MailboxId": 60,
+  "Data": "adipisci"
 }
 ```
 
@@ -100,14 +100,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 279,
-  "Title": "dolor",
-  "OwnerName": "Paucek-Kovacek",
+  "TicketId": 560,
+  "Title": "veritatis",
+  "OwnerName": "Daugherty LLC",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Botsford Inc and Sons",
+  "PriorityName": "Dicki Group",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Lindgren, Marvin and Haag",
-  "ContactName": "Bernier Group",
+  "PersonName": "Okuneva-Luettgen",
+  "ContactName": "Wiza Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldLength": 836
     }
   }
 }

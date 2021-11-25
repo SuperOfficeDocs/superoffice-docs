@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 102,
-  "Name": "Bartell LLC",
-  "Tooltip": "quisquam",
+  "HeadingId": 339,
+  "Name": "McDermott-Hartmann",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 917,
-  "UdListDefinitionId": 189
+  "Rank": 631,
+  "UdListDefinitionId": 205
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 851,
-  "Name": "Skiles-Bins",
-  "Tooltip": "ipsa",
+  "HeadingId": 162,
+  "Name": "Abshire, Koss and Brekke",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 235,
-  "UdListDefinitionId": 630,
+  "Rank": 462,
+  "UdListDefinitionId": 676,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 320
     }
   }
 }

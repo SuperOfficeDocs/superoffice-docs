@@ -1,9 +1,9 @@
 ---
-title: CreateAndSaveQuote
+title: POST Agents/Quote/CreateAndSaveQuote
 id: v1QuoteAgent_CreateAndSaveQuote
 ---
 
-# CreateAndSaveQuote
+# POST Agents/Quote/CreateAndSaveQuote
 
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
@@ -92,13 +92,13 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 16,
-  "ConnectionId": 803,
-  "FirstAlternativeName": "Wolff, Wintheiser and Lang"
+  "SaleId": 863,
+  "ConnectionId": 906,
+  "FirstAlternativeName": "Douglas Inc and Sons"
 }
 ```
 
@@ -107,56 +107,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 377,
-  "SaleId": 971,
-  "QuoteConnectionId": 220,
-  "ERPQuoteKey": "rerum",
-  "ERPOrderKey": "eum",
-  "ActiveQuoteVersionId": 664,
-  "AcceptedQuoteAlternativeId": 372,
-  "UseValuesFromQuote": 295,
-  "DocumentId": 186,
-  "PoNumber": "795901",
-  "OrderComment": "eum",
-  "PreferredEmailCulture": "priscilla.bayer@dickinsonkautzer.com",
+  "QuoteId": 544,
+  "SaleId": 478,
+  "QuoteConnectionId": 638,
+  "ERPQuoteKey": "exercitationem",
+  "ERPOrderKey": "quasi",
+  "ActiveQuoteVersionId": 921,
+  "AcceptedQuoteAlternativeId": 370,
+  "UseValuesFromQuote": 581,
+  "DocumentId": 201,
+  "PoNumber": "1063961",
+  "OrderComment": "est",
+  "PreferredEmailCulture": "reagan_lang@pfeffertoy.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 460,
-      "ERPQuoteVersionKey": "repudiandae",
-      "QuoteId": 438,
-      "Description": "Self-enabling regional collaboration",
-      "Number": "724168",
+      "QuoteVersionId": 443,
+      "ERPQuoteVersionKey": "debitis",
+      "QuoteId": 218,
+      "Description": "Ameliorated actuating matrices",
+      "Number": "783630",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 311,
-      "SentDate": "2012-07-24T14:58:05.008465+02:00",
-      "FollowupId": 789,
-      "ExpirationDate": "2007-06-14T14:58:05.008465+02:00",
-      "DeliveryCountryId": 396,
+      "LikelyQuoteAlternativeId": 977,
+      "SentDate": "1995-07-12T18:28:49.9481091+02:00",
+      "FollowupId": 305,
+      "ExpirationDate": "1998-10-03T18:28:49.9491072+02:00",
+      "DeliveryCountryId": 420,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 641,
+      "InvoiceCountryId": 772,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "labore",
-      "ERPPaymentTypeKey": "natus",
-      "ERPDeliveryTermsKey": "accusantium",
-      "ERPDeliveryTypeKey": "ratione",
-      "Rank": 188,
-      "ApprovedBy": 482,
-      "ApprovedText": "rerum",
-      "ApprovedRegisteredBy": 778,
-      "ApprovedRegisteredDate": "2000-11-15T14:58:05.008465+01:00",
-      "ExtraField1": "aut",
-      "ExtraField2": "voluptatem",
-      "ExtraField3": "dolor",
-      "ExtraField4": "vel",
-      "ExtraField5": "odit",
-      "LastRecalculated": "2010-03-18T14:58:05.008465+01:00",
-      "Updated": "1997-07-06T14:58:05.008465+02:00",
-      "UpdatedAssociateId": 215,
-      "Registered": "2008-10-18T14:58:05.008465+02:00",
-      "RegisteredAssociateId": 569,
+      "ERPPaymentTermsKey": "quaerat",
+      "ERPPaymentTypeKey": "dolorum",
+      "ERPDeliveryTermsKey": "perspiciatis",
+      "ERPDeliveryTypeKey": "nulla",
+      "Rank": 902,
+      "ApprovedBy": 718,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 207,
+      "ApprovedRegisteredDate": "2016-07-23T18:28:49.9491072+02:00",
+      "ExtraField1": "quam",
+      "ExtraField2": "ipsa",
+      "ExtraField3": "est",
+      "ExtraField4": "quisquam",
+      "ExtraField5": "dolorem",
+      "LastRecalculated": "2009-12-29T18:28:49.9491072+01:00",
+      "Updated": "1997-05-24T18:28:49.9491072+02:00",
+      "UpdatedAssociateId": 725,
+      "Registered": "1998-07-13T18:28:49.9491072+02:00",
+      "RegisteredAssociateId": 577,
       "QuoteAlternatives": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 589
     }
   }
 }

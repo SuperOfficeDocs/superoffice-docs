@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Gibson, Ebert and Bruen",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "UdListDefinitionId": 518,
-    "Rank": 320,
+    "Id": 384,
+    "Name": "Stanton, Pollich and Howe",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 552,
+    "Rank": 171,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 202
       }
     }
   }

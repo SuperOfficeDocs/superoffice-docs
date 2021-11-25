@@ -1,9 +1,9 @@
 ---
-title: GetTableRightByOwnership
+title: POST Agents/Sentry/GetTableRightByOwnership
 id: v1SentryAgent_GetTableRightByOwnership
 ---
 
-# GetTableRightByOwnership
+# POST Agents/Sentry/GetTableRightByOwnership
 
 ```http
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
@@ -78,9 +78,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hickle-Block",
-  "ContactGroupId": 349,
-  "ContactAssociateId": 857
+  "TableName": "Murray-Kunze",
+  "ContactGroupId": 250,
+  "ContactAssociateId": 97
 }
 ```
 

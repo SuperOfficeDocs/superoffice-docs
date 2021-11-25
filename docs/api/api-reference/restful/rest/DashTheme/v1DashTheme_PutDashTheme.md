@@ -56,6 +56,7 @@ The DashTheme to be saved.
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 
 
 ## Response: object
@@ -79,6 +80,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -93,10 +95,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 711,
-  "Name": "Hermann-Parker",
-  "Config": "voluptates",
-  "Rank": 604
+  "DashboardThemeId": 888,
+  "Name": "Hermiston LLC",
+  "Config": "quis",
+  "Rank": 475,
+  "Client": "omnis"
 }
 ```
 
@@ -105,10 +108,11 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 872,
-  "Name": "Medhurst, Pollich and Williamson",
-  "Config": "cum",
-  "Rank": 506,
+  "DashboardThemeId": 142,
+  "Name": "Labadie, Gutmann and Frami",
+  "Config": "quos",
+  "Rank": 425,
+  "Client": "voluptatem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   },
   "_Links": {

@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,29 +78,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Hintz, Yost and Wintheiser",
-    "ToolTip": "Suscipit laudantium voluptatem alias reprehenderit.",
-    "Deleted": true,
-    "Rank": 768,
-    "Type": "dicta",
+    "Id": 309,
+    "Name": "Sporer Inc and Sons",
+    "ToolTip": "Pariatur est animi.",
+    "Deleted": false,
+    "Rank": 436,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Sauer, Effertz and Greenholt",
-        "ToolTip": "Rerum nihil voluptatibus libero rerum aperiam dolorem.",
-        "Deleted": false,
-        "Rank": 283,
-        "Type": "nesciunt",
+        "Id": 534,
+        "Name": "Connelly LLC",
+        "ToolTip": "Sit quia quas maxime consequatur.",
+        "Deleted": true,
+        "Rank": 404,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 263,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "non",
-        "FullName": "Bonita Raynor",
+        "IconHint": "quasi",
+        "ColorBlock": 692,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "fuga",
+        "FullName": "Mrs. Heather Russel",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -109,16 +109,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 947
+            "FieldLength": 806
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 393,
-    "ExtraInfo": "et",
-    "StyleHint": "est",
-    "FullName": "Damon Bode",
+    "IconHint": "veritatis",
+    "ColorBlock": 202,
+    "ExtraInfo": "quis",
+    "StyleHint": "magni",
+    "FullName": "Miss Emerald Tremblay",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

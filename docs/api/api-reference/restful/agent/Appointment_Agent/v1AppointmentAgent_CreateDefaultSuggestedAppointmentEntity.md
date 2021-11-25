@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSuggestedAppointmentEntity
+title: POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 id: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
 ---
 
-# CreateDefaultSuggestedAppointmentEntity
+# POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,46 +76,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 124,
-  "Name": "Goldner-Torphy",
-  "Tooltip": "beatae",
-  "Rank": 32,
+  "SuggestedAppointmentId": 576,
+  "Name": "Heidenreich, Kemmer and Schinner",
+  "Tooltip": "occaecati",
+  "Rank": 619,
   "Deleted": false,
-  "DaysFuture": 531,
-  "Duration": "porro",
+  "DaysFuture": 343,
+  "Duration": "eaque",
   "AutoSuggest": true,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "et",
+  "IsMilestone": true,
+  "AssignToMember": true,
+  "Text": "nihil",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 455,
-    "ProjTypeId": 303,
-    "ProjTypeName": "Towne Inc and Sons",
-    "ProjTypeTooltip": "ducimus",
-    "ProjStatusId": 377,
-    "ProjStatusName": "Hettinger-Kautzer",
-    "ProjStatusTooltip": "ea",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 516
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 154,
-    "SaleTypeId": 743,
-    "SaleTypeName": "Farrell-Jacobs",
-    "SaleTypeTooltip": "et",
-    "ProbId": 490,
-    "ProbName": "Okuneva Group",
-    "ProbTooltip": "nesciunt",
-    "Probability": 890,
+    "ProjectTypeStatusLinkId": 833,
+    "ProjTypeId": 543,
+    "ProjTypeName": "Russel-Murazik",
+    "ProjTypeTooltip": "excepturi",
+    "ProjStatusId": 119,
+    "ProjStatusName": "Treutel LLC",
+    "ProjStatusTooltip": "corrupti",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,14 +103,35 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 319
+        "FieldLength": 980
+      }
+    }
+  },
+  "SaleTypeStageLink": {
+    "SaleTypeStageLinkId": 682,
+    "SaleTypeId": 978,
+    "SaleTypeName": "Doyle-Pagac",
+    "SaleTypeTooltip": "laudantium",
+    "ProbId": 976,
+    "ProbName": "Grady, Flatley and Goldner",
+    "ProbTooltip": "quae",
+    "Probability": 287,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   },
   "Type": {
-    "Id": 321,
-    "Value": "nobis",
-    "Tooltip": "inventore",
+    "Id": 16,
+    "Value": "rerum",
+    "Tooltip": "quo",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 974
       }
     }
   },
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   }
 }

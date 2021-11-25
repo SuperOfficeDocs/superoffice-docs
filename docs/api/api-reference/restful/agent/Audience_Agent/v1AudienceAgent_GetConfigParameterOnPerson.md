@@ -1,9 +1,9 @@
 ---
-title: GetConfigParameterOnPerson
+title: POST Agents/Audience/GetConfigParameterOnPerson
 id: v1AudienceAgent_GetConfigParameterOnPerson
 ---
 
-# GetConfigParameterOnPerson
+# POST Agents/Audience/GetConfigParameterOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
@@ -85,12 +85,12 @@ Response body: object
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hauck Group",
-  "PersonId": 377
+  "ParameterName": "Altenwerth-Crona",
+  "PersonId": 776
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 549,
-  "Name": "Jakubowski Group",
-  "Value": "labore",
-  "CreatedDate": "1996-10-19T14:58:03.2592353+02:00",
-  "UpdatedDate": "2011-04-21T14:58:03.2592353+02:00",
-  "CreatedBy": "possimus",
-  "UpdatedBy": "quidem",
+  "AudienceLayoutId": 154,
+  "Name": "Gutmann-Rath",
+  "Value": "sit",
+  "CreatedDate": "1999-08-14T18:28:48.1305425+02:00",
+  "UpdatedDate": "2004-11-01T18:28:48.1305425+01:00",
+  "CreatedBy": "in",
+  "UpdatedBy": "dolorum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

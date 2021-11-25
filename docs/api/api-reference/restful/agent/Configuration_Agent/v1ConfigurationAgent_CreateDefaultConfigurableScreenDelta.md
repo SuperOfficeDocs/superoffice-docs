@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultConfigurableScreenDelta
+title: POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
 id: v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta
 ---
 
-# CreateDefaultConfigurableScreenDelta
+# POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
 
 ```http
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
@@ -51,7 +51,11 @@ Response body: object
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -69,17 +73,72 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 898,
-  "Name": "Pfannerstill-Hartmann",
-  "Description": "Assimilated neutral hardware",
-  "DeltaJson": "aliquid",
+  "ConfigurableScreenDeltaId": 783,
+  "Name": "Collins, Herman and Homenick",
+  "Description": "Vision-oriented logistical extranet",
+  "DeltaJson": "amet",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "neque",
-  "UserGroupId": 692,
+  "RecipeId": "voluptate",
+  "UpdatedDate": "2018-10-17T18:28:48.400623+02:00",
+  "CreatedDate": "2011-08-28T18:28:48.400623+02:00",
+  "UpdatedBy": {
+    "AssociateId": 403,
+    "Name": "Pfeffer, Romaguera and Kilback",
+    "PersonId": 158,
+    "Rank": 967,
+    "Tooltip": "voluptatem",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 854,
+    "FullName": "Elsa Blanda",
+    "FormalName": "Fahey-Crooks",
+    "Deleted": false,
+    "EjUserId": 10,
+    "UserName": "Ratke, Orn and Nader",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 444
+      }
+    }
+  },
+  "CreatedBy": {
+    "AssociateId": 974,
+    "Name": "Feil, Kerluke and Gorczany",
+    "PersonId": 184,
+    "Rank": 245,
+    "Tooltip": "dolorem",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 132,
+    "FullName": "Linnea Rutherford",
+    "FormalName": "Barton, Connelly and Conroy",
+    "Deleted": true,
+    "EjUserId": 1001,
+    "UserName": "Rath-Frami",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 361
+      }
+    }
+  },
+  "UserGroupIds": [
+    662,
+    735
+  ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "visualize real-time models"
   },
   "FieldProperties": {
     "fieldName": {
@@ -88,7 +147,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 808
     }
   }
 }

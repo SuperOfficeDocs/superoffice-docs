@@ -1,9 +1,9 @@
 ---
-title: SaveTicketPriorityEntity
+title: POST Agents/List/SaveTicketPriorityEntity
 id: v1ListAgent_SaveTicketPriorityEntity
 ---
 
-# SaveTicketPriorityEntity
+# POST Agents/List/SaveTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
@@ -51,7 +51,7 @@ The TicketPriorityEntity to be saved.
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -65,6 +65,7 @@ The TicketPriorityEntity to be saved.
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 
 
 ## Response: object
@@ -97,7 +98,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -111,6 +112,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -120,39 +122,59 @@ Response body: object
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 823,
-  "Name": "Greenholt-Luettgen",
+  "TicketPriorityId": 625,
+  "Name": "Mayer Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 842,
+  "SortOrder": 318,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 186,
-  "MonStart": "2021-03-07T14:58:04.4534313+01:00",
-  "MonStop": "2016-06-11T14:58:04.4534313+02:00",
-  "TueStart": "2007-10-28T14:58:04.4534313+01:00",
-  "TueStop": "2010-04-10T14:58:04.4534313+02:00",
-  "WedStart": "2007-05-06T14:58:04.4534313+02:00",
-  "WedStop": "2011-02-10T14:58:04.4534313+01:00",
-  "ThuStart": "2005-04-19T14:58:04.4534313+02:00",
-  "ThuStop": "2018-01-14T14:58:04.4534313+01:00",
-  "FriStart": "2010-02-15T14:58:04.4534313+01:00",
-  "FriStop": "1996-09-12T14:58:04.4534313+02:00",
-  "SatStart": "2010-06-30T14:58:04.4534313+02:00",
-  "SatStop": "2001-05-28T14:58:04.4534313+02:00",
-  "SunStart": "2016-07-22T14:58:04.4534313+02:00",
-  "SunStop": "2001-05-23T14:58:04.4534313+02:00",
+  "Deadline": 926,
+  "MonStart": "2000-09-25T18:28:49.3631226+02:00",
+  "MonStop": "2017-03-25T18:28:49.3631226+01:00",
+  "TueStart": "2020-03-09T18:28:49.3631226+01:00",
+  "TueStop": "2004-01-09T18:28:49.3631226+01:00",
+  "WedStart": "2014-04-02T18:28:49.3631226+02:00",
+  "WedStop": "1998-03-26T18:28:49.3631226+01:00",
+  "ThuStart": "2003-12-18T18:28:49.3631226+01:00",
+  "ThuStop": "2004-04-21T18:28:49.3631226+02:00",
+  "FriStart": "2020-08-03T18:28:49.3631226+02:00",
+  "FriStop": "1996-04-22T18:28:49.3631226+02:00",
+  "SatStart": "2019-08-06T18:28:49.3631226+02:00",
+  "SatStop": "2014-10-25T18:28:49.3631226+02:00",
+  "SunStart": "2016-03-20T18:28:49.3631226+01:00",
+  "SunStop": "1997-11-19T18:28:49.3631226+01:00",
   "NonDates": [
-    "quibusdam",
-    "quis"
+    "rerum",
+    "est"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 142,
+      "AlertLevel": 858,
+      "AlertTimeout": 318,
+      "Action": 944,
+      "DelegateTo": 842,
+      "ScriptId": 612,
+      "EmailTo": "jason@turner.biz",
+      "SmsTo": "officia",
+      "ReplyTemplateIdCustomer": 248,
+      "ReplyTemplateIdUser": 709,
+      "ReplyTemplateIdCatmast": 707,
+      "ReplyTemplateIdEmail": 669,
+      "RtiCustomerSms": 358,
+      "ReplyTemplateIdUserSms": 138,
+      "ReplyTemplateIdCatmastSms": 535,
+      "ReplyTemplateIdSms": 563
+    }
   ]
 }
 ```
@@ -162,35 +184,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 168,
-  "Name": "Lynch-Towne",
+  "TicketPriorityId": 553,
+  "Name": "Ankunding Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 881,
+  "SortOrder": 754,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 41,
-  "MonStart": "2020-08-17T14:58:04.4544652+02:00",
-  "MonStop": "2019-06-24T14:58:04.4544652+02:00",
-  "TueStart": "2004-09-12T14:58:04.4544652+02:00",
-  "TueStop": "2015-03-22T14:58:04.4544652+01:00",
-  "WedStart": "2006-02-16T14:58:04.4544652+01:00",
-  "WedStop": "1998-11-26T14:58:04.4544652+01:00",
-  "ThuStart": "2010-02-22T14:58:04.4544652+01:00",
-  "ThuStop": "2004-01-20T14:58:04.4544652+01:00",
-  "FriStart": "1995-03-14T14:58:04.4544652+01:00",
-  "FriStop": "2001-12-17T14:58:04.4544652+01:00",
-  "SatStart": "1999-01-18T14:58:04.4544652+01:00",
-  "SatStop": "2002-07-14T14:58:04.4544652+02:00",
-  "SunStart": "2002-06-23T14:58:04.4544652+02:00",
-  "SunStop": "2001-03-16T14:58:04.4544652+01:00",
+  "Deadline": 526,
+  "MonStart": "2010-11-27T18:28:49.3641241+01:00",
+  "MonStop": "2013-10-20T18:28:49.3641241+02:00",
+  "TueStart": "2001-09-09T18:28:49.3641241+02:00",
+  "TueStop": "2003-02-14T18:28:49.3641241+01:00",
+  "WedStart": "2011-11-29T18:28:49.3641241+01:00",
+  "WedStop": "2009-04-06T18:28:49.3641241+02:00",
+  "ThuStart": "1999-12-14T18:28:49.3641241+01:00",
+  "ThuStop": "2013-05-30T18:28:49.3641241+02:00",
+  "FriStart": "2015-09-02T18:28:49.3641241+02:00",
+  "FriStop": "2021-09-03T18:28:49.3641241+02:00",
+  "SatStart": "2010-12-28T18:28:49.3641241+01:00",
+  "SatStop": "1997-11-03T18:28:49.3641241+01:00",
+  "SunStart": "2013-08-27T18:28:49.3641241+02:00",
+  "SunStop": "2018-08-02T18:28:49.3641241+02:00",
   "NonDates": [
-    "asperiores",
-    "aut"
+    "delectus",
+    "repellat"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 999,
+      "AlertLevel": 377,
+      "AlertTimeout": 937,
+      "Action": 827,
+      "DelegateTo": 864,
+      "ScriptId": 208,
+      "EmailTo": "jackeline_nicolas@damore.uk",
+      "SmsTo": "perferendis",
+      "ReplyTemplateIdCustomer": 528,
+      "ReplyTemplateIdUser": 974,
+      "ReplyTemplateIdCatmast": 194,
+      "ReplyTemplateIdEmail": 558,
+      "RtiCustomerSms": 383,
+      "ReplyTemplateIdUserSms": 990,
+      "ReplyTemplateIdCatmastSms": 516,
+      "ReplyTemplateIdSms": 243,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 78
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -203,7 +256,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 572
     }
   }
 }

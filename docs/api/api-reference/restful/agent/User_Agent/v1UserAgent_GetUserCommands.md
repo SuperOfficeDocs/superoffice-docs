@@ -1,9 +1,9 @@
 ---
-title: GetUserCommands
+title: POST Agents/User/GetUserCommands
 id: v1UserAgent_GetUserCommands
 ---
 
-# GetUserCommands
+# POST Agents/User/GetUserCommands
 
 ```http
 POST /api/v1/Agents/User/GetUserCommands
@@ -70,14 +70,14 @@ Response body: array
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 524,
-    "Name": "Carter Group",
-    "Rank": 931,
+    "AssociateId": 832,
+    "Name": "Jacobi, Smith and Considine",
+    "Rank": 578,
     "Tooltip": "libero",
     "LicenseOwners": [
       {},
@@ -90,11 +90,11 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2011-11-13T14:58:05.5590266+01:00",
-    "Lastlogout": "2004-05-15T14:58:05.5590266+02:00",
-    "EjUserId": 522,
-    "RequestSignature": "suscipit",
+    "Deleted": false,
+    "Lastlogin": "2004-03-02T18:28:50.5594416+01:00",
+    "Lastlogout": "1995-03-01T18:28:50.5594416+01:00",
+    "EjUserId": 77,
+    "RequestSignature": "sunt",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": true,
     "IsOnTravel": true,
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "UserName": "Padberg LLC",
+    "UserName": "Jones-Emmerich",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "O'Connell, Hartmann and Orn",
-    "WaitingForApproval": true,
+    "NickName": "Mohr, Smith and Weimann",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "possimus",
-      "ExtraFields2": "neque"
+      "ExtraFields1": "qui",
+      "ExtraFields2": "iure"
     },
     "CustomFields": {
-      "CustomFields1": "perspiciatis",
-      "CustomFields2": "blanditiis"
+      "CustomFields1": "harum",
+      "CustomFields2": "magnam"
     },
     "PostSaveCommands": [
       {},
@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker, Daniel and Frami",
-    "DisplayName": "Luettgen-Schulist",
-    "Description": "Down-sized actuating support",
-    "ToolTip": "Provident sed tempora quisquam temporibus molestias.",
+    "Name": "Lang Inc and Sons",
+    "DisplayName": "Shanahan-Kunde",
+    "Description": "Multi-lateral zero defect frame",
+    "ToolTip": "Ex dolor et.",
     "Actions": "Implicit",
-    "ActionData": "libero",
+    "ActionData": "quasi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

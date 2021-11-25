@@ -93,16 +93,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Torphy-Runolfsson",
-  "Tooltip": "enim",
+  "Id": 972,
+  "Name": "Mayert-Gulgowski",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 65,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 968,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": true
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Raynor Group",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": true,
+  "Id": 202,
+  "Name": "Mohr Inc and Sons",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 361,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "monetize enterprise niches"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: TestConnection
+title: POST Agents/Quote/TestConnection
 id: v1QuoteAgent_TestConnection
 ---
 
-# TestConnection
+# POST Agents/Quote/TestConnection
 
 ```http
 POST /api/v1/Agents/Quote/TestConnection
@@ -83,14 +83,14 @@ Response body: object
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Green-Johnson",
+  "ConnectorName": "Schmeler Group",
   "ConnectionData": {
-    "ConnectionData1": "labore",
-    "ConnectionData2": "rerum"
+    "ConnectionData1": "et",
+    "ConnectionData2": "voluptates"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "pariatur",
-  "TechExplanation": "deserunt",
-  "ErrorCode": "ea",
+  "UserExplanation": "voluptatibus",
+  "TechExplanation": "ab",
+  "ErrorCode": "a",
   "Changes": {
     "AddedRecords": [
       {},
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldLength": 641
       }
     }
   },
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 257
     }
   }
 }

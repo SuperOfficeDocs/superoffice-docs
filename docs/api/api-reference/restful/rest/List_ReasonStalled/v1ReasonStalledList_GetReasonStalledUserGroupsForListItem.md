@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Torphy-Raynor",
-    "ToolTip": "Numquam cupiditate ipsum hic maxime voluptates.",
-    "Deleted": false,
-    "Rank": 936,
-    "Type": "quidem",
-    "ColorBlock": 293,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "1999-03-06T15:05:43.7761168+01:00",
+    "Id": 477,
+    "Name": "Rodriguez, Erdman and Kunze",
+    "ToolTip": "Veritatis rerum itaque.",
+    "Deleted": true,
+    "Rank": 464,
+    "Type": "enim",
+    "ColorBlock": 202,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2008-01-03T18:25:52.1660195+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Harris, Nitzsche and Luettgen",
-        "ToolTip": "Nobis nisi quasi.",
-        "Deleted": true,
-        "Rank": 404,
-        "Type": "sed",
-        "ColorBlock": 715,
-        "IconHint": "excepturi",
+        "Id": 353,
+        "Name": "Kris, Watsica and Ortiz",
+        "ToolTip": "Cumque iure.",
+        "Deleted": false,
+        "Rank": 760,
+        "Type": "consequuntur",
+        "ColorBlock": 68,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2016-02-11T15:05:43.7761168+01:00",
+        "LastChanged": "2006-05-04T18:25:52.1660195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "aut",
+        "ExtraInfo": "fugit",
+        "StyleHint": "nesciunt",
         "Hidden": true,
-        "FullName": "Dock Brekke PhD",
+        "FullName": "Noble Johnson II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "exploit intuitive experiences"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldType": "System.Int32",
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "et",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "June Deckow",
+    "FullName": "Miss Kara Bednar",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "strategize one-to-one deliverables"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 650
       }
     }
   }

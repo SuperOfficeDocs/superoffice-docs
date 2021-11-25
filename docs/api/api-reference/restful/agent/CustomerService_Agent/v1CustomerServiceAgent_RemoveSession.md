@@ -1,9 +1,9 @@
 ---
-title: RemoveSession
+title: POST Agents/CustomerService/RemoveSession
 id: v1CustomerServiceAgent_RemoveSession
 ---
 
-# RemoveSession
+# POST Agents/CustomerService/RemoveSession
 
 ```http
 POST /api/v1/Agents/CustomerService/RemoveSession

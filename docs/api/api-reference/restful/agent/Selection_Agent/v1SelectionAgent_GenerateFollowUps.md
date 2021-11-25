@@ -1,9 +1,9 @@
 ---
-title: GenerateFollowUps
+title: POST Agents/Selection/GenerateFollowUps
 id: v1SelectionAgent_GenerateFollowUps
 ---
 
-# GenerateFollowUps
+# POST Agents/Selection/GenerateFollowUps
 
 ```http
 POST /api/v1/Agents/Selection/GenerateFollowUps

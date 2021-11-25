@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Cummerata Inc and Sons",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 651,
-  "Rank": 533,
+  "Id": 970,
+  "Name": "Stokes, Champlin and Strosin",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 44,
+  "Rank": 56,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,10 +91,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "e-enable customized deliverables"
       },
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 905
     }
   }
 }

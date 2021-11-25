@@ -1,9 +1,9 @@
 ---
-title: FindWithExtraRestrictions
+title: POST Agents/Find/FindWithExtraRestrictions
 id: v1FindAgent_FindWithExtraRestrictions
 ---
 
-# FindWithExtraRestrictions
+# POST Agents/Find/FindWithExtraRestrictions
 
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
@@ -87,24 +87,24 @@ Response body: object
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "culpa",
-  "ProviderName": "Bradtke Inc and Sons",
-  "StorageKey": "deleniti",
+  "StorageType": "ex",
+  "ProviderName": "Ledner Group",
+  "StorageKey": "quasi",
   "ExtraRestrictions": [
     {
-      "Name": "Abbott Group",
-      "Operator": "et",
+      "Name": "Pollich-O'Hara",
+      "Operator": "aut",
       "Values": [
-        "ipsum",
-        "velit"
+        "amet",
+        "in"
       ],
       "DisplayValues": [
-        "ut",
-        "a"
+        "quia",
+        "magnam"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -112,27 +112,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 353,
+      "InterParenthesis": 459,
       "InterOperator": "And",
-      "UniqueHash": 88
+      "UniqueHash": 370
     }
   ],
   "OrderBy": [
     {
-      "Name": "Schamberger, Gislason and Hintz",
+      "Name": "Bradtke Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Schamberger, Gislason and Hintz",
+      "Name": "Bradtke Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "doloribus",
-    "est"
+    "aliquid",
+    "enim"
   ],
-  "PageSize": 907,
-  "PageNumber": 881
+  "PageSize": 746,
+  "PageNumber": 655
 }
 ```
 
@@ -143,34 +143,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hills Group",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "odit",
+      "DisplayName": "Kuvalis-Welch",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Gutkowski Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolor",
-      "RestrictionListName": "McLaughlin Inc and Sons",
+      "Name": "Spencer-Goyette",
+      "CanRestrictBy": true,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Runte, Leffler and Farrell",
       "IsVisible": true,
-      "ExtraInfo": "at",
-      "Width": "nesciunt",
-      "IconHint": "veniam",
-      "HeadingIconHint": "alias"
+      "ExtraInfo": "dolorem",
+      "Width": "consequatur",
+      "IconHint": "ea",
+      "HeadingIconHint": "sequi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hudson, Walsh and Goyette",
-      "PrimaryKey": 143,
+      "EntityName": "Schmeler-Hahn",
+      "PrimaryKey": 769,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ullam",
-          "TooltipHint": "porro",
-          "LinkHint": "quos"
+          "DisplayValue": "dicta",
+          "TooltipHint": "harum",
+          "LinkHint": "esse"
         }
       },
-      "LinkHint": "sunt",
-      "StyleHint": "sit",
+      "LinkHint": "ab",
+      "StyleHint": "doloremque",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -179,12 +179,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldLength": 630
         }
       }
     }
   ],
-  "RowCount": 955,
+  "RowCount": 250,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

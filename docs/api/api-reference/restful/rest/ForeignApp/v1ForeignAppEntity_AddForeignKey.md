@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "sit",
-  "RecordId": 859,
-  "CreatedDate": "2016-06-29T15:05:42.2476715+02:00",
-  "UpdatedDate": "2001-08-11T15:05:42.2476715+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "facilis",
-  "TableName": "Lakin-Hermiston"
+  "Key": "atque",
+  "Value": "earum",
+  "RecordId": 274,
+  "CreatedDate": "1997-12-25T18:25:50.5755972+01:00",
+  "UpdatedDate": "2020-10-16T18:25:50.5755972+02:00",
+  "UpdatedBy": "explicabo",
+  "CreatedBy": "ullam",
+  "TableName": "Schoen-O'Conner"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perspiciatis",
-  "Value": "totam",
-  "RecordId": 616,
-  "CreatedDate": "2007-01-19T15:05:42.2476715+01:00",
-  "UpdatedDate": "2020-04-03T15:05:42.2476715+02:00",
-  "UpdatedBy": "voluptatum",
-  "CreatedBy": "adipisci",
-  "TableName": "Bruen-Huels",
+  "Key": "ut",
+  "Value": "omnis",
+  "RecordId": 375,
+  "CreatedDate": "2005-07-14T18:25:50.5755972+02:00",
+  "UpdatedDate": "2009-08-07T18:25:50.5755972+02:00",
+  "UpdatedBy": "eveniet",
+  "CreatedBy": "quas",
+  "TableName": "Reichel-Powlowski",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

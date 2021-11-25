@@ -1,9 +1,9 @@
 ---
-title: GetListItemsForUserGroup
+title: POST Agents/List/GetListItemsForUserGroup
 id: v1ListAgent_GetListItemsForUserGroup
 ---
 
-# GetListItemsForUserGroup
+# POST Agents/List/GetListItemsForUserGroup
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroup
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 984,
-  "GroupId": 318
+  "UdListDefinitionId": 641,
+  "GroupId": 992
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Green, Bergnaum and Gusikowski",
-    "ToolTip": "Optio cupiditate.",
+    "Id": 845,
+    "Name": "Kerluke, Johnston and Dickinson",
+    "ToolTip": "Deserunt consectetur.",
     "Deleted": false,
-    "Rank": 141,
-    "Type": "deleniti",
-    "ColorBlock": 563,
-    "IconHint": "vel",
+    "Rank": 155,
+    "Type": "rerum",
+    "ColorBlock": 479,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2005-11-23T14:58:04.4194656+01:00",
+    "LastChanged": "2006-08-31T18:28:49.3151272+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Bruen-Runolfsson",
-        "ToolTip": "Nihil et voluptas et totam voluptatem.",
-        "Deleted": false,
-        "Rank": 494,
-        "Type": "in",
-        "ColorBlock": 260,
-        "IconHint": "eos",
+        "Id": 694,
+        "Name": "Harris, Roob and Crona",
+        "ToolTip": "Sequi eius dignissimos dolores delectus enim sunt.",
+        "Deleted": true,
+        "Rank": 811,
+        "Type": "culpa",
+        "ColorBlock": 705,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "2005-12-12T14:58:04.4194656+01:00",
+        "LastChanged": "2019-07-30T18:28:49.3151272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "alias",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aliquam",
         "Hidden": true,
-        "FullName": "Lilla Kuhlman",
+        "FullName": "Tad Grant I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "velit",
+    "ExtraInfo": "nam",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Alta Breitenberg III",
+    "FullName": "Colton Rohan",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldLength": 2
       }
     }
   }

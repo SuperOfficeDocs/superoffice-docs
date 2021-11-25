@@ -2,8 +2,6 @@
 title: List_ConsentSource
 ---
 
-# List_ConsentSource
-
 ```http
 /api/v1/List/ConsentSource
 ```

@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Williamson, Gutkowski and Hammes",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 835,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 478,
+  "Name": "Stracke-O'Reilly",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 878,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "McGlynn Group",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 555,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 981,
+  "Name": "Armstrong, Wehner and Hackett",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 109,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "quas",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "deliver mission-critical schemas"
+    "Reason": "revolutionize world-class portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 924
     }
   }
 }

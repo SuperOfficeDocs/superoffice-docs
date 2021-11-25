@@ -1,9 +1,9 @@
 ---
-title: GetQuoteLine
+title: POST Agents/Quote/GetQuoteLine
 id: v1QuoteAgent_GetQuoteLine
 ---
 
-# GetQuoteLine
+# POST Agents/Quote/GetQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLine
@@ -126,11 +126,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 435
+  "QuoteLineId": 526
 }
 ```
 
@@ -139,36 +139,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 510,
-  "ERPQuoteLineKey": "architecto",
-  "QuoteAlternativeId": 135,
-  "ERPProductKey": "molestiae",
+  "QuoteLineId": 151,
+  "ERPQuoteLineKey": "sint",
+  "QuoteAlternativeId": 260,
+  "ERPProductKey": "velit",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17302.814,
-  "DeliveredQuantity": 26842.71,
-  "Rank": 217,
-  "Name": "Beatty LLC",
-  "Description": "Realigned asynchronous infrastructure",
-  "Code": "ad",
-  "QuantityUnit": "dolorem",
-  "PriceUnit": "incidunt",
-  "ItemNumber": "944984",
+  "Quantity": 14723.532,
+  "DeliveredQuantity": 20101.476,
+  "Rank": 550,
+  "Name": "Grimes, Hagenes and Kilback",
+  "Description": "Versatile zero defect Graphic Interface",
+  "Code": "quod",
+  "QuantityUnit": "officia",
+  "PriceUnit": "delectus",
+  "ItemNumber": "518038",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "magni",
-  "ProductTypeKey": "perferendis",
-  "Supplier": "inventore",
-  "SupplierCode": "quo",
-  "Thumbnail": "ipsum",
-  "VATInfo": "id",
-  "VAT": 9677.792,
-  "UnitCost": 6728.6979999999994,
-  "UnitMinimumPrice": 18311.962,
-  "UnitListPrice": 7640.692,
+  "ProductFamilyKey": "hic",
+  "ProductTypeKey": "fugit",
+  "Supplier": "iusto",
+  "SupplierCode": "tempore",
+  "Thumbnail": "et",
+  "VATInfo": "esse",
+  "VAT": 28861.005999999998,
+  "UnitCost": 17324.752,
+  "UnitMinimumPrice": 14996.189999999999,
+  "UnitListPrice": 28133.917999999998,
   "ExtraInfo": [
     {
-      "Name": "Medhurst-Hermiston",
+      "Name": "Hintz Group",
       "Value": "aut",
       "Type": "Image",
       "TableRight": {},
@@ -179,12 +179,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldLength": 420
         }
       }
     },
     {
-      "Name": "Medhurst-Hermiston",
+      "Name": "Hintz Group",
       "Value": "aut",
       "Type": "Image",
       "TableRight": {},
@@ -195,32 +195,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldLength": 420
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatem",
+  "RawExtraInfo": "eius",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "SubscriptionQuantity": 3262.4939999999997,
-  "SubscriptionStart": "2014-07-05T14:58:04.9834651+02:00",
-  "ERPDiscountPercent": 50.144,
-  "ERPDiscountAmount": 29657.041999999998,
-  "DiscountPercent": 9414.536,
-  "DiscountAmount": 12974.76,
+  "SubscriptionUnit": "libero",
+  "SubscriptionQuantity": 17262.072,
+  "SubscriptionStart": "2018-06-22T18:28:49.967135+02:00",
+  "ERPDiscountPercent": 19411.996,
+  "ERPDiscountAmount": 4917.246,
+  "DiscountPercent": 1215.992,
+  "DiscountAmount": 22107.236,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5528.376,
-  "EarningAmount": 24984.248,
-  "SubTotal": 1773.844,
-  "TotalPrice": 11191.514,
-  "Rights": "nemo",
-  "Rule": "ex",
-  "ExtraField1": "quia",
-  "ExtraField2": "quas",
-  "ExtraField3": "autem",
-  "ExtraField4": "quis",
-  "ExtraField5": "doloribus",
+  "EarningPercent": 21188.974,
+  "EarningAmount": 3469.3379999999997,
+  "SubTotal": 14729.8,
+  "TotalPrice": 19615.706,
+  "Rights": "perspiciatis",
+  "Rule": "error",
+  "ExtraField1": "amet",
+  "ExtraField2": "odit",
+  "ExtraField3": "blanditiis",
+  "ExtraField4": "a",
+  "ExtraField5": "autem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -232,7 +232,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 92
     }
   }
 }

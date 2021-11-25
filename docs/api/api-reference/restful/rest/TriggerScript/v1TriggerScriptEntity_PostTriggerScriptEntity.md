@@ -103,16 +103,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 1000,
-  "Name": "Hand Inc and Sons",
+  "ScreenChooserId": 276,
+  "Name": "Hermann-Kshlerin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "tempora",
-  "Source": "illum",
-  "Registered": "2016-01-05T15:05:42.9556323+01:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2003-10-06T15:05:42.9556323+02:00",
-  "UpdatedAssociateId": 320
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "laudantium",
+  "Registered": "2008-11-01T18:25:51.3151061+01:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2017-09-24T18:25:51.3151061+02:00",
+  "UpdatedAssociateId": 411
 }
 ```
 
@@ -121,19 +121,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 598,
-  "Name": "Olson LLC",
+  "ScreenChooserId": 266,
+  "Name": "O'Hara-Wisoky",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "possimus",
-  "Registered": "2003-09-22T15:05:42.9566325+02:00",
-  "RegisteredAssociateId": 839,
-  "Updated": "2001-11-08T15:05:42.9566325+01:00",
-  "UpdatedAssociateId": 845,
+  "Enabled": true,
+  "UniqueIdentifier": "qui",
+  "Source": "impedit",
+  "Registered": "1996-02-04T18:25:51.316106+01:00",
+  "RegisteredAssociateId": 327,
+  "Updated": "2004-06-20T18:25:51.316106+02:00",
+  "UpdatedAssociateId": 852,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize web-enabled e-commerce"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   },
   "_Links": {

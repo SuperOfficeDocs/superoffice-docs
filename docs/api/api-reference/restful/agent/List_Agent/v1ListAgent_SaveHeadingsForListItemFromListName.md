@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingsForListItemFromListName
+title: POST Agents/List/SaveHeadingsForListItemFromListName
 id: v1ListAgent_SaveHeadingsForListItemFromListName
 ---
 
-# SaveHeadingsForListItemFromListName
+# POST Agents/List/SaveHeadingsForListItemFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Olson Group",
-  "ListItemId": 348,
+  "UdListDefinitionName": "Daniel, Bartell and Schmeler",
+  "ListItemId": 372,
   "Headings": [
     {
-      "Id": 833,
-      "Name": "Hoeger-Bayer",
-      "ToolTip": "Delectus aut saepe repellendus incidunt ullam.",
+      "Id": 112,
+      "Name": "Balistreri-Farrell",
+      "ToolTip": "Repellendus et numquam aut.",
       "Deleted": true,
-      "Rank": 835,
-      "Type": "aperiam",
-      "ColorBlock": 421,
-      "IconHint": "consequuntur",
+      "Rank": 666,
+      "Type": "voluptatum",
+      "ColorBlock": 911,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "1994-10-30T14:58:04.427465+01:00",
+      "LastChanged": "2015-01-16T18:28:49.3231181+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "blanditiis",
-      "Hidden": true,
-      "FullName": "Lottie Bogan"
+      "ExtraInfo": "consectetur",
+      "StyleHint": "non",
+      "Hidden": false,
+      "FullName": "Miss Liza Barton"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Kris Group",
-    "ToolTip": "Est quia.",
+    "Id": 399,
+    "Name": "Bins LLC",
+    "ToolTip": "Vel labore ut.",
     "Deleted": false,
-    "Rank": 885,
-    "Type": "temporibus",
-    "ColorBlock": 283,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2013-01-02T14:58:04.4284677+01:00",
+    "Rank": 546,
+    "Type": "eos",
+    "ColorBlock": 615,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2006-05-12T18:28:49.3241242+02:00",
     "ChildItems": [
       {
-        "Id": 451,
-        "Name": "Kovacek-Cummerata",
-        "ToolTip": "Aperiam illo quisquam aperiam ullam atque et.",
+        "Id": 678,
+        "Name": "Bins LLC",
+        "ToolTip": "Ex sunt minima rem deserunt.",
         "Deleted": false,
-        "Rank": 975,
-        "Type": "earum",
-        "ColorBlock": 839,
-        "IconHint": "suscipit",
+        "Rank": 737,
+        "Type": "sed",
+        "ColorBlock": 999,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2018-02-19T14:58:04.4284677+01:00",
+        "LastChanged": "2006-07-25T18:28:49.3251228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "architecto",
         "Hidden": true,
-        "FullName": "Flavie Hodkiewicz MD",
+        "FullName": "Westley Kihn Jr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -164,15 +164,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldLength": 622
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Brenda Ruecker",
+    "ExtraInfo": "est",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Rigoberto Tremblay",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

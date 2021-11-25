@@ -1,9 +1,9 @@
 ---
-title: SaveCurrents
+title: POST Agents/ViewState/SaveCurrents
 id: v1ViewStateAgent_SaveCurrents
 ---
 
-# SaveCurrents
+# POST Agents/ViewState/SaveCurrents
 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrents
@@ -85,13 +85,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 979,
-      "Id": 442,
-      "HistoryName": "Fisher Inc and Sons",
-      "HistoryId": 328,
-      "AssociateId": 862,
-      "Name": "Dietrich-Crona",
-      "ItemInfo": "at"
+      "Rank": 168,
+      "Id": 376,
+      "HistoryName": "Goldner, Yundt and O'Kon",
+      "HistoryId": 547,
+      "AssociateId": 546,
+      "Name": "Denesik Inc and Sons",
+      "ItemInfo": "esse"
     }
   ]
 }
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 757,
-    "Id": 793,
-    "HistoryName": "Kreiger, Runolfsdottir and Tromp",
-    "HistoryId": 254,
-    "AssociateId": 164,
-    "Name": "Welch-Kemmer",
-    "ItemInfo": "molestiae",
+    "Rank": 897,
+    "Id": 504,
+    "HistoryName": "Kilback LLC",
+    "HistoryId": 108,
+    "AssociateId": 266,
+    "Name": "Lindgren LLC",
+    "ItemInfo": "asperiores",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,10 +118,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "morph web-enabled architectures"
         },
         "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldLength": 156
       }
     }
   }

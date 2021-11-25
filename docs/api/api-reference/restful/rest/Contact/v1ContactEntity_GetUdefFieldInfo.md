@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 221,
-  "ColumnId": 837,
-  "FieldDefault": "omnis",
-  "FieldHeight": 172,
-  "FieldLabel": "eum",
-  "FieldLeft": 829,
-  "FieldTop": 962,
+  "UDefFieldId": 742,
+  "ColumnId": 807,
+  "FieldDefault": "ut",
+  "FieldHeight": 919,
+  "FieldLabel": "vero",
+  "FieldLeft": 327,
+  "FieldTop": 431,
   "FieldType": "Checkbox",
-  "FieldWidth": 368,
-  "FormatMask": "voluptas",
-  "HideLabel": true,
+  "FieldWidth": 381,
+  "FormatMask": "doloribus",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 694,
-  "LabelLeft": 257,
-  "LabelTop": 257,
-  "LabelWidth": 396,
-  "LastVersionId": 652,
-  "ListTableId": 477,
-  "IsMandatory": false,
+  "LabelHeight": 871,
+  "LabelLeft": 642,
+  "LabelTop": 677,
+  "LabelWidth": 183,
+  "LastVersionId": 632,
+  "ListTableId": 24,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 512,
-  "ProgId": "reprehenderit",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 148,
-  "TextLength": 411,
-  "Tooltip": "et",
-  "UdefIdentity": 761,
-  "UDListDefinitionId": 129,
+  "Page1LineNo": 432,
+  "ProgId": "non",
+  "IsReadOnly": false,
+  "ShortLabel": "quaerat",
+  "TabOrder": 463,
+  "TextLength": 137,
+  "Tooltip": "ut",
+  "UdefIdentity": 553,
+  "UDListDefinitionId": 158,
   "Justification": "Center",
-  "Version": 517,
-  "TemplateVariableName": "Thompson, Aufderhar and Murphy",
-  "HasBeenPublished": false,
-  "MdoListName": "Crona-Zboncak",
+  "Version": 790,
+  "TemplateVariableName": "Stokes, Bosco and Dickinson",
+  "HasBeenPublished": true,
+  "MdoListName": "Pfeffer-Lehner",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=sit
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=nulla
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "West-Bayer",
-    "ToolTip": "Ut dolorum culpa hic.",
-    "Deleted": false,
-    "Rank": 759,
-    "Type": "ut",
+    "Id": 489,
+    "Name": "Mraz, Nitzsche and Hagenes",
+    "ToolTip": "Minus recusandae.",
+    "Deleted": true,
+    "Rank": 837,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Ondricka-Shields",
-        "ToolTip": "Aut ut tenetur tenetur iusto.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "ipsam",
+        "Id": 543,
+        "Name": "Bogan, Fisher and Conn",
+        "ToolTip": "Fugiat beatae.",
+        "Deleted": true,
+        "Rank": 483,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 308,
-        "ExtraInfo": "id",
-        "StyleHint": "aut",
-        "FullName": "Cole Moore",
+        "IconHint": "aliquid",
+        "ColorBlock": 140,
+        "ExtraInfo": "animi",
+        "StyleHint": "consequatur",
+        "FullName": "Flavio Quitzon",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,19 +117,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 745
+            "FieldLength": 150
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 823,
-    "ExtraInfo": "molestias",
-    "StyleHint": "aut",
-    "FullName": "Whitney Steuber",
+    "IconHint": "cum",
+    "ColorBlock": 197,
+    "ExtraInfo": "animi",
+    "StyleHint": "assumenda",
+    "FullName": "Natasha Bahringer",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "redefine global markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

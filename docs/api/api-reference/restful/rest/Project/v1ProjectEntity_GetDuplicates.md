@@ -62,7 +62,7 @@ Response body: array
 GET /api/v1/Project/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -71,11 +71,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Ziemann, Stanton and Spinka",
-    "SoPrimaryKey": 730,
-    "EntryName": "Stiedemann-Abernathy",
-    "EntryIdentifier": "nemo",
-    "RuleDisplayName": "Bernhard, Bosco and Bailey",
+    "RuleName": "Nikolaus LLC",
+    "SoPrimaryKey": 358,
+    "EntryName": "Stamm Inc and Sons",
+    "EntryIdentifier": "eaque",
+    "RuleDisplayName": "Torphy-Cronin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 975
       }
     }
   }

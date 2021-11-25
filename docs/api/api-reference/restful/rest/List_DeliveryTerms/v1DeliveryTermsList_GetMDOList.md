@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=ea
+GET /api/v1/List/DeliveryTerm/MDOItems?query=minus
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Wilkinson-Braun",
-    "ToolTip": "Consectetur in.",
+    "Id": 741,
+    "Name": "Shields LLC",
+    "ToolTip": "Corporis et sunt alias illum.",
     "Deleted": false,
-    "Rank": 428,
-    "Type": "rerum",
+    "Rank": 732,
+    "Type": "nisi",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Lynch Inc and Sons",
-        "ToolTip": "Repellendus est et corporis.",
+        "Id": 931,
+        "Name": "Mraz Inc and Sons",
+        "ToolTip": "Nihil nostrum rerum aut ut.",
         "Deleted": false,
-        "Rank": 76,
-        "Type": "consectetur",
+        "Rank": 715,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 617,
-        "ExtraInfo": "tempore",
-        "StyleHint": "autem",
-        "FullName": "Zander Hintz",
+        "IconHint": "ipsam",
+        "ColorBlock": 329,
+        "ExtraInfo": "enim",
+        "StyleHint": "et",
+        "FullName": "Trisha Marquardt",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,29 +116,29 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 69
+            "FieldType": "System.Int32",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 765,
-    "ExtraInfo": "sequi",
-    "StyleHint": "dolores",
-    "FullName": "Ross Bergstrom",
+    "IconHint": "ea",
+    "ColorBlock": 484,
+    "ExtraInfo": "eos",
+    "StyleHint": "quaerat",
+    "FullName": "Fiona Ortiz",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "iterate out-of-the-box infomediaries"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower bricks-and-clicks deliverables"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldLength": 563
       }
     }
   }

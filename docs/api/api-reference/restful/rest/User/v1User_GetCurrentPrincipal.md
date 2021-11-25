@@ -78,7 +78,7 @@ Response body: object
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -87,38 +87,38 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "enim",
-  "AssociateId": 582,
+  "Associate": "quo",
+  "AssociateId": 566,
   "IsPerson": true,
-  "PersonId": 858,
-  "CountryId": 593,
-  "HomeCountryId": 208,
-  "ContactId": 918,
-  "GroupId": 619,
-  "BusinessId": 899,
-  "CategoryId": 200,
-  "ContactOwner": 277,
-  "RoleId": 585,
-  "RoleName": "Powlowski Inc and Sons",
-  "RoleDescription": "Secured regional focus group",
+  "PersonId": 657,
+  "CountryId": 327,
+  "HomeCountryId": 47,
+  "ContactId": 328,
+  "GroupId": 923,
+  "BusinessId": 376,
+  "CategoryId": 581,
+  "ContactOwner": 909,
+  "RoleId": 698,
+  "RoleName": "Rempel LLC",
+  "RoleDescription": "Optional bottom-line knowledge user",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 172,
-      "OwnerName": "Kilback, Bins and Turcotte",
-      "OwnerDescription": "Customizable exuding strategy",
-      "ModuleId": 9,
-      "Name": "Mayer Group",
-      "Description": "Front-line real-time structure",
-      "Version": "voluptates",
+      "OwnerId": 652,
+      "OwnerName": "Ratke-Wisoky",
+      "OwnerDescription": "Horizontal fresh-thinking success",
+      "ModuleId": 359,
+      "Name": "Bosco, Predovic and Goodwin",
+      "Description": "Realigned web-enabled matrix",
+      "Version": "iusto",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 337,
-      "ExtraInfo": "aut",
-      "SortOrder": 524,
-      "LicenseNumber": 222,
-      "IsHidden": true,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2010-05-21T15:05:43.1878995+02:00",
+      "ExtraFlags": 90,
+      "ExtraInfo": "quae",
+      "SortOrder": 735,
+      "LicenseNumber": 752,
+      "IsHidden": false,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2001-02-22T18:25:51.5531211+01:00",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -126,40 +126,40 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 604
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
   ],
-  "FullName": "Milan Lowe",
-  "EMailAddress": "id",
+  "FullName": "Colten Miller",
+  "EMailAddress": "qui",
   "FunctionRights": [
-    "et",
-    "quis"
+    "repellat",
+    "perferendis"
   ],
-  "EjUserId": 715,
-  "EjAccessLevel": 214,
+  "EjUserId": 246,
+  "EjAccessLevel": 441,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "voluptate",
-      "SearchName": "Heathcote Group",
-      "DisplayName": "Johnston, Barton and Hilpert",
-      "CredentialId": 484
+      "Type": "eum",
+      "SearchName": "Gutkowski, Dicki and Roberts",
+      "DisplayName": "Gleichner-Dooley",
+      "CredentialId": 307
     },
     {
-      "Type": "voluptate",
-      "SearchName": "Heathcote Group",
-      "DisplayName": "Johnston, Barton and Hilpert",
-      "CredentialId": 484
+      "Type": "eum",
+      "SearchName": "Gutkowski, Dicki and Roberts",
+      "DisplayName": "Gleichner-Dooley",
+      "CredentialId": 307
     }
   ],
   "SecondaryGroups": [
-    451,
-    966
+    63,
+    252
   ],
-  "DatabaseContextIdentifier": "est",
-  "UserName": "Connelly-Morar"
+  "DatabaseContextIdentifier": "sint",
+  "UserName": "Terry, Fritsch and Mitchell"
 }
 ```

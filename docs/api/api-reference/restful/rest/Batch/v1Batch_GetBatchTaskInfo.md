@@ -84,7 +84,7 @@ Response body: object
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 605,
-  "Name": "Haag-Christiansen",
-  "AssociateId": 261,
-  "DetailsTable": 216,
-  "DetailsRecord": 901,
+  "Id": 821,
+  "Name": "Hane Group",
+  "AssociateId": 751,
+  "DetailsTable": 113,
+  "DetailsRecord": 822,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ratione",
-    "ParameterObject2": "expedita"
+    "ParameterObject1": "veniam",
+    "ParameterObject2": "earum"
   },
-  "LastStarted": "2004-08-07T15:05:42.9686323+02:00",
-  "Created": "1995-05-29T15:05:42.9686323+02:00",
-  "StartCount": 309,
-  "DatabaseSerialNumber": "905831",
-  "Context": "eligendi",
-  "Result": "rerum",
+  "LastStarted": "2001-09-19T18:25:51.3271062+02:00",
+  "Created": "2016-08-09T18:25:51.3271062+02:00",
+  "StartCount": 387,
+  "DatabaseSerialNumber": "697007",
+  "Context": "mollitia",
+  "Result": "ratione",
   "State": "All",
-  "Description": "Intuitive explicit alliance",
-  "Response": "velit",
-  "Request": "est",
-  "ProgressDescription": "Mandatory user-facing monitoring",
-  "ProgressPercent": 970,
-  "FileName": "Hoppe, Lind and Hane",
+  "Description": "Stand-alone incremental matrix",
+  "Response": "voluptatibus",
+  "Request": "fugiat",
+  "ProgressDescription": "Inverse web-enabled methodology",
+  "ProgressPercent": 771,
+  "FileName": "Considine-Nienow",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synthesize enterprise synergies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

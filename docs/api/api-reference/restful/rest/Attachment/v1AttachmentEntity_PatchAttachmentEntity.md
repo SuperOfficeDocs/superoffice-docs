@@ -121,41 +121,39 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "non",
     "value": {
       "value1": {
-        "PrimaryKey": 97,
-        "EntityName": "sale",
-        "saleId": 97,
-        "contactId": 7255,
-        "name": "Cartwright LLC"
+        "PrimaryKey": 342,
+        "EntityName": "person",
+        "personId": 342,
+        "fullName": "Leonardo Larkin"
       },
       "value2": {
-        "PrimaryKey": 7619,
+        "PrimaryKey": 9226,
         "EntityName": "sale",
-        "saleId": 7619,
-        "contactId": 4375,
-        "name": "Abbott-Rutherford"
+        "saleId": 9226,
+        "contactId": 6781,
+        "name": "Tromp, Bogan and Spencer"
       }
     }
   },
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "non",
     "value": {
       "value1": {
-        "PrimaryKey": 97,
-        "EntityName": "sale",
-        "saleId": 97,
-        "contactId": 7255,
-        "name": "Cartwright LLC"
+        "PrimaryKey": 342,
+        "EntityName": "person",
+        "personId": 342,
+        "fullName": "Leonardo Larkin"
       },
       "value2": {
-        "PrimaryKey": 7619,
+        "PrimaryKey": 9226,
         "EntityName": "sale",
-        "saleId": 7619,
-        "contactId": 4375,
-        "name": "Abbott-Rutherford"
+        "saleId": 9226,
+        "contactId": 6781,
+        "name": "Tromp, Bogan and Spencer"
       }
     }
   }
@@ -167,12 +165,12 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 853,
-  "Name": "Koch, Rau and Harris",
-  "ContentType": "optio",
-  "AttSize": 150,
-  "InlineImage": true,
-  "ContentId": "recusandae",
+  "AttachmentId": 198,
+  "Name": "Grimes-White",
+  "ContentType": "vel",
+  "AttSize": 824,
+  "InlineImage": false,
+  "ContentId": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -183,13 +181,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

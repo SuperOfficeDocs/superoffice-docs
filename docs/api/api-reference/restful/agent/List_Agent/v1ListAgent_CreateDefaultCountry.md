@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultCountry
+title: POST Agents/List/CreateDefaultCountry
 id: v1ListAgent_CreateDefaultCountry
 ---
 
-# CreateDefaultCountry
+# POST Agents/List/CreateDefaultCountry
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultCountry
@@ -82,7 +82,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -90,23 +90,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 731,
-  "Name": "Gerhold, Reinger and Stroman",
-  "CurrencyId": 328,
-  "EnglishName": "Herman-Balistreri",
+  "CountryId": 59,
+  "Name": "Jenkins-Balistreri",
+  "CurrencyId": 651,
+  "EnglishName": "Murray Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Extended cohesive complexity",
-  "OrgNrText": "1029699",
-  "InterAreaPrefix": "possimus",
-  "DialInPrefix": "sit",
-  "ZipPrefix": "necessitatibus",
-  "DomainName": "Goldner-Ritchie",
-  "AddressLayoutId": 546,
-  "DomesticAddressLayoutId": 693,
-  "ForeignAddressLayoutId": 920,
-  "Rank": 614,
-  "Tooltip": "veniam",
+  "ImageDescription": "Enterprise-wide assymetric extranet",
+  "OrgNrText": "439954",
+  "InterAreaPrefix": "fugiat",
+  "DialInPrefix": "vel",
+  "ZipPrefix": "voluptate",
+  "DomainName": "Kautzer, Kerluke and Nader",
+  "AddressLayoutId": 396,
+  "DomesticAddressLayoutId": 913,
+  "ForeignAddressLayoutId": 24,
+  "Rank": 305,
+  "Tooltip": "impedit",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

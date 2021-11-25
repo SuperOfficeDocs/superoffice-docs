@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 309,
-  "Name": "Kemmer Inc and Sons",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 763,
+  "Name": "Gleason Inc and Sons",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 983,
-  "UdListDefinitionId": 225
+  "Rank": 915,
+  "UdListDefinitionId": 646
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 889,
-  "Name": "Lueilwitz LLC",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 128,
-  "UdListDefinitionId": 348,
+  "HeadingId": 958,
+  "Name": "Prohaska, Greenholt and Reichert",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 70,
+  "UdListDefinitionId": 139,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "visualize bleeding-edge web services"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldLength": 436
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveDocumentTemplateStream
+title: POST Agents/Document/SaveDocumentTemplateStream
 id: v1DocumentAgent_SaveDocumentTemplateStream
 ---
 
-# SaveDocumentTemplateStream
+# POST Agents/Document/SaveDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
@@ -78,14 +78,14 @@ Response body: object
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 303,
+  "DocumentTemplateId": 634,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "molestias",
-  "PluginId": 671
+  "LanguageCode": "vitae",
+  "PluginId": 643
 }
 ```
 
@@ -94,10 +94,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Paucek-Huels",
-  "Description": "Pre-emptive motivating adapter",
-  "ExternalReference": "quia",
-  "MimeType": "ex",
-  "PluginId": 118
+  "Name": "Williamson-Hand",
+  "Description": "Front-line tangible database",
+  "ExternalReference": "impedit",
+  "MimeType": "quia",
+  "PluginId": 997
 }
 ```

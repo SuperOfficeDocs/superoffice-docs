@@ -1,9 +1,9 @@
 ---
-title: GetShopUrl
+title: POST Agents/License/GetShopUrl
 id: v1LicenseAgent_GetShopUrl
 ---
 
-# GetShopUrl
+# POST Agents/License/GetShopUrl
 
 ```http
 POST /api/v1/Agents/License/GetShopUrl
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ondricka, DuBuque and Erdman"
+  "OwnerName": "Thompson, Runolfsson and Sawayn"
 }
 ```
 

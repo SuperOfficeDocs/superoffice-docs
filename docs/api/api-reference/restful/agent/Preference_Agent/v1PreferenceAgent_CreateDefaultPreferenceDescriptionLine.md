@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultPreferenceDescriptionLine
+title: POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
 id: v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine
 ---
 
-# CreateDefaultPreferenceDescriptionLine
+# POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
@@ -72,11 +72,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 443,
-  "PrefDescId": 588,
-  "PrefValue": "quae",
-  "PrefShowValue": "est",
-  "Description": "Implemented impactful product",
+  "PrefDescLineId": 827,
+  "PrefDescId": 321,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "commodi",
+  "Description": "Vision-oriented intangible budgetary management",
   "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

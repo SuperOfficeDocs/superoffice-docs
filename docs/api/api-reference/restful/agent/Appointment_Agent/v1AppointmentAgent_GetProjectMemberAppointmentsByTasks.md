@@ -1,9 +1,9 @@
 ---
-title: GetProjectMemberAppointmentsByTasks
+title: POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
 id: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
 ---
 
-# GetProjectMemberAppointmentsByTasks
+# POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
@@ -129,13 +129,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 320,
-  "StartTime": "2013-03-22T14:58:02.8625733+01:00",
-  "EndTime": "2018-04-09T14:58:02.8625733+02:00",
-  "Count": 990,
+  "PersonId": 803,
+  "StartTime": "1997-04-08T18:28:47.7118442+02:00",
+  "EndTime": "2014-05-21T18:28:47.7118442+02:00",
+  "Count": 304,
   "TaskIds": [
-    991,
-    492
+    526,
+    537
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 399,
-    "StartDate": "1998-01-20T14:58:02.8635735+01:00",
-    "EndDate": "2000-02-17T14:58:02.8635735+01:00",
+    "AppointmentId": 554,
+    "StartDate": "2021-02-02T18:28:47.7138525+01:00",
+    "EndDate": "2003-06-26T18:28:47.7138525+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Dejon Quigley",
-    "ContactName": "Gorczany Group",
-    "Description": "Horizontal global pricing structure",
-    "PersonFullName": "Chyna Mayer",
-    "PersonId": 984,
-    "ContactId": 272,
-    "ProjectId": 95,
-    "ProjectName": "Cremin LLC",
-    "IsPublished": false,
-    "AssociateId": 436,
-    "ColorIndex": 427,
+    "Task": "beatae",
+    "AssociateFullName": "Bernardo Yost",
+    "ContactName": "Langosh LLC",
+    "Description": "Adaptive secondary protocol",
+    "PersonFullName": "Danielle Jewess",
+    "PersonId": 131,
+    "ContactId": 289,
+    "ProjectId": 261,
+    "ProjectName": "Predovic, Heaney and Nitzsche",
+    "IsPublished": true,
+    "AssociateId": 871,
+    "ColorIndex": 570,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 290,
-    "PriorityName": "Denesik, Welch and Dicki",
+    "PriorityId": 545,
+    "PriorityName": "Williamson, Bernier and Jast",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2008-08-26T14:58:02.8635735+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2006-02-05T18:28:47.7138525+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-07-07T14:58:02.8635735+02:00",
-    "RecurringEndDate": "2018-03-19T14:58:02.8635735+01:00",
-    "MotherId": 772,
-    "AssignedBy": 693,
-    "AssignedByFullName": "Mrs. Rick Frami",
+    "RecurringStartDate": "2015-05-13T18:28:47.7138525+02:00",
+    "RecurringEndDate": "2002-05-29T18:28:47.7138525+02:00",
+    "MotherId": 785,
+    "AssignedBy": 386,
+    "AssignedByFullName": "Rae Walter",
     "RejectReason": "",
-    "Location": "impedit",
-    "AlarmLeadTime": "recusandae",
-    "SaleId": 683,
-    "SaleName": "Mayer-Collier",
-    "AssociateName": "Morar-Yundt",
-    "CreatedDate": "2021-08-03T14:58:02.8645755+02:00",
-    "CreatedBy": "atque",
-    "CreatedByFullName": "Willow Murphy",
-    "CreatedByAssociateId": 145,
+    "Location": "sit",
+    "AlarmLeadTime": "ut",
+    "SaleId": 903,
+    "SaleName": "Terry Inc and Sons",
+    "AssociateName": "Metz-Koelpin",
+    "CreatedDate": "1996-01-07T18:28:47.7138525+01:00",
+    "CreatedBy": "vero",
+    "CreatedByFullName": "Justine Schowalter",
+    "CreatedByAssociateId": 223,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 279
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

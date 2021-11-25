@@ -1,9 +1,9 @@
 ---
-title: SanitizeMailContents
+title: POST Agents/Ticket/SanitizeMailContents
 id: v1TicketAgent_SanitizeMailContents
 ---
 
-# SanitizeMailContents
+# POST Agents/Ticket/SanitizeMailContents
 
 ```http
 POST /api/v1/Agents/Ticket/SanitizeMailContents
@@ -68,13 +68,13 @@ Response body: array
 POST /api/v1/Agents/Ticket/SanitizeMailContents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "provident",
-    "quibusdam"
+    "eligendi",
+    "qui"
   ]
 }
 ```
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "eum",
-  "harum"
+  "nemo",
+  "adipisci"
 ]
 ```

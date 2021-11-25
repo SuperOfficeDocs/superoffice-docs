@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Cassin Inc and Sons",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "UdListDefinitionId": 889,
-  "Rank": 741
+  "Id": 97,
+  "Name": "Jacobi, Grant and Hauck",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "UdListDefinitionId": 636,
+  "Rank": 674
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "UdListDefinitionId": 220,
-  "Rank": 318,
+  "Id": 369,
+  "Name": "Rau-Jones",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "UdListDefinitionId": 811,
+  "Rank": 578,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

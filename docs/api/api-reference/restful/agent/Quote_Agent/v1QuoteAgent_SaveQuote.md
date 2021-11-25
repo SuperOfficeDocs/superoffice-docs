@@ -1,9 +1,9 @@
 ---
-title: SaveQuote
+title: POST Agents/Quote/SaveQuote
 id: v1QuoteAgent_SaveQuote
 ---
 
-# SaveQuote
+# POST Agents/Quote/SaveQuote
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuote
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Quote": {
-    "QuoteId": 209,
-    "SaleId": 920,
-    "QuoteConnectionId": 639,
-    "ERPQuoteKey": "aut",
-    "ERPOrderKey": "omnis",
-    "ActiveQuoteVersionId": 983,
-    "AcceptedQuoteAlternativeId": 818,
-    "UseValuesFromQuote": 75,
-    "DocumentId": 863,
-    "PoNumber": "1271922",
-    "OrderComment": "exercitationem",
-    "PreferredEmailCulture": "kelvin.russel@flatleyrobel.ca",
+    "QuoteId": 547,
+    "SaleId": 925,
+    "QuoteConnectionId": 297,
+    "ERPQuoteKey": "harum",
+    "ERPOrderKey": "suscipit",
+    "ActiveQuoteVersionId": 200,
+    "AcceptedQuoteAlternativeId": 408,
+    "UseValuesFromQuote": 436,
+    "DocumentId": 522,
+    "PoNumber": "1284827",
+    "OrderComment": "animi",
+    "PreferredEmailCulture": "emilio@kunzegraham.info",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {}
   }
@@ -119,55 +119,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 695,
-  "SaleId": 899,
-  "QuoteConnectionId": 560,
-  "ERPQuoteKey": "est",
-  "ERPOrderKey": "rerum",
-  "ActiveQuoteVersionId": 36,
-  "AcceptedQuoteAlternativeId": 928,
-  "UseValuesFromQuote": 420,
-  "DocumentId": 973,
-  "PoNumber": "1540037",
-  "OrderComment": "tenetur",
-  "PreferredEmailCulture": "rafael_sauer@mcdermott.info",
+  "QuoteId": 917,
+  "SaleId": 571,
+  "QuoteConnectionId": 670,
+  "ERPQuoteKey": "consequatur",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 504,
+  "AcceptedQuoteAlternativeId": 480,
+  "UseValuesFromQuote": 710,
+  "DocumentId": 409,
+  "PoNumber": "778966",
+  "OrderComment": "rerum",
+  "PreferredEmailCulture": "jed@tillman.info",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 569,
-    "ERPQuoteVersionKey": "odio",
-    "QuoteId": 917,
-    "Description": "Multi-channelled multi-state attitude",
-    "Number": "1406088",
+    "QuoteVersionId": 135,
+    "ERPQuoteVersionKey": "consectetur",
+    "QuoteId": 163,
+    "Description": "Customizable multi-state framework",
+    "Number": "281154",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 107,
-    "SentDate": "2020-11-28T14:58:05.0024659+01:00",
-    "FollowupId": 159,
-    "ExpirationDate": "1997-05-24T14:58:05.0024659+02:00",
-    "DeliveryCountryId": 308,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 715,
+    "LikelyQuoteAlternativeId": 250,
+    "SentDate": "2021-08-30T18:28:49.9891371+02:00",
+    "FollowupId": 786,
+    "ExpirationDate": "2007-09-27T18:28:49.9891371+02:00",
+    "DeliveryCountryId": 615,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 697,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "qui",
-    "ERPPaymentTypeKey": "dolorem",
-    "ERPDeliveryTermsKey": "accusamus",
-    "ERPDeliveryTypeKey": "est",
-    "Rank": 151,
-    "ApprovedBy": 129,
-    "ApprovedText": "commodi",
-    "ApprovedRegisteredBy": 24,
-    "ApprovedRegisteredDate": "1994-07-17T14:58:05.0024659+02:00",
-    "ExtraField1": "quis",
-    "ExtraField2": "quos",
-    "ExtraField3": "consequatur",
-    "ExtraField4": "molestiae",
-    "ExtraField5": "consectetur",
-    "LastRecalculated": "2011-03-03T14:58:05.0024659+01:00",
-    "Updated": "2003-05-31T14:58:05.0024659+02:00",
-    "UpdatedAssociateId": 824,
-    "Registered": "2000-04-24T14:58:05.0024659+02:00",
-    "RegisteredAssociateId": 551,
+    "ERPPaymentTermsKey": "illo",
+    "ERPPaymentTypeKey": "hic",
+    "ERPDeliveryTermsKey": "sint",
+    "ERPDeliveryTypeKey": "optio",
+    "Rank": 969,
+    "ApprovedBy": 85,
+    "ApprovedText": "qui",
+    "ApprovedRegisteredBy": 74,
+    "ApprovedRegisteredDate": "2009-12-23T18:28:49.9891371+01:00",
+    "ExtraField1": "aut",
+    "ExtraField2": "repudiandae",
+    "ExtraField3": "consequuntur",
+    "ExtraField4": "voluptatum",
+    "ExtraField5": "id",
+    "LastRecalculated": "2004-11-17T18:28:49.9891371+01:00",
+    "Updated": "2009-03-10T18:28:49.9891371+01:00",
+    "UpdatedAssociateId": 698,
+    "Registered": "2013-07-24T18:28:49.9891371+02:00",
+    "RegisteredAssociateId": 704,
     "QuoteAlternatives": [
       {},
       {}
@@ -180,34 +180,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 620
+        "FieldLength": 179
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 480,
-    "ERPQuoteAlternativeKey": "eum",
-    "QuoteVersionId": 764,
-    "Name": "Grant Group",
-    "Description": "Optimized composite Graphic Interface",
+    "QuoteAlternativeId": 460,
+    "ERPQuoteAlternativeKey": "velit",
+    "QuoteVersionId": 347,
+    "Name": "Hegmann Group",
+    "Description": "Re-contextualized even-keeled data-warehouse",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 11501.779999999999,
-    "ERPDiscountAmount": 8220.482,
-    "DiscountPercent": 3607.234,
-    "DiscountAmount": 22091.566,
+    "ERPDiscountPercent": 19465.273999999998,
+    "ERPDiscountAmount": 25281.978,
+    "DiscountPercent": 25479.42,
+    "DiscountAmount": 25285.111999999997,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "vel",
-    "VAT": 16506.778,
-    "EarningPercent": 28309.422,
-    "EarningAmount": 26266.054,
-    "SubTotal": 26009.066,
-    "TotalPrice": 9173.2179999999989,
-    "ExtraField1": "dignissimos",
-    "ExtraField2": "quae",
-    "ExtraField3": "aspernatur",
-    "ExtraField4": "sit",
-    "ExtraField5": "maxime",
+    "VATInfo": "optio",
+    "VAT": 8875.488,
+    "EarningPercent": 17788.584,
+    "EarningAmount": 29948.504,
+    "SubTotal": 6032.95,
+    "TotalPrice": 15861.173999999999,
+    "ExtraField1": "voluptas",
+    "ExtraField2": "eius",
+    "ExtraField3": "asperiores",
+    "ExtraField4": "vel",
+    "ExtraField5": "ad",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldLength": 768
       }
     }
   },
@@ -231,7 +231,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 215
     }
   }
 }

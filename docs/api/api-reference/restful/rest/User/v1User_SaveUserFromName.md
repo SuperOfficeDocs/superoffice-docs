@@ -122,18 +122,18 @@ Response body: object
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 82,
-  "Name": "Schoen, Collins and Larkin",
-  "Rank": 744,
-  "Tooltip": "et",
+  "AssociateId": 541,
+  "Name": "Eichmann-Keebler",
+  "Rank": 197,
+  "Tooltip": "sed",
   "LicenseOwners": [
     {
-      "Name": "Koss, Marquardt and Schumm",
-      "Description": "Multi-tiered 24 hour knowledge user",
+      "Name": "Anderson, Howell and Tromp",
+      "Description": "Persevering impactful policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Koss, Marquardt and Schumm",
-      "Description": "Multi-tiered 24 hour knowledge user",
+      "Name": "Anderson, Howell and Tromp",
+      "Description": "Persevering impactful policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,141 +157,141 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Role": {
-    "Id": 228,
-    "Value": "occaecati",
-    "Tooltip": "veniam"
+    "Id": 82,
+    "Value": "magni",
+    "Tooltip": "ducimus"
   },
   "UserGroup": {
-    "Value": "in",
-    "Tooltip": "nisi",
-    "Id": 341,
-    "Rank": 93,
+    "Value": "odit",
+    "Tooltip": "itaque",
+    "Id": 544,
+    "Rank": 715,
     "Deleted": true
   },
   "OtherGroups": [
     {
-      "Value": "neque",
-      "Tooltip": "omnis",
-      "Id": 872,
-      "Rank": 122,
-      "Deleted": false
+      "Value": "officiis",
+      "Tooltip": "id",
+      "Id": 492,
+      "Rank": 104,
+      "Deleted": true
     },
     {
-      "Value": "neque",
-      "Tooltip": "omnis",
-      "Id": 872,
-      "Rank": 122,
-      "Deleted": false
+      "Value": "officiis",
+      "Tooltip": "id",
+      "Id": 492,
+      "Rank": 104,
+      "Deleted": true
     }
   ],
   "Person": {
-    "Position": "et",
-    "PersonId": 351,
-    "Mrmrs": "corporis",
-    "Firstname": "Jerald",
-    "Lastname": "Grady",
-    "MiddleName": "Powlowski, Raynor and Nader",
-    "Title": "eos",
-    "Description": "Polarised motivating customer loyalty",
-    "Email": "abagail.pfannerstill@kuvalisharber.uk",
-    "FullName": "Hershel Hirthe",
-    "DirectPhone": "366-668-6677 x188",
-    "FormalName": "Thompson-Walter",
-    "CountryId": 713,
-    "ContactId": 835,
-    "ContactName": "Romaguera, Pollich and Veum",
-    "Retired": 558,
-    "Rank": 763,
-    "ActiveInterests": 460,
+    "Position": "delectus",
+    "PersonId": 665,
+    "Mrmrs": "quae",
+    "Firstname": "Amanda",
+    "Lastname": "Jewess",
+    "MiddleName": "Kassulke LLC",
+    "Title": "quia",
+    "Description": "Total leading edge encoding",
+    "Email": "casper@emmerichdurgan.name",
+    "FullName": "Oral Murphy",
+    "DirectPhone": "(684)572-8732 x6380",
+    "FormalName": "Barrows Group",
+    "CountryId": 680,
+    "ContactId": 332,
+    "ContactName": "Hartmann, Schumm and Paucek",
+    "Retired": 531,
+    "Rank": 737,
+    "ActiveInterests": 977,
     "ContactDepartment": "",
-    "ContactCountryId": 135,
-    "ContactOrgNr": "1242231",
-    "FaxPhone": "(571)758-0871 x77377",
-    "MobilePhone": "1-675-368-4563 x182",
-    "ContactPhone": "(782)823-7188",
-    "AssociateName": "Satterfield, Bailey and Sauer",
-    "AssociateId": 867,
+    "ContactCountryId": 273,
+    "ContactOrgNr": "1208902",
+    "FaxPhone": "1-107-208-4513 x3424",
+    "MobilePhone": "1-138-117-4838 x2887",
+    "ContactPhone": "580-553-1611",
+    "AssociateName": "Beatty Inc and Sons",
+    "AssociateId": 331,
     "UsePersonAddress": false,
-    "ContactFax": "facere",
-    "Kanafname": "rerum",
-    "Kanalname": "laboriosam",
-    "Post1": "quasi",
+    "ContactFax": "dignissimos",
+    "Kanafname": "perferendis",
+    "Kanalname": "qui",
+    "Post1": "porro",
     "Post2": "et",
-    "Post3": "dolores",
-    "EmailName": "christian@beier.us",
-    "ContactFullName": "Leone Hoeger",
-    "ActiveErpLinks": 561,
-    "TicketPriorityId": 442,
-    "SupportLanguageId": 735,
-    "SupportAssociateId": 530,
+    "Post3": "sunt",
+    "EmailName": "hilario@vonrueden.co.uk",
+    "ContactFullName": "Jocelyn Kemmer",
+    "ActiveErpLinks": 645,
+    "TicketPriorityId": 944,
+    "SupportLanguageId": 339,
+    "SupportAssociateId": 76,
     "CategoryName": "VIP Customer"
   },
   "Deleted": false,
-  "Lastlogin": "2003-02-13T15:05:43.1599002+01:00",
-  "Lastlogout": "2008-05-14T15:05:43.1599002+02:00",
-  "EjUserId": 973,
-  "RequestSignature": "eligendi",
+  "Lastlogin": "1999-03-25T18:25:51.4871186+01:00",
+  "Lastlogout": "2020-06-12T18:25:51.4871186+02:00",
+  "EjUserId": 28,
+  "RequestSignature": "enim",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": {},
-      "Value": "ut",
-      "DisplayValue": "occaecati"
+      "Value": "reiciendis",
+      "DisplayValue": "illo"
     },
     {
       "Type": {},
-      "Value": "ut",
-      "DisplayValue": "occaecati"
+      "Value": "reiciendis",
+      "DisplayValue": "illo"
     }
   ],
-  "UserName": "Schroeder-Durgan",
+  "UserName": "Harber Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 857,
-      "Name": "Weissnat-Graham",
-      "ToolTip": "Autem eius.",
-      "Deleted": false,
-      "Rank": 96,
-      "Type": "ducimus",
+      "Id": 943,
+      "Name": "Skiles, Greenfelder and Nolan",
+      "ToolTip": "Quia quia sed.",
+      "Deleted": true,
+      "Rank": 58,
+      "Type": "quam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 162,
-      "ExtraInfo": "sed",
-      "StyleHint": "numquam",
-      "FullName": "Jammie McCullough"
+      "IconHint": "et",
+      "ColorBlock": 65,
+      "ExtraInfo": "eligendi",
+      "StyleHint": "totam",
+      "FullName": "Bella Daugherty"
     }
   ],
-  "NickName": "Pfeffer Group",
+  "NickName": "Krajcik-Bins",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "quia"
+    "CustomFields1": "in",
+    "CustomFields2": "dolores"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lebsack-Weissnat",
-      "DisplayName": "Kihn-King",
-      "Description": "Ameliorated high-level migration",
-      "ToolTip": "Praesentium dolore dolorem possimus est quaerat et.",
+      "Name": "Brekke, Bayer and Keebler",
+      "DisplayName": "Kuvalis Group",
+      "Description": "Multi-tiered hybrid conglomeration",
+      "ToolTip": "Repellat quisquam.",
       "Actions": "Implicit",
-      "ActionData": "aut"
+      "ActionData": "ut"
     },
     {
-      "Name": "Lebsack-Weissnat",
-      "DisplayName": "Kihn-King",
-      "Description": "Ameliorated high-level migration",
-      "ToolTip": "Praesentium dolore dolorem possimus est quaerat et.",
+      "Name": "Brekke, Bayer and Keebler",
+      "DisplayName": "Kuvalis Group",
+      "Description": "Multi-tiered hybrid conglomeration",
+      "ToolTip": "Repellat quisquam.",
       "Actions": "Implicit",
-      "ActionData": "aut"
+      "ActionData": "ut"
     }
   ]
 }
@@ -302,14 +302,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 571,
-  "Name": "Jacobson Inc and Sons",
-  "Rank": 857,
-  "Tooltip": "deleniti",
+  "AssociateId": 375,
+  "Name": "Watsica-Abernathy",
+  "Rank": 594,
+  "Tooltip": "inventore",
   "LicenseOwners": [
     {
-      "Name": "Schneider-Harris",
-      "Description": "Versatile stable framework",
+      "Name": "Walter Group",
+      "Description": "Diverse 24 hour secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -326,13 +326,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldLength": 758
         }
       }
     },
     {
-      "Name": "Schneider-Harris",
-      "Description": "Versatile stable framework",
+      "Name": "Walter Group",
+      "Description": "Diverse 24 hour secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -349,15 +349,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldLength": 758
         }
       }
     }
   ],
   "Role": {
-    "Id": 5,
-    "Value": "illo",
-    "Tooltip": "qui",
+    "Id": 381,
+    "Value": "quo",
+    "Tooltip": "veniam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -365,16 +365,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldType": "System.Int32",
+        "FieldLength": 220
       }
     }
   },
   "UserGroup": {
-    "Value": "qui",
-    "Tooltip": "assumenda",
-    "Id": 666,
-    "Rank": 237,
+    "Value": "enim",
+    "Tooltip": "beatae",
+    "Id": 927,
+    "Rank": 649,
     "Deleted": true,
     "TableRight": {},
     "FieldProperties": {
@@ -384,16 +384,16 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldLength": 855
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "dolores",
-      "Tooltip": "dolorem",
-      "Id": 68,
-      "Rank": 144,
+      "Value": "sunt",
+      "Tooltip": "omnis",
+      "Id": 707,
+      "Rank": 874,
       "Deleted": false,
       "TableRight": {},
       "FieldProperties": {
@@ -403,51 +403,51 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldLength": 266
         }
       }
     }
   ],
   "Person": {
-    "Position": "provident",
-    "PersonId": 588,
-    "Mrmrs": "odit",
-    "Firstname": "Kim",
-    "Lastname": "Kohler",
-    "MiddleName": "Prohaska, Walker and Friesen",
-    "Title": "ad",
-    "Description": "Total fault-tolerant algorithm",
-    "Email": "mollie_schowalter@hauck.com",
-    "FullName": "Jude Torp",
-    "DirectPhone": "540-788-5613 x14038",
-    "FormalName": "Daugherty, Thompson and Glover",
-    "CountryId": 275,
-    "ContactId": 680,
-    "ContactName": "Hamill Group",
-    "Retired": 236,
-    "Rank": 434,
-    "ActiveInterests": 150,
+    "Position": "sint",
+    "PersonId": 58,
+    "Mrmrs": "possimus",
+    "Firstname": "Cheyenne",
+    "Lastname": "Goldner",
+    "MiddleName": "Reinger Inc and Sons",
+    "Title": "autem",
+    "Description": "Team-oriented regional capacity",
+    "Email": "althea_rosenbaum@prohaska.uk",
+    "FullName": "Cory Blick",
+    "DirectPhone": "316.468.4804 x8063",
+    "FormalName": "Miller, Kirlin and Donnelly",
+    "CountryId": 138,
+    "ContactId": 974,
+    "ContactName": "Bailey-Medhurst",
+    "Retired": 402,
+    "Rank": 879,
+    "ActiveInterests": 596,
     "ContactDepartment": "",
-    "ContactCountryId": 597,
-    "ContactOrgNr": "1119282",
-    "FaxPhone": "652.274.5226 x725",
-    "MobilePhone": "(663)105-2514",
-    "ContactPhone": "1-255-780-7647",
-    "AssociateName": "Casper-Predovic",
-    "AssociateId": 879,
-    "UsePersonAddress": false,
-    "ContactFax": "hic",
-    "Kanafname": "doloribus",
-    "Kanalname": "quasi",
-    "Post1": "voluptatibus",
-    "Post2": "ea",
-    "Post3": "esse",
-    "EmailName": "berry@block.info",
-    "ContactFullName": "Karlie Towne Jr.",
-    "ActiveErpLinks": 521,
-    "TicketPriorityId": 346,
-    "SupportLanguageId": 591,
-    "SupportAssociateId": 56,
+    "ContactCountryId": 956,
+    "ContactOrgNr": "653505",
+    "FaxPhone": "404-654-3582 x1755",
+    "MobilePhone": "(127)285-0023 x4251",
+    "ContactPhone": "583-738-1620 x052",
+    "AssociateName": "Hettinger, Donnelly and Bailey",
+    "AssociateId": 735,
+    "UsePersonAddress": true,
+    "ContactFax": "corporis",
+    "Kanafname": "optio",
+    "Kanalname": "accusantium",
+    "Post1": "repellat",
+    "Post2": "nostrum",
+    "Post3": "quia",
+    "EmailName": "jazmyn_pouros@kirlin.us",
+    "ContactFullName": "Alexis Kunde",
+    "ActiveErpLinks": 541,
+    "TicketPriorityId": 238,
+    "SupportLanguageId": 926,
+    "SupportAssociateId": 51,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -456,24 +456,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   },
   "Deleted": false,
-  "Lastlogin": "2002-10-02T15:05:43.1668995+02:00",
-  "Lastlogout": "2013-05-01T15:05:43.1668995+02:00",
-  "EjUserId": 301,
-  "RequestSignature": "corporis",
+  "Lastlogin": "2005-10-02T18:25:51.5031195+02:00",
+  "Lastlogout": "2010-07-06T18:25:51.5031195+02:00",
+  "EjUserId": 766,
+  "RequestSignature": "atque",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": {},
-      "Value": "eius",
-      "DisplayValue": "at",
+      "Value": "sapiente",
+      "DisplayValue": "rem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -481,15 +481,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     },
     {
       "Type": {},
-      "Value": "eius",
-      "DisplayValue": "at",
+      "Value": "sapiente",
+      "DisplayValue": "rem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -497,30 +497,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
   ],
-  "UserName": "Emard-Reynolds",
+  "UserName": "Armstrong, Cruickshank and Rodriguez",
   "TicketCategories": [
     {
-      "Id": 8,
-      "Name": "Marks-Harris",
-      "ToolTip": "Eius et harum in velit quas veritatis.",
-      "Deleted": false,
-      "Rank": 464,
-      "Type": "similique",
+      "Id": 295,
+      "Name": "Kiehn-Heidenreich",
+      "ToolTip": "Perspiciatis praesentium voluptas reiciendis dolorum animi.",
+      "Deleted": true,
+      "Rank": 102,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illo",
-      "ColorBlock": 751,
-      "ExtraInfo": "ducimus",
-      "StyleHint": "iste",
-      "FullName": "Mrs. Elroy Dietrich",
+      "IconHint": "quisquam",
+      "ColorBlock": 410,
+      "ExtraInfo": "et",
+      "StyleHint": "et",
+      "FullName": "Oren Breitenberg",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -528,30 +528,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 611
+          "FieldType": "System.Int32",
+          "FieldLength": 714
         }
       }
     }
   ],
-  "NickName": "Skiles, Quigley and Frami",
+  "NickName": "Collier, Homenick and Rath",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "earum",
+    "CustomFields2": "sint"
   },
   "PostSaveCommands": [
     {
-      "Name": "Crona-Batz",
-      "DisplayName": "Morissette-Cartwright",
-      "Description": "Organized fault-tolerant secured line",
-      "ToolTip": "Quis quisquam temporibus.",
+      "Name": "Friesen, Herzog and Lowe",
+      "DisplayName": "Roob-Fritsch",
+      "Description": "Self-enabling executive encryption",
+      "ToolTip": "Et reiciendis quis a libero et.",
       "Actions": "Implicit",
-      "ActionData": "non",
+      "ActionData": "explicabo",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -559,8 +559,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
@@ -576,7 +576,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 305
     }
   }
 }

@@ -2,8 +2,6 @@
 title: TimeZone
 ---
 
-# TimeZone
-
 ```http
 /api/v1/TimeZone
 ```

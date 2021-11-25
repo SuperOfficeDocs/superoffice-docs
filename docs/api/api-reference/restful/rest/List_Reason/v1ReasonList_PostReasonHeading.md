@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 511,
-  "Name": "Rosenbaum, Metz and Funk",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "Rank": 527,
-  "UdListDefinitionId": 166
+  "HeadingId": 605,
+  "Name": "Botsford-Goldner",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 547,
+  "UdListDefinitionId": 555
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 345,
-  "Name": "Rau LLC",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "Rank": 126,
-  "UdListDefinitionId": 145,
+  "HeadingId": 175,
+  "Name": "Toy Group",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 529,
+  "UdListDefinitionId": 861,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

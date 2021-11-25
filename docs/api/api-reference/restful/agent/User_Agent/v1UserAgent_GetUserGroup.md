@@ -1,9 +1,9 @@
 ---
-title: GetUserGroup
+title: POST Agents/User/GetUserGroup
 id: v1UserAgent_GetUserGroup
 ---
 
-# GetUserGroup
+# POST Agents/User/GetUserGroup
 
 ```http
 POST /api/v1/Agents/User/GetUserGroup
@@ -27,7 +27,7 @@ Gets a UserGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=585
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=497
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
 
@@ -85,14 +85,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "suscipit",
-  "Tooltip": "maiores",
-  "Id": 716,
-  "Rank": 648,
-  "Deleted": false,
+  "Value": "sed",
+  "Tooltip": "sapiente",
+  "Id": 62,
+  "Rank": 77,
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synergize mission-critical e-business"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 942
     }
   }
 }

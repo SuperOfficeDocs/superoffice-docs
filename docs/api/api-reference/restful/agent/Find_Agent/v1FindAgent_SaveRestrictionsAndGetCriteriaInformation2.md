@@ -1,9 +1,9 @@
 ---
-title: SaveRestrictionsAndGetCriteriaInformation2
+title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
 ---
 
-# SaveRestrictionsAndGetCriteriaInformation2
+# POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
@@ -85,15 +85,15 @@ Response body: object
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sint",
-  "ProviderName": "Purdy-Kohler",
-  "StorageKey": "non",
-  "Restrictions": "et",
-  "StaticColumns": "iusto"
+  "StorageType": "facere",
+  "ProviderName": "Kulas LLC",
+  "StorageKey": "necessitatibus",
+  "Restrictions": "repellendus",
+  "StaticColumns": "saepe"
 }
 ```
 
@@ -104,57 +104,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Senger, Leuschke and Predovic",
-      "Operator": "harum",
+      "Name": "Treutel-Maggio",
+      "Operator": "sit",
       "Values": [
-        "explicabo",
-        "possimus"
+        "rem",
+        "quia"
       ],
       "DisplayValues": [
-        "iste",
-        "ut"
+        "ea",
+        "nostrum"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 257,
+      "InterParenthesis": 437,
       "InterOperator": "And",
-      "UniqueHash": 138
+      "UniqueHash": 559
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Boehm-Lebsack",
-      "DisplayTooltip": "voluptates",
-      "DisplayType": "nam",
-      "CanOrderBy": true,
-      "Name": "Mitchell-Labadie",
+      "DisplayName": "Denesik-Jenkins",
+      "DisplayTooltip": "quaerat",
+      "DisplayType": "illo",
+      "CanOrderBy": false,
+      "Name": "Haley-Nicolas",
       "CanRestrictBy": true,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Lemke Group",
-      "IsVisible": true,
-      "ExtraInfo": "pariatur",
-      "Width": "distinctio",
-      "IconHint": "perspiciatis",
-      "HeadingIconHint": "eaque"
+      "RestrictionType": "et",
+      "RestrictionListName": "Kemmer Group",
+      "IsVisible": false,
+      "ExtraInfo": "ducimus",
+      "Width": "expedita",
+      "IconHint": "consequuntur",
+      "HeadingIconHint": "dolores"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Barrows-Farrell",
-      "PrimaryKey": 596,
+      "EntityName": "Boyle-Botsford",
+      "PrimaryKey": 867,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eligendi",
-          "TooltipHint": "dolor",
-          "LinkHint": "aut"
+          "DisplayValue": "quo",
+          "TooltipHint": "autem",
+          "LinkHint": "quidem"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "non",
+      "LinkHint": "iste",
+      "StyleHint": "ut",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -162,26 +162,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldType": "System.String",
+          "FieldLength": 355
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Spencer-Ward",
-      "Description": "Cross-platform intangible algorithm",
-      "Rank": 606,
+      "Name": "Bahringer, Grant and Cremin",
+      "Description": "Enhanced object-oriented Graphic Interface",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Spencer-Ward",
-      "Description": "Cross-platform intangible algorithm",
-      "Rank": 606,
+      "Name": "Bahringer, Grant and Cremin",
+      "Description": "Enhanced object-oriented Graphic Interface",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

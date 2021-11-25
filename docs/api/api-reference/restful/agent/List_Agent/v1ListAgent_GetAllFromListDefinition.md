@@ -1,9 +1,9 @@
 ---
-title: GetAllFromListDefinition
+title: POST Agents/List/GetAllFromListDefinition
 id: v1ListAgent_GetAllFromListDefinition
 ---
 
-# GetAllFromListDefinition
+# POST Agents/List/GetAllFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetAllFromListDefinition
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 654,
+  "UdListDefinitionId": 266,
   "IncludeDeleted": false
 }
 ```
@@ -94,12 +94,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Sporer-Wolff",
-    "Tooltip": "ratione",
+    "Id": 113,
+    "Name": "Larkin-Hodkiewicz",
+    "Tooltip": "ex",
     "Deleted": false,
-    "UdListDefinitionId": 876,
-    "Rank": 903,
+    "UdListDefinitionId": 760,
+    "Rank": 125,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldLength": 537
       }
     }
   }

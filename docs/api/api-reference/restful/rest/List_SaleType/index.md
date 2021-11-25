@@ -2,8 +2,6 @@
 title: List_SaleType
 ---
 
-# List_SaleType
-
 ```http
 /api/v1/List/SaleType
 ```

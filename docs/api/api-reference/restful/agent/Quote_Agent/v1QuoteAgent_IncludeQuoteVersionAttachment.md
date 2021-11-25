@@ -1,9 +1,9 @@
 ---
-title: IncludeQuoteVersionAttachment
+title: POST Agents/Quote/IncludeQuoteVersionAttachment
 id: v1QuoteAgent_IncludeQuoteVersionAttachment
 ---
 
-# IncludeQuoteVersionAttachment
+# POST Agents/Quote/IncludeQuoteVersionAttachment
 
 ```http
 POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 531,
-  "DocumentId": 959,
+  "QuoteVersionId": 750,
+  "DocumentId": 144,
   "Include": true
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetMyDiary
+title: POST Agents/Appointment/GetMyDiary
 id: v1AppointmentAgent_GetMyDiary
 ---
 
-# GetMyDiary
+# POST Agents/Appointment/GetMyDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyDiary
@@ -127,9 +127,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2006-01-14T14:58:03.0435384+01:00",
-  "EndTime": "2010-01-06T14:58:03.0435384+01:00",
-  "Count": 812
+  "StartTime": "2013-01-18T18:28:47.8868444+01:00",
+  "EndTime": "1999-11-04T18:28:47.8868444+01:00",
+  "Count": 363
 }
 ```
 
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 473,
-    "StartDate": "2019-03-16T14:58:03.0445384+01:00",
-    "EndDate": "2008-11-01T14:58:03.0445384+01:00",
+    "AppointmentId": 363,
+    "StartDate": "1995-01-12T18:28:47.8878456+01:00",
+    "EndDate": "2014-03-25T18:28:47.8878456+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsa",
-    "AssociateFullName": "Garnet DuBuque",
-    "ContactName": "Abbott, Tremblay and Batz",
-    "Description": "Persistent full-range forecast",
-    "PersonFullName": "Marlen Altenwerth",
-    "PersonId": 149,
-    "ContactId": 777,
-    "ProjectId": 481,
-    "ProjectName": "Botsford Group",
-    "IsPublished": true,
-    "AssociateId": 77,
-    "ColorIndex": 870,
+    "Task": "nemo",
+    "AssociateFullName": "Demarcus Mills",
+    "ContactName": "Wiegand Inc and Sons",
+    "Description": "Extended discrete moderator",
+    "PersonFullName": "Edmund Armstrong",
+    "PersonId": 551,
+    "ContactId": 803,
+    "ProjectId": 906,
+    "ProjectName": "Klein-Gottlieb",
+    "IsPublished": false,
+    "AssociateId": 335,
+    "ColorIndex": 345,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 225,
-    "PriorityName": "Gislason LLC",
+    "PriorityId": 625,
+    "PriorityName": "Johnston Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2001-08-02T14:58:03.0455383+02:00",
+    "ActiveDate": "2008-05-02T18:28:47.8888452+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-03-06T14:58:03.0455383+01:00",
-    "RecurringEndDate": "2003-11-10T14:58:03.0455383+01:00",
-    "MotherId": 61,
-    "AssignedBy": 490,
-    "AssignedByFullName": "Loraine Walter",
-    "RejectReason": "evolve rich networks",
-    "Location": "nulla",
-    "AlarmLeadTime": "delectus",
-    "SaleId": 421,
-    "SaleName": "Bradtke, Weimann and O'Kon",
-    "AssociateName": "Skiles, Hansen and Beer",
-    "CreatedDate": "2000-03-30T14:58:03.0455383+02:00",
-    "CreatedBy": "dolorum",
-    "CreatedByFullName": "Harrison Bayer",
-    "CreatedByAssociateId": 574,
+    "RecurringStartDate": "1996-01-08T18:28:47.8888452+01:00",
+    "RecurringEndDate": "2001-07-15T18:28:47.8888452+02:00",
+    "MotherId": 251,
+    "AssignedBy": 491,
+    "AssignedByFullName": "Bernard Murray",
+    "RejectReason": "generate proactive networks",
+    "Location": "alias",
+    "AlarmLeadTime": "quaerat",
+    "SaleId": 967,
+    "SaleName": "Luettgen Group",
+    "AssociateName": "Hane Inc and Sons",
+    "CreatedDate": "1998-09-11T18:28:47.8888452+02:00",
+    "CreatedBy": "corrupti",
+    "CreatedByFullName": "Mrs. Dallas Becker",
+    "CreatedByAssociateId": 790,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldLength": 96
       }
     }
   }

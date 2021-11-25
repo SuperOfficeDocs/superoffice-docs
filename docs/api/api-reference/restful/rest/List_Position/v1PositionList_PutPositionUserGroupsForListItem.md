@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Dare LLC",
-    "ToolTip": "Occaecati aut eveniet.",
-    "Deleted": true,
-    "Rank": 623,
-    "Type": "perferendis",
-    "ColorBlock": 741,
-    "IconHint": "omnis",
+    "Id": 900,
+    "Name": "Lemke-Stiedemann",
+    "ToolTip": "Rerum incidunt natus beatae velit omnis.",
+    "Deleted": false,
+    "Rank": 143,
+    "Type": "ut",
+    "ColorBlock": 974,
+    "IconHint": "voluptas",
     "Selected": true,
-    "LastChanged": "2002-08-04T15:05:43.5760796+02:00",
+    "LastChanged": "2015-06-16T18:25:51.9602412+02:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Bode-Moore",
-        "ToolTip": "Asperiores nostrum.",
+        "Id": 640,
+        "Name": "Hessel Inc and Sons",
+        "ToolTip": "Ut non.",
         "Deleted": false,
-        "Rank": 943,
-        "Type": "aliquam",
-        "ColorBlock": 473,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2015-02-10T15:05:43.5770797+01:00",
+        "Rank": 759,
+        "Type": "quidem",
+        "ColorBlock": 27,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2003-08-01T18:25:51.9602412+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Jamil Russel"
+        "ExtraInfo": "eum",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Johnny Trantow"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Jeanne Ledner"
+    "ExtraInfo": "ut",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Mariam Walsh"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Osinski-Gulgowski",
-    "ToolTip": "Voluptates non beatae.",
-    "Deleted": true,
-    "Rank": 637,
-    "Type": "voluptatem",
-    "ColorBlock": 89,
-    "IconHint": "laudantium",
+    "Id": 559,
+    "Name": "O'Connell, Welch and Jacobson",
+    "ToolTip": "Doloribus reprehenderit.",
+    "Deleted": false,
+    "Rank": 735,
+    "Type": "aliquid",
+    "ColorBlock": 291,
+    "IconHint": "minima",
     "Selected": true,
-    "LastChanged": "1999-03-26T15:05:43.5780797+01:00",
+    "LastChanged": "2000-05-28T18:25:51.9622457+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Kozey Inc and Sons",
-        "ToolTip": "Possimus in quae aut.",
-        "Deleted": true,
-        "Rank": 303,
-        "Type": "unde",
-        "ColorBlock": 249,
-        "IconHint": "alias",
+        "Id": 149,
+        "Name": "Eichmann, Beatty and Osinski",
+        "ToolTip": "Ut aut.",
+        "Deleted": false,
+        "Rank": 852,
+        "Type": "voluptas",
+        "ColorBlock": 152,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2013-01-12T15:05:43.5780797+01:00",
+        "LastChanged": "2016-01-15T18:25:51.9622457+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Lea Armstrong",
+        "ExtraInfo": "quos",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Jodie Davis",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 195
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "commodi",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Jenifer Russel",
+    "FullName": "Triston Stark",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

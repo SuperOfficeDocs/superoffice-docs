@@ -2,8 +2,6 @@
 title: Contact
 ---
 
-# Contact
-
 ```http
 /api/v1/Contact
 ```

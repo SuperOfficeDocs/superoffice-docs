@@ -1,9 +1,9 @@
 ---
-title: GetContactAppointmentsByTaskHeading
+title: POST Agents/Appointment/GetContactAppointmentsByTaskHeading
 id: v1AppointmentAgent_GetContactAppointmentsByTaskHeading
 ---
 
-# GetContactAppointmentsByTaskHeading
+# POST Agents/Appointment/GetContactAppointmentsByTaskHeading
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 856,
-  "StartTime": "2014-04-20T14:58:02.8715731+02:00",
-  "EndTime": "2021-02-26T14:58:02.8715731+01:00",
-  "Count": 80,
-  "TaskHeadingId": 955
+  "ContactId": 471,
+  "StartTime": "1994-07-16T18:28:47.7208141+02:00",
+  "EndTime": "2015-02-02T18:28:47.7208141+01:00",
+  "Count": 733,
+  "TaskHeadingId": 807
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 731,
-    "StartDate": "2007-04-05T14:58:02.8735732+02:00",
-    "EndDate": "2002-04-03T14:58:02.8735732+02:00",
+    "AppointmentId": 906,
+    "StartDate": "2017-03-30T18:28:47.7228442+02:00",
+    "EndDate": "2016-08-23T18:28:47.7228442+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Juana Mraz",
-    "ContactName": "Kemmer Inc and Sons",
-    "Description": "Reactive contextually-based methodology",
-    "PersonFullName": "Tyler Bergstrom PhD",
-    "PersonId": 254,
-    "ContactId": 623,
-    "ProjectId": 355,
-    "ProjectName": "Lindgren-Leannon",
+    "Task": "eius",
+    "AssociateFullName": "Sigurd Berge V",
+    "ContactName": "Walter, Okuneva and Spinka",
+    "Description": "Managed mission-critical installation",
+    "PersonFullName": "Heloise Legros",
+    "PersonId": 35,
+    "ContactId": 647,
+    "ProjectId": 937,
+    "ProjectName": "Swift Group",
     "IsPublished": true,
-    "AssociateId": 206,
-    "ColorIndex": 635,
-    "IsFree": false,
+    "AssociateId": 536,
+    "ColorIndex": 804,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 462,
-    "PriorityName": "Crona-Ruecker",
+    "PriorityId": 74,
+    "PriorityName": "Glover, O'Reilly and Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-03-19T14:58:02.8735732+01:00",
+    "ActiveDate": "2013-12-14T18:28:47.7228442+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-12-31T14:58:02.8735732+01:00",
-    "RecurringEndDate": "2015-03-14T14:58:02.8735732+01:00",
-    "MotherId": 135,
-    "AssignedBy": 33,
-    "AssignedByFullName": "Casandra Olson",
+    "RecurringStartDate": "2008-03-31T18:28:47.7228442+02:00",
+    "RecurringEndDate": "2018-07-21T18:28:47.7228442+02:00",
+    "MotherId": 787,
+    "AssignedBy": 144,
+    "AssignedByFullName": "Mrs. Casper Gerhold",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "dolorem",
-    "SaleId": 962,
-    "SaleName": "Bernhard LLC",
-    "AssociateName": "Goyette, Hartmann and Larkin",
-    "CreatedDate": "1998-02-08T14:58:02.8735732+01:00",
-    "CreatedBy": "beatae",
-    "CreatedByFullName": "Eleanora Morar",
-    "CreatedByAssociateId": 289,
+    "Location": "error",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 641,
+    "SaleName": "Bayer Inc and Sons",
+    "AssociateName": "Wyman-McGlynn",
+    "CreatedDate": "2020-01-05T18:28:47.7238451+01:00",
+    "CreatedBy": "earum",
+    "CreatedByFullName": "Lucio Macejkovic DDS",
+    "CreatedByAssociateId": 207,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 37
       }
     }
   }

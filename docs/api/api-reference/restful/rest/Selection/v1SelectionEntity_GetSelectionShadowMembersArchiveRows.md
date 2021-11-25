@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,19 +81,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "velit",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 4136,
-      "EntityName": "person",
-      "personId": 4136,
-      "fullName": "Buddy Boyer"
+      "PrimaryKey": 9064,
+      "EntityName": "sale",
+      "saleId": 9064,
+      "contactId": 3294,
+      "name": "Klein-Hackett"
     },
     {
-      "PrimaryKey": 6932,
-      "EntityName": "person",
-      "personId": 6932,
-      "fullName": "Cristal Beer"
+      "PrimaryKey": 7126,
+      "EntityName": "sale",
+      "saleId": 7126,
+      "contactId": 4554,
+      "name": "Cummings-Zemlak"
     }
   ]
 }

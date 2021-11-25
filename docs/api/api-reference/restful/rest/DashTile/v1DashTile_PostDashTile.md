@@ -88,34 +88,34 @@ Response body: object
 POST /api/v1/DashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 926,
-  "DashboardId": 477,
-  "Height": 121,
-  "Width": 163,
-  "Rank": 565,
+  "DashboardTileId": 71,
+  "DashboardId": 995,
+  "Height": 368,
+  "Width": 423,
+  "Rank": 779,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 275,
-    "Name": "Towne, McCullough and Romaguera",
-    "Description": "Cloned demand-driven budgetary management",
-    "DefaultHeight": 731,
-    "DefaultWidth": 429,
+    "DashboardTileDefinitionId": 281,
+    "Name": "Klein-Stehr",
+    "Description": "Total 24/7 Graphical User Interface",
+    "DefaultHeight": 373,
+    "DefaultWidth": 421,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Torphy LLC",
-    "SelectionId": 697,
+    "EntityName": "Harvey-Mueller",
+    "SelectionId": 183,
     "CurrencyMode": "Base",
-    "CurrencyId": 14,
+    "CurrencyCode": "voluptate",
     "Measure": "Average",
-    "MeasureField": "et",
-    "SortBy": "sequi",
-    "LayoutConfig": "illo",
-    "SecondarySelectionId": 64,
-    "MeasureByField": "animi",
-    "ProviderName": "Bechtelar Inc and Sons"
+    "MeasureField": "quo",
+    "SortBy": "voluptatibus",
+    "LayoutConfig": "cupiditate",
+    "SecondarySelectionId": 870,
+    "MeasureByField": "ipsa",
+    "ProviderName": "Crist, Braun and Wuckert"
   }
 }
 ```
@@ -125,30 +125,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 600,
-  "DashboardId": 949,
-  "Height": 126,
-  "Width": 198,
-  "Rank": 458,
+  "DashboardTileId": 328,
+  "DashboardId": 987,
+  "Height": 840,
+  "Width": 1001,
+  "Rank": 522,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 767,
-    "Name": "Shields, Stehr and Jacobi",
-    "Description": "Cross-platform 24/7 array",
-    "DefaultHeight": 122,
-    "DefaultWidth": 823,
+    "DashboardTileDefinitionId": 970,
+    "Name": "Boehm-Ankunding",
+    "Description": "Intuitive multi-tasking encryption",
+    "DefaultHeight": 786,
+    "DefaultWidth": 365,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Simonis, Gutmann and Witting",
-    "SelectionId": 503,
+    "EntityName": "Kirlin Inc and Sons",
+    "SelectionId": 399,
     "CurrencyMode": "Base",
-    "CurrencyId": 221,
+    "CurrencyCode": "accusamus",
     "Measure": "Average",
-    "MeasureField": "ullam",
-    "SortBy": "ea",
-    "LayoutConfig": "perspiciatis",
-    "SecondarySelectionId": 649,
-    "MeasureByField": "tempora",
-    "ProviderName": "Roberts, Beer and Koepp",
+    "MeasureField": "maiores",
+    "SortBy": "aliquid",
+    "LayoutConfig": "recusandae",
+    "SecondarySelectionId": 563,
+    "MeasureByField": "dolores",
+    "ProviderName": "Reinger-Huels",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 289
       }
     }
   },
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldLength": 977
     }
   },
   "_Links": {

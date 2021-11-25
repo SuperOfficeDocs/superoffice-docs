@@ -1,9 +1,9 @@
 ---
-title: GetDuplicates
+title: POST Agents/Contact/GetDuplicates
 id: v1ContactAgent_GetDuplicates
 ---
 
-# GetDuplicates
+# POST Agents/Contact/GetDuplicates
 
 ```http
 POST /api/v1/Agents/Contact/GetDuplicates
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weimann-Boyer"
+  "Name": "Gibson Group"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "O'Connell Inc and Sons",
-    "SoPrimaryKey": 954,
-    "EntryName": "Macejkovic, Gottlieb and O'Reilly",
-    "EntryIdentifier": "voluptas",
-    "RuleDisplayName": "Tremblay, Block and Ullrich",
+    "RuleName": "Nader LLC",
+    "SoPrimaryKey": 474,
+    "EntryName": "Senger, Hackett and Kirlin",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Kilback-Kuhn",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,10 +104,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "morph visionary e-services"
         },
-        "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldType": "System.Int32",
+        "FieldLength": 404
       }
     }
   }

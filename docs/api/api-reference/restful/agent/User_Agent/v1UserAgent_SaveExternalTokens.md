@@ -1,9 +1,9 @@
 ---
-title: SaveExternalTokens
+title: POST Agents/User/SaveExternalTokens
 id: v1UserAgent_SaveExternalTokens
 ---
 
-# SaveExternalTokens
+# POST Agents/User/SaveExternalTokens
 
 ```http
 POST /api/v1/Agents/User/SaveExternalTokens
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TokenManagementInfo": {
-    "Provider": "exercitationem",
-    "AccessToken": "dolores",
-    "RefreshToken": "consequuntur"
+    "Provider": "et",
+    "AccessToken": "fugit",
+    "RefreshToken": "odit"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"et"
 ```

@@ -1,9 +1,9 @@
 ---
-title: SetAutoEnableTravelAreas
+title: POST Agents/FreeText/SetAutoEnableTravelAreas
 id: v1FreeTextAgent_SetAutoEnableTravelAreas
 ---
 
-# SetAutoEnableTravelAreas
+# POST Agents/FreeText/SetAutoEnableTravelAreas
 
 ```http
 POST /api/v1/Agents/FreeText/SetAutoEnableTravelAreas

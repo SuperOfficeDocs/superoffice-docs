@@ -1,9 +1,9 @@
 ---
-title: GetConnection
+title: POST Agents/ErpSync/GetConnection
 id: v1ErpSyncAgent_GetConnection
 ---
 
-# GetConnection
+# POST Agents/ErpSync/GetConnection
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnection
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 114
+  "ErpConnectionId": 330
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 147,
-  "ErpConnectorId": 269,
-  "DisplayName": "Senger, Watsica and Durgan",
-  "DisplayDescription": "Open-source value-added moratorium",
+  "ErpConnectionId": 576,
+  "ErpConnectorId": 30,
+  "DisplayName": "Harvey-Russel",
+  "DisplayDescription": "Organized impactful collaboration",
   "Active": false,
-  "ConnectionId": "quo",
-  "MostRecentTimestamp": "eos",
+  "ConnectionId": "voluptas",
+  "MostRecentTimestamp": "illo",
   "ConfigFields": {
-    "ConfigFields1": "fugiat",
-    "ConfigFields2": "minima"
+    "ConfigFields1": "itaque",
+    "ConfigFields2": "quod"
   },
   "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    926,
-    593
+    948,
+    507
   ],
   "AssociateAccessIds": [
-    103,
-    119
+    262,
+    152
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -133,10 +133,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "leverage killer infomediaries"
       },
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 679
     }
   }
 }

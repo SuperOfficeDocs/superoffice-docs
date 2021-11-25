@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Name": "Hintz, Bosco and Bogisich",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 867,
-  "Rank": 20
+  "Id": 550,
+  "Name": "Goodwin Group",
+  "Tooltip": "ullam",
+  "Deleted": true,
+  "UdListDefinitionId": 709,
+  "Rank": 313
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Nader Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 55,
-  "Rank": 380,
+  "Id": 949,
+  "Name": "Hyatt LLC",
+  "Tooltip": "minus",
+  "Deleted": true,
+  "UdListDefinitionId": 811,
+  "Rank": 188,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "harness revolutionary bandwidth"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   }
 }

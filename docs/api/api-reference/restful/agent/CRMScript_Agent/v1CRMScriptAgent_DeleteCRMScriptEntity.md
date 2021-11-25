@@ -1,9 +1,9 @@
 ---
-title: DeleteCRMScriptEntity
+title: POST Agents/CRMScript/DeleteCRMScriptEntity
 id: v1CRMScriptAgent_DeleteCRMScriptEntity
 ---
 
-# DeleteCRMScriptEntity
+# POST Agents/CRMScript/DeleteCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity
@@ -26,7 +26,7 @@ Deletes the CRMScriptEntity
 | CRMScriptEntityId | int32 | **Required** The id of the CRMScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=223
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?CRMScriptEntityId=142
 ```
 
 

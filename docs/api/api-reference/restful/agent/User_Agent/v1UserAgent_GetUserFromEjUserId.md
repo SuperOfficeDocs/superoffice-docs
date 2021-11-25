@@ -1,9 +1,9 @@
 ---
-title: GetUserFromEjUserId
+title: POST Agents/User/GetUserFromEjUserId
 id: v1UserAgent_GetUserFromEjUserId
 ---
 
-# GetUserFromEjUserId
+# POST Agents/User/GetUserFromEjUserId
 
 ```http
 POST /api/v1/Agents/User/GetUserFromEjUserId
@@ -99,11 +99,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 572
+  "EjUserId": 622
 }
 ```
 
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 705,
-    "Name": "Nicolas-Stracke",
-    "Rank": 801,
-    "Tooltip": "rem",
+    "AssociateId": 737,
+    "Name": "Hamill, Little and Baumbach",
+    "Rank": 476,
+    "Tooltip": "laboriosam",
     "LicenseOwners": [
       {
-        "Name": "Lockman-Hayes",
-        "Description": "Triple-buffered cohesive paradigm",
+        "Name": "Lesch-Aufderhar",
+        "Description": "Distributed user-facing algorithm",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldLength": 207
           }
         }
       },
       {
-        "Name": "Lockman-Hayes",
-        "Description": "Triple-buffered cohesive paradigm",
+        "Name": "Lesch-Aufderhar",
+        "Description": "Distributed user-facing algorithm",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -160,15 +160,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldLength": 207
           }
         }
       }
     ],
     "Role": {
-      "Id": 870,
-      "Value": "iste",
-      "Tooltip": "quod",
+      "Id": 36,
+      "Value": "illo",
+      "Tooltip": "est",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -176,16 +176,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 732
         }
       }
     },
     "UserGroup": {
-      "Value": "quia",
-      "Tooltip": "dicta",
-      "Id": 460,
-      "Rank": 263,
+      "Value": "neque",
+      "Tooltip": "iste",
+      "Id": 494,
+      "Rank": 939,
       "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
@@ -194,18 +194,18 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     },
     "OtherGroups": [
       {
-        "Value": "quis",
-        "Tooltip": "aspernatur",
-        "Id": 877,
-        "Rank": 286,
-        "Deleted": false,
+        "Value": "sed",
+        "Tooltip": "molestiae",
+        "Id": 131,
+        "Rank": 280,
+        "Deleted": true,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -214,51 +214,51 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldLength": 101
           }
         }
       }
     ],
     "Person": {
-      "Position": "aliquam",
-      "PersonId": 814,
-      "Mrmrs": "illo",
-      "Firstname": "Celestine",
-      "Lastname": "Jacobs",
-      "MiddleName": "Gerlach, Johnson and Ankunding",
-      "Title": "occaecati",
-      "Description": "Focused regional implementation",
-      "Email": "lucile.ledner@smitham.ca",
-      "FullName": "Jada Farrell",
-      "DirectPhone": "(307)851-5241 x876",
-      "FormalName": "Rutherford-Schumm",
-      "CountryId": 68,
-      "ContactId": 324,
-      "ContactName": "Bogan, Schuster and Streich",
-      "Retired": 512,
-      "Rank": 995,
-      "ActiveInterests": 122,
+      "Position": "tenetur",
+      "PersonId": 796,
+      "Mrmrs": "explicabo",
+      "Firstname": "Ward",
+      "Lastname": "Abshire",
+      "MiddleName": "Gleichner LLC",
+      "Title": "maxime",
+      "Description": "Mandatory client-driven encoding",
+      "Email": "julianne.krajcik@ebert.co.uk",
+      "FullName": "Jerrod Ferry",
+      "DirectPhone": "1-536-341-0216",
+      "FormalName": "Spinka-Kub",
+      "CountryId": 974,
+      "ContactId": 668,
+      "ContactName": "Marvin, Renner and Schimmel",
+      "Retired": 438,
+      "Rank": 749,
+      "ActiveInterests": 836,
       "ContactDepartment": "",
-      "ContactCountryId": 169,
-      "ContactOrgNr": "731015",
-      "FaxPhone": "1-161-473-2281",
-      "MobilePhone": "133-062-2684",
-      "ContactPhone": "1-515-447-7007 x210",
-      "AssociateName": "Morissette Inc and Sons",
-      "AssociateId": 648,
-      "UsePersonAddress": true,
-      "ContactFax": "omnis",
-      "Kanafname": "libero",
-      "Kanalname": "harum",
-      "Post1": "beatae",
-      "Post2": "eum",
-      "Post3": "voluptas",
-      "EmailName": "alejandrin_paucek@bartell.us",
-      "ContactFullName": "Hunter Krajcik",
-      "ActiveErpLinks": 917,
-      "TicketPriorityId": 130,
-      "SupportLanguageId": 359,
-      "SupportAssociateId": 928,
+      "ContactCountryId": 808,
+      "ContactOrgNr": "822713",
+      "FaxPhone": "838-147-7364 x834",
+      "MobilePhone": "711-038-0464 x867",
+      "ContactPhone": "608.716.1725",
+      "AssociateName": "Yost LLC",
+      "AssociateId": 572,
+      "UsePersonAddress": false,
+      "ContactFax": "officia",
+      "Kanafname": "enim",
+      "Kanalname": "accusamus",
+      "Post1": "vitae",
+      "Post2": "nesciunt",
+      "Post3": "commodi",
+      "EmailName": "nelson@gorczanyrussel.co.uk",
+      "ContactFullName": "Lorine Miller",
+      "ActiveErpLinks": 646,
+      "TicketPriorityId": 200,
+      "SupportLanguageId": 171,
+      "SupportAssociateId": 754,
       "CategoryName": "VIP Customer",
       "TableRight": {},
       "FieldProperties": {
@@ -268,101 +268,23 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldLength": 626
         }
       }
     },
     "Deleted": false,
-    "Lastlogin": "2003-01-02T14:58:05.5330576+01:00",
-    "Lastlogout": "2012-02-28T14:58:05.5330576+01:00",
-    "EjUserId": 396,
-    "RequestSignature": "magni",
+    "Lastlogin": "2010-03-02T18:28:50.4824405+01:00",
+    "Lastlogout": "2012-06-05T18:28:50.4824405+02:00",
+    "EjUserId": 519,
+    "RequestSignature": "blanditiis",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
         "Type": {},
-        "Value": "voluptatum",
-        "DisplayValue": "molestiae",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "e-enable 24/7 portals"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 196
-          }
-        }
-      },
-      {
-        "Type": {},
-        "Value": "voluptatum",
-        "DisplayValue": "molestiae",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "e-enable 24/7 portals"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 196
-          }
-        }
-      }
-    ],
-    "UserName": "Homenick-Hahn",
-    "TicketCategories": [
-      {
-        "Id": 609,
-        "Name": "Gulgowski LLC",
-        "ToolTip": "Sint nihil commodi facilis voluptatem.",
-        "Deleted": true,
-        "Rank": 374,
-        "Type": "laborum",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "sunt",
-        "ColorBlock": 555,
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "FullName": "Junius Bechtelar",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 692
-          }
-        }
-      }
-    ],
-    "NickName": "Buckridge, O'Reilly and Lemke",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "quod",
-      "ExtraFields2": "iusto"
-    },
-    "CustomFields": {
-      "CustomFields1": "ducimus",
-      "CustomFields2": "exercitationem"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Simonis-Torp",
-        "DisplayName": "Greenfelder Inc and Sons",
-        "Description": "Face to face methodical definition",
-        "ToolTip": "Magni qui excepturi asperiores ad dolorum.",
-        "Actions": "Implicit",
-        "ActionData": "sunt",
+        "Value": "sint",
+        "DisplayValue": "maiores",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -371,7 +293,85 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldLength": 410
+          }
+        }
+      },
+      {
+        "Type": {},
+        "Value": "sint",
+        "DisplayValue": "maiores",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.String",
+            "FieldLength": 410
+          }
+        }
+      }
+    ],
+    "UserName": "Casper, Schaefer and Hahn",
+    "TicketCategories": [
+      {
+        "Id": 281,
+        "Name": "Denesik, Weber and Huels",
+        "ToolTip": "Iure quia sint impedit eos.",
+        "Deleted": false,
+        "Rank": 460,
+        "Type": "qui",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "nulla",
+        "ColorBlock": 799,
+        "ExtraInfo": "officia",
+        "StyleHint": "suscipit",
+        "FullName": "Tyshawn Mayer",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.String",
+            "FieldLength": 213
+          }
+        }
+      }
+    ],
+    "NickName": "Legros-Torp",
+    "WaitingForApproval": true,
+    "ExtraFields": {
+      "ExtraFields1": "tempore",
+      "ExtraFields2": "neque"
+    },
+    "CustomFields": {
+      "CustomFields1": "voluptatem",
+      "CustomFields2": "deleniti"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Von-Block",
+        "DisplayName": "Farrell-Leffler",
+        "Description": "Exclusive tertiary alliance",
+        "ToolTip": "Aut dolorem velit qui earum.",
+        "Actions": "Implicit",
+        "ActionData": "ea",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.String",
+            "FieldLength": 965
           }
         }
       }
@@ -386,8 +386,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

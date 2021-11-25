@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 563,
-    "Name": "Stark LLC",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 170,
-    "UdListDefinitionId": 460
+    "HeadingId": 398,
+    "Name": "Bauch, Goodwin and Labadie",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 175,
+    "UdListDefinitionId": 131
   },
   {
-    "HeadingId": 563,
-    "Name": "Stark LLC",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 170,
-    "UdListDefinitionId": 460
+    "HeadingId": 398,
+    "Name": "Bauch, Goodwin and Labadie",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 175,
+    "UdListDefinitionId": 131
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 10,
-    "Name": "Botsford Group",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 276,
-    "UdListDefinitionId": 852,
+    "HeadingId": 197,
+    "Name": "Padberg, Wiza and Erdman",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 189,
+    "UdListDefinitionId": 501,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldLength": 237
       }
     }
   }

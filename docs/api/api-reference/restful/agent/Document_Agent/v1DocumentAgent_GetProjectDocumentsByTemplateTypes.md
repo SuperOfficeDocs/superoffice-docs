@@ -1,9 +1,9 @@
 ---
-title: GetProjectDocumentsByTemplateTypes
+title: POST Agents/Document/GetProjectDocumentsByTemplateTypes
 id: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
 ---
 
-# GetProjectDocumentsByTemplateTypes
+# POST Agents/Document/GetProjectDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 265,
-  "StartTime": "1996-03-22T14:58:03.8214656+01:00",
-  "EndTime": "2007-07-23T14:58:03.8214656+02:00",
-  "Count": 391,
+  "ProjectId": 72,
+  "StartTime": "1996-02-29T18:28:48.7179566+01:00",
+  "EndTime": "2008-02-16T18:28:48.7179566+01:00",
+  "Count": 716,
   "DocumentTemplateIds": [
-    459,
-    688
+    11,
+    263
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 890,
-    "Attention": "magnam",
-    "Header": "facere",
-    "Name": "Wilderman-Runte",
-    "OurRef": "ipsam",
-    "YourRef": "sapiente",
-    "Description": "Mandatory logistical capacity",
+    "DocumentId": 222,
+    "Attention": "ut",
+    "Header": "autem",
+    "Name": "Kub-Rice",
+    "OurRef": "eveniet",
+    "YourRef": "autem",
+    "Description": "Operative cohesive benchmark",
     "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 86,
-    "PersonFullName": "Vicente Koelpin",
-    "AssociateFullName": "Melissa Shields",
-    "ContactId": 567,
-    "ContactName": "Beer, Prosacco and Frami",
-    "ProjectId": 734,
-    "ProjectName": "Parker, Quigley and Dibbert",
-    "AssociateId": 696,
-    "Snum": 820,
+    "PersonId": 693,
+    "PersonFullName": "Burdette Friesen",
+    "AssociateFullName": "Josianne Collier",
+    "ContactId": 936,
+    "ContactName": "Veum, Feest and Schulist",
+    "ProjectId": 61,
+    "ProjectName": "Stehr, Block and Hettinger",
+    "AssociateId": 388,
+    "Snum": 103,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 382
       }
     }
   }

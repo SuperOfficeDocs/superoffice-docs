@@ -1,9 +1,9 @@
 ---
-title: GetEMailEnvelopes
+title: POST Agents/EMail/GetEMailEnvelopes
 id: v1EMailAgent_GetEMailEnvelopes
 ---
 
-# GetEMailEnvelopes
+# POST Agents/EMail/GetEMailEnvelopes
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
@@ -85,19 +85,19 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Mertz, Beer and D'Amore",
-    "UserName": "Langosh-Braun",
-    "Password": "similique",
-    "Folder": "eius",
-    "UseSSL": false
+    "ServerName": "Feil-Langworth",
+    "UserName": "Hintz Inc and Sons",
+    "Password": "numquam",
+    "Folder": "libero",
+    "UseSSL": true
   },
   "MessageServerIds": [
-    812,
+    612,
     267
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 283,
-    "MessageId": "aut",
-    "Subject": "totam",
+    "ServerId": 367,
+    "MessageId": "in",
+    "Subject": "in",
     "From": {
-      "ContactId": 157,
-      "ContactName": "Macejkovic-Emard",
-      "PersonId": 841,
-      "PersonName": "Armstrong LLC",
-      "AssociateId": 9,
-      "Address": "aut",
-      "EmailId": 338,
+      "ContactId": 903,
+      "ContactName": "D'Amore Group",
+      "PersonId": 474,
+      "PersonName": "Breitenberg-Stoltenberg",
+      "AssociateId": 117,
+      "Address": "alias",
+      "EmailId": 138,
       "DuplicatePersonIds": [
-        381,
-        663
+        416,
+        128
       ],
-      "Name": "Olson, Lebsack and Yost",
+      "Name": "Powlowski Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,25 +132,25 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 614
         }
       }
     },
     "To": [
       {
-        "ContactId": 381,
-        "ContactName": "Kreiger-Trantow",
-        "PersonId": 595,
-        "PersonName": "Cummings LLC",
-        "AssociateId": 46,
-        "Address": "quia",
-        "EmailId": 406,
+        "ContactId": 445,
+        "ContactName": "Schoen-Dicki",
+        "PersonId": 635,
+        "PersonName": "Wyman-Nikolaus",
+        "AssociateId": 401,
+        "Address": "voluptatem",
+        "EmailId": 414,
         "DuplicatePersonIds": [
-          433,
-          382
+          959,
+          887
         ],
-        "Name": "Hermiston Group",
+        "Name": "Beer-Hilpert",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -159,24 +159,24 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 927
           }
         }
       }
     ],
-    "Sent": "2008-08-21T14:58:04.125432+02:00",
+    "Sent": "1995-01-18T18:28:49.0419648+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 956,
+    "Size": 713,
     "EMailSOInfo": {
-      "DocumentId": 52,
-      "AppointmentId": 161,
-      "ProjectId": 261,
-      "SaleId": 758,
-      "Archived": false,
-      "ArchivedAt": "2007-11-12T14:58:04.125432+01:00",
-      "ArchivedBy": 878,
-      "ArchivedDisplayName": "Toy, Windler and Casper",
+      "DocumentId": 236,
+      "AppointmentId": 703,
+      "ProjectId": 128,
+      "SaleId": 858,
+      "Archived": true,
+      "ArchivedAt": "2009-07-05T18:28:49.0419648+02:00",
+      "ArchivedBy": 79,
+      "ArchivedDisplayName": "Wintheiser-Kling",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -185,13 +185,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldLength": 840
         }
       }
     },
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "architect synergistic models"
     },
     "FieldProperties": {
       "fieldName": {
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 242
       }
     }
   }

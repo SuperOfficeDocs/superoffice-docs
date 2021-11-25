@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -82,12 +82,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Auer, Keeling and Davis",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 736,
-    "Rank": 928,
+    "Id": 561,
+    "Name": "Hartmann Group",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 690,
+    "Rank": 821,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 319
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

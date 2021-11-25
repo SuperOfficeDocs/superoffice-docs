@@ -1,9 +1,9 @@
 ---
-title: GetArchiveConfiguration
+title: POST Agents/Archive/GetArchiveConfiguration
 id: v1ArchiveAgent_GetArchiveConfiguration
 ---
 
-# GetArchiveConfiguration
+# POST Agents/Archive/GetArchiveConfiguration
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
@@ -86,8 +86,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Simonis LLC",
-  "ProviderName": "Tillman Inc and Sons"
+  "GuiName": "Nienow-Rath",
+  "ProviderName": "Beer Group"
 }
 ```
 
@@ -98,65 +98,65 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Raynor-Kuhlman",
-      "DisplayTooltip": "natus",
-      "DisplayType": "minima",
+      "DisplayName": "Gibson, Leffler and Ebert",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "vel",
       "CanOrderBy": false,
-      "Name": "Balistreri-Aufderhar",
+      "Name": "Keebler Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Lakin-Funk",
+      "RestrictionType": "reprehenderit",
+      "RestrictionListName": "Grant, Reichel and Gulgowski",
       "IsVisible": false,
-      "ExtraInfo": "voluptatum",
-      "Width": "sed",
-      "IconHint": "impedit",
-      "HeadingIconHint": "nam"
+      "ExtraInfo": "est",
+      "Width": "aliquam",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "harum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 217,
-      "Name": "Schmeler, McGlynn and Schneider",
-      "ToolTip": "Quae necessitatibus quia.",
+      "Id": 167,
+      "Name": "Mertz Group",
+      "ToolTip": "Neque quia sit placeat repellendus.",
       "Deleted": false,
-      "Rank": 319,
-      "Type": "nemo",
-      "ColorBlock": 137,
-      "IconHint": "sed",
-      "Selected": true,
-      "LastChanged": "2008-07-18T14:58:03.2215706+02:00",
+      "Rank": 574,
+      "Type": "quidem",
+      "ColorBlock": 49,
+      "IconHint": "modi",
+      "Selected": false,
+      "LastChanged": "2000-08-28T18:28:48.0928523+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "autem",
-      "Hidden": false,
-      "FullName": "Juvenal Turcotte",
+      "ExtraInfo": "est",
+      "StyleHint": "quia",
+      "Hidden": true,
+      "FullName": "Joan Kiehn",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "morph magnetic e-markets"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 717
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Sawayn Inc and Sons",
+      "Name": "Keebler Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Sawayn Inc and Sons",
+      "Name": "Keebler Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "officia",
+  "OwnerKeys": "veniam",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 727
     }
   }
 }

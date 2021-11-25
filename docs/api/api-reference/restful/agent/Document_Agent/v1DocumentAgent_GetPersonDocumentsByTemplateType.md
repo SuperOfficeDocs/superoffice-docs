@@ -1,9 +1,9 @@
 ---
-title: GetPersonDocumentsByTemplateType
+title: POST Agents/Document/GetPersonDocumentsByTemplateType
 id: v1DocumentAgent_GetPersonDocumentsByTemplateType
 ---
 
-# GetPersonDocumentsByTemplateType
+# POST Agents/Document/GetPersonDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
@@ -99,12 +99,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 310,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2008-11-26T14:58:03.8304659+01:00",
-  "EndTime": "2001-12-14T14:58:03.8304659+01:00",
-  "Count": 791,
-  "DocumentTemplateId": 466
+  "PersonId": 997,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-05-24T18:28:48.7249281+02:00",
+  "EndTime": "2007-12-08T18:28:48.7249281+01:00",
+  "Count": 602,
+  "DocumentTemplateId": 424
 }
 ```
 
@@ -114,24 +114,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 865,
-    "Attention": "dolorum",
-    "Header": "voluptates",
-    "Name": "Rath Inc and Sons",
-    "OurRef": "perferendis",
-    "YourRef": "odio",
-    "Description": "Integrated 5th generation initiative",
-    "DocumentTemplate": "voluptate",
+    "DocumentId": 565,
+    "Attention": "architecto",
+    "Header": "blanditiis",
+    "Name": "Rohan LLC",
+    "OurRef": "inventore",
+    "YourRef": "neque",
+    "Description": "Centralized assymetric architecture",
+    "DocumentTemplate": "nobis",
     "IsPublished": true,
-    "PersonId": 517,
-    "PersonFullName": "Mrs. Brice Lockman",
-    "AssociateFullName": "Carmela Stroman",
-    "ContactId": 397,
-    "ContactName": "Casper Group",
-    "ProjectId": 610,
-    "ProjectName": "Bosco-Stark",
-    "AssociateId": 814,
-    "Snum": 254,
+    "PersonId": 150,
+    "PersonFullName": "Alisha Cummings",
+    "AssociateFullName": "Emie Steuber",
+    "ContactId": 978,
+    "ContactName": "Swaniawski Group",
+    "ProjectId": 1000,
+    "ProjectName": "Roberts, Kozey and Swift",
+    "AssociateId": 777,
+    "Snum": 123,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 128
       }
     }
   }

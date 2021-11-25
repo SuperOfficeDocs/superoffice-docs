@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Yost LLC",
-    "ToolTip": "Nobis sed vel sunt.",
+    "Id": 692,
+    "Name": "Fahey-Nikolaus",
+    "ToolTip": "Totam repellendus cupiditate.",
     "Deleted": false,
-    "Rank": 621,
-    "Type": "nihil",
-    "ColorBlock": 963,
-    "IconHint": "blanditiis",
+    "Rank": 878,
+    "Type": "nesciunt",
+    "ColorBlock": 25,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2020-07-02T15:05:43.7611171+02:00",
+    "LastChanged": "2011-01-08T18:25:52.1500186+01:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Pfeffer, Moore and Aufderhar",
-        "ToolTip": "Aut et minima quis.",
-        "Deleted": false,
-        "Rank": 714,
-        "Type": "et",
-        "ColorBlock": 959,
-        "IconHint": "suscipit",
+        "Id": 72,
+        "Name": "Mertz-Parisian",
+        "ToolTip": "Consequatur est sit repellendus id quod.",
+        "Deleted": true,
+        "Rank": 587,
+        "Type": "eum",
+        "ColorBlock": 337,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2002-06-13T15:05:43.7611171+02:00",
+        "LastChanged": "2002-08-20T18:25:52.1500186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Maxie Crona",
+        "ExtraInfo": "libero",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Rico Schuster",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldType": "System.Int32",
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "nobis",
+    "ExtraInfo": "itaque",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Tara Auer IV",
+    "FullName": "Sadye Borer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "target user-centric action-items"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 155
+        "FieldType": "System.Int32",
+        "FieldLength": 314
       }
     }
   }

@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Schimmel-Collier",
-    "ToolTip": "Animi asperiores doloremque autem et sequi.",
-    "Deleted": false,
-    "Rank": 699,
-    "Type": "ad",
-    "ColorBlock": 933,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2011-12-18T15:05:43.2705433+01:00",
+    "Id": 137,
+    "Name": "Beer, Wunsch and Schultz",
+    "ToolTip": "Et laudantium delectus explicabo.",
+    "Deleted": true,
+    "Rank": 353,
+    "Type": "amet",
+    "ColorBlock": 537,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2010-03-17T18:25:51.6402943+01:00",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Gorczany-Ledner",
-        "ToolTip": "Expedita sunt quis sunt dolores rerum modi.",
-        "Deleted": true,
-        "Rank": 17,
+        "Id": 782,
+        "Name": "Gutkowski-Shanahan",
+        "ToolTip": "Perspiciatis ab cupiditate.",
+        "Deleted": false,
+        "Rank": 895,
         "Type": "ut",
-        "ColorBlock": 712,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "1999-02-01T15:05:43.2705433+01:00",
+        "ColorBlock": 452,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2016-01-01T18:25:51.6402943+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "placeat",
+        "ExtraInfo": "aut",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Joey Simonis",
+        "FullName": "Harmon Turner",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "unleash clicks-and-mortar channels"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldType": "System.String",
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Bethel Lakin V",
+    "ExtraInfo": "quae",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Dr. Ibrahim Runolfsdottir",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldLength": 685
       }
     }
   }

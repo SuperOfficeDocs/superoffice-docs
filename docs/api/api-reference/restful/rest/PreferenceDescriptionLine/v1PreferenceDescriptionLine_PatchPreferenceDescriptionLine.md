@@ -115,47 +115,45 @@ Response body: object
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "ut",
     "value": {
       "value1": {
-        "PrimaryKey": 440,
+        "PrimaryKey": 3620,
         "EntityName": "sale",
-        "saleId": 440,
-        "contactId": 3583,
-        "name": "Bernier-Ankunding"
+        "saleId": 3620,
+        "contactId": 5468,
+        "name": "Bednar, Haley and DuBuque"
       },
       "value2": {
-        "PrimaryKey": 3322,
-        "EntityName": "sale",
-        "saleId": 3322,
-        "contactId": 5507,
-        "name": "Nitzsche Inc and Sons"
+        "PrimaryKey": 6156,
+        "EntityName": "person",
+        "personId": 6156,
+        "fullName": "Kaci Cronin"
       }
     }
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "ut",
     "value": {
       "value1": {
-        "PrimaryKey": 440,
+        "PrimaryKey": 3620,
         "EntityName": "sale",
-        "saleId": 440,
-        "contactId": 3583,
-        "name": "Bernier-Ankunding"
+        "saleId": 3620,
+        "contactId": 5468,
+        "name": "Bednar, Haley and DuBuque"
       },
       "value2": {
-        "PrimaryKey": 3322,
-        "EntityName": "sale",
-        "saleId": 3322,
-        "contactId": 5507,
-        "name": "Nitzsche Inc and Sons"
+        "PrimaryKey": 6156,
+        "EntityName": "person",
+        "personId": 6156,
+        "fullName": "Kaci Cronin"
       }
     }
   }
@@ -167,11 +165,11 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 202,
-  "PrefDescId": 951,
+  "PrefDescLineId": 718,
+  "PrefDescId": 803,
   "PrefValue": "ut",
-  "PrefShowValue": "magnam",
-  "Description": "Seamless system-worthy circuit",
+  "PrefShowValue": "culpa",
+  "Description": "Fundamental multi-tasking pricing structure",
   "IsBuiltin": true,
   "TableRight": {
     "Mask": "Delete",
@@ -184,7 +182,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 520
     }
   },
   "_Links": {

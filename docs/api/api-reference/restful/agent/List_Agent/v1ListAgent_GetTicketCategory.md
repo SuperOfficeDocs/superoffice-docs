@@ -1,9 +1,9 @@
 ---
-title: GetTicketCategory
+title: POST Agents/List/GetTicketCategory
 id: v1ListAgent_GetTicketCategory
 ---
 
-# GetTicketCategory
+# POST Agents/List/GetTicketCategory
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategory
@@ -25,7 +25,7 @@ Gets a TicketCategory object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategory?ticketCategoryId=138
+POST /api/v1/Agents/List/GetTicketCategory?ticketCategoryId=572
 POST /api/v1/Agents/List/GetTicketCategory?$select=name,department,category/id
 ```
 
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Value": "unde",
-  "Tooltip": "accusamus",
+  "Id": 38,
+  "Value": "culpa",
+  "Tooltip": "sunt",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 571
     }
   }
 }

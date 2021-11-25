@@ -1,9 +1,9 @@
 ---
-title: GetPreferenceDescription
+title: POST Agents/Preference/GetPreferenceDescription
 id: v1PreferenceAgent_GetPreferenceDescription
 ---
 
-# GetPreferenceDescription
+# POST Agents/Preference/GetPreferenceDescription
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescription
@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=480
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=694
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -96,24 +96,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 58,
-  "Section": "aut",
-  "Key": "autem",
-  "Name": "Murray LLC",
+  "PrefDescId": 610,
+  "Section": "quas",
+  "Key": "dolores",
+  "Name": "Gutkowski-Weimann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured tangible groupware",
+  "Description": "Profound transitional capacity",
   "IsBuiltin": false,
-  "TableName": "Grimes-Schroeder",
-  "UserDefinedListId": 319,
-  "Rank": 386,
-  "SubGroup": "nihil",
-  "MinLevel": 845,
-  "MaxValue": 736,
-  "MinValue": 563,
-  "RequiredLicense": "mollitia",
+  "TableName": "Bailey, McGlynn and Emmerich",
+  "UserDefinedListId": 289,
+  "Rank": 149,
+  "SubGroup": "sit",
+  "MinLevel": 849,
+  "MaxValue": 640,
+  "MinValue": 474,
+  "RequiredLicense": "eligendi",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,10 +122,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "innovate open-source interfaces"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldLength": 296
     }
   }
 }

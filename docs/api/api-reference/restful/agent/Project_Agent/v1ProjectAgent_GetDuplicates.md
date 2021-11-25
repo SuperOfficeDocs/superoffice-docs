@@ -1,9 +1,9 @@
 ---
-title: GetDuplicates
+title: POST Agents/Project/GetDuplicates
 id: v1ProjectAgent_GetDuplicates
 ---
 
-# GetDuplicates
+# POST Agents/Project/GetDuplicates
 
 ```http
 POST /api/v1/Agents/Project/GetDuplicates
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turner-Cremin"
+  "Name": "Adams, Shields and Abbott"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McLaughlin Group",
-    "SoPrimaryKey": 865,
-    "EntryName": "Feeney Inc and Sons",
-    "EntryIdentifier": "assumenda",
-    "RuleDisplayName": "Keeling Inc and Sons",
+    "RuleName": "Kulas Inc and Sons",
+    "SoPrimaryKey": 957,
+    "EntryName": "Oberbrunner Group",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Willms Group",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 920
       }
     }
   }

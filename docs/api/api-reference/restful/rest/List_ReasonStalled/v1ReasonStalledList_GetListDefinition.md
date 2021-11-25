@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Emard Group",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 290,
-  "IsCustomList": false,
+  "Id": 907,
+  "Name": "Spinka LLC",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 97,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 566
     }
   },
   "_Links": {

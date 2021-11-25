@@ -1,9 +1,9 @@
 ---
-title: DeleteProjectEntity
+title: POST Agents/Project/DeleteProjectEntity
 id: v1ProjectAgent_DeleteProjectEntity
 ---
 
-# DeleteProjectEntity
+# POST Agents/Project/DeleteProjectEntity
 
 ```http
 POST /api/v1/Agents/Project/DeleteProjectEntity
@@ -24,7 +24,7 @@ Deletes the ProjectEntity
 | ProjectEntityId | int32 | **Required** The id of the ProjectEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=351
+POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=253
 ```
 
 

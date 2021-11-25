@@ -1,9 +1,9 @@
 ---
-title: UpdateRow
+title: POST Agents/DatabaseTable/UpdateRow
 id: v1DatabaseTableAgent_UpdateRow
 ---
 
-# UpdateRow
+# POST Agents/DatabaseTable/UpdateRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/UpdateRow
@@ -11,8 +11,13 @@ POST /api/v1/Agents/DatabaseTable/UpdateRow
 
 Update a row in a table
 
-> [!NOTE]
-> Must have function right admin-all or cs-listextratablecontent.
+
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 

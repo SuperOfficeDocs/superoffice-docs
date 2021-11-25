@@ -1,9 +1,9 @@
 ---
-title: GetLocalizedTextList
+title: POST Agents/List/GetLocalizedTextList
 id: v1ListAgent_GetLocalizedTextList
 ---
 
-# GetLocalizedTextList
+# POST Agents/List/GetLocalizedTextList
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextList
@@ -75,7 +75,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,12 +84,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 482,
-    "ResourceId": 481,
-    "Text": "sit",
+    "LanguageId": 625,
+    "ResourceId": 496,
+    "Text": "voluptatem",
     "Type": "Column",
-    "LocalizedTextId": 58,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 820,
+    "IsBuiltIn": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "benchmark back-end architectures"
         },
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 932
       }
     }
   }

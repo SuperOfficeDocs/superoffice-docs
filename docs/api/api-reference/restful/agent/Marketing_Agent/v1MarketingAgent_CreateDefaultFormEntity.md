@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultFormEntity
+title: POST Agents/Marketing/CreateDefaultFormEntity
 id: v1MarketingAgent_CreateDefaultFormEntity
 ---
 
-# CreateDefaultFormEntity
+# POST Agents/Marketing/CreateDefaultFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -88,31 +88,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 817,
-  "FormKey": "quasi",
-  "Name": "Adams, Volkman and Gleichner",
-  "Description": "Assimilated motivating open system",
-  "Config": "molestiae",
-  "FolderId": 341,
-  "ScriptId": 664,
-  "ResponseShipmentId": 240,
-  "Active": false,
-  "Expires": "1995-02-27T14:58:04.491465+01:00",
-  "MaxSubmits": 500,
+  "FormId": 36,
+  "FormKey": "adipisci",
+  "Name": "Greenholt Group",
+  "Description": "Secured tangible knowledge base",
+  "Config": "fuga",
+  "FolderId": 127,
+  "ScriptId": 49,
+  "ResponseShipmentId": 478,
+  "Active": true,
+  "Expires": "2012-09-06T18:28:49.4580873+02:00",
+  "MaxSubmits": 301,
   "Type": "Normal",
-  "Recipe": "mollitia",
-  "GroupId": 433,
-  "NewTicket": false,
+  "Recipe": "molestiae",
+  "GroupId": 319,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2018-10-06T14:58:04.491465+02:00",
-  "RegisteredAssociateId": 789,
-  "Updated": "2018-06-27T14:58:04.491465+02:00",
-  "UpdatedAssociateId": 416,
-  "UpdatedCount": 870,
-  "FolderName": "Bergstrom Group",
+  "Registered": "2010-09-18T18:28:49.4580873+02:00",
+  "RegisteredAssociateId": 864,
+  "Updated": "2017-05-28T18:28:49.4580873+02:00",
+  "UpdatedAssociateId": 130,
+  "UpdatedCount": 518,
+  "FolderName": "Moen, Abbott and Gaylord",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incubate dot-com communities"
   },
   "FieldProperties": {
     "fieldName": {
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 861
     }
   }
 }

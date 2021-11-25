@@ -1,9 +1,9 @@
 ---
-title: SaveConfigurableScreenDelta
+title: POST Agents/Configuration/SaveConfigurableScreenDelta
 id: v1ConfigurationAgent_SaveConfigurableScreenDelta
 ---
 
-# SaveConfigurableScreenDelta
+# POST Agents/Configuration/SaveConfigurableScreenDelta
 
 ```http
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
@@ -45,7 +45,11 @@ The ConfigurableScreenDelta to be saved.
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 
 
 ## Response: object
@@ -67,7 +71,11 @@ Response body: object
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -77,18 +85,51 @@ Response body: object
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 889,
-  "Name": "Fisher-Baumbach",
-  "Description": "Business-focused context-sensitive archive",
-  "DeltaJson": "labore",
+  "ConfigurableScreenDeltaId": 576,
+  "Name": "Bergstrom-Funk",
+  "Description": "Profound hybrid algorithm",
+  "DeltaJson": "eum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "mollitia",
-  "UserGroupId": 965
+  "RecipeId": "quos",
+  "UpdatedDate": "2010-01-23T18:28:48.400623+01:00",
+  "CreatedDate": "2020-09-17T18:28:48.4016232+02:00",
+  "UpdatedBy": {
+    "AssociateId": 911,
+    "Name": "Gerlach, Lynch and Abernathy",
+    "PersonId": 105,
+    "Rank": 880,
+    "Tooltip": "qui",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 601,
+    "FullName": "Horace Reichel",
+    "FormalName": "Satterfield, Altenwerth and Wiegand",
+    "Deleted": true,
+    "EjUserId": 570,
+    "UserName": "Watsica-Frami"
+  },
+  "CreatedBy": {
+    "AssociateId": 62,
+    "Name": "Doyle, Stamm and Armstrong",
+    "PersonId": 380,
+    "Rank": 619,
+    "Tooltip": "minus",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 655,
+    "FullName": "Oliver Reynolds",
+    "FormalName": "Bode Group",
+    "Deleted": false,
+    "EjUserId": 561,
+    "UserName": "Cummings-Bechtelar"
+  },
+  "UserGroupIds": [
+    892,
+    598
+  ]
 }
 ```
 
@@ -97,14 +138,69 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 390,
-  "Name": "Hickle-Nitzsche",
-  "Description": "Extended secondary methodology",
-  "DeltaJson": "est",
+  "ConfigurableScreenDeltaId": 591,
+  "Name": "Bauch Group",
+  "Description": "Upgradable tertiary secured line",
+  "DeltaJson": "temporibus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "vel",
-  "UserGroupId": 199,
+  "RecipeId": "praesentium",
+  "UpdatedDate": "2005-06-07T18:28:48.4026517+02:00",
+  "CreatedDate": "2020-09-14T18:28:48.4026517+02:00",
+  "UpdatedBy": {
+    "AssociateId": 828,
+    "Name": "Christiansen, Klocko and Heaney",
+    "PersonId": 322,
+    "Rank": 87,
+    "Tooltip": "excepturi",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 138,
+    "FullName": "Sienna Stark",
+    "FormalName": "Ferry Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 500,
+    "UserName": "Heaney Group",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 368
+      }
+    }
+  },
+  "CreatedBy": {
+    "AssociateId": 74,
+    "Name": "Rutherford-Buckridge",
+    "PersonId": 245,
+    "Rank": 921,
+    "Tooltip": "magnam",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 640,
+    "FullName": "Leanna D'Amore",
+    "FormalName": "Kutch Group",
+    "Deleted": false,
+    "EjUserId": 111,
+    "UserName": "Grant, Weber and Bauch",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "cultivate dynamic web services"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 702
+      }
+    }
+  },
+  "UserGroupIds": [
+    879,
+    519
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,7 +212,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 496
     }
   }
 }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Kulas LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 633
+    "Id": 40,
+    "Name": "Bergnaum Inc and Sons",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "UdListDefinitionId": 648,
+    "Rank": 374
   },
   {
-    "Id": 548,
-    "Name": "Kulas LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 633
+    "Id": 40,
+    "Name": "Bergnaum Inc and Sons",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "UdListDefinitionId": 648,
+    "Rank": 374
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Fahey-Harris",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 375,
-    "Rank": 60,
+    "Id": 971,
+    "Name": "Mitchell Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 284,
+    "Rank": 825,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "utilize bricks-and-clicks bandwidth"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 457
       }
     }
   }

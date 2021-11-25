@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteVersion
+title: POST Agents/Quote/SaveQuoteVersion
 id: v1QuoteAgent_SaveQuoteVersion
 ---
 
-# SaveQuoteVersion
+# POST Agents/Quote/SaveQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersion
@@ -114,47 +114,47 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteVersion": {
-    "QuoteVersionId": 623,
-    "ERPQuoteVersionKey": "harum",
-    "QuoteId": 170,
-    "Description": "Cloned contextually-based moderator",
-    "Number": "661638",
+    "QuoteVersionId": 561,
+    "ERPQuoteVersionKey": "dolor",
+    "QuoteId": 243,
+    "Description": "Secured even-keeled encryption",
+    "Number": "1101971",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 415,
-    "SentDate": "2010-12-03T14:58:04.9394596+01:00",
-    "FollowupId": 512,
-    "ExpirationDate": "1997-11-09T14:58:04.9394596+01:00",
-    "DeliveryCountryId": 342,
+    "LikelyQuoteAlternativeId": 601,
+    "SentDate": "2018-11-14T18:28:49.9221376+01:00",
+    "FollowupId": 941,
+    "ExpirationDate": "2000-07-25T18:28:49.9221376+02:00",
+    "DeliveryCountryId": 220,
     "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 338,
+    "InvoiceCountryId": 525,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "fugiat",
-    "ERPPaymentTypeKey": "occaecati",
+    "ERPPaymentTermsKey": "eius",
+    "ERPPaymentTypeKey": "harum",
     "ERPDeliveryTermsKey": "qui",
-    "ERPDeliveryTypeKey": "repellat",
-    "Rank": 779,
-    "ApprovedBy": 461,
-    "ApprovedText": "pariatur",
-    "ApprovedRegisteredBy": 786,
-    "ApprovedRegisteredDate": "2015-02-21T14:58:04.9404599+01:00",
-    "ExtraField1": "amet",
-    "ExtraField2": "dolore",
-    "ExtraField3": "nesciunt",
-    "ExtraField4": "nobis",
-    "ExtraField5": "qui",
-    "LastRecalculated": "1999-03-16T14:58:04.9414597+01:00",
-    "Updated": "2015-01-10T14:58:04.9414597+01:00",
-    "UpdatedAssociateId": 436,
-    "Registered": "1998-09-30T14:58:04.9414597+02:00",
-    "RegisteredAssociateId": 104,
+    "ERPDeliveryTypeKey": "neque",
+    "Rank": 477,
+    "ApprovedBy": 526,
+    "ApprovedText": "ad",
+    "ApprovedRegisteredBy": 628,
+    "ApprovedRegisteredDate": "2014-04-03T18:28:49.9221376+02:00",
+    "ExtraField1": "minima",
+    "ExtraField2": "atque",
+    "ExtraField3": "ut",
+    "ExtraField4": "aliquid",
+    "ExtraField5": "ipsum",
+    "LastRecalculated": "2019-01-29T18:28:49.9221376+01:00",
+    "Updated": "1995-03-13T18:28:49.9221376+01:00",
+    "UpdatedAssociateId": 663,
+    "Registered": "2015-06-30T18:28:49.9221376+02:00",
+    "RegisteredAssociateId": 536,
     "QuoteAlternatives": [
       {},
       {}
@@ -168,67 +168,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 484,
-  "ERPQuoteVersionKey": "quis",
-  "QuoteId": 598,
-  "Description": "Grass-roots secondary Graphic Interface",
-  "Number": "680310",
+  "QuoteVersionId": 630,
+  "ERPQuoteVersionKey": "officia",
+  "QuoteId": 216,
+  "Description": "Compatible bifurcated portal",
+  "Number": "742649",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 898,
-  "SentDate": "2006-05-24T14:58:04.9414597+02:00",
-  "FollowupId": 225,
-  "ExpirationDate": "2019-10-02T14:58:04.9414597+02:00",
-  "DeliveryCountryId": 484,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 377,
+  "LikelyQuoteAlternativeId": 825,
+  "SentDate": "2011-09-17T18:28:49.9231374+02:00",
+  "FollowupId": 174,
+  "ExpirationDate": "2013-09-09T18:28:49.9231374+02:00",
+  "DeliveryCountryId": 360,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 127,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "quis",
-  "ERPPaymentTypeKey": "iste",
-  "ERPDeliveryTermsKey": "atque",
-  "ERPDeliveryTypeKey": "eum",
-  "Rank": 657,
-  "ApprovedBy": 940,
-  "ApprovedText": "quia",
-  "ApprovedRegisteredBy": 168,
-  "ApprovedRegisteredDate": "2005-12-04T14:58:04.9424673+01:00",
-  "ExtraField1": "laudantium",
-  "ExtraField2": "libero",
-  "ExtraField3": "libero",
-  "ExtraField4": "at",
-  "ExtraField5": "error",
-  "LastRecalculated": "1995-05-18T14:58:04.9424673+02:00",
-  "Updated": "2016-12-24T14:58:04.9424673+01:00",
-  "UpdatedAssociateId": 243,
-  "Registered": "2006-04-27T14:58:04.9424673+02:00",
-  "RegisteredAssociateId": 618,
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "ad",
+  "ERPDeliveryTermsKey": "harum",
+  "ERPDeliveryTypeKey": "neque",
+  "Rank": 257,
+  "ApprovedBy": 484,
+  "ApprovedText": "delectus",
+  "ApprovedRegisteredBy": 948,
+  "ApprovedRegisteredDate": "2018-05-30T18:28:49.9231374+02:00",
+  "ExtraField1": "et",
+  "ExtraField2": "a",
+  "ExtraField3": "ea",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "provident",
+  "LastRecalculated": "2015-10-06T18:28:49.9231374+02:00",
+  "Updated": "1994-07-26T18:28:49.9231374+02:00",
+  "UpdatedAssociateId": 602,
+  "Registered": "2011-05-26T18:28:49.9231374+02:00",
+  "RegisteredAssociateId": 798,
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 471,
-      "ERPQuoteAlternativeKey": "rerum",
-      "QuoteVersionId": 566,
-      "Name": "Connelly Inc and Sons",
-      "Description": "Cross-group 5th generation pricing structure",
+      "QuoteAlternativeId": 663,
+      "ERPQuoteAlternativeKey": "autem",
+      "QuoteVersionId": 330,
+      "Name": "Schneider-Kunde",
+      "Description": "Synergistic user-facing hierarchy",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 22094.7,
-      "ERPDiscountAmount": 15431.815999999999,
-      "DiscountPercent": 9257.836,
-      "DiscountAmount": 6330.6799999999994,
+      "ERPDiscountPercent": 30058.194,
+      "ERPDiscountAmount": 11489.243999999999,
+      "DiscountPercent": 921.396,
+      "DiscountAmount": 20371.0,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quia",
-      "VAT": 23956.296,
-      "EarningPercent": 23808.998,
-      "EarningAmount": 10132.222,
-      "SubTotal": 25538.966,
-      "TotalPrice": 26482.3,
-      "ExtraField1": "non",
-      "ExtraField2": "magni",
-      "ExtraField3": "mollitia",
-      "ExtraField4": "et",
-      "ExtraField5": "non",
+      "VATInfo": "optio",
+      "VAT": 25037.525999999998,
+      "EarningPercent": 29105.458,
+      "EarningAmount": 28193.464,
+      "SubTotal": 12504.66,
+      "TotalPrice": 14635.779999999999,
+      "ExtraField1": "reprehenderit",
+      "ExtraField2": "qui",
+      "ExtraField3": "ab",
+      "ExtraField4": "aperiam",
+      "ExtraField5": "commodi",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -237,7 +237,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldLength": 639
         }
       }
     }
@@ -252,8 +252,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

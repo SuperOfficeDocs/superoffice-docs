@@ -1,9 +1,9 @@
 ---
-title: GetTriggerScriptEntity
+title: POST Agents/CRMScript/GetTriggerScriptEntity
 id: v1CRMScriptAgent_GetTriggerScriptEntity
 ---
 
-# GetTriggerScriptEntity
+# POST Agents/CRMScript/GetTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
@@ -27,7 +27,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=671
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=727
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -82,7 +82,7 @@ Response body: object
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 145,
-  "Name": "Gleichner-Graham",
+  "ScreenChooserId": 990,
+  "Name": "Emard, Ullrich and Ryan",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eos",
-  "Source": "sapiente",
-  "Registered": "1997-08-21T14:58:03.7484623+02:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "1999-10-10T14:58:03.7484623+02:00",
-  "UpdatedAssociateId": 481,
+  "UniqueIdentifier": "fuga",
+  "Source": "pariatur",
+  "Registered": "2002-12-06T18:28:48.6399562+01:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "2011-06-27T18:28:48.6399562+02:00",
+  "UpdatedAssociateId": 836,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

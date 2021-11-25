@@ -1,9 +1,9 @@
 ---
-title: SaveUserDefinedFieldInfo
+title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
 ---
 
-# SaveUserDefinedFieldInfo
+# POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -134,44 +134,44 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 289,
-  "ColumnId": 98,
-  "FieldDefault": "beatae",
-  "FieldHeight": 252,
+  "UDefFieldId": 32,
+  "ColumnId": 730,
+  "FieldDefault": "accusantium",
+  "FieldHeight": 209,
   "FieldLabel": "et",
-  "FieldLeft": 431,
-  "FieldTop": 956,
+  "FieldLeft": 879,
+  "FieldTop": 601,
   "FieldType": "Checkbox",
-  "FieldWidth": 810,
-  "FormatMask": "amet",
+  "FieldWidth": 950,
+  "FormatMask": "quia",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 753,
-  "LabelLeft": 512,
-  "LabelTop": 864,
-  "LabelWidth": 335,
-  "LastVersionId": 392,
-  "ListTableId": 607,
+  "LabelHeight": 800,
+  "LabelLeft": 626,
+  "LabelTop": 148,
+  "LabelWidth": 219,
+  "LastVersionId": 63,
+  "ListTableId": 402,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 781,
-  "ProgId": "aut",
+  "Page1LineNo": 370,
+  "ProgId": "est",
   "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 835,
-  "TextLength": 88,
-  "Tooltip": "dolore",
-  "UdefIdentity": 177,
-  "UDListDefinitionId": 568,
+  "ShortLabel": "nisi",
+  "TabOrder": 538,
+  "TextLength": 679,
+  "Tooltip": "rerum",
+  "UdefIdentity": 148,
+  "UDListDefinitionId": 579,
   "Justification": "Center",
-  "Version": 121,
-  "TemplateVariableName": "Langworth, Feest and Hermann",
+  "Version": 456,
+  "TemplateVariableName": "Skiles-Wisozk",
   "HasBeenPublished": true,
-  "MdoListName": "Doyle, Terry and Treutel"
+  "MdoListName": "Boyer LLC"
 }
 ```
 
@@ -180,40 +180,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 659,
-  "ColumnId": 669,
-  "FieldDefault": "culpa",
-  "FieldHeight": 824,
-  "FieldLabel": "numquam",
-  "FieldLeft": 524,
-  "FieldTop": 649,
+  "UDefFieldId": 820,
+  "ColumnId": 279,
+  "FieldDefault": "aperiam",
+  "FieldHeight": 60,
+  "FieldLabel": "nulla",
+  "FieldLeft": 82,
+  "FieldTop": 275,
   "FieldType": "Checkbox",
-  "FieldWidth": 147,
-  "FormatMask": "odit",
-  "HideLabel": true,
+  "FieldWidth": 763,
+  "FormatMask": "numquam",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 145,
-  "LabelLeft": 734,
-  "LabelTop": 869,
-  "LabelWidth": 242,
-  "LastVersionId": 266,
-  "ListTableId": 17,
+  "LabelHeight": 233,
+  "LabelLeft": 231,
+  "LabelTop": 343,
+  "LabelWidth": 31,
+  "LastVersionId": 903,
+  "ListTableId": 769,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 462,
-  "ProgId": "odit",
-  "IsReadOnly": true,
-  "ShortLabel": "natus",
-  "TabOrder": 465,
-  "TextLength": 973,
-  "Tooltip": "velit",
-  "UdefIdentity": 359,
-  "UDListDefinitionId": 531,
+  "Page1LineNo": 298,
+  "ProgId": "corporis",
+  "IsReadOnly": false,
+  "ShortLabel": "consectetur",
+  "TabOrder": 360,
+  "TextLength": 655,
+  "Tooltip": "quo",
+  "UdefIdentity": 914,
+  "UDListDefinitionId": 431,
   "Justification": "Center",
-  "Version": 538,
-  "TemplateVariableName": "Kirlin LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Satterfield Group",
+  "Version": 291,
+  "TemplateVariableName": "Hoeger, Vandervort and Kulas",
+  "HasBeenPublished": false,
+  "MdoListName": "Beahan, Krajcik and Runte",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -222,10 +222,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "extend plug-and-play architectures"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 982
     }
   }
 }

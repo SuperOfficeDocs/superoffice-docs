@@ -1,9 +1,9 @@
 ---
-title: SetPreferences
+title: POST Agents/PhoneList/SetPreferences
 id: v1PhoneListAgent_SetPreferences
 ---
 
-# SetPreferences
+# POST Agents/PhoneList/SetPreferences
 
 ```http
 POST /api/v1/Agents/PhoneList/SetPreferences

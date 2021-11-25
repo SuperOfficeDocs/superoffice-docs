@@ -93,15 +93,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Dietrich LLC",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 240,
+  "Id": 676,
+  "Name": "Herzog-Denesik",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 946,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "non",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 64,
-  "Name": "Windler, Ratke and Monahan",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 60,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": true,
+  "Id": 445,
+  "Name": "Tillman-O'Reilly",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 187,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

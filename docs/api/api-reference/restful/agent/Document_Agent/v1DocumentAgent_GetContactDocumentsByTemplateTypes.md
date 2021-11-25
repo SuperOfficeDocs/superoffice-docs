@@ -1,9 +1,9 @@
 ---
-title: GetContactDocumentsByTemplateTypes
+title: POST Agents/Document/GetContactDocumentsByTemplateTypes
 id: v1DocumentAgent_GetContactDocumentsByTemplateTypes
 ---
 
-# GetContactDocumentsByTemplateTypes
+# POST Agents/Document/GetContactDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 725,
-  "StartTime": "1994-05-05T14:58:03.8084653+02:00",
-  "EndTime": "2013-10-27T14:58:03.8084653+01:00",
-  "Count": 925,
+  "ContactId": 975,
+  "StartTime": "2011-01-10T18:28:48.7049563+01:00",
+  "EndTime": "1997-08-30T18:28:48.7049563+02:00",
+  "Count": 435,
   "DocumentTemplateIds": [
-    561,
-    340
+    549,
+    129
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 451,
-    "Attention": "et",
-    "Header": "alias",
-    "Name": "Weimann, Batz and Hirthe",
-    "OurRef": "nihil",
-    "YourRef": "nesciunt",
-    "Description": "User-friendly cohesive toolset",
-    "DocumentTemplate": "veritatis",
+    "DocumentId": 395,
+    "Attention": "veniam",
+    "Header": "voluptatibus",
+    "Name": "Hansen-Langworth",
+    "OurRef": "sit",
+    "YourRef": "natus",
+    "Description": "Total clear-thinking knowledge user",
+    "DocumentTemplate": "eaque",
     "IsPublished": true,
-    "PersonId": 342,
-    "PersonFullName": "Darrin Lowe",
-    "AssociateFullName": "Princess Ward",
-    "ContactId": 148,
-    "ContactName": "Durgan LLC",
-    "ProjectId": 469,
-    "ProjectName": "Auer-Fay",
-    "AssociateId": 865,
-    "Snum": 665,
+    "PersonId": 288,
+    "PersonFullName": "Stevie Gislason",
+    "AssociateFullName": "Miss Lizzie Metz",
+    "ContactId": 59,
+    "ContactName": "Sauer-Bogan",
+    "ProjectId": 94,
+    "ProjectName": "Lockman-Wiegand",
+    "AssociateId": 449,
+    "Snum": 652,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldLength": 69
       }
     }
   }

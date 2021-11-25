@@ -1,9 +1,9 @@
 ---
-title: GetPersonDocumentsByDate
+title: POST Agents/Document/GetPersonDocumentsByDate
 id: v1DocumentAgent_GetPersonDocumentsByDate
 ---
 
-# GetPersonDocumentsByDate
+# POST Agents/Document/GetPersonDocumentsByDate
 
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
@@ -98,11 +98,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 574,
-  "IncludeProjectDocuments": true,
-  "StartTime": "1998-03-27T14:58:03.8324655+01:00",
-  "EndTime": "2018-03-28T14:58:03.8324655+02:00",
-  "Count": 855
+  "PersonId": 406,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-04-30T18:28:48.7279561+02:00",
+  "EndTime": "2017-08-04T18:28:48.7279561+02:00",
+  "Count": 193
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 381,
-    "Attention": "voluptas",
-    "Header": "quia",
-    "Name": "Schinner-Altenwerth",
-    "OurRef": "provident",
-    "YourRef": "dolorem",
-    "Description": "Fully-configurable composite implementation",
-    "DocumentTemplate": "earum",
-    "IsPublished": true,
-    "PersonId": 98,
-    "PersonFullName": "Ephraim Bogan",
-    "AssociateFullName": "Mr. Franco Bradtke",
-    "ContactId": 365,
-    "ContactName": "Runolfsson-Hand",
-    "ProjectId": 206,
-    "ProjectName": "Romaguera, Boyle and Gislason",
-    "AssociateId": 192,
-    "Snum": 852,
+    "DocumentId": 814,
+    "Attention": "quos",
+    "Header": "nam",
+    "Name": "Crooks-Howell",
+    "OurRef": "et",
+    "YourRef": "magni",
+    "Description": "Reverse-engineered cohesive toolset",
+    "DocumentTemplate": "voluptas",
+    "IsPublished": false,
+    "PersonId": 433,
+    "PersonFullName": "Santino Rohan",
+    "AssociateFullName": "Florence Jast",
+    "ContactId": 62,
+    "ContactName": "Huels Group",
+    "ProjectId": 1001,
+    "ProjectName": "Ferry, Harber and Haley",
+    "AssociateId": 175,
+    "Snum": 969,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldLength": 623
       }
     }
   }

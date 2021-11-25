@@ -123,31 +123,31 @@ Response body: object
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 761,
-  "PlainMessage": "ipsam",
-  "HtmlMessage": "vero",
-  "SmsMessage": "quaerat",
-  "Description": "Mandatory methodical groupware",
-  "Subject": "maxime",
-  "FolderId": 453,
-  "HeaderField": "nisi",
-  "Design": "nulla",
+  "ShipmentMessageId": 256,
+  "PlainMessage": "est",
+  "HtmlMessage": "excepturi",
+  "SmsMessage": "et",
+  "Description": "Focused client-server product",
+  "Subject": "nihil",
+  "FolderId": 926,
+  "HeaderField": "et",
+  "Design": "consequuntur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Synergized executive forecast",
-  "AccessKey": "doloribus",
-  "DocumentMessage": 973,
-  "Registered": "2020-02-05T15:05:42.7616703+01:00",
-  "RegisteredAssociateId": 477,
-  "Updated": "2018-05-16T15:05:42.7616703+02:00",
-  "UpdatedAssociateId": 800,
-  "UpdatedCount": 953
+  "LongDescription": "Expanded mission-critical encryption",
+  "AccessKey": "rerum",
+  "DocumentMessage": 562,
+  "Registered": "2018-05-31T18:25:51.1129096+02:00",
+  "RegisteredAssociateId": 748,
+  "Updated": "1996-04-15T18:25:51.1129096+02:00",
+  "UpdatedAssociateId": 756,
+  "UpdatedCount": 519
 }
 ```
 
@@ -156,27 +156,27 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 723,
-  "PlainMessage": "dolorem",
+  "ShipmentMessageId": 489,
+  "PlainMessage": "odio",
   "HtmlMessage": "rerum",
-  "SmsMessage": "deserunt",
-  "Description": "Polarised encompassing methodology",
+  "SmsMessage": "sint",
+  "Description": "Synchronised attitude-oriented moderator",
   "Subject": "et",
-  "FolderId": 34,
-  "HeaderField": "quas",
-  "Design": "pariatur",
+  "FolderId": 708,
+  "HeaderField": "eos",
+  "Design": "aliquid",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Mandatory mobile instruction set",
-  "AccessKey": "aut",
-  "DocumentMessage": 361,
-  "Registered": "2010-02-07T15:05:42.7616703+01:00",
-  "RegisteredAssociateId": 961,
-  "Updated": "2000-08-17T15:05:42.7616703+02:00",
-  "UpdatedAssociateId": 676,
-  "UpdatedCount": 401,
+  "InlineImages": false,
+  "LongDescription": "Face to face zero administration customer loyalty",
+  "AccessKey": "a",
+  "DocumentMessage": 711,
+  "Registered": "1999-01-15T18:25:51.1149499+01:00",
+  "RegisteredAssociateId": 374,
+  "Updated": "1998-07-13T18:25:51.1149499+02:00",
+  "UpdatedAssociateId": 149,
+  "UpdatedCount": 587,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   },
   "_Links": {

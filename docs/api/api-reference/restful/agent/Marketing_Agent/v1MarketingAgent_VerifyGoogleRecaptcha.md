@@ -1,9 +1,9 @@
 ---
-title: VerifyGoogleRecaptcha
+title: POST Agents/Marketing/VerifyGoogleRecaptcha
 id: v1MarketingAgent_VerifyGoogleRecaptcha
 ---
 
-# VerifyGoogleRecaptcha
+# POST Agents/Marketing/VerifyGoogleRecaptcha
 
 ```http
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "perspiciatis",
-  "OptionalSecretKey": "nisi"
+  "Token": "quibusdam",
+  "OptionalSecretKey": "cumque"
 }
 ```
 

@@ -2,8 +2,6 @@
 title: List_Priority
 ---
 
-# List_Priority
-
 ```http
 /api/v1/List/Priority
 ```

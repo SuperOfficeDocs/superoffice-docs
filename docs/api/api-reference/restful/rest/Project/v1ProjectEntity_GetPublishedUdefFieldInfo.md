@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 471,
-  "ColumnId": 125,
-  "FieldDefault": "sint",
-  "FieldHeight": 127,
-  "FieldLabel": "ullam",
-  "FieldLeft": 656,
-  "FieldTop": 909,
+  "UDefFieldId": 418,
+  "ColumnId": 35,
+  "FieldDefault": "deserunt",
+  "FieldHeight": 478,
+  "FieldLabel": "asperiores",
+  "FieldLeft": 283,
+  "FieldTop": 194,
   "FieldType": "Checkbox",
-  "FieldWidth": 423,
-  "FormatMask": "eveniet",
-  "HideLabel": false,
+  "FieldWidth": 734,
+  "FormatMask": "distinctio",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 265,
-  "LabelLeft": 407,
-  "LabelTop": 194,
-  "LabelWidth": 420,
-  "LastVersionId": 670,
-  "ListTableId": 170,
-  "IsMandatory": true,
+  "LabelHeight": 803,
+  "LabelLeft": 46,
+  "LabelTop": 280,
+  "LabelWidth": 415,
+  "LastVersionId": 399,
+  "ListTableId": 972,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 173,
-  "ProgId": "quaerat",
-  "IsReadOnly": false,
-  "ShortLabel": "sequi",
-  "TabOrder": 87,
-  "TextLength": 601,
-  "Tooltip": "velit",
-  "UdefIdentity": 166,
-  "UDListDefinitionId": 954,
+  "Page1LineNo": 137,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 780,
+  "TextLength": 47,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 114,
+  "UDListDefinitionId": 956,
   "Justification": "Center",
-  "Version": 115,
-  "TemplateVariableName": "Upton Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobi Inc and Sons",
+  "Version": 624,
+  "TemplateVariableName": "Kshlerin, Muller and Pfeffer",
+  "HasBeenPublished": true,
+  "MdoListName": "Mosciski-Johns",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldLength": 191
     }
   }
 }

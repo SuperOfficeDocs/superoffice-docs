@@ -1,9 +1,9 @@
 ---
-title: GetPersonDocumentsByTemplateTypes
+title: POST Agents/Document/GetPersonDocumentsByTemplateTypes
 id: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
 ---
 
-# GetPersonDocumentsByTemplateTypes
+# POST Agents/Document/GetPersonDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -99,14 +99,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 294,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2008-08-01T14:58:03.8274649+02:00",
-  "EndTime": "2000-09-19T14:58:03.8274649+02:00",
-  "Count": 554,
+  "PersonId": 542,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2015-09-05T18:28:48.7239276+02:00",
+  "EndTime": "2004-06-30T18:28:48.7239276+02:00",
+  "Count": 947,
   "DocumentTemplateIds": [
-    572,
-    80
+    888,
+    849
   ]
 }
 ```
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 608,
-    "Attention": "ea",
-    "Header": "qui",
-    "Name": "Beahan LLC",
-    "OurRef": "fugiat",
-    "YourRef": "et",
-    "Description": "Multi-channelled object-oriented extranet",
-    "DocumentTemplate": "omnis",
+    "DocumentId": 107,
+    "Attention": "impedit",
+    "Header": "labore",
+    "Name": "Heaney Group",
+    "OurRef": "reiciendis",
+    "YourRef": "esse",
+    "Description": "Upgradable interactive methodology",
+    "DocumentTemplate": "est",
     "IsPublished": true,
-    "PersonId": 795,
-    "PersonFullName": "Antonia Keeling",
-    "AssociateFullName": "Ms. Carlie Kunze",
-    "ContactId": 85,
-    "ContactName": "Sawayn Group",
-    "ProjectId": 71,
-    "ProjectName": "Boyer, Stiedemann and Torphy",
-    "AssociateId": 33,
-    "Snum": 871,
+    "PersonId": 389,
+    "PersonFullName": "Olga Kohler",
+    "AssociateFullName": "Naomie Fisher",
+    "ContactId": 433,
+    "ContactName": "Bechtelar, Jenkins and Jakubowski",
+    "ProjectId": 372,
+    "ProjectName": "Bernhard LLC",
+    "AssociateId": 203,
+    "Snum": 60,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "engage synergistic eyeballs"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 48
       }
     }
   }

@@ -116,34 +116,34 @@ Response body: object
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 694,
-  "Name": "Welch, Wolff and Gorczany",
-  "Tooltip": "natus",
+  "DocumentTemplateId": 429,
+  "Name": "Becker, Luettgen and Bartell",
+  "Tooltip": "aliquam",
   "SaveInDb": 460,
-  "Filename": "est",
-  "DefaultOref": "quibusdam",
+  "Filename": "eveniet",
+  "DefaultOref": "molestiae",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 97,
-  "IntentId": 560,
+  "AutoeventId": 505,
+  "IntentId": 991,
   "IsDefaultPublished": true,
-  "Rank": 781,
-  "LoadTemplateFromPlugin": 451,
-  "MimeType": "autem",
+  "Rank": 405,
+  "LoadTemplateFromPlugin": 118,
+  "MimeType": "consectetur",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 90,
+  "DocumentTypeKey": 127,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "polly_jacobson@schiller.biz",
+  "EmailSubject": "erling@prohaska.biz",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "valentine.hyatt@schowalter.uk",
+  "SenderEmailAddress": "blanche@cassin.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,30 +153,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 637,
-  "Name": "Raynor-Kiehn",
-  "Tooltip": "sed",
-  "SaveInDb": 449,
-  "Filename": "sit",
-  "DefaultOref": "odit",
+  "DocumentTemplateId": 235,
+  "Name": "Medhurst-Bins",
+  "Tooltip": "odit",
+  "SaveInDb": 584,
+  "Filename": "dolores",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 20,
-  "IntentId": 917,
-  "IsDefaultPublished": true,
-  "Rank": 222,
-  "LoadTemplateFromPlugin": 582,
-  "MimeType": "aliquid",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 828,
+  "AutoeventId": 922,
+  "IntentId": 768,
+  "IsDefaultPublished": false,
+  "Rank": 560,
+  "LoadTemplateFromPlugin": 701,
+  "MimeType": "nihil",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 182,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kacie.russel@farrell.com",
+  "EmailSubject": "major.cole@kingward.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "solon@weber.co.uk",
+  "SenderEmailAddress": "addison_hintz@jast.info",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -186,10 +186,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "productize clicks-and-mortar solutions"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 738
     }
   }
 }

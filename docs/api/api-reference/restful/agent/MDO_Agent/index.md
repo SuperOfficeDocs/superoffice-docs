@@ -2,8 +2,6 @@
 title: MDO_Agent
 ---
 
-# MDO_Agent
-
 ```http
 /api/v1/MDO/Agent
 ```
@@ -11,26 +9,26 @@ title: MDO_Agent
 
 
 
-* [GetList](v1MDOAgent_GetList.md)
+* [POST Agents/MDO/GetList](v1MDOAgent_GetList.md)
 
-* [GetListWithHistory](v1MDOAgent_GetListWithHistory.md)
+* [POST Agents/MDO/GetListWithHistory](v1MDOAgent_GetListWithHistory.md)
 
-* [GetListWithRestriction](v1MDOAgent_GetListWithRestriction.md)
+* [POST Agents/MDO/GetListWithRestriction](v1MDOAgent_GetListWithRestriction.md)
 
-* [GetSimpleList](v1MDOAgent_GetSimpleList.md)
+* [POST Agents/MDO/GetSimpleList](v1MDOAgent_GetSimpleList.md)
 
-* [GetListItem](v1MDOAgent_GetListItem.md)
+* [POST Agents/MDO/GetListItem](v1MDOAgent_GetListItem.md)
 
-* [GetListNames](v1MDOAgent_GetListNames.md)
+* [POST Agents/MDO/GetListNames](v1MDOAgent_GetListNames.md)
 
-* [GetListIdByListName](v1MDOAgent_GetListIdByListName.md)
+* [POST Agents/MDO/GetListIdByListName](v1MDOAgent_GetListIdByListName.md)
 
-* [GetSelectableSimpleList](v1MDOAgent_GetSelectableSimpleList.md)
+* [POST Agents/MDO/GetSelectableSimpleList](v1MDOAgent_GetSelectableSimpleList.md)
 
-* [GetSelectableListWithRestriction](v1MDOAgent_GetSelectableListWithRestriction.md)
+* [POST Agents/MDO/GetSelectableListWithRestriction](v1MDOAgent_GetSelectableListWithRestriction.md)
 
-* [GetSelectableListWithHistory](v1MDOAgent_GetSelectableListWithHistory.md)
+* [POST Agents/MDO/GetSelectableListWithHistory](v1MDOAgent_GetSelectableListWithHistory.md)
 
-* [GetSelectableList](v1MDOAgent_GetSelectableList.md)
+* [POST Agents/MDO/GetSelectableList](v1MDOAgent_GetSelectableList.md)
 
-* [SetSelected](v1MDOAgent_SetSelected.md)
+* [POST Agents/MDO/SetSelected](v1MDOAgent_SetSelected.md)

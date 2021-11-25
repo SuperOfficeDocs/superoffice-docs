@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -66,10 +66,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka, Gorczany and Little",
-    "DisplayName": "Heller-Dickens",
-    "DisplayTooltip": "ipsa",
-    "IsActive": true,
+    "Name": "Cummerata-Metz",
+    "DisplayName": "Leannon LLC",
+    "DisplayTooltip": "quia",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -80,16 +80,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 750
       }
     }
   },
   {
-    "Name": "Ondricka, Gorczany and Little",
-    "DisplayName": "Heller-Dickens",
-    "DisplayTooltip": "ipsa",
-    "IsActive": true,
+    "Name": "Cummerata-Metz",
+    "DisplayName": "Leannon LLC",
+    "DisplayTooltip": "quia",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 750
       }
     }
   }

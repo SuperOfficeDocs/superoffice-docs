@@ -1,9 +1,9 @@
 ---
-title: GetConfigParametersOnPerson
+title: POST Agents/Audience/GetConfigParametersOnPerson
 id: v1AudienceAgent_GetConfigParametersOnPerson
 ---
 
-# GetConfigParametersOnPerson
+# POST Agents/Audience/GetConfigParametersOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 593
+  "PersonId": 7
 }
 ```
 
@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 372,
-    "Name": "Bartoletti Inc and Sons",
-    "Value": "nemo",
-    "CreatedDate": "2020-02-09T14:58:03.2602385+01:00",
-    "UpdatedDate": "2015-12-30T14:58:03.2602385+01:00",
-    "CreatedBy": "atque",
-    "UpdatedBy": "repudiandae",
+    "AudienceLayoutId": 40,
+    "Name": "Erdman Inc and Sons",
+    "Value": "asperiores",
+    "CreatedDate": "2000-07-17T18:28:48.1325445+02:00",
+    "UpdatedDate": "2014-11-20T18:28:48.1325445+01:00",
+    "CreatedBy": "et",
+    "UpdatedBy": "voluptatem",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldLength": 386
       }
     }
   }

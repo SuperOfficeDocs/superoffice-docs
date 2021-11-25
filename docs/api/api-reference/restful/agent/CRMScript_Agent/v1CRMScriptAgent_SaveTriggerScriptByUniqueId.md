@@ -1,9 +1,9 @@
 ---
-title: SaveTriggerScriptByUniqueId
+title: POST Agents/CRMScript/SaveTriggerScriptByUniqueId
 id: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
 ---
 
-# SaveTriggerScriptByUniqueId
+# POST Agents/CRMScript/SaveTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -91,22 +91,22 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "unde",
+  "TriggerScriptUniqueId": "quis",
   "Entity": {
-    "ScreenChooserId": 852,
-    "Name": "Conroy-Hoppe",
+    "ScreenChooserId": 36,
+    "Name": "O'Kon, Murray and Kertzmann",
     "ScreenType": "ChatAfterSaveNewMessage",
-    "Enabled": true,
-    "UniqueIdentifier": "vero",
-    "Source": "ratione",
-    "Registered": "2002-07-23T14:58:03.7504631+02:00",
-    "RegisteredAssociateId": 563,
-    "Updated": "2021-06-15T14:58:03.7504631+02:00",
-    "UpdatedAssociateId": 455
+    "Enabled": false,
+    "UniqueIdentifier": "aut",
+    "Source": "et",
+    "Registered": "2011-09-05T18:28:48.6419589+02:00",
+    "RegisteredAssociateId": 574,
+    "Updated": "2007-01-07T18:28:48.6419589+01:00",
+    "UpdatedAssociateId": 784
   }
 }
 ```
@@ -116,16 +116,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 486,
-  "Name": "Kshlerin Group",
+  "ScreenChooserId": 654,
+  "Name": "Zemlak Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptas",
-  "Source": "quidem",
-  "Registered": "2015-04-18T14:58:03.7514604+02:00",
-  "RegisteredAssociateId": 873,
-  "Updated": "2007-04-21T14:58:03.7514604+02:00",
-  "UpdatedAssociateId": 233,
+  "UniqueIdentifier": "ea",
+  "Source": "fugiat",
+  "Registered": "2011-05-15T18:28:48.6419589+02:00",
+  "RegisteredAssociateId": 915,
+  "Updated": "2004-02-10T18:28:48.6419589+01:00",
+  "UpdatedAssociateId": 839,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldLength": 724
     }
   }
 }

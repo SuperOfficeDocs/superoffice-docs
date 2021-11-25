@@ -1,9 +1,9 @@
 ---
-title: SetPasswordFromName
+title: POST Agents/User/SetPasswordFromName
 id: v1UserAgent_SetPasswordFromName
 ---
 
-# SetPasswordFromName
+# POST Agents/User/SetPasswordFromName
 
 ```http
 POST /api/v1/Agents/User/SetPasswordFromName
@@ -71,12 +71,12 @@ Response body: bool
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Turcotte-Morar",
-  "Password": "in"
+  "AssociateName": "Rohan Inc and Sons",
+  "Password": "esse"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

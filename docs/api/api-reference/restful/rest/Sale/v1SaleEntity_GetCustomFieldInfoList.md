@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mosciski-Harber",
-    "DisplayName": "Gerhold Inc and Sons",
-    "Description": "De-engineered 4th generation structure",
-    "ShortLabel": "accusantium",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Von-Bogan",
+    "DisplayName": "Mohr Group",
+    "Description": "Persistent local service-desk",
+    "ShortLabel": "eius",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 114,
-    "TemplateVariableName": "Gleichner-Macejkovic"
+    "Rank": 573,
+    "TemplateVariableName": "Kshlerin-Fisher"
   }
 ]
 ```

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "McDermott LLC",
-  "Tooltip": "reiciendis",
+  "Id": 757,
+  "Name": "Mayer Inc and Sons",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "UdListDefinitionId": 320,
-  "Rank": 56
+  "UdListDefinitionId": 708,
+  "Rank": 793
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Johnson-Deckow",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 649,
-  "Rank": 297,
+  "Id": 796,
+  "Name": "Hyatt, Champlin and Wilkinson",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 788,
+  "Rank": 867,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldLength": 456
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetPreviewAttachmentFromDocId
+title: POST Agents/EMail/GetPreviewAttachmentFromDocId
 id: v1EMailAgent_GetPreviewAttachmentFromDocId
 ---
 
-# GetPreviewAttachmentFromDocId
+# POST Agents/EMail/GetPreviewAttachmentFromDocId
 
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 395,
-  "AttachmentId": "autem"
+  "DocId": 72,
+  "AttachmentId": "non"
 }
 ```
 
@@ -103,17 +103,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative context-sensitive solution",
-  "Filename": "id",
-  "Size": 996,
-  "Type": "dolores",
-  "Encoding": "fugit",
-  "Id": "eum",
-  "Disposition": "vitae",
+  "Description": "Enhanced dynamic system engine",
+  "Filename": "vel",
+  "Size": 22,
+  "Type": "accusamus",
+  "Encoding": "autem",
+  "Id": "dolor",
+  "Disposition": "quis",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "scale distributed infomediaries"
   },
   "FieldProperties": {
     "fieldName": {
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

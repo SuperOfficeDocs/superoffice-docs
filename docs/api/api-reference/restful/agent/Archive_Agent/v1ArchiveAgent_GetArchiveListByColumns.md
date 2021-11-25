@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumns
+title: POST Agents/Archive/GetArchiveListByColumns
 id: v1ArchiveAgent_GetArchiveListByColumns
 ---
 
-# GetArchiveListByColumns
+# POST Agents/Archive/GetArchiveListByColumns
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
@@ -109,54 +109,54 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McDermott Inc and Sons",
+  "ProviderName": "Boyle LLC",
   "Columns": [
-    "sunt",
-    "perferendis"
+    "odio",
+    "molestiae"
   ],
   "SortOrder": [
     {
-      "Name": "Bednar Group",
+      "Name": "Skiles, Funk and Luettgen",
       "Direction": "ASC"
     },
     {
-      "Name": "Bednar Group",
+      "Name": "Skiles, Funk and Luettgen",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Beier Inc and Sons",
-      "Operator": "rem",
+      "Name": "Murazik-Lang",
+      "Operator": "aut",
       "Values": [
-        "at",
-        "aut"
+        "libero",
+        "qui"
       ],
       "DisplayValues": [
-        "sit",
-        "omnis"
+        "consequatur",
+        "repellat"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 90,
+      "InterParenthesis": 796,
       "InterOperator": "And",
-      "UniqueHash": 981
+      "UniqueHash": 852
     }
   ],
   "Entities": [
-    "velit",
-    "deserunt"
+    "expedita",
+    "et"
   ],
-  "Page": 473,
-  "PageSize": 436
+  "Page": 292,
+  "PageSize": 316
 }
 ```
 
@@ -166,20 +166,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lehner, Kshlerin and Wisoky",
-    "PrimaryKey": 485,
+    "EntityName": "Terry Group",
+    "PrimaryKey": 343,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aperiam",
-        "TooltipHint": "vero",
-        "LinkHint": "quis"
+        "DisplayValue": "vero",
+        "TooltipHint": "dolorem",
+        "LinkHint": "quisquam"
       }
     },
-    "LinkHint": "fuga",
-    "StyleHint": "et",
+    "LinkHint": "eos",
+    "StyleHint": "dolorem",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "incubate synergistic applications"
     },
     "FieldProperties": {
       "fieldName": {
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldLength": 675
       }
     }
   }

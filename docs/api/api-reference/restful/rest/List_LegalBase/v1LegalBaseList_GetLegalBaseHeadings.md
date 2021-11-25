@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 970,
-    "Name": "Terry-Braun",
-    "Tooltip": "architecto",
+    "HeadingId": 990,
+    "Name": "Sawayn-Herman",
+    "Tooltip": "cumque",
     "Deleted": true,
-    "Rank": 146,
-    "UdListDefinitionId": 995,
+    "Rank": 903,
+    "UdListDefinitionId": 610,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldLength": 392
       }
     }
   }

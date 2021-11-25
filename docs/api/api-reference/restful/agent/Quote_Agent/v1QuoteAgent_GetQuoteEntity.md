@@ -1,9 +1,9 @@
 ---
-title: GetQuoteEntity
+title: POST Agents/Quote/GetQuoteEntity
 id: v1QuoteAgent_GetQuoteEntity
 ---
 
-# GetQuoteEntity
+# POST Agents/Quote/GetQuoteEntity
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntity
@@ -90,11 +90,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 760
+  "QuoteId": 523
 }
 ```
 
@@ -103,56 +103,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 151,
-  "SaleId": 174,
-  "QuoteConnectionId": 638,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "veritatis",
-  "ActiveQuoteVersionId": 76,
-  "AcceptedQuoteAlternativeId": 61,
-  "UseValuesFromQuote": 509,
-  "DocumentId": 65,
-  "PoNumber": "1671644",
-  "OrderComment": "illum",
-  "PreferredEmailCulture": "maribel.eichmann@runolfsdottirbreitenberg.info",
+  "QuoteId": 656,
+  "SaleId": 727,
+  "QuoteConnectionId": 796,
+  "ERPQuoteKey": "harum",
+  "ERPOrderKey": "fuga",
+  "ActiveQuoteVersionId": 801,
+  "AcceptedQuoteAlternativeId": 424,
+  "UseValuesFromQuote": 85,
+  "DocumentId": 322,
+  "PoNumber": "1766689",
+  "OrderComment": "facilis",
+  "PreferredEmailCulture": "tad_rogahn@champlin.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 364,
-      "ERPQuoteVersionKey": "voluptatibus",
-      "QuoteId": 219,
-      "Description": "Customer-focused didactic instruction set",
-      "Number": "1337429",
+      "QuoteVersionId": 808,
+      "ERPQuoteVersionKey": "qui",
+      "QuoteId": 614,
+      "Description": "Re-engineered demand-driven software",
+      "Number": "1210931",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 732,
-      "SentDate": "2014-07-13T14:58:05.0094681+02:00",
-      "FollowupId": 551,
-      "ExpirationDate": "2019-07-01T14:58:05.0094681+02:00",
-      "DeliveryCountryId": 966,
+      "LikelyQuoteAlternativeId": 510,
+      "SentDate": "2017-12-14T18:28:49.9501071+01:00",
+      "FollowupId": 315,
+      "ExpirationDate": "2007-08-18T18:28:49.9501071+02:00",
+      "DeliveryCountryId": 304,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 443,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "aspernatur",
-      "ERPPaymentTypeKey": "vel",
-      "ERPDeliveryTermsKey": "vero",
-      "ERPDeliveryTypeKey": "debitis",
-      "Rank": 773,
-      "ApprovedBy": 697,
-      "ApprovedText": "ipsa",
-      "ApprovedRegisteredBy": 376,
-      "ApprovedRegisteredDate": "2014-02-28T14:58:05.0094681+01:00",
-      "ExtraField1": "quia",
+      "InvoiceCountryId": 319,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "asperiores",
+      "ERPPaymentTypeKey": "recusandae",
+      "ERPDeliveryTermsKey": "est",
+      "ERPDeliveryTypeKey": "distinctio",
+      "Rank": 166,
+      "ApprovedBy": 362,
+      "ApprovedText": "perferendis",
+      "ApprovedRegisteredBy": 957,
+      "ApprovedRegisteredDate": "2005-05-01T18:28:49.9501071+02:00",
+      "ExtraField1": "libero",
       "ExtraField2": "et",
-      "ExtraField3": "perspiciatis",
-      "ExtraField4": "sunt",
-      "ExtraField5": "ut",
-      "LastRecalculated": "2006-04-25T14:58:05.0094681+02:00",
-      "Updated": "2015-01-29T14:58:05.0094681+01:00",
-      "UpdatedAssociateId": 235,
-      "Registered": "2010-03-27T14:58:05.0094681+01:00",
-      "RegisteredAssociateId": 884,
+      "ExtraField3": "dolore",
+      "ExtraField4": "iste",
+      "ExtraField5": "aut",
+      "LastRecalculated": "2013-01-01T18:28:49.9501071+01:00",
+      "Updated": "2001-06-26T18:28:49.9501071+02:00",
+      "UpdatedAssociateId": 403,
+      "Registered": "2002-09-06T18:28:49.9501071+02:00",
+      "RegisteredAssociateId": 435,
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
@@ -178,10 +178,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "whiteboard customized supply-chains"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 226
     }
   }
 }

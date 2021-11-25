@@ -1,9 +1,9 @@
 ---
-title: GetOrganizerName
+title: POST Agents/Appointment/GetOrganizerName
 id: v1AppointmentAgent_GetOrganizerName
 ---
 
-# GetOrganizerName
+# POST Agents/Appointment/GetOrganizerName
 
 ```http
 POST /api/v1/Agents/Appointment/GetOrganizerName
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 470
+  "MotherAppointmentId": 403
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Ziemann Inc and Sons"
+"Breitenberg Inc and Sons"
 ```

@@ -24,7 +24,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Rohan, Jewess and Veum",
-    "Tooltip": "natus",
+    "Id": 713,
+    "Name": "Sanford-Fisher",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "UdListDefinitionId": 143,
-    "Rank": 378,
+    "UdListDefinitionId": 714,
+    "Rank": 826,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "grow bleeding-edge e-services"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldType": "System.String",
+        "FieldLength": 53
       }
     }
   }

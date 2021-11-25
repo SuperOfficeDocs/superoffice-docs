@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 290,
-  "Name": "Wyman Inc and Sons",
-  "Tooltip": "dolore",
+  "Id": 386,
+  "Name": "Graham LLC",
+  "Tooltip": "doloremque",
   "Deleted": true,
-  "UdListDefinitionId": 838,
-  "Rank": 672,
+  "UdListDefinitionId": 192,
+  "Rank": 390,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "strategize rich systems"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

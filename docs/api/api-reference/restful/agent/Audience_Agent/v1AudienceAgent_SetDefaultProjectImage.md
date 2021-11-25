@@ -1,9 +1,9 @@
 ---
-title: SetDefaultProjectImage
+title: POST Agents/Audience/SetDefaultProjectImage
 id: v1AudienceAgent_SetDefaultProjectImage
 ---
 
-# SetDefaultProjectImage
+# POST Agents/Audience/SetDefaultProjectImage
 
 ```http
 POST /api/v1/Agents/Audience/SetDefaultProjectImage

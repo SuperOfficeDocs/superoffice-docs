@@ -1,9 +1,9 @@
 ---
-title: SignalEvent
+title: POST Agents/Webhook/SignalEvent
 id: v1WebhookAgent_SignalEvent
 ---
 
-# SignalEvent
+# POST Agents/Webhook/SignalEvent
 
 ```http
 POST /api/v1/Agents/Webhook/SignalEvent

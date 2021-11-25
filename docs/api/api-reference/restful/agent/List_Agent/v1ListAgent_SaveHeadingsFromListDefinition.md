@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingsFromListDefinition
+title: POST Agents/List/SaveHeadingsFromListDefinition
 id: v1ListAgent_SaveHeadingsFromListDefinition
 ---
 
-# SaveHeadingsFromListDefinition
+# POST Agents/List/SaveHeadingsFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
@@ -79,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
+  "Id": 756,
   "Entities": [
     {
-      "HeadingId": 579,
-      "Name": "Corkery, Cronin and Steuber",
-      "Tooltip": "quia",
+      "HeadingId": 367,
+      "Name": "Ebert LLC",
+      "Tooltip": "et",
       "Deleted": false,
-      "Rank": 4,
-      "UdListDefinitionId": 2
+      "Rank": 493,
+      "UdListDefinitionId": 114
     },
     {
-      "HeadingId": 579,
-      "Name": "Corkery, Cronin and Steuber",
-      "Tooltip": "quia",
+      "HeadingId": 367,
+      "Name": "Ebert LLC",
+      "Tooltip": "et",
       "Deleted": false,
-      "Rank": 4,
-      "UdListDefinitionId": 2
+      "Rank": 493,
+      "UdListDefinitionId": 114
     }
   ]
 }
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 25,
-    "Name": "Johnston-Gislason",
-    "Tooltip": "distinctio",
+    "HeadingId": 485,
+    "Name": "Jacobs LLC",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "Rank": 323,
-    "UdListDefinitionId": 897,
+    "Rank": 545,
+    "UdListDefinitionId": 500,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "deploy vertical initiatives"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

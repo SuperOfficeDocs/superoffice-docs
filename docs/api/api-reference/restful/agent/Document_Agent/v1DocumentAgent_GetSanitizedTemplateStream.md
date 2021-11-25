@@ -1,9 +1,9 @@
 ---
-title: GetSanitizedTemplateStream
+title: POST Agents/Document/GetSanitizedTemplateStream
 id: v1DocumentAgent_GetSanitizedTemplateStream
 ---
 
-# GetSanitizedTemplateStream
+# POST Agents/Document/GetSanitizedTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
@@ -70,13 +70,13 @@ Response body:
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Mraz-King",
-  "AllowPersonal": false,
-  "UiCulture": "sit"
+  "TemplateName": "Bayer Inc and Sons",
+  "AllowPersonal": true,
+  "UiCulture": "inventore"
 }
 ```
 

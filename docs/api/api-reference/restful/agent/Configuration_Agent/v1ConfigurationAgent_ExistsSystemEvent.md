@@ -1,9 +1,9 @@
 ---
-title: ExistsSystemEvent
+title: POST Agents/Configuration/ExistsSystemEvent
 id: v1ConfigurationAgent_ExistsSystemEvent
 ---
 
-# ExistsSystemEvent
+# POST Agents/Configuration/ExistsSystemEvent
 
 ```http
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magnam"
+  "Key": "reiciendis"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

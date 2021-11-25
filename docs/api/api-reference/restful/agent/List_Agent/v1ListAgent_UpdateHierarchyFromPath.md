@@ -1,9 +1,9 @@
 ---
-title: UpdateHierarchyFromPath
+title: POST Agents/List/UpdateHierarchyFromPath
 id: v1ListAgent_UpdateHierarchyFromPath
 ---
 
-# UpdateHierarchyFromPath
+# POST Agents/List/UpdateHierarchyFromPath
 
 ```http
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
@@ -89,26 +89,26 @@ Response body: object
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quas",
+  "Path": "voluptas",
   "Entity": {
-    "HierarchyId": 83,
+    "HierarchyId": 864,
     "Domain": "Dashboards",
-    "Name": "Fay-Maggio",
-    "Fullname": "architecto",
-    "ParentId": 643,
+    "Name": "Will Group",
+    "Fullname": "suscipit",
+    "ParentId": 509,
     "Children": [
       {},
       {}
     ],
-    "Registered": "2013-09-23T14:58:04.4084649+02:00",
-    "RegisteredAssociateId": 145,
-    "Updated": "2009-02-24T14:58:04.4084649+01:00",
-    "UpdatedAssociateId": 478
+    "Registered": "2001-09-29T18:28:49.3411223+02:00",
+    "RegisteredAssociateId": 994,
+    "Updated": "2013-11-17T18:28:49.3411223+01:00",
+    "UpdatedAssociateId": 347
   }
 }
 ```
@@ -118,26 +118,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 53,
+  "HierarchyId": 588,
   "Domain": "Dashboards",
-  "Name": "Dare, O'Kon and Block",
-  "Fullname": "magnam",
-  "ParentId": 595,
+  "Name": "Conn-Bruen",
+  "Fullname": "qui",
+  "ParentId": 848,
   "Children": [
     {
-      "HierarchyId": 831,
+      "HierarchyId": 699,
       "Domain": "Dashboards",
-      "Name": "Christiansen-White",
-      "Fullname": "quaerat",
-      "ParentId": 43,
+      "Name": "Schiller-Krajcik",
+      "Fullname": "autem",
+      "ParentId": 410,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-01-23T14:58:04.4084649+01:00",
-      "RegisteredAssociateId": 736,
-      "Updated": "1996-03-28T14:58:04.4084649+01:00",
-      "UpdatedAssociateId": 384,
+      "Registered": "2006-12-08T18:28:49.3411223+01:00",
+      "RegisteredAssociateId": 913,
+      "Updated": "1995-09-05T18:28:49.3411223+02:00",
+      "UpdatedAssociateId": 882,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,15 +146,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 951
         }
       }
     }
   ],
-  "Registered": "1998-06-18T14:58:04.4084649+02:00",
-  "RegisteredAssociateId": 696,
-  "Updated": "2006-01-30T14:58:04.4084649+01:00",
-  "UpdatedAssociateId": 321,
+  "Registered": "2012-05-18T18:28:49.3411223+02:00",
+  "RegisteredAssociateId": 978,
+  "Updated": "2012-01-06T18:28:49.3411223+01:00",
+  "UpdatedAssociateId": 290,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldLength": 816
     }
   }
 }

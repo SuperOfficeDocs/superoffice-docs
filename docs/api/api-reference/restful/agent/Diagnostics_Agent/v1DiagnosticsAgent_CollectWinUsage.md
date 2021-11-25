@@ -1,9 +1,9 @@
 ---
-title: CollectWinUsage
+title: POST Agents/Diagnostics/CollectWinUsage
 id: v1DiagnosticsAgent_CollectWinUsage
 ---
 
-# CollectWinUsage
+# POST Agents/Diagnostics/CollectWinUsage
 
 ```http
 POST /api/v1/Agents/Diagnostics/CollectWinUsage

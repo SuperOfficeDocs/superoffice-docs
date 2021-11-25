@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Carter-Pfeffer",
-  "Tooltip": "quo",
+  "Id": 817,
+  "Name": "White-Lehner",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "Rank": 47,
+  "Rank": 436,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "in",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Dibbert, McLaughlin and Metz",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 671,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
+  "Id": 408,
+  "Name": "Daniel-Dickinson",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "Rank": 817,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "utilize synergistic solutions"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

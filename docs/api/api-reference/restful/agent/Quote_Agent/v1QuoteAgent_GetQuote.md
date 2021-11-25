@@ -1,9 +1,9 @@
 ---
-title: GetQuote
+title: POST Agents/Quote/GetQuote
 id: v1QuoteAgent_GetQuote
 ---
 
-# GetQuote
+# POST Agents/Quote/GetQuote
 
 ```http
 POST /api/v1/Agents/Quote/GetQuote
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 16
+  "QuoteId": 776
 }
 ```
 
@@ -104,55 +104,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 189,
-  "SaleId": 288,
-  "QuoteConnectionId": 338,
-  "ERPQuoteKey": "id",
-  "ERPOrderKey": "assumenda",
-  "ActiveQuoteVersionId": 609,
-  "AcceptedQuoteAlternativeId": 641,
-  "UseValuesFromQuote": 59,
-  "DocumentId": 726,
-  "PoNumber": "942338",
-  "OrderComment": "rem",
-  "PreferredEmailCulture": "may_lockman@casper.ca",
+  "QuoteId": 257,
+  "SaleId": 780,
+  "QuoteConnectionId": 880,
+  "ERPQuoteKey": "necessitatibus",
+  "ERPOrderKey": "unde",
+  "ActiveQuoteVersionId": 606,
+  "AcceptedQuoteAlternativeId": 918,
+  "UseValuesFromQuote": 961,
+  "DocumentId": 465,
+  "PoNumber": "1323535",
+  "OrderComment": "vitae",
+  "PreferredEmailCulture": "felix.mosciski@jacobson.biz",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 40,
-    "ERPQuoteVersionKey": "vero",
-    "QuoteId": 576,
-    "Description": "Secured global algorithm",
-    "Number": "1617465",
+    "QuoteVersionId": 831,
+    "ERPQuoteVersionKey": "voluptatem",
+    "QuoteId": 92,
+    "Description": "Re-engineered user-facing initiative",
+    "Number": "919181",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 90,
-    "SentDate": "1999-11-14T14:58:05.004465+01:00",
-    "FollowupId": 933,
-    "ExpirationDate": "2007-05-12T14:58:05.004465+02:00",
-    "DeliveryCountryId": 409,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 158,
+    "LikelyQuoteAlternativeId": 104,
+    "SentDate": "1999-10-25T18:28:49.9911374+02:00",
+    "FollowupId": 359,
+    "ExpirationDate": "2000-07-05T18:28:49.9911374+02:00",
+    "DeliveryCountryId": 302,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 564,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quas",
-    "ERPPaymentTypeKey": "ut",
-    "ERPDeliveryTermsKey": "in",
-    "ERPDeliveryTypeKey": "nesciunt",
-    "Rank": 222,
-    "ApprovedBy": 277,
-    "ApprovedText": "hic",
-    "ApprovedRegisteredBy": 752,
-    "ApprovedRegisteredDate": "2013-07-02T14:58:05.004465+02:00",
-    "ExtraField1": "maxime",
-    "ExtraField2": "aut",
-    "ExtraField3": "est",
-    "ExtraField4": "reiciendis",
-    "ExtraField5": "eligendi",
-    "LastRecalculated": "2003-09-13T14:58:05.004465+02:00",
-    "Updated": "2020-09-07T14:58:05.004465+02:00",
-    "UpdatedAssociateId": 606,
-    "Registered": "1996-11-24T14:58:05.004465+01:00",
-    "RegisteredAssociateId": 796,
+    "ERPPaymentTermsKey": "ipsum",
+    "ERPPaymentTypeKey": "libero",
+    "ERPDeliveryTermsKey": "sint",
+    "ERPDeliveryTypeKey": "cumque",
+    "Rank": 639,
+    "ApprovedBy": 578,
+    "ApprovedText": "quo",
+    "ApprovedRegisteredBy": 181,
+    "ApprovedRegisteredDate": "2013-12-04T18:28:49.9911374+01:00",
+    "ExtraField1": "magni",
+    "ExtraField2": "officiis",
+    "ExtraField3": "laudantium",
+    "ExtraField4": "similique",
+    "ExtraField5": "delectus",
+    "LastRecalculated": "2006-03-20T18:28:49.9921373+01:00",
+    "Updated": "1995-11-24T18:28:49.9921373+01:00",
+    "UpdatedAssociateId": 251,
+    "Registered": "2008-04-24T18:28:49.9921373+02:00",
+    "RegisteredAssociateId": 263,
     "QuoteAlternatives": [
       {},
       {}
@@ -162,37 +162,37 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "expedite dynamic channels"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 221
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 723,
-    "ERPQuoteAlternativeKey": "molestias",
-    "QuoteVersionId": 686,
-    "Name": "Bogisich-Barton",
-    "Description": "Self-enabling non-volatile interface",
+    "QuoteAlternativeId": 95,
+    "ERPQuoteAlternativeKey": "earum",
+    "QuoteVersionId": 420,
+    "Name": "Dietrich LLC",
+    "Description": "Synchronised 3rd generation neural-net",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 16751.23,
-    "ERPDiscountAmount": 21455.363999999998,
-    "DiscountPercent": 24758.6,
-    "DiscountAmount": 5014.4,
+    "ERPDiscountPercent": 9621.38,
+    "ERPDiscountAmount": 7051.5,
+    "DiscountPercent": 10116.552,
+    "DiscountAmount": 13410.386,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "iusto",
-    "VAT": 19618.84,
-    "EarningPercent": 17130.444,
-    "EarningAmount": 19725.396,
-    "SubTotal": 10273.252,
-    "TotalPrice": 6293.072,
-    "ExtraField1": "ipsam",
-    "ExtraField2": "quibusdam",
-    "ExtraField3": "commodi",
-    "ExtraField4": "quas",
-    "ExtraField5": "officiis",
+    "VATInfo": "earum",
+    "VAT": 6966.882,
+    "EarningPercent": 27203.12,
+    "EarningAmount": 30167.884,
+    "SubTotal": 2955.362,
+    "TotalPrice": 26378.878,
+    "ExtraField1": "placeat",
+    "ExtraField2": "officia",
+    "ExtraField3": "autem",
+    "ExtraField4": "doloribus",
+    "ExtraField5": "minima",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldType": "System.String",
+        "FieldLength": 565
       }
     }
   },
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

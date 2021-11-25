@@ -1,9 +1,9 @@
 ---
-title: TestAuthenticate
+title: POST Agents/EMail/TestAuthenticate
 id: v1EMailAgent_TestAuthenticate
 ---
 
-# TestAuthenticate
+# POST Agents/EMail/TestAuthenticate
 
 ```http
 POST /api/v1/Agents/EMail/TestAuthenticate
@@ -61,7 +61,7 @@ Response body: bool
 POST /api/v1/Agents/EMail/TestAuthenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_

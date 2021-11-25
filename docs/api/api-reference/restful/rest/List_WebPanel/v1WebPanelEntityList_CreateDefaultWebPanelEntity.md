@@ -78,7 +78,7 @@ Response body: object
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 730,
-  "Name": "Marvin, Bode and Kassulke",
-  "Tooltip": "repudiandae",
+  "WebPanelId": 393,
+  "Name": "Grant, Moore and Eichmann",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 51,
+  "Rank": 677,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Abernathy, Boehm and Rath",
+  "ShowInStatusBar": false,
+  "WindowName": "Mueller LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorem",
-  "Icon": 723,
+  "ProgId": "rem",
+  "Icon": 228,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 695
     }
   }
 }

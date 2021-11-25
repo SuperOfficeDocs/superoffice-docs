@@ -1,9 +1,9 @@
 ---
-title: SaveSaleTypeEntity
+title: POST Agents/List/SaveSaleTypeEntity
 id: v1ListAgent_SaveSaleTypeEntity
 ---
 
-# SaveSaleTypeEntity
+# POST Agents/List/SaveSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/SaveSaleTypeEntity
@@ -106,51 +106,51 @@ Response body: object
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 71,
-  "Name": "Schroeder, Thompson and Cronin",
-  "Tooltip": "nisi",
-  "Rank": 3,
+  "SaleTypeId": 676,
+  "Name": "Yundt-Kemmer",
+  "Tooltip": "rerum",
+  "Rank": 322,
   "DurationUnit": "Century",
-  "SaleDuration": 460,
-  "SaleTypeCatId": 592,
+  "SaleDuration": 606,
+  "SaleTypeCatId": 533,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 550,
-  "QuoteLinesTemplate": 815,
-  "ConfirmationLinesTemplate": 746,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 35,
+  "QuoteLinesTemplate": 482,
+  "ConfirmationLinesTemplate": 123,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 58,
-  "MinEarningPercent": 116,
-  "GroupQuoteLinesBy": 669,
-  "SortGroupLinesBy": 70,
+  "MaxDiscountPercent": 776,
+  "MinEarningPercent": 130,
+  "GroupQuoteLinesBy": 899,
+  "SortGroupLinesBy": 317,
   "Stages": [
     {
-      "Id": 477,
-      "Name": "Beahan-Wolff",
-      "ToolTip": "Soluta aut deleniti totam.",
+      "Id": 303,
+      "Name": "Pfeffer-Abbott",
+      "ToolTip": "Voluptates aliquam sit non doloribus doloribus nobis.",
       "Deleted": false,
-      "Rank": 596,
-      "Type": "dolor",
-      "ColorBlock": 781,
-      "IconHint": "iure",
-      "Selected": true,
-      "LastChanged": "2007-02-10T14:58:04.4784652+01:00",
+      "Rank": 448,
+      "Type": "omnis",
+      "ColorBlock": 774,
+      "IconHint": "quos",
+      "Selected": false,
+      "LastChanged": "2014-06-23T18:28:49.4520873+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "voluptatum",
-      "Hidden": true,
-      "FullName": "Gillian Kuvalis"
+      "ExtraInfo": "dolorem",
+      "StyleHint": "unde",
+      "Hidden": false,
+      "FullName": "Leland Marvin III"
     }
   ]
 }
@@ -161,47 +161,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 42,
-  "Name": "Klein, Schiller and Keeling",
-  "Tooltip": "reprehenderit",
-  "Rank": 651,
+  "SaleTypeId": 669,
+  "Name": "Fahey-Haag",
+  "Tooltip": "repudiandae",
+  "Rank": 722,
   "DurationUnit": "Century",
-  "SaleDuration": 850,
-  "SaleTypeCatId": 871,
+  "SaleDuration": 274,
+  "SaleTypeCatId": 30,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 826,
-  "QuoteLinesTemplate": 389,
-  "ConfirmationLinesTemplate": 372,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 803,
-  "MinEarningPercent": 627,
-  "GroupQuoteLinesBy": 274,
-  "SortGroupLinesBy": 312,
+  "DefaultQuoteValidity": 903,
+  "QuoteLinesTemplate": 514,
+  "ConfirmationLinesTemplate": 478,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 294,
+  "MinEarningPercent": 750,
+  "GroupQuoteLinesBy": 512,
+  "SortGroupLinesBy": 519,
   "Stages": [
     {
-      "Id": 48,
-      "Name": "Carroll Group",
-      "ToolTip": "Vero modi omnis totam non velit.",
-      "Deleted": true,
-      "Rank": 299,
-      "Type": "et",
-      "ColorBlock": 422,
-      "IconHint": "quo",
-      "Selected": false,
-      "LastChanged": "1996-08-18T14:58:04.4794654+02:00",
+      "Id": 536,
+      "Name": "Mertz, Predovic and Cole",
+      "ToolTip": "Officia nulla pariatur.",
+      "Deleted": false,
+      "Rank": 181,
+      "Type": "voluptate",
+      "ColorBlock": 407,
+      "IconHint": "repudiandae",
+      "Selected": true,
+      "LastChanged": "2012-08-23T18:28:49.4530875+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "earum",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Abigail Carroll",
+      "FullName": "Wilburn Dooley",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldType": "System.String",
+          "FieldLength": 336
         }
       }
     }
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveDashTileDefinition
+title: POST Agents/Dash/SaveDashTileDefinition
 id: v1DashAgent_SaveDashTileDefinition
 ---
 
-# SaveDashTileDefinition
+# POST Agents/Dash/SaveDashTileDefinition
 
 ```http
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
@@ -48,7 +48,7 @@ The DashTileDefinition to be saved.
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -85,7 +85,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -102,28 +102,28 @@ Response body: object
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 992,
-  "Name": "Dooley LLC",
-  "Description": "Up-sized attitude-oriented standardization",
-  "DefaultHeight": 11,
-  "DefaultWidth": 197,
+  "DashboardTileDefinitionId": 4,
+  "Name": "Considine LLC",
+  "Description": "Horizontal upward-trending flexibility",
+  "DefaultHeight": 97,
+  "DefaultWidth": 630,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Funk Inc and Sons",
-  "SelectionId": 555,
+  "EntityName": "Turner-Trantow",
+  "SelectionId": 937,
   "CurrencyMode": "Base",
-  "CurrencyId": 639,
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "optio",
-  "LayoutConfig": "architecto",
-  "SecondarySelectionId": 143,
-  "MeasureByField": "dignissimos",
-  "ProviderName": "Strosin, Reynolds and Smitham"
+  "MeasureField": "non",
+  "SortBy": "qui",
+  "LayoutConfig": "molestiae",
+  "SecondarySelectionId": 770,
+  "MeasureByField": "iure",
+  "ProviderName": "McGlynn, Prohaska and Nader"
 }
 ```
 
@@ -132,24 +132,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 660,
-  "Name": "Klein LLC",
-  "Description": "Polarised radical knowledge base",
-  "DefaultHeight": 23,
-  "DefaultWidth": 670,
+  "DashboardTileDefinitionId": 753,
+  "Name": "Toy LLC",
+  "Description": "Inverse bottom-line methodology",
+  "DefaultHeight": 150,
+  "DefaultWidth": 129,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kunze, McGlynn and Blick",
-  "SelectionId": 139,
+  "EntityName": "Senger, Harber and Beer",
+  "SelectionId": 337,
   "CurrencyMode": "Base",
-  "CurrencyId": 724,
+  "CurrencyCode": "ducimus",
   "Measure": "Average",
-  "MeasureField": "sapiente",
-  "SortBy": "sed",
-  "LayoutConfig": "itaque",
-  "SecondarySelectionId": 97,
-  "MeasureByField": "tempore",
-  "ProviderName": "Hammes LLC",
+  "MeasureField": "similique",
+  "SortBy": "voluptas",
+  "LayoutConfig": "optio",
+  "SecondarySelectionId": 604,
+  "MeasureByField": "sed",
+  "ProviderName": "Skiles-Emmerich",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

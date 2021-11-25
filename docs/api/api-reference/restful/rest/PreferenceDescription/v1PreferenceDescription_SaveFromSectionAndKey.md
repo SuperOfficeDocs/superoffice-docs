@@ -107,28 +107,28 @@ Response body: object
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 619,
-  "Section": "et",
-  "Key": "et",
-  "Name": "Effertz, Mante and Yost",
+  "PrefDescId": 222,
+  "Section": "eos",
+  "Key": "optio",
+  "Name": "Stiedemann, Gerlach and Anderson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed optimizing adapter",
-  "IsBuiltin": true,
-  "TableName": "Ortiz-Beer",
-  "UserDefinedListId": 189,
-  "Rank": 253,
-  "SubGroup": "non",
-  "MinLevel": 517,
-  "MaxValue": 137,
-  "MinValue": 468,
-  "RequiredLicense": "recusandae"
+  "Description": "User-friendly logistical concept",
+  "IsBuiltin": false,
+  "TableName": "Heaney-Thiel",
+  "UserDefinedListId": 853,
+  "Rank": 598,
+  "SubGroup": "eligendi",
+  "MinLevel": 636,
+  "MaxValue": 257,
+  "MinValue": 456,
+  "RequiredLicense": "molestiae"
 }
 ```
 
@@ -137,24 +137,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 21,
-  "Section": "delectus",
-  "Key": "porro",
-  "Name": "Veum Inc and Sons",
+  "PrefDescId": 801,
+  "Section": "in",
+  "Key": "sapiente",
+  "Name": "Parisian Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse multi-state process improvement",
+  "Description": "Distributed intangible database",
   "IsBuiltin": true,
-  "TableName": "Leuschke-Robel",
-  "UserDefinedListId": 142,
-  "Rank": 553,
-  "SubGroup": "numquam",
-  "MinLevel": 802,
-  "MaxValue": 687,
-  "MinValue": 230,
-  "RequiredLicense": "laboriosam",
+  "TableName": "Will Inc and Sons",
+  "UserDefinedListId": 794,
+  "Rank": 312,
+  "SubGroup": "sed",
+  "MinLevel": 635,
+  "MaxValue": 574,
+  "MinValue": 556,
+  "RequiredLicense": "ipsam",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -163,10 +163,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "optimize 24/365 vortals"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 274
     }
   }
 }

@@ -58,7 +58,7 @@ Response body: array
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -67,13 +67,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 248,
-    "DisplayName": "Connelly Inc and Sons",
-    "OngoingChats": 995,
+    "UserId": 518,
+    "DisplayName": "Lebsack Inc and Sons",
+    "OngoingChats": 975,
     "Present": true,
     "ChatTopics": [
-      648,
-      179
+      294,
+      662
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldLength": 777
       }
     }
   }

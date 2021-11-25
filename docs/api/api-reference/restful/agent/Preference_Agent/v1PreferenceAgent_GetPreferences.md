@@ -1,9 +1,9 @@
 ---
-title: GetPreferences
+title: POST Agents/Preference/GetPreferences
 id: v1PreferenceAgent_GetPreferences
 ---
 
-# GetPreferences
+# POST Agents/Preference/GetPreferences
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferences
@@ -83,18 +83,18 @@ Response body: array
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "consequatur",
-      "Key": "adipisci"
+      "Section": "quis",
+      "Key": "sequi"
     },
     {
-      "Section": "consequatur",
-      "Key": "adipisci"
+      "Section": "quis",
+      "Key": "sequi"
     }
   ]
 }
@@ -107,10 +107,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quisquam",
+    "RawValue": "odio",
     "Specification": {
-      "Section": "eveniet",
-      "Key": "nihil",
+      "Section": "quam",
+      "Key": "exercitationem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,34 +119,34 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 935
         }
       }
     },
-    "DisplayValue": "magni",
-    "DisplayTooltip": "omnis",
+    "DisplayValue": "sunt",
+    "DisplayTooltip": "distinctio",
     "DisplayType": "Bool",
     "TabOrder": {
-      "TabOrderId": 270,
-      "TabName": "Lakin-Jacobi",
-      "Order": "velit",
-      "AssociateId": 517,
+      "TabOrderId": 293,
+      "TabName": "Collier-Kovacek",
+      "Order": "sed",
+      "AssociateId": 238,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "harness user-centric e-markets"
           },
           "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldLength": 670
         }
       }
     },
-    "TargetId": 526,
-    "PrefDescId": 588,
-    "TableName": "Stark, Veum and Lind",
-    "UserPreferenceId": 870,
+    "TargetId": 387,
+    "PrefDescId": 413,
+    "TableName": "Howe-Watsica",
+    "UserPreferenceId": 58,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

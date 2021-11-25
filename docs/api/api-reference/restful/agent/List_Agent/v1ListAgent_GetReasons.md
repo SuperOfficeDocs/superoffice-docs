@@ -1,9 +1,9 @@
 ---
-title: GetReasons
+title: POST Agents/List/GetReasons
 id: v1ListAgent_GetReasons
 ---
 
-# GetReasons
+# POST Agents/List/GetReasons
 
 ```http
 POST /api/v1/Agents/List/GetReasons
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Value": "quia",
-    "Tooltip": "in",
+    "Id": 415,
+    "Value": "vitae",
+    "Tooltip": "veniam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldLength": 85
       }
     }
   },
   {
-    "Id": 552,
-    "Value": "quia",
-    "Tooltip": "in",
+    "Id": 415,
+    "Value": "vitae",
+    "Tooltip": "veniam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldLength": 85
       }
     }
   }

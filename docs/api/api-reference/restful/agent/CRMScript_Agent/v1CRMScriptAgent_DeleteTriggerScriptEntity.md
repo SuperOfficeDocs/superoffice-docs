@@ -1,9 +1,9 @@
 ---
-title: DeleteTriggerScriptEntity
+title: POST Agents/CRMScript/DeleteTriggerScriptEntity
 id: v1CRMScriptAgent_DeleteTriggerScriptEntity
 ---
 
-# DeleteTriggerScriptEntity
+# POST Agents/CRMScript/DeleteTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity
@@ -26,7 +26,7 @@ Deletes the TriggerScriptEntity
 | TriggerScriptEntityId | int32 | **Required** The id of the TriggerScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=325
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=679
 ```
 
 

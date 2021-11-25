@@ -1,9 +1,9 @@
 ---
-title: SetPersonRank
+title: POST Agents/Person/SetPersonRank
 id: v1PersonAgent_SetPersonRank
 ---
 
-# SetPersonRank
+# POST Agents/Person/SetPersonRank
 
 ```http
 POST /api/v1/Agents/Person/SetPersonRank
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 937,
-  "DesiredRank": 819
+  "PersonId": 283,
+  "DesiredRank": 962
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedFieldInfo
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
 ---
 
-# GetUserDefinedFieldInfo
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=975
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=190
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -104,7 +104,7 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -112,40 +112,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 347,
-  "ColumnId": 879,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 353,
-  "FieldLabel": "velit",
-  "FieldLeft": 432,
-  "FieldTop": 909,
+  "UDefFieldId": 256,
+  "ColumnId": 8,
+  "FieldDefault": "dolorum",
+  "FieldHeight": 49,
+  "FieldLabel": "quam",
+  "FieldLeft": 483,
+  "FieldTop": 583,
   "FieldType": "Checkbox",
-  "FieldWidth": 284,
-  "FormatMask": "nulla",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 40,
-  "LabelLeft": 311,
-  "LabelTop": 978,
-  "LabelWidth": 417,
-  "LastVersionId": 683,
-  "ListTableId": 611,
-  "IsMandatory": true,
+  "FieldWidth": 430,
+  "FormatMask": "delectus",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 655,
+  "LabelLeft": 519,
+  "LabelTop": 303,
+  "LabelWidth": 279,
+  "LastVersionId": 537,
+  "ListTableId": 784,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 319,
-  "ProgId": "voluptate",
+  "Page1LineNo": 554,
+  "ProgId": "et",
   "IsReadOnly": true,
-  "ShortLabel": "culpa",
-  "TabOrder": 224,
-  "TextLength": 306,
-  "Tooltip": "quis",
-  "UdefIdentity": 112,
-  "UDListDefinitionId": 706,
+  "ShortLabel": "voluptas",
+  "TabOrder": 543,
+  "TextLength": 162,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 301,
+  "UDListDefinitionId": 603,
   "Justification": "Center",
-  "Version": 519,
-  "TemplateVariableName": "Gottlieb-Mertz",
-  "HasBeenPublished": true,
-  "MdoListName": "Padberg-Schowalter",
+  "Version": 399,
+  "TemplateVariableName": "VonRueden Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Bernhard Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

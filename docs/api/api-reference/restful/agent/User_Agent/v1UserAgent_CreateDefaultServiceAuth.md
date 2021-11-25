@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultServiceAuth
+title: POST Agents/User/CreateDefaultServiceAuth
 id: v1UserAgent_CreateDefaultServiceAuth
 ---
 
-# CreateDefaultServiceAuth
+# POST Agents/User/CreateDefaultServiceAuth
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
@@ -75,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 426,
-  "Server": "odit",
-  "Port": 246,
-  "AuthType": "quas",
-  "Username": "aut",
-  "Password": "itaque",
+  "ServiceAuthId": 201,
+  "Server": "amet",
+  "Port": 968,
+  "AuthType": "doloremque",
+  "Username": "molestiae",
+  "Password": "aut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 179
     }
   }
 }

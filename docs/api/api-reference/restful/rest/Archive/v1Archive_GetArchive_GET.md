@@ -138,16 +138,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=impedit
-GET /api/v1/Archive/{archiveProviderName}?$top=154
-GET /api/v1/Archive/{archiveProviderName}?$skip=718
+GET /api/v1/Archive/{archiveProviderName}?$entities=voluptatem
+GET /api/v1/Archive/{archiveProviderName}?$top=953
+GET /api/v1/Archive/{archiveProviderName}?$skip=607
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=autem
+GET /api/v1/Archive/{archiveProviderName}?$context=distinctio
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=asperiores
+GET /api/v1/Archive/{archiveProviderName}?$metadata=dicta
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -188,7 +188,7 @@ Response body: object
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -197,19 +197,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "recusandae",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 9860,
-      "EntityName": "person",
-      "personId": 9860,
-      "fullName": "Rachel Bashirian"
+      "PrimaryKey": 3690,
+      "EntityName": "sale",
+      "saleId": 3690,
+      "contactId": 2505,
+      "name": "Kiehn-McKenzie"
     },
     {
-      "PrimaryKey": 269,
-      "EntityName": "person",
-      "personId": 269,
-      "fullName": "Lyda Funk"
+      "PrimaryKey": 5381,
+      "EntityName": "sale",
+      "saleId": 5381,
+      "contactId": 364,
+      "name": "Mayert Group"
     }
   ]
 }

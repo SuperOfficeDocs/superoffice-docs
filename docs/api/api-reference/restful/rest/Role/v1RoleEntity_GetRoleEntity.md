@@ -87,7 +87,7 @@ Response body: object
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -95,53 +95,53 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 654,
-  "Name": "Champlin LLC",
-  "Tooltip": "nulla",
+  "RoleId": 308,
+  "Name": "Cronin LLC",
+  "Tooltip": "sunt",
   "RoleType": "Anonymous",
-  "Deleted": 853,
-  "Rank": 652,
-  "Created": "1999-01-22T15:05:42.5566355+01:00",
-  "UseCategories": 922,
+  "Deleted": 82,
+  "Rank": 27,
+  "Created": "1998-04-27T18:25:50.8668838+02:00",
+  "UseCategories": 67,
   "CreatedBy": {
-    "AssociateId": 251,
-    "Name": "Smith, West and Lemke",
-    "PersonId": 40,
-    "Rank": 782,
-    "Tooltip": "sed",
+    "AssociateId": 116,
+    "Name": "Turcotte, Beer and Pagac",
+    "PersonId": 472,
+    "Rank": 592,
+    "Tooltip": "a",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 317,
-    "FullName": "Benedict Koch",
-    "FormalName": "Rutherford, Douglas and Auer",
+    "GroupIdx": 42,
+    "FullName": "Ryder Bogisich",
+    "FormalName": "Roberts Inc and Sons",
     "Deleted": false,
-    "EjUserId": 937,
-    "UserName": "Farrell Group",
+    "EjUserId": 172,
+    "UserName": "Hettinger-Deckow",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "harness back-end web services"
         },
         "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldLength": 431
       }
     }
   },
-  "Updated": "1996-02-02T15:05:42.5576352+01:00",
+  "Updated": "1997-06-03T18:25:50.8668838+02:00",
   "UpdatedBy": {
-    "AssociateId": 217,
-    "Name": "Shanahan, Reynolds and Dare",
-    "PersonId": 319,
-    "Rank": 420,
-    "Tooltip": "consectetur",
+    "AssociateId": 652,
+    "Name": "Cummings-Kreiger",
+    "PersonId": 39,
+    "Rank": 666,
+    "Tooltip": "sint",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 562,
-    "FullName": "Lorenzo Stracke",
-    "FormalName": "Sporer-Harvey",
-    "Deleted": false,
-    "EjUserId": 25,
-    "UserName": "Wolff Inc and Sons",
+    "GroupIdx": 905,
+    "FullName": "Estel McKenzie",
+    "FormalName": "Gislason-Grant",
+    "Deleted": true,
+    "EjUserId": 481,
+    "UserName": "Heidenreich-Hodkiewicz",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldType": "System.Int32",
+        "FieldLength": 702
       }
     }
   },
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "sit",
-          "Description": "Virtual dedicated product",
+          "Value": "ex",
+          "Description": "Self-enabling non-volatile capability",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -179,15 +179,15 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 669
+              "FieldLength": 644
             }
           }
         }
       ],
       [
         {
-          "Value": "tempora",
-          "Description": "Seamless 5th generation conglomeration",
+          "Value": "vel",
+          "Description": "Balanced homogeneous superstructure",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 447
+              "FieldLength": 595
             }
           }
         }
@@ -213,22 +213,22 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 231
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "optimize sexy infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "enable rich metrics"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   },
   "_Links": {

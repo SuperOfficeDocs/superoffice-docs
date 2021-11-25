@@ -1,9 +1,9 @@
 ---
-title: SubstituteTemplateVariables
+title: POST Agents/Document/SubstituteTemplateVariables
 id: v1DocumentAgent_SubstituteTemplateVariables
 ---
 
-# SubstituteTemplateVariables
+# POST Agents/Document/SubstituteTemplateVariables
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
@@ -77,19 +77,19 @@ Response body: string
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "at",
+  "Source": "soluta",
   "GeneratorEncoding": "Html",
-  "ContactId": 160,
-  "PersonId": 525,
-  "AppointmentId": 537,
-  "DocumentId": 233,
-  "SaleId": 245,
-  "SelectionId": 295,
-  "ProjectId": 327,
+  "ContactId": 641,
+  "PersonId": 749,
+  "AppointmentId": 217,
+  "DocumentId": 494,
+  "SaleId": 964,
+  "SelectionId": 604,
+  "ProjectId": 353,
   "CultureName": "sv"
 }
 ```
@@ -98,5 +98,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"officiis"
+"rerum"
 ```

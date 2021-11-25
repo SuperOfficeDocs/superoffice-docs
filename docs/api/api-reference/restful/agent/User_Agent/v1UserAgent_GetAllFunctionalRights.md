@@ -1,9 +1,9 @@
 ---
-title: GetAllFunctionalRights
+title: POST Agents/User/GetAllFunctionalRights
 id: v1UserAgent_GetAllFunctionalRights
 ---
 
-# GetAllFunctionalRights
+# POST Agents/User/GetAllFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/GetAllFunctionalRights
@@ -90,7 +90,7 @@ Response body: array
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Wehner-Medhurst",
-    "ToolTip": "Numquam mollitia totam et qui est veritatis.",
+    "Id": 837,
+    "Name": "Schaefer, O'Reilly and Larson",
+    "ToolTip": "Cumque ipsa ut necessitatibus quia deleniti.",
     "Deleted": false,
-    "Rank": 984,
-    "Type": "dolor",
-    "ColorBlock": 649,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2000-03-08T14:58:05.5690595+01:00",
+    "Rank": 162,
+    "Type": "similique",
+    "ColorBlock": 635,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2003-07-21T18:28:50.5704134+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Fadel, Bayer and Torp",
-        "ToolTip": "Voluptate corrupti voluptatem animi.",
-        "Deleted": true,
-        "Rank": 972,
-        "Type": "eius",
-        "ColorBlock": 506,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2018-02-17T14:58:05.5690595+01:00",
+        "Id": 793,
+        "Name": "Beatty Group",
+        "ToolTip": "Inventore rerum.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "laudantium",
+        "ColorBlock": 782,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2007-12-07T18:28:50.5704134+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "quis",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Jewell Morissette DVM",
+        "FullName": "Miss Ayana Hane",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,16 +141,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 126
+            "FieldType": "System.String",
+            "FieldLength": 595
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "April Stroman",
+    "ExtraInfo": "aut",
+    "StyleHint": "beatae",
+    "Hidden": true,
+    "FullName": "Dr. Myron Stroman",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

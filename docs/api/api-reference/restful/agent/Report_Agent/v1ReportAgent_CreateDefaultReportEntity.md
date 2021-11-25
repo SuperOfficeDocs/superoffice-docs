@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultReportEntity
+title: POST Agents/Report/CreateDefaultReportEntity
 id: v1ReportAgent_CreateDefaultReportEntity
 ---
 
-# CreateDefaultReportEntity
+# POST Agents/Report/CreateDefaultReportEntity
 
 ```http
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
@@ -62,7 +62,7 @@ Response body: object
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -70,14 +70,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 170,
+  "ReportId": 447,
   "ReportCategory": "All",
-  "Description": "Phased object-oriented installation",
+  "Description": "Organized coherent core",
   "ReportLayout": "CalendarMonth",
-  "Name": "Glover, Feil and Casper",
-  "AssociateId": 696,
-  "TemplateId": 945,
-  "Published": false,
+  "Name": "Donnelly Group",
+  "AssociateId": 855,
+  "TemplateId": 448,
+  "Published": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 935
     }
   }
 }

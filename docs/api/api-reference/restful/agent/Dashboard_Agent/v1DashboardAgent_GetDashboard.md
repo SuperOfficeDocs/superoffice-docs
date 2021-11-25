@@ -1,9 +1,9 @@
 ---
-title: GetDashboard
+title: POST Agents/Dashboard/GetDashboard
 id: v1DashboardAgent_GetDashboard
 ---
 
-# GetDashboard
+# POST Agents/Dashboard/GetDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboard
@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=57
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=713
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -83,22 +83,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 1000,
-  "AssociateId": 573,
-  "Caption": "dignissimos",
+  "DashboardId": 718,
+  "AssociateId": 984,
+  "Caption": "sint",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 814,
-      "Caption": "ab",
-      "Description": "Streamlined responsive capability",
-      "ChartName": "Grimes, Koepp and Kiehn",
-      "ChartId": "libero",
-      "IsDefault": false,
-      "AssociateId": 722,
-      "GroupId": 612,
-      "SelectionId": 314,
-      "Config": "aut",
+      "DashboardTileId": 277,
+      "Caption": "tenetur",
+      "Description": "Profit-focused systemic collaboration",
+      "ChartName": "Flatley-O'Connell",
+      "ChartId": "numquam",
+      "IsDefault": true,
+      "AssociateId": 288,
+      "GroupId": 256,
+      "SelectionId": 146,
+      "Config": "quibusdam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "architect dynamic interfaces"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 135
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldLength": 17
     }
   }
 }

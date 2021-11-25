@@ -1,9 +1,9 @@
 ---
-title: GetLegalBaseList
+title: POST Agents/List/GetLegalBaseList
 id: v1ListAgent_GetLegalBaseList
 ---
 
-# GetLegalBaseList
+# POST Agents/List/GetLegalBaseList
 
 ```http
 POST /api/v1/Agents/List/GetLegalBaseList
@@ -75,7 +75,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -84,11 +84,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 551,
-    "Name": "Jenkins-Bahringer",
-    "Tooltip": "voluptatibus",
-    "Rank": 149,
-    "Key": "animi",
+    "LegalBaseId": 583,
+    "Name": "Schimmel-Skiles",
+    "Tooltip": "repellendus",
+    "Rank": 347,
+    "Key": "consequatur",
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetAccessToken
+title: POST Agents/User/GetAccessToken
 id: v1UserAgent_GetAccessToken
 ---
 
-# GetAccessToken
+# POST Agents/User/GetAccessToken
 
 ```http
 POST /api/v1/Agents/User/GetAccessToken
@@ -71,12 +71,12 @@ Response body: string
 POST /api/v1/Agents/User/GetAccessToken
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "ducimus",
-  "IncludeCsSession": false
+  "AppToken": "ipsa",
+  "IncludeCsSession": true
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quis"
+"voluptas"
 ```

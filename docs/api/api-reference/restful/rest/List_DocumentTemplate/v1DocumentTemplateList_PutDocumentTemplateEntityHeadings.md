@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 461,
-    "Name": "Hahn Group",
-    "Tooltip": "delectus",
+    "HeadingId": 547,
+    "Name": "Langworth LLC",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 919
+    "Rank": 798,
+    "UdListDefinitionId": 778
   },
   {
-    "HeadingId": 461,
-    "Name": "Hahn Group",
-    "Tooltip": "delectus",
+    "HeadingId": 547,
+    "Name": "Langworth LLC",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 919
+    "Rank": 798,
+    "UdListDefinitionId": 778
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 406,
-    "Name": "Nienow, Hoeger and Wiza",
-    "Tooltip": "voluptas",
+    "HeadingId": 516,
+    "Name": "Kovacek Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 766,
-    "UdListDefinitionId": 486,
+    "Rank": 969,
+    "UdListDefinitionId": 773,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldLength": 272
       }
     }
   }

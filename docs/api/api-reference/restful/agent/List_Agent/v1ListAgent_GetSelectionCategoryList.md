@@ -1,9 +1,9 @@
 ---
-title: GetSelectionCategoryList
+title: POST Agents/List/GetSelectionCategoryList
 id: v1ListAgent_GetSelectionCategoryList
 ---
 
-# GetSelectionCategoryList
+# POST Agents/List/GetSelectionCategoryList
 
 ```http
 POST /api/v1/Agents/List/GetSelectionCategoryList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Value": "rem",
-    "Tooltip": "amet",
+    "Id": 665,
+    "Value": "a",
+    "Tooltip": "corporis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   },
   {
-    "Id": 95,
-    "Value": "rem",
-    "Tooltip": "amet",
+    "Id": 665,
+    "Value": "a",
+    "Tooltip": "corporis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

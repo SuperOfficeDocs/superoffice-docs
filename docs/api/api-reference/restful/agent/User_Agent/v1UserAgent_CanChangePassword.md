@@ -1,9 +1,9 @@
 ---
-title: CanChangePassword
+title: POST Agents/User/CanChangePassword
 id: v1UserAgent_CanChangePassword
 ---
 
-# CanChangePassword
+# POST Agents/User/CanChangePassword
 
 ```http
 POST /api/v1/Agents/User/CanChangePassword
@@ -70,11 +70,11 @@ Response body: bool
 POST /api/v1/Agents/User/CanChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 494
+  "AssociateId": 102
 }
 ```
 

@@ -58,7 +58,7 @@ Response body: object
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -66,31 +66,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 327,
-  "Name": "O'Keefe Group",
-  "TZLocationCode": "voluptas",
-  "TZLocationCities": "quo",
-  "IsoNumber": 549,
+  "TZLocationID": 858,
+  "Name": "Gislason Inc and Sons",
+  "TZLocationCode": "pariatur",
+  "TZLocationCities": "non",
+  "IsoNumber": 422,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 800,
-      "StartMonth": 59,
-      "EndDay": 873,
-      "EndMonth": 224,
-      "TZOffset": 860,
-      "StartRulePattern": "reiciendis",
-      "EndRulePattern": "aut"
+      "StartDay": 703,
+      "StartMonth": 419,
+      "EndDay": 466,
+      "EndMonth": 686,
+      "TZOffset": 659,
+      "StartRulePattern": "facere",
+      "EndRulePattern": "est"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 433,
-      "StartMonth": 312,
-      "EndDay": 92,
-      "EndMonth": 269,
-      "TZOffset": 563,
-      "StartRulePattern": "laborum",
-      "EndRulePattern": "nisi"
+      "StartDay": 675,
+      "StartMonth": 672,
+      "EndDay": 400,
+      "EndMonth": 663,
+      "TZOffset": 259,
+      "StartRulePattern": "sed",
+      "EndRulePattern": "autem"
     }
   }
 }

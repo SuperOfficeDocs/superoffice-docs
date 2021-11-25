@@ -1,9 +1,9 @@
 ---
-title: RemoveStoredFieldsAndGetDefaultFields
+title: POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 id: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
 ---
 
-# RemoveStoredFieldsAndGetDefaultFields
+# POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wuckert Inc and Sons",
-  "Context": "inventore"
+  "TableName": "Batz, Lemke and Muller",
+  "Context": "rerum"
 }
 ```
 
@@ -107,21 +107,21 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "non",
-    "ValueType": "autem",
-    "Mandatory": true,
-    "EncodedDisplayName": "Littel, Gleichner and Kling",
-    "EncodedDisplayDescription": "Open-architected bandwidth-monitored architecture",
-    "IconHint": "laborum",
+    "Key": "explicabo",
+    "ValueType": "culpa",
+    "Mandatory": false,
+    "EncodedDisplayName": "Labadie-Bernhard",
+    "EncodedDisplayDescription": "Re-contextualized interactive customer loyalty",
+    "IconHint": "iste",
     "ControlInfos": [
       {
-        "Type": "animi",
-        "Label": "reiciendis",
-        "Dimension": 237,
-        "ListProviderName": "Schimmel, Daugherty and Erdman",
-        "ListProviderExtraInfo": "illum",
-        "ListProviderPrimaryKeyName": "Braun-Koelpin",
-        "ListLeadText": "id",
+        "Type": "rerum",
+        "Label": "animi",
+        "Dimension": 50,
+        "ListProviderName": "Kiehn, Gutkowski and Gorczany",
+        "ListProviderExtraInfo": "totam",
+        "ListProviderPrimaryKeyName": "Jewess, Abernathy and Ratke",
+        "ListLeadText": "velit",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,28 +130,28 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 867
+            "FieldLength": 432
           }
         }
       }
     ],
-    "EncodedDataCaption": "fugit",
-    "EncodedDataCaptionDescription": "Secured attitude-oriented budgetary management",
-    "CurrentOperationType": "maiores",
+    "EncodedDataCaption": "consequuntur",
+    "EncodedDataCaptionDescription": "Proactive full-range hub",
+    "CurrentOperationType": "perferendis",
     "Values": [
-      "sint",
-      "consequuntur"
+      "quos",
+      "ut"
     ],
     "DisplayValues": [
-      "vitae",
-      "at"
+      "vel",
+      "consequatur"
     ],
     "OperationInfos": [
       {
-        "Key": "quod",
-        "EncodedDisplayName": "Dietrich Inc and Sons",
+        "Key": "et",
+        "EncodedDisplayName": "Mills-Jacobs",
         "EncodedLeadTexts": [
-          "suscipit",
+          "illum",
           "eos"
         ],
         "TableRight": {},
@@ -161,16 +161,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 85
+            "FieldType": "System.Int32",
+            "FieldLength": 794
           }
         }
       },
       {
-        "Key": "quod",
-        "EncodedDisplayName": "Dietrich Inc and Sons",
+        "Key": "et",
+        "EncodedDisplayName": "Mills-Jacobs",
         "EncodedLeadTexts": [
-          "suscipit",
+          "illum",
           "eos"
         ],
         "TableRight": {},
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 85
+            "FieldType": "System.Int32",
+            "FieldLength": 794
           }
         }
       }

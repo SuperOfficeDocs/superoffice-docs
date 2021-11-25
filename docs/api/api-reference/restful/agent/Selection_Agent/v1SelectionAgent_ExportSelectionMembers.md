@@ -1,9 +1,9 @@
 ---
-title: ExportSelectionMembers
+title: POST Agents/Selection/ExportSelectionMembers
 id: v1SelectionAgent_ExportSelectionMembers
 ---
 
-# ExportSelectionMembers
+# POST Agents/Selection/ExportSelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/ExportSelectionMembers
@@ -70,12 +70,12 @@ Response body:
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 150,
-  "TemplateName": "Christiansen LLC",
+  "SelectionId": 745,
+  "TemplateName": "Bruen LLC",
   "UseContacts": true
 }
 ```

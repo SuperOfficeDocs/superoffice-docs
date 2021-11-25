@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=362
+GET /api/v1/Contact/{contactId}/Summary?limit=762
 ```
 
 
@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -85,28 +85,28 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Contact": {
-    "ContactId": 952,
-    "Name": "Kuphal-Langworth",
-    "OrgNr": "1344117",
+    "ContactId": 559,
+    "Name": "Towne-Bradtke",
+    "OrgNr": "1166219",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "occaecati",
-    "DirectPhone": "516.888.3437",
-    "AssociateId": 168,
-    "CountryId": 35,
-    "EmailAddress": "laila@murphy.ca",
-    "Kananame": "sapiente",
-    "EmailAddressName": "roselyn_mccullough@jakubowskiconsidine.uk",
+    "City": "doloribus",
+    "DirectPhone": "1-437-784-3317",
+    "AssociateId": 38,
+    "CountryId": 582,
+    "EmailAddress": "betty@ward.co.uk",
+    "Kananame": "enim",
+    "EmailAddressName": "marty_donnelly@botsford.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Douglas Jewess",
+    "AssociateFullName": "Roslyn Romaguera",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "natus",
-    "FullName": "Mathilde Legros",
+    "FormattedAddress": "magnam",
+    "FullName": "Haskell Jenkins",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 527,
+    "ActiveErpLinks": 443,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -114,84 +114,84 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   },
   "Tickets": [
     {
-      "TicketId": 666,
-      "TicketStatus": 918,
-      "Title": "repudiandae",
-      "Registered": "2004-07-06T15:05:41.9850035+02:00"
+      "TicketId": 578,
+      "TicketStatus": 978,
+      "Title": "est",
+      "Registered": "2014-06-25T18:25:50.3655947+02:00"
     },
     {
-      "TicketId": 666,
-      "TicketStatus": 918,
-      "Title": "repudiandae",
-      "Registered": "2004-07-06T15:05:41.9850035+02:00"
+      "TicketId": 578,
+      "TicketStatus": 978,
+      "Title": "est",
+      "Registered": "2014-06-25T18:25:50.3655947+02:00"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 184,
-      "DocumentId": 53,
-      "Date": "2008-09-09T15:05:41.9850035+02:00",
-      "Description": "Public-key leading edge groupware",
+      "AppointmentId": 311,
+      "DocumentId": 672,
+      "Date": "2021-10-16T18:25:50.3655947+02:00",
+      "Description": "Networked bottom-line ability",
       "Completed": "Completed",
-      "Registered": "2012-03-20T15:05:41.9850035+01:00"
+      "Registered": "2001-09-28T18:25:50.3655947+02:00"
     },
     {
-      "AppointmentId": 184,
-      "DocumentId": 53,
-      "Date": "2008-09-09T15:05:41.9850035+02:00",
-      "Description": "Public-key leading edge groupware",
+      "AppointmentId": 311,
+      "DocumentId": 672,
+      "Date": "2021-10-16T18:25:50.3655947+02:00",
+      "Description": "Networked bottom-line ability",
       "Completed": "Completed",
-      "Registered": "2012-03-20T15:05:41.9850035+01:00"
+      "Registered": "2001-09-28T18:25:50.3655947+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 65,
-      "DocumentId": 409,
-      "Date": "2007-09-16T15:05:41.9850035+02:00",
-      "Description": "Networked directional artificial intelligence",
+      "AppointmentId": 127,
+      "DocumentId": 637,
+      "Date": "2018-03-13T18:25:50.3655947+01:00",
+      "Description": "Integrated client-driven local area network",
       "Completed": "Completed",
-      "Registered": "2020-01-10T15:05:41.9850035+01:00"
+      "Registered": "2007-02-23T18:25:50.3655947+01:00"
     },
     {
-      "AppointmentId": 65,
-      "DocumentId": 409,
-      "Date": "2007-09-16T15:05:41.9850035+02:00",
-      "Description": "Networked directional artificial intelligence",
+      "AppointmentId": 127,
+      "DocumentId": 637,
+      "Date": "2018-03-13T18:25:50.3655947+01:00",
+      "Description": "Integrated client-driven local area network",
       "Completed": "Completed",
-      "Registered": "2020-01-10T15:05:41.9850035+01:00"
+      "Registered": "2007-02-23T18:25:50.3655947+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 892,
-      "SaleDate": "2004-10-22T15:05:41.9850035+02:00",
-      "Probability": 354,
-      "Heading": "consectetur",
-      "Amount": 29362.446,
-      "Currency": "sed",
-      "AmountInBaseCurrency": 31205.237999999998,
+      "SaleId": 189,
+      "SaleDate": "1999-04-15T18:25:50.3655947+02:00",
+      "Probability": 737,
+      "Heading": "cupiditate",
+      "Amount": 16143.234,
+      "Currency": "ea",
+      "AmountInBaseCurrency": 18033.036,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2011-02-05T15:05:41.9850035+01:00"
+      "Registered": "1997-04-04T18:25:50.3655947+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 769,
-      "Name": "Orn, Littel and Kuhn",
-      "CompanyName": "Emmerich-Wolf",
-      "FirstMessage": "mollitia",
-      "LastMessage": "tempore",
-      "WhenRequested": "2004-06-16T15:05:41.9850035+02:00",
-      "WhenEnded": "2011-12-16T15:05:41.9850035+01:00"
+      "ChatSessionId": 686,
+      "Name": "Erdman Group",
+      "CompanyName": "Wolff LLC",
+      "FirstMessage": "ad",
+      "LastMessage": "animi",
+      "WhenRequested": "2002-11-03T18:25:50.3655947+01:00",
+      "WhenEnded": "2008-10-16T18:25:50.3655947+02:00"
     }
   ]
 }

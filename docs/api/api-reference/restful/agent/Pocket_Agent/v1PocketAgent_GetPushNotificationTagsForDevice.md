@@ -1,9 +1,9 @@
 ---
-title: GetPushNotificationTagsForDevice
+title: POST Agents/Pocket/GetPushNotificationTagsForDevice
 id: v1PocketAgent_GetPushNotificationTagsForDevice
 ---
 
-# GetPushNotificationTagsForDevice
+# POST Agents/Pocket/GetPushNotificationTagsForDevice
 
 ```http
 POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "eum"
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quia"
+"nobis"
 ```

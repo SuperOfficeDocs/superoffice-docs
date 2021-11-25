@@ -1,9 +1,9 @@
 ---
-title: GetProjectsFromContact
+title: POST Agents/Project/GetProjectsFromContact
 id: v1ProjectAgent_GetProjectsFromContact
 ---
 
-# GetProjectsFromContact
+# POST Agents/Project/GetProjectsFromContact
 
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromContact
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 476
+  "ContactId": 34
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 440,
-    "Name": "Feeney-Hauck",
-    "Description": "Re-contextualized value-added access",
+    "ProjectId": 671,
+    "Name": "Kuhn-Deckow",
+    "Description": "Team-oriented zero tolerance core",
     "URL": "http://www.example.com/",
-    "Type": "molestias",
-    "AssociateId": 672,
-    "AssociateFullName": "Carol Kerluke",
-    "TypeId": 922,
-    "Updated": "2004-11-07T14:58:04.8584599+01:00",
-    "StatusId": 162,
-    "Status": "consequuntur",
-    "TextId": 714,
-    "PublishTo": "2009-05-03T14:58:04.8584599+02:00",
-    "PublishFrom": "1997-03-01T14:58:04.8584599+01:00",
-    "IsPublished": true,
+    "Type": "modi",
+    "AssociateId": 555,
+    "AssociateFullName": "Arlo Auer Sr.",
+    "TypeId": 569,
+    "Updated": "2012-03-11T18:28:49.7831431+01:00",
+    "StatusId": 243,
+    "Status": "asperiores",
+    "TextId": 463,
+    "PublishTo": "2015-09-16T18:28:49.7831431+02:00",
+    "PublishFrom": "2016-03-05T18:28:49.7831431+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1438748",
-    "ActiveErpLinks": 911,
+    "ProjectNumber": "1152145",
+    "ActiveErpLinks": 787,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldLength": 862
       }
     }
   }

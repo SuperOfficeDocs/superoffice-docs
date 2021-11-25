@@ -1,9 +1,9 @@
 ---
-title: GetDocumentList
+title: POST Agents/Document/GetDocumentList
 id: v1DocumentAgent_GetDocumentList
 ---
 
-# GetDocumentList
+# POST Agents/Document/GetDocumentList
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentList
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "est",
-    "Header": "architecto",
-    "Name": "McDermott-Bruen",
-    "OurRef": "corrupti",
-    "YourRef": "perferendis",
-    "Description": "Focused non-volatile contingency",
-    "DocumentTemplate": "neque",
+    "DocumentId": 131,
+    "Attention": "amet",
+    "Header": "et",
+    "Name": "Mann, Jewess and Kautzer",
+    "OurRef": "quisquam",
+    "YourRef": "laborum",
+    "Description": "Visionary upward-trending groupware",
+    "DocumentTemplate": "accusantium",
     "IsPublished": false,
-    "PersonId": 821,
-    "PersonFullName": "Madisyn Weber",
-    "AssociateFullName": "Carmela Corwin",
-    "ContactId": 865,
-    "ContactName": "Stokes-Gutmann",
-    "ProjectId": 467,
-    "ProjectName": "Harris, Runte and Brekke",
-    "AssociateId": 205,
-    "Snum": 195,
+    "PersonId": 774,
+    "PersonFullName": "Jason Oberbrunner",
+    "AssociateFullName": "Vicky Sawayn",
+    "ContactId": 239,
+    "ContactName": "Mayert Inc and Sons",
+    "ProjectId": 575,
+    "ProjectName": "Streich, Watsica and Gislason",
+    "AssociateId": 791,
+    "Snum": 256,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

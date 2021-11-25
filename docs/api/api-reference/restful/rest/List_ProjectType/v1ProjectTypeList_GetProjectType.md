@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Green, Grant and Auer",
-  "Tooltip": "est",
+  "Id": 157,
+  "Name": "Koss LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 221,
-  "Rank": 285,
+  "UdListDefinitionId": 467,
+  "Rank": 973,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldType": "System.Int32",
+      "FieldLength": 486
     }
   }
 }

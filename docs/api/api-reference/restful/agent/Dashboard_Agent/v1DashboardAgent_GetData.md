@@ -1,9 +1,9 @@
 ---
-title: GetData
+title: POST Agents/Dashboard/GetData
 id: v1DashboardAgent_GetData
 ---
 
-# GetData
+# POST Agents/Dashboard/GetData
 
 ```http
 POST /api/v1/Agents/Dashboard/GetData
@@ -73,12 +73,12 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 433,
-  "Restrictions": "esse"
+  "DashboardTileId": 479,
+  "Restrictions": "nihil"
 }
 ```
 
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Watsica, Abshire and Skiles",
-        "DisplayTooltip": "nihil",
-        "DisplayType": "molestiae",
-        "CanOrderBy": false,
-        "Name": "Gibson, Schmitt and Breitenberg",
+        "DisplayName": "Gleichner LLC",
+        "DisplayTooltip": "aut",
+        "DisplayType": "sint",
+        "CanOrderBy": true,
+        "Name": "Nicolas Group",
         "CanRestrictBy": false,
-        "RestrictionType": "repellendus",
-        "RestrictionListName": "Parisian-Brakus",
-        "IsVisible": false,
-        "ExtraInfo": "cum",
-        "Width": "voluptatem",
-        "IconHint": "tenetur",
-        "HeadingIconHint": "accusamus"
+        "RestrictionType": "ipsam",
+        "RestrictionListName": "Smitham LLC",
+        "IsVisible": true,
+        "ExtraInfo": "dolorum",
+        "Width": "quis",
+        "IconHint": "harum",
+        "HeadingIconHint": "deleniti"
       }
     ],
     "Result": {
-      "RowCount": 257,
+      "RowCount": 309,
       "Rows": [
         {},
         {}
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition dynamic infomediaries"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldLength": 931
         }
       }
     }
@@ -127,23 +127,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Watsica, Abshire and Skiles",
-        "DisplayTooltip": "nihil",
-        "DisplayType": "molestiae",
-        "CanOrderBy": false,
-        "Name": "Gibson, Schmitt and Breitenberg",
+        "DisplayName": "Gleichner LLC",
+        "DisplayTooltip": "aut",
+        "DisplayType": "sint",
+        "CanOrderBy": true,
+        "Name": "Nicolas Group",
         "CanRestrictBy": false,
-        "RestrictionType": "repellendus",
-        "RestrictionListName": "Parisian-Brakus",
-        "IsVisible": false,
-        "ExtraInfo": "cum",
-        "Width": "voluptatem",
-        "IconHint": "tenetur",
-        "HeadingIconHint": "accusamus"
+        "RestrictionType": "ipsam",
+        "RestrictionListName": "Smitham LLC",
+        "IsVisible": true,
+        "ExtraInfo": "dolorum",
+        "Width": "quis",
+        "IconHint": "harum",
+        "HeadingIconHint": "deleniti"
       }
     ],
     "Result": {
-      "RowCount": 257,
+      "RowCount": 309,
       "Rows": [
         {},
         {}
@@ -153,10 +153,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "transition dynamic infomediaries"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldLength": 931
         }
       }
     }

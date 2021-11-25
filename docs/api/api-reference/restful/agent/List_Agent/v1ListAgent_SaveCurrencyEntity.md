@@ -1,9 +1,9 @@
 ---
-title: SaveCurrencyEntity
+title: POST Agents/List/SaveCurrencyEntity
 id: v1ListAgent_SaveCurrencyEntity
 ---
 
-# SaveCurrencyEntity
+# POST Agents/List/SaveCurrencyEntity
 
 ```http
 POST /api/v1/Agents/List/SaveCurrencyEntity
@@ -76,16 +76,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 839,
-  "Name": "Toy, Crist and Gorczany",
-  "Tooltip": "cupiditate",
-  "Rank": 895,
-  "Rate": 21834.577999999998,
-  "Units": 4080.468,
+  "CurrencyId": 971,
+  "Name": "Dare Group",
+  "Tooltip": "eligendi",
+  "Rank": 794,
+  "Rate": 7245.808,
+  "Units": 4334.322,
   "Deleted": true
 }
 ```
@@ -95,13 +95,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 998,
-  "Name": "Greenholt-Moen",
-  "Tooltip": "quam",
-  "Rank": 845,
-  "Rate": 20345.928,
-  "Units": 29841.948,
-  "Deleted": false,
+  "CurrencyId": 104,
+  "Name": "Harvey, Abshire and Zemlak",
+  "Tooltip": "impedit",
+  "Rank": 343,
+  "Rate": 5945.1979999999994,
+  "Units": 3228.02,
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver revolutionary applications"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 543
     }
   }
 }

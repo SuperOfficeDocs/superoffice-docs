@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Beier, Blick and Lockman",
-    "ToolTip": "Inventore culpa.",
-    "Deleted": false,
-    "Rank": 252,
-    "Type": "neque",
-    "ColorBlock": 624,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "1996-01-01T15:05:43.3395395+01:00",
+    "Id": 849,
+    "Name": "Skiles LLC",
+    "ToolTip": "Possimus voluptate unde optio nihil ipsam velit.",
+    "Deleted": true,
+    "Rank": 779,
+    "Type": "accusantium",
+    "ColorBlock": 414,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2011-01-14T18:25:51.6702945+01:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Stracke, Cremin and Bogisich",
-        "ToolTip": "Ut placeat perspiciatis velit maiores qui pariatur.",
-        "Deleted": true,
-        "Rank": 637,
-        "Type": "est",
-        "ColorBlock": 118,
-        "IconHint": "ullam",
+        "Id": 179,
+        "Name": "Jast, Dietrich and Schmitt",
+        "ToolTip": "Qui est ex impedit quia et.",
+        "Deleted": false,
+        "Rank": 713,
+        "Type": "voluptate",
+        "ColorBlock": 182,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "1998-09-08T15:05:43.3395395+02:00",
+        "LastChanged": "1996-10-05T18:25:51.6702945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "nisi",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Orval Schultz"
+        "FullName": "Abel Runte"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "sed",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Dion Krajcik"
+    "FullName": "Kody Johnston"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Kihn, Cummerata and Zieme",
-    "ToolTip": "Ut rem nam nihil inventore non.",
+    "Id": 468,
+    "Name": "Raynor, Bailey and Emmerich",
+    "ToolTip": "Quis incidunt itaque atque suscipit.",
     "Deleted": true,
-    "Rank": 670,
-    "Type": "nobis",
-    "ColorBlock": 57,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2003-08-07T15:05:43.3405403+02:00",
+    "Rank": 510,
+    "Type": "possimus",
+    "ColorBlock": 97,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2007-06-03T18:25:51.6722943+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Bernhard, Keebler and Kuvalis",
-        "ToolTip": "Omnis qui.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "id",
-        "ColorBlock": 428,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2019-02-19T15:05:43.3405403+01:00",
+        "Id": 19,
+        "Name": "Medhurst, Upton and Schumm",
+        "ToolTip": "Aut veritatis.",
+        "Deleted": true,
+        "Rank": 831,
+        "Type": "vel",
+        "ColorBlock": 376,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2013-12-07T18:25:51.6722943+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
+        "ExtraInfo": "rem",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Laron Green",
+        "FullName": "Stella Reinger",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 876
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Carol Hodkiewicz",
+    "ExtraInfo": "dolores",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Maryse Hayes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 149
       }
     }
   }

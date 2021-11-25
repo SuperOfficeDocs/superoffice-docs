@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashCollection
+title: POST Agents/Dash/CreateDefaultDashCollection
 id: v1DashAgent_CreateDefaultDashCollection
 ---
 
-# CreateDefaultDashCollection
+# POST Agents/Dash/CreateDefaultDashCollection
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -71,29 +71,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 7,
-      "Name": "Mitchell-Howe",
-      "Description": "Ergonomic mobile functionalities",
-      "AssociateId": 576,
-      "Columns": 708,
+      "DashboardId": 742,
+      "UniqueId": "totam",
+      "Name": "Mohr Inc and Sons",
+      "Description": "Pre-emptive background workforce",
+      "AssociateId": 85,
+      "Columns": 201,
       "Theme": {},
-      "VisibleForAll": 66,
+      "VisibleForAll": 411,
       "VisibleForAssociates": [
-        836,
-        801
+        492,
+        887
       ],
       "VisibleForGroups": [
-        282,
-        534
+        771,
+        840
       ],
-      "PinForAll": 188,
+      "PinForAll": 910,
       "PinForAssociates": [
-        674,
-        815
+        769,
+        806
       ],
       "PinForGroups": [
-        365,
-        972
+        679,
+        610
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -103,36 +104,37 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 835
+          "FieldLength": 653
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 388,
-      "Name": "Christiansen-Renner",
-      "Description": "Vision-oriented mobile help-desk",
-      "AssociateId": 643,
-      "Columns": 826,
+      "DashboardId": 707,
+      "UniqueId": "dolor",
+      "Name": "Mohr Group",
+      "Description": "Upgradable disintermediate help-desk",
+      "AssociateId": 677,
+      "Columns": 462,
       "Theme": {},
-      "VisibleForAll": 96,
+      "VisibleForAll": 137,
       "VisibleForAssociates": [
-        521,
-        330
+        364,
+        848
       ],
       "VisibleForGroups": [
-        15,
-        234
+        342,
+        509
       ],
-      "PinForAll": 772,
+      "PinForAll": 42,
       "PinForAssociates": [
-        868,
-        529
+        734,
+        81
       ],
       "PinForGroups": [
-        40,
-        75
+        727,
+        995
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -141,37 +143,38 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 696,
-      "Name": "Crona, Douglas and Sipes",
-      "Description": "Total systematic definition",
-      "AssociateId": 867,
-      "Columns": 273,
+      "DashboardId": 371,
+      "UniqueId": "tempore",
+      "Name": "Bahringer LLC",
+      "Description": "Enterprise-wide homogeneous local area network",
+      "AssociateId": 905,
+      "Columns": 200,
       "Theme": {},
-      "VisibleForAll": 527,
+      "VisibleForAll": 844,
       "VisibleForAssociates": [
-        220,
-        789
+        99,
+        389
       ],
       "VisibleForGroups": [
-        114,
-        891
+        385,
+        270
       ],
-      "PinForAll": 397,
+      "PinForAll": 107,
       "PinForAssociates": [
-        958,
-        267
+        54,
+        212
       ],
       "PinForGroups": [
-        424,
-        11
+        310,
+        705
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -181,7 +184,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 171
         }
       }
     }
@@ -197,7 +200,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 334
     }
   }
 }

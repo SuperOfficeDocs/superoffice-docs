@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Block-Howe",
-    "ToolTip": "Tempore ut sed suscipit.",
+    "Id": 688,
+    "Name": "Crist, Grimes and Will",
+    "ToolTip": "Aspernatur a reprehenderit blanditiis et aliquam.",
     "Deleted": false,
-    "Rank": 287,
-    "Type": "repudiandae",
-    "ColorBlock": 654,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2018-12-14T15:05:43.5055995+01:00",
+    "Rank": 987,
+    "Type": "exercitationem",
+    "ColorBlock": 853,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "1999-11-25T18:25:51.8524859+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Kassulke, Rutherford and Miller",
-        "ToolTip": "Ut magni.",
+        "Id": 246,
+        "Name": "Gleason-Kohler",
+        "ToolTip": "Corrupti rerum aut quidem.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "voluptatibus",
-        "ColorBlock": 794,
-        "IconHint": "dolore",
-        "Selected": true,
-        "LastChanged": "2017-05-17T15:05:43.5065624+02:00",
+        "Rank": 945,
+        "Type": "omnis",
+        "ColorBlock": 642,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2020-08-23T18:25:51.8524859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Eliza Kautzer",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Treva McDermott",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 690
+            "FieldType": "System.String",
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "tempora",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Haley Schiller",
+    "FullName": "Sid Shields",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "unleash out-of-the-box web services"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Witting Group",
-    "ToolTip": "Officia autem eveniet aliquam sit vel.",
-    "Deleted": true,
-    "Rank": 524,
-    "Type": "dolores",
-    "ColorBlock": 964,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "1999-10-18T15:05:43.5290798+02:00",
+    "Id": 487,
+    "Name": "Quigley, Lehner and Lindgren",
+    "ToolTip": "Praesentium est quibusdam.",
+    "Deleted": false,
+    "Rank": 528,
+    "Type": "et",
+    "ColorBlock": 458,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2008-08-21T18:25:51.914245+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Ward Group",
-        "ToolTip": "Deserunt non deleniti eligendi dignissimos accusantium natus.",
+        "Id": 712,
+        "Name": "Watsica Group",
+        "ToolTip": "Fuga rem aperiam.",
         "Deleted": true,
-        "Rank": 429,
-        "Type": "sed",
-        "ColorBlock": 700,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2018-04-16T15:05:43.5300798+02:00",
+        "Rank": 977,
+        "Type": "quia",
+        "ColorBlock": 75,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "1996-02-29T18:25:51.914245+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Trudie Sipes",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Elton Kerluke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldType": "System.String",
+            "FieldLength": 102
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "architecto",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Berniece O'Kon",
+    "FullName": "Pattie Schamberger",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldLength": 887
       }
     }
   }

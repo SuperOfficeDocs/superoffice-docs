@@ -1,9 +1,9 @@
 ---
-title: LogViewState
+title: POST Agents/Diagnostics/LogViewState
 id: v1DiagnosticsAgent_LogViewState
 ---
 
-# LogViewState
+# POST Agents/Diagnostics/LogViewState
 
 ```http
 POST /api/v1/Agents/Diagnostics/LogViewState

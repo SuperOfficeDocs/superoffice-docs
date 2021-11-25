@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Yost-Baumbach",
-    "ToolTip": "Tempora odio.",
-    "Deleted": true,
-    "Rank": 824,
-    "Type": "expedita",
-    "ColorBlock": 560,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "1999-04-16T15:05:43.8311173+02:00",
+    "Id": 253,
+    "Name": "Bergnaum LLC",
+    "ToolTip": "Rerum repellat dignissimos consequuntur consectetur quidem dicta.",
+    "Deleted": false,
+    "Rank": 475,
+    "Type": "voluptas",
+    "ColorBlock": 372,
+    "IconHint": "animi",
+    "Selected": true,
+    "LastChanged": "2007-06-24T18:25:52.2179865+02:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Schuppe, King and Terry",
-        "ToolTip": "Possimus autem molestias enim incidunt.",
+        "Id": 978,
+        "Name": "Labadie-Feeney",
+        "ToolTip": "In quae cum debitis.",
         "Deleted": true,
-        "Rank": 413,
-        "Type": "quidem",
-        "ColorBlock": 639,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2001-10-16T15:05:43.8311173+02:00",
+        "Rank": 550,
+        "Type": "consectetur",
+        "ColorBlock": 884,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2014-01-11T18:25:52.2179865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Keyon Jakubowski DDS",
+        "ExtraInfo": "debitis",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Eloisa Wiegand",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Sidney Murray",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "ducimus",
+    "Hidden": true,
+    "FullName": "Kaylin Johnston",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 896
       }
     }
   }

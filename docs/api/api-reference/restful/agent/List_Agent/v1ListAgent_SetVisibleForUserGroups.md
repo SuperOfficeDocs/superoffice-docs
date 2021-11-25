@@ -1,9 +1,9 @@
 ---
-title: SetVisibleForUserGroups
+title: POST Agents/List/SetVisibleForUserGroups
 id: v1ListAgent_SetVisibleForUserGroups
 ---
 
-# SetVisibleForUserGroups
+# POST Agents/List/SetVisibleForUserGroups
 
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroups
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 311,
-  "ListItemId": 594,
+  "UdListDefinitionId": 913,
+  "ListItemId": 146,
   "UserGroups": [
     {
-      "Id": 372,
-      "Name": "Padberg-Kling",
-      "ToolTip": "Velit molestiae sit ea.",
+      "Id": 597,
+      "Name": "Renner-Price",
+      "ToolTip": "Accusamus nemo eos qui nemo sit alias.",
       "Deleted": true,
-      "Rank": 377,
-      "Type": "inventore",
-      "ColorBlock": 969,
-      "IconHint": "in",
-      "Selected": false,
-      "LastChanged": "2004-11-23T14:58:04.414465+01:00",
+      "Rank": 207,
+      "Type": "aut",
+      "ColorBlock": 240,
+      "IconHint": "dicta",
+      "Selected": true,
+      "LastChanged": "2011-10-16T18:28:49.3081177+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "dolore",
+      "StyleHint": "officiis",
       "Hidden": false,
-      "FullName": "Phoebe Moen I"
+      "FullName": "Adam Klein"
     }
   ]
 }
@@ -126,53 +126,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Dickinson Group",
-    "ToolTip": "Dignissimos voluptatem occaecati sed.",
+    "Id": 132,
+    "Name": "Bogan, Ortiz and Ferry",
+    "ToolTip": "Sed quo quos illo nulla.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "numquam",
-    "ColorBlock": 339,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "1998-02-23T14:58:04.4154727+01:00",
+    "Rank": 438,
+    "Type": "hic",
+    "ColorBlock": 979,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2010-11-13T18:28:49.3091178+01:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Green-Reilly",
-        "ToolTip": "Facere ut distinctio dolore.",
+        "Id": 61,
+        "Name": "Champlin-Emmerich",
+        "ToolTip": "Sed eos et.",
         "Deleted": true,
-        "Rank": 184,
-        "Type": "error",
-        "ColorBlock": 482,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "1995-10-08T14:58:04.4154727+02:00",
+        "Rank": 637,
+        "Type": "dolores",
+        "ColorBlock": 574,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2002-09-18T18:28:49.3101182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quia",
+        "ExtraInfo": "quia",
+        "StyleHint": "nulla",
         "Hidden": true,
-        "FullName": "Mellie Boyer MD",
+        "FullName": "Ophelia Cremin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "envisioneer synergistic relationships"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 766
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Angel Stoltenberg",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Gage Cartwright",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 348
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteLineImage
+title: POST Agents/Quote/SaveQuoteLineImage
 id: v1QuoteAgent_SaveQuoteLineImage
 ---
 
-# SaveQuoteLineImage
+# POST Agents/Quote/SaveQuoteLineImage
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineImage

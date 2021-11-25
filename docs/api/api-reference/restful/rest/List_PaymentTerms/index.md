@@ -2,8 +2,6 @@
 title: List_PaymentTerms
 ---
 
-# List_PaymentTerms
-
 ```http
 /api/v1/List/PaymentTerms
 ```

@@ -1,9 +1,9 @@
 ---
-title: DeleteForeignDevice
+title: POST Agents/ForeignSystem/DeleteForeignDevice
 id: v1ForeignSystemAgent_DeleteForeignDevice
 ---
 
-# DeleteForeignDevice
+# POST Agents/ForeignSystem/DeleteForeignDevice
 
 ```http
 POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice

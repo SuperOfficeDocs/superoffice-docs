@@ -1,9 +1,9 @@
 ---
-title: AssignThirdPartyLicenses
+title: POST Agents/License/AssignThirdPartyLicenses
 id: v1LicenseAgent_AssignThirdPartyLicenses
 ---
 
-# AssignThirdPartyLicenses
+# POST Agents/License/AssignThirdPartyLicenses
 
 ```http
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
@@ -72,12 +72,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -91,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 830,
-  "ModuleOwner": "repudiandae",
+  "AssociateId": 946,
+  "ModuleOwner": "libero",
   "ModuleLicenseNames": [
-    "Brakus LLC",
-    "Schamberger Inc and Sons"
+    "Hartmann, Rodriguez and Hermiston",
+    "Lockman-Thiel"
   ]
 }
 ```
@@ -107,21 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 140,
-    "Tooltip": "at",
-    "CanAssign": false,
-    "Free": 119,
-    "InUse": 909,
-    "IsHidden": true,
+    "Total": 160,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 795,
+    "InUse": 32,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 981,
-    "Name": "Moore LLC",
-    "Description": "Focused empowering Graphical User Interface",
-    "PrerequisiteModuleName": "Hauck, Bogisich and Kunze",
-    "SortOrder": 203,
+    "ModuleLicenseId": 463,
+    "Name": "Boyer, Greenholt and Heller",
+    "Description": "Multi-tiered mobile solution",
+    "PrerequisiteModuleName": "Schulist-Gusikowski",
+    "SortOrder": 362,
+    "ExtraFlags": 662,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "extend real-time experiences"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

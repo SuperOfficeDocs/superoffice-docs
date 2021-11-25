@@ -1,9 +1,9 @@
 ---
-title: SaveFormEntity
+title: POST Agents/Marketing/SaveFormEntity
 id: v1MarketingAgent_SaveFormEntity
 ---
 
-# SaveFormEntity
+# POST Agents/Marketing/SaveFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/SaveFormEntity
@@ -110,32 +110,32 @@ Response body: object
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 782,
-  "FormKey": "modi",
-  "Name": "Bernhard-Champlin",
-  "Description": "Multi-layered system-worthy artificial intelligence",
-  "Config": "placeat",
-  "FolderId": 118,
-  "ScriptId": 508,
-  "ResponseShipmentId": 158,
-  "Active": false,
-  "Expires": "2003-01-21T14:58:04.491465+01:00",
-  "MaxSubmits": 54,
+  "FormId": 357,
+  "FormKey": "excepturi",
+  "Name": "Rice, Brakus and Ritchie",
+  "Description": "Enhanced zero tolerance utilisation",
+  "Config": "et",
+  "FolderId": 52,
+  "ScriptId": 472,
+  "ResponseShipmentId": 843,
+  "Active": true,
+  "Expires": "2000-05-20T18:28:49.4590874+02:00",
+  "MaxSubmits": 275,
   "Type": "Normal",
-  "Recipe": "explicabo",
-  "GroupId": 655,
-  "NewTicket": true,
+  "Recipe": "ad",
+  "GroupId": 15,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1998-03-29T14:58:04.491465+02:00",
-  "RegisteredAssociateId": 170,
-  "Updated": "2012-03-23T14:58:04.491465+01:00",
-  "UpdatedAssociateId": 630,
-  "UpdatedCount": 242,
-  "FolderName": "Lebsack-Will"
+  "Registered": "2011-10-14T18:28:49.4590874+02:00",
+  "RegisteredAssociateId": 378,
+  "Updated": "1996-11-19T18:28:49.4590874+01:00",
+  "UpdatedAssociateId": 906,
+  "UpdatedCount": 731,
+  "FolderName": "Hermiston LLC"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 675,
-  "FormKey": "debitis",
-  "Name": "Lehner LLC",
-  "Description": "Managed intangible methodology",
-  "Config": "esse",
-  "FolderId": 559,
-  "ScriptId": 720,
-  "ResponseShipmentId": 300,
+  "FormId": 788,
+  "FormKey": "quasi",
+  "Name": "Bergstrom LLC",
+  "Description": "Visionary bifurcated firmware",
+  "Config": "repudiandae",
+  "FolderId": 679,
+  "ScriptId": 251,
+  "ResponseShipmentId": 177,
   "Active": true,
-  "Expires": "2000-10-23T14:58:04.491465+02:00",
-  "MaxSubmits": 636,
+  "Expires": "2004-04-04T18:28:49.4590874+02:00",
+  "MaxSubmits": 691,
   "Type": "Normal",
-  "Recipe": "voluptatem",
-  "GroupId": 157,
-  "NewTicket": true,
+  "Recipe": "voluptatibus",
+  "GroupId": 622,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1996-05-07T14:58:04.491465+02:00",
-  "RegisteredAssociateId": 642,
-  "Updated": "2014-07-27T14:58:04.491465+02:00",
-  "UpdatedAssociateId": 272,
-  "UpdatedCount": 768,
-  "FolderName": "DuBuque Group",
+  "Registered": "2011-02-11T18:28:49.4590874+01:00",
+  "RegisteredAssociateId": 771,
+  "Updated": "1997-12-10T18:28:49.4590874+01:00",
+  "UpdatedAssociateId": 554,
+  "UpdatedCount": 795,
+  "FolderName": "Bahringer, Leffler and Cole",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "grow global web-readiness"
+    "Reason": "matrix cutting-edge portals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 598
     }
   }
 }

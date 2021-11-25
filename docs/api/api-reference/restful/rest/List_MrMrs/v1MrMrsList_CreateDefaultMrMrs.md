@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 587,
-  "Rank": 362,
+  "Id": 655,
+  "Name": "Mante-Mosciski",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "UdListDefinitionId": 481,
+  "Rank": 140,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldLength": 609
     }
   }
 }

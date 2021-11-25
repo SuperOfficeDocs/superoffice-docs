@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=debitis
+GET /api/v1/List/ConsentSource/MDOItems?query=tenetur
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Gerhold-Satterfield",
-    "ToolTip": "Culpa minima aut quidem.",
-    "Deleted": false,
-    "Rank": 591,
-    "Type": "et",
+    "Id": 215,
+    "Name": "Johnson-White",
+    "ToolTip": "Repellendus est ducimus quas totam magnam.",
+    "Deleted": true,
+    "Rank": 76,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Jaskolski-Lang",
-        "ToolTip": "Omnis illum non quia.",
-        "Deleted": true,
-        "Rank": 215,
-        "Type": "molestiae",
+        "Id": 897,
+        "Name": "Ratke-Rau",
+        "ToolTip": "Et quo labore.",
+        "Deleted": false,
+        "Rank": 287,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 683,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "porro",
-        "FullName": "Ismael Feil",
+        "IconHint": "optio",
+        "ColorBlock": 261,
+        "ExtraInfo": "et",
+        "StyleHint": "doloremque",
+        "FullName": "Antoinette Barrows",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,19 +117,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldLength": 619
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 804,
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
-    "FullName": "Berneice Willms II",
+    "IconHint": "excepturi",
+    "ColorBlock": 402,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "et",
+    "FullName": "Jose Bins",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deploy bricks-and-clicks portals"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 285
+        "FieldLength": 989
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetMyWindowPosSizes
+title: POST Agents/Configuration/GetMyWindowPosSizes
 id: v1ConfigurationAgent_GetMyWindowPosSizes
 ---
 
-# GetMyWindowPosSizes
+# POST Agents/Configuration/GetMyWindowPosSizes
 
 ```http
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "vitae",
-    "PersonId": 963,
-    "AssociateId": 252,
-    "ExtraId": 350,
-    "ExtraInfo": "cum",
-    "Height": 701,
-    "LeftX": 139,
+    "OwnerWindow": "voluptas",
+    "PersonId": 12,
+    "AssociateId": 185,
+    "ExtraId": 127,
+    "ExtraInfo": "libero",
+    "Height": 355,
+    "LeftX": 910,
     "State": "Maximized",
-    "UpperY": 571,
-    "Width": 370,
-    "WindowPosSizeId": 393,
+    "UpperY": 666,
+    "Width": 436,
+    "WindowPosSizeId": 974,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldLength": 381
       }
     }
   }

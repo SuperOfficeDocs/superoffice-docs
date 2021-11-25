@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Dach LLC",
-  "Tooltip": "quidem",
+  "Id": 401,
+  "Name": "Lubowitz-Waters",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "UdListDefinitionId": 487,
-  "Rank": 457
+  "UdListDefinitionId": 851,
+  "Rank": 703
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 305,
-  "Name": "Wilkinson, Keeling and Osinski",
-  "Tooltip": "ullam",
+  "Id": 78,
+  "Name": "Becker-Mitchell",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 586,
-  "Rank": 675,
+  "UdListDefinitionId": 310,
+  "Rank": 478,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldLength": 184
     }
   }
 }

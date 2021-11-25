@@ -1,9 +1,9 @@
 ---
-title: AddLicenseFromFile
+title: POST Agents/License/AddLicenseFromFile
 id: v1LicenseAgent_AddLicenseFromFile
 ---
 
-# AddLicenseFromFile
+# POST Agents/License/AddLicenseFromFile
 
 ```http
 POST /api/v1/Agents/License/AddLicenseFromFile
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "vel"
+  "FileContent": "et"
 }
 ```
 
@@ -90,67 +90,67 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": {
-    "CompanyName": "Ritchie, Reinger and Rice",
+    "CompanyName": "Lynch-Hartmann",
     "SerialNr": "1010000006",
-    "OwnerName": "Corkery LLC",
-    "OwnerDescription": "Triple-buffered multi-tasking algorithm",
-    "NextCheckDate": "1997-08-21T14:58:04.3354599+02:00",
-    "MaintenanceDate": "2006-05-04T14:58:04.3354599+02:00",
-    "AdminWarningDate": "2003-02-15T14:58:04.3354599+01:00",
-    "ExpiryDate": "2005-01-16T14:58:04.3354599+01:00",
-    "GraceDate": "2008-02-27T14:58:04.3354599+01:00",
-    "ExtraFlags": 430,
-    "ExtraInfo": "rerum",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "est",
-    "DeploymentType": 159,
-    "ProductType": "doloremque",
-    "ProductDescription": "Multi-tiered system-worthy capability",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "reprehenderit"
-  },
-  "Current": {
-    "CompanyName": "Wintheiser-Muller",
-    "SerialNr": "1010000006",
-    "OwnerName": "Feeney-Friesen",
-    "OwnerDescription": "Public-key 24/7 help-desk",
-    "NextCheckDate": "1994-12-31T14:58:04.3354599+01:00",
-    "MaintenanceDate": "2005-06-30T14:58:04.3354599+02:00",
-    "AdminWarningDate": "1994-06-07T14:58:04.3354599+02:00",
-    "ExpiryDate": "2016-09-21T14:58:04.3354599+02:00",
-    "GraceDate": "2003-10-14T14:58:04.3354599+02:00",
-    "ExtraFlags": 113,
-    "ExtraInfo": "ducimus",
+    "OwnerName": "Auer Group",
+    "OwnerDescription": "Function-based hybrid functionalities",
+    "NextCheckDate": "2005-09-20T18:28:49.2461256+02:00",
+    "MaintenanceDate": "2015-11-15T18:28:49.2461256+01:00",
+    "AdminWarningDate": "1996-09-23T18:28:49.2461256+02:00",
+    "ExpiryDate": "2012-08-02T18:28:49.2461256+02:00",
+    "GraceDate": "2000-05-26T18:28:49.2461256+02:00",
+    "ExtraFlags": 578,
+    "ExtraInfo": "et",
     "LicenseUrl": "http://www.example.com/",
     "LicenseVersion": "quia",
-    "DeploymentType": 254,
-    "ProductType": "esse",
-    "ProductDescription": "Compatible human-resource budgetary management",
+    "DeploymentType": 880,
+    "ProductType": "molestias",
+    "ProductDescription": "Synchronised attitude-oriented open system",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "molestiae"
+    "Signature": "maiores"
+  },
+  "Current": {
+    "CompanyName": "Farrell Inc and Sons",
+    "SerialNr": "1010000006",
+    "OwnerName": "Schmitt, Halvorson and Dietrich",
+    "OwnerDescription": "Inverse zero administration leverage",
+    "NextCheckDate": "1995-12-08T18:28:49.2461256+01:00",
+    "MaintenanceDate": "2003-10-07T18:28:49.2461256+02:00",
+    "AdminWarningDate": "2016-10-10T18:28:49.2461256+02:00",
+    "ExpiryDate": "2019-11-06T18:28:49.2461256+01:00",
+    "GraceDate": "2004-04-08T18:28:49.2461256+02:00",
+    "ExtraFlags": 969,
+    "ExtraInfo": "odit",
+    "LicenseUrl": "http://www.example.com/",
+    "LicenseVersion": "ut",
+    "DeploymentType": 984,
+    "ProductType": "quidem",
+    "ProductDescription": "Extended scalable flexibility",
+    "ModuleLicenses": [
+      {},
+      {}
+    ],
+    "PublicKey": {},
+    "Signature": "porro"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 134,
-      "NumberOfLicensesFree": 711,
-      "NumberOfLicensesAdded": 244,
-      "NumberOfLicensesNewTotal": 860,
-      "NumberOfLicensesNewFree": 952,
-      "NumberOfLicensesTotal": 918
+      "NumberOfLicensesInUse": 888,
+      "NumberOfLicensesFree": 707,
+      "NumberOfLicensesAdded": 228,
+      "NumberOfLicensesNewTotal": 625,
+      "NumberOfLicensesNewFree": 893,
+      "NumberOfLicensesTotal": 749
     }
   ],
-  "AccumulatedNextCheckDate": "2014-11-22T14:58:04.3354599+01:00"
+  "AccumulatedNextCheckDate": "2017-10-12T18:28:49.2461256+02:00"
 }
 ```

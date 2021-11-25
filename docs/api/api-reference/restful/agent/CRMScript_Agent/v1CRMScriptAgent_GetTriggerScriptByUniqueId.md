@@ -1,9 +1,9 @@
 ---
-title: GetTriggerScriptByUniqueId
+title: POST Agents/CRMScript/GetTriggerScriptByUniqueId
 id: v1CRMScriptAgent_GetTriggerScriptByUniqueId
 ---
 
-# GetTriggerScriptByUniqueId
+# POST Agents/CRMScript/GetTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
@@ -89,11 +89,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "laborum"
+  "TriggerScriptUniqueId": "sit"
 }
 ```
 
@@ -102,16 +102,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 605,
-  "Name": "Okuneva-Murazik",
+  "ScreenChooserId": 159,
+  "Name": "Hilpert Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "consequatur",
+  "UniqueIdentifier": "sit",
   "Source": "dolorem",
-  "Registered": "2000-03-19T14:58:03.7494608+01:00",
-  "RegisteredAssociateId": 932,
-  "Updated": "2009-10-21T14:58:03.7494608+02:00",
-  "UpdatedAssociateId": 534,
+  "Registered": "2012-11-10T18:28:48.6409561+01:00",
+  "RegisteredAssociateId": 634,
+  "Updated": "2001-02-23T18:28:48.6409561+01:00",
+  "UpdatedAssociateId": 487,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

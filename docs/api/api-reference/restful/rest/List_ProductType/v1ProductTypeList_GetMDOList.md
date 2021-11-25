@@ -26,7 +26,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=harum
+GET /api/v1/List/ProductType/MDOItems?query=ut
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Donnelly, Auer and Kris",
-    "ToolTip": "Eius expedita voluptas beatae qui.",
+    "Id": 732,
+    "Name": "Murazik LLC",
+    "ToolTip": "Assumenda nobis aliquam sint.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "rem",
+    "Rank": 123,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Bashirian-Breitenberg",
-        "ToolTip": "Sit in libero qui eveniet commodi.",
-        "Deleted": true,
-        "Rank": 543,
-        "Type": "incidunt",
+        "Id": 139,
+        "Name": "Pouros-Abernathy",
+        "ToolTip": "Praesentium quibusdam facere sed cum a atque.",
+        "Deleted": false,
+        "Rank": 226,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 84,
-        "ExtraInfo": "animi",
-        "StyleHint": "ea",
-        "FullName": "Denis Daugherty",
+        "IconHint": "harum",
+        "ColorBlock": 500,
+        "ExtraInfo": "quasi",
+        "StyleHint": "et",
+        "FullName": "Brenna Braun",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,28 +117,28 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 274
+            "FieldLength": 563
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 134,
-    "ExtraInfo": "neque",
-    "StyleHint": "dolores",
-    "FullName": "Dr. Vesta Goyette",
+    "IconHint": "et",
+    "ColorBlock": 914,
+    "ExtraInfo": "nihil",
+    "StyleHint": "exercitationem",
+    "FullName": "Eva D'Amore",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "reinvent distributed bandwidth"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "embrace e-business bandwidth"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldType": "System.String",
+        "FieldLength": 55
       }
     }
   }

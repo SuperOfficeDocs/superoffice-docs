@@ -111,51 +111,51 @@ Response body: object
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 337,
-  "Name": "Skiles-Gutmann",
-  "Tooltip": "eos",
-  "Rank": 394,
+  "SaleTypeId": 757,
+  "Name": "Herman Inc and Sons",
+  "Tooltip": "cumque",
+  "Rank": 483,
   "DurationUnit": "Century",
-  "SaleDuration": 300,
-  "SaleTypeCatId": 187,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "SaleDuration": 167,
+  "SaleTypeCatId": 256,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 774,
-  "QuoteLinesTemplate": 635,
-  "ConfirmationLinesTemplate": 885,
+  "DefaultQuoteValidity": 515,
+  "QuoteLinesTemplate": 183,
+  "ConfirmationLinesTemplate": 547,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 145,
-  "MinEarningPercent": 372,
-  "GroupQuoteLinesBy": 154,
-  "SortGroupLinesBy": 574,
+  "MaxDiscountPercent": 795,
+  "MinEarningPercent": 406,
+  "GroupQuoteLinesBy": 737,
+  "SortGroupLinesBy": 949,
   "Stages": [
     {
-      "Id": 844,
-      "Name": "Effertz Inc and Sons",
-      "ToolTip": "Ipsum delectus in facilis ut.",
-      "Deleted": true,
-      "Rank": 624,
-      "Type": "molestiae",
-      "ColorBlock": 250,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "1996-09-14T15:05:43.7921167+02:00",
+      "Id": 814,
+      "Name": "Auer Group",
+      "ToolTip": "Nulla qui et distinctio.",
+      "Deleted": false,
+      "Rank": 315,
+      "Type": "assumenda",
+      "ColorBlock": 567,
+      "IconHint": "eos",
+      "Selected": false,
+      "LastChanged": "1996-08-02T18:25:52.1840192+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "totam",
+      "ExtraInfo": "enim",
+      "StyleHint": "animi",
       "Hidden": false,
-      "FullName": "Erwin Nolan"
+      "FullName": "Deanna Rodriguez"
     }
   ]
 }
@@ -166,47 +166,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 682,
-  "Name": "West-Johnson",
-  "Tooltip": "voluptatem",
-  "Rank": 89,
+  "SaleTypeId": 154,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "architecto",
+  "Rank": 870,
   "DurationUnit": "Century",
-  "SaleDuration": 584,
-  "SaleTypeCatId": 581,
+  "SaleDuration": 568,
+  "SaleTypeCatId": 921,
   "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 426,
-  "QuoteLinesTemplate": 340,
-  "ConfirmationLinesTemplate": 677,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 352,
-  "MinEarningPercent": 442,
-  "GroupQuoteLinesBy": 9,
-  "SortGroupLinesBy": 336,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 28,
+  "QuoteLinesTemplate": 291,
+  "ConfirmationLinesTemplate": 274,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 225,
+  "MinEarningPercent": 628,
+  "GroupQuoteLinesBy": 518,
+  "SortGroupLinesBy": 585,
   "Stages": [
     {
-      "Id": 327,
-      "Name": "Schneider Inc and Sons",
-      "ToolTip": "Quisquam aut qui molestiae consequatur fugit.",
+      "Id": 306,
+      "Name": "Mitchell Group",
+      "ToolTip": "Dolore aperiam dolor deleniti.",
       "Deleted": true,
-      "Rank": 44,
-      "Type": "dolor",
-      "ColorBlock": 211,
-      "IconHint": "dolores",
-      "Selected": false,
-      "LastChanged": "1994-12-26T15:05:43.7931178+01:00",
+      "Rank": 211,
+      "Type": "incidunt",
+      "ColorBlock": 275,
+      "IconHint": "quia",
+      "Selected": true,
+      "LastChanged": "2013-04-07T18:25:52.1850218+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "nihil",
+      "ExtraInfo": "est",
+      "StyleHint": "pariatur",
       "Hidden": false,
-      "FullName": "Jerad Simonis",
+      "FullName": "Georgianna Rowe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 836
         }
       }
     }
@@ -230,8 +230,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

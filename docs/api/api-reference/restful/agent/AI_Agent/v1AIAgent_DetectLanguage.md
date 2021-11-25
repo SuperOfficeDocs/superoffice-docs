@@ -1,9 +1,9 @@
 ---
-title: DetectLanguage
+title: POST Agents/AI/DetectLanguage
 id: v1AIAgent_DetectLanguage
 ---
 
-# DetectLanguage
+# POST Agents/AI/DetectLanguage
 
 ```http
 POST /api/v1/Agents/AI/DetectLanguage
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/AI/DetectLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "quidem"
+  "Text": "veritatis"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tempore"
+"at"
 ```

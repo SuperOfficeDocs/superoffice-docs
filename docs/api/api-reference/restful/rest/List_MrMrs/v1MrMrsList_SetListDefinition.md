@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Cremin Group",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "Rank": 368,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 824,
+  "Name": "Gutkowski-Hills",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 61,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Durgan-Kris",
-  "Tooltip": "consequatur",
+  "Id": 459,
+  "Name": "Zieme-Kiehn",
+  "Tooltip": "architecto",
   "Deleted": true,
-  "Rank": 834,
-  "IsCustomList": false,
+  "Rank": 999,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "exploit dynamic bandwidth"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "aggregate mission-critical convergence"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 952
     }
   }
 }

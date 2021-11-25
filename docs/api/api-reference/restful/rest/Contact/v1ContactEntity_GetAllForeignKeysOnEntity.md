@@ -54,7 +54,7 @@ Response body: object
 GET /api/v1/Contact/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -62,7 +62,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "cum",
-  "2": "quia"
+  "1": "occaecati",
+  "2": "labore"
 }
 ```

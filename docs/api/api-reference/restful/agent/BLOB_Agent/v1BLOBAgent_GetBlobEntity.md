@@ -1,9 +1,9 @@
 ---
-title: GetBlobEntity
+title: POST Agents/BLOB/GetBlobEntity
 id: v1BLOBAgent_GetBlobEntity
 ---
 
-# GetBlobEntity
+# POST Agents/BLOB/GetBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntity
@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=431
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=50
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -87,54 +87,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 897,
-  "BlobSize": 479,
-  "Description": "Polarised 4th generation info-mediaries",
-  "ExtraInfo": "nobis",
-  "IsEncrypted": false,
+  "BlobId": 597,
+  "BlobSize": 238,
+  "Description": "Integrated clear-thinking instruction set",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 13,
-  "CreatedDate": "2001-12-22T14:58:03.2832423+01:00",
-  "UpdatedDate": "2000-11-01T14:58:03.2832423+01:00",
+  "MimeType": "dolor",
+  "OriginalSize": 598,
+  "CreatedDate": "2010-10-30T18:28:48.1555453+02:00",
+  "UpdatedDate": "2012-03-24T18:28:48.1555453+01:00",
   "CreatedBy": {
-    "AssociateId": 667,
-    "Name": "Bernhard-Cummings",
-    "PersonId": 34,
-    "Rank": 97,
-    "Tooltip": "est",
+    "AssociateId": 821,
+    "Name": "Raynor, Pfannerstill and Moen",
+    "PersonId": 533,
+    "Rank": 144,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 996,
-    "FullName": "Laron Murray",
-    "FormalName": "Hamill, DuBuque and Hodkiewicz",
-    "Deleted": false,
-    "EjUserId": 625,
-    "UserName": "Bergnaum Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 887
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 823,
-    "Name": "Weber, Cummerata and Braun",
-    "PersonId": 735,
-    "Rank": 917,
-    "Tooltip": "porro",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 798,
-    "FullName": "Kenyon Fay",
-    "FormalName": "DuBuque-Bartoletti",
-    "Deleted": false,
-    "EjUserId": 681,
-    "UserName": "Altenwerth, Rogahn and Ondricka",
+    "GroupIdx": 211,
+    "FullName": "Kali Stiedemann IV",
+    "FormalName": "Barrows-Kutch",
+    "Deleted": true,
+    "EjUserId": 13,
+    "UserName": "Zulauf, Kutch and Aufderhar",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -143,11 +118,36 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 103
       }
     }
   },
-  "ConceptualType": "optio",
+  "UpdatedBy": {
+    "AssociateId": 735,
+    "Name": "Spinka-Fisher",
+    "PersonId": 406,
+    "Rank": 317,
+    "Tooltip": "molestias",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 370,
+    "FullName": "Pascale Walsh",
+    "FormalName": "McCullough LLC",
+    "Deleted": false,
+    "EjUserId": 360,
+    "UserName": "Welch Group",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 384
+      }
+    }
+  },
+  "ConceptualType": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 622
     }
   }
 }

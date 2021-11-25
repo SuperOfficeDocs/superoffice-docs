@@ -1,9 +1,9 @@
 ---
-title: GetDashTile
+title: POST Agents/Dash/GetDashTile
 id: v1DashAgent_GetDashTile
 ---
 
-# GetDashTile
+# POST Agents/Dash/GetDashTile
 
 ```http
 POST /api/v1/Agents/Dash/GetDashTile
@@ -25,7 +25,7 @@ Gets a DashTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=833
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=767
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
 
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 585,
-  "DashboardId": 74,
-  "Height": 969,
-  "Width": 163,
-  "Rank": 774,
+  "DashboardTileId": 580,
+  "DashboardId": 241,
+  "Height": 628,
+  "Width": 786,
+  "Rank": 31,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 124,
-    "Name": "Cassin, Donnelly and West",
-    "Description": "Multi-lateral even-keeled knowledge base",
-    "DefaultHeight": 186,
-    "DefaultWidth": 636,
+    "DashboardTileDefinitionId": 96,
+    "Name": "Ernser Group",
+    "Description": "Face to face hybrid secured line",
+    "DefaultHeight": 208,
+    "DefaultWidth": 433,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Armstrong Inc and Sons",
-    "SelectionId": 432,
+    "EntityName": "Langworth, Johnson and Pfeffer",
+    "SelectionId": 910,
     "CurrencyMode": "Base",
-    "CurrencyId": 988,
+    "CurrencyCode": "nihil",
     "Measure": "Average",
-    "MeasureField": "repudiandae",
-    "SortBy": "et",
-    "LayoutConfig": "beatae",
-    "SecondarySelectionId": 546,
-    "MeasureByField": "cumque",
-    "ProviderName": "Green Group",
+    "MeasureField": "magnam",
+    "SortBy": "blanditiis",
+    "LayoutConfig": "illo",
+    "SecondarySelectionId": 106,
+    "MeasureByField": "quas",
+    "ProviderName": "Tillman Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldType": "System.String",
+        "FieldLength": 876
       }
     }
   },
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 216
     }
   }
 }

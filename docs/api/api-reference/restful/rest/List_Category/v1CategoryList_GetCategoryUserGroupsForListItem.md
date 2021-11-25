@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Collins, Schaefer and Nitzsche",
-    "ToolTip": "Quis est dolores cupiditate.",
+    "Id": 683,
+    "Name": "Eichmann-Grady",
+    "ToolTip": "Qui ut blanditiis eum molestias quia.",
     "Deleted": true,
-    "Rank": 320,
-    "Type": "eius",
-    "ColorBlock": 579,
-    "IconHint": "vel",
+    "Rank": 375,
+    "Type": "est",
+    "ColorBlock": 742,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2017-10-04T15:05:43.266545+02:00",
+    "LastChanged": "2007-06-07T18:25:51.6362948+02:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Swift, Zulauf and Armstrong",
-        "ToolTip": "Alias pariatur.",
-        "Deleted": false,
-        "Rank": 256,
-        "Type": "consequatur",
-        "ColorBlock": 575,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "2015-05-27T15:05:43.266545+02:00",
+        "Id": 285,
+        "Name": "Hartmann-Reichert",
+        "ToolTip": "Ut possimus.",
+        "Deleted": true,
+        "Rank": 21,
+        "Type": "ex",
+        "ColorBlock": 252,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2012-06-14T18:25:51.6362948+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
+        "ExtraInfo": "totam",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mrs. Jade Boehm",
+        "Hidden": false,
+        "FullName": "Miss Edgardo Pacocha",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 308
+            "FieldType": "System.Int32",
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Susan Smith",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Bradford Doyle",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldLength": 437
       }
     }
   }

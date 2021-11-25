@@ -57,11 +57,13 @@ Response body: object
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -73,7 +75,7 @@ Response body: object
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,26 +83,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 609,
-  "ParentId": 474,
-  "Name": "Langosh-Farrell",
-  "Fullname": "quia",
-  "CategoryMaster": 380,
+  "TicketCategoryId": 200,
+  "ParentId": 582,
+  "Name": "Grady LLC",
+  "Fullname": "dolor",
+  "CategoryMaster": 721,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Parker-Lakin",
+  "ExternalName": "Huel-Collins",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 635,
-  "ReplyTemplate": 162,
-  "NotificationEmail": "prince_romaguera@kuhlmanwalter.com",
+  "AssignmentLag": 387,
+  "ReplyTemplate": 718,
+  "NotificationEmail": "rowena_macejkovic@huels.name",
+  "DefaultTicketStatus": {
+    "TicketStatusId": 587,
+    "Name": "Cruickshank Inc and Sons",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": false,
+    "IsDefault": true,
+    "UsedInQueue": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 171
+      }
+    }
+  },
+  "DefaultMessageStatus": {
+    "TicketStatusId": 328,
+    "Name": "Mayer-Metz",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": false,
+    "IsDefault": false,
+    "UsedInQueue": true,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 54
+      }
+    }
+  },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "quos"
+    "CustomFields1": "amet",
+    "CustomFields2": "voluptas"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -112,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 41
     }
   }
 }

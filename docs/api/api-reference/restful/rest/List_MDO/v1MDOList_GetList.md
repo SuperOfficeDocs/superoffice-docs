@@ -31,8 +31,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=sit
-GET /api/v1/MDOList/{listname}?query=consequatur
+GET /api/v1/MDOList/{listname}?additional=consequuntur
+GET /api/v1/MDOList/{listname}?query=autem
 ```
 
 
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -92,29 +92,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Volkman LLC",
-    "ToolTip": "Enim quos assumenda molestias et vitae.",
-    "Deleted": true,
-    "Rank": 55,
-    "Type": "ut",
+    "Id": 686,
+    "Name": "Christiansen-Reinger",
+    "ToolTip": "Vitae optio consequuntur libero velit aliquid.",
+    "Deleted": false,
+    "Rank": 576,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Weissnat-Fadel",
-        "ToolTip": "Saepe voluptas doloribus alias praesentium esse.",
+        "Id": 640,
+        "Name": "Dibbert, Kuhn and Corkery",
+        "ToolTip": "Amet possimus et voluptatem unde debitis vitae.",
         "Deleted": true,
-        "Rank": 603,
-        "Type": "accusantium",
+        "Rank": 199,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 865,
-        "ExtraInfo": "quidem",
-        "StyleHint": "veniam",
-        "FullName": "Marjolaine Friesen",
+        "IconHint": "quod",
+        "ColorBlock": 397,
+        "ExtraInfo": "est",
+        "StyleHint": "consectetur",
+        "FullName": "Dr. Bell Fisher",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -123,16 +123,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 579
+            "FieldLength": 94
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 367,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "qui",
-    "FullName": "Jesse Abbott",
+    "IconHint": "inventore",
+    "ColorBlock": 888,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "et",
+    "FullName": "Jess Powlowski",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

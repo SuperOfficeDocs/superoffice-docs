@@ -29,7 +29,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -116,40 +116,40 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 914,
-  "ColumnId": 482,
-  "FieldDefault": "laborum",
-  "FieldHeight": 263,
-  "FieldLabel": "cumque",
-  "FieldLeft": 861,
-  "FieldTop": 522,
+  "UDefFieldId": 404,
+  "ColumnId": 333,
+  "FieldDefault": "quia",
+  "FieldHeight": 743,
+  "FieldLabel": "veritatis",
+  "FieldLeft": 308,
+  "FieldTop": 134,
   "FieldType": "Checkbox",
-  "FieldWidth": 375,
-  "FormatMask": "fugiat",
+  "FieldWidth": 102,
+  "FormatMask": "suscipit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 167,
-  "LabelLeft": 495,
-  "LabelTop": 201,
-  "LabelWidth": 428,
-  "LastVersionId": 829,
-  "ListTableId": 299,
-  "IsMandatory": false,
+  "LabelHeight": 795,
+  "LabelLeft": 337,
+  "LabelTop": 969,
+  "LabelWidth": 988,
+  "LastVersionId": 656,
+  "ListTableId": 978,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 542,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "a",
-  "TabOrder": 787,
-  "TextLength": 797,
-  "Tooltip": "odit",
-  "UdefIdentity": 77,
-  "UDListDefinitionId": 973,
+  "Page1LineNo": 990,
+  "ProgId": "sunt",
+  "IsReadOnly": true,
+  "ShortLabel": "quia",
+  "TabOrder": 976,
+  "TextLength": 26,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 50,
+  "UDListDefinitionId": 393,
   "Justification": "Center",
-  "Version": 684,
-  "TemplateVariableName": "Ruecker, Gulgowski and Doyle",
-  "HasBeenPublished": true,
-  "MdoListName": "Bruen-Graham",
+  "Version": 651,
+  "TemplateVariableName": "Adams Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Kuhn-Price",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 484
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetOpenSalesForContact
+title: POST Agents/Sale/GetOpenSalesForContact
 id: v1SaleAgent_GetOpenSalesForContact
 ---
 
-# GetOpenSalesForContact
+# POST Agents/Sale/GetOpenSalesForContact
 
 ```http
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
@@ -97,11 +97,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 474
+  "ContactId": 577
 }
 ```
 
@@ -111,43 +111,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hessel Group",
-    "SaleDate": "1997-05-28T14:58:05.1896281+02:00",
-    "SaleId": 718,
-    "Probability": 857,
-    "Title": "cum",
-    "Amount": 24846.352,
-    "Currency": "impedit",
-    "ProjectName": "Considine-Leuschke",
-    "AssociateFullName": "Kaylin Parker",
-    "Description": "Customizable 24 hour throughput",
+    "ContactName": "Herzog Group",
+    "SaleDate": "1995-01-12T18:28:50.1794449+01:00",
+    "SaleId": 117,
+    "Probability": 189,
+    "Title": "modi",
+    "Amount": 20029.394,
+    "Currency": "laudantium",
+    "ProjectName": "Runolfsson, Borer and Shields",
+    "AssociateFullName": "Dr. Shakira Schuppe",
+    "Description": "Adaptive upward-trending migration",
     "Status": "Lost",
-    "WeightedAmount": 2585.5499999999997,
-    "ProjectId": 967,
-    "EarningPercent": 24564.291999999998,
-    "Earning": 13021.77,
-    "ContactId": 746,
-    "AssociateId": 256,
-    "PersonId": 613,
-    "SaleTypeId": 46,
-    "SaleTypeName": "Runolfsdottir-Crist",
-    "PersonFullName": "Kiera Olson III",
+    "WeightedAmount": 908.86,
+    "ProjectId": 362,
+    "EarningPercent": 29415.724,
+    "Earning": 178.638,
+    "ContactId": 962,
+    "AssociateId": 535,
+    "PersonId": 982,
+    "SaleTypeId": 582,
+    "SaleTypeName": "Hilll Group",
+    "PersonFullName": "Sadie Smith",
     "Completed": "Completed",
-    "ActiveErpLinks": 787,
-    "NextDueDate": "2008-06-21T14:58:05.1906288+02:00",
-    "Number": "485185",
+    "ActiveErpLinks": 235,
+    "NextDueDate": "2007-10-06T18:28:50.1804423+02:00",
+    "Number": "233319",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "enable extensible action-items"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "evolve best-of-breed channels"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetSelectionShadowMembersArchiveRows
+title: POST Agents/Selection/GetSelectionShadowMembersArchiveRows
 id: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
 ---
 
-# GetSelectionShadowMembersArchiveRows
+# POST Agents/Selection/GetSelectionShadowMembersArchiveRows
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 589,
-  "Select": "et"
+  "SelectionId": 399,
+  "Select": "aut"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ziemann-Wuckert",
-    "PrimaryKey": 514,
+    "EntityName": "Marquardt-Reilly",
+    "PrimaryKey": 146,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "placeat",
-        "TooltipHint": "minus",
-        "LinkHint": "minima"
+        "DisplayValue": "quia",
+        "TooltipHint": "aliquid",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "fugit",
+    "LinkHint": "vel",
+    "StyleHint": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultMailMergeTask
+title: POST Agents/Selection/CreateDefaultMailMergeTask
 id: v1SelectionAgent_CreateDefaultMailMergeTask
 ---
 
-# CreateDefaultMailMergeTask
+# POST Agents/Selection/CreateDefaultMailMergeTask
 
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,32 +77,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 341,
-  "TypeId": 290,
-  "StartDate": "2005-10-11T14:58:05.2196284+02:00",
-  "Duration": 936,
-  "Description": "Total context-sensitive instruction set",
-  "PriorityId": 89,
+  "ProjectId": 841,
+  "TypeId": 235,
+  "StartDate": "2004-01-15T18:28:50.2124467+01:00",
+  "Duration": 218,
+  "Description": "Vision-oriented dedicated matrices",
+  "PriorityId": 642,
   "VisibleFor": {
-    "VisibleId": 18,
+    "VisibleId": 380,
     "Visibility": "All",
-    "DisplayValue": "sit",
+    "DisplayValue": "quo",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose turn-key users"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   },
   "Completed": "Completed",
-  "OwnerAssociateId": 806,
-  "SingleEntryOnEachCompany": true,
-  "SaleId": 444,
+  "OwnerAssociateId": 934,
+  "SingleEntryOnEachCompany": false,
+  "SaleId": 365,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 739
     }
   }
 }

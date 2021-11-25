@@ -1,9 +1,9 @@
 ---
-title: GetNewTableRight
+title: POST Agents/Sentry/GetNewTableRight
 id: v1SentryAgent_GetNewTableRight
 ---
 
-# GetNewTableRight
+# POST Agents/Sentry/GetNewTableRight
 
 ```http
 POST /api/v1/Agents/Sentry/GetNewTableRight
@@ -76,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kshlerin Group"
+  "TableName": "Streich Group"
 }
 ```
 

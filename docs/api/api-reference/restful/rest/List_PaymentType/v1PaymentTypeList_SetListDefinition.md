@@ -93,16 +93,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Bernhard, Willms and Lynch",
-  "Tooltip": "exercitationem",
+  "Id": 711,
+  "Name": "Kulas, Bartoletti and Roob",
+  "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 890,
+  "Rank": 15,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Kreiger, Parker and Nolan",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 735,
-  "IsCustomList": true,
+  "Id": 659,
+  "Name": "Franecki Group",
+  "Tooltip": "possimus",
+  "Deleted": true,
+  "Rank": 255,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "ListType": "earum",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize distributed networks"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

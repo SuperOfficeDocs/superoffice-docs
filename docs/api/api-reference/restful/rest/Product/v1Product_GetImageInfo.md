@@ -71,38 +71,63 @@ Response body: object
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Jun 2008 15:05:43 G6T
+Last-Modified: Sun, 28 Dec 2003 18:25:51 G12T
 
 {
-  "BlobId": 772,
-  "BlobSize": 798,
-  "Description": "Re-contextualized 6th generation website",
-  "ExtraInfo": "itaque",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 467,
-  "CreatedDate": "2019-12-21T15:05:43.0456665+01:00",
-  "UpdatedDate": "2008-06-04T15:05:43.0456665+02:00",
+  "BlobId": 840,
+  "BlobSize": 615,
+  "Description": "Up-sized mobile solution",
+  "ExtraInfo": "amet",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "similique",
+  "OriginalSize": 205,
+  "CreatedDate": "1998-09-25T18:25:51.4051179+02:00",
+  "UpdatedDate": "2003-12-28T18:25:51.4051179+01:00",
   "CreatedBy": {
-    "AssociateId": 811,
-    "Name": "Bauch-Walker",
-    "PersonId": 165,
-    "Rank": 123,
-    "Tooltip": "accusantium",
+    "AssociateId": 449,
+    "Name": "Barrows Inc and Sons",
+    "PersonId": 280,
+    "Rank": 302,
+    "Tooltip": "veritatis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 34,
-    "FullName": "Royal Ondricka",
-    "FormalName": "Fahey LLC",
-    "Deleted": false,
-    "EjUserId": 367,
-    "UserName": "Douglas Group",
+    "GroupIdx": 537,
+    "FullName": "Jamaal Nicolas",
+    "FormalName": "Lehner, Stoltenberg and Kemmer",
+    "Deleted": true,
+    "EjUserId": 126,
+    "UserName": "Ankunding, Trantow and Pfeffer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 191
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 36,
+    "Name": "Hauck, Konopelski and Altenwerth",
+    "PersonId": 691,
+    "Rank": 457,
+    "Tooltip": "id",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 494,
+    "FullName": "Will Bartell",
+    "FormalName": "Adams, Huel and Romaguera",
+    "Deleted": true,
+    "EjUserId": 855,
+    "UserName": "Kilback-Heller",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -111,36 +136,11 @@ Last-Modified: Wed, 04 Jun 2008 15:05:43 G6T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 935
       }
     }
   },
-  "UpdatedBy": {
-    "AssociateId": 436,
-    "Name": "Leffler-Blick",
-    "PersonId": 267,
-    "Rank": 245,
-    "Tooltip": "facilis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 748,
-    "FullName": "Natalia Larkin IV",
-    "FormalName": "Bahringer, Roberts and Schuppe",
-    "Deleted": false,
-    "EjUserId": 458,
-    "UserName": "Kautzer Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engineer one-to-one portals"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 498
-      }
-    }
-  },
-  "ConceptualType": "id",
+  "ConceptualType": "iste",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,8 +151,8 @@ Last-Modified: Wed, 04 Jun 2008 15:05:43 G6T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

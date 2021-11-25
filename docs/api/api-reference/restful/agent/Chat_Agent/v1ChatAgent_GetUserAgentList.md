@@ -1,9 +1,9 @@
 ---
-title: GetUserAgentList
+title: POST Agents/Chat/GetUserAgentList
 id: v1ChatAgent_GetUserAgentList
 ---
 
-# GetUserAgentList
+# POST Agents/Chat/GetUserAgentList
 
 ```http
 POST /api/v1/Agents/Chat/GetUserAgentList
@@ -85,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Corkery Inc and Sons",
-    "ToolTip": "At aliquid voluptates rem suscipit expedita modi.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "distinctio",
+    "Id": 95,
+    "Name": "McGlynn, Weimann and Kohler",
+    "ToolTip": "Sed necessitatibus quam perferendis pariatur et cum.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Kub LLC",
-        "ToolTip": "Ipsum quod modi eius.",
+        "Id": 797,
+        "Name": "Bode-Bernhard",
+        "ToolTip": "Aut sed amet cumque labore non quia.",
         "Deleted": false,
-        "Rank": 917,
-        "Type": "necessitatibus",
+        "Rank": 763,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 824,
-        "ExtraInfo": "est",
-        "StyleHint": "corporis",
-        "FullName": "Daron Mertz",
+        "IconHint": "aut",
+        "ColorBlock": 954,
+        "ExtraInfo": "unde",
+        "StyleHint": "quisquam",
+        "FullName": "Hudson Hills",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,17 +130,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 320
+            "FieldType": "System.Int32",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 172,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "totam",
-    "FullName": "Ms. Berta Becker",
+    "IconHint": "quasi",
+    "ColorBlock": 665,
+    "ExtraInfo": "quasi",
+    "StyleHint": "et",
+    "FullName": "Barry Reichert",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 768
       }
     }
   }

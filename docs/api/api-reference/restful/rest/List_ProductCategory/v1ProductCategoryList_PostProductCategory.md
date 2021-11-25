@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Rosenbaum, Nitzsche and Douglas",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "UdListDefinitionId": 734,
-  "Rank": 918
+  "Id": 933,
+  "Name": "Mueller Group",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "UdListDefinitionId": 941,
+  "Rank": 760
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Effertz, McDermott and Tremblay",
-  "Tooltip": "quis",
+  "Id": 924,
+  "Name": "Heidenreich, Murray and Mante",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 307,
-  "Rank": 5,
+  "UdListDefinitionId": 82,
+  "Rank": 695,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldLength": 468
     }
   }
 }

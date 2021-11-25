@@ -54,6 +54,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -63,7 +65,7 @@ Response body: object
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -71,11 +73,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 641,
-  "Name": "Thiel-Rohan",
+  "TicketStatusId": 57,
+  "Name": "Watsica, Kunze and Christiansen",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -87,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldLength": 123
     }
   }
 }

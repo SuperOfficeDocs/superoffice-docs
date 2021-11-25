@@ -1,9 +1,9 @@
 ---
-title: GetDefaultDesiredColumnsFromRestrictions
+title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 id: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
 ---
 
-# GetDefaultDesiredColumnsFromRestrictions
+# POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
@@ -88,28 +88,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Price-O'Connell",
+  "ProviderName": "Hintz-Sawayn",
   "Restrictions": [
     {
-      "Name": "Huel, Barton and Crooks",
-      "Operator": "velit",
+      "Name": "Lesch Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "voluptatum",
-        "velit"
+        "et",
+        "officia"
       ],
       "DisplayValues": [
-        "error",
-        "doloribus"
+        "sequi",
+        "quis"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 864,
+      "InterParenthesis": 270,
       "InterOperator": "And",
-      "UniqueHash": 538
+      "UniqueHash": 114
     }
   ]
 }
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gleichner LLC",
+    "DisplayName": "Quigley-Waters",
     "DisplayTooltip": "non",
-    "DisplayType": "omnis",
+    "DisplayType": "voluptas",
     "CanOrderBy": true,
-    "Name": "Leffler-Quitzon",
+    "Name": "Mueller Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "corporis",
-    "RestrictionListName": "Hand-Tillman",
-    "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "enim",
-    "IconHint": "sequi",
-    "HeadingIconHint": "at"
+    "RestrictionType": "doloremque",
+    "RestrictionListName": "Haag-Sanford",
+    "IsVisible": true,
+    "ExtraInfo": "consectetur",
+    "Width": "commodi",
+    "IconHint": "debitis",
+    "HeadingIconHint": "facere"
   }
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetContactDocumentsByTemplateType
+title: POST Agents/Document/GetContactDocumentsByTemplateType
 id: v1DocumentAgent_GetContactDocumentsByTemplateType
 ---
 
-# GetContactDocumentsByTemplateType
+# POST Agents/Document/GetContactDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 423,
-  "StartTime": "2016-06-18T14:58:03.809465+02:00",
-  "EndTime": "2006-01-10T14:58:03.809465+01:00",
-  "Count": 293,
-  "DocumentTemplateId": 491
+  "ContactId": 614,
+  "StartTime": "2015-06-10T18:28:48.7059585+02:00",
+  "EndTime": "2015-01-27T18:28:48.7059585+01:00",
+  "Count": 543,
+  "DocumentTemplateId": 755
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 631,
-    "Attention": "non",
-    "Header": "aut",
-    "Name": "Wiza-Sanford",
-    "OurRef": "animi",
-    "YourRef": "non",
-    "Description": "Phased leading edge array",
-    "DocumentTemplate": "eum",
-    "IsPublished": true,
-    "PersonId": 846,
-    "PersonFullName": "Myrtice Simonis III",
-    "AssociateFullName": "Mrs. Fausto Nicolas",
-    "ContactId": 663,
-    "ContactName": "Collins-Lynch",
-    "ProjectId": 822,
-    "ProjectName": "Dach, Gulgowski and Kiehn",
-    "AssociateId": 328,
-    "Snum": 682,
+    "DocumentId": 79,
+    "Attention": "voluptatem",
+    "Header": "a",
+    "Name": "Hartmann, Schinner and Zulauf",
+    "OurRef": "provident",
+    "YourRef": "modi",
+    "Description": "Face to face non-volatile database",
+    "DocumentTemplate": "dolorem",
+    "IsPublished": false,
+    "PersonId": 549,
+    "PersonFullName": "Mya Douglas",
+    "AssociateFullName": "Kameron Harris",
+    "ContactId": 681,
+    "ContactName": "Boyle-Leannon",
+    "ProjectId": 906,
+    "ProjectName": "Hilpert LLC",
+    "AssociateId": 824,
+    "Snum": 871,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

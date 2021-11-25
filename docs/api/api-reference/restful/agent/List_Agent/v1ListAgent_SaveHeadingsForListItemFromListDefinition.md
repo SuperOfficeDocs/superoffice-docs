@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingsForListItemFromListDefinition
+title: POST Agents/List/SaveHeadingsForListItemFromListDefinition
 id: v1ListAgent_SaveHeadingsForListItemFromListDefinition
 ---
 
-# SaveHeadingsForListItemFromListDefinition
+# POST Agents/List/SaveHeadingsForListItemFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 296,
-  "ListItemId": 44,
+  "UdListDefinitionId": 398,
+  "ListItemId": 75,
   "Headings": [
     {
-      "Id": 642,
-      "Name": "Osinski Group",
-      "ToolTip": "Dolore nobis nihil repellat labore autem sunt.",
-      "Deleted": true,
-      "Rank": 330,
-      "Type": "rerum",
-      "ColorBlock": 429,
-      "IconHint": "voluptate",
+      "Id": 934,
+      "Name": "Ziemann, Wyman and Johnson",
+      "ToolTip": "Aut dolor officia.",
+      "Deleted": false,
+      "Rank": 49,
+      "Type": "similique",
+      "ColorBlock": 14,
+      "IconHint": "voluptates",
       "Selected": true,
-      "LastChanged": "2020-11-04T14:58:04.4254659+01:00",
+      "LastChanged": "2008-07-12T18:28:49.3211192+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "esse",
-      "StyleHint": "quam",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Fritz Hahn"
+      "FullName": "Hilario Corkery"
     }
   ]
 }
@@ -126,53 +126,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Renner-Nicolas",
-    "ToolTip": "Et incidunt fuga non.",
-    "Deleted": true,
-    "Rank": 73,
-    "Type": "recusandae",
-    "ColorBlock": 830,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2021-04-29T14:58:04.4264679+02:00",
+    "Id": 243,
+    "Name": "O'Keefe, Fisher and Dach",
+    "ToolTip": "Labore quae aperiam id architecto.",
+    "Deleted": false,
+    "Rank": 378,
+    "Type": "aut",
+    "ColorBlock": 430,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "2011-04-16T18:28:49.3231181+02:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Williamson-Robel",
-        "ToolTip": "Sit voluptatibus reprehenderit omnis.",
-        "Deleted": true,
-        "Rank": 349,
-        "Type": "voluptatem",
-        "ColorBlock": 726,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2007-10-17T14:58:04.4264679+02:00",
+        "Id": 675,
+        "Name": "Olson-Emard",
+        "ToolTip": "Eveniet aliquid saepe et.",
+        "Deleted": false,
+        "Rank": 900,
+        "Type": "rerum",
+        "ColorBlock": 618,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2015-09-27T18:28:49.3231181+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Ilene Bruen",
+        "ExtraInfo": "architecto",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Elvera Eichmann",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "architect extensible partnerships"
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "laboriosam",
-    "Hidden": false,
-    "FullName": "Mylene Ziemann",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Donato D'Amore",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 348
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GenerateNewPasswordForExternalUser
+title: POST Agents/User/GenerateNewPasswordForExternalUser
 id: v1UserAgent_GenerateNewPasswordForExternalUser
 ---
 
-# GenerateNewPasswordForExternalUser
+# POST Agents/User/GenerateNewPasswordForExternalUser
 
 ```http
 POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser
@@ -70,11 +70,11 @@ Response body: string
 POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Hilll, Koepp and Hansen"
+  "AssociateName": "Wehner, Bergnaum and McKenzie"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"cumque"
 ```

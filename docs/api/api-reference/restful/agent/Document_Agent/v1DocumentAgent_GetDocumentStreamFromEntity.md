@@ -1,9 +1,9 @@
 ---
-title: GetDocumentStreamFromEntity
+title: POST Agents/Document/GetDocumentStreamFromEntity
 id: v1DocumentAgent_GetDocumentStreamFromEntity
 ---
 
-# GetDocumentStreamFromEntity
+# POST Agents/Document/GetDocumentStreamFromEntity
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
@@ -68,31 +68,31 @@ Response body:
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": {
-    "DocumentId": 605,
+    "DocumentId": 529,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "harum",
-    "Header": "perspiciatis",
-    "Name": "Satterfield, Rippin and Windler",
-    "OurRef": "possimus",
-    "YourRef": "nam",
-    "CreatedDate": "2009-01-22T14:58:03.9644605+01:00",
-    "UpdatedDate": "2006-07-11T14:58:03.9644605+02:00",
-    "Description": "Programmable logistical migration",
+    "Attention": "soluta",
+    "Header": "et",
+    "Name": "Heathcote Group",
+    "OurRef": "beatae",
+    "YourRef": "et",
+    "CreatedDate": "2010-06-29T18:28:48.8649617+02:00",
+    "UpdatedDate": "2005-07-01T18:28:48.8649617+02:00",
+    "Description": "Focused dedicated neural-net",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "2011-05-16T14:58:03.9644605+02:00",
-    "ExternalRef": "repellat",
+    "Date": "2002-01-11T18:28:48.8649617+01:00",
+    "ExternalRef": "et",
     "Completed": "Completed",
-    "ActiveLinks": 31,
+    "ActiveLinks": 787,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -100,23 +100,23 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 469,
-    "Snum": 591,
+    "SuggestedDocumentId": 433,
+    "Snum": 265,
     "UserDefinedFields": {
-      "SuperOffice:1": "Clement Fisher",
-      "SuperOffice:2": "Ima Reichert"
+      "SuperOffice:1": "445021927",
+      "SuperOffice:2": "Casimir Feeney"
     },
     "ExtraFields": {
-      "ExtraFields1": "minus",
-      "ExtraFields2": "aut"
+      "ExtraFields1": "atque",
+      "ExtraFields2": "rerum"
     },
     "CustomFields": {
-      "CustomFields1": "sapiente",
-      "CustomFields2": "non"
+      "CustomFields1": "quisquam",
+      "CustomFields2": "perferendis"
     },
-    "PublishEventDate": "2014-01-05T14:58:03.9644605+01:00",
-    "PublishTo": "2011-10-14T14:58:03.9644605+02:00",
-    "PublishFrom": "2000-05-05T14:58:03.9644605+02:00",
+    "PublishEventDate": "2016-05-09T18:28:48.8649617+02:00",
+    "PublishTo": "2017-05-18T18:28:48.8649617+02:00",
+    "PublishFrom": "2020-03-04T18:28:48.8649617+01:00",
     "IsPublished": true,
     "VisibleFor": [
       {},

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 374,
-  "Name": "Kshlerin-White",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 550,
-  "UdListDefinitionId": 668
+  "HeadingId": 287,
+  "Name": "Windler, Beier and Block",
+  "Tooltip": "laudantium",
+  "Deleted": false,
+  "Rank": 407,
+  "UdListDefinitionId": 71
 }
 ```
 
@@ -96,24 +96,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 144,
-  "Name": "Feeney Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 1001,
+  "Name": "Lueilwitz Inc and Sons",
+  "Tooltip": "magnam",
   "Deleted": true,
-  "Rank": 369,
-  "UdListDefinitionId": 329,
+  "Rank": 236,
+  "UdListDefinitionId": 509,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "mesh integrated markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "evolve one-to-one web services"
       },
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

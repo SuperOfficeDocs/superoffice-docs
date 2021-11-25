@@ -1,9 +1,9 @@
 ---
-title: ChangeEngineStatus
+title: POST Agents/ErpSync/ChangeEngineStatus
 id: v1ErpSyncAgent_ChangeEngineStatus
 ---
 
-# ChangeEngineStatus
+# POST Agents/ErpSync/ChangeEngineStatus
 
 ```http
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": false
+  "Run": true
 }
 ```
 
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "dignissimos",
-  "Interval": "ut",
+  "StatusMessage": "ut",
+  "Interval": "sit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 641
     }
   }
 }

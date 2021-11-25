@@ -1,9 +1,9 @@
 ---
-title: GetFieldValuesFromCrm
+title: POST Agents/ErpSync/GetFieldValuesFromCrm
 id: v1ErpSyncAgent_GetFieldValuesFromCrm
 ---
 
-# GetFieldValuesFromCrm
+# POST Agents/ErpSync/GetFieldValuesFromCrm
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
@@ -81,11 +81,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 498,
+  "RecordId": 656,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -96,12 +96,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Weimann Inc and Sons",
-    "CrmFieldKey": "vel",
-    "Value": "et",
-    "DisplayValue": "odit",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "DisplayName": "Lueilwitz, Friesen and Lindgren",
+    "CrmFieldKey": "non",
+    "Value": "adipisci",
+    "DisplayValue": "delectus",
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

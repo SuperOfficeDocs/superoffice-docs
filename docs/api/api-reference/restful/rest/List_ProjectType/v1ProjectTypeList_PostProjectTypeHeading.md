@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 946,
-  "Name": "Schinner-Champlin",
-  "Tooltip": "quisquam",
+  "HeadingId": 500,
+  "Name": "Cartwright, Davis and Crooks",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 219,
-  "UdListDefinitionId": 615
+  "Rank": 884,
+  "UdListDefinitionId": 226
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 256,
-  "Name": "Schoen, Williamson and Okuneva",
-  "Tooltip": "dolore",
+  "HeadingId": 18,
+  "Name": "Fisher, Welch and O'Keefe",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 385,
-  "UdListDefinitionId": 276,
+  "Rank": 625,
+  "UdListDefinitionId": 578,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 932
     }
   }
 }

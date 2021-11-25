@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashTheme
+title: POST Agents/Dash/CreateDefaultDashTheme
 id: v1DashAgent_CreateDefaultDashTheme
 ---
 
-# CreateDefaultDashTheme
+# POST Agents/Dash/CreateDefaultDashTheme
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
@@ -53,6 +53,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -62,7 +63,7 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -70,10 +71,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 351,
-  "Name": "Luettgen-Parisian",
-  "Config": "est",
-  "Rank": 174,
+  "DashboardThemeId": 945,
+  "Name": "Predovic-Kling",
+  "Config": "voluptatem",
+  "Rank": 447,
+  "Client": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -82,10 +84,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "brand strategic partnerships"
       },
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

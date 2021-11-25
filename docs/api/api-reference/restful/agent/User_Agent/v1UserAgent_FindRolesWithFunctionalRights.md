@@ -1,9 +1,9 @@
 ---
-title: FindRolesWithFunctionalRights
+title: POST Agents/User/FindRolesWithFunctionalRights
 id: v1UserAgent_FindRolesWithFunctionalRights
 ---
 
-# FindRolesWithFunctionalRights
+# POST Agents/User/FindRolesWithFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
@@ -76,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Gislason LLC",
-    "Hansen-Ziemann"
+    "Homenick-Abshire",
+    "Fritsch Inc and Sons"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  377,
-  691
+  303,
+  635
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetMrMrsList
+title: POST Agents/List/GetMrMrsList
 id: v1ListAgent_GetMrMrsList
 ---
 
-# GetMrMrsList
+# POST Agents/List/GetMrMrsList
 
 ```http
 POST /api/v1/Agents/List/GetMrMrsList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Value": "dolor",
-    "Tooltip": "repellat",
+    "Id": 660,
+    "Value": "animi",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 674
       }
     }
   },
   {
-    "Id": 210,
-    "Value": "dolor",
-    "Tooltip": "repellat",
+    "Id": 660,
+    "Value": "animi",
+    "Tooltip": "aut",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 674
       }
     }
   }

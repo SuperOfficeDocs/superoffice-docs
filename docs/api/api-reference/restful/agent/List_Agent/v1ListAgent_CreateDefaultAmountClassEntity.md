@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultAmountClassEntity
+title: POST Agents/List/CreateDefaultAmountClassEntity
 id: v1ListAgent_CreateDefaultAmountClassEntity
 ---
 
-# CreateDefaultAmountClassEntity
+# POST Agents/List/CreateDefaultAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
@@ -70,14 +70,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 27,
-  "Name": "Bergnaum, Jones and Reynolds",
-  "Tooltip": "quasi",
-  "Rank": 815,
-  "AmountFrom": 9295.444,
-  "AmountTo": 22956.55,
+  "AmountClassId": 620,
+  "Name": "O'Reilly, Thiel and Simonis",
+  "Tooltip": "ad",
+  "Rank": 987,
+  "AmountFrom": 4516.094,
+  "AmountTo": 5879.384,
   "Deleted": false,
-  "CurrencyId": 447,
+  "CurrencyId": 617,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

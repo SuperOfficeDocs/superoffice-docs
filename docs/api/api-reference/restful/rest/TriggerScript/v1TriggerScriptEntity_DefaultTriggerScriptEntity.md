@@ -71,7 +71,7 @@ Response body: object
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 534,
-  "Name": "Erdman Inc and Sons",
+  "ScreenChooserId": 447,
+  "Name": "Robel-Wolf",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "provident",
-  "Source": "laboriosam",
-  "Registered": "2012-04-20T15:05:42.9546323+02:00",
-  "RegisteredAssociateId": 397,
-  "Updated": "2015-07-14T15:05:42.9546323+02:00",
-  "UpdatedAssociateId": 450,
+  "Enabled": false,
+  "UniqueIdentifier": "tenetur",
+  "Source": "eligendi",
+  "Registered": "2002-12-15T18:25:51.3130987+01:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "1999-05-20T18:25:51.3130987+02:00",
+  "UpdatedAssociateId": 126,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "drive plug-and-play markets"
   },
   "FieldProperties": {
     "fieldName": {
@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 426
     }
   }
 }

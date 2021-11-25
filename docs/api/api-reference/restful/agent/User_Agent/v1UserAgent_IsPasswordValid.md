@@ -1,9 +1,9 @@
 ---
-title: IsPasswordValid
+title: POST Agents/User/IsPasswordValid
 id: v1UserAgent_IsPasswordValid
 ---
 
-# IsPasswordValid
+# POST Agents/User/IsPasswordValid
 
 ```http
 POST /api/v1/Agents/User/IsPasswordValid
@@ -75,10 +75,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 863,
+  "AssociateId": 864,
   "Type": "AnonymousAssociate",
-  "PersonId": 818,
-  "Password": "voluptas"
+  "PersonId": 339,
+  "Password": "eos"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

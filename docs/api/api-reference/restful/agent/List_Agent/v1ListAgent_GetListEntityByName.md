@@ -1,9 +1,9 @@
 ---
-title: GetListEntityByName
+title: POST Agents/List/GetListEntityByName
 id: v1ListAgent_GetListEntityByName
 ---
 
-# GetListEntityByName
+# POST Agents/List/GetListEntityByName
 
 ```http
 POST /api/v1/Agents/List/GetListEntityByName
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber, Schuster and Sporer"
+  "Name": "Torp Inc and Sons"
 }
 ```
 
@@ -100,16 +100,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Christiansen-Dietrich",
-  "Tooltip": "adipisci",
+  "Id": 270,
+  "Name": "Trantow Inc and Sons",
+  "Tooltip": "sequi",
   "Deleted": true,
-  "Rank": 494,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
-  "InUseByUserDefinedFields": false,
+  "Rank": 70,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "facilis",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 182
     }
   }
 }

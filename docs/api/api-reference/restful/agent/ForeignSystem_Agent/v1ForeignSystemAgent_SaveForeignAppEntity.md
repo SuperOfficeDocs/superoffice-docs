@@ -1,9 +1,9 @@
 ---
-title: SaveForeignAppEntity
+title: POST Agents/ForeignSystem/SaveForeignAppEntity
 id: v1ForeignSystemAgent_SaveForeignAppEntity
 ---
 
-# SaveForeignAppEntity
+# POST Agents/ForeignSystem/SaveForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
@@ -76,53 +76,53 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 901,
-  "Name": "Hermann, O'Kon and Harvey",
-  "CreatedDate": "2006-08-29T14:58:04.29146+02:00",
-  "UpdatedDate": "2018-06-15T14:58:04.29146+02:00",
+  "ForeignAppId": 344,
+  "Name": "Hermiston-Hammes",
+  "CreatedDate": "2004-04-07T18:28:49.1951183+02:00",
+  "UpdatedDate": "2004-10-01T18:28:49.1951183+02:00",
   "CreatedBy": {
-    "AssociateId": 389,
-    "Name": "Huel-Kohler",
-    "PersonId": 455,
-    "Rank": 982,
-    "Tooltip": "dolor",
+    "AssociateId": 334,
+    "Name": "Kuphal, Boyle and Wisozk",
+    "PersonId": 621,
+    "Rank": 514,
+    "Tooltip": "tenetur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 813,
-    "FullName": "Halle Ritchie",
-    "FormalName": "Grimes, Bernhard and Bashirian",
+    "GroupIdx": 325,
+    "FullName": "Americo Murray",
+    "FormalName": "Crooks, Dach and Kub",
     "Deleted": false,
-    "EjUserId": 753,
-    "UserName": "Schoen-Daniel"
+    "EjUserId": 277,
+    "UserName": "Spencer-Bernhard"
   },
   "UpdatedBy": {
-    "AssociateId": 814,
-    "Name": "Torp-Hansen",
-    "PersonId": 657,
-    "Rank": 204,
-    "Tooltip": "dolore",
+    "AssociateId": 425,
+    "Name": "Kozey-Feil",
+    "PersonId": 545,
+    "Rank": 729,
+    "Tooltip": "laboriosam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 104,
-    "FullName": "Alfreda Murray",
-    "FormalName": "Adams-Hammes",
-    "Deleted": true,
-    "EjUserId": 311,
-    "UserName": "Hirthe-Wisoky"
+    "GroupIdx": 798,
+    "FullName": "Raleigh Dibbert",
+    "FormalName": "Stehr-Mueller",
+    "Deleted": false,
+    "EjUserId": 181,
+    "UserName": "Marquardt Group"
   },
   "Devices": [
     {
-      "ForeignDeviceId": 595,
-      "Name": "Bruen-Fadel",
-      "CreatedDate": "2008-09-13T14:58:04.29146+02:00",
-      "UpdatedDate": "2005-03-06T14:58:04.29146+01:00",
-      "AssociateFullName": "Emiliano Cormier",
-      "CreatedBy": "aspernatur",
-      "UpdatedBy": "numquam",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 583
+      "ForeignDeviceId": 972,
+      "Name": "Ankunding-Schamberger",
+      "CreatedDate": "2015-10-01T18:28:49.1971168+02:00",
+      "UpdatedDate": "2016-11-30T18:28:49.1971168+01:00",
+      "AssociateFullName": "Sarina Heller",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "dolorum",
+      "DeviceIdentifier": "blanditiis",
+      "ForeignAppId": 495
     }
   ]
 }
@@ -133,48 +133,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 494,
-  "Name": "Watsica Inc and Sons",
-  "CreatedDate": "1998-08-12T14:58:04.2934661+02:00",
-  "UpdatedDate": "2010-06-21T14:58:04.2934661+02:00",
+  "ForeignAppId": 524,
+  "Name": "Hartmann-Fahey",
+  "CreatedDate": "2010-05-20T18:28:49.1981177+02:00",
+  "UpdatedDate": "2018-09-02T18:28:49.1981177+02:00",
   "CreatedBy": {
-    "AssociateId": 495,
-    "Name": "Fay Inc and Sons",
-    "PersonId": 98,
-    "Rank": 547,
-    "Tooltip": "id",
+    "AssociateId": 883,
+    "Name": "Koepp, Pouros and Murazik",
+    "PersonId": 252,
+    "Rank": 279,
+    "Tooltip": "iure",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 629,
-    "FullName": "Marquise Hane",
-    "FormalName": "Wiza, Prosacco and Volkman",
-    "Deleted": true,
-    "EjUserId": 441,
-    "UserName": "Shields-Hettinger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 841
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 134,
-    "Name": "McLaughlin Group",
-    "PersonId": 43,
-    "Rank": 430,
-    "Tooltip": "ea",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 727,
-    "FullName": "Maxine Pacocha",
-    "FormalName": "Williamson Inc and Sons",
+    "GroupIdx": 258,
+    "FullName": "Kaela Schmeler",
+    "FormalName": "Koch Inc and Sons",
     "Deleted": false,
-    "EjUserId": 700,
-    "UserName": "Pfannerstill Group",
+    "EjUserId": 44,
+    "UserName": "Braun-Konopelski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -183,21 +158,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldLength": 98
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 891,
+    "Name": "Corkery-Hammes",
+    "PersonId": 375,
+    "Rank": 742,
+    "Tooltip": "aut",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 63,
+    "FullName": "Dr. Ebba Sauer",
+    "FormalName": "McCullough Group",
+    "Deleted": false,
+    "EjUserId": 839,
+    "UserName": "Hirthe, Farrell and Weber",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 898,
-      "Name": "Klein, McClure and Christiansen",
-      "CreatedDate": "2000-07-25T14:58:04.2934661+02:00",
-      "UpdatedDate": "2009-08-03T14:58:04.2934661+02:00",
-      "AssociateFullName": "Desiree Jenkins",
-      "CreatedBy": "aut",
-      "UpdatedBy": "officia",
-      "DeviceIdentifier": "architecto",
-      "ForeignAppId": 925,
+      "ForeignDeviceId": 957,
+      "Name": "Jenkins Inc and Sons",
+      "CreatedDate": "2020-05-08T18:28:49.1990885+02:00",
+      "UpdatedDate": "1995-01-26T18:28:49.1990885+01:00",
+      "AssociateFullName": "Frances Oberbrunner",
+      "CreatedBy": "et",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "error",
+      "ForeignAppId": 108,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldLength": 375
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 573
     }
   }
 }

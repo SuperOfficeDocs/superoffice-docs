@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultResourceEntity
+title: POST Agents/List/CreateDefaultResourceEntity
 id: v1ListAgent_CreateDefaultResourceEntity
 ---
 
-# CreateDefaultResourceEntity
+# POST Agents/List/CreateDefaultResourceEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -73,13 +73,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 163,
-  "Name": "Kovacek-Johns",
-  "Rank": 653,
-  "Tooltip": "libero",
+  "ResourceId": 653,
+  "Name": "Murray LLC",
+  "Rank": 965,
+  "Tooltip": "quos",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "odit",
+  "IsLocation": true,
+  "LocationAddress": "harum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 275
     }
   }
 }

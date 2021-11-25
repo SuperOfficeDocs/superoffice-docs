@@ -77,27 +77,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 461,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "rerum",
+  "RoleId": 255,
+  "Name": "Koepp-Greenholt",
+  "Tooltip": "aspernatur",
   "RoleType": "Anonymous",
-  "Deleted": 327,
-  "Rank": 758,
-  "Created": "2006-06-03T15:05:42.549635+02:00",
-  "UseCategories": 123,
+  "Deleted": 294,
+  "Rank": 796,
+  "Created": "2019-03-11T18:25:50.8598852+01:00",
+  "UseCategories": 312,
   "CreatedBy": {
-    "AssociateId": 50,
-    "Name": "Turner-Mohr",
-    "PersonId": 990,
-    "Rank": 544,
-    "Tooltip": "nihil",
+    "AssociateId": 73,
+    "Name": "Rogahn LLC",
+    "PersonId": 344,
+    "Rank": 212,
+    "Tooltip": "sequi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 736,
-    "FullName": "Uriah Hansen",
-    "FormalName": "Nitzsche-Gaylord",
+    "GroupIdx": 656,
+    "FullName": "Lester O'Connell",
+    "FormalName": "Schuster-Johnston",
     "Deleted": true,
-    "EjUserId": 355,
-    "UserName": "Doyle-Tremblay",
+    "EjUserId": 190,
+    "UserName": "Pacocha-Corwin",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -105,34 +105,34 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   },
-  "Updated": "2007-09-29T15:05:42.549635+02:00",
+  "Updated": "2018-01-24T18:25:50.8598852+01:00",
   "UpdatedBy": {
-    "AssociateId": 706,
-    "Name": "Quitzon-Orn",
-    "PersonId": 189,
-    "Rank": 924,
-    "Tooltip": "et",
+    "AssociateId": 551,
+    "Name": "Hahn, Braun and Lang",
+    "PersonId": 747,
+    "Rank": 422,
+    "Tooltip": "labore",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 687,
-    "FullName": "Zora Rosenbaum PhD",
-    "FormalName": "Daniel, Oberbrunner and Mills",
+    "GroupIdx": 378,
+    "FullName": "Ricardo Metz DVM",
+    "FormalName": "Schultz Group",
     "Deleted": false,
-    "EjUserId": 128,
-    "UserName": "Schumm Group",
+    "EjUserId": 967,
+    "UserName": "Smith, Boehm and Padberg",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "aggregate killer initiatives"
         },
         "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldLength": 303
       }
     }
   },
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "tempora",
-          "Description": "Enhanced uniform conglomeration",
+          "Value": "iure",
+          "Description": "Diverse multi-state concept",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -160,16 +160,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 363
+              "FieldType": "System.Int32",
+              "FieldLength": 581
             }
           }
         }
       ],
       [
         {
-          "Value": "est",
-          "Description": "Fully-configurable next generation alliance",
+          "Value": "quod",
+          "Description": "Automated bifurcated frame",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 222
+              "FieldType": "System.Int32",
+              "FieldLength": 755
             }
           }
         }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldLength": 887
       }
     }
   },
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

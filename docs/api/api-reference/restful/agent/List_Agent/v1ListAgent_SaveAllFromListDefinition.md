@@ -1,9 +1,9 @@
 ---
-title: SaveAllFromListDefinition
+title: POST Agents/List/SaveAllFromListDefinition
 id: v1ListAgent_SaveAllFromListDefinition
 ---
 
-# SaveAllFromListDefinition
+# POST Agents/List/SaveAllFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveAllFromListDefinition
@@ -79,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 306,
+  "UdListDefinitionId": 16,
   "Items": [
     {
-      "Id": 218,
-      "Name": "Block-Konopelski",
-      "Tooltip": "distinctio",
-      "Deleted": true,
-      "UdListDefinitionId": 456,
-      "Rank": 487
+      "Id": 360,
+      "Name": "Feil-Goyette",
+      "Tooltip": "aut",
+      "Deleted": false,
+      "UdListDefinitionId": 416,
+      "Rank": 404
     },
     {
-      "Id": 218,
-      "Name": "Block-Konopelski",
-      "Tooltip": "distinctio",
-      "Deleted": true,
-      "UdListDefinitionId": 456,
-      "Rank": 487
+      "Id": 360,
+      "Name": "Feil-Goyette",
+      "Tooltip": "aut",
+      "Deleted": false,
+      "UdListDefinitionId": 416,
+      "Rank": 404
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Pouros-Quigley",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 528,
-    "Rank": 189,
+    "Id": 273,
+    "Name": "Hammes, Smitham and Christiansen",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 641,
+    "Rank": 823,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

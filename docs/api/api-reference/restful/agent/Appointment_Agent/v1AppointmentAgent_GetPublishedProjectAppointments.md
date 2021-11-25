@@ -1,9 +1,9 @@
 ---
-title: GetPublishedProjectAppointments
+title: POST Agents/Appointment/GetPublishedProjectAppointments
 id: v1AppointmentAgent_GetPublishedProjectAppointments
 ---
 
-# GetPublishedProjectAppointments
+# POST Agents/Appointment/GetPublishedProjectAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 92
+  "ProjectId": 441
 }
 ```
 
@@ -135,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 61,
-    "StartDate": "2017-06-22T14:58:02.8825741+02:00",
-    "EndDate": "2014-08-08T14:58:02.8825741+02:00",
+    "AppointmentId": 37,
+    "StartDate": "2005-06-10T18:28:47.7318445+02:00",
+    "EndDate": "2018-06-07T18:28:47.7318445+02:00",
     "Type": "BookingForChecklist",
-    "Task": "repudiandae",
-    "AssociateFullName": "Dariana Heaney",
-    "ContactName": "Labadie-Haag",
-    "Description": "Virtual directional array",
-    "PersonFullName": "Lucio Volkman",
-    "PersonId": 137,
-    "ContactId": 216,
-    "ProjectId": 335,
-    "ProjectName": "Littel LLC",
-    "IsPublished": false,
-    "AssociateId": 554,
-    "ColorIndex": 557,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "voluptate",
+    "AssociateFullName": "Katrina Durgan",
+    "ContactName": "McLaughlin Group",
+    "Description": "Multi-lateral client-driven knowledge base",
+    "PersonFullName": "Dereck Rogahn",
+    "PersonId": 419,
+    "ContactId": 531,
+    "ProjectId": 865,
+    "ProjectName": "Littel Group",
+    "IsPublished": true,
+    "AssociateId": 272,
+    "ColorIndex": 207,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 732,
-    "PriorityName": "Schimmel, Mueller and Stracke",
+    "PriorityId": 237,
+    "PriorityName": "Hoeger-Conroy",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1997-05-13T14:58:02.8825741+02:00",
+    "ActiveDate": "2011-06-04T18:28:47.7318445+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-10-24T14:58:02.8825741+02:00",
-    "RecurringEndDate": "2008-02-13T14:58:02.8825741+01:00",
-    "MotherId": 118,
-    "AssignedBy": 587,
-    "AssignedByFullName": "Jayne Purdy",
-    "RejectReason": "",
-    "Location": "maxime",
-    "AlarmLeadTime": "id",
-    "SaleId": 373,
-    "SaleName": "Hermann-Ortiz",
-    "AssociateName": "Fisher-Deckow",
-    "CreatedDate": "2000-05-25T14:58:02.8825741+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Delphia Schumm",
-    "CreatedByAssociateId": 731,
+    "RecurringStartDate": "2001-07-14T18:28:47.7318445+02:00",
+    "RecurringEndDate": "2017-04-18T18:28:47.7318445+02:00",
+    "MotherId": 957,
+    "AssignedBy": 303,
+    "AssignedByFullName": "Jerrold Emmerich",
+    "RejectReason": "drive e-business web services",
+    "Location": "magnam",
+    "AlarmLeadTime": "deserunt",
+    "SaleId": 206,
+    "SaleName": "Koepp, Veum and Upton",
+    "AssociateName": "Erdman-Borer",
+    "CreatedDate": "2021-02-15T18:28:47.7318445+01:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Naomie Barton",
+    "CreatedByAssociateId": 525,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 252
       }
     }
   }

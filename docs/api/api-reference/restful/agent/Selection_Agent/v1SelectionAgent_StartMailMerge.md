@@ -1,9 +1,9 @@
 ---
-title: StartMailMerge
+title: POST Agents/Selection/StartMailMerge
 id: v1SelectionAgent_StartMailMerge
 ---
 
-# StartMailMerge
+# POST Agents/Selection/StartMailMerge
 
 ```http
 POST /api/v1/Agents/Selection/StartMailMerge

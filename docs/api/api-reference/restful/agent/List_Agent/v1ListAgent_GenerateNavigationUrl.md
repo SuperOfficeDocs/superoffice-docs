@@ -1,9 +1,9 @@
 ---
-title: GenerateNavigationUrl
+title: POST Agents/List/GenerateNavigationUrl
 id: v1ListAgent_GenerateNavigationUrl
 ---
 
-# GenerateNavigationUrl
+# POST Agents/List/GenerateNavigationUrl
 
 ```http
 POST /api/v1/Agents/List/GenerateNavigationUrl
@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Swift, Upton and Thompson"
+  "WindowName": "Reinger, Bogan and Stehr"
 }
 ```
 

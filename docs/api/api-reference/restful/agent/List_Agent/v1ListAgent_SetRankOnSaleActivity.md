@@ -1,9 +1,9 @@
 ---
-title: SetRankOnSaleActivity
+title: POST Agents/List/SetRankOnSaleActivity
 id: v1ListAgent_SetRankOnSaleActivity
 ---
 
-# SetRankOnSaleActivity
+# POST Agents/List/SetRankOnSaleActivity
 
 ```http
 POST /api/v1/Agents/List/SetRankOnSaleActivity

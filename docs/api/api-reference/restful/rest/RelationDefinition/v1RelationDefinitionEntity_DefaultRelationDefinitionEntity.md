@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 651,
-  "Name": "Barton-Mayer",
-  "Tooltip": "dolor",
-  "PassiveText": "dignissimos",
+  "ReldefId": 615,
+  "Name": "Smith-Predovic",
+  "Tooltip": "rerum",
+  "PassiveText": "laboriosam",
   "Deleted": true,
-  "Rank": 231,
+  "Rank": 187,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -90,10 +90,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "mesh B2C solutions"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

@@ -76,7 +76,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "est",
+  "ErrorMessage": "rerum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

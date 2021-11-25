@@ -1,9 +1,9 @@
 ---
-title: TrainCategoryGuesser
+title: POST Agents/AI/TrainCategoryGuesser
 id: v1AIAgent_TrainCategoryGuesser
 ---
 
-# TrainCategoryGuesser
+# POST Agents/AI/TrainCategoryGuesser
 
 ```http
 POST /api/v1/Agents/AI/TrainCategoryGuesser
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/AI/TrainCategoryGuesser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 889,
-  "MaxItems": 289,
-  "MaxTextLength": 469
+  "SelectionId": 309,
+  "MaxItems": 935,
+  "MaxTextLength": 778
 }
 ```
 

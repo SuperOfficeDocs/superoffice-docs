@@ -130,43 +130,45 @@ Response body: object
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "consequuntur",
     "value": {
       "value1": {
-        "PrimaryKey": 3693,
-        "EntityName": "person",
-        "personId": 3693,
-        "fullName": "Ms. Elinore Sporer"
+        "PrimaryKey": 9822,
+        "EntityName": "sale",
+        "saleId": 9822,
+        "contactId": 5955,
+        "name": "Davis LLC"
       },
       "value2": {
-        "PrimaryKey": 9608,
+        "PrimaryKey": 7543,
         "EntityName": "person",
-        "personId": 9608,
-        "fullName": "Mrs. Ryan Ritchie"
+        "personId": 7543,
+        "fullName": "Loma Cronin"
       }
     }
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "consequuntur",
     "value": {
       "value1": {
-        "PrimaryKey": 3693,
-        "EntityName": "person",
-        "personId": 3693,
-        "fullName": "Ms. Elinore Sporer"
+        "PrimaryKey": 9822,
+        "EntityName": "sale",
+        "saleId": 9822,
+        "contactId": 5955,
+        "name": "Davis LLC"
       },
       "value2": {
-        "PrimaryKey": 9608,
+        "PrimaryKey": 7543,
         "EntityName": "person",
-        "personId": 9608,
-        "fullName": "Mrs. Ryan Ritchie"
+        "personId": 7543,
+        "fullName": "Loma Cronin"
       }
     }
   }
@@ -178,27 +180,27 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 416,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "quia",
-  "SmsMessage": "ab",
-  "Description": "Versatile scalable customer loyalty",
-  "Subject": "qui",
-  "FolderId": 797,
-  "HeaderField": "amet",
-  "Design": "repellendus",
+  "ShipmentMessageId": 386,
+  "PlainMessage": "cupiditate",
+  "HtmlMessage": "fuga",
+  "SmsMessage": "ipsa",
+  "Description": "Integrated 24/7 definition",
+  "Subject": "provident",
+  "FolderId": 172,
+  "HeaderField": "ex",
+  "Design": "cupiditate",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Persistent multi-state secured line",
-  "AccessKey": "expedita",
-  "DocumentMessage": 200,
-  "Registered": "2018-06-23T15:05:42.7626622+02:00",
-  "RegisteredAssociateId": 684,
-  "Updated": "2011-01-31T15:05:42.7626622+01:00",
-  "UpdatedAssociateId": 273,
-  "UpdatedCount": 529,
+  "InlineImages": true,
+  "LongDescription": "Organized contextually-based strategy",
+  "AccessKey": "maiores",
+  "DocumentMessage": 555,
+  "Registered": "2006-06-26T18:25:51.1169113+02:00",
+  "RegisteredAssociateId": 750,
+  "Updated": "1996-03-20T18:25:51.1169113+01:00",
+  "UpdatedAssociateId": 106,
+  "UpdatedCount": 14,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -207,15 +209,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "optimize granular eyeballs"
       },
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 34
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

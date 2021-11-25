@@ -1,9 +1,9 @@
 ---
-title: GetSuggestedStopWords
+title: POST Agents/FreeText/GetSuggestedStopWords
 id: v1FreeTextAgent_GetSuggestedStopWords
 ---
 
-# GetSuggestedStopWords
+# POST Agents/FreeText/GetSuggestedStopWords
 
 ```http
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
@@ -84,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 100
+  "CountWords": 467
 }
 ```
 
@@ -98,47 +98,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Graham-Gulgowski",
-    "ToolTip": "Quia delectus.",
+    "Id": 416,
+    "Name": "Bruen Inc and Sons",
+    "ToolTip": "Nam voluptas qui aut.",
     "Deleted": true,
-    "Rank": 433,
-    "Type": "aut",
+    "Rank": 38,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Johns LLC",
-        "ToolTip": "Nesciunt ipsam ipsa occaecati ad reprehenderit.",
+        "Id": 484,
+        "Name": "Legros-Ferry",
+        "ToolTip": "Aperiam nisi animi omnis ut voluptatem aut.",
         "Deleted": true,
-        "Rank": 234,
-        "Type": "nisi",
+        "Rank": 178,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 675,
-        "ExtraInfo": "et",
-        "StyleHint": "id",
-        "FullName": "Darlene Hermann",
+        "IconHint": "eveniet",
+        "ColorBlock": 512,
+        "ExtraInfo": "nihil",
+        "StyleHint": "sunt",
+        "FullName": "Wellington Kemmer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "brand next-generation e-business"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldLength": 367
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 932,
-    "ExtraInfo": "optio",
-    "StyleHint": "quaerat",
-    "FullName": "Jermey Batz",
+    "IconHint": "rerum",
+    "ColorBlock": 728,
+    "ExtraInfo": "aut",
+    "StyleHint": "illum",
+    "FullName": "Evangeline Nienow",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

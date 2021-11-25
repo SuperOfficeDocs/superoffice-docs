@@ -1,9 +1,9 @@
 ---
-title: GetSanitizedDocumentStream
+title: POST Agents/Document/GetSanitizedDocumentStream
 id: v1DocumentAgent_GetSanitizedDocumentStream
 ---
 
-# GetSanitizedDocumentStream
+# POST Agents/Document/GetSanitizedDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/GetSanitizedDocumentStream
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 697
+  "DocumentId": 583
 }
 ```
 

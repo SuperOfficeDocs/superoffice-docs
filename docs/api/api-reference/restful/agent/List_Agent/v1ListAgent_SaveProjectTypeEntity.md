@@ -1,9 +1,9 @@
 ---
-title: SaveProjectTypeEntity
+title: POST Agents/List/SaveProjectTypeEntity
 id: v1ListAgent_SaveProjectTypeEntity
 ---
 
-# SaveProjectTypeEntity
+# POST Agents/List/SaveProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/SaveProjectTypeEntity
@@ -82,39 +82,39 @@ Response body: object
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 621,
-  "Name": "Upton LLC",
-  "Tooltip": "placeat",
-  "Rank": 603,
+  "ProjTypeId": 318,
+  "Name": "Stanton-Steuber",
+  "Tooltip": "dolor",
+  "Rank": 280,
   "DurationUnit": "Century",
-  "ProjectDuration": 177,
-  "Deleted": true,
+  "ProjectDuration": 1000,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 799,
-      "Name": "Glover, Mante and Stoltenberg",
-      "ToolTip": "Totam et consequatur et eos perferendis.",
+      "Id": 54,
+      "Name": "Quitzon, Hettinger and Effertz",
+      "ToolTip": "Cum velit esse omnis.",
       "Deleted": true,
-      "Rank": 681,
-      "Type": "voluptatibus",
-      "ColorBlock": 477,
-      "IconHint": "velit",
-      "Selected": false,
-      "LastChanged": "2006-03-22T14:58:04.4734654+01:00",
+      "Rank": 257,
+      "Type": "nobis",
+      "ColorBlock": 749,
+      "IconHint": "aspernatur",
+      "Selected": true,
+      "LastChanged": "2020-04-01T18:28:49.4440902+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "similique",
-      "Hidden": false,
-      "FullName": "Domenic Thiel"
+      "ExtraInfo": "dolores",
+      "StyleHint": "nihil",
+      "Hidden": true,
+      "FullName": "Annalise Kerluke III"
     }
   ]
 }
@@ -125,35 +125,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 469,
-  "Name": "Goodwin, Gerhold and Witting",
-  "Tooltip": "id",
-  "Rank": 279,
+  "ProjTypeId": 36,
+  "Name": "Price-Beahan",
+  "Tooltip": "in",
+  "Rank": 832,
   "DurationUnit": "Century",
-  "ProjectDuration": 553,
-  "Deleted": false,
+  "ProjectDuration": 828,
+  "Deleted": true,
   "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 260,
-      "Name": "Lynch Inc and Sons",
-      "ToolTip": "Qui non quae et vel.",
-      "Deleted": false,
-      "Rank": 584,
-      "Type": "aut",
-      "ColorBlock": 933,
-      "IconHint": "cumque",
-      "Selected": false,
-      "LastChanged": "2008-03-11T14:58:04.4744677+01:00",
+      "Id": 913,
+      "Name": "Maggio, Harber and Runolfsson",
+      "ToolTip": "Est illo quae.",
+      "Deleted": true,
+      "Rank": 950,
+      "Type": "et",
+      "ColorBlock": 112,
+      "IconHint": "facere",
+      "Selected": true,
+      "LastChanged": "2010-12-20T18:28:49.4460892+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "animi",
-      "Hidden": false,
-      "FullName": "Kailyn Feeney",
+      "ExtraInfo": "unde",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Isabel Tremblay",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldLength": 54
         }
       }
     }
@@ -175,10 +175,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "engineer seamless networks"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 464
     }
   }
 }

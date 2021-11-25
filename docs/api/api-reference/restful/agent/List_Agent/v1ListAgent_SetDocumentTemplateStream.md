@@ -1,9 +1,9 @@
 ---
-title: SetDocumentTemplateStream
+title: POST Agents/List/SetDocumentTemplateStream
 id: v1ListAgent_SetDocumentTemplateStream
 ---
 
-# SetDocumentTemplateStream
+# POST Agents/List/SetDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateStream
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": {
-    "DocumentTemplateId": 221,
-    "Name": "Beatty, Willms and Bogan",
-    "Tooltip": "omnis",
-    "SaveInDb": 689,
-    "Filename": "deleniti",
-    "DefaultOref": "voluptas",
+    "DocumentTemplateId": 443,
+    "Name": "Crooks-Bruen",
+    "Tooltip": "quidem",
+    "SaveInDb": 849,
+    "Filename": "ut",
+    "DefaultOref": "praesentium",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 167,
-    "IntentId": 735,
+    "AutoeventId": 985,
+    "IntentId": 334,
     "IsDefaultPublished": true,
-    "Rank": 750,
-    "LoadTemplateFromPlugin": 844,
-    "MimeType": "et",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 380,
+    "Rank": 574,
+    "LoadTemplateFromPlugin": 102,
+    "MimeType": "necessitatibus",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 368,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "dena@daughertyhane.ca",
+    "EmailSubject": "roman_harris@tillman.info",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "bettie.beer@mckenziegleichner.biz",
+    "SenderEmailAddress": "carmelo.mccullough@kuvalis.biz",
     "InvitationDocType": "Cancelled"
   },
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolore",
-  "PluginId": 862
+  "LanguageCode": "voluptatibus",
+  "PluginId": 796
 }
 ```
 
@@ -147,30 +147,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 238,
-  "Name": "Leffler LLC",
-  "Tooltip": "culpa",
-  "SaveInDb": 345,
-  "Filename": "vel",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 735,
+  "Name": "Towne-Flatley",
+  "Tooltip": "ullam",
+  "SaveInDb": 907,
+  "Filename": "voluptatem",
+  "DefaultOref": "quod",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 917,
-  "IntentId": 629,
+  "AutoeventId": 89,
+  "IntentId": 225,
   "IsDefaultPublished": true,
-  "Rank": 262,
-  "LoadTemplateFromPlugin": 20,
-  "MimeType": "id",
+  "Rank": 592,
+  "LoadTemplateFromPlugin": 167,
+  "MimeType": "in",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 432,
+  "DocumentTypeKey": 52,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "gabe.moen@grant.us",
+  "EmailSubject": "jaylin@fisherhirthe.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "keara.schmitt@rowe.co.uk",
+  "SenderEmailAddress": "joanne.emard@harberoberbrunner.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -183,7 +183,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 605
     }
   }
 }

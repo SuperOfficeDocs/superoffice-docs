@@ -63,7 +63,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -71,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ea",
-  "2": "quis"
+  "1": "aut",
+  "2": "molestiae"
 }
 ```

@@ -130,47 +130,45 @@ Response body: object
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "voluptatum",
     "value": {
       "value1": {
-        "PrimaryKey": 440,
+        "PrimaryKey": 7623,
         "EntityName": "sale",
-        "saleId": 440,
-        "contactId": 1230,
-        "name": "Waters Group"
+        "saleId": 7623,
+        "contactId": 1233,
+        "name": "Kuhn-Hegmann"
       },
       "value2": {
-        "PrimaryKey": 6750,
-        "EntityName": "sale",
-        "saleId": 6750,
-        "contactId": 771,
-        "name": "Towne LLC"
+        "PrimaryKey": 1302,
+        "EntityName": "person",
+        "personId": 1302,
+        "fullName": "Craig Bernhard"
       }
     }
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "voluptatum",
     "value": {
       "value1": {
-        "PrimaryKey": 440,
+        "PrimaryKey": 7623,
         "EntityName": "sale",
-        "saleId": 440,
-        "contactId": 1230,
-        "name": "Waters Group"
+        "saleId": 7623,
+        "contactId": 1233,
+        "name": "Kuhn-Hegmann"
       },
       "value2": {
-        "PrimaryKey": 6750,
-        "EntityName": "sale",
-        "saleId": 6750,
-        "contactId": 771,
-        "name": "Towne LLC"
+        "PrimaryKey": 1302,
+        "EntityName": "person",
+        "personId": 1302,
+        "fullName": "Craig Bernhard"
       }
     }
   }
@@ -182,27 +180,27 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 271,
-  "ContactId": 575,
-  "ProjectId": 136,
-  "ContactName": "Moore-Skiles",
+  "ProjectmemberId": 14,
+  "ContactId": 974,
+  "ProjectId": 234,
+  "ContactName": "Hirthe-Halvorson",
   "ContactDepartment": "",
-  "ProjectName": "Gleason-Wisozk",
-  "EmailId": 737,
-  "EmailAddress": "angie@batz.name",
-  "CountryId": 629,
-  "Firstname": "Rowan",
-  "MiddleName": "Strosin-Armstrong",
-  "Lastname": "Mertz",
-  "PersonId": 318,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Fisher-Kozey",
-  "Phone": "004.734.4163 x6578",
-  "PhoneId": 102,
-  "ProjectMemberTypeId": 894,
-  "EmailAddressName": "carmella@howell.uk",
-  "Comment": "quod",
-  "FullName": "Deonte Wolff",
+  "ProjectName": "Hyatt-Welch",
+  "EmailId": 988,
+  "EmailAddress": "laila.ullrich@keeblerconn.biz",
+  "CountryId": 827,
+  "Firstname": "Jerrod",
+  "MiddleName": "Wuckert LLC",
+  "Lastname": "Ziemann",
+  "PersonId": 582,
+  "Mrmrs": "quo",
+  "ProjectMemberTypeName": "Torp LLC",
+  "Phone": "(833)535-8387",
+  "PhoneId": 409,
+  "ProjectMemberTypeId": 847,
+  "EmailAddressName": "santa.wintheiser@heaney.us",
+  "Comment": "qui",
+  "FullName": "Zachary Raynor",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -214,7 +212,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 514
     }
   },
   "_Links": {

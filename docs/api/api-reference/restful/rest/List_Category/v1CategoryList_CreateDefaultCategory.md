@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Mitchell Inc and Sons",
-  "Tooltip": "autem",
+  "Id": 813,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "UdListDefinitionId": 743,
-  "Rank": 755,
+  "UdListDefinitionId": 229,
+  "Rank": 982,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "synergize scalable content"
       },
       "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldLength": 261
     }
   }
 }

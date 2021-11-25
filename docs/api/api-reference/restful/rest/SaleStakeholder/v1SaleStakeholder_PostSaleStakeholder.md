@@ -113,29 +113,29 @@ Response body: object
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dooley-Botsford",
-  "Comment": "possimus",
-  "StakeholderRoleId": 384,
-  "CountryId": 672,
-  "PersonId": 208,
-  "EmailDescription": "linda@wehner.ca",
-  "EmailId": 429,
-  "EmailAddress": "alverta_haley@gibson.ca",
-  "PhoneId": 990,
-  "ContactName": "Roob-Rogahn",
-  "ContactId": 873,
-  "SaleId": 483,
-  "Mrmrs": "unde",
-  "Firstname": "Lacey",
-  "MiddleName": "Shanahan Group",
-  "Lastname": "Heller",
-  "SaleStakeholderId": 208,
-  "Rank": 4,
-  "Phone": "(745)418-4173 x27618"
+  "StakeholderRoleName": "Dooley-Kovacek",
+  "Comment": "ut",
+  "StakeholderRoleId": 120,
+  "CountryId": 211,
+  "PersonId": 618,
+  "EmailDescription": "marguerite_oconner@schamberger.uk",
+  "EmailId": 331,
+  "EmailAddress": "thaddeus_kuhic@yostherman.ca",
+  "PhoneId": 931,
+  "ContactName": "Davis, Dibbert and Gorczany",
+  "ContactId": 470,
+  "SaleId": 522,
+  "Mrmrs": "atque",
+  "Firstname": "Prince",
+  "MiddleName": "Legros-Lockman",
+  "Lastname": "Bayer",
+  "SaleStakeholderId": 599,
+  "Rank": 324,
+  "Phone": "1-636-752-4665 x7717"
 }
 ```
 
@@ -144,28 +144,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Mante, Becker and Marks",
-  "Comment": "culpa",
-  "StakeholderRoleId": 325,
-  "CountryId": 432,
-  "PersonId": 243,
-  "EmailDescription": "emerald@kuphalkonopelski.info",
-  "EmailId": 485,
-  "EmailAddress": "jimmy.kemmer@gerlach.info",
-  "PhoneId": 610,
-  "ContactName": "Armstrong, Renner and Rolfson",
-  "ContactId": 256,
-  "SaleId": 466,
-  "Mrmrs": "non",
-  "Firstname": "Elyssa",
-  "MiddleName": "Wuckert Inc and Sons",
+  "StakeholderRoleName": "Morar Inc and Sons",
+  "Comment": "porro",
+  "StakeholderRoleId": 236,
+  "CountryId": 487,
+  "PersonId": 858,
+  "EmailDescription": "lyric@weber.com",
+  "EmailId": 942,
+  "EmailAddress": "kasandra_doyle@wymanschmidt.com",
+  "PhoneId": 381,
+  "ContactName": "Abernathy Group",
+  "ContactId": 158,
+  "SaleId": 562,
+  "Mrmrs": "occaecati",
+  "Firstname": "Brenna",
+  "MiddleName": "Hansen, Abernathy and Corwin",
   "Lastname": "McLaughlin",
-  "SaleStakeholderId": 999,
-  "Rank": 883,
-  "Phone": "1-044-327-6233 x740",
+  "SaleStakeholderId": 277,
+  "Rank": 277,
+  "Phone": "(047)117-7777",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "syndicate out-of-the-box portals"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldLength": 366
     }
   },
   "_Links": {

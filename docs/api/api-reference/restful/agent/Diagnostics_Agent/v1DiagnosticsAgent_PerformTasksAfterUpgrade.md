@@ -1,9 +1,9 @@
 ---
-title: PerformTasksAfterUpgrade
+title: POST Agents/Diagnostics/PerformTasksAfterUpgrade
 id: v1DiagnosticsAgent_PerformTasksAfterUpgrade
 ---
 
-# PerformTasksAfterUpgrade
+# POST Agents/Diagnostics/PerformTasksAfterUpgrade
 
 ```http
 POST /api/v1/Agents/Diagnostics/PerformTasksAfterUpgrade
@@ -59,12 +59,12 @@ Response body: string
 POST /api/v1/Agents/Diagnostics/PerformTasksAfterUpgrade
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"ut"
 ```

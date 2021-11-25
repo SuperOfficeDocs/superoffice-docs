@@ -107,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 11,
-  "Name": "Schaden, Stamm and Hamill",
+  "ScreenChooserId": 325,
+  "Name": "Jewess-Hand",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "harum",
-  "Source": "et",
-  "Registered": "2009-11-01T15:05:42.9586326+01:00",
-  "RegisteredAssociateId": 987,
-  "Updated": "2013-10-18T15:05:42.9586326+02:00",
-  "UpdatedAssociateId": 859
+  "UniqueIdentifier": "magnam",
+  "Source": "velit",
+  "Registered": "2009-09-03T18:25:51.3181057+02:00",
+  "RegisteredAssociateId": 436,
+  "Updated": "2010-02-14T18:25:51.3181057+01:00",
+  "UpdatedAssociateId": 235
 }
 ```
 
@@ -125,16 +125,16 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 254,
-  "Name": "Rolfson LLC",
+  "ScreenChooserId": 155,
+  "Name": "Dare, Gulgowski and Rosenbaum",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "minus",
-  "Source": "explicabo",
-  "Registered": "2000-11-04T15:05:42.9596323+01:00",
-  "RegisteredAssociateId": 949,
-  "Updated": "1995-10-12T15:05:42.9596323+02:00",
-  "UpdatedAssociateId": 99,
+  "Enabled": true,
+  "UniqueIdentifier": "unde",
+  "Source": "officiis",
+  "Registered": "2004-02-25T18:25:51.3191055+01:00",
+  "RegisteredAssociateId": 717,
+  "Updated": "2004-10-22T18:25:51.3191055+02:00",
+  "UpdatedAssociateId": 517,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,15 +143,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "aggregate one-to-one technologies"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 326
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

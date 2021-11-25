@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailCustomHeader
+title: POST Agents/EMail/CreateDefaultEMailCustomHeader
 id: v1EMailAgent_CreateDefaultEMailCustomHeader
 ---
 
-# CreateDefaultEMailCustomHeader
+# POST Agents/EMail/CreateDefaultEMailCustomHeader
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
@@ -59,7 +59,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -67,10 +67,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolf-Hegmann",
+  "Name": "Bernier-O'Conner",
   "Values": [
-    "omnis",
-    "dolore"
+    "nesciunt",
+    "iste"
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 835
     }
   }
 }

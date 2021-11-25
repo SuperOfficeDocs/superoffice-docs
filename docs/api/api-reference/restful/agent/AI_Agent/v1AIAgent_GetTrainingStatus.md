@@ -1,9 +1,9 @@
 ---
-title: GetTrainingStatus
+title: POST Agents/AI/GetTrainingStatus
 id: v1AIAgent_GetTrainingStatus
 ---
 
-# GetTrainingStatus
+# POST Agents/AI/GetTrainingStatus
 
 ```http
 POST /api/v1/Agents/AI/GetTrainingStatus
@@ -80,12 +80,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "porro",
-  "Status": "omnis",
+  "ContextIdentifier": "error",
+  "Status": "ea",
   "CurrentModel": {
-    "ModelBuiltDateTime": "2018-01-06T14:58:02.8265394+01:00",
-    "Accuracy": 17578.606,
-    "TicketCountForTraining": 926,
+    "ModelBuiltDateTime": "2011-02-25T18:28:47.671818+01:00",
+    "Accuracy": 10806.032,
+    "TicketCountForTraining": 166,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 975
+      }
+    }
+  },
+  "PreviousModel": {
+    "ModelBuiltDateTime": "2004-10-24T18:28:47.6728179+02:00",
+    "Accuracy": 4563.104,
+    "TicketCountForTraining": 765,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -94,23 +110,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 454
-      }
-    }
-  },
-  "PreviousModel": {
-    "ModelBuiltDateTime": "2006-02-02T14:58:02.8265394+01:00",
-    "Accuracy": 10965.866,
-    "TicketCountForTraining": 627,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "recontextualize intuitive applications"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldLength": 457
       }
     }
   },
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 802
     }
   }
 }

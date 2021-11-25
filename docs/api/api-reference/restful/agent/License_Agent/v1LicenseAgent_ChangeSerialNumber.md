@@ -1,9 +1,9 @@
 ---
-title: ChangeSerialNumber
+title: POST Agents/License/ChangeSerialNumber
 id: v1LicenseAgent_ChangeSerialNumber
 ---
 
-# ChangeSerialNumber
+# POST Agents/License/ChangeSerialNumber
 
 ```http
 POST /api/v1/Agents/License/ChangeSerialNumber
@@ -76,12 +76,12 @@ Response body: object
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Hilpert-Gaylord",
-  "NewSerialNumber": "1159431"
+  "NewCompanyName": "Koepp, Kris and Simonis",
+  "NewSerialNumber": "823717"
 }
 ```
 
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   }
 }

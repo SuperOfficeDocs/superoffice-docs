@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 846,
-  "Name": "Halvorson-Reinger",
-  "Tooltip": "deleniti",
+  "HeadingId": 442,
+  "Name": "Ernser-Raynor",
+  "Tooltip": "ex",
   "Deleted": true,
-  "Rank": 507,
-  "UdListDefinitionId": 39
+  "Rank": 111,
+  "UdListDefinitionId": 340
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 426,
-  "Name": "Goodwin Inc and Sons",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "Rank": 21,
-  "UdListDefinitionId": 67,
+  "HeadingId": 113,
+  "Name": "Graham Group",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 30,
+  "UdListDefinitionId": 922,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

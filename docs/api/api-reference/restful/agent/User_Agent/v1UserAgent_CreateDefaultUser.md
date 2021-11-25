@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultUser
+title: POST Agents/User/CreateDefaultUser
 id: v1UserAgent_CreateDefaultUser
 ---
 
-# CreateDefaultUser
+# POST Agents/User/CreateDefaultUser
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUser
@@ -86,7 +86,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 879,
-  "Name": "Berge, Kihn and Ernser",
-  "Rank": 879,
-  "Tooltip": "omnis",
+  "AssociateId": 16,
+  "Name": "Wilderman-McDermott",
+  "Rank": 135,
+  "Tooltip": "consectetur",
   "LicenseOwners": [
     {
-      "Name": "Nader LLC",
-      "Description": "Focused tertiary Graphical User Interface",
+      "Name": "Casper Group",
+      "Description": "Automated encompassing focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,13 +118,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 289
         }
       }
     },
     {
-      "Name": "Nader LLC",
-      "Description": "Focused tertiary Graphical User Interface",
+      "Name": "Casper Group",
+      "Description": "Automated encompassing focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 289
         }
       }
     }
   ],
   "Role": {
-    "Id": 873,
-    "Value": "voluptatum",
-    "Tooltip": "quidem",
+    "Id": 550,
+    "Value": "et",
+    "Tooltip": "voluptatibus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -158,15 +158,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 501
       }
     }
   },
   "UserGroup": {
-    "Value": "facere",
-    "Tooltip": "qui",
-    "Id": 234,
-    "Rank": 842,
+    "Value": "et",
+    "Tooltip": "est",
+    "Id": 293,
+    "Rank": 156,
     "Deleted": false,
     "TableRight": {},
     "FieldProperties": {
@@ -175,17 +175,17 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "dolores",
-      "Tooltip": "quia",
-      "Id": 524,
-      "Rank": 391,
+      "Value": "eum",
+      "Tooltip": "molestias",
+      "Id": 515,
+      "Rank": 315,
       "Deleted": false,
       "TableRight": {},
       "FieldProperties": {
@@ -194,52 +194,52 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 309
         }
       }
     }
   ],
   "Person": {
-    "Position": "autem",
-    "PersonId": 712,
-    "Mrmrs": "itaque",
-    "Firstname": "Bud",
-    "Lastname": "Dicki",
-    "MiddleName": "Weber Group",
-    "Title": "aspernatur",
-    "Description": "Right-sized 24 hour internet solution",
-    "Email": "hayley@hoppejohnston.biz",
-    "FullName": "Marques Thompson",
-    "DirectPhone": "1-421-247-0603 x6678",
-    "FormalName": "Schmitt-Murray",
-    "CountryId": 28,
-    "ContactId": 686,
-    "ContactName": "Bashirian, Wiza and Dooley",
-    "Retired": 989,
-    "Rank": 206,
-    "ActiveInterests": 191,
+    "Position": "illo",
+    "PersonId": 547,
+    "Mrmrs": "et",
+    "Firstname": "Demetrius",
+    "Lastname": "Quitzon",
+    "MiddleName": "Romaguera Group",
+    "Title": "harum",
+    "Description": "Monitored value-added protocol",
+    "Email": "leif@kulas.co.uk",
+    "FullName": "Lizeth Raynor",
+    "DirectPhone": "316-225-8772",
+    "FormalName": "Corwin Inc and Sons",
+    "CountryId": 598,
+    "ContactId": 182,
+    "ContactName": "Mayert, Hills and Fadel",
+    "Retired": 197,
+    "Rank": 40,
+    "ActiveInterests": 565,
     "ContactDepartment": "",
-    "ContactCountryId": 801,
-    "ContactOrgNr": "1085219",
-    "FaxPhone": "076-370-8387 x36564",
-    "MobilePhone": "405-040-1650 x1023",
-    "ContactPhone": "1-054-580-4466",
-    "AssociateName": "Schaden-Stroman",
-    "AssociateId": 670,
+    "ContactCountryId": 916,
+    "ContactOrgNr": "1037294",
+    "FaxPhone": "113.783.7753 x43665",
+    "MobilePhone": "414.782.3483",
+    "ContactPhone": "1-173-621-6753 x426",
+    "AssociateName": "Roob LLC",
+    "AssociateId": 408,
     "UsePersonAddress": true,
-    "ContactFax": "non",
-    "Kanafname": "sunt",
-    "Kanalname": "omnis",
-    "Post1": "esse",
-    "Post2": "aut",
-    "Post3": "repellat",
-    "EmailName": "precious_swift@lebsack.us",
-    "ContactFullName": "Mr. Bradley Lesch",
-    "ActiveErpLinks": 518,
-    "TicketPriorityId": 43,
-    "SupportLanguageId": 532,
-    "SupportAssociateId": 844,
+    "ContactFax": "qui",
+    "Kanafname": "quis",
+    "Kanalname": "voluptatem",
+    "Post1": "blanditiis",
+    "Post2": "explicabo",
+    "Post3": "est",
+    "EmailName": "susie_tromp@zemlakcummerata.ca",
+    "ContactFullName": "Dina Bradtke PhD",
+    "ActiveErpLinks": 15,
+    "TicketPriorityId": 715,
+    "SupportLanguageId": 73,
+    "SupportAssociateId": 961,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -249,23 +249,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 683
       }
     }
   },
-  "Deleted": true,
-  "Lastlogin": "2013-09-06T14:58:05.5480543+02:00",
-  "Lastlogout": "2007-10-25T14:58:05.5480543+02:00",
-  "EjUserId": 967,
-  "RequestSignature": "possimus",
+  "Deleted": false,
+  "Lastlogin": "2009-02-01T18:28:50.4964407+01:00",
+  "Lastlogout": "1996-08-28T18:28:50.4964407+02:00",
+  "EjUserId": 953,
+  "RequestSignature": "fugiat",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "sed",
-      "DisplayValue": "voluptatem",
+      "Value": "vel",
+      "DisplayValue": "tenetur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -274,14 +274,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 927
+          "FieldLength": 748
         }
       }
     },
     {
       "Type": {},
-      "Value": "sed",
-      "DisplayValue": "voluptatem",
+      "Value": "vel",
+      "DisplayValue": "tenetur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -290,29 +290,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 927
+          "FieldLength": 748
         }
       }
     }
   ],
-  "UserName": "Leannon, Gibson and Heidenreich",
+  "UserName": "O'Connell, Ruecker and Kassulke",
   "TicketCategories": [
     {
-      "Id": 407,
-      "Name": "Klocko Inc and Sons",
-      "ToolTip": "Illo vero dolore.",
-      "Deleted": true,
-      "Rank": 90,
-      "Type": "necessitatibus",
+      "Id": 794,
+      "Name": "Prohaska, Heller and Marvin",
+      "ToolTip": "Cumque beatae minus qui.",
+      "Deleted": false,
+      "Rank": 955,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sapiente",
-      "ColorBlock": 535,
-      "ExtraInfo": "rerum",
-      "StyleHint": "voluptas",
-      "FullName": "Dr. Carter Tremblay",
+      "IconHint": "maiores",
+      "ColorBlock": 563,
+      "ExtraInfo": "repellendus",
+      "StyleHint": "necessitatibus",
+      "FullName": "Felicita Klein",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -321,29 +321,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 112
         }
       }
     }
   ],
-  "NickName": "Smitham-Von",
-  "WaitingForApproval": true,
+  "NickName": "Effertz-Tromp",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
+    "ExtraFields1": "aliquam",
     "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "et"
+    "CustomFields1": "animi",
+    "CustomFields2": "rem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mosciski, Goyette and Weber",
-      "DisplayName": "Sawayn LLC",
-      "Description": "Upgradable bifurcated capability",
-      "ToolTip": "Ipsa aliquam adipisci numquam.",
+      "Name": "Dietrich, Hane and Cole",
+      "DisplayName": "Mueller Group",
+      "Description": "Diverse contextually-based leverage",
+      "ToolTip": "Delectus eos sed.",
       "Actions": "Implicit",
-      "ActionData": "exercitationem",
+      "ActionData": "corrupti",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -352,7 +352,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldLength": 275
         }
       }
     }
@@ -367,8 +367,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

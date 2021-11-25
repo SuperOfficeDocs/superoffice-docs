@@ -1,9 +1,9 @@
 ---
-title: GetPublishedProjectDocuments
+title: POST Agents/Document/GetPublishedProjectDocuments
 id: v1DocumentAgent_GetPublishedProjectDocuments
 ---
 
-# GetPublishedProjectDocuments
+# POST Agents/Document/GetPublishedProjectDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 758
+  "ProjectId": 199
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 544,
-    "Attention": "est",
-    "Header": "consectetur",
-    "Name": "Kshlerin, Altenwerth and Daniel",
-    "OurRef": "et",
-    "YourRef": "omnis",
-    "Description": "Mandatory needs-based instruction set",
-    "DocumentTemplate": "dolorum",
-    "IsPublished": true,
-    "PersonId": 714,
-    "PersonFullName": "Clemens Blick",
-    "AssociateFullName": "Cordell Breitenberg",
-    "ContactId": 819,
-    "ContactName": "Mann Group",
-    "ProjectId": 451,
-    "ProjectName": "Hilpert-Effertz",
-    "AssociateId": 776,
-    "Snum": 903,
+    "DocumentId": 212,
+    "Attention": "dignissimos",
+    "Header": "dolorem",
+    "Name": "Ratke, Casper and Kozey",
+    "OurRef": "molestiae",
+    "YourRef": "et",
+    "Description": "Down-sized zero administration encryption",
+    "DocumentTemplate": "sint",
+    "IsPublished": false,
+    "PersonId": 357,
+    "PersonFullName": "Mr. Kennedi Dickinson",
+    "AssociateFullName": "Gladys Klocko",
+    "ContactId": 256,
+    "ContactName": "Kovacek-Hackett",
+    "ProjectId": 186,
+    "ProjectName": "Greenfelder-Gerlach",
+    "AssociateId": 343,
+    "Snum": 697,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -130,10 +130,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "harness impactful infrastructures"
         },
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 989
       }
     }
   }

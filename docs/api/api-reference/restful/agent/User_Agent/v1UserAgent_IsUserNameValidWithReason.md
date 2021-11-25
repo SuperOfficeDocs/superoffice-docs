@@ -1,9 +1,9 @@
 ---
-title: IsUserNameValidWithReason
+title: POST Agents/User/IsUserNameValidWithReason
 id: v1UserAgent_IsUserNameValidWithReason
 ---
 
-# IsUserNameValidWithReason
+# POST Agents/User/IsUserNameValidWithReason
 
 ```http
 POST /api/v1/Agents/User/IsUserNameValidWithReason
@@ -78,14 +78,14 @@ Response body: object
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 712,
+  "AssociateId": 270,
   "Type": "AnonymousAssociate",
-  "PersonId": 822,
-  "UserName": "Abbott, Kihn and Cremin"
+  "PersonId": 913,
+  "UserName": "Larson Inc and Sons"
 }
 ```
 
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -68,58 +68,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jakubowski-Fadel",
-    "Description": "Persevering global approach",
-    "Rank": 92,
+    "Name": "Kuphal-Bartoletti",
+    "Description": "Exclusive exuding internet solution",
+    "Rank": 238,
     "Restrictions": [
       {
-        "Name": "Tillman, Leannon and Bechtelar",
-        "Operator": "quia",
+        "Name": "Hoppe, Howell and Torp",
+        "Operator": "sed",
         "Values": [
-          "est",
-          "accusantium"
+          "fugiat",
+          "eos"
         ],
         "DisplayValues": [
-          "non",
-          "voluptatibus"
+          "iure",
+          "porro"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 407,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 152
+        "UniqueHash": 184
       }
     ]
   },
   {
-    "Name": "Jakubowski-Fadel",
-    "Description": "Persevering global approach",
-    "Rank": 92,
+    "Name": "Kuphal-Bartoletti",
+    "Description": "Exclusive exuding internet solution",
+    "Rank": 238,
     "Restrictions": [
       {
-        "Name": "Tillman, Leannon and Bechtelar",
-        "Operator": "quia",
+        "Name": "Hoppe, Howell and Torp",
+        "Operator": "sed",
         "Values": [
-          "est",
-          "accusantium"
+          "fugiat",
+          "eos"
         ],
         "DisplayValues": [
-          "non",
-          "voluptatibus"
+          "iure",
+          "porro"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 407,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 152
+        "UniqueHash": 184
       }
     ]
   }

@@ -1,9 +1,9 @@
 ---
-title: UpdateFavorite
+title: POST Agents/Report/UpdateFavorite
 id: v1ReportAgent_UpdateFavorite
 ---
 
-# UpdateFavorite
+# POST Agents/Report/UpdateFavorite
 
 ```http
 POST /api/v1/Agents/Report/UpdateFavorite
@@ -81,18 +81,18 @@ Response body: object
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ReportEntity": {
-    "ReportId": 746,
+    "ReportId": 759,
     "ReportCategory": "All",
-    "Description": "Customizable optimal synergy",
+    "Description": "Mandatory real-time database",
     "ReportLayout": "CalendarMonth",
-    "Name": "Hessel-Lowe",
-    "AssociateId": 568,
-    "TemplateId": 681,
+    "Name": "Morar-O'Kon",
+    "AssociateId": 103,
+    "TemplateId": 50,
     "Published": false
   }
 }
@@ -103,26 +103,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 861,
+  "ReportId": 126,
   "ReportCategory": "All",
-  "Description": "Phased secondary knowledge base",
+  "Description": "Public-key intangible strategy",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lockman-McCullough",
-  "AssociateId": 226,
-  "TemplateId": 831,
+  "Name": "Greenfelder, Roob and Borer",
+  "AssociateId": 221,
+  "TemplateId": 227,
   "Published": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "integrate e-business synergies"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "repurpose 24/365 deliverables"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 981
     }
   }
 }

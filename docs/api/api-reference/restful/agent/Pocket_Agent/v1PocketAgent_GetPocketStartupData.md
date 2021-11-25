@@ -1,9 +1,9 @@
 ---
-title: GetPocketStartupData
+title: POST Agents/Pocket/GetPocketStartupData
 id: v1PocketAgent_GetPocketStartupData
 ---
 
-# GetPocketStartupData
+# POST Agents/Pocket/GetPocketStartupData
 
 ```http
 POST /api/v1/Agents/Pocket/GetPocketStartupData
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
 {
   "Tables": [
     "possimus",
-    "sint"
+    "architecto"
   ],
-  "CurrentClientTime": "1998-11-16T14:58:04.8244624+01:00"
+  "CurrentClientTime": "2016-06-30T18:28:49.748108+02:00"
 }
 ```
 
@@ -105,91 +105,91 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "repellat",
-    "quo"
+    "fugit",
+    "ut"
   ],
   "PhoneLocaleTimeZoneData": {
-    "TZLocationID": 654,
-    "Name": "Crona Inc and Sons",
-    "TZLocationCode": "officia",
-    "TZLocationCities": "ipsum",
-    "IsoNumber": 735,
+    "TZLocationID": 469,
+    "Name": "Wiza Group",
+    "TZLocationCode": "animi",
+    "TZLocationCities": "et",
+    "IsoNumber": 74,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 985,
-        "StartMonth": 3,
-        "EndDay": 937,
-        "EndMonth": 827,
-        "TZOffset": 55,
-        "StartRulePattern": "architecto",
-        "EndRulePattern": "hic"
+        "StartDay": 606,
+        "StartMonth": 245,
+        "EndDay": 608,
+        "EndMonth": 517,
+        "TZOffset": 956,
+        "StartRulePattern": "eum",
+        "EndRulePattern": "aliquid"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 316,
-        "StartMonth": 482,
-        "EndDay": 185,
-        "EndMonth": 122,
-        "TZOffset": 394,
-        "StartRulePattern": "facere",
-        "EndRulePattern": "aliquam"
+        "StartDay": 957,
+        "StartMonth": 331,
+        "EndDay": 346,
+        "EndMonth": 652,
+        "TZOffset": 239,
+        "StartRulePattern": "laudantium",
+        "EndRulePattern": "praesentium"
       }
     }
   },
   "BaseLocaleTimeZoneData": {
-    "TZLocationID": 957,
-    "Name": "Upton, Wolf and Tillman",
-    "TZLocationCode": "placeat",
-    "TZLocationCities": "ea",
-    "IsoNumber": 84,
+    "TZLocationID": 292,
+    "Name": "DuBuque, Hessel and Hamill",
+    "TZLocationCode": "non",
+    "TZLocationCities": "atque",
+    "IsoNumber": 16,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 334,
-        "StartMonth": 521,
-        "EndDay": 889,
-        "EndMonth": 806,
-        "TZOffset": 896,
-        "StartRulePattern": "sint",
-        "EndRulePattern": "aspernatur"
+        "StartDay": 312,
+        "StartMonth": 969,
+        "EndDay": 4,
+        "EndMonth": 807,
+        "TZOffset": 635,
+        "StartRulePattern": "sed",
+        "EndRulePattern": "molestias"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 44,
-        "StartMonth": 712,
-        "EndDay": 18,
-        "EndMonth": 151,
-        "TZOffset": 141,
-        "StartRulePattern": "nobis",
-        "EndRulePattern": "provident"
+        "StartDay": 360,
+        "StartMonth": 440,
+        "EndDay": 789,
+        "EndMonth": 372,
+        "TZOffset": 316,
+        "StartRulePattern": "nesciunt",
+        "EndRulePattern": "adipisci"
       }
     }
   },
-  "OverdueSalesCount": 533,
-  "NotificationsCount": 774,
+  "OverdueSalesCount": 818,
+  "NotificationsCount": 819,
   "SystemWebPanels": [
     {
-      "WebPanelId": 899,
-      "Name": "Leuschke-Harber",
-      "Tooltip": "praesentium",
+      "WebPanelId": 702,
+      "Name": "Crona-Conroy",
+      "Tooltip": "vel",
       "Deleted": false,
-      "Rank": 11,
+      "Rank": 244,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
-      "OnSatellite": true,
-      "OnTravel": false,
-      "OnSalesMarketingWeb": false,
+      "OnCentral": false,
+      "OnSatellite": false,
+      "OnTravel": true,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": true,
       "ShowInMenuBar": true,
-      "ShowInToolBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Kozey-Steuber",
+      "ShowInStatusBar": false,
+      "WindowName": "Carroll Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "suscipit",
-      "Icon": 548,
+      "ProgId": "amet",
+      "Icon": 21,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldLength": 180
         }
       }
     }
@@ -206,16 +206,16 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "numquam",
+      "RawValue": "id",
       "Specification": {},
-      "DisplayValue": "et",
-      "DisplayTooltip": "sapiente",
+      "DisplayValue": "nam",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": {},
-      "TargetId": 558,
-      "PrefDescId": 147,
-      "TableName": "Schinner-Ullrich",
-      "UserPreferenceId": 286,
+      "TargetId": 862,
+      "PrefDescId": 263,
+      "TableName": "Lowe, Terry and Bednar",
+      "UserPreferenceId": 616,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -224,13 +224,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 3
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "et",
+  "CustomData": "sed",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 535
     }
   }
 }

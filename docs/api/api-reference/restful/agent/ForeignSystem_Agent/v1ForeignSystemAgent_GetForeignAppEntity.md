@@ -1,9 +1,9 @@
 ---
-title: GetForeignAppEntity
+title: POST Agents/ForeignSystem/GetForeignAppEntity
 id: v1ForeignSystemAgent_GetForeignAppEntity
 ---
 
-# GetForeignAppEntity
+# POST Agents/ForeignSystem/GetForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
@@ -25,7 +25,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=767
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=41
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,23 +81,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 207,
-  "Name": "Bernier-Swift",
-  "CreatedDate": "1996-04-26T14:58:04.2974597+02:00",
-  "UpdatedDate": "2016-02-15T14:58:04.2974597+01:00",
+  "ForeignAppId": 854,
+  "Name": "Fay Inc and Sons",
+  "CreatedDate": "2016-04-19T18:28:49.2001231+02:00",
+  "UpdatedDate": "2018-03-02T18:28:49.2001231+01:00",
   "CreatedBy": {
-    "AssociateId": 896,
-    "Name": "Sipes-Gislason",
-    "PersonId": 784,
-    "Rank": 340,
-    "Tooltip": "enim",
+    "AssociateId": 259,
+    "Name": "Balistreri, Heidenreich and Pagac",
+    "PersonId": 123,
+    "Rank": 161,
+    "Tooltip": "deserunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 768,
-    "FullName": "Isobel Klein",
-    "FormalName": "Ward Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 403,
-    "UserName": "Koelpin-Powlowski",
+    "GroupIdx": 888,
+    "FullName": "Mattie Frami",
+    "FormalName": "Hermann Group",
+    "Deleted": false,
+    "EjUserId": 556,
+    "UserName": "Hammes Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -106,46 +106,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 39
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 148,
-    "Name": "Dickens, Schumm and Lynch",
-    "PersonId": 567,
-    "Rank": 386,
-    "Tooltip": "iure",
+    "AssociateId": 562,
+    "Name": "Zieme-Homenick",
+    "PersonId": 357,
+    "Rank": 40,
+    "Tooltip": "architecto",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 905,
-    "FullName": "Luis VonRueden",
-    "FormalName": "Schamberger-Murazik",
-    "Deleted": false,
-    "EjUserId": 832,
-    "UserName": "Feest, Legros and Predovic",
+    "GroupIdx": 885,
+    "FullName": "Mr. Ada Williamson",
+    "FormalName": "O'Connell, Cartwright and Corwin",
+    "Deleted": true,
+    "EjUserId": 221,
+    "UserName": "Volkman Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "enable open-source e-tailers"
+          "Reason": "synthesize integrated channels"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 727,
-      "Name": "Schultz Group",
-      "CreatedDate": "2004-03-29T14:58:04.2974597+02:00",
-      "UpdatedDate": "2010-06-01T14:58:04.2974597+02:00",
-      "AssociateFullName": "Izabella Pagac",
-      "CreatedBy": "ullam",
-      "UpdatedBy": "quasi",
-      "DeviceIdentifier": "accusantium",
-      "ForeignAppId": 220,
+      "ForeignDeviceId": 442,
+      "Name": "Greenholt, Nikolaus and Lynch",
+      "CreatedDate": "2003-11-02T18:28:49.2011234+01:00",
+      "UpdatedDate": "2008-03-22T18:28:49.2011234+01:00",
+      "AssociateFullName": "Shane Stamm V",
+      "CreatedBy": "quia",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 597,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldType": "System.String",
+          "FieldLength": 78
         }
       }
     }
@@ -167,10 +167,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "leverage extensible communities"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 501
     }
   }
 }

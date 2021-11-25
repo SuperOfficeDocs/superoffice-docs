@@ -1,9 +1,9 @@
 ---
-title: GetAttachmentEntity
+title: POST Agents/Ticket/GetAttachmentEntity
 id: v1TicketAgent_GetAttachmentEntity
 ---
 
-# GetAttachmentEntity
+# POST Agents/Ticket/GetAttachmentEntity
 
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
@@ -25,7 +25,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=998
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=261
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -84,12 +84,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 186,
-  "Name": "Osinski-Haley",
-  "ContentType": "et",
-  "AttSize": 629,
-  "InlineImage": true,
-  "ContentId": "quidem",
+  "AttachmentId": 572,
+  "Name": "Renner-Welch",
+  "ContentType": "fugit",
+  "AttSize": 422,
+  "InlineImage": false,
+  "ContentId": "explicabo",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   }
 }

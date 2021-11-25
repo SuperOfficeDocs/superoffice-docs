@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSuggestedDocumentEntity
+title: POST Agents/Document/CreateDefaultSuggestedDocumentEntity
 id: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
 ---
 
-# CreateDefaultSuggestedDocumentEntity
+# POST Agents/Document/CreateDefaultSuggestedDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -73,25 +73,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 737,
-  "Name": "Friesen-Kuhlman",
-  "Tooltip": "officiis",
-  "Rank": 622,
-  "DoctmplId": 973,
-  "Header": "quod",
-  "OurRef": "itaque",
-  "Deleted": true,
+  "SuggestedDocumentId": 170,
+  "Name": "Ratke, Ebert and Toy",
+  "Tooltip": "eius",
+  "Rank": 534,
+  "DoctmplId": 833,
+  "Header": "aut",
+  "OurRef": "rerum",
+  "Deleted": false,
   "DocTmpl": {
-    "DocumentTemplateId": 638,
-    "Name": "Rolfson Group",
-    "Tooltip": "ut",
-    "SaveInDb": 90,
-    "Filename": "ipsa",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 439,
+    "Name": "McGlynn Group",
+    "Tooltip": "dicta",
+    "SaveInDb": 536,
+    "Filename": "neque",
+    "DefaultOref": "assumenda",
     "RecordType": "Appointment",
-    "Deleted": 131,
+    "Deleted": 644,
     "Direction": "Incoming",
-    "AutoeventId": 169,
+    "AutoeventId": 423,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 911
       }
     }
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 130,
-    "ProjTypeId": 453,
-    "ProjTypeName": "Kuhn-Hilpert",
-    "ProjTypeTooltip": "quaerat",
-    "ProjStatusId": 240,
-    "ProjStatusName": "Senger, Dietrich and Fay",
-    "ProjStatusTooltip": "voluptatum",
+    "ProjectTypeStatusLinkId": 207,
+    "ProjTypeId": 670,
+    "ProjTypeName": "Boehm-VonRueden",
+    "ProjTypeTooltip": "pariatur",
+    "ProjStatusId": 640,
+    "ProjStatusName": "Anderson-McClure",
+    "ProjStatusTooltip": "odio",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 991
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 273,
-    "SaleTypeId": 538,
-    "SaleTypeName": "Walker-Pouros",
-    "SaleTypeTooltip": "facere",
-    "ProbId": 422,
-    "ProbName": "Welch, Kirlin and Ryan",
-    "ProbTooltip": "quia",
-    "Probability": 369,
+    "SaleTypeStageLinkId": 7,
+    "SaleTypeId": 28,
+    "SaleTypeName": "Collier, Murazik and Predovic",
+    "SaleTypeTooltip": "odio",
+    "ProbId": 598,
+    "ProbName": "Cormier Inc and Sons",
+    "ProbTooltip": "provident",
+    "Probability": 482,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   },
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

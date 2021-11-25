@@ -1,9 +1,9 @@
 ---
-title: HasFunctionRight
+title: POST Agents/Sentry/HasFunctionRight
 id: v1SentryAgent_HasFunctionRight
 ---
 
-# HasFunctionRight
+# POST Agents/Sentry/HasFunctionRight
 
 ```http
 POST /api/v1/Agents/Sentry/HasFunctionRight
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Sentry/HasFunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionRight": "modi"
+  "FunctionRight": "suscipit"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

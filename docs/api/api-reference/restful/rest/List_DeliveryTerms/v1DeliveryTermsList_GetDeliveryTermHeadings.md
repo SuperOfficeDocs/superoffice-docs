@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 427,
-    "Name": "Parisian-Spencer",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 606,
-    "UdListDefinitionId": 561,
+    "HeadingId": 940,
+    "Name": "Reinger, Moore and Berge",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 919,
+    "UdListDefinitionId": 710,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldLength": 494
       }
     }
   }

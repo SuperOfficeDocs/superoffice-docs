@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Kub, Tremblay and Wilderman",
-  "Tooltip": "accusamus",
+  "Id": 933,
+  "Name": "Swift, Flatley and Effertz",
+  "Tooltip": "facilis",
   "Deleted": true,
-  "UdListDefinitionId": 788,
-  "Rank": 988,
+  "UdListDefinitionId": 83,
+  "Rank": 646,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   }
 }

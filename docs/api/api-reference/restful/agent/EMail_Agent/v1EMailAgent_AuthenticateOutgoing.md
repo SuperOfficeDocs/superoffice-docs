@@ -1,9 +1,9 @@
 ---
-title: AuthenticateOutgoing
+title: POST Agents/EMail/AuthenticateOutgoing
 id: v1EMailAgent_AuthenticateOutgoing
 ---
 
-# AuthenticateOutgoing
+# POST Agents/EMail/AuthenticateOutgoing
 
 ```http
 POST /api/v1/Agents/EMail/AuthenticateOutgoing
@@ -70,15 +70,15 @@ Response body: bool
 POST /api/v1/Agents/EMail/AuthenticateOutgoing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Kuphal-Conn",
-    "UserName": "Ritchie-Lindgren",
-    "Password": "consequatur",
-    "Folder": "qui",
+    "ServerName": "Aufderhar, Wisozk and Carroll",
+    "UserName": "Klocko Inc and Sons",
+    "Password": "odit",
+    "Folder": "minus",
     "UseSSL": true
   }
 }

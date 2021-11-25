@@ -1,9 +1,9 @@
 ---
-title: DeleteDashTile
+title: POST Agents/Dash/DeleteDashTile
 id: v1DashAgent_DeleteDashTile
 ---
 
-# DeleteDashTile
+# POST Agents/Dash/DeleteDashTile
 
 ```http
 POST /api/v1/Agents/Dash/DeleteDashTile
@@ -24,7 +24,7 @@ Deletes the DashTile
 | DashTileId | int32 | **Required** The id of the DashTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=160
+POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=316
 ```
 
 

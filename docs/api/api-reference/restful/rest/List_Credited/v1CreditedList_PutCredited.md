@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Nicolas, Collier and Bechtelar",
-  "Tooltip": "ut",
+  "Id": 789,
+  "Name": "Bins-Schoen",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "UdListDefinitionId": 601,
-  "Rank": 82
+  "UdListDefinitionId": 736,
+  "Rank": 876
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Bayer-Fritsch",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 838,
-  "Rank": 151,
+  "Id": 547,
+  "Name": "McGlynn LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 831,
+  "Rank": 449,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "envisioneer clicks-and-mortar mindshare"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldLength": 659
     }
   }
 }

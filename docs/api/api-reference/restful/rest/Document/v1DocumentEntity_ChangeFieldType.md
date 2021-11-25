@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -116,40 +116,40 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 441,
-  "ColumnId": 1001,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 332,
-  "FieldLabel": "fugit",
-  "FieldLeft": 63,
-  "FieldTop": 98,
+  "UDefFieldId": 954,
+  "ColumnId": 211,
+  "FieldDefault": "quia",
+  "FieldHeight": 163,
+  "FieldLabel": "odit",
+  "FieldLeft": 200,
+  "FieldTop": 986,
   "FieldType": "Checkbox",
-  "FieldWidth": 946,
-  "FormatMask": "error",
-  "HideLabel": true,
+  "FieldWidth": 501,
+  "FormatMask": "illum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 19,
-  "LabelLeft": 750,
-  "LabelTop": 497,
-  "LabelWidth": 261,
-  "LastVersionId": 95,
-  "ListTableId": 59,
-  "IsMandatory": true,
+  "LabelHeight": 882,
+  "LabelLeft": 189,
+  "LabelTop": 169,
+  "LabelWidth": 757,
+  "LastVersionId": 507,
+  "ListTableId": 535,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 364,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 3,
-  "TextLength": 466,
-  "Tooltip": "consectetur",
-  "UdefIdentity": 10,
-  "UDListDefinitionId": 892,
+  "Page1LineNo": 228,
+  "ProgId": "optio",
+  "IsReadOnly": false,
+  "ShortLabel": "quisquam",
+  "TabOrder": 391,
+  "TextLength": 437,
+  "Tooltip": "tempore",
+  "UdefIdentity": 972,
+  "UDListDefinitionId": 874,
   "Justification": "Center",
-  "Version": 403,
-  "TemplateVariableName": "Kemmer LLC",
+  "Version": 717,
+  "TemplateVariableName": "Lynch, Howe and Schaden",
   "HasBeenPublished": true,
-  "MdoListName": "Roob, Mueller and Kutch",
+  "MdoListName": "Schmeler LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -158,10 +158,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "morph synergistic niches"
       },
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 140
     }
   }
 }

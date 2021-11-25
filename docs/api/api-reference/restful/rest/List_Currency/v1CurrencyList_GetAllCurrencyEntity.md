@@ -24,7 +24,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=False
+GET /api/v1/List/Currency/Items?includeDeleted=True
 ```
 
 
@@ -79,12 +79,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 62,
-    "Name": "Kilback Inc and Sons",
-    "Tooltip": "omnis",
-    "Rank": 606,
-    "Rate": 28227.938,
-    "Units": 24630.106,
+    "CurrencyId": 591,
+    "Name": "Will, Kessler and Hyatt",
+    "Tooltip": "quaerat",
+    "Rank": 890,
+    "Rate": 22677.624,
+    "Units": 29152.468,
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "grow visionary channels"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

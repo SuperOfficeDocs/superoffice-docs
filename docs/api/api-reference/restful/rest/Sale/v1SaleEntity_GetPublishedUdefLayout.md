@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 953,
-    "ColumnId": 42,
-    "FieldDefault": "vel",
-    "FieldHeight": 896,
-    "FieldLabel": "aliquid",
-    "FieldLeft": 817,
-    "FieldTop": 717,
+    "UDefFieldId": 232,
+    "ColumnId": 632,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 319,
+    "FieldLabel": "quo",
+    "FieldLeft": 683,
+    "FieldTop": 105,
     "FieldType": "Checkbox",
-    "FieldWidth": 662,
-    "FormatMask": "culpa",
-    "HideLabel": false,
+    "FieldWidth": 620,
+    "FormatMask": "at",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 796,
-    "LabelLeft": 367,
-    "LabelTop": 907,
-    "LabelWidth": 620,
-    "LastVersionId": 284,
-    "ListTableId": 876,
-    "IsMandatory": true,
+    "LabelHeight": 539,
+    "LabelLeft": 326,
+    "LabelTop": 533,
+    "LabelWidth": 952,
+    "LastVersionId": 174,
+    "ListTableId": 774,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 374,
-    "ProgId": "porro",
-    "IsReadOnly": true,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 121,
-    "TextLength": 699,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 965,
-    "UDListDefinitionId": 474,
+    "Page1LineNo": 521,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "quisquam",
+    "TabOrder": 120,
+    "TextLength": 383,
+    "Tooltip": "fugit",
+    "UdefIdentity": 267,
+    "UDListDefinitionId": 527,
     "Justification": "Center",
-    "Version": 925,
-    "TemplateVariableName": "Schamberger, O'Reilly and Lowe",
+    "Version": 459,
+    "TemplateVariableName": "DuBuque Group",
     "HasBeenPublished": false,
-    "MdoListName": "Treutel-Corkery",
+    "MdoListName": "Bailey Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 2
       }
     }
   }

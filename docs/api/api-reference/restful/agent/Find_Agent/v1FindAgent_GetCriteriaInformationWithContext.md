@@ -1,9 +1,9 @@
 ---
-title: GetCriteriaInformationWithContext
+title: POST Agents/Find/GetCriteriaInformationWithContext
 id: v1FindAgent_GetCriteriaInformationWithContext
 ---
 
-# GetCriteriaInformationWithContext
+# POST Agents/Find/GetCriteriaInformationWithContext
 
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
@@ -85,18 +85,18 @@ Response body: object
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Ratke, Legros and Waelchi",
-  "StorageKey": "sit",
+  "StorageType": "explicabo",
+  "ProviderName": "Lindgren Group",
+  "StorageKey": "sed",
   "StaticColumns": [
-    "doloribus",
-    "ea"
+    "itaque",
+    "praesentium"
   ],
-  "Context": "nisi"
+  "Context": "quia"
 }
 ```
 
@@ -107,57 +107,57 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hayes Inc and Sons",
-      "Operator": "cupiditate",
+      "Name": "Larkin, Stamm and Murray",
+      "Operator": "eius",
       "Values": [
-        "aut",
-        "occaecati"
+        "et",
+        "omnis"
       ],
       "DisplayValues": [
-        "ad",
-        "est"
+        "minima",
+        "voluptatem"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 713,
+      "InterParenthesis": 316,
       "InterOperator": "And",
-      "UniqueHash": 483
+      "UniqueHash": 128
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stroman-Gaylord",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "suscipit",
-      "CanOrderBy": true,
-      "Name": "Tromp LLC",
+      "DisplayName": "Turner, Braun and Kilback",
+      "DisplayTooltip": "ut",
+      "DisplayType": "nulla",
+      "CanOrderBy": false,
+      "Name": "Cassin, Kohler and Jerde",
       "CanRestrictBy": true,
-      "RestrictionType": "voluptas",
-      "RestrictionListName": "Krajcik, Sawayn and Schaefer",
-      "IsVisible": false,
-      "ExtraInfo": "dolorum",
-      "Width": "velit",
-      "IconHint": "quis",
-      "HeadingIconHint": "rerum"
+      "RestrictionType": "laborum",
+      "RestrictionListName": "Kreiger, Klocko and Ondricka",
+      "IsVisible": true,
+      "ExtraInfo": "consequatur",
+      "Width": "et",
+      "IconHint": "rerum",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Altenwerth, Grant and Roberts",
-      "PrimaryKey": 99,
+      "EntityName": "Moen, Baumbach and Gutkowski",
+      "PrimaryKey": 493,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dignissimos",
-          "TooltipHint": "sequi",
-          "LinkHint": "est"
+          "DisplayValue": "nobis",
+          "TooltipHint": "consequatur",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "harum",
-      "StyleHint": "atque",
+      "LinkHint": "totam",
+      "StyleHint": "possimus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -165,26 +165,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 543
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Predovic-Kihn",
-      "Description": "Quality-focused systemic product",
-      "Rank": 183,
+      "Name": "Johnson, Nienow and Lueilwitz",
+      "Description": "Synchronised leading edge alliance",
+      "Rank": 58,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Predovic-Kihn",
-      "Description": "Quality-focused systemic product",
-      "Rank": 183,
+      "Name": "Johnson, Nienow and Lueilwitz",
+      "Description": "Synchronised leading edge alliance",
+      "Rank": 58,
       "Restrictions": [
         {},
         {}
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 572
     }
   }
 }

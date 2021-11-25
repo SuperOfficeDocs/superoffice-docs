@@ -1,9 +1,9 @@
 ---
-title: GetNameDepartmentDuplicates
+title: POST Agents/Contact/GetNameDepartmentDuplicates
 id: v1ContactAgent_GetNameDepartmentDuplicates
 ---
 
-# GetNameDepartmentDuplicates
+# POST Agents/Contact/GetNameDepartmentDuplicates
 
 ```http
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Baumbach-Rodriguez",
-  "Department": ""
+  "Name": "Krajcik LLC",
+  "Department": "reinvent end-to-end niches"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Greenfelder, Botsford and Tillman",
-    "SoPrimaryKey": 277,
-    "EntryName": "Murazik, Rohan and Smith",
-    "EntryIdentifier": "harum",
-    "RuleDisplayName": "Swaniawski, Stanton and Altenwerth",
+    "RuleName": "Streich LLC",
+    "SoPrimaryKey": 894,
+    "EntryName": "Moen Inc and Sons",
+    "EntryIdentifier": "ut",
+    "RuleDisplayName": "Walker, Roob and Kozey",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "iterate enterprise supply-chains"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 306
       }
     }
   }

@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 157,
-  "PrefDescId": 373,
-  "PrefValue": "magnam",
-  "PrefShowValue": "quia",
-  "Description": "Object-based dedicated throughput",
-  "IsBuiltin": true,
+  "PrefDescLineId": 770,
+  "PrefDescId": 522,
+  "PrefValue": "incidunt",
+  "PrefShowValue": "dolorum",
+  "Description": "Grass-roots multi-state Graphic Interface",
+  "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "evolve cross-media ROI"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 233
     }
   }
 }

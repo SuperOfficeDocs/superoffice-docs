@@ -1,9 +1,9 @@
 ---
-title: GetAllFromSection
+title: POST Agents/Preference/GetAllFromSection
 id: v1PreferenceAgent_GetAllFromSection
 ---
 
-# GetAllFromSection
+# POST Agents/Preference/GetAllFromSection
 
 ```http
 POST /api/v1/Agents/Preference/GetAllFromSection
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quia"
+  "Section": "delectus"
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 198,
-    "Section": "eum",
-    "Key": "qui",
-    "Name": "Turner-Haag",
+    "PrefDescId": 565,
+    "Section": "ea",
+    "Key": "sit",
+    "Name": "Trantow Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reverse-engineered real-time support",
-    "IsBuiltin": true,
-    "TableName": "Wolf, Cormier and Champlin",
-    "UserDefinedListId": 226,
-    "Rank": 810,
-    "SubGroup": "perspiciatis",
-    "MinLevel": 193,
-    "MaxValue": 882,
-    "MinValue": 411,
-    "RequiredLicense": "maiores",
+    "Description": "Enhanced human-resource parallelism",
+    "IsBuiltin": false,
+    "TableName": "Weissnat, Tromp and Hills",
+    "UserDefinedListId": 256,
+    "Rank": 631,
+    "SubGroup": "aut",
+    "MinLevel": 130,
+    "MaxValue": 210,
+    "MinValue": 111,
+    "RequiredLicense": "sint",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

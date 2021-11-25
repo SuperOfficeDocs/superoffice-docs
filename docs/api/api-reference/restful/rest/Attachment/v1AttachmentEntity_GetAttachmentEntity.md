@@ -87,12 +87,12 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 863,
-  "Name": "Blanda Group",
-  "ContentType": "dicta",
-  "AttSize": 293,
+  "AttachmentId": 158,
+  "Name": "Hammes LLC",
+  "ContentType": "hic",
+  "AttSize": 817,
   "InlineImage": true,
-  "ContentId": "harum",
+  "ContentId": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

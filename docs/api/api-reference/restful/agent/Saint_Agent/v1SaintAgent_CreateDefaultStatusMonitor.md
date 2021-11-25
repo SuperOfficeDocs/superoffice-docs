@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultStatusMonitor
+title: POST Agents/Saint/CreateDefaultStatusMonitor
 id: v1SaintAgent_CreateDefaultStatusMonitor
 ---
 
-# CreateDefaultStatusMonitor
+# POST Agents/Saint/CreateDefaultStatusMonitor
 
 ```http
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,21 +81,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 242,
-  "Rank": 268,
-  "DefaultTask": 78,
-  "DefaultTaskText": "praesentium",
+  "OwnerTable": 935,
+  "Rank": 159,
+  "DefaultTask": 694,
+  "DefaultTaskText": "est",
   "IsVisual": true,
-  "LastGenerated": "2005-11-26T14:58:05.1026291+01:00",
-  "Description": "Intuitive even-keeled methodology",
-  "Name": "Lakin, Kassulke and Hauck",
-  "StatusMonitorId": 495,
-  "PictureId": 607,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 229,
-  "NumNeedUpdate": 499,
-  "GenerationStart": "2001-06-06T14:58:05.103628+02:00",
+  "LastGenerated": "2019-03-21T18:28:50.0387083+01:00",
+  "Description": "Stand-alone intangible functionalities",
+  "Name": "Hilll-Feil",
+  "StatusMonitorId": 792,
+  "PictureId": 444,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 231,
+  "NumNeedUpdate": 273,
+  "GenerationStart": "2012-12-20T18:28:50.0387083+01:00",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 394
     }
   }
 }

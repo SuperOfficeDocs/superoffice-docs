@@ -1,9 +1,9 @@
 ---
-title: GetLicenseFromFile
+title: POST Agents/License/GetLicenseFromFile
 id: v1LicenseAgent_GetLicenseFromFile
 ---
 
-# GetLicenseFromFile
+# POST Agents/License/GetLicenseFromFile
 
 ```http
 POST /api/v1/Agents/License/GetLicenseFromFile
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ut"
+  "FileContent": "cumque"
 }
 ```
 
@@ -92,65 +92,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": false,
   "New": {
-    "CompanyName": "Morissette-McCullough",
+    "CompanyName": "Jerde Group",
     "SerialNr": "1010000006",
-    "OwnerName": "Volkman, Predovic and Stracke",
-    "OwnerDescription": "Future-proofed optimizing benchmark",
-    "NextCheckDate": "2013-06-03T14:58:04.3304599+02:00",
-    "MaintenanceDate": "1996-09-21T14:58:04.3304599+02:00",
-    "AdminWarningDate": "2015-10-28T14:58:04.3304599+01:00",
-    "ExpiryDate": "2003-04-12T14:58:04.3304599+02:00",
-    "GraceDate": "2007-12-13T14:58:04.3304599+01:00",
-    "ExtraFlags": 147,
-    "ExtraInfo": "deserunt",
+    "OwnerName": "Rolfson, Rutherford and Lindgren",
+    "OwnerDescription": "Synchronised non-volatile firmware",
+    "NextCheckDate": "2001-04-07T18:28:49.2421182+02:00",
+    "MaintenanceDate": "2013-10-30T18:28:49.2421182+01:00",
+    "AdminWarningDate": "2016-08-18T18:28:49.2421182+02:00",
+    "ExpiryDate": "2007-02-25T18:28:49.2421182+01:00",
+    "GraceDate": "2020-04-15T18:28:49.2421182+02:00",
+    "ExtraFlags": 488,
+    "ExtraInfo": "minus",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "ratione",
-    "DeploymentType": 325,
-    "ProductType": "et",
-    "ProductDescription": "Customer-focused attitude-oriented open system",
+    "LicenseVersion": "itaque",
+    "DeploymentType": 621,
+    "ProductType": "tenetur",
+    "ProductDescription": "Expanded national service-desk",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "est"
+    "Signature": "error"
   },
   "Current": {
-    "CompanyName": "Rath, Glover and Nienow",
+    "CompanyName": "Shields LLC",
     "SerialNr": "1010000006",
-    "OwnerName": "Zemlak, Crona and Armstrong",
-    "OwnerDescription": "User-centric stable concept",
-    "NextCheckDate": "2007-10-28T14:58:04.3314622+01:00",
-    "MaintenanceDate": "2017-02-20T14:58:04.3314622+01:00",
-    "AdminWarningDate": "2017-03-15T14:58:04.3314622+01:00",
-    "ExpiryDate": "2016-06-17T14:58:04.3314622+02:00",
-    "GraceDate": "2006-01-22T14:58:04.3314622+01:00",
-    "ExtraFlags": 84,
-    "ExtraInfo": "pariatur",
+    "OwnerName": "Lakin, Littel and Weimann",
+    "OwnerDescription": "Upgradable 4th generation instruction set",
+    "NextCheckDate": "2002-11-27T18:28:49.2421182+01:00",
+    "MaintenanceDate": "2008-06-01T18:28:49.2421182+02:00",
+    "AdminWarningDate": "2004-02-07T18:28:49.2421182+01:00",
+    "ExpiryDate": "2018-12-29T18:28:49.2421182+01:00",
+    "GraceDate": "2016-05-10T18:28:49.2421182+02:00",
+    "ExtraFlags": 447,
+    "ExtraInfo": "rerum",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "voluptate",
-    "DeploymentType": 681,
-    "ProductType": "minima",
-    "ProductDescription": "Persevering bifurcated knowledge user",
+    "LicenseVersion": "dignissimos",
+    "DeploymentType": 756,
+    "ProductType": "excepturi",
+    "ProductDescription": "Monitored fault-tolerant hierarchy",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "illum"
+    "Signature": "et"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 455,
-      "NumberOfLicensesFree": 863,
-      "NumberOfLicensesAdded": 219,
-      "NumberOfLicensesNewTotal": 880,
-      "NumberOfLicensesNewFree": 175,
-      "NumberOfLicensesTotal": 361
+      "NumberOfLicensesInUse": 461,
+      "NumberOfLicensesFree": 624,
+      "NumberOfLicensesAdded": 242,
+      "NumberOfLicensesNewTotal": 923,
+      "NumberOfLicensesNewFree": 151,
+      "NumberOfLicensesTotal": 982
     }
   ],
-  "AccumulatedNextCheckDate": "2020-08-09T14:58:04.3314622+02:00"
+  "AccumulatedNextCheckDate": "2006-10-11T18:28:49.2431188+02:00"
 }
 ```

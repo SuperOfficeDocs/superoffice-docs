@@ -1,9 +1,9 @@
 ---
-title: CreateSession
+title: POST Agents/CustomerService/CreateSession
 id: v1CustomerServiceAgent_CreateSession
 ---
 
-# CreateSession
+# POST Agents/CustomerService/CreateSession
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateSession
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "sit"
+  "RemoteIp": "doloribus"
 }
 ```
 
@@ -89,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "LoginId": 548,
-  "UserId": 336,
+  "Key": "blanditiis",
+  "LoginId": 422,
+  "UserId": 351,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

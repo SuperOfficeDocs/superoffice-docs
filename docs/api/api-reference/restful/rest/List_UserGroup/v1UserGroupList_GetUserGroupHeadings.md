@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 402,
-    "Name": "Denesik Group",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 520,
-    "UdListDefinitionId": 738,
+    "HeadingId": 126,
+    "Name": "Jaskolski, Morissette and Schultz",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 335,
+    "UdListDefinitionId": 834,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldType": "System.Int32",
+        "FieldLength": 609
       }
     }
   }

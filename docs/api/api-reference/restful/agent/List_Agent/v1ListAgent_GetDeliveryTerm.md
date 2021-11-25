@@ -1,9 +1,9 @@
 ---
-title: GetDeliveryTerm
+title: POST Agents/List/GetDeliveryTerm
 id: v1ListAgent_GetDeliveryTerm
 ---
 
-# GetDeliveryTerm
+# POST Agents/List/GetDeliveryTerm
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryTerm
@@ -25,7 +25,7 @@ Gets a DeliveryTerm object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=803
+POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=549
 POST /api/v1/Agents/List/GetDeliveryTerm?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetDeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,12 +81,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 18,
-  "Value": "excepturi",
-  "Tooltip": "dolores",
+  "Id": 355,
+  "Value": "eum",
+  "Tooltip": "vitae",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "transition B2B systems"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 67
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetAllCurrencies
+title: POST Agents/List/GetAllCurrencies
 id: v1ListAgent_GetAllCurrencies
 ---
 
-# GetAllCurrencies
+# POST Agents/List/GetAllCurrencies
 
 ```http
 POST /api/v1/Agents/List/GetAllCurrencies
@@ -79,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -93,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 279,
-    "Name": "Huels-Hettinger",
+    "CurrencyId": 468,
+    "Name": "Harris, Bruen and Nitzsche",
     "Tooltip": "nisi",
-    "Rank": 270,
-    "Rate": 29221.415999999997,
-    "Units": 2563.612,
-    "Deleted": true,
+    "Rank": 664,
+    "Rate": 24109.862,
+    "Units": 21148.232,
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "transform extensible e-services"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "brand best-of-breed supply-chains"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 108
       }
     }
   }

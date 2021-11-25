@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingFromListDefinition
+title: POST Agents/List/SaveHeadingFromListDefinition
 id: v1ListAgent_SaveHeadingFromListDefinition
 ---
 
-# SaveHeadingFromListDefinition
+# POST Agents/List/SaveHeadingFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
+  "Id": 466,
   "Entity": {
-    "HeadingId": 695,
-    "Name": "Treutel Group",
-    "Tooltip": "et",
+    "HeadingId": 73,
+    "Name": "Gutkowski Inc and Sons",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 993,
-    "UdListDefinitionId": 371
+    "Rank": 510,
+    "UdListDefinitionId": 744
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 611,
-  "Name": "Cormier LLC",
-  "Tooltip": "mollitia",
+  "HeadingId": 540,
+  "Name": "Schuster Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 868,
-  "UdListDefinitionId": 716,
+  "Rank": 59,
+  "UdListDefinitionId": 442,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 131
     }
   }
 }

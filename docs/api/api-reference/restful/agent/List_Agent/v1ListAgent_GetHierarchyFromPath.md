@@ -1,9 +1,9 @@
 ---
-title: GetHierarchyFromPath
+title: POST Agents/List/GetHierarchyFromPath
 id: v1ListAgent_GetHierarchyFromPath
 ---
 
-# GetHierarchyFromPath
+# POST Agents/List/GetHierarchyFromPath
 
 ```http
 POST /api/v1/Agents/List/GetHierarchyFromPath
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "tempore",
+  "Path": "quasi",
   "Children": false
 }
 ```
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 808,
+  "HierarchyId": 282,
   "Domain": "Dashboards",
-  "Name": "Crooks-Schiller",
-  "Fullname": "non",
-  "ParentId": 861,
+  "Name": "Altenwerth, Brown and Johnston",
+  "Fullname": "ut",
+  "ParentId": 436,
   "Children": [
     {
-      "HierarchyId": 952,
+      "HierarchyId": 640,
       "Domain": "Dashboards",
-      "Name": "King, Cummerata and Dicki",
-      "Fullname": "rerum",
-      "ParentId": 379,
+      "Name": "Herzog, Miller and D'Amore",
+      "Fullname": "porro",
+      "ParentId": 736,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-07-24T14:58:04.4074656+02:00",
-      "RegisteredAssociateId": 394,
-      "Updated": "2012-04-22T14:58:04.4074656+02:00",
-      "UpdatedAssociateId": 637,
+      "Registered": "2000-12-21T18:28:49.3401252+01:00",
+      "RegisteredAssociateId": 754,
+      "Updated": "2014-07-27T18:28:49.3401252+02:00",
+      "UpdatedAssociateId": 64,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,15 +132,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 735
         }
       }
     }
   ],
-  "Registered": "2003-11-08T14:58:04.4074656+01:00",
-  "RegisteredAssociateId": 257,
-  "Updated": "1995-09-16T14:58:04.4074656+02:00",
-  "UpdatedAssociateId": 222,
+  "Registered": "2009-08-16T18:28:49.3401252+02:00",
+  "RegisteredAssociateId": 908,
+  "Updated": "1997-05-16T18:28:49.3401252+02:00",
+  "UpdatedAssociateId": 358,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

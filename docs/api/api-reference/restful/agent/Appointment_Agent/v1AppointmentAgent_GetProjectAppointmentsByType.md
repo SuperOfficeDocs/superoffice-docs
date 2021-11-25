@@ -1,9 +1,9 @@
 ---
-title: GetProjectAppointmentsByType
+title: POST Agents/Appointment/GetProjectAppointmentsByType
 id: v1AppointmentAgent_GetProjectAppointmentsByType
 ---
 
-# GetProjectAppointmentsByType
+# POST Agents/Appointment/GetProjectAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
@@ -125,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 105,
-  "StartTime": "2000-03-08T14:58:03.0575383+01:00",
-  "EndTime": "2021-03-30T14:58:03.0575383+02:00",
-  "Count": 469,
+  "ProjectId": 204,
+  "StartTime": "1996-03-23T18:28:47.9008442+01:00",
+  "EndTime": "2003-05-07T18:28:47.9008442+02:00",
+  "Count": 38,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 401,
-    "StartDate": "2004-11-26T14:58:03.0585384+01:00",
-    "EndDate": "2007-01-15T14:58:03.0585384+01:00",
+    "AppointmentId": 438,
+    "StartDate": "2010-02-04T18:28:47.9018455+01:00",
+    "EndDate": "2016-11-14T18:28:47.9018455+01:00",
     "Type": "BookingForChecklist",
-    "Task": "fugiat",
-    "AssociateFullName": "Katheryn Steuber DVM",
-    "ContactName": "Heidenreich-Padberg",
-    "Description": "Extended tangible knowledge user",
-    "PersonFullName": "Alvera Labadie",
-    "PersonId": 851,
-    "ContactId": 389,
-    "ProjectId": 42,
-    "ProjectName": "Denesik, Howell and Smith",
-    "IsPublished": true,
-    "AssociateId": 606,
-    "ColorIndex": 778,
+    "Task": "non",
+    "AssociateFullName": "Grant Feeney",
+    "ContactName": "Hermann, Medhurst and Ferry",
+    "Description": "Sharable object-oriented groupware",
+    "PersonFullName": "Eleanora Murray",
+    "PersonId": 174,
+    "ContactId": 142,
+    "ProjectId": 628,
+    "ProjectName": "Jenkins, Gutmann and Mills",
+    "IsPublished": false,
+    "AssociateId": 541,
+    "ColorIndex": 943,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 684,
-    "PriorityName": "Schultz-Pagac",
+    "PriorityId": 246,
+    "PriorityName": "Ferry, Quitzon and Cummings",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2005-05-21T14:58:03.0585384+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1995-12-20T18:28:47.9018455+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-07-24T14:58:03.0585384+02:00",
-    "RecurringEndDate": "2016-04-01T14:58:03.0585384+02:00",
-    "MotherId": 481,
-    "AssignedBy": 528,
-    "AssignedByFullName": "Oscar Hilll",
+    "RecurringStartDate": "1997-06-18T18:28:47.9018455+02:00",
+    "RecurringEndDate": "1996-01-27T18:28:47.9018455+01:00",
+    "MotherId": 574,
+    "AssignedBy": 163,
+    "AssignedByFullName": "Elmo Kris",
     "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "ut",
-    "SaleId": 961,
-    "SaleName": "Murphy-Rutherford",
-    "AssociateName": "Krajcik LLC",
-    "CreatedDate": "1998-02-28T14:58:03.0595381+01:00",
-    "CreatedBy": "possimus",
-    "CreatedByFullName": "Dr. Nasir Hyatt",
-    "CreatedByAssociateId": 460,
+    "Location": "est",
+    "AlarmLeadTime": "sint",
+    "SaleId": 962,
+    "SaleName": "Kling Group",
+    "AssociateName": "Windler Inc and Sons",
+    "CreatedDate": "1994-09-02T18:28:47.902844+02:00",
+    "CreatedBy": "corrupti",
+    "CreatedByFullName": "Linwood Schmeler",
+    "CreatedByAssociateId": 450,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -200,10 +200,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "integrate cross-platform web services"
         },
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 1000
       }
     }
   }

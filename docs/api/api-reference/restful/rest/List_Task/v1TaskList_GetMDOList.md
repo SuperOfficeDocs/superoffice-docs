@@ -26,7 +26,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=qui
+GET /api/v1/List/Task/MDOItems?query=vel
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Hackett Group",
-    "ToolTip": "Magnam voluptate ut sit cupiditate.",
-    "Deleted": false,
-    "Rank": 819,
-    "Type": "omnis",
+    "Id": 950,
+    "Name": "Ortiz, Botsford and Jones",
+    "ToolTip": "Veniam ipsam.",
+    "Deleted": true,
+    "Rank": 269,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Bogisich, Parisian and Johnston",
-        "ToolTip": "At expedita cupiditate eos totam sequi ut.",
-        "Deleted": false,
-        "Rank": 301,
-        "Type": "est",
+        "Id": 223,
+        "Name": "Franecki Group",
+        "ToolTip": "Qui beatae quod architecto in.",
+        "Deleted": true,
+        "Rank": 823,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 502,
-        "ExtraInfo": "cum",
-        "StyleHint": "at",
-        "FullName": "Lois Adams",
+        "IconHint": "voluptas",
+        "ColorBlock": 99,
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptas",
+        "FullName": "Lon Turcotte MD",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 445
+            "FieldLength": 710
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 676,
-    "ExtraInfo": "error",
-    "StyleHint": "debitis",
-    "FullName": "Merlin Mann",
+    "IconHint": "et",
+    "ColorBlock": 908,
+    "ExtraInfo": "enim",
+    "StyleHint": "cupiditate",
+    "FullName": "Pat Graham DDS",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldType": "System.String",
+        "FieldLength": 850
       }
     }
   }

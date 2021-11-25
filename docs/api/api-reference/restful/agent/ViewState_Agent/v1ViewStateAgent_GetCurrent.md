@@ -1,9 +1,9 @@
 ---
-title: GetCurrent
+title: POST Agents/ViewState/GetCurrent
 id: v1ViewStateAgent_GetCurrent
 ---
 
-# GetCurrent
+# POST Agents/ViewState/GetCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/GetCurrent
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hilll LLC"
+  "HistoryName": "McClure-Hintz"
 }
 ```
 
@@ -97,13 +97,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 479,
-  "Id": 579,
-  "HistoryName": "Tillman-Harvey",
-  "HistoryId": 257,
-  "AssociateId": 154,
-  "Name": "Crona Group",
-  "ItemInfo": "id",
+  "Rank": 772,
+  "Id": 451,
+  "HistoryName": "Boehm-Waters",
+  "HistoryId": 873,
+  "AssociateId": 344,
+  "Name": "Williamson LLC",
+  "ItemInfo": "laborum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

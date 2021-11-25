@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultUntrustedCredentials
+title: POST Agents/User/CreateDefaultUntrustedCredentials
 id: v1UserAgent_CreateDefaultUntrustedCredentials
 ---
 
-# CreateDefaultUntrustedCredentials
+# POST Agents/User/CreateDefaultUntrustedCredentials
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
@@ -75,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2016-10-07T14:58:05.5430542+02:00",
-  "ValidTo": "2019-04-13T14:58:05.5430542+02:00",
-  "Comment": "consequatur",
-  "SecretValue": "impedit",
-  "PublicValue": "non",
-  "IsActive": false,
+  "ValidFrom": "2008-06-07T18:28:50.4914112+02:00",
+  "ValidTo": "1998-09-22T18:28:50.4914112+02:00",
+  "Comment": "ut",
+  "SecretValue": "totam",
+  "PublicValue": "est",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,10 +89,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "facilitate holistic methodologies"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

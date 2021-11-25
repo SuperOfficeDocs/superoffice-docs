@@ -1,9 +1,9 @@
 ---
-title: GetInUseQuoteLineConfigurations
+title: POST Agents/Quote/GetInUseQuoteLineConfigurations
 id: v1QuoteAgent_GetInUseQuoteLineConfigurations
 ---
 
-# GetInUseQuoteLineConfigurations
+# POST Agents/Quote/GetInUseQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,15 +81,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 809,
-    "FieldName": "Morar, Kub and Cormier",
-    "Label": "excepturi",
-    "Tooltip": "eius",
-    "Editable": false,
+    "QuoteLineConfigurationId": 624,
+    "FieldName": "Corkery Group",
+    "Label": "soluta",
+    "Tooltip": "ut",
+    "Editable": true,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 800,
-    "RestrictEdit": true,
+    "Rank": 544,
+    "RestrictEdit": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: SetDynamicSelectionCriteria3
+title: POST Agents/Selection/SetDynamicSelectionCriteria3
 id: v1SelectionAgent_SetDynamicSelectionCriteria3
 ---
 
-# SetDynamicSelectionCriteria3
+# POST Agents/Selection/SetDynamicSelectionCriteria3
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
@@ -82,35 +82,35 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 734,
+  "SelectionId": 459,
   "Criteria": [
     {
-      "Name": "Cummings Inc and Sons",
-      "Operator": "laudantium",
+      "Name": "Littel-McCullough",
+      "Operator": "dolorem",
       "Values": [
-        "magni",
-        "iste"
+        "reiciendis",
+        "architecto"
       ],
       "DisplayValues": [
-        "tempore",
-        "odit"
+        "ea",
+        "ut"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 811,
+      "InterParenthesis": 74,
       "InterOperator": "And",
-      "UniqueHash": 507
+      "UniqueHash": 407
     }
   ],
-  "Filter": "maxime"
+  "Filter": "minima"
 }
 ```
 
@@ -120,43 +120,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson LLC",
-    "Operator": "ut",
+    "Name": "Kirlin, Sporer and Satterfield",
+    "Operator": "aut",
     "Values": [
-      "voluptates",
-      "quaerat"
-    ],
-    "DisplayValues": [
       "quas",
       "et"
     ],
+    "DisplayValues": [
+      "est",
+      "delectus"
+    ],
     "ColumnInfo": {
-      "DisplayName": "Abbott, Quitzon and Abernathy",
-      "DisplayTooltip": "optio",
-      "DisplayType": "sed",
-      "CanOrderBy": false,
-      "Name": "West Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptas",
-      "RestrictionListName": "Hegmann LLC",
-      "IsVisible": false,
-      "ExtraInfo": "quod",
-      "Width": "in",
-      "IconHint": "labore",
-      "HeadingIconHint": "recusandae"
+      "DisplayName": "Lubowitz-Kozey",
+      "DisplayTooltip": "autem",
+      "DisplayType": "non",
+      "CanOrderBy": true,
+      "Name": "Quigley, Conroy and Armstrong",
+      "CanRestrictBy": true,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Jacobson, Erdman and D'Amore",
+      "IsVisible": true,
+      "ExtraInfo": "hic",
+      "Width": "velit",
+      "IconHint": "aliquam",
+      "HeadingIconHint": "saepe"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rolfson, Beer and McLaughlin",
-        "Operator": "ea",
+        "Name": "Farrell-Hudson",
+        "Operator": "id",
         "Values": [
-          "culpa",
-          "corrupti"
+          "illo",
+          "ut"
         ],
         "DisplayValues": [
-          "mollitia",
-          "odit"
+          "tempore",
+          "qui"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -164,14 +164,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 700,
+        "InterParenthesis": 137,
         "InterOperator": "And",
-        "UniqueHash": 486
+        "UniqueHash": 492
       }
     ],
-    "InterParenthesis": 989,
+    "InterParenthesis": 920,
     "InterOperator": "And",
-    "UniqueHash": 145
+    "UniqueHash": 615
   }
 ]
 ```

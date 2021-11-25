@@ -1,9 +1,9 @@
 ---
-title: GetAvailableColumns
+title: POST Agents/Archive/GetAvailableColumns
 id: v1ArchiveAgent_GetAvailableColumns
 ---
 
-# GetAvailableColumns
+# POST Agents/Archive/GetAvailableColumns
 
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koelpin-Fay",
-  "Context": "ut"
+  "ProviderName": "Abernathy, Stiedemann and Lemke",
+  "Context": "voluptatem"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Emmerich, Nolan and Boyer",
-    "DisplayTooltip": "aperiam",
-    "DisplayType": "et",
-    "CanOrderBy": true,
-    "Name": "Carter, Roberts and Towne",
-    "CanRestrictBy": false,
-    "RestrictionType": "exercitationem",
-    "RestrictionListName": "Stiedemann-Farrell",
-    "IsVisible": false,
-    "ExtraInfo": "non",
-    "Width": "quia",
-    "IconHint": "corporis",
-    "HeadingIconHint": "perspiciatis"
+    "DisplayName": "Gutkowski-Gottlieb",
+    "DisplayTooltip": "minima",
+    "DisplayType": "vel",
+    "CanOrderBy": false,
+    "Name": "Schmeler, Schinner and Mann",
+    "CanRestrictBy": true,
+    "RestrictionType": "unde",
+    "RestrictionListName": "Zieme Group",
+    "IsVisible": true,
+    "ExtraInfo": "doloremque",
+    "Width": "ut",
+    "IconHint": "minima",
+    "HeadingIconHint": "iste"
   }
 ]
 ```

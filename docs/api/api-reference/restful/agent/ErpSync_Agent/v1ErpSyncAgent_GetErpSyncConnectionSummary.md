@@ -1,9 +1,9 @@
 ---
-title: GetErpSyncConnectionSummary
+title: POST Agents/ErpSync/GetErpSyncConnectionSummary
 id: v1ErpSyncAgent_GetErpSyncConnectionSummary
 ---
 
-# GetErpSyncConnectionSummary
+# POST Agents/ErpSync/GetErpSyncConnectionSummary
 
 ```http
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
@@ -85,11 +85,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 244
+  "ErpSyncConnectionId": 238
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Reichel-West",
-  "DisplayDescription": "Team-oriented radical strategy",
-  "Active": true,
-  "Deleted": false,
-  "LastSync": "2006-02-25T14:58:04.2354599+01:00",
+  "DisplayName": "Moore-Kohler",
+  "DisplayDescription": "Ameliorated fault-tolerant migration",
+  "Active": false,
+  "Deleted": true,
+  "LastSync": "2002-03-10T18:28:49.1239631+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "dolor",
-      "Mappings": "assumenda",
+      "HasMappings": true,
+      "Defaults": "voluptas",
+      "Mappings": "enim",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -117,15 +117,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 55
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "dolor",
-      "Mappings": "assumenda",
+      "HasMappings": true,
+      "Defaults": "voluptas",
+      "Mappings": "enim",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -134,23 +134,23 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 55
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "matrix one-to-one models"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "extend vertical e-markets"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 668
     }
   }
 }

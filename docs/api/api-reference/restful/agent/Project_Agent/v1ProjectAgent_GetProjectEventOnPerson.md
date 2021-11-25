@@ -1,9 +1,9 @@
 ---
-title: GetProjectEventOnPerson
+title: POST Agents/Project/GetProjectEventOnPerson
 id: v1ProjectAgent_GetProjectEventOnPerson
 ---
 
-# GetProjectEventOnPerson
+# POST Agents/Project/GetProjectEventOnPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
@@ -100,12 +100,12 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 977,
-  "PersonId": 658
+  "ProjectId": 388,
+  "PersonId": 132
 }
 ```
 
@@ -114,28 +114,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Simone Metz",
-  "Description": "Inverse systematic process improvement",
-  "ProjectId": 22,
-  "EventName": "Zieme Group",
-  "AssociateId": 118,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "impedit",
-  "SignOffText": "itaque",
-  "SignOnConfirmationText": "molestiae",
-  "SignOnText": "sapiente",
-  "EventDate": "2008-04-23T14:58:04.9204646+02:00",
+  "AssociateFullName": "Mr. Ila Bernier",
+  "Description": "Re-engineered exuding firmware",
+  "ProjectId": 475,
+  "EventName": "Olson Group",
+  "AssociateId": 386,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "et",
+  "SignOffText": "ex",
+  "SignOnConfirmationText": "qui",
+  "SignOnText": "et",
+  "EventDate": "2005-07-25T18:28:49.9021331+02:00",
   "Enabled": true,
   "SignOff": true,
-  "SignOffTaskEnable": true,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": true,
-  "SignOn": true,
-  "SignOffTaskId": 519,
-  "SignOnTaskId": 17,
+  "SignOn": false,
+  "SignOffTaskId": 455,
+  "SignOnTaskId": 675,
   "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 847,
-  "SignOffPersonId": 632,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 818,
+  "SignOffPersonId": 1001,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Kuhic LLC",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 989,
+  "Id": 895,
+  "Name": "Langworth, Brakus and Nicolas",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 596,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Bechtelar, Crist and Herman",
-  "Tooltip": "maiores",
+  "Id": 178,
+  "Name": "Senger Group",
+  "Tooltip": "voluptates",
   "Deleted": true,
-  "Rank": 154,
-  "IsCustomList": false,
+  "Rank": 120,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 714
     }
   }
 }

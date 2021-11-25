@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "aliquid",
-    "Values2": "velit"
+    "Values1": "et",
+    "Values2": "tempora"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldLength": 188
     }
   }
 }

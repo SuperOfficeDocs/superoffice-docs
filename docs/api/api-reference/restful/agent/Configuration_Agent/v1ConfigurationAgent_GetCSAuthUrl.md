@@ -1,9 +1,9 @@
 ---
-title: GetCSAuthUrl
+title: POST Agents/Configuration/GetCSAuthUrl
 id: v1ConfigurationAgent_GetCSAuthUrl
 ---
 
-# GetCSAuthUrl
+# POST Agents/Configuration/GetCSAuthUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
@@ -71,14 +71,14 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "qui",
-  "ProgramName": "Rippin-Hoeger",
-  "Action": "ducimus",
-  "ExtraParameters": "animi"
+  "Language": "a",
+  "ProgramName": "Turcotte, Goodwin and Gusikowski",
+  "Action": "necessitatibus",
+  "ExtraParameters": "vitae"
 }
 ```
 

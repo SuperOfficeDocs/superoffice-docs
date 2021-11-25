@@ -1,9 +1,9 @@
 ---
-title: GetSpecifiedCriteriaInformationWithDefaultsWithContext
+title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
 ---
 
-# GetSpecifiedCriteriaInformationWithDefaultsWithContext
+# POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -90,18 +90,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Kuhlman-Lesch",
-  "StorageKey": "magnam",
+  "StorageType": "officiis",
+  "ProviderName": "Ernser LLC",
+  "StorageKey": "porro",
   "DesiredColumnNames": [
-    "Mueller, Frami and Gaylord",
-    "Keeling, Pacocha and Schinner"
+    "McKenzie LLC",
+    "O'Connell-Effertz"
   ],
   "StaticColumns": [
     "aperiam",
-    "explicabo"
+    "nobis"
   ],
-  "Context": "doloremque"
+  "Context": "adipisci"
 }
 ```
 
@@ -112,15 +112,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ritchie, Casper and Orn",
-      "Operator": "at",
+      "Name": "Waelchi Group",
+      "Operator": "molestias",
       "Values": [
-        "exercitationem",
-        "doloremque"
+        "repellendus",
+        "voluptates"
       ],
       "DisplayValues": [
-        "dolorem",
-        "ab"
+        "consequatur",
+        "dignissimos"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -128,41 +128,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 560,
+      "InterParenthesis": 368,
       "InterOperator": "And",
-      "UniqueHash": 56
+      "UniqueHash": 885
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wyman LLC",
-      "DisplayTooltip": "facere",
-      "DisplayType": "laboriosam",
+      "DisplayName": "Harvey-Connelly",
+      "DisplayTooltip": "vero",
+      "DisplayType": "et",
       "CanOrderBy": true,
-      "Name": "Hamill, Satterfield and Jenkins",
+      "Name": "Stanton-Schultz",
       "CanRestrictBy": false,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Johnston, Lueilwitz and Emard",
+      "RestrictionType": "autem",
+      "RestrictionListName": "Effertz LLC",
       "IsVisible": true,
-      "ExtraInfo": "unde",
-      "Width": "inventore",
-      "IconHint": "non",
-      "HeadingIconHint": "veritatis"
+      "ExtraInfo": "voluptas",
+      "Width": "sit",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "labore"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Simonis, Quigley and Kertzmann",
-      "PrimaryKey": 276,
+      "EntityName": "King, Kuhlman and Wisozk",
+      "PrimaryKey": 508,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "explicabo",
-          "TooltipHint": "ipsum",
-          "LinkHint": "doloribus"
+          "DisplayValue": "possimus",
+          "TooltipHint": "velit",
+          "LinkHint": "hic"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "veritatis",
+      "LinkHint": "quia",
+      "StyleHint": "officiis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -170,26 +170,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 973
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Armstrong, Stoltenberg and Murazik",
-      "Description": "Organized encompassing hardware",
-      "Rank": 507,
+      "Name": "Cassin-Ward",
+      "Description": "Robust asynchronous strategy",
+      "Rank": 115,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Armstrong, Stoltenberg and Murazik",
-      "Description": "Organized encompassing hardware",
-      "Rank": 507,
+      "Name": "Cassin-Ward",
+      "Description": "Robust asynchronous strategy",
+      "Rank": 115,
       "Restrictions": [
         {},
         {}
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   }
 }

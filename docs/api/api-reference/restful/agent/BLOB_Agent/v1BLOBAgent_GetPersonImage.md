@@ -1,9 +1,9 @@
 ---
-title: GetPersonImage
+title: POST Agents/BLOB/GetPersonImage
 id: v1BLOBAgent_GetPersonImage
 ---
 
-# GetPersonImage
+# POST Agents/BLOB/GetPersonImage
 
 ```http
 POST /api/v1/Agents/BLOB/GetPersonImage
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 891
+  "PersonId": 123
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: GetProjectMemberDocumentsByTemplateTypes
+title: POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes
 ---
 
-# GetProjectMemberDocumentsByTemplateTypes
+# POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
@@ -94,17 +94,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 481,
-  "StartTime": "2000-12-03T14:58:03.8164725+01:00",
-  "EndTime": "2007-09-04T14:58:03.8164725+02:00",
-  "Count": 592,
+  "PersonId": 623,
+  "StartTime": "2020-11-02T18:28:48.7129545+01:00",
+  "EndTime": "2000-01-28T18:28:48.7129545+01:00",
+  "Count": 967,
   "DocumentTemplateIds": [
-    210,
-    151
+    541,
+    210
   ]
 }
 ```
@@ -115,24 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 478,
-    "Attention": "quas",
-    "Header": "odit",
-    "Name": "Kihn-Kunde",
-    "OurRef": "atque",
-    "YourRef": "aliquam",
-    "Description": "User-centric 6th generation task-force",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 985,
-    "PersonFullName": "Leone Dibbert",
-    "AssociateFullName": "Clyde Lowe III",
-    "ContactId": 991,
-    "ContactName": "Watsica LLC",
-    "ProjectId": 242,
-    "ProjectName": "O'Keefe Inc and Sons",
-    "AssociateId": 584,
-    "Snum": 509,
+    "DocumentId": 556,
+    "Attention": "distinctio",
+    "Header": "aspernatur",
+    "Name": "Gorczany, Ziemann and Bogisich",
+    "OurRef": "ex",
+    "YourRef": "aut",
+    "Description": "Switchable multimedia artificial intelligence",
+    "DocumentTemplate": "iure",
+    "IsPublished": true,
+    "PersonId": 774,
+    "PersonFullName": "Tillman Abernathy",
+    "AssociateFullName": "Anthony Walsh IV",
+    "ContactId": 989,
+    "ContactName": "Prohaska Inc and Sons",
+    "ProjectId": 169,
+    "ProjectName": "Renner Inc and Sons",
+    "AssociateId": 603,
+    "Snum": 117,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   }

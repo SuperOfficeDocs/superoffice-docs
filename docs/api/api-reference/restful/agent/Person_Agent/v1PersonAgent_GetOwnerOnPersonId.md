@@ -1,9 +1,9 @@
 ---
-title: GetOwnerOnPersonId
+title: POST Agents/Person/GetOwnerOnPersonId
 id: v1PersonAgent_GetOwnerOnPersonId
 ---
 
-# GetOwnerOnPersonId
+# POST Agents/Person/GetOwnerOnPersonId
 
 ```http
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
@@ -113,11 +113,11 @@ Response body: object
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 697
+  "PersonId": 863
 }
 ```
 
@@ -126,45 +126,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "iste",
-  "PersonId": 805,
-  "Mrmrs": "maxime",
-  "Firstname": "Burdette",
-  "Lastname": "Koelpin",
-  "MiddleName": "Torp-Waelchi",
-  "Title": "eligendi",
-  "Description": "Distributed static migration",
-  "Email": "lon@langoshfadel.com",
-  "FullName": "Ms. Kari Goodwin",
-  "DirectPhone": "(610)161-4135 x75886",
-  "FormalName": "Stracke-Labadie",
-  "CountryId": 278,
-  "ContactId": 824,
-  "ContactName": "Wolff Inc and Sons",
-  "Retired": 849,
-  "Rank": 289,
-  "ActiveInterests": 670,
+  "Position": "cum",
+  "PersonId": 95,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Coleman",
+  "Lastname": "Weimann",
+  "MiddleName": "Borer Inc and Sons",
+  "Title": "expedita",
+  "Description": "Intuitive non-volatile website",
+  "Email": "ferne@gorczany.info",
+  "FullName": "Wyatt Dibbert",
+  "DirectPhone": "683.616.8884",
+  "FormalName": "Walter, Roob and Brown",
+  "CountryId": 703,
+  "ContactId": 406,
+  "ContactName": "Kihn-Kovacek",
+  "Retired": 118,
+  "Rank": 605,
+  "ActiveInterests": 649,
   "ContactDepartment": "",
-  "ContactCountryId": 39,
-  "ContactOrgNr": "886032",
-  "FaxPhone": "207-423-6281",
-  "MobilePhone": "(382)064-4410",
-  "ContactPhone": "(476)817-0048",
-  "AssociateName": "Mosciski, Murazik and Kunze",
-  "AssociateId": 50,
-  "UsePersonAddress": false,
-  "ContactFax": "numquam",
-  "Kanafname": "veniam",
-  "Kanalname": "quidem",
-  "Post1": "iste",
-  "Post2": "error",
-  "Post3": "earum",
-  "EmailName": "jovany_larkin@ziemann.biz",
-  "ContactFullName": "Diego Schuppe",
-  "ActiveErpLinks": 199,
-  "TicketPriorityId": 928,
-  "SupportLanguageId": 721,
-  "SupportAssociateId": 138,
+  "ContactCountryId": 555,
+  "ContactOrgNr": "789458",
+  "FaxPhone": "454-005-6486",
+  "MobilePhone": "066-374-4311 x181",
+  "ContactPhone": "1-407-047-4564",
+  "AssociateName": "Huels-Hirthe",
+  "AssociateId": 827,
+  "UsePersonAddress": true,
+  "ContactFax": "id",
+  "Kanafname": "distinctio",
+  "Kanalname": "et",
+  "Post1": "autem",
+  "Post2": "at",
+  "Post3": "aperiam",
+  "EmailName": "ibrahim_hagenes@hayeswilkinson.ca",
+  "ContactFullName": "Velva Koelpin",
+  "ActiveErpLinks": 517,
+  "TicketPriorityId": 959,
+  "SupportLanguageId": 936,
+  "SupportAssociateId": 427,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

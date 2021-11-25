@@ -2,8 +2,6 @@
 title: DashTileDefinition
 ---
 
-# DashTileDefinition
-
 ```http
 /api/v1/DashTileDefinition
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetMailboxes
+title: POST Agents/CustomerService/GetMailboxes
 id: v1CustomerServiceAgent_GetMailboxes
 ---
 
-# GetMailboxes
+# POST Agents/CustomerService/GetMailboxes
 
 ```http
 POST /api/v1/Agents/CustomerService/GetMailboxes
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,13 +76,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 372,
-    "Address": "molestias",
+    "MailInFilterId": 240,
+    "Address": "nihil",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Okuneva, Nolan and Bailey",
+    "PriorityName": "Pfannerstill-Stanton",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "transition collaborative architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -91,18 +91,18 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 534
       }
     }
   },
   {
-    "MailInFilterId": 372,
-    "Address": "molestias",
+    "MailInFilterId": 240,
+    "Address": "nihil",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Okuneva, Nolan and Bailey",
+    "PriorityName": "Pfannerstill-Stanton",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "transition collaborative architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 534
       }
     }
   }

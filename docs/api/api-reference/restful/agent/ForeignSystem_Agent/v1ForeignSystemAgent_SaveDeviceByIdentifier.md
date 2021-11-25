@@ -1,9 +1,9 @@
 ---
-title: SaveDeviceByIdentifier
+title: POST Agents/ForeignSystem/SaveDeviceByIdentifier
 id: v1ForeignSystemAgent_SaveDeviceByIdentifier
 ---
 
-# SaveDeviceByIdentifier
+# POST Agents/ForeignSystem/SaveDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
@@ -93,19 +93,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman-Reichert",
-  "DeviceName": "Parker Group",
-  "DeviceIdentifier": "culpa",
+  "ApplicationName": "Toy-Rutherford",
+  "DeviceName": "Haag Inc and Sons",
+  "DeviceIdentifier": "ab",
   "ForeignDevice": {
-    "ForeignDeviceId": 155,
-    "Name": "Kiehn-Beatty",
-    "CreatedDate": "1998-03-15T14:58:04.3034634+01:00",
-    "UpdatedDate": "2001-07-23T14:58:04.3034634+02:00",
-    "AssociateFullName": "Roberto Graham",
-    "CreatedBy": "sed",
-    "UpdatedBy": "magnam",
-    "DeviceIdentifier": "natus",
-    "ForeignAppId": 167
+    "ForeignDeviceId": 327,
+    "Name": "Gutkowski-Boehm",
+    "CreatedDate": "2000-07-20T18:28:49.210088+02:00",
+    "UpdatedDate": "2004-11-09T18:28:49.210088+01:00",
+    "AssociateFullName": "Elton Hettinger",
+    "CreatedBy": "non",
+    "UpdatedBy": "consequatur",
+    "DeviceIdentifier": "et",
+    "ForeignAppId": 220
   }
 }
 ```
@@ -115,15 +115,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 213,
-  "Name": "Lueilwitz Inc and Sons",
-  "CreatedDate": "2018-07-15T14:58:04.30446+02:00",
-  "UpdatedDate": "2016-04-07T14:58:04.30446+02:00",
-  "AssociateFullName": "Cesar Simonis",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "dolores",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 653,
+  "ForeignDeviceId": 757,
+  "Name": "Hessel, Brakus and White",
+  "CreatedDate": "2012-03-31T18:28:49.2110989+02:00",
+  "UpdatedDate": "2007-09-05T18:28:49.2110989+02:00",
+  "AssociateFullName": "Audreanne Gislason",
+  "CreatedBy": "atque",
+  "UpdatedBy": "ullam",
+  "DeviceIdentifier": "itaque",
+  "ForeignAppId": 602,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 349
     }
   }
 }

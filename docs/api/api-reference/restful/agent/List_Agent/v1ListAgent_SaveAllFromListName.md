@@ -1,9 +1,9 @@
 ---
-title: SaveAllFromListName
+title: POST Agents/List/SaveAllFromListName
 id: v1ListAgent_SaveAllFromListName
 ---
 
-# SaveAllFromListName
+# POST Agents/List/SaveAllFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveAllFromListName
@@ -79,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pagac, Renner and Parisian",
+  "UdListDefinitionName": "Balistreri-Crona",
   "Items": [
     {
-      "Id": 192,
-      "Name": "Rolfson, Gleichner and Hermann",
-      "Tooltip": "inventore",
-      "Deleted": false,
-      "UdListDefinitionId": 502,
-      "Rank": 209
+      "Id": 347,
+      "Name": "Bruen Group",
+      "Tooltip": "rerum",
+      "Deleted": true,
+      "UdListDefinitionId": 938,
+      "Rank": 226
     },
     {
-      "Id": 192,
-      "Name": "Rolfson, Gleichner and Hermann",
-      "Tooltip": "inventore",
-      "Deleted": false,
-      "UdListDefinitionId": 502,
-      "Rank": 209
+      "Id": 347,
+      "Name": "Bruen Group",
+      "Tooltip": "rerum",
+      "Deleted": true,
+      "UdListDefinitionId": 938,
+      "Rank": 226
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Crist-Olson",
-    "Tooltip": "temporibus",
+    "Id": 6,
+    "Name": "Larkin-Heaney",
+    "Tooltip": "nam",
     "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 757,
+    "UdListDefinitionId": 211,
+    "Rank": 384,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "incentivize one-to-one channels"
         },
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

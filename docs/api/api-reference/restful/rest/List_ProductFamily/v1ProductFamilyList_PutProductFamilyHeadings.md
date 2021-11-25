@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 157,
-    "Name": "Cummerata-McCullough",
-    "Tooltip": "iure",
+    "HeadingId": 59,
+    "Name": "Champlin, Stoltenberg and Breitenberg",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 747,
-    "UdListDefinitionId": 582
+    "Rank": 827,
+    "UdListDefinitionId": 202
   },
   {
-    "HeadingId": 157,
-    "Name": "Cummerata-McCullough",
-    "Tooltip": "iure",
+    "HeadingId": 59,
+    "Name": "Champlin, Stoltenberg and Breitenberg",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 747,
-    "UdListDefinitionId": 582
+    "Rank": 827,
+    "UdListDefinitionId": 202
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 556,
-    "Name": "Hammes-Miller",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 925,
-    "UdListDefinitionId": 154,
+    "HeadingId": 58,
+    "Name": "Cassin, Shanahan and Bruen",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "Rank": 557,
+    "UdListDefinitionId": 149,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "recontextualize B2C e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

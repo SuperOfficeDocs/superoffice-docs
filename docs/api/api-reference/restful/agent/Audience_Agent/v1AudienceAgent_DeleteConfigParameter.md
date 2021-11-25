@@ -1,9 +1,9 @@
 ---
-title: DeleteConfigParameter
+title: POST Agents/Audience/DeleteConfigParameter
 id: v1AudienceAgent_DeleteConfigParameter
 ---
 
-# DeleteConfigParameter
+# POST Agents/Audience/DeleteConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/DeleteConfigParameter

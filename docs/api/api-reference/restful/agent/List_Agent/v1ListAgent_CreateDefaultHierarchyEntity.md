@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultHierarchyEntity
+title: POST Agents/List/CreateDefaultHierarchyEntity
 id: v1ListAgent_CreateDefaultHierarchyEntity
 ---
 
-# CreateDefaultHierarchyEntity
+# POST Agents/List/CreateDefaultHierarchyEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -76,26 +76,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 935,
+  "HierarchyId": 45,
   "Domain": "Dashboards",
-  "Name": "Wintheiser LLC",
-  "Fullname": "dolor",
-  "ParentId": 816,
+  "Name": "Kohler-Marvin",
+  "Fullname": "et",
+  "ParentId": 767,
   "Children": [
     {
-      "HierarchyId": 587,
+      "HierarchyId": 362,
       "Domain": "Dashboards",
-      "Name": "Kovacek Group",
-      "Fullname": "voluptatem",
-      "ParentId": 648,
+      "Name": "VonRueden LLC",
+      "Fullname": "soluta",
+      "ParentId": 734,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-04-30T14:58:04.4714655+02:00",
-      "RegisteredAssociateId": 801,
-      "Updated": "2015-05-20T14:58:04.4714655+02:00",
-      "UpdatedAssociateId": 766,
+      "Registered": "2015-04-24T18:28:49.4400903+02:00",
+      "RegisteredAssociateId": 815,
+      "Updated": "2003-11-05T18:28:49.4400903+01:00",
+      "UpdatedAssociateId": 340,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldLength": 710
         }
       }
     }
   ],
-  "Registered": "2016-11-07T14:58:04.4714655+01:00",
-  "RegisteredAssociateId": 508,
-  "Updated": "2004-06-17T14:58:04.4714655+02:00",
-  "UpdatedAssociateId": 582,
+  "Registered": "2018-10-30T18:28:49.4400903+01:00",
+  "RegisteredAssociateId": 128,
+  "Updated": "2017-08-09T18:28:49.4400903+02:00",
+  "UpdatedAssociateId": 621,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incubate mission-critical interfaces"
   },
   "FieldProperties": {
     "fieldName": {
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldLength": 162
     }
   }
 }

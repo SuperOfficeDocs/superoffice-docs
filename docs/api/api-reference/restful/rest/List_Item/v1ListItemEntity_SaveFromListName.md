@@ -84,16 +84,16 @@ Response body: object
 PUT /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Green-Mertz",
-  "Tooltip": "doloremque",
+  "Id": 589,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": true,
-  "UdListDefinitionId": 93,
-  "Rank": 324
+  "UdListDefinitionId": 971,
+  "Rank": 863
 }
 ```
 
@@ -102,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Bernhard-Kiehn",
-  "Tooltip": "in",
-  "Deleted": true,
-  "UdListDefinitionId": 518,
-  "Rank": 666,
+  "Id": 440,
+  "Name": "Anderson Group",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "UdListDefinitionId": 142,
+  "Rank": 432,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

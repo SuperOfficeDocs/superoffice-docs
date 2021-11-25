@@ -2,8 +2,6 @@
 title: ContactRelation
 ---
 
-# ContactRelation
-
 ```http
 /api/v1/ContactRelation
 ```

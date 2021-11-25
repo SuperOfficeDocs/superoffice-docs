@@ -1,9 +1,9 @@
 ---
-title: Upsert
+title: POST Agents/DatabaseTable/Upsert
 id: v1DatabaseTableAgent_Upsert
 ---
 
-# Upsert
+# POST Agents/DatabaseTable/Upsert
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Upsert
@@ -13,8 +13,12 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
 Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
 
-> [!NOTE]
-> Must be a system user to perform this operation.
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 
@@ -87,18 +91,18 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cole-Lowe",
+  "TableName": "Dare, Boehm and Considine",
   "Columns": [
-    "praesentium",
-    "voluptates"
+    "ut",
+    "incidunt"
   ],
   "Keys": [
-    "quos",
-    "consectetur"
+    "dolores",
+    "blanditiis"
   ],
   "Data": [
     [
@@ -109,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -119,17 +123,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "atque",
-  "Inserts": 617,
-  "Updates": 845,
-  "Deletes": 783,
+  "Message": "in",
+  "Inserts": 431,
+  "Updates": 590,
+  "Deletes": 35,
   "RowStatus": [
     {
-      "PrimaryKey": 227,
+      "PrimaryKey": 15,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "illum",
-        "voluptas"
+        "vel",
+        "molestiae"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -138,17 +142,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     },
     {
-      "PrimaryKey": 227,
+      "PrimaryKey": 15,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "illum",
-        "voluptas"
+        "vel",
+        "molestiae"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -157,8 +161,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     }
@@ -174,7 +178,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldLength": 35
     }
   }
 }

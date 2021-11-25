@@ -1,9 +1,9 @@
 ---
-title: PopulateRestrictionValues
+title: POST Agents/Find/PopulateRestrictionValues
 id: v1FindAgent_PopulateRestrictionValues
 ---
 
-# PopulateRestrictionValues
+# POST Agents/Find/PopulateRestrictionValues
 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictionValues
@@ -86,15 +86,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Anderson, Terry and Yost",
-      "Operator": "voluptatem",
+      "Name": "Konopelski-Emard",
+      "Operator": "qui",
       "Values": [
-        "itaque",
-        "maxime"
+        "sit",
+        "aliquid"
       ],
       "DisplayValues": [
-        "impedit",
-        "facere"
+        "dolor",
+        "consequatur"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -102,9 +102,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 103,
+      "InterParenthesis": 112,
       "InterOperator": "And",
-      "UniqueHash": 980
+      "UniqueHash": 284
     }
   ]
 }
@@ -116,43 +116,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen Inc and Sons",
-    "Operator": "optio",
+    "Name": "Glover Group",
+    "Operator": "eum",
     "Values": [
-      "quae",
-      "eveniet"
+      "quidem",
+      "eos"
     ],
     "DisplayValues": [
-      "animi",
-      "fugit"
+      "repellendus",
+      "laborum"
     ],
     "ColumnInfo": {
-      "DisplayName": "Stark-Lebsack",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "aut",
+      "DisplayName": "Waelchi, Morissette and Sauer",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "ducimus",
       "CanOrderBy": true,
-      "Name": "Mante-Sanford",
+      "Name": "Schulist Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "ipsam",
-      "RestrictionListName": "Botsford, Dooley and Hamill",
-      "IsVisible": false,
-      "ExtraInfo": "beatae",
-      "Width": "est",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "explicabo"
+      "RestrictionType": "ratione",
+      "RestrictionListName": "Block-Cole",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "temporibus",
+      "IconHint": "officia",
+      "HeadingIconHint": "aut"
     },
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Zemlak, Stamm and Schaefer",
-        "Operator": "ipsa",
+        "Name": "Weber Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "non",
-          "et"
+          "dolore",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "in",
-          "sit"
+          "corporis",
+          "rerum"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -160,14 +160,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 992,
+        "InterParenthesis": 995,
         "InterOperator": "And",
-        "UniqueHash": 19
+        "UniqueHash": 908
       }
     ],
-    "InterParenthesis": 793,
+    "InterParenthesis": 469,
     "InterOperator": "And",
-    "UniqueHash": 299
+    "UniqueHash": 844
   }
 ]
 ```

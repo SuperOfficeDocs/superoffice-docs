@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,16 +91,16 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 186,
-  "ERPPriceListKey": "eum",
-  "QuoteConnectionId": 911,
-  "Name": "Howell Inc and Sons",
-  "Description": "Networked disintermediate Graphic Interface",
-  "Currency": "cupiditate",
-  "CurrencyName": "Borer, D'Amore and Gorczany",
-  "ValidFrom": "2004-05-17T15:05:43.5870797+02:00",
-  "ValidTo": "2009-04-08T15:05:43.5870797+02:00",
-  "IsActive": false,
+  "PriceListId": 128,
+  "ERPPriceListKey": "consectetur",
+  "QuoteConnectionId": 311,
+  "Name": "Lueilwitz-Grady",
+  "Description": "Polarised eco-centric function",
+  "Currency": "nihil",
+  "CurrencyName": "Friesen-Will",
+  "ValidFrom": "2018-05-04T18:25:51.9732447+02:00",
+  "ValidTo": "2009-06-27T18:25:51.9732447+02:00",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,12 +112,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldLength": 100
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

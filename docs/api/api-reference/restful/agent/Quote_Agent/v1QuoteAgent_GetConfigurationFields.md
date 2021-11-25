@@ -1,9 +1,9 @@
 ---
-title: GetConfigurationFields
+title: POST Agents/Quote/GetConfigurationFields
 id: v1QuoteAgent_GetConfigurationFields
 ---
 
-# GetConfigurationFields
+# POST Agents/Quote/GetConfigurationFields
 
 ```http
 POST /api/v1/Agents/Quote/GetConfigurationFields
@@ -83,12 +83,12 @@ Response body: object
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 555,
-  "ConnectorName": "Herman Group"
+  "ConnectionId": 259,
+  "ConnectorName": "Feil-Stehr"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "nulla",
-    "Rank": 547,
-    "DisplayName": "Nienow Inc and Sons",
-    "DisplayDescription": "Profit-focused empowering archive",
+    "FieldKey": "cum",
+    "Rank": 532,
+    "DisplayName": "Pagac, Morissette and Littel",
+    "DisplayDescription": "Phased object-oriented budgetary management",
     "FieldType": "Checkbox",
-    "ListName": "Grady-Ortiz",
-    "DefaultValue": "dolore",
-    "MaxLength": 306,
+    "ListName": "DuBuque Group",
+    "DefaultValue": "voluptate",
+    "MaxLength": 40,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Willms, Gerlach and Hessel",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "UdListDefinitionId": 952,
-    "Rank": 101
+    "Id": 689,
+    "Name": "Parker-Kohler",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 211,
+    "Rank": 399
   },
   {
-    "Id": 405,
-    "Name": "Willms, Gerlach and Hessel",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "UdListDefinitionId": 952,
-    "Rank": 101
+    "Id": 689,
+    "Name": "Parker-Kohler",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 211,
+    "Rank": 399
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Stroman, Bergstrom and Lemke",
-    "Tooltip": "dolorem",
+    "Id": 403,
+    "Name": "Nolan, Tillman and Wolf",
+    "Tooltip": "ex",
     "Deleted": true,
-    "UdListDefinitionId": 594,
-    "Rank": 25,
+    "UdListDefinitionId": 867,
+    "Rank": 292,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   }

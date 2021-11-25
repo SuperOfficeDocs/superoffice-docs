@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Okuneva LLC",
-  "Tooltip": "corrupti",
+  "Id": 950,
+  "Name": "Swaniawski, Anderson and Douglas",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 854,
-  "Rank": 286,
+  "UdListDefinitionId": 893,
+  "Rank": 74,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize virtual channels"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

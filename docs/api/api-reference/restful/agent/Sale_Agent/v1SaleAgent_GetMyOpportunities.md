@@ -1,9 +1,9 @@
 ---
-title: GetMyOpportunities
+title: POST Agents/Sale/GetMyOpportunities
 id: v1SaleAgent_GetMyOpportunities
 ---
 
-# GetMyOpportunities
+# POST Agents/Sale/GetMyOpportunities
 
 ```http
 POST /api/v1/Agents/Sale/GetMyOpportunities
@@ -97,11 +97,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 122
+  "Count": 546
 }
 ```
 
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bergnaum-Weimann",
-    "SaleDate": "2016-10-11T14:58:05.1856289+02:00",
-    "SaleId": 961,
-    "Probability": 397,
-    "Title": "sint",
-    "Amount": 26620.196,
-    "Currency": "quo",
-    "ProjectName": "O'Hara, Glover and Keebler",
-    "AssociateFullName": "Margaretta Considine",
-    "Description": "Re-contextualized optimal project",
+    "ContactName": "West LLC",
+    "SaleDate": "2018-04-26T18:28:50.1744426+02:00",
+    "SaleId": 67,
+    "Probability": 348,
+    "Title": "omnis",
+    "Amount": 23122.652,
+    "Currency": "et",
+    "ProjectName": "Cummerata Group",
+    "AssociateFullName": "Jasper Thompson",
+    "Description": "User-centric bandwidth-monitored functionalities",
     "Status": "Lost",
-    "WeightedAmount": 21091.82,
-    "ProjectId": 524,
-    "EarningPercent": 20104.61,
-    "Earning": 19220.822,
-    "ContactId": 832,
-    "AssociateId": 820,
-    "PersonId": 935,
-    "SaleTypeId": 425,
-    "SaleTypeName": "Hansen-Douglas",
-    "PersonFullName": "Kameron Luettgen",
+    "WeightedAmount": 8261.224,
+    "ProjectId": 60,
+    "EarningPercent": 30851.095999999998,
+    "Earning": 26488.568,
+    "ContactId": 326,
+    "AssociateId": 303,
+    "PersonId": 300,
+    "SaleTypeId": 722,
+    "SaleTypeName": "Collier, Monahan and Mann",
+    "PersonFullName": "Dortha Walter",
     "Completed": "Completed",
-    "ActiveErpLinks": 611,
-    "NextDueDate": "2003-02-05T14:58:05.1856289+01:00",
-    "Number": "1138148",
+    "ActiveErpLinks": 514,
+    "NextDueDate": "2007-07-04T18:28:50.1744426+02:00",
+    "Number": "846737",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

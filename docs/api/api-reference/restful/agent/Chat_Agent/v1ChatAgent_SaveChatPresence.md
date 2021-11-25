@@ -1,9 +1,9 @@
 ---
-title: SaveChatPresence
+title: POST Agents/Chat/SaveChatPresence
 id: v1ChatAgent_SaveChatPresence
 ---
 
-# SaveChatPresence
+# POST Agents/Chat/SaveChatPresence
 
 ```http
 POST /api/v1/Agents/Chat/SaveChatPresence

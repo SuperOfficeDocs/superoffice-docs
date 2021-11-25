@@ -72,15 +72,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 27,
-  "Value": "et",
-  "Tooltip": "debitis",
-  "Probability": 947,
+  "SaleStageId": 706,
+  "Value": "consequuntur",
+  "Tooltip": "in",
+  "Probability": 788,
   "Deleted": true,
-  "Rank": 460,
+  "Rank": 292,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "productize mission-critical methodologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 294
     }
   }
 }

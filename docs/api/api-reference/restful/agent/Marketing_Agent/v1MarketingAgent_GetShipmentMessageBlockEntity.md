@@ -1,9 +1,9 @@
 ---
-title: GetShipmentMessageBlockEntity
+title: POST Agents/Marketing/GetShipmentMessageBlockEntity
 id: v1MarketingAgent_GetShipmentMessageBlockEntity
 ---
 
-# GetShipmentMessageBlockEntity
+# POST Agents/Marketing/GetShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
@@ -25,7 +25,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=427
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=401
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -86,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 270,
-  "AssociateId": 903,
-  "Block": "dignissimos",
-  "Registered": "2016-01-15T14:58:04.4994654+01:00",
-  "RegisteredAssociateId": 760,
-  "Updated": "2005-05-15T14:58:04.4994654+02:00",
-  "UpdatedAssociateId": 862,
-  "UpdatedCount": 483,
+  "ShipmentMessageBlockId": 91,
+  "AssociateId": 722,
+  "Block": "nihil",
+  "Registered": "2017-05-26T18:28:49.4710876+02:00",
+  "RegisteredAssociateId": 811,
+  "Updated": "2012-03-19T18:28:49.4710876+01:00",
+  "UpdatedAssociateId": 247,
+  "UpdatedCount": 948,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "drive cutting-edge infrastructures"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

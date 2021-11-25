@@ -1,9 +1,9 @@
 ---
-title: GetActorTypeMapping
+title: POST Agents/ErpSync/GetActorTypeMapping
 id: v1ErpSyncAgent_GetActorTypeMapping
 ---
 
-# GetActorTypeMapping
+# POST Agents/ErpSync/GetActorTypeMapping
 
 ```http
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 406,
+  "ErpConnectionId": 770,
   "ActorType": "Customer"
 }
 ```
@@ -99,36 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 760,
+  "ErpConnectionId": 934,
   "IsActive": true,
   "FieldMappings": [
     {
       "ErpFieldId": 733,
-      "CrmFieldKey": "itaque",
-      "CrmDisplayName": "Swaniawski Inc and Sons",
-      "CrmDisplayTooltip": "ut",
-      "ErpFieldKey": "iste",
+      "CrmFieldKey": "et",
+      "CrmDisplayName": "Boyer Inc and Sons",
+      "CrmDisplayTooltip": "consectetur",
+      "ErpFieldKey": "cumque",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Christiansen, Purdy and Beahan",
-      "ErpDisplayTooltip": "repellat",
-      "SyncToCrm": true,
-      "SyncToErp": true,
+      "ErpDisplayName": "Cummerata Inc and Sons",
+      "ErpDisplayTooltip": "soluta",
+      "SyncToCrm": false,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": false,
+      "ShowInSearch": true,
       "AlreadyMapped": true,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "et",
+      "ListReference": "dolores",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "maximize mission-critical eyeballs"
           },
           "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldLength": 246
         }
       }
     }
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldLength": 744
     }
   }
 }

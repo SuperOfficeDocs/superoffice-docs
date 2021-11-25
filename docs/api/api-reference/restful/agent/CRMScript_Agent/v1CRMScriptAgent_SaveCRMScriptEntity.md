@@ -1,9 +1,9 @@
 ---
-title: SaveCRMScriptEntity
+title: POST Agents/CRMScript/SaveCRMScriptEntity
 id: v1CRMScriptAgent_SaveCRMScriptEntity
 ---
 
-# SaveCRMScriptEntity
+# POST Agents/CRMScript/SaveCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
@@ -90,21 +90,21 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 530,
-  "UniqueIdentifier": "ipsum",
-  "Name": "Oberbrunner LLC",
-  "Description": "Vision-oriented local synergy",
-  "IncludeId": "explicabo",
-  "HierarchyId": 454,
-  "Source": "quis",
-  "Registered": "2013-01-19T14:58:03.736461+01:00",
-  "RegisteredAssociateId": 243,
-  "Updated": "2014-01-14T14:58:03.736461+01:00",
-  "UpdatedAssociateId": 958
+  "EjscriptId": 559,
+  "UniqueIdentifier": "architecto",
+  "Name": "Reichel-Wyman",
+  "Description": "Digitized regional task-force",
+  "IncludeId": "ut",
+  "HierarchyId": 690,
+  "Source": "dolores",
+  "Registered": "2015-10-28T18:28:48.6279277+01:00",
+  "RegisteredAssociateId": 234,
+  "Updated": "2005-06-16T18:28:48.6279277+02:00",
+  "UpdatedAssociateId": 951
 }
 ```
 
@@ -113,20 +113,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 604,
-  "UniqueIdentifier": "corporis",
-  "Name": "Spinka, Waelchi and Gutkowski",
-  "Description": "Customer-focused explicit success",
-  "IncludeId": "optio",
-  "HierarchyId": 918,
-  "Source": "quod",
-  "Registered": "2016-05-31T14:58:03.7374597+02:00",
-  "RegisteredAssociateId": 486,
-  "Updated": "2003-08-07T14:58:03.7374597+02:00",
-  "UpdatedAssociateId": 581,
+  "EjscriptId": 792,
+  "UniqueIdentifier": "eveniet",
+  "Name": "Bogan, Lynch and Mueller",
+  "Description": "Integrated context-sensitive project",
+  "IncludeId": "amet",
+  "HierarchyId": 440,
+  "Source": "blanditiis",
+  "Registered": "2008-01-31T18:28:48.6279277+01:00",
+  "RegisteredAssociateId": 784,
+  "Updated": "2001-03-05T18:28:48.6279277+01:00",
+  "UpdatedAssociateId": 736,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "unleash ubiquitous e-commerce"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldLength": 643
     }
   }
 }

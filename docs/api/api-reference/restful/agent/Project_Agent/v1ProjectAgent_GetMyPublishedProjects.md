@@ -1,9 +1,9 @@
 ---
-title: GetMyPublishedProjects
+title: POST Agents/Project/GetMyPublishedProjects
 id: v1ProjectAgent_GetMyPublishedProjects
 ---
 
-# GetMyPublishedProjects
+# POST Agents/Project/GetMyPublishedProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyPublishedProjects
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 622,
-    "Name": "Hahn-Reichel",
-    "Description": "Compatible disintermediate initiative",
+    "ProjectId": 315,
+    "Name": "Halvorson, Funk and Cummerata",
+    "Description": "Synergized full-range infrastructure",
     "URL": "http://www.example.com/",
-    "Type": "voluptatem",
-    "AssociateId": 340,
-    "AssociateFullName": "Reggie Pollich",
-    "TypeId": 764,
-    "Updated": "2014-03-10T14:58:04.8614596+01:00",
-    "StatusId": 648,
-    "Status": "necessitatibus",
-    "TextId": 346,
-    "PublishTo": "2014-06-19T14:58:04.8614596+02:00",
-    "PublishFrom": "1995-11-10T14:58:04.8614596+01:00",
-    "IsPublished": true,
+    "Type": "quo",
+    "AssociateId": 244,
+    "AssociateFullName": "Andrew Rohan",
+    "TypeId": 106,
+    "Updated": "2021-09-12T18:28:49.7851434+02:00",
+    "StatusId": 852,
+    "Status": "quia",
+    "TextId": 520,
+    "PublishTo": "2020-08-07T18:28:49.7851434+02:00",
+    "PublishFrom": "2006-06-25T18:28:49.7851434+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "839005",
-    "ActiveErpLinks": 448,
+    "ProjectNumber": "750049",
+    "ActiveErpLinks": 465,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 855
       }
     }
   }

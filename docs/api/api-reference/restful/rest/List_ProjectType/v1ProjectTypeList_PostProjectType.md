@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Goldner LLC",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "UdListDefinitionId": 876,
-  "Rank": 130
+  "Id": 465,
+  "Name": "Rolfson-Bednar",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "UdListDefinitionId": 88,
+  "Rank": 676
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Gleichner Inc and Sons",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 469,
-  "Rank": 807,
+  "Id": 752,
+  "Name": "Lind-Bahringer",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 388,
+  "Rank": 635,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 507
     }
   }
 }

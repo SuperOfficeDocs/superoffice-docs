@@ -28,7 +28,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=asperiores
+GET /api/v1/Contact/Duplicates/{name}?department=ducimus
 ```
 
 
@@ -81,11 +81,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Zulauf-Howell",
-    "SoPrimaryKey": 669,
-    "EntryName": "Swaniawski Inc and Sons",
-    "EntryIdentifier": "molestiae",
-    "RuleDisplayName": "Douglas, Rogahn and Rogahn",
+    "RuleName": "Kessler Group",
+    "SoPrimaryKey": 60,
+    "EntryName": "Marks, Russel and Ritchie",
+    "EntryIdentifier": "in",
+    "RuleDisplayName": "Armstrong Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldLength": 799
       }
     }
   }

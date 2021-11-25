@@ -95,21 +95,21 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "cupiditate",
-    "InputValues2": "ut"
+    "InputValues1": "id",
+    "InputValues2": "id"
   },
-  "BlockExecution": false,
-  "NavigateTo": "ab",
-  "Message": "molestias",
+  "BlockExecution": true,
+  "NavigateTo": "quo",
+  "Message": "earum",
   "OutputValues": {
-    "OutputValues1": "libero",
-    "OutputValues2": "nam"
+    "OutputValues1": "natus",
+    "OutputValues2": "veritatis"
   },
   "StateValues": {
-    "StateValues1": "voluptatem",
-    "StateValues2": "eius"
+    "StateValues1": "tempore",
+    "StateValues2": "amet"
   },
-  "Exception": "voluptas"
+  "Exception": "maiores"
 }
 ```
 
@@ -120,24 +120,24 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "id",
-    "InputValues2": "natus"
+    "InputValues1": "rem",
+    "InputValues2": "ullam"
   },
   "BlockExecution": false,
-  "NavigateTo": "architecto",
-  "Message": "eius",
+  "NavigateTo": "vero",
+  "Message": "nemo",
   "OutputValues": {
-    "OutputValues1": "qui",
-    "OutputValues2": "omnis"
+    "OutputValues1": "corporis",
+    "OutputValues2": "excepturi"
   },
   "StateValues": {
-    "StateValues1": "dolor",
-    "StateValues2": "est"
+    "StateValues1": "est",
+    "StateValues2": "tempora"
   },
-  "Exception": "sint",
+  "Exception": "hic",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "seize viral channels"
   },
   "FieldProperties": {
     "fieldName": {
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

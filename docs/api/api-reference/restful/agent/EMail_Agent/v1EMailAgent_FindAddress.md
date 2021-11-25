@@ -1,9 +1,9 @@
 ---
-title: FindAddress
+title: POST Agents/EMail/FindAddress
 id: v1EMailAgent_FindAddress
 ---
 
-# FindAddress
+# POST Agents/EMail/FindAddress
 
 ```http
 POST /api/v1/Agents/EMail/FindAddress
@@ -83,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "voluptatum"
+  "Address": "molestiae"
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 159,
-    "ContactName": "Carter, Johnston and Wiza",
-    "PersonId": 610,
-    "PersonName": "Robel-Adams",
-    "AssociateId": 441,
-    "Address": "et",
-    "EmailId": 468,
+    "ContactId": 729,
+    "ContactName": "Graham Inc and Sons",
+    "PersonId": 68,
+    "PersonName": "Grady-Kuvalis",
+    "AssociateId": 281,
+    "Address": "adipisci",
+    "EmailId": 266,
     "DuplicatePersonIds": [
-      292,
-      416
+      310,
+      641
     ],
-    "Name": "Runolfsson, Beer and Conroy",
+    "Name": "Christiansen Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

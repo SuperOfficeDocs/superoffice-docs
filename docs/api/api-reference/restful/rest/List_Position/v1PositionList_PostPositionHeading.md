@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 133,
-  "Name": "Koss-Will",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 344,
-  "UdListDefinitionId": 236
+  "HeadingId": 552,
+  "Name": "Hickle-Morar",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 884,
+  "UdListDefinitionId": 252
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 659,
-  "Name": "Monahan LLC",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 281,
-  "UdListDefinitionId": 477,
+  "HeadingId": 701,
+  "Name": "Kunde, Christiansen and Emard",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "Rank": 809,
+  "UdListDefinitionId": 433,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldLength": 270
     }
   }
 }

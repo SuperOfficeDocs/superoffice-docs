@@ -2,8 +2,6 @@
 title: Document
 ---
 
-# Document
-
 ```http
 /api/v1/Document
 ```

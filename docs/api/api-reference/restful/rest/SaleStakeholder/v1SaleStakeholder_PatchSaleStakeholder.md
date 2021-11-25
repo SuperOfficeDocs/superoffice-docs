@@ -127,45 +127,45 @@ Response body: object
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tempore",
+    "path": "sit",
     "value": {
       "value1": {
-        "PrimaryKey": 7171,
-        "EntityName": "person",
-        "personId": 7171,
-        "fullName": "Nettie Pollich"
+        "PrimaryKey": 2742,
+        "EntityName": "sale",
+        "saleId": 2742,
+        "contactId": 1125,
+        "name": "Ferry-Will"
       },
       "value2": {
-        "PrimaryKey": 2239,
-        "EntityName": "sale",
-        "saleId": 2239,
-        "contactId": 9999,
-        "name": "Leffler Inc and Sons"
+        "PrimaryKey": 177,
+        "EntityName": "person",
+        "personId": 177,
+        "fullName": "Clare Shields"
       }
     }
   },
   {
     "op": "add",
-    "path": "tempore",
+    "path": "sit",
     "value": {
       "value1": {
-        "PrimaryKey": 7171,
-        "EntityName": "person",
-        "personId": 7171,
-        "fullName": "Nettie Pollich"
+        "PrimaryKey": 2742,
+        "EntityName": "sale",
+        "saleId": 2742,
+        "contactId": 1125,
+        "name": "Ferry-Will"
       },
       "value2": {
-        "PrimaryKey": 2239,
-        "EntityName": "sale",
-        "saleId": 2239,
-        "contactId": 9999,
-        "name": "Leffler Inc and Sons"
+        "PrimaryKey": 177,
+        "EntityName": "person",
+        "personId": 177,
+        "fullName": "Clare Shields"
       }
     }
   }
@@ -177,25 +177,25 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nitzsche-Boehm",
-  "Comment": "asperiores",
-  "StakeholderRoleId": 941,
-  "CountryId": 33,
-  "PersonId": 896,
-  "EmailDescription": "rey.morar@crookscormier.ca",
-  "EmailId": 944,
-  "EmailAddress": "kayden_klein@morarbaumbach.info",
-  "PhoneId": 53,
-  "ContactName": "Tremblay Inc and Sons",
-  "ContactId": 754,
-  "SaleId": 681,
-  "Mrmrs": "quam",
-  "Firstname": "Mertie",
-  "MiddleName": "Douglas Group",
-  "Lastname": "Sawayn",
-  "SaleStakeholderId": 442,
-  "Rank": 942,
-  "Phone": "(635)831-3184 x721",
+  "StakeholderRoleName": "Stamm-Luettgen",
+  "Comment": "qui",
+  "StakeholderRoleId": 444,
+  "CountryId": 882,
+  "PersonId": 326,
+  "EmailDescription": "giovanny.gleichner@sipeshauck.biz",
+  "EmailId": 236,
+  "EmailAddress": "jacey_okon@quigley.biz",
+  "PhoneId": 413,
+  "ContactName": "Streich LLC",
+  "ContactId": 258,
+  "SaleId": 687,
+  "Mrmrs": "repellendus",
+  "Firstname": "Aracely",
+  "MiddleName": "Armstrong, Dooley and Ryan",
+  "Lastname": "Wiegand",
+  "SaleStakeholderId": 931,
+  "Rank": 72,
+  "Phone": "786-616-6860 x2341",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -206,13 +206,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

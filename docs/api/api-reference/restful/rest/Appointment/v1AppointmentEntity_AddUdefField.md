@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 45,
-  "ColumnId": 703,
-  "FieldDefault": "eum",
-  "FieldHeight": 411,
-  "FieldLabel": "sed",
-  "FieldLeft": 616,
-  "FieldTop": 619,
+  "UDefFieldId": 688,
+  "ColumnId": 681,
+  "FieldDefault": "neque",
+  "FieldHeight": 370,
+  "FieldLabel": "perspiciatis",
+  "FieldLeft": 170,
+  "FieldTop": 855,
   "FieldType": "Checkbox",
-  "FieldWidth": 530,
-  "FormatMask": "facere",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 218,
-  "LabelLeft": 855,
-  "LabelTop": 240,
-  "LabelWidth": 737,
-  "LastVersionId": 627,
-  "ListTableId": 300,
+  "FieldWidth": 86,
+  "FormatMask": "nesciunt",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 143,
+  "LabelLeft": 825,
+  "LabelTop": 866,
+  "LabelWidth": 927,
+  "LastVersionId": 897,
+  "ListTableId": 368,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 972,
-  "ProgId": "aut",
+  "Page1LineNo": 248,
+  "ProgId": "animi",
   "IsReadOnly": false,
-  "ShortLabel": "minima",
-  "TabOrder": 878,
-  "TextLength": 526,
-  "Tooltip": "provident",
+  "ShortLabel": "voluptatem",
+  "TabOrder": 230,
+  "TextLength": 689,
+  "Tooltip": "non",
   "UdefIdentity": 99,
-  "UDListDefinitionId": 336,
+  "UDListDefinitionId": 824,
   "Justification": "Center",
-  "Version": 396,
-  "TemplateVariableName": "Tillman-Witting",
-  "HasBeenPublished": false,
-  "MdoListName": "Kemmer-Rau",
+  "Version": 557,
+  "TemplateVariableName": "Reilly-Schuppe",
+  "HasBeenPublished": true,
+  "MdoListName": "Daugherty LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

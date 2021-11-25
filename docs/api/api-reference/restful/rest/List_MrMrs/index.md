@@ -2,8 +2,6 @@
 title: List_MrMrs
 ---
 
-# List_MrMrs
-
 ```http
 /api/v1/List/MrMrs
 ```

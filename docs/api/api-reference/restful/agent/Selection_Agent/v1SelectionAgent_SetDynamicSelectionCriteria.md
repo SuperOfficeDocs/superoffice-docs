@@ -1,9 +1,9 @@
 ---
-title: SetDynamicSelectionCriteria
+title: POST Agents/Selection/SetDynamicSelectionCriteria
 id: v1SelectionAgent_SetDynamicSelectionCriteria
 ---
 
-# SetDynamicSelectionCriteria
+# POST Agents/Selection/SetDynamicSelectionCriteria
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
@@ -85,18 +85,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 576,
+  "SelectionId": 858,
   "Criteria": [
     {
-      "Name": "Fisher-Torphy",
-      "Operator": "dolorem",
+      "Name": "Koepp Group",
+      "Operator": "ut",
       "Values": [
-        "expedita",
-        "et"
+        "similique",
+        "laudantium"
       ],
       "DisplayValues": [
-        "in",
-        "suscipit"
+        "qui",
+        "numquam"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 250,
+      "InterParenthesis": 324,
       "InterOperator": "And",
-      "UniqueHash": 637
+      "UniqueHash": 610
     }
   ]
 }
@@ -118,43 +118,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jerde Inc and Sons",
-    "Operator": "magnam",
+    "Name": "Greenholt Group",
+    "Operator": "iste",
     "Values": [
-      "rem",
-      "animi"
+      "autem",
+      "consectetur"
     ],
     "DisplayValues": [
-      "blanditiis",
-      "in"
+      "minus",
+      "nam"
     ],
     "ColumnInfo": {
-      "DisplayName": "Larkin-Dooley",
-      "DisplayTooltip": "aspernatur",
-      "DisplayType": "magni",
+      "DisplayName": "Rosenbaum, Legros and Ullrich",
+      "DisplayTooltip": "aut",
+      "DisplayType": "sit",
       "CanOrderBy": false,
-      "Name": "Feeney LLC",
+      "Name": "Wuckert-Greenholt",
       "CanRestrictBy": false,
-      "RestrictionType": "tempora",
-      "RestrictionListName": "Johns-Johnston",
+      "RestrictionType": "est",
+      "RestrictionListName": "Ankunding-Pfannerstill",
       "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "corporis",
-      "IconHint": "mollitia",
-      "HeadingIconHint": "ipsum"
+      "ExtraInfo": "qui",
+      "Width": "impedit",
+      "IconHint": "error",
+      "HeadingIconHint": "possimus"
     },
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bode-Heidenreich",
-        "Operator": "dolorem",
+        "Name": "Wiza, Purdy and Bergnaum",
+        "Operator": "rerum",
         "Values": [
-          "aut",
-          "blanditiis"
+          "et",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "iure",
-          "nesciunt"
+          "atque",
+          "dolores"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -162,14 +162,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 103,
+        "InterParenthesis": 885,
         "InterOperator": "And",
-        "UniqueHash": 182
+        "UniqueHash": 127
       }
     ],
-    "InterParenthesis": 623,
+    "InterParenthesis": 692,
     "InterOperator": "And",
-    "UniqueHash": 13
+    "UniqueHash": 688
   }
 ]
 ```

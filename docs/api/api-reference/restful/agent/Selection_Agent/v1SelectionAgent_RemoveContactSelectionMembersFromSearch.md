@@ -1,9 +1,9 @@
 ---
-title: RemoveContactSelectionMembersFromSearch
+title: POST Agents/Selection/RemoveContactSelectionMembersFromSearch
 id: v1SelectionAgent_RemoveContactSelectionMembersFromSearch
 ---
 
-# RemoveContactSelectionMembersFromSearch
+# POST Agents/Selection/RemoveContactSelectionMembersFromSearch
 
 ```http
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
@@ -69,12 +69,12 @@ Response body: int32
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 69,
-  "StorageKey": "officiis"
+  "SelectionId": 846,
+  "StorageKey": "molestiae"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-407
+509
 ```

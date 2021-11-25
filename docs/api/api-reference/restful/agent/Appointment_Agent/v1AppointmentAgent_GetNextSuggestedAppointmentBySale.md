@@ -1,9 +1,9 @@
 ---
-title: GetNextSuggestedAppointmentBySale
+title: POST Agents/Appointment/GetNextSuggestedAppointmentBySale
 id: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
 ---
 
-# GetNextSuggestedAppointmentBySale
+# POST Agents/Appointment/GetNextSuggestedAppointmentBySale
 
 ```http
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -89,13 +89,13 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 465,
-  "CurrentAppointmentId": 559,
-  "SkipCompleteCheck": true
+  "SaleId": 801,
+  "CurrentAppointmentId": 980,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -104,41 +104,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 827,
-  "Deleted": 456,
-  "DaysFuture": 921,
-  "Tooltip": "at",
-  "Text": "rem",
-  "TaskId": 807,
-  "SuggestedAppointmentId": 732,
-  "SaleTypeStageLinkId": 591,
-  "RegisteredAssociateId": 386,
-  "Rank": 813,
-  "ProjectTypeStatusLinkId": 396,
-  "Name": "Watsica Inc and Sons",
-  "Duration": 781,
+  "AutoSuggest": 377,
+  "Deleted": 938,
+  "DaysFuture": 8,
+  "Tooltip": "rerum",
+  "Text": "et",
+  "TaskId": 43,
+  "SuggestedAppointmentId": 958,
+  "SaleTypeStageLinkId": 436,
+  "RegisteredAssociateId": 348,
+  "Rank": 87,
+  "ProjectTypeStatusLinkId": 402,
+  "Name": "Wintheiser-Flatley",
+  "Duration": 741,
   "Associate": {
-    "AssociateId": 35,
-    "Name": "Skiles Group",
-    "PersonId": 35,
-    "Rank": 623,
-    "Tooltip": "et",
+    "AssociateId": 620,
+    "Name": "Bruen Group",
+    "PersonId": 238,
+    "Rank": 620,
+    "Tooltip": "excepturi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 518,
-    "FullName": "Ms. Lesly Bogan",
-    "FormalName": "Zemlak, Wilkinson and Goldner",
-    "Deleted": false,
-    "EjUserId": 548,
-    "UserName": "Kassulke LLC",
+    "GroupIdx": 106,
+    "FullName": "Quinn Predovic",
+    "FormalName": "Mohr Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 582,
+    "UserName": "Collier-Zieme",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "grow sticky interfaces"
+          "Reason": "benchmark dynamic e-tailers"
         },
         "FieldType": "System.String",
-        "FieldLength": 309
+        "FieldLength": 52
       }
     }
   },
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 980
     }
   }
 }

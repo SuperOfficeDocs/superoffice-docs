@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTypesForPlugin
+title: POST Agents/List/GetDocumentTypesForPlugin
 id: v1ListAgent_GetDocumentTypesForPlugin
 ---
 
-# GetDocumentTypesForPlugin
+# POST Agents/List/GetDocumentTypesForPlugin
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTypesForPlugin
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 504
+  "PluginId": 42
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "odio",
-  "2": "minima"
+  "1": "id",
+  "2": "voluptatem"
 }
 ```

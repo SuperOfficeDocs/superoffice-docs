@@ -1,9 +1,9 @@
 ---
-title: GetDepartmentPhones
+title: POST Agents/PhoneList/GetDepartmentPhones
 id: v1PhoneListAgent_GetDepartmentPhones
 ---
 
-# GetDepartmentPhones
+# POST Agents/PhoneList/GetDepartmentPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
@@ -82,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 657
+  "DepartmentId": 86
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "482-200-5633 x2478",
-    "PersonCellPhone": "(184)384-4564 x40727",
-    "PersonPrivatePhone": "(231)262-2752",
-    "PersonFaxNumber": "1380121",
-    "PersonPagerNumber": "1239766",
-    "PersonEmail": "anika@will.co.uk",
-    "Id": 100,
-    "Name": "Ferry, Douglas and Zboncak",
-    "Tooltip": "perspiciatis",
-    "UniqueId": "et",
+    "PersonDirectPhone": "345-451-1037 x342",
+    "PersonCellPhone": "1-348-603-1338 x147",
+    "PersonPrivatePhone": "(711)134-8227 x6103",
+    "PersonFaxNumber": "1901228",
+    "PersonPagerNumber": "1840216",
+    "PersonEmail": "rodrigo.marvin@gusikowskischaefer.com",
+    "Id": 304,
+    "Name": "Blanda Group",
+    "Tooltip": "aspernatur",
+    "UniqueId": "praesentium",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 823
       }
     }
   }

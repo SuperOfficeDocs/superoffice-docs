@@ -1,9 +1,9 @@
 ---
-title: GetAllInDomain
+title: POST Agents/List/GetAllInDomain
 id: v1ListAgent_GetAllInDomain
 ---
 
-# GetAllInDomain
+# POST Agents/List/GetAllInDomain
 
 ```http
 POST /api/v1/Agents/List/GetAllInDomain
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -98,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 352,
+    "HierarchyId": 599,
     "Domain": "Dashboards",
-    "Name": "Baumbach-Hammes",
-    "Fullname": "minus",
-    "ParentId": 962,
+    "Name": "Bins Group",
+    "Fullname": "saepe",
+    "ParentId": 942,
     "Children": [
       {
-        "HierarchyId": 581,
+        "HierarchyId": 323,
         "Domain": "Dashboards",
-        "Name": "Cummerata Inc and Sons",
-        "Fullname": "sunt",
-        "ParentId": 767,
+        "Name": "Botsford Inc and Sons",
+        "Fullname": "nobis",
+        "ParentId": 931,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-01-22T14:58:04.4064652+01:00",
-        "RegisteredAssociateId": 817,
-        "Updated": "2011-06-26T14:58:04.4064652+02:00",
-        "UpdatedAssociateId": 145,
+        "Registered": "2016-10-19T18:28:49.3381279+02:00",
+        "RegisteredAssociateId": 961,
+        "Updated": "2012-01-25T18:28:49.3381279+01:00",
+        "UpdatedAssociateId": 523,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldLength": 757
           }
         }
       }
     ],
-    "Registered": "2008-03-02T14:58:04.4064652+01:00",
-    "RegisteredAssociateId": 326,
-    "Updated": "2008-12-15T14:58:04.4064652+01:00",
-    "UpdatedAssociateId": 911,
+    "Registered": "2002-09-01T18:28:49.3381279+02:00",
+    "RegisteredAssociateId": 65,
+    "Updated": "2001-07-22T18:28:49.3381279+02:00",
+    "UpdatedAssociateId": 810,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 842
       }
     }
   }

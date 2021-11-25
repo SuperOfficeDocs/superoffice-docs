@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Moen-Kautzer",
-  "DisplayName": "Luettgen, Krajcik and VonRueden",
-  "Description": "Universal scalable artificial intelligence",
-  "ShortLabel": "aut",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "FieldName": "Moen-Krajcik",
+  "DisplayName": "Carter, Rippin and Corkery",
+  "Description": "Object-based multi-tasking software",
+  "ShortLabel": "unde",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 185,
-  "TemplateVariableName": "Macejkovic Inc and Sons"
+  "IsExternal": false,
+  "Rank": 389,
+  "TemplateVariableName": "Mueller Group"
 }
 ```

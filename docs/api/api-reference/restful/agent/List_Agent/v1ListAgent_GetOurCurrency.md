@@ -1,9 +1,9 @@
 ---
-title: GetOurCurrency
+title: POST Agents/List/GetOurCurrency
 id: v1ListAgent_GetOurCurrency
 ---
 
-# GetOurCurrency
+# POST Agents/List/GetOurCurrency
 
 ```http
 POST /api/v1/Agents/List/GetOurCurrency
@@ -75,9 +75,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Value": "ipsam",
-  "Tooltip": "quo",
+  "Id": 407,
+  "Value": "minus",
+  "Tooltip": "harum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

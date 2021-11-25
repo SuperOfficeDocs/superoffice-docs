@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582,
-  "Name": "Spinka LLC",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "UdListDefinitionId": 696,
-  "Rank": 229,
+  "Id": 199,
+  "Name": "Marks-Howe",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "UdListDefinitionId": 121,
+  "Rank": 767,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 865
     }
   }
 }

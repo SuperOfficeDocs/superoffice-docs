@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Rosenbaum, Mante and Kohler",
-  "Tooltip": "doloribus",
-  "Deleted": true,
-  "Rank": 389,
+  "Id": 56,
+  "Name": "Fahey-Gibson",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 974,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Kautzer-Rippin",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 391,
+  "Id": 244,
+  "Name": "Macejkovic, Abbott and Mraz",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 585,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "labore",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 189
     }
   }
 }

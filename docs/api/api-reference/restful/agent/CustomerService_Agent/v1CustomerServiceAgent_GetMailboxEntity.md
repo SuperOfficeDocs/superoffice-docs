@@ -1,9 +1,9 @@
 ---
-title: GetMailboxEntity
+title: POST Agents/CustomerService/GetMailboxEntity
 id: v1CustomerServiceAgent_GetMailboxEntity
 ---
 
-# GetMailboxEntity
+# POST Agents/CustomerService/GetMailboxEntity
 
 ```http
 POST /api/v1/Agents/CustomerService/GetMailboxEntity
@@ -25,7 +25,7 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=537
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=728
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/GetMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -85,13 +85,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 874,
+  "MailInFilterId": 385,
   "ServerType": "Facebook",
-  "Address": "numquam",
-  "Username": "nemo",
-  "Password": "ad",
-  "Server": "et",
-  "Port": 155,
+  "Address": "dolor",
+  "Username": "nam",
+  "Password": "voluptatum",
+  "Server": "quia",
+  "Port": 175,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 260
     }
   }
 }

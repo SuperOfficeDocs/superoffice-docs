@@ -1,9 +1,9 @@
 ---
-title: GetDefaultAssociateUserName
+title: POST Agents/User/GetDefaultAssociateUserName
 id: v1UserAgent_GetDefaultAssociateUserName
 ---
 
-# GetDefaultAssociateUserName
+# POST Agents/User/GetDefaultAssociateUserName
 
 ```http
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
@@ -75,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 68,
-    "Name": "Kessler, Brekke and Konopelski",
-    "Rank": 901,
-    "Tooltip": "saepe",
+    "AssociateId": 300,
+    "Name": "Flatley-Ritchie",
+    "Rank": 921,
+    "Tooltip": "alias",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2019-09-12T14:58:05.4236227+02:00",
-    "Lastlogout": "2013-08-24T14:58:05.4236227+02:00",
-    "EjUserId": 260,
-    "RequestSignature": "voluptas",
+    "Lastlogin": "2004-06-07T18:28:50.423412+02:00",
+    "Lastlogout": "2021-03-16T18:28:50.423412+01:00",
+    "EjUserId": 199,
+    "RequestSignature": "sint",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": true,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Sawayn, Terry and Thompson",
+    "UserName": "Johnson LLC",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Pagac, Brown and Hermann",
+    "NickName": "Nicolas-Crooks",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "aut",
-      "ExtraFields2": "delectus"
+      "ExtraFields1": "sit",
+      "ExtraFields2": "eius"
     },
     "CustomFields": {
-      "CustomFields1": "nulla",
-      "CustomFields2": "eum"
+      "CustomFields1": "et",
+      "CustomFields2": "magnam"
     },
     "PostSaveCommands": [
       {},
@@ -129,5 +129,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Monahan, Medhurst and Bogisich"
+"Hoppe LLC"
 ```

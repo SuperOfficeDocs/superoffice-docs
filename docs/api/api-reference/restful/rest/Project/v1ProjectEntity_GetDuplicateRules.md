@@ -57,7 +57,7 @@ Response body: array
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -66,10 +66,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rutherford Inc and Sons",
-    "DisplayName": "Bogan Inc and Sons",
-    "DisplayTooltip": "harum",
-    "IsActive": true,
+    "Name": "Mosciski, Mills and Rosenbaum",
+    "DisplayName": "Lindgren-Dibbert",
+    "DisplayTooltip": "accusamus",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -80,16 +80,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   },
   {
-    "Name": "Rutherford Inc and Sons",
-    "DisplayName": "Bogan Inc and Sons",
-    "DisplayTooltip": "harum",
-    "IsActive": true,
+    "Name": "Mosciski, Mills and Rosenbaum",
+    "DisplayName": "Lindgren-Dibbert",
+    "DisplayTooltip": "accusamus",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   }

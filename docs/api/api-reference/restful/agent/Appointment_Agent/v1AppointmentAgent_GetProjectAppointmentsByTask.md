@@ -1,9 +1,9 @@
 ---
-title: GetProjectAppointmentsByTask
+title: POST Agents/Appointment/GetProjectAppointmentsByTask
 id: v1AppointmentAgent_GetProjectAppointmentsByTask
 ---
 
-# GetProjectAppointmentsByTask
+# POST Agents/Appointment/GetProjectAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 941,
-  "StartTime": "1996-01-23T14:58:02.8535785+01:00",
-  "EndTime": "2006-07-05T14:58:02.8535785+02:00",
-  "Count": 385,
-  "TaskId": 25
+  "ProjectId": 219,
+  "StartTime": "2004-11-21T18:28:47.7028446+01:00",
+  "EndTime": "2015-11-04T18:28:47.7028446+01:00",
+  "Count": 823,
+  "TaskId": 841
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 960,
-    "StartDate": "2021-05-25T14:58:02.854574+02:00",
-    "EndDate": "2013-05-13T14:58:02.854574+02:00",
+    "AppointmentId": 925,
+    "StartDate": "2006-02-04T18:28:47.7038442+01:00",
+    "EndDate": "2007-05-10T18:28:47.7038442+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Jose Kiehn",
-    "ContactName": "Schroeder-Howell",
-    "Description": "Realigned 24/7 groupware",
-    "PersonFullName": "Noemi Beatty Jr.",
-    "PersonId": 742,
-    "ContactId": 59,
-    "ProjectId": 730,
-    "ProjectName": "Hansen Group",
-    "IsPublished": false,
-    "AssociateId": 257,
-    "ColorIndex": 315,
+    "Task": "id",
+    "AssociateFullName": "Wendy Beatty",
+    "ContactName": "Langworth, Hauck and Lang",
+    "Description": "Devolved homogeneous open system",
+    "PersonFullName": "Sigrid Graham",
+    "PersonId": 492,
+    "ContactId": 223,
+    "ProjectId": 933,
+    "ProjectName": "Cronin LLC",
+    "IsPublished": true,
+    "AssociateId": 657,
+    "ColorIndex": 713,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 20,
-    "PriorityName": "Renner, Goodwin and Aufderhar",
+    "PriorityId": 474,
+    "PriorityName": "Wilderman, Parker and Johnston",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2010-07-12T14:58:02.8555731+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2007-05-12T18:28:47.7048442+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-07-02T14:58:02.8555731+02:00",
-    "RecurringEndDate": "2019-12-28T14:58:02.8555731+01:00",
-    "MotherId": 109,
-    "AssignedBy": 530,
-    "AssignedByFullName": "Hortense Lubowitz",
+    "RecurringStartDate": "1996-11-01T18:28:47.7048442+01:00",
+    "RecurringEndDate": "2019-07-27T18:28:47.7048442+02:00",
+    "MotherId": 10,
+    "AssignedBy": 39,
+    "AssignedByFullName": "Miss Ines Rau",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "ut",
-    "SaleId": 721,
-    "SaleName": "Parker, Smitham and Von",
-    "AssociateName": "Pacocha LLC",
-    "CreatedDate": "1995-06-20T14:58:02.8555731+02:00",
-    "CreatedBy": "magni",
-    "CreatedByFullName": "Susana Bergnaum IV",
-    "CreatedByAssociateId": 561,
+    "Location": "quis",
+    "AlarmLeadTime": "qui",
+    "SaleId": 951,
+    "SaleName": "Anderson, Dickens and Mante",
+    "AssociateName": "Stroman Group",
+    "CreatedDate": "2015-10-08T18:28:47.7048442+02:00",
+    "CreatedBy": "ad",
+    "CreatedByFullName": "Jameson Ryan",
+    "CreatedByAssociateId": 918,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldLength": 741
       }
     }
   }

@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wyman Group",
-  "DisplayName": "Kertzmann Inc and Sons",
-  "Description": "Public-key 4th generation contingency",
-  "ShortLabel": "autem",
+  "FieldName": "Gerhold Inc and Sons",
+  "DisplayName": "Moen-Cremin",
+  "Description": "Synergized methodical budgetary management",
+  "ShortLabel": "soluta",
   "HideLabel": false,
   "HideField": true,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 471,
-  "TemplateVariableName": "Casper-Reilly"
+  "Rank": 346,
+  "TemplateVariableName": "Schulist-Mertz"
 }
 ```

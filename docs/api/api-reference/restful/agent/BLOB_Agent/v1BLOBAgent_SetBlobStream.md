@@ -1,9 +1,9 @@
 ---
-title: SetBlobStream
+title: POST Agents/BLOB/SetBlobStream
 id: v1BLOBAgent_SetBlobStream
 ---
 
-# SetBlobStream
+# POST Agents/BLOB/SetBlobStream
 
 ```http
 POST /api/v1/Agents/BLOB/SetBlobStream

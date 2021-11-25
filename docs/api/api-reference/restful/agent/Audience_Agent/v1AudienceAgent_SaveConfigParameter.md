@@ -1,9 +1,9 @@
 ---
-title: SaveConfigParameter
+title: POST Agents/Audience/SaveConfigParameter
 id: v1AudienceAgent_SaveConfigParameter
 ---
 
-# SaveConfigParameter
+# POST Agents/Audience/SaveConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/SaveConfigParameter
@@ -85,19 +85,19 @@ Response body: object
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rodriguez LLC",
+  "LayoutName": "Kuvalis-Weissnat",
   "ConfigParameter": {
-    "AudienceLayoutId": 45,
-    "Name": "Heidenreich-Dach",
-    "Value": "praesentium",
-    "CreatedDate": "2016-09-27T14:58:03.2562353+02:00",
-    "UpdatedDate": "2002-10-29T14:58:03.2562353+01:00",
-    "CreatedBy": "vel",
-    "UpdatedBy": "autem"
+    "AudienceLayoutId": 983,
+    "Name": "Kshlerin LLC",
+    "Value": "est",
+    "CreatedDate": "2017-01-02T18:28:48.1285431+01:00",
+    "UpdatedDate": "2015-06-01T18:28:48.1285431+02:00",
+    "CreatedBy": "explicabo",
+    "UpdatedBy": "omnis"
   }
 }
 ```
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 54,
-  "Name": "Turcotte Group",
-  "Value": "quo",
-  "CreatedDate": "2006-04-26T14:58:03.2562353+02:00",
-  "UpdatedDate": "2007-05-11T14:58:03.2562353+02:00",
-  "CreatedBy": "officiis",
-  "UpdatedBy": "possimus",
+  "AudienceLayoutId": 365,
+  "Name": "Davis, Hoeger and Sawayn",
+  "Value": "numquam",
+  "CreatedDate": "2002-01-26T18:28:48.1285431+01:00",
+  "UpdatedDate": "2001-01-21T18:28:48.1285431+01:00",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

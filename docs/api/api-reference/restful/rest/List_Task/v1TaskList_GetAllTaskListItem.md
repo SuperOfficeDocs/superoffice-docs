@@ -76,7 +76,7 @@ Response body: array
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 758,
-    "Value": "voluptate",
+    "TaskListItemId": 287,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "IntentId": 701,
-    "Rank": 479,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": false,
+    "Tooltip": "illo",
+    "Deleted": true,
+    "IntentId": 86,
+    "Rank": 898,
+    "IsDefaultAlldayEvent": true,
+    "IsDefaultFree": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 396
       }
     }
   }

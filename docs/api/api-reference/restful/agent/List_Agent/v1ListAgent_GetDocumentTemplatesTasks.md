@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplatesTasks
+title: POST Agents/List/GetDocumentTemplatesTasks
 id: v1ListAgent_GetDocumentTemplatesTasks
 ---
 
-# GetDocumentTemplatesTasks
+# POST Agents/List/GetDocumentTemplatesTasks
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Value": "et",
-    "Tooltip": "nisi",
+    "Id": 711,
+    "Value": "sit",
+    "Tooltip": "natus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldLength": 28
       }
     }
   },
   {
-    "Id": 883,
-    "Value": "et",
-    "Tooltip": "nisi",
+    "Id": 711,
+    "Value": "sit",
+    "Tooltip": "natus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldLength": 28
       }
     }
   }

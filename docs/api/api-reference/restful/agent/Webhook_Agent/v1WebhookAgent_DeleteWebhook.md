@@ -1,9 +1,9 @@
 ---
-title: DeleteWebhook
+title: POST Agents/Webhook/DeleteWebhook
 id: v1WebhookAgent_DeleteWebhook
 ---
 
-# DeleteWebhook
+# POST Agents/Webhook/DeleteWebhook
 
 ```http
 POST /api/v1/Agents/Webhook/DeleteWebhook
@@ -26,7 +26,7 @@ Deletes the Webhook
 | WebhookId | int32 | **Required** The id of the Webhook to be deleted. |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=121
+POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=120
 ```
 
 

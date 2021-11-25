@@ -56,12 +56,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -71,7 +72,7 @@ Response body: array
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -80,19 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 368,
-    "Tooltip": "magnam",
+    "Unrestricted": true,
+    "Total": 632,
+    "Tooltip": "dolores",
     "CanAssign": false,
-    "Free": 840,
-    "InUse": 789,
+    "Free": 841,
+    "InUse": 494,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 764,
-    "Name": "Sawayn, Feil and Feeney",
-    "Description": "Organized interactive approach",
-    "PrerequisiteModuleName": "Turner Group",
-    "SortOrder": 44,
+    "ModuleLicenseId": 166,
+    "Name": "Corwin Inc and Sons",
+    "Description": "Total contextually-based knowledge base",
+    "PrerequisiteModuleName": "Collier, Klein and Schumm",
+    "SortOrder": 473,
+    "ExtraFlags": 289,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -104,7 +106,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 148
       }
     }
   }

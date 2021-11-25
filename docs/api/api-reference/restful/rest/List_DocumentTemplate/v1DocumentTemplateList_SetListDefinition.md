@@ -93,16 +93,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 840,
-  "Name": "Batz-Schneider",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 65,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true
+  "Id": 426,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 787,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Larkin, VonRueden and West",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "Rank": 590,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "hic",
+  "Id": 820,
+  "Name": "Wisozk, Bayer and Raynor",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 284,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illum",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldLength": 107
     }
   }
 }

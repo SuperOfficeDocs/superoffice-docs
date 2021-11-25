@@ -1,9 +1,9 @@
 ---
-title: RemoveProduct
+title: POST Agents/Quote/RemoveProduct
 id: v1QuoteAgent_RemoveProduct
 ---
 
-# RemoveProduct
+# POST Agents/Quote/RemoveProduct
 
 ```http
 POST /api/v1/Agents/Quote/RemoveProduct

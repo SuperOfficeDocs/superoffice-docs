@@ -72,7 +72,7 @@ Response body: object
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -80,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 598,
+  "Name": "Waelchi, Erdman and Upton",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": false,
+  "Rank": 98,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "temporibus",
+  "ListType": "animi",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "evolve leading-edge convergence"
+        "Reason": "embrace world-class e-tailers"
       },
       "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldLength": 856
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveConnection
+title: POST Agents/ErpSync/SaveConnection
 id: v1ErpSyncAgent_SaveConnection
 ---
 
-# SaveConnection
+# POST Agents/ErpSync/SaveConnection
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnection
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Connection": {
-    "ErpConnectionId": 354,
-    "ErpConnectorId": 763,
-    "DisplayName": "Haley-Murphy",
-    "DisplayDescription": "Public-key multi-state database",
+    "ErpConnectionId": 816,
+    "ErpConnectorId": 411,
+    "DisplayName": "Emard Group",
+    "DisplayDescription": "Fundamental eco-centric application",
     "Active": true,
-    "ConnectionId": "beatae",
-    "MostRecentTimestamp": "est",
+    "ConnectionId": "a",
+    "MostRecentTimestamp": "rerum",
     "ConfigFields": {
-      "ConfigFields1": "nihil",
-      "ConfigFields2": "consectetur"
+      "ConfigFields1": "est",
+      "ConfigFields2": "ducimus"
     },
-    "Deleted": false,
-    "AllAccess": true,
+    "Deleted": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      418,
-      12
+      350,
+      185
     ],
     "AssociateAccessIds": [
-      897,
-      353
+      920,
+      463
     ]
   }
 }
@@ -126,26 +126,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 785,
-  "ErpConnectorId": 433,
-  "DisplayName": "Kling, Jast and Lehner",
-  "DisplayDescription": "Enhanced analyzing instruction set",
+  "ErpConnectionId": 925,
+  "ErpConnectorId": 403,
+  "DisplayName": "Tremblay-White",
+  "DisplayDescription": "Team-oriented encompassing contingency",
   "Active": false,
-  "ConnectionId": "voluptatem",
-  "MostRecentTimestamp": "molestiae",
+  "ConnectionId": "expedita",
+  "MostRecentTimestamp": "id",
   "ConfigFields": {
-    "ConfigFields1": "maiores",
-    "ConfigFields2": "voluptatem"
+    "ConfigFields1": "harum",
+    "ConfigFields2": "animi"
   },
   "Deleted": true,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    550,
-    677
+    728,
+    304
   ],
   "AssociateAccessIds": [
-    247,
-    59
+    355,
+    949
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

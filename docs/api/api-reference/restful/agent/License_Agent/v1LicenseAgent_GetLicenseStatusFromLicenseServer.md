@@ -1,9 +1,9 @@
 ---
-title: GetLicenseStatusFromLicenseServer
+title: POST Agents/License/GetLicenseStatusFromLicenseServer
 id: v1LicenseAgent_GetLicenseStatusFromLicenseServer
 ---
 
-# GetLicenseStatusFromLicenseServer
+# POST Agents/License/GetLicenseStatusFromLicenseServer
 
 ```http
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
@@ -77,7 +77,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Simonis-Aufderhar"
+  "OwnerName": "Nader LLC"
 }
 ```
 
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "esse",
+  "Message": "quo",
   "Url": "http://www.example.com/"
 }
 ```

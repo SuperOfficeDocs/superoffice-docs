@@ -1,9 +1,9 @@
 ---
-title: ChangeCurrency
+title: POST Agents/List/ChangeCurrency
 id: v1ListAgent_ChangeCurrency
 ---
 
-# ChangeCurrency
+# POST Agents/List/ChangeCurrency
 
 ```http
 POST /api/v1/Agents/List/ChangeCurrency
@@ -70,13 +70,13 @@ Response body: double
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 6612.74,
-  "FromCurrency": "qui",
-  "ToCurrency": "harum"
+  "Amount": 9107.404,
+  "FromCurrency": "voluptate",
+  "ToCurrency": "rem"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-19684.654
+9148.1459999999988
 ```

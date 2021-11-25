@@ -1,9 +1,9 @@
 ---
-title: UpdateQuoteVersionPrices
+title: POST Agents/Quote/UpdateQuoteVersionPrices
 id: v1QuoteAgent_UpdateQuoteVersionPrices
 ---
 
-# UpdateQuoteVersionPrices
+# POST Agents/Quote/UpdateQuoteVersionPrices
 
 ```http
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
@@ -85,11 +85,11 @@ Response body: object
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 47
+  "QuoteVersionId": 273
 }
 ```
 
@@ -99,35 +99,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "porro",
-  "TechExplanation": "rerum",
+  "UserExplanation": "vel",
+  "TechExplanation": "at",
   "ErrorCode": "et",
   "ChangedSale": {
-    "ContactName": "Flatley Group",
-    "SaleDate": "2012-03-11T14:58:04.9494322+01:00",
-    "SaleId": 277,
-    "Probability": 533,
+    "ContactName": "Herzog-Gibson",
+    "SaleDate": "2005-11-02T18:28:49.9301388+01:00",
+    "SaleId": 63,
+    "Probability": 940,
     "Title": "qui",
-    "Amount": 3450.534,
-    "Currency": "iure",
-    "ProjectName": "Moen, Rohan and Heller",
-    "AssociateFullName": "Violette Towne",
-    "Description": "Cross-platform asynchronous algorithm",
+    "Amount": 14272.235999999999,
+    "Currency": "maxime",
+    "ProjectName": "Nicolas, Grimes and Blick",
+    "AssociateFullName": "Dejah Padberg",
+    "Description": "Focused intangible customer loyalty",
     "Status": "Lost",
-    "WeightedAmount": 17268.34,
-    "ProjectId": 72,
-    "EarningPercent": 10708.877999999999,
-    "Earning": 3566.4919999999997,
-    "ContactId": 555,
-    "AssociateId": 624,
+    "WeightedAmount": 11097.493999999999,
+    "ProjectId": 562,
+    "EarningPercent": 23542.608,
+    "Earning": 20032.528,
+    "ContactId": 340,
+    "AssociateId": 611,
     "PersonId": 385,
-    "SaleTypeId": 44,
-    "SaleTypeName": "Marks, Effertz and Kemmer",
-    "PersonFullName": "Lia Flatley",
+    "SaleTypeId": 442,
+    "SaleTypeName": "Quigley, Kohler and White",
+    "PersonFullName": "Kristina Goyette",
     "Completed": "Completed",
-    "ActiveErpLinks": 976,
-    "NextDueDate": "1997-02-19T14:58:04.9494322+01:00",
-    "Number": "1012355",
+    "ActiveErpLinks": 402,
+    "NextDueDate": "2015-08-13T18:28:49.9301388+02:00",
+    "Number": "491188",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,23 +136,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldLength": 542
       }
     }
   },
   "ChangedQuote": {
-    "QuoteId": 303,
-    "SaleId": 150,
-    "QuoteConnectionId": 363,
-    "ERPQuoteKey": "placeat",
-    "ERPOrderKey": "excepturi",
-    "ActiveQuoteVersionId": 601,
-    "AcceptedQuoteAlternativeId": 31,
-    "UseValuesFromQuote": 747,
-    "DocumentId": 694,
-    "PoNumber": "742582",
-    "OrderComment": "reiciendis",
-    "PreferredEmailCulture": "hunter@kertzmann.biz",
+    "QuoteId": 374,
+    "SaleId": 426,
+    "QuoteConnectionId": 924,
+    "ERPQuoteKey": "dolores",
+    "ERPOrderKey": "error",
+    "ActiveQuoteVersionId": 961,
+    "AcceptedQuoteAlternativeId": 194,
+    "UseValuesFromQuote": 973,
+    "DocumentId": 7,
+    "PoNumber": "1536776",
+    "OrderComment": "animi",
+    "PreferredEmailCulture": "cole.breitenberg@gottlieb.us",
     "ActiveQuoteVersion": {},
     "FavoriteQuoteAlternative": {},
     "TableRight": {},
@@ -163,47 +163,47 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 276
       }
     }
   },
   "ChangedQuoteVersion": {
-    "QuoteVersionId": 172,
-    "ERPQuoteVersionKey": "incidunt",
-    "QuoteId": 738,
-    "Description": "Innovative transitional contingency",
-    "Number": "396682",
+    "QuoteVersionId": 65,
+    "ERPQuoteVersionKey": "consequatur",
+    "QuoteId": 491,
+    "Description": "Profound next generation concept",
+    "Number": "1180845",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 293,
-    "SentDate": "1998-06-22T14:58:04.9504317+02:00",
-    "FollowupId": 61,
-    "ExpirationDate": "2004-11-12T14:58:04.9504317+01:00",
-    "DeliveryCountryId": 406,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 927,
+    "LikelyQuoteAlternativeId": 146,
+    "SentDate": "2007-12-18T18:28:49.9311086+01:00",
+    "FollowupId": 758,
+    "ExpirationDate": "2021-02-09T18:28:49.9311086+01:00",
+    "DeliveryCountryId": 578,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 614,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "vel",
-    "ERPPaymentTypeKey": "dolor",
-    "ERPDeliveryTermsKey": "provident",
-    "ERPDeliveryTypeKey": "repudiandae",
-    "Rank": 575,
-    "ApprovedBy": 130,
-    "ApprovedText": "et",
-    "ApprovedRegisteredBy": 174,
-    "ApprovedRegisteredDate": "2005-10-14T14:58:04.9504317+02:00",
-    "ExtraField1": "minima",
-    "ExtraField2": "est",
-    "ExtraField3": "totam",
-    "ExtraField4": "hic",
-    "ExtraField5": "sunt",
-    "LastRecalculated": "1996-07-08T14:58:04.9504317+02:00",
-    "Updated": "2000-12-16T14:58:04.9504317+01:00",
-    "UpdatedAssociateId": 778,
-    "Registered": "2005-06-02T14:58:04.9504317+02:00",
-    "RegisteredAssociateId": 759,
+    "ERPPaymentTermsKey": "sunt",
+    "ERPPaymentTypeKey": "amet",
+    "ERPDeliveryTermsKey": "vel",
+    "ERPDeliveryTypeKey": "nobis",
+    "Rank": 131,
+    "ApprovedBy": 429,
+    "ApprovedText": "laboriosam",
+    "ApprovedRegisteredBy": 600,
+    "ApprovedRegisteredDate": "2008-03-22T18:28:49.9311086+01:00",
+    "ExtraField1": "sit",
+    "ExtraField2": "ut",
+    "ExtraField3": "fuga",
+    "ExtraField4": "nobis",
+    "ExtraField5": "ut",
+    "LastRecalculated": "2002-06-30T18:28:49.9311086+02:00",
+    "Updated": "2018-12-28T18:28:49.9311086+01:00",
+    "UpdatedAssociateId": 895,
+    "Registered": "2000-10-18T18:28:49.9311086+02:00",
+    "RegisteredAssociateId": 932,
     "QuoteAlternatives": [
       {},
       {}
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldLength": 186
       }
     }
   },
@@ -230,10 +230,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "envisioneer efficient initiatives"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     },
@@ -246,10 +246,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "envisioneer efficient initiatives"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     }
@@ -262,10 +262,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark sexy models"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldLength": 261
     }
   }
 }

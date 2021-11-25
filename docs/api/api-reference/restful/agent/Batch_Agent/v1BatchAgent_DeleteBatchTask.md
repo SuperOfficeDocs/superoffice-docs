@@ -1,9 +1,9 @@
 ---
-title: DeleteBatchTask
+title: POST Agents/Batch/DeleteBatchTask
 id: v1BatchAgent_DeleteBatchTask
 ---
 
-# DeleteBatchTask
+# POST Agents/Batch/DeleteBatchTask
 
 ```http
 POST /api/v1/Agents/Batch/DeleteBatchTask

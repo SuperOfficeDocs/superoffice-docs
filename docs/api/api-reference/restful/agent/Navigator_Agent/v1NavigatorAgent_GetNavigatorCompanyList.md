@@ -1,9 +1,9 @@
 ---
-title: GetNavigatorCompanyList
+title: POST Agents/Navigator/GetNavigatorCompanyList
 id: v1NavigatorAgent_GetNavigatorCompanyList
 ---
 
-# GetNavigatorCompanyList
+# POST Agents/Navigator/GetNavigatorCompanyList
 
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,12 +81,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Value": "consequatur",
-    "Tooltip": "ut",
+    "Id": 912,
+    "Value": "et",
+    "Tooltip": "omnis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "facilitate bleeding-edge technologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldLength": 979
       }
     }
   },
   {
-    "Id": 695,
-    "Value": "consequatur",
-    "Tooltip": "ut",
+    "Id": 912,
+    "Value": "et",
+    "Tooltip": "omnis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "facilitate bleeding-edge technologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldLength": 979
       }
     }
   }

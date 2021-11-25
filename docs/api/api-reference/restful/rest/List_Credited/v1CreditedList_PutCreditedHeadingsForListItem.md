@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Mayer, Lowe and Bradtke",
-    "ToolTip": "Natus laborum.",
+    "Id": 766,
+    "Name": "Keebler Inc and Sons",
+    "ToolTip": "Nobis dolor voluptatem et iure omnis.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "eius",
-    "ColorBlock": 808,
-    "IconHint": "iure",
+    "Rank": 158,
+    "Type": "atque",
+    "ColorBlock": 13,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2014-03-31T15:05:43.3915101+02:00",
+    "LastChanged": "2005-10-31T18:25:51.7713253+01:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Heathcote Group",
-        "ToolTip": "Deleniti esse porro qui ipsum aut quod.",
-        "Deleted": true,
-        "Rank": 167,
-        "Type": "in",
-        "ColorBlock": 939,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2006-12-07T15:05:43.3915101+01:00",
+        "Id": 601,
+        "Name": "Barrows Group",
+        "ToolTip": "Quaerat et nesciunt.",
+        "Deleted": false,
+        "Rank": 272,
+        "Type": "illum",
+        "ColorBlock": 129,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "1996-07-21T18:25:51.7713253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Maureen White"
+        "ExtraInfo": "dicta",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Bruce Beahan"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Name Schiller"
+    "ExtraInfo": "omnis",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Chris Blanda"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Runolfsdottir Group",
-    "ToolTip": "Doloremque consequatur facere autem explicabo animi ad.",
+    "Id": 953,
+    "Name": "Ritchie, Price and Rogahn",
+    "ToolTip": "Qui expedita.",
     "Deleted": true,
-    "Rank": 465,
-    "Type": "suscipit",
-    "ColorBlock": 685,
-    "IconHint": "est",
+    "Rank": 68,
+    "Type": "amet",
+    "ColorBlock": 598,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2015-08-21T15:05:43.3935101+02:00",
+    "LastChanged": "1996-03-16T18:25:51.7733267+01:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Witting-Stroman",
-        "ToolTip": "Quidem et quasi nihil.",
+        "Id": 123,
+        "Name": "Doyle-Brakus",
+        "ToolTip": "In sunt sunt ut id aut voluptas.",
         "Deleted": false,
-        "Rank": 724,
-        "Type": "iure",
-        "ColorBlock": 449,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2016-08-26T15:05:43.3935101+02:00",
+        "Rank": 383,
+        "Type": "delectus",
+        "ColorBlock": 935,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2012-09-03T18:25:51.7733267+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "modi",
+        "ExtraInfo": "magni",
+        "StyleHint": "excepturi",
         "Hidden": true,
-        "FullName": "Toy Becker",
+        "FullName": "Antwan Schmidt Sr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 592
+            "FieldType": "System.String",
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "quisquam",
-    "Hidden": true,
-    "FullName": "Pedro Boehm",
+    "ExtraInfo": "id",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Casimer Champlin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 687
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: AddNewTileToDashboard
+title: POST Agents/Dash/AddNewTileToDashboard
 id: v1DashAgent_AddNewTileToDashboard
 ---
 
-# AddNewTileToDashboard
+# POST Agents/Dash/AddNewTileToDashboard
 
 ```http
 POST /api/v1/Agents/Dash/AddNewTileToDashboard
@@ -84,30 +84,30 @@ Response body: object
 POST /api/v1/Agents/Dash/AddNewTileToDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 152,
+  "DashboardId": 403,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 148,
-    "Name": "Abernathy-Bode",
-    "Description": "Managed foreground migration",
-    "DefaultHeight": 214,
-    "DefaultWidth": 131,
+    "DashboardTileDefinitionId": 787,
+    "Name": "Abernathy, Murray and Bayer",
+    "Description": "Managed zero tolerance service-desk",
+    "DefaultHeight": 285,
+    "DefaultWidth": 82,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Veum LLC",
-    "SelectionId": 897,
+    "EntityName": "Kub Group",
+    "SelectionId": 931,
     "CurrencyMode": "Base",
-    "CurrencyId": 186,
+    "CurrencyCode": "necessitatibus",
     "Measure": "Average",
-    "MeasureField": "ea",
-    "SortBy": "ab",
-    "LayoutConfig": "deserunt",
-    "SecondarySelectionId": 689,
-    "MeasureByField": "quo",
-    "ProviderName": "Kuhic Inc and Sons"
+    "MeasureField": "nobis",
+    "SortBy": "autem",
+    "LayoutConfig": "ut",
+    "SecondarySelectionId": 192,
+    "MeasureByField": "et",
+    "ProviderName": "Berge-Streich"
   }
 }
 ```
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 379,
-  "DashboardId": 688,
-  "Height": 732,
-  "Width": 534,
-  "Rank": 151,
+  "DashboardTileId": 549,
+  "DashboardId": 294,
+  "Height": 737,
+  "Width": 958,
+  "Rank": 968,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 231,
-    "Name": "O'Kon-McDermott",
-    "Description": "Expanded incremental pricing structure",
-    "DefaultHeight": 364,
-    "DefaultWidth": 113,
+    "DashboardTileDefinitionId": 449,
+    "Name": "Lakin, Nienow and Wilderman",
+    "Description": "Synchronised tertiary time-frame",
+    "DefaultHeight": 69,
+    "DefaultWidth": 980,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Cartwright-Hahn",
-    "SelectionId": 556,
+    "EntityName": "Klocko Inc and Sons",
+    "SelectionId": 649,
     "CurrencyMode": "Base",
-    "CurrencyId": 855,
+    "CurrencyCode": "quia",
     "Measure": "Average",
-    "MeasureField": "ea",
-    "SortBy": "consectetur",
-    "LayoutConfig": "aut",
-    "SecondarySelectionId": 597,
-    "MeasureByField": "alias",
-    "ProviderName": "Jaskolski, Padberg and Tillman",
+    "MeasureField": "et",
+    "SortBy": "omnis",
+    "LayoutConfig": "praesentium",
+    "SecondarySelectionId": 581,
+    "MeasureByField": "architecto",
+    "ProviderName": "Weissnat-Renner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldLength": 336
       }
     }
   },
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldLength": 4
     }
   }
 }

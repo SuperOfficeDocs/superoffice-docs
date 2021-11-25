@@ -1,9 +1,9 @@
 ---
-title: GetDayInformationListByDatesAndAssociate
+title: POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
 id: v1AppointmentAgent_GetDayInformationListByDatesAndAssociate
 ---
 
-# GetDayInformationListByDatesAndAssociate
+# POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
 
 ```http
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
@@ -77,13 +77,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-11-18T14:58:02.8965683+01:00",
-  "EndDate": "2021-01-31T14:58:02.8965683+01:00",
-  "AssociateId": 311
+  "StartDate": "2003-05-11T18:28:47.7518443+02:00",
+  "EndDate": "2006-03-22T18:28:47.7518443+01:00",
+  "AssociateId": 973
 }
 ```
 
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ActivityInformation": {
-      "NumBusyActivities": 978,
-      "NumFreeActivities": 967,
-      "PercentageBusy": 916,
+      "NumBusyActivities": 113,
+      "NumFreeActivities": 505,
+      "PercentageBusy": 330,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -105,29 +105,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldLength": 907
         }
       }
     },
     "RedLetterInformation": {
       "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": true,
+      "IsOtherCountryHoliday": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "visualize end-to-end ROI"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     },
-    "Date": "2006-05-17T14:58:02.8975682+02:00",
+    "Date": "2005-03-19T18:28:47.7518443+01:00",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "monetize cutting-edge e-commerce"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -136,15 +136,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldLength": 799
       }
     }
   },
   {
     "ActivityInformation": {
-      "NumBusyActivities": 978,
-      "NumFreeActivities": 967,
-      "PercentageBusy": 916,
+      "NumBusyActivities": 113,
+      "NumFreeActivities": 505,
+      "PercentageBusy": 330,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -153,29 +153,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldLength": 907
         }
       }
     },
     "RedLetterInformation": {
       "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": true,
+      "IsOtherCountryHoliday": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "visualize end-to-end ROI"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     },
-    "Date": "2006-05-17T14:58:02.8975682+02:00",
+    "Date": "2005-03-19T18:28:47.7518443+01:00",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "monetize cutting-edge e-commerce"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldLength": 799
       }
     }
   }

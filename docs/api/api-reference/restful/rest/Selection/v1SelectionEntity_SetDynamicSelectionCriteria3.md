@@ -93,48 +93,48 @@ Response body: array
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Kon-Bayer",
-    "Operator": "eveniet",
+    "Name": "Schamberger LLC",
+    "Operator": "vero",
     "Values": [
-      "fuga",
-      "ratione"
+      "repudiandae",
+      "suscipit"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "qui"
+      "eum",
+      "ut"
     ],
     "ColumnInfo": {
-      "DisplayName": "Hoeger-Watsica",
-      "DisplayTooltip": "doloremque",
-      "DisplayType": "debitis",
-      "CanOrderBy": false,
-      "Name": "Wehner Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolorum",
-      "RestrictionListName": "Wehner Inc and Sons",
+      "DisplayName": "Funk-Stoltenberg",
+      "DisplayTooltip": "numquam",
+      "DisplayType": "pariatur",
+      "CanOrderBy": true,
+      "Name": "Lebsack-Mitchell",
+      "CanRestrictBy": false,
+      "RestrictionType": "porro",
+      "RestrictionListName": "VonRueden LLC",
       "IsVisible": true,
-      "ExtraInfo": "dolor",
-      "Width": "et",
-      "IconHint": "rerum",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "et",
+      "Width": "quidem",
+      "IconHint": "modi",
+      "HeadingIconHint": "aut"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Carroll, Homenick and Nader",
-        "Operator": "officia",
+        "Name": "Schmeler, Stehr and Ebert",
+        "Operator": "exercitationem",
         "Values": [
-          "quod",
-          "ex"
+          "ratione",
+          "provident"
         ],
         "DisplayValues": [
-          "laboriosam",
-          "fugit"
+          "illum",
+          "dolore"
         ],
         "ColumnInfo": {},
         "IsActive": false,
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 173,
+        "InterParenthesis": 781,
         "InterOperator": "And",
-        "UniqueHash": 173
+        "UniqueHash": 966
       }
     ],
-    "InterParenthesis": 282,
+    "InterParenthesis": 746,
     "InterOperator": "And",
-    "UniqueHash": 716
+    "UniqueHash": 155
   }
 ]
 ```
@@ -160,58 +160,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zboncak Inc and Sons",
-    "Operator": "vel",
+    "Name": "Mueller-Jacobson",
+    "Operator": "nulla",
     "Values": [
-      "qui",
-      "voluptates"
+      "excepturi",
+      "dicta"
     ],
     "DisplayValues": [
-      "rerum",
-      "commodi"
+      "exercitationem",
+      "id"
     ],
     "ColumnInfo": {
-      "DisplayName": "Osinski LLC",
-      "DisplayTooltip": "placeat",
-      "DisplayType": "maiores",
+      "DisplayName": "Runolfsdottir-Swift",
+      "DisplayTooltip": "magni",
+      "DisplayType": "in",
       "CanOrderBy": false,
-      "Name": "Tromp-Pfannerstill",
-      "CanRestrictBy": true,
-      "RestrictionType": "tenetur",
-      "RestrictionListName": "Hintz-Sipes",
-      "IsVisible": true,
-      "ExtraInfo": "odit",
-      "Width": "sequi",
-      "IconHint": "officia",
-      "HeadingIconHint": "aut"
+      "Name": "Hirthe LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "dolor",
+      "RestrictionListName": "Windler LLC",
+      "IsVisible": false,
+      "ExtraInfo": "quae",
+      "Width": "excepturi",
+      "IconHint": "corporis",
+      "HeadingIconHint": "reprehenderit"
     },
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Littel, Erdman and Funk",
-        "Operator": "placeat",
+        "Name": "Kemmer, Beatty and Yundt",
+        "Operator": "amet",
         "Values": [
-          "vitae",
-          "cumque"
+          "quia",
+          "sapiente"
         ],
         "DisplayValues": [
-          "et",
-          "cumque"
+          "blanditiis",
+          "perspiciatis"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 573,
+        "InterParenthesis": 259,
         "InterOperator": "And",
-        "UniqueHash": 513
+        "UniqueHash": 774
       }
     ],
-    "InterParenthesis": 701,
+    "InterParenthesis": 36,
     "InterOperator": "And",
-    "UniqueHash": 226
+    "UniqueHash": 708
   }
 ]
 ```

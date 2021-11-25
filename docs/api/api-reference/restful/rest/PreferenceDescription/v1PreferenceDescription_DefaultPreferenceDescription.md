@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 613,
-  "Section": "sint",
-  "Key": "dolor",
-  "Name": "McClure-Towne",
+  "PrefDescId": 715,
+  "Section": "et",
+  "Key": "est",
+  "Name": "Gleichner-White",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered demand-driven attitude",
-  "IsBuiltin": true,
-  "TableName": "Kozey Inc and Sons",
-  "UserDefinedListId": 399,
-  "Rank": 78,
-  "SubGroup": "ea",
-  "MinLevel": 523,
-  "MaxValue": 956,
-  "MinValue": 710,
-  "RequiredLicense": "commodi",
+  "Description": "Versatile tangible adapter",
+  "IsBuiltin": false,
+  "TableName": "Dare-O'Hara",
+  "UserDefinedListId": 318,
+  "Rank": 233,
+  "SubGroup": "nobis",
+  "MinLevel": 669,
+  "MaxValue": 966,
+  "MinValue": 883,
+  "RequiredLicense": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 875
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: ToggleFavourite
+title: POST Agents/Favourite/ToggleFavourite
 id: v1FavouriteAgent_ToggleFavourite
 ---
 
-# ToggleFavourite
+# POST Agents/Favourite/ToggleFavourite
 
 ```http
 POST /api/v1/Agents/Favourite/ToggleFavourite
@@ -71,14 +71,14 @@ Response body: bool
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bruen LLC",
-  "RecordId": 658,
-  "AssociateId": 527,
-  "ExtraInfo": "repellat"
+  "TableName": "Upton, Schoen and Walsh",
+  "RecordId": 748,
+  "AssociateId": 982,
+  "ExtraInfo": "nisi"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

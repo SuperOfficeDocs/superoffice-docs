@@ -1,9 +1,9 @@
 ---
-title: GetContactAppointmentsByTask
+title: POST Agents/Appointment/GetContactAppointmentsByTask
 id: v1AppointmentAgent_GetContactAppointmentsByTask
 ---
 
-# GetContactAppointmentsByTask
+# POST Agents/Appointment/GetContactAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 612,
-  "StartTime": "2019-12-04T14:58:02.8665733+01:00",
-  "EndTime": "1999-11-02T14:58:02.8665733+01:00",
-  "Count": 738,
-  "TaskId": 976
+  "ContactId": 751,
+  "StartTime": "2019-05-20T18:28:47.7168479+02:00",
+  "EndTime": "2015-05-12T18:28:47.7168479+02:00",
+  "Count": 578,
+  "TaskId": 119
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 272,
-    "StartDate": "2007-05-21T14:58:02.8685385+02:00",
-    "EndDate": "2013-08-27T14:58:02.8685385+02:00",
+    "AppointmentId": 211,
+    "StartDate": "2007-06-13T18:28:47.7178165+02:00",
+    "EndDate": "2016-04-11T18:28:47.7178165+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eum",
-    "AssociateFullName": "Ms. Aliza O'Connell",
-    "ContactName": "Weimann, Johns and Corwin",
-    "Description": "Adaptive explicit flexibility",
-    "PersonFullName": "Mr. Rudolph Towne",
-    "PersonId": 36,
-    "ContactId": 337,
-    "ProjectId": 492,
-    "ProjectName": "Trantow-Daniel",
+    "Task": "in",
+    "AssociateFullName": "Gregoria Larkin",
+    "ContactName": "Heidenreich, Feest and Kessler",
+    "Description": "Innovative neutral access",
+    "PersonFullName": "Dr. Lauryn Murphy",
+    "PersonId": 121,
+    "ContactId": 800,
+    "ProjectId": 692,
+    "ProjectName": "Wintheiser Group",
     "IsPublished": true,
-    "AssociateId": 855,
-    "ColorIndex": 175,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 919,
+    "ColorIndex": 396,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 592,
-    "PriorityName": "Robel Group",
+    "PriorityId": 535,
+    "PriorityName": "Conroy LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2013-08-19T14:58:02.8685385+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2018-01-10T18:28:47.7188144+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-09-24T14:58:02.8685385+02:00",
-    "RecurringEndDate": "2012-03-28T14:58:02.8685385+02:00",
-    "MotherId": 362,
-    "AssignedBy": 479,
-    "AssignedByFullName": "Alejandra Ledner",
+    "RecurringStartDate": "2011-10-22T18:28:47.7188144+02:00",
+    "RecurringEndDate": "2016-02-16T18:28:47.7188144+01:00",
+    "MotherId": 627,
+    "AssignedBy": 663,
+    "AssignedByFullName": "Henderson Schuster DVM",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "tempore",
-    "SaleId": 656,
-    "SaleName": "O'Conner-Stroman",
-    "AssociateName": "Carter, Watsica and Lubowitz",
-    "CreatedDate": "2006-05-09T14:58:02.8685385+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Jarred Brakus",
-    "CreatedByAssociateId": 951,
+    "Location": "dolores",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 985,
+    "SaleName": "Abshire, Howe and Kuhlman",
+    "AssociateName": "Macejkovic, Vandervort and Hane",
+    "CreatedDate": "2006-07-24T18:28:47.7188144+02:00",
+    "CreatedBy": "inventore",
+    "CreatedByFullName": "Hilda Thiel",
+    "CreatedByAssociateId": 980,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

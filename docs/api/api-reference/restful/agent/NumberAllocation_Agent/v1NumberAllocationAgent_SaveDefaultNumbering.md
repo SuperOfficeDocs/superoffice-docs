@@ -1,9 +1,9 @@
 ---
-title: SaveDefaultNumbering
+title: POST Agents/NumberAllocation/SaveDefaultNumbering
 id: v1NumberAllocationAgent_SaveDefaultNumbering
 ---
 
-# SaveDefaultNumbering
+# POST Agents/NumberAllocation/SaveDefaultNumbering
 
 ```http
 POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering

@@ -1,9 +1,9 @@
 ---
-title: GetCurrentAccountId
+title: POST Agents/EMail/GetCurrentAccountId
 id: v1EMailAgent_GetCurrentAccountId
 ---
 
-# GetCurrentAccountId
+# POST Agents/EMail/GetCurrentAccountId
 
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccountId
@@ -68,5 +68,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-536
+277
 ```

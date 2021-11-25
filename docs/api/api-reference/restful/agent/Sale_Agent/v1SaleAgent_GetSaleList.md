@@ -1,9 +1,9 @@
 ---
-title: GetSaleList
+title: POST Agents/Sale/GetSaleList
 id: v1SaleAgent_GetSaleList
 ---
 
-# GetSaleList
+# POST Agents/Sale/GetSaleList
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleList
@@ -94,7 +94,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -103,31 +103,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Larson, Balistreri and Gibson",
-    "SaleDate": "2007-01-26T14:58:05.1826237+01:00",
-    "SaleId": 184,
-    "Probability": 268,
-    "Title": "ut",
-    "Amount": 7107.9119999999994,
-    "Currency": "eos",
-    "ProjectName": "Spencer, Stokes and Berge",
-    "AssociateFullName": "Americo Rosenbaum",
-    "Description": "User-friendly optimal approach",
+    "ContactName": "Johns Group",
+    "SaleDate": "2011-02-10T18:28:50.1724114+01:00",
+    "SaleId": 25,
+    "Probability": 835,
+    "Title": "sequi",
+    "Amount": 13037.439999999999,
+    "Currency": "ut",
+    "ProjectName": "Kunze, Schuster and Wilderman",
+    "AssociateFullName": "Bernita Rowe DVM",
+    "Description": "Diverse actuating groupware",
     "Status": "Lost",
-    "WeightedAmount": 18719.381999999998,
-    "ProjectId": 272,
-    "EarningPercent": 12178.724,
-    "Earning": 4045.9939999999997,
-    "ContactId": 680,
-    "AssociateId": 606,
-    "PersonId": 760,
+    "WeightedAmount": 6518.7199999999993,
+    "ProjectId": 975,
+    "EarningPercent": 15651.196,
+    "Earning": 9245.3,
+    "ContactId": 21,
+    "AssociateId": 158,
+    "PersonId": 655,
     "SaleTypeId": 134,
-    "SaleTypeName": "Abshire, Leffler and Huels",
-    "PersonFullName": "Ms. Kamren Parker",
+    "SaleTypeName": "Haag Group",
+    "PersonFullName": "Hyman Cronin PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 805,
-    "NextDueDate": "2011-01-19T14:58:05.1826237+01:00",
-    "Number": "1496623",
+    "ActiveErpLinks": 667,
+    "NextDueDate": "1996-04-01T18:28:50.1734121+02:00",
+    "Number": "953481",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldLength": 863
       }
     }
   }

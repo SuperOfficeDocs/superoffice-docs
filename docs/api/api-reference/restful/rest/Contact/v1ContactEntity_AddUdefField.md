@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 982,
-  "ColumnId": 163,
-  "FieldDefault": "provident",
-  "FieldHeight": 573,
-  "FieldLabel": "distinctio",
-  "FieldLeft": 897,
-  "FieldTop": 985,
+  "UDefFieldId": 159,
+  "ColumnId": 579,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 191,
+  "FieldLabel": "sunt",
+  "FieldLeft": 725,
+  "FieldTop": 929,
   "FieldType": "Checkbox",
-  "FieldWidth": 971,
-  "FormatMask": "libero",
+  "FieldWidth": 399,
+  "FormatMask": "quidem",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 514,
-  "LabelLeft": 435,
-  "LabelTop": 181,
-  "LabelWidth": 418,
-  "LastVersionId": 446,
-  "ListTableId": 213,
-  "IsMandatory": true,
+  "LabelHeight": 388,
+  "LabelLeft": 773,
+  "LabelTop": 802,
+  "LabelWidth": 753,
+  "LastVersionId": 557,
+  "ListTableId": 149,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 314,
-  "ProgId": "dolorem",
-  "IsReadOnly": false,
-  "ShortLabel": "magnam",
-  "TabOrder": 685,
-  "TextLength": 518,
-  "Tooltip": "ad",
-  "UdefIdentity": 146,
-  "UDListDefinitionId": 902,
+  "Page1LineNo": 734,
+  "ProgId": "tempora",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 31,
+  "TextLength": 628,
+  "Tooltip": "possimus",
+  "UdefIdentity": 429,
+  "UDListDefinitionId": 472,
   "Justification": "Center",
-  "Version": 227,
-  "TemplateVariableName": "Windler-Hartmann",
+  "Version": 865,
+  "TemplateVariableName": "Batz-Konopelski",
   "HasBeenPublished": false,
-  "MdoListName": "Deckow-Ortiz",
+  "MdoListName": "West Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 226
     }
   }
 }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 184,
-  "Name": "Quigley Group",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 902,
-  "UdListDefinitionId": 496
+  "HeadingId": 901,
+  "Name": "Jacobs LLC",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 989,
+  "UdListDefinitionId": 166
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 696,
-  "Name": "Beier Inc and Sons",
-  "Tooltip": "quo",
+  "HeadingId": 372,
+  "Name": "Schinner Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 360,
-  "UdListDefinitionId": 628,
+  "Rank": 940,
+  "UdListDefinitionId": 949,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 371
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetFolderHasNewEMail
+title: POST Agents/EMail/GetFolderHasNewEMail
 id: v1EMailAgent_GetFolderHasNewEMail
 ---
 
-# GetFolderHasNewEMail
+# POST Agents/EMail/GetFolderHasNewEMail
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
@@ -70,16 +70,16 @@ Response body: bool
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Pfeffer, Marquardt and Konopelski",
-    "UserName": "Greenholt-Boyle",
-    "Password": "quis",
-    "Folder": "id",
-    "UseSSL": false
+    "ServerName": "Beier Inc and Sons",
+    "UserName": "Mayert-Heaney",
+    "Password": "voluptate",
+    "Folder": "culpa",
+    "UseSSL": true
   }
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

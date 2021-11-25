@@ -49,7 +49,7 @@ Response body: object
 GET /api/v1/Document/Plugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "culpa",
-  "2": "ex"
+  "1": "autem",
+  "2": "eum"
 }
 ```

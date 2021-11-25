@@ -75,7 +75,7 @@ Response body: array
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -84,24 +84,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 349,
-    "Section": "sint",
-    "Key": "quia",
-    "Name": "Erdman, Tillman and Frami",
+    "PrefDescId": 524,
+    "Section": "sed",
+    "Key": "officiis",
+    "Name": "Johnson-Thiel",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enhanced contextually-based adapter",
+    "Description": "Diverse optimizing benchmark",
     "IsBuiltin": true,
-    "TableName": "DuBuque, Mayer and Corwin",
-    "UserDefinedListId": 99,
-    "Rank": 949,
-    "SubGroup": "at",
-    "MinLevel": 921,
-    "MaxValue": 740,
-    "MinValue": 82,
-    "RequiredLicense": "et",
+    "TableName": "Will Inc and Sons",
+    "UserDefinedListId": 160,
+    "Rank": 964,
+    "SubGroup": "rerum",
+    "MinLevel": 546,
+    "MaxValue": 763,
+    "MinValue": 104,
+    "RequiredLicense": "quia",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 939
       }
     }
   }

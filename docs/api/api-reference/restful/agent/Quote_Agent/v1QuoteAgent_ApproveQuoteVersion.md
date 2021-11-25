@@ -1,9 +1,9 @@
 ---
-title: ApproveQuoteVersion
+title: POST Agents/Quote/ApproveQuoteVersion
 id: v1QuoteAgent_ApproveQuoteVersion
 ---
 
-# ApproveQuoteVersion
+# POST Agents/Quote/ApproveQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 575,
-  "ApprovedByText": "eveniet",
-  "ApprovedByAssociateId": 361,
-  "ApprovalText": "commodi"
+  "QuoteVersionId": 393,
+  "ApprovedByText": "doloremque",
+  "ApprovedByAssociateId": 460,
+  "ApprovalText": "rerum"
 }
 ```
 
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
 {
   "PluginResponse": {
     "IsOk": false,
-    "UserExplanation": "rerum",
-    "TechExplanation": "velit",
-    "ErrorCode": "ut",
+    "UserExplanation": "ut",
+    "TechExplanation": "sed",
+    "ErrorCode": "est",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldLength": 77
       }
     }
   },
-  "CreatedAppointmentId": 270,
+  "CreatedAppointmentId": 85,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "revolutionize granular web-readiness"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 167
     }
   }
 }

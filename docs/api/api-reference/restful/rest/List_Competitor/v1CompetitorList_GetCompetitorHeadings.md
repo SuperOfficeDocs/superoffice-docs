@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 926,
-    "Name": "Rohan Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 381,
+    "HeadingId": 292,
+    "Name": "Schmeler-Hodkiewicz",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "Rank": 160,
+    "UdListDefinitionId": 142,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 739
       }
     }
   }

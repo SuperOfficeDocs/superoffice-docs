@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultChatTopicAgent
+title: POST Agents/Chat/CreateDefaultChatTopicAgent
 id: v1ChatAgent_CreateDefaultChatTopicAgent
 ---
 
-# CreateDefaultChatTopicAgent
+# POST Agents/Chat/CreateDefaultChatTopicAgent
 
 ```http
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
@@ -70,35 +70,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 549,
+  "TopicId": 919,
   "User": {
-    "AssociateId": 27,
-    "Name": "Schinner, Romaguera and Swift",
-    "PersonId": 62,
-    "Rank": 622,
-    "Tooltip": "debitis",
+    "AssociateId": 161,
+    "Name": "Osinski Inc and Sons",
+    "PersonId": 232,
+    "Rank": 916,
+    "Tooltip": "quo",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 345,
-    "FullName": "Milo Crist",
-    "FormalName": "Purdy Group",
-    "Deleted": false,
-    "EjUserId": 657,
-    "UserName": "VonRueden Inc and Sons",
+    "GroupIdx": 497,
+    "FullName": "Maida Kuhic",
+    "FormalName": "Boyer LLC",
+    "Deleted": true,
+    "EjUserId": 175,
+    "UserName": "Abernathy-Ritchie",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose vertical markets"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   },
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
-  "CanManage": false,
+  "CanManage": true,
   "CanNotify": true
 }
 ```

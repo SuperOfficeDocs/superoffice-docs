@@ -1,9 +1,9 @@
 ---
-title: SaveMailboxEntity
+title: POST Agents/CustomerService/SaveMailboxEntity
 id: v1CustomerServiceAgent_SaveMailboxEntity
 ---
 
-# SaveMailboxEntity
+# POST Agents/CustomerService/SaveMailboxEntity
 
 ```http
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
@@ -84,13 +84,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 528,
+  "MailInFilterId": 669,
   "ServerType": "Facebook",
-  "Address": "ut",
-  "Username": "quod",
-  "Password": "non",
-  "Server": "corrupti",
-  "Port": 591
+  "Address": "sit",
+  "Username": "natus",
+  "Password": "autem",
+  "Server": "sed",
+  "Port": 85
 }
 ```
 
@@ -99,13 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 32,
+  "MailInFilterId": 702,
   "ServerType": "Facebook",
-  "Address": "cum",
-  "Username": "cupiditate",
-  "Password": "laborum",
-  "Server": "odit",
-  "Port": 564,
+  "Address": "aut",
+  "Username": "nemo",
+  "Password": "aperiam",
+  "Server": "nihil",
+  "Port": 788,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "synthesize collaborative platforms"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 22
     }
   }
 }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Swaniawski, Berge and Rogahn",
-    "Tooltip": "saepe",
-    "Deleted": true,
-    "UdListDefinitionId": 110,
-    "Rank": 7
+    "Id": 767,
+    "Name": "DuBuque, Vandervort and Carter",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 73,
+    "Rank": 628
   },
   {
-    "Id": 218,
-    "Name": "Swaniawski, Berge and Rogahn",
-    "Tooltip": "saepe",
-    "Deleted": true,
-    "UdListDefinitionId": 110,
-    "Rank": 7
+    "Id": 767,
+    "Name": "DuBuque, Vandervort and Carter",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 73,
+    "Rank": 628
   }
 ]
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Hoppe-Mertz",
-    "Tooltip": "et",
+    "Id": 187,
+    "Name": "Wolf-Ryan",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 566,
+    "UdListDefinitionId": 473,
+    "Rank": 196,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "streamline frictionless content"
+      "Reason": "syndicate efficient e-markets"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transition dynamic functionalities"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldType": "System.String",
+        "FieldLength": 275
       }
     }
   }

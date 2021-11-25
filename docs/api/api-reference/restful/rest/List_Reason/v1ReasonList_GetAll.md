@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "McKenzie LLC",
-    "Tooltip": "eius",
+    "Id": 126,
+    "Name": "Dach-Robel",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "UdListDefinitionId": 417,
-    "Rank": 602,
+    "UdListDefinitionId": 90,
+    "Rank": 78,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "aggregate customized markets"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

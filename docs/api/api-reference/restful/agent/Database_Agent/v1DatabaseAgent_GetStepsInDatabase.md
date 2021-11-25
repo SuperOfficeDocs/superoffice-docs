@@ -1,9 +1,9 @@
 ---
-title: GetStepsInDatabase
+title: POST Agents/Database/GetStepsInDatabase
 id: v1DatabaseAgent_GetStepsInDatabase
 ---
 
-# GetStepsInDatabase
+# POST Agents/Database/GetStepsInDatabase
 
 ```http
 POST /api/v1/Agents/Database/GetStepsInDatabase
@@ -65,7 +65,7 @@ Response body: array
 POST /api/v1/Agents/Database/GetStepsInDatabase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dickinson, Hermann and Lebsack",
-    "StepNumber": 490,
+    "Name": "Miller-Olson",
+    "StepNumber": 422,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldLength": 41
       }
     }
   },
   {
-    "Name": "Dickinson, Hermann and Lebsack",
-    "StepNumber": 490,
+    "Name": "Miller-Olson",
+    "StepNumber": 422,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldLength": 41
       }
     }
   }

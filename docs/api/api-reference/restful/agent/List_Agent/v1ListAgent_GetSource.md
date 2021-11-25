@@ -1,9 +1,9 @@
 ---
-title: GetSource
+title: POST Agents/List/GetSource
 id: v1ListAgent_GetSource
 ---
 
-# GetSource
+# POST Agents/List/GetSource
 
 ```http
 POST /api/v1/Agents/List/GetSource
@@ -25,7 +25,7 @@ Gets a Source object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSource?sourceId=167
+POST /api/v1/Agents/List/GetSource?sourceId=351
 POST /api/v1/Agents/List/GetSource?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Value": "perferendis",
-  "Tooltip": "facilis",
+  "Id": 1000,
+  "Value": "sit",
+  "Tooltip": "eum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 909
     }
   }
 }

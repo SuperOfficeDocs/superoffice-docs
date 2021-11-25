@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Morissette, Moore and Ferry",
-  "Tooltip": "sunt",
+  "Id": 406,
+  "Name": "Cole Group",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 234,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 63,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": false
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Beahan-Wiza",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 240,
+  "Id": 510,
+  "Name": "Wunsch Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 125,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "UseGroupsAndHeadings": true,
+  "ListType": "esse",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

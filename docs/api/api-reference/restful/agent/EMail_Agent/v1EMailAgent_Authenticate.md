@@ -1,9 +1,9 @@
 ---
-title: Authenticate
+title: POST Agents/EMail/Authenticate
 id: v1EMailAgent_Authenticate
 ---
 
-# Authenticate
+# POST Agents/EMail/Authenticate
 
 ```http
 POST /api/v1/Agents/EMail/Authenticate
@@ -68,18 +68,18 @@ Response body: bool
 POST /api/v1/Agents/EMail/Authenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": {
-    "Port": 580,
-    "ServerName": "Leffler Group",
-    "Protocol": "ipsa",
-    "UserName": "Bosco, Borer and Windler",
-    "Password": "qui",
-    "UseSSL": true,
-    "Folder": "a"
+    "Port": 54,
+    "ServerName": "Walter, Corkery and Grady",
+    "Protocol": "incidunt",
+    "UserName": "Buckridge, Purdy and Erdman",
+    "Password": "in",
+    "UseSSL": false,
+    "Folder": "aut"
   }
 }
 ```

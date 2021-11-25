@@ -1,9 +1,9 @@
 ---
-title: GetSourceList
+title: POST Agents/List/GetSourceList
 id: v1ListAgent_GetSourceList
 ---
 
-# GetSourceList
+# POST Agents/List/GetSourceList
 
 ```http
 POST /api/v1/Agents/List/GetSourceList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Value": "necessitatibus",
-    "Tooltip": "exercitationem",
+    "Id": 538,
+    "Value": "voluptate",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldLength": 972
       }
     }
   },
   {
-    "Id": 267,
-    "Value": "necessitatibus",
-    "Tooltip": "exercitationem",
+    "Id": 538,
+    "Value": "voluptate",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldLength": 972
       }
     }
   }

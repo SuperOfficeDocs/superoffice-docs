@@ -106,30 +106,30 @@ Response body: object
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 363,
-  "Name": "Pouros, Rau and Ullrich",
-  "Tooltip": "ullam",
+  "WebPanelId": 57,
+  "Name": "Streich-Bode",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "Rank": 936,
+  "Rank": 644,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Schaden LLC",
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Hamill, Wilderman and Becker",
   "Url": "http://www.example.com/",
-  "ProgId": "dolor",
-  "Icon": 540
+  "ProgId": "vel",
+  "Icon": 303
 }
 ```
 
@@ -138,26 +138,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 797,
-  "Name": "Beahan, Dooley and Streich",
-  "Tooltip": "exercitationem",
+  "WebPanelId": 560,
+  "Name": "Lehner Group",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 740,
+  "Rank": 910,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Ward-Armstrong",
+  "ShowInStatusBar": true,
+  "WindowName": "Jast, Hills and Prohaska",
   "Url": "http://www.example.com/",
-  "ProgId": "minima",
-  "Icon": 145,
+  "ProgId": "aut",
+  "Icon": 982,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 546
     }
   }
 }

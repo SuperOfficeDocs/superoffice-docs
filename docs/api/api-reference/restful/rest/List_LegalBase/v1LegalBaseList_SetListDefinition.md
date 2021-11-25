@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "Greenfelder-Swift",
-  "Tooltip": "vel",
+  "Id": 26,
+  "Name": "Kohler, Green and Streich",
+  "Tooltip": "quis",
   "Deleted": true,
-  "Rank": 72,
+  "Rank": 540,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false
+  "ListType": "neque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Klocko LLC",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 167,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officia",
+  "Id": 300,
+  "Name": "Nitzsche-Sauer",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 880,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "grow holistic schemas"
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldLength": 740
     }
   }
 }

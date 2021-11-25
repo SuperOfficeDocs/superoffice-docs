@@ -1,9 +1,9 @@
 ---
-title: GetAppointmentDocuments
+title: POST Agents/Document/GetAppointmentDocuments
 id: v1DocumentAgent_GetAppointmentDocuments
 ---
 
-# GetAppointmentDocuments
+# POST Agents/Document/GetAppointmentDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetAppointmentDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 334
+  "AppointmentId": 861
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 22,
-    "Attention": "quos",
-    "Header": "placeat",
-    "Name": "Homenick, Dooley and O'Connell",
-    "OurRef": "sint",
-    "YourRef": "beatae",
-    "Description": "Synergized next generation hub",
-    "DocumentTemplate": "itaque",
-    "IsPublished": true,
-    "PersonId": 470,
-    "PersonFullName": "Chanelle Beatty",
-    "AssociateFullName": "Ms. Rozella Langosh",
-    "ContactId": 115,
-    "ContactName": "Anderson Group",
-    "ProjectId": 19,
-    "ProjectName": "Nader-Lubowitz",
-    "AssociateId": 863,
-    "Snum": 755,
+    "DocumentId": 146,
+    "Attention": "unde",
+    "Header": "laborum",
+    "Name": "McGlynn-Wolf",
+    "OurRef": "iusto",
+    "YourRef": "id",
+    "Description": "Sharable secondary strategy",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 152,
+    "PersonFullName": "Dr. Damaris Gulgowski",
+    "AssociateFullName": "Arely Gulgowski III",
+    "ContactId": 751,
+    "ContactName": "Weimann-Wiza",
+    "ProjectId": 486,
+    "ProjectName": "Langosh-Tromp",
+    "AssociateId": 887,
+    "Snum": 119,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver front-end action-items"
     },
     "FieldProperties": {
       "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 808
       }
     }
   }

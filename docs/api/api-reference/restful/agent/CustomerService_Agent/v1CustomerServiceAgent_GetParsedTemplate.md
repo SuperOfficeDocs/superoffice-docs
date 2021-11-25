@@ -1,9 +1,9 @@
 ---
-title: GetParsedTemplate
+title: POST Agents/CustomerService/GetParsedTemplate
 id: v1CustomerServiceAgent_GetParsedTemplate
 ---
 
-# GetParsedTemplate
+# POST Agents/CustomerService/GetParsedTemplate
 
 ```http
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
@@ -89,10 +89,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 310,
-  "LanguageId": 443,
-  "PersonId": 66,
-  "TicketId": 923
+  "ReplyTemplateId": 252,
+  "LanguageId": 340,
+  "PersonId": 603,
+  "TicketId": 267
 }
 ```
 
@@ -101,17 +101,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 401,
-  "PlainParsed": "sit",
-  "HtmlParsed": "voluptate",
+  "ReplyTemplateId": 342,
+  "PlainParsed": "nisi",
+  "HtmlParsed": "qui",
   "Attachments": [
     {
-      "AttachmentId": 617,
-      "Name": "Hegmann, Brekke and Reynolds",
-      "ContentType": "est",
-      "AttSize": 302,
-      "InlineImage": true,
-      "ContentId": "sed",
+      "AttachmentId": 618,
+      "Name": "Dickinson LLC",
+      "ContentType": "incidunt",
+      "AttSize": 455,
+      "InlineImage": false,
+      "ContentId": "est",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldLength": 319
         }
       }
     }
   ],
-  "Subject": "illum",
+  "Subject": "rerum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 982
     }
   }
 }

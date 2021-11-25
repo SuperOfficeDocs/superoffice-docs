@@ -1,9 +1,9 @@
 ---
-title: GetProjectList
+title: POST Agents/Project/GetProjectList
 id: v1ProjectAgent_GetProjectList
 ---
 
-# GetProjectList
+# POST Agents/Project/GetProjectList
 
 ```http
 POST /api/v1/Agents/Project/GetProjectList
@@ -87,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 188,
-    "Name": "Sanford LLC",
-    "Description": "Diverse explicit algorithm",
+    "ProjectId": 173,
+    "Name": "Leannon-Cremin",
+    "Description": "Cross-group user-facing access",
     "URL": "http://www.example.com/",
-    "Type": "nulla",
-    "AssociateId": 324,
-    "AssociateFullName": "Terence Ondricka",
-    "TypeId": 86,
-    "Updated": "1998-05-17T14:58:04.8554605+02:00",
-    "StatusId": 772,
-    "Status": "facilis",
-    "TextId": 653,
-    "PublishTo": "1996-07-28T14:58:04.8554605+02:00",
-    "PublishFrom": "2014-02-10T14:58:04.8554605+01:00",
+    "Type": "est",
+    "AssociateId": 556,
+    "AssociateFullName": "Archibald Pagac DDS",
+    "TypeId": 802,
+    "Updated": "2003-09-23T18:28:49.7791383+02:00",
+    "StatusId": 937,
+    "Status": "quos",
+    "TextId": 741,
+    "PublishTo": "2010-04-29T18:28:49.7791383+02:00",
+    "PublishFrom": "2003-12-27T18:28:49.7791383+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "969485",
-    "ActiveErpLinks": 378,
+    "ProjectNumber": "232268",
+    "ActiveErpLinks": 166,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 38
+        "FieldLength": 551
       }
     }
   }

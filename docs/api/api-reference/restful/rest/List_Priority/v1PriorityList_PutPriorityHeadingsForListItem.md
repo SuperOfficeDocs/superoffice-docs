@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Green-Sawayn",
-    "ToolTip": "Voluptas quidem dolorum iure quos.",
-    "Deleted": true,
-    "Rank": 911,
-    "Type": "deserunt",
-    "ColorBlock": 765,
-    "IconHint": "adipisci",
+    "Id": 321,
+    "Name": "Jewess, Fisher and Towne",
+    "ToolTip": "Perferendis et.",
+    "Deleted": false,
+    "Rank": 482,
+    "Type": "commodi",
+    "ColorBlock": 472,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2012-07-03T15:05:43.6020797+02:00",
+    "LastChanged": "2017-11-06T18:25:51.9872449+01:00",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Lind LLC",
-        "ToolTip": "Consequatur tempora voluptatem laborum et et fugit.",
+        "Id": 350,
+        "Name": "Fisher-Glover",
+        "ToolTip": "Optio consectetur.",
         "Deleted": true,
-        "Rank": 976,
-        "Type": "distinctio",
-        "ColorBlock": 194,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2012-12-05T15:05:43.6020797+01:00",
+        "Rank": 739,
+        "Type": "sunt",
+        "ColorBlock": 262,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2010-10-29T18:25:51.9872449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Otto Roob"
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Laurine Sawayn IV"
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "et",
+    "ExtraInfo": "in",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Margie Lemke"
+    "FullName": "Lorena Schinner"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Cremin, Schmitt and McLaughlin",
-    "ToolTip": "Omnis iusto quia.",
+    "Id": 434,
+    "Name": "Labadie-Turner",
+    "ToolTip": "Sit ut.",
     "Deleted": true,
-    "Rank": 134,
-    "Type": "similique",
-    "ColorBlock": 529,
-    "IconHint": "iure",
+    "Rank": 252,
+    "Type": "est",
+    "ColorBlock": 409,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "1995-10-14T15:05:43.6030796+02:00",
+    "LastChanged": "2018-09-20T18:25:51.9882488+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Fritsch LLC",
-        "ToolTip": "Voluptas debitis natus maiores eligendi at.",
-        "Deleted": false,
-        "Rank": 194,
-        "Type": "est",
-        "ColorBlock": 280,
-        "IconHint": "perferendis",
+        "Id": 582,
+        "Name": "Swift Group",
+        "ToolTip": "Cum sequi iure ut voluptatem aut.",
+        "Deleted": true,
+        "Rank": 71,
+        "Type": "et",
+        "ColorBlock": 476,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2004-09-26T15:05:43.6030796+02:00",
+        "LastChanged": "2020-10-31T18:25:51.9892126+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "officiis",
-        "Hidden": false,
-        "FullName": "Immanuel Ledner I",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Pearline Kautzer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,19 +183,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldType": "System.String",
+            "FieldLength": 759
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "quia",
+    "ExtraInfo": "quia",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Elton Walsh Jr.",
+    "FullName": "Kattie Rosenbaum",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "mesh innovative content"
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

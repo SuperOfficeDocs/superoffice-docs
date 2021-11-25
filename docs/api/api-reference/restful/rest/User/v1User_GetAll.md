@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=dolore
-GET /api/v1/User?$top=24
-GET /api/v1/User?$skip=951
+GET /api/v1/User?$entities=ut
+GET /api/v1/User?$top=862
+GET /api/v1/User?$skip=539
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=aperiam
+GET /api/v1/User?$context=ullam
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=True
 GET /api/v1/User?$output=Display
@@ -125,19 +125,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "provident",
+  "odata.nextLink": "cumque",
   "value": [
     {
-      "PrimaryKey": 9200,
-      "EntityName": "person",
-      "personId": 9200,
-      "fullName": "Cecile Littel"
+      "PrimaryKey": 8885,
+      "EntityName": "sale",
+      "saleId": 8885,
+      "contactId": 9778,
+      "name": "Schmitt Inc and Sons"
     },
     {
-      "PrimaryKey": 2303,
-      "EntityName": "person",
-      "personId": 2303,
-      "fullName": "Anastasia Lang PhD"
+      "PrimaryKey": 7929,
+      "EntityName": "sale",
+      "saleId": 7929,
+      "contactId": 6011,
+      "name": "Farrell-Kovacek"
     }
   ]
 }

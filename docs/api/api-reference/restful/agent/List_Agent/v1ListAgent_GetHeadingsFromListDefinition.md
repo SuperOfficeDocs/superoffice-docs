@@ -1,9 +1,9 @@
 ---
-title: GetHeadingsFromListDefinition
+title: POST Agents/List/GetHeadingsFromListDefinition
 id: v1ListAgent_GetHeadingsFromListDefinition
 ---
 
-# GetHeadingsFromListDefinition
+# POST Agents/List/GetHeadingsFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866
+  "Id": 384
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 933,
-    "Name": "Rosenbaum Group",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 236,
+    "HeadingId": 648,
+    "Name": "Jewess-Hartmann",
+    "Tooltip": "commodi",
+    "Deleted": true,
+    "Rank": 757,
+    "UdListDefinitionId": 549,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "cultivate wireless methodologies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

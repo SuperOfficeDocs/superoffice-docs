@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Murphy-Huels",
-    "ToolTip": "Corporis labore consequatur officia.",
+    "Id": 708,
+    "Name": "Runolfsdottir-Armstrong",
+    "ToolTip": "Ipsum et omnis eos.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "nesciunt",
-    "ColorBlock": 60,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2019-06-07T15:05:43.4055101+02:00",
+    "Rank": 537,
+    "Type": "quia",
+    "ColorBlock": 270,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2013-05-05T18:25:51.7872932+02:00",
     "ChildItems": [
       {
-        "Id": 936,
-        "Name": "Weber Inc and Sons",
-        "ToolTip": "Ratione porro.",
-        "Deleted": false,
-        "Rank": 946,
-        "Type": "aut",
-        "ColorBlock": 61,
-        "IconHint": "asperiores",
+        "Id": 853,
+        "Name": "Raynor Group",
+        "ToolTip": "Sed vel tenetur id.",
+        "Deleted": true,
+        "Rank": 767,
+        "Type": "quas",
+        "ColorBlock": 240,
+        "IconHint": "molestias",
         "Selected": true,
-        "LastChanged": "2014-06-09T15:05:43.4055101+02:00",
+        "LastChanged": "2011-11-11T18:25:51.7872932+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "quidem",
         "Hidden": true,
-        "FullName": "Valentina Carter",
+        "FullName": "Delores Boehm",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldType": "System.String",
+            "FieldLength": 45
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "nihil",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Manuel Legros",
+    "FullName": "Heidi Barrows I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: FindTicketsByTitleOrId
+title: POST Agents/CustomerService/FindTicketsByTitleOrId
 id: v1CustomerServiceAgent_FindTicketsByTitleOrId
 ---
 
-# FindTicketsByTitleOrId
+# POST Agents/CustomerService/FindTicketsByTitleOrId
 
 ```http
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
@@ -81,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "dolor",
-  "MaxRows": 804
+  "TitleOrId": "mollitia",
+  "MaxRows": 820
 }
 ```
 
@@ -96,14 +96,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 359,
-    "Title": "autem",
-    "OwnerName": "Satterfield-Kohler",
+    "TicketId": 236,
+    "Title": "et",
+    "OwnerName": "Lindgren-Muller",
     "CategoryName": "VIP Customer",
-    "PriorityName": "McGlynn LLC",
+    "PriorityName": "Blanda, Hettinger and Okuneva",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Howe-Torp",
-    "ContactName": "Ebert, Flatley and Bartoletti",
+    "PersonName": "Olson Inc and Sons",
+    "ContactName": "Hudson-Parker",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 629
       }
     }
   }

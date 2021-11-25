@@ -1,9 +1,9 @@
 ---
-title: GetFromListDefinition
+title: POST Agents/List/GetFromListDefinition
 id: v1ListAgent_GetFromListDefinition
 ---
 
-# GetFromListDefinition
+# POST Agents/List/GetFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/GetFromListDefinition
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 932,
-  "UdListDefinitionId": 593
+  "Id": 401,
+  "UdListDefinitionId": 929
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Konopelski-Jacobi",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 473,
-  "Rank": 569,
+  "Id": 973,
+  "Name": "Hettinger, Nicolas and Smith",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "UdListDefinitionId": 366,
+  "Rank": 169,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldType": "System.String",
+      "FieldLength": 345
     }
   }
 }

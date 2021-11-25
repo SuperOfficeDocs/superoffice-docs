@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultReportLabelLayoutEntity
+title: POST Agents/Report/CreateDefaultReportLabelLayoutEntity
 id: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
 ---
 
-# CreateDefaultReportLabelLayoutEntity
+# POST Agents/Report/CreateDefaultReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 507,
-  "Name": "Streich Group",
-  "Description": "Front-line actuating concept",
+  "ReportLabelLayoutId": 527,
+  "Name": "Stracke LLC",
+  "Description": "Organized tangible website",
   "Orientation": "Landscape",
-  "PaperWidth": 172,
-  "PaperHeight": 998,
-  "LeftMargin": 261,
-  "RightMargin": 871,
-  "TopMargin": 898,
-  "BottomMargin": 977,
-  "CountColumns": 909,
-  "CountRows": 763,
+  "PaperWidth": 7,
+  "PaperHeight": 398,
+  "LeftMargin": 644,
+  "RightMargin": 28,
+  "TopMargin": 724,
+  "BottomMargin": 784,
+  "CountColumns": 34,
+  "CountRows": 529,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "iterate robust markets"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

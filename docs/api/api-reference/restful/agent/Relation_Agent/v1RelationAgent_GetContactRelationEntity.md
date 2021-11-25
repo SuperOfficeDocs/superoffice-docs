@@ -1,9 +1,9 @@
 ---
-title: GetContactRelationEntity
+title: POST Agents/Relation/GetContactRelationEntity
 id: v1RelationAgent_GetContactRelationEntity
 ---
 
-# GetContactRelationEntity
+# POST Agents/Relation/GetContactRelationEntity
 
 ```http
 POST /api/v1/Agents/Relation/GetContactRelationEntity
@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=487
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=473
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 881,
-  "SourcePersonId": 443,
-  "DestinationContactId": 946,
-  "DestinationPersonId": 916,
-  "RelationId": 298,
-  "Comment": "labore",
-  "RelationDefinitionId": 609,
-  "Reversed": 934,
-  "UpdatedDate": "2005-02-14T14:58:05.022471+01:00",
-  "CreatedDate": "1997-10-20T14:58:05.022471+02:00",
+  "SourceContactId": 38,
+  "SourcePersonId": 129,
+  "DestinationContactId": 268,
+  "DestinationPersonId": 210,
+  "RelationId": 804,
+  "Comment": "perspiciatis",
+  "RelationDefinitionId": 28,
+  "Reversed": 332,
+  "UpdatedDate": "2007-11-27T18:28:50.0071373+01:00",
+  "CreatedDate": "2016-12-27T18:28:50.0071373+01:00",
   "CreatedBy": {
-    "AssociateId": 737,
-    "Name": "Carroll LLC",
-    "PersonId": 945,
-    "Rank": 183,
-    "Tooltip": "quo",
+    "AssociateId": 40,
+    "Name": "Blick-Keebler",
+    "PersonId": 114,
+    "Rank": 40,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 295,
-    "FullName": "Otilia Kilback",
-    "FormalName": "Crona, Huel and Bernhard",
+    "GroupIdx": 776,
+    "FullName": "Ismael Torphy",
+    "FormalName": "Tillman-Corkery",
     "Deleted": true,
-    "EjUserId": 456,
-    "UserName": "Renner-Cremin",
+    "EjUserId": 705,
+    "UserName": "Baumbach Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -126,45 +126,45 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 347
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 718,
-    "Name": "Johns-Kling",
-    "PersonId": 658,
-    "Rank": 544,
-    "Tooltip": "velit",
+    "AssociateId": 810,
+    "Name": "Shanahan LLC",
+    "PersonId": 346,
+    "Rank": 713,
+    "Tooltip": "asperiores",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 184,
-    "FullName": "Evans Welch",
-    "FormalName": "Wisozk LLC",
-    "Deleted": false,
-    "EjUserId": 332,
-    "UserName": "Okuneva LLC",
+    "GroupIdx": 941,
+    "FullName": "Jamel Bernier",
+    "FormalName": "Morissette, Jenkins and Swift",
+    "Deleted": true,
+    "EjUserId": 529,
+    "UserName": "Pagac LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "monetize e-business relationships"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 318
       }
     }
   },
-  "SourceContactName": "McClure Inc and Sons",
-  "SourcePersonName": "McDermott LLC",
-  "DestinationContactName": "Willms-Johnson",
-  "DestinationPersonName": "Nienow, Goldner and Bode",
-  "ActiveText": "accusamus",
-  "PassiveText": "temporibus",
+  "SourceContactName": "Baumbach LLC",
+  "SourcePersonName": "Thiel, Green and Wisoky",
+  "DestinationContactName": "Gutmann Group",
+  "DestinationPersonName": "Fisher, Botsford and Berge",
+  "ActiveText": "blanditiis",
+  "PassiveText": "et",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "incentivize real-time solutions"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldLength": 632
     }
   }
 }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Schmidt, Feest and Christiansen",
-    "ToolTip": "Voluptatum dolore cumque eos ut.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "dolor",
-    "ColorBlock": 180,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2001-02-25T15:05:43.5810796+01:00",
+    "Id": 117,
+    "Name": "Corkery, Douglas and Bernier",
+    "ToolTip": "Distinctio dolore consequatur sapiente eius dolor.",
+    "Deleted": false,
+    "Rank": 594,
+    "Type": "et",
+    "ColorBlock": 849,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2008-03-10T18:25:51.9642454+01:00",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Cummerata, Powlowski and Grant",
-        "ToolTip": "Dignissimos ea ea.",
-        "Deleted": false,
-        "Rank": 183,
-        "Type": "ea",
+        "Id": 8,
+        "Name": "Bednar, Hahn and Robel",
+        "ToolTip": "Expedita voluptatem deserunt odio voluptas fugit minus.",
+        "Deleted": true,
+        "Rank": 375,
+        "Type": "accusamus",
         "ColorBlock": 394,
-        "IconHint": "cumque",
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2019-10-07T15:05:43.5810796+02:00",
+        "LastChanged": "2018-08-26T18:25:51.9652449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Brady Cartwright"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ronaldo Schneider"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Conrad Johns"
+    "ExtraInfo": "enim",
+    "StyleHint": "officiis",
+    "Hidden": true,
+    "FullName": "Asia Towne"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Cassin-Hettinger",
-    "ToolTip": "Aperiam dolorem laboriosam qui aut.",
-    "Deleted": false,
-    "Rank": 120,
-    "Type": "sed",
-    "ColorBlock": 655,
-    "IconHint": "aut",
+    "Id": 999,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Sit placeat quae est reprehenderit.",
+    "Deleted": true,
+    "Rank": 43,
+    "Type": "a",
+    "ColorBlock": 561,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "1994-05-01T15:05:43.5820793+02:00",
+    "LastChanged": "2017-08-18T18:25:51.9662455+02:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Leffler Group",
-        "ToolTip": "Minima et maiores ut deserunt eos accusamus.",
-        "Deleted": false,
-        "Rank": 897,
-        "Type": "consectetur",
-        "ColorBlock": 894,
-        "IconHint": "delectus",
+        "Id": 360,
+        "Name": "Ryan LLC",
+        "ToolTip": "Delectus nihil architecto architecto tempora.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "eos",
+        "ColorBlock": 33,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "1997-04-28T15:05:43.5820793+02:00",
+        "LastChanged": "2015-12-15T18:25:51.9662455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "eaque",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Dr. Esperanza Cassin",
+        "FullName": "Cesar Schmeler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,18 +184,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "fuga",
     "Hidden": true,
-    "FullName": "Miss Amber Krajcik",
+    "FullName": "Nicola Schuppe DVM",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "whiteboard transparent communities"
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

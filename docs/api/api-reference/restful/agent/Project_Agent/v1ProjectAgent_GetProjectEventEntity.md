@@ -1,9 +1,9 @@
 ---
-title: GetProjectEventEntity
+title: POST Agents/Project/GetProjectEventEntity
 id: v1ProjectAgent_GetProjectEventEntity
 ---
 
-# GetProjectEventEntity
+# POST Agents/Project/GetProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventEntity
@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=10
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=980
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -108,60 +108,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "fugit",
-  "SignOffText": "cum",
-  "SignOnConfirmationText": "ut",
-  "SignOnText": "esse",
-  "EventDate": "2006-08-21T14:58:04.9224663+02:00",
+  "SignOffConfirmationText": "placeat",
+  "SignOffText": "saepe",
+  "SignOnConfirmationText": "rem",
+  "SignOnText": "reiciendis",
+  "EventDate": "2010-10-25T18:28:49.9041378+02:00",
   "Enabled": true,
-  "CreatedDate": "2007-01-15T14:58:04.9224663+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 430,
+  "CreatedDate": "2016-01-19T18:28:49.9041378+01:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 627,
   "SignOffTriggersAssign": true,
-  "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 793,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2001-02-13T14:58:04.9224663+01:00",
+  "SignOn": true,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 378,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2013-04-15T18:28:49.9041378+02:00",
   "CreatedBy": {
-    "AssociateId": 655,
-    "Name": "Christiansen, Jacobson and Purdy",
-    "PersonId": 217,
-    "Rank": 716,
-    "Tooltip": "libero",
+    "AssociateId": 376,
+    "Name": "Ernser-O'Connell",
+    "PersonId": 799,
+    "Rank": 706,
+    "Tooltip": "voluptatibus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 494,
-    "FullName": "Kaylin Boyer",
-    "FormalName": "Osinski Inc and Sons",
+    "GroupIdx": 340,
+    "FullName": "Susie Jenkins",
+    "FormalName": "Wiza, Kuvalis and Bechtelar",
     "Deleted": false,
-    "EjUserId": 534,
-    "UserName": "Goyette-Koelpin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 94
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 483,
-    "Name": "Weber, Baumbach and Osinski",
-    "PersonId": 178,
-    "Rank": 849,
-    "Tooltip": "distinctio",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 986,
-    "FullName": "Walker Bashirian",
-    "FormalName": "Luettgen, Rohan and Quitzon",
-    "Deleted": false,
-    "EjUserId": 283,
-    "UserName": "Little-Dickinson",
+    "EjUserId": 208,
+    "UserName": "Satterfield, Rosenbaum and Jacobi",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -170,32 +145,57 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 24
       }
     }
   },
-  "ProjectId": 779,
-  "Id": 469,
-  "PublishFrom": "2016-06-25T14:58:04.9234646+02:00",
+  "UpdatedBy": {
+    "AssociateId": 462,
+    "Name": "Greenfelder Inc and Sons",
+    "PersonId": 648,
+    "Rank": 429,
+    "Tooltip": "maiores",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 529,
+    "FullName": "Austyn Stroman",
+    "FormalName": "Lind-Treutel",
+    "Deleted": true,
+    "EjUserId": 732,
+    "UserName": "Cummings LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 889
+      }
+    }
+  },
+  "ProjectId": 172,
+  "Id": 828,
+  "PublishFrom": "2007-03-29T18:28:49.9051439+02:00",
   "PublishType": "External",
-  "PublishTo": "2003-11-07T14:58:04.9234646+01:00",
+  "PublishTo": "1995-05-27T18:28:49.9051439+02:00",
   "VisibleForCategories": [
     {
-      "Id": 862,
-      "Name": "Reynolds-Wyman",
-      "ToolTip": "Fuga dolorem ipsam ea est et.",
+      "Id": 644,
+      "Name": "Mohr Group",
+      "ToolTip": "Omnis temporibus quia aut.",
       "Deleted": true,
-      "Rank": 689,
-      "Type": "et",
+      "Rank": 723,
+      "Type": "sequi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "id",
-      "ColorBlock": 726,
-      "ExtraInfo": "est",
-      "StyleHint": "voluptatem",
-      "FullName": "Tracey Lesch",
+      "IconHint": "natus",
+      "ColorBlock": 426,
+      "ExtraInfo": "neque",
+      "StyleHint": "eos",
+      "FullName": "Rosendo Carter",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -204,28 +204,28 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 919
+          "FieldLength": 403
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 72,
-      "Name": "Koss-Mann",
-      "ToolTip": "Voluptate ea corporis voluptas.",
+      "Id": 320,
+      "Name": "Kozey LLC",
+      "ToolTip": "Consequatur at.",
       "Deleted": false,
-      "Rank": 127,
-      "Type": "esse",
+      "Rank": 271,
+      "Type": "amet",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "saepe",
-      "ColorBlock": 116,
-      "ExtraInfo": "quasi",
-      "StyleHint": "quas",
-      "FullName": "Chadrick Roberts",
+      "IconHint": "dolor",
+      "ColorBlock": 110,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "ducimus",
+      "FullName": "Jessy Spinka",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -234,16 +234,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldLength": 665
         }
       }
     }
   ],
   "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 940,
+  "ProjectEventId": 107,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -252,10 +252,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "productize bricks-and-clicks action-items"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

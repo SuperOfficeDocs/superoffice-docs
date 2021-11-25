@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 167,
-  "ColumnId": 380,
-  "FieldDefault": "et",
-  "FieldHeight": 370,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 591,
-  "FieldTop": 874,
+  "UDefFieldId": 921,
+  "ColumnId": 734,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 393,
+  "FieldLabel": "quia",
+  "FieldLeft": 610,
+  "FieldTop": 203,
   "FieldType": "Checkbox",
-  "FieldWidth": 941,
-  "FormatMask": "veniam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 378,
-  "LabelLeft": 926,
-  "LabelTop": 5,
-  "LabelWidth": 229,
-  "LastVersionId": 637,
-  "ListTableId": 102,
-  "IsMandatory": true,
+  "FieldWidth": 394,
+  "FormatMask": "nulla",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 114,
+  "LabelLeft": 125,
+  "LabelTop": 565,
+  "LabelWidth": 244,
+  "LastVersionId": 823,
+  "ListTableId": 880,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 505,
-  "ProgId": "porro",
+  "Page1LineNo": 575,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "repellendus",
-  "TabOrder": 441,
-  "TextLength": 624,
-  "Tooltip": "tempore",
-  "UdefIdentity": 639,
-  "UDListDefinitionId": 951,
+  "ShortLabel": "ex",
+  "TabOrder": 792,
+  "TextLength": 489,
+  "Tooltip": "maiores",
+  "UdefIdentity": 959,
+  "UDListDefinitionId": 803,
   "Justification": "Center",
-  "Version": 477,
-  "TemplateVariableName": "Lueilwitz-Sauer",
+  "Version": 983,
+  "TemplateVariableName": "Schuppe Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Wilderman Inc and Sons",
+  "MdoListName": "Fay Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 948
     }
   }
 }

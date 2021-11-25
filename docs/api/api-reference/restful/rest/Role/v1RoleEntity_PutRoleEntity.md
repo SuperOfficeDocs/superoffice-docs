@@ -106,46 +106,46 @@ Response body: object
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 945,
-  "Name": "Metz-Schneider",
-  "Tooltip": "consequatur",
+  "RoleId": 205,
+  "Name": "Jakubowski, Herman and White",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 178,
-  "Rank": 757,
-  "Created": "2006-12-26T15:05:42.5576352+01:00",
-  "UseCategories": 237,
+  "Deleted": 625,
+  "Rank": 925,
+  "Created": "2010-02-23T18:25:50.8678835+01:00",
+  "UseCategories": 922,
   "CreatedBy": {
-    "AssociateId": 73,
-    "Name": "Kuhlman, Romaguera and Hintz",
-    "PersonId": 611,
-    "Rank": 591,
-    "Tooltip": "labore",
+    "AssociateId": 447,
+    "Name": "Smith LLC",
+    "PersonId": 967,
+    "Rank": 671,
+    "Tooltip": "exercitationem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 999,
-    "FullName": "Harmon Langosh",
-    "FormalName": "Veum, Hermiston and Padberg",
-    "Deleted": false,
-    "EjUserId": 945,
-    "UserName": "Nitzsche LLC"
-  },
-  "Updated": "2004-03-11T15:05:42.5586353+01:00",
-  "UpdatedBy": {
-    "AssociateId": 159,
-    "Name": "Kirlin, Lang and Nienow",
-    "PersonId": 838,
-    "Rank": 855,
-    "Tooltip": "officiis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 136,
-    "FullName": "Maddison Huels V",
-    "FormalName": "Powlowski LLC",
+    "GroupIdx": 660,
+    "FullName": "Abigayle Ullrich",
+    "FormalName": "Lockman LLC",
     "Deleted": true,
-    "EjUserId": 724,
-    "UserName": "Glover, Denesik and Greenfelder"
+    "EjUserId": 709,
+    "UserName": "Welch-Dach"
+  },
+  "Updated": "1998-04-01T18:25:50.8678835+02:00",
+  "UpdatedBy": {
+    "AssociateId": 117,
+    "Name": "Stoltenberg, Trantow and Boehm",
+    "PersonId": 70,
+    "Rank": 221,
+    "Tooltip": "et",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 65,
+    "FullName": "Lorna Kling II",
+    "FormalName": "Zboncak, Brown and Runolfsdottir",
+    "Deleted": true,
+    "EjUserId": 73,
+    "UserName": "Schultz-Jacobi"
   },
   "DataRights": {
     "ColumnsInfo": [
@@ -159,28 +159,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "saepe",
-          "Description": "Persevering hybrid alliance",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "strategize sticky applications"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 79
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "ea",
-          "Description": "Compatible hybrid initiative",
+          "Value": "facilis",
+          "Description": "Virtual grid-enabled interface",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -192,7 +172,27 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 60
+              "FieldLength": 945
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "qui",
+          "Description": "Centralized maximized definition",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.String",
+              "FieldLength": 684
             }
           }
         }
@@ -207,53 +207,27 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 831,
-  "Name": "Gorczany LLC",
-  "Tooltip": "aspernatur",
+  "RoleId": 89,
+  "Name": "Heidenreich LLC",
+  "Tooltip": "a",
   "RoleType": "Anonymous",
-  "Deleted": 80,
-  "Rank": 691,
-  "Created": "2014-08-18T15:05:42.5596348+02:00",
-  "UseCategories": 478,
+  "Deleted": 587,
+  "Rank": 370,
+  "Created": "2005-12-31T18:25:50.8698837+01:00",
+  "UseCategories": 232,
   "CreatedBy": {
-    "AssociateId": 296,
-    "Name": "Gutmann Group",
-    "PersonId": 544,
-    "Rank": 449,
-    "Tooltip": "sint",
+    "AssociateId": 637,
+    "Name": "Ullrich-Champlin",
+    "PersonId": 97,
+    "Rank": 905,
+    "Tooltip": "at",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 178,
-    "FullName": "Madalyn Ernser",
-    "FormalName": "Little-Johnson",
-    "Deleted": false,
-    "EjUserId": 487,
-    "UserName": "Herman Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "streamline one-to-one solutions"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 335
-      }
-    }
-  },
-  "Updated": "2010-10-30T15:05:42.5606352+02:00",
-  "UpdatedBy": {
-    "AssociateId": 368,
-    "Name": "Schmeler-Windler",
-    "PersonId": 238,
-    "Rank": 799,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 61,
-    "FullName": "Natalia Collier",
-    "FormalName": "Heaney, Jaskolski and Larkin",
+    "GroupIdx": 267,
+    "FullName": "Jocelyn Wilderman",
+    "FormalName": "Smith Group",
     "Deleted": true,
-    "EjUserId": 952,
-    "UserName": "Pagac-Bode",
+    "EjUserId": 690,
+    "UserName": "Schimmel-Kuhn",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -261,8 +235,34 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldType": "System.Int32",
+        "FieldLength": 225
+      }
+    }
+  },
+  "Updated": "2021-06-22T18:25:50.8708834+02:00",
+  "UpdatedBy": {
+    "AssociateId": 869,
+    "Name": "Kutch-Treutel",
+    "PersonId": 293,
+    "Rank": 251,
+    "Tooltip": "vitae",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 458,
+    "FullName": "Raymond McLaughlin",
+    "FormalName": "Bartell Group",
+    "Deleted": true,
+    "EjUserId": 226,
+    "UserName": "Shanahan-Huels",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 156
       }
     }
   },
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "eaque",
-          "Description": "Ergonomic modular database",
+          "Value": "voluptatem",
+          "Description": "Seamless optimal groupware",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -290,16 +290,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 625
+              "FieldType": "System.Int32",
+              "FieldLength": 226
             }
           }
         }
       ],
       [
         {
-          "Value": "maiores",
-          "Description": "Profound heuristic intranet",
+          "Value": "voluptatem",
+          "Description": "Virtual fresh-thinking paradigm",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 800
+              "FieldLength": 98
             }
           }
         }
@@ -325,7 +325,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldLength": 755
       }
     }
   },
@@ -339,8 +339,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   },
   "_Links": {

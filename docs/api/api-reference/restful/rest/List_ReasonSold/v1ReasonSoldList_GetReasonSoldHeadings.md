@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 992,
-    "Name": "Schaden LLC",
-    "Tooltip": "culpa",
+    "HeadingId": 292,
+    "Name": "Luettgen-Konopelski",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 188,
+    "Rank": 964,
+    "UdListDefinitionId": 202,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 433
       }
     }
   }

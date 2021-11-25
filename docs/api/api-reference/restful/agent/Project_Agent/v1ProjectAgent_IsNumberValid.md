@@ -1,9 +1,9 @@
 ---
-title: IsNumberValid
+title: POST Agents/Project/IsNumberValid
 id: v1ProjectAgent_IsNumberValid
 ---
 
-# IsNumberValid
+# POST Agents/Project/IsNumberValid
 
 ```http
 POST /api/v1/Agents/Project/IsNumberValid
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 224,
-  "Number": "149526"
+  "ContactId": 329,
+  "Number": "1052587"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

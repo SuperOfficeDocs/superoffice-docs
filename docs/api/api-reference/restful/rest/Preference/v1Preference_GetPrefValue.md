@@ -74,7 +74,7 @@ Response body: object
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,10 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "hic",
+  "RawValue": "placeat",
   "Specification": {
-    "Section": "debitis",
-    "Key": "mollitia",
+    "Section": "corrupti",
+    "Key": "ut",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 603
+      }
+    }
+  },
+  "DisplayValue": "error",
+  "DisplayTooltip": "eos",
+  "DisplayType": "Bool",
+  "TabOrder": {
+    "TabOrderId": 609,
+    "TabName": "Hilpert LLC",
+    "Order": "omnis",
+    "AssociateId": 485,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,34 +115,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 794
       }
     }
   },
-  "DisplayValue": "ab",
-  "DisplayTooltip": "error",
-  "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 384,
-    "TabName": "Gaylord LLC",
-    "Order": "distinctio",
-    "AssociateId": 565,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "productize frictionless schemas"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 619
-      }
-    }
-  },
-  "TargetId": 461,
-  "PrefDescId": 38,
-  "TableName": "Swaniawski, Keeling and Stracke",
-  "UserPreferenceId": 903,
+  "TargetId": 799,
+  "PrefDescId": 270,
+  "TableName": "Upton-Monahan",
+  "UserPreferenceId": 941,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,10 +131,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "benchmark next-generation initiatives"
       },
       "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldLength": 30
     }
   }
 }

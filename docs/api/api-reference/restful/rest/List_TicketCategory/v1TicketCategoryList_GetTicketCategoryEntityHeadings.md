@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 176,
-    "Name": "Prohaska-Douglas",
-    "Tooltip": "assumenda",
+    "HeadingId": 925,
+    "Name": "Mayert-Hessel",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 870,
-    "UdListDefinitionId": 404,
+    "Rank": 939,
+    "UdListDefinitionId": 833,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldLength": 336
       }
     }
   }

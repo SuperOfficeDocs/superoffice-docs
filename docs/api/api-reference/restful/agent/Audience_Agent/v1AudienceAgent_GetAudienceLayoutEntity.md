@@ -1,9 +1,9 @@
 ---
-title: GetAudienceLayoutEntity
+title: POST Agents/Audience/GetAudienceLayoutEntity
 id: v1AudienceAgent_GetAudienceLayoutEntity
 ---
 
-# GetAudienceLayoutEntity
+# POST Agents/Audience/GetAudienceLayoutEntity
 
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
@@ -25,7 +25,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=949
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=47
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 441,
-  "InstanceLayout": "et",
-  "InstanceName": "Beahan-Mayer",
-  "CreatedDate": "1997-11-14T14:58:03.2612413+01:00",
-  "UpdatedDate": "2001-07-07T14:58:03.2612413+02:00",
+  "AudienceLayoutId": 37,
+  "InstanceLayout": "eveniet",
+  "InstanceName": "Kuhic Inc and Sons",
+  "CreatedDate": "2000-08-11T18:28:48.1335463+02:00",
+  "UpdatedDate": "2012-02-21T18:28:48.1335463+01:00",
   "CreatedBy": {
-    "AssociateId": 950,
-    "Name": "Hartmann Group",
-    "PersonId": 917,
-    "Rank": 591,
-    "Tooltip": "sed",
+    "AssociateId": 378,
+    "Name": "O'Reilly LLC",
+    "PersonId": 731,
+    "Rank": 916,
+    "Tooltip": "consequatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 707,
-    "FullName": "Creola Turner",
-    "FormalName": "Schumm LLC",
+    "GroupIdx": 785,
+    "FullName": "Lucy Fahey",
+    "FormalName": "Collier-Bechtelar",
     "Deleted": true,
-    "EjUserId": 451,
-    "UserName": "Walsh LLC",
+    "EjUserId": 290,
+    "UserName": "Gutkowski, Haag and Sawayn",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -111,23 +111,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 935
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 470,
-    "Name": "Rice-Johnston",
-    "PersonId": 60,
-    "Rank": 595,
-    "Tooltip": "deleniti",
+    "AssociateId": 534,
+    "Name": "Vandervort-Skiles",
+    "PersonId": 836,
+    "Rank": 728,
+    "Tooltip": "exercitationem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 606,
-    "FullName": "Mozell Conn",
-    "FormalName": "Mayer Group",
+    "GroupIdx": 183,
+    "FullName": "Loy Wunsch",
+    "FormalName": "DuBuque, Wisoky and Kuvalis",
     "Deleted": false,
-    "EjUserId": 561,
-    "UserName": "Goodwin LLC",
+    "EjUserId": 900,
+    "UserName": "Kerluke-McCullough",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldType": "System.String",
+        "FieldLength": 200
       }
     }
   },
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 672
     }
   }
 }

@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Waters, Schroeder and Konopelski",
-    "ToolTip": "Sed enim earum.",
+    "Id": 131,
+    "Name": "Boyle, Wilkinson and Abernathy",
+    "ToolTip": "Quisquam dolores.",
     "Deleted": false,
-    "Rank": 62,
-    "Type": "dolore",
-    "ColorBlock": 326,
-    "IconHint": "omnis",
+    "Rank": 306,
+    "Type": "dolor",
+    "ColorBlock": 113,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2011-07-22T15:05:42.5656353+02:00",
+    "LastChanged": "2009-02-19T18:25:50.8748835+01:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Glover LLC",
-        "ToolTip": "Quam voluptatem dolorem aut numquam aut.",
+        "Id": 347,
+        "Name": "Jacobson Inc and Sons",
+        "ToolTip": "Nisi unde nam mollitia qui.",
         "Deleted": false,
-        "Rank": 551,
-        "Type": "quos",
-        "ColorBlock": 979,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "1999-12-24T15:05:42.5656353+01:00",
+        "Rank": 548,
+        "Type": "a",
+        "ColorBlock": 714,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2021-11-13T18:25:50.8748835+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "magnam",
-        "Hidden": false,
-        "FullName": "Jaycee Wyman",
+        "ExtraInfo": "quis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Rusty McCullough",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,16 +121,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldType": "System.String",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "ex",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "laborum",
     "Hidden": true,
-    "FullName": "Bobbie Langosh",
+    "FullName": "Alexzander Lehner",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 875
       }
     }
   }

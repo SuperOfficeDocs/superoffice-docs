@@ -1,9 +1,9 @@
 ---
-title: GetListWithHistory
+title: POST Agents/MDO/GetListWithHistory
 id: v1MDOAgent_GetListWithHistory
 ---
 
-# GetListWithHistory
+# POST Agents/MDO/GetListWithHistory
 
 ```http
 POST /api/v1/Agents/MDO/GetListWithHistory
@@ -88,16 +88,16 @@ Response body: array
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sporer LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "in",
+  "Name": "Bosco, Torp and Halvorson",
+  "ForceFlatList": true,
+  "AdditionalInfo": "beatae",
   "HistoryItems": [
-    22,
-    294
+    429,
+    819
   ],
   "OnlyHistory": false
 }
@@ -109,29 +109,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Kreiger-Prohaska",
-    "ToolTip": "Voluptatem consequatur consequuntur ut quia nihil.",
+    "Id": 240,
+    "Name": "Schamberger LLC",
+    "ToolTip": "Error esse aut aut.",
     "Deleted": true,
-    "Rank": 73,
-    "Type": "alias",
+    "Rank": 380,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Lesch, Hills and Feil",
-        "ToolTip": "Deleniti repellendus atque nihil necessitatibus et.",
+        "Id": 88,
+        "Name": "Waelchi Inc and Sons",
+        "ToolTip": "Doloremque et eligendi blanditiis illum.",
         "Deleted": false,
-        "Rank": 30,
-        "Type": "dignissimos",
+        "Rank": 696,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 317,
-        "ExtraInfo": "ut",
-        "StyleHint": "corporis",
-        "FullName": "Kiarra Price II",
+        "IconHint": "minima",
+        "ColorBlock": 376,
+        "ExtraInfo": "vero",
+        "StyleHint": "rerum",
+        "FullName": "Mrs. Rory Rempel",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -139,20 +139,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 994
+            "FieldType": "System.Int32",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 440,
-    "ExtraInfo": "saepe",
-    "StyleHint": "saepe",
-    "FullName": "Sophie Larkin",
+    "IconHint": "natus",
+    "ColorBlock": 583,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "nisi",
+    "FullName": "Aubree Upton I",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "drive B2B solutions"
     },
     "FieldProperties": {
       "fieldName": {
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 937
       }
     }
   }

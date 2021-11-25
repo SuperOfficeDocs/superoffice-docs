@@ -119,43 +119,43 @@ Response body: object
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "inventore",
     "value": {
       "value1": {
-        "PrimaryKey": 4204,
+        "PrimaryKey": 4498,
         "EntityName": "person",
-        "personId": 4204,
-        "fullName": "Alexander Spencer"
+        "personId": 4498,
+        "fullName": "Berenice Schuppe"
       },
       "value2": {
-        "PrimaryKey": 8780,
+        "PrimaryKey": 9491,
         "EntityName": "person",
-        "personId": 8780,
-        "fullName": "Connor Jaskolski"
+        "personId": 9491,
+        "fullName": "Coleman Tremblay"
       }
     }
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "inventore",
     "value": {
       "value1": {
-        "PrimaryKey": 4204,
+        "PrimaryKey": 4498,
         "EntityName": "person",
-        "personId": 4204,
-        "fullName": "Alexander Spencer"
+        "personId": 4498,
+        "fullName": "Berenice Schuppe"
       },
       "value2": {
-        "PrimaryKey": 8780,
+        "PrimaryKey": 9491,
         "EntityName": "person",
-        "personId": 8780,
-        "fullName": "Connor Jaskolski"
+        "personId": 9491,
+        "fullName": "Coleman Tremblay"
       }
     }
   }
@@ -167,26 +167,26 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 274,
+  "HierarchyId": 974,
   "Domain": "Dashboards",
-  "Name": "Jenkins Inc and Sons",
-  "Fullname": "iusto",
-  "ParentId": 171,
+  "Name": "Veum, Goldner and Kiehn",
+  "Fullname": "ad",
+  "ParentId": 909,
   "Children": [
     {
-      "HierarchyId": 797,
+      "HierarchyId": 482,
       "Domain": "Dashboards",
-      "Name": "Denesik Inc and Sons",
-      "Fullname": "sint",
-      "ParentId": 764,
+      "Name": "Gaylord, Wiegand and Kulas",
+      "Fullname": "nulla",
+      "ParentId": 397,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-11-14T15:05:42.2546619+01:00",
-      "RegisteredAssociateId": 508,
-      "Updated": "2020-11-10T15:05:42.2546619+01:00",
-      "UpdatedAssociateId": 650,
+      "Registered": "2008-01-13T18:25:50.5825943+01:00",
+      "RegisteredAssociateId": 437,
+      "Updated": "1999-12-10T18:25:50.5825943+01:00",
+      "UpdatedAssociateId": 113,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -195,18 +195,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 243
         }
       }
     }
   ],
-  "Registered": "2012-09-29T15:05:42.2546619+02:00",
-  "RegisteredAssociateId": 746,
-  "Updated": "2001-10-20T15:05:42.2546619+02:00",
-  "UpdatedAssociateId": 246,
+  "Registered": "2003-05-30T18:25:50.5825943+02:00",
+  "RegisteredAssociateId": 487,
+  "Updated": "2018-08-05T18:25:50.5825943+02:00",
+  "UpdatedAssociateId": 197,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "evolve killer web-readiness"
   },
   "FieldProperties": {
     "fieldName": {
@@ -214,13 +214,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

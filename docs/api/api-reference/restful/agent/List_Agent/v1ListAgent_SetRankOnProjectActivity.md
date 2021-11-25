@@ -1,9 +1,9 @@
 ---
-title: SetRankOnProjectActivity
+title: POST Agents/List/SetRankOnProjectActivity
 id: v1ListAgent_SetRankOnProjectActivity
 ---
 
-# SetRankOnProjectActivity
+# POST Agents/List/SetRankOnProjectActivity
 
 ```http
 POST /api/v1/Agents/List/SetRankOnProjectActivity

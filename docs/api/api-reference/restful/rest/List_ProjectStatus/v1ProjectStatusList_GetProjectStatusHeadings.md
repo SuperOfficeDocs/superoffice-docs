@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 163,
-    "Name": "Keebler, Wintheiser and McClure",
-    "Tooltip": "corrupti",
+    "HeadingId": 451,
+    "Name": "Labadie, Leffler and Oberbrunner",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 434,
-    "UdListDefinitionId": 112,
+    "Rank": 979,
+    "UdListDefinitionId": 412,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 300
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

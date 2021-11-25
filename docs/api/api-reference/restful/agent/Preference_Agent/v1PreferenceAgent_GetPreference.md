@@ -1,9 +1,9 @@
 ---
-title: GetPreference
+title: POST Agents/Preference/GetPreference
 id: v1PreferenceAgent_GetPreference
 ---
 
-# GetPreference
+# POST Agents/Preference/GetPreference
 
 ```http
 POST /api/v1/Agents/Preference/GetPreference
@@ -88,11 +88,11 @@ Response body: object
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 671
+  "Id": 746
 }
 ```
 
@@ -102,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "ad",
   "Specification": {
-    "Section": "corporis",
-    "Key": "qui",
+    "Section": "unde",
+    "Key": "temporibus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "envisioneer front-end applications"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 574
       }
     }
   },
-  "DisplayValue": "nisi",
-  "DisplayTooltip": "nisi",
+  "DisplayValue": "quis",
+  "DisplayTooltip": "dicta",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 856,
-    "TabName": "Spencer Inc and Sons",
-    "Order": "et",
-    "AssociateId": 177,
+    "TabOrderId": 107,
+    "TabName": "Kiehn Inc and Sons",
+    "Order": "dolores",
+    "AssociateId": 741,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 573
       }
     }
   },
-  "TargetId": 219,
-  "PrefDescId": 693,
-  "TableName": "Hyatt-Gleason",
-  "UserPreferenceId": 611,
+  "TargetId": 851,
+  "PrefDescId": 415,
+  "TableName": "Denesik-Berge",
+  "UserPreferenceId": 75,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

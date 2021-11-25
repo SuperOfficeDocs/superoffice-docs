@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultMailMergeSettings
+title: POST Agents/Selection/CreateDefaultMailMergeSettings
 id: v1SelectionAgent_CreateDefaultMailMergeSettings
 ---
 
-# CreateDefaultMailMergeSettings
+# POST Agents/Selection/CreateDefaultMailMergeSettings
 
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 133,
-  "DocumentId": 783,
+  "SelectionId": 666,
+  "DocumentId": 581,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "magnam",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "est",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": true,
-  "CustomMailBody": "alias",
+  "CustomMailBody": "ab",
   "TaskEntity": {
-    "ProjectId": 467,
-    "TypeId": 652,
-    "StartDate": "2008-06-05T14:58:05.2186292+02:00",
-    "Duration": 455,
-    "Description": "Synchronised needs-based orchestration",
-    "PriorityId": 891,
+    "ProjectId": 789,
+    "TypeId": 550,
+    "StartDate": "2010-03-17T18:28:50.2124467+01:00",
+    "Duration": 675,
+    "Description": "Intuitive solution-oriented middleware",
+    "PriorityId": 176,
     "VisibleFor": {},
     "Completed": "Completed",
-    "OwnerAssociateId": 338,
-    "SingleEntryOnEachCompany": true,
-    "SaleId": 248,
+    "OwnerAssociateId": 676,
+    "SingleEntryOnEachCompany": false,
+    "SaleId": 520,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   },
-  "AddCompanyInterest": 146,
-  "AddPersonInterest": 187,
-  "RemoveCompanyInterest": 528,
-  "RemovePersonInterest": 861,
-  "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 477,
+  "AddCompanyInterest": 346,
+  "AddPersonInterest": 469,
+  "RemoveCompanyInterest": 582,
+  "RemovePersonInterest": 299,
+  "IncludeNoMailingsRecipient": true,
+  "TestOnly": false,
+  "ProjectId": 579,
   "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "ex",
-  "ExtraInfo": "dolorum",
-  "Synchronous": true,
+  "IncludeStoppedRecipients": false,
+  "CustomMailSubject": "aut",
+  "ExtraInfo": "sunt",
+  "Synchronous": false,
   "IsTemporarySelection": true,
   "TableRight": {
     "Mask": "Delete",
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 87
     }
   }
 }

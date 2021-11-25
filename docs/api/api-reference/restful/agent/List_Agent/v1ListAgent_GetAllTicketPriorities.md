@@ -1,9 +1,9 @@
 ---
-title: GetAllTicketPriorities
+title: POST Agents/List/GetAllTicketPriorities
 id: v1ListAgent_GetAllTicketPriorities
 ---
 
-# GetAllTicketPriorities
+# POST Agents/List/GetAllTicketPriorities
 
 ```http
 POST /api/v1/Agents/List/GetAllTicketPriorities
@@ -76,7 +76,7 @@ Response body: array
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -90,6 +90,7 @@ Response body: array
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -99,11 +100,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,35 +114,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 719,
-    "Name": "Dickens Inc and Sons",
+    "TicketPriorityId": 661,
+    "Name": "Welch Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 659,
+    "SortOrder": 372,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 908,
-    "MonStart": "2014-01-16T14:58:04.377465+01:00",
-    "MonStop": "1996-05-17T14:58:04.3784651+02:00",
-    "TueStart": "1995-07-03T14:58:04.3784651+02:00",
-    "TueStop": "2015-02-19T14:58:04.3784651+01:00",
-    "WedStart": "2001-09-22T14:58:04.3784651+02:00",
-    "WedStop": "2018-08-04T14:58:04.3784651+02:00",
-    "ThuStart": "2012-03-22T14:58:04.3784651+01:00",
-    "ThuStop": "1999-04-16T14:58:04.3784651+02:00",
-    "FriStart": "2014-05-11T14:58:04.3784651+02:00",
-    "FriStop": "2013-05-29T14:58:04.3784651+02:00",
-    "SatStart": "2008-04-29T14:58:04.3784651+02:00",
-    "SatStop": "2012-03-16T14:58:04.3784651+01:00",
-    "SunStart": "2001-07-08T14:58:04.3784651+02:00",
-    "SunStop": "2015-12-04T14:58:04.3784651+01:00",
+    "Deadline": 956,
+    "MonStart": "2009-03-25T18:28:49.2491228+01:00",
+    "MonStop": "2005-10-15T18:28:49.2491228+02:00",
+    "TueStart": "2020-03-05T18:28:49.2491228+01:00",
+    "TueStop": "2005-09-03T18:28:49.2491228+02:00",
+    "WedStart": "2017-08-31T18:28:49.2491228+02:00",
+    "WedStop": "1997-01-13T18:28:49.2491228+01:00",
+    "ThuStart": "1996-06-08T18:28:49.2491228+02:00",
+    "ThuStop": "2002-05-11T18:28:49.2491228+02:00",
+    "FriStart": "2019-01-29T18:28:49.2491228+01:00",
+    "FriStop": "2013-05-18T18:28:49.2491228+02:00",
+    "SatStart": "2015-09-06T18:28:49.2491228+02:00",
+    "SatStop": "2005-11-03T18:28:49.2491228+01:00",
+    "SunStart": "1996-07-05T18:28:49.2491228+02:00",
+    "SunStop": "2001-12-29T18:28:49.2491228+01:00",
     "NonDates": [
-      "assumenda",
-      "tenetur"
+      "soluta",
+      "labore"
+    ],
+    "EscalationLevels": [
+      {
+        "TicketAlertId": 651,
+        "AlertLevel": 82,
+        "AlertTimeout": 669,
+        "Action": 896,
+        "DelegateTo": 196,
+        "ScriptId": 771,
+        "EmailTo": "monroe@schoenlesch.ca",
+        "SmsTo": "molestiae",
+        "ReplyTemplateIdCustomer": 35,
+        "ReplyTemplateIdUser": 70,
+        "ReplyTemplateIdCatmast": 45,
+        "ReplyTemplateIdEmail": 598,
+        "RtiCustomerSms": 366,
+        "ReplyTemplateIdUserSms": 667,
+        "ReplyTemplateIdCatmastSms": 157,
+        "ReplyTemplateIdSms": 419,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 634
+          }
+        }
+      }
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -153,8 +185,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

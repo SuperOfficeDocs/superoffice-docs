@@ -89,53 +89,53 @@ Response body: object
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 389,
-  "Name": "Glover, Schultz and Considine",
-  "CreatedDate": "2006-02-06T15:05:42.1856353+01:00",
-  "UpdatedDate": "2006-07-06T15:05:42.1856353+02:00",
+  "ForeignAppId": 713,
+  "Name": "Hudson LLC",
+  "CreatedDate": "2020-02-29T18:25:50.554597+01:00",
+  "UpdatedDate": "2002-06-10T18:25:50.554597+02:00",
   "CreatedBy": {
-    "AssociateId": 62,
-    "Name": "Hahn, Nader and Bergnaum",
-    "PersonId": 529,
-    "Rank": 2,
-    "Tooltip": "suscipit",
+    "AssociateId": 49,
+    "Name": "Fritsch-Beer",
+    "PersonId": 329,
+    "Rank": 882,
+    "Tooltip": "nam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 310,
-    "FullName": "Beryl Keebler I",
-    "FormalName": "Ernser, Shields and Veum",
+    "GroupIdx": 975,
+    "FullName": "Miss Leila Homenick",
+    "FormalName": "Abernathy Group",
     "Deleted": false,
-    "EjUserId": 154,
-    "UserName": "Lindgren Inc and Sons"
+    "EjUserId": 830,
+    "UserName": "Luettgen LLC"
   },
   "UpdatedBy": {
-    "AssociateId": 600,
-    "Name": "Block, Williamson and Doyle",
-    "PersonId": 889,
-    "Rank": 154,
-    "Tooltip": "est",
+    "AssociateId": 953,
+    "Name": "West, Bartoletti and Watsica",
+    "PersonId": 407,
+    "Rank": 727,
+    "Tooltip": "repellat",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 609,
-    "FullName": "Lambert Yost",
-    "FormalName": "Turcotte Inc and Sons",
+    "GroupIdx": 366,
+    "FullName": "Zoie Hilpert Jr.",
+    "FormalName": "Terry-DuBuque",
     "Deleted": true,
-    "EjUserId": 235,
-    "UserName": "Runolfsson Inc and Sons"
+    "EjUserId": 474,
+    "UserName": "O'Connell, Schamberger and Labadie"
   },
   "Devices": [
     {
-      "ForeignDeviceId": 778,
-      "Name": "Dooley-Runte",
-      "CreatedDate": "2020-05-08T15:05:42.1866355+02:00",
-      "UpdatedDate": "1994-08-08T15:05:42.1866355+02:00",
-      "AssociateFullName": "Roberto Jacobs DDS",
-      "CreatedBy": "ut",
-      "UpdatedBy": "architecto",
-      "DeviceIdentifier": "ipsa",
-      "ForeignAppId": 59
+      "ForeignDeviceId": 1000,
+      "Name": "Towne-Quitzon",
+      "CreatedDate": "2013-02-25T18:25:50.5555974+01:00",
+      "UpdatedDate": "1999-04-03T18:25:50.5555974+02:00",
+      "AssociateFullName": "Sally Cremin",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 975
     }
   ]
 }
@@ -146,23 +146,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 702,
-  "Name": "Zieme LLC",
-  "CreatedDate": "2017-06-22T15:05:42.1876352+02:00",
-  "UpdatedDate": "2001-09-25T15:05:42.1876352+02:00",
+  "ForeignAppId": 61,
+  "Name": "Macejkovic, Effertz and Haag",
+  "CreatedDate": "2011-05-02T18:25:50.556597+02:00",
+  "UpdatedDate": "2020-07-25T18:25:50.556597+02:00",
   "CreatedBy": {
-    "AssociateId": 725,
-    "Name": "Hodkiewicz-Lebsack",
-    "PersonId": 571,
-    "Rank": 670,
-    "Tooltip": "sit",
+    "AssociateId": 361,
+    "Name": "Barton-Legros",
+    "PersonId": 167,
+    "Rank": 517,
+    "Tooltip": "quos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 959,
-    "FullName": "Wilson Dach I",
-    "FormalName": "McDermott LLC",
+    "GroupIdx": 341,
+    "FullName": "Kiana Wehner",
+    "FormalName": "Medhurst-Runte",
     "Deleted": false,
-    "EjUserId": 527,
-    "UserName": "Wisoky, Bauch and Nitzsche",
+    "EjUserId": 285,
+    "UserName": "Trantow Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -171,23 +171,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldLength": 747
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 992,
-    "Name": "Beahan, Volkman and Gutmann",
-    "PersonId": 507,
-    "Rank": 964,
-    "Tooltip": "deserunt",
+    "AssociateId": 929,
+    "Name": "Nitzsche, Romaguera and Thiel",
+    "PersonId": 120,
+    "Rank": 110,
+    "Tooltip": "rem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 505,
-    "FullName": "Alexandrine Hahn",
-    "FormalName": "Jerde-Luettgen",
+    "GroupIdx": 38,
+    "FullName": "Regan Kilback",
+    "FormalName": "Bradtke-Hauck",
     "Deleted": true,
-    "EjUserId": 325,
-    "UserName": "Gutkowski, Lebsack and Buckridge",
+    "EjUserId": 275,
+    "UserName": "Beahan-Stiedemann",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -195,22 +195,22 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 763,
-      "Name": "Stoltenberg, Schaefer and Littel",
-      "CreatedDate": "2020-06-29T15:05:42.1886342+02:00",
-      "UpdatedDate": "2004-09-11T15:05:42.1886342+02:00",
-      "AssociateFullName": "Hollie Leffler",
-      "CreatedBy": "non",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "mollitia",
-      "ForeignAppId": 927,
+      "ForeignDeviceId": 931,
+      "Name": "Kuhn, Watsica and Bergnaum",
+      "CreatedDate": "1998-03-15T18:25:50.557597+01:00",
+      "UpdatedDate": "2015-01-14T18:25:50.557597+01:00",
+      "AssociateFullName": "Davin Marks",
+      "CreatedBy": "id",
+      "UpdatedBy": "modi",
+      "DeviceIdentifier": "saepe",
+      "ForeignAppId": 466,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     }
@@ -234,13 +234,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

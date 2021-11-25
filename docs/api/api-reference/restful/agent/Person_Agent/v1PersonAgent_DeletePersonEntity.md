@@ -1,9 +1,9 @@
 ---
-title: DeletePersonEntity
+title: POST Agents/Person/DeletePersonEntity
 id: v1PersonAgent_DeletePersonEntity
 ---
 
-# DeletePersonEntity
+# POST Agents/Person/DeletePersonEntity
 
 ```http
 POST /api/v1/Agents/Person/DeletePersonEntity

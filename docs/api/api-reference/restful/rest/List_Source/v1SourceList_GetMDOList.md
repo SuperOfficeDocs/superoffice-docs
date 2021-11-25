@@ -25,8 +25,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=laboriosam
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=nisi
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Goyette LLC",
-    "ToolTip": "Laboriosam veritatis et soluta reiciendis voluptatem.",
+    "Id": 809,
+    "Name": "Dickinson, Schoen and Swift",
+    "ToolTip": "Sint numquam cum.",
     "Deleted": false,
-    "Rank": 435,
-    "Type": "rerum",
+    "Rank": 475,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Mante, Goldner and Rodriguez",
-        "ToolTip": "Et animi.",
+        "Id": 976,
+        "Name": "Reilly-Hansen",
+        "ToolTip": "Qui error cupiditate at sunt est aut.",
         "Deleted": true,
-        "Rank": 376,
-        "Type": "enim",
+        "Rank": 228,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 255,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "est",
-        "FullName": "Catharine Hamill",
+        "IconHint": "eos",
+        "ColorBlock": 238,
+        "ExtraInfo": "quis",
+        "StyleHint": "rem",
+        "FullName": "Terrence Emmerich",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldType": "System.String",
+            "FieldLength": 275
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 675,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "recusandae",
-    "FullName": "Chris Morissette III",
+    "IconHint": "quia",
+    "ColorBlock": 216,
+    "ExtraInfo": "et",
+    "StyleHint": "commodi",
+    "FullName": "Jameson Blick",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 698
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetCountryList
+title: POST Agents/List/GetCountryList
 id: v1ListAgent_GetCountryList
 ---
 
-# GetCountryList
+# POST Agents/List/GetCountryList
 
 ```http
 POST /api/v1/Agents/List/GetCountryList
@@ -87,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 430,
-    "Name": "Upton, Maggio and Emard",
-    "CurrencyId": 53,
-    "EnglishName": "Bergnaum-Heller",
+    "CountryId": 67,
+    "Name": "Harvey-Barrows",
+    "CurrencyId": 696,
+    "EnglishName": "Medhurst-Kirlin",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Upgradable heuristic structure",
-    "OrgNrText": "759773",
-    "InterAreaPrefix": "est",
-    "DialInPrefix": "quis",
-    "ZipPrefix": "est",
-    "DomainName": "Green, Collier and Gerhold",
-    "AddressLayoutId": 770,
-    "DomesticAddressLayoutId": 821,
-    "ForeignAddressLayoutId": 794,
-    "Rank": 11,
-    "Tooltip": "sit",
-    "Deleted": true,
+    "ImageDescription": "Compatible dedicated budgetary management",
+    "OrgNrText": "571506",
+    "InterAreaPrefix": "nam",
+    "DialInPrefix": "fugit",
+    "ZipPrefix": "sequi",
+    "DomainName": "O'Conner, Jacobi and Kutch",
+    "AddressLayoutId": 509,
+    "DomesticAddressLayoutId": 671,
+    "ForeignAddressLayoutId": 420,
+    "Rank": 378,
+    "Tooltip": "voluptatem",
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 130
+        "FieldLength": 441
       }
     }
   }

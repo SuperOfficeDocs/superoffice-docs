@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteVersionNumber
+title: POST Agents/Quote/SaveQuoteVersionNumber
 id: v1QuoteAgent_SaveQuoteVersionNumber
 ---
 
-# SaveQuoteVersionNumber
+# POST Agents/Quote/SaveQuoteVersionNumber
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 752,
-  "Number": "1062038"
+  "QuoteVersionId": 21,
+  "Number": "1368551"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

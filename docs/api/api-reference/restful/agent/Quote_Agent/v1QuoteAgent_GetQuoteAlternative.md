@@ -1,9 +1,9 @@
 ---
-title: GetQuoteAlternative
+title: POST Agents/Quote/GetQuoteAlternative
 id: v1QuoteAgent_GetQuoteAlternative
 ---
 
-# GetQuoteAlternative
+# POST Agents/Quote/GetQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternative
@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=54
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=949
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 386,
-  "ERPQuoteAlternativeKey": "molestias",
-  "QuoteVersionId": 444,
-  "Name": "Vandervort LLC",
-  "Description": "Visionary attitude-oriented project",
+  "QuoteAlternativeId": 340,
+  "ERPQuoteAlternativeKey": "cumque",
+  "QuoteVersionId": 647,
+  "Name": "Abernathy LLC",
+  "Description": "Sharable intermediate Graphical User Interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25363.462,
-  "ERPDiscountAmount": 20765.884,
-  "DiscountPercent": 23856.007999999998,
-  "DiscountAmount": 15165.426,
+  "ERPDiscountPercent": 26190.838,
+  "ERPDiscountAmount": 23605.288,
+  "DiscountPercent": 23852.874,
+  "DiscountAmount": 31242.845999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "non",
-  "VAT": 968.406,
-  "EarningPercent": 18565.816,
-  "EarningAmount": 2441.386,
-  "SubTotal": 20712.606,
-  "TotalPrice": 3870.49,
-  "ExtraField1": "consequatur",
-  "ExtraField2": "nihil",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "doloremque",
+  "VATInfo": "minus",
+  "VAT": 21364.478,
+  "EarningPercent": 2557.344,
+  "EarningAmount": 20916.316,
+  "SubTotal": 12573.608,
+  "TotalPrice": 29741.66,
+  "ExtraField1": "sapiente",
+  "ExtraField2": "quam",
+  "ExtraField3": "dolore",
+  "ExtraField4": "quam",
+  "ExtraField5": "culpa",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldLength": 911
     }
   }
 }

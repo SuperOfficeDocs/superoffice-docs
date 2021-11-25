@@ -1,9 +1,9 @@
 ---
-title: GetSaleStakeholderList
+title: POST Agents/Sale/GetSaleStakeholderList
 id: v1SaleAgent_GetSaleStakeholderList
 ---
 
-# GetSaleStakeholderList
+# POST Agents/Sale/GetSaleStakeholderList
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
@@ -88,7 +88,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -97,25 +97,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kulas, Kutch and Gutkowski",
-    "Comment": "occaecati",
-    "StakeholderRoleId": 451,
-    "CountryId": 382,
-    "PersonId": 203,
-    "EmailDescription": "barton@glover.info",
-    "EmailId": 149,
-    "EmailAddress": "omer@friesen.com",
-    "PhoneId": 674,
-    "ContactName": "Ward Inc and Sons",
-    "ContactId": 463,
-    "SaleId": 809,
-    "Mrmrs": "magni",
-    "Firstname": "Kamryn",
-    "MiddleName": "Hayes, Rempel and Gorczany",
-    "Lastname": "Gaylord",
-    "SaleStakeholderId": 294,
-    "Rank": 589,
-    "Phone": "(601)560-8637 x23534",
+    "StakeholderRoleName": "Nikolaus LLC",
+    "Comment": "magnam",
+    "StakeholderRoleId": 360,
+    "CountryId": 905,
+    "PersonId": 103,
+    "EmailDescription": "karlee@joneswisoky.name",
+    "EmailId": 732,
+    "EmailAddress": "rodrigo_kunde@sauer.ca",
+    "PhoneId": 624,
+    "ContactName": "Kessler LLC",
+    "ContactId": 512,
+    "SaleId": 699,
+    "Mrmrs": "soluta",
+    "Firstname": "Katrina",
+    "MiddleName": "Kiehn LLC",
+    "Lastname": "Strosin",
+    "SaleStakeholderId": 345,
+    "Rank": 363,
+    "Phone": "368.554.0482 x6542",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,10 +124,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "engineer killer methodologies"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldLength": 952
       }
     }
   }

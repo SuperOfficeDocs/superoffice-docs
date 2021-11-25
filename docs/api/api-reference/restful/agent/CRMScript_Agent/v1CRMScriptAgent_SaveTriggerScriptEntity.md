@@ -1,9 +1,9 @@
 ---
-title: SaveTriggerScriptEntity
+title: POST Agents/CRMScript/SaveTriggerScriptEntity
 id: v1CRMScriptAgent_SaveTriggerScriptEntity
 ---
 
-# SaveTriggerScriptEntity
+# POST Agents/CRMScript/SaveTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
@@ -88,20 +88,20 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 517,
-  "Name": "Stiedemann-Schoen",
+  "ScreenChooserId": 36,
+  "Name": "Schroeder-Sipes",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "laudantium",
-  "Source": "nisi",
-  "Registered": "2009-05-30T14:58:03.7384605+02:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "1999-09-18T14:58:03.7384605+02:00",
-  "UpdatedAssociateId": 927
+  "Enabled": false,
+  "UniqueIdentifier": "natus",
+  "Source": "sed",
+  "Registered": "2006-04-25T18:28:48.6299298+02:00",
+  "RegisteredAssociateId": 481,
+  "Updated": "2000-07-01T18:28:48.6299298+02:00",
+  "UpdatedAssociateId": 283
 }
 ```
 
@@ -110,16 +110,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 305,
-  "Name": "Ward, Stracke and Quigley",
+  "ScreenChooserId": 899,
+  "Name": "Koelpin Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "vel",
-  "Source": "aut",
-  "Registered": "2014-03-03T14:58:03.73946+01:00",
-  "RegisteredAssociateId": 853,
-  "Updated": "2008-12-10T14:58:03.73946+01:00",
-  "UpdatedAssociateId": 538,
+  "UniqueIdentifier": "nostrum",
+  "Source": "et",
+  "Registered": "2011-04-09T18:28:48.6309282+02:00",
+  "RegisteredAssociateId": 664,
+  "Updated": "2009-05-14T18:28:48.6309282+02:00",
+  "UpdatedAssociateId": 592,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldLength": 235
     }
   }
 }

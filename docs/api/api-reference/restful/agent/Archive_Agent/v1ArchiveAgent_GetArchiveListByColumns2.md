@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumns2
+title: POST Agents/Archive/GetArchiveListByColumns2
 id: v1ArchiveAgent_GetArchiveListByColumns2
 ---
 
-# GetArchiveListByColumns2
+# POST Agents/Archive/GetArchiveListByColumns2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
@@ -173,13 +173,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schimmel-Buckridge",
-  "Columns": "non",
-  "SortOrder": "magnam",
-  "Restrictions": "architecto",
-  "Entities": "qui",
-  "Page": 169,
-  "PageSize": 410
+  "ProviderName": "Rodriguez, Simonis and Abshire",
+  "Columns": "quia",
+  "SortOrder": "quia",
+  "Restrictions": "ex",
+  "Entities": "a",
+  "Page": 101,
+  "PageSize": 254
 }
 ```
 
@@ -189,16 +189,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Parker LLC",
-    "PrimaryKey": 751,
+    "EntityName": "Jacobs, Huels and Carroll",
+    "PrimaryKey": 788,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repudiandae",
-        "TooltipHint": "ratione",
-        "LinkHint": "consequuntur"
+        "DisplayValue": "praesentium",
+        "TooltipHint": "quia",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "exercitationem",
+    "LinkHint": "omnis",
     "StyleHint": "qui",
     "TableRight": {
       "Mask": "Delete",
@@ -211,7 +211,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 203
       }
     }
   }

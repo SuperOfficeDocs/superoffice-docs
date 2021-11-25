@@ -1,9 +1,9 @@
 ---
-title: GetPersonList
+title: POST Agents/Person/GetPersonList
 id: v1PersonAgent_GetPersonList
 ---
 
-# GetPersonList
+# POST Agents/Person/GetPersonList
 
 ```http
 POST /api/v1/Agents/Person/GetPersonList
@@ -109,7 +109,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -118,45 +118,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 61,
-    "Mrmrs": "dignissimos",
-    "Firstname": "Yasmin",
-    "Lastname": "Nicolas",
-    "MiddleName": "Turner, Schulist and Heller",
-    "Title": "sunt",
-    "Description": "Total 3rd generation time-frame",
-    "Email": "rodger@halvorson.ca",
-    "FullName": "Lilyan Robel IV",
-    "DirectPhone": "1-141-623-1565",
-    "FormalName": "Mann-Koss",
-    "CountryId": 217,
-    "ContactId": 601,
-    "ContactName": "Pfannerstill Group",
-    "Retired": 456,
-    "Rank": 804,
-    "ActiveInterests": 283,
+    "Position": "libero",
+    "PersonId": 336,
+    "Mrmrs": "consequatur",
+    "Firstname": "Roma",
+    "Lastname": "Harvey",
+    "MiddleName": "Weimann-Nitzsche",
+    "Title": "est",
+    "Description": "Multi-layered 5th generation focus group",
+    "Email": "diego@bergstrommorissette.us",
+    "FullName": "Fred Orn",
+    "DirectPhone": "352.627.7268 x1764",
+    "FormalName": "Klein, Wiza and Quigley",
+    "CountryId": 794,
+    "ContactId": 398,
+    "ContactName": "Turcotte, Sporer and Wunsch",
+    "Retired": 151,
+    "Rank": 809,
+    "ActiveInterests": 945,
     "ContactDepartment": "",
-    "ContactCountryId": 268,
-    "ContactOrgNr": "1010038",
-    "FaxPhone": "(617)856-4453",
-    "MobilePhone": "551-632-7327 x5814",
-    "ContactPhone": "1-257-221-6160 x7706",
-    "AssociateName": "Wintheiser LLC",
-    "AssociateId": 212,
+    "ContactCountryId": 563,
+    "ContactOrgNr": "1780511",
+    "FaxPhone": "1-655-208-6713",
+    "MobilePhone": "015.582.1225 x2846",
+    "ContactPhone": "1-437-466-1710",
+    "AssociateName": "Maggio, Kilback and Abbott",
+    "AssociateId": 1001,
     "UsePersonAddress": false,
-    "ContactFax": "quis",
-    "Kanafname": "odit",
-    "Kanalname": "et",
-    "Post1": "mollitia",
-    "Post2": "eius",
-    "Post3": "dolore",
-    "EmailName": "ismael_jerde@okuneva.uk",
-    "ContactFullName": "Jacklyn Leffler",
-    "ActiveErpLinks": 673,
-    "TicketPriorityId": 579,
-    "SupportLanguageId": 431,
-    "SupportAssociateId": 762,
+    "ContactFax": "nihil",
+    "Kanafname": "id",
+    "Kanalname": "iste",
+    "Post1": "doloremque",
+    "Post2": "in",
+    "Post3": "officia",
+    "EmailName": "graciela_damore@okunevakiehn.us",
+    "ContactFullName": "Miss Maximillian Berge",
+    "ActiveErpLinks": 988,
+    "TicketPriorityId": 404,
+    "SupportLanguageId": 400,
+    "SupportAssociateId": 491,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

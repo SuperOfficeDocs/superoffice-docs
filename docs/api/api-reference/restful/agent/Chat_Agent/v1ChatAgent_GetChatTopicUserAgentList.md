@@ -1,9 +1,9 @@
 ---
-title: GetChatTopicUserAgentList
+title: POST Agents/Chat/GetChatTopicUserAgentList
 id: v1ChatAgent_GetChatTopicUserAgentList
 ---
 
-# GetChatTopicUserAgentList
+# POST Agents/Chat/GetChatTopicUserAgentList
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
@@ -76,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 940
+  "ChatTopicId": 790
 }
 ```
 
@@ -90,20 +90,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 635,
+    "TopicId": 46,
     "User": {
-      "AssociateId": 265,
-      "Name": "Kuhic-Hirthe",
-      "PersonId": 819,
-      "Rank": 216,
-      "Tooltip": "modi",
+      "AssociateId": 618,
+      "Name": "McCullough, Gibson and Terry",
+      "PersonId": 982,
+      "Rank": 721,
+      "Tooltip": "fugit",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 606,
-      "FullName": "Minerva Bahringer",
-      "FormalName": "Labadie, Sawayn and Upton",
-      "Deleted": true,
-      "EjUserId": 747,
-      "UserName": "Cassin, Weber and Rowe",
+      "GroupIdx": 823,
+      "FullName": "Noelia Moore",
+      "FormalName": "Kreiger, Fahey and Rosenbaum",
+      "Deleted": false,
+      "EjUserId": 568,
+      "UserName": "Jerde Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -112,30 +112,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldLength": 95
         }
       }
     },
-    "CanListen": false,
-    "CanRespond": false,
+    "CanListen": true,
+    "CanRespond": true,
     "CanManage": false,
-    "CanNotify": true
+    "CanNotify": false
   },
   {
-    "TopicId": 635,
+    "TopicId": 46,
     "User": {
-      "AssociateId": 265,
-      "Name": "Kuhic-Hirthe",
-      "PersonId": 819,
-      "Rank": 216,
-      "Tooltip": "modi",
+      "AssociateId": 618,
+      "Name": "McCullough, Gibson and Terry",
+      "PersonId": 982,
+      "Rank": 721,
+      "Tooltip": "fugit",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 606,
-      "FullName": "Minerva Bahringer",
-      "FormalName": "Labadie, Sawayn and Upton",
-      "Deleted": true,
-      "EjUserId": 747,
-      "UserName": "Cassin, Weber and Rowe",
+      "GroupIdx": 823,
+      "FullName": "Noelia Moore",
+      "FormalName": "Kreiger, Fahey and Rosenbaum",
+      "Deleted": false,
+      "EjUserId": 568,
+      "UserName": "Jerde Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -144,14 +144,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldLength": 95
         }
       }
     },
-    "CanListen": false,
-    "CanRespond": false,
+    "CanListen": true,
+    "CanRespond": true,
     "CanManage": false,
-    "CanNotify": true
+    "CanNotify": false
   }
 ]
 ```

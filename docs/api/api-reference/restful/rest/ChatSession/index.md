@@ -2,8 +2,6 @@
 title: ChatSession
 ---
 
-# ChatSession
-
 ```http
 /api/v1/ChatSession
 ```

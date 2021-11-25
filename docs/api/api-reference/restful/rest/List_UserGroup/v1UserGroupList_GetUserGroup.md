@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -76,11 +76,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "cumque",
-  "Tooltip": "at",
-  "Id": 6,
-  "Rank": 290,
-  "Deleted": true,
+  "Value": "eum",
+  "Tooltip": "iusto",
+  "Id": 561,
+  "Rank": 563,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldLength": 223
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultListEntity
+title: POST Agents/List/CreateDefaultListEntity
 id: v1ListAgent_CreateDefaultListEntity
 ---
 
-# CreateDefaultListEntity
+# POST Agents/List/CreateDefaultListEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultListEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Rolfson, Leannon and Schmitt",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 561,
+  "Id": 957,
+  "Name": "Abernathy-Thompson",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "Rank": 56,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 539,
-  "Name": "Keebler LLC",
+  "HeadingId": 540,
+  "Name": "Kuhn, Beier and Harvey",
   "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 535,
-  "UdListDefinitionId": 389
+  "Deleted": false,
+  "Rank": 879,
+  "UdListDefinitionId": 693
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 963,
-  "Name": "Stroman, Gerhold and Thompson",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 973,
-  "UdListDefinitionId": 281,
+  "HeadingId": 7,
+  "Name": "Marquardt-Howe",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 108,
+  "UdListDefinitionId": 98,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "benchmark enterprise experiences"
+    "Reason": "e-enable innovative interfaces"
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 162
     }
   }
 }

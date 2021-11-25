@@ -1,9 +1,9 @@
 ---
-title: GetDuplicateRules
+title: POST Agents/Project/GetDuplicateRules
 id: v1ProjectAgent_GetDuplicateRules
 ---
 
-# GetDuplicateRules
+# POST Agents/Project/GetDuplicateRules
 
 ```http
 POST /api/v1/Agents/Project/GetDuplicateRules
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rau, Kerluke and Howell",
-    "DisplayName": "Murazik, Stroman and Pouros",
-    "DisplayTooltip": "error",
-    "IsActive": false,
+    "Name": "Champlin-Marquardt",
+    "DisplayName": "Jones, Haley and Harris",
+    "DisplayTooltip": "eius",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 752
       }
     }
   },
   {
-    "Name": "Rau, Kerluke and Howell",
-    "DisplayName": "Murazik, Stroman and Pouros",
-    "DisplayTooltip": "error",
-    "IsActive": false,
+    "Name": "Champlin-Marquardt",
+    "DisplayName": "Jones, Haley and Harris",
+    "DisplayTooltip": "eius",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 752
       }
     }
   }

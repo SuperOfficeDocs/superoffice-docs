@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 190,
-  "Name": "Erdman LLC",
-  "Tooltip": "aut",
+  "HeadingId": 605,
+  "Name": "Hermiston-Ryan",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 331,
-  "UdListDefinitionId": 391
+  "Rank": 809,
+  "UdListDefinitionId": 626
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 338,
-  "Name": "Funk, VonRueden and Altenwerth",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 653,
-  "UdListDefinitionId": 327,
+  "HeadingId": 784,
+  "Name": "Green, Bradtke and Hackett",
+  "Tooltip": "fuga",
+  "Deleted": false,
+  "Rank": 12,
+  "UdListDefinitionId": 628,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 996
     }
   }
 }

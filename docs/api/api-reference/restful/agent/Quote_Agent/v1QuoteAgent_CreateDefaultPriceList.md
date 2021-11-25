@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultPriceList
+title: POST Agents/Quote/CreateDefaultPriceList
 id: v1QuoteAgent_CreateDefaultPriceList
 ---
 
-# CreateDefaultPriceList
+# POST Agents/Quote/CreateDefaultPriceList
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 153,
-  "ERPPriceListKey": "aliquam",
-  "QuoteConnectionId": 149,
-  "Name": "Harvey, Mitchell and Ullrich",
-  "Description": "Compatible 4th generation budgetary management",
-  "Currency": "beatae",
-  "CurrencyName": "Kunze Group",
-  "ValidFrom": "1999-11-04T14:58:04.9854647+01:00",
-  "ValidTo": "2006-09-03T14:58:04.9854647+02:00",
+  "PriceListId": 763,
+  "ERPPriceListKey": "dolorem",
+  "QuoteConnectionId": 946,
+  "Name": "Reynolds LLC",
+  "Description": "Integrated holistic challenge",
+  "Currency": "repudiandae",
+  "CurrencyName": "Shields Inc and Sons",
+  "ValidFrom": "1998-11-21T18:28:49.9701379+01:00",
+  "ValidTo": "2019-11-12T18:28:49.9701379+01:00",
   "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

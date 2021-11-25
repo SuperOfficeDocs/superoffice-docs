@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "DuBuque Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 848,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 114,
-    "UdListDefinitionId": 491,
+    "Rank": 719,
+    "UdListDefinitionId": 448,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetProjectDocumentsByTemplateHeading
+title: POST Agents/Document/GetProjectDocumentsByTemplateHeading
 id: v1DocumentAgent_GetProjectDocumentsByTemplateHeading
 ---
 
-# GetProjectDocumentsByTemplateHeading
+# POST Agents/Document/GetProjectDocumentsByTemplateHeading
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 952,
-  "StartTime": "2010-06-28T14:58:03.8254654+02:00",
-  "EndTime": "2018-04-09T14:58:03.8254654+02:00",
-  "Count": 325,
-  "TemplateHeadingId": 469
+  "ProjectId": 423,
+  "StartTime": "2000-05-26T18:28:48.7209564+02:00",
+  "EndTime": "2001-07-27T18:28:48.7209564+02:00",
+  "Count": 561,
+  "TemplateHeadingId": 932
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 621,
-    "Attention": "quibusdam",
-    "Header": "voluptatem",
-    "Name": "Muller LLC",
-    "OurRef": "et",
-    "YourRef": "adipisci",
-    "Description": "Persistent full-range knowledge user",
-    "DocumentTemplate": "quos",
-    "IsPublished": false,
-    "PersonId": 413,
-    "PersonFullName": "Erika Wilderman",
-    "AssociateFullName": "Carmela Schamberger",
-    "ContactId": 705,
-    "ContactName": "Runolfsson Inc and Sons",
-    "ProjectId": 515,
-    "ProjectName": "Jacobson Group",
-    "AssociateId": 445,
-    "Snum": 994,
+    "DocumentId": 240,
+    "Attention": "ex",
+    "Header": "quo",
+    "Name": "Kihn-Bartoletti",
+    "OurRef": "est",
+    "YourRef": "impedit",
+    "Description": "Fundamental multi-state system engine",
+    "DocumentTemplate": "nesciunt",
+    "IsPublished": true,
+    "PersonId": 416,
+    "PersonFullName": "Jamar Considine",
+    "AssociateFullName": "Mr. Ceasar Prosacco",
+    "ContactId": 930,
+    "ContactName": "Luettgen, Leffler and Yost",
+    "ProjectId": 172,
+    "ProjectName": "Walsh-Christiansen",
+    "AssociateId": 158,
+    "Snum": 301,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldLength": 803
       }
     }
   }

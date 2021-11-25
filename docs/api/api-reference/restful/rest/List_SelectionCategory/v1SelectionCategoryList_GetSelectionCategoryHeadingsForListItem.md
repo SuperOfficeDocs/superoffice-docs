@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Schulist LLC",
-    "ToolTip": "Quod ratione incidunt.",
-    "Deleted": true,
-    "Rank": 933,
-    "Type": "voluptatum",
-    "ColorBlock": 515,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2014-09-19T15:05:43.8171183+02:00",
+    "Id": 625,
+    "Name": "Dooley, Sauer and Boyer",
+    "ToolTip": "Id nam.",
+    "Deleted": false,
+    "Rank": 587,
+    "Type": "accusamus",
+    "ColorBlock": 82,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2008-03-21T18:25:52.2069864+01:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Padberg Inc and Sons",
-        "ToolTip": "Ut sint aliquid nihil accusamus aut.",
-        "Deleted": true,
-        "Rank": 228,
-        "Type": "rerum",
-        "ColorBlock": 839,
-        "IconHint": "voluptates",
+        "Id": 863,
+        "Name": "Kunze Group",
+        "ToolTip": "In sapiente quis.",
+        "Deleted": false,
+        "Rank": 611,
+        "Type": "aut",
+        "ColorBlock": 497,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2021-03-21T15:05:43.8171183+01:00",
+        "LastChanged": "2002-04-10T18:25:52.2069864+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Mrs. Ashleigh Marvin",
+        "ExtraInfo": "magni",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Marguerite Treutel",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldType": "System.String",
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "aut",
+    "ExtraInfo": "architecto",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Eleanora Gulgowski",
+    "FullName": "Maurice Muller",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

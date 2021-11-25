@@ -1,9 +1,9 @@
 ---
-title: GetSalesFromPerson
+title: POST Agents/Sale/GetSalesFromPerson
 id: v1SaleAgent_GetSalesFromPerson
 ---
 
-# GetSalesFromPerson
+# POST Agents/Sale/GetSalesFromPerson
 
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromPerson
@@ -98,11 +98,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 72,
+  "PersonId": 1000,
   "OnlyOpenSales": false
 }
 ```
@@ -113,31 +113,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stehr-Kozey",
-    "SaleDate": "2003-09-10T14:58:05.1946292+02:00",
-    "SaleId": 725,
-    "Probability": 265,
-    "Title": "enim",
-    "Amount": 12175.59,
-    "Currency": "eveniet",
-    "ProjectName": "Gutmann-Kshlerin",
-    "AssociateFullName": "Royce Labadie",
-    "Description": "Expanded bifurcated productivity",
+    "ContactName": "Goyette, Sanford and Rowe",
+    "SaleDate": "2008-07-30T18:28:50.1834417+02:00",
+    "SaleId": 848,
+    "Probability": 246,
+    "Title": "nobis",
+    "Amount": 28024.228,
+    "Currency": "porro",
+    "ProjectName": "Pfeffer, Cassin and Keeling",
+    "AssociateFullName": "Laury Schultz V",
+    "Description": "Devolved multi-state synergy",
     "Status": "Lost",
-    "WeightedAmount": 12930.884,
-    "ProjectId": 841,
-    "EarningPercent": 28795.192,
-    "Earning": 78.35,
-    "ContactId": 866,
-    "AssociateId": 945,
-    "PersonId": 60,
-    "SaleTypeId": 545,
-    "SaleTypeName": "Wilderman, Robel and Boehm",
-    "PersonFullName": "Pattie Koss PhD",
+    "WeightedAmount": 29506.61,
+    "ProjectId": 352,
+    "EarningPercent": 25711.336,
+    "Earning": 23711.844,
+    "ContactId": 281,
+    "AssociateId": 100,
+    "PersonId": 754,
+    "SaleTypeId": 603,
+    "SaleTypeName": "Raynor, Denesik and Vandervort",
+    "PersonFullName": "Javon Marquardt",
     "Completed": "Completed",
-    "ActiveErpLinks": 561,
-    "NextDueDate": "1998-10-06T14:58:05.1946292+02:00",
-    "Number": "322505",
+    "ActiveErpLinks": 980,
+    "NextDueDate": "2001-04-24T18:28:50.1834417+02:00",
+    "Number": "871736",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldLength": 488
       }
     }
   }

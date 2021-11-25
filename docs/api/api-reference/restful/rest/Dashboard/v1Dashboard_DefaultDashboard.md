@@ -63,7 +63,7 @@ Response body: object
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 482,
-  "AssociateId": 873,
-  "Caption": "non",
+  "DashboardId": 484,
+  "AssociateId": 607,
+  "Caption": "facilis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 905,
-      "Caption": "nisi",
-      "Description": "Future-proofed hybrid secured line",
-      "ChartName": "Ferry Group",
-      "ChartId": "modi",
-      "IsDefault": true,
-      "AssociateId": 719,
-      "GroupId": 698,
-      "SelectionId": 855,
-      "Config": "et",
+      "DashboardTileId": 128,
+      "Caption": "repellendus",
+      "Description": "Persistent dedicated hierarchy",
+      "ChartName": "Hudson-Kuphal",
+      "ChartId": "qui",
+      "IsDefault": false,
+      "AssociateId": 669,
+      "GroupId": 275,
+      "SelectionId": 783,
+      "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 795
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldLength": 571
     }
   }
 }

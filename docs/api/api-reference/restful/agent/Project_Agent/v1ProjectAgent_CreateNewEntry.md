@@ -1,9 +1,9 @@
 ---
-title: CreateNewEntry
+title: POST Agents/Project/CreateNewEntry
 id: v1ProjectAgent_CreateNewEntry
 ---
 
-# CreateNewEntry
+# POST Agents/Project/CreateNewEntry
 
 ```http
 POST /api/v1/Agents/Project/CreateNewEntry
@@ -73,11 +73,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Duplicate": {
-    "RuleName": "Lubowitz-Herman",
-    "SoPrimaryKey": 746,
-    "EntryName": "Purdy, Wunsch and Leannon",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Hoeger, Kemmer and Schneider"
+    "RuleName": "Veum, Muller and Yost",
+    "SoPrimaryKey": 411,
+    "EntryName": "Hills, Collier and Blanda",
+    "EntryIdentifier": "id",
+    "RuleDisplayName": "Walter Group"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-493
+152
 ```

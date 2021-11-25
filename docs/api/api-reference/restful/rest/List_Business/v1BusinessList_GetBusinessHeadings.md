@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 239,
-    "Name": "Wintheiser, Cummings and Hudson",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 546,
-    "UdListDefinitionId": 99,
+    "HeadingId": 266,
+    "Name": "Nader-Mayert",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 78,
+    "UdListDefinitionId": 363,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 21
       }
     }
   }

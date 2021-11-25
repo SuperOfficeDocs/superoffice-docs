@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfosByAssociates
+title: POST Agents/Batch/GetBatchTaskInfosByAssociates
 id: v1BatchAgent_GetBatchTaskInfosByAssociates
 ---
 
-# GetBatchTaskInfosByAssociates
+# POST Agents/Batch/GetBatchTaskInfosByAssociates
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    50,
-    349
+    536,
+    264
   ]
 }
 ```
@@ -110,33 +110,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Boehm, Little and Padberg",
-    "AssociateId": 807,
-    "DetailsTable": 976,
-    "DetailsRecord": 181,
+    "Id": 433,
+    "Name": "Spencer Inc and Sons",
+    "AssociateId": 658,
+    "DetailsTable": 325,
+    "DetailsRecord": 494,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "blanditiis",
-      "ParameterObject2": "iure"
+      "ParameterObject1": "cumque",
+      "ParameterObject2": "est"
     },
-    "LastStarted": "2003-02-09T14:58:03.270242+01:00",
-    "Created": "2017-01-18T14:58:03.270242+01:00",
-    "StartCount": 288,
-    "DatabaseSerialNumber": "1235175",
-    "Context": "modi",
-    "Result": "deserunt",
+    "LastStarted": "2002-08-13T18:28:48.1415425+02:00",
+    "Created": "1997-10-02T18:28:48.1415425+02:00",
+    "StartCount": 782,
+    "DatabaseSerialNumber": "714503",
+    "Context": "qui",
+    "Result": "totam",
     "State": "All",
-    "Description": "Polarised system-worthy superstructure",
-    "Response": "sit",
-    "Request": "voluptatem",
-    "ProgressDescription": "Synchronised exuding attitude",
-    "ProgressPercent": 769,
-    "FileName": "Brakus, Lind and Leannon",
+    "Description": "Reverse-engineered mobile forecast",
+    "Response": "necessitatibus",
+    "Request": "rerum",
+    "ProgressDescription": "Visionary didactic implementation",
+    "ProgressPercent": 766,
+    "FileName": "Howell-Windler",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "incubate user-centric architectures"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldLength": 747
       }
     }
   }

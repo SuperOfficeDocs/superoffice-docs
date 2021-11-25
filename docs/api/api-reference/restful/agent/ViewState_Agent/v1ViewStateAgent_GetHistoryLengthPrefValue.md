@@ -1,9 +1,9 @@
 ---
-title: GetHistoryLengthPrefValue
+title: POST Agents/ViewState/GetHistoryLengthPrefValue
 id: v1ViewStateAgent_GetHistoryLengthPrefValue
 ---
 
-# GetHistoryLengthPrefValue
+# POST Agents/ViewState/GetHistoryLengthPrefValue
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue
@@ -66,5 +66,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-765
+708
 ```

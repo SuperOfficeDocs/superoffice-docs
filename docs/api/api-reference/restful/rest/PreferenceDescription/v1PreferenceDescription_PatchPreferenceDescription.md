@@ -127,45 +127,45 @@ Response body: object
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "alias",
+    "path": "quas",
     "value": {
       "value1": {
-        "PrimaryKey": 7687,
+        "PrimaryKey": 9438,
         "EntityName": "sale",
-        "saleId": 7687,
-        "contactId": 2858,
-        "name": "Gleason-Rogahn"
+        "saleId": 9438,
+        "contactId": 6469,
+        "name": "Reichert Group"
       },
       "value2": {
-        "PrimaryKey": 3877,
+        "PrimaryKey": 2368,
         "EntityName": "person",
-        "personId": 3877,
-        "fullName": "Katlynn Champlin"
+        "personId": 2368,
+        "fullName": "Chance Mitchell"
       }
     }
   },
   {
     "op": "add",
-    "path": "alias",
+    "path": "quas",
     "value": {
       "value1": {
-        "PrimaryKey": 7687,
+        "PrimaryKey": 9438,
         "EntityName": "sale",
-        "saleId": 7687,
-        "contactId": 2858,
-        "name": "Gleason-Rogahn"
+        "saleId": 9438,
+        "contactId": 6469,
+        "name": "Reichert Group"
       },
       "value2": {
-        "PrimaryKey": 3877,
+        "PrimaryKey": 2368,
         "EntityName": "person",
-        "personId": 3877,
-        "fullName": "Katlynn Champlin"
+        "personId": 2368,
+        "fullName": "Chance Mitchell"
       }
     }
   }
@@ -177,24 +177,24 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 592,
-  "Section": "fugit",
-  "Key": "et",
-  "Name": "Howell, Nikolaus and Hackett",
+  "PrefDescId": 668,
+  "Section": "ut",
+  "Key": "distinctio",
+  "Name": "Armstrong Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented background model",
-  "IsBuiltin": true,
-  "TableName": "Jones-Paucek",
-  "UserDefinedListId": 883,
-  "Rank": 421,
-  "SubGroup": "iusto",
-  "MinLevel": 58,
-  "MaxValue": 133,
-  "MinValue": 329,
-  "RequiredLicense": "quas",
+  "Description": "Assimilated fresh-thinking pricing structure",
+  "IsBuiltin": false,
+  "TableName": "Herman, O'Hara and Kertzmann",
+  "UserDefinedListId": 838,
+  "Rank": 752,
+  "SubGroup": "fugiat",
+  "MinLevel": 846,
+  "MaxValue": 279,
+  "MinValue": 961,
+  "RequiredLicense": "rerum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -203,10 +203,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "matrix integrated infrastructures"
+        "Reason": "iterate strategic schemas"
       },
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   },
   "_Links": {

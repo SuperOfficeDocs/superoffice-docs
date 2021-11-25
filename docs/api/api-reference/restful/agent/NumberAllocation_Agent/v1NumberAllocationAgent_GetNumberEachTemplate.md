@@ -1,9 +1,9 @@
 ---
-title: GetNumberEachTemplate
+title: POST Agents/NumberAllocation/GetNumberEachTemplate
 id: v1NumberAllocationAgent_GetNumberEachTemplate
 ---
 
-# GetNumberEachTemplate
+# POST Agents/NumberAllocation/GetNumberEachTemplate
 
 ```http
 POST /api/v1/Agents/NumberAllocation/GetNumberEachTemplate
@@ -59,7 +59,7 @@ Response body: bool
 POST /api/v1/Agents/NumberAllocation/GetNumberEachTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_

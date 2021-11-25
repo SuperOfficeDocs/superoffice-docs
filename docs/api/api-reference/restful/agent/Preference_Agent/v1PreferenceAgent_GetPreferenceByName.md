@@ -1,9 +1,9 @@
 ---
-title: GetPreferenceByName
+title: POST Agents/Preference/GetPreferenceByName
 id: v1PreferenceAgent_GetPreferenceByName
 ---
 
-# GetPreferenceByName
+# POST Agents/Preference/GetPreferenceByName
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByName
@@ -90,12 +90,12 @@ Response body: object
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quia",
-  "PrefKey": "quia",
+  "PrefSection": "quasi",
+  "PrefKey": "voluptatum",
   "PrefLevel": "Database"
 }
 ```
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dicta",
+  "RawValue": "itaque",
   "Specification": {
-    "Section": "adipisci",
-    "Key": "dolor",
+    "Section": "est",
+    "Key": "quae",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldLength": 424
       }
     }
   },
-  "DisplayValue": "vel",
-  "DisplayTooltip": "autem",
+  "DisplayValue": "sint",
+  "DisplayTooltip": "quam",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 66,
-    "TabName": "Daugherty LLC",
-    "Order": "voluptas",
-    "AssociateId": 615,
+    "TabOrderId": 694,
+    "TabName": "Klocko, Volkman and Ebert",
+    "Order": "distinctio",
+    "AssociateId": 409,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate rich e-business"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldType": "System.Int32",
+        "FieldLength": 897
       }
     }
   },
-  "TargetId": 288,
-  "PrefDescId": 569,
-  "TableName": "Hackett-Daniel",
-  "UserPreferenceId": 804,
+  "TargetId": 671,
+  "PrefDescId": 766,
+  "TableName": "Hodkiewicz LLC",
+  "UserPreferenceId": 184,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "aggregate sticky e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldLength": 960
     }
   }
 }

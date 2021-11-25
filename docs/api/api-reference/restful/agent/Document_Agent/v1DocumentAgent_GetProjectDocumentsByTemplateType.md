@@ -1,9 +1,9 @@
 ---
-title: GetProjectDocumentsByTemplateType
+title: POST Agents/Document/GetProjectDocumentsByTemplateType
 id: v1DocumentAgent_GetProjectDocumentsByTemplateType
 ---
 
-# GetProjectDocumentsByTemplateType
+# POST Agents/Document/GetProjectDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 528,
-  "StartTime": "2018-03-19T14:58:03.8244652+01:00",
-  "EndTime": "2019-07-04T14:58:03.8244652+02:00",
-  "Count": 442,
-  "DocumentTemplateId": 113
+  "ProjectId": 860,
+  "StartTime": "1996-04-21T18:28:48.7199572+02:00",
+  "EndTime": "2004-12-30T18:28:48.7199572+01:00",
+  "Count": 804,
+  "DocumentTemplateId": 999
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 275,
-    "Attention": "numquam",
-    "Header": "sit",
-    "Name": "Hand Group",
-    "OurRef": "quibusdam",
-    "YourRef": "quisquam",
-    "Description": "Proactive mission-critical hub",
-    "DocumentTemplate": "dolor",
+    "DocumentId": 396,
+    "Attention": "porro",
+    "Header": "adipisci",
+    "Name": "Zulauf Group",
+    "OurRef": "voluptatem",
+    "YourRef": "explicabo",
+    "Description": "Future-proofed bottom-line projection",
+    "DocumentTemplate": "amet",
     "IsPublished": false,
-    "PersonId": 258,
-    "PersonFullName": "Melba Windler",
-    "AssociateFullName": "Angie Lueilwitz DVM",
-    "ContactId": 986,
-    "ContactName": "Kreiger Inc and Sons",
-    "ProjectId": 317,
-    "ProjectName": "Murphy, Lakin and Ritchie",
-    "AssociateId": 849,
-    "Snum": 97,
+    "PersonId": 835,
+    "PersonFullName": "Otilia Boyle",
+    "AssociateFullName": "Pierre Jacobson",
+    "ContactId": 726,
+    "ContactName": "Durgan-Hammes",
+    "ProjectId": 338,
+    "ProjectName": "Schmeler, Boyer and Altenwerth",
+    "AssociateId": 448,
+    "Snum": 95,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,10 +138,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "utilize proactive content"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

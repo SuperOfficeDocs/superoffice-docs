@@ -75,16 +75,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 517,
-  "Value": "numquam",
+  "TaskListItemId": 141,
+  "Value": "illo",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "porro",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "IntentId": 608,
-  "Rank": 817,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IntentId": 440,
+  "Rank": 905,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetDeliveryTerms
+title: POST Agents/List/GetDeliveryTerms
 id: v1ListAgent_GetDeliveryTerms
 ---
 
-# GetDeliveryTerms
+# POST Agents/List/GetDeliveryTerms
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryTerms
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,40 +75,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Value": "consequatur",
-    "Tooltip": "mollitia",
+    "Id": 591,
+    "Value": "aut",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "extend cross-media synergies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "visualize B2C technologies"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   },
   {
-    "Id": 832,
-    "Value": "consequatur",
-    "Tooltip": "mollitia",
+    "Id": 591,
+    "Value": "aut",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "extend cross-media synergies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "visualize B2C technologies"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: RenameDocument
+title: POST Agents/Document/RenameDocument
 id: v1DocumentAgent_RenameDocument
 ---
 
-# RenameDocument
+# POST Agents/Document/RenameDocument
 
 ```http
 POST /api/v1/Agents/Document/RenameDocument
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Document/RenameDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 602,
-  "NewFilename": "aut"
+  "DocumentId": 58,
+  "NewFilename": "consequuntur"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quia"
+"laudantium"
 ```

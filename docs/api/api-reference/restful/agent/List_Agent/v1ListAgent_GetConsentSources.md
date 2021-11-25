@@ -1,9 +1,9 @@
 ---
-title: GetConsentSources
+title: POST Agents/List/GetConsentSources
 id: v1ListAgent_GetConsentSources
 ---
 
-# GetConsentSources
+# POST Agents/List/GetConsentSources
 
 ```http
 POST /api/v1/Agents/List/GetConsentSources
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 145,
-    "Name": "Schinner LLC",
-    "Tooltip": "omnis",
-    "Rank": 858,
-    "Key": "expedita",
-    "MailTemplateId": 583,
-    "Deleted": true,
+    "ConsentSourceId": 479,
+    "Name": "Stracke, Hammes and Little",
+    "Tooltip": "doloremque",
+    "Rank": 740,
+    "Key": "sed",
+    "MailTemplateId": 87,
+    "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 930
       }
     }
   }

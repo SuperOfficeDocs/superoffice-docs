@@ -1,9 +1,9 @@
 ---
-title: GetEmailsAsString
+title: POST Agents/EMail/GetEmailsAsString
 id: v1EMailAgent_GetEmailsAsString
 ---
 
-# GetEmailsAsString
+# POST Agents/EMail/GetEmailsAsString
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailsAsString
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": {
-    "Port": 63,
-    "ServerName": "Tromp Inc and Sons",
-    "Protocol": "non",
-    "UserName": "Hilll-Adams",
-    "Password": "dicta",
+    "Port": 971,
+    "ServerName": "Reichert-Ferry",
+    "Protocol": "consequatur",
+    "UserName": "Klein-Hane",
+    "Password": "vel",
     "UseSSL": false,
-    "Folder": "veniam"
+    "Folder": "quia"
   },
   "MessageIds": [
-    "sunt",
-    "quo"
+    "saepe",
+    "laboriosam"
   ]
 }
 ```
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "provident",
-  "quia"
+  "qui",
+  "deserunt"
 ]
 ```

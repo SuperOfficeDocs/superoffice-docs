@@ -1,9 +1,9 @@
 ---
-title: GetPreferenceDescriptionLineFromIdAndValue
+title: POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 id: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
 ---
 
-# GetPreferenceDescriptionLineFromIdAndValue
+# POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
@@ -88,8 +88,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 62,
-  "PrefValue": "cupiditate"
+  "PrefDescId": 521,
+  "PrefValue": "odit"
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 441,
-  "PrefDescId": 803,
-  "PrefValue": "quis",
-  "PrefShowValue": "omnis",
-  "Description": "Operative global adapter",
+  "PrefDescLineId": 636,
+  "PrefDescId": 159,
+  "PrefValue": "amet",
+  "PrefShowValue": "optio",
+  "Description": "Networked bottom-line core",
   "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "target transparent schemas"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "disintermediate real-time supply-chains"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 574
     }
   }
 }

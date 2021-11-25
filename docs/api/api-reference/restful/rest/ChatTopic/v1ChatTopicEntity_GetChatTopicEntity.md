@@ -86,6 +86,12 @@ Response body: object
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -104,14 +110,14 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 788,
-  "Name": "Schaden, Wehner and Wintheiser",
-  "Description": "Object-based systematic workforce",
-  "WelcomeMessage": "vel",
+  "ChatTopicId": 652,
+  "Name": "Bauch-Bednar",
+  "Description": "Synergistic solution-oriented capacity",
+  "WelcomeMessage": "quos",
   "Language": {
-    "Id": 78,
-    "Value": "ea",
-    "Tooltip": "et",
+    "Id": 400,
+    "Value": "impedit",
+    "Tooltip": "praesentium",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -120,46 +126,30 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldLength": 977
       }
     }
   },
-  "LastAccept": "2001-04-28T15:05:41.7730057+02:00",
-  "SecondsPrAccept": 515,
-  "AlertRecipient": "dolorem",
+  "LastAccept": "2013-04-12T18:25:50.1636295+02:00",
+  "SecondsPrAccept": 694,
+  "AlertRecipient": "ipsa",
   "AlertTemplate": {
-    "ReplyTemplateId": 441,
-    "Name": "Legros, Swaniawski and Mitchell",
-    "Description": "Integrated leading edge strategy",
-    "FolderId": 497
+    "ReplyTemplateId": 553,
+    "Name": "Hoeger, Schmitt and Mertz",
+    "Description": "Down-sized explicit instruction set",
+    "FolderId": 311
   },
   "CollectConsent": true,
-  "BadgeHeader": "velit",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "doloribus",
-  "WarnNewChatMinutes": 429,
-  "WarnManagerNewChatMinutes": 21,
-  "TicketEnabled": true,
+  "BadgeHeader": "rerum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sunt",
+  "WarnNewChatMinutes": 587,
+  "WarnManagerNewChatMinutes": 328,
+  "TicketEnabled": false,
   "TicketCategory": {
-    "Id": 608,
-    "Value": "expedita",
-    "Tooltip": "qui",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 593
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 961,
-    "Value": "harum",
-    "Tooltip": "voluptatum",
+    "Id": 438,
+    "Value": "amet",
+    "Tooltip": "est",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -168,72 +158,94 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 107
       }
     }
   },
-  "OpeningHoursEnabled": true,
+  "TicketPriority": {
+    "Id": 238,
+    "Value": "harum",
+    "Tooltip": "ipsa",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 44
+      }
+    }
+  },
+  "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": false,
-    "MonStart": "id",
-    "MonStop": "excepturi",
-    "TueEnabled": false,
-    "TueStart": "velit",
-    "TueStop": "animi",
-    "WedEnabled": true,
-    "WedStart": "ipsum",
-    "WedStop": "nisi",
-    "ThuEnabled": false,
-    "ThuStart": "dolorem",
-    "ThuStop": "consectetur",
+    "MonEnabled": true,
+    "MonStart": "hic",
+    "MonStop": "reiciendis",
+    "TueEnabled": true,
+    "TueStart": "perspiciatis",
+    "TueStop": "doloribus",
+    "WedEnabled": false,
+    "WedStart": "nesciunt",
+    "WedStop": "facilis",
+    "ThuEnabled": true,
+    "ThuStart": "vero",
+    "ThuStop": "tempora",
     "FriEnabled": true,
-    "FriStart": "at",
-    "FriStop": "mollitia",
-    "SatEnabled": true,
-    "SatStart": "minima",
-    "SatStop": "est",
+    "FriStart": "labore",
+    "FriStop": "dolores",
+    "SatEnabled": false,
+    "SatStart": "perspiciatis",
+    "SatStop": "quia",
     "SunEnabled": false,
-    "SunStart": "dolorem",
-    "SunStop": "iure",
+    "SunStart": "non",
+    "SunStop": "voluptatem",
     "UseLunchHours": true,
-    "LunchStart": "reprehenderit",
-    "LunchStop": "eum"
+    "LunchStart": "consequatur",
+    "LunchStop": "id"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
     "PreFormEnabled": false,
-    "PreFormMessage": "voluptatem",
+    "PreFormMessage": "consequatur",
     "RequiredFields": "Company",
     "PostFormEnabled": false,
-    "PostFormHeader": "sit",
-    "PostFormMessage": "sunt",
+    "PostFormHeader": "voluptatibus",
+    "PostFormMessage": "repellendus",
     "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "accusamus",
+    "LanguageIsoCode": "magnam",
     "Size": "Large",
     "Theme": "Classic",
-    "Color": "in",
-    "Font": "aliquam",
+    "Color": "doloribus",
+    "Font": "laborum",
     "LogoEnabled": true,
-    "LogoBlobId": 721,
-    "LogoName": "Toy, Walsh and Pfeffer",
-    "ShowAgentPhoto": true,
-    "WelcomeTitle": "dolor",
-    "WelcomeMessage": "adipisci",
-    "OfflineHeader": "laudantium",
-    "OfflineMessage": "explicabo",
+    "LogoBlobId": 412,
+    "LogoName": "Jones, Kirlin and Cassin",
+    "ShowAgentPhoto": false,
+    "WelcomeTitle": "magnam",
+    "WelcomeMessage": "sed",
+    "OfflineHeader": "earum",
+    "OfflineMessage": "aliquam",
     "OfflineFields": "Company",
-    "UseAgentFirstname": false
+    "UseAgentFirstname": true
   },
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": {
-    "BotName": "Hamill, Weber and Collins",
-    "BotRegisterScriptId": 530,
-    "BotSessionCreatedScriptId": 573,
-    "BotSessionChangedScriptId": 949,
-    "BotMessageReceivedScriptId": 899
+    "BotName": "Langosh, Haley and McGlynn",
+    "BotRegisterScriptId": 698,
+    "BotSessionCreatedScriptId": 515,
+    "BotSessionChangedScriptId": 338,
+    "BotMessageReceivedScriptId": 613
   },
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 507,
+  "WarnManagerChatMessageMinutes": 714,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 930,
+  "OfflineFormQueueLength": 450,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -245,7 +257,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 257
     }
   },
   "_Links": {

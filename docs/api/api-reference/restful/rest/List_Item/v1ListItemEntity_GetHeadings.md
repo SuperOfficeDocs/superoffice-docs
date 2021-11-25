@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -83,7 +83,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Blanda LLC",
-    "ToolTip": "Omnis dolorem illum consequatur est necessitatibus voluptatem.",
-    "Deleted": true,
-    "Rank": 899,
-    "Type": "eos",
-    "ColorBlock": 165,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2007-03-05T15:05:43.2178993+01:00",
+    "Id": 548,
+    "Name": "Ortiz Inc and Sons",
+    "ToolTip": "Architecto officia totam ipsam cumque.",
+    "Deleted": false,
+    "Rank": 417,
+    "Type": "cum",
+    "ColorBlock": 888,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2020-01-13T18:25:51.5862943+01:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "Buckridge-Lesch",
-        "ToolTip": "Voluptatem aut ipsa velit qui placeat.",
+        "Id": 766,
+        "Name": "Ryan, Kuhlman and Friesen",
+        "ToolTip": "Dolorem laudantium et dolores inventore.",
         "Deleted": true,
-        "Rank": 6,
-        "Type": "est",
-        "ColorBlock": 412,
-        "IconHint": "laborum",
+        "Rank": 122,
+        "Type": "enim",
+        "ColorBlock": 387,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2003-06-13T15:05:43.2178993+02:00",
+        "LastChanged": "2018-07-22T18:25:51.5862943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "in",
+        "ExtraInfo": "rem",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Jan Becker",
+        "FullName": "Miss Barbara Doyle",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,16 +129,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 93
+            "FieldType": "System.Int32",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "vel",
+    "ExtraInfo": "tempora",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Mrs. Nico Schultz",
+    "FullName": "Leanne Kreiger",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -147,10 +147,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "transform web-enabled relationships"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 452
+        "FieldLength": 835
       }
     }
   }

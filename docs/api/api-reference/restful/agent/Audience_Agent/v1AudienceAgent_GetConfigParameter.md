@@ -1,9 +1,9 @@
 ---
-title: GetConfigParameter
+title: POST Agents/Audience/GetConfigParameter
 id: v1AudienceAgent_GetConfigParameter
 ---
 
-# GetConfigParameter
+# POST Agents/Audience/GetConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameter
@@ -85,12 +85,12 @@ Response body: object
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Homenick, Shields and Schaden",
-  "ParameterName": "Rempel Inc and Sons"
+  "LayoutName": "Farrell, Huels and Moen",
+  "ParameterName": "Larson Group"
 }
 ```
 
@@ -99,16 +99,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 545,
-  "Name": "O'Conner Group",
-  "Value": "itaque",
-  "CreatedDate": "2020-03-16T14:58:03.2572381+01:00",
-  "UpdatedDate": "1999-04-10T14:58:03.2572381+02:00",
-  "CreatedBy": "laborum",
-  "UpdatedBy": "quae",
+  "AudienceLayoutId": 188,
+  "Name": "Kub-Mosciski",
+  "Value": "ad",
+  "CreatedDate": "1994-10-24T18:28:48.1295425+02:00",
+  "UpdatedDate": "2004-09-04T18:28:48.1295425+02:00",
+  "CreatedBy": "enim",
+  "UpdatedBy": "cumque",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "e-enable transparent infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

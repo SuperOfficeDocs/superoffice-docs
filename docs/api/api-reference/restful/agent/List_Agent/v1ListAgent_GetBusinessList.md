@@ -1,9 +1,9 @@
 ---
-title: GetBusinessList
+title: POST Agents/List/GetBusinessList
 id: v1ListAgent_GetBusinessList
 ---
 
-# GetBusinessList
+# POST Agents/List/GetBusinessList
 
 ```http
 POST /api/v1/Agents/List/GetBusinessList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetBusinessList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Value": "eum",
-    "Tooltip": "officiis",
+    "Id": 320,
+    "Value": "labore",
+    "Tooltip": "sequi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 220
       }
     }
   },
   {
-    "Id": 941,
-    "Value": "eum",
-    "Tooltip": "officiis",
+    "Id": 320,
+    "Value": "labore",
+    "Tooltip": "sequi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 220
       }
     }
   }

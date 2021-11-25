@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictionsColumnsOrderBy
+title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy
 id: v1FindAgent_FindFromRestrictionsColumnsOrderBy
 ---
 
-# FindFromRestrictionsColumnsOrderBy
+# POST Agents/Find/FindFromRestrictionsColumnsOrderBy
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
@@ -85,50 +85,50 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Funk Group",
-      "Operator": "laboriosam",
+      "Name": "Mraz, Herzog and Heller",
+      "Operator": "corrupti",
       "Values": [
-        "ratione",
-        "nostrum"
+        "et",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "in",
-        "provident"
+        "earum",
+        "quis"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 397,
+      "InterParenthesis": 135,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 49
     }
   ],
-  "ProviderName": "Muller-Anderson",
+  "ProviderName": "Zemlak LLC",
   "DesiredColumns": [
-    "quae",
-    "sed"
+    "fugit",
+    "cum"
   ],
   "OrderBy": [
     {
-      "Name": "Boyle Group",
+      "Name": "Boyer-Huel",
       "Direction": "ASC"
     },
     {
-      "Name": "Boyle Group",
+      "Name": "Boyer-Huel",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 482,
-  "PageNumber": 323
+  "PageSize": 967,
+  "PageNumber": 225
 }
 ```
 
@@ -139,34 +139,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Von, Pouros and Shanahan",
-      "DisplayTooltip": "aliquid",
-      "DisplayType": "non",
-      "CanOrderBy": true,
-      "Name": "Kohler Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Pouros LLC",
+      "DisplayName": "Lakin-O'Kon",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "quae",
+      "CanOrderBy": false,
+      "Name": "McKenzie, Dach and Armstrong",
+      "CanRestrictBy": false,
+      "RestrictionType": "facere",
+      "RestrictionListName": "Weissnat-Predovic",
       "IsVisible": false,
-      "ExtraInfo": "similique",
-      "Width": "similique",
-      "IconHint": "et",
-      "HeadingIconHint": "animi"
+      "ExtraInfo": "id",
+      "Width": "et",
+      "IconHint": "sit",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Will-Wisoky",
-      "PrimaryKey": 892,
+      "EntityName": "Christiansen, Shanahan and Wolf",
+      "PrimaryKey": 799,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "omnis",
-          "LinkHint": "quasi"
+          "DisplayValue": "dolore",
+          "TooltipHint": "et",
+          "LinkHint": "debitis"
         }
       },
-      "LinkHint": "officiis",
-      "StyleHint": "rerum",
+      "LinkHint": "veniam",
+      "StyleHint": "id",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,13 +174,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 12
         }
       }
     }
   ],
-  "RowCount": 573,
+  "RowCount": 442,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 988
     }
   }
 }

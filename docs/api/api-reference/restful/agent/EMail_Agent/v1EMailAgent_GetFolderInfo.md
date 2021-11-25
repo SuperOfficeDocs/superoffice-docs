@@ -1,9 +1,9 @@
 ---
-title: GetFolderInfo
+title: POST Agents/EMail/GetFolderInfo
 id: v1EMailAgent_GetFolderInfo
 ---
 
-# GetFolderInfo
+# POST Agents/EMail/GetFolderInfo
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderInfo
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Cummings Group",
-    "UserName": "Maggio LLC",
-    "Password": "atque",
-    "Folder": "ipsum",
-    "UseSSL": true
+    "ServerName": "Abshire-Hilll",
+    "UserName": "Paucek Group",
+    "Password": "vero",
+    "Folder": "tempore",
+    "UseSSL": false
   },
   "Folders": [
-    "unde",
-    "impedit"
+    "quis",
+    "eaque"
   ]
 }
 ```
@@ -107,13 +107,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom Group",
-    "Delimiter": "dolorum",
-    "Flags": "rerum",
-    "TotalItems": 959,
-    "UnreadItems": 412,
+    "Name": "Padberg Group",
+    "Delimiter": "eligendi",
+    "Flags": "nesciunt",
+    "TotalItems": 145,
+    "UnreadItems": 803,
     "Subscribed": false,
-    "EmailFolderId": 276,
+    "EmailFolderId": 401,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldType": "System.String",
+        "FieldLength": 29
       }
     }
   }

@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Carter-Kovacek",
-    "ToolTip": "Accusantium eveniet qui quos odit dolores.",
+    "Id": 699,
+    "Name": "Fisher Inc and Sons",
+    "ToolTip": "Ullam sunt.",
     "Deleted": false,
-    "Rank": 89,
-    "Type": "dolor",
-    "ColorBlock": 298,
-    "IconHint": "ut",
+    "Rank": 671,
+    "Type": "voluptas",
+    "ColorBlock": 977,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1995-06-13T15:05:43.4375101+02:00",
+    "LastChanged": "2020-01-11T18:25:51.818322+01:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Gleichner-Armstrong",
-        "ToolTip": "Libero qui tenetur suscipit.",
+        "Id": 11,
+        "Name": "Farrell-Konopelski",
+        "ToolTip": "Sed sunt autem et et qui et.",
         "Deleted": true,
-        "Rank": 437,
-        "Type": "vel",
-        "ColorBlock": 8,
-        "IconHint": "suscipit",
+        "Rank": 15,
+        "Type": "voluptates",
+        "ColorBlock": 990,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2021-06-11T15:05:43.4375101+02:00",
+        "LastChanged": "2002-11-01T18:25:51.818322+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "neque",
+        "StyleHint": "nesciunt",
         "Hidden": true,
-        "FullName": "Mr. Breana Nikolaus",
+        "FullName": "Ms. Berniece Kassulke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "embrace real-time web-readiness"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 353
+            "FieldType": "System.Int32",
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Miss Troy Franecki",
+    "ExtraInfo": "corporis",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Lesly Streich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

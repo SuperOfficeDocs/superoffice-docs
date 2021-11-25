@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSatellite
+title: POST Agents/Replication/CreateDefaultSatellite
 id: v1ReplicationAgent_CreateDefaultSatellite
 ---
 
-# CreateDefaultSatellite
+# POST Agents/Replication/CreateDefaultSatellite
 
 ```http
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
@@ -73,47 +73,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 271,
-  "Created": "2010-07-20T14:58:05.0294654+02:00",
+  "SatelliteId": 916,
+  "Created": "2005-06-15T18:28:50.0141324+02:00",
   "CreatedBy": {
-    "AssociateId": 627,
-    "Name": "Gibson-Pollich",
-    "PersonId": 973,
-    "Rank": 287,
-    "Tooltip": "fuga",
+    "AssociateId": 323,
+    "Name": "Rippin LLC",
+    "PersonId": 376,
+    "Rank": 459,
+    "Tooltip": "ex",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 404,
-    "FullName": "Connor Will DVM",
-    "FormalName": "Mante-Stiedemann",
+    "GroupIdx": 557,
+    "FullName": "Margaretta Nienow",
+    "FormalName": "Schaden Inc and Sons",
     "Deleted": false,
-    "EjUserId": 408,
-    "UserName": "Keebler LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 198
-      }
-    }
-  },
-  "Updated": "2005-03-29T14:58:05.0294654+02:00",
-  "UpdatedBy": {
-    "AssociateId": 733,
-    "Name": "Dietrich LLC",
-    "PersonId": 13,
-    "Rank": 746,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 291,
-    "FullName": "Marshall Wintheiser",
-    "FormalName": "Kuhn Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 519,
-    "UserName": "Schmidt LLC",
+    "EjUserId": 206,
+    "UserName": "Labadie LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -122,33 +96,59 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldLength": 272
+      }
+    }
+  },
+  "Updated": "2014-06-04T18:28:50.0141324+02:00",
+  "UpdatedBy": {
+    "AssociateId": 883,
+    "Name": "Thompson, Lemke and Kuphal",
+    "PersonId": 913,
+    "Rank": 787,
+    "Tooltip": "et",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 244,
+    "FullName": "Kellie Nitzsche",
+    "FormalName": "Gleichner, Keeling and Rowe",
+    "Deleted": true,
+    "EjUserId": 239,
+    "UserName": "Pouros LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 465
       }
     }
   },
   "Contact": {
-    "ContactId": 863,
-    "Name": "Wolf, Zemlak and Wuckert",
-    "OrgNr": "1016740",
-    "Department": "",
+    "ContactId": 408,
+    "Name": "Baumbach Group",
+    "OrgNr": "1285774",
+    "Department": "incubate enterprise vortals",
     "URL": "http://www.example.com/",
-    "City": "animi",
-    "DirectPhone": "171.472.3231 x328",
-    "AssociateId": 357,
-    "CountryId": 535,
-    "EmailAddress": "vallie@ebertbruen.com",
-    "Kananame": "nesciunt",
-    "EmailAddressName": "perry@olson.name",
+    "City": "illo",
+    "DirectPhone": "731.407.5461",
+    "AssociateId": 845,
+    "CountryId": 518,
+    "EmailAddress": "alexie.dickens@gaylordmarvin.ca",
+    "Kananame": "vel",
+    "EmailAddressName": "shaina@funkkuhn.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Tara Gottlieb",
+    "AssociateFullName": "Mr. Pearlie Howe",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "itaque",
-    "FullName": "Mr. Ezra Medhurst",
+    "FormattedAddress": "placeat",
+    "FullName": "Louisa Langworth",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 87,
+    "ActiveErpLinks": 546,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -157,16 +157,16 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 689
       }
     }
   },
   "Area": {
-    "AreaId": 421,
-    "Name": "Bashirian-Nicolas",
-    "MaxDataAge": 447,
-    "NumberOfUsers": 919,
-    "NumberOfLogins": 736,
+    "AreaId": 35,
+    "Name": "Hartmann LLC",
+    "MaxDataAge": 265,
+    "NumberOfUsers": 893,
+    "NumberOfLogins": 388,
     "FreetextEnabeled": true,
     "TableRight": {},
     "FieldProperties": {
@@ -175,15 +175,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   },
   "LicenseOwners": [
     {
-      "Name": "Bahringer-O'Reilly",
-      "Description": "Quality-focused motivating architecture",
+      "Name": "Jacobi-Gulgowski",
+      "Description": "Adaptive solution-oriented encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -199,14 +199,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     },
     {
-      "Name": "Bahringer-O'Reilly",
-      "Description": "Quality-focused motivating architecture",
+      "Name": "Jacobi-Gulgowski",
+      "Description": "Adaptive solution-oriented encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -222,8 +222,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -238,8 +238,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

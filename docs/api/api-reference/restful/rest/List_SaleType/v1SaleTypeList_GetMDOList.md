@@ -25,8 +25,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=beatae
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=qui
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Collier Group",
-    "ToolTip": "Sit totam placeat nisi occaecati.",
-    "Deleted": true,
-    "Rank": 253,
-    "Type": "voluptatem",
+    "Id": 260,
+    "Name": "Harris LLC",
+    "ToolTip": "Deserunt consequatur itaque qui.",
+    "Deleted": false,
+    "Rank": 310,
+    "Type": "vitae",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Reinger, Hettinger and Brown",
-        "ToolTip": "Sit quo unde natus aliquam.",
-        "Deleted": true,
-        "Rank": 699,
-        "Type": "doloribus",
+        "Id": 492,
+        "Name": "Upton LLC",
+        "ToolTip": "Praesentium iure esse quibusdam vitae.",
+        "Deleted": false,
+        "Rank": 171,
+        "Type": "totam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 186,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "sit",
-        "FullName": "Emmie Rath",
+        "IconHint": "inventore",
+        "ColorBlock": 613,
+        "ExtraInfo": "sed",
+        "StyleHint": "incidunt",
+        "FullName": "London Lueilwitz",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldType": "System.Int32",
+            "FieldLength": 223
           }
         }
       }
     ],
-    "IconHint": "error",
-    "ColorBlock": 337,
-    "ExtraInfo": "ratione",
-    "StyleHint": "eius",
-    "FullName": "Ettie Stoltenberg",
+    "IconHint": "quidem",
+    "ColorBlock": 25,
+    "ExtraInfo": "sequi",
+    "StyleHint": "ipsum",
+    "FullName": "Craig Price",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

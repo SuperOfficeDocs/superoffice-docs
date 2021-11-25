@@ -1,9 +1,9 @@
 ---
-title: GetProductTypes
+title: POST Agents/List/GetProductTypes
 id: v1ListAgent_GetProductTypes
 ---
 
-# GetProductTypes
+# POST Agents/List/GetProductTypes
 
 ```http
 POST /api/v1/Agents/List/GetProductTypes
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProductTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -75,12 +75,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Value": "fugiat",
-    "Tooltip": "quis",
+    "Id": 635,
+    "Value": "qui",
+    "Tooltip": "cupiditate",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "unleash sticky schemas"
     },
     "FieldProperties": {
       "fieldName": {
@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldLength": 280
       }
     }
   },
   {
-    "Id": 844,
-    "Value": "fugiat",
-    "Tooltip": "quis",
+    "Id": 635,
+    "Value": "qui",
+    "Tooltip": "cupiditate",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "unleash sticky schemas"
     },
     "FieldProperties": {
       "fieldName": {
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldLength": 280
       }
     }
   }

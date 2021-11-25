@@ -1,9 +1,9 @@
 ---
-title: GetUserLicenses
+title: POST Agents/License/GetUserLicenses
 id: v1LicenseAgent_GetUserLicenses
 ---
 
-# GetUserLicenses
+# POST Agents/License/GetUserLicenses
 
 ```http
 POST /api/v1/Agents/License/GetUserLicenses
@@ -76,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 457
+  "AssociateId": 809
 }
 ```
 
@@ -90,23 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McLaughlin-Thompson",
-    "Description": "Optional executive solution",
+    "Name": "Huels-O'Conner",
+    "Description": "Seamless fresh-thinking structure",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 876,
-        "Tooltip": "quia",
+        "Total": 413,
+        "Tooltip": "repudiandae",
         "CanAssign": true,
-        "Free": 771,
-        "InUse": 964,
+        "Free": 80,
+        "InUse": 382,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 268,
-        "Name": "Mann, Murphy and Barrows",
-        "Description": "Sharable directional data-warehouse",
-        "PrerequisiteModuleName": "White-Spencer",
-        "SortOrder": 251,
+        "Assigned": false,
+        "ModuleLicenseId": 372,
+        "Name": "Johns LLC",
+        "Description": "Synergized real-time parallelism",
+        "PrerequisiteModuleName": "Leuschke-Kling",
+        "SortOrder": 678,
+        "ExtraFlags": 548,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -115,7 +116,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldLength": 644
           }
         }
       }
@@ -123,18 +124,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 760,
-        "Tooltip": "fugiat",
+        "Total": 851,
+        "Tooltip": "consequatur",
         "CanAssign": true,
-        "Free": 708,
-        "InUse": 340,
+        "Free": 54,
+        "InUse": 44,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 249,
-        "Name": "Hegmann, Corkery and Rice",
-        "Description": "Up-sized multi-tasking implementation",
-        "PrerequisiteModuleName": "Willms Inc and Sons",
-        "SortOrder": 758,
+        "ModuleLicenseId": 887,
+        "Name": "Cruickshank-Moore",
+        "Description": "Object-based global monitoring",
+        "PrerequisiteModuleName": "Ruecker, Rice and Wuckert",
+        "SortOrder": 232,
+        "ExtraFlags": 977,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldType": "System.String",
+            "FieldLength": 823
           }
         }
       }
@@ -159,28 +161,29 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 13
       }
     }
   },
   {
-    "Name": "McLaughlin-Thompson",
-    "Description": "Optional executive solution",
+    "Name": "Huels-O'Conner",
+    "Description": "Seamless fresh-thinking structure",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 876,
-        "Tooltip": "quia",
+        "Total": 413,
+        "Tooltip": "repudiandae",
         "CanAssign": true,
-        "Free": 771,
-        "InUse": 964,
+        "Free": 80,
+        "InUse": 382,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 268,
-        "Name": "Mann, Murphy and Barrows",
-        "Description": "Sharable directional data-warehouse",
-        "PrerequisiteModuleName": "White-Spencer",
-        "SortOrder": 251,
+        "Assigned": false,
+        "ModuleLicenseId": 372,
+        "Name": "Johns LLC",
+        "Description": "Synergized real-time parallelism",
+        "PrerequisiteModuleName": "Leuschke-Kling",
+        "SortOrder": 678,
+        "ExtraFlags": 548,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -189,7 +192,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldLength": 644
           }
         }
       }
@@ -197,18 +200,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 760,
-        "Tooltip": "fugiat",
+        "Total": 851,
+        "Tooltip": "consequatur",
         "CanAssign": true,
-        "Free": 708,
-        "InUse": 340,
+        "Free": 54,
+        "InUse": 44,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 249,
-        "Name": "Hegmann, Corkery and Rice",
-        "Description": "Up-sized multi-tasking implementation",
-        "PrerequisiteModuleName": "Willms Inc and Sons",
-        "SortOrder": 758,
+        "ModuleLicenseId": 887,
+        "Name": "Cruickshank-Moore",
+        "Description": "Object-based global monitoring",
+        "PrerequisiteModuleName": "Ruecker, Rice and Wuckert",
+        "SortOrder": 232,
+        "ExtraFlags": 977,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -216,8 +220,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldType": "System.String",
+            "FieldLength": 823
           }
         }
       }
@@ -233,7 +237,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 13
       }
     }
   }

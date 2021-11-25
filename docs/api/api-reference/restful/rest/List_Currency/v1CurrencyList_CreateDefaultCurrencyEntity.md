@@ -61,7 +61,7 @@ Response body: object
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -69,16 +69,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 375,
-  "Name": "Bernier-McGlynn",
-  "Tooltip": "est",
-  "Rank": 343,
-  "Rate": 26510.505999999998,
-  "Units": 1773.844,
-  "Deleted": true,
+  "CurrencyId": 127,
+  "Name": "Rodriguez-Mitchell",
+  "Tooltip": "et",
+  "Rank": 775,
+  "Rate": 7067.17,
+  "Units": 27062.09,
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "seize B2B action-items"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

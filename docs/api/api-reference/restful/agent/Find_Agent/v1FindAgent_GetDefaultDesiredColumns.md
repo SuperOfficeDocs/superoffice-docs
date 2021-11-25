@@ -1,9 +1,9 @@
 ---
-title: GetDefaultDesiredColumns
+title: POST Agents/Find/GetDefaultDesiredColumns
 id: v1FindAgent_GetDefaultDesiredColumns
 ---
 
-# GetDefaultDesiredColumns
+# POST Agents/Find/GetDefaultDesiredColumns
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
@@ -85,13 +85,13 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dignissimos",
-  "ProviderName": "Trantow LLC",
-  "StorageKey": "et"
+  "StorageType": "tenetur",
+  "ProviderName": "Quigley Inc and Sons",
+  "StorageKey": "ratione"
 }
 ```
 
@@ -101,19 +101,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Fay-Yost",
-    "DisplayTooltip": "vero",
-    "DisplayType": "sunt",
-    "CanOrderBy": false,
-    "Name": "Kub LLC",
-    "CanRestrictBy": false,
-    "RestrictionType": "vitae",
-    "RestrictionListName": "Hahn-Metz",
+    "DisplayName": "Funk LLC",
+    "DisplayTooltip": "rerum",
+    "DisplayType": "repellat",
+    "CanOrderBy": true,
+    "Name": "Bins, Quitzon and Balistreri",
+    "CanRestrictBy": true,
+    "RestrictionType": "cumque",
+    "RestrictionListName": "Gutmann-Spinka",
     "IsVisible": false,
-    "ExtraInfo": "earum",
-    "Width": "debitis",
-    "IconHint": "veritatis",
-    "HeadingIconHint": "est"
+    "ExtraInfo": "qui",
+    "Width": "non",
+    "IconHint": "temporibus",
+    "HeadingIconHint": "explicabo"
   }
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetProjectMemberDocumentsByTemplateType
+title: POST Agents/Document/GetProjectMemberDocumentsByTemplateType
 id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
 ---
 
-# GetProjectMemberDocumentsByTemplateType
+# POST Agents/Document/GetProjectMemberDocumentsByTemplateType
 
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 256,
-  "StartTime": "2016-09-01T14:58:03.8174603+02:00",
-  "EndTime": "2015-06-09T14:58:03.8174603+02:00",
-  "Count": 636,
-  "DocumentTemplateId": 43
+  "PersonId": 295,
+  "StartTime": "2018-05-23T18:28:48.7139517+02:00",
+  "EndTime": "2002-08-25T18:28:48.7139517+02:00",
+  "Count": 999,
+  "DocumentTemplateId": 852
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 857,
-    "Attention": "expedita",
-    "Header": "dicta",
-    "Name": "Kessler, Bogisich and Lueilwitz",
-    "OurRef": "itaque",
-    "YourRef": "doloremque",
-    "Description": "Customizable scalable local area network",
-    "DocumentTemplate": "rerum",
+    "DocumentId": 959,
+    "Attention": "saepe",
+    "Header": "quia",
+    "Name": "Ziemann, White and Funk",
+    "OurRef": "molestias",
+    "YourRef": "vitae",
+    "Description": "Advanced empowering moderator",
+    "DocumentTemplate": "cumque",
     "IsPublished": false,
-    "PersonId": 520,
-    "PersonFullName": "Melvin Hermann PhD",
-    "AssociateFullName": "Francis Hirthe",
-    "ContactId": 733,
-    "ContactName": "Hegmann Inc and Sons",
-    "ProjectId": 795,
-    "ProjectName": "Fisher Inc and Sons",
-    "AssociateId": 182,
-    "Snum": 772,
+    "PersonId": 829,
+    "PersonFullName": "Dr. Greyson Herman",
+    "AssociateFullName": "Kali Hilpert PhD",
+    "ContactId": 327,
+    "ContactName": "Howell LLC",
+    "ProjectId": 356,
+    "ProjectName": "Botsford LLC",
+    "AssociateId": 104,
+    "Snum": 872,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSaleStakeholder
+title: POST Agents/Sale/CreateDefaultSaleStakeholder
 id: v1SaleAgent_CreateDefaultSaleStakeholder
 ---
 
-# CreateDefaultSaleStakeholder
+# POST Agents/Sale/CreateDefaultSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
@@ -81,25 +81,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jast Group",
-  "Comment": "consequuntur",
-  "StakeholderRoleId": 27,
-  "CountryId": 207,
-  "PersonId": 793,
-  "EmailDescription": "maymie.thompson@beer.ca",
-  "EmailId": 473,
-  "EmailAddress": "breanna@flatley.info",
-  "PhoneId": 221,
-  "ContactName": "Schultz-Kozey",
-  "ContactId": 431,
-  "SaleId": 16,
-  "Mrmrs": "dolor",
-  "Firstname": "Virgil",
-  "MiddleName": "Kshlerin, Robel and Rogahn",
-  "Lastname": "Carter",
-  "SaleStakeholderId": 654,
-  "Rank": 317,
-  "Phone": "1-181-482-5163",
+  "StakeholderRoleName": "Stroman Inc and Sons",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 289,
+  "CountryId": 66,
+  "PersonId": 988,
+  "EmailDescription": "nicolas_corwin@watsica.info",
+  "EmailId": 2,
+  "EmailAddress": "kenya@brownparker.info",
+  "PhoneId": 391,
+  "ContactName": "Wyman-Dicki",
+  "ContactId": 263,
+  "SaleId": 217,
+  "Mrmrs": "illum",
+  "Firstname": "Rosanna",
+  "MiddleName": "Waters Group",
+  "Lastname": "Senger",
+  "SaleStakeholderId": 326,
+  "Rank": 866,
+  "Phone": "(273)155-5314 x1116",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   }
 }

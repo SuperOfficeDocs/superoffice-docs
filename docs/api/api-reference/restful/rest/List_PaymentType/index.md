@@ -2,8 +2,6 @@
 title: List_PaymentType
 ---
 
-# List_PaymentType
-
 ```http
 /api/v1/List/PaymentType
 ```

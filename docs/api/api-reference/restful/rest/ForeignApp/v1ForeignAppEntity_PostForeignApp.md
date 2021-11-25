@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -73,23 +73,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 498,
-  "Name": "Lemke-McKenzie",
-  "CreatedDate": "2004-06-12T15:05:42.1816354+02:00",
-  "UpdatedDate": "1996-04-17T15:05:42.1816354+02:00",
+  "ForeignAppId": 52,
+  "Name": "Schmidt-Oberbrunner",
+  "CreatedDate": "2002-09-12T18:25:50.5495972+02:00",
+  "UpdatedDate": "2020-02-03T18:25:50.5495972+01:00",
   "CreatedBy": {
-    "AssociateId": 426,
-    "Name": "Monahan, Buckridge and Runte",
-    "PersonId": 683,
-    "Rank": 63,
-    "Tooltip": "earum",
+    "AssociateId": 209,
+    "Name": "Koss-Olson",
+    "PersonId": 87,
+    "Rank": 429,
+    "Tooltip": "laborum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 568,
-    "FullName": "Aron Wilkinson",
-    "FormalName": "Monahan, Ritchie and Berge",
-    "Deleted": true,
-    "EjUserId": 986,
-    "UserName": "Hoppe-Schaden",
+    "GroupIdx": 428,
+    "FullName": "Madge Renner",
+    "FormalName": "Stokes, Abernathy and Cartwright",
+    "Deleted": false,
+    "EjUserId": 133,
+    "UserName": "O'Connell, Bins and Pouros",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldLength": 995
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 696,
-    "Name": "McLaughlin, Lowe and Aufderhar",
-    "PersonId": 636,
-    "Rank": 636,
-    "Tooltip": "magni",
+    "AssociateId": 131,
+    "Name": "Wintheiser, Nader and Goyette",
+    "PersonId": 6,
+    "Rank": 874,
+    "Tooltip": "repellat",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 551,
-    "FullName": "Arianna Kris",
-    "FormalName": "Wunsch-Ferry",
+    "GroupIdx": 230,
+    "FullName": "Jett Nader",
+    "FormalName": "Fay, Ratke and Ruecker",
     "Deleted": false,
-    "EjUserId": 562,
-    "UserName": "Schuppe-Mante",
+    "EjUserId": 195,
+    "UserName": "Fahey, Beahan and Green",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -122,22 +122,22 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 646,
-      "Name": "Batz-DuBuque",
-      "CreatedDate": "1999-08-28T15:05:42.1816354+02:00",
-      "UpdatedDate": "1999-09-04T15:05:42.1816354+02:00",
-      "AssociateFullName": "Abigayle Hickle",
-      "CreatedBy": "ut",
-      "UpdatedBy": "unde",
-      "DeviceIdentifier": "ducimus",
-      "ForeignAppId": 25,
+      "ForeignDeviceId": 137,
+      "Name": "Toy, Cassin and Gusikowski",
+      "CreatedDate": "2009-12-31T18:25:50.550597+01:00",
+      "UpdatedDate": "2012-06-17T18:25:50.550597+02:00",
+      "AssociateFullName": "Cedrick Schiller",
+      "CreatedBy": "et",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "sequi",
+      "ForeignAppId": 895,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 940
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldLength": 169
     }
   }
 }

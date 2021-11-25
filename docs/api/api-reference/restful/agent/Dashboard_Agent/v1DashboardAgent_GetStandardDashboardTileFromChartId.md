@@ -1,9 +1,9 @@
 ---
-title: GetStandardDashboardTileFromChartId
+title: POST Agents/Dashboard/GetStandardDashboardTileFromChartId
 id: v1DashboardAgent_GetStandardDashboardTileFromChartId
 ---
 
-# GetStandardDashboardTileFromChartId
+# POST Agents/Dashboard/GetStandardDashboardTileFromChartId
 
 ```http
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "debitis"
+  "ChartId": "voluptatibus"
 }
 ```
 
@@ -104,48 +104,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 132,
-  "Caption": "magnam",
-  "Description": "Networked transitional emulation",
-  "ChartName": "Ortiz Group",
-  "ChartId": "quaerat",
+  "DashboardTileId": 318,
+  "Caption": "maiores",
+  "Description": "Monitored clear-thinking firmware",
+  "ChartName": "Mertz, Rath and Raynor",
+  "ChartId": "sequi",
   "IsDefault": true,
-  "AssociateId": 88,
-  "GroupId": 47,
-  "SelectionId": 589,
-  "Config": "et",
+  "AssociateId": 81,
+  "GroupId": 934,
+  "SelectionId": 743,
+  "Config": "sunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lueilwitz, Price and Dickinson",
-      "Description": "Streamlined high-level conglomeration",
+      "Name": "Dibbert, Olson and Robel",
+      "Description": "Object-based modular attitude",
       "Type": "Boolean",
-      "ListName": "Mann, Zieme and Stokes",
+      "ListName": "Rolfson-Spinka",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "mollitia",
       "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "architect holistic infomediaries"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldLength": 857
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 530,
+      "VisibleId": 453,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "expedita",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -153,15 +153,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     },
     {
-      "VisibleId": 530,
+      "VisibleId": 453,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "expedita",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

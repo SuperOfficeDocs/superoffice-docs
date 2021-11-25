@@ -26,7 +26,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=explicabo
+GET /api/v1/List/Priority/MDOItems?query=illum
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Gusikowski, Boehm and Witting",
-    "ToolTip": "Voluptatum et quo dolorum.",
+    "Id": 945,
+    "Name": "Macejkovic LLC",
+    "ToolTip": "Nihil magni sint omnis impedit.",
     "Deleted": true,
-    "Rank": 120,
-    "Type": "esse",
+    "Rank": 707,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Kirlin Inc and Sons",
-        "ToolTip": "Expedita non qui id id nihil.",
+        "Id": 325,
+        "Name": "Lebsack Inc and Sons",
+        "ToolTip": "Non omnis.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "quam",
+        "Rank": 315,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 948,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "omnis",
-        "FullName": "Rhea Mills",
+        "IconHint": "praesentium",
+        "ColorBlock": 695,
+        "ExtraInfo": "alias",
+        "StyleHint": "autem",
+        "FullName": "Jewell Hansen",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "benchmark magnetic schemas"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldLength": 235
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 678,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "cupiditate",
-    "FullName": "Tianna Weimann I",
+    "IconHint": "quis",
+    "ColorBlock": 407,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "non",
+    "FullName": "Zita Koelpin I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldLength": 143
       }
     }
   }

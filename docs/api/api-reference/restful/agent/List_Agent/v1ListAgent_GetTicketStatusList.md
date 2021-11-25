@@ -1,9 +1,9 @@
 ---
-title: GetTicketStatusList
+title: POST Agents/List/GetTicketStatusList
 id: v1ListAgent_GetTicketStatusList
 ---
 
-# GetTicketStatusList
+# POST Agents/List/GetTicketStatusList
 
 ```http
 POST /api/v1/Agents/List/GetTicketStatusList
@@ -65,6 +65,8 @@ Response body: array
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,14 +85,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 432,
-    "Name": "Donnelly Group",
+    "TicketStatusId": 834,
+    "Name": "Bednar Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
+    "IsDefault": false,
+    "UsedInQueue": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "revolutionize transparent relationships"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -98,8 +102,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 86,
-    "Name": "Collier-Welch",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 936,
-    "UdListDefinitionId": 716,
+    "HeadingId": 496,
+    "Name": "Kuphal Inc and Sons",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "Rank": 183,
+    "UdListDefinitionId": 182,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "revolutionize intuitive markets"
+          "Reason": "orchestrate 24/7 initiatives"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 346
       }
     }
   }

@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 368,
-  "ColumnId": 972,
-  "FieldDefault": "eum",
-  "FieldHeight": 41,
-  "FieldLabel": "a",
-  "FieldLeft": 13,
-  "FieldTop": 279,
+  "UDefFieldId": 666,
+  "ColumnId": 415,
+  "FieldDefault": "porro",
+  "FieldHeight": 822,
+  "FieldLabel": "impedit",
+  "FieldLeft": 727,
+  "FieldTop": 869,
   "FieldType": "Checkbox",
-  "FieldWidth": 350,
-  "FormatMask": "et",
+  "FieldWidth": 858,
+  "FormatMask": "similique",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 478,
-  "LabelLeft": 638,
-  "LabelTop": 649,
-  "LabelWidth": 928,
-  "LastVersionId": 952,
-  "ListTableId": 322,
+  "IsIndexed": false,
+  "LabelHeight": 438,
+  "LabelLeft": 662,
+  "LabelTop": 327,
+  "LabelWidth": 867,
+  "LastVersionId": 694,
+  "ListTableId": 500,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 446,
-  "ProgId": "enim",
-  "IsReadOnly": false,
-  "ShortLabel": "hic",
-  "TabOrder": 25,
-  "TextLength": 583,
-  "Tooltip": "voluptatum",
-  "UdefIdentity": 894,
-  "UDListDefinitionId": 692,
+  "Page1LineNo": 962,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "ex",
+  "TabOrder": 399,
+  "TextLength": 699,
+  "Tooltip": "delectus",
+  "UdefIdentity": 238,
+  "UDListDefinitionId": 794,
   "Justification": "Center",
-  "Version": 339,
-  "TemplateVariableName": "Okuneva Group",
+  "Version": 43,
+  "TemplateVariableName": "Jacobson-Brown",
   "HasBeenPublished": false,
-  "MdoListName": "Beier-Flatley",
+  "MdoListName": "Paucek-Hauck",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 41
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetProjectEvent
+title: POST Agents/Project/GetProjectEvent
 id: v1ProjectAgent_GetProjectEvent
 ---
 
-# GetProjectEvent
+# POST Agents/Project/GetProjectEvent
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEvent
@@ -25,7 +25,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=686
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=968
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Ms. Newell Johns",
-  "Description": "Programmable systemic secured line",
-  "ProjectId": 263,
-  "EventName": "Mosciski LLC",
-  "AssociateId": 230,
-  "IsSignedOn": true,
-  "SignOffConfirmationText": "et",
-  "SignOffText": "vero",
-  "SignOnConfirmationText": "quam",
-  "SignOnText": "et",
-  "EventDate": "2005-06-14T14:58:04.9194707+02:00",
+  "AssociateFullName": "Audreanne Bernier",
+  "Description": "Implemented eco-centric product",
+  "ProjectId": 145,
+  "EventName": "Anderson-Homenick",
+  "AssociateId": 35,
+  "IsSignedOn": false,
+  "SignOffConfirmationText": "debitis",
+  "SignOffText": "et",
+  "SignOnConfirmationText": "cumque",
+  "SignOnText": "dolor",
+  "EventDate": "2013-12-14T18:28:49.9011327+01:00",
   "Enabled": true,
   "SignOff": true,
-  "SignOffTaskEnable": false,
+  "SignOffTaskEnable": true,
   "SignOnTaskEnable": true,
   "SignOn": false,
-  "SignOffTaskId": 679,
-  "SignOnTaskId": 549,
+  "SignOffTaskId": 291,
+  "SignOnTaskId": 418,
   "SignOffTriggersAssign": false,
   "SignOnTriggersAssign": true,
-  "SignOnPersonId": 925,
-  "SignOffPersonId": 533,
+  "SignOnPersonId": 92,
+  "SignOffPersonId": 430,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 727
     }
   }
 }

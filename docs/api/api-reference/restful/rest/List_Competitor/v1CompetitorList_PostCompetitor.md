@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Reilly, Kemmer and Dickens",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 601,
-  "Rank": 956
+  "Id": 60,
+  "Name": "DuBuque Group",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "UdListDefinitionId": 84,
+  "Rank": 942
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Blick-Pollich",
-  "Tooltip": "dicta",
+  "Id": 872,
+  "Name": "Torp LLC",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "UdListDefinitionId": 465,
-  "Rank": 288,
+  "UdListDefinitionId": 830,
+  "Rank": 349,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   }
 }

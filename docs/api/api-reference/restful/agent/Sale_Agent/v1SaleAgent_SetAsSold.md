@@ -1,9 +1,9 @@
 ---
-title: SetAsSold
+title: POST Agents/Sale/SetAsSold
 id: v1SaleAgent_SetAsSold
 ---
 
-# SetAsSold
+# POST Agents/Sale/SetAsSold
 
 ```http
 POST /api/v1/Agents/Sale/SetAsSold

@@ -1,9 +1,9 @@
 ---
-title: SetSingleWordOperator
+title: POST Agents/FreeText/SetSingleWordOperator
 id: v1FreeTextAgent_SetSingleWordOperator
 ---
 
-# SetSingleWordOperator
+# POST Agents/FreeText/SetSingleWordOperator
 
 ```http
 POST /api/v1/Agents/FreeText/SetSingleWordOperator

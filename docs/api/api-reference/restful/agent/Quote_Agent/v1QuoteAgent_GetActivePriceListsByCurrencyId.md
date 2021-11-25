@@ -1,9 +1,9 @@
 ---
-title: GetActivePriceListsByCurrencyId
+title: POST Agents/Quote/GetActivePriceListsByCurrencyId
 id: v1QuoteAgent_GetActivePriceListsByCurrencyId
 ---
 
-# GetActivePriceListsByCurrencyId
+# POST Agents/Quote/GetActivePriceListsByCurrencyId
 
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 199,
-  "CurrencyId": 775
+  "QuoteConnectionId": 126,
+  "CurrencyId": 934
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 143,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 991,
-    "Name": "Quigley-Parker",
-    "Description": "Down-sized tertiary product",
-    "Currency": "explicabo",
-    "CurrencyName": "Armstrong-McGlynn",
-    "ValidFrom": "2003-08-28T14:58:04.9704316+02:00",
-    "ValidTo": "2005-03-20T14:58:04.9704316+01:00",
-    "IsActive": true,
+    "PriceListId": 892,
+    "ERPPriceListKey": "impedit",
+    "QuoteConnectionId": 195,
+    "Name": "Bailey, Hand and Nienow",
+    "Description": "Cross-group discrete circuit",
+    "Currency": "et",
+    "CurrencyName": "Howe, Leuschke and Jacobs",
+    "ValidFrom": "2019-09-12T18:28:49.9441395+02:00",
+    "ValidTo": "2015-03-21T18:28:49.9441395+01:00",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

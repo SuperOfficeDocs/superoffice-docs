@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplateProperties
+title: POST Agents/List/GetDocumentTemplateProperties
 id: v1ListAgent_GetDocumentTemplateProperties
 ---
 
-# GetDocumentTemplateProperties
+# POST Agents/List/GetDocumentTemplateProperties
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 574,
+  "DocumentTemplateId": 237,
   "RequestedProperties": [
-    "non",
-    "eos"
+    "fugiat",
+    "voluptatem"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "commodi"
+  "1": "minus",
+  "2": "voluptatem"
 }
 ```

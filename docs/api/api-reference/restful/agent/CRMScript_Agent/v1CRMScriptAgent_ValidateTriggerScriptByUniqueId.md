@@ -1,9 +1,9 @@
 ---
-title: ValidateTriggerScriptByUniqueId
+title: POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
 id: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
 ---
 
-# ValidateTriggerScriptByUniqueId
+# POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "veritatis"
+  "TriggerScriptUniqueId": "reiciendis"
 }
 ```
 
@@ -96,10 +96,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "aut",
+  "ErrorMessage": "accusamus",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "target integrated vortals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 794
     }
   }
 }

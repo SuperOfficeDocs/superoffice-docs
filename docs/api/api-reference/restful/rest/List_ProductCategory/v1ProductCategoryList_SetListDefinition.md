@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Murphy-Feest",
-  "Tooltip": "ut",
+  "Id": 189,
+  "Name": "White-Monahan",
+  "Tooltip": "excepturi",
   "Deleted": true,
-  "Rank": 466,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": false
+  "Rank": 376,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 726,
-  "Name": "Kshlerin, Funk and Hagenes",
-  "Tooltip": "aut",
+  "Id": 9,
+  "Name": "Will Inc and Sons",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 479,
-  "IsCustomList": true,
+  "Rank": 92,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "embrace compelling portals"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldLength": 705
     }
   }
 }

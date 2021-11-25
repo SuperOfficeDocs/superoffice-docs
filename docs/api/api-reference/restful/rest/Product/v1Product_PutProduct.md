@@ -149,55 +149,55 @@ Response body: object
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 494,
-  "ERPProductKey": "deserunt",
-  "ERPPriceListKey": "error",
-  "Name": "Champlin, Kshlerin and Tromp",
-  "Description": "Secured intangible workforce",
-  "Code": "quia",
-  "PriceUnit": "commodi",
-  "QuantityUnit": "nobis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "suscipit",
-  "DefaultSubscriptionQuantity": 17265.206,
-  "ItemNumber": "675479",
+  "ProductId": 765,
+  "ERPProductKey": "eius",
+  "ERPPriceListKey": "ut",
+  "Name": "Renner-Torphy",
+  "Description": "Down-sized analyzing support",
+  "Code": "praesentium",
+  "PriceUnit": "blanditiis",
+  "QuantityUnit": "quis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "totam",
+  "DefaultSubscriptionQuantity": 9643.318,
+  "ItemNumber": "676939",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "laborum",
-  "VAT": 10943.928,
-  "VATInfo": "magnam",
-  "UnitCost": 26231.579999999998,
-  "UnitMinimumPrice": 21728.022,
-  "UnitListPrice": 19039.05,
+  "ProductFamilyKey": "minima",
+  "ProductTypeKey": "soluta",
+  "VAT": 4773.0819999999994,
+  "VATInfo": "est",
+  "UnitCost": 12131.714,
+  "UnitMinimumPrice": 4917.246,
+  "UnitListPrice": 28889.212,
   "InAssortment": false,
-  "Supplier": "nulla",
-  "SupplierCode": "dolores",
-  "Rights": "omnis",
-  "Rule": "hic",
+  "Supplier": "exercitationem",
+  "SupplierCode": "ipsa",
+  "Rights": "sed",
+  "Rule": "ab",
   "ExtraInfo": [
     {
-      "Name": "Koss LLC",
-      "Value": "quis",
+      "Name": "Tromp, Bernhard and Block",
+      "Value": "sequi",
       "Type": "Image"
     },
     {
-      "Name": "Koss LLC",
-      "Value": "quis",
+      "Name": "Tromp, Bernhard and Block",
+      "Value": "sequi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "dolorem",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "sint",
-  "ExtraField4": "delectus",
-  "ExtraField5": "harum",
-  "InStock": 16171.439999999999
+  "RawExtraInfo": "aut",
+  "ExtraField1": "officiis",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "non",
+  "ExtraField4": "at",
+  "ExtraField5": "sapiente",
+  "InStock": 18111.386
 }
 ```
 
@@ -206,36 +206,36 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 301,
-  "ERPProductKey": "explicabo",
-  "ERPPriceListKey": "quia",
-  "Name": "Halvorson Inc and Sons",
-  "Description": "Distributed assymetric website",
-  "Code": "harum",
-  "PriceUnit": "et",
-  "QuantityUnit": "aspernatur",
+  "ProductId": 739,
+  "ERPProductKey": "ducimus",
+  "ERPPriceListKey": "nisi",
+  "Name": "Dooley-Runolfsson",
+  "Description": "Ergonomic systematic internet solution",
+  "Code": "eos",
+  "PriceUnit": "autem",
+  "QuantityUnit": "ullam",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatibus",
-  "DefaultSubscriptionQuantity": 18127.056,
-  "ItemNumber": "1168418",
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 18029.902,
+  "ItemNumber": "1489972",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rem",
-  "ProductTypeKey": "porro",
-  "VAT": 9210.826,
-  "VATInfo": "nemo",
-  "UnitCost": 22956.55,
-  "UnitMinimumPrice": 10878.114,
-  "UnitListPrice": 30045.658,
-  "InAssortment": false,
-  "Supplier": "dolor",
-  "SupplierCode": "ducimus",
-  "Rights": "incidunt",
-  "Rule": "iure",
+  "ProductFamilyKey": "tenetur",
+  "ProductTypeKey": "blanditiis",
+  "VAT": 13764.528,
+  "VATInfo": "est",
+  "UnitCost": 18205.406,
+  "UnitMinimumPrice": 21145.097999999998,
+  "UnitListPrice": 14563.698,
+  "InAssortment": true,
+  "Supplier": "quo",
+  "SupplierCode": "est",
+  "Rights": "fugiat",
+  "Rule": "modi",
   "ExtraInfo": [
     {
-      "Name": "Will, Hoppe and Kemmer",
-      "Value": "magni",
+      "Name": "Koepp, Mills and Ruecker",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -244,14 +244,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     },
     {
-      "Name": "Will, Hoppe and Kemmer",
-      "Value": "magni",
+      "Name": "Koepp, Mills and Ruecker",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -260,19 +260,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
   ],
-  "RawExtraInfo": "consequuntur",
-  "ExtraField1": "quae",
-  "ExtraField2": "omnis",
-  "ExtraField3": "officia",
-  "ExtraField4": "quaerat",
-  "ExtraField5": "ut",
-  "InStock": 20016.858,
+  "RawExtraInfo": "eum",
+  "ExtraField1": "inventore",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "rerum",
+  "ExtraField4": "quae",
+  "ExtraField5": "ad",
+  "InStock": 27005.678,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -281,10 +281,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "repurpose world-class schemas"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 576
     }
   }
 }

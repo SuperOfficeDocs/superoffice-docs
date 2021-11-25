@@ -1,9 +1,9 @@
 ---
-title: AddBounceWithCount
+title: POST Agents/Person/AddBounceWithCount
 id: v1PersonAgent_AddBounceWithCount
 ---
 
-# AddBounceWithCount
+# POST Agents/Person/AddBounceWithCount
 
 ```http
 POST /api/v1/Agents/Person/AddBounceWithCount

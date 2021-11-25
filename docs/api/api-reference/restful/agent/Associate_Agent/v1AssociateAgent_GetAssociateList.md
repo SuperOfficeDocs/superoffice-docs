@@ -1,9 +1,9 @@
 ---
-title: GetAssociateList
+title: POST Agents/Associate/GetAssociateList
 id: v1AssociateAgent_GetAssociateList
 ---
 
-# GetAssociateList
+# POST Agents/Associate/GetAssociateList
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociateList
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 942,
-    "Name": "Leffler Group",
-    "PersonId": 972,
-    "Rank": 217,
-    "Tooltip": "perferendis",
+    "AssociateId": 757,
+    "Name": "Koch, Batz and Hammes",
+    "PersonId": 42,
+    "Rank": 57,
+    "Tooltip": "tenetur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 408,
-    "FullName": "Fredrick Dickinson IV",
-    "FormalName": "Bailey LLC",
-    "Deleted": false,
-    "EjUserId": 242,
-    "UserName": "Auer LLC",
+    "GroupIdx": 695,
+    "FullName": "Miss Camryn Lynch",
+    "FormalName": "Strosin-Grady",
+    "Deleted": true,
+    "EjUserId": 988,
+    "UserName": "Swift, Mitchell and Heathcote",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "enhance distributed interfaces"
+          "Reason": "envisioneer transparent networks"
         },
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

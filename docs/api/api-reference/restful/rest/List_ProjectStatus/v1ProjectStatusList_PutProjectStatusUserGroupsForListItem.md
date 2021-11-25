@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Hessel Inc and Sons",
-    "ToolTip": "Cupiditate quia et error cumque perferendis.",
+    "Id": 589,
+    "Name": "Kirlin-Hegmann",
+    "ToolTip": "Quis voluptatem aut perferendis et.",
     "Deleted": true,
-    "Rank": 799,
-    "Type": "qui",
-    "ColorBlock": 286,
-    "IconHint": "sequi",
+    "Rank": 427,
+    "Type": "eum",
+    "ColorBlock": 138,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2021-01-03T15:05:43.6951117+01:00",
+    "LastChanged": "2017-04-13T18:25:52.0880184+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Roberts-Cassin",
-        "ToolTip": "Voluptatem aut earum fugit quo sapiente.",
-        "Deleted": false,
-        "Rank": 618,
-        "Type": "accusamus",
-        "ColorBlock": 132,
-        "IconHint": "et",
+        "Id": 446,
+        "Name": "Swift-Bahringer",
+        "ToolTip": "Quos consequatur inventore eligendi temporibus.",
+        "Deleted": true,
+        "Rank": 937,
+        "Type": "voluptas",
+        "ColorBlock": 978,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2018-09-29T15:05:43.6951117+02:00",
+        "LastChanged": "2009-02-08T18:25:52.0880184+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Ms. Demetris Lehner"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Percy Schuppe"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "delectus",
+    "ExtraInfo": "expedita",
+    "StyleHint": "beatae",
     "Hidden": true,
-    "FullName": "General Huel"
+    "FullName": "Maya Kris PhD"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Goodwin-Beer",
-    "ToolTip": "Excepturi dolorum suscipit reiciendis dolor.",
+    "Id": 196,
+    "Name": "Pollich, Schuster and Bailey",
+    "ToolTip": "Et excepturi natus veniam est vel accusantium.",
     "Deleted": true,
-    "Rank": 368,
-    "Type": "ut",
-    "ColorBlock": 569,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2009-07-18T15:05:43.6971125+02:00",
+    "Rank": 205,
+    "Type": "repellat",
+    "ColorBlock": 980,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2004-04-09T18:25:52.0890195+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Toy-Legros",
-        "ToolTip": "Quos sunt odio aut ut omnis quasi.",
-        "Deleted": false,
-        "Rank": 858,
-        "Type": "esse",
-        "ColorBlock": 805,
-        "IconHint": "dolor",
+        "Id": 38,
+        "Name": "McDermott-Morissette",
+        "ToolTip": "Impedit repellendus ut nihil quaerat.",
+        "Deleted": true,
+        "Rank": 887,
+        "Type": "nulla",
+        "ColorBlock": 9,
+        "IconHint": "magni",
         "Selected": true,
-        "LastChanged": "1996-02-24T15:05:43.6971125+01:00",
+        "LastChanged": "2004-02-18T18:25:52.0890195+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "dolor",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Myles Kessler",
+        "FullName": "Alvah Hauck",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldType": "System.Int32",
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Kennith Armstrong",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Gwendolyn Gislason DDS",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 144
       }
     }
   }

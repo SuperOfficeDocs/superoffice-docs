@@ -1,9 +1,9 @@
 ---
-title: GetAllForeignKeysOnEntity
+title: POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
 id: v1ForeignSystemAgent_GetAllForeignKeysOnEntity
 ---
 
-# GetAllForeignKeysOnEntity
+# POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
@@ -69,12 +69,12 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "sed",
-  "EntityId": 468
+  "EntityType": "modi",
+  "EntityId": 429
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "est",
-  "2": "ut"
+  "1": "enim",
+  "2": "sequi"
 }
 ```

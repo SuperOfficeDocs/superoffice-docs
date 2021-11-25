@@ -1,9 +1,9 @@
 ---
-title: GetDocument
+title: POST Agents/Document/GetDocument
 id: v1DocumentAgent_GetDocument
 ---
 
-# GetDocument
+# POST Agents/Document/GetDocument
 
 ```http
 POST /api/v1/Agents/Document/GetDocument
@@ -25,7 +25,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=603
+POST /api/v1/Agents/Document/GetDocument?documentId=383
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ Response body: object
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -92,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 282,
-  "Attention": "eius",
-  "Header": "recusandae",
-  "Name": "Barton-Jewess",
-  "OurRef": "est",
-  "YourRef": "in",
-  "Description": "Grass-roots tangible service-desk",
-  "DocumentTemplate": "quis",
+  "DocumentId": 119,
+  "Attention": "ea",
+  "Header": "numquam",
+  "Name": "Runte Group",
+  "OurRef": "corrupti",
+  "YourRef": "eaque",
+  "Description": "Cross-platform demand-driven forecast",
+  "DocumentTemplate": "consequuntur",
   "IsPublished": true,
-  "PersonId": 191,
-  "PersonFullName": "Cordia Bergstrom",
-  "AssociateFullName": "Nat Brakus",
-  "ContactId": 785,
-  "ContactName": "Champlin, Dooley and Graham",
-  "ProjectId": 483,
-  "ProjectName": "Zboncak, Torp and Denesik",
-  "AssociateId": 774,
-  "Snum": 527,
+  "PersonId": 10,
+  "PersonFullName": "Cecilia Romaguera",
+  "AssociateFullName": "Clifford Cole",
+  "ContactId": 130,
+  "ContactName": "West-Erdman",
+  "ProjectId": 275,
+  "ProjectName": "Pfeffer, DuBuque and Cartwright",
+  "AssociateId": 61,
+  "Snum": 829,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 7,
-  "Name": "Carter, Lang and Jacobi",
-  "Tooltip": "nemo",
+  "HeadingId": 145,
+  "Name": "Jacobson LLC",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "Rank": 816,
-  "UdListDefinitionId": 282
+  "Rank": 678,
+  "UdListDefinitionId": 325
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 270,
-  "Name": "Wisoky Inc and Sons",
-  "Tooltip": "aliquam",
+  "HeadingId": 908,
+  "Name": "Ankunding, Hintz and Gislason",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 531,
-  "UdListDefinitionId": 536,
+  "Rank": 618,
+  "UdListDefinitionId": 946,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

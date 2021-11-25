@@ -1,9 +1,9 @@
 ---
-title: GetRatings
+title: POST Agents/List/GetRatings
 id: v1ListAgent_GetRatings
 ---
 
-# GetRatings
+# POST Agents/List/GetRatings
 
 ```http
 POST /api/v1/Agents/List/GetRatings
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetRatings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Value": "cumque",
-    "Tooltip": "quibusdam",
+    "Id": 318,
+    "Value": "quis",
+    "Tooltip": "veniam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldLength": 362
       }
     }
   },
   {
-    "Id": 380,
-    "Value": "cumque",
-    "Tooltip": "quibusdam",
+    "Id": 318,
+    "Value": "quis",
+    "Tooltip": "veniam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldLength": 362
       }
     }
   }

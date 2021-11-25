@@ -1,9 +1,9 @@
 ---
-title: CreateUserDefinedFieldInfo
+title: POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
 ---
 
-# CreateUserDefinedFieldInfo
+# POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
@@ -112,7 +112,7 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 51,
-  "ColumnId": 768,
-  "FieldDefault": "et",
-  "FieldHeight": 483,
-  "FieldLabel": "ut",
-  "FieldLeft": 220,
-  "FieldTop": 300,
+  "UDefFieldId": 33,
+  "ColumnId": 411,
+  "FieldDefault": "rem",
+  "FieldHeight": 8,
+  "FieldLabel": "autem",
+  "FieldLeft": 116,
+  "FieldTop": 97,
   "FieldType": "Checkbox",
-  "FieldWidth": 366,
-  "FormatMask": "accusamus",
+  "FieldWidth": 850,
+  "FormatMask": "consectetur",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 128,
-  "LabelLeft": 956,
-  "LabelTop": 775,
-  "LabelWidth": 254,
-  "LastVersionId": 300,
-  "ListTableId": 707,
+  "LabelHeight": 284,
+  "LabelLeft": 895,
+  "LabelTop": 213,
+  "LabelWidth": 827,
+  "LastVersionId": 210,
+  "ListTableId": 981,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 468,
-  "ProgId": "ea",
-  "IsReadOnly": true,
-  "ShortLabel": "modi",
-  "TabOrder": 538,
-  "TextLength": 497,
-  "Tooltip": "amet",
-  "UdefIdentity": 723,
-  "UDListDefinitionId": 271,
+  "Page1LineNo": 43,
+  "ProgId": "architecto",
+  "IsReadOnly": false,
+  "ShortLabel": "in",
+  "TabOrder": 904,
+  "TextLength": 725,
+  "Tooltip": "et",
+  "UdefIdentity": 194,
+  "UDListDefinitionId": 267,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Padberg, Crooks and Friesen",
+  "Version": 198,
+  "TemplateVariableName": "O'Keefe LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Harber-Hand",
+  "MdoListName": "Hauck, Pouros and Donnelly",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 251
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

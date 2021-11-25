@@ -1,9 +1,9 @@
 ---
-title: AddFavourites
+title: POST Agents/Favourite/AddFavourites
 id: v1FavouriteAgent_AddFavourites
 ---
 
-# AddFavourites
+# POST Agents/Favourite/AddFavourites
 
 ```http
 POST /api/v1/Agents/Favourite/AddFavourites

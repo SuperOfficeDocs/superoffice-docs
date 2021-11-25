@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultUserFromUserTypeAndCredential
+title: POST Agents/User/CreateDefaultUserFromUserTypeAndCredential
 id: v1UserAgent_CreateDefaultUserFromUserTypeAndCredential
 ---
 
-# CreateDefaultUserFromUserTypeAndCredential
+# POST Agents/User/CreateDefaultUserFromUserTypeAndCredential
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
@@ -113,10 +113,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 499,
-  "CredentialType": "perspiciatis",
-  "CredentialValue": "animi",
-  "CredentialDisplayValue": "autem"
+  "ContactId": 354,
+  "CredentialType": "similique",
+  "CredentialValue": "sunt",
+  "CredentialDisplayValue": "impedit"
 }
 ```
 
@@ -125,14 +125,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 816,
-  "Name": "Rempel, Morissette and Padberg",
-  "Rank": 962,
-  "Tooltip": "harum",
+  "AssociateId": 6,
+  "Name": "Reichert Group",
+  "Rank": 905,
+  "Tooltip": "maiores",
   "LicenseOwners": [
     {
-      "Name": "Becker Group",
-      "Description": "Robust executive forecast",
+      "Name": "Roberts-Hills",
+      "Description": "Reverse-engineered optimizing interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,240 +141,6 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 55
-        }
-      }
-    },
-    {
-      "Name": "Becker Group",
-      "Description": "Robust executive forecast",
-      "RestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "UnrestrictedModuleLicenses": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 55
-        }
-      }
-    }
-  ],
-  "Role": {
-    "Id": 959,
-    "Value": "autem",
-    "Tooltip": "officia",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 654
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "voluptatem",
-    "Tooltip": "earum",
-    "Id": 105,
-    "Rank": 15,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synthesize enterprise channels"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 505
-      }
-    }
-  },
-  "OtherGroups": [
-    {
-      "Value": "perspiciatis",
-      "Tooltip": "sed",
-      "Id": 425,
-      "Rank": 262,
-      "Deleted": true,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 384
-        }
-      }
-    }
-  ],
-  "Person": {
-    "Position": "placeat",
-    "PersonId": 209,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Mia",
-    "Lastname": "Bosco",
-    "MiddleName": "Hackett Inc and Sons",
-    "Title": "est",
-    "Description": "Cross-group regional process improvement",
-    "Email": "david.dooley@streich.ca",
-    "FullName": "Jace Krajcik",
-    "DirectPhone": "1-217-275-1235",
-    "FormalName": "Schumm, Osinski and Becker",
-    "CountryId": 364,
-    "ContactId": 354,
-    "ContactName": "Schumm Inc and Sons",
-    "Retired": 756,
-    "Rank": 658,
-    "ActiveInterests": 500,
-    "ContactDepartment": "",
-    "ContactCountryId": 954,
-    "ContactOrgNr": "1256383",
-    "FaxPhone": "1-586-672-8712 x384",
-    "MobilePhone": "435.432.7832 x836",
-    "ContactPhone": "787-610-5267 x056",
-    "AssociateName": "Fay Inc and Sons",
-    "AssociateId": 889,
-    "UsePersonAddress": false,
-    "ContactFax": "dolor",
-    "Kanafname": "consequuntur",
-    "Kanalname": "quos",
-    "Post1": "esse",
-    "Post2": "est",
-    "Post3": "voluptate",
-    "EmailName": "garth_lindgren@dickinson.biz",
-    "ContactFullName": "Johathan Wyman",
-    "ActiveErpLinks": 226,
-    "TicketPriorityId": 666,
-    "SupportLanguageId": 828,
-    "SupportAssociateId": 403,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 695
-      }
-    }
-  },
-  "Deleted": true,
-  "Lastlogin": "2011-01-06T14:58:05.4196237+01:00",
-  "Lastlogout": "2020-06-28T14:58:05.4196237+02:00",
-  "EjUserId": 966,
-  "RequestSignature": "nostrum",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
-  "Credentials": [
-    {
-      "Type": {},
-      "Value": "optio",
-      "DisplayValue": "et",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 683
-        }
-      }
-    },
-    {
-      "Type": {},
-      "Value": "optio",
-      "DisplayValue": "et",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 683
-        }
-      }
-    }
-  ],
-  "UserName": "Conn Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 39,
-      "Name": "Ebert-Blanda",
-      "ToolTip": "Adipisci non laudantium voluptas explicabo reprehenderit fugiat.",
-      "Deleted": true,
-      "Rank": 995,
-      "Type": "sit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "velit",
-      "ColorBlock": 972,
-      "ExtraInfo": "voluptate",
-      "StyleHint": "inventore",
-      "FullName": "Bianka D'Amore Jr.",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 722
-        }
-      }
-    }
-  ],
-  "NickName": "Kihn, Koss and O'Kon",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "aliquid"
-  },
-  "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "nostrum"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Streich Inc and Sons",
-      "DisplayName": "Kreiger, Gorczany and Denesik",
-      "Description": "Expanded asynchronous success",
-      "ToolTip": "Consectetur sed voluptatem a repellendus fugit.",
-      "Actions": "Implicit",
-      "ActionData": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -383,7 +149,241 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 772
+        }
+      }
+    },
+    {
+      "Name": "Roberts-Hills",
+      "Description": "Reverse-engineered optimizing interface",
+      "RestrictedModuleLicenses": [
+        {},
+        {}
+      ],
+      "UnrestrictedModuleLicenses": [
+        {},
+        {}
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 772
+        }
+      }
+    }
+  ],
+  "Role": {
+    "Id": 873,
+    "Value": "minima",
+    "Tooltip": "dolores",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 926
+      }
+    }
+  },
+  "UserGroup": {
+    "Value": "et",
+    "Tooltip": "aliquid",
+    "Id": 139,
+    "Rank": 697,
+    "Deleted": true,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 668
+      }
+    }
+  },
+  "OtherGroups": [
+    {
+      "Value": "illum",
+      "Tooltip": "eligendi",
+      "Id": 924,
+      "Rank": 612,
+      "Deleted": false,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 739
+        }
+      }
+    }
+  ],
+  "Person": {
+    "Position": "vel",
+    "PersonId": 804,
+    "Mrmrs": "quibusdam",
+    "Firstname": "Hester",
+    "Lastname": "Reilly",
+    "MiddleName": "Bruen-Ernser",
+    "Title": "reiciendis",
+    "Description": "Open-architected assymetric neural-net",
+    "Email": "darius@mitchell.biz",
+    "FullName": "Ofelia Ryan",
+    "DirectPhone": "(152)732-1258",
+    "FormalName": "Lockman, Schaden and Treutel",
+    "CountryId": 718,
+    "ContactId": 961,
+    "ContactName": "Kirlin LLC",
+    "Retired": 289,
+    "Rank": 842,
+    "ActiveInterests": 738,
+    "ContactDepartment": "",
+    "ContactCountryId": 244,
+    "ContactOrgNr": "504828",
+    "FaxPhone": "270.000.2574",
+    "MobilePhone": "684-681-7741 x7744",
+    "ContactPhone": "1-414-805-0083",
+    "AssociateName": "Treutel-Schowalter",
+    "AssociateId": 523,
+    "UsePersonAddress": true,
+    "ContactFax": "debitis",
+    "Kanafname": "unde",
+    "Kanalname": "quos",
+    "Post1": "odit",
+    "Post2": "praesentium",
+    "Post3": "autem",
+    "EmailName": "abel.willms@legrosrau.ca",
+    "ContactFullName": "Mr. Samson Kiehn",
+    "ActiveErpLinks": 963,
+    "TicketPriorityId": 612,
+    "SupportLanguageId": 856,
+    "SupportAssociateId": 616,
+    "CategoryName": "VIP Customer",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 21
+      }
+    }
+  },
+  "Deleted": true,
+  "Lastlogin": "1995-07-14T18:28:50.4184115+02:00",
+  "Lastlogout": "1997-12-21T18:28:50.4184115+01:00",
+  "EjUserId": 13,
+  "RequestSignature": "earum",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
+  "Credentials": [
+    {
+      "Type": {},
+      "Value": "laborum",
+      "DisplayValue": "id",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 504
+        }
+      }
+    },
+    {
+      "Type": {},
+      "Value": "laborum",
+      "DisplayValue": "id",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 504
+        }
+      }
+    }
+  ],
+  "UserName": "Wisoky-Hickle",
+  "TicketCategories": [
+    {
+      "Id": 93,
+      "Name": "Huels, Connelly and Altenwerth",
+      "ToolTip": "Qui quia.",
+      "Deleted": false,
+      "Rank": 158,
+      "Type": "dolores",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "qui",
+      "ColorBlock": 56,
+      "ExtraInfo": "magni",
+      "StyleHint": "culpa",
+      "FullName": "Novella Tillman",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 355
+        }
+      }
+    }
+  ],
+  "NickName": "Osinski, Heaney and Rosenbaum",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "vel",
+    "ExtraFields2": "non"
+  },
+  "CustomFields": {
+    "CustomFields1": "similique",
+    "CustomFields2": "alias"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hermiston LLC",
+      "DisplayName": "Macejkovic Inc and Sons",
+      "Description": "Cross-group dynamic concept",
+      "ToolTip": "Reprehenderit delectus fugit.",
+      "Actions": "Implicit",
+      "ActionData": "animi",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "synergize seamless systems"
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 915
         }
       }
     }
@@ -399,7 +399,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 314
     }
   }
 }

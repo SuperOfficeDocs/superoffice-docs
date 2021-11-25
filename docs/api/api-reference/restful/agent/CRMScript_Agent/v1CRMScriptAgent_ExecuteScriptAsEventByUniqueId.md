@@ -1,9 +1,9 @@
 ---
-title: ExecuteScriptAsEventByUniqueId
+title: POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 id: v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId
 ---
 
-# ExecuteScriptAsEventByUniqueId
+# POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
@@ -93,25 +93,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "ut",
+  "CRMScriptUniqueId": "voluptatibus",
   "EventData": {
     "Type": "ChatAfterSaveNewMessage",
     "InputValues": {
-      "InputValues1": "doloribus",
-      "InputValues2": "vel"
+      "InputValues1": "tenetur",
+      "InputValues2": "sit"
     },
     "BlockExecution": false,
-    "NavigateTo": "blanditiis",
-    "Message": "est",
+    "NavigateTo": "error",
+    "Message": "consequatur",
     "OutputValues": {
-      "OutputValues1": "quia",
-      "OutputValues2": "commodi"
+      "OutputValues1": "autem",
+      "OutputValues2": "rem"
     },
     "StateValues": {
-      "StateValues1": "omnis",
-      "StateValues2": "rem"
+      "StateValues1": "ut",
+      "StateValues2": "voluptatum"
     },
-    "Exception": "veniam"
+    "Exception": "et"
   }
 }
 ```
@@ -123,33 +123,33 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "placeat",
-    "InputValues2": "dignissimos"
+    "InputValues1": "tempora",
+    "InputValues2": "quo"
   },
   "BlockExecution": true,
-  "NavigateTo": "aut",
-  "Message": "sunt",
+  "NavigateTo": "nisi",
+  "Message": "porro",
   "OutputValues": {
-    "OutputValues1": "qui",
-    "OutputValues2": "harum"
+    "OutputValues1": "ea",
+    "OutputValues2": "at"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "error"
+    "StateValues1": "reprehenderit",
+    "StateValues2": "sunt"
   },
-  "Exception": "dolore",
+  "Exception": "consectetur",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "monetize collaborative communities"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "morph sexy ROI"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

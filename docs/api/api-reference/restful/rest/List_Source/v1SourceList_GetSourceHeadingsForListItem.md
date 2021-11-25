@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Reinger-Hauck",
-    "ToolTip": "Voluptatem aut accusamus qui nesciunt.",
+    "Id": 209,
+    "Name": "Howell Group",
+    "ToolTip": "Id adipisci.",
     "Deleted": true,
-    "Rank": 745,
-    "Type": "et",
-    "ColorBlock": 433,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2018-07-23T15:05:43.8341172+02:00",
+    "Rank": 370,
+    "Type": "qui",
+    "ColorBlock": 739,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2021-10-24T18:25:52.2686394+02:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Pollich, Borer and Stokes",
-        "ToolTip": "Numquam et asperiores.",
-        "Deleted": false,
-        "Rank": 911,
-        "Type": "quis",
-        "ColorBlock": 354,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2007-10-05T15:05:43.8351193+02:00",
+        "Id": 484,
+        "Name": "Friesen-Bruen",
+        "ToolTip": "Neque autem aliquid laudantium perspiciatis impedit.",
+        "Deleted": true,
+        "Rank": 673,
+        "Type": "tempora",
+        "ColorBlock": 678,
+        "IconHint": "repellat",
+        "Selected": true,
+        "LastChanged": "1998-07-05T18:25:52.2686394+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "debitis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Elna Kerluke",
+        "FullName": "Reymundo Gleason Sr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 396
+            "FieldType": "System.Int32",
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Efren Lehner",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Alyce Gutmann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldType": "System.String",
+        "FieldLength": 465
       }
     }
   }

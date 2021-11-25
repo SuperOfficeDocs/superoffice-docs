@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Bogisich, Kirlin and Barrows",
-    "ToolTip": "Quam quaerat iste et illum.",
-    "Deleted": true,
-    "Rank": 323,
-    "Type": "quo",
-    "ColorBlock": 794,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2011-05-02T15:05:43.6941168+02:00",
+    "Id": 981,
+    "Name": "Stiedemann-Hessel",
+    "ToolTip": "Vero eos ipsa ut illo.",
+    "Deleted": false,
+    "Rank": 296,
+    "Type": "temporibus",
+    "ColorBlock": 762,
+    "IconHint": "vitae",
+    "Selected": true,
+    "LastChanged": "2009-02-08T18:25:52.0870216+01:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Miller-Jast",
-        "ToolTip": "Odit ex ipsa nesciunt.",
+        "Id": 821,
+        "Name": "O'Hara Inc and Sons",
+        "ToolTip": "Sed perferendis vel ad perspiciatis fugiat.",
         "Deleted": false,
-        "Rank": 173,
-        "Type": "aperiam",
-        "ColorBlock": 13,
-        "IconHint": "consectetur",
+        "Rank": 805,
+        "Type": "ut",
+        "ColorBlock": 203,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2016-07-08T15:05:43.6941168+02:00",
+        "LastChanged": "2005-11-29T18:25:52.0870216+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Dolores Botsford",
+        "ExtraInfo": "iste",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Mathew King",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "embrace wireless niches"
             },
             "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ipsa",
     "Hidden": true,
-    "FullName": "Asia Padberg",
+    "FullName": "Alize Stoltenberg",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

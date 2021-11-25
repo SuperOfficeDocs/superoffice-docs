@@ -1,9 +1,9 @@
 ---
-title: GetConsentPurpose
+title: POST Agents/List/GetConsentPurpose
 id: v1ListAgent_GetConsentPurpose
 ---
 
-# GetConsentPurpose
+# POST Agents/List/GetConsentPurpose
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurpose
@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=142
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=279
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -87,42 +87,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 178,
-  "Name": "Ortiz, Gerlach and Bashirian",
-  "ConsentText": "dolor",
-  "FormText": "sed",
-  "Key": "atque",
-  "Tooltip": "quae",
-  "Active": 195,
-  "UpdatedDate": "2020-08-18T14:58:04.3584678+02:00",
+  "ConsentPurposeId": 992,
+  "Name": "Mueller Inc and Sons",
+  "ConsentText": "eligendi",
+  "FormText": "rem",
+  "Key": "voluptates",
+  "Tooltip": "dolor",
+  "Active": 178,
+  "UpdatedDate": "2001-03-17T18:28:49.4190895+01:00",
   "UpdatedBy": {
-    "AssociateId": 45,
-    "Name": "Gulgowski-Flatley",
-    "PersonId": 488,
-    "Rank": 287,
-    "Tooltip": "cum",
+    "AssociateId": 874,
+    "Name": "Dibbert, Tillman and Kutch",
+    "PersonId": 257,
+    "Rank": 581,
+    "Tooltip": "minima",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 46,
-    "FullName": "Rex Hackett",
-    "FormalName": "Gerlach, Durgan and Jaskolski",
-    "Deleted": false,
-    "EjUserId": 994,
-    "UserName": "Pfeffer-Ernser",
+    "GroupIdx": 518,
+    "FullName": "Kenton Leffler",
+    "FormalName": "Roob LLC",
+    "Deleted": true,
+    "EjUserId": 654,
+    "UserName": "Corkery Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "implement user-centric bandwidth"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 522
       }
     }
   },
   "Deleted": false,
-  "Rank": 537,
-  "PrivacyStatementDesc": "ut",
+  "Rank": 106,
+  "PrivacyStatementDesc": "dolores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": {
     "Mask": "Delete",
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 65
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   }
 }

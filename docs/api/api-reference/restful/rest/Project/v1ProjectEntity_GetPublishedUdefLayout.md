@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -96,43 +96,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 520,
-    "ColumnId": 47,
-    "FieldDefault": "dolores",
-    "FieldHeight": 434,
-    "FieldLabel": "in",
-    "FieldLeft": 908,
-    "FieldTop": 976,
+    "UDefFieldId": 561,
+    "ColumnId": 955,
+    "FieldDefault": "et",
+    "FieldHeight": 378,
+    "FieldLabel": "iste",
+    "FieldLeft": 742,
+    "FieldTop": 992,
     "FieldType": "Checkbox",
-    "FieldWidth": 46,
-    "FormatMask": "suscipit",
+    "FieldWidth": 261,
+    "FormatMask": "non",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 833,
-    "LabelLeft": 689,
-    "LabelTop": 733,
-    "LabelWidth": 127,
-    "LastVersionId": 644,
-    "ListTableId": 851,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 692,
+    "LabelLeft": 31,
+    "LabelTop": 227,
+    "LabelWidth": 383,
+    "LastVersionId": 349,
+    "ListTableId": 111,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 404,
-    "ProgId": "in",
-    "IsReadOnly": false,
-    "ShortLabel": "deserunt",
-    "TabOrder": 753,
-    "TextLength": 968,
-    "Tooltip": "asperiores",
-    "UdefIdentity": 677,
-    "UDListDefinitionId": 951,
+    "Page1LineNo": 817,
+    "ProgId": "est",
+    "IsReadOnly": true,
+    "ShortLabel": "corporis",
+    "TabOrder": 990,
+    "TextLength": 416,
+    "Tooltip": "aut",
+    "UdefIdentity": 281,
+    "UDListDefinitionId": 423,
     "Justification": "Center",
-    "Version": 707,
-    "TemplateVariableName": "Beer, Abbott and Kris",
-    "HasBeenPublished": false,
-    "MdoListName": "Torphy-Gaylord",
+    "Version": 627,
+    "TemplateVariableName": "Bailey-Olson",
+    "HasBeenPublished": true,
+    "MdoListName": "Abshire, Yost and Feil",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "engage user-centric bandwidth"
     },
     "FieldProperties": {
       "fieldName": {
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldType": "System.Int32",
+        "FieldLength": 414
       }
     }
   }

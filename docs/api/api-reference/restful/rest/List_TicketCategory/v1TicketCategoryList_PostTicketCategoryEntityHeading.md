@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 198,
-  "Name": "Rippin-Flatley",
-  "Tooltip": "nemo",
-  "Deleted": true,
-  "Rank": 984,
-  "UdListDefinitionId": 982
+  "HeadingId": 588,
+  "Name": "Leffler, Murray and Bernier",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "Rank": 120,
+  "UdListDefinitionId": 403
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 772,
-  "Name": "Brekke Group",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 368,
-  "UdListDefinitionId": 519,
+  "HeadingId": 225,
+  "Name": "Conn, Marquardt and Treutel",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 583,
+  "UdListDefinitionId": 178,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Kilback Inc and Sons",
-    "ToolTip": "Molestiae rerum facilis reiciendis adipisci doloremque nihil.",
-    "Deleted": true,
-    "Rank": 294,
-    "Type": "quis",
-    "ColorBlock": 637,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1995-05-08T15:05:43.4175102+02:00",
+    "Id": 817,
+    "Name": "D'Amore Group",
+    "ToolTip": "Optio iste.",
+    "Deleted": false,
+    "Rank": 61,
+    "Type": "magnam",
+    "ColorBlock": 175,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2017-03-22T18:25:51.7993291+01:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Bashirian-Feeney",
-        "ToolTip": "Sequi reiciendis enim itaque distinctio sapiente quia.",
-        "Deleted": true,
-        "Rank": 963,
-        "Type": "quibusdam",
-        "ColorBlock": 329,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2012-07-07T15:05:43.4175102+02:00",
+        "Id": 403,
+        "Name": "Langosh-Bailey",
+        "ToolTip": "Consequuntur sed quia beatae sint ut eius.",
+        "Deleted": false,
+        "Rank": 919,
+        "Type": "rerum",
+        "ColorBlock": 668,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2007-12-14T18:25:51.7993291+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sit",
+        "ExtraInfo": "nam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Arely Little",
+        "FullName": "Marcella Hamill",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 273
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "velit",
+    "ExtraInfo": "minima",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Dora Upton",
+    "FullName": "Miss Luna Zieme",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

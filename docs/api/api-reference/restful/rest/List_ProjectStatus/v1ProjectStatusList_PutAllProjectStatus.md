@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Abshire, Kerluke and Hackett",
-    "Tooltip": "placeat",
+    "Id": 154,
+    "Name": "Wilkinson-Koss",
+    "Tooltip": "minus",
     "Deleted": true,
-    "UdListDefinitionId": 374,
-    "Rank": 838
+    "UdListDefinitionId": 950,
+    "Rank": 543
   },
   {
-    "Id": 237,
-    "Name": "Abshire, Kerluke and Hackett",
-    "Tooltip": "placeat",
+    "Id": 154,
+    "Name": "Wilkinson-Koss",
+    "Tooltip": "minus",
     "Deleted": true,
-    "UdListDefinitionId": 374,
-    "Rank": 838
+    "UdListDefinitionId": 950,
+    "Rank": 543
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Volkman LLC",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 856,
-    "Rank": 790,
+    "Id": 389,
+    "Name": "Murray, Ebert and Ritchie",
+    "Tooltip": "adipisci",
+    "Deleted": true,
+    "UdListDefinitionId": 324,
+    "Rank": 987,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 243
       }
     }
   }

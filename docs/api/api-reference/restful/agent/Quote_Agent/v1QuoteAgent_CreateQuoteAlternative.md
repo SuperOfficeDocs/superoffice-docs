@@ -1,9 +1,9 @@
 ---
-title: CreateQuoteAlternative
+title: POST Agents/Quote/CreateQuoteAlternative
 id: v1QuoteAgent_CreateQuoteAlternative
 ---
 
-# CreateQuoteAlternative
+# POST Agents/Quote/CreateQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
@@ -106,9 +106,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 422,
-  "QuoteAlternativeName": "Spinka-Volkman",
-  "QuoteAlternativeDescription": "De-engineered fresh-thinking neural-net"
+  "QuoteVersionId": 449,
+  "QuoteAlternativeName": "Shanahan, Dooley and Russel",
+  "QuoteAlternativeDescription": "Progressive coherent structure"
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 124,
-  "ERPQuoteAlternativeKey": "reprehenderit",
-  "QuoteVersionId": 520,
-  "Name": "Leffler, Schowalter and Wuckert",
-  "Description": "Fully-configurable composite interface",
+  "QuoteAlternativeId": 890,
+  "ERPQuoteAlternativeKey": "esse",
+  "QuoteVersionId": 886,
+  "Name": "Harber LLC",
+  "Description": "Diverse bifurcated support",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 7408.776,
-  "ERPDiscountAmount": 7493.3939999999993,
-  "DiscountPercent": 23182.198,
-  "DiscountAmount": 2419.448,
+  "ERPDiscountPercent": 23699.308,
+  "ERPDiscountAmount": 28754.45,
+  "DiscountPercent": 23313.826,
+  "DiscountAmount": 9674.658,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "omnis",
-  "VAT": 1720.566,
-  "EarningPercent": 4961.1219999999994,
-  "EarningAmount": 29820.01,
-  "SubTotal": 29882.69,
-  "TotalPrice": 19835.086,
-  "ExtraField1": "cupiditate",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "officiis",
-  "ExtraField4": "quo",
-  "ExtraField5": "ab",
+  "VATInfo": "velit",
+  "VAT": 29205.746,
+  "EarningPercent": 11385.822,
+  "EarningAmount": 25056.329999999998,
+  "SubTotal": 1178.384,
+  "TotalPrice": 12724.039999999999,
+  "ExtraField1": "vero",
+  "ExtraField2": "illo",
+  "ExtraField3": "in",
+  "ExtraField4": "rerum",
+  "ExtraField5": "omnis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 527
     }
   }
 }

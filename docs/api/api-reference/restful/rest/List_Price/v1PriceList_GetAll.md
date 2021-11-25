@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=doloribus
-GET /api/v1/Pricelist?$top=827
-GET /api/v1/Pricelist?$skip=265
+GET /api/v1/Pricelist?$entities=non
+GET /api/v1/Pricelist?$top=987
+GET /api/v1/Pricelist?$skip=149
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=odit
+GET /api/v1/Pricelist?$context=adipisci
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=False
+GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -125,19 +125,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "autem",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 5724,
-      "EntityName": "person",
-      "personId": 5724,
-      "fullName": "Katheryn Dickinson PhD"
+      "PrimaryKey": 2903,
+      "EntityName": "sale",
+      "saleId": 2903,
+      "contactId": 5927,
+      "name": "Cremin Group"
     },
     {
-      "PrimaryKey": 2844,
-      "EntityName": "person",
-      "personId": 2844,
-      "fullName": "Cortez Padberg"
+      "PrimaryKey": 4796,
+      "EntityName": "sale",
+      "saleId": 4796,
+      "contactId": 6803,
+      "name": "Purdy-Auer"
     }
   ]
 }

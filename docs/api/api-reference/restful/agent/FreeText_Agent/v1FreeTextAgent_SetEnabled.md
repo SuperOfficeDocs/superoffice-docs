@@ -1,9 +1,9 @@
 ---
-title: SetEnabled
+title: POST Agents/FreeText/SetEnabled
 id: v1FreeTextAgent_SetEnabled
 ---
 
-# SetEnabled
+# POST Agents/FreeText/SetEnabled
 
 ```http
 POST /api/v1/Agents/FreeText/SetEnabled

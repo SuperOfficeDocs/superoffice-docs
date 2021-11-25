@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTileDefinitionForEntity
+title: POST Agents/Dash/CreateDefaultTileDefinitionForEntity
 id: v1DashAgent_CreateDefaultTileDefinitionForEntity
 ---
 
-# CreateDefaultTileDefinitionForEntity
+# POST Agents/Dash/CreateDefaultTileDefinitionForEntity
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
@@ -78,7 +78,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -95,11 +95,11 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Carroll-Dach"
+  "EntityName": "Jones LLC"
 }
 ```
 
@@ -108,24 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 686,
-  "Name": "Feest Group",
-  "Description": "Customizable eco-centric support",
-  "DefaultHeight": 825,
-  "DefaultWidth": 541,
+  "DashboardTileDefinitionId": 998,
+  "Name": "Buckridge-Rohan",
+  "Description": "Right-sized holistic forecast",
+  "DefaultHeight": 904,
+  "DefaultWidth": 377,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lueilwitz, Brown and Walker",
-  "SelectionId": 770,
+  "EntityName": "Emmerich LLC",
+  "SelectionId": 345,
   "CurrencyMode": "Base",
-  "CurrencyId": 330,
+  "CurrencyCode": "totam",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "accusantium",
-  "LayoutConfig": "deleniti",
-  "SecondarySelectionId": 155,
-  "MeasureByField": "omnis",
-  "ProviderName": "Rosenbaum-Bechtelar",
+  "MeasureField": "molestiae",
+  "SortBy": "nihil",
+  "LayoutConfig": "exercitationem",
+  "SecondarySelectionId": 540,
+  "MeasureByField": "quisquam",
+  "ProviderName": "Bernhard Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 302
     }
   }
 }

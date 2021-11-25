@@ -1,9 +1,9 @@
 ---
-title: InitializeTimeZoneData
+title: POST Agents/TimeZone/InitializeTimeZoneData
 id: v1TimeZoneAgent_InitializeTimeZoneData
 ---
 
-# InitializeTimeZoneData
+# POST Agents/TimeZone/InitializeTimeZoneData
 
 ```http
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,31 +77,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 245,
-    "Name": "McDermott, Rolfson and Hilpert",
-    "TZLocationCode": "sit",
-    "TZLocationCities": "omnis",
-    "IsoNumber": 115,
+    "TZLocationID": 407,
+    "Name": "Streich Inc and Sons",
+    "TZLocationCode": "vero",
+    "TZLocationCities": "mollitia",
+    "IsoNumber": 608,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 736,
-        "StartMonth": 771,
-        "EndDay": 895,
-        "EndMonth": 613,
-        "TZOffset": 475,
-        "StartRulePattern": "omnis",
-        "EndRulePattern": "et"
+        "StartDay": 868,
+        "StartMonth": 389,
+        "EndDay": 979,
+        "EndMonth": 40,
+        "TZOffset": 37,
+        "StartRulePattern": "sed",
+        "EndRulePattern": "dolorem"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 537,
-        "StartMonth": 173,
-        "EndDay": 608,
-        "EndMonth": 943,
-        "TZOffset": 364,
-        "StartRulePattern": "facilis",
-        "EndRulePattern": "quo"
+        "StartDay": 657,
+        "StartMonth": 110,
+        "EndDay": 203,
+        "EndMonth": 51,
+        "TZOffset": 199,
+        "StartRulePattern": "dolores",
+        "EndRulePattern": "corporis"
       }
     }
   }

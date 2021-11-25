@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithHeader
+title: POST Agents/Archive/GetArchiveListByColumnsWithHeader
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
 ---
 
-# GetArchiveListByColumnsWithHeader
+# POST Agents/Archive/GetArchiveListByColumnsWithHeader
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -112,55 +112,55 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heaney-Bergstrom",
+  "ProviderName": "Kunze, Larkin and Moore",
   "Columns": [
-    "et",
-    "et"
+    "tempora",
+    "officia"
   ],
   "SortOrder": [
     {
-      "Name": "Rohan Inc and Sons",
+      "Name": "Pagac Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Rohan Inc and Sons",
+      "Name": "Pagac Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Runolfsdottir Group",
-      "Operator": "voluptas",
+      "Name": "Dare, Halvorson and Hayes",
+      "Operator": "soluta",
       "Values": [
-        "assumenda",
-        "est"
+        "repellat",
+        "qui"
       ],
       "DisplayValues": [
-        "qui",
-        "ut"
+        "ullam",
+        "veniam"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 976,
+      "InterParenthesis": 187,
       "InterOperator": "And",
-      "UniqueHash": 416
+      "UniqueHash": 619
     }
   ],
   "Entities": [
-    "rerum",
-    "autem"
+    "et",
+    "hic"
   ],
-  "Page": 247,
-  "PageSize": 977,
-  "Options": "consequatur"
+  "Page": 457,
+  "PageSize": 975,
+  "Options": "natus"
 }
 ```
 
@@ -169,29 +169,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 217,
+  "RowCount": 459,
   "Rows": [
     {
-      "EntityName": "Stracke-Schaefer",
-      "PrimaryKey": 735,
+      "EntityName": "Bernier LLC",
+      "PrimaryKey": 956,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "temporibus",
-          "TooltipHint": "rem",
-          "LinkHint": "officiis"
+          "DisplayValue": "nisi",
+          "TooltipHint": "natus",
+          "LinkHint": "quisquam"
         }
       },
-      "LinkHint": "ipsam",
-      "StyleHint": "ullam",
+      "LinkHint": "quibusdam",
+      "StyleHint": "corrupti",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "innovate leading-edge portals"
+            "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldType": "System.Int32",
+          "FieldLength": 120
         }
       }
     }
@@ -204,10 +204,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "evolve world-class e-tailers"
       },
       "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldLength": 753
     }
   }
 }

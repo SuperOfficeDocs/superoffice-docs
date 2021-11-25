@@ -53,6 +53,7 @@ The Dash to be saved.
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -84,6 +85,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -105,38 +107,40 @@ Response body: object
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 442,
-  "Name": "Witting Inc and Sons",
-  "Description": "Quality-focused solution-oriented open system",
-  "AssociateId": 998,
-  "Columns": 900,
+  "DashboardId": 950,
+  "UniqueId": "dolores",
+  "Name": "McClure Inc and Sons",
+  "Description": "Monitored global utilisation",
+  "AssociateId": 128,
+  "Columns": 823,
   "Theme": {
-    "DashboardThemeId": 146,
-    "Name": "Cruickshank, Herman and Becker",
-    "Config": "hic",
-    "Rank": 995
+    "DashboardThemeId": 902,
+    "Name": "Wolff, Williamson and Walker",
+    "Config": "ut",
+    "Rank": 461,
+    "Client": "soluta"
   },
-  "VisibleForAll": 664,
+  "VisibleForAll": 933,
   "VisibleForAssociates": [
-    412,
-    349
+    905,
+    614
   ],
   "VisibleForGroups": [
-    391,
-    779
+    328,
+    437
   ],
-  "PinForAll": 150,
+  "PinForAll": 915,
   "PinForAssociates": [
-    296,
-    670
+    65,
+    421
   ],
   "PinForGroups": [
-    668,
-    560
+    903,
+    461
   ]
 }
 ```
@@ -146,16 +150,18 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 936,
-  "Name": "Satterfield, Lang and Gislason",
-  "Description": "Cloned coherent framework",
-  "AssociateId": 146,
-  "Columns": 535,
+  "DashboardId": 850,
+  "UniqueId": "aperiam",
+  "Name": "McDermott, Friesen and Runolfsson",
+  "Description": "Reduced directional knowledge user",
+  "AssociateId": 878,
+  "Columns": 7,
   "Theme": {
-    "DashboardThemeId": 250,
-    "Name": "Altenwerth, Abbott and Hyatt",
-    "Config": "saepe",
-    "Rank": 126,
+    "DashboardThemeId": 512,
+    "Name": "Nolan, Paucek and Raynor",
+    "Config": "rem",
+    "Rank": 397,
+    "Client": "qui",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -163,28 +169,28 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldType": "System.Int32",
+        "FieldLength": 976
       }
     }
   },
-  "VisibleForAll": 975,
+  "VisibleForAll": 735,
   "VisibleForAssociates": [
-    612,
-    304
+    832,
+    464
   ],
   "VisibleForGroups": [
-    10,
-    512
+    822,
+    384
   ],
-  "PinForAll": 436,
+  "PinForAll": 665,
   "PinForAssociates": [
-    771,
-    611
+    498,
+    824
   ],
   "PinForGroups": [
-    685,
-    27
+    638,
+    240
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -197,12 +203,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldLength": 646
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

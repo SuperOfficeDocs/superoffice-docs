@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 743,
-  "Name": "Cronin, Bartoletti and Murphy",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 484,
-  "UdListDefinitionId": 715
+  "HeadingId": 270,
+  "Name": "Parker Inc and Sons",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 54,
+  "UdListDefinitionId": 114
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 779,
-  "Name": "Hessel Inc and Sons",
-  "Tooltip": "aut",
+  "HeadingId": 15,
+  "Name": "Johns LLC",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 575,
-  "UdListDefinitionId": 272,
+  "Rank": 552,
+  "UdListDefinitionId": 841,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reintermediate cutting-edge e-commerce"
+        "Reason": "streamline user-centric e-commerce"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 74
     }
   }
 }

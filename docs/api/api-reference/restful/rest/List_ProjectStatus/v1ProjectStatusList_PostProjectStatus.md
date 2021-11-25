@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Schmeler LLC",
-  "Tooltip": "dicta",
+  "Id": 298,
+  "Name": "Shanahan-Schuster",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "UdListDefinitionId": 277,
-  "Rank": 369
+  "UdListDefinitionId": 663,
+  "Rank": 730
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Leffler-Davis",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "UdListDefinitionId": 937,
-  "Rank": 457,
+  "Id": 303,
+  "Name": "Ullrich, Durgan and Renner",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 832,
+  "Rank": 566,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 602
     }
   }
 }

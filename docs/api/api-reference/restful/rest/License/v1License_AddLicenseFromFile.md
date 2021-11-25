@@ -63,7 +63,7 @@ Response body: object
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,65 +74,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": false,
   "New": {
-    "CompanyName": "Simonis, Bode and Quitzon",
+    "CompanyName": "Yundt Inc and Sons",
     "SerialNr": "1010000006",
-    "OwnerName": "Gusikowski-Kovacek",
-    "OwnerDescription": "Object-based regional firmware",
-    "NextCheckDate": "2016-08-31T15:05:43.0056631+02:00",
-    "MaintenanceDate": "2005-05-11T15:05:43.0056631+02:00",
-    "AdminWarningDate": "2018-05-20T15:05:43.0056631+02:00",
-    "ExpiryDate": "2018-01-01T15:05:43.0056631+01:00",
-    "GraceDate": "2015-08-25T15:05:43.0056631+02:00",
-    "ExtraFlags": 442,
-    "ExtraInfo": "odio",
+    "OwnerName": "Wolff Inc and Sons",
+    "OwnerDescription": "Object-based dynamic migration",
+    "NextCheckDate": "2016-11-05T18:25:51.3671178+01:00",
+    "MaintenanceDate": "1996-12-26T18:25:51.3671178+01:00",
+    "AdminWarningDate": "2010-12-25T18:25:51.3671178+01:00",
+    "ExpiryDate": "2001-11-15T18:25:51.3671178+01:00",
+    "GraceDate": "2013-01-30T18:25:51.3671178+01:00",
+    "ExtraFlags": 63,
+    "ExtraInfo": "ab",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "et",
-    "DeploymentType": 128,
+    "LicenseVersion": "itaque",
+    "DeploymentType": 185,
     "ProductType": "porro",
-    "ProductDescription": "Reactive needs-based hierarchy",
+    "ProductDescription": "Realigned well-modulated internet solution",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "at"
+    "Signature": "quaerat"
   },
   "Current": {
-    "CompanyName": "Schaden Group",
+    "CompanyName": "Lindgren, Macejkovic and Botsford",
     "SerialNr": "1010000006",
-    "OwnerName": "Hermiston-Walker",
-    "OwnerDescription": "Configurable leading edge intranet",
-    "NextCheckDate": "1996-07-22T15:05:43.0056631+02:00",
-    "MaintenanceDate": "1995-03-28T15:05:43.0056631+02:00",
-    "AdminWarningDate": "2014-06-16T15:05:43.0056631+02:00",
-    "ExpiryDate": "2010-07-29T15:05:43.0056631+02:00",
-    "GraceDate": "1997-02-07T15:05:43.0056631+01:00",
-    "ExtraFlags": 660,
-    "ExtraInfo": "unde",
+    "OwnerName": "Hansen LLC",
+    "OwnerDescription": "Advanced 6th generation function",
+    "NextCheckDate": "1995-08-19T18:25:51.3671178+02:00",
+    "MaintenanceDate": "2010-08-27T18:25:51.3671178+02:00",
+    "AdminWarningDate": "2018-12-28T18:25:51.3671178+01:00",
+    "ExpiryDate": "1997-07-20T18:25:51.3671178+02:00",
+    "GraceDate": "2004-06-25T18:25:51.3671178+02:00",
+    "ExtraFlags": 838,
+    "ExtraInfo": "nostrum",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "quia",
-    "DeploymentType": 184,
-    "ProductType": "ullam",
-    "ProductDescription": "Focused needs-based challenge",
+    "LicenseVersion": "impedit",
+    "DeploymentType": 573,
+    "ProductType": "ea",
+    "ProductDescription": "Synchronised bifurcated utilisation",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "at"
+    "Signature": "eveniet"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 524,
-      "NumberOfLicensesFree": 115,
-      "NumberOfLicensesAdded": 372,
-      "NumberOfLicensesNewTotal": 23,
-      "NumberOfLicensesNewFree": 184,
-      "NumberOfLicensesTotal": 855
+      "NumberOfLicensesInUse": 424,
+      "NumberOfLicensesFree": 273,
+      "NumberOfLicensesAdded": 279,
+      "NumberOfLicensesNewTotal": 654,
+      "NumberOfLicensesNewFree": 25,
+      "NumberOfLicensesTotal": 870
     }
   ],
-  "AccumulatedNextCheckDate": "2004-09-27T15:05:43.0056631+02:00"
+  "AccumulatedNextCheckDate": "2000-02-07T18:25:51.3671178+01:00"
 }
 ```

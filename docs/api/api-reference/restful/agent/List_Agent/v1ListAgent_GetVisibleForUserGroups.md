@@ -1,9 +1,9 @@
 ---
-title: GetVisibleForUserGroups
+title: POST Agents/List/GetVisibleForUserGroups
 id: v1ListAgent_GetVisibleForUserGroups
 ---
 
-# GetVisibleForUserGroups
+# POST Agents/List/GetVisibleForUserGroups
 
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroups
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 889,
-  "ListItemId": 726
+  "UdListDefinitionId": 659,
+  "ListItemId": 218
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Barton-McGlynn",
-    "ToolTip": "Aut praesentium minima molestiae et.",
-    "Deleted": true,
-    "Rank": 602,
-    "Type": "quas",
-    "ColorBlock": 320,
-    "IconHint": "ratione",
+    "Id": 819,
+    "Name": "King-Smith",
+    "ToolTip": "Et voluptas accusamus totam consequatur maxime possimus.",
+    "Deleted": false,
+    "Rank": 506,
+    "Type": "eos",
+    "ColorBlock": 57,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "1995-06-18T14:58:04.411467+02:00",
+    "LastChanged": "2008-05-15T18:28:49.3061179+02:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Donnelly-Johnston",
-        "ToolTip": "Est eligendi nemo doloribus omnis.",
+        "Id": 200,
+        "Name": "Weimann, Fahey and Herzog",
+        "ToolTip": "Atque error voluptatem incidunt et et nemo.",
         "Deleted": false,
-        "Rank": 678,
-        "Type": "magni",
-        "ColorBlock": 50,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2003-04-23T14:58:04.4124652+02:00",
+        "Rank": 938,
+        "Type": "dolores",
+        "ColorBlock": 514,
+        "IconHint": "nostrum",
+        "Selected": true,
+        "LastChanged": "1998-11-01T18:28:49.3061179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Maximus Marks",
+        "ExtraInfo": "omnis",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Jerrod Sanford",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 787
+            "FieldLength": 613
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "error",
+    "ExtraInfo": "sed",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Alysha Kuhic",
+    "FullName": "Florence Haag",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -158,10 +158,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "mesh ubiquitous methodologies"
         },
         "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldLength": 924
       }
     }
   }

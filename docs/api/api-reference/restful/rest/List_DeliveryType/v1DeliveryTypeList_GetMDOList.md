@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=consequatur
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=qui
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Mills Inc and Sons",
-    "ToolTip": "Aut veritatis sequi quis neque dolores.",
+    "Id": 439,
+    "Name": "Brown Inc and Sons",
+    "ToolTip": "Consequatur atque voluptatem provident dolorum nobis.",
     "Deleted": true,
-    "Rank": 310,
-    "Type": "quia",
+    "Rank": 490,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Mante Group",
-        "ToolTip": "Repellat dolor nesciunt aspernatur sit.",
-        "Deleted": false,
-        "Rank": 747,
-        "Type": "ea",
+        "Id": 563,
+        "Name": "Stamm-Jaskolski",
+        "ToolTip": "Alias ipsum maxime est at quod autem.",
+        "Deleted": true,
+        "Rank": 583,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reprehenderit",
-        "ColorBlock": 181,
-        "ExtraInfo": "illo",
-        "StyleHint": "eos",
-        "FullName": "Reta Cronin II",
+        "IconHint": "minus",
+        "ColorBlock": 120,
+        "ExtraInfo": "error",
+        "StyleHint": "dolorem",
+        "FullName": "Jan Carroll",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 74
           }
         }
       }
     ],
-    "IconHint": "placeat",
-    "ColorBlock": 620,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "sint",
-    "FullName": "Timmy Feest",
+    "IconHint": "ad",
+    "ColorBlock": 419,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "unde",
+    "FullName": "Eddie Wolf",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

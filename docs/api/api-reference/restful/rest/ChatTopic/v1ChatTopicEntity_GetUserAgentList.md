@@ -25,7 +25,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Bode, Tremblay and Purdy",
-    "ToolTip": "Aperiam accusamus aliquid et aut.",
+    "Id": 277,
+    "Name": "Johns LLC",
+    "ToolTip": "Velit hic veritatis eos quia est.",
     "Deleted": true,
-    "Rank": 944,
-    "Type": "et",
+    "Rank": 340,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Thiel-Tillman",
-        "ToolTip": "Aperiam et optio aut officia inventore.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "sunt",
+        "Id": 674,
+        "Name": "Casper LLC",
+        "ToolTip": "Ut eligendi minima.",
+        "Deleted": true,
+        "Rank": 982,
+        "Type": "neque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 154,
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "FullName": "Rudy Blanda",
+        "IconHint": "nam",
+        "ColorBlock": 176,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ab",
+        "FullName": "Rahul Schimmel I",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 408
+            "FieldLength": 255
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 976,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptas",
-    "FullName": "Rosemarie Kuhlman",
+    "IconHint": "alias",
+    "ColorBlock": 365,
+    "ExtraInfo": "corporis",
+    "StyleHint": "voluptatem",
+    "FullName": "Eduardo Dare",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 375
       }
     }
   }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 939,
-  "Name": "Rippin, Willms and Wilkinson",
-  "Tooltip": "quas",
+  "HeadingId": 78,
+  "Name": "Beer, King and McClure",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "Rank": 673,
-  "UdListDefinitionId": 195
+  "Rank": 289,
+  "UdListDefinitionId": 948
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 436,
-  "Name": "Ernser Inc and Sons",
-  "Tooltip": "aut",
+  "HeadingId": 728,
+  "Name": "Blanda Group",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 683,
-  "UdListDefinitionId": 606,
+  "Rank": 462,
+  "UdListDefinitionId": 919,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldLength": 20
     }
   }
 }

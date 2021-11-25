@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Kutch LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 342,
-    "UdListDefinitionId": 481
+    "HeadingId": 23,
+    "Name": "Daniel LLC",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "Rank": 988,
+    "UdListDefinitionId": 3
   },
   {
-    "HeadingId": 684,
-    "Name": "Kutch LLC",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 342,
-    "UdListDefinitionId": 481
+    "HeadingId": 23,
+    "Name": "Daniel LLC",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "Rank": 988,
+    "UdListDefinitionId": 3
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Hand, Hartmann and Terry",
-    "Tooltip": "aut",
+    "HeadingId": 178,
+    "Name": "Koepp-Dietrich",
+    "Tooltip": "totam",
     "Deleted": true,
-    "Rank": 163,
-    "UdListDefinitionId": 420,
+    "Rank": 518,
+    "UdListDefinitionId": 399,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldLength": 372
       }
     }
   }

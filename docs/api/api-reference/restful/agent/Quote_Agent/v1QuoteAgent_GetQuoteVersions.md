@@ -1,9 +1,9 @@
 ---
-title: GetQuoteVersions
+title: POST Agents/Quote/GetQuoteVersions
 id: v1QuoteAgent_GetQuoteVersions
 ---
 
-# GetQuoteVersions
+# POST Agents/Quote/GetQuoteVersions
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersions
@@ -109,11 +109,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 794
+  "QuoteId": 590
 }
 ```
 
@@ -123,67 +123,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 13,
-    "ERPQuoteVersionKey": "qui",
-    "QuoteId": 358,
-    "Description": "Stand-alone encompassing knowledge user",
-    "Number": "1723718",
+    "QuoteVersionId": 73,
+    "ERPQuoteVersionKey": "non",
+    "QuoteId": 887,
+    "Description": "Horizontal mission-critical moratorium",
+    "Number": "785563",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "revolutionize revolutionary e-commerce",
-    "LikelyQuoteAlternativeId": 225,
-    "SentDate": "2014-01-04T14:58:04.9384705+01:00",
-    "FollowupId": 48,
-    "ExpirationDate": "2001-02-02T14:58:04.9384705+01:00",
-    "DeliveryCountryId": 165,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 84,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "enim",
-    "ERPPaymentTypeKey": "qui",
-    "ERPDeliveryTermsKey": "eveniet",
-    "ERPDeliveryTypeKey": "consequatur",
-    "Rank": 396,
-    "ApprovedBy": 128,
-    "ApprovedText": "iste",
-    "ApprovedRegisteredBy": 223,
-    "ApprovedRegisteredDate": "2004-11-13T14:58:04.9384705+01:00",
-    "ExtraField1": "incidunt",
-    "ExtraField2": "dolor",
-    "ExtraField3": "eum",
-    "ExtraField4": "eveniet",
-    "ExtraField5": "incidunt",
-    "LastRecalculated": "2016-01-08T14:58:04.9384705+01:00",
-    "Updated": "2007-03-03T14:58:04.9384705+01:00",
-    "UpdatedAssociateId": 754,
-    "Registered": "2002-12-01T14:58:04.9384705+01:00",
-    "RegisteredAssociateId": 781,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 598,
+    "SentDate": "2016-08-07T18:28:49.9201373+02:00",
+    "FollowupId": 945,
+    "ExpirationDate": "2012-12-03T18:28:49.9201373+01:00",
+    "DeliveryCountryId": 638,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 420,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "velit",
+    "ERPPaymentTypeKey": "consequuntur",
+    "ERPDeliveryTermsKey": "eum",
+    "ERPDeliveryTypeKey": "odit",
+    "Rank": 867,
+    "ApprovedBy": 174,
+    "ApprovedText": "libero",
+    "ApprovedRegisteredBy": 478,
+    "ApprovedRegisteredDate": "2017-10-12T18:28:49.9211374+02:00",
+    "ExtraField1": "cum",
+    "ExtraField2": "distinctio",
+    "ExtraField3": "voluptates",
+    "ExtraField4": "fugit",
+    "ExtraField5": "consequatur",
+    "LastRecalculated": "2001-02-19T18:28:49.9211374+01:00",
+    "Updated": "2012-04-10T18:28:49.9211374+02:00",
+    "UpdatedAssociateId": 537,
+    "Registered": "2012-08-13T18:28:49.9211374+02:00",
+    "RegisteredAssociateId": 909,
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 945,
-        "ERPQuoteAlternativeKey": "aliquam",
-        "QuoteVersionId": 363,
-        "Name": "Schowalter-Lowe",
-        "Description": "Horizontal solution-oriented groupware",
+        "QuoteAlternativeId": 326,
+        "ERPQuoteAlternativeKey": "rerum",
+        "QuoteVersionId": 691,
+        "Name": "Gleichner-Lakin",
+        "Description": "Future-proofed radical benchmark",
         "Status": "Error",
-        "Reason": "deploy interactive synergies",
-        "ERPDiscountPercent": 9677.792,
-        "ERPDiscountAmount": 16638.406,
-        "DiscountPercent": 12714.637999999999,
-        "DiscountAmount": 19123.667999999998,
+        "Reason": "integrate integrated platforms",
+        "ERPDiscountPercent": 22129.174,
+        "ERPDiscountAmount": 8132.73,
+        "DiscountPercent": 16372.016,
+        "DiscountAmount": 13990.176,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "aut",
-        "VAT": 11987.55,
-        "EarningPercent": 5189.9039999999995,
-        "EarningAmount": 7919.6179999999995,
-        "SubTotal": 3789.006,
-        "TotalPrice": 20361.597999999998,
-        "ExtraField1": "facere",
-        "ExtraField2": "eveniet",
-        "ExtraField3": "rerum",
-        "ExtraField4": "qui",
-        "ExtraField5": "quaerat",
+        "VATInfo": "iste",
+        "VAT": 30609.778,
+        "EarningPercent": 43.876,
+        "EarningAmount": 15883.112,
+        "SubTotal": 21884.721999999998,
+        "TotalPrice": 21527.446,
+        "ExtraField1": "qui",
+        "ExtraField2": "rerum",
+        "ExtraField3": "quia",
+        "ExtraField4": "ut",
+        "ExtraField5": "amet",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldLength": 164
           }
         }
       }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldLength": 439
       }
     }
   }

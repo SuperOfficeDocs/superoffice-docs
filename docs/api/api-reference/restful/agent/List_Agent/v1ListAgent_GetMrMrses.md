@@ -1,9 +1,9 @@
 ---
-title: GetMrMrses
+title: POST Agents/List/GetMrMrses
 id: v1ListAgent_GetMrMrses
 ---
 
-# GetMrMrses
+# POST Agents/List/GetMrMrses
 
 ```http
 POST /api/v1/Agents/List/GetMrMrses
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetMrMrses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Value": "est",
-    "Tooltip": "voluptatem",
+    "Id": 428,
+    "Value": "officia",
+    "Tooltip": "rerum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldLength": 98
       }
     }
   },
   {
-    "Id": 926,
-    "Value": "est",
-    "Tooltip": "voluptatem",
+    "Id": 428,
+    "Value": "officia",
+    "Tooltip": "rerum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldLength": 98
       }
     }
   }

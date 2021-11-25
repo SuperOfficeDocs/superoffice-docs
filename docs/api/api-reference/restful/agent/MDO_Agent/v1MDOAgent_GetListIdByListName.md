@@ -1,9 +1,9 @@
 ---
-title: GetListIdByListName
+title: POST Agents/MDO/GetListIdByListName
 id: v1MDOAgent_GetListIdByListName
 ---
 
-# GetListIdByListName
+# POST Agents/MDO/GetListIdByListName
 
 ```http
 POST /api/v1/Agents/MDO/GetListIdByListName
@@ -68,11 +68,11 @@ Response body: int32
 POST /api/v1/Agents/MDO/GetListIdByListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob, Gaylord and Schmeler"
+  "Name": "Nitzsche-Zemlak"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-910
+790
 ```

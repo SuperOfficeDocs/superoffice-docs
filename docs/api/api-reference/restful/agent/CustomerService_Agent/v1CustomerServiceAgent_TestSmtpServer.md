@@ -1,9 +1,9 @@
 ---
-title: TestSmtpServer
+title: POST Agents/CustomerService/TestSmtpServer
 id: v1CustomerServiceAgent_TestSmtpServer
 ---
 
-# TestSmtpServer
+# POST Agents/CustomerService/TestSmtpServer
 
 ```http
 POST /api/v1/Agents/CustomerService/TestSmtpServer
@@ -81,13 +81,13 @@ Response body: object
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "consequuntur",
-  "From": "corporis",
-  "UseStoredPassword": false
+  "SmtpUri": "consectetur",
+  "From": "culpa",
+  "UseStoredPassword": true
 }
 ```
 
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "modi",
+  "ErrorMessage": "doloremque",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "innovate clicks-and-mortar e-commerce"
       },
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 573
     }
   }
 }

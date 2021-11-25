@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,24 +81,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 684,
-    "Comment": "nulla",
-    "Registered": "1995-10-12T15:05:42.4056328+02:00",
-    "RegisteredAssociateId": 68,
-    "Updated": "1995-06-12T15:05:42.4056328+02:00",
-    "UpdatedAssociateId": 66,
-    "LegalBaseId": 685,
-    "LegalBaseKey": "facilis",
-    "LegalBaseName": "Rogahn-Prosacco",
-    "ConsentPurposeId": 146,
-    "ConsentPurposeKey": "optio",
-    "ConsentPurposeName": "Koelpin-Welch",
-    "ConsentSourceId": 951,
-    "ConsentSourceKey": "labore",
-    "ConsentSourceName": "Carroll, Jenkins and Runte",
+    "ConsentPersonId": 960,
+    "Comment": "praesentium",
+    "Registered": "2002-12-23T18:25:50.7265965+01:00",
+    "RegisteredAssociateId": 780,
+    "Updated": "1996-11-11T18:25:50.7265965+01:00",
+    "UpdatedAssociateId": 967,
+    "LegalBaseId": 369,
+    "LegalBaseKey": "dignissimos",
+    "LegalBaseName": "Lehner Inc and Sons",
+    "ConsentPurposeId": 394,
+    "ConsentPurposeKey": "consequatur",
+    "ConsentPurposeName": "Runolfsdottir-Johns",
+    "ConsentSourceId": 897,
+    "ConsentSourceKey": "ab",
+    "ConsentSourceName": "Medhurst LLC",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "scale leading-edge methodologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldLength": 435
       }
     }
   }

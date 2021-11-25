@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Dicki Inc and Sons",
-  "DisplayName": "Schamberger, Stanton and Sporer",
-  "Description": "Progressive tertiary focus group",
-  "ShortLabel": "beatae",
-  "HideLabel": true,
+  "FieldName": "Zulauf LLC",
+  "DisplayName": "Ferry-Eichmann",
+  "Description": "Ergonomic client-driven benchmark",
+  "ShortLabel": "ullam",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 538,
-  "TemplateVariableName": "Heller-Cremin"
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "Rank": 504,
+  "TemplateVariableName": "Stoltenberg, Hamill and Maggio"
 }
 ```

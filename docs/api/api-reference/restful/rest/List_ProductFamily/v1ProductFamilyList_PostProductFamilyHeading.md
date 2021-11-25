@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 544,
-  "Name": "Muller-Toy",
-  "Tooltip": "minima",
+  "HeadingId": 239,
+  "Name": "Kuvalis-Wiegand",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 830,
-  "UdListDefinitionId": 794
+  "Rank": 891,
+  "UdListDefinitionId": 929
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 775,
-  "Name": "Wuckert, Prohaska and Klocko",
-  "Tooltip": "sapiente",
+  "HeadingId": 914,
+  "Name": "Ernser, Steuber and Simonis",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 670,
-  "UdListDefinitionId": 50,
+  "Rank": 598,
+  "UdListDefinitionId": 706,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

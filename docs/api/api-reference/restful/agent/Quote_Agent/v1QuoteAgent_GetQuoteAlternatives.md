@@ -1,9 +1,9 @@
 ---
-title: GetQuoteAlternatives
+title: POST Agents/Quote/GetQuoteAlternatives
 id: v1QuoteAgent_GetQuoteAlternatives
 ---
 
-# GetQuoteAlternatives
+# POST Agents/Quote/GetQuoteAlternatives
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
@@ -95,11 +95,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 345
+  "QuoteVersionId": 268
 }
 ```
 
@@ -109,29 +109,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 217,
-    "ERPQuoteAlternativeKey": "aliquid",
-    "QuoteVersionId": 845,
-    "Name": "Morar, Sipes and Cruickshank",
-    "Description": "Open-architected context-sensitive ability",
+    "QuoteAlternativeId": 976,
+    "ERPQuoteAlternativeKey": "eos",
+    "QuoteVersionId": 219,
+    "Name": "Zieme, Blanda and Stroman",
+    "Description": "Up-sized clear-thinking hub",
     "Status": "Error",
-    "Reason": "enhance ubiquitous channels",
-    "ERPDiscountPercent": 26999.41,
-    "ERPDiscountAmount": 19421.398,
-    "DiscountPercent": 9430.206,
-    "DiscountAmount": 17296.546,
+    "Reason": "",
+    "ERPDiscountPercent": 10918.856,
+    "ERPDiscountAmount": 8129.596,
+    "DiscountPercent": 23457.989999999998,
+    "DiscountAmount": 16851.518,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "eum",
-    "VAT": 30174.152,
-    "EarningPercent": 14234.627999999999,
-    "EarningAmount": 18412.25,
-    "SubTotal": 3538.286,
-    "TotalPrice": 11316.874,
-    "ExtraField1": "vel",
-    "ExtraField2": "eligendi",
-    "ExtraField3": "asperiores",
-    "ExtraField4": "id",
-    "ExtraField5": "consectetur",
+    "VATInfo": "ut",
+    "VAT": 16663.478,
+    "EarningPercent": 11702.356,
+    "EarningAmount": 8687.448,
+    "SubTotal": 17327.886,
+    "TotalPrice": 109.69,
+    "ExtraField1": "enim",
+    "ExtraField2": "occaecati",
+    "ExtraField3": "et",
+    "ExtraField4": "consequuntur",
+    "ExtraField5": "rerum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldLength": 456
       }
     }
   }

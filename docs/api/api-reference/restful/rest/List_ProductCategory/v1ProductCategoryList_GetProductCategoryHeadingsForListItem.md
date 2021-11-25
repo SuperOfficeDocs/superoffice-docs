@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Funk-Schultz",
-    "ToolTip": "Consequatur aut et minus dignissimos.",
+    "Id": 602,
+    "Name": "O'Conner-Turcotte",
+    "ToolTip": "Et ipsam non.",
     "Deleted": false,
-    "Rank": 636,
-    "Type": "odit",
-    "ColorBlock": 104,
-    "IconHint": "harum",
+    "Rank": 449,
+    "Type": "repellendus",
+    "ColorBlock": 259,
+    "IconHint": "doloribus",
     "Selected": true,
-    "LastChanged": "2021-01-17T15:05:43.6160797+01:00",
+    "LastChanged": "2014-01-20T18:25:52.0012125+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Considine, Sauer and Leannon",
-        "ToolTip": "Dolores reprehenderit.",
+        "Id": 182,
+        "Name": "Cummerata Inc and Sons",
+        "ToolTip": "Qui perspiciatis non dolores ipsum est nulla.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "adipisci",
-        "ColorBlock": 658,
-        "IconHint": "impedit",
+        "Rank": 434,
+        "Type": "dolores",
+        "ColorBlock": 297,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2001-12-16T15:05:43.6160797+01:00",
+        "LastChanged": "2021-09-28T18:25:52.0012125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Celestine Pagac",
+        "ExtraInfo": "maxime",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Manuel Hoeger",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldType": "System.String",
+            "FieldLength": 62
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "velit",
+    "ExtraInfo": "non",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Kassandra Boyle",
+    "FullName": "Rolando Brekke",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "optimize cross-media action-items"
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 290
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetPriorities
+title: POST Agents/List/GetPriorities
 id: v1ListAgent_GetPriorities
 ---
 
-# GetPriorities
+# POST Agents/List/GetPriorities
 
 ```http
 POST /api/v1/Agents/List/GetPriorities
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,12 +75,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Value": "quam",
-    "Tooltip": "optio",
+    "Id": 502,
+    "Value": "autem",
+    "Tooltip": "perferendis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "incubate transparent metrics"
+      "Reason": "aggregate rich architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   },
   {
-    "Id": 184,
-    "Value": "quam",
-    "Tooltip": "optio",
+    "Id": 502,
+    "Value": "autem",
+    "Tooltip": "perferendis",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "incubate transparent metrics"
+      "Reason": "aggregate rich architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetDeliveryTypes
+title: POST Agents/List/GetDeliveryTypes
 id: v1ListAgent_GetDeliveryTypes
 ---
 
-# GetDeliveryTypes
+# POST Agents/List/GetDeliveryTypes
 
 ```http
 POST /api/v1/Agents/List/GetDeliveryTypes
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Value": "nemo",
-    "Tooltip": "perferendis",
+    "Id": 451,
+    "Value": "modi",
+    "Tooltip": "earum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 33
       }
     }
   },
   {
-    "Id": 780,
-    "Value": "nemo",
-    "Tooltip": "perferendis",
+    "Id": 451,
+    "Value": "modi",
+    "Tooltip": "earum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 33
       }
     }
   }

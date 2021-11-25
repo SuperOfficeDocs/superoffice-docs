@@ -1,9 +1,9 @@
 ---
-title: GetPublishedDocuments
+title: POST Agents/Document/GetPublishedDocuments
 id: v1DocumentAgent_GetPublishedDocuments
 ---
 
-# GetPublishedDocuments
+# POST Agents/Document/GetPublishedDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocuments
@@ -90,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    827,
-    900
+    127,
+    405
   ]
 }
 ```
@@ -107,24 +107,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 632,
-    "Attention": "id",
-    "Header": "nam",
-    "Name": "Goldner, Friesen and Crooks",
-    "OurRef": "ad",
-    "YourRef": "voluptatem",
-    "Description": "Ergonomic web-enabled approach",
-    "DocumentTemplate": "quia",
-    "IsPublished": true,
-    "PersonId": 284,
-    "PersonFullName": "Miss Veda Will",
-    "AssociateFullName": "Dashawn Wisozk",
-    "ContactId": 62,
-    "ContactName": "Green, Kuvalis and Crooks",
-    "ProjectId": 260,
-    "ProjectName": "Paucek LLC",
-    "AssociateId": 813,
-    "Snum": 518,
+    "DocumentId": 264,
+    "Attention": "et",
+    "Header": "neque",
+    "Name": "Keebler, Zboncak and Tremblay",
+    "OurRef": "ipsum",
+    "YourRef": "eligendi",
+    "Description": "Fundamental content-based knowledge user",
+    "DocumentTemplate": "ut",
+    "IsPublished": false,
+    "PersonId": 302,
+    "PersonFullName": "Blake Funk",
+    "AssociateFullName": "Willard Champlin",
+    "ContactId": 358,
+    "ContactName": "Borer-Jacobi",
+    "ProjectId": 961,
+    "ProjectName": "Auer-Paucek",
+    "AssociateId": 619,
+    "Snum": 512,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldLength": 150
       }
     }
   }

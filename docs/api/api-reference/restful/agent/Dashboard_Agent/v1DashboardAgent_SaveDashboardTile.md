@@ -1,9 +1,9 @@
 ---
-title: SaveDashboardTile
+title: POST Agents/Dashboard/SaveDashboardTile
 id: v1DashboardAgent_SaveDashboardTile
 ---
 
-# SaveDashboardTile
+# POST Agents/Dashboard/SaveDashboardTile
 
 ```http
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
@@ -94,46 +94,46 @@ Response body: object
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 267,
-  "Caption": "rerum",
-  "Description": "Optional optimal application",
-  "ChartName": "Hintz-Hintz",
-  "ChartId": "iste",
-  "IsDefault": false,
-  "AssociateId": 280,
-  "GroupId": 67,
-  "SelectionId": 151,
-  "Config": "sunt",
+  "DashboardTileId": 390,
+  "Caption": "omnis",
+  "Description": "Multi-channelled assymetric productivity",
+  "ChartName": "Borer LLC",
+  "ChartId": "natus",
+  "IsDefault": true,
+  "AssociateId": 805,
+  "GroupId": 247,
+  "SelectionId": 679,
+  "Config": "eos",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Collier LLC",
-      "Description": "Realigned empowering help-desk",
+      "Name": "Baumbach-Legros",
+      "Description": "Cloned system-worthy portal",
       "Type": "Boolean",
-      "ListName": "Casper Inc and Sons",
+      "ListName": "Treutel LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sint",
+      "Value": "architecto",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 428,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "debitis"
     },
     {
-      "VisibleId": 428,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "debitis"
     }
   ]
 }
@@ -144,30 +144,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 43,
-  "Caption": "et",
-  "Description": "Balanced zero tolerance standardization",
-  "ChartName": "Cummings, Hodkiewicz and Price",
-  "ChartId": "placeat",
+  "DashboardTileId": 38,
+  "Caption": "autem",
+  "Description": "Diverse neutral application",
+  "ChartName": "Hane Group",
+  "ChartId": "quisquam",
   "IsDefault": false,
-  "AssociateId": 51,
-  "GroupId": 880,
-  "SelectionId": 208,
-  "Config": "aliquam",
+  "AssociateId": 836,
+  "GroupId": 427,
+  "SelectionId": 422,
+  "Config": "aliquid",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schaefer Group",
-      "Description": "User-friendly optimal internet solution",
+      "Name": "Mosciski, Herman and Kuhlman",
+      "Description": "Realigned maximized portal",
       "Type": "Boolean",
-      "ListName": "Miller-Klein",
+      "ListName": "Gulgowski-Kris",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ipsum",
-      "DefaultDataOption": true,
+      "Value": "earum",
+      "DefaultDataOption": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -176,48 +176,48 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldLength": 802
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 597,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "in",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "incubate world-class niches"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldLength": 427
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 597,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "in",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "incubate world-class niches"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldLength": 427
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "engage user-centric markets"
   },
   "FieldProperties": {
     "fieldName": {
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 594
     }
   }
 }

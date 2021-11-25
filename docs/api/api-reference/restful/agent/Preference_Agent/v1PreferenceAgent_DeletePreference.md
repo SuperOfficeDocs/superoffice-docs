@@ -1,9 +1,9 @@
 ---
-title: DeletePreference
+title: POST Agents/Preference/DeletePreference
 id: v1PreferenceAgent_DeletePreference
 ---
 
-# DeletePreference
+# POST Agents/Preference/DeletePreference
 
 ```http
 POST /api/v1/Agents/Preference/DeletePreference

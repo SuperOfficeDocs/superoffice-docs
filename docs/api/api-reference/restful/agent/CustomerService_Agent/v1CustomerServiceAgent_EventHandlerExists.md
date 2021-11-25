@@ -1,9 +1,9 @@
 ---
-title: EventHandlerExists
+title: POST Agents/CustomerService/EventHandlerExists
 id: v1CustomerServiceAgent_EventHandlerExists
 ---
 
-# EventHandlerExists
+# POST Agents/CustomerService/EventHandlerExists
 
 ```http
 POST /api/v1/Agents/CustomerService/EventHandlerExists

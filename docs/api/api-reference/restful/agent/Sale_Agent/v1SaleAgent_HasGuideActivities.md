@@ -1,9 +1,9 @@
 ---
-title: HasGuideActivities
+title: POST Agents/Sale/HasGuideActivities
 id: v1SaleAgent_HasGuideActivities
 ---
 
-# HasGuideActivities
+# POST Agents/Sale/HasGuideActivities
 
 ```http
 POST /api/v1/Agents/Sale/HasGuideActivities
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Sale/HasGuideActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 326
+  "SaleId": 64
 }
 ```
 

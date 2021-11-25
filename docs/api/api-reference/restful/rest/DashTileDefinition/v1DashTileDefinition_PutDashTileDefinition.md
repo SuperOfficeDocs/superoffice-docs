@@ -62,7 +62,7 @@ The DashTileDefinition to be saved.
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -99,7 +99,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -117,28 +117,28 @@ Response body: object
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 315,
-  "Name": "Towne, Wilkinson and Nolan",
-  "Description": "Total dynamic matrices",
-  "DefaultHeight": 818,
-  "DefaultWidth": 583,
+  "DashboardTileDefinitionId": 165,
+  "Name": "Schowalter-Greenfelder",
+  "Description": "Visionary web-enabled standardization",
+  "DefaultHeight": 958,
+  "DefaultWidth": 399,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hudson-Willms",
-  "SelectionId": 870,
+  "EntityName": "Lubowitz LLC",
+  "SelectionId": 152,
   "CurrencyMode": "Base",
-  "CurrencyId": 74,
+  "CurrencyCode": "cumque",
   "Measure": "Average",
-  "MeasureField": "minima",
-  "SortBy": "repellat",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 676,
-  "MeasureByField": "asperiores",
-  "ProviderName": "Hammes Group"
+  "MeasureField": "et",
+  "SortBy": "eius",
+  "LayoutConfig": "commodi",
+  "SecondarySelectionId": 243,
+  "MeasureByField": "dolorem",
+  "ProviderName": "Herman, Lind and Lockman"
 }
 ```
 
@@ -147,27 +147,27 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 223,
-  "Name": "Carter-White",
-  "Description": "Balanced heuristic task-force",
-  "DefaultHeight": 626,
-  "DefaultWidth": 662,
+  "DashboardTileDefinitionId": 541,
+  "Name": "Breitenberg-Davis",
+  "Description": "Vision-oriented stable adapter",
+  "DefaultHeight": 274,
+  "DefaultWidth": 788,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bruen LLC",
-  "SelectionId": 40,
+  "EntityName": "Tromp LLC",
+  "SelectionId": 225,
   "CurrencyMode": "Base",
-  "CurrencyId": 691,
+  "CurrencyCode": "rerum",
   "Measure": "Average",
-  "MeasureField": "amet",
-  "SortBy": "dignissimos",
-  "LayoutConfig": "quisquam",
-  "SecondarySelectionId": 829,
-  "MeasureByField": "maiores",
-  "ProviderName": "Harvey Inc and Sons",
+  "MeasureField": "iusto",
+  "SortBy": "omnis",
+  "LayoutConfig": "quo",
+  "SecondarySelectionId": 53,
+  "MeasureByField": "omnis",
+  "ProviderName": "Smitham, Nicolas and Braun",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "deploy next-generation niches"
   },
   "FieldProperties": {
     "fieldName": {
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   },
   "_Links": {

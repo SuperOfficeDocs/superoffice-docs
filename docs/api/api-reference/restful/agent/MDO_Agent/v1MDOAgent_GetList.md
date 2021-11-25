@@ -1,9 +1,9 @@
 ---
-title: GetList
+title: POST Agents/MDO/GetList
 id: v1MDOAgent_GetList
 ---
 
-# GetList
+# POST Agents/MDO/GetList
 
 ```http
 POST /api/v1/Agents/MDO/GetList
@@ -87,14 +87,14 @@ Response body: array
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brakus, Wisozk and Skiles",
+  "Name": "Homenick-O'Kon",
   "ForceFlatList": false,
-  "AdditionalInfo": "quod",
-  "OnlyHistory": false
+  "AdditionalInfo": "omnis",
+  "OnlyHistory": true
 }
 ```
 
@@ -104,47 +104,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Douglas-Mraz",
-    "ToolTip": "Nulla vero animi.",
-    "Deleted": false,
-    "Rank": 507,
-    "Type": "harum",
+    "Id": 431,
+    "Name": "Huels Group",
+    "ToolTip": "Vero porro.",
+    "Deleted": true,
+    "Rank": 619,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Jewess-Wunsch",
-        "ToolTip": "In eos vel rerum saepe.",
+        "Id": 945,
+        "Name": "Zulauf-Cormier",
+        "ToolTip": "Similique ut adipisci.",
         "Deleted": false,
-        "Rank": 30,
-        "Type": "recusandae",
+        "Rank": 398,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 998,
-        "ExtraInfo": "odit",
-        "StyleHint": "laboriosam",
-        "FullName": "Cortez Will",
+        "IconHint": "quos",
+        "ColorBlock": 85,
+        "ExtraInfo": "ut",
+        "StyleHint": "assumenda",
+        "FullName": "Brandon Crona",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "target innovative relationships"
+              "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 247
+            "FieldLength": 950
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 589,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "in",
-    "FullName": "Hester Barton",
+    "IconHint": "molestiae",
+    "ColorBlock": 31,
+    "ExtraInfo": "hic",
+    "StyleHint": "impedit",
+    "FullName": "Cora Simonis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 132
       }
     }
   }

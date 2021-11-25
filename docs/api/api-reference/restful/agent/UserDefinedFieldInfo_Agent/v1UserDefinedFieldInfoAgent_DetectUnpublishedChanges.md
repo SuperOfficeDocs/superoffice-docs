@@ -1,9 +1,9 @@
 ---
-title: DetectUnpublishedChanges
+title: POST Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
 id: v1UserDefinedFieldInfoAgent_DetectUnpublishedChanges
 ---
 
-# DetectUnpublishedChanges
+# POST Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
@@ -68,7 +68,7 @@ Response body: bool
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

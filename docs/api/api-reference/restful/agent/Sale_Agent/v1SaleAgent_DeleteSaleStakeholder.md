@@ -1,9 +1,9 @@
 ---
-title: DeleteSaleStakeholder
+title: POST Agents/Sale/DeleteSaleStakeholder
 id: v1SaleAgent_DeleteSaleStakeholder
 ---
 
-# DeleteSaleStakeholder
+# POST Agents/Sale/DeleteSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/DeleteSaleStakeholder
@@ -24,7 +24,7 @@ Deletes the SaleStakeholder
 | SaleStakeholderId | int32 | **Required** The id of the SaleStakeholder to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=525
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?SaleStakeholderId=229
 ```
 
 

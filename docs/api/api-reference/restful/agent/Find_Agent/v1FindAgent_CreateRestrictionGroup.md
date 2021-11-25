@@ -1,9 +1,9 @@
 ---
-title: CreateRestrictionGroup
+title: POST Agents/Find/CreateRestrictionGroup
 id: v1FindAgent_CreateRestrictionGroup
 ---
 
-# CreateRestrictionGroup
+# POST Agents/Find/CreateRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/CreateRestrictionGroup
@@ -77,14 +77,14 @@ Response body: object
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Reichert-Fisher",
-  "StorageKey": "sit",
-  "Context": "sint"
+  "StorageType": "nobis",
+  "ProviderName": "Reichel, Littel and Toy",
+  "StorageKey": "error",
+  "Context": "ipsam"
 }
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Monahan-Gislason",
-  "Description": "Centralized client-server monitoring",
-  "Rank": 230,
+  "Name": "Quitzon-Mohr",
+  "Description": "Multi-layered explicit matrix",
+  "Rank": 545,
   "Restrictions": [
     {
-      "Name": "D'Amore-Larkin",
-      "Operator": "sunt",
+      "Name": "Gottlieb-Klocko",
+      "Operator": "et",
       "Values": [
-        "provident",
-        "eveniet"
+        "a",
+        "fugit"
       ],
       "DisplayValues": [
-        "aliquid",
-        "ex"
+        "ipsam",
+        "praesentium"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 395,
+      "InterParenthesis": 77,
       "InterOperator": "And",
-      "UniqueHash": 297
+      "UniqueHash": 138
     }
   ]
 }

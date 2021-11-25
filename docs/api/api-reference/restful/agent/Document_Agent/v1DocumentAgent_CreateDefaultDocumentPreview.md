@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDocumentPreview
+title: POST Agents/Document/CreateDefaultDocumentPreview
 id: v1DocumentAgent_CreateDefaultDocumentPreview
 ---
 
-# CreateDefaultDocumentPreview
+# POST Agents/Document/CreateDefaultDocumentPreview
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
@@ -62,7 +62,7 @@ Response body: object
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -70,9 +70,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Smitham LLC",
-  "Type": "sed",
-  "Size": 512,
+  "Name": "Kunde-Jacobson",
+  "Type": "rerum",
+  "Size": 40,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

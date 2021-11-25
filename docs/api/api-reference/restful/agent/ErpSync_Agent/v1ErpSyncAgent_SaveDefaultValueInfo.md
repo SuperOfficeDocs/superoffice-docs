@@ -1,9 +1,9 @@
 ---
-title: SaveDefaultValueInfo
+title: POST Agents/ErpSync/SaveDefaultValueInfo
 id: v1ErpSyncAgent_SaveDefaultValueInfo
 ---
 
-# SaveDefaultValueInfo
+# POST Agents/ErpSync/SaveDefaultValueInfo
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
@@ -89,20 +89,20 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ErpSyncDefaultValue": {
-    "ErpFieldId": 813,
-    "DefaultValue": "dolor",
-    "HasFirstSyncDefaultValue": true,
-    "FirstSyncDefaultValue": "nihil",
-    "PromptUser": false,
-    "Mandatory": true,
-    "ErpFieldKey": "dolor",
+    "ErpFieldId": 496,
+    "DefaultValue": "voluptatibus",
+    "HasFirstSyncDefaultValue": false,
+    "FirstSyncDefaultValue": "doloribus",
+    "PromptUser": true,
+    "Mandatory": false,
+    "ErpFieldKey": "non",
     "FieldType": "Checkbox",
-    "ListName": "Bruen Group",
+    "ListName": "Nader, Carter and Sanford",
     "Access": "Mandatory"
   }
 }
@@ -113,15 +113,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 192,
-  "DefaultValue": "possimus",
+  "ErpFieldId": 143,
+  "DefaultValue": "vel",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "nulla",
+  "FirstSyncDefaultValue": "dolor",
   "PromptUser": false,
   "Mandatory": true,
-  "ErpFieldKey": "ratione",
+  "ErpFieldKey": "commodi",
   "FieldType": "Checkbox",
-  "ListName": "Roberts-Murray",
+  "ListName": "McLaughlin, Bailey and Blanda",
   "Access": "Mandatory",
   "TableRight": {
     "Mask": "Delete",
@@ -131,10 +131,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "disintermediate enterprise e-markets"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

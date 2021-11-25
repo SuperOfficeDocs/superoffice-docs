@@ -63,7 +63,7 @@ Response body: array
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 113,
-    "Name": "Rice, Rowe and Paucek",
-    "ContentType": "minima",
-    "AttSize": 82,
+    "AttachmentId": 920,
+    "Name": "Pollich Inc and Sons",
+    "ContentType": "repellat",
+    "AttSize": 8,
     "InlineImage": true,
-    "ContentId": "est",
+    "ContentId": "minima",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldLength": 181
       }
     }
   }

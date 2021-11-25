@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 202,
-    "Name": "Considine-Stehr",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 85,
-    "UdListDefinitionId": 584
+    "HeadingId": 672,
+    "Name": "Lind, Kunde and Shields",
+    "Tooltip": "cumque",
+    "Deleted": false,
+    "Rank": 177,
+    "UdListDefinitionId": 599
   },
   {
-    "HeadingId": 202,
-    "Name": "Considine-Stehr",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 85,
-    "UdListDefinitionId": 584
+    "HeadingId": 672,
+    "Name": "Lind, Kunde and Shields",
+    "Tooltip": "cumque",
+    "Deleted": false,
+    "Rank": 177,
+    "UdListDefinitionId": 599
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 901,
-    "Name": "Sawayn-Murazik",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 223,
-    "UdListDefinitionId": 684,
+    "HeadingId": 696,
+    "Name": "Watsica, Lang and Ward",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 430,
+    "UdListDefinitionId": 938,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

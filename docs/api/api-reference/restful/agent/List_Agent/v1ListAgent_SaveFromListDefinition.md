@@ -1,9 +1,9 @@
 ---
-title: SaveFromListDefinition
+title: POST Agents/List/SaveFromListDefinition
 id: v1ListAgent_SaveFromListDefinition
 ---
 
-# SaveFromListDefinition
+# POST Agents/List/SaveFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/SaveFromListDefinition
@@ -85,19 +85,19 @@ Response body: object
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "UdListDefinitionId": 931,
+  "Id": 400,
+  "UdListDefinitionId": 338,
   "Item": {
-    "Id": 16,
-    "Name": "Skiles, Hermann and Cormier",
-    "Tooltip": "ea",
+    "Id": 605,
+    "Name": "Fadel Group",
+    "Tooltip": "harum",
     "Deleted": false,
-    "UdListDefinitionId": 613,
-    "Rank": 662
+    "UdListDefinitionId": 200,
+    "Rank": 659
   }
 }
 ```
@@ -107,12 +107,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Schuppe LLC",
-  "Tooltip": "corporis",
+  "Id": 15,
+  "Name": "Rau Group",
+  "Tooltip": "porro",
   "Deleted": true,
-  "UdListDefinitionId": 788,
-  "Rank": 410,
+  "UdListDefinitionId": 550,
+  "Rank": 875,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldLength": 493
     }
   }
 }

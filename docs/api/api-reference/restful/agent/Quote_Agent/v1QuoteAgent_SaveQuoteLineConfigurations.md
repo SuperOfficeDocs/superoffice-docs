@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteLineConfigurations
+title: POST Agents/Quote/SaveQuoteLineConfigurations
 id: v1QuoteAgent_SaveQuoteLineConfigurations
 ---
 
-# SaveQuoteLineConfigurations
+# POST Agents/Quote/SaveQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
@@ -81,20 +81,20 @@ Response body: array
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 219,
-      "FieldName": "Sauer Inc and Sons",
-      "Label": "consequuntur",
-      "Tooltip": "libero",
-      "Editable": false,
-      "InUse": false,
+      "QuoteLineConfigurationId": 725,
+      "FieldName": "Bruen-Considine",
+      "Label": "dolores",
+      "Tooltip": "at",
+      "Editable": true,
+      "InUse": true,
       "Mandatory": false,
-      "Rank": 825,
+      "Rank": 467,
       "RestrictEdit": false
     }
   ]
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 56,
-    "FieldName": "Gorczany Inc and Sons",
-    "Label": "exercitationem",
-    "Tooltip": "architecto",
+    "QuoteLineConfigurationId": 994,
+    "FieldName": "Boyer Group",
+    "Label": "ut",
+    "Tooltip": "et",
     "Editable": true,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 334,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 133,
     "RestrictEdit": false,
     "TableRight": {
       "Mask": "Delete",
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 85
       }
     }
   }

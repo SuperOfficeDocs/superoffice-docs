@@ -1,9 +1,9 @@
 ---
-title: GetSelectableListWithHistory
+title: POST Agents/MDO/GetSelectableListWithHistory
 id: v1MDOAgent_GetSelectableListWithHistory
 ---
 
-# GetSelectableListWithHistory
+# POST Agents/MDO/GetSelectableListWithHistory
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
@@ -95,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Runolfsson, Thiel and Lindgren",
+  "Name": "Ledner Group",
   "ForceFlatList": true,
-  "AdditionalInfo": "neque",
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    955,
-    214
+    303,
+    323
   ],
   "OnlyHistory": false
 }
@@ -112,36 +112,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Greenfelder Inc and Sons",
-    "ToolTip": "Distinctio sapiente quibusdam facilis placeat voluptates.",
+    "Id": 257,
+    "Name": "Toy, Grady and Toy",
+    "ToolTip": "Alias aliquam quis qui accusantium libero eum.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "fugit",
-    "ColorBlock": 445,
-    "IconHint": "voluptatum",
+    "Rank": 468,
+    "Type": "amet",
+    "ColorBlock": 905,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-07-26T14:58:04.5664622+02:00",
+    "LastChanged": "1997-04-08T18:28:49.48509+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Hyatt Inc and Sons",
-        "ToolTip": "Enim eveniet accusantium.",
-        "Deleted": false,
-        "Rank": 229,
-        "Type": "a",
-        "ColorBlock": 386,
-        "IconHint": "molestiae",
+        "Id": 545,
+        "Name": "Botsford-Buckridge",
+        "ToolTip": "Autem aliquam at repellat eum nam.",
+        "Deleted": true,
+        "Rank": 647,
+        "Type": "alias",
+        "ColorBlock": 426,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2000-12-03T14:58:04.5664622+01:00",
+        "LastChanged": "1996-08-08T18:28:49.48509+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Adan Kertzmann PhD",
+        "ExtraInfo": "soluta",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Alvena Quigley",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -149,16 +149,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 671
+            "FieldType": "System.Int32",
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "ex",
+    "StyleHint": "perspiciatis",
     "Hidden": true,
-    "FullName": "Tara Brakus",
+    "FullName": "Cydney Durgan",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 942
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CollectWebUsage
+title: POST Agents/Diagnostics/CollectWebUsage
 id: v1DiagnosticsAgent_CollectWebUsage
 ---
 
-# CollectWebUsage
+# POST Agents/Diagnostics/CollectWebUsage
 
 ```http
 POST /api/v1/Agents/Diagnostics/CollectWebUsage

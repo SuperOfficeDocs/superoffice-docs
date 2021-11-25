@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfo
+title: POST Agents/Batch/GetBatchTaskInfo
 id: v1BatchAgent_GetBatchTaskInfo
 ---
 
-# GetBatchTaskInfo
+# POST Agents/Batch/GetBatchTaskInfo
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882
+  "Id": 178
 }
 ```
 
@@ -111,30 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Reichel-Bergstrom",
-  "AssociateId": 7,
-  "DetailsTable": 36,
-  "DetailsRecord": 792,
+  "Id": 897,
+  "Name": "Bode, Bahringer and Bechtelar",
+  "AssociateId": 144,
+  "DetailsTable": 939,
+  "DetailsRecord": 905,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "a",
-    "ParameterObject2": "eius"
+    "ParameterObject1": "aspernatur",
+    "ParameterObject2": "non"
   },
-  "LastStarted": "2020-04-17T14:58:03.2682419+02:00",
-  "Created": "2019-10-01T14:58:03.2682419+02:00",
-  "StartCount": 132,
-  "DatabaseSerialNumber": "976242",
-  "Context": "quod",
-  "Result": "consequatur",
+  "LastStarted": "1997-10-10T18:28:48.1415425+02:00",
+  "Created": "2013-08-13T18:28:48.1415425+02:00",
+  "StartCount": 646,
+  "DatabaseSerialNumber": "878960",
+  "Context": "quis",
+  "Result": "quo",
   "State": "All",
-  "Description": "Enhanced asynchronous definition",
-  "Response": "voluptatibus",
-  "Request": "veritatis",
-  "ProgressDescription": "Universal actuating neural-net",
-  "ProgressPercent": 167,
-  "FileName": "Tillman-Bauch",
+  "Description": "Re-contextualized cohesive hub",
+  "Response": "velit",
+  "Request": "voluptas",
+  "ProgressDescription": "Horizontal directional utilisation",
+  "ProgressPercent": 697,
+  "FileName": "Ratke Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -143,10 +143,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "iterate synergistic infomediaries"
       },
       "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldLength": 924
     }
   }
 }

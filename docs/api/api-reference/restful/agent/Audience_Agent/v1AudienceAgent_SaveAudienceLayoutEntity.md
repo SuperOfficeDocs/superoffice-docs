@@ -1,9 +1,9 @@
 ---
-title: SaveAudienceLayoutEntity
+title: POST Agents/Audience/SaveAudienceLayoutEntity
 id: v1AudienceAgent_SaveAudienceLayoutEntity
 ---
 
-# SaveAudienceLayoutEntity
+# POST Agents/Audience/SaveAudienceLayoutEntity
 
 ```http
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
@@ -80,42 +80,42 @@ Response body: object
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 411,
-  "InstanceLayout": "distinctio",
-  "InstanceName": "Murray-Beatty",
-  "CreatedDate": "1997-11-11T14:58:03.2532352+01:00",
-  "UpdatedDate": "2014-04-12T14:58:03.2532352+02:00",
+  "AudienceLayoutId": 422,
+  "InstanceLayout": "voluptas",
+  "InstanceName": "Cronin Group",
+  "CreatedDate": "2013-12-14T18:28:48.1255427+01:00",
+  "UpdatedDate": "2014-04-27T18:28:48.1255427+02:00",
   "CreatedBy": {
-    "AssociateId": 310,
-    "Name": "Lakin-Johnston",
-    "PersonId": 627,
-    "Rank": 844,
-    "Tooltip": "voluptas",
+    "AssociateId": 616,
+    "Name": "Blanda Inc and Sons",
+    "PersonId": 566,
+    "Rank": 946,
+    "Tooltip": "sint",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 312,
-    "FullName": "Ashley Beier",
-    "FormalName": "Block, Rowe and McClure",
+    "GroupIdx": 146,
+    "FullName": "Samara Mueller",
+    "FormalName": "Leffler-Champlin",
     "Deleted": true,
-    "EjUserId": 82,
-    "UserName": "Langworth, Casper and Von"
+    "EjUserId": 69,
+    "UserName": "Rau-Nicolas"
   },
   "UpdatedBy": {
-    "AssociateId": 711,
-    "Name": "Kub, Beahan and Lowe",
-    "PersonId": 481,
-    "Rank": 12,
-    "Tooltip": "sed",
+    "AssociateId": 360,
+    "Name": "DuBuque-Oberbrunner",
+    "PersonId": 273,
+    "Rank": 118,
+    "Tooltip": "architecto",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 432,
-    "FullName": "Peggie Carter",
-    "FormalName": "Will LLC",
-    "Deleted": true,
-    "EjUserId": 58,
-    "UserName": "Stehr-Dietrich"
+    "GroupIdx": 243,
+    "FullName": "Erna Predovic",
+    "FormalName": "Mosciski, Hermiston and Wiza",
+    "Deleted": false,
+    "EjUserId": 156,
+    "UserName": "Bruen-Hirthe"
   }
 }
 ```
@@ -125,24 +125,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 288,
-  "InstanceLayout": "nesciunt",
-  "InstanceName": "Gerlach Group",
-  "CreatedDate": "2016-09-13T14:58:03.2552376+02:00",
-  "UpdatedDate": "1994-11-11T14:58:03.2552376+01:00",
+  "AudienceLayoutId": 978,
+  "InstanceLayout": "quidem",
+  "InstanceName": "Nikolaus LLC",
+  "CreatedDate": "2008-08-15T18:28:48.1265489+02:00",
+  "UpdatedDate": "2019-09-26T18:28:48.1265489+02:00",
   "CreatedBy": {
-    "AssociateId": 721,
-    "Name": "Wilderman, Hilll and Volkman",
-    "PersonId": 322,
-    "Rank": 467,
-    "Tooltip": "repudiandae",
+    "AssociateId": 757,
+    "Name": "Sauer, Streich and Gislason",
+    "PersonId": 716,
+    "Rank": 285,
+    "Tooltip": "sunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 688,
-    "FullName": "Lizeth Dibbert",
-    "FormalName": "Braun, Tremblay and Grant",
+    "GroupIdx": 607,
+    "FullName": "Brendan Ebert",
+    "FormalName": "Pacocha Inc and Sons",
     "Deleted": true,
-    "EjUserId": 472,
-    "UserName": "Satterfield LLC",
+    "EjUserId": 247,
+    "UserName": "Lang-Farrell",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -150,24 +150,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 343,
-    "Name": "Hessel-Grady",
-    "PersonId": 69,
-    "Rank": 41,
-    "Tooltip": "est",
+    "AssociateId": 218,
+    "Name": "Schulist, McLaughlin and Pfannerstill",
+    "PersonId": 123,
+    "Rank": 784,
+    "Tooltip": "atque",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 926,
-    "FullName": "Antwan Weimann Sr.",
-    "FormalName": "Klein, Rau and Mohr",
-    "Deleted": true,
-    "EjUserId": 733,
-    "UserName": "Mosciski Inc and Sons",
+    "GroupIdx": 438,
+    "FullName": "Taya Daniel MD",
+    "FormalName": "Heathcote Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 858,
+    "UserName": "Runolfsson LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   },
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 925
     }
   }
 }

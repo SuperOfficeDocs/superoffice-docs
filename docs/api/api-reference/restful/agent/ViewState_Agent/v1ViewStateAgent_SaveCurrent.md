@@ -1,9 +1,9 @@
 ---
-title: SaveCurrent
+title: POST Agents/ViewState/SaveCurrent
 id: v1ViewStateAgent_SaveCurrent
 ---
 
-# SaveCurrent
+# POST Agents/ViewState/SaveCurrent
 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrent
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Current": {
-    "Rank": 995,
-    "Id": 536,
-    "HistoryName": "Mohr-Rutherford",
-    "HistoryId": 303,
-    "AssociateId": 341,
-    "Name": "Carter-Kautzer",
-    "ItemInfo": "dicta"
+    "Rank": 734,
+    "Id": 145,
+    "HistoryName": "Quitzon-Upton",
+    "HistoryId": 59,
+    "AssociateId": 106,
+    "Name": "Lockman Inc and Sons",
+    "ItemInfo": "architecto"
   }
 }
 ```
@@ -105,13 +105,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 249,
-  "Id": 426,
-  "HistoryName": "Skiles, Stroman and Schneider",
-  "HistoryId": 273,
-  "AssociateId": 545,
-  "Name": "Collins, Reilly and Marquardt",
-  "ItemInfo": "explicabo",
+  "Rank": 261,
+  "Id": 268,
+  "HistoryName": "Harvey, Beier and Parker",
+  "HistoryId": 629,
+  "AssociateId": 63,
+  "Name": "Heaney-Wolff",
+  "ItemInfo": "quia",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=voluptatem
-GET /api/v1/Product?$top=459
-GET /api/v1/Product?$skip=368
+GET /api/v1/Product?$entities=id
+GET /api/v1/Product?$top=445
+GET /api/v1/Product?$skip=497
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=est
+GET /api/v1/Product?$context=illum
 GET /api/v1/Product?$format=JSON
-GET /api/v1/Product?$jsonSafe=True
+GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
 ```
 
@@ -125,19 +125,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nemo",
+  "odata.nextLink": "iste",
   "value": [
     {
-      "PrimaryKey": 7912,
-      "EntityName": "person",
-      "personId": 7912,
-      "fullName": "Ms. Ransom Greenholt"
+      "PrimaryKey": 679,
+      "EntityName": "sale",
+      "saleId": 679,
+      "contactId": 3844,
+      "name": "Grady Group"
     },
     {
-      "PrimaryKey": 1246,
-      "EntityName": "person",
-      "personId": 1246,
-      "fullName": "Dr. Albert Mraz"
+      "PrimaryKey": 1980,
+      "EntityName": "sale",
+      "saleId": 1980,
+      "contactId": 264,
+      "name": "Hodkiewicz, Schulist and Cormier"
     }
   ]
 }

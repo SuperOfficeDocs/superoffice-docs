@@ -1,9 +1,9 @@
 ---
-title: GetUnsanitizedEMailFromAttachmentId
+title: POST Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 id: v1EMailAgent_GetUnsanitizedEMailFromAttachmentId
 ---
 
-# GetUnsanitizedEMailFromAttachmentId
+# POST Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
@@ -108,14 +108,14 @@ Response body: object
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 455,
+  "EmailId": 272,
   "AttachmentIds": [
-    "eos",
-    "excepturi"
+    "assumenda",
+    "suscipit"
   ],
   "IncludeAttachments": false
 }
@@ -128,18 +128,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 817,
-      "ContactName": "Russel Inc and Sons",
-      "PersonId": 571,
-      "PersonName": "Kuhic-Okuneva",
-      "AssociateId": 25,
-      "Address": "qui",
-      "EmailId": 828,
+      "ContactId": 27,
+      "ContactName": "Leuschke, Schamberger and Howell",
+      "PersonId": 807,
+      "PersonName": "Feeney Group",
+      "AssociateId": 312,
+      "Address": "sed",
+      "EmailId": 232,
       "DuplicatePersonIds": [
-        60,
-        145
+        882,
+        335
       ],
-      "Name": "Feil-Jast",
+      "Name": "Bartoletti Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -147,26 +147,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 928,
-      "ContactName": "Lesch LLC",
-      "PersonId": 194,
-      "PersonName": "Donnelly-Hoppe",
-      "AssociateId": 899,
-      "Address": "sint",
-      "EmailId": 108,
+      "ContactId": 683,
+      "ContactName": "O'Keefe-Wyman",
+      "PersonId": 163,
+      "PersonName": "Mertz Inc and Sons",
+      "AssociateId": 980,
+      "Address": "maiores",
+      "EmailId": 716,
       "DuplicatePersonIds": [
-        252,
-        705
+        63,
+        828
       ],
-      "Name": "Heaney-Stroman",
+      "Name": "Schuppe Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,26 +174,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 428,
-      "ContactName": "Daniel Group",
-      "PersonId": 587,
-      "PersonName": "Schiller-Connelly",
-      "AssociateId": 816,
-      "Address": "nesciunt",
-      "EmailId": 957,
+      "ContactId": 431,
+      "ContactName": "Wehner-Langworth",
+      "PersonId": 292,
+      "PersonName": "Mante, Hodkiewicz and Johnston",
+      "AssociateId": 798,
+      "Address": "veritatis",
+      "EmailId": 595,
       "DuplicatePersonIds": [
-        545,
-        891
+        24,
+        206
       ],
-      "Name": "Feest, Lemke and Hirthe",
+      "Name": "Jacobson LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -201,55 +201,27 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "consequatur",
+  "Subject": "omnis",
+  "HTMLBody": "illum",
   "From": {
-    "ContactId": 441,
-    "ContactName": "Trantow, Lindgren and Kshlerin",
-    "PersonId": 531,
-    "PersonName": "Ebert-Kuphal",
-    "AssociateId": 938,
-    "Address": "natus",
-    "EmailId": 609,
+    "ContactId": 508,
+    "ContactName": "Effertz, Towne and Grant",
+    "PersonId": 646,
+    "PersonName": "Dicki Inc and Sons",
+    "AssociateId": 830,
+    "Address": "totam",
+    "EmailId": 873,
     "DuplicatePersonIds": [
-      964,
-      406
+      187,
+      31
     ],
-    "Name": "Boehm LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "repurpose wireless bandwidth"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 334
-      }
-    }
-  },
-  "Sent": "1996-03-31T14:58:04.1164307+02:00",
-  "Size": 464,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "ad",
-  "PlainBody": "dolore",
-  "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 202,
-    "AppointmentId": 845,
-    "ProjectId": 250,
-    "SaleId": 273,
-    "Archived": false,
-    "ArchivedAt": "2004-06-01T14:58:04.1164307+02:00",
-    "ArchivedBy": 388,
-    "ArchivedDisplayName": "Howell Group",
+    "Name": "Lubowitz-Kohler",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -257,22 +229,70 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   },
-  "ServerId": 887,
+  "Sent": "2020-01-09T18:28:49.0329563+01:00",
+  "Size": 687,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "vitae",
+  "PlainBody": "aspernatur",
+  "IsSent": false,
+  "EMailSOInfo": {
+    "DocumentId": 388,
+    "AppointmentId": 1000,
+    "ProjectId": 473,
+    "SaleId": 397,
+    "Archived": false,
+    "ArchivedAt": "2017-05-11T18:28:49.0329563+02:00",
+    "ArchivedBy": 536,
+    "ArchivedDisplayName": "Towne-Skiles",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 419
+      }
+    }
+  },
+  "ServerId": 935,
   "Attachments": [
     {
-      "Description": "Assimilated 5th generation leverage",
-      "Filename": "similique",
-      "Size": 103,
-      "Type": "minima",
-      "Encoding": "non",
-      "Id": "et",
-      "Disposition": "nam",
+      "Description": "Robust tangible methodology",
+      "Filename": "omnis",
+      "Size": 224,
+      "Type": "et",
+      "Encoding": "nihil",
+      "Id": "non",
+      "Disposition": "perspiciatis",
       "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "repurpose strategic synergies"
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 473
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Schamberger-Hegmann",
+      "Values": [
+        "sit",
+        "natus"
+      ],
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -281,35 +301,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 314
-        }
-      }
-    }
-  ],
-  "CustomHeaderList": [
-    {
-      "Name": "Ruecker, Macejkovic and Ziemann",
-      "Values": [
-        "temporibus",
-        "voluptas"
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldLength": 694
         }
       }
     },
     {
-      "Name": "Ruecker, Macejkovic and Ziemann",
+      "Name": "Schamberger-Hegmann",
       "Values": [
-        "temporibus",
-        "voluptas"
+        "sit",
+        "natus"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -318,29 +318,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     }
   ],
-  "FolderName": "Crona-Little",
-  "EmailItemId": 280,
-  "AccountId": 517,
-  "ReceivedAt": "2014-07-23T14:58:04.1174303+02:00",
+  "FolderName": "VonRueden Group",
+  "EmailItemId": 710,
+  "AccountId": 477,
+  "ReceivedAt": "2011-11-23T18:28:49.0339616+01:00",
   "InReplyTo": {
-    "ServerId": 698,
-    "MessageId": "cum",
-    "Subject": "in",
+    "ServerId": 320,
+    "MessageId": "quis",
+    "Subject": "quia",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "2006-04-06T14:58:04.1174303+02:00",
+    "Sent": "2002-12-08T18:28:49.0339616+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 112,
+    "Size": 501,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -350,17 +350,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldLength": 703
       }
     }
   },
-  "RepliedAt": "2014-01-24T14:58:04.1174303+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-01-24T18:28:49.0339616+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incentivize open-source deliverables"
   },
   "FieldProperties": {
     "fieldName": {
@@ -368,8 +368,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

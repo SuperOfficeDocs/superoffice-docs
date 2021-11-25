@@ -100,42 +100,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Beier-Padberg",
-    "ToolTip": "Iure voluptatem dolore tempora ea ab.",
+    "Id": 56,
+    "Name": "Reilly-Cartwright",
+    "ToolTip": "Et explicabo tenetur neque harum fugiat est.",
     "Deleted": true,
-    "Rank": 515,
-    "Type": "dolorum",
-    "ColorBlock": 571,
-    "IconHint": "voluptatem",
+    "Rank": 62,
+    "Type": "officia",
+    "ColorBlock": 487,
+    "IconHint": "quasi",
     "Selected": true,
-    "LastChanged": "2004-04-10T15:05:43.3205459+02:00",
+    "LastChanged": "2002-05-06T18:25:51.6522947+02:00",
     "ChildItems": [
       {
-        "Id": 451,
-        "Name": "Mayert-Rodriguez",
-        "ToolTip": "Sunt qui omnis qui voluptatem quis sequi.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "corrupti",
-        "ColorBlock": 264,
-        "IconHint": "omnis",
+        "Id": 2,
+        "Name": "Mueller, Crist and Klein",
+        "ToolTip": "Quo fugit quae suscipit.",
+        "Deleted": true,
+        "Rank": 322,
+        "Type": "ab",
+        "ColorBlock": 402,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2014-03-18T15:05:43.3215135+01:00",
+        "LastChanged": "2021-03-07T18:25:51.6522947+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "ut",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Mrs. Jesse Okuneva"
+        "FullName": "Sydni Fay"
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Armando Haley"
+    "ExtraInfo": "vero",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Lenny Becker"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Keebler-Harvey",
-    "ToolTip": "Iste iste omnis quo qui dolor iste.",
-    "Deleted": false,
-    "Rank": 690,
-    "Type": "numquam",
-    "ColorBlock": 587,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "1994-06-28T15:05:43.3225398+02:00",
+    "Id": 367,
+    "Name": "Maggio Group",
+    "ToolTip": "At beatae incidunt et.",
+    "Deleted": true,
+    "Rank": 384,
+    "Type": "quos",
+    "ColorBlock": 603,
+    "IconHint": "recusandae",
+    "Selected": true,
+    "LastChanged": "2020-07-22T18:25:51.6532948+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Gleichner-Heaney",
-        "ToolTip": "Qui ea et.",
-        "Deleted": false,
-        "Rank": 197,
-        "Type": "quo",
-        "ColorBlock": 464,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2011-07-21T15:05:43.3225398+02:00",
+        "Id": 770,
+        "Name": "Parisian-Rice",
+        "ToolTip": "Similique qui adipisci corrupti.",
+        "Deleted": true,
+        "Rank": 472,
+        "Type": "aut",
+        "ColorBlock": 201,
+        "IconHint": "nam",
+        "Selected": false,
+        "LastChanged": "2016-03-20T18:25:51.6532948+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Eloy Conroy",
+        "ExtraInfo": "quis",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Delmer Hoppe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,18 +184,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 776
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Sincere Cruickshank DVM",
+    "ExtraInfo": "officia",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Priscilla Murphy",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "orchestrate turn-key web services"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldType": "System.Int32",
+        "FieldLength": 968
       }
     }
   }

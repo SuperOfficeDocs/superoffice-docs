@@ -1,9 +1,9 @@
 ---
-title: RestoreConnection
+title: POST Agents/Quote/RestoreConnection
 id: v1QuoteAgent_RestoreConnection
 ---
 
-# RestoreConnection
+# POST Agents/Quote/RestoreConnection
 
 ```http
 POST /api/v1/Agents/Quote/RestoreConnection

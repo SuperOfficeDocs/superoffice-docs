@@ -1,9 +1,9 @@
 ---
-title: GetRegisteredDevices
+title: POST Agents/Pocket/GetRegisteredDevices
 id: v1PocketAgent_GetRegisteredDevices
 ---
 
-# GetRegisteredDevices
+# POST Agents/Pocket/GetRegisteredDevices
 
 ```http
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 532
+  "AssociateId": 891
 }
 ```
 
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Frami Group",
-    "DeviceIdentifier": "molestiae",
-    "PocketVersion": "quod",
-    "Language": "consequatur",
-    "PNSHandle": "aut",
+    "DeviceName": "Spinka Group",
+    "DeviceIdentifier": "quia",
+    "PocketVersion": "vel",
+    "Language": "ipsa",
+    "PNSHandle": "esse",
     "Platform": "Apple",
-    "OSVersion": "ut",
-    "TimeZoneId": 658
+    "OSVersion": "debitis",
+    "TimeZoneId": 227
   }
 ]
 ```

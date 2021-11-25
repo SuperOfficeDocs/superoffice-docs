@@ -106,51 +106,51 @@ Response body: object
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 796,
-  "Name": "Homenick LLC",
-  "Tooltip": "sed",
-  "Rank": 522,
+  "SaleTypeId": 913,
+  "Name": "Bechtelar-Fritsch",
+  "Tooltip": "distinctio",
+  "Rank": 21,
   "DurationUnit": "Century",
-  "SaleDuration": 240,
-  "SaleTypeCatId": 400,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 362,
+  "SaleTypeCatId": 242,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 717,
-  "QuoteLinesTemplate": 795,
-  "ConfirmationLinesTemplate": 105,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 165,
+  "QuoteLinesTemplate": 420,
+  "ConfirmationLinesTemplate": 248,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 243,
-  "MinEarningPercent": 434,
-  "GroupQuoteLinesBy": 294,
-  "SortGroupLinesBy": 792,
+  "MaxDiscountPercent": 473,
+  "MinEarningPercent": 219,
+  "GroupQuoteLinesBy": 871,
+  "SortGroupLinesBy": 28,
   "Stages": [
     {
-      "Id": 917,
-      "Name": "Reinger LLC",
-      "ToolTip": "Rem sequi architecto dicta perferendis.",
-      "Deleted": false,
-      "Rank": 216,
-      "Type": "nesciunt",
-      "ColorBlock": 867,
-      "IconHint": "culpa",
+      "Id": 708,
+      "Name": "Koepp Group",
+      "ToolTip": "Occaecati vitae consectetur earum quidem quas.",
+      "Deleted": true,
+      "Rank": 79,
+      "Type": "suscipit",
+      "ColorBlock": 84,
+      "IconHint": "asperiores",
       "Selected": false,
-      "LastChanged": "1999-12-29T15:05:43.7871195+01:00",
+      "LastChanged": "1996-12-05T18:25:52.1800202+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "sed",
+      "ExtraInfo": "quod",
+      "StyleHint": "quisquam",
       "Hidden": false,
-      "FullName": "Lolita Walsh"
+      "FullName": "Betty Jerde"
     }
   ]
 }
@@ -161,47 +161,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 850,
-  "Name": "Thompson, Mueller and Paucek",
-  "Tooltip": "voluptatem",
-  "Rank": 428,
+  "SaleTypeId": 995,
+  "Name": "Kemmer-Kuhlman",
+  "Tooltip": "sint",
+  "Rank": 470,
   "DurationUnit": "Century",
-  "SaleDuration": 952,
-  "SaleTypeCatId": 609,
+  "SaleDuration": 561,
+  "SaleTypeCatId": 36,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 848,
-  "QuoteLinesTemplate": 114,
-  "ConfirmationLinesTemplate": 619,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 813,
+  "QuoteLinesTemplate": 205,
+  "ConfirmationLinesTemplate": 578,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 823,
-  "MinEarningPercent": 114,
-  "GroupQuoteLinesBy": 902,
-  "SortGroupLinesBy": 796,
+  "MaxDiscountPercent": 656,
+  "MinEarningPercent": 716,
+  "GroupQuoteLinesBy": 159,
+  "SortGroupLinesBy": 603,
   "Stages": [
     {
-      "Id": 962,
-      "Name": "Beahan Inc and Sons",
-      "ToolTip": "Possimus odio doloribus.",
+      "Id": 168,
+      "Name": "O'Connell, Ryan and Ratke",
+      "ToolTip": "Rerum reiciendis nostrum molestiae architecto consequatur.",
       "Deleted": true,
-      "Rank": 836,
-      "Type": "consequatur",
-      "ColorBlock": 812,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "1999-11-20T15:05:43.7881244+01:00",
+      "Rank": 264,
+      "Type": "omnis",
+      "ColorBlock": 339,
+      "IconHint": "molestiae",
+      "Selected": false,
+      "LastChanged": "2020-07-05T18:25:52.1810197+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "voluptates",
+      "ExtraInfo": "vel",
+      "StyleHint": "odio",
       "Hidden": true,
-      "FullName": "Clinton Hudson",
+      "FullName": "Rodger Treutel",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 207
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldLength": 109
     }
   }
 }

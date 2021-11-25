@@ -1,9 +1,9 @@
 ---
-title: GetEMailAsStream
+title: POST Agents/EMail/GetEMailAsStream
 id: v1EMailAgent_GetEMailAsStream
 ---
 
-# GetEMailAsStream
+# POST Agents/EMail/GetEMailAsStream
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAsStream
@@ -72,19 +72,19 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailAsStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Murray, Beatty and Dibbert",
-    "UserName": "Wuckert, Welch and Schuppe",
-    "Password": "perferendis",
-    "Folder": "consequatur",
+    "ServerName": "Reichert-Hartmann",
+    "UserName": "Johnston Group",
+    "Password": "et",
+    "Folder": "adipisci",
     "UseSSL": false
   },
-  "MessageServerId": 106,
-  "StripAttachments": true
+  "MessageServerId": 300,
+  "StripAttachments": false
 }
 ```
 

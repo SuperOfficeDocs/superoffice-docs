@@ -1,9 +1,9 @@
 ---
-title: PreviewImport
+title: POST Agents/Import/PreviewImport
 id: v1ImportAgent_PreviewImport
 ---
 
-# PreviewImport
+# POST Agents/Import/PreviewImport
 
 ```http
 POST /api/v1/Agents/Import/PreviewImport
@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quasi",
+        "sed",
         "et"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sequi"
+      "ExternalKey": "sit"
     },
     {
       "Values": [
-        "quasi",
+        "sed",
         "et"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sequi"
+      "ExternalKey": "sit"
     }
   ],
   "ColumnDefinition": [
-    "saepe",
-    "veritatis"
+    "quos",
+    "autem"
   ],
-  "Culture": "natus",
-  "Context": "nisi"
+  "Culture": "tenetur",
+  "Context": "voluptas"
 }
 ```
 
@@ -122,13 +122,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "aliquid",
-      "autem"
+      "iusto",
+      "porro"
     ],
     "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "necessitatibus",
+    "ExternalKey": "unde",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldLength": 275
       }
     }
   }

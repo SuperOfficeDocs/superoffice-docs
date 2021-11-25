@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultCurrencyEntity
+title: POST Agents/List/CreateDefaultCurrencyEntity
 id: v1ListAgent_CreateDefaultCurrencyEntity
 ---
 
-# CreateDefaultCurrencyEntity
+# POST Agents/List/CreateDefaultCurrencyEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -69,12 +69,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 906,
-  "Name": "Kessler-Schaden",
-  "Tooltip": "quis",
-  "Rank": 859,
-  "Rate": 4487.888,
-  "Units": 26538.712,
+  "CurrencyId": 563,
+  "Name": "Marquardt Group",
+  "Tooltip": "quo",
+  "Rank": 973,
+  "Rate": 30954.518,
+  "Units": 23360.836,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

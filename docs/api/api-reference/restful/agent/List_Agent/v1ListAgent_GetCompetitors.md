@@ -1,9 +1,9 @@
 ---
-title: GetCompetitors
+title: POST Agents/List/GetCompetitors
 id: v1ListAgent_GetCompetitors
 ---
 
-# GetCompetitors
+# POST Agents/List/GetCompetitors
 
 ```http
 POST /api/v1/Agents/List/GetCompetitors
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCompetitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Value": "et",
-    "Tooltip": "laudantium",
+    "Id": 877,
+    "Value": "omnis",
+    "Tooltip": "esse",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 547
       }
     }
   },
   {
-    "Id": 584,
-    "Value": "et",
-    "Tooltip": "laudantium",
+    "Id": 877,
+    "Value": "omnis",
+    "Tooltip": "esse",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 547
       }
     }
   }

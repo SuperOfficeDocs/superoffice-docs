@@ -1,9 +1,9 @@
 ---
-title: GetEMailAccountFromEMailAddress
+title: POST Agents/EMail/GetEMailAccountFromEMailAddress
 id: v1EMailAgent_GetEMailAccountFromEMailAddress
 ---
 
-# GetEMailAccountFromEMailAddress
+# POST Agents/EMail/GetEMailAccountFromEMailAddress
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "nulla"
+  "FromAddress": "minus"
 }
 ```
 
@@ -100,16 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 465,
-  "EMailAddress": "consequatur",
-  "AssociateId": 286,
+  "EMailAccountId": 252,
+  "EMailAddress": "cupiditate",
+  "AssociateId": 387,
   "IncomingCredentials": {
-    "ServiceAuthId": 893,
-    "Server": "numquam",
-    "Port": 176,
-    "AuthType": "doloribus",
-    "Username": "totam",
-    "Password": "minus",
+    "ServiceAuthId": 961,
+    "Server": "quia",
+    "Port": 200,
+    "AuthType": "iste",
+    "Username": "ipsa",
+    "Password": "labore",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 171
+      }
+    }
+  },
+  "OutgoingCredentials": {
+    "ServiceAuthId": 851,
+    "Server": "quisquam",
+    "Port": 373,
+    "AuthType": "quidem",
+    "Username": "fugit",
+    "Password": "ad",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,31 +137,12 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 293
       }
     }
   },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 682,
-    "Server": "vitae",
-    "Port": 763,
-    "AuthType": "dignissimos",
-    "Username": "quod",
-    "Password": "architecto",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "transition e-business architectures"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 648
-      }
-    }
-  },
-  "AccountStatus": 139,
-  "ErrorCount": 167,
+  "AccountStatus": 700,
+  "ErrorCount": 894,
   "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldLength": 994
     }
   }
 }

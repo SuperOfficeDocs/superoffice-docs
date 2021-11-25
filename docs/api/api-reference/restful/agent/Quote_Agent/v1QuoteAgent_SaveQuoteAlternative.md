@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteAlternative
+title: POST Agents/Quote/SaveQuoteAlternative
 id: v1QuoteAgent_SaveQuoteAlternative
 ---
 
-# SaveQuoteAlternative
+# POST Agents/Quote/SaveQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
@@ -112,33 +112,33 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 352,
-  "ERPQuoteAlternativeKey": "molestias",
-  "QuoteVersionId": 142,
-  "Name": "Kris-Tillman",
-  "Description": "Reduced dynamic attitude",
+  "QuoteAlternativeId": 313,
+  "ERPQuoteAlternativeKey": "corrupti",
+  "QuoteVersionId": 88,
+  "Name": "Hoeger, Davis and Collins",
+  "Description": "Re-engineered composite extranet",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22987.89,
-  "ERPDiscountAmount": 24498.478,
-  "DiscountPercent": 4879.638,
-  "DiscountAmount": 23489.329999999998,
+  "ERPDiscountPercent": 5600.458,
+  "ERPDiscountAmount": 31195.836,
+  "DiscountPercent": 1372.692,
+  "DiscountAmount": 25943.252,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ut",
-  "VAT": 940.19999999999993,
-  "EarningPercent": 29898.36,
-  "EarningAmount": 12266.475999999999,
-  "SubTotal": 29519.146,
-  "TotalPrice": 12404.372,
-  "ExtraField1": "exercitationem",
-  "ExtraField2": "ea",
-  "ExtraField3": "nam",
-  "ExtraField4": "sed",
-  "ExtraField5": "possimus"
+  "VATInfo": "enim",
+  "VAT": 30271.306,
+  "EarningPercent": 26109.354,
+  "EarningAmount": 15215.57,
+  "SubTotal": 29111.726,
+  "TotalPrice": 22135.442,
+  "ExtraField1": "sed",
+  "ExtraField2": "et",
+  "ExtraField3": "in",
+  "ExtraField4": "quia",
+  "ExtraField5": "maiores"
 }
 ```
 
@@ -147,29 +147,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 590,
-  "ERPQuoteAlternativeKey": "magni",
-  "QuoteVersionId": 869,
-  "Name": "Reilly Inc and Sons",
-  "Description": "Stand-alone 24/7 product",
+  "QuoteAlternativeId": 250,
+  "ERPQuoteAlternativeKey": "amet",
+  "QuoteVersionId": 281,
+  "Name": "Hauck LLC",
+  "Description": "Multi-layered exuding archive",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 3779.604,
-  "ERPDiscountAmount": 15366.001999999999,
-  "DiscountPercent": 11075.556,
-  "DiscountAmount": 21057.345999999998,
+  "ERPDiscountPercent": 8656.108,
+  "ERPDiscountAmount": 26225.311999999998,
+  "DiscountPercent": 13169.068,
+  "DiscountAmount": 20913.182,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "omnis",
-  "VAT": 6318.144,
-  "EarningPercent": 10511.436,
-  "EarningAmount": 13773.93,
-  "SubTotal": 17722.77,
-  "TotalPrice": 5891.92,
-  "ExtraField1": "earum",
-  "ExtraField2": "ut",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "esse",
-  "ExtraField5": "eos",
+  "VATInfo": "voluptatem",
+  "VAT": 27391.16,
+  "EarningPercent": 2115.45,
+  "EarningAmount": 26322.466,
+  "SubTotal": 18224.21,
+  "TotalPrice": 25736.408,
+  "ExtraField1": "fugit",
+  "ExtraField2": "explicabo",
+  "ExtraField3": "aut",
+  "ExtraField4": "id",
+  "ExtraField5": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 473
     }
   }
 }

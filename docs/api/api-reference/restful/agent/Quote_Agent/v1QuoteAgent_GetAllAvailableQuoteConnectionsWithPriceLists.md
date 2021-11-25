@@ -1,9 +1,9 @@
 ---
-title: GetAllAvailableQuoteConnectionsWithPriceLists
+title: POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 id: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
 ---
 
-# GetAllAvailableQuoteConnectionsWithPriceLists
+# POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 810,
-    "ERPName": "Renner-Shields",
-    "DisplayName": "Bruen-Romaguera",
-    "DisplayDescription": "Quality-focused mobile instruction set",
-    "Rank": 317,
-    "ConnectorName": "Bauch, Mann and Howell",
-    "ErpConnectionId": 918,
-    "ExtraData": "et",
-    "IsAvailable": false,
+    "QuoteConnectionId": 798,
+    "ERPName": "Monahan, Stracke and Bergnaum",
+    "DisplayName": "Bins LLC",
+    "DisplayDescription": "Managed national flexibility",
+    "Rank": 720,
+    "ConnectorName": "Donnelly, Durgan and Jacobi",
+    "ErpConnectionId": 895,
+    "ExtraData": "quas",
+    "IsAvailable": true,
     "InitializeResponse": {
-      "IsOk": true,
-      "UserExplanation": "adipisci",
-      "TechExplanation": "dolores",
-      "ErrorCode": "itaque",
+      "IsOk": false,
+      "UserExplanation": "reprehenderit",
+      "TechExplanation": "doloribus",
+      "ErrorCode": "possimus",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 163,
-        "ERPPriceListKey": "quis",
-        "QuoteConnectionId": 91,
-        "Name": "Conn-Jast",
-        "Description": "Multi-lateral systematic moderator",
-        "Currency": "quae",
-        "CurrencyName": "Grady Group",
-        "ValidFrom": "2003-05-20T14:58:04.961465+02:00",
-        "ValidTo": "2020-02-22T14:58:04.961465+01:00",
+        "PriceListId": 938,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 831,
+        "Name": "Roob LLC",
+        "Description": "Managed upward-trending Graphic Interface",
+        "Currency": "aut",
+        "CurrencyName": "Nikolaus, Welch and Bergnaum",
+        "ValidFrom": "2003-05-25T18:28:49.9361374+02:00",
+        "ValidTo": "2006-02-15T18:28:49.9361374+01:00",
         "IsActive": false,
         "TableRight": {},
         "FieldProperties": {
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      629,
-      617
+      609,
+      672
     ],
     "AssociateAccessIds": [
-      319,
-      598
+      876,
+      410
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 401
       }
     }
   }

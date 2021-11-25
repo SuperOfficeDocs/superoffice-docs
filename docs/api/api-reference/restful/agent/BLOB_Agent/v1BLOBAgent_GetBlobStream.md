@@ -1,9 +1,9 @@
 ---
-title: GetBlobStream
+title: POST Agents/BLOB/GetBlobStream
 id: v1BLOBAgent_GetBlobStream
 ---
 
-# GetBlobStream
+# POST Agents/BLOB/GetBlobStream
 
 ```http
 POST /api/v1/Agents/BLOB/GetBlobStream
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 755
+  "BlobEntityId": 802
 }
 ```
 

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Grady, Erdman and Luettgen",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "UdListDefinitionId": 990,
-  "Rank": 149,
+  "Id": 931,
+  "Name": "Mayert LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 654,
+  "Rank": 975,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 105
     }
   }
 }

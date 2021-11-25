@@ -1,9 +1,9 @@
 ---
-title: GetCurrencyList
+title: POST Agents/List/GetCurrencyList
 id: v1ListAgent_GetCurrencyList
 ---
 
-# GetCurrencyList
+# POST Agents/List/GetCurrencyList
 
 ```http
 POST /api/v1/Agents/List/GetCurrencyList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCurrencyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Value": "laboriosam",
-    "Tooltip": "rerum",
+    "Id": 349,
+    "Value": "asperiores",
+    "Tooltip": "fuga",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 846
       }
     }
   },
   {
-    "Id": 999,
-    "Value": "laboriosam",
-    "Tooltip": "rerum",
+    "Id": 349,
+    "Value": "asperiores",
+    "Tooltip": "fuga",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 846
       }
     }
   }

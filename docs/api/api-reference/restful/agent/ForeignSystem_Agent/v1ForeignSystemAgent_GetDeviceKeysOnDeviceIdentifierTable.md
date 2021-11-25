@@ -1,9 +1,9 @@
 ---
-title: GetDeviceKeysOnDeviceIdentifierTable
+title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
 ---
 
-# GetDeviceKeysOnDeviceIdentifierTable
+# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -83,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Conner, Mayert and Herman",
-  "DeviceName": "Skiles Inc and Sons",
-  "DeviceIdentifier": "a",
-  "TableName": "Goldner-Littel"
+  "ApplicationName": "Schroeder Group",
+  "DeviceName": "Brown, Wiza and Cole",
+  "DeviceIdentifier": "et",
+  "TableName": "Kassulke, Goyette and Rogahn"
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quidem",
-    "Value": "explicabo",
-    "RecordId": 89,
-    "CreatedDate": "2011-12-09T14:58:04.3154598+01:00",
-    "UpdatedDate": "2012-03-07T14:58:04.3154598+01:00",
-    "UpdatedBy": "aspernatur",
-    "CreatedBy": "modi",
-    "TableName": "Denesik, Durgan and Ullrich",
+    "Key": "autem",
+    "Value": "aut",
+    "RecordId": 75,
+    "CreatedDate": "1997-08-16T18:28:49.2240933+02:00",
+    "UpdatedDate": "2006-12-09T18:28:49.2240933+01:00",
+    "UpdatedBy": "eum",
+    "CreatedBy": "labore",
+    "TableName": "Klein-Rosenbaum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldLength": 600
       }
     }
   }

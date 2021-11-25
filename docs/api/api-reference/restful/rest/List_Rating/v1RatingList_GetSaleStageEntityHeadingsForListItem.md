@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "O'Connell-Bradtke",
-    "ToolTip": "Cupiditate velit distinctio.",
-    "Deleted": true,
-    "Rank": 595,
-    "Type": "accusamus",
-    "ColorBlock": 863,
-    "IconHint": "ad",
+    "Id": 34,
+    "Name": "Carter, Spencer and Nikolaus",
+    "ToolTip": "Quidem provident et dolore voluptatem dolorum eveniet.",
+    "Deleted": false,
+    "Rank": 693,
+    "Type": "est",
+    "ColorBlock": 514,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-09-16T15:05:43.7321173+02:00",
+    "LastChanged": "2005-06-27T18:25:52.1210217+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Kuphal Group",
-        "ToolTip": "Harum quos id velit.",
+        "Id": 816,
+        "Name": "Graham Inc and Sons",
+        "ToolTip": "Vel atque occaecati quis consequatur.",
         "Deleted": true,
-        "Rank": 183,
-        "Type": "sunt",
-        "ColorBlock": 136,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2004-04-01T15:05:43.7321173+02:00",
+        "Rank": 514,
+        "Type": "exercitationem",
+        "ColorBlock": 793,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2012-10-11T18:25:52.1220215+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "qui",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Maurine Purdy",
+        "FullName": "Ottilie Torphy",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "repurpose 24/365 platforms"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "animi",
+    "ExtraInfo": "rerum",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Frederic Sawayn",
+    "FullName": "Amara Howell",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 507
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

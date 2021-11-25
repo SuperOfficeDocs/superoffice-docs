@@ -77,20 +77,20 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Jul 2005 15:05:42 G7T
+Last-Modified: Thu, 02 Jul 2020 18:25:50 G7T
 
 {
-  "Key": "dolorum",
-  "Value": "doloribus",
-  "RecordId": 1001,
-  "CreatedDate": "2005-05-08T15:05:42.2446727+02:00",
-  "UpdatedDate": "2005-07-02T15:05:42.2446727+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "ut",
-  "TableName": "Kemmer-Dickinson",
+  "Key": "ab",
+  "Value": "molestiae",
+  "RecordId": 663,
+  "CreatedDate": "2018-10-02T18:25:50.5745975+02:00",
+  "UpdatedDate": "2020-07-02T18:25:50.5745975+02:00",
+  "UpdatedBy": "tempora",
+  "CreatedBy": "dolor",
+  "TableName": "Beatty Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "enable back-end niches"
   },
   "FieldProperties": {
     "fieldName": {
@@ -99,7 +99,7 @@ Last-Modified: Sat, 02 Jul 2005 15:05:42 G7T
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 185
     }
   }
 }

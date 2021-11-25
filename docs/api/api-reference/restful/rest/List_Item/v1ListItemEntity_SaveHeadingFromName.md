@@ -82,16 +82,16 @@ Response body: object
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Price, Hyatt and Murray",
-  "Tooltip": "sint",
+  "HeadingId": 352,
+  "Name": "Bergstrom, Cummings and Schowalter",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 263,
-  "UdListDefinitionId": 220
+  "Rank": 546,
+  "UdListDefinitionId": 880
 }
 ```
 
@@ -100,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 807,
-  "Name": "Kozey-Hayes",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 807,
-  "UdListDefinitionId": 687,
+  "HeadingId": 81,
+  "Name": "McCullough Group",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 277,
+  "UdListDefinitionId": 344,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "e-enable scalable infomediaries"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 34
     }
   }
 }

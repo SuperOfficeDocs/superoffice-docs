@@ -1,9 +1,9 @@
 ---
-title: TryConnectActor
+title: POST Agents/ErpSync/TryConnectActor
 id: v1ErpSyncAgent_TryConnectActor
 ---
 
-# TryConnectActor
+# POST Agents/ErpSync/TryConnectActor
 
 ```http
 POST /api/v1/Agents/ErpSync/TryConnectActor
@@ -79,25 +79,25 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 113,
-  "CrmRecordId": 1000,
+  "ErpConnectionId": 883,
+  "CrmRecordId": 34,
   "CrmActorType": "Contact",
-  "ErpKey": "quaerat",
+  "ErpKey": "qui",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Heller, Will and Bogan",
-      "CrmFieldKey": "ipsam",
-      "Value": "adipisci",
-      "DisplayValue": "iure",
+      "DisplayName": "Hermann, Rowe and Haag",
+      "CrmFieldKey": "voluptatem",
+      "Value": "corrupti",
+      "DisplayValue": "ratione",
       "SyncToCrm": false,
       "SyncToErp": true
     },
     {
-      "DisplayName": "Heller, Will and Bogan",
-      "CrmFieldKey": "ipsam",
-      "Value": "adipisci",
-      "DisplayValue": "iure",
+      "DisplayName": "Hermann, Rowe and Haag",
+      "CrmFieldKey": "voluptatem",
+      "Value": "corrupti",
+      "DisplayValue": "ratione",
       "SyncToCrm": false,
       "SyncToErp": true
     }
@@ -109,5 +109,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

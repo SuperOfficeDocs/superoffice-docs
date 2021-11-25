@@ -1,9 +1,9 @@
 ---
-title: GetMyActiveContacts
+title: POST Agents/Contact/GetMyActiveContacts
 id: v1ContactAgent_GetMyActiveContacts
 ---
 
-# GetMyActiveContacts
+# POST Agents/Contact/GetMyActiveContacts
 
 ```http
 POST /api/v1/Agents/Contact/GetMyActiveContacts
@@ -92,10 +92,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "1997-11-03T14:58:03.5763101+01:00",
+  "ActivityStartTime": "2017-12-25T18:28:48.4636259+01:00",
   "ContactCategories": [
-    150,
-    913
+    453,
+    485
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -107,23 +107,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 359,
+    "ContactId": 95,
     "Department": "",
-    "OrgNr": "576205",
-    "Name": "Pacocha, Ebert and Brown",
+    "OrgNr": "574948",
+    "Name": "Will Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Garret Huel",
+    "AssociateFullName": "Keanu Parisian",
     "Action": "ActivityCompleted",
-    "ActionTime": "2013-11-18T14:58:03.5763101+01:00",
+    "ActionTime": "1999-02-27T18:28:48.4646263+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Hansen-Schaden",
-    "ActionId": 866,
-    "PersonId": 216,
-    "ActivityPersonId": 545,
-    "AssociateId": 670,
+    "ActivityPersonName": "Streich Group",
+    "ActionId": 961,
+    "PersonId": 212,
+    "ActivityPersonId": 656,
+    "AssociateId": 711,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "harness 24/7 networks"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 524
       }
     }
   }

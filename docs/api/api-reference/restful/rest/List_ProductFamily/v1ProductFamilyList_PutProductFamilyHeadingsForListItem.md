@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Quitzon Group",
-    "ToolTip": "Omnis voluptatem et inventore.",
-    "Deleted": true,
-    "Rank": 698,
-    "Type": "rerum",
-    "ColorBlock": 502,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2006-09-28T15:05:43.6340798+02:00",
+    "Id": 959,
+    "Name": "Schiller, Shields and Bayer",
+    "ToolTip": "Fugit nisi voluptas.",
+    "Deleted": false,
+    "Rank": 683,
+    "Type": "autem",
+    "ColorBlock": 366,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2010-06-20T18:25:52.0172124+02:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Huel, Pacocha and Bechtelar",
-        "ToolTip": "Dolor et perferendis at id.",
+        "Id": 956,
+        "Name": "Jakubowski, Mitchell and Green",
+        "ToolTip": "Est ipsam dolore non qui corrupti.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "non",
-        "ColorBlock": 516,
-        "IconHint": "libero",
+        "Rank": 455,
+        "Type": "magnam",
+        "ColorBlock": 68,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2019-08-22T15:05:43.6340798+02:00",
+        "LastChanged": "2003-09-03T18:25:52.0182122+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "eum",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Orlo Trantow DVM"
+        "FullName": "Karianne Considine"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Lukas Nitzsche"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Gregory Durgan"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Bosco-O'Hara",
-    "ToolTip": "Ut eum blanditiis.",
+    "Id": 739,
+    "Name": "Stokes Inc and Sons",
+    "ToolTip": "Tenetur atque aut illum et.",
     "Deleted": true,
-    "Rank": 836,
-    "Type": "mollitia",
-    "ColorBlock": 710,
-    "IconHint": "molestiae",
+    "Rank": 547,
+    "Type": "fugit",
+    "ColorBlock": 471,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2008-01-10T15:05:43.6350795+01:00",
+    "LastChanged": "2005-09-12T18:25:52.0192128+02:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Williamson-Prohaska",
-        "ToolTip": "Explicabo illo.",
+        "Id": 302,
+        "Name": "Christiansen-Kemmer",
+        "ToolTip": "Quia voluptas ipsa corrupti.",
         "Deleted": true,
-        "Rank": 833,
-        "Type": "atque",
-        "ColorBlock": 518,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2021-05-11T15:05:43.6350795+02:00",
+        "Rank": 373,
+        "Type": "eveniet",
+        "ColorBlock": 637,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2008-03-08T18:25:52.0202124+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Daren Dibbert",
+        "ExtraInfo": "quia",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Lori O'Hara II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 362
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Lambert Yost Sr.",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Rashad Kohler",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 456
+        "FieldLength": 447
       }
     }
   }

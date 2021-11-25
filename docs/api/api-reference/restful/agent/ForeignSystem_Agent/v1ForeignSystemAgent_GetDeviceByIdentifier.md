@@ -1,9 +1,9 @@
 ---
-title: GetDeviceByIdentifier
+title: POST Agents/ForeignSystem/GetDeviceByIdentifier
 id: v1ForeignSystemAgent_GetDeviceByIdentifier
 ---
 
-# GetDeviceByIdentifier
+# POST Agents/ForeignSystem/GetDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
@@ -88,13 +88,13 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Roob Group",
-  "DeviceName": "Tremblay Group",
-  "DeviceIdentifier": "omnis"
+  "ApplicationName": "Watsica, Beatty and Mitchell",
+  "DeviceName": "Becker, Schiller and Langosh",
+  "DeviceIdentifier": "voluptas"
 }
 ```
 
@@ -103,15 +103,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 244,
-  "Name": "Mann, Bogisich and Gerlach",
-  "CreatedDate": "2019-08-17T14:58:04.3024601+02:00",
-  "UpdatedDate": "1995-10-28T14:58:04.3024601+02:00",
-  "AssociateFullName": "Hellen Jacobi",
-  "CreatedBy": "et",
-  "UpdatedBy": "dignissimos",
-  "DeviceIdentifier": "pariatur",
-  "ForeignAppId": 420,
+  "ForeignDeviceId": 310,
+  "Name": "Cummings-Smith",
+  "CreatedDate": "2004-02-17T18:28:49.2060894+01:00",
+  "UpdatedDate": "2021-04-15T18:28:49.2060894+02:00",
+  "AssociateFullName": "Lee Renner",
+  "CreatedBy": "fugiat",
+  "UpdatedBy": "culpa",
+  "DeviceIdentifier": "quibusdam",
+  "ForeignAppId": 847,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldLength": 421
     }
   }
 }

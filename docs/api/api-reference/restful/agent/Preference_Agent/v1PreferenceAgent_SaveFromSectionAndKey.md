@@ -1,9 +1,9 @@
 ---
-title: SaveFromSectionAndKey
+title: POST Agents/Preference/SaveFromSectionAndKey
 id: v1PreferenceAgent_SaveFromSectionAndKey
 ---
 
-# SaveFromSectionAndKey
+# POST Agents/Preference/SaveFromSectionAndKey
 
 ```http
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
@@ -97,31 +97,31 @@ Response body: object
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "officiis",
-  "Key": "vel",
+  "Section": "nulla",
+  "Key": "quis",
   "PreferenceDescription": {
-    "PrefDescId": 423,
-    "Section": "deserunt",
-    "Key": "deserunt",
-    "Name": "Dicki, Gleichner and Ernser",
+    "PrefDescId": 980,
+    "Section": "porro",
+    "Key": "sed",
+    "Name": "Hamill, Koss and Monahan",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Seamless eco-centric infrastructure",
-    "IsBuiltin": true,
-    "TableName": "Smitham-Krajcik",
-    "UserDefinedListId": 849,
-    "Rank": 951,
-    "SubGroup": "voluptatem",
-    "MinLevel": 632,
-    "MaxValue": 678,
-    "MinValue": 417,
-    "RequiredLicense": "dolorum"
+    "Description": "Implemented eco-centric archive",
+    "IsBuiltin": false,
+    "TableName": "Howe Group",
+    "UserDefinedListId": 125,
+    "Rank": 202,
+    "SubGroup": "et",
+    "MinLevel": 950,
+    "MaxValue": 792,
+    "MinValue": 877,
+    "RequiredLicense": "velit"
   }
 }
 ```
@@ -131,24 +131,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 47,
-  "Section": "est",
-  "Key": "laboriosam",
-  "Name": "Kassulke, Schoen and Anderson",
+  "PrefDescId": 618,
+  "Section": "nesciunt",
+  "Key": "blanditiis",
+  "Name": "Lowe Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive scalable system engine",
-  "IsBuiltin": false,
-  "TableName": "Wolf-Steuber",
-  "UserDefinedListId": 99,
-  "Rank": 593,
-  "SubGroup": "et",
-  "MinLevel": 257,
-  "MaxValue": 941,
-  "MinValue": 360,
-  "RequiredLicense": "optio",
+  "Description": "Reactive methodical customer loyalty",
+  "IsBuiltin": true,
+  "TableName": "Koss-Connelly",
+  "UserDefinedListId": 692,
+  "Rank": 388,
+  "SubGroup": "rem",
+  "MinLevel": 523,
+  "MaxValue": 323,
+  "MinValue": 146,
+  "RequiredLicense": "rem",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRoleEntity
+title: POST Agents/User/CreateDefaultRoleEntity
 id: v1UserAgent_CreateDefaultRoleEntity
 ---
 
-# CreateDefaultRoleEntity
+# POST Agents/User/CreateDefaultRoleEntity
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,27 +77,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 497,
-  "Name": "Bauch-Cole",
-  "Tooltip": "sequi",
+  "RoleId": 14,
+  "Name": "Effertz, Roberts and Lynch",
+  "Tooltip": "in",
   "RoleType": "Anonymous",
-  "Deleted": 166,
-  "Rank": 751,
-  "Created": "2021-08-08T14:58:05.5390542+02:00",
-  "UseCategories": 179,
+  "Deleted": 177,
+  "Rank": 810,
+  "Created": "2017-06-22T18:28:50.4854401+02:00",
+  "UseCategories": 211,
   "CreatedBy": {
-    "AssociateId": 719,
-    "Name": "Rice-Langworth",
-    "PersonId": 113,
-    "Rank": 557,
-    "Tooltip": "quas",
+    "AssociateId": 367,
+    "Name": "Oberbrunner Inc and Sons",
+    "PersonId": 670,
+    "Rank": 528,
+    "Tooltip": "soluta",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 482,
-    "FullName": "Reinhold Stanton",
-    "FormalName": "Cummerata-Kling",
+    "GroupIdx": 879,
+    "FullName": "Lea Bartell",
+    "FormalName": "DuBuque-Mosciski",
     "Deleted": true,
-    "EjUserId": 627,
-    "UserName": "Gerhold-Bayer",
+    "EjUserId": 440,
+    "UserName": "Purdy-Wiegand",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   },
-  "Updated": "1998-07-07T14:58:05.5390542+02:00",
+  "Updated": "2014-12-14T18:28:50.4854401+01:00",
   "UpdatedBy": {
-    "AssociateId": 596,
-    "Name": "Swaniawski-Fisher",
-    "PersonId": 632,
-    "Rank": 827,
-    "Tooltip": "dolores",
+    "AssociateId": 1001,
+    "Name": "Lehner-Prosacco",
+    "PersonId": 224,
+    "Rank": 466,
+    "Tooltip": "porro",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 911,
-    "FullName": "Carmella Kuhn",
-    "FormalName": "Lockman LLC",
+    "GroupIdx": 898,
+    "FullName": "Odell Weissnat DVM",
+    "FormalName": "O'Keefe-Trantow",
     "Deleted": true,
-    "EjUserId": 473,
-    "UserName": "Mante, Dickinson and Mitchell",
+    "EjUserId": 375,
+    "UserName": "Ratke-Crona",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldLength": 738
       }
     }
   },
@@ -148,11 +148,11 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "maxime",
-          "Description": "Customer-focused intangible application",
+          "Value": "blanditiis",
+          "Description": "Exclusive static utilisation",
           "TableRight": {
             "Mask": "Delete",
-            "Reason": ""
+            "Reason": "synergize back-end web services"
           },
           "FieldProperties": {
             "fieldName": {
@@ -160,16 +160,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.Int32",
-              "FieldLength": 631
+              "FieldType": "System.String",
+              "FieldLength": 21
             }
           }
         }
       ],
       [
         {
-          "Value": "pariatur",
-          "Description": "Triple-buffered transitional paradigm",
+          "Value": "enim",
+          "Description": "Operative dynamic Graphical User Interface",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -178,10 +178,10 @@ Content-Type: application/json; charset=utf-8
             "fieldName": {
               "FieldRight": {
                 "Mask": "FULL",
-                "Reason": "enable extensible models"
+                "Reason": "empower extensible web-readiness"
               },
-              "FieldType": "System.String",
-              "FieldLength": 44
+              "FieldType": "System.Int32",
+              "FieldLength": 332
             }
           }
         }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldLength": 754
       }
     }
   },
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 21
     }
   }
 }

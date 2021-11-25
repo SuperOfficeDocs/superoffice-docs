@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 547,
-    "ColumnId": 374,
-    "FieldDefault": "facere",
-    "FieldHeight": 706,
-    "FieldLabel": "dicta",
-    "FieldLeft": 196,
-    "FieldTop": 22,
+    "UDefFieldId": 641,
+    "ColumnId": 530,
+    "FieldDefault": "at",
+    "FieldHeight": 639,
+    "FieldLabel": "nesciunt",
+    "FieldLeft": 647,
+    "FieldTop": 409,
     "FieldType": "Checkbox",
-    "FieldWidth": 692,
-    "FormatMask": "expedita",
-    "HideLabel": false,
+    "FieldWidth": 585,
+    "FormatMask": "earum",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 277,
-    "LabelLeft": 493,
-    "LabelTop": 783,
-    "LabelWidth": 913,
-    "LastVersionId": 703,
-    "ListTableId": 319,
-    "IsMandatory": true,
+    "LabelHeight": 738,
+    "LabelLeft": 370,
+    "LabelTop": 758,
+    "LabelWidth": 810,
+    "LastVersionId": 865,
+    "ListTableId": 553,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 785,
-    "ProgId": "totam",
-    "IsReadOnly": false,
-    "ShortLabel": "consequatur",
-    "TabOrder": 304,
-    "TextLength": 8,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 28,
-    "UDListDefinitionId": 790,
+    "Page1LineNo": 899,
+    "ProgId": "facilis",
+    "IsReadOnly": true,
+    "ShortLabel": "magnam",
+    "TabOrder": 269,
+    "TextLength": 29,
+    "Tooltip": "inventore",
+    "UdefIdentity": 395,
+    "UDListDefinitionId": 985,
     "Justification": "Center",
-    "Version": 646,
-    "TemplateVariableName": "Rau-Hackett",
+    "Version": 899,
+    "TemplateVariableName": "Kassulke Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Bailey, Krajcik and Goodwin",
+    "MdoListName": "Grady LLC",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 63
+        "FieldLength": 429
       }
     }
   }

@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Lebsack-D'Amore",
-  "Tooltip": "cum",
+  "Id": 162,
+  "Name": "Schamberger-Ruecker",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "UdListDefinitionId": 985,
-  "Rank": 17
+  "UdListDefinitionId": 519,
+  "Rank": 508
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 175,
-  "Name": "Jacobson Inc and Sons",
-  "Tooltip": "facere",
-  "Deleted": false,
-  "UdListDefinitionId": 997,
-  "Rank": 219,
+  "Id": 913,
+  "Name": "Klein, Gibson and Funk",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 300,
+  "Rank": 370,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 635
     }
   }
 }

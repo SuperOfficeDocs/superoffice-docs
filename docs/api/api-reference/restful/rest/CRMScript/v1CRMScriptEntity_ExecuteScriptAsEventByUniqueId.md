@@ -89,27 +89,27 @@ Response body: object
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "et",
-    "InputValues2": "voluptatibus"
+    "InputValues1": "quas",
+    "InputValues2": "vel"
   },
   "BlockExecution": false,
-  "NavigateTo": "nihil",
-  "Message": "sed",
+  "NavigateTo": "rerum",
+  "Message": "esse",
   "OutputValues": {
-    "OutputValues1": "distinctio",
-    "OutputValues2": "aut"
+    "OutputValues1": "et",
+    "OutputValues2": "modi"
   },
   "StateValues": {
-    "StateValues1": "voluptatem",
-    "StateValues2": "maiores"
+    "StateValues1": "optio",
+    "StateValues2": "est"
   },
-  "Exception": "quis"
+  "Exception": "quibusdam"
 }
 ```
 
@@ -120,21 +120,21 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "officiis"
+    "InputValues1": "totam",
+    "InputValues2": "iusto"
   },
   "BlockExecution": false,
-  "NavigateTo": "earum",
-  "Message": "aspernatur",
+  "NavigateTo": "quisquam",
+  "Message": "atque",
   "OutputValues": {
-    "OutputValues1": "soluta",
-    "OutputValues2": "similique"
+    "OutputValues1": "sed",
+    "OutputValues2": "veritatis"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "ut"
+    "StateValues1": "iure",
+    "StateValues2": "consectetur"
   },
-  "Exception": "ea",
+  "Exception": "officia",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

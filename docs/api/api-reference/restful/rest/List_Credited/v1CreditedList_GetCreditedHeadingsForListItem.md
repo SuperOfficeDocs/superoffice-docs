@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Heathcote LLC",
-    "ToolTip": "Commodi dolore mollitia ipsa laborum.",
+    "Id": 91,
+    "Name": "Mosciski, Bednar and Blanda",
+    "ToolTip": "Ex tenetur nulla nemo tempora.",
     "Deleted": false,
-    "Rank": 559,
-    "Type": "modi",
-    "ColorBlock": 438,
-    "IconHint": "tenetur",
+    "Rank": 777,
+    "Type": "qui",
+    "ColorBlock": 640,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2017-02-01T15:05:43.3915101+01:00",
+    "LastChanged": "2012-11-07T18:25:51.770326+01:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Pollich, Waters and Treutel",
-        "ToolTip": "Occaecati unde commodi provident inventore voluptatum.",
+        "Id": 141,
+        "Name": "Raynor Group",
+        "ToolTip": "Mollitia consequatur ea.",
         "Deleted": true,
-        "Rank": 278,
-        "Type": "est",
-        "ColorBlock": 886,
-        "IconHint": "pariatur",
-        "Selected": true,
-        "LastChanged": "2006-07-12T15:05:43.3915101+02:00",
+        "Rank": 146,
+        "Type": "amet",
+        "ColorBlock": 753,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "1995-05-18T18:25:51.770326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Breanne O'Hara",
+        "ExtraInfo": "quidem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Savannah Rolfson",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "facilitate world-class deliverables"
             },
             "FieldType": "System.String",
-            "FieldLength": 132
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Marilyne Bayer",
+    "FullName": "Rickey Krajcik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

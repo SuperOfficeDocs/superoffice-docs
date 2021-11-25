@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultForeignAppEntity
+title: POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
 id: v1ForeignSystemAgent_CreateDefaultForeignAppEntity
 ---
 
-# CreateDefaultForeignAppEntity
+# POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
 
 ```http
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
@@ -69,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 162,
-  "Name": "Simonis-Trantow",
-  "CreatedDate": "2000-04-30T14:58:04.29046+02:00",
-  "UpdatedDate": "2016-06-17T14:58:04.29046+02:00",
+  "ForeignAppId": 176,
+  "Name": "Fay, Daugherty and Kihn",
+  "CreatedDate": "2011-09-17T18:28:49.1941176+02:00",
+  "UpdatedDate": "2001-02-06T18:28:49.1941176+01:00",
   "CreatedBy": {
-    "AssociateId": 149,
-    "Name": "Beahan-Ratke",
-    "PersonId": 783,
-    "Rank": 528,
-    "Tooltip": "aut",
+    "AssociateId": 921,
+    "Name": "Bernier, Pollich and Braun",
+    "PersonId": 134,
+    "Rank": 794,
+    "Tooltip": "ex",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 588,
-    "FullName": "Willa Ondricka",
-    "FormalName": "Block-Pagac",
-    "Deleted": true,
-    "EjUserId": 650,
-    "UserName": "Medhurst, Sauer and Steuber",
+    "GroupIdx": 114,
+    "FullName": "Beau Brakus",
+    "FormalName": "Purdy, Rowe and Schroeder",
+    "Deleted": false,
+    "EjUserId": 656,
+    "UserName": "Hodkiewicz, Dietrich and Mante",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -94,23 +94,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 756
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 69,
-    "Name": "Bartell-Boehm",
-    "PersonId": 570,
-    "Rank": 586,
-    "Tooltip": "officiis",
+    "AssociateId": 613,
+    "Name": "Price Inc and Sons",
+    "PersonId": 220,
+    "Rank": 154,
+    "Tooltip": "minima",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 790,
-    "FullName": "Eldora Nitzsche",
-    "FormalName": "Skiles Inc and Sons",
+    "GroupIdx": 911,
+    "FullName": "Hillard Hessel",
+    "FormalName": "Hahn Group",
     "Deleted": false,
-    "EjUserId": 698,
-    "UserName": "Koss Group",
+    "EjUserId": 278,
+    "UserName": "Block LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -119,21 +119,21 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 544
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 182,
-      "Name": "Denesik LLC",
-      "CreatedDate": "2013-09-05T14:58:04.29046+02:00",
-      "UpdatedDate": "1999-07-22T14:58:04.29046+02:00",
-      "AssociateFullName": "Ms. Lea Klocko",
-      "CreatedBy": "pariatur",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "ea",
-      "ForeignAppId": 790,
+      "ForeignDeviceId": 719,
+      "Name": "Lind LLC",
+      "CreatedDate": "2008-03-01T18:28:49.1951183+01:00",
+      "UpdatedDate": "2019-12-19T18:28:49.1951183+01:00",
+      "AssociateFullName": "Mauricio Bashirian",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "debitis",
+      "DeviceIdentifier": "hic",
+      "ForeignAppId": 595,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     }
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -70,67 +70,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 208,
+    "TopicId": 780,
     "User": {
-      "AssociateId": 339,
-      "Name": "Marks LLC",
-      "PersonId": 572,
-      "Rank": 642,
-      "Tooltip": "qui",
+      "AssociateId": 421,
+      "Name": "Gleason-Runolfsdottir",
+      "PersonId": 325,
+      "Rank": 859,
+      "Tooltip": "aut",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 385,
-      "FullName": "Alycia Kulas",
-      "FormalName": "Nienow LLC",
+      "GroupIdx": 360,
+      "FullName": "Ms. Grayce Blanda",
+      "FormalName": "Harber LLC",
       "Deleted": false,
-      "EjUserId": 994,
-      "UserName": "Goodwin-Mann",
+      "EjUserId": 109,
+      "UserName": "Rolfson Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "whiteboard clicks-and-mortar solutions"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldLength": 732
         }
       }
     },
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": true,
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": false,
     "CanNotify": true
   },
   {
-    "TopicId": 208,
+    "TopicId": 780,
     "User": {
-      "AssociateId": 339,
-      "Name": "Marks LLC",
-      "PersonId": 572,
-      "Rank": 642,
-      "Tooltip": "qui",
+      "AssociateId": 421,
+      "Name": "Gleason-Runolfsdottir",
+      "PersonId": 325,
+      "Rank": 859,
+      "Tooltip": "aut",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 385,
-      "FullName": "Alycia Kulas",
-      "FormalName": "Nienow LLC",
+      "GroupIdx": 360,
+      "FullName": "Ms. Grayce Blanda",
+      "FormalName": "Harber LLC",
       "Deleted": false,
-      "EjUserId": 994,
-      "UserName": "Goodwin-Mann",
+      "EjUserId": 109,
+      "UserName": "Rolfson Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "whiteboard clicks-and-mortar solutions"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldLength": 732
         }
       }
     },
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": true,
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": false,
     "CanNotify": true
   }
 ]

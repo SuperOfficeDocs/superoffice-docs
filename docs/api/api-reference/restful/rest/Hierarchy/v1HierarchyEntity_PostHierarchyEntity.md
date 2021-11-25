@@ -100,32 +100,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 736,
+  "HierarchyId": 451,
   "Domain": "Dashboards",
-  "Name": "Roob-Bartell",
-  "Fullname": "assumenda",
-  "ParentId": 805,
+  "Name": "Wolff-Zboncak",
+  "Fullname": "ut",
+  "ParentId": 173,
   "Children": [
     {
-      "HierarchyId": 273,
+      "HierarchyId": 177,
       "Domain": "Dashboards",
-      "Name": "Davis, Dare and Lueilwitz",
-      "Fullname": "corporis",
-      "ParentId": 117,
+      "Name": "Howell, Koss and Dooley",
+      "Fullname": "consequatur",
+      "ParentId": 722,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-08-22T15:05:42.250668+02:00",
-      "RegisteredAssociateId": 478,
-      "Updated": "2003-05-20T15:05:42.250668+02:00",
-      "UpdatedAssociateId": 770
+      "Registered": "2010-06-16T18:25:50.5785973+02:00",
+      "RegisteredAssociateId": 17,
+      "Updated": "2001-10-29T18:25:50.5785973+01:00",
+      "UpdatedAssociateId": 45
     }
   ],
-  "Registered": "2004-10-29T15:05:42.250668+02:00",
-  "RegisteredAssociateId": 820,
-  "Updated": "2015-02-18T15:05:42.250668+01:00",
-  "UpdatedAssociateId": 490
+  "Registered": "2002-04-14T18:25:50.5785973+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "2014-07-03T18:25:50.5785973+02:00",
+  "UpdatedAssociateId": 194
 }
 ```
 
@@ -134,43 +134,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 698,
+  "HierarchyId": 846,
   "Domain": "Dashboards",
-  "Name": "Hermiston, Harris and Crist",
-  "Fullname": "praesentium",
-  "ParentId": 42,
+  "Name": "Glover-Conn",
+  "Fullname": "rerum",
+  "ParentId": 60,
   "Children": [
     {
-      "HierarchyId": 52,
+      "HierarchyId": 356,
       "Domain": "Dashboards",
-      "Name": "Mante LLC",
-      "Fullname": "nesciunt",
-      "ParentId": 202,
+      "Name": "Rice, Heaney and King",
+      "Fullname": "est",
+      "ParentId": 216,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-01-16T15:05:42.250668+01:00",
-      "RegisteredAssociateId": 490,
-      "Updated": "2014-05-07T15:05:42.250668+02:00",
-      "UpdatedAssociateId": 104,
+      "Registered": "2020-02-28T18:25:50.5795975+01:00",
+      "RegisteredAssociateId": 150,
+      "Updated": "2010-04-08T18:25:50.5795975+02:00",
+      "UpdatedAssociateId": 777,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "engineer revolutionary communities"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     }
   ],
-  "Registered": "2002-10-07T15:05:42.250668+02:00",
-  "RegisteredAssociateId": 687,
-  "Updated": "1999-04-03T15:05:42.250668+02:00",
-  "UpdatedAssociateId": 828,
+  "Registered": "2002-10-16T18:25:50.5795975+02:00",
+  "RegisteredAssociateId": 213,
+  "Updated": "1999-04-27T18:25:50.5795975+02:00",
+  "UpdatedAssociateId": 282,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -181,8 +181,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   },
   "_Links": {

@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,26 +91,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 217,
+  "HierarchyId": 466,
   "Domain": "Dashboards",
-  "Name": "West, Maggio and Bergstrom",
-  "Fullname": "ullam",
-  "ParentId": 190,
+  "Name": "Johnson, Simonis and Leannon",
+  "Fullname": "incidunt",
+  "ParentId": 459,
   "Children": [
     {
-      "HierarchyId": 478,
+      "HierarchyId": 738,
       "Domain": "Dashboards",
-      "Name": "Goldner Group",
-      "Fullname": "aspernatur",
-      "ParentId": 895,
+      "Name": "Mraz, Krajcik and Swift",
+      "Fullname": "optio",
+      "ParentId": 322,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-09-30T15:05:42.2556678+02:00",
-      "RegisteredAssociateId": 520,
-      "Updated": "2004-06-02T15:05:42.2556678+02:00",
-      "UpdatedAssociateId": 552,
+      "Registered": "2014-01-10T18:25:50.5845944+01:00",
+      "RegisteredAssociateId": 706,
+      "Updated": "2015-02-01T18:25:50.5845944+01:00",
+      "UpdatedAssociateId": 484,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldType": "System.String",
+          "FieldLength": 421
         }
       }
     }
   ],
-  "Registered": "2000-02-20T15:05:42.2556678+01:00",
-  "RegisteredAssociateId": 821,
-  "Updated": "2011-06-06T15:05:42.2556678+02:00",
-  "UpdatedAssociateId": 302,
+  "Registered": "2007-10-16T18:25:50.5845944+02:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "2007-02-25T18:25:50.5845944+01:00",
+  "UpdatedAssociateId": 276,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

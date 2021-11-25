@@ -104,36 +104,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 641,
-  "ERPProductKey": "quisquam",
-  "ERPPriceListKey": "id",
-  "Name": "Nikolaus, Kuvalis and Bailey",
-  "Description": "Proactive local framework",
-  "Code": "beatae",
-  "PriceUnit": "debitis",
-  "QuantityUnit": "sint",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 26457.228,
-  "ItemNumber": "1687755",
+  "ProductId": 67,
+  "ERPProductKey": "blanditiis",
+  "ERPPriceListKey": "voluptate",
+  "Name": "Mayer, Lueilwitz and Pouros",
+  "Description": "Pre-emptive content-based website",
+  "Code": "quia",
+  "PriceUnit": "velit",
+  "QuantityUnit": "ducimus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "perferendis",
+  "DefaultSubscriptionQuantity": 9527.36,
+  "ItemNumber": "584785",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "at",
-  "ProductTypeKey": "ex",
-  "VAT": 2964.764,
-  "VATInfo": "eum",
-  "UnitCost": 5970.2699999999995,
-  "UnitMinimumPrice": 256.988,
-  "UnitListPrice": 15992.802,
-  "InAssortment": true,
-  "Supplier": "laboriosam",
-  "SupplierCode": "occaecati",
-  "Rights": "accusamus",
-  "Rule": "dolores",
+  "ProductFamilyKey": "maiores",
+  "ProductTypeKey": "est",
+  "VAT": 5236.914,
+  "VATInfo": "aspernatur",
+  "UnitCost": 27660.683999999997,
+  "UnitMinimumPrice": 15917.586,
+  "UnitListPrice": 5951.4659999999994,
+  "InAssortment": false,
+  "Supplier": "fuga",
+  "SupplierCode": "et",
+  "Rights": "animi",
+  "Rule": "deserunt",
   "ExtraInfo": [
     {
-      "Name": "Thompson-Mraz",
-      "Value": "qui",
+      "Name": "Medhurst-Skiles",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldLength": 269
         }
       }
     },
     {
-      "Name": "Thompson-Mraz",
-      "Value": "qui",
+      "Name": "Medhurst-Skiles",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -159,18 +159,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldLength": 269
         }
       }
     }
   ],
-  "RawExtraInfo": "dolore",
-  "ExtraField1": "et",
-  "ExtraField2": "optio",
-  "ExtraField3": "provident",
-  "ExtraField4": "velit",
-  "ExtraField5": "et",
-  "InStock": 11987.55,
+  "RawExtraInfo": "illum",
+  "ExtraField1": "magnam",
+  "ExtraField2": "velit",
+  "ExtraField3": "nostrum",
+  "ExtraField4": "iure",
+  "ExtraField5": "cupiditate",
+  "InStock": 11285.534,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldLength": 364
     }
   }
 }

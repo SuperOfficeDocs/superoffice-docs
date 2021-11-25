@@ -1,9 +1,9 @@
 ---
-title: GetPublishedUserDefinedFieldFromProgId
+title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId
 ---
 
-# GetPublishedUserDefinedFieldFromProgId
+# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "aut",
+  "ProgId": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 912,
-  "ColumnId": 47,
-  "FieldDefault": "facere",
-  "FieldHeight": 509,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 971,
-  "FieldTop": 708,
+  "UDefFieldId": 460,
+  "ColumnId": 260,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 462,
+  "FieldLabel": "rem",
+  "FieldLeft": 821,
+  "FieldTop": 773,
   "FieldType": "Checkbox",
-  "FieldWidth": 364,
-  "FormatMask": "est",
+  "FieldWidth": 397,
+  "FormatMask": "quod",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 301,
-  "LabelLeft": 816,
-  "LabelTop": 315,
-  "LabelWidth": 618,
-  "LastVersionId": 456,
-  "ListTableId": 390,
+  "LabelHeight": 275,
+  "LabelLeft": 368,
+  "LabelTop": 405,
+  "LabelWidth": 430,
+  "LastVersionId": 961,
+  "ListTableId": 372,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 394,
-  "ProgId": "accusantium",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 880,
-  "TextLength": 654,
-  "Tooltip": "repellendus",
-  "UdefIdentity": 656,
-  "UDListDefinitionId": 30,
+  "Page1LineNo": 799,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "quas",
+  "TabOrder": 512,
+  "TextLength": 213,
+  "Tooltip": "ut",
+  "UdefIdentity": 80,
+  "UDListDefinitionId": 276,
   "Justification": "Center",
-  "Version": 825,
-  "TemplateVariableName": "Runolfsdottir-Grady",
-  "HasBeenPublished": false,
-  "MdoListName": "Lind, O'Connell and Herzog",
+  "Version": 737,
+  "TemplateVariableName": "Armstrong, Berge and Glover",
+  "HasBeenPublished": true,
+  "MdoListName": "Hudson-Considine",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,10 +168,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "target impactful content"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveRestrictionsAndGetCriteriaInformation
+title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
 ---
 
-# SaveRestrictionsAndGetCriteriaInformation
+# POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
@@ -85,24 +85,24 @@ Response body: object
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Stroman-Adams",
-  "StorageKey": "repellendus",
+  "StorageType": "cum",
+  "ProviderName": "Bosco, Howe and Jacobi",
+  "StorageKey": "voluptas",
   "Restrictions": [
     {
-      "Name": "Johnston LLC",
-      "Operator": "minima",
+      "Name": "Muller LLC",
+      "Operator": "ex",
       "Values": [
-        "illo",
-        "officiis"
+        "soluta",
+        "similique"
       ],
       "DisplayValues": [
-        "facere",
-        "qui"
+        "magnam",
+        "reprehenderit"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -110,14 +110,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 950,
+      "InterParenthesis": 472,
       "InterOperator": "And",
-      "UniqueHash": 971
+      "UniqueHash": 178
     }
   ],
   "StaticColumns": [
-    "hic",
-    "nobis"
+    "quam",
+    "et"
   ]
 }
 ```
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Weber Inc and Sons",
-      "Operator": "nam",
+      "Name": "Kris LLC",
+      "Operator": "dolore",
       "Values": [
-        "et",
-        "error"
+        "minima",
+        "doloribus"
       ],
       "DisplayValues": [
-        "quasi",
-        "voluptatum"
+        "voluptas",
+        "est"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -145,41 +145,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 439,
+      "InterParenthesis": 990,
       "InterOperator": "And",
-      "UniqueHash": 260
+      "UniqueHash": 706
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ferry Inc and Sons",
-      "DisplayTooltip": "enim",
-      "DisplayType": "laudantium",
+      "DisplayName": "O'Hara Inc and Sons",
+      "DisplayTooltip": "aut",
+      "DisplayType": "voluptatibus",
       "CanOrderBy": true,
-      "Name": "Jakubowski Group",
+      "Name": "Conn-Marks",
       "CanRestrictBy": true,
-      "RestrictionType": "saepe",
-      "RestrictionListName": "Thompson Group",
-      "IsVisible": true,
-      "ExtraInfo": "sequi",
-      "Width": "odit",
-      "IconHint": "vel",
-      "HeadingIconHint": "explicabo"
+      "RestrictionType": "numquam",
+      "RestrictionListName": "Donnelly Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "similique",
+      "Width": "maiores",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "sunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hermiston Group",
-      "PrimaryKey": 96,
+      "EntityName": "Schuppe-Wintheiser",
+      "PrimaryKey": 733,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "et",
-          "LinkHint": "corporis"
+          "DisplayValue": "beatae",
+          "TooltipHint": "aut",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "dolores",
-      "StyleHint": "minus",
+      "LinkHint": "voluptates",
+      "StyleHint": "doloremque",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -188,25 +188,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 153
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Ernser Group",
-      "Description": "Versatile 24/7 interface",
-      "Rank": 613,
+      "Name": "Borer, Schoen and Bogan",
+      "Description": "Secured context-sensitive help-desk",
+      "Rank": 847,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ernser Group",
-      "Description": "Versatile 24/7 interface",
-      "Rank": 613,
+      "Name": "Borer, Schoen and Bogan",
+      "Description": "Secured context-sensitive help-desk",
+      "Rank": 847,
       "Restrictions": [
         {},
         {}
@@ -224,7 +224,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldLength": 8
     }
   }
 }

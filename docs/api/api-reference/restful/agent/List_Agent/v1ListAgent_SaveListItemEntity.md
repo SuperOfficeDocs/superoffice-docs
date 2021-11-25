@@ -1,9 +1,9 @@
 ---
-title: SaveListItemEntity
+title: POST Agents/List/SaveListItemEntity
 id: v1ListAgent_SaveListItemEntity
 ---
 
-# SaveListItemEntity
+# POST Agents/List/SaveListItemEntity
 
 ```http
 POST /api/v1/Agents/List/SaveListItemEntity
@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ListItemEntity": {
-    "Id": 144,
-    "Name": "Wuckert, Leuschke and McKenzie",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "UdListDefinitionId": 107,
-    "Rank": 912
+    "Id": 598,
+    "Name": "Ziemann-Collier",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "UdListDefinitionId": 674,
+    "Rank": 290
   }
 }
 ```
@@ -103,12 +103,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "O'Reilly-Hoppe",
-  "Tooltip": "odit",
-  "Deleted": true,
-  "UdListDefinitionId": 555,
-  "Rank": 584,
+  "Id": 258,
+  "Name": "Senger-Jaskolski",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 217,
+  "Rank": 225,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 10
     }
   }
 }

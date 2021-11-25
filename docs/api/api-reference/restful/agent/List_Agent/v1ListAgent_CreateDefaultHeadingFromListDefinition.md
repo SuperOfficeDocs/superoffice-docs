@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultHeadingFromListDefinition
+title: POST Agents/List/CreateDefaultHeadingFromListDefinition
 id: v1ListAgent_CreateDefaultHeadingFromListDefinition
 ---
 
-# CreateDefaultHeadingFromListDefinition
+# POST Agents/List/CreateDefaultHeadingFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 361
+  "UdListDefinitionId": 785
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 556,
-  "Name": "Kemmer-Bechtelar",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 517,
-  "UdListDefinitionId": 389,
+  "HeadingId": 860,
+  "Name": "Walsh, Jenkins and Glover",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 597,
+  "UdListDefinitionId": 930,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   }
 }

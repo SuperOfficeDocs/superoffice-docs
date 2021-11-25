@@ -67,26 +67,26 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 May 1994 15:05:42 G5T
+Last-Modified: Sat, 28 Jan 2012 18:25:50 G1T
 
 {
-  "ForeignAppId": 111,
-  "Name": "Schuppe-Grant",
-  "CreatedDate": "2019-04-28T15:05:42.1836354+02:00",
-  "UpdatedDate": "1994-05-04T15:05:42.1836354+02:00",
+  "ForeignAppId": 453,
+  "Name": "Upton, Breitenberg and Emard",
+  "CreatedDate": "2000-05-25T18:25:50.5515972+02:00",
+  "UpdatedDate": "2012-01-28T18:25:50.5515972+01:00",
   "CreatedBy": {
-    "AssociateId": 706,
-    "Name": "Kilback, Shields and Douglas",
-    "PersonId": 923,
-    "Rank": 877,
-    "Tooltip": "reiciendis",
+    "AssociateId": 909,
+    "Name": "Wiegand-Auer",
+    "PersonId": 316,
+    "Rank": 878,
+    "Tooltip": "voluptas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 539,
-    "FullName": "Joey Fisher",
-    "FormalName": "Reilly, Reichert and Rowe",
-    "Deleted": false,
-    "EjUserId": 400,
-    "UserName": "Grant LLC",
+    "GroupIdx": 86,
+    "FullName": "Eugenia Lueilwitz IV",
+    "FormalName": "Wilkinson Group",
+    "Deleted": true,
+    "EjUserId": 673,
+    "UserName": "Maggio-VonRueden",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -94,24 +94,24 @@ Last-Modified: Wed, 04 May 1994 15:05:42 G5T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 391,
-    "Name": "Murphy Group",
-    "PersonId": 230,
-    "Rank": 841,
-    "Tooltip": "exercitationem",
+    "AssociateId": 708,
+    "Name": "Carroll-Wehner",
+    "PersonId": 822,
+    "Rank": 350,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 381,
-    "FullName": "Domenico Satterfield",
-    "FormalName": "Murray, Rowe and Lind",
-    "Deleted": false,
-    "EjUserId": 370,
-    "UserName": "Bruen Inc and Sons",
+    "GroupIdx": 501,
+    "FullName": "Oran Hodkiewicz",
+    "FormalName": "Kiehn, Lowe and Lubowitz",
+    "Deleted": true,
+    "EjUserId": 298,
+    "UserName": "King-Powlowski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -120,21 +120,21 @@ Last-Modified: Wed, 04 May 1994 15:05:42 G5T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 908
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 688,
-      "Name": "Jewess, Brown and Bartoletti",
-      "CreatedDate": "2005-05-22T15:05:42.1836354+02:00",
-      "UpdatedDate": "2018-08-13T15:05:42.1836354+02:00",
-      "AssociateFullName": "Jean Hayes",
-      "CreatedBy": "officiis",
-      "UpdatedBy": "laudantium",
-      "DeviceIdentifier": "rerum",
-      "ForeignAppId": 620,
+      "ForeignDeviceId": 546,
+      "Name": "Schimmel Group",
+      "CreatedDate": "1996-08-31T18:25:50.5535965+02:00",
+      "UpdatedDate": "2009-03-27T18:25:50.5535965+01:00",
+      "AssociateFullName": "Hoyt Dach Jr.",
+      "CreatedBy": "neque",
+      "UpdatedBy": "accusamus",
+      "DeviceIdentifier": "ea",
+      "ForeignAppId": 950,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -142,24 +142,24 @@ Last-Modified: Wed, 04 May 1994 15:05:42 G5T
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 824
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "implement viral infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "expedite user-centric applications"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GlobalChangeTicketStatus
+title: POST Agents/List/GlobalChangeTicketStatus
 id: v1ListAgent_GlobalChangeTicketStatus
 ---
 
-# GlobalChangeTicketStatus
+# POST Agents/List/GlobalChangeTicketStatus
 
 ```http
 POST /api/v1/Agents/List/GlobalChangeTicketStatus

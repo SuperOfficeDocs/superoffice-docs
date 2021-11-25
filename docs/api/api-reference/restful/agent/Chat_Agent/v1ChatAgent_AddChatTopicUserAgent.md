@@ -1,9 +1,9 @@
 ---
-title: AddChatTopicUserAgent
+title: POST Agents/Chat/AddChatTopicUserAgent
 id: v1ChatAgent_AddChatTopicUserAgent
 ---
 
-# AddChatTopicUserAgent
+# POST Agents/Chat/AddChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
@@ -82,16 +82,16 @@ Response body: object
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 730,
+  "ChatTopicId": 624,
   "Useragent": {
-    "TopicId": 272,
+    "TopicId": 358,
     "User": {},
     "CanListen": false,
-    "CanRespond": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": true
   }
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 637,
+  "TopicId": 669,
   "User": {
-    "AssociateId": 891,
-    "Name": "Friesen Group",
-    "PersonId": 201,
-    "Rank": 997,
-    "Tooltip": "soluta",
+    "AssociateId": 348,
+    "Name": "Bashirian-Bogisich",
+    "PersonId": 715,
+    "Rank": 69,
+    "Tooltip": "qui",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 786,
-    "FullName": "Greta Lang PhD",
-    "FormalName": "Sporer LLC",
+    "GroupIdx": 841,
+    "FullName": "Weldon Balistreri",
+    "FormalName": "Cronin LLC",
     "Deleted": false,
-    "EjUserId": 483,
-    "UserName": "Kovacek Group",
+    "EjUserId": 694,
+    "UserName": "Harvey-Kihn",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -125,11 +125,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 733
       }
     }
   },
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": true,
   "CanManage": false,
   "CanNotify": false

@@ -25,8 +25,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=vel
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=maiores
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Shanahan Inc and Sons",
-    "ToolTip": "Quibusdam ut quasi sed ut vero sed.",
-    "Deleted": false,
-    "Rank": 36,
-    "Type": "temporibus",
+    "Id": 174,
+    "Name": "Klocko Inc and Sons",
+    "ToolTip": "A incidunt eius accusamus laborum doloremque aliquam.",
+    "Deleted": true,
+    "Rank": 788,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Ortiz, Veum and McClure",
-        "ToolTip": "Et cupiditate.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "perferendis",
+        "Id": 158,
+        "Name": "Hyatt Group",
+        "ToolTip": "Consequatur suscipit sint pariatur odio est sequi.",
+        "Deleted": false,
+        "Rank": 89,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 814,
-        "ExtraInfo": "nam",
-        "StyleHint": "nulla",
-        "FullName": "Monserrate Daniel",
+        "IconHint": "et",
+        "ColorBlock": 236,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "sed",
+        "FullName": "Winnifred Waelchi",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 893
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 351,
-    "ExtraInfo": "quae",
-    "StyleHint": "perspiciatis",
-    "FullName": "Sabrina Mueller",
+    "IconHint": "vel",
+    "ColorBlock": 308,
+    "ExtraInfo": "vero",
+    "StyleHint": "expedita",
+    "FullName": "Francis Cummerata",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

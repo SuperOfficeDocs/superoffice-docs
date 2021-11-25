@@ -59,6 +59,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -68,7 +70,7 @@ Response body: object
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,14 +78,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 91,
-  "Name": "Fadel, Gislason and Cruickshank",
+  "TicketStatusId": 291,
+  "Name": "Wolf-Hodkiewicz",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
+  "IsDefault": true,
+  "UsedInQueue": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "leverage visionary systems"
   },
   "FieldProperties": {
     "fieldName": {
@@ -92,7 +96,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldLength": 512
     }
   }
 }

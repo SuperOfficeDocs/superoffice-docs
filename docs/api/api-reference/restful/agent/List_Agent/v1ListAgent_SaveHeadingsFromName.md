@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingsFromName
+title: POST Agents/List/SaveHeadingsFromName
 id: v1ListAgent_SaveHeadingsFromName
 ---
 
-# SaveHeadingsFromName
+# POST Agents/List/SaveHeadingsFromName
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromName
@@ -79,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Konopelski, Christiansen and Nader",
+  "Name": "Spencer, Brekke and Herzog",
   "Entities": [
     {
-      "HeadingId": 892,
-      "Name": "Wolf, Smith and Koss",
-      "Tooltip": "eum",
-      "Deleted": true,
-      "Rank": 667,
-      "UdListDefinitionId": 222
+      "HeadingId": 487,
+      "Name": "Gibson Group",
+      "Tooltip": "culpa",
+      "Deleted": false,
+      "Rank": 109,
+      "UdListDefinitionId": 279
     },
     {
-      "HeadingId": 892,
-      "Name": "Wolf, Smith and Koss",
-      "Tooltip": "eum",
-      "Deleted": true,
-      "Rank": 667,
-      "UdListDefinitionId": 222
+      "HeadingId": 487,
+      "Name": "Gibson Group",
+      "Tooltip": "culpa",
+      "Deleted": false,
+      "Rank": 109,
+      "UdListDefinitionId": 279
     }
   ]
 }
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 984,
-    "Name": "Ebert, Will and Feil",
-    "Tooltip": "sed",
+    "HeadingId": 605,
+    "Name": "Heathcote-Cummings",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 299,
-    "UdListDefinitionId": 130,
+    "Rank": 201,
+    "UdListDefinitionId": 269,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldLength": 66
       }
     }
   }

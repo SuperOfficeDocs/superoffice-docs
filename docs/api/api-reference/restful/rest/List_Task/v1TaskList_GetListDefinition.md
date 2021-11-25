@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Kuhlman-Pouros",
-  "Tooltip": "rerum",
+  "Id": 762,
+  "Name": "Jacobs LLC",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "Rank": 471,
-  "IsCustomList": true,
+  "Rank": 370,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatibus",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 244
     }
   },
   "_Links": {

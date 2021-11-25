@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTicketPriorityEntity
+title: POST Agents/List/CreateDefaultTicketPriorityEntity
 id: v1ListAgent_CreateDefaultTicketPriorityEntity
 ---
 
-# CreateDefaultTicketPriorityEntity
+# POST Agents/List/CreateDefaultTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
@@ -62,7 +62,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -76,6 +76,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -85,7 +86,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -93,35 +94,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 151,
-  "Name": "Bailey LLC",
+  "TicketPriorityId": 641,
+  "Name": "Hilll-Kassulke",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 694,
+  "SortOrder": 207,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 561,
-  "MonStart": "2004-01-14T14:58:04.4534313+01:00",
-  "MonStop": "2017-09-02T14:58:04.4534313+02:00",
-  "TueStart": "2012-05-27T14:58:04.4534313+02:00",
-  "TueStop": "2012-04-28T14:58:04.4534313+02:00",
-  "WedStart": "1996-05-03T14:58:04.4534313+02:00",
-  "WedStop": "2012-12-17T14:58:04.4534313+01:00",
-  "ThuStart": "2003-03-26T14:58:04.4534313+01:00",
-  "ThuStop": "2001-08-06T14:58:04.4534313+02:00",
-  "FriStart": "2004-07-03T14:58:04.4534313+02:00",
-  "FriStop": "2004-03-02T14:58:04.4534313+01:00",
-  "SatStart": "1996-01-08T14:58:04.4534313+01:00",
-  "SatStop": "2006-07-04T14:58:04.4534313+02:00",
-  "SunStart": "2000-10-12T14:58:04.4534313+02:00",
-  "SunStop": "2000-04-22T14:58:04.4534313+02:00",
+  "Deadline": 933,
+  "MonStart": "2008-11-16T18:28:49.3621236+01:00",
+  "MonStop": "2003-06-26T18:28:49.3621236+02:00",
+  "TueStart": "2012-10-16T18:28:49.3621236+02:00",
+  "TueStop": "2017-12-16T18:28:49.3621236+01:00",
+  "WedStart": "2007-05-30T18:28:49.3621236+02:00",
+  "WedStop": "1997-01-18T18:28:49.3621236+01:00",
+  "ThuStart": "2005-05-16T18:28:49.3621236+02:00",
+  "ThuStop": "2000-08-16T18:28:49.3621236+02:00",
+  "FriStart": "1998-03-23T18:28:49.3621236+01:00",
+  "FriStop": "1997-07-29T18:28:49.3621236+02:00",
+  "SatStart": "2005-10-08T18:28:49.3621236+02:00",
+  "SatStop": "1998-01-11T18:28:49.3621236+01:00",
+  "SunStart": "1998-06-24T18:28:49.3621236+02:00",
+  "SunStop": "2011-02-19T18:28:49.3621236+01:00",
   "NonDates": [
-    "numquam",
-    "eum"
+    "nemo",
+    "qui"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 397,
+      "AlertLevel": 710,
+      "AlertTimeout": 123,
+      "Action": 841,
+      "DelegateTo": 358,
+      "ScriptId": 584,
+      "EmailTo": "cassidy@manncrooks.name",
+      "SmsTo": "quam",
+      "ReplyTemplateIdCustomer": 811,
+      "ReplyTemplateIdUser": 204,
+      "ReplyTemplateIdCatmast": 115,
+      "ReplyTemplateIdEmail": 399,
+      "RtiCustomerSms": 655,
+      "ReplyTemplateIdUserSms": 549,
+      "ReplyTemplateIdCatmastSms": 97,
+      "ReplyTemplateIdSms": 462,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 481
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -133,8 +165,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

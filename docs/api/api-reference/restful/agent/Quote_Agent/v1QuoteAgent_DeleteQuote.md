@@ -1,9 +1,9 @@
 ---
-title: DeleteQuote
+title: POST Agents/Quote/DeleteQuote
 id: v1QuoteAgent_DeleteQuote
 ---
 
-# DeleteQuote
+# POST Agents/Quote/DeleteQuote
 
 ```http
 POST /api/v1/Agents/Quote/DeleteQuote

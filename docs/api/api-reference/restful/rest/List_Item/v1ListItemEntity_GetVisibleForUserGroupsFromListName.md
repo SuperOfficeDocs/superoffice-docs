@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,36 +82,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Moore, Stroman and Anderson",
-    "ToolTip": "A placeat.",
+    "Id": 425,
+    "Name": "Sporer Group",
+    "ToolTip": "Dolores dolore.",
     "Deleted": true,
-    "Rank": 633,
-    "Type": "nulla",
-    "ColorBlock": 908,
-    "IconHint": "eius",
+    "Rank": 177,
+    "Type": "a",
+    "ColorBlock": 988,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2006-01-06T15:05:43.2138996+01:00",
+    "LastChanged": "1998-11-23T18:25:51.5812945+01:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Pouros Group",
-        "ToolTip": "Tempore nam harum qui molestiae.",
+        "Id": 510,
+        "Name": "Lebsack, Orn and D'Amore",
+        "ToolTip": "Eveniet laboriosam veniam.",
         "Deleted": true,
-        "Rank": 262,
-        "Type": "excepturi",
-        "ColorBlock": 577,
-        "IconHint": "officia",
+        "Rank": 14,
+        "Type": "provident",
+        "ColorBlock": 512,
+        "IconHint": "occaecati",
         "Selected": true,
-        "LastChanged": "2003-02-22T15:05:43.2138996+01:00",
+        "LastChanged": "2011-05-05T18:25:51.5812945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "neque",
+        "ExtraInfo": "similique",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Ada Rath",
+        "FullName": "Dr. Martin Braun",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,16 +119,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 588
+            "FieldType": "System.Int32",
+            "FieldLength": 28
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "non",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Makenzie Rath",
+    "FullName": "Otho Lind",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 124
       }
     }
   }

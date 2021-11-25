@@ -58,7 +58,7 @@ Response body: object
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -66,31 +66,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 506,
-  "Name": "Ondricka-Hane",
-  "TZLocationCode": "et",
-  "TZLocationCities": "aut",
-  "IsoNumber": 172,
+  "TZLocationID": 384,
+  "Name": "Torp, Thompson and Koss",
+  "TZLocationCode": "dicta",
+  "TZLocationCities": "et",
+  "IsoNumber": 642,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 623,
-      "StartMonth": 139,
-      "EndDay": 246,
-      "EndMonth": 427,
-      "TZOffset": 792,
-      "StartRulePattern": "dolor",
-      "EndRulePattern": "sunt"
+      "StartDay": 77,
+      "StartMonth": 503,
+      "EndDay": 363,
+      "EndMonth": 176,
+      "TZOffset": 784,
+      "StartRulePattern": "voluptates",
+      "EndRulePattern": "pariatur"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 592,
-      "StartMonth": 171,
-      "EndDay": 763,
-      "EndMonth": 433,
-      "TZOffset": 865,
-      "StartRulePattern": "velit",
-      "EndRulePattern": "ad"
+      "StartDay": 176,
+      "StartMonth": 120,
+      "EndDay": 527,
+      "EndMonth": 633,
+      "TZOffset": 622,
+      "StartRulePattern": "maiores",
+      "EndRulePattern": "aliquam"
     }
   }
 }

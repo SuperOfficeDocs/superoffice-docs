@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Kiehn, Ritchie and Morar",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 890,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "Id": 723,
+  "Name": "Kling, Gibson and Thiel",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 633,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "expedite back-end communities"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 875
     }
   },
   "_Links": {

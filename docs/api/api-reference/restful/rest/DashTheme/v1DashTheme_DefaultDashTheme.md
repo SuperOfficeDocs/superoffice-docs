@@ -53,6 +53,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -62,7 +63,7 @@ Response body: object
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -70,10 +71,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 643,
-  "Name": "Weber, Runolfsdottir and Douglas",
-  "Config": "ipsum",
-  "Rank": 689,
+  "DashboardThemeId": 20,
+  "Name": "Reynolds-Reinger",
+  "Config": "reprehenderit",
+  "Rank": 672,
+  "Client": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -84,8 +86,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

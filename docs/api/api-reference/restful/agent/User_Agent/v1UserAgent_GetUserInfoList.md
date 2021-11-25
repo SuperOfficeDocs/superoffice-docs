@@ -1,9 +1,9 @@
 ---
-title: GetUserInfoList
+title: POST Agents/User/GetUserInfoList
 id: v1UserAgent_GetUserInfoList
 ---
 
-# GetUserInfoList
+# POST Agents/User/GetUserInfoList
 
 ```http
 POST /api/v1/Agents/User/GetUserInfoList
@@ -86,7 +86,7 @@ Response body: array
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -95,24 +95,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Deleted": true,
-    "UserInfoId": 464,
-    "UserName": "Armstrong-Grant",
-    "PersonId": 19,
-    "Rank": 705,
-    "Tooltip": "enim",
-    "UserGroupId": 371,
-    "EjUserId": 711,
+    "Deleted": false,
+    "UserInfoId": 242,
+    "UserName": "Kessler LLC",
+    "PersonId": 775,
+    "Rank": 949,
+    "Tooltip": "optio",
+    "UserGroupId": 122,
+    "EjUserId": 851,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "aut",
-      "vero"
+      "quam",
+      "tempora"
     ],
-    "CanLogon": true,
-    "RoleName": "Donnelly, Hudson and Okuneva",
-    "RoleTooltip": "et",
-    "UserGroupName": "Graham Group",
-    "UserGroupTooltip": "amet",
+    "CanLogon": false,
+    "RoleName": "Kerluke, Ebert and Lesch",
+    "RoleTooltip": "totam",
+    "UserGroupName": "Roberts Inc and Sons",
+    "UserGroupTooltip": "provident",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 999
       }
     }
   }

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "McLaughlin-Schaefer",
-    "ToolTip": "Modi dolores modi repellendus saepe.",
-    "Deleted": true,
-    "Rank": 952,
-    "Type": "velit",
-    "ColorBlock": 698,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2020-01-17T15:05:43.5640793+01:00",
+    "Id": 653,
+    "Name": "Trantow LLC",
+    "ToolTip": "Itaque facere officiis placeat sint qui qui.",
+    "Deleted": false,
+    "Rank": 298,
+    "Type": "vel",
+    "ColorBlock": 945,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2011-12-29T18:25:51.9472108+01:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Schmeler, Mohr and Hermann",
-        "ToolTip": "Dolor sequi magni architecto.",
-        "Deleted": false,
-        "Rank": 680,
-        "Type": "doloremque",
-        "ColorBlock": 806,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "1999-02-10T15:05:43.5640793+01:00",
+        "Id": 292,
+        "Name": "Swaniawski Inc and Sons",
+        "ToolTip": "Fugit architecto.",
+        "Deleted": true,
+        "Rank": 876,
+        "Type": "possimus",
+        "ColorBlock": 615,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2008-05-10T18:25:51.9472108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "maxime",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Jarrod Dare"
+        "FullName": "Elyse Streich"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "nihil",
+    "ExtraInfo": "rerum",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Fletcher Brakus"
+    "FullName": "Alford Nikolaus"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Cassin, Langworth and Feil",
-    "ToolTip": "Error veniam facere voluptas sit eum soluta.",
-    "Deleted": true,
-    "Rank": 450,
-    "Type": "aut",
-    "ColorBlock": 557,
-    "IconHint": "velit",
+    "Id": 966,
+    "Name": "Mayert LLC",
+    "ToolTip": "At ut voluptates earum velit.",
+    "Deleted": false,
+    "Rank": 801,
+    "Type": "velit",
+    "ColorBlock": 857,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2000-06-15T15:05:43.5670791+02:00",
+    "LastChanged": "2011-04-21T18:25:51.9492458+02:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Crona, Huels and Hickle",
-        "ToolTip": "Libero sapiente.",
+        "Id": 247,
+        "Name": "Yost, Cartwright and Hills",
+        "ToolTip": "Neque quis similique sunt magnam.",
         "Deleted": true,
-        "Rank": 153,
-        "Type": "illum",
-        "ColorBlock": 696,
-        "IconHint": "quod",
-        "Selected": false,
-        "LastChanged": "2019-05-08T15:05:43.5680796+02:00",
+        "Rank": 566,
+        "Type": "ea",
+        "ColorBlock": 591,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2002-09-08T18:25:51.9502479+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "omnis",
+        "ExtraInfo": "est",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Carolina Spencer",
+        "FullName": "Jeanie Nikolaus",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "architect turn-key schemas"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldType": "System.String",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "ipsum",
-    "Hidden": true,
-    "FullName": "Linnie Legros",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Cordell Weber",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 949
       }
     }
   }

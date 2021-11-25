@@ -1,9 +1,9 @@
 ---
-title: GetKeyOnDeviceIdentifier
+title: POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 id: v1ForeignSystemAgent_GetKeyOnDeviceIdentifier
 ---
 
-# GetKeyOnDeviceIdentifier
+# POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
@@ -86,16 +86,16 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koch, Bartell and Rosenbaum",
-  "DeviceName": "Volkman Inc and Sons",
-  "DeviceIdentifier": "omnis",
-  "KeyName": "Hilpert, Gusikowski and Goldner",
-  "TableName": "Kreiger Inc and Sons",
-  "RecordId": 160
+  "ApplicationName": "Streich-Maggio",
+  "DeviceName": "Bednar-Bode",
+  "DeviceIdentifier": "odit",
+  "KeyName": "Barrows Inc and Sons",
+  "TableName": "Schultz, Sporer and Wilderman",
+  "RecordId": 954
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sit",
-  "Value": "voluptates",
-  "RecordId": 145,
-  "CreatedDate": "2009-03-17T14:58:04.3064558+01:00",
-  "UpdatedDate": "2012-12-20T14:58:04.3064558+01:00",
-  "UpdatedBy": "soluta",
-  "CreatedBy": "eum",
-  "TableName": "Spencer Inc and Sons",
+  "Key": "blanditiis",
+  "Value": "et",
+  "RecordId": 49,
+  "CreatedDate": "2008-12-06T18:28:49.213087+01:00",
+  "UpdatedDate": "2001-02-12T18:28:49.213087+01:00",
+  "UpdatedBy": "reiciendis",
+  "CreatedBy": "minus",
+  "TableName": "Spinka-Barrows",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 330
     }
   }
 }

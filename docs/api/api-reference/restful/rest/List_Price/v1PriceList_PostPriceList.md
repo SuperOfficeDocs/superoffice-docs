@@ -96,20 +96,20 @@ Response body: object
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 169,
-  "ERPPriceListKey": "corporis",
-  "QuoteConnectionId": 267,
-  "Name": "Schmidt LLC",
-  "Description": "Optional context-sensitive hierarchy",
-  "Currency": "aliquam",
-  "CurrencyName": "Baumbach Group",
-  "ValidFrom": "2014-06-12T15:05:43.5860796+02:00",
-  "ValidTo": "2019-07-12T15:05:43.5860796+02:00",
-  "IsActive": false
+  "PriceListId": 40,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 919,
+  "Name": "Mitchell LLC",
+  "Description": "Cross-group transitional groupware",
+  "Currency": "enim",
+  "CurrencyName": "Lindgren-Ankunding",
+  "ValidFrom": "2011-11-19T18:25:51.9712482+01:00",
+  "ValidTo": "2020-07-16T18:25:51.9712482+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,33 +118,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 539,
-  "ERPPriceListKey": "fugit",
-  "QuoteConnectionId": 697,
-  "Name": "Schmitt, Kutch and Champlin",
-  "Description": "Exclusive upward-trending local area network",
-  "Currency": "enim",
-  "CurrencyName": "Hudson-Bauch",
-  "ValidFrom": "2002-12-21T15:05:43.5860796+01:00",
-  "ValidTo": "2005-11-22T15:05:43.5860796+01:00",
-  "IsActive": true,
+  "PriceListId": 951,
+  "ERPPriceListKey": "voluptatibus",
+  "QuoteConnectionId": 609,
+  "Name": "Mante LLC",
+  "Description": "Networked explicit initiative",
+  "Currency": "consequatur",
+  "CurrencyName": "Waelchi LLC",
+  "ValidFrom": "2020-08-26T18:25:51.972246+02:00",
+  "ValidTo": "2006-06-19T18:25:51.972246+02:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "enable viral web services"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "e-enable bricks-and-clicks technologies"
       },
       "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldLength": 89
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

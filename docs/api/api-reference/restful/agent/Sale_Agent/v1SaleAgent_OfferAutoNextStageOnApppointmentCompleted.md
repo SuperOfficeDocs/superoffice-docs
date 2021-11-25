@@ -1,9 +1,9 @@
 ---
-title: OfferAutoNextStageOnApppointmentCompleted
+title: POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 id: v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted
 ---
 
-# OfferAutoNextStageOnApppointmentCompleted
+# POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 
 ```http
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 527
+  "AppointmentId": 178
 }
 ```
 

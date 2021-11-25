@@ -1,9 +1,9 @@
 ---
-title: ConnectActor
+title: POST Agents/ErpSync/ConnectActor
 id: v1ErpSyncAgent_ConnectActor
 ---
 
-# ConnectActor
+# POST Agents/ErpSync/ConnectActor
 
 ```http
 POST /api/v1/Agents/ErpSync/ConnectActor

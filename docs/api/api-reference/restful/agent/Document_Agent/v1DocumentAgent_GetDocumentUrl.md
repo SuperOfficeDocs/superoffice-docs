@@ -1,9 +1,9 @@
 ---
-title: GetDocumentUrl
+title: POST Agents/Document/GetDocumentUrl
 id: v1DocumentAgent_GetDocumentUrl
 ---
 
-# GetDocumentUrl
+# POST Agents/Document/GetDocumentUrl
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentUrl
@@ -70,13 +70,13 @@ Response body: string
 POST /api/v1/Agents/Document/GetDocumentUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 911,
-  "VersionId": "nihil",
-  "WriteableUrl": false
+  "DocumentId": 429,
+  "VersionId": "neque",
+  "WriteableUrl": true
 }
 ```
 

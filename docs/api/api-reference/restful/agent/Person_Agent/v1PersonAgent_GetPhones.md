@@ -1,9 +1,9 @@
 ---
-title: GetPhones
+title: POST Agents/Person/GetPhones
 id: v1PersonAgent_GetPhones
 ---
 
-# GetPhones
+# POST Agents/Person/GetPhones
 
 ```http
 POST /api/v1/Agents/Person/GetPhones
@@ -75,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 423
+  "PersonId": 523
 }
 ```
 
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quaerat",
-    "StrippedValue": "sequi",
-    "Description": "Optimized attitude-oriented capability",
+    "Value": "illum",
+    "StrippedValue": "esse",
+    "Description": "Right-sized 6th generation leverage",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "recontextualize distributed convergence"
+      "Reason": "reintermediate granular schemas"
     },
     "FieldProperties": {
       "fieldName": {
@@ -103,17 +103,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 183
       }
     }
   },
   {
-    "Value": "quaerat",
-    "StrippedValue": "sequi",
-    "Description": "Optimized attitude-oriented capability",
+    "Value": "illum",
+    "StrippedValue": "esse",
+    "Description": "Right-sized 6th generation leverage",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "recontextualize distributed convergence"
+      "Reason": "reintermediate granular schemas"
     },
     "FieldProperties": {
       "fieldName": {
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 183
       }
     }
   }

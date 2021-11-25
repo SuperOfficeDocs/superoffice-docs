@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Rodriguez, Wilkinson and Hauck",
-    "Tooltip": "enim",
+    "Id": 669,
+    "Name": "Kautzer-Weimann",
+    "Tooltip": "quo",
     "Deleted": false,
-    "UdListDefinitionId": 842,
-    "Rank": 905,
+    "UdListDefinitionId": 428,
+    "Rank": 736,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetTicketPriorityEntity
+title: POST Agents/List/GetTicketPriorityEntity
 id: v1ListAgent_GetTicketPriorityEntity
 ---
 
-# GetTicketPriorityEntity
+# POST Agents/List/GetTicketPriorityEntity
 
 ```http
 POST /api/v1/Agents/List/GetTicketPriorityEntity
@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=871
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=981
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -88,6 +88,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -97,7 +98,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -105,35 +106,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 170,
-  "Name": "Romaguera, Gleason and Kling",
+  "TicketPriorityId": 857,
+  "Name": "Douglas Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 337,
+  "SortOrder": 908,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 116,
-  "MonStart": "2003-04-24T14:58:04.3414599+02:00",
-  "MonStop": "2011-07-09T14:58:04.3414599+02:00",
-  "TueStart": "1996-08-16T14:58:04.3414599+02:00",
-  "TueStop": "1999-11-12T14:58:04.3414599+01:00",
-  "WedStart": "2003-01-13T14:58:04.3414599+01:00",
-  "WedStop": "2014-08-02T14:58:04.3414599+02:00",
-  "ThuStart": "2014-12-01T14:58:04.3414599+01:00",
-  "ThuStop": "2009-05-22T14:58:04.3414599+02:00",
-  "FriStart": "2007-06-28T14:58:04.3414599+02:00",
-  "FriStop": "2020-02-13T14:58:04.3414599+01:00",
-  "SatStart": "1994-05-02T14:58:04.3414599+02:00",
-  "SatStop": "2006-03-14T14:58:04.3414599+01:00",
-  "SunStart": "2018-12-11T14:58:04.3414599+01:00",
-  "SunStop": "2007-03-06T14:58:04.3414599+01:00",
+  "Deadline": 32,
+  "MonStart": "1999-09-18T18:28:49.275118+02:00",
+  "MonStop": "2005-12-28T18:28:49.275118+01:00",
+  "TueStart": "2008-11-16T18:28:49.275118+01:00",
+  "TueStop": "2017-03-14T18:28:49.275118+01:00",
+  "WedStart": "2000-01-22T18:28:49.275118+01:00",
+  "WedStop": "2018-03-17T18:28:49.275118+01:00",
+  "ThuStart": "1997-10-27T18:28:49.275118+01:00",
+  "ThuStop": "2012-05-04T18:28:49.275118+02:00",
+  "FriStart": "1999-12-18T18:28:49.275118+01:00",
+  "FriStop": "2014-05-05T18:28:49.275118+02:00",
+  "SatStart": "2008-05-14T18:28:49.275118+02:00",
+  "SatStop": "2013-07-23T18:28:49.275118+02:00",
+  "SunStart": "2016-03-07T18:28:49.275118+01:00",
+  "SunStop": "2001-12-28T18:28:49.275118+01:00",
   "NonDates": [
-    "voluptas",
-    "impedit"
+    "quaerat",
+    "voluptas"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 267,
+      "AlertLevel": 419,
+      "AlertTimeout": 288,
+      "Action": 96,
+      "DelegateTo": 182,
+      "ScriptId": 795,
+      "EmailTo": "audra.zboncak@frami.info",
+      "SmsTo": "eum",
+      "ReplyTemplateIdCustomer": 65,
+      "ReplyTemplateIdUser": 511,
+      "ReplyTemplateIdCatmast": 359,
+      "ReplyTemplateIdEmail": 674,
+      "RtiCustomerSms": 712,
+      "ReplyTemplateIdUserSms": 619,
+      "ReplyTemplateIdCatmastSms": 911,
+      "ReplyTemplateIdSms": 508,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 870
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -143,10 +175,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "iterate frictionless channels"
       },
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

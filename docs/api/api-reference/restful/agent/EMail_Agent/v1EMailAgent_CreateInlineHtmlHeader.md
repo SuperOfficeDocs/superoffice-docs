@@ -1,9 +1,9 @@
 ---
-title: CreateInlineHtmlHeader
+title: POST Agents/EMail/CreateInlineHtmlHeader
 id: v1EMailAgent_CreateInlineHtmlHeader
 ---
 
-# CreateInlineHtmlHeader
+# POST Agents/EMail/CreateInlineHtmlHeader
 
 ```http
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
@@ -70,7 +70,7 @@ Response body: string
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "similique",
-    "HTMLBody": "fugiat",
+    "Subject": "a",
+    "HTMLBody": "voluptas",
     "From": {},
-    "Sent": "2008-04-07T14:58:04.095465+02:00",
-    "Size": 207,
+    "Sent": "1996-09-15T18:28:49.0079283+02:00",
+    "Size": 343,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "veniam",
-    "PlainBody": "non",
+    "MessageID": "ea",
+    "PlainBody": "quidem",
     "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 470,
+    "ServerId": 349,
     "Attachments": [
       {},
       {}
@@ -107,13 +107,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Parisian, Waters and Bahringer",
-    "EmailItemId": 293,
-    "AccountId": 129,
-    "ReceivedAt": "2005-07-03T14:58:04.095465+02:00",
+    "FolderName": "Osinski Inc and Sons",
+    "EmailItemId": 229,
+    "AccountId": 844,
+    "ReceivedAt": "1995-11-28T18:28:49.0079283+01:00",
     "InReplyTo": {},
-    "RepliedAt": "2014-12-29T14:58:04.095465+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2007-12-19T18:28:49.0079283+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   }
@@ -124,5 +124,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"eius"
 ```

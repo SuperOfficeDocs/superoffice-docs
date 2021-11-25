@@ -1,9 +1,9 @@
 ---
-title: CopyTileSelection
+title: POST Agents/Dash/CopyTileSelection
 id: v1DashAgent_CopyTileSelection
 ---
 
-# CopyTileSelection
+# POST Agents/Dash/CopyTileSelection
 
 ```http
 POST /api/v1/Agents/Dash/CopyTileSelection
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 499
+  "SelectionId": 555
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-733
+946
 ```

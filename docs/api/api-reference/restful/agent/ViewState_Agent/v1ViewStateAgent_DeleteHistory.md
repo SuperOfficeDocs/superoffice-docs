@@ -1,9 +1,9 @@
 ---
-title: DeleteHistory
+title: POST Agents/ViewState/DeleteHistory
 id: v1ViewStateAgent_DeleteHistory
 ---
 
-# DeleteHistory
+# POST Agents/ViewState/DeleteHistory
 
 ```http
 POST /api/v1/Agents/ViewState/DeleteHistory

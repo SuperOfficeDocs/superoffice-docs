@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Boehm Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 901,
+  "Name": "Reynolds-Feeney",
+  "Tooltip": "dolorum",
   "Deleted": true,
-  "UdListDefinitionId": 292,
-  "Rank": 433
+  "UdListDefinitionId": 945,
+  "Rank": 846
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "laudantium",
+  "Id": 615,
+  "Name": "Parisian, Gottlieb and Jast",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 947,
-  "Rank": 364,
+  "UdListDefinitionId": 37,
+  "Rank": 790,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldLength": 821
     }
   }
 }

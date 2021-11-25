@@ -1,9 +1,9 @@
 ---
-title: SaveConnectionListMappings
+title: POST Agents/ErpSync/SaveConnectionListMappings
 id: v1ErpSyncAgent_SaveConnectionListMappings
 ---
 
-# SaveConnectionListMappings
+# POST Agents/ErpSync/SaveConnectionListMappings
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "ErpConnectionId": 819,
-    "ErpConnectionName": "Franecki-Fay"
+    "ErpConnectionId": 945,
+    "ErpConnectionName": "Johnston-Rogahn"
   }
 }
 ```
@@ -105,13 +105,13 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": {},
-      "ErpListName": "Rosenbaum, Welch and Lueilwitz",
+      "ErpListName": "McClure, Gislason and Koelpin",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Homenick Group",
-      "ErpFieldId": 557,
+      "ErpActorTypeName": "Gislason-Toy",
+      "ErpFieldId": 531,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,14 +119,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldType": "System.Int32",
+          "FieldLength": 880
         }
       }
     }
   ],
-  "ErpConnectionId": 610,
-  "ErpConnectionName": "Runolfsdottir-Dietrich",
+  "ErpConnectionId": 807,
+  "ErpConnectionName": "Hansen-Gutkowski",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "visualize cross-platform experiences"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 14
     }
   }
 }

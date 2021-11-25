@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -82,26 +82,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 810,
-    "Name": "Barrows LLC",
-    "Tooltip": "odit",
+    "WebPanelId": 41,
+    "Name": "Gaylord Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 930,
+    "Rank": 690,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Cole-Balistreri",
+    "ShowInStatusBar": true,
+    "WindowName": "Goyette-Fahey",
     "Url": "http://www.example.com/",
-    "ProgId": "cumque",
-    "Icon": 939,
+    "ProgId": "fuga",
+    "Icon": 670,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 358
       }
     }
   }

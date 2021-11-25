@@ -83,16 +83,16 @@ Response body: object
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 274,
-  "Name": "Schneider, Ernser and Hagenes",
-  "Tooltip": "numquam",
+  "HeadingId": 902,
+  "Name": "Kulas-Barrows",
+  "Tooltip": "illum",
   "Deleted": true,
-  "Rank": 676,
-  "UdListDefinitionId": 319
+  "Rank": 762,
+  "UdListDefinitionId": 572
 }
 ```
 
@@ -101,15 +101,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 308,
-  "Name": "Schuppe Group",
-  "Tooltip": "ad",
+  "HeadingId": 443,
+  "Name": "Raynor-Ernser",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 895,
-  "UdListDefinitionId": 619,
+  "Rank": 637,
+  "UdListDefinitionId": 879,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "syndicate value-added infomediaries"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

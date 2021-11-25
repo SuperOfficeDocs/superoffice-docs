@@ -1,9 +1,9 @@
 ---
-title: CopyQuoteAlternative
+title: POST Agents/Quote/CopyQuoteAlternative
 id: v1QuoteAgent_CopyQuoteAlternative
 ---
 
-# CopyQuoteAlternative
+# POST Agents/Quote/CopyQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
@@ -102,13 +102,13 @@ Response body: object
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 357,
-  "QuoteAlternativeId": 850,
-  "QuoteAlternativeName": "Zboncak-Rath"
+  "QuoteVersionId": 15,
+  "QuoteAlternativeId": 628,
+  "QuoteAlternativeName": "Glover-O'Connell"
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 86,
-  "ERPQuoteAlternativeKey": "eos",
-  "QuoteVersionId": 82,
-  "Name": "Cremin-Leannon",
-  "Description": "Seamless cohesive ability",
+  "QuoteAlternativeId": 976,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 286,
+  "Name": "Bahringer Inc and Sons",
+  "Description": "Inverse real-time success",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2641.962,
-  "ERPDiscountAmount": 6863.46,
-  "DiscountPercent": 19330.512,
-  "DiscountAmount": 17315.35,
+  "ERPDiscountPercent": 25899.376,
+  "ERPDiscountAmount": 16397.088,
+  "DiscountPercent": 27513.386,
+  "DiscountAmount": 14488.482,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "accusantium",
-  "VAT": 12861.936,
-  "EarningPercent": 1501.186,
-  "EarningAmount": 20505.762,
-  "SubTotal": 24868.29,
-  "TotalPrice": 14873.964,
-  "ExtraField1": "omnis",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "suscipit",
-  "ExtraField4": "magnam",
-  "ExtraField5": "excepturi",
+  "VATInfo": "accusamus",
+  "VAT": 216.24599999999998,
+  "EarningPercent": 15450.619999999999,
+  "EarningAmount": 1610.876,
+  "SubTotal": 29127.396,
+  "TotalPrice": 11949.942,
+  "ExtraField1": "natus",
+  "ExtraField2": "optio",
+  "ExtraField3": "aut",
+  "ExtraField4": "et",
+  "ExtraField5": "expedita",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldLength": 137
     }
   }
 }

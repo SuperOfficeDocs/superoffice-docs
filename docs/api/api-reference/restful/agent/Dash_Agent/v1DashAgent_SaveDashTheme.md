@@ -1,9 +1,9 @@
 ---
-title: SaveDashTheme
+title: POST Agents/Dash/SaveDashTheme
 id: v1DashAgent_SaveDashTheme
 ---
 
-# SaveDashTheme
+# POST Agents/Dash/SaveDashTheme
 
 ```http
 POST /api/v1/Agents/Dash/SaveDashTheme
@@ -42,6 +42,7 @@ The DashTheme to be saved.
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 
 
 ## Response: object
@@ -65,6 +66,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,14 +76,15 @@ Response body: object
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 919,
-  "Name": "Reichert, Kuvalis and Rosenbaum",
-  "Config": "pariatur",
-  "Rank": 576
+  "DashboardThemeId": 573,
+  "Name": "Shanahan, Kemmer and Cormier",
+  "Config": "aut",
+  "Rank": 131,
+  "Client": "sed"
 }
 ```
 
@@ -90,10 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 491,
-  "Name": "Rohan LLC",
-  "Config": "qui",
-  "Rank": 962,
+  "DashboardThemeId": 417,
+  "Name": "Bayer-Schumm",
+  "Config": "itaque",
+  "Rank": 127,
+  "Client": "debitis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 12
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: ActivateLicenseInfo
+title: POST Agents/License/ActivateLicenseInfo
 id: v1LicenseAgent_ActivateLicenseInfo
 ---
 
-# ActivateLicenseInfo
+# POST Agents/License/ActivateLicenseInfo
 
 ```http
 POST /api/v1/Agents/License/ActivateLicenseInfo
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/License/ActivateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "AccumulatedNextCheckDate": "2012-05-02T14:58:04.3254605+02:00"
+    "AccumulatedNextCheckDate": "2003-09-22T18:28:49.2361225+02:00"
   }
 }
 ```
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "benchmark collaborative supply-chains",
+  "Reason": "",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

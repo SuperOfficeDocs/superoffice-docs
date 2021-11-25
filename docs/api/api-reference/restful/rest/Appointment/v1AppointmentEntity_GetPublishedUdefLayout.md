@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 932,
-    "ColumnId": 888,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 266,
-    "FieldLabel": "harum",
-    "FieldLeft": 864,
-    "FieldTop": 71,
+    "UDefFieldId": 137,
+    "ColumnId": 925,
+    "FieldDefault": "et",
+    "FieldHeight": 218,
+    "FieldLabel": "deleniti",
+    "FieldLeft": 703,
+    "FieldTop": 776,
     "FieldType": "Checkbox",
-    "FieldWidth": 470,
-    "FormatMask": "corrupti",
+    "FieldWidth": 93,
+    "FormatMask": "ea",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 325,
-    "LabelLeft": 957,
-    "LabelTop": 145,
-    "LabelWidth": 84,
-    "LastVersionId": 711,
-    "ListTableId": 760,
+    "IsIndexed": false,
+    "LabelHeight": 887,
+    "LabelLeft": 952,
+    "LabelTop": 90,
+    "LabelWidth": 735,
+    "LastVersionId": 858,
+    "ListTableId": 903,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 295,
-    "ProgId": "atque",
-    "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 649,
-    "TextLength": 648,
-    "Tooltip": "nostrum",
-    "UdefIdentity": 999,
-    "UDListDefinitionId": 882,
+    "Page1LineNo": 982,
+    "ProgId": "ullam",
+    "IsReadOnly": true,
+    "ShortLabel": "in",
+    "TabOrder": 98,
+    "TextLength": 767,
+    "Tooltip": "sed",
+    "UdefIdentity": 282,
+    "UDListDefinitionId": 270,
     "Justification": "Center",
-    "Version": 422,
-    "TemplateVariableName": "Walter Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Hammes LLC",
+    "Version": 55,
+    "TemplateVariableName": "Hamill, Monahan and Hauck",
+    "HasBeenPublished": true,
+    "MdoListName": "Runolfsdottir-Rosenbaum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

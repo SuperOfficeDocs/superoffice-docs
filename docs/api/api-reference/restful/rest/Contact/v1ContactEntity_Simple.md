@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -89,59 +89,35 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 80,
-  "Name": "Raynor Inc and Sons",
-  "OrgNr": "1471136",
+  "ContactId": 631,
+  "Name": "O'Kon LLC",
+  "OrgNr": "871218",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "et",
-  "DirectPhone": "600-130-0255",
-  "AssociateId": 127,
-  "CountryId": 550,
-  "EmailAddress": "marina_nitzsche@pfefferschiller.info",
-  "Kananame": "eos",
-  "EmailAddressName": "tyrel.keeling@willmshayes.us",
+  "City": "consequuntur",
+  "DirectPhone": "773.075.6430 x04646",
+  "AssociateId": 521,
+  "CountryId": 672,
+  "EmailAddress": "laurel.tremblay@murray.com",
+  "Kananame": "culpa",
+  "EmailAddressName": "jeanette_leuschke@jacobi.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ms. Edyth Ernser",
+  "AssociateFullName": "Marielle Fadel",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": {
-    "Wgs84Latitude": 17152.381999999998,
-    "Wgs84Longitude": 1494.918,
+    "Wgs84Latitude": 5926.394,
+    "Wgs84Longitude": 30703.798,
     "LocalizedAddress": [
       [
         {
-          "Name": "Lang, Marquardt and Kirlin",
-          "Value": "pariatur",
-          "Tooltip": "eius",
-          "Label": "provident",
-          "ValueLength": 510,
-          "AddressType": "atque",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "maximize rich infrastructures"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 167
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Ullrich Group",
-          "Value": "non",
-          "Tooltip": "error",
-          "Label": "quaerat",
-          "ValueLength": 499,
-          "AddressType": "impedit",
+          "Name": "Pagac-Hermiston",
+          "Value": "qui",
+          "Tooltip": "rerum",
+          "Label": "molestias",
+          "ValueLength": 784,
+          "AddressType": "est",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -153,7 +129,31 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 798
+              "FieldLength": 598
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Name": "Davis Group",
+          "Value": "esse",
+          "Tooltip": "sint",
+          "Label": "a",
+          "ValueLength": 88,
+          "AddressType": "voluptas",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.Int32",
+              "FieldLength": 955
             }
           }
         }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": {},
     "Postal": {},
-    "Formatted": "possimus",
+    "Formatted": "fuga",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -170,14 +170,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldLength": 557
       }
     }
   },
-  "FormattedAddress": "inventore",
-  "FullName": "Jeffrey Larkin",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 849,
+  "FormattedAddress": "eveniet",
+  "FullName": "Estelle Hartmann",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 371,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

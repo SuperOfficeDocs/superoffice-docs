@@ -1,9 +1,9 @@
 ---
-title: GetSecondaryTempTileSelection
+title: POST Agents/Dash/GetSecondaryTempTileSelection
 id: v1DashAgent_GetSecondaryTempTileSelection
 ---
 
-# GetSecondaryTempTileSelection
+# POST Agents/Dash/GetSecondaryTempTileSelection
 
 ```http
 POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection
@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 202
+  "SelectionId": 19
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-231
+880
 ```

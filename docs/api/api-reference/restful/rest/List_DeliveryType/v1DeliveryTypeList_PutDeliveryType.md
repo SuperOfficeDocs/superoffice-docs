@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 798,
-  "Name": "Schneider, Lindgren and Sawayn",
-  "Tooltip": "tempore",
+  "Id": 483,
+  "Name": "Keeling-Wiegand",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 33,
-  "Rank": 742
+  "UdListDefinitionId": 982,
+  "Rank": 610
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 461,
-  "Name": "Botsford, Jones and Bins",
-  "Tooltip": "sed",
+  "Id": 378,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 397,
-  "Rank": 370,
+  "UdListDefinitionId": 311,
+  "Rank": 827,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "empower e-business architectures"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldLength": 272
     }
   }
 }

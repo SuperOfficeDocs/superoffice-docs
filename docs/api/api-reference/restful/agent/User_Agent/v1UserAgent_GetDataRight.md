@@ -1,9 +1,9 @@
 ---
-title: GetDataRight
+title: POST Agents/User/GetDataRight
 id: v1UserAgent_GetDataRight
 ---
 
-# GetDataRight
+# POST Agents/User/GetDataRight
 
 ```http
 POST /api/v1/Agents/User/GetDataRight
@@ -73,12 +73,12 @@ Response body: string
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 869,
-  "TableName": "West, Corwin and Spinka",
+  "RoleId": 966,
+  "TableName": "Hirthe LLC",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"rerum"
 ```

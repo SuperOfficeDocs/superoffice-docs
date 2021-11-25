@@ -1,9 +1,9 @@
 ---
-title: FindContactOrPersonByEmailName
+title: POST Agents/EMail/FindContactOrPersonByEmailName
 id: v1EMailAgent_FindContactOrPersonByEmailName
 ---
 
-# FindContactOrPersonByEmailName
+# POST Agents/EMail/FindContactOrPersonByEmailName
 
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
@@ -85,8 +85,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhn, Senger and Collins",
-  "EmailAddress": "theodora@ebert.uk"
+  "Name": "Lehner-Pagac",
+  "EmailAddress": "romaine.strosin@toy.co.uk"
 }
 ```
 
@@ -96,14 +96,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 131,
-    "FullName": "Shania Graham",
-    "EmailAddress": "green@keebler.biz",
-    "ContactId": 424,
-    "ContactName": "Crooks, Bechtelar and Green",
+    "PersonId": 572,
+    "FullName": "Johnson Bayer",
+    "EmailAddress": "nona.oconner@gerlachbruen.name",
+    "ContactId": 498,
+    "ContactName": "Langworth LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Hoppe Inc and Sons",
+    "SortName": "Barrows-Von",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

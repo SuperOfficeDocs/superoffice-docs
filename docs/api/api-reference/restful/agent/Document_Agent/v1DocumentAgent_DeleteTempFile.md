@@ -1,9 +1,9 @@
 ---
-title: DeleteTempFile
+title: POST Agents/Document/DeleteTempFile
 id: v1DocumentAgent_DeleteTempFile
 ---
 
-# DeleteTempFile
+# POST Agents/Document/DeleteTempFile
 
 ```http
 POST /api/v1/Agents/Document/DeleteTempFile

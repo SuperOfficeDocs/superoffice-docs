@@ -1,9 +1,9 @@
 ---
-title: GetAllTasks
+title: POST Agents/List/GetAllTasks
 id: v1ListAgent_GetAllTasks
 ---
 
-# GetAllTasks
+# POST Agents/List/GetAllTasks
 
 ```http
 POST /api/v1/Agents/List/GetAllTasks
@@ -89,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 394,
-    "Value": "et",
+    "TaskListItemId": 907,
+    "Value": "suscipit",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "iste",
+    "Tooltip": "non",
     "Deleted": true,
-    "IntentId": 505,
-    "Rank": 624,
+    "IntentId": 231,
+    "Rank": 44,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldLength": 350
       }
     }
   }

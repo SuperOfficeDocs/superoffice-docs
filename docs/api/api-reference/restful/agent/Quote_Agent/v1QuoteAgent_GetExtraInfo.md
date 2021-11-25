@@ -1,9 +1,9 @@
 ---
-title: GetExtraInfo
+title: POST Agents/Quote/GetExtraInfo
 id: v1QuoteAgent_GetExtraInfo
 ---
 
-# GetExtraInfo
+# POST Agents/Quote/GetExtraInfo
 
 ```http
 POST /api/v1/Agents/Quote/GetExtraInfo
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Batz, Hackett and Lockman",
-    "Value": "quam",
+    "Name": "Mayert, Sanford and Will",
+    "Value": "voluptatum",
     "Type": "Image",
     "TableRight": {
       "Mask": "Delete",
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   },
   {
-    "Name": "Batz, Hackett and Lockman",
-    "Value": "quam",
+    "Name": "Mayert, Sanford and Will",
+    "Value": "voluptatum",
     "Type": "Image",
     "TableRight": {
       "Mask": "Delete",
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

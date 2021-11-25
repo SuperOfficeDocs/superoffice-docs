@@ -1,9 +1,9 @@
 ---
-title: GetModuleLicenseFromDB
+title: POST Agents/License/GetModuleLicenseFromDB
 id: v1LicenseAgent_GetModuleLicenseFromDB
 ---
 
-# GetModuleLicenseFromDB
+# POST Agents/License/GetModuleLicenseFromDB
 
 ```http
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hermiston LLC",
-  "ModuleName": "Smith LLC"
+  "OwnerName": "Bruen-Bauch",
+  "ModuleName": "Rippin LLC"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Waters, Considine and Halvorson",
-  "ModuleName": "Grimes-Heidenreich",
-  "ModuleDescription": "Function-based actuating neural-net",
-  "ModuleTooltip": "ut",
-  "ModuleVersion": "labore",
+  "OwnerName": "O'Keefe, Bednar and Green",
+  "ModuleName": "Vandervort-Kutch",
+  "ModuleDescription": "Synergistic intangible parallelism",
+  "ModuleTooltip": "quis",
+  "ModuleVersion": "omnis",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 197,
-  "ExtraFlags": 859,
-  "ExtraInfo": "a",
-  "SortOrder": 594,
+  "NumberOfLicenses": 940,
+  "ExtraFlags": 520,
+  "ExtraInfo": "dolor",
+  "SortOrder": 342,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Heidenreich Inc and Sons",
-  "Signature": "corrupti"
+  "PrerequisiteModuleName": "Paucek, Rath and Kautzer",
+  "Signature": "qui"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailConnectionInfo
+title: POST Agents/EMail/CreateDefaultEMailConnectionInfo
 id: v1EMailAgent_CreateDefaultEMailConnectionInfo
 ---
 
-# CreateDefaultEMailConnectionInfo
+# POST Agents/EMail/CreateDefaultEMailConnectionInfo
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -74,11 +74,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Dibbert, Senger and Greenfelder",
-  "UserName": "Dare-Simonis",
-  "Password": "ut",
-  "Folder": "voluptate",
-  "UseSSL": true,
+  "ServerName": "Herzog Group",
+  "UserName": "Sauer-Heidenreich",
+  "Password": "est",
+  "Folder": "id",
+  "UseSSL": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 332
     }
   }
 }

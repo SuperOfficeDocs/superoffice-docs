@@ -71,38 +71,38 @@ Response body: object
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 May 1999 15:05:42 G5T
+Last-Modified: Sat, 24 Oct 2015 18:25:50 G10T
 
 {
-  "BlobId": 569,
-  "BlobSize": 314,
-  "Description": "Open-architected next generation hierarchy",
+  "BlobId": 256,
+  "BlobSize": 626,
+  "Description": "Adaptive bi-directional ability",
   "ExtraInfo": "illum",
-  "IsEncrypted": false,
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "harum",
-  "OriginalSize": 95,
-  "CreatedDate": "2000-12-10T15:05:42.4296675+01:00",
-  "UpdatedDate": "1999-05-18T15:05:42.4296675+02:00",
+  "MimeType": "dicta",
+  "OriginalSize": 955,
+  "CreatedDate": "2012-12-31T18:25:50.7858837+01:00",
+  "UpdatedDate": "2015-10-24T18:25:50.7858837+02:00",
   "CreatedBy": {
-    "AssociateId": 235,
-    "Name": "Skiles, Orn and Ratke",
-    "PersonId": 404,
-    "Rank": 566,
-    "Tooltip": "cum",
+    "AssociateId": 382,
+    "Name": "Bradtke Group",
+    "PersonId": 254,
+    "Rank": 492,
+    "Tooltip": "dolor",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 121,
-    "FullName": "Mylene Eichmann",
-    "FormalName": "McDermott-McClure",
+    "GroupIdx": 798,
+    "FullName": "Hilma Batz",
+    "FormalName": "Zulauf LLC",
     "Deleted": false,
-    "EjUserId": 798,
-    "UserName": "Padberg, Gusikowski and Reichel",
+    "EjUserId": 761,
+    "UserName": "Osinski-Muller",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -110,40 +110,40 @@ Last-Modified: Tue, 18 May 1999 15:05:42 G5T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldType": "System.Int32",
+        "FieldLength": 16
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 999,
-    "Name": "Murazik, Moen and O'Hara",
-    "PersonId": 67,
-    "Rank": 263,
-    "Tooltip": "at",
+    "AssociateId": 820,
+    "Name": "Metz, Wilkinson and Bergstrom",
+    "PersonId": 109,
+    "Rank": 45,
+    "Tooltip": "eum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 908,
-    "FullName": "Brannon Rohan",
-    "FormalName": "Nicolas, Kunze and McDermott",
+    "GroupIdx": 111,
+    "FullName": "Ruby Emmerich",
+    "FormalName": "Rutherford-Blick",
     "Deleted": false,
-    "EjUserId": 687,
-    "UserName": "Conroy-Mayer",
+    "EjUserId": 210,
+    "UserName": "Marquardt, Dicki and Predovic",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower wireless platforms"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   },
-  "ConceptualType": "atque",
+  "ConceptualType": "et",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "mesh ubiquitous paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -151,8 +151,8 @@ Last-Modified: Tue, 18 May 1999 15:05:42 G5T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 436
     }
   }
 }

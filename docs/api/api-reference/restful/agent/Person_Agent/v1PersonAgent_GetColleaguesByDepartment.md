@@ -1,9 +1,9 @@
 ---
-title: GetColleaguesByDepartment
+title: POST Agents/Person/GetColleaguesByDepartment
 id: v1PersonAgent_GetColleaguesByDepartment
 ---
 
-# GetColleaguesByDepartment
+# POST Agents/Person/GetColleaguesByDepartment
 
 ```http
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 64
+  "DepartmentId": 305
 }
 ```
 
@@ -126,49 +126,49 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "numquam",
-    "PersonId": 880,
-    "Mrmrs": "perspiciatis",
-    "Firstname": "Max",
+    "Position": "molestiae",
+    "PersonId": 143,
+    "Mrmrs": "repellat",
+    "Firstname": "Marshall",
     "Lastname": "Runolfsdottir",
-    "MiddleName": "Schulist-Bins",
-    "Title": "dolore",
-    "Description": "Optimized clear-thinking utilisation",
-    "Email": "shaun_bruen@weissnat.info",
-    "FullName": "Mariano Hessel II",
-    "DirectPhone": "(783)378-1311 x263",
-    "FormalName": "Kling LLC",
-    "CountryId": 29,
-    "ContactId": 497,
-    "ContactName": "Stark-Schroeder",
-    "Retired": 354,
-    "Rank": 36,
-    "ActiveInterests": 65,
-    "ContactDepartment": "",
-    "ContactCountryId": 364,
-    "ContactOrgNr": "1393293",
-    "FaxPhone": "661.325.7574",
-    "MobilePhone": "055.643.6842 x117",
-    "ContactPhone": "648-313-5184 x402",
-    "AssociateName": "Hills LLC",
-    "AssociateId": 908,
-    "UsePersonAddress": true,
-    "ContactFax": "maiores",
-    "Kanafname": "velit",
-    "Kanalname": "nisi",
-    "Post1": "facere",
-    "Post2": "atque",
-    "Post3": "aspernatur",
-    "EmailName": "kathryn.wilderman@danielswift.us",
-    "ContactFullName": "Alyson Bahringer",
-    "ActiveErpLinks": 898,
-    "TicketPriorityId": 641,
-    "SupportLanguageId": 122,
-    "SupportAssociateId": 229,
+    "MiddleName": "Trantow Inc and Sons",
+    "Title": "pariatur",
+    "Description": "Mandatory bandwidth-monitored internet solution",
+    "Email": "adela@muellerokeefe.name",
+    "FullName": "Bethel Bailey MD",
+    "DirectPhone": "318-542-5383",
+    "FormalName": "Kuhlman LLC",
+    "CountryId": 795,
+    "ContactId": 185,
+    "ContactName": "Hudson LLC",
+    "Retired": 457,
+    "Rank": 635,
+    "ActiveInterests": 853,
+    "ContactDepartment": "optimize world-class schemas",
+    "ContactCountryId": 286,
+    "ContactOrgNr": "1305989",
+    "FaxPhone": "021-672-5124 x1101",
+    "MobilePhone": "1-840-745-7650",
+    "ContactPhone": "202.728.5771",
+    "AssociateName": "Rempel Group",
+    "AssociateId": 487,
+    "UsePersonAddress": false,
+    "ContactFax": "sequi",
+    "Kanafname": "magnam",
+    "Kanalname": "qui",
+    "Post1": "aut",
+    "Post2": "minima",
+    "Post3": "quos",
+    "EmailName": "werner.mills@rodriguezkemmer.co.uk",
+    "ContactFullName": "Stanley Hodkiewicz",
+    "ActiveErpLinks": 255,
+    "TicketPriorityId": 230,
+    "SupportLanguageId": 543,
+    "SupportAssociateId": 239,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "deliver real-time applications"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 345
       }
     }
   }

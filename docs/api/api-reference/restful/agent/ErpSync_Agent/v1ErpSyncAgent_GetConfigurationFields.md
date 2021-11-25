@@ -1,9 +1,9 @@
 ---
-title: GetConfigurationFields
+title: POST Agents/ErpSync/GetConfigurationFields
 id: v1ErpSyncAgent_GetConfigurationFields
 ---
 
-# GetConfigurationFields
+# POST Agents/ErpSync/GetConfigurationFields
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
@@ -84,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 591
+  "ErpConnectorId": 294
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "commodi",
-    "Rank": 389,
-    "DisplayName": "Roob-Carroll",
-    "DisplayDescription": "Pre-emptive dedicated knowledge user",
+    "FieldKey": "cumque",
+    "Rank": 496,
+    "DisplayName": "Emmerich, Tromp and Wisozk",
+    "DisplayDescription": "Switchable radical definition",
     "FieldType": "Checkbox",
-    "ListName": "Zboncak LLC",
-    "DefaultValue": "consequatur",
-    "MaxLength": 391,
+    "ListName": "Goodwin Inc and Sons",
+    "DefaultValue": "nisi",
+    "MaxLength": 735,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 820
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetWebAppUsagesForPeriod
+title: POST Agents/Diagnostics/GetWebAppUsagesForPeriod
 id: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
 ---
 
-# GetWebAppUsagesForPeriod
+# POST Agents/Diagnostics/GetWebAppUsagesForPeriod
 
 ```http
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
@@ -81,13 +81,13 @@ Response body: array
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2020-03-19T14:58:03.8054644+01:00",
-  "ToDate": "1995-02-18T14:58:03.8054644+01:00",
-  "SearchTerm": "atque"
+  "FromDate": "2008-03-16T18:28:48.7029564+01:00",
+  "ToDate": "2015-03-23T18:28:48.7029564+01:00",
+  "SearchTerm": "voluptatem"
 }
 ```
 
@@ -97,16 +97,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 742,
-    "AssocId": 173,
-    "Timestamp": "2019-06-27T14:58:03.8054644+02:00",
-    "ViewState": "cumque",
-    "AggregateCount": 273,
-    "AggregateBin": 886,
-    "Version": 312,
+    "WebAppUsageId": 964,
+    "AssocId": 902,
+    "Timestamp": "2011-03-09T18:28:48.7029564+01:00",
+    "ViewState": "aut",
+    "AggregateCount": 247,
+    "AggregateBin": 308,
+    "Version": 161,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "utilize 24/365 mindshare"
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

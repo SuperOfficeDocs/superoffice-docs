@@ -1,9 +1,9 @@
 ---
-title: GetProject
+title: POST Agents/Project/GetProject
 id: v1ProjectAgent_GetProject
 ---
 
-# GetProject
+# POST Agents/Project/GetProject
 
 ```http
 POST /api/v1/Agents/Project/GetProject
@@ -25,7 +25,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=961
+POST /api/v1/Agents/Project/GetProject?projectId=262
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ Response body: object
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -92,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 628,
-  "Name": "Bashirian-Hettinger",
-  "Description": "Up-sized attitude-oriented data-warehouse",
+  "ProjectId": 496,
+  "Name": "Carter-Daniel",
+  "Description": "Operative holistic database",
   "URL": "http://www.example.com/",
-  "Type": "quasi",
-  "AssociateId": 986,
-  "AssociateFullName": "Sage Moore",
-  "TypeId": 622,
-  "Updated": "2017-03-13T14:58:04.906466+01:00",
-  "StatusId": 20,
-  "Status": "hic",
-  "TextId": 233,
-  "PublishTo": "2001-12-11T14:58:04.906466+01:00",
-  "PublishFrom": "1996-10-12T14:58:04.906466+02:00",
-  "IsPublished": false,
+  "Type": "dolore",
+  "AssociateId": 313,
+  "AssociateFullName": "Willis Heller",
+  "TypeId": 687,
+  "Updated": "2003-04-18T18:28:49.8881075+02:00",
+  "StatusId": 734,
+  "Status": "pariatur",
+  "TextId": 795,
+  "PublishTo": "2014-08-11T18:28:49.8881075+02:00",
+  "PublishFrom": "2021-10-17T18:28:49.8881075+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1054551",
-  "ActiveErpLinks": 273,
+  "ProjectNumber": "1184400",
+  "ActiveErpLinks": 332,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 660
     }
   }
 }

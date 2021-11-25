@@ -50,6 +50,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -78,16 +79,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 395,
-  "Name": "Torp Group",
-  "Description": "Open-source attitude-oriented contingency",
-  "AssociateId": 112,
-  "Columns": 610,
+  "DashboardId": 726,
+  "UniqueId": "ut",
+  "Name": "Gleason LLC",
+  "Description": "Re-engineered analyzing project",
+  "AssociateId": 361,
+  "Columns": 846,
   "Theme": {
-    "DashboardThemeId": 824,
-    "Name": "Bartell, Kling and Mohr",
-    "Config": "ea",
-    "Rank": 628,
+    "DashboardThemeId": 868,
+    "Name": "Orn-Morar",
+    "Config": "quo",
+    "Rank": 874,
+    "Client": "voluptatem",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,28 +98,28 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 756
       }
     }
   },
-  "VisibleForAll": 536,
+  "VisibleForAll": 410,
   "VisibleForAssociates": [
-    758,
-    581
+    992,
+    120
   ],
   "VisibleForGroups": [
-    66,
-    980
+    273,
+    936
   ],
-  "PinForAll": 352,
+  "PinForAll": 729,
   "PinForAssociates": [
-    365,
-    623
+    417,
+    20
   ],
   "PinForGroups": [
-    668,
-    887
+    103,
+    122
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -128,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 871
     }
   }
 }

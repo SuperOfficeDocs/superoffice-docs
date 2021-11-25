@@ -1,9 +1,9 @@
 ---
-title: ExecuteByEntityIds
+title: POST Agents/BulkUpdate/ExecuteByEntityIds
 id: v1BulkUpdateAgent_ExecuteByEntityIds
 ---
 
-# ExecuteByEntityIds
+# POST Agents/BulkUpdate/ExecuteByEntityIds
 
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
@@ -71,7 +71,7 @@ Response body: int32
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,26 +81,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "qui",
-      "ValueType": "odit",
-      "Mandatory": true,
-      "EncodedDisplayName": "Wolf, Bins and Walter",
-      "EncodedDisplayDescription": "Focused tertiary website",
-      "IconHint": "laborum",
+      "Key": "dolores",
+      "ValueType": "aliquid",
+      "Mandatory": false,
+      "EncodedDisplayName": "Waelchi-Considine",
+      "EncodedDisplayDescription": "Implemented radical firmware",
+      "IconHint": "doloremque",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "illum",
-      "EncodedDataCaptionDescription": "Streamlined impactful functionalities",
-      "CurrentOperationType": "quod",
+      "EncodedDataCaption": "accusamus",
+      "EncodedDataCaptionDescription": "Vision-oriented zero administration productivity",
+      "CurrentOperationType": "id",
       "Values": [
-        "esse",
-        "numquam"
+        "sit",
+        "labore"
       ],
       "DisplayValues": [
-        "doloremque",
-        "ullam"
+        "debitis",
+        "est"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Flatley, Hyatt and Kunde",
-  "Context": "animi",
-  "Ids": "natus"
+  "TableName": "Rath-Lind",
+  "Context": "ut",
+  "Ids": "incidunt"
 }
 ```
 
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-359
+737
 ```

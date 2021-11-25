@@ -1,9 +1,9 @@
 ---
-title: IsNumberValid
+title: POST Agents/Sale/IsNumberValid
 id: v1SaleAgent_IsNumberValid
 ---
 
-# IsNumberValid
+# POST Agents/Sale/IsNumberValid
 
 ```http
 POST /api/v1/Agents/Sale/IsNumberValid
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Sale/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 324,
-  "Number": "1094031"
+  "ContactId": 238,
+  "Number": "940230"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

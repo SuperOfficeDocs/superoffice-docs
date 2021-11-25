@@ -1,9 +1,9 @@
 ---
-title: GetAreaList
+title: POST Agents/Replication/GetAreaList
 id: v1ReplicationAgent_GetAreaList
 ---
 
-# GetAreaList
+# POST Agents/Replication/GetAreaList
 
 ```http
 POST /api/v1/Agents/Replication/GetAreaList
@@ -86,11 +86,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 698,
-    "Name": "Kiehn-Schneider",
-    "MaxDataAge": 864,
-    "NumberOfUsers": 294,
-    "NumberOfLogins": 343,
+    "AreaId": 821,
+    "Name": "Wolff-Glover",
+    "MaxDataAge": 777,
+    "NumberOfUsers": 668,
+    "NumberOfLogins": 650,
     "FreetextEnabeled": true,
     "TableRight": {
       "Mask": "Delete",
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 113
       }
     }
   }

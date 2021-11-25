@@ -1,9 +1,9 @@
 ---
-title: GetHelpDispatcherUrl
+title: POST Agents/Configuration/GetHelpDispatcherUrl
 id: v1ConfigurationAgent_GetHelpDispatcherUrl
 ---
 
-# GetHelpDispatcherUrl
+# POST Agents/Configuration/GetHelpDispatcherUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_

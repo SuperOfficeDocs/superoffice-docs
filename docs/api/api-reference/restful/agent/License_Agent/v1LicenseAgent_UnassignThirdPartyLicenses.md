@@ -1,9 +1,9 @@
 ---
-title: UnassignThirdPartyLicenses
+title: POST Agents/License/UnassignThirdPartyLicenses
 id: v1LicenseAgent_UnassignThirdPartyLicenses
 ---
 
-# UnassignThirdPartyLicenses
+# POST Agents/License/UnassignThirdPartyLicenses
 
 ```http
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
@@ -72,12 +72,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -87,15 +88,15 @@ Response body: array
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 390,
-  "ModuleOwner": "pariatur",
+  "AssociateId": 487,
+  "ModuleOwner": "ut",
   "ModuleLicenseNames": [
-    "Osinski, Cummerata and Braun",
-    "Hyatt Group"
+    "Johnston-Grady",
+    "Kautzer-Glover"
   ]
 }
 ```
@@ -107,30 +108,31 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 169,
-    "Tooltip": "assumenda",
+    "Total": 343,
+    "Tooltip": "aut",
     "CanAssign": false,
-    "Free": 380,
-    "InUse": 755,
+    "Free": 52,
+    "InUse": 352,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 53,
-    "Name": "Murphy Group",
-    "Description": "Multi-tiered even-keeled database",
-    "PrerequisiteModuleName": "Skiles, McLaughlin and Emard",
-    "SortOrder": 350,
+    "ModuleLicenseId": 477,
+    "Name": "Bechtelar-Borer",
+    "Description": "Seamless fault-tolerant migration",
+    "PrerequisiteModuleName": "Lakin LLC",
+    "SortOrder": 419,
+    "ExtraFlags": 397,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "morph impactful users"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "strategize customized supply-chains"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   }

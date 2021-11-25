@@ -1,9 +1,9 @@
 ---
-title: FindWithExtraRestrictions2
+title: POST Agents/Find/FindWithExtraRestrictions2
 id: v1FindAgent_FindWithExtraRestrictions2
 ---
 
-# FindWithExtraRestrictions2
+# POST Agents/Find/FindWithExtraRestrictions2
 
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
@@ -177,14 +177,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsam",
-  "ProviderName": "Corwin-Braun",
-  "StorageKey": "magnam",
-  "ExtraRestrictions": "consectetur",
-  "OrderBy": "ipsa",
-  "DesiredColumns": "quo",
-  "PageSize": 661,
-  "PageNumber": 763
+  "StorageType": "ut",
+  "ProviderName": "Lockman-Brekke",
+  "StorageKey": "qui",
+  "ExtraRestrictions": "blanditiis",
+  "OrderBy": "debitis",
+  "DesiredColumns": "aspernatur",
+  "PageSize": 924,
+  "PageNumber": 655
 }
 ```
 
@@ -195,34 +195,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Grimes-Nicolas",
-      "DisplayTooltip": "maxime",
-      "DisplayType": "vel",
-      "CanOrderBy": false,
-      "Name": "Streich LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "quos",
-      "RestrictionListName": "Nolan-Jewess",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "optio",
-      "IconHint": "recusandae",
-      "HeadingIconHint": "eum"
+      "DisplayName": "Casper, Ledner and Kub",
+      "DisplayTooltip": "dolorum",
+      "DisplayType": "doloremque",
+      "CanOrderBy": true,
+      "Name": "Swift, Leffler and Ebert",
+      "CanRestrictBy": true,
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Kuhlman Group",
+      "IsVisible": false,
+      "ExtraInfo": "nemo",
+      "Width": "expedita",
+      "IconHint": "et",
+      "HeadingIconHint": "earum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schiller Group",
-      "PrimaryKey": 936,
+      "EntityName": "Moore LLC",
+      "PrimaryKey": 427,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cumque",
-          "TooltipHint": "totam",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "rerum",
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "modi",
-      "StyleHint": "corrupti",
+      "LinkHint": "excepturi",
+      "StyleHint": "eveniet",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -230,25 +230,25 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 839
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
   ],
-  "RowCount": 590,
+  "RowCount": 779,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "whiteboard back-end action-items"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "synthesize dynamic e-commerce"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldLength": 386
     }
   }
 }

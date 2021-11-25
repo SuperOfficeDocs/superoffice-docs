@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultWebPanelEntity
+title: POST Agents/List/CreateDefaultWebPanelEntity
 id: v1ListAgent_CreateDefaultWebPanelEntity
 ---
 
-# CreateDefaultWebPanelEntity
+# POST Agents/List/CreateDefaultWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,26 +86,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 244,
-  "Name": "Lemke-Gleason",
-  "Tooltip": "corporis",
+  "WebPanelId": 805,
+  "Name": "Beer, Daniel and Adams",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 804,
+  "Rank": 72,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Kshlerin Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Friesen-Cole",
   "Url": "http://www.example.com/",
   "ProgId": "eos",
-  "Icon": 542,
+  "Icon": 928,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 994
     }
   }
 }

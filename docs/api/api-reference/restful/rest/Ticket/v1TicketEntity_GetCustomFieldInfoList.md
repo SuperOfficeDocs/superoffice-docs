@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mitchell-Raynor",
-    "DisplayName": "Ziemann, Jast and McClure",
-    "Description": "Fundamental regional throughput",
-    "ShortLabel": "ut",
-    "HideLabel": true,
+    "FieldName": "Rutherford LLC",
+    "DisplayName": "Kris-Miller",
+    "Description": "Multi-lateral mission-critical benchmark",
+    "ShortLabel": "quia",
+    "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 244,
-    "TemplateVariableName": "Lindgren-McClure"
+    "IsExternal": true,
+    "Rank": 846,
+    "TemplateVariableName": "Walsh-Stokes"
   }
 ]
 ```

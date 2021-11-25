@@ -1,9 +1,9 @@
 ---
-title: GetPaymentTypes
+title: POST Agents/List/GetPaymentTypes
 id: v1ListAgent_GetPaymentTypes
 ---
 
-# GetPaymentTypes
+# POST Agents/List/GetPaymentTypes
 
 ```http
 POST /api/v1/Agents/List/GetPaymentTypes
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPaymentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Value": "velit",
-    "Tooltip": "optio",
+    "Id": 349,
+    "Value": "cum",
+    "Tooltip": "alias",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate best-of-breed e-commerce"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldLength": 122
       }
     }
   },
   {
-    "Id": 155,
-    "Value": "velit",
-    "Tooltip": "optio",
+    "Id": 349,
+    "Value": "cum",
+    "Tooltip": "alias",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate best-of-breed e-commerce"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldLength": 122
       }
     }
   }

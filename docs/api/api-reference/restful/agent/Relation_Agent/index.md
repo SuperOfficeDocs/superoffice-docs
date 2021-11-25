@@ -2,8 +2,6 @@
 title: Relation_Agent
 ---
 
-# Relation_Agent
-
 ```http
 /api/v1/Relation/Agent
 ```
@@ -11,10 +9,10 @@ title: Relation_Agent
 
 
 
-* [CreateDefaultContactRelationEntity](v1RelationAgent_CreateDefaultContactRelationEntity.md)
+* [POST Agents/Relation/CreateDefaultContactRelationEntity](v1RelationAgent_CreateDefaultContactRelationEntity.md)
 
-* [GetContactRelationEntity](v1RelationAgent_GetContactRelationEntity.md)
+* [POST Agents/Relation/GetContactRelationEntity](v1RelationAgent_GetContactRelationEntity.md)
 
-* [SaveContactRelation](v1RelationAgent_SaveContactRelation.md)
+* [POST Agents/Relation/SaveContactRelation](v1RelationAgent_SaveContactRelation.md)
 
-* [DeleteContactRelation](v1RelationAgent_DeleteContactRelation.md)
+* [POST Agents/Relation/DeleteContactRelation](v1RelationAgent_DeleteContactRelation.md)

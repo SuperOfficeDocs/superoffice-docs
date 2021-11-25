@@ -29,8 +29,8 @@ Gets the value of the string(s) with a given name in all known languages.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}?isoLangCode=non
-GET /api/v1/String/{sr_id}?ignoreOverrides=True
+GET /api/v1/String/{sr_id}?isoLangCode=numquam
+GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
 
 
@@ -65,7 +65,7 @@ Response body: object
 GET /api/v1/String/{sr_id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_

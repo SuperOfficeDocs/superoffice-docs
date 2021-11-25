@@ -1,9 +1,9 @@
 ---
-title: GetPersonAppointmentsByType
+title: POST Agents/Appointment/GetPersonAppointmentsByType
 id: v1AppointmentAgent_GetPersonAppointmentsByType
 ---
 
-# GetPersonAppointmentsByType
+# POST Agents/Appointment/GetPersonAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
@@ -126,15 +126,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 616,
+  "PersonId": 243,
   "IncludeProjectAppointments": true,
-  "StartTime": "2018-10-29T14:58:03.0525384+01:00",
-  "EndTime": "1997-10-05T14:58:03.0525384+02:00",
-  "Count": 881,
+  "StartTime": "2007-10-04T18:28:47.8958446+02:00",
+  "EndTime": "2017-10-21T18:28:47.8958446+02:00",
+  "Count": 695,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -145,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 232,
-    "StartDate": "2007-01-04T14:58:03.0535383+01:00",
-    "EndDate": "2015-11-15T14:58:03.0535383+01:00",
+    "AppointmentId": 678,
+    "StartDate": "2016-04-21T18:28:47.8968445+02:00",
+    "EndDate": "2000-10-07T18:28:47.8968445+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Nicholas Larson",
-    "ContactName": "Spencer-Grady",
-    "Description": "Up-sized scalable alliance",
-    "PersonFullName": "Kieran Bartell",
-    "PersonId": 908,
-    "ContactId": 558,
-    "ProjectId": 839,
-    "ProjectName": "Schimmel Group",
-    "IsPublished": true,
-    "AssociateId": 911,
-    "ColorIndex": 440,
+    "Task": "expedita",
+    "AssociateFullName": "Oran Prosacco",
+    "ContactName": "Kreiger-Wiegand",
+    "Description": "Programmable holistic migration",
+    "PersonFullName": "Gerry Littel",
+    "PersonId": 796,
+    "ContactId": 417,
+    "ProjectId": 58,
+    "ProjectName": "Baumbach-Huel",
+    "IsPublished": false,
+    "AssociateId": 685,
+    "ColorIndex": 461,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 400,
-    "PriorityName": "Kunze, Kovacek and Lebsack",
+    "PriorityId": 991,
+    "PriorityName": "Leuschke-Feil",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-01-11T14:58:03.0545381+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2009-11-22T18:28:47.8978442+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-01-07T14:58:03.0545381+01:00",
-    "RecurringEndDate": "2003-12-29T14:58:03.0545381+01:00",
-    "MotherId": 391,
-    "AssignedBy": 250,
-    "AssignedByFullName": "Dr. Maryse Collier",
+    "RecurringStartDate": "2005-09-03T18:28:47.8978442+02:00",
+    "RecurringEndDate": "2002-05-23T18:28:47.8978442+02:00",
+    "MotherId": 894,
+    "AssignedBy": 754,
+    "AssignedByFullName": "Amir Jerde IV",
     "RejectReason": "",
-    "Location": "quod",
-    "AlarmLeadTime": "velit",
-    "SaleId": 381,
-    "SaleName": "Bradtke Group",
-    "AssociateName": "Trantow, Kessler and Marvin",
-    "CreatedDate": "2010-02-02T14:58:03.0545381+01:00",
-    "CreatedBy": "sint",
-    "CreatedByFullName": "Paige Douglas",
-    "CreatedByAssociateId": 638,
+    "Location": "sunt",
+    "AlarmLeadTime": "vel",
+    "SaleId": 716,
+    "SaleName": "Donnelly, Kemmer and Schamberger",
+    "AssociateName": "Wolf-Kuhlman",
+    "CreatedDate": "2012-09-15T18:28:47.8978442+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Mr. Weston Russel",
+    "CreatedByAssociateId": 358,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

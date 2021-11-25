@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Beier, Brown and Donnelly",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 688,
-  "Rank": 326,
+  "Id": 777,
+  "Name": "Lesch-Monahan",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "UdListDefinitionId": 736,
+  "Rank": 749,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 840
     }
   }
 }

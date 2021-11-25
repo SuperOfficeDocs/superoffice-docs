@@ -1,9 +1,9 @@
 ---
-title: GetSaleStakeholders
+title: POST Agents/Sale/GetSaleStakeholders
 id: v1SaleAgent_GetSaleStakeholders
 ---
 
-# GetSaleStakeholders
+# POST Agents/Sale/GetSaleStakeholders
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholders
@@ -91,11 +91,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 292
+  "SaleId": 919
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Spinka-Hintz",
-    "Comment": "in",
-    "StakeholderRoleId": 855,
-    "CountryId": 523,
-    "PersonId": 882,
-    "EmailDescription": "buddy.west@kihnohara.co.uk",
-    "EmailId": 646,
-    "EmailAddress": "kody@waelchi.info",
-    "PhoneId": 882,
-    "ContactName": "Rau-Little",
-    "ContactId": 812,
-    "SaleId": 959,
-    "Mrmrs": "molestiae",
-    "Firstname": "Hilbert",
-    "MiddleName": "Schoen Group",
-    "Lastname": "Bartoletti",
-    "SaleStakeholderId": 333,
-    "Rank": 552,
-    "Phone": "838.373.8011",
+    "StakeholderRoleName": "Nicolas, Nienow and Hand",
+    "Comment": "laborum",
+    "StakeholderRoleId": 828,
+    "CountryId": 104,
+    "PersonId": 918,
+    "EmailDescription": "isabelle_romaguera@boylehuels.name",
+    "EmailId": 852,
+    "EmailAddress": "marty_oberbrunner@hegmann.uk",
+    "PhoneId": 355,
+    "ContactName": "Langosh Group",
+    "ContactId": 861,
+    "SaleId": 146,
+    "Mrmrs": "et",
+    "Firstname": "Maxie",
+    "MiddleName": "Bashirian Group",
+    "Lastname": "Aufderhar",
+    "SaleStakeholderId": 995,
+    "Rank": 674,
+    "Phone": "(383)716-7461",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

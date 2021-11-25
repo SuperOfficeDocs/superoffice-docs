@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithHeaderWithContext2
+title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
 ---
 
-# GetArchiveListByColumnsWithHeaderWithContext2
+# POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
@@ -173,19 +173,19 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cummings, Ruecker and Carter",
-  "Columns": "distinctio",
-  "SortOrder": "dolores",
-  "Restriction": "veniam",
-  "Entities": "est",
-  "Page": 993,
-  "PageSize": 383,
-  "Options": "dicta",
-  "Context": "aperiam"
+  "ProviderName": "Graham LLC",
+  "Columns": "iusto",
+  "SortOrder": "beatae",
+  "Restriction": "totam",
+  "Entities": "optio",
+  "Page": 853,
+  "PageSize": 194,
+  "Options": "aut",
+  "Context": "voluptatem"
 }
 ```
 
@@ -194,20 +194,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 954,
+  "RowCount": 839,
   "Rows": [
     {
-      "EntityName": "Schmidt, Wisozk and Lynch",
-      "PrimaryKey": 40,
+      "EntityName": "Feeney-Beatty",
+      "PrimaryKey": 115,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "pariatur",
-          "TooltipHint": "quidem",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "tempore",
+          "TooltipHint": "quis",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "dolor",
+      "LinkHint": "dicta",
+      "StyleHint": "tenetur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 740
+          "FieldLength": 49
         }
       }
     }
@@ -229,10 +229,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "cultivate visionary eyeballs"
       },
       "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldLength": 602
     }
   }
 }

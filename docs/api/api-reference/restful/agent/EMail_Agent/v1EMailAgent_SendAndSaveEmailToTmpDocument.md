@@ -1,9 +1,9 @@
 ---
-title: SendAndSaveEmailToTmpDocument
+title: POST Agents/EMail/SendAndSaveEmailToTmpDocument
 id: v1EMailAgent_SendAndSaveEmailToTmpDocument
 ---
 
-# SendAndSaveEmailToTmpDocument
+# POST Agents/EMail/SendAndSaveEmailToTmpDocument
 
 ```http
 POST /api/v1/Agents/EMail/SendAndSaveEmailToTmpDocument
@@ -71,7 +71,7 @@ Response body: string
 POST /api/v1/Agents/EMail/SendAndSaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "animi",
-    "HTMLBody": "perspiciatis",
+    "Subject": "ducimus",
+    "HTMLBody": "ut",
     "From": {},
-    "Sent": "2010-01-26T14:58:04.0774739+01:00",
-    "Size": 690,
+    "Sent": "2003-02-12T18:28:48.990955+01:00",
+    "Size": 711,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "enim",
-    "PlainBody": "rerum",
+    "MessageID": "nobis",
+    "PlainBody": "saepe",
     "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 547,
+    "ServerId": 86,
     "Attachments": [
       {},
       {}
@@ -108,13 +108,13 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Crona, Watsica and Bruen",
-    "EmailItemId": 679,
-    "AccountId": 941,
-    "ReceivedAt": "2019-09-19T14:58:04.0784655+02:00",
+    "FolderName": "Stark-Collier",
+    "EmailItemId": 834,
+    "AccountId": 867,
+    "ReceivedAt": "1996-02-13T18:28:48.990955+01:00",
     "InReplyTo": {},
-    "RepliedAt": "2010-05-15T14:58:04.0784655+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2010-01-05T18:28:48.990955+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
   },
@@ -126,5 +126,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tre@tromp.ca"
+"ferne@brown.com"
 ```

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Hauck-Cartwright",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 613,
-  "Rank": 277,
+  "Id": 204,
+  "Name": "West, Blick and Mills",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "UdListDefinitionId": 639,
+  "Rank": 709,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incentivize out-of-the-box web services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

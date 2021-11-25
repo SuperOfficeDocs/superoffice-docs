@@ -1,9 +1,9 @@
 ---
-title: GetDeviceKeys
+title: POST Agents/ForeignSystem/GetDeviceKeys
 id: v1ForeignSystemAgent_GetDeviceKeys
 ---
 
-# GetDeviceKeys
+# POST Agents/ForeignSystem/GetDeviceKeys
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
@@ -81,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Barrows-Kuhn",
-  "DeviceName": "Beier, Lesch and Stark"
+  "ApplicationName": "Schulist, Wilkinson and Ferry",
+  "DeviceName": "Schaden, Heller and Williamson"
 }
 ```
 
@@ -96,14 +96,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "blanditiis",
-    "Value": "laboriosam",
-    "RecordId": 586,
-    "CreatedDate": "2012-07-30T14:58:04.3134598+02:00",
-    "UpdatedDate": "2009-05-16T14:58:04.3134598+02:00",
-    "UpdatedBy": "neque",
-    "CreatedBy": "est",
-    "TableName": "O'Kon Inc and Sons",
+    "Key": "rerum",
+    "Value": "enim",
+    "RecordId": 898,
+    "CreatedDate": "1998-02-08T18:28:49.2211171+01:00",
+    "UpdatedDate": "2001-07-25T18:28:49.2211171+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "consequuntur",
+    "TableName": "Purdy Group",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldLength": 658
       }
     }
   }

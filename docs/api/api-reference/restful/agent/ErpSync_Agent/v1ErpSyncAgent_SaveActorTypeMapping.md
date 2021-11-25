@@ -1,9 +1,9 @@
 ---
-title: SaveActorTypeMapping
+title: POST Agents/ErpSync/SaveActorTypeMapping
 id: v1ErpSyncAgent_SaveActorTypeMapping
 ---
 
-# SaveActorTypeMapping
+# POST Agents/ErpSync/SaveActorTypeMapping
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
@@ -84,13 +84,13 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Mapping": {
-    "ErpConnectionId": 296,
-    "IsActive": false,
+    "ErpConnectionId": 492,
+    "IsActive": true,
     "FieldMappings": [
       {},
       {}
@@ -106,27 +106,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 664,
+  "ErpConnectionId": 200,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 993,
-      "CrmFieldKey": "vel",
-      "CrmDisplayName": "Ziemann, McClure and Carroll",
-      "CrmDisplayTooltip": "animi",
-      "ErpFieldKey": "consequatur",
+      "ErpFieldId": 892,
+      "CrmFieldKey": "reprehenderit",
+      "CrmDisplayName": "Gutmann LLC",
+      "CrmDisplayTooltip": "similique",
+      "ErpFieldKey": "ipsa",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Spencer-Wolff",
-      "ErpDisplayTooltip": "minima",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Dibbert, Steuber and Dibbert",
+      "ErpDisplayTooltip": "totam",
+      "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "ShowInGui": false,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "inventore",
+      "ListReference": "pariatur",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 183
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldLength": 375
     }
   }
 }

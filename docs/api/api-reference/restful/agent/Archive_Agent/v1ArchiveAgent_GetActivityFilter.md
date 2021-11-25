@@ -1,9 +1,9 @@
 ---
-title: GetActivityFilter
+title: POST Agents/Archive/GetActivityFilter
 id: v1ArchiveAgent_GetActivityFilter
 ---
 
-# GetActivityFilter
+# POST Agents/Archive/GetActivityFilter
 
 ```http
 POST /api/v1/Agents/Archive/GetActivityFilter
@@ -81,91 +81,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1995-12-17T14:58:03.2185688+01:00",
-  "ToDate": "2011-10-09T14:58:03.2185688+02:00",
+  "FromDate": "2009-08-02T18:28:48.0898508+02:00",
+  "ToDate": "1998-05-28T18:28:48.0898508+02:00",
   "AssociateList": [
     {
-      "Id": 430,
-      "Name": "Gerlach, Stamm and Cole",
-      "ToolTip": "Iure asperiores in vitae eveniet aut distinctio.",
+      "Id": 936,
+      "Name": "Swift-Borer",
+      "ToolTip": "Debitis impedit.",
       "Deleted": true,
-      "Rank": 585,
-      "Type": "est",
-      "ColorBlock": 807,
-      "IconHint": "cupiditate",
-      "Selected": true,
-      "LastChanged": "1996-05-20T14:58:03.2185688+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "perferendis",
-      "Hidden": true,
-      "FullName": "Mrs. Eli Cole",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 67
-        }
-      }
-    }
-  ],
-  "GroupList": [
-    {
-      "Id": 963,
-      "Name": "Watsica-Haley",
-      "ToolTip": "Omnis eligendi id repellendus excepturi.",
-      "Deleted": false,
-      "Rank": 779,
-      "Type": "sunt",
-      "ColorBlock": 319,
-      "IconHint": "iste",
+      "Rank": 289,
+      "Type": "sed",
+      "ColorBlock": 802,
+      "IconHint": "fugit",
       "Selected": false,
-      "LastChanged": "2010-04-26T14:58:03.2195685+02:00",
+      "LastChanged": "2003-08-14T18:28:48.0898508+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Dr. Esta Pfannerstill",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 394
-        }
-      }
-    }
-  ],
-  "FutureDateList": [
-    {
-      "Id": 618,
-      "Name": "Mraz-Zieme",
-      "ToolTip": "Corrupti ab ut nam voluptatem ipsa.",
-      "Deleted": false,
-      "Rank": 70,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "maiores",
-      "ColorBlock": 815,
-      "ExtraInfo": "harum",
-      "StyleHint": "eaque",
-      "FullName": "Assunta Kihn",
+      "ExtraInfo": "repellendus",
+      "StyleHint": "ab",
+      "Hidden": false,
+      "FullName": "Ms. Dylan Kshlerin",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,7 +111,70 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldLength": 153
+        }
+      }
+    }
+  ],
+  "GroupList": [
+    {
+      "Id": 826,
+      "Name": "Ziemann LLC",
+      "ToolTip": "Ex perferendis nesciunt.",
+      "Deleted": true,
+      "Rank": 581,
+      "Type": "quae",
+      "ColorBlock": 758,
+      "IconHint": "ex",
+      "Selected": false,
+      "LastChanged": "1998-04-21T18:28:48.0898508+02:00",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "ExtraInfo": "perferendis",
+      "StyleHint": "enim",
+      "Hidden": false,
+      "FullName": "Delia Jacobi",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 595
+        }
+      }
+    }
+  ],
+  "FutureDateList": [
+    {
+      "Id": 607,
+      "Name": "Hand Group",
+      "ToolTip": "Laudantium minus quia.",
+      "Deleted": true,
+      "Rank": 498,
+      "Type": "eos",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "animi",
+      "ColorBlock": 207,
+      "ExtraInfo": "alias",
+      "StyleHint": "in",
+      "FullName": "Monique Mraz DDS",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 111
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

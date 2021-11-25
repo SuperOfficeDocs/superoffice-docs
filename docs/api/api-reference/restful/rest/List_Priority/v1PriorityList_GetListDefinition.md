@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Muller, Gleichner and Smith",
-  "Tooltip": "nulla",
+  "Id": 338,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 403,
-  "IsCustomList": false,
+  "Rank": 50,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "utilize plug-and-play e-tailers"
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 565
     }
   },
   "_Links": {

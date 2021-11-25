@@ -1,9 +1,9 @@
 ---
-title: ExportSelectionMembersWithOrderBy
+title: POST Agents/Selection/ExportSelectionMembersWithOrderBy
 id: v1SelectionAgent_ExportSelectionMembersWithOrderBy
 ---
 
-# ExportSelectionMembersWithOrderBy
+# POST Agents/Selection/ExportSelectionMembersWithOrderBy
 
 ```http
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
@@ -71,14 +71,14 @@ Response body:
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 601,
-  "TemplateName": "Aufderhar LLC",
-  "UseContacts": false,
-  "OrderBy": "maiores"
+  "SelectionId": 180,
+  "TemplateName": "Conn-Blanda",
+  "UseContacts": true,
+  "OrderBy": "libero"
 }
 ```
 

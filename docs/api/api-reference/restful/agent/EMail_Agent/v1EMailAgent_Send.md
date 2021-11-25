@@ -1,9 +1,9 @@
 ---
-title: Send
+title: POST Agents/EMail/Send
 id: v1EMailAgent_Send
 ---
 
-# Send
+# POST Agents/EMail/Send
 
 ```http
 POST /api/v1/Agents/EMail/Send
@@ -100,7 +100,7 @@ Response body: array
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "et",
-      "HTMLBody": "doloremque",
+      "Subject": "ex",
+      "HTMLBody": "est",
       "From": {},
-      "Sent": "2014-12-02T14:58:04.1574302+01:00",
-      "Size": 676,
+      "Sent": "2003-03-29T18:28:48.9709579+01:00",
+      "Size": 225,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "fuga",
-      "PlainBody": "aliquid",
+      "MessageID": "consectetur",
+      "PlainBody": "quam",
       "IsSent": true,
       "EMailSOInfo": {},
-      "ServerId": 126,
+      "ServerId": 75,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Howe Group",
-      "EmailItemId": 767,
-      "AccountId": 302,
-      "ReceivedAt": "2006-06-12T14:58:04.1584305+02:00",
+      "FolderName": "Wolff, Blanda and Parker",
+      "EmailItemId": 272,
+      "AccountId": 13,
+      "ReceivedAt": "2013-09-10T18:28:48.9709579+02:00",
       "InReplyTo": {},
-      "RepliedAt": "2005-09-18T14:58:04.1584305+02:00",
+      "RepliedAt": "1994-10-05T18:28:48.9709579+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -160,18 +160,18 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 83,
-        "ContactName": "Swaniawski-Hettinger",
-        "PersonId": 160,
-        "PersonName": "Auer Group",
-        "AssociateId": 78,
-        "Address": "voluptates",
-        "EmailId": 911,
+        "ContactId": 602,
+        "ContactName": "Herman, Prohaska and Hansen",
+        "PersonId": 522,
+        "PersonName": "Gerlach, Feil and Hagenes",
+        "AssociateId": 97,
+        "Address": "dignissimos",
+        "EmailId": 371,
         "DuplicatePersonIds": [
-          42,
-          400
+          492,
+          784
         ],
-        "Name": "Wolff-Kreiger",
+        "Name": "Ryan-Murphy",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -180,52 +180,25 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldLength": 944
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 475,
-        "ContactName": "DuBuque, Rempel and Jerde",
-        "PersonId": 173,
-        "PersonName": "Brekke LLC",
-        "AssociateId": 700,
-        "Address": "qui",
-        "EmailId": 342,
+        "ContactId": 339,
+        "ContactName": "Beatty Inc and Sons",
+        "PersonId": 428,
+        "PersonName": "Lueilwitz LLC",
+        "AssociateId": 480,
+        "Address": "est",
+        "EmailId": 554,
         "DuplicatePersonIds": [
-          429,
-          816
+          257,
+          317
         ],
-        "Name": "Ledner-Buckridge",
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 776
-          }
-        }
-      }
-    ],
-    "Bcc": [
-      {
-        "ContactId": 550,
-        "ContactName": "Zemlak Inc and Sons",
-        "PersonId": 273,
-        "PersonName": "Brekke-Leffler",
-        "AssociateId": 571,
-        "Address": "quia",
-        "EmailId": 92,
-        "DuplicatePersonIds": [
-          610,
-          574
-        ],
-        "Name": "Nicolas-Roberts",
+        "Name": "Metz-O'Keefe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -234,26 +207,53 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldLength": 635
           }
         }
       }
     ],
-    "Subject": "doloribus",
-    "HTMLBody": "cumque",
+    "Bcc": [
+      {
+        "ContactId": 475,
+        "ContactName": "Greenholt, Miller and Batz",
+        "PersonId": 816,
+        "PersonName": "Rath-Dibbert",
+        "AssociateId": 221,
+        "Address": "debitis",
+        "EmailId": 906,
+        "DuplicatePersonIds": [
+          19,
+          696
+        ],
+        "Name": "Howe Inc and Sons",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.String",
+            "FieldLength": 618
+          }
+        }
+      }
+    ],
+    "Subject": "quisquam",
+    "HTMLBody": "ut",
     "From": {
-      "ContactId": 973,
-      "ContactName": "Little-Wilkinson",
-      "PersonId": 679,
-      "PersonName": "Dickinson, Jacobson and Price",
-      "AssociateId": 337,
-      "Address": "minus",
-      "EmailId": 314,
+      "ContactId": 469,
+      "ContactName": "Dare, Wiza and Roob",
+      "PersonId": 807,
+      "PersonName": "Hackett, Stracke and Bernhard",
+      "AssociateId": 757,
+      "Address": "iure",
+      "EmailId": 484,
       "DuplicatePersonIds": [
-        901,
-        602
+        18,
+        889
       ],
-      "Name": "Schulist, Christiansen and Doyle",
+      "Name": "Altenwerth LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -261,27 +261,27 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 952
         }
       }
     },
-    "Sent": "2000-10-11T14:58:04.1624302+02:00",
-    "Size": 892,
+    "Sent": "2013-02-18T18:28:48.973955+01:00",
+    "Size": 269,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "rem",
-    "PlainBody": "aut",
-    "IsSent": true,
+    "MessageID": "et",
+    "PlainBody": "dolor",
+    "IsSent": false,
     "EMailSOInfo": {
-      "DocumentId": 537,
-      "AppointmentId": 405,
-      "ProjectId": 302,
-      "SaleId": 803,
+      "DocumentId": 785,
+      "AppointmentId": 805,
+      "ProjectId": 349,
+      "SaleId": 722,
       "Archived": false,
-      "ArchivedAt": "2005-12-04T14:58:04.1624302+01:00",
-      "ArchivedBy": 893,
-      "ArchivedDisplayName": "Cole, Paucek and Upton",
+      "ArchivedAt": "2016-02-13T18:28:48.973955+01:00",
+      "ArchivedBy": 464,
+      "ArchivedDisplayName": "Wunsch-Mertz",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -290,20 +290,20 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 433
+          "FieldLength": 855
         }
       }
     },
-    "ServerId": 136,
+    "ServerId": 890,
     "Attachments": [
       {
-        "Description": "Horizontal optimizing synergy",
-        "Filename": "repellendus",
-        "Size": 333,
-        "Type": "voluptatem",
-        "Encoding": "repellendus",
-        "Id": "nemo",
-        "Disposition": "quis",
+        "Description": "Multi-tiered multi-tasking secured line",
+        "Filename": "ratione",
+        "Size": 205,
+        "Type": "rerum",
+        "Encoding": "accusamus",
+        "Id": "impedit",
+        "Disposition": "fugiat",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": {},
         "FieldProperties": {
@@ -313,66 +313,66 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 286
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Upton LLC",
+        "Name": "Rohan LLC",
         "Values": [
-          "iusto",
-          "labore"
+          "exercitationem",
+          "vitae"
         ],
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "visualize enterprise platforms"
             },
-            "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldType": "System.Int32",
+            "FieldLength": 798
           }
         }
       },
       {
-        "Name": "Upton LLC",
+        "Name": "Rohan LLC",
         "Values": [
-          "iusto",
-          "labore"
+          "exercitationem",
+          "vitae"
         ],
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "visualize enterprise platforms"
             },
-            "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldType": "System.Int32",
+            "FieldLength": 798
           }
         }
       }
     ],
-    "FolderName": "Frami Group",
-    "EmailItemId": 942,
-    "AccountId": 707,
-    "ReceivedAt": "2009-02-04T14:58:04.1624302+01:00",
+    "FolderName": "Pfannerstill-Kuhn",
+    "EmailItemId": 480,
+    "AccountId": 101,
+    "ReceivedAt": "2007-04-16T18:28:48.973955+02:00",
     "InReplyTo": {
-      "ServerId": 732,
-      "MessageId": "animi",
-      "Subject": "sed",
+      "ServerId": 638,
+      "MessageId": "rerum",
+      "Subject": "dolor",
       "From": {},
       "To": [
         {},
         {}
       ],
-      "Sent": "1995-07-15T14:58:04.1624302+02:00",
+      "Sent": "1998-07-23T18:28:48.973955+02:00",
       "Priority": "High",
       "Flags": "Answered",
-      "Size": 779,
+      "Size": 283,
       "EMailSOInfo": {},
       "TableRight": {},
       "FieldProperties": {
@@ -381,12 +381,12 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     },
-    "RepliedAt": "2001-01-04T14:58:04.1624302+01:00",
+    "RepliedAt": "2012-07-09T18:28:48.973955+02:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -400,8 +400,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: DeleteResourceSubstitution
+title: POST Agents/Resource/DeleteResourceSubstitution
 id: v1ResourceAgent_DeleteResourceSubstitution
 ---
 
-# DeleteResourceSubstitution
+# POST Agents/Resource/DeleteResourceSubstitution
 
 ```http
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution

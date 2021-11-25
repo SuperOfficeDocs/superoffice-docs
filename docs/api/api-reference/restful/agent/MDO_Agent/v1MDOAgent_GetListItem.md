@@ -1,9 +1,9 @@
 ---
-title: GetListItem
+title: POST Agents/MDO/GetListItem
 id: v1MDOAgent_GetListItem
 ---
 
-# GetListItem
+# POST Agents/MDO/GetListItem
 
 ```http
 POST /api/v1/Agents/MDO/GetListItem
@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Murray-Senger",
-  "Id": 300
+  "ListName": "Daugherty LLC",
+  "Id": 722
 }
 ```
 
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Corwin, Raynor and Kling",
-  "ToolTip": "Sint amet sit soluta quam distinctio.",
+  "Id": 294,
+  "Name": "Hilll-Ullrich",
+  "ToolTip": "Accusamus dicta vel sed velit reprehenderit.",
   "Deleted": true,
-  "Rank": 437,
-  "Type": "adipisci",
+  "Rank": 470,
+  "Type": "quis",
   "ChildItems": [
     {
-      "Id": 380,
-      "Name": "Kirlin-Barrows",
-      "ToolTip": "Ipsam illum officiis.",
-      "Deleted": true,
-      "Rank": 232,
-      "Type": "non",
+      "Id": 446,
+      "Name": "Spinka Group",
+      "ToolTip": "Hic nihil et.",
+      "Deleted": false,
+      "Rank": 51,
+      "Type": "animi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 726,
-      "ExtraInfo": "aut",
-      "StyleHint": "dolor",
-      "FullName": "Cameron Koss",
+      "IconHint": "facere",
+      "ColorBlock": 104,
+      "ExtraInfo": "autem",
+      "StyleHint": "dolorem",
+      "FullName": "Tom O'Keefe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -131,16 +131,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 229
         }
       }
     }
   ],
-  "IconHint": "consectetur",
-  "ColorBlock": 561,
-  "ExtraInfo": "ea",
-  "StyleHint": "possimus",
-  "FullName": "Marlen Sauer",
+  "IconHint": "iusto",
+  "ColorBlock": 409,
+  "ExtraInfo": "nulla",
+  "StyleHint": "non",
+  "FullName": "Dana Gutmann DVM",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldLength": 483
     }
   }
 }

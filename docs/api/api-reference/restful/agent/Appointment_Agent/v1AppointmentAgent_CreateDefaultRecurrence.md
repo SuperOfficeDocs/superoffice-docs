@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRecurrence
+title: POST Agents/Appointment/CreateDefaultRecurrence
 id: v1AppointmentAgent_CreateDefaultRecurrence
 ---
 
-# CreateDefaultRecurrence
+# POST Agents/Appointment/CreateDefaultRecurrence
 
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,48 +81,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 724,
-  "StartDate": "2017-05-30T14:58:03.2025678+02:00",
-  "EndDate": "1999-01-26T14:58:03.2025678+01:00",
-  "RecurrenceCounter": 817,
+  "RecurrenceId": 515,
+  "StartDate": "2021-03-02T18:28:48.0578499+01:00",
+  "EndDate": "2014-01-09T18:28:48.0578499+01:00",
+  "RecurrenceCounter": 707,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 769
+    "Cycle": 206
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 453
+    "Cycle": 77
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 311,
-    "Day": 552,
+    "Cycle": 671,
+    "Day": 371,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 144,
-    "Day": 607,
+    "Cycle": 961,
+    "Day": 929,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "2021-01-28T14:58:03.2025678+01:00",
-      "IsConflict": false,
-      "Description": "User-friendly maximized flexibility",
-      "DescriptionStyleHint": "Decentralized homogeneous focus group",
-      "Tooltip": "ipsa"
+      "Date": "2010-07-27T18:28:48.0578499+02:00",
+      "IsConflict": true,
+      "Description": "Quality-focused multi-tasking superstructure",
+      "DescriptionStyleHint": "Upgradable maximized infrastructure",
+      "Tooltip": "non"
     },
     {
-      "Date": "2021-01-28T14:58:03.2025678+01:00",
-      "IsConflict": false,
-      "Description": "User-friendly maximized flexibility",
-      "DescriptionStyleHint": "Decentralized homogeneous focus group",
-      "Tooltip": "ipsa"
+      "Date": "2010-07-27T18:28:48.0578499+02:00",
+      "IsConflict": true,
+      "Description": "Quality-focused multi-tasking superstructure",
+      "DescriptionStyleHint": "Upgradable maximized infrastructure",
+      "Tooltip": "non"
     }
   ],
   "IsRecurrence": false

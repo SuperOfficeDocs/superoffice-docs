@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Goodwin Group",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "UdListDefinitionId": 815,
-    "Rank": 503
+    "Id": 715,
+    "Name": "Padberg, Ritchie and Bahringer",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "UdListDefinitionId": 420,
+    "Rank": 880
   },
   {
-    "Id": 196,
-    "Name": "Goodwin Group",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "UdListDefinitionId": 815,
-    "Rank": 503
+    "Id": 715,
+    "Name": "Padberg, Ritchie and Bahringer",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "UdListDefinitionId": 420,
+    "Rank": 880
   }
 ]
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Macejkovic-Howe",
-    "Tooltip": "eum",
+    "Id": 164,
+    "Name": "Funk, Vandervort and Murazik",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 787,
-    "Rank": 92,
+    "UdListDefinitionId": 110,
+    "Rank": 837,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "streamline collaborative e-tailers"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "orchestrate holistic communities"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

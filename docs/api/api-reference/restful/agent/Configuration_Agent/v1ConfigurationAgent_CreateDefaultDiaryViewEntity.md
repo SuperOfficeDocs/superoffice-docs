@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDiaryViewEntity
+title: POST Agents/Configuration/CreateDefaultDiaryViewEntity
 id: v1ConfigurationAgent_CreateDefaultDiaryViewEntity
 ---
 
-# CreateDefaultDiaryViewEntity
+# POST Agents/Configuration/CreateDefaultDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
@@ -69,32 +69,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 299,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "nostrum",
-  "VisibleColumns": 112,
-  "Rank": 400,
-  "AssocId": 474,
+  "DiaryViewId": 304,
+  "Name": "Emmerich-Schaefer",
+  "Tooltip": "quia",
+  "VisibleColumns": 746,
+  "Rank": 262,
+  "AssocId": 47,
   "AssociateList": [
     {
-      "Id": 599,
-      "Name": "Ortiz-Raynor",
-      "ToolTip": "Et modi nihil nihil sunt qui.",
-      "Deleted": false,
-      "Rank": 262,
-      "Type": "ut",
-      "ColorBlock": 707,
-      "IconHint": "cumque",
+      "Id": 90,
+      "Name": "Larkin Inc and Sons",
+      "ToolTip": "Enim eos eveniet consequatur veniam assumenda.",
+      "Deleted": true,
+      "Rank": 787,
+      "Type": "iste",
+      "ColorBlock": 22,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "1995-09-26T14:58:03.5283103+02:00",
+      "LastChanged": "2016-10-01T18:28:48.4046525+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "unde",
+      "ExtraInfo": "ad",
+      "StyleHint": "debitis",
       "Hidden": true,
-      "FullName": "Effie Moore",
+      "FullName": "Mabelle Smitham",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -103,12 +103,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldLength": 763
         }
       }
     }
   ],
-  "TzLocationId": 558,
+  "TzLocationId": 323,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,10 +117,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "deliver web-enabled e-markets"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 450
     }
   }
 }

@@ -103,28 +103,28 @@ Response body: object
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 585,
-  "Name": "Kub-Zieme",
-  "CurrencyId": 282,
-  "EnglishName": "Windler, Mitchell and Ullrich",
+  "CountryId": 914,
+  "Name": "Treutel, Lynch and Emmerich",
+  "CurrencyId": 342,
+  "EnglishName": "Johnson-Hayes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Automated fresh-thinking ability",
-  "OrgNrText": "1267712",
-  "InterAreaPrefix": "minus",
-  "DialInPrefix": "laborum",
-  "ZipPrefix": "earum",
-  "DomainName": "Goodwin-Schamberger",
-  "AddressLayoutId": 863,
-  "DomesticAddressLayoutId": 61,
-  "ForeignAddressLayoutId": 927,
-  "Rank": 555,
-  "Tooltip": "et",
-  "Deleted": false
+  "ImageDescription": "Upgradable analyzing knowledge user",
+  "OrgNrText": "1405595",
+  "InterAreaPrefix": "consequatur",
+  "DialInPrefix": "tenetur",
+  "ZipPrefix": "numquam",
+  "DomainName": "Christiansen LLC",
+  "AddressLayoutId": 315,
+  "DomesticAddressLayoutId": 277,
+  "ForeignAddressLayoutId": 271,
+  "Rank": 78,
+  "Tooltip": "suscipit",
+  "Deleted": true
 }
 ```
 
@@ -133,24 +133,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 405,
-  "Name": "Sauer Inc and Sons",
-  "CurrencyId": 404,
-  "EnglishName": "Russel-West",
+  "CountryId": 174,
+  "Name": "Daugherty Group",
+  "CurrencyId": 629,
+  "EnglishName": "Bednar-Beahan",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Public-key assymetric model",
-  "OrgNrText": "883490",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "consequatur",
-  "ZipPrefix": "quod",
-  "DomainName": "Grimes, Lubowitz and Farrell",
-  "AddressLayoutId": 997,
-  "DomesticAddressLayoutId": 86,
-  "ForeignAddressLayoutId": 114,
-  "Rank": 435,
-  "Tooltip": "dolorem",
-  "Deleted": true,
+  "ImageDescription": "Business-focused 6th generation archive",
+  "OrgNrText": "1133505",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "rem",
+  "ZipPrefix": "voluptas",
+  "DomainName": "Rowe-Kuhlman",
+  "AddressLayoutId": 764,
+  "DomesticAddressLayoutId": 555,
+  "ForeignAddressLayoutId": 966,
+  "Rank": 601,
+  "Tooltip": "hic",
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldLength": 777
     }
   }
 }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Goodwin-Powlowski",
-    "Tooltip": "unde",
+    "HeadingId": 43,
+    "Name": "DuBuque-Kunde",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 992,
-    "UdListDefinitionId": 239
+    "Rank": 116,
+    "UdListDefinitionId": 689
   },
   {
-    "HeadingId": 148,
-    "Name": "Goodwin-Powlowski",
-    "Tooltip": "unde",
+    "HeadingId": 43,
+    "Name": "DuBuque-Kunde",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 992,
-    "UdListDefinitionId": 239
+    "Rank": 116,
+    "UdListDefinitionId": 689
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "Dibbert LLC",
-    "Tooltip": "ad",
-    "Deleted": false,
-    "Rank": 680,
-    "UdListDefinitionId": 627,
+    "HeadingId": 539,
+    "Name": "Hoppe-Schulist",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 332,
+    "UdListDefinitionId": 183,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "enhance value-added vortals"
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 672
       }
     }
   }

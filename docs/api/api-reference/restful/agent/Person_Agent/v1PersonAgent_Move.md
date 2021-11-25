@@ -1,9 +1,9 @@
 ---
-title: Move
+title: POST Agents/Person/Move
 id: v1PersonAgent_Move
 ---
 
-# Move
+# POST Agents/Person/Move
 
 ```http
 POST /api/v1/Agents/Person/Move

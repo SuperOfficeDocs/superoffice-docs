@@ -1,9 +1,9 @@
 ---
-title: DeleteTicketCategoryEntity
+title: POST Agents/List/DeleteTicketCategoryEntity
 id: v1ListAgent_DeleteTicketCategoryEntity
 ---
 
-# DeleteTicketCategoryEntity
+# POST Agents/List/DeleteTicketCategoryEntity
 
 ```http
 POST /api/v1/Agents/List/DeleteTicketCategoryEntity
@@ -24,7 +24,7 @@ Deletes the TicketCategoryEntity
 | TicketCategoryEntityId | int32 | **Required** The id of the TicketCategoryEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity?TicketCategoryEntityId=767
+POST /api/v1/Agents/List/DeleteTicketCategoryEntity?TicketCategoryEntityId=906
 ```
 
 

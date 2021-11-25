@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Treutel Group",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "UdListDefinitionId": 601,
-  "Rank": 378
+  "Id": 355,
+  "Name": "Hahn Group",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "UdListDefinitionId": 999,
+  "Rank": 324
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "Name": "Kovacek-Hamill",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 981,
-  "Rank": 11,
+  "Id": 245,
+  "Name": "Schaefer, Hodkiewicz and Connelly",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "UdListDefinitionId": 683,
+  "Rank": 214,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 763
+      "FieldLength": 180
     }
   }
 }

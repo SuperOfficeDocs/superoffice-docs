@@ -1,9 +1,9 @@
 ---
-title: SaveRestrictionsWithContext
+title: POST Agents/Find/SaveRestrictionsWithContext
 id: v1FindAgent_SaveRestrictionsWithContext
 ---
 
-# SaveRestrictionsWithContext
+# POST Agents/Find/SaveRestrictionsWithContext
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext

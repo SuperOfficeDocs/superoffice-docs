@@ -1,9 +1,9 @@
 ---
-title: GetQuoteLineConfigurationFromFieldName
+title: POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
 id: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
 ---
 
-# GetQuoteLineConfigurationFromFieldName
+# POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
@@ -86,11 +86,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Lubowitz, Stamm and Braun"
+  "FieldName": "Kiehn Group"
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 157,
-  "FieldName": "Jacobs Inc and Sons",
-  "Label": "qui",
-  "Tooltip": "est",
-  "Editable": true,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 117,
+  "QuoteLineConfigurationId": 390,
+  "FieldName": "Shields-Bernier",
+  "Label": "sed",
+  "Tooltip": "quam",
+  "Editable": false,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 393,
   "RestrictEdit": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "e-enable customized e-business"
   },
   "FieldProperties": {
     "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 13
     }
   }
 }

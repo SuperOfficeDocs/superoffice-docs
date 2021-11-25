@@ -66,7 +66,7 @@ Response body: object
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 337,
-  "Name": "Schoen, Denesik and Greenfelder",
-  "Tooltip": "dolores",
-  "Rank": 595,
-  "Rate": 5493.902,
-  "Units": 20164.156,
+  "CurrencyId": 916,
+  "Name": "Casper Group",
+  "Tooltip": "odit",
+  "Rank": 441,
+  "Rate": 30164.75,
+  "Units": 4663.392,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   }
 }

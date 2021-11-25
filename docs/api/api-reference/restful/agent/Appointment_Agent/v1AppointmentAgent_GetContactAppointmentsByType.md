@@ -1,9 +1,9 @@
 ---
-title: GetContactAppointmentsByType
+title: POST Agents/Appointment/GetContactAppointmentsByType
 id: v1AppointmentAgent_GetContactAppointmentsByType
 ---
 
-# GetContactAppointmentsByType
+# POST Agents/Appointment/GetContactAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
@@ -129,10 +129,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 993,
-  "StartTime": "2008-04-06T14:58:02.8325632+02:00",
-  "EndTime": "2000-05-24T14:58:02.8325632+02:00",
-  "Count": 141,
+  "ContactId": 44,
+  "StartTime": "2014-07-08T18:28:47.9048442+02:00",
+  "EndTime": "2009-01-24T18:28:47.9048442+01:00",
+  "Count": 374,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 396,
-    "StartDate": "2000-07-11T14:58:02.838572+02:00",
-    "EndDate": "1996-04-03T14:58:02.838572+02:00",
+    "AppointmentId": 958,
+    "StartDate": "2005-04-24T18:28:47.9068605+02:00",
+    "EndDate": "2019-04-02T18:28:47.9068605+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Catharine Marks",
-    "ContactName": "Kunde, Erdman and Schaefer",
-    "Description": "Enhanced assymetric protocol",
-    "PersonFullName": "Brianne Thompson",
-    "PersonId": 29,
-    "ContactId": 341,
-    "ProjectId": 959,
-    "ProjectName": "White-Lueilwitz",
-    "IsPublished": true,
-    "AssociateId": 380,
-    "ColorIndex": 454,
-    "IsFree": true,
+    "Task": "dolorem",
+    "AssociateFullName": "Selena Becker",
+    "ContactName": "Kutch-Bruen",
+    "Description": "Horizontal heuristic utilisation",
+    "PersonFullName": "Blaze Rogahn",
+    "PersonId": 193,
+    "ContactId": 477,
+    "ProjectId": 3,
+    "ProjectName": "Thompson-Steuber",
+    "IsPublished": false,
+    "AssociateId": 430,
+    "ColorIndex": 984,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Baumbach-Erdman",
+    "PriorityId": 880,
+    "PriorityName": "Smith, McClure and Monahan",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-03-27T14:58:02.8395707+01:00",
+    "ActiveDate": "2009-07-12T18:28:47.9068605+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-04-07T14:58:02.8395707+02:00",
-    "RecurringEndDate": "1996-11-20T14:58:02.8395707+01:00",
-    "MotherId": 40,
-    "AssignedBy": 395,
-    "AssignedByFullName": "Mr. Sigmund Brekke",
+    "RecurringStartDate": "1994-10-23T18:28:47.9068605+02:00",
+    "RecurringEndDate": "2016-04-21T18:28:47.9068605+02:00",
+    "MotherId": 913,
+    "AssignedBy": 683,
+    "AssignedByFullName": "Rickie Orn",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "aut",
-    "SaleId": 144,
-    "SaleName": "Volkman, Willms and Botsford",
-    "AssociateName": "Robel LLC",
-    "CreatedDate": "2015-04-17T14:58:02.8395707+02:00",
+    "Location": "dolores",
+    "AlarmLeadTime": "labore",
+    "SaleId": 778,
+    "SaleName": "Spinka, Rosenbaum and Smith",
+    "AssociateName": "Hirthe-Mueller",
+    "CreatedDate": "2013-11-07T18:28:47.9068605+01:00",
     "CreatedBy": "et",
-    "CreatedByFullName": "Doug Lind",
-    "CreatedByAssociateId": 148,
+    "CreatedByFullName": "Maye Sporer",
+    "CreatedByAssociateId": 777,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldType": "System.String",
+        "FieldLength": 332
       }
     }
   }

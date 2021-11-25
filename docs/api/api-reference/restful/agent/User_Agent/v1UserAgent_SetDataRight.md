@@ -1,9 +1,9 @@
 ---
-title: SetDataRight
+title: POST Agents/User/SetDataRight
 id: v1UserAgent_SetDataRight
 ---
 
-# SetDataRight
+# POST Agents/User/SetDataRight
 
 ```http
 POST /api/v1/Agents/User/SetDataRight

@@ -2,8 +2,6 @@
 title: List_Source
 ---
 
-# List_Source
-
 ```http
 /api/v1/List/Source
 ```

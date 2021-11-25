@@ -1,9 +1,9 @@
 ---
-title: SaveDiaryViewEntity
+title: POST Agents/Configuration/SaveDiaryViewEntity
 id: v1ConfigurationAgent_SaveDiaryViewEntity
 ---
 
-# SaveDiaryViewEntity
+# POST Agents/Configuration/SaveDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
@@ -77,39 +77,39 @@ Response body: object
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 882,
-  "Name": "Haley, Quitzon and Bashirian",
-  "Tooltip": "est",
-  "VisibleColumns": 386,
-  "Rank": 171,
-  "AssocId": 593,
+  "DiaryViewId": 645,
+  "Name": "Rowe-Gleichner",
+  "Tooltip": "voluptatum",
+  "VisibleColumns": 541,
+  "Rank": 518,
+  "AssocId": 412,
   "AssociateList": [
     {
-      "Id": 551,
-      "Name": "Hyatt-Fadel",
-      "ToolTip": "Quia esse beatae in.",
-      "Deleted": false,
-      "Rank": 760,
-      "Type": "et",
-      "ColorBlock": 206,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2017-03-28T14:58:03.5283103+02:00",
+      "Id": 662,
+      "Name": "Kuvalis, Gottlieb and Schmidt",
+      "ToolTip": "Aut vel.",
+      "Deleted": true,
+      "Rank": 641,
+      "Type": "dolore",
+      "ColorBlock": 624,
+      "IconHint": "eos",
+      "Selected": true,
+      "LastChanged": "2012-03-22T18:28:48.4046525+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestias",
-      "StyleHint": "delectus",
-      "Hidden": false,
-      "FullName": "Ms. Bettie Feeney"
+      "ExtraInfo": "necessitatibus",
+      "StyleHint": "molestiae",
+      "Hidden": true,
+      "FullName": "Elvis Kris"
     }
   ],
-  "TzLocationId": 594
+  "TzLocationId": 302
 }
 ```
 
@@ -118,32 +118,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 512,
-  "Name": "Shanahan-White",
-  "Tooltip": "dolorem",
-  "VisibleColumns": 977,
-  "Rank": 635,
-  "AssocId": 124,
+  "DiaryViewId": 47,
+  "Name": "Pfeffer-Legros",
+  "Tooltip": "hic",
+  "VisibleColumns": 392,
+  "Rank": 280,
+  "AssocId": 281,
   "AssociateList": [
     {
-      "Id": 9,
-      "Name": "Cronin LLC",
-      "ToolTip": "Incidunt harum inventore voluptatem alias quod.",
-      "Deleted": false,
-      "Rank": 150,
-      "Type": "necessitatibus",
-      "ColorBlock": 210,
-      "IconHint": "ab",
+      "Id": 229,
+      "Name": "Doyle Group",
+      "ToolTip": "Eum quo possimus omnis dolorem quo at.",
+      "Deleted": true,
+      "Rank": 736,
+      "Type": "deserunt",
+      "ColorBlock": 667,
+      "IconHint": "aliquam",
       "Selected": true,
-      "LastChanged": "1994-11-05T14:58:03.5293106+01:00",
+      "LastChanged": "2004-05-28T18:28:48.4056525+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "neque",
+      "ExtraInfo": "enim",
+      "StyleHint": "sed",
       "Hidden": true,
-      "FullName": "Duncan Lind",
+      "FullName": "Miss Verda Gottlieb",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 222
         }
       }
     }
   ],
-  "TzLocationId": 718,
+  "TzLocationId": 288,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

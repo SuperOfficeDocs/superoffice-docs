@@ -1,9 +1,9 @@
 ---
-title: ValidateScriptByIncludeId
+title: POST Agents/CRMScript/ValidateScriptByIncludeId
 id: v1CRMScriptAgent_ValidateScriptByIncludeId
 ---
 
-# ValidateScriptByIncludeId
+# POST Agents/CRMScript/ValidateScriptByIncludeId
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "laudantium"
+  "CRMScriptIncludeId": "placeat"
 }
 ```
 
@@ -95,8 +95,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "reprehenderit",
+  "Valid": true,
+  "ErrorMessage": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "productize interactive solutions"
       },
-      "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

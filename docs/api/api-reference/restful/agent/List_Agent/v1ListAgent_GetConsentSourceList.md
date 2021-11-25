@@ -1,9 +1,9 @@
 ---
-title: GetConsentSourceList
+title: POST Agents/List/GetConsentSourceList
 id: v1ListAgent_GetConsentSourceList
 ---
 
-# GetConsentSourceList
+# POST Agents/List/GetConsentSourceList
 
 ```http
 POST /api/v1/Agents/List/GetConsentSourceList
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -85,12 +85,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 473,
-    "Name": "Boehm-Block",
-    "Tooltip": "temporibus",
-    "Rank": 134,
-    "Key": "et",
-    "MailTemplateId": 758,
+    "ConsentSourceId": 23,
+    "Name": "Raynor Inc and Sons",
+    "Tooltip": "officiis",
+    "Rank": 97,
+    "Key": "nesciunt",
+    "MailTemplateId": 552,
     "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate revolutionary channels"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldLength": 351
       }
     }
   }

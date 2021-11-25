@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 754,
+  "HierarchyId": 799,
   "Domain": "Dashboards",
-  "Name": "Gusikowski, Crooks and Purdy",
-  "Fullname": "fugit",
-  "ParentId": 916,
+  "Name": "Kuhic Group",
+  "Fullname": "quos",
+  "ParentId": 719,
   "Children": [
     {
-      "HierarchyId": 316,
+      "HierarchyId": 682,
       "Domain": "Dashboards",
-      "Name": "Weissnat, Barrows and Robel",
-      "Fullname": "fuga",
-      "ParentId": 905,
+      "Name": "Veum, Waelchi and Johnson",
+      "Fullname": "sed",
+      "ParentId": 551,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-08-31T15:05:42.2526617+02:00",
-      "RegisteredAssociateId": 453,
-      "Updated": "2021-02-11T15:05:42.2526617+01:00",
-      "UpdatedAssociateId": 349,
+      "Registered": "2010-01-03T18:25:50.5805945+01:00",
+      "RegisteredAssociateId": 555,
+      "Updated": "2007-05-18T18:25:50.5805945+02:00",
+      "UpdatedAssociateId": 179,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "exploit innovative bandwidth"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 668
         }
       }
     }
   ],
-  "Registered": "1999-11-17T15:05:42.2526617+01:00",
-  "RegisteredAssociateId": 370,
-  "Updated": "2017-08-27T15:05:42.2526617+02:00",
-  "UpdatedAssociateId": 183,
+  "Registered": "2010-02-08T18:25:50.5805945+01:00",
+  "RegisteredAssociateId": 650,
+  "Updated": "2019-02-05T18:25:50.5805945+01:00",
+  "UpdatedAssociateId": 995,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "productize integrated channels"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   },
   "_Links": {

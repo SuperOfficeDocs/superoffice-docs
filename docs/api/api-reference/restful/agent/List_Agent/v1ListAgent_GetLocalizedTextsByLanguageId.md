@@ -1,9 +1,9 @@
 ---
-title: GetLocalizedTextsByLanguageId
+title: POST Agents/List/GetLocalizedTextsByLanguageId
 id: v1ListAgent_GetLocalizedTextsByLanguageId
 ---
 
-# GetLocalizedTextsByLanguageId
+# POST Agents/List/GetLocalizedTextsByLanguageId
 
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 271
+  "LanguageId": 373
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 30,
-    "ResourceId": 554,
-    "Text": "sint",
+    "LanguageId": 871,
+    "ResourceId": 614,
+    "Text": "qui",
     "Type": "Column",
-    "LocalizedTextId": 607,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 840,
+    "IsBuiltIn": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: UpdateBatchTask
+title: POST Agents/Batch/UpdateBatchTask
 id: v1BatchAgent_UpdateBatchTask
 ---
 
-# UpdateBatchTask
+# POST Agents/Batch/UpdateBatchTask
 
 ```http
 POST /api/v1/Agents/Batch/UpdateBatchTask
@@ -98,35 +98,35 @@ Response body: object
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskInfo": {
-    "Id": 655,
-    "Name": "Gaylord LLC",
-    "AssociateId": 401,
-    "DetailsTable": 878,
-    "DetailsRecord": 771,
-    "IsSystemTask": true,
+    "Id": 975,
+    "Name": "Wisozk Group",
+    "AssociateId": 34,
+    "DetailsTable": 428,
+    "DetailsRecord": 586,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "assumenda"
+      "ParameterObject1": "voluptatibus",
+      "ParameterObject2": "laboriosam"
     },
-    "LastStarted": "2016-05-20T14:58:03.2712428+02:00",
-    "Created": "2001-06-15T14:58:03.2712428+02:00",
-    "StartCount": 513,
-    "DatabaseSerialNumber": "1017426",
-    "Context": "beatae",
-    "Result": "et",
+    "LastStarted": "2013-04-23T18:28:48.1435473+02:00",
+    "Created": "2006-11-24T18:28:48.1435473+01:00",
+    "StartCount": 373,
+    "DatabaseSerialNumber": "1288476",
+    "Context": "modi",
+    "Result": "quibusdam",
     "State": "All",
-    "Description": "Vision-oriented bottom-line migration",
-    "Response": "consequatur",
-    "Request": "amet",
-    "ProgressDescription": "Re-contextualized intermediate secured line",
-    "ProgressPercent": 792,
-    "FileName": "Gutmann Group"
+    "Description": "User-friendly assymetric interface",
+    "Response": "ducimus",
+    "Request": "et",
+    "ProgressDescription": "Synergistic explicit circuit",
+    "ProgressPercent": 663,
+    "FileName": "Eichmann, Huels and Connelly"
   }
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Dach-Sanford",
-  "AssociateId": 49,
-  "DetailsTable": 39,
-  "DetailsRecord": 82,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 325,
+  "Name": "Boehm Inc and Sons",
+  "AssociateId": 333,
+  "DetailsTable": 252,
+  "DetailsRecord": 721,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consectetur",
-    "ParameterObject2": "cumque"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2006-04-20T14:58:03.2722423+02:00",
-  "Created": "1996-08-15T14:58:03.2722423+02:00",
-  "StartCount": 577,
-  "DatabaseSerialNumber": "1351553",
-  "Context": "ut",
-  "Result": "veritatis",
+  "LastStarted": "2001-10-07T18:28:48.1445497+02:00",
+  "Created": "2007-04-26T18:28:48.1445497+02:00",
+  "StartCount": 571,
+  "DatabaseSerialNumber": "1049515",
+  "Context": "eos",
+  "Result": "sit",
   "State": "All",
-  "Description": "Right-sized next generation intranet",
-  "Response": "beatae",
-  "Request": "voluptas",
-  "ProgressDescription": "Integrated interactive synergy",
-  "ProgressPercent": 306,
-  "FileName": "Murazik Inc and Sons",
+  "Description": "Multi-lateral neutral time-frame",
+  "Response": "et",
+  "Request": "autem",
+  "ProgressDescription": "Reverse-engineered logistical neural-net",
+  "ProgressPercent": 705,
+  "FileName": "Schultz, Ziemann and Rogahn",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 545
+      "FieldLength": 352
     }
   }
 }

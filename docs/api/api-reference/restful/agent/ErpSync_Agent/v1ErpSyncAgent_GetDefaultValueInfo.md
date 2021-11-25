@@ -1,9 +1,9 @@
 ---
-title: GetDefaultValueInfo
+title: POST Agents/ErpSync/GetDefaultValueInfo
 id: v1ErpSyncAgent_GetDefaultValueInfo
 ---
 
-# GetDefaultValueInfo
+# POST Agents/ErpSync/GetDefaultValueInfo
 
 ```http
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
@@ -89,11 +89,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 397
+  "ErpFieldId": 998
 }
 ```
 
@@ -102,15 +102,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 837,
-  "DefaultValue": "omnis",
+  "ErpFieldId": 599,
+  "DefaultValue": "accusamus",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "incidunt",
+  "FirstSyncDefaultValue": "libero",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "laboriosam",
+  "Mandatory": true,
+  "ErpFieldKey": "quas",
   "FieldType": "Checkbox",
-  "ListName": "Ledner, Harris and Jacobs",
+  "ListName": "Wisoky, Thiel and O'Reilly",
   "Access": "Mandatory",
   "TableRight": {
     "Mask": "Delete",
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

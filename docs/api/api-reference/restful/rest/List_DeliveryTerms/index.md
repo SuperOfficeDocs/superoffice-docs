@@ -2,8 +2,6 @@
 title: List_DeliveryTerms
 ---
 
-# List_DeliveryTerms
-
 ```http
 /api/v1/List/DeliveryTerms
 ```

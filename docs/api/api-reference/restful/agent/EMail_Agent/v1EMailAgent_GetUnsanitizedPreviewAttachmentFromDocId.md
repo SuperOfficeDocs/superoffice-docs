@@ -1,9 +1,9 @@
 ---
-title: GetUnsanitizedPreviewAttachmentFromDocId
+title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 id: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
 ---
 
-# GetUnsanitizedPreviewAttachmentFromDocId
+# POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
@@ -89,12 +89,12 @@ Response body: object
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 435,
-  "AttachmentId": "sit"
+  "DocId": 144,
+  "AttachmentId": "maiores"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed impactful artificial intelligence",
-  "Filename": "enim",
-  "Size": 403,
-  "Type": "provident",
-  "Encoding": "est",
-  "Id": "sunt",
-  "Disposition": "eaque",
+  "Description": "Profound incremental website",
+  "Filename": "quos",
+  "Size": 569,
+  "Type": "quod",
+  "Encoding": "minima",
+  "Id": "temporibus",
+  "Disposition": "dolorem",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 930
     }
   }
 }

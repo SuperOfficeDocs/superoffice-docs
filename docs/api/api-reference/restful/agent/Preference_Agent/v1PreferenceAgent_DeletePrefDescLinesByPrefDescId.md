@@ -1,9 +1,9 @@
 ---
-title: DeletePrefDescLinesByPrefDescId
+title: POST Agents/Preference/DeletePrefDescLinesByPrefDescId
 id: v1PreferenceAgent_DeletePrefDescLinesByPrefDescId
 ---
 
-# DeletePrefDescLinesByPrefDescId
+# POST Agents/Preference/DeletePrefDescLinesByPrefDescId
 
 ```http
 POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescId

@@ -2,8 +2,6 @@
 title: List_Price
 ---
 
-# List_Price
-
 ```http
 /api/v1/List/Price
 ```

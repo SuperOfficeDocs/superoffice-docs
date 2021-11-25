@@ -1,9 +1,9 @@
 ---
-title: DeleteDocumentEntity
+title: POST Agents/Document/DeleteDocumentEntity
 id: v1DocumentAgent_DeleteDocumentEntity
 ---
 
-# DeleteDocumentEntity
+# POST Agents/Document/DeleteDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/DeleteDocumentEntity
@@ -24,7 +24,7 @@ Deletes the DocumentEntity
 | DocumentEntityId | int32 | **Required** The id of the DocumentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Document/DeleteDocumentEntity?DocumentEntityId=24
+POST /api/v1/Agents/Document/DeleteDocumentEntity?DocumentEntityId=938
 ```
 
 

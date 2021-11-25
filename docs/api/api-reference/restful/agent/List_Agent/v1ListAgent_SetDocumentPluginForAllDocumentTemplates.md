@@ -1,9 +1,9 @@
 ---
-title: SetDocumentPluginForAllDocumentTemplates
+title: POST Agents/List/SetDocumentPluginForAllDocumentTemplates
 id: v1ListAgent_SetDocumentPluginForAllDocumentTemplates
 ---
 
-# SetDocumentPluginForAllDocumentTemplates
+# POST Agents/List/SetDocumentPluginForAllDocumentTemplates
 
 ```http
 POST /api/v1/Agents/List/SetDocumentPluginForAllDocumentTemplates

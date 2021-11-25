@@ -51,7 +51,7 @@ The TicketPriorityEntity to be created.
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -65,6 +65,7 @@ The TicketPriorityEntity to be created.
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 
 
 ## Response: object
@@ -97,7 +98,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -111,6 +112,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -124,35 +126,55 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 970,
-  "Name": "Kemmer, Powlowski and Christiansen",
+  "TicketPriorityId": 546,
+  "Name": "Hartmann-Hoppe",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 553,
+  "SortOrder": 691,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 767,
-  "MonStart": "2019-04-29T15:05:43.9111224+02:00",
-  "MonStop": "2003-07-11T15:05:43.9111224+02:00",
-  "TueStart": "2019-03-15T15:05:43.9111224+01:00",
-  "TueStop": "2008-12-25T15:05:43.9111224+01:00",
-  "WedStart": "2021-01-26T15:05:43.9111224+01:00",
-  "WedStop": "2010-08-16T15:05:43.9111224+02:00",
-  "ThuStart": "2013-11-01T15:05:43.9111224+01:00",
-  "ThuStop": "2013-03-11T15:05:43.9111224+01:00",
-  "FriStart": "2004-06-22T15:05:43.9111224+02:00",
-  "FriStop": "1994-09-17T15:05:43.9111224+02:00",
-  "SatStart": "2000-12-04T15:05:43.9111224+01:00",
-  "SatStop": "2020-10-25T15:05:43.9111224+01:00",
-  "SunStart": "2021-03-30T15:05:43.9111224+02:00",
-  "SunStop": "2017-10-25T15:05:43.9111224+02:00",
+  "Deadline": 788,
+  "MonStart": "2002-09-03T18:25:52.3076722+02:00",
+  "MonStop": "2004-12-05T18:25:52.3076722+01:00",
+  "TueStart": "2018-12-21T18:25:52.3076722+01:00",
+  "TueStop": "2000-06-16T18:25:52.3076722+02:00",
+  "WedStart": "1995-09-24T18:25:52.3076722+02:00",
+  "WedStop": "2019-12-14T18:25:52.3076722+01:00",
+  "ThuStart": "2009-06-11T18:25:52.3076722+02:00",
+  "ThuStop": "2006-12-18T18:25:52.3076722+01:00",
+  "FriStart": "2015-05-15T18:25:52.3076722+02:00",
+  "FriStop": "2021-03-17T18:25:52.3076722+01:00",
+  "SatStart": "2017-10-21T18:25:52.3076722+02:00",
+  "SatStop": "2006-07-07T18:25:52.3076722+02:00",
+  "SunStart": "2011-12-22T18:25:52.3076722+01:00",
+  "SunStop": "2013-12-19T18:25:52.3076722+01:00",
   "NonDates": [
-    "ad",
-    "tempora"
+    "minima",
+    "eos"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 991,
+      "AlertLevel": 49,
+      "AlertTimeout": 498,
+      "Action": 39,
+      "DelegateTo": 201,
+      "ScriptId": 740,
+      "EmailTo": "gabriella.haley@gleichner.name",
+      "SmsTo": "numquam",
+      "ReplyTemplateIdCustomer": 191,
+      "ReplyTemplateIdUser": 956,
+      "ReplyTemplateIdCatmast": 884,
+      "ReplyTemplateIdEmail": 505,
+      "RtiCustomerSms": 58,
+      "ReplyTemplateIdUserSms": 542,
+      "ReplyTemplateIdCatmastSms": 1000,
+      "ReplyTemplateIdSms": 347
+    }
   ]
 }
 ```
@@ -162,35 +184,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 31,
-  "Name": "Maggio, Renner and Swaniawski",
+  "TicketPriorityId": 793,
+  "Name": "Legros, Stracke and Swaniawski",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 670,
+  "SortOrder": 265,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 634,
-  "MonStart": "2012-04-24T15:05:43.9121225+02:00",
-  "MonStop": "2013-11-09T15:05:43.9121225+01:00",
-  "TueStart": "2006-08-01T15:05:43.9121225+02:00",
-  "TueStop": "1998-06-07T15:05:43.9121225+02:00",
-  "WedStart": "2005-11-01T15:05:43.9121225+01:00",
-  "WedStop": "1995-07-19T15:05:43.9121225+02:00",
-  "ThuStart": "1996-05-16T15:05:43.9121225+02:00",
-  "ThuStop": "1997-03-16T15:05:43.9121225+01:00",
-  "FriStart": "2002-08-26T15:05:43.9121225+02:00",
-  "FriStop": "2010-04-23T15:05:43.9121225+02:00",
-  "SatStart": "2018-06-02T15:05:43.9121225+02:00",
-  "SatStop": "2005-02-19T15:05:43.9121225+01:00",
-  "SunStart": "2021-03-05T15:05:43.9121225+01:00",
-  "SunStop": "2004-07-30T15:05:43.9121225+02:00",
+  "Deadline": 527,
+  "MonStart": "1998-03-04T18:25:52.3086802+01:00",
+  "MonStop": "2001-10-05T18:25:52.3086802+02:00",
+  "TueStart": "2002-10-06T18:25:52.3086802+02:00",
+  "TueStop": "2002-04-20T18:25:52.3086802+02:00",
+  "WedStart": "1997-12-19T18:25:52.3086802+01:00",
+  "WedStop": "2019-01-19T18:25:52.3086802+01:00",
+  "ThuStart": "2018-09-23T18:25:52.3086802+02:00",
+  "ThuStop": "2013-03-26T18:25:52.3086802+01:00",
+  "FriStart": "2007-10-04T18:25:52.3086802+02:00",
+  "FriStop": "2008-06-08T18:25:52.3086802+02:00",
+  "SatStart": "1997-10-20T18:25:52.3086802+02:00",
+  "SatStop": "2020-04-09T18:25:52.3086802+02:00",
+  "SunStart": "2012-05-09T18:25:52.3086802+02:00",
+  "SunStop": "2020-01-03T18:25:52.3086802+01:00",
   "NonDates": [
-    "hic",
-    "aut"
+    "qui",
+    "nobis"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 865,
+      "AlertLevel": 447,
+      "AlertTimeout": 578,
+      "Action": 240,
+      "DelegateTo": 724,
+      "ScriptId": 747,
+      "EmailTo": "murphy@keebler.name",
+      "SmsTo": "perspiciatis",
+      "ReplyTemplateIdCustomer": 139,
+      "ReplyTemplateIdUser": 801,
+      "ReplyTemplateIdCatmast": 941,
+      "ReplyTemplateIdEmail": 207,
+      "RtiCustomerSms": 486,
+      "ReplyTemplateIdUserSms": 301,
+      "ReplyTemplateIdCatmastSms": 781,
+      "ReplyTemplateIdSms": 685,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 374
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -203,7 +256,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 621
     }
   }
 }

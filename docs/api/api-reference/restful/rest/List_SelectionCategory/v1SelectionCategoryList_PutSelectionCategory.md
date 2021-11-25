@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 500,
-  "Name": "Luettgen-Bosco",
-  "Tooltip": "quisquam",
+  "Id": 557,
+  "Name": "Mann-Gutmann",
+  "Tooltip": "amet",
   "Deleted": true,
-  "UdListDefinitionId": 811,
-  "Rank": 597
+  "UdListDefinitionId": 640,
+  "Rank": 159
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "Will-Conn",
-  "Tooltip": "voluptate",
+  "Id": 998,
+  "Name": "Champlin, Gottlieb and Gottlieb",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 884,
-  "Rank": 909,
+  "UdListDefinitionId": 572,
+  "Rank": 938,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "e-enable web-enabled communities"
+        "Reason": "enhance robust supply-chains"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 715
     }
   }
 }

@@ -123,45 +123,45 @@ Response body: object
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "culpa",
+    "path": "magni",
     "value": {
       "value1": {
-        "PrimaryKey": 6023,
-        "EntityName": "person",
-        "personId": 6023,
-        "fullName": "Judah Lind"
+        "PrimaryKey": 5961,
+        "EntityName": "sale",
+        "saleId": 5961,
+        "contactId": 9088,
+        "name": "Grimes-Mueller"
       },
       "value2": {
-        "PrimaryKey": 9459,
-        "EntityName": "sale",
-        "saleId": 9459,
-        "contactId": 6275,
-        "name": "Gerhold Inc and Sons"
+        "PrimaryKey": 86,
+        "EntityName": "person",
+        "personId": 86,
+        "fullName": "Connie Vandervort"
       }
     }
   },
   {
     "op": "add",
-    "path": "culpa",
+    "path": "magni",
     "value": {
       "value1": {
-        "PrimaryKey": 6023,
-        "EntityName": "person",
-        "personId": 6023,
-        "fullName": "Judah Lind"
+        "PrimaryKey": 5961,
+        "EntityName": "sale",
+        "saleId": 5961,
+        "contactId": 9088,
+        "name": "Grimes-Mueller"
       },
       "value2": {
-        "PrimaryKey": 9459,
-        "EntityName": "sale",
-        "saleId": 9459,
-        "contactId": 6275,
-        "name": "Gerhold Inc and Sons"
+        "PrimaryKey": 86,
+        "EntityName": "person",
+        "personId": 86,
+        "fullName": "Connie Vandervort"
       }
     }
   }
@@ -173,63 +173,37 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 592,
-  "Name": "Reilly, Quigley and Zemlak",
+  "WebhookId": 555,
+  "Name": "Graham, Hodkiewicz and Boyle",
   "Events": [
-    "sapiente",
-    "quia"
+    "repellendus",
+    "magni"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quod",
+  "Secret": "nesciunt",
   "State": "Active",
-  "Type": "omnis",
+  "Type": "cumque",
   "Headers": {
-    "Headers1": "mollitia",
-    "Headers2": "consectetur"
+    "Headers1": "excepturi",
+    "Headers2": "nulla"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-04-14T15:05:43.2018986+02:00",
+  "Registered": "1996-01-31T18:25:51.5682947+01:00",
   "RegisteredAssociate": {
-    "AssociateId": 307,
-    "Name": "Effertz LLC",
-    "PersonId": 966,
-    "Rank": 132,
-    "Tooltip": "deserunt",
+    "AssociateId": 949,
+    "Name": "Gutmann, Nienow and Hilpert",
+    "PersonId": 123,
+    "Rank": 431,
+    "Tooltip": "fuga",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 42,
-    "FullName": "Mr. Rex Hickle",
-    "FormalName": "Mosciski-Schmitt",
-    "Deleted": true,
-    "EjUserId": 647,
-    "UserName": "Dibbert LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synthesize sexy e-business"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 442
-      }
-    }
-  },
-  "Updated": "2017-09-14T15:05:43.2018986+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 957,
-    "Name": "Hand, Beier and Glover",
-    "PersonId": 771,
-    "Rank": 379,
-    "Tooltip": "omnis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 891,
-    "FullName": "Josephine Kuphal",
-    "FormalName": "DuBuque Group",
+    "GroupIdx": 721,
+    "FullName": "Colton Wyman",
+    "FormalName": "Farrell Inc and Sons",
     "Deleted": false,
-    "EjUserId": 833,
-    "UserName": "Gibson, Larson and Jaskolski",
+    "EjUserId": 107,
+    "UserName": "Ryan, Dach and Conroy",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -238,7 +212,33 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 73
+      }
+    }
+  },
+  "Updated": "2021-01-15T18:25:51.5682947+01:00",
+  "UpdatedAssociate": {
+    "AssociateId": 22,
+    "Name": "Carter, Schmeler and Predovic",
+    "PersonId": 701,
+    "Rank": 312,
+    "Tooltip": "dolore",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 916,
+    "FullName": "Marcelino Collier",
+    "FormalName": "Terry LLC",
+    "Deleted": true,
+    "EjUserId": 958,
+    "UserName": "Kunde LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   },

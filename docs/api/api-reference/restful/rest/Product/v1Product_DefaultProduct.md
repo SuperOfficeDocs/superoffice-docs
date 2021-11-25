@@ -92,7 +92,7 @@ Response body: object
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -100,85 +100,85 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 733,
-  "ERPProductKey": "eum",
-  "ERPPriceListKey": "ea",
-  "Name": "Waelchi, Roberts and Bartell",
-  "Description": "Fundamental mobile model",
-  "Code": "optio",
-  "PriceUnit": "et",
-  "QuantityUnit": "corrupti",
+  "ProductId": 536,
+  "ERPProductKey": "unde",
+  "ERPPriceListKey": "commodi",
+  "Name": "Kassulke Group",
+  "Description": "Profit-focused zero administration definition",
+  "Code": "voluptates",
+  "PriceUnit": "saepe",
+  "QuantityUnit": "error",
   "IsSubscription": false,
-  "SubscriptionUnit": "earum",
-  "DefaultSubscriptionQuantity": 9242.166,
-  "ItemNumber": "1023353",
+  "SubscriptionUnit": "molestiae",
+  "DefaultSubscriptionQuantity": 8759.5299999999988,
+  "ItemNumber": "1143106",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sunt",
-  "ProductTypeKey": "assumenda",
-  "VAT": 29403.188,
-  "VATInfo": "doloribus",
-  "UnitCost": 7919.6179999999995,
-  "UnitMinimumPrice": 12128.58,
-  "UnitListPrice": 15644.928,
-  "InAssortment": false,
-  "Supplier": "eum",
-  "SupplierCode": "ut",
-  "Rights": "natus",
-  "Rule": "eum",
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "cupiditate",
+  "VAT": 12996.698,
+  "VATInfo": "doloremque",
+  "UnitCost": 9941.0479999999989,
+  "UnitMinimumPrice": 4099.272,
+  "UnitListPrice": 7117.3139999999994,
+  "InAssortment": true,
+  "Supplier": "sint",
+  "SupplierCode": "possimus",
+  "Rights": "reprehenderit",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Crooks-Haley",
-      "Value": "animi",
+      "Name": "Reilly LLC",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "expedite visionary bandwidth"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     },
     {
-      "Name": "Crooks-Haley",
-      "Value": "animi",
+      "Name": "Reilly LLC",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "expedite visionary bandwidth"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "RawExtraInfo": "fugiat",
-  "ExtraField1": "ab",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "natus",
-  "ExtraField4": "aut",
-  "ExtraField5": "nisi",
-  "InStock": 11580.13,
+  "RawExtraInfo": "quasi",
+  "ExtraField1": "omnis",
+  "ExtraField2": "nihil",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "expedita",
+  "ExtraField5": "pariatur",
+  "InStock": 15475.692,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "extend impactful schemas"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "morph seamless eyeballs"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldLength": 867
     }
   }
 }

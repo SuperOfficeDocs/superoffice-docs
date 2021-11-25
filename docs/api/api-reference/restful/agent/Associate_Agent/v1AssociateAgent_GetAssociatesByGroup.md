@@ -1,9 +1,9 @@
 ---
-title: GetAssociatesByGroup
+title: POST Agents/Associate/GetAssociatesByGroup
 id: v1AssociateAgent_GetAssociatesByGroup
 ---
 
-# GetAssociatesByGroup
+# POST Agents/Associate/GetAssociatesByGroup
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
@@ -85,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 650,
-  "Type": 716
+  "GroupId": 655,
+  "Type": 862
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 979,
-    "Name": "Kemmer, Gleichner and Dare",
-    "PersonId": 532,
-    "Rank": 655,
-    "Tooltip": "voluptatem",
+    "AssociateId": 139,
+    "Name": "Gottlieb Group",
+    "PersonId": 987,
+    "Rank": 293,
+    "Tooltip": "consequatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 558,
-    "FullName": "Mrs. Tristian Stamm",
-    "FormalName": "Parker, Green and Roob",
-    "Deleted": true,
-    "EjUserId": 79,
-    "UserName": "O'Connell, Baumbach and Little",
+    "GroupIdx": 804,
+    "FullName": "Jack Heathcote",
+    "FormalName": "McCullough Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 835,
+    "UserName": "Mraz, Turner and Emard",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 938
+        "FieldLength": 307
       }
     }
   }

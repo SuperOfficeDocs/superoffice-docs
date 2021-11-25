@@ -1,9 +1,9 @@
 ---
-title: GetValidUserName
+title: POST Agents/User/GetValidUserName
 id: v1UserAgent_GetValidUserName
 ---
 
-# GetValidUserName
+# POST Agents/User/GetValidUserName
 
 ```http
 POST /api/v1/Agents/User/GetValidUserName
@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
+  "AssociateId": 467,
   "Type": "AnonymousAssociate",
-  "PersonId": 268,
-  "UserName": "Bosco, Fritsch and Watsica"
+  "PersonId": 310,
+  "UserName": "Howe-Frami"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"King-Nienow"
+"Okuneva LLC"
 ```

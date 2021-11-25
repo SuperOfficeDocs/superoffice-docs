@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 489,
-    "Name": "Welch Group",
-    "Tooltip": "ea",
+    "HeadingId": 813,
+    "Name": "Klein, Gutkowski and Cronin",
+    "Tooltip": "ullam",
     "Deleted": true,
-    "Rank": 153,
-    "UdListDefinitionId": 879,
+    "Rank": 703,
+    "UdListDefinitionId": 116,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 141
       }
     }
   }

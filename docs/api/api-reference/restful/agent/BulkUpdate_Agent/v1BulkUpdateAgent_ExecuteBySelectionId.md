@@ -1,9 +1,9 @@
 ---
-title: ExecuteBySelectionId
+title: POST Agents/BulkUpdate/ExecuteBySelectionId
 id: v1BulkUpdateAgent_ExecuteBySelectionId
 ---
 
-# ExecuteBySelectionId
+# POST Agents/BulkUpdate/ExecuteBySelectionId
 
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "et",
-      "ValueType": "voluptatem",
+      "IsActive": false,
+      "Key": "enim",
+      "ValueType": "sint",
       "Mandatory": true,
-      "EncodedDisplayName": "Haag LLC",
-      "EncodedDisplayDescription": "Automated motivating analyzer",
-      "IconHint": "provident",
+      "EncodedDisplayName": "Hamill, Mayer and Heathcote",
+      "EncodedDisplayDescription": "Inverse solution-oriented product",
+      "IconHint": "quo",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "dolores",
-      "EncodedDataCaptionDescription": "Organized fresh-thinking algorithm",
-      "CurrentOperationType": "illum",
+      "EncodedDataCaption": "in",
+      "EncodedDataCaptionDescription": "Innovative zero tolerance matrices",
+      "CurrentOperationType": "cum",
       "Values": [
-        "nesciunt",
-        "facere"
+        "amet",
+        "sint"
       ],
       "DisplayValues": [
-        "placeat",
-        "similique"
+        "magni",
+        "voluptas"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Murray-Gerhold",
-  "Context": "dolorem",
-  "SelectionId": 502,
+  "TableName": "Bogisich, Hamill and Lesch",
+  "Context": "quo",
+  "SelectionId": 606,
   "IsShadow": false
 }
 ```
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-774
+288
 ```

@@ -1,9 +1,9 @@
 ---
-title: SaveCustomerCenterConfig
+title: POST Agents/CustomerService/SaveCustomerCenterConfig
 id: v1CustomerServiceAgent_SaveCustomerCenterConfig
 ---
 
-# SaveCustomerCenterConfig
+# POST Agents/CustomerService/SaveCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
@@ -82,18 +82,18 @@ Response body: object
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 767,
+  "CustConfigId": 329,
   "Type": "Options",
-  "Config": "id",
-  "CustLangId": 615,
-  "Registered": "2003-11-26T14:58:03.7524323+01:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "1995-08-16T14:58:03.7524323+02:00",
-  "UpdatedAssociateId": 179
+  "Config": "est",
+  "CustLangId": 877,
+  "Registered": "2018-04-04T18:28:48.6459274+02:00",
+  "RegisteredAssociateId": 80,
+  "Updated": "2011-01-17T18:28:48.6459274+01:00",
+  "UpdatedAssociateId": 847
 }
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 279,
+  "CustConfigId": 132,
   "Type": "Options",
-  "Config": "debitis",
-  "CustLangId": 432,
-  "Registered": "1997-11-03T14:58:03.75346+01:00",
-  "RegisteredAssociateId": 350,
-  "Updated": "2005-04-27T14:58:03.75346+02:00",
-  "UpdatedAssociateId": 93,
+  "Config": "voluptatem",
+  "CustLangId": 837,
+  "Registered": "1997-07-18T18:28:48.6459274+02:00",
+  "RegisteredAssociateId": 314,
+  "Updated": "2005-04-27T18:28:48.6459274+02:00",
+  "UpdatedAssociateId": 814,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,10 +118,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "mesh ubiquitous content"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 20
     }
   }
 }

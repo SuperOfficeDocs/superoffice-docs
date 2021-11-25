@@ -1,9 +1,9 @@
 ---
-title: GetProjectImage
+title: POST Agents/BLOB/GetProjectImage
 id: v1BLOBAgent_GetProjectImage
 ---
 
-# GetProjectImage
+# POST Agents/BLOB/GetProjectImage
 
 ```http
 POST /api/v1/Agents/BLOB/GetProjectImage
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 281
+  "ProjectId": 7
 }
 ```
 

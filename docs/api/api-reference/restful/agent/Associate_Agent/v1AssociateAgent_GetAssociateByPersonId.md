@@ -1,9 +1,9 @@
 ---
-title: GetAssociateByPersonId
+title: POST Agents/Associate/GetAssociateByPersonId
 id: v1AssociateAgent_GetAssociateByPersonId
 ---
 
-# GetAssociateByPersonId
+# POST Agents/Associate/GetAssociateByPersonId
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
@@ -85,11 +85,11 @@ Response body: object
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 859
+  "PersonId": 891
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 739,
-  "Name": "Schuppe Inc and Sons",
-  "PersonId": 362,
-  "Rank": 659,
-  "Tooltip": "voluptatem",
+  "AssociateId": 569,
+  "Name": "Hartmann, Wiza and Conn",
+  "PersonId": 911,
+  "Rank": 649,
+  "Tooltip": "recusandae",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 50,
-  "FullName": "Daisha Mayer",
-  "FormalName": "Bailey-McClure",
-  "Deleted": false,
-  "EjUserId": 380,
-  "UserName": "Trantow-Stanton",
+  "GroupIdx": 974,
+  "FullName": "Bettye Von",
+  "FormalName": "Effertz, Hauck and O'Hara",
+  "Deleted": true,
+  "EjUserId": 708,
+  "UserName": "Haley-Ritchie",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 244
     }
   }
 }

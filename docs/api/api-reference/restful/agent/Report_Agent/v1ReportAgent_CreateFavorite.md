@@ -1,9 +1,9 @@
 ---
-title: CreateFavorite
+title: POST Agents/Report/CreateFavorite
 id: v1ReportAgent_CreateFavorite
 ---
 
-# CreateFavorite
+# POST Agents/Report/CreateFavorite
 
 ```http
 POST /api/v1/Agents/Report/CreateFavorite
@@ -83,13 +83,13 @@ Response body: object
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 978,
-  "Name": "King Inc and Sons",
-  "Description": "Open-architected needs-based internet solution"
+  "SourceId": 641,
+  "Name": "Shanahan-Becker",
+  "Description": "Triple-buffered zero defect protocol"
 }
 ```
 
@@ -98,13 +98,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 549,
+  "ReportId": 123,
   "ReportCategory": "All",
-  "Description": "Networked neutral framework",
+  "Description": "Cross-platform composite flexibility",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stroman Inc and Sons",
-  "AssociateId": 49,
-  "TemplateId": 238,
+  "Name": "Dicki-Gleason",
+  "AssociateId": 937,
+  "TemplateId": 540,
   "Published": false,
   "TableRight": {
     "Mask": "Delete",
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

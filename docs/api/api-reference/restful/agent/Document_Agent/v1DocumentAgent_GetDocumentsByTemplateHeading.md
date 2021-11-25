@@ -1,9 +1,9 @@
 ---
-title: GetDocumentsByTemplateHeading
+title: POST Agents/Document/GetDocumentsByTemplateHeading
 id: v1DocumentAgent_GetDocumentsByTemplateHeading
 ---
 
-# GetDocumentsByTemplateHeading
+# POST Agents/Document/GetDocumentsByTemplateHeading
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 827
+  "TemplateHeadingId": 145
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 523,
-    "Attention": "ut",
-    "Header": "quia",
-    "Name": "Blanda-Donnelly",
-    "OurRef": "reprehenderit",
+    "DocumentId": 649,
+    "Attention": "doloribus",
+    "Header": "aut",
+    "Name": "Swaniawski-Schaden",
+    "OurRef": "non",
     "YourRef": "et",
-    "Description": "Down-sized bi-directional hub",
-    "DocumentTemplate": "molestias",
+    "Description": "Object-based tertiary orchestration",
+    "DocumentTemplate": "repellat",
     "IsPublished": false,
-    "PersonId": 447,
-    "PersonFullName": "Lori Howell MD",
-    "AssociateFullName": "Heber Wolf",
-    "ContactId": 597,
-    "ContactName": "Swift, Quigley and Hyatt",
-    "ProjectId": 398,
-    "ProjectName": "Waters-Toy",
-    "AssociateId": 509,
-    "Snum": 977,
+    "PersonId": 567,
+    "PersonFullName": "Domingo Hahn",
+    "AssociateFullName": "Sincere Wiza IV",
+    "ContactId": 507,
+    "ContactName": "Walsh Group",
+    "ProjectId": 283,
+    "ProjectName": "Hane, Kling and Champlin",
+    "AssociateId": 522,
+    "Snum": 810,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 347
+        "FieldLength": 686
       }
     }
   }

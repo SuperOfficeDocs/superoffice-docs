@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Lockman Inc and Sons",
-  "Tooltip": "ad",
+  "Id": 827,
+  "Name": "Cronin-Gulgowski",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 218,
-  "IsCustomList": false,
+  "Rank": 887,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   },
   "_Links": {

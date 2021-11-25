@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Bogan, Lowe and Hyatt",
-  "Tooltip": "molestiae",
+  "Id": 585,
+  "Name": "Gerlach Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 730,
-  "Rank": 792,
+  "UdListDefinitionId": 126,
+  "Rank": 924,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

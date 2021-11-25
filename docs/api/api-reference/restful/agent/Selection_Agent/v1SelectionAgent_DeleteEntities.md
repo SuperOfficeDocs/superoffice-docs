@@ -1,9 +1,9 @@
 ---
-title: DeleteEntities
+title: POST Agents/Selection/DeleteEntities
 id: v1SelectionAgent_DeleteEntities
 ---
 
-# DeleteEntities
+# POST Agents/Selection/DeleteEntities
 
 ```http
 POST /api/v1/Agents/Selection/DeleteEntities

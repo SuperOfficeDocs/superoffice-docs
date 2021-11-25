@@ -1,9 +1,9 @@
 ---
-title: GetEMailSOInfo
+title: POST Agents/EMail/GetEMailSOInfo
 id: v1EMailAgent_GetEMailSOInfo
 ---
 
-# GetEMailSOInfo
+# POST Agents/EMail/GetEMailSOInfo
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailSOInfo
@@ -27,7 +27,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=613
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=292
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -88,17 +88,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 624,
-  "AppointmentId": 12,
-  "ProjectId": 32,
-  "SaleId": 894,
-  "Archived": true,
-  "ArchivedAt": "2002-07-22T14:58:04.1034306+02:00",
-  "ArchivedBy": 849,
-  "ArchivedDisplayName": "Hyatt Group",
+  "DocumentId": 23,
+  "AppointmentId": 299,
+  "ProjectId": 387,
+  "SaleId": 142,
+  "Archived": false,
+  "ArchivedAt": "2000-08-27T18:28:49.017956+02:00",
+  "ArchivedBy": 831,
+  "ArchivedDisplayName": "Corkery, Cartwright and Hettinger",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "optimize frictionless convergence"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 393
     }
   }
 }

@@ -101,14 +101,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 279,
-  "AssociateId": 532,
-  "Block": "amet",
-  "Registered": "2004-10-13T15:05:42.7566623+02:00",
-  "RegisteredAssociateId": 998,
-  "Updated": "1994-10-29T15:05:42.7566623+02:00",
-  "UpdatedAssociateId": 750,
-  "UpdatedCount": 805
+  "ShipmentMessageBlockId": 423,
+  "AssociateId": 893,
+  "Block": "est",
+  "Registered": "2006-05-10T18:25:51.1089466+02:00",
+  "RegisteredAssociateId": 903,
+  "Updated": "2018-11-16T18:25:51.1089466+01:00",
+  "UpdatedAssociateId": 762,
+  "UpdatedCount": 456
 }
 ```
 
@@ -117,14 +117,14 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 230,
-  "AssociateId": 841,
-  "Block": "pariatur",
-  "Registered": "2003-09-15T15:05:42.7566623+02:00",
-  "RegisteredAssociateId": 255,
-  "Updated": "2002-09-23T15:05:42.7566623+02:00",
-  "UpdatedAssociateId": 47,
-  "UpdatedCount": 203,
+  "ShipmentMessageBlockId": 455,
+  "AssociateId": 964,
+  "Block": "fugit",
+  "Registered": "1997-10-14T18:25:51.1089466+02:00",
+  "RegisteredAssociateId": 505,
+  "Updated": "2004-10-26T18:25:51.1089466+02:00",
+  "UpdatedAssociateId": 368,
+  "UpdatedCount": 796,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 598
     }
   },
   "_Links": {

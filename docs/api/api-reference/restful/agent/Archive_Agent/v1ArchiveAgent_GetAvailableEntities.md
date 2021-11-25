@@ -1,9 +1,9 @@
 ---
-title: GetAvailableEntities
+title: POST Agents/Archive/GetAvailableEntities
 id: v1ArchiveAgent_GetAvailableEntities
 ---
 
-# GetAvailableEntities
+# POST Agents/Archive/GetAvailableEntities
 
 ```http
 POST /api/v1/Agents/Archive/GetAvailableEntities
@@ -175,8 +175,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler, Hoppe and Olson",
-  "Context": "consequatur"
+  "ProviderName": "Beer Inc and Sons",
+  "Context": "omnis"
 }
 ```
 
@@ -186,29 +186,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Gleason, Raynor and Ferry",
-    "ToolTip": "Culpa vel et porro laboriosam excepturi.",
-    "Deleted": false,
-    "Rank": 627,
-    "Type": "qui",
+    "Id": 289,
+    "Name": "Miller-Harris",
+    "ToolTip": "Assumenda culpa consequatur voluptatem nihil debitis.",
+    "Deleted": true,
+    "Rank": 428,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Gibson-Paucek",
-        "ToolTip": "Ipsam in et ab et maiores et.",
-        "Deleted": true,
-        "Rank": 110,
-        "Type": "modi",
+        "Id": 353,
+        "Name": "Bartoletti, Ryan and McDermott",
+        "ToolTip": "Facilis rerum perspiciatis voluptatibus aliquid qui molestiae.",
+        "Deleted": false,
+        "Rank": 519,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 544,
-        "ExtraInfo": "velit",
-        "StyleHint": "vel",
-        "FullName": "Ms. Kristina Fahey",
+        "IconHint": "corporis",
+        "ColorBlock": 293,
+        "ExtraInfo": "commodi",
+        "StyleHint": "et",
+        "FullName": "Jazmyne Muller",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -216,17 +216,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 128
+            "FieldType": "System.Int32",
+            "FieldLength": 945
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 595,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "eveniet",
-    "FullName": "Winona Hahn",
+    "IconHint": "dolores",
+    "ColorBlock": 479,
+    "ExtraInfo": "labore",
+    "StyleHint": "est",
+    "FullName": "Amani Nikolaus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldLength": 153
       }
     }
   }

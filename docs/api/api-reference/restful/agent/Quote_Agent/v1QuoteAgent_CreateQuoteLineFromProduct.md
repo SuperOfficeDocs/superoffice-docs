@@ -1,9 +1,9 @@
 ---
-title: CreateQuoteLineFromProduct
+title: POST Agents/Quote/CreateQuoteLineFromProduct
 id: v1QuoteAgent_CreateQuoteLineFromProduct
 ---
 
-# CreateQuoteLineFromProduct
+# POST Agents/Quote/CreateQuoteLineFromProduct
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
@@ -127,49 +127,49 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 588,
+  "QuoteAlternativeId": 339,
   "Product": {
-    "ProductId": 840,
-    "ERPProductKey": "sit",
-    "ERPPriceListKey": "praesentium",
-    "Name": "Bechtelar-Moore",
-    "Description": "Cloned methodical time-frame",
-    "Code": "quos",
-    "PriceUnit": "tenetur",
-    "QuantityUnit": "occaecati",
+    "ProductId": 20,
+    "ERPProductKey": "veniam",
+    "ERPPriceListKey": "adipisci",
+    "Name": "Mitchell-Howell",
+    "Description": "Open-architected attitude-oriented forecast",
+    "Code": "omnis",
+    "PriceUnit": "architecto",
+    "QuantityUnit": "accusantium",
     "IsSubscription": true,
-    "SubscriptionUnit": "eos",
-    "DefaultSubscriptionQuantity": 15575.98,
-    "ItemNumber": "1336813",
+    "SubscriptionUnit": "est",
+    "DefaultSubscriptionQuantity": 23768.255999999998,
+    "ItemNumber": "1533930",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptas",
-    "ProductTypeKey": "est",
-    "VAT": 10658.734,
-    "VATInfo": "dolor",
-    "UnitCost": 23257.414,
-    "UnitMinimumPrice": 22289.007999999998,
-    "UnitListPrice": 13704.982,
-    "InAssortment": false,
-    "Supplier": "unde",
-    "SupplierCode": "nemo",
-    "Rights": "itaque",
-    "Rule": "expedita",
+    "ProductFamilyKey": "doloribus",
+    "ProductTypeKey": "officia",
+    "VAT": 22013.216,
+    "VATInfo": "libero",
+    "UnitCost": 23887.347999999998,
+    "UnitMinimumPrice": 4964.2559999999994,
+    "UnitListPrice": 1441.6399999999999,
+    "InAssortment": true,
+    "Supplier": "quia",
+    "SupplierCode": "et",
+    "Rights": "asperiores",
+    "Rule": "voluptatum",
     "ExtraInfo": [
       {},
       {}
     ],
-    "RawExtraInfo": "qui",
-    "ExtraField1": "voluptates",
-    "ExtraField2": "quis",
-    "ExtraField3": "natus",
-    "ExtraField4": "sit",
-    "ExtraField5": "possimus",
-    "InStock": 2808.064
+    "RawExtraInfo": "reiciendis",
+    "ExtraField1": "ad",
+    "ExtraField2": "sunt",
+    "ExtraField3": "minus",
+    "ExtraField4": "eius",
+    "ExtraField5": "quidem",
+    "InStock": 18148.994
   }
 }
 ```
@@ -179,37 +179,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 468,
-  "ERPQuoteLineKey": "eius",
-  "QuoteAlternativeId": 656,
-  "ERPProductKey": "non",
+  "QuoteLineId": 590,
+  "ERPQuoteLineKey": "non",
+  "QuoteAlternativeId": 118,
+  "ERPProductKey": "sequi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 27388.025999999998,
-  "DeliveredQuantity": 26407.084,
-  "Rank": 662,
-  "Name": "Cormier-Franecki",
-  "Description": "Managed demand-driven concept",
-  "Code": "similique",
-  "QuantityUnit": "voluptatum",
-  "PriceUnit": "quaerat",
-  "ItemNumber": "1168227",
+  "Quantity": 930.798,
+  "DeliveredQuantity": 4876.504,
+  "Rank": 692,
+  "Name": "Johns, Luettgen and Conroy",
+  "Description": "Devolved 5th generation concept",
+  "Code": "velit",
+  "QuantityUnit": "eveniet",
+  "PriceUnit": "pariatur",
+  "ItemNumber": "1076515",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "dolor",
-  "Supplier": "repudiandae",
-  "SupplierCode": "sed",
-  "Thumbnail": "et",
-  "VATInfo": "rerum",
-  "VAT": 15858.039999999999,
-  "UnitCost": 18725.649999999998,
-  "UnitMinimumPrice": 9210.826,
-  "UnitListPrice": 12955.956,
+  "ProductFamilyKey": "voluptates",
+  "ProductTypeKey": "qui",
+  "Supplier": "vel",
+  "SupplierCode": "voluptatem",
+  "Thumbnail": "voluptates",
+  "VATInfo": "animi",
+  "VAT": 28839.068,
+  "UnitCost": 24874.558,
+  "UnitMinimumPrice": 8088.8539999999994,
+  "UnitListPrice": 14284.771999999999,
   "ExtraInfo": [
     {
-      "Name": "Moen, Halvorson and Abshire",
-      "Value": "voluptatem",
+      "Name": "Nitzsche, Robel and Klein",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -219,13 +219,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 333
+          "FieldLength": 437
         }
       }
     },
     {
-      "Name": "Moen, Halvorson and Abshire",
-      "Value": "voluptatem",
+      "Name": "Nitzsche, Robel and Klein",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -235,32 +235,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 333
+          "FieldLength": 437
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellat",
-  "SubscriptionQuantity": 16321.872,
-  "SubscriptionStart": "2016-08-30T14:58:04.977465+02:00",
-  "ERPDiscountPercent": 24896.496,
-  "ERPDiscountAmount": 4788.7519999999995,
-  "DiscountPercent": 20803.492,
-  "DiscountAmount": 5080.214,
+  "RawExtraInfo": "recusandae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "soluta",
+  "SubscriptionQuantity": 10683.806,
+  "SubscriptionStart": "2007-11-08T18:28:49.9601397+01:00",
+  "ERPDiscountPercent": 4309.25,
+  "ERPDiscountAmount": 7509.0639999999994,
+  "DiscountPercent": 2200.0679999999998,
+  "DiscountAmount": 14012.114,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29117.994,
-  "EarningAmount": 28604.018,
-  "SubTotal": 15873.71,
-  "TotalPrice": 3710.656,
-  "Rights": "sapiente",
-  "Rule": "cumque",
-  "ExtraField1": "ad",
-  "ExtraField2": "et",
-  "ExtraField3": "earum",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "voluptatum",
+  "EarningPercent": 27510.252,
+  "EarningAmount": 23802.73,
+  "SubTotal": 12473.32,
+  "TotalPrice": 31086.146,
+  "Rights": "voluptates",
+  "Rule": "nostrum",
+  "ExtraField1": "sequi",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "odit",
+  "ExtraField4": "dolor",
+  "ExtraField5": "consequuntur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

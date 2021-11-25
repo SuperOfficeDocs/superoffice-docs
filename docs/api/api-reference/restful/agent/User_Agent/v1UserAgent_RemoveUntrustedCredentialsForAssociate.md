@@ -1,9 +1,9 @@
 ---
-title: RemoveUntrustedCredentialsForAssociate
+title: POST Agents/User/RemoveUntrustedCredentialsForAssociate
 id: v1UserAgent_RemoveUntrustedCredentialsForAssociate
 ---
 
-# RemoveUntrustedCredentialsForAssociate
+# POST Agents/User/RemoveUntrustedCredentialsForAssociate
 
 ```http
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate

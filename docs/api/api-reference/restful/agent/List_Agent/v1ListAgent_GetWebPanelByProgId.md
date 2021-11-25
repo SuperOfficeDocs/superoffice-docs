@@ -1,9 +1,9 @@
 ---
-title: GetWebPanelByProgId
+title: POST Agents/List/GetWebPanelByProgId
 id: v1ListAgent_GetWebPanelByProgId
 ---
 
-# GetWebPanelByProgId
+# POST Agents/List/GetWebPanelByProgId
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelByProgId
@@ -97,11 +97,11 @@ Response body: object
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "praesentium"
+  "ProgId": "dolor"
 }
 ```
 
@@ -110,26 +110,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 543,
-  "Name": "Shields Group",
-  "Tooltip": "ipsa",
+  "WebPanelId": 353,
+  "Name": "Kutch-Halvorson",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 66,
+  "Rank": 121,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Nikolaus-Emmerich",
+  "WindowName": "Koss, Lemke and Bosco",
   "Url": "http://www.example.com/",
-  "ProgId": "in",
-  "Icon": 341,
+  "ProgId": "ut",
+  "Icon": 995,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 181
     }
   }
 }

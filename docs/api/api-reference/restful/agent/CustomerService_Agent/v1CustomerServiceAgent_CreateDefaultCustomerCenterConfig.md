@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultCustomerCenterConfig
+title: POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
 id: v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig
 ---
 
-# CreateDefaultCustomerCenterConfig
+# POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 845,
+  "CustConfigId": 360,
   "Type": "Options",
-  "Config": "nostrum",
-  "CustLangId": 323,
-  "Registered": "1994-12-15T14:58:03.7524323+01:00",
-  "RegisteredAssociateId": 164,
-  "Updated": "2018-02-06T14:58:03.7524323+01:00",
-  "UpdatedAssociateId": 52,
+  "Config": "nemo",
+  "CustLangId": 631,
+  "Registered": "2008-04-09T18:28:48.6449423+02:00",
+  "RegisteredAssociateId": 770,
+  "Updated": "2009-10-20T18:28:48.6449423+02:00",
+  "UpdatedAssociateId": 167,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,10 +90,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "disintermediate compelling e-commerce"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldLength": 388
     }
   }
 }

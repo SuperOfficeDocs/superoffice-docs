@@ -2,8 +2,6 @@
 title: List_ReasonSold
 ---
 
-# List_ReasonSold
-
 ```http
 /api/v1/List/ReasonSold
 ```

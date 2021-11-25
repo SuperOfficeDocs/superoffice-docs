@@ -1,9 +1,9 @@
 ---
-title: GetAppointmentRecords
+title: POST Agents/Appointment/GetAppointmentRecords
 id: v1AppointmentAgent_GetAppointmentRecords
 ---
 
-# GetAppointmentRecords
+# POST Agents/Appointment/GetAppointmentRecords
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 157,
-  "RecurrenceRuleId": 153
+  "MotherId": 615,
+  "RecurrenceRuleId": 639
 }
 ```
 
@@ -137,53 +137,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 338,
-    "StartDate": "2014-11-30T14:58:02.8955681+01:00",
-    "EndDate": "2009-12-12T14:58:02.8955681+01:00",
+    "AppointmentId": 29,
+    "StartDate": "1994-12-16T18:28:47.7458446+01:00",
+    "EndDate": "2007-09-26T18:28:47.7458446+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nemo",
-    "AssociateFullName": "Madelyn Reichel",
-    "ContactName": "Rolfson LLC",
-    "Description": "Programmable global migration",
-    "PersonFullName": "Alysha Zieme V",
-    "PersonId": 159,
-    "ContactId": 172,
-    "ProjectId": 894,
-    "ProjectName": "Gorczany-Terry",
+    "Task": "quod",
+    "AssociateFullName": "Rocky Abbott",
+    "ContactName": "Donnelly Group",
+    "Description": "Ameliorated content-based system engine",
+    "PersonFullName": "Michale Hayes",
+    "PersonId": 70,
+    "ContactId": 980,
+    "ProjectId": 470,
+    "ProjectName": "Bernier Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 21,
-    "ColorIndex": 645,
+    "AssociateId": 14,
+    "ColorIndex": 277,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 596,
-    "PriorityName": "Larkin Group",
+    "PriorityId": 463,
+    "PriorityName": "Lehner, Lockman and Paucek",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2000-12-09T14:58:02.8965683+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2010-05-14T18:28:47.7458446+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-08-02T14:58:02.8965683+02:00",
-    "RecurringEndDate": "1994-05-07T14:58:02.8965683+02:00",
-    "MotherId": 335,
-    "AssignedBy": 973,
-    "AssignedByFullName": "Rosemary Stamm",
+    "RecurringStartDate": "1998-10-06T18:28:47.7458446+02:00",
+    "RecurringEndDate": "1998-04-17T18:28:47.7458446+02:00",
+    "MotherId": 638,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Ms. Nadia Littel",
     "RejectReason": "",
-    "Location": "dignissimos",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 693,
-    "SaleName": "Grant-Durgan",
-    "AssociateName": "Goldner, Powlowski and Gulgowski",
-    "CreatedDate": "1996-12-05T14:58:02.8965683+01:00",
-    "CreatedBy": "repudiandae",
-    "CreatedByFullName": "Patricia Swaniawski",
-    "CreatedByAssociateId": 330,
+    "Location": "repudiandae",
+    "AlarmLeadTime": "tenetur",
+    "SaleId": 594,
+    "SaleName": "Block-Willms",
+    "AssociateName": "Harvey Group",
+    "CreatedDate": "2014-04-22T18:28:47.7458446+02:00",
+    "CreatedBy": "optio",
+    "CreatedByFullName": "Sincere Wehner MD",
+    "CreatedByAssociateId": 371,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

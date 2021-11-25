@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Swift Inc and Sons",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 532,
+  "Id": 292,
+  "Name": "Emard Inc and Sons",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "Rank": 871,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Cassin, Lowe and D'Amore",
-  "Tooltip": "facilis",
+  "Id": 77,
+  "Name": "Douglas, Hettinger and Lang",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 488,
-  "IsCustomList": false,
+  "Rank": 358,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 248,
-    "Name": "Klein-Beer",
-    "Tooltip": "placeat",
+    "HeadingId": 228,
+    "Name": "Fisher LLC",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 286,
+    "Rank": 473,
+    "UdListDefinitionId": 317,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "disintermediate interactive interfaces"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 710
       }
     }
   }

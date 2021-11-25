@@ -89,14 +89,14 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 30,
-  "AssociateId": 358,
-  "Block": "necessitatibus",
-  "Registered": "2011-02-18T15:05:42.7566623+01:00",
-  "RegisteredAssociateId": 348,
-  "Updated": "2008-03-11T15:05:42.7566623+01:00",
-  "UpdatedAssociateId": 35,
-  "UpdatedCount": 538,
+  "ShipmentMessageBlockId": 398,
+  "AssociateId": 129,
+  "Block": "ex",
+  "Registered": "2020-07-07T18:25:51.1089466+02:00",
+  "RegisteredAssociateId": 144,
+  "Updated": "2002-05-20T18:25:51.1089466+02:00",
+  "UpdatedAssociateId": 430,
+  "UpdatedCount": 460,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,12 +108,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldLength": 640
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

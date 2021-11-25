@@ -1,9 +1,9 @@
 ---
-title: SaveProduct
+title: POST Agents/Quote/SaveProduct
 id: v1QuoteAgent_SaveProduct
 ---
 
-# SaveProduct
+# POST Agents/Quote/SaveProduct
 
 ```http
 POST /api/v1/Agents/Quote/SaveProduct
@@ -138,51 +138,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 933,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "laboriosam",
-  "Name": "Koss Group",
-  "Description": "Ameliorated demand-driven info-mediaries",
-  "Code": "officia",
-  "PriceUnit": "id",
-  "QuantityUnit": "alias",
+  "ProductId": 922,
+  "ERPProductKey": "repellendus",
+  "ERPPriceListKey": "atque",
+  "Name": "Zemlak, Ullrich and Boyle",
+  "Description": "Fundamental encompassing complexity",
+  "Code": "alias",
+  "PriceUnit": "necessitatibus",
+  "QuantityUnit": "sint",
   "IsSubscription": false,
-  "SubscriptionUnit": "reiciendis",
-  "DefaultSubscriptionQuantity": 6355.7519999999995,
-  "ItemNumber": "305564",
+  "SubscriptionUnit": "eligendi",
+  "DefaultSubscriptionQuantity": 21687.28,
+  "ItemNumber": "711569",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cumque",
-  "ProductTypeKey": "molestiae",
-  "VAT": 17678.894,
-  "VATInfo": "maiores",
-  "UnitCost": 11899.797999999999,
-  "UnitMinimumPrice": 15679.402,
-  "UnitListPrice": 25573.44,
-  "InAssortment": true,
-  "Supplier": "ea",
-  "SupplierCode": "quis",
-  "Rights": "voluptatem",
-  "Rule": "eum",
+  "ProductFamilyKey": "at",
+  "ProductTypeKey": "repellat",
+  "VAT": 4603.846,
+  "VATInfo": "at",
+  "UnitCost": 20816.028,
+  "UnitMinimumPrice": 10849.908,
+  "UnitListPrice": 21076.149999999998,
+  "InAssortment": false,
+  "Supplier": "tempora",
+  "SupplierCode": "sit",
+  "Rights": "cumque",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Johnston-Bradtke",
-      "Value": "accusamus",
+      "Name": "Schaden-Zboncak",
+      "Value": "asperiores",
       "Type": "Image"
     },
     {
-      "Name": "Johnston-Bradtke",
-      "Value": "accusamus",
+      "Name": "Schaden-Zboncak",
+      "Value": "asperiores",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "itaque",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "autem",
-  "ExtraField4": "quidem",
-  "ExtraField5": "impedit",
-  "InStock": 22191.854
+  "RawExtraInfo": "aliquid",
+  "ExtraField1": "alias",
+  "ExtraField2": "repellat",
+  "ExtraField3": "doloribus",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "voluptas",
+  "InStock": 31089.28
 }
 ```
 
@@ -191,36 +191,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 201,
-  "ERPProductKey": "consequatur",
-  "ERPPriceListKey": "ut",
-  "Name": "Lynch LLC",
-  "Description": "Horizontal maximized throughput",
-  "Code": "vero",
-  "PriceUnit": "molestias",
-  "QuantityUnit": "magnam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quas",
-  "DefaultSubscriptionQuantity": 23003.559999999998,
-  "ItemNumber": "1065590",
+  "ProductId": 69,
+  "ERPProductKey": "ad",
+  "ERPPriceListKey": "eligendi",
+  "Name": "Bernier Inc and Sons",
+  "Description": "Programmable analyzing process improvement",
+  "Code": "nesciunt",
+  "PriceUnit": "aliquid",
+  "QuantityUnit": "itaque",
+  "IsSubscription": false,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 2980.4339999999997,
+  "ItemNumber": "853723",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "ut",
-  "VAT": 5033.204,
-  "VATInfo": "nihil",
-  "UnitCost": 250.72,
-  "UnitMinimumPrice": 19935.374,
-  "UnitListPrice": 3767.0679999999998,
-  "InAssortment": false,
-  "Supplier": "quo",
-  "SupplierCode": "molestias",
-  "Rights": "quisquam",
-  "Rule": "aut",
+  "ProductFamilyKey": "illo",
+  "ProductTypeKey": "aliquid",
+  "VAT": 26215.91,
+  "VATInfo": "dolorem",
+  "UnitCost": 23749.451999999997,
+  "UnitMinimumPrice": 10119.686,
+  "UnitListPrice": 16980.012,
+  "InAssortment": true,
+  "Supplier": "quis",
+  "SupplierCode": "modi",
+  "Rights": "ut",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Abshire-Hamill",
-      "Value": "culpa",
+      "Name": "Crist, Connelly and Weber",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -230,13 +230,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Abshire-Hamill",
-      "Value": "culpa",
+      "Name": "Crist, Connelly and Weber",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -246,18 +246,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "eveniet",
-  "ExtraField1": "nam",
-  "ExtraField2": "iste",
-  "ExtraField3": "aliquam",
-  "ExtraField4": "in",
-  "ExtraField5": "expedita",
-  "InStock": 18255.55,
+  "RawExtraInfo": "odit",
+  "ExtraField1": "et",
+  "ExtraField2": "quos",
+  "ExtraField3": "quibusdam",
+  "ExtraField4": "est",
+  "ExtraField5": "enim",
+  "InStock": 13742.59,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldLength": 716
     }
   }
 }

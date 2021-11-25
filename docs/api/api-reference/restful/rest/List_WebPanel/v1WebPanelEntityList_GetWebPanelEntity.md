@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,26 +91,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 919,
-  "Name": "Adams Group",
-  "Tooltip": "fugiat",
+  "WebPanelId": 716,
+  "Name": "Bogan LLC",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 640,
+  "Rank": 277,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Fisher-Harris",
+  "ShowInStatusBar": false,
+  "WindowName": "Abshire, Little and Lesch",
   "Url": "http://www.example.com/",
-  "ProgId": "alias",
-  "Icon": 384,
+  "ProgId": "velit",
+  "Icon": 973,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

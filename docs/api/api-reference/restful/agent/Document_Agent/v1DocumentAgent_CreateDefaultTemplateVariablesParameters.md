@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTemplateVariablesParameters
+title: POST Agents/Document/CreateDefaultTemplateVariablesParameters
 id: v1DocumentAgent_CreateDefaultTemplateVariablesParameters
 ---
 
-# CreateDefaultTemplateVariablesParameters
+# POST Agents/Document/CreateDefaultTemplateVariablesParameters
 
 ```http
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "totam",
+  "SourceInput": "voluptatum",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 842,
-  "PersonId": 600,
-  "ProjectId": 285,
-  "SelectionId": 763,
-  "AppointmentId": 904,
-  "DocumentId": 18,
-  "SaleId": 258,
-  "QuoteLineId": 416,
-  "QuoteAlternativeId": 521,
-  "ProductKey": "voluptatum",
+  "ContactId": 723,
+  "PersonId": 716,
+  "ProjectId": 503,
+  "SelectionId": 161,
+  "AppointmentId": 633,
+  "DocumentId": 135,
+  "SaleId": 431,
+  "QuoteLineId": 550,
+  "QuoteAlternativeId": 980,
+  "ProductKey": "nisi",
   "CustomTags": [
     [
       {}
@@ -103,26 +103,26 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "DocumentEntity": {
-    "DocumentId": 49,
+    "DocumentId": 977,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "voluptate",
-    "Header": "reiciendis",
-    "Name": "Funk-Wunsch",
-    "OurRef": "alias",
-    "YourRef": "deleniti",
-    "CreatedDate": "2007-08-31T14:58:03.9514603+02:00",
-    "UpdatedDate": "2014-09-15T14:58:03.9514603+02:00",
-    "Description": "Intuitive neutral artificial intelligence",
+    "Attention": "quaerat",
+    "Header": "repudiandae",
+    "Name": "Howell, Romaguera and Lindgren",
+    "OurRef": "autem",
+    "YourRef": "laborum",
+    "CreatedDate": "2018-10-22T18:28:48.851928+02:00",
+    "UpdatedDate": "2018-10-15T18:28:48.851928+02:00",
+    "Description": "Streamlined coherent implementation",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "2018-03-25T14:58:03.9514603+02:00",
-    "ExternalRef": "perferendis",
+    "Date": "2013-11-27T18:28:48.851928+01:00",
+    "ExternalRef": "ut",
     "Completed": "Completed",
-    "ActiveLinks": 159,
+    "ActiveLinks": 518,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -130,23 +130,23 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 865,
-    "Snum": 691,
+    "SuggestedDocumentId": 898,
+    "Snum": 506,
     "UserDefinedFields": {
-      "SuperOffice:1": "Tess Brown",
-      "SuperOffice:2": "False"
+      "SuperOffice:1": "316096575",
+      "SuperOffice:2": "519641431"
     },
     "ExtraFields": {
-      "ExtraFields1": "quam",
-      "ExtraFields2": "ea"
+      "ExtraFields1": "aut",
+      "ExtraFields2": "fugiat"
     },
     "CustomFields": {
-      "CustomFields1": "consequatur",
-      "CustomFields2": "corrupti"
+      "CustomFields1": "ipsa",
+      "CustomFields2": "qui"
     },
-    "PublishEventDate": "2004-08-24T14:58:03.9514603+02:00",
-    "PublishTo": "2017-01-07T14:58:03.9514603+01:00",
-    "PublishFrom": "2002-03-26T14:58:03.9514603+01:00",
+    "PublishEventDate": "2004-04-18T18:28:48.851928+02:00",
+    "PublishTo": "1995-03-01T18:28:48.851928+01:00",
+    "PublishFrom": "2002-01-27T18:28:48.851928+01:00",
     "IsPublished": true,
     "VisibleFor": [
       {},
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   },
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

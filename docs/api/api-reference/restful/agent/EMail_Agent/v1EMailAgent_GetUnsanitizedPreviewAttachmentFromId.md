@@ -1,9 +1,9 @@
 ---
-title: GetUnsanitizedPreviewAttachmentFromId
+title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 id: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId
 ---
 
-# GetUnsanitizedPreviewAttachmentFromId
+# POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
@@ -91,14 +91,14 @@ Response body: object
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 729,
-  "AttachmentId": "molestiae",
-  "AttachmentType": "omnis",
-  "AttachmentFilename": "aperiam"
+  "MailItemId": 198,
+  "AttachmentId": "consequuntur",
+  "AttachmentType": "at",
+  "AttachmentFilename": "suscipit"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized hybrid contingency",
-  "Filename": "blanditiis",
-  "Size": 11,
-  "Type": "tempora",
-  "Encoding": "ut",
+  "Description": "Innovative tertiary paradigm",
+  "Filename": "eveniet",
+  "Size": 308,
+  "Type": "odit",
+  "Encoding": "quo",
   "Id": "autem",
-  "Disposition": "facilis",
+  "Disposition": "itaque",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -123,10 +123,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "enable cross-media schemas"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfosByNameAndState
+title: POST Agents/Batch/GetBatchTaskInfosByNameAndState
 id: v1BatchAgent_GetBatchTaskInfosByNameAndState
 ---
 
-# GetBatchTaskInfosByNameAndState
+# POST Agents/Batch/GetBatchTaskInfosByNameAndState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
@@ -94,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Flatley-Fay",
+  "Name": "Collier-DuBuque",
   "State": "All"
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Hoppe, Sanford and Parisian",
-    "AssociateId": 601,
-    "DetailsTable": 700,
-    "DetailsRecord": 438,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 206,
+    "Name": "Predovic LLC",
+    "AssociateId": 466,
+    "DetailsTable": 986,
+    "DetailsRecord": 120,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "consectetur"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "officiis"
     },
-    "LastStarted": "2016-09-05T14:58:03.2732414+02:00",
-    "Created": "2005-12-02T14:58:03.2732414+01:00",
-    "StartCount": 512,
-    "DatabaseSerialNumber": "378552",
-    "Context": "aut",
+    "LastStarted": "2014-02-12T18:28:48.1455429+01:00",
+    "Created": "2000-05-29T18:28:48.1455429+02:00",
+    "StartCount": 953,
+    "DatabaseSerialNumber": "1752171",
+    "Context": "dicta",
     "Result": "aut",
     "State": "All",
-    "Description": "Synergistic upward-trending groupware",
-    "Response": "aliquid",
-    "Request": "aspernatur",
-    "ProgressDescription": "Assimilated asynchronous portal",
-    "ProgressPercent": 504,
-    "FileName": "Monahan-Simonis",
+    "Description": "Synergistic user-facing access",
+    "Response": "suscipit",
+    "Request": "reiciendis",
+    "ProgressDescription": "Reduced scalable hardware",
+    "ProgressPercent": 199,
+    "FileName": "Torphy-Stracke",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 306
       }
     }
   }

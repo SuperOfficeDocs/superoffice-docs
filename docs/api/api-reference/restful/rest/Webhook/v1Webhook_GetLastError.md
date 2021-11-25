@@ -55,12 +55,12 @@ Response body: string
 GET /api/v1/Webhook/{webhookId}/LastError
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"at"
+"voluptas"
 ```

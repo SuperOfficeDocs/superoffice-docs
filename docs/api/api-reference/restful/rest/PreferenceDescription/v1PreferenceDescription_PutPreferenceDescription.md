@@ -121,24 +121,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 996,
-  "Section": "esse",
-  "Key": "sapiente",
-  "Name": "Mayert, Pfeffer and Runolfsdottir",
+  "PrefDescId": 626,
+  "Section": "ut",
+  "Key": "repellat",
+  "Name": "Kemmer-Harris",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized systemic paradigm",
+  "Description": "Devolved intermediate hardware",
   "IsBuiltin": false,
-  "TableName": "Mosciski Inc and Sons",
-  "UserDefinedListId": 183,
-  "Rank": 395,
-  "SubGroup": "ex",
-  "MinLevel": 813,
-  "MaxValue": 628,
-  "MinValue": 991,
-  "RequiredLicense": "voluptatem"
+  "TableName": "Borer-Hilll",
+  "UserDefinedListId": 127,
+  "Rank": 972,
+  "SubGroup": "autem",
+  "MinLevel": 961,
+  "MaxValue": 749,
+  "MinValue": 210,
+  "RequiredLicense": "odit"
 }
 ```
 
@@ -147,36 +147,36 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 562,
-  "Section": "distinctio",
-  "Key": "occaecati",
-  "Name": "Ernser, Sipes and Schultz",
+  "PrefDescId": 430,
+  "Section": "ad",
+  "Key": "dolores",
+  "Name": "Howe Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled system-worthy infrastructure",
-  "IsBuiltin": false,
-  "TableName": "Botsford-Doyle",
-  "UserDefinedListId": 485,
-  "Rank": 206,
-  "SubGroup": "eveniet",
-  "MinLevel": 464,
-  "MaxValue": 312,
-  "MinValue": 443,
-  "RequiredLicense": "rerum",
+  "Description": "Switchable context-sensitive application",
+  "IsBuiltin": true,
+  "TableName": "Koelpin LLC",
+  "UserDefinedListId": 969,
+  "Rank": 799,
+  "SubGroup": "vel",
+  "MinLevel": 478,
+  "MaxValue": 29,
+  "MinValue": 166,
+  "RequiredLicense": "velit",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "brand impactful experiences"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enable back-end communities"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   },
   "_Links": {

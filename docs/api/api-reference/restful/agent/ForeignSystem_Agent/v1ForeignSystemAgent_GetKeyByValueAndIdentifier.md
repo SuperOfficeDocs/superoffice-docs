@@ -1,9 +1,9 @@
 ---
-title: GetKeyByValueAndIdentifier
+title: POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
 id: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
 ---
 
-# GetKeyByValueAndIdentifier
+# POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lynch-Windler",
-  "DeviceName": "Rau-Osinski",
-  "DeviceIdentifier": "deserunt",
-  "KeyName": "Cole Inc and Sons",
-  "KeyValue": "fuga",
-  "TableName": "Hackett-Hahn"
+  "ApplicationName": "Wisoky-O'Conner",
+  "DeviceName": "Volkman, Leannon and Mitchell",
+  "DeviceIdentifier": "quasi",
+  "KeyName": "Prohaska, Stracke and Herman",
+  "KeyValue": "suscipit",
+  "TableName": "Hansen, Haley and Legros"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "exercitationem",
-  "Value": "est",
-  "RecordId": 188,
-  "CreatedDate": "1995-11-16T14:58:04.3104636+01:00",
-  "UpdatedDate": "2007-09-10T14:58:04.3104636+02:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "in",
-  "TableName": "Buckridge, Conn and Stehr",
+  "Key": "sunt",
+  "Value": "ut",
+  "RecordId": 657,
+  "CreatedDate": "1999-02-28T18:28:49.2171189+01:00",
+  "UpdatedDate": "2015-02-12T18:28:49.2171189+01:00",
+  "UpdatedBy": "facilis",
+  "CreatedBy": "labore",
+  "TableName": "Smitham, Rempel and Osinski",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 259
     }
   }
 }

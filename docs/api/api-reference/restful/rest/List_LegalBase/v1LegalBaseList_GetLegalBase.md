@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 403,
-  "Name": "Adams LLC",
-  "Tooltip": "deserunt",
-  "Rank": 742,
-  "Key": "placeat",
-  "Deleted": false,
+  "LegalBaseId": 539,
+  "Name": "Mohr-Mertz",
+  "Tooltip": "in",
+  "Rank": 672,
+  "Key": "dolores",
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldLength": 789
     }
   }
 }

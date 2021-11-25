@@ -78,7 +78,7 @@ Response body: array
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Maggio-Schamberger",
-    "DisplayName": "Gerlach Inc and Sons",
-    "Description": "Exclusive regional archive",
-    "ShortLabel": "dolorem",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Swaniawski Group",
+    "DisplayName": "Flatley-Marks",
+    "Description": "Adaptive multimedia migration",
+    "ShortLabel": "autem",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 699,
-    "TemplateVariableName": "Ward-Maggio"
+    "IsExternal": true,
+    "Rank": 949,
+    "TemplateVariableName": "Murazik-Hilll"
   }
 ]
 ```

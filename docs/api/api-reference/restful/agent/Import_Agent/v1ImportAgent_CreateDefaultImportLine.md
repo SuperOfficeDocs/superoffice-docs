@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultImportLine
+title: POST Agents/Import/CreateDefaultImportLine
 id: v1ImportAgent_CreateDefaultImportLine
 ---
 
-# CreateDefaultImportLine
+# POST Agents/Import/CreateDefaultImportLine
 
 ```http
 POST /api/v1/Agents/Import/CreateDefaultImportLine
@@ -86,7 +86,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 183
+  "CountColumns": 239
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "quam",
-    "voluptatem"
+    "temporibus",
+    "explicabo"
   ],
-  "Selected": false,
+  "Selected": true,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "natus",
+  "ExternalKey": "cupiditate",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

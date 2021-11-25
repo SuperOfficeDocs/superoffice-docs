@@ -1,9 +1,9 @@
 ---
-title: SetDynamicSelectionCriteriaGroups
+title: POST Agents/Selection/SetDynamicSelectionCriteriaGroups
 id: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
 ---
 
-# SetDynamicSelectionCriteriaGroups
+# POST Agents/Selection/SetDynamicSelectionCriteriaGroups
 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -75,25 +75,25 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 914,
+  "SelectionId": 887,
   "Criteria": [
     {
-      "Name": "Lubowitz, Beatty and Feil",
-      "Description": "Expanded global open architecture",
-      "Rank": 603,
+      "Name": "Maggio, Bernhard and Sanford",
+      "Description": "Re-engineered empowering infrastructure",
+      "Rank": 17,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lubowitz, Beatty and Feil",
-      "Description": "Expanded global open architecture",
-      "Rank": 603,
+      "Name": "Maggio, Bernhard and Sanford",
+      "Description": "Re-engineered empowering infrastructure",
+      "Rank": 17,
       "Restrictions": [
         {},
         {}
@@ -109,58 +109,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobs-Schiller",
-    "Description": "Total optimal throughput",
-    "Rank": 391,
+    "Name": "Lubowitz, Runte and Corwin",
+    "Description": "Networked background methodology",
+    "Rank": 550,
     "Restrictions": [
       {
-        "Name": "Bins, Hartmann and Raynor",
-        "Operator": "ut",
+        "Name": "Thompson, Kshlerin and Ritchie",
+        "Operator": "quod",
         "Values": [
-          "enim",
-          "vel"
+          "est",
+          "ratione"
         ],
         "DisplayValues": [
-          "sunt",
-          "officiis"
+          "commodi",
+          "aut"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 8,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 629
+        "UniqueHash": 719
       }
     ]
   },
   {
-    "Name": "Jacobs-Schiller",
-    "Description": "Total optimal throughput",
-    "Rank": 391,
+    "Name": "Lubowitz, Runte and Corwin",
+    "Description": "Networked background methodology",
+    "Rank": 550,
     "Restrictions": [
       {
-        "Name": "Bins, Hartmann and Raynor",
-        "Operator": "ut",
+        "Name": "Thompson, Kshlerin and Ritchie",
+        "Operator": "quod",
         "Values": [
-          "enim",
-          "vel"
+          "est",
+          "ratione"
         ],
         "DisplayValues": [
-          "sunt",
-          "officiis"
+          "commodi",
+          "aut"
         ],
         "ColumnInfo": {},
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 8,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 629
+        "UniqueHash": 719
       }
     ]
   }

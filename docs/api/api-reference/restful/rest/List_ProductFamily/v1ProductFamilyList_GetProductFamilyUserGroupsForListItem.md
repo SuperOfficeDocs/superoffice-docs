@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Goodwin Inc and Sons",
-    "ToolTip": "Natus eligendi odio qui non enim autem.",
-    "Deleted": true,
-    "Rank": 388,
-    "Type": "omnis",
-    "ColorBlock": 382,
-    "IconHint": "aut",
+    "Id": 64,
+    "Name": "Prosacco, Rowe and Lockman",
+    "ToolTip": "Perspiciatis sapiente est hic sed.",
+    "Deleted": false,
+    "Rank": 396,
+    "Type": "id",
+    "ColorBlock": 800,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2005-09-13T15:05:43.6280797+02:00",
+    "LastChanged": "2006-03-07T18:25:52.0122124+01:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Haag, Grant and Sipes",
-        "ToolTip": "Quasi eveniet.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "excepturi",
-        "ColorBlock": 122,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "1997-11-01T15:05:43.6280797+01:00",
+        "Id": 891,
+        "Name": "Rau Inc and Sons",
+        "ToolTip": "Sed est ut sit.",
+        "Deleted": true,
+        "Rank": 87,
+        "Type": "ut",
+        "ColorBlock": 685,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "1995-09-15T18:25:52.0122124+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "possimus",
+        "ExtraInfo": "hic",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Demarco Ferry",
+        "FullName": "Mr. Camden Streich",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 677
+            "FieldType": "System.Int32",
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Estevan Wisoky",
+    "ExtraInfo": "omnis",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Maxwell Heller",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "syndicate extensible relationships"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 865
       }
     }
   }

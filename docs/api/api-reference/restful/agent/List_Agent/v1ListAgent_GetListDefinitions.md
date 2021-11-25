@@ -1,9 +1,9 @@
 ---
-title: GetListDefinitions
+title: POST Agents/List/GetListDefinitions
 id: v1ListAgent_GetListDefinitions
 ---
 
-# GetListDefinitions
+# POST Agents/List/GetListDefinitions
 
 ```http
 POST /api/v1/Agents/List/GetListDefinitions
@@ -82,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Runolfsson Group",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 421,
+    "Id": 147,
+    "Name": "Hudson, McKenzie and Okuneva",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 298,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "quas",
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "dolores",
     "InUseByUserDefinedFields": true,
     "TableRight": {
       "Mask": "Delete",
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldType": "System.Int32",
+        "FieldLength": 840
       }
     }
   }

@@ -47,6 +47,8 @@ The details of TicketStatusEntity to be saved.
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 
 
 ## Response: object
@@ -72,6 +74,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -81,15 +85,17 @@ Response body: object
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 535,
-  "Name": "Romaguera-Bins",
+  "TicketStatusId": 952,
+  "Name": "Pfeffer LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false
+  "NoEmailReopen": true,
+  "IsDefault": true,
+  "UsedInQueue": false
 }
 ```
 
@@ -98,11 +104,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 973,
-  "Name": "Block-Satterfield",
+  "TicketStatusId": 404,
+  "Name": "O'Keefe Group",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,8 +121,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

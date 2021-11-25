@@ -1,9 +1,9 @@
 ---
-title: GetUntrustedCredentials
+title: POST Agents/User/GetUntrustedCredentials
 id: v1UserAgent_GetUntrustedCredentials
 ---
 
-# GetUntrustedCredentials
+# POST Agents/User/GetUntrustedCredentials
 
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentials
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nulla"
+  "Type": "optio"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2007-02-04T14:58:05.4522936+01:00",
-    "ValidTo": "2012-11-19T14:58:05.4522936+01:00",
-    "Comment": "aut",
-    "SecretValue": "mollitia",
-    "PublicValue": "delectus",
+    "ValidFrom": "2006-11-29T18:28:50.4524119+01:00",
+    "ValidTo": "2011-08-08T18:28:50.4524119+02:00",
+    "Comment": "eaque",
+    "SecretValue": "quaerat",
+    "PublicValue": "libero",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 37
       }
     }
   }

@@ -2,8 +2,6 @@
 title: List_Position
 ---
 
-# List_Position
-
 ```http
 /api/v1/List/Position
 ```

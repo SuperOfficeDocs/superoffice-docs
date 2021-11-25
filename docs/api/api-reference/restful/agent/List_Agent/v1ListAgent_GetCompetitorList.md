@@ -1,9 +1,9 @@
 ---
-title: GetCompetitorList
+title: POST Agents/List/GetCompetitorList
 id: v1ListAgent_GetCompetitorList
 ---
 
-# GetCompetitorList
+# POST Agents/List/GetCompetitorList
 
 ```http
 POST /api/v1/Agents/List/GetCompetitorList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCompetitorList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Value": "aut",
-    "Tooltip": "ut",
+    "Id": 32,
+    "Value": "ut",
+    "Tooltip": "quia",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 772
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   },
   {
-    "Id": 236,
-    "Value": "aut",
-    "Tooltip": "ut",
+    "Id": 32,
+    "Value": "ut",
+    "Tooltip": "quia",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 772
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

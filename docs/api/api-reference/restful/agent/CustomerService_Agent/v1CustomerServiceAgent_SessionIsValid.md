@@ -1,9 +1,9 @@
 ---
-title: SessionIsValid
+title: POST Agents/CustomerService/SessionIsValid
 id: v1CustomerServiceAgent_SessionIsValid
 ---
 
-# SessionIsValid
+# POST Agents/CustomerService/SessionIsValid
 
 ```http
 POST /api/v1/Agents/CustomerService/SessionIsValid
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "dolores"
+  "CsSessionKey": "ut"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

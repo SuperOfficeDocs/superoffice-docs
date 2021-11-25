@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 44,
-  "Name": "Schoen Inc and Sons",
-  "Tooltip": "magnam",
+  "HeadingId": 342,
+  "Name": "Franecki-Cruickshank",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 929,
-  "UdListDefinitionId": 644
+  "Rank": 21,
+  "UdListDefinitionId": 543
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 603,
-  "Name": "Kertzmann Group",
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "Rank": 340,
-  "UdListDefinitionId": 9,
+  "HeadingId": 385,
+  "Name": "Bergnaum-Gibson",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "Rank": 771,
+  "UdListDefinitionId": 633,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "mesh clicks-and-mortar web-readiness"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldLength": 162
     }
   }
 }

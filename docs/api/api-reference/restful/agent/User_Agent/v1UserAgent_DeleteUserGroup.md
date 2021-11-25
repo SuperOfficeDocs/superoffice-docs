@@ -1,9 +1,9 @@
 ---
-title: DeleteUserGroup
+title: POST Agents/User/DeleteUserGroup
 id: v1UserAgent_DeleteUserGroup
 ---
 
-# DeleteUserGroup
+# POST Agents/User/DeleteUserGroup
 
 ```http
 POST /api/v1/Agents/User/DeleteUserGroup

@@ -1,9 +1,9 @@
 ---
-title: GetDiaryViewEntity
+title: POST Agents/Configuration/GetDiaryViewEntity
 id: v1ConfigurationAgent_GetDiaryViewEntity
 ---
 
-# GetDiaryViewEntity
+# POST Agents/Configuration/GetDiaryViewEntity
 
 ```http
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
@@ -25,7 +25,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=680
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=677
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,32 +81,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 230,
-  "Name": "Ledner LLC",
-  "Tooltip": "itaque",
-  "VisibleColumns": 307,
-  "Rank": 817,
-  "AssocId": 240,
+  "DiaryViewId": 28,
+  "Name": "Legros-Cormier",
+  "Tooltip": "consequuntur",
+  "VisibleColumns": 466,
+  "Rank": 93,
+  "AssocId": 269,
   "AssociateList": [
     {
-      "Id": 559,
-      "Name": "Harvey-Hammes",
-      "ToolTip": "Ut id debitis ut veritatis.",
-      "Deleted": true,
-      "Rank": 707,
-      "Type": "voluptatem",
-      "ColorBlock": 843,
-      "IconHint": "rem",
-      "Selected": false,
-      "LastChanged": "2020-03-27T14:58:03.5373118+01:00",
+      "Id": 30,
+      "Name": "Johnson Inc and Sons",
+      "ToolTip": "Adipisci et cupiditate occaecati repellat id.",
+      "Deleted": false,
+      "Rank": 175,
+      "Type": "aut",
+      "ColorBlock": 103,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "1995-01-28T18:28:48.3946235+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Glennie Stoltenberg",
+      "ExtraInfo": "officia",
+      "StyleHint": "quae",
+      "Hidden": true,
+      "FullName": "Libbie Prosacco",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -114,24 +114,24 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
   ],
-  "TzLocationId": 927,
+  "TzLocationId": 794,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "visualize value-added e-markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "cultivate sexy e-tailers"
       },
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 42
     }
   }

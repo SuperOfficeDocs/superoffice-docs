@@ -1,9 +1,9 @@
 ---
-title: GetConsentPurposes
+title: POST Agents/List/GetConsentPurposes
 id: v1ListAgent_GetConsentPurposes
 ---
 
-# GetConsentPurposes
+# POST Agents/List/GetConsentPurposes
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurposes
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 235,
-    "Name": "Funk-Kohler",
-    "ConsentText": "voluptatibus",
-    "FormText": "temporibus",
-    "Key": "assumenda",
-    "Tooltip": "maiores",
-    "Active": 962,
-    "UpdatedDate": "1997-04-25T14:58:04.3624602+02:00",
+    "ConsentPurposeId": 342,
+    "Name": "Swift-Nienow",
+    "ConsentText": "cum",
+    "FormText": "esse",
+    "Key": "autem",
+    "Tooltip": "eum",
+    "Active": 120,
+    "UpdatedDate": "2000-12-23T18:28:49.4240903+01:00",
     "UpdatedBy": {
-      "AssociateId": 222,
-      "Name": "Orn Inc and Sons",
-      "PersonId": 101,
-      "Rank": 172,
-      "Tooltip": "assumenda",
+      "AssociateId": 115,
+      "Name": "Jast-Roob",
+      "PersonId": 909,
+      "Rank": 5,
+      "Tooltip": "qui",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 455,
-      "FullName": "Mr. Tyreek Boyle",
-      "FormalName": "Kutch Group",
-      "Deleted": false,
-      "EjUserId": 395,
-      "UserName": "Parker LLC",
+      "GroupIdx": 542,
+      "FullName": "Raymundo Brakus",
+      "FormalName": "Pouros-Leuschke",
+      "Deleted": true,
+      "EjUserId": 139,
+      "UserName": "Gottlieb Group",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 152
+          "FieldType": "System.Int32",
+          "FieldLength": 283
         }
       }
     },
     "Deleted": true,
-    "Rank": 758,
-    "PrivacyStatementDesc": "rerum",
+    "Rank": 204,
+    "PrivacyStatementDesc": "fugiat",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldLength": 615
       }
     }
   }

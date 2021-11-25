@@ -1,9 +1,9 @@
 ---
-title: HasNewMail
+title: POST Agents/EMail/HasNewMail
 id: v1EMailAgent_HasNewMail
 ---
 
-# HasNewMail
+# POST Agents/EMail/HasNewMail
 
 ```http
 POST /api/v1/Agents/EMail/HasNewMail
@@ -71,12 +71,12 @@ Response body: bool
 POST /api/v1/Agents/EMail/HasNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 477,
-  "FolderId": 90
+  "MailItemId": 143,
+  "FolderId": 688
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

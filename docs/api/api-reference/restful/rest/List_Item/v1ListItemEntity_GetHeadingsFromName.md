@@ -72,12 +72,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 811,
-    "Name": "Kuhic, Graham and Lang",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 225,
+    "HeadingId": 976,
+    "Name": "Tremblay, Ritchie and Berge",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "Rank": 305,
+    "UdListDefinitionId": 141,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithHeader2
+title: POST Agents/Archive/GetArchiveListByColumnsWithHeader2
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeader2
 ---
 
-# GetArchiveListByColumnsWithHeader2
+# POST Agents/Archive/GetArchiveListByColumnsWithHeader2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
@@ -176,14 +176,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Parisian, Lynch and Mayer",
-  "Columns": "delectus",
-  "SortOrder": "et",
-  "Restriction": "natus",
-  "Entities": "veritatis",
-  "Page": 659,
-  "PageSize": 841,
-  "Options": "officia"
+  "ProviderName": "Brakus-Howe",
+  "Columns": "totam",
+  "SortOrder": "est",
+  "Restriction": "cupiditate",
+  "Entities": "est",
+  "Page": 642,
+  "PageSize": 854,
+  "Options": "molestias"
 }
 ```
 
@@ -192,20 +192,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 500,
+  "RowCount": 19,
   "Rows": [
     {
-      "EntityName": "Bode LLC",
-      "PrimaryKey": 335,
+      "EntityName": "Mosciski-Mills",
+      "PrimaryKey": 672,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "amet",
-          "LinkHint": "eius"
+          "DisplayValue": "est",
+          "TooltipHint": "tempora",
+          "LinkHint": "natus"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "dolore",
+      "LinkHint": "corporis",
+      "StyleHint": "non",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -214,14 +214,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 684
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "engineer proactive supply-chains"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -229,8 +229,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   }
 }

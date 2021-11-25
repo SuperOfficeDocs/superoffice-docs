@@ -63,7 +63,7 @@ Response body: array
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 931,
-    "Name": "Terry Group",
-    "ContentType": "temporibus",
-    "AttSize": 131,
+    "AttachmentId": 323,
+    "Name": "Dicki-Graham",
+    "ContentType": "voluptas",
+    "AttSize": 420,
     "InlineImage": false,
-    "ContentId": "ex",
+    "ContentId": "eligendi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 598
       }
     }
   }

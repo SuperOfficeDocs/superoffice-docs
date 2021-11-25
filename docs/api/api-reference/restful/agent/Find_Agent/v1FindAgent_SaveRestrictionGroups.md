@@ -1,9 +1,9 @@
 ---
-title: SaveRestrictionGroups
+title: POST Agents/Find/SaveRestrictionGroups
 id: v1FindAgent_SaveRestrictionGroups
 ---
 
-# SaveRestrictionGroups
+# POST Agents/Find/SaveRestrictionGroups
 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroups
@@ -78,34 +78,34 @@ Response body: array
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Witting, VonRueden and Mraz",
-  "StorageKey": "ad",
+  "StorageType": "blanditiis",
+  "ProviderName": "Jones-Erdman",
+  "StorageKey": "voluptatem",
   "RestrictionGroups": [
     {
-      "Name": "Oberbrunner, Mraz and Wuckert",
-      "Description": "Polarised next generation migration",
-      "Rank": 119,
+      "Name": "Adams-Willms",
+      "Description": "Fully-configurable discrete ability",
+      "Rank": 31,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Oberbrunner, Mraz and Wuckert",
-      "Description": "Polarised next generation migration",
-      "Rank": 119,
+      "Name": "Adams-Willms",
+      "Description": "Fully-configurable discrete ability",
+      "Rank": 31,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "sequi"
+  "Context": "ut"
 }
 ```
 
@@ -115,20 +115,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kris, Barrows and Powlowski",
-    "Description": "Multi-tiered neutral contingency",
-    "Rank": 131,
+    "Name": "Johnson, Hahn and Koepp",
+    "Description": "Upgradable methodical Graphical User Interface",
+    "Rank": 444,
     "Restrictions": [
       {
-        "Name": "Gutkowski Inc and Sons",
-        "Operator": "exercitationem",
+        "Name": "Roberts Group",
+        "Operator": "ex",
         "Values": [
-          "cumque",
-          "laudantium"
+          "nisi",
+          "perferendis"
         ],
         "DisplayValues": [
-          "minus",
-          "qui"
+          "eveniet",
+          "quas"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -136,27 +136,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 832,
+        "InterParenthesis": 93,
         "InterOperator": "And",
-        "UniqueHash": 255
+        "UniqueHash": 375
       }
     ]
   },
   {
-    "Name": "Kris, Barrows and Powlowski",
-    "Description": "Multi-tiered neutral contingency",
-    "Rank": 131,
+    "Name": "Johnson, Hahn and Koepp",
+    "Description": "Upgradable methodical Graphical User Interface",
+    "Rank": 444,
     "Restrictions": [
       {
-        "Name": "Gutkowski Inc and Sons",
-        "Operator": "exercitationem",
+        "Name": "Roberts Group",
+        "Operator": "ex",
         "Values": [
-          "cumque",
-          "laudantium"
+          "nisi",
+          "perferendis"
         ],
         "DisplayValues": [
-          "minus",
-          "qui"
+          "eveniet",
+          "quas"
         ],
         "ColumnInfo": {},
         "IsActive": true,
@@ -164,9 +164,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 832,
+        "InterParenthesis": 93,
         "InterOperator": "And",
-        "UniqueHash": 255
+        "UniqueHash": 375
       }
     ]
   }

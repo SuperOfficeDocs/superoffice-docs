@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteLineConfiguration
+title: POST Agents/Quote/SaveQuoteLineConfiguration
 id: v1QuoteAgent_SaveQuoteLineConfiguration
 ---
 
-# SaveQuoteLineConfiguration
+# POST Agents/Quote/SaveQuoteLineConfiguration
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
@@ -91,14 +91,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfiguration": {
-    "QuoteLineConfigurationId": 735,
-    "FieldName": "Runolfsson Group",
-    "Label": "ut",
-    "Tooltip": "eveniet",
+    "QuoteLineConfigurationId": 122,
+    "FieldName": "Swaniawski-Yundt",
+    "Label": "atque",
+    "Tooltip": "suscipit",
     "Editable": false,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 341,
+    "Mandatory": false,
+    "Rank": 825,
     "RestrictEdit": true
   }
 }
@@ -109,15 +109,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 909,
-  "FieldName": "Spencer-Miller",
-  "Label": "qui",
-  "Tooltip": "dolore",
+  "QuoteLineConfigurationId": 682,
+  "FieldName": "McGlynn Group",
+  "Label": "aspernatur",
+  "Tooltip": "ut",
   "Editable": true,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 991,
-  "RestrictEdit": true,
+  "Rank": 220,
+  "RestrictEdit": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 527
     }
   }
 }

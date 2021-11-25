@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailConnectionInfoExtended
+title: POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 id: v1EMailAgent_CreateDefaultEMailConnectionInfoExtended
 ---
 
-# CreateDefaultEMailConnectionInfoExtended
+# POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -72,13 +72,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 369,
-  "ServerName": "McLaughlin, Hammes and Kihn",
-  "Protocol": "deleniti",
-  "UserName": "Langosh Group",
-  "Password": "molestias",
-  "UseSSL": false,
-  "Folder": "harum",
+  "Port": 55,
+  "ServerName": "Schiller, Schowalter and Williamson",
+  "Protocol": "in",
+  "UserName": "Bergstrom Group",
+  "Password": "voluptatem",
+  "UseSSL": true,
+  "Folder": "quas",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldLength": 830
     }
   }
 }

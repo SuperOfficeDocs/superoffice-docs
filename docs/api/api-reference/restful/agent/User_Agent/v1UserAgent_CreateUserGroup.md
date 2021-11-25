@@ -1,9 +1,9 @@
 ---
-title: CreateUserGroup
+title: POST Agents/User/CreateUserGroup
 id: v1UserAgent_CreateUserGroup
 ---
 
-# CreateUserGroup
+# POST Agents/User/CreateUserGroup
 
 ```http
 POST /api/v1/Agents/User/CreateUserGroup
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "dolore",
-  "Tooltip": "voluptas",
-  "Id": 943,
-  "Rank": 818,
+  "Value": "sapiente",
+  "Tooltip": "quas",
+  "Id": 534,
+  "Rank": 415,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 488
     }
   }
 }

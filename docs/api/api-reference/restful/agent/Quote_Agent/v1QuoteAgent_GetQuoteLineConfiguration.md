@@ -1,9 +1,9 @@
 ---
-title: GetQuoteLineConfiguration
+title: POST Agents/Quote/GetQuoteLineConfiguration
 id: v1QuoteAgent_GetQuoteLineConfiguration
 ---
 
-# GetQuoteLineConfiguration
+# POST Agents/Quote/GetQuoteLineConfiguration
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 503
+  "QuoteLineConfigurationId": 59
 }
 ```
 
@@ -99,15 +99,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 945,
-  "FieldName": "Mayer-Hessel",
-  "Label": "quia",
-  "Tooltip": "quo",
+  "QuoteLineConfigurationId": 68,
+  "FieldName": "Blanda Group",
+  "Label": "aut",
+  "Tooltip": "earum",
   "Editable": true,
   "InUse": true,
-  "Mandatory": false,
-  "Rank": 718,
-  "RestrictEdit": false,
+  "Mandatory": true,
+  "Rank": 71,
+  "RestrictEdit": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 460
     }
   }
 }

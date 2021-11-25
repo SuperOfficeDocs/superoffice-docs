@@ -1,9 +1,9 @@
 ---
-title: GetDeviceKeysOnDeviceIdentifierTableRecordId
+title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
 ---
 
-# GetDeviceKeysOnDeviceIdentifierTableRecordId
+# POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
@@ -84,15 +84,15 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Becker-Stamm",
-  "DeviceName": "Walter LLC",
-  "DeviceIdentifier": "harum",
-  "TableName": "Weissnat LLC",
-  "RecordId": 988
+  "ApplicationName": "Klocko-McLaughlin",
+  "DeviceName": "Considine LLC",
+  "DeviceIdentifier": "sit",
+  "TableName": "Funk Group",
+  "RecordId": 635
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quo",
+    "Key": "sed",
     "Value": "a",
-    "RecordId": 790,
-    "CreatedDate": "2017-04-02T14:58:04.3154598+02:00",
-    "UpdatedDate": "2001-06-19T14:58:04.3154598+02:00",
-    "UpdatedBy": "odit",
-    "CreatedBy": "aut",
-    "TableName": "Quigley, Skiles and O'Reilly",
+    "RecordId": 481,
+    "CreatedDate": "1994-11-13T18:28:49.2240933+01:00",
+    "UpdatedDate": "2016-01-18T18:28:49.2240933+01:00",
+    "UpdatedBy": "magni",
+    "CreatedBy": "id",
+    "TableName": "Bergstrom Group",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

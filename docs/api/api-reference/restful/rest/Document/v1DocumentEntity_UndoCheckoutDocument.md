@@ -67,7 +67,7 @@ Response body: object
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "aut",
-  "VersionId": "aut",
+  "ExternalReference": "rerum",
+  "VersionId": "id",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "rerum",
-  "AdditionalInfo": "dolor"
+  "Value": "quia",
+  "AdditionalInfo": "nobis"
 }
 ```

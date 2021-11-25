@@ -121,34 +121,34 @@ Response body: object
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 899,
-  "Name": "Kuphal, Lemke and Schaden",
-  "Tooltip": "adipisci",
-  "SaveInDb": 245,
-  "Filename": "rerum",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 747,
+  "Name": "Durgan Group",
+  "Tooltip": "iusto",
+  "SaveInDb": 611,
+  "Filename": "aut",
+  "DefaultOref": "eveniet",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 817,
-  "IntentId": 283,
-  "IsDefaultPublished": false,
-  "Rank": 332,
-  "LoadTemplateFromPlugin": 406,
-  "MimeType": "et",
+  "AutoeventId": 589,
+  "IntentId": 989,
+  "IsDefaultPublished": true,
+  "Rank": 319,
+  "LoadTemplateFromPlugin": 428,
+  "MimeType": "quisquam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 221,
+  "DocumentTypeKey": 750,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dana@stark.uk",
+  "EmailSubject": "chasity.okuneva@jacobsjacobs.co.uk",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "magali_dickens@metzsanford.ca",
+  "SenderEmailAddress": "ivy_smith@stroman.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -158,30 +158,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 236,
-  "Name": "Murazik, Quigley and Swaniawski",
-  "Tooltip": "quidem",
-  "SaveInDb": 190,
-  "Filename": "et",
-  "DefaultOref": "sapiente",
+  "DocumentTemplateId": 920,
+  "Name": "McLaughlin-Hilll",
+  "Tooltip": "labore",
+  "SaveInDb": 651,
+  "Filename": "provident",
+  "DefaultOref": "sequi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 538,
-  "IntentId": 305,
+  "AutoeventId": 431,
+  "IntentId": 547,
   "IsDefaultPublished": true,
-  "Rank": 325,
-  "LoadTemplateFromPlugin": 883,
-  "MimeType": "atque",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 171,
+  "Rank": 739,
+  "LoadTemplateFromPlugin": 40,
+  "MimeType": "tenetur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 317,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "frieda@roob.info",
-  "IncludeSignature": true,
+  "EmailSubject": "erika@murazikanderson.ca",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "aubree@kihn.us",
+  "SenderEmailAddress": "brandyn.schowalter@quitzonmuller.info",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 800
     }
   }
 }

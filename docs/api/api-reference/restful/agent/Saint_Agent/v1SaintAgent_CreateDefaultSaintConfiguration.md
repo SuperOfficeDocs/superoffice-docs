@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSaintConfiguration
+title: POST Agents/Saint/CreateDefaultSaintConfiguration
 id: v1SaintAgent_CreateDefaultSaintConfiguration
 ---
 
-# CreateDefaultSaintConfiguration
+# POST Agents/Saint/CreateDefaultSaintConfiguration
 
 ```http
 POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 959,
+  "OwnerTable": 166,
   "Enabled": true,
-  "Period1": 65,
-  "Period2": 488,
-  "Period3": 796,
-  "GenerationStart": "2001-01-03T14:58:05.1046294+01:00",
-  "GenerationEnd": "2005-04-07T14:58:05.1046294+02:00",
-  "RowsGenerated": 648,
+  "Period1": 715,
+  "Period2": 102,
+  "Period3": 1001,
+  "GenerationStart": "2002-03-05T18:28:50.0376998+01:00",
+  "GenerationEnd": "1995-02-13T18:28:50.0376998+01:00",
+  "RowsGenerated": 555,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 236
     }
   }
 }

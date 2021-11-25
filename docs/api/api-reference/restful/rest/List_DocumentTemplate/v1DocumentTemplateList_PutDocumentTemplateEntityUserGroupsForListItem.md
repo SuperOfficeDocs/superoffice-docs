@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Purdy-Stehr",
-    "ToolTip": "Fuga accusamus est.",
-    "Deleted": false,
-    "Rank": 27,
-    "Type": "quia",
-    "ColorBlock": 466,
-    "IconHint": "vero",
+    "Id": 257,
+    "Name": "Abbott, Ebert and Romaguera",
+    "ToolTip": "Sed nulla.",
+    "Deleted": true,
+    "Rank": 444,
+    "Type": "molestiae",
+    "ColorBlock": 183,
+    "IconHint": "natus",
     "Selected": true,
-    "LastChanged": "2010-01-16T15:05:43.4615463+01:00",
+    "LastChanged": "2008-04-18T18:25:51.8358999+02:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Rogahn-Hahn",
-        "ToolTip": "Sint similique quisquam atque beatae illo quo.",
+        "Id": 290,
+        "Name": "Bechtelar Inc and Sons",
+        "ToolTip": "Eos rerum hic maxime.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "accusantium",
-        "ColorBlock": 964,
-        "IconHint": "vel",
+        "Rank": 759,
+        "Type": "aspernatur",
+        "ColorBlock": 89,
+        "IconHint": "odio",
         "Selected": true,
-        "LastChanged": "1997-08-23T15:05:43.4615463+02:00",
+        "LastChanged": "2013-08-11T18:25:51.8358999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Jayne Ernser"
+        "ExtraInfo": "suscipit",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Tom Toy"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Mrs. Jackeline Kuhic"
+    "ExtraInfo": "sequi",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Wellington Dach"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Borer, Kautzer and Schneider",
-    "ToolTip": "Harum aliquam sint voluptas ut aliquam blanditiis.",
-    "Deleted": true,
-    "Rank": 852,
-    "Type": "ut",
-    "ColorBlock": 132,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2007-07-11T15:05:43.47655+02:00",
+    "Id": 662,
+    "Name": "Yost Inc and Sons",
+    "ToolTip": "Maiores est ut rem excepturi.",
+    "Deleted": false,
+    "Rank": 647,
+    "Type": "necessitatibus",
+    "ColorBlock": 891,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "1996-06-25T18:25:51.8385263+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Daugherty Inc and Sons",
-        "ToolTip": "Ut et.",
+        "Id": 284,
+        "Name": "Anderson, Dicki and Schuster",
+        "ToolTip": "Aspernatur enim inventore.",
         "Deleted": true,
-        "Rank": 669,
+        "Rank": 929,
         "Type": "aut",
-        "ColorBlock": 434,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "1994-10-04T15:05:43.4775116+02:00",
+        "ColorBlock": 761,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "1994-11-02T18:25:51.8385263+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Kacie Schmitt I",
+        "ExtraInfo": "ut",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Margarette Fahey",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Sydnee Fritsch",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Miss Toby Cummerata",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 661
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

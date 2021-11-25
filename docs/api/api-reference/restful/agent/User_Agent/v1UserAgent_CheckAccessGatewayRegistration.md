@@ -1,9 +1,9 @@
 ---
-title: CheckAccessGatewayRegistration
+title: POST Agents/User/CheckAccessGatewayRegistration
 id: v1UserAgent_CheckAccessGatewayRegistration
 ---
 
-# CheckAccessGatewayRegistration
+# POST Agents/User/CheckAccessGatewayRegistration
 
 ```http
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration
@@ -61,7 +61,7 @@ Response body: bool
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_

@@ -1,9 +1,9 @@
 ---
-title: GetDashboards
+title: POST Agents/Dashboard/GetDashboards
 id: v1DashboardAgent_GetDashboards
 ---
 
-# GetDashboards
+# POST Agents/Dashboard/GetDashboards
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboards
@@ -77,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 767
+  "AssociateId": 723
 }
 ```
 
@@ -91,22 +91,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 710,
-    "AssociateId": 192,
-    "Caption": "impedit",
+    "DashboardId": 871,
+    "AssociateId": 193,
+    "Caption": "aperiam",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 507,
-        "Caption": "quis",
-        "Description": "Enhanced zero defect superstructure",
-        "ChartName": "Marks Group",
-        "ChartId": "odio",
+        "DashboardTileId": 204,
+        "Caption": "nesciunt",
+        "Description": "Proactive stable middleware",
+        "ChartName": "Gaylord Group",
+        "ChartId": "dolorem",
         "IsDefault": false,
-        "AssociateId": 150,
-        "GroupId": 434,
-        "SelectionId": 963,
-        "Config": "commodi",
+        "AssociateId": 439,
+        "GroupId": 146,
+        "SelectionId": 933,
+        "Config": "reiciendis",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 846
+            "FieldType": "System.Int32",
+            "FieldLength": 689
           }
         }
       }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetTicketStatusEntity
+title: POST Agents/List/GetTicketStatusEntity
 id: v1ListAgent_GetTicketStatusEntity
 ---
 
-# GetTicketStatusEntity
+# POST Agents/List/GetTicketStatusEntity
 
 ```http
 POST /api/v1/Agents/List/GetTicketStatusEntity
@@ -25,7 +25,7 @@ Gets a TicketStatusEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=238
+POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=599
 POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/id
 ```
 
@@ -66,6 +66,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -75,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/List/GetTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -83,11 +85,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 514,
-  "Name": "Waelchi LLC",
+  "TicketStatusId": 251,
+  "Name": "Roob Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 951
     }
   }
 }

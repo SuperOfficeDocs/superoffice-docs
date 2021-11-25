@@ -93,20 +93,20 @@ Response body: object
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 601,
-  "Name": "Braun Group",
+  "ScreenChooserId": 702,
+  "Name": "Nienow LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "facilis",
-  "Source": "ut",
-  "Registered": "1998-02-22T15:05:42.9626322+01:00",
-  "RegisteredAssociateId": 928,
-  "Updated": "2001-07-16T15:05:42.9626322+02:00",
-  "UpdatedAssociateId": 838
+  "UniqueIdentifier": "repellat",
+  "Source": "quis",
+  "Registered": "1998-10-12T18:25:51.3221056+02:00",
+  "RegisteredAssociateId": 195,
+  "Updated": "2001-06-27T18:25:51.3221056+02:00",
+  "UpdatedAssociateId": 822
 }
 ```
 
@@ -115,16 +115,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 510,
-  "Name": "Goodwin LLC",
+  "ScreenChooserId": 24,
+  "Name": "Kuhlman LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "fugiat",
-  "Source": "totam",
-  "Registered": "1999-08-10T15:05:42.9636323+02:00",
-  "RegisteredAssociateId": 278,
-  "Updated": "2017-01-07T15:05:42.9636323+01:00",
-  "UpdatedAssociateId": 615,
+  "Enabled": false,
+  "UniqueIdentifier": "veniam",
+  "Source": "error",
+  "Registered": "2000-05-16T18:25:51.3231056+02:00",
+  "RegisteredAssociateId": 282,
+  "Updated": "2003-12-28T18:25:51.3231056+01:00",
+  "UpdatedAssociateId": 587,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 504
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: RejectQuoteVersion
+title: POST Agents/Quote/RejectQuoteVersion
 id: v1QuoteAgent_RejectQuoteVersion
 ---
 
-# RejectQuoteVersion
+# POST Agents/Quote/RejectQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/RejectQuoteVersion
@@ -82,14 +82,14 @@ Response body: object
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 754,
-  "RejectedByText": "repellendus",
-  "RejectedByAssociateId": 641,
-  "RejectionText": "quaerat"
+  "QuoteVersionId": 131,
+  "RejectedByText": "dolores",
+  "RejectedByAssociateId": 835,
+  "RejectionText": "illo"
 }
 ```
 
@@ -99,10 +99,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": {
-    "IsOk": false,
-    "UserExplanation": "ut",
-    "TechExplanation": "assumenda",
-    "ErrorCode": "qui",
+    "IsOk": true,
+    "UserExplanation": "magnam",
+    "TechExplanation": "et",
+    "ErrorCode": "rem",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -111,12 +111,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   },
-  "CreatedAppointmentId": 422,
+  "CreatedAppointmentId": 170,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

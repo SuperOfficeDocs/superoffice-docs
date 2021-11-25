@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultUserFromUserType
+title: POST Agents/User/CreateDefaultUserFromUserType
 id: v1UserAgent_CreateDefaultUserFromUserType
 ---
 
-# CreateDefaultUserFromUserType
+# POST Agents/User/CreateDefaultUserFromUserType
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 677,
-  "Name": "Heathcote Inc and Sons",
-  "Rank": 889,
-  "Tooltip": "tenetur",
+  "AssociateId": 966,
+  "Name": "Will, Parker and Konopelski",
+  "Rank": 520,
+  "Tooltip": "omnis",
   "LicenseOwners": [
     {
-      "Name": "Wolf-Romaguera",
-      "Description": "Up-sized cohesive budgetary management",
+      "Name": "Jaskolski, Marvin and Mayert",
+      "Description": "Advanced incremental application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 426
         }
       }
     },
     {
-      "Name": "Wolf-Romaguera",
-      "Description": "Up-sized cohesive budgetary management",
+      "Name": "Jaskolski, Marvin and Mayert",
+      "Description": "Advanced incremental application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -165,33 +165,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 426
         }
       }
     }
   ],
   "Role": {
-    "Id": 243,
-    "Value": "quod",
-    "Tooltip": "aliquid",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 627
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "consectetur",
-    "Tooltip": "inventore",
-    "Id": 50,
-    "Rank": 160,
-    "Deleted": true,
+    "Id": 989,
+    "Value": "corrupti",
+    "Tooltip": "mollitia",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -200,17 +182,35 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldLength": 994
+      }
+    }
+  },
+  "UserGroup": {
+    "Value": "eius",
+    "Tooltip": "rerum",
+    "Id": 645,
+    "Rank": 781,
+    "Deleted": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "nisi",
-      "Tooltip": "dolorem",
-      "Id": 778,
-      "Rank": 986,
-      "Deleted": true,
+      "Value": "nihil",
+      "Tooltip": "qui",
+      "Id": 23,
+      "Rank": 246,
+      "Deleted": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -218,52 +218,52 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 229
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
   ],
   "Person": {
-    "Position": "molestiae",
-    "PersonId": 677,
-    "Mrmrs": "quidem",
-    "Firstname": "Daryl",
-    "Lastname": "Kulas",
-    "MiddleName": "Sporer Group",
-    "Title": "voluptatem",
-    "Description": "Persevering radical toolset",
-    "Email": "meghan_roberts@koelpinkiehn.uk",
-    "FullName": "Stanton Nikolaus",
-    "DirectPhone": "1-338-682-1253 x34111",
-    "FormalName": "Weimann-Bosco",
-    "CountryId": 82,
-    "ContactId": 969,
-    "ContactName": "Schoen Inc and Sons",
-    "Retired": 661,
-    "Rank": 57,
-    "ActiveInterests": 431,
+    "Position": "veritatis",
+    "PersonId": 49,
+    "Mrmrs": "eligendi",
+    "Firstname": "Jarvis",
+    "Lastname": "Weissnat",
+    "MiddleName": "Welch-Schaden",
+    "Title": "dolores",
+    "Description": "Secured impactful task-force",
+    "Email": "tre.ankunding@larsonschulist.biz",
+    "FullName": "Kelton Murazik",
+    "DirectPhone": "731.163.4135 x1005",
+    "FormalName": "Wunsch Group",
+    "CountryId": 860,
+    "ContactId": 292,
+    "ContactName": "Emmerich Inc and Sons",
+    "Retired": 314,
+    "Rank": 661,
+    "ActiveInterests": 272,
     "ContactDepartment": "",
-    "ContactCountryId": 766,
-    "ContactOrgNr": "1032275",
-    "FaxPhone": "682.088.1883 x43422",
-    "MobilePhone": "1-327-457-6752 x254",
-    "ContactPhone": "(360)354-8026 x711",
-    "AssociateName": "Ledner-Johnson",
-    "AssociateId": 537,
+    "ContactCountryId": 112,
+    "ContactOrgNr": "1251421",
+    "FaxPhone": "1-380-610-7517",
+    "MobilePhone": "1-343-618-8177",
+    "ContactPhone": "234.604.8724 x7012",
+    "AssociateName": "Haley LLC",
+    "AssociateId": 316,
     "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "dolores",
-    "Kanalname": "aperiam",
-    "Post1": "hic",
-    "Post2": "voluptatum",
-    "Post3": "expedita",
-    "EmailName": "johathan.kulas@smith.co.uk",
-    "ContactFullName": "Mitchel Muller",
-    "ActiveErpLinks": 273,
-    "TicketPriorityId": 32,
-    "SupportLanguageId": 86,
-    "SupportAssociateId": 681,
+    "ContactFax": "rerum",
+    "Kanafname": "sint",
+    "Kanalname": "perspiciatis",
+    "Post1": "et",
+    "Post2": "aut",
+    "Post3": "repellendus",
+    "EmailName": "kellen@mullerprosacco.com",
+    "ContactFullName": "Vince Hahn",
+    "ActiveErpLinks": 699,
+    "TicketPriorityId": 369,
+    "SupportLanguageId": 554,
+    "SupportAssociateId": 879,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -273,70 +273,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 472
       }
     }
   },
   "Deleted": true,
-  "Lastlogin": "2000-10-01T14:58:05.5270544+02:00",
-  "Lastlogout": "1997-01-08T14:58:05.5270544+01:00",
-  "EjUserId": 827,
-  "RequestSignature": "reiciendis",
+  "Lastlogin": "2003-09-18T18:28:50.4764133+02:00",
+  "Lastlogout": "2007-08-22T18:28:50.4764133+02:00",
+  "EjUserId": 889,
+  "RequestSignature": "qui",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "libero",
-      "DisplayValue": "nihil",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 288
-        }
-      }
-    },
-    {
-      "Type": {},
-      "Value": "libero",
-      "DisplayValue": "nihil",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 288
-        }
-      }
-    }
-  ],
-  "UserName": "Mraz, Labadie and Pollich",
-  "TicketCategories": [
-    {
-      "Id": 112,
-      "Name": "Murazik-Boehm",
-      "ToolTip": "Numquam laudantium est.",
-      "Deleted": true,
-      "Rank": 894,
-      "Type": "adipisci",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quis",
-      "ColorBlock": 894,
-      "ExtraInfo": "nobis",
-      "StyleHint": "sint",
-      "FullName": "Santa Gleichner Jr.",
+      "Value": "neque",
+      "DisplayValue": "culpa",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -345,29 +298,45 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 682
+        }
+      }
+    },
+    {
+      "Type": {},
+      "Value": "neque",
+      "DisplayValue": "culpa",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 682
         }
       }
     }
   ],
-  "NickName": "Boyer-Huel",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "architecto"
-  },
-  "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "commodi"
-  },
-  "PostSaveCommands": [
+  "UserName": "Kutch-Lindgren",
+  "TicketCategories": [
     {
-      "Name": "Keeling, Halvorson and Pfeffer",
-      "DisplayName": "Johns Inc and Sons",
-      "Description": "Extended dynamic open architecture",
-      "ToolTip": "Id beatae odit.",
-      "Actions": "Implicit",
-      "ActionData": "voluptas",
+      "Id": 659,
+      "Name": "Connelly Group",
+      "ToolTip": "Accusamus harum enim hic.",
+      "Deleted": true,
+      "Rank": 364,
+      "Type": "qui",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "doloribus",
+      "ColorBlock": 218,
+      "ExtraInfo": "eveniet",
+      "StyleHint": "aut",
+      "FullName": "Russ Funk",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -376,7 +345,38 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 80
+          "FieldLength": 734
+        }
+      }
+    }
+  ],
+  "NickName": "Huels, Kozey and Donnelly",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "illum"
+  },
+  "CustomFields": {
+    "CustomFields1": "ut",
+    "CustomFields2": "omnis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Streich, Schuster and Jaskolski",
+      "DisplayName": "Borer Inc and Sons",
+      "Description": "Customizable responsive pricing structure",
+      "ToolTip": "Dolor nam reprehenderit ipsa.",
+      "Actions": "Implicit",
+      "ActionData": "expedita",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 725
         }
       }
     }
@@ -392,7 +392,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 208
     }
   }
 }

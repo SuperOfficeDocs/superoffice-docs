@@ -88,16 +88,16 @@ Response body: object
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 440,
-  "Name": "Swaniawski, Auer and Heaney",
-  "ContentType": "necessitatibus",
-  "AttSize": 741,
+  "AttachmentId": 406,
+  "Name": "Reinger-Weimann",
+  "ContentType": "ipsa",
+  "AttSize": 622,
   "InlineImage": false,
-  "ContentId": "aut"
+  "ContentId": "debitis"
 }
 ```
 
@@ -106,12 +106,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 908,
-  "Name": "Frami-Hoppe",
-  "ContentType": "consequatur",
-  "AttSize": 724,
-  "InlineImage": true,
-  "ContentId": "dolorem",
+  "AttachmentId": 287,
+  "Name": "Lueilwitz Group",
+  "ContentType": "ab",
+  "AttSize": 150,
+  "InlineImage": false,
+  "ContentId": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 175
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -71,38 +71,38 @@ Response body: object
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 20 Aug 2007 15:05:42 G8T
+Last-Modified: Mon, 02 Aug 2021 18:25:50 G8T
 
 {
-  "BlobId": 886,
-  "BlobSize": 422,
-  "Description": "Upgradable responsive capability",
-  "ExtraInfo": "temporibus",
+  "BlobId": 349,
+  "BlobSize": 674,
+  "Description": "Re-contextualized coherent middleware",
+  "ExtraInfo": "est",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "rerum",
-  "OriginalSize": 937,
-  "CreatedDate": "2018-02-18T15:05:42.5406355+01:00",
-  "UpdatedDate": "2007-08-20T15:05:42.5406355+02:00",
+  "MimeType": "similique",
+  "OriginalSize": 111,
+  "CreatedDate": "2010-09-12T18:25:50.8518852+02:00",
+  "UpdatedDate": "2021-08-02T18:25:50.8518852+02:00",
   "CreatedBy": {
-    "AssociateId": 241,
-    "Name": "Bahringer, Howell and McKenzie",
-    "PersonId": 363,
-    "Rank": 700,
-    "Tooltip": "ab",
+    "AssociateId": 54,
+    "Name": "Jast-Paucek",
+    "PersonId": 467,
+    "Rank": 12,
+    "Tooltip": "animi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 665,
-    "FullName": "Caesar Effertz",
-    "FormalName": "Ritchie Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 26,
-    "UserName": "Windler-Roberts",
+    "GroupIdx": 907,
+    "FullName": "Maria Schiller",
+    "FormalName": "Mills-Block",
+    "Deleted": false,
+    "EjUserId": 961,
+    "UserName": "Vandervort-Bradtke",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -110,24 +110,24 @@ Last-Modified: Mon, 20 Aug 2007 15:05:42 G8T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 411,
-    "Name": "Dooley, Yost and Hermann",
-    "PersonId": 483,
-    "Rank": 70,
-    "Tooltip": "voluptates",
+    "AssociateId": 799,
+    "Name": "Crist, Considine and Koepp",
+    "PersonId": 459,
+    "Rank": 371,
+    "Tooltip": "repudiandae",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 754,
-    "FullName": "Tracy Gaylord",
-    "FormalName": "Ebert, Hilll and Brown",
-    "Deleted": true,
-    "EjUserId": 576,
-    "UserName": "Mayer-Corwin",
+    "GroupIdx": 480,
+    "FullName": "Alvena Rath IV",
+    "FormalName": "Rogahn Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 849,
+    "UserName": "Schowalter, Johnson and Okuneva",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -136,11 +136,11 @@ Last-Modified: Mon, 20 Aug 2007 15:05:42 G8T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldLength": 614
       }
     }
   },
-  "ConceptualType": "unde",
+  "ConceptualType": "voluptates",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,10 +149,10 @@ Last-Modified: Mon, 20 Aug 2007 15:05:42 G8T
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "whiteboard one-to-one convergence"
       },
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

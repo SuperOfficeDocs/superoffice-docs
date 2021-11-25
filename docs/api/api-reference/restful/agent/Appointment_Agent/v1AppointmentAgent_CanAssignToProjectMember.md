@@ -1,9 +1,9 @@
 ---
-title: CanAssignToProjectMember
+title: POST Agents/Appointment/CanAssignToProjectMember
 id: v1AppointmentAgent_CanAssignToProjectMember
 ---
 
-# CanAssignToProjectMember
+# POST Agents/Appointment/CanAssignToProjectMember
 
 ```http
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
@@ -69,12 +69,12 @@ Response body: bool
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 300,
-  "SuggestedAppointmentId": 276
+  "ProjectId": 128,
+  "SuggestedAppointmentId": 284
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedFieldList
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
 ---
 
-# GetUserDefinedFieldList
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -106,7 +106,7 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -120,40 +120,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 747,
-    "ColumnId": 386,
-    "FieldDefault": "perspiciatis",
-    "FieldHeight": 650,
-    "FieldLabel": "ab",
-    "FieldLeft": 213,
-    "FieldTop": 160,
+    "UDefFieldId": 842,
+    "ColumnId": 551,
+    "FieldDefault": "sit",
+    "FieldHeight": 963,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 208,
+    "FieldTop": 397,
     "FieldType": "Checkbox",
-    "FieldWidth": 730,
+    "FieldWidth": 940,
     "FormatMask": "voluptas",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 740,
-    "LabelLeft": 694,
-    "LabelTop": 73,
-    "LabelWidth": 993,
-    "LastVersionId": 605,
-    "ListTableId": 820,
-    "IsMandatory": false,
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 798,
+    "LabelLeft": 392,
+    "LabelTop": 947,
+    "LabelWidth": 740,
+    "LastVersionId": 423,
+    "ListTableId": 580,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 737,
-    "ProgId": "commodi",
+    "Page1LineNo": 697,
+    "ProgId": "incidunt",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 767,
-    "TextLength": 180,
-    "Tooltip": "eos",
-    "UdefIdentity": 535,
-    "UDListDefinitionId": 452,
+    "ShortLabel": "labore",
+    "TabOrder": 218,
+    "TextLength": 688,
+    "Tooltip": "recusandae",
+    "UdefIdentity": 116,
+    "UDListDefinitionId": 577,
     "Justification": "Center",
-    "Version": 169,
-    "TemplateVariableName": "Hagenes-Mueller",
-    "HasBeenPublished": false,
-    "MdoListName": "Murray, Johnston and Beer",
+    "Version": 61,
+    "TemplateVariableName": "Cole, Keebler and Sporer",
+    "HasBeenPublished": true,
+    "MdoListName": "Hodkiewicz, Cole and Haley",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 85
       }
     }
   }

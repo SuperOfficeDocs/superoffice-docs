@@ -1,9 +1,9 @@
 ---
-title: VerifyGetDocumentStream
+title: POST Agents/Document/VerifyGetDocumentStream
 id: v1DocumentAgent_VerifyGetDocumentStream
 ---
 
-# VerifyGetDocumentStream
+# POST Agents/Document/VerifyGetDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/VerifyGetDocumentStream

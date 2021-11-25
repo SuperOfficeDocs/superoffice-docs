@@ -1,9 +1,9 @@
 ---
-title: GetAvailableFields
+title: POST Agents/BulkUpdate/GetAvailableFields
 id: v1BulkUpdateAgent_GetAvailableFields
 ---
 
-# GetAvailableFields
+# POST Agents/BulkUpdate/GetAvailableFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -101,56 +101,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "accusamus",
-    "ValueType": "earum",
+    "IsActive": true,
+    "Key": "tenetur",
+    "ValueType": "modi",
     "Mandatory": true,
-    "EncodedDisplayName": "Marks Group",
-    "EncodedDisplayDescription": "Devolved coherent contingency",
-    "IconHint": "non",
+    "EncodedDisplayName": "Spencer-Jacobi",
+    "EncodedDisplayDescription": "Balanced directional hardware",
+    "IconHint": "in",
     "ControlInfos": [
       {
-        "Type": "adipisci",
-        "Label": "qui",
-        "Dimension": 123,
-        "ListProviderName": "Towne Inc and Sons",
-        "ListProviderExtraInfo": "voluptatum",
-        "ListProviderPrimaryKeyName": "Berge, Stiedemann and Mosciski",
-        "ListLeadText": "voluptas",
+        "Type": "et",
+        "Label": "explicabo",
+        "Dimension": 628,
+        "ListProviderName": "Hudson LLC",
+        "ListProviderExtraInfo": "enim",
+        "ListProviderPrimaryKeyName": "Rowe LLC",
+        "ListLeadText": "ullam",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "harness granular interfaces"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldType": "System.String",
+            "FieldLength": 381
           }
         }
       }
     ],
-    "EncodedDataCaption": "incidunt",
-    "EncodedDataCaptionDescription": "Customer-focused static utilisation",
-    "CurrentOperationType": "quia",
+    "EncodedDataCaption": "maiores",
+    "EncodedDataCaptionDescription": "Fundamental transitional extranet",
+    "CurrentOperationType": "est",
     "Values": [
-      "et",
-      "nisi"
+      "expedita",
+      "tempore"
     ],
     "DisplayValues": [
-      "vitae",
-      "et"
+      "libero",
+      "harum"
     ],
     "OperationInfos": [
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Hansen-Beer",
+        "Key": "ut",
+        "EncodedDisplayName": "Murray Group",
         "EncodedLeadTexts": [
-          "eos",
-          "ut"
+          "dicta",
+          "commodi"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -160,16 +160,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 96
+            "FieldLength": 916
           }
         }
       },
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Hansen-Beer",
+        "Key": "ut",
+        "EncodedDisplayName": "Murray Group",
         "EncodedLeadTexts": [
-          "eos",
-          "ut"
+          "dicta",
+          "commodi"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 96
+            "FieldLength": 916
           }
         }
       }

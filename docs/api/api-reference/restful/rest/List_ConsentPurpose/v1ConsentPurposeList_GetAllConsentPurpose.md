@@ -66,7 +66,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,27 +75,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 967,
-    "Name": "Bahringer Inc and Sons",
-    "ConsentText": "eos",
-    "FormText": "vel",
-    "Key": "omnis",
-    "Tooltip": "ullam",
-    "Active": 868,
-    "UpdatedDate": "1996-08-20T15:05:43.3305404+02:00",
+    "ConsentPurposeId": 833,
+    "Name": "Ebert Group",
+    "ConsentText": "et",
+    "FormText": "architecto",
+    "Key": "eum",
+    "Tooltip": "et",
+    "Active": 899,
+    "UpdatedDate": "2012-12-22T18:25:51.6612947+01:00",
     "UpdatedBy": {
-      "AssociateId": 786,
-      "Name": "Hammes Inc and Sons",
-      "PersonId": 779,
-      "Rank": 948,
-      "Tooltip": "eos",
+      "AssociateId": 9,
+      "Name": "Kassulke Inc and Sons",
+      "PersonId": 285,
+      "Rank": 202,
+      "Tooltip": "assumenda",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 696,
-      "FullName": "Marlin Roob",
-      "FormalName": "Ortiz-Feil",
-      "Deleted": false,
-      "EjUserId": 607,
-      "UserName": "Rath-Mayert",
+      "GroupIdx": 839,
+      "FullName": "Uriel Dare MD",
+      "FormalName": "Harber Inc and Sons",
+      "Deleted": true,
+      "EjUserId": 105,
+      "UserName": "Runolfsdottir-Auer",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     },
-    "Deleted": true,
-    "Rank": 361,
-    "PrivacyStatementDesc": "doloribus",
+    "Deleted": false,
+    "Rank": 303,
+    "PrivacyStatementDesc": "at",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldLength": 73
       }
     }
   }

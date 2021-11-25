@@ -1,9 +1,9 @@
 ---
-title: GetColleaguesBySource
+title: POST Agents/Person/GetColleaguesBySource
 id: v1PersonAgent_GetColleaguesBySource
 ---
 
-# GetColleaguesBySource
+# POST Agents/Person/GetColleaguesBySource
 
 ```http
 POST /api/v1/Agents/Person/GetColleaguesBySource
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 483
+  "Count": 508
 }
 ```
 
@@ -128,45 +128,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "facilis",
-    "PersonId": 940,
-    "Mrmrs": "quam",
-    "Firstname": "Madisen",
-    "Lastname": "Romaguera",
-    "MiddleName": "Littel, Bergstrom and Roob",
-    "Title": "et",
-    "Description": "Persevering bi-directional core",
-    "Email": "herminia.larson@heathcote.us",
-    "FullName": "Eriberto Smitham",
-    "DirectPhone": "568-361-7753 x634",
-    "FormalName": "Streich-DuBuque",
-    "CountryId": 536,
-    "ContactId": 630,
-    "ContactName": "Auer-Waters",
-    "Retired": 980,
-    "Rank": 329,
-    "ActiveInterests": 770,
+    "Position": "rerum",
+    "PersonId": 728,
+    "Mrmrs": "repudiandae",
+    "Firstname": "Tillman",
+    "Lastname": "Gislason",
+    "MiddleName": "Considine Group",
+    "Title": "corporis",
+    "Description": "Monitored even-keeled productivity",
+    "Email": "hubert_gusikowski@gerholdgutkowski.info",
+    "FullName": "Mack Eichmann",
+    "DirectPhone": "465.736.4813",
+    "FormalName": "Davis-Lakin",
+    "CountryId": 95,
+    "ContactId": 281,
+    "ContactName": "Abshire, Klocko and Willms",
+    "Retired": 58,
+    "Rank": 509,
+    "ActiveInterests": 907,
     "ContactDepartment": "",
-    "ContactCountryId": 474,
-    "ContactOrgNr": "1345667",
-    "FaxPhone": "510-732-7133 x562",
-    "MobilePhone": "565-874-0728 x7453",
-    "ContactPhone": "125.040.2551",
-    "AssociateName": "Blick Inc and Sons",
-    "AssociateId": 196,
+    "ContactCountryId": 753,
+    "ContactOrgNr": "921225",
+    "FaxPhone": "(670)116-6644",
+    "MobilePhone": "058.354.8474 x85716",
+    "ContactPhone": "554.774.5600",
+    "AssociateName": "Hessel LLC",
+    "AssociateId": 743,
     "UsePersonAddress": true,
-    "ContactFax": "ad",
-    "Kanafname": "autem",
-    "Kanalname": "aspernatur",
-    "Post1": "atque",
-    "Post2": "ut",
-    "Post3": "repellendus",
-    "EmailName": "buford_stoltenberg@hettingerwitting.com",
-    "ContactFullName": "Anna O'Connell PhD",
-    "ActiveErpLinks": 569,
-    "TicketPriorityId": 394,
-    "SupportLanguageId": 12,
-    "SupportAssociateId": 975,
+    "ContactFax": "ratione",
+    "Kanafname": "nihil",
+    "Kanalname": "sunt",
+    "Post1": "ut",
+    "Post2": "vel",
+    "Post3": "vitae",
+    "EmailName": "percy.hammes@kiehn.com",
+    "ContactFullName": "Luigi Dach",
+    "ActiveErpLinks": 542,
+    "TicketPriorityId": 975,
+    "SupportLanguageId": 264,
+    "SupportAssociateId": 347,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 192
       }
     }
   }

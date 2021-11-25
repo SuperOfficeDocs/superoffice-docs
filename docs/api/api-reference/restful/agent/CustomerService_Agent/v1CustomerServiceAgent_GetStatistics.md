@@ -1,9 +1,9 @@
 ---
-title: GetStatistics
+title: POST Agents/CustomerService/GetStatistics
 id: v1CustomerServiceAgent_GetStatistics
 ---
 
-# GetStatistics
+# POST Agents/CustomerService/GetStatistics
 
 ```http
 POST /api/v1/Agents/CustomerService/GetStatistics
@@ -75,13 +75,13 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "sit",
-    "enim"
+    "totam",
+    "omnis"
   ]
 }
 ```
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "reprehenderit",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "ea",
-        "Value": 27936.476,
-        "Description": "Programmable didactic toolset",
+        "Label": "odit",
+        "Value": 11012.876,
+        "Description": "Devolved fault-tolerant pricing structure",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 633
           }
         }
       },
       {
-        "Label": "ea",
-        "Value": 27936.476,
-        "Description": "Programmable didactic toolset",
+        "Label": "odit",
+        "Value": 11012.876,
+        "Description": "Devolved fault-tolerant pricing structure",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -121,13 +121,13 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 633
           }
         }
       }
     ],
-    "Description": "Configurable leading edge array",
+    "Description": "Mandatory client-server paradigm",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,20 +136,20 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "empower ubiquitous methodologies"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 28
       }
     }
   },
   {
-    "Label": "reprehenderit",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "ea",
-        "Value": 27936.476,
-        "Description": "Programmable didactic toolset",
+        "Label": "odit",
+        "Value": 11012.876,
+        "Description": "Devolved fault-tolerant pricing structure",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -157,15 +157,15 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 633
           }
         }
       },
       {
-        "Label": "ea",
-        "Value": 27936.476,
-        "Description": "Programmable didactic toolset",
+        "Label": "odit",
+        "Value": 11012.876,
+        "Description": "Devolved fault-tolerant pricing structure",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -173,13 +173,13 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 633
           }
         }
       }
     ],
-    "Description": "Configurable leading edge array",
+    "Description": "Mandatory client-server paradigm",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -188,10 +188,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "empower ubiquitous methodologies"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 28
       }
     }
   }

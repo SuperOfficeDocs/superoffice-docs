@@ -70,7 +70,7 @@ Response body: object
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -78,12 +78,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Reinger, Baumbach and Kuhn",
-  "Tooltip": "odit",
+  "Id": 315,
+  "Name": "Kshlerin, Moore and Leffler",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "UdListDefinitionId": 912,
-  "Rank": 416,
+  "UdListDefinitionId": 515,
+  "Rank": 819,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldType": "System.String",
+      "FieldLength": 877
     }
   }
 }

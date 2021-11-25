@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "Name": "Wilkinson, Champlin and Runte",
-  "Tooltip": "et",
+  "Id": 248,
+  "Name": "Smith-Jewess",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 644,
-  "IsCustomList": true,
+  "Rank": 588,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "quos",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   },
   "_Links": {

@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "Name": "Bradtke-Gorczany",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 556,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 560,
+  "Name": "Stracke Group",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 271,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   },
   "_Links": {

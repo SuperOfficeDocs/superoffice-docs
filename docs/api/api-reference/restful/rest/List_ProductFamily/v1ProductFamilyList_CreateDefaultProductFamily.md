@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884,
-  "Name": "Hand-Orn",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 164,
-  "Rank": 853,
+  "Id": 376,
+  "Name": "Stokes-Hessel",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "UdListDefinitionId": 148,
+  "Rank": 507,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

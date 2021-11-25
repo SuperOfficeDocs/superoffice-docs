@@ -1,9 +1,9 @@
 ---
-title: GetArchiveList
+title: POST Agents/Archive/GetArchiveList
 id: v1ArchiveAgent_GetArchiveList
 ---
 
-# GetArchiveList
+# POST Agents/Archive/GetArchiveList
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList
@@ -109,33 +109,33 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kozey-Sipes",
-  "ProviderName": "White-Beahan",
+  "GuiName": "Walker Group",
+  "ProviderName": "Yundt, Windler and Jacobs",
   "SortOrder": [
     {
-      "Name": "Hayes, Bashirian and Prosacco",
+      "Name": "McGlynn Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hayes, Bashirian and Prosacco",
+      "Name": "McGlynn Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Koepp Inc and Sons",
-      "Operator": "eaque",
+      "Name": "Mosciski, Harvey and Kiehn",
+      "Operator": "voluptatum",
       "Values": [
-        "autem",
-        "voluptatum"
+        "molestias",
+        "provident"
       ],
       "DisplayValues": [
-        "soluta",
-        "voluptatibus"
+        "esse",
+        "nihil"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -143,17 +143,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 726,
+      "InterParenthesis": 631,
       "InterOperator": "And",
-      "UniqueHash": 825
+      "UniqueHash": 649
     }
   ],
   "Entities": [
-    "voluptatibus",
-    "perferendis"
+    "vero",
+    "est"
   ],
-  "Page": 390,
-  "PageSize": 677
+  "Page": 779,
+  "PageSize": 797
 }
 ```
 
@@ -163,20 +163,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Watsica Inc and Sons",
-    "PrimaryKey": 851,
+    "EntityName": "Lakin, Klein and Larkin",
+    "PrimaryKey": 132,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "modi",
-        "TooltipHint": "doloribus",
-        "LinkHint": "inventore"
+        "DisplayValue": "nisi",
+        "TooltipHint": "necessitatibus",
+        "LinkHint": "hic"
       }
     },
     "LinkHint": "voluptas",
-    "StyleHint": "temporibus",
+    "StyleHint": "dicta",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "innovate intuitive e-tailers"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 833
       }
     }
   }

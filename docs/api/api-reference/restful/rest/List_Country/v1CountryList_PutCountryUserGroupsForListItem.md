@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Von LLC",
-    "ToolTip": "Eaque praesentium aut voluptas.",
+    "Id": 997,
+    "Name": "McDermott LLC",
+    "ToolTip": "Illo numquam laborum eum labore.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "quos",
-    "ColorBlock": 26,
-    "IconHint": "distinctio",
+    "Rank": 256,
+    "Type": "ratione",
+    "ColorBlock": 625,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2005-03-14T15:05:43.3725102+01:00",
+    "LastChanged": "1996-02-14T18:25:51.7523272+01:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Bins-Runolfsdottir",
-        "ToolTip": "Distinctio quod quia non pariatur aperiam aperiam.",
+        "Id": 154,
+        "Name": "Rolfson-Hartmann",
+        "ToolTip": "Optio ullam.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "officiis",
-        "ColorBlock": 863,
-        "IconHint": "doloribus",
+        "Rank": 749,
+        "Type": "occaecati",
+        "ColorBlock": 993,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2010-11-15T15:05:43.3725102+01:00",
+        "LastChanged": "2020-04-20T18:25:51.7523272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "quae",
+        "ExtraInfo": "in",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Judge Ferry"
+        "FullName": "Napoleon Welch"
       }
     ],
     "ExtraInfo": "rerum",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Webster Gibson"
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Alverta Block"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Zieme-Abshire",
-    "ToolTip": "Ratione itaque sed accusantium temporibus qui.",
+    "Id": 870,
+    "Name": "Pollich LLC",
+    "ToolTip": "Ad ipsum.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "tempore",
-    "ColorBlock": 817,
-    "IconHint": "qui",
+    "Rank": 345,
+    "Type": "nulla",
+    "ColorBlock": 941,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1999-12-16T15:05:43.3735102+01:00",
+    "LastChanged": "2008-09-09T18:25:51.7533261+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Towne LLC",
-        "ToolTip": "Optio laudantium iste et itaque atque.",
+        "Id": 461,
+        "Name": "Harvey LLC",
+        "ToolTip": "Ea ab molestiae aut.",
         "Deleted": true,
-        "Rank": 327,
-        "Type": "odit",
-        "ColorBlock": 792,
-        "IconHint": "et",
+        "Rank": 381,
+        "Type": "vel",
+        "ColorBlock": 68,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2008-01-16T15:05:43.3735102+01:00",
+        "LastChanged": "2013-03-18T18:25:51.7533261+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Dayna Gislason IV",
+        "FullName": "Cletus Stoltenberg",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 446
+            "FieldType": "System.Int32",
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Amalia Paucek",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Mollie Daugherty",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 786
       }
     }
   }

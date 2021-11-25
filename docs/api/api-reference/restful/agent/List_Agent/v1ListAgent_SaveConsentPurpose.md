@@ -1,9 +1,9 @@
 ---
-title: SaveConsentPurpose
+title: POST Agents/List/SaveConsentPurpose
 id: v1ListAgent_SaveConsentPurpose
 ---
 
-# SaveConsentPurpose
+# POST Agents/List/SaveConsentPurpose
 
 ```http
 POST /api/v1/Agents/List/SaveConsentPurpose
@@ -86,23 +86,23 @@ Response body: object
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConsentPurpose": {
-    "ConsentPurposeId": 21,
-    "Name": "Daniel-Toy",
-    "ConsentText": "et",
-    "FormText": "accusamus",
-    "Key": "vero",
-    "Tooltip": "beatae",
-    "Active": 700,
-    "UpdatedDate": "2020-03-10T14:58:04.3594598+01:00",
+    "ConsentPurposeId": 183,
+    "Name": "Heaney Group",
+    "ConsentText": "nemo",
+    "FormText": "itaque",
+    "Key": "adipisci",
+    "Tooltip": "impedit",
+    "Active": 323,
+    "UpdatedDate": "2013-10-05T18:28:49.4200904+02:00",
     "UpdatedBy": {},
-    "Deleted": false,
-    "Rank": 350,
-    "PrivacyStatementDesc": "non",
+    "Deleted": true,
+    "Rank": 612,
+    "PrivacyStatementDesc": "voluptatem",
     "PrivacyStatementUrl": "http://www.example.com/"
   }
 }
@@ -113,27 +113,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 360,
-  "Name": "Kuhic, Gulgowski and Parisian",
-  "ConsentText": "et",
-  "FormText": "itaque",
-  "Key": "laborum",
-  "Tooltip": "voluptatem",
-  "Active": 938,
-  "UpdatedDate": "2012-11-09T14:58:04.3604628+01:00",
+  "ConsentPurposeId": 669,
+  "Name": "Mills, Eichmann and McKenzie",
+  "ConsentText": "officia",
+  "FormText": "eligendi",
+  "Key": "velit",
+  "Tooltip": "delectus",
+  "Active": 145,
+  "UpdatedDate": "2012-07-08T18:28:49.4200904+02:00",
   "UpdatedBy": {
-    "AssociateId": 870,
-    "Name": "Schultz Group",
-    "PersonId": 452,
-    "Rank": 572,
-    "Tooltip": "expedita",
+    "AssociateId": 345,
+    "Name": "Watsica-Bogan",
+    "PersonId": 424,
+    "Rank": 708,
+    "Tooltip": "cum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 206,
-    "FullName": "Garrett Runolfsson",
-    "FormalName": "Hand, Dooley and Bechtelar",
+    "GroupIdx": 348,
+    "FullName": "Michel VonRueden III",
+    "FormalName": "Lang, Macejkovic and Schoen",
     "Deleted": true,
-    "EjUserId": 464,
-    "UserName": "Kshlerin Inc and Sons",
+    "EjUserId": 559,
+    "UserName": "Breitenberg-Legros",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldLength": 719
       }
     }
   },
   "Deleted": true,
-  "Rank": 518,
-  "PrivacyStatementDesc": "sed",
+  "Rank": 250,
+  "PrivacyStatementDesc": "optio",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": {
     "Mask": "Delete",
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

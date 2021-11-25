@@ -1,9 +1,9 @@
 ---
-title: GetDocumentCommands
+title: POST Agents/Document/GetDocumentCommands
 id: v1DocumentAgent_GetDocumentCommands
 ---
 
-# GetDocumentCommands
+# POST Agents/Document/GetDocumentCommands
 
 ```http
 POST /api/v1/Agents/Document/GetDocumentCommands
@@ -76,14 +76,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 70,
+  "DocumentId": 191,
   "AllowedReturnTypes": [
-    "quia",
-    "optio"
+    "et",
+    "ea"
   ]
 }
 ```
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kilback LLC",
-    "DisplayName": "Pollich-Cormier",
-    "DisplayTooltip": "sit",
-    "IconHint": "maxime",
+    "Name": "Zieme, Bergnaum and Ritchie",
+    "DisplayName": "Fahey, Langosh and Williamson",
+    "DisplayTooltip": "vitae",
+    "IconHint": "facilis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Kilback LLC",
-    "DisplayName": "Pollich-Cormier",
-    "DisplayTooltip": "sit",
-    "IconHint": "maxime",
+    "Name": "Zieme, Bergnaum and Ritchie",
+    "DisplayName": "Fahey, Langosh and Williamson",
+    "DisplayTooltip": "vitae",
+    "IconHint": "facilis",
     "ReturnType": "CustomGui"
   }
 ]

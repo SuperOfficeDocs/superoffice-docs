@@ -1,9 +1,9 @@
 ---
-title: SaveRoleEntity
+title: POST Agents/User/SaveRoleEntity
 id: v1UserAgent_SaveRoleEntity
 ---
 
-# SaveRoleEntity
+# POST Agents/User/SaveRoleEntity
 
 ```http
 POST /api/v1/Agents/User/SaveRoleEntity
@@ -92,42 +92,42 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 177,
-  "Name": "Erdman Group",
-  "Tooltip": "dicta",
+  "RoleId": 918,
+  "Name": "O'Hara LLC",
+  "Tooltip": "dolorum",
   "RoleType": "Anonymous",
-  "Deleted": 62,
-  "Rank": 216,
-  "Created": "2001-12-31T14:58:05.5400545+01:00",
-  "UseCategories": 666,
+  "Deleted": 163,
+  "Rank": 482,
+  "Created": "2012-03-18T18:28:50.4864405+01:00",
+  "UseCategories": 893,
   "CreatedBy": {
-    "AssociateId": 623,
-    "Name": "Ondricka, Kreiger and Simonis",
-    "PersonId": 273,
-    "Rank": 722,
-    "Tooltip": "ea",
+    "AssociateId": 405,
+    "Name": "Farrell-Hettinger",
+    "PersonId": 105,
+    "Rank": 243,
+    "Tooltip": "voluptas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 35,
-    "FullName": "Jeff Fadel",
-    "FormalName": "Dickinson-Moore",
+    "GroupIdx": 227,
+    "FullName": "Archibald Sawayn",
+    "FormalName": "Paucek, Bogisich and Huel",
     "Deleted": false,
-    "EjUserId": 319,
-    "UserName": "Casper-Rosenbaum"
+    "EjUserId": 171,
+    "UserName": "Grimes Group"
   },
-  "Updated": "2016-07-04T14:58:05.5400545+02:00",
+  "Updated": "2007-10-28T18:28:50.4864405+01:00",
   "UpdatedBy": {
-    "AssociateId": 729,
-    "Name": "Lueilwitz, Jast and Pfeffer",
-    "PersonId": 36,
-    "Rank": 909,
-    "Tooltip": "dolores",
+    "AssociateId": 394,
+    "Name": "Auer-Wisoky",
+    "PersonId": 957,
+    "Rank": 508,
+    "Tooltip": "laudantium",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 380,
-    "FullName": "Tess Eichmann Sr.",
-    "FormalName": "Rodriguez LLC",
-    "Deleted": false,
-    "EjUserId": 689,
-    "UserName": "Conroy LLC"
+    "GroupIdx": 747,
+    "FullName": "Bridgette Erdman",
+    "FormalName": "Howell-Shanahan",
+    "Deleted": true,
+    "EjUserId": 938,
+    "UserName": "Kulas Group"
   },
   "DataRights": {
     "ColumnsInfo": [
@@ -141,11 +141,11 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "dolorum",
-          "Description": "Synergized tertiary methodology",
+          "Value": "tenetur",
+          "Description": "Synergistic multimedia portal",
           "TableRight": {
             "Mask": "Delete",
-            "Reason": ""
+            "Reason": "facilitate granular e-services"
           },
           "FieldProperties": {
             "fieldName": {
@@ -153,16 +153,16 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 673
+              "FieldType": "System.Int32",
+              "FieldLength": 839
             }
           }
         }
       ],
       [
         {
-          "Value": "est",
-          "Description": "Extended systemic algorithm",
+          "Value": "dicta",
+          "Description": "Extended background secured line",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 111
+              "FieldLength": 741
             }
           }
         }
@@ -189,27 +189,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 900,
-  "Name": "Hickle, Boehm and Gleason",
-  "Tooltip": "quis",
+  "RoleId": 986,
+  "Name": "Wilkinson, Weimann and Funk",
+  "Tooltip": "ab",
   "RoleType": "Anonymous",
-  "Deleted": 89,
-  "Rank": 709,
-  "Created": "2000-06-04T14:58:05.5420582+02:00",
-  "UseCategories": 271,
+  "Deleted": 631,
+  "Rank": 276,
+  "Created": "2002-04-08T18:28:50.4884136+02:00",
+  "UseCategories": 436,
   "CreatedBy": {
-    "AssociateId": 499,
-    "Name": "Hilpert, Jacobi and Toy",
-    "PersonId": 844,
-    "Rank": 320,
-    "Tooltip": "at",
+    "AssociateId": 942,
+    "Name": "Lakin-Fisher",
+    "PersonId": 319,
+    "Rank": 328,
+    "Tooltip": "id",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 295,
-    "FullName": "Dr. Rowland Murphy",
-    "FormalName": "Kuhn, O'Conner and Kuphal",
-    "Deleted": false,
-    "EjUserId": 151,
-    "UserName": "Volkman LLC",
+    "GroupIdx": 993,
+    "FullName": "Alfreda Marquardt",
+    "FormalName": "Christiansen-Yundt",
+    "Deleted": true,
+    "EjUserId": 25,
+    "UserName": "Corkery, Kuhic and Koch",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -218,24 +218,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 997
+        "FieldLength": 433
       }
     }
   },
-  "Updated": "2019-02-25T14:58:05.5430542+01:00",
+  "Updated": "2015-09-05T18:28:50.489413+02:00",
   "UpdatedBy": {
-    "AssociateId": 908,
-    "Name": "Kautzer, Kerluke and Strosin",
-    "PersonId": 848,
-    "Rank": 772,
-    "Tooltip": "itaque",
+    "AssociateId": 912,
+    "Name": "Ziemann, Gutkowski and Crooks",
+    "PersonId": 805,
+    "Rank": 714,
+    "Tooltip": "tempore",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 197,
-    "FullName": "Dr. Golden Pfeffer",
-    "FormalName": "Herman-Braun",
-    "Deleted": true,
-    "EjUserId": 40,
-    "UserName": "Wiegand-Kerluke",
+    "GroupIdx": 910,
+    "FullName": "Edwin Mohr",
+    "FormalName": "Ullrich, Zemlak and Langosh",
+    "Deleted": false,
+    "EjUserId": 368,
+    "UserName": "O'Keefe, Berge and Larson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -243,8 +243,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldType": "System.String",
+        "FieldLength": 947
       }
     }
   },
@@ -260,8 +260,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "sapiente",
-          "Description": "Networked zero defect emulation",
+          "Value": "ea",
+          "Description": "Balanced fault-tolerant success",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -273,15 +273,15 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 576
+              "FieldLength": 291
             }
           }
         }
       ],
       [
         {
-          "Value": "consequatur",
-          "Description": "Synchronised grid-enabled knowledge user",
+          "Value": "eos",
+          "Description": "User-centric high-level algorithm",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -293,7 +293,7 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.String",
-              "FieldLength": 227
+              "FieldLength": 556
             }
           }
         }
@@ -307,7 +307,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldLength": 66
       }
     }
   },
@@ -321,8 +321,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

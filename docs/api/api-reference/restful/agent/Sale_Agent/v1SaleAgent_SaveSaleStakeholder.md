@@ -1,9 +1,9 @@
 ---
-title: SaveSaleStakeholder
+title: POST Agents/Sale/SaveSaleStakeholder
 id: v1SaleAgent_SaveSaleStakeholder
 ---
 
-# SaveSaleStakeholder
+# POST Agents/Sale/SaveSaleStakeholder
 
 ```http
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
@@ -104,25 +104,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Breitenberg Group",
-  "Comment": "qui",
-  "StakeholderRoleId": 363,
-  "CountryId": 925,
-  "PersonId": 580,
-  "EmailDescription": "taya@marvin.info",
-  "EmailId": 353,
-  "EmailAddress": "rasheed_brekke@stark.co.uk",
-  "PhoneId": 228,
-  "ContactName": "Pouros LLC",
-  "ContactId": 619,
-  "SaleId": 195,
-  "Mrmrs": "quis",
-  "Firstname": "Charlotte",
-  "MiddleName": "McKenzie-Ankunding",
-  "Lastname": "Torphy",
-  "SaleStakeholderId": 106,
-  "Rank": 421,
-  "Phone": "051.800.5708 x6443"
+  "StakeholderRoleName": "Swift Group",
+  "Comment": "commodi",
+  "StakeholderRoleId": 727,
+  "CountryId": 306,
+  "PersonId": 710,
+  "EmailDescription": "christina@kling.info",
+  "EmailId": 250,
+  "EmailAddress": "odessa_ebert@spinka.biz",
+  "PhoneId": 51,
+  "ContactName": "Pouros Inc and Sons",
+  "ContactId": 408,
+  "SaleId": 932,
+  "Mrmrs": "deserunt",
+  "Firstname": "Ines",
+  "MiddleName": "Hickle, Kiehn and Bruen",
+  "Lastname": "Armstrong",
+  "SaleStakeholderId": 789,
+  "Rank": 895,
+  "Phone": "830.160.3412"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grant, Purdy and Marquardt",
-  "Comment": "iste",
-  "StakeholderRoleId": 379,
-  "CountryId": 516,
-  "PersonId": 126,
-  "EmailDescription": "lance@feeney.biz",
-  "EmailId": 181,
-  "EmailAddress": "trevor@cummingsdoyle.name",
-  "PhoneId": 404,
-  "ContactName": "Breitenberg-Padberg",
-  "ContactId": 434,
-  "SaleId": 509,
-  "Mrmrs": "quisquam",
-  "Firstname": "Makayla",
-  "MiddleName": "Glover-Franecki",
-  "Lastname": "Block",
-  "SaleStakeholderId": 326,
-  "Rank": 304,
-  "Phone": "101-057-4182 x541",
+  "StakeholderRoleName": "Krajcik-Volkman",
+  "Comment": "assumenda",
+  "StakeholderRoleId": 132,
+  "CountryId": 402,
+  "PersonId": 917,
+  "EmailDescription": "travis@quitzon.co.uk",
+  "EmailId": 374,
+  "EmailAddress": "cassidy@gutmann.uk",
+  "PhoneId": 15,
+  "ContactName": "Klein Inc and Sons",
+  "ContactId": 341,
+  "SaleId": 996,
+  "Mrmrs": "aut",
+  "Firstname": "Luella",
+  "MiddleName": "Hauck Group",
+  "Lastname": "Ratke",
+  "SaleStakeholderId": 223,
+  "Rank": 220,
+  "Phone": "(462)567-5145 x83285",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 253
     }
   }
 }

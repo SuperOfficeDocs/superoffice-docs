@@ -1,9 +1,9 @@
 ---
-title: DeleteDash
+title: POST Agents/Dash/DeleteDash
 id: v1DashAgent_DeleteDash
 ---
 
-# DeleteDash
+# POST Agents/Dash/DeleteDash
 
 ```http
 POST /api/v1/Agents/Dash/DeleteDash
@@ -24,7 +24,7 @@ Deletes the Dash
 | DashId | int32 | **Required** The id of the Dash to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=170
+POST /api/v1/Agents/Dash/DeleteDash?DashId=378
 ```
 
 

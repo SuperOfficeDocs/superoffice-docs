@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 525,
-  "Name": "McCullough LLC",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "Rank": 571,
-  "UdListDefinitionId": 290
+  "HeadingId": 175,
+  "Name": "Lehner Group",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 711,
+  "UdListDefinitionId": 717
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 97,
-  "Name": "Kuhn, Pfeffer and Hudson",
-  "Tooltip": "cupiditate",
+  "HeadingId": 656,
+  "Name": "Wisozk Group",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "Rank": 661,
-  "UdListDefinitionId": 230,
+  "Rank": 296,
+  "UdListDefinitionId": 72,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

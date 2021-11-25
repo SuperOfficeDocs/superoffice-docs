@@ -1,9 +1,9 @@
 ---
-title: GetPersonsFromProject
+title: POST Agents/Person/GetPersonsFromProject
 id: v1PersonAgent_GetPersonsFromProject
 ---
 
-# GetPersonsFromProject
+# POST Agents/Person/GetPersonsFromProject
 
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromProject
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 524
+  "ProjectId": 366
 }
 ```
 
@@ -126,45 +126,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nostrum",
-    "PersonId": 639,
-    "Mrmrs": "et",
-    "Firstname": "Britney",
-    "Lastname": "Leffler",
-    "MiddleName": "Wisozk, Hoppe and Klocko",
-    "Title": "recusandae",
-    "Description": "Fundamental contextually-based approach",
-    "Email": "brandi@senger.name",
-    "FullName": "Norberto Howe",
-    "DirectPhone": "163-063-0375",
-    "FormalName": "Parisian-Will",
-    "CountryId": 463,
-    "ContactId": 323,
-    "ContactName": "Kilback-Hagenes",
-    "Retired": 482,
-    "Rank": 696,
-    "ActiveInterests": 217,
+    "Position": "aperiam",
+    "PersonId": 847,
+    "Mrmrs": "hic",
+    "Firstname": "Marianna",
+    "Lastname": "Satterfield",
+    "MiddleName": "Hauck, Hammes and Sporer",
+    "Title": "quibusdam",
+    "Description": "Enhanced executive project",
+    "Email": "adela@runte.info",
+    "FullName": "Ms. Brian Hammes",
+    "DirectPhone": "1-631-737-3757 x5058",
+    "FormalName": "Streich-Bartoletti",
+    "CountryId": 687,
+    "ContactId": 818,
+    "ContactName": "Hodkiewicz LLC",
+    "Retired": 80,
+    "Rank": 341,
+    "ActiveInterests": 486,
     "ContactDepartment": "",
-    "ContactCountryId": 342,
-    "ContactOrgNr": "1436848",
-    "FaxPhone": "070-214-0830",
-    "MobilePhone": "362.883.3746 x385",
-    "ContactPhone": "1-126-023-6243 x124",
-    "AssociateName": "Zieme-Nienow",
-    "AssociateId": 49,
-    "UsePersonAddress": true,
-    "ContactFax": "perferendis",
-    "Kanafname": "similique",
-    "Kanalname": "omnis",
-    "Post1": "iusto",
-    "Post2": "aut",
-    "Post3": "totam",
-    "EmailName": "salvador_rowe@daniel.com",
-    "ContactFullName": "Rogers Boehm",
-    "ActiveErpLinks": 263,
-    "TicketPriorityId": 932,
-    "SupportLanguageId": 708,
-    "SupportAssociateId": 737,
+    "ContactCountryId": 783,
+    "ContactOrgNr": "350579",
+    "FaxPhone": "173-018-1868 x74243",
+    "MobilePhone": "165.887.2231 x2637",
+    "ContactPhone": "(166)566-4645",
+    "AssociateName": "Walker Group",
+    "AssociateId": 195,
+    "UsePersonAddress": false,
+    "ContactFax": "dolorum",
+    "Kanafname": "est",
+    "Kanalname": "aut",
+    "Post1": "modi",
+    "Post2": "voluptate",
+    "Post3": "aut",
+    "EmailName": "alberto_kassulke@wolffstracke.biz",
+    "ContactFullName": "Jedediah Schuppe",
+    "ActiveErpLinks": 656,
+    "TicketPriorityId": 122,
+    "SupportLanguageId": 697,
+    "SupportAssociateId": 991,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -176,8 +176,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 53
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailAttachment
+title: POST Agents/EMail/CreateDefaultEMailAttachment
 id: v1EMailAgent_CreateDefaultEMailAttachment
 ---
 
-# CreateDefaultEMailAttachment
+# POST Agents/EMail/CreateDefaultEMailAttachment
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative cohesive structure",
-  "Filename": "sequi",
-  "Size": 752,
-  "Type": "dignissimos",
-  "Encoding": "esse",
-  "Id": "enim",
-  "Disposition": "libero",
+  "Description": "Managed systemic application",
+  "Filename": "aut",
+  "Size": 263,
+  "Type": "tenetur",
+  "Encoding": "aut",
+  "Id": "libero",
+  "Disposition": "hic",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "enable scalable e-markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldLength": 709
     }
   }
 }

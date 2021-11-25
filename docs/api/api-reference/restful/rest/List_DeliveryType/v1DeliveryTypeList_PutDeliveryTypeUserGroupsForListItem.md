@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Crona-Labadie",
-    "ToolTip": "Voluptates ut voluptatem et quia.",
+    "Id": 393,
+    "Name": "Gulgowski-Stiedemann",
+    "ToolTip": "Rem nemo culpa at exercitationem.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "eligendi",
-    "ColorBlock": 254,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2018-10-12T15:05:43.4355099+02:00",
+    "Rank": 846,
+    "Type": "placeat",
+    "ColorBlock": 561,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2010-09-08T18:25:51.8153291+02:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Brakus-Kuphal",
-        "ToolTip": "Quia repudiandae aut.",
+        "Id": 908,
+        "Name": "Heaney-Denesik",
+        "ToolTip": "Voluptate nulla soluta deserunt ab pariatur sapiente.",
         "Deleted": false,
-        "Rank": 768,
-        "Type": "facilis",
-        "ColorBlock": 159,
-        "IconHint": "qui",
+        "Rank": 697,
+        "Type": "et",
+        "ColorBlock": 420,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2003-11-14T15:05:43.4355099+01:00",
+        "LastChanged": "2008-10-17T18:25:51.8153291+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "quia",
+        "ExtraInfo": "quia",
+        "StyleHint": "maxime",
         "Hidden": true,
-        "FullName": "Jamir Rath"
+        "FullName": "Luis Jenkins"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "similique",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Kameron Davis"
+    "FullName": "Della Beahan"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Waelchi Group",
-    "ToolTip": "Necessitatibus aut assumenda.",
-    "Deleted": true,
-    "Rank": 364,
-    "Type": "ipsam",
-    "ColorBlock": 126,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2015-08-03T15:05:43.43651+02:00",
+    "Id": 871,
+    "Name": "Weissnat, Zboncak and Armstrong",
+    "ToolTip": "Recusandae laborum et deserunt temporibus repellendus doloremque.",
+    "Deleted": false,
+    "Rank": 888,
+    "Type": "nihil",
+    "ColorBlock": 657,
+    "IconHint": "delectus",
+    "Selected": true,
+    "LastChanged": "2005-05-01T18:25:51.8173256+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Hyatt Inc and Sons",
-        "ToolTip": "Quasi est.",
+        "Id": 927,
+        "Name": "Strosin-Glover",
+        "ToolTip": "Officia aspernatur.",
         "Deleted": true,
-        "Rank": 598,
-        "Type": "laborum",
-        "ColorBlock": 173,
-        "IconHint": "sapiente",
+        "Rank": 640,
+        "Type": "incidunt",
+        "ColorBlock": 517,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2005-02-05T15:05:43.43651+01:00",
+        "LastChanged": "2006-02-21T18:25:51.8173256+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Leland Mertz DVM",
+        "ExtraInfo": "sint",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Alaina Dooley",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldLength": 790
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Davonte Grady",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Rylan Kautzer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 717
+        "FieldLength": 72
       }
     }
   }

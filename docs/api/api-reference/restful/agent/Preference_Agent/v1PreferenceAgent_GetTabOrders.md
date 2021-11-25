@@ -1,9 +1,9 @@
 ---
-title: GetTabOrders
+title: POST Agents/Preference/GetTabOrders
 id: v1PreferenceAgent_GetTabOrders
 ---
 
-# GetTabOrders
+# POST Agents/Preference/GetTabOrders
 
 ```http
 POST /api/v1/Agents/Preference/GetTabOrders
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -76,10 +76,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 800,
-    "TabName": "Kutch Group",
-    "Order": "officia",
-    "AssociateId": 123,
+    "TabOrderId": 972,
+    "TabName": "Hermann, Moore and Larson",
+    "Order": "esse",
+    "AssociateId": 791,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,16 +90,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   },
   {
-    "TabOrderId": 800,
-    "TabName": "Kutch Group",
-    "Order": "officia",
-    "AssociateId": 123,
+    "TabOrderId": 972,
+    "TabName": "Hermann, Moore and Larson",
+    "Order": "esse",
+    "AssociateId": 791,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   }

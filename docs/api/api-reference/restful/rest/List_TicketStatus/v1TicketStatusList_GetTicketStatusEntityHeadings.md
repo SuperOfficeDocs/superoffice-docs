@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 208,
-    "Name": "Ankunding-Lueilwitz",
-    "Tooltip": "error",
+    "HeadingId": 921,
+    "Name": "Nolan, Keebler and Hickle",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 294,
+    "Rank": 887,
+    "UdListDefinitionId": 163,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldLength": 383
       }
     }
   }

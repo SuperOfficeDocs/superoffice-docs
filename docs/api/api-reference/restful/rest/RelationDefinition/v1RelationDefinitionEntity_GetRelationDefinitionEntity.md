@@ -81,7 +81,7 @@ Response body: object
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -89,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 221,
-  "Name": "Marks-Heathcote",
-  "Tooltip": "quod",
-  "PassiveText": "corporis",
-  "Deleted": true,
-  "Rank": 260,
+  "ReldefId": 361,
+  "Name": "Quitzon, O'Reilly and McDermott",
+  "Tooltip": "iste",
+  "PassiveText": "quibusdam",
+  "Deleted": false,
+  "Rank": 892,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "scale integrated convergence"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 382
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

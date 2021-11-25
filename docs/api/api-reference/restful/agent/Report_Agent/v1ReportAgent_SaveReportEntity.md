@@ -1,9 +1,9 @@
 ---
-title: SaveReportEntity
+title: POST Agents/Report/SaveReportEntity
 id: v1ReportAgent_SaveReportEntity
 ---
 
-# SaveReportEntity
+# POST Agents/Report/SaveReportEntity
 
 ```http
 POST /api/v1/Agents/Report/SaveReportEntity
@@ -78,17 +78,17 @@ Response body: object
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 879,
+  "ReportId": 550,
   "ReportCategory": "All",
-  "Description": "Future-proofed cohesive implementation",
+  "Description": "Distributed client-driven ability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Blanda-Bayer",
-  "AssociateId": 909,
-  "TemplateId": 669,
+  "Name": "Donnelly, Beahan and Cremin",
+  "AssociateId": 596,
+  "TemplateId": 76,
   "Published": true
 }
 ```
@@ -98,13 +98,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 29,
+  "ReportId": 788,
   "ReportCategory": "All",
-  "Description": "Synchronised non-volatile local area network",
+  "Description": "Expanded coherent capacity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Considine Inc and Sons",
-  "AssociateId": 49,
-  "TemplateId": 672,
+  "Name": "Tremblay Inc and Sons",
+  "AssociateId": 603,
+  "TemplateId": 622,
   "Published": false,
   "TableRight": {
     "Mask": "Delete",
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 180
     }
   }
 }

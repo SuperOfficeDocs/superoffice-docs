@@ -1,9 +1,9 @@
 ---
-title: SaveHeadingEntity
+title: POST Agents/List/SaveHeadingEntity
 id: v1ListAgent_SaveHeadingEntity
 ---
 
-# SaveHeadingEntity
+# POST Agents/List/SaveHeadingEntity
 
 ```http
 POST /api/v1/Agents/List/SaveHeadingEntity
@@ -82,12 +82,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 236,
-  "Name": "Olson-Schuppe",
-  "Tooltip": "ab",
+  "HeadingId": 110,
+  "Name": "Leuschke Inc and Sons",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 330,
-  "UdListDefinitionId": 348
+  "Rank": 750,
+  "UdListDefinitionId": 709
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 585,
-  "Name": "Keeling, Gerlach and Murray",
-  "Tooltip": "magnam",
-  "Deleted": true,
-  "Rank": 995,
-  "UdListDefinitionId": 140,
+  "HeadingId": 565,
+  "Name": "Effertz LLC",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 231,
+  "UdListDefinitionId": 690,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 383
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultUserDefinedFieldInfo
+title: POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
 ---
 
-# CreateDefaultUserDefinedFieldInfo
+# POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -100,40 +100,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 385,
-  "ColumnId": 538,
-  "FieldDefault": "sed",
-  "FieldHeight": 706,
-  "FieldLabel": "soluta",
-  "FieldLeft": 744,
-  "FieldTop": 239,
+  "UDefFieldId": 267,
+  "ColumnId": 298,
+  "FieldDefault": "quia",
+  "FieldHeight": 202,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 112,
+  "FieldTop": 33,
   "FieldType": "Checkbox",
-  "FieldWidth": 641,
-  "FormatMask": "laboriosam",
-  "HideLabel": false,
+  "FieldWidth": 907,
+  "FormatMask": "dolorem",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 181,
-  "LabelLeft": 484,
-  "LabelTop": 700,
-  "LabelWidth": 136,
-  "LastVersionId": 466,
-  "ListTableId": 90,
+  "LabelHeight": 722,
+  "LabelLeft": 603,
+  "LabelTop": 647,
+  "LabelWidth": 591,
+  "LastVersionId": 904,
+  "ListTableId": 789,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 221,
-  "ProgId": "placeat",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 50,
-  "TextLength": 856,
-  "Tooltip": "rerum",
-  "UdefIdentity": 832,
-  "UDListDefinitionId": 768,
+  "Page1LineNo": 467,
+  "ProgId": "animi",
+  "IsReadOnly": true,
+  "ShortLabel": "natus",
+  "TabOrder": 858,
+  "TextLength": 610,
+  "Tooltip": "harum",
+  "UdefIdentity": 543,
+  "UDListDefinitionId": 42,
   "Justification": "Center",
-  "Version": 791,
-  "TemplateVariableName": "Reynolds, Shanahan and Paucek",
-  "HasBeenPublished": true,
-  "MdoListName": "Crist LLC",
+  "Version": 660,
+  "TemplateVariableName": "Predovic LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Grady, Lynch and Stanton",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldLength": 711
     }
   }
 }

@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Kuhn, Okuneva and Haley",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "Rank": 799,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "a",
+  "Id": 756,
+  "Name": "Morissette, Tillman and Vandervort",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 417,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1000,
-  "Name": "Lang Group",
-  "Tooltip": "facere",
+  "Id": 122,
+  "Name": "Wisoky LLC",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 218,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 704,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
+  "ListType": "illo",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 571
     }
   }
 }

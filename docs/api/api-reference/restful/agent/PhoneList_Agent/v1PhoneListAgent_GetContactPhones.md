@@ -1,9 +1,9 @@
 ---
-title: GetContactPhones
+title: POST Agents/PhoneList/GetContactPhones
 id: v1PhoneListAgent_GetContactPhones
 ---
 
-# GetContactPhones
+# POST Agents/PhoneList/GetContactPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetContactPhones
@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 789
+  "ContactId": 791
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "022.825.6608",
-    "PersonCellPhone": "346.302.4464 x6140",
-    "PersonPrivatePhone": "1-025-713-5883 x43550",
-    "PersonFaxNumber": "1138574",
-    "PersonPagerNumber": "708220",
-    "PersonEmail": "geovanni@stoltenberghills.biz",
-    "Id": 11,
-    "Name": "Pouros, Rempel and Hoppe",
-    "Tooltip": "optio",
-    "UniqueId": "qui",
+    "PersonDirectPhone": "453.125.8651",
+    "PersonCellPhone": "154-582-4387 x0460",
+    "PersonPrivatePhone": "(607)720-1481 x6164",
+    "PersonFaxNumber": "1265838",
+    "PersonPagerNumber": "1229318",
+    "PersonEmail": "jazmin@wehnererdman.biz",
+    "Id": 446,
+    "Name": "Kulas, Hane and Grady",
+    "Tooltip": "sed",
+    "UniqueId": "aspernatur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldLength": 850
       }
     }
   }

@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Paucek-Kuhlman",
-    "Tooltip": "placeat",
+    "Id": 232,
+    "Name": "Rempel, Dare and McCullough",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "UdListDefinitionId": 757,
-    "Rank": 113
+    "UdListDefinitionId": 812,
+    "Rank": 265
   },
   {
-    "Id": 44,
-    "Name": "Paucek-Kuhlman",
-    "Tooltip": "placeat",
+    "Id": 232,
+    "Name": "Rempel, Dare and McCullough",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "UdListDefinitionId": 757,
-    "Rank": 113
+    "UdListDefinitionId": 812,
+    "Rank": 265
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Langworth, McKenzie and Schimmel",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 878,
-    "Rank": 259,
+    "Id": 755,
+    "Name": "Crooks Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 25,
+    "Rank": 771,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldLength": 107
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateNewFromTemplate
+title: POST Agents/Dashboard/CreateNewFromTemplate
 id: v1DashboardAgent_CreateNewFromTemplate
 ---
 
-# CreateNewFromTemplate
+# POST Agents/Dashboard/CreateNewFromTemplate
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
@@ -95,24 +95,24 @@ Response body: object
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 174,
-  "Caption": "qui",
-  "Description": "Phased object-oriented complexity",
-  "SelectionId": 184,
+  "DashboardTileId": 612,
+  "Caption": "consequatur",
+  "Description": "Exclusive scalable product",
+  "SelectionId": 94,
   "VisibleFor": [
     {
-      "VisibleId": 195,
+      "VisibleId": 276,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "commodi"
     },
     {
-      "VisibleId": 195,
+      "VisibleId": 276,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "commodi"
     }
   ]
 }
@@ -123,30 +123,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 503,
-  "Caption": "architecto",
-  "Description": "Fundamental human-resource project",
-  "ChartName": "Wehner-Kessler",
-  "ChartId": "rerum",
-  "IsDefault": false,
-  "AssociateId": 982,
-  "GroupId": 747,
-  "SelectionId": 38,
-  "Config": "sed",
+  "DashboardTileId": 645,
+  "Caption": "saepe",
+  "Description": "Profit-focused 5th generation system engine",
+  "ChartName": "Jerde-Bahringer",
+  "ChartId": "quae",
+  "IsDefault": true,
+  "AssociateId": 768,
+  "GroupId": 157,
+  "SelectionId": 692,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Willms-Kris",
-      "Description": "Fully-configurable zero tolerance knowledge base",
+      "Name": "Turcotte Group",
+      "Description": "Polarised asynchronous installation",
       "Type": "Boolean",
-      "ListName": "Feest-Macejkovic",
+      "ListName": "Conroy, Gerlach and Sanford",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "totam",
-      "DefaultDataOption": false,
+      "Value": "voluptas",
+      "DefaultDataOption": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -154,17 +154,17 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 10
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 908,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "non",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -173,14 +173,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 696
         }
       }
     },
     {
-      "VisibleId": 908,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "non",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 696
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 186
     }
   }
 }

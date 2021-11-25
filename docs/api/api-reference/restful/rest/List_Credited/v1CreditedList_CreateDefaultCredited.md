@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Miller Group",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 246,
-  "Rank": 149,
+  "Id": 572,
+  "Name": "Johns Inc and Sons",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "UdListDefinitionId": 754,
+  "Rank": 259,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 51
     }
   }
 }

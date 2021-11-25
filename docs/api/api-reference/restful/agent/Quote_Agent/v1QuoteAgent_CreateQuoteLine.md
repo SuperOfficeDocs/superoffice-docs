@@ -1,9 +1,9 @@
 ---
-title: CreateQuoteLine
+title: POST Agents/Quote/CreateQuoteLine
 id: v1QuoteAgent_CreateQuoteLine
 ---
 
-# CreateQuoteLine
+# POST Agents/Quote/CreateQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLine
@@ -127,12 +127,12 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 198,
-  "ERPProductKey": "id"
+  "QuoteAlternativeId": 470,
+  "ERPProductKey": "in"
 }
 ```
 
@@ -141,37 +141,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 453,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 903,
-  "ERPProductKey": "inventore",
+  "QuoteLineId": 356,
+  "ERPQuoteLineKey": "officia",
+  "QuoteAlternativeId": 351,
+  "ERPProductKey": "quod",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25899.376,
-  "DeliveredQuantity": 30995.26,
-  "Rank": 150,
-  "Name": "Turner Group",
-  "Description": "Self-enabling content-based help-desk",
-  "Code": "numquam",
-  "QuantityUnit": "aut",
-  "PriceUnit": "iste",
-  "ItemNumber": "1224753",
+  "Quantity": 23470.525999999998,
+  "DeliveredQuantity": 30832.291999999998,
+  "Rank": 745,
+  "Name": "Lindgren, Jacobi and Turner",
+  "Description": "User-centric reciprocal contingency",
+  "Code": "qui",
+  "QuantityUnit": "minus",
+  "PriceUnit": "id",
+  "ItemNumber": "1488261",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vero",
-  "ProductTypeKey": "aut",
-  "Supplier": "assumenda",
-  "SupplierCode": "magni",
-  "Thumbnail": "tenetur",
-  "VATInfo": "voluptas",
-  "VAT": 3488.142,
-  "UnitCost": 26197.106,
-  "UnitMinimumPrice": 23213.538,
-  "UnitListPrice": 28287.484,
+  "ProductFamilyKey": "iure",
+  "ProductTypeKey": "enim",
+  "Supplier": "quia",
+  "SupplierCode": "aliquam",
+  "Thumbnail": "est",
+  "VATInfo": "recusandae",
+  "VAT": 18794.597999999998,
+  "UnitCost": 1165.848,
+  "UnitMinimumPrice": 17387.432,
+  "UnitListPrice": 1400.898,
   "ExtraInfo": [
     {
-      "Name": "Wisoky, Schultz and Rogahn",
-      "Value": "ipsa",
+      "Name": "Armstrong, Leannon and Simonis",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -181,13 +181,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 670
         }
       }
     },
     {
-      "Name": "Wisoky, Schultz and Rogahn",
-      "Value": "ipsa",
+      "Name": "Armstrong, Leannon and Simonis",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -197,32 +197,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 670
         }
       }
     }
   ],
-  "RawExtraInfo": "excepturi",
+  "RawExtraInfo": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "suscipit",
-  "SubscriptionQuantity": 16002.204,
-  "SubscriptionStart": "2019-01-30T14:58:04.9754651+01:00",
-  "ERPDiscountPercent": 11727.428,
-  "ERPDiscountAmount": 6396.494,
-  "DiscountPercent": 26701.68,
-  "DiscountAmount": 2861.342,
+  "SubscriptionUnit": "voluptatibus",
+  "SubscriptionQuantity": 20358.464,
+  "SubscriptionStart": "1997-11-13T18:28:49.9581393+01:00",
+  "ERPDiscountPercent": 26425.888,
+  "ERPDiscountAmount": 30171.018,
+  "DiscountPercent": 13783.332,
+  "DiscountAmount": 14967.984,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 6832.12,
-  "EarningAmount": 24683.384,
-  "SubTotal": 1745.638,
-  "TotalPrice": 17237.0,
-  "Rights": "aut",
-  "Rule": "quia",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "enim",
-  "ExtraField3": "quod",
-  "ExtraField4": "sit",
-  "ExtraField5": "omnis",
+  "EarningPercent": 13106.387999999999,
+  "EarningAmount": 14930.376,
+  "SubTotal": 9116.806,
+  "TotalPrice": 13761.394,
+  "Rights": "quasi",
+  "Rule": "fuga",
+  "ExtraField1": "officia",
+  "ExtraField2": "et",
+  "ExtraField3": "vitae",
+  "ExtraField4": "rerum",
+  "ExtraField5": "quis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -234,7 +234,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 246
     }
   }
 }

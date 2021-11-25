@@ -1,9 +1,9 @@
 ---
-title: IsResourceSubstitutionActive
+title: POST Agents/Resource/IsResourceSubstitutionActive
 id: v1ResourceAgent_IsResourceSubstitutionActive
 ---
 
-# IsResourceSubstitutionActive
+# POST Agents/Resource/IsResourceSubstitutionActive
 
 ```http
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "O'Conner-Wintheiser",
-    "Rogahn, Wuckert and Beahan"
+    "Rippin, Rutherford and Greenfelder",
+    "Powlowski LLC"
   ],
-  "Culture": "et"
+  "Culture": "esse"
 }
 ```
 
@@ -95,10 +95,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Pouros, Ondricka and Swift",
-    "ResourceValue": "et",
-    "Culture": "ducimus",
-    "IsActive": false,
+    "ResourceName": "Jast-Deckow",
+    "ResourceValue": "maiores",
+    "Culture": "quo",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -109,16 +109,16 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   },
   {
-    "ResourceName": "Pouros, Ondricka and Swift",
-    "ResourceValue": "et",
-    "Culture": "ducimus",
-    "IsActive": false,
+    "ResourceName": "Jast-Deckow",
+    "ResourceValue": "maiores",
+    "Culture": "quo",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

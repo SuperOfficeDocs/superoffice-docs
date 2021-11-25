@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultPreference
+title: POST Agents/Preference/CreateDefaultPreference
 id: v1PreferenceAgent_CreateDefaultPreference
 ---
 
-# CreateDefaultPreference
+# POST Agents/Preference/CreateDefaultPreference
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreference
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,10 +78,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "vero",
+  "RawValue": "quis",
   "Specification": {
-    "Section": "fuga",
-    "Key": "quidem",
+    "Section": "quia",
+    "Key": "voluptatibus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 329
       }
     }
   },
-  "DisplayValue": "non",
-  "DisplayTooltip": "temporibus",
+  "DisplayValue": "ea",
+  "DisplayTooltip": "porro",
   "DisplayType": "Bool",
   "TabOrder": {
-    "TabOrderId": 228,
-    "TabName": "Johnson, Romaguera and Beahan",
-    "Order": "eveniet",
-    "AssociateId": 508,
+    "TabOrderId": 375,
+    "TabName": "Schinner Group",
+    "Order": "sapiente",
+    "AssociateId": 241,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -110,14 +110,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldLength": 859
       }
     }
   },
-  "TargetId": 640,
-  "PrefDescId": 765,
-  "TableName": "Dickinson Group",
-  "UserPreferenceId": 787,
+  "TargetId": 924,
+  "PrefDescId": 321,
+  "TableName": "Altenwerth, Olson and Stracke",
+  "UserPreferenceId": 556,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -126,10 +126,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "envisioneer front-end applications"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 399
     }
   }
 }

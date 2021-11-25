@@ -1,9 +1,9 @@
 ---
-title: GetEMarketingUrl
+title: POST Agents/Configuration/GetEMarketingUrl
 id: v1ConfigurationAgent_GetEMarketingUrl
 ---
 
-# GetEMarketingUrl
+# POST Agents/Configuration/GetEMarketingUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "quia"
+  "Language": "at"
 }
 ```
 

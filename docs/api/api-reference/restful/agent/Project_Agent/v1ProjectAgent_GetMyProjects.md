@@ -1,9 +1,9 @@
 ---
-title: GetMyProjects
+title: POST Agents/Project/GetMyProjects
 id: v1ProjectAgent_GetMyProjects
 ---
 
-# GetMyProjects
+# POST Agents/Project/GetMyProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyProjects
@@ -90,7 +90,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 288,
-    "Name": "Oberbrunner Inc and Sons",
-    "Description": "Re-engineered explicit structure",
+    "ProjectId": 649,
+    "Name": "White-Pagac",
+    "Description": "Managed clear-thinking analyzer",
     "URL": "http://www.example.com/",
-    "Type": "assumenda",
-    "AssociateId": 941,
-    "AssociateFullName": "Julio Gutkowski",
-    "TypeId": 237,
-    "Updated": "2000-11-16T14:58:04.8554605+01:00",
-    "StatusId": 922,
-    "Status": "ad",
-    "TextId": 77,
-    "PublishTo": "2011-11-30T14:58:04.8554605+01:00",
-    "PublishFrom": "2000-07-28T14:58:04.8564602+02:00",
-    "IsPublished": false,
+    "Type": "sint",
+    "AssociateId": 978,
+    "AssociateFullName": "Brendan Lehner",
+    "TypeId": 376,
+    "Updated": "2000-07-21T18:28:49.7801399+02:00",
+    "StatusId": 742,
+    "Status": "iste",
+    "TextId": 624,
+    "PublishTo": "2009-04-30T18:28:49.7801399+02:00",
+    "PublishFrom": "2004-06-17T18:28:49.7801399+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "602881",
-    "ActiveErpLinks": 814,
+    "ProjectNumber": "602772",
+    "ActiveErpLinks": 190,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "morph granular e-business"
     },
     "FieldProperties": {
       "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldLength": 505
       }
     }
   }

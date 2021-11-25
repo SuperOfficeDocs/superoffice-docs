@@ -1,9 +1,9 @@
 ---
-title: GetPublishedUserDefinedPageOneFields
+title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
 ---
 
-# GetPublishedUserDefinedPageOneFields
+# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
@@ -107,12 +107,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 247
+  "UserGroupId": 940
 }
 ```
 
@@ -122,40 +122,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 724,
-    "ColumnId": 690,
-    "FieldDefault": "qui",
-    "FieldHeight": 255,
-    "FieldLabel": "minus",
-    "FieldLeft": 7,
-    "FieldTop": 433,
+    "UDefFieldId": 514,
+    "ColumnId": 214,
+    "FieldDefault": "aut",
+    "FieldHeight": 781,
+    "FieldLabel": "laudantium",
+    "FieldLeft": 521,
+    "FieldTop": 428,
     "FieldType": "Checkbox",
-    "FieldWidth": 962,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 13,
-    "LabelLeft": 822,
-    "LabelTop": 434,
-    "LabelWidth": 946,
-    "LastVersionId": 481,
-    "ListTableId": 762,
-    "IsMandatory": false,
+    "FieldWidth": 526,
+    "FormatMask": "ut",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 348,
+    "LabelLeft": 709,
+    "LabelTop": 302,
+    "LabelWidth": 537,
+    "LastVersionId": 970,
+    "ListTableId": 261,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 995,
-    "ProgId": "eveniet",
+    "Page1LineNo": 574,
+    "ProgId": "possimus",
     "IsReadOnly": false,
-    "ShortLabel": "dicta",
-    "TabOrder": 677,
-    "TextLength": 952,
-    "Tooltip": "cumque",
-    "UdefIdentity": 162,
-    "UDListDefinitionId": 591,
+    "ShortLabel": "sit",
+    "TabOrder": 304,
+    "TextLength": 559,
+    "Tooltip": "sit",
+    "UdefIdentity": 203,
+    "UDListDefinitionId": 99,
     "Justification": "Center",
-    "Version": 184,
-    "TemplateVariableName": "Reichel-Blick",
+    "Version": 362,
+    "TemplateVariableName": "Lesch-Littel",
     "HasBeenPublished": true,
-    "MdoListName": "Rutherford, Altenwerth and Parisian",
+    "MdoListName": "Flatley Group",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -164,10 +164,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "engineer transparent schemas"
         },
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 541
       }
     }
   }

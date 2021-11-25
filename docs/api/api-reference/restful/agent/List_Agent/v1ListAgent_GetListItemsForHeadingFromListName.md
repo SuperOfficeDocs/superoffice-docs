@@ -1,9 +1,9 @@
 ---
-title: GetListItemsForHeadingFromListName
+title: POST Agents/List/GetListItemsForHeadingFromListName
 id: v1ListAgent_GetListItemsForHeadingFromListName
 ---
 
-# GetListItemsForHeadingFromListName
+# POST Agents/List/GetListItemsForHeadingFromListName
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jacobson LLC",
-  "HeadingId": 311
+  "UdListDefinitionName": "Boyle Group",
+  "HeadingId": 896
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Abshire Inc and Sons",
-    "ToolTip": "Vitae id provident mollitia voluptatem.",
+    "Id": 173,
+    "Name": "Bashirian, Schumm and Tromp",
+    "ToolTip": "Sunt enim.",
     "Deleted": true,
-    "Rank": 161,
-    "Type": "quod",
-    "ColorBlock": 614,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2003-05-28T14:58:04.4314727+02:00",
+    "Rank": 318,
+    "Type": "placeat",
+    "ColorBlock": 517,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2006-05-26T18:28:49.3281227+02:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Weber, Funk and Johnson",
-        "ToolTip": "Quis id quod molestiae qui voluptatum.",
+        "Id": 4,
+        "Name": "Kemmer LLC",
+        "ToolTip": "Expedita sint cum qui magni quis.",
         "Deleted": false,
-        "Rank": 647,
-        "Type": "consequuntur",
-        "ColorBlock": 962,
-        "IconHint": "amet",
+        "Rank": 772,
+        "Type": "veniam",
+        "ColorBlock": 900,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2011-07-03T14:58:04.4324649+02:00",
+        "LastChanged": "1994-09-26T18:28:49.3281227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "et",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ab",
         "Hidden": true,
-        "FullName": "Toney Kerluke",
+        "FullName": "Lucile Balistreri",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,27 +141,27 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "corporis",
     "Hidden": true,
-    "FullName": "Haley Gorczany",
+    "FullName": "Ivy Daugherty",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deploy rich channels"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "whiteboard viral convergence"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 334
       }
     }
   }

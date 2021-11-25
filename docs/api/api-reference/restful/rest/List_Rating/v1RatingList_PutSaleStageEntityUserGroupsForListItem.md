@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Reilly Inc and Sons",
-    "ToolTip": "Quasi occaecati maxime explicabo aut ipsa.",
-    "Deleted": false,
-    "Rank": 603,
-    "Type": "ipsam",
-    "ColorBlock": 784,
-    "IconHint": "quo",
+    "Id": 309,
+    "Name": "Homenick, Crooks and White",
+    "ToolTip": "Repellendus dolor consequatur.",
+    "Deleted": true,
+    "Rank": 528,
+    "Type": "consectetur",
+    "ColorBlock": 488,
+    "IconHint": "eius",
     "Selected": true,
-    "LastChanged": "2000-05-18T15:05:43.7290892+02:00",
+    "LastChanged": "2012-05-14T18:25:52.1180192+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Nitzsche, Torphy and Koch",
-        "ToolTip": "Doloribus ducimus repellendus repudiandae.",
+        "Id": 721,
+        "Name": "Upton, Frami and Collier",
+        "ToolTip": "Sed sunt tenetur perspiciatis laboriosam est soluta.",
         "Deleted": true,
-        "Rank": 671,
-        "Type": "repellendus",
-        "ColorBlock": 654,
-        "IconHint": "earum",
+        "Rank": 609,
+        "Type": "et",
+        "ColorBlock": 28,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2000-03-08T15:05:43.7290892+01:00",
+        "LastChanged": "2021-07-24T18:25:52.1180192+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Lesley Treutel"
+        "ExtraInfo": "nisi",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Moriah Beer"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Miss Quentin Sauer"
+    "ExtraInfo": "quaerat",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Katrina Beier"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Renner Inc and Sons",
-    "ToolTip": "Accusamus ut facere non saepe.",
+    "Id": 765,
+    "Name": "Ward, Volkman and Stokes",
+    "ToolTip": "Veritatis quia.",
     "Deleted": false,
-    "Rank": 717,
-    "Type": "asperiores",
-    "ColorBlock": 103,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2020-06-23T15:05:43.7301134+02:00",
+    "Rank": 767,
+    "Type": "repudiandae",
+    "ColorBlock": 288,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2004-02-18T18:25:52.1200204+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Fay, Trantow and Jacobs",
-        "ToolTip": "Est quia qui blanditiis quidem animi.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "qui",
-        "ColorBlock": 618,
-        "IconHint": "similique",
+        "Id": 370,
+        "Name": "Boehm, Doyle and Collier",
+        "ToolTip": "Recusandae quis sit voluptas sint tempore.",
+        "Deleted": true,
+        "Rank": 948,
+        "Type": "rem",
+        "ColorBlock": 496,
+        "IconHint": "perferendis",
         "Selected": true,
-        "LastChanged": "2003-05-09T15:05:43.7301134+02:00",
+        "LastChanged": "2006-07-03T18:25:52.1200204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Mrs. Jaron West",
+        "ExtraInfo": "impedit",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Susie Connelly",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 92
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Vicente Ondricka",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Taryn Zieme",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldType": "System.String",
+        "FieldLength": 703
       }
     }
   }

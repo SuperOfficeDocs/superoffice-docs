@@ -1,9 +1,9 @@
 ---
-title: SetPublishStartSystemEvent
+title: POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
 id: v1UserDefinedFieldInfoAgent_SetPublishStartSystemEvent
 ---
 
-# SetPublishStartSystemEvent
+# POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent

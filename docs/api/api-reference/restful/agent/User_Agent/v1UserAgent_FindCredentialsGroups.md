@@ -1,9 +1,9 @@
 ---
-title: FindCredentialsGroups
+title: POST Agents/User/FindCredentialsGroups
 id: v1UserAgent_FindCredentialsGroups
 ---
 
-# FindCredentialsGroups
+# POST Agents/User/FindCredentialsGroups
 
 ```http
 POST /api/v1/Agents/User/FindCredentialsGroups
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "delectus",
-  "SearchString": "placeat"
+  "Type": "officiis",
+  "SearchString": "tempore"
 }
 ```
 
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Hara, Crooks and Cassin",
-    "DisplayName": "Hessel-Boehm",
+    "Name": "Jacobson Group",
+    "DisplayName": "Murazik Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,14 +105,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   },
   {
-    "Name": "O'Hara, Crooks and Cassin",
-    "DisplayName": "Hessel-Boehm",
+    "Name": "Jacobson Group",
+    "DisplayName": "Murazik Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

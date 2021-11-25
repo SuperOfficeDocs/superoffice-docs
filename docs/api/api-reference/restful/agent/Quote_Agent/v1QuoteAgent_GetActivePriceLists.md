@@ -1,9 +1,9 @@
 ---
-title: GetActivePriceLists
+title: POST Agents/Quote/GetActivePriceLists
 id: v1QuoteAgent_GetActivePriceLists
 ---
 
-# GetActivePriceLists
+# POST Agents/Quote/GetActivePriceLists
 
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceLists
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 821,
-  "Currency": "omnis"
+  "QuoteConnectionId": 845,
+  "Currency": "consequatur"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 521,
-    "ERPPriceListKey": "asperiores",
-    "QuoteConnectionId": 804,
-    "Name": "Abshire-Hand",
-    "Description": "Robust optimizing strategy",
-    "Currency": "officiis",
-    "CurrencyName": "Schamberger Inc and Sons",
-    "ValidFrom": "1998-05-20T14:58:04.9704316+02:00",
-    "ValidTo": "1998-10-30T14:58:04.9704316+01:00",
-    "IsActive": true,
+    "PriceListId": 724,
+    "ERPPriceListKey": "non",
+    "QuoteConnectionId": 821,
+    "Name": "Beatty, Schultz and Ward",
+    "Description": "Enhanced full-range challenge",
+    "Currency": "aut",
+    "CurrencyName": "Harvey Inc and Sons",
+    "ValidFrom": "2018-09-09T18:28:49.9431371+02:00",
+    "ValidTo": "2020-05-06T18:28:49.9431371+02:00",
+    "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldLength": 497
       }
     }
   }

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Grimes, Marks and Christiansen",
-    "ToolTip": "Molestiae aliquid cupiditate maxime libero.",
+    "Id": 656,
+    "Name": "Leuschke, Pagac and Thiel",
+    "ToolTip": "Magnam maiores voluptate debitis iure.",
     "Deleted": false,
-    "Rank": 344,
-    "Type": "ut",
-    "ColorBlock": 718,
-    "IconHint": "nihil",
+    "Rank": 894,
+    "Type": "excepturi",
+    "ColorBlock": 668,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "1998-02-04T15:05:43.728123+01:00",
+    "LastChanged": "2020-07-29T18:25:52.1170198+02:00",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Hudson Group",
-        "ToolTip": "Reprehenderit qui sunt in dolores ut.",
+        "Id": 997,
+        "Name": "Hamill, Donnelly and Mohr",
+        "ToolTip": "Eaque sed molestias repudiandae libero et sequi.",
         "Deleted": true,
-        "Rank": 829,
-        "Type": "nobis",
-        "ColorBlock": 755,
-        "IconHint": "omnis",
+        "Rank": 911,
+        "Type": "veniam",
+        "ColorBlock": 608,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "1997-04-16T15:05:43.728123+02:00",
+        "LastChanged": "1999-07-30T18:25:52.1170198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Anya Orn",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "esse",
+        "Hidden": false,
+        "FullName": "Rico Green",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldType": "System.Int32",
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "nam",
+    "StyleHint": "nisi",
     "Hidden": true,
-    "FullName": "Pansy Robel",
+    "FullName": "Karianne Rau",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldLength": 462
       }
     }
   }

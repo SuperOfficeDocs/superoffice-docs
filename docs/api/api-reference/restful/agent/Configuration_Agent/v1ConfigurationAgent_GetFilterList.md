@@ -1,9 +1,9 @@
 ---
-title: GetFilterList
+title: POST Agents/Configuration/GetFilterList
 id: v1ConfigurationAgent_GetFilterList
 ---
 
-# GetFilterList
+# POST Agents/Configuration/GetFilterList
 
 ```http
 POST /api/v1/Agents/Configuration/GetFilterList
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "dicta",
-  "Instance": "aspernatur"
+  "Application": "aut",
+  "Instance": "voluptatibus"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sint"
+"velit"
 ```

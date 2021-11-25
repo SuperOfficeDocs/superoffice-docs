@@ -24,7 +24,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Hagenes-McDermott",
-    "Tooltip": "pariatur",
+    "Id": 157,
+    "Name": "Orn-Marquardt",
+    "Tooltip": "illo",
     "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 701,
+    "UdListDefinitionId": 844,
+    "Rank": 923,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

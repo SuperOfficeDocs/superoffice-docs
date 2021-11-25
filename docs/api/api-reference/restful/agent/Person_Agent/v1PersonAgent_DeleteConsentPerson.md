@@ -1,9 +1,9 @@
 ---
-title: DeleteConsentPerson
+title: POST Agents/Person/DeleteConsentPerson
 id: v1PersonAgent_DeleteConsentPerson
 ---
 
-# DeleteConsentPerson
+# POST Agents/Person/DeleteConsentPerson
 
 ```http
 POST /api/v1/Agents/Person/DeleteConsentPerson
@@ -24,7 +24,7 @@ Deletes the ConsentPerson
 | ConsentPersonId | int32 | **Required** The id of the ConsentPerson to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=440
+POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=597
 ```
 
 

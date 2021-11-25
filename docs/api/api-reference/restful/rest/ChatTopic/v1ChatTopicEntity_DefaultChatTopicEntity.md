@@ -72,6 +72,12 @@ Response body: object
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -81,7 +87,7 @@ Response body: object
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -89,62 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 72,
-  "Name": "Kulas Inc and Sons",
-  "Description": "Business-focused bifurcated internet solution",
-  "WelcomeMessage": "eius",
+  "ChatTopicId": 102,
+  "Name": "Willms, Zulauf and Gleason",
+  "Description": "Extended neutral monitoring",
+  "WelcomeMessage": "voluptates",
   "Language": {
-    "Id": 634,
-    "Value": "unde",
-    "Tooltip": "quae",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 324
-      }
-    }
-  },
-  "LastAccept": "2006-11-13T15:05:41.7660052+01:00",
-  "SecondsPrAccept": 787,
-  "AlertRecipient": "eius",
-  "AlertTemplate": {
-    "ReplyTemplateId": 351,
-    "Name": "Pacocha-Fritsch",
-    "Description": "Visionary optimizing moratorium",
-    "FolderId": 758
-  },
-  "CollectConsent": false,
-  "BadgeHeader": "sint",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "temporibus",
-  "WarnNewChatMinutes": 291,
-  "WarnManagerNewChatMinutes": 677,
-  "TicketEnabled": true,
-  "TicketCategory": {
-    "Id": 887,
-    "Value": "fugit",
-    "Tooltip": "laboriosam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 512
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 112,
-    "Value": "officiis",
-    "Tooltip": "optio",
+    "Id": 940,
+    "Value": "quod",
+    "Tooltip": "debitis",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -153,72 +111,126 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldLength": 197
       }
     }
   },
-  "OpeningHoursEnabled": true,
+  "LastAccept": "2009-02-23T18:25:50.1576203+01:00",
+  "SecondsPrAccept": 13,
+  "AlertRecipient": "dolorum",
+  "AlertTemplate": {
+    "ReplyTemplateId": 883,
+    "Name": "Ledner, Mayert and Zemlak",
+    "Description": "Innovative user-facing knowledge base",
+    "FolderId": 769
+  },
+  "CollectConsent": true,
+  "BadgeHeader": "dicta",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "non",
+  "WarnNewChatMinutes": 231,
+  "WarnManagerNewChatMinutes": 486,
+  "TicketEnabled": false,
+  "TicketCategory": {
+    "Id": 557,
+    "Value": "beatae",
+    "Tooltip": "vel",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 308
+      }
+    }
+  },
+  "TicketPriority": {
+    "Id": 54,
+    "Value": "maiores",
+    "Tooltip": "quis",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 63
+      }
+    }
+  },
+  "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
     "MonEnabled": false,
-    "MonStart": "nesciunt",
-    "MonStop": "aut",
+    "MonStart": "minima",
+    "MonStop": "nisi",
     "TueEnabled": true,
-    "TueStart": "rerum",
-    "TueStop": "voluptatum",
+    "TueStart": "impedit",
+    "TueStop": "vitae",
     "WedEnabled": false,
-    "WedStart": "expedita",
-    "WedStop": "ullam",
-    "ThuEnabled": false,
-    "ThuStart": "qui",
-    "ThuStop": "aut",
-    "FriEnabled": true,
-    "FriStart": "dolor",
-    "FriStop": "harum",
+    "WedStart": "sunt",
+    "WedStop": "quo",
+    "ThuEnabled": true,
+    "ThuStart": "ut",
+    "ThuStop": "consequuntur",
+    "FriEnabled": false,
+    "FriStart": "qui",
+    "FriStop": "aut",
     "SatEnabled": true,
-    "SatStart": "mollitia",
-    "SatStop": "necessitatibus",
+    "SatStart": "illo",
+    "SatStop": "occaecati",
     "SunEnabled": true,
-    "SunStart": "eos",
-    "SunStop": "voluptatem",
-    "UseLunchHours": true,
-    "LunchStart": "est",
-    "LunchStop": "rerum"
+    "SunStart": "accusamus",
+    "SunStop": "autem",
+    "UseLunchHours": false,
+    "LunchStart": "nemo",
+    "LunchStop": "eaque"
   },
   "Widget": {
     "AutoFaqEnabled": true,
     "AutoFaqCategory": {},
     "PreFormEnabled": true,
-    "PreFormMessage": "mollitia",
+    "PreFormMessage": "dolor",
     "RequiredFields": "Company",
     "PostFormEnabled": true,
-    "PostFormHeader": "dignissimos",
-    "PostFormMessage": "ipsa",
-    "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "id",
+    "PostFormHeader": "ad",
+    "PostFormMessage": "fugiat",
+    "PostTranscriptEnabled": true,
+    "LanguageIsoCode": "voluptate",
     "Size": "Large",
     "Theme": "Classic",
-    "Color": "quidem",
-    "Font": "voluptatem",
+    "Color": "aut",
+    "Font": "eius",
     "LogoEnabled": false,
-    "LogoBlobId": 580,
-    "LogoName": "Christiansen-Robel",
+    "LogoBlobId": 391,
+    "LogoName": "Willms Inc and Sons",
     "ShowAgentPhoto": false,
-    "WelcomeTitle": "aut",
-    "WelcomeMessage": "minima",
-    "OfflineHeader": "non",
-    "OfflineMessage": "ut",
+    "WelcomeTitle": "voluptatem",
+    "WelcomeMessage": "sint",
+    "OfflineHeader": "dolor",
+    "OfflineMessage": "et",
     "OfflineFields": "Company",
     "UseAgentFirstname": false
   },
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": {
-    "BotName": "Mayert, Rodriguez and Hermann",
-    "BotRegisterScriptId": 228,
-    "BotSessionCreatedScriptId": 444,
-    "BotSessionChangedScriptId": 975,
-    "BotMessageReceivedScriptId": 474
+    "BotName": "Lowe, Rath and Ratke",
+    "BotRegisterScriptId": 783,
+    "BotSessionCreatedScriptId": 510,
+    "BotSessionChangedScriptId": 924,
+    "BotMessageReceivedScriptId": 916
   },
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 627,
+  "WarnManagerChatMessageMinutes": 711,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 474,
+  "OfflineFormQueueLength": 465,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -230,7 +242,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldLength": 93
     }
   }
 }

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Schneider-Lebsack",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 518,
-  "Rank": 196,
+  "Id": 663,
+  "Name": "Wolf Inc and Sons",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 377,
+  "Rank": 49,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "target dot-com applications"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldLength": 295
     }
   }
 }

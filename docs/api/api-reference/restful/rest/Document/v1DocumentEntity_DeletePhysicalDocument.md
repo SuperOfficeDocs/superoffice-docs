@@ -67,7 +67,7 @@ Response body: object
 DELETE /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "veniam",
-  "VersionId": "facilis",
+  "ExternalReference": "et",
+  "VersionId": "dicta",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "totam",
-  "AdditionalInfo": "beatae"
+  "Value": "perspiciatis",
+  "AdditionalInfo": "soluta"
 }
 ```

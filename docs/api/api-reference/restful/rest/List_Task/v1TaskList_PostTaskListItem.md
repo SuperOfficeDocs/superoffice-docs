@@ -88,20 +88,20 @@ Response body: object
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 962,
-  "Value": "suscipit",
+  "TaskListItemId": 12,
+  "Value": "fuga",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "neque",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "IntentId": 371,
-  "Rank": 433,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IntentId": 793,
+  "Rank": 895,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
@@ -113,15 +113,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 74,
-  "Value": "nihil",
+  "TaskListItemId": 176,
+  "Value": "voluptas",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sit",
+  "Tooltip": "nostrum",
   "Deleted": true,
-  "IntentId": 39,
-  "Rank": 37,
-  "IsDefaultAlldayEvent": false,
+  "IntentId": 143,
+  "Rank": 25,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 419
     }
   }
 }

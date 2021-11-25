@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Powlowski Inc and Sons",
-    "ToolTip": "Beatae molestiae aut dolorem facere.",
-    "Deleted": true,
-    "Rank": 57,
-    "Type": "cupiditate",
-    "ColorBlock": 659,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "1998-04-18T15:05:43.6290797+02:00",
+    "Id": 223,
+    "Name": "Quitzon-Douglas",
+    "ToolTip": "Non est.",
+    "Deleted": false,
+    "Rank": 725,
+    "Type": "cum",
+    "ColorBlock": 606,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2015-01-22T18:25:52.0132121+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Schmitt, Hettinger and Johnson",
-        "ToolTip": "Odit molestiae in tempora numquam.",
+        "Id": 197,
+        "Name": "Dach LLC",
+        "ToolTip": "Eos voluptatem quo iusto soluta sunt.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "a",
-        "ColorBlock": 422,
-        "IconHint": "alias",
+        "Rank": 345,
+        "Type": "ea",
+        "ColorBlock": 434,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2011-10-10T15:05:43.6290797+02:00",
+        "LastChanged": "1999-08-24T18:25:52.0142125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "quos",
+        "ExtraInfo": "non",
+        "StyleHint": "atque",
         "Hidden": true,
-        "FullName": "Tanya Rau"
+        "FullName": "Ali Heaney"
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Ken Gutkowski"
+    "ExtraInfo": "ut",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Michelle Baumbach V"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Kemmer-Runte",
-    "ToolTip": "Est ipsam et ipsa autem maiores et.",
+    "Id": 197,
+    "Name": "Wiegand, Schulist and Lind",
+    "ToolTip": "Nesciunt et esse placeat debitis id et.",
     "Deleted": true,
-    "Rank": 605,
-    "Type": "voluptas",
-    "ColorBlock": 297,
-    "IconHint": "odit",
+    "Rank": 639,
+    "Type": "quasi",
+    "ColorBlock": 592,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2013-03-02T15:05:43.6300795+01:00",
+    "LastChanged": "2010-09-28T18:25:52.0152126+02:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Treutel, Luettgen and Toy",
-        "ToolTip": "Totam rerum ut et nam nesciunt placeat.",
+        "Id": 902,
+        "Name": "Bernier, Ruecker and Jacobs",
+        "ToolTip": "Blanditiis iste doloribus.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "maxime",
-        "ColorBlock": 440,
-        "IconHint": "blanditiis",
-        "Selected": false,
-        "LastChanged": "2014-12-01T15:05:43.6300795+01:00",
+        "Rank": 507,
+        "Type": "dolorem",
+        "ColorBlock": 88,
+        "IconHint": "ad",
+        "Selected": true,
+        "LastChanged": "2000-04-13T18:25:52.0152126+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Mrs. Kassandra Hahn",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Hulda Schneider",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 598
+            "FieldLength": 774
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Margarita Schowalter",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Miss Orlando Krajcik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 235
       }
     }
   }

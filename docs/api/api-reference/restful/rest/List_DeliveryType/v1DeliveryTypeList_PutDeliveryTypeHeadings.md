@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 670,
-    "Name": "Sauer-Morar",
-    "Tooltip": "dolores",
+    "HeadingId": 229,
+    "Name": "Williamson-Hilpert",
+    "Tooltip": "impedit",
     "Deleted": true,
-    "Rank": 303,
-    "UdListDefinitionId": 466
+    "Rank": 103,
+    "UdListDefinitionId": 7
   },
   {
-    "HeadingId": 670,
-    "Name": "Sauer-Morar",
-    "Tooltip": "dolores",
+    "HeadingId": 229,
+    "Name": "Williamson-Hilpert",
+    "Tooltip": "impedit",
     "Deleted": true,
-    "Rank": 303,
-    "UdListDefinitionId": 466
+    "Rank": 103,
+    "UdListDefinitionId": 7
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 559,
-    "Name": "Will, Cummings and Reinger",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 381,
-    "UdListDefinitionId": 39,
+    "HeadingId": 841,
+    "Name": "Marquardt LLC",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "Rank": 324,
+    "UdListDefinitionId": 60,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "incentivize distributed initiatives"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 12
       }
     }
   }

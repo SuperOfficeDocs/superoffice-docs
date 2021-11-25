@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultStatusMonitorPeriods
+title: POST Agents/Saint/CreateDefaultStatusMonitorPeriods
 id: v1SaintAgent_CreateDefaultStatusMonitorPeriods
 ---
 
-# CreateDefaultStatusMonitorPeriods
+# POST Agents/Saint/CreateDefaultStatusMonitorPeriods
 
 ```http
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -61,7 +61,7 @@ Response body: object
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -69,9 +69,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 378,
-  "Period2": 915,
-  "Period3": 835,
+  "Period1": 731,
+  "Period2": 378,
+  "Period3": 338,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

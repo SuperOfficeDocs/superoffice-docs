@@ -1,9 +1,9 @@
 ---
-title: GetSimpleList
+title: POST Agents/MDO/GetSimpleList
 id: v1MDOAgent_GetSimpleList
 ---
 
-# GetSimpleList
+# POST Agents/MDO/GetSimpleList
 
 ```http
 POST /api/v1/Agents/MDO/GetSimpleList
@@ -88,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hickle-Schaden"
+  "Name": "Kuhlman-Herman"
 }
 ```
 
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Beatty Inc and Sons",
-    "ToolTip": "Placeat similique occaecati est.",
+    "Id": 822,
+    "Name": "Pfannerstill Inc and Sons",
+    "ToolTip": "Ut tempora in.",
     "Deleted": true,
-    "Rank": 50,
-    "Type": "ratione",
+    "Rank": 1001,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Fritsch-Price",
-        "ToolTip": "Ipsum eveniet.",
+        "Id": 537,
+        "Name": "Hintz Inc and Sons",
+        "ToolTip": "Eveniet sint autem excepturi et minus.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "facere",
+        "Rank": 780,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 274,
-        "ExtraInfo": "sint",
-        "StyleHint": "sunt",
-        "FullName": "Malika Gislason",
+        "IconHint": "modi",
+        "ColorBlock": 783,
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "FullName": "Oren Christiansen II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 943
+            "FieldLength": 787
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 844,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "saepe",
-    "FullName": "Ryley Rogahn",
+    "IconHint": "provident",
+    "ColorBlock": 883,
+    "ExtraInfo": "et",
+    "StyleHint": "dolorum",
+    "FullName": "Cleora Mayer",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "morph compelling architectures"
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

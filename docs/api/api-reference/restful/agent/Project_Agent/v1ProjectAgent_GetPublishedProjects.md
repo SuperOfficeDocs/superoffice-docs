@@ -1,9 +1,9 @@
 ---
-title: GetPublishedProjects
+title: POST Agents/Project/GetPublishedProjects
 id: v1ProjectAgent_GetPublishedProjects
 ---
 
-# GetPublishedProjects
+# POST Agents/Project/GetPublishedProjects
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjects
@@ -90,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    865,
-    396
+    724,
+    942
   ]
 }
 ```
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 476,
-    "Name": "Ankunding, Jakubowski and Robel",
-    "Description": "Reduced mission-critical methodology",
+    "ProjectId": 930,
+    "Name": "O'Kon Group",
+    "Description": "Monitored directional model",
     "URL": "http://www.example.com/",
-    "Type": "non",
-    "AssociateId": 11,
-    "AssociateFullName": "Ona Daugherty",
-    "TypeId": 487,
-    "Updated": "1997-12-03T14:58:04.8614596+01:00",
-    "StatusId": 514,
-    "Status": "laborum",
-    "TextId": 464,
-    "PublishTo": "2004-06-28T14:58:04.8614596+02:00",
-    "PublishFrom": "2016-12-13T14:58:04.8614596+01:00",
-    "IsPublished": true,
+    "Type": "aut",
+    "AssociateId": 859,
+    "AssociateFullName": "Ms. Eden Ledner",
+    "TypeId": 68,
+    "Updated": "1996-09-05T18:28:49.7841424+02:00",
+    "StatusId": 52,
+    "Status": "molestias",
+    "TextId": 215,
+    "PublishTo": "2016-06-26T18:28:49.7841424+02:00",
+    "PublishFrom": "2003-04-24T18:28:49.7841424+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "706687",
-    "ActiveErpLinks": 40,
+    "ProjectNumber": "1231737",
+    "ActiveErpLinks": 989,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "engage synergistic systems"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "iterate 24/7 metrics"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   }

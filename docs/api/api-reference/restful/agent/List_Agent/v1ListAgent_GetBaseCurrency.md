@@ -1,9 +1,9 @@
 ---
-title: GetBaseCurrency
+title: POST Agents/List/GetBaseCurrency
 id: v1ListAgent_GetBaseCurrency
 ---
 
-# GetBaseCurrency
+# POST Agents/List/GetBaseCurrency
 
 ```http
 POST /api/v1/Agents/List/GetBaseCurrency
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,13 +79,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 57,
-  "Name": "Hegmann-Boehm",
-  "Tooltip": "est",
-  "Rank": 52,
-  "Rate": 18963.834,
-  "Units": 13987.042,
-  "Deleted": false,
+  "CurrencyId": 61,
+  "Name": "Cronin LLC",
+  "Tooltip": "aut",
+  "Rank": 927,
+  "Rate": 22263.935999999998,
+  "Units": 12586.144,
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   }
 }

@@ -102,24 +102,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 24,
-  "Name": "Goodwin, Zboncak and McClure",
-  "CurrencyId": 316,
-  "EnglishName": "Leffler, Runte and Durgan",
+  "CountryId": 334,
+  "Name": "Gerlach Group",
+  "CurrencyId": 743,
+  "EnglishName": "Johnson, Marks and Beer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Future-proofed mission-critical workforce",
-  "OrgNrText": "873992",
-  "InterAreaPrefix": "magnam",
-  "DialInPrefix": "recusandae",
-  "ZipPrefix": "corporis",
-  "DomainName": "Gorczany, Hoeger and Pagac",
-  "AddressLayoutId": 187,
-  "DomesticAddressLayoutId": 645,
-  "ForeignAddressLayoutId": 26,
-  "Rank": 368,
-  "Tooltip": "quo",
-  "Deleted": false
+  "ImageDescription": "Re-contextualized 6th generation capacity",
+  "OrgNrText": "1003530",
+  "InterAreaPrefix": "quia",
+  "DialInPrefix": "provident",
+  "ZipPrefix": "a",
+  "DomainName": "Volkman-Grady",
+  "AddressLayoutId": 612,
+  "DomesticAddressLayoutId": 369,
+  "ForeignAddressLayoutId": 318,
+  "Rank": 593,
+  "Tooltip": "consequuntur",
+  "Deleted": true
 }
 ```
 
@@ -128,24 +128,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 339,
-  "Name": "Gleason, Senger and Kutch",
-  "CurrencyId": 896,
-  "EnglishName": "Cremin-Moen",
+  "CountryId": 976,
+  "Name": "Denesik-Weimann",
+  "CurrencyId": 236,
+  "EnglishName": "Williamson-Brekke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive dedicated algorithm",
-  "OrgNrText": "1153045",
-  "InterAreaPrefix": "quis",
-  "DialInPrefix": "tenetur",
-  "ZipPrefix": "non",
-  "DomainName": "Ondricka LLC",
-  "AddressLayoutId": 318,
-  "DomesticAddressLayoutId": 118,
-  "ForeignAddressLayoutId": 4,
-  "Rank": 370,
-  "Tooltip": "doloribus",
-  "Deleted": true,
+  "ImageDescription": "Configurable mobile secured line",
+  "OrgNrText": "1296372",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "deserunt",
+  "ZipPrefix": "aperiam",
+  "DomainName": "Towne-Parker",
+  "AddressLayoutId": 328,
+  "DomesticAddressLayoutId": 774,
+  "ForeignAddressLayoutId": 295,
+  "Rank": 273,
+  "Tooltip": "qui",
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 374
     }
   }
 }

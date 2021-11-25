@@ -68,12 +68,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=quaerat
-GET /api/v1/Script?$top=617
-GET /api/v1/Script?$skip=129
+GET /api/v1/Script?$entities=assumenda
+GET /api/v1/Script?$top=558
+GET /api/v1/Script?$skip=74
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=eos
+GET /api/v1/Script?$context=dignissimos
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
@@ -125,19 +125,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ex",
+  "odata.nextLink": "voluptate",
   "value": [
     {
-      "PrimaryKey": 2392,
-      "EntityName": "person",
-      "personId": 2392,
-      "fullName": "Alison DuBuque"
+      "PrimaryKey": 6088,
+      "EntityName": "sale",
+      "saleId": 6088,
+      "contactId": 5779,
+      "name": "Wilderman Inc and Sons"
     },
     {
-      "PrimaryKey": 671,
-      "EntityName": "person",
-      "personId": 671,
-      "fullName": "Charity Weissnat"
+      "PrimaryKey": 9193,
+      "EntityName": "sale",
+      "saleId": 9193,
+      "contactId": 2414,
+      "name": "Lockman-Paucek"
     }
   ]
 }

@@ -1,9 +1,9 @@
 ---
-title: GetProjectTypes
+title: POST Agents/List/GetProjectTypes
 id: v1ListAgent_GetProjectTypes
 ---
 
-# GetProjectTypes
+# POST Agents/List/GetProjectTypes
 
 ```http
 POST /api/v1/Agents/List/GetProjectTypes
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Value": "qui",
-    "Tooltip": "cum",
+    "Id": 180,
+    "Value": "animi",
+    "Tooltip": "earum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "drive frictionless bandwidth"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 459
       }
     }
   },
   {
-    "Id": 884,
-    "Value": "qui",
-    "Tooltip": "cum",
+    "Id": 180,
+    "Value": "animi",
+    "Tooltip": "earum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "drive frictionless bandwidth"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 459
       }
     }
   }

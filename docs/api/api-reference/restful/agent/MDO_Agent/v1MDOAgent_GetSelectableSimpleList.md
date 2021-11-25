@@ -1,9 +1,9 @@
 ---
-title: GetSelectableSimpleList
+title: POST Agents/MDO/GetSelectableSimpleList
 id: v1MDOAgent_GetSelectableSimpleList
 ---
 
-# GetSelectableSimpleList
+# POST Agents/MDO/GetSelectableSimpleList
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmeler, Johnston and Howe"
+  "Name": "Russel-Ullrich"
 }
 ```
 
@@ -101,53 +101,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Harvey, Pagac and Turner",
-    "ToolTip": "Quasi est aut velit tenetur eius.",
+    "Id": 94,
+    "Name": "Gleason LLC",
+    "ToolTip": "Porro animi.",
     "Deleted": true,
-    "Rank": 295,
-    "Type": "pariatur",
-    "ColorBlock": 81,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2000-05-27T14:58:04.5114322+02:00",
+    "Rank": 627,
+    "Type": "quaerat",
+    "ColorBlock": 95,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2016-10-22T18:28:49.4820906+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Koch-Stamm",
-        "ToolTip": "Dolorem numquam excepturi animi ut.",
+        "Id": 397,
+        "Name": "Jast-Keeling",
+        "ToolTip": "Qui placeat aliquam aperiam.",
         "Deleted": true,
-        "Rank": 112,
-        "Type": "et",
-        "ColorBlock": 287,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2018-05-12T14:58:04.5134814+02:00",
+        "Rank": 315,
+        "Type": "sequi",
+        "ColorBlock": 972,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2012-01-22T18:28:49.4820906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "placeat",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Camila Zemlak MD",
+        "FullName": "Dr. Destany Yundt",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "incentivize cross-platform platforms"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 663
+            "FieldType": "System.Int32",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Devin Douglas",
+    "ExtraInfo": "commodi",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Eleonore Boyer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldLength": 405
       }
     }
   }

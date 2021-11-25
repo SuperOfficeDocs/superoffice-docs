@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 326,
-  "ColumnId": 250,
-  "FieldDefault": "tempora",
-  "FieldHeight": 673,
-  "FieldLabel": "quae",
-  "FieldLeft": 767,
-  "FieldTop": 265,
+  "UDefFieldId": 798,
+  "ColumnId": 874,
+  "FieldDefault": "rerum",
+  "FieldHeight": 495,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 123,
+  "FieldTop": 171,
   "FieldType": "Checkbox",
-  "FieldWidth": 85,
-  "FormatMask": "animi",
+  "FieldWidth": 475,
+  "FormatMask": "molestiae",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 253,
-  "LabelLeft": 782,
-  "LabelTop": 524,
-  "LabelWidth": 589,
-  "LastVersionId": 784,
-  "ListTableId": 625,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 849,
+  "LabelLeft": 27,
+  "LabelTop": 985,
+  "LabelWidth": 591,
+  "LastVersionId": 256,
+  "ListTableId": 878,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 489,
-  "ProgId": "esse",
+  "Page1LineNo": 673,
+  "ProgId": "sed",
   "IsReadOnly": false,
-  "ShortLabel": "quibusdam",
-  "TabOrder": 894,
-  "TextLength": 877,
-  "Tooltip": "dolore",
-  "UdefIdentity": 171,
-  "UDListDefinitionId": 632,
+  "ShortLabel": "quidem",
+  "TabOrder": 750,
+  "TextLength": 592,
+  "Tooltip": "ut",
+  "UdefIdentity": 198,
+  "UDListDefinitionId": 236,
   "Justification": "Center",
-  "Version": 285,
-  "TemplateVariableName": "Hand, Sporer and Rempel",
-  "HasBeenPublished": false,
-  "MdoListName": "Haag Inc and Sons",
+  "Version": 116,
+  "TemplateVariableName": "Fadel, Connelly and Swift",
+  "HasBeenPublished": true,
+  "MdoListName": "Welch, Marquardt and Senger",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

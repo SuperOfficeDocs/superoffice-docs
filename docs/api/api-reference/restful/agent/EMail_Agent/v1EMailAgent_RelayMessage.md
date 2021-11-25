@@ -1,9 +1,9 @@
 ---
-title: RelayMessage
+title: POST Agents/EMail/RelayMessage
 id: v1EMailAgent_RelayMessage
 ---
 
-# RelayMessage
+# POST Agents/EMail/RelayMessage
 
 ```http
 POST /api/v1/Agents/EMail/RelayMessage

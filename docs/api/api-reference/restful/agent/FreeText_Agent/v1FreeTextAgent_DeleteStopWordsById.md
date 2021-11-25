@@ -1,9 +1,9 @@
 ---
-title: DeleteStopWordsById
+title: POST Agents/FreeText/DeleteStopWordsById
 id: v1FreeTextAgent_DeleteStopWordsById
 ---
 
-# DeleteStopWordsById
+# POST Agents/FreeText/DeleteStopWordsById
 
 ```http
 POST /api/v1/Agents/FreeText/DeleteStopWordsById

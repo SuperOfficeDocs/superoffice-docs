@@ -68,7 +68,7 @@ Response body: array
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,14 +77,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "eius",
-    "Tooltip": "nostrum",
-    "Id": 810,
-    "Rank": 107,
+    "Value": "harum",
+    "Tooltip": "corrupti",
+    "Id": 867,
+    "Rank": 608,
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "mesh sticky metrics"
+      "Reason": "empower customized e-services"
     },
     "FieldProperties": {
       "fieldName": {
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 333
       }
     }
   }

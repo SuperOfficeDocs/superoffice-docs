@@ -93,21 +93,21 @@ Response body: object
 PUT /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 714,
-  "Value": "qui",
+  "TaskListItemId": 456,
+  "Value": "velit",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "IntentId": 41,
-  "Rank": 366,
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "IntentId": 403,
+  "Rank": 692,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 84,
-  "Value": "repellendus",
+  "TaskListItemId": 149,
+  "Value": "consequuntur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aut",
+  "Tooltip": "provident",
   "Deleted": false,
-  "IntentId": 541,
-  "Rank": 517,
+  "IntentId": 922,
+  "Rank": 92,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
   "IsDefaultPublished": true,
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

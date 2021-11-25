@@ -1,9 +1,9 @@
 ---
-title: GetConnectorCapabilities
+title: POST Agents/Quote/GetConnectorCapabilities
 id: v1QuoteAgent_GetConnectorCapabilities
 ---
 
-# GetConnectorCapabilities
+# POST Agents/Quote/GetConnectorCapabilities
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectorCapabilities
@@ -68,11 +68,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetConnectorCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 171
+  "QuoteConnectionId": 716
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "voluptatem"
+  "sapiente",
+  "facere"
 ]
 ```

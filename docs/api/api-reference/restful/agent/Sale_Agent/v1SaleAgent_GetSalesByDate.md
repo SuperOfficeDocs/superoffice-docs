@@ -1,9 +1,9 @@
 ---
-title: GetSalesByDate
+title: POST Agents/Sale/GetSalesByDate
 id: v1SaleAgent_GetSalesByDate
 ---
 
-# GetSalesByDate
+# POST Agents/Sale/GetSalesByDate
 
 ```http
 POST /api/v1/Agents/Sale/GetSalesByDate
@@ -100,13 +100,13 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2005-04-02T14:58:05.1876286+02:00",
-  "ToDate": "2016-03-28T14:58:05.1876286+02:00",
-  "AmountLimit": 398,
+  "FromDate": "2000-08-19T18:28:50.1784416+02:00",
+  "ToDate": "2007-11-28T18:28:50.1784416+01:00",
+  "AmountLimit": 689,
   "Status": "Lost"
 }
 ```
@@ -117,31 +117,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Treutel-Zboncak",
-    "SaleDate": "2006-06-02T14:58:05.1886281+02:00",
-    "SaleId": 993,
-    "Probability": 914,
-    "Title": "excepturi",
-    "Amount": 12739.71,
-    "Currency": "et",
-    "ProjectName": "Franecki-Zieme",
-    "AssociateFullName": "Amie Cassin",
-    "Description": "Pre-emptive multi-tasking approach",
+    "ContactName": "Lesch, VonRueden and Cole",
+    "SaleDate": "2001-05-11T18:28:50.1784416+02:00",
+    "SaleId": 894,
+    "Probability": 977,
+    "Title": "iste",
+    "Amount": 11009.742,
+    "Currency": "aut",
+    "ProjectName": "Kovacek Group",
+    "AssociateFullName": "Mrs. Mac Kemmer",
+    "Description": "Networked zero administration conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 22944.014,
-    "ProjectId": 831,
-    "EarningPercent": 19891.498,
-    "Earning": 6709.894,
-    "ContactId": 921,
-    "AssociateId": 220,
-    "PersonId": 656,
-    "SaleTypeId": 422,
-    "SaleTypeName": "Swift, Simonis and Cremin",
-    "PersonFullName": "Abagail Kuvalis",
+    "WeightedAmount": 5274.522,
+    "ProjectId": 553,
+    "EarningPercent": 16378.284,
+    "Earning": 11570.728,
+    "ContactId": 775,
+    "AssociateId": 509,
+    "PersonId": 937,
+    "SaleTypeId": 448,
+    "SaleTypeName": "D'Amore-Deckow",
+    "PersonFullName": "Junius Brown",
     "Completed": "Completed",
-    "ActiveErpLinks": 853,
-    "NextDueDate": "2014-04-04T14:58:05.1886281+02:00",
-    "Number": "702513",
+    "ActiveErpLinks": 150,
+    "NextDueDate": "1996-05-04T18:28:50.1794449+02:00",
+    "Number": "1345276",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 667
       }
     }
   }

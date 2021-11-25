@@ -1,9 +1,9 @@
 ---
-title: DetectSentiment
+title: POST Agents/AI/DetectSentiment
 id: v1AIAgent_DetectSentiment
 ---
 
-# DetectSentiment
+# POST Agents/AI/DetectSentiment
 
 ```http
 POST /api/v1/Agents/AI/DetectSentiment
@@ -79,11 +79,11 @@ Response body: object
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "eos"
+  "Text": "est"
 }
 ```
 
@@ -92,8 +92,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 733,
-  "Confidence": 258,
+  "Score": 197,
+  "Confidence": 390,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 690
     }
   }
 }

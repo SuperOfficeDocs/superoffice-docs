@@ -32,9 +32,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/05/2006 15:05:45
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/26/2011 15:05:45
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=622
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=07/27/2003 18:25:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/25/2019 18:25:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=417
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -89,7 +89,7 @@ Response body: object
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 877,
-  "ERPPriceListKey": "deserunt",
-  "QuoteConnectionId": 301,
-  "Name": "Bruen-Jast",
-  "Description": "User-friendly bottom-line intranet",
-  "Currency": "hic",
-  "CurrencyName": "Moore LLC",
-  "ValidFrom": "2012-08-14T15:05:43.5910797+02:00",
-  "ValidTo": "2010-11-14T15:05:43.5910797+01:00",
-  "IsActive": false,
+  "PriceListId": 575,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 498,
+  "Name": "Torphy-Grimes",
+  "Description": "Managed local matrix",
+  "Currency": "qui",
+  "CurrencyName": "Tremblay-Krajcik",
+  "ValidFrom": "2007-01-01T18:25:51.9762459+01:00",
+  "ValidTo": "2014-05-26T18:25:51.9762459+02:00",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

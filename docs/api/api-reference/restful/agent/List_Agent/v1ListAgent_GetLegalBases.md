@@ -1,9 +1,9 @@
 ---
-title: GetLegalBases
+title: POST Agents/List/GetLegalBases
 id: v1ListAgent_GetLegalBases
 ---
 
-# GetLegalBases
+# POST Agents/List/GetLegalBases
 
 ```http
 POST /api/v1/Agents/List/GetLegalBases
@@ -69,7 +69,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -78,11 +78,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 125,
-    "Name": "Sanford-Schultz",
-    "Tooltip": "eum",
-    "Rank": 959,
-    "Key": "minima",
+    "LegalBaseId": 856,
+    "Name": "Beahan, Jacobson and Fisher",
+    "Tooltip": "illo",
+    "Rank": 892,
+    "Key": "aut",
     "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
@@ -92,10 +92,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "seize intuitive portals"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldType": "System.String",
+        "FieldLength": 367
       }
     }
   }

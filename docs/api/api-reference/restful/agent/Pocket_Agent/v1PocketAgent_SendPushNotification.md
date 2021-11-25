@@ -1,9 +1,9 @@
 ---
-title: SendPushNotification
+title: POST Agents/Pocket/SendPushNotification
 id: v1PocketAgent_SendPushNotification
 ---
 
-# SendPushNotification
+# POST Agents/Pocket/SendPushNotification
 
 ```http
 POST /api/v1/Agents/Pocket/SendPushNotification

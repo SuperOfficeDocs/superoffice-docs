@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 151,
-    "Name": "Kirlin-Prosacco",
-    "ToolTip": "Est eos.",
+    "Id": 645,
+    "Name": "King-Funk",
+    "ToolTip": "Suscipit omnis voluptas ad animi.",
     "Deleted": false,
-    "Rank": 633,
-    "Type": "eum",
-    "ColorBlock": 660,
-    "IconHint": "ut",
+    "Rank": 319,
+    "Type": "id",
+    "ColorBlock": 396,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2008-02-05T15:05:43.6330797+01:00",
+    "LastChanged": "1997-08-20T18:25:52.0172124+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Halvorson Group",
-        "ToolTip": "Ex numquam.",
+        "Id": 882,
+        "Name": "Corkery, Yundt and Bechtelar",
+        "ToolTip": "Error rerum labore iure quia aspernatur id.",
         "Deleted": true,
-        "Rank": 377,
-        "Type": "voluptatibus",
-        "ColorBlock": 921,
-        "IconHint": "accusamus",
+        "Rank": 207,
+        "Type": "dolor",
+        "ColorBlock": 4,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2012-07-22T15:05:43.6330797+02:00",
+        "LastChanged": "1999-01-09T18:25:52.0172124+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Vada Kautzer",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Wilford Stracke",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "innovate front-end models"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 452
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Russ Frami",
+    "ExtraInfo": "in",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Jabari Brakus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 617
       }
     }
   }

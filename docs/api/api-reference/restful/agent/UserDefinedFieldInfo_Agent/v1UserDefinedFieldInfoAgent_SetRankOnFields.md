@@ -1,9 +1,9 @@
 ---
-title: SetRankOnFields
+title: POST Agents/UserDefinedFieldInfo/SetRankOnFields
 id: v1UserDefinedFieldInfoAgent_SetRankOnFields
 ---
 
-# SetRankOnFields
+# POST Agents/UserDefinedFieldInfo/SetRankOnFields
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetRankOnFields

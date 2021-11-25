@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Feil, Nikolaus and Halvorson",
-  "DisplayName": "Brown, Schamberger and Hansen",
-  "Description": "User-friendly optimizing forecast",
-  "ShortLabel": "consectetur",
+  "FieldName": "Bailey, Kulas and Boehm",
+  "DisplayName": "Johnston-Wuckert",
+  "Description": "Ergonomic static conglomeration",
+  "ShortLabel": "dolores",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 670,
-  "TemplateVariableName": "Kirlin-Rogahn"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 230,
+  "TemplateVariableName": "Zemlak Group"
 }
 ```

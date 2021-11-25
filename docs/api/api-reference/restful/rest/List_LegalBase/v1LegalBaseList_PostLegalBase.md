@@ -78,12 +78,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 61,
-  "Name": "Howe-Mraz",
-  "Tooltip": "aut",
-  "Rank": 549,
-  "Key": "quam",
-  "Deleted": false
+  "LegalBaseId": 873,
+  "Name": "Stokes, DuBuque and Miller",
+  "Tooltip": "non",
+  "Rank": 859,
+  "Key": "non",
+  "Deleted": true
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 341,
-  "Name": "Kutch, Hamill and Stroman",
-  "Tooltip": "doloribus",
-  "Rank": 838,
-  "Key": "repellat",
-  "Deleted": false,
+  "LegalBaseId": 484,
+  "Name": "Swaniawski Inc and Sons",
+  "Tooltip": "quidem",
+  "Rank": 599,
+  "Key": "numquam",
+  "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "leverage holistic relationships"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldType": "System.String",
+      "FieldLength": 663
     }
   }
 }

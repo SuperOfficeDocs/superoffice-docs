@@ -1,9 +1,9 @@
 ---
-title: GetKeyValueOnDeviceIdentifier
+title: POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 id: v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier
 ---
 
-# GetKeyValueOnDeviceIdentifier
+# POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
@@ -73,16 +73,16 @@ Response body: string
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gutmann, Collier and Gusikowski",
-  "DeviceName": "Morissette, Keeling and Jenkins",
-  "DeviceIdentifier": "sit",
-  "KeyName": "Volkman Inc and Sons",
-  "TableName": "McDermott-Morar",
-  "RecordId": 350
+  "ApplicationName": "Haley Group",
+  "DeviceName": "Ebert-Schoen",
+  "DeviceIdentifier": "et",
+  "KeyName": "Homenick, Cronin and Crona",
+  "TableName": "Considine Group",
+  "RecordId": 609
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"quo"
 ```

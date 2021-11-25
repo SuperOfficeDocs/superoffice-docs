@@ -1,9 +1,9 @@
 ---
-title: GetPersonAppointmentsByTask
+title: POST Agents/Appointment/GetPersonAppointmentsByTask
 id: v1AppointmentAgent_GetPersonAppointmentsByTask
 ---
 
-# GetPersonAppointmentsByTask
+# POST Agents/Appointment/GetPersonAppointmentsByTask
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
@@ -126,16 +126,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 627,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2020-01-26T14:58:02.845574+01:00",
-  "EndTime": "2010-05-28T14:58:02.845574+02:00",
-  "Count": 824,
-  "TaskId": 194
+  "PersonId": 315,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2014-10-01T18:28:47.6938171+02:00",
+  "EndTime": "1996-06-30T18:28:47.6938171+02:00",
+  "Count": 893,
+  "TaskId": 248
 }
 ```
 
@@ -145,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 624,
-    "StartDate": "2003-04-22T14:58:02.8465764+02:00",
-    "EndDate": "1994-05-08T14:58:02.8465764+02:00",
+    "AppointmentId": 231,
+    "StartDate": "1995-08-13T18:28:47.6968174+02:00",
+    "EndDate": "2006-07-21T18:28:47.6968174+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Leila Runolfsson",
-    "ContactName": "Wilkinson-Walker",
-    "Description": "Universal bandwidth-monitored implementation",
-    "PersonFullName": "Cory Hirthe",
-    "PersonId": 617,
-    "ContactId": 973,
-    "ProjectId": 739,
-    "ProjectName": "Cummings, Harvey and Langosh",
+    "Task": "omnis",
+    "AssociateFullName": "Rolando Fritsch",
+    "ContactName": "Collins Inc and Sons",
+    "Description": "Optimized didactic benchmark",
+    "PersonFullName": "Linwood Hoeger",
+    "PersonId": 186,
+    "ContactId": 346,
+    "ProjectId": 80,
+    "ProjectName": "Muller, Littel and Keebler",
     "IsPublished": true,
-    "AssociateId": 159,
-    "ColorIndex": 293,
-    "IsFree": false,
+    "AssociateId": 630,
+    "ColorIndex": 896,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 733,
-    "PriorityName": "Wilderman, Spencer and Ernser",
+    "PriorityId": 371,
+    "PriorityName": "Fay, Lesch and Wuckert",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2014-11-28T14:58:02.847573+01:00",
+    "IsBooking": false,
+    "ActiveDate": "1996-02-25T18:28:47.6968174+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-12-12T14:58:02.847573+01:00",
-    "RecurringEndDate": "2008-04-04T14:58:02.847573+02:00",
-    "MotherId": 490,
-    "AssignedBy": 301,
-    "AssignedByFullName": "Dora Streich",
+    "RecurringStartDate": "1997-09-15T18:28:47.6968174+02:00",
+    "RecurringEndDate": "2017-05-15T18:28:47.6968174+02:00",
+    "MotherId": 654,
+    "AssignedBy": 853,
+    "AssignedByFullName": "Mrs. Layla Kreiger",
     "RejectReason": "",
-    "Location": "quas",
-    "AlarmLeadTime": "culpa",
-    "SaleId": 687,
-    "SaleName": "Dibbert-Torphy",
-    "AssociateName": "Willms-Shields",
-    "CreatedDate": "2016-06-06T14:58:02.847573+02:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Anne Auer",
-    "CreatedByAssociateId": 300,
+    "Location": "sit",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 150,
+    "SaleName": "Kulas-Bernier",
+    "AssociateName": "Rath LLC",
+    "CreatedDate": "2004-10-28T18:28:47.6978174+02:00",
+    "CreatedBy": "mollitia",
+    "CreatedByFullName": "Lucienne Ziemann",
+    "CreatedByAssociateId": 162,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldLength": 693
       }
     }
   }

@@ -79,7 +79,7 @@ Response body: object
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -87,26 +87,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 863,
+  "HierarchyId": 63,
   "Domain": "Dashboards",
-  "Name": "Harber Inc and Sons",
-  "Fullname": "vel",
-  "ParentId": 856,
+  "Name": "Erdman, Watsica and Davis",
+  "Fullname": "sunt",
+  "ParentId": 10,
   "Children": [
     {
-      "HierarchyId": 854,
+      "HierarchyId": 594,
       "Domain": "Dashboards",
-      "Name": "Powlowski LLC",
-      "Fullname": "ea",
-      "ParentId": 344,
+      "Name": "Lehner-Jast",
+      "Fullname": "sint",
+      "ParentId": 770,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-09-30T15:05:42.2576619+02:00",
-      "RegisteredAssociateId": 272,
-      "Updated": "2012-01-20T15:05:42.2576619+01:00",
-      "UpdatedAssociateId": 547,
+      "Registered": "2005-04-29T18:25:50.5865947+02:00",
+      "RegisteredAssociateId": 400,
+      "Updated": "1995-05-06T18:25:50.5865947+02:00",
+      "UpdatedAssociateId": 376,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 451
         }
       }
     }
   ],
-  "Registered": "1998-06-20T15:05:42.2576619+02:00",
-  "RegisteredAssociateId": 246,
-  "Updated": "2001-06-27T15:05:42.2576619+02:00",
-  "UpdatedAssociateId": 93,
+  "Registered": "2006-10-03T18:25:50.5865947+02:00",
+  "RegisteredAssociateId": 726,
+  "Updated": "2021-04-14T18:25:50.5865947+02:00",
+  "UpdatedAssociateId": 239,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "integrate B2B e-commerce"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldLength": 312
     }
   }
 }

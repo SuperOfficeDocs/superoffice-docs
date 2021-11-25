@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Oberbrunner-Witting",
-    "ToolTip": "Voluptates eum optio ut libero tenetur.",
+    "Id": 607,
+    "Name": "Fahey, Heidenreich and Sporer",
+    "ToolTip": "Exercitationem alias.",
     "Deleted": true,
-    "Rank": 406,
-    "Type": "possimus",
-    "ColorBlock": 265,
-    "IconHint": "odio",
+    "Rank": 319,
+    "Type": "dicta",
+    "ColorBlock": 578,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-03-04T15:05:43.7971177+01:00",
+    "LastChanged": "2015-05-25T18:25:52.1880186+02:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Schumm, Towne and Lowe",
-        "ToolTip": "Repellat tempora non.",
-        "Deleted": true,
-        "Rank": 421,
-        "Type": "sint",
-        "ColorBlock": 467,
-        "IconHint": "vel",
+        "Id": 536,
+        "Name": "Altenwerth-Douglas",
+        "ToolTip": "Enim a rerum rerum nemo explicabo.",
+        "Deleted": false,
+        "Rank": 236,
+        "Type": "asperiores",
+        "ColorBlock": 203,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "1996-07-20T15:05:43.7971177+02:00",
+        "LastChanged": "2019-04-10T18:25:52.1880186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "possimus",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ruthie Johnson",
+        "FullName": "Ms. Teagan McCullough",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 890
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Lionel Roob III",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Germaine Glover",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 252
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

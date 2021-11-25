@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Schamberger-Zieme",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 257,
-    "UdListDefinitionId": 47,
+    "HeadingId": 464,
+    "Name": "Heidenreich-Ernser",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 611,
+    "UdListDefinitionId": 726,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldLength": 345
       }
     }
   }

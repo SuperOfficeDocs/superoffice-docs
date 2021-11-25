@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Zieme-Hackett",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 374,
-  "Rank": 172
+  "Id": 722,
+  "Name": "Kiehn-Gleichner",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "UdListDefinitionId": 628,
+  "Rank": 14
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Murazik-Kihn",
-  "Tooltip": "ipsam",
+  "Id": 629,
+  "Name": "Ratke, Beatty and Schaden",
+  "Tooltip": "sit",
   "Deleted": true,
-  "UdListDefinitionId": 309,
-  "Rank": 675,
+  "UdListDefinitionId": 632,
+  "Rank": 882,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "implement best-of-breed bandwidth"
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldLength": 255
     }
   }
 }

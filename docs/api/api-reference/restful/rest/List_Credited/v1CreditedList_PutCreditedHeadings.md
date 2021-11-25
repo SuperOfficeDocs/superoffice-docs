@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 92,
-    "Name": "D'Amore-Bernhard",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 393,
-    "UdListDefinitionId": 409
+    "HeadingId": 746,
+    "Name": "Stehr, Grady and Hammes",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 299,
+    "UdListDefinitionId": 579
   },
   {
-    "HeadingId": 92,
-    "Name": "D'Amore-Bernhard",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 393,
-    "UdListDefinitionId": 409
+    "HeadingId": 746,
+    "Name": "Stehr, Grady and Hammes",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 299,
+    "UdListDefinitionId": 579
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Heathcote-Mosciski",
-    "Tooltip": "sunt",
+    "HeadingId": 484,
+    "Name": "Hudson, Barton and Champlin",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "Rank": 740,
-    "UdListDefinitionId": 125,
+    "Rank": 155,
+    "UdListDefinitionId": 553,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "aggregate transparent web services"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldType": "System.String",
+        "FieldLength": 834
       }
     }
   }

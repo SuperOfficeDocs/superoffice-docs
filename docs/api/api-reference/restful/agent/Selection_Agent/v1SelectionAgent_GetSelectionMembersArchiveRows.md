@@ -1,9 +1,9 @@
 ---
-title: GetSelectionMembersArchiveRows
+title: POST Agents/Selection/GetSelectionMembersArchiveRows
 id: v1SelectionAgent_GetSelectionMembersArchiveRows
 ---
 
-# GetSelectionMembersArchiveRows
+# POST Agents/Selection/GetSelectionMembersArchiveRows
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 75,
-  "Select": "eum"
+  "SelectionId": 60,
+  "Select": "laborum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bayer, Morar and Nolan",
-    "PrimaryKey": 479,
+    "EntityName": "Kunze-Romaguera",
+    "PrimaryKey": 205,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "tenetur",
-        "LinkHint": "soluta"
+        "DisplayValue": "similique",
+        "TooltipHint": "expedita",
+        "LinkHint": "eos"
       }
     },
-    "LinkHint": "soluta",
-    "StyleHint": "occaecati",
+    "LinkHint": "non",
+    "StyleHint": "ipsum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 725
       }
     }
   }

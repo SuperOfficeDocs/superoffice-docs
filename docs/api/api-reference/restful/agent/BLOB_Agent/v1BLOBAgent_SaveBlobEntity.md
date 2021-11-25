@@ -1,9 +1,9 @@
 ---
-title: SaveBlobEntity
+title: POST Agents/BLOB/SaveBlobEntity
 id: v1BLOBAgent_SaveBlobEntity
 ---
 
-# SaveBlobEntity
+# POST Agents/BLOB/SaveBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/SaveBlobEntity
@@ -88,49 +88,49 @@ Response body: object
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 326,
-  "BlobSize": 738,
-  "Description": "Total non-volatile database",
-  "ExtraInfo": "ipsam",
-  "IsEncrypted": false,
+  "BlobId": 619,
+  "BlobSize": 402,
+  "Description": "Enhanced homogeneous secured line",
+  "ExtraInfo": "ullam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 583,
-  "CreatedDate": "2020-11-12T14:58:03.2802409+01:00",
-  "UpdatedDate": "2016-07-30T14:58:03.2802409+02:00",
+  "MimeType": "repudiandae",
+  "OriginalSize": 387,
+  "CreatedDate": "2021-03-31T18:28:48.1515438+02:00",
+  "UpdatedDate": "2014-10-13T18:28:48.1515438+02:00",
   "CreatedBy": {
-    "AssociateId": 496,
-    "Name": "Pacocha-Stracke",
-    "PersonId": 945,
-    "Rank": 174,
-    "Tooltip": "ducimus",
+    "AssociateId": 724,
+    "Name": "Jewess, Ferry and Stehr",
+    "PersonId": 328,
+    "Rank": 923,
+    "Tooltip": "repellendus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 444,
-    "FullName": "Hannah Padberg",
-    "FormalName": "McDermott-Ruecker",
-    "Deleted": true,
-    "EjUserId": 997,
-    "UserName": "Bergnaum, Labadie and Parker"
+    "GroupIdx": 114,
+    "FullName": "Ibrahim Terry",
+    "FormalName": "Treutel-Kuhlman",
+    "Deleted": false,
+    "EjUserId": 55,
+    "UserName": "Hermann, Beer and Lueilwitz"
   },
   "UpdatedBy": {
-    "AssociateId": 659,
-    "Name": "Considine, Willms and Bednar",
-    "PersonId": 329,
-    "Rank": 426,
-    "Tooltip": "modi",
+    "AssociateId": 637,
+    "Name": "Sporer-Hessel",
+    "PersonId": 569,
+    "Rank": 698,
+    "Tooltip": "occaecati",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 234,
-    "FullName": "Danny Bernier",
-    "FormalName": "Nitzsche LLC",
-    "Deleted": true,
-    "EjUserId": 410,
-    "UserName": "Ruecker, Kling and Wiza"
+    "GroupIdx": 910,
+    "FullName": "Laurie Hoppe",
+    "FormalName": "Beier LLC",
+    "Deleted": false,
+    "EjUserId": 236,
+    "UserName": "Morissette-Parisian"
   },
-  "ConceptualType": "et"
+  "ConceptualType": "a"
 }
 ```
 
@@ -139,29 +139,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 90,
-  "BlobSize": 616,
-  "Description": "Universal disintermediate support",
-  "ExtraInfo": "aut",
-  "IsEncrypted": false,
+  "BlobId": 250,
+  "BlobSize": 481,
+  "Description": "Grass-roots transitional framework",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ea",
-  "OriginalSize": 776,
-  "CreatedDate": "2016-04-25T14:58:03.2812407+02:00",
-  "UpdatedDate": "1995-04-20T14:58:03.2812407+02:00",
+  "MimeType": "iure",
+  "OriginalSize": 221,
+  "CreatedDate": "2000-07-01T18:28:48.1535429+02:00",
+  "UpdatedDate": "2006-07-18T18:28:48.1535429+02:00",
   "CreatedBy": {
-    "AssociateId": 626,
-    "Name": "Terry-Spinka",
-    "PersonId": 910,
-    "Rank": 782,
-    "Tooltip": "iusto",
+    "AssociateId": 313,
+    "Name": "Feest, Jacobson and Glover",
+    "PersonId": 222,
+    "Rank": 728,
+    "Tooltip": "recusandae",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 962,
-    "FullName": "Jovanny Halvorson",
-    "FormalName": "Kunze-Wiza",
+    "GroupIdx": 619,
+    "FullName": "Cassidy Pagac",
+    "FormalName": "Kessler, Koelpin and Leffler",
     "Deleted": true,
-    "EjUserId": 550,
-    "UserName": "Schimmel Inc and Sons",
+    "EjUserId": 530,
+    "UserName": "Lehner, Schiller and Rutherford",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -170,23 +170,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 974
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 32,
-    "Name": "Lockman-Turcotte",
-    "PersonId": 220,
-    "Rank": 951,
-    "Tooltip": "optio",
+    "AssociateId": 897,
+    "Name": "Smith-Fahey",
+    "PersonId": 727,
+    "Rank": 609,
+    "Tooltip": "tempora",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 328,
-    "FullName": "Nola Wyman",
-    "FormalName": "Streich, Beatty and O'Hara",
-    "Deleted": false,
-    "EjUserId": 953,
-    "UserName": "Homenick-Braun",
+    "GroupIdx": 297,
+    "FullName": "Darius Feil",
+    "FormalName": "Littel LLC",
+    "Deleted": true,
+    "EjUserId": 500,
+    "UserName": "Lubowitz, Grimes and Gleichner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -194,12 +194,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 255
       }
     }
   },
-  "ConceptualType": "similique",
+  "ConceptualType": "omnis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

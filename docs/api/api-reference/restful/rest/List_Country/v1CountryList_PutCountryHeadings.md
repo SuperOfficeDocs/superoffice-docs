@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 54,
-    "Name": "Bergstrom, Zboncak and Morissette",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 217,
-    "UdListDefinitionId": 171
+    "HeadingId": 553,
+    "Name": "Senger-Sanford",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 670
   },
   {
-    "HeadingId": 54,
-    "Name": "Bergstrom, Zboncak and Morissette",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 217,
-    "UdListDefinitionId": 171
+    "HeadingId": 553,
+    "Name": "Senger-Sanford",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 670
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 560,
-    "Name": "Yost-Oberbrunner",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 239,
-    "UdListDefinitionId": 660,
+    "HeadingId": 29,
+    "Name": "Nader, Smith and Crist",
+    "Tooltip": "cum",
+    "Deleted": false,
+    "Rank": 769,
+    "UdListDefinitionId": 408,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "e-enable real-time applications"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 1000
       }
     }
   }

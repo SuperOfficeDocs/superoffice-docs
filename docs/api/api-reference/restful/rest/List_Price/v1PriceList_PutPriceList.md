@@ -101,20 +101,20 @@ Response body: object
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 268,
-  "ERPPriceListKey": "eveniet",
-  "QuoteConnectionId": 498,
-  "Name": "McDermott, Bernhard and Flatley",
-  "Description": "Face to face 4th generation secured line",
-  "Currency": "voluptate",
-  "CurrencyName": "Hettinger Group",
-  "ValidFrom": "2012-11-13T15:05:43.5880798+01:00",
-  "ValidTo": "2015-01-21T15:05:43.5880798+01:00",
-  "IsActive": false
+  "PriceListId": 271,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 957,
+  "Name": "Corwin, Hoppe and Powlowski",
+  "Description": "Distributed stable customer loyalty",
+  "Currency": "eos",
+  "CurrencyName": "Schowalter Group",
+  "ValidFrom": "2006-07-03T18:25:51.9732447+02:00",
+  "ValidTo": "2003-12-13T18:25:51.9732447+01:00",
+  "IsActive": true
 }
 ```
 
@@ -123,15 +123,15 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 748,
-  "ERPPriceListKey": "totam",
-  "QuoteConnectionId": 389,
-  "Name": "Durgan Inc and Sons",
-  "Description": "Implemented multi-state matrix",
-  "Currency": "et",
-  "CurrencyName": "Boyle-Nicolas",
-  "ValidFrom": "2013-05-13T15:05:43.5880798+02:00",
-  "ValidTo": "2013-10-05T15:05:43.5880798+02:00",
+  "PriceListId": 44,
+  "ERPPriceListKey": "cumque",
+  "QuoteConnectionId": 736,
+  "Name": "Hackett, Langworth and Dickinson",
+  "Description": "Ergonomic impactful task-force",
+  "Currency": "vitae",
+  "CurrencyName": "Cremin LLC",
+  "ValidFrom": "2011-04-23T18:25:51.9732447+02:00",
+  "ValidTo": "1997-10-07T18:25:51.9732447+02:00",
   "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldLength": 329
     }
   },
   "_Links": {

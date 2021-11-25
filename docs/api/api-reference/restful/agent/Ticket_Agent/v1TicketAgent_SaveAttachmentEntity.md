@@ -1,9 +1,9 @@
 ---
-title: SaveAttachmentEntity
+title: POST Agents/Ticket/SaveAttachmentEntity
 id: v1TicketAgent_SaveAttachmentEntity
 ---
 
-# SaveAttachmentEntity
+# POST Agents/Ticket/SaveAttachmentEntity
 
 ```http
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 659,
-  "Name": "Rippin Group",
-  "ContentType": "quo",
-  "AttSize": 450,
+  "AttachmentId": 45,
+  "Name": "Cartwright LLC",
+  "ContentType": "vel",
+  "AttSize": 72,
   "InlineImage": true,
-  "ContentId": "officiis"
+  "ContentId": "delectus"
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 535,
-  "Name": "Bauch-Schaden",
-  "ContentType": "voluptatem",
-  "AttSize": 187,
-  "InlineImage": true,
-  "ContentId": "tempore",
+  "AttachmentId": 356,
+  "Name": "Hilpert, O'Conner and Volkman",
+  "ContentType": "non",
+  "AttSize": 973,
+  "InlineImage": false,
+  "ContentId": "placeat",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 18
     }
   }
 }

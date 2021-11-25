@@ -1,9 +1,9 @@
 ---
-title: SaveCentralLicense
+title: POST Agents/Replication/SaveCentralLicense
 id: v1ReplicationAgent_SaveCentralLicense
 ---
 
-# SaveCentralLicense
+# POST Agents/Replication/SaveCentralLicense
 
 ```http
 POST /api/v1/Agents/Replication/SaveCentralLicense
@@ -76,14 +76,14 @@ Response body: array
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Jacobi, Bednar and Mohr",
-      "Description": "Reduced exuding analyzer",
+      "Name": "Okuneva Inc and Sons",
+      "Description": "Balanced hybrid Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Jacobi, Bednar and Mohr",
-      "Description": "Reduced exuding analyzer",
+      "Name": "Okuneva Inc and Sons",
+      "Description": "Balanced hybrid Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,23 +115,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rogahn, Swaniawski and Barton",
-    "Description": "Pre-emptive systematic application",
+    "Name": "Denesik LLC",
+    "Description": "Customizable upward-trending superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 320,
-        "Tooltip": "illo",
+        "Unrestricted": false,
+        "Total": 907,
+        "Tooltip": "necessitatibus",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 114,
+        "Free": 89,
+        "InUse": 805,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 203,
-        "Name": "White, Beahan and Bogisich",
-        "Description": "Balanced demand-driven info-mediaries",
-        "PrerequisiteModuleName": "Dickens-Schaden",
-        "SortOrder": 175,
+        "Assigned": true,
+        "ModuleLicenseId": 75,
+        "Name": "Gutkowski-Douglas",
+        "Description": "Face to face radical neural-net",
+        "PrerequisiteModuleName": "Bogisich-Schumm",
+        "SortOrder": 622,
+        "ExtraFlags": 491,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -140,7 +141,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 56
+            "FieldLength": 547
           }
         }
       }
@@ -148,18 +149,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 132,
-        "Tooltip": "dolor",
-        "CanAssign": true,
-        "Free": 207,
-        "InUse": 687,
+        "Total": 292,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 184,
+        "InUse": 179,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 863,
-        "Name": "Beier-Thiel",
-        "Description": "Switchable 3rd generation groupware",
-        "PrerequisiteModuleName": "Anderson-King",
-        "SortOrder": 214,
+        "Assigned": false,
+        "ModuleLicenseId": 427,
+        "Name": "Hartmann Inc and Sons",
+        "Description": "Progressive object-oriented model",
+        "PrerequisiteModuleName": "Keebler-Bernhard",
+        "SortOrder": 372,
+        "ExtraFlags": 971,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -168,7 +170,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldLength": 503
           }
         }
       }
@@ -184,28 +186,29 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 522
       }
     }
   },
   {
-    "Name": "Rogahn, Swaniawski and Barton",
-    "Description": "Pre-emptive systematic application",
+    "Name": "Denesik LLC",
+    "Description": "Customizable upward-trending superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 320,
-        "Tooltip": "illo",
+        "Unrestricted": false,
+        "Total": 907,
+        "Tooltip": "necessitatibus",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 114,
+        "Free": 89,
+        "InUse": 805,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 203,
-        "Name": "White, Beahan and Bogisich",
-        "Description": "Balanced demand-driven info-mediaries",
-        "PrerequisiteModuleName": "Dickens-Schaden",
-        "SortOrder": 175,
+        "Assigned": true,
+        "ModuleLicenseId": 75,
+        "Name": "Gutkowski-Douglas",
+        "Description": "Face to face radical neural-net",
+        "PrerequisiteModuleName": "Bogisich-Schumm",
+        "SortOrder": 622,
+        "ExtraFlags": 491,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -214,7 +217,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 56
+            "FieldLength": 547
           }
         }
       }
@@ -222,18 +225,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 132,
-        "Tooltip": "dolor",
-        "CanAssign": true,
-        "Free": 207,
-        "InUse": 687,
+        "Total": 292,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 184,
+        "InUse": 179,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 863,
-        "Name": "Beier-Thiel",
-        "Description": "Switchable 3rd generation groupware",
-        "PrerequisiteModuleName": "Anderson-King",
-        "SortOrder": 214,
+        "Assigned": false,
+        "ModuleLicenseId": 427,
+        "Name": "Hartmann Inc and Sons",
+        "Description": "Progressive object-oriented model",
+        "PrerequisiteModuleName": "Keebler-Bernhard",
+        "SortOrder": 372,
+        "ExtraFlags": 971,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -242,7 +246,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldLength": 503
           }
         }
       }
@@ -258,7 +262,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 522
       }
     }
   }

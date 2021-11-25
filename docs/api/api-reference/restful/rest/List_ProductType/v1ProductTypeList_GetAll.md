@@ -24,7 +24,7 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=True
+GET /api/v1/List/ProductType/Items?includeDeleted=False
 ```
 
 
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Gorczany-Stamm",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "UdListDefinitionId": 676,
-    "Rank": 783,
+    "Id": 485,
+    "Name": "Runolfsson Inc and Sons",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 347,
+    "Rank": 12,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -92,10 +92,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "drive cross-platform web services"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 314
       }
     }
   }

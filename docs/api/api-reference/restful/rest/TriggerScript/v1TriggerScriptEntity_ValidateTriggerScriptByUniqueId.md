@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "enim",
+  "Valid": false,
+  "ErrorMessage": "hic",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "synthesize e-business vortals"
   },
   "FieldProperties": {
     "fieldName": {
@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

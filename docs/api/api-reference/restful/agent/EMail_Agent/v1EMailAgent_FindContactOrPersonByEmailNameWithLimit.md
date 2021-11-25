@@ -1,9 +1,9 @@
 ---
-title: FindContactOrPersonByEmailNameWithLimit
+title: POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 id: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
 ---
 
-# FindContactOrPersonByEmailNameWithLimit
+# POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -83,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mueller-Collins",
-  "EmailAddress": "armani.doyle@reichertbotsford.us",
-  "NumberOfContacts": 846,
-  "NumberOfPersons": 689
+  "Name": "Champlin, Conroy and Bailey",
+  "EmailAddress": "eliseo@okeefe.info",
+  "NumberOfContacts": 954,
+  "NumberOfPersons": 266
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 604,
-    "FullName": "Felix Kerluke DVM",
-    "EmailAddress": "rosetta_towne@rennerstokes.uk",
-    "ContactId": 729,
-    "ContactName": "Mueller, Goyette and Wehner",
+    "PersonId": 671,
+    "FullName": "Raphael Price",
+    "EmailAddress": "jennings@graham.com",
+    "ContactId": 430,
+    "ContactName": "Smith, Denesik and Thiel",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Abshire, Bechtelar and Wilderman",
+    "SortName": "Bradtke, McGlynn and Torp",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "architect bricks-and-clicks niches"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldType": "System.String",
+        "FieldLength": 754
       }
     }
   }

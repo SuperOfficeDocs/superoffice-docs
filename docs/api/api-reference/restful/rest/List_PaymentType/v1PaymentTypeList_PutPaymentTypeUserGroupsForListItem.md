@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Murphy, Krajcik and Oberbrunner",
-    "ToolTip": "Dolorem consequatur.",
+    "Id": 130,
+    "Name": "O'Kon-Brekke",
+    "ToolTip": "Accusamus odit repudiandae reprehenderit minima alias illo.",
     "Deleted": true,
-    "Rank": 878,
-    "Type": "iste",
-    "ColorBlock": 363,
-    "IconHint": "dolore",
-    "Selected": true,
-    "LastChanged": "2015-12-30T15:05:43.5600799+01:00",
+    "Rank": 139,
+    "Type": "fugit",
+    "ColorBlock": 495,
+    "IconHint": "maiores",
+    "Selected": false,
+    "LastChanged": "2011-10-22T18:25:51.9422413+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Roberts, Hackett and Goodwin",
-        "ToolTip": "Corporis qui adipisci nisi.",
+        "Id": 525,
+        "Name": "Crist-Ebert",
+        "ToolTip": "Cum accusantium nihil voluptatem repellendus omnis.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "excepturi",
-        "ColorBlock": 141,
-        "IconHint": "expedita",
+        "Rank": 49,
+        "Type": "facilis",
+        "ColorBlock": 273,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "1998-07-31T15:05:43.5610799+02:00",
+        "LastChanged": "2009-11-28T18:25:51.9432418+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "molestias",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Helen Cassin"
+        "FullName": "Vita Conroy"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "est",
+    "ExtraInfo": "quae",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Heath Cummerata"
+    "FullName": "Leila Strosin"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Boehm Inc and Sons",
-    "ToolTip": "Ut eligendi error aut officia quas.",
-    "Deleted": true,
-    "Rank": 786,
-    "Type": "magni",
-    "ColorBlock": 4,
-    "IconHint": "alias",
+    "Id": 426,
+    "Name": "Kulas, Tromp and Towne",
+    "ToolTip": "Similique recusandae aut eos ut est.",
+    "Deleted": false,
+    "Rank": 70,
+    "Type": "nihil",
+    "ColorBlock": 906,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "1997-09-03T15:05:43.5620794+02:00",
+    "LastChanged": "2005-10-23T18:25:51.9442101+02:00",
     "ChildItems": [
       {
-        "Id": 960,
-        "Name": "Oberbrunner-Boyer",
-        "ToolTip": "Totam quia dolores quasi et est.",
-        "Deleted": false,
-        "Rank": 863,
-        "Type": "nihil",
-        "ColorBlock": 592,
-        "IconHint": "quod",
+        "Id": 627,
+        "Name": "Okuneva-Cronin",
+        "ToolTip": "Magni aliquid animi commodi et voluptatem.",
+        "Deleted": true,
+        "Rank": 285,
+        "Type": "molestiae",
+        "ColorBlock": 748,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1996-12-10T15:05:43.5620794+01:00",
+        "LastChanged": "2007-05-21T18:25:51.9452091+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "quidem",
+        "ExtraInfo": "maiores",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Leatha Purdy DDS",
+        "FullName": "Annamae Bergnaum",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 988
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "qui",
+    "ExtraInfo": "atque",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Emmanuel Bailey",
+    "FullName": "Carlos Morar",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 578
+        "FieldLength": 553
       }
     }
   }

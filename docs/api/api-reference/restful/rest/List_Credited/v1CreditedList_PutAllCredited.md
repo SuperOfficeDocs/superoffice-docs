@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Bradtke, Huel and Smitham",
-    "Tooltip": "culpa",
+    "Id": 836,
+    "Name": "Hackett-Kris",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "UdListDefinitionId": 622,
-    "Rank": 730
+    "UdListDefinitionId": 986,
+    "Rank": 717
   },
   {
-    "Id": 418,
-    "Name": "Bradtke, Huel and Smitham",
-    "Tooltip": "culpa",
+    "Id": 836,
+    "Name": "Hackett-Kris",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "UdListDefinitionId": 622,
-    "Rank": 730
+    "UdListDefinitionId": 986,
+    "Rank": 717
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Barrows, McClure and Kutch",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 150,
-    "Rank": 605,
+    "Id": 957,
+    "Name": "Gottlieb Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 815,
+    "Rank": 316,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

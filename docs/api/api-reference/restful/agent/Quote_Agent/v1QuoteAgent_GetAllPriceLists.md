@@ -1,9 +1,9 @@
 ---
-title: GetAllPriceLists
+title: POST Agents/Quote/GetAllPriceLists
 id: v1QuoteAgent_GetAllPriceLists
 ---
 
-# GetAllPriceLists
+# POST Agents/Quote/GetAllPriceLists
 
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceLists
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 928,
-  "Currency": "labore"
+  "QuoteConnectionId": 195,
+  "Currency": "voluptatum"
 }
 ```
 
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 6,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 141,
-    "Name": "Heller-Bergnaum",
-    "Description": "Cross-platform holistic architecture",
-    "Currency": "aut",
-    "CurrencyName": "Volkman-Heaney",
-    "ValidFrom": "2001-12-04T14:58:04.9714656+01:00",
-    "ValidTo": "2021-05-25T14:58:04.9714656+02:00",
-    "IsActive": false,
+    "PriceListId": 65,
+    "ERPPriceListKey": "molestiae",
+    "QuoteConnectionId": 144,
+    "Name": "Sipes, Murazik and Crooks",
+    "Description": "Phased logistical frame",
+    "Currency": "et",
+    "CurrencyName": "Crist-Paucek",
+    "ValidFrom": "2003-05-27T18:28:49.9441395+02:00",
+    "ValidTo": "2003-01-20T18:28:49.9441395+01:00",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

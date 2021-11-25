@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Bogan-Conroy",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 392,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 188,
+  "Name": "Jast-Dare",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 98,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "ea",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 369,
-  "Name": "Weber-Gibson",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 458,
+  "Id": 743,
+  "Name": "Sipes Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 82,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "benchmark granular initiatives"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 72
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveUserGroup
+title: POST Agents/User/SaveUserGroup
 id: v1UserAgent_SaveUserGroup
 ---
 
-# SaveUserGroup
+# POST Agents/User/SaveUserGroup
 
 ```http
 POST /api/v1/Agents/User/SaveUserGroup
@@ -85,16 +85,16 @@ Response body: object
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroup": {
-    "Value": "libero",
-    "Tooltip": "labore",
-    "Id": 629,
-    "Rank": 552,
-    "Deleted": false
+    "Value": "sit",
+    "Tooltip": "quis",
+    "Id": 288,
+    "Rank": 393,
+    "Deleted": true
   }
 }
 ```
@@ -104,23 +104,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "minus",
-  "Tooltip": "autem",
-  "Id": 995,
-  "Rank": 852,
+  "Value": "voluptas",
+  "Tooltip": "voluptate",
+  "Id": 713,
+  "Rank": 655,
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "productize impactful eyeballs"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "e-enable web-enabled methodologies"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

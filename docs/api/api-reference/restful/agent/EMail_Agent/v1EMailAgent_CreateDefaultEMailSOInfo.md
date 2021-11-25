@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailSOInfo
+title: POST Agents/EMail/CreateDefaultEMailSOInfo
 id: v1EMailAgent_CreateDefaultEMailSOInfo
 ---
 
-# CreateDefaultEMailSOInfo
+# POST Agents/EMail/CreateDefaultEMailSOInfo
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 14,
-  "AppointmentId": 546,
-  "ProjectId": 273,
-  "SaleId": 94,
+  "DocumentId": 194,
+  "AppointmentId": 106,
+  "ProjectId": 323,
+  "SaleId": 119,
   "Archived": false,
-  "ArchivedAt": "2015-12-10T14:58:04.1794601+01:00",
-  "ArchivedBy": 214,
-  "ArchivedDisplayName": "Hahn LLC",
+  "ArchivedAt": "2010-05-21T18:28:49.0889573+02:00",
+  "ArchivedBy": 671,
+  "ArchivedDisplayName": "Swaniawski LLC",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldLength": 608
     }
   }
 }

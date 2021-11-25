@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "Greenfelder, Schmeler and Reichert",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 828,
+  "Id": 611,
+  "Name": "Jacobi-O'Connell",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 173,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "odit",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "evolve strategic methodologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   },
   "_Links": {

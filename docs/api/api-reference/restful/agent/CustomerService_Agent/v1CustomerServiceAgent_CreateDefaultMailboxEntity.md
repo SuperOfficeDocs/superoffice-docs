@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultMailboxEntity
+title: POST Agents/CustomerService/CreateDefaultMailboxEntity
 id: v1CustomerServiceAgent_CreateDefaultMailboxEntity
 ---
 
-# CreateDefaultMailboxEntity
+# POST Agents/CustomerService/CreateDefaultMailboxEntity
 
 ```http
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -73,13 +73,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 221,
+  "MailInFilterId": 842,
   "ServerType": "Facebook",
-  "Address": "nemo",
-  "Username": "sit",
-  "Password": "possimus",
-  "Server": "sed",
-  "Port": 793,
+  "Address": "tenetur",
+  "Username": "ad",
+  "Password": "et",
+  "Server": "praesentium",
+  "Port": 344,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 212
     }
   }
 }

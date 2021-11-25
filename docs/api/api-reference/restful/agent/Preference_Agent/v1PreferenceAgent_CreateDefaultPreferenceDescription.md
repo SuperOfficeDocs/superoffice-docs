@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultPreferenceDescription
+title: POST Agents/Preference/CreateDefaultPreferenceDescription
 id: v1PreferenceAgent_CreateDefaultPreferenceDescription
 ---
 
-# CreateDefaultPreferenceDescription
+# POST Agents/Preference/CreateDefaultPreferenceDescription
 
 ```http
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 617,
-  "Section": "impedit",
-  "Key": "id",
-  "Name": "Jones, Treutel and Bogan",
+  "PrefDescId": 173,
+  "Section": "voluptatem",
+  "Key": "quaerat",
+  "Name": "Howe, Padberg and Turner",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persistent system-worthy paradigm",
-  "IsBuiltin": true,
-  "TableName": "Lang, O'Hara and Rohan",
-  "UserDefinedListId": 939,
-  "Rank": 999,
-  "SubGroup": "quaerat",
-  "MinLevel": 893,
-  "MaxValue": 300,
-  "MinValue": 230,
-  "RequiredLicense": "enim",
+  "Description": "Realigned secondary portal",
+  "IsBuiltin": false,
+  "TableName": "Littel Group",
+  "UserDefinedListId": 46,
+  "Rank": 735,
+  "SubGroup": "rerum",
+  "MinLevel": 726,
+  "MaxValue": 49,
+  "MinValue": 873,
+  "RequiredLicense": "vero",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

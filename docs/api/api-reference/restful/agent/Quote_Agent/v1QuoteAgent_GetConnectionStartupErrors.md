@@ -1,9 +1,9 @@
 ---
-title: GetConnectionStartupErrors
+title: POST Agents/Quote/GetConnectionStartupErrors
 id: v1QuoteAgent_GetConnectionStartupErrors
 ---
 
-# GetConnectionStartupErrors
+# POST Agents/Quote/GetConnectionStartupErrors
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectionStartupErrors
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetConnectionStartupErrors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,10 +77,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "IsOk": false,
-    "UserExplanation": "autem",
-    "TechExplanation": "aut",
-    "ErrorCode": "et",
+    "IsOk": true,
+    "UserExplanation": "mollitia",
+    "TechExplanation": "quod",
+    "ErrorCode": "ut",
     "Changes": {
       "AddedRecords": [
         {},
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     },
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldLength": 883
       }
     }
   }

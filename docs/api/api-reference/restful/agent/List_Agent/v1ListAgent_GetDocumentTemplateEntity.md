@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplateEntity
+title: POST Agents/List/GetDocumentTemplateEntity
 id: v1ListAgent_GetDocumentTemplateEntity
 ---
 
-# GetDocumentTemplateEntity
+# POST Agents/List/GetDocumentTemplateEntity
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=9
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=805
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -95,7 +95,7 @@ Response body: object
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -103,30 +103,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 558,
-  "Name": "Jacobs-Conroy",
-  "Tooltip": "quam",
-  "SaveInDb": 566,
-  "Filename": "voluptas",
-  "DefaultOref": "perferendis",
+  "DocumentTemplateId": 255,
+  "Name": "Heller-Ullrich",
+  "Tooltip": "enim",
+  "SaveInDb": 293,
+  "Filename": "ducimus",
+  "DefaultOref": "rem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 544,
-  "IntentId": 21,
+  "AutoeventId": 218,
+  "IntentId": 223,
   "IsDefaultPublished": true,
-  "Rank": 120,
-  "LoadTemplateFromPlugin": 701,
-  "MimeType": "voluptas",
+  "Rank": 179,
+  "LoadTemplateFromPlugin": 108,
+  "MimeType": "fugit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 94,
+  "DocumentTypeKey": 708,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "felipe@cummerata.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "ola@hintz.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sydnee@marvingoodwin.ca",
+  "SenderEmailAddress": "hilton@baumbach.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "monetize visionary vortals"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 954
     }
   }
 }

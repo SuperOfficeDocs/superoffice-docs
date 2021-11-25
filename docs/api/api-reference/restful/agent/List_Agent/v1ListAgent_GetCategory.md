@@ -1,9 +1,9 @@
 ---
-title: GetCategory
+title: POST Agents/List/GetCategory
 id: v1ListAgent_GetCategory
 ---
 
-# GetCategory
+# POST Agents/List/GetCategory
 
 ```http
 POST /api/v1/Agents/List/GetCategory
@@ -25,7 +25,7 @@ Gets a Category object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategory?categoryId=777
+POST /api/v1/Agents/List/GetCategory?categoryId=764
 POST /api/v1/Agents/List/GetCategory?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -77,21 +77,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Value": "magni",
-  "Tooltip": "aperiam",
+  "Id": 858,
+  "Value": "eos",
+  "Tooltip": "reiciendis",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "exploit transparent supply-chains"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "drive best-of-breed e-tailers"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldLength": 514
     }
   }
 }

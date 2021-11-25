@@ -1,9 +1,9 @@
 ---
-title: GetCategoryList
+title: POST Agents/List/GetCategoryList
 id: v1ListAgent_GetCategoryList
 ---
 
-# GetCategoryList
+# POST Agents/List/GetCategoryList
 
 ```http
 POST /api/v1/Agents/List/GetCategoryList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Value": "expedita",
-    "Tooltip": "corporis",
+    "Id": 397,
+    "Value": "error",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 283
       }
     }
   },
   {
-    "Id": 942,
-    "Value": "expedita",
-    "Tooltip": "corporis",
+    "Id": 397,
+    "Value": "error",
+    "Tooltip": "in",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 283
       }
     }
   }

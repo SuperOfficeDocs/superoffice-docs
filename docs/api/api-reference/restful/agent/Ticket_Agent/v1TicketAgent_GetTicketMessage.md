@@ -1,9 +1,9 @@
 ---
-title: GetTicketMessage
+title: POST Agents/Ticket/GetTicketMessage
 id: v1TicketAgent_GetTicketMessage
 ---
 
-# GetTicketMessage
+# POST Agents/Ticket/GetTicketMessage
 
 ```http
 POST /api/v1/Agents/Ticket/GetTicketMessage
@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=280
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=50
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 123,
-  "CreatedAt": "1997-07-24T14:58:05.4056257+02:00",
+  "TicketMessageId": 545,
+  "CreatedAt": "2018-03-14T18:28:50.3924156+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "et",
-  "PersonId": 211,
-  "PersonFullName": "Buford Beatty",
-  "ContactId": 190,
-  "ContactName": "Sanford LLC",
+  "Important": false,
+  "Author": "rerum",
+  "PersonId": 814,
+  "PersonFullName": "Loyce Legros",
+  "ContactId": 615,
+  "ContactName": "Schowalter Group",
   "ContactDepartment": "",
-  "NumAttachments": 997,
-  "EmailHeader": "mallory@doyle.biz",
+  "NumAttachments": 768,
+  "EmailHeader": "destiney@pacocha.ca",
   "MessageHeaders": [
     {
-      "Name": "Reynolds-Kling",
-      "Value": "impedit",
+      "Name": "Abshire, Cronin and Monahan",
+      "Value": "sit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldLength": 714
         }
       }
     },
     {
-      "Name": "Reynolds-Kling",
-      "Value": "impedit",
+      "Name": "Abshire, Cronin and Monahan",
+      "Value": "sit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldLength": 714
         }
       }
     }
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldLength": 674
     }
   }
 }

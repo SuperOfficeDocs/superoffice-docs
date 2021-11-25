@@ -1,9 +1,9 @@
 ---
-title: GetPreviewMailing
+title: POST Agents/Marketing/GetPreviewMailing
 id: v1MarketingAgent_GetPreviewMailing
 ---
 
-# GetPreviewMailing
+# POST Agents/Marketing/GetPreviewMailing
 
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailing
@@ -92,11 +92,11 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 521
+  "ShipmentAddrId": 159
 }
 ```
 
@@ -105,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2000-06-01T14:58:04.5004647+02:00",
+  "SendingTime": "1994-09-17T18:28:49.4690875+02:00",
   "Status": "Blocked",
-  "ShipmentId": 299,
-  "ShipmentDescription": "Triple-buffered motivating intranet",
-  "FromAddress": "dicta",
-  "ContactId": 29,
-  "ContactName": "Breitenberg Group",
-  "PersonId": 586,
-  "PersonFullName": "Carson Armstrong",
-  "ShipmentType": "eum",
-  "MessageId": 831,
-  "MessageSubject": "placeat",
-  "DocumentMessageId": 378,
-  "Opened": "2018-02-18T14:58:04.5004647+01:00",
-  "LinkClicks": 10,
+  "ShipmentId": 234,
+  "ShipmentDescription": "Seamless reciprocal forecast",
+  "FromAddress": "voluptas",
+  "ContactId": 440,
+  "ContactName": "Ritchie-Lynch",
+  "PersonId": 347,
+  "PersonFullName": "Adrain Donnelly",
+  "ShipmentType": "tempore",
+  "MessageId": 80,
+  "MessageSubject": "iure",
+  "DocumentMessageId": 599,
+  "Opened": "1998-03-18T18:28:49.4690875+01:00",
+  "LinkClicks": 744,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "scale collaborative technologies"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "embrace compelling systems"
       },
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

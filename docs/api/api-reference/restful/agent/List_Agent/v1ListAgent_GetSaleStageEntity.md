@@ -1,9 +1,9 @@
 ---
-title: GetSaleStageEntity
+title: POST Agents/List/GetSaleStageEntity
 id: v1ListAgent_GetSaleStageEntity
 ---
 
-# GetSaleStageEntity
+# POST Agents/List/GetSaleStageEntity
 
 ```http
 POST /api/v1/Agents/List/GetSaleStageEntity
@@ -25,7 +25,7 @@ Gets a SaleStageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=393
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=117
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/List/GetSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -84,12 +84,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 218,
-  "Value": "facilis",
-  "Tooltip": "est",
-  "Probability": 559,
+  "SaleStageId": 506,
+  "Value": "id",
+  "Tooltip": "eveniet",
+  "Probability": 880,
   "Deleted": false,
-  "Rank": 662,
+  "Rank": 853,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "synergize mission-critical users"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 927
     }
   }
 }

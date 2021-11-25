@@ -74,7 +74,7 @@ Response body: object
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "doloribus",
-  "Name": "Kuhlman, Russel and Predovic",
-  "Description": "Inverse web-enabled extranet",
-  "IncludeId": "sed",
-  "Source": "id",
-  "Registered": "1994-04-20T15:05:43.0828282+02:00",
-  "RegisteredBy": "ducimus",
-  "Updated": "2010-11-21T15:05:43.0828282+01:00",
-  "UpdatedBy": "doloremque",
-  "Path": "consequatur",
+  "UniqueIdentifier": "qui",
+  "Name": "Wiza, Satterfield and Doyle",
+  "Description": "Multi-tiered dynamic standardization",
+  "IncludeId": "nisi",
+  "Source": "facilis",
+  "Registered": "2005-09-01T18:25:51.4421182+02:00",
+  "RegisteredBy": "quibusdam",
+  "Updated": "2005-01-01T18:25:51.4421182+01:00",
+  "UpdatedBy": "voluptas",
+  "Path": "et",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "implement frictionless synergies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 799
     }
   }
 }

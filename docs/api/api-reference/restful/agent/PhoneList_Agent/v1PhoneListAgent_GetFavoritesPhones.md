@@ -1,9 +1,9 @@
 ---
-title: GetFavoritesPhones
+title: POST Agents/PhoneList/GetFavoritesPhones
 id: v1PhoneListAgent_GetFavoritesPhones
 ---
 
-# GetFavoritesPhones
+# POST Agents/PhoneList/GetFavoritesPhones
 
 ```http
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
@@ -73,7 +73,7 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,16 +82,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "001.083.3046 x7748",
-    "PersonCellPhone": "(376)486-1501",
-    "PersonPrivatePhone": "1-210-612-8441",
-    "PersonFaxNumber": "802690",
-    "PersonPagerNumber": "817940",
-    "PersonEmail": "marcelo.bayer@strosinmueller.com",
-    "Id": 249,
-    "Name": "Bradtke, Gerlach and Padberg",
-    "Tooltip": "dicta",
-    "UniqueId": "quos",
+    "PersonDirectPhone": "345.247.3046 x223",
+    "PersonCellPhone": "(733)754-7000 x74448",
+    "PersonPrivatePhone": "186-243-0547 x2330",
+    "PersonFaxNumber": "798996",
+    "PersonPagerNumber": "1070301",
+    "PersonEmail": "carey.turcotte@crona.us",
+    "Id": 424,
+    "Name": "Kerluke-Zulauf",
+    "Tooltip": "accusamus",
+    "UniqueId": "necessitatibus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "synergize bleeding-edge e-tailers"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

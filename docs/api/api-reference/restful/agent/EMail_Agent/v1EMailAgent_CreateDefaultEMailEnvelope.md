@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailEnvelope
+title: POST Agents/EMail/CreateDefaultEMailEnvelope
 id: v1EMailAgent_CreateDefaultEMailEnvelope
 ---
 
-# CreateDefaultEMailEnvelope
+# POST Agents/EMail/CreateDefaultEMailEnvelope
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 162,
-  "MessageId": "vel",
-  "Subject": "itaque",
+  "ServerId": 732,
+  "MessageId": "officiis",
+  "Subject": "ut",
   "From": {
-    "ContactId": 944,
-    "ContactName": "Farrell Inc and Sons",
-    "PersonId": 591,
-    "PersonName": "Roberts, Muller and Ratke",
-    "AssociateId": 424,
-    "Address": "tenetur",
-    "EmailId": 149,
+    "ContactId": 641,
+    "ContactName": "Price-Ebert",
+    "PersonId": 579,
+    "PersonName": "Schultz, Beatty and Lesch",
+    "AssociateId": 177,
+    "Address": "cupiditate",
+    "EmailId": 805,
     "DuplicatePersonIds": [
-      436,
-      641
+      67,
+      368
     ],
-    "Name": "Kohler LLC",
+    "Name": "Konopelski-Jacobson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 622
       }
     }
   },
   "To": [
     {
-      "ContactId": 709,
-      "ContactName": "McCullough Inc and Sons",
-      "PersonId": 574,
-      "PersonName": "Marvin Inc and Sons",
-      "AssociateId": 645,
-      "Address": "eos",
-      "EmailId": 296,
+      "ContactId": 553,
+      "ContactName": "Zemlak Inc and Sons",
+      "PersonId": 10,
+      "PersonName": "Towne Inc and Sons",
+      "AssociateId": 426,
+      "Address": "quaerat",
+      "EmailId": 891,
       "DuplicatePersonIds": [
-        380,
-        928
+        165,
+        10
       ],
-      "Name": "Jaskolski-Hickle",
+      "Name": "Green, Hagenes and Mann",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -129,24 +129,24 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 493
         }
       }
     }
   ],
-  "Sent": "2013-07-02T14:58:04.1794601+02:00",
+  "Sent": "2002-02-16T18:28:49.087957+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 459,
+  "Size": 739,
   "EMailSOInfo": {
-    "DocumentId": 269,
-    "AppointmentId": 798,
-    "ProjectId": 474,
-    "SaleId": 695,
-    "Archived": false,
-    "ArchivedAt": "2016-12-14T14:58:04.1794601+01:00",
-    "ArchivedBy": 596,
-    "ArchivedDisplayName": "Bartell-Johnston",
+    "DocumentId": 936,
+    "AppointmentId": 860,
+    "ProjectId": 262,
+    "SaleId": 957,
+    "Archived": true,
+    "ArchivedAt": "2008-09-08T18:28:49.087957+02:00",
+    "ArchivedBy": 155,
+    "ArchivedDisplayName": "Swaniawski LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldLength": 610
       }
     }
   },
@@ -167,10 +167,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "incentivize ubiquitous e-business"
       },
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 541
     }
   }
 }

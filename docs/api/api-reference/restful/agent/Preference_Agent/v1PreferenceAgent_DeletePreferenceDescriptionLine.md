@@ -1,9 +1,9 @@
 ---
-title: DeletePreferenceDescriptionLine
+title: POST Agents/Preference/DeletePreferenceDescriptionLine
 id: v1PreferenceAgent_DeletePreferenceDescriptionLine
 ---
 
-# DeletePreferenceDescriptionLine
+# POST Agents/Preference/DeletePreferenceDescriptionLine
 
 ```http
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine
@@ -24,7 +24,7 @@ Deletes the PreferenceDescriptionLine
 | PreferenceDescriptionLineId | int32 | **Required** The id of the PreferenceDescriptionLine to be deleted. |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=416
+POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=475
 ```
 
 

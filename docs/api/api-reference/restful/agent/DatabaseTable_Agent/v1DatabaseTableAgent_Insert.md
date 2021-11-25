@@ -1,9 +1,9 @@
 ---
-title: Insert
+title: POST Agents/DatabaseTable/Insert
 id: v1DatabaseTableAgent_Insert
 ---
 
-# Insert
+# POST Agents/DatabaseTable/Insert
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Insert
@@ -13,8 +13,12 @@ Mass-insert rows, with or without primary keys specified.
 
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
 
-> [!NOTE]
-> Must be a system user to perform this operation.
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 
@@ -84,14 +88,14 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schiller, Bashirian and Gusikowski",
+  "TableName": "Murray-Hauck",
   "Columns": [
-    "accusantium",
-    "sit"
+    "modi",
+    "sed"
   ],
   "Data": [
     [
@@ -110,17 +114,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "est",
-  "Inserts": 62,
-  "Updates": 630,
-  "Deletes": 522,
+  "Message": "recusandae",
+  "Inserts": 969,
+  "Updates": 81,
+  "Deletes": 505,
   "RowStatus": [
     {
-      "PrimaryKey": 181,
+      "PrimaryKey": 127,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "alias"
+        "odit",
+        "quas"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -130,16 +134,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldLength": 627
         }
       }
     },
     {
-      "PrimaryKey": 181,
+      "PrimaryKey": 127,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "alias"
+        "odit",
+        "quas"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -149,14 +153,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldLength": 627
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "facilitate web-enabled paradigms"
   },
   "FieldProperties": {
     "fieldName": {
@@ -164,8 +168,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 187
     }
   }
 }

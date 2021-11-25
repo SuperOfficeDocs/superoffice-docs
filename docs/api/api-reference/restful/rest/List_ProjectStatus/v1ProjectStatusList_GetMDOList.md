@@ -25,8 +25,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=aliquam
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=consectetur
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "D'Amore-Lockman",
-    "ToolTip": "Sunt eius sint et provident.",
-    "Deleted": true,
-    "Rank": 383,
-    "Type": "atque",
+    "Id": 118,
+    "Name": "Ullrich, Bruen and Harris",
+    "ToolTip": "Nihil dolores nostrum vel expedita.",
+    "Deleted": false,
+    "Rank": 203,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Gerhold-Hammes",
-        "ToolTip": "Temporibus est et dolores repudiandae.",
+        "Id": 634,
+        "Name": "Mraz-Fahey",
+        "ToolTip": "Occaecati omnis et.",
         "Deleted": false,
-        "Rank": 948,
-        "Type": "et",
+        "Rank": 264,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 424,
-        "ExtraInfo": "iste",
-        "StyleHint": "repudiandae",
-        "FullName": "Ludie Rath",
+        "IconHint": "totam",
+        "ColorBlock": 947,
+        "ExtraInfo": "et",
+        "StyleHint": "reprehenderit",
+        "FullName": "Shad Schinner",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 985
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 557,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "aut",
-    "FullName": "Helga Conn",
+    "IconHint": "eligendi",
+    "ColorBlock": 539,
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "FullName": "America Hartmann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

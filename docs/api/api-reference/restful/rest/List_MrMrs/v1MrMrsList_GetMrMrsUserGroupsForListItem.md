@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Lockman Group",
-    "ToolTip": "Quis vero et consequatur.",
-    "Deleted": true,
-    "Rank": 317,
-    "Type": "et",
-    "ColorBlock": 189,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2009-12-29T15:05:43.5250802+01:00",
+    "Id": 275,
+    "Name": "Leannon-Kling",
+    "ToolTip": "Fuga rerum.",
+    "Deleted": false,
+    "Rank": 731,
+    "Type": "doloremque",
+    "ColorBlock": 724,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2011-04-21T18:25:51.9102497+02:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Nitzsche Inc and Sons",
-        "ToolTip": "Repellat magnam vitae fugit.",
+        "Id": 13,
+        "Name": "Leannon LLC",
+        "ToolTip": "Asperiores commodi quaerat maiores.",
         "Deleted": true,
-        "Rank": 142,
-        "Type": "consequatur",
-        "ColorBlock": 176,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "2005-03-10T15:05:43.5250802+01:00",
+        "Rank": 248,
+        "Type": "voluptatibus",
+        "ColorBlock": 557,
+        "IconHint": "amet",
+        "Selected": true,
+        "LastChanged": "2017-03-01T18:25:51.9102497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Julius Aufderhar",
+        "ExtraInfo": "modi",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Megane Nicolas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Joan Wuckert",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Reva Halvorson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 912
       }
     }
   }

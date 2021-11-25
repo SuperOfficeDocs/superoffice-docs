@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Krajcik LLC",
-  "DisplayName": "Mueller-McClure",
-  "Description": "Synergized 24/7 matrix",
-  "ShortLabel": "et",
+  "FieldName": "Feest, Erdman and Schuppe",
+  "DisplayName": "Kuhic Group",
+  "Description": "Realigned multi-tasking ability",
+  "ShortLabel": "incidunt",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 46,
-  "TemplateVariableName": "D'Amore, Parker and Lueilwitz"
+  "Rank": 791,
+  "TemplateVariableName": "Ritchie, Miller and Schiller"
 }
 ```

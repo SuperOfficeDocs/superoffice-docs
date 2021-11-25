@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfosByAssociatesAndState
+title: POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 id: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
 ---
 
-# GetBatchTaskInfosByAssociatesAndState
+# POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
@@ -94,13 +94,13 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    172,
-    195
+    732,
+    11
   ],
   "State": "All"
 }
@@ -112,30 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Jenkins-Kemmer",
-    "AssociateId": 53,
-    "DetailsTable": 285,
-    "DetailsRecord": 878,
-    "IsSystemTask": false,
+    "Id": 416,
+    "Name": "Becker Group",
+    "AssociateId": 761,
+    "DetailsTable": 834,
+    "DetailsRecord": 614,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "eos",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "et",
+      "ParameterObject2": "dolores"
     },
-    "LastStarted": "2018-12-21T14:58:03.2752412+01:00",
-    "Created": "2012-04-27T14:58:03.2752412+02:00",
-    "StartCount": 535,
-    "DatabaseSerialNumber": "682428",
-    "Context": "quia",
-    "Result": "qui",
+    "LastStarted": "1998-04-17T18:28:48.147545+02:00",
+    "Created": "2006-08-23T18:28:48.147545+02:00",
+    "StartCount": 292,
+    "DatabaseSerialNumber": "809263",
+    "Context": "sit",
+    "Result": "enim",
     "State": "All",
-    "Description": "Implemented discrete time-frame",
-    "Response": "maxime",
-    "Request": "tempora",
-    "ProgressDescription": "Fundamental background synergy",
-    "ProgressPercent": 277,
-    "FileName": "Armstrong, Schaefer and Harber",
+    "Description": "Reduced demand-driven projection",
+    "Response": "quia",
+    "Request": "enim",
+    "ProgressDescription": "Exclusive client-server circuit",
+    "ProgressPercent": 310,
+    "FileName": "Yost-Gislason",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 204
       }
     }
   }

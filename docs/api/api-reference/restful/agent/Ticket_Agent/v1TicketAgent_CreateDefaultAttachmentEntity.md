@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultAttachmentEntity
+title: POST Agents/Ticket/CreateDefaultAttachmentEntity
 id: v1TicketAgent_CreateDefaultAttachmentEntity
 ---
 
-# CreateDefaultAttachmentEntity
+# POST Agents/Ticket/CreateDefaultAttachmentEntity
 
 ```http
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 498,
-  "Name": "Gerlach-Kuhlman",
-  "ContentType": "molestiae",
-  "AttSize": 953,
-  "InlineImage": false,
-  "ContentId": "quibusdam",
+  "AttachmentId": 857,
+  "Name": "Kemmer-Tillman",
+  "ContentType": "tempora",
+  "AttSize": 972,
+  "InlineImage": true,
+  "ContentId": "dolores",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: DeleteResourceEntity
+title: POST Agents/List/DeleteResourceEntity
 id: v1ListAgent_DeleteResourceEntity
 ---
 
-# DeleteResourceEntity
+# POST Agents/List/DeleteResourceEntity
 
 ```http
 POST /api/v1/Agents/List/DeleteResourceEntity
@@ -24,7 +24,7 @@ Deletes the ResourceEntity
 | ResourceEntityId | int32 | **Required** The id of the ResourceEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteResourceEntity?ResourceEntityId=597
+POST /api/v1/Agents/List/DeleteResourceEntity?ResourceEntityId=408
 ```
 
 

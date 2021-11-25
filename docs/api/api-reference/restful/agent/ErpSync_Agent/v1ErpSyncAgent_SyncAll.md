@@ -1,9 +1,9 @@
 ---
-title: SyncAll
+title: POST Agents/ErpSync/SyncAll
 id: v1ErpSyncAgent_SyncAll
 ---
 
-# SyncAll
+# POST Agents/ErpSync/SyncAll
 
 ```http
 POST /api/v1/Agents/ErpSync/SyncAll
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/SyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,9 +84,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "quia",
-  "TechExplanation": "sequi",
-  "ErrorCode": "magni",
+  "UserExplanation": "illum",
+  "TechExplanation": "ut",
+  "ErrorCode": "dolor",
   "Changes": {
     "AddedRecords": [
       {},
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 806
       }
     }
   },
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 596
     }
   }
 }

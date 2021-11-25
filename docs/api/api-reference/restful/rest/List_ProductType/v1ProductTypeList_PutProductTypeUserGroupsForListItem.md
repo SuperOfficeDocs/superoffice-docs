@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Sipes-Schimmel",
-    "ToolTip": "Illo mollitia excepturi aspernatur voluptas autem velit.",
-    "Deleted": false,
-    "Rank": 345,
-    "Type": "rerum",
-    "ColorBlock": 935,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "1995-07-12T15:05:43.646077+02:00",
+    "Id": 63,
+    "Name": "Runolfsson-Conroy",
+    "ToolTip": "Eos rerum.",
+    "Deleted": true,
+    "Rank": 991,
+    "Type": "quasi",
+    "ColorBlock": 441,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2010-06-13T18:25:52.0292124+02:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Hills-Monahan",
-        "ToolTip": "Veritatis commodi quibusdam.",
-        "Deleted": false,
-        "Rank": 749,
-        "Type": "quaerat",
-        "ColorBlock": 779,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "1996-12-03T15:05:43.646077+01:00",
+        "Id": 290,
+        "Name": "Cronin, Johnson and Quigley",
+        "ToolTip": "Praesentium eaque maiores unde.",
+        "Deleted": true,
+        "Rank": 560,
+        "Type": "in",
+        "ColorBlock": 534,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2015-01-04T18:25:52.0302124+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quis",
+        "ExtraInfo": "qui",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Talon Medhurst"
+        "FullName": "Lupe Kulas"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "delectus",
+    "ExtraInfo": "natus",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Jany Ratke"
+    "FullName": "Veda Schoen"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Bauch-Reilly",
-    "ToolTip": "Et iure possimus.",
+    "Id": 395,
+    "Name": "Koss LLC",
+    "ToolTip": "Quod aperiam minus ut omnis.",
     "Deleted": true,
-    "Rank": 442,
-    "Type": "laudantium",
-    "ColorBlock": 578,
-    "IconHint": "facere",
+    "Rank": 438,
+    "Type": "consequatur",
+    "ColorBlock": 215,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "1999-03-20T15:05:43.6511141+01:00",
+    "LastChanged": "2021-10-12T18:25:52.0322125+02:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Feeney-Pagac",
-        "ToolTip": "Nam esse tempora omnis non.",
-        "Deleted": false,
-        "Rank": 662,
-        "Type": "repellendus",
-        "ColorBlock": 331,
-        "IconHint": "fugiat",
+        "Id": 112,
+        "Name": "Cormier-Powlowski",
+        "ToolTip": "Quo distinctio eius et repudiandae culpa.",
+        "Deleted": true,
+        "Rank": 536,
+        "Type": "necessitatibus",
+        "ColorBlock": 144,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2016-03-02T15:05:43.6521152+01:00",
+        "LastChanged": "2013-07-05T18:25:52.0322125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "quis",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Miss Dakota West",
+        "FullName": "Dr. Nils Hahn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 759
+            "FieldType": "System.Int32",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Tad Stoltenberg",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Marcellus Wintheiser",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "mesh scalable technologies"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 752
       }
     }
   }

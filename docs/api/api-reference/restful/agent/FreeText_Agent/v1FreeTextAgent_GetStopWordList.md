@@ -1,9 +1,9 @@
 ---
-title: GetStopWordList
+title: POST Agents/FreeText/GetStopWordList
 id: v1FreeTextAgent_GetStopWordList
 ---
 
-# GetStopWordList
+# POST Agents/FreeText/GetStopWordList
 
 ```http
 POST /api/v1/Agents/FreeText/GetStopWordList
@@ -59,7 +59,7 @@ Response body: array
 POST /api/v1/Agents/FreeText/GetStopWordList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quae",
-  "inventore"
+  "omnis",
+  "tenetur"
 ]
 ```

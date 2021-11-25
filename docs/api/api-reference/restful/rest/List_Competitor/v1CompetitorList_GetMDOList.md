@@ -25,8 +25,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=commodi
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=nihil
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Reichel-Hyatt",
-    "ToolTip": "Ducimus quisquam quasi reprehenderit cupiditate officiis aliquam.",
-    "Deleted": true,
-    "Rank": 700,
-    "Type": "dolorem",
+    "Id": 224,
+    "Name": "Jenkins, Mante and Gutmann",
+    "ToolTip": "Consequatur sit non quod provident.",
+    "Deleted": false,
+    "Rank": 656,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Funk, Treutel and Bergstrom",
-        "ToolTip": "Ducimus facere quo nihil odit eaque aut.",
-        "Deleted": true,
-        "Rank": 39,
-        "Type": "velit",
+        "Id": 379,
+        "Name": "Herzog LLC",
+        "ToolTip": "Est ratione.",
+        "Deleted": false,
+        "Rank": 188,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 577,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "adipisci",
-        "FullName": "Nathaniel Will",
+        "IconHint": "qui",
+        "ColorBlock": 982,
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "FullName": "Brendan Okuneva",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 941
+            "FieldType": "System.Int32",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 418,
-    "ExtraInfo": "et",
-    "StyleHint": "a",
-    "FullName": "Mrs. Augustine Wisoky",
+    "IconHint": "et",
+    "ColorBlock": 664,
+    "ExtraInfo": "ad",
+    "StyleHint": "consectetur",
+    "FullName": "Salvador Grant DVM",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "harness cross-platform channels"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

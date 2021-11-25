@@ -79,7 +79,7 @@ Response body: object
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -87,12 +87,12 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 886,
-  "PrefDescId": 307,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "nam",
-  "Description": "Open-architected dynamic database",
-  "IsBuiltin": true,
+  "PrefDescLineId": 130,
+  "PrefDescId": 477,
+  "PrefValue": "culpa",
+  "PrefShowValue": "nostrum",
+  "Description": "Multi-lateral grid-enabled artificial intelligence",
+  "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -104,12 +104,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 520
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

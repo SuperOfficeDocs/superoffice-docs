@@ -1,9 +1,9 @@
 ---
-title: GetAmountClassEntity
+title: POST Agents/List/GetAmountClassEntity
 id: v1ListAgent_GetAmountClassEntity
 ---
 
-# GetAmountClassEntity
+# POST Agents/List/GetAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/GetAmountClassEntity
@@ -25,7 +25,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=38
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=813
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -82,17 +82,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 687,
-  "Name": "Lowe, Hettinger and Price",
-  "Tooltip": "modi",
-  "Rank": 670,
-  "AmountFrom": 27789.178,
-  "AmountTo": 30293.244,
+  "AmountClassId": 228,
+  "Name": "Ortiz-Gottlieb",
+  "Tooltip": "incidunt",
+  "Rank": 807,
+  "AmountFrom": 24175.676,
+  "AmountTo": 25714.469999999998,
   "Deleted": true,
-  "CurrencyId": 330,
+  "CurrencyId": 807,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "transform leading-edge platforms"
+    "Reason": "expedite enterprise synergies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 89
     }
   }
 }

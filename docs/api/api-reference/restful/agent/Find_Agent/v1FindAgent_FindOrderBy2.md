@@ -1,9 +1,9 @@
 ---
-title: FindOrderBy2
+title: POST Agents/Find/FindOrderBy2
 id: v1FindAgent_FindOrderBy2
 ---
 
-# FindOrderBy2
+# POST Agents/Find/FindOrderBy2
 
 ```http
 POST /api/v1/Agents/Find/FindOrderBy2
@@ -85,16 +85,16 @@ Response body: object
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Herman, Lockman and Johns",
-  "StorageKey": "sequi",
-  "PageSize": 948,
-  "PageNumber": 21,
-  "OrderBy": "voluptatem"
+  "StorageType": "vel",
+  "ProviderName": "Weber LLC",
+  "StorageKey": "tempora",
+  "PageSize": 386,
+  "PageNumber": 2,
+  "OrderBy": "magni"
 }
 ```
 
@@ -105,34 +105,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jacobs, Harber and Steuber",
-      "DisplayTooltip": "aut",
-      "DisplayType": "autem",
+      "DisplayName": "Raynor, Torp and Hermann",
+      "DisplayTooltip": "itaque",
+      "DisplayType": "ducimus",
       "CanOrderBy": true,
-      "Name": "Braun-Bogan",
-      "CanRestrictBy": true,
+      "Name": "Schimmel LLC",
+      "CanRestrictBy": false,
       "RestrictionType": "ut",
-      "RestrictionListName": "Runte-Mann",
+      "RestrictionListName": "Daniel-Grady",
       "IsVisible": false,
-      "ExtraInfo": "neque",
-      "Width": "magnam",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "sit",
+      "Width": "dolorem",
+      "IconHint": "atque",
+      "HeadingIconHint": "placeat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Goldner, Jast and Fisher",
-      "PrimaryKey": 268,
+      "EntityName": "Reichert, Gulgowski and Waters",
+      "PrimaryKey": 698,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odio",
-          "TooltipHint": "suscipit",
-          "LinkHint": "fuga"
+          "DisplayValue": "ut",
+          "TooltipHint": "minima",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "ipsa",
+      "LinkHint": "soluta",
+      "StyleHint": "nemo",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldType": "System.String",
+          "FieldLength": 599
         }
       }
     }
   ],
-  "RowCount": 381,
+  "RowCount": 507,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 71
     }
   }
 }

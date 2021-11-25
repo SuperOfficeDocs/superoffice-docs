@@ -1,9 +1,9 @@
 ---
-title: CreateTemporaryContactSelectionFromSelectionMemberIds
+title: POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 id: v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
 ---
 
-# CreateTemporaryContactSelectionFromSelectionMemberIds
+# POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
@@ -104,6 +104,7 @@ Response body: object
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -114,14 +115,14 @@ Response body: object
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 344,
+  "SelectionId": 14,
   "SelectionMemberIds": [
-    16,
-    599
+    252,
+    485
   ]
 }
 ```
@@ -131,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based client-driven collaboration",
-  "Postit": "quis",
+  "Description": "Organized heuristic ability",
+  "Postit": "facere",
   "Associate": {
-    "AssociateId": 308,
-    "Name": "Beatty, Ratke and Olson",
-    "PersonId": 505,
-    "Rank": 81,
-    "Tooltip": "voluptatem",
+    "AssociateId": 607,
+    "Name": "Klocko, Morissette and Shanahan",
+    "PersonId": 148,
+    "Rank": 21,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 845,
-    "FullName": "Erwin Turner",
-    "FormalName": "Christiansen Group",
+    "GroupIdx": 244,
+    "FullName": "Andreane Dare PhD",
+    "FormalName": "Fritsch Group",
     "Deleted": true,
-    "EjUserId": 804,
-    "UserName": "Nitzsche Inc and Sons",
+    "EjUserId": 470,
+    "UserName": "Berge-Greenfelder",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -154,23 +155,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 283
+        "FieldLength": 365
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 38,
-    "Name": "Zemlak, Ward and Schiller",
-    "PersonId": 264,
-    "Rank": 983,
-    "Tooltip": "amet",
+    "AssociateId": 122,
+    "Name": "Barton LLC",
+    "PersonId": 456,
+    "Rank": 635,
+    "Tooltip": "possimus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 107,
-    "FullName": "Maude Bernier",
-    "FormalName": "Fadel Group",
-    "Deleted": true,
-    "EjUserId": 354,
-    "UserName": "Torp LLC",
+    "GroupIdx": 335,
+    "FullName": "Kenya Hermiston",
+    "FormalName": "Cummerata LLC",
+    "Deleted": false,
+    "EjUserId": 735,
+    "UserName": "Abernathy, Kessler and McKenzie",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -179,90 +180,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldLength": 562
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 387,
-    "Name": "Rempel, Cassin and Schimmel",
-    "PersonId": 302,
-    "Rank": 802,
-    "Tooltip": "totam",
+    "AssociateId": 392,
+    "Name": "Lindgren LLC",
+    "PersonId": 30,
+    "Rank": 403,
+    "Tooltip": "dolor",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 137,
-    "FullName": "Zion McClure",
-    "FormalName": "Yost, Raynor and D'Amore",
-    "Deleted": true,
-    "EjUserId": 825,
-    "UserName": "Reynolds-Wisoky",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 399
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 847,
-    "Value": "libero",
-    "Tooltip": "et",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 168
-      }
-    }
-  },
-  "GroupIdx": 617,
-  "IncludePerson": 61,
-  "MemberCount": 147,
-  "Name": "Block, Haley and Mitchell",
-  "PostitTextId": 758,
-  "CreatedDate": "2019-03-25T14:58:05.32063+01:00",
-  "SelectionId": 356,
-  "SoundEx": "est",
-  "Source": 170,
-  "TextId": 901,
-  "UpdatedDate": "2003-11-09T14:58:05.32063+01:00",
-  "UpdatedCount": 236,
-  "Visibility": 166,
-  "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 655,
-  "TargetTableName": "Hagenes, Pfeffer and Willms",
-  "Completed": false,
-  "LeftSelectionId": 956,
-  "RightSelectionId": 985,
-  "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hartmann Inc and Sons",
-  "ShadowProviderName": "Prosacco Group",
-  "ChartKey": "distinctio",
-  "LastLoaded": "2020-12-15T14:58:05.3216288+01:00",
-  "LastLoadedBy": 222,
-  "LastLoadedByAssociate": {
-    "AssociateId": 746,
-    "Name": "Champlin Inc and Sons",
-    "PersonId": 330,
-    "Rank": 84,
-    "Tooltip": "fuga",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 498,
-    "FullName": "Mr. Louie Crist",
-    "FormalName": "Ernser, Hamill and Gutmann",
-    "Deleted": true,
-    "EjUserId": 186,
-    "UserName": "Casper, Harris and Schneider",
+    "GroupIdx": 642,
+    "FullName": "Ena Schaefer",
+    "FormalName": "Wisoky-Johnson",
+    "Deleted": false,
+    "EjUserId": 939,
+    "UserName": "Fadel, Boehm and Klein",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -271,25 +205,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 698
       }
     }
   },
-  "LastMembershipChange": "2019-10-25T14:58:05.3216288+02:00",
-  "LastMembershipChangeBy": 437,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 531,
-    "Name": "Ebert, Welch and Fay",
-    "PersonId": 645,
-    "Rank": 527,
-    "Tooltip": "voluptatibus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 430,
-    "FullName": "Dulce Kub",
-    "FormalName": "Welch, Predovic and Braun",
-    "Deleted": true,
-    "EjUserId": 482,
-    "UserName": "Bergstrom-Green",
+  "SelectionCategory": {
+    "Id": 530,
+    "Value": "et",
+    "Tooltip": "aliquam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -298,43 +221,122 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldLength": 245
       }
     }
   },
-  "MainHeading": "corrupti",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Luettgen-Fisher",
+  "GroupIdx": 954,
+  "IncludePerson": 214,
+  "MemberCount": 322,
+  "Name": "Waters LLC",
+  "PostitTextId": 577,
+  "CreatedDate": "2018-10-11T18:28:50.262442+02:00",
+  "SelectionId": 527,
+  "SoundEx": "in",
+  "Source": 948,
+  "TextId": 82,
+  "UpdatedDate": "2020-11-29T18:28:50.262442+01:00",
+  "UpdatedCount": 23,
+  "Visibility": 665,
+  "SelectionType": "Combined",
+  "CompanyUnique": true,
+  "TargetTableNumber": 436,
+  "TargetTableName": "Weber-Pollich",
+  "Completed": true,
+  "LeftSelectionId": 246,
+  "RightSelectionId": 334,
+  "SelectionUnionType": "Intersect",
+  "MainProviderName": "Stokes-Hills",
+  "ShadowProviderName": "Cruickshank-Keeling",
+  "ChartKey": "commodi",
+  "LastLoaded": "2021-07-05T18:28:50.262442+02:00",
+  "LastLoadedBy": 210,
+  "LastLoadedByAssociate": {
+    "AssociateId": 608,
+    "Name": "Yost-Swaniawski",
+    "PersonId": 510,
+    "Rank": 343,
+    "Tooltip": "tempore",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 752,
+    "FullName": "Khalil Tromp",
+    "FormalName": "Dach, Gutkowski and Kirlin",
+    "Deleted": true,
+    "EjUserId": 310,
+    "UserName": "Brakus Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 717
+      }
+    }
+  },
+  "LastMembershipChange": "2001-07-07T18:28:50.2644119+02:00",
+  "LastMembershipChangeBy": 140,
+  "LastMembershipChangeByAssociate": {
+    "AssociateId": 597,
+    "Name": "Becker Group",
+    "PersonId": 23,
+    "Rank": 815,
+    "Tooltip": "qui",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 564,
+    "FullName": "Laurel Runte",
+    "FormalName": "Jones-McClure",
+    "Deleted": true,
+    "EjUserId": 37,
+    "UserName": "Kutch, Emard and Stoltenberg",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 754
+      }
+    }
+  },
+  "MainHeading": "provident",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Schiller LLC",
+  "DashboardTileDefinitionId": 785,
   "VisibleFor": [
     {
-      "VisibleId": 968,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "minus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "engineer synergistic metrics"
           },
           "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldLength": 451
         }
       }
     },
     {
-      "VisibleId": 968,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "minus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "engineer synergistic metrics"
           },
           "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldLength": 451
         }
       }
     }
@@ -349,8 +351,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

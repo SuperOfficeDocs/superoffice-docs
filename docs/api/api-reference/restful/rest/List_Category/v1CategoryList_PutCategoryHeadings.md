@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 506,
-    "Name": "Denesik, Runte and Murazik",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 41
+    "HeadingId": 480,
+    "Name": "Kuhn, Kuhn and Nolan",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 629,
+    "UdListDefinitionId": 406
   },
   {
-    "HeadingId": 506,
-    "Name": "Denesik, Runte and Murazik",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 41
+    "HeadingId": 480,
+    "Name": "Kuhn, Kuhn and Nolan",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 629,
+    "UdListDefinitionId": 406
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 561,
-    "Name": "Runolfsson-Smith",
-    "Tooltip": "sint",
+    "HeadingId": 889,
+    "Name": "Denesik-Romaguera",
+    "Tooltip": "commodi",
     "Deleted": true,
-    "Rank": 353,
-    "UdListDefinitionId": 502,
+    "Rank": 986,
+    "UdListDefinitionId": 680,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 858
       }
     }
   }

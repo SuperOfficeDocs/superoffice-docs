@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 426,
-  "Name": "Miller, Goyette and Luettgen",
-  "Tooltip": "eaque",
+  "HeadingId": 44,
+  "Name": "Ruecker, Hane and Hartmann",
+  "Tooltip": "perferendis",
   "Deleted": true,
-  "Rank": 201,
-  "UdListDefinitionId": 37
+  "Rank": 416,
+  "UdListDefinitionId": 823
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 394,
-  "Name": "Pfannerstill, Kuhlman and Schaden",
-  "Tooltip": "deleniti",
+  "HeadingId": 910,
+  "Name": "Deckow Inc and Sons",
+  "Tooltip": "excepturi",
   "Deleted": true,
-  "Rank": 381,
-  "UdListDefinitionId": 127,
+  "Rank": 68,
+  "UdListDefinitionId": 952,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 315
     }
   }
 }

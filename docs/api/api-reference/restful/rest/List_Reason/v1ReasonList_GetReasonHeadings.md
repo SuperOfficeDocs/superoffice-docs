@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 704,
-    "Name": "Hilpert Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 699,
-    "UdListDefinitionId": 719,
+    "HeadingId": 458,
+    "Name": "Bechtelar-Haley",
+    "Tooltip": "praesentium",
+    "Deleted": false,
+    "Rank": 213,
+    "UdListDefinitionId": 465,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

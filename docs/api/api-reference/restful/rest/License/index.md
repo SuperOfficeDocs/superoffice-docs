@@ -2,8 +2,6 @@
 title: License
 ---
 
-# License
-
 ```http
 /api/v1/License
 ```

@@ -2676,15 +2676,15 @@ items:
   href: TriggerScript/index.md
   items:
   - name: DEL TriggerScript/{id}
-    href: TriggerScript/v1TriggerScriptEntity_DeleteTriggerScriptByUniqueId.md
-  - name: DEL TriggerScript/{id}
     href: TriggerScript/v1TriggerScriptEntity_DeleteTriggerScriptEntity.md
+  - name: DEL TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_DeleteTriggerScriptByUniqueId.md
   - name: GET TriggerScript
     href: TriggerScript/v1TriggerScriptEntity_GetAll.md
   - name: GET TriggerScript/{id}
-    href: TriggerScript/v1TriggerScriptEntity_GetTriggerScriptByUniqueId.md
-  - name: GET TriggerScript/{id}
     href: TriggerScript/v1TriggerScriptEntity_GetTriggerScriptEntity.md
+  - name: GET TriggerScript/{id}
+    href: TriggerScript/v1TriggerScriptEntity_GetTriggerScriptByUniqueId.md
   - name: GET TriggerScript/{id}/Validate
     href: TriggerScript/v1TriggerScriptEntity_ValidateTriggerScript.md
   - name: GET TriggerScript/{id}/Validate

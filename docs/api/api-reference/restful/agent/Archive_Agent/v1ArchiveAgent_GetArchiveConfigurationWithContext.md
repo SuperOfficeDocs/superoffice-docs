@@ -1,9 +1,9 @@
 ---
-title: GetArchiveConfigurationWithContext
+title: POST Agents/Archive/GetArchiveConfigurationWithContext
 id: v1ArchiveAgent_GetArchiveConfigurationWithContext
 ---
 
-# GetArchiveConfigurationWithContext
+# POST Agents/Archive/GetArchiveConfigurationWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bailey, Dicki and Schmitt",
-  "ProviderName": "Conn, Hirthe and Kuhic",
-  "Context": "beatae"
+  "GuiName": "Thompson Group",
+  "ProviderName": "Bartoletti, Simonis and Fay",
+  "Context": "accusantium"
 }
 ```
 
@@ -100,41 +100,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Lesch-Wehner",
-      "DisplayTooltip": "autem",
-      "DisplayType": "est",
+      "DisplayName": "Walsh LLC",
+      "DisplayTooltip": "et",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Block-Weissnat",
+      "Name": "Braun-Feest",
       "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Gleason Inc and Sons",
+      "RestrictionType": "saepe",
+      "RestrictionListName": "Schaden-Effertz",
       "IsVisible": false,
-      "ExtraInfo": "excepturi",
-      "Width": "unde",
-      "IconHint": "quidem",
-      "HeadingIconHint": "libero"
+      "ExtraInfo": "et",
+      "Width": "quaerat",
+      "IconHint": "quia",
+      "HeadingIconHint": "quis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 858,
-      "Name": "Hintz Inc and Sons",
-      "ToolTip": "Maxime quasi aut id dolorem.",
+      "Id": 393,
+      "Name": "Buckridge-Mueller",
+      "ToolTip": "Eos nihil quod ea.",
       "Deleted": false,
-      "Rank": 978,
-      "Type": "sed",
-      "ColorBlock": 640,
-      "IconHint": "odio",
+      "Rank": 143,
+      "Type": "doloremque",
+      "ColorBlock": 799,
+      "IconHint": "provident",
       "Selected": true,
-      "LastChanged": "2001-05-03T14:58:03.2235681+02:00",
+      "LastChanged": "2020-07-10T18:28:48.0948495+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Daniella Satterfield",
+      "ExtraInfo": "quidem",
+      "StyleHint": "eos",
+      "Hidden": false,
+      "FullName": "Catherine Hickle",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -143,22 +143,22 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 46
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mann Group",
+      "Name": "Funk-Pfeffer",
       "Direction": "ASC"
     },
     {
-      "Name": "Mann Group",
+      "Name": "Funk-Pfeffer",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "quas",
+  "OwnerKeys": "voluptate",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldLength": 41
     }
   }
 }

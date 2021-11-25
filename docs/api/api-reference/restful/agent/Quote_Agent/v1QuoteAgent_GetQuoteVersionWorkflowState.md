@@ -1,9 +1,9 @@
 ---
-title: GetQuoteVersionWorkflowState
+title: POST Agents/Quote/GetQuoteVersionWorkflowState
 id: v1QuoteAgent_GetQuoteVersionWorkflowState
 ---
 
-# GetQuoteVersionWorkflowState
+# POST Agents/Quote/GetQuoteVersionWorkflowState
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 55,
-  "QuoteAlternativeId": 105
+  "QuoteVersionId": 84,
+  "QuoteAlternativeId": 318
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "id",
-      "DisplayText": "nobis",
-      "TooltipText": "eaque",
+      "ImageHint": "aut",
+      "DisplayText": "assumenda",
+      "TooltipText": "iure",
       "Enabled": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "generate next-generation e-markets"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldLength": 896
         }
       }
     }
   ],
   "StateImage": {
     "Action": "Approve",
-    "ImageHint": "sunt",
-    "DisplayText": "amet",
-    "TooltipText": "nisi",
-    "Enabled": true,
+    "ImageHint": "omnis",
+    "DisplayText": "sed",
+    "TooltipText": "rerum",
+    "Enabled": false,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,34 +129,34 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   },
   "UpdatePricesButton": {
     "Action": "Approve",
-    "ImageHint": "velit",
-    "DisplayText": "ipsum",
-    "TooltipText": "et",
-    "Enabled": true,
+    "ImageHint": "dolore",
+    "DisplayText": "optio",
+    "TooltipText": "aut",
+    "Enabled": false,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transform mission-critical experiences"
         },
         "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldLength": 439
       }
     }
   },
   "Status": {
     "Status": "Error",
-    "IconHint": "qui",
-    "DisplayMessage": "maxime",
-    "DisplayTooltip": "sunt",
+    "IconHint": "rem",
+    "DisplayMessage": "tempore",
+    "DisplayTooltip": "consectetur",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 578
+        "FieldLength": 796
       }
     }
   },
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 876
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetArea
+title: POST Agents/Replication/GetArea
 id: v1ReplicationAgent_GetArea
 ---
 
-# GetArea
+# POST Agents/Replication/GetArea
 
 ```http
 POST /api/v1/Agents/Replication/GetArea
@@ -27,7 +27,7 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=278
+POST /api/v1/Agents/Replication/GetArea?areaId=714
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ Response body: object
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,12 +82,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 714,
-  "Name": "Breitenberg-Rodriguez",
-  "MaxDataAge": 937,
-  "NumberOfUsers": 590,
-  "NumberOfLogins": 346,
-  "FreetextEnabeled": true,
+  "AreaId": 861,
+  "Name": "Bahringer-Rodriguez",
+  "MaxDataAge": 736,
+  "NumberOfUsers": 888,
+  "NumberOfLogins": 335,
+  "FreetextEnabeled": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldLength": 663
     }
   }
 }

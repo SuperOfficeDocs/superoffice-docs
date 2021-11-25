@@ -1,9 +1,9 @@
 ---
-title: ValidateScript
+title: POST Agents/CRMScript/ValidateScript
 id: v1CRMScriptAgent_ValidateScript
 ---
 
-# ValidateScript
+# POST Agents/CRMScript/ValidateScript
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScript
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 752
+  "CRMScriptId": 660
 }
 ```
 
@@ -95,8 +95,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "consequatur",
+  "Valid": true,
+  "ErrorMessage": "soluta",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 363
     }
   }
 }

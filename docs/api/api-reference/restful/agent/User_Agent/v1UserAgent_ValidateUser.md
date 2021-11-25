@@ -1,9 +1,9 @@
 ---
-title: ValidateUser
+title: POST Agents/User/ValidateUser
 id: v1UserAgent_ValidateUser
 ---
 
-# ValidateUser
+# POST Agents/User/ValidateUser
 
 ```http
 POST /api/v1/Agents/User/ValidateUser
@@ -75,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 279,
-    "Name": "Adams Group",
-    "Rank": 868,
-    "Tooltip": "et",
+    "AssociateId": 480,
+    "Name": "Sipes, Doyle and Kutch",
+    "Rank": 719,
+    "Tooltip": "dolorem",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2012-08-17T14:58:05.4246231+02:00",
-    "Lastlogout": "2001-01-11T14:58:05.4246231+01:00",
-    "EjUserId": 574,
-    "RequestSignature": "qui",
+    "Lastlogin": "2020-07-30T18:28:50.4244121+02:00",
+    "Lastlogout": "2021-01-14T18:28:50.4244121+01:00",
+    "EjUserId": 969,
+    "RequestSignature": "atque",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Schultz-Stanton",
+    "UserName": "Smitham LLC",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Ratke Group",
+    "NickName": "Rutherford, Stoltenberg and Robel",
     "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "autem"
+      "ExtraFields1": "rerum",
+      "ExtraFields2": "porro"
     },
     "CustomFields": {
-      "CustomFields1": "cumque",
-      "CustomFields2": "at"
+      "CustomFields1": "iste",
+      "CustomFields2": "accusamus"
     },
     "PostSaveCommands": [
       {},
@@ -130,7 +130,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "velit",
-  "2": "in"
+  "1": "quo",
+  "2": "sed"
 }
 ```

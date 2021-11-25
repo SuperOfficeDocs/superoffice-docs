@@ -1,9 +1,9 @@
 ---
-title: GetProjectEventsOnPerson
+title: POST Agents/Project/GetProjectEventsOnPerson
 id: v1ProjectAgent_GetProjectEventsOnPerson
 ---
 
-# GetProjectEventsOnPerson
+# POST Agents/Project/GetProjectEventsOnPerson
 
 ```http
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
@@ -94,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 22
+  "PersonId": 683
 }
 ```
 
@@ -108,28 +108,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Benny Bins",
-    "Description": "Cross-group full-range migration",
-    "ProjectId": 158,
-    "EventName": "Robel LLC",
-    "AssociateId": 125,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "perspiciatis",
-    "SignOffText": "et",
-    "SignOnConfirmationText": "accusantium",
-    "SignOnText": "qui",
-    "EventDate": "2008-07-14T14:58:04.8544603+02:00",
+    "AssociateFullName": "Ms. Isai Cormier",
+    "Description": "Synergized responsive open architecture",
+    "ProjectId": 84,
+    "EventName": "Nolan, Shields and Johns",
+    "AssociateId": 536,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "odio",
+    "SignOffText": "velit",
+    "SignOnConfirmationText": "nihil",
+    "SignOnText": "mollitia",
+    "EventDate": "2010-06-22T18:28:49.778139+02:00",
     "Enabled": true,
-    "SignOff": true,
+    "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": true,
-    "SignOn": true,
-    "SignOffTaskId": 338,
-    "SignOnTaskId": 115,
-    "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 61,
-    "SignOffPersonId": 246,
+    "SignOn": false,
+    "SignOffTaskId": 943,
+    "SignOnTaskId": 4,
+    "SignOffTriggersAssign": false,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 40,
+    "SignOffPersonId": 913,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 939
       }
     }
   }

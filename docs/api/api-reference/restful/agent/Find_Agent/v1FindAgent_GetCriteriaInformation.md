@@ -1,9 +1,9 @@
 ---
-title: GetCriteriaInformation
+title: POST Agents/Find/GetCriteriaInformation
 id: v1FindAgent_GetCriteriaInformation
 ---
 
-# GetCriteriaInformation
+# POST Agents/Find/GetCriteriaInformation
 
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformation
@@ -84,16 +84,16 @@ Response body: object
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iusto",
-  "ProviderName": "Schimmel-McGlynn",
-  "StorageKey": "dolor",
+  "StorageType": "enim",
+  "ProviderName": "Gibson-Swaniawski",
+  "StorageKey": "voluptatum",
   "StaticColumns": [
-    "ut",
-    "dolore"
+    "expedita",
+    "soluta"
   ]
 }
 ```
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Harris Inc and Sons",
-      "Operator": "eum",
+      "Name": "Watsica-Renner",
+      "Operator": "qui",
       "Values": [
-        "delectus",
-        "et"
+        "incidunt",
+        "at"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "nesciunt"
+        "dicta",
+        "distinctio"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -121,41 +121,41 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 577,
+      "InterParenthesis": 343,
       "InterOperator": "And",
-      "UniqueHash": 642
+      "UniqueHash": 108
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wuckert, Pouros and Walker",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "tenetur",
-      "CanOrderBy": true,
-      "Name": "Feil-Goyette",
+      "DisplayName": "Bergnaum, D'Amore and McCullough",
+      "DisplayTooltip": "fugiat",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Ratke-Kulas",
       "CanRestrictBy": true,
-      "RestrictionType": "beatae",
-      "RestrictionListName": "Jast-Hodkiewicz",
-      "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "est",
-      "IconHint": "ex",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "et",
+      "RestrictionListName": "Ebert-Deckow",
+      "IsVisible": true,
+      "ExtraInfo": "rerum",
+      "Width": "suscipit",
+      "IconHint": "ut",
+      "HeadingIconHint": "distinctio"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Johnson-Klocko",
-      "PrimaryKey": 800,
+      "EntityName": "Stanton-Cole",
+      "PrimaryKey": 459,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestias",
-          "TooltipHint": "eligendi",
-          "LinkHint": "ut"
+          "DisplayValue": "iste",
+          "TooltipHint": "qui",
+          "LinkHint": "incidunt"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "eaque",
+      "LinkHint": "et",
+      "StyleHint": "qui",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -163,26 +163,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 732
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bechtelar Inc and Sons",
-      "Description": "Implemented static portal",
-      "Rank": 411,
+      "Name": "Konopelski LLC",
+      "Description": "Face to face zero defect hierarchy",
+      "Rank": 540,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bechtelar Inc and Sons",
-      "Description": "Implemented static portal",
-      "Rank": 411,
+      "Name": "Konopelski LLC",
+      "Description": "Face to face zero defect hierarchy",
+      "Rank": 540,
       "Restrictions": [
         {},
         {}
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 91
     }
   }
 }

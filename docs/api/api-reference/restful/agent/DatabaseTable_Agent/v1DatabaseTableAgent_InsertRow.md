@@ -1,9 +1,9 @@
 ---
-title: InsertRow
+title: POST Agents/DatabaseTable/InsertRow
 id: v1DatabaseTableAgent_InsertRow
 ---
 
-# InsertRow
+# POST Agents/DatabaseTable/InsertRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/InsertRow
@@ -11,8 +11,13 @@ POST /api/v1/Agents/DatabaseTable/InsertRow
 
 Insert a row into a table
 
-> [!NOTE]
-> Must have function right admin-all or cs-listextratablecontent.
+
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 
@@ -70,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn-Emard",
+  "TableName": "Turner, Roob and Homenick",
   "Values": {
-    "Values1": "qui",
-    "Values2": "amet"
+    "Values1": "voluptas",
+    "Values2": "eaque"
   }
 }
 ```
@@ -82,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-712
+644
 ```

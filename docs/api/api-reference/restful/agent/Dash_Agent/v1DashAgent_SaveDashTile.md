@@ -1,9 +1,9 @@
 ---
-title: SaveDashTile
+title: POST Agents/Dash/SaveDashTile
 id: v1DashAgent_SaveDashTile
 ---
 
-# SaveDashTile
+# POST Agents/Dash/SaveDashTile
 
 ```http
 POST /api/v1/Agents/Dash/SaveDashTile
@@ -78,34 +78,34 @@ Response body: object
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 980,
-  "DashboardId": 520,
-  "Height": 993,
-  "Width": 852,
-  "Rank": 494,
+  "DashboardTileId": 327,
+  "DashboardId": 178,
+  "Height": 413,
+  "Width": 680,
+  "Rank": 245,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 325,
-    "Name": "Nolan Group",
-    "Description": "Digitized cohesive approach",
-    "DefaultHeight": 885,
-    "DefaultWidth": 837,
+    "DashboardTileDefinitionId": 961,
+    "Name": "Mayert-Schiller",
+    "Description": "Networked 6th generation architecture",
+    "DefaultHeight": 389,
+    "DefaultWidth": 673,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Kihn-Stoltenberg",
-    "SelectionId": 590,
+    "EntityName": "Waelchi, Huel and Bauch",
+    "SelectionId": 702,
     "CurrencyMode": "Base",
-    "CurrencyId": 514,
+    "CurrencyCode": "soluta",
     "Measure": "Average",
-    "MeasureField": "qui",
-    "SortBy": "necessitatibus",
-    "LayoutConfig": "dolorem",
-    "SecondarySelectionId": 814,
-    "MeasureByField": "sit",
-    "ProviderName": "Tromp-Moen"
+    "MeasureField": "sit",
+    "SortBy": "repudiandae",
+    "LayoutConfig": "corporis",
+    "SecondarySelectionId": 612,
+    "MeasureByField": "sed",
+    "ProviderName": "Witting-Conn"
   }
 }
 ```
@@ -115,30 +115,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 91,
-  "DashboardId": 733,
-  "Height": 903,
-  "Width": 202,
-  "Rank": 852,
+  "DashboardTileId": 54,
+  "DashboardId": 509,
+  "Height": 450,
+  "Width": 591,
+  "Rank": 114,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 33,
-    "Name": "Lowe, Connelly and Beier",
-    "Description": "Seamless bifurcated benchmark",
-    "DefaultHeight": 438,
-    "DefaultWidth": 811,
+    "DashboardTileDefinitionId": 219,
+    "Name": "Pfannerstill LLC",
+    "Description": "Re-contextualized optimal standardization",
+    "DefaultHeight": 530,
+    "DefaultWidth": 552,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Lueilwitz, Maggio and Nicolas",
-    "SelectionId": 573,
+    "EntityName": "Kunde-Fritsch",
+    "SelectionId": 20,
     "CurrencyMode": "Base",
-    "CurrencyId": 352,
+    "CurrencyCode": "ea",
     "Measure": "Average",
-    "MeasureField": "nemo",
-    "SortBy": "numquam",
-    "LayoutConfig": "dicta",
-    "SecondarySelectionId": 688,
-    "MeasureByField": "et",
-    "ProviderName": "Altenwerth-Mayer",
+    "MeasureField": "fuga",
+    "SortBy": "veniam",
+    "LayoutConfig": "accusantium",
+    "SecondarySelectionId": 494,
+    "MeasureByField": "aut",
+    "ProviderName": "Moore, Emard and Ritchie",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -147,13 +147,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldLength": 2
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "generate innovative initiatives"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 963
     }
   }
 }

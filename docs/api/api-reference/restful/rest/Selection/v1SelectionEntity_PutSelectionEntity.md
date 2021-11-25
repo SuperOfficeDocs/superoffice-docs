@@ -91,6 +91,7 @@ The SelectionEntity to be saved.
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
 
@@ -150,6 +151,7 @@ Response body: object
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -161,128 +163,129 @@ Response body: object
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible cohesive focus group",
-  "Postit": "quia",
+  "Description": "Persistent solution-oriented circuit",
+  "Postit": "ipsum",
   "Associate": {
-    "AssociateId": 896,
-    "Name": "Mann, Hermann and Jacobi",
-    "PersonId": 470,
-    "Rank": 570,
-    "Tooltip": "et",
+    "AssociateId": 899,
+    "Name": "Friesen, Parker and Welch",
+    "PersonId": 610,
+    "Rank": 462,
+    "Tooltip": "ratione",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 135,
-    "FullName": "Johann Buckridge",
-    "FormalName": "Durgan-Spinka",
+    "GroupIdx": 148,
+    "FullName": "Joan Schaden",
+    "FormalName": "Koss Group",
     "Deleted": true,
-    "EjUserId": 360,
-    "UserName": "Blanda LLC"
+    "EjUserId": 929,
+    "UserName": "Weissnat-Bayer"
   },
   "CreatedBy": {
-    "AssociateId": 806,
-    "Name": "Lehner-Wuckert",
-    "PersonId": 918,
-    "Rank": 483,
-    "Tooltip": "possimus",
+    "AssociateId": 601,
+    "Name": "Dibbert-O'Connell",
+    "PersonId": 207,
+    "Rank": 763,
+    "Tooltip": "commodi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 163,
-    "FullName": "Rebeka Hartmann",
-    "FormalName": "Wyman-Kiehn",
-    "Deleted": false,
-    "EjUserId": 170,
-    "UserName": "Luettgen, Graham and Gutmann"
+    "GroupIdx": 247,
+    "FullName": "Arvilla Bauch III",
+    "FormalName": "Kub-VonRueden",
+    "Deleted": true,
+    "EjUserId": 669,
+    "UserName": "Wiegand-Gutkowski"
   },
   "UpdatedBy": {
-    "AssociateId": 878,
-    "Name": "Berge-Jones",
-    "PersonId": 328,
-    "Rank": 497,
-    "Tooltip": "a",
+    "AssociateId": 846,
+    "Name": "Nitzsche, Gerlach and Gulgowski",
+    "PersonId": 274,
+    "Rank": 627,
+    "Tooltip": "dolore",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 745,
-    "FullName": "Kayleigh Wolf Jr.",
-    "FormalName": "Johnson, Lowe and Bogisich",
-    "Deleted": true,
-    "EjUserId": 742,
-    "UserName": "Witting, Bode and Pollich"
+    "GroupIdx": 231,
+    "FullName": "Erika Mraz",
+    "FormalName": "Greenholt-Jacobs",
+    "Deleted": false,
+    "EjUserId": 734,
+    "UserName": "Zemlak, Turcotte and Cummings"
   },
   "SelectionCategory": {
-    "Id": 782,
-    "Value": "modi",
-    "Tooltip": "quaerat"
+    "Id": 419,
+    "Value": "aut",
+    "Tooltip": "atque"
   },
-  "GroupIdx": 191,
-  "IncludePerson": 404,
-  "MemberCount": 518,
-  "Name": "Kunze Group",
-  "PostitTextId": 935,
-  "CreatedDate": "1996-07-15T15:05:42.7376673+02:00",
-  "SelectionId": 492,
-  "SoundEx": "consequatur",
-  "Source": 503,
-  "TextId": 782,
-  "UpdatedDate": "2016-11-22T15:05:42.7376673+01:00",
-  "UpdatedCount": 886,
-  "Visibility": 690,
+  "GroupIdx": 458,
+  "IncludePerson": 455,
+  "MemberCount": 863,
+  "Name": "Boyer-Grimes",
+  "PostitTextId": 787,
+  "CreatedDate": "2010-06-21T18:25:51.0889452+02:00",
+  "SelectionId": 8,
+  "SoundEx": "laudantium",
+  "Source": 510,
+  "TextId": 740,
+  "UpdatedDate": "2002-09-22T18:25:51.0889452+02:00",
+  "UpdatedCount": 1001,
+  "Visibility": 540,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 964,
-  "TargetTableName": "Lynch-Morissette",
+  "TargetTableNumber": 111,
+  "TargetTableName": "Zboncak, Mueller and Bernier",
   "Completed": false,
-  "LeftSelectionId": 518,
-  "RightSelectionId": 548,
+  "LeftSelectionId": 698,
+  "RightSelectionId": 171,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Larkin, Hilpert and Nolan",
-  "ShadowProviderName": "Glover Group",
-  "ChartKey": "quibusdam",
-  "LastLoaded": "2012-04-27T15:05:42.7376673+02:00",
-  "LastLoadedBy": 616,
+  "MainProviderName": "Miller, Fadel and Langworth",
+  "ShadowProviderName": "Harvey-Conroy",
+  "ChartKey": "autem",
+  "LastLoaded": "1998-08-25T18:25:51.0889452+02:00",
+  "LastLoadedBy": 718,
   "LastLoadedByAssociate": {
-    "AssociateId": 505,
-    "Name": "Herman-Torphy",
-    "PersonId": 504,
-    "Rank": 63,
-    "Tooltip": "cum",
+    "AssociateId": 757,
+    "Name": "Smith Inc and Sons",
+    "PersonId": 291,
+    "Rank": 459,
+    "Tooltip": "modi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 55,
-    "FullName": "Clifton Abbott",
-    "FormalName": "Pouros Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 702,
-    "UserName": "Morar-Zulauf"
+    "GroupIdx": 293,
+    "FullName": "Loma Lynch",
+    "FormalName": "Predovic-Bahringer",
+    "Deleted": true,
+    "EjUserId": 835,
+    "UserName": "Trantow-Schumm"
   },
-  "LastMembershipChange": "2007-10-20T15:05:42.7376673+02:00",
-  "LastMembershipChangeBy": 31,
+  "LastMembershipChange": "1996-07-12T18:25:51.0889452+02:00",
+  "LastMembershipChangeBy": 987,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 766,
-    "Name": "Littel-Sporer",
-    "PersonId": 13,
-    "Rank": 97,
-    "Tooltip": "vitae",
+    "AssociateId": 844,
+    "Name": "Sauer, Kautzer and Wisozk",
+    "PersonId": 174,
+    "Rank": 598,
+    "Tooltip": "quia",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 545,
-    "FullName": "Mrs. Adrien Mohr",
-    "FormalName": "Beer, Lueilwitz and Stehr",
-    "Deleted": false,
-    "EjUserId": 309,
-    "UserName": "Braun-Hammes"
+    "GroupIdx": 142,
+    "FullName": "Arianna Blick",
+    "FormalName": "Hartmann, Moore and Reynolds",
+    "Deleted": true,
+    "EjUserId": 130,
+    "UserName": "Bauch Group"
   },
-  "MainHeading": "facilis",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Ziemann Inc and Sons",
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "ipsam",
+  "MailingsProviderName": "Crona-Jast",
+  "DashboardTileDefinitionId": 958,
   "VisibleFor": [
     {
-      "VisibleId": 728,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "asperiores"
     },
     {
-      "VisibleId": 728,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "asperiores"
     }
   ]
 }
@@ -293,21 +296,21 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust foreground model",
-  "Postit": "et",
+  "Description": "Pre-emptive leading edge Graphical User Interface",
+  "Postit": "ducimus",
   "Associate": {
-    "AssociateId": 311,
-    "Name": "Thompson, Waters and Mertz",
-    "PersonId": 41,
-    "Rank": 585,
-    "Tooltip": "non",
+    "AssociateId": 730,
+    "Name": "Gorczany LLC",
+    "PersonId": 65,
+    "Rank": 644,
+    "Tooltip": "ipsam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 886,
-    "FullName": "Isadore Auer",
-    "FormalName": "Haag LLC",
-    "Deleted": true,
-    "EjUserId": 966,
-    "UserName": "Predovic Group",
+    "GroupIdx": 253,
+    "FullName": "Aidan Bogan",
+    "FormalName": "Kozey-Hirthe",
+    "Deleted": false,
+    "EjUserId": 830,
+    "UserName": "Harvey-Casper",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -315,24 +318,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 915
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 766,
-    "Name": "Stoltenberg-Beahan",
-    "PersonId": 500,
-    "Rank": 700,
-    "Tooltip": "sed",
+    "AssociateId": 735,
+    "Name": "Harvey LLC",
+    "PersonId": 50,
+    "Rank": 422,
+    "Tooltip": "necessitatibus",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 838,
-    "FullName": "Dr. Yadira West",
-    "FormalName": "Wilkinson Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 313,
-    "UserName": "Carter-Kohler",
+    "GroupIdx": 719,
+    "FullName": "Judah Brekke",
+    "FormalName": "Ankunding, Ritchie and Schroeder",
+    "Deleted": true,
+    "EjUserId": 476,
+    "UserName": "Hickle LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -341,90 +344,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 949
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 675,
-    "Name": "Waters-Kemmer",
-    "PersonId": 93,
-    "Rank": 893,
-    "Tooltip": "voluptate",
+    "AssociateId": 732,
+    "Name": "Schulist, Hane and Walker",
+    "PersonId": 534,
+    "Rank": 557,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 967,
-    "FullName": "Shania Steuber",
-    "FormalName": "Stark Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 284,
-    "UserName": "Stamm LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 556
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 200,
-    "Value": "placeat",
-    "Tooltip": "ullam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 478
-      }
-    }
-  },
-  "GroupIdx": 26,
-  "IncludePerson": 445,
-  "MemberCount": 272,
-  "Name": "Rodriguez Inc and Sons",
-  "PostitTextId": 158,
-  "CreatedDate": "2005-09-26T15:05:42.7416675+02:00",
-  "SelectionId": 673,
-  "SoundEx": "numquam",
-  "Source": 441,
-  "TextId": 696,
-  "UpdatedDate": "2018-03-29T15:05:42.7416675+02:00",
-  "UpdatedCount": 675,
-  "Visibility": 874,
-  "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 490,
-  "TargetTableName": "Murray LLC",
-  "Completed": true,
-  "LeftSelectionId": 190,
-  "RightSelectionId": 882,
-  "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ullrich LLC",
-  "ShadowProviderName": "Ward, Lowe and Wiegand",
-  "ChartKey": "neque",
-  "LastLoaded": "2010-06-27T15:05:42.7416675+02:00",
-  "LastLoadedBy": 978,
-  "LastLoadedByAssociate": {
-    "AssociateId": 59,
-    "Name": "Wilderman-Pollich",
-    "PersonId": 810,
-    "Rank": 350,
-    "Tooltip": "non",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 505,
-    "FullName": "Arden Donnelly",
-    "FormalName": "Rice Group",
+    "GroupIdx": 39,
+    "FullName": "Keith Sipes",
+    "FormalName": "Christiansen-Haag",
     "Deleted": false,
-    "EjUserId": 846,
-    "UserName": "Auer-Bode",
+    "EjUserId": 152,
+    "UserName": "Mann, Stiedemann and Nicolas",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -433,25 +369,92 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 246
       }
     }
   },
-  "LastMembershipChange": "2014-12-08T15:05:42.7416675+01:00",
-  "LastMembershipChangeBy": 696,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 217,
-    "Name": "Kuhic-Haley",
-    "PersonId": 965,
-    "Rank": 266,
-    "Tooltip": "sunt",
+  "SelectionCategory": {
+    "Id": 391,
+    "Value": "iure",
+    "Tooltip": "dicta",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "visualize 24/7 markets"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 796
+      }
+    }
+  },
+  "GroupIdx": 794,
+  "IncludePerson": 970,
+  "MemberCount": 444,
+  "Name": "Lubowitz-Prohaska",
+  "PostitTextId": 870,
+  "CreatedDate": "1996-04-13T18:25:51.0929468+02:00",
+  "SelectionId": 645,
+  "SoundEx": "ut",
+  "Source": 41,
+  "TextId": 682,
+  "UpdatedDate": "2019-03-10T18:25:51.0939532+01:00",
+  "UpdatedCount": 524,
+  "Visibility": 382,
+  "SelectionType": "Combined",
+  "CompanyUnique": true,
+  "TargetTableNumber": 219,
+  "TargetTableName": "Morar Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 121,
+  "RightSelectionId": 945,
+  "SelectionUnionType": "Intersect",
+  "MainProviderName": "Welch, Klocko and Conroy",
+  "ShadowProviderName": "Bednar Group",
+  "ChartKey": "ea",
+  "LastLoaded": "1997-09-06T18:25:51.0939532+02:00",
+  "LastLoadedBy": 127,
+  "LastLoadedByAssociate": {
+    "AssociateId": 220,
+    "Name": "Trantow LLC",
+    "PersonId": 375,
+    "Rank": 602,
+    "Tooltip": "enim",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 536,
-    "FullName": "Retha Haag",
-    "FormalName": "Okuneva-Runolfsson",
+    "GroupIdx": 912,
+    "FullName": "Jaron Reichel",
+    "FormalName": "Boyle, Steuber and Kessler",
     "Deleted": true,
-    "EjUserId": 663,
-    "UserName": "Conn, Shanahan and Dietrich",
+    "EjUserId": 506,
+    "UserName": "Hammes, Predovic and Pfannerstill",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 503
+      }
+    }
+  },
+  "LastMembershipChange": "2000-02-18T18:25:51.0939532+01:00",
+  "LastMembershipChangeBy": 181,
+  "LastMembershipChangeByAssociate": {
+    "AssociateId": 188,
+    "Name": "Robel-Nienow",
+    "PersonId": 257,
+    "Rank": 656,
+    "Tooltip": "quia",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 242,
+    "FullName": "Mireya Schowalter",
+    "FormalName": "Will-Windler",
+    "Deleted": true,
+    "EjUserId": 741,
+    "UserName": "Becker Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -460,18 +463,19 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 83
       }
     }
   },
-  "MainHeading": "saepe",
-  "MemberTabHeading": "nobis",
-  "MailingsProviderName": "Kertzmann, Macejkovic and O'Hara",
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Treutel-Boyle",
+  "DashboardTileDefinitionId": 649,
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "dolore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -480,14 +484,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 46
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "dolore",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -496,14 +500,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 46
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "optimize value-added paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -511,8 +515,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   },
   "_Links": {

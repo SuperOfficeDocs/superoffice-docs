@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Sipes-Blick",
-    "ToolTip": "Laborum qui illo adipisci aut.",
+    "Id": 811,
+    "Name": "Yost, Kassulke and Wisozk",
+    "ToolTip": "Quis deserunt.",
     "Deleted": true,
-    "Rank": 30,
-    "Type": "et",
-    "ColorBlock": 215,
-    "IconHint": "velit",
+    "Rank": 988,
+    "Type": "qui",
+    "ColorBlock": 159,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2020-11-12T15:05:43.4415096+01:00",
+    "LastChanged": "1998-06-12T18:25:51.8193272+02:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Friesen LLC",
-        "ToolTip": "Dolor sunt.",
+        "Id": 922,
+        "Name": "Ratke, Heller and Schamberger",
+        "ToolTip": "Enim minus blanditiis voluptatibus eum harum soluta.",
         "Deleted": true,
-        "Rank": 107,
-        "Type": "in",
-        "ColorBlock": 402,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2002-04-10T15:05:43.4415096+02:00",
+        "Rank": 133,
+        "Type": "reprehenderit",
+        "ColorBlock": 611,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2006-07-17T18:25:51.8193272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Lamar Towne"
+        "ExtraInfo": "itaque",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Bert Harvey"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Dr. Devin Bartell"
+    "ExtraInfo": "animi",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Cecelia Gutmann Jr."
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Brown-Bogisich",
-    "ToolTip": "Ex culpa explicabo tenetur vel dolorum voluptas.",
-    "Deleted": true,
-    "Rank": 206,
-    "Type": "est",
-    "ColorBlock": 240,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2002-04-01T15:05:43.4425101+02:00",
+    "Id": 314,
+    "Name": "Hirthe Inc and Sons",
+    "ToolTip": "Et quidem.",
+    "Deleted": false,
+    "Rank": 550,
+    "Type": "rerum",
+    "ColorBlock": 70,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "1998-10-11T18:25:51.8213272+02:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Wolf-Kiehn",
-        "ToolTip": "A soluta alias voluptate illo veniam culpa.",
-        "Deleted": false,
-        "Rank": 462,
-        "Type": "harum",
-        "ColorBlock": 19,
-        "IconHint": "aut",
+        "Id": 62,
+        "Name": "Gusikowski Group",
+        "ToolTip": "Et ipsum dicta illum velit.",
+        "Deleted": true,
+        "Rank": 37,
+        "Type": "necessitatibus",
+        "ColorBlock": 968,
+        "IconHint": "itaque",
         "Selected": true,
-        "LastChanged": "2014-04-22T15:05:43.4425101+02:00",
+        "LastChanged": "2014-11-07T18:25:51.8213272+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Kenyatta Walter",
+        "ExtraInfo": "sit",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Georgianna Stamm Jr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 727
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Gloria Treutel",
+    "ExtraInfo": "sunt",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Cleta Okuneva",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 601
       }
     }
   }

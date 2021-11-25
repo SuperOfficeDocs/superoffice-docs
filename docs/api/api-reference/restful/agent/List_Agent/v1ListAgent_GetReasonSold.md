@@ -1,9 +1,9 @@
 ---
-title: GetReasonSold
+title: POST Agents/List/GetReasonSold
 id: v1ListAgent_GetReasonSold
 ---
 
-# GetReasonSold
+# POST Agents/List/GetReasonSold
 
 ```http
 POST /api/v1/Agents/List/GetReasonSold
@@ -25,7 +25,7 @@ Gets a ReasonSold object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=280
+POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=907
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Value": "odio",
-  "Tooltip": "ipsum",
+  "Id": 997,
+  "Value": "at",
+  "Tooltip": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 486
     }
   }
 }

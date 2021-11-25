@@ -1,9 +1,9 @@
 ---
-title: RequestForInfo
+title: POST Agents/Appointment/RequestForInfo
 id: v1AppointmentAgent_RequestForInfo
 ---
 
-# RequestForInfo
+# POST Agents/Appointment/RequestForInfo
 
 ```http
 POST /api/v1/Agents/Appointment/RequestForInfo
@@ -83,18 +83,18 @@ Response body: object
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 924,
-  "Channel": "eum",
-  "Regarding": "omnis",
-  "ContactName": "Gusikowski, Mosciski and Wiegand",
-  "PersonFirstname": "Janie",
-  "PersonLastname": "Koss",
-  "EmailAddress": "leonor.rath@upton.name",
-  "PhoneNumber": "1025968"
+  "AssociateIdForNewContact": 308,
+  "Channel": "ut",
+  "Regarding": "rerum",
+  "ContactName": "Larkin-Bode",
+  "PersonFirstname": "Dylan",
+  "PersonLastname": "Hyatt",
+  "EmailAddress": "roy@mosciskigerlach.biz",
+  "PhoneNumber": "999224"
 }
 ```
 
@@ -105,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 162,
-      "Name": "Tremblay, Thiel and Kautzer",
-      "OrgNr": "1138425",
+      "ContactId": 495,
+      "Name": "Kulas, Fritsch and Ziemann",
+      "OrgNr": "392436",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "quis",
-      "DirectPhone": "082-450-1403",
-      "AssociateId": 239,
-      "CountryId": 51,
-      "EmailAddress": "marcus@okeefe.com",
-      "Kananame": "molestias",
-      "EmailAddressName": "jarrod@rolfson.ca",
+      "City": "debitis",
+      "DirectPhone": "1-260-867-5172 x886",
+      "AssociateId": 774,
+      "CountryId": 299,
+      "EmailAddress": "sincere@leuschke.co.uk",
+      "Kananame": "sit",
+      "EmailAddressName": "mckayla_lebsack@danielcollins.co.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Jedidiah Koch",
+      "AssociateFullName": "Dr. Timmy Kozey",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": {},
-      "FormattedAddress": "qui",
-      "FullName": "Nasir Davis",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 410,
+      "FormattedAddress": "enim",
+      "FullName": "Lane Champlin",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 465,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "empower leading-edge web-readiness"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
   ],
   "RequestedPerson": {
-    "Position": "recusandae",
-    "PersonId": 616,
-    "Mrmrs": "et",
-    "Firstname": "Theodore",
-    "Lastname": "Thiel",
-    "MiddleName": "Homenick, Williamson and Leffler",
-    "Title": "quam",
-    "Description": "Ameliorated reciprocal open system",
-    "Email": "rahsaan@morissette.info",
-    "FullName": "Kaitlyn Kuhn",
-    "DirectPhone": "233-724-1537 x22655",
-    "FormalName": "Bernhard-Rice",
-    "CountryId": 216,
-    "ContactId": 276,
-    "ContactName": "Hoeger-Lindgren",
-    "Retired": 424,
-    "Rank": 801,
-    "ActiveInterests": 310,
+    "Position": "optio",
+    "PersonId": 810,
+    "Mrmrs": "rerum",
+    "Firstname": "Rylee",
+    "Lastname": "Bogan",
+    "MiddleName": "Fadel, Boyer and Abernathy",
+    "Title": "maiores",
+    "Description": "Universal bandwidth-monitored protocol",
+    "Email": "chaya_williamson@sporer.ca",
+    "FullName": "Una Ondricka",
+    "DirectPhone": "(514)584-7564",
+    "FormalName": "VonRueden Inc and Sons",
+    "CountryId": 704,
+    "ContactId": 381,
+    "ContactName": "Wolf Inc and Sons",
+    "Retired": 674,
+    "Rank": 4,
+    "ActiveInterests": 622,
     "ContactDepartment": "",
-    "ContactCountryId": 439,
-    "ContactOrgNr": "792788",
-    "FaxPhone": "067.642.4606 x758",
-    "MobilePhone": "104.066.5212",
-    "ContactPhone": "(700)846-8222 x58800",
-    "AssociateName": "Bergstrom-Crona",
-    "AssociateId": 500,
-    "UsePersonAddress": false,
-    "ContactFax": "in",
-    "Kanafname": "et",
-    "Kanalname": "iste",
-    "Post1": "aut",
-    "Post2": "sapiente",
-    "Post3": "et",
-    "EmailName": "rafaela@hagenes.ca",
-    "ContactFullName": "Dr. Hattie Renner",
-    "ActiveErpLinks": 159,
-    "TicketPriorityId": 563,
-    "SupportLanguageId": 126,
-    "SupportAssociateId": 568,
+    "ContactCountryId": 342,
+    "ContactOrgNr": "693888",
+    "FaxPhone": "1-575-718-3458 x45042",
+    "MobilePhone": "866-051-3151",
+    "ContactPhone": "(556)675-0788",
+    "AssociateName": "Hessel, Greenholt and Kunde",
+    "AssociateId": 607,
+    "UsePersonAddress": true,
+    "ContactFax": "excepturi",
+    "Kanafname": "nemo",
+    "Kanalname": "nihil",
+    "Post1": "non",
+    "Post2": "doloribus",
+    "Post3": "labore",
+    "EmailName": "horacio@dickiweimann.biz",
+    "ContactFullName": "Solon Thiel",
+    "ActiveErpLinks": 208,
+    "TicketPriorityId": 726,
+    "SupportLanguageId": 37,
+    "SupportAssociateId": 922,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -189,50 +189,50 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 36
       }
     }
   },
   "SalesRep": {
-    "Position": "porro",
-    "PersonId": 588,
-    "Mrmrs": "ut",
-    "Firstname": "Wilbert",
-    "Lastname": "King",
-    "MiddleName": "Turcotte, Grant and Botsford",
-    "Title": "ad",
-    "Description": "Multi-layered background help-desk",
-    "Email": "fidel@collins.uk",
-    "FullName": "Else Stamm",
-    "DirectPhone": "(018)312-3578 x54388",
-    "FormalName": "Schmeler, Reichel and Metz",
-    "CountryId": 456,
-    "ContactId": 682,
-    "ContactName": "Pollich-Kub",
-    "Retired": 621,
-    "Rank": 901,
-    "ActiveInterests": 19,
+    "Position": "eum",
+    "PersonId": 545,
+    "Mrmrs": "quasi",
+    "Firstname": "Alva",
+    "Lastname": "Murray",
+    "MiddleName": "Toy Inc and Sons",
+    "Title": "dolore",
+    "Description": "Stand-alone background protocol",
+    "Email": "ronny.langworth@paucekjohnson.biz",
+    "FullName": "Meredith Dicki",
+    "DirectPhone": "723.531.8353",
+    "FormalName": "Johnston LLC",
+    "CountryId": 850,
+    "ContactId": 872,
+    "ContactName": "Marquardt Group",
+    "Retired": 648,
+    "Rank": 57,
+    "ActiveInterests": 93,
     "ContactDepartment": "",
-    "ContactCountryId": 606,
-    "ContactOrgNr": "977163",
-    "FaxPhone": "303-587-8477 x24374",
-    "MobilePhone": "375.163.1534",
-    "ContactPhone": "222-842-7025 x37870",
-    "AssociateName": "Schimmel-Carroll",
-    "AssociateId": 171,
-    "UsePersonAddress": true,
-    "ContactFax": "qui",
-    "Kanafname": "minus",
-    "Kanalname": "eligendi",
-    "Post1": "sed",
-    "Post2": "voluptates",
-    "Post3": "quia",
-    "EmailName": "amanda@gutkowskimurray.name",
-    "ContactFullName": "Dudley McClure",
-    "ActiveErpLinks": 803,
-    "TicketPriorityId": 216,
-    "SupportLanguageId": 570,
-    "SupportAssociateId": 99,
+    "ContactCountryId": 409,
+    "ContactOrgNr": "388797",
+    "FaxPhone": "638-673-7770 x44508",
+    "MobilePhone": "115.815.7308 x0107",
+    "ContactPhone": "(224)343-7574 x40740",
+    "AssociateName": "Little Inc and Sons",
+    "AssociateId": 317,
+    "UsePersonAddress": false,
+    "ContactFax": "esse",
+    "Kanafname": "nihil",
+    "Kanalname": "provident",
+    "Post1": "rerum",
+    "Post2": "veniam",
+    "Post3": "facere",
+    "EmailName": "buford.farrell@quigley.us",
+    "ContactFullName": "Karson Sipes",
+    "ActiveErpLinks": 366,
+    "TicketPriorityId": 591,
+    "SupportLanguageId": 641,
+    "SupportAssociateId": 975,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   },
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -91,53 +91,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Lebsack, Hintz and Streich",
-    "ToolTip": "Id neque nisi at soluta pariatur.",
-    "Deleted": false,
-    "Rank": 361,
-    "Type": "ut",
-    "ColorBlock": 785,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2018-11-01T15:05:43.698115+01:00",
+    "Id": 741,
+    "Name": "Kirlin, Lynch and Miller",
+    "ToolTip": "Quam qui.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "odio",
+    "ColorBlock": 214,
+    "IconHint": "facere",
+    "Selected": false,
+    "LastChanged": "1999-08-09T18:25:52.0930209+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Champlin, Aufderhar and Harris",
-        "ToolTip": "Possimus facilis dolore in.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "sit",
-        "ColorBlock": 986,
-        "IconHint": "cumque",
+        "Id": 976,
+        "Name": "Lockman LLC",
+        "ToolTip": "Qui deserunt.",
+        "Deleted": true,
+        "Rank": 963,
+        "Type": "nesciunt",
+        "ColorBlock": 694,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "1999-10-14T15:05:43.6990885+02:00",
+        "LastChanged": "2021-03-23T18:25:52.0930209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Deontae Kohler",
+        "FullName": "Jaydon Anderson V",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "mesh open-source e-markets"
             },
             "FieldType": "System.String",
-            "FieldLength": 637
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Ferne Lemke",
+    "FullName": "Lamar Ferry",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "morph out-of-the-box vortals"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

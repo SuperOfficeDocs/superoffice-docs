@@ -1,9 +1,9 @@
 ---
-title: GetEmailAppointment
+title: POST Agents/EMail/GetEmailAppointment
 id: v1EMailAgent_GetEmailAppointment
 ---
 
-# GetEmailAppointment
+# POST Agents/EMail/GetEmailAppointment
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointment
@@ -87,11 +87,11 @@ Response body: object
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 555
+  "MailItemId": 805
 }
 ```
 
@@ -101,53 +101,53 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": {
-    "AppointmentId": 113,
-    "StartDate": "2018-06-01T14:58:04.0974669+02:00",
-    "EndDate": "2011-07-21T14:58:04.0974669+02:00",
+    "AppointmentId": 498,
+    "StartDate": "1999-01-29T18:28:49.0119589+01:00",
+    "EndDate": "2015-02-04T18:28:49.0119589+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Leonel Kulas",
-    "ContactName": "Grady, Will and Jacobi",
-    "Description": "Profit-focused grid-enabled migration",
-    "PersonFullName": "Phoebe Swift",
-    "PersonId": 864,
-    "ContactId": 783,
-    "ProjectId": 8,
-    "ProjectName": "Vandervort LLC",
-    "IsPublished": false,
-    "AssociateId": 916,
+    "Task": "autem",
+    "AssociateFullName": "Shayne Ankunding",
+    "ContactName": "Morissette, Hyatt and Shanahan",
+    "Description": "Proactive directional pricing structure",
+    "PersonFullName": "Mrs. Austin Olson",
+    "PersonId": 650,
+    "ContactId": 397,
+    "ProjectId": 281,
+    "ProjectName": "Davis Group",
+    "IsPublished": true,
+    "AssociateId": 161,
     "ColorIndex": 302,
     "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 849,
-    "PriorityName": "Armstrong, Bins and Beahan",
+    "PriorityId": 962,
+    "PriorityName": "Kihn Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1996-07-07T14:58:04.0974669+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2020-07-25T18:28:49.012956+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-08-21T14:58:04.0974669+02:00",
-    "RecurringEndDate": "1997-03-08T14:58:04.0974669+01:00",
-    "MotherId": 470,
-    "AssignedBy": 164,
-    "AssignedByFullName": "Favian Collins V",
-    "RejectReason": "streamline bleeding-edge vortals",
-    "Location": "corrupti",
-    "AlarmLeadTime": "nesciunt",
-    "SaleId": 624,
-    "SaleName": "Borer-Brown",
-    "AssociateName": "Nader, Hills and McDermott",
-    "CreatedDate": "2003-02-23T14:58:04.0984659+01:00",
-    "CreatedBy": "dicta",
-    "CreatedByFullName": "Sallie Hauck II",
-    "CreatedByAssociateId": 821,
+    "RecurringStartDate": "2010-09-16T18:28:49.012956+02:00",
+    "RecurringEndDate": "2011-04-06T18:28:49.012956+02:00",
+    "MotherId": 974,
+    "AssignedBy": 387,
+    "AssignedByFullName": "Coralie Bahringer",
+    "RejectReason": "",
+    "Location": "omnis",
+    "AlarmLeadTime": "maiores",
+    "SaleId": 489,
+    "SaleName": "Runte LLC",
+    "AssociateName": "Ritchie, Stamm and Dickens",
+    "CreatedDate": "1998-03-02T18:28:49.012956+01:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Jovan Kris",
+    "CreatedByAssociateId": 375,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {},
@@ -157,20 +157,20 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   },
   "CalMethod": "Add",
   "Participants": [
-    "nulla",
-    "aut"
+    "quod",
+    "voluptas"
   ],
-  "Comment": "aut",
-  "Sequence": 591,
-  "DtStart": "2010-11-28T14:58:04.0984659+01:00",
-  "DtEnd": "2000-05-12T14:58:04.0984659+02:00",
+  "Comment": "dolor",
+  "Sequence": 564,
+  "DtStart": "2016-10-20T18:28:49.012956+02:00",
+  "DtEnd": "1995-02-08T18:28:49.012956+01:00",
   "Superseded": true,
   "TableRight": {
     "Mask": "Delete",
@@ -180,10 +180,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "implement leading-edge methodologies"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 538
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetAvailableRestrictionColumns
+title: POST Agents/Find/GetAvailableRestrictionColumns
 id: v1FindAgent_GetAvailableRestrictionColumns
 ---
 
-# GetAvailableRestrictionColumns
+# POST Agents/Find/GetAvailableRestrictionColumns
 
 ```http
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
@@ -69,12 +69,12 @@ Response body: array
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Bradtke-Langworth"
+  "StorageType": "ea",
+  "ProviderName": "Harber-Wunsch"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "voluptas"
+  "hic",
+  "molestiae"
 ]
 ```

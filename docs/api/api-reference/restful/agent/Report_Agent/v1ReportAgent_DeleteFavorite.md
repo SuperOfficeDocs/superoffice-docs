@@ -1,9 +1,9 @@
 ---
-title: DeleteFavorite
+title: POST Agents/Report/DeleteFavorite
 id: v1ReportAgent_DeleteFavorite
 ---
 
-# DeleteFavorite
+# POST Agents/Report/DeleteFavorite
 
 ```http
 POST /api/v1/Agents/Report/DeleteFavorite

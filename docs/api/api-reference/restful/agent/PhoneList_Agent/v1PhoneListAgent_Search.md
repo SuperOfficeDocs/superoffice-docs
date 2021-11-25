@@ -1,9 +1,9 @@
 ---
-title: Search
+title: POST Agents/PhoneList/Search
 id: v1PhoneListAgent_Search
 ---
 
-# Search
+# POST Agents/PhoneList/Search
 
 ```http
 POST /api/v1/Agents/PhoneList/Search
@@ -82,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "odio"
+  "SearchString": "itaque"
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-155-623-4403 x71433",
-    "PersonCellPhone": "277-803-8021 x0764",
-    "PersonPrivatePhone": "746.553.2121",
-    "PersonFaxNumber": "1596520",
-    "PersonPagerNumber": "162845",
-    "PersonEmail": "cecil.hintz@lakin.name",
-    "Id": 337,
-    "Name": "Roob, Olson and McCullough",
+    "PersonDirectPhone": "320-812-5060 x6484",
+    "PersonCellPhone": "(706)183-4882",
+    "PersonPrivatePhone": "787.236.1473 x223",
+    "PersonFaxNumber": "936887",
+    "PersonPagerNumber": "299388",
+    "PersonEmail": "marquis@kemmerfritsch.biz",
+    "Id": 989,
+    "Name": "Hayes, Bernier and Senger",
     "Tooltip": "dolorem",
-    "UniqueId": "nihil",
+    "UniqueId": "aspernatur",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldType": "System.Int32",
+        "FieldLength": 481
       }
     }
   }

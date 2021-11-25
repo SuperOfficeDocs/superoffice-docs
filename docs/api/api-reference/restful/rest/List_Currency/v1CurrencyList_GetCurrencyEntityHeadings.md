@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 303,
-    "Name": "Christiansen-Harris",
-    "Tooltip": "velit",
+    "HeadingId": 928,
+    "Name": "Schamberger-Wolff",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 395,
-    "UdListDefinitionId": 257,
+    "Rank": 593,
+    "UdListDefinitionId": 712,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

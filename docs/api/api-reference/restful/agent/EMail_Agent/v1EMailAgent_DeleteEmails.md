@@ -1,9 +1,9 @@
 ---
-title: DeleteEmails
+title: POST Agents/EMail/DeleteEmails
 id: v1EMailAgent_DeleteEmails
 ---
 
-# DeleteEmails
+# POST Agents/EMail/DeleteEmails
 
 ```http
 POST /api/v1/Agents/EMail/DeleteEmails

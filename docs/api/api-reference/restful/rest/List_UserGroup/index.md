@@ -2,8 +2,6 @@
 title: List_UserGroup
 ---
 
-# List_UserGroup
-
 ```http
 /api/v1/List/UserGroup
 ```

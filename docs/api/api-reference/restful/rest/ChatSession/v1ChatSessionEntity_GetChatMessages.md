@@ -28,7 +28,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=278
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=568
 ```
 
 
@@ -74,7 +74,7 @@ Response body: array
 GET /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 996,
-    "ChatSessionId": 125,
+    "ChatMessageId": 938,
+    "ChatSessionId": 247,
     "Type": "Invalid",
-    "Message": "possimus",
-    "Author": "tempora",
-    "ReadByCustomer": 807,
+    "Message": "quia",
+    "Author": "laudantium",
+    "ReadByCustomer": 7,
     "SpecialType": "Block",
-    "SpecialParam": "doloremque",
-    "WhenPosted": "2005-05-20T15:05:41.7650056+02:00"
+    "SpecialParam": "explicabo",
+    "WhenPosted": "2012-09-06T18:25:50.1555956+02:00"
   }
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetDash
+title: POST Agents/Dash/GetDash
 id: v1DashAgent_GetDash
 ---
 
-# GetDash
+# POST Agents/Dash/GetDash
 
 ```http
 POST /api/v1/Agents/Dash/GetDash
@@ -25,7 +25,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=481
+POST /api/v1/Agents/Dash/GetDash?dashId=445
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -62,6 +62,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -82,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -90,16 +91,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 678,
-  "Name": "Lynch LLC",
-  "Description": "Profound multi-tasking alliance",
-  "AssociateId": 881,
-  "Columns": 108,
+  "DashboardId": 892,
+  "UniqueId": "reiciendis",
+  "Name": "Mueller, Kautzer and Wilderman",
+  "Description": "User-friendly eco-centric productivity",
+  "AssociateId": 360,
+  "Columns": 110,
   "Theme": {
-    "DashboardThemeId": 147,
-    "Name": "Kassulke, Beier and Robel",
-    "Config": "quae",
-    "Rank": 387,
+    "DashboardThemeId": 483,
+    "Name": "Volkman-Schneider",
+    "Config": "illo",
+    "Rank": 811,
+    "Client": "fuga",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -107,32 +110,32 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 848
       }
     }
   },
-  "VisibleForAll": 504,
+  "VisibleForAll": 884,
   "VisibleForAssociates": [
-    999,
-    852
+    396,
+    648
   ],
   "VisibleForGroups": [
-    657,
-    821
+    855,
+    574
   ],
-  "PinForAll": 356,
+  "PinForAll": 142,
   "PinForAssociates": [
-    560,
-    248
+    90,
+    50
   ],
   "PinForGroups": [
-    293,
-    446
+    305,
+    661
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "scale revolutionary convergence"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -140,8 +143,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

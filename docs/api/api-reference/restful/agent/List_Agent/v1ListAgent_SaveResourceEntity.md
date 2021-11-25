@@ -1,9 +1,9 @@
 ---
-title: SaveResourceEntity
+title: POST Agents/List/SaveResourceEntity
 id: v1ListAgent_SaveResourceEntity
 ---
 
-# SaveResourceEntity
+# POST Agents/List/SaveResourceEntity
 
 ```http
 POST /api/v1/Agents/List/SaveResourceEntity
@@ -80,17 +80,17 @@ Response body: object
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 251,
-  "Name": "Morar-Smitham",
-  "Rank": 844,
-  "Tooltip": "aut",
+  "ResourceId": 931,
+  "Name": "Langosh LLC",
+  "Rank": 971,
+  "Tooltip": "iste",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "laboriosam"
+  "IsLocation": false,
+  "LocationAddress": "voluptatum"
 }
 ```
 
@@ -99,16 +99,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 15,
-  "Name": "Hessel-Huel",
-  "Rank": 709,
-  "Tooltip": "veniam",
+  "ResourceId": 941,
+  "Name": "Kassulke, Lowe and Treutel",
+  "Rank": 592,
+  "Tooltip": "autem",
   "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "quo",
+  "IsLocation": false,
+  "LocationAddress": "architecto",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "repurpose value-added niches"
   },
   "FieldProperties": {
     "fieldName": {
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

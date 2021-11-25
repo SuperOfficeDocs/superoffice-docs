@@ -1,9 +1,9 @@
 ---
-title: GetSmsConfig
+title: POST Agents/CustomerService/GetSmsConfig
 id: v1CustomerServiceAgent_GetSmsConfig
 ---
 
-# GetSmsConfig
+# POST Agents/CustomerService/GetSmsConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/GetSmsConfig
@@ -60,7 +60,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DefaultSmsCountry | string | Phone prefix, will default to the current users HomeCountryId. |
-| NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, Link Mobility SMS, SMS Teknik or TXTLocal. |
+| NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 | TableRight |  |  |
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/GetSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,11 +81,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "assumenda",
-  "NsPluginSender": "omnis",
+  "NetServerSmsProvider": "unde",
+  "NsPluginSender": "cumque",
   "NsPluginConfig": {
-    "NsPluginConfig1": "sit",
-    "NsPluginConfig2": "quis"
+    "NsPluginConfig1": "ut",
+    "NsPluginConfig2": "sed"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 221
     }
   }
 }

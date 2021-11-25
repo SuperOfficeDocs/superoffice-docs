@@ -1,9 +1,9 @@
 ---
-title: ToggleErpConnectionActive
+title: POST Agents/ErpSync/ToggleErpConnectionActive
 id: v1ErpSyncAgent_ToggleErpConnectionActive
 ---
 
-# ToggleErpConnectionActive
+# POST Agents/ErpSync/ToggleErpConnectionActive
 
 ```http
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
@@ -70,11 +70,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 85
+  "ErpConnectionId": 140
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "magni",
-  "voluptatem"
+  "maxime",
+  "consequatur"
 ]
 ```

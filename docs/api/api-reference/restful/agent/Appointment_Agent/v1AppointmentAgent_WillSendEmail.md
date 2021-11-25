@@ -1,9 +1,9 @@
 ---
-title: WillSendEmail
+title: POST Agents/Appointment/WillSendEmail
 id: v1AppointmentAgent_WillSendEmail
 ---
 
-# WillSendEmail
+# POST Agents/Appointment/WillSendEmail
 
 ```http
 POST /api/v1/Agents/Appointment/WillSendEmail
@@ -68,7 +68,7 @@ Response body: bool
 POST /api/v1/Agents/Appointment/WillSendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -77,34 +77,34 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2003-10-14T14:58:03.0355383+02:00",
-    "AppointmentId": 348,
-    "Description": "User-centric client-server budgetary management",
-    "StartDate": "2021-07-28T14:58:03.0355383+02:00",
-    "EndDate": "2007-12-22T14:58:03.0355383+01:00",
+    "CreatedDate": "2014-01-22T18:28:47.8788444+01:00",
+    "AppointmentId": 893,
+    "Description": "Automated impactful archive",
+    "StartDate": "2007-07-31T18:28:47.8788444+02:00",
+    "EndDate": "2016-01-29T18:28:47.8788444+01:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 714,
+    "MotherId": 15,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "2003-04-30T14:58:03.0355383+02:00",
+    "UpdatedDate": "2016-02-20T18:28:47.8788444+01:00",
     "Completed": "Completed",
-    "ActiveLinks": 78,
+    "ActiveLinks": 521,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "quia",
-    "HasAlarm": true,
-    "ColorIndex": 311,
+    "AlarmLeadTime": "iusto",
+    "HasAlarm": false,
+    "ColorIndex": 742,
     "IsFree": true,
     "IsAlldayEvent": true,
-    "LagTime": "est",
-    "LeadTime": "ex",
-    "Location": "soluta",
-    "RejectCounter": 807,
+    "LagTime": "veniam",
+    "LeadTime": "debitis",
+    "Location": "nobis",
+    "RejectCounter": 854,
     "RejectReason": "",
     "Recurrence": {},
     "Participants": [
@@ -114,33 +114,33 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "2000-10-23T14:58:03.0355383+02:00",
+    "ActiveDate": "2003-11-25T18:28:47.8788444+01:00",
     "HasConflict": true,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 882,
+    "PreferredTZLocation": 140,
     "Sale": {},
-    "SuggestedAppointmentId": 782,
+    "SuggestedAppointmentId": 184,
     "IsMileStone": false,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "rerum",
+    "CentralserviceVideomeetId": "illo",
     "UserDefinedFields": {
-      "SuperOffice:1": "1952022012",
-      "SuperOffice:2": "False"
+      "SuperOffice:1": "Sylvester Weimann",
+      "SuperOffice:2": "1019523333"
     },
     "ExtraFields": {
-      "ExtraFields1": "commodi",
-      "ExtraFields2": "molestias"
+      "ExtraFields1": "non",
+      "ExtraFields2": "esse"
     },
     "CustomFields": {
-      "CustomFields1": "accusantium",
-      "CustomFields2": "quisquam"
+      "CustomFields1": "expedita",
+      "CustomFields2": "nemo"
     },
-    "PublishEventDate": "2002-09-20T14:58:03.0355383+02:00",
-    "PublishTo": "2019-11-30T14:58:03.0355383+01:00",
-    "PublishFrom": "2021-01-01T14:58:03.0355383+01:00",
+    "PublishEventDate": "2015-02-04T18:28:47.8788444+01:00",
+    "PublishTo": "1996-12-13T18:28:47.8788444+01:00",
+    "PublishFrom": "1996-06-30T18:28:47.8788444+02:00",
     "IsPublished": true,
     "VisibleFor": [
       {},

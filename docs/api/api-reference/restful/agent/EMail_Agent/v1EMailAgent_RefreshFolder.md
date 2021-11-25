@@ -1,9 +1,9 @@
 ---
-title: RefreshFolder
+title: POST Agents/EMail/RefreshFolder
 id: v1EMailAgent_RefreshFolder
 ---
 
-# RefreshFolder
+# POST Agents/EMail/RefreshFolder
 
 ```http
 POST /api/v1/Agents/EMail/RefreshFolder
@@ -77,15 +77,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Renner-Sauer",
-    "UserName": "Sauer-Mayer",
-    "Password": "aut",
-    "Folder": "accusamus",
+    "ServerName": "Bogisich Inc and Sons",
+    "UserName": "Strosin, Marquardt and Shields",
+    "Password": "nisi",
+    "Folder": "nobis",
     "UseSSL": true
   },
   "Folders": [
-    "possimus",
-    "consequuntur"
+    "rerum",
+    "vel"
   ]
 }
 ```
@@ -94,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-394
+157
 ```

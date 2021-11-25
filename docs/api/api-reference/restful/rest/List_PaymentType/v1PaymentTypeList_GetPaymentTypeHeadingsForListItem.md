@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Altenwerth, Upton and Raynor",
-    "ToolTip": "Et iste aliquam.",
+    "Id": 615,
+    "Name": "Morissette-Lesch",
+    "ToolTip": "Sunt error aut doloremque.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "ad",
-    "ColorBlock": 817,
-    "IconHint": "et",
+    "Rank": 327,
+    "Type": "et",
+    "ColorBlock": 883,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2008-09-18T15:05:43.5630797+02:00",
+    "LastChanged": "2003-04-18T18:25:51.9462403+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Batz Group",
-        "ToolTip": "Rem iusto perferendis et.",
+        "Id": 393,
+        "Name": "Keeling, Runte and Sporer",
+        "ToolTip": "Perferendis ut.",
         "Deleted": false,
-        "Rank": 501,
-        "Type": "magnam",
-        "ColorBlock": 930,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2000-04-24T15:05:43.5630797+02:00",
+        "Rank": 913,
+        "Type": "eos",
+        "ColorBlock": 350,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2021-08-23T18:25:51.9462403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Miss Chaim Ryan",
+        "FullName": "Waino Howe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
+    "ExtraInfo": "dolorum",
     "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Gus Mueller IV",
+    "Hidden": true,
+    "FullName": "Leanne Shanahan",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 250
       }
     }
   }

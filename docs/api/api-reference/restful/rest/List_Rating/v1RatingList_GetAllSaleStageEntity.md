@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 271,
-    "Value": "eos",
-    "Tooltip": "qui",
-    "Probability": 257,
-    "Deleted": false,
-    "Rank": 53,
+    "SaleStageId": 13,
+    "Value": "porro",
+    "Tooltip": "ipsa",
+    "Probability": 570,
+    "Deleted": true,
+    "Rank": 442,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deploy magnetic synergies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 923
+        "FieldLength": 499
       }
     }
   }

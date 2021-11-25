@@ -1,9 +1,9 @@
 ---
-title: GetAllDocumentTemplates
+title: POST Agents/List/GetAllDocumentTemplates
 id: v1ListAgent_GetAllDocumentTemplates
 ---
 
-# GetAllDocumentTemplates
+# POST Agents/List/GetAllDocumentTemplates
 
 ```http
 POST /api/v1/Agents/List/GetAllDocumentTemplates
@@ -101,7 +101,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -111,34 +111,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 4,
-    "Name": "Dietrich, Howell and Lynch",
-    "Tooltip": "minima",
-    "SaveInDb": 690,
-    "Filename": "itaque",
-    "DefaultOref": "sit",
+    "DocumentTemplateId": 859,
+    "Name": "Osinski, Thompson and Harvey",
+    "Tooltip": "sapiente",
+    "SaveInDb": 445,
+    "Filename": "unde",
+    "DefaultOref": "nisi",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 243,
-    "IntentId": 21,
-    "IsDefaultPublished": true,
-    "Rank": 770,
-    "LoadTemplateFromPlugin": 488,
-    "MimeType": "aliquam",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 252,
+    "AutoeventId": 493,
+    "IntentId": 548,
+    "IsDefaultPublished": false,
+    "Rank": 21,
+    "LoadTemplateFromPlugin": 261,
+    "MimeType": "facilis",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 199,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "antonia.kautzer@klein.uk",
-    "IncludeSignature": true,
-    "ShowCurrents": true,
+    "EmailSubject": "hudson@stokesnikolaus.ca",
+    "IncludeSignature": false,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "ulices_mohr@streich.info",
+    "SenderEmailAddress": "kendra@dooley.com",
     "InvitationDocType": "Cancelled",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "embrace robust web-readiness"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldLength": 983
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetPreferences
+title: POST Agents/PhoneList/GetPreferences
 id: v1PhoneListAgent_GetPreferences
 ---
 
-# GetPreferences
+# POST Agents/PhoneList/GetPreferences
 
 ```http
 POST /api/v1/Agents/PhoneList/GetPreferences
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/PhoneList/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchCompany": true,
+  "SearchCompany": false,
   "SearchFirstname": true,
   "SearchLastname": true,
   "SearchDepartment": false,
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "maximize 24/365 niches"
+        "Reason": "expedite viral markets"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 605
     }
   }
 }

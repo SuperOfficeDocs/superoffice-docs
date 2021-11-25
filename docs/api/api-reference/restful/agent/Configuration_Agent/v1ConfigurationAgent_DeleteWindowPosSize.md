@@ -1,9 +1,9 @@
 ---
-title: DeleteWindowPosSize
+title: POST Agents/Configuration/DeleteWindowPosSize
 id: v1ConfigurationAgent_DeleteWindowPosSize
 ---
 
-# DeleteWindowPosSize
+# POST Agents/Configuration/DeleteWindowPosSize
 
 ```http
 POST /api/v1/Agents/Configuration/DeleteWindowPosSize

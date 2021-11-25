@@ -1,9 +1,9 @@
 ---
-title: GetProjectAppointmentsByTasks
+title: POST Agents/Appointment/GetProjectAppointmentsByTasks
 id: v1AppointmentAgent_GetProjectAppointmentsByTasks
 ---
 
-# GetProjectAppointmentsByTasks
+# POST Agents/Appointment/GetProjectAppointmentsByTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
@@ -125,17 +125,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 254,
-  "StartTime": "2006-01-07T14:58:02.8555731+01:00",
-  "EndTime": "1994-04-20T14:58:02.8555731+02:00",
-  "Count": 907,
+  "ProjectId": 627,
+  "StartTime": "1995-10-02T18:28:47.7058446+02:00",
+  "EndTime": "1999-05-27T18:28:47.7058446+02:00",
+  "Count": 165,
   "TaskIds": [
-    703,
-    467
+    529,
+    30
   ]
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 375,
-    "StartDate": "2004-02-21T14:58:02.8565399+01:00",
-    "EndDate": "2013-10-28T14:58:02.8565399+01:00",
+    "AppointmentId": 956,
+    "StartDate": "1998-12-27T18:28:47.7068457+01:00",
+    "EndDate": "2001-02-22T18:28:47.7068457+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Clarissa Keebler",
-    "ContactName": "Bogisich, Buckridge and Satterfield",
-    "Description": "Diverse neutral product",
-    "PersonFullName": "Orlo Luettgen",
-    "PersonId": 897,
-    "ContactId": 651,
-    "ProjectId": 875,
-    "ProjectName": "Kunze-Davis",
+    "Task": "laboriosam",
+    "AssociateFullName": "Noah Wiza",
+    "ContactName": "Stiedemann-Emmerich",
+    "Description": "Synchronised tangible orchestration",
+    "PersonFullName": "Sean Beatty",
+    "PersonId": 106,
+    "ContactId": 474,
+    "ProjectId": 622,
+    "ProjectName": "Quigley-King",
     "IsPublished": false,
-    "AssociateId": 705,
-    "ColorIndex": 442,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 861,
+    "ColorIndex": 232,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 507,
-    "PriorityName": "Hirthe, Klocko and Swaniawski",
+    "PriorityId": 392,
+    "PriorityName": "Dickinson LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2017-03-15T14:58:02.8575734+01:00",
+    "ActiveDate": "2012-11-25T18:28:47.7068457+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-10-03T14:58:02.8575734+02:00",
-    "RecurringEndDate": "2017-12-26T14:58:02.8575734+01:00",
-    "MotherId": 217,
-    "AssignedBy": 938,
-    "AssignedByFullName": "Daisy Goldner DVM",
+    "RecurringStartDate": "2006-05-04T18:28:47.7068457+02:00",
+    "RecurringEndDate": "1998-01-23T18:28:47.7068457+01:00",
+    "MotherId": 387,
+    "AssignedBy": 149,
+    "AssignedByFullName": "Cruz Conn",
     "RejectReason": "",
-    "Location": "temporibus",
-    "AlarmLeadTime": "est",
-    "SaleId": 838,
-    "SaleName": "Hyatt-Toy",
-    "AssociateName": "D'Amore, Mohr and Balistreri",
-    "CreatedDate": "1999-01-27T14:58:02.8575734+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Mr. Lilyan Cummings",
-    "CreatedByAssociateId": 488,
+    "Location": "ut",
+    "AlarmLeadTime": "magni",
+    "SaleId": 310,
+    "SaleName": "Gulgowski, Brekke and Macejkovic",
+    "AssociateName": "Nitzsche-Abshire",
+    "CreatedDate": "2009-02-16T18:28:47.7078449+01:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Arnold Jaskolski",
+    "CreatedByAssociateId": 662,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

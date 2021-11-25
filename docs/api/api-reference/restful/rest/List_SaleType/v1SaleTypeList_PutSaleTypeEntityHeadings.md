@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 155,
-    "Name": "Jacobson, Gulgowski and Konopelski",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "Rank": 974,
-    "UdListDefinitionId": 280
+    "HeadingId": 399,
+    "Name": "Prosacco, Cremin and Swift",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 978,
+    "UdListDefinitionId": 60
   },
   {
-    "HeadingId": 155,
-    "Name": "Jacobson, Gulgowski and Konopelski",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "Rank": 974,
-    "UdListDefinitionId": 280
+    "HeadingId": 399,
+    "Name": "Prosacco, Cremin and Swift",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 978,
+    "UdListDefinitionId": 60
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Stanton, Ratke and Wiegand",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "Rank": 754,
-    "UdListDefinitionId": 701,
+    "HeadingId": 874,
+    "Name": "Kiehn LLC",
+    "Tooltip": "at",
+    "Deleted": false,
+    "Rank": 714,
+    "UdListDefinitionId": 745,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "incubate cross-platform mindshare"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 481
       }
     }
   }

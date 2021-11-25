@@ -2,8 +2,6 @@
 title: List_ProductCategory
 ---
 
-# List_ProductCategory
-
 ```http
 /api/v1/List/ProductCategory
 ```

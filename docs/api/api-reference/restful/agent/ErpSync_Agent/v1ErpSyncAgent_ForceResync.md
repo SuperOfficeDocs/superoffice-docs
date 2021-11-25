@@ -1,9 +1,9 @@
 ---
-title: ForceResync
+title: POST Agents/ErpSync/ForceResync
 id: v1ErpSyncAgent_ForceResync
 ---
 
-# ForceResync
+# POST Agents/ErpSync/ForceResync
 
 ```http
 POST /api/v1/Agents/ErpSync/ForceResync
@@ -85,14 +85,14 @@ Response body: object
 POST /api/v1/Agents/ErpSync/ForceResync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 798,
+  "ErpConnectionId": 726,
   "InternalKeyIds": [
-    168,
-    174
+    566,
+    265
   ]
 }
 ```
@@ -102,10 +102,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "tempora",
-  "TechExplanation": "enim",
-  "ErrorCode": "deserunt",
+  "IsOk": false,
+  "UserExplanation": "non",
+  "TechExplanation": "quisquam",
+  "ErrorCode": "qui",
   "Changes": {
     "AddedRecords": [
       {},
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 621
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "productize global systems"
   },
   "FieldProperties": {
     "fieldName": {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   }
 }

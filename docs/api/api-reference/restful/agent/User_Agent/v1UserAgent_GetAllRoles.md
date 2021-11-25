@@ -1,9 +1,9 @@
 ---
-title: GetAllRoles
+title: POST Agents/User/GetAllRoles
 id: v1UserAgent_GetAllRoles
 ---
 
-# GetAllRoles
+# POST Agents/User/GetAllRoles
 
 ```http
 POST /api/v1/Agents/User/GetAllRoles
@@ -90,7 +90,7 @@ Response body: array
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Nader-Schoen",
-    "ToolTip": "Illum at deserunt consequatur ipsum.",
-    "Deleted": true,
-    "Rank": 668,
-    "Type": "nisi",
-    "ColorBlock": 834,
-    "IconHint": "quas",
-    "Selected": true,
-    "LastChanged": "2007-03-07T14:58:05.5680598+01:00",
+    "Id": 310,
+    "Name": "White Group",
+    "ToolTip": "Ea odit dolorem iure delectus dignissimos.",
+    "Deleted": false,
+    "Rank": 118,
+    "Type": "minus",
+    "ColorBlock": 319,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2019-04-20T18:28:50.568412+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Mueller-Carroll",
-        "ToolTip": "Aut ratione cum ratione.",
+        "Id": 259,
+        "Name": "Gusikowski-Swaniawski",
+        "ToolTip": "Ut enim rerum dolorem vero natus animi.",
         "Deleted": false,
-        "Rank": 564,
-        "Type": "aut",
-        "ColorBlock": 826,
-        "IconHint": "odit",
-        "Selected": true,
-        "LastChanged": "2012-09-21T14:58:05.5680598+02:00",
+        "Rank": 877,
+        "Type": "earum",
+        "ColorBlock": 873,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2009-01-09T18:28:50.568412+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Kurtis Kulas",
+        "ExtraInfo": "et",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Melba Gleason",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,16 +141,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 614
+            "FieldType": "System.Int32",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "aut",
+    "ExtraInfo": "et",
+    "StyleHint": "sapiente",
     "Hidden": true,
-    "FullName": "Sibyl Hamill",
+    "FullName": "Ethan Beatty",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -159,10 +159,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose open-source schemas"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldLength": 55
       }
     }
   }

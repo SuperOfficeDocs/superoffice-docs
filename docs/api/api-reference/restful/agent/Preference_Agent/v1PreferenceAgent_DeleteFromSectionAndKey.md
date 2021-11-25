@@ -1,9 +1,9 @@
 ---
-title: DeleteFromSectionAndKey
+title: POST Agents/Preference/DeleteFromSectionAndKey
 id: v1PreferenceAgent_DeleteFromSectionAndKey
 ---
 
-# DeleteFromSectionAndKey
+# POST Agents/Preference/DeleteFromSectionAndKey
 
 ```http
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey

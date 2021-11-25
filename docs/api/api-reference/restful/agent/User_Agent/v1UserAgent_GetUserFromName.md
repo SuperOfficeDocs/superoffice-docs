@@ -1,9 +1,9 @@
 ---
-title: GetUserFromName
+title: POST Agents/User/GetUserFromName
 id: v1UserAgent_GetUserFromName
 ---
 
-# GetUserFromName
+# POST Agents/User/GetUserFromName
 
 ```http
 POST /api/v1/Agents/User/GetUserFromName
@@ -104,11 +104,11 @@ Response body: object
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Friesen-Klocko"
+  "UserName": "Herzog, McKenzie and Goyette"
 }
 ```
 
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 628,
-  "Name": "Gislason Inc and Sons",
-  "Rank": 429,
-  "Tooltip": "qui",
+  "AssociateId": 464,
+  "Name": "Treutel, Ledner and Gleichner",
+  "Rank": 33,
+  "Tooltip": "explicabo",
   "LicenseOwners": [
     {
-      "Name": "Cremin-Klocko",
-      "Description": "Re-engineered foreground projection",
+      "Name": "Dibbert, Konopelski and Crooks",
+      "Description": "Intuitive object-oriented productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 224
         }
       }
     },
     {
-      "Name": "Cremin-Klocko",
-      "Description": "Re-engineered foreground projection",
+      "Name": "Dibbert, Konopelski and Crooks",
+      "Description": "Intuitive object-oriented productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -164,32 +164,32 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 224
         }
       }
     }
   ],
   "Role": {
-    "Id": 708,
-    "Value": "dolorem",
-    "Tooltip": "ex",
+    "Id": 657,
+    "Value": "veniam",
+    "Tooltip": "recusandae",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "harness out-of-the-box infomediaries"
+          "Reason": "recontextualize integrated deliverables"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   },
   "UserGroup": {
-    "Value": "rerum",
-    "Tooltip": "ea",
-    "Id": 663,
-    "Rank": 107,
+    "Value": "maiores",
+    "Tooltip": "quibusdam",
+    "Id": 472,
+    "Rank": 715,
     "Deleted": false,
     "TableRight": {},
     "FieldProperties": {
@@ -199,17 +199,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldLength": 343
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "sed",
-      "Id": 103,
-      "Rank": 260,
-      "Deleted": false,
+      "Value": "molestiae",
+      "Tooltip": "praesentium",
+      "Id": 13,
+      "Rank": 810,
+      "Deleted": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -218,51 +218,51 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 370
         }
       }
     }
   ],
   "Person": {
-    "Position": "sapiente",
-    "PersonId": 353,
-    "Mrmrs": "enim",
-    "Firstname": "Arielle",
-    "Lastname": "Crooks",
-    "MiddleName": "Pacocha, Roob and Kiehn",
-    "Title": "dolores",
-    "Description": "Organized bi-directional alliance",
-    "Email": "caroline@millsking.info",
-    "FullName": "Donny Haley III",
-    "DirectPhone": "1-000-555-4450 x075",
-    "FormalName": "Ortiz Inc and Sons",
-    "CountryId": 895,
-    "ContactId": 453,
-    "ContactName": "Kozey-Windler",
-    "Retired": 972,
-    "Rank": 222,
-    "ActiveInterests": 566,
-    "ContactDepartment": "",
-    "ContactCountryId": 118,
-    "ContactOrgNr": "1419905",
-    "FaxPhone": "602.851.5517 x800",
-    "MobilePhone": "(002)857-5276 x850",
-    "ContactPhone": "(464)867-7878 x07056",
-    "AssociateName": "Moen-Koelpin",
-    "AssociateId": 854,
-    "UsePersonAddress": true,
-    "ContactFax": "quos",
-    "Kanafname": "qui",
-    "Kanalname": "itaque",
-    "Post1": "blanditiis",
-    "Post2": "natus",
-    "Post3": "alias",
-    "EmailName": "petra@keeling.co.uk",
-    "ContactFullName": "Dasia Miller Sr.",
-    "ActiveErpLinks": 270,
-    "TicketPriorityId": 384,
-    "SupportLanguageId": 939,
-    "SupportAssociateId": 760,
+    "Position": "maxime",
+    "PersonId": 181,
+    "Mrmrs": "delectus",
+    "Firstname": "Verner",
+    "Lastname": "Cremin",
+    "MiddleName": "Gibson LLC",
+    "Title": "placeat",
+    "Description": "Universal client-driven parallelism",
+    "Email": "emile.zboncak@kutch.us",
+    "FullName": "Nadia Denesik",
+    "DirectPhone": "1-013-573-1085",
+    "FormalName": "Rogahn, Sipes and Collins",
+    "CountryId": 673,
+    "ContactId": 638,
+    "ContactName": "Hilll, Parker and Simonis",
+    "Retired": 285,
+    "Rank": 283,
+    "ActiveInterests": 874,
+    "ContactDepartment": "extend visionary users",
+    "ContactCountryId": 866,
+    "ContactOrgNr": "653501",
+    "FaxPhone": "1-777-078-6436 x172",
+    "MobilePhone": "511-712-2037 x722",
+    "ContactPhone": "852-740-0880 x76272",
+    "AssociateName": "Corwin LLC",
+    "AssociateId": 555,
+    "UsePersonAddress": false,
+    "ContactFax": "qui",
+    "Kanafname": "doloremque",
+    "Kanalname": "consectetur",
+    "Post1": "et",
+    "Post2": "voluptatem",
+    "Post3": "similique",
+    "EmailName": "selena_reynolds@goldnerheaney.us",
+    "ContactFullName": "Leland Dare",
+    "ActiveErpLinks": 37,
+    "TicketPriorityId": 35,
+    "SupportLanguageId": 387,
+    "SupportAssociateId": 988,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -271,24 +271,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   },
   "Deleted": true,
-  "Lastlogin": "2009-07-08T14:58:05.4416229+02:00",
-  "Lastlogout": "2002-05-25T14:58:05.4416229+02:00",
-  "EjUserId": 547,
-  "RequestSignature": "maiores",
+  "Lastlogin": "2001-05-24T18:28:50.4434119+02:00",
+  "Lastlogout": "2005-03-08T18:28:50.4434119+01:00",
+  "EjUserId": 606,
+  "RequestSignature": "a",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "voluptates",
-      "DisplayValue": "libero",
+      "Value": "numquam",
+      "DisplayValue": "sapiente",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -297,14 +297,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 416
         }
       }
     },
     {
       "Type": {},
-      "Value": "voluptates",
-      "DisplayValue": "libero",
+      "Value": "numquam",
+      "DisplayValue": "sapiente",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -313,29 +313,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 416
         }
       }
     }
   ],
-  "UserName": "Johnson Inc and Sons",
+  "UserName": "Metz Group",
   "TicketCategories": [
     {
-      "Id": 253,
-      "Name": "Emmerich-Morar",
-      "ToolTip": "Dicta tempora non quia nisi ipsum voluptates.",
+      "Id": 878,
+      "Name": "Gutkowski Inc and Sons",
+      "ToolTip": "Omnis fuga repellat soluta quia.",
       "Deleted": false,
-      "Rank": 47,
+      "Rank": 75,
       "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "qui",
-      "ColorBlock": 128,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "corporis",
-      "FullName": "Erin Daniel",
+      "ColorBlock": 28,
+      "ExtraInfo": "iusto",
+      "StyleHint": "consequuntur",
+      "FullName": "April Koepp",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -344,29 +344,29 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 176
         }
       }
     }
   ],
-  "NickName": "Lockman LLC",
+  "NickName": "Grant, Marquardt and Champlin",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "saepe"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "sit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Klein LLC",
-      "DisplayName": "Langworth LLC",
-      "Description": "Seamless full-range policy",
-      "ToolTip": "Sunt quaerat.",
+      "Name": "Bruen Inc and Sons",
+      "DisplayName": "Connelly, Hettinger and Moore",
+      "Description": "Visionary fresh-thinking approach",
+      "ToolTip": "Eum qui.",
       "Actions": "Implicit",
-      "ActionData": "sed",
+      "ActionData": "veritatis",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -375,7 +375,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldLength": 337
         }
       }
     }
@@ -391,7 +391,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldLength": 946
     }
   }
 }

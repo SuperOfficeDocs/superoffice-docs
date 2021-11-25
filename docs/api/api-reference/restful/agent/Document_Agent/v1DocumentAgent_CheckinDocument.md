@@ -1,9 +1,9 @@
 ---
-title: CheckinDocument
+title: POST Agents/Document/CheckinDocument
 id: v1DocumentAgent_CheckinDocument
 ---
 
-# CheckinDocument
+# POST Agents/Document/CheckinDocument
 
 ```http
 POST /api/v1/Agents/Document/CheckinDocument
@@ -79,19 +79,19 @@ Response body: object
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 156,
+  "DocumentId": 732,
   "AllowedReturnTypes": [
-    "qui",
-    "et"
+    "quae",
+    "quo"
   ],
-  "VersionDescription": "Enhanced zero administration data-warehouse",
+  "VersionDescription": "Upgradable web-enabled implementation",
   "VersionExtraFields": [
-    "nostrum",
-    "deleniti"
+    "fugit",
+    "dicta"
   ]
 }
 ```
@@ -101,11 +101,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "praesentium",
-  "VersionId": "ipsam",
-  "Success": false,
+  "ExternalReference": "rerum",
+  "VersionId": "dolor",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "numquam",
-  "AdditionalInfo": "et"
+  "Value": "accusamus",
+  "AdditionalInfo": "eligendi"
 }
 ```

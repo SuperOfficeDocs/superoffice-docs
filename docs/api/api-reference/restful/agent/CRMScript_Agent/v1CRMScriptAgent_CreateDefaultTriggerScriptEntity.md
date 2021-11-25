@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTriggerScriptEntity
+title: POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
 id: v1CRMScriptAgent_CreateDefaultTriggerScriptEntity
 ---
 
-# CreateDefaultTriggerScriptEntity
+# POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 721,
-  "Name": "Rice-Spencer",
+  "ScreenChooserId": 934,
+  "Name": "Goodwin, Cormier and Monahan",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "repellendus",
-  "Source": "nostrum",
-  "Registered": "2009-06-11T14:58:03.7384605+02:00",
-  "RegisteredAssociateId": 77,
-  "Updated": "2000-05-28T14:58:03.7384605+02:00",
-  "UpdatedAssociateId": 225,
+  "Enabled": true,
+  "UniqueIdentifier": "nobis",
+  "Source": "a",
+  "Registered": "2018-01-05T18:28:48.6299298+01:00",
+  "RegisteredAssociateId": 241,
+  "Updated": "1998-01-10T18:28:48.6299298+01:00",
+  "UpdatedAssociateId": 359,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldLength": 237
     }
   }
 }

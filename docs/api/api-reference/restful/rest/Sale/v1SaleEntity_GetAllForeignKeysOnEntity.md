@@ -54,7 +54,7 @@ Response body: object
 GET /api/v1/Sale/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -62,7 +62,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "maiores",
-  "2": "maxime"
+  "1": "quaerat",
+  "2": "deserunt"
 }
 ```

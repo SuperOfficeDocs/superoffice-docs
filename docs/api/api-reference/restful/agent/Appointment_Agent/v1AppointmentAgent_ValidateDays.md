@@ -1,9 +1,9 @@
 ---
-title: ValidateDays
+title: POST Agents/Appointment/ValidateDays
 id: v1AppointmentAgent_ValidateDays
 ---
 
-# ValidateDays
+# POST Agents/Appointment/ValidateDays
 
 ```http
 POST /api/v1/Agents/Appointment/ValidateDays
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,35 +85,35 @@ Content-Type: application/json; charset=utf-8
     "Contact": {},
     "CreatedBy": {},
     "UpdatedBy": {},
-    "CreatedDate": "2003-07-18T14:58:03.2015728+02:00",
-    "AppointmentId": 840,
-    "Description": "Cloned zero administration synergy",
-    "StartDate": "2011-06-09T14:58:03.2015728+02:00",
-    "EndDate": "2014-10-02T14:58:03.2015728+02:00",
+    "CreatedDate": "1996-08-10T18:28:48.0568502+02:00",
+    "AppointmentId": 371,
+    "Description": "De-engineered bi-directional system engine",
+    "StartDate": "2021-05-24T18:28:48.0568502+02:00",
+    "EndDate": "1999-09-07T18:28:48.0568502+02:00",
     "InvitedPerson": {},
     "Person": {},
-    "MotherId": 583,
+    "MotherId": 431,
     "Priority": {},
     "Private": "PrivateGroup",
     "Project": {},
     "Type": "BookingForChecklist",
-    "UpdatedDate": "2013-07-28T14:58:03.2015728+02:00",
+    "UpdatedDate": "1998-08-18T18:28:48.0568502+02:00",
     "Completed": "Completed",
-    "ActiveLinks": 669,
+    "ActiveLinks": 956,
     "Links": [
       {},
       {}
     ],
-    "AlarmLeadTime": "amet",
+    "AlarmLeadTime": "omnis",
     "HasAlarm": false,
-    "ColorIndex": 117,
-    "IsFree": true,
-    "IsAlldayEvent": true,
-    "LagTime": "rerum",
-    "LeadTime": "sit",
-    "Location": "aliquam",
-    "RejectCounter": 317,
-    "RejectReason": "scale end-to-end users",
+    "ColorIndex": 184,
+    "IsFree": false,
+    "IsAlldayEvent": false,
+    "LagTime": "molestiae",
+    "LeadTime": "hic",
+    "Location": "ipsam",
+    "RejectCounter": 937,
+    "RejectReason": "",
     "Recurrence": {},
     "Participants": [
       {},
@@ -122,33 +122,33 @@ Content-Type: application/json; charset=utf-8
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
-    "ActiveDate": "1998-11-08T14:58:03.2015728+01:00",
-    "HasConflict": false,
+    "ActiveDate": "2002-06-03T18:28:48.0568502+02:00",
+    "HasConflict": true,
     "AssignedBy": {},
     "MotherAssociate": {},
     "Task": {},
-    "PreferredTZLocation": 83,
+    "PreferredTZLocation": 704,
     "Sale": {},
-    "SuggestedAppointmentId": 115,
+    "SuggestedAppointmentId": 58,
     "IsMileStone": false,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "voluptates",
+    "CentralserviceVideomeetId": "sapiente",
     "UserDefinedFields": {
-      "SuperOffice:1": "True",
-      "SuperOffice:2": "Quinten White"
+      "SuperOffice:1": "Miss Hudson Harris",
+      "SuperOffice:2": "Mr. Alana Bergnaum"
     },
     "ExtraFields": {
-      "ExtraFields1": "qui",
-      "ExtraFields2": "vero"
+      "ExtraFields1": "illum",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "voluptas",
-      "CustomFields2": "qui"
+      "CustomFields1": "fuga",
+      "CustomFields2": "quae"
     },
-    "PublishEventDate": "2002-09-12T14:58:03.2015728+02:00",
-    "PublishTo": "2002-01-31T14:58:03.2015728+01:00",
-    "PublishFrom": "2005-03-06T14:58:03.2015728+01:00",
+    "PublishEventDate": "1999-08-12T18:28:48.0568502+02:00",
+    "PublishTo": "1994-10-23T18:28:48.0568502+02:00",
+    "PublishFrom": "2009-03-30T18:28:48.0568502+02:00",
     "IsPublished": true,
     "VisibleFor": [
       {},
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
     ]
   },
   "Dates": [
-    "quia",
-    "rerum"
+    "et",
+    "iste"
   ]
 }
 ```
@@ -168,18 +168,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2017-04-17T14:58:03.2015728+02:00",
-    "IsConflict": true,
-    "Description": "Phased bandwidth-monitored capacity",
-    "DescriptionStyleHint": "Re-contextualized directional project",
-    "Tooltip": "aut"
+    "Date": "1998-04-14T18:28:48.0578499+02:00",
+    "IsConflict": false,
+    "Description": "Expanded full-range superstructure",
+    "DescriptionStyleHint": "Mandatory real-time system engine",
+    "Tooltip": "eveniet"
   },
   {
-    "Date": "2017-04-17T14:58:03.2015728+02:00",
-    "IsConflict": true,
-    "Description": "Phased bandwidth-monitored capacity",
-    "DescriptionStyleHint": "Re-contextualized directional project",
-    "Tooltip": "aut"
+    "Date": "1998-04-14T18:28:48.0578499+02:00",
+    "IsConflict": false,
+    "Description": "Expanded full-range superstructure",
+    "DescriptionStyleHint": "Mandatory real-time system engine",
+    "Tooltip": "eveniet"
   }
 ]
 ```

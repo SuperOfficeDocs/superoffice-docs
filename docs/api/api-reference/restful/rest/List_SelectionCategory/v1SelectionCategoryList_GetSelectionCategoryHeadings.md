@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 723,
-    "Name": "Stehr-Kling",
-    "Tooltip": "commodi",
-    "Deleted": false,
-    "Rank": 278,
-    "UdListDefinitionId": 880,
+    "HeadingId": 282,
+    "Name": "Hermiston Group",
+    "Tooltip": "a",
+    "Deleted": true,
+    "Rank": 27,
+    "UdListDefinitionId": 818,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 938
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 159,
-  "Name": "Upton, Mante and Fritsch",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 672,
-  "UdListDefinitionId": 618
+  "HeadingId": 750,
+  "Name": "Parker-Purdy",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 639,
+  "UdListDefinitionId": 533
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 69,
-  "Name": "Schinner-Torp",
-  "Tooltip": "alias",
+  "HeadingId": 126,
+  "Name": "Wyman-Wolf",
+  "Tooltip": "repellendus",
   "Deleted": true,
-  "Rank": 889,
-  "UdListDefinitionId": 413,
+  "Rank": 74,
+  "UdListDefinitionId": 841,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "drive rich metrics"
   },
   "FieldProperties": {
     "fieldName": {
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 963
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: RemoveStoredFields
+title: POST Agents/BulkUpdate/RemoveStoredFields
 id: v1BulkUpdateAgent_RemoveStoredFields
 ---
 
-# RemoveStoredFields
+# POST Agents/BulkUpdate/RemoveStoredFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nader, Aufderhar and Weber",
-  "Context": "dolore"
+  "TableName": "Schoen-Larkin",
+  "Context": "et"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultProjectEventEntity
+title: POST Agents/Project/CreateDefaultProjectEventEntity
 id: v1ProjectAgent_CreateDefaultProjectEventEntity
 ---
 
-# CreateDefaultProjectEventEntity
+# POST Agents/Project/CreateDefaultProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "libero",
-  "SignOffText": "quo",
+  "SignOffConfirmationText": "non",
+  "SignOffText": "autem",
   "SignOnConfirmationText": "sit",
-  "SignOnText": "dolorem",
-  "EventDate": "1998-10-29T14:58:04.8934656+01:00",
-  "Enabled": false,
-  "CreatedDate": "1998-10-30T14:58:04.8934656+01:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 794,
-  "SignOffTriggersAssign": true,
+  "SignOnText": "odio",
+  "EventDate": "2015-03-23T18:28:49.873117+01:00",
+  "Enabled": true,
+  "CreatedDate": "2013-10-23T18:28:49.873117+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 641,
+  "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 297,
+  "SignOnTaskId": 975,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2000-01-01T14:58:04.8934656+01:00",
+  "UpdatedDate": "2009-10-31T18:28:49.873117+01:00",
   "CreatedBy": {
-    "AssociateId": 129,
-    "Name": "Langworth Group",
-    "PersonId": 568,
-    "Rank": 817,
-    "Tooltip": "voluptatem",
+    "AssociateId": 785,
+    "Name": "O'Hara, Jenkins and Schulist",
+    "PersonId": 522,
+    "Rank": 787,
+    "Tooltip": "dolor",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 287,
-    "FullName": "Melody Murphy",
-    "FormalName": "Kohler-Halvorson",
+    "GroupIdx": 959,
+    "FullName": "Dr. Ashleigh Goldner",
+    "FormalName": "Abshire-Christiansen",
     "Deleted": true,
-    "EjUserId": 952,
-    "UserName": "Wunsch-Fisher",
+    "EjUserId": 250,
+    "UserName": "Vandervort, Fadel and Schuppe",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,57 +133,57 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 378
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 904,
-    "Name": "Turcotte Group",
-    "PersonId": 156,
-    "Rank": 102,
-    "Tooltip": "in",
+    "AssociateId": 397,
+    "Name": "Reynolds Inc and Sons",
+    "PersonId": 18,
+    "Rank": 161,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 930,
-    "FullName": "Candida Grant",
-    "FormalName": "Gleichner Inc and Sons",
+    "GroupIdx": 494,
+    "FullName": "Alyson Jacobi",
+    "FormalName": "Okuneva Group",
     "Deleted": true,
-    "EjUserId": 249,
-    "UserName": "Berge-Cassin",
+    "EjUserId": 200,
+    "UserName": "Cassin LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "monetize transparent niches"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldType": "System.String",
+        "FieldLength": 599
       }
     }
   },
-  "ProjectId": 141,
-  "Id": 550,
-  "PublishFrom": "2004-07-16T14:58:04.8944656+02:00",
+  "ProjectId": 780,
+  "Id": 457,
+  "PublishFrom": "1997-12-20T18:28:49.8741431+01:00",
   "PublishType": "External",
-  "PublishTo": "2020-02-15T14:58:04.8944656+01:00",
+  "PublishTo": "1999-02-11T18:28:49.8741431+01:00",
   "VisibleForCategories": [
     {
-      "Id": 464,
-      "Name": "Littel-Cronin",
-      "ToolTip": "Voluptas amet eveniet.",
-      "Deleted": true,
-      "Rank": 784,
-      "Type": "omnis",
+      "Id": 563,
+      "Name": "Johns, Jaskolski and Johnston",
+      "ToolTip": "Maxime impedit vitae qui a.",
+      "Deleted": false,
+      "Rank": 597,
+      "Type": "similique",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 681,
-      "ExtraInfo": "eos",
-      "StyleHint": "aliquam",
-      "FullName": "Mrs. Beryl Rogahn",
+      "IconHint": "pariatur",
+      "ColorBlock": 909,
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "et",
+      "FullName": "Wellington Anderson",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -192,28 +192,28 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 651
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 86,
-      "Name": "Gerlach Inc and Sons",
-      "ToolTip": "Qui aspernatur dolorem.",
-      "Deleted": false,
-      "Rank": 724,
-      "Type": "alias",
+      "Id": 239,
+      "Name": "Funk, Rippin and Baumbach",
+      "ToolTip": "Quo et doloribus expedita aspernatur accusantium ut.",
+      "Deleted": true,
+      "Rank": 349,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "commodi",
-      "ColorBlock": 168,
-      "ExtraInfo": "quis",
-      "StyleHint": "est",
-      "FullName": "Hellen Harvey",
+      "IconHint": "doloremque",
+      "ColorBlock": 983,
+      "ExtraInfo": "non",
+      "StyleHint": "fuga",
+      "FullName": "Annetta Upton Jr.",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -222,16 +222,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 373
+          "FieldLength": 892
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 398,
+  "IsPublished": false,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 705,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -240,10 +240,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark proactive supply-chains"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

@@ -53,7 +53,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -62,6 +62,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "et",
-  "2": "voluptas"
+  "2": "eos"
 }
 ```

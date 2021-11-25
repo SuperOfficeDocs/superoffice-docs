@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Kovacek-Beahan",
-  "Tooltip": "fugit",
+  "Id": 712,
+  "Name": "Lesch, Willms and Bosco",
+  "Tooltip": "inventore",
   "Deleted": true,
-  "UdListDefinitionId": 7,
-  "Rank": 884,
+  "UdListDefinitionId": 970,
+  "Rank": 141,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

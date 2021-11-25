@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedFieldFromIds
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
 ---
 
-# GetUserDefinedFieldFromIds
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
@@ -106,13 +106,13 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    104,
-    627
+    124,
+    35
   ]
 }
 ```
@@ -123,40 +123,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 32,
-    "ColumnId": 803,
-    "FieldDefault": "aut",
-    "FieldHeight": 669,
-    "FieldLabel": "repellendus",
-    "FieldLeft": 129,
-    "FieldTop": 740,
+    "UDefFieldId": 100,
+    "ColumnId": 724,
+    "FieldDefault": "libero",
+    "FieldHeight": 993,
+    "FieldLabel": "impedit",
+    "FieldLeft": 351,
+    "FieldTop": 993,
     "FieldType": "Checkbox",
-    "FieldWidth": 554,
-    "FormatMask": "incidunt",
-    "HideLabel": false,
+    "FieldWidth": 564,
+    "FormatMask": "et",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 483,
-    "LabelLeft": 577,
-    "LabelTop": 9,
-    "LabelWidth": 788,
-    "LastVersionId": 470,
-    "ListTableId": 267,
-    "IsMandatory": false,
+    "LabelHeight": 983,
+    "LabelLeft": 822,
+    "LabelTop": 560,
+    "LabelWidth": 447,
+    "LastVersionId": 969,
+    "ListTableId": 462,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 194,
-    "ProgId": "expedita",
-    "IsReadOnly": false,
-    "ShortLabel": "quisquam",
-    "TabOrder": 341,
-    "TextLength": 902,
-    "Tooltip": "non",
-    "UdefIdentity": 316,
-    "UDListDefinitionId": 688,
+    "Page1LineNo": 75,
+    "ProgId": "laboriosam",
+    "IsReadOnly": true,
+    "ShortLabel": "odio",
+    "TabOrder": 603,
+    "TextLength": 347,
+    "Tooltip": "et",
+    "UdefIdentity": 148,
+    "UDListDefinitionId": 771,
     "Justification": "Center",
-    "Version": 982,
-    "TemplateVariableName": "Turner-McDermott",
-    "HasBeenPublished": false,
-    "MdoListName": "Yundt LLC",
+    "Version": 357,
+    "TemplateVariableName": "Pacocha-Kutch",
+    "HasBeenPublished": true,
+    "MdoListName": "Bradtke-Breitenberg",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 341
       }
     }
   }

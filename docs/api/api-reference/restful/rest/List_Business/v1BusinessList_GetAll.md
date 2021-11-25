@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Gulgowski, Hoppe and Reichel",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 511,
-    "Rank": 69,
+    "Id": 269,
+    "Name": "Considine-Spencer",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "UdListDefinitionId": 847,
+    "Rank": 217,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "unleash end-to-end experiences"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

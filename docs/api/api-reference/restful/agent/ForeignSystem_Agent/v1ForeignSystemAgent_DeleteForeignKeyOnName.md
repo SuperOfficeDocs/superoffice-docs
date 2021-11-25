@@ -1,9 +1,9 @@
 ---
-title: DeleteForeignKeyOnName
+title: POST Agents/ForeignSystem/DeleteForeignKeyOnName
 id: v1ForeignSystemAgent_DeleteForeignKeyOnName
 ---
 
-# DeleteForeignKeyOnName
+# POST Agents/ForeignSystem/DeleteForeignKeyOnName
 
 ```http
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName

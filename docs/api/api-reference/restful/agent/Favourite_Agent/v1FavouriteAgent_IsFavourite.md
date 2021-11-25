@@ -1,9 +1,9 @@
 ---
-title: IsFavourite
+title: POST Agents/Favourite/IsFavourite
 id: v1FavouriteAgent_IsFavourite
 ---
 
-# IsFavourite
+# POST Agents/Favourite/IsFavourite
 
 ```http
 POST /api/v1/Agents/Favourite/IsFavourite
@@ -70,13 +70,13 @@ Response body: bool
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kunde Inc and Sons",
-  "RecordId": 749,
-  "AssociateId": 149
+  "TableName": "Stehr, Frami and Cummerata",
+  "RecordId": 581,
+  "AssociateId": 558
 }
 ```
 

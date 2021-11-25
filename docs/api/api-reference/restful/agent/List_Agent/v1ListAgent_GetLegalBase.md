@@ -1,9 +1,9 @@
 ---
-title: GetLegalBase
+title: POST Agents/List/GetLegalBase
 id: v1ListAgent_GetLegalBase
 ---
 
-# GetLegalBase
+# POST Agents/List/GetLegalBase
 
 ```http
 POST /api/v1/Agents/List/GetLegalBase
@@ -25,7 +25,7 @@ Gets a LegalBase object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=176
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=353
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ Response body: object
 POST /api/v1/Agents/List/GetLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 946,
-  "Name": "Ratke, Blanda and Altenwerth",
-  "Tooltip": "sunt",
-  "Rank": 761,
-  "Key": "quaerat",
+  "LegalBaseId": 321,
+  "Name": "Dare, Kozey and Ernser",
+  "Tooltip": "pariatur",
+  "Rank": 596,
+  "Key": "est",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

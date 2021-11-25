@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Beier, Gutkowski and Zemlak",
-    "ToolTip": "Quisquam et vero recusandae quasi.",
-    "Deleted": false,
-    "Rank": 7,
-    "Type": "esse",
-    "ColorBlock": 417,
-    "IconHint": "repellendus",
+    "Id": 283,
+    "Name": "Haag, Green and Mertz",
+    "ToolTip": "Hic sed natus adipisci mollitia ea.",
+    "Deleted": true,
+    "Rank": 321,
+    "Type": "sed",
+    "ColorBlock": 443,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2008-02-19T15:05:43.42251+01:00",
+    "LastChanged": "2017-03-13T18:25:51.8033355+01:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Luettgen Inc and Sons",
-        "ToolTip": "Voluptatem enim.",
+        "Id": 116,
+        "Name": "Dietrich Inc and Sons",
+        "ToolTip": "Soluta reprehenderit voluptate.",
         "Deleted": true,
-        "Rank": 537,
-        "Type": "sit",
-        "ColorBlock": 742,
-        "IconHint": "dolore",
-        "Selected": true,
-        "LastChanged": "2011-01-19T15:05:43.42251+01:00",
+        "Rank": 931,
+        "Type": "ducimus",
+        "ColorBlock": 470,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2000-05-05T18:25:51.8033355+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Frida Mueller",
+        "ExtraInfo": "vel",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Herman Monahan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "whiteboard cross-platform portals"
+              "Reason": "integrate one-to-one applications"
             },
-            "FieldType": "System.String",
-            "FieldLength": 976
+            "FieldType": "System.Int32",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "tenetur",
-    "Hidden": false,
-    "FullName": "Mozell Gulgowski",
+    "ExtraInfo": "et",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Mrs. Angela Lynch",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "incentivize back-end web services"
     },
     "FieldProperties": {
       "fieldName": {
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

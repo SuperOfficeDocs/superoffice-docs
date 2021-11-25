@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Harber, Miller and Kilback",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 752,
-    "UdListDefinitionId": 748
+    "HeadingId": 816,
+    "Name": "Padberg LLC",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 159,
+    "UdListDefinitionId": 166
   },
   {
-    "HeadingId": 607,
-    "Name": "Harber, Miller and Kilback",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 752,
-    "UdListDefinitionId": 748
+    "HeadingId": 816,
+    "Name": "Padberg LLC",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 159,
+    "UdListDefinitionId": 166
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 616,
-    "Name": "Lesch-Bogan",
-    "Tooltip": "quo",
+    "HeadingId": 125,
+    "Name": "Witting, Jenkins and Hirthe",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 455,
-    "UdListDefinitionId": 48,
+    "Rank": 580,
+    "UdListDefinitionId": 619,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "orchestrate compelling e-markets"
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 455
       }
     }
   }

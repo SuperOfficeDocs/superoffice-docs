@@ -1,9 +1,9 @@
 ---
-title: GetPaymentTerms
+title: POST Agents/List/GetPaymentTerms
 id: v1ListAgent_GetPaymentTerms
 ---
 
-# GetPaymentTerms
+# POST Agents/List/GetPaymentTerms
 
 ```http
 POST /api/v1/Agents/List/GetPaymentTerms
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Value": "qui",
-    "Tooltip": "cum",
+    "Id": 317,
+    "Value": "magnam",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 728
       }
     }
   },
   {
-    "Id": 380,
-    "Value": "qui",
-    "Tooltip": "cum",
+    "Id": 317,
+    "Value": "magnam",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 728
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetReportLabelLayoutEntity
+title: POST Agents/Report/GetReportLabelLayoutEntity
 id: v1ReportAgent_GetReportLabelLayoutEntity
 ---
 
-# GetReportLabelLayoutEntity
+# POST Agents/Report/GetReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=313
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=725
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -86,18 +86,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 918,
-  "Name": "Wilderman Group",
-  "Description": "Team-oriented multi-state secured line",
+  "ReportLabelLayoutId": 369,
+  "Name": "Abshire-Gulgowski",
+  "Description": "User-centric neutral model",
   "Orientation": "Landscape",
-  "PaperWidth": 234,
-  "PaperHeight": 163,
-  "LeftMargin": 455,
-  "RightMargin": 13,
-  "TopMargin": 791,
-  "BottomMargin": 556,
-  "CountColumns": 750,
-  "CountRows": 492,
+  "PaperWidth": 894,
+  "PaperHeight": 251,
+  "LeftMargin": 149,
+  "RightMargin": 887,
+  "TopMargin": 694,
+  "BottomMargin": 995,
+  "CountColumns": 932,
+  "CountRows": 509,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 94
     }
   }
 }

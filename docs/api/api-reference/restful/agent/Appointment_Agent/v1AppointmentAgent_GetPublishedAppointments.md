@@ -1,9 +1,9 @@
 ---
-title: GetPublishedAppointments
+title: POST Agents/Appointment/GetPublishedAppointments
 id: v1AppointmentAgent_GetPublishedAppointments
 ---
 
-# GetPublishedAppointments
+# POST Agents/Appointment/GetPublishedAppointments
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
@@ -121,13 +121,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    641,
-    889
+    789,
+    96
   ]
 }
 ```
@@ -138,53 +138,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 638,
-    "StartDate": "2017-07-09T14:58:02.8775729+02:00",
-    "EndDate": "2016-02-28T14:58:02.8775729+01:00",
+    "AppointmentId": 166,
+    "StartDate": "2019-03-31T18:28:47.7268467+02:00",
+    "EndDate": "2000-02-15T18:28:47.7268467+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eaque",
-    "AssociateFullName": "Scottie Upton",
-    "ContactName": "Kerluke, Langosh and Ebert",
-    "Description": "Integrated fault-tolerant hardware",
-    "PersonFullName": "Hershel Hauck",
-    "PersonId": 539,
-    "ContactId": 557,
-    "ProjectId": 325,
-    "ProjectName": "Mante Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 520,
-    "ColorIndex": 793,
+    "Task": "iusto",
+    "AssociateFullName": "Eden Schulist",
+    "ContactName": "Toy LLC",
+    "Description": "Implemented client-driven forecast",
+    "PersonFullName": "Macey Buckridge DVM",
+    "PersonId": 839,
+    "ContactId": 377,
+    "ProjectId": 776,
+    "ProjectName": "Hackett, Heaney and Kirlin",
+    "IsPublished": false,
+    "AssociateId": 427,
+    "ColorIndex": 692,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 344,
-    "PriorityName": "Marks LLC",
+    "PriorityId": 541,
+    "PriorityName": "Jacobs Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2018-12-05T14:58:02.8775729+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2011-08-11T18:28:47.7278443+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-08-31T14:58:02.8785762+02:00",
-    "RecurringEndDate": "2019-03-14T14:58:02.8785762+01:00",
-    "MotherId": 955,
-    "AssignedBy": 344,
-    "AssignedByFullName": "Mckayla Metz",
+    "RecurringStartDate": "1994-09-08T18:28:47.7278443+02:00",
+    "RecurringEndDate": "2006-07-09T18:28:47.7278443+02:00",
+    "MotherId": 754,
+    "AssignedBy": 48,
+    "AssignedByFullName": "Letha Trantow",
     "RejectReason": "",
-    "Location": "enim",
-    "AlarmLeadTime": "harum",
-    "SaleId": 948,
-    "SaleName": "Larson, McCullough and D'Amore",
-    "AssociateName": "Wolff-Kilback",
-    "CreatedDate": "2016-12-30T14:58:02.8785762+01:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Helena Ortiz",
-    "CreatedByAssociateId": 499,
+    "Location": "eos",
+    "AlarmLeadTime": "qui",
+    "SaleId": 287,
+    "SaleName": "Wolff-Medhurst",
+    "AssociateName": "Satterfield Group",
+    "CreatedDate": "1995-05-04T18:28:47.7278443+02:00",
+    "CreatedBy": "earum",
+    "CreatedByFullName": "Calista Cartwright",
+    "CreatedByAssociateId": 603,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -195,10 +195,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transition 24/7 networks"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

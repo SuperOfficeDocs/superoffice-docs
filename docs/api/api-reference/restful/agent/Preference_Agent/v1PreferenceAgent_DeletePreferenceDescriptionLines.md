@@ -1,9 +1,9 @@
 ---
-title: DeletePreferenceDescriptionLines
+title: POST Agents/Preference/DeletePreferenceDescriptionLines
 id: v1PreferenceAgent_DeletePreferenceDescriptionLines
 ---
 
-# DeletePreferenceDescriptionLines
+# POST Agents/Preference/DeletePreferenceDescriptionLines
 
 ```http
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines

@@ -1,9 +1,9 @@
 ---
-title: UpdateFeatureToggles
+title: POST Agents/CustomerService/UpdateFeatureToggles
 id: v1CustomerServiceAgent_UpdateFeatureToggles
 ---
 
-# UpdateFeatureToggles
+# POST Agents/CustomerService/UpdateFeatureToggles
 
 ```http
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles

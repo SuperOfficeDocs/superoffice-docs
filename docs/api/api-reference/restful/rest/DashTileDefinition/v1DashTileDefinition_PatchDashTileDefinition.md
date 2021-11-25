@@ -109,7 +109,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -127,45 +127,47 @@ Response body: object
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "enim",
     "value": {
       "value1": {
-        "PrimaryKey": 9651,
-        "EntityName": "person",
-        "personId": 9651,
-        "fullName": "Jarvis Cronin"
+        "PrimaryKey": 4216,
+        "EntityName": "sale",
+        "saleId": 4216,
+        "contactId": 3524,
+        "name": "Jewess Inc and Sons"
       },
       "value2": {
-        "PrimaryKey": 4646,
+        "PrimaryKey": 7820,
         "EntityName": "sale",
-        "saleId": 4646,
-        "contactId": 1536,
-        "name": "Morar, Stiedemann and Erdman"
+        "saleId": 7820,
+        "contactId": 2456,
+        "name": "Collier Group"
       }
     }
   },
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "enim",
     "value": {
       "value1": {
-        "PrimaryKey": 9651,
-        "EntityName": "person",
-        "personId": 9651,
-        "fullName": "Jarvis Cronin"
+        "PrimaryKey": 4216,
+        "EntityName": "sale",
+        "saleId": 4216,
+        "contactId": 3524,
+        "name": "Jewess Inc and Sons"
       },
       "value2": {
-        "PrimaryKey": 4646,
+        "PrimaryKey": 7820,
         "EntityName": "sale",
-        "saleId": 4646,
-        "contactId": 1536,
-        "name": "Morar, Stiedemann and Erdman"
+        "saleId": 7820,
+        "contactId": 2456,
+        "name": "Collier Group"
       }
     }
   }
@@ -177,27 +179,27 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 719,
-  "Name": "Bruen-Konopelski",
-  "Description": "Cross-platform dynamic hardware",
-  "DefaultHeight": 744,
-  "DefaultWidth": 189,
+  "DashboardTileDefinitionId": 168,
+  "Name": "Howell, Kuhic and Greenholt",
+  "Description": "Virtual regional implementation",
+  "DefaultHeight": 320,
+  "DefaultWidth": 293,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bayer-Nikolaus",
-  "SelectionId": 906,
+  "EntityName": "Davis, Berge and Predovic",
+  "SelectionId": 167,
   "CurrencyMode": "Base",
-  "CurrencyId": 273,
+  "CurrencyCode": "delectus",
   "Measure": "Average",
-  "MeasureField": "corporis",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "eius",
-  "SecondarySelectionId": 635,
-  "MeasureByField": "error",
-  "ProviderName": "Grady LLC",
+  "MeasureField": "cum",
+  "SortBy": "facere",
+  "LayoutConfig": "commodi",
+  "SecondarySelectionId": 728,
+  "MeasureByField": "autem",
+  "ProviderName": "Ullrich Group",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "maximize one-to-one ROI"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -206,12 +208,12 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 982
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Lehner, Kessler and Fritsch",
-  "Tooltip": "alias",
+  "Id": 105,
+  "Name": "Flatley, Bayer and Kilback",
+  "Tooltip": "dolore",
   "Deleted": true,
-  "Rank": 755,
+  "Rank": 389,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nobis",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "empower extensible portals"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   },
   "_Links": {

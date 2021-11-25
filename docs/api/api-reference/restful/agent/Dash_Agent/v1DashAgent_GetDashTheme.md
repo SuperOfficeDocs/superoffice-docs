@@ -1,9 +1,9 @@
 ---
-title: GetDashTheme
+title: POST Agents/Dash/GetDashTheme
 id: v1DashAgent_GetDashTheme
 ---
 
-# GetDashTheme
+# POST Agents/Dash/GetDashTheme
 
 ```http
 POST /api/v1/Agents/Dash/GetDashTheme
@@ -25,7 +25,7 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=497
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=561
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -65,6 +65,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/Dash/GetDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -82,10 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 572,
-  "Name": "Walker, McKenzie and Koelpin",
-  "Config": "voluptate",
-  "Rank": 830,
+  "DashboardThemeId": 863,
+  "Name": "Strosin-Littel",
+  "Config": "aut",
+  "Rank": 788,
+  "Client": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,7 +99,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 150
     }
   }
 }

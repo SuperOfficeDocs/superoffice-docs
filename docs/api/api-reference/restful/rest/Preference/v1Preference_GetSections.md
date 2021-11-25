@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,29 +74,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Bergstrom LLC",
-    "ToolTip": "Voluptas qui quae vel quo.",
-    "Deleted": true,
-    "Rank": 692,
+    "Id": 714,
+    "Name": "Ruecker-Moen",
+    "ToolTip": "Officia ut.",
+    "Deleted": false,
+    "Rank": 46,
     "Type": "aut",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Watsica, Nader and Flatley",
-        "ToolTip": "Nulla qui esse ad est saepe.",
+        "Id": 255,
+        "Name": "Hermann, Herman and Koch",
+        "ToolTip": "Sint aperiam quia.",
         "Deleted": true,
-        "Rank": 47,
-        "Type": "eos",
+        "Rank": 623,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 812,
-        "ExtraInfo": "officiis",
-        "StyleHint": "est",
-        "FullName": "Abigayle Wiza PhD",
+        "IconHint": "ab",
+        "ColorBlock": 557,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "voluptas",
+        "FullName": "River Stehr",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 93
+            "FieldLength": 509
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 786,
-    "ExtraInfo": "cum",
-    "StyleHint": "maxime",
-    "FullName": "Chad Paucek",
+    "IconHint": "et",
+    "ColorBlock": 253,
+    "ExtraInfo": "minus",
+    "StyleHint": "perspiciatis",
+    "FullName": "Stuart Leannon",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "synergize revolutionary content"
     },
     "FieldProperties": {
       "fieldName": {
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 607
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

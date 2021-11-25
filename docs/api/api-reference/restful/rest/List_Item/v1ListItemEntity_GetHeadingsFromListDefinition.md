@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -73,12 +73,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 442,
-    "Name": "Mraz, Roberts and Bechtelar",
-    "Tooltip": "eos",
+    "HeadingId": 964,
+    "Name": "Quigley LLC",
+    "Tooltip": "ipsum",
     "Deleted": true,
-    "Rank": 208,
-    "UdListDefinitionId": 525,
+    "Rank": 252,
+    "UdListDefinitionId": 244,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "benchmark vertical functionalities"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

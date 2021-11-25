@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Brakus-Pollich",
-    "ToolTip": "Tempore necessitatibus suscipit.",
+    "Id": 242,
+    "Name": "Crona-Walter",
+    "ToolTip": "Repudiandae repellat quibusdam molestiae debitis.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "doloribus",
-    "ColorBlock": 402,
-    "IconHint": "possimus",
+    "Rank": 795,
+    "Type": "voluptas",
+    "ColorBlock": 850,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2020-06-01T15:05:43.3425402+02:00",
+    "LastChanged": "1999-01-03T18:25:51.6742949+01:00",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Howell-Boyer",
-        "ToolTip": "Dolores repudiandae ratione quo officiis ipsum.",
+        "Id": 284,
+        "Name": "Cartwright-Gorczany",
+        "ToolTip": "Ut unde libero vel repudiandae voluptas.",
         "Deleted": true,
-        "Rank": 294,
-        "Type": "eaque",
-        "ColorBlock": 993,
-        "IconHint": "numquam",
+        "Rank": 400,
+        "Type": "sint",
+        "ColorBlock": 407,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2019-03-02T15:05:43.3425402+01:00",
+        "LastChanged": "1994-11-22T18:25:51.6742949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Robb Wintheiser",
+        "FullName": "Hans Gottlieb",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Alyson Fahey",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Jake Howell DVM",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 106
       }
     }
   }

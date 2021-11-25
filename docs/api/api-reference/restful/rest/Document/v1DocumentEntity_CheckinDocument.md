@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Ergonomic fresh-thinking help-desk
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=accusantium,aut
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Digitized exuding groupware
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,velit
 ```
 
 
@@ -75,7 +75,7 @@ Response body: object
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "nobis",
-  "Success": true,
+  "ExternalReference": "distinctio",
+  "VersionId": "rerum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "corrupti",
-  "AdditionalInfo": "cum"
+  "Value": "maiores",
+  "AdditionalInfo": "consequuntur"
 }
 ```

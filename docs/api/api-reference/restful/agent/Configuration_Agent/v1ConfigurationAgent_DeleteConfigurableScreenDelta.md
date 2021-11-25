@@ -1,9 +1,9 @@
 ---
-title: DeleteConfigurableScreenDelta
+title: POST Agents/Configuration/DeleteConfigurableScreenDelta
 id: v1ConfigurationAgent_DeleteConfigurableScreenDelta
 ---
 
-# DeleteConfigurableScreenDelta
+# POST Agents/Configuration/DeleteConfigurableScreenDelta
 
 ```http
 POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
@@ -24,7 +24,7 @@ Deletes the ConfigurableScreenDelta
 | ConfigurableScreenDeltaId | int32 | **Required** The id of the ConfigurableScreenDelta to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=424
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=82
 ```
 
 

@@ -1,9 +1,9 @@
 ---
-title: SaveContactRelation
+title: POST Agents/Relation/SaveContactRelation
 id: v1RelationAgent_SaveContactRelation
 ---
 
-# SaveContactRelation
+# POST Agents/Relation/SaveContactRelation
 
 ```http
 POST /api/v1/Agents/Relation/SaveContactRelation
@@ -95,29 +95,29 @@ Response body: object
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactRelationEntity": {
-    "SourceContactId": 850,
-    "SourcePersonId": 765,
-    "DestinationContactId": 403,
-    "DestinationPersonId": 88,
-    "RelationId": 288,
-    "Comment": "et",
-    "RelationDefinitionId": 614,
-    "Reversed": 273,
-    "UpdatedDate": "2007-08-22T14:58:05.0234654+02:00",
-    "CreatedDate": "2019-10-20T14:58:05.0234654+02:00",
+    "SourceContactId": 452,
+    "SourcePersonId": 71,
+    "DestinationContactId": 722,
+    "DestinationPersonId": 918,
+    "RelationId": 434,
+    "Comment": "corrupti",
+    "RelationDefinitionId": 909,
+    "Reversed": 368,
+    "UpdatedDate": "2021-02-15T18:28:50.0081396+01:00",
+    "CreatedDate": "2011-04-02T18:28:50.0081396+02:00",
     "CreatedBy": {},
     "UpdatedBy": {},
-    "SourceContactName": "Roob-Heathcote",
-    "SourcePersonName": "Adams, Bartell and Borer",
-    "DestinationContactName": "Schamberger, Mayer and Klocko",
-    "DestinationPersonName": "Cummings LLC",
-    "ActiveText": "qui",
-    "PassiveText": "perspiciatis"
+    "SourceContactName": "Ledner-Hodkiewicz",
+    "SourcePersonName": "Kreiger LLC",
+    "DestinationContactName": "Hilpert, Smith and Legros",
+    "DestinationPersonName": "Zieme-Koepp",
+    "ActiveText": "modi",
+    "PassiveText": "ut"
   }
 }
 ```
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 369,
-  "SourcePersonId": 130,
-  "DestinationContactId": 134,
-  "DestinationPersonId": 68,
-  "RelationId": 809,
-  "Comment": "eos",
-  "RelationDefinitionId": 305,
-  "Reversed": 551,
-  "UpdatedDate": "2015-03-24T14:58:05.024466+01:00",
-  "CreatedDate": "2021-05-25T14:58:05.024466+02:00",
+  "SourceContactId": 926,
+  "SourcePersonId": 833,
+  "DestinationContactId": 116,
+  "DestinationPersonId": 457,
+  "RelationId": 486,
+  "Comment": "iure",
+  "RelationDefinitionId": 520,
+  "Reversed": 600,
+  "UpdatedDate": "2007-10-22T18:28:50.0091369+02:00",
+  "CreatedDate": "2016-11-22T18:28:50.0091369+01:00",
   "CreatedBy": {
-    "AssociateId": 123,
-    "Name": "Strosin, Jakubowski and Ebert",
-    "PersonId": 713,
-    "Rank": 346,
-    "Tooltip": "aut",
+    "AssociateId": 324,
+    "Name": "Parisian-Towne",
+    "PersonId": 735,
+    "Rank": 212,
+    "Tooltip": "veritatis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 858,
-    "FullName": "Damien Vandervort",
-    "FormalName": "Mayer Group",
-    "Deleted": true,
-    "EjUserId": 311,
-    "UserName": "Bins, Heller and Kub",
+    "GroupIdx": 642,
+    "FullName": "Hunter Ebert",
+    "FormalName": "Friesen-Dicki",
+    "Deleted": false,
+    "EjUserId": 593,
+    "UserName": "Mohr, Runte and Walker",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -158,23 +158,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 84
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 545,
-    "Name": "Cormier Group",
-    "PersonId": 70,
-    "Rank": 960,
-    "Tooltip": "ut",
+    "AssociateId": 126,
+    "Name": "Goyette-Vandervort",
+    "PersonId": 670,
+    "Rank": 124,
+    "Tooltip": "ea",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 730,
-    "FullName": "Forrest Sauer",
-    "FormalName": "Hyatt-Zulauf",
+    "GroupIdx": 824,
+    "FullName": "Cecil Jaskolski",
+    "FormalName": "Kuhn Group",
     "Deleted": true,
-    "EjUserId": 513,
-    "UserName": "Upton, Crist and Rosenbaum",
+    "EjUserId": 755,
+    "UserName": "Huel-Turner",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -183,19 +183,19 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldLength": 865
       }
     }
   },
-  "SourceContactName": "Wehner-Runte",
-  "SourcePersonName": "Lockman-Rosenbaum",
-  "DestinationContactName": "Hodkiewicz, Schmidt and Hodkiewicz",
-  "DestinationPersonName": "McKenzie, Schaefer and Kirlin",
-  "ActiveText": "itaque",
-  "PassiveText": "pariatur",
+  "SourceContactName": "Rolfson, Ullrich and Jenkins",
+  "SourcePersonName": "Schamberger-Rempel",
+  "DestinationContactName": "O'Conner, Bogan and Heathcote",
+  "DestinationPersonName": "Ferry, Witting and Harris",
+  "ActiveText": "pariatur",
+  "PassiveText": "molestiae",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synthesize granular bandwidth"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetUserDefinedPageOneFields
+title: POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 id: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
 ---
 
-# GetUserDefinedPageOneFields
+# POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -107,12 +107,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 701
+  "UserGroupId": 551
 }
 ```
 
@@ -122,40 +122,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 778,
-    "ColumnId": 742,
-    "FieldDefault": "modi",
-    "FieldHeight": 298,
-    "FieldLabel": "quia",
-    "FieldLeft": 266,
-    "FieldTop": 469,
+    "UDefFieldId": 467,
+    "ColumnId": 529,
+    "FieldDefault": "earum",
+    "FieldHeight": 517,
+    "FieldLabel": "neque",
+    "FieldLeft": 858,
+    "FieldTop": 721,
     "FieldType": "Checkbox",
-    "FieldWidth": 196,
-    "FormatMask": "iste",
+    "FieldWidth": 749,
+    "FormatMask": "repellendus",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 72,
-    "LabelLeft": 218,
-    "LabelTop": 195,
-    "LabelWidth": 37,
-    "LastVersionId": 192,
-    "ListTableId": 145,
+    "IsIndexed": true,
+    "LabelHeight": 641,
+    "LabelLeft": 809,
+    "LabelTop": 426,
+    "LabelWidth": 602,
+    "LastVersionId": 115,
+    "ListTableId": 714,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 26,
-    "ProgId": "consectetur",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 508,
-    "TextLength": 221,
-    "Tooltip": "saepe",
-    "UdefIdentity": 807,
-    "UDListDefinitionId": 658,
+    "Page1LineNo": 54,
+    "ProgId": "fuga",
+    "IsReadOnly": false,
+    "ShortLabel": "non",
+    "TabOrder": 25,
+    "TextLength": 860,
+    "Tooltip": "et",
+    "UdefIdentity": 169,
+    "UDListDefinitionId": 375,
     "Justification": "Center",
-    "Version": 437,
-    "TemplateVariableName": "Douglas-Rau",
+    "Version": 626,
+    "TemplateVariableName": "Howell, Jakubowski and Gorczany",
     "HasBeenPublished": false,
-    "MdoListName": "Gutmann-Batz",
+    "MdoListName": "Von, Prosacco and Tremblay",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

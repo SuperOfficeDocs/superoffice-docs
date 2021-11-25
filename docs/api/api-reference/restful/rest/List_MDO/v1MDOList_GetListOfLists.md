@@ -49,7 +49,7 @@ Response body: array
 GET /api/v1/MDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ipsa",
-  "corrupti"
+  "ipsam",
+  "reprehenderit"
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: CreateConnectionFromConnectorName
+title: POST Agents/Quote/CreateConnectionFromConnectorName
 id: v1QuoteAgent_CreateConnectionFromConnectorName
 ---
 
-# CreateConnectionFromConnectorName
+# POST Agents/Quote/CreateConnectionFromConnectorName
 
 ```http
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Quitzon-Kutch"
+  "ConnectorName": "Lesch, Hilll and Veum"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 527,
-  "ERPName": "Gulgowski Group",
-  "DisplayName": "Littel, Hamill and Sipes",
-  "DisplayDescription": "Enhanced heuristic access",
-  "Rank": 428,
-  "ConnectorName": "Jakubowski LLC",
-  "ErpConnectionId": 580,
-  "ExtraData": "ut",
+  "QuoteConnectionId": 776,
+  "ERPName": "Stokes-Smitham",
+  "DisplayName": "Koepp, Kuhic and Berge",
+  "DisplayDescription": "Re-contextualized leading edge paradigm",
+  "Rank": 663,
+  "ConnectorName": "Upton Group",
+  "ErpConnectionId": 773,
+  "ExtraData": "voluptas",
   "IsAvailable": true,
   "InitializeResponse": {
     "IsOk": false,
-    "UserExplanation": "vero",
-    "TechExplanation": "illo",
-    "ErrorCode": "et",
+    "UserExplanation": "quas",
+    "TechExplanation": "enim",
+    "ErrorCode": "magni",
     "Changes": {},
     "TableRight": {},
     "FieldProperties": {
@@ -127,23 +127,23 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 975
       }
     }
   },
   "PriceLists": [
     {
-      "PriceListId": 822,
-      "ERPPriceListKey": "distinctio",
-      "QuoteConnectionId": 431,
-      "Name": "Gerhold, Wehner and Balistreri",
-      "Description": "Assimilated incremental throughput",
-      "Currency": "cupiditate",
-      "CurrencyName": "Ziemann, Toy and Fay",
-      "ValidFrom": "2000-12-07T14:58:04.9624652+01:00",
-      "ValidTo": "1996-02-09T14:58:04.9624652+01:00",
-      "IsActive": true,
+      "PriceListId": 906,
+      "ERPPriceListKey": "rerum",
+      "QuoteConnectionId": 755,
+      "Name": "Strosin, Schowalter and Murazik",
+      "Description": "Persevering incremental ability",
+      "Currency": "vitae",
+      "CurrencyName": "Spinka, Hintz and Boyle",
+      "ValidFrom": "2013-09-10T18:28:49.9371368+02:00",
+      "ValidTo": "2018-01-25T18:28:49.9371368+01:00",
+      "IsActive": false,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -151,21 +151,21 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    583,
-    245
+    995,
+    550
   ],
   "AssociateAccessIds": [
-    89,
-    163
+    625,
+    694
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 403
     }
   }
 }

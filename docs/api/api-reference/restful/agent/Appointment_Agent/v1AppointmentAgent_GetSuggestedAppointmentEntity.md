@@ -1,9 +1,9 @@
 ---
-title: GetSuggestedAppointmentEntity
+title: POST Agents/Appointment/GetSuggestedAppointmentEntity
 id: v1AppointmentAgent_GetSuggestedAppointmentEntity
 ---
 
-# GetSuggestedAppointmentEntity
+# POST Agents/Appointment/GetSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
@@ -25,7 +25,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=483
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=675
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 419,
-  "Name": "Williamson, Hudson and Yost",
-  "Tooltip": "maxime",
-  "Rank": 559,
-  "Deleted": false,
-  "DaysFuture": 459,
-  "Duration": "et",
+  "SuggestedAppointmentId": 662,
+  "Name": "Corkery, Veum and Cruickshank",
+  "Tooltip": "aut",
+  "Rank": 103,
+  "Deleted": true,
+  "DaysFuture": 468,
+  "Duration": "aut",
   "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "non",
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "amet",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 625,
-    "ProjTypeId": 267,
-    "ProjTypeName": "Gleason Inc and Sons",
-    "ProjTypeTooltip": "quae",
-    "ProjStatusId": 51,
-    "ProjStatusName": "Feil-Gibson",
-    "ProjStatusTooltip": "id",
+    "ProjectTypeStatusLinkId": 878,
+    "ProjTypeId": 231,
+    "ProjTypeName": "Dickens Inc and Sons",
+    "ProjTypeTooltip": "tenetur",
+    "ProjStatusId": 500,
+    "ProjStatusName": "Lehner, Emmerich and Marks",
+    "ProjStatusTooltip": "perferendis",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -115,19 +115,19 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 559
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 617,
-    "SaleTypeId": 684,
-    "SaleTypeName": "Marvin Inc and Sons",
-    "SaleTypeTooltip": "vel",
-    "ProbId": 235,
-    "ProbName": "Schinner Group",
-    "ProbTooltip": "ab",
-    "Probability": 760,
+    "SaleTypeStageLinkId": 207,
+    "SaleTypeId": 635,
+    "SaleTypeName": "Schowalter, Hahn and Kris",
+    "SaleTypeTooltip": "eos",
+    "ProbId": 687,
+    "ProbName": "Hahn, Gutkowski and Runolfsson",
+    "ProbTooltip": "nam",
+    "Probability": 318,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -135,15 +135,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   },
   "Type": {
-    "Id": 585,
-    "Value": "rerum",
-    "Tooltip": "nobis",
+    "Id": 568,
+    "Value": "consectetur",
+    "Tooltip": "ea",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 932
       }
     }
   },
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 342
     }
   }
 }

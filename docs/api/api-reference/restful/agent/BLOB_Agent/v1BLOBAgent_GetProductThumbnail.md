@@ -1,9 +1,9 @@
 ---
-title: GetProductThumbnail
+title: POST Agents/BLOB/GetProductThumbnail
 id: v1BLOBAgent_GetProductThumbnail
 ---
 
-# GetProductThumbnail
+# POST Agents/BLOB/GetProductThumbnail
 
 ```http
 POST /api/v1/Agents/BLOB/GetProductThumbnail
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 440
+  "ProductId": 666
 }
 ```
 

@@ -97,16 +97,16 @@ Response body: object
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 742,
-  "Name": "Steuber, Abbott and Rogahn",
-  "Tooltip": "ipsam",
-  "PassiveText": "eos",
-  "Deleted": true,
-  "Rank": 797,
+  "ReldefId": 509,
+  "Name": "Bartell LLC",
+  "Tooltip": "totam",
+  "PassiveText": "aperiam",
+  "Deleted": false,
+  "Rank": 767,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -117,12 +117,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 832,
-  "Name": "Tromp-Robel",
-  "Tooltip": "adipisci",
-  "PassiveText": "veniam",
+  "ReldefId": 854,
+  "Name": "Parisian-Cremin",
+  "Tooltip": "est",
+  "PassiveText": "eum",
   "Deleted": true,
-  "Rank": 934,
+  "Rank": 873,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -133,15 +133,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "aggregate strategic platforms"
+        "Reason": "implement best-of-breed communities"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

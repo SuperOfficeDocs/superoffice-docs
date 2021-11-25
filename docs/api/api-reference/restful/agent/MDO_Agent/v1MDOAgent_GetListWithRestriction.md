@@ -1,9 +1,9 @@
 ---
-title: GetListWithRestriction
+title: POST Agents/MDO/GetListWithRestriction
 id: v1MDOAgent_GetListWithRestriction
 ---
 
-# GetListWithRestriction
+# POST Agents/MDO/GetListWithRestriction
 
 ```http
 POST /api/v1/Agents/MDO/GetListWithRestriction
@@ -86,13 +86,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zboncak Group",
-  "AdditionalInfo": "non",
-  "SearchValue": "eos"
+  "Name": "Rippin, DuBuque and Larson",
+  "AdditionalInfo": "soluta",
+  "SearchValue": "et"
 }
 ```
 
@@ -102,29 +102,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Dibbert, Schiller and Waters",
-    "ToolTip": "Et sunt.",
+    "Id": 194,
+    "Name": "Kilback, Kirlin and Turcotte",
+    "ToolTip": "Rerum consectetur maxime ducimus dicta autem minus.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "consectetur",
+    "Rank": 994,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Cartwright, Haag and Kohler",
-        "ToolTip": "Ipsum et.",
+        "Id": 30,
+        "Name": "Rosenbaum Inc and Sons",
+        "ToolTip": "Nisi accusantium.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "ea",
+        "Rank": 521,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 226,
-        "ExtraInfo": "ut",
-        "StyleHint": "eum",
-        "FullName": "Laron Hickle",
+        "IconHint": "aliquam",
+        "ColorBlock": 98,
+        "ExtraInfo": "rerum",
+        "StyleHint": "molestiae",
+        "FullName": "Joel Roberts",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -132,20 +132,20 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 329
+            "FieldType": "System.Int32",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "eius",
-    "ColorBlock": 319,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "fuga",
-    "FullName": "Mrs. Florida Wuckert",
+    "IconHint": "ut",
+    "ColorBlock": 597,
+    "ExtraInfo": "odit",
+    "StyleHint": "modi",
+    "FullName": "Ms. Ken Grady",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "streamline viral technologies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldLength": 610
       }
     }
   }

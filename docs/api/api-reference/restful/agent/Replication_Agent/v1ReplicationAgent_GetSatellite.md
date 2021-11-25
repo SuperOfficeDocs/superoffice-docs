@@ -1,9 +1,9 @@
 ---
-title: GetSatellite
+title: POST Agents/Replication/GetSatellite
 id: v1ReplicationAgent_GetSatellite
 ---
 
-# GetSatellite
+# POST Agents/Replication/GetSatellite
 
 ```http
 POST /api/v1/Agents/Replication/GetSatellite
@@ -27,7 +27,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=428
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=533
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 451,
-  "Created": "2008-08-19T14:58:05.0906295+02:00",
+  "SatelliteId": 973,
+  "Created": "2016-10-30T18:28:50.0266978+01:00",
   "CreatedBy": {
-    "AssociateId": 647,
-    "Name": "Barton-Jaskolski",
-    "PersonId": 664,
-    "Rank": 163,
-    "Tooltip": "sit",
+    "AssociateId": 768,
+    "Name": "Brakus-Reynolds",
+    "PersonId": 633,
+    "Rank": 646,
+    "Tooltip": "id",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 568,
-    "FullName": "Lelah Littel",
-    "FormalName": "Farrell Group",
-    "Deleted": false,
-    "EjUserId": 156,
-    "UserName": "Heidenreich, Dickinson and Johnston",
+    "GroupIdx": 54,
+    "FullName": "Felipe Heathcote",
+    "FormalName": "Morissette-Smith",
+    "Deleted": true,
+    "EjUserId": 363,
+    "UserName": "Harber-Haag",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -107,24 +107,24 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldLength": 25
       }
     }
   },
-  "Updated": "2006-11-01T14:58:05.0916288+01:00",
+  "Updated": "2013-06-23T18:28:50.0266978+02:00",
   "UpdatedBy": {
-    "AssociateId": 31,
-    "Name": "Tremblay-Hane",
-    "PersonId": 169,
-    "Rank": 541,
-    "Tooltip": "aut",
+    "AssociateId": 615,
+    "Name": "Walsh, O'Keefe and Volkman",
+    "PersonId": 554,
+    "Rank": 984,
+    "Tooltip": "porro",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 835,
-    "FullName": "Ms. Alexander Zulauf",
-    "FormalName": "Trantow LLC",
+    "GroupIdx": 894,
+    "FullName": "Mercedes Ziemann",
+    "FormalName": "Oberbrunner-Smith",
     "Deleted": true,
-    "EjUserId": 645,
-    "UserName": "Rolfson-Bergnaum",
+    "EjUserId": 85,
+    "UserName": "Hirthe Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,52 +133,52 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 872
       }
     }
   },
   "Contact": {
-    "ContactId": 102,
-    "Name": "Ernser Inc and Sons",
-    "OrgNr": "1493767",
+    "ContactId": 770,
+    "Name": "Thiel-Lockman",
+    "OrgNr": "1059998",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "facere",
-    "DirectPhone": "323-030-6045 x6384",
-    "AssociateId": 786,
-    "CountryId": 257,
-    "EmailAddress": "ethyl@wintheiser.name",
-    "Kananame": "odio",
-    "EmailAddressName": "nettie.borer@mcglynn.com",
+    "City": "doloremque",
+    "DirectPhone": "621-738-6485",
+    "AssociateId": 653,
+    "CountryId": 638,
+    "EmailAddress": "magnolia.pfeffer@vonwaters.biz",
+    "Kananame": "quis",
+    "EmailAddressName": "alta@hayes.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Jermaine Hansen",
+    "AssociateFullName": "Anjali Howe",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {},
-    "FormattedAddress": "in",
-    "FullName": "Misty Homenick",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 913,
+    "FormattedAddress": "praesentium",
+    "FullName": "Laurine Erdman",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 739,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "enable cross-platform relationships"
         },
-        "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldType": "System.Int32",
+        "FieldLength": 133
       }
     }
   },
   "Area": {
-    "AreaId": 696,
-    "Name": "Kuhic Group",
-    "MaxDataAge": 602,
-    "NumberOfUsers": 832,
-    "NumberOfLogins": 790,
-    "FreetextEnabeled": false,
+    "AreaId": 787,
+    "Name": "Dach Group",
+    "MaxDataAge": 153,
+    "NumberOfUsers": 794,
+    "NumberOfLogins": 395,
+    "FreetextEnabeled": true,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -187,14 +187,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldLength": 97
       }
     }
   },
   "LicenseOwners": [
     {
-      "Name": "Gorczany-Friesen",
-      "Description": "User-friendly client-driven alliance",
+      "Name": "Barrows LLC",
+      "Description": "Optional tertiary model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -208,16 +208,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "empower vertical vortals"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldLength": 397
         }
       }
     },
     {
-      "Name": "Gorczany-Friesen",
-      "Description": "User-friendly client-driven alliance",
+      "Name": "Barrows LLC",
+      "Description": "Optional tertiary model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -231,10 +231,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "empower vertical vortals"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldLength": 397
         }
       }
     }
@@ -249,8 +249,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

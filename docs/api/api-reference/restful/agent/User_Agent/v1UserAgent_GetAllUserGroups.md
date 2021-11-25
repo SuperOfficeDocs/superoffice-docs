@@ -1,9 +1,9 @@
 ---
-title: GetAllUserGroups
+title: POST Agents/User/GetAllUserGroups
 id: v1UserAgent_GetAllUserGroups
 ---
 
-# GetAllUserGroups
+# POST Agents/User/GetAllUserGroups
 
 ```http
 POST /api/v1/Agents/User/GetAllUserGroups
@@ -93,10 +93,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "qui",
-    "Tooltip": "qui",
-    "Id": 777,
-    "Rank": 438,
+    "Value": "at",
+    "Tooltip": "omnis",
+    "Id": 501,
+    "Rank": 662,
     "Deleted": false,
     "TableRight": {
       "Mask": "Delete",
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

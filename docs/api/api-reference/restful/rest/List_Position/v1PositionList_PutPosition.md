@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Greenholt-Little",
-  "Tooltip": "doloremque",
+  "Id": 229,
+  "Name": "McGlynn-Ernser",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 162,
-  "Rank": 123
+  "UdListDefinitionId": 867,
+  "Rank": 712
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 115,
-  "Name": "Swift Group",
-  "Tooltip": "facere",
+  "Id": 631,
+  "Name": "Considine, Kulas and Cummings",
+  "Tooltip": "unde",
   "Deleted": true,
-  "UdListDefinitionId": 55,
-  "Rank": 11,
+  "UdListDefinitionId": 668,
+  "Rank": 66,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "benchmark strategic eyeballs"
       },
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

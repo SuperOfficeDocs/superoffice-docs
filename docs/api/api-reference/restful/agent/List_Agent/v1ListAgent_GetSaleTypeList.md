@@ -1,9 +1,9 @@
 ---
-title: GetSaleTypeList
+title: POST Agents/List/GetSaleTypeList
 id: v1ListAgent_GetSaleTypeList
 ---
 
-# GetSaleTypeList
+# POST Agents/List/GetSaleTypeList
 
 ```http
 POST /api/v1/Agents/List/GetSaleTypeList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetSaleTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Value": "expedita",
-    "Tooltip": "consequuntur",
+    "Id": 807,
+    "Value": "blanditiis",
+    "Tooltip": "ipsa",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldLength": 758
       }
     }
   },
   {
-    "Id": 603,
-    "Value": "expedita",
-    "Tooltip": "consequuntur",
+    "Id": 807,
+    "Value": "blanditiis",
+    "Tooltip": "ipsa",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldLength": 758
       }
     }
   }

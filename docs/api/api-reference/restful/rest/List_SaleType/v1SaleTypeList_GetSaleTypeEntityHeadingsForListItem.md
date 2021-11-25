@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Huel, Bartell and Funk",
-    "ToolTip": "Corrupti et placeat.",
+    "Id": 261,
+    "Name": "Steuber-Nader",
+    "ToolTip": "Quaerat natus perferendis consectetur et.",
     "Deleted": true,
-    "Rank": 202,
-    "Type": "minima",
-    "ColorBlock": 262,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2000-06-19T15:05:43.8001168+02:00",
+    "Rank": 298,
+    "Type": "accusantium",
+    "ColorBlock": 203,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2021-07-23T18:25:52.1919863+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Witting, Stoltenberg and Jewess",
-        "ToolTip": "Quia vel quod aut voluptates sed non.",
-        "Deleted": true,
-        "Rank": 650,
-        "Type": "eius",
-        "ColorBlock": 612,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2011-11-03T15:05:43.8001168+01:00",
+        "Id": 907,
+        "Name": "Leffler, Robel and Hegmann",
+        "ToolTip": "Minus autem et aliquam consectetur.",
+        "Deleted": false,
+        "Rank": 698,
+        "Type": "in",
+        "ColorBlock": 889,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "2010-05-03T18:25:52.1919863+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Caleigh Emard",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Dr. Anderson Johns",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldType": "System.String",
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ressie Kessler",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Brennon Terry",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

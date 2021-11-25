@@ -1,9 +1,9 @@
 ---
-title: AddHierarchyToPath
+title: POST Agents/List/AddHierarchyToPath
 id: v1ListAgent_AddHierarchyToPath
 ---
 
-# AddHierarchyToPath
+# POST Agents/List/AddHierarchyToPath
 
 ```http
 POST /api/v1/Agents/List/AddHierarchyToPath
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "iure",
-  "Name": "Bailey Group"
+  "Path": "aut",
+  "Name": "Heidenreich-Jacobs"
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 709,
+  "HierarchyId": 833,
   "Domain": "Dashboards",
-  "Name": "Kohler Inc and Sons",
-  "Fullname": "sed",
-  "ParentId": 750,
+  "Name": "Dooley Inc and Sons",
+  "Fullname": "repellat",
+  "ParentId": 323,
   "Children": [
     {
-      "HierarchyId": 75,
+      "HierarchyId": 150,
       "Domain": "Dashboards",
-      "Name": "Simonis, Ruecker and Upton",
-      "Fullname": "beatae",
-      "ParentId": 287,
+      "Name": "Weber-Reichert",
+      "Fullname": "quas",
+      "ParentId": 680,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-10-29T14:58:04.4074656+01:00",
-      "RegisteredAssociateId": 68,
-      "Updated": "2013-01-24T14:58:04.4074656+01:00",
-      "UpdatedAssociateId": 917,
+      "Registered": "2014-01-17T18:28:49.3401252+01:00",
+      "RegisteredAssociateId": 330,
+      "Updated": "2019-01-16T18:28:49.3401252+01:00",
+      "UpdatedAssociateId": 217,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -131,16 +131,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
   ],
-  "Registered": "1998-08-19T14:58:04.4074656+02:00",
-  "RegisteredAssociateId": 668,
-  "Updated": "2015-04-18T14:58:04.4074656+02:00",
-  "UpdatedAssociateId": 647,
+  "Registered": "2020-12-01T18:28:49.3401252+01:00",
+  "RegisteredAssociateId": 137,
+  "Updated": "1995-10-03T18:28:49.3401252+02:00",
+  "UpdatedAssociateId": 836,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

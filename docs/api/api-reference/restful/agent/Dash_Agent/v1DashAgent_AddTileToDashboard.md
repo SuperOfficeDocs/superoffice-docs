@@ -1,9 +1,9 @@
 ---
-title: AddTileToDashboard
+title: POST Agents/Dash/AddTileToDashboard
 id: v1DashAgent_AddTileToDashboard
 ---
 
-# AddTileToDashboard
+# POST Agents/Dash/AddTileToDashboard
 
 ```http
 POST /api/v1/Agents/Dash/AddTileToDashboard
@@ -88,8 +88,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 19,
-  "DashTileDefinitionId": 466
+  "DashboardId": 700,
+  "DashTileDefinitionId": 500
 }
 ```
 
@@ -98,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 694,
-  "DashboardId": 319,
-  "Height": 117,
-  "Width": 538,
-  "Rank": 833,
+  "DashboardTileId": 288,
+  "DashboardId": 621,
+  "Height": 991,
+  "Width": 610,
+  "Rank": 824,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 14,
-    "Name": "Thompson, Bahringer and Johns",
-    "Description": "Visionary dynamic knowledge base",
-    "DefaultHeight": 170,
-    "DefaultWidth": 77,
+    "DashboardTileDefinitionId": 600,
+    "Name": "Hand, Gulgowski and Klein",
+    "Description": "Programmable 5th generation interface",
+    "DefaultHeight": 392,
+    "DefaultWidth": 823,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Kunze Group",
-    "SelectionId": 160,
+    "EntityName": "Swaniawski-Monahan",
+    "SelectionId": 576,
     "CurrencyMode": "Base",
-    "CurrencyId": 750,
+    "CurrencyCode": "nihil",
     "Measure": "Average",
-    "MeasureField": "sint",
-    "SortBy": "voluptatem",
-    "LayoutConfig": "quo",
-    "SecondarySelectionId": 597,
-    "MeasureByField": "voluptates",
-    "ProviderName": "Carroll-Hintz",
+    "MeasureField": "aut",
+    "SortBy": "quo",
+    "LayoutConfig": "cupiditate",
+    "SecondarySelectionId": 674,
+    "MeasureByField": "quidem",
+    "ProviderName": "Upton, Harber and Luettgen",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 386
       }
     }
   },
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldLength": 904
     }
   }
 }

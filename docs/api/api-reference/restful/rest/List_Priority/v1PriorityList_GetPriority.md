@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Herzog, Wyman and Price",
-  "Tooltip": "sint",
+  "Id": 320,
+  "Name": "Cummerata Inc and Sons",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "UdListDefinitionId": 507,
-  "Rank": 63,
+  "UdListDefinitionId": 202,
+  "Rank": 135,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "target user-centric methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 851
     }
   }
 }

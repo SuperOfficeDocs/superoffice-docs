@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultAudienceLayoutEntity
+title: POST Agents/Audience/CreateDefaultAudienceLayoutEntity
 id: v1AudienceAgent_CreateDefaultAudienceLayoutEntity
 ---
 
-# CreateDefaultAudienceLayoutEntity
+# POST Agents/Audience/CreateDefaultAudienceLayoutEntity
 
 ```http
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -73,24 +73,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 388,
-  "InstanceLayout": "accusantium",
-  "InstanceName": "Gerhold, Mueller and Cummings",
-  "CreatedDate": "2001-10-12T14:58:03.2522354+02:00",
-  "UpdatedDate": "2004-10-30T14:58:03.2522354+02:00",
+  "AudienceLayoutId": 683,
+  "InstanceLayout": "et",
+  "InstanceName": "White-Stoltenberg",
+  "CreatedDate": "2009-02-03T18:28:48.1245431+01:00",
+  "UpdatedDate": "1999-01-23T18:28:48.1245431+01:00",
   "CreatedBy": {
-    "AssociateId": 1001,
-    "Name": "Huels Inc and Sons",
-    "PersonId": 374,
-    "Rank": 571,
-    "Tooltip": "consequatur",
+    "AssociateId": 291,
+    "Name": "Durgan Inc and Sons",
+    "PersonId": 492,
+    "Rank": 403,
+    "Tooltip": "nobis",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 455,
-    "FullName": "Lenna Funk",
-    "FormalName": "Hyatt-Dickinson",
-    "Deleted": false,
-    "EjUserId": 302,
-    "UserName": "Ullrich, Schimmel and Skiles",
+    "GroupIdx": 62,
+    "FullName": "Iva Turcotte",
+    "FormalName": "Kessler LLC",
+    "Deleted": true,
+    "EjUserId": 896,
+    "UserName": "Zboncak, Littel and Hamill",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -99,23 +99,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 964
+        "FieldLength": 169
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 216,
-    "Name": "Harber-Rowe",
-    "PersonId": 405,
-    "Rank": 129,
-    "Tooltip": "rerum",
+    "AssociateId": 562,
+    "Name": "Ledner LLC",
+    "PersonId": 772,
+    "Rank": 668,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 890,
-    "FullName": "Amber Klocko",
-    "FormalName": "Connelly, Kuhic and Lebsack",
-    "Deleted": true,
-    "EjUserId": 426,
-    "UserName": "Cole, Collier and Murphy",
+    "GroupIdx": 269,
+    "FullName": "Kaitlyn Fritsch",
+    "FormalName": "Towne, Jacobi and Huels",
+    "Deleted": false,
+    "EjUserId": 976,
+    "UserName": "Nikolaus-Keebler",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 55
       }
     }
   },
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldLength": 611
     }
   }
 }

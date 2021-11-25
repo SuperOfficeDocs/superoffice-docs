@@ -2,8 +2,6 @@
 title: List_TicketStatus
 ---
 
-# List_TicketStatus
-
 ```http
 /api/v1/List/TicketStatus
 ```

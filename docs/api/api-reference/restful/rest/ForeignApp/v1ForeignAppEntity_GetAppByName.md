@@ -71,51 +71,51 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 13 Sep 2010 15:05:42 G9T
+Last-Modified: Fri, 29 Mar 2013 18:25:50 G3T
 
 {
-  "ForeignAppId": 455,
-  "Name": "Beier-Dare",
-  "CreatedDate": "2007-09-04T15:05:42.2376635+02:00",
-  "UpdatedDate": "2010-09-13T15:05:42.2376635+02:00",
+  "ForeignAppId": 748,
+  "Name": "Kuhn, Hahn and Wolff",
+  "CreatedDate": "2007-10-15T18:25:50.5675972+02:00",
+  "UpdatedDate": "2013-03-29T18:25:50.5675972+01:00",
   "CreatedBy": {
-    "AssociateId": 359,
-    "Name": "Crooks-Oberbrunner",
-    "PersonId": 42,
-    "Rank": 866,
-    "Tooltip": "doloribus",
+    "AssociateId": 317,
+    "Name": "Roberts Inc and Sons",
+    "PersonId": 365,
+    "Rank": 494,
+    "Tooltip": "ut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 433,
-    "FullName": "Kale Maggio",
-    "FormalName": "Fadel, Trantow and Hammes",
+    "GroupIdx": 244,
+    "FullName": "Bennie Conroy",
+    "FormalName": "Streich-Kris",
     "Deleted": false,
-    "EjUserId": 597,
-    "UserName": "Medhurst, Kautzer and Murazik",
+    "EjUserId": 14,
+    "UserName": "Parker LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "whiteboard value-added supply-chains"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 368,
-    "Name": "Sporer Group",
-    "PersonId": 369,
-    "Rank": 17,
-    "Tooltip": "numquam",
+    "AssociateId": 885,
+    "Name": "Cruickshank Group",
+    "PersonId": 685,
+    "Rank": 40,
+    "Tooltip": "dolores",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 379,
-    "FullName": "Mr. Jodie Pagac",
-    "FormalName": "White-Kiehn",
-    "Deleted": true,
-    "EjUserId": 488,
-    "UserName": "Boyer Group",
+    "GroupIdx": 299,
+    "FullName": "Porter Muller",
+    "FormalName": "Beatty-Rosenbaum",
+    "Deleted": false,
+    "EjUserId": 114,
+    "UserName": "Schowalter, Thompson and Harber",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,22 +123,22 @@ Last-Modified: Mon, 13 Sep 2010 15:05:42 G9T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 834
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 763,
-      "Name": "Ward, Wisozk and Harris",
-      "CreatedDate": "2013-10-11T15:05:42.2376635+02:00",
-      "UpdatedDate": "2020-08-04T15:05:42.2376635+02:00",
-      "AssociateFullName": "Jose Ruecker",
-      "CreatedBy": "harum",
-      "UpdatedBy": "occaecati",
-      "DeviceIdentifier": "error",
-      "ForeignAppId": 640,
+      "ForeignDeviceId": 833,
+      "Name": "Strosin, Bernhard and Beahan",
+      "CreatedDate": "1997-12-11T18:25:50.5685967+01:00",
+      "UpdatedDate": "2003-10-16T18:25:50.5685967+02:00",
+      "AssociateFullName": "Jamar Bartell",
+      "CreatedBy": "eaque",
+      "UpdatedBy": "odit",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 83,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -146,8 +146,8 @@ Last-Modified: Mon, 13 Sep 2010 15:05:42 G9T
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 60
         }
       }
     }
@@ -163,7 +163,7 @@ Last-Modified: Mon, 13 Sep 2010 15:05:42 G9T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldLength": 586
     }
   }
 }

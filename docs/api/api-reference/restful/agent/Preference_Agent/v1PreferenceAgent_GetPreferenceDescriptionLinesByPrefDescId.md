@@ -1,9 +1,9 @@
 ---
-title: GetPreferenceDescriptionLinesByPrefDescId
+title: POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 id: v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
 ---
 
-# GetPreferenceDescriptionLinesByPrefDescId
+# POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 884
+  "PrefDescId": 969
 }
 ```
 
@@ -92,11 +92,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 86,
-    "PrefDescId": 902,
-    "PrefValue": "et",
-    "PrefShowValue": "adipisci",
-    "Description": "Reverse-engineered 3rd generation groupware",
+    "PrefDescLineId": 430,
+    "PrefDescId": 180,
+    "PrefValue": "fugiat",
+    "PrefShowValue": "dolorem",
+    "Description": "Balanced fault-tolerant emulation",
     "IsBuiltin": false,
     "TableRight": {
       "Mask": "Delete",
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldLength": 554
       }
     }
   }

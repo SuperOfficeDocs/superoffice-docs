@@ -1,9 +1,9 @@
 ---
-title: GetCountry
+title: POST Agents/List/GetCountry
 id: v1ListAgent_GetCountry
 ---
 
-# GetCountry
+# POST Agents/List/GetCountry
 
 ```http
 POST /api/v1/Agents/List/GetCountry
@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=216
+POST /api/v1/Agents/List/GetCountry?countryId=378
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ Response body: object
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -92,23 +92,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 973,
-  "Name": "Becker LLC",
-  "CurrencyId": 962,
-  "EnglishName": "Altenwerth Inc and Sons",
+  "CountryId": 193,
+  "Name": "Cassin-Kertzmann",
+  "CurrencyId": 831,
+  "EnglishName": "Wolff Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Pre-emptive analyzing open system",
-  "OrgNrText": "1543821",
-  "InterAreaPrefix": "alias",
-  "DialInPrefix": "eos",
-  "ZipPrefix": "ipsa",
-  "DomainName": "Nader-Boehm",
-  "AddressLayoutId": 930,
-  "DomesticAddressLayoutId": 700,
-  "ForeignAddressLayoutId": 877,
-  "Rank": 857,
-  "Tooltip": "commodi",
+  "ImageDescription": "Face to face human-resource standardization",
+  "OrgNrText": "712957",
+  "InterAreaPrefix": "aliquid",
+  "DialInPrefix": "voluptatibus",
+  "ZipPrefix": "iste",
+  "DomainName": "Ankunding LLC",
+  "AddressLayoutId": 648,
+  "DomesticAddressLayoutId": 844,
+  "ForeignAddressLayoutId": 265,
+  "Rank": 315,
+  "Tooltip": "nihil",
   "Deleted": true,
   "TableRight": {
     "Mask": "Delete",
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

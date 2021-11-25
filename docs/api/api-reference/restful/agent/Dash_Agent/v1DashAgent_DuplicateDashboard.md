@@ -1,9 +1,9 @@
 ---
-title: DuplicateDashboard
+title: POST Agents/Dash/DuplicateDashboard
 id: v1DashAgent_DuplicateDashboard
 ---
 
-# DuplicateDashboard
+# POST Agents/Dash/DuplicateDashboard
 
 ```http
 POST /api/v1/Agents/Dash/DuplicateDashboard
@@ -70,6 +70,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -90,12 +91,12 @@ Response body: object
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 67,
-  "Name": "Bogisich-Davis"
+  "DashboardId": 641,
+  "Name": "Dietrich, Prohaska and Leuschke"
 }
 ```
 
@@ -104,45 +105,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 967,
-  "Name": "Fritsch Inc and Sons",
-  "Description": "Innovative uniform knowledge base",
-  "AssociateId": 668,
-  "Columns": 436,
+  "DashboardId": 561,
+  "UniqueId": "doloremque",
+  "Name": "Oberbrunner, Koelpin and Yundt",
+  "Description": "Multi-lateral 3rd generation attitude",
+  "AssociateId": 102,
+  "Columns": 666,
   "Theme": {
-    "DashboardThemeId": 20,
-    "Name": "Brown Inc and Sons",
-    "Config": "laudantium",
-    "Rank": 539,
+    "DashboardThemeId": 506,
+    "Name": "Jewess-Metz",
+    "Config": "explicabo",
+    "Rank": 347,
+    "Client": "ab",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "morph bricks-and-clicks platforms"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 573
       }
     }
   },
-  "VisibleForAll": 600,
+  "VisibleForAll": 184,
   "VisibleForAssociates": [
-    504,
-    531
+    279,
+    176
   ],
   "VisibleForGroups": [
-    846,
-    397
+    230,
+    924
   ],
-  "PinForAll": 281,
+  "PinForAll": 490,
   "PinForAssociates": [
-    616,
-    326
+    607,
+    694
   ],
   "PinForGroups": [
-    147,
-    99
+    862,
+    767
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -154,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 294
     }
   }
 }

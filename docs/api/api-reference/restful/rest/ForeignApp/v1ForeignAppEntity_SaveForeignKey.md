@@ -84,18 +84,18 @@ Response body: object
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sint",
-  "Value": "commodi",
-  "RecordId": 304,
-  "CreatedDate": "1994-10-12T15:05:42.2466349+02:00",
-  "UpdatedDate": "2014-02-02T15:05:42.2466349+01:00",
-  "UpdatedBy": "distinctio",
-  "CreatedBy": "aperiam",
-  "TableName": "Corwin Group"
+  "Key": "in",
+  "Value": "repellat",
+  "RecordId": 1001,
+  "CreatedDate": "1999-04-23T18:25:50.5745975+02:00",
+  "UpdatedDate": "2009-12-31T18:25:50.5745975+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "in",
+  "TableName": "Buckridge-Cremin"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "reprehenderit",
-  "Value": "est",
-  "RecordId": 203,
-  "CreatedDate": "1999-02-17T15:05:42.2476715+01:00",
-  "UpdatedDate": "2019-05-24T15:05:42.2476715+02:00",
-  "UpdatedBy": "sunt",
-  "CreatedBy": "exercitationem",
-  "TableName": "Waelchi, Dicki and Jakubowski",
+  "Key": "odio",
+  "Value": "ipsa",
+  "RecordId": 285,
+  "CreatedDate": "1995-06-27T18:25:50.5755972+02:00",
+  "UpdatedDate": "1994-12-07T18:25:50.5755972+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "perferendis",
+  "TableName": "Bailey-Bahringer",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "expedite transparent content"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

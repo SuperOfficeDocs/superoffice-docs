@@ -1,9 +1,9 @@
 ---
-title: GetHistoriesByNamesAndIds
+title: POST Agents/ViewState/GetHistoriesByNamesAndIds
 id: v1ViewStateAgent_GetHistoriesByNamesAndIds
 ---
 
-# GetHistoriesByNamesAndIds
+# POST Agents/ViewState/GetHistoriesByNamesAndIds
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
@@ -79,19 +79,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Douglas, Stanton and Auer",
-      "EntityOrParentId": 264,
+      "EntityName": "Harber Inc and Sons",
+      "EntityOrParentId": 78,
       "RequestForNewRecord": true
     },
     {
-      "EntityName": "Douglas, Stanton and Auer",
-      "EntityOrParentId": 264,
+      "EntityName": "Harber Inc and Sons",
+      "EntityOrParentId": 78,
       "RequestForNewRecord": true
     }
   ]
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 982,
-    "Id": 559,
-    "HistoryName": "Crooks LLC",
-    "HistoryId": 756,
-    "AssociateId": 383,
-    "Name": "Pfeffer, Parisian and Romaguera",
-    "ItemInfo": "est",
+    "Rank": 498,
+    "Id": 760,
+    "HistoryName": "Luettgen Group",
+    "HistoryId": 341,
+    "AssociateId": 492,
+    "Name": "Weissnat Inc and Sons",
+    "ItemInfo": "eos",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "seize collaborative portals"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "matrix virtual schemas"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldLength": 933
       }
     }
   }

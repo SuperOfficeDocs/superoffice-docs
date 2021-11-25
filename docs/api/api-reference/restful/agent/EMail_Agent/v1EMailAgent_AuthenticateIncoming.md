@@ -1,9 +1,9 @@
 ---
-title: AuthenticateIncoming
+title: POST Agents/EMail/AuthenticateIncoming
 id: v1EMailAgent_AuthenticateIncoming
 ---
 
-# AuthenticateIncoming
+# POST Agents/EMail/AuthenticateIncoming
 
 ```http
 POST /api/v1/Agents/EMail/AuthenticateIncoming
@@ -70,15 +70,15 @@ Response body: bool
 POST /api/v1/Agents/EMail/AuthenticateIncoming
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Mosciski, Bauch and Satterfield",
-    "UserName": "Morar, Runte and Kassulke",
-    "Password": "expedita",
-    "Folder": "nam",
+    "ServerName": "Fisher, Grant and Larson",
+    "UserName": "Larson LLC",
+    "Password": "doloribus",
+    "Folder": "velit",
     "UseSSL": false
   }
 }

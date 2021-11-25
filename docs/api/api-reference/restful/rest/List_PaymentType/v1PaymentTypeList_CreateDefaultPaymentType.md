@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Kris, Hermann and Marks",
-  "Tooltip": "doloremque",
+  "Id": 759,
+  "Name": "Quitzon, Roob and McClure",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 764,
-  "Rank": 920,
+  "UdListDefinitionId": 240,
+  "Rank": 540,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

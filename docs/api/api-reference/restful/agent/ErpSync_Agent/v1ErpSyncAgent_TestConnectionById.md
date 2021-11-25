@@ -1,9 +1,9 @@
 ---
-title: TestConnectionById
+title: POST Agents/ErpSync/TestConnectionById
 id: v1ErpSyncAgent_TestConnectionById
 ---
 
-# TestConnectionById
+# POST Agents/ErpSync/TestConnectionById
 
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectionById
@@ -70,11 +70,11 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/TestConnectionById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 974
+  "ErpConnectionId": 561
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetReportEntity
+title: POST Agents/Report/GetReportEntity
 id: v1ReportAgent_GetReportEntity
 ---
 
-# GetReportEntity
+# POST Agents/Report/GetReportEntity
 
 ```http
 POST /api/v1/Agents/Report/GetReportEntity
@@ -25,7 +25,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=314
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=133
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ Response body: object
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,14 +82,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 311,
+  "ReportId": 973,
   "ReportCategory": "All",
-  "Description": "Ergonomic zero defect migration",
+  "Description": "Total impactful intranet",
   "ReportLayout": "CalendarMonth",
-  "Name": "Torphy, Jerde and Wiza",
-  "AssociateId": 340,
-  "TemplateId": 66,
-  "Published": true,
+  "Name": "Deckow-White",
+  "AssociateId": 253,
+  "TemplateId": 377,
+  "Published": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "orchestrate global e-tailers"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldLength": 717
     }
   }
 }

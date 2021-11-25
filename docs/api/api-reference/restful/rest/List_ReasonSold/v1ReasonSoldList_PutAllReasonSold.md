@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Greenfelder Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 640,
-    "Rank": 979
+    "Id": 209,
+    "Name": "Osinski LLC",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "UdListDefinitionId": 234,
+    "Rank": 548
   },
   {
-    "Id": 654,
-    "Name": "Greenfelder Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 640,
-    "Rank": 979
+    "Id": 209,
+    "Name": "Osinski LLC",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "UdListDefinitionId": 234,
+    "Rank": 548
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Conroy, Wunsch and Wehner",
-    "Tooltip": "nobis",
+    "Id": 872,
+    "Name": "Friesen, DuBuque and Turner",
+    "Tooltip": "enim",
     "Deleted": false,
-    "UdListDefinitionId": 274,
-    "Rank": 305,
+    "UdListDefinitionId": 377,
+    "Rank": 368,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 200
       }
     }
   }

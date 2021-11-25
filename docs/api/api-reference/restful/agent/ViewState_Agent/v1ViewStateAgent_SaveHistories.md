@@ -1,9 +1,9 @@
 ---
-title: SaveHistories
+title: POST Agents/ViewState/SaveHistories
 id: v1ViewStateAgent_SaveHistories
 ---
 
-# SaveHistories
+# POST Agents/ViewState/SaveHistories
 
 ```http
 POST /api/v1/Agents/ViewState/SaveHistories
@@ -80,20 +80,20 @@ Response body: array
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Haley, Turner and Anderson",
+  "HistoryName": "DuBuque LLC",
   "History": [
     {
-      "Rank": 561,
-      "Id": 255,
-      "HistoryName": "Waelchi-Boyle",
-      "HistoryId": 840,
-      "AssociateId": 754,
-      "Name": "Armstrong, Rogahn and Jakubowski",
-      "ItemInfo": "adipisci"
+      "Rank": 235,
+      "Id": 878,
+      "HistoryName": "Welch, Lynch and O'Connell",
+      "HistoryId": 47,
+      "AssociateId": 358,
+      "Name": "Brown, Halvorson and Toy",
+      "ItemInfo": "maiores"
     }
   ]
 }
@@ -105,13 +105,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 559,
-    "Id": 460,
-    "HistoryName": "Emard LLC",
-    "HistoryId": 392,
-    "AssociateId": 762,
-    "Name": "Schroeder, Hartmann and McDermott",
-    "ItemInfo": "velit",
+    "Rank": 592,
+    "Id": 967,
+    "HistoryName": "Willms, Glover and Orn",
+    "HistoryId": 632,
+    "AssociateId": 280,
+    "Name": "Botsford, Walker and Mosciski",
+    "ItemInfo": "earum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "evolve leading-edge synergies"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 477
       }
     }
   }

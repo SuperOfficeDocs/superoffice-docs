@@ -1,9 +1,9 @@
 ---
-title: UpdateChatTopicUserAgent
+title: POST Agents/Chat/UpdateChatTopicUserAgent
 id: v1ChatAgent_UpdateChatTopicUserAgent
 ---
 
-# UpdateChatTopicUserAgent
+# POST Agents/Chat/UpdateChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
@@ -83,17 +83,17 @@ Response body: object
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 453,
-  "Username": "sit",
+  "ChatTopicId": 255,
+  "Username": "distinctio",
   "Useragent": {
-    "TopicId": 457,
+    "TopicId": 53,
     "User": {},
-    "CanListen": true,
-    "CanRespond": false,
+    "CanListen": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": false
   }
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 340,
+  "TopicId": 802,
   "User": {
-    "AssociateId": 214,
-    "Name": "Runolfsdottir, Heller and Upton",
-    "PersonId": 483,
-    "Rank": 276,
-    "Tooltip": "et",
+    "AssociateId": 479,
+    "Name": "Kub, Robel and Hahn",
+    "PersonId": 308,
+    "Rank": 511,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 9,
-    "FullName": "Ms. Idell Carter",
-    "FormalName": "Rohan, Cormier and Greenholt",
-    "Deleted": true,
-    "EjUserId": 472,
-    "UserName": "Fay Inc and Sons",
+    "GroupIdx": 487,
+    "FullName": "Mrs. Maymie Cummerata",
+    "FormalName": "Mertz, Vandervort and Dicki",
+    "Deleted": false,
+    "EjUserId": 528,
+    "UserName": "Wyman, Orn and Schamberger",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 91
       }
     }
   },
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
-  "CanManage": false,
+  "CanManage": true,
   "CanNotify": true
 }
 ```

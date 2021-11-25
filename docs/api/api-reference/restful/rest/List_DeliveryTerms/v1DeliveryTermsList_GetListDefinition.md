@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Stoltenberg Group",
-  "Tooltip": "libero",
+  "Id": 965,
+  "Name": "Cremin-Jerde",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 763,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nobis",
-  "InUseByUserDefinedFields": true,
+  "Rank": 504,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "repurpose transparent technologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 62
     }
   },
   "_Links": {

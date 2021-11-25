@@ -26,7 +26,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=temporibus
+GET /api/v1/List/Rating/MDOItems?query=culpa
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Stamm-Effertz",
-    "ToolTip": "Modi rerum quas.",
+    "Id": 756,
+    "Name": "Witting Inc and Sons",
+    "ToolTip": "Facilis dolorem voluptatem beatae perferendis.",
     "Deleted": true,
-    "Rank": 861,
-    "Type": "minus",
+    "Rank": 313,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Pfannerstill, Weber and Gleichner",
-        "ToolTip": "Voluptatem omnis ut asperiores consequatur eum.",
+        "Id": 440,
+        "Name": "Smith, Stark and Shields",
+        "ToolTip": "Quam alias quasi ut consequatur.",
         "Deleted": false,
-        "Rank": 954,
-        "Type": "excepturi",
+        "Rank": 541,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 178,
-        "ExtraInfo": "velit",
-        "StyleHint": "excepturi",
-        "FullName": "Felipa DuBuque",
+        "IconHint": "atque",
+        "ColorBlock": 754,
+        "ExtraInfo": "sed",
+        "StyleHint": "omnis",
+        "FullName": "Donato Pfeffer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 157
+            "FieldLength": 132
           }
         }
       }
     ],
-    "IconHint": "sapiente",
-    "ColorBlock": 107,
-    "ExtraInfo": "rerum",
-    "StyleHint": "sapiente",
-    "FullName": "Tiana Turcotte",
+    "IconHint": "voluptatem",
+    "ColorBlock": 802,
+    "ExtraInfo": "cum",
+    "StyleHint": "eligendi",
+    "FullName": "Madyson Corwin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "recontextualize 24/365 architectures"
         },
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

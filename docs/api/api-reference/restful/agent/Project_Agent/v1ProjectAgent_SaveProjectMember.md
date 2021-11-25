@@ -1,9 +1,9 @@
 ---
-title: SaveProjectMember
+title: POST Agents/Project/SaveProjectMember
 id: v1ProjectAgent_SaveProjectMember
 ---
 
-# SaveProjectMember
+# POST Agents/Project/SaveProjectMember
 
 ```http
 POST /api/v1/Agents/Project/SaveProjectMember
@@ -108,31 +108,31 @@ Response body: object
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 104,
-  "ContactId": 707,
-  "ProjectId": 545,
-  "ContactName": "Gutkowski Inc and Sons",
+  "ProjectmemberId": 913,
+  "ContactId": 416,
+  "ProjectId": 187,
+  "ContactName": "Hauck, Greenholt and Huel",
   "ContactDepartment": "",
-  "ProjectName": "Sawayn-Thompson",
-  "EmailId": 385,
-  "EmailAddress": "theo.muller@baumbach.name",
-  "CountryId": 716,
-  "Firstname": "Peter",
-  "MiddleName": "Effertz Inc and Sons",
-  "Lastname": "Daugherty",
-  "PersonId": 496,
-  "Mrmrs": "esse",
-  "ProjectMemberTypeName": "Berge, Cummerata and Bartell",
-  "Phone": "340-061-4317 x855",
-  "PhoneId": 822,
-  "ProjectMemberTypeId": 206,
-  "EmailAddressName": "roselyn.cassin@mayertkuvalis.info",
-  "Comment": "quaerat",
-  "FullName": "Rahul Cremin"
+  "ProjectName": "Zemlak Inc and Sons",
+  "EmailId": 649,
+  "EmailAddress": "marlen@sauer.us",
+  "CountryId": 458,
+  "Firstname": "Ubaldo",
+  "MiddleName": "Miller, Bogan and Considine",
+  "Lastname": "Walker",
+  "PersonId": 595,
+  "Mrmrs": "numquam",
+  "ProjectMemberTypeName": "Haley Group",
+  "Phone": "1-063-344-6103",
+  "PhoneId": 804,
+  "ProjectMemberTypeId": 266,
+  "EmailAddressName": "tressa_renner@bayer.uk",
+  "Comment": "nihil",
+  "FullName": "Ernestine Baumbach"
 }
 ```
 
@@ -141,27 +141,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 594,
-  "ContactId": 184,
-  "ProjectId": 164,
-  "ContactName": "Dickens-Hermann",
+  "ProjectmemberId": 801,
+  "ContactId": 341,
+  "ProjectId": 78,
+  "ContactName": "Medhurst Group",
   "ContactDepartment": "",
-  "ProjectName": "Dietrich-Hartmann",
-  "EmailId": 5,
-  "EmailAddress": "danielle@kunde.co.uk",
-  "CountryId": 291,
-  "Firstname": "Elyse",
-  "MiddleName": "Howell Inc and Sons",
-  "Lastname": "Streich",
-  "PersonId": 910,
-  "Mrmrs": "ratione",
-  "ProjectMemberTypeName": "Kovacek-Zieme",
-  "Phone": "832.337.7602 x0173",
-  "PhoneId": 5,
-  "ProjectMemberTypeId": 622,
-  "EmailAddressName": "chanelle@rohan.ca",
-  "Comment": "consectetur",
-  "FullName": "Terrell Grimes IV",
+  "ProjectName": "Gibson-Wintheiser",
+  "EmailId": 272,
+  "EmailAddress": "laura_paucek@ward.info",
+  "CountryId": 48,
+  "Firstname": "Montana",
+  "MiddleName": "D'Amore-Lind",
+  "Lastname": "Mayert",
+  "PersonId": 570,
+  "Mrmrs": "ipsam",
+  "ProjectMemberTypeName": "Abbott Group",
+  "Phone": "848.016.7318 x777",
+  "PhoneId": 917,
+  "ProjectMemberTypeId": 948,
+  "EmailAddressName": "sabina@torphy.us",
+  "Comment": "rerum",
+  "FullName": "Micheal Armstrong",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,10 +170,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "productize real-time infrastructures"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   }
 }

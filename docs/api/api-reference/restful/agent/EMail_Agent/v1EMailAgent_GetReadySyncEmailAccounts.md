@@ -1,9 +1,9 @@
 ---
-title: GetReadySyncEmailAccounts
+title: POST Agents/EMail/GetReadySyncEmailAccounts
 id: v1EMailAgent_GetReadySyncEmailAccounts
 ---
 
-# GetReadySyncEmailAccounts
+# POST Agents/EMail/GetReadySyncEmailAccounts
 
 ```http
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,9 +77,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 475,
-    "AssociateName": "Kunze-Donnelly",
-    "AssociateId": 822,
+    "AccountId": 519,
+    "AssociateName": "Senger-Rempel",
+    "AssociateId": 160,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -91,14 +91,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldLength": 299
       }
     }
   },
   {
-    "AccountId": 475,
-    "AssociateName": "Kunze-Donnelly",
-    "AssociateId": 822,
+    "AccountId": 519,
+    "AssociateName": "Senger-Rempel",
+    "AssociateId": 160,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldLength": 299
       }
     }
   }

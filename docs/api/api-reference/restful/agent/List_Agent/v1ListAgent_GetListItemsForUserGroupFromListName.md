@@ -1,9 +1,9 @@
 ---
-title: GetListItemsForUserGroupFromListName
+title: POST Agents/List/GetListItemsForUserGroupFromListName
 id: v1ListAgent_GetListItemsForUserGroupFromListName
 ---
 
-# GetListItemsForUserGroupFromListName
+# POST Agents/List/GetListItemsForUserGroupFromListName
 
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hills Inc and Sons",
-  "GroupId": 104
+  "UdListDefinitionName": "Treutel, Hermiston and Kerluke",
+  "GroupId": 699
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Dooley, Kling and Grimes",
-    "ToolTip": "Architecto nesciunt vero nemo.",
+    "Id": 291,
+    "Name": "Hudson, Weissnat and Walter",
+    "ToolTip": "Reprehenderit similique sed.",
     "Deleted": false,
-    "Rank": 353,
-    "Type": "voluptatem",
-    "ColorBlock": 450,
-    "IconHint": "velit",
+    "Rank": 814,
+    "Type": "eligendi",
+    "ColorBlock": 393,
+    "IconHint": "soluta",
     "Selected": true,
-    "LastChanged": "2012-10-23T14:58:04.421469+02:00",
+    "LastChanged": "1999-11-16T18:28:49.3161225+01:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Ritchie, Pfeffer and Kuhn",
-        "ToolTip": "Molestiae perspiciatis est quaerat autem.",
-        "Deleted": false,
-        "Rank": 506,
-        "Type": "quam",
-        "ColorBlock": 631,
-        "IconHint": "possimus",
+        "Id": 513,
+        "Name": "Bogan-Nikolaus",
+        "ToolTip": "Minus voluptatem praesentium.",
+        "Deleted": true,
+        "Rank": 453,
+        "Type": "tempore",
+        "ColorBlock": 833,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1999-01-30T14:58:04.421469+01:00",
+        "LastChanged": "2007-11-16T18:28:49.3171231+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "aut",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Velda Gleason MD",
+        "FullName": "Dimitri Ebert",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -140,16 +140,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 104
+            "FieldType": "System.Int32",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Verda Streich",
+    "ExtraInfo": "qui",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Adaline O'Keefe",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""

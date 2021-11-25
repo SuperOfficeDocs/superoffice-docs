@@ -1,9 +1,9 @@
 ---
-title: RemoveLicenseFromDB
+title: POST Agents/License/RemoveLicenseFromDB
 id: v1LicenseAgent_RemoveLicenseFromDB
 ---
 
-# RemoveLicenseFromDB
+# POST Agents/License/RemoveLicenseFromDB
 
 ```http
 POST /api/v1/Agents/License/RemoveLicenseFromDB
@@ -75,11 +75,11 @@ Response body: object
 POST /api/v1/Agents/License/RemoveLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "eveniet"
+  "ModuleOwner": "quam"
 }
 ```
 
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 839
     }
   }
 }

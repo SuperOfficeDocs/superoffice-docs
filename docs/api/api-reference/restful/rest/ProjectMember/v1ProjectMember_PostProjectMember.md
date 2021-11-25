@@ -118,31 +118,31 @@ Response body: object
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 12,
-  "ContactId": 742,
-  "ProjectId": 293,
-  "ContactName": "Hartmann Inc and Sons",
+  "ProjectmemberId": 725,
+  "ContactId": 184,
+  "ProjectId": 704,
+  "ContactName": "Considine Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Williamson Group",
-  "EmailId": 999,
-  "EmailAddress": "lulu_parisian@mckenziewillms.com",
-  "CountryId": 216,
-  "Firstname": "Camilla",
-  "MiddleName": "Graham Inc and Sons",
-  "Lastname": "Russel",
-  "PersonId": 410,
-  "Mrmrs": "quia",
-  "ProjectMemberTypeName": "Lang-Stiedemann",
-  "Phone": "(702)718-6138",
-  "PhoneId": 733,
-  "ProjectMemberTypeId": 117,
-  "EmailAddressName": "jane@douglas.uk",
-  "Comment": "quod",
-  "FullName": "Mr. Rey Klein"
+  "ProjectName": "D'Amore LLC",
+  "EmailId": 839,
+  "EmailAddress": "waylon@pollichfriesen.com",
+  "CountryId": 307,
+  "Firstname": "Jayson",
+  "MiddleName": "Farrell LLC",
+  "Lastname": "Emard",
+  "PersonId": 162,
+  "Mrmrs": "explicabo",
+  "ProjectMemberTypeName": "Turcotte, Moore and Carroll",
+  "Phone": "340-616-3520",
+  "PhoneId": 94,
+  "ProjectMemberTypeId": 320,
+  "EmailAddressName": "maudie@sipes.name",
+  "Comment": "enim",
+  "FullName": "Reggie Effertz"
 }
 ```
 
@@ -151,27 +151,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 597,
-  "ContactId": 914,
-  "ProjectId": 594,
-  "ContactName": "Kuvalis LLC",
+  "ProjectmemberId": 228,
+  "ContactId": 261,
+  "ProjectId": 491,
+  "ContactName": "Hayes LLC",
   "ContactDepartment": "",
-  "ProjectName": "Roob-Farrell",
-  "EmailId": 104,
-  "EmailAddress": "bianka@lynch.us",
-  "CountryId": 805,
-  "Firstname": "Geraldine",
-  "MiddleName": "Nienow, O'Kon and Cormier",
-  "Lastname": "Bogisich",
-  "PersonId": 76,
-  "Mrmrs": "amet",
-  "ProjectMemberTypeName": "Macejkovic-Quitzon",
-  "Phone": "814-755-8147 x8861",
-  "PhoneId": 170,
-  "ProjectMemberTypeId": 64,
-  "EmailAddressName": "otho.nienow@westbosco.name",
-  "Comment": "dignissimos",
-  "FullName": "Ms. Hoyt Berge",
+  "ProjectName": "Russel, Funk and Christiansen",
+  "EmailId": 361,
+  "EmailAddress": "genesis@goyettekuhlman.name",
+  "CountryId": 209,
+  "Firstname": "Morton",
+  "MiddleName": "Cronin-Cormier",
+  "Lastname": "Bode",
+  "PersonId": 756,
+  "Mrmrs": "dolore",
+  "ProjectMemberTypeName": "Ankunding, Hintz and Gerlach",
+  "Phone": "(232)807-2400 x270",
+  "PhoneId": 433,
+  "ProjectMemberTypeId": 291,
+  "EmailAddressName": "wanda@fisher.name",
+  "Comment": "et",
+  "FullName": "Ms. Hadley Wiza",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -182,8 +182,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   },
   "_Links": {

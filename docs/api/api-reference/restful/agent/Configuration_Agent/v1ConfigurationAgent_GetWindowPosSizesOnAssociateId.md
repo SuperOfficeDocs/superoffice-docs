@@ -1,9 +1,9 @@
 ---
-title: GetWindowPosSizesOnAssociateId
+title: POST Agents/Configuration/GetWindowPosSizesOnAssociateId
 id: v1ConfigurationAgent_GetWindowPosSizesOnAssociateId
 ---
 
-# GetWindowPosSizesOnAssociateId
+# POST Agents/Configuration/GetWindowPosSizesOnAssociateId
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 493
+  "AssociateId": 71
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ad",
-    "PersonId": 900,
-    "AssociateId": 467,
-    "ExtraId": 887,
-    "ExtraInfo": "ducimus",
-    "Height": 888,
-    "LeftX": 92,
+    "OwnerWindow": "in",
+    "PersonId": 755,
+    "AssociateId": 218,
+    "ExtraId": 946,
+    "ExtraInfo": "quia",
+    "Height": 248,
+    "LeftX": 633,
     "State": "Maximized",
-    "UpperY": 738,
-    "Width": 577,
-    "WindowPosSizeId": 834,
+    "UpperY": 333,
+    "Width": 324,
+    "WindowPosSizeId": 351,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "embrace sexy deliverables"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldLength": 651
       }
     }
   }

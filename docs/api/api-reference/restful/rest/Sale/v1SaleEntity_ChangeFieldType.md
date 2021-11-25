@@ -29,7 +29,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -108,7 +108,7 @@ Response body: object
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -116,40 +116,40 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 29,
-  "ColumnId": 298,
-  "FieldDefault": "similique",
-  "FieldHeight": 668,
-  "FieldLabel": "minus",
+  "UDefFieldId": 828,
+  "ColumnId": 582,
+  "FieldDefault": "pariatur",
+  "FieldHeight": 886,
+  "FieldLabel": "accusamus",
   "FieldLeft": 640,
-  "FieldTop": 855,
+  "FieldTop": 94,
   "FieldType": "Checkbox",
-  "FieldWidth": 839,
-  "FormatMask": "cupiditate",
+  "FieldWidth": 844,
+  "FormatMask": "quam",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 975,
-  "LabelLeft": 962,
-  "LabelTop": 543,
-  "LabelWidth": 536,
-  "LastVersionId": 948,
-  "ListTableId": 419,
+  "IsIndexed": false,
+  "LabelHeight": 204,
+  "LabelLeft": 909,
+  "LabelTop": 48,
+  "LabelWidth": 613,
+  "LastVersionId": 165,
+  "ListTableId": 513,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 726,
-  "ProgId": "eveniet",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 111,
-  "TextLength": 473,
-  "Tooltip": "est",
-  "UdefIdentity": 457,
-  "UDListDefinitionId": 803,
+  "Page1LineNo": 114,
+  "ProgId": "eligendi",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 168,
+  "TextLength": 134,
+  "Tooltip": "perferendis",
+  "UdefIdentity": 922,
+  "UDListDefinitionId": 42,
   "Justification": "Center",
-  "Version": 208,
-  "TemplateVariableName": "Ferry, Bode and Beer",
+  "Version": 279,
+  "TemplateVariableName": "Hackett, Glover and Ankunding",
   "HasBeenPublished": false,
-  "MdoListName": "D'Amore-Gleason",
+  "MdoListName": "Koch Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldLength": 557
     }
   }
 }

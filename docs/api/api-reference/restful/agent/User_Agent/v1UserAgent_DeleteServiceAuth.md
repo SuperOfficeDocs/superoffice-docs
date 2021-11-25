@@ -1,9 +1,9 @@
 ---
-title: DeleteServiceAuth
+title: POST Agents/User/DeleteServiceAuth
 id: v1UserAgent_DeleteServiceAuth
 ---
 
-# DeleteServiceAuth
+# POST Agents/User/DeleteServiceAuth
 
 ```http
 POST /api/v1/Agents/User/DeleteServiceAuth
@@ -26,7 +26,7 @@ Deletes the ServiceAuth
 | ServiceAuthId | int32 | **Required** The id of the ServiceAuth to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=429
+POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=610
 ```
 
 

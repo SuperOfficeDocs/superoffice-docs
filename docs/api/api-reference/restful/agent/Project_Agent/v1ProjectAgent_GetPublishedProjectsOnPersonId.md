@@ -1,9 +1,9 @@
 ---
-title: GetPublishedProjectsOnPersonId
+title: POST Agents/Project/GetPublishedProjectsOnPersonId
 id: v1ProjectAgent_GetPublishedProjectsOnPersonId
 ---
 
-# GetPublishedProjectsOnPersonId
+# POST Agents/Project/GetPublishedProjectsOnPersonId
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 473
+  "PersonId": 573
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 163,
-    "Name": "Kozey, Schinner and Wunsch",
-    "Description": "Multi-lateral tangible core",
+    "ProjectId": 331,
+    "Name": "Runolfsson-Greenholt",
+    "Description": "Customer-focused holistic approach",
     "URL": "http://www.example.com/",
-    "Type": "eveniet",
-    "AssociateId": 121,
-    "AssociateFullName": "Grayce Hoppe",
-    "TypeId": 365,
-    "Updated": "2006-03-18T14:58:04.8624608+01:00",
-    "StatusId": 761,
-    "Status": "eum",
-    "TextId": 17,
-    "PublishTo": "2012-10-24T14:58:04.8624608+02:00",
-    "PublishFrom": "2015-08-29T14:58:04.8624608+02:00",
-    "IsPublished": true,
+    "Type": "et",
+    "AssociateId": 420,
+    "AssociateFullName": "Mrs. Royal Walker",
+    "TypeId": 98,
+    "Updated": "2020-01-12T18:28:49.7861426+01:00",
+    "StatusId": 870,
+    "Status": "autem",
+    "TextId": 649,
+    "PublishTo": "2002-04-22T18:28:49.7861426+02:00",
+    "PublishFrom": "2015-04-03T18:28:49.7861426+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1640194",
-    "ActiveErpLinks": 164,
+    "ProjectNumber": "1228192",
+    "ActiveErpLinks": 866,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 772
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

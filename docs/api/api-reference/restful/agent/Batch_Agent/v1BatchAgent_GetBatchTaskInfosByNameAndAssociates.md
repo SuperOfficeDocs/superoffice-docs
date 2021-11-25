@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfosByNameAndAssociates
+title: POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 id: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
 ---
 
-# GetBatchTaskInfosByNameAndAssociates
+# POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -94,14 +94,14 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy, Hills and Jakubowski",
+  "Name": "Ryan LLC",
   "AssociateIds": [
     711,
-    182
+    553
   ]
 }
 ```
@@ -112,30 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Kemmer, Emmerich and Ritchie",
-    "AssociateId": 126,
-    "DetailsTable": 719,
-    "DetailsRecord": 46,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 28,
+    "Name": "Beier, Lind and Lind",
+    "AssociateId": 26,
+    "DetailsTable": 21,
+    "DetailsRecord": 421,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ullam",
-      "ParameterObject2": "cumque"
+      "ParameterObject1": "id",
+      "ParameterObject2": "accusantium"
     },
-    "LastStarted": "1994-09-28T14:58:03.2732414+02:00",
-    "Created": "1994-06-07T14:58:03.2732414+02:00",
-    "StartCount": 19,
-    "DatabaseSerialNumber": "383822",
-    "Context": "molestiae",
-    "Result": "aut",
+    "LastStarted": "2013-04-18T18:28:48.1465423+02:00",
+    "Created": "1998-09-01T18:28:48.1465423+02:00",
+    "StartCount": 470,
+    "DatabaseSerialNumber": "1403708",
+    "Context": "ratione",
+    "Result": "quia",
     "State": "All",
-    "Description": "Cross-group clear-thinking benchmark",
-    "Response": "explicabo",
-    "Request": "omnis",
-    "ProgressDescription": "Exclusive multi-tasking help-desk",
-    "ProgressPercent": 934,
-    "FileName": "Langworth-Lowe",
+    "Description": "Networked leading edge help-desk",
+    "Response": "amet",
+    "Request": "et",
+    "ProgressDescription": "Configurable local local area network",
+    "ProgressPercent": 63,
+    "FileName": "Fadel, Kling and Emmerich",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 269
       }
     }
   }

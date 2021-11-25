@@ -84,6 +84,7 @@ Response body: object
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -100,24 +101,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
+Last-Modified: Wed, 14 Mar 2007 18:25:51 G3T
 
 {
-  "Description": "Self-enabling dynamic support",
-  "Postit": "corrupti",
+  "Description": "Optional well-modulated extranet",
+  "Postit": "atque",
   "Associate": {
-    "AssociateId": 350,
-    "Name": "Harris, Schulist and Williamson",
-    "PersonId": 312,
-    "Rank": 205,
-    "Tooltip": "et",
+    "AssociateId": 314,
+    "Name": "Lang-Dietrich",
+    "PersonId": 923,
+    "Rank": 746,
+    "Tooltip": "maxime",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 721,
-    "FullName": "Mrs. Owen Dach",
-    "FormalName": "Boyle-Bode",
+    "GroupIdx": 72,
+    "FullName": "Noemie Davis",
+    "FormalName": "Buckridge-Lakin",
     "Deleted": true,
-    "EjUserId": 52,
-    "UserName": "Lesch-Armstrong",
+    "EjUserId": 843,
+    "UserName": "Schinner-Muller",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -126,48 +127,48 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldLength": 512
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 578,
-    "Name": "Corwin Group",
-    "PersonId": 534,
-    "Rank": 581,
-    "Tooltip": "cupiditate",
+    "AssociateId": 462,
+    "Name": "Metz, Littel and Bahringer",
+    "PersonId": 155,
+    "Rank": 214,
+    "Tooltip": "illum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 776,
-    "FullName": "Braulio Tromp",
-    "FormalName": "Kertzmann, Mitchell and Muller",
+    "GroupIdx": 304,
+    "FullName": "Luis Purdy",
+    "FormalName": "Greenholt-Lind",
     "Deleted": false,
-    "EjUserId": 621,
-    "UserName": "Green-DuBuque",
+    "EjUserId": 737,
+    "UserName": "Mertz-Turcotte",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "transform proactive infrastructures"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 516,
-    "Name": "Schulist, Windler and Schowalter",
-    "PersonId": 588,
-    "Rank": 246,
+    "AssociateId": 860,
+    "Name": "Streich-Roob",
+    "PersonId": 687,
+    "Rank": 462,
     "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 282,
-    "FullName": "Cicero Kuhlman",
-    "FormalName": "Gerlach-Corwin",
-    "Deleted": false,
-    "EjUserId": 156,
-    "UserName": "Feeney, Bradtke and Crona",
+    "GroupIdx": 15,
+    "FullName": "Niko Lang",
+    "FormalName": "Dibbert-Schroeder",
+    "Deleted": true,
+    "EjUserId": 853,
+    "UserName": "Vandervort LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -176,14 +177,14 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 609
+        "FieldLength": 295
       }
     }
   },
   "SelectionCategory": {
-    "Id": 146,
-    "Value": "quis",
-    "Tooltip": "ducimus",
+    "Id": 917,
+    "Value": "id",
+    "Tooltip": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -192,49 +193,49 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 755
       }
     }
   },
-  "GroupIdx": 713,
-  "IncludePerson": 59,
-  "MemberCount": 967,
-  "Name": "Torp-Swift",
-  "PostitTextId": 323,
-  "CreatedDate": "2005-02-28T15:05:42.7226684+01:00",
-  "SelectionId": 325,
-  "SoundEx": "et",
-  "Source": 131,
-  "TextId": 174,
-  "UpdatedDate": "2020-11-10T15:05:42.7226684+01:00",
-  "UpdatedCount": 57,
-  "Visibility": 420,
+  "GroupIdx": 960,
+  "IncludePerson": 896,
+  "MemberCount": 439,
+  "Name": "Williamson-Frami",
+  "PostitTextId": 887,
+  "CreatedDate": "2020-07-06T18:25:51.0729454+02:00",
+  "SelectionId": 344,
+  "SoundEx": "illum",
+  "Source": 708,
+  "TextId": 85,
+  "UpdatedDate": "2007-03-14T18:25:51.0729454+01:00",
+  "UpdatedCount": 47,
+  "Visibility": 275,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 546,
-  "TargetTableName": "Rice-Thompson",
-  "Completed": false,
-  "LeftSelectionId": 125,
-  "RightSelectionId": 980,
+  "TargetTableNumber": 987,
+  "TargetTableName": "Ziemann, Ryan and Heidenreich",
+  "Completed": true,
+  "LeftSelectionId": 464,
+  "RightSelectionId": 771,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gaylord Group",
-  "ShadowProviderName": "Gerhold, Keeling and Jones",
-  "ChartKey": "unde",
-  "LastLoaded": "2019-02-19T15:05:42.7226684+01:00",
-  "LastLoadedBy": 862,
+  "MainProviderName": "Renner Group",
+  "ShadowProviderName": "Torp Inc and Sons",
+  "ChartKey": "ea",
+  "LastLoaded": "2013-11-16T18:25:51.0729454+01:00",
+  "LastLoadedBy": 376,
   "LastLoadedByAssociate": {
-    "AssociateId": 798,
-    "Name": "Herzog Group",
-    "PersonId": 555,
-    "Rank": 610,
-    "Tooltip": "doloremque",
+    "AssociateId": 556,
+    "Name": "Toy, Balistreri and King",
+    "PersonId": 743,
+    "Rank": 81,
+    "Tooltip": "officia",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 973,
-    "FullName": "Emerald Kuhic",
-    "FormalName": "Kling, Ebert and O'Conner",
+    "GroupIdx": 24,
+    "FullName": "Davon Krajcik",
+    "FormalName": "Beahan, Nader and Rosenbaum",
     "Deleted": true,
-    "EjUserId": 833,
-    "UserName": "Spinka-Hodkiewicz",
+    "EjUserId": 547,
+    "UserName": "Conn-Dickens",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -243,25 +244,25 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 578
       }
     }
   },
-  "LastMembershipChange": "2008-04-08T15:05:42.7236685+02:00",
-  "LastMembershipChangeBy": 379,
+  "LastMembershipChange": "1997-11-03T18:25:51.0729454+01:00",
+  "LastMembershipChangeBy": 936,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 221,
-    "Name": "Schumm, Kreiger and Windler",
-    "PersonId": 559,
-    "Rank": 754,
-    "Tooltip": "sit",
+    "AssociateId": 418,
+    "Name": "Cole Group",
+    "PersonId": 901,
+    "Rank": 403,
+    "Tooltip": "explicabo",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 182,
-    "FullName": "Reece Bosco",
-    "FormalName": "Christiansen-Bergstrom",
-    "Deleted": false,
-    "EjUserId": 442,
-    "UserName": "Schmitt, Ernser and Ryan",
+    "GroupIdx": 544,
+    "FullName": "Mrs. Adell Swift",
+    "FormalName": "Thiel, Heathcote and Kuhn",
+    "Deleted": true,
+    "EjUserId": 299,
+    "UserName": "O'Keefe, Zulauf and Erdman",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -269,44 +270,45 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   },
-  "MainHeading": "veniam",
-  "MemberTabHeading": "porro",
-  "MailingsProviderName": "Carter, Hintz and Schroeder",
+  "MainHeading": "dolor",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Boehm Inc and Sons",
+  "DashboardTileDefinitionId": 507,
   "VisibleFor": [
     {
-      "VisibleId": 775,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "architecto",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "enhance value-added synergies"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldType": "System.String",
+          "FieldLength": 218
         }
       }
     },
     {
-      "VisibleId": 775,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "architecto",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "enhance value-added synergies"
+            "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldType": "System.String",
+          "FieldLength": 218
         }
       }
     }
@@ -321,8 +323,8 @@ Last-Modified: Tue, 10 Nov 2020 15:05:42 G11T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

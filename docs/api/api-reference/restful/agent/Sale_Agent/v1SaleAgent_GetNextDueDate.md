@@ -1,9 +1,9 @@
 ---
-title: GetNextDueDate
+title: POST Agents/Sale/GetNextDueDate
 id: v1SaleAgent_GetNextDueDate
 ---
 
-# GetNextDueDate
+# POST Agents/Sale/GetNextDueDate
 
 ```http
 POST /api/v1/Agents/Sale/GetNextDueDate
@@ -68,11 +68,11 @@ Response body: date-time
 POST /api/v1/Agents/Sale/GetNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 360
+  "SaleId": 981
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2009-12-21T14:58:05.1796247+01:00"
+"2015-06-25T18:28:50.1694134+02:00"
 ```

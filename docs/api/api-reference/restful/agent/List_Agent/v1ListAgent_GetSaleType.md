@@ -1,9 +1,9 @@
 ---
-title: GetSaleType
+title: POST Agents/List/GetSaleType
 id: v1ListAgent_GetSaleType
 ---
 
-# GetSaleType
+# POST Agents/List/GetSaleType
 
 ```http
 POST /api/v1/Agents/List/GetSaleType
@@ -25,7 +25,7 @@ Gets a SaleType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleType?saleTypeId=910
+POST /api/v1/Agents/List/GetSaleType?saleTypeId=77
 POST /api/v1/Agents/List/GetSaleType?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Value": "ex",
-  "Tooltip": "quis",
+  "Id": 797,
+  "Value": "officiis",
+  "Tooltip": "est",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 168
     }
   }
 }

@@ -67,6 +67,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -85,10 +86,11 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 483,
-  "Name": "Turner, Conroy and Hoppe",
-  "Config": "vel",
-  "Rank": 39,
+  "DashboardThemeId": 803,
+  "Name": "Effertz, Larson and Borer",
+  "Config": "aut",
+  "Rank": 384,
+  "Client": "totam",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -100,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldLength": 293
     }
   },
   "_Links": {

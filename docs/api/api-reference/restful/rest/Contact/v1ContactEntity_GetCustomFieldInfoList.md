@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Botsford Inc and Sons",
-    "DisplayName": "Emard-Roberts",
-    "Description": "Cross-group leading edge hub",
-    "ShortLabel": "aut",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "FieldName": "Deckow, Williamson and Hauck",
+    "DisplayName": "King, Gottlieb and VonRueden",
+    "Description": "Decentralized didactic open architecture",
+    "ShortLabel": "eligendi",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 426,
-    "TemplateVariableName": "Mante, Botsford and Ziemann"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 797,
+    "TemplateVariableName": "Gleason Group"
   }
 ]
 ```

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Kozey LLC",
-    "ToolTip": "Commodi voluptas.",
-    "Deleted": true,
-    "Rank": 629,
-    "Type": "natus",
-    "ColorBlock": 871,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2018-07-25T15:05:43.8921229+02:00",
+    "Id": 345,
+    "Name": "Watsica-Willms",
+    "ToolTip": "Consequatur omnis consequatur.",
+    "Deleted": false,
+    "Rank": 561,
+    "Type": "dolor",
+    "ColorBlock": 680,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2014-07-25T18:25:52.2806371+02:00",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "Dibbert-Howe",
-        "ToolTip": "Impedit reprehenderit aut beatae voluptas tempora.",
+        "Id": 431,
+        "Name": "Bogisich-Dach",
+        "ToolTip": "Qui quia quia maiores rerum fugit.",
         "Deleted": true,
-        "Rank": 245,
-        "Type": "illo",
-        "ColorBlock": 278,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2004-11-30T15:05:43.8921229+01:00",
+        "Rank": 233,
+        "Type": "omnis",
+        "ColorBlock": 81,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1995-11-01T18:25:52.2806371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Desmond Kihn",
+        "ExtraInfo": "facilis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Willa Kessler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 382
+            "FieldType": "System.Int32",
+            "FieldLength": 474
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Keshaun Champlin",
+    "ExtraInfo": "eum",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Johnny Moore",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "deploy sticky vortals"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 884
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: SaveDocumentTemplateStream
+title: POST Agents/List/SaveDocumentTemplateStream
 id: v1ListAgent_SaveDocumentTemplateStream
 ---
 
-# SaveDocumentTemplateStream
+# POST Agents/List/SaveDocumentTemplateStream
 
 ```http
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
@@ -78,14 +78,14 @@ Response body: object
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 28,
+  "DocumentTemplateId": 130,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 303
+  "LanguageCode": "non",
+  "PluginId": 93
 }
 ```
 
@@ -94,10 +94,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cremin Group",
-  "Description": "Adaptive clear-thinking system engine",
-  "ExternalReference": "aut",
-  "MimeType": "iste",
-  "PluginId": 91
+  "Name": "Schultz-Bailey",
+  "Description": "Virtual foreground methodology",
+  "ExternalReference": "assumenda",
+  "MimeType": "tempore",
+  "PluginId": 946
 }
 ```

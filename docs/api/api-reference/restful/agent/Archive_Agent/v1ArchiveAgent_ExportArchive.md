@@ -1,9 +1,9 @@
 ---
-title: ExportArchive
+title: POST Agents/Archive/ExportArchive
 id: v1ArchiveAgent_ExportArchive
 ---
 
-# ExportArchive
+# POST Agents/Archive/ExportArchive
 
 ```http
 POST /api/v1/Agents/Archive/ExportArchive
@@ -88,55 +88,55 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Auer-Kihn",
-  "Context": "necessitatibus",
+  "ProviderName": "Purdy Inc and Sons",
+  "Context": "fugiat",
   "DesiredEntities": [
-    "sit",
-    "asperiores"
+    "ut",
+    "aut"
   ],
   "Columns": [
-    "rerum",
-    "voluptatem"
+    "est",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Herman-Howell",
+      "Name": "Hettinger, Schiller and Lakin",
       "Direction": "ASC"
     },
     {
-      "Name": "Herman-Howell",
+      "Name": "Hettinger, Schiller and Lakin",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Kling, Collier and Hauck",
-      "Operator": "ut",
+      "Name": "Durgan, Kling and Vandervort",
+      "Operator": "sed",
       "Values": [
-        "aut",
-        "ipsa"
+        "voluptatibus",
+        "aut"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "nihil"
+        "enim",
+        "saepe"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 40,
+      "InterParenthesis": 73,
       "InterOperator": "And",
-      "UniqueHash": 497
+      "UniqueHash": 667
     }
   ],
-  "ExportType": "ea",
+  "ExportType": "sint",
   "SelectedRowIds": [
-    "placeat",
-    "alias"
+    "aliquid",
+    "architecto"
   ],
-  "EstimatedRowCount": 212
+  "EstimatedRowCount": 126
 }
 ```
 
@@ -145,9 +145,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 344,
-  "FileName": "Brakus-Kemmer",
-  "Message": "repellendus",
+  "BatchTaskId": 223,
+  "FileName": "Baumbach, Barton and Stark",
+  "Message": "dolores",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

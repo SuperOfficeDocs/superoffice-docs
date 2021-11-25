@@ -1,9 +1,9 @@
 ---
-title: GetAudienceLayoutOnPerson
+title: POST Agents/Audience/GetAudienceLayoutOnPerson
 id: v1AudienceAgent_GetAudienceLayoutOnPerson
 ---
 
-# GetAudienceLayoutOnPerson
+# POST Agents/Audience/GetAudienceLayoutOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
@@ -84,11 +84,11 @@ Response body: object
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 358
+  "PersonId": 481
 }
 ```
 
@@ -97,24 +97,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 776,
-  "InstanceLayout": "neque",
-  "InstanceName": "Hettinger-Feil",
-  "CreatedDate": "2004-01-06T14:58:03.2662422+01:00",
-  "UpdatedDate": "2016-05-29T14:58:03.2662422+02:00",
+  "AudienceLayoutId": 434,
+  "InstanceLayout": "dignissimos",
+  "InstanceName": "Zieme LLC",
+  "CreatedDate": "2015-11-01T18:28:48.1385423+01:00",
+  "UpdatedDate": "2011-01-19T18:28:48.1385423+01:00",
   "CreatedBy": {
-    "AssociateId": 389,
-    "Name": "Monahan, Orn and Hessel",
-    "PersonId": 411,
-    "Rank": 433,
-    "Tooltip": "officiis",
+    "AssociateId": 592,
+    "Name": "Ruecker Inc and Sons",
+    "PersonId": 669,
+    "Rank": 706,
+    "Tooltip": "sint",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 732,
-    "FullName": "Mr. Elisa Feil",
-    "FormalName": "Langosh Group",
-    "Deleted": true,
-    "EjUserId": 444,
-    "UserName": "Hirthe LLC",
+    "GroupIdx": 518,
+    "FullName": "Murphy Farrell MD",
+    "FormalName": "Russel-Lubowitz",
+    "Deleted": false,
+    "EjUserId": 231,
+    "UserName": "Stracke, Cummings and Fahey",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -123,23 +123,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 374
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 329,
-    "Name": "Gorczany, Lakin and Kris",
-    "PersonId": 402,
-    "Rank": 286,
-    "Tooltip": "et",
+    "AssociateId": 663,
+    "Name": "Stamm-Bins",
+    "PersonId": 700,
+    "Rank": 565,
+    "Tooltip": "ut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 863,
-    "FullName": "Raheem Howe",
-    "FormalName": "Cassin-Windler",
-    "Deleted": true,
-    "EjUserId": 379,
-    "UserName": "Kovacek Inc and Sons",
+    "GroupIdx": 94,
+    "FullName": "Antwon Hand",
+    "FormalName": "Hills-Hauck",
+    "Deleted": false,
+    "EjUserId": 568,
+    "UserName": "Schaden, Quigley and Schaefer",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   },
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

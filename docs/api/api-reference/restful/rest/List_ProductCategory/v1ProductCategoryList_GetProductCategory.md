@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Bashirian-Medhurst",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 649,
-  "Rank": 634,
+  "Id": 616,
+  "Name": "Bogisich-Kozey",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "UdListDefinitionId": 439,
+  "Rank": 18,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "unleash B2C experiences"
   },
   "FieldProperties": {
     "fieldName": {
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 390
     }
   }
 }

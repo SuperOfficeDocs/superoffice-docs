@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Erdman Inc and Sons",
-    "ToolTip": "Saepe non officia.",
-    "Deleted": false,
-    "Rank": 824,
-    "Type": "illo",
-    "ColorBlock": 25,
-    "IconHint": "ut",
+    "Id": 717,
+    "Name": "Streich Inc and Sons",
+    "ToolTip": "Possimus reprehenderit velit.",
+    "Deleted": true,
+    "Rank": 41,
+    "Type": "et",
+    "ColorBlock": 22,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1998-12-29T15:05:43.2715497+01:00",
+    "LastChanged": "2002-03-28T18:25:51.6412945+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Balistreri Inc and Sons",
-        "ToolTip": "Sit dignissimos provident blanditiis qui sed et.",
+        "Id": 225,
+        "Name": "Wehner LLC",
+        "ToolTip": "Praesentium atque dolorem culpa.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "ratione",
-        "ColorBlock": 954,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2006-02-03T15:05:43.2715497+01:00",
+        "Rank": 994,
+        "Type": "veritatis",
+        "ColorBlock": 801,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2011-03-29T18:25:51.6412945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "qui",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Jennifer Crooks"
+        "FullName": "Loraine Corwin PhD"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "alias",
     "Hidden": true,
-    "FullName": "Melyna Pouros"
+    "FullName": "Selena Heathcote"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Gerhold-Collins",
-    "ToolTip": "Aut quia dolorem omnis quam.",
+    "Id": 875,
+    "Name": "Jacobi, Smitham and Doyle",
+    "ToolTip": "Eum laborum.",
     "Deleted": true,
-    "Rank": 344,
-    "Type": "possimus",
-    "ColorBlock": 929,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2017-04-05T15:05:43.2735394+02:00",
+    "Rank": 155,
+    "Type": "et",
+    "ColorBlock": 456,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2008-08-20T18:25:51.6422945+02:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Kiehn Group",
-        "ToolTip": "Ullam culpa explicabo expedita minus porro.",
+        "Id": 481,
+        "Name": "Rempel, Ortiz and Cruickshank",
+        "ToolTip": "Nihil nulla voluptas saepe assumenda et mollitia.",
         "Deleted": false,
-        "Rank": 800,
-        "Type": "sint",
-        "ColorBlock": 483,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2019-02-09T15:05:43.2735394+01:00",
+        "Rank": 280,
+        "Type": "optio",
+        "ColorBlock": 219,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2018-10-29T18:25:51.6422945+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quo",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Mr. Winifred Kihn",
+        "FullName": "Vita Bechtelar",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "engage extensible technologies"
             },
             "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldLength": 159
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "iusto",
+    "ExtraInfo": "impedit",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Rogelio Walker",
+    "FullName": "Blaise Beier",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldLength": 758
       }
     }
   }

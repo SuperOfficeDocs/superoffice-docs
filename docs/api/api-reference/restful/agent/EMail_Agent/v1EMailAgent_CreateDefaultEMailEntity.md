@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailEntity
+title: POST Agents/EMail/CreateDefaultEMailEntity
 id: v1EMailAgent_CreateDefaultEMailEntity
 ---
 
-# CreateDefaultEMailEntity
+# POST Agents/EMail/CreateDefaultEMailEntity
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
@@ -97,45 +97,45 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 31,
-      "ContactName": "Kohler, Schinner and Luettgen",
-      "PersonId": 873,
-      "PersonName": "Hodkiewicz-Smitham",
-      "AssociateId": 526,
-      "Address": "blanditiis",
-      "EmailId": 543,
+      "ContactId": 250,
+      "ContactName": "Senger, Denesik and Ritchie",
+      "PersonId": 741,
+      "PersonName": "Schroeder, Effertz and Kreiger",
+      "AssociateId": 784,
+      "Address": "voluptas",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        131,
-        901
+        444,
+        339
       ],
-      "Name": "Donnelly Group",
+      "Name": "Hodkiewicz, Collier and Howe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "integrate rich relationships"
           },
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 890
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 175,
-      "ContactName": "Thompson-Kulas",
-      "PersonId": 572,
-      "PersonName": "Dibbert, Shanahan and Hermann",
-      "AssociateId": 632,
-      "Address": "nam",
-      "EmailId": 477,
+      "ContactId": 973,
+      "ContactName": "Baumbach, Hermiston and Sauer",
+      "PersonId": 453,
+      "PersonName": "Leffler-Gerhold",
+      "AssociateId": 138,
+      "Address": "quaerat",
+      "EmailId": 212,
       "DuplicatePersonIds": [
-        211,
-        118
+        455,
+        842
       ],
-      "Name": "Bruen-Lubowitz",
+      "Name": "Beahan LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -143,26 +143,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 699,
-      "ContactName": "Paucek LLC",
-      "PersonId": 248,
-      "PersonName": "Graham, Ziemann and Breitenberg",
-      "AssociateId": 123,
-      "Address": "quia",
-      "EmailId": 807,
+      "ContactId": 1001,
+      "ContactName": "Bergnaum LLC",
+      "PersonId": 119,
+      "PersonName": "Conn-Swift",
+      "AssociateId": 835,
+      "Address": "voluptate",
+      "EmailId": 853,
       "DuplicatePersonIds": [
-        848,
-        917
+        749,
+        822
       ],
-      "Name": "Gusikowski Group",
+      "Name": "Casper Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -170,27 +170,27 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldType": "System.String",
+          "FieldLength": 185
         }
       }
     }
   ],
-  "Subject": "debitis",
-  "HTMLBody": "est",
+  "Subject": "impedit",
+  "HTMLBody": "molestiae",
   "From": {
-    "ContactId": 173,
-    "ContactName": "Rath-Balistreri",
-    "PersonId": 531,
-    "PersonName": "King, Gutkowski and Walker",
-    "AssociateId": 615,
-    "Address": "quia",
-    "EmailId": 440,
+    "ContactId": 936,
+    "ContactName": "Strosin Group",
+    "PersonId": 475,
+    "PersonName": "Auer, Wunsch and Gerhold",
+    "AssociateId": 992,
+    "Address": "exercitationem",
+    "EmailId": 418,
     "DuplicatePersonIds": [
-      347,
-      542
+      335,
+      999
     ],
-    "Name": "Leannon-Lowe",
+    "Name": "Homenick-Gutkowski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -199,26 +199,26 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 708
       }
     }
   },
-  "Sent": "2002-05-03T14:58:04.1764599+02:00",
-  "Size": 52,
+  "Sent": "2021-05-08T18:28:49.0859569+02:00",
+  "Size": 73,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ea",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "vitae",
+  "PlainBody": "non",
+  "IsSent": false,
   "EMailSOInfo": {
-    "DocumentId": 808,
-    "AppointmentId": 712,
-    "ProjectId": 558,
-    "SaleId": 673,
-    "Archived": false,
-    "ArchivedAt": "2013-12-04T14:58:04.1764599+01:00",
-    "ArchivedBy": 84,
-    "ArchivedDisplayName": "Hills-Roob",
+    "DocumentId": 615,
+    "AppointmentId": 947,
+    "ProjectId": 443,
+    "SaleId": 185,
+    "Archived": true,
+    "ArchivedAt": "2014-07-26T18:28:49.0859569+02:00",
+    "ArchivedBy": 880,
+    "ArchivedDisplayName": "Wilderman-Hudson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -226,41 +226,41 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   },
-  "ServerId": 97,
+  "ServerId": 831,
   "Attachments": [
     {
-      "Description": "Implemented static implementation",
-      "Filename": "aut",
-      "Size": 232,
-      "Type": "iure",
-      "Encoding": "ut",
-      "Id": "distinctio",
-      "Disposition": "ut",
+      "Description": "Persevering homogeneous core",
+      "Filename": "quibusdam",
+      "Size": 901,
+      "Type": "ut",
+      "Encoding": "tempora",
+      "Id": "quibusdam",
+      "Disposition": "a",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "maximize cutting-edge infrastructures"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 731
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Pacocha, Shields and Blick",
+      "Name": "Brekke LLC",
       "Values": [
-        "sapiente",
-        "excepturi"
+        "voluptatem",
+        "quia"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -269,16 +269,16 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     },
     {
-      "Name": "Pacocha, Shields and Blick",
+      "Name": "Brekke LLC",
       "Values": [
-        "sapiente",
-        "excepturi"
+        "voluptatem",
+        "quia"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -287,29 +287,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "FolderName": "Monahan LLC",
-  "EmailItemId": 891,
-  "AccountId": 894,
-  "ReceivedAt": "1995-07-24T14:58:04.1774609+02:00",
+  "FolderName": "Emmerich-Dicki",
+  "EmailItemId": 626,
+  "AccountId": 95,
+  "ReceivedAt": "1996-05-16T18:28:49.0869567+02:00",
   "InReplyTo": {
-    "ServerId": 255,
-    "MessageId": "quia",
-    "Subject": "assumenda",
+    "ServerId": 527,
+    "MessageId": "qui",
+    "Subject": "eveniet",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "1998-07-26T14:58:04.1774609+02:00",
+    "Sent": "2008-10-25T18:28:49.0869567+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 54,
+    "Size": 957,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
@@ -319,11 +319,11 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 64
+        "FieldLength": 405
       }
     }
   },
-  "RepliedAt": "2016-12-18T14:58:04.1774609+01:00",
+  "RepliedAt": "2014-10-17T18:28:49.0869567+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -338,7 +338,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 507
     }
   }
 }

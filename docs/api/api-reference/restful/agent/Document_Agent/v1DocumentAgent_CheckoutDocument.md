@@ -1,9 +1,9 @@
 ---
-title: CheckoutDocument
+title: POST Agents/Document/CheckoutDocument
 id: v1DocumentAgent_CheckoutDocument
 ---
 
-# CheckoutDocument
+# POST Agents/Document/CheckoutDocument
 
 ```http
 POST /api/v1/Agents/Document/CheckoutDocument
@@ -77,14 +77,14 @@ Response body: object
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 631,
+  "DocumentId": 229,
   "AllowedReturnTypes": [
-    "ad",
-    "eos"
+    "ut",
+    "maxime"
   ]
 }
 ```
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "repellendus",
-  "VersionId": "qui",
-  "Success": false,
+  "ExternalReference": "accusantium",
+  "VersionId": "pariatur",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "illum",
-  "AdditionalInfo": "vel"
+  "Value": "porro",
+  "AdditionalInfo": "iure"
 }
 ```

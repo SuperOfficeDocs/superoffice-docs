@@ -1,9 +1,9 @@
 ---
-title: GetReasonStalled
+title: POST Agents/List/GetReasonStalled
 id: v1ListAgent_GetReasonStalled
 ---
 
-# GetReasonStalled
+# POST Agents/List/GetReasonStalled
 
 ```http
 POST /api/v1/Agents/List/GetReasonStalled
@@ -25,7 +25,7 @@ Gets a ReasonStalled object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=431
+POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=101
 POST /api/v1/Agents/List/GetReasonStalled?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 249,
-  "Value": "quis",
-  "Tooltip": "eveniet",
+  "Id": 260,
+  "Value": "ratione",
+  "Tooltip": "laudantium",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   }
 }

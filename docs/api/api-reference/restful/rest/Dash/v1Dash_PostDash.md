@@ -49,6 +49,7 @@ The Dash to be saved.
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -79,6 +80,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -104,34 +106,36 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 735,
-  "Name": "Paucek LLC",
-  "Description": "Sharable high-level matrix",
-  "AssociateId": 474,
-  "Columns": 408,
+  "DashboardId": 931,
+  "UniqueId": "qui",
+  "Name": "Simonis, Franecki and Effertz",
+  "Description": "Multi-layered bandwidth-monitored access",
+  "AssociateId": 47,
+  "Columns": 401,
   "Theme": {
-    "DashboardThemeId": 630,
-    "Name": "Daugherty-Shields",
-    "Config": "voluptatem",
-    "Rank": 364
+    "DashboardThemeId": 987,
+    "Name": "Rohan, Reichel and Douglas",
+    "Config": "voluptas",
+    "Rank": 278,
+    "Client": "praesentium"
   },
-  "VisibleForAll": 980,
+  "VisibleForAll": 146,
   "VisibleForAssociates": [
-    231,
-    861
+    69,
+    946
   ],
   "VisibleForGroups": [
-    297,
-    308
+    828,
+    767
   ],
-  "PinForAll": 613,
+  "PinForAll": 367,
   "PinForAssociates": [
-    550,
-    759
+    980,
+    847
   ],
   "PinForGroups": [
-    863,
-    491
+    363,
+    521
   ]
 }
 ```
@@ -141,49 +145,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 553,
-  "Name": "Bailey, Beer and Kohler",
-  "Description": "Digitized 3rd generation productivity",
-  "AssociateId": 140,
-  "Columns": 201,
+  "DashboardId": 807,
+  "UniqueId": "tempora",
+  "Name": "Ward-Schiller",
+  "Description": "Multi-lateral zero tolerance ability",
+  "AssociateId": 279,
+  "Columns": 590,
   "Theme": {
-    "DashboardThemeId": 954,
-    "Name": "Sawayn Group",
-    "Config": "adipisci",
-    "Rank": 373,
+    "DashboardThemeId": 41,
+    "Name": "Purdy-Stoltenberg",
+    "Config": "temporibus",
+    "Rank": 600,
+    "Client": "cum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "exploit global platforms"
         },
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 172
       }
     }
   },
-  "VisibleForAll": 130,
+  "VisibleForAll": 829,
   "VisibleForAssociates": [
-    900,
-    774
+    169,
+    114
   ],
   "VisibleForGroups": [
-    518,
-    970
+    17,
+    107
   ],
-  "PinForAll": 199,
+  "PinForAll": 800,
   "PinForAssociates": [
-    877,
-    564
+    476,
+    614
   ],
   "PinForGroups": [
-    496,
-    574
+    158,
+    556
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "aggregate value-added applications"
   },
   "FieldProperties": {
     "fieldName": {
@@ -191,13 +197,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

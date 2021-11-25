@@ -24,7 +24,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Quitzon, Simonis and Luettgen",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 365,
-    "Rank": 104,
+    "Id": 205,
+    "Name": "Hammes-Kiehn",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "UdListDefinitionId": 331,
+    "Rank": 805,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "streamline sexy synergies"
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldLength": 719
       }
     }
   }

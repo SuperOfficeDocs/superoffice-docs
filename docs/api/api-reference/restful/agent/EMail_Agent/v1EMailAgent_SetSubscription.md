@@ -1,9 +1,9 @@
 ---
-title: SetSubscription
+title: POST Agents/EMail/SetSubscription
 id: v1EMailAgent_SetSubscription
 ---
 
-# SetSubscription
+# POST Agents/EMail/SetSubscription
 
 ```http
 POST /api/v1/Agents/EMail/SetSubscription

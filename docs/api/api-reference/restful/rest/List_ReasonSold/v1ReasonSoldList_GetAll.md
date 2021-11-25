@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Padberg, Koss and Kozey",
-    "Tooltip": "ea",
+    "Id": 433,
+    "Name": "Ruecker Inc and Sons",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 830,
+    "UdListDefinitionId": 554,
+    "Rank": 122,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "revolutionize rich eyeballs"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 18
       }
     }
   }

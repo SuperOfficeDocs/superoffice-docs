@@ -1,9 +1,9 @@
 ---
-title: GetStepsFromNetServerCode
+title: POST Agents/Database/GetStepsFromNetServerCode
 id: v1DatabaseAgent_GetStepsFromNetServerCode
 ---
 
-# GetStepsFromNetServerCode
+# POST Agents/Database/GetStepsFromNetServerCode
 
 ```http
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
@@ -65,7 +65,7 @@ Response body: array
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Baumbach-Haag",
-    "StepNumber": 660,
+    "Name": "Nader Inc and Sons",
+    "StepNumber": 326,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldLength": 399
       }
     }
   },
   {
-    "Name": "Baumbach-Haag",
-    "StepNumber": 660,
+    "Name": "Nader Inc and Sons",
+    "StepNumber": 326,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldLength": 399
       }
     }
   }

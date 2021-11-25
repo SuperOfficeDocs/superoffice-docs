@@ -76,17 +76,17 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 07 Dec 2009 15:05:42 G12T
+Last-Modified: Fri, 23 May 2003 18:25:50 G5T
 
 {
-  "Key": "sit",
-  "Value": "sit",
-  "RecordId": 394,
-  "CreatedDate": "2001-04-06T15:05:42.2436336+02:00",
-  "UpdatedDate": "2009-12-07T15:05:42.2436336+01:00",
-  "UpdatedBy": "in",
-  "CreatedBy": "quae",
-  "TableName": "Rohan, Lindgren and Nitzsche",
+  "Key": "esse",
+  "Value": "delectus",
+  "RecordId": 801,
+  "CreatedDate": "2004-05-15T18:25:50.572597+02:00",
+  "UpdatedDate": "2003-05-23T18:25:50.572597+02:00",
+  "UpdatedBy": "accusantium",
+  "CreatedBy": "facilis",
+  "TableName": "Wilkinson, Prohaska and Klein",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -98,7 +98,7 @@ Last-Modified: Mon, 07 Dec 2009 15:05:42 G12T
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldLength": 339
     }
   }
 }

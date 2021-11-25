@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Name": "Bogan Group",
-  "Tooltip": "fugiat",
+  "Id": 191,
+  "Name": "Wolff-Cronin",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 249,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 828,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": false
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615,
-  "Name": "Braun-Rau",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 241,
+  "Id": 352,
+  "Name": "Marvin Group",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 939,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

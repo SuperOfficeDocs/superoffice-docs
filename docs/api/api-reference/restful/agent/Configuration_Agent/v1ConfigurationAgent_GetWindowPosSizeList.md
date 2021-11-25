@@ -1,9 +1,9 @@
 ---
-title: GetWindowPosSizeList
+title: POST Agents/Configuration/GetWindowPosSizeList
 id: v1ConfigurationAgent_GetWindowPosSizeList
 ---
 
-# GetWindowPosSizeList
+# POST Agents/Configuration/GetWindowPosSizeList
 
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
@@ -80,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ipsam",
-    "PersonId": 653,
-    "AssociateId": 176,
-    "ExtraId": 805,
+    "OwnerWindow": "nemo",
+    "PersonId": 105,
+    "AssociateId": 113,
+    "ExtraId": 882,
     "ExtraInfo": "cumque",
-    "Height": 470,
-    "LeftX": 364,
+    "Height": 141,
+    "LeftX": 902,
     "State": "Maximized",
-    "UpperY": 279,
-    "Width": 67,
-    "WindowPosSizeId": 839,
+    "UpperY": 221,
+    "Width": 684,
+    "WindowPosSizeId": 641,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 879
       }
     }
   }

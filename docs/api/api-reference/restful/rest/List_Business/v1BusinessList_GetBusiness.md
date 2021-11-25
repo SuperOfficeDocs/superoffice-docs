@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Langworth, Welch and Hyatt",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 374,
-  "Rank": 791,
+  "Id": 336,
+  "Name": "Ruecker, Nicolas and Labadie",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 234,
+  "Rank": 144,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 599
     }
   }
 }

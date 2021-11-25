@@ -78,25 +78,25 @@ Response body: array
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 315,
-    "Name": "Prosacco Group",
-    "Tooltip": "voluptatem",
+    "HeadingId": 547,
+    "Name": "Smith-Sporer",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 87
+    "Rank": 422,
+    "UdListDefinitionId": 215
   },
   {
-    "HeadingId": 315,
-    "Name": "Prosacco Group",
-    "Tooltip": "voluptatem",
+    "HeadingId": 547,
+    "Name": "Smith-Sporer",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 87
+    "Rank": 422,
+    "UdListDefinitionId": 215
   }
 ]
 ```
@@ -107,15 +107,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 176,
-    "Name": "Hane, Wilderman and Berge",
-    "Tooltip": "sunt",
+    "HeadingId": 699,
+    "Name": "Carroll-Cronin",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 738,
-    "UdListDefinitionId": 101,
+    "Rank": 55,
+    "UdListDefinitionId": 85,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "reintermediate dot-com deliverables"
     },
     "FieldProperties": {
       "fieldName": {
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 511
+        "FieldLength": 85
       }
     }
   }

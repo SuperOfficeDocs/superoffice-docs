@@ -1,9 +1,9 @@
 ---
-title: GetDepartmentList
+title: POST Agents/List/GetDepartmentList
 id: v1ListAgent_GetDepartmentList
 ---
 
-# GetDepartmentList
+# POST Agents/List/GetDepartmentList
 
 ```http
 POST /api/v1/Agents/List/GetDepartmentList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDepartmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Value": "aut",
-    "Tooltip": "aliquid",
+    "Id": 631,
+    "Value": "eligendi",
+    "Tooltip": "voluptas",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 240
       }
     }
   },
   {
-    "Id": 545,
-    "Value": "aut",
-    "Tooltip": "aliquid",
+    "Id": 631,
+    "Value": "eligendi",
+    "Tooltip": "voluptas",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 240
       }
     }
   }

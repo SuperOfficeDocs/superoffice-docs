@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 877,
-  "Name": "Kunde Group",
-  "ContentType": "expedita",
-  "AttSize": 308,
-  "InlineImage": true,
-  "ContentId": "quia",
+  "AttachmentId": 875,
+  "Name": "Johnston LLC",
+  "ContentType": "autem",
+  "AttSize": 645,
+  "InlineImage": false,
+  "ContentId": "et",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 942
     }
   }
 }

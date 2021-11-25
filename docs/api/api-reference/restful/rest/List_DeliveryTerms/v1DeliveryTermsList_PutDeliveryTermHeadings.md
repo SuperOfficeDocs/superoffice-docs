@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Upton-Oberbrunner",
-    "Tooltip": "dicta",
+    "HeadingId": 599,
+    "Name": "Funk, Osinski and Schuster",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 758,
-    "UdListDefinitionId": 774
+    "Rank": 930,
+    "UdListDefinitionId": 358
   },
   {
-    "HeadingId": 743,
-    "Name": "Upton-Oberbrunner",
-    "Tooltip": "dicta",
+    "HeadingId": 599,
+    "Name": "Funk, Osinski and Schuster",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 758,
-    "UdListDefinitionId": 774
+    "Rank": 930,
+    "UdListDefinitionId": 358
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 95,
-    "Name": "Rodriguez, Johnson and McLaughlin",
-    "Tooltip": "ratione",
+    "HeadingId": 247,
+    "Name": "Hagenes-Mraz",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "Rank": 405,
-    "UdListDefinitionId": 796,
+    "Rank": 251,
+    "UdListDefinitionId": 225,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

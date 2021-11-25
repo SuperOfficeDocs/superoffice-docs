@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTileForEntity
+title: POST Agents/Dash/CreateDefaultTileForEntity
 id: v1DashAgent_CreateDefaultTileForEntity
 ---
 
-# CreateDefaultTileForEntity
+# POST Agents/Dash/CreateDefaultTileForEntity
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
@@ -83,11 +83,11 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Haley, Botsford and Anderson"
+  "EntityName": "Kirlin LLC"
 }
 ```
 
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 336,
-  "DashboardId": 65,
-  "Height": 188,
-  "Width": 918,
-  "Rank": 172,
+  "DashboardTileId": 417,
+  "DashboardId": 863,
+  "Height": 435,
+  "Width": 404,
+  "Rank": 68,
   "DashTileDefinition": {
-    "DashboardTileDefinitionId": 62,
-    "Name": "Wilderman-Dooley",
-    "Description": "Phased fresh-thinking time-frame",
-    "DefaultHeight": 273,
-    "DefaultWidth": 953,
+    "DashboardTileDefinitionId": 489,
+    "Name": "Hermiston LLC",
+    "Description": "Enterprise-wide bi-directional conglomeration",
+    "DefaultHeight": 230,
+    "DefaultWidth": 140,
     "TileType": "Area",
     "EntityType": "Appointment",
-    "EntityName": "Grimes LLC",
-    "SelectionId": 152,
+    "EntityName": "Ledner Inc and Sons",
+    "SelectionId": 617,
     "CurrencyMode": "Base",
-    "CurrencyId": 869,
+    "CurrencyCode": "doloremque",
     "Measure": "Average",
-    "MeasureField": "fugit",
-    "SortBy": "et",
-    "LayoutConfig": "deleniti",
-    "SecondarySelectionId": 267,
-    "MeasureByField": "sapiente",
-    "ProviderName": "Watsica LLC",
+    "MeasureField": "voluptas",
+    "SortBy": "voluptate",
+    "LayoutConfig": "explicabo",
+    "SecondarySelectionId": 973,
+    "MeasureByField": "vero",
+    "ProviderName": "McDermott-Kessler",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 135
       }
     }
   },
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 651
     }
   }
 }

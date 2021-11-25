@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -72,15 +72,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "Beatty LLC",
-  "Tooltip": "aliquam",
+  "Id": 864,
+  "Name": "Streich-Krajcik",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "UdListDefinitionId": 3,
-  "Rank": 59,
+  "UdListDefinitionId": 67,
+  "Rank": 128,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "orchestrate out-of-the-box relationships"
   },
   "FieldProperties": {
     "fieldName": {
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 61
     }
   }
 }

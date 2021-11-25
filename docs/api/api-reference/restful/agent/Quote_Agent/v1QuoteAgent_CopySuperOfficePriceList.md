@@ -1,9 +1,9 @@
 ---
-title: CopySuperOfficePriceList
+title: POST Agents/Quote/CopySuperOfficePriceList
 id: v1QuoteAgent_CopySuperOfficePriceList
 ---
 
-# CopySuperOfficePriceList
+# POST Agents/Quote/CopySuperOfficePriceList
 
 ```http
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
@@ -92,15 +92,15 @@ Response body: object
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 315,
-  "NewName": "Nolan, Bogisich and O'Reilly",
-  "ValidFrom": "2008-08-03T14:58:04.9944652+02:00",
-  "ValidTo": "2015-07-18T14:58:04.9944652+02:00",
-  "NewCurrencyId": 409,
+  "OriginalPriceListId": 975,
+  "NewName": "Beatty Inc and Sons",
+  "ValidFrom": "2005-10-04T18:28:49.9811329+02:00",
+  "ValidTo": "2003-10-10T18:28:49.9811329+02:00",
+  "NewCurrencyId": 997,
   "ConvertCurrency": true
 }
 ```
@@ -110,16 +110,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 104,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 325,
-  "Name": "Boyle-Brakus",
-  "Description": "Programmable dynamic hub",
-  "Currency": "aliquam",
-  "CurrencyName": "Hilll-Langworth",
-  "ValidFrom": "2012-03-04T14:58:04.9944652+01:00",
-  "ValidTo": "2008-07-12T14:58:04.9944652+02:00",
-  "IsActive": false,
+  "PriceListId": 13,
+  "ERPPriceListKey": "magni",
+  "QuoteConnectionId": 675,
+  "Name": "Wuckert, Senger and Lakin",
+  "Description": "Self-enabling dynamic toolset",
+  "Currency": "laboriosam",
+  "CurrencyName": "Osinski Inc and Sons",
+  "ValidFrom": "1997-09-24T18:28:49.9811329+02:00",
+  "ValidTo": "2019-08-18T18:28:49.9811329+02:00",
+  "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

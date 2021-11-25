@@ -52,6 +52,7 @@ The DashTheme to be saved.
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 
 
 ## Response: object
@@ -74,6 +75,7 @@ Response body: object
 | Name | string | The name of this theme |
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
+| Client | string | Name of client(s) this theme is available to |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -84,14 +86,15 @@ Response body: object
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 19,
-  "Name": "Orn-Herzog",
-  "Config": "ipsam",
-  "Rank": 688
+  "DashboardThemeId": 524,
+  "Name": "Schamberger LLC",
+  "Config": "harum",
+  "Rank": 600,
+  "Client": "sit"
 }
 ```
 
@@ -100,10 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 670,
-  "Name": "Emmerich, Glover and Kautzer",
-  "Config": "tempore",
-  "Rank": 309,
+  "DashboardThemeId": 220,
+  "Name": "Gusikowski, Feil and Block",
+  "Config": "fuga",
+  "Rank": 634,
+  "Client": "sit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,13 +118,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

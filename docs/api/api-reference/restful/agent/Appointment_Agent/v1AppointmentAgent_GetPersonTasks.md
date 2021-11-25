@@ -1,9 +1,9 @@
 ---
-title: GetPersonTasks
+title: POST Agents/Appointment/GetPersonTasks
 id: v1AppointmentAgent_GetPersonTasks
 ---
 
-# GetPersonTasks
+# POST Agents/Appointment/GetPersonTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonTasks
@@ -126,8 +126,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 518,
-  "Count": 919
+  "PersonId": 232,
+  "Count": 767
 }
 ```
 
@@ -137,53 +137,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 678,
-    "StartDate": "2016-02-24T14:58:03.0515383+01:00",
-    "EndDate": "2007-11-11T14:58:03.0515383+01:00",
+    "AppointmentId": 14,
+    "StartDate": "2017-02-01T18:28:47.8948444+01:00",
+    "EndDate": "2000-05-08T18:28:47.8948444+02:00",
     "Type": "BookingForChecklist",
     "Task": "qui",
-    "AssociateFullName": "Destini Hudson DDS",
-    "ContactName": "Fay, Berge and Crona",
-    "Description": "Universal non-volatile portal",
-    "PersonFullName": "Mike Weissnat",
-    "PersonId": 885,
-    "ContactId": 637,
-    "ProjectId": 656,
-    "ProjectName": "Larson-Gottlieb",
-    "IsPublished": true,
-    "AssociateId": 319,
-    "ColorIndex": 910,
+    "AssociateFullName": "Jonatan Jewess",
+    "ContactName": "Lueilwitz-Little",
+    "Description": "Ergonomic solution-oriented support",
+    "PersonFullName": "Hans Bartoletti",
+    "PersonId": 144,
+    "ContactId": 630,
+    "ProjectId": 834,
+    "ProjectName": "Jewess, Brown and Schmitt",
+    "IsPublished": false,
+    "AssociateId": 546,
+    "ColorIndex": 556,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 624,
-    "PriorityName": "Feil, Monahan and Treutel",
+    "PriorityId": 568,
+    "PriorityName": "Rau Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2006-07-28T14:58:03.0525384+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2020-07-27T18:28:47.8958446+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-06-01T14:58:03.0525384+02:00",
-    "RecurringEndDate": "2004-05-06T14:58:03.0525384+02:00",
-    "MotherId": 314,
-    "AssignedBy": 206,
-    "AssignedByFullName": "Ms. Talon Bauch",
+    "RecurringStartDate": "2012-04-04T18:28:47.8958446+02:00",
+    "RecurringEndDate": "2015-07-22T18:28:47.8958446+02:00",
+    "MotherId": 39,
+    "AssignedBy": 64,
+    "AssignedByFullName": "Mrs. Theodora Hoppe",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "ut",
-    "SaleId": 897,
-    "SaleName": "Wolf-Reinger",
-    "AssociateName": "Schimmel LLC",
-    "CreatedDate": "2014-03-19T14:58:03.0525384+01:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Lysanne Considine",
-    "CreatedByAssociateId": 366,
+    "Location": "omnis",
+    "AlarmLeadTime": "et",
+    "SaleId": 528,
+    "SaleName": "Towne Inc and Sons",
+    "AssociateName": "Langworth-Beer",
+    "CreatedDate": "1995-01-12T18:28:47.8958446+01:00",
+    "CreatedBy": "fugit",
+    "CreatedByFullName": "Elbert Runte",
+    "CreatedByAssociateId": 466,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetFormSubmissionEntity
+title: POST Agents/Marketing/GetFormSubmissionEntity
 id: v1MarketingAgent_GetFormSubmissionEntity
 ---
 
-# GetFormSubmissionEntity
+# POST Agents/Marketing/GetFormSubmissionEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=735
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=662
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 378,
-  "FormId": 62,
-  "WhenSubmitted": "2002-06-22T14:58:04.4984653+02:00",
-  "ContactId": 483,
-  "PersonId": 864,
-  "EmailAddress": "ophelia@kemmer.com",
-  "ResponseShipmentAddrId": 264,
-  "Response": "distinctio",
+  "FormSubmissionId": 101,
+  "FormId": 625,
+  "WhenSubmitted": "2006-03-03T18:28:49.4680875+01:00",
+  "ContactId": 952,
+  "PersonId": 410,
+  "EmailAddress": "bruce@huelbosco.uk",
+  "ResponseShipmentAddrId": 345,
+  "Response": "tempora",
   "Status": "EmailVerification",
-  "ProcessingLog": "corrupti",
+  "ProcessingLog": "saepe",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

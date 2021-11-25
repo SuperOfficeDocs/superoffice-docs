@@ -1,9 +1,9 @@
 ---
-title: GetDynamicSelectionCriteria
+title: POST Agents/Selection/GetDynamicSelectionCriteria
 id: v1SelectionAgent_GetDynamicSelectionCriteria
 ---
 
-# GetDynamicSelectionCriteria
+# POST Agents/Selection/GetDynamicSelectionCriteria
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
@@ -80,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 865
+  "SelectionId": 523
 }
 ```
 
@@ -94,58 +94,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torp, Will and O'Keefe",
-    "Operator": "perferendis",
+    "Name": "Swift, Schiller and Yundt",
+    "Operator": "animi",
     "Values": [
-      "est",
-      "eum"
+      "voluptatem",
+      "est"
     ],
     "DisplayValues": [
-      "corporis",
-      "ea"
+      "et",
+      "quidem"
     ],
     "ColumnInfo": {
-      "DisplayName": "Bradtke Group",
-      "DisplayTooltip": "et",
-      "DisplayType": "ad",
+      "DisplayName": "Pfannerstill-Romaguera",
+      "DisplayTooltip": "ad",
+      "DisplayType": "et",
       "CanOrderBy": true,
-      "Name": "Glover Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "soluta",
-      "RestrictionListName": "Hilpert LLC",
-      "IsVisible": true,
-      "ExtraInfo": "neque",
-      "Width": "quidem",
-      "IconHint": "alias",
-      "HeadingIconHint": "magnam"
+      "Name": "Anderson-Schimmel",
+      "CanRestrictBy": false,
+      "RestrictionType": "earum",
+      "RestrictionListName": "Doyle Group",
+      "IsVisible": false,
+      "ExtraInfo": "ipsam",
+      "Width": "et",
+      "IconHint": "harum",
+      "HeadingIconHint": "praesentium"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schimmel, Tremblay and Hansen",
-        "Operator": "tempora",
+        "Name": "VonRueden Group",
+        "Operator": "nam",
         "Values": [
           "blanditiis",
-          "vero"
+          "deserunt"
         ],
         "DisplayValues": [
-          "tempora",
-          "perspiciatis"
+          "totam",
+          "dolorem"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 743,
+        "InterParenthesis": 487,
         "InterOperator": "And",
-        "UniqueHash": 591
+        "UniqueHash": 783
       }
     ],
-    "InterParenthesis": 503,
+    "InterParenthesis": 196,
     "InterOperator": "And",
-    "UniqueHash": 77
+    "UniqueHash": 806
   }
 ]
 ```

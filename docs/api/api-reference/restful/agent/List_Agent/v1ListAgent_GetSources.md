@@ -1,9 +1,9 @@
 ---
-title: GetSources
+title: POST Agents/List/GetSources
 id: v1ListAgent_GetSources
 ---
 
-# GetSources
+# POST Agents/List/GetSources
 
 ```http
 POST /api/v1/Agents/List/GetSources
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -75,12 +75,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Value": "ut",
-    "Tooltip": "rem",
+    "Id": 558,
+    "Value": "sint",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver scalable e-commerce"
     },
     "FieldProperties": {
       "fieldName": {
@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldLength": 579
       }
     }
   },
   {
-    "Id": 351,
-    "Value": "ut",
-    "Tooltip": "rem",
+    "Id": 558,
+    "Value": "sint",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver scalable e-commerce"
     },
     "FieldProperties": {
       "fieldName": {
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldLength": 579
       }
     }
   }

@@ -43,6 +43,8 @@ The TicketStatusEntity to be created.
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 
 
 ## Response: object
@@ -67,6 +69,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,15 +80,17 @@ Response body: object
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 553,
-  "Name": "Russel LLC",
+  "TicketStatusId": 619,
+  "Name": "Nolan-Morissette",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true
+  "NoEmailReopen": true,
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -93,11 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 683,
-  "Name": "Miller, Schultz and Schmeler",
+  "TicketStatusId": 532,
+  "Name": "Torphy Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +116,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

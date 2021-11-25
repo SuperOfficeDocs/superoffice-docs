@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Gislason-Blick",
-    "ToolTip": "Ex aut occaecati ut.",
-    "Deleted": true,
-    "Rank": 980,
-    "Type": "ipsum",
-    "ColorBlock": 839,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "1998-06-14T15:05:43.7441217+02:00",
+    "Id": 615,
+    "Name": "Marks-Sipes",
+    "ToolTip": "Molestiae deleniti excepturi.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "aspernatur",
+    "ColorBlock": 514,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2010-03-18T18:25:52.1330188+01:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Animi velit voluptas.",
-        "Deleted": true,
-        "Rank": 721,
-        "Type": "ipsam",
-        "ColorBlock": 637,
-        "IconHint": "sed",
+        "Id": 99,
+        "Name": "Wisozk, Hermann and White",
+        "ToolTip": "Ipsam a.",
+        "Deleted": false,
+        "Rank": 2,
+        "Type": "assumenda",
+        "ColorBlock": 33,
+        "IconHint": "cumque",
         "Selected": true,
-        "LastChanged": "1996-09-29T15:05:43.7441217+02:00",
+        "LastChanged": "2003-10-16T18:25:52.1330188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "dolores",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Abagail Rosenbaum",
+        "FullName": "Brandi Murray",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 121
+            "FieldType": "System.String",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "aut",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Elinore Considine",
+    "FullName": "Ruthe Murazik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 306
       }
     }
   }

@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Name": "D'Amore-Morar",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 768,
-  "Rank": 212
+  "Id": 718,
+  "Name": "Franecki, Casper and Hyatt",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "UdListDefinitionId": 725,
+  "Rank": 92
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Rau-Goldner",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 613,
-  "Rank": 982,
+  "Id": 681,
+  "Name": "Wisozk LLC",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "UdListDefinitionId": 397,
+  "Rank": 688,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "e-enable next-generation e-markets"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldLength": 4
     }
   }
 }

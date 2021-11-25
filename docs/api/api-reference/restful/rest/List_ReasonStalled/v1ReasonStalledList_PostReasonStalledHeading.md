@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 956,
-  "Name": "Moen, Collier and Dicki",
-  "Tooltip": "adipisci",
+  "HeadingId": 455,
+  "Name": "Gerhold LLC",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 73,
-  "UdListDefinitionId": 629
+  "Rank": 163,
+  "UdListDefinitionId": 819
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 121,
-  "Name": "Fadel-Hickle",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "Rank": 268,
-  "UdListDefinitionId": 809,
+  "HeadingId": 836,
+  "Name": "Jerde Inc and Sons",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 255,
+  "UdListDefinitionId": 815,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetNote
+title: POST Agents/Associate/GetNote
 id: v1AssociateAgent_GetNote
 ---
 
-# GetNote
+# POST Agents/Associate/GetNote
 
 ```http
 POST /api/v1/Agents/Associate/GetNote
@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 33
+  "AssociateId": 3
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatem",
-  "et"
+  "est",
+  "dicta"
 ]
 ```

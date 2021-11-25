@@ -1,9 +1,9 @@
 ---
-title: SetAppData
+title: POST Agents/BLOB/SetAppData
 id: v1BLOBAgent_SetAppData
 ---
 
-# SetAppData
+# POST Agents/BLOB/SetAppData
 
 ```http
 POST /api/v1/Agents/BLOB/SetAppData

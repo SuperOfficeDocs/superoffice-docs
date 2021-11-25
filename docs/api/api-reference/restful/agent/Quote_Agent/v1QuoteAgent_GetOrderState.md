@@ -1,9 +1,9 @@
 ---
-title: GetOrderState
+title: POST Agents/Quote/GetOrderState
 id: v1QuoteAgent_GetOrderState
 ---
 
-# GetOrderState
+# POST Agents/Quote/GetOrderState
 
 ```http
 POST /api/v1/Agents/Quote/GetOrderState
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 474
+  "QuoteVersionId": 61
 }
 ```
 
@@ -97,9 +97,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "officia",
-  "TechExplanation": "est",
-  "ErrorCode": "voluptatem",
+  "UserExplanation": "eum",
+  "TechExplanation": "adipisci",
+  "ErrorCode": "dolore",
   "Changes": {
     "AddedRecords": [
       {},
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 218
       }
     }
   },
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 61
     }
   }
 }

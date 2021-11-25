@@ -60,7 +60,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 231,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "voluptatibus",
-    "Rank": 142,
-    "Key": "voluptas",
-    "MailTemplateId": 926,
-    "Deleted": false,
+    "ConsentSourceId": 196,
+    "Name": "Becker, Berge and Cormier",
+    "Tooltip": "cum",
+    "Rank": 327,
+    "Key": "tenetur",
+    "MailTemplateId": 841,
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,10 +84,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "benchmark B2C channels"
         },
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

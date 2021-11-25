@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Cartwright LLC",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "UdListDefinitionId": 873,
-  "Rank": 937
+  "Id": 201,
+  "Name": "McCullough-Wehner",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "UdListDefinitionId": 221,
+  "Rank": 704
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Greenholt Group",
-  "Tooltip": "delectus",
+  "Id": 989,
+  "Name": "McClure LLC",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 864,
-  "Rank": 719,
+  "UdListDefinitionId": 42,
+  "Rank": 109,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

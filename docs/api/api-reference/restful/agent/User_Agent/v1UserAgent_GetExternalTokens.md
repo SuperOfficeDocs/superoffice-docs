@@ -1,9 +1,9 @@
 ---
-title: GetExternalTokens
+title: POST Agents/User/GetExternalTokens
 id: v1UserAgent_GetExternalTokens
 ---
 
-# GetExternalTokens
+# POST Agents/User/GetExternalTokens
 
 ```http
 POST /api/v1/Agents/User/GetExternalTokens
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "optio"
+  "Key": "quos"
 }
 ```
 
@@ -95,9 +95,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "dolorem",
-  "AccessToken": "aut",
-  "RefreshToken": "odit",
+  "Provider": "nesciunt",
+  "AccessToken": "quidem",
+  "RefreshToken": "perferendis",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

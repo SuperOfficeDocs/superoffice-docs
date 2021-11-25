@@ -1,9 +1,9 @@
 ---
-title: SetRankOnSaleDocument
+title: POST Agents/List/SetRankOnSaleDocument
 id: v1ListAgent_SetRankOnSaleDocument
 ---
 
-# SetRankOnSaleDocument
+# POST Agents/List/SetRankOnSaleDocument
 
 ```http
 POST /api/v1/Agents/List/SetRankOnSaleDocument

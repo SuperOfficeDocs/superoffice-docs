@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplate
+title: POST Agents/List/GetDocumentTemplate
 id: v1ListAgent_GetDocumentTemplate
 ---
 
-# GetDocumentTemplate
+# POST Agents/List/GetDocumentTemplate
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplate
@@ -25,7 +25,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=793
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=487
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -81,7 +81,7 @@ Response body: object
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -89,16 +89,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 377,
-  "Name": "Borer-Becker",
-  "Tooltip": "et",
-  "SaveInDb": 146,
-  "Filename": "quod",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 669,
+  "Name": "Ledner Inc and Sons",
+  "Tooltip": "suscipit",
+  "SaveInDb": 85,
+  "Filename": "ea",
+  "DefaultOref": "aliquid",
   "RecordType": "Appointment",
-  "Deleted": 675,
+  "Deleted": 144,
   "Direction": "Incoming",
-  "AutoeventId": 242,
+  "AutoeventId": 806,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": {
     "Mask": "Delete",
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

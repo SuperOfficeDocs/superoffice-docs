@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Botsford-Herman",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "Rank": 67,
-  "IsCustomList": false,
+  "Id": 239,
+  "Name": "Mueller, Murphy and Fritsch",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 781,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,28 +111,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Gerhold-Abbott",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "Rank": 674,
+  "Id": 64,
+  "Name": "Klein, Smitham and D'Amore",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 46,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "strategize B2C convergence"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reintermediate efficient e-services"
       },
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   }
 }

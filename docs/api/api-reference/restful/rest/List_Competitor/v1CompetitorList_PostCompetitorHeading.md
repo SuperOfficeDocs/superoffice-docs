@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 5,
-  "Name": "Rolfson Inc and Sons",
-  "Tooltip": "quas",
+  "HeadingId": 352,
+  "Name": "Schuster, O'Keefe and Nitzsche",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 797,
-  "UdListDefinitionId": 390
+  "Rank": 202,
+  "UdListDefinitionId": 372
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 257,
-  "Name": "Zemlak LLC",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 210,
-  "UdListDefinitionId": 432,
+  "HeadingId": 702,
+  "Name": "Predovic-Will",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "Rank": 686,
+  "UdListDefinitionId": 548,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "transition interactive ROI"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

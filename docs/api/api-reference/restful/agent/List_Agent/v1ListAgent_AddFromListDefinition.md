@@ -1,9 +1,9 @@
 ---
-title: AddFromListDefinition
+title: POST Agents/List/AddFromListDefinition
 id: v1ListAgent_AddFromListDefinition
 ---
 
-# AddFromListDefinition
+# POST Agents/List/AddFromListDefinition
 
 ```http
 POST /api/v1/Agents/List/AddFromListDefinition
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 945,
+  "UdListDefinitionId": 802,
   "Item": {
-    "Id": 359,
-    "Name": "Runte-Brown",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 822,
-    "Rank": 451
+    "Id": 41,
+    "Name": "Strosin-Lehner",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "UdListDefinitionId": 163,
+    "Rank": 181
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Carroll, Cremin and Reichel",
-  "Tooltip": "exercitationem",
+  "Id": 486,
+  "Name": "Smith Group",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 275,
-  "Rank": 945,
+  "UdListDefinitionId": 4,
+  "Rank": 169,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 967
     }
   }
 }

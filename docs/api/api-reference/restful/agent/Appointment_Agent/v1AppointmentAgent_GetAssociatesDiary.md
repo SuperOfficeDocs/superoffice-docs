@@ -1,9 +1,9 @@
 ---
-title: GetAssociatesDiary
+title: POST Agents/Appointment/GetAssociatesDiary
 id: v1AppointmentAgent_GetAssociatesDiary
 ---
 
-# GetAssociatesDiary
+# POST Agents/Appointment/GetAssociatesDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
@@ -128,11 +128,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    736,
-    271
+    357,
+    537
   ],
-  "StartTime": "2021-01-18T14:58:02.8925684+01:00",
-  "EndTime": "1997-12-26T14:58:02.8925684+01:00"
+  "StartTime": "1996-10-19T18:28:47.741845+02:00",
+  "EndTime": "2021-02-07T18:28:47.741845+01:00"
 }
 ```
 
@@ -142,58 +142,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 646,
-    "StartDate": "2012-08-16T14:58:02.8935684+02:00",
-    "EndDate": "2018-05-06T14:58:02.8935684+02:00",
+    "AppointmentId": 486,
+    "StartDate": "1994-09-13T18:28:47.7428458+02:00",
+    "EndDate": "2001-02-15T18:28:47.7428458+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatum",
-    "AssociateFullName": "Adrianna Green",
-    "ContactName": "Wiza-Wisoky",
-    "Description": "Visionary eco-centric application",
-    "PersonFullName": "Erick Ruecker",
-    "PersonId": 282,
-    "ContactId": 879,
-    "ProjectId": 478,
-    "ProjectName": "Mraz, Kuphal and Murray",
+    "Task": "est",
+    "AssociateFullName": "Brown Hudson",
+    "ContactName": "Abbott Inc and Sons",
+    "Description": "Reverse-engineered 4th generation hub",
+    "PersonFullName": "Adan Ward PhD",
+    "PersonId": 421,
+    "ContactId": 926,
+    "ProjectId": 91,
+    "ProjectName": "Fadel, Gerhold and Hamill",
     "IsPublished": false,
-    "AssociateId": 679,
-    "ColorIndex": 176,
+    "AssociateId": 950,
+    "ColorIndex": 207,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 805,
-    "PriorityName": "Hayes, Graham and Bailey",
+    "PriorityId": 786,
+    "PriorityName": "Conroy, Bailey and Hackett",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-10-30T14:58:02.8935684+01:00",
+    "ActiveDate": "2021-07-27T18:28:47.7428458+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-11-01T14:58:02.8945711+01:00",
-    "RecurringEndDate": "2021-02-24T14:58:02.8945711+01:00",
-    "MotherId": 505,
-    "AssignedBy": 216,
-    "AssignedByFullName": "Flavio Reilly",
+    "RecurringStartDate": "2003-06-27T18:28:47.7438447+02:00",
+    "RecurringEndDate": "2001-03-17T18:28:47.7438447+01:00",
+    "MotherId": 633,
+    "AssignedBy": 667,
+    "AssignedByFullName": "Filiberto Paucek",
     "RejectReason": "",
-    "Location": "impedit",
-    "AlarmLeadTime": "est",
-    "SaleId": 766,
-    "SaleName": "Nienow, Herzog and Volkman",
-    "AssociateName": "McGlynn, Cruickshank and Gleason",
-    "CreatedDate": "1994-10-23T14:58:02.8945711+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Rogers Feeney",
-    "CreatedByAssociateId": 17,
+    "Location": "provident",
+    "AlarmLeadTime": "non",
+    "SaleId": 878,
+    "SaleName": "Weber, Kiehn and Aufderhar",
+    "AssociateName": "Franecki-Witting",
+    "CreatedDate": "2020-06-04T18:28:47.7438447+02:00",
+    "CreatedBy": "amet",
+    "CreatedByFullName": "Jesus Fritsch",
+    "CreatedByAssociateId": 360,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "repurpose intuitive e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
@@ -201,8 +201,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 318
       }
     }
   }

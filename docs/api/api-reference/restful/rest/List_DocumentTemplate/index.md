@@ -2,8 +2,6 @@
 title: List_DocumentTemplate
 ---
 
-# List_DocumentTemplate
-
 ```http
 /api/v1/List/DocumentTemplate
 ```

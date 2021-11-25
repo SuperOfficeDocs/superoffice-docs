@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Johns-Carter",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 480,
+  "Id": 172,
+  "Name": "Rath, Strosin and Beatty",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 926,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "architecto",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 940
     }
   }
 }

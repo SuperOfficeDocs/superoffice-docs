@@ -1,9 +1,9 @@
 ---
-title: CreateDocumentStream
+title: POST Agents/Document/CreateDocumentStream
 id: v1DocumentAgent_CreateDocumentStream
 ---
 
-# CreateDocumentStream
+# POST Agents/Document/CreateDocumentStream
 
 ```http
 POST /api/v1/Agents/Document/CreateDocumentStream
@@ -69,31 +69,31 @@ Response body:
 POST /api/v1/Agents/Document/CreateDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": {
-    "DocumentId": 841,
+    "DocumentId": 594,
     "UpdatedBy": {},
     "CreatedBy": {},
-    "Attention": "expedita",
-    "Header": "et",
-    "Name": "Rath-Moore",
-    "OurRef": "aut",
-    "YourRef": "in",
-    "CreatedDate": "2016-10-31T14:58:03.9764679+01:00",
-    "UpdatedDate": "2008-10-24T14:58:03.9764679+02:00",
-    "Description": "Seamless mission-critical matrices",
+    "Attention": "ab",
+    "Header": "nisi",
+    "Name": "Dickens-Gaylord",
+    "OurRef": "ea",
+    "YourRef": "doloribus",
+    "CreatedDate": "1998-06-08T18:28:48.8769625+02:00",
+    "UpdatedDate": "2018-04-17T18:28:48.8769625+02:00",
+    "Description": "Self-enabling well-modulated functionalities",
     "DocumentTemplate": {},
     "Person": {},
     "Associate": {},
     "Contact": {},
     "Project": {},
-    "Date": "2020-03-17T14:58:03.9764679+01:00",
-    "ExternalRef": "autem",
+    "Date": "1997-07-08T18:28:48.8769625+02:00",
+    "ExternalRef": "est",
     "Completed": "Completed",
-    "ActiveLinks": 434,
+    "ActiveLinks": 36,
     "Type": "BookingForChecklist",
     "Links": [
       {},
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
     ],
     "LockSemantics": "Locking",
     "Sale": {},
-    "SuggestedDocumentId": 447,
-    "Snum": 178,
+    "SuggestedDocumentId": 582,
+    "Snum": 327,
     "UserDefinedFields": {
-      "SuperOffice:1": "Kendall Veum",
-      "SuperOffice:2": "Mr. Janae Von"
+      "SuperOffice:1": "Jamil Funk",
+      "SuperOffice:2": "Mr. Dallas Franecki"
     },
     "ExtraFields": {
-      "ExtraFields1": "omnis",
-      "ExtraFields2": "quaerat"
+      "ExtraFields1": "autem",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "accusamus",
-      "CustomFields2": "voluptatem"
+      "CustomFields1": "eum",
+      "CustomFields2": "ducimus"
     },
-    "PublishEventDate": "2021-04-09T14:58:03.9764679+02:00",
-    "PublishTo": "2000-05-09T14:58:03.9764679+02:00",
-    "PublishFrom": "1994-08-09T14:58:03.9764679+02:00",
-    "IsPublished": false,
+    "PublishEventDate": "2007-04-10T18:28:48.8779615+02:00",
+    "PublishTo": "2018-06-21T18:28:48.8779615+02:00",
+    "PublishFrom": "2017-10-11T18:28:48.8779615+02:00",
+    "IsPublished": true,
     "VisibleFor": [
       {},
       {}

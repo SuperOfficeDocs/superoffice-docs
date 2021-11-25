@@ -1,9 +1,9 @@
 ---
-title: GetAttachmentInfo
+title: POST Agents/Ticket/GetAttachmentInfo
 id: v1TicketAgent_GetAttachmentInfo
 ---
 
-# GetAttachmentInfo
+# POST Agents/Ticket/GetAttachmentInfo
 
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 260
+  "TicketMessageEntityId": 263
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 692,
-    "Name": "Davis LLC",
-    "ContentType": "est",
-    "AttSize": 627,
+    "AttachmentId": 822,
+    "Name": "Price-King",
+    "ContentType": "sint",
+    "AttSize": 874,
     "InlineImage": true,
-    "ContentId": "quos",
+    "ContentId": "magnam",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 744
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: DeleteFormEntity
+title: POST Agents/Marketing/DeleteFormEntity
 id: v1MarketingAgent_DeleteFormEntity
 ---
 
-# DeleteFormEntity
+# POST Agents/Marketing/DeleteFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/DeleteFormEntity
@@ -24,7 +24,7 @@ Deletes the FormEntity
 | FormEntityId | int32 | **Required** The id of the FormEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormEntity?FormEntityId=420
+POST /api/v1/Agents/Marketing/DeleteFormEntity?FormEntityId=391
 ```
 
 

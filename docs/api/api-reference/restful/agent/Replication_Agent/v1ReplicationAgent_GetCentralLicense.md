@@ -1,9 +1,9 @@
 ---
-title: GetCentralLicense
+title: POST Agents/Replication/GetCentralLicense
 id: v1ReplicationAgent_GetCentralLicense
 ---
 
-# GetCentralLicense
+# POST Agents/Replication/GetCentralLicense
 
 ```http
 POST /api/v1/Agents/Replication/GetCentralLicense
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -76,32 +76,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gerhold, Rodriguez and Schultz",
-    "Description": "Exclusive needs-based focus group",
+    "Name": "Wintheiser Group",
+    "Description": "Robust 4th generation solution",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 693,
-        "Tooltip": "ex",
+        "Total": 238,
+        "Tooltip": "eaque",
         "CanAssign": true,
-        "Free": 984,
-        "InUse": 258,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 939,
-        "Name": "Rice, Ferry and Jewess",
-        "Description": "Decentralized scalable encoding",
-        "PrerequisiteModuleName": "Romaguera LLC",
-        "SortOrder": 401,
+        "Free": 574,
+        "InUse": 689,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 663,
+        "Name": "Kiehn-Wiza",
+        "Description": "Streamlined bifurcated hub",
+        "PrerequisiteModuleName": "Torp, Fritsch and Spencer",
+        "SortOrder": 403,
+        "ExtraFlags": 241,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "e-enable extensible networks"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 649
+            "FieldLength": 536
           }
         }
       }
@@ -109,18 +110,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 312,
-        "Tooltip": "qui",
+        "Total": 633,
+        "Tooltip": "aperiam",
         "CanAssign": false,
-        "Free": 77,
-        "InUse": 676,
+        "Free": 344,
+        "InUse": 910,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 592,
-        "Name": "Konopelski-Lehner",
-        "Description": "Right-sized national approach",
-        "PrerequisiteModuleName": "Prohaska Inc and Sons",
-        "SortOrder": 808,
+        "ModuleLicenseId": 234,
+        "Name": "Wiegand-Nicolas",
+        "Description": "Virtual directional collaboration",
+        "PrerequisiteModuleName": "Kutch, Howell and Dach",
+        "SortOrder": 548,
+        "ExtraFlags": 393,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,7 +131,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 69
           }
         }
       }
@@ -145,37 +147,38 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldLength": 662
       }
     }
   },
   {
-    "Name": "Gerhold, Rodriguez and Schultz",
-    "Description": "Exclusive needs-based focus group",
+    "Name": "Wintheiser Group",
+    "Description": "Robust 4th generation solution",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 693,
-        "Tooltip": "ex",
+        "Total": 238,
+        "Tooltip": "eaque",
         "CanAssign": true,
-        "Free": 984,
-        "InUse": 258,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 939,
-        "Name": "Rice, Ferry and Jewess",
-        "Description": "Decentralized scalable encoding",
-        "PrerequisiteModuleName": "Romaguera LLC",
-        "SortOrder": 401,
+        "Free": 574,
+        "InUse": 689,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 663,
+        "Name": "Kiehn-Wiza",
+        "Description": "Streamlined bifurcated hub",
+        "PrerequisiteModuleName": "Torp, Fritsch and Spencer",
+        "SortOrder": 403,
+        "ExtraFlags": 241,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "e-enable extensible networks"
+              "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 649
+            "FieldLength": 536
           }
         }
       }
@@ -183,18 +186,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 312,
-        "Tooltip": "qui",
+        "Total": 633,
+        "Tooltip": "aperiam",
         "CanAssign": false,
-        "Free": 77,
-        "InUse": 676,
+        "Free": 344,
+        "InUse": 910,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 592,
-        "Name": "Konopelski-Lehner",
-        "Description": "Right-sized national approach",
-        "PrerequisiteModuleName": "Prohaska Inc and Sons",
-        "SortOrder": 808,
+        "ModuleLicenseId": 234,
+        "Name": "Wiegand-Nicolas",
+        "Description": "Virtual directional collaboration",
+        "PrerequisiteModuleName": "Kutch, Howell and Dach",
+        "SortOrder": 548,
+        "ExtraFlags": 393,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -203,7 +207,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 69
           }
         }
       }
@@ -219,7 +223,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldLength": 662
       }
     }
   }

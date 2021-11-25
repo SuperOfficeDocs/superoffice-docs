@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,25 +81,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Huels, Crist and Emard",
-  "Comment": "soluta",
-  "StakeholderRoleId": 836,
-  "CountryId": 584,
-  "PersonId": 758,
-  "EmailDescription": "jovani.grant@schumm.uk",
-  "EmailId": 845,
-  "EmailAddress": "bessie.beatty@framihessel.ca",
-  "PhoneId": 561,
-  "ContactName": "Weimann, Vandervort and Torphy",
-  "ContactId": 916,
-  "SaleId": 856,
-  "Mrmrs": "at",
-  "Firstname": "Megane",
-  "MiddleName": "Hoeger LLC",
-  "Lastname": "Mueller",
-  "SaleStakeholderId": 231,
-  "Rank": 739,
-  "Phone": "787-766-7020 x47878",
+  "StakeholderRoleName": "Hodkiewicz-Padberg",
+  "Comment": "sed",
+  "StakeholderRoleId": 133,
+  "CountryId": 855,
+  "PersonId": 954,
+  "EmailDescription": "laurianne.bayer@gusikowski.biz",
+  "EmailId": 914,
+  "EmailAddress": "may_sawayn@wiegandkunze.co.uk",
+  "PhoneId": 406,
+  "ContactName": "Gaylord, Gusikowski and Grady",
+  "ContactId": 168,
+  "SaleId": 105,
+  "Mrmrs": "recusandae",
+  "Firstname": "Virginia",
+  "MiddleName": "Doyle-Schmidt",
+  "Lastname": "Walsh",
+  "SaleStakeholderId": 649,
+  "Rank": 956,
+  "Phone": "(315)304-8488",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 636
     }
   }
 }

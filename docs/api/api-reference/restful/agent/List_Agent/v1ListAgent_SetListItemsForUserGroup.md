@@ -1,9 +1,9 @@
 ---
-title: SetListItemsForUserGroup
+title: POST Agents/List/SetListItemsForUserGroup
 id: v1ListAgent_SetListItemsForUserGroup
 ---
 
-# SetListItemsForUserGroup
+# POST Agents/List/SetListItemsForUserGroup
 
 ```http
 POST /api/v1/Agents/List/SetListItemsForUserGroup

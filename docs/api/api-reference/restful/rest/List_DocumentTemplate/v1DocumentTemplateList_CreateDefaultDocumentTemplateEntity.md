@@ -83,7 +83,7 @@ Response body: object
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,34 +91,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 619,
-  "Name": "Bayer, Muller and Wolf",
-  "Tooltip": "enim",
-  "SaveInDb": 87,
-  "Filename": "ex",
-  "DefaultOref": "nostrum",
+  "DocumentTemplateId": 750,
+  "Name": "Leannon Inc and Sons",
+  "Tooltip": "sint",
+  "SaveInDb": 821,
+  "Filename": "dolorum",
+  "DefaultOref": "quas",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 829,
-  "IntentId": 98,
+  "AutoeventId": 186,
+  "IntentId": 964,
   "IsDefaultPublished": true,
-  "Rank": 204,
-  "LoadTemplateFromPlugin": 990,
-  "MimeType": "dolore",
+  "Rank": 691,
+  "LoadTemplateFromPlugin": 969,
+  "MimeType": "qui",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 709,
+  "DocumentTypeKey": 508,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mercedes@rohanprice.biz",
+  "EmailSubject": "glenda@graham.com",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "destiney_stanton@harber.uk",
+  "SenderEmailAddress": "clinton@feest.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "enhance sexy partnerships"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

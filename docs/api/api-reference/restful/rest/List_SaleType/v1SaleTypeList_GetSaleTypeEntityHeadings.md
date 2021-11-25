@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -68,15 +68,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 433,
-    "Name": "Trantow-Homenick",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 180,
-    "UdListDefinitionId": 58,
+    "HeadingId": 568,
+    "Name": "Brown, Kling and Kunze",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 284,
+    "UdListDefinitionId": 357,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transition wireless technologies"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldType": "System.Int32",
+        "FieldLength": 947
       }
     }
   }

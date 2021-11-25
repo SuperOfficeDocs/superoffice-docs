@@ -1,9 +1,9 @@
 ---
-title: GetConfigurableScreenDeltasByDelta
+title: POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
 id: v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta
 ---
 
-# GetConfigurableScreenDeltasByDelta
+# POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
 
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
@@ -70,7 +70,11 @@ Response body: array
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -80,19 +84,26 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConfigurableScreenDelta": {
-    "ConfigurableScreenDeltaId": 573,
-    "Name": "Dooley-Feil",
-    "Description": "Sharable eco-centric methodology",
-    "DeltaJson": "similique",
+    "ConfigurableScreenDeltaId": 466,
+    "Name": "Pfannerstill, Lind and Corwin",
+    "Description": "Innovative full-range core",
+    "DeltaJson": "beatae",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "rem",
-    "UserGroupId": 22
+    "RecipeId": "ad",
+    "UpdatedDate": "2017-11-18T18:28:48.4126252+01:00",
+    "CreatedDate": "2003-12-04T18:28:48.4126252+01:00",
+    "UpdatedBy": {},
+    "CreatedBy": {},
+    "UserGroupIds": [
+      464,
+      646
+    ]
   }
 }
 ```
@@ -103,14 +114,69 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 584,
-    "Name": "Lemke, Nitzsche and Hermiston",
-    "Description": "Self-enabling 24/7 instruction set",
-    "DeltaJson": "vero",
+    "ConfigurableScreenDeltaId": 121,
+    "Name": "Dicki-Dare",
+    "Description": "Compatible modular time-frame",
+    "DeltaJson": "ut",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "totam",
-    "UserGroupId": 686,
+    "RecipeId": "dolor",
+    "UpdatedDate": "2001-11-04T18:28:48.4136241+01:00",
+    "CreatedDate": "2021-04-02T18:28:48.4136241+02:00",
+    "UpdatedBy": {
+      "AssociateId": 209,
+      "Name": "Flatley-Stamm",
+      "PersonId": 171,
+      "Rank": 16,
+      "Tooltip": "asperiores",
+      "Type": "AnonymousAssociate",
+      "GroupIdx": 724,
+      "FullName": "Zola Boehm",
+      "FormalName": "Watsica-Weimann",
+      "Deleted": false,
+      "EjUserId": 772,
+      "UserName": "Johns, Murphy and Grimes",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 783
+        }
+      }
+    },
+    "CreatedBy": {
+      "AssociateId": 960,
+      "Name": "Bernier Group",
+      "PersonId": 688,
+      "Rank": 305,
+      "Tooltip": "et",
+      "Type": "AnonymousAssociate",
+      "GroupIdx": 706,
+      "FullName": "Brooks Hahn",
+      "FormalName": "Bosco, Macejkovic and Rowe",
+      "Deleted": true,
+      "EjUserId": 641,
+      "UserName": "Swift-Legros",
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": "implement web-enabled supply-chains"
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 395
+        }
+      }
+    },
+    "UserGroupIds": [
+      912,
+      335
+    ],
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -122,7 +188,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldLength": 925
       }
     }
   }

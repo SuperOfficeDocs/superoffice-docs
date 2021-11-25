@@ -1,9 +1,9 @@
 ---
-title: DeclineInvitationFromEmailItem
+title: POST Agents/Appointment/DeclineInvitationFromEmailItem
 id: v1AppointmentAgent_DeclineInvitationFromEmailItem
 ---
 
-# DeclineInvitationFromEmailItem
+# POST Agents/Appointment/DeclineInvitationFromEmailItem
 
 ```http
 POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem

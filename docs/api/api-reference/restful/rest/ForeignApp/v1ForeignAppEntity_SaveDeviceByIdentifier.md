@@ -90,19 +90,19 @@ Response body: object
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 449,
-  "Name": "Kessler-Ebert",
-  "CreatedDate": "2000-07-21T15:05:42.2406339+02:00",
-  "UpdatedDate": "2014-09-26T15:05:42.2406339+02:00",
-  "AssociateFullName": "Amelia Dickens",
-  "CreatedBy": "sed",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "esse",
-  "ForeignAppId": 178
+  "ForeignDeviceId": 13,
+  "Name": "Wunsch, Ferry and Hirthe",
+  "CreatedDate": "2019-02-17T18:25:50.5705973+01:00",
+  "UpdatedDate": "1997-09-15T18:25:50.5705973+02:00",
+  "AssociateFullName": "Taya Schmidt",
+  "CreatedBy": "corrupti",
+  "UpdatedBy": "provident",
+  "DeviceIdentifier": "ex",
+  "ForeignAppId": 348
 }
 ```
 
@@ -111,18 +111,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 807,
-  "Name": "Boehm LLC",
-  "CreatedDate": "1996-09-06T15:05:42.2416345+02:00",
-  "UpdatedDate": "2020-01-14T15:05:42.2416345+01:00",
-  "AssociateFullName": "Jose Blick",
-  "CreatedBy": "eum",
-  "UpdatedBy": "esse",
-  "DeviceIdentifier": "quisquam",
-  "ForeignAppId": 475,
+  "ForeignDeviceId": 866,
+  "Name": "Gislason-Shanahan",
+  "CreatedDate": "1998-04-10T18:25:50.5715971+02:00",
+  "UpdatedDate": "2020-10-03T18:25:50.5715971+02:00",
+  "AssociateFullName": "Milford Kris PhD",
+  "CreatedBy": "ut",
+  "UpdatedBy": "deleniti",
+  "DeviceIdentifier": "omnis",
+  "ForeignAppId": 967,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "benchmark clicks-and-mortar schemas"
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldLength": 374
     }
   }
 }

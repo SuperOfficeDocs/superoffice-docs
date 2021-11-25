@@ -1,9 +1,9 @@
 ---
-title: GetConfigParameterValueOnPerson
+title: POST Agents/Audience/GetConfigParameterValueOnPerson
 id: v1AudienceAgent_GetConfigParameterValueOnPerson
 ---
 
-# GetConfigParameterValueOnPerson
+# POST Agents/Audience/GetConfigParameterValueOnPerson
 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
@@ -69,12 +69,12 @@ Response body: string
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Watsica Inc and Sons",
-  "PersonId": 175
+  "ParameterName": "Kohler, Bradtke and Kutch",
+  "PersonId": 507
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"minus"
+"natus"
 ```

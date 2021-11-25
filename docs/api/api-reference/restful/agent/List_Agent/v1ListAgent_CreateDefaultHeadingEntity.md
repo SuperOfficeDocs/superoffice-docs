@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultHeadingEntity
+title: POST Agents/List/CreateDefaultHeadingEntity
 id: v1ListAgent_CreateDefaultHeadingEntity
 ---
 
-# CreateDefaultHeadingEntity
+# POST Agents/List/CreateDefaultHeadingEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 889,
-  "Name": "Borer-Luettgen",
-  "Tooltip": "iste",
+  "HeadingId": 927,
+  "Name": "Thiel LLC",
+  "Tooltip": "earum",
   "Deleted": true,
-  "Rank": 911,
-  "UdListDefinitionId": 99,
+  "Rank": 323,
+  "UdListDefinitionId": 509,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 593
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: FindOrderBy
+title: POST Agents/Find/FindOrderBy
 id: v1FindAgent_FindOrderBy
 ---
 
-# FindOrderBy
+# POST Agents/Find/FindOrderBy
 
 ```http
 POST /api/v1/Agents/Find/FindOrderBy
@@ -89,18 +89,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "libero",
-  "ProviderName": "Pfannerstill Group",
-  "StorageKey": "rem",
-  "PageSize": 418,
-  "PageNumber": 688,
+  "StorageType": "non",
+  "ProviderName": "Douglas, Hammes and Sipes",
+  "StorageKey": "nisi",
+  "PageSize": 524,
+  "PageNumber": 660,
   "OrderBy": [
     {
-      "Name": "Rice, Oberbrunner and Barton",
+      "Name": "Swift-Hackett",
       "Direction": "ASC"
     },
     {
-      "Name": "Rice, Oberbrunner and Barton",
+      "Name": "Swift-Hackett",
       "Direction": "ASC"
     }
   ]
@@ -114,34 +114,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hudson Group",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "quia",
+      "DisplayName": "Daugherty Group",
+      "DisplayTooltip": "delectus",
+      "DisplayType": "voluptatem",
       "CanOrderBy": true,
-      "Name": "Predovic, Kris and Schroeder",
+      "Name": "Schamberger Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "excepturi",
-      "RestrictionListName": "Schiller-Schamberger",
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Prohaska-Williamson",
       "IsVisible": false,
-      "ExtraInfo": "quam",
-      "Width": "dolore",
-      "IconHint": "quibusdam",
-      "HeadingIconHint": "itaque"
+      "ExtraInfo": "dolores",
+      "Width": "et",
+      "IconHint": "et",
+      "HeadingIconHint": "enim"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Reynolds LLC",
-      "PrimaryKey": 69,
+      "EntityName": "Abernathy-Feil",
+      "PrimaryKey": 57,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "itaque",
-          "TooltipHint": "expedita",
-          "LinkHint": "possimus"
+          "DisplayValue": "odio",
+          "TooltipHint": "deserunt",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "vero",
+      "LinkHint": "ut",
+      "StyleHint": "illum",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -150,12 +150,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldLength": 842
         }
       }
     }
   ],
-  "RowCount": 423,
+  "RowCount": 375,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: ExecuteUserCommand
+title: POST Agents/User/ExecuteUserCommand
 id: v1UserAgent_ExecuteUserCommand
 ---
 
-# ExecuteUserCommand
+# POST Agents/User/ExecuteUserCommand
 
 ```http
 POST /api/v1/Agents/User/ExecuteUserCommand
@@ -73,17 +73,17 @@ Response body: object
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Bosco-VonRueden",
+  "CommandName": "D'Amore-Langosh",
   "ActionResult": "Cancel",
   "User": {
-    "AssociateId": 32,
-    "Name": "Mante, Feest and Halvorson",
-    "Rank": 392,
-    "Tooltip": "dolorum",
+    "AssociateId": 147,
+    "Name": "Frami, Hilpert and Schumm",
+    "Rank": 411,
+    "Tooltip": "quod",
     "LicenseOwners": [
       {},
       {}
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
       {}
     ],
     "Person": {},
-    "Deleted": false,
-    "Lastlogin": "2012-07-12T14:58:05.5600266+02:00",
-    "Lastlogout": "1998-05-01T14:58:05.5600266+02:00",
-    "EjUserId": 260,
-    "RequestSignature": "harum",
+    "Deleted": true,
+    "Lastlogin": "1994-12-01T18:28:50.5604425+01:00",
+    "Lastlogout": "2001-05-24T18:28:50.5604425+02:00",
+    "EjUserId": 543,
+    "RequestSignature": "qui",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": true,
@@ -107,20 +107,20 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "UserName": "Reynolds Group",
+    "UserName": "Breitenberg-Shields",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Blanda Group",
+    "NickName": "Tromp Inc and Sons",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "voluptatem",
-      "ExtraFields2": "laboriosam"
+      "ExtraFields1": "reprehenderit",
+      "ExtraFields2": "odio"
     },
     "CustomFields": {
-      "CustomFields1": "ipsum",
-      "CustomFields2": "quisquam"
+      "CustomFields1": "error",
+      "CustomFields2": "nulla"
     },
     "PostSaveCommands": [
       {},
@@ -135,8 +135,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "illum",
+  "Success": false,
+  "Message": "quia",
   "Result": "Cancel",
   "TableRight": {
     "Mask": "Delete",
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 256
     }
   }
 }

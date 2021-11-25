@@ -1,9 +1,9 @@
 ---
-title: SaveForeignDevice
+title: POST Agents/ForeignSystem/SaveForeignDevice
 id: v1ForeignSystemAgent_SaveForeignDevice
 ---
 
-# SaveForeignDevice
+# POST Agents/ForeignSystem/SaveForeignDevice
 
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
@@ -87,22 +87,22 @@ Response body: object
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": {
-    "ForeignDeviceId": 794,
-    "Name": "Farrell Inc and Sons",
-    "CreatedDate": "1997-03-05T14:58:04.3114603+01:00",
-    "UpdatedDate": "2019-04-05T14:58:04.3114603+02:00",
-    "AssociateFullName": "Anastasia Turner",
-    "CreatedBy": "dolor",
-    "UpdatedBy": "illum",
-    "DeviceIdentifier": "porro",
-    "ForeignAppId": 439
+    "ForeignDeviceId": 22,
+    "Name": "Heller-Murphy",
+    "CreatedDate": "2006-11-22T18:28:49.2181179+01:00",
+    "UpdatedDate": "2019-07-07T18:28:49.2181179+02:00",
+    "AssociateFullName": "Derrick Reichert",
+    "CreatedBy": "quibusdam",
+    "UpdatedBy": "quos",
+    "DeviceIdentifier": "eaque",
+    "ForeignAppId": 486
   },
-  "ApplicationName": "Waters LLC"
+  "ApplicationName": "Donnelly, Mante and Jerde"
 }
 ```
 
@@ -111,18 +111,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 508,
-  "Name": "Kohler, Jakubowski and Collier",
-  "CreatedDate": "2018-04-02T14:58:04.3124599+02:00",
-  "UpdatedDate": "2018-05-30T14:58:04.3124599+02:00",
-  "AssociateFullName": "Giovanna Zieme",
-  "CreatedBy": "fugiat",
-  "UpdatedBy": "vel",
-  "DeviceIdentifier": "ad",
-  "ForeignAppId": 278,
+  "ForeignDeviceId": 360,
+  "Name": "Labadie, Weissnat and Schumm",
+  "CreatedDate": "1994-09-16T18:28:49.2191175+02:00",
+  "UpdatedDate": "2012-06-21T18:28:49.2191175+02:00",
+  "AssociateFullName": "Moshe Schroeder",
+  "CreatedBy": "quae",
+  "UpdatedBy": "optio",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 965,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "recontextualize user-centric schemas"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldLength": 100
     }
   }
 }

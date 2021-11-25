@@ -1,9 +1,9 @@
 ---
-title: GetFolderEMailCount
+title: POST Agents/EMail/GetFolderEMailCount
 id: v1EMailAgent_GetFolderEMailCount
 ---
 
-# GetFolderEMailCount
+# POST Agents/EMail/GetFolderEMailCount
 
 ```http
 POST /api/v1/Agents/EMail/GetFolderEMailCount
@@ -71,16 +71,16 @@ Response body: int32
 POST /api/v1/Agents/EMail/GetFolderEMailCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": {
-    "ServerName": "Abernathy LLC",
-    "UserName": "Maggio, Paucek and O'Keefe",
-    "Password": "eum",
-    "Folder": "corporis",
-    "UseSSL": true
+    "ServerName": "Fisher Inc and Sons",
+    "UserName": "Gutkowski, Gaylord and Reilly",
+    "Password": "quo",
+    "Folder": "voluptatibus",
+    "UseSSL": false
   },
   "OnlyUnread": true
 }
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-178
+864
 ```

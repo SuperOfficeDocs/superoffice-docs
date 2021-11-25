@@ -1,9 +1,9 @@
 ---
-title: GetAllQuoteLineConfigurations
+title: POST Agents/Quote/GetAllQuoteLineConfigurations
 id: v1QuoteAgent_GetAllQuoteLineConfigurations
 ---
 
-# GetAllQuoteLineConfigurations
+# POST Agents/Quote/GetAllQuoteLineConfigurations
 
 ```http
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
@@ -81,14 +81,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 54,
-    "FieldName": "Jast, Krajcik and Mohr",
-    "Label": "molestias",
-    "Tooltip": "autem",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 817,
+    "FieldName": "Schmidt Group",
+    "Label": "nam",
+    "Tooltip": "ut",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": true,
-    "Rank": 362,
+    "Rank": 597,
     "RestrictEdit": true,
     "TableRight": {
       "Mask": "Delete",
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Kirlin, Franecki and Gottlieb",
-    "ToolTip": "Totam voluptas.",
-    "Deleted": true,
-    "Rank": 403,
-    "Type": "omnis",
-    "ColorBlock": 264,
-    "IconHint": "ut",
+    "Id": 694,
+    "Name": "Bins-Stark",
+    "ToolTip": "Minima minus.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "incidunt",
+    "ColorBlock": 163,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2001-01-17T15:05:43.7160821+01:00",
+    "LastChanged": "2020-07-20T18:25:52.1070239+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Tillman-Satterfield",
-        "ToolTip": "Nihil non excepturi optio deleniti autem vel.",
-        "Deleted": true,
-        "Rank": 523,
-        "Type": "libero",
-        "ColorBlock": 953,
-        "IconHint": "voluptatem",
+        "Id": 951,
+        "Name": "Medhurst Inc and Sons",
+        "ToolTip": "Consequuntur et assumenda.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "et",
+        "ColorBlock": 791,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "1996-12-20T15:05:43.7171131+01:00",
+        "LastChanged": "1998-04-16T18:25:52.1070239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "aut",
+        "ExtraInfo": "tempore",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Dale Wolf",
+        "FullName": "Mathilde Rohan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 195
+            "FieldType": "System.Int32",
+            "FieldLength": 192
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Jedidiah Fisher",
+    "ExtraInfo": "rerum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Hector Daniel",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -146,10 +146,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "brand revolutionary metrics"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

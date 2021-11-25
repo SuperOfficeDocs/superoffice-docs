@@ -24,7 +24,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=True
+GET /api/v1/List/ProjectType/Items?includeDeleted=False
 ```
 
 
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Rolfson Inc and Sons",
-    "Tooltip": "libero",
+    "Id": 788,
+    "Name": "Smith Group",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "UdListDefinitionId": 164,
-    "Rank": 177,
+    "UdListDefinitionId": 51,
+    "Rank": 444,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldLength": 471
       }
     }
   }

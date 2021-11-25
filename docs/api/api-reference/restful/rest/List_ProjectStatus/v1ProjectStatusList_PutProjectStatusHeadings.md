@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Rolfson Inc and Sons",
-    "Tooltip": "voluptas",
+    "HeadingId": 33,
+    "Name": "Toy Inc and Sons",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 166,
-    "UdListDefinitionId": 846
+    "Rank": 288,
+    "UdListDefinitionId": 722
   },
   {
-    "HeadingId": 451,
-    "Name": "Rolfson Inc and Sons",
-    "Tooltip": "voluptas",
+    "HeadingId": 33,
+    "Name": "Toy Inc and Sons",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 166,
-    "UdListDefinitionId": 846
+    "Rank": 288,
+    "UdListDefinitionId": 722
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Daniel, Gusikowski and Lebsack",
-    "Tooltip": "consequatur",
+    "HeadingId": 956,
+    "Name": "Dickens, Mueller and Block",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 347,
-    "UdListDefinitionId": 190,
+    "Rank": 848,
+    "UdListDefinitionId": 918,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

@@ -29,8 +29,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=ab
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=nam
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -84,7 +84,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 847,
-    "Name": "Reilly-Pouros",
-    "ToolTip": "Accusantium rem et tenetur.",
-    "Deleted": false,
-    "Rank": 633,
-    "Type": "ea",
-    "ColorBlock": 387,
-    "IconHint": "distinctio",
+    "Id": 198,
+    "Name": "Rosenbaum Group",
+    "ToolTip": "Laborum eveniet.",
+    "Deleted": true,
+    "Rank": 900,
+    "Type": "nihil",
+    "ColorBlock": 940,
+    "IconHint": "commodi",
     "Selected": true,
-    "LastChanged": "2014-11-23T15:05:43.5180799+01:00",
+    "LastChanged": "2004-06-01T18:25:51.9032044+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Johnston, Dickinson and Rempel",
-        "ToolTip": "Eaque et quis.",
+        "Id": 278,
+        "Name": "Kertzmann Inc and Sons",
+        "ToolTip": "Fugiat at.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "fugit",
-        "ColorBlock": 544,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "1997-08-08T15:05:43.5180799+02:00",
+        "Rank": 737,
+        "Type": "eum",
+        "ColorBlock": 462,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2011-05-03T18:25:51.9032044+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "eos",
+        "ExtraInfo": "quo",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Dillan Bergnaum I",
+        "FullName": "Judson McLaughlin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -131,15 +131,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nisi",
+    "ExtraInfo": "sit",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Mackenzie Volkman",
+    "FullName": "Bridgette Altenwerth",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -150,8 +150,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

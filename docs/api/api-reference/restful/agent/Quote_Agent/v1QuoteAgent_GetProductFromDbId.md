@@ -1,9 +1,9 @@
 ---
-title: GetProductFromDbId
+title: POST Agents/Quote/GetProductFromDbId
 id: v1QuoteAgent_GetProductFromDbId
 ---
 
-# GetProductFromDbId
+# POST Agents/Quote/GetProductFromDbId
 
 ```http
 POST /api/v1/Agents/Quote/GetProductFromDbId
@@ -111,11 +111,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 974
+  "ProductId": 909
 }
 ```
 
@@ -124,36 +124,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 492,
-  "ERPProductKey": "fugiat",
-  "ERPPriceListKey": "ipsa",
-  "Name": "Lakin Inc and Sons",
-  "Description": "Innovative impactful website",
-  "Code": "architecto",
-  "PriceUnit": "sit",
-  "QuantityUnit": "cum",
+  "ProductId": 908,
+  "ERPProductKey": "debitis",
+  "ERPPriceListKey": "ex",
+  "Name": "Yost, Kiehn and Sipes",
+  "Description": "De-engineered mobile installation",
+  "Code": "accusantium",
+  "PriceUnit": "distinctio",
+  "QuantityUnit": "iure",
   "IsSubscription": false,
-  "SubscriptionUnit": "fugiat",
-  "DefaultSubscriptionQuantity": 23075.642,
-  "ItemNumber": "1381928",
+  "SubscriptionUnit": "quo",
+  "DefaultSubscriptionQuantity": 26222.178,
+  "ItemNumber": "544143",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nostrum",
-  "ProductTypeKey": "ea",
-  "VAT": 19612.572,
-  "VATInfo": "non",
-  "UnitCost": 3394.122,
-  "UnitMinimumPrice": 18581.486,
-  "UnitListPrice": 27096.564,
+  "ProductFamilyKey": "tempora",
+  "ProductTypeKey": "illo",
+  "VAT": 3497.544,
+  "VATInfo": "molestias",
+  "UnitCost": 2068.44,
+  "UnitMinimumPrice": 1410.3,
+  "UnitListPrice": 3870.49,
   "InAssortment": false,
-  "Supplier": "porro",
-  "SupplierCode": "sapiente",
-  "Rights": "sit",
-  "Rule": "illum",
+  "Supplier": "temporibus",
+  "SupplierCode": "fuga",
+  "Rights": "est",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Kutch, Little and Kiehn",
-      "Value": "vel",
+      "Name": "Smith, Leffler and Hand",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -163,13 +163,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 605
         }
       }
     },
     {
-      "Name": "Kutch, Little and Kiehn",
-      "Value": "vel",
+      "Name": "Smith, Leffler and Hand",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -179,18 +179,18 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 605
         }
       }
     }
   ],
-  "RawExtraInfo": "corrupti",
-  "ExtraField1": "sequi",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "omnis",
-  "ExtraField4": "quia",
-  "ExtraField5": "ea",
-  "InStock": 12335.423999999999,
+  "RawExtraInfo": "quasi",
+  "ExtraField1": "rem",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "non",
+  "ExtraField4": "ut",
+  "ExtraField5": "omnis",
+  "InStock": 14391.328,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 766
     }
   }
 }

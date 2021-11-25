@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplateStreamFromId
+title: POST Agents/List/GetDocumentTemplateStreamFromId
 id: v1ListAgent_GetDocumentTemplateStreamFromId
 ---
 
-# GetDocumentTemplateStreamFromId
+# POST Agents/List/GetDocumentTemplateStreamFromId
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId
@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 254,
-  "LanguageCode": "similique"
+  "DocumentTemplateId": 886,
+  "LanguageCode": "commodi"
 }
 ```
 

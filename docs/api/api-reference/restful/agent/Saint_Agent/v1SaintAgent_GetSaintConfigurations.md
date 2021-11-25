@@ -1,9 +1,9 @@
 ---
-title: GetSaintConfigurations
+title: POST Agents/Saint/GetSaintConfigurations
 id: v1SaintAgent_GetSaintConfigurations
 ---
 
-# GetSaintConfigurations
+# POST Agents/Saint/GetSaintConfigurations
 
 ```http
 POST /api/v1/Agents/Saint/GetSaintConfigurations
@@ -80,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 418,
-    "Enabled": false,
-    "Period1": 745,
-    "Period2": 875,
-    "Period3": 988,
-    "GenerationStart": "2011-12-21T14:58:05.1086289+01:00",
-    "GenerationEnd": "2006-05-01T14:58:05.1086289+02:00",
-    "RowsGenerated": 916,
+    "OwnerTable": 587,
+    "Enabled": true,
+    "Period1": 651,
+    "Period2": 898,
+    "Period3": 978,
+    "GenerationStart": "2018-04-24T18:28:50.0396995+02:00",
+    "GenerationEnd": "2012-11-04T18:28:50.0396995+01:00",
+    "RowsGenerated": 150,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "embrace sticky functionalities"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

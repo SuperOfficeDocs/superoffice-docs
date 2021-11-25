@@ -1,9 +1,9 @@
 ---
-title: GetPerson
+title: POST Agents/Person/GetPerson
 id: v1PersonAgent_GetPerson
 ---
 
-# GetPerson
+# POST Agents/Person/GetPerson
 
 ```http
 POST /api/v1/Agents/Person/GetPerson
@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=322
+POST /api/v1/Agents/Person/GetPerson?personId=497
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -114,45 +114,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "quasi",
-  "PersonId": 96,
-  "Mrmrs": "a",
-  "Firstname": "Duncan",
-  "Lastname": "Schamberger",
-  "MiddleName": "Buckridge-Quitzon",
-  "Title": "aut",
-  "Description": "Compatible solution-oriented migration",
-  "Email": "elsa.mueller@murphyweber.co.uk",
-  "FullName": "Lavonne Graham",
-  "DirectPhone": "824.023.7007",
-  "FormalName": "Collier-Bailey",
-  "CountryId": 702,
-  "ContactId": 12,
-  "ContactName": "Crist, Oberbrunner and Wisoky",
-  "Retired": 804,
-  "Rank": 310,
-  "ActiveInterests": 364,
+  "Position": "id",
+  "PersonId": 267,
+  "Mrmrs": "velit",
+  "Firstname": "Fernando",
+  "Lastname": "Roob",
+  "MiddleName": "Predovic Group",
+  "Title": "perferendis",
+  "Description": "Public-key disintermediate orchestration",
+  "Email": "jamir@hickle.biz",
+  "FullName": "Gage Hahn",
+  "DirectPhone": "1-006-358-0465 x416",
+  "FormalName": "Daniel-Stark",
+  "CountryId": 719,
+  "ContactId": 770,
+  "ContactName": "Bayer, Pfeffer and Orn",
+  "Retired": 424,
+  "Rank": 353,
+  "ActiveInterests": 631,
   "ContactDepartment": "",
-  "ContactCountryId": 115,
-  "ContactOrgNr": "825338",
-  "FaxPhone": "378-406-8725 x626",
-  "MobilePhone": "640-835-5508",
-  "ContactPhone": "1-540-523-2184 x21334",
-  "AssociateName": "Turner Group",
-  "AssociateId": 292,
-  "UsePersonAddress": true,
-  "ContactFax": "et",
-  "Kanafname": "culpa",
+  "ContactCountryId": 440,
+  "ContactOrgNr": "772840",
+  "FaxPhone": "1-338-312-8508 x2486",
+  "MobilePhone": "866.148.0527",
+  "ContactPhone": "537-543-3011 x232",
+  "AssociateName": "Stoltenberg, Casper and Prohaska",
+  "AssociateId": 846,
+  "UsePersonAddress": false,
+  "ContactFax": "est",
+  "Kanafname": "velit",
   "Kanalname": "ut",
-  "Post1": "vel",
-  "Post2": "dolor",
-  "Post3": "impedit",
-  "EmailName": "laurine@dibbertsmitham.com",
-  "ContactFullName": "Camila Hilpert",
-  "ActiveErpLinks": 60,
-  "TicketPriorityId": 782,
-  "SupportLanguageId": 747,
-  "SupportAssociateId": 415,
+  "Post1": "laudantium",
+  "Post2": "qui",
+  "Post3": "assumenda",
+  "EmailName": "jovanny_reichel@schroederlabadie.uk",
+  "ContactFullName": "Anastasia Ullrich",
+  "ActiveErpLinks": 500,
+  "TicketPriorityId": 965,
+  "SupportLanguageId": 650,
+  "SupportAssociateId": 366,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 754
     }
   }
 }

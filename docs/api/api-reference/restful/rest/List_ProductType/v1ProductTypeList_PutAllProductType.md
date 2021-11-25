@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Senger Inc and Sons",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 724,
-    "Rank": 406
+    "Id": 783,
+    "Name": "Reinger, Wuckert and Welch",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 687,
+    "Rank": 660
   },
   {
-    "Id": 986,
-    "Name": "Senger Inc and Sons",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 724,
-    "Rank": 406
+    "Id": 783,
+    "Name": "Reinger, Wuckert and Welch",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 687,
+    "Rank": 660
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Hayes Group",
-    "Tooltip": "praesentium",
+    "Id": 821,
+    "Name": "Terry, Hilll and Robel",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 192,
-    "Rank": 315,
+    "UdListDefinitionId": 901,
+    "Rank": 724,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 320
       }
     }
   }

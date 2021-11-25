@@ -76,8 +76,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

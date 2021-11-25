@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 42,
-    "Name": "Gutmann-Padberg",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 412,
-    "UdListDefinitionId": 164,
+    "HeadingId": 728,
+    "Name": "Hackett Inc and Sons",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 55,
+    "UdListDefinitionId": 120,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   }

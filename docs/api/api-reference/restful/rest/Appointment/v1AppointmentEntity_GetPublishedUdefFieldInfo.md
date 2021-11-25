@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 496,
-  "ColumnId": 20,
-  "FieldDefault": "sunt",
-  "FieldHeight": 106,
-  "FieldLabel": "nisi",
-  "FieldLeft": 881,
-  "FieldTop": 967,
+  "UDefFieldId": 616,
+  "ColumnId": 887,
+  "FieldDefault": "neque",
+  "FieldHeight": 507,
+  "FieldLabel": "dolores",
+  "FieldLeft": 189,
+  "FieldTop": 856,
   "FieldType": "Checkbox",
-  "FieldWidth": 812,
-  "FormatMask": "quis",
-  "HideLabel": false,
+  "FieldWidth": 118,
+  "FormatMask": "rerum",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 367,
-  "LabelLeft": 424,
-  "LabelTop": 224,
-  "LabelWidth": 508,
-  "LastVersionId": 89,
-  "ListTableId": 221,
-  "IsMandatory": false,
+  "LabelHeight": 574,
+  "LabelLeft": 367,
+  "LabelTop": 669,
+  "LabelWidth": 451,
+  "LastVersionId": 163,
+  "ListTableId": 399,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 205,
-  "ProgId": "culpa",
-  "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 697,
-  "TextLength": 904,
-  "Tooltip": "impedit",
-  "UdefIdentity": 339,
-  "UDListDefinitionId": 785,
+  "Page1LineNo": 481,
+  "ProgId": "ad",
+  "IsReadOnly": true,
+  "ShortLabel": "quam",
+  "TabOrder": 286,
+  "TextLength": 59,
+  "Tooltip": "et",
+  "UdefIdentity": 216,
+  "UDListDefinitionId": 74,
   "Justification": "Center",
-  "Version": 924,
-  "TemplateVariableName": "Schulist, Huels and Jakubowski",
-  "HasBeenPublished": true,
-  "MdoListName": "Willms Inc and Sons",
+  "Version": 61,
+  "TemplateVariableName": "Keebler Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Lakin-Kovacek",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

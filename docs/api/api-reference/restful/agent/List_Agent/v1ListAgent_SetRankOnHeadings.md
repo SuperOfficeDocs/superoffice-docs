@@ -1,9 +1,9 @@
 ---
-title: SetRankOnHeadings
+title: POST Agents/List/SetRankOnHeadings
 id: v1ListAgent_SetRankOnHeadings
 ---
 
-# SetRankOnHeadings
+# POST Agents/List/SetRankOnHeadings
 
 ```http
 POST /api/v1/Agents/List/SetRankOnHeadings

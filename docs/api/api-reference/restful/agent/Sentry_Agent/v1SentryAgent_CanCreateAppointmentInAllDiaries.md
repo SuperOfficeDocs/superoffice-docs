@@ -1,9 +1,9 @@
 ---
-title: CanCreateAppointmentInAllDiaries
+title: POST Agents/Sentry/CanCreateAppointmentInAllDiaries
 id: v1SentryAgent_CanCreateAppointmentInAllDiaries
 ---
 
-# CanCreateAppointmentInAllDiaries
+# POST Agents/Sentry/CanCreateAppointmentInAllDiaries
 
 ```http
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAllDiaries
@@ -59,12 +59,12 @@ Response body: bool
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAllDiaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

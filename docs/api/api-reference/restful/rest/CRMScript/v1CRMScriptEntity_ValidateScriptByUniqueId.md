@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/CRMScript/{cRMScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -75,8 +75,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "at",
+  "Valid": true,
+  "ErrorMessage": "est",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 655
     }
   }
 }

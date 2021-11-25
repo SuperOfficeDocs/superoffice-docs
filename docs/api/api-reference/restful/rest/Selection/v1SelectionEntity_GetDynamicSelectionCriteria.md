@@ -74,58 +74,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herman Group",
-    "Operator": "dolor",
+    "Name": "Beahan, Hirthe and Doyle",
+    "Operator": "cumque",
     "Values": [
-      "voluptatem",
-      "et"
+      "libero",
+      "omnis"
     ],
     "DisplayValues": [
-      "vel",
-      "inventore"
+      "iusto",
+      "facere"
     ],
     "ColumnInfo": {
-      "DisplayName": "Davis LLC",
-      "DisplayTooltip": "animi",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": false,
-      "Name": "Huel, Jacobson and Halvorson",
-      "CanRestrictBy": true,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Stokes Group",
+      "DisplayName": "Rowe Inc and Sons",
+      "DisplayTooltip": "veniam",
+      "DisplayType": "iure",
+      "CanOrderBy": true,
+      "Name": "Jewess-D'Amore",
+      "CanRestrictBy": false,
+      "RestrictionType": "velit",
+      "RestrictionListName": "Lindgren-Durgan",
       "IsVisible": false,
-      "ExtraInfo": "iusto",
-      "Width": "aperiam",
-      "IconHint": "in",
-      "HeadingIconHint": "similique"
+      "ExtraInfo": "atque",
+      "Width": "enim",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "porro"
     },
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Zboncak-Hansen",
-        "Operator": "modi",
+        "Name": "Zboncak, Schamberger and Turner",
+        "Operator": "officia",
         "Values": [
-          "molestiae",
-          "quia"
+          "quisquam",
+          "sit"
         ],
         "DisplayValues": [
-          "esse",
-          "sed"
+          "et",
+          "voluptas"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 292,
+        "InterParenthesis": 395,
         "InterOperator": "And",
-        "UniqueHash": 371
+        "UniqueHash": 32
       }
     ],
-    "InterParenthesis": 133,
+    "InterParenthesis": 170,
     "InterOperator": "And",
-    "UniqueHash": 251
+    "UniqueHash": 139
   }
 ]
 ```

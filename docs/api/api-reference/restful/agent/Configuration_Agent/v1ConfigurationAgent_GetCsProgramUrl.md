@@ -1,9 +1,9 @@
 ---
-title: GetCsProgramUrl
+title: POST Agents/Configuration/GetCsProgramUrl
 id: v1ConfigurationAgent_GetCsProgramUrl
 ---
 
-# GetCsProgramUrl
+# POST Agents/Configuration/GetCsProgramUrl
 
 ```http
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "ab",
-  "ProgramName": "Bartoletti Group",
-  "Action": "aut",
-  "ExtraParameters": "deleniti"
+  "Language": "dolores",
+  "ProgramName": "Zulauf Inc and Sons",
+  "Action": "molestias",
+  "ExtraParameters": "et"
 }
 ```
 

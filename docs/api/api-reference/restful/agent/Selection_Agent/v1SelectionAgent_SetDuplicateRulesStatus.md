@@ -1,9 +1,9 @@
 ---
-title: SetDuplicateRulesStatus
+title: POST Agents/Selection/SetDuplicateRulesStatus
 id: v1SelectionAgent_SetDuplicateRulesStatus
 ---
 
-# SetDuplicateRulesStatus
+# POST Agents/Selection/SetDuplicateRulesStatus
 
 ```http
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus

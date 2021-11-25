@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Williamson, Rempel and Feil",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 202,
-    "UdListDefinitionId": 52,
+    "HeadingId": 188,
+    "Name": "Armstrong-Zulauf",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 42,
+    "UdListDefinitionId": 665,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldType": "System.String",
+        "FieldLength": 489
       }
     }
   }

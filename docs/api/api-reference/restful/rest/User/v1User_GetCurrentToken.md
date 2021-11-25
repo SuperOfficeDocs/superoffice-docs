@@ -50,12 +50,12 @@ Response body: string
 GET /api/v1/User/currentToken
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"praesentium"
 ```

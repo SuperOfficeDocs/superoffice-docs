@@ -53,7 +53,7 @@ Response body:
 GET /api/v1/Document/{documentId}/SanitizedContent
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_

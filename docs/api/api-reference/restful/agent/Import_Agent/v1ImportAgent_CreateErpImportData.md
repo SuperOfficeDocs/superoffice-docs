@@ -1,9 +1,9 @@
 ---
-title: CreateErpImportData
+title: POST Agents/Import/CreateErpImportData
 id: v1ImportAgent_CreateErpImportData
 ---
 
-# CreateErpImportData
+# POST Agents/Import/CreateErpImportData
 
 ```http
 POST /api/v1/Agents/Import/CreateErpImportData
@@ -82,38 +82,38 @@ Response body: object
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Lemke Inc and Sons",
-      "Operator": "at",
+      "Name": "VonRueden LLC",
+      "Operator": "hic",
       "Values": [
-        "sint",
-        "velit"
+        "sed",
+        "consequatur"
       ],
       "DisplayValues": [
-        "laborum",
-        "maxime"
+        "non",
+        "molestiae"
       ],
       "ColumnInfo": {},
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 206,
+      "InterParenthesis": 567,
       "InterOperator": "And",
-      "UniqueHash": 491
+      "UniqueHash": 191
     }
   ],
   "Columns": [
-    "sint",
-    "quaerat"
+    "vel",
+    "ex"
   ],
-  "ConnectionId": 133,
+  "ConnectionId": 682,
   "ErpActorType": "Customer"
 }
 ```
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ipsam",
-        "vel"
+        "quia",
+        "distinctio"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ratione",
+      "ExternalKey": "accusamus",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -141,16 +141,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 264
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Weissnat-Ortiz",
-      "DisplayName": "Ortiz-Hilpert",
-      "Locked": false,
+      "Name": "Hessel LLC",
+      "DisplayName": "Bradtke, Bahringer and Hackett",
+      "Locked": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -158,15 +158,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     },
     {
-      "Name": "Weissnat-Ortiz",
-      "DisplayName": "Ortiz-Hilpert",
-      "Locked": false,
+      "Name": "Hessel LLC",
+      "DisplayName": "Bradtke, Bahringer and Hackett",
+      "Locked": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -174,24 +174,24 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "incentivize visionary solutions"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "redefine open-source paradigms"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

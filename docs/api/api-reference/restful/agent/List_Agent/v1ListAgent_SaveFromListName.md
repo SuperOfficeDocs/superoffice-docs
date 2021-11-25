@@ -1,9 +1,9 @@
 ---
-title: SaveFromListName
+title: POST Agents/List/SaveFromListName
 id: v1ListAgent_SaveFromListName
 ---
 
-# SaveFromListName
+# POST Agents/List/SaveFromListName
 
 ```http
 POST /api/v1/Agents/List/SaveFromListName
@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "UdListDefinitionName": "Haley, Daniel and Flatley",
+  "Id": 551,
+  "UdListDefinitionName": "Lockman, Veum and Langosh",
   "Item": {
-    "Id": 250,
-    "Name": "Mitchell Group",
-    "Tooltip": "molestias",
+    "Id": 974,
+    "Name": "Tromp, Bernier and Bosco",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 218,
-    "Rank": 34
+    "UdListDefinitionId": 759,
+    "Rank": 908
   }
 }
 ```
@@ -107,15 +107,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Hahn-Conn",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "UdListDefinitionId": 937,
-  "Rank": 752,
+  "Id": 563,
+  "Name": "Rice Group",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 469,
+  "Rank": 986,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "reinvent turn-key e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 792
     }
   }
 }

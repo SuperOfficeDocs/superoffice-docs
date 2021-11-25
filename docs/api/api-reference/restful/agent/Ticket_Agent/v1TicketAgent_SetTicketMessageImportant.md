@@ -1,9 +1,9 @@
 ---
-title: SetTicketMessageImportant
+title: POST Agents/Ticket/SetTicketMessageImportant
 id: v1TicketAgent_SetTicketMessageImportant
 ---
 
-# SetTicketMessageImportant
+# POST Agents/Ticket/SetTicketMessageImportant
 
 ```http
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant

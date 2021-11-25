@@ -1,9 +1,9 @@
 ---
-title: GetFunctionalRights
+title: POST Agents/User/GetFunctionalRights
 id: v1UserAgent_GetFunctionalRights
 ---
 
-# GetFunctionalRights
+# POST Agents/User/GetFunctionalRights
 
 ```http
 POST /api/v1/Agents/User/GetFunctionalRights
@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 166
+  "RoleId": 712
 }
 ```
 
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Blanda, Armstrong and Kuhlman",
-    "ToolTip": "Molestiae quibusdam.",
+    "Id": 410,
+    "Name": "Franecki-Maggio",
+    "ToolTip": "Quam aut et facilis esse commodi qui.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "delectus",
-    "ColorBlock": 597,
-    "IconHint": "consequuntur",
+    "Rank": 649,
+    "Type": "excepturi",
+    "ColorBlock": 985,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "1999-02-05T14:58:05.572065+01:00",
+    "LastChanged": "2015-11-28T18:28:50.5724118+01:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Streich Inc and Sons",
-        "ToolTip": "Suscipit qui.",
+        "Id": 409,
+        "Name": "Kunze, Huel and Murray",
+        "ToolTip": "Fuga et magnam.",
         "Deleted": false,
-        "Rank": 900,
-        "Type": "corrupti",
-        "ColorBlock": 72,
-        "IconHint": "sunt",
+        "Rank": 939,
+        "Type": "consequatur",
+        "ColorBlock": 914,
+        "IconHint": "voluptate",
         "Selected": true,
-        "LastChanged": "1998-07-05T14:58:05.572065+02:00",
+        "LastChanged": "2006-09-25T18:28:50.5724118+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "et",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Fae Walsh",
+        "FullName": "Dr. Heidi Breitenberg",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -142,15 +142,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Maci Schaden",
+    "ExtraInfo": "autem",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Cecile Eichmann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldLength": 429
       }
     }
   }

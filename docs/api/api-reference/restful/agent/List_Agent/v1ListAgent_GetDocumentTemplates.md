@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplates
+title: POST Agents/List/GetDocumentTemplates
 id: v1ListAgent_GetDocumentTemplates
 ---
 
-# GetDocumentTemplates
+# POST Agents/List/GetDocumentTemplates
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplates
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -83,16 +83,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 171,
-    "Name": "Keebler LLC",
-    "Tooltip": "ut",
-    "SaveInDb": 10,
-    "Filename": "pariatur",
-    "DefaultOref": "eligendi",
+    "DocumentTemplateId": 352,
+    "Name": "Anderson, Bergstrom and Koch",
+    "Tooltip": "architecto",
+    "SaveInDb": 880,
+    "Filename": "qui",
+    "DefaultOref": "ratione",
     "RecordType": "Appointment",
-    "Deleted": 380,
+    "Deleted": 84,
     "Direction": "Incoming",
-    "AutoeventId": 386,
+    "AutoeventId": 5,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {
       "Mask": "Delete",
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldType": "System.Int32",
+        "FieldLength": 248
       }
     }
   }

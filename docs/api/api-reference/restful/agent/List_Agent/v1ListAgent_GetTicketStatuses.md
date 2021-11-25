@@ -1,9 +1,9 @@
 ---
-title: GetTicketStatuses
+title: POST Agents/List/GetTicketStatuses
 id: v1ListAgent_GetTicketStatuses
 ---
 
-# GetTicketStatuses
+# POST Agents/List/GetTicketStatuses
 
 ```http
 POST /api/v1/Agents/List/GetTicketStatuses
@@ -59,6 +59,8 @@ Response body: array
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -68,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -77,11 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 440,
-    "Name": "Parisian-Harber",
+    "TicketStatusId": 865,
+    "Name": "Eichmann, Mertz and Hills",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
+    "IsDefault": true,
+    "UsedInQueue": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -90,10 +94,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "seize B2B content"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldType": "System.Int32",
+        "FieldLength": 647
       }
     }
   }

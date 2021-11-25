@@ -2,8 +2,6 @@
 title: List_DeliveryType
 ---
 
-# List_DeliveryType
-
 ```http
 /api/v1/List/DeliveryType
 ```

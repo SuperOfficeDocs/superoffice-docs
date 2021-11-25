@@ -1,9 +1,9 @@
 ---
-title: GetUIDFromAppointmentId
+title: POST Agents/Appointment/GetUIDFromAppointmentId
 id: v1AppointmentAgent_GetUIDFromAppointmentId
 ---
 
-# GetUIDFromAppointmentId
+# POST Agents/Appointment/GetUIDFromAppointmentId
 
 ```http
 POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 969,
-  "UseMotherId": false
+  "AppointmentId": 286,
+  "UseMotherId": true
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quis"
+"deleniti"
 ```

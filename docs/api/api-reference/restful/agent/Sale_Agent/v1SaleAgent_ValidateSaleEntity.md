@@ -1,9 +1,9 @@
 ---
-title: ValidateSaleEntity
+title: POST Agents/Sale/ValidateSaleEntity
 id: v1SaleAgent_ValidateSaleEntity
 ---
 
-# ValidateSaleEntity
+# POST Agents/Sale/ValidateSaleEntity
 
 ```http
 POST /api/v1/Agents/Sale/ValidateSaleEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Sale/ValidateSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
     "CreatedBy": {},
     "Contact": {},
     "Project": {},
-    "SaleText": "veritatis",
+    "SaleText": "quis",
     "Person": {},
     "Currency": {},
     "Competitor": {},
@@ -88,49 +88,49 @@ Content-Type: application/json; charset=utf-8
     "Reason": {},
     "Source": {},
     "Status": "Lost",
-    "Saledate": "2000-09-25T14:58:05.1816228+02:00",
-    "Amount": 1761.308,
-    "SaleId": 286,
-    "Earning": 16513.046,
-    "EarningPercent": 28547.606,
-    "Heading": "omnis",
-    "Number": "854550",
-    "Probability": 712,
-    "CreatedDate": "1994-10-27T14:58:05.1816228+02:00",
-    "UpdatedDate": "2002-10-06T14:58:05.1816228+02:00",
+    "Saledate": "2007-09-28T18:28:50.1714118+02:00",
+    "Amount": 614.264,
+    "SaleId": 373,
+    "Earning": 17832.46,
+    "EarningPercent": 24570.559999999998,
+    "Heading": "dolorem",
+    "Number": "680228",
+    "Probability": 816,
+    "CreatedDate": "1998-11-16T18:28:50.1714118+01:00",
+    "UpdatedDate": "1999-10-18T18:28:50.1714118+02:00",
     "Completed": "Completed",
-    "ActiveLinks": 10,
+    "ActiveLinks": 403,
     "Links": [
       {},
       {}
     ],
-    "NextDueDate": "2000-12-04T14:58:05.1816228+01:00",
-    "Postit": "accusamus",
+    "NextDueDate": "2006-04-05T18:28:50.1714118+02:00",
+    "Postit": "quidem",
     "SaleType": {},
     "ReasonSold": {},
     "ReasonStalled": {},
-    "ReopenDate": "1996-11-03T14:58:05.1816228+01:00",
+    "ReopenDate": "2009-05-27T18:28:50.1714118+02:00",
     "SaleStakeholders": [
       {},
       {}
     ],
-    "ActiveErpLinks": 37,
+    "ActiveErpLinks": 484,
     "UserDefinedFields": {
-      "SuperOffice:1": "Boris Swaniawski",
+      "SuperOffice:1": "Dr. Burdette Goyette",
       "SuperOffice:2": "True"
     },
     "ExtraFields": {
-      "ExtraFields1": "rerum",
+      "ExtraFields1": "sequi",
       "ExtraFields2": "vel"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatem",
-      "CustomFields2": "qui"
+      "CustomFields1": "molestiae",
+      "CustomFields2": "at"
     },
-    "PublishEventDate": "2013-12-21T14:58:05.1816228+01:00",
-    "PublishTo": "2020-08-08T14:58:05.1816228+02:00",
-    "PublishFrom": "2011-01-14T14:58:05.1816228+01:00",
-    "IsPublished": true,
+    "PublishEventDate": "2005-12-29T18:28:50.1724114+01:00",
+    "PublishTo": "1999-08-18T18:28:50.1724114+02:00",
+    "PublishFrom": "2004-10-30T18:28:50.1724114+02:00",
+    "IsPublished": false,
     "VisibleFor": [
       {},
       {}
@@ -144,7 +144,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "id"
+  "1": "illum",
+  "2": "dolor"
 }
 ```

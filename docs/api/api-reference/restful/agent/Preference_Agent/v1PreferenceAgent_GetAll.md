@@ -1,9 +1,9 @@
 ---
-title: GetAll
+title: POST Agents/Preference/GetAll
 id: v1PreferenceAgent_GetAll
 ---
 
-# GetAll
+# POST Agents/Preference/GetAll
 
 ```http
 POST /api/v1/Agents/Preference/GetAll
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 755,
-    "Section": "maxime",
-    "Key": "voluptates",
-    "Name": "Towne-Hammes",
+    "PrefDescId": 897,
+    "Section": "earum",
+    "Key": "beatae",
+    "Name": "Jenkins-O'Connell",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Secured uniform ability",
+    "Description": "Profit-focused systemic archive",
     "IsBuiltin": true,
-    "TableName": "Muller, Smitham and Ullrich",
-    "UserDefinedListId": 127,
-    "Rank": 501,
-    "SubGroup": "quidem",
-    "MinLevel": 760,
-    "MaxValue": 866,
-    "MinValue": 463,
-    "RequiredLicense": "sit",
+    "TableName": "Borer-Kris",
+    "UserDefinedListId": 670,
+    "Rank": 738,
+    "SubGroup": "perspiciatis",
+    "MinLevel": 237,
+    "MaxValue": 525,
+    "MinValue": 51,
+    "RequiredLicense": "itaque",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "expedite out-of-the-box supply-chains"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldType": "System.String",
+        "FieldLength": 65
       }
     }
   }

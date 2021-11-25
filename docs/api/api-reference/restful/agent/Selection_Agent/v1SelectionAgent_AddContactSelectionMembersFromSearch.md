@@ -1,9 +1,9 @@
 ---
-title: AddContactSelectionMembersFromSearch
+title: POST Agents/Selection/AddContactSelectionMembersFromSearch
 id: v1SelectionAgent_AddContactSelectionMembersFromSearch
 ---
 
-# AddContactSelectionMembersFromSearch
+# POST Agents/Selection/AddContactSelectionMembersFromSearch
 
 ```http
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
@@ -69,12 +69,12 @@ Response body: int32
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 921,
-  "StorageKey": "earum"
+  "SelectionId": 987,
+  "StorageKey": "alias"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-144
+723
 ```

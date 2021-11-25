@@ -1,9 +1,9 @@
 ---
-title: GetSelectableList
+title: POST Agents/MDO/GetSelectableList
 id: v1MDOAgent_GetSelectableList
 ---
 
-# GetSelectableList
+# POST Agents/MDO/GetSelectableList
 
 ```http
 POST /api/v1/Agents/MDO/GetSelectableList
@@ -94,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "White LLC",
+  "Name": "Price Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "quia",
-  "OnlyHistory": false
+  "AdditionalInfo": "atque",
+  "OnlyHistory": true
 }
 ```
 
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Strosin LLC",
-    "ToolTip": "Placeat nihil iste corporis veniam.",
+    "Id": 311,
+    "Name": "Schowalter-Torp",
+    "ToolTip": "Cumque est earum deleniti aperiam cumque fugit.",
     "Deleted": true,
-    "Rank": 150,
-    "Type": "et",
-    "ColorBlock": 136,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2001-09-27T14:58:04.5684622+02:00",
+    "Rank": 600,
+    "Type": "alias",
+    "ColorBlock": 364,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2016-04-05T18:28:49.4870903+02:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Wilkinson-Schiller",
-        "ToolTip": "Quae ea.",
-        "Deleted": true,
-        "Rank": 431,
-        "Type": "explicabo",
-        "ColorBlock": 464,
-        "IconHint": "in",
+        "Id": 736,
+        "Name": "Wisozk Inc and Sons",
+        "ToolTip": "Ipsum ut inventore impedit a.",
+        "Deleted": false,
+        "Rank": 449,
+        "Type": "tempore",
+        "ColorBlock": 421,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2004-10-10T14:58:04.5684622+02:00",
+        "LastChanged": "2003-11-04T18:28:49.4870903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "at",
+        "ExtraInfo": "libero",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Jefferey Reinger",
+        "FullName": "Mariana Jerde II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -145,15 +145,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "a",
+    "ExtraInfo": "aut",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Aimee Hauck",
+    "FullName": "Fae Lehner",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   }

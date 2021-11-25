@@ -115,45 +115,45 @@ Response body: object
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "voluptas",
     "value": {
       "value1": {
-        "PrimaryKey": 1503,
+        "PrimaryKey": 6352,
         "EntityName": "sale",
-        "saleId": 1503,
-        "contactId": 6696,
-        "name": "O'Conner-Hoppe"
+        "saleId": 6352,
+        "contactId": 7901,
+        "name": "Gottlieb, Gleichner and Berge"
       },
       "value2": {
-        "PrimaryKey": 4986,
+        "PrimaryKey": 8989,
         "EntityName": "person",
-        "personId": 4986,
-        "fullName": "Eliza Lehner"
+        "personId": 8989,
+        "fullName": "Kamron Reichel"
       }
     }
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "voluptas",
     "value": {
       "value1": {
-        "PrimaryKey": 1503,
+        "PrimaryKey": 6352,
         "EntityName": "sale",
-        "saleId": 1503,
-        "contactId": 6696,
-        "name": "O'Conner-Hoppe"
+        "saleId": 6352,
+        "contactId": 7901,
+        "name": "Gottlieb, Gleichner and Berge"
       },
       "value2": {
-        "PrimaryKey": 4986,
+        "PrimaryKey": 8989,
         "EntityName": "person",
-        "personId": 4986,
-        "fullName": "Eliza Lehner"
+        "personId": 8989,
+        "fullName": "Kamron Reichel"
       }
     }
   }
@@ -165,23 +165,23 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 217,
-  "Name": "Bechtelar, Trantow and Rath",
-  "CreatedDate": "2018-07-30T15:05:42.2346693+02:00",
-  "UpdatedDate": "2006-05-20T15:05:42.2346693+02:00",
+  "ForeignAppId": 397,
+  "Name": "Carroll, Nicolas and Kshlerin",
+  "CreatedDate": "2000-04-18T18:25:50.5656106+02:00",
+  "UpdatedDate": "2021-02-21T18:25:50.5656106+01:00",
   "CreatedBy": {
-    "AssociateId": 982,
-    "Name": "Douglas-Treutel",
-    "PersonId": 722,
-    "Rank": 833,
-    "Tooltip": "voluptatum",
+    "AssociateId": 320,
+    "Name": "Rolfson, Kshlerin and Littel",
+    "PersonId": 164,
+    "Rank": 999,
+    "Tooltip": "pariatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 890,
-    "FullName": "Ayla Dickens",
-    "FormalName": "Pfannerstill, Kovacek and Parisian",
+    "GroupIdx": 424,
+    "FullName": "Delilah Spencer",
+    "FormalName": "Runte Inc and Sons",
     "Deleted": false,
-    "EjUserId": 885,
-    "UserName": "Ward-Leannon",
+    "EjUserId": 90,
+    "UserName": "Reynolds LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -189,24 +189,24 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 515
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 740,
-    "Name": "Bogisich-Klocko",
-    "PersonId": 542,
-    "Rank": 949,
-    "Tooltip": "commodi",
+    "AssociateId": 179,
+    "Name": "Johnson, Champlin and Dach",
+    "PersonId": 181,
+    "Rank": 682,
+    "Tooltip": "excepturi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 625,
-    "FullName": "Emery Koch",
-    "FormalName": "Herman, Gutmann and Fay",
-    "Deleted": true,
-    "EjUserId": 290,
-    "UserName": "Kreiger Inc and Sons",
+    "GroupIdx": 881,
+    "FullName": "Chaim Jerde Sr.",
+    "FormalName": "Kub-Bode",
+    "Deleted": false,
+    "EjUserId": 75,
+    "UserName": "Pouros Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -214,22 +214,22 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 397
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 830,
-      "Name": "Murphy-Klocko",
-      "CreatedDate": "2008-04-25T15:05:42.2356622+02:00",
-      "UpdatedDate": "2007-12-12T15:05:42.2356622+01:00",
-      "AssociateFullName": "Darius Botsford",
-      "CreatedBy": "iure",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 824,
+      "ForeignDeviceId": 658,
+      "Name": "Romaguera Group",
+      "CreatedDate": "2010-06-22T18:25:50.5665969+02:00",
+      "UpdatedDate": "2000-03-06T18:25:50.5665969+01:00",
+      "AssociateFullName": "Dr. Donnell Howe",
+      "CreatedBy": "alias",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 338,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -238,14 +238,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 366
+          "FieldLength": 676
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "optimize holistic niches"
   },
   "FieldProperties": {
     "fieldName": {
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 555
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: GetMyOwner
+title: POST Agents/Person/GetMyOwner
 id: v1PersonAgent_GetMyOwner
 ---
 
-# GetMyOwner
+# POST Agents/Person/GetMyOwner
 
 ```http
 POST /api/v1/Agents/Person/GetMyOwner
@@ -104,7 +104,7 @@ Response body: object
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -112,45 +112,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "natus",
-  "PersonId": 913,
-  "Mrmrs": "quidem",
-  "Firstname": "Ashlee",
-  "Lastname": "Jewess",
-  "MiddleName": "Wintheiser Inc and Sons",
-  "Title": "ullam",
-  "Description": "Open-architected tangible approach",
-  "Email": "mireya@lynch.info",
-  "FullName": "Gracie Nitzsche",
-  "DirectPhone": "318.636.3762 x11821",
-  "FormalName": "Fadel Group",
-  "CountryId": 721,
-  "ContactId": 271,
-  "ContactName": "Wehner, Stroman and Waelchi",
-  "Retired": 542,
-  "Rank": 900,
-  "ActiveInterests": 155,
+  "Position": "minus",
+  "PersonId": 837,
+  "Mrmrs": "placeat",
+  "Firstname": "Nicholas",
+  "Lastname": "Padberg",
+  "MiddleName": "Hodkiewicz-Rau",
+  "Title": "magni",
+  "Description": "Exclusive contextually-based instruction set",
+  "Email": "violette_christiansen@considine.uk",
+  "FullName": "Felicita Quigley",
+  "DirectPhone": "(100)357-7434 x51681",
+  "FormalName": "Rice, Fisher and Abernathy",
+  "CountryId": 642,
+  "ContactId": 645,
+  "ContactName": "Beatty, Maggio and Gislason",
+  "Retired": 40,
+  "Rank": 940,
+  "ActiveInterests": 565,
   "ContactDepartment": "",
-  "ContactCountryId": 62,
-  "ContactOrgNr": "973040",
-  "FaxPhone": "1-656-212-6786 x178",
-  "MobilePhone": "823.758.6314 x201",
-  "ContactPhone": "476-435-3248 x780",
-  "AssociateName": "Heller, Brakus and Romaguera",
-  "AssociateId": 21,
-  "UsePersonAddress": true,
-  "ContactFax": "aut",
-  "Kanafname": "incidunt",
-  "Kanalname": "omnis",
-  "Post1": "quo",
-  "Post2": "qui",
-  "Post3": "itaque",
-  "EmailName": "avis@hermiston.name",
-  "ContactFullName": "Ignatius Friesen",
-  "ActiveErpLinks": 177,
-  "TicketPriorityId": 613,
-  "SupportLanguageId": 798,
-  "SupportAssociateId": 373,
+  "ContactCountryId": 426,
+  "ContactOrgNr": "692467",
+  "FaxPhone": "732-504-4303",
+  "MobilePhone": "181-102-6630 x220",
+  "ContactPhone": "1-057-280-2218 x572",
+  "AssociateName": "Roberts-Lowe",
+  "AssociateId": 219,
+  "UsePersonAddress": false,
+  "ContactFax": "animi",
+  "Kanafname": "sit",
+  "Kanalname": "placeat",
+  "Post1": "et",
+  "Post2": "error",
+  "Post3": "reiciendis",
+  "EmailName": "archibald.bergstrom@ullrich.com",
+  "ContactFullName": "Ms. Daniella Walker",
+  "ActiveErpLinks": 787,
+  "TicketPriorityId": 205,
+  "SupportLanguageId": 632,
+  "SupportAssociateId": 178,
   "CategoryName": "VIP Customer",
   "TableRight": {
     "Mask": "Delete",
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

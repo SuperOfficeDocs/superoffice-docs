@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Rempel-Sipes",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 653,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 46,
+  "Name": "Hickle LLC",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 946,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "iure",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Braun Inc and Sons",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "Rank": 397,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 697,
+  "Name": "Daniel Group",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 129,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "leverage intuitive infomediaries"
       },
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 954
     }
   }
 }

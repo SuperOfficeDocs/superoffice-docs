@@ -1,9 +1,9 @@
 ---
-title: GetLanguageInfoList
+title: POST Agents/List/GetLanguageInfoList
 id: v1ListAgent_GetLanguageInfoList
 ---
 
-# GetLanguageInfoList
+# POST Agents/List/GetLanguageInfoList
 
 ```http
 POST /api/v1/Agents/List/GetLanguageInfoList
@@ -76,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -85,13 +85,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 47,
-    "LCID": 686,
-    "EnglishName": "Champlin, Cormier and Kovacek",
-    "NativeName": "Gottlieb Group",
-    "ThreeLetterISOLanguageName": "Muller, Ankunding and Upton",
-    "TwoLetterISOLanguageName": "Daniel-Padberg",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 799,
+    "LCID": 566,
+    "EnglishName": "McKenzie, Beer and Vandervort",
+    "NativeName": "Altenwerth Group",
+    "ThreeLetterISOLanguageName": "Reichel, Schowalter and Rutherford",
+    "TwoLetterISOLanguageName": "Stracke Inc and Sons",
+    "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "architect out-of-the-box deliverables"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldType": "System.String",
+        "FieldLength": 99
       }
     }
   }

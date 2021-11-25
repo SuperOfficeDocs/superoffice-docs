@@ -1,9 +1,9 @@
 ---
-title: FlushCachesByName
+title: POST Agents/Diagnostics/FlushCachesByName
 id: v1DiagnosticsAgent_FlushCachesByName
 ---
 
-# FlushCachesByName
+# POST Agents/Diagnostics/FlushCachesByName
 
 ```http
 POST /api/v1/Agents/Diagnostics/FlushCachesByName

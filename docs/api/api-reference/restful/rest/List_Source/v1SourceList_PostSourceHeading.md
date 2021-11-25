@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 321,
-  "Name": "Bins Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 491,
-  "UdListDefinitionId": 964
+  "HeadingId": 10,
+  "Name": "Nolan-Koelpin",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 667,
+  "UdListDefinitionId": 138
 }
 ```
 
@@ -96,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 812,
-  "Name": "Johns Group",
-  "Tooltip": "rerum",
+  "HeadingId": 85,
+  "Name": "Howell, Gislason and Lindgren",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 952,
-  "UdListDefinitionId": 983,
+  "Rank": 659,
+  "UdListDefinitionId": 987,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "redefine end-to-end methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 106
     }
   }
 }

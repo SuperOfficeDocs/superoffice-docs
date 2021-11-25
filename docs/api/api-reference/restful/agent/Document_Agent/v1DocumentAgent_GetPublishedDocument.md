@@ -1,9 +1,9 @@
 ---
-title: GetPublishedDocument
+title: POST Agents/Document/GetPublishedDocument
 id: v1DocumentAgent_GetPublishedDocument
 ---
 
-# GetPublishedDocument
+# POST Agents/Document/GetPublishedDocument
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocument
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 212
+  "DocumentId": 344
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 501,
+  "DocumentId": 932,
   "Attention": "sed",
-  "Header": "aspernatur",
-  "Name": "Heidenreich LLC",
-  "OurRef": "non",
-  "YourRef": "vel",
-  "Description": "Customer-focused bandwidth-monitored strategy",
-  "DocumentTemplate": "illum",
-  "IsPublished": false,
-  "PersonId": 534,
-  "PersonFullName": "Marianne McClure",
-  "AssociateFullName": "Octavia Greenholt",
-  "ContactId": 505,
-  "ContactName": "Halvorson Inc and Sons",
-  "ProjectId": 605,
-  "ProjectName": "Johnson Inc and Sons",
-  "AssociateId": 484,
-  "Snum": 585,
+  "Header": "ducimus",
+  "Name": "Tremblay, Larkin and Block",
+  "OurRef": "quisquam",
+  "YourRef": "voluptatem",
+  "Description": "Realigned disintermediate productivity",
+  "DocumentTemplate": "qui",
+  "IsPublished": true,
+  "PersonId": 898,
+  "PersonFullName": "Ida Mraz",
+  "AssociateFullName": "Araceli Leffler",
+  "ContactId": 892,
+  "ContactName": "Kiehn, Abernathy and Dare",
+  "ProjectId": 11,
+  "ProjectName": "Johnson-Hermiston",
+  "AssociateId": 89,
+  "Snum": 797,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

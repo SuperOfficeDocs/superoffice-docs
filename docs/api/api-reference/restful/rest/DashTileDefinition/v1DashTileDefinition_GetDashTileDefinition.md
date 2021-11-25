@@ -73,7 +73,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -91,7 +91,7 @@ Response body: object
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -99,24 +99,24 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 314,
-  "Name": "McGlynn-Maggio",
-  "Description": "Compatible context-sensitive model",
-  "DefaultHeight": 743,
-  "DefaultWidth": 921,
+  "DashboardTileDefinitionId": 8,
+  "Name": "Wisoky, Rippin and Stiedemann",
+  "Description": "De-engineered executive artificial intelligence",
+  "DefaultHeight": 91,
+  "DefaultWidth": 156,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Sauer, McKenzie and Labadie",
-  "SelectionId": 965,
+  "EntityName": "Ullrich, Turner and Parker",
+  "SelectionId": 673,
   "CurrencyMode": "Base",
-  "CurrencyId": 712,
+  "CurrencyCode": "consequuntur",
   "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "ullam",
-  "LayoutConfig": "laudantium",
-  "SecondarySelectionId": 819,
-  "MeasureByField": "rerum",
-  "ProviderName": "McKenzie Group",
+  "MeasureField": "cum",
+  "SortBy": "libero",
+  "LayoutConfig": "quis",
+  "SecondarySelectionId": 319,
+  "MeasureByField": "sequi",
+  "ProviderName": "Fahey, Mante and Leannon",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

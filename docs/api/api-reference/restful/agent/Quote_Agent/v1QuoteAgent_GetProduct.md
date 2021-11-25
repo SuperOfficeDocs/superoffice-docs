@@ -1,9 +1,9 @@
 ---
-title: GetProduct
+title: POST Agents/Quote/GetProduct
 id: v1QuoteAgent_GetProduct
 ---
 
-# GetProduct
+# POST Agents/Quote/GetProduct
 
 ```http
 POST /api/v1/Agents/Quote/GetProduct
@@ -116,7 +116,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 538,
+  "QuoteConnectionId": 369,
   "ERPProductKey": "omnis"
 }
 ```
@@ -126,36 +126,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 613,
-  "ERPProductKey": "explicabo",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Larson, Effertz and Yundt",
-  "Description": "Customer-focused content-based help-desk",
-  "Code": "consectetur",
-  "PriceUnit": "facere",
-  "QuantityUnit": "alias",
+  "ProductId": 976,
+  "ERPProductKey": "tenetur",
+  "ERPPriceListKey": "quasi",
+  "Name": "Nolan, Zboncak and McDermott",
+  "Description": "Implemented responsive support",
+  "Code": "maiores",
+  "PriceUnit": "rem",
+  "QuantityUnit": "nesciunt",
   "IsSubscription": true,
-  "SubscriptionUnit": "suscipit",
-  "DefaultSubscriptionQuantity": 10078.944,
-  "ItemNumber": "1336427",
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 23370.237999999998,
+  "ItemNumber": "1407625",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "nulla",
-  "VAT": 11774.438,
-  "VATInfo": "voluptatibus",
-  "UnitCost": 6691.09,
-  "UnitMinimumPrice": 13971.372,
-  "UnitListPrice": 7389.972,
-  "InAssortment": false,
-  "Supplier": "sed",
-  "SupplierCode": "facilis",
-  "Rights": "error",
-  "Rule": "culpa",
+  "ProductFamilyKey": "praesentium",
+  "ProductTypeKey": "quidem",
+  "VAT": 4885.906,
+  "VATInfo": "inventore",
+  "UnitCost": 5249.45,
+  "UnitMinimumPrice": 28231.072,
+  "UnitListPrice": 20634.255999999998,
+  "InAssortment": true,
+  "Supplier": "enim",
+  "SupplierCode": "magnam",
+  "Rights": "fugiat",
+  "Rule": "sunt",
   "ExtraInfo": [
     {
-      "Name": "Hackett Group",
-      "Value": "aut",
+      "Name": "Parisian-Parker",
+      "Value": "voluptatum",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -164,14 +164,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 948
+          "FieldType": "System.Int32",
+          "FieldLength": 425
         }
       }
     },
     {
-      "Name": "Hackett Group",
-      "Value": "aut",
+      "Name": "Parisian-Parker",
+      "Value": "voluptatum",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -180,19 +180,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 948
+          "FieldType": "System.Int32",
+          "FieldLength": 425
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "ExtraField1": "et",
-  "ExtraField2": "unde",
-  "ExtraField3": "voluptatum",
+  "RawExtraInfo": "aut",
+  "ExtraField1": "harum",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "consequatur",
   "ExtraField4": "quo",
-  "ExtraField5": "sequi",
-  "InStock": 1040.488,
+  "ExtraField5": "ipsam",
+  "InStock": 19687.788,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "mesh rich action-items"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

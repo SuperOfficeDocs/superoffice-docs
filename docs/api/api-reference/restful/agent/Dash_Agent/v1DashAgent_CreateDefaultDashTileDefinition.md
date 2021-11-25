@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashTileDefinition
+title: POST Agents/Dash/CreateDefaultDashTileDefinition
 id: v1DashAgent_CreateDefaultDashTileDefinition
 ---
 
-# CreateDefaultDashTileDefinition
+# POST Agents/Dash/CreateDefaultDashTileDefinition
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
@@ -59,7 +59,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 900,
-  "Name": "Abernathy, Balistreri and Strosin",
-  "Description": "Profound background system engine",
-  "DefaultHeight": 101,
-  "DefaultWidth": 623,
+  "DashboardTileDefinitionId": 849,
+  "Name": "Bradtke Inc and Sons",
+  "Description": "Multi-layered intangible customer loyalty",
+  "DefaultHeight": 252,
+  "DefaultWidth": 99,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ledner-Koelpin",
-  "SelectionId": 432,
+  "EntityName": "Bernier Group",
+  "SelectionId": 144,
   "CurrencyMode": "Base",
-  "CurrencyId": 76,
+  "CurrencyCode": "consectetur",
   "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "aperiam",
-  "LayoutConfig": "voluptas",
-  "SecondarySelectionId": 784,
-  "MeasureByField": "aut",
-  "ProviderName": "O'Keefe Group",
+  "MeasureField": "voluptas",
+  "SortBy": "explicabo",
+  "LayoutConfig": "enim",
+  "SecondarySelectionId": 22,
+  "MeasureByField": "qui",
+  "ProviderName": "Heidenreich-Maggio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 839
     }
   }
 }

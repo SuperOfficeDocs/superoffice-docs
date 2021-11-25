@@ -1,9 +1,9 @@
 ---
-title: SaveTicketStatusEntity
+title: POST Agents/List/SaveTicketStatusEntity
 id: v1ListAgent_SaveTicketStatusEntity
 ---
 
-# SaveTicketStatusEntity
+# POST Agents/List/SaveTicketStatusEntity
 
 ```http
 POST /api/v1/Agents/List/SaveTicketStatusEntity
@@ -43,6 +43,8 @@ The TicketStatusEntity to be saved.
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 
 
 ## Response: object
@@ -67,6 +69,8 @@ Response body: object
 | Status | string | The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
 | TimeCounter | string | Which field in ticket we count time spent on (queue, internal, external) |
 | NoEmailReopen | bool | Whether inbound emails can reopen requests with this status or not |
+| IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
+| UsedInQueue | bool | If set, status is used in GetNext calculations |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,15 +80,17 @@ Response body: object
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 609,
-  "Name": "Lynch, Mosciski and Bahringer",
+  "TicketStatusId": 154,
+  "Name": "Ortiz, Adams and Homenick",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": false
 }
 ```
 
@@ -93,11 +99,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 634,
-  "Name": "Schaefer, Lang and Padberg",
+  "TicketStatusId": 578,
+  "Name": "Stracke LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldLength": 114
     }
   }
 }

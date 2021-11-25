@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "O'Reilly Group",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 944,
-  "IsCustomList": false,
+  "Id": 581,
+  "Name": "Goyette Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 694,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iusto",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "monetize killer channels"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 325
     }
   },
   "_Links": {

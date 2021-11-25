@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Heaney-Lebsack",
-    "ToolTip": "Eius quos nihil est laboriosam.",
-    "Deleted": true,
-    "Rank": 495,
-    "Type": "est",
-    "ColorBlock": 719,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "1998-02-17T15:05:43.5600799+01:00",
+    "Id": 234,
+    "Name": "Muller-Hessel",
+    "ToolTip": "Maiores natus.",
+    "Deleted": false,
+    "Rank": 799,
+    "Type": "rerum",
+    "ColorBlock": 441,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2019-07-22T18:25:51.9402443+02:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Ward, Walsh and Witting",
-        "ToolTip": "Sunt sit et eum animi repudiandae.",
+        "Id": 51,
+        "Name": "Little-Brakus",
+        "ToolTip": "Ut ipsa dicta.",
         "Deleted": true,
-        "Rank": 172,
-        "Type": "inventore",
-        "ColorBlock": 241,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2008-03-15T15:05:43.5600799+01:00",
+        "Rank": 201,
+        "Type": "voluptas",
+        "ColorBlock": 428,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2009-03-04T18:25:51.9412397+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Roman Reinger",
+        "FullName": "Jermaine Smitham",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 172
+            "FieldLength": 594
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Ned Kuhn",
+    "ExtraInfo": "numquam",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Rodrigo Hammes",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "visualize granular relationships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

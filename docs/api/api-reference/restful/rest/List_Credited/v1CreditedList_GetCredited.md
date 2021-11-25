@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903,
-  "Name": "Turner-Boehm",
-  "Tooltip": "a",
+  "Id": 434,
+  "Name": "Sipes, Prohaska and Moen",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "UdListDefinitionId": 225,
-  "Rank": 181,
+  "UdListDefinitionId": 464,
+  "Rank": 602,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 139
     }
   }
 }

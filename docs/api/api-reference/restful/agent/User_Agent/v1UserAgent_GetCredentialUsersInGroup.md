@@ -1,9 +1,9 @@
 ---
-title: GetCredentialUsersInGroup
+title: POST Agents/User/GetCredentialUsersInGroup
 id: v1UserAgent_GetCredentialUsersInGroup
 ---
 
-# GetCredentialUsersInGroup
+# POST Agents/User/GetCredentialUsersInGroup
 
 ```http
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "earum",
-  "GroupName": "Effertz-Heaney"
+  "Type": "quo",
+  "GroupName": "Hand LLC"
 }
 ```
 
@@ -97,16 +97,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "enim",
-    "commodi"
+    "aliquid",
+    "quasi"
   ],
   "Users": [
     {
-      "Value": "aspernatur",
-      "DisplayValue": "inventore",
+      "Value": "adipisci",
+      "DisplayValue": "tempora",
       "Columns": [
-        "ut",
-        "ullam"
+        "et",
+        "rerum"
       ],
       "CanCreatePerson": false,
       "TableRight": {},
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 732
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "DisplayValue": "inventore",
+      "Value": "adipisci",
+      "DisplayValue": "tempora",
       "Columns": [
-        "ut",
-        "ullam"
+        "et",
+        "rerum"
       ],
       "CanCreatePerson": false,
       "TableRight": {},
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 732
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: DeleteRow
+title: POST Agents/DatabaseTable/DeleteRow
 id: v1DatabaseTableAgent_DeleteRow
 ---
 
-# DeleteRow
+# POST Agents/DatabaseTable/DeleteRow
 
 ```http
 POST /api/v1/Agents/DatabaseTable/DeleteRow
@@ -11,8 +11,13 @@ POST /api/v1/Agents/DatabaseTable/DeleteRow
 
 Delete a row from a table
 
-> [!NOTE]
-> Must have function right admin-all or cs-listextratablecontent.
+
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 ## Query String Parameters
 

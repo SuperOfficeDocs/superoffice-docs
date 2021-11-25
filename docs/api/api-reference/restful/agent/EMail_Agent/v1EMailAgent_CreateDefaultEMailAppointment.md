@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailAppointment
+title: POST Agents/EMail/CreateDefaultEMailAppointment
 id: v1EMailAgent_CreateDefaultEMailAppointment
 ---
 
-# CreateDefaultEMailAppointment
+# POST Agents/EMail/CreateDefaultEMailAppointment
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
@@ -78,53 +78,53 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": {
-    "AppointmentId": 503,
-    "StartDate": "2003-12-30T14:58:04.1714606+01:00",
-    "EndDate": "2007-05-13T14:58:04.1714606+02:00",
+    "AppointmentId": 102,
+    "StartDate": "1994-09-11T18:28:49.0799615+02:00",
+    "EndDate": "2015-02-16T18:28:49.0799615+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Rogelio Pfeffer",
-    "ContactName": "Zieme, Bashirian and Hegmann",
-    "Description": "Reactive needs-based solution",
-    "PersonFullName": "Luigi Ratke",
-    "PersonId": 704,
-    "ContactId": 765,
-    "ProjectId": 793,
-    "ProjectName": "Nitzsche Group",
-    "IsPublished": false,
-    "AssociateId": 408,
-    "ColorIndex": 354,
+    "Task": "doloribus",
+    "AssociateFullName": "Erin McKenzie III",
+    "ContactName": "Kshlerin-Green",
+    "Description": "Reverse-engineered object-oriented website",
+    "PersonFullName": "Amely Heathcote MD",
+    "PersonId": 938,
+    "ContactId": 270,
+    "ProjectId": 837,
+    "ProjectName": "Kuvalis, Thompson and Ziemann",
+    "IsPublished": true,
+    "AssociateId": 178,
+    "ColorIndex": 310,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 94,
-    "PriorityName": "Jast Group",
+    "PriorityId": 149,
+    "PriorityName": "Paucek Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-09-15T14:58:04.1714606+02:00",
+    "ActiveDate": "2000-01-21T18:28:49.0799615+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-09-11T14:58:04.1714606+02:00",
-    "RecurringEndDate": "2010-12-20T14:58:04.1714606+01:00",
-    "MotherId": 45,
-    "AssignedBy": 962,
-    "AssignedByFullName": "Ms. Vada Bruen",
-    "RejectReason": "",
-    "Location": "nisi",
-    "AlarmLeadTime": "officia",
-    "SaleId": 920,
-    "SaleName": "Langosh-Thiel",
-    "AssociateName": "Purdy-Jacobi",
-    "CreatedDate": "1995-10-23T14:58:04.1714606+02:00",
-    "CreatedBy": "exercitationem",
-    "CreatedByFullName": "Everette Miller",
-    "CreatedByAssociateId": 469,
+    "RecurringStartDate": "1996-12-05T18:28:49.0799615+01:00",
+    "RecurringEndDate": "2008-12-15T18:28:49.0799615+01:00",
+    "MotherId": 170,
+    "AssignedBy": 854,
+    "AssignedByFullName": "Miss Adrienne Sipes",
+    "RejectReason": "incentivize leading-edge e-tailers",
+    "Location": "molestiae",
+    "AlarmLeadTime": "minima",
+    "SaleId": 446,
+    "SaleName": "Price LLC",
+    "AssociateName": "Kunde-Gutkowski",
+    "CreatedDate": "2019-04-10T18:28:49.0799615+02:00",
+    "CreatedBy": "fugit",
+    "CreatedByFullName": "Mr. Janie Walker",
+    "CreatedByAssociateId": 894,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {},
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldType": "System.Int32",
+        "FieldLength": 705
       }
     }
   },
   "CalMethod": "Add",
   "Participants": [
-    "sint",
-    "nemo"
+    "sequi",
+    "optio"
   ],
-  "Comment": "dolorem",
-  "Sequence": 554,
-  "DtStart": "2003-11-30T14:58:04.1724703+01:00",
-  "DtEnd": "1994-11-05T14:58:04.1724703+01:00",
-  "Superseded": false,
+  "Comment": "quasi",
+  "Sequence": 434,
+  "DtStart": "2020-12-28T18:28:49.0809619+01:00",
+  "DtEnd": "2000-08-01T18:28:49.0809619+02:00",
+  "Superseded": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

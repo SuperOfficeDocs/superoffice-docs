@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Jones-Schoen",
-    "ToolTip": "Numquam in.",
+    "Id": 545,
+    "Name": "Marquardt, Walker and Reichert",
+    "ToolTip": "Officiis in fugit veritatis quisquam omnis mollitia.",
     "Deleted": true,
-    "Rank": 178,
-    "Type": "magnam",
-    "ColorBlock": 304,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2007-05-12T15:05:43.3545126+02:00",
+    "Rank": 458,
+    "Type": "delectus",
+    "ColorBlock": 620,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2016-09-06T18:25:51.7333204+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "O'Connell-Osinski",
-        "ToolTip": "Eos nesciunt.",
-        "Deleted": true,
-        "Rank": 381,
-        "Type": "iste",
-        "ColorBlock": 678,
-        "IconHint": "incidunt",
+        "Id": 490,
+        "Name": "Wilderman Group",
+        "ToolTip": "Saepe sit eveniet culpa velit qui dolore.",
+        "Deleted": false,
+        "Rank": 235,
+        "Type": "ad",
+        "ColorBlock": 442,
+        "IconHint": "officia",
         "Selected": true,
-        "LastChanged": "2004-03-20T15:05:43.3545126+01:00",
+        "LastChanged": "2013-10-15T18:25:51.7333204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Ernestine Wehner"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Mallory Klocko"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "aliquid",
-    "Hidden": false,
-    "FullName": "Elsie Muller"
+    "ExtraInfo": "eum",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Elwyn Witting"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Kohler Group",
-    "ToolTip": "Quia voluptas dignissimos quibusdam cumque soluta.",
+    "Id": 395,
+    "Name": "Howell, Lind and Parker",
+    "ToolTip": "Similique illum tenetur dolorem.",
     "Deleted": true,
-    "Rank": 366,
-    "Type": "nesciunt",
-    "ColorBlock": 122,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "1997-03-26T15:05:43.3555129+01:00",
+    "Rank": 773,
+    "Type": "dignissimos",
+    "ColorBlock": 236,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2005-08-16T18:25:51.7353178+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Rohan, Johnson and Hauck",
-        "ToolTip": "Laboriosam consequatur.",
+        "Id": 617,
+        "Name": "Turner, Eichmann and Ward",
+        "ToolTip": "Consequatur nobis mollitia exercitationem facere.",
         "Deleted": true,
-        "Rank": 887,
-        "Type": "sequi",
-        "ColorBlock": 10,
-        "IconHint": "sunt",
+        "Rank": 648,
+        "Type": "ad",
+        "ColorBlock": 222,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "1999-12-03T15:05:43.3555129+01:00",
+        "LastChanged": "2016-04-28T18:25:51.7353178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Ezequiel Stoltenberg",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Floyd Hammes IV",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "scale open-source initiatives"
             },
             "FieldType": "System.String",
-            "FieldLength": 549
+            "FieldLength": 380
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "est",
+    "StyleHint": "aperiam",
     "Hidden": true,
-    "FullName": "Markus Johnston",
+    "FullName": "Walter Larson",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "empower one-to-one users"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 876
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetMyProjectEvents
+title: POST Agents/Project/GetMyProjectEvents
 id: v1ProjectAgent_GetMyProjectEvents
 ---
 
-# GetMyProjectEvents
+# POST Agents/Project/GetMyProjectEvents
 
 ```http
 POST /api/v1/Agents/Project/GetMyProjectEvents
@@ -85,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Aubrey Adams III",
-    "Description": "Persistent zero administration infrastructure",
-    "ProjectId": 80,
-    "EventName": "Larson, Wiegand and Kunze",
-    "AssociateId": 353,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "nulla",
-    "SignOffText": "ut",
-    "SignOnConfirmationText": "sit",
-    "SignOnText": "nihil",
-    "EventDate": "2003-05-11T14:58:04.8534596+02:00",
-    "Enabled": false,
-    "SignOff": false,
+    "AssociateFullName": "Haskell Crooks",
+    "Description": "Sharable modular conglomeration",
+    "ProjectId": 302,
+    "EventName": "Kihn Inc and Sons",
+    "AssociateId": 160,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "soluta",
+    "SignOffText": "placeat",
+    "SignOnConfirmationText": "numquam",
+    "SignOnText": "perferendis",
+    "EventDate": "2006-06-16T18:28:49.777144+02:00",
+    "Enabled": true,
+    "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
+    "SignOnTaskEnable": false,
     "SignOn": true,
-    "SignOffTaskId": 395,
-    "SignOnTaskId": 978,
+    "SignOffTaskId": 568,
+    "SignOnTaskId": 102,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 304,
-    "SignOffPersonId": 654,
+    "SignOnPersonId": 560,
+    "SignOffPersonId": 965,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "reintermediate real-time deliverables"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldType": "System.Int32",
+        "FieldLength": 122
       }
     }
   }

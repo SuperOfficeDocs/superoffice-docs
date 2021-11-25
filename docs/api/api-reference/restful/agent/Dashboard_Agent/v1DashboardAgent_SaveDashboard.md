@@ -1,9 +1,9 @@
 ---
-title: SaveDashboard
+title: POST Agents/Dashboard/SaveDashboard
 id: v1DashboardAgent_SaveDashboard
 ---
 
-# SaveDashboard
+# POST Agents/Dashboard/SaveDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/SaveDashboard
@@ -80,22 +80,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 468,
-  "AssociateId": 463,
-  "Caption": "dolor",
+  "DashboardId": 758,
+  "AssociateId": 453,
+  "Caption": "libero",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 127,
-      "Caption": "voluptatem",
-      "Description": "Polarised stable info-mediaries",
-      "ChartName": "Towne LLC",
-      "ChartId": "perspiciatis",
+      "DashboardTileId": 371,
+      "Caption": "dignissimos",
+      "Description": "Exclusive logistical moderator",
+      "ChartName": "O'Hara LLC",
+      "ChartId": "quia",
       "IsDefault": true,
-      "AssociateId": 299,
-      "GroupId": 377,
-      "SelectionId": 365,
-      "Config": "aut",
+      "AssociateId": 297,
+      "GroupId": 636,
+      "SelectionId": 21,
+      "Config": "odio",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,22 +116,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 761,
-  "AssociateId": 374,
-  "Caption": "amet",
+  "DashboardId": 135,
+  "AssociateId": 940,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 915,
-      "Caption": "sit",
-      "Description": "Universal client-driven flexibility",
-      "ChartName": "Lindgren-Haley",
-      "ChartId": "blanditiis",
+      "DashboardTileId": 620,
+      "Caption": "debitis",
+      "Description": "Streamlined modular knowledge user",
+      "ChartName": "Kassulke-Hills",
+      "ChartId": "dolore",
       "IsDefault": true,
-      "AssociateId": 373,
-      "GroupId": 220,
-      "SelectionId": 84,
-      "Config": "deserunt",
+      "AssociateId": 20,
+      "GroupId": 583,
+      "SelectionId": 831,
+      "Config": "provident",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldLength": 242
         }
       }
     }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldType": "System.Int32",
+      "FieldLength": 355
     }
   }
 }

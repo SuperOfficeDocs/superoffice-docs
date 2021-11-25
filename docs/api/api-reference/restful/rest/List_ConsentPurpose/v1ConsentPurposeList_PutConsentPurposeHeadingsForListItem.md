@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Block, Zulauf and Sanford",
-    "ToolTip": "Commodi voluptate sint.",
-    "Deleted": false,
-    "Rank": 911,
-    "Type": "sit",
-    "ColorBlock": 138,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2013-09-27T15:05:43.3435135+02:00",
+    "Id": 368,
+    "Name": "Kerluke, Murazik and Greenfelder",
+    "ToolTip": "Excepturi totam enim qui.",
+    "Deleted": true,
+    "Rank": 667,
+    "Type": "consequuntur",
+    "ColorBlock": 271,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "1995-07-27T18:25:51.6752934+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Simonis-Rempel",
-        "ToolTip": "Repellendus modi eos dolorem.",
+        "Id": 410,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Sunt earum aspernatur.",
         "Deleted": true,
-        "Rank": 902,
-        "Type": "vel",
-        "ColorBlock": 838,
-        "IconHint": "tenetur",
+        "Rank": 123,
+        "Type": "minus",
+        "ColorBlock": 317,
+        "IconHint": "amet",
         "Selected": true,
-        "LastChanged": "1997-09-15T15:05:43.3435135+02:00",
+        "LastChanged": "2008-02-28T18:25:51.6763332+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "quis",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Lyda Ondricka II"
+        "FullName": "Mose Predovic"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Antoinette Leffler"
+    "ExtraInfo": "totam",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Rosanna Gerlach V"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Jakubowski Inc and Sons",
-    "ToolTip": "Laudantium nobis.",
-    "Deleted": false,
-    "Rank": 848,
-    "Type": "illo",
-    "ColorBlock": 765,
-    "IconHint": "quia",
+    "Id": 216,
+    "Name": "Torp, Wiza and Oberbrunner",
+    "ToolTip": "Ipsum reiciendis omnis et labore in sunt.",
+    "Deleted": true,
+    "Rank": 845,
+    "Type": "expedita",
+    "ColorBlock": 413,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1996-01-13T15:05:43.3445131+01:00",
+    "LastChanged": "2004-09-17T18:25:51.6932913+02:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Koss, Muller and Roob",
-        "ToolTip": "Placeat iure dolore tempore maxime reprehenderit.",
-        "Deleted": true,
-        "Rank": 243,
-        "Type": "repellendus",
-        "ColorBlock": 100,
-        "IconHint": "quas",
+        "Id": 618,
+        "Name": "Stoltenberg LLC",
+        "ToolTip": "Ea dolor totam.",
+        "Deleted": false,
+        "Rank": 937,
+        "Type": "asperiores",
+        "ColorBlock": 783,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "1995-12-07T15:05:43.3445131+01:00",
+        "LastChanged": "2014-04-19T18:25:51.6932913+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "et",
+        "ExtraInfo": "amet",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Fidel Hoppe",
+        "FullName": "Dr. Lane Hirthe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 265
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Abby Jewess Jr.",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Bertram DuBuque",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

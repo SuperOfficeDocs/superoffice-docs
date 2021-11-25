@@ -1,9 +1,9 @@
 ---
-title: SavePreferenceDescriptionLines
+title: POST Agents/Preference/SavePreferenceDescriptionLines
 id: v1PreferenceAgent_SavePreferenceDescriptionLines
 ---
 
-# SavePreferenceDescriptionLines
+# POST Agents/Preference/SavePreferenceDescriptionLines
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
@@ -78,26 +78,26 @@ Response body: array
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 575,
-      "PrefDescId": 936,
-      "PrefValue": "officia",
+      "PrefDescLineId": 392,
+      "PrefDescId": 709,
+      "PrefValue": "accusamus",
       "PrefShowValue": "voluptatem",
-      "Description": "Synergized disintermediate framework",
-      "IsBuiltin": true
+      "Description": "Open-source optimizing ability",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 575,
-      "PrefDescId": 936,
-      "PrefValue": "officia",
+      "PrefDescLineId": 392,
+      "PrefDescId": 709,
+      "PrefValue": "accusamus",
       "PrefShowValue": "voluptatem",
-      "Description": "Synergized disintermediate framework",
-      "IsBuiltin": true
+      "Description": "Open-source optimizing ability",
+      "IsBuiltin": false
     }
   ]
 }
@@ -109,12 +109,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 541,
-    "PrefDescId": 862,
-    "PrefValue": "eum",
-    "PrefShowValue": "eum",
-    "Description": "Devolved optimizing capacity",
-    "IsBuiltin": false,
+    "PrefDescLineId": 264,
+    "PrefDescId": 392,
+    "PrefValue": "ipsum",
+    "PrefShowValue": "atque",
+    "Description": "Polarised maximized initiative",
+    "IsBuiltin": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

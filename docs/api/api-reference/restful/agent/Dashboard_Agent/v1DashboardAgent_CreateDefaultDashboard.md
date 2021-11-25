@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDashboard
+title: POST Agents/Dashboard/CreateDefaultDashboard
 id: v1DashboardAgent_CreateDefaultDashboard
 ---
 
-# CreateDefaultDashboard
+# POST Agents/Dashboard/CreateDefaultDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 32,
-  "AssociateId": 189,
-  "Caption": "ut",
+  "DashboardId": 560,
+  "AssociateId": 911,
+  "Caption": "laborum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 730,
-      "Caption": "velit",
-      "Description": "De-engineered system-worthy policy",
-      "ChartName": "Morissette, Parisian and Senger",
-      "ChartId": "neque",
-      "IsDefault": false,
-      "AssociateId": 458,
-      "GroupId": 576,
-      "SelectionId": 893,
-      "Config": "numquam",
+      "DashboardTileId": 49,
+      "Caption": "nostrum",
+      "Description": "Distributed multimedia approach",
+      "ChartName": "Dibbert-Romaguera",
+      "ChartId": "inventore",
+      "IsDefault": true,
+      "AssociateId": 242,
+      "GroupId": 759,
+      "SelectionId": 829,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 928
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 166
     }
   }
 }

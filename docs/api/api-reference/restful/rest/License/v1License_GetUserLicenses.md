@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -70,51 +70,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Watsica LLC",
-    "Description": "Up-sized global contingency",
+    "Name": "Predovic-Legros",
+    "Description": "Public-key radical array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 273,
-        "Tooltip": "cumque",
-        "CanAssign": true,
-        "Free": 429,
-        "InUse": 802,
+        "Total": 442,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 829,
+        "InUse": 882,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 332,
-        "Name": "Cronin-Harris",
-        "Description": "Devolved zero tolerance circuit",
-        "PrerequisiteModuleName": "White-Mertz",
-        "SortOrder": 426,
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 709
-          }
-        }
-      }
-    ],
-    "UnrestrictedModuleLicenses": [
-      {
-        "Unrestricted": false,
-        "Total": 480,
-        "Tooltip": "expedita",
-        "CanAssign": false,
-        "Free": 742,
-        "InUse": 963,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 824,
-        "Name": "Ferry, Konopelski and O'Keefe",
-        "Description": "Reactive optimizing artificial intelligence",
-        "PrerequisiteModuleName": "Becker, Halvorson and Gaylord",
-        "SortOrder": 787,
+        "ModuleLicenseId": 636,
+        "Name": "Bayer, Pagac and Considine",
+        "Description": "Integrated hybrid Graphic Interface",
+        "PrerequisiteModuleName": "Padberg-Kozey",
+        "SortOrder": 28,
+        "ExtraFlags": 878,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -123,7 +96,36 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldLength": 951
+          }
+        }
+      }
+    ],
+    "UnrestrictedModuleLicenses": [
+      {
+        "Unrestricted": false,
+        "Total": 806,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 464,
+        "InUse": 363,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 279,
+        "Name": "Ritchie, Heller and White",
+        "Description": "Versatile bi-directional service-desk",
+        "PrerequisiteModuleName": "Hermiston LLC",
+        "SortOrder": 868,
+        "ExtraFlags": 761,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 154
           }
         }
       }
@@ -138,57 +140,30 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   },
   {
-    "Name": "Watsica LLC",
-    "Description": "Up-sized global contingency",
+    "Name": "Predovic-Legros",
+    "Description": "Public-key radical array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 273,
-        "Tooltip": "cumque",
-        "CanAssign": true,
-        "Free": 429,
-        "InUse": 802,
+        "Total": 442,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 829,
+        "InUse": 882,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 332,
-        "Name": "Cronin-Harris",
-        "Description": "Devolved zero tolerance circuit",
-        "PrerequisiteModuleName": "White-Mertz",
-        "SortOrder": 426,
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 709
-          }
-        }
-      }
-    ],
-    "UnrestrictedModuleLicenses": [
-      {
-        "Unrestricted": false,
-        "Total": 480,
-        "Tooltip": "expedita",
-        "CanAssign": false,
-        "Free": 742,
-        "InUse": 963,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 824,
-        "Name": "Ferry, Konopelski and O'Keefe",
-        "Description": "Reactive optimizing artificial intelligence",
-        "PrerequisiteModuleName": "Becker, Halvorson and Gaylord",
-        "SortOrder": 787,
+        "ModuleLicenseId": 636,
+        "Name": "Bayer, Pagac and Considine",
+        "Description": "Integrated hybrid Graphic Interface",
+        "PrerequisiteModuleName": "Padberg-Kozey",
+        "SortOrder": 28,
+        "ExtraFlags": 878,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -197,7 +172,36 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldLength": 951
+          }
+        }
+      }
+    ],
+    "UnrestrictedModuleLicenses": [
+      {
+        "Unrestricted": false,
+        "Total": 806,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 464,
+        "InUse": 363,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 279,
+        "Name": "Ritchie, Heller and White",
+        "Description": "Versatile bi-directional service-desk",
+        "PrerequisiteModuleName": "Hermiston LLC",
+        "SortOrder": 868,
+        "ExtraFlags": 761,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 154
           }
         }
       }
@@ -212,8 +216,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

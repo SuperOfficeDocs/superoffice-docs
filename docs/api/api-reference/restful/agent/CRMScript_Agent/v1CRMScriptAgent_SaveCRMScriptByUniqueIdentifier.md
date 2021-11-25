@@ -1,9 +1,9 @@
 ---
-title: SaveCRMScriptByUniqueIdentifier
+title: POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 id: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
 ---
 
-# SaveCRMScriptByUniqueIdentifier
+# POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
@@ -90,22 +90,22 @@ Response body: object
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "similique",
+  "UniqueIdentifier": "et",
   "Crmscript": {
-    "UniqueIdentifier": "nihil",
-    "Name": "Nikolaus-Lehner",
-    "Description": "Enterprise-wide fault-tolerant service-desk",
-    "IncludeId": "sint",
-    "Source": "officiis",
-    "Registered": "2004-12-24T14:58:03.7474603+01:00",
-    "RegisteredBy": "accusamus",
-    "Updated": "2015-01-05T14:58:03.7474603+01:00",
-    "UpdatedBy": "repudiandae",
-    "Path": "aspernatur"
+    "UniqueIdentifier": "blanditiis",
+    "Name": "Rolfson-Bailey",
+    "Description": "Cross-group executive infrastructure",
+    "IncludeId": "et",
+    "Source": "velit",
+    "Registered": "2019-03-28T18:28:48.6319279+01:00",
+    "RegisteredBy": "ut",
+    "Updated": "2021-11-15T18:28:48.6319279+01:00",
+    "UpdatedBy": "iusto",
+    "Path": "et"
   }
 }
 ```
@@ -115,19 +115,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aperiam",
-  "Name": "Luettgen, Hane and Rutherford",
-  "Description": "Cross-platform attitude-oriented capacity",
-  "IncludeId": "laboriosam",
-  "Source": "voluptatem",
-  "Registered": "2003-08-17T14:58:03.7474603+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2014-04-14T14:58:03.7474603+02:00",
-  "UpdatedBy": "fuga",
-  "Path": "eum",
+  "UniqueIdentifier": "nobis",
+  "Name": "Swaniawski LLC",
+  "Description": "Customer-focused hybrid concept",
+  "IncludeId": "occaecati",
+  "Source": "eum",
+  "Registered": "2008-11-22T18:28:48.6329579+01:00",
+  "RegisteredBy": "incidunt",
+  "Updated": "2006-06-08T18:28:48.6329579+02:00",
+  "UpdatedBy": "excepturi",
+  "Path": "suscipit",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "unleash revolutionary paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

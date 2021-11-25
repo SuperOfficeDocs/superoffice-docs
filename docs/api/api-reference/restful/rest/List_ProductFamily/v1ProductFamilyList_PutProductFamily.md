@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Schimmel Inc and Sons",
-  "Tooltip": "iure",
+  "Id": 395,
+  "Name": "Koch, Feil and Nienow",
+  "Tooltip": "excepturi",
   "Deleted": true,
-  "UdListDefinitionId": 322,
-  "Rank": 500
+  "UdListDefinitionId": 213,
+  "Rank": 398
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Kozey LLC",
-  "Tooltip": "hic",
+  "Id": 258,
+  "Name": "Waelchi, Kertzmann and Weber",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 992,
-  "Rank": 732,
+  "UdListDefinitionId": 426,
+  "Rank": 120,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 272
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

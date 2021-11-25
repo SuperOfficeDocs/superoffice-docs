@@ -1,9 +1,9 @@
 ---
-title: HasGuide
+title: POST Agents/Project/HasGuide
 id: v1ProjectAgent_HasGuide
 ---
 
-# HasGuide
+# POST Agents/Project/HasGuide
 
 ```http
 POST /api/v1/Agents/Project/HasGuide
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Project/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 171
+  "ProjectId": 660
 }
 ```
 

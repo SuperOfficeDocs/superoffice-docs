@@ -1,9 +1,9 @@
 ---
-title: DeleteProjectEventEntityFromProjectId
+title: POST Agents/Project/DeleteProjectEventEntityFromProjectId
 id: v1ProjectAgent_DeleteProjectEventEntityFromProjectId
 ---
 
-# DeleteProjectEventEntityFromProjectId
+# POST Agents/Project/DeleteProjectEventEntityFromProjectId
 
 ```http
 POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId

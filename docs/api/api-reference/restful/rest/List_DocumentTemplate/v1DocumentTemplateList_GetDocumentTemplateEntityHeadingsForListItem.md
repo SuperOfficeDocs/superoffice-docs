@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Raynor Group",
-    "ToolTip": "Architecto voluptatibus.",
-    "Deleted": false,
-    "Rank": 738,
-    "Type": "aperiam",
-    "ColorBlock": 715,
-    "IconHint": "accusamus",
+    "Id": 754,
+    "Name": "Heaney, Considine and Langworth",
+    "ToolTip": "Voluptate id sed tempora rerum deleniti.",
+    "Deleted": true,
+    "Rank": 681,
+    "Type": "aut",
+    "ColorBlock": 255,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2012-10-26T15:05:43.4935116+02:00",
+    "LastChanged": "2002-03-09T18:25:51.8394862+01:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Halvorson, Boyer and Jerde",
-        "ToolTip": "Alias sunt ad.",
+        "Id": 347,
+        "Name": "Gerlach LLC",
+        "ToolTip": "Labore blanditiis.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "ullam",
-        "ColorBlock": 110,
-        "IconHint": "facere",
+        "Rank": 499,
+        "Type": "quis",
+        "ColorBlock": 454,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2017-06-11T15:05:43.4935116+02:00",
+        "LastChanged": "2019-12-25T18:25:51.8404919+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "earum",
+        "ExtraInfo": "dolores",
+        "StyleHint": "quaerat",
         "Hidden": true,
-        "FullName": "Dr. Myriam Funk",
+        "FullName": "Eliza Goodwin",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 783
+            "FieldType": "System.Int32",
+            "FieldLength": 545
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dicta",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quidem",
     "Hidden": true,
-    "FullName": "Leonardo Hackett",
+    "FullName": "Gust Reilly",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 55
       }
     }
   }

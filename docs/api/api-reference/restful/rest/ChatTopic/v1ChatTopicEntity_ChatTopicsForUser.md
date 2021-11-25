@@ -67,6 +67,12 @@ Response body: array
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,7 +82,7 @@ Response body: array
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -85,14 +91,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 847,
-    "Name": "Goyette Group",
-    "Description": "Cross-platform 6th generation system engine",
-    "WelcomeMessage": "dicta",
+    "ChatTopicId": 332,
+    "Name": "Smith, Hodkiewicz and Oberbrunner",
+    "Description": "Persistent value-added access",
+    "WelcomeMessage": "quos",
     "Language": {
-      "Id": 897,
-      "Value": "illum",
-      "Tooltip": "et",
+      "Id": 522,
+      "Value": "qui",
+      "Tooltip": "ea",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -101,30 +107,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldLength": 129
         }
       }
     },
-    "LastAccept": "2000-04-03T15:05:41.7850051+02:00",
-    "SecondsPrAccept": 993,
-    "AlertRecipient": "perspiciatis",
+    "LastAccept": "2003-06-03T18:25:50.1745957+02:00",
+    "SecondsPrAccept": 189,
+    "AlertRecipient": "qui",
     "AlertTemplate": {
-      "ReplyTemplateId": 535,
-      "Name": "Schowalter-Ferry",
-      "Description": "Ergonomic dynamic matrix",
-      "FolderId": 595
+      "ReplyTemplateId": 285,
+      "Name": "Carter, Bernier and Roob",
+      "Description": "Enterprise-wide fault-tolerant budgetary management",
+      "FolderId": 241
     },
     "CollectConsent": false,
-    "BadgeHeader": "perspiciatis",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "ut",
-    "WarnNewChatMinutes": 129,
-    "WarnManagerNewChatMinutes": 438,
+    "BadgeHeader": "accusamus",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "quia",
+    "WarnNewChatMinutes": 948,
+    "WarnManagerNewChatMinutes": 295,
     "TicketEnabled": true,
     "TicketCategory": {
-      "Id": 537,
-      "Value": "iste",
-      "Tooltip": "quo",
+      "Id": 910,
+      "Value": "similique",
+      "Tooltip": "repellat",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,15 +138,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     },
     "TicketPriority": {
-      "Id": 698,
-      "Value": "voluptatibus",
-      "Tooltip": "eveniet",
+      "Id": 264,
+      "Value": "ab",
+      "Tooltip": "minima",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -148,8 +154,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldType": "System.String",
+          "FieldLength": 544
         }
       }
     },
@@ -157,64 +163,70 @@ Content-Type: application/json; charset=utf-8
     "OpeningHours": {
       "TzLocation": {},
       "MonEnabled": false,
-      "MonStart": "aut",
-      "MonStop": "adipisci",
+      "MonStart": "assumenda",
+      "MonStop": "aliquid",
       "TueEnabled": true,
-      "TueStart": "adipisci",
-      "TueStop": "veritatis",
-      "WedEnabled": true,
-      "WedStart": "quidem",
-      "WedStop": "qui",
+      "TueStart": "magnam",
+      "TueStop": "ex",
+      "WedEnabled": false,
+      "WedStart": "et",
+      "WedStop": "molestiae",
       "ThuEnabled": true,
-      "ThuStart": "nihil",
-      "ThuStop": "illum",
-      "FriEnabled": false,
-      "FriStart": "quia",
-      "FriStop": "laborum",
-      "SatEnabled": true,
-      "SatStart": "ex",
-      "SatStop": "delectus",
+      "ThuStart": "sit",
+      "ThuStop": "quo",
+      "FriEnabled": true,
+      "FriStart": "dicta",
+      "FriStop": "magni",
+      "SatEnabled": false,
+      "SatStart": "facere",
+      "SatStop": "repellat",
       "SunEnabled": false,
-      "SunStart": "ea",
-      "SunStop": "sed",
-      "UseLunchHours": false,
-      "LunchStart": "doloribus",
-      "LunchStop": "ut"
+      "SunStart": "harum",
+      "SunStop": "voluptas",
+      "UseLunchHours": true,
+      "LunchStart": "reiciendis",
+      "LunchStop": "dolor"
     },
     "Widget": {
       "AutoFaqEnabled": false,
       "AutoFaqCategory": {},
-      "PreFormEnabled": true,
-      "PreFormMessage": "ut",
+      "PreFormEnabled": false,
+      "PreFormMessage": "ipsam",
       "RequiredFields": "Company",
       "PostFormEnabled": true,
-      "PostFormHeader": "est",
-      "PostFormMessage": "est",
+      "PostFormHeader": "numquam",
+      "PostFormMessage": "alias",
       "PostTranscriptEnabled": true,
-      "LanguageIsoCode": "voluptatem",
+      "LanguageIsoCode": "sit",
       "Size": "Large",
       "Theme": "Classic",
-      "Color": "soluta",
-      "Font": "aut",
+      "Color": "aspernatur",
+      "Font": "deserunt",
       "LogoEnabled": false,
-      "LogoBlobId": 883,
-      "LogoName": "Funk, Hackett and Grant",
+      "LogoBlobId": 92,
+      "LogoName": "Howe-Pagac",
       "ShowAgentPhoto": false,
-      "WelcomeTitle": "quam",
-      "WelcomeMessage": "corporis",
-      "OfflineHeader": "reprehenderit",
-      "OfflineMessage": "magnam",
+      "WelcomeTitle": "esse",
+      "WelcomeMessage": "quasi",
+      "OfflineHeader": "eos",
+      "OfflineMessage": "aut",
       "OfflineFields": "Company",
       "UseAgentFirstname": false
     },
     "BotEnabled": true,
     "BotSettings": {
-      "BotName": "Rolfson Inc and Sons",
-      "BotRegisterScriptId": 914,
-      "BotSessionCreatedScriptId": 2,
-      "BotSessionChangedScriptId": 683,
-      "BotMessageReceivedScriptId": 293
+      "BotName": "Rutherford Group",
+      "BotRegisterScriptId": 918,
+      "BotSessionCreatedScriptId": 817,
+      "BotSessionChangedScriptId": 976,
+      "BotMessageReceivedScriptId": 219
     },
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 881,
+    "WarnManagerChatMessageMinutes": 671,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 930,
+    "OfflineFormQueueLength": 51,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -225,8 +237,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

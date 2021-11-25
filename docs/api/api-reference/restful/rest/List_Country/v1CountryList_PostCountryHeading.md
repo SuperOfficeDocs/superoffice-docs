@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 122,
-  "Name": "Schoen-Huel",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "Rank": 323,
-  "UdListDefinitionId": 41
+  "HeadingId": 750,
+  "Name": "Little Group",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 869,
+  "UdListDefinitionId": 333
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 69,
-  "Name": "Daniel LLC",
-  "Tooltip": "ut",
+  "HeadingId": 390,
+  "Name": "Beatty-Stroman",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 115,
-  "UdListDefinitionId": 292,
+  "Rank": 699,
+  "UdListDefinitionId": 296,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "orchestrate world-class infomediaries"
+        "Reason": "engage frictionless channels"
       },
       "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldLength": 508
     }
   }
 }

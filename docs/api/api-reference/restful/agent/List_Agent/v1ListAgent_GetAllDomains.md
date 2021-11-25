@@ -1,9 +1,9 @@
 ---
-title: GetAllDomains
+title: POST Agents/List/GetAllDomains
 id: v1ListAgent_GetAllDomains
 ---
 
-# GetAllDomains
+# POST Agents/List/GetAllDomains
 
 ```http
 POST /api/v1/Agents/List/GetAllDomains
@@ -59,7 +59,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllDomains
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "illo",
-  "omnis"
+  "eveniet",
+  "quo"
 ]
 ```

@@ -25,8 +25,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=omnis
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=facere
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Trantow LLC",
-    "ToolTip": "Ut veritatis qui voluptatum sed sed.",
-    "Deleted": false,
-    "Rank": 437,
-    "Type": "sed",
+    "Id": 941,
+    "Name": "Jenkins-Vandervort",
+    "ToolTip": "Possimus autem consequuntur odit.",
+    "Deleted": true,
+    "Rank": 606,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Heller Group",
-        "ToolTip": "Voluptas dolorem rerum aut sit quis.",
+        "Id": 78,
+        "Name": "Harvey, Moore and White",
+        "ToolTip": "Sint autem voluptas rerum similique.",
         "Deleted": false,
-        "Rank": 673,
-        "Type": "itaque",
+        "Rank": 290,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 536,
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
-        "FullName": "Ransom Roob MD",
+        "IconHint": "illum",
+        "ColorBlock": 370,
+        "ExtraInfo": "quas",
+        "StyleHint": "quos",
+        "FullName": "Ida Douglas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 720
+            "FieldLength": 225
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 633,
-    "ExtraInfo": "aut",
-    "StyleHint": "veritatis",
-    "FullName": "Bart Jaskolski",
+    "IconHint": "maxime",
+    "ColorBlock": 263,
+    "ExtraInfo": "hic",
+    "StyleHint": "corrupti",
+    "FullName": "Horace Rodriguez",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

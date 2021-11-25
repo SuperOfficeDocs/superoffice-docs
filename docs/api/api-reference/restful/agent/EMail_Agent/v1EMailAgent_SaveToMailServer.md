@@ -1,9 +1,9 @@
 ---
-title: SaveToMailServer
+title: POST Agents/EMail/SaveToMailServer
 id: v1EMailAgent_SaveToMailServer
 ---
 
-# SaveToMailServer
+# POST Agents/EMail/SaveToMailServer
 
 ```http
 POST /api/v1/Agents/EMail/SaveToMailServer
@@ -105,7 +105,7 @@ Response body: object
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "Subject": "distinctio",
-    "HTMLBody": "numquam",
+    "Subject": "sint",
+    "HTMLBody": "magnam",
     "From": {},
-    "Sent": "2011-12-08T14:58:04.1544306+01:00",
-    "Size": 201,
+    "Sent": "2005-04-24T18:28:49.0699577+02:00",
+    "Size": 899,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "eveniet",
-    "PlainBody": "nulla",
+    "MessageID": "minima",
+    "PlainBody": "eos",
     "IsSent": true,
     "EMailSOInfo": {},
-    "ServerId": 981,
+    "ServerId": 7,
     "Attachments": [
       {},
       {}
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "FolderName": "Torp LLC",
-    "EmailItemId": 849,
-    "AccountId": 122,
-    "ReceivedAt": "2014-07-08T14:58:04.1544306+02:00",
+    "FolderName": "Bosco-Kiehn",
+    "EmailItemId": 975,
+    "AccountId": 895,
+    "ReceivedAt": "2002-02-26T18:28:49.0699577+01:00",
     "InReplyTo": {},
-    "RepliedAt": "2017-01-21T14:58:04.1544306+01:00",
+    "RepliedAt": "2013-03-16T18:28:49.0699577+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted"
@@ -162,18 +162,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 282,
-      "ContactName": "Sanford-Auer",
-      "PersonId": 324,
-      "PersonName": "Hettinger, Zieme and Kshlerin",
-      "AssociateId": 326,
-      "Address": "dolores",
-      "EmailId": 870,
+      "ContactId": 73,
+      "ContactName": "Walker, Runolfsson and Ledner",
+      "PersonId": 53,
+      "PersonName": "Nicolas, Huel and Leannon",
+      "AssociateId": 257,
+      "Address": "at",
+      "EmailId": 412,
       "DuplicatePersonIds": [
-        850,
-        843
+        867,
+        663
       ],
-      "Name": "Rosenbaum, Abshire and Smith",
+      "Name": "Daugherty-Homenick",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -182,25 +182,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 530
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 766,
-      "ContactName": "Ratke-Cummerata",
-      "PersonId": 655,
-      "PersonName": "Will, Oberbrunner and Kub",
-      "AssociateId": 601,
-      "Address": "a",
-      "EmailId": 274,
+      "ContactId": 382,
+      "ContactName": "Hagenes-Glover",
+      "PersonId": 627,
+      "PersonName": "McLaughlin Group",
+      "AssociateId": 276,
+      "Address": "maiores",
+      "EmailId": 637,
       "DuplicatePersonIds": [
-        405,
-        406
+        130,
+        947
       ],
-      "Name": "Williamson-Littel",
+      "Name": "Fisher Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -208,26 +208,26 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 901,
-      "ContactName": "Metz, Morar and Beatty",
-      "PersonId": 546,
-      "PersonName": "Vandervort, Heidenreich and Luettgen",
-      "AssociateId": 884,
-      "Address": "perferendis",
-      "EmailId": 368,
+      "ContactId": 812,
+      "ContactName": "Powlowski Group",
+      "PersonId": 300,
+      "PersonName": "Ritchie, Aufderhar and Barrows",
+      "AssociateId": 104,
+      "Address": "laborum",
+      "EmailId": 331,
       "DuplicatePersonIds": [
-        610,
-        693
+        545,
+        144
       ],
-      "Name": "Doyle, Ledner and Pagac",
+      "Name": "Sauer Inc and Sons",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -235,27 +235,27 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldType": "System.String",
+          "FieldLength": 983
         }
       }
     }
   ],
-  "Subject": "officia",
-  "HTMLBody": "vel",
+  "Subject": "accusamus",
+  "HTMLBody": "id",
   "From": {
-    "ContactId": 879,
-    "ContactName": "Witting-Torphy",
-    "PersonId": 997,
-    "PersonName": "Rolfson Group",
-    "AssociateId": 569,
-    "Address": "maxime",
-    "EmailId": 415,
+    "ContactId": 717,
+    "ContactName": "Wehner-Halvorson",
+    "PersonId": 861,
+    "PersonName": "O'Conner-Blanda",
+    "AssociateId": 571,
+    "Address": "et",
+    "EmailId": 307,
     "DuplicatePersonIds": [
-      726,
-      579
+      329,
+      654
     ],
-    "Name": "Brakus Inc and Sons",
+    "Name": "Tromp, Frami and Olson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -263,49 +263,49 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 403
       }
     }
   },
-  "Sent": "2014-05-14T14:58:04.1574302+02:00",
-  "Size": 837,
+  "Sent": "2021-04-02T18:28:49.0729573+02:00",
+  "Size": 28,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsum",
-  "PlainBody": "nobis",
-  "IsSent": false,
+  "MessageID": "consequatur",
+  "PlainBody": "eum",
+  "IsSent": true,
   "EMailSOInfo": {
-    "DocumentId": 47,
-    "AppointmentId": 461,
-    "ProjectId": 191,
-    "SaleId": 541,
+    "DocumentId": 827,
+    "AppointmentId": 192,
+    "ProjectId": 563,
+    "SaleId": 953,
     "Archived": true,
-    "ArchivedAt": "1998-05-17T14:58:04.1574302+02:00",
-    "ArchivedBy": 588,
-    "ArchivedDisplayName": "Hoppe, Wolff and Morar",
+    "ArchivedAt": "2019-08-11T18:28:49.0729573+02:00",
+    "ArchivedBy": 712,
+    "ArchivedDisplayName": "Borer Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "whiteboard bleeding-edge partnerships"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldLength": 599
       }
     }
   },
-  "ServerId": 647,
+  "ServerId": 477,
   "Attachments": [
     {
-      "Description": "Configurable secondary neural-net",
-      "Filename": "ipsam",
-      "Size": 367,
-      "Type": "distinctio",
-      "Encoding": "ut",
-      "Id": "et",
-      "Disposition": "eos",
+      "Description": "Total multi-tasking throughput",
+      "Filename": "minus",
+      "Size": 103,
+      "Type": "facere",
+      "Encoding": "ipsam",
+      "Id": "voluptates",
+      "Disposition": "totam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": {},
       "FieldProperties": {
@@ -315,17 +315,17 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 741
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Littel LLC",
+      "Name": "Schiller, Buckridge and Runolfsdottir",
       "Values": [
-        "beatae",
-        "velit"
+        "totam",
+        "sed"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -335,15 +335,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 546
         }
       }
     },
     {
-      "Name": "Littel LLC",
+      "Name": "Schiller, Buckridge and Runolfsdottir",
       "Values": [
-        "beatae",
-        "velit"
+        "totam",
+        "sed"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -353,43 +353,43 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 546
         }
       }
     }
   ],
-  "FolderName": "Swaniawski LLC",
-  "EmailItemId": 192,
-  "AccountId": 359,
-  "ReceivedAt": "2005-11-14T14:58:04.1574302+01:00",
+  "FolderName": "Goodwin-Kautzer",
+  "EmailItemId": 810,
+  "AccountId": 504,
+  "ReceivedAt": "1999-10-06T18:28:49.0739613+02:00",
   "InReplyTo": {
-    "ServerId": 891,
-    "MessageId": "quaerat",
-    "Subject": "quia",
+    "ServerId": 56,
+    "MessageId": "explicabo",
+    "Subject": "ducimus",
     "From": {},
     "To": [
       {},
       {}
     ],
-    "Sent": "2010-02-16T14:58:04.1574302+01:00",
+    "Sent": "2009-12-16T18:28:49.0739613+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 93,
+    "Size": 56,
     "EMailSOInfo": {},
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "exploit world-class ROI"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldLength": 161
       }
     }
   },
-  "RepliedAt": "1997-04-27T14:58:04.1574302+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-03-17T18:28:49.0739613+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": {
@@ -402,8 +402,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 888
     }
   }
 }

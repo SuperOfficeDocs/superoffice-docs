@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=aperiam
 ```
 
 
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 347,
-    "Name": "Tillman, Huels and Willms",
-    "ToolTip": "Quam illo.",
+    "Id": 286,
+    "Name": "Schmeler Inc and Sons",
+    "ToolTip": "Et natus.",
     "Deleted": true,
-    "Rank": 287,
-    "Type": "iste",
+    "Rank": 513,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Koch, McDermott and Block",
-        "ToolTip": "Et nobis ad.",
+        "Id": 58,
+        "Name": "Hansen, Herman and Ward",
+        "ToolTip": "Excepturi nesciunt sed exercitationem sint.",
         "Deleted": false,
-        "Rank": 876,
-        "Type": "consequatur",
+        "Rank": 523,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magnam",
-        "ColorBlock": 858,
-        "ExtraInfo": "ut",
-        "StyleHint": "rerum",
-        "FullName": "Ewald Fritsch",
+        "IconHint": "voluptates",
+        "ColorBlock": 863,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "vel",
+        "FullName": "Dr. Kyle Hoppe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldType": "System.String",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 185,
-    "ExtraInfo": "maiores",
-    "StyleHint": "quia",
-    "FullName": "Lynn O'Keefe",
+    "IconHint": "vel",
+    "ColorBlock": 306,
+    "ExtraInfo": "quis",
+    "StyleHint": "fugit",
+    "FullName": "Kole Nader",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "scale plug-and-play applications"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

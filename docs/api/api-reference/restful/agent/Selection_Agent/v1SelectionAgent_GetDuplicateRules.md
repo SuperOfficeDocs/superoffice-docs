@@ -1,9 +1,9 @@
 ---
-title: GetDuplicateRules
+title: POST Agents/Selection/GetDuplicateRules
 id: v1SelectionAgent_GetDuplicateRules
 ---
 
-# GetDuplicateRules
+# POST Agents/Selection/GetDuplicateRules
 
 ```http
 POST /api/v1/Agents/Selection/GetDuplicateRules
@@ -67,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,9 +76,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schimmel, Schowalter and Jewess",
-    "DisplayName": "Koelpin-Rath",
-    "DisplayTooltip": "sunt",
+    "Name": "Tillman-Collier",
+    "DisplayName": "Murray, Walter and Kreiger",
+    "DisplayTooltip": "a",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
@@ -88,17 +88,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "engage e-business e-markets"
         },
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 203
       }
     }
   },
   {
-    "Name": "Schimmel, Schowalter and Jewess",
-    "DisplayName": "Koelpin-Rath",
-    "DisplayTooltip": "sunt",
+    "Name": "Tillman-Collier",
+    "DisplayName": "Murray, Walter and Kreiger",
+    "DisplayTooltip": "a",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
@@ -108,10 +108,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "engage e-business e-markets"
         },
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 203
       }
     }
   }

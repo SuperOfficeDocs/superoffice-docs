@@ -2,8 +2,6 @@
 title: SystemEvent
 ---
 
-# SystemEvent
-
 ```http
 /api/v1/SystemEvent
 ```

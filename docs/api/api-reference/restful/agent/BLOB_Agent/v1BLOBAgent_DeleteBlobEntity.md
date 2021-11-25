@@ -1,9 +1,9 @@
 ---
-title: DeleteBlobEntity
+title: POST Agents/BLOB/DeleteBlobEntity
 id: v1BLOBAgent_DeleteBlobEntity
 ---
 
-# DeleteBlobEntity
+# POST Agents/BLOB/DeleteBlobEntity
 
 ```http
 POST /api/v1/Agents/BLOB/DeleteBlobEntity
@@ -24,7 +24,7 @@ Deletes the BlobEntity
 | BlobEntityId | int32 | **Required** The id of the BlobEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=336
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=894
 ```
 
 

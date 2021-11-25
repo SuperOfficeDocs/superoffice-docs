@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultQuoteAlternative
+title: POST Agents/Quote/CreateDefaultQuoteAlternative
 id: v1QuoteAgent_CreateDefaultQuoteAlternative
 ---
 
-# CreateDefaultQuoteAlternative
+# POST Agents/Quote/CreateDefaultQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
@@ -89,29 +89,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 57,
+  "QuoteAlternativeId": 372,
   "ERPQuoteAlternativeKey": "et",
-  "QuoteVersionId": 861,
-  "Name": "Shanahan-Balistreri",
-  "Description": "Monitored heuristic intranet",
+  "QuoteVersionId": 237,
+  "Name": "Sporer LLC",
+  "Description": "Innovative disintermediate support",
   "Status": "Error",
-  "Reason": "cultivate mission-critical supply-chains",
-  "ERPDiscountPercent": 28027.361999999997,
-  "ERPDiscountAmount": 3193.546,
-  "DiscountPercent": 3704.388,
-  "DiscountAmount": 3522.616,
+  "Reason": "",
+  "ERPDiscountPercent": 21840.845999999998,
+  "ERPDiscountAmount": 30716.334,
+  "DiscountPercent": 10809.166,
+  "DiscountAmount": 29550.486,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quia",
-  "VAT": 20195.496,
-  "EarningPercent": 10818.568,
-  "EarningAmount": 3444.266,
-  "SubTotal": 21301.798,
-  "TotalPrice": 14980.519999999999,
-  "ExtraField1": "esse",
-  "ExtraField2": "sequi",
-  "ExtraField3": "impedit",
-  "ExtraField4": "ut",
-  "ExtraField5": "quos",
+  "VATInfo": "sunt",
+  "VAT": 9339.32,
+  "EarningPercent": 28575.811999999998,
+  "EarningAmount": 10235.644,
+  "SubTotal": 9533.6279999999988,
+  "TotalPrice": 29105.458,
+  "ExtraField1": "vel",
+  "ExtraField2": "optio",
+  "ExtraField3": "autem",
+  "ExtraField4": "vel",
+  "ExtraField5": "quia",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 227
     }
   }
 }

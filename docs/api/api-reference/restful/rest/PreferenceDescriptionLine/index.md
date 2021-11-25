@@ -2,8 +2,6 @@
 title: PreferenceDescriptionLine
 ---
 
-# PreferenceDescriptionLine
-
 ```http
 /api/v1/PreferenceDescriptionLine
 ```

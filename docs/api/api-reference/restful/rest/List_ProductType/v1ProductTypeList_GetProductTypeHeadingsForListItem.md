@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Heller, Lowe and Bruen",
-    "ToolTip": "Vero ut explicabo recusandae sint perspiciatis unde.",
-    "Deleted": false,
-    "Rank": 923,
-    "Type": "voluptatibus",
-    "ColorBlock": 190,
-    "IconHint": "nemo",
+    "Id": 900,
+    "Name": "Pfannerstill-Bogisich",
+    "ToolTip": "Quidem quae velit.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "aut",
+    "ColorBlock": 578,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2008-10-25T15:05:43.6822214+02:00",
+    "LastChanged": "2014-05-08T18:25:52.0342124+02:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Bruen, Armstrong and Ferry",
-        "ToolTip": "Exercitationem temporibus nemo eos voluptas consequatur suscipit.",
+        "Id": 841,
+        "Name": "Johnston, Cartwright and Abernathy",
+        "ToolTip": "Dolorem qui debitis.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "nobis",
-        "ColorBlock": 968,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2010-11-19T15:05:43.6822214+01:00",
+        "Rank": 932,
+        "Type": "explicabo",
+        "ColorBlock": 197,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "1999-08-22T18:25:52.0342124+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Noe Tremblay",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Kris Hoppe",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 191
+            "FieldType": "System.Int32",
+            "FieldLength": 193
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "quo",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Trenton Gutkowski",
+    "FullName": "Leonora Tromp",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

@@ -67,7 +67,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -81,6 +81,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -90,7 +91,7 @@ Response body: object
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -98,35 +99,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 207,
-  "Name": "Green-Fisher",
+  "TicketPriorityId": 360,
+  "Name": "Beier-Borer",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 11,
+  "SortOrder": 95,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 54,
-  "MonStart": "2012-07-13T15:05:43.9141233+02:00",
-  "MonStop": "1996-12-26T15:05:43.9141233+01:00",
-  "TueStart": "2001-02-26T15:05:43.9141233+01:00",
-  "TueStop": "1995-10-24T15:05:43.9141233+02:00",
-  "WedStart": "2009-02-21T15:05:43.9141233+01:00",
-  "WedStop": "2002-05-06T15:05:43.9141233+02:00",
-  "ThuStart": "2017-07-07T15:05:43.9141233+02:00",
-  "ThuStop": "2019-01-15T15:05:43.9141233+01:00",
-  "FriStart": "2017-09-07T15:05:43.9141233+02:00",
-  "FriStop": "1994-11-10T15:05:43.9141233+01:00",
-  "SatStart": "1994-08-26T15:05:43.9141233+02:00",
-  "SatStop": "1995-07-11T15:05:43.9141233+02:00",
-  "SunStart": "2015-07-23T15:05:43.9141233+02:00",
-  "SunStop": "2010-05-24T15:05:43.9141233+02:00",
+  "Deadline": 67,
+  "MonStart": "2016-11-30T18:25:52.3106728+01:00",
+  "MonStop": "2017-04-06T18:25:52.3106728+02:00",
+  "TueStart": "2000-07-04T18:25:52.3106728+02:00",
+  "TueStop": "1994-12-30T18:25:52.3106728+01:00",
+  "WedStart": "2002-07-03T18:25:52.3106728+02:00",
+  "WedStop": "2002-01-26T18:25:52.3106728+01:00",
+  "ThuStart": "2015-06-15T18:25:52.3106728+02:00",
+  "ThuStop": "2008-06-20T18:25:52.3106728+02:00",
+  "FriStart": "2004-10-20T18:25:52.3106728+02:00",
+  "FriStop": "2021-06-17T18:25:52.3106728+02:00",
+  "SatStart": "2005-12-19T18:25:52.3106728+01:00",
+  "SatStop": "2006-10-21T18:25:52.3106728+02:00",
+  "SunStart": "1999-04-28T18:25:52.3106728+02:00",
+  "SunStop": "2003-11-19T18:25:52.3106728+01:00",
   "NonDates": [
-    "odio",
-    "ipsa"
+    "quia",
+    "quia"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 911,
+      "AlertLevel": 624,
+      "AlertTimeout": 963,
+      "Action": 702,
+      "DelegateTo": 623,
+      "ScriptId": 466,
+      "EmailTo": "kayley_auer@barrows.biz",
+      "SmsTo": "aut",
+      "ReplyTemplateIdCustomer": 18,
+      "ReplyTemplateIdUser": 588,
+      "ReplyTemplateIdCatmast": 518,
+      "ReplyTemplateIdEmail": 565,
+      "RtiCustomerSms": 652,
+      "ReplyTemplateIdUserSms": 970,
+      "ReplyTemplateIdCatmastSms": 344,
+      "ReplyTemplateIdSms": 870,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 101
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -139,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 760
     }
   }
 }

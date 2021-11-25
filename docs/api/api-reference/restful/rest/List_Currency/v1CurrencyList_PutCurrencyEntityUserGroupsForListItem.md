@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "White-Walter",
-    "ToolTip": "Voluptatem aut minus voluptatem porro et dolorem.",
-    "Deleted": false,
-    "Rank": 808,
-    "Type": "itaque",
-    "ColorBlock": 576,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "1999-12-03T15:05:43.4025101+01:00",
+    "Id": 412,
+    "Name": "Fahey, McKenzie and Schmeler",
+    "ToolTip": "Error facere quae quia suscipit veritatis.",
+    "Deleted": true,
+    "Rank": 342,
+    "Type": "quis",
+    "ColorBlock": 701,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2004-04-18T18:25:51.782332+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Stroman-Conn",
-        "ToolTip": "Earum accusamus.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "totam",
-        "ColorBlock": 444,
-        "IconHint": "dolor",
+        "Id": 796,
+        "Name": "Johns, Marvin and Jacobson",
+        "ToolTip": "Aliquam vel temporibus qui velit.",
+        "Deleted": false,
+        "Rank": 592,
+        "Type": "sed",
+        "ColorBlock": 523,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2011-06-25T15:05:43.4025101+02:00",
+        "LastChanged": "2016-10-26T18:25:51.782332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "soluta",
+        "ExtraInfo": "molestias",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Pedro Parker"
+        "FullName": "Rosalinda Effertz"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "vel",
+    "ExtraInfo": "eos",
+    "StyleHint": "voluptatum",
     "Hidden": true,
-    "FullName": "Eva Wuckert"
+    "FullName": "Lew Auer"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Schulist, Smitham and Rath",
-    "ToolTip": "Ad recusandae rem.",
+    "Id": 608,
+    "Name": "Jerde, Johnson and Gibson",
+    "ToolTip": "Voluptates dolores ea.",
     "Deleted": true,
-    "Rank": 773,
-    "Type": "accusantium",
-    "ColorBlock": 777,
-    "IconHint": "praesentium",
+    "Rank": 590,
+    "Type": "nobis",
+    "ColorBlock": 32,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2021-01-22T15:05:43.4045102+01:00",
+    "LastChanged": "2002-09-20T18:25:51.7852933+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Walter-Gibson",
-        "ToolTip": "Consequatur qui nihil.",
+        "Id": 967,
+        "Name": "Dooley Inc and Sons",
+        "ToolTip": "Quia delectus.",
         "Deleted": true,
-        "Rank": 394,
-        "Type": "nam",
-        "ColorBlock": 607,
+        "Rank": 390,
+        "Type": "consequuntur",
+        "ColorBlock": 166,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-11-30T15:05:43.4045102+01:00",
+        "LastChanged": "2000-07-05T18:25:51.7852933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Zachery Smith",
+        "ExtraInfo": "quo",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Savannah Bartoletti",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 186
+            "FieldType": "System.Int32",
+            "FieldLength": 380
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "neque",
+    "ExtraInfo": "ullam",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Bo Braun",
+    "FullName": "Graham Abbott",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 101
       }
     }
   }

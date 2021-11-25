@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Nienow, Parker and Stark",
-    "ToolTip": "Natus voluptate libero inventore debitis doloribus ut.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "amet",
-    "ColorBlock": 477,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2001-11-24T15:05:43.7171131+01:00",
+    "Id": 276,
+    "Name": "Torp Group",
+    "ToolTip": "Et ullam vel.",
+    "Deleted": true,
+    "Rank": 614,
+    "Type": "esse",
+    "ColorBlock": 252,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2002-11-07T18:25:52.1080185+01:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Bailey, Cummings and Haag",
-        "ToolTip": "Vel et nihil.",
+        "Id": 466,
+        "Name": "Schultz-Boyer",
+        "ToolTip": "Iure ut facere voluptate quod.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "non",
-        "ColorBlock": 173,
-        "IconHint": "molestias",
-        "Selected": false,
-        "LastChanged": "2000-12-17T15:05:43.7171131+01:00",
+        "Rank": 649,
+        "Type": "in",
+        "ColorBlock": 253,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "2004-03-26T18:25:52.1080185+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "iure",
+        "ExtraInfo": "rerum",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Cleve Reichert Sr."
+        "FullName": "Mrs. Lon Balistreri"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Lamar Koelpin"
+    "ExtraInfo": "quia",
+    "StyleHint": "tempore",
+    "Hidden": true,
+    "FullName": "Hillard Reilly"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Huel LLC",
-    "ToolTip": "Eum cumque rerum qui blanditiis et.",
-    "Deleted": true,
-    "Rank": 766,
-    "Type": "ducimus",
-    "ColorBlock": 194,
-    "IconHint": "expedita",
+    "Id": 599,
+    "Name": "Prosacco, Flatley and Rau",
+    "ToolTip": "Vero est.",
+    "Deleted": false,
+    "Rank": 396,
+    "Type": "fuga",
+    "ColorBlock": 662,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2015-08-25T15:05:43.7191229+02:00",
+    "LastChanged": "2012-08-26T18:25:52.1090197+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Zemlak, Labadie and Gottlieb",
-        "ToolTip": "Delectus sit sapiente corrupti.",
-        "Deleted": false,
-        "Rank": 911,
-        "Type": "maxime",
-        "ColorBlock": 298,
-        "IconHint": "repellat",
+        "Id": 460,
+        "Name": "Pollich-Denesik",
+        "ToolTip": "Non molestiae sit.",
+        "Deleted": true,
+        "Rank": 857,
+        "Type": "quis",
+        "ColorBlock": 963,
+        "IconHint": "dolorum",
         "Selected": true,
-        "LastChanged": "2004-02-29T15:05:43.7191229+01:00",
+        "LastChanged": "2002-12-15T18:25:52.1100188+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Hilario Watsica",
+        "ExtraInfo": "sit",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Myah Hagenes",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Sheila Gislason",
+    "ExtraInfo": "est",
+    "StyleHint": "molestias",
+    "Hidden": false,
+    "FullName": "Justine Sipes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

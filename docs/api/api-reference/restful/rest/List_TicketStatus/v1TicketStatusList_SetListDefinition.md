@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Nienow, Ritchie and McCullough",
-  "Tooltip": "optio",
+  "Id": 265,
+  "Name": "Weissnat Group",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "Rank": 181,
+  "Rank": 840,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Kris, Schinner and Huel",
-  "Tooltip": "blanditiis",
+  "Id": 720,
+  "Name": "Adams, Kuvalis and Abshire",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 672,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 115,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "repellat",
+  "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "reinvent world-class paradigms"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 393
     }
   }
 }

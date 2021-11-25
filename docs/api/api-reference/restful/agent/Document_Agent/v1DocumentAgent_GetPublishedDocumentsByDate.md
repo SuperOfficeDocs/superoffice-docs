@@ -1,9 +1,9 @@
 ---
-title: GetPublishedDocumentsByDate
+title: POST Agents/Document/GetPublishedDocumentsByDate
 id: v1DocumentAgent_GetPublishedDocumentsByDate
 ---
 
-# GetPublishedDocumentsByDate
+# POST Agents/Document/GetPublishedDocumentsByDate
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
@@ -94,15 +94,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 227,
+  "PersonId": 297,
   "IncludeProjectDocuments": false,
-  "StartTime": "2016-08-01T14:58:03.8064319+02:00",
-  "EndTime": "2018-02-10T14:58:03.8064319+01:00",
-  "Count": 786
+  "StartTime": "2006-11-13T18:28:48.7029564+01:00",
+  "EndTime": "2002-09-01T18:28:48.7029564+02:00",
+  "Count": 827
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 304,
-    "Attention": "amet",
-    "Header": "aliquid",
-    "Name": "Reynolds-Blanda",
-    "OurRef": "eos",
-    "YourRef": "odit",
-    "Description": "Optional asynchronous project",
-    "DocumentTemplate": "molestiae",
+    "DocumentId": 694,
+    "Attention": "est",
+    "Header": "perferendis",
+    "Name": "Reynolds Inc and Sons",
+    "OurRef": "deserunt",
+    "YourRef": "ipsum",
+    "Description": "Adaptive 24/7 leverage",
+    "DocumentTemplate": "incidunt",
     "IsPublished": false,
-    "PersonId": 217,
-    "PersonFullName": "Lonnie Hauck",
-    "AssociateFullName": "Vicenta Dooley",
-    "ContactId": 555,
-    "ContactName": "Kassulke, Turner and Heller",
-    "ProjectId": 240,
-    "ProjectName": "Torphy Group",
-    "AssociateId": 914,
-    "Snum": 484,
+    "PersonId": 578,
+    "PersonFullName": "Keagan Veum",
+    "AssociateFullName": "Melvin O'Connell",
+    "ContactId": 774,
+    "ContactName": "McCullough Group",
+    "ProjectId": 661,
+    "ProjectName": "Dibbert Inc and Sons",
+    "AssociateId": 774,
+    "Snum": 175,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 479
       }
     }
   }

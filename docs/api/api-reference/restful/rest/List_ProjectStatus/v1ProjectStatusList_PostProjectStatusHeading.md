@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 269,
-  "Name": "Stokes LLC",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 265,
-  "UdListDefinitionId": 257
+  "HeadingId": 880,
+  "Name": "Schowalter Group",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 110,
+  "UdListDefinitionId": 780
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 745,
-  "Name": "Runolfsdottir Group",
-  "Tooltip": "asperiores",
+  "HeadingId": 502,
+  "Name": "Ernser-Olson",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 962,
-  "UdListDefinitionId": 336,
+  "Rank": 429,
+  "UdListDefinitionId": 374,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldLength": 60
     }
   }
 }

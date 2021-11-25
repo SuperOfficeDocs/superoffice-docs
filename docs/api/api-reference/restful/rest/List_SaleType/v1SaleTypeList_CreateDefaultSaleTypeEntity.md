@@ -76,7 +76,7 @@ Response body: object
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,47 +84,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 313,
-  "Name": "Johnson Inc and Sons",
-  "Tooltip": "reiciendis",
-  "Rank": 38,
+  "SaleTypeId": 226,
+  "Name": "Abernathy, Jakubowski and Balistreri",
+  "Tooltip": "incidunt",
+  "Rank": 664,
   "DurationUnit": "Century",
-  "SaleDuration": 290,
-  "SaleTypeCatId": 478,
+  "SaleDuration": 275,
+  "SaleTypeCatId": 537,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 728,
-  "QuoteLinesTemplate": 463,
-  "ConfirmationLinesTemplate": 641,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 90,
+  "QuoteLinesTemplate": 106,
+  "ConfirmationLinesTemplate": 123,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 737,
-  "MinEarningPercent": 247,
-  "GroupQuoteLinesBy": 767,
-  "SortGroupLinesBy": 522,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 404,
+  "MinEarningPercent": 230,
+  "GroupQuoteLinesBy": 833,
+  "SortGroupLinesBy": 463,
   "Stages": [
     {
-      "Id": 43,
-      "Name": "Schimmel LLC",
-      "ToolTip": "Ut odio esse aspernatur dolor et.",
+      "Id": 17,
+      "Name": "Krajcik LLC",
+      "ToolTip": "Qui quod qui voluptas eum accusamus.",
       "Deleted": false,
-      "Rank": 527,
-      "Type": "repellat",
-      "ColorBlock": 310,
-      "IconHint": "voluptas",
+      "Rank": 308,
+      "Type": "vitae",
+      "ColorBlock": 186,
+      "IconHint": "fuga",
       "Selected": true,
-      "LastChanged": "2005-04-08T15:05:43.7891177+02:00",
+      "LastChanged": "2006-04-15T18:25:52.1820193+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "laboriosam",
-      "Hidden": false,
-      "FullName": "Friedrich Conroy",
+      "ExtraInfo": "maiores",
+      "StyleHint": "architecto",
+      "Hidden": true,
+      "FullName": "Kylie Schuppe",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 726
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 201
     }
   }
 }

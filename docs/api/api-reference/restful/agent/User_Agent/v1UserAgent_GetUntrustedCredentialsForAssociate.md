@@ -1,9 +1,9 @@
 ---
-title: GetUntrustedCredentialsForAssociate
+title: POST Agents/User/GetUntrustedCredentialsForAssociate
 id: v1UserAgent_GetUntrustedCredentialsForAssociate
 ---
 
-# GetUntrustedCredentialsForAssociate
+# POST Agents/User/GetUntrustedCredentialsForAssociate
 
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
@@ -82,12 +82,12 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 883,
-  "Type": "est"
+  "AssociateId": 502,
+  "Type": "similique"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2011-10-30T14:58:05.4522936+01:00",
-    "ValidTo": "2001-02-27T14:58:05.4522936+01:00",
-    "Comment": "ut",
-    "SecretValue": "blanditiis",
-    "PublicValue": "ullam",
-    "IsActive": false,
+    "ValidFrom": "1996-06-23T18:28:50.453412+02:00",
+    "ValidTo": "1995-07-10T18:28:50.453412+02:00",
+    "Comment": "iusto",
+    "SecretValue": "facilis",
+    "PublicValue": "dolorum",
+    "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "reinvent granular supply-chains"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldLength": 145
       }
     }
   }

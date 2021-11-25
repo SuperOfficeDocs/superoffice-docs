@@ -1,9 +1,9 @@
 ---
-title: GetConnectionStartupResponse
+title: POST Agents/Quote/GetConnectionStartupResponse
 id: v1QuoteAgent_GetConnectionStartupResponse
 ---
 
-# GetConnectionStartupResponse
+# POST Agents/Quote/GetConnectionStartupResponse
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 496
+  "QuoteConnectionId": 344
 }
 ```
 
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "ea",
-  "TechExplanation": "quaerat",
-  "ErrorCode": "ab",
+  "UserExplanation": "sed",
+  "TechExplanation": "ut",
+  "ErrorCode": "amet",
   "Changes": {
     "AddedRecords": [
       {},
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 721
       }
     }
   },
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

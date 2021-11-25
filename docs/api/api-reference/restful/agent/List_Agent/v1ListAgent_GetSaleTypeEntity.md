@@ -1,9 +1,9 @@
 ---
-title: GetSaleTypeEntity
+title: POST Agents/List/GetSaleTypeEntity
 id: v1ListAgent_GetSaleTypeEntity
 ---
 
-# GetSaleTypeEntity
+# POST Agents/List/GetSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/GetSaleTypeEntity
@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=914
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=904
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ Response body: object
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -96,56 +96,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 714,
-  "Name": "Stamm, Hills and Marks",
-  "Tooltip": "qui",
-  "Rank": 413,
+  "SaleTypeId": 330,
+  "Name": "Luettgen LLC",
+  "Tooltip": "architecto",
+  "Rank": 717,
   "DurationUnit": "Century",
-  "SaleDuration": 734,
-  "SaleTypeCatId": 95,
+  "SaleDuration": 594,
+  "SaleTypeCatId": 339,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 946,
-  "QuoteLinesTemplate": 92,
-  "ConfirmationLinesTemplate": 715,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 716,
+  "QuoteLinesTemplate": 452,
+  "ConfirmationLinesTemplate": 557,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 404,
-  "MinEarningPercent": 750,
-  "GroupQuoteLinesBy": 552,
-  "SortGroupLinesBy": 72,
+  "MaxDiscountPercent": 924,
+  "MinEarningPercent": 705,
+  "GroupQuoteLinesBy": 286,
+  "SortGroupLinesBy": 961,
   "Stages": [
     {
-      "Id": 640,
-      "Name": "Wolf LLC",
-      "ToolTip": "Quidem eligendi quisquam praesentium quibusdam natus.",
-      "Deleted": false,
-      "Rank": 703,
-      "Type": "in",
-      "ColorBlock": 276,
-      "IconHint": "illum",
+      "Id": 99,
+      "Name": "Treutel-Powlowski",
+      "ToolTip": "Voluptas quaerat.",
+      "Deleted": true,
+      "Rank": 647,
+      "Type": "eum",
+      "ColorBlock": 951,
+      "IconHint": "sit",
       "Selected": true,
-      "LastChanged": "1997-11-27T14:58:04.3694604+01:00",
+      "LastChanged": "1997-12-24T18:28:49.2601251+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "debitis",
-      "Hidden": true,
-      "FullName": "Roxanne Goodwin Jr.",
+      "ExtraInfo": "quis",
+      "StyleHint": "nisi",
+      "Hidden": false,
+      "FullName": "Demario Kessler",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "iterate out-of-the-box functionalities"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldType": "System.String",
+          "FieldLength": 304
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetCRMScriptByUniqueIdentifier
+title: POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 id: v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier
 ---
 
-# GetCRMScriptByUniqueIdentifier
+# POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rerum"
+  "UniqueIdentifier": "soluta"
 }
 ```
 
@@ -102,16 +102,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Pfannerstill Group",
-  "Description": "Up-sized encompassing ability",
-  "IncludeId": "quae",
-  "Source": "iure",
-  "Registered": "2009-05-10T14:58:03.7464599+02:00",
-  "RegisteredBy": "at",
-  "Updated": "1998-01-13T14:58:03.7464599+01:00",
-  "UpdatedBy": "ut",
-  "Path": "vel",
+  "UniqueIdentifier": "vel",
+  "Name": "McClure-Murphy",
+  "Description": "Future-proofed 24/7 concept",
+  "IncludeId": "ea",
+  "Source": "corporis",
+  "Registered": "2017-02-07T18:28:48.6319279+01:00",
+  "RegisteredBy": "autem",
+  "Updated": "2013-09-04T18:28:48.6319279+02:00",
+  "UpdatedBy": "accusamus",
+  "Path": "enim",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailAddress
+title: POST Agents/EMail/CreateDefaultEMailAddress
 id: v1EMailAgent_CreateDefaultEMailAddress
 ---
 
-# CreateDefaultEMailAddress
+# POST Agents/EMail/CreateDefaultEMailAddress
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -74,21 +74,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 58,
-  "ContactName": "Huels LLC",
-  "PersonId": 366,
-  "PersonName": "Cormier LLC",
-  "AssociateId": 131,
-  "Address": "aut",
-  "EmailId": 183,
+  "ContactId": 620,
+  "ContactName": "Braun Inc and Sons",
+  "PersonId": 74,
+  "PersonName": "Torphy-Emmerich",
+  "AssociateId": 912,
+  "Address": "iste",
+  "EmailId": 64,
   "DuplicatePersonIds": [
-    995,
-    803
+    933,
+    485
   ],
-  "Name": "Ebert-Huels",
+  "Name": "Brakus-Windler",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "brand turn-key e-commerce"
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

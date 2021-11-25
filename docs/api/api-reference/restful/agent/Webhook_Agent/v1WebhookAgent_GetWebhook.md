@@ -1,9 +1,9 @@
 ---
-title: GetWebhook
+title: POST Agents/Webhook/GetWebhook
 id: v1WebhookAgent_GetWebhook
 ---
 
-# GetWebhook
+# POST Agents/Webhook/GetWebhook
 
 ```http
 POST /api/v1/Agents/Webhook/GetWebhook
@@ -27,7 +27,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=819
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=935
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ Response body: object
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 513,
-  "Name": "Zieme, Lubowitz and Kilback",
+  "WebhookId": 583,
+  "Name": "Robel, West and Connelly",
   "Events": [
-    "soluta",
-    "vitae"
+    "consectetur",
+    "dolorem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "inventore",
+  "Secret": "harum",
   "State": "Active",
-  "Type": "molestiae",
+  "Type": "tempora",
   "Headers": {
-    "Headers1": "dolores",
-    "Headers2": "id"
+    "Headers1": "labore",
+    "Headers2": "earum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-11-28T14:58:05.6140553+01:00",
+  "Registered": "2014-09-01T18:28:50.6114149+02:00",
   "RegisteredAssociate": {
-    "AssociateId": 581,
-    "Name": "Rau-Jones",
-    "PersonId": 12,
-    "Rank": 924,
-    "Tooltip": "error",
+    "AssociateId": 370,
+    "Name": "Corkery-Thompson",
+    "PersonId": 414,
+    "Rank": 536,
+    "Tooltip": "dolorem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 316,
-    "FullName": "Sydni Ward",
-    "FormalName": "Pfannerstill Group",
-    "Deleted": false,
-    "EjUserId": 400,
-    "UserName": "Reichel Inc and Sons",
+    "GroupIdx": 444,
+    "FullName": "Asa Abshire",
+    "FormalName": "Cummerata, Blanda and Mertz",
+    "Deleted": true,
+    "EjUserId": 153,
+    "UserName": "Paucek, Bradtke and McDermott",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,25 +129,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldType": "System.Int32",
+        "FieldLength": 446
       }
     }
   },
-  "Updated": "2009-03-19T14:58:05.6140553+01:00",
+  "Updated": "2020-09-20T18:28:50.6114149+02:00",
   "UpdatedAssociate": {
-    "AssociateId": 437,
-    "Name": "Jones, Morar and Pagac",
-    "PersonId": 193,
-    "Rank": 760,
-    "Tooltip": "tempora",
+    "AssociateId": 513,
+    "Name": "Stark LLC",
+    "PersonId": 752,
+    "Rank": 100,
+    "Tooltip": "cupiditate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 796,
-    "FullName": "Woodrow Murray",
-    "FormalName": "Stark LLC",
-    "Deleted": true,
-    "EjUserId": 134,
-    "UserName": "Champlin Inc and Sons",
+    "GroupIdx": 835,
+    "FullName": "Hans Deckow",
+    "FormalName": "Bergstrom-Braun",
+    "Deleted": false,
+    "EjUserId": 139,
+    "UserName": "Lakin-Abshire",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldLength": 102
       }
     }
   }

@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -73,17 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ducimus",
-    "DocumentId": 963,
-    "VersionId": "molestias",
-    "CheckedInDate": "2005-12-20T15:05:42.1626354+01:00",
-    "CheckedInByName": "Dach-Gerlach",
-    "CheckedInByAssociateId": 725,
-    "Description": "Grass-roots bifurcated hub",
-    "DisplayText": "omnis",
+    "ExternalReference": "illum",
+    "DocumentId": 55,
+    "VersionId": "sapiente",
+    "CheckedInDate": "2012-05-29T18:25:50.5276242+02:00",
+    "CheckedInByName": "Reinger-Sauer",
+    "CheckedInByAssociateId": 858,
+    "Description": "Seamless disintermediate strategy",
+    "DisplayText": "aut",
     "ExtraFields": [
-      "ab",
-      "reiciendis"
+      "inventore",
+      "a"
     ]
   }
 ]

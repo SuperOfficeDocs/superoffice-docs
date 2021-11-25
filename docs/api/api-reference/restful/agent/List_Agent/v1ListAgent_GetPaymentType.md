@@ -1,9 +1,9 @@
 ---
-title: GetPaymentType
+title: POST Agents/List/GetPaymentType
 id: v1ListAgent_GetPaymentType
 ---
 
-# GetPaymentType
+# POST Agents/List/GetPaymentType
 
 ```http
 POST /api/v1/Agents/List/GetPaymentType
@@ -25,7 +25,7 @@ Gets a PaymentType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=61
+POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=878
 POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ Response body: object
 POST /api/v1/Agents/List/GetPaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 768,
-  "Value": "vel",
-  "Tooltip": "ut",
+  "Id": 825,
+  "Value": "recusandae",
+  "Tooltip": "optio",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldLength": 257
     }
   }
 }

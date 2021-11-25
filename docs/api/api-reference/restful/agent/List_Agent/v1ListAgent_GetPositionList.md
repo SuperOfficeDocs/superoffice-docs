@@ -1,9 +1,9 @@
 ---
-title: GetPositionList
+title: POST Agents/List/GetPositionList
 id: v1ListAgent_GetPositionList
 ---
 
-# GetPositionList
+# POST Agents/List/GetPositionList
 
 ```http
 POST /api/v1/Agents/List/GetPositionList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Value": "enim",
-    "Tooltip": "culpa",
+    "Id": 705,
+    "Value": "ut",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   },
   {
-    "Id": 395,
-    "Value": "enim",
-    "Tooltip": "culpa",
+    "Id": 705,
+    "Value": "ut",
+    "Tooltip": "sed",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

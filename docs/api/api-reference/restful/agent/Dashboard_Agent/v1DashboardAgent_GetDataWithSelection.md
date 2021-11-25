@@ -1,9 +1,9 @@
 ---
-title: GetDataWithSelection
+title: POST Agents/Dashboard/GetDataWithSelection
 id: v1DashboardAgent_GetDataWithSelection
 ---
 
-# GetDataWithSelection
+# POST Agents/Dashboard/GetDataWithSelection
 
 ```http
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
@@ -74,13 +74,13 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 475,
-  "SelectionId": 6,
-  "Restrictions": "accusantium"
+  "DashboardTileId": 108,
+  "SelectionId": 953,
+  "Restrictions": "et"
 }
 ```
 
@@ -92,23 +92,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bergstrom Inc and Sons",
-        "DisplayTooltip": "dolorem",
-        "DisplayType": "blanditiis",
+        "DisplayName": "Hartmann-Jacobi",
+        "DisplayTooltip": "quia",
+        "DisplayType": "omnis",
         "CanOrderBy": false,
-        "Name": "Buckridge LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "minus",
-        "RestrictionListName": "Huel-Greenholt",
-        "IsVisible": true,
-        "ExtraInfo": "eos",
-        "Width": "vel",
-        "IconHint": "ipsa",
-        "HeadingIconHint": "dolorem"
+        "Name": "O'Keefe, Labadie and Effertz",
+        "CanRestrictBy": false,
+        "RestrictionType": "ex",
+        "RestrictionListName": "Hoeger, Ernser and Lubowitz",
+        "IsVisible": false,
+        "ExtraInfo": "quo",
+        "Width": "soluta",
+        "IconHint": "ea",
+        "HeadingIconHint": "corrupti"
       }
     ],
     "Result": {
-      "RowCount": 374,
+      "RowCount": 191,
       "Rows": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -129,23 +129,23 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bergstrom Inc and Sons",
-        "DisplayTooltip": "dolorem",
-        "DisplayType": "blanditiis",
+        "DisplayName": "Hartmann-Jacobi",
+        "DisplayTooltip": "quia",
+        "DisplayType": "omnis",
         "CanOrderBy": false,
-        "Name": "Buckridge LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "minus",
-        "RestrictionListName": "Huel-Greenholt",
-        "IsVisible": true,
-        "ExtraInfo": "eos",
-        "Width": "vel",
-        "IconHint": "ipsa",
-        "HeadingIconHint": "dolorem"
+        "Name": "O'Keefe, Labadie and Effertz",
+        "CanRestrictBy": false,
+        "RestrictionType": "ex",
+        "RestrictionListName": "Hoeger, Ernser and Lubowitz",
+        "IsVisible": false,
+        "ExtraInfo": "quo",
+        "Width": "soluta",
+        "IconHint": "ea",
+        "HeadingIconHint": "corrupti"
       }
     ],
     "Result": {
-      "RowCount": 374,
+      "RowCount": 191,
       "Rows": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }

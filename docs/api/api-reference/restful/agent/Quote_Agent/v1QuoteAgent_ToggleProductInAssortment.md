@@ -1,9 +1,9 @@
 ---
-title: ToggleProductInAssortment
+title: POST Agents/Quote/ToggleProductInAssortment
 id: v1QuoteAgent_ToggleProductInAssortment
 ---
 
-# ToggleProductInAssortment
+# POST Agents/Quote/ToggleProductInAssortment
 
 ```http
 POST /api/v1/Agents/Quote/ToggleProductInAssortment

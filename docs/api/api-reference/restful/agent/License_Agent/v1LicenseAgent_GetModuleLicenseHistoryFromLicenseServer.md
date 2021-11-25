@@ -1,9 +1,9 @@
 ---
-title: GetModuleLicenseHistoryFromLicenseServer
+title: POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
 id: v1LicenseAgent_GetModuleLicenseHistoryFromLicenseServer
 ---
 
-# GetModuleLicenseHistoryFromLicenseServer
+# POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
 
 ```http
 POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer
@@ -69,7 +69,7 @@ Response body: string
 POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "AccumulatedNextCheckDate": "2012-09-02T14:58:04.3254605+02:00"
+    "AccumulatedNextCheckDate": "1999-01-24T18:28:49.2361225+01:00"
   },
   "ModuleLicense": {
     "New": {},
     "Current": {},
-    "NumberOfLicensesInUse": 418,
-    "NumberOfLicensesFree": 399,
-    "NumberOfLicensesAdded": 934,
-    "NumberOfLicensesNewTotal": 524,
-    "NumberOfLicensesNewFree": 525,
-    "NumberOfLicensesTotal": 562
+    "NumberOfLicensesInUse": 961,
+    "NumberOfLicensesFree": 213,
+    "NumberOfLicensesAdded": 295,
+    "NumberOfLicensesNewTotal": 78,
+    "NumberOfLicensesNewFree": 609,
+    "NumberOfLicensesTotal": 284
   }
 }
 ```
@@ -101,5 +101,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusamus"
+"voluptatibus"
 ```

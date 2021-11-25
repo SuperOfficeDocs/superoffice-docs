@@ -93,15 +93,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Ullrich LLC",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 967,
-  "IsCustomList": true,
+  "Id": 519,
+  "Name": "Hayes-Swaniawski",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "Rank": 970,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "natus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,16 +111,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Davis-Cronin",
-  "Tooltip": "ut",
+  "Id": 509,
+  "Name": "Lesch, Brakus and Hoppe",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 633,
-  "IsCustomList": true,
+  "Rank": 847,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   }
 }

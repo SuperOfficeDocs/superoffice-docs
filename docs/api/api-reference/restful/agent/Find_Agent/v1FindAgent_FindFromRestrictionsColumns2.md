@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictionsColumns2
+title: POST Agents/Find/FindFromRestrictionsColumns2
 id: v1FindAgent_FindFromRestrictionsColumns2
 ---
 
-# FindFromRestrictionsColumns2
+# POST Agents/Find/FindFromRestrictionsColumns2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
@@ -170,15 +170,15 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "eius",
-  "ProviderName": "Klocko-Sauer",
-  "DesiredColumns": "beatae",
-  "PageSize": 959,
-  "PageNumber": 514
+  "Restrictions": "velit",
+  "ProviderName": "Cartwright, Nader and Jast",
+  "DesiredColumns": "dolores",
+  "PageSize": 165,
+  "PageNumber": 147
 }
 ```
 
@@ -189,34 +189,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden, Ferry and McKenzie",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "porro",
+      "DisplayName": "Bailey LLC",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "fugit",
       "CanOrderBy": false,
-      "Name": "Schultz, Cormier and Feest",
+      "Name": "Reichert, McLaughlin and Ryan",
       "CanRestrictBy": true,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Feil, Kihn and Kling",
-      "IsVisible": false,
-      "ExtraInfo": "amet",
-      "Width": "rem",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "amet"
+      "RestrictionType": "reprehenderit",
+      "RestrictionListName": "Labadie-Batz",
+      "IsVisible": true,
+      "ExtraInfo": "tenetur",
+      "Width": "commodi",
+      "IconHint": "repellat",
+      "HeadingIconHint": "autem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Green, Kuvalis and Kovacek",
-      "PrimaryKey": 137,
+      "EntityName": "Schaden-Herman",
+      "PrimaryKey": 803,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iste",
-          "TooltipHint": "quaerat",
-          "LinkHint": "libero"
+          "DisplayValue": "earum",
+          "TooltipHint": "libero",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "quia",
+      "LinkHint": "dolor",
+      "StyleHint": "velit",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -225,12 +225,12 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 807
         }
       }
     }
   ],
-  "RowCount": 332,
+  "RowCount": 994,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -239,10 +239,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "harness 24/7 web-readiness"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   }
 }

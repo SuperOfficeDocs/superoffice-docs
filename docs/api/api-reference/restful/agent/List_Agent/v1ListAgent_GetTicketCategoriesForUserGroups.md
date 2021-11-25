@@ -1,9 +1,9 @@
 ---
-title: GetTicketCategoriesForUserGroups
+title: POST Agents/List/GetTicketCategoriesForUserGroups
 id: v1ListAgent_GetTicketCategoriesForUserGroups
 ---
 
-# GetTicketCategoriesForUserGroups
+# POST Agents/List/GetTicketCategoriesForUserGroups
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
@@ -84,13 +84,13 @@ Response body: array
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    172,
-    12
+    338,
+    577
   ]
 }
 ```
@@ -101,47 +101,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Hansen-Doyle",
-    "ToolTip": "Illum voluptate dolorum omnis.",
+    "Id": 565,
+    "Name": "Carroll-Kerluke",
+    "ToolTip": "Sint incidunt aperiam et.",
     "Deleted": false,
-    "Rank": 483,
-    "Type": "unde",
+    "Rank": 166,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "O'Connell Group",
-        "ToolTip": "Distinctio laborum sed voluptatum.",
+        "Id": 849,
+        "Name": "Predovic LLC",
+        "ToolTip": "Numquam deserunt culpa.",
         "Deleted": false,
-        "Rank": 477,
-        "Type": "magni",
+        "Rank": 67,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 491,
-        "ExtraInfo": "autem",
-        "StyleHint": "explicabo",
-        "FullName": "Petra Kunze",
+        "IconHint": "incidunt",
+        "ColorBlock": 11,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "et",
+        "FullName": "Oma Nicolas",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "implement leading-edge interfaces"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 385
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 803,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "reiciendis",
-    "FullName": "Silas Kirlin",
+    "IconHint": "asperiores",
+    "ColorBlock": 970,
+    "ExtraInfo": "dicta",
+    "StyleHint": "non",
+    "FullName": "Vickie Metz",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

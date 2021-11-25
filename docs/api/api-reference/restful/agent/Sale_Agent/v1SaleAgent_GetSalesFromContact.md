@@ -1,9 +1,9 @@
 ---
-title: GetSalesFromContact
+title: POST Agents/Sale/GetSalesFromContact
 id: v1SaleAgent_GetSalesFromContact
 ---
 
-# GetSalesFromContact
+# POST Agents/Sale/GetSalesFromContact
 
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromContact
@@ -98,12 +98,12 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 637,
-  "OnlyOpenSales": true
+  "ContactId": 532,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -113,31 +113,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Durgan Inc and Sons",
-    "SaleDate": "2008-01-10T14:58:05.1936292+01:00",
-    "SaleId": 703,
-    "Probability": 412,
-    "Title": "non",
-    "Amount": 11508.047999999999,
-    "Currency": "aliquam",
-    "ProjectName": "Nikolaus LLC",
-    "AssociateFullName": "Jamil Brown",
-    "Description": "Self-enabling methodical methodology",
+    "ContactName": "Grant-Larson",
+    "SaleDate": "2003-04-04T18:28:50.1824417+02:00",
+    "SaleId": 250,
+    "Probability": 739,
+    "Title": "debitis",
+    "Amount": 18531.342,
+    "Currency": "et",
+    "ProjectName": "Cronin-Greenfelder",
+    "AssociateFullName": "Lacey Harber",
+    "Description": "Centralized asynchronous conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 14074.794,
-    "ProjectId": 318,
-    "EarningPercent": 28951.892,
-    "Earning": 18264.952,
-    "ContactId": 154,
-    "AssociateId": 172,
-    "PersonId": 276,
-    "SaleTypeId": 238,
-    "SaleTypeName": "Von, Conroy and Mosciski",
-    "PersonFullName": "Myah Simonis",
+    "WeightedAmount": 18415.384,
+    "ProjectId": 970,
+    "EarningPercent": 1670.422,
+    "Earning": 8549.552,
+    "ContactId": 593,
+    "AssociateId": 962,
+    "PersonId": 123,
+    "SaleTypeId": 622,
+    "SaleTypeName": "Berge LLC",
+    "PersonFullName": "Bethel Connelly I",
     "Completed": "Completed",
-    "ActiveErpLinks": 647,
-    "NextDueDate": "2002-07-03T14:58:05.1936292+02:00",
-    "Number": "553206",
+    "ActiveErpLinks": 821,
+    "NextDueDate": "2008-06-07T18:28:50.1824417+02:00",
+    "Number": "218495",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 533
       }
     }
   }

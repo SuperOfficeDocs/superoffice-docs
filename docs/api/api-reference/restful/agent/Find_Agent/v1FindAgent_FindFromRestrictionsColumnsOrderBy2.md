@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictionsColumnsOrderBy2
+title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
 id: v1FindAgent_FindFromRestrictionsColumnsOrderBy2
 ---
 
-# FindFromRestrictionsColumnsOrderBy2
+# POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
@@ -171,16 +171,16 @@ Response body: object
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "animi",
-  "ProviderName": "Carroll Group",
-  "DesiredColumns": "sunt",
-  "OrderBy": "debitis",
-  "PageSize": 696,
-  "PageNumber": 312
+  "Restrictions": "distinctio",
+  "ProviderName": "Gleichner-Littel",
+  "DesiredColumns": "facere",
+  "OrderBy": "fuga",
+  "PageSize": 922,
+  "PageNumber": 521
 }
 ```
 
@@ -191,48 +191,48 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rogahn Group",
-      "DisplayTooltip": "eius",
-      "DisplayType": "explicabo",
+      "DisplayName": "Kozey-Mante",
+      "DisplayTooltip": "sapiente",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Tillman, Berge and Goodwin",
+      "Name": "Windler LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Kunze-Altenwerth",
+      "RestrictionType": "non",
+      "RestrictionListName": "Stamm, Morar and Morissette",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "ea",
-      "IconHint": "quia",
-      "HeadingIconHint": "esse"
+      "ExtraInfo": "nobis",
+      "Width": "laudantium",
+      "IconHint": "sed",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Douglas, Monahan and Harber",
-      "PrimaryKey": 469,
+      "EntityName": "Witting Inc and Sons",
+      "PrimaryKey": 150,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "nulla",
-          "LinkHint": "atque"
+          "DisplayValue": "itaque",
+          "TooltipHint": "voluptas",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "consequuntur",
-      "StyleHint": "dignissimos",
+      "LinkHint": "qui",
+      "StyleHint": "dolores",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "benchmark ubiquitous paradigms"
           },
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 126
         }
       }
     }
   ],
-  "RowCount": 70,
+  "RowCount": 390,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -243,8 +243,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 27
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

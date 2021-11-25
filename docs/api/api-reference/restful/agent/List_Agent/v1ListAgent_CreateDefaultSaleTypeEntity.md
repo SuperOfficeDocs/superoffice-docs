@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSaleTypeEntity
+title: POST Agents/List/CreateDefaultSaleTypeEntity
 id: v1ListAgent_CreateDefaultSaleTypeEntity
 ---
 
-# CreateDefaultSaleTypeEntity
+# POST Agents/List/CreateDefaultSaleTypeEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -84,56 +84,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 266,
-  "Name": "Bahringer, Murray and Friesen",
-  "Tooltip": "veritatis",
-  "Rank": 120,
+  "SaleTypeId": 609,
+  "Name": "Volkman Inc and Sons",
+  "Tooltip": "ipsam",
+  "Rank": 55,
   "DurationUnit": "Century",
-  "SaleDuration": 675,
-  "SaleTypeCatId": 16,
-  "Deleted": false,
+  "SaleDuration": 899,
+  "SaleTypeCatId": 501,
+  "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 883,
-  "QuoteLinesTemplate": 535,
-  "ConfirmationLinesTemplate": 96,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 213,
-  "MinEarningPercent": 755,
-  "GroupQuoteLinesBy": 1001,
-  "SortGroupLinesBy": 38,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 316,
+  "QuoteLinesTemplate": 163,
+  "ConfirmationLinesTemplate": 513,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 968,
+  "MinEarningPercent": 405,
+  "GroupQuoteLinesBy": 452,
+  "SortGroupLinesBy": 919,
   "Stages": [
     {
-      "Id": 749,
-      "Name": "Cruickshank-Haag",
-      "ToolTip": "Sint vitae non.",
+      "Id": 364,
+      "Name": "Morissette, Hegmann and Kertzmann",
+      "ToolTip": "Doloribus laboriosam et.",
       "Deleted": true,
-      "Rank": 434,
-      "Type": "magni",
-      "ColorBlock": 77,
-      "IconHint": "autem",
-      "Selected": true,
-      "LastChanged": "1995-09-27T14:58:04.477432+02:00",
+      "Rank": 895,
+      "Type": "nulla",
+      "ColorBlock": 559,
+      "IconHint": "accusantium",
+      "Selected": false,
+      "LastChanged": "2000-05-06T18:28:49.4510874+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "itaque",
-      "StyleHint": "minus",
-      "Hidden": true,
-      "FullName": "Alysson Nikolaus",
+      "ExtraInfo": "adipisci",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Augustus O'Reilly",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "utilize extensible synergies"
           },
-          "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldType": "System.Int32",
+          "FieldLength": 805
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 800
     }
   }
 }

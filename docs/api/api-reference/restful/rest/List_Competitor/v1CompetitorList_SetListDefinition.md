@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Zulauf-Roob",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 437,
+  "Id": 25,
+  "Name": "Green LLC",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 536,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Leuschke-Legros",
-  "Tooltip": "vel",
+  "Id": 522,
+  "Name": "Purdy-Abbott",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "Rank": 686,
-  "IsCustomList": false,
+  "Rank": 761,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 653
     }
   }
 }

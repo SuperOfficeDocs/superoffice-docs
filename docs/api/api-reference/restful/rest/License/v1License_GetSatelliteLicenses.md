@@ -61,7 +61,7 @@ Response body: array
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -70,23 +70,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Larson LLC",
-    "Description": "Team-oriented encompassing policy",
+    "Name": "Fadel, Sporer and Jacobs",
+    "Description": "Configurable mobile array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 556,
-        "Tooltip": "ex",
+        "Total": 905,
+        "Tooltip": "in",
         "CanAssign": true,
-        "Free": 937,
-        "InUse": 182,
+        "Free": 448,
+        "InUse": 257,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 246,
-        "Name": "Fay Inc and Sons",
-        "Description": "Managed composite archive",
-        "PrerequisiteModuleName": "Satterfield LLC",
-        "SortOrder": 721,
+        "ModuleLicenseId": 658,
+        "Name": "Gulgowski LLC",
+        "Description": "De-engineered dedicated middleware",
+        "PrerequisiteModuleName": "Wolff Inc and Sons",
+        "SortOrder": 291,
+        "ExtraFlags": 366,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -95,7 +96,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 199
           }
         }
       }
@@ -103,18 +104,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 164,
-        "Tooltip": "ab",
+        "Total": 247,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 926,
-        "InUse": 856,
-        "IsHidden": false,
+        "Free": 725,
+        "InUse": 180,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 639,
-        "Name": "Price, Daniel and Hane",
-        "Description": "Synergistic solution-oriented instruction set",
-        "PrerequisiteModuleName": "Wunsch Inc and Sons",
-        "SortOrder": 581,
+        "ModuleLicenseId": 688,
+        "Name": "Lehner, Hamill and Leffler",
+        "Description": "Cross-platform encompassing moratorium",
+        "PrerequisiteModuleName": "Gerlach, Roberts and Hackett",
+        "SortOrder": 699,
+        "ExtraFlags": 889,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -123,7 +125,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 687
+            "FieldLength": 427
           }
         }
       }
@@ -138,29 +140,30 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   },
   {
-    "Name": "Larson LLC",
-    "Description": "Team-oriented encompassing policy",
+    "Name": "Fadel, Sporer and Jacobs",
+    "Description": "Configurable mobile array",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 556,
-        "Tooltip": "ex",
+        "Total": 905,
+        "Tooltip": "in",
         "CanAssign": true,
-        "Free": 937,
-        "InUse": 182,
+        "Free": 448,
+        "InUse": 257,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 246,
-        "Name": "Fay Inc and Sons",
-        "Description": "Managed composite archive",
-        "PrerequisiteModuleName": "Satterfield LLC",
-        "SortOrder": 721,
+        "ModuleLicenseId": 658,
+        "Name": "Gulgowski LLC",
+        "Description": "De-engineered dedicated middleware",
+        "PrerequisiteModuleName": "Wolff Inc and Sons",
+        "SortOrder": 291,
+        "ExtraFlags": 366,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -169,7 +172,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 199
           }
         }
       }
@@ -177,18 +180,19 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 164,
-        "Tooltip": "ab",
+        "Total": 247,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 926,
-        "InUse": 856,
-        "IsHidden": false,
+        "Free": 725,
+        "InUse": 180,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 639,
-        "Name": "Price, Daniel and Hane",
-        "Description": "Synergistic solution-oriented instruction set",
-        "PrerequisiteModuleName": "Wunsch Inc and Sons",
-        "SortOrder": 581,
+        "ModuleLicenseId": 688,
+        "Name": "Lehner, Hamill and Leffler",
+        "Description": "Cross-platform encompassing moratorium",
+        "PrerequisiteModuleName": "Gerlach, Roberts and Hackett",
+        "SortOrder": 699,
+        "ExtraFlags": 889,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -197,7 +201,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 687
+            "FieldLength": 427
           }
         }
       }
@@ -212,8 +216,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

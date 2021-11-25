@@ -87,7 +87,7 @@ Response body: array
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 432,
-    "ColumnId": 654,
-    "FieldDefault": "ea",
-    "FieldHeight": 622,
-    "FieldLabel": "nihil",
-    "FieldLeft": 331,
-    "FieldTop": 262,
+    "UDefFieldId": 635,
+    "ColumnId": 717,
+    "FieldDefault": "aut",
+    "FieldHeight": 379,
+    "FieldLabel": "qui",
+    "FieldLeft": 835,
+    "FieldTop": 317,
     "FieldType": "Checkbox",
-    "FieldWidth": 45,
-    "FormatMask": "modi",
+    "FieldWidth": 973,
+    "FormatMask": "quia",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 927,
-    "LabelLeft": 814,
-    "LabelTop": 161,
-    "LabelWidth": 74,
-    "LastVersionId": 724,
-    "ListTableId": 96,
+    "IsIndexed": false,
+    "LabelHeight": 400,
+    "LabelLeft": 931,
+    "LabelTop": 578,
+    "LabelWidth": 595,
+    "LastVersionId": 62,
+    "ListTableId": 158,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 69,
-    "ProgId": "quo",
-    "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 184,
-    "TextLength": 533,
-    "Tooltip": "et",
-    "UdefIdentity": 146,
-    "UDListDefinitionId": 232,
+    "Page1LineNo": 618,
+    "ProgId": "qui",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptate",
+    "TabOrder": 567,
+    "TextLength": 544,
+    "Tooltip": "inventore",
+    "UdefIdentity": 759,
+    "UDListDefinitionId": 443,
     "Justification": "Center",
-    "Version": 255,
-    "TemplateVariableName": "Parisian LLC",
+    "Version": 570,
+    "TemplateVariableName": "Hilll Group",
     "HasBeenPublished": true,
-    "MdoListName": "Rowe-Kilback",
+    "MdoListName": "Lakin-Dickens",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 388
       }
     }
   }

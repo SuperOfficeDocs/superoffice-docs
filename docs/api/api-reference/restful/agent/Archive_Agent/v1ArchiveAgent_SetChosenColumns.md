@@ -1,9 +1,9 @@
 ---
-title: SetChosenColumns
+title: POST Agents/Archive/SetChosenColumns
 id: v1ArchiveAgent_SetChosenColumns
 ---
 
-# SetChosenColumns
+# POST Agents/Archive/SetChosenColumns
 
 ```http
 POST /api/v1/Agents/Archive/SetChosenColumns

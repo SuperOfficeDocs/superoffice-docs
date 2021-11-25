@@ -1,9 +1,9 @@
 ---
-title: DeleteReportLabelLayoutEntity
+title: POST Agents/Report/DeleteReportLabelLayoutEntity
 id: v1ReportAgent_DeleteReportLabelLayoutEntity
 ---
 
-# DeleteReportLabelLayoutEntity
+# POST Agents/Report/DeleteReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity
@@ -24,7 +24,7 @@ Deletes the ReportLabelLayoutEntity
 | ReportLabelLayoutEntityId | int32 | **Required** The id of the ReportLabelLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=96
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=526
 ```
 
 

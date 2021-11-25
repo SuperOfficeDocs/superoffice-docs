@@ -1,9 +1,9 @@
 ---
-title: GetHistories
+title: POST Agents/ViewState/GetHistories
 id: v1ViewStateAgent_GetHistories
 ---
 
-# GetHistories
+# POST Agents/ViewState/GetHistories
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistories
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 478,
-    "Id": 866,
-    "HistoryName": "Graham, Bins and Brown",
-    "HistoryId": 513,
-    "AssociateId": 312,
-    "Name": "Hand LLC",
-    "ItemInfo": "ex",
+    "Rank": 424,
+    "Id": 68,
+    "HistoryName": "Wolff, Pollich and Schmitt",
+    "HistoryId": 570,
+    "AssociateId": 308,
+    "Name": "Weber Inc and Sons",
+    "ItemInfo": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldType": "System.Int32",
+        "FieldLength": 840
       }
     }
   }

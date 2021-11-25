@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Johnson Group",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 235,
+  "Id": 971,
+  "Name": "Howell, Corkery and Frami",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 274,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,19 +111,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Name": "Muller Group",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 338,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 328,
+  "Name": "Hayes LLC",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 925,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "corrupti",
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "implement mission-critical mindshare"
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldLength": 930
     }
   }
 }

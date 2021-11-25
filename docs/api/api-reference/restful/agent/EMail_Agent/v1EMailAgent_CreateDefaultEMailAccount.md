@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultEMailAccount
+title: POST Agents/EMail/CreateDefaultEMailAccount
 id: v1EMailAgent_CreateDefaultEMailAccount
 ---
 
-# CreateDefaultEMailAccount
+# POST Agents/EMail/CreateDefaultEMailAccount
 
 ```http
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
@@ -77,16 +77,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 720,
-  "EMailAddress": "doloribus",
-  "AssociateId": 425,
+  "EMailAccountId": 692,
+  "EMailAddress": "vel",
+  "AssociateId": 38,
   "IncomingCredentials": {
-    "ServiceAuthId": 291,
-    "Server": "expedita",
-    "Port": 489,
-    "AuthType": "itaque",
-    "Username": "deleniti",
-    "Password": "aliquid",
+    "ServiceAuthId": 728,
+    "Server": "officia",
+    "Port": 259,
+    "AuthType": "soluta",
+    "Username": "eveniet",
+    "Password": "et",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldLength": 957
       }
     }
   },
   "OutgoingCredentials": {
-    "ServiceAuthId": 81,
-    "Server": "placeat",
-    "Port": 370,
-    "AuthType": "dignissimos",
-    "Username": "nihil",
-    "Password": "cum",
+    "ServiceAuthId": 883,
+    "Server": "animi",
+    "Port": 861,
+    "AuthType": "qui",
+    "Username": "sit",
+    "Password": "placeat",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   },
-  "AccountStatus": 782,
-  "ErrorCount": 50,
-  "ErrorReason": "repurpose web-enabled methodologies",
+  "AccountStatus": 315,
+  "ErrorCount": 415,
+  "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldLength": 606
     }
   }
 }

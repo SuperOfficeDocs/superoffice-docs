@@ -1,9 +1,9 @@
 ---
-title: SetGeneratedPasswordFromName
+title: POST Agents/User/SetGeneratedPasswordFromName
 id: v1UserAgent_SetGeneratedPasswordFromName
 ---
 
-# SetGeneratedPasswordFromName
+# POST Agents/User/SetGeneratedPasswordFromName
 
 ```http
 POST /api/v1/Agents/User/SetGeneratedPasswordFromName
@@ -68,11 +68,11 @@ Response body: string
 POST /api/v1/Agents/User/SetGeneratedPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Daugherty Group"
+  "AssociateName": "O'Hara-Steuber"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Runolfsson-Koepp"
+"Raynor, Roob and Kassulke"
 ```

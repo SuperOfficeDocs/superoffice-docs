@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 134,
-  "Name": "McLaughlin-Kub",
-  "Tooltip": "quas",
+  "HeadingId": 567,
+  "Name": "Kilback-Torphy",
+  "Tooltip": "delectus",
   "Deleted": true,
-  "Rank": 657,
-  "UdListDefinitionId": 624
+  "Rank": 686,
+  "UdListDefinitionId": 502
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 174,
-  "Name": "O'Kon-Quigley",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 435,
-  "UdListDefinitionId": 168,
+  "HeadingId": 570,
+  "Name": "Aufderhar, Legros and Kilback",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "Rank": 480,
+  "UdListDefinitionId": 789,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

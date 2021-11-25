@@ -1,9 +1,9 @@
 ---
-title: SaveListEntityByName
+title: POST Agents/List/SaveListEntityByName
 id: v1ListAgent_SaveListEntityByName
 ---
 
-# SaveListEntityByName
+# POST Agents/List/SaveListEntityByName
 
 ```http
 POST /api/v1/Agents/List/SaveListEntityByName
@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings, Carter and Streich",
+  "Name": "Dach, Olson and Bartell",
   "ListEntity": {
-    "Id": 958,
-    "Name": "Corkery-Collins",
-    "Tooltip": "impedit",
-    "Deleted": true,
-    "Rank": 107,
+    "Id": 566,
+    "Name": "McDermott-Hintz",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "Rank": 917,
     "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "quia",
-    "InUseByUserDefinedFields": false
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "consequatur",
+    "InUseByUserDefinedFields": true
   }
 }
 ```
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Beatty, Franecki and Cremin",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 461,
-  "IsCustomList": true,
+  "Id": 366,
+  "Name": "Hartmann, Harvey and Heller",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 213,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldLength": 243
     }
   }
 }

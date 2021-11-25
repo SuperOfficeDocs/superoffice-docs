@@ -1,9 +1,9 @@
 ---
-title: GetConnectionListMappings
+title: POST Agents/ErpSync/GetConnectionListMappings
 id: v1ErpSyncAgent_GetConnectionListMappings
 ---
 
-# GetConnectionListMappings
+# POST Agents/ErpSync/GetConnectionListMappings
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 298
+  "ErpConnectionId": 977
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": {},
-      "ErpListName": "Kunde LLC",
+      "ErpListName": "Howell Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Jerde, Steuber and Boehm",
-      "ErpFieldId": 344,
+      "ErpActorTypeName": "Murazik Inc and Sons",
+      "ErpFieldId": 748,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldType": "System.Int32",
+          "FieldLength": 770
         }
       }
     }
   ],
-  "ErpConnectionId": 953,
-  "ErpConnectionName": "Hamill Group",
+  "ErpConnectionId": 431,
+  "ErpConnectionName": "Blanda-Kautzer",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: DeleteUserDefinedFieldInfo
+title: POST Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
 id: v1UserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfo
 ---
 
-# DeleteUserDefinedFieldInfo
+# POST Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
@@ -24,7 +24,7 @@ Deletes the UserDefinedFieldInfo
 | UserDefinedFieldInfoId | int32 | **Required** The id of the UserDefinedFieldInfo to be deleted. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=883
+POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=868
 ```
 
 

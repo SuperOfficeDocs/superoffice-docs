@@ -1,9 +1,9 @@
 ---
-title: GetMrMrs
+title: POST Agents/List/GetMrMrs
 id: v1ListAgent_GetMrMrs
 ---
 
-# GetMrMrs
+# POST Agents/List/GetMrMrs
 
 ```http
 POST /api/v1/Agents/List/GetMrMrs
@@ -25,7 +25,7 @@ Gets a MrMrs object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetMrMrs?mrMrsId=306
+POST /api/v1/Agents/List/GetMrMrs?mrMrsId=588
 POST /api/v1/Agents/List/GetMrMrs?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetMrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Value": "qui",
-  "Tooltip": "qui",
+  "Id": 7,
+  "Value": "consequuntur",
+  "Tooltip": "impedit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldLength": 263
     }
   }
 }

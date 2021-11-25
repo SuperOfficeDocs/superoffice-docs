@@ -1,9 +1,9 @@
 ---
-title: GetHistoriesByNames
+title: POST Agents/ViewState/GetHistoriesByNames
 id: v1ViewStateAgent_GetHistoriesByNames
 ---
 
-# GetHistoriesByNames
+# POST Agents/ViewState/GetHistoriesByNames
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "McKenzie Group",
-    "Swift-Gleichner"
+    "Lebsack LLC",
+    "Botsford-Pfannerstill"
   ]
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 463,
-    "Id": 471,
-    "HistoryName": "Koss, Stoltenberg and Hagenes",
-    "HistoryId": 859,
-    "AssociateId": 646,
-    "Name": "Davis-Mills",
-    "ItemInfo": "id",
+    "Rank": 778,
+    "Id": 798,
+    "HistoryName": "Corkery-Smith",
+    "HistoryId": 79,
+    "AssociateId": 615,
+    "Name": "Walter Group",
+    "ItemInfo": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,10 +111,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "streamline sticky schemas"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

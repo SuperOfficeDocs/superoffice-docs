@@ -1,9 +1,9 @@
 ---
-title: GetMyConfigParameter
+title: POST Agents/Audience/GetMyConfigParameter
 id: v1AudienceAgent_GetMyConfigParameter
 ---
 
-# GetMyConfigParameter
+# POST Agents/Audience/GetMyConfigParameter
 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameter
@@ -84,11 +84,11 @@ Response body: object
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Davis-Gislason"
+  "ParameterName": "Jones, Halvorson and Hegmann"
 }
 ```
 
@@ -97,13 +97,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 232,
-  "Name": "Huel, Reynolds and D'Amore",
-  "Value": "praesentium",
-  "CreatedDate": "2007-01-29T14:58:03.258235+01:00",
-  "UpdatedDate": "2019-06-11T14:58:03.258235+02:00",
-  "CreatedBy": "aliquid",
-  "UpdatedBy": "provident",
+  "AudienceLayoutId": 844,
+  "Name": "Dickens Group",
+  "Value": "dolor",
+  "CreatedDate": "2020-06-25T18:28:48.1305425+02:00",
+  "UpdatedDate": "1999-01-25T18:28:48.1305425+01:00",
+  "CreatedBy": "ut",
+  "UpdatedBy": "eum",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

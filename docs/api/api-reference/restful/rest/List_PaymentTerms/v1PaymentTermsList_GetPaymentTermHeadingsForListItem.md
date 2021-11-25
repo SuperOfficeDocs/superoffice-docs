@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Sauer-Bins",
-    "ToolTip": "Aut placeat ducimus et adipisci quia.",
-    "Deleted": true,
-    "Rank": 467,
-    "Type": "aut",
-    "ColorBlock": 233,
-    "IconHint": "aspernatur",
+    "Id": 524,
+    "Name": "Ondricka-Ondricka",
+    "ToolTip": "Consequuntur numquam aspernatur quisquam ut sed officiis.",
+    "Deleted": false,
+    "Rank": 909,
+    "Type": "vel",
+    "ColorBlock": 586,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "1997-04-06T15:05:43.5460796+02:00",
+    "LastChanged": "2016-11-07T18:25:51.9292421+01:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Quitzon, Rohan and Wolff",
-        "ToolTip": "Autem sit similique eligendi.",
+        "Id": 498,
+        "Name": "Parisian Group",
+        "ToolTip": "Exercitationem ratione sed.",
         "Deleted": true,
-        "Rank": 726,
-        "Type": "ratione",
-        "ColorBlock": 33,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2017-01-28T15:05:43.5470794+01:00",
+        "Rank": 217,
+        "Type": "dolores",
+        "ColorBlock": 162,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2002-10-03T18:25:51.9292421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Parker West",
+        "ExtraInfo": "nihil",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Dr. Derick Swift",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Alexandre Boyer",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Wilma Weimann",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

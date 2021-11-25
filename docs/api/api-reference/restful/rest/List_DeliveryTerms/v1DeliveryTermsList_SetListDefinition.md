@@ -89,19 +89,19 @@ Response body: object
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "et",
+  "Id": 210,
+  "Name": "Gislason-Jacobi",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 23,
-  "IsCustomList": true,
+  "Rank": 863,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 889,
+  "Id": 754,
+  "Name": "Deckow Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 3,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 324
     }
   }
 }

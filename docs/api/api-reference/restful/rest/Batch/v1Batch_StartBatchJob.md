@@ -78,34 +78,34 @@ Response body: int32
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Ondricka, Murazik and Walsh",
-  "AssociateId": 304,
-  "DetailsTable": 900,
-  "DetailsRecord": 960,
+  "Id": 309,
+  "Name": "O'Keefe, Williamson and Stanton",
+  "AssociateId": 924,
+  "DetailsTable": 208,
+  "DetailsRecord": 515,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "laboriosam"
+    "ParameterObject1": "modi",
+    "ParameterObject2": "quaerat"
   },
-  "LastStarted": "2003-03-22T15:05:42.9676325+01:00",
-  "Created": "1999-06-10T15:05:42.9676325+02:00",
-  "StartCount": 896,
-  "DatabaseSerialNumber": "233424",
-  "Context": "magni",
-  "Result": "veniam",
+  "LastStarted": "1995-06-09T18:25:51.3261055+02:00",
+  "Created": "1998-06-15T18:25:51.3261055+02:00",
+  "StartCount": 525,
+  "DatabaseSerialNumber": "1739680",
+  "Context": "quaerat",
+  "Result": "et",
   "State": "All",
-  "Description": "Business-focused discrete paradigm",
-  "Response": "dolorem",
-  "Request": "non",
-  "ProgressDescription": "Assimilated incremental superstructure",
-  "ProgressPercent": 888,
-  "FileName": "Klocko, Koelpin and Wolff"
+  "Description": "Re-contextualized static policy",
+  "Response": "quo",
+  "Request": "magnam",
+  "ProgressDescription": "Multi-layered value-added hierarchy",
+  "ProgressPercent": 17,
+  "FileName": "Block, Bednar and Harvey"
 }
 ```
 
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-302
+993
 ```

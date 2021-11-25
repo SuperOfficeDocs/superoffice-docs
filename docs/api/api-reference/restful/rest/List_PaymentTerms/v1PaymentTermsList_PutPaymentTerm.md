@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Hoppe LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "UdListDefinitionId": 637,
-  "Rank": 552
+  "Id": 585,
+  "Name": "Brekke-Johnson",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "UdListDefinitionId": 647,
+  "Rank": 626
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 55,
-  "Name": "Feest-Heidenreich",
-  "Tooltip": "eum",
+  "Id": 81,
+  "Name": "Boyle-Gusikowski",
+  "Tooltip": "itaque",
   "Deleted": true,
-  "UdListDefinitionId": 678,
-  "Rank": 907,
+  "UdListDefinitionId": 825,
+  "Rank": 556,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 383
     }
   }
 }

@@ -89,20 +89,20 @@ Response body: object
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Krajcik-Bergnaum",
-  "Tooltip": "sed",
+  "Id": 819,
+  "Name": "Ratke-Krajcik",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 939,
+  "Rank": 800,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Marquardt-Kiehn",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "Rank": 10,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "Id": 532,
+  "Name": "Schulist, Von and Grady",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 767,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eveniet",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "leverage sexy web-readiness"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 662
     }
   }
 }

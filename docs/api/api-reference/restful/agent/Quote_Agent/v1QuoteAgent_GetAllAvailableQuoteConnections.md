@@ -1,9 +1,9 @@
 ---
-title: GetAllAvailableQuoteConnections
+title: POST Agents/Quote/GetAllAvailableQuoteConnections
 id: v1QuoteAgent_GetAllAvailableQuoteConnections
 ---
 
-# GetAllAvailableQuoteConnections
+# POST Agents/Quote/GetAllAvailableQuoteConnections
 
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 46,
-    "ERPName": "D'Amore-Langosh",
-    "DisplayName": "Purdy, Green and Bogan",
-    "DisplayDescription": "Enhanced value-added analyzer",
-    "Rank": 33,
-    "ConnectorName": "Bruen-Langworth",
-    "ErpConnectionId": 336,
-    "ExtraData": "quia",
+    "QuoteConnectionId": 264,
+    "ERPName": "Hintz Group",
+    "DisplayName": "Gibson LLC",
+    "DisplayDescription": "User-centric next generation database",
+    "Rank": 589,
+    "ConnectorName": "Rempel-Jerde",
+    "ErpConnectionId": 154,
+    "ExtraData": "sint",
     "IsAvailable": true,
     "InitializeResponse": {
       "IsOk": false,
-      "UserExplanation": "hic",
-      "TechExplanation": "voluptatem",
-      "ErrorCode": "ut",
+      "UserExplanation": "illum",
+      "TechExplanation": "ut",
+      "ErrorCode": "nam",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 452
+          "FieldLength": 590
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 938,
-        "ERPPriceListKey": "necessitatibus",
-        "QuoteConnectionId": 529,
-        "Name": "Bailey Inc and Sons",
-        "Description": "Proactive hybrid solution",
-        "Currency": "laudantium",
-        "CurrencyName": "Ferry, Herzog and Glover",
-        "ValidFrom": "2000-05-21T14:58:04.9594671+02:00",
-        "ValidTo": "2017-02-21T14:58:04.9594671+01:00",
+        "PriceListId": 345,
+        "ERPPriceListKey": "a",
+        "QuoteConnectionId": 840,
+        "Name": "Skiles, Parisian and Gusikowski",
+        "Description": "Synchronised explicit internet solution",
+        "Currency": "eveniet",
+        "CurrencyName": "Mueller, Kohler and Hyatt",
+        "ValidFrom": "2020-10-24T18:28:50.0031374+02:00",
+        "ValidTo": "2000-08-17T18:28:50.0031374+02:00",
         "IsActive": true,
         "TableRight": {},
         "FieldProperties": {
@@ -134,20 +134,20 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldLength": 327
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      95,
-      348
+      199,
+      924
     ],
     "AssociateAccessIds": [
-      151,
-      5
+      609,
+      27
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldType": "System.Int32",
+        "FieldLength": 667
       }
     }
   }

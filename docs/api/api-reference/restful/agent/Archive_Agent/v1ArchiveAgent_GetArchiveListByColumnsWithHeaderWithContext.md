@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithHeaderWithContext
+title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 id: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
 ---
 
-# GetArchiveListByColumnsWithHeaderWithContext
+# POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
@@ -113,36 +113,36 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Treutel-Schmitt",
+  "ProviderName": "Waters-Donnelly",
   "Columns": [
-    "quibusdam",
-    "officiis"
+    "qui",
+    "error"
   ],
   "SortOrder": [
     {
-      "Name": "Macejkovic LLC",
+      "Name": "Jones-Abernathy",
       "Direction": "ASC"
     },
     {
-      "Name": "Macejkovic LLC",
+      "Name": "Jones-Abernathy",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Harris-Rice",
-      "Operator": "quasi",
+      "Name": "Rice, Kovacek and Ruecker",
+      "Operator": "voluptate",
       "Values": [
-        "odio",
-        "ratione"
+        "distinctio",
+        "accusantium"
       ],
       "DisplayValues": [
-        "esse",
-        "autem"
+        "repellendus",
+        "illum"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -150,19 +150,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 445,
+      "InterParenthesis": 172,
       "InterOperator": "And",
-      "UniqueHash": 28
+      "UniqueHash": 704
     }
   ],
   "Entities": [
-    "sint",
-    "saepe"
+    "numquam",
+    "rerum"
   ],
-  "Page": 469,
-  "PageSize": 859,
-  "Options": "velit",
-  "Context": "quo"
+  "Page": 869,
+  "PageSize": 261,
+  "Options": "recusandae",
+  "Context": "illo"
 }
 ```
 
@@ -171,20 +171,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 645,
+  "RowCount": 216,
   "Rows": [
     {
-      "EntityName": "Fadel-Treutel",
-      "PrimaryKey": 476,
+      "EntityName": "Kuvalis-Corwin",
+      "PrimaryKey": 941,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "natus",
-          "LinkHint": "autem"
+          "DisplayValue": "eaque",
+          "TooltipHint": "nemo",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "consequuntur",
+      "LinkHint": "in",
+      "StyleHint": "numquam",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -193,23 +193,23 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 679
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "facilitate sexy metrics"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "seize sticky ROI"
       },
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 372
     }
   }
 }

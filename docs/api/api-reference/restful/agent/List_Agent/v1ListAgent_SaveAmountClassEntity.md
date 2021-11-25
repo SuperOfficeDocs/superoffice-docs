@@ -1,9 +1,9 @@
 ---
-title: SaveAmountClassEntity
+title: POST Agents/List/SaveAmountClassEntity
 id: v1ListAgent_SaveAmountClassEntity
 ---
 
-# SaveAmountClassEntity
+# POST Agents/List/SaveAmountClassEntity
 
 ```http
 POST /api/v1/Agents/List/SaveAmountClassEntity
@@ -78,18 +78,18 @@ Response body: object
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 567,
-  "Name": "Kirlin, Goldner and Schulist",
-  "Tooltip": "iure",
-  "Rank": 810,
-  "AmountFrom": 22339.152,
-  "AmountTo": 3513.214,
+  "AmountClassId": 29,
+  "Name": "Kutch-Heaney",
+  "Tooltip": "cupiditate",
+  "Rank": 7,
+  "AmountFrom": 3137.134,
+  "AmountTo": 28989.5,
   "Deleted": false,
-  "CurrencyId": 612
+  "CurrencyId": 102
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 784,
-  "Name": "Stehr, Koelpin and Rolfson",
-  "Tooltip": "excepturi",
-  "Rank": 41,
-  "AmountFrom": 28998.902,
-  "AmountTo": 10972.134,
-  "Deleted": false,
-  "CurrencyId": 826,
+  "AmountClassId": 646,
+  "Name": "Larson LLC",
+  "Tooltip": "est",
+  "Rank": 439,
+  "AmountFrom": 7697.1039999999994,
+  "AmountTo": 18217.942,
+  "Deleted": true,
+  "CurrencyId": 24,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,10 +114,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "grow 24/7 convergence"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   }
 }

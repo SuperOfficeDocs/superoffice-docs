@@ -1,9 +1,9 @@
 ---
-title: TestConnectionByConfig
+title: POST Agents/ErpSync/TestConnectionByConfig
 id: v1ErpSyncAgent_TestConnectionByConfig
 ---
 
-# TestConnectionByConfig
+# POST Agents/ErpSync/TestConnectionByConfig
 
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig
@@ -71,14 +71,14 @@ Response body: bool
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 451,
+  "ErpConnectionId": 853,
   "ConfigFields": {
-    "ConfigFields1": "consequatur",
-    "ConfigFields2": "voluptas"
+    "ConfigFields1": "repellat",
+    "ConfigFields2": "voluptatem"
   }
 }
 ```

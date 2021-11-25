@@ -64,6 +64,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -85,7 +86,7 @@ Response body: object
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -93,16 +94,18 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 973,
-  "Name": "Goyette, Frami and Fisher",
-  "Description": "Diverse local intranet",
-  "AssociateId": 501,
-  "Columns": 287,
+  "DashboardId": 434,
+  "UniqueId": "vel",
+  "Name": "McKenzie Group",
+  "Description": "Persevering content-based throughput",
+  "AssociateId": 66,
+  "Columns": 903,
   "Theme": {
-    "DashboardThemeId": 213,
-    "Name": "Kovacek Group",
-    "Config": "nobis",
-    "Rank": 138,
+    "DashboardThemeId": 232,
+    "Name": "Krajcik, Bashirian and Heathcote",
+    "Config": "voluptatibus",
+    "Rank": 584,
+    "Client": "natus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -111,27 +114,27 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 102
       }
     }
   },
-  "VisibleForAll": 979,
+  "VisibleForAll": 854,
   "VisibleForAssociates": [
-    163,
-    874
+    203,
+    126
   ],
   "VisibleForGroups": [
-    901,
-    854
+    448,
+    267
   ],
-  "PinForAll": 428,
+  "PinForAll": 134,
   "PinForAssociates": [
-    420,
-    250
+    999,
+    620
   ],
   "PinForGroups": [
-    833,
-    621
+    643,
+    45
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -143,13 +146,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 613
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

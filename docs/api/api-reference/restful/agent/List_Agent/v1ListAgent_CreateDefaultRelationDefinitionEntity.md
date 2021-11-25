@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRelationDefinitionEntity
+title: POST Agents/List/CreateDefaultRelationDefinitionEntity
 id: v1ListAgent_CreateDefaultRelationDefinitionEntity
 ---
 
-# CreateDefaultRelationDefinitionEntity
+# POST Agents/List/CreateDefaultRelationDefinitionEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
@@ -66,7 +66,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 415,
-  "Name": "Dicki-Bogan",
-  "Tooltip": "cupiditate",
-  "PassiveText": "laborum",
+  "ReldefId": 693,
+  "Name": "Kris Group",
+  "Tooltip": "accusamus",
+  "PassiveText": "doloremque",
   "Deleted": true,
-  "Rank": 848,
+  "Rank": 995,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   }
 }

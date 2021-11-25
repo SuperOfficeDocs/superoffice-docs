@@ -1,9 +1,9 @@
 ---
-title: DeleteRole
+title: POST Agents/User/DeleteRole
 id: v1UserAgent_DeleteRole
 ---
 
-# DeleteRole
+# POST Agents/User/DeleteRole
 
 ```http
 POST /api/v1/Agents/User/DeleteRole

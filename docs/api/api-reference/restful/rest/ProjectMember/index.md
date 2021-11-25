@@ -2,8 +2,6 @@
 title: ProjectMember
 ---
 
-# ProjectMember
-
 ```http
 /api/v1/ProjectMember
 ```

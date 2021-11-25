@@ -1,9 +1,9 @@
 ---
-title: GetCsCgiUrlInternal
+title: POST Agents/Configuration/GetCsCgiUrlInternal
 id: v1ConfigurationAgent_GetCsCgiUrlInternal
 ---
 
-# GetCsCgiUrlInternal
+# POST Agents/Configuration/GetCsCgiUrlInternal
 
 ```http
 POST /api/v1/Agents/Configuration/GetCsCgiUrlInternal
@@ -59,7 +59,7 @@ Response body: string
 POST /api/v1/Agents/Configuration/GetCsCgiUrlInternal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_

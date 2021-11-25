@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Cormier Group",
-    "ToolTip": "Eum ipsum harum et.",
-    "Deleted": false,
-    "Rank": 326,
-    "Type": "et",
-    "ColorBlock": 982,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2016-03-26T15:05:43.353513+01:00",
+    "Id": 203,
+    "Name": "Anderson-Bailey",
+    "ToolTip": "Officiis quis deserunt ut.",
+    "Deleted": true,
+    "Rank": 444,
+    "Type": "ratione",
+    "ColorBlock": 454,
+    "IconHint": "doloribus",
+    "Selected": true,
+    "LastChanged": "1994-10-27T18:25:51.7323208+02:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Muller Inc and Sons",
-        "ToolTip": "Non fugit error aperiam et id.",
+        "Id": 63,
+        "Name": "Kerluke-Christiansen",
+        "ToolTip": "Saepe dolor quis culpa sint neque dolor.",
         "Deleted": true,
-        "Rank": 211,
-        "Type": "quis",
-        "ColorBlock": 101,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "2002-02-10T15:05:43.353513+01:00",
+        "Rank": 129,
+        "Type": "animi",
+        "ColorBlock": 562,
+        "IconHint": "quasi",
+        "Selected": false,
+        "LastChanged": "2020-05-13T18:25:51.7333204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Adan McLaughlin",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Kristofer Dare Sr.",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,15 +119,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 66
+            "FieldLength": 134
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "maiores",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Lorenz Mraz",
+    "FullName": "Dr. Angelica Greenfelder",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

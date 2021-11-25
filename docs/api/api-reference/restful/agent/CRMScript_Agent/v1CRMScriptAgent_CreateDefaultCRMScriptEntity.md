@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultCRMScriptEntity
+title: POST Agents/CRMScript/CreateDefaultCRMScriptEntity
 id: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
 ---
 
-# CreateDefaultCRMScriptEntity
+# POST Agents/CRMScript/CreateDefaultCRMScriptEntity
 
 ```http
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 941,
-  "UniqueIdentifier": "est",
-  "Name": "Quitzon Group",
-  "Description": "Adaptive human-resource toolset",
-  "IncludeId": "molestiae",
-  "HierarchyId": 524,
-  "Source": "in",
-  "Registered": "2014-02-13T14:58:03.736461+01:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "2013-09-03T14:58:03.736461+02:00",
-  "UpdatedAssociateId": 618,
+  "EjscriptId": 82,
+  "UniqueIdentifier": "qui",
+  "Name": "Dickinson-Reinger",
+  "Description": "Synchronised static service-desk",
+  "IncludeId": "doloremque",
+  "HierarchyId": 732,
+  "Source": "magni",
+  "Registered": "2006-04-29T18:28:48.626957+02:00",
+  "RegisteredAssociateId": 673,
+  "Updated": "2002-12-09T18:28:48.626957+01:00",
+  "UpdatedAssociateId": 848,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 83
     }
   }
 }

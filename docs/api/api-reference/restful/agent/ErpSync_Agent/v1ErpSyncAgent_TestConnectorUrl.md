@@ -1,9 +1,9 @@
 ---
-title: TestConnectorUrl
+title: POST Agents/ErpSync/TestConnectorUrl
 id: v1ErpSyncAgent_TestConnectorUrl
 ---
 
-# TestConnectorUrl
+# POST Agents/ErpSync/TestConnectorUrl
 
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectorUrl

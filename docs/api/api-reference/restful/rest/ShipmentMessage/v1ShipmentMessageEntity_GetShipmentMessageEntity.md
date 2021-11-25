@@ -94,7 +94,7 @@ Response body: object
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -102,27 +102,27 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 982,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "reprehenderit",
-  "Description": "Multi-tiered solution-oriented structure",
-  "Subject": "consectetur",
-  "FolderId": 850,
-  "HeaderField": "expedita",
-  "Design": "harum",
+  "ShipmentMessageId": 691,
+  "PlainMessage": "placeat",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "consequatur",
+  "Description": "Grass-roots assymetric system engine",
+  "Subject": "tenetur",
+  "FolderId": 513,
+  "HeaderField": "ut",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Triple-buffered client-server structure",
-  "AccessKey": "architecto",
-  "DocumentMessage": 921,
-  "Registered": "2007-08-08T15:05:42.760663+02:00",
-  "RegisteredAssociateId": 126,
-  "Updated": "2008-08-08T15:05:42.760663+02:00",
-  "UpdatedAssociateId": 518,
-  "UpdatedCount": 832,
+  "LongDescription": "Grass-roots multi-state ability",
+  "AccessKey": "distinctio",
+  "DocumentMessage": 87,
+  "Registered": "2019-04-06T18:25:51.1129096+02:00",
+  "RegisteredAssociateId": 743,
+  "Updated": "2000-06-06T18:25:51.1129096+02:00",
+  "UpdatedAssociateId": 59,
+  "UpdatedCount": 707,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

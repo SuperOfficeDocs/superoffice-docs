@@ -1,9 +1,9 @@
 ---
-title: GetArchiveConfigurationV2
+title: POST Agents/Archive/GetArchiveConfigurationV2
 id: v1ArchiveAgent_GetArchiveConfigurationV2
 ---
 
-# GetArchiveConfigurationV2
+# POST Agents/Archive/GetArchiveConfigurationV2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
@@ -84,14 +84,14 @@ Response body: object
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Little, Stoltenberg and Beatty",
-  "ProviderName": "Cassin LLC",
-  "Context": "vitae",
-  "OwnerKeys": "tempora"
+  "GuiName": "Harvey-Hartmann",
+  "ProviderName": "Casper LLC",
+  "Context": "nesciunt",
+  "OwnerKeys": "quod"
 }
 ```
 
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gerlach, Witting and Steuber",
-      "DisplayTooltip": "quia",
-      "DisplayType": "deserunt",
+      "DisplayName": "Hodkiewicz, Lockman and Lowe",
+      "DisplayTooltip": "officia",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Bashirian-Turcotte",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Jewess Inc and Sons",
+      "Name": "Wiza-Lindgren",
+      "CanRestrictBy": false,
+      "RestrictionType": "porro",
+      "RestrictionListName": "Grimes LLC",
       "IsVisible": true,
-      "ExtraInfo": "impedit",
-      "Width": "consequatur",
+      "ExtraInfo": "corporis",
+      "Width": "voluptatem",
       "IconHint": "est",
-      "HeadingIconHint": "iure"
+      "HeadingIconHint": "occaecati"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 825,
-      "Name": "Marvin Inc and Sons",
-      "ToolTip": "Amet voluptatem modi error.",
-      "Deleted": false,
-      "Rank": 279,
-      "Type": "autem",
-      "ColorBlock": 35,
-      "IconHint": "nulla",
-      "Selected": false,
-      "LastChanged": "2000-02-17T14:58:03.225568+01:00",
+      "Id": 688,
+      "Name": "Heidenreich-Goodwin",
+      "ToolTip": "Consequatur temporibus ut.",
+      "Deleted": true,
+      "Rank": 414,
+      "Type": "ea",
+      "ColorBlock": 857,
+      "IconHint": "qui",
+      "Selected": true,
+      "LastChanged": "2001-10-14T18:28:48.0968531+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "qui",
-      "Hidden": true,
-      "FullName": "Dr. Vladimir Legros",
+      "ExtraInfo": "ut",
+      "StyleHint": "unde",
+      "Hidden": false,
+      "FullName": "Mrs. Rhiannon Abbott",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -145,25 +145,25 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 356
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Koelpin Group",
+      "Name": "Stoltenberg-Schroeder",
       "Direction": "ASC"
     },
     {
-      "Name": "Koelpin Group",
+      "Name": "Stoltenberg-Schroeder",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "suscipit",
+  "OwnerKeys": "numquam",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "repurpose back-end methodologies"
   },
   "FieldProperties": {
     "fieldName": {
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

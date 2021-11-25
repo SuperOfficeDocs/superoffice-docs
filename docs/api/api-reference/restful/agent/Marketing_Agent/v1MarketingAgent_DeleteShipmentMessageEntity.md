@@ -1,9 +1,9 @@
 ---
-title: DeleteShipmentMessageEntity
+title: POST Agents/Marketing/DeleteShipmentMessageEntity
 id: v1MarketingAgent_DeleteShipmentMessageEntity
 ---
 
-# DeleteShipmentMessageEntity
+# POST Agents/Marketing/DeleteShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity
@@ -24,7 +24,7 @@ Deletes the ShipmentMessageEntity
 | ShipmentMessageEntityId | int32 | **Required** The id of the ShipmentMessageEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=558
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=15
 ```
 
 

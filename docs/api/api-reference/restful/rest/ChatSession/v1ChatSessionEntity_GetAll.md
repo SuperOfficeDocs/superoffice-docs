@@ -68,14 +68,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=sed
-GET /api/v1/ChatSession?$top=973
-GET /api/v1/ChatSession?$skip=403
+GET /api/v1/ChatSession?$entities=voluptatibus
+GET /api/v1/ChatSession?$top=956
+GET /api/v1/ChatSession?$skip=105
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=accusantium
+GET /api/v1/ChatSession?$context=vel
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=True
+GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
 ```
 
@@ -125,19 +125,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tenetur",
+  "odata.nextLink": "assumenda",
   "value": [
     {
-      "PrimaryKey": 5244,
-      "EntityName": "person",
-      "personId": 5244,
-      "fullName": "Marcus Eichmann"
+      "PrimaryKey": 2680,
+      "EntityName": "sale",
+      "saleId": 2680,
+      "contactId": 9429,
+      "name": "Konopelski-Murazik"
     },
     {
-      "PrimaryKey": 9591,
-      "EntityName": "person",
-      "personId": 9591,
-      "fullName": "Shaina Haley"
+      "PrimaryKey": 9199,
+      "EntityName": "sale",
+      "saleId": 9199,
+      "contactId": 8403,
+      "name": "Goyette-Metz"
     }
   ]
 }

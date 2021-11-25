@@ -1,9 +1,9 @@
 ---
-title: GetCheckoutState
+title: POST Agents/Document/GetCheckoutState
 id: v1DocumentAgent_GetCheckoutState
 ---
 
-# GetCheckoutState
+# POST Agents/Document/GetCheckoutState
 
 ```http
 POST /api/v1/Agents/Document/GetCheckoutState
@@ -73,11 +73,11 @@ Response body: object
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 916
+  "DocumentId": 733
 }
 ```
 
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 12,
-  "Name": "Fahey Inc and Sons"
+  "AssociateId": 210,
+  "Name": "Hegmann, Fay and Collins"
 }
 ```

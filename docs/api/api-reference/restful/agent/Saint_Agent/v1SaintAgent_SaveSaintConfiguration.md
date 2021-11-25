@@ -1,9 +1,9 @@
 ---
-title: SaveSaintConfiguration
+title: POST Agents/Saint/SaveSaintConfiguration
 id: v1SaintAgent_SaveSaintConfiguration
 ---
 
-# SaveSaintConfiguration
+# POST Agents/Saint/SaveSaintConfiguration
 
 ```http
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
@@ -82,18 +82,18 @@ Response body: object
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 295,
+  "OwnerTable": 662,
   "Enabled": false,
-  "Period1": 851,
-  "Period2": 575,
-  "Period3": 479,
-  "GenerationStart": "2017-08-23T14:58:05.1046294+02:00",
-  "GenerationEnd": "2016-03-04T14:58:05.1046294+01:00",
-  "RowsGenerated": 135
+  "Period1": 624,
+  "Period2": 535,
+  "Period3": 63,
+  "GenerationStart": "2021-05-25T18:28:50.0376998+02:00",
+  "GenerationEnd": "1994-11-10T18:28:50.0376998+01:00",
+  "RowsGenerated": 389
 }
 ```
 
@@ -102,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 801,
-  "Enabled": false,
-  "Period1": 991,
-  "Period2": 907,
-  "Period3": 787,
-  "GenerationStart": "1994-10-16T14:58:05.1046294+02:00",
-  "GenerationEnd": "2015-11-07T14:58:05.1046294+01:00",
-  "RowsGenerated": 507,
+  "OwnerTable": 203,
+  "Enabled": true,
+  "Period1": 209,
+  "Period2": 194,
+  "Period3": 39,
+  "GenerationStart": "1997-01-08T18:28:50.0376998+01:00",
+  "GenerationEnd": "2012-08-09T18:28:50.0376998+02:00",
+  "RowsGenerated": 615,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "benchmark B2C technologies"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "recontextualize intuitive infomediaries"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 238
     }
   }
 }

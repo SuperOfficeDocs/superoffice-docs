@@ -1,9 +1,9 @@
 ---
-title: GetPositions
+title: POST Agents/List/GetPositions
 id: v1ListAgent_GetPositions
 ---
 
-# GetPositions
+# POST Agents/List/GetPositions
 
 ```http
 POST /api/v1/Agents/List/GetPositions
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Value": "ex",
-    "Tooltip": "voluptatibus",
+    "Id": 731,
+    "Value": "assumenda",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldLength": 864
       }
     }
   },
   {
-    "Id": 322,
-    "Value": "ex",
-    "Tooltip": "voluptatibus",
+    "Id": 731,
+    "Value": "assumenda",
+    "Tooltip": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldLength": 864
       }
     }
   }

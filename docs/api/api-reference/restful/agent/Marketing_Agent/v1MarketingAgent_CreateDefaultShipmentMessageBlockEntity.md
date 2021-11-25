@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultShipmentMessageBlockEntity
+title: POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 id: v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity
 ---
 
-# CreateDefaultShipmentMessageBlockEntity
+# POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 20,
-  "AssociateId": 681,
-  "Block": "qui",
-  "Registered": "1994-05-29T14:58:04.4964654+02:00",
-  "RegisteredAssociateId": 952,
-  "Updated": "2011-03-21T14:58:04.4964654+01:00",
-  "UpdatedAssociateId": 815,
-  "UpdatedCount": 949,
+  "ShipmentMessageBlockId": 85,
+  "AssociateId": 790,
+  "Block": "nesciunt",
+  "Registered": "2012-05-31T18:28:49.4650876+02:00",
+  "RegisteredAssociateId": 958,
+  "Updated": "1994-08-15T18:28:49.4650876+02:00",
+  "UpdatedAssociateId": 833,
+  "UpdatedCount": 87,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 637
     }
   }
 }

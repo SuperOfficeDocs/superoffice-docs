@@ -1,9 +1,9 @@
 ---
-title: FindProduct
+title: POST Agents/Quote/FindProduct
 id: v1QuoteAgent_FindProduct
 ---
 
-# FindProduct
+# POST Agents/Quote/FindProduct
 
 ```http
 POST /api/v1/Agents/Quote/FindProduct
@@ -108,13 +108,13 @@ Response body: array
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 566,
-  "UserInput": "veritatis",
-  "PriceListKey": "quo"
+  "QuoteAlternativeId": 546,
+  "UserInput": "ut",
+  "PriceListKey": "dolorem"
 }
 ```
 
@@ -124,73 +124,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 853,
-    "ERPProductKey": "eaque",
-    "ERPPriceListKey": "ea",
-    "Name": "Koepp LLC",
-    "Description": "Cross-platform upward-trending task-force",
-    "Code": "voluptatum",
-    "PriceUnit": "deserunt",
-    "QuantityUnit": "praesentium",
-    "IsSubscription": true,
-    "SubscriptionUnit": "et",
-    "DefaultSubscriptionQuantity": 6512.452,
-    "ItemNumber": "1292242",
+    "ProductId": 630,
+    "ERPProductKey": "impedit",
+    "ERPPriceListKey": "voluptas",
+    "Name": "D'Amore LLC",
+    "Description": "Persevering fault-tolerant system engine",
+    "Code": "illum",
+    "PriceUnit": "eum",
+    "QuantityUnit": "accusantium",
+    "IsSubscription": false,
+    "SubscriptionUnit": "similique",
+    "DefaultSubscriptionQuantity": 4268.508,
+    "ItemNumber": "1504561",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "similique",
-    "ProductTypeKey": "qui",
-    "VAT": 26300.528,
-    "VATInfo": "dolor",
-    "UnitCost": 11780.706,
-    "UnitMinimumPrice": 16538.118,
-    "UnitListPrice": 19700.324,
-    "InAssortment": true,
-    "Supplier": "inventore",
-    "SupplierCode": "dicta",
-    "Rights": "aspernatur",
-    "Rule": "natus",
+    "ProductFamilyKey": "ut",
+    "ProductTypeKey": "consequatur",
+    "VAT": 18192.87,
+    "VATInfo": "facilis",
+    "UnitCost": 13661.106,
+    "UnitMinimumPrice": 29948.504,
+    "UnitListPrice": 30741.406,
+    "InAssortment": false,
+    "Supplier": "aperiam",
+    "SupplierCode": "ea",
+    "Rights": "qui",
+    "Rule": "molestiae",
     "ExtraInfo": [
       {
-        "Name": "Bechtelar Group",
-        "Value": "aut",
+        "Name": "Bradtke, Cronin and Pouros",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "utilize extensible web-readiness"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldType": "System.String",
+            "FieldLength": 179
           }
         }
       },
       {
-        "Name": "Bechtelar Group",
-        "Value": "aut",
+        "Name": "Bradtke, Cronin and Pouros",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "utilize extensible web-readiness"
+              "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldType": "System.String",
+            "FieldLength": 179
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptatem",
-    "ExtraField1": "iure",
-    "ExtraField2": "impedit",
-    "ExtraField3": "id",
-    "ExtraField4": "unde",
-    "ExtraField5": "eius",
-    "InStock": 14544.894,
+    "RawExtraInfo": "est",
+    "ExtraField1": "non",
+    "ExtraField2": "sapiente",
+    "ExtraField3": "eius",
+    "ExtraField4": "eaque",
+    "ExtraField5": "a",
+    "InStock": 30481.284,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,8 +201,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 669
       }
     }
   }

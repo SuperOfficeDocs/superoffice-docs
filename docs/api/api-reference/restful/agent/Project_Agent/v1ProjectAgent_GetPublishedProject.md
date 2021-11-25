@@ -1,9 +1,9 @@
 ---
-title: GetPublishedProject
+title: POST Agents/Project/GetPublishedProject
 id: v1ProjectAgent_GetPublishedProject
 ---
 
-# GetPublishedProject
+# POST Agents/Project/GetPublishedProject
 
 ```http
 POST /api/v1/Agents/Project/GetPublishedProject
@@ -91,11 +91,11 @@ Response body: object
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 437
+  "ProjectId": 398
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 748,
-  "Name": "Turner, Donnelly and Jones",
-  "Description": "Reactive coherent pricing structure",
+  "ProjectId": 692,
+  "Name": "Bogan Inc and Sons",
+  "Description": "Down-sized discrete projection",
   "URL": "http://www.example.com/",
-  "Type": "harum",
-  "AssociateId": 818,
-  "AssociateFullName": "Hailey Kunde",
-  "TypeId": 774,
-  "Updated": "2014-04-04T14:58:04.8604658+02:00",
-  "StatusId": 663,
-  "Status": "eum",
-  "TextId": 999,
-  "PublishTo": "2020-01-14T14:58:04.8604658+01:00",
-  "PublishFrom": "1994-04-17T14:58:04.8604658+02:00",
+  "Type": "qui",
+  "AssociateId": 713,
+  "AssociateFullName": "Miss Pearline Lang",
+  "TypeId": 421,
+  "Updated": "2015-05-25T18:28:49.7841424+02:00",
+  "StatusId": 386,
+  "Status": "sit",
+  "TextId": 849,
+  "PublishTo": "1996-02-18T18:28:49.7841424+01:00",
+  "PublishFrom": "2000-05-15T18:28:49.7841424+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1209667",
-  "ActiveErpLinks": 237,
+  "ProjectNumber": "1294079",
+  "ActiveErpLinks": 259,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SavePriceList
+title: POST Agents/Quote/SavePriceList
 id: v1QuoteAgent_SavePriceList
 ---
 
-# SavePriceList
+# POST Agents/Quote/SavePriceList
 
 ```http
 POST /api/v1/Agents/Quote/SavePriceList
@@ -86,20 +86,20 @@ Response body: object
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 138,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 956,
-  "Name": "Walker-Halvorson",
-  "Description": "Compatible asynchronous secured line",
-  "Currency": "earum",
-  "CurrencyName": "Spencer-Borer",
-  "ValidFrom": "1999-07-05T14:58:04.986466+02:00",
-  "ValidTo": "1995-08-16T14:58:04.986466+02:00",
-  "IsActive": true
+  "PriceListId": 392,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 153,
+  "Name": "Aufderhar LLC",
+  "Description": "Synchronised full-range flexibility",
+  "Currency": "sed",
+  "CurrencyName": "Shanahan, Grimes and Schoen",
+  "ValidFrom": "1996-10-09T18:28:49.9701379+02:00",
+  "ValidTo": "2012-12-16T18:28:49.9701379+01:00",
+  "IsActive": false
 }
 ```
 
@@ -108,16 +108,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 423,
-  "ERPPriceListKey": "quod",
-  "QuoteConnectionId": 251,
-  "Name": "Murray, Bernier and Lesch",
-  "Description": "Robust foreground hardware",
-  "Currency": "exercitationem",
-  "CurrencyName": "Hansen, Sanford and Nitzsche",
-  "ValidFrom": "2004-02-12T14:58:04.986466+01:00",
-  "ValidTo": "2017-06-23T14:58:04.986466+02:00",
-  "IsActive": true,
+  "PriceListId": 846,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 967,
+  "Name": "Harber LLC",
+  "Description": "Progressive disintermediate pricing structure",
+  "Currency": "in",
+  "CurrencyName": "Schaefer LLC",
+  "ValidFrom": "2007-05-10T18:28:49.9711374+02:00",
+  "ValidTo": "2005-01-18T18:28:49.9711374+01:00",
+  "IsActive": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 276
     }
   }
 }

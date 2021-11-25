@@ -1,9 +1,9 @@
 ---
-title: CopySelectionMembers
+title: POST Agents/Selection/CopySelectionMembers
 id: v1SelectionAgent_CopySelectionMembers
 ---
 
-# CopySelectionMembers
+# POST Agents/Selection/CopySelectionMembers
 
 ```http
 POST /api/v1/Agents/Selection/CopySelectionMembers

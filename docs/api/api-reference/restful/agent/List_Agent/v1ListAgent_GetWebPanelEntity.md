@@ -1,9 +1,9 @@
 ---
-title: GetWebPanelEntity
+title: POST Agents/List/GetWebPanelEntity
 id: v1ListAgent_GetWebPanelEntity
 ---
 
-# GetWebPanelEntity
+# POST Agents/List/GetWebPanelEntity
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelEntity
@@ -25,7 +25,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=894
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=408
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ Response body: object
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 355,
-  "Name": "Braun-Heidenreich",
-  "Tooltip": "sit",
+  "WebPanelId": 776,
+  "Name": "Hagenes LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 843,
+  "Rank": 964,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Robel, Auer and Greenholt",
+  "WindowName": "Daugherty Group",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsam",
-  "Icon": 824,
+  "ProgId": "autem",
+  "Icon": 849,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "harness dot-com e-tailers"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

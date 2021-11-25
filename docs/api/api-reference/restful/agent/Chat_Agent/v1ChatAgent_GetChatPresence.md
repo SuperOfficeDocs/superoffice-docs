@@ -1,9 +1,9 @@
 ---
-title: GetChatPresence
+title: POST Agents/Chat/GetChatPresence
 id: v1ChatAgent_GetChatPresence
 ---
 
-# GetChatPresence
+# POST Agents/Chat/GetChatPresence
 
 ```http
 POST /api/v1/Agents/Chat/GetChatPresence
@@ -68,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,13 +77,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 667,
-    "DisplayName": "Kautzer Group",
-    "OngoingChats": 607,
-    "Present": true,
+    "UserId": 557,
+    "DisplayName": "Cruickshank Inc and Sons",
+    "OngoingChats": 759,
+    "Present": false,
     "ChatTopics": [
-      773,
-      436
+      57,
+      70
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 576
+        "FieldLength": 535
       }
     }
   }

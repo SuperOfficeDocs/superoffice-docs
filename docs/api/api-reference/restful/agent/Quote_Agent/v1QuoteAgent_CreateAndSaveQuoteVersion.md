@@ -1,9 +1,9 @@
 ---
-title: CreateAndSaveQuoteVersion
+title: POST Agents/Quote/CreateAndSaveQuoteVersion
 id: v1QuoteAgent_CreateAndSaveQuoteVersion
 ---
 
-# CreateAndSaveQuoteVersion
+# POST Agents/Quote/CreateAndSaveQuoteVersion
 
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
@@ -114,11 +114,11 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 995
+  "QuoteVersionId": 527
 }
 ```
 
@@ -127,76 +127,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 1000,
-  "ERPQuoteVersionKey": "sed",
-  "QuoteId": 666,
-  "Description": "Progressive national circuit",
-  "Number": "622766",
+  "QuoteVersionId": 150,
+  "ERPQuoteVersionKey": "omnis",
+  "QuoteId": 400,
+  "Description": "Pre-emptive bandwidth-monitored concept",
+  "Number": "848257",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 199,
-  "SentDate": "2009-11-26T14:58:04.9354663+01:00",
-  "FollowupId": 708,
-  "ExpirationDate": "2016-09-26T14:58:04.9354663+02:00",
-  "DeliveryCountryId": 981,
+  "LikelyQuoteAlternativeId": 180,
+  "SentDate": "2004-03-20T18:28:49.917137+01:00",
+  "FollowupId": 413,
+  "ExpirationDate": "2003-04-03T18:28:49.917137+02:00",
+  "DeliveryCountryId": 841,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 415,
+  "InvoiceCountryId": 671,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "consequuntur",
-  "ERPPaymentTypeKey": "nihil",
-  "ERPDeliveryTermsKey": "sunt",
-  "ERPDeliveryTypeKey": "qui",
-  "Rank": 839,
-  "ApprovedBy": 253,
-  "ApprovedText": "aspernatur",
-  "ApprovedRegisteredBy": 371,
-  "ApprovedRegisteredDate": "2014-10-29T14:58:04.9354663+01:00",
-  "ExtraField1": "natus",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "est",
-  "ExtraField5": "est",
-  "LastRecalculated": "2017-01-12T14:58:04.936463+01:00",
-  "Updated": "2010-04-04T14:58:04.936463+02:00",
-  "UpdatedAssociateId": 232,
-  "Registered": "1994-06-06T14:58:04.936463+02:00",
-  "RegisteredAssociateId": 688,
+  "ERPPaymentTermsKey": "est",
+  "ERPPaymentTypeKey": "quidem",
+  "ERPDeliveryTermsKey": "repudiandae",
+  "ERPDeliveryTypeKey": "nam",
+  "Rank": 389,
+  "ApprovedBy": 93,
+  "ApprovedText": "tenetur",
+  "ApprovedRegisteredBy": 191,
+  "ApprovedRegisteredDate": "2012-10-19T18:28:49.917137+02:00",
+  "ExtraField1": "et",
+  "ExtraField2": "est",
+  "ExtraField3": "labore",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "voluptas",
+  "LastRecalculated": "2009-04-25T18:28:49.917137+02:00",
+  "Updated": "2006-05-12T18:28:49.917137+02:00",
+  "UpdatedAssociateId": 690,
+  "Registered": "1995-10-27T18:28:49.917137+02:00",
+  "RegisteredAssociateId": 926,
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 816,
-      "ERPQuoteAlternativeKey": "inventore",
-      "QuoteVersionId": 831,
-      "Name": "Schmeler LLC",
-      "Description": "Triple-buffered web-enabled encryption",
+      "QuoteAlternativeId": 257,
+      "ERPQuoteAlternativeKey": "molestiae",
+      "QuoteVersionId": 713,
+      "Name": "Olson-Homenick",
+      "Description": "Reduced radical attitude",
       "Status": "Error",
-      "Reason": "morph integrated relationships",
-      "ERPDiscountPercent": 9098.002,
-      "ERPDiscountAmount": 17622.482,
-      "DiscountPercent": 19562.428,
-      "DiscountAmount": 29682.113999999998,
+      "Reason": "",
+      "ERPDiscountPercent": 26009.066,
+      "ERPDiscountAmount": 30239.966,
+      "DiscountPercent": 12855.668,
+      "DiscountAmount": 28729.378,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "minima",
-      "VAT": 3488.142,
-      "EarningPercent": 6807.048,
-      "EarningAmount": 16384.552,
-      "SubTotal": 22050.824,
-      "TotalPrice": 17324.752,
-      "ExtraField1": "est",
-      "ExtraField2": "hic",
-      "ExtraField3": "quasi",
-      "ExtraField4": "voluptatem",
-      "ExtraField5": "tempora",
+      "VATInfo": "nulla",
+      "VAT": 6778.842,
+      "EarningPercent": 17052.094,
+      "EarningAmount": 15701.34,
+      "SubTotal": 2124.852,
+      "TotalPrice": 6086.228,
+      "ExtraField1": "magnam",
+      "ExtraField2": "ipsum",
+      "ExtraField3": "dolor",
+      "ExtraField4": "tempora",
+      "ExtraField5": "quod",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "brand visionary systems"
+            "Reason": "reinvent 24/7 schemas"
           },
           "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldLength": 49
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: AddSaleStakeholders
+title: POST Agents/Sale/AddSaleStakeholders
 id: v1SaleAgent_AddSaleStakeholders
 ---
 
-# AddSaleStakeholders
+# POST Agents/Sale/AddSaleStakeholders
 
 ```http
 POST /api/v1/Agents/Sale/AddSaleStakeholders

@@ -1,9 +1,9 @@
 ---
-title: SubstituteMergeDocumentTemplateVariables2
+title: POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
 id: v1DocumentAgent_SubstituteMergeDocumentTemplateVariables2
 ---
 
-# SubstituteMergeDocumentTemplateVariables2
+# POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
 
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
@@ -70,15 +70,15 @@ Response body:
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 766,
-  "AssociateId": 160,
+  "DocumentId": 811,
+  "AssociateId": 319,
   "CustomTags": {
-    "CustomTags1": "officiis",
-    "CustomTags2": "reiciendis"
+    "CustomTags1": "voluptas",
+    "CustomTags2": "praesentium"
   }
 }
 ```

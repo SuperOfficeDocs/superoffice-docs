@@ -75,48 +75,48 @@ Response body: array
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 406,
+    "TopicId": 151,
     "User": {
-      "AssociateId": 819,
-      "Name": "Reichel-Ledner",
-      "PersonId": 158,
-      "Rank": 721,
-      "Tooltip": "porro",
+      "AssociateId": 629,
+      "Name": "Witting, Klocko and Larkin",
+      "PersonId": 580,
+      "Rank": 951,
+      "Tooltip": "molestiae",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 10,
-      "FullName": "Fay Douglas Jr.",
-      "FormalName": "Bahringer-Heaney",
+      "GroupIdx": 271,
+      "FullName": "Domingo Kerluke",
+      "FormalName": "Collins, Nicolas and Parker",
       "Deleted": false,
-      "EjUserId": 915,
-      "UserName": "Buckridge-Nikolaus"
+      "EjUserId": 500,
+      "UserName": "Lowe LLC"
     },
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 406,
+    "TopicId": 151,
     "User": {
-      "AssociateId": 819,
-      "Name": "Reichel-Ledner",
-      "PersonId": 158,
-      "Rank": 721,
-      "Tooltip": "porro",
+      "AssociateId": 629,
+      "Name": "Witting, Klocko and Larkin",
+      "PersonId": 580,
+      "Rank": 951,
+      "Tooltip": "molestiae",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 10,
-      "FullName": "Fay Douglas Jr.",
-      "FormalName": "Bahringer-Heaney",
+      "GroupIdx": 271,
+      "FullName": "Domingo Kerluke",
+      "FormalName": "Collins, Nicolas and Parker",
       "Deleted": false,
-      "EjUserId": 915,
-      "UserName": "Buckridge-Nikolaus"
+      "EjUserId": 500,
+      "UserName": "Lowe LLC"
     },
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
@@ -130,68 +130,68 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 304,
+    "TopicId": 969,
     "User": {
-      "AssociateId": 988,
-      "Name": "Schuster, Dicki and Grimes",
-      "PersonId": 561,
-      "Rank": 379,
-      "Tooltip": "odit",
+      "AssociateId": 869,
+      "Name": "Rolfson, Gerhold and Fadel",
+      "PersonId": 211,
+      "Rank": 198,
+      "Tooltip": "ab",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 329,
-      "FullName": "Roy Lueilwitz",
-      "FormalName": "Fadel-Batz",
+      "GroupIdx": 710,
+      "FullName": "Dr. Vickie Torp",
+      "FormalName": "Swaniawski, Schmeler and Lindgren",
       "Deleted": false,
-      "EjUserId": 795,
-      "UserName": "Gerhold Inc and Sons",
+      "EjUserId": 808,
+      "UserName": "Ward-Zulauf",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "benchmark B2B action-items"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 683
         }
       }
     },
     "CanListen": true,
     "CanRespond": true,
     "CanManage": true,
-    "CanNotify": false
+    "CanNotify": true
   },
   {
-    "TopicId": 304,
+    "TopicId": 969,
     "User": {
-      "AssociateId": 988,
-      "Name": "Schuster, Dicki and Grimes",
-      "PersonId": 561,
-      "Rank": 379,
-      "Tooltip": "odit",
+      "AssociateId": 869,
+      "Name": "Rolfson, Gerhold and Fadel",
+      "PersonId": 211,
+      "Rank": 198,
+      "Tooltip": "ab",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 329,
-      "FullName": "Roy Lueilwitz",
-      "FormalName": "Fadel-Batz",
+      "GroupIdx": 710,
+      "FullName": "Dr. Vickie Torp",
+      "FormalName": "Swaniawski, Schmeler and Lindgren",
       "Deleted": false,
-      "EjUserId": 795,
-      "UserName": "Gerhold Inc and Sons",
+      "EjUserId": 808,
+      "UserName": "Ward-Zulauf",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "benchmark B2B action-items"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 683
         }
       }
     },
     "CanListen": true,
     "CanRespond": true,
     "CanManage": true,
-    "CanNotify": false
+    "CanNotify": true
   }
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: CreateNewEntry
+title: POST Agents/Contact/CreateNewEntry
 id: v1ContactAgent_CreateNewEntry
 ---
 
-# CreateNewEntry
+# POST Agents/Contact/CreateNewEntry
 
 ```http
 POST /api/v1/Agents/Contact/CreateNewEntry
@@ -68,16 +68,16 @@ Response body: int32
 POST /api/v1/Agents/Contact/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Duplicate": {
-    "RuleName": "Buckridge, Parker and Gibson",
-    "SoPrimaryKey": 751,
-    "EntryName": "Rau Group",
-    "EntryIdentifier": "iste",
-    "RuleDisplayName": "Greenfelder, Wehner and Bruen"
+    "RuleName": "Gleichner Group",
+    "SoPrimaryKey": 644,
+    "EntryName": "Wolf Group",
+    "EntryIdentifier": "perferendis",
+    "RuleDisplayName": "Hoppe LLC"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-450
+696
 ```

@@ -1,9 +1,9 @@
 ---
-title: Translate
+title: POST Agents/AI/Translate
 id: v1AIAgent_Translate
 ---
 
-# Translate
+# POST Agents/AI/Translate
 
 ```http
 POST /api/v1/Agents/AI/Translate
@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "aut",
-  "TargetLanguage": "odio"
+  "Text": "similique",
+  "TargetLanguage": "asperiores"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"vero"
 ```

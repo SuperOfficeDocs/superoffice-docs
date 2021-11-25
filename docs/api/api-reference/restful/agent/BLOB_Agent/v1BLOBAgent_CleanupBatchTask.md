@@ -1,9 +1,9 @@
 ---
-title: CleanupBatchTask
+title: POST Agents/BLOB/CleanupBatchTask
 id: v1BLOBAgent_CleanupBatchTask
 ---
 
-# CleanupBatchTask
+# POST Agents/BLOB/CleanupBatchTask
 
 ```http
 POST /api/v1/Agents/BLOB/CleanupBatchTask

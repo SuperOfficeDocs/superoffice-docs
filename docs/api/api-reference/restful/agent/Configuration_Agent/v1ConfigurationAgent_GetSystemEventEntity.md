@@ -1,9 +1,9 @@
 ---
-title: GetSystemEventEntity
+title: POST Agents/Configuration/GetSystemEventEntity
 id: v1ConfigurationAgent_GetSystemEventEntity
 ---
 
-# GetSystemEventEntity
+# POST Agents/Configuration/GetSystemEventEntity
 
 ```http
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
@@ -25,7 +25,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=466
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=600
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -88,43 +88,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 413,
+  "SystemEventId": 609,
   "Scope": "Database",
-  "Eta": "2008-07-11T14:58:03.5242813+02:00",
-  "Eventkey": "atque",
-  "Eventmess": "voluptatem",
-  "ExtraInfo": 122,
-  "Owner": 474,
-  "UpdatedCount": 336,
-  "Registered": "1995-07-19T14:58:03.5242813+02:00",
+  "Eta": "2003-04-02T18:28:48.3956239+02:00",
+  "Eventkey": "vel",
+  "Eventmess": "omnis",
+  "ExtraInfo": 966,
+  "Owner": 112,
+  "UpdatedCount": 720,
+  "Registered": "2014-08-09T18:28:48.3956239+02:00",
   "ActivatedBy": {
-    "AssociateId": 26,
-    "Name": "Hoppe Inc and Sons",
-    "PersonId": 25,
-    "Rank": 863,
-    "Tooltip": "aperiam",
+    "AssociateId": 844,
+    "Name": "Rempel, Prosacco and Harris",
+    "PersonId": 361,
+    "Rank": 436,
+    "Tooltip": "aspernatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 337,
-    "FullName": "Paul Braun",
-    "FormalName": "Walter-Sporer",
-    "Deleted": true,
-    "EjUserId": 947,
-    "UserName": "McKenzie Inc and Sons",
+    "GroupIdx": 539,
+    "FullName": "Jermain Gleichner Jr.",
+    "FormalName": "Pouros Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 960,
+    "UserName": "Waelchi LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "enable sexy schemas"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "leverage world-class functionalities"
   },
   "FieldProperties": {
     "fieldName": {
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 676
     }
   }
 }

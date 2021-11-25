@@ -1,9 +1,9 @@
 ---
-title: GetUpcomingSales
+title: POST Agents/Sale/GetUpcomingSales
 id: v1SaleAgent_GetUpcomingSales
 ---
 
-# GetUpcomingSales
+# POST Agents/Sale/GetUpcomingSales
 
 ```http
 POST /api/v1/Agents/Sale/GetUpcomingSales
@@ -102,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 948,
-  "Count": 951
+  "WeightedAmountLimit": 183,
+  "Count": 150
 }
 ```
 
@@ -113,34 +113,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hackett LLC",
-    "SaleDate": "2016-09-23T14:58:05.1876286+02:00",
-    "SaleId": 156,
-    "Probability": 258,
-    "Title": "dolorum",
-    "Amount": 498.306,
-    "Currency": "hic",
-    "ProjectName": "Langworth-Kuphal",
-    "AssociateFullName": "Retta Carroll",
-    "Description": "Customer-focused client-driven matrix",
+    "ContactName": "Crooks LLC",
+    "SaleDate": "1999-05-18T18:28:50.1774438+02:00",
+    "SaleId": 77,
+    "Probability": 192,
+    "Title": "maxime",
+    "Amount": 26275.456,
+    "Currency": "eos",
+    "ProjectName": "Bode-Kautzer",
+    "AssociateFullName": "Aron Reinger",
+    "Description": "Persevering scalable standardization",
     "Status": "Lost",
-    "WeightedAmount": 23912.42,
-    "ProjectId": 918,
-    "EarningPercent": 28748.182,
-    "Earning": 20270.712,
-    "ContactId": 270,
-    "AssociateId": 594,
-    "PersonId": 218,
-    "SaleTypeId": 317,
-    "SaleTypeName": "Schulist, Kiehn and Rogahn",
-    "PersonFullName": "Rashad Leuschke",
+    "WeightedAmount": 24254.025999999998,
+    "ProjectId": 508,
+    "EarningPercent": 3917.5,
+    "Earning": 20104.61,
+    "ContactId": 703,
+    "AssociateId": 732,
+    "PersonId": 52,
+    "SaleTypeId": 711,
+    "SaleTypeName": "Little, McGlynn and Farrell",
+    "PersonFullName": "Vanessa Zulauf",
     "Completed": "Completed",
-    "ActiveErpLinks": 905,
-    "NextDueDate": "2005-12-19T14:58:05.1876286+01:00",
-    "Number": "1272808",
+    "ActiveErpLinks": 872,
+    "NextDueDate": "2016-05-09T18:28:50.1784416+02:00",
+    "Number": "1229088",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "synergize leading-edge bandwidth"
     },
     "FieldProperties": {
       "fieldName": {
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 644
       }
     }
   }

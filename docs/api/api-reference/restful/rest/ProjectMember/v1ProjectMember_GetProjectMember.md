@@ -94,7 +94,7 @@ Response body: object
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -102,27 +102,27 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 944,
-  "ContactId": 315,
-  "ProjectId": 50,
-  "ContactName": "Kassulke Inc and Sons",
+  "ProjectmemberId": 541,
+  "ContactId": 227,
+  "ProjectId": 691,
+  "ContactName": "Lemke Group",
   "ContactDepartment": "",
-  "ProjectName": "Hills, Steuber and Williamson",
-  "EmailId": 759,
-  "EmailAddress": "felicia_rutherford@witting.us",
-  "CountryId": 571,
-  "Firstname": "Tristin",
-  "MiddleName": "Doyle Group",
-  "Lastname": "Fahey",
-  "PersonId": 843,
-  "Mrmrs": "itaque",
-  "ProjectMemberTypeName": "Von-Predovic",
-  "Phone": "285-068-6557 x0331",
-  "PhoneId": 336,
-  "ProjectMemberTypeId": 566,
-  "EmailAddressName": "noemie_dubuque@hudsonabbott.co.uk",
-  "Comment": "sequi",
-  "FullName": "Charles Welch DVM",
+  "ProjectName": "Beier Inc and Sons",
+  "EmailId": 85,
+  "EmailAddress": "flo@ferryswaniawski.us",
+  "CountryId": 662,
+  "Firstname": "Alex",
+  "MiddleName": "Rath Inc and Sons",
+  "Lastname": "Carter",
+  "PersonId": 512,
+  "Mrmrs": "in",
+  "ProjectMemberTypeName": "Beier Group",
+  "Phone": "227.137.8460",
+  "PhoneId": 396,
+  "ProjectMemberTypeId": 427,
+  "EmailAddressName": "rosendo@jast.com",
+  "Comment": "perferendis",
+  "FullName": "Jamie Kris",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -131,10 +131,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "synthesize killer infrastructures"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 134
     }
   },
   "_Links": {

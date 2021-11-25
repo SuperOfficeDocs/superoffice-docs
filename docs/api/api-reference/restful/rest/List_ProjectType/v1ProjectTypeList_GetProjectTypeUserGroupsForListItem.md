@@ -81,53 +81,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Brakus-Bernhard",
-    "ToolTip": "Nesciunt id dolor dignissimos fugiat.",
+    "Id": 606,
+    "Name": "Kohler Group",
+    "ToolTip": "Ad aspernatur.",
     "Deleted": true,
-    "Rank": 90,
-    "Type": "ut",
-    "ColorBlock": 214,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "2000-07-11T15:05:43.7111117+02:00",
+    "Rank": 554,
+    "Type": "aliquid",
+    "ColorBlock": 60,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2017-04-13T18:25:52.1030202+02:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Kreiger, Dach and Schaefer",
-        "ToolTip": "Aut quae magnam modi sunt quia.",
-        "Deleted": true,
-        "Rank": 481,
-        "Type": "consequatur",
-        "ColorBlock": 550,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2018-02-13T15:05:43.7111117+01:00",
+        "Id": 706,
+        "Name": "Reinger Inc and Sons",
+        "ToolTip": "Delectus sapiente eius neque aut aut.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "vel",
+        "ColorBlock": 916,
+        "IconHint": "quae",
+        "Selected": true,
+        "LastChanged": "1998-01-25T18:25:52.1040218+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Stephon Wintheiser",
+        "ExtraInfo": "ut",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Luciano Botsford",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "synthesize next-generation synergies"
             },
-            "FieldType": "System.String",
-            "FieldLength": 441
+            "FieldType": "System.Int32",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Emmitt Hudson",
+    "ExtraInfo": "id",
+    "StyleHint": "dolore",
+    "Hidden": false,
+    "FullName": "Mrs. Makenzie Ferry",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

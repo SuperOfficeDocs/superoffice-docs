@@ -1,9 +1,9 @@
 ---
-title: GetShipmentMessageEntity
+title: POST Agents/Marketing/GetShipmentMessageEntity
 id: v1MarketingAgent_GetShipmentMessageEntity
 ---
 
-# GetShipmentMessageEntity
+# POST Agents/Marketing/GetShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=207
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=914
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -99,30 +99,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 94,
-  "PlainMessage": "eligendi",
-  "HtmlMessage": "ducimus",
-  "SmsMessage": "unde",
-  "Description": "Networked composite knowledge user",
-  "Subject": "in",
-  "FolderId": 263,
-  "HeaderField": "error",
-  "Design": "amet",
+  "ShipmentMessageId": 24,
+  "PlainMessage": "necessitatibus",
+  "HtmlMessage": "id",
+  "SmsMessage": "nihil",
+  "Description": "Managed disintermediate policy",
+  "Subject": "accusantium",
+  "FolderId": 717,
+  "HeaderField": "enim",
+  "Design": "doloremque",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Networked bottom-line hardware",
-  "AccessKey": "omnis",
-  "DocumentMessage": 846,
-  "Registered": "2012-05-01T14:58:04.4984653+02:00",
-  "RegisteredAssociateId": 738,
-  "Updated": "2004-09-06T14:58:04.4984653+02:00",
-  "UpdatedAssociateId": 696,
-  "UpdatedCount": 349,
+  "LongDescription": "Implemented cohesive open system",
+  "AccessKey": "odio",
+  "DocumentMessage": 496,
+  "Registered": "1998-06-28T18:28:49.4720874+02:00",
+  "RegisteredAssociateId": 694,
+  "Updated": "1999-08-21T18:28:49.4720874+02:00",
+  "UpdatedAssociateId": 985,
+  "UpdatedCount": 899,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "strategize synergistic paradigms"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

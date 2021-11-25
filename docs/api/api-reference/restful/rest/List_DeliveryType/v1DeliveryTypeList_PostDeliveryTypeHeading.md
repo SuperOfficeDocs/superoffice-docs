@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 658,
-  "Name": "Morissette LLC",
-  "Tooltip": "qui",
+  "HeadingId": 490,
+  "Name": "Weissnat, Larkin and Koelpin",
+  "Tooltip": "placeat",
   "Deleted": true,
-  "Rank": 747,
-  "UdListDefinitionId": 537
+  "Rank": 185,
+  "UdListDefinitionId": 837
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 28,
-  "Name": "Mayert LLC",
-  "Tooltip": "deleniti",
+  "HeadingId": 746,
+  "Name": "Farrell, Daniel and Adams",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 958,
-  "UdListDefinitionId": 767,
+  "Rank": 145,
+  "UdListDefinitionId": 323,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

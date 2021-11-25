@@ -1,9 +1,9 @@
 ---
-title: ToggleSubscription
+title: POST Agents/EMail/ToggleSubscription
 id: v1EMailAgent_ToggleSubscription
 ---
 
-# ToggleSubscription
+# POST Agents/EMail/ToggleSubscription
 
 ```http
 POST /api/v1/Agents/EMail/ToggleSubscription

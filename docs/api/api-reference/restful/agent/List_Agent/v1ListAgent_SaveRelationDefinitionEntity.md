@@ -1,9 +1,9 @@
 ---
-title: SaveRelationDefinitionEntity
+title: POST Agents/List/SaveRelationDefinitionEntity
 id: v1ListAgent_SaveRelationDefinitionEntity
 ---
 
-# SaveRelationDefinitionEntity
+# POST Agents/List/SaveRelationDefinitionEntity
 
 ```http
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
@@ -86,12 +86,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 25,
-  "Name": "Brakus-Bode",
-  "Tooltip": "dolores",
-  "PassiveText": "quae",
+  "ReldefId": 816,
+  "Name": "Johnston, Wiza and Schaefer",
+  "Tooltip": "eaque",
+  "PassiveText": "est",
   "Deleted": true,
-  "Rank": 3,
+  "Rank": 73,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -102,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 439,
-  "Name": "Fritsch, Hayes and Hilpert",
-  "Tooltip": "sit",
-  "PassiveText": "eligendi",
+  "ReldefId": 615,
+  "Name": "Gulgowski, Raynor and Kunde",
+  "Tooltip": "debitis",
+  "PassiveText": "modi",
   "Deleted": false,
-  "Rank": 353,
+  "Rank": 959,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

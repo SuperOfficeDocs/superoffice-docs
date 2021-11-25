@@ -1,9 +1,9 @@
 ---
-title: AddFromListName
+title: POST Agents/List/AddFromListName
 id: v1ListAgent_AddFromListName
 ---
 
-# AddFromListName
+# POST Agents/List/AddFromListName
 
 ```http
 POST /api/v1/Agents/List/AddFromListName
@@ -84,18 +84,18 @@ Response body: object
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lind-Padberg",
+  "UdListDefinitionName": "Kuphal LLC",
   "Item": {
-    "Id": 411,
-    "Name": "Kreiger, Ruecker and Franecki",
-    "Tooltip": "suscipit",
+    "Id": 193,
+    "Name": "Vandervort-Shields",
+    "Tooltip": "iure",
     "Deleted": false,
-    "UdListDefinitionId": 41,
-    "Rank": 274
+    "UdListDefinitionId": 524,
+    "Rank": 78
   }
 }
 ```
@@ -105,12 +105,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Koelpin LLC",
-  "Tooltip": "officiis",
+  "Id": 211,
+  "Name": "Stiedemann, Mayer and Schultz",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 878,
-  "Rank": 482,
+  "UdListDefinitionId": 61,
+  "Rank": 94,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 450
     }
   }
 }

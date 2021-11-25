@@ -1,9 +1,9 @@
 ---
-title: GetProjectMembers
+title: POST Agents/Project/GetProjectMembers
 id: v1ProjectAgent_GetProjectMembers
 ---
 
-# GetProjectMembers
+# POST Agents/Project/GetProjectMembers
 
 ```http
 POST /api/v1/Agents/Project/GetProjectMembers
@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 475
+  "ProjectId": 793
 }
 ```
 
@@ -107,27 +107,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 231,
-    "ContactId": 442,
-    "ProjectId": 327,
-    "ContactName": "Doyle LLC",
+    "ProjectmemberId": 667,
+    "ContactId": 785,
+    "ProjectId": 348,
+    "ContactName": "Treutel Inc and Sons",
     "ContactDepartment": "",
-    "ProjectName": "Armstrong-Blick",
-    "EmailId": 41,
-    "EmailAddress": "judson_cremin@yundtkutch.info",
-    "CountryId": 966,
-    "Firstname": "Joshua",
-    "MiddleName": "Upton Inc and Sons",
-    "Lastname": "Cassin",
-    "PersonId": 896,
-    "Mrmrs": "reprehenderit",
-    "ProjectMemberTypeName": "Padberg, Greenholt and Bartoletti",
-    "Phone": "683-517-8112 x2188",
-    "PhoneId": 815,
-    "ProjectMemberTypeId": 979,
-    "EmailAddressName": "stephon@leuschkefarrell.biz",
-    "Comment": "provident",
-    "FullName": "Steve Hackett PhD",
+    "ProjectName": "Stroman Group",
+    "EmailId": 419,
+    "EmailAddress": "joshuah@klocko.info",
+    "CountryId": 469,
+    "Firstname": "Hilbert",
+    "MiddleName": "Lueilwitz Inc and Sons",
+    "Lastname": "Stracke",
+    "PersonId": 141,
+    "Mrmrs": "iure",
+    "ProjectMemberTypeName": "Franecki, Jenkins and Schuster",
+    "Phone": "(307)624-7261 x844",
+    "PhoneId": 761,
+    "ProjectMemberTypeId": 302,
+    "EmailAddressName": "roma@bogisich.ca",
+    "Comment": "accusantium",
+    "FullName": "Lonie VonRueden",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldType": "System.String",
+        "FieldLength": 593
       }
     }
   }

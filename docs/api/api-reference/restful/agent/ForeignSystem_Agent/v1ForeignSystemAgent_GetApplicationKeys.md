@@ -1,9 +1,9 @@
 ---
-title: GetApplicationKeys
+title: POST Agents/ForeignSystem/GetApplicationKeys
 id: v1ForeignSystemAgent_GetApplicationKeys
 ---
 
-# GetApplicationKeys
+# POST Agents/ForeignSystem/GetApplicationKeys
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koelpin Group"
+  "ApplicationName": "Ortiz Group"
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quisquam",
-    "Value": "vel",
-    "RecordId": 797,
-    "CreatedDate": "1997-01-18T14:58:04.3144604+01:00",
-    "UpdatedDate": "1998-07-19T14:58:04.3144604+02:00",
-    "UpdatedBy": "exercitationem",
-    "CreatedBy": "veritatis",
-    "TableName": "McCullough, Murphy and Brakus",
+    "Key": "dolor",
+    "Value": "rerum",
+    "RecordId": 474,
+    "CreatedDate": "2016-06-24T18:28:49.2221176+02:00",
+    "UpdatedDate": "2020-07-09T18:28:49.2221176+02:00",
+    "UpdatedBy": "natus",
+    "CreatedBy": "esse",
+    "TableName": "Rodriguez Inc and Sons",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

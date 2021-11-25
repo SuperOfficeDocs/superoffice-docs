@@ -68,7 +68,7 @@ Response body: object
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Block LLC",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 536,
+  "Id": 728,
+  "Name": "Grimes Inc and Sons",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 430,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "iusto",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   },
   "_Links": {

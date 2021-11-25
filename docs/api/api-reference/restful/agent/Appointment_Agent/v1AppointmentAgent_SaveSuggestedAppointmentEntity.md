@@ -1,9 +1,9 @@
 ---
-title: SaveSuggestedAppointmentEntity
+title: POST Agents/Appointment/SaveSuggestedAppointmentEntity
 id: v1AppointmentAgent_SaveSuggestedAppointmentEntity
 ---
 
-# SaveSuggestedAppointmentEntity
+# POST Agents/Appointment/SaveSuggestedAppointmentEntity
 
 ```http
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
@@ -90,44 +90,44 @@ Response body: object
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 632,
-  "Name": "Cronin-Williamson",
-  "Tooltip": "ab",
-  "Rank": 11,
-  "Deleted": true,
-  "DaysFuture": 402,
-  "Duration": "ea",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 366,
+  "Name": "Stokes-Ernser",
+  "Tooltip": "ut",
+  "Rank": 33,
+  "Deleted": false,
+  "DaysFuture": 636,
+  "Duration": "enim",
+  "AutoSuggest": false,
   "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "quo",
+  "AssignToMember": false,
+  "Text": "ut",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 887,
-    "ProjTypeId": 855,
-    "ProjTypeName": "Boehm LLC",
-    "ProjTypeTooltip": "officiis",
-    "ProjStatusId": 684,
-    "ProjStatusName": "Harris-Yost",
-    "ProjStatusTooltip": "sequi"
+    "ProjectTypeStatusLinkId": 261,
+    "ProjTypeId": 934,
+    "ProjTypeName": "Robel Inc and Sons",
+    "ProjTypeTooltip": "illum",
+    "ProjStatusId": 518,
+    "ProjStatusName": "Boehm, Kohler and Kuhn",
+    "ProjStatusTooltip": "facilis"
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 205,
-    "SaleTypeId": 659,
-    "SaleTypeName": "Feest, Lueilwitz and Legros",
-    "SaleTypeTooltip": "iusto",
-    "ProbId": 904,
-    "ProbName": "Gislason, Hagenes and Bernhard",
-    "ProbTooltip": "nisi",
-    "Probability": 657
+    "SaleTypeStageLinkId": 551,
+    "SaleTypeId": 767,
+    "SaleTypeName": "Terry, Parisian and Ryan",
+    "SaleTypeTooltip": "consequatur",
+    "ProbId": 522,
+    "ProbName": "Wunsch, Block and Hahn",
+    "ProbTooltip": "similique",
+    "Probability": 477
   },
   "Type": {
-    "Id": 519,
-    "Value": "aut",
-    "Tooltip": "vel"
+    "Id": 503,
+    "Value": "impedit",
+    "Tooltip": "sunt"
   }
 }
 ```
@@ -137,25 +137,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 917,
-  "Name": "Goldner-Ortiz",
-  "Tooltip": "ratione",
-  "Rank": 53,
-  "Deleted": false,
-  "DaysFuture": 447,
-  "Duration": "ducimus",
-  "AutoSuggest": false,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 406,
+  "Name": "Cartwright-Jakubowski",
+  "Tooltip": "culpa",
+  "Rank": 963,
+  "Deleted": true,
+  "DaysFuture": 317,
+  "Duration": "aspernatur",
+  "AutoSuggest": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "laudantium",
+  "Text": "eos",
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 66,
-    "ProjTypeId": 835,
-    "ProjTypeName": "Macejkovic-Towne",
-    "ProjTypeTooltip": "iure",
-    "ProjStatusId": 333,
-    "ProjStatusName": "Pollich-Schuppe",
-    "ProjStatusTooltip": "quia",
+    "ProjectTypeStatusLinkId": 561,
+    "ProjTypeId": 967,
+    "ProjTypeName": "Hermann, Lang and O'Reilly",
+    "ProjTypeTooltip": "voluptas",
+    "ProjStatusId": 527,
+    "ProjStatusName": "Robel, Windler and Veum",
+    "ProjStatusTooltip": "deserunt",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -164,19 +164,19 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldLength": 219
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 235,
-    "SaleTypeId": 898,
-    "SaleTypeName": "Schiller, Greenfelder and Mraz",
-    "SaleTypeTooltip": "enim",
-    "ProbId": 507,
-    "ProbName": "Altenwerth, Fahey and Toy",
-    "ProbTooltip": "earum",
-    "Probability": 791,
+    "SaleTypeStageLinkId": 815,
+    "SaleTypeId": 959,
+    "SaleTypeName": "Olson, Gaylord and Kautzer",
+    "SaleTypeTooltip": "totam",
+    "ProbId": 913,
+    "ProbName": "Crooks LLC",
+    "ProbTooltip": "consectetur",
+    "Probability": 150,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   },
   "Type": {
-    "Id": 621,
-    "Value": "maiores",
-    "Tooltip": "earum",
+    "Id": 570,
+    "Value": "eum",
+    "Tooltip": "aut",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   },
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldLength": 571
     }
   }
 }

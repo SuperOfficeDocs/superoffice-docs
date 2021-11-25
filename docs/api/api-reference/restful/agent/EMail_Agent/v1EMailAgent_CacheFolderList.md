@@ -1,9 +1,9 @@
 ---
-title: CacheFolderList
+title: POST Agents/EMail/CacheFolderList
 id: v1EMailAgent_CacheFolderList
 ---
 
-# CacheFolderList
+# POST Agents/EMail/CacheFolderList
 
 ```http
 POST /api/v1/Agents/EMail/CacheFolderList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -81,13 +81,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beatty-Bartoletti",
-    "Delimiter": "architecto",
-    "Flags": "voluptatibus",
-    "TotalItems": 522,
-    "UnreadItems": 914,
-    "Subscribed": true,
-    "EmailFolderId": 239,
+    "Name": "Emard Group",
+    "Delimiter": "accusamus",
+    "Flags": "molestiae",
+    "TotalItems": 29,
+    "UnreadItems": 929,
+    "Subscribed": false,
+    "EmailFolderId": 865,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 384
       }
     }
   }

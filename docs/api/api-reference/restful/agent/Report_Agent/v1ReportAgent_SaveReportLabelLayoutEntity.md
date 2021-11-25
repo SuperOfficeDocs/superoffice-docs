@@ -1,9 +1,9 @@
 ---
-title: SaveReportLabelLayoutEntity
+title: POST Agents/Report/SaveReportLabelLayoutEntity
 id: v1ReportAgent_SaveReportLabelLayoutEntity
 ---
 
-# SaveReportLabelLayoutEntity
+# POST Agents/Report/SaveReportLabelLayoutEntity
 
 ```http
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
@@ -86,22 +86,22 @@ Response body: object
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 483,
-  "Name": "Mertz Group",
-  "Description": "Decentralized zero defect approach",
+  "ReportLabelLayoutId": 936,
+  "Name": "Effertz, Feest and Lehner",
+  "Description": "Enterprise-wide bifurcated forecast",
   "Orientation": "Landscape",
-  "PaperWidth": 548,
-  "PaperHeight": 673,
-  "LeftMargin": 99,
-  "RightMargin": 401,
-  "TopMargin": 447,
-  "BottomMargin": 73,
-  "CountColumns": 803,
-  "CountRows": 229
+  "PaperWidth": 777,
+  "PaperHeight": 572,
+  "LeftMargin": 633,
+  "RightMargin": 847,
+  "TopMargin": 149,
+  "BottomMargin": 396,
+  "CountColumns": 722,
+  "CountRows": 407
 }
 ```
 
@@ -110,21 +110,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 16,
-  "Name": "Schmitt LLC",
-  "Description": "Front-line scalable frame",
+  "ReportLabelLayoutId": 748,
+  "Name": "O'Conner-Hoppe",
+  "Description": "Synergistic high-level archive",
   "Orientation": "Landscape",
-  "PaperWidth": 414,
-  "PaperHeight": 54,
-  "LeftMargin": 915,
-  "RightMargin": 880,
-  "TopMargin": 128,
-  "BottomMargin": 26,
-  "CountColumns": 815,
-  "CountRows": 826,
+  "PaperWidth": 886,
+  "PaperHeight": 134,
+  "LeftMargin": 488,
+  "RightMargin": 883,
+  "TopMargin": 86,
+  "BottomMargin": 531,
+  "CountColumns": 655,
+  "CountRows": 553,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "scale proactive e-markets"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   }
 }

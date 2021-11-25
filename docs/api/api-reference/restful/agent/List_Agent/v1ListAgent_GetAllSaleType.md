@@ -1,9 +1,9 @@
 ---
-title: GetAllSaleType
+title: POST Agents/List/GetAllSaleType
 id: v1ListAgent_GetAllSaleType
 ---
 
-# GetAllSaleType
+# POST Agents/List/GetAllSaleType
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleType
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Value": "quo",
-    "Tooltip": "saepe",
+    "Id": 648,
+    "Value": "quaerat",
+    "Tooltip": "facilis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "innovate magnetic e-markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldLength": 80
       }
     }
   },
   {
-    "Id": 670,
-    "Value": "quo",
-    "Tooltip": "saepe",
+    "Id": 648,
+    "Value": "quaerat",
+    "Tooltip": "facilis",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "innovate magnetic e-markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldLength": 80
       }
     }
   }

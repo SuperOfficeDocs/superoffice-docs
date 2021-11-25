@@ -1,9 +1,9 @@
 ---
-title: IsAnyPublishEventActive
+title: POST Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
 id: v1UserDefinedFieldInfoAgent_IsAnyPublishEventActive
 ---
 
-# IsAnyPublishEventActive
+# POST Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
@@ -66,5 +66,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

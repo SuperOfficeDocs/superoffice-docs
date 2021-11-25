@@ -1,9 +1,9 @@
 ---
-title: GetAssociateDiary
+title: POST Agents/Appointment/GetAssociateDiary
 id: v1AppointmentAgent_GetAssociateDiary
 ---
 
-# GetAssociateDiary
+# POST Agents/Appointment/GetAssociateDiary
 
 ```http
 POST /api/v1/Agents/Appointment/GetAssociateDiary
@@ -128,10 +128,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 569,
-  "StartTime": "2007-10-21T14:58:02.8855541+02:00",
-  "EndTime": "2018-11-22T14:58:02.8855541+01:00",
-  "Count": 865
+  "AssociateId": 761,
+  "StartTime": "1996-05-10T18:28:47.7348442+02:00",
+  "EndTime": "2016-06-11T18:28:47.7348442+02:00",
+  "Count": 307
 }
 ```
 
@@ -141,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 374,
-    "StartDate": "1999-06-12T14:58:02.8865395+02:00",
-    "EndDate": "1997-10-22T14:58:02.8865395+02:00",
+    "AppointmentId": 162,
+    "StartDate": "2007-04-23T18:28:47.7358474+02:00",
+    "EndDate": "2007-10-30T18:28:47.7358474+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Joel Haag",
-    "ContactName": "Osinski-Hintz",
-    "Description": "Extended interactive circuit",
-    "PersonFullName": "Kaleigh Kuhn",
-    "PersonId": 158,
-    "ContactId": 448,
-    "ProjectId": 285,
-    "ProjectName": "Nikolaus, Paucek and Lubowitz",
+    "Task": "delectus",
+    "AssociateFullName": "Ralph Pfannerstill",
+    "ContactName": "Predovic, Johnson and Deckow",
+    "Description": "Upgradable leading edge approach",
+    "PersonFullName": "Nicola Deckow",
+    "PersonId": 39,
+    "ContactId": 87,
+    "ProjectId": 533,
+    "ProjectName": "Kling Group",
     "IsPublished": true,
-    "AssociateId": 802,
-    "ColorIndex": 483,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 745,
+    "ColorIndex": 872,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 349,
-    "PriorityName": "Kuphal-Heidenreich",
+    "PriorityId": 532,
+    "PriorityName": "Rau Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2009-08-19T14:58:02.8875626+02:00",
+    "ActiveDate": "2016-04-19T18:28:47.7368448+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-02-15T14:58:02.8875626+01:00",
-    "RecurringEndDate": "2018-02-06T14:58:02.8875626+01:00",
-    "MotherId": 199,
-    "AssignedBy": 942,
-    "AssignedByFullName": "Craig Cormier",
+    "RecurringStartDate": "2008-02-09T18:28:47.7368448+01:00",
+    "RecurringEndDate": "1999-03-23T18:28:47.7368448+01:00",
+    "MotherId": 440,
+    "AssignedBy": 480,
+    "AssignedByFullName": "Ms. Chanelle Kreiger",
     "RejectReason": "",
-    "Location": "cupiditate",
-    "AlarmLeadTime": "amet",
-    "SaleId": 348,
-    "SaleName": "Larson-Witting",
-    "AssociateName": "Schowalter-Yundt",
-    "CreatedDate": "2001-03-03T14:58:02.8875626+01:00",
-    "CreatedBy": "dolorem",
-    "CreatedByFullName": "Dr. Monty Barton",
-    "CreatedByAssociateId": 44,
+    "Location": "autem",
+    "AlarmLeadTime": "quas",
+    "SaleId": 307,
+    "SaleName": "Walker LLC",
+    "AssociateName": "Nicolas Group",
+    "CreatedDate": "1997-07-13T18:28:47.7368448+02:00",
+    "CreatedBy": "modi",
+    "CreatedByFullName": "Allan Gutkowski",
+    "CreatedByAssociateId": 618,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   }

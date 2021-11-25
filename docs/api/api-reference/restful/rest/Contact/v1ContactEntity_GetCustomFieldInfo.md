@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Welch Group",
-  "DisplayName": "White Inc and Sons",
-  "Description": "Enterprise-wide optimal function",
-  "ShortLabel": "aut",
+  "FieldName": "Metz Group",
+  "DisplayName": "Jacobson LLC",
+  "Description": "Down-sized reciprocal extranet",
+  "ShortLabel": "cum",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 636,
-  "TemplateVariableName": "Brown-Bode"
+  "Rank": 951,
+  "TemplateVariableName": "McDermott-Luettgen"
 }
 ```

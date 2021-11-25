@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 824,
-    "Name": "Zboncak-Medhurst",
-    "Tooltip": "suscipit",
-    "Rank": 937,
-    "Key": "dolorem",
-    "Deleted": false,
+    "LegalBaseId": 906,
+    "Name": "Kub-Cole",
+    "Tooltip": "est",
+    "Rank": 923,
+    "Key": "autem",
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldType": "System.Int32",
+        "FieldLength": 398
       }
     }
   }

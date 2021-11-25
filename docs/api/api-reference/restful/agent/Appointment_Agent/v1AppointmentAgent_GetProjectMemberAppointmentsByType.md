@@ -1,9 +1,9 @@
 ---
-title: GetProjectMemberAppointmentsByType
+title: POST Agents/Appointment/GetProjectMemberAppointmentsByType
 id: v1AppointmentAgent_GetProjectMemberAppointmentsByType
 ---
 
-# GetProjectMemberAppointmentsByType
+# POST Agents/Appointment/GetProjectMemberAppointmentsByType
 
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
@@ -125,14 +125,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 646,
-  "StartTime": "2015-10-10T14:58:02.8435731+02:00",
-  "EndTime": "2019-09-30T14:58:02.8435731+02:00",
-  "Count": 954,
+  "PersonId": 460,
+  "StartTime": "2003-03-21T18:28:47.6918175+01:00",
+  "EndTime": "2014-01-02T18:28:47.6918175+01:00",
+  "Count": 571,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 485,
-    "StartDate": "2004-12-31T14:58:02.8445739+01:00",
-    "EndDate": "2021-03-24T14:58:02.8445739+01:00",
+    "AppointmentId": 610,
+    "StartDate": "2010-09-01T18:28:47.6928174+02:00",
+    "EndDate": "1999-07-02T18:28:47.6928174+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Ms. Alexandria Davis",
-    "ContactName": "Marks, Rowe and Rempel",
-    "Description": "Reactive high-level contingency",
-    "PersonFullName": "Trent Prohaska",
-    "PersonId": 927,
-    "ContactId": 547,
-    "ProjectId": 898,
-    "ProjectName": "Barton, Hirthe and Goyette",
+    "Task": "omnis",
+    "AssociateFullName": "Romaine Herman",
+    "ContactName": "DuBuque Group",
+    "Description": "Cross-group explicit implementation",
+    "PersonFullName": "Mayra Leffler",
+    "PersonId": 242,
+    "ContactId": 423,
+    "ProjectId": 172,
+    "ProjectName": "Barton, Wisozk and Stokes",
     "IsPublished": true,
-    "AssociateId": 602,
-    "ColorIndex": 839,
-    "IsFree": true,
+    "AssociateId": 333,
+    "ColorIndex": 242,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 618,
-    "PriorityName": "Hartmann LLC",
+    "PriorityId": 25,
+    "PriorityName": "Cummerata, Stoltenberg and Goodwin",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2004-09-12T14:58:02.845574+02:00",
+    "ActiveDate": "1994-09-30T18:28:47.6928174+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-06-11T14:58:02.845574+02:00",
-    "RecurringEndDate": "1999-01-06T14:58:02.845574+01:00",
-    "MotherId": 781,
-    "AssignedBy": 923,
-    "AssignedByFullName": "Jaclyn Bogisich",
+    "RecurringStartDate": "2013-12-05T18:28:47.6928174+01:00",
+    "RecurringEndDate": "1995-02-02T18:28:47.6928174+01:00",
+    "MotherId": 725,
+    "AssignedBy": 33,
+    "AssignedByFullName": "Donny Turcotte",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "est",
-    "SaleId": 52,
-    "SaleName": "Spencer-Dietrich",
-    "AssociateName": "Zboncak, Waelchi and Torp",
-    "CreatedDate": "2018-07-29T14:58:02.845574+02:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Ashtyn Schimmel",
-    "CreatedByAssociateId": 518,
+    "Location": "autem",
+    "AlarmLeadTime": "temporibus",
+    "SaleId": 731,
+    "SaleName": "Breitenberg Inc and Sons",
+    "AssociateName": "Towne-Friesen",
+    "CreatedDate": "2001-08-27T18:28:47.6928174+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Jerrold Christiansen",
+    "CreatedByAssociateId": 908,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

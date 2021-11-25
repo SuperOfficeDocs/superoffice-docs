@@ -1,9 +1,9 @@
 ---
-title: SaveQuoteEntity
+title: POST Agents/Quote/SaveQuoteEntity
 id: v1QuoteAgent_SaveQuoteEntity
 ---
 
-# SaveQuoteEntity
+# POST Agents/Quote/SaveQuoteEntity
 
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteEntity
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteEntity": {
-    "QuoteId": 660,
-    "SaleId": 356,
-    "QuoteConnectionId": 193,
-    "ERPQuoteKey": "minima",
-    "ERPOrderKey": "maiores",
-    "ActiveQuoteVersionId": 632,
-    "AcceptedQuoteAlternativeId": 795,
-    "UseValuesFromQuote": 660,
-    "DocumentId": 413,
-    "PoNumber": "1160223",
-    "OrderComment": "iusto",
-    "PreferredEmailCulture": "eleanora@abbottlesch.us",
+    "QuoteId": 62,
+    "SaleId": 696,
+    "QuoteConnectionId": 6,
+    "ERPQuoteKey": "culpa",
+    "ERPOrderKey": "illum",
+    "ActiveQuoteVersionId": 932,
+    "AcceptedQuoteAlternativeId": 502,
+    "UseValuesFromQuote": 733,
+    "DocumentId": 972,
+    "PoNumber": "959962",
+    "OrderComment": "expedita",
+    "PreferredEmailCulture": "merl.harber@yostwest.biz",
     "QuoteVersions": [
       {},
       {}
@@ -120,56 +120,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 559,
-  "SaleId": 448,
-  "QuoteConnectionId": 339,
-  "ERPQuoteKey": "a",
-  "ERPOrderKey": "accusantium",
-  "ActiveQuoteVersionId": 967,
-  "AcceptedQuoteAlternativeId": 851,
-  "UseValuesFromQuote": 449,
-  "DocumentId": 504,
-  "PoNumber": "1005823",
-  "OrderComment": "ea",
-  "PreferredEmailCulture": "lucie.lindgren@senger.info",
+  "QuoteId": 58,
+  "SaleId": 453,
+  "QuoteConnectionId": 62,
+  "ERPQuoteKey": "quam",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 8,
+  "AcceptedQuoteAlternativeId": 83,
+  "UseValuesFromQuote": 548,
+  "DocumentId": 996,
+  "PoNumber": "1015523",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "jeff@mckenzie.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 493,
-      "ERPQuoteVersionKey": "quas",
-      "QuoteId": 226,
-      "Description": "Horizontal 6th generation architecture",
-      "Number": "1206499",
+      "QuoteVersionId": 80,
+      "ERPQuoteVersionKey": "est",
+      "QuoteId": 141,
+      "Description": "Self-enabling coherent utilisation",
+      "Number": "849909",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 419,
-      "SentDate": "2000-07-23T14:58:05.0134733+02:00",
-      "FollowupId": 952,
-      "ExpirationDate": "1995-11-30T14:58:05.0134733+01:00",
-      "DeliveryCountryId": 693,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 859,
+      "LikelyQuoteAlternativeId": 707,
+      "SentDate": "2004-09-24T18:28:49.9541373+02:00",
+      "FollowupId": 835,
+      "ExpirationDate": "2006-01-22T18:28:49.9541373+01:00",
+      "DeliveryCountryId": 955,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 35,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "delectus",
-      "ERPPaymentTypeKey": "eaque",
-      "ERPDeliveryTermsKey": "nobis",
-      "ERPDeliveryTypeKey": "nihil",
-      "Rank": 633,
-      "ApprovedBy": 618,
-      "ApprovedText": "totam",
-      "ApprovedRegisteredBy": 575,
-      "ApprovedRegisteredDate": "2017-02-26T14:58:05.0134733+01:00",
-      "ExtraField1": "rerum",
-      "ExtraField2": "animi",
-      "ExtraField3": "ea",
-      "ExtraField4": "rerum",
-      "ExtraField5": "tenetur",
-      "LastRecalculated": "2017-02-11T14:58:05.0134733+01:00",
-      "Updated": "2010-09-14T14:58:05.0134733+02:00",
-      "UpdatedAssociateId": 224,
-      "Registered": "2004-07-20T14:58:05.0134733+02:00",
-      "RegisteredAssociateId": 594,
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "voluptatum",
+      "ERPDeliveryTermsKey": "omnis",
+      "ERPDeliveryTypeKey": "odit",
+      "Rank": 854,
+      "ApprovedBy": 827,
+      "ApprovedText": "in",
+      "ApprovedRegisteredBy": 640,
+      "ApprovedRegisteredDate": "1995-02-13T18:28:49.9541373+01:00",
+      "ExtraField1": "qui",
+      "ExtraField2": "laborum",
+      "ExtraField3": "magni",
+      "ExtraField4": "animi",
+      "ExtraField5": "laudantium",
+      "LastRecalculated": "2006-01-29T18:28:49.9541373+01:00",
+      "Updated": "1999-03-20T18:28:49.9541373+01:00",
+      "UpdatedAssociateId": 977,
+      "Registered": "1999-05-06T18:28:49.9541373+02:00",
+      "RegisteredAssociateId": 411,
       "QuoteAlternatives": [
         {},
         {}
@@ -179,10 +179,10 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "drive leading-edge models"
+            "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 526
         }
       }
     }
@@ -197,8 +197,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

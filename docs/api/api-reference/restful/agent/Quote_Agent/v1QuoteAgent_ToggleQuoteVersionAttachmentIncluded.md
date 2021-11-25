@@ -1,9 +1,9 @@
 ---
-title: ToggleQuoteVersionAttachmentIncluded
+title: POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 id: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
 ---
 
-# ToggleQuoteVersionAttachmentIncluded
+# POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 
 ```http
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 330
+  "QuoteVersionAttachmentId": 95
 }
 ```
 

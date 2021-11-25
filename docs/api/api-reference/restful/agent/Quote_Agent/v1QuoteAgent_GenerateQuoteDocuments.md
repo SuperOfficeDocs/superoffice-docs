@@ -1,9 +1,9 @@
 ---
-title: GenerateQuoteDocuments
+title: POST Agents/Quote/GenerateQuoteDocuments
 id: v1QuoteAgent_GenerateQuoteDocuments
 ---
 
-# GenerateQuoteDocuments
+# POST Agents/Quote/GenerateQuoteDocuments
 
 ```http
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
@@ -94,12 +94,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 577,
-  "EmailBodyTemplateId": 226,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 124,
+  "QuoteVersionId": 862,
+  "EmailBodyTemplateId": 6,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 868,
   "IncludeAttachments": true,
-  "RawMailSubject": "eum"
+  "RawMailSubject": "fuga"
 }
 ```
 
@@ -108,17 +108,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 340,
-  "QuotedProductsId": 38,
+  "QuoteDocumentId": 670,
+  "QuotedProductsId": 858,
   "QuoteAttachmentIds": [
-    234,
-    864
+    469,
+    458
   ],
-  "MailBody": "dolorum",
-  "MailSubject": "saepe",
-  "ToEmail": "jayda_fay@grant.us",
-  "ToFullName": "Kobe Abernathy",
-  "ErrorMessage": "non",
+  "MailBody": "sunt",
+  "MailSubject": "officiis",
+  "ToEmail": "keyon@harris.co.uk",
+  "ToFullName": "Hilbert Turner",
+  "ErrorMessage": "ut",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldLength": 35
     }
   }
 }

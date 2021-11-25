@@ -26,7 +26,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=laboriosam
+GET /api/v1/List/Credited/MDOItems?query=at
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Zieme-Jenkins",
-    "ToolTip": "Velit et consequatur qui ea.",
-    "Deleted": false,
-    "Rank": 531,
-    "Type": "unde",
+    "Id": 394,
+    "Name": "Rodriguez, Bartoletti and Jaskolski",
+    "ToolTip": "Est modi.",
+    "Deleted": true,
+    "Rank": 415,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Schroeder, Schultz and Schamberger",
-        "ToolTip": "Impedit aut reprehenderit temporibus.",
-        "Deleted": true,
-        "Rank": 330,
-        "Type": "consectetur",
+        "Id": 453,
+        "Name": "Steuber-Runolfsson",
+        "ToolTip": "Vel maxime.",
+        "Deleted": false,
+        "Rank": 499,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 236,
-        "ExtraInfo": "sit",
-        "StyleHint": "id",
-        "FullName": "Verdie Cole",
+        "IconHint": "sint",
+        "ColorBlock": 238,
+        "ExtraInfo": "non",
+        "StyleHint": "dolor",
+        "FullName": "Arne Gulgowski",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "iterate open-source e-business"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 440
+            "FieldType": "System.Int32",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 636,
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
-    "FullName": "Dr. Bailee Hackett",
+    "IconHint": "architecto",
+    "ColorBlock": 136,
+    "ExtraInfo": "odio",
+    "StyleHint": "quas",
+    "FullName": "Glennie Kunde",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

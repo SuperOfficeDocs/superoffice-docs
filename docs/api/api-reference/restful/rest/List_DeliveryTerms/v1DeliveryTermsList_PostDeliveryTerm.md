@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Reichel-Balistreri",
-  "Tooltip": "ut",
+  "Id": 755,
+  "Name": "Thiel Group",
+  "Tooltip": "officia",
   "Deleted": true,
-  "UdListDefinitionId": 553,
-  "Rank": 791
+  "UdListDefinitionId": 841,
+  "Rank": 665
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Grady, Runolfsson and Feil",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 397,
-  "Rank": 503,
+  "Id": 893,
+  "Name": "Gusikowski, Goyette and Stroman",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "UdListDefinitionId": 542,
+  "Rank": 574,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 329
     }
   }
 }

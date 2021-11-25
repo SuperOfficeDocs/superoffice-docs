@@ -1,9 +1,9 @@
 ---
-title: SetProjectImage
+title: POST Agents/Project/SetProjectImage
 id: v1ProjectAgent_SetProjectImage
 ---
 
-# SetProjectImage
+# POST Agents/Project/SetProjectImage
 
 ```http
 POST /api/v1/Agents/Project/SetProjectImage

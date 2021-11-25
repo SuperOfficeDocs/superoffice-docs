@@ -1,9 +1,9 @@
 ---
-title: GetMyMemberProjects
+title: POST Agents/Project/GetMyMemberProjects
 id: v1ProjectAgent_GetMyMemberProjects
 ---
 
-# GetMyMemberProjects
+# POST Agents/Project/GetMyMemberProjects
 
 ```http
 POST /api/v1/Agents/Project/GetMyMemberProjects
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 184,
-    "Name": "Hessel LLC",
-    "Description": "Down-sized contextually-based extranet",
+    "ProjectId": 246,
+    "Name": "Krajcik Inc and Sons",
+    "Description": "Innovative web-enabled synergy",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 859,
-    "AssociateFullName": "Stefanie Robel",
-    "TypeId": 816,
-    "Updated": "2009-03-26T14:58:04.8564602+01:00",
-    "StatusId": 75,
-    "Status": "veniam",
-    "TextId": 110,
-    "PublishTo": "1994-11-23T14:58:04.8564602+01:00",
-    "PublishFrom": "2005-01-19T14:58:04.8564602+01:00",
+    "Type": "provident",
+    "AssociateId": 764,
+    "AssociateFullName": "Kenyon Sporer",
+    "TypeId": 510,
+    "Updated": "1999-09-18T18:28:49.7801399+02:00",
+    "StatusId": 57,
+    "Status": "itaque",
+    "TextId": 158,
+    "PublishTo": "2009-10-30T18:28:49.7801399+01:00",
+    "PublishFrom": "2020-03-09T18:28:49.7801399+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "657236",
-    "ActiveErpLinks": 396,
+    "ProjectNumber": "957258",
+    "ActiveErpLinks": 677,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

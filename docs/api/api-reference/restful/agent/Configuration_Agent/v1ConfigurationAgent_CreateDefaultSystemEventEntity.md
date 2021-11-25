@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSystemEventEntity
+title: POST Agents/Configuration/CreateDefaultSystemEventEntity
 id: v1ConfigurationAgent_CreateDefaultSystemEventEntity
 ---
 
-# CreateDefaultSystemEventEntity
+# POST Agents/Configuration/CreateDefaultSystemEventEntity
 
 ```http
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
@@ -68,7 +68,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -76,28 +76,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 865,
+  "SystemEventId": 247,
   "Scope": "Database",
-  "Eta": "1998-12-19T14:58:03.5303136+01:00",
-  "Eventkey": "adipisci",
-  "Eventmess": "eligendi",
-  "ExtraInfo": 653,
-  "Owner": 679,
-  "UpdatedCount": 72,
-  "Registered": "2013-10-31T14:58:03.5303136+01:00",
+  "Eta": "2014-07-28T18:28:48.4066529+02:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "quibusdam",
+  "ExtraInfo": 24,
+  "Owner": 421,
+  "UpdatedCount": 828,
+  "Registered": "1997-10-04T18:28:48.4066529+02:00",
   "ActivatedBy": {
-    "AssociateId": 782,
-    "Name": "Cummings Group",
-    "PersonId": 725,
-    "Rank": 836,
-    "Tooltip": "deserunt",
+    "AssociateId": 415,
+    "Name": "Larson-Heathcote",
+    "PersonId": 458,
+    "Rank": 238,
+    "Tooltip": "exercitationem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 184,
-    "FullName": "Cletus Carter",
-    "FormalName": "Lebsack-Mayer",
+    "GroupIdx": 721,
+    "FullName": "Lloyd Daniel",
+    "FormalName": "Bergstrom LLC",
     "Deleted": false,
-    "EjUserId": 543,
-    "UserName": "Kemmer, Rolfson and Kuhic",
+    "EjUserId": 711,
+    "UserName": "Sawayn-Pacocha",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   },
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

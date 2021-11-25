@@ -1,9 +1,9 @@
 ---
-title: GetDashCollection
+title: POST Agents/Dash/GetDashCollection
 id: v1DashAgent_GetDashCollection
 ---
 
-# GetDashCollection
+# POST Agents/Dash/GetDashCollection
 
 ```http
 POST /api/v1/Agents/Dash/GetDashCollection
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,29 +81,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 556,
-      "Name": "Schultz Group",
-      "Description": "Realigned system-worthy middleware",
-      "AssociateId": 423,
-      "Columns": 350,
+      "DashboardId": 535,
+      "UniqueId": "nihil",
+      "Name": "Satterfield, Jones and Flatley",
+      "Description": "Streamlined multi-tasking firmware",
+      "AssociateId": 235,
+      "Columns": 746,
       "Theme": {},
-      "VisibleForAll": 128,
+      "VisibleForAll": 57,
       "VisibleForAssociates": [
-        276,
-        739
+        768,
+        359
       ],
       "VisibleForGroups": [
-        517,
-        748
+        545,
+        54
       ],
-      "PinForAll": 20,
+      "PinForAll": 348,
       "PinForAssociates": [
-        32,
-        959
+        102,
+        897
       ],
       "PinForGroups": [
-        820,
-        175
+        647,
+        541
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -113,75 +114,37 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 707
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 40,
-      "Name": "Satterfield-Maggio",
-      "Description": "Front-line multi-tasking capability",
-      "AssociateId": 8,
-      "Columns": 980,
+      "DashboardId": 25,
+      "UniqueId": "accusamus",
+      "Name": "Kub Group",
+      "Description": "Advanced optimal interface",
+      "AssociateId": 596,
+      "Columns": 927,
       "Theme": {},
-      "VisibleForAll": 728,
+      "VisibleForAll": 216,
       "VisibleForAssociates": [
-        222,
-        334
+        516,
+        190
       ],
       "VisibleForGroups": [
-        541,
-        841
+        914,
+        672
       ],
-      "PinForAll": 560,
+      "PinForAll": 871,
       "PinForAssociates": [
-        387,
-        516
+        694,
+        79
       ],
       "PinForGroups": [
-        309,
-        154
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 283
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 126,
-      "Name": "Smith, Hammes and Brekke",
-      "Description": "Reverse-engineered fresh-thinking installation",
-      "AssociateId": 545,
-      "Columns": 600,
-      "Theme": {},
-      "VisibleForAll": 887,
-      "VisibleForAssociates": [
-        778,
-        324
-      ],
-      "VisibleForGroups": [
-        933,
-        313
-      ],
-      "PinForAll": 325,
-      "PinForAssociates": [
-        758,
-        203
-      ],
-      "PinForGroups": [
-        122,
-        298
+        603,
+        870
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -191,7 +154,47 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 635
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 804,
+      "UniqueId": "consectetur",
+      "Name": "Ziemann Group",
+      "Description": "Team-oriented upward-trending approach",
+      "AssociateId": 403,
+      "Columns": 515,
+      "Theme": {},
+      "VisibleForAll": 964,
+      "VisibleForAssociates": [
+        497,
+        832
+      ],
+      "VisibleForGroups": [
+        472,
+        732
+      ],
+      "PinForAll": 324,
+      "PinForAssociates": [
+        246,
+        764
+      ],
+      "PinForGroups": [
+        620,
+        840
+      ],
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.String",
+          "FieldLength": 976
         }
       }
     }
@@ -207,7 +210,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldLength": 633
     }
   }
 }

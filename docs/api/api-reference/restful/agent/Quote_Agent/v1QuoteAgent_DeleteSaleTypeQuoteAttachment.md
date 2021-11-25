@@ -1,9 +1,9 @@
 ---
-title: DeleteSaleTypeQuoteAttachment
+title: POST Agents/Quote/DeleteSaleTypeQuoteAttachment
 id: v1QuoteAgent_DeleteSaleTypeQuoteAttachment
 ---
 
-# DeleteSaleTypeQuoteAttachment
+# POST Agents/Quote/DeleteSaleTypeQuoteAttachment
 
 ```http
 POST /api/v1/Agents/Quote/DeleteSaleTypeQuoteAttachment

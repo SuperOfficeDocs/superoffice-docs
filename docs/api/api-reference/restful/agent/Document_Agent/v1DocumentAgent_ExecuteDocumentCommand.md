@@ -1,9 +1,9 @@
 ---
-title: ExecuteDocumentCommand
+title: POST Agents/Document/ExecuteDocumentCommand
 id: v1DocumentAgent_ExecuteDocumentCommand
 ---
 
-# ExecuteDocumentCommand
+# POST Agents/Document/ExecuteDocumentCommand
 
 ```http
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
@@ -80,20 +80,20 @@ Response body: object
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 558,
-  "VersionId": "cupiditate",
+  "DocumentId": 865,
+  "VersionId": "omnis",
   "AllowedReturnTypes": [
-    "cupiditate",
-    "cumque"
+    "voluptas",
+    "ut"
   ],
-  "Command": "aliquid",
+  "Command": "placeat",
   "AdditionalData": [
-    "ex",
-    "in"
+    "laboriosam",
+    "aut"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "error",
-  "VersionId": "consequatur",
-  "Success": false,
+  "ExternalReference": "iure",
+  "VersionId": "quibusdam",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "aut",
-  "AdditionalInfo": "tenetur"
+  "Value": "est",
+  "AdditionalInfo": "id"
 }
 ```

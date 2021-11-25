@@ -2,8 +2,6 @@
 title: List_ProjectType
 ---
 
-# List_ProjectType
-
 ```http
 /api/v1/List/ProjectType
 ```

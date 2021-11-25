@@ -58,7 +58,7 @@ The DashTileDefinition to be saved.
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -94,7 +94,7 @@ Response body: object
 | EntityName | string | The entity measured by this tile, defines what provider to use |
 | SelectionId | int32 | Selection holding the criterias for the tile definition |
 | CurrencyMode | string | Dashboard currency mode |
-| CurrencyId | int32 | Currency of sale |
+| CurrencyCode | string | Currency code |
 | Measure | string | Dashboard measure type (Count, Sum, Avg, etc.) |
 | MeasureField | string | Field to be measured |
 | SortBy | string | Sort by field |
@@ -112,28 +112,28 @@ Response body: object
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 977,
-  "Name": "Haley-Wintheiser",
-  "Description": "Reverse-engineered incremental alliance",
-  "DefaultHeight": 946,
-  "DefaultWidth": 590,
+  "DashboardTileDefinitionId": 865,
+  "Name": "O'Reilly LLC",
+  "Description": "Persistent neutral portal",
+  "DefaultHeight": 177,
+  "DefaultWidth": 266,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hahn-Bashirian",
-  "SelectionId": 168,
+  "EntityName": "Wyman, Conroy and Schmitt",
+  "SelectionId": 754,
   "CurrencyMode": "Base",
-  "CurrencyId": 892,
+  "CurrencyCode": "incidunt",
   "Measure": "Average",
-  "MeasureField": "quis",
-  "SortBy": "ad",
-  "LayoutConfig": "ex",
-  "SecondarySelectionId": 278,
-  "MeasureByField": "unde",
-  "ProviderName": "Parisian LLC"
+  "MeasureField": "est",
+  "SortBy": "ea",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 289,
+  "MeasureByField": "odio",
+  "ProviderName": "Shields Group"
 }
 ```
 
@@ -142,27 +142,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 282,
-  "Name": "Friesen-Ferry",
-  "Description": "Re-engineered object-oriented groupware",
-  "DefaultHeight": 57,
-  "DefaultWidth": 792,
+  "DashboardTileDefinitionId": 196,
+  "Name": "Feest-Hills",
+  "Description": "Open-architected neutral emulation",
+  "DefaultHeight": 687,
+  "DefaultWidth": 959,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Feil-Konopelski",
-  "SelectionId": 789,
+  "EntityName": "Maggio-Hagenes",
+  "SelectionId": 480,
   "CurrencyMode": "Base",
-  "CurrencyId": 459,
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "iure",
-  "SortBy": "in",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 577,
-  "MeasureByField": "odio",
-  "ProviderName": "Satterfield, Ebert and Tromp",
+  "MeasureField": "quibusdam",
+  "SortBy": "ex",
+  "LayoutConfig": "temporibus",
+  "SecondarySelectionId": 643,
+  "MeasureByField": "iste",
+  "ProviderName": "Rowe-Hahn",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "empower plug-and-play portals"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 857
     }
   },
   "_Links": {

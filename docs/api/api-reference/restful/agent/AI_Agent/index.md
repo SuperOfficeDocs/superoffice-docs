@@ -2,8 +2,6 @@
 title: AI_Agent
 ---
 
-# AI_Agent
-
 ```http
 /api/v1/AI/Agent
 ```
@@ -11,14 +9,14 @@ title: AI_Agent
 
 
 
-* [DetectLanguage](v1AIAgent_DetectLanguage.md)
+* [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 
-* [DetectSentiment](v1AIAgent_DetectSentiment.md)
+* [POST Agents/AI/GuessCategory](v1AIAgent_GuessCategory.md)
 
-* [Translate](v1AIAgent_Translate.md)
+* [POST Agents/AI/TrainCategoryGuesser](v1AIAgent_TrainCategoryGuesser.md)
 
-* [GuessCategory](v1AIAgent_GuessCategory.md)
+* [POST Agents/AI/DetectLanguage](v1AIAgent_DetectLanguage.md)
 
-* [TrainCategoryGuesser](v1AIAgent_TrainCategoryGuesser.md)
+* [POST Agents/AI/DetectSentiment](v1AIAgent_DetectSentiment.md)
 
-* [GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
+* [POST Agents/AI/Translate](v1AIAgent_Translate.md)

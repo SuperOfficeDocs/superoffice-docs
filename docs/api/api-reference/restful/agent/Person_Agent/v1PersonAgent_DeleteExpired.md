@@ -1,9 +1,9 @@
 ---
-title: DeleteExpired
+title: POST Agents/Person/DeleteExpired
 id: v1PersonAgent_DeleteExpired
 ---
 
-# DeleteExpired
+# POST Agents/Person/DeleteExpired
 
 ```http
 POST /api/v1/Agents/Person/DeleteExpired

@@ -92,49 +92,49 @@ Response body: object
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 714,
-  "BlobSize": 791,
-  "Description": "Horizontal composite complexity",
-  "ExtraInfo": "repellat",
+  "BlobId": 267,
+  "BlobSize": 270,
+  "Description": "Business-focused systematic product",
+  "ExtraInfo": "recusandae",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nisi",
-  "OriginalSize": 179,
-  "CreatedDate": "2014-12-25T15:05:43.047633+01:00",
-  "UpdatedDate": "1998-07-29T15:05:43.047633+02:00",
+  "IsZipped": false,
+  "MimeType": "quae",
+  "OriginalSize": 145,
+  "CreatedDate": "1997-10-07T18:25:51.4061181+02:00",
+  "UpdatedDate": "2015-05-24T18:25:51.4061181+02:00",
   "CreatedBy": {
-    "AssociateId": 344,
-    "Name": "Beahan, Adams and Prohaska",
-    "PersonId": 590,
-    "Rank": 934,
-    "Tooltip": "voluptatem",
+    "AssociateId": 888,
+    "Name": "Oberbrunner Group",
+    "PersonId": 30,
+    "Rank": 835,
+    "Tooltip": "dignissimos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 784,
-    "FullName": "Lawrence Mueller",
-    "FormalName": "Ryan Group",
-    "Deleted": true,
-    "EjUserId": 510,
-    "UserName": "Breitenberg, Turcotte and Borer"
+    "GroupIdx": 388,
+    "FullName": "Nicole Schultz",
+    "FormalName": "Eichmann-Krajcik",
+    "Deleted": false,
+    "EjUserId": 47,
+    "UserName": "Stroman, Lakin and Rippin"
   },
   "UpdatedBy": {
-    "AssociateId": 925,
-    "Name": "Pagac Group",
-    "PersonId": 269,
-    "Rank": 540,
-    "Tooltip": "voluptatem",
+    "AssociateId": 329,
+    "Name": "Monahan, Pacocha and Johnston",
+    "PersonId": 519,
+    "Rank": 597,
+    "Tooltip": "eaque",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 253,
-    "FullName": "Dewitt Renner",
-    "FormalName": "Reichert, Sawayn and Walsh",
-    "Deleted": true,
-    "EjUserId": 258,
-    "UserName": "Lakin, Jones and Farrell"
+    "GroupIdx": 53,
+    "FullName": "Mara Botsford",
+    "FormalName": "Skiles, Hilll and Gorczany",
+    "Deleted": false,
+    "EjUserId": 822,
+    "UserName": "Parisian, Waelchi and Auer"
   },
-  "ConceptualType": "autem"
+  "ConceptualType": "officia"
 }
 ```
 
@@ -143,29 +143,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 465,
-  "BlobSize": 514,
-  "Description": "Cloned non-volatile encryption",
-  "ExtraInfo": "molestias",
+  "BlobId": 996,
+  "BlobSize": 265,
+  "Description": "Implemented multi-tasking parallelism",
+  "ExtraInfo": "porro",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "corrupti",
-  "OriginalSize": 663,
-  "CreatedDate": "2006-07-19T15:05:43.0486662+02:00",
-  "UpdatedDate": "2020-07-01T15:05:43.0486662+02:00",
+  "IsZipped": true,
+  "MimeType": "ad",
+  "OriginalSize": 356,
+  "CreatedDate": "1996-09-30T18:25:51.4091181+02:00",
+  "UpdatedDate": "2016-03-19T18:25:51.4091181+01:00",
   "CreatedBy": {
-    "AssociateId": 632,
-    "Name": "Heathcote Group",
-    "PersonId": 129,
-    "Rank": 682,
-    "Tooltip": "quidem",
+    "AssociateId": 538,
+    "Name": "Rath Group",
+    "PersonId": 318,
+    "Rank": 638,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 172,
-    "FullName": "Colby Cruickshank",
-    "FormalName": "McClure-Schaden",
-    "Deleted": true,
-    "EjUserId": 599,
-    "UserName": "Kozey-Witting",
+    "GroupIdx": 793,
+    "FullName": "Edyth Ferry",
+    "FormalName": "Rippin-Armstrong",
+    "Deleted": false,
+    "EjUserId": 651,
+    "UserName": "Roob LLC",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -174,39 +174,39 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 959
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 250,
-    "Name": "Flatley-Herman",
-    "PersonId": 454,
-    "Rank": 288,
-    "Tooltip": "non",
+    "AssociateId": 940,
+    "Name": "Will Inc and Sons",
+    "PersonId": 709,
+    "Rank": 450,
+    "Tooltip": "distinctio",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 243,
-    "FullName": "Karina Crona",
-    "FormalName": "Beatty, Aufderhar and Shields",
-    "Deleted": false,
-    "EjUserId": 914,
-    "UserName": "Braun, Gerlach and Bauch",
+    "GroupIdx": 998,
+    "FullName": "Leanne Hermann",
+    "FormalName": "Bradtke-Rice",
+    "Deleted": true,
+    "EjUserId": 792,
+    "UserName": "Predovic-Kemmer",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "cultivate visionary web-readiness"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 302
       }
     }
   },
   "ConceptualType": "et",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "transition B2C solutions"
+    "Reason": "maximize value-added e-services"
   },
   "FieldProperties": {
     "fieldName": {
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 318
     }
   }
 }

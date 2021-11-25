@@ -81,17 +81,17 @@ Response body: object
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 282,
-  "Name": "Schiller-Stanton",
-  "Tooltip": "delectus",
-  "Rank": 701,
-  "Rate": 29503.476,
-  "Units": 11182.112,
-  "Deleted": false
+  "CurrencyId": 201,
+  "Name": "O'Connell Group",
+  "Tooltip": "eligendi",
+  "Rank": 399,
+  "Rate": 26642.134,
+  "Units": 7844.402,
+  "Deleted": true
 }
 ```
 
@@ -100,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 87,
-  "Name": "Kuhlman-Mayer",
-  "Tooltip": "delectus",
-  "Rank": 413,
-  "Rate": 27629.343999999997,
-  "Units": 16594.53,
+  "CurrencyId": 61,
+  "Name": "Sporer Group",
+  "Tooltip": "consequatur",
+  "Rank": 561,
+  "Rate": 18017.365999999998,
+  "Units": 16992.548,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -115,10 +115,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "enhance plug-and-play schemas"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 289
     }
   }
 }

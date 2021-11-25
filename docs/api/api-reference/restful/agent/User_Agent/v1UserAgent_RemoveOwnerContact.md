@@ -1,9 +1,9 @@
 ---
-title: RemoveOwnerContact
+title: POST Agents/User/RemoveOwnerContact
 id: v1UserAgent_RemoveOwnerContact
 ---
 
-# RemoveOwnerContact
+# POST Agents/User/RemoveOwnerContact
 
 ```http
 POST /api/v1/Agents/User/RemoveOwnerContact

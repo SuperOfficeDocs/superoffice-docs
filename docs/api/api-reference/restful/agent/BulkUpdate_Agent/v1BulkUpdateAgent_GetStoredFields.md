@@ -1,9 +1,9 @@
 ---
-title: GetStoredFields
+title: POST Agents/BulkUpdate/GetStoredFields
 id: v1BulkUpdateAgent_GetStoredFields
 ---
 
-# GetStoredFields
+# POST Agents/BulkUpdate/GetStoredFields
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
@@ -88,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "voluptas"
+  "Context": "qui"
 }
 ```
 
@@ -105,23 +105,55 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "fuga",
-    "ValueType": "et",
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "voluptas",
+    "ValueType": "explicabo",
     "Mandatory": true,
-    "EncodedDisplayName": "Reinger-Klocko",
-    "EncodedDisplayDescription": "Persevering leading edge synergy",
-    "IconHint": "et",
+    "EncodedDisplayName": "Turner, Ortiz and Harris",
+    "EncodedDisplayDescription": "Inverse fault-tolerant middleware",
+    "IconHint": "necessitatibus",
     "ControlInfos": [
       {
-        "Type": "eos",
-        "Label": "vitae",
-        "Dimension": 316,
-        "ListProviderName": "Schuster-Braun",
-        "ListProviderExtraInfo": "quis",
-        "ListProviderPrimaryKeyName": "Barton Group",
-        "ListLeadText": "aut",
+        "Type": "molestiae",
+        "Label": "fugiat",
+        "Dimension": 375,
+        "ListProviderName": "Erdman, Nolan and Wisozk",
+        "ListProviderExtraInfo": "dolorem",
+        "ListProviderPrimaryKeyName": "Kuhic, White and Kling",
+        "ListLeadText": "reprehenderit",
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": "drive real-time channels"
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 420
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "repudiandae",
+    "EncodedDataCaptionDescription": "Synergized object-oriented parallelism",
+    "CurrentOperationType": "laboriosam",
+    "Values": [
+      "totam",
+      "quia"
+    ],
+    "DisplayValues": [
+      "sit",
+      "ipsam"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "omnis",
+        "EncodedDisplayName": "Swaniawski, Heller and Gleichner",
+        "EncodedLeadTexts": [
+          "quia",
+          "non"
+        ],
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -130,48 +162,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 597
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "voluptates",
-    "EncodedDataCaptionDescription": "Front-line 24 hour structure",
-    "CurrentOperationType": "hic",
-    "Values": [
-      "dolor",
-      "distinctio"
-    ],
-    "DisplayValues": [
-      "magni",
-      "commodi"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "est",
-        "EncodedDisplayName": "Waters, Kuhn and Kertzmann",
-        "EncodedLeadTexts": [
-          "sequi",
-          "magnam"
-        ],
-        "TableRight": {},
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 707
+            "FieldLength": 528
           }
         }
       },
       {
-        "Key": "est",
-        "EncodedDisplayName": "Waters, Kuhn and Kertzmann",
+        "Key": "omnis",
+        "EncodedDisplayName": "Swaniawski, Heller and Gleichner",
         "EncodedLeadTexts": [
-          "sequi",
-          "magnam"
+          "quia",
+          "non"
         ],
         "TableRight": {},
         "FieldProperties": {
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 707
+            "FieldType": "System.Int32",
+            "FieldLength": 528
           }
         }
       }

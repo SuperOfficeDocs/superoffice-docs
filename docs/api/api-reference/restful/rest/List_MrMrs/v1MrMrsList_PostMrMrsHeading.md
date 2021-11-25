@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Schmitt, Schuppe and Frami",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 423,
-  "UdListDefinitionId": 859
+  "HeadingId": 852,
+  "Name": "Rosenbaum-Jacobi",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 66,
+  "UdListDefinitionId": 272
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 212,
-  "Name": "Ernser, Brekke and Gorczany",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 69,
-  "UdListDefinitionId": 418,
+  "HeadingId": 731,
+  "Name": "Gutkowski, Lockman and Jacobs",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 885,
+  "UdListDefinitionId": 130,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldLength": 977
     }
   }
 }

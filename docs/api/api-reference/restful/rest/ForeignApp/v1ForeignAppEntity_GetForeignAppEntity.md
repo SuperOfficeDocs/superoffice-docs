@@ -80,32 +80,32 @@ Response body: object
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
+Last-Modified: Sun, 20 Dec 1998 18:25:50 G12T
 
 {
-  "ForeignAppId": 445,
-  "Name": "Corkery-Crona",
-  "CreatedDate": "2010-02-03T15:05:42.1976684+01:00",
-  "UpdatedDate": "1996-09-03T15:05:42.1976684+02:00",
+  "ForeignAppId": 214,
+  "Name": "Torp-Quigley",
+  "CreatedDate": "2015-12-16T18:25:50.5595976+01:00",
+  "UpdatedDate": "1998-12-20T18:25:50.5595976+01:00",
   "CreatedBy": {
-    "AssociateId": 251,
-    "Name": "Volkman-Mayer",
-    "PersonId": 52,
-    "Rank": 207,
-    "Tooltip": "voluptas",
+    "AssociateId": 586,
+    "Name": "Blick-Okuneva",
+    "PersonId": 641,
+    "Rank": 302,
+    "Tooltip": "sunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 935,
-    "FullName": "Floy Gerlach",
-    "FormalName": "Hayes, Kovacek and Hackett",
-    "Deleted": false,
-    "EjUserId": 216,
-    "UserName": "Fay, Jewess and Wiza",
+    "GroupIdx": 485,
+    "FullName": "Aaron Leffler",
+    "FormalName": "O'Keefe-Quitzon",
+    "Deleted": true,
+    "EjUserId": 532,
+    "UserName": "Kassulke-Hyatt",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -113,24 +113,24 @@ Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 290,
-    "Name": "Beier-Olson",
-    "PersonId": 826,
-    "Rank": 353,
-    "Tooltip": "provident",
+    "AssociateId": 350,
+    "Name": "Jenkins Inc and Sons",
+    "PersonId": 925,
+    "Rank": 418,
+    "Tooltip": "aspernatur",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 149,
-    "FullName": "Felicita Wilkinson",
-    "FormalName": "Hoppe, O'Keefe and Hodkiewicz",
-    "Deleted": false,
-    "EjUserId": 901,
-    "UserName": "Schulist, Upton and Wisozk",
+    "GroupIdx": 884,
+    "FullName": "Mckayla Hammes",
+    "FormalName": "Strosin, Waelchi and Kling",
+    "Deleted": true,
+    "EjUserId": 315,
+    "UserName": "Rutherford Group",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -139,21 +139,21 @@ Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldLength": 145
       }
     }
   },
   "Devices": [
     {
-      "ForeignDeviceId": 683,
-      "Name": "Mayert, Dach and Hermiston",
-      "CreatedDate": "2020-01-08T15:05:42.2136674+01:00",
-      "UpdatedDate": "2016-01-23T15:05:42.2136674+01:00",
-      "AssociateFullName": "Enid Muller",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 327,
+      "ForeignDeviceId": 357,
+      "Name": "Schamberger LLC",
+      "CreatedDate": "2020-12-12T18:25:50.5595976+01:00",
+      "UpdatedDate": "2020-12-27T18:25:50.5595976+01:00",
+      "AssociateFullName": "Dr. Eileen Emard",
+      "CreatedBy": "at",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 45,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -162,7 +162,7 @@ Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 80
         }
       }
     }
@@ -175,10 +175,10 @@ Last-Modified: Tue, 03 Sep 1996 15:05:42 G9T
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "monetize e-business channels"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 226
     }
   },
   "_Links": {

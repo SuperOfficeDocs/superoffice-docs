@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Schmeler LLC",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 6,
-  "Rank": 484,
+  "Id": 371,
+  "Name": "Gerhold, Swaniawski and Rutherford",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 893,
+  "Rank": 88,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

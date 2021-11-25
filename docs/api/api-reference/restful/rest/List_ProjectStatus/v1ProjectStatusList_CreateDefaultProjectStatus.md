@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Bins LLC",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "UdListDefinitionId": 955,
-  "Rank": 664,
+  "Id": 989,
+  "Name": "Kassulke LLC",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 8,
+  "Rank": 381,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

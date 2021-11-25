@@ -24,7 +24,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -67,7 +67,7 @@ Response body: array
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -81,6 +81,7 @@ Response body: array
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -90,7 +91,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -99,35 +100,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 489,
-    "Name": "Doyle-Kub",
+    "TicketPriorityId": 541,
+    "Name": "Donnelly Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 851,
+    "SortOrder": 963,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 7,
-    "MonStart": "1994-11-24T15:05:43.9111224+01:00",
-    "MonStop": "2016-05-20T15:05:43.9111224+02:00",
-    "TueStart": "2014-06-17T15:05:43.9111224+02:00",
-    "TueStop": "2007-12-31T15:05:43.9111224+01:00",
-    "WedStart": "2017-11-30T15:05:43.9111224+01:00",
-    "WedStop": "2016-04-18T15:05:43.9111224+02:00",
-    "ThuStart": "2012-09-12T15:05:43.9111224+02:00",
-    "ThuStop": "2010-10-15T15:05:43.9111224+02:00",
-    "FriStart": "2017-12-13T15:05:43.9111224+01:00",
-    "FriStop": "2016-09-03T15:05:43.9111224+02:00",
-    "SatStart": "2019-06-04T15:05:43.9111224+02:00",
-    "SatStop": "1997-05-06T15:05:43.9111224+02:00",
-    "SunStart": "2002-03-02T15:05:43.9111224+01:00",
-    "SunStop": "2015-08-04T15:05:43.9111224+02:00",
+    "Deadline": 794,
+    "MonStart": "2015-05-11T18:25:52.3066381+02:00",
+    "MonStop": "2020-11-20T18:25:52.3066381+01:00",
+    "TueStart": "2007-03-04T18:25:52.3066381+01:00",
+    "TueStop": "2005-02-23T18:25:52.3066381+01:00",
+    "WedStart": "1997-05-09T18:25:52.3066381+02:00",
+    "WedStop": "1997-03-27T18:25:52.3066381+01:00",
+    "ThuStart": "1997-10-23T18:25:52.3066381+02:00",
+    "ThuStop": "2006-05-03T18:25:52.3066381+02:00",
+    "FriStart": "2011-04-17T18:25:52.3066381+02:00",
+    "FriStop": "2002-11-23T18:25:52.3066381+01:00",
+    "SatStart": "2011-05-17T18:25:52.3066381+02:00",
+    "SatStop": "1999-03-28T18:25:52.3066381+02:00",
+    "SunStart": "2013-01-21T18:25:52.3066381+01:00",
+    "SunStop": "2017-09-21T18:25:52.3066381+02:00",
     "NonDates": [
-      "dolor",
-      "dolores"
+      "asperiores",
+      "fugiat"
+    ],
+    "EscalationLevels": [
+      {
+        "TicketAlertId": 39,
+        "AlertLevel": 17,
+        "AlertTimeout": 211,
+        "Action": 907,
+        "DelegateTo": 654,
+        "ScriptId": 849,
+        "EmailTo": "coralie_hauck@metz.co.uk",
+        "SmsTo": "provident",
+        "ReplyTemplateIdCustomer": 125,
+        "ReplyTemplateIdUser": 211,
+        "ReplyTemplateIdCatmast": 309,
+        "ReplyTemplateIdEmail": 765,
+        "RtiCustomerSms": 584,
+        "ReplyTemplateIdUserSms": 471,
+        "ReplyTemplateIdCatmastSms": 972,
+        "ReplyTemplateIdSms": 882,
+        "TableRight": {},
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": {
+              "Mask": "FULL",
+              "Reason": ""
+            },
+            "FieldType": "System.Int32",
+            "FieldLength": 919
+          }
+        }
+      }
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -139,8 +171,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

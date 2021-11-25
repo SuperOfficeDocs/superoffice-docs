@@ -1,9 +1,9 @@
 ---
-title: SaveUntrustedCredentials
+title: POST Agents/User/SaveUntrustedCredentials
 id: v1UserAgent_SaveUntrustedCredentials
 ---
 
-# SaveUntrustedCredentials
+# POST Agents/User/SaveUntrustedCredentials
 
 ```http
 POST /api/v1/Agents/User/SaveUntrustedCredentials

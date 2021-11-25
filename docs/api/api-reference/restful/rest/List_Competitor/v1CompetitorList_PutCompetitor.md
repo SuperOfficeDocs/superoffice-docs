@@ -83,16 +83,16 @@ Response body: object
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Lehner-Green",
-  "Tooltip": "soluta",
+  "Id": 159,
+  "Name": "Raynor-Reichert",
+  "Tooltip": "similique",
   "Deleted": true,
-  "UdListDefinitionId": 860,
-  "Rank": 324
+  "UdListDefinitionId": 510,
+  "Rank": 900
 }
 ```
 
@@ -101,12 +101,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 494,
-  "Rank": 727,
+  "Id": 712,
+  "Name": "Harber LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 367,
+  "Rank": 709,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldLength": 145
     }
   }
 }

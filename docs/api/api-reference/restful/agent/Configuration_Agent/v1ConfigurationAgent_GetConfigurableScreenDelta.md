@@ -1,9 +1,9 @@
 ---
-title: GetConfigurableScreenDelta
+title: POST Agents/Configuration/GetConfigurableScreenDelta
 id: v1ConfigurationAgent_GetConfigurableScreenDelta
 ---
 
-# GetConfigurableScreenDelta
+# POST Agents/Configuration/GetConfigurableScreenDelta
 
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=15
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=406
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -63,7 +63,11 @@ Response body: object
 | DeltaType | string |  |
 | DeltaState | string |  |
 | RecipeId | string |  |
-| UserGroupId | int32 |  |
+| UpdatedDate | date-time |  |
+| CreatedDate | date-time |  |
+| UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UserGroupIds | array |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -73,7 +77,7 @@ Response body: object
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,14 +85,69 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 926,
-  "Name": "Corkery-Fadel",
-  "Description": "Progressive uniform instruction set",
-  "DeltaJson": "magni",
+  "ConfigurableScreenDeltaId": 657,
+  "Name": "Hoppe-Gutmann",
+  "Description": "Proactive holistic extranet",
+  "DeltaJson": "sed",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sequi",
-  "UserGroupId": 543,
+  "RecipeId": "qui",
+  "UpdatedDate": "2014-03-02T18:28:48.4116241+01:00",
+  "CreatedDate": "2019-12-22T18:28:48.4116241+01:00",
+  "UpdatedBy": {
+    "AssociateId": 954,
+    "Name": "Nitzsche LLC",
+    "PersonId": 189,
+    "Rank": 829,
+    "Tooltip": "natus",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 725,
+    "FullName": "Donna Wisoky",
+    "FormalName": "Skiles, Harber and Pagac",
+    "Deleted": false,
+    "EjUserId": 957,
+    "UserName": "Berge LLC",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "engage enterprise metrics"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 650
+      }
+    }
+  },
+  "CreatedBy": {
+    "AssociateId": 628,
+    "Name": "Wunsch LLC",
+    "PersonId": 156,
+    "Rank": 177,
+    "Tooltip": "consectetur",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 977,
+    "FullName": "Laney Blanda",
+    "FormalName": "McClure, White and Doyle",
+    "Deleted": true,
+    "EjUserId": 649,
+    "UserName": "Mante, Oberbrunner and Orn",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 521
+      }
+    }
+  },
+  "UserGroupIds": [
+    123,
+    546
+  ],
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -97,10 +156,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "benchmark end-to-end technologies"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 13
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetPluginCapabilities
+title: POST Agents/List/GetPluginCapabilities
 id: v1ListAgent_GetPluginCapabilities
 ---
 
-# GetPluginCapabilities
+# POST Agents/List/GetPluginCapabilities
 
 ```http
 POST /api/v1/Agents/List/GetPluginCapabilities
@@ -68,11 +68,11 @@ Response body: object
 POST /api/v1/Agents/List/GetPluginCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 789
+  "PluginId": 856
 }
 ```
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quam",
-  "2": "adipisci"
+  "1": "et",
+  "2": "repudiandae"
 }
 ```

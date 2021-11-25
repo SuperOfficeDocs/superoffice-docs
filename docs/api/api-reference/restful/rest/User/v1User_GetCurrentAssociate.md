@@ -74,21 +74,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 536,
-  "Name": "Lubowitz, Reilly and Trantow",
-  "PersonId": 882,
-  "Rank": 457,
-  "Tooltip": "doloribus",
+  "AssociateId": 348,
+  "Name": "McGlynn-Marquardt",
+  "PersonId": 724,
+  "Rank": 818,
+  "Tooltip": "sit",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 533,
-  "FullName": "Allie Ratke",
-  "FormalName": "Rodriguez-Feil",
+  "GroupIdx": 824,
+  "FullName": "Dan Schoen II",
+  "FormalName": "Emmerich LLC",
   "Deleted": false,
-  "EjUserId": 546,
-  "UserName": "Schinner, Beahan and Bartoletti",
+  "EjUserId": 712,
+  "UserName": "Rau, Spencer and Bashirian",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "syndicate proactive channels"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 355
     }
   }
 }

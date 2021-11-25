@@ -1,9 +1,9 @@
 ---
-title: GetAllSaleStages
+title: POST Agents/List/GetAllSaleStages
 id: v1ListAgent_GetAllSaleStages
 ---
 
-# GetAllSaleStages
+# POST Agents/List/GetAllSaleStages
 
 ```http
 POST /api/v1/Agents/List/GetAllSaleStages
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 780,
-    "Value": "odit",
-    "Tooltip": "odio",
-    "Probability": 372,
+    "SaleStageId": 71,
+    "Value": "dicta",
+    "Tooltip": "eligendi",
+    "Probability": 771,
     "Deleted": false,
-    "Rank": 44,
+    "Rank": 534,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "generate 24/7 experiences"
     },
     "FieldProperties": {
       "fieldName": {
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldLength": 812
       }
     }
   }

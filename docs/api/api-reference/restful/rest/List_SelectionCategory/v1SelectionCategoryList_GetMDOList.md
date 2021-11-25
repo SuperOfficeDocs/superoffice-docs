@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=perspiciatis
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=ducimus
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Rippin, Gutkowski and Towne",
-    "ToolTip": "Facilis enim exercitationem fuga eaque sunt magni.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "ipsam",
+    "Id": 517,
+    "Name": "Rohan-Dickens",
+    "ToolTip": "In repellendus voluptatibus eius ad blanditiis soluta.",
+    "Deleted": true,
+    "Rank": 493,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Rutherford, Parisian and Stroman",
-        "ToolTip": "Vero iusto dolores.",
+        "Id": 870,
+        "Name": "Wiza, Collier and Rolfson",
+        "ToolTip": "Soluta eum voluptas.",
         "Deleted": true,
-        "Rank": 111,
-        "Type": "provident",
+        "Rank": 694,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 99,
-        "ExtraInfo": "autem",
-        "StyleHint": "voluptatem",
-        "FullName": "Ibrahim Douglas",
+        "IconHint": "hic",
+        "ColorBlock": 401,
+        "ExtraInfo": "architecto",
+        "StyleHint": "possimus",
+        "FullName": "Jaylan Cummings",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "integrate bleeding-edge platforms"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 760
+            "FieldType": "System.Int32",
+            "FieldLength": 980
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 539,
-    "ExtraInfo": "cumque",
-    "StyleHint": "exercitationem",
-    "FullName": "Mac Morar",
+    "IconHint": "sapiente",
+    "ColorBlock": 960,
+    "ExtraInfo": "est",
+    "StyleHint": "non",
+    "FullName": "Lillian Stokes",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

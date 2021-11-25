@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 792,
-    "Name": "Hagenes, Gutmann and Sporer",
-    "Tooltip": "quis",
+    "HeadingId": 174,
+    "Name": "Heaney-O'Hara",
+    "Tooltip": "error",
     "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 879
+    "Rank": 159,
+    "UdListDefinitionId": 738
   },
   {
-    "HeadingId": 792,
-    "Name": "Hagenes, Gutmann and Sporer",
-    "Tooltip": "quis",
+    "HeadingId": 174,
+    "Name": "Heaney-O'Hara",
+    "Tooltip": "error",
     "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 879
+    "Rank": 159,
+    "UdListDefinitionId": 738
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 244,
-    "Name": "Hodkiewicz, Parisian and Konopelski",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 985,
+    "HeadingId": 607,
+    "Name": "Jacobi Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 164,
+    "UdListDefinitionId": 550,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

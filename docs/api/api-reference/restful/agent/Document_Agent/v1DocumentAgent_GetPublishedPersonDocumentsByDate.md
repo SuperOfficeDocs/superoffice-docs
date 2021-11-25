@@ -1,9 +1,9 @@
 ---
-title: GetPublishedPersonDocumentsByDate
+title: POST Agents/Document/GetPublishedPersonDocumentsByDate
 id: v1DocumentAgent_GetPublishedPersonDocumentsByDate
 ---
 
-# GetPublishedPersonDocumentsByDate
+# POST Agents/Document/GetPublishedPersonDocumentsByDate
 
 ```http
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
@@ -98,11 +98,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 15,
+  "PersonId": 494,
   "IncludeProjectDocuments": true,
-  "StartTime": "2012-02-07T14:58:03.8134648+01:00",
-  "EndTime": "2015-06-07T14:58:03.8134648+02:00",
-  "Count": 960
+  "StartTime": "2000-11-19T18:28:48.7099509+01:00",
+  "EndTime": "1999-08-13T18:28:48.7099509+02:00",
+  "Count": 3
 }
 ```
 
@@ -112,24 +112,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 755,
-    "Attention": "incidunt",
-    "Header": "quis",
-    "Name": "Hickle-White",
-    "OurRef": "ut",
-    "YourRef": "quia",
-    "Description": "Assimilated non-volatile hub",
-    "DocumentTemplate": "nisi",
+    "DocumentId": 676,
+    "Attention": "excepturi",
+    "Header": "sint",
+    "Name": "Koss Inc and Sons",
+    "OurRef": "voluptatem",
+    "YourRef": "eius",
+    "Description": "Versatile foreground contingency",
+    "DocumentTemplate": "corporis",
     "IsPublished": true,
-    "PersonId": 943,
-    "PersonFullName": "Jake Hegmann",
-    "AssociateFullName": "Jasen Bogisich",
-    "ContactId": 106,
-    "ContactName": "Bernhard Inc and Sons",
-    "ProjectId": 390,
-    "ProjectName": "Bergnaum, Price and Goyette",
-    "AssociateId": 99,
-    "Snum": 28,
+    "PersonId": 222,
+    "PersonFullName": "Ms. Myrtis Waters",
+    "AssociateFullName": "Mikayla Schmidt",
+    "ContactId": 680,
+    "ContactName": "Kemmer LLC",
+    "ProjectId": 682,
+    "ProjectName": "Blick-Bruen",
+    "AssociateId": 763,
+    "Snum": 517,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldLength": 214
       }
     }
   }

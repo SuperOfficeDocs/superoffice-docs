@@ -1,9 +1,9 @@
 ---
-title: GetForeignDevice
+title: POST Agents/ForeignSystem/GetForeignDevice
 id: v1ForeignSystemAgent_GetForeignDevice
 ---
 
-# GetForeignDevice
+# POST Agents/ForeignSystem/GetForeignDevice
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=729
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=982
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -87,15 +87,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 96,
-  "Name": "Nienow-Schuppe",
-  "CreatedDate": "2006-04-09T14:58:04.3104636+02:00",
-  "UpdatedDate": "1997-07-01T14:58:04.3104636+02:00",
-  "AssociateFullName": "Craig Maggio",
-  "CreatedBy": "porro",
-  "UpdatedBy": "totam",
-  "DeviceIdentifier": "expedita",
-  "ForeignAppId": 152,
+  "ForeignDeviceId": 872,
+  "Name": "Mayert LLC",
+  "CreatedDate": "2009-08-12T18:28:49.2181179+02:00",
+  "UpdatedDate": "2018-04-08T18:28:49.2181179+02:00",
+  "AssociateFullName": "Estelle Gutmann",
+  "CreatedBy": "aut",
+  "UpdatedBy": "dicta",
+  "DeviceIdentifier": "dicta",
+  "ForeignAppId": 385,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: DeleteTemporaryKeysOfDomain
+title: POST Agents/Person/DeleteTemporaryKeysOfDomain
 id: v1PersonAgent_DeleteTemporaryKeysOfDomain
 ---
 
-# DeleteTemporaryKeysOfDomain
+# POST Agents/Person/DeleteTemporaryKeysOfDomain
 
 ```http
 POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain

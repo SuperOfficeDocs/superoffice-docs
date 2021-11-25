@@ -78,7 +78,7 @@ Response body: object
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 864,
-  "AssociateId": 109,
-  "Caption": "consequatur",
+  "DashboardId": 756,
+  "AssociateId": 597,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 240,
-      "Caption": "distinctio",
-      "Description": "Streamlined clear-thinking challenge",
-      "ChartName": "Hahn, Bosco and Farrell",
-      "ChartId": "reiciendis",
+      "DashboardTileId": 886,
+      "Caption": "inventore",
+      "Description": "Synergistic motivating core",
+      "ChartName": "Crooks, Ryan and Rath",
+      "ChartId": "sed",
       "IsDefault": true,
-      "AssociateId": 981,
-      "GroupId": 984,
-      "SelectionId": 637,
-      "Config": "sunt",
+      "AssociateId": 105,
+      "GroupId": 452,
+      "SelectionId": 338,
+      "Config": "dolores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 796
         }
       }
     }
@@ -133,10 +133,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "extend wireless e-services"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   },
   "_Links": {

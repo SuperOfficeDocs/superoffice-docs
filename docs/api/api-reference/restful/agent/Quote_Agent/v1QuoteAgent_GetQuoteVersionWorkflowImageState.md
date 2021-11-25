@@ -1,9 +1,9 @@
 ---
-title: GetQuoteVersionWorkflowImageState
+title: POST Agents/Quote/GetQuoteVersionWorkflowImageState
 id: v1QuoteAgent_GetQuoteVersionWorkflowImageState
 ---
 
-# GetQuoteVersionWorkflowImageState
+# POST Agents/Quote/GetQuoteVersionWorkflowImageState
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 843
+  "QuoteVersionId": 573
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "ut",
-  "DisplayText": "nam",
-  "TooltipText": "quis",
+  "ImageHint": "sequi",
+  "DisplayText": "et",
+  "TooltipText": "non",
   "Enabled": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "whiteboard front-end e-business"
   },
   "FieldProperties": {
     "fieldName": {
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

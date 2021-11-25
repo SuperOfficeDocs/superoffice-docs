@@ -1,9 +1,9 @@
 ---
-title: GetCustomerServiceStartup
+title: POST Agents/CustomerService/GetCustomerServiceStartup
 id: v1CustomerServiceAgent_GetCustomerServiceStartup
 ---
 
-# GetCustomerServiceStartup
+# POST Agents/CustomerService/GetCustomerServiceStartup
 
 ```http
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
@@ -71,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -79,9 +79,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": true,
-  "TZOffset": 479,
-  "RecaptchaSiteKey": "tempora",
+  "TimezoneEnabled": false,
+  "TZOffset": 269,
+  "RecaptchaSiteKey": "consequatur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 362
     }
   }
 }

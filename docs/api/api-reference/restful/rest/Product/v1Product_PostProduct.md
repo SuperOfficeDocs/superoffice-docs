@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 611,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "qui",
-  "Name": "Spencer, Koch and Schamberger",
-  "Description": "Decentralized executive Graphical User Interface",
-  "Code": "corrupti",
-  "PriceUnit": "perferendis",
-  "QuantityUnit": "et",
+  "ProductId": 41,
+  "ERPProductKey": "quae",
+  "ERPPriceListKey": "earum",
+  "Name": "Lowe Group",
+  "Description": "Managed contextually-based contingency",
+  "Code": "qui",
+  "PriceUnit": "voluptas",
+  "QuantityUnit": "quia",
   "IsSubscription": false,
-  "SubscriptionUnit": "velit",
-  "DefaultSubscriptionQuantity": 9774.946,
-  "ItemNumber": "443234",
+  "SubscriptionUnit": "dolor",
+  "DefaultSubscriptionQuantity": 25883.706,
+  "ItemNumber": "683118",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "et",
-  "VAT": 12404.372,
-  "VATInfo": "natus",
-  "UnitCost": 4011.52,
-  "UnitMinimumPrice": 28976.964,
-  "UnitListPrice": 16864.054,
-  "InAssortment": true,
-  "Supplier": "incidunt",
-  "SupplierCode": "neque",
-  "Rights": "itaque",
-  "Rule": "quia",
+  "ProductFamilyKey": "minus",
+  "ProductTypeKey": "praesentium",
+  "VAT": 5487.634,
+  "VATInfo": "in",
+  "UnitCost": 16832.714,
+  "UnitMinimumPrice": 1651.618,
+  "UnitListPrice": 20060.734,
+  "InAssortment": false,
+  "Supplier": "facilis",
+  "SupplierCode": "sequi",
+  "Rights": "ipsam",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Wiegand-Hills",
-      "Value": "accusantium",
+      "Name": "Hand, Spinka and Powlowski",
+      "Value": "aperiam",
       "Type": "Image"
     },
     {
-      "Name": "Wiegand-Hills",
-      "Value": "accusantium",
+      "Name": "Hand, Spinka and Powlowski",
+      "Value": "aperiam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "harum",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "nihil",
-  "ExtraField3": "veniam",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "provident",
-  "InStock": 29265.291999999998
+  "RawExtraInfo": "at",
+  "ExtraField1": "veniam",
+  "ExtraField2": "quia",
+  "ExtraField3": "labore",
+  "ExtraField4": "illo",
+  "ExtraField5": "harum",
+  "InStock": 11786.974
 }
 ```
 
@@ -201,36 +201,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 530,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "exercitationem",
-  "Name": "Murazik-Zboncak",
-  "Description": "Reactive grid-enabled throughput",
-  "Code": "aut",
-  "PriceUnit": "numquam",
-  "QuantityUnit": "necessitatibus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "in",
-  "DefaultSubscriptionQuantity": 23395.309999999998,
-  "ItemNumber": "1169263",
+  "ProductId": 392,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "incidunt",
+  "Name": "Howell, Gislason and Jast",
+  "Description": "Versatile holistic instruction set",
+  "Code": "vitae",
+  "PriceUnit": "voluptatum",
+  "QuantityUnit": "quis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 18901.154,
+  "ItemNumber": "148842",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "laborum",
-  "VAT": 6487.38,
-  "VATInfo": "non",
-  "UnitCost": 12620.618,
-  "UnitMinimumPrice": 25109.608,
-  "UnitListPrice": 4268.508,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "velit",
+  "VAT": 12689.565999999999,
+  "VATInfo": "voluptatem",
+  "UnitCost": 7076.572,
+  "UnitMinimumPrice": 5349.7379999999994,
+  "UnitListPrice": 17067.764,
   "InAssortment": false,
-  "Supplier": "optio",
-  "SupplierCode": "in",
-  "Rights": "suscipit",
-  "Rule": "sit",
+  "Supplier": "est",
+  "SupplierCode": "cupiditate",
+  "Rights": "aut",
+  "Rule": "harum",
   "ExtraInfo": [
     {
-      "Name": "O'Conner-Kuhn",
-      "Value": "est",
+      "Name": "Huels-Gleichner",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -239,14 +239,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     },
     {
-      "Name": "O'Conner-Kuhn",
-      "Value": "est",
+      "Name": "Huels-Gleichner",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -255,19 +255,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "eos",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "quam",
-  "ExtraField5": "quos",
-  "InStock": 1259.868,
+  "RawExtraInfo": "ipsum",
+  "ExtraField1": "dolor",
+  "ExtraField2": "itaque",
+  "ExtraField3": "aut",
+  "ExtraField4": "eos",
+  "ExtraField5": "cumque",
+  "InStock": 7640.692,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldLength": 179
     }
   }
 }

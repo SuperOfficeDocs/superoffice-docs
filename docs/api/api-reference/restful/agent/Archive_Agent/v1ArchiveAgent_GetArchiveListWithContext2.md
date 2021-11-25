@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListWithContext2
+title: POST Agents/Archive/GetArchiveListWithContext2
 id: v1ArchiveAgent_GetArchiveListWithContext2
 ---
 
-# GetArchiveListWithContext2
+# POST Agents/Archive/GetArchiveListWithContext2
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
@@ -170,18 +170,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bauch, Kemmer and Purdy",
-  "ProviderName": "Cronin Group",
-  "SortOrder": "sunt",
-  "Restriction": "natus",
-  "Entities": "tempora",
-  "Page": 805,
-  "PageSize": 44,
-  "Context": "nisi"
+  "GuiName": "Yost-Blanda",
+  "ProviderName": "Kassulke-Bechtelar",
+  "SortOrder": "est",
+  "Restriction": "exercitationem",
+  "Entities": "inventore",
+  "Page": 604,
+  "PageSize": 306,
+  "Context": "cum"
 }
 ```
 
@@ -191,17 +191,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Reilly LLC",
-    "PrimaryKey": 181,
+    "EntityName": "Emmerich LLC",
+    "PrimaryKey": 875,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "exercitationem",
-        "TooltipHint": "ducimus",
-        "LinkHint": "molestias"
+        "DisplayValue": "temporibus",
+        "TooltipHint": "qui",
+        "LinkHint": "voluptatem"
       }
     },
-    "LinkHint": "id",
-    "StyleHint": "ea",
+    "LinkHint": "in",
+    "StyleHint": "minus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldLength": 179
       }
     }
   }

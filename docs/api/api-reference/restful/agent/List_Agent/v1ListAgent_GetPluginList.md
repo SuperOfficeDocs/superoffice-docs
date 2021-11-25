@@ -1,9 +1,9 @@
 ---
-title: GetPluginList
+title: POST Agents/List/GetPluginList
 id: v1ListAgent_GetPluginList
 ---
 
-# GetPluginList
+# POST Agents/List/GetPluginList
 
 ```http
 POST /api/v1/Agents/List/GetPluginList
@@ -59,7 +59,7 @@ Response body: object
 POST /api/v1/Agents/List/GetPluginList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "adipisci",
-  "2": "soluta"
+  "1": "quos",
+  "2": "molestias"
 }
 ```

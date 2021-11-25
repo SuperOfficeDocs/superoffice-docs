@@ -67,7 +67,7 @@ Response body: object
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -75,35 +75,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 486,
+  "TopicId": 63,
   "User": {
-    "AssociateId": 274,
-    "Name": "Raynor Group",
-    "PersonId": 768,
-    "Rank": 901,
-    "Tooltip": "non",
+    "AssociateId": 518,
+    "Name": "Waters-Robel",
+    "PersonId": 88,
+    "Rank": 759,
+    "Tooltip": "eos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 691,
-    "FullName": "Wilson Gislason",
-    "FormalName": "Kutch-Beahan",
+    "GroupIdx": 858,
+    "FullName": "Johnathan Strosin",
+    "FormalName": "Glover-Wuckert",
     "Deleted": true,
-    "EjUserId": 66,
-    "UserName": "Shanahan-Tremblay",
+    "EjUserId": 157,
+    "UserName": "Moen Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "integrate viral schemas"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 356
       }
     }
   },
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": true,
-  "CanManage": false,
-  "CanNotify": true
+  "CanManage": true,
+  "CanNotify": false
 }
 ```

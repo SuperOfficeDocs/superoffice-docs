@@ -1,9 +1,9 @@
 ---
-title: SavePreferenceDescriptionLine
+title: POST Agents/Preference/SavePreferenceDescriptionLine
 id: v1PreferenceAgent_SavePreferenceDescriptionLine
 ---
 
-# SavePreferenceDescriptionLine
+# POST Agents/Preference/SavePreferenceDescriptionLine
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
@@ -82,11 +82,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 370,
-  "PrefDescId": 785,
-  "PrefValue": "velit",
-  "PrefShowValue": "nulla",
-  "Description": "Cross-group well-modulated open system",
+  "PrefDescLineId": 80,
+  "PrefDescId": 825,
+  "PrefValue": "blanditiis",
+  "PrefShowValue": "ullam",
+  "Description": "Fully-configurable interactive capability",
   "IsBuiltin": true
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 127,
-  "PrefDescId": 967,
-  "PrefValue": "sit",
-  "PrefShowValue": "tenetur",
-  "Description": "Profit-focused empowering collaboration",
+  "PrefDescLineId": 52,
+  "PrefDescId": 536,
+  "PrefValue": "et",
+  "PrefShowValue": "atque",
+  "Description": "Expanded uniform functionalities",
   "IsBuiltin": false,
   "TableRight": {
     "Mask": "Delete",
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 389
     }
   }
 }

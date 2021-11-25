@@ -1,9 +1,9 @@
 ---
-title: GetDepartments
+title: POST Agents/List/GetDepartments
 id: v1ListAgent_GetDepartments
 ---
 
-# GetDepartments
+# POST Agents/List/GetDepartments
 
 ```http
 POST /api/v1/Agents/List/GetDepartments
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetDepartments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Value": "dolor",
-    "Tooltip": "id",
+    "Id": 275,
+    "Value": "voluptatem",
+    "Tooltip": "est",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "iterate extensible relationships"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 147
       }
     }
   },
   {
-    "Id": 536,
-    "Value": "dolor",
-    "Tooltip": "id",
+    "Id": 275,
+    "Value": "voluptatem",
+    "Tooltip": "est",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "iterate extensible relationships"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 147
       }
     }
   }

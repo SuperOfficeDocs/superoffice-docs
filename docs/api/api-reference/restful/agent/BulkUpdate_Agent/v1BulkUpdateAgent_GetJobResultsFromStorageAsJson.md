@@ -1,9 +1,9 @@
 ---
-title: GetJobResultsFromStorageAsJson
+title: POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 id: v1BulkUpdateAgent_GetJobResultsFromStorageAsJson
 ---
 
-# GetJobResultsFromStorageAsJson
+# POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 
 ```http
 POST /api/v1/Agents/BulkUpdate/GetJobResultsFromStorageAsJson
@@ -59,7 +59,7 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -67,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "consequatur",
-  "aut"
+  "impedit",
+  "numquam"
 ]
 ```

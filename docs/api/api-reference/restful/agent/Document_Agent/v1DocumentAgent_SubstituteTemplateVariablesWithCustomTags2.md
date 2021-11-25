@@ -1,9 +1,9 @@
 ---
-title: SubstituteTemplateVariablesWithCustomTags2
+title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags2
 id: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags2
 ---
 
-# SubstituteTemplateVariablesWithCustomTags2
+# POST Agents/Document/SubstituteTemplateVariablesWithCustomTags2
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
@@ -82,19 +82,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "assumenda",
+  "Source": "iste",
   "GeneratorEncoding": "Html",
   "CustomTags": {
-    "CustomTags1": "eligendi",
-    "CustomTags2": "explicabo"
+    "CustomTags1": "provident",
+    "CustomTags2": "culpa"
   },
-  "ContactId": 202,
-  "PersonId": 437,
-  "AppointmentId": 465,
-  "DocumentId": 474,
-  "SaleId": 234,
-  "SelectionId": 701,
-  "ProjectId": 686,
+  "ContactId": 728,
+  "PersonId": 16,
+  "AppointmentId": 74,
+  "DocumentId": 562,
+  "SaleId": 941,
+  "SelectionId": 378,
+  "ProjectId": 240,
   "CultureName": "en"
 }
 ```
@@ -103,5 +103,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"labore"
+"qui"
 ```

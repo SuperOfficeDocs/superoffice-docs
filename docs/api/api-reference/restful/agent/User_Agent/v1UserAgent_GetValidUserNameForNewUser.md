@@ -1,9 +1,9 @@
 ---
-title: GetValidUserNameForNewUser
+title: POST Agents/User/GetValidUserNameForNewUser
 id: v1UserAgent_GetValidUserNameForNewUser
 ---
 
-# GetValidUserNameForNewUser
+# POST Agents/User/GetValidUserNameForNewUser
 
 ```http
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
@@ -70,15 +70,15 @@ Response body: string
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 151,
-    "Name": "Bahringer Group",
-    "Rank": 1000,
-    "Tooltip": "eum",
+    "AssociateId": 412,
+    "Name": "Hills Group",
+    "Rank": 96,
+    "Tooltip": "voluptas",
     "LicenseOwners": [
       {},
       {}
@@ -91,31 +91,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2019-06-28T14:58:05.4236227+02:00",
-    "Lastlogout": "2020-05-08T14:58:05.4236227+02:00",
-    "EjUserId": 819,
-    "RequestSignature": "voluptatum",
+    "Lastlogin": "2002-10-05T18:28:50.4224118+02:00",
+    "Lastlogout": "2016-09-02T18:28:50.4224118+02:00",
+    "EjUserId": 998,
+    "RequestSignature": "voluptates",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Schimmel-Rippin",
+    "UserName": "Stiedemann, Goodwin and Labadie",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Brekke, Cruickshank and Lakin",
+    "NickName": "Moore, Batz and White",
     "WaitingForApproval": true,
     "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "ad"
+      "ExtraFields1": "dolore",
+      "ExtraFields2": "quas"
     },
     "CustomFields": {
-      "CustomFields1": "sit",
-      "CustomFields2": "porro"
+      "CustomFields1": "vero",
+      "CustomFields2": "sequi"
     },
     "PostSaveCommands": [
       {},
@@ -129,5 +129,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Roberts-Baumbach"
+"Marks-Mitchell"
 ```

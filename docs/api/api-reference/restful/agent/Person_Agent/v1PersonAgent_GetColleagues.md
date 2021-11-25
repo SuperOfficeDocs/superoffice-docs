@@ -1,9 +1,9 @@
 ---
-title: GetColleagues
+title: POST Agents/Person/GetColleagues
 id: v1PersonAgent_GetColleagues
 ---
 
-# GetColleagues
+# POST Agents/Person/GetColleagues
 
 ```http
 POST /api/v1/Agents/Person/GetColleagues
@@ -112,45 +112,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 81,
-    "Mrmrs": "molestias",
-    "Firstname": "Cassandra",
-    "Lastname": "Osinski",
-    "MiddleName": "Sipes-Hagenes",
-    "Title": "aut",
-    "Description": "Progressive global firmware",
-    "Email": "grover.anderson@ondricka.com",
-    "FullName": "Monique Durgan",
-    "DirectPhone": "166-323-4221",
-    "FormalName": "Mueller, O'Connell and Feil",
-    "CountryId": 290,
-    "ContactId": 854,
-    "ContactName": "Kilback Inc and Sons",
-    "Retired": 320,
-    "Rank": 667,
-    "ActiveInterests": 262,
-    "ContactDepartment": "",
-    "ContactCountryId": 85,
-    "ContactOrgNr": "1009961",
-    "FaxPhone": "231.122.8470",
-    "MobilePhone": "1-261-104-4738 x36834",
-    "ContactPhone": "(471)651-8171 x85266",
-    "AssociateName": "Sawayn-Goyette",
-    "AssociateId": 119,
-    "UsePersonAddress": true,
-    "ContactFax": "atque",
-    "Kanafname": "sunt",
-    "Kanalname": "aut",
-    "Post1": "dolores",
-    "Post2": "nihil",
-    "Post3": "facere",
-    "EmailName": "harley.padberg@howell.info",
-    "ContactFullName": "Mrs. Shyanne Lehner",
-    "ActiveErpLinks": 870,
-    "TicketPriorityId": 511,
-    "SupportLanguageId": 669,
-    "SupportAssociateId": 202,
+    "Position": "illo",
+    "PersonId": 332,
+    "Mrmrs": "sit",
+    "Firstname": "Karley",
+    "Lastname": "McLaughlin",
+    "MiddleName": "O'Connell Group",
+    "Title": "officiis",
+    "Description": "Customizable systematic protocol",
+    "Email": "anahi_mccullough@quigley.co.uk",
+    "FullName": "Lora Stehr PhD",
+    "DirectPhone": "1-015-152-1025",
+    "FormalName": "Rau-Stokes",
+    "CountryId": 461,
+    "ContactId": 161,
+    "ContactName": "Corkery-Muller",
+    "Retired": 710,
+    "Rank": 945,
+    "ActiveInterests": 504,
+    "ContactDepartment": "iterate distributed action-items",
+    "ContactCountryId": 182,
+    "ContactOrgNr": "1136502",
+    "FaxPhone": "162.621.4372 x76733",
+    "MobilePhone": "1-732-840-0187",
+    "ContactPhone": "1-286-446-0171 x05261",
+    "AssociateName": "Hudson Group",
+    "AssociateId": 234,
+    "UsePersonAddress": false,
+    "ContactFax": "laudantium",
+    "Kanafname": "quos",
+    "Kanalname": "rem",
+    "Post1": "rem",
+    "Post2": "id",
+    "Post3": "placeat",
+    "EmailName": "elinore@huels.info",
+    "ContactFullName": "Winnifred Rodriguez",
+    "ActiveErpLinks": 228,
+    "TicketPriorityId": 570,
+    "SupportLanguageId": 223,
+    "SupportAssociateId": 826,
     "CategoryName": "VIP Customer",
     "TableRight": {
       "Mask": "Delete",
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

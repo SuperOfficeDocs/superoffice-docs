@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Legros-Hodkiewicz",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 351,
-    "UdListDefinitionId": 175,
+    "HeadingId": 380,
+    "Name": "Barrows LLC",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "Rank": 523,
+    "UdListDefinitionId": 897,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 493
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetEmailAppointmentRecurrence
+title: POST Agents/EMail/GetEmailAppointmentRecurrence
 id: v1EMailAgent_GetEmailAppointmentRecurrence
 ---
 
-# GetEmailAppointmentRecurrence
+# POST Agents/EMail/GetEmailAppointmentRecurrence
 
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 884
+  "MailItemId": 466
 }
 ```
 
@@ -97,50 +97,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 795,
-  "StartDate": "1997-06-27T14:58:04.0994658+02:00",
-  "EndDate": "2018-12-14T14:58:04.0994658+01:00",
-  "RecurrenceCounter": 225,
+  "RecurrenceId": 879,
+  "StartDate": "1999-07-02T18:28:49.0139564+02:00",
+  "EndDate": "2018-03-12T18:28:49.0139564+01:00",
+  "RecurrenceCounter": 539,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": {
     "Pattern": "EveryCyclicDay",
-    "Cycle": 377
+    "Cycle": 846
   },
   "WeekPattern": {
     "Weekdays": "Friday",
-    "Cycle": 283
+    "Cycle": 225
   },
   "MonthPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 189,
-    "Day": 444,
+    "Cycle": 917,
+    "Day": 952,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "YearPattern": {
     "Pattern": "DayOfMonth",
-    "Cycle": 136,
-    "Day": 479,
+    "Cycle": 128,
+    "Day": 311,
     "Weekday": "Friday",
     "WeekOfMonth": "First"
   },
   "Dates": [
     {
-      "Date": "2010-07-30T14:58:04.0994658+02:00",
-      "IsConflict": false,
-      "Description": "De-engineered tangible concept",
-      "DescriptionStyleHint": "Profound holistic standardization",
-      "Tooltip": "voluptatum"
+      "Date": "2003-04-10T18:28:49.0139564+02:00",
+      "IsConflict": true,
+      "Description": "Operative composite help-desk",
+      "DescriptionStyleHint": "Phased demand-driven frame",
+      "Tooltip": "saepe"
     },
     {
-      "Date": "2010-07-30T14:58:04.0994658+02:00",
-      "IsConflict": false,
-      "Description": "De-engineered tangible concept",
-      "DescriptionStyleHint": "Profound holistic standardization",
-      "Tooltip": "voluptatum"
+      "Date": "2003-04-10T18:28:49.0139564+02:00",
+      "IsConflict": true,
+      "Description": "Operative composite help-desk",
+      "DescriptionStyleHint": "Phased demand-driven frame",
+      "Tooltip": "saepe"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

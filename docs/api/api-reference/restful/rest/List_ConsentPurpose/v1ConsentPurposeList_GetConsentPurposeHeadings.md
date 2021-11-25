@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Rutherford, Erdman and Goodwin",
-    "Tooltip": "fugiat",
-    "Deleted": true,
-    "Rank": 59,
-    "UdListDefinitionId": 135,
+    "HeadingId": 194,
+    "Name": "Mohr Group",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 240,
+    "UdListDefinitionId": 316,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   }

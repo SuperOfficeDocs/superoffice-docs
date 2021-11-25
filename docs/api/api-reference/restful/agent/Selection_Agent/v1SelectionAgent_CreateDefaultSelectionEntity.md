@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultSelectionEntity
+title: POST Agents/Selection/CreateDefaultSelectionEntity
 id: v1SelectionAgent_CreateDefaultSelectionEntity
 ---
 
-# CreateDefaultSelectionEntity
+# POST Agents/Selection/CreateDefaultSelectionEntity
 
 ```http
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
@@ -84,6 +84,7 @@ Response body: object
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -102,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented actuating forecast",
-  "Postit": "quisquam",
+  "Description": "Automated solution-oriented support",
+  "Postit": "animi",
   "Associate": {
-    "AssociateId": 565,
-    "Name": "Crona-Schumm",
-    "PersonId": 965,
-    "Rank": 473,
-    "Tooltip": "numquam",
+    "AssociateId": 987,
+    "Name": "Waelchi, Schoen and Rodriguez",
+    "PersonId": 40,
+    "Rank": 994,
+    "Tooltip": "sunt",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 188,
-    "FullName": "Harold McDermott",
-    "FormalName": "Welch LLC",
-    "Deleted": true,
-    "EjUserId": 39,
-    "UserName": "Torphy-Collier",
+    "GroupIdx": 722,
+    "FullName": "Nona Marvin",
+    "FormalName": "Braun Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 726,
+    "UserName": "Schamberger, Ankunding and Gibson",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -124,49 +125,49 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 108
+        "FieldType": "System.Int32",
+        "FieldLength": 573
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 261,
-    "Name": "Volkman-Legros",
-    "PersonId": 17,
-    "Rank": 289,
-    "Tooltip": "placeat",
+    "AssociateId": 122,
+    "Name": "Greenfelder-Heller",
+    "PersonId": 952,
+    "Rank": 668,
+    "Tooltip": "voluptas",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 693,
-    "FullName": "Cleta Hayes II",
-    "FormalName": "Armstrong, Weber and Berge",
+    "GroupIdx": 69,
+    "FullName": "Camryn Bosco",
+    "FormalName": "Zemlak Group",
     "Deleted": false,
-    "EjUserId": 731,
-    "UserName": "Willms, Breitenberg and Auer",
+    "EjUserId": 804,
+    "UserName": "Herzog Inc and Sons",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "utilize wireless interfaces"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 915
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 1001,
-    "Name": "Rath-Prosacco",
-    "PersonId": 955,
-    "Rank": 996,
-    "Tooltip": "voluptate",
+    "AssociateId": 185,
+    "Name": "Schowalter, Witting and Leuschke",
+    "PersonId": 275,
+    "Rank": 844,
+    "Tooltip": "totam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 924,
-    "FullName": "Cleo Hickle",
-    "FormalName": "Hirthe, Waters and Parker",
-    "Deleted": false,
-    "EjUserId": 872,
-    "UserName": "Nolan LLC",
+    "GroupIdx": 321,
+    "FullName": "Alena Russel",
+    "FormalName": "Beahan, Franecki and Von",
+    "Deleted": true,
+    "EjUserId": 702,
+    "UserName": "Murray, McClure and Schmeler",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -174,15 +175,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 797
       }
     }
   },
   "SelectionCategory": {
-    "Id": 899,
-    "Value": "repudiandae",
-    "Tooltip": "cumque",
+    "Id": 777,
+    "Value": "est",
+    "Tooltip": "ipsam",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -191,49 +192,49 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldLength": 907
       }
     }
   },
-  "GroupIdx": 708,
-  "IncludePerson": 630,
-  "MemberCount": 652,
-  "Name": "Bahringer Inc and Sons",
-  "PostitTextId": 656,
-  "CreatedDate": "2018-12-28T14:58:05.2236284+01:00",
-  "SelectionId": 809,
-  "SoundEx": "voluptas",
-  "Source": 742,
-  "TextId": 282,
-  "UpdatedDate": "2020-11-14T14:58:05.2236284+01:00",
-  "UpdatedCount": 169,
-  "Visibility": 340,
+  "GroupIdx": 358,
+  "IncludePerson": 868,
+  "MemberCount": 796,
+  "Name": "Lind-Muller",
+  "PostitTextId": 322,
+  "CreatedDate": "2003-06-16T18:28:50.2164295+02:00",
+  "SelectionId": 24,
+  "SoundEx": "doloremque",
+  "Source": 292,
+  "TextId": 313,
+  "UpdatedDate": "1998-02-15T18:28:50.2164295+01:00",
+  "UpdatedCount": 556,
+  "Visibility": 963,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 390,
-  "TargetTableName": "Kilback LLC",
-  "Completed": true,
-  "LeftSelectionId": 407,
-  "RightSelectionId": 543,
+  "CompanyUnique": true,
+  "TargetTableNumber": 553,
+  "TargetTableName": "Anderson Group",
+  "Completed": false,
+  "LeftSelectionId": 430,
+  "RightSelectionId": 49,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhn-Murray",
-  "ShadowProviderName": "Kutch LLC",
-  "ChartKey": "non",
-  "LastLoaded": "2003-05-03T14:58:05.2236284+02:00",
-  "LastLoadedBy": 304,
+  "MainProviderName": "Ernser Group",
+  "ShadowProviderName": "McLaughlin-Abshire",
+  "ChartKey": "qui",
+  "LastLoaded": "1997-06-19T18:28:50.2174131+02:00",
+  "LastLoadedBy": 52,
   "LastLoadedByAssociate": {
-    "AssociateId": 35,
-    "Name": "Stanton-White",
-    "PersonId": 992,
-    "Rank": 456,
-    "Tooltip": "repellat",
+    "AssociateId": 243,
+    "Name": "Ernser Inc and Sons",
+    "PersonId": 262,
+    "Rank": 126,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 673,
-    "FullName": "Avis Rogahn",
-    "FormalName": "Kris, Kessler and Jerde",
-    "Deleted": false,
-    "EjUserId": 762,
-    "UserName": "Collins Inc and Sons",
+    "GroupIdx": 507,
+    "FullName": "Kyleigh Botsford",
+    "FormalName": "Bashirian-Grant",
+    "Deleted": true,
+    "EjUserId": 830,
+    "UserName": "Mayert, Bahringer and Hickle",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -242,45 +243,46 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldLength": 99
       }
     }
   },
-  "LastMembershipChange": "2008-12-03T14:58:05.2236284+01:00",
-  "LastMembershipChangeBy": 586,
+  "LastMembershipChange": "2002-09-29T18:28:50.2174131+02:00",
+  "LastMembershipChangeBy": 540,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 721,
-    "Name": "Ebert-Rolfson",
-    "PersonId": 361,
-    "Rank": 866,
-    "Tooltip": "facilis",
+    "AssociateId": 952,
+    "Name": "Hilll Inc and Sons",
+    "PersonId": 977,
+    "Rank": 505,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 442,
-    "FullName": "Zackary Johns IV",
-    "FormalName": "Strosin, Kreiger and Koch",
-    "Deleted": false,
-    "EjUserId": 706,
-    "UserName": "Beier, Wolf and Ullrich",
+    "GroupIdx": 546,
+    "FullName": "Sherwood Mitchell",
+    "FormalName": "Morar, Lind and Hills",
+    "Deleted": true,
+    "EjUserId": 130,
+    "UserName": "Kihn-Gutkowski",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "enhance granular web-readiness"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldType": "System.String",
+        "FieldLength": 700
       }
     }
   },
-  "MainHeading": "molestiae",
-  "MemberTabHeading": "eum",
-  "MailingsProviderName": "Little, Gorczany and Crona",
+  "MainHeading": "qui",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Douglas-Schaden",
+  "DashboardTileDefinitionId": 139,
   "VisibleFor": [
     {
-      "VisibleId": 463,
+      "VisibleId": 295,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nam",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -289,14 +291,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 962
         }
       }
     },
     {
-      "VisibleId": 463,
+      "VisibleId": 295,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nam",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -305,7 +307,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 962
         }
       }
     }
@@ -320,8 +322,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

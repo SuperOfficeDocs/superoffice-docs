@@ -1,9 +1,9 @@
 ---
-title: RebuildUdefDeltas
+title: POST Agents/Configuration/RebuildUdefDeltas
 id: v1ConfigurationAgent_RebuildUdefDeltas
 ---
 
-# RebuildUdefDeltas
+# POST Agents/Configuration/RebuildUdefDeltas
 
 ```http
 POST /api/v1/Agents/Configuration/RebuildUdefDeltas

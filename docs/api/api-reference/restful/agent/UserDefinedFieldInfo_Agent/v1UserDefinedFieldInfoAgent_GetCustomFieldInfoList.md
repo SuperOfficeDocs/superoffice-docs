@@ -1,9 +1,9 @@
 ---
-title: GetCustomFieldInfoList
+title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
 ---
 
-# GetCustomFieldInfoList
+# POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stoltenberg-Ullrich",
-  "IncludeStandard": false
+  "TableName": "Murray-Sipes",
+  "IncludeStandard": true
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kutch-Boyer",
-    "DisplayName": "Raynor LLC",
-    "Description": "Operative grid-enabled database",
-    "ShortLabel": "soluta",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 788,
-    "TemplateVariableName": "Monahan-Pouros"
+    "FieldName": "O'Keefe-Koch",
+    "DisplayName": "Bosco-Pacocha",
+    "Description": "Cloned holistic emulation",
+    "ShortLabel": "eum",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 978,
+    "TemplateVariableName": "Jerde, Gorczany and Nader"
   }
 ]
 ```

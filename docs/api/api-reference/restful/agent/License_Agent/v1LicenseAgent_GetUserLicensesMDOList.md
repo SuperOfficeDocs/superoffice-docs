@@ -1,9 +1,9 @@
 ---
-title: GetUserLicensesMDOList
+title: POST Agents/License/GetUserLicensesMDOList
 id: v1LicenseAgent_GetUserLicensesMDOList
 ---
 
-# GetUserLicensesMDOList
+# POST Agents/License/GetUserLicensesMDOList
 
 ```http
 POST /api/v1/Agents/License/GetUserLicensesMDOList
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -87,36 +87,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Langworth-Murphy",
-    "ToolTip": "Modi ducimus ex eum enim explicabo facilis.",
-    "Deleted": true,
-    "Rank": 56,
-    "Type": "est",
-    "ColorBlock": 86,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2018-12-06T14:58:04.3324599+01:00",
+    "Id": 253,
+    "Name": "Fadel, Davis and Berge",
+    "ToolTip": "Dolor voluptas voluptas animi.",
+    "Deleted": false,
+    "Rank": 907,
+    "Type": "quidem",
+    "ColorBlock": 525,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2011-09-01T18:28:49.2441178+02:00",
     "ChildItems": [
       {
-        "Id": 756,
-        "Name": "Sporer Group",
-        "ToolTip": "Pariatur ut quidem assumenda sequi quas officiis.",
+        "Id": 499,
+        "Name": "Ritchie Group",
+        "ToolTip": "Dolores dolorum facere reiciendis quisquam quo magni.",
         "Deleted": true,
-        "Rank": 34,
-        "Type": "architecto",
-        "ColorBlock": 778,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2006-12-26T14:58:04.3324599+01:00",
+        "Rank": 544,
+        "Type": "dolorum",
+        "ColorBlock": 5,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2004-06-30T18:28:49.2441178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "delectus",
+        "ExtraInfo": "dolores",
+        "StyleHint": "veniam",
         "Hidden": true,
-        "FullName": "Edna Parisian",
+        "FullName": "Anais Kling",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -125,15 +125,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "tempore",
-    "Hidden": false,
-    "FullName": "Gabe Krajcik",
+    "ExtraInfo": "sed",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Alverta Kessler",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -142,10 +142,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "grow cross-media action-items"
         },
         "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldLength": 19
       }
     }
   }

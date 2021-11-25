@@ -78,7 +78,7 @@ Response body: array
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Auer, Gaylord and Spencer",
-    "AssociateId": 702,
-    "DetailsTable": 40,
-    "DetailsRecord": 947,
+    "Id": 446,
+    "Name": "Kassulke Inc and Sons",
+    "AssociateId": 885,
+    "DetailsTable": 807,
+    "DetailsRecord": 354,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ipsam",
-      "ParameterObject2": "et"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "expedita"
     },
-    "LastStarted": "2010-09-20T15:05:42.9696325+02:00",
-    "Created": "2012-05-05T15:05:42.9696325+02:00",
-    "StartCount": 268,
-    "DatabaseSerialNumber": "651269",
-    "Context": "quisquam",
-    "Result": "consectetur",
+    "LastStarted": "2021-07-20T18:25:51.328106+02:00",
+    "Created": "2011-12-19T18:25:51.328106+01:00",
+    "StartCount": 653,
+    "DatabaseSerialNumber": "1546212",
+    "Context": "ut",
+    "Result": "est",
     "State": "All",
-    "Description": "Operative clear-thinking firmware",
+    "Description": "Progressive 5th generation forecast",
     "Response": "et",
-    "Request": "magni",
-    "ProgressDescription": "Optimized composite standardization",
-    "ProgressPercent": 332,
-    "FileName": "Mitchell Inc and Sons",
+    "Request": "quia",
+    "ProgressDescription": "Reverse-engineered next generation open architecture",
+    "ProgressPercent": 425,
+    "FileName": "Monahan-Collier",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldLength": 379
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: SavePreferenceDescription
+title: POST Agents/Preference/SavePreferenceDescription
 id: v1PreferenceAgent_SavePreferenceDescription
 ---
 
-# SavePreferenceDescription
+# POST Agents/Preference/SavePreferenceDescription
 
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescription
@@ -106,24 +106,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 883,
-  "Section": "iste",
-  "Key": "cumque",
-  "Name": "Strosin-Towne",
+  "PrefDescId": 21,
+  "Section": "minus",
+  "Key": "asperiores",
+  "Name": "Padberg Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide well-modulated internet solution",
+  "Description": "Multi-tiered 4th generation local area network",
   "IsBuiltin": true,
-  "TableName": "DuBuque Inc and Sons",
-  "UserDefinedListId": 679,
-  "Rank": 108,
-  "SubGroup": "et",
-  "MinLevel": 716,
-  "MaxValue": 559,
-  "MinValue": 198,
-  "RequiredLicense": "vel"
+  "TableName": "Kutch, Torp and Herman",
+  "UserDefinedListId": 440,
+  "Rank": 330,
+  "SubGroup": "possimus",
+  "MinLevel": 213,
+  "MaxValue": 917,
+  "MinValue": 923,
+  "RequiredLicense": "soluta"
 }
 ```
 
@@ -132,24 +132,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 39,
-  "Section": "magni",
-  "Key": "veritatis",
-  "Name": "Fritsch-Rolfson",
+  "PrefDescId": 235,
+  "Section": "autem",
+  "Key": "et",
+  "Name": "Carroll Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused bottom-line complexity",
+  "Description": "Enhanced empowering hub",
   "IsBuiltin": false,
-  "TableName": "Roberts Group",
-  "UserDefinedListId": 844,
-  "Rank": 457,
-  "SubGroup": "porro",
-  "MinLevel": 758,
-  "MaxValue": 119,
-  "MinValue": 295,
-  "RequiredLicense": "ducimus",
+  "TableName": "Kuhlman-Lesch",
+  "UserDefinedListId": 552,
+  "Rank": 811,
+  "SubGroup": "magni",
+  "MinLevel": 382,
+  "MaxValue": 212,
+  "MinValue": 104,
+  "RequiredLicense": "repellat",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

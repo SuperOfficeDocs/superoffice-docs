@@ -1,9 +1,9 @@
 ---
-title: GetQuoteFromSaleId
+title: POST Agents/Quote/GetQuoteFromSaleId
 id: v1QuoteAgent_GetQuoteFromSaleId
 ---
 
-# GetQuoteFromSaleId
+# POST Agents/Quote/GetQuoteFromSaleId
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 3
+  "SaleId": 446
 }
 ```
 
@@ -104,55 +104,55 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 375,
-  "SaleId": 896,
-  "QuoteConnectionId": 783,
-  "ERPQuoteKey": "sit",
-  "ERPOrderKey": "rem",
-  "ActiveQuoteVersionId": 866,
-  "AcceptedQuoteAlternativeId": 46,
-  "UseValuesFromQuote": 329,
-  "DocumentId": 654,
-  "PoNumber": "978402",
-  "OrderComment": "quo",
-  "PreferredEmailCulture": "jeremie@willms.name",
+  "QuoteId": 547,
+  "SaleId": 800,
+  "QuoteConnectionId": 501,
+  "ERPQuoteKey": "nisi",
+  "ERPOrderKey": "cumque",
+  "ActiveQuoteVersionId": 456,
+  "AcceptedQuoteAlternativeId": 108,
+  "UseValuesFromQuote": 482,
+  "DocumentId": 10,
+  "PoNumber": "668113",
+  "OrderComment": "nobis",
+  "PreferredEmailCulture": "rosanna@thompsonhackett.com",
   "ActiveQuoteVersion": {
-    "QuoteVersionId": 5,
-    "ERPQuoteVersionKey": "non",
-    "QuoteId": 430,
-    "Description": "Ameliorated methodical moderator",
-    "Number": "1217879",
+    "QuoteVersionId": 336,
+    "ERPQuoteVersionKey": "in",
+    "QuoteId": 101,
+    "Description": "User-friendly leading edge forecast",
+    "Number": "933185",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 174,
-    "SentDate": "2018-08-24T14:58:05.0064661+02:00",
-    "FollowupId": 853,
-    "ExpirationDate": "2005-02-03T14:58:05.0064661+01:00",
-    "DeliveryCountryId": 913,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 904,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "adipisci",
-    "ERPPaymentTypeKey": "ipsam",
-    "ERPDeliveryTermsKey": "ea",
-    "ERPDeliveryTypeKey": "odit",
-    "Rank": 12,
-    "ApprovedBy": 191,
-    "ApprovedText": "alias",
-    "ApprovedRegisteredBy": 687,
-    "ApprovedRegisteredDate": "2011-07-10T14:58:05.0064661+02:00",
-    "ExtraField1": "magnam",
-    "ExtraField2": "nemo",
-    "ExtraField3": "dolorem",
-    "ExtraField4": "nobis",
-    "ExtraField5": "nisi",
-    "LastRecalculated": "2005-08-27T14:58:05.0064661+02:00",
-    "Updated": "2020-12-12T14:58:05.0064661+01:00",
-    "UpdatedAssociateId": 605,
-    "Registered": "2005-03-04T14:58:05.0064661+01:00",
-    "RegisteredAssociateId": 577,
+    "LikelyQuoteAlternativeId": 224,
+    "SentDate": "2009-02-08T18:28:49.9941378+01:00",
+    "FollowupId": 961,
+    "ExpirationDate": "2007-05-04T18:28:49.9941378+02:00",
+    "DeliveryCountryId": 487,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 462,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "sunt",
+    "ERPPaymentTypeKey": "doloribus",
+    "ERPDeliveryTermsKey": "consequatur",
+    "ERPDeliveryTypeKey": "recusandae",
+    "Rank": 752,
+    "ApprovedBy": 324,
+    "ApprovedText": "molestiae",
+    "ApprovedRegisteredBy": 203,
+    "ApprovedRegisteredDate": "2016-02-13T18:28:49.9941378+01:00",
+    "ExtraField1": "molestiae",
+    "ExtraField2": "iure",
+    "ExtraField3": "aliquid",
+    "ExtraField4": "impedit",
+    "ExtraField5": "ab",
+    "LastRecalculated": "2004-09-04T18:28:49.9941378+02:00",
+    "Updated": "2009-12-24T18:28:49.9941378+01:00",
+    "UpdatedAssociateId": 187,
+    "Registered": "2015-11-26T18:28:49.9941378+01:00",
+    "RegisteredAssociateId": 234,
     "QuoteAlternatives": [
       {},
       {}
@@ -162,37 +162,37 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "streamline wireless platforms"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldLength": 849
       }
     }
   },
   "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 964,
-    "ERPQuoteAlternativeKey": "atque",
-    "QuoteVersionId": 239,
-    "Name": "Romaguera-Hegmann",
-    "Description": "Synergistic empowering moratorium",
+    "QuoteAlternativeId": 872,
+    "ERPQuoteAlternativeKey": "necessitatibus",
+    "QuoteVersionId": 730,
+    "Name": "Labadie Group",
+    "Description": "Fully-configurable methodical moderator",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 22915.808,
-    "ERPDiscountAmount": 18753.856,
-    "DiscountPercent": 28939.356,
-    "DiscountAmount": 18938.762,
+    "ERPDiscountPercent": 30590.974,
+    "ERPDiscountAmount": 15748.35,
+    "DiscountPercent": 347.87399999999997,
+    "DiscountAmount": 20342.793999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "omnis",
-    "VAT": 21433.426,
-    "EarningPercent": 28845.336,
-    "EarningAmount": 7045.232,
-    "SubTotal": 22856.262,
-    "TotalPrice": 16077.42,
-    "ExtraField1": "nam",
-    "ExtraField2": "quia",
-    "ExtraField3": "et",
-    "ExtraField4": "non",
-    "ExtraField5": "inventore",
+    "VATInfo": "aspernatur",
+    "VAT": 21355.076,
+    "EarningPercent": 3441.132,
+    "EarningAmount": 12288.413999999999,
+    "SubTotal": 7722.1759999999995,
+    "TotalPrice": 18995.174,
+    "ExtraField1": "ea",
+    "ExtraField2": "fuga",
+    "ExtraField3": "cumque",
+    "ExtraField4": "voluptas",
+    "ExtraField5": "beatae",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldLength": 197
       }
     }
   },
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 66
     }
   }
 }

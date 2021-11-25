@@ -1,9 +1,9 @@
 ---
-title: GetDefaultOrderBy
+title: POST Agents/Find/GetDefaultOrderBy
 id: v1FindAgent_GetDefaultOrderBy
 ---
 
-# GetDefaultOrderBy
+# POST Agents/Find/GetDefaultOrderBy
 
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderBy
@@ -78,9 +78,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Rolfson, Aufderhar and Gerhold",
-  "StorageKey": "voluptas"
+  "StorageType": "harum",
+  "ProviderName": "Brakus-Lang",
+  "StorageKey": "dolorem"
 }
 ```
 
@@ -90,11 +90,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon, McLaughlin and West",
+    "Name": "Stokes Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Leannon, McLaughlin and West",
+    "Name": "Stokes Inc and Sons",
     "Direction": "ASC"
   }
 ]

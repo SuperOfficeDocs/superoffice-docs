@@ -1,9 +1,9 @@
 ---
-title: RejectWithSmtpEmailConfirmation
+title: POST Agents/Appointment/RejectWithSmtpEmailConfirmation
 id: v1AppointmentAgent_RejectWithSmtpEmailConfirmation
 ---
 
-# RejectWithSmtpEmailConfirmation
+# POST Agents/Appointment/RejectWithSmtpEmailConfirmation
 
 ```http
 POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation

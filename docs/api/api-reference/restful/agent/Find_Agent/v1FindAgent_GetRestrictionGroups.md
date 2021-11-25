@@ -1,9 +1,9 @@
 ---
-title: GetRestrictionGroups
+title: POST Agents/Find/GetRestrictionGroups
 id: v1FindAgent_GetRestrictionGroups
 ---
 
-# GetRestrictionGroups
+# POST Agents/Find/GetRestrictionGroups
 
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroups
@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Boyle, Jaskolski and Gorczany",
-  "StorageKey": "libero",
-  "Context": "sit"
+  "StorageType": "voluptatem",
+  "ProviderName": "Murray, Leannon and Botsford",
+  "StorageKey": "repudiandae",
+  "Context": "inventore"
 }
 ```
 
@@ -94,58 +94,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kessler Inc and Sons",
-    "Description": "Right-sized 3rd generation projection",
-    "Rank": 765,
+    "Name": "Schowalter-Mitchell",
+    "Description": "Profound composite collaboration",
+    "Rank": 161,
     "Restrictions": [
       {
-        "Name": "Rice Inc and Sons",
-        "Operator": "nihil",
+        "Name": "Macejkovic, Schaefer and Bashirian",
+        "Operator": "ut",
         "Values": [
-          "ex",
-          "ut"
+          "reiciendis",
+          "ad"
         ],
         "DisplayValues": [
-          "nisi",
-          "quia"
+          "necessitatibus",
+          "ex"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 167,
+        "InterParenthesis": 987,
         "InterOperator": "And",
-        "UniqueHash": 161
+        "UniqueHash": 52
       }
     ]
   },
   {
-    "Name": "Kessler Inc and Sons",
-    "Description": "Right-sized 3rd generation projection",
-    "Rank": 765,
+    "Name": "Schowalter-Mitchell",
+    "Description": "Profound composite collaboration",
+    "Rank": 161,
     "Restrictions": [
       {
-        "Name": "Rice Inc and Sons",
-        "Operator": "nihil",
+        "Name": "Macejkovic, Schaefer and Bashirian",
+        "Operator": "ut",
         "Values": [
-          "ex",
-          "ut"
+          "reiciendis",
+          "ad"
         ],
         "DisplayValues": [
-          "nisi",
-          "quia"
+          "necessitatibus",
+          "ex"
         ],
         "ColumnInfo": {},
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 167,
+        "InterParenthesis": 987,
         "InterOperator": "And",
-        "UniqueHash": 161
+        "UniqueHash": 52
       }
     ]
   }

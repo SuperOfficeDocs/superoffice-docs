@@ -58,7 +58,7 @@ Response body: object
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -67,7 +67,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 44,
-  "Name": "Bahringer-Breitenberg"
+  "AssociateId": 463,
+  "Name": "McCullough Inc and Sons"
 }
 ```

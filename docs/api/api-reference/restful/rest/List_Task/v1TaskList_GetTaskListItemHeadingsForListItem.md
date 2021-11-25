@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Gerhold LLC",
-    "ToolTip": "Tenetur temporibus laudantium dignissimos ab.",
-    "Deleted": false,
-    "Rank": 648,
-    "Type": "quo",
-    "ColorBlock": 725,
+    "Id": 7,
+    "Name": "Grady Group",
+    "ToolTip": "Officia esse saepe.",
+    "Deleted": true,
+    "Rank": 893,
+    "Type": "aperiam",
+    "ColorBlock": 982,
     "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-04-16T15:05:43.8951226+02:00",
+    "Selected": false,
+    "LastChanged": "1997-08-27T18:25:52.2856766+02:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "Schroeder Inc and Sons",
-        "ToolTip": "Harum consequuntur delectus aliquam excepturi cum fugit.",
-        "Deleted": true,
-        "Rank": 624,
-        "Type": "qui",
-        "ColorBlock": 283,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1995-05-27T15:05:43.8951226+02:00",
+        "Id": 693,
+        "Name": "Fahey Group",
+        "ToolTip": "Doloremque est.",
+        "Deleted": false,
+        "Rank": 51,
+        "Type": "perspiciatis",
+        "ColorBlock": 709,
+        "IconHint": "magnam",
+        "Selected": false,
+        "LastChanged": "1994-09-11T18:25:52.2856766+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Eloise Veum",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Ms. Kyleigh Gottlieb",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,16 +128,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 405
+            "FieldType": "System.Int32",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "itaque",
+    "ExtraInfo": "vel",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Alba Kris",
+    "FullName": "Betsy Strosin",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 199
       }
     }
   }

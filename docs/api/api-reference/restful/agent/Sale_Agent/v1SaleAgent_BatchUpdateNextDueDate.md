@@ -1,9 +1,9 @@
 ---
-title: BatchUpdateNextDueDate
+title: POST Agents/Sale/BatchUpdateNextDueDate
 id: v1SaleAgent_BatchUpdateNextDueDate
 ---
 
-# BatchUpdateNextDueDate
+# POST Agents/Sale/BatchUpdateNextDueDate
 
 ```http
 POST /api/v1/Agents/Sale/BatchUpdateNextDueDate

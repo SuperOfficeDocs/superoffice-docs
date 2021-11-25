@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Beatty Inc and Sons",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 935,
-    "UdListDefinitionId": 356
+    "HeadingId": 136,
+    "Name": "Hand-Nikolaus",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 306,
+    "UdListDefinitionId": 310
   },
   {
-    "HeadingId": 72,
-    "Name": "Beatty Inc and Sons",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 935,
-    "UdListDefinitionId": 356
+    "HeadingId": 136,
+    "Name": "Hand-Nikolaus",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 306,
+    "UdListDefinitionId": 310
   }
 ]
 ```
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 902,
-    "Name": "Mraz-Gleichner",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 290,
-    "UdListDefinitionId": 243,
+    "HeadingId": 957,
+    "Name": "Waelchi-Gottlieb",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 595,
+    "UdListDefinitionId": 379,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deploy value-added e-tailers"
     },
     "FieldProperties": {
       "fieldName": {
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

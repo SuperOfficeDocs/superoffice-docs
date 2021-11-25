@@ -1,9 +1,9 @@
 ---
-title: GetAllPriceListsByCurrencyId
+title: POST Agents/Quote/GetAllPriceListsByCurrencyId
 id: v1QuoteAgent_GetAllPriceListsByCurrencyId
 ---
 
-# GetAllPriceListsByCurrencyId
+# POST Agents/Quote/GetAllPriceListsByCurrencyId
 
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
@@ -83,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 452,
-  "CurrencyId": 30
+  "QuoteConnectionId": 846,
+  "CurrencyId": 752
 }
 ```
 
@@ -98,28 +98,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 511,
-    "ERPPriceListKey": "voluptatem",
-    "QuoteConnectionId": 152,
-    "Name": "Hilll, Hahn and Adams",
-    "Description": "Public-key full-range portal",
-    "Currency": "eum",
-    "CurrencyName": "Monahan, Shanahan and Schuppe",
-    "ValidFrom": "2003-04-11T14:58:04.9714656+02:00",
-    "ValidTo": "2000-10-26T14:58:04.9714656+02:00",
+    "PriceListId": 37,
+    "ERPPriceListKey": "reiciendis",
+    "QuoteConnectionId": 43,
+    "Name": "Rowe, Blanda and Reilly",
+    "Description": "Ameliorated assymetric focus group",
+    "Currency": "consequuntur",
+    "CurrencyName": "Funk-Herman",
+    "ValidFrom": "2013-06-05T18:28:49.9451373+02:00",
+    "ValidTo": "2018-12-19T18:28:49.9451373+01:00",
     "IsActive": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "optimize strategic platforms"
+      "Reason": "leverage frictionless experiences"
     },
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "implement world-class synergies"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Quitzon, Kutch and Tremblay",
-    "DisplayName": "Koepp-Ratke",
-    "Description": "Integrated foreground monitoring",
-    "ShortLabel": "dignissimos",
-    "HideLabel": true,
+    "FieldName": "Becker Inc and Sons",
+    "DisplayName": "Nitzsche Group",
+    "Description": "Cloned fresh-thinking website",
+    "ShortLabel": "in",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 348,
-    "TemplateVariableName": "Mante Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 984,
+    "TemplateVariableName": "O'Reilly Group"
   }
 ]
 ```

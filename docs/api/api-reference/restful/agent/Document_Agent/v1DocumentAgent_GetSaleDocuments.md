@@ -1,9 +1,9 @@
 ---
-title: GetSaleDocuments
+title: POST Agents/Document/GetSaleDocuments
 id: v1DocumentAgent_GetSaleDocuments
 ---
 
-# GetSaleDocuments
+# POST Agents/Document/GetSaleDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetSaleDocuments
@@ -90,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 379
+  "SaleId": 536
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 429,
-    "Attention": "sunt",
-    "Header": "quod",
-    "Name": "Beatty Group",
-    "OurRef": "rerum",
-    "YourRef": "et",
-    "Description": "Operative global pricing structure",
-    "DocumentTemplate": "cum",
+    "DocumentId": 978,
+    "Attention": "maxime",
+    "Header": "temporibus",
+    "Name": "Renner-Welch",
+    "OurRef": "earum",
+    "YourRef": "expedita",
+    "Description": "Enhanced 6th generation application",
+    "DocumentTemplate": "similique",
     "IsPublished": false,
-    "PersonId": 280,
-    "PersonFullName": "Dr. Matilda Langworth",
-    "AssociateFullName": "Myrl Kilback",
-    "ContactId": 775,
-    "ContactName": "Maggio Group",
-    "ProjectId": 864,
-    "ProjectName": "Heaney, Block and Kovacek",
-    "AssociateId": 183,
-    "Snum": 874,
+    "PersonId": 148,
+    "PersonFullName": "Chasity Durgan",
+    "AssociateFullName": "Bernardo Boyle",
+    "ContactId": 551,
+    "ContactName": "Collier, Spinka and Block",
+    "ProjectId": 180,
+    "ProjectName": "Batz LLC",
+    "AssociateId": 942,
+    "Snum": 652,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "strategize efficient e-tailers"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

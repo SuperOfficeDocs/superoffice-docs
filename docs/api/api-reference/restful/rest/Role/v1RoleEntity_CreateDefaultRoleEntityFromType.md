@@ -73,7 +73,7 @@ Response body: object
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 221,
-  "Name": "Hudson-Will",
-  "Tooltip": "totam",
+  "RoleId": 925,
+  "Name": "King-Heller",
+  "Tooltip": "iste",
   "RoleType": "Anonymous",
-  "Deleted": 681,
-  "Rank": 971,
-  "Created": "2009-10-30T15:05:42.5726352+01:00",
-  "UseCategories": 43,
+  "Deleted": 99,
+  "Rank": 852,
+  "Created": "2007-05-16T18:25:50.8818867+02:00",
+  "UseCategories": 507,
   "CreatedBy": {
-    "AssociateId": 52,
-    "Name": "Haley, Schulist and Pfeffer",
-    "PersonId": 782,
-    "Rank": 572,
-    "Tooltip": "iure",
+    "AssociateId": 559,
+    "Name": "Green-Medhurst",
+    "PersonId": 116,
+    "Rank": 195,
+    "Tooltip": "id",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 218,
-    "FullName": "Neal Bogisich",
-    "FormalName": "Smitham, Hills and Pagac",
-    "Deleted": true,
-    "EjUserId": 643,
-    "UserName": "Bartell, Altenwerth and Crooks",
+    "GroupIdx": 643,
+    "FullName": "Bertrand Gislason",
+    "FormalName": "Hyatt-Jacobson",
+    "Deleted": false,
+    "EjUserId": 482,
+    "UserName": "Armstrong-Gleason",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -109,34 +109,34 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 872
       }
     }
   },
-  "Updated": "2012-04-09T15:05:42.5726352+02:00",
+  "Updated": "2005-02-07T18:25:50.8818867+01:00",
   "UpdatedBy": {
-    "AssociateId": 392,
-    "Name": "McGlynn-Lehner",
-    "PersonId": 117,
-    "Rank": 606,
-    "Tooltip": "non",
+    "AssociateId": 293,
+    "Name": "Kuvalis, Kling and Kuvalis",
+    "PersonId": 410,
+    "Rank": 391,
+    "Tooltip": "ea",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 779,
-    "FullName": "Mya Marvin",
-    "FormalName": "Metz-Abernathy",
+    "GroupIdx": 445,
+    "FullName": "Christa Muller",
+    "FormalName": "Yost-Lesch",
     "Deleted": true,
-    "EjUserId": 645,
-    "UserName": "Bradtke, Murphy and Abbott",
+    "EjUserId": 293,
+    "UserName": "Denesik-West",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "strategize extensible content"
         },
         "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldLength": 240
       }
     }
   },
@@ -152,28 +152,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "impedit",
-          "Description": "Decentralized explicit website",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 631
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "harum",
-          "Description": "Multi-tiered object-oriented support",
+          "Value": "perspiciatis",
+          "Description": "Customer-focused object-oriented installation",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -185,7 +165,27 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 414
+              "FieldLength": 225
+            }
+          }
+        }
+      ],
+      [
+        {
+          "Value": "quia",
+          "Description": "Adaptive uniform time-frame",
+          "TableRight": {
+            "Mask": "Delete",
+            "Reason": ""
+          },
+          "FieldProperties": {
+            "fieldName": {
+              "FieldRight": {
+                "Mask": "FULL",
+                "Reason": ""
+              },
+              "FieldType": "System.Int32",
+              "FieldLength": 733
             }
           }
         }
@@ -196,10 +196,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate proactive web services"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 715
+        "FieldType": "System.Int32",
+        "FieldLength": 431
       }
     }
   },
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldLength": 971
     }
   }
 }

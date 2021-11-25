@@ -1,9 +1,9 @@
 ---
-title: DeleteDashboard
+title: POST Agents/Dashboard/DeleteDashboard
 id: v1DashboardAgent_DeleteDashboard
 ---
 
-# DeleteDashboard
+# POST Agents/Dashboard/DeleteDashboard
 
 ```http
 POST /api/v1/Agents/Dashboard/DeleteDashboard
@@ -24,7 +24,7 @@ Deletes the Dashboard
 | DashboardId | int32 | **Required** The id of the Dashboard to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=906
+POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=35
 ```
 
 

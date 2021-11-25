@@ -1,9 +1,9 @@
 ---
-title: GetSaleStakeholderById
+title: POST Agents/Sale/GetSaleStakeholderById
 id: v1SaleAgent_GetSaleStakeholderById
 ---
 
-# GetSaleStakeholderById
+# POST Agents/Sale/GetSaleStakeholderById
 
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    456,
-    798
+    597,
+    965
   ]
 }
 ```
@@ -108,25 +108,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morar, Russel and Zieme",
-    "Comment": "repudiandae",
-    "StakeholderRoleId": 120,
-    "CountryId": 339,
-    "PersonId": 464,
-    "EmailDescription": "paxton.schamberger@grimesbrakus.biz",
-    "EmailId": 923,
-    "EmailAddress": "herta@hyatt.info",
-    "PhoneId": 363,
-    "ContactName": "VonRueden, Becker and Dibbert",
-    "ContactId": 311,
-    "SaleId": 649,
-    "Mrmrs": "vitae",
-    "Firstname": "Joyce",
-    "MiddleName": "Rodriguez, Hintz and Reynolds",
-    "Lastname": "Mohr",
-    "SaleStakeholderId": 748,
-    "Rank": 251,
-    "Phone": "(284)466-1078 x865",
+    "StakeholderRoleName": "Champlin-Hilpert",
+    "Comment": "et",
+    "StakeholderRoleId": 590,
+    "CountryId": 390,
+    "PersonId": 945,
+    "EmailDescription": "nicola_blanda@lynch.info",
+    "EmailId": 856,
+    "EmailAddress": "ali@sporer.com",
+    "PhoneId": 451,
+    "ContactName": "Toy, Brekke and Konopelski",
+    "ContactId": 52,
+    "SaleId": 212,
+    "Mrmrs": "blanditiis",
+    "Firstname": "Dedrick",
+    "MiddleName": "Vandervort, Price and Kuhic",
+    "Lastname": "Monahan",
+    "SaleStakeholderId": 432,
+    "Rank": 839,
+    "Phone": "1-804-723-3572 x85460",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldType": "System.String",
+        "FieldLength": 124
       }
     }
   }

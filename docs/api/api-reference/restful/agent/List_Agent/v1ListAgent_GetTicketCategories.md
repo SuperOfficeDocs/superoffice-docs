@@ -1,9 +1,9 @@
 ---
-title: GetTicketCategories
+title: POST Agents/List/GetTicketCategories
 id: v1ListAgent_GetTicketCategories
 ---
 
-# GetTicketCategories
+# POST Agents/List/GetTicketCategories
 
 ```http
 POST /api/v1/Agents/List/GetTicketCategories
@@ -62,11 +62,13 @@ Response body: array
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -87,30 +89,70 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 122,
-    "ParentId": 679,
-    "Name": "Lowe, Graham and Adams",
-    "Fullname": "laborum",
-    "CategoryMaster": 58,
+    "TicketCategoryId": 477,
+    "ParentId": 357,
+    "Name": "Auer LLC",
+    "Fullname": "fuga",
+    "CategoryMaster": 492,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Oberbrunner-Marquardt",
+    "ExternalName": "Williamson Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 639,
-    "ReplyTemplate": 88,
-    "NotificationEmail": "ursula_daugherty@towne.com",
+    "AssignmentLag": 600,
+    "ReplyTemplate": 793,
+    "NotificationEmail": "dave@olsonjenkins.uk",
+    "DefaultTicketStatus": {
+      "TicketStatusId": 899,
+      "Name": "Lubowitz, Renner and Bode",
+      "Status": "Active",
+      "TimeCounter": "Externally",
+      "NoEmailReopen": false,
+      "IsDefault": true,
+      "UsedInQueue": false,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 41
+        }
+      }
+    },
+    "DefaultMessageStatus": {
+      "TicketStatusId": 116,
+      "Name": "Barton, Kohler and Harber",
+      "Status": "Active",
+      "TimeCounter": "Externally",
+      "NoEmailReopen": true,
+      "IsDefault": true,
+      "UsedInQueue": false,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 596
+        }
+      }
+    },
     "ExtraFields": {
-      "ExtraFields1": "perspiciatis",
-      "ExtraFields2": "vel"
+      "ExtraFields1": "sed",
+      "ExtraFields2": "placeat"
     },
     "CustomFields": {
-      "CustomFields1": "possimus",
-      "CustomFields2": "occaecati"
+      "CustomFields1": "tenetur",
+      "CustomFields2": "aut"
     },
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "deliver killer web services"
     },
     "FieldProperties": {
       "fieldName": {
@@ -119,7 +161,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 868
       }
     }
   }

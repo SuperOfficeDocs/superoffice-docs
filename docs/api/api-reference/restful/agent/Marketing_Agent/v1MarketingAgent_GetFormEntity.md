@@ -1,9 +1,9 @@
 ---
-title: GetFormEntity
+title: POST Agents/Marketing/GetFormEntity
 id: v1MarketingAgent_GetFormEntity
 ---
 
-# GetFormEntity
+# POST Agents/Marketing/GetFormEntity
 
 ```http
 POST /api/v1/Agents/Marketing/GetFormEntity
@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=103
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=363
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 662,
-  "FormKey": "voluptatibus",
-  "Name": "Rodriguez-Stark",
-  "Description": "Business-focused dynamic focus group",
-  "Config": "quas",
-  "FolderId": 598,
-  "ScriptId": 898,
-  "ResponseShipmentId": 48,
+  "FormId": 689,
+  "FormKey": "sed",
+  "Name": "Conroy-King",
+  "Description": "Monitored radical artificial intelligence",
+  "Config": "ea",
+  "FolderId": 226,
+  "ScriptId": 574,
+  "ResponseShipmentId": 887,
   "Active": false,
-  "Expires": "2017-01-28T14:58:04.4974652+01:00",
-  "MaxSubmits": 989,
+  "Expires": "2018-07-07T18:28:49.4670875+02:00",
+  "MaxSubmits": 614,
   "Type": "Normal",
-  "Recipe": "quia",
-  "GroupId": 717,
+  "Recipe": "unde",
+  "GroupId": 240,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-11-12T14:58:04.4974652+01:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "1999-01-22T14:58:04.4974652+01:00",
-  "UpdatedAssociateId": 679,
-  "UpdatedCount": 835,
-  "FolderName": "Jenkins Inc and Sons",
+  "Registered": "2014-09-15T18:28:49.4670875+02:00",
+  "RegisteredAssociateId": 754,
+  "Updated": "2014-06-11T18:28:49.4670875+02:00",
+  "UpdatedAssociateId": 812,
+  "UpdatedCount": 400,
+  "FolderName": "Ullrich, King and Marquardt",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldLength": 663
     }
   }
 }

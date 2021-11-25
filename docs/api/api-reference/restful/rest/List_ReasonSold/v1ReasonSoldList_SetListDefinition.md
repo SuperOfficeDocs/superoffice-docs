@@ -93,15 +93,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Rosenbaum-Eichmann",
-  "Tooltip": "omnis",
+  "Id": 994,
+  "Name": "Lang-Volkman",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 804,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "esse",
+  "Rank": 402,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -111,15 +111,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "O'Connell, Steuber and Welch",
-  "Tooltip": "assumenda",
+  "Id": 908,
+  "Name": "Hagenes Group",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 134,
+  "Rank": 200,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldLength": 115
     }
   }
 }

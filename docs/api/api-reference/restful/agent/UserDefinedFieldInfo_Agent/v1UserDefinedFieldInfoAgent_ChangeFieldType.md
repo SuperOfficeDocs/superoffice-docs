@@ -1,9 +1,9 @@
 ---
-title: ChangeFieldType
+title: POST Agents/UserDefinedFieldInfo/ChangeFieldType
 id: v1UserDefinedFieldInfoAgent_ChangeFieldType
 ---
 
-# ChangeFieldType
+# POST Agents/UserDefinedFieldInfo/ChangeFieldType
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
@@ -118,40 +118,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": {
-    "UDefFieldId": 197,
-    "ColumnId": 998,
-    "FieldDefault": "laudantium",
-    "FieldHeight": 915,
-    "FieldLabel": "in",
-    "FieldLeft": 753,
-    "FieldTop": 81,
+    "UDefFieldId": 891,
+    "ColumnId": 379,
+    "FieldDefault": "vel",
+    "FieldHeight": 846,
+    "FieldLabel": "ipsa",
+    "FieldLeft": 876,
+    "FieldTop": 933,
     "FieldType": "Checkbox",
-    "FieldWidth": 726,
-    "FormatMask": "omnis",
-    "HideLabel": true,
+    "FieldWidth": 828,
+    "FormatMask": "adipisci",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 878,
-    "LabelLeft": 147,
-    "LabelTop": 899,
-    "LabelWidth": 908,
-    "LastVersionId": 212,
-    "ListTableId": 217,
-    "IsMandatory": true,
+    "LabelHeight": 796,
+    "LabelLeft": 999,
+    "LabelTop": 827,
+    "LabelWidth": 18,
+    "LastVersionId": 87,
+    "ListTableId": 578,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 50,
-    "ProgId": "quidem",
+    "Page1LineNo": 131,
+    "ProgId": "pariatur",
     "IsReadOnly": false,
-    "ShortLabel": "molestias",
-    "TabOrder": 402,
-    "TextLength": 886,
-    "Tooltip": "provident",
-    "UdefIdentity": 288,
-    "UDListDefinitionId": 301,
+    "ShortLabel": "neque",
+    "TabOrder": 873,
+    "TextLength": 733,
+    "Tooltip": "incidunt",
+    "UdefIdentity": 134,
+    "UDListDefinitionId": 835,
     "Justification": "Center",
-    "Version": 709,
-    "TemplateVariableName": "Hermann Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Mertz, Hagenes and Lebsack"
+    "Version": 106,
+    "TemplateVariableName": "Johnson, Hoppe and Crona",
+    "HasBeenPublished": true,
+    "MdoListName": "Schiller, Fritsch and Auer"
   },
   "FieldType": "Checkbox",
   "IsIndexed": false
@@ -163,40 +163,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 919,
-  "ColumnId": 347,
-  "FieldDefault": "est",
-  "FieldHeight": 263,
-  "FieldLabel": "architecto",
-  "FieldLeft": 618,
-  "FieldTop": 970,
+  "UDefFieldId": 617,
+  "ColumnId": 535,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 628,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 649,
+  "FieldTop": 714,
   "FieldType": "Checkbox",
-  "FieldWidth": 404,
-  "FormatMask": "aut",
+  "FieldWidth": 61,
+  "FormatMask": "corporis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 910,
-  "LabelLeft": 758,
-  "LabelTop": 380,
-  "LabelWidth": 427,
-  "LastVersionId": 236,
-  "ListTableId": 519,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 292,
+  "LabelLeft": 25,
+  "LabelTop": 538,
+  "LabelWidth": 185,
+  "LastVersionId": 397,
+  "ListTableId": 190,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 931,
-  "ProgId": "modi",
-  "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 622,
-  "TextLength": 466,
-  "Tooltip": "iusto",
-  "UdefIdentity": 484,
-  "UDListDefinitionId": 584,
+  "Page1LineNo": 124,
+  "ProgId": "quae",
+  "IsReadOnly": true,
+  "ShortLabel": "reiciendis",
+  "TabOrder": 953,
+  "TextLength": 971,
+  "Tooltip": "ipsum",
+  "UdefIdentity": 720,
+  "UDListDefinitionId": 262,
   "Justification": "Center",
-  "Version": 824,
-  "TemplateVariableName": "Nienow-Harber",
-  "HasBeenPublished": false,
-  "MdoListName": "Marvin Group",
+  "Version": 621,
+  "TemplateVariableName": "Bartoletti, Mayer and Nitzsche",
+  "HasBeenPublished": true,
+  "MdoListName": "Ziemann Group",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 659
     }
   }
 }

@@ -76,16 +76,16 @@ Response body: object
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 252,
-  "Name": "Berge-Schamberger",
-  "Tooltip": "sed",
-  "Rank": 203,
-  "Rate": 13846.011999999999,
-  "Units": 23417.248,
+  "CurrencyId": 729,
+  "Name": "Murphy-Halvorson",
+  "Tooltip": "hic",
+  "Rank": 867,
+  "Rate": 9436.474,
+  "Units": 17923.345999999998,
   "Deleted": true
 }
 ```
@@ -95,12 +95,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 136,
-  "Name": "Franecki-Bradtke",
-  "Tooltip": "autem",
-  "Rank": 12,
-  "Rate": 122.226,
-  "Units": 17243.268,
+  "CurrencyId": 78,
+  "Name": "Kihn, Schamberger and Renner",
+  "Tooltip": "et",
+  "Rank": 699,
+  "Rate": 5283.924,
+  "Units": 3541.42,
   "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

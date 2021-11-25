@@ -1,9 +1,9 @@
 ---
-title: GetProjectStatus
+title: POST Agents/List/GetProjectStatus
 id: v1ListAgent_GetProjectStatus
 ---
 
-# GetProjectStatus
+# POST Agents/List/GetProjectStatus
 
 ```http
 POST /api/v1/Agents/List/GetProjectStatus
@@ -25,7 +25,7 @@ Gets a ProjectStatus object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=376
+POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=881
 POST /api/v1/Agents/List/GetProjectStatus?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ Response body: object
 POST /api/v1/Agents/List/GetProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,9 +77,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Value": "ipsam",
-  "Tooltip": "error",
+  "Id": 737,
+  "Value": "et",
+  "Tooltip": "corrupti",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldLength": 6
     }
   }
 }

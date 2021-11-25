@@ -82,16 +82,16 @@ Response body: object
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 770,
-  "Name": "Wiza Group",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "UdListDefinitionId": 413,
-  "Rank": 16
+  "Id": 501,
+  "Name": "Hahn, Bradtke and Wisoky",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 514,
+  "Rank": 890
 }
 ```
 
@@ -100,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Collins-Doyle",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "UdListDefinitionId": 750,
-  "Rank": 940,
+  "Id": 188,
+  "Name": "Mitchell-Wilkinson",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "UdListDefinitionId": 923,
+  "Rank": 586,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldLength": 108
     }
   }
 }

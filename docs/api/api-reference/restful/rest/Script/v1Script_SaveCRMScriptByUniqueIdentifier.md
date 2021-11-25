@@ -92,20 +92,20 @@ Response body: object
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ea",
-  "Name": "Will-Willms",
-  "Description": "Total assymetric framework",
-  "IncludeId": "tempore",
-  "Source": "quam",
-  "Registered": "2004-06-16T15:05:43.083221+02:00",
-  "RegisteredBy": "rem",
-  "Updated": "2012-06-10T15:05:43.083221+02:00",
-  "UpdatedBy": "in",
-  "Path": "iure"
+  "UniqueIdentifier": "quasi",
+  "Name": "Smith-Dach",
+  "Description": "Up-sized modular protocol",
+  "IncludeId": "quae",
+  "Source": "omnis",
+  "Registered": "1996-06-30T18:25:51.443118+02:00",
+  "RegisteredBy": "rerum",
+  "Updated": "2020-01-16T18:25:51.443118+01:00",
+  "UpdatedBy": "accusantium",
+  "Path": "officiis"
 }
 ```
 
@@ -114,16 +114,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quia",
-  "Name": "Swaniawski, Schinner and Brekke",
-  "Description": "Virtual radical customer loyalty",
-  "IncludeId": "omnis",
-  "Source": "aspernatur",
-  "Registered": "2021-06-14T15:05:43.0838287+02:00",
-  "RegisteredBy": "architecto",
-  "Updated": "2014-01-01T15:05:43.0838287+01:00",
-  "UpdatedBy": "a",
-  "Path": "sint",
+  "UniqueIdentifier": "non",
+  "Name": "Conroy LLC",
+  "Description": "Grass-roots explicit middleware",
+  "IncludeId": "atque",
+  "Source": "quia",
+  "Registered": "2005-05-18T18:25:51.443118+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2004-03-08T18:25:51.443118+01:00",
+  "UpdatedBy": "nisi",
+  "Path": "ex",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldLength": 570
     }
   }
 }

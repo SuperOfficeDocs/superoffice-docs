@@ -1,9 +1,9 @@
 ---
-title: DeleteAudienceLayoutEntity
+title: POST Agents/Audience/DeleteAudienceLayoutEntity
 id: v1AudienceAgent_DeleteAudienceLayoutEntity
 ---
 
-# DeleteAudienceLayoutEntity
+# POST Agents/Audience/DeleteAudienceLayoutEntity
 
 ```http
 POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity
@@ -24,7 +24,7 @@ Deletes the AudienceLayoutEntity
 | AudienceLayoutEntityId | int32 | **Required** The id of the AudienceLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=705
+POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=356
 ```
 
 

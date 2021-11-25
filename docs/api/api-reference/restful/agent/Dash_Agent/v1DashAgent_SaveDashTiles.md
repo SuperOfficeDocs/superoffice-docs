@@ -1,9 +1,9 @@
 ---
-title: SaveDashTiles
+title: POST Agents/Dash/SaveDashTiles
 id: v1DashAgent_SaveDashTiles
 ---
 
-# SaveDashTiles
+# POST Agents/Dash/SaveDashTiles
 
 ```http
 POST /api/v1/Agents/Dash/SaveDashTiles

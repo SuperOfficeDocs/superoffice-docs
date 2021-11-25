@@ -88,16 +88,16 @@ Response body: object
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 949,
-  "PrefDescId": 457,
-  "PrefValue": "explicabo",
-  "PrefShowValue": "voluptatem",
-  "Description": "Right-sized cohesive local area network",
-  "IsBuiltin": true
+  "PrefDescLineId": 975,
+  "PrefDescId": 761,
+  "PrefValue": "et",
+  "PrefShowValue": "ipsum",
+  "Description": "Enterprise-wide directional infrastructure",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,12 +106,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 203,
-  "PrefDescId": 928,
-  "PrefValue": "enim",
-  "PrefShowValue": "a",
-  "Description": "Re-engineered disintermediate monitoring",
-  "IsBuiltin": false,
+  "PrefDescLineId": 518,
+  "PrefDescId": 69,
+  "PrefValue": "soluta",
+  "PrefShowValue": "ad",
+  "Description": "Stand-alone background local area network",
+  "IsBuiltin": true,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 915
     }
   },
   "_Links": {

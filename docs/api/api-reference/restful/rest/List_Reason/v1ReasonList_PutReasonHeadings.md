@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Kertzmann, Heathcote and Morar",
-    "Tooltip": "consectetur",
+    "HeadingId": 304,
+    "Name": "Cassin-Kemmer",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 616,
-    "UdListDefinitionId": 509
+    "Rank": 337,
+    "UdListDefinitionId": 781
   },
   {
-    "HeadingId": 988,
-    "Name": "Kertzmann, Heathcote and Morar",
-    "Tooltip": "consectetur",
+    "HeadingId": 304,
+    "Name": "Cassin-Kemmer",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 616,
-    "UdListDefinitionId": 509
+    "Rank": 337,
+    "UdListDefinitionId": 781
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 800,
-    "Name": "Skiles-Kirlin",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 539,
+    "HeadingId": 387,
+    "Name": "Stiedemann-Funk",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 173,
+    "UdListDefinitionId": 528,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 506
       }
     }
   }

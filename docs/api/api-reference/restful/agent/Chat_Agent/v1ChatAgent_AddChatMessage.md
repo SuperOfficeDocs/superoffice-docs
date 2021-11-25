@@ -1,9 +1,9 @@
 ---
-title: AddChatMessage
+title: POST Agents/Chat/AddChatMessage
 id: v1ChatAgent_AddChatMessage
 ---
 
-# AddChatMessage
+# POST Agents/Chat/AddChatMessage
 
 ```http
 POST /api/v1/Agents/Chat/AddChatMessage
@@ -85,21 +85,21 @@ Response body: object
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 509,
+  "ChatSessionId": 194,
   "Message": {
-    "ChatMessageId": 716,
-    "ChatSessionId": 970,
+    "ChatMessageId": 526,
+    "ChatSessionId": 542,
     "Type": "Invalid",
-    "Message": "dignissimos",
-    "Author": "voluptatibus",
-    "ReadByCustomer": 551,
+    "Message": "et",
+    "Author": "minima",
+    "ReadByCustomer": 35,
     "SpecialType": "Block",
-    "SpecialParam": "dolore",
-    "WhenPosted": "2006-02-27T14:58:03.5212805+01:00"
+    "SpecialParam": "voluptatem",
+    "WhenPosted": "1996-06-05T18:28:48.3282865+02:00"
   }
 }
 ```
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 973,
-  "ChatSessionId": 594,
+  "ChatMessageId": 848,
+  "ChatSessionId": 534,
   "Type": "Invalid",
-  "Message": "eveniet",
-  "Author": "quisquam",
-  "ReadByCustomer": 693,
+  "Message": "suscipit",
+  "Author": "exercitationem",
+  "ReadByCustomer": 732,
   "SpecialType": "Block",
-  "SpecialParam": "enim",
-  "WhenPosted": "2013-04-28T14:58:03.5212805+02:00"
+  "SpecialParam": "repudiandae",
+  "WhenPosted": "2018-11-01T18:28:48.3282865+01:00"
 }
 ```

@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Boehm-Connelly",
-    "ToolTip": "Eos provident.",
-    "Deleted": true,
-    "Rank": 757,
-    "Type": "occaecati",
-    "ColorBlock": 974,
-    "IconHint": "recusandae",
+    "Id": 380,
+    "Name": "Wyman Inc and Sons",
+    "ToolTip": "Nulla tempore.",
+    "Deleted": false,
+    "Rank": 266,
+    "Type": "harum",
+    "ColorBlock": 126,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2012-02-21T15:05:43.5260795+01:00",
+    "LastChanged": "2000-12-11T18:25:51.9112531+01:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Wunsch, Feest and West",
-        "ToolTip": "Omnis dolores doloribus.",
+        "Id": 404,
+        "Name": "Thompson-Morar",
+        "ToolTip": "Cupiditate iusto aspernatur expedita.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "voluptates",
-        "ColorBlock": 518,
-        "IconHint": "ut",
+        "Rank": 363,
+        "Type": "sapiente",
+        "ColorBlock": 272,
+        "IconHint": "quos",
         "Selected": true,
-        "LastChanged": "2001-12-17T15:05:43.5260795+01:00",
+        "LastChanged": "1994-08-24T18:25:51.9112531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Ewald Feil Sr."
+        "ExtraInfo": "ut",
+        "StyleHint": "esse",
+        "Hidden": false,
+        "FullName": "Maye Sporer"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Ezra Batz"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Lavinia Kihn"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Schuppe Group",
-    "ToolTip": "Consequatur omnis.",
+    "Id": 288,
+    "Name": "Schmidt, Kautzer and Miller",
+    "ToolTip": "Aperiam qui dolor corporis.",
     "Deleted": true,
-    "Rank": 981,
-    "Type": "ullam",
-    "ColorBlock": 408,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2000-06-23T15:05:43.5270795+02:00",
+    "Rank": 349,
+    "Type": "totam",
+    "ColorBlock": 299,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2008-07-25T18:25:51.9122476+02:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Bernier-McCullough",
-        "ToolTip": "Laborum dolor occaecati recusandae officia.",
+        "Id": 743,
+        "Name": "Wiza, Little and Ratke",
+        "ToolTip": "Quas quaerat quasi.",
         "Deleted": false,
-        "Rank": 809,
-        "Type": "illum",
-        "ColorBlock": 354,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2018-12-28T15:05:43.5270795+01:00",
+        "Rank": 633,
+        "Type": "atque",
+        "ColorBlock": 731,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "1995-06-09T18:25:51.9122476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Sasha Torphy DDS",
+        "ExtraInfo": "eos",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Dr. Amy Wyman",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,18 +184,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Craig Cormier",
+    "ExtraInfo": "dolor",
+    "StyleHint": "exercitationem",
+    "Hidden": false,
+    "FullName": "Carey Bogan",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "orchestrate compelling convergence"
     },
     "FieldProperties": {
       "fieldName": {
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 619
       }
     }
   }

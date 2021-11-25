@@ -25,8 +25,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=eveniet
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=itaque
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Berge-Crona",
-    "ToolTip": "In repudiandae magni voluptatem enim sint rerum.",
-    "Deleted": true,
-    "Rank": 213,
-    "Type": "fugit",
+    "Id": 904,
+    "Name": "Nitzsche, Cremin and Gottlieb",
+    "ToolTip": "Iure veritatis eum deserunt eveniet.",
+    "Deleted": false,
+    "Rank": 276,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Fritsch, Conroy and Shields",
-        "ToolTip": "Dolores sunt sint ea.",
-        "Deleted": false,
-        "Rank": 646,
-        "Type": "illo",
+        "Id": 56,
+        "Name": "Willms-Dibbert",
+        "ToolTip": "Consectetur quo quia qui nihil molestiae vel.",
+        "Deleted": true,
+        "Rank": 227,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laboriosam",
-        "ColorBlock": 155,
-        "ExtraInfo": "provident",
-        "StyleHint": "laboriosam",
-        "FullName": "Justus Grady II",
+        "IconHint": "quia",
+        "ColorBlock": 825,
+        "ExtraInfo": "eum",
+        "StyleHint": "unde",
+        "FullName": "Reilly Abshire IV",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 23
+            "FieldType": "System.Int32",
+            "FieldLength": 661
           }
         }
       }
     ],
-    "IconHint": "architecto",
-    "ColorBlock": 954,
-    "ExtraInfo": "autem",
-    "StyleHint": "velit",
-    "FullName": "Lila Wuckert",
+    "IconHint": "quia",
+    "ColorBlock": 217,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "illum",
+    "FullName": "Lavon Bergstrom",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 9
       }
     }
   }

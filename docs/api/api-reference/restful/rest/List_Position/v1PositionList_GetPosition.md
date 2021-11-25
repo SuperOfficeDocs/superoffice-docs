@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Simonis-Schultz",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 212,
-  "Rank": 524,
+  "Id": 682,
+  "Name": "Beatty Group",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "UdListDefinitionId": 412,
+  "Rank": 563,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   }
 }

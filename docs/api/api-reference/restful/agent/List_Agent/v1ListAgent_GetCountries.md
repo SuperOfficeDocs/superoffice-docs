@@ -1,9 +1,9 @@
 ---
-title: GetCountries
+title: POST Agents/List/GetCountries
 id: v1ListAgent_GetCountries
 ---
 
-# GetCountries
+# POST Agents/List/GetCountries
 
 ```http
 POST /api/v1/Agents/List/GetCountries
@@ -81,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 389,
-    "Name": "Ebert LLC",
-    "CurrencyId": 488,
-    "EnglishName": "Beer Group",
+    "CountryId": 15,
+    "Name": "Graham, Feeney and Gleichner",
+    "CurrencyId": 220,
+    "EnglishName": "Krajcik-Thiel",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "De-engineered multimedia moderator",
-    "OrgNrText": "1211937",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "excepturi",
-    "ZipPrefix": "deleniti",
-    "DomainName": "Bradtke-Morissette",
-    "AddressLayoutId": 940,
-    "DomesticAddressLayoutId": 221,
-    "ForeignAddressLayoutId": 651,
-    "Rank": 812,
-    "Tooltip": "fugiat",
-    "Deleted": false,
+    "ImageDescription": "Face to face intermediate solution",
+    "OrgNrText": "1346975",
+    "InterAreaPrefix": "quibusdam",
+    "DialInPrefix": "assumenda",
+    "ZipPrefix": "voluptatum",
+    "DomainName": "Mosciski Group",
+    "AddressLayoutId": 228,
+    "DomesticAddressLayoutId": 914,
+    "ForeignAddressLayoutId": 891,
+    "Rank": 154,
+    "Tooltip": "dolor",
+    "Deleted": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

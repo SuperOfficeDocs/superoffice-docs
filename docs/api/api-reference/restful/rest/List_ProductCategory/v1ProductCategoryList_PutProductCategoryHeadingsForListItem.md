@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Frami-Davis",
-    "ToolTip": "Aliquam reiciendis eum facilis.",
+    "Id": 964,
+    "Name": "Kiehn-Hauck",
+    "ToolTip": "Est aliquid expedita.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "enim",
-    "ColorBlock": 2,
-    "IconHint": "aut",
+    "Rank": 403,
+    "Type": "debitis",
+    "ColorBlock": 148,
+    "IconHint": "amet",
     "Selected": true,
-    "LastChanged": "2000-03-29T15:05:43.6170795+02:00",
+    "LastChanged": "2000-05-25T18:25:52.0022126+02:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Repellendus consectetur dolorem neque doloremque.",
+        "Id": 998,
+        "Name": "Romaguera, Ferry and Wolff",
+        "ToolTip": "Nihil quae harum dolore tempore aut.",
         "Deleted": true,
-        "Rank": 19,
-        "Type": "fugiat",
-        "ColorBlock": 443,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2009-11-12T15:05:43.6170795+01:00",
+        "Rank": 331,
+        "Type": "ullam",
+        "ColorBlock": 93,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "2002-02-09T18:25:52.0022126+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "facere",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Ayden Dickens"
+        "FullName": "Keira Fay"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "aut",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Sean Powlowski"
+    "FullName": "Bernice Moore Jr."
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Prosacco-King",
-    "ToolTip": "Officia consectetur aliquam.",
-    "Deleted": false,
-    "Rank": 523,
-    "Type": "corporis",
-    "ColorBlock": 295,
-    "IconHint": "quae",
+    "Id": 336,
+    "Name": "Anderson, Schulist and Klein",
+    "ToolTip": "Et ipsum et incidunt rerum.",
+    "Deleted": true,
+    "Rank": 340,
+    "Type": "neque",
+    "ColorBlock": 233,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2010-07-25T15:05:43.6180795+02:00",
+    "LastChanged": "2019-03-21T18:25:52.0032124+01:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Green LLC",
-        "ToolTip": "Dolorum aut velit quidem.",
+        "Id": 701,
+        "Name": "Reilly-Murphy",
+        "ToolTip": "Sed omnis a nisi at.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "eum",
-        "ColorBlock": 538,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1999-07-08T15:05:43.6180795+02:00",
+        "Rank": 67,
+        "Type": "enim",
+        "ColorBlock": 475,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "1998-01-18T18:25:52.0042123+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "repudiandae",
-        "Hidden": true,
-        "FullName": "Deja Hand",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Dennis Nolan",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 599
+            "FieldType": "System.Int32",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Gerda Crooks V",
+    "ExtraInfo": "sit",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Geovanni Gottlieb II",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

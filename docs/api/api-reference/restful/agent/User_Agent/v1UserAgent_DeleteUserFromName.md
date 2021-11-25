@@ -1,9 +1,9 @@
 ---
-title: DeleteUserFromName
+title: POST Agents/User/DeleteUserFromName
 id: v1UserAgent_DeleteUserFromName
 ---
 
-# DeleteUserFromName
+# POST Agents/User/DeleteUserFromName
 
 ```http
 POST /api/v1/Agents/User/DeleteUserFromName

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Koss-Corkery",
-    "ToolTip": "Hic sed tempore doloremque repudiandae.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "deserunt",
-    "ColorBlock": 608,
-    "IconHint": "voluptas",
+    "Id": 516,
+    "Name": "Jones-Lesch",
+    "ToolTip": "Maiores debitis provident.",
+    "Deleted": false,
+    "Rank": 991,
+    "Type": "nam",
+    "ColorBlock": 186,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2018-04-07T15:05:43.2495449+02:00",
+    "LastChanged": "2009-10-07T18:25:51.6212947+02:00",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Herman Group",
-        "ToolTip": "Beatae eos at eos.",
+        "Id": 891,
+        "Name": "Erdman-Robel",
+        "ToolTip": "Ut odio rerum et modi.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "porro",
-        "ColorBlock": 96,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2000-10-31T15:05:43.2495449+01:00",
+        "Rank": 886,
+        "Type": "illum",
+        "ColorBlock": 308,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2018-07-14T18:25:51.6212947+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Mr. Carmella King",
+        "FullName": "Burley Dibbert",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 579
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "rerum",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Frederick Barrows Jr.",
+    "FullName": "Taya Waters",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "harness ubiquitous schemas"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 157
       }
     }
   }

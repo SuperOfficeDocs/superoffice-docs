@@ -1,9 +1,9 @@
 ---
-title: DeleteSelectionEntity
+title: POST Agents/Selection/DeleteSelectionEntity
 id: v1SelectionAgent_DeleteSelectionEntity
 ---
 
-# DeleteSelectionEntity
+# POST Agents/Selection/DeleteSelectionEntity
 
 ```http
 POST /api/v1/Agents/Selection/DeleteSelectionEntity
@@ -24,7 +24,7 @@ Deletes the SelectionEntity
 | SelectionEntityId | int32 | **Required** The id of the SelectionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=251
+POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=816
 ```
 
 

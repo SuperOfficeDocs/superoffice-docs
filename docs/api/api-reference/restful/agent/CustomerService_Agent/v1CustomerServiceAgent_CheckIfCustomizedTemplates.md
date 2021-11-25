@@ -1,9 +1,9 @@
 ---
-title: CheckIfCustomizedTemplates
+title: POST Agents/CustomerService/CheckIfCustomizedTemplates
 id: v1CustomerServiceAgent_CheckIfCustomizedTemplates
 ---
 
-# CheckIfCustomizedTemplates
+# POST Agents/CustomerService/CheckIfCustomizedTemplates
 
 ```http
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
@@ -59,7 +59,7 @@ Response body: bool
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_

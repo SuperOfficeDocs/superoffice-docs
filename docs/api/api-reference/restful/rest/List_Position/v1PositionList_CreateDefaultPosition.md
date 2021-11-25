@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 947,
-  "Name": "Beahan Group",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 418,
-  "Rank": 58,
+  "Id": 658,
+  "Name": "Keeling, Senger and Conroy",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "UdListDefinitionId": 891,
+  "Rank": 559,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 48
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: SaveProjectEventEntity
+title: POST Agents/Project/SaveProjectEventEntity
 id: v1ProjectAgent_SaveProjectEventEntity
 ---
 
-# SaveProjectEventEntity
+# POST Agents/Project/SaveProjectEventEntity
 
 ```http
 POST /api/v1/Agents/Project/SaveProjectEventEntity
@@ -126,102 +126,102 @@ Response body: object
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ratione",
-  "SignOffText": "id",
-  "SignOnConfirmationText": "voluptates",
-  "SignOnText": "soluta",
-  "EventDate": "2015-05-02T14:58:04.8944656+02:00",
-  "Enabled": true,
-  "CreatedDate": "2011-05-04T14:58:04.8944656+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 355,
-  "SignOffTriggersAssign": true,
+  "SignOffConfirmationText": "sequi",
+  "SignOffText": "quam",
+  "SignOnConfirmationText": "ducimus",
+  "SignOnText": "corrupti",
+  "EventDate": "1995-03-20T18:28:49.875143+01:00",
+  "Enabled": false,
+  "CreatedDate": "2016-05-15T18:28:49.875143+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 158,
+  "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 984,
+  "SignOnTaskId": 24,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "1996-03-01T14:58:04.8944656+01:00",
+  "UpdatedDate": "2016-11-16T18:28:49.875143+01:00",
   "CreatedBy": {
-    "AssociateId": 35,
-    "Name": "Kozey-Pollich",
-    "PersonId": 328,
-    "Rank": 378,
-    "Tooltip": "voluptatum",
+    "AssociateId": 594,
+    "Name": "DuBuque LLC",
+    "PersonId": 286,
+    "Rank": 274,
+    "Tooltip": "laudantium",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 547,
-    "FullName": "Shirley Balistreri",
-    "FormalName": "McDermott, Goodwin and Gislason",
+    "GroupIdx": 363,
+    "FullName": "Bradley Mante",
+    "FormalName": "Greenholt LLC",
     "Deleted": false,
-    "EjUserId": 378,
-    "UserName": "Metz, Robel and Kassulke"
+    "EjUserId": 651,
+    "UserName": "Moen-Nicolas"
   },
   "UpdatedBy": {
-    "AssociateId": 54,
-    "Name": "Orn-Sauer",
-    "PersonId": 971,
-    "Rank": 671,
-    "Tooltip": "porro",
+    "AssociateId": 913,
+    "Name": "Friesen-Hermiston",
+    "PersonId": 681,
+    "Rank": 537,
+    "Tooltip": "architecto",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 823,
-    "FullName": "Anita Murazik",
-    "FormalName": "Hoeger, Gottlieb and Lebsack",
-    "Deleted": true,
-    "EjUserId": 298,
-    "UserName": "Pfannerstill-Leffler"
+    "GroupIdx": 577,
+    "FullName": "Clyde Larkin",
+    "FormalName": "Collier Group",
+    "Deleted": false,
+    "EjUserId": 135,
+    "UserName": "Emard LLC"
   },
-  "ProjectId": 491,
-  "Id": 704,
-  "PublishFrom": "2018-03-08T14:58:04.8954672+01:00",
+  "ProjectId": 66,
+  "Id": 614,
+  "PublishFrom": "2016-08-31T18:28:49.8761096+02:00",
   "PublishType": "External",
-  "PublishTo": "2019-12-10T14:58:04.8954672+01:00",
+  "PublishTo": "1999-08-19T18:28:49.8761096+02:00",
   "VisibleForCategories": [
     {
-      "Id": 486,
-      "Name": "Moen Group",
-      "ToolTip": "Nostrum aut nihil.",
+      "Id": 239,
+      "Name": "Cronin, Powlowski and Hane",
+      "ToolTip": "Illo unde soluta natus a.",
       "Deleted": true,
-      "Rank": 660,
-      "Type": "impedit",
+      "Rank": 607,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptates",
-      "ColorBlock": 830,
-      "ExtraInfo": "et",
-      "StyleHint": "laborum",
-      "FullName": "Leanne Tillman"
+      "IconHint": "qui",
+      "ColorBlock": 787,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "aut",
+      "FullName": "Jude Smith IV"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 487,
-      "Name": "Kunde, Gutkowski and Hand",
-      "ToolTip": "Cupiditate ab delectus et velit id.",
-      "Deleted": false,
-      "Rank": 578,
-      "Type": "necessitatibus",
+      "Id": 110,
+      "Name": "Greenfelder-Stamm",
+      "ToolTip": "Inventore minima et ullam aspernatur repudiandae et.",
+      "Deleted": true,
+      "Rank": 910,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 619,
-      "ExtraInfo": "tempora",
-      "StyleHint": "non",
-      "FullName": "Jenifer Lakin"
+      "IconHint": "in",
+      "ColorBlock": 991,
+      "ExtraInfo": "non",
+      "StyleHint": "earum",
+      "FullName": "Dejah Shields"
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 517
+  "ProjectEventId": 703
 }
 ```
 
@@ -230,35 +230,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "minima",
-  "SignOffText": "corrupti",
-  "SignOnConfirmationText": "voluptas",
-  "SignOnText": "et",
-  "EventDate": "2006-09-30T14:58:04.898465+02:00",
+  "SignOffConfirmationText": "id",
+  "SignOffText": "iste",
+  "SignOnConfirmationText": "dolore",
+  "SignOnText": "earum",
+  "EventDate": "2005-10-07T18:28:49.8781439+02:00",
   "Enabled": true,
-  "CreatedDate": "1998-10-06T14:58:04.898465+02:00",
+  "CreatedDate": "2015-01-06T18:28:49.8781439+01:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 246,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 495,
   "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 937,
+  "SignOnTaskId": 347,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2009-03-22T14:58:04.898465+01:00",
+  "UpdatedDate": "2012-05-23T18:28:49.8781439+02:00",
   "CreatedBy": {
-    "AssociateId": 246,
-    "Name": "Wuckert-Cole",
-    "PersonId": 426,
-    "Rank": 407,
-    "Tooltip": "odit",
+    "AssociateId": 581,
+    "Name": "Smitham-Koepp",
+    "PersonId": 157,
+    "Rank": 28,
+    "Tooltip": "enim",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 238,
-    "FullName": "Ms. Otho Block",
-    "FormalName": "Volkman-Pacocha",
-    "Deleted": true,
-    "EjUserId": 258,
-    "UserName": "Dare-Schamberger",
+    "GroupIdx": 23,
+    "FullName": "Jodie Kunde",
+    "FormalName": "Goodwin-Grant",
+    "Deleted": false,
+    "EjUserId": 399,
+    "UserName": "Franecki-Ebert",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -266,58 +266,58 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 74,
-    "Name": "Walker-Pouros",
-    "PersonId": 88,
-    "Rank": 801,
-    "Tooltip": "aut",
+    "AssociateId": 53,
+    "Name": "Ferry, Morissette and Heaney",
+    "PersonId": 112,
+    "Rank": 443,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 392,
-    "FullName": "Rubie Bergnaum",
-    "FormalName": "Pfannerstill, Rogahn and Beier",
-    "Deleted": true,
-    "EjUserId": 298,
-    "UserName": "Tremblay Inc and Sons",
+    "GroupIdx": 446,
+    "FullName": "Edmond Jacobi",
+    "FormalName": "Goodwin, Carter and Shields",
+    "Deleted": false,
+    "EjUserId": 772,
+    "UserName": "Gerhold, Feeney and Emmerich",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "repurpose sexy bandwidth"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   },
-  "ProjectId": 456,
-  "Id": 179,
-  "PublishFrom": "2010-03-03T14:58:04.898465+01:00",
+  "ProjectId": 919,
+  "Id": 138,
+  "PublishFrom": "2008-11-29T18:28:49.8791435+01:00",
   "PublishType": "External",
-  "PublishTo": "2020-12-05T14:58:04.898465+01:00",
+  "PublishTo": "2004-09-16T18:28:49.8791435+02:00",
   "VisibleForCategories": [
     {
-      "Id": 335,
-      "Name": "Denesik, Hahn and Cormier",
-      "ToolTip": "Hic consequatur iure.",
+      "Id": 131,
+      "Name": "Brown Group",
+      "ToolTip": "Assumenda voluptates ad sequi harum.",
       "Deleted": true,
-      "Rank": 616,
-      "Type": "consectetur",
+      "Rank": 832,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 431,
-      "ExtraInfo": "aperiam",
-      "StyleHint": "est",
-      "FullName": "Travon Prohaska",
+      "IconHint": "unde",
+      "ColorBlock": 972,
+      "ExtraInfo": "ad",
+      "StyleHint": "odio",
+      "FullName": "Pearline Parker",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -325,29 +325,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 717
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 871,
-      "Name": "Feil, Eichmann and Thompson",
-      "ToolTip": "Eaque ducimus earum error maxime.",
-      "Deleted": true,
-      "Rank": 82,
-      "Type": "dicta",
+      "Id": 433,
+      "Name": "Reinger-Weimann",
+      "ToolTip": "Enim nesciunt exercitationem cum.",
+      "Deleted": false,
+      "Rank": 464,
+      "Type": "expedita",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "natus",
-      "ColorBlock": 552,
-      "ExtraInfo": "sit",
-      "StyleHint": "voluptas",
-      "FullName": "Modesto Conroy",
+      "IconHint": "deserunt",
+      "ColorBlock": 626,
+      "ExtraInfo": "iure",
+      "StyleHint": "molestiae",
+      "FullName": "Jaime West",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -355,29 +355,29 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 399
+          "FieldType": "System.Int32",
+          "FieldLength": 190
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 97,
+  "ProjectEventId": 809,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "enable plug-and-play mindshare"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "utilize ubiquitous metrics"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldLength": 130
     }
   }
 }

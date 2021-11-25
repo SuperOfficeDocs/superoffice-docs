@@ -1,9 +1,9 @@
 ---
-title: GetApplicationDevices
+title: POST Agents/ForeignSystem/GetApplicationDevices
 id: v1ForeignSystemAgent_GetApplicationDevices
 ---
 
-# GetApplicationDevices
+# POST Agents/ForeignSystem/GetApplicationDevices
 
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
@@ -81,11 +81,11 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Walsh, Hane and Ondricka"
+  "ApplicationName": "Predovic-Bergstrom"
 }
 ```
 
@@ -95,15 +95,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 745,
-    "Name": "Casper, Satterfield and Kuhic",
-    "CreatedDate": "1998-02-19T14:58:04.3004604+01:00",
-    "UpdatedDate": "2015-10-03T14:58:04.3004604+02:00",
-    "AssociateFullName": "Anibal Kohler",
-    "CreatedBy": "sint",
-    "UpdatedBy": "ab",
-    "DeviceIdentifier": "ipsum",
-    "ForeignAppId": 520,
+    "ForeignDeviceId": 493,
+    "Name": "Smith Group",
+    "CreatedDate": "2011-07-18T18:28:49.204123+02:00",
+    "UpdatedDate": "2010-10-08T18:28:49.204123+02:00",
+    "AssociateFullName": "Elias Fritsch",
+    "CreatedBy": "est",
+    "UpdatedBy": "dolorem",
+    "DeviceIdentifier": "eius",
+    "ForeignAppId": 467,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldLength": 959
       }
     }
   }

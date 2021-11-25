@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Runolfsson, Emard and Braun",
-  "Tooltip": "ullam",
+  "Id": 113,
+  "Name": "Schmidt-Wintheiser",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 327,
-  "Rank": 706,
+  "UdListDefinitionId": 163,
+  "Rank": 448,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synergize efficient e-services"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 957
     }
   }
 }

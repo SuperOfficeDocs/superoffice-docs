@@ -84,7 +84,7 @@ Response body: object
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -92,31 +92,31 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Wolf-McDermott",
-  "SaleDate": "2014-09-26T15:05:42.7086712+02:00",
-  "SaleId": 275,
-  "Probability": 626,
-  "Title": "necessitatibus",
-  "Amount": 20170.424,
-  "Currency": "iure",
-  "ProjectName": "McDermott Inc and Sons",
-  "AssociateFullName": "Westley Cole",
-  "Description": "Expanded analyzing strategy",
+  "ContactName": "Torphy, Marquardt and Cartwright",
+  "SaleDate": "2020-02-24T18:25:51.0579476+01:00",
+  "SaleId": 861,
+  "Probability": 978,
+  "Title": "quis",
+  "Amount": 25087.67,
+  "Currency": "blanditiis",
+  "ProjectName": "Hane Group",
+  "AssociateFullName": "Lola Mayert",
+  "Description": "Integrated 6th generation middleware",
   "Status": "Lost",
-  "WeightedAmount": 10712.011999999999,
-  "ProjectId": 72,
-  "EarningPercent": 6167.7119999999995,
-  "Earning": 12695.833999999999,
-  "ContactId": 842,
-  "AssociateId": 840,
-  "PersonId": 51,
-  "SaleTypeId": 284,
-  "SaleTypeName": "Hodkiewicz-Skiles",
-  "PersonFullName": "Lottie Nienow",
+  "WeightedAmount": 20342.793999999998,
+  "ProjectId": 574,
+  "EarningPercent": 17613.079999999998,
+  "Earning": 22433.172,
+  "ContactId": 499,
+  "AssociateId": 569,
+  "PersonId": 39,
+  "SaleTypeId": 111,
+  "SaleTypeName": "Shields LLC",
+  "PersonFullName": "Elliot Reichert",
   "Completed": "Completed",
-  "ActiveErpLinks": 359,
-  "NextDueDate": "1999-09-18T15:05:42.709668+02:00",
-  "Number": "1766509",
+  "ActiveErpLinks": 160,
+  "NextDueDate": "2003-09-27T18:25:51.0579476+02:00",
+  "Number": "1298438",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

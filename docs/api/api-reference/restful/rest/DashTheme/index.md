@@ -2,8 +2,6 @@
 title: DashTheme
 ---
 
-# DashTheme
-
 ```http
 /api/v1/DashTheme
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetEMailAddresses
+title: POST Agents/EMail/GetEMailAddresses
 id: v1EMailAgent_GetEMailAddresses
 ---
 
-# GetEMailAddresses
+# POST Agents/EMail/GetEMailAddresses
 
 ```http
 POST /api/v1/Agents/EMail/GetEMailAddresses
@@ -83,13 +83,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    607,
-    851
+    672,
+    222
   ]
 }
 ```
@@ -100,21 +100,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 998,
-    "ContactName": "Wuckert Inc and Sons",
-    "PersonId": 390,
-    "PersonName": "Armstrong Group",
-    "AssociateId": 311,
-    "Address": "earum",
-    "EmailId": 713,
+    "ContactId": 77,
+    "ContactName": "Borer-Adams",
+    "PersonId": 739,
+    "PersonName": "King-Tremblay",
+    "AssociateId": 181,
+    "Address": "vel",
+    "EmailId": 363,
     "DuplicatePersonIds": [
-      313,
-      494
+      178,
+      569
     ],
-    "Name": "Spencer, Beier and Wilderman",
+    "Name": "Gutkowski Group",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "envisioneer efficient initiatives"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldLength": 137
       }
     }
   }

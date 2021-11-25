@@ -25,8 +25,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=et
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=saepe
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Bauch-Schaden",
-    "ToolTip": "Dignissimos ullam.",
-    "Deleted": true,
-    "Rank": 365,
-    "Type": "nam",
+    "Id": 835,
+    "Name": "O'Reilly LLC",
+    "ToolTip": "Nihil magnam.",
+    "Deleted": false,
+    "Rank": 1000,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Suscipit quia dolorum.",
-        "Deleted": true,
-        "Rank": 877,
-        "Type": "animi",
+        "Id": 321,
+        "Name": "Durgan-Keeling",
+        "ToolTip": "Sed sint dolores quo et.",
+        "Deleted": false,
+        "Rank": 449,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 544,
-        "ExtraInfo": "nisi",
-        "StyleHint": "tenetur",
-        "FullName": "Colin Rippin DVM",
+        "IconHint": "cumque",
+        "ColorBlock": 215,
+        "ExtraInfo": "ea",
+        "StyleHint": "repellat",
+        "FullName": "Elvera Bins",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 410
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 369,
-    "ExtraInfo": "libero",
-    "StyleHint": "et",
-    "FullName": "Rachael Cummerata",
+    "IconHint": "voluptatum",
+    "ColorBlock": 218,
+    "ExtraInfo": "provident",
+    "StyleHint": "dolor",
+    "FullName": "Miss Franco Bednar",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   }

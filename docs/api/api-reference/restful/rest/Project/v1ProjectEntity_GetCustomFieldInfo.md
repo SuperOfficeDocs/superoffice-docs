@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Swift Inc and Sons",
-  "DisplayName": "Nienow-Kozey",
-  "Description": "Cross-group zero administration application",
-  "ShortLabel": "qui",
-  "HideLabel": false,
+  "FieldName": "Nolan LLC",
+  "DisplayName": "Ebert-Windler",
+  "Description": "Face to face web-enabled artificial intelligence",
+  "ShortLabel": "beatae",
+  "HideLabel": true,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 864,
-  "TemplateVariableName": "Stoltenberg Group"
+  "IsReadOnly": true,
+  "IsExternal": false,
+  "Rank": 553,
+  "TemplateVariableName": "Thiel Inc and Sons"
 }
 ```

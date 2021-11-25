@@ -25,8 +25,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=eum
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=numquam
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Jerde, Morar and Murazik",
-    "ToolTip": "Id dolorum voluptates.",
+    "Id": 221,
+    "Name": "Mohr Group",
+    "ToolTip": "Aut vitae voluptatibus.",
     "Deleted": false,
-    "Rank": 751,
-    "Type": "numquam",
+    "Rank": 640,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "O'Kon Inc and Sons",
-        "ToolTip": "Consequuntur nisi in sequi.",
+        "Id": 709,
+        "Name": "O'Kon-Cormier",
+        "ToolTip": "Quisquam ipsum qui reiciendis amet.",
         "Deleted": false,
-        "Rank": 796,
-        "Type": "repudiandae",
+        "Rank": 98,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 562,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "officia",
-        "FullName": "Gayle Walsh",
+        "IconHint": "eos",
+        "ColorBlock": 244,
+        "ExtraInfo": "minus",
+        "StyleHint": "iste",
+        "FullName": "Ivy Sawayn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 439,
-    "ExtraInfo": "ullam",
-    "StyleHint": "quia",
-    "FullName": "Miss Allan Schneider",
+    "IconHint": "rerum",
+    "ColorBlock": 411,
+    "ExtraInfo": "repellat",
+    "StyleHint": "voluptatem",
+    "FullName": "Wilbert Kautzer",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldLength": 35
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: Delete
+title: POST Agents/DatabaseTable/Delete
 id: v1DatabaseTableAgent_Delete
 ---
 
-# Delete
+# POST Agents/DatabaseTable/Delete
 
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete
@@ -11,8 +11,14 @@ POST /api/v1/Agents/DatabaseTable/Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
-> [!NOTE]
-> Must be a system user to perform this operation.
+
+
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -22,6 +28,7 @@ Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -79,14 +86,14 @@ Response body: object
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Kon, Tillman and Auer",
+  "TableName": "Price Group",
   "IDs": [
-    158,
-    65
+    410,
+    191
   ]
 }
 ```
@@ -96,18 +103,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "incidunt",
-  "Inserts": 729,
-  "Updates": 906,
-  "Deletes": 900,
+  "Success": false,
+  "Message": "eligendi",
+  "Inserts": 698,
+  "Updates": 229,
+  "Deletes": 704,
   "RowStatus": [
     {
-      "PrimaryKey": 644,
+      "PrimaryKey": 603,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "neque"
+        "sequi",
+        "aut"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -117,16 +124,16 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldLength": 757
         }
       }
     },
     {
-      "PrimaryKey": 644,
+      "PrimaryKey": 603,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "neque"
+        "sequi",
+        "aut"
       ],
       "TableRight": {},
       "FieldProperties": {
@@ -136,7 +143,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldLength": 757
         }
       }
     }
@@ -151,8 +158,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

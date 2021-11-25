@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Kuvalis, Koelpin and Ortiz",
-    "ToolTip": "Omnis nulla.",
+    "Id": 118,
+    "Name": "Frami-Schaden",
+    "ToolTip": "Non minima.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "et",
-    "ColorBlock": 706,
-    "IconHint": "doloremque",
-    "Selected": true,
-    "LastChanged": "1999-10-15T15:05:43.6830845+02:00",
+    "Rank": 339,
+    "Type": "ullam",
+    "ColorBlock": 483,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "2004-12-15T18:25:52.0342124+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Corkery Group",
-        "ToolTip": "Illum officia.",
+        "Id": 248,
+        "Name": "Zemlak Group",
+        "ToolTip": "Eius eum dolor.",
         "Deleted": true,
-        "Rank": 775,
-        "Type": "reprehenderit",
-        "ColorBlock": 769,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "1998-10-11T15:05:43.6830845+02:00",
+        "Rank": 109,
+        "Type": "in",
+        "ColorBlock": 920,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1995-02-12T18:25:52.0342124+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Ms. Harold Schiller"
+        "ExtraInfo": "tempora",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Selina Volkman"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "minus",
+    "ExtraInfo": "autem",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Dorcas Eichmann"
+    "FullName": "Justine Herzog"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Lebsack LLC",
-    "ToolTip": "Dolor qui quis corporis et unde ratione.",
+    "Id": 419,
+    "Name": "Zboncak LLC",
+    "ToolTip": "Voluptate sunt dolores saepe id dolorem.",
     "Deleted": false,
-    "Rank": 464,
-    "Type": "qui",
-    "ColorBlock": 831,
-    "IconHint": "ipsa",
+    "Rank": 447,
+    "Type": "voluptatum",
+    "ColorBlock": 720,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2014-10-15T15:05:43.6851119+02:00",
+    "LastChanged": "2015-09-02T18:25:52.0364717+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Hessel, Glover and Brakus",
-        "ToolTip": "Temporibus ab vero.",
+        "Id": 273,
+        "Name": "Hickle LLC",
+        "ToolTip": "Excepturi sunt illum.",
         "Deleted": true,
-        "Rank": 779,
-        "Type": "et",
-        "ColorBlock": 979,
+        "Rank": 906,
+        "Type": "dolores",
+        "ColorBlock": 259,
         "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "1996-12-05T15:05:43.6861121+01:00",
+        "Selected": false,
+        "LastChanged": "2020-07-30T18:25:52.0364717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Jolie Brakus",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Christa Crist",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 627
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Casandra Brown",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Hailie Stehr",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 954
       }
     }
   }

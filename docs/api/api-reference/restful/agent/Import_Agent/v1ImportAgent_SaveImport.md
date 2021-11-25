@@ -1,9 +1,9 @@
 ---
-title: SaveImport
+title: POST Agents/Import/SaveImport
 id: v1ImportAgent_SaveImport
 ---
 
-# SaveImport
+# POST Agents/Import/SaveImport
 
 ```http
 POST /api/v1/Agents/Import/SaveImport
@@ -72,39 +72,39 @@ Response body: array
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "architecto",
-        "aut"
+        "molestiae",
+        "odio"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eum"
+      "ExternalKey": "eius"
     },
     {
       "Values": [
-        "architecto",
-        "aut"
+        "molestiae",
+        "odio"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eum"
+      "ExternalKey": "eius"
     }
   ],
   "ColumnDefinition": [
-    "error",
-    "accusantium"
+    "ab",
+    "veritatis"
   ],
-  "CreateSelection": false,
-  "Culture": "accusantium",
-  "Context": "laborum"
+  "CreateSelection": true,
+  "Culture": "blanditiis",
+  "Context": "ut"
 }
 ```
 
@@ -113,7 +113,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  713,
-  942
+  356,
+  72
 ]
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetAttachmentStream
+title: POST Agents/Ticket/GetAttachmentStream
 id: v1TicketAgent_GetAttachmentStream
 ---
 
-# GetAttachmentStream
+# POST Agents/Ticket/GetAttachmentStream
 
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentStream
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 433
+  "AttachmentId": 697
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: GetSuggestedDocumentEntity
+title: POST Agents/Document/GetSuggestedDocumentEntity
 id: v1DocumentAgent_GetSuggestedDocumentEntity
 ---
 
-# GetSuggestedDocumentEntity
+# POST Agents/Document/GetSuggestedDocumentEntity
 
 ```http
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
@@ -25,7 +25,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=61
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=468
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -85,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 77,
-  "Name": "Kreiger LLC",
-  "Tooltip": "reiciendis",
-  "Rank": 219,
-  "DoctmplId": 357,
-  "Header": "voluptas",
-  "OurRef": "aut",
+  "SuggestedDocumentId": 494,
+  "Name": "Kuphal Group",
+  "Tooltip": "molestias",
+  "Rank": 435,
+  "DoctmplId": 649,
+  "Header": "omnis",
+  "OurRef": "quia",
   "Deleted": false,
   "DocTmpl": {
-    "DocumentTemplateId": 801,
-    "Name": "Koelpin Group",
-    "Tooltip": "magni",
-    "SaveInDb": 979,
-    "Filename": "dolore",
-    "DefaultOref": "tempore",
+    "DocumentTemplateId": 303,
+    "Name": "Grimes, Hickle and Gislason",
+    "Tooltip": "vel",
+    "SaveInDb": 516,
+    "Filename": "harum",
+    "DefaultOref": "dicta",
     "RecordType": "Appointment",
-    "Deleted": 540,
+    "Deleted": 139,
     "Direction": "Incoming",
-    "AutoeventId": 337,
+    "AutoeventId": 959,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {},
     "FieldProperties": {
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 642
       }
     }
   },
   "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 56,
-    "ProjTypeId": 751,
-    "ProjTypeName": "Wisoky LLC",
-    "ProjTypeTooltip": "blanditiis",
-    "ProjStatusId": 863,
-    "ProjStatusName": "Keeling Group",
-    "ProjStatusTooltip": "dolores",
+    "ProjectTypeStatusLinkId": 729,
+    "ProjTypeId": 709,
+    "ProjTypeName": "Eichmann-Cassin",
+    "ProjTypeTooltip": "sed",
+    "ProjStatusId": 783,
+    "ProjStatusName": "Huels Group",
+    "ProjStatusTooltip": "provident",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -133,34 +133,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 195
       }
     }
   },
   "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 960,
-    "SaleTypeId": 787,
-    "SaleTypeName": "Williamson LLC",
-    "SaleTypeTooltip": "in",
-    "ProbId": 810,
-    "ProbName": "Rutherford-Pacocha",
-    "ProbTooltip": "omnis",
-    "Probability": 103,
+    "SaleTypeStageLinkId": 115,
+    "SaleTypeId": 457,
+    "SaleTypeName": "Kovacek-VonRueden",
+    "SaleTypeTooltip": "commodi",
+    "ProbId": 888,
+    "ProbName": "Hilll, Parker and Pfeffer",
+    "ProbTooltip": "cum",
+    "Probability": 192,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "scale cross-platform paradigms"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   },
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "whiteboard leading-edge portals"
+    "Reason": "enable sticky applications"
   },
   "FieldProperties": {
     "fieldName": {
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 338
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetCSWwwFolder
+title: POST Agents/Configuration/GetCSWwwFolder
 id: v1ConfigurationAgent_GetCSWwwFolder
 ---
 
-# GetCSWwwFolder
+# POST Agents/Configuration/GetCSWwwFolder
 
 ```http
 POST /api/v1/Agents/Configuration/GetCSWwwFolder
@@ -66,5 +66,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"nobis"
 ```

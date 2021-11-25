@@ -1,9 +1,9 @@
 ---
-title: SaveCredential
+title: POST Agents/User/SaveCredential
 id: v1UserAgent_SaveCredential
 ---
 
-# SaveCredential
+# POST Agents/User/SaveCredential
 
 ```http
 POST /api/v1/Agents/User/SaveCredential
@@ -75,11 +75,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 211,
+  "UserId": 278,
   "Credential": {
     "Type": {},
-    "Value": "tenetur",
-    "DisplayValue": "quae"
+    "Value": "fuga",
+    "DisplayValue": "aut"
   }
 }
 ```

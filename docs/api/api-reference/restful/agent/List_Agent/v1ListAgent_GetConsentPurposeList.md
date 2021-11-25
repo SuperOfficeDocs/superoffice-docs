@@ -1,9 +1,9 @@
 ---
-title: GetConsentPurposeList
+title: POST Agents/List/GetConsentPurposeList
 id: v1ListAgent_GetConsentPurposeList
 ---
 
-# GetConsentPurposeList
+# POST Agents/List/GetConsentPurposeList
 
 ```http
 POST /api/v1/Agents/List/GetConsentPurposeList
@@ -82,7 +82,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -91,27 +91,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 248,
-    "Name": "Harvey, Harris and Champlin",
-    "ConsentText": "et",
-    "FormText": "ipsum",
-    "Key": "sapiente",
+    "ConsentPurposeId": 668,
+    "Name": "Emard Group",
+    "ConsentText": "rerum",
+    "FormText": "blanditiis",
+    "Key": "autem",
     "Tooltip": "et",
-    "Active": 4,
-    "UpdatedDate": "1994-12-18T14:58:04.36146+01:00",
+    "Active": 282,
+    "UpdatedDate": "2011-10-29T18:28:49.4220904+02:00",
     "UpdatedBy": {
-      "AssociateId": 851,
-      "Name": "Leffler, Reilly and Goyette",
-      "PersonId": 970,
-      "Rank": 953,
-      "Tooltip": "vero",
+      "AssociateId": 371,
+      "Name": "Dicki-Von",
+      "PersonId": 550,
+      "Rank": 399,
+      "Tooltip": "culpa",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 495,
-      "FullName": "Otilia Herzog",
-      "FormalName": "Schamberger, Crist and Hills",
+      "GroupIdx": 953,
+      "FullName": "Trinity Klocko",
+      "FormalName": "Carter, Schultz and Weimann",
       "Deleted": false,
-      "EjUserId": 316,
-      "UserName": "Morar, Hintz and Davis",
+      "EjUserId": 587,
+      "UserName": "Rutherford LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldType": "System.String",
+          "FieldLength": 219
         }
       }
     },
     "Deleted": false,
-    "Rank": 360,
-    "PrivacyStatementDesc": "et",
+    "Rank": 36,
+    "PrivacyStatementDesc": "neque",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "engineer compelling models"
     },
     "FieldProperties": {
       "fieldName": {
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldLength": 207
       }
     }
   }

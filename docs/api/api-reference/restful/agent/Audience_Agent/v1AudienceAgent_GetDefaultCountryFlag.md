@@ -1,9 +1,9 @@
 ---
-title: GetDefaultCountryFlag
+title: POST Agents/Audience/GetDefaultCountryFlag
 id: v1AudienceAgent_GetDefaultCountryFlag
 ---
 
-# GetDefaultCountryFlag
+# POST Agents/Audience/GetDefaultCountryFlag
 
 ```http
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
@@ -68,11 +68,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Friesen-O'Keefe"
+  "LayoutName": "Douglas Group"
 }
 ```
 

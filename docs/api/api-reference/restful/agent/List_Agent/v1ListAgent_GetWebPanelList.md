@@ -1,9 +1,9 @@
 ---
-title: GetWebPanelList
+title: POST Agents/List/GetWebPanelList
 id: v1ListAgent_GetWebPanelList
 ---
 
-# GetWebPanelList
+# POST Agents/List/GetWebPanelList
 
 ```http
 POST /api/v1/Agents/List/GetWebPanelList
@@ -83,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 697,
-    "Name": "Stanton, Hayes and Beer",
-    "Tooltip": "totam",
+    "WebPanelId": 435,
+    "Name": "Boyle, VonRueden and Gutmann",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 221,
+    "Rank": 263,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSatellite": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Lubowitz LLC",
+    "WindowName": "Watsica Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "sit",
-    "Icon": 588,
+    "ProgId": "dolorem",
+    "Icon": 206,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   }

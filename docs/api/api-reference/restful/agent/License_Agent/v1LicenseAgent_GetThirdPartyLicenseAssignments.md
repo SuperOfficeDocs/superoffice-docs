@@ -1,9 +1,9 @@
 ---
-title: GetThirdPartyLicenseAssignments
+title: POST Agents/License/GetThirdPartyLicenseAssignments
 id: v1LicenseAgent_GetThirdPartyLicenseAssignments
 ---
 
-# GetThirdPartyLicenseAssignments
+# POST Agents/License/GetThirdPartyLicenseAssignments
 
 ```http
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
@@ -71,12 +71,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -90,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 327,
-  "ModuleOwner": "velit"
+  "AssociateId": 275,
+  "ModuleOwner": "voluptas"
 }
 ```
 
@@ -102,18 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 641,
-    "Tooltip": "recusandae",
+    "Total": 772,
+    "Tooltip": "molestiae",
     "CanAssign": true,
-    "Free": 413,
-    "InUse": 170,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 697,
-    "Name": "Haag-Kassulke",
-    "Description": "Universal coherent matrices",
-    "PrerequisiteModuleName": "Johnston-Purdy",
-    "SortOrder": 262,
+    "Free": 808,
+    "InUse": 645,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 123,
+    "Name": "Kuhn-Lehner",
+    "Description": "Persistent multi-tasking focus group",
+    "PrerequisiteModuleName": "D'Amore, Heathcote and Gerlach",
+    "SortOrder": 226,
+    "ExtraFlags": 416,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -124,8 +126,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

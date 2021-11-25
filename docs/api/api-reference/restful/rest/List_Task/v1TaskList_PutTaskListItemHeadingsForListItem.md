@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Champlin-Kessler",
-    "ToolTip": "Expedita molestiae cum ut reprehenderit et.",
-    "Deleted": false,
-    "Rank": 423,
-    "Type": "illum",
-    "ColorBlock": 54,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2002-02-25T15:05:43.8961227+01:00",
+    "Id": 557,
+    "Name": "Denesik, White and Nitzsche",
+    "ToolTip": "Ipsa nisi labore harum et.",
+    "Deleted": true,
+    "Rank": 638,
+    "Type": "rerum",
+    "ColorBlock": 615,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2019-01-03T18:25:52.286681+01:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Gerlach, Nolan and Hand",
-        "ToolTip": "Rerum perspiciatis ut officia eum reiciendis.",
+        "Id": 881,
+        "Name": "Brekke Inc and Sons",
+        "ToolTip": "Quidem molestias quia eum voluptatem quaerat.",
         "Deleted": true,
-        "Rank": 828,
-        "Type": "ut",
-        "ColorBlock": 785,
-        "IconHint": "commodi",
+        "Rank": 757,
+        "Type": "asperiores",
+        "ColorBlock": 716,
+        "IconHint": "optio",
         "Selected": true,
-        "LastChanged": "1994-12-13T15:05:43.897122+01:00",
+        "LastChanged": "1995-07-02T18:25:52.286681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Miss Malika Wehner"
+        "ExtraInfo": "eum",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Wilfredo Kling"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "modi",
+    "ExtraInfo": "rerum",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Mr. Jayson Carter"
+    "FullName": "Emilio Hartmann"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Schuster LLC",
-    "ToolTip": "Quia veniam voluptatem veritatis commodi vel occaecati.",
-    "Deleted": false,
-    "Rank": 706,
-    "Type": "assumenda",
-    "ColorBlock": 495,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "1997-10-17T15:05:43.8981228+02:00",
+    "Id": 155,
+    "Name": "Hegmann Inc and Sons",
+    "ToolTip": "Et quo.",
+    "Deleted": true,
+    "Rank": 457,
+    "Type": "officia",
+    "ColorBlock": 621,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2010-03-03T18:25:52.2886728+01:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Murazik, O'Hara and Schinner",
-        "ToolTip": "Aut voluptatem eos cumque est tenetur.",
-        "Deleted": false,
-        "Rank": 842,
-        "Type": "cumque",
-        "ColorBlock": 738,
-        "IconHint": "at",
+        "Id": 275,
+        "Name": "Kuhic, Schultz and Ratke",
+        "ToolTip": "Aut eveniet et qui praesentium mollitia.",
+        "Deleted": true,
+        "Rank": 963,
+        "Type": "sit",
+        "ColorBlock": 762,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2013-12-19T15:05:43.8981228+01:00",
+        "LastChanged": "2016-11-27T18:25:52.2886728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "harum",
         "Hidden": true,
-        "FullName": "Ozella Schulist",
+        "FullName": "Matilde Kemmer",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 946
+            "FieldType": "System.Int32",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Geoffrey Dach DVM",
+    "ExtraInfo": "delectus",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Hipolito Dooley",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 62
       }
     }
   }

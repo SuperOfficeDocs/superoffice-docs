@@ -1,9 +1,9 @@
 ---
-title: ResolveUserFromInfo
+title: POST Agents/User/ResolveUserFromInfo
 id: v1UserAgent_ResolveUserFromInfo
 ---
 
-# ResolveUserFromInfo
+# POST Agents/User/ResolveUserFromInfo
 
 ```http
 POST /api/v1/Agents/User/ResolveUserFromInfo
@@ -91,21 +91,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 11,
-  "PersonName": "Feest Group",
+  "ContactId": 1000,
+  "PersonName": "Becker Inc and Sons",
   "PhoneNumbers": [
-    "760680",
-    "1360190"
+    "893466",
+    "290180"
   ],
   "Emails": [
-    "lera@beahankerluke.us",
-    "jason_langworth@russel.info"
+    "bobby@stiedemannhalvorson.ca",
+    "zula@rodriguez.ca"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": {
     "Type": {},
-    "Value": "consequatur",
-    "DisplayValue": "et"
+    "Value": "ipsa",
+    "DisplayValue": "occaecati"
   }
 }
 ```
@@ -116,10 +116,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": {
-    "AssociateId": 55,
-    "Name": "Hamill-Walsh",
-    "Rank": 280,
-    "Tooltip": "provident",
+    "AssociateId": 563,
+    "Name": "Wolf, Abbott and Wolf",
+    "Rank": 936,
+    "Tooltip": "nobis",
     "LicenseOwners": [
       {},
       {}
@@ -132,31 +132,31 @@ Content-Type: application/json; charset=utf-8
     ],
     "Person": {},
     "Deleted": true,
-    "Lastlogin": "2012-04-20T14:58:05.4226249+02:00",
-    "Lastlogout": "2012-01-14T14:58:05.4226249+01:00",
-    "EjUserId": 956,
-    "RequestSignature": "eos",
+    "Lastlogin": "2016-05-13T18:28:50.4214122+02:00",
+    "Lastlogout": "2016-03-09T18:28:50.4214122+01:00",
+    "EjUserId": 155,
+    "RequestSignature": "cupiditate",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {},
       {}
     ],
-    "UserName": "Kling, Langworth and Schumm",
+    "UserName": "Wisozk-Stracke",
     "TicketCategories": [
       {},
       {}
     ],
-    "NickName": "Hand Inc and Sons",
-    "WaitingForApproval": true,
+    "NickName": "Kohler, Becker and Ebert",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "incidunt",
-      "ExtraFields2": "deserunt"
+      "ExtraFields1": "maxime",
+      "ExtraFields2": "enim"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "voluptas"
+      "CustomFields1": "officiis",
+      "CustomFields2": "dolores"
     },
     "PostSaveCommands": [
       {},
@@ -169,12 +169,12 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   },
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -186,7 +186,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 272
+      "FieldLength": 810
     }
   }
 }

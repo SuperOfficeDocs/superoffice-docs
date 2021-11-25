@@ -2,8 +2,6 @@
 title: Role
 ---
 
-# Role
-
 ```http
 /api/v1/Role
 ```

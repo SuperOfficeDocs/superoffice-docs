@@ -1,9 +1,9 @@
 ---
-title: GetAllInstalledQuoteConnections
+title: POST Agents/Quote/GetAllInstalledQuoteConnections
 id: v1QuoteAgent_GetAllInstalledQuoteConnections
 ---
 
-# GetAllInstalledQuoteConnections
+# POST Agents/Quote/GetAllInstalledQuoteConnections
 
 ```http
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
@@ -78,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -87,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 981,
-    "ERPName": "Wolff-Wiza",
-    "DisplayName": "Friesen-McGlynn",
-    "DisplayDescription": "Decentralized full-range focus group",
-    "Rank": 231,
-    "ConnectorName": "Lueilwitz Group",
-    "ErpConnectionId": 307,
-    "ExtraData": "odit",
+    "QuoteConnectionId": 491,
+    "ERPName": "Fritsch Inc and Sons",
+    "DisplayName": "Pollich-Ankunding",
+    "DisplayDescription": "Profit-focused methodical pricing structure",
+    "Rank": 604,
+    "ConnectorName": "Stanton-Marks",
+    "ErpConnectionId": 433,
+    "ExtraData": "ipsam",
     "IsAvailable": false,
     "InitializeResponse": {
-      "IsOk": false,
-      "UserExplanation": "sit",
-      "TechExplanation": "beatae",
-      "ErrorCode": "voluptates",
+      "IsOk": true,
+      "UserExplanation": "quia",
+      "TechExplanation": "dicta",
+      "ErrorCode": "et",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 633,
-        "ERPPriceListKey": "est",
-        "QuoteConnectionId": 247,
-        "Name": "Stanton-Reichel",
-        "Description": "Virtual systematic model",
-        "Currency": "laboriosam",
-        "CurrencyName": "Kohler, Stokes and Berge",
-        "ValidFrom": "2013-06-02T14:58:04.9584649+02:00",
-        "ValidTo": "1998-03-22T14:58:04.9584649+01:00",
-        "IsActive": true,
+        "PriceListId": 680,
+        "ERPPriceListKey": "aspernatur",
+        "QuoteConnectionId": 249,
+        "Name": "Russel-Harvey",
+        "Description": "Decentralized mission-critical knowledge user",
+        "Currency": "tenetur",
+        "CurrencyName": "McLaughlin, Hansen and Crooks",
+        "ValidFrom": "2020-02-20T18:28:50.0021369+01:00",
+        "ValidTo": "2010-05-03T18:28:50.0021369+02:00",
+        "IsActive": false,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "disintermediate mission-critical ROI"
+              "Reason": "mesh open-source content"
             },
             "FieldType": "System.String",
-            "FieldLength": 773
+            "FieldLength": 337
           }
         }
       }
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      793,
-      68
+      175,
+      100
     ],
     "AssociateAccessIds": [
-      473,
-      503
+      449,
+      874
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldLength": 327
       }
     }
   }

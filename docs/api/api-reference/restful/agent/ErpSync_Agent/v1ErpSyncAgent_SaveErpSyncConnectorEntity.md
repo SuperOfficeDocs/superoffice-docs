@@ -1,9 +1,9 @@
 ---
-title: SaveErpSyncConnectorEntity
+title: POST Agents/ErpSync/SaveErpSyncConnectorEntity
 id: v1ErpSyncAgent_SaveErpSyncConnectorEntity
 ---
 
-# SaveErpSyncConnectorEntity
+# POST Agents/ErpSync/SaveErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
@@ -80,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 31,
-  "DisplayName": "Reynolds, Abshire and Kshlerin",
+  "ErpConnectorId": 899,
+  "DisplayName": "Lind-Crooks",
   "URL": "http://www.example.com/",
   "Deleted": true
 }
@@ -92,8 +92,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 620,
-  "DisplayName": "Schinner-Lynch",
+  "ErpConnectorId": 433,
+  "DisplayName": "Denesik, Wuckert and Jaskolski",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": {
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 860
     }
   }
 }

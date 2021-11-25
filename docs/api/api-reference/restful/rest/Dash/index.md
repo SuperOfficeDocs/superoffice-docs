@@ -2,8 +2,6 @@
 title: Dash
 ---
 
-# Dash
-
 ```http
 /api/v1/Dash
 ```

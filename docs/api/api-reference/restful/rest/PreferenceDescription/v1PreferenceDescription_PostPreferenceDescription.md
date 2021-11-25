@@ -116,24 +116,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 539,
-  "Section": "earum",
-  "Key": "cupiditate",
-  "Name": "Ledner-Stark",
+  "PrefDescId": 586,
+  "Section": "aut",
+  "Key": "vero",
+  "Name": "Koch-Hoeger",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Grass-roots uniform workforce",
-  "IsBuiltin": false,
-  "TableName": "Bayer-Schneider",
-  "UserDefinedListId": 508,
-  "Rank": 741,
-  "SubGroup": "quia",
-  "MinLevel": 797,
-  "MaxValue": 42,
-  "MinValue": 985,
-  "RequiredLicense": "nesciunt"
+  "Description": "Automated discrete flexibility",
+  "IsBuiltin": true,
+  "TableName": "Altenwerth LLC",
+  "UserDefinedListId": 541,
+  "Rank": 495,
+  "SubGroup": "perspiciatis",
+  "MinLevel": 855,
+  "MaxValue": 991,
+  "MinValue": 697,
+  "RequiredLicense": "aliquam"
 }
 ```
 
@@ -142,24 +142,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 764,
-  "Section": "aut",
-  "Key": "esse",
-  "Name": "Runte LLC",
+  "PrefDescId": 654,
+  "Section": "quidem",
+  "Key": "natus",
+  "Name": "Ruecker, Kilback and Weimann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly bottom-line Graphical User Interface",
-  "IsBuiltin": true,
-  "TableName": "Kozey Group",
-  "UserDefinedListId": 285,
-  "Rank": 475,
-  "SubGroup": "iste",
-  "MinLevel": 667,
-  "MaxValue": 210,
-  "MinValue": 794,
-  "RequiredLicense": "accusamus",
+  "Description": "Assimilated tertiary utilisation",
+  "IsBuiltin": false,
+  "TableName": "Dooley, Thiel and Hermann",
+  "UserDefinedListId": 747,
+  "Rank": 508,
+  "SubGroup": "aut",
+  "MinLevel": 839,
+  "MaxValue": 11,
+  "MinValue": 554,
+  "RequiredLicense": "consectetur",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -170,13 +170,13 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 217
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

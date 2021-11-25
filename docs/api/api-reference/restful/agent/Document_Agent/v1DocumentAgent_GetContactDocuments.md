@@ -1,9 +1,9 @@
 ---
-title: GetContactDocuments
+title: POST Agents/Document/GetContactDocuments
 id: v1DocumentAgent_GetContactDocuments
 ---
 
-# GetContactDocuments
+# POST Agents/Document/GetContactDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetContactDocuments
@@ -93,14 +93,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 668,
-  "StartTime": "2009-12-09T14:58:03.811465+01:00",
-  "EndTime": "2015-12-19T14:58:03.811465+01:00",
-  "Count": 694
+  "ContactId": 384,
+  "StartTime": "2015-03-17T18:28:48.7089279+01:00",
+  "EndTime": "2021-08-03T18:28:48.7089279+02:00",
+  "Count": 569
 }
 ```
 
@@ -110,24 +110,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 321,
-    "Attention": "quia",
-    "Header": "ullam",
-    "Name": "Connelly, Schaden and Hammes",
-    "OurRef": "molestiae",
-    "YourRef": "voluptates",
-    "Description": "Configurable solution-oriented definition",
-    "DocumentTemplate": "omnis",
-    "IsPublished": false,
-    "PersonId": 525,
-    "PersonFullName": "Dr. Casandra Kerluke",
-    "AssociateFullName": "Laila Hessel",
-    "ContactId": 507,
-    "ContactName": "Huel Inc and Sons",
-    "ProjectId": 864,
-    "ProjectName": "Shanahan, Raynor and Batz",
-    "AssociateId": 442,
-    "Snum": 563,
+    "DocumentId": 493,
+    "Attention": "illo",
+    "Header": "eaque",
+    "Name": "Brown LLC",
+    "OurRef": "id",
+    "YourRef": "qui",
+    "Description": "Vision-oriented multi-tasking knowledge user",
+    "DocumentTemplate": "natus",
+    "IsPublished": true,
+    "PersonId": 99,
+    "PersonFullName": "Lilian Haley",
+    "AssociateFullName": "Mrs. Lawrence Parker",
+    "ContactId": 666,
+    "ContactName": "Schaefer, Stark and Lynch",
+    "ProjectId": 455,
+    "ProjectName": "Hauck Group",
+    "AssociateId": 251,
+    "Snum": 444,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

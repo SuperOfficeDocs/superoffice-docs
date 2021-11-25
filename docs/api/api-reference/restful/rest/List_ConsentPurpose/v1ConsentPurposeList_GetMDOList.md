@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=ab
+GET /api/v1/List/ConsentPurpose/MDOItems?query=inventore
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Wisozk-Price",
-    "ToolTip": "Facere incidunt architecto laudantium illum explicabo dicta.",
-    "Deleted": false,
-    "Rank": 732,
-    "Type": "error",
+    "Id": 448,
+    "Name": "Hermann, Berge and Olson",
+    "ToolTip": "Ipsam est.",
+    "Deleted": true,
+    "Rank": 259,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Hermann, Bradtke and Hermann",
-        "ToolTip": "Sint corporis eaque magnam.",
-        "Deleted": true,
-        "Rank": 210,
-        "Type": "cumque",
+        "Id": 96,
+        "Name": "Jewess Inc and Sons",
+        "ToolTip": "Accusamus fuga id est.",
+        "Deleted": false,
+        "Rank": 284,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "maiores",
-        "ColorBlock": 687,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "ut",
-        "FullName": "Brennan Stracke",
+        "ColorBlock": 818,
+        "ExtraInfo": "qui",
+        "StyleHint": "minus",
+        "FullName": "Fleta Murray",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 109
+            "FieldLength": 700
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 89,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "ex",
-    "FullName": "Genesis Cole III",
+    "IconHint": "nostrum",
+    "ColorBlock": 783,
+    "ExtraInfo": "culpa",
+    "StyleHint": "consequatur",
+    "FullName": "Charlotte Murazik",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 690
       }
     }
   }

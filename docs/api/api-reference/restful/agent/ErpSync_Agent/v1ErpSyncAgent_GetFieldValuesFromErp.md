@@ -1,9 +1,9 @@
 ---
-title: GetFieldValuesFromErp
+title: POST Agents/ErpSync/GetFieldValuesFromErp
 id: v1ErpSyncAgent_GetFieldValuesFromErp
 ---
 
-# GetFieldValuesFromErp
+# POST Agents/ErpSync/GetFieldValuesFromErp
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
@@ -82,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 657,
+  "ErpConnectionId": 36,
   "ActorTypeErp": "Customer",
-  "ErpKey": "aut"
+  "ErpKey": "neque"
 }
 ```
 
@@ -98,15 +98,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Shanahan, Beahan and Gutmann",
-    "CrmFieldKey": "tenetur",
-    "Value": "repudiandae",
+    "DisplayName": "Cronin, Mohr and Erdman",
+    "CrmFieldKey": "id",
+    "Value": "et",
     "DisplayValue": "placeat",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "productize 24/365 supply-chains"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 606
       }
     }
   }

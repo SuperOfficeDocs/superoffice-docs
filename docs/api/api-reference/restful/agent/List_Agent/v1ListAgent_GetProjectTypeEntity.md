@@ -1,9 +1,9 @@
 ---
-title: GetProjectTypeEntity
+title: POST Agents/List/GetProjectTypeEntity
 id: v1ListAgent_GetProjectTypeEntity
 ---
 
-# GetProjectTypeEntity
+# POST Agents/List/GetProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/GetProjectTypeEntity
@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=779
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=881
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ Response body: object
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -84,35 +84,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 907,
-  "Name": "Collier-Gusikowski",
-  "Tooltip": "repellendus",
-  "Rank": 945,
+  "ProjTypeId": 666,
+  "Name": "Gusikowski-Bahringer",
+  "Tooltip": "perferendis",
+  "Rank": 513,
   "DurationUnit": "Century",
-  "ProjectDuration": 396,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 27,
+  "Deleted": true,
+  "HasGuide": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 571,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Recusandae corrupti quaerat.",
-      "Deleted": false,
-      "Rank": 285,
-      "Type": "est",
-      "ColorBlock": 390,
-      "IconHint": "qui",
+      "Id": 673,
+      "Name": "Kertzmann Group",
+      "ToolTip": "Cumque iusto id rerum dicta voluptas.",
+      "Deleted": true,
+      "Rank": 242,
+      "Type": "vel",
+      "ColorBlock": 267,
+      "IconHint": "doloremque",
       "Selected": false,
-      "LastChanged": "2008-07-14T14:58:04.3914661+02:00",
+      "LastChanged": "2012-07-24T18:28:49.2831232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "omnis",
+      "ExtraInfo": "qui",
+      "StyleHint": "voluptate",
       "Hidden": true,
-      "FullName": "Marjory Rutherford",
+      "FullName": "Eldred Conroy",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 641
         }
       }
     }
@@ -134,10 +134,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "target bricks-and-clicks infrastructures"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 495
     }
   }
 }

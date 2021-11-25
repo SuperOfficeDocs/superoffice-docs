@@ -1,9 +1,9 @@
 ---
-title: GetDefaultProjectImage
+title: POST Agents/Audience/GetDefaultProjectImage
 id: v1AudienceAgent_GetDefaultProjectImage
 ---
 
-# GetDefaultProjectImage
+# POST Agents/Audience/GetDefaultProjectImage
 
 ```http
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kovacek, Braun and Hoppe"
+  "LayoutName": "Harris-Anderson"
 }
 ```
 

@@ -1,9 +1,9 @@
 ---
-title: AddSaleTypeQuoteAttachment
+title: POST Agents/Quote/AddSaleTypeQuoteAttachment
 id: v1QuoteAgent_AddSaleTypeQuoteAttachment
 ---
 
-# AddSaleTypeQuoteAttachment
+# POST Agents/Quote/AddSaleTypeQuoteAttachment
 
 ```http
 POST /api/v1/Agents/Quote/AddSaleTypeQuoteAttachment
@@ -69,12 +69,12 @@ Response body: int32
 POST /api/v1/Agents/Quote/AddSaleTypeQuoteAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 196,
-  "DocumentId": 764
+  "SaleTypeId": 634,
+  "DocumentId": 878
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-591
+471
 ```

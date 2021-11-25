@@ -1,9 +1,9 @@
 ---
-title: GetHistory
+title: POST Agents/ViewState/GetHistory
 id: v1ViewStateAgent_GetHistory
 ---
 
-# GetHistory
+# POST Agents/ViewState/GetHistory
 
 ```http
 POST /api/v1/Agents/ViewState/GetHistory
@@ -25,7 +25,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=134
+POST /api/v1/Agents/ViewState/GetHistory?historyId=508
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -85,13 +85,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 423,
-  "Id": 131,
-  "HistoryName": "O'Connell, Cummings and Boyle",
-  "HistoryId": 509,
-  "AssociateId": 276,
-  "Name": "Harber, Huel and Wiegand",
-  "ItemInfo": "omnis",
+  "Rank": 209,
+  "Id": 929,
+  "HistoryName": "Lang, Steuber and Spinka",
+  "HistoryId": 562,
+  "AssociateId": 797,
+  "Name": "Goodwin Group",
+  "ItemInfo": "id",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   }
 }

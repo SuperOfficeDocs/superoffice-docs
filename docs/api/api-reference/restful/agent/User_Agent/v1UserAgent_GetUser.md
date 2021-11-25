@@ -1,9 +1,9 @@
 ---
-title: GetUser
+title: POST Agents/User/GetUser
 id: v1UserAgent_GetUser
 ---
 
-# GetUser
+# POST Agents/User/GetUser
 
 ```http
 POST /api/v1/Agents/User/GetUser
@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=736
+POST /api/v1/Agents/User/GetUser?userId=505
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ Response body: object
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -105,14 +105,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 912,
-  "Name": "Medhurst-Brekke",
-  "Rank": 625,
-  "Tooltip": "sit",
+  "AssociateId": 204,
+  "Name": "Hand Group",
+  "Rank": 469,
+  "Tooltip": "voluptate",
   "LicenseOwners": [
     {
-      "Name": "Daugherty, Will and Wehner",
-      "Description": "Organic hybrid encoding",
+      "Name": "Heller Group",
+      "Description": "Adaptive human-resource system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -129,13 +129,13 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 726
         }
       }
     },
     {
-      "Name": "Daugherty, Will and Wehner",
-      "Description": "Organic hybrid encoding",
+      "Name": "Heller Group",
+      "Description": "Adaptive human-resource system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,15 +152,15 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 726
         }
       }
     }
   ],
   "Role": {
-    "Id": 196,
-    "Value": "est",
-    "Tooltip": "et",
+    "Id": 140,
+    "Value": "deleniti",
+    "Tooltip": "ut",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -169,34 +169,34 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldLength": 684
       }
     }
   },
   "UserGroup": {
-    "Value": "tempore",
-    "Tooltip": "culpa",
-    "Id": 951,
-    "Rank": 997,
-    "Deleted": true,
+    "Value": "doloribus",
+    "Tooltip": "dolorem",
+    "Id": 219,
+    "Rank": 121,
+    "Deleted": false,
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "envisioneer front-end technologies"
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   },
   "OtherGroups": [
     {
-      "Value": "molestiae",
-      "Tooltip": "adipisci",
-      "Id": 355,
-      "Rank": 352,
+      "Value": "et",
+      "Tooltip": "voluptas",
+      "Id": 613,
+      "Rank": 39,
       "Deleted": false,
       "TableRight": {},
       "FieldProperties": {
@@ -206,51 +206,51 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldLength": 391
         }
       }
     }
   ],
   "Person": {
-    "Position": "qui",
-    "PersonId": 416,
-    "Mrmrs": "dolores",
-    "Firstname": "Modesto",
-    "Lastname": "Ziemann",
-    "MiddleName": "Harvey-Bartoletti",
-    "Title": "a",
-    "Description": "Intuitive didactic functionalities",
-    "Email": "yasmine@cristschaden.uk",
-    "FullName": "Ruth Mosciski",
-    "DirectPhone": "(745)444-1657",
-    "FormalName": "Cummings-Cremin",
-    "CountryId": 862,
-    "ContactId": 622,
-    "ContactName": "Reinger-Turner",
-    "Retired": 261,
-    "Rank": 810,
-    "ActiveInterests": 972,
+    "Position": "est",
+    "PersonId": 439,
+    "Mrmrs": "ut",
+    "Firstname": "Margaret",
+    "Lastname": "Hansen",
+    "MiddleName": "Schaden Inc and Sons",
+    "Title": "id",
+    "Description": "Digitized object-oriented success",
+    "Email": "eliza_hessel@haag.info",
+    "FullName": "Brooke Dickens",
+    "DirectPhone": "567.387.7434",
+    "FormalName": "Murray Inc and Sons",
+    "CountryId": 171,
+    "ContactId": 986,
+    "ContactName": "Dietrich, Gerlach and Upton",
+    "Retired": 601,
+    "Rank": 726,
+    "ActiveInterests": 393,
     "ContactDepartment": "",
-    "ContactCountryId": 921,
-    "ContactOrgNr": "1944283",
-    "FaxPhone": "037-634-7422 x38745",
-    "MobilePhone": "(638)176-4264",
-    "ContactPhone": "721.454.5478 x847",
-    "AssociateName": "Murazik-Mohr",
-    "AssociateId": 349,
-    "UsePersonAddress": true,
-    "ContactFax": "voluptatem",
-    "Kanafname": "ratione",
-    "Kanalname": "molestiae",
-    "Post1": "voluptatibus",
-    "Post2": "reiciendis",
-    "Post3": "nulla",
-    "EmailName": "vito_weissnat@farrell.info",
-    "ContactFullName": "Dayne Bradtke",
-    "ActiveErpLinks": 833,
-    "TicketPriorityId": 373,
-    "SupportLanguageId": 764,
-    "SupportAssociateId": 959,
+    "ContactCountryId": 803,
+    "ContactOrgNr": "1164568",
+    "FaxPhone": "(075)174-8502",
+    "MobilePhone": "538-327-5641",
+    "ContactPhone": "066.255.2101",
+    "AssociateName": "Predovic Group",
+    "AssociateId": 630,
+    "UsePersonAddress": false,
+    "ContactFax": "nemo",
+    "Kanafname": "ipsam",
+    "Kanalname": "a",
+    "Post1": "neque",
+    "Post2": "et",
+    "Post3": "nemo",
+    "EmailName": "renee@lang.name",
+    "ContactFullName": "Obie Turcotte",
+    "ActiveErpLinks": 486,
+    "TicketPriorityId": 599,
+    "SupportLanguageId": 893,
+    "SupportAssociateId": 282,
     "CategoryName": "VIP Customer",
     "TableRight": {},
     "FieldProperties": {
@@ -260,23 +260,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 885
       }
     }
   },
-  "Deleted": true,
-  "Lastlogin": "2016-08-29T14:58:05.4356236+02:00",
-  "Lastlogout": "1995-10-18T14:58:05.4356236+02:00",
-  "EjUserId": 469,
-  "RequestSignature": "distinctio",
+  "Deleted": false,
+  "Lastlogin": "2002-06-11T18:28:50.4364116+02:00",
+  "Lastlogout": "2016-09-15T18:28:50.4364116+02:00",
+  "EjUserId": 790,
+  "RequestSignature": "totam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": {},
-      "Value": "est",
-      "DisplayValue": "magni",
+      "Value": "nihil",
+      "DisplayValue": "quas",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -284,15 +284,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     },
     {
       "Type": {},
-      "Value": "est",
-      "DisplayValue": "magni",
+      "Value": "nihil",
+      "DisplayValue": "quas",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -300,30 +300,30 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     }
   ],
-  "UserName": "Howell, Hyatt and Mante",
+  "UserName": "Hahn Group",
   "TicketCategories": [
     {
-      "Id": 607,
-      "Name": "Heathcote Group",
-      "ToolTip": "Ipsam quia neque omnis pariatur.",
-      "Deleted": false,
-      "Rank": 771,
-      "Type": "distinctio",
+      "Id": 637,
+      "Name": "Romaguera-Bernier",
+      "ToolTip": "Recusandae nulla impedit quaerat aperiam dolor et.",
+      "Deleted": true,
+      "Rank": 282,
+      "Type": "temporibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 458,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "possimus",
-      "FullName": "Damien O'Connell",
+      "IconHint": "occaecati",
+      "ColorBlock": 752,
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "dolorem",
+      "FullName": "Dejon Carroll",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -332,38 +332,38 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldLength": 972
         }
       }
     }
   ],
-  "NickName": "Kassulke, Eichmann and Kiehn",
-  "WaitingForApproval": false,
+  "NickName": "Green, Marvin and Haag",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "a",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "minima"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "voluptatem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Konopelski Group",
-      "DisplayName": "Toy, Ullrich and Hammes",
-      "Description": "Business-focused zero tolerance approach",
-      "ToolTip": "Quasi est vel rerum accusantium optio sed.",
+      "Name": "Jacobson LLC",
+      "DisplayName": "Fadel-Blick",
+      "Description": "Upgradable grid-enabled service-desk",
+      "ToolTip": "A magni cumque deleniti.",
       "Actions": "Implicit",
-      "ActionData": "ut",
+      "ActionData": "maxime",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": "expedite interactive web services"
+            "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldLength": 289
         }
       }
     }
@@ -378,8 +378,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   }
 }

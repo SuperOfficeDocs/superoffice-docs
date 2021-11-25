@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListByColumnsWithContext
+title: POST Agents/Archive/GetArchiveListByColumnsWithContext
 id: v1ArchiveAgent_GetArchiveListByColumnsWithContext
 ---
 
-# GetArchiveListByColumnsWithContext
+# POST Agents/Archive/GetArchiveListByColumnsWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
@@ -110,36 +110,36 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Daugherty-Von",
+  "ProviderName": "Mosciski-Russel",
   "Columns": [
-    "eum",
-    "sit"
+    "reiciendis",
+    "modi"
   ],
   "SortOrder": [
     {
-      "Name": "Yost, Pfannerstill and Hilll",
+      "Name": "Sipes-Reichert",
       "Direction": "ASC"
     },
     {
-      "Name": "Yost, Pfannerstill and Hilll",
+      "Name": "Sipes-Reichert",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Funk Group",
-      "Operator": "saepe",
+      "Name": "Stiedemann-Walker",
+      "Operator": "vitae",
       "Values": [
-        "occaecati",
-        "dolorem"
+        "iusto",
+        "enim"
       ],
       "DisplayValues": [
-        "ut",
-        "est"
+        "blanditiis",
+        "quo"
       ],
       "ColumnInfo": {},
       "IsActive": true,
@@ -147,18 +147,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 767,
+      "InterParenthesis": 503,
       "InterOperator": "And",
-      "UniqueHash": 314
+      "UniqueHash": 860
     }
   ],
   "Entities": [
-    "vitae",
-    "et"
+    "sed",
+    "nihil"
   ],
-  "Page": 609,
-  "PageSize": 161,
-  "Context": "error"
+  "Page": 393,
+  "PageSize": 204,
+  "Context": "quisquam"
 }
 ```
 
@@ -168,17 +168,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Connelly-Haag",
-    "PrimaryKey": 22,
+    "EntityName": "Beier Inc and Sons",
+    "PrimaryKey": 478,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fuga",
-        "TooltipHint": "id",
-        "LinkHint": "fugiat"
+        "DisplayValue": "consequatur",
+        "TooltipHint": "quo",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "explicabo",
-    "StyleHint": "cum",
+    "LinkHint": "expedita",
+    "StyleHint": "qui",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldType": "System.String",
+        "FieldLength": 808
       }
     }
   }

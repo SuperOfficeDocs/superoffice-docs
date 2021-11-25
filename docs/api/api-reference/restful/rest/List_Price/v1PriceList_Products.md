@@ -72,14 +72,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=sed
-GET /api/v1/Pricelist/{id}/Products?$top=544
-GET /api/v1/Pricelist/{id}/Products?$skip=616
+GET /api/v1/Pricelist/{id}/Products?$entities=nemo
+GET /api/v1/Pricelist/{id}/Products?$top=262
+GET /api/v1/Pricelist/{id}/Products?$skip=237
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=quas
+GET /api/v1/Pricelist/{id}/Products?$context=doloremque
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -121,7 +121,7 @@ Response body: object
 GET /api/v1/Pricelist/{id}/Products
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -130,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptates",
+  "odata.nextLink": "atque",
   "value": [
     {
-      "PrimaryKey": 8144,
-      "EntityName": "person",
-      "personId": 8144,
-      "fullName": "Shany Miller"
+      "PrimaryKey": 9153,
+      "EntityName": "sale",
+      "saleId": 9153,
+      "contactId": 33,
+      "name": "Adams, Hane and Schmidt"
     },
     {
-      "PrimaryKey": 989,
-      "EntityName": "person",
-      "personId": 989,
-      "fullName": "Fred Kirlin Jr."
+      "PrimaryKey": 738,
+      "EntityName": "sale",
+      "saleId": 738,
+      "contactId": 7623,
+      "name": "Swift, DuBuque and Padberg"
     }
   ]
 }

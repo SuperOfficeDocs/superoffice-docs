@@ -1,9 +1,9 @@
 ---
-title: GetChatTopicUserAgent
+title: POST Agents/Chat/GetChatTopicUserAgent
 id: v1ChatAgent_GetChatTopicUserAgent
 ---
 
-# GetChatTopicUserAgent
+# POST Agents/Chat/GetChatTopicUserAgent
 
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
@@ -82,12 +82,12 @@ Response body: object
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 162,
-  "Username": "aut"
+  "ChatTopicId": 995,
+  "Username": "et"
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 230,
+  "TopicId": 829,
   "User": {
-    "AssociateId": 361,
-    "Name": "Emmerich-Schowalter",
-    "PersonId": 552,
-    "Rank": 315,
-    "Tooltip": "neque",
+    "AssociateId": 846,
+    "Name": "Batz, Swift and Kessler",
+    "PersonId": 994,
+    "Rank": 345,
+    "Tooltip": "dicta",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 41,
-    "FullName": "Heidi Walsh",
-    "FormalName": "Sawayn, Quitzon and Fisher",
+    "GroupIdx": 672,
+    "FullName": "Kenyatta Dickinson",
+    "FormalName": "Romaguera-Romaguera",
     "Deleted": true,
-    "EjUserId": 682,
-    "UserName": "Braun-Carroll",
+    "EjUserId": 725,
+    "UserName": "Schiller-Runolfsdottir",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -118,13 +118,13 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldLength": 224
       }
     }
   },
   "CanListen": false,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": true,
-  "CanNotify": false
+  "CanNotify": true
 }
 ```

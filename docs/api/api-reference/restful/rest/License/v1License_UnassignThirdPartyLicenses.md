@@ -58,12 +58,13 @@ Response body: array
 | Free | int32 | The number of licenses that are free to be assigned |
 | InUse | int32 | The total number of licenses (of a given license module) that are occupied |
 | IsHidden | bool | Is hidden from UI |
-| Assigned | bool | Is the module license assigned to a given user |
+| Assigned | bool | Is the module license assigned to a given user? |
 | ModuleLicenseId | int32 | The identifier of the module license |
 | Name | string | The name of the module license |
 | Description | string | The description of the module license |
-| PrerequisiteModuleName | string |  |
-| SortOrder | int32 |  |
+| PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
+| SortOrder | int32 | Sort order of licenses. |
+| ExtraFlags | int32 | License flags. 1 = user plan |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -73,7 +74,7 @@ Response body: array
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -82,19 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 233,
-    "Tooltip": "aut",
+    "Unrestricted": true,
+    "Total": 366,
+    "Tooltip": "ex",
     "CanAssign": false,
-    "Free": 216,
-    "InUse": 145,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 294,
-    "Name": "Wehner LLC",
-    "Description": "Ameliorated radical superstructure",
-    "PrerequisiteModuleName": "McGlynn Group",
-    "SortOrder": 188,
+    "Free": 293,
+    "InUse": 738,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 526,
+    "Name": "Kuhn, Gerhold and Ullrich",
+    "Description": "Multi-channelled leading edge internet solution",
+    "PrerequisiteModuleName": "Kutch, Heathcote and Hackett",
+    "SortOrder": 119,
+    "ExtraFlags": 963,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldLength": 113
       }
     }
   }

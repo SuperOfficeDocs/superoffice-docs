@@ -1,9 +1,9 @@
 ---
-title: CreateSelectionEntity
+title: POST Agents/Selection/CreateSelectionEntity
 id: v1SelectionAgent_CreateSelectionEntity
 ---
 
-# CreateSelectionEntity
+# POST Agents/Selection/CreateSelectionEntity
 
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionEntity
@@ -103,6 +103,7 @@ Response body: object
 | MainHeading | string | 'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references |
 | MemberTabHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references |
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
+| DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -113,11 +114,11 @@ Response body: object
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Zboncak, Kuhn and Rempel"
+  "TargetTableName": "Hilpert, Schiller and Rodriguez"
 }
 ```
 
@@ -126,21 +127,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized interactive task-force",
-  "Postit": "ipsam",
+  "Description": "Reverse-engineered client-server functionalities",
+  "Postit": "aperiam",
   "Associate": {
-    "AssociateId": 625,
-    "Name": "Ortiz, Wiza and Reichert",
-    "PersonId": 644,
-    "Rank": 114,
-    "Tooltip": "maiores",
+    "AssociateId": 488,
+    "Name": "Flatley-Gorczany",
+    "PersonId": 68,
+    "Rank": 36,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 756,
-    "FullName": "Nola McGlynn IV",
-    "FormalName": "Mayert, Kuhic and Runolfsson",
-    "Deleted": false,
-    "EjUserId": 953,
-    "UserName": "Lynch LLC",
+    "GroupIdx": 499,
+    "FullName": "Carlo Kutch",
+    "FormalName": "Koss Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 245,
+    "UserName": "Larson-Bartell",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -149,23 +150,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldLength": 648
       }
     }
   },
   "CreatedBy": {
-    "AssociateId": 353,
-    "Name": "Langworth Inc and Sons",
-    "PersonId": 220,
-    "Rank": 570,
-    "Tooltip": "rerum",
+    "AssociateId": 301,
+    "Name": "Kuphal Inc and Sons",
+    "PersonId": 273,
+    "Rank": 179,
+    "Tooltip": "mollitia",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 326,
-    "FullName": "Krystel Larson",
-    "FormalName": "Pouros Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 170,
-    "UserName": "Jenkins, Nitzsche and Bergstrom",
+    "GroupIdx": 628,
+    "FullName": "Mrs. Maximus Beer",
+    "FormalName": "Leffler-Marvin",
+    "Deleted": true,
+    "EjUserId": 465,
+    "UserName": "Legros-Bergstrom",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -174,23 +175,23 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 643
       }
     }
   },
   "UpdatedBy": {
-    "AssociateId": 366,
-    "Name": "Gerhold-Gusikowski",
-    "PersonId": 273,
-    "Rank": 216,
-    "Tooltip": "earum",
+    "AssociateId": 941,
+    "Name": "Reynolds, Abshire and Bernhard",
+    "PersonId": 948,
+    "Rank": 463,
+    "Tooltip": "assumenda",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 670,
-    "FullName": "Newton Bailey",
-    "FormalName": "Heidenreich LLC",
+    "GroupIdx": 883,
+    "FullName": "Carrie Hamill",
+    "FormalName": "Lynch-Hessel",
     "Deleted": true,
-    "EjUserId": 257,
-    "UserName": "Deckow, Adams and Smith",
+    "EjUserId": 463,
+    "UserName": "Jewess, Dibbert and Dickens",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -198,14 +199,14 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   },
   "SelectionCategory": {
-    "Id": 754,
-    "Value": "non",
+    "Id": 249,
+    "Value": "incidunt",
     "Tooltip": "ut",
     "TableRight": {},
     "FieldProperties": {
@@ -214,50 +215,50 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 205
+        "FieldType": "System.Int32",
+        "FieldLength": 259
       }
     }
   },
-  "GroupIdx": 686,
-  "IncludePerson": 627,
-  "MemberCount": 541,
-  "Name": "Lesch LLC",
-  "PostitTextId": 579,
-  "CreatedDate": "2000-11-06T14:58:05.2416291+01:00",
-  "SelectionId": 26,
-  "SoundEx": "vero",
+  "GroupIdx": 866,
+  "IncludePerson": 138,
+  "MemberCount": 559,
+  "Name": "Schultz Inc and Sons",
+  "PostitTextId": 292,
+  "CreatedDate": "2003-11-18T18:28:50.2344133+01:00",
+  "SelectionId": 647,
+  "SoundEx": "vitae",
   "Source": 145,
-  "TextId": 563,
-  "UpdatedDate": "2019-12-15T14:58:05.2416291+01:00",
-  "UpdatedCount": 4,
-  "Visibility": 53,
+  "TextId": 987,
+  "UpdatedDate": "1995-04-29T18:28:50.2344133+02:00",
+  "UpdatedCount": 708,
+  "Visibility": 753,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 988,
-  "TargetTableName": "Ledner Inc and Sons",
+  "TargetTableNumber": 225,
+  "TargetTableName": "Marvin, Ritchie and Lockman",
   "Completed": false,
-  "LeftSelectionId": 542,
-  "RightSelectionId": 740,
+  "LeftSelectionId": 754,
+  "RightSelectionId": 215,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jerde Inc and Sons",
-  "ShadowProviderName": "Becker Group",
-  "ChartKey": "doloribus",
-  "LastLoaded": "2003-06-21T14:58:05.2416291+02:00",
-  "LastLoadedBy": 16,
+  "MainProviderName": "Roberts-Heaney",
+  "ShadowProviderName": "Legros-Boehm",
+  "ChartKey": "optio",
+  "LastLoaded": "2015-10-02T18:28:50.2344133+02:00",
+  "LastLoadedBy": 912,
   "LastLoadedByAssociate": {
-    "AssociateId": 477,
-    "Name": "Dooley Group",
-    "PersonId": 431,
-    "Rank": 78,
-    "Tooltip": "iste",
+    "AssociateId": 400,
+    "Name": "Hegmann, Tremblay and Legros",
+    "PersonId": 348,
+    "Rank": 192,
+    "Tooltip": "ab",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 392,
-    "FullName": "Ally Lebsack I",
-    "FormalName": "Cormier-Stamm",
+    "GroupIdx": 147,
+    "FullName": "Edd Bashirian",
+    "FormalName": "Jakubowski-Kshlerin",
     "Deleted": false,
-    "EjUserId": 678,
-    "UserName": "Orn-Zulauf",
+    "EjUserId": 126,
+    "UserName": "Olson-Hagenes",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -265,26 +266,26 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   },
-  "LastMembershipChange": "2002-09-26T14:58:05.2426286+02:00",
-  "LastMembershipChangeBy": 706,
+  "LastMembershipChange": "2013-08-14T18:28:50.235413+02:00",
+  "LastMembershipChangeBy": 864,
   "LastMembershipChangeByAssociate": {
-    "AssociateId": 690,
-    "Name": "Boyle, Marks and Hyatt",
-    "PersonId": 989,
-    "Rank": 578,
-    "Tooltip": "sed",
+    "AssociateId": 553,
+    "Name": "Powlowski Inc and Sons",
+    "PersonId": 483,
+    "Rank": 842,
+    "Tooltip": "aliquid",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 806,
-    "FullName": "Reta Jacobs",
-    "FormalName": "Hegmann-Glover",
-    "Deleted": false,
-    "EjUserId": 891,
-    "UserName": "Pfannerstill, Turner and Bernier",
+    "GroupIdx": 859,
+    "FullName": "Mrs. Floyd Schoen",
+    "FormalName": "Wilderman, Hills and Altenwerth",
+    "Deleted": true,
+    "EjUserId": 308,
+    "UserName": "Cassin, Metz and Mohr",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -293,18 +294,19 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 90
       }
     }
   },
-  "MainHeading": "necessitatibus",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Hoppe LLC",
+  "MainHeading": "autem",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Hansen LLC",
+  "DashboardTileDefinitionId": 991,
   "VisibleFor": [
     {
-      "VisibleId": 870,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "dignissimos",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -313,14 +315,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldLength": 628
         }
       }
     },
     {
-      "VisibleId": 870,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "dignissimos",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -329,7 +331,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldLength": 628
         }
       }
     }
@@ -345,7 +347,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 651
     }
   }
 }

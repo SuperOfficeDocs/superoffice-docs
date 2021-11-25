@@ -89,27 +89,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 319,
-  "Section": "magnam",
-  "Key": "rem",
-  "Name": "Schmidt Group",
+  "PrefDescId": 153,
+  "Section": "nihil",
+  "Key": "cum",
+  "Name": "Stanton Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide coherent hierarchy",
-  "IsBuiltin": true,
-  "TableName": "Jerde LLC",
-  "UserDefinedListId": 302,
-  "Rank": 14,
-  "SubGroup": "tenetur",
-  "MinLevel": 67,
-  "MaxValue": 741,
-  "MinValue": 827,
-  "RequiredLicense": "quis",
+  "Description": "Synergized clear-thinking interface",
+  "IsBuiltin": false,
+  "TableName": "Ortiz-Quigley",
+  "UserDefinedListId": 631,
+  "Rank": 151,
+  "SubGroup": "numquam",
+  "MinLevel": 13,
+  "MaxValue": 397,
+  "MinValue": 423,
+  "RequiredLicense": "adipisci",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "embrace granular systems"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 384
     }
   }
 }

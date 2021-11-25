@@ -1,9 +1,9 @@
 ---
-title: GetMyTasks
+title: POST Agents/Appointment/GetMyTasks
 id: v1AppointmentAgent_GetMyTasks
 ---
 
-# GetMyTasks
+# POST Agents/Appointment/GetMyTasks
 
 ```http
 POST /api/v1/Agents/Appointment/GetMyTasks
@@ -121,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 831
+  "Count": 257
 }
 ```
 
@@ -135,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 836,
-    "StartDate": "2011-12-14T14:58:03.0475382+01:00",
-    "EndDate": "1998-09-14T14:58:03.0475382+02:00",
+    "AppointmentId": 629,
+    "StartDate": "2014-09-25T18:28:47.8908482+02:00",
+    "EndDate": "2016-04-01T18:28:47.8908482+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Karianne Grant Jr.",
-    "ContactName": "Douglas-Pacocha",
-    "Description": "Cross-group contextually-based array",
-    "PersonFullName": "Grant Crist",
-    "PersonId": 234,
-    "ContactId": 482,
-    "ProjectId": 349,
-    "ProjectName": "Wisozk, Skiles and Hansen",
+    "Task": "delectus",
+    "AssociateFullName": "Madaline Bahringer",
+    "ContactName": "Hammes Group",
+    "Description": "Universal actuating concept",
+    "PersonFullName": "Miss Raphael Stracke",
+    "PersonId": 933,
+    "ContactId": 711,
+    "ProjectId": 397,
+    "ProjectName": "Nitzsche-Kovacek",
     "IsPublished": true,
-    "AssociateId": 553,
-    "ColorIndex": 151,
+    "AssociateId": 364,
+    "ColorIndex": 116,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 96,
-    "PriorityName": "O'Hara-Balistreri",
+    "PriorityId": 994,
+    "PriorityName": "Williamson, Howell and Waelchi",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1996-08-09T14:58:03.0475382+02:00",
+    "ActiveDate": "2001-05-19T18:28:47.8908482+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1994-04-23T14:58:03.0475382+02:00",
-    "RecurringEndDate": "2013-11-27T14:58:03.0475382+01:00",
-    "MotherId": 935,
-    "AssignedBy": 724,
-    "AssignedByFullName": "Melyssa Johnson I",
+    "RecurringStartDate": "2008-09-30T18:28:47.8908482+02:00",
+    "RecurringEndDate": "1996-05-05T18:28:47.8908482+02:00",
+    "MotherId": 543,
+    "AssignedBy": 809,
+    "AssignedByFullName": "Madyson Effertz",
     "RejectReason": "",
-    "Location": "accusamus",
-    "AlarmLeadTime": "voluptatum",
-    "SaleId": 328,
-    "SaleName": "Huel-Veum",
-    "AssociateName": "Kessler Inc and Sons",
-    "CreatedDate": "2005-10-27T14:58:03.0475382+02:00",
-    "CreatedBy": "culpa",
-    "CreatedByFullName": "Mrs. Jessika O'Kon",
-    "CreatedByAssociateId": 902,
+    "Location": "debitis",
+    "AlarmLeadTime": "libero",
+    "SaleId": 707,
+    "SaleName": "Langworth-Dickinson",
+    "AssociateName": "Toy-Hettinger",
+    "CreatedDate": "1996-01-21T18:28:47.8908482+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Brittany Abernathy",
+    "CreatedByAssociateId": 919,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldType": "System.Int32",
+        "FieldLength": 804
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CanCreateAppointmentInAssociateDiaries
+title: POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 id: v1SentryAgent_CanCreateAppointmentInAssociateDiaries
 ---
 
-# CanCreateAppointmentInAssociateDiaries
+# POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 
 ```http
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
@@ -68,13 +68,13 @@ Response body: bool
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    302,
-    1000
+    231,
+    405
   ]
 }
 ```
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

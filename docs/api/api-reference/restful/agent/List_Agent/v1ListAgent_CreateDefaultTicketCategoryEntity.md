@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultTicketCategoryEntity
+title: POST Agents/List/CreateDefaultTicketCategoryEntity
 id: v1ListAgent_CreateDefaultTicketCategoryEntity
 ---
 
-# CreateDefaultTicketCategoryEntity
+# POST Agents/List/CreateDefaultTicketCategoryEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
@@ -57,11 +57,13 @@ Response body: object
 | Flags | string | A bitmask representing flags for this category. |
 | DelegateMethod | string | An integer indicating the delegation method for this category. |
 | ExternalName | string | The external name for this category, used for the customer frontend. |
-| ClosingStatus | string | An integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
-| MsgClosingStatus | string | An integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. |
+| ClosingStatus | string | Determines the default status used in the GUI when creating a ticket |
+| MsgClosingStatus | string | Determines the default status used in the GUI when adding a request to a ticket |
 | AssignmentLag | int32 | Number of minutes we shall override the assignment if a customer sends consecutive messages to this category |
 | ReplyTemplate | int32 | Reply template to merge with messages posted in this category |
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
+| DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
+| DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -73,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -81,26 +83,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 511,
-  "ParentId": 783,
-  "Name": "Aufderhar Inc and Sons",
-  "Fullname": "blanditiis",
-  "CategoryMaster": 116,
+  "TicketCategoryId": 650,
+  "ParentId": 798,
+  "Name": "Fahey-Lubowitz",
+  "Fullname": "quas",
+  "CategoryMaster": 288,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ferry Group",
+  "ExternalName": "Runolfsdottir-Rogahn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 356,
-  "ReplyTemplate": 944,
-  "NotificationEmail": "gerson@wilkinson.com",
+  "AssignmentLag": 339,
+  "ReplyTemplate": 809,
+  "NotificationEmail": "geo_hermiston@beer.biz",
+  "DefaultTicketStatus": {
+    "TicketStatusId": 443,
+    "Name": "Kunze LLC",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": false,
+    "IsDefault": false,
+    "UsedInQueue": false,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 164
+      }
+    }
+  },
+  "DefaultMessageStatus": {
+    "TicketStatusId": 971,
+    "Name": "Thompson LLC",
+    "Status": "Active",
+    "TimeCounter": "Externally",
+    "NoEmailReopen": false,
+    "IsDefault": true,
+    "UsedInQueue": true,
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 437
+      }
+    }
+  },
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "est"
+    "CustomFields1": "quod",
+    "CustomFields2": "qui"
   },
   "TableRight": {
     "Mask": "Delete",
@@ -113,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 470
     }
   }
 }

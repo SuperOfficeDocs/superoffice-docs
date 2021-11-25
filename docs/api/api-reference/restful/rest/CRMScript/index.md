@@ -2,8 +2,6 @@
 title: CRMScript
 ---
 
-# CRMScript
-
 ```http
 /api/v1/CRMScript
 ```

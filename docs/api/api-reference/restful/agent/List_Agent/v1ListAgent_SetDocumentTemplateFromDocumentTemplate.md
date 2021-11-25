@@ -1,9 +1,9 @@
 ---
-title: SetDocumentTemplateFromDocumentTemplate
+title: POST Agents/List/SetDocumentTemplateFromDocumentTemplate
 id: v1ListAgent_SetDocumentTemplateFromDocumentTemplate
 ---
 
-# SetDocumentTemplateFromDocumentTemplate
+# POST Agents/List/SetDocumentTemplateFromDocumentTemplate
 
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
@@ -103,36 +103,36 @@ Response body: object
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 906,
+  "SourceDocumentTemplateId": 473,
   "DocumentTemplateEntity": {
-    "DocumentTemplateId": 119,
-    "Name": "Johnson, Nicolas and Feil",
-    "Tooltip": "eum",
-    "SaveInDb": 832,
-    "Filename": "est",
-    "DefaultOref": "deleniti",
+    "DocumentTemplateId": 239,
+    "Name": "Heller-Emmerich",
+    "Tooltip": "voluptas",
+    "SaveInDb": 535,
+    "Filename": "sit",
+    "DefaultOref": "dolores",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 20,
-    "IntentId": 905,
+    "AutoeventId": 252,
+    "IntentId": 103,
     "IsDefaultPublished": false,
-    "Rank": 138,
-    "LoadTemplateFromPlugin": 590,
-    "MimeType": "facere",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 201,
+    "Rank": 866,
+    "LoadTemplateFromPlugin": 20,
+    "MimeType": "recusandae",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 615,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "alfred.hilpert@pacocha.uk",
+    "EmailSubject": "amalia@king.name",
     "IncludeSignature": true,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "stephanie@grady.com",
+    "SenderEmailAddress": "brionna_legros@turner.uk",
     "InvitationDocType": "Cancelled"
   }
 }
@@ -143,30 +143,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 974,
-  "Name": "Mraz-Walker",
-  "Tooltip": "odio",
-  "SaveInDb": 773,
-  "Filename": "eos",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 538,
+  "Name": "Wolff Group",
+  "Tooltip": "illum",
+  "SaveInDb": 346,
+  "Filename": "in",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 8,
-  "IntentId": 162,
-  "IsDefaultPublished": false,
-  "Rank": 905,
-  "LoadTemplateFromPlugin": 561,
-  "MimeType": "iste",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 253,
+  "AutoeventId": 29,
+  "IntentId": 201,
+  "IsDefaultPublished": true,
+  "Rank": 240,
+  "LoadTemplateFromPlugin": 3,
+  "MimeType": "velit",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 986,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "aron.koss@vonruedenfranecki.info",
+  "EmailSubject": "kallie_hodkiewicz@swaniawski.info",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nicholaus@murray.biz",
+  "SenderEmailAddress": "malcolm@dickilittel.us",
   "InvitationDocType": "Cancelled",
   "TableRight": {
     "Mask": "Delete",
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

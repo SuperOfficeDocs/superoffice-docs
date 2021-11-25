@@ -71,7 +71,7 @@ Response body: object
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -79,20 +79,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "West Inc and Sons",
-  "ModuleName": "Bogan Group",
-  "ModuleDescription": "Configurable stable support",
-  "ModuleTooltip": "magnam",
-  "ModuleVersion": "iusto",
+  "OwnerName": "Hilpert, O'Hara and Prosacco",
+  "ModuleName": "Orn, Spinka and Dickinson",
+  "ModuleDescription": "Function-based cohesive access",
+  "ModuleTooltip": "ullam",
+  "ModuleVersion": "cum",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 348,
-  "ExtraFlags": 351,
-  "ExtraInfo": "aut",
-  "SortOrder": 46,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Stiedemann LLC",
-  "Signature": "exercitationem"
+  "NumberOfLicenses": 246,
+  "ExtraFlags": 467,
+  "ExtraInfo": "quas",
+  "SortOrder": 328,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Paucek-Bashirian",
+  "Signature": "cumque"
 }
 ```

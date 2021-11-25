@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultProjectTypeEntity
+title: POST Agents/List/CreateDefaultProjectTypeEntity
 id: v1ListAgent_CreateDefaultProjectTypeEntity
 ---
 
-# CreateDefaultProjectTypeEntity
+# POST Agents/List/CreateDefaultProjectTypeEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -72,35 +72,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 625,
-  "Name": "Strosin Group",
-  "Tooltip": "facilis",
-  "Rank": 888,
+  "ProjTypeId": 251,
+  "Name": "O'Reilly-Ullrich",
+  "Tooltip": "eius",
+  "Rank": 417,
   "DurationUnit": "Century",
-  "ProjectDuration": 826,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 962,
+  "Deleted": true,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 46,
-      "Name": "Kerluke, Kshlerin and Vandervort",
-      "ToolTip": "Aliquid omnis asperiores amet debitis quia velit.",
-      "Deleted": true,
-      "Rank": 470,
-      "Type": "nesciunt",
-      "ColorBlock": 637,
-      "IconHint": "qui",
+      "Id": 682,
+      "Name": "Hickle-Collier",
+      "ToolTip": "Nostrum occaecati et veritatis est molestias consequatur.",
+      "Deleted": false,
+      "Rank": 116,
+      "Type": "labore",
+      "ColorBlock": 840,
+      "IconHint": "atque",
       "Selected": true,
-      "LastChanged": "2008-08-10T14:58:04.4724649+02:00",
+      "LastChanged": "2019-12-03T18:28:49.4440902+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "deleniti",
-      "Hidden": true,
-      "FullName": "Spencer Wunsch",
+      "ExtraInfo": "placeat",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Emmy Bode",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 323
         }
       }
     }
@@ -122,10 +122,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "visualize revolutionary initiatives"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

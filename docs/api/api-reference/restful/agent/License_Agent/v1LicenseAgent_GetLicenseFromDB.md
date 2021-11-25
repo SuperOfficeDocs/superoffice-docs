@@ -1,9 +1,9 @@
 ---
-title: GetLicenseFromDB
+title: POST Agents/License/GetLicenseFromDB
 id: v1LicenseAgent_GetLicenseFromDB
 ---
 
-# GetLicenseFromDB
+# POST Agents/License/GetLicenseFromDB
 
 ```http
 POST /api/v1/Agents/License/GetLicenseFromDB
@@ -76,11 +76,11 @@ Response body: object
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Quigley-Auer"
+  "OwnerName": "Treutel, Rodriguez and Thiel"
 }
 ```
 
@@ -90,67 +90,67 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": {
-    "CompanyName": "McLaughlin, Anderson and Crooks",
+    "CompanyName": "Gaylord LLC",
     "SerialNr": "1010000006",
-    "OwnerName": "Roberts-Robel",
-    "OwnerDescription": "Reverse-engineered 24 hour application",
-    "NextCheckDate": "2007-04-28T14:58:04.3264629+02:00",
-    "MaintenanceDate": "2019-09-12T14:58:04.3264629+02:00",
-    "AdminWarningDate": "1999-10-04T14:58:04.3264629+02:00",
-    "ExpiryDate": "2003-02-21T14:58:04.3264629+01:00",
-    "GraceDate": "2019-07-05T14:58:04.3264629+02:00",
-    "ExtraFlags": 75,
-    "ExtraInfo": "quas",
+    "OwnerName": "Franecki LLC",
+    "OwnerDescription": "Mandatory system-worthy architecture",
+    "NextCheckDate": "2020-10-08T18:28:49.2371222+02:00",
+    "MaintenanceDate": "2021-05-18T18:28:49.2371222+02:00",
+    "AdminWarningDate": "2020-11-08T18:28:49.2371222+01:00",
+    "ExpiryDate": "1995-01-30T18:28:49.2371222+01:00",
+    "GraceDate": "2004-03-06T18:28:49.2371222+01:00",
+    "ExtraFlags": 483,
+    "ExtraInfo": "laudantium",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "dolore",
-    "DeploymentType": 55,
-    "ProductType": "error",
-    "ProductDescription": "Down-sized zero tolerance moratorium",
+    "LicenseVersion": "aperiam",
+    "DeploymentType": 760,
+    "ProductType": "in",
+    "ProductDescription": "Exclusive incremental moratorium",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "libero"
+    "Signature": "sequi"
   },
   "Current": {
-    "CompanyName": "Witting, Luettgen and Cremin",
+    "CompanyName": "Jaskolski-Mills",
     "SerialNr": "1010000006",
-    "OwnerName": "Hahn, Abshire and Schmeler",
-    "OwnerDescription": "Phased multi-tasking analyzer",
-    "NextCheckDate": "2014-09-18T14:58:04.3264629+02:00",
-    "MaintenanceDate": "2011-08-25T14:58:04.3264629+02:00",
-    "AdminWarningDate": "1995-06-20T14:58:04.3264629+02:00",
-    "ExpiryDate": "1997-09-06T14:58:04.3264629+02:00",
-    "GraceDate": "2010-06-08T14:58:04.3264629+02:00",
-    "ExtraFlags": 349,
-    "ExtraInfo": "qui",
+    "OwnerName": "Lubowitz Group",
+    "OwnerDescription": "Front-line national hierarchy",
+    "NextCheckDate": "2018-05-09T18:28:49.2371222+02:00",
+    "MaintenanceDate": "2009-01-31T18:28:49.2371222+01:00",
+    "AdminWarningDate": "2011-10-10T18:28:49.2371222+02:00",
+    "ExpiryDate": "2011-10-03T18:28:49.2371222+02:00",
+    "GraceDate": "2011-11-08T18:28:49.2371222+01:00",
+    "ExtraFlags": 368,
+    "ExtraInfo": "quia",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "alias",
-    "DeploymentType": 885,
-    "ProductType": "aut",
-    "ProductDescription": "Configurable optimal paradigm",
+    "LicenseVersion": "aspernatur",
+    "DeploymentType": 814,
+    "ProductType": "rem",
+    "ProductDescription": "Phased homogeneous infrastructure",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "doloremque"
+    "Signature": "veniam"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 796,
-      "NumberOfLicensesFree": 163,
-      "NumberOfLicensesAdded": 924,
-      "NumberOfLicensesNewTotal": 135,
-      "NumberOfLicensesNewFree": 76,
-      "NumberOfLicensesTotal": 758
+      "NumberOfLicensesInUse": 347,
+      "NumberOfLicensesFree": 450,
+      "NumberOfLicensesAdded": 999,
+      "NumberOfLicensesNewTotal": 953,
+      "NumberOfLicensesNewFree": 481,
+      "NumberOfLicensesTotal": 386
     }
   ],
-  "AccumulatedNextCheckDate": "2020-08-21T14:58:04.3274607+02:00"
+  "AccumulatedNextCheckDate": "2016-12-10T18:28:49.2371222+01:00"
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetExtAppEntity
+title: POST Agents/List/GetExtAppEntity
 id: v1ListAgent_GetExtAppEntity
 ---
 
-# GetExtAppEntity
+# POST Agents/List/GetExtAppEntity
 
 ```http
 POST /api/v1/Agents/List/GetExtAppEntity
@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=166
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=410
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -100,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 633,
-  "Name": "Ortiz, Windler and Treutel",
-  "Tooltip": "minus",
+  "ExtAppId": 175,
+  "Name": "Bartell-Legros",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 384,
-  "Filename": "consequatur",
-  "Parameters": "iste",
-  "Workdir": "et",
+  "Rank": 128,
+  "Filename": "nam",
+  "Parameters": "ducimus",
+  "Workdir": "molestias",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "Icon": 732,
+  "Icon": 553,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "necessitatibus",
+  "Path": "ab",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "utilize sticky infrastructures"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

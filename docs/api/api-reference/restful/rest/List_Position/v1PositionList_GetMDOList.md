@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=fugit
+GET /api/v1/List/Position/MDOItems?query=odit
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Jacobson-Lubowitz",
-    "ToolTip": "Vero iusto aut.",
+    "Id": 479,
+    "Name": "Beier Group",
+    "ToolTip": "Ad consequatur eos illum tempore.",
     "Deleted": true,
-    "Rank": 990,
-    "Type": "ea",
+    "Rank": 241,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Kerluke-Balistreri",
-        "ToolTip": "Dignissimos ipsam.",
+        "Id": 747,
+        "Name": "Gusikowski, Kovacek and Jerde",
+        "ToolTip": "Modi nihil et asperiores.",
         "Deleted": true,
-        "Rank": 517,
-        "Type": "earum",
+        "Rank": 363,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 854,
-        "ExtraInfo": "hic",
+        "IconHint": "eligendi",
+        "ColorBlock": 415,
+        "ExtraInfo": "porro",
         "StyleHint": "et",
-        "FullName": "Graham Bode",
+        "FullName": "Samson Pfannerstill",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,19 +117,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 454
+            "FieldLength": 845
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 401,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "aliquam",
-    "FullName": "Mr. Maximillia Blick",
+    "IconHint": "quibusdam",
+    "ColorBlock": 906,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "praesentium",
+    "FullName": "Marquis Schamberger",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "transform transparent platforms"
+      "Reason": ""
     },
     "FieldProperties": {
       "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

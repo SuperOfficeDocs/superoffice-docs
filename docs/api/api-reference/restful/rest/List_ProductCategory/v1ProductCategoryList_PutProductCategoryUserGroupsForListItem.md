@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Bartoletti-Morar",
-    "ToolTip": "Velit placeat et.",
+    "Id": 42,
+    "Name": "Beatty-Aufderhar",
+    "ToolTip": "Tempore assumenda facere.",
     "Deleted": true,
-    "Rank": 813,
-    "Type": "eum",
-    "ColorBlock": 433,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2011-04-07T15:05:43.6130794+02:00",
+    "Rank": 844,
+    "Type": "cupiditate",
+    "ColorBlock": 321,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2003-08-16T18:25:51.9982128+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Upton, Hermiston and Schmitt",
-        "ToolTip": "Aliquam quas quo.",
-        "Deleted": false,
-        "Rank": 150,
-        "Type": "est",
-        "ColorBlock": 236,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2002-05-21T15:05:43.6130794+02:00",
+        "Id": 25,
+        "Name": "Turcotte, Huels and Turcotte",
+        "ToolTip": "Animi nostrum velit nesciunt.",
+        "Deleted": true,
+        "Rank": 693,
+        "Type": "et",
+        "ColorBlock": 797,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2006-01-26T18:25:51.9982128+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "non",
+        "ExtraInfo": "laborum",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Dion Rohan"
+        "FullName": "Alyce Ankunding"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Dr. Lila Schulist"
+    "ExtraInfo": "minus",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Kennith Herman"
   }
 ]
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Crona-Johns",
-    "ToolTip": "Inventore debitis eum.",
-    "Deleted": true,
-    "Rank": 634,
-    "Type": "officia",
-    "ColorBlock": 608,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2011-04-11T15:05:43.6140796+02:00",
+    "Id": 640,
+    "Name": "Little Inc and Sons",
+    "ToolTip": "Quia quis mollitia ut id.",
+    "Deleted": false,
+    "Rank": 318,
+    "Type": "quia",
+    "ColorBlock": 605,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "1996-08-18T18:25:51.9992125+02:00",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Lubowitz Inc and Sons",
-        "ToolTip": "Maiores quos repudiandae non sequi.",
-        "Deleted": false,
-        "Rank": 490,
-        "Type": "quia",
-        "ColorBlock": 574,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2005-12-30T15:05:43.6140796+01:00",
+        "Id": 959,
+        "Name": "Bode, Crist and Streich",
+        "ToolTip": "Nesciunt porro ab voluptatem eos aliquid.",
+        "Deleted": true,
+        "Rank": 738,
+        "Type": "porro",
+        "ColorBlock": 812,
+        "IconHint": "perspiciatis",
+        "Selected": false,
+        "LastChanged": "2012-09-12T18:25:51.9992125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "ut",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Dr. Kailyn Douglas",
+        "FullName": "Ken Williamson",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": "leverage visionary schemas"
+              "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldType": "System.Int32",
+            "FieldLength": 323
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ratione",
+    "ExtraInfo": "in",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Joel Borer",
+    "FullName": "Dejon Kuphal",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "brand intuitive bandwidth"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldLength": 579
       }
     }
   }

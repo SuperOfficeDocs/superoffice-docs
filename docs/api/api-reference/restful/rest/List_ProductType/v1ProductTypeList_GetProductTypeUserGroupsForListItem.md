@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Runolfsson LLC",
-    "ToolTip": "Recusandae voluptatibus.",
+    "Id": 147,
+    "Name": "Langworth LLC",
+    "ToolTip": "Ut consequatur autem itaque quam libero.",
     "Deleted": true,
-    "Rank": 893,
-    "Type": "corrupti",
-    "ColorBlock": 412,
-    "IconHint": "ipsa",
+    "Rank": 590,
+    "Type": "quod",
+    "ColorBlock": 434,
+    "IconHint": "necessitatibus",
     "Selected": true,
-    "LastChanged": "1996-08-21T15:05:43.6440768+02:00",
+    "LastChanged": "2017-01-08T18:25:52.0292124+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Hegmann LLC",
-        "ToolTip": "Impedit eligendi neque harum harum quam.",
-        "Deleted": true,
-        "Rank": 755,
-        "Type": "voluptatem",
-        "ColorBlock": 657,
-        "IconHint": "asperiores",
+        "Id": 564,
+        "Name": "Grady-Torp",
+        "ToolTip": "Deleniti eos doloremque consequatur voluptas.",
+        "Deleted": false,
+        "Rank": 399,
+        "Type": "eligendi",
+        "ColorBlock": 841,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "1997-07-30T15:05:43.6450773+02:00",
+        "LastChanged": "1997-12-06T18:25:52.0292124+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
+        "ExtraInfo": "sed",
+        "StyleHint": "tempore",
         "Hidden": true,
-        "FullName": "Fred Robel IV",
+        "FullName": "Ari Hermann",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,19 +118,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldType": "System.String",
+            "FieldLength": 556
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "veniam",
+    "ExtraInfo": "labore",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Tiara Langworth",
+    "FullName": "Lolita Stiedemann",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "redefine dynamic partnerships"
     },
     "FieldProperties": {
       "fieldName": {
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldType": "System.Int32",
+        "FieldLength": 897
       }
     }
   }

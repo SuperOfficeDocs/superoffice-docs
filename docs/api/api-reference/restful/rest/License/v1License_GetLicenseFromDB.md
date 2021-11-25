@@ -72,65 +72,65 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "CanBeActivated": false,
   "New": {
-    "CompanyName": "Kreiger-Gulgowski",
+    "CompanyName": "King Inc and Sons",
     "SerialNr": "1010000006",
-    "OwnerName": "Boyle LLC",
-    "OwnerDescription": "Implemented 24 hour middleware",
-    "NextCheckDate": "2017-10-19T15:05:43.0066629+02:00",
-    "MaintenanceDate": "2009-06-12T15:05:43.0066629+02:00",
-    "AdminWarningDate": "2005-05-28T15:05:43.0066629+02:00",
-    "ExpiryDate": "2000-03-25T15:05:43.0066629+01:00",
-    "GraceDate": "1995-04-20T15:05:43.0066629+02:00",
-    "ExtraFlags": 841,
-    "ExtraInfo": "qui",
+    "OwnerName": "Runolfsson LLC",
+    "OwnerDescription": "Organized content-based throughput",
+    "NextCheckDate": "2005-10-15T18:25:51.368118+02:00",
+    "MaintenanceDate": "2021-06-29T18:25:51.368118+02:00",
+    "AdminWarningDate": "2005-08-04T18:25:51.368118+02:00",
+    "ExpiryDate": "2019-06-26T18:25:51.368118+02:00",
+    "GraceDate": "2020-07-17T18:25:51.368118+02:00",
+    "ExtraFlags": 47,
+    "ExtraInfo": "alias",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "qui",
-    "DeploymentType": 142,
-    "ProductType": "ipsa",
-    "ProductDescription": "Multi-tiered systematic parallelism",
+    "LicenseVersion": "inventore",
+    "DeploymentType": 438,
+    "ProductType": "voluptate",
+    "ProductDescription": "User-friendly tertiary standardization",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "cum"
+    "Signature": "omnis"
   },
   "Current": {
-    "CompanyName": "Ledner, Hayes and Steuber",
+    "CompanyName": "Kozey Group",
     "SerialNr": "1010000006",
-    "OwnerName": "Carroll, Bode and Rosenbaum",
-    "OwnerDescription": "Organized mission-critical infrastructure",
-    "NextCheckDate": "2011-06-21T15:05:43.0066629+02:00",
-    "MaintenanceDate": "2011-09-16T15:05:43.0066629+02:00",
-    "AdminWarningDate": "2017-11-06T15:05:43.0066629+01:00",
-    "ExpiryDate": "2016-12-25T15:05:43.0066629+01:00",
-    "GraceDate": "2020-07-18T15:05:43.0066629+02:00",
-    "ExtraFlags": 863,
-    "ExtraInfo": "voluptas",
+    "OwnerName": "Lockman, Auer and Altenwerth",
+    "OwnerDescription": "Mandatory directional help-desk",
+    "NextCheckDate": "2019-12-07T18:25:51.3691181+01:00",
+    "MaintenanceDate": "2021-08-21T18:25:51.3691181+02:00",
+    "AdminWarningDate": "2001-02-15T18:25:51.3691181+01:00",
+    "ExpiryDate": "2019-09-23T18:25:51.3691181+02:00",
+    "GraceDate": "2011-05-20T18:25:51.3691181+02:00",
+    "ExtraFlags": 419,
+    "ExtraInfo": "id",
     "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "omnis",
-    "DeploymentType": 446,
-    "ProductType": "iure",
-    "ProductDescription": "Up-sized actuating policy",
+    "LicenseVersion": "non",
+    "DeploymentType": 666,
+    "ProductType": "repudiandae",
+    "ProductDescription": "Robust reciprocal internet solution",
     "ModuleLicenses": [
       {},
       {}
     ],
     "PublicKey": {},
-    "Signature": "voluptate"
+    "Signature": "ad"
   },
   "ExtendedModuleLicenses": [
     {
       "New": {},
       "Current": {},
-      "NumberOfLicensesInUse": 998,
-      "NumberOfLicensesFree": 449,
-      "NumberOfLicensesAdded": 387,
-      "NumberOfLicensesNewTotal": 264,
-      "NumberOfLicensesNewFree": 673,
-      "NumberOfLicensesTotal": 544
+      "NumberOfLicensesInUse": 706,
+      "NumberOfLicensesFree": 502,
+      "NumberOfLicensesAdded": 271,
+      "NumberOfLicensesNewTotal": 371,
+      "NumberOfLicensesNewFree": 902,
+      "NumberOfLicensesTotal": 873
     }
   ],
-  "AccumulatedNextCheckDate": "2008-07-15T15:05:43.0066629+02:00"
+  "AccumulatedNextCheckDate": "2015-01-30T18:25:51.3691181+01:00"
 }
 ```

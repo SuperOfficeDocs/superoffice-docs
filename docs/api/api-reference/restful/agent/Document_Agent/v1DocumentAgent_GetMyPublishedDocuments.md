@@ -1,9 +1,9 @@
 ---
-title: GetMyPublishedDocuments
+title: POST Agents/Document/GetMyPublishedDocuments
 id: v1DocumentAgent_GetMyPublishedDocuments
 ---
 
-# GetMyPublishedDocuments
+# POST Agents/Document/GetMyPublishedDocuments
 
 ```http
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
@@ -90,24 +90,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 728,
-    "Attention": "doloremque",
-    "Header": "ducimus",
-    "Name": "Johnson-Huels",
-    "OurRef": "soluta",
-    "YourRef": "quia",
-    "Description": "Inverse even-keeled strategy",
-    "DocumentTemplate": "id",
-    "IsPublished": true,
-    "PersonId": 116,
-    "PersonFullName": "Clarissa Barton III",
-    "AssociateFullName": "Ms. Leopoldo Ritchie",
-    "ContactId": 484,
-    "ContactName": "Heaney-Kihn",
-    "ProjectId": 344,
-    "ProjectName": "Borer, Smith and Balistreri",
-    "AssociateId": 235,
-    "Snum": 159,
+    "DocumentId": 167,
+    "Attention": "ipsa",
+    "Header": "quas",
+    "Name": "Hirthe-Walsh",
+    "OurRef": "repellendus",
+    "YourRef": "est",
+    "Description": "Ergonomic next generation toolset",
+    "DocumentTemplate": "nulla",
+    "IsPublished": false,
+    "PersonId": 810,
+    "PersonFullName": "Frida Marks",
+    "AssociateFullName": "Julia Spencer IV",
+    "ContactId": 226,
+    "ContactName": "Greenholt, Schowalter and Raynor",
+    "ProjectId": 649,
+    "ProjectName": "Ferry-Harber",
+    "AssociateId": 736,
+    "Snum": 512,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 690
       }
     }
   }

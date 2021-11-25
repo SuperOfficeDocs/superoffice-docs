@@ -1,9 +1,9 @@
 ---
-title: GetWwwUrlForSMWeb
+title: POST Agents/Configuration/GetWwwUrlForSMWeb
 id: v1ConfigurationAgent_GetWwwUrlForSMWeb
 ---
 
-# GetWwwUrlForSMWeb
+# POST Agents/Configuration/GetWwwUrlForSMWeb
 
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb

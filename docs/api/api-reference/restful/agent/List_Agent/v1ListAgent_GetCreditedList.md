@@ -1,9 +1,9 @@
 ---
-title: GetCreditedList
+title: POST Agents/List/GetCreditedList
 id: v1ListAgent_GetCreditedList
 ---
 
-# GetCreditedList
+# POST Agents/List/GetCreditedList
 
 ```http
 POST /api/v1/Agents/List/GetCreditedList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCreditedList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Value": "nesciunt",
-    "Tooltip": "cumque",
+    "Id": 545,
+    "Value": "veniam",
+    "Tooltip": "maiores",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   },
   {
-    "Id": 617,
-    "Value": "nesciunt",
-    "Tooltip": "cumque",
+    "Id": 545,
+    "Value": "veniam",
+    "Tooltip": "maiores",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

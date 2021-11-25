@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=nemo
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=dolor
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Bruen-Dietrich",
-    "ToolTip": "Minus autem.",
-    "Deleted": true,
-    "Rank": 251,
-    "Type": "quasi",
+    "Id": 773,
+    "Name": "Satterfield Group",
+    "ToolTip": "Repudiandae eum commodi unde.",
+    "Deleted": false,
+    "Rank": 20,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "O'Hara-Lebsack",
-        "ToolTip": "Maiores sit dolore sunt labore.",
-        "Deleted": false,
-        "Rank": 644,
-        "Type": "facere",
+        "Id": 548,
+        "Name": "Jerde, Kuphal and Schaden",
+        "ToolTip": "Quo voluptatum quia quasi vel architecto.",
+        "Deleted": true,
+        "Rank": 476,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nobis",
-        "ColorBlock": 246,
-        "ExtraInfo": "et",
-        "StyleHint": "itaque",
-        "FullName": "Jaime Predovic",
+        "IconHint": "natus",
+        "ColorBlock": 443,
+        "ExtraInfo": "vel",
+        "StyleHint": "velit",
+        "FullName": "Stella Kessler",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -117,16 +117,16 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldLength": 659
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 707,
-    "ExtraInfo": "omnis",
-    "StyleHint": "ex",
-    "FullName": "Noelia Kirlin",
+    "IconHint": "dolor",
+    "ColorBlock": 872,
+    "ExtraInfo": "itaque",
+    "StyleHint": "amet",
+    "FullName": "Mark Kohler I",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

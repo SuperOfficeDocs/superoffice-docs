@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Fay Group",
-    "DisplayName": "Armstrong, Legros and Wiza",
-    "Description": "Right-sized 5th generation data-warehouse",
-    "ShortLabel": "corrupti",
+    "FieldName": "Langosh, Ruecker and Thompson",
+    "DisplayName": "Bechtelar LLC",
+    "Description": "Streamlined static architecture",
+    "ShortLabel": "deleniti",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 975,
-    "TemplateVariableName": "Collier Inc and Sons"
+    "Rank": 139,
+    "TemplateVariableName": "Lowe LLC"
   }
 ]
 ```

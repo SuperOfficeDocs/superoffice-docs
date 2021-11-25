@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "O'Keefe, Langosh and Mueller",
-    "ToolTip": "Cumque odit.",
+    "Id": 672,
+    "Name": "Daniel, Schaden and Heller",
+    "ToolTip": "Cupiditate pariatur.",
     "Deleted": true,
-    "Rank": 798,
-    "Type": "sed",
-    "ColorBlock": 505,
-    "IconHint": "dolores",
+    "Rank": 295,
+    "Type": "excepturi",
+    "ColorBlock": 120,
+    "IconHint": "corrupti",
     "Selected": true,
-    "LastChanged": "2015-06-15T15:05:43.8151179+02:00",
+    "LastChanged": "2012-02-23T18:25:52.2039861+01:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Pfeffer, Dibbert and Skiles",
-        "ToolTip": "Incidunt est nesciunt.",
+        "Id": 263,
+        "Name": "Gottlieb Group",
+        "ToolTip": "Consequatur quibusdam quaerat repellat ut est.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "libero",
-        "ColorBlock": 704,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2017-12-05T15:05:43.8151179+01:00",
+        "Rank": 998,
+        "Type": "et",
+        "ColorBlock": 604,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2014-09-17T18:25:52.2039861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "in",
+        "ExtraInfo": "culpa",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Elmore Orn"
+        "FullName": "Ada Schoen"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Fanny Littel"
+    "ExtraInfo": "repellendus",
+    "StyleHint": "neque",
+    "Hidden": false,
+    "FullName": "Krystel Nienow Jr."
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Nolan-Ryan",
-    "ToolTip": "Modi temporibus odio enim ut harum sequi.",
-    "Deleted": true,
-    "Rank": 248,
-    "Type": "voluptas",
-    "ColorBlock": 563,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2011-01-12T15:05:43.8161173+01:00",
+    "Id": 330,
+    "Name": "Thiel Group",
+    "ToolTip": "Alias blanditiis et dolor unde vero sit.",
+    "Deleted": false,
+    "Rank": 126,
+    "Type": "repellat",
+    "ColorBlock": 517,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2011-11-03T18:25:52.2049859+01:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Ondricka-Frami",
-        "ToolTip": "Magni quos.",
+        "Id": 350,
+        "Name": "McClure LLC",
+        "ToolTip": "Sed dicta ullam modi officiis.",
         "Deleted": false,
-        "Rank": 724,
-        "Type": "praesentium",
-        "ColorBlock": 105,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2011-09-22T15:05:43.8161173+02:00",
+        "Rank": 707,
+        "Type": "veniam",
+        "ColorBlock": 756,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2015-05-11T18:25:52.2049859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Carole Lang",
+        "ExtraInfo": "enim",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Joaquin Orn",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 406
+            "FieldLength": 775
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "aut",
+    "ExtraInfo": "dolores",
+    "StyleHint": "voluptatibus",
     "Hidden": true,
-    "FullName": "Charlene Turcotte",
+    "FullName": "Clara Hyatt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -201,10 +201,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "empower next-generation architectures"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldType": "System.String",
+        "FieldLength": 197
       }
     }
   }

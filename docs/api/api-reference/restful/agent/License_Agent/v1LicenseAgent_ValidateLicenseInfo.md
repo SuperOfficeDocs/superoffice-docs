@@ -1,9 +1,9 @@
 ---
-title: ValidateLicenseInfo
+title: POST Agents/License/ValidateLicenseInfo
 id: v1LicenseAgent_ValidateLicenseInfo
 ---
 
-# ValidateLicenseInfo
+# POST Agents/License/ValidateLicenseInfo
 
 ```http
 POST /api/v1/Agents/License/ValidateLicenseInfo
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/License/ValidateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
       {},
       {}
     ],
-    "AccumulatedNextCheckDate": "2005-10-01T14:58:04.3254605+02:00"
+    "AccumulatedNextCheckDate": "1997-01-24T18:28:49.2361225+01:00"
   }
 }
 ```
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
   "Reason": "",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "synergize back-end users"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 63
     }
   }
 }

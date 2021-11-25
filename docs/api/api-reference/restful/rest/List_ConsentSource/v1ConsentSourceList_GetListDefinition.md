@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Kihn-Mitchell",
-  "Tooltip": "deleniti",
+  "Id": 644,
+  "Name": "Dach, Schoen and Dickens",
+  "Tooltip": "laudantium",
   "Deleted": true,
-  "Rank": 35,
+  "Rank": 809,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quo",
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   },
   "_Links": {

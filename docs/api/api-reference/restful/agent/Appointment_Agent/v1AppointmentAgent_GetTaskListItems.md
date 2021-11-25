@@ -1,9 +1,9 @@
 ---
-title: GetTaskListItems
+title: POST Agents/Appointment/GetTaskListItems
 id: v1AppointmentAgent_GetTaskListItems
 ---
 
-# GetTaskListItems
+# POST Agents/Appointment/GetTaskListItems
 
 ```http
 POST /api/v1/Agents/Appointment/GetTaskListItems
@@ -85,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 191,
-    "Value": "voluptates",
+    "TaskListItemId": 759,
+    "Value": "magnam",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "IntentId": 126,
-    "Rank": 254,
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "IntentId": 896,
+    "Rank": 661,
     "IsDefaultAlldayEvent": true,
     "IsDefaultFree": true,
     "IsDefaultPublished": true,
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldType": "System.String",
+        "FieldLength": 95
       }
     }
   }

@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Beatty-Smith",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "UdListDefinitionId": 144,
-  "Rank": 497,
+  "Id": 612,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 485,
+  "Rank": 469,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldLength": 215
     }
   }
 }

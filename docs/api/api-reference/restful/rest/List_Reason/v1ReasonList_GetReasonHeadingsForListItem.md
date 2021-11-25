@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Jerde-Hessel",
-    "ToolTip": "Ut perspiciatis possimus eius ipsam est.",
+    "Id": 40,
+    "Name": "Becker, Reichel and Purdy",
+    "ToolTip": "Qui non.",
     "Deleted": true,
-    "Rank": 839,
-    "Type": "sunt",
-    "ColorBlock": 992,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "1996-08-15T15:05:43.7501253+02:00",
+    "Rank": 234,
+    "Type": "et",
+    "ColorBlock": 693,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2005-09-27T18:25:52.1370188+02:00",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Kunze-Kris",
-        "ToolTip": "Sint alias rem perspiciatis et.",
-        "Deleted": true,
-        "Rank": 51,
-        "Type": "harum",
-        "ColorBlock": 419,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "1998-09-13T15:05:43.7501253+02:00",
+        "Id": 249,
+        "Name": "Klocko-Stehr",
+        "ToolTip": "Temporibus autem et sit et a.",
+        "Deleted": false,
+        "Rank": 521,
+        "Type": "repellendus",
+        "ColorBlock": 30,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2019-10-05T18:25:52.1370188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Lilly Littel V",
+        "ExtraInfo": "itaque",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Audra Hoeger II",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -129,15 +129,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 473
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "sed",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Noah Spencer",
+    "FullName": "Sophie Pagac",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 849
       }
     }
   }

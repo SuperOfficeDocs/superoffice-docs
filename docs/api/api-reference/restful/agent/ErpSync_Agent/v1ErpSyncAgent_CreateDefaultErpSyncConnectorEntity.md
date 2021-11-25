@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultErpSyncConnectorEntity
+title: POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 id: v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity
 ---
 
-# CreateDefaultErpSyncConnectorEntity
+# POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 
 ```http
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
@@ -65,7 +65,7 @@ Response body: object
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -73,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 343,
-  "DisplayName": "Roob-Becker",
+  "ErpConnectorId": 799,
+  "DisplayName": "Ebert-Feest",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": {
@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

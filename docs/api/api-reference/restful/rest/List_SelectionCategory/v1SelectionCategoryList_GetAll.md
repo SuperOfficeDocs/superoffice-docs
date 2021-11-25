@@ -69,7 +69,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -78,12 +78,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Schultz LLC",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "UdListDefinitionId": 933,
-    "Rank": 958,
+    "Id": 679,
+    "Name": "Emard, Ondricka and Hand",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "UdListDefinitionId": 23,
+    "Rank": 629,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldLength": 812
       }
     }
   }

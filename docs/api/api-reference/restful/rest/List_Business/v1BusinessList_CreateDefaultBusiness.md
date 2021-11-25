@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 302,
-  "Rank": 973,
+  "Id": 910,
+  "Name": "Crona LLC",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "UdListDefinitionId": 904,
+  "Rank": 825,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "visualize proactive experiences"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 860
     }
   }
 }

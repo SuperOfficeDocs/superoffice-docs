@@ -1,9 +1,9 @@
 ---
-title: GetQuoteEntityFromSaleId
+title: POST Agents/Quote/GetQuoteEntityFromSaleId
 id: v1QuoteAgent_GetQuoteEntityFromSaleId
 ---
 
-# GetQuoteEntityFromSaleId
+# POST Agents/Quote/GetQuoteEntityFromSaleId
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
@@ -94,7 +94,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 414
+  "SaleId": 164
 }
 ```
 
@@ -103,56 +103,56 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 610,
-  "SaleId": 42,
-  "QuoteConnectionId": 66,
-  "ERPQuoteKey": "nobis",
-  "ERPOrderKey": "voluptatem",
-  "ActiveQuoteVersionId": 605,
-  "AcceptedQuoteAlternativeId": 808,
-  "UseValuesFromQuote": 717,
-  "DocumentId": 773,
-  "PoNumber": "1092466",
-  "OrderComment": "ab",
-  "PreferredEmailCulture": "berta@kiehn.info",
+  "QuoteId": 261,
+  "SaleId": 335,
+  "QuoteConnectionId": 565,
+  "ERPQuoteKey": "numquam",
+  "ERPOrderKey": "nihil",
+  "ActiveQuoteVersionId": 258,
+  "AcceptedQuoteAlternativeId": 332,
+  "UseValuesFromQuote": 944,
+  "DocumentId": 749,
+  "PoNumber": "719795",
+  "OrderComment": "sint",
+  "PreferredEmailCulture": "violette@fritsch.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 887,
-      "ERPQuoteVersionKey": "velit",
-      "QuoteId": 45,
-      "Description": "Assimilated uniform task-force",
-      "Number": "538803",
+      "QuoteVersionId": 485,
+      "ERPQuoteVersionKey": "et",
+      "QuoteId": 702,
+      "Description": "Optional intermediate policy",
+      "Number": "665504",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 949,
-      "SentDate": "2009-05-02T14:58:05.0114321+02:00",
-      "FollowupId": 283,
-      "ExpirationDate": "2021-06-29T14:58:05.0114321+02:00",
-      "DeliveryCountryId": 165,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 100,
+      "LikelyQuoteAlternativeId": 919,
+      "SentDate": "2001-08-12T18:28:49.951107+02:00",
+      "FollowupId": 254,
+      "ExpirationDate": "2006-01-16T18:28:49.951107+01:00",
+      "DeliveryCountryId": 390,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 165,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "fugiat",
-      "ERPPaymentTypeKey": "est",
-      "ERPDeliveryTermsKey": "aliquam",
-      "ERPDeliveryTypeKey": "voluptates",
-      "Rank": 775,
-      "ApprovedBy": 182,
-      "ApprovedText": "perferendis",
-      "ApprovedRegisteredBy": 806,
-      "ApprovedRegisteredDate": "2017-06-12T14:58:05.0114321+02:00",
-      "ExtraField1": "accusamus",
-      "ExtraField2": "quis",
-      "ExtraField3": "nam",
-      "ExtraField4": "minima",
-      "ExtraField5": "voluptatum",
-      "LastRecalculated": "2015-03-05T14:58:05.0114321+01:00",
-      "Updated": "2003-07-24T14:58:05.0114321+02:00",
-      "UpdatedAssociateId": 102,
-      "Registered": "1999-06-14T14:58:05.0114321+02:00",
-      "RegisteredAssociateId": 832,
+      "ERPPaymentTermsKey": "voluptatum",
+      "ERPPaymentTypeKey": "numquam",
+      "ERPDeliveryTermsKey": "dolores",
+      "ERPDeliveryTypeKey": "eveniet",
+      "Rank": 333,
+      "ApprovedBy": 429,
+      "ApprovedText": "veniam",
+      "ApprovedRegisteredBy": 723,
+      "ApprovedRegisteredDate": "2000-08-21T18:28:49.951107+02:00",
+      "ExtraField1": "quia",
+      "ExtraField2": "expedita",
+      "ExtraField3": "est",
+      "ExtraField4": "itaque",
+      "ExtraField5": "dolores",
+      "LastRecalculated": "2008-01-19T18:28:49.951107+01:00",
+      "Updated": "2010-12-06T18:28:49.951107+01:00",
+      "UpdatedAssociateId": 807,
+      "Registered": "2000-09-04T18:28:49.951107+02:00",
+      "RegisteredAssociateId": 914,
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
@@ -178,10 +178,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "target transparent technologies"
       },
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 377
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetMyConfigParameters
+title: POST Agents/Audience/GetMyConfigParameters
 id: v1AudienceAgent_GetMyConfigParameters
 ---
 
-# GetMyConfigParameters
+# POST Agents/Audience/GetMyConfigParameters
 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameters
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -79,13 +79,13 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 885,
-    "Name": "Watsica, Block and Hartmann",
-    "Value": "atque",
-    "CreatedDate": "2007-03-05T14:58:03.2602385+01:00",
-    "UpdatedDate": "1998-07-15T14:58:03.2602385+02:00",
-    "CreatedBy": "rerum",
-    "UpdatedBy": "velit",
+    "AudienceLayoutId": 24,
+    "Name": "Kreiger, Abbott and Kuphal",
+    "Value": "voluptas",
+    "CreatedDate": "2002-05-29T18:28:48.1315431+02:00",
+    "UpdatedDate": "2018-08-25T18:28:48.1315431+02:00",
+    "CreatedBy": "hic",
+    "UpdatedBy": "quasi",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,10 +94,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "expedite extensible markets"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldLength": 134
       }
     }
   }

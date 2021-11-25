@@ -28,7 +28,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -82,7 +82,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -91,36 +91,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Satterfield Group",
-    "ToolTip": "Consequatur nesciunt.",
-    "Deleted": false,
-    "Rank": 993,
-    "Type": "est",
-    "ColorBlock": 312,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2005-10-19T15:05:43.5800797+02:00",
+    "Id": 230,
+    "Name": "Runolfsdottir-Romaguera",
+    "ToolTip": "Quia minima accusantium atque sunt possimus.",
+    "Deleted": true,
+    "Rank": 543,
+    "Type": "dolore",
+    "ColorBlock": 56,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "1998-08-12T18:25:51.9642454+02:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Terry, Mills and Hammes",
-        "ToolTip": "Maxime laborum.",
+        "Id": 552,
+        "Name": "Franecki Inc and Sons",
+        "ToolTip": "Qui fuga adipisci temporibus doloribus.",
         "Deleted": false,
-        "Rank": 238,
-        "Type": "ea",
-        "ColorBlock": 420,
-        "IconHint": "maiores",
+        "Rank": 84,
+        "Type": "ipsa",
+        "ColorBlock": 727,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "2019-12-17T15:05:43.5800797+01:00",
+        "LastChanged": "2002-02-18T18:25:51.9642454+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Maureen Johnston",
+        "ExtraInfo": "architecto",
+        "StyleHint": "possimus",
+        "Hidden": true,
+        "FullName": "Mrs. Letha Breitenberg",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldType": "System.Int32",
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "nam",
+    "ExtraInfo": "autem",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Kamryn Schulist",
+    "FullName": "Cesar Jast",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "enhance dot-com systems"
     },
     "FieldProperties": {
       "fieldName": {
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

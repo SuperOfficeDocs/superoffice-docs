@@ -1,9 +1,9 @@
 ---
-title: RemoveLicenses
+title: POST Agents/User/RemoveLicenses
 id: v1UserAgent_RemoveLicenses
 ---
 
-# RemoveLicenses
+# POST Agents/User/RemoveLicenses
 
 ```http
 POST /api/v1/Agents/User/RemoveLicenses

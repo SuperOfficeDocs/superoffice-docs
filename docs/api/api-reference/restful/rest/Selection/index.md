@@ -2,8 +2,6 @@
 title: Selection
 ---
 
-# Selection
-
 ```http
 /api/v1/Selection
 ```

@@ -64,7 +64,7 @@ Response body: object
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ```http_
@@ -72,15 +72,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Oberbrunner Inc and Sons",
-  "Tooltip": "occaecati",
+  "Id": 185,
+  "Name": "Russel Group",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 521,
-  "Rank": 237,
+  "UdListDefinitionId": 815,
+  "Rank": 872,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "whiteboard customized relationships"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 244
     }
   }
 }

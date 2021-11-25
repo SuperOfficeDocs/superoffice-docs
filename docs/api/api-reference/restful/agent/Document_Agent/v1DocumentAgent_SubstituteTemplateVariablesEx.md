@@ -1,9 +1,9 @@
 ---
-title: SubstituteTemplateVariablesEx
+title: POST Agents/Document/SubstituteTemplateVariablesEx
 id: v1DocumentAgent_SubstituteTemplateVariablesEx
 ---
 
-# SubstituteTemplateVariablesEx
+# POST Agents/Document/SubstituteTemplateVariablesEx
 
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
@@ -68,24 +68,24 @@ Response body: string
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Parameters": {
-    "SourceInput": "sit",
+    "SourceInput": "sunt",
     "Encoding": "Html",
-    "CultureName": "sv",
-    "ContactId": 759,
-    "PersonId": 910,
-    "ProjectId": 585,
-    "SelectionId": 298,
-    "AppointmentId": 51,
-    "DocumentId": 804,
-    "SaleId": 643,
-    "QuoteLineId": 418,
-    "QuoteAlternativeId": 846,
-    "ProductKey": "perferendis",
+    "CultureName": "en",
+    "ContactId": 613,
+    "PersonId": 929,
+    "ProjectId": 192,
+    "SelectionId": 702,
+    "AppointmentId": 342,
+    "DocumentId": 268,
+    "SaleId": 43,
+    "QuoteLineId": 976,
+    "QuoteAlternativeId": 253,
+    "ProductKey": "quod",
     "CustomTags": [
       [
         {}
@@ -103,5 +103,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"sit"
 ```

@@ -2,8 +2,6 @@
 title: List_TicketCategory
 ---
 
-# List_TicketCategory
-
 ```http
 /api/v1/List/TicketCategory
 ```

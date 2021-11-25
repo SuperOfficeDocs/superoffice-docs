@@ -1,9 +1,9 @@
 ---
-title: SaveLegalBase
+title: POST Agents/List/SaveLegalBase
 id: v1ListAgent_SaveLegalBase
 ---
 
-# SaveLegalBase
+# POST Agents/List/SaveLegalBase
 
 ```http
 POST /api/v1/Agents/List/SaveLegalBase
@@ -79,16 +79,16 @@ Response body: object
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "LegalBase": {
-    "LegalBaseId": 24,
-    "Name": "Hermann-Hackett",
-    "Tooltip": "commodi",
-    "Rank": 494,
-    "Key": "unde",
+    "LegalBaseId": 470,
+    "Name": "Orn LLC",
+    "Tooltip": "voluptas",
+    "Rank": 960,
+    "Key": "mollitia",
     "Deleted": true
   }
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 581,
-  "Name": "Rosenbaum Group",
+  "LegalBaseId": 17,
+  "Name": "Ratke-Ankunding",
   "Tooltip": "sit",
-  "Rank": 476,
-  "Key": "a",
-  "Deleted": true,
+  "Rank": 794,
+  "Key": "tempora",
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 279
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
-title: GetDiaryByGroup
+title: POST Agents/Appointment/GetDiaryByGroup
 id: v1AppointmentAgent_GetDiaryByGroup
 ---
 
-# GetDiaryByGroup
+# POST Agents/Appointment/GetDiaryByGroup
 
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
@@ -125,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 351,
-  "GroupType": 671,
-  "StartTime": "2013-11-15T14:58:02.8875626+01:00",
-  "EndTime": "1996-05-11T14:58:02.8875626+02:00",
-  "Count": 205
+  "GroupId": 659,
+  "GroupType": 916,
+  "StartTime": "2010-01-26T18:28:47.7368448+01:00",
+  "EndTime": "2002-01-26T18:28:47.7368448+01:00",
+  "Count": 416
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 629,
-    "StartDate": "2014-08-01T14:58:02.8885642+02:00",
-    "EndDate": "1997-05-17T14:58:02.8885642+02:00",
+    "AppointmentId": 309,
+    "StartDate": "2001-12-20T18:28:47.7378445+01:00",
+    "EndDate": "2018-12-30T18:28:47.7388457+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Abelardo Olson",
-    "ContactName": "Streich-Murphy",
-    "Description": "Distributed discrete hub",
-    "PersonFullName": "Quentin Powlowski",
-    "PersonId": 32,
-    "ContactId": 761,
-    "ProjectId": 935,
-    "ProjectName": "Windler-Hauck",
-    "IsPublished": false,
-    "AssociateId": 591,
-    "ColorIndex": 539,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "repellat",
+    "AssociateFullName": "Laurine Connelly",
+    "ContactName": "Labadie-Keeling",
+    "Description": "Triple-buffered background collaboration",
+    "PersonFullName": "Everardo Miller",
+    "PersonId": 704,
+    "ContactId": 760,
+    "ProjectId": 494,
+    "ProjectName": "Champlin, Schaefer and Blanda",
+    "IsPublished": true,
+    "AssociateId": 840,
+    "ColorIndex": 347,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 777,
-    "PriorityName": "Batz-Conn",
+    "PriorityId": 309,
+    "PriorityName": "Raynor LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2020-12-24T14:58:02.8895639+01:00",
+    "ActiveDate": "2020-11-16T18:28:47.7388457+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-17T14:58:02.8895639+02:00",
-    "RecurringEndDate": "2011-07-23T14:58:02.8895639+02:00",
-    "MotherId": 747,
-    "AssignedBy": 260,
-    "AssignedByFullName": "Kiel Friesen",
-    "RejectReason": "",
-    "Location": "laudantium",
-    "AlarmLeadTime": "exercitationem",
-    "SaleId": 549,
-    "SaleName": "Lind Group",
-    "AssociateName": "Gerhold-Bosco",
-    "CreatedDate": "2010-07-07T14:58:02.8895639+02:00",
-    "CreatedBy": "aperiam",
-    "CreatedByFullName": "Candida Lebsack MD",
-    "CreatedByAssociateId": 806,
+    "RecurringStartDate": "2021-01-03T18:28:47.7388457+01:00",
+    "RecurringEndDate": "2012-01-07T18:28:47.7388457+01:00",
+    "MotherId": 201,
+    "AssignedBy": 55,
+    "AssignedByFullName": "Lavinia Carroll II",
+    "RejectReason": "benchmark seamless e-services",
+    "Location": "ut",
+    "AlarmLeadTime": "voluptate",
+    "SaleId": 684,
+    "SaleName": "Toy LLC",
+    "AssociateName": "Stokes LLC",
+    "CreatedDate": "1999-11-30T18:28:47.7398442+01:00",
+    "CreatedBy": "quibusdam",
+    "CreatedByFullName": "Jazmin Reichel",
+    "CreatedByAssociateId": 350,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": {
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldType": "System.Int32",
+        "FieldLength": 148
       }
     }
   }

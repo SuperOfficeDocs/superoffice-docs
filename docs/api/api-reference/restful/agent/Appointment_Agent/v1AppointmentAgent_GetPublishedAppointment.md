@@ -1,9 +1,9 @@
 ---
-title: GetPublishedAppointment
+title: POST Agents/Appointment/GetPublishedAppointment
 id: v1AppointmentAgent_GetPublishedAppointment
 ---
 
-# GetPublishedAppointment
+# POST Agents/Appointment/GetPublishedAppointment
 
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
@@ -126,11 +126,11 @@ Response body: object
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 924
+  "AppointmentId": 682
 }
 ```
 
@@ -139,53 +139,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 280,
-  "StartDate": "1999-12-17T14:58:02.8755733+01:00",
-  "EndDate": "2009-07-23T14:58:02.8755733+02:00",
+  "AppointmentId": 591,
+  "StartDate": "2007-06-09T18:28:47.7248447+02:00",
+  "EndDate": "2003-08-04T18:28:47.7248447+02:00",
   "Type": "BookingForChecklist",
-  "Task": "nisi",
-  "AssociateFullName": "Efren Nader",
-  "ContactName": "King Group",
-  "Description": "Polarised secondary leverage",
-  "PersonFullName": "Brennon Koelpin",
-  "PersonId": 752,
-  "ContactId": 43,
-  "ProjectId": 630,
-  "ProjectName": "Kemmer-Greenfelder",
+  "Task": "et",
+  "AssociateFullName": "Kelsi Douglas Sr.",
+  "ContactName": "Weissnat, Ebert and Anderson",
+  "Description": "Inverse multimedia adapter",
+  "PersonFullName": "Briana Parisian I",
+  "PersonId": 476,
+  "ContactId": 467,
+  "ProjectId": 512,
+  "ProjectName": "Koelpin LLC",
   "IsPublished": false,
-  "AssociateId": 584,
-  "ColorIndex": 141,
+  "AssociateId": 462,
+  "ColorIndex": 194,
   "IsFree": true,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 359,
-  "PriorityName": "Harber-Bogisich",
+  "PriorityId": 618,
+  "PriorityName": "Ankunding-Hayes",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2017-05-23T14:58:02.8755733+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2014-12-14T18:28:47.7258476+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1996-10-17T14:58:02.8755733+02:00",
-  "RecurringEndDate": "2002-08-24T14:58:02.8755733+02:00",
-  "MotherId": 572,
-  "AssignedBy": 818,
-  "AssignedByFullName": "Cicero Rohan",
-  "RejectReason": "",
-  "Location": "est",
-  "AlarmLeadTime": "ea",
-  "SaleId": 151,
-  "SaleName": "Feest Inc and Sons",
-  "AssociateName": "Heaney, Ritchie and Mayert",
-  "CreatedDate": "2019-02-18T14:58:02.8765731+01:00",
-  "CreatedBy": "veniam",
-  "CreatedByFullName": "Ellen Walsh",
-  "CreatedByAssociateId": 999,
+  "RecurringStartDate": "2005-03-20T18:28:47.7258476+01:00",
+  "RecurringEndDate": "2007-10-01T18:28:47.7258476+02:00",
+  "MotherId": 619,
+  "AssignedBy": 593,
+  "AssignedByFullName": "Bertha Gleichner",
+  "RejectReason": "streamline strategic ROI",
+  "Location": "consequatur",
+  "AlarmLeadTime": "aut",
+  "SaleId": 10,
+  "SaleName": "Gorczany, Casper and Spencer",
+  "AssociateName": "Senger-Nicolas",
+  "CreatedDate": "2003-04-10T18:28:47.7258476+02:00",
+  "CreatedBy": "quo",
+  "CreatedByFullName": "Joesph Erdman",
+  "CreatedByAssociateId": 22,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": {
@@ -198,8 +198,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

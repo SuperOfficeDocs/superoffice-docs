@@ -1,9 +1,9 @@
 ---
-title: GetRedLetterInformationListByDatesAndAssociate
+title: POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 id: v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
 ---
 
-# GetRedLetterInformationListByDatesAndAssociate
+# POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 
 ```http
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
@@ -77,13 +77,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2013-01-14T14:58:02.8975682+01:00",
-  "EndDate": "2012-08-17T14:58:02.8975682+02:00",
-  "AssociateId": 93
+  "StartDate": "2011-02-18T18:28:47.7528443+01:00",
+  "EndDate": "1999-05-22T18:28:47.7528443+02:00",
+  "AssociateId": 600
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2016-02-08T14:58:02.8985396+01:00",
+    "Date": "1999-12-31T18:28:47.7528443+01:00",
     "RedLetterInformation": {
-      "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": false,
+      "IsOwnCountryHoliday": true,
+      "IsOtherCountryHoliday": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "syndicate end-to-end supply-chains"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     },
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     },
@@ -140,25 +140,25 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   },
   {
-    "Date": "2016-02-08T14:58:02.8985396+01:00",
+    "Date": "1999-12-31T18:28:47.7528443+01:00",
     "RedLetterInformation": {
-      "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": false,
+      "IsOwnCountryHoliday": true,
+      "IsOtherCountryHoliday": true,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "syndicate end-to-end supply-chains"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     },
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     },
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

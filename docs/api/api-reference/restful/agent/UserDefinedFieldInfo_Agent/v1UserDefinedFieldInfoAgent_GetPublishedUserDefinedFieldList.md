@@ -1,9 +1,9 @@
 ---
-title: GetPublishedUserDefinedFieldList
+title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
 ---
 
-# GetPublishedUserDefinedFieldList
+# POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
@@ -120,40 +120,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 537,
-    "ColumnId": 632,
-    "FieldDefault": "illo",
-    "FieldHeight": 946,
-    "FieldLabel": "repellendus",
-    "FieldLeft": 638,
-    "FieldTop": 289,
+    "UDefFieldId": 65,
+    "ColumnId": 601,
+    "FieldDefault": "molestias",
+    "FieldHeight": 16,
+    "FieldLabel": "autem",
+    "FieldLeft": 266,
+    "FieldTop": 990,
     "FieldType": "Checkbox",
-    "FieldWidth": 533,
-    "FormatMask": "esse",
+    "FieldWidth": 431,
+    "FormatMask": "nemo",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 836,
-    "LabelLeft": 928,
-    "LabelTop": 508,
-    "LabelWidth": 604,
-    "LastVersionId": 535,
-    "ListTableId": 526,
+    "LabelHeight": 465,
+    "LabelLeft": 696,
+    "LabelTop": 796,
+    "LabelWidth": 854,
+    "LastVersionId": 963,
+    "ListTableId": 295,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 614,
-    "ProgId": "id",
-    "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 675,
-    "TextLength": 39,
-    "Tooltip": "totam",
-    "UdefIdentity": 685,
-    "UDListDefinitionId": 799,
+    "Page1LineNo": 414,
+    "ProgId": "iure",
+    "IsReadOnly": true,
+    "ShortLabel": "qui",
+    "TabOrder": 841,
+    "TextLength": 382,
+    "Tooltip": "error",
+    "UdefIdentity": 993,
+    "UDListDefinitionId": 377,
     "Justification": "Center",
-    "Version": 705,
-    "TemplateVariableName": "Leffler-Kris",
-    "HasBeenPublished": false,
-    "MdoListName": "Windler LLC",
+    "Version": 335,
+    "TemplateVariableName": "Hansen Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Larkin-Luettgen",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 850
       }
     }
   }

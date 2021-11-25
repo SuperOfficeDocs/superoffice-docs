@@ -1,9 +1,9 @@
 ---
-title: GetConnectionsAndDisplayFields
+title: POST Agents/ErpSync/GetConnectionsAndDisplayFields
 id: v1ErpSyncAgent_GetConnectionsAndDisplayFields
 ---
 
-# GetConnectionsAndDisplayFields
+# POST Agents/ErpSync/GetConnectionsAndDisplayFields
 
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
@@ -82,12 +82,12 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 774
+  "EntityId": 832
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 808,
-    "ConnectionName": "Gerlach-D'Amore",
-    "Connected": false,
+    "ErpConnectionId": 40,
+    "ConnectionName": "Lubowitz-Littel",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "autem",
-        "Rank": 444,
-        "DisplayName": "Dibbert, Greenfelder and Wiza",
-        "DisplayDescription": "Object-based needs-based software",
+        "FieldKey": "dicta",
+        "Rank": 172,
+        "DisplayName": "Krajcik LLC",
+        "DisplayDescription": "Reactive bottom-line groupware",
         "FieldType": "Checkbox",
-        "ListName": "Cassin Group",
-        "DefaultValue": "doloribus",
-        "MaxLength": 140,
+        "ListName": "Kuhn, Flatley and Kuhic",
+        "DefaultValue": "nemo",
+        "MaxLength": 707,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 997
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "placeat",
-      "illum"
+      "est",
+      "at"
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 855
       }
     }
   }

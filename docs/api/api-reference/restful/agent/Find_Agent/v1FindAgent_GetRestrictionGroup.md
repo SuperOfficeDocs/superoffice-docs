@@ -1,9 +1,9 @@
 ---
-title: GetRestrictionGroup
+title: POST Agents/Find/GetRestrictionGroup
 id: v1FindAgent_GetRestrictionGroup
 ---
 
-# GetRestrictionGroup
+# POST Agents/Find/GetRestrictionGroup
 
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroup
@@ -78,15 +78,15 @@ Response body: object
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "debitis",
-  "ProviderName": "Rempel-Paucek",
-  "StorageKey": "doloremque",
-  "Rank": 377,
-  "Context": "perferendis"
+  "StorageType": "quia",
+  "ProviderName": "Halvorson-Klein",
+  "StorageKey": "rerum",
+  "Rank": 659,
+  "Context": "consectetur"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cormier-Daugherty",
-  "Description": "Assimilated empowering artificial intelligence",
-  "Rank": 990,
+  "Name": "Murphy-Brekke",
+  "Description": "Seamless bottom-line initiative",
+  "Rank": 329,
   "Restrictions": [
     {
-      "Name": "Howe Group",
-      "Operator": "cupiditate",
+      "Name": "Gerlach Group",
+      "Operator": "eveniet",
       "Values": [
-        "eos",
-        "voluptas"
+        "quaerat",
+        "cum"
       ],
       "DisplayValues": [
-        "dolore",
-        "non"
+        "aperiam",
+        "ea"
       ],
       "ColumnInfo": {},
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 545,
+      "InterParenthesis": 778,
       "InterOperator": "And",
-      "UniqueHash": 371
+      "UniqueHash": 403
     }
   ]
 }

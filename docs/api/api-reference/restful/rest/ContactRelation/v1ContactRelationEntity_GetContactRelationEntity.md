@@ -92,63 +92,38 @@ Response body: object
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 Feb 2003 15:05:42 G2T
+Last-Modified: Thu, 20 Sep 2018 18:25:50 G9T
 
 {
-  "SourceContactId": 137,
-  "SourcePersonId": 312,
-  "DestinationContactId": 376,
-  "DestinationPersonId": 834,
-  "RelationId": 161,
-  "Comment": "itaque",
-  "RelationDefinitionId": 871,
-  "Reversed": 27,
-  "UpdatedDate": "2003-02-18T15:05:42.0140027+01:00",
-  "CreatedDate": "1999-12-29T15:05:42.0140027+01:00",
+  "SourceContactId": 587,
+  "SourcePersonId": 769,
+  "DestinationContactId": 706,
+  "DestinationPersonId": 859,
+  "RelationId": 177,
+  "Comment": "ea",
+  "RelationDefinitionId": 379,
+  "Reversed": 121,
+  "UpdatedDate": "2018-09-20T18:25:50.3905955+02:00",
+  "CreatedDate": "2002-12-11T18:25:50.3916228+01:00",
   "CreatedBy": {
-    "AssociateId": 661,
-    "Name": "Quigley, Cormier and Schultz",
-    "PersonId": 632,
-    "Rank": 730,
-    "Tooltip": "rerum",
+    "AssociateId": 14,
+    "Name": "Rodriguez, Kohler and Davis",
+    "PersonId": 640,
+    "Rank": 184,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 632,
-    "FullName": "Carleton Kihn",
-    "FormalName": "Reinger-Ziemann",
-    "Deleted": false,
-    "EjUserId": 699,
-    "UserName": "Robel-Jacobs",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 497
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 710,
-    "Name": "O'Conner-Hermann",
-    "PersonId": 51,
-    "Rank": 731,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 419,
-    "FullName": "Kay Torp",
-    "FormalName": "Swaniawski Group",
+    "GroupIdx": 628,
+    "FullName": "Maritza Boyer",
+    "FormalName": "Morissette Inc and Sons",
     "Deleted": true,
-    "EjUserId": 112,
-    "UserName": "Keeling-Emmerich",
+    "EjUserId": 105,
+    "UserName": "Marvin, Keeling and Quigley",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -157,16 +132,41 @@ Last-Modified: Tue, 18 Feb 2003 15:05:42 G2T
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 634
       }
     }
   },
-  "SourceContactName": "Hansen Inc and Sons",
-  "SourcePersonName": "Gaylord Group",
-  "DestinationContactName": "Lind, Hamill and Walker",
-  "DestinationPersonName": "Bartoletti LLC",
-  "ActiveText": "ut",
-  "PassiveText": "culpa",
+  "UpdatedBy": {
+    "AssociateId": 222,
+    "Name": "VonRueden-Langosh",
+    "PersonId": 809,
+    "Rank": 655,
+    "Tooltip": "qui",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 764,
+    "FullName": "Mrs. Merlin Hegmann",
+    "FormalName": "Turcotte Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 839,
+    "UserName": "Ruecker Inc and Sons",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": "matrix value-added eyeballs"
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 580
+      }
+    }
+  },
+  "SourceContactName": "Baumbach, Lueilwitz and Sipes",
+  "SourcePersonName": "Willms LLC",
+  "DestinationContactName": "Lesch Group",
+  "DestinationPersonName": "Simonis Inc and Sons",
+  "ActiveText": "at",
+  "PassiveText": "magni",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -177,8 +177,8 @@ Last-Modified: Tue, 18 Feb 2003 15:05:42 G2T
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   },
   "_Links": {

@@ -62,7 +62,7 @@ Response body: object
 | TicketNew | string | This field indicates what to do with the escalation chain when a new request is registered |
 | Deadline | int32 | Deadline to add if escalated (minutes) |
 | MonStart | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
-| MonStop | date-time | The work hour sstop for Mondays. Note that only the time part of the DateTime is used |
+| MonStop | date-time | The work hour start for Mondays. Note that only the time part of the DateTime is used |
 | TueStart | date-time | The work hour start for Tuesdays. Note that only the time part of the DateTime is used |
 | TueStop | date-time | The work hour stop for Tuesdays. Note that only the time part of the DateTime is used |
 | WedStart | date-time | The work hour start for Wednesdays. Note that only the time part of the DateTime is used |
@@ -76,6 +76,7 @@ Response body: object
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -93,35 +94,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 16,
-  "Name": "Denesik-Fisher",
+  "TicketPriorityId": 592,
+  "Name": "Kerluke, Tremblay and Wehner",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 632,
+  "SortOrder": 329,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 889,
-  "MonStart": "2017-06-18T15:05:43.913124+02:00",
-  "MonStop": "1997-02-19T15:05:43.913124+01:00",
-  "TueStart": "2020-12-08T15:05:43.913124+01:00",
-  "TueStop": "1995-09-21T15:05:43.913124+02:00",
-  "WedStart": "2008-07-14T15:05:43.913124+02:00",
-  "WedStop": "2019-02-10T15:05:43.913124+01:00",
-  "ThuStart": "2017-04-12T15:05:43.913124+02:00",
-  "ThuStop": "2012-06-15T15:05:43.913124+02:00",
-  "FriStart": "2008-01-07T15:05:43.913124+01:00",
-  "FriStop": "2011-01-09T15:05:43.913124+01:00",
-  "SatStart": "2004-06-22T15:05:43.913124+02:00",
-  "SatStop": "2013-01-07T15:05:43.913124+01:00",
-  "SunStart": "2000-10-18T15:05:43.913124+02:00",
-  "SunStop": "2003-03-16T15:05:43.913124+01:00",
+  "Deadline": 849,
+  "MonStart": "2012-07-26T18:25:52.309673+02:00",
+  "MonStop": "2019-04-14T18:25:52.309673+02:00",
+  "TueStart": "2005-07-25T18:25:52.309673+02:00",
+  "TueStop": "2012-10-13T18:25:52.309673+02:00",
+  "WedStart": "1997-10-21T18:25:52.309673+02:00",
+  "WedStop": "2008-02-27T18:25:52.309673+01:00",
+  "ThuStart": "2021-01-09T18:25:52.309673+01:00",
+  "ThuStop": "1997-12-24T18:25:52.309673+01:00",
+  "FriStart": "2004-07-25T18:25:52.309673+02:00",
+  "FriStop": "2007-09-21T18:25:52.309673+02:00",
+  "SatStart": "2005-07-04T18:25:52.309673+02:00",
+  "SatStop": "1999-06-07T18:25:52.309673+02:00",
+  "SunStart": "1997-01-03T18:25:52.309673+01:00",
+  "SunStop": "2007-06-14T18:25:52.309673+02:00",
   "NonDates": [
-    "doloribus",
-    "hic"
+    "sed",
+    "optio"
+  ],
+  "EscalationLevels": [
+    {
+      "TicketAlertId": 517,
+      "AlertLevel": 923,
+      "AlertTimeout": 558,
+      "Action": 573,
+      "DelegateTo": 764,
+      "ScriptId": 870,
+      "EmailTo": "delaney.wilkinson@bartellkoch.ca",
+      "SmsTo": "iste",
+      "ReplyTemplateIdCustomer": 325,
+      "ReplyTemplateIdUser": 107,
+      "ReplyTemplateIdCatmast": 586,
+      "ReplyTemplateIdEmail": 48,
+      "RtiCustomerSms": 142,
+      "ReplyTemplateIdUserSms": 976,
+      "ReplyTemplateIdCatmastSms": 561,
+      "ReplyTemplateIdSms": 949,
+      "TableRight": {},
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": {
+            "Mask": "FULL",
+            "Reason": ""
+          },
+          "FieldType": "System.Int32",
+          "FieldLength": 880
+        }
+      }
+    }
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -134,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 766
     }
   }
 }

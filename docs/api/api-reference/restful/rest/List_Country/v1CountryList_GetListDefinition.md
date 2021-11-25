@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Nolan, Rowe and Reichel",
-  "Tooltip": "quia",
+  "Id": 812,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "porro",
   "Deleted": true,
-  "Rank": 607,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 474,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "ad",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "envisioneer magnetic metrics"
+    "Reason": ""
   },
   "FieldProperties": {
     "fieldName": {
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   },
   "_Links": {

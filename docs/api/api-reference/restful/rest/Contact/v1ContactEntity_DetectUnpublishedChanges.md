@@ -24,7 +24,7 @@ True if the ContactEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Contact/UdefLayout/Changed?columnChangesOnly=True
+GET /api/v1/Contact/UdefLayout/Changed?columnChangesOnly=False
 ```
 
 
@@ -59,7 +59,7 @@ Response body: bool
 GET /api/v1/Contact/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultRoleEntityFromType
+title: POST Agents/User/CreateDefaultRoleEntityFromType
 id: v1UserAgent_CreateDefaultRoleEntityFromType
 ---
 
-# CreateDefaultRoleEntityFromType
+# POST Agents/User/CreateDefaultRoleEntityFromType
 
 ```http
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 18,
-  "Name": "Dickinson Inc and Sons",
-  "Tooltip": "accusamus",
+  "RoleId": 171,
+  "Name": "Aufderhar, Metz and Marvin",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 321,
-  "Rank": 907,
-  "Created": "2014-04-30T14:58:05.5760275+02:00",
-  "UseCategories": 382,
+  "Deleted": 67,
+  "Rank": 551,
+  "Created": "1996-05-28T18:28:50.5754435+02:00",
+  "UseCategories": 360,
   "CreatedBy": {
-    "AssociateId": 849,
-    "Name": "Littel Group",
-    "PersonId": 188,
-    "Rank": 691,
-    "Tooltip": "dolor",
+    "AssociateId": 347,
+    "Name": "Metz-Dickinson",
+    "PersonId": 734,
+    "Rank": 561,
+    "Tooltip": "voluptatum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 516,
-    "FullName": "Lempi Wiegand",
-    "FormalName": "Kihn Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 68,
-    "UserName": "Gorczany Inc and Sons",
+    "GroupIdx": 20,
+    "FullName": "Kasandra Bins",
+    "FormalName": "Parker Inc and Sons",
+    "Deleted": false,
+    "EjUserId": 40,
+    "UserName": "Heathcote-Schiller",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -129,34 +129,34 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   },
-  "Updated": "2019-03-13T14:58:05.5760275+01:00",
+  "Updated": "2006-09-07T18:28:50.5754435+02:00",
   "UpdatedBy": {
-    "AssociateId": 469,
-    "Name": "Greenholt Group",
-    "PersonId": 539,
-    "Rank": 358,
-    "Tooltip": "impedit",
+    "AssociateId": 707,
+    "Name": "Leffler, Christiansen and Effertz",
+    "PersonId": 771,
+    "Rank": 619,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 618,
-    "FullName": "Jerrell Gutkowski",
-    "FormalName": "Hagenes-Kertzmann",
+    "GroupIdx": 606,
+    "FullName": "Darian Abernathy",
+    "FormalName": "Kertzmann-Schmeler",
     "Deleted": true,
-    "EjUserId": 666,
-    "UserName": "Murray-Fisher",
+    "EjUserId": 958,
+    "UserName": "Ledner-Mann",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "scale turn-key ROI"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   },
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
     "Rights": [
       [
         {
-          "Value": "possimus",
-          "Description": "Organized logistical moderator",
+          "Value": "qui",
+          "Description": "Organic bifurcated local area network",
           "TableRight": {
             "Mask": "Delete",
             "Reason": ""
@@ -185,18 +185,18 @@ Content-Type: application/json; charset=utf-8
                 "Reason": ""
               },
               "FieldType": "System.Int32",
-              "FieldLength": 979
+              "FieldLength": 947
             }
           }
         }
       ],
       [
         {
-          "Value": "nam",
-          "Description": "Ergonomic directional service-desk",
+          "Value": "consequatur",
+          "Description": "Assimilated upward-trending protocol",
           "TableRight": {
             "Mask": "Delete",
-            "Reason": ""
+            "Reason": "syndicate plug-and-play schemas"
           },
           "FieldProperties": {
             "fieldName": {
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
                 "Mask": "FULL",
                 "Reason": ""
               },
-              "FieldType": "System.String",
-              "FieldLength": 626
+              "FieldType": "System.Int32",
+              "FieldLength": 407
             }
           }
         }
@@ -216,10 +216,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "facilitate web-enabled applications"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 31
       }
     }
   },
@@ -233,8 +233,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

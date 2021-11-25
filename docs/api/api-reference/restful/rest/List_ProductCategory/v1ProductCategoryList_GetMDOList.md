@@ -25,8 +25,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=cumque
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=eligendi
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -86,29 +86,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Skiles, Steuber and Prohaska",
-    "ToolTip": "Eos recusandae libero.",
-    "Deleted": false,
-    "Rank": 117,
-    "Type": "doloribus",
+    "Id": 266,
+    "Name": "Zemlak, Kirlin and Willms",
+    "ToolTip": "Dolore eveniet aut quod.",
+    "Deleted": true,
+    "Rank": 718,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Wyman, Reinger and Wunsch",
-        "ToolTip": "Placeat vero mollitia optio pariatur perferendis consequatur.",
+        "Id": 680,
+        "Name": "Considine LLC",
+        "ToolTip": "Et cum quo adipisci.",
         "Deleted": false,
-        "Rank": 163,
-        "Type": "est",
+        "Rank": 365,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "ut",
-        "ColorBlock": 919,
-        "ExtraInfo": "occaecati",
-        "StyleHint": "mollitia",
-        "FullName": "Destinee Haley",
+        "ColorBlock": 130,
+        "ExtraInfo": "est",
+        "StyleHint": "repellendus",
+        "FullName": "Lilian Schroeder",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -116,17 +116,17 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldType": "System.String",
+            "FieldLength": 753
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 868,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
-    "FullName": "Josiane Corkery",
+    "IconHint": "labore",
+    "ColorBlock": 280,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "repellendus",
+    "FullName": "Quinn Cartwright III",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 46
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultDash
+title: POST Agents/Dash/CreateDefaultDash
 id: v1DashAgent_CreateDefaultDash
 ---
 
-# CreateDefaultDash
+# POST Agents/Dash/CreateDefaultDash
 
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultDash
@@ -50,6 +50,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -70,7 +71,7 @@ Response body: object
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -78,16 +79,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 932,
-  "Name": "Nicolas Inc and Sons",
-  "Description": "Phased well-modulated ability",
-  "AssociateId": 742,
-  "Columns": 708,
+  "DashboardId": 94,
+  "UniqueId": "voluptatem",
+  "Name": "Ratke Group",
+  "Description": "Compatible grid-enabled contingency",
+  "AssociateId": 646,
+  "Columns": 137,
   "Theme": {
-    "DashboardThemeId": 601,
-    "Name": "O'Kon-Schuppe",
-    "Config": "est",
-    "Rank": 840,
+    "DashboardThemeId": 442,
+    "Name": "Heidenreich Group",
+    "Config": "dolorum",
+    "Rank": 703,
+    "Client": "nostrum",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -95,28 +98,28 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 348
       }
     }
   },
-  "VisibleForAll": 647,
+  "VisibleForAll": 665,
   "VisibleForAssociates": [
-    739,
-    504
+    869,
+    628
   ],
   "VisibleForGroups": [
-    513,
-    853
+    323,
+    942
   ],
-  "PinForAll": 24,
+  "PinForAll": 163,
   "PinForAssociates": [
-    718,
-    419
+    952,
+    529
   ],
   "PinForGroups": [
-    153,
-    251
+    846,
+    512
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -126,10 +129,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "maximize distributed models"
       },
-      "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   }
 }

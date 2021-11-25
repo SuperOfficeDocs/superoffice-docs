@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultListItemEntity
+title: POST Agents/List/CreateDefaultListItemEntity
 id: v1ListAgent_CreateDefaultListItemEntity
 ---
 
-# CreateDefaultListItemEntity
+# POST Agents/List/CreateDefaultListItemEntity
 
 ```http
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
@@ -64,7 +64,7 @@ Response body: object
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -72,12 +72,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Hagenes Group",
-  "Tooltip": "nesciunt",
+  "Id": 234,
+  "Name": "Green-O'Reilly",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "UdListDefinitionId": 483,
-  "Rank": 270,
+  "UdListDefinitionId": 324,
+  "Rank": 246,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

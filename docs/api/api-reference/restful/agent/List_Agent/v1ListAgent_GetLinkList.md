@@ -1,9 +1,9 @@
 ---
-title: GetLinkList
+title: POST Agents/List/GetLinkList
 id: v1ListAgent_GetLinkList
 ---
 
-# GetLinkList
+# POST Agents/List/GetLinkList
 
 ```http
 POST /api/v1/Agents/List/GetLinkList
@@ -74,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Orn-Lakin",
-    "Id": 727,
-    "Description": "Expanded next generation help-desk",
-    "ExtraInfo": "ut",
-    "LinkId": 543,
+    "EntityName": "Will LLC",
+    "Id": 890,
+    "Description": "Versatile object-oriented application",
+    "ExtraInfo": "voluptate",
+    "LinkId": 917,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 956
       }
     }
   }

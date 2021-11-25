@@ -125,37 +125,39 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "repellendus",
     "value": {
       "value1": {
-        "PrimaryKey": 8761,
-        "EntityName": "person",
-        "personId": 8761,
-        "fullName": "June Davis"
+        "PrimaryKey": 5249,
+        "EntityName": "sale",
+        "saleId": 5249,
+        "contactId": 7724,
+        "name": "Lang-Hamill"
       },
       "value2": {
-        "PrimaryKey": 7402,
+        "PrimaryKey": 6984,
         "EntityName": "person",
-        "personId": 7402,
-        "fullName": "Ms. Leland Walker"
+        "personId": 6984,
+        "fullName": "Mrs. Mattie Balistreri"
       }
     }
   },
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "repellendus",
     "value": {
       "value1": {
-        "PrimaryKey": 8761,
-        "EntityName": "person",
-        "personId": 8761,
-        "fullName": "June Davis"
+        "PrimaryKey": 5249,
+        "EntityName": "sale",
+        "saleId": 5249,
+        "contactId": 7724,
+        "name": "Lang-Hamill"
       },
       "value2": {
-        "PrimaryKey": 7402,
+        "PrimaryKey": 6984,
         "EntityName": "person",
-        "personId": 7402,
-        "fullName": "Ms. Leland Walker"
+        "personId": 6984,
+        "fullName": "Mrs. Mattie Balistreri"
       }
     }
   }
@@ -167,15 +169,15 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 272,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 600,
-  "Name": "Parker, Steuber and Turner",
-  "Description": "Integrated heuristic superstructure",
-  "Currency": "enim",
-  "CurrencyName": "Dicki Group",
-  "ValidFrom": "2017-01-11T15:05:43.5890799+01:00",
-  "ValidTo": "2008-12-31T15:05:43.5890799+01:00",
+  "PriceListId": 834,
+  "ERPPriceListKey": "quis",
+  "QuoteConnectionId": 512,
+  "Name": "Homenick Inc and Sons",
+  "Description": "Optimized bottom-line instruction set",
+  "Currency": "sit",
+  "CurrencyName": "Waters LLC",
+  "ValidFrom": "2008-08-29T18:25:51.9742419+02:00",
+  "ValidTo": "1999-09-15T18:25:51.9742419+02:00",
   "IsActive": true,
   "TableRight": {
     "Mask": "Delete",
@@ -185,15 +187,15 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "architect 24/7 portals"
+        "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldLength": 610
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -1,9 +1,9 @@
 ---
-title: GetTicketPriorityList
+title: POST Agents/List/GetTicketPriorityList
 id: v1ListAgent_GetTicketPriorityList
 ---
 
-# GetTicketPriorityList
+# POST Agents/List/GetTicketPriorityList
 
 ```http
 POST /api/v1/Agents/List/GetTicketPriorityList
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Value": "fugiat",
-    "Tooltip": "distinctio",
+    "Id": 963,
+    "Value": "sit",
+    "Tooltip": "temporibus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "envisioneer end-to-end web services"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   },
   {
-    "Id": 454,
-    "Value": "fugiat",
-    "Tooltip": "distinctio",
+    "Id": 963,
+    "Value": "sit",
+    "Tooltip": "temporibus",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -111,10 +111,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "envisioneer end-to-end web services"
+          "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

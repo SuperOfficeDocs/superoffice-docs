@@ -122,6 +122,12 @@ Response body: object
 | Widget |  | Settings for the chat widget |
 | BotEnabled | bool | Enable chatbot on this topic. Run the trigger scripts on bot events. |
 | BotSettings |  | Settings for chatbot: trigger script ids to run on bot events |
+| OfflineCollectConsent | bool | Collect offline consent to store from user |
+| WarnChatMessageMinutes | int32 | Contains the user notify time in minutes for new chat messages |
+| WarnManagerChatMessageMinutes | int32 | Contains the manager notify time in minutes for new chat messages |
+| UseQueueOfflineForm | bool | Use offline form capability from chat queue |
+| OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
+| OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
@@ -132,45 +138,43 @@ Response body: object
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "voluptas",
     "value": {
       "value1": {
-        "PrimaryKey": 9181,
-        "EntityName": "sale",
-        "saleId": 9181,
-        "contactId": 1531,
-        "name": "Trantow Inc and Sons"
+        "PrimaryKey": 5587,
+        "EntityName": "person",
+        "personId": 5587,
+        "fullName": "Antoinette Harber"
       },
       "value2": {
-        "PrimaryKey": 5588,
+        "PrimaryKey": 752,
         "EntityName": "person",
-        "personId": 5588,
-        "fullName": "Alice Mosciski"
+        "personId": 752,
+        "fullName": "Ruth Sauer"
       }
     }
   },
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "voluptas",
     "value": {
       "value1": {
-        "PrimaryKey": 9181,
-        "EntityName": "sale",
-        "saleId": 9181,
-        "contactId": 1531,
-        "name": "Trantow Inc and Sons"
+        "PrimaryKey": 5587,
+        "EntityName": "person",
+        "personId": 5587,
+        "fullName": "Antoinette Harber"
       },
       "value2": {
-        "PrimaryKey": 5588,
+        "PrimaryKey": 752,
         "EntityName": "person",
-        "personId": 5588,
-        "fullName": "Alice Mosciski"
+        "personId": 752,
+        "fullName": "Ruth Sauer"
       }
     }
   }
@@ -182,62 +186,14 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 855,
-  "Name": "Jones, Stark and Botsford",
-  "Description": "Advanced leading edge success",
-  "WelcomeMessage": "beatae",
+  "ChatTopicId": 904,
+  "Name": "Skiles-Spencer",
+  "Description": "Sharable assymetric frame",
+  "WelcomeMessage": "enim",
   "Language": {
-    "Id": 493,
-    "Value": "et",
-    "Tooltip": "aperiam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 123
-      }
-    }
-  },
-  "LastAccept": "2003-11-15T15:05:41.7800055+01:00",
-  "SecondsPrAccept": 367,
-  "AlertRecipient": "sed",
-  "AlertTemplate": {
-    "ReplyTemplateId": 292,
-    "Name": "Powlowski, Morar and Spencer",
-    "Description": "Mandatory attitude-oriented superstructure",
-    "FolderId": 709
-  },
-  "CollectConsent": true,
-  "BadgeHeader": "sunt",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "aliquid",
-  "WarnNewChatMinutes": 852,
-  "WarnManagerNewChatMinutes": 147,
-  "TicketEnabled": true,
-  "TicketCategory": {
-    "Id": 739,
-    "Value": "ut",
-    "Tooltip": "et",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 748
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 230,
-    "Value": "sit",
-    "Tooltip": "quibusdam",
+    "Id": 245,
+    "Value": "id",
+    "Tooltip": "voluptatibus",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -246,72 +202,126 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 15
       }
     }
   },
-  "OpeningHoursEnabled": true,
+  "LastAccept": "2003-04-02T18:25:50.1706245+02:00",
+  "SecondsPrAccept": 390,
+  "AlertRecipient": "quae",
+  "AlertTemplate": {
+    "ReplyTemplateId": 719,
+    "Name": "Bradtke, Strosin and Stamm",
+    "Description": "Re-engineered real-time open architecture",
+    "FolderId": 773
+  },
+  "CollectConsent": false,
+  "BadgeHeader": "est",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ea",
+  "WarnNewChatMinutes": 14,
+  "WarnManagerNewChatMinutes": 332,
+  "TicketEnabled": false,
+  "TicketCategory": {
+    "Id": 755,
+    "Value": "quaerat",
+    "Tooltip": "et",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 229
+      }
+    }
+  },
+  "TicketPriority": {
+    "Id": 51,
+    "Value": "consequuntur",
+    "Tooltip": "qui",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.String",
+        "FieldLength": 143
+      }
+    }
+  },
+  "OpeningHoursEnabled": false,
   "OpeningHours": {
     "TzLocation": {},
-    "MonEnabled": true,
-    "MonStart": "qui",
-    "MonStop": "sit",
-    "TueEnabled": false,
-    "TueStart": "nobis",
-    "TueStop": "similique",
-    "WedEnabled": true,
-    "WedStart": "ab",
-    "WedStop": "et",
+    "MonEnabled": false,
+    "MonStart": "et",
+    "MonStop": "qui",
+    "TueEnabled": true,
+    "TueStart": "numquam",
+    "TueStop": "quo",
+    "WedEnabled": false,
+    "WedStart": "dolore",
+    "WedStop": "optio",
     "ThuEnabled": false,
-    "ThuStart": "asperiores",
-    "ThuStop": "et",
-    "FriEnabled": true,
-    "FriStart": "doloribus",
-    "FriStop": "aut",
+    "ThuStart": "repellendus",
+    "ThuStop": "fuga",
+    "FriEnabled": false,
+    "FriStart": "tempore",
+    "FriStop": "quisquam",
     "SatEnabled": false,
-    "SatStart": "aperiam",
-    "SatStop": "nemo",
+    "SatStart": "soluta",
+    "SatStop": "maiores",
     "SunEnabled": true,
-    "SunStart": "qui",
-    "SunStop": "placeat",
-    "UseLunchHours": true,
-    "LunchStart": "facilis",
-    "LunchStop": "placeat"
+    "SunStart": "voluptatem",
+    "SunStop": "vel",
+    "UseLunchHours": false,
+    "LunchStart": "consequatur",
+    "LunchStop": "vel"
   },
   "Widget": {
     "AutoFaqEnabled": false,
     "AutoFaqCategory": {},
-    "PreFormEnabled": false,
-    "PreFormMessage": "veniam",
+    "PreFormEnabled": true,
+    "PreFormMessage": "laboriosam",
     "RequiredFields": "Company",
     "PostFormEnabled": true,
-    "PostFormHeader": "quia",
-    "PostFormMessage": "ipsum",
+    "PostFormHeader": "dignissimos",
+    "PostFormMessage": "illum",
     "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "autem",
+    "LanguageIsoCode": "iure",
     "Size": "Large",
     "Theme": "Classic",
-    "Color": "qui",
-    "Font": "est",
-    "LogoEnabled": true,
-    "LogoBlobId": 261,
-    "LogoName": "Braun-Emard",
+    "Color": "error",
+    "Font": "quis",
+    "LogoEnabled": false,
+    "LogoBlobId": 830,
+    "LogoName": "Cormier-Emmerich",
     "ShowAgentPhoto": false,
-    "WelcomeTitle": "qui",
-    "WelcomeMessage": "tempora",
-    "OfflineHeader": "laboriosam",
-    "OfflineMessage": "quidem",
+    "WelcomeTitle": "iure",
+    "WelcomeMessage": "corporis",
+    "OfflineHeader": "molestias",
+    "OfflineMessage": "fugit",
     "OfflineFields": "Company",
     "UseAgentFirstname": false
   },
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": {
-    "BotName": "Quigley Inc and Sons",
-    "BotRegisterScriptId": 635,
-    "BotSessionCreatedScriptId": 882,
-    "BotSessionChangedScriptId": 321,
-    "BotMessageReceivedScriptId": 35
+    "BotName": "Harris-Wilkinson",
+    "BotRegisterScriptId": 324,
+    "BotSessionCreatedScriptId": 114,
+    "BotSessionChangedScriptId": 199,
+    "BotMessageReceivedScriptId": 506
   },
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 318,
+  "WarnManagerChatMessageMinutes": 218,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 748,
+  "OfflineFormQueueLength": 320,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -322,8 +332,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   },
   "_Links": {

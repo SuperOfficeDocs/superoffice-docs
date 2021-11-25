@@ -89,47 +89,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 394,
-  "Name": "Watsica-Casper",
-  "Tooltip": "id",
-  "Rank": 776,
+  "SaleTypeId": 795,
+  "Name": "Smitham-Maggio",
+  "Tooltip": "atque",
+  "Rank": 913,
   "DurationUnit": "Century",
-  "SaleDuration": 604,
-  "SaleTypeCatId": 917,
-  "Deleted": true,
+  "SaleDuration": 579,
+  "SaleTypeCatId": 67,
+  "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 141,
-  "QuoteLinesTemplate": 71,
-  "ConfirmationLinesTemplate": 750,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 863,
+  "QuoteLinesTemplate": 965,
+  "ConfirmationLinesTemplate": 641,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 721,
-  "MinEarningPercent": 526,
-  "GroupQuoteLinesBy": 392,
-  "SortGroupLinesBy": 209,
+  "MaxDiscountPercent": 954,
+  "MinEarningPercent": 622,
+  "GroupQuoteLinesBy": 86,
+  "SortGroupLinesBy": 699,
   "Stages": [
     {
-      "Id": 20,
-      "Name": "Senger-Grant",
-      "ToolTip": "Maxime culpa sint sit recusandae.",
-      "Deleted": true,
-      "Rank": 437,
-      "Type": "qui",
-      "ColorBlock": 451,
-      "IconHint": "rerum",
-      "Selected": false,
-      "LastChanged": "2018-04-12T15:05:43.7911224+02:00",
+      "Id": 16,
+      "Name": "Ullrich-Klein",
+      "ToolTip": "Consectetur maxime odit corporis numquam maiores.",
+      "Deleted": false,
+      "Rank": 161,
+      "Type": "laborum",
+      "ColorBlock": 426,
+      "IconHint": "eum",
+      "Selected": true,
+      "LastChanged": "2014-02-22T18:25:52.1830188+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "beatae",
-      "StyleHint": "qui",
+      "ExtraInfo": "impedit",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Nia Miller",
+      "FullName": "Jarrett Wilderman",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -137,24 +137,24 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 175
         }
       }
     }
   ],
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "deliver end-to-end interfaces"
   },
   "FieldProperties": {
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "morph integrated supply-chains"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

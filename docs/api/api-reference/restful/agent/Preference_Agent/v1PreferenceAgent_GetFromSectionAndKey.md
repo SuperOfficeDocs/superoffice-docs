@@ -1,9 +1,9 @@
 ---
-title: GetFromSectionAndKey
+title: POST Agents/Preference/GetFromSectionAndKey
 id: v1PreferenceAgent_GetFromSectionAndKey
 ---
 
-# GetFromSectionAndKey
+# POST Agents/Preference/GetFromSectionAndKey
 
 ```http
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
@@ -100,8 +100,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "doloremque",
-  "Key": "recusandae"
+  "Section": "omnis",
+  "Key": "qui"
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 412,
-  "Section": "neque",
-  "Key": "atque",
-  "Name": "Bauch, Kunze and Ferry",
+  "PrefDescId": 12,
+  "Section": "quisquam",
+  "Key": "inventore",
+  "Name": "McDermott, Bahringer and Abernathy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered scalable challenge",
+  "Description": "Upgradable even-keeled website",
   "IsBuiltin": false,
-  "TableName": "Schmeler, Legros and Treutel",
-  "UserDefinedListId": 813,
-  "Rank": 988,
-  "SubGroup": "illum",
-  "MinLevel": 939,
-  "MaxValue": 470,
-  "MinValue": 288,
-  "RequiredLicense": "corporis",
+  "TableName": "Fay Group",
+  "UserDefinedListId": 289,
+  "Rank": 494,
+  "SubGroup": "quia",
+  "MinLevel": 955,
+  "MaxValue": 86,
+  "MinValue": 12,
+  "RequiredLicense": "facere",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 187
     }
   }
 }

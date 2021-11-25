@@ -70,7 +70,7 @@ Response body: array
 GET /api/v1/Document/{documentId}/Command
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -79,17 +79,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haag-Botsford",
-    "DisplayName": "Harris Inc and Sons",
-    "DisplayTooltip": "laborum",
-    "IconHint": "quidem",
+    "Name": "Anderson-Hodkiewicz",
+    "DisplayName": "Jenkins Group",
+    "DisplayTooltip": "amet",
+    "IconHint": "soluta",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Haag-Botsford",
-    "DisplayName": "Harris Inc and Sons",
-    "DisplayTooltip": "laborum",
-    "IconHint": "quidem",
+    "Name": "Anderson-Hodkiewicz",
+    "DisplayName": "Jenkins Group",
+    "DisplayTooltip": "amet",
+    "IconHint": "soluta",
     "ReturnType": "CustomGui"
   }
 ]

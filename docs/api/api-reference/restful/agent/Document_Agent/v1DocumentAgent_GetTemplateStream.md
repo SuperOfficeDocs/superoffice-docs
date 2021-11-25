@@ -1,9 +1,9 @@
 ---
-title: GetTemplateStream
+title: POST Agents/Document/GetTemplateStream
 id: v1DocumentAgent_GetTemplateStream
 ---
 
-# GetTemplateStream
+# POST Agents/Document/GetTemplateStream
 
 ```http
 POST /api/v1/Agents/Document/GetTemplateStream
@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Buckridge, Johns and Daugherty",
+  "TemplateName": "Ziemann-Runte",
   "AllowPersonal": true,
-  "UiCulture": "mollitia"
+  "UiCulture": "iste"
 }
 ```
 

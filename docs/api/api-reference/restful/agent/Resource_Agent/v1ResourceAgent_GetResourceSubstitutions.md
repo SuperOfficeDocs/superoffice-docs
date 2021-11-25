@@ -1,9 +1,9 @@
 ---
-title: GetResourceSubstitutions
+title: POST Agents/Resource/GetResourceSubstitutions
 id: v1ResourceAgent_GetResourceSubstitutions
 ---
 
-# GetResourceSubstitutions
+# POST Agents/Resource/GetResourceSubstitutions
 
 ```http
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
@@ -83,10 +83,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Keeling-Dibbert",
-    "Dicki, Gleichner and Bauch"
+    "Zulauf, Moore and Bechtelar",
+    "Hermiston Group"
   ],
-  "Culture": "rerum",
+  "Culture": "qui",
   "ActiveOnly": false
 }
 ```
@@ -97,9 +97,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "King-Runolfsson",
-    "ResourceValue": "consectetur",
-    "Culture": "aut",
+    "ResourceName": "Davis LLC",
+    "ResourceValue": "et",
+    "Culture": "et",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
@@ -109,17 +109,17 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "expedite rich content"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 274
       }
     }
   },
   {
-    "ResourceName": "King-Runolfsson",
-    "ResourceValue": "consectetur",
-    "Culture": "aut",
+    "ResourceName": "Davis LLC",
+    "ResourceValue": "et",
+    "Culture": "et",
     "IsActive": true,
     "TableRight": {
       "Mask": "Delete",
@@ -129,10 +129,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": ""
+          "Reason": "expedite rich content"
         },
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 274
       }
     }
   }

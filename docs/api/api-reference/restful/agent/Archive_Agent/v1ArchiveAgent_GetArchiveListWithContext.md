@@ -1,9 +1,9 @@
 ---
-title: GetArchiveListWithContext
+title: POST Agents/Archive/GetArchiveListWithContext
 id: v1ArchiveAgent_GetArchiveListWithContext
 ---
 
-# GetArchiveListWithContext
+# POST Agents/Archive/GetArchiveListWithContext
 
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
@@ -110,52 +110,52 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuhlman-Hirthe",
-  "ProviderName": "Homenick Inc and Sons",
+  "GuiName": "Raynor-Turcotte",
+  "ProviderName": "Schuster LLC",
   "SortOrder": [
     {
-      "Name": "Quitzon Inc and Sons",
+      "Name": "Quigley LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Quitzon Inc and Sons",
+      "Name": "Quigley LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hilpert, Rempel and Shields",
-      "Operator": "vel",
+      "Name": "Raynor, Kuphal and Boehm",
+      "Operator": "est",
       "Values": [
-        "distinctio",
-        "dolore"
+        "ea",
+        "dolorum"
       ],
       "DisplayValues": [
-        "eos",
-        "soluta"
+        "labore",
+        "est"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 34,
+      "InterParenthesis": 196,
       "InterOperator": "And",
-      "UniqueHash": 952
+      "UniqueHash": 868
     }
   ],
   "Entities": [
-    "dignissimos",
-    "molestiae"
+    "earum",
+    "repudiandae"
   ],
-  "Page": 405,
-  "PageSize": 823,
-  "Context": "ea"
+  "Page": 890,
+  "PageSize": 446,
+  "Context": "temporibus"
 }
 ```
 
@@ -165,17 +165,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Pouros Inc and Sons",
-    "PrimaryKey": 353,
+    "EntityName": "Eichmann-Daniel",
+    "PrimaryKey": 629,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "nobis",
-        "LinkHint": "debitis"
+        "DisplayValue": "labore",
+        "TooltipHint": "ea",
+        "LinkHint": "accusamus"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "aspernatur",
+    "LinkHint": "inventore",
+    "StyleHint": "illo",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -184,10 +184,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "drive strategic content"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 593
       }
     }
   }

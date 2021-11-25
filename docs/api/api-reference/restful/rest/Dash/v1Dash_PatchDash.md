@@ -100,6 +100,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 | Primary key |
+| UniqueId | string | GUID identifying a default dashboard from SuperOffice |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | AssociateId | int32 | Associate who owns this dashboard |
@@ -121,47 +122,45 @@ Response body: object
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
+    "path": "non",
     "value": {
       "value1": {
-        "PrimaryKey": 4148,
-        "EntityName": "sale",
-        "saleId": 4148,
-        "contactId": 363,
-        "name": "Hyatt-Murray"
+        "PrimaryKey": 6710,
+        "EntityName": "person",
+        "personId": 6710,
+        "fullName": "Lawrence Weber III"
       },
       "value2": {
-        "PrimaryKey": 3114,
+        "PrimaryKey": 2608,
         "EntityName": "sale",
-        "saleId": 3114,
-        "contactId": 6986,
-        "name": "Paucek LLC"
+        "saleId": 2608,
+        "contactId": 1915,
+        "name": "Prosacco Group"
       }
     }
   },
   {
     "op": "add",
-    "path": "inventore",
+    "path": "non",
     "value": {
       "value1": {
-        "PrimaryKey": 4148,
-        "EntityName": "sale",
-        "saleId": 4148,
-        "contactId": 363,
-        "name": "Hyatt-Murray"
+        "PrimaryKey": 6710,
+        "EntityName": "person",
+        "personId": 6710,
+        "fullName": "Lawrence Weber III"
       },
       "value2": {
-        "PrimaryKey": 3114,
+        "PrimaryKey": 2608,
         "EntityName": "sale",
-        "saleId": 3114,
-        "contactId": 6986,
-        "name": "Paucek LLC"
+        "saleId": 2608,
+        "contactId": 1915,
+        "name": "Prosacco Group"
       }
     }
   }
@@ -173,16 +172,18 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 53,
-  "Name": "Thompson Inc and Sons",
-  "Description": "Distributed 6th generation throughput",
-  "AssociateId": 131,
-  "Columns": 713,
+  "DashboardId": 570,
+  "UniqueId": "voluptatem",
+  "Name": "Wiegand, Bins and Swaniawski",
+  "Description": "Object-based context-sensitive task-force",
+  "AssociateId": 149,
+  "Columns": 415,
   "Theme": {
-    "DashboardThemeId": 170,
-    "Name": "Herzog-Herzog",
-    "Config": "in",
-    "Rank": 13,
+    "DashboardThemeId": 212,
+    "Name": "Hahn, Satterfield and Zemlak",
+    "Config": "est",
+    "Rank": 998,
+    "Client": "inventore",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -191,27 +192,27 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldLength": 265
       }
     }
   },
-  "VisibleForAll": 464,
+  "VisibleForAll": 310,
   "VisibleForAssociates": [
-    963,
-    144
+    197,
+    52
   ],
   "VisibleForGroups": [
-    627,
-    216
+    603,
+    820
   ],
-  "PinForAll": 885,
+  "PinForAll": 212,
   "PinForAssociates": [
-    705,
-    745
+    838,
+    324
   ],
   "PinForGroups": [
-    802,
-    259
+    153,
+    961
   ],
   "TableRight": {
     "Mask": "Delete",
@@ -223,8 +224,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   },
   "_Links": {

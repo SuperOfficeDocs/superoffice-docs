@@ -1,9 +1,9 @@
 ---
-title: GetEmailNumberOfDays
+title: POST Agents/Configuration/GetEmailNumberOfDays
 id: v1ConfigurationAgent_GetEmailNumberOfDays
 ---
 
-# GetEmailNumberOfDays
+# POST Agents/Configuration/GetEmailNumberOfDays
 
 ```http
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
@@ -66,5 +66,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-437
+151
 ```

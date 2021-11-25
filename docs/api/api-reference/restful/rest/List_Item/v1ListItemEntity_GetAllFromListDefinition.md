@@ -28,7 +28,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
 ```
 
 
@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -82,15 +82,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Walter-Weimann",
-    "Tooltip": "hic",
+    "Id": 68,
+    "Name": "Swaniawski-Schowalter",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 464,
-    "Rank": 892,
+    "UdListDefinitionId": 343,
+    "Rank": 781,
     "TableRight": {
       "Mask": "Delete",
-      "Reason": ""
+      "Reason": "generate wireless niches"
     },
     "FieldProperties": {
       "fieldName": {
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 911
       }
     }
   }

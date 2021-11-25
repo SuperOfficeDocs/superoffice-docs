@@ -1,9 +1,9 @@
 ---
-title: GetInstalledLanguages
+title: POST Agents/List/GetInstalledLanguages
 id: v1ListAgent_GetInstalledLanguages
 ---
 
-# GetInstalledLanguages
+# POST Agents/List/GetInstalledLanguages
 
 ```http
 POST /api/v1/Agents/List/GetInstalledLanguages
@@ -70,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -79,12 +79,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 709,
-    "LCID": 973,
-    "EnglishName": "Ullrich, Runolfsson and Klein",
-    "NativeName": "Schulist-West",
-    "ThreeLetterISOLanguageName": "Tromp Group",
-    "TwoLetterISOLanguageName": "Kihn, Durgan and Watsica",
+    "LanguageInfoId": 551,
+    "LCID": 615,
+    "EnglishName": "Lubowitz, Bailey and Davis",
+    "NativeName": "White, Kohler and Stiedemann",
+    "ThreeLetterISOLanguageName": "Nitzsche-Hodkiewicz",
+    "TwoLetterISOLanguageName": "Anderson, Dickens and Quigley",
     "IsBuiltIn": false,
     "TableRight": {
       "Mask": "Delete",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 995
       }
     }
   }

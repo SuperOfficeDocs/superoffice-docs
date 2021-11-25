@@ -95,47 +95,47 @@ Response body: array
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Herzog-Legros",
-    "ToolTip": "Earum atque saepe.",
-    "Deleted": false,
-    "Rank": 690,
-    "Type": "sunt",
-    "ColorBlock": 831,
-    "IconHint": "voluptatem",
+    "Id": 665,
+    "Name": "Grimes Group",
+    "ToolTip": "Ipsum est omnis repellendus quasi numquam.",
+    "Deleted": true,
+    "Rank": 188,
+    "Type": "sit",
+    "ColorBlock": 599,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2005-10-18T15:05:43.4065101+02:00",
+    "LastChanged": "2020-11-21T18:25:51.7872932+01:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Abbott, Block and Barton",
-        "ToolTip": "Qui quasi ut.",
-        "Deleted": true,
-        "Rank": 579,
-        "Type": "libero",
-        "ColorBlock": 244,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "1996-04-07T15:05:43.4065101+02:00",
+        "Id": 789,
+        "Name": "Greenholt, Hayes and Bergstrom",
+        "ToolTip": "Quasi dolores.",
+        "Deleted": false,
+        "Rank": 212,
+        "Type": "architecto",
+        "ColorBlock": 617,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2013-06-12T18:25:51.7883279+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "ullam",
+        "ExtraInfo": "autem",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Rocio Abshire DDS"
+        "FullName": "Brody Paucek"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Susie Abernathy"
+    "ExtraInfo": "ut",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Clarissa Abshire"
   }
 ]
 ```
@@ -146,36 +146,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Senger-Vandervort",
-    "ToolTip": "Eligendi quasi.",
-    "Deleted": false,
-    "Rank": 220,
-    "Type": "iusto",
-    "ColorBlock": 267,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "1997-01-30T15:05:43.4075101+01:00",
+    "Id": 369,
+    "Name": "Block Group",
+    "ToolTip": "Deleniti et voluptas ut itaque vel fugit.",
+    "Deleted": true,
+    "Rank": 287,
+    "Type": "expedita",
+    "ColorBlock": 214,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2021-11-18T18:25:51.7893298+01:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Iure similique rerum maiores.",
+        "Id": 649,
+        "Name": "Mosciski Inc and Sons",
+        "ToolTip": "Consectetur dolores.",
         "Deleted": true,
-        "Rank": 374,
-        "Type": "ex",
-        "ColorBlock": 548,
-        "IconHint": "temporibus",
+        "Rank": 283,
+        "Type": "non",
+        "ColorBlock": 470,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2013-08-11T15:05:43.4075101+02:00",
+        "LastChanged": "2008-02-21T18:25:51.7893298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "officiis",
+        "ExtraInfo": "saepe",
+        "StyleHint": "reprehenderit",
         "Hidden": true,
-        "FullName": "Edwin McKenzie",
+        "FullName": "Marcus Fisher",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -183,16 +183,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldType": "System.String",
+            "FieldLength": 918
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "iure",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Johnnie Wolf",
+    "FullName": "Milton Sanford IV",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldLength": 987
       }
     }
   }

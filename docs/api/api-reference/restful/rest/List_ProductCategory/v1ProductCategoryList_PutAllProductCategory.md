@@ -73,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "UdListDefinitionId": 421,
-    "Rank": 254
+    "Id": 583,
+    "Name": "Upton, Farrell and Beahan",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 523,
+    "Rank": 930
   },
   {
-    "Id": 415,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "UdListDefinitionId": 421,
-    "Rank": 254
+    "Id": 583,
+    "Name": "Upton, Farrell and Beahan",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 523,
+    "Rank": 930
   }
 ]
 ```
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "beatae",
-    "Deleted": true,
-    "UdListDefinitionId": 475,
-    "Rank": 801,
+    "Id": 252,
+    "Name": "Gislason, Donnelly and Bode",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 587,
+    "Rank": 44,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

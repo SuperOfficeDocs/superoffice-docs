@@ -1,9 +1,9 @@
 ---
-title: SaveConnectionConfigFields
+title: POST Agents/Quote/SaveConnectionConfigFields
 id: v1QuoteAgent_SaveConnectionConfigFields
 ---
 
-# SaveConnectionConfigFields
+# POST Agents/Quote/SaveConnectionConfigFields
 
 ```http
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields
@@ -69,14 +69,14 @@ Response body: object
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 808,
+  "QuoteConnectionId": 767,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "odit",
-    "ConnectionConfigFields2": "alias"
+    "ConnectionConfigFields1": "qui",
+    "ConnectionConfigFields2": "autem"
   }
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "iusto",
-  "2": "eum"
+  "1": "cum",
+  "2": "excepturi"
 }
 ```

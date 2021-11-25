@@ -1,9 +1,9 @@
 ---
-title: GetDocumentTemplateList
+title: POST Agents/List/GetDocumentTemplateList
 id: v1ListAgent_GetDocumentTemplateList
 ---
 
-# GetDocumentTemplateList
+# POST Agents/List/GetDocumentTemplateList
 
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateList
@@ -89,16 +89,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 682,
-    "Name": "Turcotte, Kunze and Strosin",
-    "Tooltip": "error",
-    "SaveInDb": 813,
-    "Filename": "est",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 641,
+    "Name": "Schmidt Inc and Sons",
+    "Tooltip": "dolorem",
+    "SaveInDb": 827,
+    "Filename": "officia",
+    "DefaultOref": "possimus",
     "RecordType": "Appointment",
-    "Deleted": 506,
+    "Deleted": 12,
     "Direction": "Incoming",
-    "AutoeventId": 951,
+    "AutoeventId": 667,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": {
       "Mask": "Delete",
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

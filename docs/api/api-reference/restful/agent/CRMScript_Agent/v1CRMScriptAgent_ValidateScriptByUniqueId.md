@@ -1,9 +1,9 @@
 ---
-title: ValidateScriptByUniqueId
+title: POST Agents/CRMScript/ValidateScriptByUniqueId
 id: v1CRMScriptAgent_ValidateScriptByUniqueId
 ---
 
-# ValidateScriptByUniqueId
+# POST Agents/CRMScript/ValidateScriptByUniqueId
 
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "eum"
+  "CRMScriptUniqueId": "deleniti"
 }
 ```
 
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "cumque",
+  "ErrorMessage": "id",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -105,10 +105,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "seize cutting-edge deliverables"
       },
       "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldLength": 475
     }
   }
 }

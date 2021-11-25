@@ -1,9 +1,9 @@
 ---
-title: GetAddress
+title: POST Agents/Contact/GetAddress
 id: v1ContactAgent_GetAddress
 ---
 
-# GetAddress
+# POST Agents/Contact/GetAddress
 
 ```http
 POST /api/v1/Agents/Contact/GetAddress
@@ -82,11 +82,11 @@ Response body: object
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 515
+  "ContactId": 188
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13805.27,
-  "Wgs84Longitude": 2190.6659999999997,
+  "Wgs84Latitude": 17970.356,
+  "Wgs84Longitude": 17763.512,
   "LocalizedAddress": [
     [
       {
-        "Name": "Jast Inc and Sons",
-        "Value": "nulla",
-        "Tooltip": "quod",
-        "Label": "corrupti",
-        "ValueLength": 808,
-        "AddressType": "nemo",
+        "Name": "Abshire Group",
+        "Value": "perferendis",
+        "Tooltip": "aut",
+        "Label": "doloribus",
+        "ValueLength": 340,
+        "AddressType": "iste",
         "TableRight": {
           "Mask": "Delete",
           "Reason": ""
@@ -117,19 +117,19 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 405
           }
         }
       }
     ],
     [
       {
-        "Name": "Brown Group",
+        "Name": "Huels Inc and Sons",
         "Value": "et",
-        "Tooltip": "repellendus",
-        "Label": "qui",
-        "ValueLength": 929,
-        "AddressType": "molestias",
+        "Tooltip": "beatae",
+        "Label": "modi",
+        "ValueLength": 586,
+        "AddressType": "quia",
         "TableRight": {
           "Mask": "Delete",
           "Reason": ""
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 460
           }
         }
       }
@@ -149,27 +149,27 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": {
     "AtypeIdx": "ContactPostalAddress",
-    "Address1": "rerum",
-    "Address2": "sed",
-    "Address3": "et",
-    "City": "ut",
-    "County": "velit",
-    "State": "odit",
-    "Zipcode": "et",
-    "Formatted": "delectus"
+    "Address1": "consequatur",
+    "Address2": "magni",
+    "Address3": "blanditiis",
+    "City": "aliquam",
+    "County": "sed",
+    "State": "nihil",
+    "Zipcode": "tempore",
+    "Formatted": "laboriosam"
   },
   "Postal": {
     "AtypeIdx": "ContactPostalAddress",
-    "Address1": "at",
+    "Address1": "non",
     "Address2": "qui",
-    "Address3": "eveniet",
-    "City": "vel",
-    "County": "reiciendis",
-    "State": "deleniti",
-    "Zipcode": "sunt",
-    "Formatted": "excepturi"
+    "Address3": "officia",
+    "City": "sint",
+    "County": "repellendus",
+    "State": "cum",
+    "Zipcode": "dolorem",
+    "Formatted": "iusto"
   },
-  "Formatted": "et",
+  "Formatted": "repudiandae",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

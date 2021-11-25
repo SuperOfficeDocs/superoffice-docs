@@ -1,9 +1,9 @@
 ---
-title: DeleteDeviceByIdentifier
+title: POST Agents/ForeignSystem/DeleteDeviceByIdentifier
 id: v1ForeignSystemAgent_DeleteDeviceByIdentifier
 ---
 
-# DeleteDeviceByIdentifier
+# POST Agents/ForeignSystem/DeleteDeviceByIdentifier
 
 ```http
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier

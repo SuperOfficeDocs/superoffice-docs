@@ -1,9 +1,9 @@
 ---
-title: RecalculateQuoteAlternative
+title: POST Agents/Quote/RecalculateQuoteAlternative
 id: v1QuoteAgent_RecalculateQuoteAlternative
 ---
 
-# RecalculateQuoteAlternative
+# POST Agents/Quote/RecalculateQuoteAlternative
 
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
@@ -80,11 +80,11 @@ Response body: object
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 158
+  "QuoteAlternative": 834
 }
 ```
 
@@ -93,31 +93,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": false,
+  "QuoteLinesHasChanged": true,
   "ChangedQuoteAlternative": {
-    "QuoteAlternativeId": 967,
-    "ERPQuoteAlternativeKey": "velit",
-    "QuoteVersionId": 482,
-    "Name": "Crooks Group",
-    "Description": "Streamlined systemic capacity",
+    "QuoteAlternativeId": 950,
+    "ERPQuoteAlternativeKey": "autem",
+    "QuoteVersionId": 228,
+    "Name": "Towne-Ryan",
+    "Description": "Synergized radical strategy",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 1131.374,
-    "ERPDiscountAmount": 12100.374,
-    "DiscountPercent": 10116.552,
-    "DiscountAmount": 11260.462,
+    "ERPDiscountPercent": 11263.596,
+    "ERPDiscountAmount": 7436.982,
+    "DiscountPercent": 28184.061999999998,
+    "DiscountAmount": 5490.768,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "reprehenderit",
-    "VAT": 11758.768,
-    "EarningPercent": 24429.53,
-    "EarningAmount": 9486.618,
-    "SubTotal": 3086.99,
-    "TotalPrice": 6794.512,
-    "ExtraField1": "esse",
-    "ExtraField2": "aut",
-    "ExtraField3": "nam",
-    "ExtraField4": "eos",
-    "ExtraField5": "et",
+    "VATInfo": "magni",
+    "VAT": 31170.764,
+    "EarningPercent": 14936.644,
+    "EarningAmount": 27331.613999999998,
+    "SubTotal": 26996.275999999998,
+    "TotalPrice": 28403.442,
+    "ExtraField1": "voluptas",
+    "ExtraField2": "iure",
+    "ExtraField3": "corporis",
+    "ExtraField4": "et",
+    "ExtraField5": "sint",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 917
       }
     }
   },
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 949
       }
     }
   },
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 123
     }
   }
 }

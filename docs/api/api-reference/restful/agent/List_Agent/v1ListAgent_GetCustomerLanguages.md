@@ -1,9 +1,9 @@
 ---
-title: GetCustomerLanguages
+title: POST Agents/List/GetCustomerLanguages
 id: v1ListAgent_GetCustomerLanguages
 ---
 
-# GetCustomerLanguages
+# POST Agents/List/GetCustomerLanguages
 
 ```http
 POST /api/v1/Agents/List/GetCustomerLanguages
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCustomerLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Value": "voluptatem",
-    "Tooltip": "et",
+    "Id": 324,
+    "Value": "rerum",
+    "Tooltip": "ipsum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   },
   {
-    "Id": 120,
-    "Value": "voluptatem",
-    "Tooltip": "et",
+    "Id": 324,
+    "Value": "rerum",
+    "Tooltip": "ipsum",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }

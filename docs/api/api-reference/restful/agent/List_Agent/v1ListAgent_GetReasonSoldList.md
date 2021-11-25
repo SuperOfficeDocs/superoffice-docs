@@ -1,9 +1,9 @@
 ---
-title: GetReasonSoldList
+title: POST Agents/List/GetReasonSoldList
 id: v1ListAgent_GetReasonSoldList
 ---
 
-# GetReasonSoldList
+# POST Agents/List/GetReasonSoldList
 
 ```http
 POST /api/v1/Agents/List/GetReasonSoldList
@@ -72,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetReasonSoldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Value": "et",
-    "Tooltip": "sunt",
+    "Id": 412,
+    "Value": "odio",
+    "Tooltip": "ex",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   },
   {
-    "Id": 4,
-    "Value": "et",
-    "Tooltip": "sunt",
+    "Id": 412,
+    "Value": "odio",
+    "Tooltip": "ex",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

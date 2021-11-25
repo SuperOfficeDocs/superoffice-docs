@@ -1,9 +1,9 @@
 ---
-title: GetActivityInformationListByDatesAndAssociate
+title: POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 id: v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate
 ---
 
-# GetActivityInformationListByDatesAndAssociate
+# POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 
 ```http
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
@@ -76,13 +76,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-03-24T14:58:02.8975682+01:00",
-  "EndDate": "1996-01-13T14:58:02.8975682+01:00",
-  "AssociateId": 808
+  "StartDate": "2021-03-02T18:28:47.7518443+01:00",
+  "EndDate": "1998-02-14T18:28:47.7518443+01:00",
+  "AssociateId": 166
 }
 ```
 
@@ -92,11 +92,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2011-04-16T14:58:02.8975682+02:00",
+    "Date": "2016-11-02T18:28:47.7518443+01:00",
     "ActivityInformation": {
-      "NumBusyActivities": 820,
-      "NumFreeActivities": 247,
-      "PercentageBusy": 604,
+      "NumBusyActivities": 863,
+      "NumFreeActivities": 424,
+      "PercentageBusy": 841,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 142
         }
       }
     },
@@ -120,16 +120,16 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 649
       }
     }
   },
   {
-    "Date": "2011-04-16T14:58:02.8975682+02:00",
+    "Date": "2016-11-02T18:28:47.7518443+01:00",
     "ActivityInformation": {
-      "NumBusyActivities": 820,
-      "NumFreeActivities": 247,
-      "PercentageBusy": 604,
+      "NumBusyActivities": 863,
+      "NumFreeActivities": 424,
+      "PercentageBusy": 841,
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 142
         }
       }
     },
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 649
       }
     }
   }

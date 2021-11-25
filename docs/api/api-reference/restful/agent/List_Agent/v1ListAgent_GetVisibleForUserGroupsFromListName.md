@@ -1,9 +1,9 @@
 ---
-title: GetVisibleForUserGroupsFromListName
+title: POST Agents/List/GetVisibleForUserGroupsFromListName
 id: v1ListAgent_GetVisibleForUserGroupsFromListName
 ---
 
-# GetVisibleForUserGroupsFromListName
+# POST Agents/List/GetVisibleForUserGroupsFromListName
 
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langosh LLC",
-  "ListItemId": 89
+  "UdListDefinitionName": "Smith Inc and Sons",
+  "ListItemId": 324
 }
 ```
 
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Marvin, Olson and Becker",
-    "ToolTip": "Tenetur laboriosam id sunt saepe.",
+    "Id": 714,
+    "Name": "Heaney Inc and Sons",
+    "ToolTip": "Dolore aut fuga.",
     "Deleted": false,
-    "Rank": 169,
-    "Type": "et",
-    "ColorBlock": 206,
-    "IconHint": "odit",
+    "Rank": 166,
+    "Type": "ut",
+    "ColorBlock": 149,
+    "IconHint": "reprehenderit",
     "Selected": true,
-    "LastChanged": "1998-04-18T14:58:04.4134654+02:00",
+    "LastChanged": "2009-06-05T18:28:49.3081177+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Olson Group",
-        "ToolTip": "Sed molestiae maxime veniam doloribus nemo nesciunt.",
+        "Id": 265,
+        "Name": "Connelly-Sipes",
+        "ToolTip": "Consectetur voluptate modi saepe.",
         "Deleted": true,
-        "Rank": 859,
-        "Type": "quaerat",
-        "ColorBlock": 568,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2009-07-10T14:58:04.4134654+02:00",
+        "Rank": 261,
+        "Type": "et",
+        "ColorBlock": 570,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "2015-10-25T18:28:49.3081177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Gail Ryan",
+        "ExtraInfo": "rerum",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Dr. Destany Yost",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -141,15 +141,15 @@ Content-Type: application/json; charset=utf-8
               "Reason": ""
             },
             "FieldType": "System.String",
-            "FieldLength": 548
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "aut",
+    "ExtraInfo": "ad",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Roy Buckridge",
+    "FullName": "Kim Grady",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldLength": 853
       }
     }
   }

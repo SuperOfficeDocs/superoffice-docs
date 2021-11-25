@@ -122,47 +122,47 @@ Response body: object
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "fuga",
     "value": {
       "value1": {
-        "PrimaryKey": 7501,
+        "PrimaryKey": 9204,
         "EntityName": "sale",
-        "saleId": 7501,
-        "contactId": 7810,
-        "name": "Parker-Upton"
+        "saleId": 9204,
+        "contactId": 4745,
+        "name": "Larkin, Becker and Turner"
       },
       "value2": {
-        "PrimaryKey": 6472,
+        "PrimaryKey": 510,
         "EntityName": "sale",
-        "saleId": 6472,
-        "contactId": 7993,
-        "name": "Ortiz, Dach and Carter"
+        "saleId": 510,
+        "contactId": 6219,
+        "name": "Orn Inc and Sons"
       }
     }
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "fuga",
     "value": {
       "value1": {
-        "PrimaryKey": 7501,
+        "PrimaryKey": 9204,
         "EntityName": "sale",
-        "saleId": 7501,
-        "contactId": 7810,
-        "name": "Parker-Upton"
+        "saleId": 9204,
+        "contactId": 4745,
+        "name": "Larkin, Becker and Turner"
       },
       "value2": {
-        "PrimaryKey": 6472,
+        "PrimaryKey": 510,
         "EntityName": "sale",
-        "saleId": 6472,
-        "contactId": 7993,
-        "name": "Ortiz, Dach and Carter"
+        "saleId": 510,
+        "contactId": 6219,
+        "name": "Orn Inc and Sons"
       }
     }
   }
@@ -174,16 +174,16 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 193,
-  "Name": "Raynor Inc and Sons",
+  "ScreenChooserId": 984,
+  "Name": "Von-Donnelly",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "molestiae",
-  "Source": "iure",
-  "Registered": "2009-06-27T15:05:42.9616322+02:00",
-  "RegisteredAssociateId": 252,
-  "Updated": "2015-02-27T15:05:42.9616322+01:00",
-  "UpdatedAssociateId": 564,
+  "Enabled": false,
+  "UniqueIdentifier": "velit",
+  "Source": "atque",
+  "Registered": "1996-09-03T18:25:51.3211056+02:00",
+  "RegisteredAssociateId": 468,
+  "Updated": "2019-12-31T18:25:51.3211056+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: GetConnectionsForAssociate
+title: POST Agents/Quote/GetConnectionsForAssociate
 id: v1QuoteAgent_GetConnectionsForAssociate
 ---
 
-# GetConnectionsForAssociate
+# POST Agents/Quote/GetConnectionsForAssociate
 
 ```http
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
@@ -87,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 408
+  "AssociateId": 487
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 866,
-    "ERPName": "Kozey, Cole and Satterfield",
-    "DisplayName": "Klein-Bode",
-    "DisplayDescription": "Synergistic intermediate solution",
-    "Rank": 213,
-    "ConnectorName": "Cremin Inc and Sons",
-    "ErpConnectionId": 999,
-    "ExtraData": "impedit",
+    "QuoteConnectionId": 354,
+    "ERPName": "Rippin LLC",
+    "DisplayName": "McKenzie-Howe",
+    "DisplayDescription": "Innovative dedicated initiative",
+    "Rank": 857,
+    "ConnectorName": "Schroeder-Crooks",
+    "ErpConnectionId": 181,
+    "ExtraData": "velit",
     "IsAvailable": false,
     "InitializeResponse": {
       "IsOk": false,
-      "UserExplanation": "suscipit",
+      "UserExplanation": "sunt",
       "TechExplanation": "consequatur",
-      "ErrorCode": "qui",
+      "ErrorCode": "numquam",
       "Changes": {},
       "TableRight": {},
       "FieldProperties": {
@@ -124,21 +124,21 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 707
         }
       }
     },
     "PriceLists": [
       {
-        "PriceListId": 112,
-        "ERPPriceListKey": "distinctio",
-        "QuoteConnectionId": 512,
-        "Name": "Altenwerth Inc and Sons",
-        "Description": "Cloned background instruction set",
-        "Currency": "a",
-        "CurrencyName": "Runolfsdottir, McLaughlin and Gulgowski",
-        "ValidFrom": "2003-12-21T14:58:04.9674677+01:00",
-        "ValidTo": "2009-10-12T14:58:04.9674677+02:00",
+        "PriceListId": 595,
+        "ERPPriceListKey": "veniam",
+        "QuoteConnectionId": 978,
+        "Name": "Eichmann, Larson and Will",
+        "Description": "Focused hybrid migration",
+        "Currency": "est",
+        "CurrencyName": "Ryan-Schmeler",
+        "ValidFrom": "2000-05-23T18:28:49.9421374+02:00",
+        "ValidTo": "1994-11-14T18:28:49.9421374+01:00",
         "IsActive": true,
         "TableRight": {},
         "FieldProperties": {
@@ -147,21 +147,21 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 94
+            "FieldType": "System.Int32",
+            "FieldLength": 566
           }
         }
       }
     ],
     "AllAccess": true,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      532,
-      142
+      476,
+      399
     ],
     "AssociateAccessIds": [
-      668,
-      566
+      425,
+      236
     ],
     "TableRight": {
       "Mask": "Delete",
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldLength": 662
       }
     }
   }

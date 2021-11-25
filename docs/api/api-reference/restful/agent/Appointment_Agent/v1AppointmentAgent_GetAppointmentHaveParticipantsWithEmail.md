@@ -1,9 +1,9 @@
 ---
-title: GetAppointmentHaveParticipantsWithEmail
+title: POST Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 id: v1AppointmentAgent_GetAppointmentHaveParticipantsWithEmail
 ---
 
-# GetAppointmentHaveParticipantsWithEmail
+# POST Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 970
+  "AppointmentId": 376
 }
 ```
 

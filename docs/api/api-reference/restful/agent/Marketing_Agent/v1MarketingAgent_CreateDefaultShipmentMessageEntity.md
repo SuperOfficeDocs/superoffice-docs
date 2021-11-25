@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultShipmentMessageEntity
+title: POST Agents/Marketing/CreateDefaultShipmentMessageEntity
 id: v1MarketingAgent_CreateDefaultShipmentMessageEntity
 ---
 
-# CreateDefaultShipmentMessageEntity
+# POST Agents/Marketing/CreateDefaultShipmentMessageEntity
 
 ```http
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
@@ -87,27 +87,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 279,
-  "PlainMessage": "exercitationem",
-  "HtmlMessage": "recusandae",
-  "SmsMessage": "rem",
-  "Description": "Synergized non-volatile monitoring",
-  "Subject": "omnis",
-  "FolderId": 645,
-  "HeaderField": "corrupti",
-  "Design": "odio",
+  "ShipmentMessageId": 230,
+  "PlainMessage": "dicta",
+  "HtmlMessage": "repudiandae",
+  "SmsMessage": "voluptatem",
+  "Description": "Re-contextualized background core",
+  "Subject": "sapiente",
+  "FolderId": 359,
+  "HeaderField": "magni",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Profound scalable methodology",
-  "AccessKey": "tempore",
-  "DocumentMessage": 700,
-  "Registered": "1997-03-02T14:58:04.4944653+01:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "2011-08-04T14:58:04.4944653+02:00",
-  "UpdatedAssociateId": 821,
-  "UpdatedCount": 183,
+  "InlineImages": false,
+  "LongDescription": "Profound encompassing application",
+  "AccessKey": "laudantium",
+  "DocumentMessage": 376,
+  "Registered": "2011-03-21T18:28:49.4660876+01:00",
+  "RegisteredAssociateId": 420,
+  "Updated": "2014-01-11T18:28:49.4660876+01:00",
+  "UpdatedAssociateId": 156,
+  "UpdatedCount": 140,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldLength": 297
     }
   }
 }

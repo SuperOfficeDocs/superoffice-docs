@@ -1,9 +1,9 @@
 ---
-title: StartBatchJob
+title: POST Agents/Batch/StartBatchJob
 id: v1BatchAgent_StartBatchJob
 ---
 
-# StartBatchJob
+# POST Agents/Batch/StartBatchJob
 
 ```http
 POST /api/v1/Agents/Batch/StartBatchJob
@@ -68,35 +68,35 @@ Response body: int32
 POST /api/v1/Agents/Batch/StartBatchJob
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskInfo": {
-    "Id": 346,
-    "Name": "Vandervort-Kassulke",
-    "AssociateId": 295,
-    "DetailsTable": 40,
-    "DetailsRecord": 475,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 624,
+    "Name": "Ankunding LLC",
+    "AssociateId": 368,
+    "DetailsTable": 454,
+    "DetailsRecord": 2,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "delectus"
     },
-    "LastStarted": "2012-05-24T14:58:03.270242+02:00",
-    "Created": "1994-05-25T14:58:03.270242+02:00",
-    "StartCount": 203,
-    "DatabaseSerialNumber": "628365",
-    "Context": "et",
-    "Result": "aut",
+    "LastStarted": "2005-06-06T18:28:48.1425438+02:00",
+    "Created": "2019-08-26T18:28:48.1425438+02:00",
+    "StartCount": 445,
+    "DatabaseSerialNumber": "1116185",
+    "Context": "quo",
+    "Result": "cum",
     "State": "All",
-    "Description": "Reduced coherent parallelism",
-    "Response": "et",
-    "Request": "eaque",
-    "ProgressDescription": "Centralized coherent toolset",
-    "ProgressPercent": 461,
-    "FileName": "Reilly Group"
+    "Description": "Balanced upward-trending conglomeration",
+    "Response": "illum",
+    "Request": "ut",
+    "ProgressDescription": "Reduced attitude-oriented open architecture",
+    "ProgressPercent": 722,
+    "FileName": "Lemke, Miller and Upton"
   }
 }
 ```
@@ -105,5 +105,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-566
+440
 ```

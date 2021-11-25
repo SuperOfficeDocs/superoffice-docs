@@ -1,9 +1,9 @@
 ---
-title: GetFieldsForNewErpActor
+title: POST Agents/ErpSync/GetFieldsForNewErpActor
 id: v1ErpSyncAgent_GetFieldsForNewErpActor
 ---
 
-# GetFieldsForNewErpActor
+# POST Agents/ErpSync/GetFieldsForNewErpActor
 
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
@@ -85,11 +85,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 670,
+  "ErpConnectionId": 335,
   "ErpActorType": "Customer"
 }
 ```
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quia",
-    "Rank": 246,
-    "DisplayName": "Harvey LLC",
-    "DisplayDescription": "Automated secondary architecture",
+    "FieldKey": "esse",
+    "Rank": 199,
+    "DisplayName": "Kautzer-Robel",
+    "DisplayDescription": "Enterprise-wide demand-driven analyzer",
     "FieldType": "Checkbox",
-    "ListName": "King-Nienow",
-    "DefaultValue": "esse",
-    "MaxLength": 296,
+    "ListName": "Bechtelar LLC",
+    "DefaultValue": "et",
+    "MaxLength": 234,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": {
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

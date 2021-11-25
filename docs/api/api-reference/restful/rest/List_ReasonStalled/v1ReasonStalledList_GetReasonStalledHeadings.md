@@ -59,7 +59,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -68,12 +68,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Bogan Group",
-    "Tooltip": "adipisci",
+    "HeadingId": 607,
+    "Name": "Gerlach Inc and Sons",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 164,
-    "UdListDefinitionId": 951,
+    "Rank": 126,
+    "UdListDefinitionId": 56,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 318
       }
     }
   }

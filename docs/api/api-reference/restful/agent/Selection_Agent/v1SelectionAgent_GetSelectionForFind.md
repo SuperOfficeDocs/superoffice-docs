@@ -1,9 +1,9 @@
 ---
-title: GetSelectionForFind
+title: POST Agents/Selection/GetSelectionForFind
 id: v1SelectionAgent_GetSelectionForFind
 ---
 
-# GetSelectionForFind
+# POST Agents/Selection/GetSelectionForFind
 
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind
@@ -84,12 +84,12 @@ Response body: object
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hagenes, Sauer and Bartell",
-  "TypicalSearchId": 895
+  "EntityName": "Williamson, D'Amore and Gulgowski",
+  "TypicalSearchId": 484
 }
 ```
 
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ernser LLC",
-  "SelectionId": 867,
-  "CanSaveAsSelection": false,
-  "MainHeading": "qui",
-  "FilterScreenHeading": "ut",
-  "SelectionEntityHeading": "rerum",
+  "ProviderName": "Moen, Lindgren and Williamson",
+  "SelectionId": 145,
+  "CanSaveAsSelection": true,
+  "MainHeading": "sed",
+  "FilterScreenHeading": "molestias",
+  "SelectionEntityHeading": "ratione",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

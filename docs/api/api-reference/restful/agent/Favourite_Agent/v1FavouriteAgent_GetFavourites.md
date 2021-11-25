@@ -1,9 +1,9 @@
 ---
-title: GetFavourites
+title: POST Agents/Favourite/GetFavourites
 id: v1FavouriteAgent_GetFavourites
 ---
 
-# GetFavourites
+# POST Agents/Favourite/GetFavourites
 
 ```http
 POST /api/v1/Agents/Favourite/GetFavourites
@@ -78,12 +78,12 @@ Response body: array
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Keefe-Kunde",
-  "AssociateId": 97
+  "TableName": "Morissette-Hilll",
+  "AssociateId": 212
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Runolfsdottir-Treutel",
-    "RecordId": 636,
-    "AssociateId": 178,
-    "ExtraInfo": "quas",
-    "Rank": 647,
+    "TableName": "Balistreri Group",
+    "RecordId": 205,
+    "AssociateId": 415,
+    "ExtraInfo": "quis",
+    "Rank": 890,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "cultivate user-centric portals"
+          "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldLength": 223
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: GetMyAudienceLayout
+title: POST Agents/Audience/GetMyAudienceLayout
 id: v1AudienceAgent_GetMyAudienceLayout
 ---
 
-# GetMyAudienceLayout
+# POST Agents/Audience/GetMyAudienceLayout
 
 ```http
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
@@ -75,7 +75,7 @@ Response body: object
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -83,49 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 743,
-  "InstanceLayout": "iste",
-  "InstanceName": "Gerlach Inc and Sons",
-  "CreatedDate": "2003-06-01T14:58:03.2652418+02:00",
-  "UpdatedDate": "2014-12-15T14:58:03.2652418+01:00",
+  "AudienceLayoutId": 182,
+  "InstanceLayout": "ut",
+  "InstanceName": "Carter-Torp",
+  "CreatedDate": "2002-03-05T18:28:48.1365426+01:00",
+  "UpdatedDate": "1995-01-05T18:28:48.1365426+01:00",
   "CreatedBy": {
-    "AssociateId": 207,
-    "Name": "Ferry Group",
-    "PersonId": 872,
-    "Rank": 483,
-    "Tooltip": "ullam",
+    "AssociateId": 875,
+    "Name": "Towne-Ferry",
+    "PersonId": 275,
+    "Rank": 657,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 330,
-    "FullName": "Leone Dicki",
-    "FormalName": "Johnson-Carter",
+    "GroupIdx": 229,
+    "FullName": "Bruce Skiles Jr.",
+    "FormalName": "Corkery, Zemlak and Quigley",
     "Deleted": true,
-    "EjUserId": 29,
-    "UserName": "Heller LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "brand impactful convergence"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 229
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 441,
-    "Name": "Hills Inc and Sons",
-    "PersonId": 965,
-    "Rank": 591,
-    "Tooltip": "repellat",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 647,
-    "FullName": "Donna Schowalter",
-    "FormalName": "Trantow-Emmerich",
-    "Deleted": true,
-    "EjUserId": 24,
-    "UserName": "Jaskolski Group",
+    "EjUserId": 628,
+    "UserName": "Schimmel, Rogahn and Johnston",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -134,7 +109,32 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 970
+      }
+    }
+  },
+  "UpdatedBy": {
+    "AssociateId": 848,
+    "Name": "Schoen, Littel and Mitchell",
+    "PersonId": 893,
+    "Rank": 607,
+    "Tooltip": "illo",
+    "Type": "AnonymousAssociate",
+    "GroupIdx": 563,
+    "FullName": "Ettie Rolfson",
+    "FormalName": "Zieme, Bailey and Schinner",
+    "Deleted": false,
+    "EjUserId": 164,
+    "UserName": "Shanahan-Kessler",
+    "TableRight": {},
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": {
+          "Mask": "FULL",
+          "Reason": ""
+        },
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   },
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

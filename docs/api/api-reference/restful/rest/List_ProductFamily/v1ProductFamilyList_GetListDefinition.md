@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Kuvalis, Rutherford and Dicki",
-  "Tooltip": "architecto",
+  "Id": 73,
+  "Name": "Stiedemann, Rice and Adams",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 908,
+  "Rank": 408,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cum",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldType": "System.Int32",
+      "FieldLength": 342
     }
   },
   "_Links": {

@@ -1,9 +1,9 @@
 ---
-title: GetCredentialTypesForUserType
+title: POST Agents/User/GetCredentialTypesForUserType
 id: v1UserAgent_GetCredentialTypesForUserType
 ---
 
-# GetCredentialTypesForUserType
+# POST Agents/User/GetCredentialTypesForUserType
 
 ```http
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
@@ -80,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,12 +94,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "aut",
-    "Type": "dolores",
-    "Description": "Assimilated didactic orchestration",
+    "DisplayType": "exercitationem",
+    "Type": "totam",
+    "Description": "Progressive optimizing task-force",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

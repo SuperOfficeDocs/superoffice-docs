@@ -69,7 +69,7 @@ Response body: object
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -77,12 +77,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 390,
-  "Name": "Rogahn-Kuphal",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 311,
-  "Rank": 152,
+  "Id": 674,
+  "Name": "Crooks Group",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "UdListDefinitionId": 204,
+  "Rank": 222,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -91,10 +91,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "transition next-generation partnerships"
+        "Reason": ""
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

@@ -73,7 +73,7 @@ Response body: array
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -82,16 +82,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Lubowitz LLC",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 214,
+    "Id": 569,
+    "Name": "Wisozk-Pfeffer",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "Rank": 999,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "facere",
-    "InUseByUserDefinedFields": false,
+    "ListType": "magnam",
+    "InUseByUserDefinedFields": true,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

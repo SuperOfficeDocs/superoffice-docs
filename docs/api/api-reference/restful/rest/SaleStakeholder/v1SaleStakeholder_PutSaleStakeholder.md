@@ -122,25 +122,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Mraz, Osinski and Connelly",
-  "Comment": "quasi",
-  "StakeholderRoleId": 450,
-  "CountryId": 448,
-  "PersonId": 879,
-  "EmailDescription": "caden_bode@abernathy.biz",
-  "EmailId": 188,
-  "EmailAddress": "eryn.rosenbaum@hettingerwuckert.biz",
-  "PhoneId": 50,
-  "ContactName": "Greenfelder-Mertz",
-  "ContactId": 99,
-  "SaleId": 311,
-  "Mrmrs": "vitae",
-  "Firstname": "Jeramie",
-  "MiddleName": "Streich, Gottlieb and Hilll",
-  "Lastname": "Haley",
-  "SaleStakeholderId": 480,
-  "Rank": 99,
-  "Phone": "304.085.1676"
+  "StakeholderRoleName": "Langosh Inc and Sons",
+  "Comment": "ut",
+  "StakeholderRoleId": 371,
+  "CountryId": 28,
+  "PersonId": 67,
+  "EmailDescription": "kyra@becker.biz",
+  "EmailId": 391,
+  "EmailAddress": "georgianna@hermandouglas.us",
+  "PhoneId": 713,
+  "ContactName": "Cartwright-Bergstrom",
+  "ContactId": 428,
+  "SaleId": 895,
+  "Mrmrs": "amet",
+  "Firstname": "Brielle",
+  "MiddleName": "Champlin Group",
+  "Lastname": "Paucek",
+  "SaleStakeholderId": 22,
+  "Rank": 207,
+  "Phone": "1-322-727-5826 x3021"
 }
 ```
 
@@ -149,25 +149,25 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hoeger LLC",
-  "Comment": "qui",
-  "StakeholderRoleId": 903,
-  "CountryId": 744,
-  "PersonId": 311,
-  "EmailDescription": "lisa_ritchie@hudson.ca",
-  "EmailId": 806,
-  "EmailAddress": "florine.satterfield@champlin.us",
-  "PhoneId": 244,
-  "ContactName": "Jacobson, Hilpert and Johns",
-  "ContactId": 575,
-  "SaleId": 550,
-  "Mrmrs": "tempore",
-  "Firstname": "Adell",
-  "MiddleName": "Steuber LLC",
-  "Lastname": "Pagac",
-  "SaleStakeholderId": 329,
-  "Rank": 885,
-  "Phone": "(804)084-2627 x734",
+  "StakeholderRoleName": "Wilderman, Boehm and Mante",
+  "Comment": "iure",
+  "StakeholderRoleId": 728,
+  "CountryId": 6,
+  "PersonId": 871,
+  "EmailDescription": "anabel@dubuquewest.ca",
+  "EmailId": 157,
+  "EmailAddress": "evert_grant@schiller.info",
+  "PhoneId": 211,
+  "ContactName": "Hammes-Hand",
+  "ContactId": 403,
+  "SaleId": 560,
+  "Mrmrs": "et",
+  "Firstname": "Sedrick",
+  "MiddleName": "Kling, Pollich and McDermott",
+  "Lastname": "Howell",
+  "SaleStakeholderId": 673,
+  "Rank": 724,
+  "Phone": "(841)425-5205 x0708",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   },
   "_Links": {

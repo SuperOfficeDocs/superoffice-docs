@@ -97,7 +97,7 @@ Response body: object
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -105,40 +105,40 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 939,
-  "ColumnId": 963,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 799,
-  "FieldLabel": "tenetur",
-  "FieldLeft": 265,
-  "FieldTop": 931,
+  "UDefFieldId": 110,
+  "ColumnId": 189,
+  "FieldDefault": "optio",
+  "FieldHeight": 989,
+  "FieldLabel": "est",
+  "FieldLeft": 727,
+  "FieldTop": 795,
   "FieldType": "Checkbox",
-  "FieldWidth": 124,
-  "FormatMask": "qui",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 54,
-  "LabelLeft": 246,
-  "LabelTop": 626,
-  "LabelWidth": 335,
-  "LastVersionId": 645,
-  "ListTableId": 308,
+  "FieldWidth": 218,
+  "FormatMask": "nihil",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 696,
+  "LabelLeft": 803,
+  "LabelTop": 962,
+  "LabelWidth": 310,
+  "LastVersionId": 428,
+  "ListTableId": 64,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 72,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "repellendus",
-  "TabOrder": 444,
-  "TextLength": 551,
-  "Tooltip": "esse",
-  "UdefIdentity": 284,
-  "UDListDefinitionId": 587,
+  "Page1LineNo": 498,
+  "ProgId": "quibusdam",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 521,
+  "TextLength": 438,
+  "Tooltip": "maxime",
+  "UdefIdentity": 81,
+  "UDListDefinitionId": 7,
   "Justification": "Center",
-  "Version": 276,
-  "TemplateVariableName": "Skiles-Wuckert",
+  "Version": 873,
+  "TemplateVariableName": "Bahringer-Renner",
   "HasBeenPublished": false,
-  "MdoListName": "Parisian, Volkman and Quitzon",
+  "MdoListName": "Rippin Inc and Sons",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -147,10 +147,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "facilitate clicks-and-mortar applications"
       },
       "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldLength": 581
     }
   }
 }

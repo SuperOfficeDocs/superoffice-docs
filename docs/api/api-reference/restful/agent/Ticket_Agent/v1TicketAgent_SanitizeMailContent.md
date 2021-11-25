@@ -1,9 +1,9 @@
 ---
-title: SanitizeMailContent
+title: POST Agents/Ticket/SanitizeMailContent
 id: v1TicketAgent_SanitizeMailContent
 ---
 
-# SanitizeMailContent
+# POST Agents/Ticket/SanitizeMailContent
 
 ```http
 POST /api/v1/Agents/Ticket/SanitizeMailContent
@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "nulla"
+  "Content": "sed"
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolorem"
+"tenetur"
 ```

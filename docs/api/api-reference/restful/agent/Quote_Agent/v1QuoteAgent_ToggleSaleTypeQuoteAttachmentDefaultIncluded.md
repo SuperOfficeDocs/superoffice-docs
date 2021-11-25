@@ -1,9 +1,9 @@
 ---
-title: ToggleSaleTypeQuoteAttachmentDefaultIncluded
+title: POST Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
 id: v1QuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded
 ---
 
-# ToggleSaleTypeQuoteAttachmentDefaultIncluded
+# POST Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
 
 ```http
 POST /api/v1/Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
@@ -68,11 +68,11 @@ Response body: bool
 POST /api/v1/Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 680
+  "SaleTypeQuoteAttachmentId": 505
 }
 ```
 
@@ -80,5 +80,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

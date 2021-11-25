@@ -1,9 +1,9 @@
 ---
-title: GetCurrentAccount
+title: POST Agents/EMail/GetCurrentAccount
 id: v1EMailAgent_GetCurrentAccount
 ---
 
-# GetCurrentAccount
+# POST Agents/EMail/GetCurrentAccount
 
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccount
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,16 +86,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 573,
-  "EMailAddress": "saepe",
-  "AssociateId": 704,
+  "EMailAccountId": 672,
+  "EMailAddress": "beatae",
+  "AssociateId": 705,
   "IncomingCredentials": {
-    "ServiceAuthId": 870,
-    "Server": "atque",
-    "Port": 556,
-    "AuthType": "repudiandae",
-    "Username": "ducimus",
-    "Password": "deserunt",
+    "ServiceAuthId": 430,
+    "Server": "asperiores",
+    "Port": 924,
+    "AuthType": "quidem",
+    "Username": "rerum",
+    "Password": "eligendi",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -104,17 +104,17 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 189
       }
     }
   },
   "OutgoingCredentials": {
-    "ServiceAuthId": 52,
-    "Server": "dignissimos",
-    "Port": 375,
-    "AuthType": "commodi",
-    "Username": "autem",
-    "Password": "non",
+    "ServiceAuthId": 196,
+    "Server": "modi",
+    "Port": 884,
+    "AuthType": "aliquid",
+    "Username": "consequatur",
+    "Password": "quaerat",
     "TableRight": {},
     "FieldProperties": {
       "fieldName": {
@@ -122,13 +122,13 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 492
       }
     }
   },
-  "AccountStatus": 590,
-  "ErrorCount": 146,
+  "AccountStatus": 358,
+  "ErrorCount": 755,
   "ErrorReason": "",
   "TableRight": {
     "Mask": "Delete",
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldLength": 926
     }
   }
 }

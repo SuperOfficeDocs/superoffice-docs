@@ -87,7 +87,7 @@ Response body: object
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -95,17 +95,17 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 541,
-  "UniqueIdentifier": "repudiandae",
-  "Name": "Fahey-McDermott",
-  "Description": "Multi-tiered holistic framework",
-  "IncludeId": "porro",
-  "HierarchyId": 725,
-  "Source": "quis",
-  "Registered": "2011-01-15T15:05:42.0250026+01:00",
-  "RegisteredAssociateId": 325,
-  "Updated": "2016-09-14T15:05:42.0250026+02:00",
-  "UpdatedAssociateId": 167,
+  "EjscriptId": 66,
+  "UniqueIdentifier": "vitae",
+  "Name": "Haag Inc and Sons",
+  "Description": "Upgradable coherent infrastructure",
+  "IncludeId": "sunt",
+  "HierarchyId": 853,
+  "Source": "sit",
+  "Registered": "1996-04-18T18:25:50.4016191+02:00",
+  "RegisteredAssociateId": 550,
+  "Updated": "1997-04-30T18:25:50.4016191+02:00",
+  "UpdatedAssociateId": 210,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 463
     }
   },
   "_Links": {

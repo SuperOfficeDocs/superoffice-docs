@@ -1,9 +1,9 @@
 ---
-title: SaveCountry
+title: POST Agents/List/SaveCountry
 id: v1ListAgent_SaveCountry
 ---
 
-# SaveCountry
+# POST Agents/List/SaveCountry
 
 ```http
 POST /api/v1/Agents/List/SaveCountry
@@ -91,29 +91,29 @@ Response body: object
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Country": {
-    "CountryId": 778,
-    "Name": "Wiza, Renner and Gottlieb",
-    "CurrencyId": 942,
-    "EnglishName": "Howe, Pfeffer and Haag",
+    "CountryId": 449,
+    "Name": "McKenzie-Brown",
+    "CurrencyId": 945,
+    "EnglishName": "Hettinger, Murphy and D'Amore",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Fundamental methodical parallelism",
-    "OrgNrText": "1107717",
-    "InterAreaPrefix": "nesciunt",
-    "DialInPrefix": "et",
-    "ZipPrefix": "necessitatibus",
-    "DomainName": "Hermann LLC",
-    "AddressLayoutId": 106,
-    "DomesticAddressLayoutId": 661,
-    "ForeignAddressLayoutId": 647,
-    "Rank": 743,
-    "Tooltip": "error",
-    "Deleted": false
+    "ImageDescription": "Assimilated intermediate process improvement",
+    "OrgNrText": "552891",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "magni",
+    "ZipPrefix": "et",
+    "DomainName": "Wolf, Grady and Dare",
+    "AddressLayoutId": 517,
+    "DomesticAddressLayoutId": 368,
+    "ForeignAddressLayoutId": 554,
+    "Rank": 712,
+    "Tooltip": "eos",
+    "Deleted": true
   }
 }
 ```
@@ -123,27 +123,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 886,
-  "Name": "Ruecker-Fritsch",
-  "CurrencyId": 477,
-  "EnglishName": "Bashirian Group",
+  "CountryId": 201,
+  "Name": "Hintz LLC",
+  "CurrencyId": 237,
+  "EnglishName": "Larkin LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-centric static superstructure",
-  "OrgNrText": "764386",
-  "InterAreaPrefix": "non",
-  "DialInPrefix": "dolores",
-  "ZipPrefix": "qui",
-  "DomainName": "Jacobi, Jacobson and Brakus",
-  "AddressLayoutId": 146,
-  "DomesticAddressLayoutId": 108,
-  "ForeignAddressLayoutId": 834,
-  "Rank": 611,
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
+  "ImageDescription": "Adaptive analyzing installation",
+  "OrgNrText": "934525",
+  "InterAreaPrefix": "vero",
+  "DialInPrefix": "nobis",
+  "ZipPrefix": "ut",
+  "DomainName": "Barrows, Christiansen and Bradtke",
+  "AddressLayoutId": 431,
+  "DomesticAddressLayoutId": 179,
+  "ForeignAddressLayoutId": 980,
+  "Rank": 284,
+  "Tooltip": "est",
+  "Deleted": false,
   "TableRight": {
     "Mask": "Delete",
-    "Reason": ""
+    "Reason": "transform killer action-items"
   },
   "FieldProperties": {
     "fieldName": {
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   }
 }

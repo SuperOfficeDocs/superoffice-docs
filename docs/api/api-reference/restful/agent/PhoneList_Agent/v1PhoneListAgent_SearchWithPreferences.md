@@ -1,9 +1,9 @@
 ---
-title: SearchWithPreferences
+title: POST Agents/PhoneList/SearchWithPreferences
 id: v1PhoneListAgent_SearchWithPreferences
 ---
 
-# SearchWithPreferences
+# POST Agents/PhoneList/SearchWithPreferences
 
 ```http
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
@@ -83,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "repellendus",
+  "SearchString": "veritatis",
   "Preferences": {
     "SearchCompany": true,
-    "SearchFirstname": false,
+    "SearchFirstname": true,
     "SearchLastname": false,
     "SearchDepartment": false,
     "SearchModeCompany": "BeginsWith",
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "676-257-3864",
-    "PersonCellPhone": "(654)373-7386",
-    "PersonPrivatePhone": "523.426.6055",
-    "PersonFaxNumber": "917152",
-    "PersonPagerNumber": "1101189",
-    "PersonEmail": "valentin_cummerata@zemlakgoodwin.co.uk",
-    "Id": 848,
-    "Name": "Cummerata Group",
-    "Tooltip": "laborum",
-    "UniqueId": "voluptatum",
+    "PersonDirectPhone": "380-542-6312",
+    "PersonCellPhone": "571.186.4075 x370",
+    "PersonPrivatePhone": "1-212-363-0350 x101",
+    "PersonFaxNumber": "1090176",
+    "PersonPagerNumber": "541902",
+    "PersonEmail": "efrain_doyle@kingkoelpin.co.uk",
+    "Id": 403,
+    "Name": "Hyatt, Rice and Kozey",
+    "Tooltip": "beatae",
+    "UniqueId": "quae",
     "TableRight": {
       "Mask": "Delete",
-      "Reason": "target back-end platforms"
+      "Reason": "disintermediate collaborative content"
     },
     "FieldProperties": {
       "fieldName": {
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 306
       }
     }
   }

@@ -72,7 +72,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -81,36 +81,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Wintheiser-Grady",
-    "ToolTip": "Ducimus modi quia dolor.",
+    "Id": 970,
+    "Name": "Armstrong, Quigley and Fadel",
+    "ToolTip": "Provident nobis.",
     "Deleted": true,
-    "Rank": 55,
-    "Type": "assumenda",
-    "ColorBlock": 903,
-    "IconHint": "porro",
+    "Rank": 982,
+    "Type": "blanditiis",
+    "ColorBlock": 66,
+    "IconHint": "optio",
     "Selected": true,
-    "LastChanged": "2008-12-23T15:05:43.5420797+01:00",
+    "LastChanged": "2013-12-26T18:25:51.9242541+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Herzog Group",
-        "ToolTip": "Explicabo provident rerum ad hic perferendis.",
+        "Id": 449,
+        "Name": "Little, Russel and Hegmann",
+        "ToolTip": "Necessitatibus voluptatem est dolorem eum.",
         "Deleted": true,
-        "Rank": 213,
-        "Type": "suscipit",
-        "ColorBlock": 271,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2006-10-26T15:05:43.5420797+02:00",
+        "Rank": 97,
+        "Type": "aspernatur",
+        "ColorBlock": 551,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2013-04-24T18:25:51.9252298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ullam",
-        "Hidden": true,
-        "FullName": "Ms. Talia Dach",
+        "ExtraInfo": "quia",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Sierra Howell",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -118,16 +118,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 591
+            "FieldType": "System.Int32",
+            "FieldLength": 867
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "quo",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Savanna Rohan",
+    "FullName": "Lilyan Franecki",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

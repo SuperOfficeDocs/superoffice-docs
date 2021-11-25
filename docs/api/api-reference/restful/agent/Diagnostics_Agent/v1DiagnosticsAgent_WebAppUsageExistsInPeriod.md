@@ -1,9 +1,9 @@
 ---
-title: WebAppUsageExistsInPeriod
+title: POST Agents/Diagnostics/WebAppUsageExistsInPeriod
 id: v1DiagnosticsAgent_WebAppUsageExistsInPeriod
 ---
 
-# WebAppUsageExistsInPeriod
+# POST Agents/Diagnostics/WebAppUsageExistsInPeriod
 
 ```http
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 994,
-  "ViewState": "provident",
-  "FromDate": "2017-04-23T14:58:03.8054644+02:00"
+  "AssociateId": 331,
+  "ViewState": "temporibus",
+  "FromDate": "1998-01-05T18:28:48.7029564+01:00"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

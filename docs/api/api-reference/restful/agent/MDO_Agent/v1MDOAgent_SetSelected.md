@@ -1,9 +1,9 @@
 ---
-title: SetSelected
+title: POST Agents/MDO/SetSelected
 id: v1MDOAgent_SetSelected
 ---
 
-# SetSelected
+# POST Agents/MDO/SetSelected
 
 ```http
 POST /api/v1/Agents/MDO/SetSelected
@@ -89,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pacocha Inc and Sons",
-  "AdditionalInfo": "quia",
+  "Name": "Walker, Beier and Koepp",
+  "AdditionalInfo": "qui",
   "SelectableMDOList": [
     {
-      "Id": 574,
-      "Name": "Bashirian LLC",
-      "ToolTip": "Cumque ratione sed ad alias tempora.",
+      "Id": 918,
+      "Name": "Lemke Inc and Sons",
+      "ToolTip": "Sunt consectetur repudiandae possimus ut et.",
       "Deleted": true,
-      "Rank": 88,
-      "Type": "sequi",
-      "ColorBlock": 953,
-      "IconHint": "quae",
-      "Selected": true,
-      "LastChanged": "2008-01-24T14:58:04.5694602+01:00",
+      "Rank": 44,
+      "Type": "iusto",
+      "ColorBlock": 352,
+      "IconHint": "incidunt",
+      "Selected": false,
+      "LastChanged": "2021-11-09T18:28:49.4870903+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "reprehenderit",
-      "Hidden": true,
-      "FullName": "America Reichel II"
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "repellendus",
+      "Hidden": false,
+      "FullName": "Shannon Konopelski"
     }
   ]
 }
@@ -126,36 +126,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Mills LLC",
-    "ToolTip": "Consequatur explicabo ratione nostrum.",
+    "Id": 192,
+    "Name": "Oberbrunner-Hand",
+    "ToolTip": "A sint est blanditiis in.",
     "Deleted": false,
-    "Rank": 488,
-    "Type": "aut",
-    "ColorBlock": 857,
-    "IconHint": "nobis",
+    "Rank": 439,
+    "Type": "inventore",
+    "ColorBlock": 827,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2003-11-29T14:58:04.5704599+01:00",
+    "LastChanged": "2001-05-15T18:28:49.4880902+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Reinger Inc and Sons",
-        "ToolTip": "Accusantium et soluta.",
+        "Id": 199,
+        "Name": "Stanton-Waelchi",
+        "ToolTip": "Vel animi sit unde.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "aliquam",
-        "ColorBlock": 757,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2001-04-01T14:58:04.5704599+02:00",
+        "Rank": 335,
+        "Type": "velit",
+        "ColorBlock": 560,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "1994-11-20T18:28:49.4880902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Thad Boyle",
+        "ExtraInfo": "quo",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Micaela Mills",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
@@ -163,16 +163,16 @@ Content-Type: application/json; charset=utf-8
               "Mask": "FULL",
               "Reason": ""
             },
-            "FieldType": "System.String",
-            "FieldLength": 866
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Charles Leuschke",
+    "ExtraInfo": "nulla",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Evangeline Mraz Sr.",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 123
       }
     }
   }

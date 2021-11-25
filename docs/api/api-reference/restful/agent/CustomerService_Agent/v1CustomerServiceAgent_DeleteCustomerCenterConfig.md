@@ -1,9 +1,9 @@
 ---
-title: DeleteCustomerCenterConfig
+title: POST Agents/CustomerService/DeleteCustomerCenterConfig
 id: v1CustomerServiceAgent_DeleteCustomerCenterConfig
 ---
 
-# DeleteCustomerCenterConfig
+# POST Agents/CustomerService/DeleteCustomerCenterConfig
 
 ```http
 POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig
@@ -24,7 +24,7 @@ Deletes the CustomerCenterConfig
 | CustomerCenterConfigId | int32 | **Required** The id of the CustomerCenterConfig to be deleted. |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=236
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=516
 ```
 
 

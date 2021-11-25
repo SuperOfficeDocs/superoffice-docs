@@ -1,9 +1,9 @@
 ---
-title: FindFromRestrictions
+title: POST Agents/Find/FindFromRestrictions
 id: v1FindAgent_FindFromRestrictions
 ---
 
-# FindFromRestrictions
+# POST Agents/Find/FindFromRestrictions
 
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions
@@ -115,30 +115,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stroman, Fisher and Quigley",
-      "Operator": "qui",
+      "Name": "Hammes, Hegmann and Casper",
+      "Operator": "aut",
       "Values": [
-        "enim",
-        "voluptates"
+        "eum",
+        "occaecati"
       ],
       "DisplayValues": [
-        "quis",
-        "ad"
+        "vero",
+        "provident"
       ],
       "ColumnInfo": {},
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 716,
+      "InterParenthesis": 620,
       "InterOperator": "And",
-      "UniqueHash": 971
+      "UniqueHash": 131
     }
   ],
-  "ProviderName": "Mohr LLC",
-  "PageSize": 228,
-  "PageNumber": 932
+  "ProviderName": "Bashirian Inc and Sons",
+  "PageSize": 208,
+  "PageNumber": 2
 }
 ```
 
@@ -149,34 +149,34 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Feest-Rodriguez",
-      "DisplayTooltip": "quia",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Ratke, Langworth and Senger",
+      "DisplayName": "O'Connell-Jacobi",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "in",
+      "CanOrderBy": false,
+      "Name": "Powlowski, Kautzer and Torp",
       "CanRestrictBy": false,
-      "RestrictionType": "fuga",
-      "RestrictionListName": "Jakubowski Inc and Sons",
+      "RestrictionType": "dolor",
+      "RestrictionListName": "Greenholt-Littel",
       "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "et",
-      "IconHint": "sit",
-      "HeadingIconHint": "dolor"
+      "ExtraInfo": "ut",
+      "Width": "consequuntur",
+      "IconHint": "qui",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gerlach, Bailey and Marks",
-      "PrimaryKey": 86,
+      "EntityName": "Bernier, Goldner and Jenkins",
+      "PrimaryKey": 337,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "possimus",
-          "TooltipHint": "numquam",
-          "LinkHint": "commodi"
+          "DisplayValue": "atque",
+          "TooltipHint": "unde",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "reprehenderit",
-      "StyleHint": "sit",
+      "LinkHint": "saepe",
+      "StyleHint": "et",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -184,13 +184,13 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 43
         }
       }
     }
   ],
-  "RowCount": 108,
+  "RowCount": 203,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -199,10 +199,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": ""
+        "Reason": "enhance ubiquitous technologies"
       },
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

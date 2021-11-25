@@ -1,9 +1,9 @@
 ---
-title: GetPreviewAttachmentFromId
+title: POST Agents/EMail/GetPreviewAttachmentFromId
 id: v1EMailAgent_GetPreviewAttachmentFromId
 ---
 
-# GetPreviewAttachmentFromId
+# POST Agents/EMail/GetPreviewAttachmentFromId
 
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
@@ -91,14 +91,14 @@ Response body: object
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 630,
-  "AttachmentId": "sunt",
-  "AttachmentType": "debitis",
-  "AttachmentFilename": "odit"
+  "MailItemId": 210,
+  "AttachmentId": "ut",
+  "AttachmentType": "optio",
+  "AttachmentFilename": "excepturi"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide coherent archive",
-  "Filename": "porro",
-  "Size": 684,
-  "Type": "autem",
-  "Encoding": "molestiae",
-  "Id": "deserunt",
-  "Disposition": "sit",
+  "Description": "De-engineered well-modulated hierarchy",
+  "Filename": "omnis",
+  "Size": 277,
+  "Type": "ullam",
+  "Encoding": "eveniet",
+  "Id": "natus",
+  "Disposition": "molestiae",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": {
     "Mask": "Delete",
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 187
     }
   }
 }

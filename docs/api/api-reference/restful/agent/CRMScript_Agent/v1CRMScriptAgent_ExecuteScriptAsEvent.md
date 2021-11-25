@@ -1,9 +1,9 @@
 ---
-title: ExecuteScriptAsEvent
+title: POST Agents/CRMScript/ExecuteScriptAsEvent
 id: v1CRMScriptAgent_ExecuteScriptAsEvent
 ---
 
-# ExecuteScriptAsEvent
+# POST Agents/CRMScript/ExecuteScriptAsEvent
 
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
@@ -93,25 +93,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 241,
+  "CRMScriptId": 685,
   "EventData": {
     "Type": "ChatAfterSaveNewMessage",
     "InputValues": {
-      "InputValues1": "et",
-      "InputValues2": "rerum"
+      "InputValues1": "consequatur",
+      "InputValues2": "facere"
     },
-    "BlockExecution": false,
-    "NavigateTo": "non",
-    "Message": "tempore",
+    "BlockExecution": true,
+    "NavigateTo": "laudantium",
+    "Message": "consequatur",
     "OutputValues": {
-      "OutputValues1": "quibusdam",
-      "OutputValues2": "ut"
+      "OutputValues1": "nostrum",
+      "OutputValues2": "nihil"
     },
     "StateValues": {
-      "StateValues1": "nulla",
-      "StateValues2": "laudantium"
+      "StateValues1": "rerum",
+      "StateValues2": "in"
     },
-    "Exception": "ducimus"
+    "Exception": "eligendi"
   }
 }
 ```
@@ -123,21 +123,21 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "occaecati",
-    "InputValues2": "quo"
+    "InputValues1": "et",
+    "InputValues2": "nesciunt"
   },
   "BlockExecution": true,
-  "NavigateTo": "est",
-  "Message": "corrupti",
+  "NavigateTo": "dignissimos",
+  "Message": "facere",
   "OutputValues": {
-    "OutputValues1": "in",
-    "OutputValues2": "et"
+    "OutputValues1": "nihil",
+    "OutputValues2": "a"
   },
   "StateValues": {
-    "StateValues1": "iusto",
-    "StateValues2": "optio"
+    "StateValues1": "dolorem",
+    "StateValues2": "sunt"
   },
-  "Exception": "perspiciatis",
+  "Exception": "soluta",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldLength": 538
     }
   }
 }

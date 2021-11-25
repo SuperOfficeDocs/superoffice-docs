@@ -78,16 +78,16 @@ Response body: object
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Breitenberg Group",
-  "Tooltip": "eaque",
+  "Id": 422,
+  "Name": "Herzog, Krajcik and Gibson",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 208,
-  "Rank": 365
+  "UdListDefinitionId": 98,
+  "Rank": 197
 }
 ```
 
@@ -96,12 +96,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Pfannerstill-Green",
-  "Tooltip": "ipsa",
+  "Id": 665,
+  "Name": "Dickens-Grady",
+  "Tooltip": "dolore",
   "Deleted": true,
-  "UdListDefinitionId": 733,
-  "Rank": 770,
+  "UdListDefinitionId": 151,
+  "Rank": 67,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
         "Mask": "FULL",
         "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

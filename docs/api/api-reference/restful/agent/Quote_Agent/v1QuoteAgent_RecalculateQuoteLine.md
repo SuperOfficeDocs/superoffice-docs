@@ -1,9 +1,9 @@
 ---
-title: RecalculateQuoteLine
+title: POST Agents/Quote/RecalculateQuoteLine
 id: v1QuoteAgent_RecalculateQuoteLine
 ---
 
-# RecalculateQuoteLine
+# POST Agents/Quote/RecalculateQuoteLine
 
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
@@ -127,67 +127,67 @@ Response body: object
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": {
-    "QuoteLineId": 374,
-    "ERPQuoteLineKey": "sequi",
-    "QuoteAlternativeId": 898,
-    "ERPProductKey": "repellat",
+    "QuoteLineId": 754,
+    "ERPQuoteLineKey": "tempora",
+    "QuoteAlternativeId": 290,
+    "ERPProductKey": "accusantium",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 25419.874,
-    "DeliveredQuantity": 10426.818,
-    "Rank": 504,
-    "Name": "Feest-Dibbert",
-    "Description": "Up-sized 3rd generation intranet",
-    "Code": "sequi",
-    "QuantityUnit": "porro",
-    "PriceUnit": "dolore",
-    "ItemNumber": "978125",
+    "Quantity": 28309.422,
+    "DeliveredQuantity": 25448.079999999998,
+    "Rank": 644,
+    "Name": "Stiedemann, Moore and Emmerich",
+    "Description": "Compatible clear-thinking superstructure",
+    "Code": "soluta",
+    "QuantityUnit": "quidem",
+    "PriceUnit": "doloribus",
+    "ItemNumber": "1833208",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "rerum",
-    "ProductTypeKey": "in",
-    "Supplier": "suscipit",
-    "SupplierCode": "vel",
-    "Thumbnail": "error",
-    "VATInfo": "et",
-    "VAT": 13723.786,
-    "UnitCost": 12394.97,
-    "UnitMinimumPrice": 30202.358,
-    "UnitListPrice": 27760.971999999998,
+    "ProductFamilyKey": "velit",
+    "ProductTypeKey": "consequuntur",
+    "Supplier": "nobis",
+    "SupplierCode": "voluptas",
+    "Thumbnail": "consectetur",
+    "VATInfo": "illum",
+    "VAT": 376.08,
+    "UnitCost": 1557.598,
+    "UnitMinimumPrice": 8292.564,
+    "UnitListPrice": 25062.597999999998,
     "ExtraInfo": [
       {},
       {}
     ],
-    "RawExtraInfo": "dolorem",
+    "RawExtraInfo": "dicta",
     "IsSubscription": false,
-    "SubscriptionUnit": "quis",
-    "SubscriptionQuantity": 21402.086,
-    "SubscriptionStart": "2010-08-25T14:58:04.9244659+02:00",
-    "ERPDiscountPercent": 5634.932,
-    "ERPDiscountAmount": 9671.524,
-    "DiscountPercent": 26501.104,
-    "DiscountAmount": 29058.448,
+    "SubscriptionUnit": "impedit",
+    "SubscriptionQuantity": 26811.37,
+    "SubscriptionStart": "2019-08-08T18:28:49.9061394+02:00",
+    "ERPDiscountPercent": 106.556,
+    "ERPDiscountAmount": 3942.5719999999997,
+    "DiscountPercent": 1137.642,
+    "DiscountAmount": 1215.992,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 14197.02,
-    "EarningAmount": 12228.868,
-    "SubTotal": 21740.558,
-    "TotalPrice": 25012.453999999998,
-    "Rights": "atque",
+    "EarningPercent": 1056.158,
+    "EarningAmount": 3579.028,
+    "SubTotal": 14118.67,
+    "TotalPrice": 7418.178,
+    "Rights": "eligendi",
     "Rule": "aut",
-    "ExtraField1": "at",
-    "ExtraField2": "repellat",
-    "ExtraField3": "in",
-    "ExtraField4": "dolorum",
-    "ExtraField5": "omnis"
+    "ExtraField1": "omnis",
+    "ExtraField2": "a",
+    "ExtraField3": "perferendis",
+    "ExtraField4": "accusantium",
+    "ExtraField5": "ut"
   },
   "ChangedFields": [
-    "consequatur",
-    "exercitationem"
+    "veritatis",
+    "dolorum"
   ]
 }
 ```
@@ -197,37 +197,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 539,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 82,
-  "ERPProductKey": "velit",
+  "QuoteLineId": 556,
+  "ERPQuoteLineKey": "omnis",
+  "QuoteAlternativeId": 447,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4707.268,
-  "DeliveredQuantity": 26642.134,
-  "Rank": 613,
-  "Name": "Hodkiewicz, Anderson and Eichmann",
-  "Description": "Realigned directional collaboration",
-  "Code": "dolorem",
-  "QuantityUnit": "porro",
-  "PriceUnit": "rerum",
-  "ItemNumber": "808485",
+  "Quantity": 29465.868,
+  "DeliveredQuantity": 25156.618,
+  "Rank": 560,
+  "Name": "O'Connell-Wiegand",
+  "Description": "Self-enabling system-worthy archive",
+  "Code": "quo",
+  "QuantityUnit": "blanditiis",
+  "PriceUnit": "impedit",
+  "ItemNumber": "367827",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "quis",
-  "Supplier": "doloremque",
-  "SupplierCode": "eligendi",
-  "Thumbnail": "animi",
-  "VATInfo": "eius",
-  "VAT": 29158.736,
-  "UnitCost": 9705.998,
-  "UnitMinimumPrice": 5528.376,
-  "UnitListPrice": 9198.2899999999991,
+  "ProductFamilyKey": "neque",
+  "ProductTypeKey": "quos",
+  "Supplier": "ut",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "sequi",
+  "VATInfo": "dicta",
+  "VAT": 23473.66,
+  "UnitCost": 25817.892,
+  "UnitMinimumPrice": 2851.94,
+  "UnitListPrice": 23505.0,
   "ExtraInfo": [
     {
-      "Name": "Nader, Hodkiewicz and McLaughlin",
-      "Value": "error",
+      "Name": "Emmerich, Carter and King",
+      "Value": "et",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -236,14 +236,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldType": "System.String",
+          "FieldLength": 198
         }
       }
     },
     {
-      "Name": "Nader, Hodkiewicz and McLaughlin",
-      "Value": "error",
+      "Name": "Emmerich, Carter and King",
+      "Value": "et",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -252,33 +252,33 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldType": "System.String",
+          "FieldLength": 198
         }
       }
     }
   ],
-  "RawExtraInfo": "accusantium",
+  "RawExtraInfo": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "similique",
-  "SubscriptionQuantity": 607.996,
-  "SubscriptionStart": "2014-07-12T14:58:04.9264643+02:00",
-  "ERPDiscountPercent": 16500.51,
-  "ERPDiscountAmount": 16754.363999999998,
-  "DiscountPercent": 8167.204,
-  "DiscountAmount": 24429.53,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 15250.044,
+  "SubscriptionStart": "2012-04-14T18:28:49.9081391+02:00",
+  "ERPDiscountPercent": 554.718,
+  "ERPDiscountAmount": 28296.886,
+  "DiscountPercent": 1792.648,
+  "DiscountAmount": 5048.874,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18145.86,
-  "EarningAmount": 17866.934,
-  "SubTotal": 21511.775999999998,
-  "TotalPrice": 10865.578,
-  "Rights": "saepe",
-  "Rule": "aliquam",
-  "ExtraField1": "doloribus",
-  "ExtraField2": "sapiente",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "repellat",
+  "EarningPercent": 26071.746,
+  "EarningAmount": 7740.98,
+  "SubTotal": 21577.59,
+  "TotalPrice": 955.87,
+  "Rights": "consectetur",
+  "Rule": "laboriosam",
+  "ExtraField1": "dolorum",
+  "ExtraField2": "quidem",
+  "ExtraField3": "officia",
+  "ExtraField4": "ut",
+  "ExtraField5": "sit",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -287,10 +287,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "reintermediate open-source applications"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

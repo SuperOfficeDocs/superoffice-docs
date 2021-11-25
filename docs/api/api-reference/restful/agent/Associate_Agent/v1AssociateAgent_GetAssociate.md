@@ -1,9 +1,9 @@
 ---
-title: GetAssociate
+title: POST Agents/Associate/GetAssociate
 id: v1AssociateAgent_GetAssociate
 ---
 
-# GetAssociate
+# POST Agents/Associate/GetAssociate
 
 ```http
 POST /api/v1/Agents/Associate/GetAssociate
@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=133
+POST /api/v1/Agents/Associate/GetAssociate?associateId=350
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ Response body: object
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ```http_
@@ -86,18 +86,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 981,
-  "Name": "Denesik Group",
-  "PersonId": 705,
-  "Rank": 322,
-  "Tooltip": "sint",
+  "AssociateId": 424,
+  "Name": "Hermann Group",
+  "PersonId": 200,
+  "Rank": 675,
+  "Tooltip": "quam",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 734,
-  "FullName": "Rebekah Olson",
-  "FormalName": "Kessler-Torphy",
-  "Deleted": false,
-  "EjUserId": 158,
-  "UserName": "Witting-Kessler",
+  "GroupIdx": 805,
+  "FullName": "Noemie Keeling",
+  "FormalName": "West-Gulgowski",
+  "Deleted": true,
+  "EjUserId": 291,
+  "UserName": "Medhurst-Treutel",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldLength": 702
     }
   }
 }

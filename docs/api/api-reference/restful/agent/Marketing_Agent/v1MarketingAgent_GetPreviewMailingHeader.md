@@ -1,9 +1,9 @@
 ---
-title: GetPreviewMailingHeader
+title: POST Agents/Marketing/GetPreviewMailingHeader
 id: v1MarketingAgent_GetPreviewMailingHeader
 ---
 
-# GetPreviewMailingHeader
+# POST Agents/Marketing/GetPreviewMailingHeader
 
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
@@ -92,11 +92,11 @@ Response body: object
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 530
+  "ShipmentId": 763
 }
 ```
 
@@ -105,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2004-10-26T14:58:04.5004647+02:00",
+  "StartDate": "2005-01-11T18:28:49.4700876+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 160,
-  "ShipmentDescription": "Triple-buffered interactive customer loyalty",
-  "FromAddress": "quia",
-  "PersonId": 457,
-  "PersonFullName": "Effie Hackett DVM",
-  "ShipmentType": "omnis",
-  "MessageId": 891,
-  "MessageSubject": "nulla",
-  "DocumentMessageId": 852,
-  "NumSent": 981,
-  "NumOpened": 933,
-  "NumBounced": 993,
-  "NumClicks": 346,
+  "ShipmentId": 692,
+  "ShipmentDescription": "Right-sized zero tolerance help-desk",
+  "FromAddress": "repudiandae",
+  "PersonId": 774,
+  "PersonFullName": "Reinhold Padberg",
+  "ShipmentType": "et",
+  "MessageId": 150,
+  "MessageSubject": "quaerat",
+  "DocumentMessageId": 609,
+  "NumSent": 971,
+  "NumOpened": 414,
+  "NumBounced": 686,
+  "NumClicks": 838,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,10 +128,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "unleash magnetic e-business"
+        "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 209
     }
   }
 }

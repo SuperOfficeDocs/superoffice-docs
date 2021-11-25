@@ -1,9 +1,9 @@
 ---
-title: SaveListEntity
+title: POST Agents/List/SaveListEntity
 id: v1ListAgent_SaveListEntity
 ---
 
-# SaveListEntity
+# POST Agents/List/SaveListEntity
 
 ```http
 POST /api/v1/Agents/List/SaveListEntity
@@ -90,15 +90,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Greenholt-Stracke",
-  "Tooltip": "commodi",
+  "Id": 84,
+  "Name": "Spencer-Hettinger",
+  "Tooltip": "ipsa",
   "Deleted": true,
-  "Rank": 269,
+  "Rank": 194,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "et",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,15 +108,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Kling LLC",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 68,
+  "Id": 641,
+  "Name": "Kreiger, Satterfield and Hansen",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 350,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
+  "ListType": "architecto",
   "InUseByUserDefinedFields": true,
   "TableRight": {
     "Mask": "Delete",
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 619
     }
   }
 }

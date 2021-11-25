@@ -1,9 +1,9 @@
 ---
-title: GetQuickReplies
+title: POST Agents/List/GetQuickReplies
 id: v1ListAgent_GetQuickReplies
 ---
 
-# GetQuickReplies
+# POST Agents/List/GetQuickReplies
 
 ```http
 POST /api/v1/Agents/List/GetQuickReplies
@@ -66,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -75,9 +75,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 413,
-    "Name": "Gutmann Inc and Sons",
-    "HtmlBody": "possimus",
+    "QuickReplyId": 826,
+    "Name": "Heller-Okuneva",
+    "HtmlBody": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldLength": 317
       }
     }
   },
   {
-    "QuickReplyId": 413,
-    "Name": "Gutmann Inc and Sons",
-    "HtmlBody": "possimus",
+    "QuickReplyId": 826,
+    "Name": "Heller-Okuneva",
+    "HtmlBody": "et",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldLength": 317
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
-title: CreateDefaultProduct
+title: POST Agents/Quote/CreateDefaultProduct
 id: v1QuoteAgent_CreateDefaultProduct
 ---
 
-# CreateDefaultProduct
+# POST Agents/Quote/CreateDefaultProduct
 
 ```http
 POST /api/v1/Agents/Quote/CreateDefaultProduct
@@ -92,7 +92,7 @@ Response body: object
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ```http_
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 169,
-  "ERPProductKey": "maiores",
-  "ERPPriceListKey": "cum",
-  "Name": "Volkman, Jacobi and Baumbach",
-  "Description": "Reduced didactic pricing structure",
-  "Code": "laborum",
-  "PriceUnit": "accusamus",
-  "QuantityUnit": "culpa",
+  "ProductId": 993,
+  "ERPProductKey": "aperiam",
+  "ERPPriceListKey": "eum",
+  "Name": "Senger-Zboncak",
+  "Description": "Up-sized logistical ability",
+  "Code": "sint",
+  "PriceUnit": "aliquid",
+  "QuantityUnit": "officia",
   "IsSubscription": false,
-  "SubscriptionUnit": "architecto",
-  "DefaultSubscriptionQuantity": 16027.276,
-  "ItemNumber": "1286466",
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 1429.104,
+  "ItemNumber": "1017902",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "numquam",
-  "VAT": 2247.078,
-  "VATInfo": "inventore",
-  "UnitCost": 21712.352,
-  "UnitMinimumPrice": 21599.528,
-  "UnitListPrice": 5330.934,
-  "InAssortment": false,
-  "Supplier": "est",
-  "SupplierCode": "nesciunt",
-  "Rights": "soluta",
-  "Rule": "culpa",
+  "ProductFamilyKey": "alias",
+  "ProductTypeKey": "et",
+  "VAT": 21869.052,
+  "VATInfo": "recusandae",
+  "UnitCost": 18380.91,
+  "UnitMinimumPrice": 20405.474,
+  "UnitListPrice": 28300.02,
+  "InAssortment": true,
+  "Supplier": "distinctio",
+  "SupplierCode": "eveniet",
+  "Rights": "quis",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Prohaska, Runte and Borer",
-      "Value": "quod",
+      "Name": "Walker, Heller and Boyle",
+      "Value": "non",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -138,14 +138,14 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     },
     {
-      "Name": "Prohaska, Runte and Borer",
-      "Value": "quod",
+      "Name": "Walker, Heller and Boyle",
+      "Value": "non",
       "Type": "Image",
       "TableRight": {},
       "FieldProperties": {
@@ -154,19 +154,19 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     }
   ],
-  "RawExtraInfo": "expedita",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "dolore",
-  "ExtraField3": "cumque",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "in",
-  "InStock": 2071.574,
+  "RawExtraInfo": "quas",
+  "ExtraField1": "ut",
+  "ExtraField2": "quia",
+  "ExtraField3": "possimus",
+  "ExtraField4": "amet",
+  "ExtraField5": "repellat",
+  "InStock": 11003.474,
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -175,10 +175,10 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": {
         "Mask": "FULL",
-        "Reason": "engage killer models"
+        "Reason": ""
       },
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

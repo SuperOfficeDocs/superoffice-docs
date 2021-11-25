@@ -1,9 +1,9 @@
 ---
-title: GetNavigatorCompanies
+title: POST Agents/Navigator/GetNavigatorCompanies
 id: v1NavigatorAgent_GetNavigatorCompanies
 ---
 
-# GetNavigatorCompanies
+# POST Agents/Navigator/GetNavigatorCompanies
 
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
@@ -75,11 +75,11 @@ Response body: array
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cremin LLC"
+  "Name": "Hegmann, Nader and Thompson"
 }
 ```
 
@@ -89,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Value": "repellat",
-    "Tooltip": "enim",
+    "Id": 40,
+    "Value": "quas",
+    "Tooltip": "sunt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldType": "System.String",
+        "FieldLength": 342
       }
     }
   },
   {
-    "Id": 540,
-    "Value": "repellat",
-    "Tooltip": "enim",
+    "Id": 40,
+    "Value": "quas",
+    "Tooltip": "sunt",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldType": "System.String",
+        "FieldLength": 342
       }
     }
   }

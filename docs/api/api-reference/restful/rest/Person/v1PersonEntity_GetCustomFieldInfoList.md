@@ -64,7 +64,7 @@ Response body: array
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kreiger LLC",
-    "DisplayName": "Harber Inc and Sons",
-    "Description": "Grass-roots content-based time-frame",
-    "ShortLabel": "fugiat",
-    "HideLabel": true,
+    "FieldName": "Franecki, Boyle and Jast",
+    "DisplayName": "Torphy, Swift and Muller",
+    "Description": "Advanced content-based knowledge base",
+    "ShortLabel": "necessitatibus",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 334,
-    "TemplateVariableName": "Hudson-Ortiz"
+    "IsExternal": false,
+    "Rank": 383,
+    "TemplateVariableName": "Hintz, Shanahan and Carter"
   }
 ]
 ```

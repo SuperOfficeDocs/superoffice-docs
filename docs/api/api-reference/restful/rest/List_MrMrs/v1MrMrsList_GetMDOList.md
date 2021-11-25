@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=ut
+GET /api/v1/List/MrMrs/MDOItems?query=est
 ```
 
 
@@ -77,7 +77,7 @@ Response body: array
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -86,47 +86,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Schoen, Pfeffer and Ritchie",
-    "ToolTip": "Dolores dignissimos harum.",
+    "Id": 685,
+    "Name": "Schinner LLC",
+    "ToolTip": "Accusamus omnis.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "et",
+    "Rank": 540,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Osinski, Konopelski and Leuschke",
-        "ToolTip": "Eaque necessitatibus aperiam vel.",
+        "Id": 531,
+        "Name": "Medhurst, Abshire and Mayer",
+        "ToolTip": "Laudantium et tenetur deleniti.",
         "Deleted": false,
-        "Rank": 464,
-        "Type": "repudiandae",
+        "Rank": 138,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 298,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "temporibus",
-        "FullName": "Peter Braun",
+        "IconHint": "consequatur",
+        "ColorBlock": 304,
+        "ExtraInfo": "dicta",
+        "StyleHint": "ut",
+        "FullName": "Angelita Parisian",
         "TableRight": {},
         "FieldProperties": {
           "fieldName": {
             "FieldRight": {
               "Mask": "FULL",
-              "Reason": ""
+              "Reason": "empower collaborative functionalities"
             },
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 890
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 901,
-    "ExtraInfo": "minima",
-    "StyleHint": "porro",
-    "FullName": "Makenna Gusikowski",
+    "IconHint": "ipsam",
+    "ColorBlock": 888,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "sint",
+    "FullName": "Joany Smith",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -135,10 +135,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "reintermediate dynamic partnerships"
+          "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 403
       }
     }
   }

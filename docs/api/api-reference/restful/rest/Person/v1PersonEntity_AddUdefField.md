@@ -102,7 +102,7 @@ Response body: object
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ```http_
@@ -110,40 +110,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 634,
-  "ColumnId": 952,
-  "FieldDefault": "dolores",
-  "FieldHeight": 97,
-  "FieldLabel": "odio",
-  "FieldLeft": 22,
-  "FieldTop": 367,
+  "UDefFieldId": 442,
+  "ColumnId": 602,
+  "FieldDefault": "non",
+  "FieldHeight": 997,
+  "FieldLabel": "incidunt",
+  "FieldLeft": 2,
+  "FieldTop": 222,
   "FieldType": "Checkbox",
-  "FieldWidth": 515,
-  "FormatMask": "inventore",
-  "HideLabel": false,
+  "FieldWidth": 169,
+  "FormatMask": "omnis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 664,
-  "LabelLeft": 932,
-  "LabelTop": 327,
-  "LabelWidth": 984,
-  "LastVersionId": 330,
-  "ListTableId": 781,
-  "IsMandatory": false,
+  "LabelHeight": 380,
+  "LabelLeft": 265,
+  "LabelTop": 374,
+  "LabelWidth": 814,
+  "LastVersionId": 104,
+  "ListTableId": 956,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 45,
-  "ProgId": "tempora",
-  "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 917,
-  "TextLength": 378,
+  "Page1LineNo": 127,
+  "ProgId": "iusto",
+  "IsReadOnly": true,
+  "ShortLabel": "assumenda",
+  "TabOrder": 130,
+  "TextLength": 371,
   "Tooltip": "consequatur",
-  "UdefIdentity": 361,
-  "UDListDefinitionId": 420,
+  "UdefIdentity": 771,
+  "UDListDefinitionId": 946,
   "Justification": "Center",
-  "Version": 626,
-  "TemplateVariableName": "Rohan-Hartmann",
-  "HasBeenPublished": false,
-  "MdoListName": "Abbott-Cronin",
+  "Version": 19,
+  "TemplateVariableName": "Green-Ferry",
+  "HasBeenPublished": true,
+  "MdoListName": "McGlynn, Barrows and Gaylord",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldLength": 79
     }
   }
 }

@@ -93,16 +93,16 @@ Response body: object
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 478,
-  "Name": "Grimes, Harris and McGlynn",
-  "ContentType": "accusamus",
-  "AttSize": 312,
-  "InlineImage": false,
-  "ContentId": "dolore"
+  "AttachmentId": 468,
+  "Name": "Funk Inc and Sons",
+  "ContentType": "et",
+  "AttSize": 813,
+  "InlineImage": true,
+  "ContentId": "non"
 }
 ```
 
@@ -111,12 +111,12 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 344,
-  "Name": "Price Inc and Sons",
-  "ContentType": "delectus",
-  "AttSize": 373,
+  "AttachmentId": 414,
+  "Name": "Conroy Inc and Sons",
+  "ContentType": "exercitationem",
+  "AttSize": 826,
   "InlineImage": false,
-  "ContentId": "quae",
+  "ContentId": "qui",
   "TableRight": {
     "Mask": "Delete",
     "Reason": ""
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "Reason": ""
       },
       "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldLength": 534
     }
   },
   "_Links": {

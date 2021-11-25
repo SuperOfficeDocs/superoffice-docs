@@ -1,9 +1,9 @@
 ---
-title: GetMyContacts
+title: POST Agents/Contact/GetMyContacts
 id: v1ContactAgent_GetMyContacts
 ---
 
-# GetMyContacts
+# POST Agents/Contact/GetMyContacts
 
 ```http
 POST /api/v1/Agents/Contact/GetMyContacts
@@ -94,35 +94,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 637,
-    "Name": "Nader, Jast and Steuber",
-    "OrgNr": "1103174",
+    "ContactId": 191,
+    "Name": "Howell, Hermiston and Moen",
+    "OrgNr": "642933",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "debitis",
-    "DirectPhone": "467-308-7564 x718",
-    "AssociateId": 348,
-    "CountryId": 606,
-    "EmailAddress": "julie@bauch.name",
-    "Kananame": "nihil",
-    "EmailAddressName": "aditya.yundt@dachjohns.uk",
+    "City": "incidunt",
+    "DirectPhone": "1-887-511-7745",
+    "AssociateId": 504,
+    "CountryId": 505,
+    "EmailAddress": "braulio@keeling.us",
+    "Kananame": "aut",
+    "EmailAddressName": "theresa@boehm.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Destany Leffler",
+    "AssociateFullName": "Amari Mosciski I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {
-      "Wgs84Latitude": 28068.104,
-      "Wgs84Longitude": 4509.826,
+      "Wgs84Latitude": 7916.4839999999995,
+      "Wgs84Longitude": 6164.5779999999995,
       "LocalizedAddress": [
         [
           {
-            "Name": "Torp-Wiza",
-            "Value": "expedita",
-            "Tooltip": "eaque",
-            "Label": "nulla",
-            "ValueLength": 759,
-            "AddressType": "veritatis",
+            "Name": "Muller, Larkin and Brown",
+            "Value": "nemo",
+            "Tooltip": "vel",
+            "Label": "porro",
+            "ValueLength": 849,
+            "AddressType": "est",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
                   "Reason": ""
                 },
                 "FieldType": "System.Int32",
-                "FieldLength": 188
+                "FieldLength": 612
               }
             }
           }
         ],
         [
           {
-            "Name": "Shields-Hauck",
-            "Value": "voluptas",
-            "Tooltip": "ut",
-            "Label": "esse",
-            "ValueLength": 269,
-            "AddressType": "beatae",
+            "Name": "Steuber LLC",
+            "Value": "architecto",
+            "Tooltip": "autem",
+            "Label": "ut",
+            "ValueLength": 982,
+            "AddressType": "non",
             "TableRight": {
               "Mask": "Delete",
               "Reason": ""
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
                   "Reason": ""
                 },
                 "FieldType": "System.String",
-                "FieldLength": 643
+                "FieldLength": 613
               }
             }
           }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       ],
       "Street": {},
       "Postal": {},
-      "Formatted": "in",
+      "Formatted": "porro",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -175,14 +175,14 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 785
+          "FieldLength": 815
         }
       }
     },
-    "FormattedAddress": "aliquam",
-    "FullName": "Tiara Fahey",
+    "FormattedAddress": "architecto",
+    "FullName": "Golden Kunze DDS",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 708,
+    "ActiveErpLinks": 722,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 552
       }
     }
   }

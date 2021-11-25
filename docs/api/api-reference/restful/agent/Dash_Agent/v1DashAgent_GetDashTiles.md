@@ -1,9 +1,9 @@
 ---
-title: GetDashTiles
+title: POST Agents/Dash/GetDashTiles
 id: v1DashAgent_GetDashTiles
 ---
 
-# GetDashTiles
+# POST Agents/Dash/GetDashTiles
 
 ```http
 POST /api/v1/Agents/Dash/GetDashTiles
@@ -78,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 52
+  "DashboardId": 286
 }
 ```
 
@@ -92,39 +92,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 640,
-    "DashboardId": 281,
-    "Height": 215,
-    "Width": 492,
-    "Rank": 154,
+    "DashboardTileId": 500,
+    "DashboardId": 977,
+    "Height": 47,
+    "Width": 513,
+    "Rank": 991,
     "DashTileDefinition": {
-      "DashboardTileDefinitionId": 947,
-      "Name": "Reichert Group",
-      "Description": "Re-contextualized actuating local area network",
-      "DefaultHeight": 791,
-      "DefaultWidth": 502,
+      "DashboardTileDefinitionId": 783,
+      "Name": "Torphy-Marvin",
+      "Description": "Polarised neutral solution",
+      "DefaultHeight": 462,
+      "DefaultWidth": 758,
       "TileType": "Area",
       "EntityType": "Appointment",
-      "EntityName": "Beahan, Glover and Kuphal",
-      "SelectionId": 910,
+      "EntityName": "Swift-Rosenbaum",
+      "SelectionId": 981,
       "CurrencyMode": "Base",
-      "CurrencyId": 1000,
+      "CurrencyCode": "repellendus",
       "Measure": "Average",
-      "MeasureField": "cupiditate",
-      "SortBy": "vel",
-      "LayoutConfig": "aut",
-      "SecondarySelectionId": 315,
-      "MeasureByField": "quis",
-      "ProviderName": "Glover-Rempel",
+      "MeasureField": "unde",
+      "SortBy": "et",
+      "LayoutConfig": "quia",
+      "SecondarySelectionId": 176,
+      "MeasureByField": "eum",
+      "ProviderName": "Thiel LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
           "FieldRight": {
             "Mask": "FULL",
-            "Reason": ""
+            "Reason": "redefine compelling technologies"
           },
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     },
@@ -136,10 +136,10 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": {
           "Mask": "FULL",
-          "Reason": "matrix frictionless users"
+          "Reason": ""
         },
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

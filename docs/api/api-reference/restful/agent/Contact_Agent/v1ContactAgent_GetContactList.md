@@ -1,9 +1,9 @@
 ---
-title: GetContactList
+title: POST Agents/Contact/GetContactList
 id: v1ContactAgent_GetContactList
 ---
 
-# GetContactList
+# POST Agents/Contact/GetContactList
 
 ```http
 POST /api/v1/Agents/Contact/GetContactList
@@ -91,7 +91,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
@@ -100,58 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 368,
-    "Name": "Hoppe-Dickinson",
-    "OrgNr": "1025382",
+    "ContactId": 8,
+    "Name": "Fritsch-Franecki",
+    "OrgNr": "363661",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "reiciendis",
-    "DirectPhone": "003.246.4245 x21745",
-    "AssociateId": 389,
-    "CountryId": 262,
-    "EmailAddress": "brett@dickenswelch.us",
-    "Kananame": "eos",
-    "EmailAddressName": "krystina.wiegand@collins.com",
+    "City": "modi",
+    "DirectPhone": "041.478.7681 x300",
+    "AssociateId": 167,
+    "CountryId": 254,
+    "EmailAddress": "oda_heidenreich@hamill.uk",
+    "Kananame": "repellendus",
+    "EmailAddressName": "branson@brakusmueller.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Pete Beatty",
+    "AssociateFullName": "Curt Olson",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": {
-      "Wgs84Latitude": 11818.314,
-      "Wgs84Longitude": 18305.694,
+      "Wgs84Latitude": 24432.664,
+      "Wgs84Longitude": 8264.358,
       "LocalizedAddress": [
         [
           {
-            "Name": "Grant-Gorczany",
-            "Value": "quis",
-            "Tooltip": "labore",
-            "Label": "debitis",
-            "ValueLength": 635,
-            "AddressType": "officiis",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.Int32",
-                "FieldLength": 735
-              }
-            }
-          }
-        ],
-        [
-          {
-            "Name": "Conroy Inc and Sons",
-            "Value": "vel",
-            "Tooltip": "iste",
-            "Label": "temporibus",
-            "ValueLength": 838,
+            "Name": "Kertzmann, Upton and Crist",
+            "Value": "pariatur",
+            "Tooltip": "eos",
+            "Label": "asperiores",
+            "ValueLength": 464,
             "AddressType": "asperiores",
             "TableRight": {
               "Mask": "Delete",
@@ -163,8 +139,32 @@ Content-Type: application/json; charset=utf-8
                   "Mask": "FULL",
                   "Reason": ""
                 },
-                "FieldType": "System.String",
-                "FieldLength": 103
+                "FieldType": "System.Int32",
+                "FieldLength": 233
+              }
+            }
+          }
+        ],
+        [
+          {
+            "Name": "Altenwerth, McCullough and O'Reilly",
+            "Value": "qui",
+            "Tooltip": "et",
+            "Label": "nostrum",
+            "ValueLength": 925,
+            "AddressType": "quis",
+            "TableRight": {
+              "Mask": "Delete",
+              "Reason": ""
+            },
+            "FieldProperties": {
+              "fieldName": {
+                "FieldRight": {
+                  "Mask": "FULL",
+                  "Reason": ""
+                },
+                "FieldType": "System.Int32",
+                "FieldLength": 196
               }
             }
           }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       ],
       "Street": {},
       "Postal": {},
-      "Formatted": "et",
+      "Formatted": "rem",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -180,15 +180,15 @@ Content-Type: application/json; charset=utf-8
             "Mask": "FULL",
             "Reason": ""
           },
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     },
-    "FormattedAddress": "sed",
-    "FullName": "Amya Swaniawski",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 700,
+    "FormattedAddress": "ipsa",
+    "FullName": "Nina Gulgowski",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 662,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 776
       }
     }
   }

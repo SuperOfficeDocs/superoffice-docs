@@ -1,9 +1,9 @@
 ---
-title: GetHeadingsFromName
+title: POST Agents/List/GetHeadingsFromName
 id: v1ListAgent_GetHeadingsFromName
 ---
 
-# GetHeadingsFromName
+# POST Agents/List/GetHeadingsFromName
 
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromName
@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bahringer, Rau and Paucek"
+  "Name": "Nader Group"
 }
 ```
 
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 263,
-    "Name": "Stiedemann, Kertzmann and Jakubowski",
-    "Tooltip": "culpa",
-    "Deleted": false,
-    "Rank": 204,
-    "UdListDefinitionId": 451,
+    "HeadingId": 635,
+    "Name": "Corwin, Glover and Hills",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 156,
+    "UdListDefinitionId": 56,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldLength": 774
       }
     }
   }

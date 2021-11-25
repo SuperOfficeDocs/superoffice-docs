@@ -1,9 +1,9 @@
 ---
-title: GetQuoteLineImage
+title: POST Agents/Quote/GetQuoteLineImage
 id: v1QuoteAgent_GetQuoteLineImage
 ---
 
-# GetQuoteLineImage
+# POST Agents/Quote/GetQuoteLineImage
 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineImage
@@ -69,12 +69,12 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: binary/octet-stream
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 200,
-  "Rank": 671
+  "QuoteLineId": 26,
+  "Rank": 702
 }
 ```
 

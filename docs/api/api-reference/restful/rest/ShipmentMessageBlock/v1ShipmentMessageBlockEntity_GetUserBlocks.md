@@ -65,7 +65,7 @@ Response body: array
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ```http_
@@ -74,14 +74,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 693,
-    "AssociateId": 92,
-    "Block": "aperiam",
-    "Registered": "2003-09-04T15:05:42.7576622+02:00",
-    "RegisteredAssociateId": 379,
-    "Updated": "2008-02-15T15:05:42.7576622+01:00",
-    "UpdatedAssociateId": 209,
-    "UpdatedCount": 623,
+    "ShipmentMessageBlockId": 605,
+    "AssociateId": 248,
+    "Block": "eligendi",
+    "Registered": "2013-09-26T18:25:51.1099465+02:00",
+    "RegisteredAssociateId": 544,
+    "Updated": "2013-06-22T18:25:51.1099465+02:00",
+    "UpdatedAssociateId": 194,
+    "UpdatedCount": 316,
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
           "Mask": "FULL",
           "Reason": ""
         },
-        "FieldType": "System.String",
-        "FieldLength": 501
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

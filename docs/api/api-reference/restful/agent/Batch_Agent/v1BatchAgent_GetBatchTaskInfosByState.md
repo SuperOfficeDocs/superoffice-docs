@@ -1,9 +1,9 @@
 ---
-title: GetBatchTaskInfosByState
+title: POST Agents/Batch/GetBatchTaskInfosByState
 id: v1BatchAgent_GetBatchTaskInfosByState
 ---
 
-# GetBatchTaskInfosByState
+# POST Agents/Batch/GetBatchTaskInfosByState
 
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
@@ -93,7 +93,7 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "VonRueden-Harris",
-    "AssociateId": 542,
-    "DetailsTable": 497,
-    "DetailsRecord": 999,
-    "IsSystemTask": false,
+    "Id": 706,
+    "Name": "Zemlak Group",
+    "AssociateId": 641,
+    "DetailsTable": 389,
+    "DetailsRecord": 998,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "doloribus",
-      "ParameterObject2": "debitis"
+      "ParameterObject1": "enim",
+      "ParameterObject2": "praesentium"
     },
-    "LastStarted": "1997-08-23T14:58:03.2712428+02:00",
-    "Created": "2009-07-31T14:58:03.2712428+02:00",
-    "StartCount": 722,
-    "DatabaseSerialNumber": "483643",
-    "Context": "est",
-    "Result": "quam",
+    "LastStarted": "2006-04-24T18:28:48.1435473+02:00",
+    "Created": "2014-05-24T18:28:48.1435473+02:00",
+    "StartCount": 123,
+    "DatabaseSerialNumber": "1165181",
+    "Context": "quae",
+    "Result": "consequatur",
     "State": "All",
-    "Description": "Re-contextualized methodical algorithm",
-    "Response": "est",
-    "Request": "maxime",
-    "ProgressDescription": "Decentralized optimizing flexibility",
-    "ProgressPercent": 887,
-    "FileName": "Schoen, Champlin and Wehner",
+    "Description": "Monitored executive secured line",
+    "Response": "ducimus",
+    "Request": "magnam",
+    "ProgressDescription": "Assimilated didactic installation",
+    "ProgressPercent": 378,
+    "FileName": "Cole Group",
     "TableRight": {
       "Mask": "Delete",
       "Reason": ""
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
           "Reason": ""
         },
         "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldLength": 706
       }
     }
   }

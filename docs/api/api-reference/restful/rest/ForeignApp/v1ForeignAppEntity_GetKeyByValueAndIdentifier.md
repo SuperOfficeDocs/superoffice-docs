@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=odio
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=non
 ```
 
 
@@ -80,26 +80,26 @@ Response body: object
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 10 Oct 2005 15:05:42 G10T
+Last-Modified: Tue, 04 Nov 2008 18:25:50 G11T
 
 {
-  "Key": "aliquam",
-  "Value": "non",
-  "RecordId": 578,
-  "CreatedDate": "1996-11-27T15:05:42.2496623+01:00",
-  "UpdatedDate": "2005-10-10T15:05:42.2496623+02:00",
-  "UpdatedBy": "pariatur",
-  "CreatedBy": "sint",
-  "TableName": "Jacobson LLC",
+  "Key": "cum",
+  "Value": "repudiandae",
+  "RecordId": 644,
+  "CreatedDate": "1994-12-09T18:25:50.5775969+01:00",
+  "UpdatedDate": "2008-11-04T18:25:50.5775969+01:00",
+  "UpdatedBy": "atque",
+  "CreatedBy": "id",
+  "TableName": "Wehner-Rempel",
   "TableRight": {
     "Mask": "Delete",
-    "Reason": "reintermediate plug-and-play methodologies"
+    "Reason": "drive robust infrastructures"
   },
   "FieldProperties": {
     "fieldName": {
@@ -108,7 +108,7 @@ Last-Modified: Mon, 10 Oct 2005 15:05:42 G10T
         "Reason": ""
       },
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 804
     }
   }
 }

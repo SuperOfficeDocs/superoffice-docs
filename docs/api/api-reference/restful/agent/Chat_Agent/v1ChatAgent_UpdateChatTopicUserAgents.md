@@ -1,9 +1,9 @@
 ---
-title: UpdateChatTopicUserAgents
+title: POST Agents/Chat/UpdateChatTopicUserAgents
 id: v1ChatAgent_UpdateChatTopicUserAgents
 ---
 
-# UpdateChatTopicUserAgents
+# POST Agents/Chat/UpdateChatTopicUserAgents
 
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
@@ -81,20 +81,20 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 669,
+  "ChatTopicId": 177,
   "Useragents": [
     {
-      "TopicId": 557,
+      "TopicId": 486,
       "User": {},
-      "CanListen": true,
+      "CanListen": false,
       "CanRespond": false,
       "CanManage": false,
       "CanNotify": true
     },
     {
-      "TopicId": 557,
+      "TopicId": 486,
       "User": {},
-      "CanListen": true,
+      "CanListen": false,
       "CanRespond": false,
       "CanManage": false,
       "CanNotify": true
@@ -109,20 +109,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 835,
+    "TopicId": 718,
     "User": {
-      "AssociateId": 266,
-      "Name": "Morar Group",
-      "PersonId": 887,
-      "Rank": 843,
-      "Tooltip": "aliquam",
+      "AssociateId": 477,
+      "Name": "Upton-Davis",
+      "PersonId": 845,
+      "Rank": 125,
+      "Tooltip": "placeat",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 815,
-      "FullName": "Lyric Jones",
-      "FormalName": "Quigley, Kunde and Roberts",
+      "GroupIdx": 53,
+      "FullName": "Mrs. Cheyenne Schaefer",
+      "FormalName": "Pagac-Turcotte",
       "Deleted": false,
-      "EjUserId": 62,
-      "UserName": "Graham-Kessler",
+      "EjUserId": 643,
+      "UserName": "Walter LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -131,30 +131,30 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 422
         }
       }
     },
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": true,
     "CanNotify": true
   },
   {
-    "TopicId": 835,
+    "TopicId": 718,
     "User": {
-      "AssociateId": 266,
-      "Name": "Morar Group",
-      "PersonId": 887,
-      "Rank": 843,
-      "Tooltip": "aliquam",
+      "AssociateId": 477,
+      "Name": "Upton-Davis",
+      "PersonId": 845,
+      "Rank": 125,
+      "Tooltip": "placeat",
       "Type": "AnonymousAssociate",
-      "GroupIdx": 815,
-      "FullName": "Lyric Jones",
-      "FormalName": "Quigley, Kunde and Roberts",
+      "GroupIdx": 53,
+      "FullName": "Mrs. Cheyenne Schaefer",
+      "FormalName": "Pagac-Turcotte",
       "Deleted": false,
-      "EjUserId": 62,
-      "UserName": "Graham-Kessler",
+      "EjUserId": 643,
+      "UserName": "Walter LLC",
       "TableRight": {},
       "FieldProperties": {
         "fieldName": {
@@ -163,11 +163,11 @@ Content-Type: application/json; charset=utf-8
             "Reason": ""
           },
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 422
         }
       }
     },
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": true,
     "CanNotify": true
