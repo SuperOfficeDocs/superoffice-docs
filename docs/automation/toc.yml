@@ -3,6 +3,8 @@ items:
   href: index.yml
   expanded: true
   items:
+  - name: Overview
+    href: overview.md
   - name: CRMScript
     href: ../../../crmscript/docs/00-custom/toc.yml
     expanded: true
