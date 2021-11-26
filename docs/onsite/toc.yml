@@ -152,6 +152,12 @@ items:
         href: config/username-ini.md
       - name: Web.config
         href: config/web-config.md
+  - name: Integrate
+    items:
+    - name: With the Web client
+      href: integrate/web-client/index.md
+    - name: With the Win client
+      href: integrate/win-client/index.md
   - name: Debug
     items:
     - name: Web client
