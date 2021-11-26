@@ -39,6 +39,10 @@ highlightedContent:
     - title: "Software downloads"
       itemType: download
       url: https://community.superoffice.com/en/product-releases/release-notes/
+      # Card
+    - title: "Automation"
+      itemType: overview
+      url: ../automation/index.yml
 
 # conceptualContent section (optional)
 conceptualContent:

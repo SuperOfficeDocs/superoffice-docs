@@ -15,6 +15,13 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+## Windows 11
+
+![windows11.jpg][img14]
+
+We have tested Windows 11 with SuperOffice 10.0.2, both Onsite and Online. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome and Edge browsers. The report was made on November 10th 2021.
+
+<a href="../../assets/downloads/compatibility/windows11.xlsx" download>Click to download report</a>
 ## MacOS Big Sur
 
 ![mac-os-big-sur.jpg][img1]
@@ -104,7 +111,7 @@ SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were
 
 <a href="../../assets/downloads/compatibility/maclink---os-sierra.xlsx" download>Click to download report</a>
 
-## Microsoft SQL Express 2016
+## SQL Express 2016
 
 ![sqlexpress.png][img12]
 
@@ -137,3 +144,4 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img11]: media/macos-sierra.jpg
 [img12]: media/sqlexpress.png
 [img13]: media/microsoft-sql.png
+[img14]: media/windows11.jpg

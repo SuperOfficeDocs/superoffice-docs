@@ -1,7 +1,7 @@
 ---
 title: Replace test environment 
 uid: replace_test_envir
-description: SuperOffice Operation Center for customer administrators with test environment
+description: SuperOffice Operation Center for customer administrators with production sandbox environment
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,21 +9,21 @@ so.envir: cloud
 so.client: online
 ---
 
-# SuperOffice Operation Center for customer administrators with test environment
+# SuperOffice Operation Center for customer administrators with production sandbox environment
 
-As a CRM Online customer with a registered test environment, you may request to replace the test environment with a new fresh copy of the production database.
+As a CRM Online customer with a registered sandbox environment, you may request to replace the sandbox environment with a new fresh copy of the production database.
 
 As a SuperOffice administrator (with access to Settings and Maintenance client) you may log in to the [SuperOffice Operation Center][1].
 
-You will be able to access all [tenants][2] you have access to. If you want to replace your test environment (cust34506) with a fresh copy of the production environment (cust21513) this has been made into a self-service task here.
+You will be able to access all [tenants][2] you have access to. If you want to replace your sandbox environment (cust34506) with a fresh copy of the production environment (cust21513) this has been made into a self-service task here.
 
 ![imaget39w.png -screenshot][img1]
 
 Before you start the replacement, take a close look at the *Database Size* under *Metered Services*. The database size will influence how long some of the steps in the process will take, and in this first version, we do not give feedback on how long each task takes.
 
-## Start the process to replace test environment
+## Start the process to replace sandbox environment
 
-1. Choose the test environment you want to replace in the drop-down.
+1. Choose the sandbox environment you want to replace in the drop-down.
 
     ![imagezzpup.png -screenshot][img2]
 

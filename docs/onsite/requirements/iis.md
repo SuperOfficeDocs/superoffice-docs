@@ -1,7 +1,7 @@
 ---
 title: Requirements
 uid: iis_server_requirements
-description: System requirements for SuperOffice 8 and 9 server
+description: System requirements for SuperOffice server
 author: {github-id}
 keywords:
 so.topic: reference
@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# System requirements for SuperOffice 8 and 9 server hosting IIS
+# System requirements for SuperOffice server hosting IIS
 
 This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOffice Mailings, and SuperOffice Audience.
 
@@ -56,7 +56,7 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 
 ## Requisites
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and 9**
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
 * Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 * Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)

@@ -14,7 +14,7 @@ so.date:
 The Admin client in Web is used for Sales & Marketing administration.
 
 > [!NOTE]
-> With SuperOffice 8 and 9 all onsite customers must install the Web client to use the Maintenance and Settings client.
+> With SuperOffice 8 and newer all onsite customers must install the Web client to use the Maintenance and Settings client.
 
 ### Available help files
 
