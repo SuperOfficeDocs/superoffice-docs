@@ -73,3 +73,26 @@ Type in the day names in uppercase letters and separate them with a comma.
 If you work part-time, for example, Monday, Wednesday, and Friday, you can edit this setting to display only these days in your Week tab:
 
 `WeekDays=MON,WED,FRI`
+
+## FeatureToggles - Onsite Windows client
+
+Some features are enabled by "FeatureToggles".
+This is how you do it for the Onsite Windows client:
+
+Both SOUSER.INI and [SuperOffice.config][1] files for each client need to be updated.
+
+**How to update SOUSER.INI:**
+To enable toggled features - you need access to the installation files for the SuperOffice Windows installation **pr. client / PC / user:**
+
+Open SOUSER.INI
+
+Add these two lines to the file, replace 'FeatureTogleName' with the actual FeatureTogle name and save the file (you may add multiple feature toggles, each on a seperate line):
+```
+[FeatureToggle]
+FeatureTogleName=1
+```
+You can see some of the previous FeatureToggle names here: https://docs.superoffice.com/onsite/config/web-config.html#feature-toggles
+
+
+<!-- Referenced links -->
+[1]: https://docs.superoffice.com/onsite/config/superoffice-config.html#FeatureToggles---Onsite-Windows-client

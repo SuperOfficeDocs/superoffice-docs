@@ -17,7 +17,7 @@ This **sandbox** provides you with a copy of your company’s database, includin
 
 The test [tenant][1] may be replaced with a [newer copy][2] of their production database after the initial setup. Regular updates of your data are included in the subscription.
 
-To buy your own test environment, please contact your local sales representative. The initial setup is handled by SuperOffice AS/Online Operation.
+To buy your own sandbox test environment, please contact your local sales representative or fill in [this form][4]. The initial setup is handled by SuperOffice AS/Online Operation.
 
 > [!TIP]
 > You don't need the same amount of [user plans][3] in the test environment. We assume most will have just a few test users or developers with access to the test tenant. It is entirely up to you how many and the type of plans you add.
@@ -80,6 +80,7 @@ To turn off these settings, set both preferences to **No**.
 [1]: https://community.superoffice.com/documentation/help/en/crm/10.0/webhelpadmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
 [3]: ../../license/user-plans.md
+[4]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=formFrame&formId=F-M6gYjVxc
 
 <!-- Referenced images -->
 [img1]: media/13062-28350.jpg
