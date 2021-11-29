@@ -553,7 +553,7 @@ items:
 - uid: CRMScript.Global.DateTime.setUnix(Integer)
   commentId: M:CRMScript.Global.DateTime.setUnix(Integer)
   id: setUnix(Integer)
-  so.intellisense: DateTime.setUni
+  so.intellisense: DateTime.setUnix
   langs:
   - crmscript
   parent: CRMScript.Global.DateTime
