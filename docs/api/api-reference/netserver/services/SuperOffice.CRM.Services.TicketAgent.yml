@@ -750,7 +750,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nSend a message to recipients, e.g. by email or sms\n"
+  summary: "\nSend a message to recipients, for example by email.\n"
   syntax:
     content: public void SendTicketMessage(int ticketMessageEntityId, string[] to, string[] cc, string[] bcc, string subject, int replyTemplateId, string gdprSource)
     parameters:

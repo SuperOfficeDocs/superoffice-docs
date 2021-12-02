@@ -9,9 +9,7 @@ id: v1TicketAgent_SendTicketMessage
 POST /api/v1/Agents/Ticket/SendTicketMessage
 ```
 
-Send a message to recipients, e.
-
-g. by email or sms
+Send a message to recipients, for example by email.
 
 
 

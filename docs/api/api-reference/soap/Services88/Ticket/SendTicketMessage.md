@@ -11,7 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SendTicketMe
 
 ## SendTicketMessage
 
-Send a message to recipients, e.g. by email or sms
+Send a message to recipients, for example by email.
 
 * **ticketMessageEntityId:** The id of the ticket message to send
 * **to:** The To-recipients. Each recipient must be in correct format: e-mail address or phone number

@@ -857,7 +857,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSend a message to recipients, e.g. by email or sms\n"
+  summary: "\nSend a message to recipients, for example by email.\n"
   syntax:
     content: public Task SendTicketMessageAsync(int ticketMessageEntityId, string[] to, string[] cc, string[] bcc, string subject, int replyTemplateId, string gdprSource, RequestOptions requestOptions = null)
     parameters:

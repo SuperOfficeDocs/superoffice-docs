@@ -9,9 +9,7 @@ id: v1TicketMessageEntity_SendTicketMessage
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 ```
 
-Send a message to recipients, e.
-
-g. by email or sms
+Send a message to recipients, for example by email.
 
 
 
