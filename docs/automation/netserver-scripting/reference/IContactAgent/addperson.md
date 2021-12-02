@@ -1,7 +1,7 @@
 ---
-uid: IContactAgent-AddPerson
-title: IContactAgent.AddPerson event method
-description: Scripting events called on the AddPerson method on the IContactAgent service agent.
+uid: ContactAgent-AddPerson
+title: ContactAgent.AddPerson event method
+description: Scripting events called on the AddPerson method on the ContactAgent service agent.
 so.generated: true
 keywords:
   - "netserver"
