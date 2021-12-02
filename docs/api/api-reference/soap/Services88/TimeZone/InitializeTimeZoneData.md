@@ -1,10 +1,10 @@
 ---
-uid: services88-timezone-initializetimezonedata
 title: Services88.TimeZoneAgent.InitializeTimeZoneData SOAP
-Generated: true
+generated: 1
+uid: Services88-TimeZone-InitializeTimeZoneData
 ---
 
-# Services88 TimeZone InitializeTimeZoneData SOAP
+# Services88 TimeZone InitializeTimeZoneData
 
 SOAP request and response examples **Remote/Services88/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITimeZoneAgent.InitializeTimeZoneData">SuperOffice.Services88.ITimeZoneAgent.InitializeTimeZoneData</see> method.

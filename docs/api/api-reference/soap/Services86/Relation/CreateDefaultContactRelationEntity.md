@@ -1,10 +1,10 @@
 ---
-uid: services86-relation-createdefaultcontactrelationentity
 title: Services86.RelationAgent.CreateDefaultContactRelationEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Relation-CreateDefaultContactRelationEntity
 ---
 
-# Services86 Relation CreateDefaultContactRelationEntity SOAP
+# Services86 Relation CreateDefaultContactRelationEntity
 
 SOAP request and response examples **Remote/Services86/Relation.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IRelationAgent.CreateDefaultContactRelationEntity">SuperOffice.Services86.IRelationAgent.CreateDefaultContactRelationEntity</see> method.
@@ -71,8 +71,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
     <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
     <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-    <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:19Z</Relation:UpdatedDate>
-    <Relation:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:19Z</Relation:CreatedDate>
+    <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:02Z</Relation:UpdatedDate>
+    <Relation:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:02Z</Relation:CreatedDate>
     <Relation:CreatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
      <Relation:Name xsi:type="xsd:string"></Relation:Name>

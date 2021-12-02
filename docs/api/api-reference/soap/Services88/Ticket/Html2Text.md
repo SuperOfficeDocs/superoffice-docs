@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-html2text
 title: Services88.TicketAgent.Html2Text SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-Html2Text
 ---
 
-# Services88 Ticket Html2Text SOAP
+# Services88 Ticket Html2Text
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.Html2Text">SuperOffice.Services88.ITicketAgent.Html2Text</see> method.

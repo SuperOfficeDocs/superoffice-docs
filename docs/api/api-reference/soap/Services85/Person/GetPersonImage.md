@@ -1,10 +1,10 @@
 ---
-uid: services85-person-getpersonimage
 title: Services85.PersonAgent.GetPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-GetPersonImage
 ---
 
-# Services85 Person GetPersonImage SOAP
+# Services85 Person GetPersonImage
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.GetPersonImage">SuperOffice.Services85.IPersonAgent.GetPersonImage</see> method.

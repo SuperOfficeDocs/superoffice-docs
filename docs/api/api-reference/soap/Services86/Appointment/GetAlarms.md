@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-getalarms
 title: Services86.AppointmentAgent.GetAlarms SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-GetAlarms
 ---
 
-# Services86 Appointment GetAlarms SOAP
+# Services86 Appointment GetAlarms
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetAlarms">SuperOffice.Services86.IAppointmentAgent.GetAlarms</see> method.
@@ -72,9 +72,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:Alarms xsi:type="Appointment:ArrayOfAlarmData">
      <Appointment:AlarmData xsi:type="Appointment:AlarmData">
       <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-      <Appointment:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:StartTime>
-      <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:EndDate>
-      <Appointment:AlarmTime xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:AlarmTime>
+      <Appointment:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:StartTime>
+      <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:EndDate>
+      <Appointment:AlarmTime xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:AlarmTime>
       <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
       <Appointment:PersonFullName xsi:type="xsd:string"></Appointment:PersonFullName>
       <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>

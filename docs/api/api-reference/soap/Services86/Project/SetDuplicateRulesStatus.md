@@ -1,10 +1,10 @@
 ---
-uid: services86-project-setduplicaterulesstatus
 title: Services86.ProjectAgent.SetDuplicateRulesStatus SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-SetDuplicateRulesStatus
 ---
 
-# Services86 Project SetDuplicateRulesStatus SOAP
+# Services86 Project SetDuplicateRulesStatus
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.SetDuplicateRulesStatus">SuperOffice.Services86.IProjectAgent.SetDuplicateRulesStatus</see> method.

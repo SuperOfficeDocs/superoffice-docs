@@ -1,7 +1,7 @@
 ---
-uid: services84-mdo
 title: Services84.MDOAgent SOAP
-Generated: true
+uid: Services84-MDO-soap
+generated: 1
 ---
 
 # Services84 MDO SOAP
@@ -27,3 +27,4 @@ Download [WSDL file for Services84/MDO](../Services84-MDO.md) if you need to gen
 * [GetSelectableSimpleList](GetSelectableSimpleList.md)
 * [GetSimpleList](GetSimpleList.md)
 * [SetSelected](SetSelected.md)
+

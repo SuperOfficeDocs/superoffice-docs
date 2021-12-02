@@ -1,10 +1,10 @@
 ---
-uid: services87-soprincipal-authenticatewithaccesstoken
 title: Services87.SoPrincipalAgent.AuthenticateWithAccessToken SOAP
-Generated: true
+generated: 1
+uid: Services87-SoPrincipal-AuthenticateWithAccessToken
 ---
 
-# Services87 SoPrincipal AuthenticateWithAccessToken SOAP
+# Services87 SoPrincipal AuthenticateWithAccessToken
 
 SOAP request and response examples **Remote/Services87/SoPrincipal.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.AuthenticateWithAccessToken">SuperOffice.Services87.ISoPrincipalAgent.AuthenticateWithAccessToken</see> method.
@@ -89,7 +89,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:36:46Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:27Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>

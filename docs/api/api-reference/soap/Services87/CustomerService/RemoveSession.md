@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-removesession
 title: Services87.CustomerServiceAgent.RemoveSession SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-RemoveSession
 ---
 
-# Services87 CustomerService RemoveSession SOAP
+# Services87 CustomerService RemoveSession
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.RemoveSession">SuperOffice.Services87.ICustomerServiceAgent.RemoveSession</see> method.

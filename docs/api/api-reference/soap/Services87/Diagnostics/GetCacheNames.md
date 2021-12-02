@@ -1,10 +1,10 @@
 ---
-uid: services87-diagnostics-getcachenames
 title: Services87.DiagnosticsAgent.GetCacheNames SOAP
-Generated: true
+generated: 1
+uid: Services87-Diagnostics-GetCacheNames
 ---
 
-# Services87 Diagnostics GetCacheNames SOAP
+# Services87 Diagnostics GetCacheNames
 
 SOAP request and response examples **Remote/Services87/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.GetCacheNames">SuperOffice.Services87.IDiagnosticsAgent.GetCacheNames</see> method.

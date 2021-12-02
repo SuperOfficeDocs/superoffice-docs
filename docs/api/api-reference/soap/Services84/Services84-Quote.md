@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services84-Quote
 title: Services84.QuoteAgent WSDL
 ---
 

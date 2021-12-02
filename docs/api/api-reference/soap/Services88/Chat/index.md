@@ -1,7 +1,7 @@
 ---
-uid: services88-chat
 title: Services88.ChatAgent SOAP
-Generated: true
+uid: Services88-Chat-soap
+generated: 1
 ---
 
 # Services88 Chat SOAP
@@ -20,6 +20,7 @@ Download [WSDL file for Services88/Chat](../Services88-Chat.md) if you need to g
 * [AddChatTopicUserAgent](AddChatTopicUserAgent.md)
 * [ChatSessionsForUser](ChatSessionsForUser.md)
 * [ChatTopicsForUser](ChatTopicsForUser.md)
+* [CreateChatSessionForTopic](CreateChatSessionForTopic.md)
 * [CreateDefaultChatSessionEntity](CreateDefaultChatSessionEntity.md)
 * [CreateDefaultChatTopicAgent](CreateDefaultChatTopicAgent.md)
 * [CreateDefaultChatTopicEntity](CreateDefaultChatTopicEntity.md)
@@ -44,3 +45,5 @@ Download [WSDL file for Services88/Chat](../Services88-Chat.md) if you need to g
 * [SaveChatTopicEntity](SaveChatTopicEntity.md)
 * [TransferChatSession](TransferChatSession.md)
 * [UpdateChatTopicUserAgent](UpdateChatTopicUserAgent.md)
+* [UpdateChatTopicUserAgents](UpdateChatTopicUserAgents.md)
+

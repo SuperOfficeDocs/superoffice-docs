@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-getquoteversionworkflowbuttonstates
 title: Services86.QuoteAgent.GetQuoteVersionWorkflowButtonStates SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-GetQuoteVersionWorkflowButtonStates
 ---
 
-# Services86 Quote GetQuoteVersionWorkflowButtonStates SOAP
+# Services86 Quote GetQuoteVersionWorkflowButtonStates
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetQuoteVersionWorkflowButtonStates">SuperOffice.Services86.IQuoteAgent.GetQuoteVersionWorkflowButtonStates</see> method.

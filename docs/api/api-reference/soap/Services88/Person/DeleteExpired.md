@@ -1,10 +1,10 @@
 ---
-uid: services88-person-deleteexpired
 title: Services88.PersonAgent.DeleteExpired SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-DeleteExpired
 ---
 
-# Services88 Person DeleteExpired SOAP
+# Services88 Person DeleteExpired
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.DeleteExpired">SuperOffice.Services88.IPersonAgent.DeleteExpired</see> method.

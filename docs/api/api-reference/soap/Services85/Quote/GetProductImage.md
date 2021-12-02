@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-getproductimage
 title: Services85.QuoteAgent.GetProductImage SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-GetProductImage
 ---
 
-# Services85 Quote GetProductImage SOAP
+# Services85 Quote GetProductImage
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetProductImage">SuperOffice.Services85.IQuoteAgent.GetProductImage</see> method.

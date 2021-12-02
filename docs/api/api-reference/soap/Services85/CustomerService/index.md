@@ -1,7 +1,7 @@
 ---
-uid: services85-customerservice
 title: Services85.CustomerServiceAgent SOAP
-Generated: true
+uid: Services85-CustomerService-soap
+generated: 1
 ---
 
 # Services85 CustomerService SOAP
@@ -27,3 +27,4 @@ Download [WSDL file for Services85/CustomerService](../Services85-CustomerServic
 * [SaveSmsConfig](SaveSmsConfig.md)
 * [SessionIsValid](SessionIsValid.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

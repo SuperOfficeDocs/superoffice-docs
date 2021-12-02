@@ -1,7 +1,7 @@
 ---
-uid: services85-messaging
 title: Services85.MessagingAgent SOAP
-Generated: true
+uid: Services85-Messaging-soap
+generated: 1
 ---
 
 # Services85 Messaging SOAP
@@ -21,3 +21,4 @@ Download [WSDL file for Services85/Messaging](../Services85-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
+

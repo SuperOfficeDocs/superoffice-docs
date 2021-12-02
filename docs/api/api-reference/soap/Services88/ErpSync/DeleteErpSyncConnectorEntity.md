@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-deleteerpsyncconnectorentity
 title: Services88.ErpSyncAgent.DeleteErpSyncConnectorEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-DeleteErpSyncConnectorEntity
 ---
 
-# Services88 ErpSync DeleteErpSyncConnectorEntity SOAP
+# Services88 ErpSync DeleteErpSyncConnectorEntity
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.DeleteErpSyncConnectorEntity">SuperOffice.Services88.IErpSyncAgent.DeleteErpSyncConnectorEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-audience-setdefaultpersonimage
 title: Services86.AudienceAgent.SetDefaultPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services86-Audience-SetDefaultPersonImage
 ---
 
-# Services86 Audience SetDefaultPersonImage SOAP
+# Services86 Audience SetDefaultPersonImage
 
 SOAP request and response examples **Remote/Services86/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAudienceAgent.SetDefaultPersonImage">SuperOffice.Services86.IAudienceAgent.SetDefaultPersonImage</see> method.

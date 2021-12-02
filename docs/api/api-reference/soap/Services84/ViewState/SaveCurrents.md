@@ -1,10 +1,10 @@
 ---
-uid: services84-viewstate-savecurrents
 title: Services84.ViewStateAgent.SaveCurrents SOAP
-Generated: true
+generated: 1
+uid: Services84-ViewState-SaveCurrents
 ---
 
-# Services84 ViewState SaveCurrents SOAP
+# Services84 ViewState SaveCurrents
 
 SOAP request and response examples **Remote/Services84/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IViewStateAgent.SaveCurrents">SuperOffice.Services84.IViewStateAgent.SaveCurrents</see> method.

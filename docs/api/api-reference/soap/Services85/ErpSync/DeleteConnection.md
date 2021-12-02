@@ -1,10 +1,10 @@
 ---
-uid: services85-erpsync-deleteconnection
 title: Services85.ErpSyncAgent.DeleteConnection SOAP
-Generated: true
+generated: 1
+uid: Services85-ErpSync-DeleteConnection
 ---
 
-# Services85 ErpSync DeleteConnection SOAP
+# Services85 ErpSync DeleteConnection
 
 SOAP request and response examples **Remote/Services85/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.DeleteConnection">SuperOffice.Services85.IErpSyncAgent.DeleteConnection</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-preference-deletefromsectionandkey
 title: Services84.PreferenceAgent.DeleteFromSectionAndKey SOAP
-Generated: true
+generated: 1
+uid: Services84-Preference-DeleteFromSectionAndKey
 ---
 
-# Services84 Preference DeleteFromSectionAndKey SOAP
+# Services84 Preference DeleteFromSectionAndKey
 
 SOAP request and response examples **Remote/Services84/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.DeleteFromSectionAndKey">SuperOffice.Services84.IPreferenceAgent.DeleteFromSectionAndKey</see> method.

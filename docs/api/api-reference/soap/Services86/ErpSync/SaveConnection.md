@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-saveconnection
 title: Services86.ErpSyncAgent.SaveConnection SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-SaveConnection
 ---
 
-# Services86 ErpSync SaveConnection SOAP
+# Services86 ErpSync SaveConnection
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveConnection">SuperOffice.Services86.IErpSyncAgent.SaveConnection</see> method.

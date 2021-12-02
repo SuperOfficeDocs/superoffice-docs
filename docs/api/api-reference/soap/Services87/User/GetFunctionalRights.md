@@ -1,10 +1,10 @@
 ---
-uid: services87-user-getfunctionalrights
 title: Services87.UserAgent.GetFunctionalRights SOAP
-Generated: true
+generated: 1
+uid: Services87-User-GetFunctionalRights
 ---
 
-# Services87 User GetFunctionalRights SOAP
+# Services87 User GetFunctionalRights
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetFunctionalRights">SuperOffice.Services87.IUserAgent.GetFunctionalRights</see> method.
@@ -77,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
      <User:IconHint xsi:type="xsd:string"></User:IconHint>
      <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-     <User:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:LastChanged>
+     <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:LastChanged>
      <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
       <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
        <User:Id xsi:type="xsd:int">0</User:Id>
@@ -89,7 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
        <User:IconHint xsi:type="xsd:string"></User:IconHint>
        <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-       <User:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:LastChanged>
+       <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:LastChanged>
        <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
         <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
          <User:Id xsi:type="xsd:int">0</User:Id>
@@ -101,7 +101,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
          <User:IconHint xsi:type="xsd:string"></User:IconHint>
          <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-         <User:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:LastChanged>
+         <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:LastChanged>
          <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
           <User:SelectableMDOListItem xsi:nil="true"></User:SelectableMDOListItem>
          </User:ChildItems>

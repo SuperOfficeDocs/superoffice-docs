@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getcrediteds
 title: Services86.ListAgent.GetCrediteds SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetCrediteds
 ---
 
-# Services86 List GetCrediteds SOAP
+# Services86 List GetCrediteds
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetCrediteds">SuperOffice.Services86.IListAgent.GetCrediteds</see> method.

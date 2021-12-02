@@ -1,10 +1,10 @@
 ---
-uid: services88-batch-updatebatchtask
 title: Services88.BatchAgent.UpdateBatchTask SOAP
-Generated: true
+generated: 1
+uid: Services88-Batch-UpdateBatchTask
 ---
 
-# Services88 Batch UpdateBatchTask SOAP
+# Services88 Batch UpdateBatchTask
 
 SOAP request and response examples **Remote/Services88/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBatchAgent.UpdateBatchTask">SuperOffice.Services88.IBatchAgent.UpdateBatchTask</see> method.
@@ -56,8 +56,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -68,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Batch:Request xsi:type="xsd:string"></Batch:Request>
      <Batch:ProgressDescription xsi:type="xsd:string"></Batch:ProgressDescription>
      <Batch:ProgressPercent xsi:type="xsd:short">0</Batch:ProgressPercent>
+     <Batch:FileName xsi:type="xsd:string"></Batch:FileName>
     </Batch:BatchTaskInfo>
    </Batch:UpdateBatchTask>
 
@@ -105,8 +106,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Batch:Value xsi:type="xsd:string"></Batch:Value>
      </Batch:StringKeyValuePair>
     </Batch:ParameterObject>
-    <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Batch:LastStarted>
-    <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Batch:Created>
+    <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:LastStarted>
+    <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:Created>
     <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
     <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
     <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -117,6 +118,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Batch:Request xsi:type="xsd:string"></Batch:Request>
     <Batch:ProgressDescription xsi:type="xsd:string"></Batch:ProgressDescription>
     <Batch:ProgressPercent xsi:type="xsd:short">0</Batch:ProgressPercent>
+    <Batch:FileName xsi:type="xsd:string"></Batch:FileName>
    </Batch:Response>
   </Batch:UpdateBatchTaskResponse>
  </SOAP-ENV:Body>

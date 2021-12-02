@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getdeliverytype
 title: Services86.ListAgent.GetDeliveryType SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetDeliveryType
 ---
 
-# Services86 List GetDeliveryType SOAP
+# Services86 List GetDeliveryType
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetDeliveryType">SuperOffice.Services86.IListAgent.GetDeliveryType</see> method.

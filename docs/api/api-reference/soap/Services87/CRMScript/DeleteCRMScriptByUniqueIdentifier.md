@@ -1,10 +1,10 @@
 ---
-uid: services87-crmscript-deletecrmscriptbyuniqueidentifier
 title: Services87.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier SOAP
-Generated: true
+generated: 1
+uid: Services87-CRMScript-DeleteCRMScriptByUniqueIdentifier
 ---
 
-# Services87 CRMScript DeleteCRMScriptByUniqueIdentifier SOAP
+# Services87 CRMScript DeleteCRMScriptByUniqueIdentifier
 
 SOAP request and response examples **Remote/Services87/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier">SuperOffice.Services87.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier</see> method.

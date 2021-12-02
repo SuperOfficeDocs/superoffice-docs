@@ -1,7 +1,7 @@
 ---
-uid: services86-document
 title: Services86.DocumentAgent SOAP
-Generated: true
+uid: Services86-Document-soap
+generated: 1
 ---
 
 # Services86 Document SOAP
@@ -91,3 +91,4 @@ Download [WSDL file for Services86/Document](../Services86-Document.md) if you n
 * [SubstituteTemplateVariablesWithCustomTags2](SubstituteTemplateVariablesWithCustomTags2.md)
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
+

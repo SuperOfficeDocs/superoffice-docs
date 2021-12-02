@@ -1,10 +1,10 @@
 ---
-uid: services86-project-saveprojectmembersfunctionandcomment
 title: Services86.ProjectAgent.SaveProjectMembersFunctionAndComment SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-SaveProjectMembersFunctionAndComment
 ---
 
-# Services86 Project SaveProjectMembersFunctionAndComment SOAP
+# Services86 Project SaveProjectMembersFunctionAndComment
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.SaveProjectMembersFunctionAndComment">SuperOffice.Services86.IProjectAgent.SaveProjectMembersFunctionAndComment</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-customerservice-findticketsbytitleorid
 title: Services86.CustomerServiceAgent.FindTicketsByTitleOrId SOAP
-Generated: true
+generated: 1
+uid: Services86-CustomerService-FindTicketsByTitleOrId
 ---
 
-# Services86 CustomerService FindTicketsByTitleOrId SOAP
+# Services86 CustomerService FindTicketsByTitleOrId
 
 SOAP request and response examples **Remote/Services86/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ICustomerServiceAgent.FindTicketsByTitleOrId">SuperOffice.Services86.ICustomerServiceAgent.FindTicketsByTitleOrId</see> method.

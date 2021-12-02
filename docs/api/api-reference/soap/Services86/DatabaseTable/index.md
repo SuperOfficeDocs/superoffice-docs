@@ -1,7 +1,7 @@
 ---
-uid: services86-databasetable
 title: Services86.DatabaseTableAgent SOAP
-Generated: true
+uid: Services86-DatabaseTable-soap
+generated: 1
 ---
 
 # Services86 DatabaseTable SOAP
@@ -20,3 +20,4 @@ Download [WSDL file for Services86/DatabaseTable](../Services86-DatabaseTable.md
 * [InsertRow](InsertRow.md)
 * [ReadRow](ReadRow.md)
 * [UpdateRow](UpdateRow.md)
+

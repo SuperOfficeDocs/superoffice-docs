@@ -1,10 +1,10 @@
 ---
-uid: services85-saint-createdefaultsaintconfiguration
 title: Services85.SaintAgent.CreateDefaultSaintConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services85-Saint-CreateDefaultSaintConfiguration
 ---
 
-# Services85 Saint CreateDefaultSaintConfiguration SOAP
+# Services85 Saint CreateDefaultSaintConfiguration
 
 SOAP request and response examples **Remote/Services85/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISaintAgent.CreateDefaultSaintConfiguration">SuperOffice.Services85.ISaintAgent.CreateDefaultSaintConfiguration</see> method.
@@ -70,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Saint:Period1 xsi:type="xsd:int">0</Saint:Period1>
     <Saint:Period2 xsi:type="xsd:int">0</Saint:Period2>
     <Saint:Period3 xsi:type="xsd:int">0</Saint:Period3>
-    <Saint:GenerationStart xsi:type="xsd:dateTime">2021-03-25T21:35:56Z</Saint:GenerationStart>
-    <Saint:GenerationEnd xsi:type="xsd:dateTime">2021-03-25T21:35:56Z</Saint:GenerationEnd>
+    <Saint:GenerationStart xsi:type="xsd:dateTime">2021-11-30T13:22:41Z</Saint:GenerationStart>
+    <Saint:GenerationEnd xsi:type="xsd:dateTime">2021-11-30T13:22:41Z</Saint:GenerationEnd>
     <Saint:RowsGenerated xsi:type="xsd:int">0</Saint:RowsGenerated>
    </Saint:Response>
   </Saint:CreateDefaultSaintConfigurationResponse>

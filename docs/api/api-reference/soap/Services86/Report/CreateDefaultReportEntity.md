@@ -1,10 +1,10 @@
 ---
-uid: services86-report-createdefaultreportentity
 title: Services86.ReportAgent.CreateDefaultReportEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Report-CreateDefaultReportEntity
 ---
 
-# Services86 Report CreateDefaultReportEntity SOAP
+# Services86 Report CreateDefaultReportEntity
 
 SOAP request and response examples **Remote/Services86/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.CreateDefaultReportEntity">SuperOffice.Services86.IReportAgent.CreateDefaultReportEntity</see> method.

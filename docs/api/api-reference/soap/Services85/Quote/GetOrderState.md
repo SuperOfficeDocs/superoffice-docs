@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-getorderstate
 title: Services85.QuoteAgent.GetOrderState SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-GetOrderState
 ---
 
-# Services85 Quote GetOrderState SOAP
+# Services85 Quote GetOrderState
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetOrderState">SuperOffice.Services85.IQuoteAgent.GetOrderState</see> method.

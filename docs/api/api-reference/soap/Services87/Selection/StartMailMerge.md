@@ -1,10 +1,10 @@
 ---
-uid: services87-selection-startmailmerge
 title: Services87.SelectionAgent.StartMailMerge SOAP
-Generated: true
+generated: 1
+uid: Services87-Selection-StartMailMerge
 ---
 
-# Services87 Selection StartMailMerge SOAP
+# Services87 Selection StartMailMerge
 
 SOAP request and response examples **Remote/Services87/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.StartMailMerge">SuperOffice.Services87.ISelectionAgent.StartMailMerge</see> method.
@@ -52,7 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:TaskEntity xsi:type="Selection:MailMergeTask">
       <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
       <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-      <Selection:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:45Z</Selection:StartDate>
+      <Selection:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:27Z</Selection:StartDate>
       <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
       <Selection:Description xsi:type="xsd:string"></Selection:Description>
       <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>

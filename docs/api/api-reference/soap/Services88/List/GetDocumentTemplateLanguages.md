@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getdocumenttemplatelanguages
 title: Services88.ListAgent.GetDocumentTemplateLanguages SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetDocumentTemplateLanguages
 ---
 
-# Services88 List GetDocumentTemplateLanguages SOAP
+# Services88 List GetDocumentTemplateLanguages
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetDocumentTemplateLanguages">SuperOffice.Services88.IListAgent.GetDocumentTemplateLanguages</see> method.

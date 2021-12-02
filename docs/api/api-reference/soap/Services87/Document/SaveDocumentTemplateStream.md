@@ -1,10 +1,10 @@
 ---
-uid: services87-document-savedocumenttemplatestream
 title: Services87.DocumentAgent.SaveDocumentTemplateStream SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-SaveDocumentTemplateStream
 ---
 
-# Services87 Document SaveDocumentTemplateStream SOAP
+# Services87 Document SaveDocumentTemplateStream
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SaveDocumentTemplateStream">SuperOffice.Services87.IDocumentAgent.SaveDocumentTemplateStream</see> method.

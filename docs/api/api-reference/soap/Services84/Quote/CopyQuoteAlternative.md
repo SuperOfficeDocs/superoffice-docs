@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-copyquotealternative
 title: Services84.QuoteAgent.CopyQuoteAlternative SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-CopyQuoteAlternative
 ---
 
-# Services84 Quote CopyQuoteAlternative SOAP
+# Services84 Quote CopyQuoteAlternative
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.CopyQuoteAlternative">SuperOffice.Services84.IQuoteAgent.CopyQuoteAlternative</see> method.

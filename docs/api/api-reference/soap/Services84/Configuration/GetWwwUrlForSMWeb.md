@@ -1,10 +1,10 @@
 ---
-uid: services84-configuration-getwwwurlforsmweb
 title: Services84.ConfigurationAgent.GetWwwUrlForSMWeb SOAP
-Generated: true
+generated: 1
+uid: Services84-Configuration-GetWwwUrlForSMWeb
 ---
 
-# Services84 Configuration GetWwwUrlForSMWeb SOAP
+# Services84 Configuration GetWwwUrlForSMWeb
 
 SOAP request and response examples **Remote/Services84/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetWwwUrlForSMWeb">SuperOffice.Services84.IConfigurationAgent.GetWwwUrlForSMWeb</see> method.

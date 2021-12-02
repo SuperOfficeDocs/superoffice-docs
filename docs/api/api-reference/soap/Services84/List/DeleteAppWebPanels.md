@@ -1,10 +1,10 @@
 ---
-uid: services84-list-deleteappwebpanels
 title: Services84.ListAgent.DeleteAppWebPanels SOAP
-Generated: true
+generated: 1
+uid: Services84-List-DeleteAppWebPanels
 ---
 
-# Services84 List DeleteAppWebPanels SOAP
+# Services84 List DeleteAppWebPanels
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.DeleteAppWebPanels">SuperOffice.Services84.IListAgent.DeleteAppWebPanels</see> method.

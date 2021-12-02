@@ -1,10 +1,10 @@
 ---
-uid: services85-document-getpersondocumentsbydate
 title: Services85.DocumentAgent.GetPersonDocumentsByDate SOAP
-Generated: true
+generated: 1
+uid: Services85-Document-GetPersonDocumentsByDate
 ---
 
-# Services85 Document GetPersonDocumentsByDate SOAP
+# Services85 Document GetPersonDocumentsByDate
 
 SOAP request and response examples **Remote/Services85/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetPersonDocumentsByDate">SuperOffice.Services85.IDocumentAgent.GetPersonDocumentsByDate</see> method.
@@ -48,8 +48,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPersonDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:35:45Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:35:45Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:30Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:22:30Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPersonDocumentsByDate>
 

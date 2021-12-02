@@ -1,10 +1,10 @@
 ---
-uid: services88-webhook-signalevent
 title: Services88.WebhookAgent.SignalEvent SOAP
-Generated: true
+generated: 1
+uid: Services88-Webhook-SignalEvent
 ---
 
-# Services88 Webhook SignalEvent SOAP
+# Services88 Webhook SignalEvent
 
 SOAP request and response examples **Remote/Services88/Webhook.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.SignalEvent">SuperOffice.Services88.IWebhookAgent.SignalEvent</see> method.

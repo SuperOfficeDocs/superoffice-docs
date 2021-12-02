@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getproductfamily
 title: Services85.ListAgent.GetProductFamily SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetProductFamily
 ---
 
-# Services85 List GetProductFamily SOAP
+# Services85 List GetProductFamily
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetProductFamily">SuperOffice.Services85.IListAgent.GetProductFamily</see> method.

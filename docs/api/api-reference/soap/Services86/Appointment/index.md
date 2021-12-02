@@ -1,7 +1,7 @@
 ---
-uid: services86-appointment
 title: Services86.AppointmentAgent SOAP
-Generated: true
+uid: Services86-Appointment-soap
+generated: 1
 ---
 
 # Services86 Appointment SOAP
@@ -99,3 +99,4 @@ Download [WSDL file for Services86/Appointment](../Services86-Appointment.md) if
 * [ToggleAppointmentStatus](ToggleAppointmentStatus.md)
 * [UpdateAppointment](UpdateAppointment.md)
 * [ValidateDays](ValidateDays.md)
+

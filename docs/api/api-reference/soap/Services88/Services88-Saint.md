@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Saint
 title: Services88.SaintAgent WSDL
 ---
 
@@ -13,7 +13,7 @@ title: Services88.SaintAgent WSDL
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="CreateDefaultStatusMonitor">
+      <xs:element name="CreateDefaultSaintConfiguration">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -34,37 +34,30 @@ title: Services88.SaintAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="CreateDefaultStatusMonitorResponse">
+      <xs:element name="CreateDefaultSaintConfigurationResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:StatusMonitor" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaintConfiguration" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="StatusMonitor">
+      <xs:complexType name="SaintConfiguration">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="OwnerTable" type="xs:int" />
-              <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="DefaultTask" type="xs:int" />
-              <xs:element minOccurs="0" name="DefaultTaskText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="IsVisual" type="xs:boolean" />
-              <xs:element minOccurs="0" name="LastGenerated" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="StatusMonitorId" type="xs:int" />
-              <xs:element minOccurs="0" name="PictureId" type="xs:int" />
-              <xs:element minOccurs="0" name="NeedsUpdate" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="NumMatches" type="xs:int" />
-              <xs:element minOccurs="0" name="NumNeedUpdate" type="xs:int" />
+              <xs:element minOccurs="0" name="OwnerTable" type="xs:short" />
+              <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Period1" type="xs:int" />
+              <xs:element minOccurs="0" name="Period2" type="xs:int" />
+              <xs:element minOccurs="0" name="Period3" type="xs:int" />
               <xs:element minOccurs="0" name="GenerationStart" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="GenerationEnd" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RowsGenerated" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="StatusMonitor" nillable="true" type="tns:StatusMonitor" />
+      <xs:element name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -196,6 +189,56 @@ title: Services88.SaintAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="SaveSaintConfiguration">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSaintConfigurationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaintConfiguration" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultStatusMonitor">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultStatusMonitorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:StatusMonitor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="StatusMonitor">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="OwnerTable" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="DefaultTask" type="xs:int" />
+              <xs:element minOccurs="0" name="DefaultTaskText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsVisual" type="xs:boolean" />
+              <xs:element minOccurs="0" name="LastGenerated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="StatusMonitorId" type="xs:int" />
+              <xs:element minOccurs="0" name="PictureId" type="xs:int" />
+              <xs:element minOccurs="0" name="NeedsUpdate" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="NumMatches" type="xs:int" />
+              <xs:element minOccurs="0" name="NumNeedUpdate" type="xs:int" />
+              <xs:element minOccurs="0" name="GenerationStart" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="StatusMonitor" nillable="true" type="tns:StatusMonitor" />
       <xs:element name="SaveStatusMonitor">
         <xs:complexType>
           <xs:sequence>
@@ -248,49 +291,24 @@ title: Services88.SaintAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateDefaultSaintConfiguration">
+      <xs:element name="GetSaintConfigurations">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateDefaultSaintConfigurationResponse">
+      <xs:element name="GetSaintConfigurationsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaintConfiguration" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaintConfiguration" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="SaintConfiguration">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="OwnerTable" type="xs:short" />
-              <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Period1" type="xs:int" />
-              <xs:element minOccurs="0" name="Period2" type="xs:int" />
-              <xs:element minOccurs="0" name="Period3" type="xs:int" />
-              <xs:element minOccurs="0" name="GenerationStart" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="GenerationEnd" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="RowsGenerated" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
+      <xs:complexType name="ArrayOfSaintConfiguration">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
+        </xs:sequence>
       </xs:complexType>
-      <xs:element name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
-      <xs:element name="SaveSaintConfiguration">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveSaintConfigurationResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SaintConfiguration" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
+      <xs:element name="ArrayOfSaintConfiguration" nillable="true" type="tns:ArrayOfSaintConfiguration" />
       <xs:element name="GetStatusMonitors">
         <xs:complexType>
           <xs:sequence>
@@ -364,6 +382,7 @@ title: Services88.SaintAgent WSDL
               <xs:element minOccurs="0" name="Request" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressPercent" type="xs:short" />
+              <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -395,6 +414,7 @@ title: Services88.SaintAgent WSDL
           <xs:enumeration value="Started" />
           <xs:enumeration value="Succeeded" />
           <xs:enumeration value="Failed" />
+          <xs:enumeration value="SucceededManualCleanup" />
           <xs:enumeration value="All">
             <xs:annotation>
               <xs:appinfo>
@@ -456,24 +476,6 @@ title: Services88.SaintAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSaintConfigurations">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSaintConfigurationsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSaintConfiguration" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfSaintConfiguration">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaintConfiguration" nillable="true" type="tns:SaintConfiguration" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfSaintConfiguration" nillable="true" type="tns:ArrayOfSaintConfiguration" />
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -525,6 +527,40 @@ title: Services88.SaintAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="CreateDefaultSaintConfigurationRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultSaintConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultSaintConfigurationRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultSaintConfigurationResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultSaintConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultSaintConfigurationResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveSaintConfigurationRequest">
+    <wsdl:part name="parameters" element="tns:SaveSaintConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="SaveSaintConfigurationRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveSaintConfigurationResponse">
+    <wsdl:part name="parameters" element="tns:SaveSaintConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveSaintConfigurationResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultStatusMonitorRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultStatusMonitor" />
   </wsdl:message>
@@ -593,35 +629,18 @@ title: Services88.SaintAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultSaintConfigurationRequest">
-    <wsdl:part name="parameters" element="tns:CreateDefaultSaintConfiguration" />
+  <wsdl:message name="GetSaintConfigurationsRequest">
+    <wsdl:part name="parameters" element="tns:GetSaintConfigurations" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultSaintConfigurationRequest_Headers">
+  <wsdl:message name="GetSaintConfigurationsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultSaintConfigurationResponse">
-    <wsdl:part name="parameters" element="tns:CreateDefaultSaintConfigurationResponse" />
+  <wsdl:message name="GetSaintConfigurationsResponse">
+    <wsdl:part name="parameters" element="tns:GetSaintConfigurationsResponse" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultSaintConfigurationResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveSaintConfigurationRequest">
-    <wsdl:part name="parameters" element="tns:SaveSaintConfiguration" />
-  </wsdl:message>
-  <wsdl:message name="SaveSaintConfigurationRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveSaintConfigurationResponse">
-    <wsdl:part name="parameters" element="tns:SaveSaintConfigurationResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveSaintConfigurationResponse_Headers">
+  <wsdl:message name="GetSaintConfigurationsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -746,27 +765,24 @@ title: Services88.SaintAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSaintConfigurationsRequest">
-    <wsdl:part name="parameters" element="tns:GetSaintConfigurations" />
-  </wsdl:message>
-  <wsdl:message name="GetSaintConfigurationsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetSaintConfigurationsResponse">
-    <wsdl:part name="parameters" element="tns:GetSaintConfigurationsResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetSaintConfigurationsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="Saint">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Saint</summary>
     </wsdl:documentation>
+    <wsdl:operation name="CreateDefaultSaintConfiguration">
+      <wsdl:documentation>
+        <summary>Loading default values into a new SaintConfiguration.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfiguration" name="CreateDefaultSaintConfigurationRequest" message="tns:CreateDefaultSaintConfigurationRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfigurationResponse" name="CreateDefaultSaintConfigurationResponse" message="tns:CreateDefaultSaintConfigurationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSaintConfiguration">
+      <wsdl:documentation>
+        <summary>Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfiguration" name="SaveSaintConfigurationRequest" message="tns:SaveSaintConfigurationRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfigurationResponse" name="SaveSaintConfigurationResponse" message="tns:SaveSaintConfigurationResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultStatusMonitor">
       <wsdl:documentation>
         <summary>Loading default values into a new StatusMonitor.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -795,19 +811,12 @@ title: Services88.SaintAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveStatusMonitorPeriods" name="SaveStatusMonitorPeriodsRequest" message="tns:SaveStatusMonitorPeriodsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveStatusMonitorPeriodsResponse" name="SaveStatusMonitorPeriodsResponse" message="tns:SaveStatusMonitorPeriodsResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultSaintConfiguration">
+    <wsdl:operation name="GetSaintConfigurations">
       <wsdl:documentation>
-        <summary>Loading default values into a new SaintConfiguration.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+        <summary>Returns the StatusMonitorPeriods entity.</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfiguration" name="CreateDefaultSaintConfigurationRequest" message="tns:CreateDefaultSaintConfigurationRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfigurationResponse" name="CreateDefaultSaintConfigurationResponse" message="tns:CreateDefaultSaintConfigurationResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveSaintConfiguration">
-      <wsdl:documentation>
-        <summary>Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfiguration" name="SaveSaintConfigurationRequest" message="tns:SaveSaintConfigurationRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfigurationResponse" name="SaveSaintConfigurationResponse" message="tns:SaveSaintConfigurationResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurations" name="GetSaintConfigurationsRequest" message="tns:GetSaintConfigurationsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurationsResponse" name="GetSaintConfigurationsResponse" message="tns:GetSaintConfigurationsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStatusMonitors">
       <wsdl:documentation>
@@ -858,16 +867,41 @@ title: Services88.SaintAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetStatusMonitorPeriods" name="GetStatusMonitorPeriodsRequest" message="tns:GetStatusMonitorPeriodsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetStatusMonitorPeriodsResponse" name="GetStatusMonitorPeriodsResponse" message="tns:GetStatusMonitorPeriodsResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSaintConfigurations">
-      <wsdl:documentation>
-        <summary>Returns the StatusMonitorPeriods entity.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurations" name="GetSaintConfigurationsRequest" message="tns:GetSaintConfigurationsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurationsResponse" name="GetSaintConfigurationsResponse" message="tns:GetSaintConfigurationsResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Saint" type="tns:Saint">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateDefaultSaintConfiguration">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfiguration" style="document" />
+      <wsdl:input name="CreateDefaultSaintConfigurationRequest">
+        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultSaintConfigurationResponse">
+        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSaintConfiguration">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfiguration" style="document" />
+      <wsdl:input name="SaveSaintConfigurationRequest">
+        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveSaintConfigurationResponse">
+        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultStatusMonitor">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultStatusMonitor" style="document" />
       <wsdl:input name="CreateDefaultStatusMonitorRequest">
@@ -932,35 +966,19 @@ title: Services88.SaintAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultSaintConfiguration">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/CreateDefaultSaintConfiguration" style="document" />
-      <wsdl:input name="CreateDefaultSaintConfigurationRequest">
-        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateDefaultSaintConfigurationRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetSaintConfigurations">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurations" style="document" />
+      <wsdl:input name="GetSaintConfigurationsRequest">
+        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="CreateDefaultSaintConfigurationResponse">
-        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateDefaultSaintConfigurationResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveSaintConfiguration">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/SaveSaintConfiguration" style="document" />
-      <wsdl:input name="SaveSaintConfigurationRequest">
-        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveSaintConfigurationRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveSaintConfigurationResponse">
-        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveSaintConfigurationResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetSaintConfigurationsResponse">
+        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -1073,22 +1091,6 @@ title: Services88.SaintAgent WSDL
         <soap:header message="tns:GetStatusMonitorPeriodsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetStatusMonitorPeriodsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetStatusMonitorPeriodsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetSaintConfigurations">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Saint/GetSaintConfigurations" style="document" />
-      <wsdl:input name="GetSaintConfigurationsRequest">
-        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSaintConfigurationsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetSaintConfigurationsResponse">
-        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSaintConfigurationsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

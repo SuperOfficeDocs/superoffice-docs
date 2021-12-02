@@ -1,7 +1,7 @@
 ---
-uid: services88-customerservice
 title: Services88.CustomerServiceAgent SOAP
-Generated: true
+uid: Services88-CustomerService-soap
+generated: 1
 ---
 
 # Services88 CustomerService SOAP
@@ -20,6 +20,7 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [CheckIfCustomizedTemplates](CheckIfCustomizedTemplates.md)
 * [CheckSymmetricEncryption](CheckSymmetricEncryption.md)
 * [CreateDefaultCustomerCenterConfig](CreateDefaultCustomerCenterConfig.md)
+* [CreateDefaultMailboxEntity](CreateDefaultMailboxEntity.md)
 * [CreateDefaultSmsConfig](CreateDefaultSmsConfig.md)
 * [CreateSession](CreateSession.md)
 * [CreateTicketFromMailData](CreateTicketFromMailData.md)
@@ -31,7 +32,10 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [GetAllCustomerCenterConfigs](GetAllCustomerCenterConfigs.md)
 * [GetCustomerCenterConfig](GetCustomerCenterConfig.md)
 * [GetCustomerServiceStartup](GetCustomerServiceStartup.md)
+* [GetFaqForCustomer](GetFaqForCustomer.md)
+* [GetMailboxEntity](GetMailboxEntity.md)
 * [GetMailboxes](GetMailboxes.md)
+* [GetParsedTemplate](GetParsedTemplate.md)
 * [GetProgramUrl](GetProgramUrl.md)
 * [GetSmsConfig](GetSmsConfig.md)
 * [GetStatistics](GetStatistics.md)
@@ -39,7 +43,9 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [RemoveSession](RemoveSession.md)
 * [SaveAllCustomerCenterConfigs](SaveAllCustomerCenterConfigs.md)
 * [SaveCustomerCenterConfig](SaveCustomerCenterConfig.md)
+* [SaveMailboxEntity](SaveMailboxEntity.md)
 * [SaveSmsConfig](SaveSmsConfig.md)
 * [SessionIsValid](SessionIsValid.md)
 * [TestSmtpServer](TestSmtpServer.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

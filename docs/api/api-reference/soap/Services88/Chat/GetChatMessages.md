@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-getchatmessages
 title: Services88.ChatAgent.GetChatMessages SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-GetChatMessages
 ---
 
-# Services88 Chat GetChatMessages SOAP
+# Services88 Chat GetChatMessages
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatMessages">SuperOffice.Services88.IChatAgent.GetChatMessages</see> method.
@@ -77,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-03-25T21:36:53Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
     </Chat:ChatMessage>
    </Chat:Response>
   </Chat:GetChatMessagesResponse>

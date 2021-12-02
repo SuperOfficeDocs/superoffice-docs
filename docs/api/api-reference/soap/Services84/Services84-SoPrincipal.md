@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services84-SoPrincipal
 title: Services84.SoPrincipalAgent WSDL
 ---
 

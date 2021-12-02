@@ -1,10 +1,10 @@
 ---
-uid: services85-document-deletephysicaldocument
 title: Services85.DocumentAgent.DeletePhysicalDocument SOAP
-Generated: true
+generated: 1
+uid: Services85-Document-DeletePhysicalDocument
 ---
 
-# Services85 Document DeletePhysicalDocument SOAP
+# Services85 Document DeletePhysicalDocument
 
 SOAP request and response examples **Remote/Services85/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.DeletePhysicalDocument">SuperOffice.Services85.IDocumentAgent.DeletePhysicalDocument</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-filemanager-beginreadfilepart
 title: Services87.FileManagerAgent.BeginReadFilePart SOAP
-Generated: true
+generated: 1
+uid: Services87-FileManager-BeginReadFilePart
 ---
 
-# Services87 FileManager BeginReadFilePart SOAP
+# Services87 FileManager BeginReadFilePart
 
 SOAP request and response examples **Remote/Services87/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFileManagerAgent.BeginReadFilePart">SuperOffice.Services87.IFileManagerAgent.BeginReadFilePart</see> method.

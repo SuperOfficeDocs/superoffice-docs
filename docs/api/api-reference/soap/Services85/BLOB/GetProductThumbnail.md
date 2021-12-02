@@ -1,10 +1,10 @@
 ---
-uid: services85-blob-getproductthumbnail
 title: Services85.BLOBAgent.GetProductThumbnail SOAP
-Generated: true
+generated: 1
+uid: Services85-BLOB-GetProductThumbnail
 ---
 
-# Services85 BLOB GetProductThumbnail SOAP
+# Services85 BLOB GetProductThumbnail
 
 SOAP request and response examples **Remote/Services85/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.GetProductThumbnail">SuperOffice.Services85.IBLOBAgent.GetProductThumbnail</see> method.

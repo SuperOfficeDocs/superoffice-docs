@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-generatequotedocuments
 title: Services86.QuoteAgent.GenerateQuoteDocuments SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-GenerateQuoteDocuments
 ---
 
-# Services86 Quote GenerateQuoteDocuments SOAP
+# Services86 Quote GenerateQuoteDocuments
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GenerateQuoteDocuments">SuperOffice.Services86.IQuoteAgent.GenerateQuoteDocuments</see> method.

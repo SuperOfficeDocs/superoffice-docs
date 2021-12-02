@@ -1,10 +1,10 @@
 ---
-uid: services87-selection-getduplicates
 title: Services87.SelectionAgent.GetDuplicates SOAP
-Generated: true
+generated: 1
+uid: Services87-Selection-GetDuplicates
 ---
 
-# Services87 Selection GetDuplicates SOAP
+# Services87 Selection GetDuplicates
 
 SOAP request and response examples **Remote/Services87/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.GetDuplicates">SuperOffice.Services87.ISelectionAgent.GetDuplicates</see> method.

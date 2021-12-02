@@ -1,10 +1,10 @@
 ---
-uid: services84-import-previewimport
 title: Services84.ImportAgent.PreviewImport SOAP
-Generated: true
+generated: 1
+uid: Services84-Import-PreviewImport
 ---
 
-# Services84 Import PreviewImport SOAP
+# Services84 Import PreviewImport
 
 SOAP request and response examples **Remote/Services84/Import.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IImportAgent.PreviewImport">SuperOffice.Services84.IImportAgent.PreviewImport</see> method.

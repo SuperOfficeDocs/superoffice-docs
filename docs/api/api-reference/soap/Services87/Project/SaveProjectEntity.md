@@ -1,10 +1,10 @@
 ---
-uid: services87-project-saveprojectentity
 title: Services87.ProjectAgent.SaveProjectEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-SaveProjectEntity
 ---
 
-# Services87 Project SaveProjectEntity SOAP
+# Services87 Project SaveProjectEntity
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.SaveProjectEntity">SuperOffice.Services87.IProjectAgent.SaveProjectEntity</see> method.
@@ -78,8 +78,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Project:Description xsi:type="xsd:string"></Project:Description>
       </Project:EntityElement>
      </Project:Urls>
-     <Project:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:CreatedDate>
-     <Project:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:UpdatedDate>
+     <Project:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:CreatedDate>
+     <Project:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:UpdatedDate>
      <Project:Description xsi:type="xsd:string"></Project:Description>
      <Project:Postit xsi:type="xsd:string"></Project:Postit>
      <Project:CreatedBy xsi:type="Project:Associate">
@@ -148,9 +148,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Project:Links>
      <Project:ActiveLinks xsi:type="xsd:unsignedInt">0</Project:ActiveLinks>
      <Project:Completed xsi:type="xsd:boolean">false</Project:Completed>
-     <Project:NextMilestoneDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:NextMilestoneDate>
+     <Project:NextMilestoneDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:NextMilestoneDate>
      <Project:NmdAppointmentId xsi:type="xsd:int">0</Project:NmdAppointmentId>
-     <Project:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:EndDate>
+     <Project:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:EndDate>
      <Project:ActiveErpLinks xsi:type="xsd:int">0</Project:ActiveErpLinks>
      <Project:UserDefinedFields xsi:type="Project:StringDictionary">
       <Project:StringKeyValuePair>
@@ -170,9 +170,9 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Project:Value xsi:type="xsd:string"></Project:Value>
       </Project:StringKeyValuePair>
      </Project:CustomFields>
-     <Project:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishEventDate>
-     <Project:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishTo>
-     <Project:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishFrom>
+     <Project:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishEventDate>
+     <Project:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishTo>
+     <Project:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishFrom>
      <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
     </Project:ProjectEntity>
    </Project:SaveProjectEntity>
@@ -233,8 +233,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Project:Description xsi:type="xsd:string"></Project:Description>
      </Project:EntityElement>
     </Project:Urls>
-    <Project:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:CreatedDate>
-    <Project:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:UpdatedDate>
+    <Project:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:CreatedDate>
+    <Project:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:UpdatedDate>
     <Project:Description xsi:type="xsd:string"></Project:Description>
     <Project:Postit xsi:type="xsd:string"></Project:Postit>
     <Project:CreatedBy xsi:type="Project:Associate">
@@ -303,9 +303,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Project:Links>
     <Project:ActiveLinks xsi:type="xsd:unsignedInt">0</Project:ActiveLinks>
     <Project:Completed xsi:type="xsd:boolean">false</Project:Completed>
-    <Project:NextMilestoneDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:NextMilestoneDate>
+    <Project:NextMilestoneDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:NextMilestoneDate>
     <Project:NmdAppointmentId xsi:type="xsd:int">0</Project:NmdAppointmentId>
-    <Project:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:EndDate>
+    <Project:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:EndDate>
     <Project:ActiveErpLinks xsi:type="xsd:int">0</Project:ActiveErpLinks>
     <Project:UserDefinedFields xsi:type="Project:StringDictionary">
      <Project:StringKeyValuePair>
@@ -325,9 +325,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Project:Value xsi:type="xsd:string"></Project:Value>
      </Project:StringKeyValuePair>
     </Project:CustomFields>
-    <Project:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishEventDate>
-    <Project:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishTo>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishFrom>
+    <Project:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishEventDate>
+    <Project:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishTo>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishFrom>
     <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
    </Project:Response>
   </Project:SaveProjectEntityResponse>

@@ -1,7 +1,7 @@
 ---
-uid: services87-viewstate
 title: Services87.ViewStateAgent SOAP
-Generated: true
+uid: Services87-ViewState-soap
+generated: 1
 ---
 
 # Services87 ViewState SOAP
@@ -29,3 +29,4 @@ Download [WSDL file for Services87/ViewState](../Services87-ViewState.md) if you
 * [SaveCurrents](SaveCurrents.md)
 * [SaveHistories](SaveHistories.md)
 * [SetHistoryLengthPrefValue](SetHistoryLengthPrefValue.md)
+

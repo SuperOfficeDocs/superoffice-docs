@@ -1,10 +1,10 @@
 ---
-uid: services84-list-setdocumenttemplatefromdocumenttemplate
 title: Services84.ListAgent.SetDocumentTemplateFromDocumentTemplate SOAP
-Generated: true
+generated: 1
+uid: Services84-List-SetDocumentTemplateFromDocumentTemplate
 ---
 
-# Services84 List SetDocumentTemplateFromDocumentTemplate SOAP
+# Services84 List SetDocumentTemplateFromDocumentTemplate
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SetDocumentTemplateFromDocumentTemplate">SuperOffice.Services84.IListAgent.SetDocumentTemplateFromDocumentTemplate</see> method.

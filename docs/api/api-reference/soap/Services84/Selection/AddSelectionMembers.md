@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-addselectionmembers
 title: Services84.SelectionAgent.AddSelectionMembers SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-AddSelectionMembers
 ---
 
-# Services84 Selection AddSelectionMembers SOAP
+# Services84 Selection AddSelectionMembers
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.AddSelectionMembers">SuperOffice.Services84.ISelectionAgent.AddSelectionMembers</see> method.

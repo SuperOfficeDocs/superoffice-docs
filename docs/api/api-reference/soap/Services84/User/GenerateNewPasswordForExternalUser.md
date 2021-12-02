@@ -1,10 +1,10 @@
 ---
-uid: services84-user-generatenewpasswordforexternaluser
 title: Services84.UserAgent.GenerateNewPasswordForExternalUser SOAP
-Generated: true
+generated: 1
+uid: Services84-User-GenerateNewPasswordForExternalUser
 ---
 
-# Services84 User GenerateNewPasswordForExternalUser SOAP
+# Services84 User GenerateNewPasswordForExternalUser
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GenerateNewPasswordForExternalUser">SuperOffice.Services84.IUserAgent.GenerateNewPasswordForExternalUser</see> method.

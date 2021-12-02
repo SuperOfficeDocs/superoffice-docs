@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-createconnectionfromconnectorname
 title: Services88.QuoteAgent.CreateConnectionFromConnectorName SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-CreateConnectionFromConnectorName
 ---
 
-# Services88 Quote CreateConnectionFromConnectorName SOAP
+# Services88 Quote CreateConnectionFromConnectorName
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.CreateConnectionFromConnectorName">SuperOffice.Services88.IQuoteAgent.CreateConnectionFromConnectorName</see> method.
@@ -110,8 +110,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Description xsi:type="xsd:string"></Quote:Description>
       <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
       <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-      <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Quote:ValidFrom>
-      <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Quote:ValidTo>
+      <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:23:49Z</Quote:ValidFrom>
+      <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:23:49Z</Quote:ValidTo>
       <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
      </Quote:PriceList>
     </Quote:PriceLists>

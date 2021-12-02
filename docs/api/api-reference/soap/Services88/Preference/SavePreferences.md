@@ -1,10 +1,10 @@
 ---
-uid: services88-preference-savepreferences
 title: Services88.PreferenceAgent.SavePreferences SOAP
-Generated: true
+generated: 1
+uid: Services88-Preference-SavePreferences
 ---
 
-# Services88 Preference SavePreferences SOAP
+# Services88 Preference SavePreferences
 
 SOAP request and response examples **Remote/Services88/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SavePreferences">SuperOffice.Services88.IPreferenceAgent.SavePreferences</see> method.

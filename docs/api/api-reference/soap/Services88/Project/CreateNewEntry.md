@@ -1,10 +1,10 @@
 ---
-uid: services88-project-createnewentry
 title: Services88.ProjectAgent.CreateNewEntry SOAP
-Generated: true
+generated: 1
+uid: Services88-Project-CreateNewEntry
 ---
 
-# Services88 Project CreateNewEntry SOAP
+# Services88 Project CreateNewEntry
 
 SOAP request and response examples **Remote/Services88/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.CreateNewEntry">SuperOffice.Services88.IProjectAgent.CreateNewEntry</see> method.

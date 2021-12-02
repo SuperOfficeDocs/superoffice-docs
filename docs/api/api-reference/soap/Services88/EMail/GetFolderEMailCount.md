@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getfolderemailcount
 title: Services88.EMailAgent.GetFolderEMailCount SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetFolderEMailCount
 ---
 
-# Services88 EMail GetFolderEMailCount SOAP
+# Services88 EMail GetFolderEMailCount
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetFolderEMailCount">SuperOffice.Services88.IEMailAgent.GetFolderEMailCount</see> method.

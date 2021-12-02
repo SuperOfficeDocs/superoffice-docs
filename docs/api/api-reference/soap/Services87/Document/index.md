@@ -1,7 +1,7 @@
 ---
-uid: services87-document
 title: Services87.DocumentAgent SOAP
-Generated: true
+uid: Services87-Document-soap
+generated: 1
 ---
 
 # Services87 Document SOAP
@@ -94,3 +94,4 @@ Download [WSDL file for Services87/Document](../Services87-Document.md) if you n
 * [SubstituteTemplateVariablesWithCustomTags2](SubstituteTemplateVariablesWithCustomTags2.md)
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-geterpsyncconnectionsummary
 title: Services88.ErpSyncAgent.GetErpSyncConnectionSummary SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-GetErpSyncConnectionSummary
 ---
 
-# Services88 ErpSync GetErpSyncConnectionSummary SOAP
+# Services88 ErpSync GetErpSyncConnectionSummary
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.GetErpSyncConnectionSummary">SuperOffice.Services88.IErpSyncAgent.GetErpSyncConnectionSummary</see> method.
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ErpSync:DisplayDescription xsi:type="xsd:string"></ErpSync:DisplayDescription>
     <ErpSync:Active xsi:type="xsd:boolean">false</ErpSync:Active>
     <ErpSync:Deleted xsi:type="xsd:boolean">false</ErpSync:Deleted>
-    <ErpSync:LastSync xsi:type="xsd:dateTime">2021-03-25T21:36:58Z</ErpSync:LastSync>
+    <ErpSync:LastSync xsi:type="xsd:dateTime">2021-11-30T13:23:40Z</ErpSync:LastSync>
     <ErpSync:Actors xsi:type="ErpSync:ArrayOfErpSyncActorSummary">
      <ErpSync:ErpSyncActorSummary xsi:type="ErpSync:ErpSyncActorSummary">
       <ErpSync:ActorType xsi:type="ErpSync:ErpActorType">Unknown</ErpSync:ActorType>

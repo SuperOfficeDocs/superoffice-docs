@@ -1,7 +1,7 @@
 ---
-uid: services85-associate
 title: Services85.AssociateAgent SOAP
-Generated: true
+uid: Services85-Associate-soap
+generated: 1
 ---
 
 # Services85 Associate SOAP
@@ -22,3 +22,4 @@ Download [WSDL file for Services85/Associate](../Services85-Associate.md) if you
 * [GetNote](GetNote.md)
 * [LogOffWindowsUsers](LogOffWindowsUsers.md)
 * [SaveNote](SaveNote.md)
+

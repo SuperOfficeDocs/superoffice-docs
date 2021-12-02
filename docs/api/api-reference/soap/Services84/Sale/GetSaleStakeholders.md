@@ -1,10 +1,10 @@
 ---
-uid: services84-sale-getsalestakeholders
 title: Services84.SaleAgent.GetSaleStakeholders SOAP
-Generated: true
+generated: 1
+uid: Services84-Sale-GetSaleStakeholders
 ---
 
-# Services84 Sale GetSaleStakeholders SOAP
+# Services84 Sale GetSaleStakeholders
 
 SOAP request and response examples **Remote/Services84/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.GetSaleStakeholders">SuperOffice.Services84.ISaleAgent.GetSaleStakeholders</see> method.

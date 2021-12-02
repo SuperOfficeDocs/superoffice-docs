@@ -1,7 +1,7 @@
 ---
-uid: services88-bulkupdate
 title: Services88.BulkUpdateAgent SOAP
-Generated: true
+uid: Services88-BulkUpdate-soap
+generated: 1
 ---
 
 # Services88 BulkUpdate SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services88/BulkUpdate](../Services88-BulkUpdate.md) if y
 * [GetStoredFields](GetStoredFields.md)
 * [RemoveStoredFields](RemoveStoredFields.md)
 * [RemoveStoredFieldsAndGetDefaultFields](RemoveStoredFieldsAndGetDefaultFields.md)
+

@@ -1,7 +1,7 @@
 ---
-uid: services88-marketing
 title: Services88.MarketingAgent SOAP
-Generated: true
+uid: Services88-Marketing-soap
+generated: 1
 ---
 
 # Services88 Marketing SOAP
@@ -15,6 +15,7 @@ Agent used for Marketing functions, such as Forms
 
 Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you need to generate your own proxy code.
 
+* [CalculateMailingStatistics](CalculateMailingStatistics.md)
 * [CreateDefaultFormEntity](CreateDefaultFormEntity.md)
 * [CreateDefaultFormSubmissionEntity](CreateDefaultFormSubmissionEntity.md)
 * [CreateDefaultShipmentMessageBlockEntity](CreateDefaultShipmentMessageBlockEntity.md)
@@ -26,6 +27,7 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [GetFormEntity](GetFormEntity.md)
 * [GetFormSubmissionEntity](GetFormSubmissionEntity.md)
 * [GetPreviewMailing](GetPreviewMailing.md)
+* [GetPreviewMailingHeader](GetPreviewMailingHeader.md)
 * [GetShipmentMessageBlockEntity](GetShipmentMessageBlockEntity.md)
 * [GetShipmentMessageEntity](GetShipmentMessageEntity.md)
 * [GetUserBlocks](GetUserBlocks.md)
@@ -34,3 +36,4 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [SaveShipmentMessageBlockEntity](SaveShipmentMessageBlockEntity.md)
 * [SaveShipmentMessageEntity](SaveShipmentMessageEntity.md)
 * [VerifyGoogleRecaptcha](VerifyGoogleRecaptcha.md)
+

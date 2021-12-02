@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getfolderinfo
 title: Services88.EMailAgent.GetFolderInfo SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetFolderInfo
 ---
 
-# Services88 EMail GetFolderInfo SOAP
+# Services88 EMail GetFolderInfo
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetFolderInfo">SuperOffice.Services88.IEMailAgent.GetFolderInfo</see> method.

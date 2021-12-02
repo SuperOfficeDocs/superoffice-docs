@@ -1,10 +1,10 @@
 ---
-uid: services86-email-createfolder
 title: Services86.EMailAgent.CreateFolder SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-CreateFolder
 ---
 
-# Services86 EMail CreateFolder SOAP
+# Services86 EMail CreateFolder
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.CreateFolder">SuperOffice.Services86.IEMailAgent.CreateFolder</see> method.

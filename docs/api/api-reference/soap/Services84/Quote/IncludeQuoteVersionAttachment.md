@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-includequoteversionattachment
 title: Services84.QuoteAgent.IncludeQuoteVersionAttachment SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-IncludeQuoteVersionAttachment
 ---
 
-# Services84 Quote IncludeQuoteVersionAttachment SOAP
+# Services84 Quote IncludeQuoteVersionAttachment
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.IncludeQuoteVersionAttachment">SuperOffice.Services84.IQuoteAgent.IncludeQuoteVersionAttachment</see> method.

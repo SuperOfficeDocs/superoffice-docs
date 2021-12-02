@@ -1,10 +1,10 @@
 ---
-uid: services86-list-addfromlistname
 title: Services86.ListAgent.AddFromListName SOAP
-Generated: true
+generated: 1
+uid: Services86-List-AddFromListName
 ---
 
-# Services86 List AddFromListName SOAP
+# Services86 List AddFromListName
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.AddFromListName">SuperOffice.Services86.IListAgent.AddFromListName</see> method.

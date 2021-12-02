@@ -1,10 +1,10 @@
 ---
-uid: services88-webhook-deletewebhook
 title: Services88.WebhookAgent.DeleteWebhook SOAP
-Generated: true
+generated: 1
+uid: Services88-Webhook-DeleteWebhook
 ---
 
-# Services88 Webhook DeleteWebhook SOAP
+# Services88 Webhook DeleteWebhook
 
 SOAP request and response examples **Remote/Services88/Webhook.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.DeleteWebhook">SuperOffice.Services88.IWebhookAgent.DeleteWebhook</see> method.

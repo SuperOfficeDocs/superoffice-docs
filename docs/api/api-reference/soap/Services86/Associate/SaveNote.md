@@ -1,10 +1,10 @@
 ---
-uid: services86-associate-savenote
 title: Services86.AssociateAgent.SaveNote SOAP
-Generated: true
+generated: 1
+uid: Services86-Associate-SaveNote
 ---
 
-# Services86 Associate SaveNote SOAP
+# Services86 Associate SaveNote
 
 SOAP request and response examples **Remote/Services86/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAssociateAgent.SaveNote">SuperOffice.Services86.IAssociateAgent.SaveNote</see> method.

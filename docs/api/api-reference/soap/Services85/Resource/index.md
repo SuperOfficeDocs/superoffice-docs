@@ -1,7 +1,7 @@
 ---
-uid: services85-resource
 title: Services85.ResourceAgent SOAP
-Generated: true
+uid: Services85-Resource-soap
+generated: 1
 ---
 
 # Services85 Resource SOAP
@@ -20,3 +20,4 @@ Download [WSDL file for Services85/Resource](../Services85-Resource.md) if you n
 * [GetResourceSubstitutions](GetResourceSubstitutions.md)
 * [IsResourceSubstitutionActive](IsResourceSubstitutionActive.md)
 * [SetResourceSubstitution](SetResourceSubstitution.md)
+

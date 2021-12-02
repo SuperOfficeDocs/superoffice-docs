@@ -1,10 +1,10 @@
 ---
-uid: services88-document-createdefaultdocumentpreview
 title: Services88.DocumentAgent.CreateDefaultDocumentPreview SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-CreateDefaultDocumentPreview
 ---
 
-# Services88 Document CreateDefaultDocumentPreview SOAP
+# Services88 Document CreateDefaultDocumentPreview
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.CreateDefaultDocumentPreview">SuperOffice.Services88.IDocumentAgent.CreateDefaultDocumentPreview</see> method.

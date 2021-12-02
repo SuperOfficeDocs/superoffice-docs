@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getplugincapabilities
 title: Services85.ListAgent.GetPluginCapabilities SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetPluginCapabilities
 ---
 
-# Services85 List GetPluginCapabilities SOAP
+# Services85 List GetPluginCapabilities
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetPluginCapabilities">SuperOffice.Services85.IListAgent.GetPluginCapabilities</see> method.

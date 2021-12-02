@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-getsummarybygroup
 title: Services88.SaleAgent.GetSummaryByGroup SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-GetSummaryByGroup
 ---
 
-# Services88 Sale GetSummaryByGroup SOAP
+# Services88 Sale GetSummaryByGroup
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.GetSummaryByGroup">SuperOffice.Services88.ISaleAgent.GetSummaryByGroup</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByGroup>
     <Sale:GroupId xsi:type="xsd:int">0</Sale:GroupId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Sale:ToDate>
    </Sale:GetSummaryByGroup>
 
  </SOAP-ENV:Body>

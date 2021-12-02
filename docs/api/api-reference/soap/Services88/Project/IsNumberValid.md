@@ -1,10 +1,10 @@
 ---
-uid: services88-project-isnumbervalid
 title: Services88.ProjectAgent.IsNumberValid SOAP
-Generated: true
+generated: 1
+uid: Services88-Project-IsNumberValid
 ---
 
-# Services88 Project IsNumberValid SOAP
+# Services88 Project IsNumberValid
 
 SOAP request and response examples **Remote/Services88/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.IsNumberValid">SuperOffice.Services88.IProjectAgent.IsNumberValid</see> method.

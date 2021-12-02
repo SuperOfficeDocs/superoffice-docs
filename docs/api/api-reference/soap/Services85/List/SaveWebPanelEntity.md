@@ -1,10 +1,10 @@
 ---
-uid: services85-list-savewebpanelentity
 title: Services85.ListAgent.SaveWebPanelEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-List-SaveWebPanelEntity
 ---
 
-# Services85 List SaveWebPanelEntity SOAP
+# Services85 List SaveWebPanelEntity
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveWebPanelEntity">SuperOffice.Services85.IListAgent.SaveWebPanelEntity</see> method.

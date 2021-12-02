@@ -1,10 +1,10 @@
 ---
-uid: services88-list-savehierarchyentity
 title: Services88.ListAgent.SaveHierarchyEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SaveHierarchyEntity
 ---
 
-# Services88 List SaveHierarchyEntity SOAP
+# Services88 List SaveHierarchyEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveHierarchyEntity">SuperOffice.Services88.IListAgent.SaveHierarchyEntity</see> method.
@@ -65,21 +65,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:Children xsi:type="List:ArrayOfHierarchyEntity">
           <List:HierarchyEntity xsi:nil="true"></List:HierarchyEntity>
          </List:Children>
-         <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+         <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
          <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-         <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+         <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
          <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
         </List:HierarchyEntity>
        </List:Children>
-       <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+       <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
        <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-       <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+       <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
        <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
       </List:HierarchyEntity>
      </List:Children>
-     <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+     <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
      <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-     <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+     <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
      <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
     </List:HierarchyEntity>
    </List:SaveHierarchyEntity>
@@ -138,21 +138,21 @@ Application tokens must be specified if calling an Online installation. Applicat
           <List:UpdatedAssociateId xsi:nil="true"></List:UpdatedAssociateId>
          </List:HierarchyEntity>
         </List:Children>
-        <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+        <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
         <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-        <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+        <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
         <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
        </List:HierarchyEntity>
       </List:Children>
-      <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+      <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
       <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-      <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+      <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
       <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
      </List:HierarchyEntity>
     </List:Children>
-    <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+    <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Registered>
     <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-    <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+    <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:Updated>
     <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
    </List:Response>
   </List:SaveHierarchyEntityResponse>

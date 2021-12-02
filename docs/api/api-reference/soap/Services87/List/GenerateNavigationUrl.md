@@ -1,10 +1,10 @@
 ---
-uid: services87-list-generatenavigationurl
 title: Services87.ListAgent.GenerateNavigationUrl SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GenerateNavigationUrl
 ---
 
-# Services87 List GenerateNavigationUrl SOAP
+# Services87 List GenerateNavigationUrl
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GenerateNavigationUrl">SuperOffice.Services87.IListAgent.GenerateNavigationUrl</see> method.

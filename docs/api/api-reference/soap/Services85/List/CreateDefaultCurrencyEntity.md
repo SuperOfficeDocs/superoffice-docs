@@ -1,10 +1,10 @@
 ---
-uid: services85-list-createdefaultcurrencyentity
 title: Services85.ListAgent.CreateDefaultCurrencyEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-List-CreateDefaultCurrencyEntity
 ---
 
-# Services85 List CreateDefaultCurrencyEntity SOAP
+# Services85 List CreateDefaultCurrencyEntity
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.CreateDefaultCurrencyEntity">SuperOffice.Services85.IListAgent.CreateDefaultCurrencyEntity</see> method.

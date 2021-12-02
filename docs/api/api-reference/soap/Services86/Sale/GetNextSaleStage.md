@@ -1,10 +1,10 @@
 ---
-uid: services86-sale-getnextsalestage
 title: Services86.SaleAgent.GetNextSaleStage SOAP
-Generated: true
+generated: 1
+uid: Services86-Sale-GetNextSaleStage
 ---
 
-# Services86 Sale GetNextSaleStage SOAP
+# Services86 Sale GetNextSaleStage
 
 SOAP request and response examples **Remote/Services86/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetNextSaleStage">SuperOffice.Services86.ISaleAgent.GetNextSaleStage</see> method.

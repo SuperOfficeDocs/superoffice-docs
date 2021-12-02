@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-getactivepricelistsbycurrencyid
 title: Services88.QuoteAgent.GetActivePriceListsByCurrencyId SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-GetActivePriceListsByCurrencyId
 ---
 
-# Services88 Quote GetActivePriceListsByCurrencyId SOAP
+# Services88 Quote GetActivePriceListsByCurrencyId
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetActivePriceListsByCurrencyId">SuperOffice.Services88.IQuoteAgent.GetActivePriceListsByCurrencyId</see> method.
@@ -76,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:Description xsi:type="xsd:string"></Quote:Description>
      <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
      <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-     <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Quote:ValidFrom>
-     <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Quote:ValidTo>
+     <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:23:49Z</Quote:ValidFrom>
+     <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:23:49Z</Quote:ValidTo>
      <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
     </Quote:PriceList>
    </Quote:Response>

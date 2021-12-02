@@ -1,10 +1,10 @@
 ---
-uid: services86-mdo-getselectablelistwithrestriction
 title: Services86.MDOAgent.GetSelectableListWithRestriction SOAP
-Generated: true
+generated: 1
+uid: Services86-MDO-GetSelectableListWithRestriction
 ---
 
-# Services86 MDO GetSelectableListWithRestriction SOAP
+# Services86 MDO GetSelectableListWithRestriction
 
 SOAP request and response examples **Remote/Services86/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetSelectableListWithRestriction">SuperOffice.Services86.IMDOAgent.GetSelectableListWithRestriction</see> method.
@@ -80,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
      <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
      <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-     <MDO:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:15Z</MDO:LastChanged>
+     <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:58Z</MDO:LastChanged>
      <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
       <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
        <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
        <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
        <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-       <MDO:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:15Z</MDO:LastChanged>
+       <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:58Z</MDO:LastChanged>
        <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
         <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
          <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -104,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
          <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
          <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-         <MDO:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:15Z</MDO:LastChanged>
+         <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:58Z</MDO:LastChanged>
          <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
           <MDO:SelectableMDOListItem xsi:nil="true"></MDO:SelectableMDOListItem>
          </MDO:ChildItems>

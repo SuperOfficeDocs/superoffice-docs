@@ -1,7 +1,7 @@
 ---
-uid: services84-saint
 title: Services84.SaintAgent SOAP
-Generated: true
+uid: Services84-Saint-soap
+generated: 1
 ---
 
 # Services84 Saint SOAP
@@ -26,3 +26,4 @@ Download [WSDL file for Services84/Saint](../Services84-Saint.md) if you need to
 * [SaveStatusMonitor](SaveStatusMonitor.md)
 * [SaveStatusMonitorPeriods](SaveStatusMonitorPeriods.md)
 * [SetRankOnStatusMonitors](SetRankOnStatusMonitors.md)
+

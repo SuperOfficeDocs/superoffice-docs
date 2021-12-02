@@ -1,10 +1,10 @@
 ---
-uid: services87-import-saveimport
 title: Services87.ImportAgent.SaveImport SOAP
-Generated: true
+generated: 1
+uid: Services87-Import-SaveImport
 ---
 
-# Services87 Import SaveImport SOAP
+# Services87 Import SaveImport
 
 SOAP request and response examples **Remote/Services87/Import.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IImportAgent.SaveImport">SuperOffice.Services87.IImportAgent.SaveImport</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-find-populaterestrictions
 title: Services85.FindAgent.PopulateRestrictions SOAP
-Generated: true
+generated: 1
+uid: Services85-Find-PopulateRestrictions
 ---
 
-# Services85 Find PopulateRestrictions SOAP
+# Services85 Find PopulateRestrictions
 
 SOAP request and response examples **Remote/Services85/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFindAgent.PopulateRestrictions">SuperOffice.Services85.IFindAgent.PopulateRestrictions</see> method.

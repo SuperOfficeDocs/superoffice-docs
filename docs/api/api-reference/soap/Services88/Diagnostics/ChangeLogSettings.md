@@ -1,10 +1,10 @@
 ---
-uid: services88-diagnostics-changelogsettings
 title: Services88.DiagnosticsAgent.ChangeLogSettings SOAP
-Generated: true
+generated: 1
+uid: Services88-Diagnostics-ChangeLogSettings
 ---
 
-# Services88 Diagnostics ChangeLogSettings SOAP
+# Services88 Diagnostics ChangeLogSettings
 
 SOAP request and response examples **Remote/Services88/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.ChangeLogSettings">SuperOffice.Services88.IDiagnosticsAgent.ChangeLogSettings</see> method.

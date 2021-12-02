@@ -1,10 +1,10 @@
 ---
-uid: services87-email-getattachmentfromid
 title: Services87.EMailAgent.GetAttachmentFromId SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-GetAttachmentFromId
 ---
 
-# Services87 EMail GetAttachmentFromId SOAP
+# Services87 EMail GetAttachmentFromId
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetAttachmentFromId">SuperOffice.Services87.IEMailAgent.GetAttachmentFromId</see> method.

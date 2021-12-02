@@ -1,10 +1,10 @@
 ---
-uid: services88-user-removeownercontact
 title: Services88.UserAgent.RemoveOwnerContact SOAP
-Generated: true
+generated: 1
+uid: Services88-User-RemoveOwnerContact
 ---
 
-# Services88 User RemoveOwnerContact SOAP
+# Services88 User RemoveOwnerContact
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.RemoveOwnerContact">SuperOffice.Services88.IUserAgent.RemoveOwnerContact</see> method.

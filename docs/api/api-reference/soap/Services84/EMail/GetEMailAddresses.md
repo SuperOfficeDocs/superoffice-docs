@@ -1,10 +1,10 @@
 ---
-uid: services84-email-getemailaddresses
 title: Services84.EMailAgent.GetEMailAddresses SOAP
-Generated: true
+generated: 1
+uid: Services84-EMail-GetEMailAddresses
 ---
 
-# Services84 EMail GetEMailAddresses SOAP
+# Services84 EMail GetEMailAddresses
 
 SOAP request and response examples **Remote/Services84/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetEMailAddresses">SuperOffice.Services84.IEMailAgent.GetEMailAddresses</see> method.

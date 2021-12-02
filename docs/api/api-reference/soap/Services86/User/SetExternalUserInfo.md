@@ -1,10 +1,10 @@
 ---
-uid: services86-user-setexternaluserinfo
 title: Services86.UserAgent.SetExternalUserInfo SOAP
-Generated: true
+generated: 1
+uid: Services86-User-SetExternalUserInfo
 ---
 
-# Services86 User SetExternalUserInfo SOAP
+# Services86 User SetExternalUserInfo
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SetExternalUserInfo">SuperOffice.Services86.IUserAgent.SetExternalUserInfo</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-crmscript-validatescriptbyincludeid
 title: Services86.CRMScriptAgent.ValidateScriptByIncludeId SOAP
-Generated: true
+generated: 1
+uid: Services86-CRMScript-ValidateScriptByIncludeId
 ---
 
-# Services86 CRMScript ValidateScriptByIncludeId SOAP
+# Services86 CRMScript ValidateScriptByIncludeId
 
 SOAP request and response examples **Remote/Services86/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.ValidateScriptByIncludeId">SuperOffice.Services86.ICRMScriptAgent.ValidateScriptByIncludeId</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-pocket-sendpushnotification
 title: Services87.PocketAgent.SendPushNotification SOAP
-Generated: true
+generated: 1
+uid: Services87-Pocket-SendPushNotification
 ---
 
-# Services87 Pocket SendPushNotification SOAP
+# Services87 Pocket SendPushNotification
 
 SOAP request and response examples **Remote/Services87/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPocketAgent.SendPushNotification">SuperOffice.Services87.IPocketAgent.SendPushNotification</see> method.
@@ -53,7 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Pocket:Type xsi:type="Pocket:NotificationMessageType">Message</Pocket:Type>
      <Pocket:TimeToLive xsi:type="xsd:int">0</Pocket:TimeToLive>
      <Pocket:RecordId xsi:type="xsd:int">0</Pocket:RecordId>
-     <Pocket:Date xsi:type="xsd:dateTime">2021-03-25T21:36:40Z</Pocket:Date>
+     <Pocket:Date xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Pocket:Date>
      <Pocket:Duration xsi:type="NetServerServices871:duration"></Pocket:Duration>
      <Pocket:ExtraValues xsi:type="Pocket:StringDictionary">
       <Pocket:StringKeyValuePair>

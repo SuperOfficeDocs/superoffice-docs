@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-getquotelineconfiguration
 title: Services85.QuoteAgent.GetQuoteLineConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-GetQuoteLineConfiguration
 ---
 
-# Services85 Quote GetQuoteLineConfiguration SOAP
+# Services85 Quote GetQuoteLineConfiguration
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetQuoteLineConfiguration">SuperOffice.Services85.IQuoteAgent.GetQuoteLineConfiguration</see> method.

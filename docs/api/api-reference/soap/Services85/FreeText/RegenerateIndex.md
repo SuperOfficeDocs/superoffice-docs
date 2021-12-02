@@ -1,10 +1,10 @@
 ---
-uid: services85-freetext-regenerateindex
 title: Services85.FreeTextAgent.RegenerateIndex SOAP
-Generated: true
+generated: 1
+uid: Services85-FreeText-RegenerateIndex
 ---
 
-# Services85 FreeText RegenerateIndex SOAP
+# Services85 FreeText RegenerateIndex
 
 SOAP request and response examples **Remote/Services85/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFreeTextAgent.RegenerateIndex">SuperOffice.Services85.IFreeTextAgent.RegenerateIndex</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:48Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2021-03-25T21:35:48Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:33Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2021-11-30T13:22:33Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>

@@ -1,7 +1,7 @@
 ---
-uid: services86-replication
 title: Services86.ReplicationAgent SOAP
-Generated: true
+uid: Services86-Replication-soap
+generated: 1
 ---
 
 # Services86 Replication SOAP
@@ -24,3 +24,4 @@ Download [WSDL file for Services86/Replication](../Services86-Replication.md) if
 * [SaveCentralLicense](SaveCentralLicense.md)
 * [SaveSatellite](SaveSatellite.md)
 * [SetFreetextSearchEnabledOnArea](SetFreetextSearchEnabledOnArea.md)
+

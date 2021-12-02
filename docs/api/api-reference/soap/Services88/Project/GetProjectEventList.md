@@ -1,10 +1,10 @@
 ---
-uid: services88-project-getprojecteventlist
 title: Services88.ProjectAgent.GetProjectEventList SOAP
-Generated: true
+generated: 1
+uid: Services88-Project-GetProjectEventList
 ---
 
-# Services88 Project GetProjectEventList SOAP
+# Services88 Project GetProjectEventList
 
 SOAP request and response examples **Remote/Services88/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.GetProjectEventList">SuperOffice.Services88.IProjectAgent.GetProjectEventList</see> method.
@@ -79,7 +79,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
      <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
      <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-     <Project:EventDate xsi:type="xsd:dateTime">2021-03-25T21:37:07Z</Project:EventDate>
+     <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:23:48Z</Project:EventDate>
      <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
      <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
      <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>

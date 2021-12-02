@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-getarchivelistwithcontext
 title: Services88.ArchiveAgent.GetArchiveListWithContext SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-GetArchiveListWithContext
 ---
 
-# Services88 Archive GetArchiveListWithContext SOAP
+# Services88 Archive GetArchiveListWithContext
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetArchiveListWithContext">SuperOffice.Services88.IArchiveAgent.GetArchiveListWithContext</see> method.
@@ -80,6 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Archive:Width xsi:type="xsd:string"></Archive:Width>
        <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
        <Archive:HeadingIconHint xsi:type="xsd:string"></Archive:HeadingIconHint>
+       <Archive:ExtraInfo xsi:type="xsd:string"></Archive:ExtraInfo>
       </Archive:ColumnInfo>
       <Archive:IsActive xsi:type="xsd:boolean">false</Archive:IsActive>
       <Archive:SubRestrictions xsi:type="Archive:ArrayOfArchiveRestrictionInfo">
@@ -105,6 +106,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Archive:Width xsi:type="xsd:string"></Archive:Width>
          <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
          <Archive:HeadingIconHint xsi:type="xsd:string"></Archive:HeadingIconHint>
+         <Archive:ExtraInfo xsi:type="xsd:string"></Archive:ExtraInfo>
         </Archive:ColumnInfo>
         <Archive:IsActive xsi:type="xsd:boolean">false</Archive:IsActive>
         <Archive:SubRestrictions xsi:type="Archive:ArrayOfArchiveRestrictionInfo">

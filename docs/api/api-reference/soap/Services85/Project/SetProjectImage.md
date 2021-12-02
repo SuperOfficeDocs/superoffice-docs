@@ -1,10 +1,10 @@
 ---
-uid: services85-project-setprojectimage
 title: Services85.ProjectAgent.SetProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services85-Project-SetProjectImage
 ---
 
-# Services85 Project SetProjectImage SOAP
+# Services85 Project SetProjectImage
 
 SOAP request and response examples **Remote/Services85/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.SetProjectImage">SuperOffice.Services85.IProjectAgent.SetProjectImage</see> method.

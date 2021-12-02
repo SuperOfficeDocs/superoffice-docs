@@ -1,10 +1,10 @@
 ---
-uid: services88-license-unassignthirdpartylicenses
 title: Services88.LicenseAgent.UnassignThirdPartyLicenses SOAP
-Generated: true
+generated: 1
+uid: Services88-License-UnassignThirdPartyLicenses
 ---
 
-# Services88 License UnassignThirdPartyLicenses SOAP
+# Services88 License UnassignThirdPartyLicenses
 
 SOAP request and response examples **Remote/Services88/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.UnassignThirdPartyLicenses">SuperOffice.Services88.ILicenseAgent.UnassignThirdPartyLicenses</see> method.
@@ -88,6 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <License:Description xsi:type="xsd:string"></License:Description>
      <License:PrerequisiteModuleName xsi:type="xsd:string"></License:PrerequisiteModuleName>
      <License:SortOrder xsi:type="xsd:int">0</License:SortOrder>
+     <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
     </License:ModuleLicenseLink>
    </License:Response>
   </License:UnassignThirdPartyLicensesResponse>

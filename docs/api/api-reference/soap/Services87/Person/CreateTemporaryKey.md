@@ -1,10 +1,10 @@
 ---
-uid: services87-person-createtemporarykey
 title: Services87.PersonAgent.CreateTemporaryKey SOAP
-Generated: true
+generated: 1
+uid: Services87-Person-CreateTemporaryKey
 ---
 
-# Services87 Person CreateTemporaryKey SOAP
+# Services87 Person CreateTemporaryKey
 
 SOAP request and response examples **Remote/Services87/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.CreateTemporaryKey">SuperOffice.Services87.IPersonAgent.CreateTemporaryKey</see> method.
@@ -48,7 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:Domain xsi:type="Person:TemporaryKeyDomain">Unknown</Person:Domain>
     <Person:TargetId xsi:type="xsd:int">0</Person:TargetId>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
-    <Person:Expires xsi:type="xsd:dateTime">2021-03-25T21:36:40Z</Person:Expires>
+    <Person:Expires xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Expires>
    </Person:CreateTemporaryKey>
 
  </SOAP-ENV:Body>

@@ -1,7 +1,7 @@
 ---
-uid: services84-replication
 title: Services84.ReplicationAgent SOAP
-Generated: true
+uid: Services84-Replication-soap
+generated: 1
 ---
 
 # Services84 Replication SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services84/Replication](../Services84-Replication.md) if
 * [SaveCentralLicense](SaveCentralLicense.md)
 * [SaveSatellite](SaveSatellite.md)
 * [SetFreetextSearchEnabledOnArea](SetFreetextSearchEnabledOnArea.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services84-blob-getproductimage
 title: Services84.BLOBAgent.GetProductImage SOAP
-Generated: true
+generated: 1
+uid: Services84-BLOB-GetProductImage
 ---
 
-# Services84 BLOB GetProductImage SOAP
+# Services84 BLOB GetProductImage
 
 SOAP request and response examples **Remote/Services84/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.GetProductImage">SuperOffice.Services84.IBLOBAgent.GetProductImage</see> method.

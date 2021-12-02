@@ -1,7 +1,7 @@
 ---
-uid: services85-preference
 title: Services85.PreferenceAgent SOAP
-Generated: true
+uid: Services85-Preference-soap
+generated: 1
 ---
 
 # Services85 Preference SOAP
@@ -43,3 +43,4 @@ Download [WSDL file for Services85/Preference](../Services85-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
+

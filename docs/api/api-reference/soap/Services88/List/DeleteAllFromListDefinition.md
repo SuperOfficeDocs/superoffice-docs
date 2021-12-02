@@ -1,10 +1,10 @@
 ---
-uid: services88-list-deleteallfromlistdefinition
 title: Services88.ListAgent.DeleteAllFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services88-List-DeleteAllFromListDefinition
 ---
 
-# Services88 List DeleteAllFromListDefinition SOAP
+# Services88 List DeleteAllFromListDefinition
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteAllFromListDefinition">SuperOffice.Services88.IListAgent.DeleteAllFromListDefinition</see> method.

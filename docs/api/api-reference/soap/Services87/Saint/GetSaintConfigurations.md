@@ -1,10 +1,10 @@
 ---
-uid: services87-saint-getsaintconfigurations
 title: Services87.SaintAgent.GetSaintConfigurations SOAP
-Generated: true
+generated: 1
+uid: Services87-Saint-GetSaintConfigurations
 ---
 
-# Services87 Saint GetSaintConfigurations SOAP
+# Services87 Saint GetSaintConfigurations
 
 SOAP request and response examples **Remote/Services87/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.GetSaintConfigurations">SuperOffice.Services87.ISaintAgent.GetSaintConfigurations</see> method.
@@ -70,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Saint:Period1 xsi:type="xsd:int">0</Saint:Period1>
      <Saint:Period2 xsi:type="xsd:int">0</Saint:Period2>
      <Saint:Period3 xsi:type="xsd:int">0</Saint:Period3>
-     <Saint:GenerationStart xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Saint:GenerationStart>
-     <Saint:GenerationEnd xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Saint:GenerationEnd>
+     <Saint:GenerationStart xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:GenerationStart>
+     <Saint:GenerationEnd xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:GenerationEnd>
      <Saint:RowsGenerated xsi:type="xsd:int">0</Saint:RowsGenerated>
     </Saint:SaintConfiguration>
    </Saint:Response>

@@ -1,10 +1,10 @@
 ---
-uid: services84-dashboard-deletedashboard
 title: Services84.DashboardAgent.DeleteDashboard SOAP
-Generated: true
+generated: 1
+uid: Services84-Dashboard-DeleteDashboard
 ---
 
-# Services84 Dashboard DeleteDashboard SOAP
+# Services84 Dashboard DeleteDashboard
 
 SOAP request and response examples **Remote/Services84/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.DeleteDashboard">SuperOffice.Services84.IDashboardAgent.DeleteDashboard</see> method.

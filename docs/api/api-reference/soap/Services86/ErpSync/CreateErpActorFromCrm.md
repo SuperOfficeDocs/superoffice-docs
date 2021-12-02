@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-createerpactorfromcrm
 title: Services86.ErpSyncAgent.CreateErpActorFromCrm SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-CreateErpActorFromCrm
 ---
 
-# Services86 ErpSync CreateErpActorFromCrm SOAP
+# Services86 ErpSync CreateErpActorFromCrm
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.CreateErpActorFromCrm">SuperOffice.Services86.IErpSyncAgent.CreateErpActorFromCrm</see> method.

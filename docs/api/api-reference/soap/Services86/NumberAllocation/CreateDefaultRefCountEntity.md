@@ -1,10 +1,10 @@
 ---
-uid: services86-numberallocation-createdefaultrefcountentity
 title: Services86.NumberAllocationAgent.CreateDefaultRefCountEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-NumberAllocation-CreateDefaultRefCountEntity
 ---
 
-# Services86 NumberAllocation CreateDefaultRefCountEntity SOAP
+# Services86 NumberAllocation CreateDefaultRefCountEntity
 
 SOAP request and response examples **Remote/Services86/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.INumberAllocationAgent.CreateDefaultRefCountEntity">SuperOffice.Services86.INumberAllocationAgent.CreateDefaultRefCountEntity</see> method.

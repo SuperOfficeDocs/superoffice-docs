@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-gettasklistitems
 title: Services87.AppointmentAgent.GetTaskListItems SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-GetTaskListItems
 ---
 
-# Services87 Appointment GetTaskListItems SOAP
+# Services87 Appointment GetTaskListItems
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetTaskListItems">SuperOffice.Services87.IAppointmentAgent.GetTaskListItems</see> method.

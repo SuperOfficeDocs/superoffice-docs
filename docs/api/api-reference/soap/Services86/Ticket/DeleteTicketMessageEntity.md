@@ -1,10 +1,10 @@
 ---
-uid: services86-ticket-deleteticketmessageentity
 title: Services86.TicketAgent.DeleteTicketMessageEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Ticket-DeleteTicketMessageEntity
 ---
 
-# Services86 Ticket DeleteTicketMessageEntity SOAP
+# Services86 Ticket DeleteTicketMessageEntity
 
 SOAP request and response examples **Remote/Services86/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.DeleteTicketMessageEntity">SuperOffice.Services86.ITicketAgent.DeleteTicketMessageEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-list-savesalestageentity
 title: Services87.ListAgent.SaveSaleStageEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SaveSaleStageEntity
 ---
 
-# Services87 List SaveSaleStageEntity SOAP
+# Services87 List SaveSaleStageEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveSaleStageEntity">SuperOffice.Services87.IListAgent.SaveSaleStageEntity</see> method.

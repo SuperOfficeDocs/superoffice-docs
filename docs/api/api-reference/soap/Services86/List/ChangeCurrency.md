@@ -1,10 +1,10 @@
 ---
-uid: services86-list-changecurrency
 title: Services86.ListAgent.ChangeCurrency SOAP
-Generated: true
+generated: 1
+uid: Services86-List-ChangeCurrency
 ---
 
-# Services86 List ChangeCurrency SOAP
+# Services86 List ChangeCurrency
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.ChangeCurrency">SuperOffice.Services86.IListAgent.ChangeCurrency</see> method.

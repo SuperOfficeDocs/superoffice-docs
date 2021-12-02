@@ -1,10 +1,10 @@
 ---
-uid: services87-marketing-verifygooglerecaptcha
 title: Services87.MarketingAgent.VerifyGoogleRecaptcha SOAP
-Generated: true
+generated: 1
+uid: Services87-Marketing-VerifyGoogleRecaptcha
 ---
 
-# Services87 Marketing VerifyGoogleRecaptcha SOAP
+# Services87 Marketing VerifyGoogleRecaptcha
 
 SOAP request and response examples **Remote/Services87/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IMarketingAgent.VerifyGoogleRecaptcha">SuperOffice.Services87.IMarketingAgent.VerifyGoogleRecaptcha</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-crmscript-deletecrmscriptentity
 title: Services86.CRMScriptAgent.DeleteCRMScriptEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-CRMScript-DeleteCRMScriptEntity
 ---
 
-# Services86 CRMScript DeleteCRMScriptEntity SOAP
+# Services86 CRMScript DeleteCRMScriptEntity
 
 SOAP request and response examples **Remote/Services86/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.DeleteCRMScriptEntity">SuperOffice.Services86.ICRMScriptAgent.DeleteCRMScriptEntity</see> method.

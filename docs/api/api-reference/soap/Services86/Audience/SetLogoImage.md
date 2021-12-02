@@ -1,10 +1,10 @@
 ---
-uid: services86-audience-setlogoimage
 title: Services86.AudienceAgent.SetLogoImage SOAP
-Generated: true
+generated: 1
+uid: Services86-Audience-SetLogoImage
 ---
 
-# Services86 Audience SetLogoImage SOAP
+# Services86 Audience SetLogoImage
 
 SOAP request and response examples **Remote/Services86/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAudienceAgent.SetLogoImage">SuperOffice.Services86.IAudienceAgent.SetLogoImage</see> method.

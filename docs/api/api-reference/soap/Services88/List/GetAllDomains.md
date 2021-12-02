@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getalldomains
 title: Services88.ListAgent.GetAllDomains SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetAllDomains
 ---
 
-# Services88 List GetAllDomains SOAP
+# Services88 List GetAllDomains
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetAllDomains">SuperOffice.Services88.IListAgent.GetAllDomains</see> method.

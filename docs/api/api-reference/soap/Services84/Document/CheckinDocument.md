@@ -1,10 +1,10 @@
 ---
-uid: services84-document-checkindocument
 title: Services84.DocumentAgent.CheckinDocument SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-CheckinDocument
 ---
 
-# Services84 Document CheckinDocument SOAP
+# Services84 Document CheckinDocument
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.CheckinDocument">SuperOffice.Services84.IDocumentAgent.CheckinDocument</see> method.

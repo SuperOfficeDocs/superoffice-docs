@@ -1,22 +1,21 @@
 ---
-uid: services88-ai-guesscategory
 title: Services88.AIAgent.GuessCategory SOAP
-Generated: true
+generated: 1
+uid: Services88-AI-GuessCategory
 ---
 
-# Services88 AI GuessCategory SOAP
+# Services88 AI GuessCategory
 
 SOAP request and response examples **Remote/Services88/AI.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.GuessCategory">SuperOffice.Services88.IAIAgent.GuessCategory</see> method.
 
 ## GuessCategory
 
-Given a ticket's subject and message body, guess the ticket category it should be placed in
+Given a ticket's id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket
 
-* **subject:** Ticket subject
-* **text:** Ticket body text (not HTML)
+* **ticketId:** Id of ticket to guess category for
 
-**Returns:** Suggested ticket category full name
+**Returns:** Suggested ticket category ID
 
 
 [WSDL file for Services88/AI](../Services88-AI.md)
@@ -42,8 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </AI:Credentials>
  <SOAP-ENV:Body>
    <AI:GuessCategory>
-    <AI:Subject xsi:type="xsd:string"></AI:Subject>
-    <AI:Text xsi:type="xsd:string"></AI:Text>
+    <AI:TicketId xsi:type="xsd:int">0</AI:TicketId>
    </AI:GuessCategory>
 
  </SOAP-ENV:Body>
@@ -65,7 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:AI="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <AI:GuessCategoryResponse>
-   <AI:Response xsi:type="xsd:string"></AI:Response>
+   <AI:Response xsi:type="xsd:int">0</AI:Response>
   </AI:GuessCategoryResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

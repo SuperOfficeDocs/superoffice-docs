@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-generatelead
 title: Services84.AppointmentAgent.GenerateLead SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-GenerateLead
 ---
 
-# Services84 Appointment GenerateLead SOAP
+# Services84 Appointment GenerateLead
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.GenerateLead">SuperOffice.Services84.IAppointmentAgent.GenerateLead</see> method.

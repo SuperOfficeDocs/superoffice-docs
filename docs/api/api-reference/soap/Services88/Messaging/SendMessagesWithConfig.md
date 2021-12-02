@@ -1,10 +1,10 @@
 ---
-uid: services88-messaging-sendmessageswithconfig
 title: Services88.MessagingAgent.SendMessagesWithConfig SOAP
-Generated: true
+generated: 1
+uid: Services88-Messaging-SendMessagesWithConfig
 ---
 
-# Services88 Messaging SendMessagesWithConfig SOAP
+# Services88 Messaging SendMessagesWithConfig
 
 SOAP request and response examples **Remote/Services88/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMessagingAgent.SendMessagesWithConfig">SuperOffice.Services88.IMessagingAgent.SendMessagesWithConfig</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-getselectionmembersarchiverows
 title: Services84.SelectionAgent.GetSelectionMembersArchiveRows SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-GetSelectionMembersArchiveRows
 ---
 
-# Services84 Selection GetSelectionMembersArchiveRows SOAP
+# Services84 Selection GetSelectionMembersArchiveRows
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.GetSelectionMembersArchiveRows">SuperOffice.Services84.ISelectionAgent.GetSelectionMembersArchiveRows</see> method.

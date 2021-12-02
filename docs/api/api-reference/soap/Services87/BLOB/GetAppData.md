@@ -1,10 +1,10 @@
 ---
-uid: services87-blob-getappdata
 title: Services87.BLOBAgent.GetAppData SOAP
-Generated: true
+generated: 1
+uid: Services87-BLOB-GetAppData
 ---
 
-# Services87 BLOB GetAppData SOAP
+# Services87 BLOB GetAppData
 
 SOAP request and response examples **Remote/Services87/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.GetAppData">SuperOffice.Services87.IBLOBAgent.GetAppData</see> method.

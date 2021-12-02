@@ -1,10 +1,10 @@
 ---
-uid: services84-project-getprojecteventonperson
 title: Services84.ProjectAgent.GetProjectEventOnPerson SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-GetProjectEventOnPerson
 ---
 
-# Services84 Project GetProjectEventOnPerson SOAP
+# Services84 Project GetProjectEventOnPerson
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.GetProjectEventOnPerson">SuperOffice.Services84.IProjectAgent.GetProjectEventOnPerson</see> method.
@@ -77,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2021-03-25T21:35:33Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:22:18Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>

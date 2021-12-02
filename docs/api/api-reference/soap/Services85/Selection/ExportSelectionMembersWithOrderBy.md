@@ -1,10 +1,10 @@
 ---
-uid: services85-selection-exportselectionmemberswithorderby
 title: Services85.SelectionAgent.ExportSelectionMembersWithOrderBy SOAP
-Generated: true
+generated: 1
+uid: Services85-Selection-ExportSelectionMembersWithOrderBy
 ---
 
-# Services85 Selection ExportSelectionMembersWithOrderBy SOAP
+# Services85 Selection ExportSelectionMembersWithOrderBy
 
 SOAP request and response examples **Remote/Services85/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.ExportSelectionMembersWithOrderBy">SuperOffice.Services85.ISelectionAgent.ExportSelectionMembersWithOrderBy</see> method.

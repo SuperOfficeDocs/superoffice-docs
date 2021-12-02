@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Pocket
 title: Services88.PocketAgent WSDL
 ---
 
@@ -310,6 +310,8 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="Dashboard" />
           <xs:enumeration value="PersonArchive" />
           <xs:enumeration value="PersonMinicard" />
+          <xs:enumeration value="CompanyCardTask" />
+          <xs:enumeration value="ProjectCardTask" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="q35:Navigation" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
@@ -473,6 +475,7 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="PNSHandle" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Platform" type="q54:NotificationPlatform" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="OSVersion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TimeZoneId" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="PocketDeviceInfo" nillable="true" type="q55:PocketDeviceInfo" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />

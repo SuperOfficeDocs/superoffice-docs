@@ -1,10 +1,10 @@
 ---
-uid: services88-report-deletefavorite
 title: Services88.ReportAgent.DeleteFavorite SOAP
-Generated: true
+generated: 1
+uid: Services88-Report-DeleteFavorite
 ---
 
-# Services88 Report DeleteFavorite SOAP
+# Services88 Report DeleteFavorite
 
 SOAP request and response examples **Remote/Services88/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.DeleteFavorite">SuperOffice.Services88.IReportAgent.DeleteFavorite</see> method.

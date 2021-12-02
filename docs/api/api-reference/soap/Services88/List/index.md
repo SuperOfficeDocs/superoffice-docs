@@ -1,7 +1,7 @@
 ---
-uid: services88-list
 title: Services88.ListAgent SOAP
-Generated: true
+uid: Services88-List-soap
+generated: 1
 ---
 
 # Services88 List SOAP
@@ -269,6 +269,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SaveTicketPriorityEntity](SaveTicketPriorityEntity.md)
 * [SaveTicketStatusEntity](SaveTicketStatusEntity.md)
 * [SaveWebPanelEntity](SaveWebPanelEntity.md)
+* [SetDocumentPluginForAllDocumentTemplates](SetDocumentPluginForAllDocumentTemplates.md)
 * [SetDocumentTemplateFromDocumentTemplate](SetDocumentTemplateFromDocumentTemplate.md)
 * [SetDocumentTemplateStream](SetDocumentTemplateStream.md)
 * [SetEmarketingStrictMode](SetEmarketingStrictMode.md)
@@ -283,8 +284,11 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SetRankOnSaleActivity](SetRankOnSaleActivity.md)
 * [SetRankOnSaleDocument](SetRankOnSaleDocument.md)
 * [SetTicketCategoriesForUserGroup](SetTicketCategoriesForUserGroup.md)
+* [SetTicketPrioritySortOrder](SetTicketPrioritySortOrder.md)
+* [SetTicketStatusSortOrder](SetTicketStatusSortOrder.md)
 * [SetVisibleForUserGroup](SetVisibleForUserGroup.md)
 * [SetVisibleForUserGroups](SetVisibleForUserGroups.md)
 * [SetVisibleForUserGroupsFromListName](SetVisibleForUserGroupsFromListName.md)
 * [SortListItems](SortListItems.md)
 * [UpdateHierarchyFromPath](UpdateHierarchyFromPath.md)
+

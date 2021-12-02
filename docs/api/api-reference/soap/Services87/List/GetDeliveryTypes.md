@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getdeliverytypes
 title: Services87.ListAgent.GetDeliveryTypes SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetDeliveryTypes
 ---
 
-# Services87 List GetDeliveryTypes SOAP
+# Services87 List GetDeliveryTypes
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetDeliveryTypes">SuperOffice.Services87.IListAgent.GetDeliveryTypes</see> method.

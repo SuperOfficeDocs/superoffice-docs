@@ -1,10 +1,10 @@
 ---
-uid: services87-user-makeretired
 title: Services87.UserAgent.MakeRetired SOAP
-Generated: true
+generated: 1
+uid: Services87-User-MakeRetired
 ---
 
-# Services87 User MakeRetired SOAP
+# Services87 User MakeRetired
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.MakeRetired">SuperOffice.Services87.IUserAgent.MakeRetired</see> method.

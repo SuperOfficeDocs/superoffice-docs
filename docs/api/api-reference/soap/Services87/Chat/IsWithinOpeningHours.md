@@ -1,10 +1,10 @@
 ---
-uid: services87-chat-iswithinopeninghours
 title: Services87.ChatAgent.IsWithinOpeningHours SOAP
-Generated: true
+generated: 1
+uid: Services87-Chat-IsWithinOpeningHours
 ---
 
-# Services87 Chat IsWithinOpeningHours SOAP
+# Services87 Chat IsWithinOpeningHours
 
 SOAP request and response examples **Remote/Services87/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IChatAgent.IsWithinOpeningHours">SuperOffice.Services87.IChatAgent.IsWithinOpeningHours</see> method.

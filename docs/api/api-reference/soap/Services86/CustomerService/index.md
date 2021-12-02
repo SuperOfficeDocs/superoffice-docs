@@ -1,7 +1,7 @@
 ---
-uid: services86-customerservice
 title: Services86.CustomerServiceAgent SOAP
-Generated: true
+uid: Services86-CustomerService-soap
+generated: 1
 ---
 
 # Services86 CustomerService SOAP
@@ -33,3 +33,4 @@ Download [WSDL file for Services86/CustomerService](../Services86-CustomerServic
 * [SaveSmsConfig](SaveSmsConfig.md)
 * [SessionIsValid](SessionIsValid.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

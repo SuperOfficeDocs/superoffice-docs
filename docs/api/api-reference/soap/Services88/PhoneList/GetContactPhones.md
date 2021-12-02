@@ -1,10 +1,10 @@
 ---
-uid: services88-phonelist-getcontactphones
 title: Services88.PhoneListAgent.GetContactPhones SOAP
-Generated: true
+generated: 1
+uid: Services88-PhoneList-GetContactPhones
 ---
 
-# Services88 PhoneList GetContactPhones SOAP
+# Services88 PhoneList GetContactPhones
 
 SOAP request and response examples **Remote/Services88/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPhoneListAgent.GetContactPhones">SuperOffice.Services88.IPhoneListAgent.GetContactPhones</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services86-numberallocation
 title: Services86.NumberAllocationAgent SOAP
-Generated: true
+uid: Services86-NumberAllocation-soap
+generated: 1
 ---
 
 # Services86 NumberAllocation SOAP
@@ -22,3 +22,4 @@ Download [WSDL file for Services86/NumberAllocation](../Services86-NumberAllocat
 * [SaveDefaultNumbering](SaveDefaultNumbering.md)
 * [SaveRefCountEntity](SaveRefCountEntity.md)
 * [SetNumberEachTemplate](SetNumberEachTemplate.md)
+

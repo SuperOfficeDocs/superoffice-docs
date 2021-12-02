@@ -1,10 +1,10 @@
 ---
-uid: services87-person-checktemporarykey
 title: Services87.PersonAgent.CheckTemporaryKey SOAP
-Generated: true
+generated: 1
+uid: Services87-Person-CheckTemporaryKey
 ---
 
-# Services87 Person CheckTemporaryKey SOAP
+# Services87 Person CheckTemporaryKey
 
 SOAP request and response examples **Remote/Services87/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.CheckTemporaryKey">SuperOffice.Services87.IPersonAgent.CheckTemporaryKey</see> method.

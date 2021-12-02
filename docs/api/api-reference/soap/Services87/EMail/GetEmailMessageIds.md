@@ -1,10 +1,10 @@
 ---
-uid: services87-email-getemailmessageids
 title: Services87.EMailAgent.GetEmailMessageIds SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-GetEmailMessageIds
 ---
 
-# Services87 EMail GetEmailMessageIds SOAP
+# Services87 EMail GetEmailMessageIds
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetEmailMessageIds">SuperOffice.Services87.IEMailAgent.GetEmailMessageIds</see> method.

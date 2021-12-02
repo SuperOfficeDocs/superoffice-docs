@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-setproductthumbnail
 title: Services86.BLOBAgent.SetProductThumbnail SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SetProductThumbnail
 ---
 
-# Services86 BLOB SetProductThumbnail SOAP
+# Services86 BLOB SetProductThumbnail
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SetProductThumbnail">SuperOffice.Services86.IBLOBAgent.SetProductThumbnail</see> method.

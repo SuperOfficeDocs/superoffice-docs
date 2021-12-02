@@ -1,10 +1,10 @@
 ---
-uid: services87-list-saverelationdefinitionentity
 title: Services87.ListAgent.SaveRelationDefinitionEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SaveRelationDefinitionEntity
 ---
 
-# Services87 List SaveRelationDefinitionEntity SOAP
+# Services87 List SaveRelationDefinitionEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveRelationDefinitionEntity">SuperOffice.Services87.IListAgent.SaveRelationDefinitionEntity</see> method.

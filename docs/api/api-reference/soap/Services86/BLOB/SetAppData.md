@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-setappdata
 title: Services86.BLOBAgent.SetAppData SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SetAppData
 ---
 
-# Services86 BLOB SetAppData SOAP
+# Services86 BLOB SetAppData
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SetAppData">SuperOffice.Services86.IBLOBAgent.SetAppData</see> method.

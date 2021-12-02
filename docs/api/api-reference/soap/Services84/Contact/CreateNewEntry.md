@@ -1,10 +1,10 @@
 ---
-uid: services84-contact-createnewentry
 title: Services84.ContactAgent.CreateNewEntry SOAP
-Generated: true
+generated: 1
+uid: Services84-Contact-CreateNewEntry
 ---
 
-# Services84 Contact CreateNewEntry SOAP
+# Services84 Contact CreateNewEntry
 
 SOAP request and response examples **Remote/Services84/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.CreateNewEntry">SuperOffice.Services84.IContactAgent.CreateNewEntry</see> method.

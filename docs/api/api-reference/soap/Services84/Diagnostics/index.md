@@ -1,7 +1,7 @@
 ---
-uid: services84-diagnostics
 title: Services84.DiagnosticsAgent SOAP
-Generated: true
+uid: Services84-Diagnostics-soap
+generated: 1
 ---
 
 # Services84 Diagnostics SOAP
@@ -26,3 +26,4 @@ Download [WSDL file for Services84/Diagnostics](../Services84-Diagnostics.md) if
 * [GetCacheNames](GetCacheNames.md)
 * [LogViewState](LogViewState.md)
 * [ResyncUsers](ResyncUsers.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services84-customerservice-getstatistics
 title: Services84.CustomerServiceAgent.GetStatistics SOAP
-Generated: true
+generated: 1
+uid: Services84-CustomerService-GetStatistics
 ---
 
-# Services84 CustomerService GetStatistics SOAP
+# Services84 CustomerService GetStatistics
 
 SOAP request and response examples **Remote/Services84/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.GetStatistics">SuperOffice.Services84.ICustomerServiceAgent.GetStatistics</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-tooltips-gettooltip
 title: Services88.TooltipsAgent.GetTooltip SOAP
-Generated: true
+generated: 1
+uid: Services88-Tooltips-GetTooltip
 ---
 
-# Services88 Tooltips GetTooltip SOAP
+# Services88 Tooltips GetTooltip
 
 SOAP request and response examples **Remote/Services88/Tooltips.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITooltipsAgent.GetTooltip">SuperOffice.Services88.ITooltipsAgent.GetTooltip</see> method.

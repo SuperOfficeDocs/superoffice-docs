@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-License
 title: Services88.LicenseAgent WSDL
 ---
 
@@ -493,6 +493,7 @@ title: Services88.LicenseAgent WSDL
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PrerequisiteModuleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SortOrder" type="xs:int" />
+              <xs:element minOccurs="0" name="ExtraFlags" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

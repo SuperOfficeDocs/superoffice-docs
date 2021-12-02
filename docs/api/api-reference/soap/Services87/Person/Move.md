@@ -1,10 +1,10 @@
 ---
-uid: services87-person-move
 title: Services87.PersonAgent.Move SOAP
-Generated: true
+generated: 1
+uid: Services87-Person-Move
 ---
 
-# Services87 Person Move SOAP
+# Services87 Person Move
 
 SOAP request and response examples **Remote/Services87/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.Move">SuperOffice.Services87.IPersonAgent.Move</see> method.
@@ -45,7 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Move>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
     <Person:DestinationContactId xsi:type="xsd:int">0</Person:DestinationContactId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2021-03-25T21:36:40Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:MoveAfterDate>
    </Person:Move>
 
  </SOAP-ENV:Body>

@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-createdefaultticketentity
 title: Services88.TicketAgent.CreateDefaultTicketEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-CreateDefaultTicketEntity
 ---
 
-# Services88 Ticket CreateDefaultTicketEntity SOAP
+# Services88 Ticket CreateDefaultTicketEntity
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.CreateDefaultTicketEntity">SuperOffice.Services88.ITicketAgent.CreateDefaultTicketEntity</see> method.
@@ -67,16 +67,16 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Ticket:Response xsi:type="Ticket:TicketEntity">
     <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
     <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:CreatedAt>
-    <Ticket:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:LastChanged>
-    <Ticket:ReadByOwner xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:ReadByOwner>
-    <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:ReadByCustomer>
-    <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:FirstReadByUser>
-    <Ticket:Activate xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:Activate>
-    <Ticket:ClosedAt xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:ClosedAt>
-    <Ticket:RepliedAt xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:RepliedAt>
-    <Ticket:AlertTimeout xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:AlertTimeout>
-    <Ticket:Deadline xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:Deadline>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:CreatedAt>
+    <Ticket:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:LastChanged>
+    <Ticket:ReadByOwner xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:ReadByOwner>
+    <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:ReadByCustomer>
+    <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:FirstReadByUser>
+    <Ticket:Activate xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:Activate>
+    <Ticket:ClosedAt xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:ClosedAt>
+    <Ticket:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:RepliedAt>
+    <Ticket:AlertTimeout xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:AlertTimeout>
+    <Ticket:Deadline xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:Deadline>
     <Ticket:CreatedBy xsi:type="Ticket:Associate">
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
@@ -120,6 +120,24 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:AssignmentLag xsi:type="xsd:int">0</Ticket:AssignmentLag>
      <Ticket:ReplyTemplate xsi:type="xsd:int">0</Ticket:ReplyTemplate>
      <Ticket:NotificationEmail xsi:type="xsd:string"></Ticket:NotificationEmail>
+     <Ticket:DefaultTicketStatus xsi:type="Ticket:TicketStatusEntity">
+      <Ticket:TicketStatusId xsi:type="xsd:int">0</Ticket:TicketStatusId>
+      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+      <Ticket:Status xsi:type="Ticket:TicketBaseStatus">Unknown</Ticket:Status>
+      <Ticket:TimeCounter xsi:type="Ticket:TicketStatusTimeCounter">None</Ticket:TimeCounter>
+      <Ticket:NoEmailReopen xsi:type="xsd:boolean">false</Ticket:NoEmailReopen>
+      <Ticket:IsDefault xsi:type="xsd:boolean">false</Ticket:IsDefault>
+      <Ticket:UsedInQueue xsi:type="xsd:boolean">false</Ticket:UsedInQueue>
+     </Ticket:DefaultTicketStatus>
+     <Ticket:DefaultMessageStatus xsi:type="Ticket:TicketStatusEntity">
+      <Ticket:TicketStatusId xsi:type="xsd:int">0</Ticket:TicketStatusId>
+      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+      <Ticket:Status xsi:type="Ticket:TicketBaseStatus">Unknown</Ticket:Status>
+      <Ticket:TimeCounter xsi:type="Ticket:TicketStatusTimeCounter">None</Ticket:TimeCounter>
+      <Ticket:NoEmailReopen xsi:type="xsd:boolean">false</Ticket:NoEmailReopen>
+      <Ticket:IsDefault xsi:type="xsd:boolean">false</Ticket:IsDefault>
+      <Ticket:UsedInQueue xsi:type="xsd:boolean">false</Ticket:UsedInQueue>
+     </Ticket:DefaultMessageStatus>
      <Ticket:ExtraFields xsi:type="Ticket:StringDictionary">
       <Ticket:StringKeyValuePair>
        <Ticket:Key xsi:type="xsd:string"></Ticket:Key>
@@ -147,23 +165,43 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketChangedPriority xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketChangedPriority>
      <Ticket:TicketNew xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketNew>
      <Ticket:Deadline xsi:type="xsd:int">0</Ticket:Deadline>
-     <Ticket:MonStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:MonStart>
-     <Ticket:MonStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:MonStop>
-     <Ticket:TueStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:TueStart>
-     <Ticket:TueStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:TueStop>
-     <Ticket:WedStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:WedStart>
-     <Ticket:WedStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:WedStop>
-     <Ticket:ThuStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:ThuStart>
-     <Ticket:ThuStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:ThuStop>
-     <Ticket:FriStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:FriStart>
-     <Ticket:FriStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:FriStop>
-     <Ticket:SatStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:SatStart>
-     <Ticket:SatStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:SatStop>
-     <Ticket:SunStart xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:SunStart>
-     <Ticket:SunStop xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:SunStop>
+     <Ticket:MonStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:MonStart>
+     <Ticket:MonStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:MonStop>
+     <Ticket:TueStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:TueStart>
+     <Ticket:TueStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:TueStop>
+     <Ticket:WedStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:WedStart>
+     <Ticket:WedStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:WedStop>
+     <Ticket:ThuStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:ThuStart>
+     <Ticket:ThuStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:ThuStop>
+     <Ticket:FriStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:FriStart>
+     <Ticket:FriStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:FriStop>
+     <Ticket:SatStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:SatStart>
+     <Ticket:SatStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:SatStop>
+     <Ticket:SunStart xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:SunStart>
+     <Ticket:SunStop xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:SunStop>
      <Ticket:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</NetServerServices882:dateTime>
+      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</NetServerServices882:dateTime>
      </Ticket:NonDates>
+     <Ticket:EscalationLevels xsi:type="Ticket:ArrayOfTicketPriorityEscalationLevelEntity">
+      <Ticket:TicketPriorityEscalationLevelEntity xsi:type="Ticket:TicketPriorityEscalationLevelEntity">
+       <Ticket:TicketAlertId xsi:type="xsd:int">0</Ticket:TicketAlertId>
+       <Ticket:AlertLevel xsi:type="xsd:short">0</Ticket:AlertLevel>
+       <Ticket:AlertTimeout xsi:type="xsd:int">0</Ticket:AlertTimeout>
+       <Ticket:Action xsi:type="xsd:int">0</Ticket:Action>
+       <Ticket:DelegateTo xsi:type="xsd:int">0</Ticket:DelegateTo>
+       <Ticket:ScriptId xsi:type="xsd:int">0</Ticket:ScriptId>
+       <Ticket:EmailTo xsi:type="xsd:string"></Ticket:EmailTo>
+       <Ticket:SmsTo xsi:type="xsd:string"></Ticket:SmsTo>
+       <Ticket:ReplyTemplateIdCustomer xsi:type="xsd:int">0</Ticket:ReplyTemplateIdCustomer>
+       <Ticket:ReplyTemplateIdUser xsi:type="xsd:int">0</Ticket:ReplyTemplateIdUser>
+       <Ticket:ReplyTemplateIdCatmast xsi:type="xsd:int">0</Ticket:ReplyTemplateIdCatmast>
+       <Ticket:ReplyTemplateIdEmail xsi:type="xsd:int">0</Ticket:ReplyTemplateIdEmail>
+       <Ticket:RtiCustomerSms xsi:type="xsd:int">0</Ticket:RtiCustomerSms>
+       <Ticket:ReplyTemplateIdUserSms xsi:type="xsd:int">0</Ticket:ReplyTemplateIdUserSms>
+       <Ticket:ReplyTemplateIdCatmastSms xsi:type="xsd:int">0</Ticket:ReplyTemplateIdCatmastSms>
+       <Ticket:ReplyTemplateIdSms xsi:type="xsd:int">0</Ticket:ReplyTemplateIdSms>
+      </Ticket:TicketPriorityEscalationLevelEntity>
+     </Ticket:EscalationLevels>
     </Ticket:Priority>
     <Ticket:BaseStatus xsi:type="Ticket:TicketBaseStatus">Unknown</Ticket:BaseStatus>
     <Ticket:Status xsi:type="Ticket:TicketStatusEntity">
@@ -172,6 +210,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Status xsi:type="Ticket:TicketBaseStatus">Unknown</Ticket:Status>
      <Ticket:TimeCounter xsi:type="Ticket:TicketStatusTimeCounter">None</Ticket:TimeCounter>
      <Ticket:NoEmailReopen xsi:type="xsd:boolean">false</Ticket:NoEmailReopen>
+     <Ticket:IsDefault xsi:type="xsd:boolean">false</Ticket:IsDefault>
+     <Ticket:UsedInQueue xsi:type="xsd:boolean">false</Ticket:UsedInQueue>
     </Ticket:Status>
     <Ticket:Origin xsi:type="Ticket:TicketOrigin">Unknown</Ticket:Origin>
     <Ticket:Person xsi:type="Ticket:Person">
@@ -280,9 +320,23 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Messages xsi:type="Ticket:ArrayOfTicketMessage">
      <Ticket:TicketMessage xsi:type="Ticket:TicketMessage">
       <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-      <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:CreatedAt>
+      <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Ticket:CreatedAt>
       <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
       <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
+      <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
+      <Ticket:PersonId xsi:type="xsd:int">0</Ticket:PersonId>
+      <Ticket:PersonFullName xsi:type="xsd:string"></Ticket:PersonFullName>
+      <Ticket:ContactId xsi:type="xsd:int">0</Ticket:ContactId>
+      <Ticket:ContactName xsi:type="xsd:string"></Ticket:ContactName>
+      <Ticket:ContactDepartment xsi:type="xsd:string"></Ticket:ContactDepartment>
+      <Ticket:NumAttachments xsi:type="xsd:int">0</Ticket:NumAttachments>
+      <Ticket:EmailHeader xsi:type="xsd:string"></Ticket:EmailHeader>
+      <Ticket:MessageHeaders xsi:type="Ticket:ArrayOfTicketMessageHeader">
+       <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
+        <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+        <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
+       </Ticket:TicketMessageHeader>
+      </Ticket:MessageHeaders>
      </Ticket:TicketMessage>
     </Ticket:Messages>
     <Ticket:Tags xsi:type="Ticket:ArrayOfTag">

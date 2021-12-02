@@ -1,10 +1,10 @@
 ---
-uid: services86-selection-getselectionentity
 title: Services86.SelectionAgent.GetSelectionEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Selection-GetSelectionEntity
 ---
 
-# Services86 Selection GetSelectionEntity SOAP
+# Services86 Selection GetSelectionEntity
 
 SOAP request and response examples **Remote/Services86/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.GetSelectionEntity">SuperOffice.Services86.ISelectionAgent.GetSelectionEntity</see> method.
@@ -120,12 +120,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:21Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:21Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>

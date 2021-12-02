@@ -1,10 +1,10 @@
 ---
-uid: services85-pocket-getpushnotificationtagsfordevice
 title: Services85.PocketAgent.GetPushNotificationTagsForDevice SOAP
-Generated: true
+generated: 1
+uid: Services85-Pocket-GetPushNotificationTagsForDevice
 ---
 
-# Services85 Pocket GetPushNotificationTagsForDevice SOAP
+# Services85 Pocket GetPushNotificationTagsForDevice
 
 SOAP request and response examples **Remote/Services85/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPocketAgent.GetPushNotificationTagsForDevice">SuperOffice.Services85.IPocketAgent.GetPushNotificationTagsForDevice</see> method.

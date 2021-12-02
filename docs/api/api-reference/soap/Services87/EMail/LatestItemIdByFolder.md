@@ -1,10 +1,10 @@
 ---
-uid: services87-email-latestitemidbyfolder
 title: Services87.EMailAgent.LatestItemIdByFolder SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-LatestItemIdByFolder
 ---
 
-# Services87 EMail LatestItemIdByFolder SOAP
+# Services87 EMail LatestItemIdByFolder
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.LatestItemIdByFolder">SuperOffice.Services87.IEMailAgent.LatestItemIdByFolder</see> method.

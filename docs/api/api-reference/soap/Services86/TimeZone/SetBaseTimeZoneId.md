@@ -1,10 +1,10 @@
 ---
-uid: services86-timezone-setbasetimezoneid
 title: Services86.TimeZoneAgent.SetBaseTimeZoneId SOAP
-Generated: true
+generated: 1
+uid: Services86-TimeZone-SetBaseTimeZoneId
 ---
 
-# Services86 TimeZone SetBaseTimeZoneId SOAP
+# Services86 TimeZone SetBaseTimeZoneId
 
 SOAP request and response examples **Remote/Services86/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.SetBaseTimeZoneId">SuperOffice.Services86.ITimeZoneAgent.SetBaseTimeZoneId</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getpersondocuments
 title: Services88.DocumentAgent.GetPersonDocuments SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetPersonDocuments
 ---
 
-# Services88 Document GetPersonDocuments SOAP
+# Services88 Document GetPersonDocuments
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPersonDocuments">SuperOffice.Services88.IDocumentAgent.GetPersonDocuments</see> method.

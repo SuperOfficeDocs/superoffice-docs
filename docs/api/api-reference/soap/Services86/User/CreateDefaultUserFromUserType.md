@@ -1,10 +1,10 @@
 ---
-uid: services86-user-createdefaultuserfromusertype
 title: Services86.UserAgent.CreateDefaultUserFromUserType SOAP
-Generated: true
+generated: 1
+uid: Services86-User-CreateDefaultUserFromUserType
 ---
 
-# Services86 User CreateDefaultUserFromUserType SOAP
+# Services86 User CreateDefaultUserFromUserType
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateDefaultUserFromUserType">SuperOffice.Services86.IUserAgent.CreateDefaultUserFromUserType</see> method.
@@ -172,8 +172,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-03-25T21:36:23Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-03-25T21:36:23Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>

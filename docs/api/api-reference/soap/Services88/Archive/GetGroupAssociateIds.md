@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-getgroupassociateids
 title: Services88.ArchiveAgent.GetGroupAssociateIds SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-GetGroupAssociateIds
 ---
 
-# Services88 Archive GetGroupAssociateIds SOAP
+# Services88 Archive GetGroupAssociateIds
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetGroupAssociateIds">SuperOffice.Services88.IArchiveAgent.GetGroupAssociateIds</see> method.

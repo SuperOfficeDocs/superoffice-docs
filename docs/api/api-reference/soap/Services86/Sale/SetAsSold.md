@@ -1,10 +1,10 @@
 ---
-uid: services86-sale-setassold
 title: Services86.SaleAgent.SetAsSold SOAP
-Generated: true
+generated: 1
+uid: Services86-Sale-SetAsSold
 ---
 
-# Services86 Sale SetAsSold SOAP
+# Services86 Sale SetAsSold
 
 SOAP request and response examples **Remote/Services86/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.SetAsSold">SuperOffice.Services86.ISaleAgent.SetAsSold</see> method.

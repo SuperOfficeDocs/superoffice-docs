@@ -1,10 +1,10 @@
 ---
-uid: services84-contact-getmycontact
 title: Services84.ContactAgent.GetMyContact SOAP
-Generated: true
+generated: 1
+uid: Services84-Contact-GetMyContact
 ---
 
-# Services84 Contact GetMyContact SOAP
+# Services84 Contact GetMyContact
 
 SOAP request and response examples **Remote/Services84/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.GetMyContact">SuperOffice.Services84.IContactAgent.GetMyContact</see> method.
@@ -70,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Contact:OrgNr xsi:type="xsd:string"></Contact:OrgNr>
     <Contact:Number1 xsi:type="xsd:string"></Contact:Number1>
     <Contact:Number2 xsi:type="xsd:string"></Contact:Number2>
-    <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:UpdatedDate>
-    <Contact:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:CreatedDate>
+    <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:UpdatedDate>
+    <Contact:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:CreatedDate>
     <Contact:Emails xsi:type="Contact:ArrayOfEntityElement">
      <Contact:EntityElement xsi:type="Contact:EntityElement">
       <Contact:Value xsi:type="xsd:string"></Contact:Value>
@@ -90,7 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
       <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
       <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-      <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:LastChanged>
+      <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:LastChanged>
       <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
        <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
         <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -102,7 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
         <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
         <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-        <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:LastChanged>
+        <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:LastChanged>
         <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
          <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
           <Contact:Id xsi:nil="true"></Contact:Id>
@@ -298,9 +298,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Contact:CustomerLanguage>
     <Contact:Deleted xsi:type="xsd:short">0</Contact:Deleted>
     <Contact:DbiAgentId xsi:type="xsd:int">0</Contact:DbiAgentId>
-    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:DbiLastSyncronized>
+    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:DbiLastSyncronized>
     <Contact:DbiKey xsi:type="xsd:string"></Contact:DbiKey>
-    <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-03-25T21:35:22Z</Contact:DbiLastModified>
+    <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-11-30T13:22:07Z</Contact:DbiLastModified>
     <Contact:SupportPerson xsi:type="Contact:Person">
      <Contact:Position xsi:type="xsd:string"></Contact:Position>
      <Contact:PersonId xsi:type="xsd:int">0</Contact:PersonId>

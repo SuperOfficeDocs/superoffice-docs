@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-cleanupbookingdeleted
 title: Services84.AppointmentAgent.CleanUpBookingDeleted SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-CleanUpBookingDeleted
 ---
 
-# Services84 Appointment CleanUpBookingDeleted SOAP
+# Services84 Appointment CleanUpBookingDeleted
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.CleanUpBookingDeleted">SuperOffice.Services84.IAppointmentAgent.CleanUpBookingDeleted</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-offerautonextstageonapppointmentcompleted
 title: Services88.SaleAgent.OfferAutoNextStageOnApppointmentCompleted SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-OfferAutoNextStageOnApppointmentCompleted
 ---
 
-# Services88 Sale OfferAutoNextStageOnApppointmentCompleted SOAP
+# Services88 Sale OfferAutoNextStageOnApppointmentCompleted
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted">SuperOffice.Services88.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted</see> method.

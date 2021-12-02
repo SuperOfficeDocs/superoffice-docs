@@ -1,10 +1,10 @@
 ---
-uid: services85-person-getconsentinfos
 title: Services85.PersonAgent.GetConsentInfos SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-GetConsentInfos
 ---
 
-# Services85 Person GetConsentInfos SOAP
+# Services85 Person GetConsentInfos
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.GetConsentInfos">SuperOffice.Services85.IPersonAgent.GetConsentInfos</see> method.
@@ -68,9 +68,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:ConsentInfo xsi:type="Person:ConsentInfo">
      <Person:ConsentPersonId xsi:type="xsd:int">0</Person:ConsentPersonId>
      <Person:Comment xsi:type="xsd:string"></Person:Comment>
-     <Person:Registered xsi:type="xsd:dateTime">2021-03-25T21:35:52Z</Person:Registered>
+     <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:22:37Z</Person:Registered>
      <Person:RegisteredAssociateId xsi:type="xsd:int">0</Person:RegisteredAssociateId>
-     <Person:Updated xsi:type="xsd:dateTime">2021-03-25T21:35:52Z</Person:Updated>
+     <Person:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:37Z</Person:Updated>
      <Person:UpdatedAssociateId xsi:type="xsd:int">0</Person:UpdatedAssociateId>
      <Person:LegalBaseId xsi:type="xsd:int">0</Person:LegalBaseId>
      <Person:LegalBaseKey xsi:type="xsd:string"></Person:LegalBaseKey>

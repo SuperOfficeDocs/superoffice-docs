@@ -1,10 +1,10 @@
 ---
-uid: services87-blob-setblobstream
 title: Services87.BLOBAgent.SetBlobStream SOAP
-Generated: true
+generated: 1
+uid: Services87-BLOB-SetBlobStream
 ---
 
-# Services87 BLOB SetBlobStream SOAP
+# Services87 BLOB SetBlobStream
 
 SOAP request and response examples **Remote/Services87/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.SetBlobStream">SuperOffice.Services87.IBLOBAgent.SetBlobStream</see> method.

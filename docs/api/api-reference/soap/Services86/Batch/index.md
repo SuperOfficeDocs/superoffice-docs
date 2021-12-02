@@ -1,7 +1,7 @@
 ---
-uid: services86-batch
 title: Services86.BatchAgent SOAP
-Generated: true
+uid: Services86-Batch-soap
+generated: 1
 ---
 
 # Services86 Batch SOAP
@@ -26,3 +26,4 @@ Download [WSDL file for Services86/Batch](../Services86-Batch.md) if you need to
 * [StartBatchJob](StartBatchJob.md)
 * [StopBatchJob](StopBatchJob.md)
 * [UpdateBatchTask](UpdateBatchTask.md)
+

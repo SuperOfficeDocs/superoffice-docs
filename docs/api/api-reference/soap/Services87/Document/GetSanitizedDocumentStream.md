@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getsanitizeddocumentstream
 title: Services87.DocumentAgent.GetSanitizedDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetSanitizedDocumentStream
 ---
 
-# Services87 Document GetSanitizedDocumentStream SOAP
+# Services87 Document GetSanitizedDocumentStream
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetSanitizedDocumentStream">SuperOffice.Services87.IDocumentAgent.GetSanitizedDocumentStream</see> method.

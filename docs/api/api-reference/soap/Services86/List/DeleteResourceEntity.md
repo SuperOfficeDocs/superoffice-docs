@@ -1,10 +1,10 @@
 ---
-uid: services86-list-deleteresourceentity
 title: Services86.ListAgent.DeleteResourceEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-DeleteResourceEntity
 ---
 
-# Services86 List DeleteResourceEntity SOAP
+# Services86 List DeleteResourceEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.DeleteResourceEntity">SuperOffice.Services86.IListAgent.DeleteResourceEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-list-deletedocumenttemplatelanguage
 title: Services85.ListAgent.DeleteDocumentTemplateLanguage SOAP
-Generated: true
+generated: 1
+uid: Services85-List-DeleteDocumentTemplateLanguage
 ---
 
-# Services85 List DeleteDocumentTemplateLanguage SOAP
+# Services85 List DeleteDocumentTemplateLanguage
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.DeleteDocumentTemplateLanguage">SuperOffice.Services85.IListAgent.DeleteDocumentTemplateLanguage</see> method.

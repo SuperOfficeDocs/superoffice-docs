@@ -1,10 +1,10 @@
 ---
-uid: services85-email-getemailsoinfo
 title: Services85.EMailAgent.GetEMailSOInfo SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-GetEMailSOInfo
 ---
 
-# Services85 EMail GetEMailSOInfo SOAP
+# Services85 EMail GetEMailSOInfo
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEMailSOInfo">SuperOffice.Services85.IEMailAgent.GetEMailSOInfo</see> method.
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
     <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
     <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-    <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-03-25T21:35:46Z</EMail:ArchivedAt>
+    <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:ArchivedAt>
     <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
     <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
    </EMail:Response>

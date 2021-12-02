@@ -1,10 +1,10 @@
 ---
-uid: services88-contact-isnumbervalid
 title: Services88.ContactAgent.IsNumberValid SOAP
-Generated: true
+generated: 1
+uid: Services88-Contact-IsNumberValid
 ---
 
-# Services88 Contact IsNumberValid SOAP
+# Services88 Contact IsNumberValid
 
 SOAP request and response examples **Remote/Services88/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.IsNumberValid">SuperOffice.Services88.IContactAgent.IsNumberValid</see> method.
@@ -13,9 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.IsNumberVal
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
-* **contactId:** 
-* **number:** 
+* **contactId:** Primary key
+* **number:** Number field value to check.
 
+**Returns:** True if the number satisifies the configured rules for uniqueness.
 
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)

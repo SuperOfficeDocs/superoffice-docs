@@ -1,10 +1,10 @@
 ---
-uid: services86-find-saverestrictiongroups
 title: Services86.FindAgent.SaveRestrictionGroups SOAP
-Generated: true
+generated: 1
+uid: Services86-Find-SaveRestrictionGroups
 ---
 
-# Services86 Find SaveRestrictionGroups SOAP
+# Services86 Find SaveRestrictionGroups
 
 SOAP request and response examples **Remote/Services86/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.SaveRestrictionGroups">SuperOffice.Services86.IFindAgent.SaveRestrictionGroups</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-blobmanager-writeblob
 title: Services86.BlobManagerAgent.WriteBlob SOAP
-Generated: true
+generated: 1
+uid: Services86-BlobManager-WriteBlob
 ---
 
-# Services86 BlobManager WriteBlob SOAP
+# Services86 BlobManager WriteBlob
 
 SOAP request and response examples **Remote/Services86/BlobManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBlobManagerAgent.WriteBlob">SuperOffice.Services86.IBlobManagerAgent.WriteBlob</see> method.

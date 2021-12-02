@@ -1,10 +1,10 @@
 ---
-uid: services85-appointment-requestforinfo
 title: Services85.AppointmentAgent.RequestForInfo SOAP
-Generated: true
+generated: 1
+uid: Services85-Appointment-RequestForInfo
 ---
 
-# Services85 Appointment RequestForInfo SOAP
+# Services85 Appointment RequestForInfo
 
 SOAP request and response examples **Remote/Services85/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.RequestForInfo">SuperOffice.Services85.IAppointmentAgent.RequestForInfo</see> method.

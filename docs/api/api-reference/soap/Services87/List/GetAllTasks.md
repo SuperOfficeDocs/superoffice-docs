@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getalltasks
 title: Services87.ListAgent.GetAllTasks SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetAllTasks
 ---
 
-# Services87 List GetAllTasks SOAP
+# Services87 List GetAllTasks
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetAllTasks">SuperOffice.Services87.IListAgent.GetAllTasks</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-person-getcolleaguesbysource
 title: Services85.PersonAgent.GetColleaguesBySource SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-GetColleaguesBySource
 ---
 
-# Services85 Person GetColleaguesBySource SOAP
+# Services85 Person GetColleaguesBySource
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.GetColleaguesBySource">SuperOffice.Services85.IPersonAgent.GetColleaguesBySource</see> method.

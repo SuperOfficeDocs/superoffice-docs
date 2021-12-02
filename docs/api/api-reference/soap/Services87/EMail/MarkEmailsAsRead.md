@@ -1,10 +1,10 @@
 ---
-uid: services87-email-markemailsasread
 title: Services87.EMailAgent.MarkEmailsAsRead SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-MarkEmailsAsRead
 ---
 
-# Services87 EMail MarkEmailsAsRead SOAP
+# Services87 EMail MarkEmailsAsRead
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.MarkEmailsAsRead">SuperOffice.Services87.IEMailAgent.MarkEmailsAsRead</see> method.

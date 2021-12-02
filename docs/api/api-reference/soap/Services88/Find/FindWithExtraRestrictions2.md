@@ -1,10 +1,10 @@
 ---
-uid: services88-find-findwithextrarestrictions2
 title: Services88.FindAgent.FindWithExtraRestrictions2 SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-FindWithExtraRestrictions2
 ---
 
-# Services88 Find FindWithExtraRestrictions2 SOAP
+# Services88 Find FindWithExtraRestrictions2
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.FindWithExtraRestrictions2">SuperOffice.Services88.IFindAgent.FindWithExtraRestrictions2</see> method.
@@ -94,6 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Find:Width xsi:type="xsd:string"></Find:Width>
       <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
       <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+      <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
      </Find:ArchiveColumnInfo>
     </Find:ArchiveColumns>
     <Find:ArchiveRows xsi:type="Find:ArrayOfArchiveListItem">

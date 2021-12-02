@@ -1,10 +1,10 @@
 ---
-uid: services85-bulkupdate-removestoredfieldsandgetdefaultfields
 title: Services85.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields SOAP
-Generated: true
+generated: 1
+uid: Services85-BulkUpdate-RemoveStoredFieldsAndGetDefaultFields
 ---
 
-# Services85 BulkUpdate RemoveStoredFieldsAndGetDefaultFields SOAP
+# Services85 BulkUpdate RemoveStoredFieldsAndGetDefaultFields
 
 SOAP request and response examples **Remote/Services85/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields">SuperOffice.Services85.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-report-getreportentity
 title: Services84.ReportAgent.GetReportEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-Report-GetReportEntity
 ---
 
-# Services84 Report GetReportEntity SOAP
+# Services84 Report GetReportEntity
 
 SOAP request and response examples **Remote/Services84/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IReportAgent.GetReportEntity">SuperOffice.Services84.IReportAgent.GetReportEntity</see> method.

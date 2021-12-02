@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getpriorities
 title: Services86.ListAgent.GetPriorities SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetPriorities
 ---
 
-# Services86 List GetPriorities SOAP
+# Services86 List GetPriorities
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetPriorities">SuperOffice.Services86.IListAgent.GetPriorities</see> method.

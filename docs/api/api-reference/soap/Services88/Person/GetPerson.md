@@ -1,10 +1,10 @@
 ---
-uid: services88-person-getperson
 title: Services88.PersonAgent.GetPerson SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-GetPerson
 ---
 
-# Services88 Person GetPerson SOAP
+# Services88 Person GetPerson
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetPerson">SuperOffice.Services88.IPersonAgent.GetPerson</see> method.

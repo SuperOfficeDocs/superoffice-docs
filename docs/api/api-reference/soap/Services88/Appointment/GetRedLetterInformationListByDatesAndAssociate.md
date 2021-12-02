@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-getredletterinformationlistbydatesandassociate
 title: Services88.AppointmentAgent.GetRedLetterInformationListByDatesAndAssociate SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-GetRedLetterInformationListByDatesAndAssociate
 ---
 
-# Services88 Appointment GetRedLetterInformationListByDatesAndAssociate SOAP
+# Services88 Appointment GetRedLetterInformationListByDatesAndAssociate
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate">SuperOffice.Services88.IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetRedLetterInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:49Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:49Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetRedLetterInformationListByDatesAndAssociate>
 
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetRedLetterInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfRedLetterInformationListItem">
     <Appointment:RedLetterInformationListItem xsi:type="Appointment:RedLetterInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2021-03-25T21:36:49Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</Appointment:Date>
      <Appointment:RedLetterInformation xsi:type="Appointment:RedLetterSummary">
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>

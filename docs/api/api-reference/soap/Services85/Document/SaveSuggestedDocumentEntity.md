@@ -1,10 +1,10 @@
 ---
-uid: services85-document-savesuggesteddocumententity
 title: Services85.DocumentAgent.SaveSuggestedDocumentEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Document-SaveSuggestedDocumentEntity
 ---
 
-# Services85 Document SaveSuggestedDocumentEntity SOAP
+# Services85 Document SaveSuggestedDocumentEntity
 
 SOAP request and response examples **Remote/Services85/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.SaveSuggestedDocumentEntity">SuperOffice.Services85.IDocumentAgent.SaveSuggestedDocumentEntity</see> method.

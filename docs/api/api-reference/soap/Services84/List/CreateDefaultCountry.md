@@ -1,10 +1,10 @@
 ---
-uid: services84-list-createdefaultcountry
 title: Services84.ListAgent.CreateDefaultCountry SOAP
-Generated: true
+generated: 1
+uid: Services84-List-CreateDefaultCountry
 ---
 
-# Services84 List CreateDefaultCountry SOAP
+# Services84 List CreateDefaultCountry
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultCountry">SuperOffice.Services84.IListAgent.CreateDefaultCountry</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-user-findcredentialsgroups
 title: Services86.UserAgent.FindCredentialsGroups SOAP
-Generated: true
+generated: 1
+uid: Services86-User-FindCredentialsGroups
 ---
 
-# Services86 User FindCredentialsGroups SOAP
+# Services86 User FindCredentialsGroups
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.FindCredentialsGroups">SuperOffice.Services86.IUserAgent.FindCredentialsGroups</see> method.

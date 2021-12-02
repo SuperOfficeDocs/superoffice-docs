@@ -1,10 +1,10 @@
 ---
-uid: services87-blob-getprojectimagewithsize
 title: Services87.BLOBAgent.GetProjectImageWithSize SOAP
-Generated: true
+generated: 1
+uid: Services87-BLOB-GetProjectImageWithSize
 ---
 
-# Services87 BLOB GetProjectImageWithSize SOAP
+# Services87 BLOB GetProjectImageWithSize
 
 SOAP request and response examples **Remote/Services87/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.GetProjectImageWithSize">SuperOffice.Services87.IBLOBAgent.GetProjectImageWithSize</see> method.

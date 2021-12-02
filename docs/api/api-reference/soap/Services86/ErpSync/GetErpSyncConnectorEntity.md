@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-geterpsyncconnectorentity
 title: Services86.ErpSyncAgent.GetErpSyncConnectorEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-GetErpSyncConnectorEntity
 ---
 
-# Services86 ErpSync GetErpSyncConnectorEntity SOAP
+# Services86 ErpSync GetErpSyncConnectorEntity
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetErpSyncConnectorEntity">SuperOffice.Services86.IErpSyncAgent.GetErpSyncConnectorEntity</see> method.

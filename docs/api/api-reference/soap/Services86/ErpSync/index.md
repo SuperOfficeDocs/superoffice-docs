@@ -1,7 +1,7 @@
 ---
-uid: services86-erpsync
 title: Services86.ErpSyncAgent SOAP
-Generated: true
+uid: Services86-ErpSync-soap
+generated: 1
 ---
 
 # Services86 ErpSync SOAP
@@ -60,3 +60,4 @@ Download [WSDL file for Services86/ErpSync](../Services86-ErpSync.md) if you nee
 * [ToggleErpConnectionActive](ToggleErpConnectionActive.md)
 * [UpdateConnectionFields](UpdateConnectionFields.md)
 * [ValidateArchiveColumnConfig](ValidateArchiveColumnConfig.md)
+

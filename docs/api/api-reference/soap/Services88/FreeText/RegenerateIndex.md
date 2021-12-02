@@ -1,10 +1,10 @@
 ---
-uid: services88-freetext-regenerateindex
 title: Services88.FreeTextAgent.RegenerateIndex SOAP
-Generated: true
+generated: 1
+uid: Services88-FreeText-RegenerateIndex
 ---
 
-# Services88 FreeText RegenerateIndex SOAP
+# Services88 FreeText RegenerateIndex
 
 SOAP request and response examples **Remote/Services88/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFreeTextAgent.RegenerateIndex">SuperOffice.Services88.IFreeTextAgent.RegenerateIndex</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>
@@ -91,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <FreeText:Request xsi:type="xsd:string"></FreeText:Request>
     <FreeText:ProgressDescription xsi:type="xsd:string"></FreeText:ProgressDescription>
     <FreeText:ProgressPercent xsi:type="xsd:short">0</FreeText:ProgressPercent>
+    <FreeText:FileName xsi:type="xsd:string"></FreeText:FileName>
    </FreeText:Response>
   </FreeText:RegenerateIndexResponse>
  </SOAP-ENV:Body>

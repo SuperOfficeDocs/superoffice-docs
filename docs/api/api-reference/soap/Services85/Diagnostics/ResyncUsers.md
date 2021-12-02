@@ -1,10 +1,10 @@
 ---
-uid: services85-diagnostics-resyncusers
 title: Services85.DiagnosticsAgent.ResyncUsers SOAP
-Generated: true
+generated: 1
+uid: Services85-Diagnostics-ResyncUsers
 ---
 
-# Services85 Diagnostics ResyncUsers SOAP
+# Services85 Diagnostics ResyncUsers
 
 SOAP request and response examples **Remote/Services85/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDiagnosticsAgent.ResyncUsers">SuperOffice.Services85.IDiagnosticsAgent.ResyncUsers</see> method.

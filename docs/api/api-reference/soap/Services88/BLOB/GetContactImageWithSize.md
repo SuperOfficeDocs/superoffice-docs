@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-getcontactimagewithsize
 title: Services88.BLOBAgent.GetContactImageWithSize SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-GetContactImageWithSize
 ---
 
-# Services88 BLOB GetContactImageWithSize SOAP
+# Services88 BLOB GetContactImageWithSize
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.GetContactImageWithSize">SuperOffice.Services88.IBLOBAgent.GetContactImageWithSize</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-phonelist-getfavoritesphones
 title: Services86.PhoneListAgent.GetFavoritesPhones SOAP
-Generated: true
+generated: 1
+uid: Services86-PhoneList-GetFavoritesPhones
 ---
 
-# Services86 PhoneList GetFavoritesPhones SOAP
+# Services86 PhoneList GetFavoritesPhones
 
 SOAP request and response examples **Remote/Services86/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPhoneListAgent.GetFavoritesPhones">SuperOffice.Services86.IPhoneListAgent.GetFavoritesPhones</see> method.

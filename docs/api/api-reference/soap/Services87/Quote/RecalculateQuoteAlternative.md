@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-recalculatequotealternative
 title: Services87.QuoteAgent.RecalculateQuoteAlternative SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-RecalculateQuoteAlternative
 ---
 
-# Services87 Quote RecalculateQuoteAlternative SOAP
+# Services87 Quote RecalculateQuoteAlternative
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.RecalculateQuoteAlternative">SuperOffice.Services87.IQuoteAgent.RecalculateQuoteAlternative</see> method.

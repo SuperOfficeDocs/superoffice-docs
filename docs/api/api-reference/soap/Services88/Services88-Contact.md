@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Contact
 title: Services88.ContactAgent WSDL
 ---
 
@@ -85,6 +85,7 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="Source" type="xs:short" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Domains" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -617,7 +618,7 @@ title: Services88.ContactAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ActivityStartTime" type="xs:dateTime" />
-            <xs:element minOccurs="0" name="ContactCategories" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ContactCategories" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="ActionType" type="tns:ContactAction" />
           </xs:sequence>
         </xs:complexType>
@@ -867,7 +868,8 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="ShipmentTypes" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
               <xs:element minOccurs="0" name="Consents" nillable="true" type="tns:ArrayOfConsentInfo" />
-              <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -901,7 +903,7 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserType" type="tns:UserType" />
-              <xs:element minOccurs="0" name="GrantedLicenses" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="GrantedLicenses" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="CanLogon" type="xs:boolean" />
               <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="RoleTooltip" nillable="true" type="xs:string" />
@@ -1294,7 +1296,7 @@ title: Services88.ContactAgent WSDL
       <xs:element name="GetContactList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ContactIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ContactIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

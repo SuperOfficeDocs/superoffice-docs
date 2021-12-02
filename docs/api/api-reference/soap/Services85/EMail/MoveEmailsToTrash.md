@@ -1,10 +1,10 @@
 ---
-uid: services85-email-moveemailstotrash
 title: Services85.EMailAgent.MoveEmailsToTrash SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-MoveEmailsToTrash
 ---
 
-# Services85 EMail MoveEmailsToTrash SOAP
+# Services85 EMail MoveEmailsToTrash
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.MoveEmailsToTrash">SuperOffice.Services85.IEMailAgent.MoveEmailsToTrash</see> method.

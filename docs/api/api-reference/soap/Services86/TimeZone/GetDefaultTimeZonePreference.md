@@ -1,10 +1,10 @@
 ---
-uid: services86-timezone-getdefaulttimezonepreference
 title: Services86.TimeZoneAgent.GetDefaultTimeZonePreference SOAP
-Generated: true
+generated: 1
+uid: Services86-TimeZone-GetDefaultTimeZonePreference
 ---
 
-# Services86 TimeZone GetDefaultTimeZonePreference SOAP
+# Services86 TimeZone GetDefaultTimeZonePreference
 
 SOAP request and response examples **Remote/Services86/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.GetDefaultTimeZonePreference">SuperOffice.Services86.ITimeZoneAgent.GetDefaultTimeZonePreference</see> method.

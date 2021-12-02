@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-setseen
 title: Services88.AppointmentAgent.SetSeen SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-SetSeen
 ---
 
-# Services88 Appointment SetSeen SOAP
+# Services88 Appointment SetSeen
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.SetSeen">SuperOffice.Services88.IAppointmentAgent.SetSeen</see> method.

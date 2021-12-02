@@ -1,10 +1,10 @@
 ---
-uid: services88-customerservice-chatsessionsforuser
 title: Services88.CustomerServiceAgent.ChatSessionsForUser SOAP
-Generated: true
+generated: 1
+uid: Services88-CustomerService-ChatSessionsForUser
 ---
 
-# Services88 CustomerService ChatSessionsForUser SOAP
+# Services88 CustomerService ChatSessionsForUser
 
 SOAP request and response examples **Remote/Services88/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.ChatSessionsForUser">SuperOffice.Services88.ICustomerServiceAgent.ChatSessionsForUser</see> method.
@@ -14,7 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Cha
 Get all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
 
 
-**Returns:** Array of chat TOPIC ids the current user can access. NOTchat sessions.
+**Returns:** Array of chat TOPIC ids the current user can access. NOT chat sessions.
 
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)

@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-createtemporaryselectionfromids
 title: Services84.SelectionAgent.CreateTemporarySelectionFromIds SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-CreateTemporarySelectionFromIds
 ---
 
-# Services84 Selection CreateTemporarySelectionFromIds SOAP
+# Services84 Selection CreateTemporarySelectionFromIds
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.CreateTemporarySelectionFromIds">SuperOffice.Services84.ISelectionAgent.CreateTemporarySelectionFromIds</see> method.
@@ -121,12 +121,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>

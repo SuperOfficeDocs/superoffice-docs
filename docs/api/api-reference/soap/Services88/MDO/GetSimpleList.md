@@ -1,10 +1,10 @@
 ---
-uid: services88-mdo-getsimplelist
 title: Services88.MDOAgent.GetSimpleList SOAP
-Generated: true
+generated: 1
+uid: Services88-MDO-GetSimpleList
 ---
 
-# Services88 MDO GetSimpleList SOAP
+# Services88 MDO GetSimpleList
 
 SOAP request and response examples **Remote/Services88/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMDOAgent.GetSimpleList">SuperOffice.Services88.IMDOAgent.GetSimpleList</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-contact-getnamedepartmentduplicates
 title: Services85.ContactAgent.GetNameDepartmentDuplicates SOAP
-Generated: true
+generated: 1
+uid: Services85-Contact-GetNameDepartmentDuplicates
 ---
 
-# Services85 Contact GetNameDepartmentDuplicates SOAP
+# Services85 Contact GetNameDepartmentDuplicates
 
 SOAP request and response examples **Remote/Services85/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetNameDepartmentDuplicates">SuperOffice.Services85.IContactAgent.GetNameDepartmentDuplicates</see> method.

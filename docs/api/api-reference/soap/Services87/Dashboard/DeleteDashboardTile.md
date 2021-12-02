@@ -1,10 +1,10 @@
 ---
-uid: services87-dashboard-deletedashboardtile
 title: Services87.DashboardAgent.DeleteDashboardTile SOAP
-Generated: true
+generated: 1
+uid: Services87-Dashboard-DeleteDashboardTile
 ---
 
-# Services87 Dashboard DeleteDashboardTile SOAP
+# Services87 Dashboard DeleteDashboardTile
 
 SOAP request and response examples **Remote/Services87/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDashboardAgent.DeleteDashboardTile">SuperOffice.Services87.IDashboardAgent.DeleteDashboardTile</see> method.

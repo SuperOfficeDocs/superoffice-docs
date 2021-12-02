@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-deletediaryviewentity
 title: Services88.ConfigurationAgent.DeleteDiaryViewEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-DeleteDiaryViewEntity
 ---
 
-# Services88 Configuration DeleteDiaryViewEntity SOAP
+# Services88 Configuration DeleteDiaryViewEntity
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.DeleteDiaryViewEntity">SuperOffice.Services88.IConfigurationAgent.DeleteDiaryViewEntity</see> method.

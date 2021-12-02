@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getticketstatuslist
 title: Services86.ListAgent.GetTicketStatusList SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetTicketStatusList
 ---
 
-# Services86 List GetTicketStatusList SOAP
+# Services86 List GetTicketStatusList
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetTicketStatusList">SuperOffice.Services86.IListAgent.GetTicketStatusList</see> method.

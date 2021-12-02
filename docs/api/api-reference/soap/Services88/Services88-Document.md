@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Document
 title: Services88.DocumentAgent WSDL
 ---
 
@@ -1741,6 +1741,21 @@ title: Services88.DocumentAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetDocumentLength">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+            <xs:element minOccurs="0" name="VersionId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetDocumentLengthResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDocumentList">
         <xs:complexType>
           <xs:sequence>
@@ -3207,6 +3222,23 @@ title: Services88.DocumentAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetDocumentLengthRequest">
+    <wsdl:part name="parameters" element="tns:GetDocumentLength" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentLengthRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentLengthResponse">
+    <wsdl:part name="parameters" element="tns:GetDocumentLengthResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentLengthResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDocumentListRequest">
     <wsdl:part name="parameters" element="tns:GetDocumentList" />
   </wsdl:message>
@@ -4072,6 +4104,13 @@ title: Services88.DocumentAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/ValidateDocumentEntity" name="ValidateDocumentEntityRequest" message="tns:ValidateDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/ValidateDocumentEntityResponse" name="ValidateDocumentEntityResponse" message="tns:ValidateDocumentEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocumentLength">
+      <wsdl:documentation>
+        <summary>Get length of the document content in bytes.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentLength" name="GetDocumentLengthRequest" message="tns:GetDocumentLengthRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentLengthResponse" name="GetDocumentLengthResponse" message="tns:GetDocumentLengthResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentList">
       <wsdl:documentation>
@@ -5150,6 +5189,22 @@ title: Services88.DocumentAgent WSDL
         <soap:header message="tns:ValidateDocumentEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateDocumentEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateDocumentEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocumentLength">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentLength" style="document" />
+      <wsdl:input name="GetDocumentLengthRequest">
+        <soap:header message="tns:GetDocumentLengthRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDocumentLengthRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDocumentLengthRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDocumentLengthResponse">
+        <soap:header message="tns:GetDocumentLengthResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDocumentLengthResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDocumentLengthResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDocumentLengthResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

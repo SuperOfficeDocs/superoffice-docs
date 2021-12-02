@@ -1,10 +1,10 @@
 ---
-uid: services87-find-saverestrictions2
 title: Services87.FindAgent.SaveRestrictions2 SOAP
-Generated: true
+generated: 1
+uid: Services87-Find-SaveRestrictions2
 ---
 
-# Services87 Find SaveRestrictions2 SOAP
+# Services87 Find SaveRestrictions2
 
 SOAP request and response examples **Remote/Services87/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.SaveRestrictions2">SuperOffice.Services87.IFindAgent.SaveRestrictions2</see> method.

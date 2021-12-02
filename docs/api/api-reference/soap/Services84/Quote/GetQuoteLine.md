@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-getquoteline
 title: Services84.QuoteAgent.GetQuoteLine SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-GetQuoteLine
 ---
 
-# Services84 Quote GetQuoteLine SOAP
+# Services84 Quote GetQuoteLine
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteLine">SuperOffice.Services84.IQuoteAgent.GetQuoteLine</see> method.
@@ -104,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
     <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
     <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:SubscriptionStart>
+    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:SubscriptionStart>
     <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
     <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
     <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>

@@ -1,10 +1,10 @@
 ---
-uid: services86-timezone-checknewtimezonedataavailable
 title: Services86.TimeZoneAgent.CheckNewTimeZoneDataAvailable SOAP
-Generated: true
+generated: 1
+uid: Services86-TimeZone-CheckNewTimeZoneDataAvailable
 ---
 
-# Services86 TimeZone CheckNewTimeZoneDataAvailable SOAP
+# Services86 TimeZone CheckNewTimeZoneDataAvailable
 
 SOAP request and response examples **Remote/Services86/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.CheckNewTimeZoneDataAvailable">SuperOffice.Services86.ITimeZoneAgent.CheckNewTimeZoneDataAvailable</see> method.

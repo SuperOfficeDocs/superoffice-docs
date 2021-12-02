@@ -1,10 +1,10 @@
 ---
-uid: services84-user-removeuntrustedcredentials
 title: Services84.UserAgent.RemoveUntrustedCredentials SOAP
-Generated: true
+generated: 1
+uid: Services84-User-RemoveUntrustedCredentials
 ---
 
-# Services84 User RemoveUntrustedCredentials SOAP
+# Services84 User RemoveUntrustedCredentials
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.RemoveUntrustedCredentials">SuperOffice.Services84.IUserAgent.RemoveUntrustedCredentials</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getconsentsources
 title: Services87.ListAgent.GetConsentSources SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetConsentSources
 ---
 
-# Services87 List GetConsentSources SOAP
+# Services87 List GetConsentSources
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetConsentSources">SuperOffice.Services87.IListAgent.GetConsentSources</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-createorupdatequoteversionattachments
 title: Services86.QuoteAgent.CreateOrUpdateQuoteVersionAttachments SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-CreateOrUpdateQuoteVersionAttachments
 ---
 
-# Services86 Quote CreateOrUpdateQuoteVersionAttachments SOAP
+# Services86 Quote CreateOrUpdateQuoteVersionAttachments
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments">SuperOffice.Services86.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments</see> method.

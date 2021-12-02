@@ -1,10 +1,10 @@
 ---
-uid: services87-list-setlistitemsforusergroupfromlistname
 title: Services87.ListAgent.SetListItemsForUserGroupFromListName SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SetListItemsForUserGroupFromListName
 ---
 
-# Services87 List SetListItemsForUserGroupFromListName SOAP
+# Services87 List SetListItemsForUserGroupFromListName
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SetListItemsForUserGroupFromListName">SuperOffice.Services87.IListAgent.SetListItemsForUserGroupFromListName</see> method.

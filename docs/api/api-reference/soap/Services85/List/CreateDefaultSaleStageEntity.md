@@ -1,10 +1,10 @@
 ---
-uid: services85-list-createdefaultsalestageentity
 title: Services85.ListAgent.CreateDefaultSaleStageEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-List-CreateDefaultSaleStageEntity
 ---
 
-# Services85 List CreateDefaultSaleStageEntity SOAP
+# Services85 List CreateDefaultSaleStageEntity
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.CreateDefaultSaleStageEntity">SuperOffice.Services85.IListAgent.CreateDefaultSaleStageEntity</see> method.

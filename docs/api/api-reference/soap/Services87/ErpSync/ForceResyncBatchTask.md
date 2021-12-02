@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-forceresyncbatchtask
 title: Services87.ErpSyncAgent.ForceResyncBatchTask SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-ForceResyncBatchTask
 ---
 
-# Services87 ErpSync ForceResyncBatchTask SOAP
+# Services87 ErpSync ForceResyncBatchTask
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.ForceResyncBatchTask">SuperOffice.Services87.IErpSyncAgent.ForceResyncBatchTask</see> method.

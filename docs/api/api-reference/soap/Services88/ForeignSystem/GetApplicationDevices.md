@@ -1,10 +1,10 @@
 ---
-uid: services88-foreignsystem-getapplicationdevices
 title: Services88.ForeignSystemAgent.GetApplicationDevices SOAP
-Generated: true
+generated: 1
+uid: Services88-ForeignSystem-GetApplicationDevices
 ---
 
-# Services88 ForeignSystem GetApplicationDevices SOAP
+# Services88 ForeignSystem GetApplicationDevices
 
 SOAP request and response examples **Remote/Services88/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IForeignSystemAgent.GetApplicationDevices">SuperOffice.Services88.IForeignSystemAgent.GetApplicationDevices</see> method.
@@ -67,8 +67,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
      <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:59Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:59Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

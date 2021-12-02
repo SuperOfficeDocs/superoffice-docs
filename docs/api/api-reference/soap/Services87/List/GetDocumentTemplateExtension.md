@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getdocumenttemplateextension
 title: Services87.ListAgent.GetDocumentTemplateExtension SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetDocumentTemplateExtension
 ---
 
-# Services87 List GetDocumentTemplateExtension SOAP
+# Services87 List GetDocumentTemplateExtension
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetDocumentTemplateExtension">SuperOffice.Services87.IListAgent.GetDocumentTemplateExtension</see> method.

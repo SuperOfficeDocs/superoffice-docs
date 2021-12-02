@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-deleteblobentity
 title: Services88.BLOBAgent.DeleteBlobEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-DeleteBlobEntity
 ---
 
-# Services88 BLOB DeleteBlobEntity SOAP
+# Services88 BLOB DeleteBlobEntity
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.DeleteBlobEntity">SuperOffice.Services88.IBLOBAgent.DeleteBlobEntity</see> method.

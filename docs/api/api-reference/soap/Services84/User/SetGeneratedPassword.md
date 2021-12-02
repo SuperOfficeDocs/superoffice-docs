@@ -1,10 +1,10 @@
 ---
-uid: services84-user-setgeneratedpassword
 title: Services84.UserAgent.SetGeneratedPassword SOAP
-Generated: true
+generated: 1
+uid: Services84-User-SetGeneratedPassword
 ---
 
-# Services84 User SetGeneratedPassword SOAP
+# Services84 User SetGeneratedPassword
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.SetGeneratedPassword">SuperOffice.Services84.IUserAgent.SetGeneratedPassword</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services84-document
 title: Services84.DocumentAgent SOAP
-Generated: true
+uid: Services84-Document-soap
+generated: 1
 ---
 
 # Services84 Document SOAP
@@ -90,3 +90,4 @@ Download [WSDL file for Services84/Document](../Services84-Document.md) if you n
 * [SubstituteTemplateVariablesWithCustomTags2](SubstituteTemplateVariablesWithCustomTags2.md)
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
+

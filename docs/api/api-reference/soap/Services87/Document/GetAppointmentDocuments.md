@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getappointmentdocuments
 title: Services87.DocumentAgent.GetAppointmentDocuments SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetAppointmentDocuments
 ---
 
-# Services87 Document GetAppointmentDocuments SOAP
+# Services87 Document GetAppointmentDocuments
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetAppointmentDocuments">SuperOffice.Services87.IDocumentAgent.GetAppointmentDocuments</see> method.

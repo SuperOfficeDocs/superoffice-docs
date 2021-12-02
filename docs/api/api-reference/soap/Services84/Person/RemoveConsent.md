@@ -1,10 +1,10 @@
 ---
-uid: services84-person-removeconsent
 title: Services84.PersonAgent.RemoveConsent SOAP
-Generated: true
+generated: 1
+uid: Services84-Person-RemoveConsent
 ---
 
-# Services84 Person RemoveConsent SOAP
+# Services84 Person RemoveConsent
 
 SOAP request and response examples **Remote/Services84/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.RemoveConsent">SuperOffice.Services84.IPersonAgent.RemoveConsent</see> method.

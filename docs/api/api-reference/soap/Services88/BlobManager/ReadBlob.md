@@ -1,10 +1,10 @@
 ---
-uid: services88-blobmanager-readblob
 title: Services88.BlobManagerAgent.ReadBlob SOAP
-Generated: true
+generated: 1
+uid: Services88-BlobManager-ReadBlob
 ---
 
-# Services88 BlobManager ReadBlob SOAP
+# Services88 BlobManager ReadBlob
 
 SOAP request and response examples **Remote/Services88/BlobManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBlobManagerAgent.ReadBlob">SuperOffice.Services88.IBlobManagerAgent.ReadBlob</see> method.

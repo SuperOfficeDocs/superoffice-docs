@@ -1,10 +1,10 @@
 ---
-uid: services84-email-createdefaultemailsoinfo
 title: Services84.EMailAgent.CreateDefaultEMailSOInfo SOAP
-Generated: true
+generated: 1
+uid: Services84-EMail-CreateDefaultEMailSOInfo
 ---
 
-# Services84 EMail CreateDefaultEMailSOInfo SOAP
+# Services84 EMail CreateDefaultEMailSOInfo
 
 SOAP request and response examples **Remote/Services84/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.CreateDefaultEMailSOInfo">SuperOffice.Services84.IEMailAgent.CreateDefaultEMailSOInfo</see> method.
@@ -70,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
     <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
     <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-    <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-03-25T21:35:25Z</EMail:ArchivedAt>
+    <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</EMail:ArchivedAt>
     <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
     <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
    </EMail:Response>

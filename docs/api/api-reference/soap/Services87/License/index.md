@@ -1,7 +1,7 @@
 ---
-uid: services87-license
 title: Services87.LicenseAgent SOAP
-Generated: true
+uid: Services87-License-soap
+generated: 1
 ---
 
 # Services87 License SOAP
@@ -34,3 +34,4 @@ Download [WSDL file for Services87/License](../Services87-License.md) if you nee
 * [RemoveLicenseFromDB](RemoveLicenseFromDB.md)
 * [UnassignThirdPartyLicenses](UnassignThirdPartyLicenses.md)
 * [ValidateLicenseInfo](ValidateLicenseInfo.md)
+

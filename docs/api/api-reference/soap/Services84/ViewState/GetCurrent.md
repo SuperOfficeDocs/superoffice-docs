@@ -1,10 +1,10 @@
 ---
-uid: services84-viewstate-getcurrent
 title: Services84.ViewStateAgent.GetCurrent SOAP
-Generated: true
+generated: 1
+uid: Services84-ViewState-GetCurrent
 ---
 
-# Services84 ViewState GetCurrent SOAP
+# Services84 ViewState GetCurrent
 
 SOAP request and response examples **Remote/Services84/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IViewStateAgent.GetCurrent">SuperOffice.Services84.IViewStateAgent.GetCurrent</see> method.

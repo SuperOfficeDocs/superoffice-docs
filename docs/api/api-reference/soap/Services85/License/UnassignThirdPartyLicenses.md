@@ -1,10 +1,10 @@
 ---
-uid: services85-license-unassignthirdpartylicenses
 title: Services85.LicenseAgent.UnassignThirdPartyLicenses SOAP
-Generated: true
+generated: 1
+uid: Services85-License-UnassignThirdPartyLicenses
 ---
 
-# Services85 License UnassignThirdPartyLicenses SOAP
+# Services85 License UnassignThirdPartyLicenses
 
 SOAP request and response examples **Remote/Services85/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.UnassignThirdPartyLicenses">SuperOffice.Services85.ILicenseAgent.UnassignThirdPartyLicenses</see> method.

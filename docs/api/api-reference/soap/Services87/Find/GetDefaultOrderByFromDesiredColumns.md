@@ -1,10 +1,10 @@
 ---
-uid: services87-find-getdefaultorderbyfromdesiredcolumns
 title: Services87.FindAgent.GetDefaultOrderByFromDesiredColumns SOAP
-Generated: true
+generated: 1
+uid: Services87-Find-GetDefaultOrderByFromDesiredColumns
 ---
 
-# Services87 Find GetDefaultOrderByFromDesiredColumns SOAP
+# Services87 Find GetDefaultOrderByFromDesiredColumns
 
 SOAP request and response examples **Remote/Services87/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.GetDefaultOrderByFromDesiredColumns">SuperOffice.Services87.IFindAgent.GetDefaultOrderByFromDesiredColumns</see> method.

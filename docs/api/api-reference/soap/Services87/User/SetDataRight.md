@@ -1,10 +1,10 @@
 ---
-uid: services87-user-setdataright
 title: Services87.UserAgent.SetDataRight SOAP
-Generated: true
+generated: 1
+uid: Services87-User-SetDataRight
 ---
 
-# Services87 User SetDataRight SOAP
+# Services87 User SetDataRight
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SetDataRight">SuperOffice.Services87.IUserAgent.SetDataRight</see> method.

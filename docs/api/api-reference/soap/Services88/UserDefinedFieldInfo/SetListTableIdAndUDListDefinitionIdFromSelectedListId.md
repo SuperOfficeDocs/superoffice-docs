@@ -1,10 +1,10 @@
 ---
-uid: services88-userdefinedfieldinfo-setlisttableidandudlistdefinitionidfromselectedlistid
 title: Services88.UserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId SOAP
-Generated: true
+generated: 1
+uid: Services88-UserDefinedFieldInfo-SetListTableIdAndUDListDefinitionIdFromSelectedListId
 ---
 
-# Services88 UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId SOAP
+# Services88 UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
 SOAP request and response examples **Remote/Services88/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId">SuperOffice.Services88.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId</see> method.

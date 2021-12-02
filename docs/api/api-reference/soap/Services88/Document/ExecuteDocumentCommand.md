@@ -1,10 +1,10 @@
 ---
-uid: services88-document-executedocumentcommand
 title: Services88.DocumentAgent.ExecuteDocumentCommand SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-ExecuteDocumentCommand
 ---
 
-# Services88 Document ExecuteDocumentCommand SOAP
+# Services88 Document ExecuteDocumentCommand
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.ExecuteDocumentCommand">SuperOffice.Services88.IDocumentAgent.ExecuteDocumentCommand</see> method.

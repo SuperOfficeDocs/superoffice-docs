@@ -1,10 +1,10 @@
 ---
-uid: services88-preference-getpreferencedescriptionlinefromidandvalue
 title: Services88.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue SOAP
-Generated: true
+generated: 1
+uid: Services88-Preference-GetPreferenceDescriptionLineFromIdAndValue
 ---
 
-# Services88 Preference GetPreferenceDescriptionLineFromIdAndValue SOAP
+# Services88 Preference GetPreferenceDescriptionLineFromIdAndValue
 
 SOAP request and response examples **Remote/Services88/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue">SuperOffice.Services88.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue</see> method.

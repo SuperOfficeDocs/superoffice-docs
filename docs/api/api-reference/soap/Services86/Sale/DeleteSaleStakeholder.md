@@ -1,10 +1,10 @@
 ---
-uid: services86-sale-deletesalestakeholder
 title: Services86.SaleAgent.DeleteSaleStakeholder SOAP
-Generated: true
+generated: 1
+uid: Services86-Sale-DeleteSaleStakeholder
 ---
 
-# Services86 Sale DeleteSaleStakeholder SOAP
+# Services86 Sale DeleteSaleStakeholder
 
 SOAP request and response examples **Remote/Services86/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.DeleteSaleStakeholder">SuperOffice.Services86.ISaleAgent.DeleteSaleStakeholder</see> method.

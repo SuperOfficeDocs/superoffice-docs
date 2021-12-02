@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getcurrency
 title: Services88.ListAgent.GetCurrency SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetCurrency
 ---
 
-# Services88 List GetCurrency SOAP
+# Services88 List GetCurrency
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetCurrency">SuperOffice.Services88.IListAgent.GetCurrency</see> method.

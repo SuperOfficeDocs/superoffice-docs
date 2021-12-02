@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getlistentity
 title: Services84.ListAgent.GetListEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetListEntity
 ---
 
-# Services84 List GetListEntity SOAP
+# Services84 List GetListEntity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetListEntity">SuperOffice.Services84.IListAgent.GetListEntity</see> method.

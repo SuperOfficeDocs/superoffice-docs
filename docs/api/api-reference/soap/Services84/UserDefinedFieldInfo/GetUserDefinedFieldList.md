@@ -1,10 +1,10 @@
 ---
-uid: services84-userdefinedfieldinfo-getuserdefinedfieldlist
 title: Services84.UserDefinedFieldInfoAgent.GetUserDefinedFieldList SOAP
-Generated: true
+generated: 1
+uid: Services84-UserDefinedFieldInfo-GetUserDefinedFieldList
 ---
 
-# Services84 UserDefinedFieldInfo GetUserDefinedFieldList SOAP
+# Services84 UserDefinedFieldInfo GetUserDefinedFieldList
 
 SOAP request and response examples **Remote/Services84/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList">SuperOffice.Services84.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList</see> method.

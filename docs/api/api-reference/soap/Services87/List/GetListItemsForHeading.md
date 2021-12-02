@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getlistitemsforheading
 title: Services87.ListAgent.GetListItemsForHeading SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetListItemsForHeading
 ---
 
-# Services87 List GetListItemsForHeading SOAP
+# Services87 List GetListItemsForHeading
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetListItemsForHeading">SuperOffice.Services87.IListAgent.GetListItemsForHeading</see> method.
@@ -78,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
      <List:IconHint xsi:type="xsd:string"></List:IconHint>
      <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-     <List:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:LastChanged>
+     <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:LastChanged>
      <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
       <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
        <List:Id xsi:type="xsd:int">0</List:Id>
@@ -90,7 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
        <List:IconHint xsi:type="xsd:string"></List:IconHint>
        <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-       <List:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:LastChanged>
+       <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:LastChanged>
        <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
         <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
          <List:Id xsi:type="xsd:int">0</List:Id>
@@ -102,7 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
          <List:IconHint xsi:type="xsd:string"></List:IconHint>
          <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-         <List:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:LastChanged>
+         <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:LastChanged>
          <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
           <List:SelectableMDOListItem xsi:nil="true"></List:SelectableMDOListItem>
          </List:ChildItems>

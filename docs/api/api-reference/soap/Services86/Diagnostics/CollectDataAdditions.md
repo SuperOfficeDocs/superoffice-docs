@@ -1,10 +1,10 @@
 ---
-uid: services86-diagnostics-collectdataadditions
 title: Services86.DiagnosticsAgent.CollectDataAdditions SOAP
-Generated: true
+generated: 1
+uid: Services86-Diagnostics-CollectDataAdditions
 ---
 
-# Services86 Diagnostics CollectDataAdditions SOAP
+# Services86 Diagnostics CollectDataAdditions
 
 SOAP request and response examples **Remote/Services86/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDiagnosticsAgent.CollectDataAdditions">SuperOffice.Services86.IDiagnosticsAgent.CollectDataAdditions</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-blob-changeproductimage
 title: Services85.BLOBAgent.ChangeProductImage SOAP
-Generated: true
+generated: 1
+uid: Services85-BLOB-ChangeProductImage
 ---
 
-# Services85 BLOB ChangeProductImage SOAP
+# Services85 BLOB ChangeProductImage
 
 SOAP request and response examples **Remote/Services85/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.ChangeProductImage">SuperOffice.Services85.IBLOBAgent.ChangeProductImage</see> method.

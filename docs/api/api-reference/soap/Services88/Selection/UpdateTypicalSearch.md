@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-updatetypicalsearch
 title: Services88.SelectionAgent.UpdateTypicalSearch SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-UpdateTypicalSearch
 ---
 
-# Services88 Selection UpdateTypicalSearch SOAP
+# Services88 Selection UpdateTypicalSearch
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.UpdateTypicalSearch">SuperOffice.Services88.ISelectionAgent.UpdateTypicalSearch</see> method.

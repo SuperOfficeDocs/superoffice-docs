@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-getparentcombinedselections
 title: Services88.SelectionAgent.GetParentCombinedSelections SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-GetParentCombinedSelections
 ---
 
-# Services88 Selection GetParentCombinedSelections SOAP
+# Services88 Selection GetParentCombinedSelections
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetParentCombinedSelections">SuperOffice.Services88.ISelectionAgent.GetParentCombinedSelections</see> method.

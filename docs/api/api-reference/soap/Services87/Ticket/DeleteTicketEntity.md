@@ -1,10 +1,10 @@
 ---
-uid: services87-ticket-deleteticketentity
 title: Services87.TicketAgent.DeleteTicketEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Ticket-DeleteTicketEntity
 ---
 
-# Services87 Ticket DeleteTicketEntity SOAP
+# Services87 Ticket DeleteTicketEntity
 
 SOAP request and response examples **Remote/Services87/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ITicketAgent.DeleteTicketEntity">SuperOffice.Services87.ITicketAgent.DeleteTicketEntity</see> method.

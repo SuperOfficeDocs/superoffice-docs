@@ -1,10 +1,10 @@
 ---
-uid: services88-list-deleteticketcategoryentity
 title: Services88.ListAgent.DeleteTicketCategoryEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-DeleteTicketCategoryEntity
 ---
 
-# Services88 List DeleteTicketCategoryEntity SOAP
+# Services88 List DeleteTicketCategoryEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteTicketCategoryEntity">SuperOffice.Services88.IListAgent.DeleteTicketCategoryEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-email-togglesubscription
 title: Services87.EMailAgent.ToggleSubscription SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-ToggleSubscription
 ---
 
-# Services87 EMail ToggleSubscription SOAP
+# Services87 EMail ToggleSubscription
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.ToggleSubscription">SuperOffice.Services87.IEMailAgent.ToggleSubscription</see> method.

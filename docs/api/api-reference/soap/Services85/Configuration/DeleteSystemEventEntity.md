@@ -1,10 +1,10 @@
 ---
-uid: services85-configuration-deletesystemevententity
 title: Services85.ConfigurationAgent.DeleteSystemEventEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Configuration-DeleteSystemEventEntity
 ---
 
-# Services85 Configuration DeleteSystemEventEntity SOAP
+# Services85 Configuration DeleteSystemEventEntity
 
 SOAP request and response examples **Remote/Services85/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.DeleteSystemEventEntity">SuperOffice.Services85.IConfigurationAgent.DeleteSystemEventEntity</see> method.

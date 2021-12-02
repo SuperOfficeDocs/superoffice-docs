@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getalldocumenttemplates
 title: Services87.ListAgent.GetAllDocumentTemplates SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetAllDocumentTemplates
 ---
 
-# Services87 List GetAllDocumentTemplates SOAP
+# Services87 List GetAllDocumentTemplates
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetAllDocumentTemplates">SuperOffice.Services87.IListAgent.GetAllDocumentTemplates</see> method.

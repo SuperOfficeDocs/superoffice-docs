@@ -1,10 +1,10 @@
 ---
-uid: services88-ai-translate
 title: Services88.AIAgent.Translate SOAP
-Generated: true
+generated: 1
+uid: Services88-AI-Translate
 ---
 
-# Services88 AI Translate SOAP
+# Services88 AI Translate
 
 SOAP request and response examples **Remote/Services88/AI.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.Translate">SuperOffice.Services88.IAIAgent.Translate</see> method.

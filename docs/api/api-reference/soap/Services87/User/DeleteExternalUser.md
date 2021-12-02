@@ -1,10 +1,10 @@
 ---
-uid: services87-user-deleteexternaluser
 title: Services87.UserAgent.DeleteExternalUser SOAP
-Generated: true
+generated: 1
+uid: Services87-User-DeleteExternalUser
 ---
 
-# Services87 User DeleteExternalUser SOAP
+# Services87 User DeleteExternalUser
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.DeleteExternalUser">SuperOffice.Services87.IUserAgent.DeleteExternalUser</see> method.

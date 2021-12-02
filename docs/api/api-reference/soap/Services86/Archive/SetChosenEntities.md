@@ -1,10 +1,10 @@
 ---
-uid: services86-archive-setchosenentities
 title: Services86.ArchiveAgent.SetChosenEntities SOAP
-Generated: true
+generated: 1
+uid: Services86-Archive-SetChosenEntities
 ---
 
-# Services86 Archive SetChosenEntities SOAP
+# Services86 Archive SetChosenEntities
 
 SOAP request and response examples **Remote/Services86/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.SetChosenEntities">SuperOffice.Services86.IArchiveAgent.SetChosenEntities</see> method.

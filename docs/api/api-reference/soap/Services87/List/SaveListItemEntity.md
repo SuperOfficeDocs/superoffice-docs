@@ -1,10 +1,10 @@
 ---
-uid: services87-list-savelistitementity
 title: Services87.ListAgent.SaveListItemEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SaveListItemEntity
 ---
 
-# Services87 List SaveListItemEntity SOAP
+# Services87 List SaveListItemEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveListItemEntity">SuperOffice.Services87.IListAgent.SaveListItemEntity</see> method.

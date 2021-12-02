@@ -1,10 +1,10 @@
 ---
-uid: services88-crmscript-createdefaultcrmscriptentity
 title: Services88.CRMScriptAgent.CreateDefaultCRMScriptEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-CRMScript-CreateDefaultCRMScriptEntity
 ---
 
-# Services88 CRMScript CreateDefaultCRMScriptEntity SOAP
+# Services88 CRMScript CreateDefaultCRMScriptEntity
 
 SOAP request and response examples **Remote/Services88/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.CreateDefaultCRMScriptEntity">SuperOffice.Services88.ICRMScriptAgent.CreateDefaultCRMScriptEntity</see> method.
@@ -71,9 +71,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:HierarchyId xsi:type="xsd:int">0</CRMScript:HierarchyId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
    </CRMScript:Response>
   </CRMScript:CreateDefaultCRMScriptEntityResponse>

@@ -1,10 +1,10 @@
 ---
-uid: services87-audience-createdefaultaudiencelayoutentity
 title: Services87.AudienceAgent.CreateDefaultAudienceLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Audience-CreateDefaultAudienceLayoutEntity
 ---
 
-# Services87 Audience CreateDefaultAudienceLayoutEntity SOAP
+# Services87 Audience CreateDefaultAudienceLayoutEntity
 
 SOAP request and response examples **Remote/Services87/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.CreateDefaultAudienceLayoutEntity">SuperOffice.Services87.IAudienceAgent.CreateDefaultAudienceLayoutEntity</see> method.
@@ -66,8 +66,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
     <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:27Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:27Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="Audience:Associate">
      <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>

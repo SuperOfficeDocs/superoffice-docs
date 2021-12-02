@@ -1,10 +1,10 @@
 ---
-uid: services86-ticket-getticketmessageentity
 title: Services86.TicketAgent.GetTicketMessageEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Ticket-GetTicketMessageEntity
 ---
 
-# Services86 Ticket GetTicketMessageEntity SOAP
+# Services86 Ticket GetTicketMessageEntity
 
 SOAP request and response examples **Remote/Services86/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.GetTicketMessageEntity">SuperOffice.Services86.ITicketAgent.GetTicketMessageEntity</see> method.
@@ -70,16 +70,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Ticket xsi:type="Ticket:Ticket">
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:CreatedAt>
-     <Ticket:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:LastChanged>
-     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:ReadByOwner>
-     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:ReadByCustomer>
-     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:FirstReadByUser>
-     <Ticket:Activate xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:Activate>
-     <Ticket:ClosedAt xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:ClosedAt>
-     <Ticket:RepliedAt xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:RepliedAt>
-     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:AlertTimeout>
-     <Ticket:Deadline xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:Deadline>
+     <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:CreatedAt>
+     <Ticket:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:LastChanged>
+     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:ReadByOwner>
+     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:ReadByCustomer>
+     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:FirstReadByUser>
+     <Ticket:Activate xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:Activate>
+     <Ticket:ClosedAt xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:ClosedAt>
+     <Ticket:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:RepliedAt>
+     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:AlertTimeout>
+     <Ticket:Deadline xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:Deadline>
      <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
      <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
      <Ticket:OwnedBy xsi:type="xsd:int">0</Ticket:OwnedBy>
@@ -108,7 +108,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:NumMessages xsi:type="xsd:int">0</Ticket:NumMessages>
      <Ticket:FromAddress xsi:type="xsd:string"></Ticket:FromAddress>
     </Ticket:Ticket>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</Ticket:CreatedAt>
     <Ticket:CreatedBy xsi:type="Ticket:Associate">
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>

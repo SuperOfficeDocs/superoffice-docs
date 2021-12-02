@@ -1,10 +1,10 @@
 ---
-uid: services88-list-addfromlistname
 title: Services88.ListAgent.AddFromListName SOAP
-Generated: true
+generated: 1
+uid: Services88-List-AddFromListName
 ---
 
-# Services88 List AddFromListName SOAP
+# Services88 List AddFromListName
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.AddFromListName">SuperOffice.Services88.IListAgent.AddFromListName</see> method.

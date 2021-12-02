@@ -1,10 +1,10 @@
 ---
-uid: services86-project-getmyprojectevents
 title: Services86.ProjectAgent.GetMyProjectEvents SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-GetMyProjectEvents
 ---
 
-# Services86 Project GetMyProjectEvents SOAP
+# Services86 Project GetMyProjectEvents
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.GetMyProjectEvents">SuperOffice.Services86.IProjectAgent.GetMyProjectEvents</see> method.
@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
      <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
      <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-     <Project:EventDate xsi:type="xsd:dateTime">2021-03-25T21:36:18Z</Project:EventDate>
+     <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:23:01Z</Project:EventDate>
      <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
      <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
      <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>

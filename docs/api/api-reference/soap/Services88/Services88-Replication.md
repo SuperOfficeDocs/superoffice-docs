@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Replication
 title: Services88.ReplicationAgent WSDL
 ---
 
@@ -348,6 +348,7 @@ title: Services88.ReplicationAgent WSDL
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PrerequisiteModuleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SortOrder" type="xs:int" />
+              <xs:element minOccurs="0" name="ExtraFlags" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

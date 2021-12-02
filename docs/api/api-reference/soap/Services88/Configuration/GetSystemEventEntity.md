@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-getsystemevententity
 title: Services88.ConfigurationAgent.GetSystemEventEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-GetSystemEventEntity
 ---
 
-# Services88 Configuration GetSystemEventEntity SOAP
+# Services88 Configuration GetSystemEventEntity
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetSystemEventEntity">SuperOffice.Services88.IConfigurationAgent.GetSystemEventEntity</see> method.
@@ -68,13 +68,13 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Configuration:Response xsi:type="Configuration:SystemEventEntity">
     <Configuration:SystemEventId xsi:type="xsd:int">0</Configuration:SystemEventId>
     <Configuration:Scope xsi:type="Configuration:SystemEventScope">Undefined</Configuration:Scope>
-    <Configuration:Eta xsi:type="xsd:dateTime">2021-03-25T21:36:53Z</Configuration:Eta>
+    <Configuration:Eta xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:Eta>
     <Configuration:Eventkey xsi:type="xsd:string"></Configuration:Eventkey>
     <Configuration:Eventmess xsi:type="xsd:string"></Configuration:Eventmess>
     <Configuration:ExtraInfo xsi:type="xsd:int">0</Configuration:ExtraInfo>
     <Configuration:Owner xsi:type="xsd:int">0</Configuration:Owner>
     <Configuration:UpdatedCount xsi:type="xsd:short">0</Configuration:UpdatedCount>
-    <Configuration:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:53Z</Configuration:Registered>
+    <Configuration:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:Registered>
     <Configuration:ActivatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>

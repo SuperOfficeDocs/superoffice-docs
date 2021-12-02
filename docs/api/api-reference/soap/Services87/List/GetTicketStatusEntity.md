@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getticketstatusentity
 title: Services87.ListAgent.GetTicketStatusEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetTicketStatusEntity
 ---
 
-# Services87 List GetTicketStatusEntity SOAP
+# Services87 List GetTicketStatusEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketStatusEntity">SuperOffice.Services87.IListAgent.GetTicketStatusEntity</see> method.

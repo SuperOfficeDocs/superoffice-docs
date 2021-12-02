@@ -1,10 +1,10 @@
 ---
-uid: services88-person-addbouncewithcount
 title: Services88.PersonAgent.AddBounceWithCount SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-AddBounceWithCount
 ---
 
-# Services88 Person AddBounceWithCount SOAP
+# Services88 Person AddBounceWithCount
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.AddBounceWithCount">SuperOffice.Services88.IPersonAgent.AddBounceWithCount</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-license-changeserialnumber
 title: Services84.LicenseAgent.ChangeSerialNumber SOAP
-Generated: true
+generated: 1
+uid: Services84-License-ChangeSerialNumber
 ---
 
-# Services84 License ChangeSerialNumber SOAP
+# Services84 License ChangeSerialNumber
 
 SOAP request and response examples **Remote/Services84/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ILicenseAgent.ChangeSerialNumber">SuperOffice.Services84.ILicenseAgent.ChangeSerialNumber</see> method.

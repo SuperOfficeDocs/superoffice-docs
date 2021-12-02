@@ -1,10 +1,10 @@
 ---
-uid: services85-contact-getmyactivecontacts
 title: Services85.ContactAgent.GetMyActiveContacts SOAP
-Generated: true
+generated: 1
+uid: Services85-Contact-GetMyActiveContacts
 ---
 
-# Services85 Contact GetMyActiveContacts SOAP
+# Services85 Contact GetMyActiveContacts
 
 SOAP request and response examples **Remote/Services85/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetMyActiveContacts">SuperOffice.Services85.IContactAgent.GetMyActiveContacts</see> method.
@@ -44,7 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Contact:Credentials>
  <SOAP-ENV:Body>
    <Contact:GetMyActiveContacts>
-    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2021-03-25T21:35:43Z</Contact:ActivityStartTime>
+    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2021-11-30T13:22:28Z</Contact:ActivityStartTime>
     <Contact:ContactCategories xsi:type="NetServerServices852:ArrayOfint">
      <NetServerServices852:int xsi:type="xsd:int">0</NetServerServices852:int>
     </Contact:ContactCategories>
@@ -80,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:URL xsi:type="xsd:string"></Contact:URL>
      <Contact:AssociateFullName xsi:type="xsd:string"></Contact:AssociateFullName>
      <Contact:Action xsi:type="Contact:ContactAction">Created</Contact:Action>
-     <Contact:ActionTime xsi:type="xsd:dateTime">2021-03-25T21:35:43Z</Contact:ActionTime>
+     <Contact:ActionTime xsi:type="xsd:dateTime">2021-11-30T13:22:28Z</Contact:ActionTime>
      <Contact:Category xsi:type="xsd:string"></Contact:Category>
      <Contact:ActivityPersonName xsi:type="xsd:string"></Contact:ActivityPersonName>
      <Contact:ActionId xsi:type="xsd:int">0</Contact:ActionId>

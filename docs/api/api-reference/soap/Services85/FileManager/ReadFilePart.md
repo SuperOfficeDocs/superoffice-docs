@@ -1,10 +1,10 @@
 ---
-uid: services85-filemanager-readfilepart
 title: Services85.FileManagerAgent.ReadFilePart SOAP
-Generated: true
+generated: 1
+uid: Services85-FileManager-ReadFilePart
 ---
 
-# Services85 FileManager ReadFilePart SOAP
+# Services85 FileManager ReadFilePart
 
 SOAP request and response examples **Remote/Services85/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFileManagerAgent.ReadFilePart">SuperOffice.Services85.IFileManagerAgent.ReadFilePart</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-list-deleteallheadingsfromname
 title: Services85.ListAgent.DeleteAllHeadingsFromName SOAP
-Generated: true
+generated: 1
+uid: Services85-List-DeleteAllHeadingsFromName
 ---
 
-# Services85 List DeleteAllHeadingsFromName SOAP
+# Services85 List DeleteAllHeadingsFromName
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.DeleteAllHeadingsFromName">SuperOffice.Services85.IListAgent.DeleteAllHeadingsFromName</see> method.

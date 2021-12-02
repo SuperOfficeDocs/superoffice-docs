@@ -1,10 +1,10 @@
 ---
-uid: services87-user-isnicknameunique
 title: Services87.UserAgent.IsNickNameUnique SOAP
-Generated: true
+generated: 1
+uid: Services87-User-IsNickNameUnique
 ---
 
-# Services87 User IsNickNameUnique SOAP
+# Services87 User IsNickNameUnique
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.IsNickNameUnique">SuperOffice.Services87.IUserAgent.IsNickNameUnique</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-email-moveemailstofolder
 title: Services86.EMailAgent.MoveEmailsToFolder SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-MoveEmailsToFolder
 ---
 
-# Services86 EMail MoveEmailsToFolder SOAP
+# Services86 EMail MoveEmailsToFolder
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.MoveEmailsToFolder">SuperOffice.Services86.IEMailAgent.MoveEmailsToFolder</see> method.

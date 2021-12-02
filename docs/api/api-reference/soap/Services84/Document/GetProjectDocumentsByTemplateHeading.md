@@ -1,10 +1,10 @@
 ---
-uid: services84-document-getprojectdocumentsbytemplateheading
 title: Services84.DocumentAgent.GetProjectDocumentsByTemplateHeading SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-GetProjectDocumentsByTemplateHeading
 ---
 
-# Services84 Document GetProjectDocumentsByTemplateHeading SOAP
+# Services84 Document GetProjectDocumentsByTemplateHeading
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetProjectDocumentsByTemplateHeading">SuperOffice.Services84.IDocumentAgent.GetProjectDocumentsByTemplateHeading</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetProjectDocumentsByTemplateHeading>
     <Document:ProjectId xsi:type="xsd:int">0</Document:ProjectId>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:TemplateHeadingId xsi:type="xsd:int">0</Document:TemplateHeadingId>
    </Document:GetProjectDocumentsByTemplateHeading>

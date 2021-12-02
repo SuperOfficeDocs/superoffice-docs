@@ -1,10 +1,10 @@
 ---
-uid: services88-list-createdefaultheadingfromlistdefinition
 title: Services88.ListAgent.CreateDefaultHeadingFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services88-List-CreateDefaultHeadingFromListDefinition
 ---
 
-# Services88 List CreateDefaultHeadingFromListDefinition SOAP
+# Services88 List CreateDefaultHeadingFromListDefinition
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultHeadingFromListDefinition">SuperOffice.Services88.IListAgent.CreateDefaultHeadingFromListDefinition</see> method.

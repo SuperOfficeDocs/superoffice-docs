@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-copysuperofficepricelist
 title: Services85.QuoteAgent.CopySuperOfficePriceList SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-CopySuperOfficePriceList
 ---
 
-# Services85 Quote CopySuperOfficePriceList SOAP
+# Services85 Quote CopySuperOfficePriceList
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.CopySuperOfficePriceList">SuperOffice.Services85.IQuoteAgent.CopySuperOfficePriceList</see> method.
@@ -49,8 +49,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Quote:CopySuperOfficePriceList>
     <Quote:OriginalPriceListId xsi:type="xsd:int">0</Quote:OriginalPriceListId>
     <Quote:NewName xsi:type="xsd:string"></Quote:NewName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:35:55Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:35:55Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ValidTo>
     <Quote:NewCurrencyId xsi:type="xsd:int">0</Quote:NewCurrencyId>
     <Quote:ConvertCurrency xsi:type="xsd:boolean">false</Quote:ConvertCurrency>
    </Quote:CopySuperOfficePriceList>
@@ -83,8 +83,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:35:55Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:35:55Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CopySuperOfficePriceListResponse>

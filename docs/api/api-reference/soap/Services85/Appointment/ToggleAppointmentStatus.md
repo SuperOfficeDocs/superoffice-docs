@@ -1,10 +1,10 @@
 ---
-uid: services85-appointment-toggleappointmentstatus
 title: Services85.AppointmentAgent.ToggleAppointmentStatus SOAP
-Generated: true
+generated: 1
+uid: Services85-Appointment-ToggleAppointmentStatus
 ---
 
-# Services85 Appointment ToggleAppointmentStatus SOAP
+# Services85 Appointment ToggleAppointmentStatus
 
 SOAP request and response examples **Remote/Services85/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.ToggleAppointmentStatus">SuperOffice.Services85.IAppointmentAgent.ToggleAppointmentStatus</see> method.

@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-User
 title: Services88.UserAgent WSDL
 ---
 
@@ -12,9 +12,11 @@ title: Services88.UserAgent WSDL
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="CreateDefaultServiceAuth">
+      <xs:element name="GetAllUserGroups">
         <xs:complexType>
-          <xs:sequence />
+          <xs:sequence>
+            <xs:element minOccurs="0" name="IncludeDeleted" type="xs:boolean" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
@@ -33,28 +35,33 @@ title: Services88.UserAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="CreateDefaultServiceAuthResponse">
+      <xs:element name="GetAllUserGroupsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserGroup" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="ServiceAuth">
+      <xs:complexType name="ArrayOfUserGroup">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="UserGroup" nillable="true" type="tns:UserGroup" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfUserGroup" nillable="true" type="tns:ArrayOfUserGroup" />
+      <xs:complexType name="UserGroup">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
-              <xs:element minOccurs="0" name="Server" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Port" type="xs:int" />
-              <xs:element minOccurs="0" name="AuthType" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ServiceAuth" nillable="true" type="tns:ServiceAuth" />
+      <xs:element name="UserGroup" nillable="true" type="tns:UserGroup" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -186,32 +193,114 @@ title: Services88.UserAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
-      <xs:element name="SaveServiceAuth">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ServiceAuth" nillable="true" type="tns:ServiceAuth" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveServiceAuthResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteServiceAuth">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteServiceAuthResponse">
+      <xs:element name="CreateUserGroup">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateUserGroupResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserGroup" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteUserGroup">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserGroupToDelete" type="xs:int" />
+            <xs:element minOccurs="0" name="UserGroupToMoveTo" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteUserGroupResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserGroupList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserGroupListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserGroup" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserInfoId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="UserInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UserInfoId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
+              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserType" type="tns:UserType" />
+              <xs:element minOccurs="0" name="GrantedLicenses" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="CanLogon" type="xs:boolean" />
+              <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RoleTooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UserGroupName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UserGroupTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="UserInfo" nillable="true" type="tns:UserInfo" />
+      <xs:simpleType name="UserType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="InternalAssociate" />
+          <xs:enumeration value="ResourceAssociate" />
+          <xs:enumeration value="ExternalAssociate" />
+          <xs:enumeration value="AnonymousAssociate" />
+          <xs:enumeration value="SystemAssociate" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:element name="GetUserInfoList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserInfoIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserInfoListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfUserInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="UserInfo" nillable="true" type="tns:UserInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfUserInfo" nillable="true" type="tns:ArrayOfUserInfo" />
       <xs:element name="CreateDefaultRoleEntity">
         <xs:complexType>
           <xs:sequence />
@@ -280,17 +369,6 @@ title: Services88.UserAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Associate" nillable="true" type="tns:Associate" />
-      <xs:simpleType name="UserType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="InternalAssociate" />
-          <xs:enumeration value="ResourceAssociate" />
-          <xs:enumeration value="ExternalAssociate" />
-          <xs:enumeration value="AnonymousAssociate" />
-          <xs:enumeration value="SystemAssociate" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="UserType" nillable="true" type="tns:UserType" />
       <xs:complexType name="DataRights">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -373,6 +451,59 @@ title: Services88.UserAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:RoleEntity" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultServiceAuth">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultServiceAuthResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ServiceAuth">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
+              <xs:element minOccurs="0" name="Server" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Port" type="xs:int" />
+              <xs:element minOccurs="0" name="AuthType" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ServiceAuth" nillable="true" type="tns:ServiceAuth" />
+      <xs:element name="SaveServiceAuth">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ServiceAuth" nillable="true" type="tns:ServiceAuth" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveServiceAuthResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteServiceAuth">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteServiceAuthResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateDefaultUntrustedCredentials">
@@ -490,6 +621,7 @@ title: Services88.UserAgent WSDL
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PrerequisiteModuleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SortOrder" type="xs:int" />
+              <xs:element minOccurs="0" name="ExtraFlags" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -507,26 +639,6 @@ title: Services88.UserAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Role" nillable="true" type="tns:Role" />
-      <xs:complexType name="UserGroup">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="UserGroup" nillable="true" type="tns:UserGroup" />
-      <xs:complexType name="ArrayOfUserGroup">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="UserGroup" nillable="true" type="tns:UserGroup" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfUserGroup" nillable="true" type="tns:ArrayOfUserGroup" />
       <xs:complexType name="Person">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -772,6 +884,69 @@ title: Services88.UserAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetAccessGatewayInfo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAccessGatewayInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AccessGatewayInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="AccessGatewayInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ClientId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RedirectUri" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AccessGatewayInfo" nillable="true" type="tns:AccessGatewayInfo" />
+      <xs:element name="GetOrRegisterAccessGatewayInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="RedirectUri" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOrRegisterAccessGatewayInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AccessGatewayInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegisterWithAccessGateway">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="RedirectUri" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegisterWithAccessGatewayResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AccessGatewayInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckAccessGatewayRegistration">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckAccessGatewayRegistrationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SaveCredential">
         <xs:complexType>
           <xs:sequence>
@@ -853,7 +1028,7 @@ title: Services88.UserAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Headings" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Headings" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Users" nillable="true" type="tns:ArrayOfCredentialUser" />
             </xs:sequence>
           </xs:extension>
@@ -872,7 +1047,7 @@ title: Services88.UserAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Columns" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Columns" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="CanCreatePerson" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
@@ -891,20 +1066,6 @@ title: Services88.UserAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CredentialsGroupUsers" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetServiceAuth">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetServiceAuthResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1025,7 +1186,7 @@ title: Services88.UserAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="RoleId" type="xs:int" />
-            <xs:element minOccurs="0" name="FunctionalRightIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="FunctionalRightIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1124,28 +1285,96 @@ title: Services88.UserAgent WSDL
       <xs:element name="FindRolesWithFunctionalRights">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="FunctionalRightNames" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="FunctionalRightNames" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="FindRolesWithFunctionalRightsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="FindRolesWithoutFunctionalRights">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="FunctionalRightNames" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="FunctionalRightNames" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="FindRolesWithoutFunctionalRightsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetServiceAuth">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ServiceAuthId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetServiceAuthResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ServiceAuth" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveExternalTokens">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TokenManagementInfo" nillable="true" type="tns:TokenManagementInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="TokenManagementInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Provider" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AccessToken" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RefreshToken" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="TokenManagementInfo" nillable="true" type="tns:TokenManagementInfo" />
+      <xs:element name="SaveExternalTokensResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DecryptAndSaveExternalTokens">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TokenManagementInfo" nillable="true" type="tns:TokenManagementInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DecryptAndSaveExternalTokensResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetExternalTokens">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetExternalTokensResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TokenManagementInfo" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1765,8 +1994,8 @@ title: Services88.UserAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ContactId" type="xs:int" />
             <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="PhoneNumbers" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Emails" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PhoneNumbers" nillable="true" type="q11:ArrayOfstring" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Emails" nillable="true" type="q12:ArrayOfstring" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="UserType" type="tns:UserType" />
             <xs:element minOccurs="0" name="Credential" nillable="true" type="tns:Credential" />
           </xs:sequence>
@@ -1890,117 +2119,6 @@ title: Services88.UserAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetAllUserGroups">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="IncludeDeleted" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAllUserGroupsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserGroup" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateUserGroup">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateUserGroupResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserGroup" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteUserGroup">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UserGroupToDelete" type="xs:int" />
-            <xs:element minOccurs="0" name="UserGroupToMoveTo" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteUserGroupResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetUserGroupList">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetUserGroupListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserGroup" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetUserInfo">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UserInfoId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetUserInfoResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserInfo" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="UserInfo">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UserInfoId" type="xs:int" />
-              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
-              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
-              <xs:element minOccurs="0" name="UserType" type="tns:UserType" />
-              <xs:element minOccurs="0" name="GrantedLicenses" nillable="true" type="q11:ArrayOfstring" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-              <xs:element minOccurs="0" name="CanLogon" type="xs:boolean" />
-              <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="RoleTooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UserGroupName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UserGroupTooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="UserInfo" nillable="true" type="tns:UserInfo" />
-      <xs:element name="GetUserInfoList">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UserInfoIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetUserInfoListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUserInfo" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfUserInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="UserInfo" nillable="true" type="tns:UserInfo" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfUserInfo" nillable="true" type="tns:ArrayOfUserInfo" />
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -2044,20 +2162,156 @@ title: Services88.UserAgent WSDL
       <xs:attribute name="Ref" type="xs:IDREF" />
     </xs:schema>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-      <xs:complexType name="ArrayOfstring">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
       <xs:complexType name="ArrayOfint">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetAllUserGroupsRequest">
+    <wsdl:part name="parameters" element="tns:GetAllUserGroups" />
+  </wsdl:message>
+  <wsdl:message name="GetAllUserGroupsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllUserGroupsResponse">
+    <wsdl:part name="parameters" element="tns:GetAllUserGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllUserGroupsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserGroupRequest">
+    <wsdl:part name="parameters" element="tns:CreateUserGroup" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserGroupRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserGroupResponse">
+    <wsdl:part name="parameters" element="tns:CreateUserGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserGroupResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserGroupRequest">
+    <wsdl:part name="parameters" element="tns:DeleteUserGroup" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserGroupRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserGroupResponse">
+    <wsdl:part name="parameters" element="tns:DeleteUserGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserGroupResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGroupListRequest">
+    <wsdl:part name="parameters" element="tns:GetUserGroupList" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGroupListRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGroupListResponse">
+    <wsdl:part name="parameters" element="tns:GetUserGroupListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGroupListResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListRequest">
+    <wsdl:part name="parameters" element="tns:GetUserInfoList" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListResponse">
+    <wsdl:part name="parameters" element="tns:GetUserInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultRoleEntityRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultRoleEntity" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultRoleEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultRoleEntityResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultRoleEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultRoleEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveRoleEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveRoleEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveRoleEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveRoleEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveRoleEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveRoleEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultServiceAuthRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultServiceAuth" />
   </wsdl:message>
@@ -2104,40 +2358,6 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteServiceAuthResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteServiceAuthResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultRoleEntityRequest">
-    <wsdl:part name="parameters" element="tns:CreateDefaultRoleEntity" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultRoleEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultRoleEntityResponse">
-    <wsdl:part name="parameters" element="tns:CreateDefaultRoleEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultRoleEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveRoleEntityRequest">
-    <wsdl:part name="parameters" element="tns:SaveRoleEntity" />
-  </wsdl:message>
-  <wsdl:message name="SaveRoleEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveRoleEntityResponse">
-    <wsdl:part name="parameters" element="tns:SaveRoleEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveRoleEntityResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2245,6 +2465,74 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetAccessGatewayInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetAccessGatewayInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetAccessGatewayInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAccessGatewayInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetAccessGatewayInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccessGatewayInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetOrRegisterAccessGatewayInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetOrRegisterAccessGatewayInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetOrRegisterAccessGatewayInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetOrRegisterAccessGatewayInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetOrRegisterAccessGatewayInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrRegisterAccessGatewayInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RegisterWithAccessGatewayRequest">
+    <wsdl:part name="parameters" element="tns:RegisterWithAccessGateway" />
+  </wsdl:message>
+  <wsdl:message name="RegisterWithAccessGatewayRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RegisterWithAccessGatewayResponse">
+    <wsdl:part name="parameters" element="tns:RegisterWithAccessGatewayResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterWithAccessGatewayResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccessGatewayRegistrationRequest">
+    <wsdl:part name="parameters" element="tns:CheckAccessGatewayRegistration" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccessGatewayRegistrationRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccessGatewayRegistrationResponse">
+    <wsdl:part name="parameters" element="tns:CheckAccessGatewayRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccessGatewayRegistrationResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SaveCredentialRequest">
     <wsdl:part name="parameters" element="tns:SaveCredential" />
   </wsdl:message>
@@ -2325,23 +2613,6 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="parameters" element="tns:GetCredentialUsersInGroupResponse" />
   </wsdl:message>
   <wsdl:message name="GetCredentialUsersInGroupResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetServiceAuthRequest">
-    <wsdl:part name="parameters" element="tns:GetServiceAuth" />
-  </wsdl:message>
-  <wsdl:message name="GetServiceAuthRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetServiceAuthResponse">
-    <wsdl:part name="parameters" element="tns:GetServiceAuthResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetServiceAuthResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2580,6 +2851,74 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="parameters" element="tns:FindRolesWithoutFunctionalRightsResponse" />
   </wsdl:message>
   <wsdl:message name="FindRolesWithoutFunctionalRightsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceAuthRequest">
+    <wsdl:part name="parameters" element="tns:GetServiceAuth" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceAuthRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceAuthResponse">
+    <wsdl:part name="parameters" element="tns:GetServiceAuthResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceAuthResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveExternalTokensRequest">
+    <wsdl:part name="parameters" element="tns:SaveExternalTokens" />
+  </wsdl:message>
+  <wsdl:message name="SaveExternalTokensRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveExternalTokensResponse">
+    <wsdl:part name="parameters" element="tns:SaveExternalTokensResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveExternalTokensResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DecryptAndSaveExternalTokensRequest">
+    <wsdl:part name="parameters" element="tns:DecryptAndSaveExternalTokens" />
+  </wsdl:message>
+  <wsdl:message name="DecryptAndSaveExternalTokensRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DecryptAndSaveExternalTokensResponse">
+    <wsdl:part name="parameters" element="tns:DecryptAndSaveExternalTokensResponse" />
+  </wsdl:message>
+  <wsdl:message name="DecryptAndSaveExternalTokensResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalTokensRequest">
+    <wsdl:part name="parameters" element="tns:GetExternalTokens" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalTokensRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalTokensResponse">
+    <wsdl:part name="parameters" element="tns:GetExternalTokensResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalTokensResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -3384,112 +3723,66 @@ title: Services88.UserAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetAllUserGroupsRequest">
-    <wsdl:part name="parameters" element="tns:GetAllUserGroups" />
-  </wsdl:message>
-  <wsdl:message name="GetAllUserGroupsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetAllUserGroupsResponse">
-    <wsdl:part name="parameters" element="tns:GetAllUserGroupsResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetAllUserGroupsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateUserGroupRequest">
-    <wsdl:part name="parameters" element="tns:CreateUserGroup" />
-  </wsdl:message>
-  <wsdl:message name="CreateUserGroupRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateUserGroupResponse">
-    <wsdl:part name="parameters" element="tns:CreateUserGroupResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateUserGroupResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteUserGroupRequest">
-    <wsdl:part name="parameters" element="tns:DeleteUserGroup" />
-  </wsdl:message>
-  <wsdl:message name="DeleteUserGroupRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteUserGroupResponse">
-    <wsdl:part name="parameters" element="tns:DeleteUserGroupResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteUserGroupResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserGroupListRequest">
-    <wsdl:part name="parameters" element="tns:GetUserGroupList" />
-  </wsdl:message>
-  <wsdl:message name="GetUserGroupListRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserGroupListResponse">
-    <wsdl:part name="parameters" element="tns:GetUserGroupListResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetUserGroupListResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoRequest">
-    <wsdl:part name="parameters" element="tns:GetUserInfo" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoResponse">
-    <wsdl:part name="parameters" element="tns:GetUserInfoResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoListRequest">
-    <wsdl:part name="parameters" element="tns:GetUserInfoList" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoListRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoListResponse">
-    <wsdl:part name="parameters" element="tns:GetUserInfoListResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetUserInfoListResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="User">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for User</summary>
     </wsdl:documentation>
+    <wsdl:operation name="GetAllUserGroups">
+      <wsdl:documentation>
+        <summary>Get all user groups</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroups" name="GetAllUserGroupsRequest" message="tns:GetAllUserGroupsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroupsResponse" name="GetAllUserGroupsResponse" message="tns:GetAllUserGroupsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUserGroup">
+      <wsdl:documentation>
+        <summary>Create UserGroup (Rank is assigned to the highest rank)</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroup" name="CreateUserGroupRequest" message="tns:CreateUserGroupRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroupResponse" name="CreateUserGroupResponse" message="tns:CreateUserGroupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserGroup">
+      <wsdl:documentation>
+        <summary>Delete a usergroup and move its members to another usergroup</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroup" name="DeleteUserGroupRequest" message="tns:DeleteUserGroupRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroupResponse" name="DeleteUserGroupResponse" message="tns:DeleteUserGroupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserGroupList">
+      <wsdl:documentation>
+        <summary>Gets an array of UserGroup objects..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupList" name="GetUserGroupListRequest" message="tns:GetUserGroupListRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupListResponse" name="GetUserGroupListResponse" message="tns:GetUserGroupListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <wsdl:documentation>
+        <summary>Gets a UserInfo object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfo" name="GetUserInfoRequest" message="tns:GetUserInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoResponse" name="GetUserInfoResponse" message="tns:GetUserInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoList">
+      <wsdl:documentation>
+        <summary>Gets an array of UserInfo objects..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoList" name="GetUserInfoListRequest" message="tns:GetUserInfoListRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoListResponse" name="GetUserInfoListResponse" message="tns:GetUserInfoListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultRoleEntity">
+      <wsdl:documentation>
+        <summary>Loading default values into a new RoleEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntity" name="CreateDefaultRoleEntityRequest" message="tns:CreateDefaultRoleEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntityResponse" name="CreateDefaultRoleEntityResponse" message="tns:CreateDefaultRoleEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoleEntity">
+      <wsdl:documentation>
+        <summary>Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntity" name="SaveRoleEntityRequest" message="tns:SaveRoleEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntityResponse" name="SaveRoleEntityResponse" message="tns:SaveRoleEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultServiceAuth">
       <wsdl:documentation>
         <summary>Loading default values into a new ServiceAuth.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -3510,20 +3803,6 @@ title: Services88.UserAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteServiceAuth" name="DeleteServiceAuthRequest" message="tns:DeleteServiceAuthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteServiceAuthResponse" name="DeleteServiceAuthResponse" message="tns:DeleteServiceAuthResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="CreateDefaultRoleEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new RoleEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntity" name="CreateDefaultRoleEntityRequest" message="tns:CreateDefaultRoleEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntityResponse" name="CreateDefaultRoleEntityResponse" message="tns:CreateDefaultRoleEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveRoleEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntity" name="SaveRoleEntityRequest" message="tns:SaveRoleEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntityResponse" name="SaveRoleEntityResponse" message="tns:SaveRoleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultUntrustedCredentials">
       <wsdl:documentation>
@@ -3567,6 +3846,34 @@ title: Services88.UserAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUser" name="DeleteUserRequest" message="tns:DeleteUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserResponse" name="DeleteUserResponse" message="tns:DeleteUserResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetAccessGatewayInfo">
+      <wsdl:documentation>
+        <summary>Returns accessgateway registration info</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessGatewayInfo" name="GetAccessGatewayInfoRequest" message="tns:GetAccessGatewayInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessGatewayInfoResponse" name="GetAccessGatewayInfoResponse" message="tns:GetAccessGatewayInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrRegisterAccessGatewayInfo">
+      <wsdl:documentation>
+        <summary>Returns accessgateway registration info and registers a new or adds the url if necessary</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetOrRegisterAccessGatewayInfo" name="GetOrRegisterAccessGatewayInfoRequest" message="tns:GetOrRegisterAccessGatewayInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetOrRegisterAccessGatewayInfoResponse" name="GetOrRegisterAccessGatewayInfoResponse" message="tns:GetOrRegisterAccessGatewayInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterWithAccessGateway">
+      <wsdl:documentation>
+        <summary>Registers with access gateway if not already done, otherwise will attempt to update</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RegisterWithAccessGateway" name="RegisterWithAccessGatewayRequest" message="tns:RegisterWithAccessGatewayRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RegisterWithAccessGatewayResponse" name="RegisterWithAccessGatewayResponse" message="tns:RegisterWithAccessGatewayResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccessGatewayRegistration">
+      <wsdl:documentation>
+        <summary>Checks if AccessGatewayRegistration is valid</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistration" name="CheckAccessGatewayRegistrationRequest" message="tns:CheckAccessGatewayRegistrationRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistrationResponse" name="CheckAccessGatewayRegistrationResponse" message="tns:CheckAccessGatewayRegistrationResponse" />
+    </wsdl:operation>
     <wsdl:operation name="SaveCredential">
       <wsdl:documentation>
         <summary>Save (adds/replaces) current credential of the same type for the user.</summary>
@@ -3601,13 +3908,6 @@ title: Services88.UserAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialUsersInGroup" name="GetCredentialUsersInGroupRequest" message="tns:GetCredentialUsersInGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetCredentialUsersInGroupResponse" name="GetCredentialUsersInGroupResponse" message="tns:GetCredentialUsersInGroupResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetServiceAuth">
-      <wsdl:documentation>
-        <summary>Gets a ServiceAuth object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuth" name="GetServiceAuthRequest" message="tns:GetServiceAuthRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuthResponse" name="GetServiceAuthResponse" message="tns:GetServiceAuthResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRole">
       <wsdl:documentation>
@@ -3706,6 +4006,34 @@ title: Services88.UserAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithoutFunctionalRights" name="FindRolesWithoutFunctionalRightsRequest" message="tns:FindRolesWithoutFunctionalRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/FindRolesWithoutFunctionalRightsResponse" name="FindRolesWithoutFunctionalRightsResponse" message="tns:FindRolesWithoutFunctionalRightsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceAuth">
+      <wsdl:documentation>
+        <summary>Gets a ServiceAuth object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuth" name="GetServiceAuthRequest" message="tns:GetServiceAuthRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuthResponse" name="GetServiceAuthResponse" message="tns:GetServiceAuthResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveExternalTokens">
+      <wsdl:documentation>
+        <summary>Saves the external tokens to the DB and returns a key that can be used to retrieve them</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveExternalTokens" name="SaveExternalTokensRequest" message="tns:SaveExternalTokensRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveExternalTokensResponse" name="SaveExternalTokensResponse" message="tns:SaveExternalTokensResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DecryptAndSaveExternalTokens">
+      <wsdl:documentation>
+        <summary>First asks AccessGateway to decrypt the tokens, then saves the external tokens to the DB and returns a key that can be used to retrieve them</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DecryptAndSaveExternalTokens" name="DecryptAndSaveExternalTokensRequest" message="tns:DecryptAndSaveExternalTokensRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DecryptAndSaveExternalTokensResponse" name="DecryptAndSaveExternalTokensResponse" message="tns:DecryptAndSaveExternalTokensResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalTokens">
+      <wsdl:documentation>
+        <summary>Retrieve the tokens from the DB based on the given key</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetExternalTokens" name="GetExternalTokensRequest" message="tns:GetExternalTokensRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetExternalTokensResponse" name="GetExternalTokensResponse" message="tns:GetExternalTokensResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUser">
       <wsdl:documentation>
@@ -4045,51 +4373,137 @@ title: Services88.UserAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserGroup" name="SaveUserGroupRequest" message="tns:SaveUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveUserGroupResponse" name="SaveUserGroupResponse" message="tns:SaveUserGroupResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetAllUserGroups">
-      <wsdl:documentation>
-        <summary>Get all user groups</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroups" name="GetAllUserGroupsRequest" message="tns:GetAllUserGroupsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroupsResponse" name="GetAllUserGroupsResponse" message="tns:GetAllUserGroupsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="CreateUserGroup">
-      <wsdl:documentation>
-        <summary>Create UserGroup (Rank is assigned to the highest rank)</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroup" name="CreateUserGroupRequest" message="tns:CreateUserGroupRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroupResponse" name="CreateUserGroupResponse" message="tns:CreateUserGroupResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteUserGroup">
-      <wsdl:documentation>
-        <summary>Delete a usergroup and move its members to another usergroup</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroup" name="DeleteUserGroupRequest" message="tns:DeleteUserGroupRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroupResponse" name="DeleteUserGroupResponse" message="tns:DeleteUserGroupResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetUserGroupList">
-      <wsdl:documentation>
-        <summary>Gets an array of UserGroup objects..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupList" name="GetUserGroupListRequest" message="tns:GetUserGroupListRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupListResponse" name="GetUserGroupListResponse" message="tns:GetUserGroupListResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetUserInfo">
-      <wsdl:documentation>
-        <summary>Gets a UserInfo object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfo" name="GetUserInfoRequest" message="tns:GetUserInfoRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoResponse" name="GetUserInfoResponse" message="tns:GetUserInfoResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetUserInfoList">
-      <wsdl:documentation>
-        <summary>Gets an array of UserInfo objects..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoList" name="GetUserInfoListRequest" message="tns:GetUserInfoListRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoListResponse" name="GetUserInfoListResponse" message="tns:GetUserInfoListResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_User" type="tns:User">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllUserGroups">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroups" style="document" />
+      <wsdl:input name="GetAllUserGroupsRequest">
+        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllUserGroupsResponse">
+        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUserGroup">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroup" style="document" />
+      <wsdl:input name="CreateUserGroupRequest">
+        <soap:header message="tns:CreateUserGroupRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateUserGroupRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateUserGroupRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateUserGroupResponse">
+        <soap:header message="tns:CreateUserGroupResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateUserGroupResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateUserGroupResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateUserGroupResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserGroup">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroup" style="document" />
+      <wsdl:input name="DeleteUserGroupRequest">
+        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteUserGroupResponse">
+        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserGroupList">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupList" style="document" />
+      <wsdl:input name="GetUserGroupListRequest">
+        <soap:header message="tns:GetUserGroupListRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserGroupListRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserGroupListRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserGroupListResponse">
+        <soap:header message="tns:GetUserGroupListResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserGroupListResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserGroupListResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserGroupListResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfo" style="document" />
+      <wsdl:input name="GetUserInfoRequest">
+        <soap:header message="tns:GetUserInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserInfoResponse">
+        <soap:header message="tns:GetUserInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserInfoResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoList">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoList" style="document" />
+      <wsdl:input name="GetUserInfoListRequest">
+        <soap:header message="tns:GetUserInfoListRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserInfoListRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserInfoListRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserInfoListResponse">
+        <soap:header message="tns:GetUserInfoListResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserInfoListResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserInfoListResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserInfoListResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultRoleEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntity" style="document" />
+      <wsdl:input name="CreateDefaultRoleEntityRequest">
+        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultRoleEntityResponse">
+        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoleEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntity" style="document" />
+      <wsdl:input name="SaveRoleEntityRequest">
+        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveRoleEntityResponse">
+        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultServiceAuth">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultServiceAuth" style="document" />
       <wsdl:input name="CreateDefaultServiceAuthRequest">
@@ -4135,38 +4549,6 @@ title: Services88.UserAgent WSDL
         <soap:header message="tns:DeleteServiceAuthResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteServiceAuthResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteServiceAuthResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateDefaultRoleEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateDefaultRoleEntity" style="document" />
-      <wsdl:input name="CreateDefaultRoleEntityRequest">
-        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateDefaultRoleEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateDefaultRoleEntityResponse">
-        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateDefaultRoleEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveRoleEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveRoleEntity" style="document" />
-      <wsdl:input name="SaveRoleEntityRequest">
-        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveRoleEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveRoleEntityResponse">
-        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveRoleEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -4266,6 +4648,70 @@ title: Services88.UserAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetAccessGatewayInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAccessGatewayInfo" style="document" />
+      <wsdl:input name="GetAccessGatewayInfoRequest">
+        <soap:header message="tns:GetAccessGatewayInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAccessGatewayInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAccessGatewayInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAccessGatewayInfoResponse">
+        <soap:header message="tns:GetAccessGatewayInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAccessGatewayInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAccessGatewayInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAccessGatewayInfoResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrRegisterAccessGatewayInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetOrRegisterAccessGatewayInfo" style="document" />
+      <wsdl:input name="GetOrRegisterAccessGatewayInfoRequest">
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetOrRegisterAccessGatewayInfoResponse">
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetOrRegisterAccessGatewayInfoResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterWithAccessGateway">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/RegisterWithAccessGateway" style="document" />
+      <wsdl:input name="RegisterWithAccessGatewayRequest">
+        <soap:header message="tns:RegisterWithAccessGatewayRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RegisterWithAccessGatewayRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RegisterWithAccessGatewayRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RegisterWithAccessGatewayResponse">
+        <soap:header message="tns:RegisterWithAccessGatewayResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RegisterWithAccessGatewayResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RegisterWithAccessGatewayResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RegisterWithAccessGatewayResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccessGatewayRegistration">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistration" style="document" />
+      <wsdl:input name="CheckAccessGatewayRegistrationRequest">
+        <soap:header message="tns:CheckAccessGatewayRegistrationRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CheckAccessGatewayRegistrationRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CheckAccessGatewayRegistrationRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CheckAccessGatewayRegistrationResponse">
+        <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SaveCredential">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveCredential" style="document" />
       <wsdl:input name="SaveCredentialRequest">
@@ -4343,22 +4789,6 @@ title: Services88.UserAgent WSDL
         <soap:header message="tns:GetCredentialUsersInGroupResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCredentialUsersInGroupResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCredentialUsersInGroupResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetServiceAuth">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuth" style="document" />
-      <wsdl:input name="GetServiceAuthRequest">
-        <soap:header message="tns:GetServiceAuthRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetServiceAuthRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetServiceAuthRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetServiceAuthResponse">
-        <soap:header message="tns:GetServiceAuthResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetServiceAuthResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetServiceAuthResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetServiceAuthResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -4583,6 +5013,70 @@ title: Services88.UserAgent WSDL
         <soap:header message="tns:FindRolesWithoutFunctionalRightsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:FindRolesWithoutFunctionalRightsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:FindRolesWithoutFunctionalRightsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceAuth">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetServiceAuth" style="document" />
+      <wsdl:input name="GetServiceAuthRequest">
+        <soap:header message="tns:GetServiceAuthRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetServiceAuthRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetServiceAuthRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetServiceAuthResponse">
+        <soap:header message="tns:GetServiceAuthResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetServiceAuthResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetServiceAuthResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetServiceAuthResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveExternalTokens">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveExternalTokens" style="document" />
+      <wsdl:input name="SaveExternalTokensRequest">
+        <soap:header message="tns:SaveExternalTokensRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveExternalTokensRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveExternalTokensRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveExternalTokensResponse">
+        <soap:header message="tns:SaveExternalTokensResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveExternalTokensResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveExternalTokensResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveExternalTokensResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DecryptAndSaveExternalTokens">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DecryptAndSaveExternalTokens" style="document" />
+      <wsdl:input name="DecryptAndSaveExternalTokensRequest">
+        <soap:header message="tns:DecryptAndSaveExternalTokensRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DecryptAndSaveExternalTokensRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DecryptAndSaveExternalTokensRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DecryptAndSaveExternalTokensResponse">
+        <soap:header message="tns:DecryptAndSaveExternalTokensResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DecryptAndSaveExternalTokensResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DecryptAndSaveExternalTokensResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DecryptAndSaveExternalTokensResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalTokens">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetExternalTokens" style="document" />
+      <wsdl:input name="GetExternalTokensRequest">
+        <soap:header message="tns:GetExternalTokensRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetExternalTokensRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetExternalTokensRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetExternalTokensResponse">
+        <soap:header message="tns:GetExternalTokensResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetExternalTokensResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetExternalTokensResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetExternalTokensResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -5335,102 +5829,6 @@ title: Services88.UserAgent WSDL
         <soap:header message="tns:SaveUserGroupResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveUserGroupResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveUserGroupResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetAllUserGroups">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetAllUserGroups" style="document" />
-      <wsdl:input name="GetAllUserGroupsRequest">
-        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetAllUserGroupsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetAllUserGroupsResponse">
-        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetAllUserGroupsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateUserGroup">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CreateUserGroup" style="document" />
-      <wsdl:input name="CreateUserGroupRequest">
-        <soap:header message="tns:CreateUserGroupRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateUserGroupRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateUserGroupRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateUserGroupResponse">
-        <soap:header message="tns:CreateUserGroupResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateUserGroupResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateUserGroupResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateUserGroupResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteUserGroup">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/DeleteUserGroup" style="document" />
-      <wsdl:input name="DeleteUserGroupRequest">
-        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteUserGroupRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteUserGroupResponse">
-        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteUserGroupResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetUserGroupList">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserGroupList" style="document" />
-      <wsdl:input name="GetUserGroupListRequest">
-        <soap:header message="tns:GetUserGroupListRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetUserGroupListRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetUserGroupListRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetUserGroupListResponse">
-        <soap:header message="tns:GetUserGroupListResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetUserGroupListResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetUserGroupListResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetUserGroupListResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetUserInfo">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfo" style="document" />
-      <wsdl:input name="GetUserInfoRequest">
-        <soap:header message="tns:GetUserInfoRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetUserInfoRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetUserInfoRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetUserInfoResponse">
-        <soap:header message="tns:GetUserInfoResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetUserInfoResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetUserInfoResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetUserInfoResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetUserInfoList">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetUserInfoList" style="document" />
-      <wsdl:input name="GetUserInfoListRequest">
-        <soap:header message="tns:GetUserInfoListRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetUserInfoListRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetUserInfoListRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetUserInfoListResponse">
-        <soap:header message="tns:GetUserInfoListResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetUserInfoListResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetUserInfoListResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetUserInfoListResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

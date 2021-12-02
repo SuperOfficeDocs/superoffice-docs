@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getallfromlistname
 title: Services88.ListAgent.GetAllFromListName SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetAllFromListName
 ---
 
-# Services88 List GetAllFromListName SOAP
+# Services88 List GetAllFromListName
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetAllFromListName">SuperOffice.Services88.IListAgent.GetAllFromListName</see> method.

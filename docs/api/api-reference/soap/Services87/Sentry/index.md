@@ -1,7 +1,7 @@
 ---
-uid: services87-sentry
 title: Services87.SentryAgent SOAP
-Generated: true
+uid: Services87-Sentry-soap
+generated: 1
 ---
 
 # Services87 Sentry SOAP
@@ -21,3 +21,4 @@ Download [WSDL file for Services87/Sentry](../Services87-Sentry.md) if you need 
 * [GetNewTableRight](GetNewTableRight.md)
 * [GetTableRightByOwnership](GetTableRightByOwnership.md)
 * [HasFunctionRight](HasFunctionRight.md)
+

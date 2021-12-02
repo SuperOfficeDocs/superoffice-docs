@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getsaletype
 title: Services87.ListAgent.GetSaleType SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetSaleType
 ---
 
-# Services87 List GetSaleType SOAP
+# Services87 List GetSaleType
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetSaleType">SuperOffice.Services87.IListAgent.GetSaleType</see> method.

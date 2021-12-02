@@ -1,10 +1,10 @@
 ---
-uid: services86-import-createdefaultimportline
 title: Services86.ImportAgent.CreateDefaultImportLine SOAP
-Generated: true
+generated: 1
+uid: Services86-Import-CreateDefaultImportLine
 ---
 
-# Services86 Import CreateDefaultImportLine SOAP
+# Services86 Import CreateDefaultImportLine
 
 SOAP request and response examples **Remote/Services86/Import.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IImportAgent.CreateDefaultImportLine">SuperOffice.Services86.IImportAgent.CreateDefaultImportLine</see> method.

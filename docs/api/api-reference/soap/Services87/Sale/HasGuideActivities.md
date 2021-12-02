@@ -1,10 +1,10 @@
 ---
-uid: services87-sale-hasguideactivities
 title: Services87.SaleAgent.HasGuideActivities SOAP
-Generated: true
+generated: 1
+uid: Services87-Sale-HasGuideActivities
 ---
 
-# Services87 Sale HasGuideActivities SOAP
+# Services87 Sale HasGuideActivities
 
 SOAP request and response examples **Remote/Services87/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.HasGuideActivities">SuperOffice.Services87.ISaleAgent.HasGuideActivities</see> method.

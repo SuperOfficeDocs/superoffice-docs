@@ -1,10 +1,10 @@
 ---
-uid: services85-saint-createdefaultstatusmonitorperiods
 title: Services85.SaintAgent.CreateDefaultStatusMonitorPeriods SOAP
-Generated: true
+generated: 1
+uid: Services85-Saint-CreateDefaultStatusMonitorPeriods
 ---
 
-# Services85 Saint CreateDefaultStatusMonitorPeriods SOAP
+# Services85 Saint CreateDefaultStatusMonitorPeriods
 
 SOAP request and response examples **Remote/Services85/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISaintAgent.CreateDefaultStatusMonitorPeriods">SuperOffice.Services85.ISaintAgent.CreateDefaultStatusMonitorPeriods</see> method.

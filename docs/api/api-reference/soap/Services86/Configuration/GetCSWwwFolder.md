@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-getcswwwfolder
 title: Services86.ConfigurationAgent.GetCSWwwFolder SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-GetCSWwwFolder
 ---
 
-# Services86 Configuration GetCSWwwFolder SOAP
+# Services86 Configuration GetCSWwwFolder
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetCSWwwFolder">SuperOffice.Services86.IConfigurationAgent.GetCSWwwFolder</see> method.

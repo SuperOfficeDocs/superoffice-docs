@@ -1,10 +1,10 @@
 ---
-uid: services84-email-saveemailaccount
 title: Services84.EMailAgent.SaveEMailAccount SOAP
-Generated: true
+generated: 1
+uid: Services84-EMail-SaveEMailAccount
 ---
 
-# Services84 EMail SaveEMailAccount SOAP
+# Services84 EMail SaveEMailAccount
 
 SOAP request and response examples **Remote/Services84/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.SaveEMailAccount">SuperOffice.Services84.IEMailAgent.SaveEMailAccount</see> method.

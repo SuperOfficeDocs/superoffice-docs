@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-getconnectionstartupresponse
 title: Services84.QuoteAgent.GetConnectionStartupResponse SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-GetConnectionStartupResponse
 ---
 
-# Services84 Quote GetConnectionStartupResponse SOAP
+# Services84 Quote GetConnectionStartupResponse
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetConnectionStartupResponse">SuperOffice.Services84.IQuoteAgent.GetConnectionStartupResponse</see> method.

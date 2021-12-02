@@ -1,10 +1,10 @@
 ---
-uid: services85-email-createdefaultemailcustomheader
 title: Services85.EMailAgent.CreateDefaultEMailCustomHeader SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-CreateDefaultEMailCustomHeader
 ---
 
-# Services85 EMail CreateDefaultEMailCustomHeader SOAP
+# Services85 EMail CreateDefaultEMailCustomHeader
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.CreateDefaultEMailCustomHeader">SuperOffice.Services85.IEMailAgent.CreateDefaultEMailCustomHeader</see> method.

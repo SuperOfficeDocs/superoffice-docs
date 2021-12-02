@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-getpersonimagewithsize
 title: Services86.BLOBAgent.GetPersonImageWithSize SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-GetPersonImageWithSize
 ---
 
-# Services86 BLOB GetPersonImageWithSize SOAP
+# Services86 BLOB GetPersonImageWithSize
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.GetPersonImageWithSize">SuperOffice.Services86.IBLOBAgent.GetPersonImageWithSize</see> method.

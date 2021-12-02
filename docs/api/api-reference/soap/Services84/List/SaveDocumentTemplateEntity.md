@@ -1,10 +1,10 @@
 ---
-uid: services84-list-savedocumenttemplateentity
 title: Services84.ListAgent.SaveDocumentTemplateEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-SaveDocumentTemplateEntity
 ---
 
-# Services84 List SaveDocumentTemplateEntity SOAP
+# Services84 List SaveDocumentTemplateEntity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveDocumentTemplateEntity">SuperOffice.Services84.IListAgent.SaveDocumentTemplateEntity</see> method.

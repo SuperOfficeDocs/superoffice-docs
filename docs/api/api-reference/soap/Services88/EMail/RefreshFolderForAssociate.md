@@ -1,10 +1,10 @@
 ---
-uid: services88-email-refreshfolderforassociate
 title: Services88.EMailAgent.RefreshFolderForAssociate SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-RefreshFolderForAssociate
 ---
 
-# Services88 EMail RefreshFolderForAssociate SOAP
+# Services88 EMail RefreshFolderForAssociate
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.RefreshFolderForAssociate">SuperOffice.Services88.IEMailAgent.RefreshFolderForAssociate</see> method.

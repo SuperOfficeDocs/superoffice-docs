@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getsaletypelist
 title: Services84.ListAgent.GetSaleTypeList SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetSaleTypeList
 ---
 
-# Services84 List GetSaleTypeList SOAP
+# Services84 List GetSaleTypeList
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetSaleTypeList">SuperOffice.Services84.IListAgent.GetSaleTypeList</see> method.

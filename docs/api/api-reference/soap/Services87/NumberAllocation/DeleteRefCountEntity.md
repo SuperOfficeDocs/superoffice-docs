@@ -1,10 +1,10 @@
 ---
-uid: services87-numberallocation-deleterefcountentity
 title: Services87.NumberAllocationAgent.DeleteRefCountEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-NumberAllocation-DeleteRefCountEntity
 ---
 
-# Services87 NumberAllocation DeleteRefCountEntity SOAP
+# Services87 NumberAllocation DeleteRefCountEntity
 
 SOAP request and response examples **Remote/Services87/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.INumberAllocationAgent.DeleteRefCountEntity">SuperOffice.Services87.INumberAllocationAgent.DeleteRefCountEntity</see> method.

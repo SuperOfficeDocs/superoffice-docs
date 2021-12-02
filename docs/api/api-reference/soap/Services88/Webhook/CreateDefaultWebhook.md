@@ -1,10 +1,10 @@
 ---
-uid: services88-webhook-createdefaultwebhook
 title: Services88.WebhookAgent.CreateDefaultWebhook SOAP
-Generated: true
+generated: 1
+uid: Services88-Webhook-CreateDefaultWebhook
 ---
 
-# Services88 Webhook CreateDefaultWebhook SOAP
+# Services88 Webhook CreateDefaultWebhook
 
 SOAP request and response examples **Remote/Services88/Webhook.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.CreateDefaultWebhook">SuperOffice.Services88.IWebhookAgent.CreateDefaultWebhook</see> method.
@@ -87,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:14Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:55Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -102,7 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:14Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:55Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>

@@ -1,10 +1,10 @@
 ---
-uid: services86-selection-addcontactselectionmembers
 title: Services86.SelectionAgent.AddContactSelectionMembers SOAP
-Generated: true
+generated: 1
+uid: Services86-Selection-AddContactSelectionMembers
 ---
 
-# Services86 Selection AddContactSelectionMembers SOAP
+# Services86 Selection AddContactSelectionMembers
 
 SOAP request and response examples **Remote/Services86/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.AddContactSelectionMembers">SuperOffice.Services86.ISelectionAgent.AddContactSelectionMembers</see> method.

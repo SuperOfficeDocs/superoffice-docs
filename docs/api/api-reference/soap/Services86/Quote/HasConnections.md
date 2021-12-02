@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-hasconnections
 title: Services86.QuoteAgent.HasConnections SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-HasConnections
 ---
 
-# Services86 Quote HasConnections SOAP
+# Services86 Quote HasConnections
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.HasConnections">SuperOffice.Services86.IQuoteAgent.HasConnections</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-email-getcurrentaccountid
 title: Services86.EMailAgent.GetCurrentAccountId SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-GetCurrentAccountId
 ---
 
-# Services86 EMail GetCurrentAccountId SOAP
+# Services86 EMail GetCurrentAccountId
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetCurrentAccountId">SuperOffice.Services86.IEMailAgent.GetCurrentAccountId</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-audience-getdefaultpersonimage
 title: Services88.AudienceAgent.GetDefaultPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services88-Audience-GetDefaultPersonImage
 ---
 
-# Services88 Audience GetDefaultPersonImage SOAP
+# Services88 Audience GetDefaultPersonImage
 
 SOAP request and response examples **Remote/Services88/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAudienceAgent.GetDefaultPersonImage">SuperOffice.Services88.IAudienceAgent.GetDefaultPersonImage</see> method.

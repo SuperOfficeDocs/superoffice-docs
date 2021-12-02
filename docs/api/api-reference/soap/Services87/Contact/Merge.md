@@ -1,10 +1,10 @@
 ---
-uid: services87-contact-merge
 title: Services87.ContactAgent.Merge SOAP
-Generated: true
+generated: 1
+uid: Services87-Contact-Merge
 ---
 
-# Services87 Contact Merge SOAP
+# Services87 Contact Merge
 
 SOAP request and response examples **Remote/Services87/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.Merge">SuperOffice.Services87.IContactAgent.Merge</see> method.

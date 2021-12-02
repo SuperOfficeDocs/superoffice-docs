@@ -1,10 +1,10 @@
 ---
-uid: services85-preference-updatenetservicesstatus
 title: Services85.PreferenceAgent.UpdateNetServicesStatus SOAP
-Generated: true
+generated: 1
+uid: Services85-Preference-UpdateNetServicesStatus
 ---
 
-# Services85 Preference UpdateNetServicesStatus SOAP
+# Services85 Preference UpdateNetServicesStatus
 
 SOAP request and response examples **Remote/Services85/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.UpdateNetServicesStatus">SuperOffice.Services85.IPreferenceAgent.UpdateNetServicesStatus</see> method.

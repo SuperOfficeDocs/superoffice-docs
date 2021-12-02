@@ -1,10 +1,10 @@
 ---
-uid: services86-userdefinedfieldinfo-createuserdefinedfieldinfo
 title: Services86.UserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo SOAP
-Generated: true
+generated: 1
+uid: Services86-UserDefinedFieldInfo-CreateUserDefinedFieldInfo
 ---
 
-# Services86 UserDefinedFieldInfo CreateUserDefinedFieldInfo SOAP
+# Services86 UserDefinedFieldInfo CreateUserDefinedFieldInfo
 
 SOAP request and response examples **Remote/Services86/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo">SuperOffice.Services86.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo</see> method.

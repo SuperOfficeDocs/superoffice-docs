@@ -1,10 +1,10 @@
 ---
-uid: services85-project-offerautonextstatusonapppointmentcompleted
 title: Services85.ProjectAgent.OfferAutoNextStatusOnApppointmentCompleted SOAP
-Generated: true
+generated: 1
+uid: Services85-Project-OfferAutoNextStatusOnApppointmentCompleted
 ---
 
-# Services85 Project OfferAutoNextStatusOnApppointmentCompleted SOAP
+# Services85 Project OfferAutoNextStatusOnApppointmentCompleted
 
 SOAP request and response examples **Remote/Services85/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted">SuperOffice.Services85.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-user-createdefaultroleentity
 title: Services84.UserAgent.CreateDefaultRoleEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-User-CreateDefaultRoleEntity
 ---
 
-# Services84 User CreateDefaultRoleEntity SOAP
+# Services84 User CreateDefaultRoleEntity
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.CreateDefaultRoleEntity">SuperOffice.Services84.IUserAgent.CreateDefaultRoleEntity</see> method.
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2021-03-25T21:35:38Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -86,7 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2021-03-25T21:35:38Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>

@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-existssystemevent
 title: Services87.ConfigurationAgent.ExistsSystemEvent SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-ExistsSystemEvent
 ---
 
-# Services87 Configuration ExistsSystemEvent SOAP
+# Services87 Configuration ExistsSystemEvent
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.ExistsSystemEvent">SuperOffice.Services87.IConfigurationAgent.ExistsSystemEvent</see> method.

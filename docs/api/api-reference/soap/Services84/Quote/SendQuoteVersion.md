@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-sendquoteversion
 title: Services84.QuoteAgent.SendQuoteVersion SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-SendQuoteVersion
 ---
 
-# Services84 Quote SendQuoteVersion SOAP
+# Services84 Quote SendQuoteVersion
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SendQuoteVersion">SuperOffice.Services84.IQuoteAgent.SendQuoteVersion</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Quote:SendQuoteVersion>
     <Quote:QuoteVersionId xsi:type="xsd:int">0</Quote:QuoteVersionId>
-    <Quote:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:ExpiryDate>
-    <Quote:FollowupDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:FollowupDate>
+    <Quote:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ExpiryDate>
+    <Quote:FollowupDate xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:FollowupDate>
     <Quote:FollowupText xsi:type="xsd:string"></Quote:FollowupText>
     <Quote:Culture xsi:type="xsd:string"></Quote:Culture>
    </Quote:SendQuoteVersion>

@@ -1,7 +1,7 @@
 ---
-uid: services88-phonelist
 title: Services88.PhoneListAgent SOAP
-Generated: true
+uid: Services88-PhoneList-soap
+generated: 1
 ---
 
 # Services88 PhoneList SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services88/PhoneList](../Services88-PhoneList.md) if you
 * [Search](Search.md)
 * [SearchWithPreferences](SearchWithPreferences.md)
 * [SetPreferences](SetPreferences.md)
+

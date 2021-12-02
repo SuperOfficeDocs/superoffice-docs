@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-savedefaultvalueinfo
 title: Services86.ErpSyncAgent.SaveDefaultValueInfo SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-SaveDefaultValueInfo
 ---
 
-# Services86 ErpSync SaveDefaultValueInfo SOAP
+# Services86 ErpSync SaveDefaultValueInfo
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveDefaultValueInfo">SuperOffice.Services86.IErpSyncAgent.SaveDefaultValueInfo</see> method.

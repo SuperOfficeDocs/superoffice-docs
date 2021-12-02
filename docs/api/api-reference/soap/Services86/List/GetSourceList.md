@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getsourcelist
 title: Services86.ListAgent.GetSourceList SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetSourceList
 ---
 
-# Services86 List GetSourceList SOAP
+# Services86 List GetSourceList
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetSourceList">SuperOffice.Services86.IListAgent.GetSourceList</see> method.

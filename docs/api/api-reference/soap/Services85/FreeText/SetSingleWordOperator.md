@@ -1,10 +1,10 @@
 ---
-uid: services85-freetext-setsinglewordoperator
 title: Services85.FreeTextAgent.SetSingleWordOperator SOAP
-Generated: true
+generated: 1
+uid: Services85-FreeText-SetSingleWordOperator
 ---
 
-# Services85 FreeText SetSingleWordOperator SOAP
+# Services85 FreeText SetSingleWordOperator
 
 SOAP request and response examples **Remote/Services85/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFreeTextAgent.SetSingleWordOperator">SuperOffice.Services85.IFreeTextAgent.SetSingleWordOperator</see> method.

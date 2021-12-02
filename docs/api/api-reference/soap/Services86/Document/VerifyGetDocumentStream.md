@@ -1,10 +1,10 @@
 ---
-uid: services86-document-verifygetdocumentstream
 title: Services86.DocumentAgent.VerifyGetDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-VerifyGetDocumentStream
 ---
 
-# Services86 Document VerifyGetDocumentStream SOAP
+# Services86 Document VerifyGetDocumentStream
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.VerifyGetDocumentStream">SuperOffice.Services86.IDocumentAgent.VerifyGetDocumentStream</see> method.

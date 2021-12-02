@@ -1,10 +1,10 @@
 ---
-uid: services84-document-gettemplatestreamfromid
 title: Services84.DocumentAgent.GetTemplateStreamFromId SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-GetTemplateStreamFromId
 ---
 
-# Services84 Document GetTemplateStreamFromId SOAP
+# Services84 Document GetTemplateStreamFromId
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetTemplateStreamFromId">SuperOffice.Services84.IDocumentAgent.GetTemplateStreamFromId</see> method.

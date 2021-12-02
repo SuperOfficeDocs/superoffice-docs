@@ -1,10 +1,10 @@
 ---
-uid: services86-freetext-setenabled
 title: Services86.FreeTextAgent.SetEnabled SOAP
-Generated: true
+generated: 1
+uid: Services86-FreeText-SetEnabled
 ---
 
-# Services86 FreeText SetEnabled SOAP
+# Services86 FreeText SetEnabled
 
 SOAP request and response examples **Remote/Services86/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.SetEnabled">SuperOffice.Services86.IFreeTextAgent.SetEnabled</see> method.

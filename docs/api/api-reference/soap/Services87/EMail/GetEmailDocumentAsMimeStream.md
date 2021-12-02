@@ -1,10 +1,10 @@
 ---
-uid: services87-email-getemaildocumentasmimestream
 title: Services87.EMailAgent.GetEmailDocumentAsMimeStream SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-GetEmailDocumentAsMimeStream
 ---
 
-# Services87 EMail GetEmailDocumentAsMimeStream SOAP
+# Services87 EMail GetEmailDocumentAsMimeStream
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetEmailDocumentAsMimeStream">SuperOffice.Services87.IEMailAgent.GetEmailDocumentAsMimeStream</see> method.

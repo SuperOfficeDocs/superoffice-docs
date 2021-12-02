@@ -1,7 +1,7 @@
 ---
-uid: services87-dashboard
 title: Services87.DashboardAgent SOAP
-Generated: true
+uid: Services87-Dashboard-soap
+generated: 1
 ---
 
 # Services87 Dashboard SOAP
@@ -29,3 +29,4 @@ Download [WSDL file for Services87/Dashboard](../Services87-Dashboard.md) if you
 * [SaveDashboard](SaveDashboard.md)
 * [SaveDashboardTile](SaveDashboardTile.md)
 * [SetTile](SetTile.md)
+

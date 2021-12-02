@@ -1,10 +1,10 @@
 ---
-uid: services85-phonelist-search
 title: Services85.PhoneListAgent.Search SOAP
-Generated: true
+generated: 1
+uid: Services85-PhoneList-Search
 ---
 
-# Services85 PhoneList Search SOAP
+# Services85 PhoneList Search
 
 SOAP request and response examples **Remote/Services85/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPhoneListAgent.Search">SuperOffice.Services85.IPhoneListAgent.Search</see> method.

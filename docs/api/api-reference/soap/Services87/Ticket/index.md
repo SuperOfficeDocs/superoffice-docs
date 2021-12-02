@@ -1,7 +1,7 @@
 ---
-uid: services87-ticket
 title: Services87.TicketAgent SOAP
-Generated: true
+uid: Services87-Ticket-soap
+generated: 1
 ---
 
 # Services87 Ticket SOAP
@@ -27,3 +27,4 @@ Download [WSDL file for Services87/Ticket](../Services87-Ticket.md) if you need 
 * [SanitizeMailContents](SanitizeMailContents.md)
 * [SaveTicketEntity](SaveTicketEntity.md)
 * [SaveTicketMessageEntity](SaveTicketMessageEntity.md)
+

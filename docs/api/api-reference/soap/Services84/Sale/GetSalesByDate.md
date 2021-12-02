@@ -1,10 +1,10 @@
 ---
-uid: services84-sale-getsalesbydate
 title: Services84.SaleAgent.GetSalesByDate SOAP
-Generated: true
+generated: 1
+uid: Services84-Sale-GetSalesByDate
 ---
 
-# Services84 Sale GetSalesByDate SOAP
+# Services84 Sale GetSalesByDate
 
 SOAP request and response examples **Remote/Services84/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.GetSalesByDate">SuperOffice.Services84.ISaleAgent.GetSalesByDate</see> method.
@@ -45,8 +45,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Sale:Credentials>
  <SOAP-ENV:Body>
    <Sale:GetSalesByDate>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:ToDate>
     <Sale:AmountLimit xsi:type="xsd:int">0</Sale:AmountLimit>
     <Sale:Status xsi:type="Sale:SaleStatus">Unknown</Sale:Status>
    </Sale:GetSalesByDate>
@@ -74,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -96,7 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:35:36Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:NextDueDate>
     </Sale:Sale>
    </Sale:Response>
   </Sale:GetSalesByDateResponse>

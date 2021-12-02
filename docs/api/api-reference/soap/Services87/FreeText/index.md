@@ -1,7 +1,7 @@
 ---
-uid: services87-freetext
 title: Services87.FreeTextAgent SOAP
-Generated: true
+uid: Services87-FreeText-soap
+generated: 1
 ---
 
 # Services87 FreeText SOAP
@@ -25,3 +25,4 @@ Download [WSDL file for Services87/FreeText](../Services87-FreeText.md) if you n
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)
+

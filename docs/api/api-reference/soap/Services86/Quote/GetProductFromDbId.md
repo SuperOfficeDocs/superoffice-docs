@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-getproductfromdbid
 title: Services86.QuoteAgent.GetProductFromDbId SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-GetProductFromDbId
 ---
 
-# Services86 Quote GetProductFromDbId SOAP
+# Services86 Quote GetProductFromDbId
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetProductFromDbId">SuperOffice.Services86.IQuoteAgent.GetProductFromDbId</see> method.

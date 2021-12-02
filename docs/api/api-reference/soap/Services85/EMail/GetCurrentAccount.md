@@ -1,10 +1,10 @@
 ---
-uid: services85-email-getcurrentaccount
 title: Services85.EMailAgent.GetCurrentAccount SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-GetCurrentAccount
 ---
 
-# Services85 EMail GetCurrentAccount SOAP
+# Services85 EMail GetCurrentAccount
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetCurrentAccount">SuperOffice.Services85.IEMailAgent.GetCurrentAccount</see> method.

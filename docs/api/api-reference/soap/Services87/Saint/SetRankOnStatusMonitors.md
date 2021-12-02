@@ -1,10 +1,10 @@
 ---
-uid: services87-saint-setrankonstatusmonitors
 title: Services87.SaintAgent.SetRankOnStatusMonitors SOAP
-Generated: true
+generated: 1
+uid: Services87-Saint-SetRankOnStatusMonitors
 ---
 
-# Services87 Saint SetRankOnStatusMonitors SOAP
+# Services87 Saint SetRankOnStatusMonitors
 
 SOAP request and response examples **Remote/Services87/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.SetRankOnStatusMonitors">SuperOffice.Services87.ISaintAgent.SetRankOnStatusMonitors</see> method.

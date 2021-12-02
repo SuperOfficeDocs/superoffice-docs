@@ -1,10 +1,10 @@
 ---
-uid: services87-userdefinedfieldinfo-deleteuserdefinedfieldinfo
 title: Services87.UserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo SOAP
-Generated: true
+generated: 1
+uid: Services87-UserDefinedFieldInfo-DeleteUserDefinedFieldInfo
 ---
 
-# Services87 UserDefinedFieldInfo DeleteUserDefinedFieldInfo SOAP
+# Services87 UserDefinedFieldInfo DeleteUserDefinedFieldInfo
 
 SOAP request and response examples **Remote/Services87/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo">SuperOffice.Services87.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo</see> method.

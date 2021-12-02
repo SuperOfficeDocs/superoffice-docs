@@ -1,10 +1,10 @@
 ---
-uid: services87-ticket-sanitizemailcontent
 title: Services87.TicketAgent.SanitizeMailContent SOAP
-Generated: true
+generated: 1
+uid: Services87-Ticket-SanitizeMailContent
 ---
 
-# Services87 Ticket SanitizeMailContent SOAP
+# Services87 Ticket SanitizeMailContent
 
 SOAP request and response examples **Remote/Services87/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ITicketAgent.SanitizeMailContent">SuperOffice.Services87.ITicketAgent.SanitizeMailContent</see> method.

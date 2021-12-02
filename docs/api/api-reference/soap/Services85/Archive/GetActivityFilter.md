@@ -1,10 +1,10 @@
 ---
-uid: services85-archive-getactivityfilter
 title: Services85.ArchiveAgent.GetActivityFilter SOAP
-Generated: true
+generated: 1
+uid: Services85-Archive-GetActivityFilter
 ---
 
-# Services85 Archive GetActivityFilter SOAP
+# Services85 Archive GetActivityFilter
 
 SOAP request and response examples **Remote/Services85/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetActivityFilter">SuperOffice.Services85.IArchiveAgent.GetActivityFilter</see> method.
@@ -64,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Archive:GetActivityFilterResponse>
    <Archive:Response xsi:type="Archive:ActivityFilter">
-    <Archive:FromDate xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:FromDate>
-    <Archive:ToDate xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:ToDate>
+    <Archive:FromDate xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:FromDate>
+    <Archive:ToDate xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:ToDate>
     <Archive:AssociateList xsi:type="Archive:ArrayOfSelectableMDOListItem">
      <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
       <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -77,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -89,7 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>
@@ -132,7 +132,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -144,7 +144,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>

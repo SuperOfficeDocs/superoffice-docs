@@ -1,10 +1,10 @@
 ---
-uid: services84-tooltips-gettooltip
 title: Services84.TooltipsAgent.GetTooltip SOAP
-Generated: true
+generated: 1
+uid: Services84-Tooltips-GetTooltip
 ---
 
-# Services84 Tooltips GetTooltip SOAP
+# Services84 Tooltips GetTooltip
 
 SOAP request and response examples **Remote/Services84/Tooltips.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ITooltipsAgent.GetTooltip">SuperOffice.Services84.ITooltipsAgent.GetTooltip</see> method.

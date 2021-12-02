@@ -1,10 +1,10 @@
 ---
-uid: services86-customerservice-getsmsconfig
 title: Services86.CustomerServiceAgent.GetSmsConfig SOAP
-Generated: true
+generated: 1
+uid: Services86-CustomerService-GetSmsConfig
 ---
 
-# Services86 CustomerService GetSmsConfig SOAP
+# Services86 CustomerService GetSmsConfig
 
 SOAP request and response examples **Remote/Services86/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ICustomerServiceAgent.GetSmsConfig">SuperOffice.Services86.ICustomerServiceAgent.GetSmsConfig</see> method.

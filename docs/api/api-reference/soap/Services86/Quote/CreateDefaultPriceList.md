@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-createdefaultpricelist
 title: Services86.QuoteAgent.CreateDefaultPriceList SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-CreateDefaultPriceList
 ---
 
-# Services86 Quote CreateDefaultPriceList SOAP
+# Services86 Quote CreateDefaultPriceList
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.CreateDefaultPriceList">SuperOffice.Services86.IQuoteAgent.CreateDefaultPriceList</see> method.
@@ -72,8 +72,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:36:19Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:36:19Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:23:01Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:23:01Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CreateDefaultPriceListResponse>

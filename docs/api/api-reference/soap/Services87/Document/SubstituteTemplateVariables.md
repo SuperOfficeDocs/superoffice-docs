@@ -1,10 +1,10 @@
 ---
-uid: services87-document-substitutetemplatevariables
 title: Services87.DocumentAgent.SubstituteTemplateVariables SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-SubstituteTemplateVariables
 ---
 
-# Services87 Document SubstituteTemplateVariables SOAP
+# Services87 Document SubstituteTemplateVariables
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SubstituteTemplateVariables">SuperOffice.Services87.IDocumentAgent.SubstituteTemplateVariables</see> method.

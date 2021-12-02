@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getpersonsfromemailaddress
 title: Services88.EMailAgent.GetPersonsFromEmailAddress SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetPersonsFromEmailAddress
 ---
 
-# Services88 EMail GetPersonsFromEmailAddress SOAP
+# Services88 EMail GetPersonsFromEmailAddress
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetPersonsFromEmailAddress">SuperOffice.Services88.IEMailAgent.GetPersonsFromEmailAddress</see> method.

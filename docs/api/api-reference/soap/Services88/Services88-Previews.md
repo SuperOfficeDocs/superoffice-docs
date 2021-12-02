@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Previews
 title: Services88.PreviewsAgent WSDL
 ---
 

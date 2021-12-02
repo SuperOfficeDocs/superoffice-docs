@@ -1,10 +1,10 @@
 ---
-uid: services85-saint-savestatusmonitorperiods
 title: Services85.SaintAgent.SaveStatusMonitorPeriods SOAP
-Generated: true
+generated: 1
+uid: Services85-Saint-SaveStatusMonitorPeriods
 ---
 
-# Services85 Saint SaveStatusMonitorPeriods SOAP
+# Services85 Saint SaveStatusMonitorPeriods
 
 SOAP request and response examples **Remote/Services85/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISaintAgent.SaveStatusMonitorPeriods">SuperOffice.Services85.ISaintAgent.SaveStatusMonitorPeriods</see> method.

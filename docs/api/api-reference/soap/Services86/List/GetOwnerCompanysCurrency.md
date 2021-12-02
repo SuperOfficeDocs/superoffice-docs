@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getownercompanyscurrency
 title: Services86.ListAgent.GetOwnerCompanysCurrency SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetOwnerCompanysCurrency
 ---
 
-# Services86 List GetOwnerCompanysCurrency SOAP
+# Services86 List GetOwnerCompanysCurrency
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetOwnerCompanysCurrency">SuperOffice.Services86.IListAgent.GetOwnerCompanysCurrency</see> method.

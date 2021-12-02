@@ -1,10 +1,10 @@
 ---
-uid: services84-user-findcredentialsgroups
 title: Services84.UserAgent.FindCredentialsGroups SOAP
-Generated: true
+generated: 1
+uid: Services84-User-FindCredentialsGroups
 ---
 
-# Services84 User FindCredentialsGroups SOAP
+# Services84 User FindCredentialsGroups
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.FindCredentialsGroups">SuperOffice.Services84.IUserAgent.FindCredentialsGroups</see> method.

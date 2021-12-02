@@ -1,10 +1,10 @@
 ---
-uid: services84-foreignsystem-deleteforeignkeyonname
 title: Services84.ForeignSystemAgent.DeleteForeignKeyOnName SOAP
-Generated: true
+generated: 1
+uid: Services84-ForeignSystem-DeleteForeignKeyOnName
 ---
 
-# Services84 ForeignSystem DeleteForeignKeyOnName SOAP
+# Services84 ForeignSystem DeleteForeignKeyOnName
 
 SOAP request and response examples **Remote/Services84/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IForeignSystemAgent.DeleteForeignKeyOnName">SuperOffice.Services84.IForeignSystemAgent.DeleteForeignKeyOnName</see> method.

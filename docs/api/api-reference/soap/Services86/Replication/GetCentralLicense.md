@@ -1,10 +1,10 @@
 ---
-uid: services86-replication-getcentrallicense
 title: Services86.ReplicationAgent.GetCentralLicense SOAP
-Generated: true
+generated: 1
+uid: Services86-Replication-GetCentralLicense
 ---
 
-# Services86 Replication GetCentralLicense SOAP
+# Services86 Replication GetCentralLicense
 
 SOAP request and response examples **Remote/Services86/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReplicationAgent.GetCentralLicense">SuperOffice.Services86.IReplicationAgent.GetCentralLicense</see> method.

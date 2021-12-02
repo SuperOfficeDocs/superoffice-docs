@@ -1,10 +1,10 @@
 ---
-uid: services85-email-refreshfolder
 title: Services85.EMailAgent.RefreshFolder SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-RefreshFolder
 ---
 
-# Services85 EMail RefreshFolder SOAP
+# Services85 EMail RefreshFolder
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.RefreshFolder">SuperOffice.Services85.IEMailAgent.RefreshFolder</see> method.

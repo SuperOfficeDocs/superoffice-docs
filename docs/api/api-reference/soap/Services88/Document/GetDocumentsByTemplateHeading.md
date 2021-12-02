@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getdocumentsbytemplateheading
 title: Services88.DocumentAgent.GetDocumentsByTemplateHeading SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetDocumentsByTemplateHeading
 ---
 
-# Services88 Document GetDocumentsByTemplateHeading SOAP
+# Services88 Document GetDocumentsByTemplateHeading
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetDocumentsByTemplateHeading">SuperOffice.Services88.IDocumentAgent.GetDocumentsByTemplateHeading</see> method.

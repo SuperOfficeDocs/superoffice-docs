@@ -1,10 +1,10 @@
 ---
-uid: services86-preference-savefromsectionandkey
 title: Services86.PreferenceAgent.SaveFromSectionAndKey SOAP
-Generated: true
+generated: 1
+uid: Services86-Preference-SaveFromSectionAndKey
 ---
 
-# Services86 Preference SaveFromSectionAndKey SOAP
+# Services86 Preference SaveFromSectionAndKey
 
 SOAP request and response examples **Remote/Services86/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.SaveFromSectionAndKey">SuperOffice.Services86.IPreferenceAgent.SaveFromSectionAndKey</see> method.

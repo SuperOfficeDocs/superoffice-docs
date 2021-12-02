@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-getlogoimage
 title: Services85.AudienceAgent.GetLogoImage SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-GetLogoImage
 ---
 
-# Services85 Audience GetLogoImage SOAP
+# Services85 Audience GetLogoImage
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetLogoImage">SuperOffice.Services85.IAudienceAgent.GetLogoImage</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services84-navigator
 title: Services84.NavigatorAgent SOAP
-Generated: true
+uid: Services84-Navigator-soap
+generated: 1
 ---
 
 # Services84 Navigator SOAP
@@ -19,3 +19,4 @@ Download [WSDL file for Services84/Navigator](../Services84-Navigator.md) if you
 * [GetNavigatorCompanies](GetNavigatorCompanies.md)
 * [GetNavigatorCompany](GetNavigatorCompany.md)
 * [GetNavigatorCompanyList](GetNavigatorCompanyList.md)
+

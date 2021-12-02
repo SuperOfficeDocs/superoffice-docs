@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-deleteentities
 title: Services84.SelectionAgent.DeleteEntities SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-DeleteEntities
 ---
 
-# Services84 Selection DeleteEntities SOAP
+# Services84 Selection DeleteEntities
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.DeleteEntities">SuperOffice.Services84.ISelectionAgent.DeleteEntities</see> method.

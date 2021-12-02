@@ -1,17 +1,17 @@
 ---
-uid: services88-chat-getchattopicuseragentlist
 title: Services88.ChatAgent.GetChatTopicUserAgentList SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-GetChatTopicUserAgentList
 ---
 
-# Services88 Chat GetChatTopicUserAgentList SOAP
+# Services88 Chat GetChatTopicUserAgentList
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatTopicUserAgentList">SuperOffice.Services88.IChatAgent.GetChatTopicUserAgentList</see> method.
 
 ## GetChatTopicUserAgentList
 
-Get list of users assigned to a topic
+Get list of users assigned to a chat topic
 
 * **chatTopicId:** Id of the chat topic
 

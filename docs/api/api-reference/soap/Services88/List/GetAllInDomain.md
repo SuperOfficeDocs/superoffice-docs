@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getallindomain
 title: Services88.ListAgent.GetAllInDomain SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetAllInDomain
 ---
 
-# Services88 List GetAllInDomain SOAP
+# Services88 List GetAllInDomain
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetAllInDomain">SuperOffice.Services88.IListAgent.GetAllInDomain</see> method.
@@ -91,21 +91,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:Children xsi:type="List:ArrayOfHierarchyEntity">
           <List:HierarchyEntity xsi:nil="true"></List:HierarchyEntity>
          </List:Children>
-         <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+         <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Registered>
          <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-         <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+         <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Updated>
          <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
         </List:HierarchyEntity>
        </List:Children>
-       <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+       <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Registered>
        <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-       <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+       <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Updated>
        <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
       </List:HierarchyEntity>
      </List:Children>
-     <List:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Registered>
+     <List:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Registered>
      <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-     <List:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:Updated>
+     <List:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:43Z</List:Updated>
      <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
     </List:HierarchyEntity>
    </List:Response>

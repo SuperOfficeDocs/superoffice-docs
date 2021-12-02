@@ -1,10 +1,10 @@
 ---
-uid: services88-person-sendconsentconfirmationemail
 title: Services88.PersonAgent.SendConsentConfirmationEmail SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-SendConsentConfirmationEmail
 ---
 
-# Services88 Person SendConsentConfirmationEmail SOAP
+# Services88 Person SendConsentConfirmationEmail
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.SendConsentConfirmationEmail">SuperOffice.Services88.IPersonAgent.SendConsentConfirmationEmail</see> method.

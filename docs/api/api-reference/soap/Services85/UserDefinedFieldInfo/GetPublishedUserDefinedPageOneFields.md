@@ -1,10 +1,10 @@
 ---
-uid: services85-userdefinedfieldinfo-getpublisheduserdefinedpageonefields
 title: Services85.UserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields SOAP
-Generated: true
+generated: 1
+uid: Services85-UserDefinedFieldInfo-GetPublishedUserDefinedPageOneFields
 ---
 
-# Services85 UserDefinedFieldInfo GetPublishedUserDefinedPageOneFields SOAP
+# Services85 UserDefinedFieldInfo GetPublishedUserDefinedPageOneFields
 
 SOAP request and response examples **Remote/Services85/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields">SuperOffice.Services85.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields</see> method.

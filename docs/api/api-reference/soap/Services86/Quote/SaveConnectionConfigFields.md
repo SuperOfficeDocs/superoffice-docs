@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-saveconnectionconfigfields
 title: Services86.QuoteAgent.SaveConnectionConfigFields SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-SaveConnectionConfigFields
 ---
 
-# Services86 Quote SaveConnectionConfigFields SOAP
+# Services86 Quote SaveConnectionConfigFields
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.SaveConnectionConfigFields">SuperOffice.Services86.IQuoteAgent.SaveConnectionConfigFields</see> method.

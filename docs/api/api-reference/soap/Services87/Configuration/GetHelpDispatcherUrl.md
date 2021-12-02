@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-gethelpdispatcherurl
 title: Services87.ConfigurationAgent.GetHelpDispatcherUrl SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-GetHelpDispatcherUrl
 ---
 
-# Services87 Configuration GetHelpDispatcherUrl SOAP
+# Services87 Configuration GetHelpDispatcherUrl
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetHelpDispatcherUrl">SuperOffice.Services87.IConfigurationAgent.GetHelpDispatcherUrl</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-marketing-saveformsubmissionentity
 title: Services84.MarketingAgent.SaveFormSubmissionEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-Marketing-SaveFormSubmissionEntity
 ---
 
-# Services84 Marketing SaveFormSubmissionEntity SOAP
+# Services84 Marketing SaveFormSubmissionEntity
 
 SOAP request and response examples **Remote/Services84/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IMarketingAgent.SaveFormSubmissionEntity">SuperOffice.Services84.IMarketingAgent.SaveFormSubmissionEntity</see> method.
@@ -44,7 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:FormSubmissionEntity xsi:type="Marketing:FormSubmissionEntity">
      <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
      <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-     <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-03-25T21:35:30Z</Marketing:WhenSubmitted>
+     <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-11-30T13:22:15Z</Marketing:WhenSubmitted>
      <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
      <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
      <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>
@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Marketing:Response xsi:type="Marketing:FormSubmissionEntity">
     <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
     <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-03-25T21:35:30Z</Marketing:WhenSubmitted>
+    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-11-30T13:22:15Z</Marketing:WhenSubmitted>
     <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
     <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>

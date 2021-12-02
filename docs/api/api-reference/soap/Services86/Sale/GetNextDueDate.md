@@ -1,10 +1,10 @@
 ---
-uid: services86-sale-getnextduedate
 title: Services86.SaleAgent.GetNextDueDate SOAP
-Generated: true
+generated: 1
+uid: Services86-Sale-GetNextDueDate
 ---
 
-# Services86 Sale GetNextDueDate SOAP
+# Services86 Sale GetNextDueDate
 
 SOAP request and response examples **Remote/Services86/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetNextDueDate">SuperOffice.Services86.ISaleAgent.GetNextDueDate</see> method.
@@ -65,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Sale="http://www.superoffice.net/ws/crm/NetServer/Services86">
  <SOAP-ENV:Body>
   <Sale:GetNextDueDateResponse>
-   <Sale:Response xsi:type="xsd:dateTime">2021-03-25T21:36:21Z</Sale:Response>
+   <Sale:Response xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Sale:Response>
   </Sale:GetNextDueDateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

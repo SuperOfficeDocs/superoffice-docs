@@ -1,10 +1,10 @@
 ---
-uid: services87-project-getmypublishedprojects
 title: Services87.ProjectAgent.GetMyPublishedProjects SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-GetMyPublishedProjects
 ---
 
-# Services87 Project GetMyPublishedProjects SOAP
+# Services87 Project GetMyPublishedProjects
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.GetMyPublishedProjects">SuperOffice.Services87.IProjectAgent.GetMyPublishedProjects</see> method.
@@ -73,12 +73,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
      <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-     <Project:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Project:Updated>
+     <Project:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:Updated>
      <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
      <Project:Status xsi:type="xsd:string"></Project:Status>
      <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-     <Project:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Project:PublishTo>
-     <Project:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Project:PublishFrom>
+     <Project:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishTo>
+     <Project:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishFrom>
      <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
      <Project:URLName xsi:type="xsd:string"></Project:URLName>
      <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>

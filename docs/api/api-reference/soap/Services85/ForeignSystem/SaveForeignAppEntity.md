@@ -1,10 +1,10 @@
 ---
-uid: services85-foreignsystem-saveforeignappentity
 title: Services85.ForeignSystemAgent.SaveForeignAppEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-ForeignSystem-SaveForeignAppEntity
 ---
 
-# Services85 ForeignSystem SaveForeignAppEntity SOAP
+# Services85 ForeignSystem SaveForeignAppEntity
 
 SOAP request and response examples **Remote/Services85/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.SaveForeignAppEntity">SuperOffice.Services85.IForeignSystemAgent.SaveForeignAppEntity</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:ForeignAppEntity xsi:type="ForeignSystem:ForeignAppEntity">
      <ForeignSystem:ForeignAppId xsi:type="xsd:int">0</ForeignSystem:ForeignAppId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:CreatedBy xsi:type="ForeignSystem:Associate">
       <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
       <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
@@ -76,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
        <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
        <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-       <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:CreatedDate>
-       <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:UpdatedDate>
+       <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
+       <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
        <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
        <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
        <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
@@ -110,8 +110,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignAppEntity">
     <ForeignSystem:ForeignAppId xsi:type="xsd:int">0</ForeignSystem:ForeignAppId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:CreatedBy xsi:type="ForeignSystem:Associate">
      <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
@@ -142,8 +142,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
       <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
       <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:CreatedDate>
-      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:47Z</ForeignSystem:UpdatedDate>
+      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
+      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
       <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
       <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
       <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

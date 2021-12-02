@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-deletepricelist
 title: Services84.QuoteAgent.DeletePriceList SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-DeletePriceList
 ---
 
-# Services84 Quote DeletePriceList SOAP
+# Services84 Quote DeletePriceList
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.DeletePriceList">SuperOffice.Services84.IQuoteAgent.DeletePriceList</see> method.

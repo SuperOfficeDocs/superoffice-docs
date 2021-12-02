@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-createdefaultattachmententity
 title: Services88.TicketAgent.CreateDefaultAttachmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-CreateDefaultAttachmentEntity
 ---
 
-# Services88 Ticket CreateDefaultAttachmentEntity SOAP
+# Services88 Ticket CreateDefaultAttachmentEntity
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.CreateDefaultAttachmentEntity">SuperOffice.Services88.ITicketAgent.CreateDefaultAttachmentEntity</see> method.
@@ -69,6 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
     <Ticket:ContentType xsi:type="xsd:string"></Ticket:ContentType>
     <Ticket:AttSize xsi:type="xsd:int">0</Ticket:AttSize>
+    <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
+    <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
    </Ticket:Response>
   </Ticket:CreateDefaultAttachmentEntityResponse>
  </SOAP-ENV:Body>

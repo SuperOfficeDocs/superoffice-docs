@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getinstalledlanguages
 title: Services84.ListAgent.GetInstalledLanguages SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetInstalledLanguages
 ---
 
-# Services84 List GetInstalledLanguages SOAP
+# Services84 List GetInstalledLanguages
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetInstalledLanguages">SuperOffice.Services84.IListAgent.GetInstalledLanguages</see> method.

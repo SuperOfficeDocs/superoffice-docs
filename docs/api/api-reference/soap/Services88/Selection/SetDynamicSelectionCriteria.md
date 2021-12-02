@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-setdynamicselectioncriteria
 title: Services88.SelectionAgent.SetDynamicSelectionCriteria SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-SetDynamicSelectionCriteria
 ---
 
-# Services88 Selection SetDynamicSelectionCriteria SOAP
+# Services88 Selection SetDynamicSelectionCriteria
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.SetDynamicSelectionCriteria">SuperOffice.Services88.ISelectionAgent.SetDynamicSelectionCriteria</see> method.
@@ -67,6 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Selection:Width xsi:type="xsd:string"></Selection:Width>
        <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
        <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+       <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
       </Selection:ColumnInfo>
       <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
       <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -92,6 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Selection:Width xsi:type="xsd:string"></Selection:Width>
          <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
          <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+         <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
         </Selection:ColumnInfo>
         <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
         <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -163,6 +165,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Selection:Width xsi:type="xsd:string"></Selection:Width>
       <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
       <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+      <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
      </Selection:ColumnInfo>
      <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
      <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -188,6 +191,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Selection:Width xsi:type="xsd:string"></Selection:Width>
         <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
         <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+        <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
        </Selection:ColumnInfo>
        <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
        <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -213,6 +217,7 @@ Application tokens must be specified if calling an Online installation. Applicat
           <Selection:Width xsi:type="xsd:string"></Selection:Width>
           <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
           <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+          <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
          </Selection:ColumnInfo>
          <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
          <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">

@@ -1,10 +1,10 @@
 ---
-uid: services87-contact-getduplicates
 title: Services87.ContactAgent.GetDuplicates SOAP
-Generated: true
+generated: 1
+uid: Services87-Contact-GetDuplicates
 ---
 
-# Services87 Contact GetDuplicates SOAP
+# Services87 Contact GetDuplicates
 
 SOAP request and response examples **Remote/Services87/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.GetDuplicates">SuperOffice.Services87.IContactAgent.GetDuplicates</see> method.

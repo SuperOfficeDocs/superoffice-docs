@@ -1,10 +1,10 @@
 ---
-uid: services85-report-deletereport
 title: Services85.ReportAgent.DeleteReport SOAP
-Generated: true
+generated: 1
+uid: Services85-Report-DeleteReport
 ---
 
-# Services85 Report DeleteReport SOAP
+# Services85 Report DeleteReport
 
 SOAP request and response examples **Remote/Services85/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IReportAgent.DeleteReport">SuperOffice.Services85.IReportAgent.DeleteReport</see> method.

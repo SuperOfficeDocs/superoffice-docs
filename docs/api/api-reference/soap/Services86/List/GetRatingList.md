@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getratinglist
 title: Services86.ListAgent.GetRatingList SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetRatingList
 ---
 
-# Services86 List GetRatingList SOAP
+# Services86 List GetRatingList
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetRatingList">SuperOffice.Services86.IListAgent.GetRatingList</see> method.

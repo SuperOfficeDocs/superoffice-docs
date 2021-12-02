@@ -1,10 +1,10 @@
 ---
-uid: services86-list-saveticketcategoryentity
 title: Services86.ListAgent.SaveTicketCategoryEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SaveTicketCategoryEntity
 ---
 
-# Services86 List SaveTicketCategoryEntity SOAP
+# Services86 List SaveTicketCategoryEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveTicketCategoryEntity">SuperOffice.Services86.IListAgent.SaveTicketCategoryEntity</see> method.

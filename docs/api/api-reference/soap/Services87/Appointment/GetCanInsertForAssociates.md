@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-getcaninsertforassociates
 title: Services87.AppointmentAgent.GetCanInsertForAssociates SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-GetCanInsertForAssociates
 ---
 
-# Services87 Appointment GetCanInsertForAssociates SOAP
+# Services87 Appointment GetCanInsertForAssociates
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetCanInsertForAssociates">SuperOffice.Services87.IAppointmentAgent.GetCanInsertForAssociates</see> method.

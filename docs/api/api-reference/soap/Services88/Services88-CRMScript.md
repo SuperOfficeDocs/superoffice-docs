@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-CRMScript
 title: Services88.CRMScriptAgent WSDL
 ---
 
@@ -952,6 +952,66 @@ title: Services88.CRMScriptAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetCRMScriptByUniqueIdentifier">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCRMScriptByUniqueIdentifierResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Script" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Script">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IncludeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RegisteredBy" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Path" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Script" nillable="true" type="tns:Script" />
+      <xs:element name="SaveCRMScriptByUniqueIdentifier">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Crmscript" nillable="true" type="tns:Script" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveCRMScriptByUniqueIdentifierResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Script" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteCRMScriptByUniqueIdentifier">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteCRMScriptByUniqueIdentifierResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetCRMScriptEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1014,6 +1074,68 @@ title: Services88.CRMScriptAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="ExecuteScriptByUniqueId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CRMScriptUniqueId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:StringDictionary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptByUniqueIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptAsEvent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CRMScriptId" type="xs:int" />
+            <xs:element minOccurs="0" name="EventData" nillable="true" type="tns:EventData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="EventData">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Type" type="tns:EventHandlerType" />
+              <xs:element minOccurs="0" name="InputValues" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="BlockExecution" type="xs:boolean" />
+              <xs:element minOccurs="0" name="NavigateTo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OutputValues" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="EventData" nillable="true" type="tns:EventData" />
+      <xs:element name="ExecuteScriptAsEventResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:EventData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptAsEventByUniqueId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CRMScriptUniqueId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="EventData" nillable="true" type="tns:EventData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptAsEventByUniqueIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:EventData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="ValidateScript">
         <xs:complexType>
           <xs:sequence>
@@ -1053,64 +1175,18 @@ title: Services88.CRMScriptAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetCRMScriptByUniqueIdentifier">
+      <xs:element name="ValidateScriptByUniqueId">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="CRMScriptUniqueId" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetCRMScriptByUniqueIdentifierResponse">
+      <xs:element name="ValidateScriptByUniqueIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Script" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptResult" />
           </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="Script">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="IncludeId" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="RegisteredBy" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Path" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Script" nillable="true" type="tns:Script" />
-      <xs:element name="SaveCRMScriptByUniqueIdentifier">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Crmscript" nillable="true" type="tns:Script" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveCRMScriptByUniqueIdentifierResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:Script" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteCRMScriptByUniqueIdentifier">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="UniqueIdentifier" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteCRMScriptByUniqueIdentifierResponse">
-        <xs:complexType>
-          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="GetTriggerScriptEntity">
@@ -1341,6 +1417,57 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetCRMScriptByUniqueIdentifierRequest">
+    <wsdl:part name="parameters" element="tns:GetCRMScriptByUniqueIdentifier" />
+  </wsdl:message>
+  <wsdl:message name="GetCRMScriptByUniqueIdentifierRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCRMScriptByUniqueIdentifierResponse">
+    <wsdl:part name="parameters" element="tns:GetCRMScriptByUniqueIdentifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCRMScriptByUniqueIdentifierResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptByUniqueIdentifierRequest">
+    <wsdl:part name="parameters" element="tns:SaveCRMScriptByUniqueIdentifier" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptByUniqueIdentifierRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptByUniqueIdentifierResponse">
+    <wsdl:part name="parameters" element="tns:SaveCRMScriptByUniqueIdentifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptByUniqueIdentifierResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierRequest">
+    <wsdl:part name="parameters" element="tns:DeleteCRMScriptByUniqueIdentifier" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierResponse">
+    <wsdl:part name="parameters" element="tns:DeleteCRMScriptByUniqueIdentifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetCRMScriptEntityRequest">
     <wsdl:part name="parameters" element="tns:GetCRMScriptEntity" />
   </wsdl:message>
@@ -1392,6 +1519,57 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="ExecuteScriptByUniqueIdRequest">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptByUniqueId" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByUniqueIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByUniqueIdResponse">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptByUniqueIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByUniqueIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventRequest">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptAsEvent" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventResponse">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptAsEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventByUniqueIdRequest">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptAsEventByUniqueId" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventByUniqueIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventByUniqueIdResponse">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptAsEventByUniqueIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptAsEventByUniqueIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="ValidateScriptRequest">
     <wsdl:part name="parameters" element="tns:ValidateScript" />
   </wsdl:message>
@@ -1426,52 +1604,18 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetCRMScriptByUniqueIdentifierRequest">
-    <wsdl:part name="parameters" element="tns:GetCRMScriptByUniqueIdentifier" />
+  <wsdl:message name="ValidateScriptByUniqueIdRequest">
+    <wsdl:part name="parameters" element="tns:ValidateScriptByUniqueId" />
   </wsdl:message>
-  <wsdl:message name="GetCRMScriptByUniqueIdentifierRequest_Headers">
+  <wsdl:message name="ValidateScriptByUniqueIdRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetCRMScriptByUniqueIdentifierResponse">
-    <wsdl:part name="parameters" element="tns:GetCRMScriptByUniqueIdentifierResponse" />
+  <wsdl:message name="ValidateScriptByUniqueIdResponse">
+    <wsdl:part name="parameters" element="tns:ValidateScriptByUniqueIdResponse" />
   </wsdl:message>
-  <wsdl:message name="GetCRMScriptByUniqueIdentifierResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveCRMScriptByUniqueIdentifierRequest">
-    <wsdl:part name="parameters" element="tns:SaveCRMScriptByUniqueIdentifier" />
-  </wsdl:message>
-  <wsdl:message name="SaveCRMScriptByUniqueIdentifierRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveCRMScriptByUniqueIdentifierResponse">
-    <wsdl:part name="parameters" element="tns:SaveCRMScriptByUniqueIdentifierResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveCRMScriptByUniqueIdentifierResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierRequest">
-    <wsdl:part name="parameters" element="tns:DeleteCRMScriptByUniqueIdentifier" />
-  </wsdl:message>
-  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierResponse">
-    <wsdl:part name="parameters" element="tns:DeleteCRMScriptByUniqueIdentifierResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteCRMScriptByUniqueIdentifierResponse_Headers">
+  <wsdl:message name="ValidateScriptByUniqueIdResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1625,41 +1769,6 @@ title: Services88.CRMScriptAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptEntity" name="DeleteTriggerScriptEntityRequest" message="tns:DeleteTriggerScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteTriggerScriptEntityResponse" name="DeleteTriggerScriptEntityResponse" message="tns:DeleteTriggerScriptEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Gets a CRMScriptEntity object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntity" name="GetCRMScriptEntityRequest" message="tns:GetCRMScriptEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntityResponse" name="GetCRMScriptEntityResponse" message="tns:GetCRMScriptEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ExecuteScript">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScript" name="ExecuteScriptRequest" message="tns:ExecuteScriptRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptResponse" name="ExecuteScriptResponse" message="tns:ExecuteScriptResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ExecuteScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeId" name="ExecuteScriptByIncludeIdRequest" message="tns:ExecuteScriptByIncludeIdRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeIdResponse" name="ExecuteScriptByIncludeIdResponse" message="tns:ExecuteScriptByIncludeIdResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ValidateScript">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScript" name="ValidateScriptRequest" message="tns:ValidateScriptRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptResponse" name="ValidateScriptResponse" message="tns:ValidateScriptResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ValidateScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeId" name="ValidateScriptByIncludeIdRequest" message="tns:ValidateScriptByIncludeIdRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeIdResponse" name="ValidateScriptByIncludeIdResponse" message="tns:ValidateScriptByIncludeIdResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetCRMScriptByUniqueIdentifier">
       <wsdl:documentation>
         <summary>Get information about a script from a unique identifier</summary>
@@ -1680,6 +1789,69 @@ title: Services88.CRMScriptAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifier" name="DeleteCRMScriptByUniqueIdentifierRequest" message="tns:DeleteCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifierResponse" name="DeleteCRMScriptByUniqueIdentifierResponse" message="tns:DeleteCRMScriptByUniqueIdentifierResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCRMScriptEntity">
+      <wsdl:documentation>
+        <summary>Gets a CRMScriptEntity object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntity" name="GetCRMScriptEntityRequest" message="tns:GetCRMScriptEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntityResponse" name="GetCRMScriptEntityResponse" message="tns:GetCRMScriptEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScript">
+      <wsdl:documentation>
+        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScript" name="ExecuteScriptRequest" message="tns:ExecuteScriptRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptResponse" name="ExecuteScriptResponse" message="tns:ExecuteScriptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptByIncludeId">
+      <wsdl:documentation>
+        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeId" name="ExecuteScriptByIncludeIdRequest" message="tns:ExecuteScriptByIncludeIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByIncludeIdResponse" name="ExecuteScriptByIncludeIdResponse" message="tns:ExecuteScriptByIncludeIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptByUniqueId">
+      <wsdl:documentation>
+        <summary>Execute a CRMScript with parameters, returning printed output value.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByUniqueId" name="ExecuteScriptByUniqueIdRequest" message="tns:ExecuteScriptByUniqueIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByUniqueIdResponse" name="ExecuteScriptByUniqueIdResponse" message="tns:ExecuteScriptByUniqueIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptAsEvent">
+      <wsdl:documentation>
+        <summary>Execute a CRMScript with event data as input. Returns event data with output variable values.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEvent" name="ExecuteScriptAsEventRequest" message="tns:ExecuteScriptAsEventRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventResponse" name="ExecuteScriptAsEventResponse" message="tns:ExecuteScriptAsEventResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptAsEventByUniqueId">
+      <wsdl:documentation>
+        <summary>Execute a CRMScript with event data as input. Returns event data with output variable values.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventByUniqueId" name="ExecuteScriptAsEventByUniqueIdRequest" message="tns:ExecuteScriptAsEventByUniqueIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventByUniqueIdResponse" name="ExecuteScriptAsEventByUniqueIdResponse" message="tns:ExecuteScriptAsEventByUniqueIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateScript">
+      <wsdl:documentation>
+        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScript" name="ValidateScriptRequest" message="tns:ValidateScriptRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptResponse" name="ValidateScriptResponse" message="tns:ValidateScriptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateScriptByIncludeId">
+      <wsdl:documentation>
+        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeId" name="ValidateScriptByIncludeIdRequest" message="tns:ValidateScriptByIncludeIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByIncludeIdResponse" name="ValidateScriptByIncludeIdResponse" message="tns:ValidateScriptByIncludeIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateScriptByUniqueId">
+      <wsdl:documentation>
+        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueId" name="ValidateScriptByUniqueIdRequest" message="tns:ValidateScriptByUniqueIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueIdResponse" name="ValidateScriptByUniqueIdResponse" message="tns:ValidateScriptByUniqueIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTriggerScriptEntity">
       <wsdl:documentation>
@@ -1822,6 +1994,54 @@ title: Services88.CRMScriptAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetCRMScriptByUniqueIdentifier">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptByUniqueIdentifier" style="document" />
+      <wsdl:input name="GetCRMScriptByUniqueIdentifierRequest">
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCRMScriptByUniqueIdentifierResponse">
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCRMScriptByUniqueIdentifier">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptByUniqueIdentifier" style="document" />
+      <wsdl:input name="SaveCRMScriptByUniqueIdentifierRequest">
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveCRMScriptByUniqueIdentifierResponse">
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCRMScriptByUniqueIdentifier">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifier" style="document" />
+      <wsdl:input name="DeleteCRMScriptByUniqueIdentifierRequest">
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteCRMScriptByUniqueIdentifierResponse">
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetCRMScriptEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntity" style="document" />
       <wsdl:input name="GetCRMScriptEntityRequest">
@@ -1870,6 +2090,54 @@ title: Services88.CRMScriptAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptByUniqueId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByUniqueId" style="document" />
+      <wsdl:input name="ExecuteScriptByUniqueIdRequest">
+        <soap:header message="tns:ExecuteScriptByUniqueIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExecuteScriptByUniqueIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExecuteScriptByUniqueIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExecuteScriptByUniqueIdResponse">
+        <soap:header message="tns:ExecuteScriptByUniqueIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptByUniqueIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptByUniqueIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExecuteScriptByUniqueIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptAsEvent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEvent" style="document" />
+      <wsdl:input name="ExecuteScriptAsEventRequest">
+        <soap:header message="tns:ExecuteScriptAsEventRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExecuteScriptAsEventResponse">
+        <soap:header message="tns:ExecuteScriptAsEventResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptAsEventByUniqueId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptAsEventByUniqueId" style="document" />
+      <wsdl:input name="ExecuteScriptAsEventByUniqueIdRequest">
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExecuteScriptAsEventByUniqueIdResponse">
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExecuteScriptAsEventByUniqueIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="ValidateScript">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScript" style="document" />
       <wsdl:input name="ValidateScriptRequest">
@@ -1902,51 +2170,19 @@ title: Services88.CRMScriptAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetCRMScriptByUniqueIdentifier">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptByUniqueIdentifier" style="document" />
-      <wsdl:input name="GetCRMScriptByUniqueIdentifierRequest">
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="ValidateScriptByUniqueId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueId" style="document" />
+      <wsdl:input name="ValidateScriptByUniqueIdRequest">
+        <soap:header message="tns:ValidateScriptByUniqueIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ValidateScriptByUniqueIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ValidateScriptByUniqueIdRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetCRMScriptByUniqueIdentifierResponse">
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveCRMScriptByUniqueIdentifier">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptByUniqueIdentifier" style="document" />
-      <wsdl:input name="SaveCRMScriptByUniqueIdentifierRequest">
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveCRMScriptByUniqueIdentifierResponse">
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteCRMScriptByUniqueIdentifier">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/DeleteCRMScriptByUniqueIdentifier" style="document" />
-      <wsdl:input name="DeleteCRMScriptByUniqueIdentifierRequest">
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteCRMScriptByUniqueIdentifierResponse">
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteCRMScriptByUniqueIdentifierResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="ValidateScriptByUniqueIdResponse">
+        <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

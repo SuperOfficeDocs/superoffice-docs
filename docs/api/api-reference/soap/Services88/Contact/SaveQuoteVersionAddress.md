@@ -1,10 +1,10 @@
 ---
-uid: services88-contact-savequoteversionaddress
 title: Services88.ContactAgent.SaveQuoteVersionAddress SOAP
-Generated: true
+generated: 1
+uid: Services88-Contact-SaveQuoteVersionAddress
 ---
 
-# Services88 Contact SaveQuoteVersionAddress SOAP
+# Services88 Contact SaveQuoteVersionAddress
 
 SOAP request and response examples **Remote/Services88/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.SaveQuoteVersionAddress">SuperOffice.Services88.IContactAgent.SaveQuoteVersionAddress</see> method.

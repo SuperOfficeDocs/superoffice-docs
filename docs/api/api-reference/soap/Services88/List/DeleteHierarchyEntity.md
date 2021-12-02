@@ -1,10 +1,10 @@
 ---
-uid: services88-list-deletehierarchyentity
 title: Services88.ListAgent.DeleteHierarchyEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-DeleteHierarchyEntity
 ---
 
-# Services88 List DeleteHierarchyEntity SOAP
+# Services88 List DeleteHierarchyEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteHierarchyEntity">SuperOffice.Services88.IListAgent.DeleteHierarchyEntity</see> method.

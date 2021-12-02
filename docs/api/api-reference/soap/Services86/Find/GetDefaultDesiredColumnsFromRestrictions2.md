@@ -1,10 +1,10 @@
 ---
-uid: services86-find-getdefaultdesiredcolumnsfromrestrictions2
 title: Services86.FindAgent.GetDefaultDesiredColumnsFromRestrictions2 SOAP
-Generated: true
+generated: 1
+uid: Services86-Find-GetDefaultDesiredColumnsFromRestrictions2
 ---
 
-# Services86 Find GetDefaultDesiredColumnsFromRestrictions2 SOAP
+# Services86 Find GetDefaultDesiredColumnsFromRestrictions2
 
 SOAP request and response examples **Remote/Services86/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.GetDefaultDesiredColumnsFromRestrictions2">SuperOffice.Services86.IFindAgent.GetDefaultDesiredColumnsFromRestrictions2</see> method.

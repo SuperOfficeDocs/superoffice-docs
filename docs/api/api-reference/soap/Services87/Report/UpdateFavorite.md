@@ -1,10 +1,10 @@
 ---
-uid: services87-report-updatefavorite
 title: Services87.ReportAgent.UpdateFavorite SOAP
-Generated: true
+generated: 1
+uid: Services87-Report-UpdateFavorite
 ---
 
-# Services87 Report UpdateFavorite SOAP
+# Services87 Report UpdateFavorite
 
 SOAP request and response examples **Remote/Services87/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IReportAgent.UpdateFavorite">SuperOffice.Services87.IReportAgent.UpdateFavorite</see> method.

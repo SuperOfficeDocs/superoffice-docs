@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-removeproduct
 title: Services85.QuoteAgent.RemoveProduct SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-RemoveProduct
 ---
 
-# Services85 Quote RemoveProduct SOAP
+# Services85 Quote RemoveProduct
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.RemoveProduct">SuperOffice.Services85.IQuoteAgent.RemoveProduct</see> method.

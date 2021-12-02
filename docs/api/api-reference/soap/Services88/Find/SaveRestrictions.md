@@ -1,10 +1,10 @@
 ---
-uid: services88-find-saverestrictions
 title: Services88.FindAgent.SaveRestrictions SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-SaveRestrictions
 ---
 
-# Services88 Find SaveRestrictions SOAP
+# Services88 Find SaveRestrictions
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.SaveRestrictions">SuperOffice.Services88.IFindAgent.SaveRestrictions</see> method.
@@ -71,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Find:Width xsi:type="xsd:string"></Find:Width>
        <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
        <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+       <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
       </Find:ColumnInfo>
       <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
       <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">
@@ -96,6 +97,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Find:Width xsi:type="xsd:string"></Find:Width>
          <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
          <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+         <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
         </Find:ColumnInfo>
         <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
         <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">

@@ -1,10 +1,10 @@
 ---
-uid: services85-project-getnextmilestone
 title: Services85.ProjectAgent.GetNextMilestone SOAP
-Generated: true
+generated: 1
+uid: Services85-Project-GetNextMilestone
 ---
 
-# Services85 Project GetNextMilestone SOAP
+# Services85 Project GetNextMilestone
 
 SOAP request and response examples **Remote/Services85/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetNextMilestone">SuperOffice.Services85.IProjectAgent.GetNextMilestone</see> method.
@@ -67,8 +67,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Project:GetNextMilestoneResponse>
    <Project:Response xsi:type="Project:Appointment">
     <Project:AppointmentId xsi:type="xsd:int">0</Project:AppointmentId>
-    <Project:StartDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:StartDate>
-    <Project:EndDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:EndDate>
+    <Project:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:StartDate>
+    <Project:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:EndDate>
     <Project:Type xsi:type="Project:AppointmentType">Unknown</Project:Type>
     <Project:Task xsi:type="xsd:string"></Project:Task>
     <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
@@ -92,14 +92,14 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:IsBookingMain xsi:type="xsd:boolean">false</Project:IsBookingMain>
     <Project:IsRecurrence xsi:type="xsd:boolean">false</Project:IsRecurrence>
     <Project:IsBooking xsi:type="xsd:boolean">false</Project:IsBooking>
-    <Project:ActiveDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:ActiveDate>
+    <Project:ActiveDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:ActiveDate>
     <Project:AssignmentStatus xsi:type="Project:AssignmentStatus">Unknown</Project:AssignmentStatus>
     <Project:InvitationStatus xsi:type="Project:InvitationStatus">Unknown</Project:InvitationStatus>
     <Project:BookingType xsi:type="Project:BookingType">Unknown</Project:BookingType>
     <Project:Completed xsi:type="Project:ActivityStatus">Unknown</Project:Completed>
     <Project:RecurringPattern xsi:type="Project:RecurrencePattern">Unknown</Project:RecurringPattern>
-    <Project:RecurringStartDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:RecurringStartDate>
-    <Project:RecurringEndDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:RecurringEndDate>
+    <Project:RecurringStartDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:RecurringStartDate>
+    <Project:RecurringEndDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:RecurringEndDate>
     <Project:MotherId xsi:type="xsd:int">0</Project:MotherId>
     <Project:AssignedBy xsi:type="xsd:int">0</Project:AssignedBy>
     <Project:AssignedByFullName xsi:type="xsd:string"></Project:AssignedByFullName>
@@ -109,7 +109,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SaleId xsi:type="xsd:int">0</Project:SaleId>
     <Project:SaleName xsi:type="xsd:string"></Project:SaleName>
     <Project:AssociateName xsi:type="xsd:string"></Project:AssociateName>
-    <Project:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:54Z</Project:CreatedDate>
+    <Project:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Project:CreatedDate>
     <Project:CreatedBy xsi:type="xsd:string"></Project:CreatedBy>
     <Project:CreatedByFullName xsi:type="xsd:string"></Project:CreatedByFullName>
     <Project:CreatedByAssociateId xsi:type="xsd:int">0</Project:CreatedByAssociateId>

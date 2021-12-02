@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-findproduct
 title: Services85.QuoteAgent.FindProduct SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-FindProduct
 ---
 
-# Services85 Quote FindProduct SOAP
+# Services85 Quote FindProduct
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.FindProduct">SuperOffice.Services85.IQuoteAgent.FindProduct</see> method.

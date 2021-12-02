@@ -1,10 +1,10 @@
 ---
-uid: services86-report-getreportlabellayoutentity
 title: Services86.ReportAgent.GetReportLabelLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Report-GetReportLabelLayoutEntity
 ---
 
-# Services86 Report GetReportLabelLayoutEntity SOAP
+# Services86 Report GetReportLabelLayoutEntity
 
 SOAP request and response examples **Remote/Services86/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.GetReportLabelLayoutEntity">SuperOffice.Services86.IReportAgent.GetReportLabelLayoutEntity</see> method.

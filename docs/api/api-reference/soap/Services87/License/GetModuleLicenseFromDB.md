@@ -1,10 +1,10 @@
 ---
-uid: services87-license-getmodulelicensefromdb
 title: Services87.LicenseAgent.GetModuleLicenseFromDB SOAP
-Generated: true
+generated: 1
+uid: Services87-License-GetModuleLicenseFromDB
 ---
 
-# Services87 License GetModuleLicenseFromDB SOAP
+# Services87 License GetModuleLicenseFromDB
 
 SOAP request and response examples **Remote/Services87/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.GetModuleLicenseFromDB">SuperOffice.Services87.ILicenseAgent.GetModuleLicenseFromDB</see> method.

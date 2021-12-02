@@ -1,10 +1,10 @@
 ---
-uid: services84-find-find
 title: Services84.FindAgent.Find SOAP
-Generated: true
+generated: 1
+uid: Services84-Find-Find
 ---
 
-# Services84 Find Find SOAP
+# Services84 Find Find
 
 SOAP request and response examples **Remote/Services84/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.Find">SuperOffice.Services84.IFindAgent.Find</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-blob-setprojectimage
 title: Services85.BLOBAgent.SetProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services85-BLOB-SetProjectImage
 ---
 
-# Services85 BLOB SetProjectImage SOAP
+# Services85 BLOB SetProjectImage
 
 SOAP request and response examples **Remote/Services85/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.SetProjectImage">SuperOffice.Services85.IBLOBAgent.SetProjectImage</see> method.

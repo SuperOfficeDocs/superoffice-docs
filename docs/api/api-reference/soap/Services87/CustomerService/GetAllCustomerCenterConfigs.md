@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-getallcustomercenterconfigs
 title: Services87.CustomerServiceAgent.GetAllCustomerCenterConfigs SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-GetAllCustomerCenterConfigs
 ---
 
-# Services87 CustomerService GetAllCustomerCenterConfigs SOAP
+# Services87 CustomerService GetAllCustomerCenterConfigs
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.GetAllCustomerCenterConfigs">SuperOffice.Services87.ICustomerServiceAgent.GetAllCustomerCenterConfigs</see> method.
@@ -69,9 +69,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
      <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
      <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-     <CustomerService:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:30Z</CustomerService:Registered>
+     <CustomerService:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CustomerService:Registered>
      <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-     <CustomerService:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:30Z</CustomerService:Updated>
+     <CustomerService:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CustomerService:Updated>
      <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
     </CustomerService:CustomerCenterConfig>
    </CustomerService:Response>

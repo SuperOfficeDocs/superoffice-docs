@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-getblobstream
 title: Services86.BLOBAgent.GetBlobStream SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-GetBlobStream
 ---
 
-# Services86 BLOB GetBlobStream SOAP
+# Services86 BLOB GetBlobStream
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.GetBlobStream">SuperOffice.Services86.IBLOBAgent.GetBlobStream</see> method.

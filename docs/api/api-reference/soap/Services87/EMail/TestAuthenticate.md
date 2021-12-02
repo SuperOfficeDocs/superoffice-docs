@@ -1,10 +1,10 @@
 ---
-uid: services87-email-testauthenticate
 title: Services87.EMailAgent.TestAuthenticate SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-TestAuthenticate
 ---
 
-# Services87 EMail TestAuthenticate SOAP
+# Services87 EMail TestAuthenticate
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.TestAuthenticate">SuperOffice.Services87.IEMailAgent.TestAuthenticate</see> method.

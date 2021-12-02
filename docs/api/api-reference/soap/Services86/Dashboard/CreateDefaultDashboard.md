@@ -1,10 +1,10 @@
 ---
-uid: services86-dashboard-createdefaultdashboard
 title: Services86.DashboardAgent.CreateDefaultDashboard SOAP
-Generated: true
+generated: 1
+uid: Services86-Dashboard-CreateDefaultDashboard
 ---
 
-# Services86 Dashboard CreateDefaultDashboard SOAP
+# Services86 Dashboard CreateDefaultDashboard
 
 SOAP request and response examples **Remote/Services86/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDashboardAgent.CreateDefaultDashboard">SuperOffice.Services86.IDashboardAgent.CreateDefaultDashboard</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-restoreconnection
 title: Services86.QuoteAgent.RestoreConnection SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-RestoreConnection
 ---
 
-# Services86 Quote RestoreConnection SOAP
+# Services86 Quote RestoreConnection
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.RestoreConnection">SuperOffice.Services86.IQuoteAgent.RestoreConnection</see> method.

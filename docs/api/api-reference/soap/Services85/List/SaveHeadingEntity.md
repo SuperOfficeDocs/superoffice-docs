@@ -1,10 +1,10 @@
 ---
-uid: services85-list-saveheadingentity
 title: Services85.ListAgent.SaveHeadingEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-List-SaveHeadingEntity
 ---
 
-# Services85 List SaveHeadingEntity SOAP
+# Services85 List SaveHeadingEntity
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveHeadingEntity">SuperOffice.Services85.IListAgent.SaveHeadingEntity</see> method.

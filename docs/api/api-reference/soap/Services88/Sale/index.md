@@ -1,7 +1,7 @@
 ---
-uid: services88-sale
 title: Services88.SaleAgent SOAP
-Generated: true
+uid: Services88-Sale-soap
+generated: 1
 ---
 
 # Services88 Sale SOAP
@@ -33,6 +33,8 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [GetSaleEntity](GetSaleEntity.md)
 * [GetSaleList](GetSaleList.md)
 * [GetSalesByDate](GetSalesByDate.md)
+* [GetSalesFromContact](GetSalesFromContact.md)
+* [GetSalesFromPerson](GetSalesFromPerson.md)
 * [GetSaleStakeholder](GetSaleStakeholder.md)
 * [GetSaleStakeholderById](GetSaleStakeholderById.md)
 * [GetSaleStakeholderList](GetSaleStakeholderList.md)
@@ -52,3 +54,4 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
 * [ValidateSaleEntity](ValidateSaleEntity.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services87-person-addbounce
 title: Services87.PersonAgent.AddBounce SOAP
-Generated: true
+generated: 1
+uid: Services87-Person-AddBounce
 ---
 
-# Services87 Person AddBounce SOAP
+# Services87 Person AddBounce
 
 SOAP request and response examples **Remote/Services87/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.AddBounce">SuperOffice.Services87.IPersonAgent.AddBounce</see> method.

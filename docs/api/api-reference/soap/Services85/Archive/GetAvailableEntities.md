@@ -1,10 +1,10 @@
 ---
-uid: services85-archive-getavailableentities
 title: Services85.ArchiveAgent.GetAvailableEntities SOAP
-Generated: true
+generated: 1
+uid: Services85-Archive-GetAvailableEntities
 ---
 
-# Services85 Archive GetAvailableEntities SOAP
+# Services85 Archive GetAvailableEntities
 
 SOAP request and response examples **Remote/Services85/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetAvailableEntities">SuperOffice.Services85.IArchiveAgent.GetAvailableEntities</see> method.

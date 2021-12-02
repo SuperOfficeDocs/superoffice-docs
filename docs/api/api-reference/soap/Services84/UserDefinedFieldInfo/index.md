@@ -1,7 +1,7 @@
 ---
-uid: services84-userdefinedfieldinfo
 title: Services84.UserDefinedFieldInfoAgent SOAP
-Generated: true
+uid: Services84-UserDefinedFieldInfo-soap
+generated: 1
 ---
 
 # Services84 UserDefinedFieldInfo SOAP
@@ -45,3 +45,4 @@ Download [WSDL file for Services84/UserDefinedFieldInfo](../Services84-UserDefin
 * [SetPublishStartSystemEvent](SetPublishStartSystemEvent.md)
 * [SetRankOnFields](SetRankOnFields.md)
 * [SetUserDefinedPageOneField](SetUserDefinedPageOneField.md)
+

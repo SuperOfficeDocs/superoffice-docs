@@ -1,10 +1,10 @@
 ---
-uid: services86-person-getconsentperson
 title: Services86.PersonAgent.GetConsentPerson SOAP
-Generated: true
+generated: 1
+uid: Services86-Person-GetConsentPerson
 ---
 
-# Services86 Person GetConsentPerson SOAP
+# Services86 Person GetConsentPerson
 
 SOAP request and response examples **Remote/Services86/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.GetConsentPerson">SuperOffice.Services86.IPersonAgent.GetConsentPerson</see> method.
@@ -93,7 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:16Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:59Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>

@@ -1,10 +1,10 @@
 ---
-uid: services87-diagnostics-webappusageexistsinperiod
 title: Services87.DiagnosticsAgent.WebAppUsageExistsInPeriod SOAP
-Generated: true
+generated: 1
+uid: Services87-Diagnostics-WebAppUsageExistsInPeriod
 ---
 
-# Services87 Diagnostics WebAppUsageExistsInPeriod SOAP
+# Services87 Diagnostics WebAppUsageExistsInPeriod
 
 SOAP request and response examples **Remote/Services87/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.WebAppUsageExistsInPeriod">SuperOffice.Services87.IDiagnosticsAgent.WebAppUsageExistsInPeriod</see> method.
@@ -46,7 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Diagnostics:WebAppUsageExistsInPeriod>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Diagnostics:FromDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Diagnostics:FromDate>
    </Diagnostics:WebAppUsageExistsInPeriod>
 
  </SOAP-ENV:Body>

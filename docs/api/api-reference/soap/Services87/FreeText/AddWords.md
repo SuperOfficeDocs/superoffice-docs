@@ -1,10 +1,10 @@
 ---
-uid: services87-freetext-addwords
 title: Services87.FreeTextAgent.AddWords SOAP
-Generated: true
+generated: 1
+uid: Services87-FreeText-AddWords
 ---
 
-# Services87 FreeText AddWords SOAP
+# Services87 FreeText AddWords
 
 SOAP request and response examples **Remote/Services87/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.AddWords">SuperOffice.Services87.IFreeTextAgent.AddWords</see> method.

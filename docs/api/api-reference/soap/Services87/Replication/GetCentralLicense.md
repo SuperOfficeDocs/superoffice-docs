@@ -1,10 +1,10 @@
 ---
-uid: services87-replication-getcentrallicense
 title: Services87.ReplicationAgent.GetCentralLicense SOAP
-Generated: true
+generated: 1
+uid: Services87-Replication-GetCentralLicense
 ---
 
-# Services87 Replication GetCentralLicense SOAP
+# Services87 Replication GetCentralLicense
 
 SOAP request and response examples **Remote/Services87/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IReplicationAgent.GetCentralLicense">SuperOffice.Services87.IReplicationAgent.GetCentralLicense</see> method.

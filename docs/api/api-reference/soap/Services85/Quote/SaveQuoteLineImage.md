@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-savequotelineimage
 title: Services85.QuoteAgent.SaveQuoteLineImage SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-SaveQuoteLineImage
 ---
 
-# Services85 Quote SaveQuoteLineImage SOAP
+# Services85 Quote SaveQuoteLineImage
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.SaveQuoteLineImage">SuperOffice.Services85.IQuoteAgent.SaveQuoteLineImage</see> method.

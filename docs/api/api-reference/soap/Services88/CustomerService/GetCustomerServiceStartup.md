@@ -1,10 +1,10 @@
 ---
-uid: services88-customerservice-getcustomerservicestartup
 title: Services88.CustomerServiceAgent.GetCustomerServiceStartup SOAP
-Generated: true
+generated: 1
+uid: Services88-CustomerService-GetCustomerServiceStartup
 ---
 
-# Services88 CustomerService GetCustomerServiceStartup SOAP
+# Services88 CustomerService GetCustomerServiceStartup
 
 SOAP request and response examples **Remote/Services88/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.GetCustomerServiceStartup">SuperOffice.Services88.ICustomerServiceAgent.GetCustomerServiceStartup</see> method.

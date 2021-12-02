@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getdocumenttypesforplugin
 title: Services85.ListAgent.GetDocumentTypesForPlugin SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetDocumentTypesForPlugin
 ---
 
-# Services85 List GetDocumentTypesForPlugin SOAP
+# Services85 List GetDocumentTypesForPlugin
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetDocumentTypesForPlugin">SuperOffice.Services85.IListAgent.GetDocumentTypesForPlugin</see> method.

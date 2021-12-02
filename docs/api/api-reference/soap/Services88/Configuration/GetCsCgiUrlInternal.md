@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-getcscgiurlinternal
 title: Services88.ConfigurationAgent.GetCsCgiUrlInternal SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-GetCsCgiUrlInternal
 ---
 
-# Services88 Configuration GetCsCgiUrlInternal SOAP
+# Services88 Configuration GetCsCgiUrlInternal
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetCsCgiUrlInternal">SuperOffice.Services88.IConfigurationAgent.GetCsCgiUrlInternal</see> method.

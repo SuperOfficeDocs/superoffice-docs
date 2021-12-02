@@ -1,10 +1,10 @@
 ---
-uid: services84-bulkupdate-removestoredfields
 title: Services84.BulkUpdateAgent.RemoveStoredFields SOAP
-Generated: true
+generated: 1
+uid: Services84-BulkUpdate-RemoveStoredFields
 ---
 
-# Services84 BulkUpdate RemoveStoredFields SOAP
+# Services84 BulkUpdate RemoveStoredFields
 
 SOAP request and response examples **Remote/Services84/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBulkUpdateAgent.RemoveStoredFields">SuperOffice.Services84.IBulkUpdateAgent.RemoveStoredFields</see> method.

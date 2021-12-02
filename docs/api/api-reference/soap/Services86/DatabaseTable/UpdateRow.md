@@ -1,10 +1,10 @@
 ---
-uid: services86-databasetable-updaterow
 title: Services86.DatabaseTableAgent.UpdateRow SOAP
-Generated: true
+generated: 1
+uid: Services86-DatabaseTable-UpdateRow
 ---
 
-# Services86 DatabaseTable UpdateRow SOAP
+# Services86 DatabaseTable UpdateRow
 
 SOAP request and response examples **Remote/Services86/DatabaseTable.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDatabaseTableAgent.UpdateRow">SuperOffice.Services86.IDatabaseTableAgent.UpdateRow</see> method.

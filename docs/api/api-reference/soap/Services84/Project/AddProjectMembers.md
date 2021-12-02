@@ -1,10 +1,10 @@
 ---
-uid: services84-project-addprojectmembers
 title: Services84.ProjectAgent.AddProjectMembers SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-AddProjectMembers
 ---
 
-# Services84 Project AddProjectMembers SOAP
+# Services84 Project AddProjectMembers
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.AddProjectMembers">SuperOffice.Services84.IProjectAgent.AddProjectMembers</see> method.

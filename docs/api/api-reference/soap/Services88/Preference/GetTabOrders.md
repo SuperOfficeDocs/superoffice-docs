@@ -1,10 +1,10 @@
 ---
-uid: services88-preference-gettaborders
 title: Services88.PreferenceAgent.GetTabOrders SOAP
-Generated: true
+generated: 1
+uid: Services88-Preference-GetTabOrders
 ---
 
-# Services88 Preference GetTabOrders SOAP
+# Services88 Preference GetTabOrders
 
 SOAP request and response examples **Remote/Services88/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.GetTabOrders">SuperOffice.Services88.IPreferenceAgent.GetTabOrders</see> method.

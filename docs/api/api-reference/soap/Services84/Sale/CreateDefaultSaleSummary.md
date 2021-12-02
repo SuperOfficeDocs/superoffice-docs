@@ -1,10 +1,10 @@
 ---
-uid: services84-sale-createdefaultsalesummary
 title: Services84.SaleAgent.CreateDefaultSaleSummary SOAP
-Generated: true
+generated: 1
+uid: Services84-Sale-CreateDefaultSaleSummary
 ---
 
-# Services84 Sale CreateDefaultSaleSummary SOAP
+# Services84 Sale CreateDefaultSaleSummary
 
 SOAP request and response examples **Remote/Services84/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.CreateDefaultSaleSummary">SuperOffice.Services84.ISaleAgent.CreateDefaultSaleSummary</see> method.

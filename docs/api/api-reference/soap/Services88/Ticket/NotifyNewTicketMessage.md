@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-notifynewticketmessage
 title: Services88.TicketAgent.NotifyNewTicketMessage SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-NotifyNewTicketMessage
 ---
 
-# Services88 Ticket NotifyNewTicketMessage SOAP
+# Services88 Ticket NotifyNewTicketMessage
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.NotifyNewTicketMessage">SuperOffice.Services88.ITicketAgent.NotifyNewTicketMessage</see> method.

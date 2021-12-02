@@ -1,7 +1,7 @@
 ---
-uid: services85-audience
 title: Services85.AudienceAgent SOAP
-Generated: true
+uid: Services85-Audience-soap
+generated: 1
 ---
 
 # Services85 Audience SOAP
@@ -41,3 +41,4 @@ Download [WSDL file for Services85/Audience](../Services85-Audience.md) if you n
 * [SetDefaultPersonImage](SetDefaultPersonImage.md)
 * [SetDefaultProjectImage](SetDefaultProjectImage.md)
 * [SetLogoImage](SetLogoImage.md)
+

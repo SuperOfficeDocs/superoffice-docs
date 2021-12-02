@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-createdefaultchattopicagent
 title: Services88.ChatAgent.CreateDefaultChatTopicAgent SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-CreateDefaultChatTopicAgent
 ---
 
-# Services88 Chat CreateDefaultChatTopicAgent SOAP
+# Services88 Chat CreateDefaultChatTopicAgent
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.CreateDefaultChatTopicAgent">SuperOffice.Services88.IChatAgent.CreateDefaultChatTopicAgent</see> method.

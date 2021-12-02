@@ -1,10 +1,10 @@
 ---
-uid: services87-blob-setproductimage
 title: Services87.BLOBAgent.SetProductImage SOAP
-Generated: true
+generated: 1
+uid: Services87-BLOB-SetProductImage
 ---
 
-# Services87 BLOB SetProductImage SOAP
+# Services87 BLOB SetProductImage
 
 SOAP request and response examples **Remote/Services87/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.SetProductImage">SuperOffice.Services87.IBLOBAgent.SetProductImage</see> method.

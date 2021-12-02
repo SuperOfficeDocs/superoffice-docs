@@ -1,10 +1,10 @@
 ---
-uid: services84-list-deletelistentitybyname
 title: Services84.ListAgent.DeleteListEntityByName SOAP
-Generated: true
+generated: 1
+uid: Services84-List-DeleteListEntityByName
 ---
 
-# Services84 List DeleteListEntityByName SOAP
+# Services84 List DeleteListEntityByName
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.DeleteListEntityByName">SuperOffice.Services84.IListAgent.DeleteListEntityByName</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services85-person
 title: Services85.PersonAgent SOAP
-Generated: true
+uid: Services85-Person-soap
+generated: 1
 ---
 
 # Services85 Person SOAP
@@ -58,3 +58,4 @@ Download [WSDL file for Services85/Person](../Services85-Person.md) if you need 
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)
 * [Undelete](Undelete.md)
+

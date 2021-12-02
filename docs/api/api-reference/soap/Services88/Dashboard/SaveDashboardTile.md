@@ -1,10 +1,10 @@
 ---
-uid: services88-dashboard-savedashboardtile
 title: Services88.DashboardAgent.SaveDashboardTile SOAP
-Generated: true
+generated: 1
+uid: Services88-Dashboard-SaveDashboardTile
 ---
 
-# Services88 Dashboard SaveDashboardTile SOAP
+# Services88 Dashboard SaveDashboardTile
 
 SOAP request and response examples **Remote/Services88/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.SaveDashboardTile">SuperOffice.Services88.IDashboardAgent.SaveDashboardTile</see> method.

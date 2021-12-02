@@ -1,10 +1,10 @@
 ---
-uid: services88-userdefinedfieldinfo-publish
 title: Services88.UserDefinedFieldInfoAgent.Publish SOAP
-Generated: true
+generated: 1
+uid: Services88-UserDefinedFieldInfo-Publish
 ---
 
-# Services88 UserDefinedFieldInfo Publish SOAP
+# Services88 UserDefinedFieldInfo Publish
 
 SOAP request and response examples **Remote/Services88/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgent.Publish">SuperOffice.Services88.IUserDefinedFieldInfoAgent.Publish</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getamountclassentity
 title: Services86.ListAgent.GetAmountClassEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetAmountClassEntity
 ---
 
-# Services86 List GetAmountClassEntity SOAP
+# Services86 List GetAmountClassEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetAmountClassEntity">SuperOffice.Services86.IListAgent.GetAmountClassEntity</see> method.

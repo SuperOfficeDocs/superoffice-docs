@@ -1,10 +1,10 @@
 ---
-uid: services84-list-createdefaultwebpanelentity
 title: Services84.ListAgent.CreateDefaultWebPanelEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-CreateDefaultWebPanelEntity
 ---
 
-# Services84 List CreateDefaultWebPanelEntity SOAP
+# Services84 List CreateDefaultWebPanelEntity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultWebPanelEntity">SuperOffice.Services84.IListAgent.CreateDefaultWebPanelEntity</see> method.

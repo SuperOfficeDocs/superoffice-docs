@@ -1,10 +1,10 @@
 ---
-uid: services85-bulkupdate-getjobresultsfromstorageasjson
 title: Services85.BulkUpdateAgent.GetJobResultsFromStorageAsJson SOAP
-Generated: true
+generated: 1
+uid: Services85-BulkUpdate-GetJobResultsFromStorageAsJson
 ---
 
-# Services85 BulkUpdate GetJobResultsFromStorageAsJson SOAP
+# Services85 BulkUpdate GetJobResultsFromStorageAsJson
 
 SOAP request and response examples **Remote/Services85/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBulkUpdateAgent.GetJobResultsFromStorageAsJson">SuperOffice.Services85.IBulkUpdateAgent.GetJobResultsFromStorageAsJson</see> method.

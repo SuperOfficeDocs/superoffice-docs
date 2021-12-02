@@ -1,10 +1,10 @@
 ---
-uid: services86-document-getcheckoutstate
 title: Services86.DocumentAgent.GetCheckoutState SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-GetCheckoutState
 ---
 
-# Services86 Document GetCheckoutState SOAP
+# Services86 Document GetCheckoutState
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetCheckoutState">SuperOffice.Services86.IDocumentAgent.GetCheckoutState</see> method.

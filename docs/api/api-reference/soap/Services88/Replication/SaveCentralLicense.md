@@ -1,10 +1,10 @@
 ---
-uid: services88-replication-savecentrallicense
 title: Services88.ReplicationAgent.SaveCentralLicense SOAP
-Generated: true
+generated: 1
+uid: Services88-Replication-SaveCentralLicense
 ---
 
-# Services88 Replication SaveCentralLicense SOAP
+# Services88 Replication SaveCentralLicense
 
 SOAP request and response examples **Remote/Services88/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.SaveCentralLicense">SuperOffice.Services88.IReplicationAgent.SaveCentralLicense</see> method.
@@ -60,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Replication:Description xsi:type="xsd:string"></Replication:Description>
         <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
         <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+        <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
        </Replication:ModuleLicenseLink>
       </Replication:RestrictedModuleLicenses>
       <Replication:UnrestrictedModuleLicenses xsi:type="Replication:ArrayOfModuleLicenseLink">
@@ -77,6 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Replication:Description xsi:type="xsd:string"></Replication:Description>
         <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
         <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+        <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
        </Replication:ModuleLicenseLink>
       </Replication:UnrestrictedModuleLicenses>
      </Replication:LicenseOwner>
@@ -122,6 +124,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Replication:Description xsi:type="xsd:string"></Replication:Description>
        <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
        <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+       <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
       </Replication:ModuleLicenseLink>
      </Replication:RestrictedModuleLicenses>
      <Replication:UnrestrictedModuleLicenses xsi:type="Replication:ArrayOfModuleLicenseLink">
@@ -139,6 +142,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Replication:Description xsi:type="xsd:string"></Replication:Description>
        <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
        <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+       <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
       </Replication:ModuleLicenseLink>
      </Replication:UnrestrictedModuleLicenses>
     </Replication:LicenseOwner>

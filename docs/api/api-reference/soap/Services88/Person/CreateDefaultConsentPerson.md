@@ -1,10 +1,10 @@
 ---
-uid: services88-person-createdefaultconsentperson
 title: Services88.PersonAgent.CreateDefaultConsentPerson SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-CreateDefaultConsentPerson
 ---
 
-# Services88 Person CreateDefaultConsentPerson SOAP
+# Services88 Person CreateDefaultConsentPerson
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.CreateDefaultConsentPerson">SuperOffice.Services88.IPersonAgent.CreateDefaultConsentPerson</see> method.
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:37:05Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:46Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>

@@ -1,10 +1,10 @@
 ---
-uid: services87-list-deleteticketpriorityentity
 title: Services87.ListAgent.DeleteTicketPriorityEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-DeleteTicketPriorityEntity
 ---
 
-# Services87 List DeleteTicketPriorityEntity SOAP
+# Services87 List DeleteTicketPriorityEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.DeleteTicketPriorityEntity">SuperOffice.Services87.IListAgent.DeleteTicketPriorityEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-find-deleterestrictiongroup
 title: Services88.FindAgent.DeleteRestrictionGroup SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-DeleteRestrictionGroup
 ---
 
-# Services88 Find DeleteRestrictionGroup SOAP
+# Services88 Find DeleteRestrictionGroup
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.DeleteRestrictionGroup">SuperOffice.Services88.IFindAgent.DeleteRestrictionGroup</see> method.

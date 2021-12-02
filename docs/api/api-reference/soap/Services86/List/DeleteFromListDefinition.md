@@ -1,10 +1,10 @@
 ---
-uid: services86-list-deletefromlistdefinition
 title: Services86.ListAgent.DeleteFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services86-List-DeleteFromListDefinition
 ---
 
-# Services86 List DeleteFromListDefinition SOAP
+# Services86 List DeleteFromListDefinition
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.DeleteFromListDefinition">SuperOffice.Services86.IListAgent.DeleteFromListDefinition</see> method.

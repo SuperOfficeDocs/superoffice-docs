@@ -1,7 +1,7 @@
 ---
-uid: services85-appointment
 title: Services85.AppointmentAgent SOAP
-Generated: true
+uid: Services85-Appointment-soap
+generated: 1
 ---
 
 # Services85 Appointment SOAP
@@ -99,3 +99,4 @@ Download [WSDL file for Services85/Appointment](../Services85-Appointment.md) if
 * [ToggleAppointmentStatus](ToggleAppointmentStatus.md)
 * [UpdateAppointment](UpdateAppointment.md)
 * [ValidateDays](ValidateDays.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services88-list-deletehierarchyfrompath
 title: Services88.ListAgent.DeleteHierarchyFromPath SOAP
-Generated: true
+generated: 1
+uid: Services88-List-DeleteHierarchyFromPath
 ---
 
-# Services88 List DeleteHierarchyFromPath SOAP
+# Services88 List DeleteHierarchyFromPath
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteHierarchyFromPath">SuperOffice.Services88.IListAgent.DeleteHierarchyFromPath</see> method.

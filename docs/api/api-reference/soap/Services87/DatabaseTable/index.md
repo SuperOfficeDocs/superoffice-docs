@@ -1,7 +1,7 @@
 ---
-uid: services87-databasetable
 title: Services87.DatabaseTableAgent SOAP
-Generated: true
+uid: Services87-DatabaseTable-soap
+generated: 1
 ---
 
 # Services87 DatabaseTable SOAP
@@ -20,3 +20,4 @@ Download [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md
 * [InsertRow](InsertRow.md)
 * [ReadRow](ReadRow.md)
 * [UpdateRow](UpdateRow.md)
+

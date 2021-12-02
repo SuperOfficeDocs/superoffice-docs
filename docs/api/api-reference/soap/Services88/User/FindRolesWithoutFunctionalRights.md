@@ -1,10 +1,10 @@
 ---
-uid: services88-user-findroleswithoutfunctionalrights
 title: Services88.UserAgent.FindRolesWithoutFunctionalRights SOAP
-Generated: true
+generated: 1
+uid: Services88-User-FindRolesWithoutFunctionalRights
 ---
 
-# Services88 User FindRolesWithoutFunctionalRights SOAP
+# Services88 User FindRolesWithoutFunctionalRights
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.FindRolesWithoutFunctionalRights">SuperOffice.Services88.IUserAgent.FindRolesWithoutFunctionalRights</see> method.

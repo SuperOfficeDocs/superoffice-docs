@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-getarchiveconfigurationv2
 title: Services88.ArchiveAgent.GetArchiveConfigurationV2 SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-GetArchiveConfigurationV2
 ---
 
-# Services88 Archive GetArchiveConfigurationV2 SOAP
+# Services88 Archive GetArchiveConfigurationV2
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetArchiveConfigurationV2">SuperOffice.Services88.IArchiveAgent.GetArchiveConfigurationV2</see> method.
@@ -86,6 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:Width xsi:type="xsd:string"></Archive:Width>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:HeadingIconHint xsi:type="xsd:string"></Archive:HeadingIconHint>
+      <Archive:ExtraInfo xsi:type="xsd:string"></Archive:ExtraInfo>
      </Archive:ArchiveColumnInfo>
     </Archive:ArchiveColumnInfo>
     <Archive:ArchiveEntityInfo xsi:type="Archive:ArrayOfSelectableMDOListItem">
@@ -99,7 +100,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:50Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -111,7 +112,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:50Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>

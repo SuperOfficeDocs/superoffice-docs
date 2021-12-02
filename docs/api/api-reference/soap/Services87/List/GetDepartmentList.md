@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getdepartmentlist
 title: Services87.ListAgent.GetDepartmentList SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetDepartmentList
 ---
 
-# Services87 List GetDepartmentList SOAP
+# Services87 List GetDepartmentList
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetDepartmentList">SuperOffice.Services87.IListAgent.GetDepartmentList</see> method.

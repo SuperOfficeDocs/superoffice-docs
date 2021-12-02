@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-testconnectorurl
 title: Services84.ErpSyncAgent.TestConnectorUrl SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-TestConnectorUrl
 ---
 
-# Services84 ErpSync TestConnectorUrl SOAP
+# Services84 ErpSync TestConnectorUrl
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.TestConnectorUrl">SuperOffice.Services84.IErpSyncAgent.TestConnectorUrl</see> method.

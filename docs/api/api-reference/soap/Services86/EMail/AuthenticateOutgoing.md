@@ -1,10 +1,10 @@
 ---
-uid: services86-email-authenticateoutgoing
 title: Services86.EMailAgent.AuthenticateOutgoing SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-AuthenticateOutgoing
 ---
 
-# Services86 EMail AuthenticateOutgoing SOAP
+# Services86 EMail AuthenticateOutgoing
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.AuthenticateOutgoing">SuperOffice.Services86.IEMailAgent.AuthenticateOutgoing</see> method.

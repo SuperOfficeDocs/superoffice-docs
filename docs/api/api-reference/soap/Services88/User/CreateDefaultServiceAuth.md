@@ -1,10 +1,10 @@
 ---
-uid: services88-user-createdefaultserviceauth
 title: Services88.UserAgent.CreateDefaultServiceAuth SOAP
-Generated: true
+generated: 1
+uid: Services88-User-CreateDefaultServiceAuth
 ---
 
-# Services88 User CreateDefaultServiceAuth SOAP
+# Services88 User CreateDefaultServiceAuth
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultServiceAuth">SuperOffice.Services88.IUserAgent.CreateDefaultServiceAuth</see> method.

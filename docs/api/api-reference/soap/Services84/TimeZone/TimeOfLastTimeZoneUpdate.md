@@ -1,10 +1,10 @@
 ---
-uid: services84-timezone-timeoflasttimezoneupdate
 title: Services84.TimeZoneAgent.TimeOfLastTimeZoneUpdate SOAP
-Generated: true
+generated: 1
+uid: Services84-TimeZone-TimeOfLastTimeZoneUpdate
 ---
 
-# Services84 TimeZone TimeOfLastTimeZoneUpdate SOAP
+# Services84 TimeZone TimeOfLastTimeZoneUpdate
 
 SOAP request and response examples **Remote/Services84/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ITimeZoneAgent.TimeOfLastTimeZoneUpdate">SuperOffice.Services84.ITimeZoneAgent.TimeOfLastTimeZoneUpdate</see> method.
@@ -61,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:TimeZone="http://www.superoffice.net/ws/crm/NetServer/Services84">
  <SOAP-ENV:Body>
   <TimeZone:TimeOfLastTimeZoneUpdateResponse>
-   <TimeZone:Response xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</TimeZone:Response>
+   <TimeZone:Response xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</TimeZone:Response>
   </TimeZone:TimeOfLastTimeZoneUpdateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

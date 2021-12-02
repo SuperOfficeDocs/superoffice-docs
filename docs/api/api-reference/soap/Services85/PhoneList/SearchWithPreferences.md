@@ -1,10 +1,10 @@
 ---
-uid: services85-phonelist-searchwithpreferences
 title: Services85.PhoneListAgent.SearchWithPreferences SOAP
-Generated: true
+generated: 1
+uid: Services85-PhoneList-SearchWithPreferences
 ---
 
-# Services85 PhoneList SearchWithPreferences SOAP
+# Services85 PhoneList SearchWithPreferences
 
 SOAP request and response examples **Remote/Services85/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPhoneListAgent.SearchWithPreferences">SuperOffice.Services85.IPhoneListAgent.SearchWithPreferences</see> method.

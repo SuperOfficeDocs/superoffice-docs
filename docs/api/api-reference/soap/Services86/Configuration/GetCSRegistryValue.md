@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-getcsregistryvalue
 title: Services86.ConfigurationAgent.GetCSRegistryValue SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-GetCSRegistryValue
 ---
 
-# Services86 Configuration GetCSRegistryValue SOAP
+# Services86 Configuration GetCSRegistryValue
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetCSRegistryValue">SuperOffice.Services86.IConfigurationAgent.GetCSRegistryValue</see> method.

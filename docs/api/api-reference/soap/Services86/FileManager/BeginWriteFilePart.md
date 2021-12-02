@@ -1,10 +1,10 @@
 ---
-uid: services86-filemanager-beginwritefilepart
 title: Services86.FileManagerAgent.BeginWriteFilePart SOAP
-Generated: true
+generated: 1
+uid: Services86-FileManager-BeginWriteFilePart
 ---
 
-# Services86 FileManager BeginWriteFilePart SOAP
+# Services86 FileManager BeginWriteFilePart
 
 SOAP request and response examples **Remote/Services86/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFileManagerAgent.BeginWriteFilePart">SuperOffice.Services86.IFileManagerAgent.BeginWriteFilePart</see> method.

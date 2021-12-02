@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-BLOB
 title: Services88.BLOBAgent WSDL
 ---
 
@@ -576,6 +576,13 @@ title: Services88.BLOBAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="DashboardHtmlTileData">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">18</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="BlobLinkType" nillable="true" type="tns:BlobLinkType" />
@@ -810,6 +817,32 @@ title: Services88.BLOBAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOutputFromBatch">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="BatchTaskId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOutputFromBatchResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CleanupBatchTask">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="BatchTaskId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CleanupBatchTaskResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
     </xs:schema>
@@ -1433,6 +1466,40 @@ title: Services88.BLOBAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetOutputFromBatchRequest">
+    <wsdl:part name="parameters" element="tns:GetOutputFromBatch" />
+  </wsdl:message>
+  <wsdl:message name="GetOutputFromBatchRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetOutputFromBatchResponse">
+    <wsdl:part name="parameters" element="tns:GetOutputFromBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOutputFromBatchResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CleanupBatchTaskRequest">
+    <wsdl:part name="parameters" element="tns:CleanupBatchTask" />
+  </wsdl:message>
+  <wsdl:message name="CleanupBatchTaskRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CleanupBatchTaskResponse">
+    <wsdl:part name="parameters" element="tns:CleanupBatchTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="CleanupBatchTaskResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="BLOB">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for BLOB</summary>
@@ -1676,6 +1743,20 @@ title: Services88.BLOBAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSize" name="GetContactImageWithSizeRequest" message="tns:GetContactImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSizeResponse" name="GetContactImageWithSizeResponse" message="tns:GetContactImageWithSizeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutputFromBatch">
+      <wsdl:documentation>
+        <summary>Get the output of a batchtask as a stream</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetOutputFromBatch" name="GetOutputFromBatchRequest" message="tns:GetOutputFromBatchRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetOutputFromBatchResponse" name="GetOutputFromBatchResponse" message="tns:GetOutputFromBatchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CleanupBatchTask">
+      <wsdl:documentation>
+        <summary>Removes the binary objects linked to the batch task, the links themselves and the batch task.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/CleanupBatchTask" name="CleanupBatchTaskRequest" message="tns:CleanupBatchTaskRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/CleanupBatchTaskResponse" name="CleanupBatchTaskResponse" message="tns:CleanupBatchTaskResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_BLOB" type="tns:BLOB">
@@ -2221,6 +2302,38 @@ title: Services88.BLOBAgent WSDL
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutputFromBatch">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetOutputFromBatch" style="document" />
+      <wsdl:input name="GetOutputFromBatchRequest">
+        <soap:header message="tns:GetOutputFromBatchRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetOutputFromBatchRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetOutputFromBatchRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetOutputFromBatchResponse">
+        <soap:header message="tns:GetOutputFromBatchResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetOutputFromBatchResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetOutputFromBatchResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetOutputFromBatchResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CleanupBatchTask">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/CleanupBatchTask" style="document" />
+      <wsdl:input name="CleanupBatchTaskRequest">
+        <soap:header message="tns:CleanupBatchTaskRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CleanupBatchTaskRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CleanupBatchTaskRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CleanupBatchTaskResponse">
+        <soap:header message="tns:CleanupBatchTaskResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CleanupBatchTaskResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CleanupBatchTaskResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CleanupBatchTaskResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

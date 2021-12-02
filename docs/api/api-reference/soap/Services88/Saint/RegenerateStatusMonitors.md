@@ -1,10 +1,10 @@
 ---
-uid: services88-saint-regeneratestatusmonitors
 title: Services88.SaintAgent.RegenerateStatusMonitors SOAP
-Generated: true
+generated: 1
+uid: Services88-Saint-RegenerateStatusMonitors
 ---
 
-# Services88 Saint RegenerateStatusMonitors SOAP
+# Services88 Saint RegenerateStatusMonitors
 
 SOAP request and response examples **Remote/Services88/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaintAgent.RegenerateStatusMonitors">SuperOffice.Services88.ISaintAgent.RegenerateStatusMonitors</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:37:09Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2021-03-25T21:37:09Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>
@@ -91,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Saint:Request xsi:type="xsd:string"></Saint:Request>
     <Saint:ProgressDescription xsi:type="xsd:string"></Saint:ProgressDescription>
     <Saint:ProgressPercent xsi:type="xsd:short">0</Saint:ProgressPercent>
+    <Saint:FileName xsi:type="xsd:string"></Saint:FileName>
    </Saint:Response>
   </Saint:RegenerateStatusMonitorsResponse>
  </SOAP-ENV:Body>

@@ -1,10 +1,10 @@
 ---
-uid: services84-blobmanager-endreadblobpart
 title: Services84.BlobManagerAgent.EndReadBlobPart SOAP
-Generated: true
+generated: 1
+uid: Services84-BlobManager-EndReadBlobPart
 ---
 
-# Services84 BlobManager EndReadBlobPart SOAP
+# Services84 BlobManager EndReadBlobPart
 
 SOAP request and response examples **Remote/Services84/BlobManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBlobManagerAgent.EndReadBlobPart">SuperOffice.Services84.IBlobManagerAgent.EndReadBlobPart</see> method.

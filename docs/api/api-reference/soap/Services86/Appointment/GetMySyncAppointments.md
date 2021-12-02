@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-getmysyncappointments
 title: Services86.AppointmentAgent.GetMySyncAppointments SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-GetMySyncAppointments
 ---
 
-# Services86 Appointment GetMySyncAppointments SOAP
+# Services86 Appointment GetMySyncAppointments
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetMySyncAppointments">SuperOffice.Services86.IAppointmentAgent.GetMySyncAppointments</see> method.
@@ -43,8 +43,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetMySyncAppointments>
-    <Appointment:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:StartTime>
-    <Appointment:EndTime xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:EndTime>
+    <Appointment:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:StartTime>
+    <Appointment:EndTime xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:EndTime>
    </Appointment:GetMySyncAppointments>
 
  </SOAP-ENV:Body>
@@ -69,14 +69,14 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetMySyncAppointmentsResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfAppointmentSyncData">
     <Appointment:AppointmentSyncData xsi:type="Appointment:AppointmentSyncData">
-     <Appointment:AlarmTime xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:AlarmTime>
+     <Appointment:AlarmTime xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:AlarmTime>
      <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
      <Appointment:AppointmentText xsi:type="xsd:string"></Appointment:AppointmentText>
      <Appointment:ContactDepartment xsi:type="xsd:string"></Appointment:ContactDepartment>
      <Appointment:ContactFullName xsi:type="xsd:string"></Appointment:ContactFullName>
      <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>
      <Appointment:ContactId xsi:type="xsd:int">0</Appointment:ContactId>
-     <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:EndDate>
+     <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:EndDate>
      <Appointment:HasAlarm xsi:type="xsd:boolean">false</Appointment:HasAlarm>
      <Appointment:IsAllDay xsi:type="xsd:boolean">false</Appointment:IsAllDay>
      <Appointment:IsAssignment xsi:type="xsd:boolean">false</Appointment:IsAssignment>
@@ -188,7 +188,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:ProjectName xsi:type="xsd:string"></Appointment:ProjectName>
      <Appointment:SaleId xsi:type="xsd:int">0</Appointment:SaleId>
      <Appointment:SaleName xsi:type="xsd:string"></Appointment:SaleName>
-     <Appointment:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:StartDate>
+     <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:StartDate>
      <Appointment:TaskName xsi:type="xsd:string"></Appointment:TaskName>
     </Appointment:AppointmentSyncData>
    </Appointment:Response>

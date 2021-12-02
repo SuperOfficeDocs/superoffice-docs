@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Dashboard
 title: Services88.DashboardAgent WSDL
 ---
 
@@ -546,6 +546,7 @@ title: Services88.DashboardAgent WSDL
           <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />

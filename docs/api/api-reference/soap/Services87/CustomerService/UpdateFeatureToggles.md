@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-updatefeaturetoggles
 title: Services87.CustomerServiceAgent.UpdateFeatureToggles SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-UpdateFeatureToggles
 ---
 
-# Services87 CustomerService UpdateFeatureToggles SOAP
+# Services87 CustomerService UpdateFeatureToggles
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.UpdateFeatureToggles">SuperOffice.Services87.ICustomerServiceAgent.UpdateFeatureToggles</see> method.

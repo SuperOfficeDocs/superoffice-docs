@@ -1,7 +1,7 @@
 ---
-uid: services85-blob
 title: Services85.BLOBAgent SOAP
-Generated: true
+uid: Services85-BLOB-soap
+generated: 1
 ---
 
 # Services85 BLOB SOAP
@@ -44,3 +44,4 @@ Download [WSDL file for Services85/BLOB](../Services85-BLOB.md) if you need to g
 * [SetProductImage](SetProductImage.md)
 * [SetProductThumbnail](SetProductThumbnail.md)
 * [SetProjectImage](SetProjectImage.md)
+

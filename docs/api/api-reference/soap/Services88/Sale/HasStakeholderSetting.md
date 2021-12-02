@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-hasstakeholdersetting
 title: Services88.SaleAgent.HasStakeholderSetting SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-HasStakeholderSetting
 ---
 
-# Services88 Sale HasStakeholderSetting SOAP
+# Services88 Sale HasStakeholderSetting
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.HasStakeholderSetting">SuperOffice.Services88.ISaleAgent.HasStakeholderSetting</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-databasetable-readrow
 title: Services87.DatabaseTableAgent.ReadRow SOAP
-Generated: true
+generated: 1
+uid: Services87-DatabaseTable-ReadRow
 ---
 
-# Services87 DatabaseTable ReadRow SOAP
+# Services87 DatabaseTable ReadRow
 
 SOAP request and response examples **Remote/Services87/DatabaseTable.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseTableAgent.ReadRow">SuperOffice.Services87.IDatabaseTableAgent.ReadRow</see> method.

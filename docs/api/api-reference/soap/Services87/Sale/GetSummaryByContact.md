@@ -1,10 +1,10 @@
 ---
-uid: services87-sale-getsummarybycontact
 title: Services87.SaleAgent.GetSummaryByContact SOAP
-Generated: true
+generated: 1
+uid: Services87-Sale-GetSummaryByContact
 ---
 
-# Services87 Sale GetSummaryByContact SOAP
+# Services87 Sale GetSummaryByContact
 
 SOAP request and response examples **Remote/Services87/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.GetSummaryByContact">SuperOffice.Services87.ISaleAgent.GetSummaryByContact</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByContact>
     <Sale:ContactId xsi:type="xsd:int">0</Sale:ContactId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-03-25T21:36:45Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-03-25T21:36:45Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:ToDate>
    </Sale:GetSummaryByContact>
 
  </SOAP-ENV:Body>

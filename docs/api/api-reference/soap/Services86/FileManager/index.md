@@ -1,7 +1,7 @@
 ---
-uid: services86-filemanager
 title: Services86.FileManagerAgent SOAP
-Generated: true
+uid: Services86-FileManager-soap
+generated: 1
 ---
 
 # Services86 FileManager SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services86/FileManager](../Services86-FileManager.md) if
 * [ReadFilePart](ReadFilePart.md)
 * [WriteFile](WriteFile.md)
 * [WriteFilePart](WriteFilePart.md)
+

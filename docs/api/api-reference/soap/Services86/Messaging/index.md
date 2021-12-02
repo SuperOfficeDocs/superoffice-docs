@@ -1,7 +1,7 @@
 ---
-uid: services86-messaging
 title: Services86.MessagingAgent SOAP
-Generated: true
+uid: Services86-Messaging-soap
+generated: 1
 ---
 
 # Services86 Messaging SOAP
@@ -22,3 +22,4 @@ Download [WSDL file for Services86/Messaging](../Services86-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
+

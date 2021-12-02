@@ -1,10 +1,10 @@
 ---
-uid: services88-document-verifygetdocumentstream
 title: Services88.DocumentAgent.VerifyGetDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-VerifyGetDocumentStream
 ---
 
-# Services88 Document VerifyGetDocumentStream SOAP
+# Services88 Document VerifyGetDocumentStream
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.VerifyGetDocumentStream">SuperOffice.Services88.IDocumentAgent.VerifyGetDocumentStream</see> method.

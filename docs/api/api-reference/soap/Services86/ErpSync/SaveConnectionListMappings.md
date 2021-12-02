@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-saveconnectionlistmappings
 title: Services86.ErpSyncAgent.SaveConnectionListMappings SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-SaveConnectionListMappings
 ---
 
-# Services86 ErpSync SaveConnectionListMappings SOAP
+# Services86 ErpSync SaveConnectionListMappings
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveConnectionListMappings">SuperOffice.Services86.IErpSyncAgent.SaveConnectionListMappings</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-saveerpconnectionsyncpriorities
 title: Services88.ErpSyncAgent.SaveErpConnectionSyncPriorities SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-SaveErpConnectionSyncPriorities
 ---
 
-# Services88 ErpSync SaveErpConnectionSyncPriorities SOAP
+# Services88 ErpSync SaveErpConnectionSyncPriorities
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.SaveErpConnectionSyncPriorities">SuperOffice.Services88.IErpSyncAgent.SaveErpConnectionSyncPriorities</see> method.

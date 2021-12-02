@@ -1,10 +1,10 @@
 ---
-uid: services88-project-getprojectmember
 title: Services88.ProjectAgent.GetProjectMember SOAP
-Generated: true
+generated: 1
+uid: Services88-Project-GetProjectMember
 ---
 
-# Services88 Project GetProjectMember SOAP
+# Services88 Project GetProjectMember
 
 SOAP request and response examples **Remote/Services88/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.GetProjectMember">SuperOffice.Services88.IProjectAgent.GetProjectMember</see> method.

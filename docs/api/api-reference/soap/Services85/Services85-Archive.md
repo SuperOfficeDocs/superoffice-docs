@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services85-Archive
 title: Services85.ArchiveAgent WSDL
 ---
 

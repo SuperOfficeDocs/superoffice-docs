@@ -1,10 +1,10 @@
 ---
-uid: services84-soprincipal-getsysteminfo
 title: Services84.SoPrincipalAgent.GetSystemInfo SOAP
-Generated: true
+generated: 1
+uid: Services84-SoPrincipal-GetSystemInfo
 ---
 
-# Services84 SoPrincipal GetSystemInfo SOAP
+# Services84 SoPrincipal GetSystemInfo
 
 SOAP request and response examples **Remote/Services84/SoPrincipal.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.GetSystemInfo">SuperOffice.Services84.ISoPrincipalAgent.GetSystemInfo</see> method.
@@ -62,11 +62,11 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.GetSyst
      <SoPrincipal:SerialNr xsi:type="xsd:string"></SoPrincipal:SerialNr>
      <SoPrincipal:OwnerName xsi:type="xsd:string"></SoPrincipal:OwnerName>
      <SoPrincipal:OwnerDescription xsi:type="xsd:string"></SoPrincipal:OwnerDescription>
-     <SoPrincipal:NextCheckDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:NextCheckDate>
-     <SoPrincipal:MaintenanceDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:MaintenanceDate>
-     <SoPrincipal:AdminWarningDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:AdminWarningDate>
-     <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:ExpiryDate>
-     <SoPrincipal:GraceDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:GraceDate>
+     <SoPrincipal:NextCheckDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:NextCheckDate>
+     <SoPrincipal:MaintenanceDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:MaintenanceDate>
+     <SoPrincipal:AdminWarningDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:AdminWarningDate>
+     <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:ExpiryDate>
+     <SoPrincipal:GraceDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:GraceDate>
      <SoPrincipal:ExtraFlags xsi:type="xsd:int">0</SoPrincipal:ExtraFlags>
      <SoPrincipal:LicenseUrl xsi:type="xsd:string"></SoPrincipal:LicenseUrl>
      <SoPrincipal:LicenseVersion xsi:type="xsd:string"></SoPrincipal:LicenseVersion>
@@ -94,8 +94,8 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.GetSyst
      </SoPrincipal:ModuleLicenses>
      <SoPrincipal:PublicKey xsi:type="SoPrincipal:SignedPublicKey">
       <SoPrincipal:OwnerName xsi:type="xsd:string"></SoPrincipal:OwnerName>
-      <SoPrincipal:SignDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:SignDate>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:SignDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:SignDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:ExpiryDate>
       <SoPrincipal:Key xsi:type="NetServerServices842:DSAParameters">
        <NetServerServices842:Counter xsi:type="xsd:int">0</NetServerServices842:Counter>
        <NetServerServices842:G xsi:type="xsd:base64Binary"></NetServerServices842:G>
@@ -114,7 +114,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.GetSyst
     <SoPrincipal:BranchName xsi:type="xsd:string"></SoPrincipal:BranchName>
     <SoPrincipal:BuildLabel xsi:type="xsd:string"></SoPrincipal:BuildLabel>
     <SoPrincipal:AssemblyVersion xsi:type="xsd:string"></SoPrincipal:AssemblyVersion>
-    <SoPrincipal:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2021-03-25T21:35:37Z</SoPrincipal:AccumulatedNextCheckDate>
+    <SoPrincipal:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2021-11-30T13:22:22Z</SoPrincipal:AccumulatedNextCheckDate>
     <SoPrincipal:FileVersion xsi:type="xsd:string"></SoPrincipal:FileVersion>
     <SoPrincipal:Description xsi:type="xsd:string"></SoPrincipal:Description>
     <SoPrincipal:DaysUntilNetServerExpiry xsi:type="xsd:int">0</SoPrincipal:DaysUntilNetServerExpiry>

@@ -1,10 +1,10 @@
 ---
-uid: services88-marketing-getformsubmissionentity
 title: Services88.MarketingAgent.GetFormSubmissionEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Marketing-GetFormSubmissionEntity
 ---
 
-# Services88 Marketing GetFormSubmissionEntity SOAP
+# Services88 Marketing GetFormSubmissionEntity
 
 SOAP request and response examples **Remote/Services88/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.GetFormSubmissionEntity">SuperOffice.Services88.IMarketingAgent.GetFormSubmissionEntity</see> method.
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Marketing:Response xsi:type="Marketing:FormSubmissionEntity">
     <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
     <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:WhenSubmitted>
+    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:WhenSubmitted>
     <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
     <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>

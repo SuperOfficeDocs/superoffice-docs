@@ -1,10 +1,10 @@
 ---
-uid: services85-person-hasconsent
 title: Services85.PersonAgent.HasConsent SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-HasConsent
 ---
 
-# Services85 Person HasConsent SOAP
+# Services85 Person HasConsent
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.HasConsent">SuperOffice.Services85.IPersonAgent.HasConsent</see> method.

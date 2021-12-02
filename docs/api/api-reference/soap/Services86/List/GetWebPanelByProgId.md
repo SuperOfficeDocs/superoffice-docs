@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getwebpanelbyprogid
 title: Services86.ListAgent.GetWebPanelByProgId SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetWebPanelByProgId
 ---
 
-# Services86 List GetWebPanelByProgId SOAP
+# Services86 List GetWebPanelByProgId
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetWebPanelByProgId">SuperOffice.Services86.IListAgent.GetWebPanelByProgId</see> method.

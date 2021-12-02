@@ -1,10 +1,10 @@
 ---
-uid: services86-user-savecredential
 title: Services86.UserAgent.SaveCredential SOAP
-Generated: true
+generated: 1
+uid: Services86-User-SaveCredential
 ---
 
-# Services86 User SaveCredential SOAP
+# Services86 User SaveCredential
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveCredential">SuperOffice.Services86.IUserAgent.SaveCredential</see> method.

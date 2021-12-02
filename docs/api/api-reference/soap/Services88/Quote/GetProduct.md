@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-getproduct
 title: Services88.QuoteAgent.GetProduct SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-GetProduct
 ---
 
-# Services88 Quote GetProduct SOAP
+# Services88 Quote GetProduct
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetProduct">SuperOffice.Services88.IQuoteAgent.GetProduct</see> method.

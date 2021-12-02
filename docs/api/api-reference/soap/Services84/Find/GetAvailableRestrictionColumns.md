@@ -1,10 +1,10 @@
 ---
-uid: services84-find-getavailablerestrictioncolumns
 title: Services84.FindAgent.GetAvailableRestrictionColumns SOAP
-Generated: true
+generated: 1
+uid: Services84-Find-GetAvailableRestrictionColumns
 ---
 
-# Services84 Find GetAvailableRestrictionColumns SOAP
+# Services84 Find GetAvailableRestrictionColumns
 
 SOAP request and response examples **Remote/Services84/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.GetAvailableRestrictionColumns">SuperOffice.Services84.IFindAgent.GetAvailableRestrictionColumns</see> method.

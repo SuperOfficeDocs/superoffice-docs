@@ -1,10 +1,10 @@
 ---
-uid: services86-userdefinedfieldinfo-revert
 title: Services86.UserDefinedFieldInfoAgent.Revert SOAP
-Generated: true
+generated: 1
+uid: Services86-UserDefinedFieldInfo-Revert
 ---
 
-# Services86 UserDefinedFieldInfo Revert SOAP
+# Services86 UserDefinedFieldInfo Revert
 
 SOAP request and response examples **Remote/Services86/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgent.Revert">SuperOffice.Services86.IUserDefinedFieldInfoAgent.Revert</see> method.

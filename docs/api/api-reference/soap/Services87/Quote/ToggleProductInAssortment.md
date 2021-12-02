@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-toggleproductinassortment
 title: Services87.QuoteAgent.ToggleProductInAssortment SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-ToggleProductInAssortment
 ---
 
-# Services87 Quote ToggleProductInAssortment SOAP
+# Services87 Quote ToggleProductInAssortment
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.ToggleProductInAssortment">SuperOffice.Services87.IQuoteAgent.ToggleProductInAssortment</see> method.

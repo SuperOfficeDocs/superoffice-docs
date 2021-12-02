@@ -1,10 +1,10 @@
 ---
-uid: services84-document-getsuggesteddocumententity
 title: Services84.DocumentAgent.GetSuggestedDocumentEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-GetSuggestedDocumentEntity
 ---
 
-# Services84 Document GetSuggestedDocumentEntity SOAP
+# Services84 Document GetSuggestedDocumentEntity
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetSuggestedDocumentEntity">SuperOffice.Services84.IDocumentAgent.GetSuggestedDocumentEntity</see> method.

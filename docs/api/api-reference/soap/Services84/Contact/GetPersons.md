@@ -1,10 +1,10 @@
 ---
-uid: services84-contact-getpersons
 title: Services84.ContactAgent.GetPersons SOAP
-Generated: true
+generated: 1
+uid: Services84-Contact-GetPersons
 ---
 
-# Services84 Contact GetPersons SOAP
+# Services84 Contact GetPersons
 
 SOAP request and response examples **Remote/Services84/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.GetPersons">SuperOffice.Services84.IContactAgent.GetPersons</see> method.

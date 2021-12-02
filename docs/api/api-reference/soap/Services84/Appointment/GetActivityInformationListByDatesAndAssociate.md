@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-getactivityinformationlistbydatesandassociate
 title: Services84.AppointmentAgent.GetActivityInformationListByDatesAndAssociate SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-GetActivityInformationListByDatesAndAssociate
 ---
 
-# Services84 Appointment GetActivityInformationListByDatesAndAssociate SOAP
+# Services84 Appointment GetActivityInformationListByDatesAndAssociate
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.GetActivityInformationListByDatesAndAssociate">SuperOffice.Services84.IAppointmentAgent.GetActivityInformationListByDatesAndAssociate</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetActivityInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-03-25T21:35:19Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:35:19Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:04Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:04Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetActivityInformationListByDatesAndAssociate>
 
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetActivityInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfActivityInformationListItem">
     <Appointment:ActivityInformationListItem xsi:type="Appointment:ActivityInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2021-03-25T21:35:19Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:22:04Z</Appointment:Date>
      <Appointment:ActivityInformation xsi:type="Appointment:ActivitySummary">
       <Appointment:NumBusyActivities xsi:type="xsd:int">0</Appointment:NumBusyActivities>
       <Appointment:NumFreeActivities xsi:type="xsd:int">0</Appointment:NumFreeActivities>

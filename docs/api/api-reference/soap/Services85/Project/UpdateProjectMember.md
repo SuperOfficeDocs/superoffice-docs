@@ -1,10 +1,10 @@
 ---
-uid: services85-project-updateprojectmember
 title: Services85.ProjectAgent.UpdateProjectMember SOAP
-Generated: true
+generated: 1
+uid: Services85-Project-UpdateProjectMember
 ---
 
-# Services85 Project UpdateProjectMember SOAP
+# Services85 Project UpdateProjectMember
 
 SOAP request and response examples **Remote/Services85/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.UpdateProjectMember">SuperOffice.Services85.IProjectAgent.UpdateProjectMember</see> method.

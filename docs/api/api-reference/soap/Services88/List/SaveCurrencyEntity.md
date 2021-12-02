@@ -1,10 +1,10 @@
 ---
-uid: services88-list-savecurrencyentity
 title: Services88.ListAgent.SaveCurrencyEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SaveCurrencyEntity
 ---
 
-# Services88 List SaveCurrencyEntity SOAP
+# Services88 List SaveCurrencyEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveCurrencyEntity">SuperOffice.Services88.IListAgent.SaveCurrencyEntity</see> method.

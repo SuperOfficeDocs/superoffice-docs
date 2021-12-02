@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getprojectmemberdocumentsbytemplatetypes
 title: Services88.DocumentAgent.GetProjectMemberDocumentsByTemplateTypes SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetProjectMemberDocumentsByTemplateTypes
 ---
 
-# Services88 Document GetProjectMemberDocumentsByTemplateTypes SOAP
+# Services88 Document GetProjectMemberDocumentsByTemplateTypes
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes">SuperOffice.Services88.IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetProjectMemberDocumentsByTemplateTypes>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>

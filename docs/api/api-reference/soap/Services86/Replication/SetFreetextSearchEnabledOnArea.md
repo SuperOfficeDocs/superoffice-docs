@@ -1,10 +1,10 @@
 ---
-uid: services86-replication-setfreetextsearchenabledonarea
 title: Services86.ReplicationAgent.SetFreetextSearchEnabledOnArea SOAP
-Generated: true
+generated: 1
+uid: Services86-Replication-SetFreetextSearchEnabledOnArea
 ---
 
-# Services86 Replication SetFreetextSearchEnabledOnArea SOAP
+# Services86 Replication SetFreetextSearchEnabledOnArea
 
 SOAP request and response examples **Remote/Services86/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReplicationAgent.SetFreetextSearchEnabledOnArea">SuperOffice.Services86.IReplicationAgent.SetFreetextSearchEnabledOnArea</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-changeenginestatus
 title: Services88.ErpSyncAgent.ChangeEngineStatus SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-ChangeEngineStatus
 ---
 
-# Services88 ErpSync ChangeEngineStatus SOAP
+# Services88 ErpSync ChangeEngineStatus
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ChangeEngineStatus">SuperOffice.Services88.IErpSyncAgent.ChangeEngineStatus</see> method.

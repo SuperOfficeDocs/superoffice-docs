@@ -1,10 +1,10 @@
 ---
-uid: services84-resource-isresourcesubstitutionactive
 title: Services84.ResourceAgent.IsResourceSubstitutionActive SOAP
-Generated: true
+generated: 1
+uid: Services84-Resource-IsResourceSubstitutionActive
 ---
 
-# Services84 Resource IsResourceSubstitutionActive SOAP
+# Services84 Resource IsResourceSubstitutionActive
 
 SOAP request and response examples **Remote/Services84/Resource.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IResourceAgent.IsResourceSubstitutionActive">SuperOffice.Services84.IResourceAgent.IsResourceSubstitutionActive</see> method.

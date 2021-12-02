@@ -1,10 +1,10 @@
 ---
-uid: services84-saint-regeneratecounters
 title: Services84.SaintAgent.RegenerateCounters SOAP
-Generated: true
+generated: 1
+uid: Services84-Saint-RegenerateCounters
 ---
 
-# Services84 Saint RegenerateCounters SOAP
+# Services84 Saint RegenerateCounters
 
 SOAP request and response examples **Remote/Services84/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaintAgent.RegenerateCounters">SuperOffice.Services84.ISaintAgent.RegenerateCounters</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:35Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2021-03-25T21:35:35Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>

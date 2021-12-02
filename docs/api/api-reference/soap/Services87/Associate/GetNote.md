@@ -1,10 +1,10 @@
 ---
-uid: services87-associate-getnote
 title: Services87.AssociateAgent.GetNote SOAP
-Generated: true
+generated: 1
+uid: Services87-Associate-GetNote
 ---
 
-# Services87 Associate GetNote SOAP
+# Services87 Associate GetNote
 
 SOAP request and response examples **Remote/Services87/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAssociateAgent.GetNote">SuperOffice.Services87.IAssociateAgent.GetNote</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-getconnectorcapabilities
 title: Services88.QuoteAgent.GetConnectorCapabilities SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-GetConnectorCapabilities
 ---
 
-# Services88 Quote GetConnectorCapabilities SOAP
+# Services88 Quote GetConnectorCapabilities
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetConnectorCapabilities">SuperOffice.Services88.IQuoteAgent.GetConnectorCapabilities</see> method.

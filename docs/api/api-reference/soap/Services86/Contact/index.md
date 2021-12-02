@@ -1,7 +1,7 @@
 ---
-uid: services86-contact
 title: Services86.ContactAgent SOAP
-Generated: true
+uid: Services86-Contact-soap
+generated: 1
 ---
 
 # Services86 Contact SOAP
@@ -44,3 +44,4 @@ Download [WSDL file for Services86/Contact](../Services86-Contact.md) if you nee
 * [SaveQuoteVersionAddress](SaveQuoteVersionAddress.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [Undelete](Undelete.md)
+

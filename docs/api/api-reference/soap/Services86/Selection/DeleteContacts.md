@@ -1,10 +1,10 @@
 ---
-uid: services86-selection-deletecontacts
 title: Services86.SelectionAgent.DeleteContacts SOAP
-Generated: true
+generated: 1
+uid: Services86-Selection-DeleteContacts
 ---
 
-# Services86 Selection DeleteContacts SOAP
+# Services86 Selection DeleteContacts
 
 SOAP request and response examples **Remote/Services86/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.DeleteContacts">SuperOffice.Services86.ISelectionAgent.DeleteContacts</see> method.

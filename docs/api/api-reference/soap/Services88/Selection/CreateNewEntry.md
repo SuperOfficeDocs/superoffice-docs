@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-createnewentry
 title: Services88.SelectionAgent.CreateNewEntry SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-CreateNewEntry
 ---
 
-# Services88 Selection CreateNewEntry SOAP
+# Services88 Selection CreateNewEntry
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.CreateNewEntry">SuperOffice.Services88.ISelectionAgent.CreateNewEntry</see> method.

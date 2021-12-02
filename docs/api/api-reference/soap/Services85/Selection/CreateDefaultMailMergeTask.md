@@ -1,10 +1,10 @@
 ---
-uid: services85-selection-createdefaultmailmergetask
 title: Services85.SelectionAgent.CreateDefaultMailMergeTask SOAP
-Generated: true
+generated: 1
+uid: Services85-Selection-CreateDefaultMailMergeTask
 ---
 
-# Services85 Selection CreateDefaultMailMergeTask SOAP
+# Services85 Selection CreateDefaultMailMergeTask
 
 SOAP request and response examples **Remote/Services85/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.CreateDefaultMailMergeTask">SuperOffice.Services85.ISelectionAgent.CreateDefaultMailMergeTask</see> method.
@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Selection:Response xsi:type="Selection:MailMergeTask">
     <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
     <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-    <Selection:StartDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Selection:StartDate>
+    <Selection:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Selection:StartDate>
     <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
     <Selection:Description xsi:type="xsd:string"></Selection:Description>
     <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>

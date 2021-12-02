@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-getconnectionlistmappings
 title: Services88.ErpSyncAgent.GetConnectionListMappings SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-GetConnectionListMappings
 ---
 
-# Services88 ErpSync GetConnectionListMappings SOAP
+# Services88 ErpSync GetConnectionListMappings
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.GetConnectionListMappings">SuperOffice.Services88.IErpSyncAgent.GetConnectionListMappings</see> method.

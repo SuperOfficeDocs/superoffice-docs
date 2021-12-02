@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-getfieldsfornewerpactor
 title: Services84.ErpSyncAgent.GetFieldsForNewErpActor SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-GetFieldsForNewErpActor
 ---
 
-# Services84 ErpSync GetFieldsForNewErpActor SOAP
+# Services84 ErpSync GetFieldsForNewErpActor
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetFieldsForNewErpActor">SuperOffice.Services84.IErpSyncAgent.GetFieldsForNewErpActor</see> method.

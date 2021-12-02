@@ -1,10 +1,10 @@
 ---
-uid: services87-contact-addperson
 title: Services87.ContactAgent.AddPerson SOAP
-Generated: true
+generated: 1
+uid: Services87-Contact-AddPerson
 ---
 
-# Services87 Contact AddPerson SOAP
+# Services87 Contact AddPerson
 
 SOAP request and response examples **Remote/Services87/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.AddPerson">SuperOffice.Services87.IContactAgent.AddPerson</see> method.
@@ -51,9 +51,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:Lastname xsi:type="xsd:string"></Contact:Lastname>
      <Contact:Mrmrs xsi:type="xsd:string"></Contact:Mrmrs>
      <Contact:Title xsi:type="xsd:string"></Contact:Title>
-     <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:UpdatedDate>
-     <Contact:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:CreatedDate>
-     <Contact:BirthDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:BirthDate>
+     <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:UpdatedDate>
+     <Contact:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:CreatedDate>
+     <Contact:BirthDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:BirthDate>
      <Contact:CreatedBy xsi:type="Contact:Associate">
       <Contact:AssociateId xsi:type="xsd:int">0</Contact:AssociateId>
       <Contact:Name xsi:type="xsd:string"></Contact:Name>
@@ -224,7 +224,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
        <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
        <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-       <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+       <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
        <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
         <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
          <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -236,7 +236,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
          <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
          <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-         <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+         <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
          <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
           <Contact:SelectableMDOListItem xsi:nil="true"></Contact:SelectableMDOListItem>
          </Contact:ChildItems>
@@ -375,8 +375,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Contact:CustomerLanguage>
      <Contact:DbiAgentId xsi:type="xsd:int">0</Contact:DbiAgentId>
      <Contact:DbiKey xsi:type="xsd:string"></Contact:DbiKey>
-     <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:DbiLastModified>
-     <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:DbiLastSyncronized>
+     <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:DbiLastModified>
+     <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:DbiLastSyncronized>
      <Contact:SentInfo xsi:type="xsd:short">0</Contact:SentInfo>
      <Contact:ShowContactTickets xsi:type="xsd:short">0</Contact:ShowContactTickets>
      <Contact:UserInfo xsi:type="Contact:UserInfo">
@@ -425,7 +425,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
        <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
        <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-       <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+       <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
        <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
         <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
          <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -437,7 +437,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
          <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
          <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-         <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+         <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
          <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
           <Contact:SelectableMDOListItem xsi:nil="true"></Contact:SelectableMDOListItem>
          </Contact:ChildItems>
@@ -457,9 +457,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:ConsentInfo xsi:type="Contact:ConsentInfo">
        <Contact:ConsentPersonId xsi:type="xsd:int">0</Contact:ConsentPersonId>
        <Contact:Comment xsi:type="xsd:string"></Contact:Comment>
-       <Contact:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:Registered>
+       <Contact:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:Registered>
        <Contact:RegisteredAssociateId xsi:type="xsd:int">0</Contact:RegisteredAssociateId>
-       <Contact:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:Updated>
+       <Contact:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:Updated>
        <Contact:UpdatedAssociateId xsi:type="xsd:int">0</Contact:UpdatedAssociateId>
        <Contact:LegalBaseId xsi:type="xsd:int">0</Contact:LegalBaseId>
        <Contact:LegalBaseKey xsi:type="xsd:string"></Contact:LegalBaseKey>
@@ -520,9 +520,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Contact:Lastname xsi:type="xsd:string"></Contact:Lastname>
     <Contact:Mrmrs xsi:type="xsd:string"></Contact:Mrmrs>
     <Contact:Title xsi:type="xsd:string"></Contact:Title>
-    <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:UpdatedDate>
-    <Contact:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:CreatedDate>
-    <Contact:BirthDate xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:BirthDate>
+    <Contact:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:UpdatedDate>
+    <Contact:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:CreatedDate>
+    <Contact:BirthDate xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:BirthDate>
     <Contact:CreatedBy xsi:type="Contact:Associate">
      <Contact:AssociateId xsi:type="xsd:int">0</Contact:AssociateId>
      <Contact:Name xsi:type="xsd:string"></Contact:Name>
@@ -693,7 +693,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
       <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
       <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-      <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+      <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
       <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
        <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
         <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -705,7 +705,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
         <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
         <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-        <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+        <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
         <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
          <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
           <Contact:Id xsi:nil="true"></Contact:Id>
@@ -860,8 +860,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Contact:CustomerLanguage>
     <Contact:DbiAgentId xsi:type="xsd:int">0</Contact:DbiAgentId>
     <Contact:DbiKey xsi:type="xsd:string"></Contact:DbiKey>
-    <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:DbiLastModified>
-    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:DbiLastSyncronized>
+    <Contact:DbiLastModified xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:DbiLastModified>
+    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:DbiLastSyncronized>
     <Contact:SentInfo xsi:type="xsd:short">0</Contact:SentInfo>
     <Contact:ShowContactTickets xsi:type="xsd:short">0</Contact:ShowContactTickets>
     <Contact:UserInfo xsi:type="Contact:UserInfo">
@@ -910,7 +910,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
       <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
       <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-      <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+      <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
       <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
        <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
         <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -922,7 +922,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
         <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
         <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-        <Contact:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:LastChanged>
+        <Contact:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:LastChanged>
         <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
          <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
           <Contact:Id xsi:nil="true"></Contact:Id>
@@ -958,9 +958,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:ConsentInfo xsi:type="Contact:ConsentInfo">
       <Contact:ConsentPersonId xsi:type="xsd:int">0</Contact:ConsentPersonId>
       <Contact:Comment xsi:type="xsd:string"></Contact:Comment>
-      <Contact:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:Registered>
+      <Contact:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:Registered>
       <Contact:RegisteredAssociateId xsi:type="xsd:int">0</Contact:RegisteredAssociateId>
-      <Contact:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</Contact:Updated>
+      <Contact:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Contact:Updated>
       <Contact:UpdatedAssociateId xsi:type="xsd:int">0</Contact:UpdatedAssociateId>
       <Contact:LegalBaseId xsi:type="xsd:int">0</Contact:LegalBaseId>
       <Contact:LegalBaseKey xsi:type="xsd:string"></Contact:LegalBaseKey>

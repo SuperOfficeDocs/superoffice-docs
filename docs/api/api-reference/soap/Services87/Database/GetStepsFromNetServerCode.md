@@ -1,10 +1,10 @@
 ---
-uid: services87-database-getstepsfromnetservercode
 title: Services87.DatabaseAgent.GetStepsFromNetServerCode SOAP
-Generated: true
+generated: 1
+uid: Services87-Database-GetStepsFromNetServerCode
 ---
 
-# Services87 Database GetStepsFromNetServerCode SOAP
+# Services87 Database GetStepsFromNetServerCode
 
 SOAP request and response examples **Remote/Services87/Database.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseAgent.GetStepsFromNetServerCode">SuperOffice.Services87.IDatabaseAgent.GetStepsFromNetServerCode</see> method.

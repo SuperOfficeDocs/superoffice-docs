@@ -1,10 +1,10 @@
 ---
-uid: services85-navigator-getnavigatorcompany
 title: Services85.NavigatorAgent.GetNavigatorCompany SOAP
-Generated: true
+generated: 1
+uid: Services85-Navigator-GetNavigatorCompany
 ---
 
-# Services85 Navigator GetNavigatorCompany SOAP
+# Services85 Navigator GetNavigatorCompany
 
 SOAP request and response examples **Remote/Services85/Navigator.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.INavigatorAgent.GetNavigatorCompany">SuperOffice.Services85.INavigatorAgent.GetNavigatorCompany</see> method.

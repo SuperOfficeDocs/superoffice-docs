@@ -1,10 +1,10 @@
 ---
-uid: services85-project-getduplicaterules
 title: Services85.ProjectAgent.GetDuplicateRules SOAP
-Generated: true
+generated: 1
+uid: Services85-Project-GetDuplicateRules
 ---
 
-# Services85 Project GetDuplicateRules SOAP
+# Services85 Project GetDuplicateRules
 
 SOAP request and response examples **Remote/Services85/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetDuplicateRules">SuperOffice.Services85.IProjectAgent.GetDuplicateRules</see> method.

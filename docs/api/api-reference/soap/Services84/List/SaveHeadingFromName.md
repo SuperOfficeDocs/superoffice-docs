@@ -1,10 +1,10 @@
 ---
-uid: services84-list-saveheadingfromname
 title: Services84.ListAgent.SaveHeadingFromName SOAP
-Generated: true
+generated: 1
+uid: Services84-List-SaveHeadingFromName
 ---
 
-# Services84 List SaveHeadingFromName SOAP
+# Services84 List SaveHeadingFromName
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveHeadingFromName">SuperOffice.Services84.IListAgent.SaveHeadingFromName</see> method.

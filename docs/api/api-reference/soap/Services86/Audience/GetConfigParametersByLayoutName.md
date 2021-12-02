@@ -1,10 +1,10 @@
 ---
-uid: services86-audience-getconfigparametersbylayoutname
 title: Services86.AudienceAgent.GetConfigParametersByLayoutName SOAP
-Generated: true
+generated: 1
+uid: Services86-Audience-GetConfigParametersByLayoutName
 ---
 
-# Services86 Audience GetConfigParametersByLayoutName SOAP
+# Services86 Audience GetConfigParametersByLayoutName
 
 SOAP request and response examples **Remote/Services86/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAudienceAgent.GetConfigParametersByLayoutName">SuperOffice.Services86.IAudienceAgent.GetConfigParametersByLayoutName</see> method.
@@ -68,8 +68,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
      <Audience:Value xsi:type="xsd:string"></Audience:Value>
-     <Audience:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</Audience:CreatedDate>
-     <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</Audience:UpdatedDate>
+     <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</Audience:CreatedDate>
+     <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</Audience:UpdatedDate>
      <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
      <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
     </Audience:AudienceConfigParameter>

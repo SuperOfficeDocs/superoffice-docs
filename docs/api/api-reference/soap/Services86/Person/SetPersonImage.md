@@ -1,10 +1,10 @@
 ---
-uid: services86-person-setpersonimage
 title: Services86.PersonAgent.SetPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services86-Person-SetPersonImage
 ---
 
-# Services86 Person SetPersonImage SOAP
+# Services86 Person SetPersonImage
 
 SOAP request and response examples **Remote/Services86/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.SetPersonImage">SuperOffice.Services86.IPersonAgent.SetPersonImage</see> method.

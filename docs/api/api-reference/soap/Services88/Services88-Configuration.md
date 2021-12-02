@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Configuration
 title: Services88.ConfigurationAgent WSDL
 ---
 
@@ -12,7 +12,7 @@ title: Services88.ConfigurationAgent WSDL
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="CreateDefaultDiaryViewEntity">
+      <xs:element name="CreateDefaultConfigurableScreenDelta">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -33,30 +33,34 @@ title: Services88.ConfigurationAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="CreateDefaultDiaryViewEntityResponse">
+      <xs:element name="CreateDefaultConfigurableScreenDeltaResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:DiaryViewEntity" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConfigurableScreenDelta" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="DiaryViewEntity">
+      <xs:complexType name="ConfigurableScreenDelta">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="DiaryViewId" type="xs:int" />
+              <xs:element minOccurs="0" name="ConfigurableScreenDeltaId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="VisibleColumns" type="xs:short" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="AssocId" type="xs:int" />
-              <xs:element minOccurs="0" name="AssociateList" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
-              <xs:element minOccurs="0" name="TzLocationId" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DeltaJson" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DeltaType" type="tns:DeltaType" />
+              <xs:element minOccurs="0" name="DeltaState" type="tns:DeltaState" />
+              <xs:element minOccurs="0" name="RecipeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DiaryViewEntity" nillable="true" type="tns:DiaryViewEntity" />
+      <xs:element name="ConfigurableScreenDelta" nillable="true" type="tns:ConfigurableScreenDelta" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -137,36 +141,66 @@ title: Services88.ConfigurationAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
-      <xs:complexType name="ArrayOfSelectableMDOListItem">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectableMDOListItem" nillable="true" type="tns:SelectableMDOListItem" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfSelectableMDOListItem" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
-      <xs:complexType name="SelectableMDOListItem">
+      <xs:simpleType name="DeltaType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="System" />
+          <xs:enumeration value="WebPanel" />
+          <xs:enumeration value="CustomFields" />
+          <xs:enumeration value="Customized" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="DeltaType" nillable="true" type="tns:DeltaType" />
+      <xs:simpleType name="DeltaState">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Draft" />
+          <xs:enumeration value="Published" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="DeltaState" nillable="true" type="tns:DeltaState" />
+      <xs:complexType name="Associate">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
-              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Selected" type="xs:boolean" />
-              <xs:element minOccurs="0" name="LastChanged" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
-              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Hidden" type="xs:boolean" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Type" type="tns:UserType" />
+              <xs:element minOccurs="0" name="GroupIdx" type="xs:int" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SelectableMDOListItem" nillable="true" type="tns:SelectableMDOListItem" />
+      <xs:element name="Associate" nillable="true" type="tns:Associate" />
+      <xs:simpleType name="UserType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="InternalAssociate" />
+          <xs:enumeration value="ResourceAssociate" />
+          <xs:enumeration value="ExternalAssociate" />
+          <xs:enumeration value="AnonymousAssociate" />
+          <xs:enumeration value="SystemAssociate" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="UserType" nillable="true" type="tns:UserType" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -218,6 +252,91 @@ title: Services88.ConfigurationAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="SaveConfigurableScreenDelta">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConfigurableScreenDelta" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveConfigurableScreenDeltaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteConfigurableScreenDelta">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConfigurableScreenDeltaId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteConfigurableScreenDeltaResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultDiaryViewEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultDiaryViewEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:DiaryViewEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="DiaryViewEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DiaryViewId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="VisibleColumns" type="xs:short" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="AssocId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateList" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+              <xs:element minOccurs="0" name="TzLocationId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="DiaryViewEntity" nillable="true" type="tns:DiaryViewEntity" />
+      <xs:complexType name="ArrayOfSelectableMDOListItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectableMDOListItem" nillable="true" type="tns:SelectableMDOListItem" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfSelectableMDOListItem" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+      <xs:complexType name="SelectableMDOListItem">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
+              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Selected" type="xs:boolean" />
+              <xs:element minOccurs="0" name="LastChanged" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Hidden" type="xs:boolean" />
+              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SelectableMDOListItem" nillable="true" type="tns:SelectableMDOListItem" />
       <xs:element name="SaveDiaryViewEntity">
         <xs:complexType>
           <xs:sequence>
@@ -285,38 +404,6 @@ title: Services88.ConfigurationAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="SystemEventScope" nillable="true" type="tns:SystemEventScope" />
-      <xs:complexType name="Associate">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Type" type="tns:UserType" />
-              <xs:element minOccurs="0" name="GroupIdx" type="xs:int" />
-              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
-              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Associate" nillable="true" type="tns:Associate" />
-      <xs:simpleType name="UserType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="InternalAssociate" />
-          <xs:enumeration value="ResourceAssociate" />
-          <xs:enumeration value="ExternalAssociate" />
-          <xs:enumeration value="AnonymousAssociate" />
-          <xs:enumeration value="SystemAssociate" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="UserType" nillable="true" type="tns:UserType" />
       <xs:element name="SaveSystemEventEntity">
         <xs:complexType>
           <xs:sequence>
@@ -341,6 +428,140 @@ title: Services88.ConfigurationAgent WSDL
       <xs:element name="DeleteSystemEventEntityResponse">
         <xs:complexType>
           <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetConfigurableScreenDelta">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConfigurableScreenDeltaId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetConfigurableScreenDeltaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetScreenConfigurationDeltas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetScreenConfigurationDeltasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetScreenConfigurationDelta">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DeltaType" type="tns:DeltaType" />
+            <xs:element minOccurs="0" name="DeltaState" type="tns:DeltaState" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetScreenConfigurationDeltaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetConfigurableScreenDeltasByDelta">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConfigurableScreenDelta" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetConfigurableScreenDeltasByDeltaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfConfigurableScreenDelta">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ConfigurableScreenDelta" nillable="true" type="tns:ConfigurableScreenDelta" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfConfigurableScreenDelta" nillable="true" type="tns:ArrayOfConfigurableScreenDelta" />
+      <xs:element name="GetConfigurableScreenDeltasByQuery">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DeltaQuery" nillable="true" type="tns:DeltaQuery" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="DeltaQuery">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="RecipeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DeltaStates" nillable="true" type="tns:ArrayOfDeltaState" />
+              <xs:element minOccurs="0" name="DeltaTypes" nillable="true" type="tns:ArrayOfDeltaType" />
+              <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="DeltaQuery" nillable="true" type="tns:DeltaQuery" />
+      <xs:complexType name="ArrayOfDeltaState">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DeltaState" type="tns:DeltaState" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfDeltaState" nillable="true" type="tns:ArrayOfDeltaState" />
+      <xs:complexType name="ArrayOfDeltaType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DeltaType" type="tns:DeltaType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfDeltaType" nillable="true" type="tns:ArrayOfDeltaType" />
+      <xs:element name="GetConfigurableScreenDeltasByQueryResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildUdefDeltas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildUdefDeltasResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildWebpanelDeltas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RebuildWebpanelDeltasResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveAndPublish">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConfigurableScreenDelta" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveAndPublishResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConfigurableScreenDelta" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetApplicationConfiguration">
@@ -629,6 +850,34 @@ title: Services88.ConfigurationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetSystemEventEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SystemEventEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemEventEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SystemEventEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExistsSystemEvent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExistsSystemEventResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetWindowPosSize">
         <xs:complexType>
           <xs:sequence>
@@ -705,7 +954,7 @@ title: Services88.ConfigurationAgent WSDL
       <xs:element name="GetWindowPosSizeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="WindowPosSizeIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="WindowPosSizeIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -776,34 +1025,6 @@ title: Services88.ConfigurationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSystemEventEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SystemEventEntityId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSystemEventEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SystemEventEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ExistsSystemEvent">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ExistsSystemEventResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -855,6 +1076,57 @@ title: Services88.ConfigurationAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="CreateDefaultConfigurableScreenDeltaRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultConfigurableScreenDelta" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConfigurableScreenDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConfigurableScreenDeltaResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultConfigurableScreenDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConfigurableScreenDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveConfigurableScreenDeltaRequest">
+    <wsdl:part name="parameters" element="tns:SaveConfigurableScreenDelta" />
+  </wsdl:message>
+  <wsdl:message name="SaveConfigurableScreenDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveConfigurableScreenDeltaResponse">
+    <wsdl:part name="parameters" element="tns:SaveConfigurableScreenDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveConfigurableScreenDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConfigurableScreenDeltaRequest">
+    <wsdl:part name="parameters" element="tns:DeleteConfigurableScreenDelta" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConfigurableScreenDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConfigurableScreenDeltaResponse">
+    <wsdl:part name="parameters" element="tns:DeleteConfigurableScreenDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConfigurableScreenDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultDiaryViewEntityRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultDiaryViewEntity" />
   </wsdl:message>
@@ -952,6 +1224,142 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteSystemEventEntityResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteSystemEventEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltaRequest">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDelta" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltaResponse">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltasRequest">
+    <wsdl:part name="parameters" element="tns:GetScreenConfigurationDeltas" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltasRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltasResponse">
+    <wsdl:part name="parameters" element="tns:GetScreenConfigurationDeltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltasResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltaRequest">
+    <wsdl:part name="parameters" element="tns:GetScreenConfigurationDelta" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltaResponse">
+    <wsdl:part name="parameters" element="tns:GetScreenConfigurationDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetScreenConfigurationDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByDeltaRequest">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDeltasByDelta" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByDeltaRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByDeltaResponse">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDeltasByDeltaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByDeltaResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByQueryRequest">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDeltasByQuery" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByQueryRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByQueryResponse">
+    <wsdl:part name="parameters" element="tns:GetConfigurableScreenDeltasByQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConfigurableScreenDeltasByQueryResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildUdefDeltasRequest">
+    <wsdl:part name="parameters" element="tns:RebuildUdefDeltas" />
+  </wsdl:message>
+  <wsdl:message name="RebuildUdefDeltasRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildUdefDeltasResponse">
+    <wsdl:part name="parameters" element="tns:RebuildUdefDeltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="RebuildUdefDeltasResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildWebpanelDeltasRequest">
+    <wsdl:part name="parameters" element="tns:RebuildWebpanelDeltas" />
+  </wsdl:message>
+  <wsdl:message name="RebuildWebpanelDeltasRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RebuildWebpanelDeltasResponse">
+    <wsdl:part name="parameters" element="tns:RebuildWebpanelDeltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="RebuildWebpanelDeltasResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAndPublishRequest">
+    <wsdl:part name="parameters" element="tns:SaveAndPublish" />
+  </wsdl:message>
+  <wsdl:message name="SaveAndPublishRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAndPublishResponse">
+    <wsdl:part name="parameters" element="tns:SaveAndPublishResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAndPublishResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1297,6 +1705,40 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetSystemEventEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetSystemEventEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemEventEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemEventEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetSystemEventEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemEventEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSystemEventRequest">
+    <wsdl:part name="parameters" element="tns:ExistsSystemEvent" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSystemEventRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSystemEventResponse">
+    <wsdl:part name="parameters" element="tns:ExistsSystemEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSystemEventResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetWindowPosSizeRequest">
     <wsdl:part name="parameters" element="tns:GetWindowPosSize" />
   </wsdl:message>
@@ -1433,44 +1875,31 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSystemEventEntityRequest">
-    <wsdl:part name="parameters" element="tns:GetSystemEventEntity" />
-  </wsdl:message>
-  <wsdl:message name="GetSystemEventEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetSystemEventEntityResponse">
-    <wsdl:part name="parameters" element="tns:GetSystemEventEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetSystemEventEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ExistsSystemEventRequest">
-    <wsdl:part name="parameters" element="tns:ExistsSystemEvent" />
-  </wsdl:message>
-  <wsdl:message name="ExistsSystemEventRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ExistsSystemEventResponse">
-    <wsdl:part name="parameters" element="tns:ExistsSystemEventResponse" />
-  </wsdl:message>
-  <wsdl:message name="ExistsSystemEventResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="Configuration">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Configuration</summary>
     </wsdl:documentation>
+    <wsdl:operation name="CreateDefaultConfigurableScreenDelta">
+      <wsdl:documentation>
+        <summary>Loading default values into a new ConfigurableScreenDelta.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultConfigurableScreenDelta" name="CreateDefaultConfigurableScreenDeltaRequest" message="tns:CreateDefaultConfigurableScreenDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultConfigurableScreenDeltaResponse" name="CreateDefaultConfigurableScreenDeltaResponse" message="tns:CreateDefaultConfigurableScreenDeltaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveConfigurableScreenDelta">
+      <wsdl:documentation>
+        <summary>Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveConfigurableScreenDelta" name="SaveConfigurableScreenDeltaRequest" message="tns:SaveConfigurableScreenDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveConfigurableScreenDeltaResponse" name="SaveConfigurableScreenDeltaResponse" message="tns:SaveConfigurableScreenDeltaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConfigurableScreenDelta">
+      <wsdl:documentation>
+        <summary>Deletes the ConfigurableScreenDelta</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteConfigurableScreenDelta" name="DeleteConfigurableScreenDeltaRequest" message="tns:DeleteConfigurableScreenDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteConfigurableScreenDeltaResponse" name="DeleteConfigurableScreenDeltaResponse" message="tns:DeleteConfigurableScreenDeltaResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultDiaryViewEntity">
       <wsdl:documentation>
         <summary>Loading default values into a new DiaryViewEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -1512,6 +1941,62 @@ title: Services88.ConfigurationAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteSystemEventEntity" name="DeleteSystemEventEntityRequest" message="tns:DeleteSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteSystemEventEntityResponse" name="DeleteSystemEventEntityResponse" message="tns:DeleteSystemEventEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDelta">
+      <wsdl:documentation>
+        <summary>Gets a ConfigurableScreenDelta object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDelta" name="GetConfigurableScreenDeltaRequest" message="tns:GetConfigurableScreenDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltaResponse" name="GetConfigurableScreenDeltaResponse" message="tns:GetConfigurableScreenDeltaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenConfigurationDeltas">
+      <wsdl:documentation>
+        <summary>This method will return a json with all deltas for screen</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDeltas" name="GetScreenConfigurationDeltasRequest" message="tns:GetScreenConfigurationDeltasRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDeltasResponse" name="GetScreenConfigurationDeltasResponse" message="tns:GetScreenConfigurationDeltasResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenConfigurationDelta">
+      <wsdl:documentation>
+        <summary>This method will return a json with all deltas for screen</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDelta" name="GetScreenConfigurationDeltaRequest" message="tns:GetScreenConfigurationDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDeltaResponse" name="GetScreenConfigurationDeltaResponse" message="tns:GetScreenConfigurationDeltaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDeltasByDelta">
+      <wsdl:documentation>
+        <summary>This method will return a configurablescreen delta matching the properties received from the incomming delta</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByDelta" name="GetConfigurableScreenDeltasByDeltaRequest" message="tns:GetConfigurableScreenDeltasByDeltaRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByDeltaResponse" name="GetConfigurableScreenDeltasByDeltaResponse" message="tns:GetConfigurableScreenDeltasByDeltaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDeltasByQuery">
+      <wsdl:documentation>
+        <summary>This method will return a configurablescreen delta matching the properties received from the incomming query</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByQuery" name="GetConfigurableScreenDeltasByQueryRequest" message="tns:GetConfigurableScreenDeltasByQueryRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByQueryResponse" name="GetConfigurableScreenDeltasByQueryResponse" message="tns:GetConfigurableScreenDeltasByQueryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RebuildUdefDeltas">
+      <wsdl:documentation>
+        <summary>Flush and rebuild userdefined field deltas. Mostly used after publishing udefs or adding/editing Customer Service extrafields</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildUdefDeltas" name="RebuildUdefDeltasRequest" message="tns:RebuildUdefDeltasRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildUdefDeltasResponse" name="RebuildUdefDeltasResponse" message="tns:RebuildUdefDeltasResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RebuildWebpanelDeltas">
+      <wsdl:documentation>
+        <summary>Flush and rebuild webpanel deltas. Mostly used after adding/editing webpanels or change group visibility of them</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildWebpanelDeltas" name="RebuildWebpanelDeltasRequest" message="tns:RebuildWebpanelDeltasRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildWebpanelDeltasResponse" name="RebuildWebpanelDeltasResponse" message="tns:RebuildWebpanelDeltasResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAndPublish">
+      <wsdl:documentation>
+        <summary>Save the incomming draft and publish</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveAndPublish" name="SaveAndPublishRequest" message="tns:SaveAndPublishRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveAndPublishResponse" name="SaveAndPublishResponse" message="tns:SaveAndPublishResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetApplicationConfiguration">
       <wsdl:documentation>
@@ -1655,6 +2140,20 @@ title: Services88.ConfigurationAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntityResponse" name="GetDiaryViewEntityResponse" message="tns:GetDiaryViewEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetSystemEventEntity">
+      <wsdl:documentation>
+        <summary>Gets a SystemEventEntity object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntity" name="GetSystemEventEntityRequest" message="tns:GetSystemEventEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntityResponse" name="GetSystemEventEntityResponse" message="tns:GetSystemEventEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExistsSystemEvent">
+      <wsdl:documentation>
+        <summary>Is there a system event with the given key?</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEvent" name="ExistsSystemEventRequest" message="tns:ExistsSystemEventRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEventResponse" name="ExistsSystemEventResponse" message="tns:ExistsSystemEventResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetWindowPosSize">
       <wsdl:documentation>
         <summary>Gets a WindowPosSize object..</summary>
@@ -1711,23 +2210,57 @@ title: Services88.ConfigurationAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveWindowPosSizes" name="SaveWindowPosSizesRequest" message="tns:SaveWindowPosSizesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveWindowPosSizesResponse" name="SaveWindowPosSizesResponse" message="tns:SaveWindowPosSizesResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSystemEventEntity">
-      <wsdl:documentation>
-        <summary>Gets a SystemEventEntity object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntity" name="GetSystemEventEntityRequest" message="tns:GetSystemEventEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntityResponse" name="GetSystemEventEntityResponse" message="tns:GetSystemEventEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ExistsSystemEvent">
-      <wsdl:documentation>
-        <summary>Is there a system event with the given key?</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEvent" name="ExistsSystemEventRequest" message="tns:ExistsSystemEventRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEventResponse" name="ExistsSystemEventResponse" message="tns:ExistsSystemEventResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Configuration" type="tns:Configuration">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateDefaultConfigurableScreenDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultConfigurableScreenDelta" style="document" />
+      <wsdl:input name="CreateDefaultConfigurableScreenDeltaRequest">
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultConfigurableScreenDeltaResponse">
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultConfigurableScreenDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveConfigurableScreenDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveConfigurableScreenDelta" style="document" />
+      <wsdl:input name="SaveConfigurableScreenDeltaRequest">
+        <soap:header message="tns:SaveConfigurableScreenDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveConfigurableScreenDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveConfigurableScreenDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveConfigurableScreenDeltaResponse">
+        <soap:header message="tns:SaveConfigurableScreenDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveConfigurableScreenDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveConfigurableScreenDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveConfigurableScreenDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConfigurableScreenDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteConfigurableScreenDelta" style="document" />
+      <wsdl:input name="DeleteConfigurableScreenDeltaRequest">
+        <soap:header message="tns:DeleteConfigurableScreenDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteConfigurableScreenDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteConfigurableScreenDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteConfigurableScreenDeltaResponse">
+        <soap:header message="tns:DeleteConfigurableScreenDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteConfigurableScreenDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteConfigurableScreenDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteConfigurableScreenDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultDiaryViewEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultDiaryViewEntity" style="document" />
       <wsdl:input name="CreateDefaultDiaryViewEntityRequest">
@@ -1821,6 +2354,134 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:DeleteSystemEventEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteSystemEventEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteSystemEventEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDelta" style="document" />
+      <wsdl:input name="GetConfigurableScreenDeltaRequest">
+        <soap:header message="tns:GetConfigurableScreenDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetConfigurableScreenDeltaResponse">
+        <soap:header message="tns:GetConfigurableScreenDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenConfigurationDeltas">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDeltas" style="document" />
+      <wsdl:input name="GetScreenConfigurationDeltasRequest">
+        <soap:header message="tns:GetScreenConfigurationDeltasRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltasRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltasRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetScreenConfigurationDeltasResponse">
+        <soap:header message="tns:GetScreenConfigurationDeltasResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltasResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltasResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltasResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetScreenConfigurationDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetScreenConfigurationDelta" style="document" />
+      <wsdl:input name="GetScreenConfigurationDeltaRequest">
+        <soap:header message="tns:GetScreenConfigurationDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetScreenConfigurationDeltaResponse">
+        <soap:header message="tns:GetScreenConfigurationDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetScreenConfigurationDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDeltasByDelta">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByDelta" style="document" />
+      <wsdl:input name="GetConfigurableScreenDeltasByDeltaRequest">
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetConfigurableScreenDeltasByDeltaResponse">
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByDeltaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurableScreenDeltasByQuery">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetConfigurableScreenDeltasByQuery" style="document" />
+      <wsdl:input name="GetConfigurableScreenDeltasByQueryRequest">
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetConfigurableScreenDeltasByQueryResponse">
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetConfigurableScreenDeltasByQueryResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RebuildUdefDeltas">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildUdefDeltas" style="document" />
+      <wsdl:input name="RebuildUdefDeltasRequest">
+        <soap:header message="tns:RebuildUdefDeltasRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RebuildUdefDeltasRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RebuildUdefDeltasRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RebuildUdefDeltasResponse">
+        <soap:header message="tns:RebuildUdefDeltasResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RebuildUdefDeltasResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RebuildUdefDeltasResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RebuildUdefDeltasResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RebuildWebpanelDeltas">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/RebuildWebpanelDeltas" style="document" />
+      <wsdl:input name="RebuildWebpanelDeltasRequest">
+        <soap:header message="tns:RebuildWebpanelDeltasRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RebuildWebpanelDeltasRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RebuildWebpanelDeltasRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RebuildWebpanelDeltasResponse">
+        <soap:header message="tns:RebuildWebpanelDeltasResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RebuildWebpanelDeltasResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RebuildWebpanelDeltasResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RebuildWebpanelDeltasResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAndPublish">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveAndPublish" style="document" />
+      <wsdl:input name="SaveAndPublishRequest">
+        <soap:header message="tns:SaveAndPublishRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveAndPublishRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveAndPublishRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveAndPublishResponse">
+        <soap:header message="tns:SaveAndPublishResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveAndPublishResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveAndPublishResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveAndPublishResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2144,6 +2805,38 @@ title: Services88.ConfigurationAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetSystemEventEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntity" style="document" />
+      <wsdl:input name="GetSystemEventEntityRequest">
+        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSystemEventEntityResponse">
+        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExistsSystemEvent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEvent" style="document" />
+      <wsdl:input name="ExistsSystemEventRequest">
+        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExistsSystemEventResponse">
+        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetWindowPosSize">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetWindowPosSize" style="document" />
       <wsdl:input name="GetWindowPosSizeRequest">
@@ -2269,38 +2962,6 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:SaveWindowPosSizesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveWindowPosSizesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveWindowPosSizesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetSystemEventEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntity" style="document" />
-      <wsdl:input name="GetSystemEventEntityRequest">
-        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSystemEventEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetSystemEventEntityResponse">
-        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSystemEventEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ExistsSystemEvent">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/ExistsSystemEvent" style="document" />
-      <wsdl:input name="ExistsSystemEventRequest">
-        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:ExistsSystemEventRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="ExistsSystemEventResponse">
-        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:ExistsSystemEventResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

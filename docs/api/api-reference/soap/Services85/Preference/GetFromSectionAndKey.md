@@ -1,10 +1,10 @@
 ---
-uid: services85-preference-getfromsectionandkey
 title: Services85.PreferenceAgent.GetFromSectionAndKey SOAP
-Generated: true
+generated: 1
+uid: Services85-Preference-GetFromSectionAndKey
 ---
 
-# Services85 Preference GetFromSectionAndKey SOAP
+# Services85 Preference GetFromSectionAndKey
 
 SOAP request and response examples **Remote/Services85/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.GetFromSectionAndKey">SuperOffice.Services85.IPreferenceAgent.GetFromSectionAndKey</see> method.

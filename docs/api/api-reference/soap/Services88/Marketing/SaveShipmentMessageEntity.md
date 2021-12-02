@@ -1,10 +1,10 @@
 ---
-uid: services88-marketing-saveshipmentmessageentity
 title: Services88.MarketingAgent.SaveShipmentMessageEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Marketing-SaveShipmentMessageEntity
 ---
 
-# Services88 Marketing SaveShipmentMessageEntity SOAP
+# Services88 Marketing SaveShipmentMessageEntity
 
 SOAP request and response examples **Remote/Services88/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.SaveShipmentMessageEntity">SuperOffice.Services88.IMarketingAgent.SaveShipmentMessageEntity</see> method.
@@ -58,9 +58,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
      <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
      <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-     <Marketing:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:Registered>
+     <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
      <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-     <Marketing:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:Updated>
+     <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
      <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
      <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     </Marketing:ShipmentMessageEntity>
@@ -102,9 +102,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
     <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
     <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>

@@ -1,7 +1,7 @@
 ---
-uid: services88-user
 title: Services88.UserAgent SOAP
-Generated: true
+uid: Services88-User-soap
+generated: 1
 ---
 
 # Services88 User SOAP
@@ -22,6 +22,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [ChangePassword](ChangePassword.md)
 * [ChangePasswordFromName](ChangePasswordFromName.md)
 * [ChangeUserType](ChangeUserType.md)
+* [CheckAccessGatewayRegistration](CheckAccessGatewayRegistration.md)
 * [CreateDefaultRoleEntity](CreateDefaultRoleEntity.md)
 * [CreateDefaultRoleEntityFromType](CreateDefaultRoleEntityFromType.md)
 * [CreateDefaultServiceAuth](CreateDefaultServiceAuth.md)
@@ -32,6 +33,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [CreateDefaultUserFromUserTypeAndPersonId](CreateDefaultUserFromUserTypeAndPersonId.md)
 * [CreateExternalUser](CreateExternalUser.md)
 * [CreateUserGroup](CreateUserGroup.md)
+* [DecryptAndSaveExternalTokens](DecryptAndSaveExternalTokens.md)
 * [DeleteCredential](DeleteCredential.md)
 * [DeleteExternalUser](DeleteExternalUser.md)
 * [DeleteRole](DeleteRole.md)
@@ -46,6 +48,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [FindRolesWithFunctionalRights](FindRolesWithFunctionalRights.md)
 * [FindRolesWithoutFunctionalRights](FindRolesWithoutFunctionalRights.md)
 * [GenerateNewPasswordForExternalUser](GenerateNewPasswordForExternalUser.md)
+* [GetAccessGatewayInfo](GetAccessGatewayInfo.md)
 * [GetAccessToken](GetAccessToken.md)
 * [GetAllFunctionalRights](GetAllFunctionalRights.md)
 * [GetAllRoles](GetAllRoles.md)
@@ -56,7 +59,9 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [GetDataRight](GetDataRight.md)
 * [GetDataRights](GetDataRights.md)
 * [GetDefaultAssociateUserName](GetDefaultAssociateUserName.md)
+* [GetExternalTokens](GetExternalTokens.md)
 * [GetFunctionalRights](GetFunctionalRights.md)
+* [GetOrRegisterAccessGatewayInfo](GetOrRegisterAccessGatewayInfo.md)
 * [GetRole](GetRole.md)
 * [GetRoleEntity](GetRoleEntity.md)
 * [GetServiceAuth](GetServiceAuth.md)
@@ -79,12 +84,14 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [IsUserNameValid](IsUserNameValid.md)
 * [IsUserNameValidWithReason](IsUserNameValidWithReason.md)
 * [MakeRetired](MakeRetired.md)
+* [RegisterWithAccessGateway](RegisterWithAccessGateway.md)
 * [RemoveLicenses](RemoveLicenses.md)
 * [RemoveOwnerContact](RemoveOwnerContact.md)
 * [RemoveUntrustedCredentials](RemoveUntrustedCredentials.md)
 * [RemoveUntrustedCredentialsForAssociate](RemoveUntrustedCredentialsForAssociate.md)
 * [ResolveUserFromInfo](ResolveUserFromInfo.md)
 * [SaveCredential](SaveCredential.md)
+* [SaveExternalTokens](SaveExternalTokens.md)
 * [SaveRoleEntity](SaveRoleEntity.md)
 * [SaveServiceAuth](SaveServiceAuth.md)
 * [SaveUntrustedCredentials](SaveUntrustedCredentials.md)
@@ -100,3 +107,4 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
 * [ValidateUser](ValidateUser.md)
+

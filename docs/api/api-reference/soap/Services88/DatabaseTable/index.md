@@ -1,7 +1,7 @@
 ---
-uid: services88-databasetable
 title: Services88.DatabaseTableAgent SOAP
-Generated: true
+uid: Services88-DatabaseTable-soap
+generated: 1
 ---
 
 # Services88 DatabaseTable SOAP
@@ -24,3 +24,4 @@ Download [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md
 * [Truncate](Truncate.md)
 * [UpdateRow](UpdateRow.md)
 * [Upsert](Upsert.md)
+

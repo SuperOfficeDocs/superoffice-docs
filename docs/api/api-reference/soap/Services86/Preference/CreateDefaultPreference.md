@@ -1,10 +1,10 @@
 ---
-uid: services86-preference-createdefaultpreference
 title: Services86.PreferenceAgent.CreateDefaultPreference SOAP
-Generated: true
+generated: 1
+uid: Services86-Preference-CreateDefaultPreference
 ---
 
-# Services86 Preference CreateDefaultPreference SOAP
+# Services86 Preference CreateDefaultPreference
 
 SOAP request and response examples **Remote/Services86/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.CreateDefaultPreference">SuperOffice.Services86.IPreferenceAgent.CreateDefaultPreference</see> method.

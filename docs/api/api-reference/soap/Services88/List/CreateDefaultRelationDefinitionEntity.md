@@ -1,10 +1,10 @@
 ---
-uid: services88-list-createdefaultrelationdefinitionentity
 title: Services88.ListAgent.CreateDefaultRelationDefinitionEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-CreateDefaultRelationDefinitionEntity
 ---
 
-# Services88 List CreateDefaultRelationDefinitionEntity SOAP
+# Services88 List CreateDefaultRelationDefinitionEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultRelationDefinitionEntity">SuperOffice.Services88.IListAgent.CreateDefaultRelationDefinitionEntity</see> method.

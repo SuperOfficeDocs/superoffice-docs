@@ -1,7 +1,7 @@
 ---
-uid: services88-crmscript
 title: Services88.CRMScriptAgent SOAP
-Generated: true
+uid: Services88-CRMScript-soap
+generated: 1
 ---
 
 # Services88 CRMScript SOAP
@@ -23,7 +23,10 @@ Download [WSDL file for Services88/CRMScript](../Services88-CRMScript.md) if you
 * [DeleteTriggerScriptByUniqueId](DeleteTriggerScriptByUniqueId.md)
 * [DeleteTriggerScriptEntity](DeleteTriggerScriptEntity.md)
 * [ExecuteScript](ExecuteScript.md)
+* [ExecuteScriptAsEvent](ExecuteScriptAsEvent.md)
+* [ExecuteScriptAsEventByUniqueId](ExecuteScriptAsEventByUniqueId.md)
 * [ExecuteScriptByIncludeId](ExecuteScriptByIncludeId.md)
+* [ExecuteScriptByUniqueId](ExecuteScriptByUniqueId.md)
 * [GetCRMScriptByUniqueIdentifier](GetCRMScriptByUniqueIdentifier.md)
 * [GetCRMScriptEntity](GetCRMScriptEntity.md)
 * [GetTriggerScriptByUniqueId](GetTriggerScriptByUniqueId.md)
@@ -34,5 +37,7 @@ Download [WSDL file for Services88/CRMScript](../Services88-CRMScript.md) if you
 * [SaveTriggerScriptEntity](SaveTriggerScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
+* [ValidateScriptByUniqueId](ValidateScriptByUniqueId.md)
 * [ValidateTriggerScript](ValidateTriggerScript.md)
 * [ValidateTriggerScriptByUniqueId](ValidateTriggerScriptByUniqueId.md)
+

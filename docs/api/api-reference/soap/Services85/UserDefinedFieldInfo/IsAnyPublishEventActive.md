@@ -1,10 +1,10 @@
 ---
-uid: services85-userdefinedfieldinfo-isanypublisheventactive
 title: Services85.UserDefinedFieldInfoAgent.IsAnyPublishEventActive SOAP
-Generated: true
+generated: 1
+uid: Services85-UserDefinedFieldInfo-IsAnyPublishEventActive
 ---
 
-# Services85 UserDefinedFieldInfo IsAnyPublishEventActive SOAP
+# Services85 UserDefinedFieldInfo IsAnyPublishEventActive
 
 SOAP request and response examples **Remote/Services85/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive">SuperOffice.Services85.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive</see> method.

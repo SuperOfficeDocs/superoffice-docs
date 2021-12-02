@@ -1,10 +1,10 @@
 ---
-uid: services87-list-setrankonprojectactivity
 title: Services87.ListAgent.SetRankOnProjectActivity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SetRankOnProjectActivity
 ---
 
-# Services87 List SetRankOnProjectActivity SOAP
+# Services87 List SetRankOnProjectActivity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SetRankOnProjectActivity">SuperOffice.Services87.IListAgent.SetRankOnProjectActivity</see> method.

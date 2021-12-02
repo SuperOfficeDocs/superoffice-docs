@@ -1,7 +1,7 @@
 ---
-uid: services86-crmscript
 title: Services86.CRMScriptAgent SOAP
-Generated: true
+uid: Services86-CRMScript-soap
+generated: 1
 ---
 
 # Services86 CRMScript SOAP
@@ -27,3 +27,4 @@ Download [WSDL file for Services86/CRMScript](../Services86-CRMScript.md) if you
 * [SaveCRMScriptEntity](SaveCRMScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services84-blob-getblobstream
 title: Services84.BLOBAgent.GetBlobStream SOAP
-Generated: true
+generated: 1
+uid: Services84-BLOB-GetBlobStream
 ---
 
-# Services84 BLOB GetBlobStream SOAP
+# Services84 BLOB GetBlobStream
 
 SOAP request and response examples **Remote/Services84/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.GetBlobStream">SuperOffice.Services84.IBLOBAgent.GetBlobStream</see> method.

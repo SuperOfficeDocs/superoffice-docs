@@ -1,10 +1,10 @@
 ---
-uid: services87-bulkupdate-executebyentityids
 title: Services87.BulkUpdateAgent.ExecuteByEntityIds SOAP
-Generated: true
+generated: 1
+uid: Services87-BulkUpdate-ExecuteByEntityIds
 ---
 
-# Services87 BulkUpdate ExecuteByEntityIds SOAP
+# Services87 BulkUpdate ExecuteByEntityIds
 
 SOAP request and response examples **Remote/Services87/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBulkUpdateAgent.ExecuteByEntityIds">SuperOffice.Services87.IBulkUpdateAgent.ExecuteByEntityIds</see> method.

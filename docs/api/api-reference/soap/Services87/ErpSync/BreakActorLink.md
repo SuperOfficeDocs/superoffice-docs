@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-breakactorlink
 title: Services87.ErpSyncAgent.BreakActorLink SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-BreakActorLink
 ---
 
-# Services87 ErpSync BreakActorLink SOAP
+# Services87 ErpSync BreakActorLink
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.BreakActorLink">SuperOffice.Services87.IErpSyncAgent.BreakActorLink</see> method.

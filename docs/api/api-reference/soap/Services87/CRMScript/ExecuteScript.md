@@ -1,10 +1,10 @@
 ---
-uid: services87-crmscript-executescript
 title: Services87.CRMScriptAgent.ExecuteScript SOAP
-Generated: true
+generated: 1
+uid: Services87-CRMScript-ExecuteScript
 ---
 
-# Services87 CRMScript ExecuteScript SOAP
+# Services87 CRMScript ExecuteScript
 
 SOAP request and response examples **Remote/Services87/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.ExecuteScript">SuperOffice.Services87.ICRMScriptAgent.ExecuteScript</see> method.

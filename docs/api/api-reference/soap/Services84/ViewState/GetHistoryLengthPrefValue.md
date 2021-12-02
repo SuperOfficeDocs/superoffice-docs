@@ -1,10 +1,10 @@
 ---
-uid: services84-viewstate-gethistorylengthprefvalue
 title: Services84.ViewStateAgent.GetHistoryLengthPrefValue SOAP
-Generated: true
+generated: 1
+uid: Services84-ViewState-GetHistoryLengthPrefValue
 ---
 
-# Services84 ViewState GetHistoryLengthPrefValue SOAP
+# Services84 ViewState GetHistoryLengthPrefValue
 
 SOAP request and response examples **Remote/Services84/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IViewStateAgent.GetHistoryLengthPrefValue">SuperOffice.Services84.IViewStateAgent.GetHistoryLengthPrefValue</see> method.

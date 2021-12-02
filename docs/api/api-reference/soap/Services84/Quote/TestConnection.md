@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-testconnection
 title: Services84.QuoteAgent.TestConnection SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-TestConnection
 ---
 
-# Services84 Quote TestConnection SOAP
+# Services84 Quote TestConnection
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.TestConnection">SuperOffice.Services84.IQuoteAgent.TestConnection</see> method.

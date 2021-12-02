@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-saveblobentity
 title: Services86.BLOBAgent.SaveBlobEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SaveBlobEntity
 ---
 
-# Services86 BLOB SaveBlobEntity SOAP
+# Services86 BLOB SaveBlobEntity
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SaveBlobEntity">SuperOffice.Services86.IBLOBAgent.SaveBlobEntity</see> method.
@@ -50,8 +50,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
      <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
      <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-     <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</BLOB:CreatedDate>
-     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</BLOB:UpdatedDate>
+     <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</BLOB:CreatedDate>
+     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</BLOB:UpdatedDate>
      <BLOB:CreatedBy xsi:type="BLOB:Associate">
       <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
       <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -112,8 +112,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
     <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
     <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-    <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</BLOB:CreatedDate>
-    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:03Z</BLOB:UpdatedDate>
+    <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</BLOB:CreatedDate>
+    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:47Z</BLOB:UpdatedDate>
     <BLOB:CreatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
      <BLOB:Name xsi:type="xsd:string"></BLOB:Name>

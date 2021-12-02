@@ -1,10 +1,10 @@
 ---
-uid: services84-batch-startbatchjob
 title: Services84.BatchAgent.StartBatchJob SOAP
-Generated: true
+generated: 1
+uid: Services84-Batch-StartBatchJob
 ---
 
-# Services84 Batch StartBatchJob SOAP
+# Services84 Batch StartBatchJob
 
 SOAP request and response examples **Remote/Services84/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBatchAgent.StartBatchJob">SuperOffice.Services84.IBatchAgent.StartBatchJob</see> method.
@@ -56,8 +56,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:20Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:35:20Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>

@@ -1,10 +1,10 @@
 ---
-uid: services84-sentry-getnewtableright
 title: Services84.SentryAgent.GetNewTableRight SOAP
-Generated: true
+generated: 1
+uid: Services84-Sentry-GetNewTableRight
 ---
 
-# Services84 Sentry GetNewTableRight SOAP
+# Services84 Sentry GetNewTableRight
 
 SOAP request and response examples **Remote/Services84/Sentry.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISentryAgent.GetNewTableRight">SuperOffice.Services84.ISentryAgent.GetNewTableRight</see> method.

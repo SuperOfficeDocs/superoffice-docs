@@ -1,10 +1,10 @@
 ---
-uid: services88-list-setticketcategoriesforusergroup
 title: Services88.ListAgent.SetTicketCategoriesForUserGroup SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SetTicketCategoriesForUserGroup
 ---
 
-# Services88 List SetTicketCategoriesForUserGroup SOAP
+# Services88 List SetTicketCategoriesForUserGroup
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetTicketCategoriesForUserGroup">SuperOffice.Services88.IListAgent.SetTicketCategoriesForUserGroup</see> method.

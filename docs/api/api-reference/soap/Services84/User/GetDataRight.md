@@ -1,10 +1,10 @@
 ---
-uid: services84-user-getdataright
 title: Services84.UserAgent.GetDataRight SOAP
-Generated: true
+generated: 1
+uid: Services84-User-GetDataRight
 ---
 
-# Services84 User GetDataRight SOAP
+# Services84 User GetDataRight
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetDataRight">SuperOffice.Services84.IUserAgent.GetDataRight</see> method.

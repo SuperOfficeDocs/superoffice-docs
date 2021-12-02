@@ -1,10 +1,10 @@
 ---
-uid: services88-contact-setduplicaterulesstatus
 title: Services88.ContactAgent.SetDuplicateRulesStatus SOAP
-Generated: true
+generated: 1
+uid: Services88-Contact-SetDuplicateRulesStatus
 ---
 
-# Services88 Contact SetDuplicateRulesStatus SOAP
+# Services88 Contact SetDuplicateRulesStatus
 
 SOAP request and response examples **Remote/Services88/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.SetDuplicateRulesStatus">SuperOffice.Services88.IContactAgent.SetDuplicateRulesStatus</see> method.

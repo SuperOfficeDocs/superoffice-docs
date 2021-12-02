@@ -1,10 +1,10 @@
 ---
-uid: services87-selection-exportselectionmembers
 title: Services87.SelectionAgent.ExportSelectionMembers SOAP
-Generated: true
+generated: 1
+uid: Services87-Selection-ExportSelectionMembers
 ---
 
-# Services87 Selection ExportSelectionMembers SOAP
+# Services87 Selection ExportSelectionMembers
 
 SOAP request and response examples **Remote/Services87/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.ExportSelectionMembers">SuperOffice.Services87.ISelectionAgent.ExportSelectionMembers</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-createticketfrommaildata
 title: Services87.CustomerServiceAgent.CreateTicketFromMailData SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-CreateTicketFromMailData
 ---
 
-# Services87 CustomerService CreateTicketFromMailData SOAP
+# Services87 CustomerService CreateTicketFromMailData
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.CreateTicketFromMailData">SuperOffice.Services87.ICustomerServiceAgent.CreateTicketFromMailData</see> method.

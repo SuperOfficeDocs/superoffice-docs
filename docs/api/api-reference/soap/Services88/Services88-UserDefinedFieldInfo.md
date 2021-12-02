@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-UserDefinedFieldInfo
 title: Services88.UserDefinedFieldInfoAgent WSDL
 ---
 
@@ -378,6 +378,251 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetCustomFieldInfoList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="IncludeStandard" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomFieldInfoListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfFieldInfoBase" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfFieldInfoBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldInfoBase" nillable="true" type="tns:FieldInfoBase" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfFieldInfoBase" nillable="true" type="tns:ArrayOfFieldInfoBase" />
+      <xs:complexType name="FieldInfoBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FieldType" type="tns:CustomFieldType" />
+          <xs:element minOccurs="0" name="FieldName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ShortLabel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HideLabel" type="xs:boolean" />
+          <xs:element minOccurs="0" name="HideField" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsIndexed" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsMandatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsReadOnly" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsExternal" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Rank" type="xs:int" />
+          <xs:element minOccurs="0" name="TemplateVariableName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FieldInfoBase" nillable="true" type="tns:FieldInfoBase" />
+      <xs:simpleType name="CustomFieldType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Integer" />
+          <xs:enumeration value="ShortText" />
+          <xs:enumeration value="LongText" />
+          <xs:enumeration value="Date" />
+          <xs:enumeration value="Blob" />
+          <xs:enumeration value="Checkbox" />
+          <xs:enumeration value="MdoList" />
+          <xs:enumeration value="Decimal" />
+          <xs:enumeration value="DateTime" />
+          <xs:enumeration value="Time" />
+          <xs:enumeration value="TimeSpan" />
+          <xs:enumeration value="RelationTo" />
+          <xs:enumeration value="Attachment" />
+          <xs:enumeration value="DynamicLink" />
+          <xs:enumeration value="ListText" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="CustomFieldType" nillable="true" type="tns:CustomFieldType" />
+      <xs:complexType name="FieldInfoAttachment">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoAttachment" nillable="true" type="tns:FieldInfoAttachment" />
+      <xs:complexType name="FieldInfoBlob">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence />
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoBlob" nillable="true" type="tns:FieldInfoBlob" />
+      <xs:complexType name="FieldInfoBool">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoBool" nillable="true" type="tns:FieldInfoBool" />
+      <xs:complexType name="FieldInfoDate">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoDate" nillable="true" type="tns:FieldInfoDate" />
+      <xs:complexType name="FieldInfoDateTime">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoDateTime" nillable="true" type="tns:FieldInfoDateTime" />
+      <xs:complexType name="FieldInfoDecimal">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:double" />
+              <xs:element minOccurs="0" name="Precision" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoDecimal" nillable="true" type="tns:FieldInfoDecimal" />
+      <xs:complexType name="FieldInfoDynamicLink">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LinkName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LinkValue" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoDynamicLink" nillable="true" type="tns:FieldInfoDynamicLink" />
+      <xs:complexType name="FieldInfoInt">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoInt" nillable="true" type="tns:FieldInfoInt" />
+      <xs:complexType name="FieldInfoMdoList">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
+              <xs:element minOccurs="0" name="MdoListName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoMdoList" nillable="true" type="tns:FieldInfoMdoList" />
+      <xs:complexType name="FieldInfoListText">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TextLength" type="xs:short" />
+              <xs:element minOccurs="0" name="Choices" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoListText" nillable="true" type="tns:FieldInfoListText" />
+      <xs:complexType name="FieldInfoLongText">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsHtml" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UseTextArea" type="xs:boolean" />
+              <xs:element minOccurs="0" name="NumRows" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoLongText" nillable="true" type="tns:FieldInfoLongText" />
+      <xs:complexType name="FieldInfoRelation">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
+              <xs:element minOccurs="0" name="TargetTable" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TargetLabel" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UseDropDown" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MdoListName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoRelation" nillable="true" type="tns:FieldInfoRelation" />
+      <xs:complexType name="FieldInfoShortText">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TextLength" type="xs:short" />
+              <xs:element minOccurs="0" name="FormatMask" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsHtml" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoShortText" nillable="true" type="tns:FieldInfoShortText" />
+      <xs:complexType name="FieldInfoTime">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoTime" nillable="true" type="tns:FieldInfoTime" />
+      <xs:complexType name="FieldInfoTimeSpan">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:FieldInfoBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
+              <xs:element minOccurs="0" name="UseDays" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UseHours" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UseMinutes" type="xs:boolean" />
+              <xs:element minOccurs="0" name="MaxNum" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldInfoTimeSpan" nillable="true" type="tns:FieldInfoTimeSpan" />
+      <xs:element name="GetCustomFieldInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="FieldName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomFieldInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:FieldInfoBase" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetUserDefinedFieldInfo">
         <xs:complexType>
           <xs:sequence>
@@ -489,7 +734,7 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <xs:element name="GetUserDefinedFieldFromIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -503,7 +748,7 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <xs:element name="GetUserDefinedFieldFromProgIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProgIds" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProgIds" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="OwnerType" type="tns:UDefType" />
           </xs:sequence>
         </xs:complexType>
@@ -694,7 +939,7 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <xs:element name="GetChangedPageOneFieldsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q3:ArrayOfboolean" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q4:ArrayOfboolean" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -744,7 +989,7 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="OwnerType" type="tns:UDefType" />
-            <xs:element minOccurs="0" name="RankedFieldsIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RankedFieldsIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -763,250 +1008,6 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <xs:element name="SetPublishStartSystemEventResponse">
         <xs:complexType>
           <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCustomFieldInfoList">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="IncludeStandard" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCustomFieldInfoListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfFieldInfoBase" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfFieldInfoBase">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldInfoBase" nillable="true" type="tns:FieldInfoBase" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfFieldInfoBase" nillable="true" type="tns:ArrayOfFieldInfoBase" />
-      <xs:complexType name="FieldInfoBase">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="FieldType" type="tns:CustomFieldType" />
-          <xs:element minOccurs="0" name="FieldName" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ShortLabel" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="HideLabel" type="xs:boolean" />
-          <xs:element minOccurs="0" name="HideField" type="xs:boolean" />
-          <xs:element minOccurs="0" name="IsIndexed" type="xs:boolean" />
-          <xs:element minOccurs="0" name="IsMandatory" type="xs:boolean" />
-          <xs:element minOccurs="0" name="IsReadOnly" type="xs:boolean" />
-          <xs:element minOccurs="0" name="IsExternal" type="xs:boolean" />
-          <xs:element minOccurs="0" name="Rank" type="xs:int" />
-          <xs:element minOccurs="0" name="TemplateVariableName" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="FieldInfoBase" nillable="true" type="tns:FieldInfoBase" />
-      <xs:simpleType name="CustomFieldType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="Integer" />
-          <xs:enumeration value="ShortText" />
-          <xs:enumeration value="LongText" />
-          <xs:enumeration value="Date" />
-          <xs:enumeration value="Blob" />
-          <xs:enumeration value="Checkbox" />
-          <xs:enumeration value="MdoList" />
-          <xs:enumeration value="Decimal" />
-          <xs:enumeration value="DateTime" />
-          <xs:enumeration value="Time" />
-          <xs:enumeration value="TimeSpan" />
-          <xs:enumeration value="RelationTo" />
-          <xs:enumeration value="Attachment" />
-          <xs:enumeration value="DynamicLink" />
-          <xs:enumeration value="ListText" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="CustomFieldType" nillable="true" type="tns:CustomFieldType" />
-      <xs:complexType name="FieldInfoBool">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoBool" nillable="true" type="tns:FieldInfoBool" />
-      <xs:complexType name="FieldInfoInt">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoInt" nillable="true" type="tns:FieldInfoInt" />
-      <xs:complexType name="FieldInfoDecimal">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:double" />
-              <xs:element minOccurs="0" name="Precision" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoDecimal" nillable="true" type="tns:FieldInfoDecimal" />
-      <xs:complexType name="FieldInfoShortText">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TextLength" type="xs:short" />
-              <xs:element minOccurs="0" name="FormatMask" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="IsHtml" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoShortText" nillable="true" type="tns:FieldInfoShortText" />
-      <xs:complexType name="FieldInfoLongText">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="IsHtml" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UseTextArea" type="xs:boolean" />
-              <xs:element minOccurs="0" name="NumRows" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoLongText" nillable="true" type="tns:FieldInfoLongText" />
-      <xs:complexType name="FieldInfoListText">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TextLength" type="xs:short" />
-              <xs:element minOccurs="0" name="Choices" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoListText" nillable="true" type="tns:FieldInfoListText" />
-      <xs:complexType name="FieldInfoDate">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoDate" nillable="true" type="tns:FieldInfoDate" />
-      <xs:complexType name="FieldInfoDateTime">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoDateTime" nillable="true" type="tns:FieldInfoDateTime" />
-      <xs:complexType name="FieldInfoTime">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="IsDefaultNow" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoTime" nillable="true" type="tns:FieldInfoTime" />
-      <xs:complexType name="FieldInfoBlob">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence />
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoBlob" nillable="true" type="tns:FieldInfoBlob" />
-      <xs:complexType name="FieldInfoTimeSpan">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
-              <xs:element minOccurs="0" name="UseDays" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UseHours" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UseMinutes" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoTimeSpan" nillable="true" type="tns:FieldInfoTimeSpan" />
-      <xs:complexType name="FieldInfoRelation">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
-              <xs:element minOccurs="0" name="TargetTable" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TargetLabel" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UseDropDown" type="xs:boolean" />
-              <xs:element minOccurs="0" name="MdoListName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoRelation" nillable="true" type="tns:FieldInfoRelation" />
-      <xs:complexType name="FieldInfoAttachment">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoAttachment" nillable="true" type="tns:FieldInfoAttachment" />
-      <xs:complexType name="FieldInfoDynamicLink">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="LinkName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LinkValue" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoDynamicLink" nillable="true" type="tns:FieldInfoDynamicLink" />
-      <xs:complexType name="FieldInfoMdoList">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:FieldInfoBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultValue" type="xs:int" />
-              <xs:element minOccurs="0" name="MdoListName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="FieldInfoMdoList" nillable="true" type="tns:FieldInfoMdoList" />
-      <xs:element name="GetCustomFieldInfo">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="FieldName" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCustomFieldInfoResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:FieldInfoBase" />
-          </xs:sequence>
         </xs:complexType>
       </xs:element>
     </xs:schema>
@@ -1052,18 +1053,18 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <xs:attribute name="Ref" type="xs:IDREF" />
     </xs:schema>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-      <xs:complexType name="ArrayOfint">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
       <xs:complexType name="ArrayOfstring">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
+      <xs:complexType name="ArrayOfint">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
       <xs:complexType name="ArrayOfboolean">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="boolean" type="xs:boolean" />
@@ -1118,6 +1119,40 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteUserDefinedFieldInfoResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteUserDefinedFieldInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoListRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoList" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoListRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoListResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoListResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomFieldInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomFieldInfoResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1582,40 +1617,6 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoListRequest">
-    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoList" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoListRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoListResponse">
-    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoListResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoListResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoRequest">
-    <wsdl:part name="parameters" element="tns:GetCustomFieldInfo" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoResponse">
-    <wsdl:part name="parameters" element="tns:GetCustomFieldInfoResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomFieldInfoResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="UserDefinedFieldInfo">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for UserDefinedFieldInfo</summary>
@@ -1640,6 +1641,20 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo" name="DeleteUserDefinedFieldInfoRequest" message="tns:DeleteUserDefinedFieldInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/DeleteUserDefinedFieldInfoResponse" name="DeleteUserDefinedFieldInfoResponse" message="tns:DeleteUserDefinedFieldInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomFieldInfoList">
+      <wsdl:documentation>
+        <summary>Return information about all the custom fields (user-defined + extra) on a particular table</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoList" name="GetCustomFieldInfoListRequest" message="tns:GetCustomFieldInfoListRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoListResponse" name="GetCustomFieldInfoListResponse" message="tns:GetCustomFieldInfoListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomFieldInfo">
+      <wsdl:documentation>
+        <summary>Return information about a particular custom field (user-defined + extra) on a particular table</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfo" name="GetCustomFieldInfoRequest" message="tns:GetCustomFieldInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoResponse" name="GetCustomFieldInfoResponse" message="tns:GetCustomFieldInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserDefinedFieldInfo">
       <wsdl:documentation>
@@ -1830,20 +1845,6 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/SetPublishStartSystemEvent" name="SetPublishStartSystemEventRequest" message="tns:SetPublishStartSystemEventRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/SetPublishStartSystemEventResponse" name="SetPublishStartSystemEventResponse" message="tns:SetPublishStartSystemEventResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetCustomFieldInfoList">
-      <wsdl:documentation>
-        <summary>Return information about all the custom fields (user-defined + extra) on a particular table</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoList" name="GetCustomFieldInfoListRequest" message="tns:GetCustomFieldInfoListRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoListResponse" name="GetCustomFieldInfoListResponse" message="tns:GetCustomFieldInfoListResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomFieldInfo">
-      <wsdl:documentation>
-        <summary>Return information about a particular custom field (user-defined + extra) on a particular table</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfo" name="GetCustomFieldInfoRequest" message="tns:GetCustomFieldInfoRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoResponse" name="GetCustomFieldInfoResponse" message="tns:GetCustomFieldInfoResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_UserDefinedFieldInfo" type="tns:UserDefinedFieldInfo">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -1892,6 +1893,38 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
         <soap:header message="tns:DeleteUserDefinedFieldInfoResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteUserDefinedFieldInfoResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteUserDefinedFieldInfoResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomFieldInfoList">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoList" style="document" />
+      <wsdl:input name="GetCustomFieldInfoListRequest">
+        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCustomFieldInfoListResponse">
+        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomFieldInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfo" style="document" />
+      <wsdl:input name="GetCustomFieldInfoRequest">
+        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCustomFieldInfoResponse">
+        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2324,38 +2357,6 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
         <soap:header message="tns:SetPublishStartSystemEventResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetPublishStartSystemEventResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetPublishStartSystemEventResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomFieldInfoList">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfoList" style="document" />
-      <wsdl:input name="GetCustomFieldInfoListRequest">
-        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoListRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCustomFieldInfoListResponse">
-        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoListResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomFieldInfo">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/UserDefinedFieldInfo/GetCustomFieldInfo" style="document" />
-      <wsdl:input name="GetCustomFieldInfoRequest">
-        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCustomFieldInfoResponse">
-        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCustomFieldInfoResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

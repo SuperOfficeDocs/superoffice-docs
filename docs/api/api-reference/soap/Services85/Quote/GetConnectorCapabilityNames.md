@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-getconnectorcapabilitynames
 title: Services85.QuoteAgent.GetConnectorCapabilityNames SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-GetConnectorCapabilityNames
 ---
 
-# Services85 Quote GetConnectorCapabilityNames SOAP
+# Services85 Quote GetConnectorCapabilityNames
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetConnectorCapabilityNames">SuperOffice.Services85.IQuoteAgent.GetConnectorCapabilityNames</see> method.

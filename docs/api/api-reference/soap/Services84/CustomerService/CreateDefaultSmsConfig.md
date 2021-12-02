@@ -1,10 +1,10 @@
 ---
-uid: services84-customerservice-createdefaultsmsconfig
 title: Services84.CustomerServiceAgent.CreateDefaultSmsConfig SOAP
-Generated: true
+generated: 1
+uid: Services84-CustomerService-CreateDefaultSmsConfig
 ---
 
-# Services84 CustomerService CreateDefaultSmsConfig SOAP
+# Services84 CustomerService CreateDefaultSmsConfig
 
 SOAP request and response examples **Remote/Services84/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.CreateDefaultSmsConfig">SuperOffice.Services84.ICustomerServiceAgent.CreateDefaultSmsConfig</see> method.

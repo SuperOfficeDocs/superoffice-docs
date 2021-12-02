@@ -1,17 +1,17 @@
 ---
-uid: services88-crmscript-executescript
 title: Services88.CRMScriptAgent.ExecuteScript SOAP
-Generated: true
+generated: 1
+uid: Services88-CRMScript-ExecuteScript
 ---
 
-# Services88 CRMScript ExecuteScript SOAP
+# Services88 CRMScript ExecuteScript
 
 SOAP request and response examples **Remote/Services88/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.ExecuteScript">SuperOffice.Services88.ICRMScriptAgent.ExecuteScript</see> method.
 
 ## ExecuteScript
 
-Execute a CRMScript with parameters
+Execute a CRMScript with parameters, returning printed output value.
 <para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptId:** The id of the CRMScript to execute

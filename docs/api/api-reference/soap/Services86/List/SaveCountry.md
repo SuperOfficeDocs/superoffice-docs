@@ -1,10 +1,10 @@
 ---
-uid: services86-list-savecountry
 title: Services86.ListAgent.SaveCountry SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SaveCountry
 ---
 
-# Services86 List SaveCountry SOAP
+# Services86 List SaveCountry
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveCountry">SuperOffice.Services86.IListAgent.SaveCountry</see> method.

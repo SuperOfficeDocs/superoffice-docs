@@ -1,10 +1,10 @@
 ---
-uid: services88-list-globalchangeticketstatus
 title: Services88.ListAgent.GlobalChangeTicketStatus SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GlobalChangeTicketStatus
 ---
 
-# Services88 List GlobalChangeTicketStatus SOAP
+# Services88 List GlobalChangeTicketStatus
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GlobalChangeTicketStatus">SuperOffice.Services88.IListAgent.GlobalChangeTicketStatus</see> method.

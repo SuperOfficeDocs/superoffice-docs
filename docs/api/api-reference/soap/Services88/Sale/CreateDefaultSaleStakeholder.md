@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-createdefaultsalestakeholder
 title: Services88.SaleAgent.CreateDefaultSaleStakeholder SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-CreateDefaultSaleStakeholder
 ---
 
-# Services88 Sale CreateDefaultSaleStakeholder SOAP
+# Services88 Sale CreateDefaultSaleStakeholder
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.CreateDefaultSaleStakeholder">SuperOffice.Services88.ISaleAgent.CreateDefaultSaleStakeholder</see> method.

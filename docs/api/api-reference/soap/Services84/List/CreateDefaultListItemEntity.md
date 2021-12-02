@@ -1,10 +1,10 @@
 ---
-uid: services84-list-createdefaultlistitementity
 title: Services84.ListAgent.CreateDefaultListItemEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-CreateDefaultListItemEntity
 ---
 
-# Services84 List CreateDefaultListItemEntity SOAP
+# Services84 List CreateDefaultListItemEntity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultListItemEntity">SuperOffice.Services84.IListAgent.CreateDefaultListItemEntity</see> method.

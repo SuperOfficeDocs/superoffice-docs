@@ -1,10 +1,10 @@
 ---
-uid: services85-report-createdefaultreportlabellayoutentity
 title: Services85.ReportAgent.CreateDefaultReportLabelLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Report-CreateDefaultReportLabelLayoutEntity
 ---
 
-# Services85 Report CreateDefaultReportLabelLayoutEntity SOAP
+# Services85 Report CreateDefaultReportLabelLayoutEntity
 
 SOAP request and response examples **Remote/Services85/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IReportAgent.CreateDefaultReportLabelLayoutEntity">SuperOffice.Services85.IReportAgent.CreateDefaultReportLabelLayoutEntity</see> method.

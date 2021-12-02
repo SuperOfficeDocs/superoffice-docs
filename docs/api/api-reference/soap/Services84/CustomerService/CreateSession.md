@@ -1,10 +1,10 @@
 ---
-uid: services84-customerservice-createsession
 title: Services84.CustomerServiceAgent.CreateSession SOAP
-Generated: true
+generated: 1
+uid: Services84-CustomerService-CreateSession
 ---
 
-# Services84 CustomerService CreateSession SOAP
+# Services84 CustomerService CreateSession
 
 SOAP request and response examples **Remote/Services84/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.CreateSession">SuperOffice.Services84.ICustomerServiceAgent.CreateSession</see> method.

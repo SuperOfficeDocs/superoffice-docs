@@ -1,10 +1,10 @@
 ---
-uid: services87-contact-deletecontactentity
 title: Services87.ContactAgent.DeleteContactEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Contact-DeleteContactEntity
 ---
 
-# Services87 Contact DeleteContactEntity SOAP
+# Services87 Contact DeleteContactEntity
 
 SOAP request and response examples **Remote/Services87/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.DeleteContactEntity">SuperOffice.Services87.IContactAgent.DeleteContactEntity</see> method.

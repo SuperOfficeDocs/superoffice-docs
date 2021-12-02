@@ -1,7 +1,7 @@
 ---
-uid: services87-soprincipal
 title: Services87.SoPrincipalAgent SOAP
-Generated: true
+uid: Services87-SoPrincipal-soap
+generated: 1
 ---
 
 # Services87 SoPrincipal SOAP
@@ -19,3 +19,4 @@ Download [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md) if
 * [AuthenticateUsernamePassword](AuthenticateUsernamePassword.md)
 * [AuthenticateWithAccessToken](AuthenticateWithAccessToken.md)
 * [GetSystemInfo](GetSystemInfo.md)
+

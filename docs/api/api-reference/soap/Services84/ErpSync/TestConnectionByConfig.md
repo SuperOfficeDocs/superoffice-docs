@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-testconnectionbyconfig
 title: Services84.ErpSyncAgent.TestConnectionByConfig SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-TestConnectionByConfig
 ---
 
-# Services84 ErpSync TestConnectionByConfig SOAP
+# Services84 ErpSync TestConnectionByConfig
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.TestConnectionByConfig">SuperOffice.Services84.IErpSyncAgent.TestConnectionByConfig</see> method.

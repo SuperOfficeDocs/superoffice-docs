@@ -1,10 +1,10 @@
 ---
-uid: services85-license-removelicensefromdb
 title: Services85.LicenseAgent.RemoveLicenseFromDB SOAP
-Generated: true
+generated: 1
+uid: Services85-License-RemoveLicenseFromDB
 ---
 
-# Services85 License RemoveLicenseFromDB SOAP
+# Services85 License RemoveLicenseFromDB
 
 SOAP request and response examples **Remote/Services85/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.RemoveLicenseFromDB">SuperOffice.Services85.ILicenseAgent.RemoveLicenseFromDB</see> method.

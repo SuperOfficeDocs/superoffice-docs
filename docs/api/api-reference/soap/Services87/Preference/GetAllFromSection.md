@@ -1,10 +1,10 @@
 ---
-uid: services87-preference-getallfromsection
 title: Services87.PreferenceAgent.GetAllFromSection SOAP
-Generated: true
+generated: 1
+uid: Services87-Preference-GetAllFromSection
 ---
 
-# Services87 Preference GetAllFromSection SOAP
+# Services87 Preference GetAllFromSection
 
 SOAP request and response examples **Remote/Services87/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.GetAllFromSection">SuperOffice.Services87.IPreferenceAgent.GetAllFromSection</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getpluginlist
 title: Services84.ListAgent.GetPluginList SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetPluginList
 ---
 
-# Services84 List GetPluginList SOAP
+# Services84 List GetPluginList
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetPluginList">SuperOffice.Services84.IListAgent.GetPluginList</see> method.

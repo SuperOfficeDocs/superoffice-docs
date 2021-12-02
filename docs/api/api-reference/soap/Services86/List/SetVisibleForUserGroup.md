@@ -1,10 +1,10 @@
 ---
-uid: services86-list-setvisibleforusergroup
 title: Services86.ListAgent.SetVisibleForUserGroup SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SetVisibleForUserGroup
 ---
 
-# Services86 List SetVisibleForUserGroup SOAP
+# Services86 List SetVisibleForUserGroup
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SetVisibleForUserGroup">SuperOffice.Services86.IListAgent.SetVisibleForUserGroup</see> method.

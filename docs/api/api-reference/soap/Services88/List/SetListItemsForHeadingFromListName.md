@@ -1,10 +1,10 @@
 ---
-uid: services88-list-setlistitemsforheadingfromlistname
 title: Services88.ListAgent.SetListItemsForHeadingFromListName SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SetListItemsForHeadingFromListName
 ---
 
-# Services88 List SetListItemsForHeadingFromListName SOAP
+# Services88 List SetListItemsForHeadingFromListName
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetListItemsForHeadingFromListName">SuperOffice.Services88.IListAgent.SetListItemsForHeadingFromListName</see> method.

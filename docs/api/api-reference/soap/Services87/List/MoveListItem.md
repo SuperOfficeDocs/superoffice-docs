@@ -1,10 +1,10 @@
 ---
-uid: services87-list-movelistitem
 title: Services87.ListAgent.MoveListItem SOAP
-Generated: true
+generated: 1
+uid: Services87-List-MoveListItem
 ---
 
-# Services87 List MoveListItem SOAP
+# Services87 List MoveListItem
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.MoveListItem">SuperOffice.Services87.IListAgent.MoveListItem</see> method.

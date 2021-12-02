@@ -1,7 +1,7 @@
 ---
-uid: services84-user
 title: Services84.UserAgent SOAP
-Generated: true
+uid: Services84-User-soap
+generated: 1
 ---
 
 # Services84 User SOAP
@@ -90,3 +90,4 @@ Download [WSDL file for Services84/User](../Services84-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
+

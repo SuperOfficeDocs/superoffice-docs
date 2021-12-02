@@ -1,10 +1,10 @@
 ---
-uid: services85-customerservice-deletechatsessions
 title: Services85.CustomerServiceAgent.DeleteChatSessions SOAP
-Generated: true
+generated: 1
+uid: Services85-CustomerService-DeleteChatSessions
 ---
 
-# Services85 CustomerService DeleteChatSessions SOAP
+# Services85 CustomerService DeleteChatSessions
 
 SOAP request and response examples **Remote/Services85/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.DeleteChatSessions">SuperOffice.Services85.ICustomerServiceAgent.DeleteChatSessions</see> method.

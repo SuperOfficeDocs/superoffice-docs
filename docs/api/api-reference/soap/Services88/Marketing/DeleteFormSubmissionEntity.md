@@ -1,10 +1,10 @@
 ---
-uid: services88-marketing-deleteformsubmissionentity
 title: Services88.MarketingAgent.DeleteFormSubmissionEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Marketing-DeleteFormSubmissionEntity
 ---
 
-# Services88 Marketing DeleteFormSubmissionEntity SOAP
+# Services88 Marketing DeleteFormSubmissionEntity
 
 SOAP request and response examples **Remote/Services88/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.DeleteFormSubmissionEntity">SuperOffice.Services88.IMarketingAgent.DeleteFormSubmissionEntity</see> method.

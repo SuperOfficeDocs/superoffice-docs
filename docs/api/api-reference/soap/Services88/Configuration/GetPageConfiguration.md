@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-getpageconfiguration
 title: Services88.ConfigurationAgent.GetPageConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-GetPageConfiguration
 ---
 
-# Services88 Configuration GetPageConfiguration SOAP
+# Services88 Configuration GetPageConfiguration
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetPageConfiguration">SuperOffice.Services88.IConfigurationAgent.GetPageConfiguration</see> method.

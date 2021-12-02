@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-CustomerService
 title: Services88.CustomerServiceAgent WSDL
 ---
 
@@ -11,8 +11,8 @@ title: Services88.CustomerServiceAgent WSDL
 <wsdl:definitions name="WcfCustomerServiceService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="CreateDefaultCustomerCenterConfig">
         <xs:complexType>
           <xs:sequence />
@@ -227,6 +227,68 @@ title: Services88.CustomerServiceAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultMailboxEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultMailboxEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:MailboxEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="MailboxEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MailInFilterId" type="xs:int" />
+              <xs:element minOccurs="0" name="ServerType" type="tns:MailboxType" />
+              <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Server" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Port" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="MailboxEntity" nillable="true" type="tns:MailboxEntity" />
+      <xs:simpleType name="MailboxType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Pop" />
+          <xs:enumeration value="Imap" />
+          <xs:enumeration value="Mapi" />
+          <xs:enumeration value="Facebook" />
+          <xs:enumeration value="Pops" />
+          <xs:enumeration value="Imaps" />
+          <xs:enumeration value="SmsPlugin" />
+          <xs:enumeration value="Mailgun" />
+          <xs:enumeration value="ImapOAuth" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="MailboxType" nillable="true" type="tns:MailboxType" />
+      <xs:element name="SaveMailboxEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MailboxEntity" nillable="true" type="tns:MailboxEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveMailboxEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:MailboxEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CreateDefaultSmsConfig">
         <xs:complexType>
           <xs:sequence />
@@ -284,305 +346,46 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetProgramUrl">
+      <xs:element name="DeleteChatSessions">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="External" type="xs:boolean" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetProgramUrlResponse">
+      <xs:element name="DeleteChatSessionsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChatSessionsForUser">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChatSessionsForUserResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfChatSession" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateTicketFromMailData">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="MailboxId" type="xs:int" />
-            <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateTicketFromMailDataResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketInfo" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="TicketInfo">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="TicketId" type="xs:int" />
-              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="OwnerName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PriorityName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TicketUrl" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="TicketInfo" nillable="true" type="tns:TicketInfo" />
-      <xs:element name="AddMessageFromMailData">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
-            <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="AddMessageFromMailDataResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketInfo" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="FindTicketsByTitleOrId">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TitleOrId" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="MaxRows" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="FindTicketsByTitleOrIdResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketInfo" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfTicketInfo">
+      <xs:complexType name="ArrayOfChatSession">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketInfo" nillable="true" type="tns:TicketInfo" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatSession" nillable="true" type="tns:ChatSession" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfTicketInfo" nillable="true" type="tns:ArrayOfTicketInfo" />
-      <xs:element name="GetMailboxes">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetMailboxesResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfMailbox" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfMailbox">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Mailbox" nillable="true" type="tns:Mailbox" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfMailbox" nillable="true" type="tns:ArrayOfMailbox" />
-      <xs:complexType name="Mailbox">
+      <xs:element name="ArrayOfChatSession" nillable="true" type="tns:ArrayOfChatSession" />
+      <xs:complexType name="ChatSession">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="MailInFilterId" type="xs:int" />
-              <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PriorityName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ChatSessionId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Mailbox" nillable="true" type="tns:Mailbox" />
-      <xs:element name="TestSmtpServer">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SmtpUri" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="UseStoredPassword" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="TestSmtpServerResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmtpTestResult" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="SmtpTestResult">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Success" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="SmtpTestResult" nillable="true" type="tns:SmtpTestResult" />
-      <xs:element name="GetCustomerServiceStartup">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCustomerServiceStartupResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CustomerServiceStartup" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="CustomerServiceStartup">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="TimezoneEnabled" type="xs:boolean" />
-              <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
-              <xs:element minOccurs="0" name="RecaptchaSiteKey" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="CustomerServiceStartup" nillable="true" type="tns:CustomerServiceStartup" />
-      <xs:element name="GetCustomerCenterConfig">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CustomerCenterConfigId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetCustomerCenterConfigResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CustomerCenterConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAllCustomerCenterConfigs">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAllCustomerCenterConfigsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfCustomerCenterConfig">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomerCenterConfig" nillable="true" type="tns:CustomerCenterConfig" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfCustomerCenterConfig" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
-      <xs:element name="SaveAllCustomerCenterConfigs">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CustConfigs" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveAllCustomerCenterConfigsResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CheckIfCustomizedTemplates">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CheckIfCustomizedTemplatesResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateSession">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="RemoteIp" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateSessionResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CsSessionKey" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="CsSessionKey">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LoginId" type="xs:int" />
-              <xs:element minOccurs="0" name="UserId" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="CsSessionKey" nillable="true" type="tns:CsSessionKey" />
-      <xs:element name="RemoveSession">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="LoginId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="RemoveSessionResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SessionIsValid">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CsSessionKey" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SessionIsValidResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="HasChatNotify">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="HasChatNotifyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CheckSymmetricEncryption">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="EncryptedString" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CheckSymmetricEncryptionResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
+      <xs:element name="ChatSession" nillable="true" type="tns:ChatSession" />
       <xs:element name="UpdateFeatureToggles">
         <xs:complexType>
           <xs:sequence>
@@ -1304,6 +1107,193 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateSession">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="RemoteIp" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateSessionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CsSessionKey" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="CsSessionKey">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LoginId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CsSessionKey" nillable="true" type="tns:CsSessionKey" />
+      <xs:element name="RemoveSession">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LoginId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveSessionResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SessionIsValid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CsSessionKey" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SessionIsValidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="HasChatNotify">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="HasChatNotifyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckSymmetricEncryption">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EncryptedString" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckSymmetricEncryptionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerCenterConfig">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CustomerCenterConfigId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerCenterConfigResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CustomerCenterConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllCustomerCenterConfigs">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllCustomerCenterConfigsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfCustomerCenterConfig">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomerCenterConfig" nillable="true" type="tns:CustomerCenterConfig" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCustomerCenterConfig" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
+      <xs:element name="SaveAllCustomerCenterConfigs">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CustConfigs" nillable="true" type="tns:ArrayOfCustomerCenterConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveAllCustomerCenterConfigsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckIfCustomizedTemplates">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CheckIfCustomizedTemplatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetProgramUrl">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="External" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetProgramUrlResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetFaqForCustomer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FaqEntryId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetFaqForCustomerResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerServiceStartup">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerServiceStartupResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CustomerServiceStartup" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="CustomerServiceStartup">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TimezoneEnabled" type="xs:boolean" />
+              <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
+              <xs:element minOccurs="0" name="RecaptchaSiteKey" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CustomerServiceStartup" nillable="true" type="tns:CustomerServiceStartup" />
       <xs:element name="ExecuteEventHandlers">
         <xs:complexType>
           <xs:sequence>
@@ -1335,6 +1325,142 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetMailboxes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetMailboxesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfMailbox" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfMailbox">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Mailbox" nillable="true" type="tns:Mailbox" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfMailbox" nillable="true" type="tns:ArrayOfMailbox" />
+      <xs:complexType name="Mailbox">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MailInFilterId" type="xs:int" />
+              <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PriorityName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Mailbox" nillable="true" type="tns:Mailbox" />
+      <xs:element name="GetMailboxEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MailboxEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetMailboxEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:MailboxEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetParsedTemplate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
+            <xs:element minOccurs="0" name="LanguageId" type="xs:int" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetParsedTemplateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ReplyTemplateParsed" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ReplyTemplateParsed">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PlainParsed" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="HtmlParsed" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Attachments" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+              <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ReplyTemplateParsed" nillable="true" type="tns:ReplyTemplateParsed" />
+      <xs:complexType name="ArrayOfAttachmentEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfAttachmentEntity" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+      <xs:complexType name="AttachmentEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ContentType" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AttSize" type="xs:int" />
+              <xs:element minOccurs="0" name="InlineImage" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ContentId" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+      <xs:element name="GetSmsConfig">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSmsConfigResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmsConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="TestSmtpServer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SmtpUri" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="UseStoredPassword" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="TestSmtpServerResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmtpTestResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SmtpTestResult">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Success" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SmtpTestResult" nillable="true" type="tns:SmtpTestResult" />
       <xs:element name="GetStatistics">
         <xs:complexType>
           <xs:sequence>
@@ -1474,58 +1600,74 @@ title: Services88.CustomerServiceAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="StatisticsDataValue" nillable="true" type="tns:StatisticsDataValue" />
-      <xs:element name="GetSmsConfig">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSmsConfigResponse">
+      <xs:element name="CreateTicketFromMailData">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmsConfig" />
+            <xs:element minOccurs="0" name="MailboxId" type="xs:int" />
+            <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="DeleteChatSessions">
+      <xs:element name="CreateTicketFromMailDataResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketInfo" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="DeleteChatSessionsResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ChatSessionsForUser">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ChatSessionsForUserResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfChatSession" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfChatSession">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatSession" nillable="true" type="tns:ChatSession" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfChatSession" nillable="true" type="tns:ArrayOfChatSession" />
-      <xs:complexType name="ChatSession">
+      <xs:complexType name="TicketInfo">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="ChatSessionId" type="xs:int" />
+              <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OwnerName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PriorityName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TicketUrl" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ChatSession" nillable="true" type="tns:ChatSession" />
+      <xs:element name="TicketInfo" nillable="true" type="tns:TicketInfo" />
+      <xs:element name="AddMessageFromMailData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddMessageFromMailDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FindTicketsByTitleOrId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TitleOrId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="MaxRows" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FindTicketsByTitleOrIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketInfo" nillable="true" type="tns:TicketInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketInfo" nillable="true" type="tns:ArrayOfTicketInfo" />
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1628,6 +1770,40 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultMailboxEntityRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultMailboxEntity" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultMailboxEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultMailboxEntityResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultMailboxEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultMailboxEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveMailboxEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveMailboxEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveMailboxEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveMailboxEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveMailboxEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveMailboxEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultSmsConfigRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultSmsConfig" />
   </wsdl:message>
@@ -1662,188 +1838,69 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetProgramUrlRequest">
-    <wsdl:part name="parameters" element="tns:GetProgramUrl" />
+  <wsdl:message name="DeleteChatSessionsRequest">
+    <wsdl:part name="parameters" element="tns:DeleteChatSessions" />
   </wsdl:message>
-  <wsdl:message name="GetProgramUrlRequest_Headers">
+  <wsdl:message name="DeleteChatSessionsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetProgramUrlResponse">
-    <wsdl:part name="parameters" element="tns:GetProgramUrlResponse" />
+  <wsdl:message name="DeleteChatSessionsResponse">
+    <wsdl:part name="parameters" element="tns:DeleteChatSessionsResponse" />
   </wsdl:message>
-  <wsdl:message name="GetProgramUrlResponse_Headers">
+  <wsdl:message name="DeleteChatSessionsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateTicketFromMailDataRequest">
-    <wsdl:part name="parameters" element="tns:CreateTicketFromMailData" />
+  <wsdl:message name="ChatSessionsForUserRequest">
+    <wsdl:part name="parameters" element="tns:ChatSessionsForUser" />
   </wsdl:message>
-  <wsdl:message name="CreateTicketFromMailDataRequest_Headers">
+  <wsdl:message name="ChatSessionsForUserRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateTicketFromMailDataResponse">
-    <wsdl:part name="parameters" element="tns:CreateTicketFromMailDataResponse" />
+  <wsdl:message name="ChatSessionsForUserResponse">
+    <wsdl:part name="parameters" element="tns:ChatSessionsForUserResponse" />
   </wsdl:message>
-  <wsdl:message name="CreateTicketFromMailDataResponse_Headers">
+  <wsdl:message name="ChatSessionsForUserResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="AddMessageFromMailDataRequest">
-    <wsdl:part name="parameters" element="tns:AddMessageFromMailData" />
+  <wsdl:message name="UpdateFeatureTogglesRequest">
+    <wsdl:part name="parameters" element="tns:UpdateFeatureToggles" />
   </wsdl:message>
-  <wsdl:message name="AddMessageFromMailDataRequest_Headers">
+  <wsdl:message name="UpdateFeatureTogglesRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="AddMessageFromMailDataResponse">
-    <wsdl:part name="parameters" element="tns:AddMessageFromMailDataResponse" />
+  <wsdl:message name="UpdateFeatureTogglesResponse">
+    <wsdl:part name="parameters" element="tns:UpdateFeatureTogglesResponse" />
   </wsdl:message>
-  <wsdl:message name="AddMessageFromMailDataResponse_Headers">
+  <wsdl:message name="UpdateFeatureTogglesResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="FindTicketsByTitleOrIdRequest">
-    <wsdl:part name="parameters" element="tns:FindTicketsByTitleOrId" />
+  <wsdl:message name="EventHandlerExistsRequest">
+    <wsdl:part name="parameters" element="tns:EventHandlerExists" />
   </wsdl:message>
-  <wsdl:message name="FindTicketsByTitleOrIdRequest_Headers">
+  <wsdl:message name="EventHandlerExistsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="FindTicketsByTitleOrIdResponse">
-    <wsdl:part name="parameters" element="tns:FindTicketsByTitleOrIdResponse" />
+  <wsdl:message name="EventHandlerExistsResponse">
+    <wsdl:part name="parameters" element="tns:EventHandlerExistsResponse" />
   </wsdl:message>
-  <wsdl:message name="FindTicketsByTitleOrIdResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetMailboxesRequest">
-    <wsdl:part name="parameters" element="tns:GetMailboxes" />
-  </wsdl:message>
-  <wsdl:message name="GetMailboxesRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetMailboxesResponse">
-    <wsdl:part name="parameters" element="tns:GetMailboxesResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetMailboxesResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="TestSmtpServerRequest">
-    <wsdl:part name="parameters" element="tns:TestSmtpServer" />
-  </wsdl:message>
-  <wsdl:message name="TestSmtpServerRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="TestSmtpServerResponse">
-    <wsdl:part name="parameters" element="tns:TestSmtpServerResponse" />
-  </wsdl:message>
-  <wsdl:message name="TestSmtpServerResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerServiceStartupRequest">
-    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartup" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerServiceStartupRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerServiceStartupResponse">
-    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartupResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerServiceStartupResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerCenterConfigRequest">
-    <wsdl:part name="parameters" element="tns:GetCustomerCenterConfig" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerCenterConfigRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerCenterConfigResponse">
-    <wsdl:part name="parameters" element="tns:GetCustomerCenterConfigResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetCustomerCenterConfigResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetAllCustomerCenterConfigsRequest">
-    <wsdl:part name="parameters" element="tns:GetAllCustomerCenterConfigs" />
-  </wsdl:message>
-  <wsdl:message name="GetAllCustomerCenterConfigsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetAllCustomerCenterConfigsResponse">
-    <wsdl:part name="parameters" element="tns:GetAllCustomerCenterConfigsResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetAllCustomerCenterConfigsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveAllCustomerCenterConfigsRequest">
-    <wsdl:part name="parameters" element="tns:SaveAllCustomerCenterConfigs" />
-  </wsdl:message>
-  <wsdl:message name="SaveAllCustomerCenterConfigsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveAllCustomerCenterConfigsResponse">
-    <wsdl:part name="parameters" element="tns:SaveAllCustomerCenterConfigsResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveAllCustomerCenterConfigsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CheckIfCustomizedTemplatesRequest">
-    <wsdl:part name="parameters" element="tns:CheckIfCustomizedTemplates" />
-  </wsdl:message>
-  <wsdl:message name="CheckIfCustomizedTemplatesRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CheckIfCustomizedTemplatesResponse">
-    <wsdl:part name="parameters" element="tns:CheckIfCustomizedTemplatesResponse" />
-  </wsdl:message>
-  <wsdl:message name="CheckIfCustomizedTemplatesResponse_Headers">
+  <wsdl:message name="EventHandlerExistsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1934,35 +1991,120 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="UpdateFeatureTogglesRequest">
-    <wsdl:part name="parameters" element="tns:UpdateFeatureToggles" />
+  <wsdl:message name="GetCustomerCenterConfigRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomerCenterConfig" />
   </wsdl:message>
-  <wsdl:message name="UpdateFeatureTogglesRequest_Headers">
+  <wsdl:message name="GetCustomerCenterConfigRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="UpdateFeatureTogglesResponse">
-    <wsdl:part name="parameters" element="tns:UpdateFeatureTogglesResponse" />
+  <wsdl:message name="GetCustomerCenterConfigResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomerCenterConfigResponse" />
   </wsdl:message>
-  <wsdl:message name="UpdateFeatureTogglesResponse_Headers">
+  <wsdl:message name="GetCustomerCenterConfigResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="EventHandlerExistsRequest">
-    <wsdl:part name="parameters" element="tns:EventHandlerExists" />
+  <wsdl:message name="GetAllCustomerCenterConfigsRequest">
+    <wsdl:part name="parameters" element="tns:GetAllCustomerCenterConfigs" />
   </wsdl:message>
-  <wsdl:message name="EventHandlerExistsRequest_Headers">
+  <wsdl:message name="GetAllCustomerCenterConfigsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="EventHandlerExistsResponse">
-    <wsdl:part name="parameters" element="tns:EventHandlerExistsResponse" />
+  <wsdl:message name="GetAllCustomerCenterConfigsResponse">
+    <wsdl:part name="parameters" element="tns:GetAllCustomerCenterConfigsResponse" />
   </wsdl:message>
-  <wsdl:message name="EventHandlerExistsResponse_Headers">
+  <wsdl:message name="GetAllCustomerCenterConfigsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllCustomerCenterConfigsRequest">
+    <wsdl:part name="parameters" element="tns:SaveAllCustomerCenterConfigs" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllCustomerCenterConfigsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllCustomerCenterConfigsResponse">
+    <wsdl:part name="parameters" element="tns:SaveAllCustomerCenterConfigsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAllCustomerCenterConfigsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CheckIfCustomizedTemplatesRequest">
+    <wsdl:part name="parameters" element="tns:CheckIfCustomizedTemplates" />
+  </wsdl:message>
+  <wsdl:message name="CheckIfCustomizedTemplatesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CheckIfCustomizedTemplatesResponse">
+    <wsdl:part name="parameters" element="tns:CheckIfCustomizedTemplatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckIfCustomizedTemplatesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetProgramUrlRequest">
+    <wsdl:part name="parameters" element="tns:GetProgramUrl" />
+  </wsdl:message>
+  <wsdl:message name="GetProgramUrlRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetProgramUrlResponse">
+    <wsdl:part name="parameters" element="tns:GetProgramUrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProgramUrlResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetFaqForCustomerRequest">
+    <wsdl:part name="parameters" element="tns:GetFaqForCustomer" />
+  </wsdl:message>
+  <wsdl:message name="GetFaqForCustomerRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetFaqForCustomerResponse">
+    <wsdl:part name="parameters" element="tns:GetFaqForCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFaqForCustomerResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartup" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1985,18 +2127,52 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetStatisticsRequest">
-    <wsdl:part name="parameters" element="tns:GetStatistics" />
+  <wsdl:message name="GetMailboxesRequest">
+    <wsdl:part name="parameters" element="tns:GetMailboxes" />
   </wsdl:message>
-  <wsdl:message name="GetStatisticsRequest_Headers">
+  <wsdl:message name="GetMailboxesRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetStatisticsResponse">
-    <wsdl:part name="parameters" element="tns:GetStatisticsResponse" />
+  <wsdl:message name="GetMailboxesResponse">
+    <wsdl:part name="parameters" element="tns:GetMailboxesResponse" />
   </wsdl:message>
-  <wsdl:message name="GetStatisticsResponse_Headers">
+  <wsdl:message name="GetMailboxesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetMailboxEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetMailboxEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetMailboxEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetMailboxEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetMailboxEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMailboxEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetParsedTemplateRequest">
+    <wsdl:part name="parameters" element="tns:GetParsedTemplate" />
+  </wsdl:message>
+  <wsdl:message name="GetParsedTemplateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetParsedTemplateResponse">
+    <wsdl:part name="parameters" element="tns:GetParsedTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParsedTemplateResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2019,35 +2195,86 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="DeleteChatSessionsRequest">
-    <wsdl:part name="parameters" element="tns:DeleteChatSessions" />
+  <wsdl:message name="TestSmtpServerRequest">
+    <wsdl:part name="parameters" element="tns:TestSmtpServer" />
   </wsdl:message>
-  <wsdl:message name="DeleteChatSessionsRequest_Headers">
+  <wsdl:message name="TestSmtpServerRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="DeleteChatSessionsResponse">
-    <wsdl:part name="parameters" element="tns:DeleteChatSessionsResponse" />
+  <wsdl:message name="TestSmtpServerResponse">
+    <wsdl:part name="parameters" element="tns:TestSmtpServerResponse" />
   </wsdl:message>
-  <wsdl:message name="DeleteChatSessionsResponse_Headers">
+  <wsdl:message name="TestSmtpServerResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="ChatSessionsForUserRequest">
-    <wsdl:part name="parameters" element="tns:ChatSessionsForUser" />
+  <wsdl:message name="GetStatisticsRequest">
+    <wsdl:part name="parameters" element="tns:GetStatistics" />
   </wsdl:message>
-  <wsdl:message name="ChatSessionsForUserRequest_Headers">
+  <wsdl:message name="GetStatisticsRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="ChatSessionsForUserResponse">
-    <wsdl:part name="parameters" element="tns:ChatSessionsForUserResponse" />
+  <wsdl:message name="GetStatisticsResponse">
+    <wsdl:part name="parameters" element="tns:GetStatisticsResponse" />
   </wsdl:message>
-  <wsdl:message name="ChatSessionsForUserResponse_Headers">
+  <wsdl:message name="GetStatisticsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketFromMailDataRequest">
+    <wsdl:part name="parameters" element="tns:CreateTicketFromMailData" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketFromMailDataRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketFromMailDataResponse">
+    <wsdl:part name="parameters" element="tns:CreateTicketFromMailDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketFromMailDataResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddMessageFromMailDataRequest">
+    <wsdl:part name="parameters" element="tns:AddMessageFromMailData" />
+  </wsdl:message>
+  <wsdl:message name="AddMessageFromMailDataRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddMessageFromMailDataResponse">
+    <wsdl:part name="parameters" element="tns:AddMessageFromMailDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddMessageFromMailDataResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="FindTicketsByTitleOrIdRequest">
+    <wsdl:part name="parameters" element="tns:FindTicketsByTitleOrId" />
+  </wsdl:message>
+  <wsdl:message name="FindTicketsByTitleOrIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="FindTicketsByTitleOrIdResponse">
+    <wsdl:part name="parameters" element="tns:FindTicketsByTitleOrIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="FindTicketsByTitleOrIdResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2078,6 +2305,20 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteCustomerCenterConfig" name="DeleteCustomerCenterConfigRequest" message="tns:DeleteCustomerCenterConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteCustomerCenterConfigResponse" name="DeleteCustomerCenterConfigResponse" message="tns:DeleteCustomerCenterConfigResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultMailboxEntity">
+      <wsdl:documentation>
+        <summary>Loading default values into a new MailboxEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultMailboxEntity" name="CreateDefaultMailboxEntityRequest" message="tns:CreateDefaultMailboxEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultMailboxEntityResponse" name="CreateDefaultMailboxEntityResponse" message="tns:CreateDefaultMailboxEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMailboxEntity">
+      <wsdl:documentation>
+        <summary>Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveMailboxEntity" name="SaveMailboxEntityRequest" message="tns:SaveMailboxEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveMailboxEntityResponse" name="SaveMailboxEntityResponse" message="tns:SaveMailboxEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultSmsConfig">
       <wsdl:documentation>
         <summary>Loading default values into a new SmsConfig.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -2092,82 +2333,33 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSmsConfig" name="SaveSmsConfigRequest" message="tns:SaveSmsConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSmsConfigResponse" name="SaveSmsConfigResponse" message="tns:SaveSmsConfigResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetProgramUrl">
+    <wsdl:operation name="DeleteChatSessions">
       <wsdl:documentation>
-        <summary>This method will convert a module name into a Service URL.</summary>
+        <summary>Deletes the specified chat sessions.</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrl" name="GetProgramUrlRequest" message="tns:GetProgramUrlRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrlResponse" name="GetProgramUrlResponse" message="tns:GetProgramUrlResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessions" name="DeleteChatSessionsRequest" message="tns:DeleteChatSessionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessionsResponse" name="DeleteChatSessionsResponse" message="tns:DeleteChatSessionsResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateTicketFromMailData">
+    <wsdl:operation name="ChatSessionsForUser">
       <wsdl:documentation>
-        <summary>This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data</summary>
+        <summary>Get all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailData" name="CreateTicketFromMailDataRequest" message="tns:CreateTicketFromMailDataRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailDataResponse" name="CreateTicketFromMailDataResponse" message="tns:CreateTicketFromMailDataResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUser" name="ChatSessionsForUserRequest" message="tns:ChatSessionsForUserRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUserResponse" name="ChatSessionsForUserResponse" message="tns:ChatSessionsForUserResponse" />
     </wsdl:operation>
-    <wsdl:operation name="AddMessageFromMailData">
+    <wsdl:operation name="UpdateFeatureToggles">
       <wsdl:documentation>
-        <summary>This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data</summary>
+        <summary>Update the cached FeatureToggles for CS</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailData" name="AddMessageFromMailDataRequest" message="tns:AddMessageFromMailDataRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailDataResponse" name="AddMessageFromMailDataResponse" message="tns:AddMessageFromMailDataResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureToggles" name="UpdateFeatureTogglesRequest" message="tns:UpdateFeatureTogglesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureTogglesResponse" name="UpdateFeatureTogglesResponse" message="tns:UpdateFeatureTogglesResponse" />
     </wsdl:operation>
-    <wsdl:operation name="FindTicketsByTitleOrId">
+    <wsdl:operation name="EventHandlerExists">
       <wsdl:documentation>
-        <summary>This method wil search for tickets matching title or id</summary>
+        <summary>Check if an eventhandler exists for a given enum</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrId" name="FindTicketsByTitleOrIdRequest" message="tns:FindTicketsByTitleOrIdRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrIdResponse" name="FindTicketsByTitleOrIdResponse" message="tns:FindTicketsByTitleOrIdResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetMailboxes">
-      <wsdl:documentation>
-        <summary>This method will get all registered mailboxes in Service</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxes" name="GetMailboxesRequest" message="tns:GetMailboxesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxesResponse" name="GetMailboxesResponse" message="tns:GetMailboxesResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="TestSmtpServer">
-      <wsdl:documentation>
-        <summary>This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServer" name="TestSmtpServerRequest" message="tns:TestSmtpServerRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServerResponse" name="TestSmtpServerResponse" message="tns:TestSmtpServerResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomerServiceStartup">
-      <wsdl:documentation>
-        <summary>Get the carrier with data that Service needs when starting up</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartup" name="GetCustomerServiceStartupRequest" message="tns:GetCustomerServiceStartupRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupResponse" name="GetCustomerServiceStartupResponse" message="tns:GetCustomerServiceStartupResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomerCenterConfig">
-      <wsdl:documentation>
-        <summary>Gets a CustomerCenterConfig object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfig" name="GetCustomerCenterConfigRequest" message="tns:GetCustomerCenterConfigRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfigResponse" name="GetCustomerCenterConfigResponse" message="tns:GetCustomerCenterConfigResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetAllCustomerCenterConfigs">
-      <wsdl:documentation>
-        <summary>Get all rows from cust_config as an array of CustomerCenterConfig entities</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigs" name="GetAllCustomerCenterConfigsRequest" message="tns:GetAllCustomerCenterConfigsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigsResponse" name="GetAllCustomerCenterConfigsResponse" message="tns:GetAllCustomerCenterConfigsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveAllCustomerCenterConfigs">
-      <wsdl:documentation>
-        <summary>Save an array of CustomerCenterConfig entities to the database</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigs" name="SaveAllCustomerCenterConfigsRequest" message="tns:SaveAllCustomerCenterConfigsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigsResponse" name="SaveAllCustomerCenterConfigsResponse" message="tns:SaveAllCustomerCenterConfigsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="CheckIfCustomizedTemplates">
-      <wsdl:documentation>
-        <summary>Checks whether the core html templates are customized</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplates" name="CheckIfCustomizedTemplatesRequest" message="tns:CheckIfCustomizedTemplatesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplatesResponse" name="CheckIfCustomizedTemplatesResponse" message="tns:CheckIfCustomizedTemplatesResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExists" name="EventHandlerExistsRequest" message="tns:EventHandlerExistsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExistsResponse" name="EventHandlerExistsResponse" message="tns:EventHandlerExistsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateSession">
       <wsdl:documentation>
@@ -2204,19 +2396,54 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckSymmetricEncryption" name="CheckSymmetricEncryptionRequest" message="tns:CheckSymmetricEncryptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckSymmetricEncryptionResponse" name="CheckSymmetricEncryptionResponse" message="tns:CheckSymmetricEncryptionResponse" />
     </wsdl:operation>
-    <wsdl:operation name="UpdateFeatureToggles">
+    <wsdl:operation name="GetCustomerCenterConfig">
       <wsdl:documentation>
-        <summary>Update the cached FeatureToggles for CS</summary>
+        <summary>Gets a CustomerCenterConfig object..</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureToggles" name="UpdateFeatureTogglesRequest" message="tns:UpdateFeatureTogglesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureTogglesResponse" name="UpdateFeatureTogglesResponse" message="tns:UpdateFeatureTogglesResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfig" name="GetCustomerCenterConfigRequest" message="tns:GetCustomerCenterConfigRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfigResponse" name="GetCustomerCenterConfigResponse" message="tns:GetCustomerCenterConfigResponse" />
     </wsdl:operation>
-    <wsdl:operation name="EventHandlerExists">
+    <wsdl:operation name="GetAllCustomerCenterConfigs">
       <wsdl:documentation>
-        <summary>Check if an eventhandler exists for a given enum</summary>
+        <summary>Get all rows from cust_config as an array of CustomerCenterConfig entities</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExists" name="EventHandlerExistsRequest" message="tns:EventHandlerExistsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExistsResponse" name="EventHandlerExistsResponse" message="tns:EventHandlerExistsResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigs" name="GetAllCustomerCenterConfigsRequest" message="tns:GetAllCustomerCenterConfigsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigsResponse" name="GetAllCustomerCenterConfigsResponse" message="tns:GetAllCustomerCenterConfigsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAllCustomerCenterConfigs">
+      <wsdl:documentation>
+        <summary>Save an array of CustomerCenterConfig entities to the database</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigs" name="SaveAllCustomerCenterConfigsRequest" message="tns:SaveAllCustomerCenterConfigsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigsResponse" name="SaveAllCustomerCenterConfigsResponse" message="tns:SaveAllCustomerCenterConfigsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIfCustomizedTemplates">
+      <wsdl:documentation>
+        <summary>Checks whether the core html templates are customized</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplates" name="CheckIfCustomizedTemplatesRequest" message="tns:CheckIfCustomizedTemplatesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplatesResponse" name="CheckIfCustomizedTemplatesResponse" message="tns:CheckIfCustomizedTemplatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramUrl">
+      <wsdl:documentation>
+        <summary>This method will convert a module name into a Service URL.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrl" name="GetProgramUrlRequest" message="tns:GetProgramUrlRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrlResponse" name="GetProgramUrlResponse" message="tns:GetProgramUrlResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFaqForCustomer">
+      <wsdl:documentation>
+        <summary>Get a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetFaqForCustomer" name="GetFaqForCustomerRequest" message="tns:GetFaqForCustomerRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetFaqForCustomerResponse" name="GetFaqForCustomerResponse" message="tns:GetFaqForCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerServiceStartup">
+      <wsdl:documentation>
+        <summary>Get the carrier with data that Service needs when starting up</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartup" name="GetCustomerServiceStartupRequest" message="tns:GetCustomerServiceStartupRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupResponse" name="GetCustomerServiceStartupResponse" message="tns:GetCustomerServiceStartupResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteEventHandlers">
       <wsdl:documentation>
@@ -2225,12 +2452,26 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ExecuteEventHandlers" name="ExecuteEventHandlersRequest" message="tns:ExecuteEventHandlersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ExecuteEventHandlersResponse" name="ExecuteEventHandlersResponse" message="tns:ExecuteEventHandlersResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetStatistics">
+    <wsdl:operation name="GetMailboxes">
       <wsdl:documentation>
-        <summary>Returns the calculated results for the required statistics for the Customer Service Status Page</summary>
+        <summary>This method will get all registered mailboxes in Service</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatistics" name="GetStatisticsRequest" message="tns:GetStatisticsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatisticsResponse" name="GetStatisticsResponse" message="tns:GetStatisticsResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxes" name="GetMailboxesRequest" message="tns:GetMailboxesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxesResponse" name="GetMailboxesResponse" message="tns:GetMailboxesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMailboxEntity">
+      <wsdl:documentation>
+        <summary>Gets a MailboxEntity object..</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxEntity" name="GetMailboxEntityRequest" message="tns:GetMailboxEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxEntityResponse" name="GetMailboxEntityResponse" message="tns:GetMailboxEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParsedTemplate">
+      <wsdl:documentation>
+        <summary>Get a specific langauge version of the reply template, and run this trough the parser</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetParsedTemplate" name="GetParsedTemplateRequest" message="tns:GetParsedTemplateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetParsedTemplateResponse" name="GetParsedTemplateResponse" message="tns:GetParsedTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSmsConfig">
       <wsdl:documentation>
@@ -2239,19 +2480,40 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetSmsConfig" name="GetSmsConfigRequest" message="tns:GetSmsConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetSmsConfigResponse" name="GetSmsConfigResponse" message="tns:GetSmsConfigResponse" />
     </wsdl:operation>
-    <wsdl:operation name="DeleteChatSessions">
+    <wsdl:operation name="TestSmtpServer">
       <wsdl:documentation>
-        <summary>Deletes the specified chat sessions.</summary>
+        <summary>This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessions" name="DeleteChatSessionsRequest" message="tns:DeleteChatSessionsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessionsResponse" name="DeleteChatSessionsResponse" message="tns:DeleteChatSessionsResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServer" name="TestSmtpServerRequest" message="tns:TestSmtpServerRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServerResponse" name="TestSmtpServerResponse" message="tns:TestSmtpServerResponse" />
     </wsdl:operation>
-    <wsdl:operation name="ChatSessionsForUser">
+    <wsdl:operation name="GetStatistics">
       <wsdl:documentation>
-        <summary>Get all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager</summary>
+        <summary>Returns the calculated results for the required statistics for the Customer Service Status Page</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUser" name="ChatSessionsForUserRequest" message="tns:ChatSessionsForUserRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUserResponse" name="ChatSessionsForUserResponse" message="tns:ChatSessionsForUserResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatistics" name="GetStatisticsRequest" message="tns:GetStatisticsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatisticsResponse" name="GetStatisticsResponse" message="tns:GetStatisticsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicketFromMailData">
+      <wsdl:documentation>
+        <summary>This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailData" name="CreateTicketFromMailDataRequest" message="tns:CreateTicketFromMailDataRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailDataResponse" name="CreateTicketFromMailDataResponse" message="tns:CreateTicketFromMailDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMessageFromMailData">
+      <wsdl:documentation>
+        <summary>This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailData" name="AddMessageFromMailDataRequest" message="tns:AddMessageFromMailDataRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailDataResponse" name="AddMessageFromMailDataResponse" message="tns:AddMessageFromMailDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="FindTicketsByTitleOrId">
+      <wsdl:documentation>
+        <summary>This method wil search for tickets matching title or id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrId" name="FindTicketsByTitleOrIdRequest" message="tns:FindTicketsByTitleOrIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrIdResponse" name="FindTicketsByTitleOrIdResponse" message="tns:FindTicketsByTitleOrIdResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_CustomerService" type="tns:CustomerService">
@@ -2304,6 +2566,38 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultMailboxEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultMailboxEntity" style="document" />
+      <wsdl:input name="CreateDefaultMailboxEntityRequest">
+        <soap:header message="tns:CreateDefaultMailboxEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultMailboxEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultMailboxEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultMailboxEntityResponse">
+        <soap:header message="tns:CreateDefaultMailboxEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultMailboxEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultMailboxEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultMailboxEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMailboxEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveMailboxEntity" style="document" />
+      <wsdl:input name="SaveMailboxEntityRequest">
+        <soap:header message="tns:SaveMailboxEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveMailboxEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveMailboxEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveMailboxEntityResponse">
+        <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultSmsConfig">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultSmsConfig" style="document" />
       <wsdl:input name="CreateDefaultSmsConfigRequest">
@@ -2336,179 +2630,67 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetProgramUrl">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrl" style="document" />
-      <wsdl:input name="GetProgramUrlRequest">
-        <soap:header message="tns:GetProgramUrlRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetProgramUrlRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetProgramUrlRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="DeleteChatSessions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessions" style="document" />
+      <wsdl:input name="DeleteChatSessionsRequest">
+        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetProgramUrlResponse">
-        <soap:header message="tns:GetProgramUrlResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetProgramUrlResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetProgramUrlResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetProgramUrlResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="DeleteChatSessionsResponse">
+        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CreateTicketFromMailData">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailData" style="document" />
-      <wsdl:input name="CreateTicketFromMailDataRequest">
-        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="ChatSessionsForUser">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUser" style="document" />
+      <wsdl:input name="ChatSessionsForUserRequest">
+        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="CreateTicketFromMailDataResponse">
-        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="ChatSessionsForUserResponse">
+        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="AddMessageFromMailData">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailData" style="document" />
-      <wsdl:input name="AddMessageFromMailDataRequest">
-        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="UpdateFeatureToggles">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureToggles" style="document" />
+      <wsdl:input name="UpdateFeatureTogglesRequest">
+        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="AddMessageFromMailDataResponse">
-        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="UpdateFeatureTogglesResponse">
+        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="FindTicketsByTitleOrId">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrId" style="document" />
-      <wsdl:input name="FindTicketsByTitleOrIdRequest">
-        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="EventHandlerExists">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExists" style="document" />
+      <wsdl:input name="EventHandlerExistsRequest">
+        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="FindTicketsByTitleOrIdResponse">
-        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetMailboxes">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxes" style="document" />
-      <wsdl:input name="GetMailboxesRequest">
-        <soap:header message="tns:GetMailboxesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetMailboxesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetMailboxesRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetMailboxesResponse">
-        <soap:header message="tns:GetMailboxesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetMailboxesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetMailboxesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetMailboxesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="TestSmtpServer">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServer" style="document" />
-      <wsdl:input name="TestSmtpServerRequest">
-        <soap:header message="tns:TestSmtpServerRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:TestSmtpServerRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:TestSmtpServerRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="TestSmtpServerResponse">
-        <soap:header message="tns:TestSmtpServerResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:TestSmtpServerResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:TestSmtpServerResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:TestSmtpServerResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomerServiceStartup">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartup" style="document" />
-      <wsdl:input name="GetCustomerServiceStartupRequest">
-        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCustomerServiceStartupResponse">
-        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetCustomerCenterConfig">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfig" style="document" />
-      <wsdl:input name="GetCustomerCenterConfigRequest">
-        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetCustomerCenterConfigResponse">
-        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetAllCustomerCenterConfigs">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigs" style="document" />
-      <wsdl:input name="GetAllCustomerCenterConfigsRequest">
-        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetAllCustomerCenterConfigsResponse">
-        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveAllCustomerCenterConfigs">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigs" style="document" />
-      <wsdl:input name="SaveAllCustomerCenterConfigsRequest">
-        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveAllCustomerCenterConfigsResponse">
-        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CheckIfCustomizedTemplates">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplates" style="document" />
-      <wsdl:input name="CheckIfCustomizedTemplatesRequest">
-        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CheckIfCustomizedTemplatesResponse">
-        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="EventHandlerExistsResponse">
+        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2592,35 +2774,115 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="UpdateFeatureToggles">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/UpdateFeatureToggles" style="document" />
-      <wsdl:input name="UpdateFeatureTogglesRequest">
-        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:UpdateFeatureTogglesRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetCustomerCenterConfig">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerCenterConfig" style="document" />
+      <wsdl:input name="GetCustomerCenterConfigRequest">
+        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomerCenterConfigRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="UpdateFeatureTogglesResponse">
-        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:UpdateFeatureTogglesResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetCustomerCenterConfigResponse">
+        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomerCenterConfigResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="EventHandlerExists">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExists" style="document" />
-      <wsdl:input name="EventHandlerExistsRequest">
-        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:EventHandlerExistsRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetAllCustomerCenterConfigs">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetAllCustomerCenterConfigs" style="document" />
+      <wsdl:input name="GetAllCustomerCenterConfigsRequest">
+        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllCustomerCenterConfigsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="EventHandlerExistsResponse">
-        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:EventHandlerExistsResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetAllCustomerCenterConfigsResponse">
+        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllCustomerCenterConfigsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAllCustomerCenterConfigs">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveAllCustomerCenterConfigs" style="document" />
+      <wsdl:input name="SaveAllCustomerCenterConfigsRequest">
+        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveAllCustomerCenterConfigsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveAllCustomerCenterConfigsResponse">
+        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveAllCustomerCenterConfigsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIfCustomizedTemplates">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CheckIfCustomizedTemplates" style="document" />
+      <wsdl:input name="CheckIfCustomizedTemplatesRequest">
+        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CheckIfCustomizedTemplatesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CheckIfCustomizedTemplatesResponse">
+        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CheckIfCustomizedTemplatesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramUrl">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetProgramUrl" style="document" />
+      <wsdl:input name="GetProgramUrlRequest">
+        <soap:header message="tns:GetProgramUrlRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetProgramUrlRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetProgramUrlRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetProgramUrlResponse">
+        <soap:header message="tns:GetProgramUrlResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetProgramUrlResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetProgramUrlResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetProgramUrlResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFaqForCustomer">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetFaqForCustomer" style="document" />
+      <wsdl:input name="GetFaqForCustomerRequest">
+        <soap:header message="tns:GetFaqForCustomerRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetFaqForCustomerRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetFaqForCustomerRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFaqForCustomerResponse">
+        <soap:header message="tns:GetFaqForCustomerResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetFaqForCustomerResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetFaqForCustomerResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetFaqForCustomerResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerServiceStartup">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartup" style="document" />
+      <wsdl:input name="GetCustomerServiceStartupRequest">
+        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCustomerServiceStartupResponse">
+        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2640,19 +2902,51 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetStatistics">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatistics" style="document" />
-      <wsdl:input name="GetStatisticsRequest">
-        <soap:header message="tns:GetStatisticsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetStatisticsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetStatisticsRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetMailboxes">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxes" style="document" />
+      <wsdl:input name="GetMailboxesRequest">
+        <soap:header message="tns:GetMailboxesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetMailboxesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetMailboxesRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="GetStatisticsResponse">
-        <soap:header message="tns:GetStatisticsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetStatisticsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetStatisticsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetStatisticsResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetMailboxesResponse">
+        <soap:header message="tns:GetMailboxesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetMailboxesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetMailboxesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetMailboxesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMailboxEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxEntity" style="document" />
+      <wsdl:input name="GetMailboxEntityRequest">
+        <soap:header message="tns:GetMailboxEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetMailboxEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetMailboxEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetMailboxEntityResponse">
+        <soap:header message="tns:GetMailboxEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetMailboxEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetMailboxEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetMailboxEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParsedTemplate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetParsedTemplate" style="document" />
+      <wsdl:input name="GetParsedTemplateRequest">
+        <soap:header message="tns:GetParsedTemplateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetParsedTemplateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetParsedTemplateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetParsedTemplateResponse">
+        <soap:header message="tns:GetParsedTemplateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetParsedTemplateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetParsedTemplateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetParsedTemplateResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2672,35 +2966,83 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="DeleteChatSessions">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessions" style="document" />
-      <wsdl:input name="DeleteChatSessionsRequest">
-        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteChatSessionsRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="TestSmtpServer">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/TestSmtpServer" style="document" />
+      <wsdl:input name="TestSmtpServerRequest">
+        <soap:header message="tns:TestSmtpServerRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:TestSmtpServerRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:TestSmtpServerRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="DeleteChatSessionsResponse">
-        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteChatSessionsResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="TestSmtpServerResponse">
+        <soap:header message="tns:TestSmtpServerResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:TestSmtpServerResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:TestSmtpServerResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:TestSmtpServerResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="ChatSessionsForUser">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ChatSessionsForUser" style="document" />
-      <wsdl:input name="ChatSessionsForUserRequest">
-        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:ChatSessionsForUserRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetStatistics">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatistics" style="document" />
+      <wsdl:input name="GetStatisticsRequest">
+        <soap:header message="tns:GetStatisticsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetStatisticsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetStatisticsRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="ChatSessionsForUserResponse">
-        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:ChatSessionsForUserResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetStatisticsResponse">
+        <soap:header message="tns:GetStatisticsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetStatisticsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetStatisticsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetStatisticsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicketFromMailData">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailData" style="document" />
+      <wsdl:input name="CreateTicketFromMailDataRequest">
+        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateTicketFromMailDataRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateTicketFromMailDataResponse">
+        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateTicketFromMailDataResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMessageFromMailData">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/AddMessageFromMailData" style="document" />
+      <wsdl:input name="AddMessageFromMailDataRequest">
+        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AddMessageFromMailDataRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AddMessageFromMailDataResponse">
+        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AddMessageFromMailDataResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTicketsByTitleOrId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/FindTicketsByTitleOrId" style="document" />
+      <wsdl:input name="FindTicketsByTitleOrIdRequest">
+        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:FindTicketsByTitleOrIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="FindTicketsByTitleOrIdResponse">
+        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:FindTicketsByTitleOrIdResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

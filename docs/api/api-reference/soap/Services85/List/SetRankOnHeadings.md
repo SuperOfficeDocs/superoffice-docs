@@ -1,10 +1,10 @@
 ---
-uid: services85-list-setrankonheadings
 title: Services85.ListAgent.SetRankOnHeadings SOAP
-Generated: true
+generated: 1
+uid: Services85-List-SetRankOnHeadings
 ---
 
-# Services85 List SetRankOnHeadings SOAP
+# Services85 List SetRankOnHeadings
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SetRankOnHeadings">SuperOffice.Services85.IListAgent.SetRankOnHeadings</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getdocumenttemplateusedinsalesstage
 title: Services88.ListAgent.GetDocumentTemplateUsedInSalesStage SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetDocumentTemplateUsedInSalesStage
 ---
 
-# Services88 List GetDocumentTemplateUsedInSalesStage SOAP
+# Services88 List GetDocumentTemplateUsedInSalesStage
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetDocumentTemplateUsedInSalesStage">SuperOffice.Services88.IListAgent.GetDocumentTemplateUsedInSalesStage</see> method.

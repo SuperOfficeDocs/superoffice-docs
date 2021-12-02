@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-toggleactivity
 title: Services84.AppointmentAgent.ToggleActivity SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-ToggleActivity
 ---
 
-# Services84 Appointment ToggleActivity SOAP
+# Services84 Appointment ToggleActivity
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.ToggleActivity">SuperOffice.Services84.IAppointmentAgent.ToggleActivity</see> method.

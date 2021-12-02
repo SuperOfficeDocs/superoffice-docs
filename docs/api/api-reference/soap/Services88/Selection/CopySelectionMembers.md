@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-copyselectionmembers
 title: Services88.SelectionAgent.CopySelectionMembers SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-CopySelectionMembers
 ---
 
-# Services88 Selection CopySelectionMembers SOAP
+# Services88 Selection CopySelectionMembers
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.CopySelectionMembers">SuperOffice.Services88.ISelectionAgent.CopySelectionMembers</see> method.

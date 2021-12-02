@@ -1,10 +1,10 @@
 ---
-uid: services85-contact-getduplicaterules
 title: Services85.ContactAgent.GetDuplicateRules SOAP
-Generated: true
+generated: 1
+uid: Services85-Contact-GetDuplicateRules
 ---
 
-# Services85 Contact GetDuplicateRules SOAP
+# Services85 Contact GetDuplicateRules
 
 SOAP request and response examples **Remote/Services85/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetDuplicateRules">SuperOffice.Services85.IContactAgent.GetDuplicateRules</see> method.

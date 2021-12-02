@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-forcesyncall
 title: Services88.ErpSyncAgent.ForceSyncAll SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-ForceSyncAll
 ---
 
-# Services88 ErpSync ForceSyncAll SOAP
+# Services88 ErpSync ForceSyncAll
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceSyncAll">SuperOffice.Services88.IErpSyncAgent.ForceSyncAll</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-list-setrankonsaledocument
 title: Services88.ListAgent.SetRankOnSaleDocument SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SetRankOnSaleDocument
 ---
 
-# Services88 List SetRankOnSaleDocument SOAP
+# Services88 List SetRankOnSaleDocument
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetRankOnSaleDocument">SuperOffice.Services88.IListAgent.SetRankOnSaleDocument</see> method.

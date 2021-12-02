@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getticketcategories
 title: Services88.ListAgent.GetTicketCategories SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetTicketCategories
 ---
 
-# Services88 List GetTicketCategories SOAP
+# Services88 List GetTicketCategories
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetTicketCategories">SuperOffice.Services88.IListAgent.GetTicketCategories</see> method.
@@ -77,6 +77,24 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:AssignmentLag xsi:type="xsd:int">0</List:AssignmentLag>
      <List:ReplyTemplate xsi:type="xsd:int">0</List:ReplyTemplate>
      <List:NotificationEmail xsi:type="xsd:string"></List:NotificationEmail>
+     <List:DefaultTicketStatus xsi:type="List:TicketStatusEntity">
+      <List:TicketStatusId xsi:type="xsd:int">0</List:TicketStatusId>
+      <List:Name xsi:type="xsd:string"></List:Name>
+      <List:Status xsi:type="List:TicketBaseStatus">Unknown</List:Status>
+      <List:TimeCounter xsi:type="List:TicketStatusTimeCounter">None</List:TimeCounter>
+      <List:NoEmailReopen xsi:type="xsd:boolean">false</List:NoEmailReopen>
+      <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
+      <List:UsedInQueue xsi:type="xsd:boolean">false</List:UsedInQueue>
+     </List:DefaultTicketStatus>
+     <List:DefaultMessageStatus xsi:type="List:TicketStatusEntity">
+      <List:TicketStatusId xsi:type="xsd:int">0</List:TicketStatusId>
+      <List:Name xsi:type="xsd:string"></List:Name>
+      <List:Status xsi:type="List:TicketBaseStatus">Unknown</List:Status>
+      <List:TimeCounter xsi:type="List:TicketStatusTimeCounter">None</List:TimeCounter>
+      <List:NoEmailReopen xsi:type="xsd:boolean">false</List:NoEmailReopen>
+      <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
+      <List:UsedInQueue xsi:type="xsd:boolean">false</List:UsedInQueue>
+     </List:DefaultMessageStatus>
      <List:ExtraFields xsi:type="List:StringDictionary">
       <List:StringKeyValuePair>
        <List:Key xsi:type="xsd:string"></List:Key>

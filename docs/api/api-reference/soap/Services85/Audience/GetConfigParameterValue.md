@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-getconfigparametervalue
 title: Services85.AudienceAgent.GetConfigParameterValue SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-GetConfigParameterValue
 ---
 
-# Services85 Audience GetConfigParameterValue SOAP
+# Services85 Audience GetConfigParameterValue
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetConfigParameterValue">SuperOffice.Services85.IAudienceAgent.GetConfigParameterValue</see> method.

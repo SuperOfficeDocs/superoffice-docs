@@ -1,10 +1,10 @@
 ---
-uid: services87-user-isusernamevalidwithreason
 title: Services87.UserAgent.IsUserNameValidWithReason SOAP
-Generated: true
+generated: 1
+uid: Services87-User-IsUserNameValidWithReason
 ---
 
-# Services87 User IsUserNameValidWithReason SOAP
+# Services87 User IsUserNameValidWithReason
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.IsUserNameValidWithReason">SuperOffice.Services87.IUserAgent.IsUserNameValidWithReason</see> method.

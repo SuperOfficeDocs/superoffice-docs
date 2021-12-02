@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-getenginestatus
 title: Services84.ErpSyncAgent.GetEngineStatus SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-GetEngineStatus
 ---
 
-# Services84 ErpSync GetEngineStatus SOAP
+# Services84 ErpSync GetEngineStatus
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetEngineStatus">SuperOffice.Services84.IErpSyncAgent.GetEngineStatus</see> method.

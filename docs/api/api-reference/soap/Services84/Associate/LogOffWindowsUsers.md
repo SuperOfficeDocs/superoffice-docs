@@ -1,10 +1,10 @@
 ---
-uid: services84-associate-logoffwindowsusers
 title: Services84.AssociateAgent.LogOffWindowsUsers SOAP
-Generated: true
+generated: 1
+uid: Services84-Associate-LogOffWindowsUsers
 ---
 
-# Services84 Associate LogOffWindowsUsers SOAP
+# Services84 Associate LogOffWindowsUsers
 
 SOAP request and response examples **Remote/Services84/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAssociateAgent.LogOffWindowsUsers">SuperOffice.Services84.IAssociateAgent.LogOffWindowsUsers</see> method.

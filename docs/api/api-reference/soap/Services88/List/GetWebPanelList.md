@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getwebpanellist
 title: Services88.ListAgent.GetWebPanelList SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetWebPanelList
 ---
 
-# Services88 List GetWebPanelList SOAP
+# Services88 List GetWebPanelList
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetWebPanelList">SuperOffice.Services88.IListAgent.GetWebPanelList</see> method.

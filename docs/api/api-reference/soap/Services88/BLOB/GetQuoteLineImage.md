@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-getquotelineimage
 title: Services88.BLOBAgent.GetQuoteLineImage SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-GetQuoteLineImage
 ---
 
-# Services88 BLOB GetQuoteLineImage SOAP
+# Services88 BLOB GetQuoteLineImage
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.GetQuoteLineImage">SuperOffice.Services88.IBLOBAgent.GetQuoteLineImage</see> method.

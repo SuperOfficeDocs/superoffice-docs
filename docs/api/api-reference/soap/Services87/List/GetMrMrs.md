@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getmrmrs
 title: Services87.ListAgent.GetMrMrs SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetMrMrs
 ---
 
-# Services87 List GetMrMrs SOAP
+# Services87 List GetMrMrs
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetMrMrs">SuperOffice.Services87.IListAgent.GetMrMrs</see> method.

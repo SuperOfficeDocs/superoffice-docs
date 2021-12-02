@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-deletewindowpossize
 title: Services87.ConfigurationAgent.DeleteWindowPosSize SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-DeleteWindowPosSize
 ---
 
-# Services87 Configuration DeleteWindowPosSize SOAP
+# Services87 Configuration DeleteWindowPosSize
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.DeleteWindowPosSize">SuperOffice.Services87.IConfigurationAgent.DeleteWindowPosSize</see> method.

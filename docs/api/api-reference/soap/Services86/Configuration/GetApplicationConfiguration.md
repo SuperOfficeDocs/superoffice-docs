@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-getapplicationconfiguration
 title: Services86.ConfigurationAgent.GetApplicationConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-GetApplicationConfiguration
 ---
 
-# Services86 Configuration GetApplicationConfiguration SOAP
+# Services86 Configuration GetApplicationConfiguration
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetApplicationConfiguration">SuperOffice.Services86.IConfigurationAgent.GetApplicationConfiguration</see> method.

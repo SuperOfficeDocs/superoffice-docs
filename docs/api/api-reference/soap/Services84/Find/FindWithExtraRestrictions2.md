@@ -1,10 +1,10 @@
 ---
-uid: services84-find-findwithextrarestrictions2
 title: Services84.FindAgent.FindWithExtraRestrictions2 SOAP
-Generated: true
+generated: 1
+uid: Services84-Find-FindWithExtraRestrictions2
 ---
 
-# Services84 Find FindWithExtraRestrictions2 SOAP
+# Services84 Find FindWithExtraRestrictions2
 
 SOAP request and response examples **Remote/Services84/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.FindWithExtraRestrictions2">SuperOffice.Services84.IFindAgent.FindWithExtraRestrictions2</see> method.

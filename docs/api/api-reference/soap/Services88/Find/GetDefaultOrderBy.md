@@ -1,10 +1,10 @@
 ---
-uid: services88-find-getdefaultorderby
 title: Services88.FindAgent.GetDefaultOrderBy SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-GetDefaultOrderBy
 ---
 
-# Services88 Find GetDefaultOrderBy SOAP
+# Services88 Find GetDefaultOrderBy
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.GetDefaultOrderBy">SuperOffice.Services88.IFindAgent.GetDefaultOrderBy</see> method.

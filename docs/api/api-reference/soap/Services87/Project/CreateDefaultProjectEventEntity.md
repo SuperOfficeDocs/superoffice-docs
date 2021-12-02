@@ -1,10 +1,10 @@
 ---
-uid: services87-project-createdefaultprojectevententity
 title: Services87.ProjectAgent.CreateDefaultProjectEventEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-CreateDefaultProjectEventEntity
 ---
 
-# Services87 Project CreateDefaultProjectEventEntity SOAP
+# Services87 Project CreateDefaultProjectEventEntity
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.CreateDefaultProjectEventEntity">SuperOffice.Services87.IProjectAgent.CreateDefaultProjectEventEntity</see> method.
@@ -69,9 +69,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
-    <Project:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:CreatedDate>
+    <Project:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:CreatedDate>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
     <Project:SignOffTaskId xsi:type="xsd:int">0</Project:SignOffTaskId>
@@ -80,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOnTaskEnable xsi:type="xsd:boolean">false</Project:SignOnTaskEnable>
     <Project:SignOnTaskId xsi:type="xsd:int">0</Project:SignOnTaskId>
     <Project:SignOnTriggersAssign xsi:type="xsd:boolean">false</Project:SignOnTriggersAssign>
-    <Project:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:UpdatedDate>
+    <Project:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:UpdatedDate>
     <Project:CreatedBy xsi:type="Project:Associate">
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:Name xsi:type="xsd:string"></Project:Name>
@@ -111,9 +111,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Project:UpdatedBy>
     <Project:ProjectId xsi:type="xsd:int">0</Project:ProjectId>
     <Project:Id xsi:type="xsd:int">0</Project:Id>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishFrom>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishFrom>
     <Project:PublishType xsi:type="Project:PublishType">Undefined</Project:PublishType>
-    <Project:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:41Z</Project:PublishTo>
+    <Project:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishTo>
     <Project:VisibleForCategories xsi:type="Project:ArrayOfMDOListItem">
      <Project:MDOListItem xsi:type="Project:MDOListItem">
       <Project:Id xsi:type="xsd:int">0</Project:Id>

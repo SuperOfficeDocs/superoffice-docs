@@ -1,10 +1,10 @@
 ---
-uid: services87-timezone-getbasetimezoneid
 title: Services87.TimeZoneAgent.GetBaseTimeZoneId SOAP
-Generated: true
+generated: 1
+uid: Services87-TimeZone-GetBaseTimeZoneId
 ---
 
-# Services87 TimeZone GetBaseTimeZoneId SOAP
+# Services87 TimeZone GetBaseTimeZoneId
 
 SOAP request and response examples **Remote/Services87/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ITimeZoneAgent.GetBaseTimeZoneId">SuperOffice.Services87.ITimeZoneAgent.GetBaseTimeZoneId</see> method.

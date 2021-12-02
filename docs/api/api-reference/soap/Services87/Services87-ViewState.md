@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services87-ViewState
 title: Services87.ViewStateAgent WSDL
 ---
 

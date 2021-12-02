@@ -1,10 +1,10 @@
 ---
-uid: services86-email-relaymessage
 title: Services86.EMailAgent.RelayMessage SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-RelayMessage
 ---
 
-# Services86 EMail RelayMessage SOAP
+# Services86 EMail RelayMessage
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.RelayMessage">SuperOffice.Services86.IEMailAgent.RelayMessage</see> method.

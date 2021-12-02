@@ -1,10 +1,10 @@
 ---
-uid: services88-foreignsystem-getallforeignkeysonentity
 title: Services88.ForeignSystemAgent.GetAllForeignKeysOnEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-ForeignSystem-GetAllForeignKeysOnEntity
 ---
 
-# Services88 ForeignSystem GetAllForeignKeysOnEntity SOAP
+# Services88 ForeignSystem GetAllForeignKeysOnEntity
 
 SOAP request and response examples **Remote/Services88/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IForeignSystemAgent.GetAllForeignKeysOnEntity">SuperOffice.Services88.IForeignSystemAgent.GetAllForeignKeysOnEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-getdefaultvalueinfo
 title: Services87.ErpSyncAgent.GetDefaultValueInfo SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-GetDefaultValueInfo
 ---
 
-# Services87 ErpSync GetDefaultValueInfo SOAP
+# Services87 ErpSync GetDefaultValueInfo
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetDefaultValueInfo">SuperOffice.Services87.IErpSyncAgent.GetDefaultValueInfo</see> method.

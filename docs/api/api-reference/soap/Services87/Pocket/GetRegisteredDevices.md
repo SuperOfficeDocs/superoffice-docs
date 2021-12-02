@@ -1,10 +1,10 @@
 ---
-uid: services87-pocket-getregistereddevices
 title: Services87.PocketAgent.GetRegisteredDevices SOAP
-Generated: true
+generated: 1
+uid: Services87-Pocket-GetRegisteredDevices
 ---
 
-# Services87 Pocket GetRegisteredDevices SOAP
+# Services87 Pocket GetRegisteredDevices
 
 SOAP request and response examples **Remote/Services87/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPocketAgent.GetRegisteredDevices">SuperOffice.Services87.IPocketAgent.GetRegisteredDevices</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-list-createdefaultheadingentity
 title: Services84.ListAgent.CreateDefaultHeadingEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-CreateDefaultHeadingEntity
 ---
 
-# Services84 List CreateDefaultHeadingEntity SOAP
+# Services84 List CreateDefaultHeadingEntity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultHeadingEntity">SuperOffice.Services84.IListAgent.CreateDefaultHeadingEntity</see> method.

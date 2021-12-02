@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-getprovidernames
 title: Services88.ArchiveAgent.GetProviderNames SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-GetProviderNames
 ---
 
-# Services88 Archive GetProviderNames SOAP
+# Services88 Archive GetProviderNames
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetProviderNames">SuperOffice.Services88.IArchiveAgent.GetProviderNames</see> method.

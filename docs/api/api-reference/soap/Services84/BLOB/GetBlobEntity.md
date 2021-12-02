@@ -1,10 +1,10 @@
 ---
-uid: services84-blob-getblobentity
 title: Services84.BLOBAgent.GetBlobEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-BLOB-GetBlobEntity
 ---
 
-# Services84 BLOB GetBlobEntity SOAP
+# Services84 BLOB GetBlobEntity
 
 SOAP request and response examples **Remote/Services84/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.GetBlobEntity">SuperOffice.Services84.IBLOBAgent.GetBlobEntity</see> method.
@@ -72,8 +72,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
     <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
     <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-    <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</BLOB:CreatedDate>
-    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</BLOB:UpdatedDate>
+    <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</BLOB:CreatedDate>
+    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</BLOB:UpdatedDate>
     <BLOB:CreatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
      <BLOB:Name xsi:type="xsd:string"></BLOB:Name>

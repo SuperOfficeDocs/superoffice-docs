@@ -1,10 +1,10 @@
 ---
-uid: services86-document-substitutemergedocumenttemplatevariables
 title: Services86.DocumentAgent.SubstituteMergeDocumentTemplateVariables SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-SubstituteMergeDocumentTemplateVariables
 ---
 
-# Services86 Document SubstituteMergeDocumentTemplateVariables SOAP
+# Services86 Document SubstituteMergeDocumentTemplateVariables
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.SubstituteMergeDocumentTemplateVariables">SuperOffice.Services86.IDocumentAgent.SubstituteMergeDocumentTemplateVariables</see> method.

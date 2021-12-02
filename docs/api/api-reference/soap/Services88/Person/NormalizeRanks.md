@@ -1,10 +1,10 @@
 ---
-uid: services88-person-normalizeranks
 title: Services88.PersonAgent.NormalizeRanks SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-NormalizeRanks
 ---
 
-# Services88 Person NormalizeRanks SOAP
+# Services88 Person NormalizeRanks
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.NormalizeRanks">SuperOffice.Services88.IPersonAgent.NormalizeRanks</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-selection-getrecipientstatisticsfromcontactpersonids
 title: Services86.SelectionAgent.GetRecipientStatisticsFromContactPersonIds SOAP
-Generated: true
+generated: 1
+uid: Services86-Selection-GetRecipientStatisticsFromContactPersonIds
 ---
 
-# Services86 Selection GetRecipientStatisticsFromContactPersonIds SOAP
+# Services86 Selection GetRecipientStatisticsFromContactPersonIds
 
 SOAP request and response examples **Remote/Services86/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds">SuperOffice.Services86.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds</see> method.

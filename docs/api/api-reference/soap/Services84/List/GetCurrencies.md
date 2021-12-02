@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getcurrencies
 title: Services84.ListAgent.GetCurrencies SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetCurrencies
 ---
 
-# Services84 List GetCurrencies SOAP
+# Services84 List GetCurrencies
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetCurrencies">SuperOffice.Services84.IListAgent.GetCurrencies</see> method.

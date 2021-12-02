@@ -1,10 +1,10 @@
 ---
-uid: services87-email-hasmxrecord
 title: Services87.EMailAgent.HasMXRecord SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-HasMXRecord
 ---
 
-# Services87 EMail HasMXRecord SOAP
+# Services87 EMail HasMXRecord
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.HasMXRecord">SuperOffice.Services87.IEMailAgent.HasMXRecord</see> method.

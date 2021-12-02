@@ -1,10 +1,10 @@
 ---
-uid: services85-report-savereportentity
 title: Services85.ReportAgent.SaveReportEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Report-SaveReportEntity
 ---
 
-# Services85 Report SaveReportEntity SOAP
+# Services85 Report SaveReportEntity
 
 SOAP request and response examples **Remote/Services85/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IReportAgent.SaveReportEntity">SuperOffice.Services85.IReportAgent.SaveReportEntity</see> method.

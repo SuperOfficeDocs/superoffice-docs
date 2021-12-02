@@ -1,10 +1,10 @@
 ---
-uid: services88-dashboard-getdata
 title: Services88.DashboardAgent.GetData SOAP
-Generated: true
+generated: 1
+uid: Services88-Dashboard-GetData
 ---
 
-# Services88 Dashboard GetData SOAP
+# Services88 Dashboard GetData
 
 SOAP request and response examples **Remote/Services88/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.GetData">SuperOffice.Services88.IDashboardAgent.GetData</see> method.
@@ -83,6 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Dashboard:Width xsi:type="xsd:string"></Dashboard:Width>
        <Dashboard:IconHint xsi:type="xsd:string"></Dashboard:IconHint>
        <Dashboard:HeadingIconHint xsi:type="xsd:string"></Dashboard:HeadingIconHint>
+       <Dashboard:ExtraInfo xsi:type="xsd:string"></Dashboard:ExtraInfo>
       </Dashboard:ArchiveColumnInfo>
      </Dashboard:Columns>
      <Dashboard:Result xsi:type="Dashboard:ArchiveListResult">

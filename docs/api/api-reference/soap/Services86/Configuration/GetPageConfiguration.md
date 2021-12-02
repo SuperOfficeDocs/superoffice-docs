@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-getpageconfiguration
 title: Services86.ConfigurationAgent.GetPageConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-GetPageConfiguration
 ---
 
-# Services86 Configuration GetPageConfiguration SOAP
+# Services86 Configuration GetPageConfiguration
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetPageConfiguration">SuperOffice.Services86.IConfigurationAgent.GetPageConfiguration</see> method.

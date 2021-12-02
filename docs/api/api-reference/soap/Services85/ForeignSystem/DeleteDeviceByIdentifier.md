@@ -1,10 +1,10 @@
 ---
-uid: services85-foreignsystem-deletedevicebyidentifier
 title: Services85.ForeignSystemAgent.DeleteDeviceByIdentifier SOAP
-Generated: true
+generated: 1
+uid: Services85-ForeignSystem-DeleteDeviceByIdentifier
 ---
 
-# Services85 ForeignSystem DeleteDeviceByIdentifier SOAP
+# Services85 ForeignSystem DeleteDeviceByIdentifier
 
 SOAP request and response examples **Remote/Services85/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.DeleteDeviceByIdentifier">SuperOffice.Services85.IForeignSystemAgent.DeleteDeviceByIdentifier</see> method.

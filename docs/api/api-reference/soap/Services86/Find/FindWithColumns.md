@@ -1,10 +1,10 @@
 ---
-uid: services86-find-findwithcolumns
 title: Services86.FindAgent.FindWithColumns SOAP
-Generated: true
+generated: 1
+uid: Services86-Find-FindWithColumns
 ---
 
-# Services86 Find FindWithColumns SOAP
+# Services86 Find FindWithColumns
 
 SOAP request and response examples **Remote/Services86/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.FindWithColumns">SuperOffice.Services86.IFindAgent.FindWithColumns</see> method.

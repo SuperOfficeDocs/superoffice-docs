@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-getquotelineimage
 title: Services86.QuoteAgent.GetQuoteLineImage SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-GetQuoteLineImage
 ---
 
-# Services86 Quote GetQuoteLineImage SOAP
+# Services86 Quote GetQuoteLineImage
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetQuoteLineImage">SuperOffice.Services86.IQuoteAgent.GetQuoteLineImage</see> method.

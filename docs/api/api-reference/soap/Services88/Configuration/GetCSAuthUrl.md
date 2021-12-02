@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-getcsauthurl
 title: Services88.ConfigurationAgent.GetCSAuthUrl SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-GetCSAuthUrl
 ---
 
-# Services88 Configuration GetCSAuthUrl SOAP
+# Services88 Configuration GetCSAuthUrl
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetCSAuthUrl">SuperOffice.Services88.IConfigurationAgent.GetCSAuthUrl</see> method.

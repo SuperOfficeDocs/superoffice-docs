@@ -1,10 +1,10 @@
 ---
-uid: services87-archive-getarchiveconfiguration
 title: Services87.ArchiveAgent.GetArchiveConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services87-Archive-GetArchiveConfiguration
 ---
 
-# Services87 Archive GetArchiveConfiguration SOAP
+# Services87 Archive GetArchiveConfiguration
 
 SOAP request and response examples **Remote/Services87/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IArchiveAgent.GetArchiveConfiguration">SuperOffice.Services87.IArchiveAgent.GetArchiveConfiguration</see> method.
@@ -95,7 +95,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:26Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -107,7 +107,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:26Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>

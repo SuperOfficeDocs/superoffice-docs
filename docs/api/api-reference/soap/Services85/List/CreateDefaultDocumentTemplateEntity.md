@@ -1,10 +1,10 @@
 ---
-uid: services85-list-createdefaultdocumenttemplateentity
 title: Services85.ListAgent.CreateDefaultDocumentTemplateEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-List-CreateDefaultDocumentTemplateEntity
 ---
 
-# Services85 List CreateDefaultDocumentTemplateEntity SOAP
+# Services85 List CreateDefaultDocumentTemplateEntity
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.CreateDefaultDocumentTemplateEntity">SuperOffice.Services85.IListAgent.CreateDefaultDocumentTemplateEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-getuidfromappointmentid
 title: Services88.AppointmentAgent.GetUIDFromAppointmentId SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-GetUIDFromAppointmentId
 ---
 
-# Services88 Appointment GetUIDFromAppointmentId SOAP
+# Services88 Appointment GetUIDFromAppointmentId
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.GetUIDFromAppointmentId">SuperOffice.Services88.IAppointmentAgent.GetUIDFromAppointmentId</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services88-person
 title: Services88.PersonAgent SOAP
-Generated: true
+uid: Services88-Person-soap
+generated: 1
 ---
 
 # Services88 Person SOAP
@@ -17,6 +17,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 
 * [AddBounce](AddBounce.md)
 * [AddBounceWithCount](AddBounceWithCount.md)
+* [AddBounceWithDetails](AddBounceWithDetails.md)
 * [AddEmailAddressToPerson](AddEmailAddressToPerson.md)
 * [ChangeCountry](ChangeCountry.md)
 * [ChangePersonRank](ChangePersonRank.md)
@@ -32,6 +33,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [DeleteTemporaryKeysOfDomain](DeleteTemporaryKeysOfDomain.md)
 * [GetAddress](GetAddress.md)
 * [GetAddressByCountry](GetAddressByCountry.md)
+* [GetBestSoLanguageForTemplate](GetBestSoLanguageForTemplate.md)
 * [GetColleagues](GetColleagues.md)
 * [GetColleaguesByDepartment](GetColleaguesByDepartment.md)
 * [GetColleaguesBySource](GetColleaguesBySource.md)
@@ -64,3 +66,4 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SetPersonRank](SetPersonRank.md)
 * [Undelete](Undelete.md)
 * [ValidatePersonEntity](ValidatePersonEntity.md)
+

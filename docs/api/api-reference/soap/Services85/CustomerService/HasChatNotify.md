@@ -1,10 +1,10 @@
 ---
-uid: services85-customerservice-haschatnotify
 title: Services85.CustomerServiceAgent.HasChatNotify SOAP
-Generated: true
+generated: 1
+uid: Services85-CustomerService-HasChatNotify
 ---
 
-# Services85 CustomerService HasChatNotify SOAP
+# Services85 CustomerService HasChatNotify
 
 SOAP request and response examples **Remote/Services85/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.HasChatNotify">SuperOffice.Services85.ICustomerServiceAgent.HasChatNotify</see> method.

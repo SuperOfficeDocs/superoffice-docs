@@ -1,10 +1,10 @@
 ---
-uid: services85-contact-undelete
 title: Services85.ContactAgent.Undelete SOAP
-Generated: true
+generated: 1
+uid: Services85-Contact-Undelete
 ---
 
-# Services85 Contact Undelete SOAP
+# Services85 Contact Undelete
 
 SOAP request and response examples **Remote/Services85/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.Undelete">SuperOffice.Services85.IContactAgent.Undelete</see> method.

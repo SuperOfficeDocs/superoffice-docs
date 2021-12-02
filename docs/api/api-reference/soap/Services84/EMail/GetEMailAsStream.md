@@ -1,10 +1,10 @@
 ---
-uid: services84-email-getemailasstream
 title: Services84.EMailAgent.GetEMailAsStream SOAP
-Generated: true
+generated: 1
+uid: Services84-EMail-GetEMailAsStream
 ---
 
-# Services84 EMail GetEMailAsStream SOAP
+# Services84 EMail GetEMailAsStream
 
 SOAP request and response examples **Remote/Services84/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetEMailAsStream">SuperOffice.Services84.IEMailAgent.GetEMailAsStream</see> method.

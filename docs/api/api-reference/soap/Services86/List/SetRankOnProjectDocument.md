@@ -1,10 +1,10 @@
 ---
-uid: services86-list-setrankonprojectdocument
 title: Services86.ListAgent.SetRankOnProjectDocument SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SetRankOnProjectDocument
 ---
 
-# Services86 List SetRankOnProjectDocument SOAP
+# Services86 List SetRankOnProjectDocument
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SetRankOnProjectDocument">SuperOffice.Services86.IListAgent.SetRankOnProjectDocument</see> method.

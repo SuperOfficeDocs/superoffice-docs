@@ -1,10 +1,10 @@
 ---
-uid: services88-crmscript-validatetriggerscriptbyuniqueid
 title: Services88.CRMScriptAgent.ValidateTriggerScriptByUniqueId SOAP
-Generated: true
+generated: 1
+uid: Services88-CRMScript-ValidateTriggerScriptByUniqueId
 ---
 
-# Services88 CRMScript ValidateTriggerScriptByUniqueId SOAP
+# Services88 CRMScript ValidateTriggerScriptByUniqueId
 
 SOAP request and response examples **Remote/Services88/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.ValidateTriggerScriptByUniqueId">SuperOffice.Services88.ICRMScriptAgent.ValidateTriggerScriptByUniqueId</see> method.

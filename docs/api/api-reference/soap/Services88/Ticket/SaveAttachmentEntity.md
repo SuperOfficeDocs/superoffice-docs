@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-saveattachmententity
 title: Services88.TicketAgent.SaveAttachmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-SaveAttachmentEntity
 ---
 
-# Services88 Ticket SaveAttachmentEntity SOAP
+# Services88 Ticket SaveAttachmentEntity
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SaveAttachmentEntity">SuperOffice.Services88.ITicketAgent.SaveAttachmentEntity</see> method.
@@ -47,6 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
      <Ticket:ContentType xsi:type="xsd:string"></Ticket:ContentType>
      <Ticket:AttSize xsi:type="xsd:int">0</Ticket:AttSize>
+     <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
+     <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
     </Ticket:AttachmentEntity>
    </Ticket:SaveAttachmentEntity>
 
@@ -75,6 +77,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
     <Ticket:ContentType xsi:type="xsd:string"></Ticket:ContentType>
     <Ticket:AttSize xsi:type="xsd:int">0</Ticket:AttSize>
+    <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
+    <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
    </Ticket:Response>
   </Ticket:SaveAttachmentEntityResponse>
  </SOAP-ENV:Body>

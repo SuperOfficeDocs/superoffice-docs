@@ -1,10 +1,10 @@
 ---
-uid: services84-configuration-getwindowpossize
 title: Services84.ConfigurationAgent.GetWindowPosSize SOAP
-Generated: true
+generated: 1
+uid: Services84-Configuration-GetWindowPosSize
 ---
 
-# Services84 Configuration GetWindowPosSize SOAP
+# Services84 Configuration GetWindowPosSize
 
 SOAP request and response examples **Remote/Services84/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetWindowPosSize">SuperOffice.Services84.IConfigurationAgent.GetWindowPosSize</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getcountrylist
 title: Services84.ListAgent.GetCountryList SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetCountryList
 ---
 
-# Services84 List GetCountryList SOAP
+# Services84 List GetCountryList
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetCountryList">SuperOffice.Services84.IListAgent.GetCountryList</see> method.

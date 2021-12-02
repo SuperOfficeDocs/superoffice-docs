@@ -1,10 +1,10 @@
 ---
-uid: services87-userdefinedfieldinfo-detectunpublishedchanges
 title: Services87.UserDefinedFieldInfoAgent.DetectUnpublishedChanges SOAP
-Generated: true
+generated: 1
+uid: Services87-UserDefinedFieldInfo-DetectUnpublishedChanges
 ---
 
-# Services87 UserDefinedFieldInfo DetectUnpublishedChanges SOAP
+# Services87 UserDefinedFieldInfo DetectUnpublishedChanges
 
 SOAP request and response examples **Remote/Services87/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges">SuperOffice.Services87.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges</see> method.

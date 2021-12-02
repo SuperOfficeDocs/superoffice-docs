@@ -1,10 +1,10 @@
 ---
-uid: services88-report-generatereport
 title: Services88.ReportAgent.GenerateReport SOAP
-Generated: true
+generated: 1
+uid: Services88-Report-GenerateReport
 ---
 
-# Services88 Report GenerateReport SOAP
+# Services88 Report GenerateReport
 
 SOAP request and response examples **Remote/Services88/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.GenerateReport">SuperOffice.Services88.IReportAgent.GenerateReport</see> method.
@@ -75,6 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Report:Width xsi:type="xsd:string"></Report:Width>
        <Report:IconHint xsi:type="xsd:string"></Report:IconHint>
        <Report:HeadingIconHint xsi:type="xsd:string"></Report:HeadingIconHint>
+       <Report:ExtraInfo xsi:type="xsd:string"></Report:ExtraInfo>
       </Report:ColumnInfo>
       <Report:IsActive xsi:type="xsd:boolean">false</Report:IsActive>
       <Report:SubRestrictions xsi:type="Report:ArrayOfArchiveRestrictionInfo">
@@ -100,6 +101,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Report:Width xsi:type="xsd:string"></Report:Width>
          <Report:IconHint xsi:type="xsd:string"></Report:IconHint>
          <Report:HeadingIconHint xsi:type="xsd:string"></Report:HeadingIconHint>
+         <Report:ExtraInfo xsi:type="xsd:string"></Report:ExtraInfo>
         </Report:ColumnInfo>
         <Report:IsActive xsi:type="xsd:boolean">false</Report:IsActive>
         <Report:SubRestrictions xsi:type="Report:ArrayOfArchiveRestrictionInfo">

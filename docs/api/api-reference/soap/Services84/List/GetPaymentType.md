@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getpaymenttype
 title: Services84.ListAgent.GetPaymentType SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetPaymentType
 ---
 
-# Services84 List GetPaymentType SOAP
+# Services84 List GetPaymentType
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetPaymentType">SuperOffice.Services84.IListAgent.GetPaymentType</see> method.

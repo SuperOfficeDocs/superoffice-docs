@@ -1,10 +1,10 @@
 ---
-uid: services84-userdefinedfieldinfo-setpageonefieldgrouping
 title: Services84.UserDefinedFieldInfoAgent.SetPageOneFieldGrouping SOAP
-Generated: true
+generated: 1
+uid: Services84-UserDefinedFieldInfo-SetPageOneFieldGrouping
 ---
 
-# Services84 UserDefinedFieldInfo SetPageOneFieldGrouping SOAP
+# Services84 UserDefinedFieldInfo SetPageOneFieldGrouping
 
 SOAP request and response examples **Remote/Services84/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping">SuperOffice.Services84.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping</see> method.

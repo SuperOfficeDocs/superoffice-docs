@@ -1,10 +1,10 @@
 ---
-uid: services87-list-createdefaultextappentity
 title: Services87.ListAgent.CreateDefaultExtAppEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-CreateDefaultExtAppEntity
 ---
 
-# Services87 List CreateDefaultExtAppEntity SOAP
+# Services87 List CreateDefaultExtAppEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.CreateDefaultExtAppEntity">SuperOffice.Services87.IListAgent.CreateDefaultExtAppEntity</see> method.

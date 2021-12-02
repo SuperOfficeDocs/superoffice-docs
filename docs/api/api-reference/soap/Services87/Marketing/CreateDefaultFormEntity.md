@@ -1,10 +1,10 @@
 ---
-uid: services87-marketing-createdefaultformentity
 title: Services87.MarketingAgent.CreateDefaultFormEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Marketing-CreateDefaultFormEntity
 ---
 
-# Services87 Marketing CreateDefaultFormEntity SOAP
+# Services87 Marketing CreateDefaultFormEntity
 
 SOAP request and response examples **Remote/Services87/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IMarketingAgent.CreateDefaultFormEntity">SuperOffice.Services87.IMarketingAgent.CreateDefaultFormEntity</see> method.
@@ -72,16 +72,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ScriptId xsi:type="xsd:int">0</Marketing:ScriptId>
     <Marketing:ResponseShipmentId xsi:type="xsd:int">0</Marketing:ResponseShipmentId>
     <Marketing:Active xsi:type="xsd:boolean">false</Marketing:Active>
-    <Marketing:Expires xsi:type="xsd:dateTime">2021-03-25T21:36:38Z</Marketing:Expires>
+    <Marketing:Expires xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Expires>
     <Marketing:MaxSubmits xsi:type="xsd:int">0</Marketing:MaxSubmits>
     <Marketing:Type xsi:type="Marketing:FormType">Normal</Marketing:Type>
     <Marketing:Recipe xsi:type="xsd:string"></Marketing:Recipe>
     <Marketing:GroupId xsi:type="xsd:int">0</Marketing:GroupId>
     <Marketing:NewTicket xsi:type="xsd:boolean">false</Marketing:NewTicket>
     <Marketing:RecaptchaMode xsi:type="Marketing:FormsRecaptchaMode">NotAvailable</Marketing:RecaptchaMode>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:38Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:38Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     <Marketing:FolderName xsi:type="xsd:string"></Marketing:FolderName>

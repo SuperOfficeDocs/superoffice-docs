@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-getconnectionconfigfields
 title: Services88.QuoteAgent.GetConnectionConfigFields SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-GetConnectionConfigFields
 ---
 
-# Services88 Quote GetConnectionConfigFields SOAP
+# Services88 Quote GetConnectionConfigFields
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetConnectionConfigFields">SuperOffice.Services88.IQuoteAgent.GetConnectionConfigFields</see> method.

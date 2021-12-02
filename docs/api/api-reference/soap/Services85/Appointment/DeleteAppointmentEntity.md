@@ -1,10 +1,10 @@
 ---
-uid: services85-appointment-deleteappointmententity
 title: Services85.AppointmentAgent.DeleteAppointmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Appointment-DeleteAppointmentEntity
 ---
 
-# Services85 Appointment DeleteAppointmentEntity SOAP
+# Services85 Appointment DeleteAppointmentEntity
 
 SOAP request and response examples **Remote/Services85/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.DeleteAppointmentEntity">SuperOffice.Services85.IAppointmentAgent.DeleteAppointmentEntity</see> method.

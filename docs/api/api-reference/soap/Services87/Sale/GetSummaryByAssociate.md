@@ -1,10 +1,10 @@
 ---
-uid: services87-sale-getsummarybyassociate
 title: Services87.SaleAgent.GetSummaryByAssociate SOAP
-Generated: true
+generated: 1
+uid: Services87-Sale-GetSummaryByAssociate
 ---
 
-# Services87 Sale GetSummaryByAssociate SOAP
+# Services87 Sale GetSummaryByAssociate
 
 SOAP request and response examples **Remote/Services87/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.GetSummaryByAssociate">SuperOffice.Services87.ISaleAgent.GetSummaryByAssociate</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByAssociate>
     <Sale:AssociateId xsi:type="xsd:int">0</Sale:AssociateId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-03-25T21:36:45Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-03-25T21:36:45Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:ToDate>
    </Sale:GetSummaryByAssociate>
 
  </SOAP-ENV:Body>

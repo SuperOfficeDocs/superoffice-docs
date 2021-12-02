@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-getnextsuggestedappointmentbysale
 title: Services86.AppointmentAgent.GetNextSuggestedAppointmentBySale SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-GetNextSuggestedAppointmentBySale
 ---
 
-# Services86 Appointment GetNextSuggestedAppointmentBySale SOAP
+# Services86 Appointment GetNextSuggestedAppointmentBySale
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetNextSuggestedAppointmentBySale">SuperOffice.Services86.IAppointmentAgent.GetNextSuggestedAppointmentBySale</see> method.

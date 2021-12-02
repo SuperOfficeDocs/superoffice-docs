@@ -1,10 +1,10 @@
 ---
-uid: services88-report-deletereportlabellayoutentity
 title: Services88.ReportAgent.DeleteReportLabelLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Report-DeleteReportLabelLayoutEntity
 ---
 
-# Services88 Report DeleteReportLabelLayoutEntity SOAP
+# Services88 Report DeleteReportLabelLayoutEntity
 
 SOAP request and response examples **Remote/Services88/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.DeleteReportLabelLayoutEntity">SuperOffice.Services88.IReportAgent.DeleteReportLabelLayoutEntity</see> method.

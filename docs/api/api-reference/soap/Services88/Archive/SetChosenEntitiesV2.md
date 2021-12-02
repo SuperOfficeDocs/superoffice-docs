@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-setchosenentitiesv2
 title: Services88.ArchiveAgent.SetChosenEntitiesV2 SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-SetChosenEntitiesV2
 ---
 
-# Services88 Archive SetChosenEntitiesV2 SOAP
+# Services88 Archive SetChosenEntitiesV2
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.SetChosenEntitiesV2">SuperOffice.Services88.IArchiveAgent.SetChosenEntitiesV2</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-user-setgeneratedpasswordfromname
 title: Services86.UserAgent.SetGeneratedPasswordFromName SOAP
-Generated: true
+generated: 1
+uid: Services86-User-SetGeneratedPasswordFromName
 ---
 
-# Services86 User SetGeneratedPasswordFromName SOAP
+# Services86 User SetGeneratedPasswordFromName
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SetGeneratedPasswordFromName">SuperOffice.Services86.IUserAgent.SetGeneratedPasswordFromName</see> method.

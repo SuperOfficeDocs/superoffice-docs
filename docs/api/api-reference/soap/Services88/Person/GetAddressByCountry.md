@@ -1,10 +1,10 @@
 ---
-uid: services88-person-getaddressbycountry
 title: Services88.PersonAgent.GetAddressByCountry SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-GetAddressByCountry
 ---
 
-# Services88 Person GetAddressByCountry SOAP
+# Services88 Person GetAddressByCountry
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetAddressByCountry">SuperOffice.Services88.IPersonAgent.GetAddressByCountry</see> method.

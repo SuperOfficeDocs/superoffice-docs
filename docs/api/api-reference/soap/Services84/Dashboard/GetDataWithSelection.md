@@ -1,10 +1,10 @@
 ---
-uid: services84-dashboard-getdatawithselection
 title: Services84.DashboardAgent.GetDataWithSelection SOAP
-Generated: true
+generated: 1
+uid: Services84-Dashboard-GetDataWithSelection
 ---
 
-# Services84 Dashboard GetDataWithSelection SOAP
+# Services84 Dashboard GetDataWithSelection
 
 SOAP request and response examples **Remote/Services84/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.GetDataWithSelection">SuperOffice.Services84.IDashboardAgent.GetDataWithSelection</see> method.

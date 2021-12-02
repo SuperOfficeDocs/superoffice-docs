@@ -1,10 +1,10 @@
 ---
-uid: services88-associate-getassociatelist
 title: Services88.AssociateAgent.GetAssociateList SOAP
-Generated: true
+generated: 1
+uid: Services88-Associate-GetAssociateList
 ---
 
-# Services88 Associate GetAssociateList SOAP
+# Services88 Associate GetAssociateList
 
 SOAP request and response examples **Remote/Services88/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAssociateAgent.GetAssociateList">SuperOffice.Services88.IAssociateAgent.GetAssociateList</see> method.

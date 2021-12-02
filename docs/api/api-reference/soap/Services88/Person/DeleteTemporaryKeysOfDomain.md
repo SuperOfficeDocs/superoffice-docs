@@ -1,10 +1,10 @@
 ---
-uid: services88-person-deletetemporarykeysofdomain
 title: Services88.PersonAgent.DeleteTemporaryKeysOfDomain SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-DeleteTemporaryKeysOfDomain
 ---
 
-# Services88 Person DeleteTemporaryKeysOfDomain SOAP
+# Services88 Person DeleteTemporaryKeysOfDomain
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.DeleteTemporaryKeysOfDomain">SuperOffice.Services88.IPersonAgent.DeleteTemporaryKeysOfDomain</see> method.

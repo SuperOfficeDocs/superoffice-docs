@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getdocumentcommands
 title: Services87.DocumentAgent.GetDocumentCommands SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetDocumentCommands
 ---
 
-# Services87 Document GetDocumentCommands SOAP
+# Services87 Document GetDocumentCommands
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetDocumentCommands">SuperOffice.Services87.IDocumentAgent.GetDocumentCommands</see> method.

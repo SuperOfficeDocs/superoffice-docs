@@ -1,10 +1,10 @@
 ---
-uid: services87-phonelist-addtofavorites
 title: Services87.PhoneListAgent.AddToFavorites SOAP
-Generated: true
+generated: 1
+uid: Services87-PhoneList-AddToFavorites
 ---
 
-# Services87 PhoneList AddToFavorites SOAP
+# Services87 PhoneList AddToFavorites
 
 SOAP request and response examples **Remote/Services87/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPhoneListAgent.AddToFavorites">SuperOffice.Services87.IPhoneListAgent.AddToFavorites</see> method.

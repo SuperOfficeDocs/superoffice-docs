@@ -1,10 +1,10 @@
 ---
-uid: services87-email-createdefaultemailaccount
 title: Services87.EMailAgent.CreateDefaultEMailAccount SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-CreateDefaultEMailAccount
 ---
 
-# Services87 EMail CreateDefaultEMailAccount SOAP
+# Services87 EMail CreateDefaultEMailAccount
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateDefaultEMailAccount">SuperOffice.Services87.IEMailAgent.CreateDefaultEMailAccount</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-user-changeownpassword
 title: Services86.UserAgent.ChangeOwnPassword SOAP
-Generated: true
+generated: 1
+uid: Services86-User-ChangeOwnPassword
 ---
 
-# Services86 User ChangeOwnPassword SOAP
+# Services86 User ChangeOwnPassword
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.ChangeOwnPassword">SuperOffice.Services86.IUserAgent.ChangeOwnPassword</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services86-find
 title: Services86.FindAgent SOAP
-Generated: true
+uid: Services86-Find-soap
+generated: 1
 ---
 
 # Services86 Find SOAP
@@ -50,3 +50,4 @@ Download [WSDL file for Services86/Find](../Services86-Find.md) if you need to g
 * [SaveRestrictionsAndGetCriteriaInformation2](SaveRestrictionsAndGetCriteriaInformation2.md)
 * [SaveRestrictionsWithContext](SaveRestrictionsWithContext.md)
 * [SaveRestrictionsWithContext2](SaveRestrictionsWithContext2.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services88-user-isusernamevalid
 title: Services88.UserAgent.IsUserNameValid SOAP
-Generated: true
+generated: 1
+uid: Services88-User-IsUserNameValid
 ---
 
-# Services88 User IsUserNameValid SOAP
+# Services88 User IsUserNameValid
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.IsUserNameValid">SuperOffice.Services88.IUserAgent.IsUserNameValid</see> method.

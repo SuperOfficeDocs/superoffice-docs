@@ -1,10 +1,10 @@
 ---
-uid: services85-email-deletefolder
 title: Services85.EMailAgent.DeleteFolder SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-DeleteFolder
 ---
 
-# Services85 EMail DeleteFolder SOAP
+# Services85 EMail DeleteFolder
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.DeleteFolder">SuperOffice.Services85.IEMailAgent.DeleteFolder</see> method.

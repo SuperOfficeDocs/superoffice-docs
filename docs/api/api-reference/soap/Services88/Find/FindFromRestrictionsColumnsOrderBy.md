@@ -1,10 +1,10 @@
 ---
-uid: services88-find-findfromrestrictionscolumnsorderby
 title: Services88.FindAgent.FindFromRestrictionsColumnsOrderBy SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-FindFromRestrictionsColumnsOrderBy
 ---
 
-# Services88 Find FindFromRestrictionsColumnsOrderBy SOAP
+# Services88 Find FindFromRestrictionsColumnsOrderBy
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.FindFromRestrictionsColumnsOrderBy">SuperOffice.Services88.IFindAgent.FindFromRestrictionsColumnsOrderBy</see> method.
@@ -70,6 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Find:Width xsi:type="xsd:string"></Find:Width>
        <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
        <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+       <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
       </Find:ColumnInfo>
       <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
       <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">
@@ -95,6 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Find:Width xsi:type="xsd:string"></Find:Width>
          <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
          <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+         <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
         </Find:ColumnInfo>
         <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
         <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">
@@ -170,6 +172,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Find:Width xsi:type="xsd:string"></Find:Width>
       <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
       <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+      <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
      </Find:ArchiveColumnInfo>
     </Find:ArchiveColumns>
     <Find:ArchiveRows xsi:type="Find:ArrayOfArchiveListItem">

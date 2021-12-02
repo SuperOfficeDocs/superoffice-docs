@@ -1,10 +1,10 @@
 ---
-uid: services88-license-getuserlicensesmdolist
 title: Services88.LicenseAgent.GetUserLicensesMDOList SOAP
-Generated: true
+generated: 1
+uid: Services88-License-GetUserLicensesMDOList
 ---
 
-# Services88 License GetUserLicensesMDOList SOAP
+# Services88 License GetUserLicensesMDOList
 
 SOAP request and response examples **Remote/Services88/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.GetUserLicensesMDOList">SuperOffice.Services88.ILicenseAgent.GetUserLicensesMDOList</see> method.
@@ -76,7 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
      <License:IconHint xsi:type="xsd:string"></License:IconHint>
      <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-     <License:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</License:LastChanged>
+     <License:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:42Z</License:LastChanged>
      <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
       <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
        <License:Id xsi:type="xsd:int">0</License:Id>
@@ -88,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
        <License:IconHint xsi:type="xsd:string"></License:IconHint>
        <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-       <License:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</License:LastChanged>
+       <License:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:42Z</License:LastChanged>
        <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
         <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
          <License:Id xsi:type="xsd:int">0</License:Id>
@@ -100,7 +100,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
          <License:IconHint xsi:type="xsd:string"></License:IconHint>
          <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-         <License:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</License:LastChanged>
+         <License:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:42Z</License:LastChanged>
          <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
           <License:SelectableMDOListItem xsi:nil="true"></License:SelectableMDOListItem>
          </License:ChildItems>

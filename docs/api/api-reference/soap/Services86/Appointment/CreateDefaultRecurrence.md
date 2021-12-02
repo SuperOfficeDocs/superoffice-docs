@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-createdefaultrecurrence
 title: Services86.AppointmentAgent.CreateDefaultRecurrence SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-CreateDefaultRecurrence
 ---
 
-# Services86 Appointment CreateDefaultRecurrence SOAP
+# Services86 Appointment CreateDefaultRecurrence
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.CreateDefaultRecurrence">SuperOffice.Services86.IAppointmentAgent.CreateDefaultRecurrence</see> method.
@@ -65,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:CreateDefaultRecurrenceResponse>
    <Appointment:Response xsi:type="Appointment:RecurrenceInfo">
     <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:EndDate>
     <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
     <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
     <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -93,7 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Appointment:YearPattern>
     <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
      <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-      <Appointment:Date xsi:type="xsd:dateTime">2021-03-25T21:36:01Z</Appointment:Date>
+      <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:Date>
       <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
       <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
       <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>

@@ -1,7 +1,7 @@
 ---
-uid: services84-project
 title: Services84.ProjectAgent SOAP
-Generated: true
+uid: Services84-Project-soap
+generated: 1
 ---
 
 # Services84 Project SOAP
@@ -64,3 +64,4 @@ Download [WSDL file for Services84/Project](../Services84-Project.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)
+

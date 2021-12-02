@@ -1,10 +1,10 @@
 ---
-uid: services85-batch-deletebatchtasks
 title: Services85.BatchAgent.DeleteBatchTasks SOAP
-Generated: true
+generated: 1
+uid: Services85-Batch-DeleteBatchTasks
 ---
 
-# Services85 Batch DeleteBatchTasks SOAP
+# Services85 Batch DeleteBatchTasks
 
 SOAP request and response examples **Remote/Services85/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBatchAgent.DeleteBatchTasks">SuperOffice.Services85.IBatchAgent.DeleteBatchTasks</see> method.

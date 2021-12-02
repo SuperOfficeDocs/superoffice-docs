@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-getconfigparameteronperson
 title: Services85.AudienceAgent.GetConfigParameterOnPerson SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-GetConfigParameterOnPerson
 ---
 
-# Services85 Audience GetConfigParameterOnPerson SOAP
+# Services85 Audience GetConfigParameterOnPerson
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetConfigParameterOnPerson">SuperOffice.Services85.IAudienceAgent.GetConfigParameterOnPerson</see> method.
@@ -69,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:Name xsi:type="xsd:string"></Audience:Name>
     <Audience:Value xsi:type="xsd:string"></Audience:Value>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:41Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:41Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
     <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
    </Audience:Response>

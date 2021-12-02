@@ -1,10 +1,10 @@
 ---
-uid: services88-document-renamedocument
 title: Services88.DocumentAgent.RenameDocument SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-RenameDocument
 ---
 
-# Services88 Document RenameDocument SOAP
+# Services88 Document RenameDocument
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.RenameDocument">SuperOffice.Services88.IDocumentAgent.RenameDocument</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-userdefinedfieldinfo-getuserdefinedfieldfromprogid
 title: Services87.UserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId SOAP
-Generated: true
+generated: 1
+uid: Services87-UserDefinedFieldInfo-GetUserDefinedFieldFromProgId
 ---
 
-# Services87 UserDefinedFieldInfo GetUserDefinedFieldFromProgId SOAP
+# Services87 UserDefinedFieldInfo GetUserDefinedFieldFromProgId
 
 SOAP request and response examples **Remote/Services87/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId">SuperOffice.Services87.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId</see> method.

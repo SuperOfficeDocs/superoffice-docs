@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-declineinvitationfromemailitem
 title: Services87.AppointmentAgent.DeclineInvitationFromEmailItem SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-DeclineInvitationFromEmailItem
 ---
 
-# Services87 Appointment DeclineInvitationFromEmailItem SOAP
+# Services87 Appointment DeclineInvitationFromEmailItem
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.DeclineInvitationFromEmailItem">SuperOffice.Services87.IAppointmentAgent.DeclineInvitationFromEmailItem</see> method.

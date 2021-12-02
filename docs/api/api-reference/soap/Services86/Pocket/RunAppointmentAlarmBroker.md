@@ -1,10 +1,10 @@
 ---
-uid: services86-pocket-runappointmentalarmbroker
 title: Services86.PocketAgent.RunAppointmentAlarmBroker SOAP
-Generated: true
+generated: 1
+uid: Services86-Pocket-RunAppointmentAlarmBroker
 ---
 
-# Services86 Pocket RunAppointmentAlarmBroker SOAP
+# Services86 Pocket RunAppointmentAlarmBroker
 
 SOAP request and response examples **Remote/Services86/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPocketAgent.RunAppointmentAlarmBroker">SuperOffice.Services86.IPocketAgent.RunAppointmentAlarmBroker</see> method.

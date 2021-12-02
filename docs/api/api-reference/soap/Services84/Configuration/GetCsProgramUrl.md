@@ -1,10 +1,10 @@
 ---
-uid: services84-configuration-getcsprogramurl
 title: Services84.ConfigurationAgent.GetCsProgramUrl SOAP
-Generated: true
+generated: 1
+uid: Services84-Configuration-GetCsProgramUrl
 ---
 
-# Services84 Configuration GetCsProgramUrl SOAP
+# Services84 Configuration GetCsProgramUrl
 
 SOAP request and response examples **Remote/Services84/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetCsProgramUrl">SuperOffice.Services84.IConfigurationAgent.GetCsProgramUrl</see> method.

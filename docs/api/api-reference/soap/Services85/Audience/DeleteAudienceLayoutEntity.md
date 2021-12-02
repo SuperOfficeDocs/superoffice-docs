@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-deleteaudiencelayoutentity
 title: Services85.AudienceAgent.DeleteAudienceLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-DeleteAudienceLayoutEntity
 ---
 
-# Services85 Audience DeleteAudienceLayoutEntity SOAP
+# Services85 Audience DeleteAudienceLayoutEntity
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.DeleteAudienceLayoutEntity">SuperOffice.Services85.IAudienceAgent.DeleteAudienceLayoutEntity</see> method.

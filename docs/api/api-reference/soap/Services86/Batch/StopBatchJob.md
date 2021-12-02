@@ -1,10 +1,10 @@
 ---
-uid: services86-batch-stopbatchjob
 title: Services86.BatchAgent.StopBatchJob SOAP
-Generated: true
+generated: 1
+uid: Services86-Batch-StopBatchJob
 ---
 
-# Services86 Batch StopBatchJob SOAP
+# Services86 Batch StopBatchJob
 
 SOAP request and response examples **Remote/Services86/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBatchAgent.StopBatchJob">SuperOffice.Services86.IBatchAgent.StopBatchJob</see> method.

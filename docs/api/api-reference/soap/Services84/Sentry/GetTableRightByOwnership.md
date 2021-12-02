@@ -1,10 +1,10 @@
 ---
-uid: services84-sentry-gettablerightbyownership
 title: Services84.SentryAgent.GetTableRightByOwnership SOAP
-Generated: true
+generated: 1
+uid: Services84-Sentry-GetTableRightByOwnership
 ---
 
-# Services84 Sentry GetTableRightByOwnership SOAP
+# Services84 Sentry GetTableRightByOwnership
 
 SOAP request and response examples **Remote/Services84/Sentry.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISentryAgent.GetTableRightByOwnership">SuperOffice.Services84.ISentryAgent.GetTableRightByOwnership</see> method.

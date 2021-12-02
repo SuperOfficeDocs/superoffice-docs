@@ -1,10 +1,10 @@
 ---
-uid: services86-user-deleterole
 title: Services86.UserAgent.DeleteRole SOAP
-Generated: true
+generated: 1
+uid: Services86-User-DeleteRole
 ---
 
-# Services86 User DeleteRole SOAP
+# Services86 User DeleteRole
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.DeleteRole">SuperOffice.Services86.IUserAgent.DeleteRole</see> method.

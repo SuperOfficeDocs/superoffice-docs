@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-createdefaulterpsyncconnectorentity
 title: Services87.ErpSyncAgent.CreateDefaultErpSyncConnectorEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-CreateDefaultErpSyncConnectorEntity
 ---
 
-# Services87 ErpSync CreateDefaultErpSyncConnectorEntity SOAP
+# Services87 ErpSync CreateDefaultErpSyncConnectorEntity
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity">SuperOffice.Services87.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-phonelist-getpreferences
 title: Services85.PhoneListAgent.GetPreferences SOAP
-Generated: true
+generated: 1
+uid: Services85-PhoneList-GetPreferences
 ---
 
-# Services85 PhoneList GetPreferences SOAP
+# Services85 PhoneList GetPreferences
 
 SOAP request and response examples **Remote/Services85/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPhoneListAgent.GetPreferences">SuperOffice.Services85.IPhoneListAgent.GetPreferences</see> method.

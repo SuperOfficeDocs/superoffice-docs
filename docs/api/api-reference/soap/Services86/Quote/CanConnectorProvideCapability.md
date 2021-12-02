@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-canconnectorprovidecapability
 title: Services86.QuoteAgent.CanConnectorProvideCapability SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-CanConnectorProvideCapability
 ---
 
-# Services86 Quote CanConnectorProvideCapability SOAP
+# Services86 Quote CanConnectorProvideCapability
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.CanConnectorProvideCapability">SuperOffice.Services86.IQuoteAgent.CanConnectorProvideCapability</see> method.

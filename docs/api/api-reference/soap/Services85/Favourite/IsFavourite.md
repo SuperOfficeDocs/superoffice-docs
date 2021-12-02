@@ -1,10 +1,10 @@
 ---
-uid: services85-favourite-isfavourite
 title: Services85.FavouriteAgent.IsFavourite SOAP
-Generated: true
+generated: 1
+uid: Services85-Favourite-IsFavourite
 ---
 
-# Services85 Favourite IsFavourite SOAP
+# Services85 Favourite IsFavourite
 
 SOAP request and response examples **Remote/Services85/Favourite.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFavouriteAgent.IsFavourite">SuperOffice.Services85.IFavouriteAgent.IsFavourite</see> method.

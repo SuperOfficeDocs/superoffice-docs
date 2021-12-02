@@ -1,10 +1,10 @@
 ---
-uid: services86-user-createexternaluser
 title: Services86.UserAgent.CreateExternalUser SOAP
-Generated: true
+generated: 1
+uid: Services86-User-CreateExternalUser
 ---
 
-# Services86 User CreateExternalUser SOAP
+# Services86 User CreateExternalUser
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateExternalUser">SuperOffice.Services86.IUserAgent.CreateExternalUser</see> method.

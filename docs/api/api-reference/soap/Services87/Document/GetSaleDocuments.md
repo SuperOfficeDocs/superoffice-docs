@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getsaledocuments
 title: Services87.DocumentAgent.GetSaleDocuments SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetSaleDocuments
 ---
 
-# Services87 Document GetSaleDocuments SOAP
+# Services87 Document GetSaleDocuments
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetSaleDocuments">SuperOffice.Services87.IDocumentAgent.GetSaleDocuments</see> method.

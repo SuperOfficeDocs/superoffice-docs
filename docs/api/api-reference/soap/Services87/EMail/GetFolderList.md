@@ -1,10 +1,10 @@
 ---
-uid: services87-email-getfolderlist
 title: Services87.EMailAgent.GetFolderList SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-GetFolderList
 ---
 
-# Services87 EMail GetFolderList SOAP
+# Services87 EMail GetFolderList
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetFolderList">SuperOffice.Services87.IEMailAgent.GetFolderList</see> method.

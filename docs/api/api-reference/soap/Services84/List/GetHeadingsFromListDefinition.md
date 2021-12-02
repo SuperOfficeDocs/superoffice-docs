@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getheadingsfromlistdefinition
 title: Services84.ListAgent.GetHeadingsFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetHeadingsFromListDefinition
 ---
 
-# Services84 List GetHeadingsFromListDefinition SOAP
+# Services84 List GetHeadingsFromListDefinition
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetHeadingsFromListDefinition">SuperOffice.Services84.IListAgent.GetHeadingsFromListDefinition</see> method.

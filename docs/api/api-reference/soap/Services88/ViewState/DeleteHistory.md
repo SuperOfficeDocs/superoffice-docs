@@ -1,10 +1,10 @@
 ---
-uid: services88-viewstate-deletehistory
 title: Services88.ViewStateAgent.DeleteHistory SOAP
-Generated: true
+generated: 1
+uid: Services88-ViewState-DeleteHistory
 ---
 
-# Services88 ViewState DeleteHistory SOAP
+# Services88 ViewState DeleteHistory
 
 SOAP request and response examples **Remote/Services88/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IViewStateAgent.DeleteHistory">SuperOffice.Services88.IViewStateAgent.DeleteHistory</see> method.

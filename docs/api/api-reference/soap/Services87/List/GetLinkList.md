@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getlinklist
 title: Services87.ListAgent.GetLinkList SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetLinkList
 ---
 
-# Services87 List GetLinkList SOAP
+# Services87 List GetLinkList
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetLinkList">SuperOffice.Services87.IListAgent.GetLinkList</see> method.

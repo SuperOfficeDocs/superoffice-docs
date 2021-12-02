@@ -1,10 +1,10 @@
 ---
-uid: services85-person-undelete
 title: Services85.PersonAgent.Undelete SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-Undelete
 ---
 
-# Services85 Person Undelete SOAP
+# Services85 Person Undelete
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.Undelete">SuperOffice.Services85.IPersonAgent.Undelete</see> method.

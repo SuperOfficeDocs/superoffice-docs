@@ -1,10 +1,10 @@
 ---
-uid: services87-webhook-getwebhook
 title: Services87.WebhookAgent.GetWebhook SOAP
-Generated: true
+generated: 1
+uid: Services87-Webhook-GetWebhook
 ---
 
-# Services87 Webhook GetWebhook SOAP
+# Services87 Webhook GetWebhook
 
 SOAP request and response examples **Remote/Services87/Webhook.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.GetWebhook">SuperOffice.Services87.IWebhookAgent.GetWebhook</see> method.
@@ -88,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:49Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -103,7 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:49Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>

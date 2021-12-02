@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getcountries
 title: Services88.ListAgent.GetCountries SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetCountries
 ---
 
-# Services88 List GetCountries SOAP
+# Services88 List GetCountries
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetCountries">SuperOffice.Services88.IListAgent.GetCountries</see> method.

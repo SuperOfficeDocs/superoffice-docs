@@ -1,10 +1,10 @@
 ---
-uid: services85-appointment-savetasklistitem
 title: Services85.AppointmentAgent.SaveTaskListItem SOAP
-Generated: true
+generated: 1
+uid: Services85-Appointment-SaveTaskListItem
 ---
 
-# Services85 Appointment SaveTaskListItem SOAP
+# Services85 Appointment SaveTaskListItem
 
 SOAP request and response examples **Remote/Services85/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.SaveTaskListItem">SuperOffice.Services85.IAppointmentAgent.SaveTaskListItem</see> method.

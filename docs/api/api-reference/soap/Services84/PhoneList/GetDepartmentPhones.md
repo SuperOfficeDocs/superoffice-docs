@@ -1,10 +1,10 @@
 ---
-uid: services84-phonelist-getdepartmentphones
 title: Services84.PhoneListAgent.GetDepartmentPhones SOAP
-Generated: true
+generated: 1
+uid: Services84-PhoneList-GetDepartmentPhones
 ---
 
-# Services84 PhoneList GetDepartmentPhones SOAP
+# Services84 PhoneList GetDepartmentPhones
 
 SOAP request and response examples **Remote/Services84/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPhoneListAgent.GetDepartmentPhones">SuperOffice.Services84.IPhoneListAgent.GetDepartmentPhones</see> method.

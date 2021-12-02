@@ -1,10 +1,10 @@
 ---
-uid: services85-userdefinedfieldinfo-detectcolumnidchanges
 title: Services85.UserDefinedFieldInfoAgent.DetectColumnIdChanges SOAP
-Generated: true
+generated: 1
+uid: Services85-UserDefinedFieldInfo-DetectColumnIdChanges
 ---
 
-# Services85 UserDefinedFieldInfo DetectColumnIdChanges SOAP
+# Services85 UserDefinedFieldInfo DetectColumnIdChanges
 
 SOAP request and response examples **Remote/Services85/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgent.DetectColumnIdChanges">SuperOffice.Services85.IUserDefinedFieldInfoAgent.DetectColumnIdChanges</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services88-blobmanager
 title: Services88.BlobManagerAgent SOAP
-Generated: true
+uid: Services88-BlobManager-soap
+generated: 1
 ---
 
 # Services88 BlobManager SOAP
@@ -19,3 +19,4 @@ Download [WSDL file for Services88/BlobManager](../Services88-BlobManager.md) if
 * [ReadBlob](ReadBlob.md)
 * [ReadBlobPart](ReadBlobPart.md)
 * [WriteBlob](WriteBlob.md)
+

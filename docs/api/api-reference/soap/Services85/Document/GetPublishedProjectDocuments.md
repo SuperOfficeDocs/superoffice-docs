@@ -1,10 +1,10 @@
 ---
-uid: services85-document-getpublishedprojectdocuments
 title: Services85.DocumentAgent.GetPublishedProjectDocuments SOAP
-Generated: true
+generated: 1
+uid: Services85-Document-GetPublishedProjectDocuments
 ---
 
-# Services85 Document GetPublishedProjectDocuments SOAP
+# Services85 Document GetPublishedProjectDocuments
 
 SOAP request and response examples **Remote/Services85/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetPublishedProjectDocuments">SuperOffice.Services85.IDocumentAgent.GetPublishedProjectDocuments</see> method.

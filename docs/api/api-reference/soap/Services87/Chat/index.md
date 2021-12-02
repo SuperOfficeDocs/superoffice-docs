@@ -1,7 +1,7 @@
 ---
-uid: services87-chat
 title: Services87.ChatAgent SOAP
-Generated: true
+uid: Services87-Chat-soap
+generated: 1
 ---
 
 # Services87 Chat SOAP
@@ -18,3 +18,4 @@ Download [WSDL file for Services87/Chat](../Services87-Chat.md) if you need to g
 * [GetChatPresence](GetChatPresence.md)
 * [IsWithinOpeningHours](IsWithinOpeningHours.md)
 * [SaveChatPresence](SaveChatPresence.md)
+

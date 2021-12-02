@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-saveconnection
 title: Services84.QuoteAgent.SaveConnection SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-SaveConnection
 ---
 
-# Services84 Quote SaveConnection SOAP
+# Services84 Quote SaveConnection
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SaveConnection">SuperOffice.Services84.IQuoteAgent.SaveConnection</see> method.
@@ -87,8 +87,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:Description xsi:type="xsd:string"></Quote:Description>
        <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
        <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-       <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:ValidFrom>
-       <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:ValidTo>
+       <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidFrom>
+       <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidTo>
        <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
       </Quote:PriceList>
      </Quote:PriceLists>
@@ -168,8 +168,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Description xsi:type="xsd:string"></Quote:Description>
       <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
       <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-      <Quote:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:ValidFrom>
-      <Quote:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Quote:ValidTo>
+      <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidFrom>
+      <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidTo>
       <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
      </Quote:PriceList>
     </Quote:PriceLists>

@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-getticketmessage
 title: Services88.TicketAgent.GetTicketMessage SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-GetTicketMessage
 ---
 
-# Services88 Ticket GetTicketMessage SOAP
+# Services88 Ticket GetTicketMessage
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetTicketMessage">SuperOffice.Services88.ITicketAgent.GetTicketMessage</see> method.
@@ -67,9 +67,23 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:37:11Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:53Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
+    <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
+    <Ticket:PersonId xsi:type="xsd:int">0</Ticket:PersonId>
+    <Ticket:PersonFullName xsi:type="xsd:string"></Ticket:PersonFullName>
+    <Ticket:ContactId xsi:type="xsd:int">0</Ticket:ContactId>
+    <Ticket:ContactName xsi:type="xsd:string"></Ticket:ContactName>
+    <Ticket:ContactDepartment xsi:type="xsd:string"></Ticket:ContactDepartment>
+    <Ticket:NumAttachments xsi:type="xsd:int">0</Ticket:NumAttachments>
+    <Ticket:EmailHeader xsi:type="xsd:string"></Ticket:EmailHeader>
+    <Ticket:MessageHeaders xsi:type="Ticket:ArrayOfTicketMessageHeader">
+     <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
+      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
+      <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
+     </Ticket:TicketMessageHeader>
+    </Ticket:MessageHeaders>
    </Ticket:Response>
   </Ticket:GetTicketMessageResponse>
  </SOAP-ENV:Body>

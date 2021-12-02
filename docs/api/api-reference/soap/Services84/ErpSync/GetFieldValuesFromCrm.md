@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-getfieldvaluesfromcrm
 title: Services84.ErpSyncAgent.GetFieldValuesFromCrm SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-GetFieldValuesFromCrm
 ---
 
-# Services84 ErpSync GetFieldValuesFromCrm SOAP
+# Services84 ErpSync GetFieldValuesFromCrm
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetFieldValuesFromCrm">SuperOffice.Services84.IErpSyncAgent.GetFieldValuesFromCrm</see> method.

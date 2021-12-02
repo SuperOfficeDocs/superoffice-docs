@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-addmessagefrommaildata
 title: Services87.CustomerServiceAgent.AddMessageFromMailData SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-AddMessageFromMailData
 ---
 
-# Services87 CustomerService AddMessageFromMailData SOAP
+# Services87 CustomerService AddMessageFromMailData
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.AddMessageFromMailData">SuperOffice.Services87.ICustomerServiceAgent.AddMessageFromMailData</see> method.

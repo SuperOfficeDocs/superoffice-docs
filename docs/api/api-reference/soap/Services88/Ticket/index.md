@@ -1,7 +1,7 @@
 ---
-uid: services88-ticket
 title: Services88.TicketAgent SOAP
-Generated: true
+uid: Services88-Ticket-soap
+generated: 1
 ---
 
 # Services88 Ticket SOAP
@@ -25,6 +25,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [GetAttachmentInfo](GetAttachmentInfo.md)
 * [GetAttachmentStream](GetAttachmentStream.md)
 * [GetTicket](GetTicket.md)
+* [GetTicketAttachments](GetTicketAttachments.md)
 * [GetTicketEntity](GetTicketEntity.md)
 * [GetTicketMessage](GetTicketMessage.md)
 * [GetTicketMessageEntity](GetTicketMessageEntity.md)
@@ -38,4 +39,8 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [SaveTicketEntity](SaveTicketEntity.md)
 * [SaveTicketMessageEntity](SaveTicketMessageEntity.md)
 * [SendTicketMessage](SendTicketMessage.md)
+* [SendTicketMessageSms](SendTicketMessageSms.md)
+* [SetTicketMessageImportant](SetTicketMessageImportant.md)
+* [SetTicketReadByOwner](SetTicketReadByOwner.md)
 * [UploadAttachment](UploadAttachment.md)
+

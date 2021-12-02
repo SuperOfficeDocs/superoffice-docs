@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getreasonstalled
 title: Services85.ListAgent.GetReasonStalled SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetReasonStalled
 ---
 
-# Services85 List GetReasonStalled SOAP
+# Services85 List GetReasonStalled
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetReasonStalled">SuperOffice.Services85.IListAgent.GetReasonStalled</see> method.

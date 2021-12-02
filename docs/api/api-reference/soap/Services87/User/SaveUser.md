@@ -1,10 +1,10 @@
 ---
-uid: services87-user-saveuser
 title: Services87.UserAgent.SaveUser SOAP
-Generated: true
+generated: 1
+uid: Services87-User-SaveUser
 ---
 
-# Services87 User SaveUser SOAP
+# Services87 User SaveUser
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SaveUser">SuperOffice.Services87.IUserAgent.SaveUser</see> method.
@@ -152,8 +152,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
@@ -363,8 +363,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>

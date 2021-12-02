@@ -1,10 +1,10 @@
 ---
-uid: services85-selection-setduplicaterulesstatus
 title: Services85.SelectionAgent.SetDuplicateRulesStatus SOAP
-Generated: true
+generated: 1
+uid: Services85-Selection-SetDuplicateRulesStatus
 ---
 
-# Services85 Selection SetDuplicateRulesStatus SOAP
+# Services85 Selection SetDuplicateRulesStatus
 
 SOAP request and response examples **Remote/Services85/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.SetDuplicateRulesStatus">SuperOffice.Services85.ISelectionAgent.SetDuplicateRulesStatus</see> method.

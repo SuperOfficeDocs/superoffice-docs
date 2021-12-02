@@ -1,10 +1,10 @@
 ---
-uid: services87-user-deletecredential
 title: Services87.UserAgent.DeleteCredential SOAP
-Generated: true
+generated: 1
+uid: Services87-User-DeleteCredential
 ---
 
-# Services87 User DeleteCredential SOAP
+# Services87 User DeleteCredential
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.DeleteCredential">SuperOffice.Services87.IUserAgent.DeleteCredential</see> method.

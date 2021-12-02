@@ -1,10 +1,10 @@
 ---
-uid: services86-timezone-setactivetimezonesbyfilter
 title: Services86.TimeZoneAgent.SetActiveTimeZonesByFilter SOAP
-Generated: true
+generated: 1
+uid: Services86-TimeZone-SetActiveTimeZonesByFilter
 ---
 
-# Services86 TimeZone SetActiveTimeZonesByFilter SOAP
+# Services86 TimeZone SetActiveTimeZonesByFilter
 
 SOAP request and response examples **Remote/Services86/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.SetActiveTimeZonesByFilter">SuperOffice.Services86.ITimeZoneAgent.SetActiveTimeZonesByFilter</see> method.

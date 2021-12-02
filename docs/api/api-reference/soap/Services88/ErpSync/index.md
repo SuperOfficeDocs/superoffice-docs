@@ -1,7 +1,7 @@
 ---
-uid: services88-erpsync
 title: Services88.ErpSyncAgent SOAP
-Generated: true
+uid: Services88-ErpSync-soap
+generated: 1
 ---
 
 # Services88 ErpSync SOAP
@@ -60,5 +60,7 @@ Download [WSDL file for Services88/ErpSync](../Services88-ErpSync.md) if you nee
 * [TestConnectionById](TestConnectionById.md)
 * [TestConnectorUrl](TestConnectorUrl.md)
 * [ToggleErpConnectionActive](ToggleErpConnectionActive.md)
+* [TryConnectActor](TryConnectActor.md)
 * [UpdateConnectionFields](UpdateConnectionFields.md)
 * [ValidateArchiveColumnConfig](ValidateArchiveColumnConfig.md)
+

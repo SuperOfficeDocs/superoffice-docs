@@ -1,10 +1,10 @@
 ---
-uid: services84-archive-createdefaultarchivelistresult
 title: Services84.ArchiveAgent.CreateDefaultArchiveListResult SOAP
-Generated: true
+generated: 1
+uid: Services84-Archive-CreateDefaultArchiveListResult
 ---
 
-# Services84 Archive CreateDefaultArchiveListResult SOAP
+# Services84 Archive CreateDefaultArchiveListResult
 
 SOAP request and response examples **Remote/Services84/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IArchiveAgent.CreateDefaultArchiveListResult">SuperOffice.Services84.IArchiveAgent.CreateDefaultArchiveListResult</see> method.

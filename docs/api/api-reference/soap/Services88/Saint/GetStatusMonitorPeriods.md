@@ -1,10 +1,10 @@
 ---
-uid: services88-saint-getstatusmonitorperiods
 title: Services88.SaintAgent.GetStatusMonitorPeriods SOAP
-Generated: true
+generated: 1
+uid: Services88-Saint-GetStatusMonitorPeriods
 ---
 
-# Services88 Saint GetStatusMonitorPeriods SOAP
+# Services88 Saint GetStatusMonitorPeriods
 
 SOAP request and response examples **Remote/Services88/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaintAgent.GetStatusMonitorPeriods">SuperOffice.Services88.ISaintAgent.GetStatusMonitorPeriods</see> method.

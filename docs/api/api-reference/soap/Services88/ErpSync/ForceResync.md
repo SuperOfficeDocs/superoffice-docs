@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-forceresync
 title: Services88.ErpSyncAgent.ForceResync SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-ForceResync
 ---
 
-# Services88 ErpSync ForceResync SOAP
+# Services88 ErpSync ForceResync
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceResync">SuperOffice.Services88.IErpSyncAgent.ForceResync</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-blob-saveimagestream
 title: Services87.BLOBAgent.SaveImageStream SOAP
-Generated: true
+generated: 1
+uid: Services87-BLOB-SaveImageStream
 ---
 
-# Services87 BLOB SaveImageStream SOAP
+# Services87 BLOB SaveImageStream
 
 SOAP request and response examples **Remote/Services87/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.SaveImageStream">SuperOffice.Services87.IBLOBAgent.SaveImageStream</see> method.

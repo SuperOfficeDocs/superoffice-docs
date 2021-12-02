@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-clearconfigurationcache
 title: Services86.ConfigurationAgent.ClearConfigurationCache SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-ClearConfigurationCache
 ---
 
-# Services86 Configuration ClearConfigurationCache SOAP
+# Services86 Configuration ClearConfigurationCache
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.ClearConfigurationCache">SuperOffice.Services86.IConfigurationAgent.ClearConfigurationCache</see> method.

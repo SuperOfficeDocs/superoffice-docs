@@ -1,10 +1,10 @@
 ---
-uid: services84-viewstate-savehistories
 title: Services84.ViewStateAgent.SaveHistories SOAP
-Generated: true
+generated: 1
+uid: Services84-ViewState-SaveHistories
 ---
 
-# Services84 ViewState SaveHistories SOAP
+# Services84 ViewState SaveHistories
 
 SOAP request and response examples **Remote/Services84/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IViewStateAgent.SaveHistories">SuperOffice.Services84.IViewStateAgent.SaveHistories</see> method.

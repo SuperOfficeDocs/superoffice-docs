@@ -1,10 +1,10 @@
 ---
-uid: services85-associate-getassociatebypersonid
 title: Services85.AssociateAgent.GetAssociateByPersonId SOAP
-Generated: true
+generated: 1
+uid: Services85-Associate-GetAssociateByPersonId
 ---
 
-# Services85 Associate GetAssociateByPersonId SOAP
+# Services85 Associate GetAssociateByPersonId
 
 SOAP request and response examples **Remote/Services85/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAssociateAgent.GetAssociateByPersonId">SuperOffice.Services85.IAssociateAgent.GetAssociateByPersonId</see> method.

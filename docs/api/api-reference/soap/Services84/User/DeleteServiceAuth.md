@@ -1,10 +1,10 @@
 ---
-uid: services84-user-deleteserviceauth
 title: Services84.UserAgent.DeleteServiceAuth SOAP
-Generated: true
+generated: 1
+uid: Services84-User-DeleteServiceAuth
 ---
 
-# Services84 User DeleteServiceAuth SOAP
+# Services84 User DeleteServiceAuth
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.DeleteServiceAuth">SuperOffice.Services84.IUserAgent.DeleteServiceAuth</see> method.

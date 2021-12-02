@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getproducttypes
 title: Services86.ListAgent.GetProductTypes SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetProductTypes
 ---
 
-# Services86 List GetProductTypes SOAP
+# Services86 List GetProductTypes
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetProductTypes">SuperOffice.Services86.IListAgent.GetProductTypes</see> method.

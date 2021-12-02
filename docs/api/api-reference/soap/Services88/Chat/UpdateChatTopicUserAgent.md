@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-updatechattopicuseragent
 title: Services88.ChatAgent.UpdateChatTopicUserAgent SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-UpdateChatTopicUserAgent
 ---
 
-# Services88 Chat UpdateChatTopicUserAgent SOAP
+# Services88 Chat UpdateChatTopicUserAgent
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.UpdateChatTopicUserAgent">SuperOffice.Services88.IChatAgent.UpdateChatTopicUserAgent</see> method.

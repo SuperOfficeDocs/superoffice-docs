@@ -1,10 +1,10 @@
 ---
-uid: services84-pocket-registerdeviceforpushnotification
 title: Services84.PocketAgent.RegisterDeviceForPushNotification SOAP
-Generated: true
+generated: 1
+uid: Services84-Pocket-RegisterDeviceForPushNotification
 ---
 
-# Services84 Pocket RegisterDeviceForPushNotification SOAP
+# Services84 Pocket RegisterDeviceForPushNotification
 
 SOAP request and response examples **Remote/Services84/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPocketAgent.RegisterDeviceForPushNotification">SuperOffice.Services84.IPocketAgent.RegisterDeviceForPushNotification</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services85-pocket
 title: Services85.PocketAgent SOAP
-Generated: true
+uid: Services85-Pocket-soap
+generated: 1
 ---
 
 # Services85 Pocket SOAP
@@ -22,3 +22,4 @@ Download [WSDL file for Services85/Pocket](../Services85-Pocket.md) if you need 
 * [SendPushNotification](SendPushNotification.md)
 * [SetPushNotificationTagsForDevice](SetPushNotificationTagsForDevice.md)
 * [SetPushNotificationTagsForUser](SetPushNotificationTagsForUser.md)
+

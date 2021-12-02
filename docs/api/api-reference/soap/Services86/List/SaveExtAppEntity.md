@@ -1,10 +1,10 @@
 ---
-uid: services86-list-saveextappentity
 title: Services86.ListAgent.SaveExtAppEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SaveExtAppEntity
 ---
 
-# Services86 List SaveExtAppEntity SOAP
+# Services86 List SaveExtAppEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveExtAppEntity">SuperOffice.Services86.IListAgent.SaveExtAppEntity</see> method.

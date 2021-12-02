@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-getemailnumberofdays
 title: Services87.ConfigurationAgent.GetEmailNumberOfDays SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-GetEmailNumberOfDays
 ---
 
-# Services87 Configuration GetEmailNumberOfDays SOAP
+# Services87 Configuration GetEmailNumberOfDays
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetEmailNumberOfDays">SuperOffice.Services87.IConfigurationAgent.GetEmailNumberOfDays</see> method.

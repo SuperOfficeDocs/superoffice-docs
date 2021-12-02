@@ -1,10 +1,10 @@
 ---
-uid: services85-mdo-getlistidbylistname
 title: Services85.MDOAgent.GetListIdByListName SOAP
-Generated: true
+generated: 1
+uid: Services85-MDO-GetListIdByListName
 ---
 
-# Services85 MDO GetListIdByListName SOAP
+# Services85 MDO GetListIdByListName
 
 SOAP request and response examples **Remote/Services85/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IMDOAgent.GetListIdByListName">SuperOffice.Services85.IMDOAgent.GetListIdByListName</see> method.

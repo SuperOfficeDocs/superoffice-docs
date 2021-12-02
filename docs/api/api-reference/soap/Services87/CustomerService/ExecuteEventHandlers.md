@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-executeeventhandlers
 title: Services87.CustomerServiceAgent.ExecuteEventHandlers SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-ExecuteEventHandlers
 ---
 
-# Services87 CustomerService ExecuteEventHandlers SOAP
+# Services87 CustomerService ExecuteEventHandlers
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.ExecuteEventHandlers">SuperOffice.Services87.ICustomerServiceAgent.ExecuteEventHandlers</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-email-setrepliedat
 title: Services85.EMailAgent.SetRepliedAt SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-SetRepliedAt
 ---
 
-# Services85 EMail SetRepliedAt SOAP
+# Services85 EMail SetRepliedAt
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.SetRepliedAt">SuperOffice.Services85.IEMailAgent.SetRepliedAt</see> method.

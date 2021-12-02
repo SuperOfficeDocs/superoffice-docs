@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-movequoteline
 title: Services85.QuoteAgent.MoveQuoteLine SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-MoveQuoteLine
 ---
 
-# Services85 Quote MoveQuoteLine SOAP
+# Services85 Quote MoveQuoteLine
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.MoveQuoteLine">SuperOffice.Services85.IQuoteAgent.MoveQuoteLine</see> method.

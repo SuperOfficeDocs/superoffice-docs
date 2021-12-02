@@ -1,10 +1,10 @@
 ---
-uid: services85-email-getemailaccountfromemailaddress
 title: Services85.EMailAgent.GetEMailAccountFromEMailAddress SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-GetEMailAccountFromEMailAddress
 ---
 
-# Services85 EMail GetEMailAccountFromEMailAddress SOAP
+# Services85 EMail GetEMailAccountFromEMailAddress
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEMailAccountFromEMailAddress">SuperOffice.Services85.IEMailAgent.GetEMailAccountFromEMailAddress</see> method.

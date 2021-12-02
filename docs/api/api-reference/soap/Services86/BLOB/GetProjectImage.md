@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-getprojectimage
 title: Services86.BLOBAgent.GetProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-GetProjectImage
 ---
 
-# Services86 BLOB GetProjectImage SOAP
+# Services86 BLOB GetProjectImage
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.GetProjectImage">SuperOffice.Services86.IBLOBAgent.GetProjectImage</see> method.

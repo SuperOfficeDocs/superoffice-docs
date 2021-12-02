@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-saveimagestream
 title: Services86.BLOBAgent.SaveImageStream SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SaveImageStream
 ---
 
-# Services86 BLOB SaveImageStream SOAP
+# Services86 BLOB SaveImageStream
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SaveImageStream">SuperOffice.Services86.IBLOBAgent.SaveImageStream</see> method.

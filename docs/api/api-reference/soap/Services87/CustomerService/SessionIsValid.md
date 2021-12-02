@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-sessionisvalid
 title: Services87.CustomerServiceAgent.SessionIsValid SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-SessionIsValid
 ---
 
-# Services87 CustomerService SessionIsValid SOAP
+# Services87 CustomerService SessionIsValid
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.SessionIsValid">SuperOffice.Services87.ICustomerServiceAgent.SessionIsValid</see> method.

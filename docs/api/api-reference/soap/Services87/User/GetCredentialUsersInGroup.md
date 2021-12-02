@@ -1,10 +1,10 @@
 ---
-uid: services87-user-getcredentialusersingroup
 title: Services87.UserAgent.GetCredentialUsersInGroup SOAP
-Generated: true
+generated: 1
+uid: Services87-User-GetCredentialUsersInGroup
 ---
 
-# Services87 User GetCredentialUsersInGroup SOAP
+# Services87 User GetCredentialUsersInGroup
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetCredentialUsersInGroup">SuperOffice.Services87.IUserAgent.GetCredentialUsersInGroup</see> method.

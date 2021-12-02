@@ -1,10 +1,10 @@
 ---
-uid: services85-timezone-deletetimezones
 title: Services85.TimeZoneAgent.DeleteTimeZones SOAP
-Generated: true
+generated: 1
+uid: Services85-TimeZone-DeleteTimeZones
 ---
 
-# Services85 TimeZone DeleteTimeZones SOAP
+# Services85 TimeZone DeleteTimeZones
 
 SOAP request and response examples **Remote/Services85/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ITimeZoneAgent.DeleteTimeZones">SuperOffice.Services85.ITimeZoneAgent.DeleteTimeZones</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-userdefinedfieldinfo-changefieldtype
 title: Services85.UserDefinedFieldInfoAgent.ChangeFieldType SOAP
-Generated: true
+generated: 1
+uid: Services85-UserDefinedFieldInfo-ChangeFieldType
 ---
 
-# Services85 UserDefinedFieldInfo ChangeFieldType SOAP
+# Services85 UserDefinedFieldInfo ChangeFieldType
 
 SOAP request and response examples **Remote/Services85/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgent.ChangeFieldType">SuperOffice.Services85.IUserDefinedFieldInfoAgent.ChangeFieldType</see> method.

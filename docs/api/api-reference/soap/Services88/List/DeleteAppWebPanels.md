@@ -1,10 +1,10 @@
 ---
-uid: services88-list-deleteappwebpanels
 title: Services88.ListAgent.DeleteAppWebPanels SOAP
-Generated: true
+generated: 1
+uid: Services88-List-DeleteAppWebPanels
 ---
 
-# Services88 List DeleteAppWebPanels SOAP
+# Services88 List DeleteAppWebPanels
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteAppWebPanels">SuperOffice.Services88.IListAgent.DeleteAppWebPanels</see> method.

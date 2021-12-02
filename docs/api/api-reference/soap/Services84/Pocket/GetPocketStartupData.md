@@ -1,10 +1,10 @@
 ---
-uid: services84-pocket-getpocketstartupdata
 title: Services84.PocketAgent.GetPocketStartupData SOAP
-Generated: true
+generated: 1
+uid: Services84-Pocket-GetPocketStartupData
 ---
 
-# Services84 Pocket GetPocketStartupData SOAP
+# Services84 Pocket GetPocketStartupData
 
 SOAP request and response examples **Remote/Services84/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPocketAgent.GetPocketStartupData">SuperOffice.Services84.IPocketAgent.GetPocketStartupData</see> method.

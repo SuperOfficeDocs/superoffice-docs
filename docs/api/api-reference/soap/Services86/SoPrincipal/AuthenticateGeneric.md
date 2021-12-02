@@ -1,10 +1,10 @@
 ---
-uid: services86-soprincipal-authenticategeneric
 title: Services86.SoPrincipalAgent.AuthenticateGeneric SOAP
-Generated: true
+generated: 1
+uid: Services86-SoPrincipal-AuthenticateGeneric
 ---
 
-# Services86 SoPrincipal AuthenticateGeneric SOAP
+# Services86 SoPrincipal AuthenticateGeneric
 
 SOAP request and response examples **Remote/Services86/SoPrincipal.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.AuthenticateGeneric">SuperOffice.Services86.ISoPrincipalAgent.AuthenticateGeneric</see> method.
@@ -94,7 +94,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:36:22Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>

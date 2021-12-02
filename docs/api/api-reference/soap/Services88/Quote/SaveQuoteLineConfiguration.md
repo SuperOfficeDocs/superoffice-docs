@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-savequotelineconfiguration
 title: Services88.QuoteAgent.SaveQuoteLineConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-SaveQuoteLineConfiguration
 ---
 
-# Services88 Quote SaveQuoteLineConfiguration SOAP
+# Services88 Quote SaveQuoteLineConfiguration
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.SaveQuoteLineConfiguration">SuperOffice.Services88.IQuoteAgent.SaveQuoteLineConfiguration</see> method.

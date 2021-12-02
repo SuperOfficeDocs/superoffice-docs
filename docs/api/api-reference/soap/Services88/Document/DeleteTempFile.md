@@ -1,10 +1,10 @@
 ---
-uid: services88-document-deletetempfile
 title: Services88.DocumentAgent.DeleteTempFile SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-DeleteTempFile
 ---
 
-# Services88 Document DeleteTempFile SOAP
+# Services88 Document DeleteTempFile
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.DeleteTempFile">SuperOffice.Services88.IDocumentAgent.DeleteTempFile</see> method.

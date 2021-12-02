@@ -1,10 +1,10 @@
 ---
-uid: services87-document-saveprivacyreport
 title: Services87.DocumentAgent.SavePrivacyReport SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-SavePrivacyReport
 ---
 
-# Services87 Document SavePrivacyReport SOAP
+# Services87 Document SavePrivacyReport
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SavePrivacyReport">SuperOffice.Services87.IDocumentAgent.SavePrivacyReport</see> method.

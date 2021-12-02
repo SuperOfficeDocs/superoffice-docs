@@ -1,10 +1,10 @@
 ---
-uid: services86-document-getdocumentsbytemplateheading
 title: Services86.DocumentAgent.GetDocumentsByTemplateHeading SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-GetDocumentsByTemplateHeading
 ---
 
-# Services86 Document GetDocumentsByTemplateHeading SOAP
+# Services86 Document GetDocumentsByTemplateHeading
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetDocumentsByTemplateHeading">SuperOffice.Services86.IDocumentAgent.GetDocumentsByTemplateHeading</see> method.

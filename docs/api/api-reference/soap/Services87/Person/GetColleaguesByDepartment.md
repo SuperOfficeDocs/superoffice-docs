@@ -1,10 +1,10 @@
 ---
-uid: services87-person-getcolleaguesbydepartment
 title: Services87.PersonAgent.GetColleaguesByDepartment SOAP
-Generated: true
+generated: 1
+uid: Services87-Person-GetColleaguesByDepartment
 ---
 
-# Services87 Person GetColleaguesByDepartment SOAP
+# Services87 Person GetColleaguesByDepartment
 
 SOAP request and response examples **Remote/Services87/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.GetColleaguesByDepartment">SuperOffice.Services87.IPersonAgent.GetColleaguesByDepartment</see> method.

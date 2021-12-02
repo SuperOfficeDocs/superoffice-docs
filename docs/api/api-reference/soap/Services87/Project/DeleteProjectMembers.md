@@ -1,10 +1,10 @@
 ---
-uid: services87-project-deleteprojectmembers
 title: Services87.ProjectAgent.DeleteProjectMembers SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-DeleteProjectMembers
 ---
 
-# Services87 Project DeleteProjectMembers SOAP
+# Services87 Project DeleteProjectMembers
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.DeleteProjectMembers">SuperOffice.Services87.IProjectAgent.DeleteProjectMembers</see> method.

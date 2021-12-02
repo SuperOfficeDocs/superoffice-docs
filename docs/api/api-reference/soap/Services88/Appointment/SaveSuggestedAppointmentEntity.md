@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-savesuggestedappointmententity
 title: Services88.AppointmentAgent.SaveSuggestedAppointmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-SaveSuggestedAppointmentEntity
 ---
 
-# Services88 Appointment SaveSuggestedAppointmentEntity SOAP
+# Services88 Appointment SaveSuggestedAppointmentEntity
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.SaveSuggestedAppointmentEntity">SuperOffice.Services88.IAppointmentAgent.SaveSuggestedAppointmentEntity</see> method.

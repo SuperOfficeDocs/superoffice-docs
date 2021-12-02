@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getplugincapabilities
 title: Services87.DocumentAgent.GetPluginCapabilities SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetPluginCapabilities
 ---
 
-# Services87 Document GetPluginCapabilities SOAP
+# Services87 Document GetPluginCapabilities
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetPluginCapabilities">SuperOffice.Services87.IDocumentAgent.GetPluginCapabilities</see> method.

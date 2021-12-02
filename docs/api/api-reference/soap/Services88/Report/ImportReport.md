@@ -1,10 +1,10 @@
 ---
-uid: services88-report-importreport
 title: Services88.ReportAgent.ImportReport SOAP
-Generated: true
+generated: 1
+uid: Services88-Report-ImportReport
 ---
 
-# Services88 Report ImportReport SOAP
+# Services88 Report ImportReport
 
 SOAP request and response examples **Remote/Services88/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.ImportReport">SuperOffice.Services88.IReportAgent.ImportReport</see> method.

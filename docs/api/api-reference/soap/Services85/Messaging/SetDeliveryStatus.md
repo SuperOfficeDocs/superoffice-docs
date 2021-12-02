@@ -1,10 +1,10 @@
 ---
-uid: services85-messaging-setdeliverystatus
 title: Services85.MessagingAgent.SetDeliveryStatus SOAP
-Generated: true
+generated: 1
+uid: Services85-Messaging-SetDeliveryStatus
 ---
 
-# Services85 Messaging SetDeliveryStatus SOAP
+# Services85 Messaging SetDeliveryStatus
 
 SOAP request and response examples **Remote/Services85/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.SetDeliveryStatus">SuperOffice.Services85.IMessagingAgent.SetDeliveryStatus</see> method.

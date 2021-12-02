@@ -1,10 +1,10 @@
 ---
-uid: services85-configuration-createdefaultdiaryviewentity
 title: Services85.ConfigurationAgent.CreateDefaultDiaryViewEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Configuration-CreateDefaultDiaryViewEntity
 ---
 
-# Services85 Configuration CreateDefaultDiaryViewEntity SOAP
+# Services85 Configuration CreateDefaultDiaryViewEntity
 
 SOAP request and response examples **Remote/Services85/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.CreateDefaultDiaryViewEntity">SuperOffice.Services85.IConfigurationAgent.CreateDefaultDiaryViewEntity</see> method.
@@ -82,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
       <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
       <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-      <Configuration:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:42Z</Configuration:LastChanged>
+      <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:27Z</Configuration:LastChanged>
       <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
        <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
         <Configuration:Id xsi:type="xsd:int">0</Configuration:Id>
@@ -94,7 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
         <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
         <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-        <Configuration:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:42Z</Configuration:LastChanged>
+        <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:27Z</Configuration:LastChanged>
         <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
          <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
           <Configuration:Id xsi:nil="true"></Configuration:Id>

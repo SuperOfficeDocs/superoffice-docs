@@ -1,10 +1,10 @@
 ---
-uid: services86-freetext-deletestopwordsbyid
 title: Services86.FreeTextAgent.DeleteStopWordsById SOAP
-Generated: true
+generated: 1
+uid: Services86-FreeText-DeleteStopWordsById
 ---
 
-# Services86 FreeText DeleteStopWordsById SOAP
+# Services86 FreeText DeleteStopWordsById
 
 SOAP request and response examples **Remote/Services86/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.DeleteStopWordsById">SuperOffice.Services86.IFreeTextAgent.DeleteStopWordsById</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-addchatmessage
 title: Services88.ChatAgent.AddChatMessage SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-AddChatMessage
 ---
 
-# Services88 Chat AddChatMessage SOAP
+# Services88 Chat AddChatMessage
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.AddChatMessage">SuperOffice.Services88.IChatAgent.AddChatMessage</see> method.
@@ -53,7 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-03-25T21:36:53Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
     </Chat:Message>
    </Chat:AddChatMessage>
 
@@ -86,7 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
     <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
     <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-    <Chat:WhenPosted xsi:type="xsd:dateTime">2021-03-25T21:36:53Z</Chat:WhenPosted>
+    <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
    </Chat:Response>
   </Chat:AddChatMessageResponse>
  </SOAP-ENV:Body>

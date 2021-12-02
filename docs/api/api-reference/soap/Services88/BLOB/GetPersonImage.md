@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-getpersonimage
 title: Services88.BLOBAgent.GetPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-GetPersonImage
 ---
 
-# Services88 BLOB GetPersonImage SOAP
+# Services88 BLOB GetPersonImage
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.GetPersonImage">SuperOffice.Services88.IBLOBAgent.GetPersonImage</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-license-getuserlicenses
 title: Services88.LicenseAgent.GetUserLicenses SOAP
-Generated: true
+generated: 1
+uid: Services88-License-GetUserLicenses
 ---
 
-# Services88 License GetUserLicenses SOAP
+# Services88 License GetUserLicenses
 
 SOAP request and response examples **Remote/Services88/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.GetUserLicenses">SuperOffice.Services88.ILicenseAgent.GetUserLicenses</see> method.
@@ -86,6 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:Description xsi:type="xsd:string"></License:Description>
        <License:PrerequisiteModuleName xsi:type="xsd:string"></License:PrerequisiteModuleName>
        <License:SortOrder xsi:type="xsd:int">0</License:SortOrder>
+       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       </License:ModuleLicenseLink>
      </License:RestrictedModuleLicenses>
      <License:UnrestrictedModuleLicenses xsi:type="License:ArrayOfModuleLicenseLink">
@@ -103,6 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:Description xsi:type="xsd:string"></License:Description>
        <License:PrerequisiteModuleName xsi:type="xsd:string"></License:PrerequisiteModuleName>
        <License:SortOrder xsi:type="xsd:int">0</License:SortOrder>
+       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       </License:ModuleLicenseLink>
      </License:UnrestrictedModuleLicenses>
     </License:LicenseOwner>

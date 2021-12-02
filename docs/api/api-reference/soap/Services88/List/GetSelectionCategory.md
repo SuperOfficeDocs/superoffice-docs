@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getselectioncategory
 title: Services88.ListAgent.GetSelectionCategory SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetSelectionCategory
 ---
 
-# Services88 List GetSelectionCategory SOAP
+# Services88 List GetSelectionCategory
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetSelectionCategory">SuperOffice.Services88.IListAgent.GetSelectionCategory</see> method.

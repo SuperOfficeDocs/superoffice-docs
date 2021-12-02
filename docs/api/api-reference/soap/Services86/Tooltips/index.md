@@ -1,7 +1,7 @@
 ---
-uid: services86-tooltips
 title: Services86.TooltipsAgent SOAP
-Generated: true
+uid: Services86-Tooltips-soap
+generated: 1
 ---
 
 # Services86 Tooltips SOAP
@@ -16,3 +16,4 @@ Tooltip system, hint to text transformation
 Download [WSDL file for Services86/Tooltips](../Services86-Tooltips.md) if you need to generate your own proxy code.
 
 * [GetTooltip](GetTooltip.md)
+

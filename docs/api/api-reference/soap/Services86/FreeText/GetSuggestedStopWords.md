@@ -1,10 +1,10 @@
 ---
-uid: services86-freetext-getsuggestedstopwords
 title: Services86.FreeTextAgent.GetSuggestedStopWords SOAP
-Generated: true
+generated: 1
+uid: Services86-FreeText-GetSuggestedStopWords
 ---
 
-# Services86 FreeText GetSuggestedStopWords SOAP
+# Services86 FreeText GetSuggestedStopWords
 
 SOAP request and response examples **Remote/Services86/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.GetSuggestedStopWords">SuperOffice.Services86.IFreeTextAgent.GetSuggestedStopWords</see> method.

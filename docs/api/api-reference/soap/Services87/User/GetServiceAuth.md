@@ -1,10 +1,10 @@
 ---
-uid: services87-user-getserviceauth
 title: Services87.UserAgent.GetServiceAuth SOAP
-Generated: true
+generated: 1
+uid: Services87-User-GetServiceAuth
 ---
 
-# Services87 User GetServiceAuth SOAP
+# Services87 User GetServiceAuth
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetServiceAuth">SuperOffice.Services87.IUserAgent.GetServiceAuth</see> method.

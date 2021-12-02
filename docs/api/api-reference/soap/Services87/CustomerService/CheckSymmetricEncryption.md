@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-checksymmetricencryption
 title: Services87.CustomerServiceAgent.CheckSymmetricEncryption SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-CheckSymmetricEncryption
 ---
 
-# Services87 CustomerService CheckSymmetricEncryption SOAP
+# Services87 CustomerService CheckSymmetricEncryption
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.CheckSymmetricEncryption">SuperOffice.Services87.ICustomerServiceAgent.CheckSymmetricEncryption</see> method.

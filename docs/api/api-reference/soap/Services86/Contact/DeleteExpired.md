@@ -1,10 +1,10 @@
 ---
-uid: services86-contact-deleteexpired
 title: Services86.ContactAgent.DeleteExpired SOAP
-Generated: true
+generated: 1
+uid: Services86-Contact-DeleteExpired
 ---
 
-# Services86 Contact DeleteExpired SOAP
+# Services86 Contact DeleteExpired
 
 SOAP request and response examples **Remote/Services86/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.DeleteExpired">SuperOffice.Services86.IContactAgent.DeleteExpired</see> method.

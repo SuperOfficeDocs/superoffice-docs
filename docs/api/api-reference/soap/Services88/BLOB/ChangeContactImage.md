@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-changecontactimage
 title: Services88.BLOBAgent.ChangeContactImage SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-ChangeContactImage
 ---
 
-# Services88 BLOB ChangeContactImage SOAP
+# Services88 BLOB ChangeContactImage
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.ChangeContactImage">SuperOffice.Services88.IBLOBAgent.ChangeContactImage</see> method.

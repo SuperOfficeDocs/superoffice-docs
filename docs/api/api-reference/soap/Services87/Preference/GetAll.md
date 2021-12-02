@@ -1,10 +1,10 @@
 ---
-uid: services87-preference-getall
 title: Services87.PreferenceAgent.GetAll SOAP
-Generated: true
+generated: 1
+uid: Services87-Preference-GetAll
 ---
 
-# Services87 Preference GetAll SOAP
+# Services87 Preference GetAll
 
 SOAP request and response examples **Remote/Services87/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.GetAll">SuperOffice.Services87.IPreferenceAgent.GetAll</see> method.

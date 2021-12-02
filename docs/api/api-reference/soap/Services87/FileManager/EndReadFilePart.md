@@ -1,10 +1,10 @@
 ---
-uid: services87-filemanager-endreadfilepart
 title: Services87.FileManagerAgent.EndReadFilePart SOAP
-Generated: true
+generated: 1
+uid: Services87-FileManager-EndReadFilePart
 ---
 
-# Services87 FileManager EndReadFilePart SOAP
+# Services87 FileManager EndReadFilePart
 
 SOAP request and response examples **Remote/Services87/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFileManagerAgent.EndReadFilePart">SuperOffice.Services87.IFileManagerAgent.EndReadFilePart</see> method.

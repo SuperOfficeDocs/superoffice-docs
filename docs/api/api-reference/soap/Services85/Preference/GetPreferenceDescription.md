@@ -1,10 +1,10 @@
 ---
-uid: services85-preference-getpreferencedescription
 title: Services85.PreferenceAgent.GetPreferenceDescription SOAP
-Generated: true
+generated: 1
+uid: Services85-Preference-GetPreferenceDescription
 ---
 
-# Services85 Preference GetPreferenceDescription SOAP
+# Services85 Preference GetPreferenceDescription
 
 SOAP request and response examples **Remote/Services85/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.GetPreferenceDescription">SuperOffice.Services85.IPreferenceAgent.GetPreferenceDescription</see> method.

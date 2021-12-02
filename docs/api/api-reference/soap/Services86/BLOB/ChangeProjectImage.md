@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-changeprojectimage
 title: Services86.BLOBAgent.ChangeProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-ChangeProjectImage
 ---
 
-# Services86 BLOB ChangeProjectImage SOAP
+# Services86 BLOB ChangeProjectImage
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.ChangeProjectImage">SuperOffice.Services86.IBLOBAgent.ChangeProjectImage</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-project-createdefaultprojectmember
 title: Services84.ProjectAgent.CreateDefaultProjectMember SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-CreateDefaultProjectMember
 ---
 
-# Services84 Project CreateDefaultProjectMember SOAP
+# Services84 Project CreateDefaultProjectMember
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.CreateDefaultProjectMember">SuperOffice.Services84.IProjectAgent.CreateDefaultProjectMember</see> method.

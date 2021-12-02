@@ -1,10 +1,10 @@
 ---
-uid: services85-erpsync-validatearchivecolumnconfig
 title: Services85.ErpSyncAgent.ValidateArchiveColumnConfig SOAP
-Generated: true
+generated: 1
+uid: Services85-ErpSync-ValidateArchiveColumnConfig
 ---
 
-# Services85 ErpSync ValidateArchiveColumnConfig SOAP
+# Services85 ErpSync ValidateArchiveColumnConfig
 
 SOAP request and response examples **Remote/Services85/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.ValidateArchiveColumnConfig">SuperOffice.Services85.IErpSyncAgent.ValidateArchiveColumnConfig</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-getfilterlist
 title: Services87.ConfigurationAgent.GetFilterList SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-GetFilterList
 ---
 
-# Services87 Configuration GetFilterList SOAP
+# Services87 Configuration GetFilterList
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetFilterList">SuperOffice.Services87.IConfigurationAgent.GetFilterList</see> method.

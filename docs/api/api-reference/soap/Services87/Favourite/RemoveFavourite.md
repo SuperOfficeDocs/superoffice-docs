@@ -1,10 +1,10 @@
 ---
-uid: services87-favourite-removefavourite
 title: Services87.FavouriteAgent.RemoveFavourite SOAP
-Generated: true
+generated: 1
+uid: Services87-Favourite-RemoveFavourite
 ---
 
-# Services87 Favourite RemoveFavourite SOAP
+# Services87 Favourite RemoveFavourite
 
 SOAP request and response examples **Remote/Services87/Favourite.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFavouriteAgent.RemoveFavourite">SuperOffice.Services87.IFavouriteAgent.RemoveFavourite</see> method.

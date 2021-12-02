@@ -1,7 +1,7 @@
 ---
-uid: services85-previews
 title: Services85.PreviewsAgent SOAP
-Generated: true
+uid: Services85-Previews-soap
+generated: 1
 ---
 
 # Services85 Previews SOAP
@@ -16,3 +16,4 @@ Get preview strings from a hint
 Download [WSDL file for Services85/Previews](../Services85-Previews.md) if you need to generate your own proxy code.
 
 * [GetPreview](GetPreview.md)
+

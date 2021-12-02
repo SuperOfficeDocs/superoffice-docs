@@ -1,10 +1,10 @@
 ---
-uid: services84-find-getspecifiedcriteriainformationwithdefaults
 title: Services84.FindAgent.GetSpecifiedCriteriaInformationWithDefaults SOAP
-Generated: true
+generated: 1
+uid: Services84-Find-GetSpecifiedCriteriaInformationWithDefaults
 ---
 
-# Services84 Find GetSpecifiedCriteriaInformationWithDefaults SOAP
+# Services84 Find GetSpecifiedCriteriaInformationWithDefaults
 
 SOAP request and response examples **Remote/Services84/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.GetSpecifiedCriteriaInformationWithDefaults">SuperOffice.Services84.IFindAgent.GetSpecifiedCriteriaInformationWithDefaults</see> method.

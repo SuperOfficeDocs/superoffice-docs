@@ -1,7 +1,7 @@
 ---
-uid: services84-quote
 title: Services84.QuoteAgent SOAP
-Generated: true
+uid: Services84-Quote-soap
+generated: 1
 ---
 
 # Services84 Quote SOAP
@@ -111,3 +111,4 @@ Download [WSDL file for Services84/Quote](../Services84-Quote.md) if you need to
 * [ToggleSaleTypeQuoteAttachmentDefaultIncluded](ToggleSaleTypeQuoteAttachmentDefaultIncluded.md)
 * [UpdateQuoteVersionPrices](UpdateQuoteVersionPrices.md)
 * [ValidateQuoteVersion](ValidateQuoteVersion.md)
+

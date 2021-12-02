@@ -1,10 +1,10 @@
 ---
-uid: services84-project-getnextprojectstatus
 title: Services84.ProjectAgent.GetNextProjectStatus SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-GetNextProjectStatus
 ---
 
-# Services84 Project GetNextProjectStatus SOAP
+# Services84 Project GetNextProjectStatus
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.GetNextProjectStatus">SuperOffice.Services84.IProjectAgent.GetNextProjectStatus</see> method.

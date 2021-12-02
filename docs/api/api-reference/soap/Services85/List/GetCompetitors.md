@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getcompetitors
 title: Services85.ListAgent.GetCompetitors SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetCompetitors
 ---
 
-# Services85 List GetCompetitors SOAP
+# Services85 List GetCompetitors
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetCompetitors">SuperOffice.Services85.IListAgent.GetCompetitors</see> method.

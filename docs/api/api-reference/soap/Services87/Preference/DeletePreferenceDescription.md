@@ -1,10 +1,10 @@
 ---
-uid: services87-preference-deletepreferencedescription
 title: Services87.PreferenceAgent.DeletePreferenceDescription SOAP
-Generated: true
+generated: 1
+uid: Services87-Preference-DeletePreferenceDescription
 ---
 
-# Services87 Preference DeletePreferenceDescription SOAP
+# Services87 Preference DeletePreferenceDescription
 
 SOAP request and response examples **Remote/Services87/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.DeletePreferenceDescription">SuperOffice.Services87.IPreferenceAgent.DeletePreferenceDescription</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-document-getpublisheddocumentsbydate
 title: Services84.DocumentAgent.GetPublishedDocumentsByDate SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-GetPublishedDocumentsByDate
 ---
 
-# Services84 Document GetPublishedDocumentsByDate SOAP
+# Services84 Document GetPublishedDocumentsByDate
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetPublishedDocumentsByDate">SuperOffice.Services84.IDocumentAgent.GetPublishedDocumentsByDate</see> method.
@@ -48,8 +48,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPublishedDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPublishedDocumentsByDate>
 

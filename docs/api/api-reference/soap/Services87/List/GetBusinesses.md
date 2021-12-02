@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getbusinesses
 title: Services87.ListAgent.GetBusinesses SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetBusinesses
 ---
 
-# Services87 List GetBusinesses SOAP
+# Services87 List GetBusinesses
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetBusinesses">SuperOffice.Services87.IListAgent.GetBusinesses</see> method.

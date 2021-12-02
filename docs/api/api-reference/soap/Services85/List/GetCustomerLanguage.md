@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getcustomerlanguage
 title: Services85.ListAgent.GetCustomerLanguage SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetCustomerLanguage
 ---
 
-# Services85 List GetCustomerLanguage SOAP
+# Services85 List GetCustomerLanguage
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetCustomerLanguage">SuperOffice.Services85.IListAgent.GetCustomerLanguage</see> method.

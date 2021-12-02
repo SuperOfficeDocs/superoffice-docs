@@ -1,10 +1,10 @@
 ---
-uid: services84-numberallocation-savedefaultnumbering
 title: Services84.NumberAllocationAgent.SaveDefaultNumbering SOAP
-Generated: true
+generated: 1
+uid: Services84-NumberAllocation-SaveDefaultNumbering
 ---
 
-# Services84 NumberAllocation SaveDefaultNumbering SOAP
+# Services84 NumberAllocation SaveDefaultNumbering
 
 SOAP request and response examples **Remote/Services84/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.INumberAllocationAgent.SaveDefaultNumbering">SuperOffice.Services84.INumberAllocationAgent.SaveDefaultNumbering</see> method.

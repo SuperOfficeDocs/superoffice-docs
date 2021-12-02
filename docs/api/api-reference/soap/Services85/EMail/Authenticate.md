@@ -1,10 +1,10 @@
 ---
-uid: services85-email-authenticate
 title: Services85.EMailAgent.Authenticate SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-Authenticate
 ---
 
-# Services85 EMail Authenticate SOAP
+# Services85 EMail Authenticate
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.Authenticate">SuperOffice.Services85.IEMailAgent.Authenticate</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-databasetable-deleterow
 title: Services86.DatabaseTableAgent.DeleteRow SOAP
-Generated: true
+generated: 1
+uid: Services86-DatabaseTable-DeleteRow
 ---
 
-# Services86 DatabaseTable DeleteRow SOAP
+# Services86 DatabaseTable DeleteRow
 
 SOAP request and response examples **Remote/Services86/DatabaseTable.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDatabaseTableAgent.DeleteRow">SuperOffice.Services86.IDatabaseTableAgent.DeleteRow</see> method.

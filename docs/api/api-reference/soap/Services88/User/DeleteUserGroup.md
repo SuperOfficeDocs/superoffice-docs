@@ -1,10 +1,10 @@
 ---
-uid: services88-user-deleteusergroup
 title: Services88.UserAgent.DeleteUserGroup SOAP
-Generated: true
+generated: 1
+uid: Services88-User-DeleteUserGroup
 ---
 
-# Services88 User DeleteUserGroup SOAP
+# Services88 User DeleteUserGroup
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.DeleteUserGroup">SuperOffice.Services88.IUserAgent.DeleteUserGroup</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-list-saveamountclassentity
 title: Services86.ListAgent.SaveAmountClassEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SaveAmountClassEntity
 ---
 
-# Services86 List SaveAmountClassEntity SOAP
+# Services86 List SaveAmountClassEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveAmountClassEntity">SuperOffice.Services86.IListAgent.SaveAmountClassEntity</see> method.

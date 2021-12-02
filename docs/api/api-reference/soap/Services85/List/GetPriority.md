@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getpriority
 title: Services85.ListAgent.GetPriority SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetPriority
 ---
 
-# Services85 List GetPriority SOAP
+# Services85 List GetPriority
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetPriority">SuperOffice.Services85.IListAgent.GetPriority</see> method.

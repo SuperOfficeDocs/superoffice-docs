@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-setcontactimage
 title: Services88.BLOBAgent.SetContactImage SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-SetContactImage
 ---
 
-# Services88 BLOB SetContactImage SOAP
+# Services88 BLOB SetContactImage
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.SetContactImage">SuperOffice.Services88.IBLOBAgent.SetContactImage</see> method.

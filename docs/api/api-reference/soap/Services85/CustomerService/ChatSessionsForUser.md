@@ -1,10 +1,10 @@
 ---
-uid: services85-customerservice-chatsessionsforuser
 title: Services85.CustomerServiceAgent.ChatSessionsForUser SOAP
-Generated: true
+generated: 1
+uid: Services85-CustomerService-ChatSessionsForUser
 ---
 
-# Services85 CustomerService ChatSessionsForUser SOAP
+# Services85 CustomerService ChatSessionsForUser
 
 SOAP request and response examples **Remote/Services85/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.ChatSessionsForUser">SuperOffice.Services85.ICustomerServiceAgent.ChatSessionsForUser</see> method.

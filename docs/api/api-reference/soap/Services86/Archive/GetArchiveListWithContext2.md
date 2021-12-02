@@ -1,10 +1,10 @@
 ---
-uid: services86-archive-getarchivelistwithcontext2
 title: Services86.ArchiveAgent.GetArchiveListWithContext2 SOAP
-Generated: true
+generated: 1
+uid: Services86-Archive-GetArchiveListWithContext2
 ---
 
-# Services86 Archive GetArchiveListWithContext2 SOAP
+# Services86 Archive GetArchiveListWithContext2
 
 SOAP request and response examples **Remote/Services86/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetArchiveListWithContext2">SuperOffice.Services86.IArchiveAgent.GetArchiveListWithContext2</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-user-ispasswordvalid
 title: Services84.UserAgent.IsPasswordValid SOAP
-Generated: true
+generated: 1
+uid: Services84-User-IsPasswordValid
 ---
 
-# Services84 User IsPasswordValid SOAP
+# Services84 User IsPasswordValid
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.IsPasswordValid">SuperOffice.Services84.IUserAgent.IsPasswordValid</see> method.

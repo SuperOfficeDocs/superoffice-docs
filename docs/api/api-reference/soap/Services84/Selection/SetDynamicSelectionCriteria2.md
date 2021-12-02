@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-setdynamicselectioncriteria2
 title: Services84.SelectionAgent.SetDynamicSelectionCriteria2 SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-SetDynamicSelectionCriteria2
 ---
 
-# Services84 Selection SetDynamicSelectionCriteria2 SOAP
+# Services84 Selection SetDynamicSelectionCriteria2
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.SetDynamicSelectionCriteria2">SuperOffice.Services84.ISelectionAgent.SetDynamicSelectionCriteria2</see> method.

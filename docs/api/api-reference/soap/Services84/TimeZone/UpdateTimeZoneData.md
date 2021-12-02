@@ -1,10 +1,10 @@
 ---
-uid: services84-timezone-updatetimezonedata
 title: Services84.TimeZoneAgent.UpdateTimeZoneData SOAP
-Generated: true
+generated: 1
+uid: Services84-TimeZone-UpdateTimeZoneData
 ---
 
-# Services84 TimeZone UpdateTimeZoneData SOAP
+# Services84 TimeZone UpdateTimeZoneData
 
 SOAP request and response examples **Remote/Services84/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ITimeZoneAgent.UpdateTimeZoneData">SuperOffice.Services84.ITimeZoneAgent.UpdateTimeZoneData</see> method.

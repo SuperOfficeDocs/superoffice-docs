@@ -1,10 +1,10 @@
 ---
-uid: services84-diagnostics-addwebappusage
 title: Services84.DiagnosticsAgent.AddWebAppUsage SOAP
-Generated: true
+generated: 1
+uid: Services84-Diagnostics-AddWebAppUsage
 ---
 
-# Services84 Diagnostics AddWebAppUsage SOAP
+# Services84 Diagnostics AddWebAppUsage
 
 SOAP request and response examples **Remote/Services84/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDiagnosticsAgent.AddWebAppUsage">SuperOffice.Services84.IDiagnosticsAgent.AddWebAppUsage</see> method.
@@ -45,7 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
       <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
       <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2021-03-25T21:35:23Z</Diagnostics:Timestamp>
+      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2021-11-30T13:22:08Z</Diagnostics:Timestamp>
       <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
       <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
       <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>

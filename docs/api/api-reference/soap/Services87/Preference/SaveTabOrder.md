@@ -1,10 +1,10 @@
 ---
-uid: services87-preference-savetaborder
 title: Services87.PreferenceAgent.SaveTabOrder SOAP
-Generated: true
+generated: 1
+uid: Services87-Preference-SaveTabOrder
 ---
 
-# Services87 Preference SaveTabOrder SOAP
+# Services87 Preference SaveTabOrder
 
 SOAP request and response examples **Remote/Services87/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.SaveTabOrder">SuperOffice.Services87.IPreferenceAgent.SaveTabOrder</see> method.

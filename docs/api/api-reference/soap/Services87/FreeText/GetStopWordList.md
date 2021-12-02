@@ -1,10 +1,10 @@
 ---
-uid: services87-freetext-getstopwordlist
 title: Services87.FreeTextAgent.GetStopWordList SOAP
-Generated: true
+generated: 1
+uid: Services87-FreeText-GetStopWordList
 ---
 
-# Services87 FreeText GetStopWordList SOAP
+# Services87 FreeText GetStopWordList
 
 SOAP request and response examples **Remote/Services87/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.GetStopWordList">SuperOffice.Services87.IFreeTextAgent.GetStopWordList</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getprojectstatuslist
 title: Services86.ListAgent.GetProjectStatusList SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetProjectStatusList
 ---
 
-# Services86 List GetProjectStatusList SOAP
+# Services86 List GetProjectStatusList
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetProjectStatusList">SuperOffice.Services86.IListAgent.GetProjectStatusList</see> method.

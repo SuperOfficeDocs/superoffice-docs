@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-reject
 title: Services84.AppointmentAgent.Reject SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-Reject
 ---
 
-# Services84 Appointment Reject SOAP
+# Services84 Appointment Reject
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.Reject">SuperOffice.Services84.IAppointmentAgent.Reject</see> method.

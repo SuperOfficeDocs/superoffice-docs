@@ -1,10 +1,10 @@
 ---
-uid: services85-erpsync-syncall
 title: Services85.ErpSyncAgent.SyncAll SOAP
-Generated: true
+generated: 1
+uid: Services85-ErpSync-SyncAll
 ---
 
-# Services85 ErpSync SyncAll SOAP
+# Services85 ErpSync SyncAll
 
 SOAP request and response examples **Remote/Services85/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SyncAll">SuperOffice.Services85.IErpSyncAgent.SyncAll</see> method.

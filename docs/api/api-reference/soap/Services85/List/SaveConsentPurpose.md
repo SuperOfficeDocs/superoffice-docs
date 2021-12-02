@@ -1,10 +1,10 @@
 ---
-uid: services85-list-saveconsentpurpose
 title: Services85.ListAgent.SaveConsentPurpose SOAP
-Generated: true
+generated: 1
+uid: Services85-List-SaveConsentPurpose
 ---
 
-# Services85 List SaveConsentPurpose SOAP
+# Services85 List SaveConsentPurpose
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveConsentPurpose">SuperOffice.Services85.IListAgent.SaveConsentPurpose</see> method.
@@ -50,7 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Key xsi:type="xsd:string"></List:Key>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
      <List:Active xsi:type="xsd:short">0</List:Active>
-     <List:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:49Z</List:UpdatedDate>
+     <List:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:34Z</List:UpdatedDate>
      <List:UpdatedBy xsi:type="List:Associate">
       <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
       <List:Name xsi:type="xsd:string"></List:Name>
@@ -99,7 +99,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Key xsi:type="xsd:string"></List:Key>
     <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
     <List:Active xsi:type="xsd:short">0</List:Active>
-    <List:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:49Z</List:UpdatedDate>
+    <List:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:34Z</List:UpdatedDate>
     <List:UpdatedBy xsi:type="List:Associate">
      <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
      <List:Name xsi:type="xsd:string"></List:Name>

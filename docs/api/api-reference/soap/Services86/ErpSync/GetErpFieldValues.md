@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-geterpfieldvalues
 title: Services86.ErpSyncAgent.GetErpFieldValues SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-GetErpFieldValues
 ---
 
-# Services86 ErpSync GetErpFieldValues SOAP
+# Services86 ErpSync GetErpFieldValues
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetErpFieldValues">SuperOffice.Services86.IErpSyncAgent.GetErpFieldValues</see> method.

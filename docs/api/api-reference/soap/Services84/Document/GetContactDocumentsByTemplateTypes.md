@@ -1,10 +1,10 @@
 ---
-uid: services84-document-getcontactdocumentsbytemplatetypes
 title: Services84.DocumentAgent.GetContactDocumentsByTemplateTypes SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-GetContactDocumentsByTemplateTypes
 ---
 
-# Services84 Document GetContactDocumentsByTemplateTypes SOAP
+# Services84 Document GetContactDocumentsByTemplateTypes
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.GetContactDocumentsByTemplateTypes">SuperOffice.Services84.IDocumentAgent.GetContactDocumentsByTemplateTypes</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocumentsByTemplateTypes>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:35:24Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:22:09Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateIds xsi:type="NetServerServices842:ArrayOfint">
      <NetServerServices842:int xsi:type="xsd:int">0</NetServerServices842:int>

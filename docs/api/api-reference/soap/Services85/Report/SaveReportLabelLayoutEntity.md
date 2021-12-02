@@ -1,10 +1,10 @@
 ---
-uid: services85-report-savereportlabellayoutentity
 title: Services85.ReportAgent.SaveReportLabelLayoutEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Report-SaveReportLabelLayoutEntity
 ---
 
-# Services85 Report SaveReportLabelLayoutEntity SOAP
+# Services85 Report SaveReportLabelLayoutEntity
 
 SOAP request and response examples **Remote/Services85/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IReportAgent.SaveReportLabelLayoutEntity">SuperOffice.Services85.IReportAgent.SaveReportLabelLayoutEntity</see> method.

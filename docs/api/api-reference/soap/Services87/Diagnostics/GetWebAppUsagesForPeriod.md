@@ -1,10 +1,10 @@
 ---
-uid: services87-diagnostics-getwebappusagesforperiod
 title: Services87.DiagnosticsAgent.GetWebAppUsagesForPeriod SOAP
-Generated: true
+generated: 1
+uid: Services87-Diagnostics-GetWebAppUsagesForPeriod
 ---
 
-# Services87 Diagnostics GetWebAppUsagesForPeriod SOAP
+# Services87 Diagnostics GetWebAppUsagesForPeriod
 
 SOAP request and response examples **Remote/Services87/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.GetWebAppUsagesForPeriod">SuperOffice.Services87.IDiagnosticsAgent.GetWebAppUsagesForPeriod</see> method.
@@ -43,8 +43,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Diagnostics:Credentials>
  <SOAP-ENV:Body>
    <Diagnostics:GetWebAppUsagesForPeriod>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Diagnostics:FromDate>
-    <Diagnostics:ToDate xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Diagnostics:ToDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Diagnostics:FromDate>
+    <Diagnostics:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Diagnostics:ToDate>
     <Diagnostics:SearchTerm xsi:type="xsd:string"></Diagnostics:SearchTerm>
    </Diagnostics:GetWebAppUsagesForPeriod>
 
@@ -72,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
      <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
      <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Diagnostics:Timestamp>
+     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Diagnostics:Timestamp>
      <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
      <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
      <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>

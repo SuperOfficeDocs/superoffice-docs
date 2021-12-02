@@ -1,10 +1,10 @@
 ---
-uid: services85-selection-removecontactselectionmembersfromids
 title: Services85.SelectionAgent.RemoveContactSelectionMembersFromIds SOAP
-Generated: true
+generated: 1
+uid: Services85-Selection-RemoveContactSelectionMembersFromIds
 ---
 
-# Services85 Selection RemoveContactSelectionMembersFromIds SOAP
+# Services85 Selection RemoveContactSelectionMembersFromIds
 
 SOAP request and response examples **Remote/Services85/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.RemoveContactSelectionMembersFromIds">SuperOffice.Services85.ISelectionAgent.RemoveContactSelectionMembersFromIds</see> method.

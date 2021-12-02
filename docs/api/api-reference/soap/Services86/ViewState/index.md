@@ -1,7 +1,7 @@
 ---
-uid: services86-viewstate
 title: Services86.ViewStateAgent SOAP
-Generated: true
+uid: Services86-ViewState-soap
+generated: 1
 ---
 
 # Services86 ViewState SOAP
@@ -29,3 +29,4 @@ Download [WSDL file for Services86/ViewState](../Services86-ViewState.md) if you
 * [SaveCurrents](SaveCurrents.md)
 * [SaveHistories](SaveHistories.md)
 * [SetHistoryLengthPrefValue](SetHistoryLengthPrefValue.md)
+

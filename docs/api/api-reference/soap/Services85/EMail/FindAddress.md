@@ -1,10 +1,10 @@
 ---
-uid: services85-email-findaddress
 title: Services85.EMailAgent.FindAddress SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-FindAddress
 ---
 
-# Services85 EMail FindAddress SOAP
+# Services85 EMail FindAddress
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.FindAddress">SuperOffice.Services85.IEMailAgent.FindAddress</see> method.

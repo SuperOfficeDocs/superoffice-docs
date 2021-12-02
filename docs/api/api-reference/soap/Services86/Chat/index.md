@@ -1,7 +1,7 @@
 ---
-uid: services86-chat
 title: Services86.ChatAgent SOAP
-Generated: true
+uid: Services86-Chat-soap
+generated: 1
 ---
 
 # Services86 Chat SOAP
@@ -18,3 +18,4 @@ Download [WSDL file for Services86/Chat](../Services86-Chat.md) if you need to g
 * [GetChatPresence](GetChatPresence.md)
 * [IsWithinOpeningHours](IsWithinOpeningHours.md)
 * [SaveChatPresence](SaveChatPresence.md)
+

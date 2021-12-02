@@ -1,10 +1,10 @@
 ---
-uid: services85-list-createdefaultdocumenttemplatelanguage
 title: Services85.ListAgent.CreateDefaultDocumentTemplateLanguage SOAP
-Generated: true
+generated: 1
+uid: Services85-List-CreateDefaultDocumentTemplateLanguage
 ---
 
-# Services85 List CreateDefaultDocumentTemplateLanguage SOAP
+# Services85 List CreateDefaultDocumentTemplateLanguage
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.CreateDefaultDocumentTemplateLanguage">SuperOffice.Services85.IListAgent.CreateDefaultDocumentTemplateLanguage</see> method.

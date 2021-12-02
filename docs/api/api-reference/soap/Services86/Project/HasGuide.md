@@ -1,10 +1,10 @@
 ---
-uid: services86-project-hasguide
 title: Services86.ProjectAgent.HasGuide SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-HasGuide
 ---
 
-# Services86 Project HasGuide SOAP
+# Services86 Project HasGuide
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.HasGuide">SuperOffice.Services86.IProjectAgent.HasGuide</see> method.

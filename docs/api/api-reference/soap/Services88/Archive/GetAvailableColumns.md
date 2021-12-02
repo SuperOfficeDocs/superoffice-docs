@@ -1,10 +1,10 @@
 ---
-uid: services88-archive-getavailablecolumns
 title: Services88.ArchiveAgent.GetAvailableColumns SOAP
-Generated: true
+generated: 1
+uid: Services88-Archive-GetAvailableColumns
 ---
 
-# Services88 Archive GetAvailableColumns SOAP
+# Services88 Archive GetAvailableColumns
 
 SOAP request and response examples **Remote/Services88/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetAvailableColumns">SuperOffice.Services88.IArchiveAgent.GetAvailableColumns</see> method.
@@ -81,6 +81,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Archive:Width xsi:type="xsd:string"></Archive:Width>
      <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
      <Archive:HeadingIconHint xsi:type="xsd:string"></Archive:HeadingIconHint>
+     <Archive:ExtraInfo xsi:type="xsd:string"></Archive:ExtraInfo>
     </Archive:ArchiveColumnInfo>
    </Archive:Response>
   </Archive:GetAvailableColumnsResponse>

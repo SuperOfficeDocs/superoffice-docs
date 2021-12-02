@@ -1,10 +1,10 @@
 ---
-uid: services86-project-deleteprojectentity
 title: Services86.ProjectAgent.DeleteProjectEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-DeleteProjectEntity
 ---
 
-# Services86 Project DeleteProjectEntity SOAP
+# Services86 Project DeleteProjectEntity
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.DeleteProjectEntity">SuperOffice.Services86.IProjectAgent.DeleteProjectEntity</see> method.

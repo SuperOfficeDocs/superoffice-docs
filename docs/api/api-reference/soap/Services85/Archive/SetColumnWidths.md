@@ -1,10 +1,10 @@
 ---
-uid: services85-archive-setcolumnwidths
 title: Services85.ArchiveAgent.SetColumnWidths SOAP
-Generated: true
+generated: 1
+uid: Services85-Archive-SetColumnWidths
 ---
 
-# Services85 Archive SetColumnWidths SOAP
+# Services85 Archive SetColumnWidths
 
 SOAP request and response examples **Remote/Services85/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.SetColumnWidths">SuperOffice.Services85.IArchiveAgent.SetColumnWidths</see> method.

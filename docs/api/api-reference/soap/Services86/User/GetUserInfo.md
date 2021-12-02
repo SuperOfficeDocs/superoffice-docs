@@ -1,10 +1,10 @@
 ---
-uid: services86-user-getuserinfo
 title: Services86.UserAgent.GetUserInfo SOAP
-Generated: true
+generated: 1
+uid: Services86-User-GetUserInfo
 ---
 
-# Services86 User GetUserInfo SOAP
+# Services86 User GetUserInfo
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUserInfo">SuperOffice.Services86.IUserAgent.GetUserInfo</see> method.

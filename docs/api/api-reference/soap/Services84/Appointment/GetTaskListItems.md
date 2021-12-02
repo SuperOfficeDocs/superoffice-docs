@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-gettasklistitems
 title: Services84.AppointmentAgent.GetTaskListItems SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-GetTaskListItems
 ---
 
-# Services84 Appointment GetTaskListItems SOAP
+# Services84 Appointment GetTaskListItems
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.GetTaskListItems">SuperOffice.Services84.IAppointmentAgent.GetTaskListItems</see> method.

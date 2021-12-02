@@ -1,10 +1,10 @@
 ---
-uid: services86-report-generatereport
 title: Services86.ReportAgent.GenerateReport SOAP
-Generated: true
+generated: 1
+uid: Services86-Report-GenerateReport
 ---
 
-# Services86 Report GenerateReport SOAP
+# Services86 Report GenerateReport
 
 SOAP request and response examples **Remote/Services86/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.GenerateReport">SuperOffice.Services86.IReportAgent.GenerateReport</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-getconnectionsanddisplayfields
 title: Services87.ErpSyncAgent.GetConnectionsAndDisplayFields SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-GetConnectionsAndDisplayFields
 ---
 
-# Services87 ErpSync GetConnectionsAndDisplayFields SOAP
+# Services87 ErpSync GetConnectionsAndDisplayFields
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetConnectionsAndDisplayFields">SuperOffice.Services87.IErpSyncAgent.GetConnectionsAndDisplayFields</see> method.

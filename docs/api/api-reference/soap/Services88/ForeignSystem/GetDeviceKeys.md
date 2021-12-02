@@ -1,10 +1,10 @@
 ---
-uid: services88-foreignsystem-getdevicekeys
 title: Services88.ForeignSystemAgent.GetDeviceKeys SOAP
-Generated: true
+generated: 1
+uid: Services88-ForeignSystem-GetDeviceKeys
 ---
 
-# Services88 ForeignSystem GetDeviceKeys SOAP
+# Services88 ForeignSystem GetDeviceKeys
 
 SOAP request and response examples **Remote/Services88/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IForeignSystemAgent.GetDeviceKeys">SuperOffice.Services88.IForeignSystemAgent.GetDeviceKeys</see> method.
@@ -70,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
      <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
      <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:59Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:59Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>

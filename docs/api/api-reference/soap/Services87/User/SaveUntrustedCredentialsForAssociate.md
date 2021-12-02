@@ -1,10 +1,10 @@
 ---
-uid: services87-user-saveuntrustedcredentialsforassociate
 title: Services87.UserAgent.SaveUntrustedCredentialsForAssociate SOAP
-Generated: true
+generated: 1
+uid: Services87-User-SaveUntrustedCredentialsForAssociate
 ---
 
-# Services87 User SaveUntrustedCredentialsForAssociate SOAP
+# Services87 User SaveUntrustedCredentialsForAssociate
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SaveUntrustedCredentialsForAssociate">SuperOffice.Services87.IUserAgent.SaveUntrustedCredentialsForAssociate</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
     <User:Type xsi:type="xsd:string"></User:Type>
     <User:Credentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:23:29Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:23:29Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

@@ -1,10 +1,10 @@
 ---
-uid: services85-preference-savepreferencedescription
 title: Services85.PreferenceAgent.SavePreferenceDescription SOAP
-Generated: true
+generated: 1
+uid: Services85-Preference-SavePreferenceDescription
 ---
 
-# Services85 Preference SavePreferenceDescription SOAP
+# Services85 Preference SavePreferenceDescription
 
 SOAP request and response examples **Remote/Services85/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.SavePreferenceDescription">SuperOffice.Services85.IPreferenceAgent.SavePreferenceDescription</see> method.

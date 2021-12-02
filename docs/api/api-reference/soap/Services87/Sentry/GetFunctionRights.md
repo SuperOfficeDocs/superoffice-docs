@@ -1,10 +1,10 @@
 ---
-uid: services87-sentry-getfunctionrights
 title: Services87.SentryAgent.GetFunctionRights SOAP
-Generated: true
+generated: 1
+uid: Services87-Sentry-GetFunctionRights
 ---
 
-# Services87 Sentry GetFunctionRights SOAP
+# Services87 Sentry GetFunctionRights
 
 SOAP request and response examples **Remote/Services87/Sentry.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISentryAgent.GetFunctionRights">SuperOffice.Services87.ISentryAgent.GetFunctionRights</see> method.

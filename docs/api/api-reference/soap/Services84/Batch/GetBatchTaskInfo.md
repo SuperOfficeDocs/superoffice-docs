@@ -1,10 +1,10 @@
 ---
-uid: services84-batch-getbatchtaskinfo
 title: Services84.BatchAgent.GetBatchTaskInfo SOAP
-Generated: true
+generated: 1
+uid: Services84-Batch-GetBatchTaskInfo
 ---
 
-# Services84 Batch GetBatchTaskInfo SOAP
+# Services84 Batch GetBatchTaskInfo
 
 SOAP request and response examples **Remote/Services84/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBatchAgent.GetBatchTaskInfo">SuperOffice.Services84.IBatchAgent.GetBatchTaskInfo</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Batch:Value xsi:type="xsd:string"></Batch:Value>
      </Batch:StringKeyValuePair>
     </Batch:ParameterObject>
-    <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:20Z</Batch:LastStarted>
-    <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:35:20Z</Batch:Created>
+    <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:LastStarted>
+    <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:Created>
     <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
     <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
     <Batch:Context xsi:type="xsd:string"></Batch:Context>

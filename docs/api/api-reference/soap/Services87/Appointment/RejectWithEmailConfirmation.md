@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-rejectwithemailconfirmation
 title: Services87.AppointmentAgent.RejectWithEmailConfirmation SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-RejectWithEmailConfirmation
 ---
 
-# Services87 Appointment RejectWithEmailConfirmation SOAP
+# Services87 Appointment RejectWithEmailConfirmation
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.RejectWithEmailConfirmation">SuperOffice.Services87.IAppointmentAgent.RejectWithEmailConfirmation</see> method.

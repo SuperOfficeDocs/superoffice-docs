@@ -1,10 +1,10 @@
 ---
-uid: services84-preference-getpreferenceswithdisplayvalues
 title: Services84.PreferenceAgent.GetPreferencesWithDisplayValues SOAP
-Generated: true
+generated: 1
+uid: Services84-Preference-GetPreferencesWithDisplayValues
 ---
 
-# Services84 Preference GetPreferencesWithDisplayValues SOAP
+# Services84 Preference GetPreferencesWithDisplayValues
 
 SOAP request and response examples **Remote/Services84/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.GetPreferencesWithDisplayValues">SuperOffice.Services84.IPreferenceAgent.GetPreferencesWithDisplayValues</see> method.

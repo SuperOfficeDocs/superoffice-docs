@@ -1,10 +1,10 @@
 ---
-uid: services88-numberallocation-getrefcountentity
 title: Services88.NumberAllocationAgent.GetRefCountEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-NumberAllocation-GetRefCountEntity
 ---
 
-# Services88 NumberAllocation GetRefCountEntity SOAP
+# Services88 NumberAllocation GetRefCountEntity
 
 SOAP request and response examples **Remote/Services88/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.INumberAllocationAgent.GetRefCountEntity">SuperOffice.Services88.INumberAllocationAgent.GetRefCountEntity</see> method.

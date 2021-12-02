@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-createdefaulttasklistitem
 title: Services88.AppointmentAgent.CreateDefaultTaskListItem SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-CreateDefaultTaskListItem
 ---
 
-# Services88 Appointment CreateDefaultTaskListItem SOAP
+# Services88 Appointment CreateDefaultTaskListItem
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.CreateDefaultTaskListItem">SuperOffice.Services88.IAppointmentAgent.CreateDefaultTaskListItem</see> method.

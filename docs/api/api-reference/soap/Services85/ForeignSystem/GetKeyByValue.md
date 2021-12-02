@@ -1,10 +1,10 @@
 ---
-uid: services85-foreignsystem-getkeybyvalue
 title: Services85.ForeignSystemAgent.GetKeyByValue SOAP
-Generated: true
+generated: 1
+uid: Services85-ForeignSystem-GetKeyByValue
 ---
 
-# Services85 ForeignSystem GetKeyByValue SOAP
+# Services85 ForeignSystem GetKeyByValue
 
 SOAP request and response examples **Remote/Services85/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.GetKeyByValue">SuperOffice.Services85.IForeignSystemAgent.GetKeyByValue</see> method.
@@ -75,8 +75,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
     <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
     <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:48Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:48Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>

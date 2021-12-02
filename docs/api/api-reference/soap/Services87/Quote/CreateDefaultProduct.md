@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-createdefaultproduct
 title: Services87.QuoteAgent.CreateDefaultProduct SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-CreateDefaultProduct
 ---
 
-# Services87 Quote CreateDefaultProduct SOAP
+# Services87 Quote CreateDefaultProduct
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CreateDefaultProduct">SuperOffice.Services87.IQuoteAgent.CreateDefaultProduct</see> method.

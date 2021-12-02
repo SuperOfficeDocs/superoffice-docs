@@ -1,10 +1,10 @@
 ---
-uid: services84-messaging-createmessage
 title: Services84.MessagingAgent.CreateMessage SOAP
-Generated: true
+generated: 1
+uid: Services84-Messaging-CreateMessage
 ---
 
-# Services84 Messaging CreateMessage SOAP
+# Services84 Messaging CreateMessage
 
 SOAP request and response examples **Remote/Services84/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IMessagingAgent.CreateMessage">SuperOffice.Services84.IMessagingAgent.CreateMessage</see> method.

@@ -1,17 +1,17 @@
 ---
-uid: services88-chat-getuseragentlist
 title: Services88.ChatAgent.GetUserAgentList SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-GetUserAgentList
 ---
 
-# Services88 Chat GetUserAgentList SOAP
+# Services88 Chat GetUserAgentList
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetUserAgentList">SuperOffice.Services88.IChatAgent.GetUserAgentList</see> method.
 
 ## GetUserAgentList
 
-Get list of users that can be assigned to topics. Users with Chat-CALs from the MDO list 'chatuser'
+Get list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list 'chatuser'
 
 * **flat:** Return flat list instead of grouping by usergroup.
 * **onlyPresent:** Only show users who are present

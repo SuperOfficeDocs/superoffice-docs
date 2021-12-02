@@ -1,10 +1,10 @@
 ---
-uid: services87-user-addownercontact
 title: Services87.UserAgent.AddOwnerContact SOAP
-Generated: true
+generated: 1
+uid: Services87-User-AddOwnerContact
 ---
 
-# Services87 User AddOwnerContact SOAP
+# Services87 User AddOwnerContact
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.AddOwnerContact">SuperOffice.Services87.IUserAgent.AddOwnerContact</see> method.

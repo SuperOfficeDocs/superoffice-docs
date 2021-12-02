@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-testconnectionbyid
 title: Services88.ErpSyncAgent.TestConnectionById SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-TestConnectionById
 ---
 
-# Services88 ErpSync TestConnectionById SOAP
+# Services88 ErpSync TestConnectionById
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.TestConnectionById">SuperOffice.Services88.IErpSyncAgent.TestConnectionById</see> method.

@@ -1,7 +1,7 @@
 ---
-uid: services86-favourite
 title: Services86.FavouriteAgent SOAP
-Generated: true
+uid: Services86-Favourite-soap
+generated: 1
 ---
 
 # Services86 Favourite SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services86/Favourite](../Services86-Favourite.md) if you
 * [RemoveFavourite](RemoveFavourite.md)
 * [RemoveFavouritesById](RemoveFavouritesById.md)
 * [ToggleFavourite](ToggleFavourite.md)
+

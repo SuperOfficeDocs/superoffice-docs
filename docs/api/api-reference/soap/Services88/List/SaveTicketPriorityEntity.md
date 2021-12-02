@@ -1,10 +1,10 @@
 ---
-uid: services88-list-saveticketpriorityentity
 title: Services88.ListAgent.SaveTicketPriorityEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SaveTicketPriorityEntity
 ---
 
-# Services88 List SaveTicketPriorityEntity SOAP
+# Services88 List SaveTicketPriorityEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveTicketPriorityEntity">SuperOffice.Services88.IListAgent.SaveTicketPriorityEntity</see> method.
@@ -55,23 +55,43 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
      <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
      <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-     <List:MonStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:MonStart>
-     <List:MonStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:MonStop>
-     <List:TueStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:TueStart>
-     <List:TueStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:TueStop>
-     <List:WedStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:WedStart>
-     <List:WedStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:WedStop>
-     <List:ThuStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:ThuStart>
-     <List:ThuStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:ThuStop>
-     <List:FriStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:FriStart>
-     <List:FriStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:FriStop>
-     <List:SatStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SatStart>
-     <List:SatStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SatStop>
-     <List:SunStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SunStart>
-     <List:SunStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SunStop>
+     <List:MonStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:MonStart>
+     <List:MonStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:MonStop>
+     <List:TueStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:TueStart>
+     <List:TueStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:TueStop>
+     <List:WedStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:WedStart>
+     <List:WedStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:WedStop>
+     <List:ThuStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:ThuStart>
+     <List:ThuStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:ThuStop>
+     <List:FriStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:FriStart>
+     <List:FriStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:FriStop>
+     <List:SatStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SatStart>
+     <List:SatStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SatStop>
+     <List:SunStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SunStart>
+     <List:SunStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SunStop>
      <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</NetServerServices882:dateTime>
+      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</NetServerServices882:dateTime>
      </List:NonDates>
+     <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
+      <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">
+       <List:TicketAlertId xsi:type="xsd:int">0</List:TicketAlertId>
+       <List:AlertLevel xsi:type="xsd:short">0</List:AlertLevel>
+       <List:AlertTimeout xsi:type="xsd:int">0</List:AlertTimeout>
+       <List:Action xsi:type="xsd:int">0</List:Action>
+       <List:DelegateTo xsi:type="xsd:int">0</List:DelegateTo>
+       <List:ScriptId xsi:type="xsd:int">0</List:ScriptId>
+       <List:EmailTo xsi:type="xsd:string"></List:EmailTo>
+       <List:SmsTo xsi:type="xsd:string"></List:SmsTo>
+       <List:ReplyTemplateIdCustomer xsi:type="xsd:int">0</List:ReplyTemplateIdCustomer>
+       <List:ReplyTemplateIdUser xsi:type="xsd:int">0</List:ReplyTemplateIdUser>
+       <List:ReplyTemplateIdCatmast xsi:type="xsd:int">0</List:ReplyTemplateIdCatmast>
+       <List:ReplyTemplateIdEmail xsi:type="xsd:int">0</List:ReplyTemplateIdEmail>
+       <List:RtiCustomerSms xsi:type="xsd:int">0</List:RtiCustomerSms>
+       <List:ReplyTemplateIdUserSms xsi:type="xsd:int">0</List:ReplyTemplateIdUserSms>
+       <List:ReplyTemplateIdCatmastSms xsi:type="xsd:int">0</List:ReplyTemplateIdCatmastSms>
+       <List:ReplyTemplateIdSms xsi:type="xsd:int">0</List:ReplyTemplateIdSms>
+      </List:TicketPriorityEscalationLevelEntity>
+     </List:EscalationLevels>
     </List:TicketPriorityEntity>
    </List:SaveTicketPriorityEntity>
 
@@ -108,23 +128,43 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
     <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
     <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-    <List:MonStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:MonStart>
-    <List:MonStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:MonStop>
-    <List:TueStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:TueStart>
-    <List:TueStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:TueStop>
-    <List:WedStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:WedStart>
-    <List:WedStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:WedStop>
-    <List:ThuStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:ThuStart>
-    <List:ThuStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:ThuStop>
-    <List:FriStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:FriStart>
-    <List:FriStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:FriStop>
-    <List:SatStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SatStart>
-    <List:SatStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SatStop>
-    <List:SunStart xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SunStart>
-    <List:SunStop xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</List:SunStop>
+    <List:MonStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:MonStart>
+    <List:MonStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:MonStop>
+    <List:TueStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:TueStart>
+    <List:TueStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:TueStop>
+    <List:WedStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:WedStart>
+    <List:WedStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:WedStop>
+    <List:ThuStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:ThuStart>
+    <List:ThuStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:ThuStop>
+    <List:FriStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:FriStart>
+    <List:FriStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:FriStop>
+    <List:SatStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SatStart>
+    <List:SatStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SatStop>
+    <List:SunStart xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SunStart>
+    <List:SunStop xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</List:SunStop>
     <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-03-25T21:37:02Z</NetServerServices882:dateTime>
+     <NetServerServices882:dateTime xsi:type="xsd:dateTime">2021-11-30T13:23:44Z</NetServerServices882:dateTime>
     </List:NonDates>
+    <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
+     <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">
+      <List:TicketAlertId xsi:type="xsd:int">0</List:TicketAlertId>
+      <List:AlertLevel xsi:type="xsd:short">0</List:AlertLevel>
+      <List:AlertTimeout xsi:type="xsd:int">0</List:AlertTimeout>
+      <List:Action xsi:type="xsd:int">0</List:Action>
+      <List:DelegateTo xsi:type="xsd:int">0</List:DelegateTo>
+      <List:ScriptId xsi:type="xsd:int">0</List:ScriptId>
+      <List:EmailTo xsi:type="xsd:string"></List:EmailTo>
+      <List:SmsTo xsi:type="xsd:string"></List:SmsTo>
+      <List:ReplyTemplateIdCustomer xsi:type="xsd:int">0</List:ReplyTemplateIdCustomer>
+      <List:ReplyTemplateIdUser xsi:type="xsd:int">0</List:ReplyTemplateIdUser>
+      <List:ReplyTemplateIdCatmast xsi:type="xsd:int">0</List:ReplyTemplateIdCatmast>
+      <List:ReplyTemplateIdEmail xsi:type="xsd:int">0</List:ReplyTemplateIdEmail>
+      <List:RtiCustomerSms xsi:type="xsd:int">0</List:RtiCustomerSms>
+      <List:ReplyTemplateIdUserSms xsi:type="xsd:int">0</List:ReplyTemplateIdUserSms>
+      <List:ReplyTemplateIdCatmastSms xsi:type="xsd:int">0</List:ReplyTemplateIdCatmastSms>
+      <List:ReplyTemplateIdSms xsi:type="xsd:int">0</List:ReplyTemplateIdSms>
+     </List:TicketPriorityEscalationLevelEntity>
+    </List:EscalationLevels>
    </List:Response>
   </List:SaveTicketPriorityEntityResponse>
  </SOAP-ENV:Body>

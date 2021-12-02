@@ -1,10 +1,10 @@
 ---
-uid: services85-sale-isnumbervalid
 title: Services85.SaleAgent.IsNumberValid SOAP
-Generated: true
+generated: 1
+uid: Services85-Sale-IsNumberValid
 ---
 
-# Services85 Sale IsNumberValid SOAP
+# Services85 Sale IsNumberValid
 
 SOAP request and response examples **Remote/Services85/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.IsNumberValid">SuperOffice.Services85.ISaleAgent.IsNumberValid</see> method.

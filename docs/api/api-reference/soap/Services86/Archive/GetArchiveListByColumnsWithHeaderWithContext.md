@@ -1,10 +1,10 @@
 ---
-uid: services86-archive-getarchivelistbycolumnswithheaderwithcontext
 title: Services86.ArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext SOAP
-Generated: true
+generated: 1
+uid: Services86-Archive-GetArchiveListByColumnsWithHeaderWithContext
 ---
 
-# Services86 Archive GetArchiveListByColumnsWithHeaderWithContext SOAP
+# Services86 Archive GetArchiveListByColumnsWithHeaderWithContext
 
 SOAP request and response examples **Remote/Services86/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext">SuperOffice.Services86.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext</see> method.

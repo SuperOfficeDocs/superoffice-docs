@@ -1,10 +1,10 @@
 ---
-uid: services86-diagnostics-collecttablesizes
 title: Services86.DiagnosticsAgent.CollectTableSizes SOAP
-Generated: true
+generated: 1
+uid: Services86-Diagnostics-CollectTableSizes
 ---
 
-# Services86 Diagnostics CollectTableSizes SOAP
+# Services86 Diagnostics CollectTableSizes
 
 SOAP request and response examples **Remote/Services86/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDiagnosticsAgent.CollectTableSizes">SuperOffice.Services86.IDiagnosticsAgent.CollectTableSizes</see> method.

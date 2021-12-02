@@ -1,10 +1,10 @@
 ---
-uid: services86-license-getmodulelicensefromdb
 title: Services86.LicenseAgent.GetModuleLicenseFromDB SOAP
-Generated: true
+generated: 1
+uid: Services86-License-GetModuleLicenseFromDB
 ---
 
-# Services86 License GetModuleLicenseFromDB SOAP
+# Services86 License GetModuleLicenseFromDB
 
 SOAP request and response examples **Remote/Services86/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ILicenseAgent.GetModuleLicenseFromDB">SuperOffice.Services86.ILicenseAgent.GetModuleLicenseFromDB</see> method.

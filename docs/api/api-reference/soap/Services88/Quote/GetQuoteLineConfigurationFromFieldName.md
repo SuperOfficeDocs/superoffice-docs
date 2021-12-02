@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-getquotelineconfigurationfromfieldname
 title: Services88.QuoteAgent.GetQuoteLineConfigurationFromFieldName SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-GetQuoteLineConfigurationFromFieldName
 ---
 
-# Services88 Quote GetQuoteLineConfigurationFromFieldName SOAP
+# Services88 Quote GetQuoteLineConfigurationFromFieldName
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetQuoteLineConfigurationFromFieldName">SuperOffice.Services88.IQuoteAgent.GetQuoteLineConfigurationFromFieldName</see> method.

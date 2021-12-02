@@ -1,10 +1,10 @@
 ---
-uid: services88-user-createusergroup
 title: Services88.UserAgent.CreateUserGroup SOAP
-Generated: true
+generated: 1
+uid: Services88-User-CreateUserGroup
 ---
 
-# Services88 User CreateUserGroup SOAP
+# Services88 User CreateUserGroup
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateUserGroup">SuperOffice.Services88.IUserAgent.CreateUserGroup</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-find-getcriteriainformation
 title: Services85.FindAgent.GetCriteriaInformation SOAP
-Generated: true
+generated: 1
+uid: Services85-Find-GetCriteriaInformation
 ---
 
-# Services85 Find GetCriteriaInformation SOAP
+# Services85 Find GetCriteriaInformation
 
 SOAP request and response examples **Remote/Services85/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFindAgent.GetCriteriaInformation">SuperOffice.Services85.IFindAgent.GetCriteriaInformation</see> method.

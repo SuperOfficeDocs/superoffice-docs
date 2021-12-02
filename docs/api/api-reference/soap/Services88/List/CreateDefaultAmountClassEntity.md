@@ -1,10 +1,10 @@
 ---
-uid: services88-list-createdefaultamountclassentity
 title: Services88.ListAgent.CreateDefaultAmountClassEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-CreateDefaultAmountClassEntity
 ---
 
-# Services88 List CreateDefaultAmountClassEntity SOAP
+# Services88 List CreateDefaultAmountClassEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultAmountClassEntity">SuperOffice.Services88.IListAgent.CreateDefaultAmountClassEntity</see> method.

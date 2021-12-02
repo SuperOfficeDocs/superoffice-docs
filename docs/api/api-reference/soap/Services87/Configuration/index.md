@@ -1,7 +1,7 @@
 ---
-uid: services87-configuration
 title: Services87.ConfigurationAgent SOAP
-Generated: true
+uid: Services87-Configuration-soap
+generated: 1
 ---
 
 # Services87 Configuration SOAP
@@ -51,3 +51,4 @@ Download [WSDL file for Services87/Configuration](../Services87-Configuration.md
 * [SaveSystemEventEntity](SaveSystemEventEntity.md)
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services84-userdefinedfieldinfo-figureoutlistidfromlisttableidandudlistdefinitionid
 title: Services84.UserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId SOAP
-Generated: true
+generated: 1
+uid: Services84-UserDefinedFieldInfo-FigureOutListIdFromListTableIdAndUDListDefinitionId
 ---
 
-# Services84 UserDefinedFieldInfo FigureOutListIdFromListTableIdAndUDListDefinitionId SOAP
+# Services84 UserDefinedFieldInfo FigureOutListIdFromListTableIdAndUDListDefinitionId
 
 SOAP request and response examples **Remote/Services84/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId">SuperOffice.Services84.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId</see> method.

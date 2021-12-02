@@ -1,10 +1,10 @@
 ---
-uid: services88-list-savefromlistdefinition
 title: Services88.ListAgent.SaveFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SaveFromListDefinition
 ---
 
-# Services88 List SaveFromListDefinition SOAP
+# Services88 List SaveFromListDefinition
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveFromListDefinition">SuperOffice.Services88.IListAgent.SaveFromListDefinition</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-email-getemailsasstring
 title: Services85.EMailAgent.GetEmailsAsString SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-GetEmailsAsString
 ---
 
-# Services85 EMail GetEmailsAsString SOAP
+# Services85 EMail GetEmailsAsString
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEmailsAsString">SuperOffice.Services85.IEMailAgent.GetEmailsAsString</see> method.

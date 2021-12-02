@@ -1,10 +1,10 @@
 ---
-uid: services86-phonelist-setpreferences
 title: Services86.PhoneListAgent.SetPreferences SOAP
-Generated: true
+generated: 1
+uid: Services86-PhoneList-SetPreferences
 ---
 
-# Services86 PhoneList SetPreferences SOAP
+# Services86 PhoneList SetPreferences
 
 SOAP request and response examples **Remote/Services86/PhoneList.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPhoneListAgent.SetPreferences">SuperOffice.Services86.IPhoneListAgent.SetPreferences</see> method.

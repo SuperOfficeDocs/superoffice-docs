@@ -1,10 +1,10 @@
 ---
-uid: services84-batch-updatebatchtask
 title: Services84.BatchAgent.UpdateBatchTask SOAP
-Generated: true
+generated: 1
+uid: Services84-Batch-UpdateBatchTask
 ---
 
-# Services84 Batch UpdateBatchTask SOAP
+# Services84 Batch UpdateBatchTask
 
 SOAP request and response examples **Remote/Services84/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IBatchAgent.UpdateBatchTask">SuperOffice.Services84.IBatchAgent.UpdateBatchTask</see> method.
@@ -56,8 +56,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -105,8 +105,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Batch:Value xsi:type="xsd:string"></Batch:Value>
      </Batch:StringKeyValuePair>
     </Batch:ParameterObject>
-    <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</Batch:LastStarted>
-    <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:35:21Z</Batch:Created>
+    <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:LastStarted>
+    <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:06Z</Batch:Created>
     <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
     <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
     <Batch:Context xsi:type="xsd:string"></Batch:Context>

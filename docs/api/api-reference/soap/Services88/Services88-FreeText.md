@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-FreeText
 title: Services88.FreeTextAgent WSDL
 ---
 
@@ -377,6 +377,7 @@ title: Services88.FreeTextAgent WSDL
               <xs:element minOccurs="0" name="Request" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgressPercent" type="xs:short" />
+              <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -408,6 +409,7 @@ title: Services88.FreeTextAgent WSDL
           <xs:enumeration value="Started" />
           <xs:enumeration value="Succeeded" />
           <xs:enumeration value="Failed" />
+          <xs:enumeration value="SucceededManualCleanup" />
           <xs:enumeration value="All">
             <xs:annotation>
               <xs:appinfo>

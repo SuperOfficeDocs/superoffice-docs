@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getemarketingstrictmode
 title: Services86.ListAgent.GetEmarketingStrictMode SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetEmarketingStrictMode
 ---
 
-# Services86 List GetEmarketingStrictMode SOAP
+# Services86 List GetEmarketingStrictMode
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetEmarketingStrictMode">SuperOffice.Services86.IListAgent.GetEmarketingStrictMode</see> method.

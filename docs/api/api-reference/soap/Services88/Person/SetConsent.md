@@ -1,10 +1,10 @@
 ---
-uid: services88-person-setconsent
 title: Services88.PersonAgent.SetConsent SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-SetConsent
 ---
 
-# Services88 Person SetConsent SOAP
+# Services88 Person SetConsent
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.SetConsent">SuperOffice.Services88.IPersonAgent.SetConsent</see> method.

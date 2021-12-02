@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-hasguide
 title: Services88.SaleAgent.HasGuide SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-HasGuide
 ---
 
-# Services88 Sale HasGuide SOAP
+# Services88 Sale HasGuide
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.HasGuide">SuperOffice.Services88.ISaleAgent.HasGuide</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-deleteconnection
 title: Services86.QuoteAgent.DeleteConnection SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-DeleteConnection
 ---
 
-# Services86 Quote DeleteConnection SOAP
+# Services86 Quote DeleteConnection
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.DeleteConnection">SuperOffice.Services86.IQuoteAgent.DeleteConnection</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-addchattopicuseragent
 title: Services88.ChatAgent.AddChatTopicUserAgent SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-AddChatTopicUserAgent
 ---
 
-# Services88 Chat AddChatTopicUserAgent SOAP
+# Services88 Chat AddChatTopicUserAgent
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.AddChatTopicUserAgent">SuperOffice.Services88.IChatAgent.AddChatTopicUserAgent</see> method.

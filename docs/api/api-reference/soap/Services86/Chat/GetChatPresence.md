@@ -1,10 +1,10 @@
 ---
-uid: services86-chat-getchatpresence
 title: Services86.ChatAgent.GetChatPresence SOAP
-Generated: true
+generated: 1
+uid: Services86-Chat-GetChatPresence
 ---
 
-# Services86 Chat GetChatPresence SOAP
+# Services86 Chat GetChatPresence
 
 SOAP request and response examples **Remote/Services86/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IChatAgent.GetChatPresence">SuperOffice.Services86.IChatAgent.GetChatPresence</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-person-getpersonsfromproject
 title: Services86.PersonAgent.GetPersonsFromProject SOAP
-Generated: true
+generated: 1
+uid: Services86-Person-GetPersonsFromProject
 ---
 
-# Services86 Person GetPersonsFromProject SOAP
+# Services86 Person GetPersonsFromProject
 
 SOAP request and response examples **Remote/Services86/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.GetPersonsFromProject">SuperOffice.Services86.IPersonAgent.GetPersonsFromProject</see> method.

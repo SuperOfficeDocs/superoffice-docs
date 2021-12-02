@@ -1,7 +1,7 @@
 ---
-uid: services87-list
 title: Services87.ListAgent SOAP
-Generated: true
+uid: Services87-List-soap
+generated: 1
 ---
 
 # Services87 List SOAP
@@ -276,3 +276,4 @@ Download [WSDL file for Services87/List](../Services87-List.md) if you need to g
 * [SetVisibleForUserGroups](SetVisibleForUserGroups.md)
 * [SetVisibleForUserGroupsFromListName](SetVisibleForUserGroupsFromListName.md)
 * [SortListItems](SortListItems.md)
+

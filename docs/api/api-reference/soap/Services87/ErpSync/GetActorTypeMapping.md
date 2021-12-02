@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-getactortypemapping
 title: Services87.ErpSyncAgent.GetActorTypeMapping SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-GetActorTypeMapping
 ---
 
-# Services87 ErpSync GetActorTypeMapping SOAP
+# Services87 ErpSync GetActorTypeMapping
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetActorTypeMapping">SuperOffice.Services87.IErpSyncAgent.GetActorTypeMapping</see> method.

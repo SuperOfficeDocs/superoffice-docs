@@ -1,10 +1,10 @@
 ---
-uid: services84-user-getcredentialtypes
 title: Services84.UserAgent.GetCredentialTypes SOAP
-Generated: true
+generated: 1
+uid: Services84-User-GetCredentialTypes
 ---
 
-# Services84 User GetCredentialTypes SOAP
+# Services84 User GetCredentialTypes
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetCredentialTypes">SuperOffice.Services84.IUserAgent.GetCredentialTypes</see> method.

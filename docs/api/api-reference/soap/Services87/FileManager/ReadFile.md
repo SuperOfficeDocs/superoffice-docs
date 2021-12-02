@@ -1,10 +1,10 @@
 ---
-uid: services87-filemanager-readfile
 title: Services87.FileManagerAgent.ReadFile SOAP
-Generated: true
+generated: 1
+uid: Services87-FileManager-ReadFile
 ---
 
-# Services87 FileManager ReadFile SOAP
+# Services87 FileManager ReadFile
 
 SOAP request and response examples **Remote/Services87/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFileManagerAgent.ReadFile">SuperOffice.Services87.IFileManagerAgent.ReadFile</see> method.

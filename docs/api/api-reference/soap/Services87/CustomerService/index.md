@@ -1,7 +1,7 @@
 ---
-uid: services87-customerservice
 title: Services87.CustomerServiceAgent SOAP
-Generated: true
+uid: Services87-CustomerService-soap
+generated: 1
 ---
 
 # Services87 CustomerService SOAP
@@ -43,3 +43,4 @@ Download [WSDL file for Services87/CustomerService](../Services87-CustomerServic
 * [SessionIsValid](SessionIsValid.md)
 * [TestSmtpServer](TestSmtpServer.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

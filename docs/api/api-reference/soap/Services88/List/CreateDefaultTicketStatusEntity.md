@@ -1,10 +1,10 @@
 ---
-uid: services88-list-createdefaultticketstatusentity
 title: Services88.ListAgent.CreateDefaultTicketStatusEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-CreateDefaultTicketStatusEntity
 ---
 
-# Services88 List CreateDefaultTicketStatusEntity SOAP
+# Services88 List CreateDefaultTicketStatusEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultTicketStatusEntity">SuperOffice.Services88.IListAgent.CreateDefaultTicketStatusEntity</see> method.
@@ -70,6 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Status xsi:type="List:TicketBaseStatus">Unknown</List:Status>
     <List:TimeCounter xsi:type="List:TicketStatusTimeCounter">None</List:TimeCounter>
     <List:NoEmailReopen xsi:type="xsd:boolean">false</List:NoEmailReopen>
+    <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
+    <List:UsedInQueue xsi:type="xsd:boolean">false</List:UsedInQueue>
    </List:Response>
   </List:CreateDefaultTicketStatusEntityResponse>
  </SOAP-ENV:Body>

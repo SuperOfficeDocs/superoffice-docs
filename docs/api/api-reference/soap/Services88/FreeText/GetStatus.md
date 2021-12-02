@@ -1,10 +1,10 @@
 ---
-uid: services88-freetext-getstatus
 title: Services88.FreeTextAgent.GetStatus SOAP
-Generated: true
+generated: 1
+uid: Services88-FreeText-GetStatus
 ---
 
-# Services88 FreeText GetStatus SOAP
+# Services88 FreeText GetStatus
 
 SOAP request and response examples **Remote/Services88/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFreeTextAgent.GetStatus">SuperOffice.Services88.IFreeTextAgent.GetStatus</see> method.
@@ -69,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <FreeText:MultiWordOperator xsi:type="FreeText:FreeTextOperator">Contains</FreeText:MultiWordOperator>
     <FreeText:CountWords xsi:type="xsd:int">0</FreeText:CountWords>
     <FreeText:Occurrences xsi:type="xsd:int">0</FreeText:Occurrences>
-    <FreeText:LastGenerated xsi:type="xsd:dateTime">2021-03-25T21:37:00Z</FreeText:LastGenerated>
+    <FreeText:LastGenerated xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</FreeText:LastGenerated>
     <FreeText:AutoEnableTravelAreas xsi:type="xsd:boolean">false</FreeText:AutoEnableTravelAreas>
    </FreeText:Response>
   </FreeText:GetStatusResponse>

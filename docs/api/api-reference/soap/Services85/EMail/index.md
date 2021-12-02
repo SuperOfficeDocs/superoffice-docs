@@ -1,7 +1,7 @@
 ---
-uid: services85-email
 title: Services85.EMailAgent SOAP
-Generated: true
+uid: Services85-EMail-soap
+generated: 1
 ---
 
 # Services85 EMail SOAP
@@ -93,3 +93,4 @@ Download [WSDL file for Services85/EMail](../Services85-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
+

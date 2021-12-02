@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-getdayinformationlistbydatesandassociate
 title: Services87.AppointmentAgent.GetDayInformationListByDatesAndAssociate SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-GetDayInformationListByDatesAndAssociate
 ---
 
-# Services87 Appointment GetDayInformationListByDatesAndAssociate SOAP
+# Services87 Appointment GetDayInformationListByDatesAndAssociate
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetDayInformationListByDatesAndAssociate">SuperOffice.Services87.IAppointmentAgent.GetDayInformationListByDatesAndAssociate</see> method.
@@ -44,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetDayInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:26Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:26Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetDayInformationListByDatesAndAssociate>
 
@@ -80,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>
      </Appointment:RedLetterInformation>
-     <Appointment:Date xsi:type="xsd:dateTime">2021-03-25T21:36:26Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:Date>
     </Appointment:DayInformationListItem>
    </Appointment:Response>
   </Appointment:GetDayInformationListByDatesAndAssociateResponse>

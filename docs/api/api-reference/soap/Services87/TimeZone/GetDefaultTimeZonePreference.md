@@ -1,10 +1,10 @@
 ---
-uid: services87-timezone-getdefaulttimezonepreference
 title: Services87.TimeZoneAgent.GetDefaultTimeZonePreference SOAP
-Generated: true
+generated: 1
+uid: Services87-TimeZone-GetDefaultTimeZonePreference
 ---
 
-# Services87 TimeZone GetDefaultTimeZonePreference SOAP
+# Services87 TimeZone GetDefaultTimeZonePreference
 
 SOAP request and response examples **Remote/Services87/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ITimeZoneAgent.GetDefaultTimeZonePreference">SuperOffice.Services87.ITimeZoneAgent.GetDefaultTimeZonePreference</see> method.

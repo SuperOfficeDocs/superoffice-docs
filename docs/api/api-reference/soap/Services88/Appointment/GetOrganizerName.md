@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-getorganizername
 title: Services88.AppointmentAgent.GetOrganizerName SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-GetOrganizerName
 ---
 
-# Services88 Appointment GetOrganizerName SOAP
+# Services88 Appointment GetOrganizerName
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.GetOrganizerName">SuperOffice.Services88.IAppointmentAgent.GetOrganizerName</see> method.

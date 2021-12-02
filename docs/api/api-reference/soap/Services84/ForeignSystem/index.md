@@ -1,7 +1,7 @@
 ---
-uid: services84-foreignsystem
 title: Services84.ForeignSystemAgent SOAP
-Generated: true
+uid: Services84-ForeignSystem-soap
+generated: 1
 ---
 
 # Services84 ForeignSystem SOAP
@@ -44,3 +44,4 @@ Download [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md
 * [SaveForeignAppEntity](SaveForeignAppEntity.md)
 * [SaveForeignDevice](SaveForeignDevice.md)
 * [SaveForeignKey](SaveForeignKey.md)
+

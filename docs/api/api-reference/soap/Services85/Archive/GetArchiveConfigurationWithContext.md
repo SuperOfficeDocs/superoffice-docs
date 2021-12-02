@@ -1,10 +1,10 @@
 ---
-uid: services85-archive-getarchiveconfigurationwithcontext
 title: Services85.ArchiveAgent.GetArchiveConfigurationWithContext SOAP
-Generated: true
+generated: 1
+uid: Services85-Archive-GetArchiveConfigurationWithContext
 ---
 
-# Services85 Archive GetArchiveConfigurationWithContext SOAP
+# Services85 Archive GetArchiveConfigurationWithContext
 
 SOAP request and response examples **Remote/Services85/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetArchiveConfigurationWithContext">SuperOffice.Services85.IArchiveAgent.GetArchiveConfigurationWithContext</see> method.
@@ -97,7 +97,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
       <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
       <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-      <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+      <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
       <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
        <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
         <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -109,7 +109,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
         <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
         <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-        <Archive:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:35:40Z</Archive:LastChanged>
+        <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:25Z</Archive:LastChanged>
         <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
          <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
           <Archive:Id xsi:nil="true"></Archive:Id>

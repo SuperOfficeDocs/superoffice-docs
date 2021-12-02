@@ -1,10 +1,10 @@
 ---
-uid: services88-diagnostics-performtasksafterupgrade
 title: Services88.DiagnosticsAgent.PerformTasksAfterUpgrade SOAP
-Generated: true
+generated: 1
+uid: Services88-Diagnostics-PerformTasksAfterUpgrade
 ---
 
-# Services88 Diagnostics PerformTasksAfterUpgrade SOAP
+# Services88 Diagnostics PerformTasksAfterUpgrade
 
 SOAP request and response examples **Remote/Services88/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.PerformTasksAfterUpgrade">SuperOffice.Services88.IDiagnosticsAgent.PerformTasksAfterUpgrade</see> method.

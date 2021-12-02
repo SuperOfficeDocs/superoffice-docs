@@ -1,10 +1,10 @@
 ---
-uid: services86-filemanager-endwritefilepart
 title: Services86.FileManagerAgent.EndWriteFilePart SOAP
-Generated: true
+generated: 1
+uid: Services86-FileManager-EndWriteFilePart
 ---
 
-# Services86 FileManager EndWriteFilePart SOAP
+# Services86 FileManager EndWriteFilePart
 
 SOAP request and response examples **Remote/Services86/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFileManagerAgent.EndWriteFilePart">SuperOffice.Services86.IFileManagerAgent.EndWriteFilePart</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-chat-deletechattopicuseragent
 title: Services88.ChatAgent.DeleteChatTopicUserAgent SOAP
-Generated: true
+generated: 1
+uid: Services88-Chat-DeleteChatTopicUserAgent
 ---
 
-# Services88 Chat DeleteChatTopicUserAgent SOAP
+# Services88 Chat DeleteChatTopicUserAgent
 
 SOAP request and response examples **Remote/Services88/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.DeleteChatTopicUserAgent">SuperOffice.Services88.IChatAgent.DeleteChatTopicUserAgent</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-blob-changepersonimage
 title: Services88.BLOBAgent.ChangePersonImage SOAP
-Generated: true
+generated: 1
+uid: Services88-BLOB-ChangePersonImage
 ---
 
-# Services88 BLOB ChangePersonImage SOAP
+# Services88 BLOB ChangePersonImage
 
 SOAP request and response examples **Remote/Services88/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.ChangePersonImage">SuperOffice.Services88.IBLOBAgent.ChangePersonImage</see> method.

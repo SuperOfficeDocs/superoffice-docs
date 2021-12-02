@@ -1,10 +1,10 @@
 ---
-uid: services87-foreignsystem-deleteforeignappentity
 title: Services87.ForeignSystemAgent.DeleteForeignAppEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-ForeignSystem-DeleteForeignAppEntity
 ---
 
-# Services87 ForeignSystem DeleteForeignAppEntity SOAP
+# Services87 ForeignSystem DeleteForeignAppEntity
 
 SOAP request and response examples **Remote/Services87/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IForeignSystemAgent.DeleteForeignAppEntity">SuperOffice.Services87.IForeignSystemAgent.DeleteForeignAppEntity</see> method.

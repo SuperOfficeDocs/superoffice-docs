@@ -1,10 +1,10 @@
 ---
-uid: services85-person-setpersonrank
 title: Services85.PersonAgent.SetPersonRank SOAP
-Generated: true
+generated: 1
+uid: Services85-Person-SetPersonRank
 ---
 
-# Services85 Person SetPersonRank SOAP
+# Services85 Person SetPersonRank
 
 SOAP request and response examples **Remote/Services85/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.SetPersonRank">SuperOffice.Services85.IPersonAgent.SetPersonRank</see> method.

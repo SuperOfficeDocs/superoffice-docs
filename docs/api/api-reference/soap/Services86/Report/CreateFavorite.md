@@ -1,10 +1,10 @@
 ---
-uid: services86-report-createfavorite
 title: Services86.ReportAgent.CreateFavorite SOAP
-Generated: true
+generated: 1
+uid: Services86-Report-CreateFavorite
 ---
 
-# Services86 Report CreateFavorite SOAP
+# Services86 Report CreateFavorite
 
 SOAP request and response examples **Remote/Services86/Report.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.CreateFavorite">SuperOffice.Services86.IReportAgent.CreateFavorite</see> method.

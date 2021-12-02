@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getunsanitizedpreviewdocumentstream
 title: Services88.DocumentAgent.GetUnsanitizedPreviewDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetUnsanitizedPreviewDocumentStream
 ---
 
-# Services88 Document GetUnsanitizedPreviewDocumentStream SOAP
+# Services88 Document GetUnsanitizedPreviewDocumentStream
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetUnsanitizedPreviewDocumentStream">SuperOffice.Services88.IDocumentAgent.GetUnsanitizedPreviewDocumentStream</see> method.

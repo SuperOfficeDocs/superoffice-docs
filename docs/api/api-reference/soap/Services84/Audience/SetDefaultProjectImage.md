@@ -1,10 +1,10 @@
 ---
-uid: services84-audience-setdefaultprojectimage
 title: Services84.AudienceAgent.SetDefaultProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services84-Audience-SetDefaultProjectImage
 ---
 
-# Services84 Audience SetDefaultProjectImage SOAP
+# Services84 Audience SetDefaultProjectImage
 
 SOAP request and response examples **Remote/Services84/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAudienceAgent.SetDefaultProjectImage">SuperOffice.Services84.IAudienceAgent.SetDefaultProjectImage</see> method.

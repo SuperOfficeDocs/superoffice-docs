@@ -1,10 +1,10 @@
 ---
-uid: services84-list-deleteprojectstatus
 title: Services84.ListAgent.DeleteProjectStatus SOAP
-Generated: true
+generated: 1
+uid: Services84-List-DeleteProjectStatus
 ---
 
-# Services84 List DeleteProjectStatus SOAP
+# Services84 List DeleteProjectStatus
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.DeleteProjectStatus">SuperOffice.Services84.IListAgent.DeleteProjectStatus</see> method.

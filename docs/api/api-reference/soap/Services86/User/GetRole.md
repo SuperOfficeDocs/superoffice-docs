@@ -1,10 +1,10 @@
 ---
-uid: services86-user-getrole
 title: Services86.UserAgent.GetRole SOAP
-Generated: true
+generated: 1
+uid: Services86-User-GetRole
 ---
 
-# Services86 User GetRole SOAP
+# Services86 User GetRole
 
 SOAP request and response examples **Remote/Services86/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetRole">SuperOffice.Services86.IUserAgent.GetRole</see> method.

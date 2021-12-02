@@ -1,10 +1,10 @@
 ---
-uid: services87-ticket-getticketmessage
 title: Services87.TicketAgent.GetTicketMessage SOAP
-Generated: true
+generated: 1
+uid: Services87-Ticket-GetTicketMessage
 ---
 
-# Services87 Ticket GetTicketMessage SOAP
+# Services87 Ticket GetTicketMessage
 
 SOAP request and response examples **Remote/Services87/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ITicketAgent.GetTicketMessage">SuperOffice.Services87.ITicketAgent.GetTicketMessage</see> method.
@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-03-25T21:36:46Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
    </Ticket:Response>

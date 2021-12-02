@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getcategories
 title: Services87.ListAgent.GetCategories SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetCategories
 ---
 
-# Services87 List GetCategories SOAP
+# Services87 List GetCategories
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetCategories">SuperOffice.Services87.IListAgent.GetCategories</see> method.

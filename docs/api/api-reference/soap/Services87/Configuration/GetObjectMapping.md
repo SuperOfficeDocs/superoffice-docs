@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-getobjectmapping
 title: Services87.ConfigurationAgent.GetObjectMapping SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-GetObjectMapping
 ---
 
-# Services87 Configuration GetObjectMapping SOAP
+# Services87 Configuration GetObjectMapping
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetObjectMapping">SuperOffice.Services87.IConfigurationAgent.GetObjectMapping</see> method.

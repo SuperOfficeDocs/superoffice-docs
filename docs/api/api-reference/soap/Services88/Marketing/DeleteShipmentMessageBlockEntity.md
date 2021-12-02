@@ -1,10 +1,10 @@
 ---
-uid: services88-marketing-deleteshipmentmessageblockentity
 title: Services88.MarketingAgent.DeleteShipmentMessageBlockEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Marketing-DeleteShipmentMessageBlockEntity
 ---
 
-# Services88 Marketing DeleteShipmentMessageBlockEntity SOAP
+# Services88 Marketing DeleteShipmentMessageBlockEntity
 
 SOAP request and response examples **Remote/Services88/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.DeleteShipmentMessageBlockEntity">SuperOffice.Services88.IMarketingAgent.DeleteShipmentMessageBlockEntity</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-dashboard-getdashboardtile
 title: Services86.DashboardAgent.GetDashboardTile SOAP
-Generated: true
+generated: 1
+uid: Services86-Dashboard-GetDashboardTile
 ---
 
-# Services86 Dashboard GetDashboardTile SOAP
+# Services86 Dashboard GetDashboardTile
 
 SOAP request and response examples **Remote/Services86/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDashboardAgent.GetDashboardTile">SuperOffice.Services86.IDashboardAgent.GetDashboardTile</see> method.

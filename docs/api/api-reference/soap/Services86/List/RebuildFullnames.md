@@ -1,10 +1,10 @@
 ---
-uid: services86-list-rebuildfullnames
 title: Services86.ListAgent.RebuildFullnames SOAP
-Generated: true
+generated: 1
+uid: Services86-List-RebuildFullnames
 ---
 
-# Services86 List RebuildFullnames SOAP
+# Services86 List RebuildFullnames
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.RebuildFullnames">SuperOffice.Services86.IListAgent.RebuildFullnames</see> method.

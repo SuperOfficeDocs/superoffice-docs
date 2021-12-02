@@ -1,10 +1,10 @@
 ---
-uid: services86-project-saveprojectmember
 title: Services86.ProjectAgent.SaveProjectMember SOAP
-Generated: true
+generated: 1
+uid: Services86-Project-SaveProjectMember
 ---
 
-# Services86 Project SaveProjectMember SOAP
+# Services86 Project SaveProjectMember
 
 SOAP request and response examples **Remote/Services86/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.SaveProjectMember">SuperOffice.Services86.IProjectAgent.SaveProjectMember</see> method.

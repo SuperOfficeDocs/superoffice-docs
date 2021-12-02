@@ -1,10 +1,10 @@
 ---
-uid: services84-previews-getpreview
 title: Services84.PreviewsAgent.GetPreview SOAP
-Generated: true
+generated: 1
+uid: Services84-Previews-GetPreview
 ---
 
-# Services84 Previews GetPreview SOAP
+# Services84 Previews GetPreview
 
 SOAP request and response examples **Remote/Services84/Previews.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPreviewsAgent.GetPreview">SuperOffice.Services84.IPreviewsAgent.GetPreview</see> method.

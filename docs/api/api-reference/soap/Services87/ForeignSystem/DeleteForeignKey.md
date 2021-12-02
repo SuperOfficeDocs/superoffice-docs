@@ -1,10 +1,10 @@
 ---
-uid: services87-foreignsystem-deleteforeignkey
 title: Services87.ForeignSystemAgent.DeleteForeignKey SOAP
-Generated: true
+generated: 1
+uid: Services87-ForeignSystem-DeleteForeignKey
 ---
 
-# Services87 ForeignSystem DeleteForeignKey SOAP
+# Services87 ForeignSystem DeleteForeignKey
 
 SOAP request and response examples **Remote/Services87/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IForeignSystemAgent.DeleteForeignKey">SuperOffice.Services87.IForeignSystemAgent.DeleteForeignKey</see> method.
@@ -50,8 +50,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
      <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
      <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:35Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:35Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>

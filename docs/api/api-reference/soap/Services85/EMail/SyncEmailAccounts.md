@@ -1,10 +1,10 @@
 ---
-uid: services85-email-syncemailaccounts
 title: Services85.EMailAgent.SyncEmailAccounts SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-SyncEmailAccounts
 ---
 
-# Services85 EMail SyncEmailAccounts SOAP
+# Services85 EMail SyncEmailAccounts
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.SyncEmailAccounts">SuperOffice.Services85.IEMailAgent.SyncEmailAccounts</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-geterpconnectionconfigfields
 title: Services84.ErpSyncAgent.GetErpConnectionConfigFields SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-GetErpConnectionConfigFields
 ---
 
-# Services84 ErpSync GetErpConnectionConfigFields SOAP
+# Services84 ErpSync GetErpConnectionConfigFields
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetErpConnectionConfigFields">SuperOffice.Services84.IErpSyncAgent.GetErpConnectionConfigFields</see> method.

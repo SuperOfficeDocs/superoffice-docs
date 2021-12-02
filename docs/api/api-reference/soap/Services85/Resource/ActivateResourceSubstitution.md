@@ -1,10 +1,10 @@
 ---
-uid: services85-resource-activateresourcesubstitution
 title: Services85.ResourceAgent.ActivateResourceSubstitution SOAP
-Generated: true
+generated: 1
+uid: Services85-Resource-ActivateResourceSubstitution
 ---
 
-# Services85 Resource ActivateResourceSubstitution SOAP
+# Services85 Resource ActivateResourceSubstitution
 
 SOAP request and response examples **Remote/Services85/Resource.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.ActivateResourceSubstitution">SuperOffice.Services85.IResourceAgent.ActivateResourceSubstitution</see> method.

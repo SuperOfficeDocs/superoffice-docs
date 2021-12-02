@@ -1,10 +1,10 @@
 ---
-uid: services88-import-createerpimportdata
 title: Services88.ImportAgent.CreateErpImportData SOAP
-Generated: true
+generated: 1
+uid: Services88-Import-CreateErpImportData
 ---
 
-# Services88 Import CreateErpImportData SOAP
+# Services88 Import CreateErpImportData
 
 SOAP request and response examples **Remote/Services88/Import.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IImportAgent.CreateErpImportData">SuperOffice.Services88.IImportAgent.CreateErpImportData</see> method.
@@ -68,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Import:Width xsi:type="xsd:string"></Import:Width>
        <Import:IconHint xsi:type="xsd:string"></Import:IconHint>
        <Import:HeadingIconHint xsi:type="xsd:string"></Import:HeadingIconHint>
+       <Import:ExtraInfo xsi:type="xsd:string"></Import:ExtraInfo>
       </Import:ColumnInfo>
       <Import:IsActive xsi:type="xsd:boolean">false</Import:IsActive>
       <Import:SubRestrictions xsi:type="Import:ArrayOfArchiveRestrictionInfo">
@@ -93,6 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Import:Width xsi:type="xsd:string"></Import:Width>
          <Import:IconHint xsi:type="xsd:string"></Import:IconHint>
          <Import:HeadingIconHint xsi:type="xsd:string"></Import:HeadingIconHint>
+         <Import:ExtraInfo xsi:type="xsd:string"></Import:ExtraInfo>
         </Import:ColumnInfo>
         <Import:IsActive xsi:type="xsd:boolean">false</Import:IsActive>
         <Import:SubRestrictions xsi:type="Import:ArrayOfArchiveRestrictionInfo">

@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-connectactor
 title: Services84.ErpSyncAgent.ConnectActor SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-ConnectActor
 ---
 
-# Services84 ErpSync ConnectActor SOAP
+# Services84 ErpSync ConnectActor
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.ConnectActor">SuperOffice.Services84.IErpSyncAgent.ConnectActor</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-email-findcontactorpersonbyemailname
 title: Services86.EMailAgent.FindContactOrPersonByEmailName SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-FindContactOrPersonByEmailName
 ---
 
-# Services86 EMail FindContactOrPersonByEmailName SOAP
+# Services86 EMail FindContactOrPersonByEmailName
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.FindContactOrPersonByEmailName">SuperOffice.Services86.IEMailAgent.FindContactOrPersonByEmailName</see> method.

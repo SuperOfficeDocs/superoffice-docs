@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getreasonlist
 title: Services88.ListAgent.GetReasonList SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetReasonList
 ---
 
-# Services88 List GetReasonList SOAP
+# Services88 List GetReasonList
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetReasonList">SuperOffice.Services88.IListAgent.GetReasonList</see> method.

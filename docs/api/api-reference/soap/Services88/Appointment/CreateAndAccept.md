@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-createandaccept
 title: Services88.AppointmentAgent.CreateAndAccept SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-CreateAndAccept
 ---
 
-# Services88 Appointment CreateAndAccept SOAP
+# Services88 Appointment CreateAndAccept
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.CreateAndAccept">SuperOffice.Services88.IAppointmentAgent.CreateAndAccept</see> method.

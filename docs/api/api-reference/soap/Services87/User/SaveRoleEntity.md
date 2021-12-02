@@ -1,10 +1,10 @@
 ---
-uid: services87-user-saveroleentity
 title: Services87.UserAgent.SaveRoleEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-User-SaveRoleEntity
 ---
 
-# Services87 User SaveRoleEntity SOAP
+# Services87 User SaveRoleEntity
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SaveRoleEntity">SuperOffice.Services87.IUserAgent.SaveRoleEntity</see> method.
@@ -50,7 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
      <User:Deleted xsi:type="xsd:short">0</User:Deleted>
      <User:Rank xsi:type="xsd:short">0</User:Rank>
-     <User:Created xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Created>
+     <User:Created xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Created>
      <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
      <User:CreatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
       <User:UserName xsi:type="xsd:string"></User:UserName>
      </User:CreatedBy>
-     <User:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Updated>
+     <User:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Updated>
      <User:UpdatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
       <User:Name xsi:type="xsd:string"></User:Name>
@@ -134,7 +134,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -150,7 +150,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:UserName xsi:type="xsd:string"></User:UserName>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:47Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:28Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>

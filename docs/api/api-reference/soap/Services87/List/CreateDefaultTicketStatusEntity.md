@@ -1,10 +1,10 @@
 ---
-uid: services87-list-createdefaultticketstatusentity
 title: Services87.ListAgent.CreateDefaultTicketStatusEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-CreateDefaultTicketStatusEntity
 ---
 
-# Services87 List CreateDefaultTicketStatusEntity SOAP
+# Services87 List CreateDefaultTicketStatusEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.CreateDefaultTicketStatusEntity">SuperOffice.Services87.IListAgent.CreateDefaultTicketStatusEntity</see> method.

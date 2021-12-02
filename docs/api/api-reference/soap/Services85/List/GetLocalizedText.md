@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getlocalizedtext
 title: Services85.ListAgent.GetLocalizedText SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetLocalizedText
 ---
 
-# Services85 List GetLocalizedText SOAP
+# Services85 List GetLocalizedText
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetLocalizedText">SuperOffice.Services85.IListAgent.GetLocalizedText</see> method.

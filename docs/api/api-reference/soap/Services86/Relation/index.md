@@ -1,7 +1,7 @@
 ---
-uid: services86-relation
 title: Services86.RelationAgent SOAP
-Generated: true
+uid: Services86-Relation-soap
+generated: 1
 ---
 
 # Services86 Relation SOAP
@@ -19,3 +19,4 @@ Download [WSDL file for Services86/Relation](../Services86-Relation.md) if you n
 * [DeleteContactRelation](DeleteContactRelation.md)
 * [GetContactRelationEntity](GetContactRelationEntity.md)
 * [SaveContactRelation](SaveContactRelation.md)
+

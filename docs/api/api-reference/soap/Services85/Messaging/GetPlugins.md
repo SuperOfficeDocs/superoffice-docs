@@ -1,10 +1,10 @@
 ---
-uid: services85-messaging-getplugins
 title: Services85.MessagingAgent.GetPlugins SOAP
-Generated: true
+generated: 1
+uid: Services85-Messaging-GetPlugins
 ---
 
-# Services85 Messaging GetPlugins SOAP
+# Services85 Messaging GetPlugins
 
 SOAP request and response examples **Remote/Services85/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.GetPlugins">SuperOffice.Services85.IMessagingAgent.GetPlugins</see> method.

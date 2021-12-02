@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getcontactdocuments
 title: Services87.DocumentAgent.GetContactDocuments SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetContactDocuments
 ---
 
-# Services87 Document GetContactDocuments SOAP
+# Services87 Document GetContactDocuments
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetContactDocuments">SuperOffice.Services87.IDocumentAgent.GetContactDocuments</see> method.
@@ -46,8 +46,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocuments>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetContactDocuments>
 

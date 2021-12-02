@@ -1,7 +1,7 @@
 ---
-uid: services88-configuration
 title: Services88.ConfigurationAgent SOAP
-Generated: true
+uid: Services88-Configuration-soap
+generated: 1
 ---
 
 # Services88 Configuration SOAP
@@ -16,14 +16,19 @@ User interface configuration - XMLs and other elements such as inter-client URLs
 Download [WSDL file for Services88/Configuration](../Services88-Configuration.md) if you need to generate your own proxy code.
 
 * [ClearConfigurationCache](ClearConfigurationCache.md)
+* [CreateDefaultConfigurableScreenDelta](CreateDefaultConfigurableScreenDelta.md)
 * [CreateDefaultDiaryViewEntity](CreateDefaultDiaryViewEntity.md)
 * [CreateDefaultSystemEventEntity](CreateDefaultSystemEventEntity.md)
+* [DeleteConfigurableScreenDelta](DeleteConfigurableScreenDelta.md)
 * [DeleteDiaryViewEntity](DeleteDiaryViewEntity.md)
 * [DeleteSystemEventEntity](DeleteSystemEventEntity.md)
 * [DeleteWindowPosSize](DeleteWindowPosSize.md)
 * [ExistsSystemEvent](ExistsSystemEvent.md)
 * [GetAnyConfiguration](GetAnyConfiguration.md)
 * [GetApplicationConfiguration](GetApplicationConfiguration.md)
+* [GetConfigurableScreenDelta](GetConfigurableScreenDelta.md)
+* [GetConfigurableScreenDeltasByDelta](GetConfigurableScreenDeltasByDelta.md)
+* [GetConfigurableScreenDeltasByQuery](GetConfigurableScreenDeltasByQuery.md)
 * [GetCRMUrl](GetCRMUrl.md)
 * [GetCSAuthUrl](GetCSAuthUrl.md)
 * [GetCsCgiUrlInternal](GetCsCgiUrlInternal.md)
@@ -40,6 +45,8 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetObjectMapping](GetObjectMapping.md)
 * [GetPageConfiguration](GetPageConfiguration.md)
 * [GetRefreshedPageConfiguration](GetRefreshedPageConfiguration.md)
+* [GetScreenConfigurationDelta](GetScreenConfigurationDelta.md)
+* [GetScreenConfigurationDeltas](GetScreenConfigurationDeltas.md)
 * [GetSystemEventEntity](GetSystemEventEntity.md)
 * [GetWindowPosSize](GetWindowPosSize.md)
 * [GetWindowPosSizeList](GetWindowPosSizeList.md)
@@ -47,7 +54,12 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetWindowPosSizesOnPersonId](GetWindowPosSizesOnPersonId.md)
 * [GetWwwUrl](GetWwwUrl.md)
 * [GetWwwUrlForSMWeb](GetWwwUrlForSMWeb.md)
+* [RebuildUdefDeltas](RebuildUdefDeltas.md)
+* [RebuildWebpanelDeltas](RebuildWebpanelDeltas.md)
+* [SaveAndPublish](SaveAndPublish.md)
+* [SaveConfigurableScreenDelta](SaveConfigurableScreenDelta.md)
 * [SaveDiaryViewEntity](SaveDiaryViewEntity.md)
 * [SaveSystemEventEntity](SaveSystemEventEntity.md)
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
+

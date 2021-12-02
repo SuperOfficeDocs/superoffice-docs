@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getresourceentity
 title: Services88.ListAgent.GetResourceEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetResourceEntity
 ---
 
-# Services88 List GetResourceEntity SOAP
+# Services88 List GetResourceEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetResourceEntity">SuperOffice.Services88.IListAgent.GetResourceEntity</see> method.

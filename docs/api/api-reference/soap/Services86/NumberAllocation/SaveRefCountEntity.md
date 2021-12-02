@@ -1,10 +1,10 @@
 ---
-uid: services86-numberallocation-saverefcountentity
 title: Services86.NumberAllocationAgent.SaveRefCountEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-NumberAllocation-SaveRefCountEntity
 ---
 
-# Services86 NumberAllocation SaveRefCountEntity SOAP
+# Services86 NumberAllocation SaveRefCountEntity
 
 SOAP request and response examples **Remote/Services86/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.INumberAllocationAgent.SaveRefCountEntity">SuperOffice.Services86.INumberAllocationAgent.SaveRefCountEntity</see> method.

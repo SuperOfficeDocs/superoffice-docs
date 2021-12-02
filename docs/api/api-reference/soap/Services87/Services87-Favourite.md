@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services87-Favourite
 title: Services87.FavouriteAgent WSDL
 ---
 

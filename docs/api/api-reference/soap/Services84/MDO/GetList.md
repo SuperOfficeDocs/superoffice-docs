@@ -1,10 +1,10 @@
 ---
-uid: services84-mdo-getlist
 title: Services84.MDOAgent.GetList SOAP
-Generated: true
+generated: 1
+uid: Services84-MDO-GetList
 ---
 
-# Services84 MDO GetList SOAP
+# Services84 MDO GetList
 
 SOAP request and response examples **Remote/Services84/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IMDOAgent.GetList">SuperOffice.Services84.IMDOAgent.GetList</see> method.

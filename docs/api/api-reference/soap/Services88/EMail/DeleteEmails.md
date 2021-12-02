@@ -1,10 +1,10 @@
 ---
-uid: services88-email-deleteemails
 title: Services88.EMailAgent.DeleteEmails SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-DeleteEmails
 ---
 
-# Services88 EMail DeleteEmails SOAP
+# Services88 EMail DeleteEmails
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.DeleteEmails">SuperOffice.Services88.IEMailAgent.DeleteEmails</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-erpsync-saveactortypemapping
 title: Services85.ErpSyncAgent.SaveActorTypeMapping SOAP
-Generated: true
+generated: 1
+uid: Services85-ErpSync-SaveActorTypeMapping
 ---
 
-# Services85 ErpSync SaveActorTypeMapping SOAP
+# Services85 ErpSync SaveActorTypeMapping
 
 SOAP request and response examples **Remote/Services85/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SaveActorTypeMapping">SuperOffice.Services85.IErpSyncAgent.SaveActorTypeMapping</see> method.

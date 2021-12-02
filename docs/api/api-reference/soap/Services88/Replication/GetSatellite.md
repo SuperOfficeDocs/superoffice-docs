@@ -1,10 +1,10 @@
 ---
-uid: services88-replication-getsatellite
 title: Services88.ReplicationAgent.GetSatellite SOAP
-Generated: true
+generated: 1
+uid: Services88-Replication-GetSatellite
 ---
 
-# Services88 Replication GetSatellite SOAP
+# Services88 Replication GetSatellite
 
 SOAP request and response examples **Remote/Services88/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.GetSatellite">SuperOffice.Services88.IReplicationAgent.GetSatellite</see> method.
@@ -68,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:GetSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2021-11-30T13:23:50Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -83,7 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
      <Replication:UserName xsi:type="xsd:string"></Replication:UserName>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2021-03-25T21:37:08Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:50Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -187,6 +187,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Replication:Description xsi:type="xsd:string"></Replication:Description>
         <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
         <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+        <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
        </Replication:ModuleLicenseLink>
       </Replication:RestrictedModuleLicenses>
       <Replication:UnrestrictedModuleLicenses xsi:type="Replication:ArrayOfModuleLicenseLink">
@@ -204,6 +205,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Replication:Description xsi:type="xsd:string"></Replication:Description>
         <Replication:PrerequisiteModuleName xsi:type="xsd:string"></Replication:PrerequisiteModuleName>
         <Replication:SortOrder xsi:type="xsd:int">0</Replication:SortOrder>
+        <Replication:ExtraFlags xsi:type="xsd:int">0</Replication:ExtraFlags>
        </Replication:ModuleLicenseLink>
       </Replication:UnrestrictedModuleLicenses>
      </Replication:LicenseOwner>

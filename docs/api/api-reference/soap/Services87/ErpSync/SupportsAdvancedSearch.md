@@ -1,10 +1,10 @@
 ---
-uid: services87-erpsync-supportsadvancedsearch
 title: Services87.ErpSyncAgent.SupportsAdvancedSearch SOAP
-Generated: true
+generated: 1
+uid: Services87-ErpSync-SupportsAdvancedSearch
 ---
 
-# Services87 ErpSync SupportsAdvancedSearch SOAP
+# Services87 ErpSync SupportsAdvancedSearch
 
 SOAP request and response examples **Remote/Services87/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.SupportsAdvancedSearch">SuperOffice.Services87.IErpSyncAgent.SupportsAdvancedSearch</see> method.

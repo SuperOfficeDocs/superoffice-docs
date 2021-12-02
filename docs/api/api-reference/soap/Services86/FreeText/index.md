@@ -1,7 +1,7 @@
 ---
-uid: services86-freetext
 title: Services86.FreeTextAgent SOAP
-Generated: true
+uid: Services86-FreeText-soap
+generated: 1
 ---
 
 # Services86 FreeText SOAP
@@ -25,3 +25,4 @@ Download [WSDL file for Services86/FreeText](../Services86-FreeText.md) if you n
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)
+

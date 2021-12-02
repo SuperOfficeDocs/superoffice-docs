@@ -1,10 +1,10 @@
 ---
-uid: services87-sale-getsale
 title: Services87.SaleAgent.GetSale SOAP
-Generated: true
+generated: 1
+uid: Services87-Sale-GetSale
 ---
 
-# Services87 Sale GetSale SOAP
+# Services87 Sale GetSale
 
 SOAP request and response examples **Remote/Services87/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.GetSale">SuperOffice.Services87.ISaleAgent.GetSale</see> method.
@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Sale:GetSaleResponse>
    <Sale:Response xsi:type="Sale:Sale">
     <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-    <Sale:SaleDate xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Sale:SaleDate>
+    <Sale:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:SaleDate>
     <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
     <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
     <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -89,7 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
     <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
     <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-    <Sale:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Sale:NextDueDate>
+    <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:NextDueDate>
    </Sale:Response>
   </Sale:GetSaleResponse>
  </SOAP-ENV:Body>

@@ -1,10 +1,10 @@
 ---
-uid: services86-messaging-getdeliverystatus
 title: Services86.MessagingAgent.GetDeliveryStatus SOAP
-Generated: true
+generated: 1
+uid: Services86-Messaging-GetDeliveryStatus
 ---
 
-# Services86 Messaging GetDeliveryStatus SOAP
+# Services86 Messaging GetDeliveryStatus
 
 SOAP request and response examples **Remote/Services86/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IMessagingAgent.GetDeliveryStatus">SuperOffice.Services86.IMessagingAgent.GetDeliveryStatus</see> method.

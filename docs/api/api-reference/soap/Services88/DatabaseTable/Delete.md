@@ -1,17 +1,17 @@
 ---
-uid: services88-databasetable-delete
 title: Services88.DatabaseTableAgent.Delete SOAP
-Generated: true
+generated: 1
+uid: Services88-DatabaseTable-Delete
 ---
 
-# Services88 DatabaseTable Delete SOAP
+# Services88 DatabaseTable Delete
 
 SOAP request and response examples **Remote/Services88/DatabaseTable.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Delete">SuperOffice.Services88.IDatabaseTableAgent.Delete</see> method.
 
 ## Delete
 
-Delete rows, by primary key
+Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 <para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table where rows should be deleted
@@ -76,6 +76,15 @@ Application tokens must be specified if calling an Online installation. Applicat
     <DatabaseTable:Inserts xsi:type="xsd:int">0</DatabaseTable:Inserts>
     <DatabaseTable:Updates xsi:type="xsd:int">0</DatabaseTable:Updates>
     <DatabaseTable:Deletes xsi:type="xsd:int">0</DatabaseTable:Deletes>
+    <DatabaseTable:RowStatus xsi:type="DatabaseTable:ArrayOfUpsertRowStatus">
+     <DatabaseTable:UpsertRowStatus xsi:type="DatabaseTable:UpsertRowStatus">
+      <DatabaseTable:PrimaryKey xsi:type="xsd:int">0</DatabaseTable:PrimaryKey>
+      <DatabaseTable:Action xsi:type="DatabaseTable:UpsertRowActionStatus">Inserted</DatabaseTable:Action>
+      <DatabaseTable:RowKeys xsi:type="NetServerServices882:ArrayOfstring">
+       <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
+      </DatabaseTable:RowKeys>
+     </DatabaseTable:UpsertRowStatus>
+    </DatabaseTable:RowStatus>
    </DatabaseTable:Response>
   </DatabaseTable:DeleteResponse>
  </SOAP-ENV:Body>

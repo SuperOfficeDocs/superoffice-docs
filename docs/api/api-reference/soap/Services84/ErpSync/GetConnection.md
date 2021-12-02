@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-getconnection
 title: Services84.ErpSyncAgent.GetConnection SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-GetConnection
 ---
 
-# Services84 ErpSync GetConnection SOAP
+# Services84 ErpSync GetConnection
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetConnection">SuperOffice.Services84.IErpSyncAgent.GetConnection</see> method.

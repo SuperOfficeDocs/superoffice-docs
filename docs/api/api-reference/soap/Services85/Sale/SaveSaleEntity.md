@@ -1,10 +1,10 @@
 ---
-uid: services85-sale-savesaleentity
 title: Services85.SaleAgent.SaveSaleEntity SOAP
-Generated: true
+generated: 1
+uid: Services85-Sale-SaveSaleEntity
 ---
 
-# Services85 Sale SaveSaleEntity SOAP
+# Services85 Sale SaveSaleEntity
 
 SOAP request and response examples **Remote/Services85/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.SaveSaleEntity">SuperOffice.Services85.ISaleAgent.SaveSaleEntity</see> method.
@@ -45,8 +45,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Sale:SaleEntity xsi:type="Sale:SaleEntity">
      <Sale:Appointment xsi:type="Sale:Appointment">
       <Sale:AppointmentId xsi:type="xsd:int">0</Sale:AppointmentId>
-      <Sale:StartDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:StartDate>
-      <Sale:EndDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:EndDate>
+      <Sale:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:StartDate>
+      <Sale:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:EndDate>
       <Sale:Type xsi:type="Sale:AppointmentType">Unknown</Sale:Type>
       <Sale:Task xsi:type="xsd:string"></Sale:Task>
       <Sale:AssociateFullName xsi:type="xsd:string"></Sale:AssociateFullName>
@@ -70,14 +70,14 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:IsBookingMain xsi:type="xsd:boolean">false</Sale:IsBookingMain>
       <Sale:IsRecurrence xsi:type="xsd:boolean">false</Sale:IsRecurrence>
       <Sale:IsBooking xsi:type="xsd:boolean">false</Sale:IsBooking>
-      <Sale:ActiveDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:ActiveDate>
+      <Sale:ActiveDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:ActiveDate>
       <Sale:AssignmentStatus xsi:type="Sale:AssignmentStatus">Unknown</Sale:AssignmentStatus>
       <Sale:InvitationStatus xsi:type="Sale:InvitationStatus">Unknown</Sale:InvitationStatus>
       <Sale:BookingType xsi:type="Sale:BookingType">Unknown</Sale:BookingType>
       <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
       <Sale:RecurringPattern xsi:type="Sale:RecurrencePattern">Unknown</Sale:RecurringPattern>
-      <Sale:RecurringStartDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:RecurringStartDate>
-      <Sale:RecurringEndDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:RecurringEndDate>
+      <Sale:RecurringStartDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:RecurringStartDate>
+      <Sale:RecurringEndDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:RecurringEndDate>
       <Sale:MotherId xsi:type="xsd:int">0</Sale:MotherId>
       <Sale:AssignedBy xsi:type="xsd:int">0</Sale:AssignedBy>
       <Sale:AssignedByFullName xsi:type="xsd:string"></Sale:AssignedByFullName>
@@ -87,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
       <Sale:SaleName xsi:type="xsd:string"></Sale:SaleName>
       <Sale:AssociateName xsi:type="xsd:string"></Sale:AssociateName>
-      <Sale:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:CreatedDate>
+      <Sale:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:CreatedDate>
       <Sale:CreatedBy xsi:type="xsd:string"></Sale:CreatedBy>
       <Sale:CreatedByFullName xsi:type="xsd:string"></Sale:CreatedByFullName>
       <Sale:CreatedByAssociateId xsi:type="xsd:int">0</Sale:CreatedByAssociateId>
@@ -179,12 +179,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:AssociateId xsi:type="xsd:int">0</Sale:AssociateId>
       <Sale:AssociateFullName xsi:type="xsd:string"></Sale:AssociateFullName>
       <Sale:TypeId xsi:type="xsd:int">0</Sale:TypeId>
-      <Sale:Updated xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:Updated>
+      <Sale:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:Updated>
       <Sale:StatusId xsi:type="xsd:int">0</Sale:StatusId>
       <Sale:Status xsi:type="xsd:string"></Sale:Status>
       <Sale:TextId xsi:type="xsd:int">0</Sale:TextId>
-      <Sale:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishTo>
-      <Sale:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishFrom>
+      <Sale:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishTo>
+      <Sale:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishFrom>
       <Sale:IsPublished xsi:type="xsd:boolean">false</Sale:IsPublished>
       <Sale:URLName xsi:type="xsd:string"></Sale:URLName>
       <Sale:ProjectNumber xsi:type="xsd:string"></Sale:ProjectNumber>
@@ -263,7 +263,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:Tooltip xsi:type="xsd:string"></Sale:Tooltip>
      </Sale:Source>
      <Sale:Status xsi:type="Sale:SaleStatus">Unknown</Sale:Status>
-     <Sale:Saledate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:Saledate>
+     <Sale:Saledate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:Saledate>
      <Sale:Amount xsi:type="xsd:double">0.0</Sale:Amount>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Earning xsi:type="xsd:double">0.0</Sale:Earning>
@@ -271,8 +271,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:Heading xsi:type="xsd:string"></Sale:Heading>
      <Sale:Number xsi:type="xsd:string"></Sale:Number>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
-     <Sale:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:CreatedDate>
-     <Sale:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:UpdatedDate>
+     <Sale:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:CreatedDate>
+     <Sale:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:UpdatedDate>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveLinks xsi:type="xsd:int">0</Sale:ActiveLinks>
      <Sale:Links xsi:type="Sale:ArrayOfLink">
@@ -284,7 +284,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Sale:LinkId xsi:type="xsd:int">0</Sale:LinkId>
       </Sale:Link>
      </Sale:Links>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:NextDueDate>
      <Sale:Postit xsi:type="xsd:string"></Sale:Postit>
      <Sale:SaleType xsi:type="Sale:SaleType">
       <Sale:Id xsi:type="xsd:int">0</Sale:Id>
@@ -301,7 +301,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:Value xsi:type="xsd:string"></Sale:Value>
       <Sale:Tooltip xsi:type="xsd:string"></Sale:Tooltip>
      </Sale:ReasonStalled>
-     <Sale:ReopenDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:ReopenDate>
+     <Sale:ReopenDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:ReopenDate>
      <Sale:SaleStakeholders xsi:type="Sale:ArrayOfSaleStakeholder">
       <Sale:SaleStakeholder xsi:type="Sale:SaleStakeholder">
        <Sale:StakeholderRoleName xsi:type="xsd:string"></Sale:StakeholderRoleName>
@@ -338,9 +338,9 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Sale:Value xsi:type="xsd:string"></Sale:Value>
       </Sale:StringKeyValuePair>
      </Sale:ExtraFields>
-     <Sale:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishEventDate>
-     <Sale:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishTo>
-     <Sale:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishFrom>
+     <Sale:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishEventDate>
+     <Sale:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishTo>
+     <Sale:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishFrom>
      <Sale:IsPublished xsi:type="xsd:boolean">false</Sale:IsPublished>
      <Sale:VisibleFor xsi:type="Sale:ArrayOfVisibleFor">
       <Sale:VisibleFor xsi:type="Sale:VisibleFor">
@@ -375,8 +375,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:SaleEntity">
     <Sale:Appointment xsi:type="Sale:Appointment">
      <Sale:AppointmentId xsi:type="xsd:int">0</Sale:AppointmentId>
-     <Sale:StartDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:StartDate>
-     <Sale:EndDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:EndDate>
+     <Sale:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:StartDate>
+     <Sale:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:EndDate>
      <Sale:Type xsi:type="Sale:AppointmentType">Unknown</Sale:Type>
      <Sale:Task xsi:type="xsd:string"></Sale:Task>
      <Sale:AssociateFullName xsi:type="xsd:string"></Sale:AssociateFullName>
@@ -400,14 +400,14 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:IsBookingMain xsi:type="xsd:boolean">false</Sale:IsBookingMain>
      <Sale:IsRecurrence xsi:type="xsd:boolean">false</Sale:IsRecurrence>
      <Sale:IsBooking xsi:type="xsd:boolean">false</Sale:IsBooking>
-     <Sale:ActiveDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:ActiveDate>
+     <Sale:ActiveDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:ActiveDate>
      <Sale:AssignmentStatus xsi:type="Sale:AssignmentStatus">Unknown</Sale:AssignmentStatus>
      <Sale:InvitationStatus xsi:type="Sale:InvitationStatus">Unknown</Sale:InvitationStatus>
      <Sale:BookingType xsi:type="Sale:BookingType">Unknown</Sale:BookingType>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:RecurringPattern xsi:type="Sale:RecurrencePattern">Unknown</Sale:RecurringPattern>
-     <Sale:RecurringStartDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:RecurringStartDate>
-     <Sale:RecurringEndDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:RecurringEndDate>
+     <Sale:RecurringStartDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:RecurringStartDate>
+     <Sale:RecurringEndDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:RecurringEndDate>
      <Sale:MotherId xsi:type="xsd:int">0</Sale:MotherId>
      <Sale:AssignedBy xsi:type="xsd:int">0</Sale:AssignedBy>
      <Sale:AssignedByFullName xsi:type="xsd:string"></Sale:AssignedByFullName>
@@ -417,7 +417,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:SaleName xsi:type="xsd:string"></Sale:SaleName>
      <Sale:AssociateName xsi:type="xsd:string"></Sale:AssociateName>
-     <Sale:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:CreatedDate>
+     <Sale:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:CreatedDate>
      <Sale:CreatedBy xsi:type="xsd:string"></Sale:CreatedBy>
      <Sale:CreatedByFullName xsi:type="xsd:string"></Sale:CreatedByFullName>
      <Sale:CreatedByAssociateId xsi:type="xsd:int">0</Sale:CreatedByAssociateId>
@@ -509,12 +509,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:AssociateId xsi:type="xsd:int">0</Sale:AssociateId>
      <Sale:AssociateFullName xsi:type="xsd:string"></Sale:AssociateFullName>
      <Sale:TypeId xsi:type="xsd:int">0</Sale:TypeId>
-     <Sale:Updated xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:Updated>
+     <Sale:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:Updated>
      <Sale:StatusId xsi:type="xsd:int">0</Sale:StatusId>
      <Sale:Status xsi:type="xsd:string"></Sale:Status>
      <Sale:TextId xsi:type="xsd:int">0</Sale:TextId>
-     <Sale:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishTo>
-     <Sale:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishFrom>
+     <Sale:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishTo>
+     <Sale:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishFrom>
      <Sale:IsPublished xsi:type="xsd:boolean">false</Sale:IsPublished>
      <Sale:URLName xsi:type="xsd:string"></Sale:URLName>
      <Sale:ProjectNumber xsi:type="xsd:string"></Sale:ProjectNumber>
@@ -593,7 +593,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:Tooltip xsi:type="xsd:string"></Sale:Tooltip>
     </Sale:Source>
     <Sale:Status xsi:type="Sale:SaleStatus">Unknown</Sale:Status>
-    <Sale:Saledate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:Saledate>
+    <Sale:Saledate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:Saledate>
     <Sale:Amount xsi:type="xsd:double">0.0</Sale:Amount>
     <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
     <Sale:Earning xsi:type="xsd:double">0.0</Sale:Earning>
@@ -601,8 +601,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Sale:Heading xsi:type="xsd:string"></Sale:Heading>
     <Sale:Number xsi:type="xsd:string"></Sale:Number>
     <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
-    <Sale:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:CreatedDate>
-    <Sale:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:UpdatedDate>
+    <Sale:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:CreatedDate>
+    <Sale:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:UpdatedDate>
     <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
     <Sale:ActiveLinks xsi:type="xsd:int">0</Sale:ActiveLinks>
     <Sale:Links xsi:type="Sale:ArrayOfLink">
@@ -614,7 +614,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:LinkId xsi:type="xsd:int">0</Sale:LinkId>
      </Sale:Link>
     </Sale:Links>
-    <Sale:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:NextDueDate>
+    <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:NextDueDate>
     <Sale:Postit xsi:type="xsd:string"></Sale:Postit>
     <Sale:SaleType xsi:type="Sale:SaleType">
      <Sale:Id xsi:type="xsd:int">0</Sale:Id>
@@ -631,7 +631,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:Value xsi:type="xsd:string"></Sale:Value>
      <Sale:Tooltip xsi:type="xsd:string"></Sale:Tooltip>
     </Sale:ReasonStalled>
-    <Sale:ReopenDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:ReopenDate>
+    <Sale:ReopenDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:ReopenDate>
     <Sale:SaleStakeholders xsi:type="Sale:ArrayOfSaleStakeholder">
      <Sale:SaleStakeholder xsi:type="Sale:SaleStakeholder">
       <Sale:StakeholderRoleName xsi:type="xsd:string"></Sale:StakeholderRoleName>
@@ -668,9 +668,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Sale:Value xsi:type="xsd:string"></Sale:Value>
      </Sale:StringKeyValuePair>
     </Sale:ExtraFields>
-    <Sale:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishEventDate>
-    <Sale:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishTo>
-    <Sale:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:35:57Z</Sale:PublishFrom>
+    <Sale:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishEventDate>
+    <Sale:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishTo>
+    <Sale:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:PublishFrom>
     <Sale:IsPublished xsi:type="xsd:boolean">false</Sale:IsPublished>
     <Sale:VisibleFor xsi:type="Sale:ArrayOfVisibleFor">
      <Sale:VisibleFor xsi:type="Sale:VisibleFor">

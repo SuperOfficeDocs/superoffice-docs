@@ -1,10 +1,10 @@
 ---
-uid: services87-viewstate-getnextcurrent
 title: Services87.ViewStateAgent.GetNextCurrent SOAP
-Generated: true
+generated: 1
+uid: Services87-ViewState-GetNextCurrent
 ---
 
-# Services87 ViewState GetNextCurrent SOAP
+# Services87 ViewState GetNextCurrent
 
 SOAP request and response examples **Remote/Services87/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IViewStateAgent.GetNextCurrent">SuperOffice.Services87.IViewStateAgent.GetNextCurrent</see> method.

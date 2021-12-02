@@ -1,10 +1,10 @@
 ---
-uid: services88-pocket-registerdeviceforpushnotification
 title: Services88.PocketAgent.RegisterDeviceForPushNotification SOAP
-Generated: true
+generated: 1
+uid: Services88-Pocket-RegisterDeviceForPushNotification
 ---
 
-# Services88 Pocket RegisterDeviceForPushNotification SOAP
+# Services88 Pocket RegisterDeviceForPushNotification
 
 SOAP request and response examples **Remote/Services88/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.RegisterDeviceForPushNotification">SuperOffice.Services88.IPocketAgent.RegisterDeviceForPushNotification</see> method.
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Pocket:PNSHandle xsi:type="xsd:string"></Pocket:PNSHandle>
      <Pocket:Platform xsi:type="Pocket:NotificationPlatform">Apple</Pocket:Platform>
      <Pocket:OSVersion xsi:type="xsd:string"></Pocket:OSVersion>
+     <Pocket:TimeZoneId xsi:type="xsd:int">0</Pocket:TimeZoneId>
     </Pocket:DeviceInfo>
    </Pocket:RegisterDeviceForPushNotification>
 

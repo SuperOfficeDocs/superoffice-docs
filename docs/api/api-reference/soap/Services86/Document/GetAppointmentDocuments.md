@@ -1,10 +1,10 @@
 ---
-uid: services86-document-getappointmentdocuments
 title: Services86.DocumentAgent.GetAppointmentDocuments SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-GetAppointmentDocuments
 ---
 
-# Services86 Document GetAppointmentDocuments SOAP
+# Services86 Document GetAppointmentDocuments
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetAppointmentDocuments">SuperOffice.Services86.IDocumentAgent.GetAppointmentDocuments</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-user-setfunctionalrights
 title: Services87.UserAgent.SetFunctionalRights SOAP
-Generated: true
+generated: 1
+uid: Services87-User-SetFunctionalRights
 ---
 
-# Services87 User SetFunctionalRights SOAP
+# Services87 User SetFunctionalRights
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SetFunctionalRights">SuperOffice.Services87.IUserAgent.SetFunctionalRights</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-document-getdocumentlist
 title: Services85.DocumentAgent.GetDocumentList SOAP
-Generated: true
+generated: 1
+uid: Services85-Document-GetDocumentList
 ---
 
-# Services85 Document GetDocumentList SOAP
+# Services85 Document GetDocumentList
 
 SOAP request and response examples **Remote/Services85/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetDocumentList">SuperOffice.Services85.IDocumentAgent.GetDocumentList</see> method.

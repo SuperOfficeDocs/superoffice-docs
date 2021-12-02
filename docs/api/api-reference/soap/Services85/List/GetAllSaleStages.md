@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getallsalestages
 title: Services85.ListAgent.GetAllSaleStages SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetAllSaleStages
 ---
 
-# Services85 List GetAllSaleStages SOAP
+# Services85 List GetAllSaleStages
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetAllSaleStages">SuperOffice.Services85.IListAgent.GetAllSaleStages</see> method.

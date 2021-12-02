@@ -1,10 +1,10 @@
 ---
-uid: services85-configuration-getcustomerurl
 title: Services85.ConfigurationAgent.GetCustomerUrl SOAP
-Generated: true
+generated: 1
+uid: Services85-Configuration-GetCustomerUrl
 ---
 
-# Services85 Configuration GetCustomerUrl SOAP
+# Services85 Configuration GetCustomerUrl
 
 SOAP request and response examples **Remote/Services85/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetCustomerUrl">SuperOffice.Services85.IConfigurationAgent.GetCustomerUrl</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-deletequotealternative
 title: Services87.QuoteAgent.DeleteQuoteAlternative SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-DeleteQuoteAlternative
 ---
 
-# Services87 Quote DeleteQuoteAlternative SOAP
+# Services87 Quote DeleteQuoteAlternative
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.DeleteQuoteAlternative">SuperOffice.Services87.IQuoteAgent.DeleteQuoteAlternative</see> method.

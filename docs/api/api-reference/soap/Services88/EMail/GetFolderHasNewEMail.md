@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getfolderhasnewemail
 title: Services88.EMailAgent.GetFolderHasNewEMail SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetFolderHasNewEMail
 ---
 
-# Services88 EMail GetFolderHasNewEMail SOAP
+# Services88 EMail GetFolderHasNewEMail
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetFolderHasNewEMail">SuperOffice.Services88.IEMailAgent.GetFolderHasNewEMail</see> method.

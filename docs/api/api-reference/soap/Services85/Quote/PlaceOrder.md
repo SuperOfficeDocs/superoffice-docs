@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-placeorder
 title: Services85.QuoteAgent.PlaceOrder SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-PlaceOrder
 ---
 
-# Services85 Quote PlaceOrder SOAP
+# Services85 Quote PlaceOrder
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.PlaceOrder">SuperOffice.Services85.IQuoteAgent.PlaceOrder</see> method.

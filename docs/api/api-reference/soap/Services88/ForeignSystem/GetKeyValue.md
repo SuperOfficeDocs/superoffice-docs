@@ -1,10 +1,10 @@
 ---
-uid: services88-foreignsystem-getkeyvalue
 title: Services88.ForeignSystemAgent.GetKeyValue SOAP
-Generated: true
+generated: 1
+uid: Services88-ForeignSystem-GetKeyValue
 ---
 
-# Services88 ForeignSystem GetKeyValue SOAP
+# Services88 ForeignSystem GetKeyValue
 
 SOAP request and response examples **Remote/Services88/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IForeignSystemAgent.GetKeyValue">SuperOffice.Services88.IForeignSystemAgent.GetKeyValue</see> method.

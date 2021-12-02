@@ -1,10 +1,10 @@
 ---
-uid: services84-person-addemailaddresstoperson
 title: Services84.PersonAgent.AddEmailAddressToPerson SOAP
-Generated: true
+generated: 1
+uid: Services84-Person-AddEmailAddressToPerson
 ---
 
-# Services84 Person AddEmailAddressToPerson SOAP
+# Services84 Person AddEmailAddressToPerson
 
 SOAP request and response examples **Remote/Services84/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.AddEmailAddressToPerson">SuperOffice.Services84.IPersonAgent.AddEmailAddressToPerson</see> method.

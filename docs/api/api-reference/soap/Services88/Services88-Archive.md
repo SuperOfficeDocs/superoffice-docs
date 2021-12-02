@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Archive
 title: Services88.ArchiveAgent WSDL
 ---
 
@@ -385,6 +385,7 @@ title: Services88.ArchiveAgent WSDL
           <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
@@ -851,6 +852,40 @@ title: Services88.ArchiveAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="ExportArchive">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Context" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="DesiredEntities" nillable="true" type="q22:ArrayOfstring" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Columns" nillable="true" type="q23:ArrayOfstring" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SortOrder" nillable="true" type="tns:ArrayOfArchiveOrderByInfo" />
+            <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+            <xs:element minOccurs="0" name="ExportType" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="SelectedRowIds" nillable="true" type="q24:ArrayOfstring" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="EstimatedRowCount" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExportArchiveResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ExportArchiveResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ExportArchiveResult">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BatchTaskId" type="xs:int" />
+              <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ExportArchiveResult" nillable="true" type="tns:ExportArchiveResult" />
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1384,6 +1419,23 @@ title: Services88.ArchiveAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="ExportArchiveRequest">
+    <wsdl:part name="parameters" element="tns:ExportArchive" />
+  </wsdl:message>
+  <wsdl:message name="ExportArchiveRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExportArchiveResponse">
+    <wsdl:part name="parameters" element="tns:ExportArchiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExportArchiveResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Archive">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Archive</summary>
@@ -1583,6 +1635,13 @@ title: Services88.ArchiveAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContext2" name="GetArchiveListByColumnsWithHeaderWithContext2Request" message="tns:GetArchiveListByColumnsWithHeaderWithContext2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/GetArchiveListByColumnsWithHeaderWithContext2Response" name="GetArchiveListByColumnsWithHeaderWithContext2Response" message="tns:GetArchiveListByColumnsWithHeaderWithContext2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportArchive">
+      <wsdl:documentation>
+        <summary>Exports the target archive to a downloadable format.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/ExportArchive" name="ExportArchiveRequest" message="tns:ExportArchiveRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/ExportArchiveResponse" name="ExportArchiveResponse" message="tns:ExportArchiveResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Archive" type="tns:Archive">
@@ -2032,6 +2091,22 @@ title: Services88.ArchiveAgent WSDL
         <soap:header message="tns:GetArchiveListByColumnsWithHeaderWithContext2Response_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetArchiveListByColumnsWithHeaderWithContext2Response_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetArchiveListByColumnsWithHeaderWithContext2Response_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportArchive">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Archive/ExportArchive" style="document" />
+      <wsdl:input name="ExportArchiveRequest">
+        <soap:header message="tns:ExportArchiveRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExportArchiveRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExportArchiveRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExportArchiveResponse">
+        <soap:header message="tns:ExportArchiveResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExportArchiveResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExportArchiveResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExportArchiveResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

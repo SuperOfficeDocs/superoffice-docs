@@ -1,10 +1,10 @@
 ---
-uid: services85-resource-deleteresourcesubstitution
 title: Services85.ResourceAgent.DeleteResourceSubstitution SOAP
-Generated: true
+generated: 1
+uid: Services85-Resource-DeleteResourceSubstitution
 ---
 
-# Services85 Resource DeleteResourceSubstitution SOAP
+# Services85 Resource DeleteResourceSubstitution
 
 SOAP request and response examples **Remote/Services85/Resource.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.DeleteResourceSubstitution">SuperOffice.Services85.IResourceAgent.DeleteResourceSubstitution</see> method.

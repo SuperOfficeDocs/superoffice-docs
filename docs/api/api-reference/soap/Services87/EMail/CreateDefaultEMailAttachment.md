@@ -1,10 +1,10 @@
 ---
-uid: services87-email-createdefaultemailattachment
 title: Services87.EMailAgent.CreateDefaultEMailAttachment SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-CreateDefaultEMailAttachment
 ---
 
-# Services87 EMail CreateDefaultEMailAttachment SOAP
+# Services87 EMail CreateDefaultEMailAttachment
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateDefaultEMailAttachment">SuperOffice.Services87.IEMailAgent.CreateDefaultEMailAttachment</see> method.

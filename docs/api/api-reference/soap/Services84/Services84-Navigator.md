@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services84-Navigator
 title: Services84.NavigatorAgent WSDL
 ---
 

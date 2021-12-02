@@ -1,7 +1,7 @@
 ---
-uid: services88-document
 title: Services88.DocumentAgent SOAP
-Generated: true
+uid: Services88-Document-soap
+generated: 1
 ---
 
 # Services88 Document SOAP
@@ -41,6 +41,7 @@ Download [WSDL file for Services88/Document](../Services88-Document.md) if you n
 * [GetDocument](GetDocument.md)
 * [GetDocumentCommands](GetDocumentCommands.md)
 * [GetDocumentEntity](GetDocumentEntity.md)
+* [GetDocumentLength](GetDocumentLength.md)
 * [GetDocumentList](GetDocumentList.md)
 * [GetDocumentProperties](GetDocumentProperties.md)
 * [GetDocumentsByTemplateHeading](GetDocumentsByTemplateHeading.md)
@@ -98,3 +99,4 @@ Download [WSDL file for Services88/Document](../Services88-Document.md) if you n
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [ValidateDocumentEntity](ValidateDocumentEntity.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getprojecttype
 title: Services86.ListAgent.GetProjectType SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetProjectType
 ---
 
-# Services86 List GetProjectType SOAP
+# Services86 List GetProjectType
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetProjectType">SuperOffice.Services86.IListAgent.GetProjectType</see> method.

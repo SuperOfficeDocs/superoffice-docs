@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getparticipantinfofromemailaddress
 title: Services88.EMailAgent.GetParticipantInfoFromEmailAddress SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetParticipantInfoFromEmailAddress
 ---
 
-# Services88 EMail GetParticipantInfoFromEmailAddress SOAP
+# Services88 EMail GetParticipantInfoFromEmailAddress
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetParticipantInfoFromEmailAddress">SuperOffice.Services88.IEMailAgent.GetParticipantInfoFromEmailAddress</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-archive-setchosencolumns
 title: Services87.ArchiveAgent.SetChosenColumns SOAP
-Generated: true
+generated: 1
+uid: Services87-Archive-SetChosenColumns
 ---
 
-# Services87 Archive SetChosenColumns SOAP
+# Services87 Archive SetChosenColumns
 
 SOAP request and response examples **Remote/Services87/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IArchiveAgent.SetChosenColumns">SuperOffice.Services87.IArchiveAgent.SetChosenColumns</see> method.

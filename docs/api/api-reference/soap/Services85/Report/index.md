@@ -1,7 +1,7 @@
 ---
-uid: services85-report
 title: Services85.ReportAgent SOAP
-Generated: true
+uid: Services85-Report-soap
+generated: 1
 ---
 
 # Services85 Report SOAP
@@ -28,3 +28,4 @@ Download [WSDL file for Services85/Report](../Services85-Report.md) if you need 
 * [SaveReportEntity](SaveReportEntity.md)
 * [SaveReportLabelLayoutEntity](SaveReportLabelLayoutEntity.md)
 * [UpdateFavorite](UpdateFavorite.md)
+

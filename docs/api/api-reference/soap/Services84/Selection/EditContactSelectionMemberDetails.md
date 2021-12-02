@@ -1,10 +1,10 @@
 ---
-uid: services84-selection-editcontactselectionmemberdetails
 title: Services84.SelectionAgent.EditContactSelectionMemberDetails SOAP
-Generated: true
+generated: 1
+uid: Services84-Selection-EditContactSelectionMemberDetails
 ---
 
-# Services84 Selection EditContactSelectionMemberDetails SOAP
+# Services84 Selection EditContactSelectionMemberDetails
 
 SOAP request and response examples **Remote/Services84/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.EditContactSelectionMemberDetails">SuperOffice.Services84.ISelectionAgent.EditContactSelectionMemberDetails</see> method.

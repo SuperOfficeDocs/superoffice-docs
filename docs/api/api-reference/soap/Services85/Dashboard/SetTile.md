@@ -1,10 +1,10 @@
 ---
-uid: services85-dashboard-settile
 title: Services85.DashboardAgent.SetTile SOAP
-Generated: true
+generated: 1
+uid: Services85-Dashboard-SetTile
 ---
 
-# Services85 Dashboard SetTile SOAP
+# Services85 Dashboard SetTile
 
 SOAP request and response examples **Remote/Services85/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IDashboardAgent.SetTile">SuperOffice.Services85.IDashboardAgent.SetTile</see> method.

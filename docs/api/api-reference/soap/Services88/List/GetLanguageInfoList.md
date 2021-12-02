@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getlanguageinfolist
 title: Services88.ListAgent.GetLanguageInfoList SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetLanguageInfoList
 ---
 
-# Services88 List GetLanguageInfoList SOAP
+# Services88 List GetLanguageInfoList
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetLanguageInfoList">SuperOffice.Services88.IListAgent.GetLanguageInfoList</see> method.

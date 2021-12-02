@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-savewindowpossizes
 title: Services87.ConfigurationAgent.SaveWindowPosSizes SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-SaveWindowPosSizes
 ---
 
-# Services87 Configuration SaveWindowPosSizes SOAP
+# Services87 Configuration SaveWindowPosSizes
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.SaveWindowPosSizes">SuperOffice.Services87.IConfigurationAgent.SaveWindowPosSizes</see> method.

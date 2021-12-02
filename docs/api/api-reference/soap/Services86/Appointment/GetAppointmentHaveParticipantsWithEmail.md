@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-getappointmenthaveparticipantswithemail
 title: Services86.AppointmentAgent.GetAppointmentHaveParticipantsWithEmail SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-GetAppointmentHaveParticipantsWithEmail
 ---
 
-# Services86 Appointment GetAppointmentHaveParticipantsWithEmail SOAP
+# Services86 Appointment GetAppointmentHaveParticipantsWithEmail
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetAppointmentHaveParticipantsWithEmail">SuperOffice.Services86.IAppointmentAgent.GetAppointmentHaveParticipantsWithEmail</see> method.

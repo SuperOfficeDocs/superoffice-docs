@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getpluginlist
 title: Services88.DocumentAgent.GetPluginList SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetPluginList
 ---
 
-# Services88 Document GetPluginList SOAP
+# Services88 Document GetPluginList
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPluginList">SuperOffice.Services88.IDocumentAgent.GetPluginList</see> method.

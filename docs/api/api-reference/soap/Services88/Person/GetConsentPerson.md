@@ -1,10 +1,10 @@
 ---
-uid: services88-person-getconsentperson
 title: Services88.PersonAgent.GetConsentPerson SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-GetConsentPerson
 ---
 
-# Services88 Person GetConsentPerson SOAP
+# Services88 Person GetConsentPerson
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetConsentPerson">SuperOffice.Services88.IPersonAgent.GetConsentPerson</see> method.
@@ -93,7 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:37:05Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:46Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>

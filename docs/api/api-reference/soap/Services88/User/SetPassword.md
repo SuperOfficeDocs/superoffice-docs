@@ -1,10 +1,10 @@
 ---
-uid: services88-user-setpassword
 title: Services88.UserAgent.SetPassword SOAP
-Generated: true
+generated: 1
+uid: Services88-User-SetPassword
 ---
 
-# Services88 User SetPassword SOAP
+# Services88 User SetPassword
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SetPassword">SuperOffice.Services88.IUserAgent.SetPassword</see> method.

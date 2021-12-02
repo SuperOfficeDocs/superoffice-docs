@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-moveerpfielditem
 title: Services86.ErpSyncAgent.MoveErpFieldItem SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-MoveErpFieldItem
 ---
 
-# Services86 ErpSync MoveErpFieldItem SOAP
+# Services86 ErpSync MoveErpFieldItem
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.MoveErpFieldItem">SuperOffice.Services86.IErpSyncAgent.MoveErpFieldItem</see> method.

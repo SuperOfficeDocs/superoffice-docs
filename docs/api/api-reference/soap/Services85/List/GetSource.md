@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getsource
 title: Services85.ListAgent.GetSource SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetSource
 ---
 
-# Services85 List GetSource SOAP
+# Services85 List GetSource
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetSource">SuperOffice.Services85.IListAgent.GetSource</see> method.

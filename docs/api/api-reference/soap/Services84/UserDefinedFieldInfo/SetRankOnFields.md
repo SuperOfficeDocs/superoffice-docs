@@ -1,10 +1,10 @@
 ---
-uid: services84-userdefinedfieldinfo-setrankonfields
 title: Services84.UserDefinedFieldInfoAgent.SetRankOnFields SOAP
-Generated: true
+generated: 1
+uid: Services84-UserDefinedFieldInfo-SetRankOnFields
 ---
 
-# Services84 UserDefinedFieldInfo SetRankOnFields SOAP
+# Services84 UserDefinedFieldInfo SetRankOnFields
 
 SOAP request and response examples **Remote/Services84/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgent.SetRankOnFields">SuperOffice.Services84.IUserDefinedFieldInfoAgent.SetRankOnFields</see> method.

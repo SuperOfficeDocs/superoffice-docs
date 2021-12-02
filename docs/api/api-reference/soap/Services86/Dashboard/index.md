@@ -1,7 +1,7 @@
 ---
-uid: services86-dashboard
 title: Services86.DashboardAgent SOAP
-Generated: true
+uid: Services86-Dashboard-soap
+generated: 1
 ---
 
 # Services86 Dashboard SOAP
@@ -29,3 +29,4 @@ Download [WSDL file for Services86/Dashboard](../Services86-Dashboard.md) if you
 * [SaveDashboard](SaveDashboard.md)
 * [SaveDashboardTile](SaveDashboardTile.md)
 * [SetTile](SetTile.md)
+

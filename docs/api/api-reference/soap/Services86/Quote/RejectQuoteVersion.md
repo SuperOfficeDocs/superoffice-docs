@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-rejectquoteversion
 title: Services86.QuoteAgent.RejectQuoteVersion SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-RejectQuoteVersion
 ---
 
-# Services86 Quote RejectQuoteVersion SOAP
+# Services86 Quote RejectQuoteVersion
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.RejectQuoteVersion">SuperOffice.Services86.IQuoteAgent.RejectQuoteVersion</see> method.

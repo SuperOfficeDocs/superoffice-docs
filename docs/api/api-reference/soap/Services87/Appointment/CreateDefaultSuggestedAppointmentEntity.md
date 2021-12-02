@@ -1,10 +1,10 @@
 ---
-uid: services87-appointment-createdefaultsuggestedappointmententity
 title: Services87.AppointmentAgent.CreateDefaultSuggestedAppointmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Appointment-CreateDefaultSuggestedAppointmentEntity
 ---
 
-# Services87 Appointment CreateDefaultSuggestedAppointmentEntity SOAP
+# Services87 Appointment CreateDefaultSuggestedAppointmentEntity
 
 SOAP request and response examples **Remote/Services87/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntity">SuperOffice.Services87.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntity</see> method.

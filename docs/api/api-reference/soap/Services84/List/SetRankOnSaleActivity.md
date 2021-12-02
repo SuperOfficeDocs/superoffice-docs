@@ -1,10 +1,10 @@
 ---
-uid: services84-list-setrankonsaleactivity
 title: Services84.ListAgent.SetRankOnSaleActivity SOAP
-Generated: true
+generated: 1
+uid: Services84-List-SetRankOnSaleActivity
 ---
 
-# Services84 List SetRankOnSaleActivity SOAP
+# Services84 List SetRankOnSaleActivity
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SetRankOnSaleActivity">SuperOffice.Services84.IListAgent.SetRankOnSaleActivity</see> method.

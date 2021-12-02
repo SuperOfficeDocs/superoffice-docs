@@ -1,10 +1,10 @@
 ---
-uid: services85-quote-getconnectionstartuperrors
 title: Services85.QuoteAgent.GetConnectionStartupErrors SOAP
-Generated: true
+generated: 1
+uid: Services85-Quote-GetConnectionStartupErrors
 ---
 
-# Services85 Quote GetConnectionStartupErrors SOAP
+# Services85 Quote GetConnectionStartupErrors
 
 SOAP request and response examples **Remote/Services85/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetConnectionStartupErrors">SuperOffice.Services85.IQuoteAgent.GetConnectionStartupErrors</see> method.

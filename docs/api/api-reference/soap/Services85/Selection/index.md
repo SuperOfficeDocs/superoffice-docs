@@ -1,7 +1,7 @@
 ---
-uid: services85-selection
 title: Services85.SelectionAgent SOAP
-Generated: true
+uid: Services85-Selection-soap
+generated: 1
 ---
 
 # Services85 Selection SOAP
@@ -64,3 +64,4 @@ Download [WSDL file for Services85/Selection](../Services85-Selection.md) if you
 * [SetDynamicSelectionCriteria2](SetDynamicSelectionCriteria2.md)
 * [SetDynamicSelectionCriteria3](SetDynamicSelectionCriteria3.md)
 * [StartMailMerge](StartMailMerge.md)
+

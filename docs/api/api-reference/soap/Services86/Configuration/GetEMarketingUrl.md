@@ -1,10 +1,10 @@
 ---
-uid: services86-configuration-getemarketingurl
 title: Services86.ConfigurationAgent.GetEMarketingUrl SOAP
-Generated: true
+generated: 1
+uid: Services86-Configuration-GetEMarketingUrl
 ---
 
-# Services86 Configuration GetEMarketingUrl SOAP
+# Services86 Configuration GetEMarketingUrl
 
 SOAP request and response examples **Remote/Services86/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetEMarketingUrl">SuperOffice.Services86.IConfigurationAgent.GetEMarketingUrl</see> method.

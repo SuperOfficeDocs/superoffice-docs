@@ -1,10 +1,10 @@
 ---
-uid: services84-diagnostics-flushcachesbyname
 title: Services84.DiagnosticsAgent.FlushCachesByName SOAP
-Generated: true
+generated: 1
+uid: Services84-Diagnostics-FlushCachesByName
 ---
 
-# Services84 Diagnostics FlushCachesByName SOAP
+# Services84 Diagnostics FlushCachesByName
 
 SOAP request and response examples **Remote/Services84/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDiagnosticsAgent.FlushCachesByName">SuperOffice.Services84.IDiagnosticsAgent.FlushCachesByName</see> method.

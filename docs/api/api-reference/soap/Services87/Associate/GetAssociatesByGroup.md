@@ -1,10 +1,10 @@
 ---
-uid: services87-associate-getassociatesbygroup
 title: Services87.AssociateAgent.GetAssociatesByGroup SOAP
-Generated: true
+generated: 1
+uid: Services87-Associate-GetAssociatesByGroup
 ---
 
-# Services87 Associate GetAssociatesByGroup SOAP
+# Services87 Associate GetAssociatesByGroup
 
 SOAP request and response examples **Remote/Services87/Associate.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAssociateAgent.GetAssociatesByGroup">SuperOffice.Services87.IAssociateAgent.GetAssociatesByGroup</see> method.

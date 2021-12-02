@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getpreviewdocumentstream
 title: Services88.DocumentAgent.GetPreviewDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetPreviewDocumentStream
 ---
 
-# Services88 Document GetPreviewDocumentStream SOAP
+# Services88 Document GetPreviewDocumentStream
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPreviewDocumentStream">SuperOffice.Services88.IDocumentAgent.GetPreviewDocumentStream</see> method.

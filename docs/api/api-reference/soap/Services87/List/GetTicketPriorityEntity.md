@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getticketpriorityentity
 title: Services87.ListAgent.GetTicketPriorityEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetTicketPriorityEntity
 ---
 
-# Services87 List GetTicketPriorityEntity SOAP
+# Services87 List GetTicketPriorityEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketPriorityEntity">SuperOffice.Services87.IListAgent.GetTicketPriorityEntity</see> method.
@@ -78,22 +78,22 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
     <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
     <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-    <List:MonStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:MonStart>
-    <List:MonStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:MonStop>
-    <List:TueStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:TueStart>
-    <List:TueStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:TueStop>
-    <List:WedStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:WedStart>
-    <List:WedStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:WedStop>
-    <List:ThuStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:ThuStart>
-    <List:ThuStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:ThuStop>
-    <List:FriStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:FriStart>
-    <List:FriStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:FriStop>
-    <List:SatStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:SatStart>
-    <List:SatStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:SatStop>
-    <List:SunStart xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:SunStart>
-    <List:SunStop xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</List:SunStop>
+    <List:MonStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:MonStart>
+    <List:MonStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:MonStop>
+    <List:TueStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:TueStart>
+    <List:TueStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:TueStop>
+    <List:WedStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:WedStart>
+    <List:WedStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:WedStop>
+    <List:ThuStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:ThuStart>
+    <List:ThuStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:ThuStop>
+    <List:FriStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:FriStart>
+    <List:FriStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:FriStop>
+    <List:SatStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:SatStart>
+    <List:SatStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:SatStop>
+    <List:SunStart xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:SunStart>
+    <List:SunStop xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:SunStop>
     <List:NonDates xsi:type="NetServerServices872:ArrayOfdateTime">
-     <NetServerServices872:dateTime xsi:type="xsd:dateTime">2021-03-25T21:36:37Z</NetServerServices872:dateTime>
+     <NetServerServices872:dateTime xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</NetServerServices872:dateTime>
     </List:NonDates>
    </List:Response>
   </List:GetTicketPriorityEntityResponse>

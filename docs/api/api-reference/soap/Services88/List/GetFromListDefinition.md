@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getfromlistdefinition
 title: Services88.ListAgent.GetFromListDefinition SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetFromListDefinition
 ---
 
-# Services88 List GetFromListDefinition SOAP
+# Services88 List GetFromListDefinition
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetFromListDefinition">SuperOffice.Services88.IListAgent.GetFromListDefinition</see> method.

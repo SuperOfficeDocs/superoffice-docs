@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-addsaletypequoteattachment
 title: Services84.QuoteAgent.AddSaleTypeQuoteAttachment SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-AddSaleTypeQuoteAttachment
 ---
 
-# Services84 Quote AddSaleTypeQuoteAttachment SOAP
+# Services84 Quote AddSaleTypeQuoteAttachment
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.AddSaleTypeQuoteAttachment">SuperOffice.Services84.IQuoteAgent.AddSaleTypeQuoteAttachment</see> method.

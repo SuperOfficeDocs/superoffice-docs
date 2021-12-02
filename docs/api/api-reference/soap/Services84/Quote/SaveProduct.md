@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-saveproduct
 title: Services84.QuoteAgent.SaveProduct SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-SaveProduct
 ---
 
-# Services84 Quote SaveProduct SOAP
+# Services84 Quote SaveProduct
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SaveProduct">SuperOffice.Services84.IQuoteAgent.SaveProduct</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-relation-deletecontactrelation
 title: Services85.RelationAgent.DeleteContactRelation SOAP
-Generated: true
+generated: 1
+uid: Services85-Relation-DeleteContactRelation
 ---
 
-# Services85 Relation DeleteContactRelation SOAP
+# Services85 Relation DeleteContactRelation
 
 SOAP request and response examples **Remote/Services85/Relation.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IRelationAgent.DeleteContactRelation">SuperOffice.Services85.IRelationAgent.DeleteContactRelation</see> method.

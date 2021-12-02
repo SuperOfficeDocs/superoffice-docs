@@ -1,10 +1,10 @@
 ---
-uid: services86-find-getdefaultdesiredcolumns
 title: Services86.FindAgent.GetDefaultDesiredColumns SOAP
-Generated: true
+generated: 1
+uid: Services86-Find-GetDefaultDesiredColumns
 ---
 
-# Services86 Find GetDefaultDesiredColumns SOAP
+# Services86 Find GetDefaultDesiredColumns
 
 SOAP request and response examples **Remote/Services86/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.GetDefaultDesiredColumns">SuperOffice.Services86.IFindAgent.GetDefaultDesiredColumns</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getticketpriorities
 title: Services88.ListAgent.GetTicketPriorities SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetTicketPriorities
 ---
 
-# Services88 List GetTicketPriorities SOAP
+# Services88 List GetTicketPriorities
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetTicketPriorities">SuperOffice.Services88.IListAgent.GetTicketPriorities</see> method.

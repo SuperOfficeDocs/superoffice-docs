@@ -1,10 +1,10 @@
 ---
-uid: services88-email-markasread
 title: Services88.EMailAgent.MarkAsRead SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-MarkAsRead
 ---
 
-# Services88 EMail MarkAsRead SOAP
+# Services88 EMail MarkAsRead
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.MarkAsRead">SuperOffice.Services88.IEMailAgent.MarkAsRead</see> method.
@@ -16,8 +16,7 @@ Mark one or more e-mails as (un)read
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **messageServerIds:** The e-mails to handle
-* **read:** If true mails are marked as read.
-If false mails are marked as unread.
+* **read:** If true mails are marked as read. If false mails are marked as unread.
 
 
 

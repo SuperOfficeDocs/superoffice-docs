@@ -1,10 +1,10 @@
 ---
-uid: services85-soprincipal-authenticateusernamepassword
 title: Services85.SoPrincipalAgent.AuthenticateUsernamePassword SOAP
-Generated: true
+generated: 1
+uid: Services85-SoPrincipal-AuthenticateUsernamePassword
 ---
 
-# Services85 SoPrincipal AuthenticateUsernamePassword SOAP
+# Services85 SoPrincipal AuthenticateUsernamePassword
 
 SOAP request and response examples **Remote/Services85/SoPrincipal.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ISoPrincipalAgent.AuthenticateUsernamePassword">SuperOffice.Services85.ISoPrincipalAgent.AuthenticateUsernamePassword</see> method.
@@ -90,7 +90,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:35:58Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:22:43Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>

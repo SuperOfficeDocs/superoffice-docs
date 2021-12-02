@@ -1,10 +1,10 @@
 ---
-uid: services86-email-createdefaultemailfolder
 title: Services86.EMailAgent.CreateDefaultEMailFolder SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-CreateDefaultEMailFolder
 ---
 
-# Services86 EMail CreateDefaultEMailFolder SOAP
+# Services86 EMail CreateDefaultEMailFolder
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.CreateDefaultEMailFolder">SuperOffice.Services86.IEMailAgent.CreateDefaultEMailFolder</see> method.

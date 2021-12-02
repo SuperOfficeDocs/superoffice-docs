@@ -1,10 +1,10 @@
 ---
-uid: services86-appointment-getsuggestedappointmententity
 title: Services86.AppointmentAgent.GetSuggestedAppointmentEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Appointment-GetSuggestedAppointmentEntity
 ---
 
-# Services86 Appointment GetSuggestedAppointmentEntity SOAP
+# Services86 Appointment GetSuggestedAppointmentEntity
 
 SOAP request and response examples **Remote/Services86/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetSuggestedAppointmentEntity">SuperOffice.Services86.IAppointmentAgent.GetSuggestedAppointmentEntity</see> method.

@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-DatabaseTable
 title: Services88.DatabaseTableAgent WSDL
 ---
 
@@ -12,6 +12,7 @@ title: Services88.DatabaseTableAgent WSDL
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="ReadRow">
         <xs:complexType>
           <xs:sequence>
@@ -269,11 +270,70 @@ title: Services88.DatabaseTableAgent WSDL
               <xs:element minOccurs="0" name="Inserts" type="xs:int" />
               <xs:element minOccurs="0" name="Updates" type="xs:int" />
               <xs:element minOccurs="0" name="Deletes" type="xs:int" />
+              <xs:element minOccurs="0" name="RowStatus" nillable="true" type="tns:ArrayOfUpsertRowStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="MassOperationResult" nillable="true" type="tns:MassOperationResult" />
+      <xs:complexType name="ArrayOfUpsertRowStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="UpsertRowStatus" nillable="true" type="tns:UpsertRowStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfUpsertRowStatus" nillable="true" type="tns:ArrayOfUpsertRowStatus" />
+      <xs:complexType name="UpsertRowStatus">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PrimaryKey" type="xs:int" />
+              <xs:element minOccurs="0" name="Action" type="tns:UpsertRowActionStatus" />
+              <xs:element minOccurs="0" name="RowKeys" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="UpsertRowStatus" nillable="true" type="tns:UpsertRowStatus" />
+      <xs:simpleType name="UpsertRowActionStatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Inserted">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Updated">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="NoUpdateNeeded">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Deleted">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="ColumnsZeroed">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="UpsertRowActionStatus" nillable="true" type="tns:UpsertRowActionStatus" />
       <xs:element name="Truncate">
         <xs:complexType>
           <xs:sequence>
@@ -292,13 +352,22 @@ title: Services88.DatabaseTableAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Columns" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Keys" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="DeleteUnmatched" type="xs:boolean" />
-            <xs:element minOccurs="0" name="Data" nillable="true" type="q5:ArrayOfArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Columns" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Keys" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Data" nillable="true" type="q6:ArrayOfArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="NomatchAction" type="tns:UpsertNomatchAction" />
+            <xs:element minOccurs="0" name="ReturnRowStatus" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:simpleType name="UpsertNomatchAction">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="NoChange" />
+          <xs:enumeration value="ZeroColumns" />
+          <xs:enumeration value="DeleteRow" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="UpsertNomatchAction" nillable="true" type="tns:UpsertNomatchAction" />
       <xs:element name="UpsertResponse">
         <xs:complexType>
           <xs:sequence>
@@ -310,7 +379,7 @@ title: Services88.DatabaseTableAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="IDs" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="IDs" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -554,28 +623,28 @@ title: Services88.DatabaseTableAgent WSDL
     </wsdl:operation>
     <wsdl:operation name="Insert">
       <wsdl:documentation>
-        <summary>Mass-insert rows, with or without primary keys specified</summary>
+        <summary>Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported</summary>
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Insert" name="InsertRequest" message="tns:InsertRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/InsertResponse" name="InsertResponse" message="tns:InsertResponse" />
     </wsdl:operation>
     <wsdl:operation name="Truncate">
       <wsdl:documentation>
-        <summary>Drop all rows in a table</summary>
+        <summary>Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls</summary>
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Truncate" name="TruncateRequest" message="tns:TruncateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/TruncateResponse" name="TruncateResponse" message="tns:TruncateResponse" />
     </wsdl:operation>
     <wsdl:operation name="Upsert">
       <wsdl:documentation>
-        <summary>Insert or update rows</summary>
+        <summary>Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported</summary>
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Upsert" name="UpsertRequest" message="tns:UpsertRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/UpsertResponse" name="UpsertResponse" message="tns:UpsertResponse" />
     </wsdl:operation>
     <wsdl:operation name="Delete">
       <wsdl:documentation>
-        <summary>Delete rows, by primary key</summary>
+        <summary>Delete rows, by primary key; traveltransactionlog and WebHooks are supported</summary>
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/Delete" name="DeleteRequest" message="tns:DeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DatabaseTable/DeleteResponse" name="DeleteResponse" message="tns:DeleteResponse" />

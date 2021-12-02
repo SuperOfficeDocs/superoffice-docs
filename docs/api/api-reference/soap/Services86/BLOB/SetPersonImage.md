@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-setpersonimage
 title: Services86.BLOBAgent.SetPersonImage SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SetPersonImage
 ---
 
-# Services86 BLOB SetPersonImage SOAP
+# Services86 BLOB SetPersonImage
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SetPersonImage">SuperOffice.Services86.IBLOBAgent.SetPersonImage</see> method.

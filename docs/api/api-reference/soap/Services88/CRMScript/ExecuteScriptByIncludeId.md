@@ -1,17 +1,17 @@
 ---
-uid: services88-crmscript-executescriptbyincludeid
 title: Services88.CRMScriptAgent.ExecuteScriptByIncludeId SOAP
-Generated: true
+generated: 1
+uid: Services88-CRMScript-ExecuteScriptByIncludeId
 ---
 
-# Services88 CRMScript ExecuteScriptByIncludeId SOAP
+# Services88 CRMScript ExecuteScriptByIncludeId
 
 SOAP request and response examples **Remote/Services88/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.ExecuteScriptByIncludeId">SuperOffice.Services88.ICRMScriptAgent.ExecuteScriptByIncludeId</see> method.
 
 ## ExecuteScriptByIncludeId
 
-Execute a CRMScript with parameters
+Execute a CRMScript with parameters, returning printed output value.
 <para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptIncludeId:** The include id of the CRMScript to validate

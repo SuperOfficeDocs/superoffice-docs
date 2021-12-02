@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getversionlist
 title: Services87.DocumentAgent.GetVersionList SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetVersionList
 ---
 
-# Services87 Document GetVersionList SOAP
+# Services87 Document GetVersionList
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetVersionList">SuperOffice.Services87.IDocumentAgent.GetVersionList</see> method.
@@ -70,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:ExternalReference xsi:type="xsd:string"></Document:ExternalReference>
      <Document:DocumentId xsi:type="xsd:int">0</Document:DocumentId>
      <Document:VersionId xsi:type="xsd:string"></Document:VersionId>
-     <Document:CheckedInDate xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Document:CheckedInDate>
+     <Document:CheckedInDate xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Document:CheckedInDate>
      <Document:CheckedInByName xsi:type="xsd:string"></Document:CheckedInByName>
      <Document:CheckedInByAssociateId xsi:type="xsd:int">0</Document:CheckedInByAssociateId>
      <Document:Description xsi:type="xsd:string"></Document:Description>

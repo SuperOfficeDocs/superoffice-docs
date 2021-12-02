@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-getquotelist
 title: Services84.QuoteAgent.GetQuoteList SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-GetQuoteList
 ---
 
-# Services84 Quote GetQuoteList SOAP
+# Services84 Quote GetQuoteList
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteList">SuperOffice.Services84.IQuoteAgent.GetQuoteList</see> method.

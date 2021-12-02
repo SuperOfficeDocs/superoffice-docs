@@ -1,10 +1,10 @@
 ---
-uid: services85-user-findroleswithfunctionalrights
 title: Services85.UserAgent.FindRolesWithFunctionalRights SOAP
-Generated: true
+generated: 1
+uid: Services85-User-FindRolesWithFunctionalRights
 ---
 
-# Services85 User FindRolesWithFunctionalRights SOAP
+# Services85 User FindRolesWithFunctionalRights
 
 SOAP request and response examples **Remote/Services85/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.FindRolesWithFunctionalRights">SuperOffice.Services85.IUserAgent.FindRolesWithFunctionalRights</see> method.

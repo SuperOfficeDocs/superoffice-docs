@@ -1,10 +1,10 @@
 ---
-uid: services87-email-findcontactorpersonbyemailnamewithlimit
 title: Services87.EMailAgent.FindContactOrPersonByEmailNameWithLimit SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-FindContactOrPersonByEmailNameWithLimit
 ---
 
-# Services87 EMail FindContactOrPersonByEmailNameWithLimit SOAP
+# Services87 EMail FindContactOrPersonByEmailNameWithLimit
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.FindContactOrPersonByEmailNameWithLimit">SuperOffice.Services87.IEMailAgent.FindContactOrPersonByEmailNameWithLimit</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-list-getconsentpurpose
 title: Services87.ListAgent.GetConsentPurpose SOAP
-Generated: true
+generated: 1
+uid: Services87-List-GetConsentPurpose
 ---
 
-# Services87 List GetConsentPurpose SOAP
+# Services87 List GetConsentPurpose
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetConsentPurpose">SuperOffice.Services87.IListAgent.GetConsentPurpose</see> method.
@@ -73,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Key xsi:type="xsd:string"></List:Key>
     <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
     <List:Active xsi:type="xsd:short">0</List:Active>
-    <List:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:36Z</List:UpdatedDate>
+    <List:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:19Z</List:UpdatedDate>
     <List:UpdatedBy xsi:type="List:Associate">
      <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
      <List:Name xsi:type="xsd:string"></List:Name>

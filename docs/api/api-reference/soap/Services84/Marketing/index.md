@@ -1,7 +1,7 @@
 ---
-uid: services84-marketing
 title: Services84.MarketingAgent SOAP
-Generated: true
+uid: Services84-Marketing-soap
+generated: 1
 ---
 
 # Services84 Marketing SOAP
@@ -23,3 +23,4 @@ Download [WSDL file for Services84/Marketing](../Services84-Marketing.md) if you
 * [GetFormSubmissionEntity](GetFormSubmissionEntity.md)
 * [SaveFormEntity](SaveFormEntity.md)
 * [SaveFormSubmissionEntity](SaveFormSubmissionEntity.md)
+

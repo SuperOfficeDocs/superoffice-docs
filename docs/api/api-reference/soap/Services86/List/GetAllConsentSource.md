@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getallconsentsource
 title: Services86.ListAgent.GetAllConsentSource SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetAllConsentSource
 ---
 
-# Services86 List GetAllConsentSource SOAP
+# Services86 List GetAllConsentSource
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetAllConsentSource">SuperOffice.Services86.IListAgent.GetAllConsentSource</see> method.

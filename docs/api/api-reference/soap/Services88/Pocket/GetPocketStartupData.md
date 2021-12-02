@@ -1,10 +1,10 @@
 ---
-uid: services88-pocket-getpocketstartupdata
 title: Services88.PocketAgent.GetPocketStartupData SOAP
-Generated: true
+generated: 1
+uid: Services88-Pocket-GetPocketStartupData
 ---
 
-# Services88 Pocket GetPocketStartupData SOAP
+# Services88 Pocket GetPocketStartupData
 
 SOAP request and response examples **Remote/Services88/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.GetPocketStartupData">SuperOffice.Services88.IPocketAgent.GetPocketStartupData</see> method.
@@ -46,7 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Pocket:Tables xsi:type="NetServerServices882:ArrayOfstring">
      <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
     </Pocket:Tables>
-    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2021-03-25T21:37:06Z</Pocket:CurrentClientTime>
+    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2021-11-30T13:23:47Z</Pocket:CurrentClientTime>
    </Pocket:GetPocketStartupData>
 
  </SOAP-ENV:Body>

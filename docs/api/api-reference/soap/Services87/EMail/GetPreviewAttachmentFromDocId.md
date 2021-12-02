@@ -1,10 +1,10 @@
 ---
-uid: services87-email-getpreviewattachmentfromdocid
 title: Services87.EMailAgent.GetPreviewAttachmentFromDocId SOAP
-Generated: true
+generated: 1
+uid: Services87-EMail-GetPreviewAttachmentFromDocId
 ---
 
-# Services87 EMail GetPreviewAttachmentFromDocId SOAP
+# Services87 EMail GetPreviewAttachmentFromDocId
 
 SOAP request and response examples **Remote/Services87/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetPreviewAttachmentFromDocId">SuperOffice.Services87.IEMailAgent.GetPreviewAttachmentFromDocId</see> method.

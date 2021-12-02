@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getlegalbases
 title: Services88.ListAgent.GetLegalBases SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetLegalBases
 ---
 
-# Services88 List GetLegalBases SOAP
+# Services88 List GetLegalBases
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetLegalBases">SuperOffice.Services88.IListAgent.GetLegalBases</see> method.

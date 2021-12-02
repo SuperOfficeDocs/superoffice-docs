@@ -1,10 +1,10 @@
 ---
-uid: services87-user-getusergrouplist
 title: Services87.UserAgent.GetUserGroupList SOAP
-Generated: true
+generated: 1
+uid: Services87-User-GetUserGroupList
 ---
 
-# Services87 User GetUserGroupList SOAP
+# Services87 User GetUserGroupList
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetUserGroupList">SuperOffice.Services87.IUserAgent.GetUserGroupList</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-customerservice-eventhandlerexists
 title: Services85.CustomerServiceAgent.EventHandlerExists SOAP
-Generated: true
+generated: 1
+uid: Services85-CustomerService-EventHandlerExists
 ---
 
-# Services85 CustomerService EventHandlerExists SOAP
+# Services85 CustomerService EventHandlerExists
 
 SOAP request and response examples **Remote/Services85/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.EventHandlerExists">SuperOffice.Services85.ICustomerServiceAgent.EventHandlerExists</see> method.

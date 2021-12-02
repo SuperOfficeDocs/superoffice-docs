@@ -1,10 +1,10 @@
 ---
-uid: services86-license-assignthirdpartylicenses
 title: Services86.LicenseAgent.AssignThirdPartyLicenses SOAP
-Generated: true
+generated: 1
+uid: Services86-License-AssignThirdPartyLicenses
 ---
 
-# Services86 License AssignThirdPartyLicenses SOAP
+# Services86 License AssignThirdPartyLicenses
 
 SOAP request and response examples **Remote/Services86/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ILicenseAgent.AssignThirdPartyLicenses">SuperOffice.Services86.ILicenseAgent.AssignThirdPartyLicenses</see> method.

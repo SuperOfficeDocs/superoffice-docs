@@ -1,10 +1,10 @@
 ---
-uid: services88-crmscript-savecrmscriptbyuniqueidentifier
 title: Services88.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier SOAP
-Generated: true
+generated: 1
+uid: Services88-CRMScript-SaveCRMScriptByUniqueIdentifier
 ---
 
-# Services88 CRMScript SaveCRMScriptByUniqueIdentifier SOAP
+# Services88 CRMScript SaveCRMScriptByUniqueIdentifier
 
 SOAP request and response examples **Remote/Services88/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier">SuperOffice.Services88.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier</see> method.
@@ -50,9 +50,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CRMScript:Description xsi:type="xsd:string"></CRMScript:Description>
      <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
      <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-     <CRMScript:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Registered>
+     <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Registered>
      <CRMScript:RegisteredBy xsi:type="xsd:string"></CRMScript:RegisteredBy>
-     <CRMScript:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Updated>
+     <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Updated>
      <CRMScript:UpdatedBy xsi:type="xsd:string"></CRMScript:UpdatedBy>
      <CRMScript:Path xsi:type="xsd:string"></CRMScript:Path>
     </CRMScript:Crmscript>
@@ -83,9 +83,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:Description xsi:type="xsd:string"></CRMScript:Description>
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Registered>
     <CRMScript:RegisteredBy xsi:type="xsd:string"></CRMScript:RegisteredBy>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:54Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:35Z</CRMScript:Updated>
     <CRMScript:UpdatedBy xsi:type="xsd:string"></CRMScript:UpdatedBy>
     <CRMScript:Path xsi:type="xsd:string"></CRMScript:Path>
    </CRMScript:Response>

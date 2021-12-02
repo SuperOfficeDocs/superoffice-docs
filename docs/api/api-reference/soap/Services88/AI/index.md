@@ -1,7 +1,7 @@
 ---
-uid: services88-ai
 title: Services88.AIAgent SOAP
-Generated: true
+uid: Services88-AI-soap
+generated: 1
 ---
 
 # Services88 AI SOAP
@@ -17,6 +17,8 @@ Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to gener
 
 * [DetectLanguage](DetectLanguage.md)
 * [DetectSentiment](DetectSentiment.md)
+* [GetTrainingStatus](GetTrainingStatus.md)
 * [GuessCategory](GuessCategory.md)
-* [TrainCategorizer](TrainCategorizer.md)
+* [TrainCategoryGuesser](TrainCategoryGuesser.md)
 * [Translate](Translate.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services87-project-deleteprojectevententityfromprojectid
 title: Services87.ProjectAgent.DeleteProjectEventEntityFromProjectId SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-DeleteProjectEventEntityFromProjectId
 ---
 
-# Services87 Project DeleteProjectEventEntityFromProjectId SOAP
+# Services87 Project DeleteProjectEventEntityFromProjectId
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.DeleteProjectEventEntityFromProjectId">SuperOffice.Services87.IProjectAgent.DeleteProjectEventEntityFromProjectId</see> method.

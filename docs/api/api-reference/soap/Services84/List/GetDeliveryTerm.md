@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getdeliveryterm
 title: Services84.ListAgent.GetDeliveryTerm SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetDeliveryTerm
 ---
 
-# Services84 List GetDeliveryTerm SOAP
+# Services84 List GetDeliveryTerm
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDeliveryTerm">SuperOffice.Services84.IListAgent.GetDeliveryTerm</see> method.

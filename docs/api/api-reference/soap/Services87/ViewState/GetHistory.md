@@ -1,10 +1,10 @@
 ---
-uid: services87-viewstate-gethistory
 title: Services87.ViewStateAgent.GetHistory SOAP
-Generated: true
+generated: 1
+uid: Services87-ViewState-GetHistory
 ---
 
-# Services87 ViewState GetHistory SOAP
+# Services87 ViewState GetHistory
 
 SOAP request and response examples **Remote/Services87/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IViewStateAgent.GetHistory">SuperOffice.Services87.IViewStateAgent.GetHistory</see> method.

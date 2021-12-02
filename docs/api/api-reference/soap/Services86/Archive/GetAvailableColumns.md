@@ -1,10 +1,10 @@
 ---
-uid: services86-archive-getavailablecolumns
 title: Services86.ArchiveAgent.GetAvailableColumns SOAP
-Generated: true
+generated: 1
+uid: Services86-Archive-GetAvailableColumns
 ---
 
-# Services86 Archive GetAvailableColumns SOAP
+# Services86 Archive GetAvailableColumns
 
 SOAP request and response examples **Remote/Services86/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetAvailableColumns">SuperOffice.Services86.IArchiveAgent.GetAvailableColumns</see> method.

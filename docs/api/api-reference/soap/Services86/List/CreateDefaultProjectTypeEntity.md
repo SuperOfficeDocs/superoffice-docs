@@ -1,10 +1,10 @@
 ---
-uid: services86-list-createdefaultprojecttypeentity
 title: Services86.ListAgent.CreateDefaultProjectTypeEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-CreateDefaultProjectTypeEntity
 ---
 
-# Services86 List CreateDefaultProjectTypeEntity SOAP
+# Services86 List CreateDefaultProjectTypeEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.CreateDefaultProjectTypeEntity">SuperOffice.Services86.IListAgent.CreateDefaultProjectTypeEntity</see> method.
@@ -85,7 +85,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
       <List:IconHint xsi:type="xsd:string"></List:IconHint>
       <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-      <List:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:14Z</List:LastChanged>
+      <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:57Z</List:LastChanged>
       <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
        <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
         <List:Id xsi:type="xsd:int">0</List:Id>
@@ -97,7 +97,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
         <List:IconHint xsi:type="xsd:string"></List:IconHint>
         <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-        <List:LastChanged xsi:type="xsd:dateTime">2021-03-25T21:36:14Z</List:LastChanged>
+        <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:57Z</List:LastChanged>
         <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
          <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
           <List:Id xsi:nil="true"></List:Id>

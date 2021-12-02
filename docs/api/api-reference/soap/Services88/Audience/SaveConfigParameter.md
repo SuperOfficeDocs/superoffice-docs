@@ -1,10 +1,10 @@
 ---
-uid: services88-audience-saveconfigparameter
 title: Services88.AudienceAgent.SaveConfigParameter SOAP
-Generated: true
+generated: 1
+uid: Services88-Audience-SaveConfigParameter
 ---
 
-# Services88 Audience SaveConfigParameter SOAP
+# Services88 Audience SaveConfigParameter
 
 SOAP request and response examples **Remote/Services88/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAudienceAgent.SaveConfigParameter">SuperOffice.Services88.IAudienceAgent.SaveConfigParameter</see> method.
@@ -47,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
      <Audience:Value xsi:type="xsd:string"></Audience:Value>
-     <Audience:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Audience:CreatedDate>
-     <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Audience:UpdatedDate>
+     <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Audience:CreatedDate>
+     <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Audience:UpdatedDate>
      <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
      <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
     </Audience:ConfigParameter>
@@ -77,8 +77,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:Name xsi:type="xsd:string"></Audience:Name>
     <Audience:Value xsi:type="xsd:string"></Audience:Value>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:51Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:32Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
     <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
    </Audience:Response>

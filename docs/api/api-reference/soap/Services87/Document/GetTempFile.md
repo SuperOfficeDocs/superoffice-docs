@@ -1,10 +1,10 @@
 ---
-uid: services87-document-gettempfile
 title: Services87.DocumentAgent.GetTempFile SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetTempFile
 ---
 
-# Services87 Document GetTempFile SOAP
+# Services87 Document GetTempFile
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetTempFile">SuperOffice.Services87.IDocumentAgent.GetTempFile</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-list-globalchangeticketstatus
 title: Services86.ListAgent.GlobalChangeTicketStatus SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GlobalChangeTicketStatus
 ---
 
-# Services86 List GlobalChangeTicketStatus SOAP
+# Services86 List GlobalChangeTicketStatus
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GlobalChangeTicketStatus">SuperOffice.Services86.IListAgent.GlobalChangeTicketStatus</see> method.

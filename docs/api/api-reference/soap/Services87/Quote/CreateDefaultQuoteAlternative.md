@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-createdefaultquotealternative
 title: Services87.QuoteAgent.CreateDefaultQuoteAlternative SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-CreateDefaultQuoteAlternative
 ---
 
-# Services87 Quote CreateDefaultQuoteAlternative SOAP
+# Services87 Quote CreateDefaultQuoteAlternative
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CreateDefaultQuoteAlternative">SuperOffice.Services87.IQuoteAgent.CreateDefaultQuoteAlternative</see> method.

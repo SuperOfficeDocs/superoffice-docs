@@ -1,7 +1,7 @@
 ---
-uid: services88-database
 title: Services88.DatabaseAgent SOAP
-Generated: true
+uid: Services88-Database-soap
+generated: 1
 ---
 
 # Services88 Database SOAP
@@ -17,3 +17,4 @@ Download [WSDL file for Services88/Database](../Services88-Database.md) if you n
 
 * [GetStepsFromNetServerCode](GetStepsFromNetServerCode.md)
 * [GetStepsInDatabase](GetStepsInDatabase.md)
+

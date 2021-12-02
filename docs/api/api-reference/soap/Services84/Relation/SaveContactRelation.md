@@ -1,10 +1,10 @@
 ---
-uid: services84-relation-savecontactrelation
 title: Services84.RelationAgent.SaveContactRelation SOAP
-Generated: true
+generated: 1
+uid: Services84-Relation-SaveContactRelation
 ---
 
-# Services84 Relation SaveContactRelation SOAP
+# Services84 Relation SaveContactRelation
 
 SOAP request and response examples **Remote/Services84/Relation.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IRelationAgent.SaveContactRelation">SuperOffice.Services84.IRelationAgent.SaveContactRelation</see> method.
@@ -49,8 +49,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
      <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
      <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-     <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Relation:UpdatedDate>
-     <Relation:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Relation:CreatedDate>
+     <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Relation:UpdatedDate>
+     <Relation:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Relation:CreatedDate>
      <Relation:CreatedBy xsi:type="Relation:Associate">
       <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
       <Relation:Name xsi:type="xsd:string"></Relation:Name>
@@ -114,8 +114,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
     <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
     <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-    <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Relation:UpdatedDate>
-    <Relation:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:35:34Z</Relation:CreatedDate>
+    <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Relation:UpdatedDate>
+    <Relation:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Relation:CreatedDate>
     <Relation:CreatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
      <Relation:Name xsi:type="xsd:string"></Relation:Name>

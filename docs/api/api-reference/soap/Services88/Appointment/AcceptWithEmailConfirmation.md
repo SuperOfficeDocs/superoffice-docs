@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-acceptwithemailconfirmation
 title: Services88.AppointmentAgent.AcceptWithEmailConfirmation SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-AcceptWithEmailConfirmation
 ---
 
-# Services88 Appointment AcceptWithEmailConfirmation SOAP
+# Services88 Appointment AcceptWithEmailConfirmation
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.AcceptWithEmailConfirmation">SuperOffice.Services88.IAppointmentAgent.AcceptWithEmailConfirmation</see> method.

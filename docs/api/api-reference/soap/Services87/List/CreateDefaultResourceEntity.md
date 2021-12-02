@@ -1,10 +1,10 @@
 ---
-uid: services87-list-createdefaultresourceentity
 title: Services87.ListAgent.CreateDefaultResourceEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-List-CreateDefaultResourceEntity
 ---
 
-# Services87 List CreateDefaultResourceEntity SOAP
+# Services87 List CreateDefaultResourceEntity
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.CreateDefaultResourceEntity">SuperOffice.Services87.IListAgent.CreateDefaultResourceEntity</see> method.

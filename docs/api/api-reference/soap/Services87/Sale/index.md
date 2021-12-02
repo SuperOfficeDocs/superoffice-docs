@@ -1,7 +1,7 @@
 ---
-uid: services87-sale
 title: Services87.SaleAgent SOAP
-Generated: true
+uid: Services87-Sale-soap
+generated: 1
 ---
 
 # Services87 Sale SOAP
@@ -51,3 +51,4 @@ Download [WSDL file for Services87/Sale](../Services87-Sale.md) if you need to g
 * [SetAsLost](SetAsLost.md)
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
+

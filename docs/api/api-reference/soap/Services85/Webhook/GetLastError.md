@@ -1,10 +1,10 @@
 ---
-uid: services85-webhook-getlasterror
 title: Services85.WebhookAgent.GetLastError SOAP
-Generated: true
+generated: 1
+uid: Services85-Webhook-GetLastError
 ---
 
-# Services85 Webhook GetLastError SOAP
+# Services85 Webhook GetLastError
 
 SOAP request and response examples **Remote/Services85/Webhook.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.GetLastError">SuperOffice.Services85.IWebhookAgent.GetLastError</see> method.

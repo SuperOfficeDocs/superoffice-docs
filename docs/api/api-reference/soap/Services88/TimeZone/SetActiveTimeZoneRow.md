@@ -1,10 +1,10 @@
 ---
-uid: services88-timezone-setactivetimezonerow
 title: Services88.TimeZoneAgent.SetActiveTimeZoneRow SOAP
-Generated: true
+generated: 1
+uid: Services88-TimeZone-SetActiveTimeZoneRow
 ---
 
-# Services88 TimeZone SetActiveTimeZoneRow SOAP
+# Services88 TimeZone SetActiveTimeZoneRow
 
 SOAP request and response examples **Remote/Services88/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITimeZoneAgent.SetActiveTimeZoneRow">SuperOffice.Services88.ITimeZoneAgent.SetActiveTimeZoneRow</see> method.

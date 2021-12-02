@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-uploadattachment
 title: Services88.TicketAgent.UploadAttachment SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-UploadAttachment
 ---
 
-# Services88 Ticket UploadAttachment SOAP
+# Services88 Ticket UploadAttachment
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.UploadAttachment">SuperOffice.Services88.ITicketAgent.UploadAttachment</see> method.

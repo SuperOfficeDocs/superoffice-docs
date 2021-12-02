@@ -1,10 +1,10 @@
 ---
-uid: services85-user-createdefaultuserfromusertypeandcredential
 title: Services85.UserAgent.CreateDefaultUserFromUserTypeAndCredential SOAP
-Generated: true
+generated: 1
+uid: Services85-User-CreateDefaultUserFromUserTypeAndCredential
 ---
 
-# Services85 User CreateDefaultUserFromUserTypeAndCredential SOAP
+# Services85 User CreateDefaultUserFromUserTypeAndCredential
 
 SOAP request and response examples **Remote/Services85/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.CreateDefaultUserFromUserTypeAndCredential">SuperOffice.Services85.IUserAgent.CreateDefaultUserFromUserTypeAndCredential</see> method.
@@ -178,8 +178,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-03-25T21:35:59Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-03-25T21:35:59Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>

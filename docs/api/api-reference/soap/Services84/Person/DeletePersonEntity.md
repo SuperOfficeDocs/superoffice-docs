@@ -1,10 +1,10 @@
 ---
-uid: services84-person-deletepersonentity
 title: Services84.PersonAgent.DeletePersonEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-Person-DeletePersonEntity
 ---
 
-# Services84 Person DeletePersonEntity SOAP
+# Services84 Person DeletePersonEntity
 
 SOAP request and response examples **Remote/Services84/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.DeletePersonEntity">SuperOffice.Services84.IPersonAgent.DeletePersonEntity</see> method.

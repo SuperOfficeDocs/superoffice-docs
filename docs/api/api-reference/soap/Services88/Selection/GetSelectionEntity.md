@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-getselectionentity
 title: Services88.SelectionAgent.GetSelectionEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-GetSelectionEntity
 ---
 
-# Services88 Selection GetSelectionEntity SOAP
+# Services88 Selection GetSelectionEntity
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetSelectionEntity">SuperOffice.Services88.ISelectionAgent.GetSelectionEntity</see> method.
@@ -120,12 +120,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -139,7 +139,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MainProviderName xsi:type="xsd:string"></Selection:MainProviderName>
     <Selection:ShadowProviderName xsi:type="xsd:string"></Selection:ShadowProviderName>
     <Selection:ChartKey xsi:type="xsd:string"></Selection:ChartKey>
-    <Selection:LastLoaded xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Selection:LastLoaded>
+    <Selection:LastLoaded xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Selection:LastLoaded>
     <Selection:LastLoadedBy xsi:type="xsd:int">0</Selection:LastLoadedBy>
     <Selection:LastLoadedByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -155,7 +155,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
     </Selection:LastLoadedByAssociate>
-    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2021-03-25T21:37:10Z</Selection:LastMembershipChange>
+    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Selection:LastMembershipChange>
     <Selection:LastMembershipChangeBy xsi:type="xsd:int">0</Selection:LastMembershipChangeBy>
     <Selection:LastMembershipChangeByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -174,6 +174,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MainHeading xsi:type="xsd:string"></Selection:MainHeading>
     <Selection:MemberTabHeading xsi:type="xsd:string"></Selection:MemberTabHeading>
     <Selection:MailingsProviderName xsi:type="xsd:string"></Selection:MailingsProviderName>
+    <Selection:DashboardTileDefinitionId xsi:type="xsd:int">0</Selection:DashboardTileDefinitionId>
     <Selection:VisibleFor xsi:type="Selection:ArrayOfVisibleFor">
      <Selection:VisibleFor xsi:type="Selection:VisibleFor">
       <Selection:VisibleId xsi:type="xsd:int">0</Selection:VisibleId>

@@ -1,10 +1,10 @@
 ---
-uid: services85-resource-setresourcesubstitution
 title: Services85.ResourceAgent.SetResourceSubstitution SOAP
-Generated: true
+generated: 1
+uid: Services85-Resource-SetResourceSubstitution
 ---
 
-# Services85 Resource SetResourceSubstitution SOAP
+# Services85 Resource SetResourceSubstitution
 
 SOAP request and response examples **Remote/Services85/Resource.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.SetResourceSubstitution">SuperOffice.Services85.IResourceAgent.SetResourceSubstitution</see> method.

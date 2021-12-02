@@ -1,10 +1,10 @@
 ---
-uid: services88-erpsync-createactorlink
 title: Services88.ErpSyncAgent.CreateActorLink SOAP
-Generated: true
+generated: 1
+uid: Services88-ErpSync-CreateActorLink
 ---
 
-# Services88 ErpSync CreateActorLink SOAP
+# Services88 ErpSync CreateActorLink
 
 SOAP request and response examples **Remote/Services88/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.CreateActorLink">SuperOffice.Services88.IErpSyncAgent.CreateActorLink</see> method.

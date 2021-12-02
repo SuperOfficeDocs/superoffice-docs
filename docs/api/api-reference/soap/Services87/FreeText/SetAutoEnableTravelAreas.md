@@ -1,10 +1,10 @@
 ---
-uid: services87-freetext-setautoenabletravelareas
 title: Services87.FreeTextAgent.SetAutoEnableTravelAreas SOAP
-Generated: true
+generated: 1
+uid: Services87-FreeText-SetAutoEnableTravelAreas
 ---
 
-# Services87 FreeText SetAutoEnableTravelAreas SOAP
+# Services87 FreeText SetAutoEnableTravelAreas
 
 SOAP request and response examples **Remote/Services87/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.SetAutoEnableTravelAreas">SuperOffice.Services87.IFreeTextAgent.SetAutoEnableTravelAreas</see> method.

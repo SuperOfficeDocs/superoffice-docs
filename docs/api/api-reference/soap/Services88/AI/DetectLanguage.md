@@ -1,10 +1,10 @@
 ---
-uid: services88-ai-detectlanguage
 title: Services88.AIAgent.DetectLanguage SOAP
-Generated: true
+generated: 1
+uid: Services88-AI-DetectLanguage
 ---
 
-# Services88 AI DetectLanguage SOAP
+# Services88 AI DetectLanguage
 
 SOAP request and response examples **Remote/Services88/AI.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.DetectLanguage">SuperOffice.Services88.IAIAgent.DetectLanguage</see> method.

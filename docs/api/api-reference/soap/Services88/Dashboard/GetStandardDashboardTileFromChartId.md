@@ -1,10 +1,10 @@
 ---
-uid: services88-dashboard-getstandarddashboardtilefromchartid
 title: Services88.DashboardAgent.GetStandardDashboardTileFromChartId SOAP
-Generated: true
+generated: 1
+uid: Services88-Dashboard-GetStandardDashboardTileFromChartId
 ---
 
-# Services88 Dashboard GetStandardDashboardTileFromChartId SOAP
+# Services88 Dashboard GetStandardDashboardTileFromChartId
 
 SOAP request and response examples **Remote/Services88/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.GetStandardDashboardTileFromChartId">SuperOffice.Services88.IDashboardAgent.GetStandardDashboardTileFromChartId</see> method.

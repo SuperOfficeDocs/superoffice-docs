@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-getdefaultcountryflag
 title: Services85.AudienceAgent.GetDefaultCountryFlag SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-GetDefaultCountryFlag
 ---
 
-# Services85 Audience GetDefaultCountryFlag SOAP
+# Services85 Audience GetDefaultCountryFlag
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetDefaultCountryFlag">SuperOffice.Services85.IAudienceAgent.GetDefaultCountryFlag</see> method.

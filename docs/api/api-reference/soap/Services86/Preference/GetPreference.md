@@ -1,10 +1,10 @@
 ---
-uid: services86-preference-getpreference
 title: Services86.PreferenceAgent.GetPreference SOAP
-Generated: true
+generated: 1
+uid: Services86-Preference-GetPreference
 ---
 
-# Services86 Preference GetPreference SOAP
+# Services86 Preference GetPreference
 
 SOAP request and response examples **Remote/Services86/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.GetPreference">SuperOffice.Services86.IPreferenceAgent.GetPreference</see> method.

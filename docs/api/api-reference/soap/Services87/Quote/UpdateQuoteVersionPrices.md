@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-updatequoteversionprices
 title: Services87.QuoteAgent.UpdateQuoteVersionPrices SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-UpdateQuoteVersionPrices
 ---
 
-# Services87 Quote UpdateQuoteVersionPrices SOAP
+# Services87 Quote UpdateQuoteVersionPrices
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.UpdateQuoteVersionPrices">SuperOffice.Services87.IQuoteAgent.UpdateQuoteVersionPrices</see> method.
@@ -72,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:ErrorCode xsi:type="xsd:string"></Quote:ErrorCode>
     <Quote:ChangedSale xsi:type="Quote:Sale">
      <Quote:ContactName xsi:type="xsd:string"></Quote:ContactName>
-     <Quote:SaleDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:SaleDate>
+     <Quote:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:SaleDate>
      <Quote:SaleId xsi:type="xsd:int">0</Quote:SaleId>
      <Quote:Probability xsi:type="xsd:short">0</Quote:Probability>
      <Quote:Title xsi:type="xsd:string"></Quote:Title>
@@ -94,7 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:PersonFullName xsi:type="xsd:string"></Quote:PersonFullName>
      <Quote:Completed xsi:type="Quote:ActivityStatus">Unknown</Quote:Completed>
      <Quote:ActiveErpLinks xsi:type="xsd:int">0</Quote:ActiveErpLinks>
-     <Quote:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:NextDueDate>
+     <Quote:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:NextDueDate>
     </Quote:ChangedSale>
     <Quote:ChangedQuote xsi:type="Quote:Quote">
      <Quote:QuoteId xsi:type="xsd:int">0</Quote:QuoteId>
@@ -120,9 +120,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
       <Quote:Reason xsi:type="xsd:string"></Quote:Reason>
       <Quote:LikelyQuoteAlternativeId xsi:type="xsd:int">0</Quote:LikelyQuoteAlternativeId>
-      <Quote:SentDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:SentDate>
+      <Quote:SentDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:SentDate>
       <Quote:FollowupId xsi:type="xsd:int">0</Quote:FollowupId>
-      <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:ExpirationDate>
+      <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:ExpirationDate>
       <Quote:DeliveryCountryId xsi:type="xsd:int">0</Quote:DeliveryCountryId>
       <Quote:HasOwnDeliveryAddress xsi:type="xsd:boolean">false</Quote:HasOwnDeliveryAddress>
       <Quote:InvoiceCountryId xsi:type="xsd:int">0</Quote:InvoiceCountryId>
@@ -135,16 +135,16 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:ApprovedBy xsi:type="xsd:int">0</Quote:ApprovedBy>
       <Quote:ApprovedText xsi:type="xsd:string"></Quote:ApprovedText>
       <Quote:ApprovedRegisteredBy xsi:type="xsd:int">0</Quote:ApprovedRegisteredBy>
-      <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:ApprovedRegisteredDate>
+      <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:ApprovedRegisteredDate>
       <Quote:ExtraField1 xsi:type="xsd:string"></Quote:ExtraField1>
       <Quote:ExtraField2 xsi:type="xsd:string"></Quote:ExtraField2>
       <Quote:ExtraField3 xsi:type="xsd:string"></Quote:ExtraField3>
       <Quote:ExtraField4 xsi:type="xsd:string"></Quote:ExtraField4>
       <Quote:ExtraField5 xsi:type="xsd:string"></Quote:ExtraField5>
-      <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:LastRecalculated>
-      <Quote:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:Updated>
+      <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:LastRecalculated>
+      <Quote:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:Updated>
       <Quote:UpdatedAssociateId xsi:type="xsd:int">0</Quote:UpdatedAssociateId>
-      <Quote:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:Registered>
+      <Quote:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:Registered>
       <Quote:RegisteredAssociateId xsi:type="xsd:int">0</Quote:RegisteredAssociateId>
       <Quote:QuoteAlternatives xsi:type="Quote:ArrayOfQuoteAlternative">
        <Quote:QuoteAlternative xsi:type="Quote:QuoteAlternative">
@@ -211,9 +211,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
      <Quote:Reason xsi:type="xsd:string"></Quote:Reason>
      <Quote:LikelyQuoteAlternativeId xsi:type="xsd:int">0</Quote:LikelyQuoteAlternativeId>
-     <Quote:SentDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:SentDate>
+     <Quote:SentDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:SentDate>
      <Quote:FollowupId xsi:type="xsd:int">0</Quote:FollowupId>
-     <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:ExpirationDate>
+     <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:ExpirationDate>
      <Quote:DeliveryCountryId xsi:type="xsd:int">0</Quote:DeliveryCountryId>
      <Quote:HasOwnDeliveryAddress xsi:type="xsd:boolean">false</Quote:HasOwnDeliveryAddress>
      <Quote:InvoiceCountryId xsi:type="xsd:int">0</Quote:InvoiceCountryId>
@@ -226,16 +226,16 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:ApprovedBy xsi:type="xsd:int">0</Quote:ApprovedBy>
      <Quote:ApprovedText xsi:type="xsd:string"></Quote:ApprovedText>
      <Quote:ApprovedRegisteredBy xsi:type="xsd:int">0</Quote:ApprovedRegisteredBy>
-     <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:ApprovedRegisteredDate>
+     <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:ApprovedRegisteredDate>
      <Quote:ExtraField1 xsi:type="xsd:string"></Quote:ExtraField1>
      <Quote:ExtraField2 xsi:type="xsd:string"></Quote:ExtraField2>
      <Quote:ExtraField3 xsi:type="xsd:string"></Quote:ExtraField3>
      <Quote:ExtraField4 xsi:type="xsd:string"></Quote:ExtraField4>
      <Quote:ExtraField5 xsi:type="xsd:string"></Quote:ExtraField5>
-     <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:LastRecalculated>
-     <Quote:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:Updated>
+     <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:LastRecalculated>
+     <Quote:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:Updated>
      <Quote:UpdatedAssociateId xsi:type="xsd:int">0</Quote:UpdatedAssociateId>
-     <Quote:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:Registered>
+     <Quote:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:Registered>
      <Quote:RegisteredAssociateId xsi:type="xsd:int">0</Quote:RegisteredAssociateId>
      <Quote:QuoteAlternatives xsi:type="Quote:ArrayOfQuoteAlternative">
       <Quote:QuoteAlternative xsi:type="Quote:QuoteAlternative">

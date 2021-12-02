@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-approvequoteversion
 title: Services87.QuoteAgent.ApproveQuoteVersion SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-ApproveQuoteVersion
 ---
 
-# Services87 Quote ApproveQuoteVersion SOAP
+# Services87 Quote ApproveQuoteVersion
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.ApproveQuoteVersion">SuperOffice.Services87.IQuoteAgent.ApproveQuoteVersion</see> method.

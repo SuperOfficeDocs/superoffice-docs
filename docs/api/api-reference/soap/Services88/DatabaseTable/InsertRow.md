@@ -1,10 +1,10 @@
 ---
-uid: services88-databasetable-insertrow
 title: Services88.DatabaseTableAgent.InsertRow SOAP
-Generated: true
+generated: 1
+uid: Services88-DatabaseTable-InsertRow
 ---
 
-# Services88 DatabaseTable InsertRow SOAP
+# Services88 DatabaseTable InsertRow
 
 SOAP request and response examples **Remote/Services88/DatabaseTable.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.InsertRow">SuperOffice.Services88.IDatabaseTableAgent.InsertRow</see> method.

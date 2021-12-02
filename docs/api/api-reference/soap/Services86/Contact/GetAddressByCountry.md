@@ -1,10 +1,10 @@
 ---
-uid: services86-contact-getaddressbycountry
 title: Services86.ContactAgent.GetAddressByCountry SOAP
-Generated: true
+generated: 1
+uid: Services86-Contact-GetAddressByCountry
 ---
 
-# Services86 Contact GetAddressByCountry SOAP
+# Services86 Contact GetAddressByCountry
 
 SOAP request and response examples **Remote/Services86/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetAddressByCountry">SuperOffice.Services86.IContactAgent.GetAddressByCountry</see> method.

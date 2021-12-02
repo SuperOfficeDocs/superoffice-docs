@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-getextrainfo
 title: Services87.QuoteAgent.GetExtraInfo SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-GetExtraInfo
 ---
 
-# Services87 Quote GetExtraInfo SOAP
+# Services87 Quote GetExtraInfo
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.GetExtraInfo">SuperOffice.Services87.IQuoteAgent.GetExtraInfo</see> method.

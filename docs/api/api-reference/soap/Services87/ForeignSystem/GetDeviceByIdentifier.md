@@ -1,10 +1,10 @@
 ---
-uid: services87-foreignsystem-getdevicebyidentifier
 title: Services87.ForeignSystemAgent.GetDeviceByIdentifier SOAP
-Generated: true
+generated: 1
+uid: Services87-ForeignSystem-GetDeviceByIdentifier
 ---
 
-# Services87 ForeignSystem GetDeviceByIdentifier SOAP
+# Services87 ForeignSystem GetDeviceByIdentifier
 
 SOAP request and response examples **Remote/Services87/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IForeignSystemAgent.GetDeviceByIdentifier">SuperOffice.Services87.IForeignSystemAgent.GetDeviceByIdentifier</see> method.
@@ -70,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignDevice">
     <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:34Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:34Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

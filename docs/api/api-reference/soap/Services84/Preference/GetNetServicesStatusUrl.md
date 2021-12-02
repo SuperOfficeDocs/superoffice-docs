@@ -1,10 +1,10 @@
 ---
-uid: services84-preference-getnetservicesstatusurl
 title: Services84.PreferenceAgent.GetNetServicesStatusUrl SOAP
-Generated: true
+generated: 1
+uid: Services84-Preference-GetNetServicesStatusUrl
 ---
 
-# Services84 Preference GetNetServicesStatusUrl SOAP
+# Services84 Preference GetNetServicesStatusUrl
 
 SOAP request and response examples **Remote/Services84/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.GetNetServicesStatusUrl">SuperOffice.Services84.IPreferenceAgent.GetNetServicesStatusUrl</see> method.

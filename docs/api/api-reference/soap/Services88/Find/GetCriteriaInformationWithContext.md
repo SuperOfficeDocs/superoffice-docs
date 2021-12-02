@@ -1,10 +1,10 @@
 ---
-uid: services88-find-getcriteriainformationwithcontext
 title: Services88.FindAgent.GetCriteriaInformationWithContext SOAP
-Generated: true
+generated: 1
+uid: Services88-Find-GetCriteriaInformationWithContext
 ---
 
-# Services88 Find GetCriteriaInformationWithContext SOAP
+# Services88 Find GetCriteriaInformationWithContext
 
 SOAP request and response examples **Remote/Services88/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.GetCriteriaInformationWithContext">SuperOffice.Services88.IFindAgent.GetCriteriaInformationWithContext</see> method.
@@ -99,6 +99,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Find:Width xsi:type="xsd:string"></Find:Width>
        <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
        <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+       <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
       </Find:ColumnInfo>
       <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
       <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">
@@ -124,6 +125,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Find:Width xsi:type="xsd:string"></Find:Width>
          <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
          <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+         <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
         </Find:ColumnInfo>
         <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
         <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">
@@ -164,6 +166,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Find:Width xsi:type="xsd:string"></Find:Width>
       <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
       <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+      <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
      </Find:ArchiveColumnInfo>
     </Find:CriteriaArchiveColumns>
     <Find:CriteriaArchiveRows xsi:type="Find:ArrayOfArchiveListItem">
@@ -212,6 +215,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Find:Width xsi:type="xsd:string"></Find:Width>
          <Find:IconHint xsi:type="xsd:string"></Find:IconHint>
          <Find:HeadingIconHint xsi:type="xsd:string"></Find:HeadingIconHint>
+         <Find:ExtraInfo xsi:type="xsd:string"></Find:ExtraInfo>
         </Find:ColumnInfo>
         <Find:IsActive xsi:type="xsd:boolean">false</Find:IsActive>
         <Find:SubRestrictions xsi:type="Find:ArrayOfArchiveRestrictionInfo">

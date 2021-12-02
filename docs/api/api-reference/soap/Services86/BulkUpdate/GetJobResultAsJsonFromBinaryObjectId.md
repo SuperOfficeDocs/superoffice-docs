@@ -1,10 +1,10 @@
 ---
-uid: services86-bulkupdate-getjobresultasjsonfrombinaryobjectid
 title: Services86.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId SOAP
-Generated: true
+generated: 1
+uid: Services86-BulkUpdate-GetJobResultAsJsonFromBinaryObjectId
 ---
 
-# Services86 BulkUpdate GetJobResultAsJsonFromBinaryObjectId SOAP
+# Services86 BulkUpdate GetJobResultAsJsonFromBinaryObjectId
 
 SOAP request and response examples **Remote/Services86/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId">SuperOffice.Services86.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId</see> method.

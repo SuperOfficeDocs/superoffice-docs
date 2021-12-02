@@ -1,10 +1,10 @@
 ---
-uid: services88-user-saveserviceauth
 title: Services88.UserAgent.SaveServiceAuth SOAP
-Generated: true
+generated: 1
+uid: Services88-User-SaveServiceAuth
 ---
 
-# Services88 User SaveServiceAuth SOAP
+# Services88 User SaveServiceAuth
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SaveServiceAuth">SuperOffice.Services88.IUserAgent.SaveServiceAuth</see> method.

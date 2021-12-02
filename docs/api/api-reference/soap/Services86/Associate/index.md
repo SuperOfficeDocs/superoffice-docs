@@ -1,7 +1,7 @@
 ---
-uid: services86-associate
 title: Services86.AssociateAgent SOAP
-Generated: true
+uid: Services86-Associate-soap
+generated: 1
 ---
 
 # Services86 Associate SOAP
@@ -22,3 +22,4 @@ Download [WSDL file for Services86/Associate](../Services86-Associate.md) if you
 * [GetNote](GetNote.md)
 * [LogOffWindowsUsers](LogOffWindowsUsers.md)
 * [SaveNote](SaveNote.md)
+

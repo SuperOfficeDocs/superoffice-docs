@@ -1,10 +1,10 @@
 ---
-uid: services85-list-savequickreplies
 title: Services85.ListAgent.SaveQuickReplies SOAP
-Generated: true
+generated: 1
+uid: Services85-List-SaveQuickReplies
 ---
 
-# Services85 List SaveQuickReplies SOAP
+# Services85 List SaveQuickReplies
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveQuickReplies">SuperOffice.Services85.IListAgent.SaveQuickReplies</see> method.

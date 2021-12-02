@@ -1,10 +1,10 @@
 ---
-uid: services87-crmscript-getcrmscriptentity
 title: Services87.CRMScriptAgent.GetCRMScriptEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-CRMScript-GetCRMScriptEntity
 ---
 
-# Services87 CRMScript GetCRMScriptEntity SOAP
+# Services87 CRMScript GetCRMScriptEntity
 
 SOAP request and response examples **Remote/Services87/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.GetCRMScriptEntity">SuperOffice.Services87.ICRMScriptAgent.GetCRMScriptEntity</see> method.
@@ -72,9 +72,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:HierarchyId xsi:type="xsd:int">0</CRMScript:HierarchyId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:29Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
    </CRMScript:Response>
   </CRMScript:GetCRMScriptEntityResponse>

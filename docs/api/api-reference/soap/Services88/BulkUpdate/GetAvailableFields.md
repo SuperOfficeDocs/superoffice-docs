@@ -1,10 +1,10 @@
 ---
-uid: services88-bulkupdate-getavailablefields
 title: Services88.BulkUpdateAgent.GetAvailableFields SOAP
-Generated: true
+generated: 1
+uid: Services88-BulkUpdate-GetAvailableFields
 ---
 
-# Services88 BulkUpdate GetAvailableFields SOAP
+# Services88 BulkUpdate GetAvailableFields
 
 SOAP request and response examples **Remote/Services88/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IBulkUpdateAgent.GetAvailableFields">SuperOffice.Services88.IBulkUpdateAgent.GetAvailableFields</see> method.

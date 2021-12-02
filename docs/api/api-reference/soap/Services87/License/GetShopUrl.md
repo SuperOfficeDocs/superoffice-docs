@@ -1,10 +1,10 @@
 ---
-uid: services87-license-getshopurl
 title: Services87.LicenseAgent.GetShopUrl SOAP
-Generated: true
+generated: 1
+uid: Services87-License-GetShopUrl
 ---
 
-# Services87 License GetShopUrl SOAP
+# Services87 License GetShopUrl
 
 SOAP request and response examples **Remote/Services87/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.GetShopUrl">SuperOffice.Services87.ILicenseAgent.GetShopUrl</see> method.

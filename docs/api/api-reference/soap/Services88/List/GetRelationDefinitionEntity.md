@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getrelationdefinitionentity
 title: Services88.ListAgent.GetRelationDefinitionEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetRelationDefinitionEntity
 ---
 
-# Services88 List GetRelationDefinitionEntity SOAP
+# Services88 List GetRelationDefinitionEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetRelationDefinitionEntity">SuperOffice.Services88.IListAgent.GetRelationDefinitionEntity</see> method.

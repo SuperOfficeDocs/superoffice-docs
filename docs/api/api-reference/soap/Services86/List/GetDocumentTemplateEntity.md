@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getdocumenttemplateentity
 title: Services86.ListAgent.GetDocumentTemplateEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetDocumentTemplateEntity
 ---
 
-# Services86 List GetDocumentTemplateEntity SOAP
+# Services86 List GetDocumentTemplateEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetDocumentTemplateEntity">SuperOffice.Services86.IListAgent.GetDocumentTemplateEntity</see> method.

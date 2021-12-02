@@ -1,10 +1,10 @@
 ---
-uid: services86-list-saveticketstatusentity
 title: Services86.ListAgent.SaveTicketStatusEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SaveTicketStatusEntity
 ---
 
-# Services86 List SaveTicketStatusEntity SOAP
+# Services86 List SaveTicketStatusEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveTicketStatusEntity">SuperOffice.Services86.IListAgent.SaveTicketStatusEntity</see> method.

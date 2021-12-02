@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-deletecustomercenterconfig
 title: Services87.CustomerServiceAgent.DeleteCustomerCenterConfig SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-DeleteCustomerCenterConfig
 ---
 
-# Services87 CustomerService DeleteCustomerCenterConfig SOAP
+# Services87 CustomerService DeleteCustomerCenterConfig
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.DeleteCustomerCenterConfig">SuperOffice.Services87.ICustomerServiceAgent.DeleteCustomerCenterConfig</see> method.

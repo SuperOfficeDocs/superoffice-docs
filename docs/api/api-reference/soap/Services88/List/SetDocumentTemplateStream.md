@@ -1,10 +1,10 @@
 ---
-uid: services88-list-setdocumenttemplatestream
 title: Services88.ListAgent.SetDocumentTemplateStream SOAP
-Generated: true
+generated: 1
+uid: Services88-List-SetDocumentTemplateStream
 ---
 
-# Services88 List SetDocumentTemplateStream SOAP
+# Services88 List SetDocumentTemplateStream
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetDocumentTemplateStream">SuperOffice.Services88.IListAgent.SetDocumentTemplateStream</see> method.

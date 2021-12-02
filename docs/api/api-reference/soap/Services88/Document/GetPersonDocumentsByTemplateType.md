@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getpersondocumentsbytemplatetype
 title: Services88.DocumentAgent.GetPersonDocumentsByTemplateType SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetPersonDocumentsByTemplateType
 ---
 
-# Services88 Document GetPersonDocumentsByTemplateType SOAP
+# Services88 Document GetPersonDocumentsByTemplateType
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPersonDocumentsByTemplateType">SuperOffice.Services88.IDocumentAgent.GetPersonDocumentsByTemplateType</see> method.
@@ -49,8 +49,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPersonDocumentsByTemplateType>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
    </Document:GetPersonDocumentsByTemplateType>

@@ -1,10 +1,10 @@
 ---
-uid: services86-license-getsatellitelicenses
 title: Services86.LicenseAgent.GetSatelliteLicenses SOAP
-Generated: true
+generated: 1
+uid: Services86-License-GetSatelliteLicenses
 ---
 
-# Services86 License GetSatelliteLicenses SOAP
+# Services86 License GetSatelliteLicenses
 
 SOAP request and response examples **Remote/Services86/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ILicenseAgent.GetSatelliteLicenses">SuperOffice.Services86.ILicenseAgent.GetSatelliteLicenses</see> method.

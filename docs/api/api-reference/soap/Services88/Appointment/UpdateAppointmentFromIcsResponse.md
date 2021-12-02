@@ -1,10 +1,10 @@
 ---
-uid: services88-appointment-updateappointmentfromicsresponse
 title: Services88.AppointmentAgent.UpdateAppointmentFromIcsResponse SOAP
-Generated: true
+generated: 1
+uid: Services88-Appointment-UpdateAppointmentFromIcsResponse
 ---
 
-# Services88 Appointment UpdateAppointmentFromIcsResponse SOAP
+# Services88 Appointment UpdateAppointmentFromIcsResponse
 
 SOAP request and response examples **Remote/Services88/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.UpdateAppointmentFromIcsResponse">SuperOffice.Services88.IAppointmentAgent.UpdateAppointmentFromIcsResponse</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-document-deletedocumententity
 title: Services84.DocumentAgent.DeleteDocumentEntity SOAP
-Generated: true
+generated: 1
+uid: Services84-Document-DeleteDocumentEntity
 ---
 
-# Services84 Document DeleteDocumentEntity SOAP
+# Services84 Document DeleteDocumentEntity
 
 SOAP request and response examples **Remote/Services84/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IDocumentAgent.DeleteDocumentEntity">SuperOffice.Services84.IDocumentAgent.DeleteDocumentEntity</see> method.

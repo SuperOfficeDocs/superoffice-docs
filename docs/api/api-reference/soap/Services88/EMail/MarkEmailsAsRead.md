@@ -1,10 +1,10 @@
 ---
-uid: services88-email-markemailsasread
 title: Services88.EMailAgent.MarkEmailsAsRead SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-MarkEmailsAsRead
 ---
 
-# Services88 EMail MarkEmailsAsRead SOAP
+# Services88 EMail MarkEmailsAsRead
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.MarkEmailsAsRead">SuperOffice.Services88.IEMailAgent.MarkEmailsAsRead</see> method.
@@ -15,8 +15,7 @@ Mark one or more e-mails as (un)read
 <para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **ids:** The e-mails to handle
-* **read:** If true mails are marked as read.
-If false mails are marked as unread.
+* **read:** If true mails are marked as read. If false mails are marked as unread.
 
 
 

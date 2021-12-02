@@ -1,10 +1,10 @@
 ---
-uid: services86-sentry-cancreateappointmentinassociatediaries
 title: Services86.SentryAgent.CanCreateAppointmentInAssociateDiaries SOAP
-Generated: true
+generated: 1
+uid: Services86-Sentry-CanCreateAppointmentInAssociateDiaries
 ---
 
-# Services86 Sentry CanCreateAppointmentInAssociateDiaries SOAP
+# Services86 Sentry CanCreateAppointmentInAssociateDiaries
 
 SOAP request and response examples **Remote/Services86/Sentry.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISentryAgent.CanCreateAppointmentInAssociateDiaries">SuperOffice.Services86.ISentryAgent.CanCreateAppointmentInAssociateDiaries</see> method.

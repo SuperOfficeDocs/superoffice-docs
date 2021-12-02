@@ -1,10 +1,10 @@
 ---
-uid: services88-sale-getprobabilityfromstage
 title: Services88.SaleAgent.GetProbabilityFromStage SOAP
-Generated: true
+generated: 1
+uid: Services88-Sale-GetProbabilityFromStage
 ---
 
-# Services88 Sale GetProbabilityFromStage SOAP
+# Services88 Sale GetProbabilityFromStage
 
 SOAP request and response examples **Remote/Services88/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.GetProbabilityFromStage">SuperOffice.Services88.ISaleAgent.GetProbabilityFromStage</see> method.

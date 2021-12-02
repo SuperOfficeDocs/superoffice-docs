@@ -1,10 +1,10 @@
 ---
-uid: services85-userdefinedfieldinfo-getpublisheduserdefinedfieldfromfieldlabel
 title: Services85.UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel SOAP
-Generated: true
+generated: 1
+uid: Services85-UserDefinedFieldInfo-GetPublishedUserDefinedFieldFromFieldLabel
 ---
 
-# Services85 UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel SOAP
+# Services85 UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel
 
 SOAP request and response examples **Remote/Services85/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel">SuperOffice.Services85.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel</see> method.

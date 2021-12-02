@@ -1,10 +1,10 @@
 ---
-uid: services87-crmscript-validatescript
 title: Services87.CRMScriptAgent.ValidateScript SOAP
-Generated: true
+generated: 1
+uid: Services87-CRMScript-ValidateScript
 ---
 
-# Services87 CRMScript ValidateScript SOAP
+# Services87 CRMScript ValidateScript
 
 SOAP request and response examples **Remote/Services87/CRMScript.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.ValidateScript">SuperOffice.Services87.ICRMScriptAgent.ValidateScript</see> method.

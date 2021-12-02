@@ -1,10 +1,10 @@
 ---
-uid: services87-dashboard-getdashboard
 title: Services87.DashboardAgent.GetDashboard SOAP
-Generated: true
+generated: 1
+uid: Services87-Dashboard-GetDashboard
 ---
 
-# Services87 Dashboard GetDashboard SOAP
+# Services87 Dashboard GetDashboard
 
 SOAP request and response examples **Remote/Services87/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDashboardAgent.GetDashboard">SuperOffice.Services87.IDashboardAgent.GetDashboard</see> method.

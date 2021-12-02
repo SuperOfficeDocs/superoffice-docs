@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services85-CustomerService
 title: Services85.CustomerServiceAgent WSDL
 ---
 

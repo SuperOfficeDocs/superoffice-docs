@@ -1,10 +1,10 @@
 ---
-uid: services86-foreignsystem-getforeigndevice
 title: Services86.ForeignSystemAgent.GetForeignDevice SOAP
-Generated: true
+generated: 1
+uid: Services86-ForeignSystem-GetForeignDevice
 ---
 
-# Services86 ForeignSystem GetForeignDevice SOAP
+# Services86 ForeignSystem GetForeignDevice
 
 SOAP request and response examples **Remote/Services86/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IForeignSystemAgent.GetForeignDevice">SuperOffice.Services86.IForeignSystemAgent.GetForeignDevice</see> method.
@@ -66,8 +66,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignDevice">
     <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:11Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:11Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:54Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:54Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

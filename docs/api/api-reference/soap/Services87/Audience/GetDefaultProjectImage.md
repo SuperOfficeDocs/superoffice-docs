@@ -1,10 +1,10 @@
 ---
-uid: services87-audience-getdefaultprojectimage
 title: Services87.AudienceAgent.GetDefaultProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services87-Audience-GetDefaultProjectImage
 ---
 
-# Services87 Audience GetDefaultProjectImage SOAP
+# Services87 Audience GetDefaultProjectImage
 
 SOAP request and response examples **Remote/Services87/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.GetDefaultProjectImage">SuperOffice.Services87.IAudienceAgent.GetDefaultProjectImage</see> method.

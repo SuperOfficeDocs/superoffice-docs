@@ -1,10 +1,10 @@
 ---
-uid: services86-replication-getarea
 title: Services86.ReplicationAgent.GetArea SOAP
-Generated: true
+generated: 1
+uid: Services86-Replication-GetArea
 ---
 
-# Services86 Replication GetArea SOAP
+# Services86 Replication GetArea
 
 SOAP request and response examples **Remote/Services86/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IReplicationAgent.GetArea">SuperOffice.Services86.IReplicationAgent.GetArea</see> method.

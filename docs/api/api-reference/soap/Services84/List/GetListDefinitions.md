@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getlistdefinitions
 title: Services84.ListAgent.GetListDefinitions SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetListDefinitions
 ---
 
-# Services84 List GetListDefinitions SOAP
+# Services84 List GetListDefinitions
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetListDefinitions">SuperOffice.Services84.IListAgent.GetListDefinitions</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-user-saveusergroup
 title: Services84.UserAgent.SaveUserGroup SOAP
-Generated: true
+generated: 1
+uid: Services84-User-SaveUserGroup
 ---
 
-# Services84 User SaveUserGroup SOAP
+# Services84 User SaveUserGroup
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.SaveUserGroup">SuperOffice.Services84.IUserAgent.SaveUserGroup</see> method.

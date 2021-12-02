@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getposition
 title: Services88.ListAgent.GetPosition SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetPosition
 ---
 
-# Services88 List GetPosition SOAP
+# Services88 List GetPosition
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetPosition">SuperOffice.Services88.IListAgent.GetPosition</see> method.

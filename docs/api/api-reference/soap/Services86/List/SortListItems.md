@@ -1,10 +1,10 @@
 ---
-uid: services86-list-sortlistitems
 title: Services86.ListAgent.SortListItems SOAP
-Generated: true
+generated: 1
+uid: Services86-List-SortListItems
 ---
 
-# Services86 List SortListItems SOAP
+# Services86 List SortListItems
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SortListItems">SuperOffice.Services86.IListAgent.SortListItems</see> method.

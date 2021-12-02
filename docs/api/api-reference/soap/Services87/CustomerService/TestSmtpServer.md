@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-testsmtpserver
 title: Services87.CustomerServiceAgent.TestSmtpServer SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-TestSmtpServer
 ---
 
-# Services87 CustomerService TestSmtpServer SOAP
+# Services87 CustomerService TestSmtpServer
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.TestSmtpServer">SuperOffice.Services87.ICustomerServiceAgent.TestSmtpServer</see> method.

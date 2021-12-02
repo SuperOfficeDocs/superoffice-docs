@@ -1,10 +1,10 @@
 ---
-uid: services85-audience-deleteconfigparameter
 title: Services85.AudienceAgent.DeleteConfigParameter SOAP
-Generated: true
+generated: 1
+uid: Services85-Audience-DeleteConfigParameter
 ---
 
-# Services85 Audience DeleteConfigParameter SOAP
+# Services85 Audience DeleteConfigParameter
 
 SOAP request and response examples **Remote/Services85/Audience.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.DeleteConfigParameter">SuperOffice.Services85.IAudienceAgent.DeleteConfigParameter</see> method.

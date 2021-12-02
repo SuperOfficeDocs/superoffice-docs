@@ -1,7 +1,7 @@
 ---
-uid: services88-selection
 title: Services88.SelectionAgent SOAP
-Generated: true
+uid: Services88-Selection-soap
+generated: 1
 ---
 
 # Services88 Selection SOAP
@@ -28,6 +28,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [CreateDefaultMailMergeTask](CreateDefaultMailMergeTask.md)
 * [CreateDefaultSelectionEntity](CreateDefaultSelectionEntity.md)
 * [CreateNewEntry](CreateNewEntry.md)
+* [CreateSelectionEntity](CreateSelectionEntity.md)
 * [CreateSelectionFromSelection](CreateSelectionFromSelection.md)
 * [CreateTemporaryContactSelection](CreateTemporaryContactSelection.md)
 * [CreateTemporaryContactSelectionFromContactPersonIds](CreateTemporaryContactSelectionFromContactPersonIds.md)
@@ -68,3 +69,4 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [SetDynamicSelectionCriteriaGroups](SetDynamicSelectionCriteriaGroups.md)
 * [StartMailMerge](StartMailMerge.md)
 * [UpdateTypicalSearch](UpdateTypicalSearch.md)
+

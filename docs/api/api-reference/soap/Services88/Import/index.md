@@ -1,7 +1,7 @@
 ---
-uid: services88-import
 title: Services88.ImportAgent SOAP
-Generated: true
+uid: Services88-Import-soap
+generated: 1
 ---
 
 # Services88 Import SOAP
@@ -19,3 +19,4 @@ Download [WSDL file for Services88/Import](../Services88-Import.md) if you need 
 * [CreateErpImportData](CreateErpImportData.md)
 * [PreviewImport](PreviewImport.md)
 * [SaveImport](SaveImport.md)
+

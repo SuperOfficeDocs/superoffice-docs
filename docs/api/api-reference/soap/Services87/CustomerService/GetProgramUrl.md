@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-getprogramurl
 title: Services87.CustomerServiceAgent.GetProgramUrl SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-GetProgramUrl
 ---
 
-# Services87 CustomerService GetProgramUrl SOAP
+# Services87 CustomerService GetProgramUrl
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.GetProgramUrl">SuperOffice.Services87.ICustomerServiceAgent.GetProgramUrl</see> method.

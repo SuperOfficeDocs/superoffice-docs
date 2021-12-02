@@ -1,7 +1,7 @@
 ---
-uid: services87-preference
 title: Services87.PreferenceAgent SOAP
-Generated: true
+uid: Services87-Preference-soap
+generated: 1
 ---
 
 # Services87 Preference SOAP
@@ -45,3 +45,4 @@ Download [WSDL file for Services87/Preference](../Services87-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
+

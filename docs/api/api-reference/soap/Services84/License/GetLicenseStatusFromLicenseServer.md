@@ -1,10 +1,10 @@
 ---
-uid: services84-license-getlicensestatusfromlicenseserver
 title: Services84.LicenseAgent.GetLicenseStatusFromLicenseServer SOAP
-Generated: true
+generated: 1
+uid: Services84-License-GetLicenseStatusFromLicenseServer
 ---
 
-# Services84 License GetLicenseStatusFromLicenseServer SOAP
+# Services84 License GetLicenseStatusFromLicenseServer
 
 SOAP request and response examples **Remote/Services84/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ILicenseAgent.GetLicenseStatusFromLicenseServer">SuperOffice.Services84.ILicenseAgent.GetLicenseStatusFromLicenseServer</see> method.

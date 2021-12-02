@@ -1,10 +1,10 @@
 ---
-uid: services88-database-getstepsindatabase
 title: Services88.DatabaseAgent.GetStepsInDatabase SOAP
-Generated: true
+generated: 1
+uid: Services88-Database-GetStepsInDatabase
 ---
 
-# Services88 Database GetStepsInDatabase SOAP
+# Services88 Database GetStepsInDatabase
 
 SOAP request and response examples **Remote/Services88/Database.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseAgent.GetStepsInDatabase">SuperOffice.Services88.IDatabaseAgent.GetStepsInDatabase</see> method.

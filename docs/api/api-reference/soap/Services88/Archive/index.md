@@ -1,7 +1,7 @@
 ---
-uid: services88-archive
 title: Services88.ArchiveAgent SOAP
-Generated: true
+uid: Services88-Archive-soap
+generated: 1
 ---
 
 # Services88 Archive SOAP
@@ -16,6 +16,7 @@ ArchiveList functions of all kinds
 Download [WSDL file for Services88/Archive](../Services88-Archive.md) if you need to generate your own proxy code.
 
 * [CreateDefaultArchiveListResult](CreateDefaultArchiveListResult.md)
+* [ExportArchive](ExportArchive.md)
 * [GetActivityFilter](GetActivityFilter.md)
 * [GetArchiveConfiguration](GetArchiveConfiguration.md)
 * [GetArchiveConfigurationV2](GetArchiveConfigurationV2.md)
@@ -43,3 +44,4 @@ Download [WSDL file for Services88/Archive](../Services88-Archive.md) if you nee
 * [SetChosenEntitiesV2](SetChosenEntitiesV2.md)
 * [SetColumnWidths](SetColumnWidths.md)
 * [SetColumnWidthsV2](SetColumnWidthsV2.md)
+

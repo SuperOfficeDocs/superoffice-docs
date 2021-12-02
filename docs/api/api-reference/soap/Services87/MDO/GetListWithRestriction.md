@@ -1,10 +1,10 @@
 ---
-uid: services87-mdo-getlistwithrestriction
 title: Services87.MDOAgent.GetListWithRestriction SOAP
-Generated: true
+generated: 1
+uid: Services87-MDO-GetListWithRestriction
 ---
 
-# Services87 MDO GetListWithRestriction SOAP
+# Services87 MDO GetListWithRestriction
 
 SOAP request and response examples **Remote/Services87/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IMDOAgent.GetListWithRestriction">SuperOffice.Services87.IMDOAgent.GetListWithRestriction</see> method.

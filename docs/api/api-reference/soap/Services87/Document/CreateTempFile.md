@@ -1,10 +1,10 @@
 ---
-uid: services87-document-createtempfile
 title: Services87.DocumentAgent.CreateTempFile SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-CreateTempFile
 ---
 
-# Services87 Document CreateTempFile SOAP
+# Services87 Document CreateTempFile
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.CreateTempFile">SuperOffice.Services87.IDocumentAgent.CreateTempFile</see> method.

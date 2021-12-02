@@ -1,10 +1,10 @@
 ---
-uid: services87-project-getduplicates
 title: Services87.ProjectAgent.GetDuplicates SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-GetDuplicates
 ---
 
-# Services87 Project GetDuplicates SOAP
+# Services87 Project GetDuplicates
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.GetDuplicates">SuperOffice.Services87.IProjectAgent.GetDuplicates</see> method.

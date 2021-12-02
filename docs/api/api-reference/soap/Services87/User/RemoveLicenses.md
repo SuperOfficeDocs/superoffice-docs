@@ -1,10 +1,10 @@
 ---
-uid: services87-user-removelicenses
 title: Services87.UserAgent.RemoveLicenses SOAP
-Generated: true
+generated: 1
+uid: Services87-User-RemoveLicenses
 ---
 
-# Services87 User RemoveLicenses SOAP
+# Services87 User RemoveLicenses
 
 SOAP request and response examples **Remote/Services87/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.RemoveLicenses">SuperOffice.Services87.IUserAgent.RemoveLicenses</see> method.

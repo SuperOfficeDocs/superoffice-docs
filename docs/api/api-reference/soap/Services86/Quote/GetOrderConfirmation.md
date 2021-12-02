@@ -1,10 +1,10 @@
 ---
-uid: services86-quote-getorderconfirmation
 title: Services86.QuoteAgent.GetOrderConfirmation SOAP
-Generated: true
+generated: 1
+uid: Services86-Quote-GetOrderConfirmation
 ---
 
-# Services86 Quote GetOrderConfirmation SOAP
+# Services86 Quote GetOrderConfirmation
 
 SOAP request and response examples **Remote/Services86/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetOrderConfirmation">SuperOffice.Services86.IQuoteAgent.GetOrderConfirmation</see> method.

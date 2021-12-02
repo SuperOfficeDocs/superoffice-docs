@@ -1,10 +1,10 @@
 ---
-uid: services88-configuration-getcrmurl
 title: Services88.ConfigurationAgent.GetCRMUrl SOAP
-Generated: true
+generated: 1
+uid: Services88-Configuration-GetCRMUrl
 ---
 
-# Services88 Configuration GetCRMUrl SOAP
+# Services88 Configuration GetCRMUrl
 
 SOAP request and response examples **Remote/Services88/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetCRMUrl">SuperOffice.Services88.IConfigurationAgent.GetCRMUrl</see> method.

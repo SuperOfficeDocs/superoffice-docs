@@ -1,10 +1,10 @@
 ---
-uid: services84-project-getprojectimage
 title: Services84.ProjectAgent.GetProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-GetProjectImage
 ---
 
-# Services84 Project GetProjectImage SOAP
+# Services84 Project GetProjectImage
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.GetProjectImage">SuperOffice.Services84.IProjectAgent.GetProjectImage</see> method.

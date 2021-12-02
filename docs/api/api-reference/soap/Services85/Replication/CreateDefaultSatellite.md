@@ -1,10 +1,10 @@
 ---
-uid: services85-replication-createdefaultsatellite
 title: Services85.ReplicationAgent.CreateDefaultSatellite SOAP
-Generated: true
+generated: 1
+uid: Services85-Replication-CreateDefaultSatellite
 ---
 
-# Services85 Replication CreateDefaultSatellite SOAP
+# Services85 Replication CreateDefaultSatellite
 
 SOAP request and response examples **Remote/Services85/Replication.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IReplicationAgent.CreateDefaultSatellite">SuperOffice.Services85.IReplicationAgent.CreateDefaultSatellite</see> method.
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:CreateDefaultSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2021-03-25T21:35:56Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2021-11-30T13:22:40Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -80,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:Deleted xsi:type="xsd:boolean">false</Replication:Deleted>
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2021-03-25T21:35:56Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:40Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>

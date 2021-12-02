@@ -1,10 +1,10 @@
 ---
-uid: services87-find-saverestrictionsandgetcriteriainformation
 title: Services87.FindAgent.SaveRestrictionsAndGetCriteriaInformation SOAP
-Generated: true
+generated: 1
+uid: Services87-Find-SaveRestrictionsAndGetCriteriaInformation
 ---
 
-# Services87 Find SaveRestrictionsAndGetCriteriaInformation SOAP
+# Services87 Find SaveRestrictionsAndGetCriteriaInformation
 
 SOAP request and response examples **Remote/Services87/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.SaveRestrictionsAndGetCriteriaInformation">SuperOffice.Services87.IFindAgent.SaveRestrictionsAndGetCriteriaInformation</see> method.

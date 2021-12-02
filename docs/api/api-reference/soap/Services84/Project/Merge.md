@@ -1,10 +1,10 @@
 ---
-uid: services84-project-merge
 title: Services84.ProjectAgent.Merge SOAP
-Generated: true
+generated: 1
+uid: Services84-Project-Merge
 ---
 
-# Services84 Project Merge SOAP
+# Services84 Project Merge
 
 SOAP request and response examples **Remote/Services84/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.Merge">SuperOffice.Services84.IProjectAgent.Merge</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-filemanager-writefile
 title: Services85.FileManagerAgent.WriteFile SOAP
-Generated: true
+generated: 1
+uid: Services85-FileManager-WriteFile
 ---
 
-# Services85 FileManager WriteFile SOAP
+# Services85 FileManager WriteFile
 
 SOAP request and response examples **Remote/Services85/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IFileManagerAgent.WriteFile">SuperOffice.Services85.IFileManagerAgent.WriteFile</see> method.

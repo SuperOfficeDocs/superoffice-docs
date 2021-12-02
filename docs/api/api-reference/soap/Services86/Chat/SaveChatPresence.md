@@ -1,10 +1,10 @@
 ---
-uid: services86-chat-savechatpresence
 title: Services86.ChatAgent.SaveChatPresence SOAP
-Generated: true
+generated: 1
+uid: Services86-Chat-SaveChatPresence
 ---
 
-# Services86 Chat SaveChatPresence SOAP
+# Services86 Chat SaveChatPresence
 
 SOAP request and response examples **Remote/Services86/Chat.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IChatAgent.SaveChatPresence">SuperOffice.Services86.IChatAgent.SaveChatPresence</see> method.

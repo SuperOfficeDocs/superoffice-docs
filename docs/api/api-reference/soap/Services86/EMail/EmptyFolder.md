@@ -1,10 +1,10 @@
 ---
-uid: services86-email-emptyfolder
 title: Services86.EMailAgent.EmptyFolder SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-EmptyFolder
 ---
 
-# Services86 EMail EmptyFolder SOAP
+# Services86 EMail EmptyFolder
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.EmptyFolder">SuperOffice.Services86.IEMailAgent.EmptyFolder</see> method.

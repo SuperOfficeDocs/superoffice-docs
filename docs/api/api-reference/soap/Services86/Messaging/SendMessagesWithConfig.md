@@ -1,10 +1,10 @@
 ---
-uid: services86-messaging-sendmessageswithconfig
 title: Services86.MessagingAgent.SendMessagesWithConfig SOAP
-Generated: true
+generated: 1
+uid: Services86-Messaging-SendMessagesWithConfig
 ---
 
-# Services86 Messaging SendMessagesWithConfig SOAP
+# Services86 Messaging SendMessagesWithConfig
 
 SOAP request and response examples **Remote/Services86/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IMessagingAgent.SendMessagesWithConfig">SuperOffice.Services86.IMessagingAgent.SendMessagesWithConfig</see> method.

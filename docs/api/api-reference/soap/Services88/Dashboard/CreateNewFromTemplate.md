@@ -1,10 +1,10 @@
 ---
-uid: services88-dashboard-createnewfromtemplate
 title: Services88.DashboardAgent.CreateNewFromTemplate SOAP
-Generated: true
+generated: 1
+uid: Services88-Dashboard-CreateNewFromTemplate
 ---
 
-# Services88 Dashboard CreateNewFromTemplate SOAP
+# Services88 Dashboard CreateNewFromTemplate
 
 SOAP request and response examples **Remote/Services88/Dashboard.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.CreateNewFromTemplate">SuperOffice.Services88.IDashboardAgent.CreateNewFromTemplate</see> method.

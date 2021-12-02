@@ -1,7 +1,7 @@
 ---
-uid: services87-webhook
 title: Services87.WebhookAgent SOAP
-Generated: true
+uid: Services87-Webhook-soap
+generated: 1
 ---
 
 # Services87 Webhook SOAP
@@ -24,3 +24,4 @@ Download [WSDL file for Services87/Webhook](../Services87-Webhook.md) if you nee
 * [SaveWebhook](SaveWebhook.md)
 * [SignalEvent](SignalEvent.md)
 * [TestWebhook](TestWebhook.md)
+

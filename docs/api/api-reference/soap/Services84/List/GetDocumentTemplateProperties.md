@@ -1,10 +1,10 @@
 ---
-uid: services84-list-getdocumenttemplateproperties
 title: Services84.ListAgent.GetDocumentTemplateProperties SOAP
-Generated: true
+generated: 1
+uid: Services84-List-GetDocumentTemplateProperties
 ---
 
-# Services84 List GetDocumentTemplateProperties SOAP
+# Services84 List GetDocumentTemplateProperties
 
 SOAP request and response examples **Remote/Services84/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDocumentTemplateProperties">SuperOffice.Services84.IListAgent.GetDocumentTemplateProperties</see> method.

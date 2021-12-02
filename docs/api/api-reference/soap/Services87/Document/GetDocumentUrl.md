@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getdocumenturl
 title: Services87.DocumentAgent.GetDocumentUrl SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetDocumentUrl
 ---
 
-# Services87 Document GetDocumentUrl SOAP
+# Services87 Document GetDocumentUrl
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetDocumentUrl">SuperOffice.Services87.IDocumentAgent.GetDocumentUrl</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-diagnostics-logviewstate
 title: Services86.DiagnosticsAgent.LogViewState SOAP
-Generated: true
+generated: 1
+uid: Services86-Diagnostics-LogViewState
 ---
 
-# Services86 Diagnostics LogViewState SOAP
+# Services86 Diagnostics LogViewState
 
 SOAP request and response examples **Remote/Services86/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDiagnosticsAgent.LogViewState">SuperOffice.Services86.IDiagnosticsAgent.LogViewState</see> method.

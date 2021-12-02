@@ -1,7 +1,7 @@
 ---
-uid: services86-timezone
 title: Services86.TimeZoneAgent SOAP
-Generated: true
+uid: Services86-TimeZone-soap
+generated: 1
 ---
 
 # Services86 TimeZone SOAP
@@ -26,3 +26,4 @@ Download [WSDL file for Services86/TimeZone](../Services86-TimeZone.md) if you n
 * [TimeOfLastTimeZoneUpdate](TimeOfLastTimeZoneUpdate.md)
 * [ToggleActiveTimeZoneRow](ToggleActiveTimeZoneRow.md)
 * [UpdateTimeZoneData](UpdateTimeZoneData.md)
+

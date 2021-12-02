@@ -1,10 +1,10 @@
 ---
-uid: services87-saint-regeneratestatusmonitor
 title: Services87.SaintAgent.RegenerateStatusMonitor SOAP
-Generated: true
+generated: 1
+uid: Services87-Saint-RegenerateStatusMonitor
 ---
 
-# Services87 Saint RegenerateStatusMonitor SOAP
+# Services87 Saint RegenerateStatusMonitor
 
 SOAP request and response examples **Remote/Services87/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.RegenerateStatusMonitor">SuperOffice.Services87.ISaintAgent.RegenerateStatusMonitor</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-messaging-createmessage
 title: Services86.MessagingAgent.CreateMessage SOAP
-Generated: true
+generated: 1
+uid: Services86-Messaging-CreateMessage
 ---
 
-# Services86 Messaging CreateMessage SOAP
+# Services86 Messaging CreateMessage
 
 SOAP request and response examples **Remote/Services86/Messaging.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IMessagingAgent.CreateMessage">SuperOffice.Services86.IMessagingAgent.CreateMessage</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-import-createerpimportdata
 title: Services84.ImportAgent.CreateErpImportData SOAP
-Generated: true
+generated: 1
+uid: Services84-Import-CreateErpImportData
 ---
 
-# Services84 Import CreateErpImportData SOAP
+# Services84 Import CreateErpImportData
 
 SOAP request and response examples **Remote/Services84/Import.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IImportAgent.CreateErpImportData">SuperOffice.Services84.IImportAgent.CreateErpImportData</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-find-findorderby2
 title: Services84.FindAgent.FindOrderBy2 SOAP
-Generated: true
+generated: 1
+uid: Services84-Find-FindOrderBy2
 ---
 
-# Services84 Find FindOrderBy2 SOAP
+# Services84 Find FindOrderBy2
 
 SOAP request and response examples **Remote/Services84/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.FindOrderBy2">SuperOffice.Services84.IFindAgent.FindOrderBy2</see> method.

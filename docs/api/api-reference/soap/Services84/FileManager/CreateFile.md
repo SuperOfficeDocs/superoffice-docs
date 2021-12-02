@@ -1,10 +1,10 @@
 ---
-uid: services84-filemanager-createfile
 title: Services84.FileManagerAgent.CreateFile SOAP
-Generated: true
+generated: 1
+uid: Services84-FileManager-CreateFile
 ---
 
-# Services84 FileManager CreateFile SOAP
+# Services84 FileManager CreateFile
 
 SOAP request and response examples **Remote/Services84/FileManager.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFileManagerAgent.CreateFile">SuperOffice.Services84.IFileManagerAgent.CreateFile</see> method.

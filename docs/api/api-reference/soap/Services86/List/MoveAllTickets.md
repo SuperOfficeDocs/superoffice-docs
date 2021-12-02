@@ -1,10 +1,10 @@
 ---
-uid: services86-list-movealltickets
 title: Services86.ListAgent.MoveAllTickets SOAP
-Generated: true
+generated: 1
+uid: Services86-List-MoveAllTickets
 ---
 
-# Services86 List MoveAllTickets SOAP
+# Services86 List MoveAllTickets
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.MoveAllTickets">SuperOffice.Services86.IListAgent.MoveAllTickets</see> method.

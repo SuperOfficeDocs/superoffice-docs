@@ -1,10 +1,10 @@
 ---
-uid: services88-pocket-getregistereddevices
 title: Services88.PocketAgent.GetRegisteredDevices SOAP
-Generated: true
+generated: 1
+uid: Services88-Pocket-GetRegisteredDevices
 ---
 
-# Services88 Pocket GetRegisteredDevices SOAP
+# Services88 Pocket GetRegisteredDevices
 
 SOAP request and response examples **Remote/Services88/Pocket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.GetRegisteredDevices">SuperOffice.Services88.IPocketAgent.GetRegisteredDevices</see> method.
@@ -73,6 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Pocket:PNSHandle xsi:type="xsd:string"></Pocket:PNSHandle>
      <Pocket:Platform xsi:type="Pocket:NotificationPlatform">Apple</Pocket:Platform>
      <Pocket:OSVersion xsi:type="xsd:string"></Pocket:OSVersion>
+     <Pocket:TimeZoneId xsi:type="xsd:int">0</Pocket:TimeZoneId>
     </Pocket:PocketDeviceInfo>
    </Pocket:Response>
   </Pocket:GetRegisteredDevicesResponse>

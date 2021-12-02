@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-getdynamicselectioncriteria
 title: Services88.SelectionAgent.GetDynamicSelectionCriteria SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-GetDynamicSelectionCriteria
 ---
 
-# Services88 Selection GetDynamicSelectionCriteria SOAP
+# Services88 Selection GetDynamicSelectionCriteria
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetDynamicSelectionCriteria">SuperOffice.Services88.ISelectionAgent.GetDynamicSelectionCriteria</see> method.
@@ -88,6 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Selection:Width xsi:type="xsd:string"></Selection:Width>
       <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
       <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+      <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
      </Selection:ColumnInfo>
      <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
      <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -113,6 +114,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Selection:Width xsi:type="xsd:string"></Selection:Width>
         <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
         <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+        <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
        </Selection:ColumnInfo>
        <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
        <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">
@@ -138,6 +140,7 @@ Application tokens must be specified if calling an Online installation. Applicat
           <Selection:Width xsi:type="xsd:string"></Selection:Width>
           <Selection:IconHint xsi:type="xsd:string"></Selection:IconHint>
           <Selection:HeadingIconHint xsi:type="xsd:string"></Selection:HeadingIconHint>
+          <Selection:ExtraInfo xsi:type="xsd:string"></Selection:ExtraInfo>
          </Selection:ColumnInfo>
          <Selection:IsActive xsi:type="xsd:boolean">false</Selection:IsActive>
          <Selection:SubRestrictions xsi:type="Selection:ArrayOfArchiveRestrictionInfo">

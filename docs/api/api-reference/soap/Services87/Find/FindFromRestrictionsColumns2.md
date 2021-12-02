@@ -1,10 +1,10 @@
 ---
-uid: services87-find-findfromrestrictionscolumns2
 title: Services87.FindAgent.FindFromRestrictionsColumns2 SOAP
-Generated: true
+generated: 1
+uid: Services87-Find-FindFromRestrictionsColumns2
 ---
 
-# Services87 Find FindFromRestrictionsColumns2 SOAP
+# Services87 Find FindFromRestrictionsColumns2
 
 SOAP request and response examples **Remote/Services87/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.FindFromRestrictionsColumns2">SuperOffice.Services87.IFindAgent.FindFromRestrictionsColumns2</see> method.

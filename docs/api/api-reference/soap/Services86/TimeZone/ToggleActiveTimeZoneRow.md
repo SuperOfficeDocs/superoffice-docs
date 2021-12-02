@@ -1,10 +1,10 @@
 ---
-uid: services86-timezone-toggleactivetimezonerow
 title: Services86.TimeZoneAgent.ToggleActiveTimeZoneRow SOAP
-Generated: true
+generated: 1
+uid: Services86-TimeZone-ToggleActiveTimeZoneRow
 ---
 
-# Services86 TimeZone ToggleActiveTimeZoneRow SOAP
+# Services86 TimeZone ToggleActiveTimeZoneRow
 
 SOAP request and response examples **Remote/Services86/TimeZone.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.ToggleActiveTimeZoneRow">SuperOffice.Services86.ITimeZoneAgent.ToggleActiveTimeZoneRow</see> method.

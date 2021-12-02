@@ -1,10 +1,10 @@
 ---
-uid: services86-sale-deletesaleentity
 title: Services86.SaleAgent.DeleteSaleEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-Sale-DeleteSaleEntity
 ---
 
-# Services86 Sale DeleteSaleEntity SOAP
+# Services86 Sale DeleteSaleEntity
 
 SOAP request and response examples **Remote/Services86/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.DeleteSaleEntity">SuperOffice.Services86.ISaleAgent.DeleteSaleEntity</see> method.

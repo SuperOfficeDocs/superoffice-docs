@@ -1,10 +1,10 @@
 ---
-uid: services84-user-createdefaultuntrustedcredentials
 title: Services84.UserAgent.CreateDefaultUntrustedCredentials SOAP
-Generated: true
+generated: 1
+uid: Services84-User-CreateDefaultUntrustedCredentials
 ---
 
-# Services84 User CreateDefaultUntrustedCredentials SOAP
+# Services84 User CreateDefaultUntrustedCredentials
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.CreateDefaultUntrustedCredentials">SuperOffice.Services84.IUserAgent.CreateDefaultUntrustedCredentials</see> method.
@@ -65,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <User:CreateDefaultUntrustedCredentialsResponse>
    <User:Response xsi:type="User:UntrustedCredentials">
-    <User:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:35:38Z</User:ValidFrom>
-    <User:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:35:38Z</User:ValidTo>
+    <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidFrom>
+    <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidTo>
     <User:Comment xsi:type="xsd:string"></User:Comment>
     <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
     <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

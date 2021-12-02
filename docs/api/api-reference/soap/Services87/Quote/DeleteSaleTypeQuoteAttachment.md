@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-deletesaletypequoteattachment
 title: Services87.QuoteAgent.DeleteSaleTypeQuoteAttachment SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-DeleteSaleTypeQuoteAttachment
 ---
 
-# Services87 Quote DeleteSaleTypeQuoteAttachment SOAP
+# Services87 Quote DeleteSaleTypeQuoteAttachment
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.DeleteSaleTypeQuoteAttachment">SuperOffice.Services87.IQuoteAgent.DeleteSaleTypeQuoteAttachment</see> method.

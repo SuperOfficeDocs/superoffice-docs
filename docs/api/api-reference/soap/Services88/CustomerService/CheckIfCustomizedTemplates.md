@@ -1,10 +1,10 @@
 ---
-uid: services88-customerservice-checkifcustomizedtemplates
 title: Services88.CustomerServiceAgent.CheckIfCustomizedTemplates SOAP
-Generated: true
+generated: 1
+uid: Services88-CustomerService-CheckIfCustomizedTemplates
 ---
 
-# Services88 CustomerService CheckIfCustomizedTemplates SOAP
+# Services88 CustomerService CheckIfCustomizedTemplates
 
 SOAP request and response examples **Remote/Services88/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.CheckIfCustomizedTemplates">SuperOffice.Services88.ICustomerServiceAgent.CheckIfCustomizedTemplates</see> method.

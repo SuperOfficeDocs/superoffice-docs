@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getheadingsfromname
 title: Services88.ListAgent.GetHeadingsFromName SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetHeadingsFromName
 ---
 
-# Services88 List GetHeadingsFromName SOAP
+# Services88 List GetHeadingsFromName
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetHeadingsFromName">SuperOffice.Services88.IListAgent.GetHeadingsFromName</see> method.

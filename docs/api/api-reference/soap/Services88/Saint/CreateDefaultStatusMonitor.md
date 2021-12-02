@@ -1,10 +1,10 @@
 ---
-uid: services88-saint-createdefaultstatusmonitor
 title: Services88.SaintAgent.CreateDefaultStatusMonitor SOAP
-Generated: true
+generated: 1
+uid: Services88-Saint-CreateDefaultStatusMonitor
 ---
 
-# Services88 Saint CreateDefaultStatusMonitor SOAP
+# Services88 Saint CreateDefaultStatusMonitor
 
 SOAP request and response examples **Remote/Services88/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISaintAgent.CreateDefaultStatusMonitor">SuperOffice.Services88.ISaintAgent.CreateDefaultStatusMonitor</see> method.
@@ -70,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Saint:DefaultTask xsi:type="xsd:int">0</Saint:DefaultTask>
     <Saint:DefaultTaskText xsi:type="xsd:string"></Saint:DefaultTaskText>
     <Saint:IsVisual xsi:type="xsd:boolean">false</Saint:IsVisual>
-    <Saint:LastGenerated xsi:type="xsd:dateTime">2021-03-25T21:37:09Z</Saint:LastGenerated>
+    <Saint:LastGenerated xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Saint:LastGenerated>
     <Saint:Description xsi:type="xsd:string"></Saint:Description>
     <Saint:Name xsi:type="xsd:string"></Saint:Name>
     <Saint:StatusMonitorId xsi:type="xsd:int">0</Saint:StatusMonitorId>
@@ -79,7 +79,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Saint:Deleted xsi:type="xsd:boolean">false</Saint:Deleted>
     <Saint:NumMatches xsi:type="xsd:int">0</Saint:NumMatches>
     <Saint:NumNeedUpdate xsi:type="xsd:int">0</Saint:NumNeedUpdate>
-    <Saint:GenerationStart xsi:type="xsd:dateTime">2021-03-25T21:37:09Z</Saint:GenerationStart>
+    <Saint:GenerationStart xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Saint:GenerationStart>
    </Saint:Response>
   </Saint:CreateDefaultStatusMonitorResponse>
  </SOAP-ENV:Body>

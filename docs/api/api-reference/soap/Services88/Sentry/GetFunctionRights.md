@@ -1,10 +1,10 @@
 ---
-uid: services88-sentry-getfunctionrights
 title: Services88.SentryAgent.GetFunctionRights SOAP
-Generated: true
+generated: 1
+uid: Services88-Sentry-GetFunctionRights
 ---
 
-# Services88 Sentry GetFunctionRights SOAP
+# Services88 Sentry GetFunctionRights
 
 SOAP request and response examples **Remote/Services88/Sentry.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISentryAgent.GetFunctionRights">SuperOffice.Services88.ISentryAgent.GetFunctionRights</see> method.
@@ -14,7 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISentryAgent.GetFunctionR
 Get a string array of all functions rights for the role of the current associate.
 
 
-**Returns:** String array.
+**Returns:** String array with the technical names of assigned function rights
 
 
 [WSDL file for Services88/Sentry](../Services88-Sentry.md)

@@ -1,10 +1,10 @@
 ---
-uid: services86-contact-copy
 title: Services86.ContactAgent.Copy SOAP
-Generated: true
+generated: 1
+uid: Services86-Contact-Copy
 ---
 
-# Services86 Contact Copy SOAP
+# Services86 Contact Copy
 
 SOAP request and response examples **Remote/Services86/Contact.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.Copy">SuperOffice.Services86.IContactAgent.Copy</see> method.

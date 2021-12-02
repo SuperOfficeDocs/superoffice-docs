@@ -1,10 +1,10 @@
 ---
-uid: services88-user-saveuntrustedcredentials
 title: Services88.UserAgent.SaveUntrustedCredentials SOAP
-Generated: true
+generated: 1
+uid: Services88-User-SaveUntrustedCredentials
 ---
 
-# Services88 User SaveUntrustedCredentials SOAP
+# Services88 User SaveUntrustedCredentials
 
 SOAP request and response examples **Remote/Services88/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SaveUntrustedCredentials">SuperOffice.Services88.IUserAgent.SaveUntrustedCredentials</see> method.
@@ -45,8 +45,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <User:SaveUntrustedCredentials>
     <User:Type xsi:type="xsd:string"></User:Type>
     <User:Credentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2021-03-25T21:37:12Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2021-03-25T21:37:12Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:23:54Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:23:54Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

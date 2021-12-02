@@ -1,10 +1,10 @@
 ---
-uid: services87-document-createdefaultsuggesteddocumententity
 title: Services87.DocumentAgent.CreateDefaultSuggestedDocumentEntity SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-CreateDefaultSuggestedDocumentEntity
 ---
 
-# Services87 Document CreateDefaultSuggestedDocumentEntity SOAP
+# Services87 Document CreateDefaultSuggestedDocumentEntity
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.CreateDefaultSuggestedDocumentEntity">SuperOffice.Services87.IDocumentAgent.CreateDefaultSuggestedDocumentEntity</see> method.

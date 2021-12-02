@@ -1,7 +1,7 @@
 ---
-uid: services84-batch
 title: Services84.BatchAgent SOAP
-Generated: true
+uid: Services84-Batch-soap
+generated: 1
 ---
 
 # Services84 Batch SOAP
@@ -26,3 +26,4 @@ Download [WSDL file for Services84/Batch](../Services84-Batch.md) if you need to
 * [StartBatchJob](StartBatchJob.md)
 * [StopBatchJob](StopBatchJob.md)
 * [UpdateBatchTask](UpdateBatchTask.md)
+

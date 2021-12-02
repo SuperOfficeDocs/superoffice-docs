@@ -1,10 +1,10 @@
 ---
-uid: services87-list-saveallfromlistname
 title: Services87.ListAgent.SaveAllFromListName SOAP
-Generated: true
+generated: 1
+uid: Services87-List-SaveAllFromListName
 ---
 
-# Services87 List SaveAllFromListName SOAP
+# Services87 List SaveAllFromListName
 
 SOAP request and response examples **Remote/Services87/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveAllFromListName">SuperOffice.Services87.IListAgent.SaveAllFromListName</see> method.

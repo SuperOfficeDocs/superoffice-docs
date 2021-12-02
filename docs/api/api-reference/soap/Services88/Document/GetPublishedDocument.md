@@ -1,10 +1,10 @@
 ---
-uid: services88-document-getpublisheddocument
 title: Services88.DocumentAgent.GetPublishedDocument SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-GetPublishedDocument
 ---
 
-# Services88 Document GetPublishedDocument SOAP
+# Services88 Document GetPublishedDocument
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPublishedDocument">SuperOffice.Services88.IDocumentAgent.GetPublishedDocument</see> method.

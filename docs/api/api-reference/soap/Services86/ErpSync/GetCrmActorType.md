@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-getcrmactortype
 title: Services86.ErpSyncAgent.GetCrmActorType SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-GetCrmActorType
 ---
 
-# Services86 ErpSync GetCrmActorType SOAP
+# Services86 ErpSync GetCrmActorType
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetCrmActorType">SuperOffice.Services86.IErpSyncAgent.GetCrmActorType</see> method.

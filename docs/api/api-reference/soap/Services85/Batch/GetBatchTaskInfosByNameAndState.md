@@ -1,10 +1,10 @@
 ---
-uid: services85-batch-getbatchtaskinfosbynameandstate
 title: Services85.BatchAgent.GetBatchTaskInfosByNameAndState SOAP
-Generated: true
+generated: 1
+uid: Services85-Batch-GetBatchTaskInfosByNameAndState
 ---
 
-# Services85 Batch GetBatchTaskInfosByNameAndState SOAP
+# Services85 Batch GetBatchTaskInfosByNameAndState
 
 SOAP request and response examples **Remote/Services85/Batch.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBatchAgent.GetBatchTaskInfosByNameAndState">SuperOffice.Services85.IBatchAgent.GetBatchTaskInfosByNameAndState</see> method.
@@ -82,8 +82,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:35:41Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-03-25T21:35:41Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>

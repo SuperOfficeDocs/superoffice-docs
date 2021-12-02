@@ -1,10 +1,10 @@
 ---
-uid: services84-quote-getquoteversionworkflowimagestate
 title: Services84.QuoteAgent.GetQuoteVersionWorkflowImageState SOAP
-Generated: true
+generated: 1
+uid: Services84-Quote-GetQuoteVersionWorkflowImageState
 ---
 
-# Services84 Quote GetQuoteVersionWorkflowImageState SOAP
+# Services84 Quote GetQuoteVersionWorkflowImageState
 
 SOAP request and response examples **Remote/Services84/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteVersionWorkflowImageState">SuperOffice.Services84.IQuoteAgent.GetQuoteVersionWorkflowImageState</see> method.

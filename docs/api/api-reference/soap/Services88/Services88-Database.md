@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Database
 title: Services88.DatabaseAgent WSDL
 ---
 

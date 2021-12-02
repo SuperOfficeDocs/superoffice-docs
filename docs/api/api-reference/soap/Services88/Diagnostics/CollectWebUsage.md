@@ -1,10 +1,10 @@
 ---
-uid: services88-diagnostics-collectwebusage
 title: Services88.DiagnosticsAgent.CollectWebUsage SOAP
-Generated: true
+generated: 1
+uid: Services88-Diagnostics-CollectWebUsage
 ---
 
-# Services88 Diagnostics CollectWebUsage SOAP
+# Services88 Diagnostics CollectWebUsage
 
 SOAP request and response examples **Remote/Services88/Diagnostics.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.CollectWebUsage">SuperOffice.Services88.IDiagnosticsAgent.CollectWebUsage</see> method.

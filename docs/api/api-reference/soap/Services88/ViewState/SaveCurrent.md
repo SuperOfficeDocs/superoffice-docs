@@ -1,10 +1,10 @@
 ---
-uid: services88-viewstate-savecurrent
 title: Services88.ViewStateAgent.SaveCurrent SOAP
-Generated: true
+generated: 1
+uid: Services88-ViewState-SaveCurrent
 ---
 
-# Services88 ViewState SaveCurrent SOAP
+# Services88 ViewState SaveCurrent
 
 SOAP request and response examples **Remote/Services88/ViewState.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IViewStateAgent.SaveCurrent">SuperOffice.Services88.IViewStateAgent.SaveCurrent</see> method.

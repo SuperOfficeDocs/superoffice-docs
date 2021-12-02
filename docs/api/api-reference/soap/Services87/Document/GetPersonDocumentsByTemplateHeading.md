@@ -1,10 +1,10 @@
 ---
-uid: services87-document-getpersondocumentsbytemplateheading
 title: Services87.DocumentAgent.GetPersonDocumentsByTemplateHeading SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-GetPersonDocumentsByTemplateHeading
 ---
 
-# Services87 Document GetPersonDocumentsByTemplateHeading SOAP
+# Services87 Document GetPersonDocumentsByTemplateHeading
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetPersonDocumentsByTemplateHeading">SuperOffice.Services87.IDocumentAgent.GetPersonDocumentsByTemplateHeading</see> method.
@@ -49,8 +49,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPersonDocumentsByTemplateHeading>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-03-25T21:36:31Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:TemplateHeadingId xsi:type="xsd:int">0</Document:TemplateHeadingId>
    </Document:GetPersonDocumentsByTemplateHeading>

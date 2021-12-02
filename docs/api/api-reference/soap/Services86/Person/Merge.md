@@ -1,10 +1,10 @@
 ---
-uid: services86-person-merge
 title: Services86.PersonAgent.Merge SOAP
-Generated: true
+generated: 1
+uid: Services86-Person-Merge
 ---
 
-# Services86 Person Merge SOAP
+# Services86 Person Merge
 
 SOAP request and response examples **Remote/Services86/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.Merge">SuperOffice.Services86.IPersonAgent.Merge</see> method.
@@ -47,7 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Merge>
     <Person:SourcePersonId xsi:type="xsd:int">0</Person:SourcePersonId>
     <Person:DestinationPersonId xsi:type="xsd:int">0</Person:DestinationPersonId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2021-03-25T21:36:16Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2021-11-30T13:22:59Z</Person:MoveAfterDate>
     <Person:DeleteSource xsi:type="xsd:boolean">false</Person:DeleteSource>
     <Person:ReplaceEmptyFieldsOnDestination xsi:type="xsd:boolean">false</Person:ReplaceEmptyFieldsOnDestination>
    </Person:Merge>

@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-saveprojectimage
 title: Services86.BLOBAgent.SaveProjectImage SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-SaveProjectImage
 ---
 
-# Services86 BLOB SaveProjectImage SOAP
+# Services86 BLOB SaveProjectImage
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.SaveProjectImage">SuperOffice.Services86.IBLOBAgent.SaveProjectImage</see> method.

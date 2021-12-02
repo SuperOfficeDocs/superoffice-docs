@@ -1,10 +1,10 @@
 ---
-uid: services84-user-ispasswordvalidwithreason
 title: Services84.UserAgent.IsPasswordValidWithReason SOAP
-Generated: true
+generated: 1
+uid: Services84-User-IsPasswordValidWithReason
 ---
 
-# Services84 User IsPasswordValidWithReason SOAP
+# Services84 User IsPasswordValidWithReason
 
 SOAP request and response examples **Remote/Services84/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.IsPasswordValidWithReason">SuperOffice.Services84.IUserAgent.IsPasswordValidWithReason</see> method.

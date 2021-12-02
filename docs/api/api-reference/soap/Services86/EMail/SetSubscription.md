@@ -1,10 +1,10 @@
 ---
-uid: services86-email-setsubscription
 title: Services86.EMailAgent.SetSubscription SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-SetSubscription
 ---
 
-# Services86 EMail SetSubscription SOAP
+# Services86 EMail SetSubscription
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.SetSubscription">SuperOffice.Services86.IEMailAgent.SetSubscription</see> method.

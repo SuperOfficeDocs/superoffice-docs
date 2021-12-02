@@ -1,10 +1,10 @@
 ---
-uid: services85-email-createdefaultemailconnectioninfo
 title: Services85.EMailAgent.CreateDefaultEMailConnectionInfo SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-CreateDefaultEMailConnectionInfo
 ---
 
-# Services85 EMail CreateDefaultEMailConnectionInfo SOAP
+# Services85 EMail CreateDefaultEMailConnectionInfo
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.CreateDefaultEMailConnectionInfo">SuperOffice.Services85.IEMailAgent.CreateDefaultEMailConnectionInfo</see> method.

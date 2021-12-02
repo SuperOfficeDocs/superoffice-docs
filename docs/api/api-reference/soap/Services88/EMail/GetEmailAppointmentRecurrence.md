@@ -1,10 +1,10 @@
 ---
-uid: services88-email-getemailappointmentrecurrence
 title: Services88.EMailAgent.GetEmailAppointmentRecurrence SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-GetEmailAppointmentRecurrence
 ---
 
-# Services88 EMail GetEmailAppointmentRecurrence SOAP
+# Services88 EMail GetEmailAppointmentRecurrence
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEmailAppointmentRecurrence">SuperOffice.Services88.IEMailAgent.GetEmailAppointmentRecurrence</see> method.
@@ -68,8 +68,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <EMail:GetEmailAppointmentRecurrenceResponse>
    <EMail:Response xsi:type="EMail:RecurrenceInfo">
     <EMail:RecurrenceId xsi:type="xsd:int">0</EMail:RecurrenceId>
-    <EMail:StartDate xsi:type="xsd:dateTime">2021-03-25T21:36:57Z</EMail:StartDate>
-    <EMail:EndDate xsi:type="xsd:dateTime">2021-03-25T21:36:57Z</EMail:EndDate>
+    <EMail:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</EMail:StartDate>
+    <EMail:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</EMail:EndDate>
     <EMail:RecurrenceEndType xsi:type="EMail:RecurrenceEndType">Unknown</EMail:RecurrenceEndType>
     <EMail:Pattern xsi:type="EMail:RecurrencePattern">Unknown</EMail:Pattern>
     <EMail:DayPattern xsi:type="EMail:RecurrenceDayPattern">
@@ -96,7 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </EMail:YearPattern>
     <EMail:Dates xsi:type="EMail:ArrayOfRecurrenceDate">
      <EMail:RecurrenceDate xsi:type="EMail:RecurrenceDate">
-      <EMail:Date xsi:type="xsd:dateTime">2021-03-25T21:36:57Z</EMail:Date>
+      <EMail:Date xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</EMail:Date>
       <EMail:IsConflict xsi:type="xsd:boolean">false</EMail:IsConflict>
       <EMail:Description xsi:type="xsd:string"></EMail:Description>
       <EMail:DescriptionStyleHint xsi:type="xsd:string"></EMail:DescriptionStyleHint>

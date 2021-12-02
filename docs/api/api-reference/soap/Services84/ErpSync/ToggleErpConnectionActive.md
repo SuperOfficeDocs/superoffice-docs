@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-toggleerpconnectionactive
 title: Services84.ErpSyncAgent.ToggleErpConnectionActive SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-ToggleErpConnectionActive
 ---
 
-# Services84 ErpSync ToggleErpConnectionActive SOAP
+# Services84 ErpSync ToggleErpConnectionActive
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.ToggleErpConnectionActive">SuperOffice.Services84.IErpSyncAgent.ToggleErpConnectionActive</see> method.

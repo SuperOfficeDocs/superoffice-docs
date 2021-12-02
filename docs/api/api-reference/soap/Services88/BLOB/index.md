@@ -1,7 +1,7 @@
 ---
-uid: services88-blob
 title: Services88.BLOBAgent SOAP
-Generated: true
+uid: Services88-BLOB-soap
+generated: 1
 ---
 
 # Services88 BLOB SOAP
@@ -19,6 +19,7 @@ Download [WSDL file for Services88/BLOB](../Services88-BLOB.md) if you need to g
 * [ChangePersonImage](ChangePersonImage.md)
 * [ChangeProductImage](ChangeProductImage.md)
 * [ChangeProjectImage](ChangeProjectImage.md)
+* [CleanupBatchTask](CleanupBatchTask.md)
 * [CreateDefaultBlobEntity](CreateDefaultBlobEntity.md)
 * [DeleteBlobEntity](DeleteBlobEntity.md)
 * [GetAppData](GetAppData.md)
@@ -32,6 +33,7 @@ Download [WSDL file for Services88/BLOB](../Services88-BLOB.md) if you need to g
 * [GetChatImageWithSize](GetChatImageWithSize.md)
 * [GetContactImage](GetContactImage.md)
 * [GetContactImageWithSize](GetContactImageWithSize.md)
+* [GetOutputFromBatch](GetOutputFromBatch.md)
 * [GetPersonImage](GetPersonImage.md)
 * [GetPersonImageWithSize](GetPersonImageWithSize.md)
 * [GetProductImage](GetProductImage.md)
@@ -49,3 +51,4 @@ Download [WSDL file for Services88/BLOB](../Services88-BLOB.md) if you need to g
 * [SetProductImage](SetProductImage.md)
 * [SetProductThumbnail](SetProductThumbnail.md)
 * [SetProjectImage](SetProjectImage.md)
+

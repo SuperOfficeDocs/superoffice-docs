@@ -1,7 +1,7 @@
 ---
-uid: services85-archive
 title: Services85.ArchiveAgent SOAP
-Generated: true
+uid: Services85-Archive-soap
+generated: 1
 ---
 
 # Services85 Archive SOAP
@@ -39,3 +39,4 @@ Download [WSDL file for Services85/Archive](../Services85-Archive.md) if you nee
 * [SetChosenColumns](SetChosenColumns.md)
 * [SetChosenEntities](SetChosenEntities.md)
 * [SetColumnWidths](SetColumnWidths.md)
+

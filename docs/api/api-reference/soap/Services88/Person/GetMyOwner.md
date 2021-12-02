@@ -1,10 +1,10 @@
 ---
-uid: services88-person-getmyowner
 title: Services88.PersonAgent.GetMyOwner SOAP
-Generated: true
+generated: 1
+uid: Services88-Person-GetMyOwner
 ---
 
-# Services88 Person GetMyOwner SOAP
+# Services88 Person GetMyOwner
 
 SOAP request and response examples **Remote/Services88/Person.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetMyOwner">SuperOffice.Services88.IPersonAgent.GetMyOwner</see> method.

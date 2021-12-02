@@ -1,10 +1,10 @@
 ---
-uid: services87-document-undocheckoutdocument
 title: Services87.DocumentAgent.UndoCheckoutDocument SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-UndoCheckoutDocument
 ---
 
-# Services87 Document UndoCheckoutDocument SOAP
+# Services87 Document UndoCheckoutDocument
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.UndoCheckoutDocument">SuperOffice.Services87.IDocumentAgent.UndoCheckoutDocument</see> method.

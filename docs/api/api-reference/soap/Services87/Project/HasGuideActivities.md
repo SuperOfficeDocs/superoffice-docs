@@ -1,10 +1,10 @@
 ---
-uid: services87-project-hasguideactivities
 title: Services87.ProjectAgent.HasGuideActivities SOAP
-Generated: true
+generated: 1
+uid: Services87-Project-HasGuideActivities
 ---
 
-# Services87 Project HasGuideActivities SOAP
+# Services87 Project HasGuideActivities
 
 SOAP request and response examples **Remote/Services87/Project.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.HasGuideActivities">SuperOffice.Services87.IProjectAgent.HasGuideActivities</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-userdefinedfieldinfo-setpublishstartsystemevent
 title: Services86.UserDefinedFieldInfoAgent.SetPublishStartSystemEvent SOAP
-Generated: true
+generated: 1
+uid: Services86-UserDefinedFieldInfo-SetPublishStartSystemEvent
 ---
 
-# Services86 UserDefinedFieldInfo SetPublishStartSystemEvent SOAP
+# Services86 UserDefinedFieldInfo SetPublishStartSystemEvent
 
 SOAP request and response examples **Remote/Services86/UserDefinedFieldInfo.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent">SuperOffice.Services86.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent</see> method.

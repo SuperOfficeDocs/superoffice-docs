@@ -1,10 +1,10 @@
 ---
-uid: services88-preference-createdefaultpreferencedescriptionline
 title: Services88.PreferenceAgent.CreateDefaultPreferenceDescriptionLine SOAP
-Generated: true
+generated: 1
+uid: Services88-Preference-CreateDefaultPreferenceDescriptionLine
 ---
 
-# Services88 Preference CreateDefaultPreferenceDescriptionLine SOAP
+# Services88 Preference CreateDefaultPreferenceDescriptionLine
 
 SOAP request and response examples **Remote/Services88/Preference.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine">SuperOffice.Services88.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine</see> method.

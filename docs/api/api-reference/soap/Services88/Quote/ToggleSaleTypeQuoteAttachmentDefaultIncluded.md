@@ -1,10 +1,10 @@
 ---
-uid: services88-quote-togglesaletypequoteattachmentdefaultincluded
 title: Services88.QuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded SOAP
-Generated: true
+generated: 1
+uid: Services88-Quote-ToggleSaleTypeQuoteAttachmentDefaultIncluded
 ---
 
-# Services88 Quote ToggleSaleTypeQuoteAttachmentDefaultIncluded SOAP
+# Services88 Quote ToggleSaleTypeQuoteAttachmentDefaultIncluded
 
 SOAP request and response examples **Remote/Services88/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded">SuperOffice.Services88.IQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded</see> method.

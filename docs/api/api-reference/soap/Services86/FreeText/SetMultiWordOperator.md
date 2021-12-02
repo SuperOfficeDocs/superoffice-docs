@@ -1,10 +1,10 @@
 ---
-uid: services86-freetext-setmultiwordoperator
 title: Services86.FreeTextAgent.SetMultiWordOperator SOAP
-Generated: true
+generated: 1
+uid: Services86-FreeText-SetMultiWordOperator
 ---
 
-# Services86 FreeText SetMultiWordOperator SOAP
+# Services86 FreeText SetMultiWordOperator
 
 SOAP request and response examples **Remote/Services86/FreeText.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.SetMultiWordOperator">SuperOffice.Services86.IFreeTextAgent.SetMultiWordOperator</see> method.

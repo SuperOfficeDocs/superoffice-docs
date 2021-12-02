@@ -1,10 +1,10 @@
 ---
-uid: services85-appointment-canassigntoprojectmember
 title: Services85.AppointmentAgent.CanAssignToProjectMember SOAP
-Generated: true
+generated: 1
+uid: Services85-Appointment-CanAssignToProjectMember
 ---
 
-# Services85 Appointment CanAssignToProjectMember SOAP
+# Services85 Appointment CanAssignToProjectMember
 
 SOAP request and response examples **Remote/Services85/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.CanAssignToProjectMember">SuperOffice.Services85.IAppointmentAgent.CanAssignToProjectMember</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-forceresyncexternal
 title: Services86.ErpSyncAgent.ForceResyncExternal SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-ForceResyncExternal
 ---
 
-# Services86 ErpSync ForceResyncExternal SOAP
+# Services86 ErpSync ForceResyncExternal
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.ForceResyncExternal">SuperOffice.Services86.IErpSyncAgent.ForceResyncExternal</see> method.

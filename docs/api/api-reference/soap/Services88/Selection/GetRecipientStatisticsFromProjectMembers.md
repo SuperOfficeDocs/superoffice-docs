@@ -1,10 +1,10 @@
 ---
-uid: services88-selection-getrecipientstatisticsfromprojectmembers
 title: Services88.SelectionAgent.GetRecipientStatisticsFromProjectMembers SOAP
-Generated: true
+generated: 1
+uid: Services88-Selection-GetRecipientStatisticsFromProjectMembers
 ---
 
-# Services88 Selection GetRecipientStatisticsFromProjectMembers SOAP
+# Services88 Selection GetRecipientStatisticsFromProjectMembers
 
 SOAP request and response examples **Remote/Services88/Selection.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetRecipientStatisticsFromProjectMembers">SuperOffice.Services88.ISelectionAgent.GetRecipientStatisticsFromProjectMembers</see> method.

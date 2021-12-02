@@ -1,10 +1,10 @@
 ---
-uid: services86-email-hasnewmail
 title: Services86.EMailAgent.HasNewMail SOAP
-Generated: true
+generated: 1
+uid: Services86-EMail-HasNewMail
 ---
 
-# Services86 EMail HasNewMail SOAP
+# Services86 EMail HasNewMail
 
 SOAP request and response examples **Remote/Services86/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.HasNewMail">SuperOffice.Services86.IEMailAgent.HasNewMail</see> method.

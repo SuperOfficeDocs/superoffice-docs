@@ -1,10 +1,10 @@
 ---
-uid: services86-list-gettasklist
 title: Services86.ListAgent.GetTaskList SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetTaskList
 ---
 
-# Services86 List GetTaskList SOAP
+# Services86 List GetTaskList
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetTaskList">SuperOffice.Services86.IListAgent.GetTaskList</see> method.

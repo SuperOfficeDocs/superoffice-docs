@@ -1,10 +1,10 @@
 ---
-uid: services85-user-deleteuserfromname
 title: Services85.UserAgent.DeleteUserFromName SOAP
-Generated: true
+generated: 1
+uid: Services85-User-DeleteUserFromName
 ---
 
-# Services85 User DeleteUserFromName SOAP
+# Services85 User DeleteUserFromName
 
 SOAP request and response examples **Remote/Services85/User.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.DeleteUserFromName">SuperOffice.Services85.IUserAgent.DeleteUserFromName</see> method.

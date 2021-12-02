@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Person
 title: Services88.PersonAgent WSDL
 ---
 
@@ -13,7 +13,7 @@ title: Services88.PersonAgent WSDL
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xs:element name="CreateDefaultPersonEntity">
+      <xs:element name="CreateDefaultConsentPerson">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -34,84 +34,28 @@ title: Services88.PersonAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="CreateDefaultPersonEntityResponse">
+      <xs:element name="CreateDefaultConsentPersonResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PersonEntity" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="PersonEntity">
+      <xs:complexType name="ConsentPerson">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
+              <xs:element minOccurs="0" name="ConsentPersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsentSource" nillable="true" type="tns:ConsentSource" />
+              <xs:element minOccurs="0" name="LegalBase" nillable="true" type="tns:LegalBase" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="Firstname" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="MiddleName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Lastname" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Mrmrs" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Emails" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="IsAssociate" type="xs:boolean" />
-              <xs:element minOccurs="0" name="PrivatePhones" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="Faxes" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="MobilePhones" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="OfficePhones" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="OtherPhones" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="Position" nillable="true" type="tns:Position" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:Contact" />
-              <xs:element minOccurs="0" name="Country" nillable="true" type="tns:Country" />
-              <xs:element minOccurs="0" name="Interests" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
-              <xs:element minOccurs="0" name="PersonNumber" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="NoMailing" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UsePersonAddress" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Retired" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Urls" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Address" />
-              <xs:element minOccurs="0" name="Post3" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Post2" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Post1" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Kanalname" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Kanafname" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CorrespondingAssociate" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Category" nillable="true" type="tns:Category" />
-              <xs:element minOccurs="0" name="Business" nillable="true" type="tns:Business" />
-              <xs:element minOccurs="0" name="Associate" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ActiveInterests" type="xs:int" />
-              <xs:element minOccurs="0" name="SupportAssociate" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="TicketPriority" nillable="true" type="tns:TicketPriority" />
-              <xs:element minOccurs="0" name="CustomerLanguage" nillable="true" type="tns:CustomerLanguage" />
-              <xs:element minOccurs="0" name="DbiAgentId" type="xs:int" />
-              <xs:element minOccurs="0" name="DbiKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DbiLastModified" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="DbiLastSyncronized" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="SentInfo" type="xs:short" />
-              <xs:element minOccurs="0" name="ShowContactTickets" type="xs:short" />
-              <xs:element minOccurs="0" name="UserInfo" nillable="true" type="tns:UserInfo" />
-              <xs:element minOccurs="0" name="ChatEmails" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="InternetPhones" nillable="true" type="tns:ArrayOfEntityElement" />
-              <xs:element minOccurs="0" name="Source" type="xs:short" />
-              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
-              <xs:element minOccurs="0" name="ShipmentTypes" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
-              <xs:element minOccurs="0" name="Consents" nillable="true" type="tns:ArrayOfConsentInfo" />
-              <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="ConsentPurpose" nillable="true" type="tns:ConsentPurpose" />
+              <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="PersonEntity" nillable="true" type="tns:PersonEntity" />
+      <xs:element name="ConsentPerson" nillable="true" type="tns:ConsentPerson" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -192,6 +136,59 @@ title: Services88.PersonAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
+      <xs:complexType name="ConsentSource">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsentSourceId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="MailTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ConsentSource" nillable="true" type="tns:ConsentSource" />
+      <xs:complexType name="LegalBase">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LegalBaseId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="LegalBase" nillable="true" type="tns:LegalBase" />
+      <xs:complexType name="ConsentPurpose">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsentPurposeId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ConsentText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FormText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Active" type="xs:short" />
+              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="PrivacyStatementDesc" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PrivacyStatementUrl" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ConsentPurpose" nillable="true" type="tns:ConsentPurpose" />
       <xs:complexType name="Associate">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -224,6 +221,167 @@ title: Services88.PersonAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="SaveConsentPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConsentPerson" nillable="true" type="tns:ConsentPerson" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveConsentPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteConsentPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ConsentPersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteConsentPersonResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPersonEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPersonEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PersonEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PersonEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="Firstname" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="MiddleName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Lastname" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Mrmrs" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Emails" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsAssociate" type="xs:boolean" />
+              <xs:element minOccurs="0" name="PrivatePhones" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="Faxes" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="MobilePhones" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="OfficePhones" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="OtherPhones" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="Position" nillable="true" type="tns:Position" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:Contact" />
+              <xs:element minOccurs="0" name="Country" nillable="true" type="tns:Country" />
+              <xs:element minOccurs="0" name="Interests" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+              <xs:element minOccurs="0" name="PersonNumber" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="NoMailing" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UsePersonAddress" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Retired" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Urls" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Address" />
+              <xs:element minOccurs="0" name="Post3" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Post2" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Post1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Kanalname" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Kanafname" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CorrespondingAssociate" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Category" nillable="true" type="tns:Category" />
+              <xs:element minOccurs="0" name="Business" nillable="true" type="tns:Business" />
+              <xs:element minOccurs="0" name="Associate" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ActiveInterests" type="xs:int" />
+              <xs:element minOccurs="0" name="SupportAssociate" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="TicketPriority" nillable="true" type="tns:TicketPriority" />
+              <xs:element minOccurs="0" name="CustomerLanguage" nillable="true" type="tns:CustomerLanguage" />
+              <xs:element minOccurs="0" name="DbiAgentId" type="xs:int" />
+              <xs:element minOccurs="0" name="DbiKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DbiLastModified" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DbiLastSyncronized" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SentInfo" type="xs:short" />
+              <xs:element minOccurs="0" name="ShowContactTickets" type="xs:short" />
+              <xs:element minOccurs="0" name="UserInfo" nillable="true" type="tns:UserInfo" />
+              <xs:element minOccurs="0" name="ChatEmails" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="InternetPhones" nillable="true" type="tns:ArrayOfEntityElement" />
+              <xs:element minOccurs="0" name="Source" type="xs:short" />
+              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="ShipmentTypes" nillable="true" type="tns:ArrayOfSelectableMDOListItem" />
+              <xs:element minOccurs="0" name="Consents" nillable="true" type="tns:ArrayOfConsentInfo" />
+              <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PersonEntity" nillable="true" type="tns:PersonEntity" />
       <xs:complexType name="ArrayOfEntityElement">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="EntityElement" nillable="true" type="tns:EntityElement" />
@@ -552,57 +710,6 @@ title: Services88.PersonAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
-      <xs:complexType name="SoExceptionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="SavePersonEntity">
         <xs:complexType>
           <xs:sequence>
@@ -629,110 +736,18 @@ title: Services88.PersonAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateDefaultConsentPerson">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateDefaultConsentPersonResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ConsentPerson">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ConsentPersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="ConsentSource" nillable="true" type="tns:ConsentSource" />
-              <xs:element minOccurs="0" name="LegalBase" nillable="true" type="tns:LegalBase" />
-              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="ConsentPurpose" nillable="true" type="tns:ConsentPurpose" />
-              <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ConsentPerson" nillable="true" type="tns:ConsentPerson" />
-      <xs:complexType name="ConsentSource">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ConsentSourceId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="MailTemplateId" type="xs:int" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ConsentSource" nillable="true" type="tns:ConsentSource" />
-      <xs:complexType name="LegalBase">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="LegalBaseId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="LegalBase" nillable="true" type="tns:LegalBase" />
-      <xs:complexType name="ConsentPurpose">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ConsentPurposeId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ConsentText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FormText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Active" type="xs:short" />
-              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="PrivacyStatementDesc" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PrivacyStatementUrl" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ConsentPurpose" nillable="true" type="tns:ConsentPurpose" />
-      <xs:element name="SaveConsentPerson">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ConsentPerson" nillable="true" type="tns:ConsentPerson" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveConsentPersonResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteConsentPerson">
+      <xs:element name="GetConsentPerson">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ConsentPersonId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="DeleteConsentPersonResponse">
+      <xs:element name="GetConsentPersonResponse">
         <xs:complexType>
-          <xs:sequence />
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPerson">
@@ -1382,6 +1397,36 @@ title: Services88.PersonAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetBestSoLanguageForTemplate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="TemplateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetBestSoLanguageForTemplateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddBounceWithDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Counts" type="xs:int" />
+            <xs:element minOccurs="0" name="Code" type="xs:int" />
+            <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddBounceWithDetailsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
@@ -1554,20 +1599,6 @@ title: Services88.PersonAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetConsentPerson">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ConsentPersonId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetConsentPersonResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ConsentPerson" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1625,6 +1656,57 @@ title: Services88.PersonAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="CreateDefaultConsentPersonRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultConsentPerson" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConsentPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConsentPersonResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultConsentPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultConsentPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsentPersonRequest">
+    <wsdl:part name="parameters" element="tns:SaveConsentPerson" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsentPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsentPersonResponse">
+    <wsdl:part name="parameters" element="tns:SaveConsentPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsentPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConsentPersonRequest">
+    <wsdl:part name="parameters" element="tns:DeleteConsentPerson" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConsentPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConsentPersonResponse">
+    <wsdl:part name="parameters" element="tns:DeleteConsentPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConsentPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultPersonEntityRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultPersonEntity" />
   </wsdl:message>
@@ -1676,52 +1758,18 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultConsentPersonRequest">
-    <wsdl:part name="parameters" element="tns:CreateDefaultConsentPerson" />
+  <wsdl:message name="GetConsentPersonRequest">
+    <wsdl:part name="parameters" element="tns:GetConsentPerson" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultConsentPersonRequest_Headers">
+  <wsdl:message name="GetConsentPersonRequest_Headers">
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
     <wsdl:part name="Credentials" element="tns:Credentials" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultConsentPersonResponse">
-    <wsdl:part name="parameters" element="tns:CreateDefaultConsentPersonResponse" />
+  <wsdl:message name="GetConsentPersonResponse">
+    <wsdl:part name="parameters" element="tns:GetConsentPersonResponse" />
   </wsdl:message>
-  <wsdl:message name="CreateDefaultConsentPersonResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveConsentPersonRequest">
-    <wsdl:part name="parameters" element="tns:SaveConsentPerson" />
-  </wsdl:message>
-  <wsdl:message name="SaveConsentPersonRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveConsentPersonResponse">
-    <wsdl:part name="parameters" element="tns:SaveConsentPersonResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveConsentPersonResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteConsentPersonRequest">
-    <wsdl:part name="parameters" element="tns:DeleteConsentPerson" />
-  </wsdl:message>
-  <wsdl:message name="DeleteConsentPersonRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteConsentPersonResponse">
-    <wsdl:part name="parameters" element="tns:DeleteConsentPersonResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteConsentPersonResponse_Headers">
+  <wsdl:message name="GetConsentPersonResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2254,6 +2302,40 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetBestSoLanguageForTemplateRequest">
+    <wsdl:part name="parameters" element="tns:GetBestSoLanguageForTemplate" />
+  </wsdl:message>
+  <wsdl:message name="GetBestSoLanguageForTemplateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetBestSoLanguageForTemplateResponse">
+    <wsdl:part name="parameters" element="tns:GetBestSoLanguageForTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBestSoLanguageForTemplateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddBounceWithDetailsRequest">
+    <wsdl:part name="parameters" element="tns:AddBounceWithDetails" />
+  </wsdl:message>
+  <wsdl:message name="AddBounceWithDetailsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddBounceWithDetailsResponse">
+    <wsdl:part name="parameters" element="tns:AddBounceWithDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddBounceWithDetailsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPersonListRequest">
     <wsdl:part name="parameters" element="tns:GetPersonList" />
   </wsdl:message>
@@ -2441,27 +2523,31 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetConsentPersonRequest">
-    <wsdl:part name="parameters" element="tns:GetConsentPerson" />
-  </wsdl:message>
-  <wsdl:message name="GetConsentPersonRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetConsentPersonResponse">
-    <wsdl:part name="parameters" element="tns:GetConsentPersonResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetConsentPersonResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="Person">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Person</summary>
     </wsdl:documentation>
+    <wsdl:operation name="CreateDefaultConsentPerson">
+      <wsdl:documentation>
+        <summary>Loading default values into a new ConsentPerson.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPerson" name="CreateDefaultConsentPersonRequest" message="tns:CreateDefaultConsentPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPersonResponse" name="CreateDefaultConsentPersonResponse" message="tns:CreateDefaultConsentPersonResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsentPerson">
+      <wsdl:documentation>
+        <summary>Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPerson" name="SaveConsentPersonRequest" message="tns:SaveConsentPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPersonResponse" name="SaveConsentPersonResponse" message="tns:SaveConsentPersonResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConsentPerson">
+      <wsdl:documentation>
+        <summary>Deletes the ConsentPerson</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPerson" name="DeleteConsentPersonRequest" message="tns:DeleteConsentPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPersonResponse" name="DeleteConsentPersonResponse" message="tns:DeleteConsentPersonResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultPersonEntity">
       <wsdl:documentation>
         <summary>Loading default values into a new PersonEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -2483,26 +2569,12 @@ title: Services88.PersonAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeletePersonEntity" name="DeletePersonEntityRequest" message="tns:DeletePersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeletePersonEntityResponse" name="DeletePersonEntityResponse" message="tns:DeletePersonEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultConsentPerson">
+    <wsdl:operation name="GetConsentPerson">
       <wsdl:documentation>
-        <summary>Loading default values into a new ConsentPerson.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+        <summary>Gets a ConsentPerson object..</summary>
       </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPerson" name="CreateDefaultConsentPersonRequest" message="tns:CreateDefaultConsentPersonRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPersonResponse" name="CreateDefaultConsentPersonResponse" message="tns:CreateDefaultConsentPersonResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveConsentPerson">
-      <wsdl:documentation>
-        <summary>Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPerson" name="SaveConsentPersonRequest" message="tns:SaveConsentPersonRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPersonResponse" name="SaveConsentPersonResponse" message="tns:SaveConsentPersonResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteConsentPerson">
-      <wsdl:documentation>
-        <summary>Deletes the ConsentPerson</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPerson" name="DeleteConsentPersonRequest" message="tns:DeleteConsentPersonRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPersonResponse" name="DeleteConsentPersonResponse" message="tns:DeleteConsentPersonResponse" />
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPerson" name="GetConsentPersonRequest" message="tns:GetConsentPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPersonResponse" name="GetConsentPersonResponse" message="tns:GetConsentPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPerson">
       <wsdl:documentation>
@@ -2721,6 +2793,20 @@ title: Services88.PersonAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/AddBounceWithCount" name="AddBounceWithCountRequest" message="tns:AddBounceWithCountRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/AddBounceWithCountResponse" name="AddBounceWithCountResponse" message="tns:AddBounceWithCountResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetBestSoLanguageForTemplate">
+      <wsdl:documentation>
+        <summary>Get the best language for this person on this template</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetBestSoLanguageForTemplate" name="GetBestSoLanguageForTemplateRequest" message="tns:GetBestSoLanguageForTemplateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetBestSoLanguageForTemplateResponse" name="GetBestSoLanguageForTemplateResponse" message="tns:GetBestSoLanguageForTemplateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBounceWithDetails">
+      <wsdl:documentation>
+        <summary>Add a number of bounce counts on the email address if it exists, and with possible bounce code and reason</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/AddBounceWithDetails" name="AddBounceWithDetailsRequest" message="tns:AddBounceWithDetailsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/AddBounceWithDetailsResponse" name="AddBounceWithDetailsResponse" message="tns:AddBounceWithDetailsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <wsdl:documentation>
         <summary>Gets an array of Person objects..</summary>
@@ -2798,16 +2884,57 @@ title: Services88.PersonAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/NormalizeRanks" name="NormalizeRanksRequest" message="tns:NormalizeRanksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/NormalizeRanksResponse" name="NormalizeRanksResponse" message="tns:NormalizeRanksResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetConsentPerson">
-      <wsdl:documentation>
-        <summary>Gets a ConsentPerson object..</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPerson" name="GetConsentPersonRequest" message="tns:GetConsentPersonRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPersonResponse" name="GetConsentPersonResponse" message="tns:GetConsentPersonResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Person" type="tns:Person">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateDefaultConsentPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPerson" style="document" />
+      <wsdl:input name="CreateDefaultConsentPersonRequest">
+        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultConsentPersonResponse">
+        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsentPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPerson" style="document" />
+      <wsdl:input name="SaveConsentPersonRequest">
+        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveConsentPersonResponse">
+        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConsentPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPerson" style="document" />
+      <wsdl:input name="DeleteConsentPersonRequest">
+        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteConsentPersonResponse">
+        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultPersonEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultPersonEntity" style="document" />
       <wsdl:input name="CreateDefaultPersonEntityRequest">
@@ -2856,51 +2983,19 @@ title: Services88.PersonAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultConsentPerson">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultConsentPerson" style="document" />
-      <wsdl:input name="CreateDefaultConsentPersonRequest">
-        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateDefaultConsentPersonRequest_Headers" part="TimeZone" use="literal" />
+    <wsdl:operation name="GetConsentPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPerson" style="document" />
+      <wsdl:input name="GetConsentPersonRequest">
+        <soap:header message="tns:GetConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetConsentPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetConsentPersonRequest_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:input>
-      <wsdl:output name="CreateDefaultConsentPersonResponse">
-        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateDefaultConsentPersonResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveConsentPerson">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SaveConsentPerson" style="document" />
-      <wsdl:input name="SaveConsentPersonRequest">
-        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveConsentPersonRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveConsentPersonResponse">
-        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveConsentPersonResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteConsentPerson">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/DeleteConsentPerson" style="document" />
-      <wsdl:input name="DeleteConsentPersonRequest">
-        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteConsentPersonRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteConsentPersonResponse">
-        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteConsentPersonResponse_Headers" part="TimeZone" use="literal" />
+      <wsdl:output name="GetConsentPersonResponse">
+        <soap:header message="tns:GetConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetConsentPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetConsentPersonResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -3400,6 +3495,38 @@ title: Services88.PersonAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetBestSoLanguageForTemplate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetBestSoLanguageForTemplate" style="document" />
+      <wsdl:input name="GetBestSoLanguageForTemplateRequest">
+        <soap:header message="tns:GetBestSoLanguageForTemplateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetBestSoLanguageForTemplateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetBestSoLanguageForTemplateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetBestSoLanguageForTemplateResponse">
+        <soap:header message="tns:GetBestSoLanguageForTemplateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetBestSoLanguageForTemplateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetBestSoLanguageForTemplateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetBestSoLanguageForTemplateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBounceWithDetails">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/AddBounceWithDetails" style="document" />
+      <wsdl:input name="AddBounceWithDetailsRequest">
+        <soap:header message="tns:AddBounceWithDetailsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AddBounceWithDetailsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AddBounceWithDetailsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AddBounceWithDetailsResponse">
+        <soap:header message="tns:AddBounceWithDetailsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AddBounceWithDetailsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AddBounceWithDetailsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AddBounceWithDetailsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonList" style="document" />
       <wsdl:input name="GetPersonListRequest">
@@ -3573,22 +3700,6 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:NormalizeRanksResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:NormalizeRanksResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:NormalizeRanksResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetConsentPerson">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetConsentPerson" style="document" />
-      <wsdl:input name="GetConsentPersonRequest">
-        <soap:header message="tns:GetConsentPersonRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetConsentPersonRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetConsentPersonRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetConsentPersonResponse">
-        <soap:header message="tns:GetConsentPersonResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetConsentPersonResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetConsentPersonResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetConsentPersonResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

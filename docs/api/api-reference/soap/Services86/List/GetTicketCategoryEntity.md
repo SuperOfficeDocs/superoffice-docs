@@ -1,10 +1,10 @@
 ---
-uid: services86-list-getticketcategoryentity
 title: Services86.ListAgent.GetTicketCategoryEntity SOAP
-Generated: true
+generated: 1
+uid: Services86-List-GetTicketCategoryEntity
 ---
 
-# Services86 List GetTicketCategoryEntity SOAP
+# Services86 List GetTicketCategoryEntity
 
 SOAP request and response examples **Remote/Services86/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetTicketCategoryEntity">SuperOffice.Services86.IListAgent.GetTicketCategoryEntity</see> method.

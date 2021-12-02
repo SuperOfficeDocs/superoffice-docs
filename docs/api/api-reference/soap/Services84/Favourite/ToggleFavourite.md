@@ -1,10 +1,10 @@
 ---
-uid: services84-favourite-togglefavourite
 title: Services84.FavouriteAgent.ToggleFavourite SOAP
-Generated: true
+generated: 1
+uid: Services84-Favourite-ToggleFavourite
 ---
 
-# Services84 Favourite ToggleFavourite SOAP
+# Services84 Favourite ToggleFavourite
 
 SOAP request and response examples **Remote/Services84/Favourite.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFavouriteAgent.ToggleFavourite">SuperOffice.Services84.IFavouriteAgent.ToggleFavourite</see> method.

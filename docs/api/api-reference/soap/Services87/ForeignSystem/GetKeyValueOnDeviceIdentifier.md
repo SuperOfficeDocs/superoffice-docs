@@ -1,10 +1,10 @@
 ---
-uid: services87-foreignsystem-getkeyvalueondeviceidentifier
 title: Services87.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier SOAP
-Generated: true
+generated: 1
+uid: Services87-ForeignSystem-GetKeyValueOnDeviceIdentifier
 ---
 
-# Services87 ForeignSystem GetKeyValueOnDeviceIdentifier SOAP
+# Services87 ForeignSystem GetKeyValueOnDeviceIdentifier
 
 SOAP request and response examples **Remote/Services87/ForeignSystem.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier">SuperOffice.Services87.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services85-list-getpaymentterm
 title: Services85.ListAgent.GetPaymentTerm SOAP
-Generated: true
+generated: 1
+uid: Services85-List-GetPaymentTerm
 ---
 
-# Services85 List GetPaymentTerm SOAP
+# Services85 List GetPaymentTerm
 
 SOAP request and response examples **Remote/Services85/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetPaymentTerm">SuperOffice.Services85.IListAgent.GetPaymentTerm</see> method.

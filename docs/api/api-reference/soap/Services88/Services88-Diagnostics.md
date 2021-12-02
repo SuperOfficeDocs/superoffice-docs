@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Diagnostics
 title: Services88.DiagnosticsAgent WSDL
 ---
 
@@ -113,18 +113,6 @@ title: Services88.DiagnosticsAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="PerformTasksAfterUpgrade">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="PerformTasksAfterUpgradeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="LogViewState">
         <xs:complexType>
           <xs:sequence>
@@ -154,6 +142,68 @@ title: Services88.DiagnosticsAgent WSDL
       <xs:element name="ChangeLogSettingsResponse">
         <xs:complexType>
           <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectDataAdditions">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectDataAdditionsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectWinUsage">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectWinUsageResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectWebUsage">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectWebUsageResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectTableSizes">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CollectTableSizesResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResyncUsers">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResyncUsersResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PerformTasksAfterUpgrade">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PerformTasksAfterUpgradeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="AddWebAppUsage">
@@ -302,56 +352,6 @@ title: Services88.DiagnosticsAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="CollectDataAdditions">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectDataAdditionsResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectWinUsage">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectWinUsageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectWebUsage">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectWebUsageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectTableSizes">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CollectTableSizesResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ResyncUsers">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ResyncUsersResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -454,23 +454,6 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="PerformTasksAfterUpgradeRequest">
-    <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgrade" />
-  </wsdl:message>
-  <wsdl:message name="PerformTasksAfterUpgradeRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="PerformTasksAfterUpgradeResponse">
-    <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgradeResponse" />
-  </wsdl:message>
-  <wsdl:message name="PerformTasksAfterUpgradeResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="LogViewStateRequest">
     <wsdl:part name="parameters" element="tns:LogViewState" />
   </wsdl:message>
@@ -500,57 +483,6 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="parameters" element="tns:ChangeLogSettingsResponse" />
   </wsdl:message>
   <wsdl:message name="ChangeLogSettingsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddWebAppUsageRequest">
-    <wsdl:part name="parameters" element="tns:AddWebAppUsage" />
-  </wsdl:message>
-  <wsdl:message name="AddWebAppUsageRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddWebAppUsageResponse">
-    <wsdl:part name="parameters" element="tns:AddWebAppUsageResponse" />
-  </wsdl:message>
-  <wsdl:message name="AddWebAppUsageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="WebAppUsageExistsInPeriodRequest">
-    <wsdl:part name="parameters" element="tns:WebAppUsageExistsInPeriod" />
-  </wsdl:message>
-  <wsdl:message name="WebAppUsageExistsInPeriodRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="WebAppUsageExistsInPeriodResponse">
-    <wsdl:part name="parameters" element="tns:WebAppUsageExistsInPeriodResponse" />
-  </wsdl:message>
-  <wsdl:message name="WebAppUsageExistsInPeriodResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetWebAppUsagesForPeriodRequest">
-    <wsdl:part name="parameters" element="tns:GetWebAppUsagesForPeriod" />
-  </wsdl:message>
-  <wsdl:message name="GetWebAppUsagesForPeriodRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetWebAppUsagesForPeriodResponse">
-    <wsdl:part name="parameters" element="tns:GetWebAppUsagesForPeriodResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetWebAppUsagesForPeriodResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -641,6 +573,74 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="PerformTasksAfterUpgradeRequest">
+    <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgrade" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterUpgradeRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterUpgradeResponse">
+    <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterUpgradeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddWebAppUsageRequest">
+    <wsdl:part name="parameters" element="tns:AddWebAppUsage" />
+  </wsdl:message>
+  <wsdl:message name="AddWebAppUsageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddWebAppUsageResponse">
+    <wsdl:part name="parameters" element="tns:AddWebAppUsageResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddWebAppUsageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUsageExistsInPeriodRequest">
+    <wsdl:part name="parameters" element="tns:WebAppUsageExistsInPeriod" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUsageExistsInPeriodRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUsageExistsInPeriodResponse">
+    <wsdl:part name="parameters" element="tns:WebAppUsageExistsInPeriodResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebAppUsageExistsInPeriodResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetWebAppUsagesForPeriodRequest">
+    <wsdl:part name="parameters" element="tns:GetWebAppUsagesForPeriod" />
+  </wsdl:message>
+  <wsdl:message name="GetWebAppUsagesForPeriodRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetWebAppUsagesForPeriodResponse">
+    <wsdl:part name="parameters" element="tns:GetWebAppUsagesForPeriodResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWebAppUsagesForPeriodResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Diagnostics">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Diagnostics</summary>
@@ -666,13 +666,6 @@ title: Services88.DiagnosticsAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByName" name="FlushCachesByNameRequest" message="tns:FlushCachesByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByNameResponse" name="FlushCachesByNameResponse" message="tns:FlushCachesByNameResponse" />
     </wsdl:operation>
-    <wsdl:operation name="PerformTasksAfterUpgrade">
-      <wsdl:documentation>
-        <summary>After upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgradeResponse" name="PerformTasksAfterUpgradeResponse" message="tns:PerformTasksAfterUpgradeResponse" />
-    </wsdl:operation>
     <wsdl:operation name="LogViewState">
       <wsdl:documentation>
         <summary>Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.</summary>
@@ -686,27 +679,6 @@ title: Services88.DiagnosticsAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettings" name="ChangeLogSettingsRequest" message="tns:ChangeLogSettingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettingsResponse" name="ChangeLogSettingsResponse" message="tns:ChangeLogSettingsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="AddWebAppUsage">
-      <wsdl:documentation>
-        <summary>Adds WebApp usage to existing log</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" name="AddWebAppUsageRequest" message="tns:AddWebAppUsageRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsageResponse" name="AddWebAppUsageResponse" message="tns:AddWebAppUsageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="WebAppUsageExistsInPeriod">
-      <wsdl:documentation>
-        <summary>Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriod" name="WebAppUsageExistsInPeriodRequest" message="tns:WebAppUsageExistsInPeriodRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriodResponse" name="WebAppUsageExistsInPeriodResponse" message="tns:WebAppUsageExistsInPeriodResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetWebAppUsagesForPeriod">
-      <wsdl:documentation>
-        <summary>Get all WebAppUsages for a given period, that match an optional search term</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriod" name="GetWebAppUsagesForPeriodRequest" message="tns:GetWebAppUsagesForPeriodRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriodResponse" name="GetWebAppUsagesForPeriodResponse" message="tns:GetWebAppUsagesForPeriodResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectDataAdditions">
       <wsdl:documentation>
@@ -742,6 +714,34 @@ title: Services88.DiagnosticsAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsers" name="ResyncUsersRequest" message="tns:ResyncUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsersResponse" name="ResyncUsersResponse" message="tns:ResyncUsersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PerformTasksAfterUpgrade">
+      <wsdl:documentation>
+        <summary>After upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgradeResponse" name="PerformTasksAfterUpgradeResponse" message="tns:PerformTasksAfterUpgradeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddWebAppUsage">
+      <wsdl:documentation>
+        <summary>Adds WebApp usage to existing log</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" name="AddWebAppUsageRequest" message="tns:AddWebAppUsageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsageResponse" name="AddWebAppUsageResponse" message="tns:AddWebAppUsageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUsageExistsInPeriod">
+      <wsdl:documentation>
+        <summary>Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriod" name="WebAppUsageExistsInPeriodRequest" message="tns:WebAppUsageExistsInPeriodRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriodResponse" name="WebAppUsageExistsInPeriodResponse" message="tns:WebAppUsageExistsInPeriodResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWebAppUsagesForPeriod">
+      <wsdl:documentation>
+        <summary>Get all WebAppUsages for a given period, that match an optional search term</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriod" name="GetWebAppUsagesForPeriodRequest" message="tns:GetWebAppUsagesForPeriodRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriodResponse" name="GetWebAppUsagesForPeriodResponse" message="tns:GetWebAppUsagesForPeriodResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Diagnostics" type="tns:Diagnostics">
@@ -794,22 +794,6 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="PerformTasksAfterUpgrade">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" style="document" />
-      <wsdl:input name="PerformTasksAfterUpgradeRequest">
-        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="PerformTasksAfterUpgradeResponse">
-        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="LogViewState">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewState" style="document" />
       <wsdl:input name="LogViewStateRequest">
@@ -839,54 +823,6 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="AddWebAppUsage">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" style="document" />
-      <wsdl:input name="AddWebAppUsageRequest">
-        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="AddWebAppUsageResponse">
-        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="WebAppUsageExistsInPeriod">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriod" style="document" />
-      <wsdl:input name="WebAppUsageExistsInPeriodRequest">
-        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="WebAppUsageExistsInPeriodResponse">
-        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetWebAppUsagesForPeriod">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriod" style="document" />
-      <wsdl:input name="GetWebAppUsagesForPeriodRequest">
-        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetWebAppUsagesForPeriodResponse">
-        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -967,6 +903,70 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:ResyncUsersResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ResyncUsersResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ResyncUsersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerformTasksAfterUpgrade">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" style="document" />
+      <wsdl:input name="PerformTasksAfterUpgradeRequest">
+        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:PerformTasksAfterUpgradeRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PerformTasksAfterUpgradeResponse">
+        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddWebAppUsage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" style="document" />
+      <wsdl:input name="AddWebAppUsageRequest">
+        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AddWebAppUsageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AddWebAppUsageResponse">
+        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AddWebAppUsageResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebAppUsageExistsInPeriod">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriod" style="document" />
+      <wsdl:input name="WebAppUsageExistsInPeriodRequest">
+        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:WebAppUsageExistsInPeriodRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="WebAppUsageExistsInPeriodResponse">
+        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:WebAppUsageExistsInPeriodResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWebAppUsagesForPeriod">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriod" style="document" />
+      <wsdl:input name="GetWebAppUsagesForPeriodRequest">
+        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetWebAppUsagesForPeriodRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetWebAppUsagesForPeriodResponse">
+        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetWebAppUsagesForPeriodResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

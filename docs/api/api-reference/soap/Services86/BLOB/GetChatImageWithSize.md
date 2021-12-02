@@ -1,10 +1,10 @@
 ---
-uid: services86-blob-getchatimagewithsize
 title: Services86.BLOBAgent.GetChatImageWithSize SOAP
-Generated: true
+generated: 1
+uid: Services86-BLOB-GetChatImageWithSize
 ---
 
-# Services86 BLOB GetChatImageWithSize SOAP
+# Services86 BLOB GetChatImageWithSize
 
 SOAP request and response examples **Remote/Services86/BLOB.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.GetChatImageWithSize">SuperOffice.Services86.IBLOBAgent.GetChatImageWithSize</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services87-license-getuserlicenses
 title: Services87.LicenseAgent.GetUserLicenses SOAP
-Generated: true
+generated: 1
+uid: Services87-License-GetUserLicenses
 ---
 
-# Services87 License GetUserLicenses SOAP
+# Services87 License GetUserLicenses
 
 SOAP request and response examples **Remote/Services87/License.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.GetUserLicenses">SuperOffice.Services87.ILicenseAgent.GetUserLicenses</see> method.

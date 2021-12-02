@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-getattachmentstream
 title: Services88.TicketAgent.GetAttachmentStream SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-GetAttachmentStream
 ---
 
-# Services88 Ticket GetAttachmentStream SOAP
+# Services88 Ticket GetAttachmentStream
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetAttachmentStream">SuperOffice.Services88.ITicketAgent.GetAttachmentStream</see> method.

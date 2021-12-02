@@ -1,10 +1,10 @@
 ---
-uid: services86-bulkupdate-getstoredfields
 title: Services86.BulkUpdateAgent.GetStoredFields SOAP
-Generated: true
+generated: 1
+uid: Services86-BulkUpdate-GetStoredFields
 ---
 
-# Services86 BulkUpdate GetStoredFields SOAP
+# Services86 BulkUpdate GetStoredFields
 
 SOAP request and response examples **Remote/Services86/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IBulkUpdateAgent.GetStoredFields">SuperOffice.Services86.IBulkUpdateAgent.GetStoredFields</see> method.

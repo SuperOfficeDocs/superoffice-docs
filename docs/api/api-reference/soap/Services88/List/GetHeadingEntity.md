@@ -1,10 +1,10 @@
 ---
-uid: services88-list-getheadingentity
 title: Services88.ListAgent.GetHeadingEntity SOAP
-Generated: true
+generated: 1
+uid: Services88-List-GetHeadingEntity
 ---
 
-# Services88 List GetHeadingEntity SOAP
+# Services88 List GetHeadingEntity
 
 SOAP request and response examples **Remote/Services88/List.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetHeadingEntity">SuperOffice.Services88.IListAgent.GetHeadingEntity</see> method.

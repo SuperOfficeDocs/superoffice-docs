@@ -1,10 +1,10 @@
 ---
-uid: services87-quote-createquotelinefromproduct
 title: Services87.QuoteAgent.CreateQuoteLineFromProduct SOAP
-Generated: true
+generated: 1
+uid: Services87-Quote-CreateQuoteLineFromProduct
 ---
 
-# Services87 Quote CreateQuoteLineFromProduct SOAP
+# Services87 Quote CreateQuoteLineFromProduct
 
 SOAP request and response examples **Remote/Services87/Quote.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CreateQuoteLineFromProduct">SuperOffice.Services87.IQuoteAgent.CreateQuoteLineFromProduct</see> method.
@@ -147,7 +147,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
     <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
     <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2021-03-25T21:36:42Z</Quote:SubscriptionStart>
+    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2021-11-30T13:23:24Z</Quote:SubscriptionStart>
     <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
     <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
     <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>

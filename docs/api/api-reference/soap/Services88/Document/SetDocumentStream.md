@@ -1,10 +1,10 @@
 ---
-uid: services88-document-setdocumentstream
 title: Services88.DocumentAgent.SetDocumentStream SOAP
-Generated: true
+generated: 1
+uid: Services88-Document-SetDocumentStream
 ---
 
-# Services88 Document SetDocumentStream SOAP
+# Services88 Document SetDocumentStream
 
 SOAP request and response examples **Remote/Services88/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.SetDocumentStream">SuperOffice.Services88.IDocumentAgent.SetDocumentStream</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:Name xsi:type="xsd:string"></Document:Name>
      <Document:OurRef xsi:type="xsd:string"></Document:OurRef>
      <Document:YourRef xsi:type="xsd:string"></Document:YourRef>
-     <Document:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:CreatedDate>
-     <Document:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:UpdatedDate>
+     <Document:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:CreatedDate>
+     <Document:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:UpdatedDate>
      <Document:Description xsi:type="xsd:string"></Document:Description>
      <Document:DocumentTemplate xsi:type="Document:DocumentTemplate">
       <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
@@ -222,18 +222,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
       <Document:AssociateFullName xsi:type="xsd:string"></Document:AssociateFullName>
       <Document:TypeId xsi:type="xsd:int">0</Document:TypeId>
-      <Document:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:Updated>
+      <Document:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:Updated>
       <Document:StatusId xsi:type="xsd:int">0</Document:StatusId>
       <Document:Status xsi:type="xsd:string"></Document:Status>
       <Document:TextId xsi:type="xsd:int">0</Document:TextId>
-      <Document:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishTo>
-      <Document:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishFrom>
+      <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishTo>
+      <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishFrom>
       <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
       <Document:URLName xsi:type="xsd:string"></Document:URLName>
       <Document:ProjectNumber xsi:type="xsd:string"></Document:ProjectNumber>
       <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
      </Document:Project>
-     <Document:Date xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:Date>
+     <Document:Date xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:Date>
      <Document:ExternalRef xsi:type="xsd:string"></Document:ExternalRef>
      <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
      <Document:ActiveLinks xsi:type="xsd:int">0</Document:ActiveLinks>
@@ -250,7 +250,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:LockSemantics xsi:type="Document:DocumentLockSemantics">None</Document:LockSemantics>
      <Document:Sale xsi:type="Document:Sale">
       <Document:ContactName xsi:type="xsd:string"></Document:ContactName>
-      <Document:SaleDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:SaleDate>
+      <Document:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:SaleDate>
       <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
       <Document:Probability xsi:type="xsd:short">0</Document:Probability>
       <Document:Title xsi:type="xsd:string"></Document:Title>
@@ -272,7 +272,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:PersonFullName xsi:type="xsd:string"></Document:PersonFullName>
       <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
       <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
-      <Document:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:NextDueDate>
+      <Document:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:NextDueDate>
       <Document:Number xsi:type="xsd:string"></Document:Number>
      </Document:Sale>
      <Document:SuggestedDocumentId xsi:type="xsd:int">0</Document:SuggestedDocumentId>
@@ -295,9 +295,9 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Document:Value xsi:type="xsd:string"></Document:Value>
       </Document:StringKeyValuePair>
      </Document:CustomFields>
-     <Document:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishEventDate>
-     <Document:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishTo>
-     <Document:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishFrom>
+     <Document:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishEventDate>
+     <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishTo>
+     <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishFrom>
      <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
      <Document:VisibleFor xsi:type="Document:ArrayOfVisibleFor">
       <Document:VisibleFor xsi:type="Document:VisibleFor">
@@ -366,8 +366,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:Name xsi:type="xsd:string"></Document:Name>
     <Document:OurRef xsi:type="xsd:string"></Document:OurRef>
     <Document:YourRef xsi:type="xsd:string"></Document:YourRef>
-    <Document:CreatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:CreatedDate>
-    <Document:UpdatedDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:UpdatedDate>
+    <Document:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:CreatedDate>
+    <Document:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:UpdatedDate>
     <Document:Description xsi:type="xsd:string"></Document:Description>
     <Document:DocumentTemplate xsi:type="Document:DocumentTemplate">
      <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
@@ -509,18 +509,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:AssociateFullName xsi:type="xsd:string"></Document:AssociateFullName>
      <Document:TypeId xsi:type="xsd:int">0</Document:TypeId>
-     <Document:Updated xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:Updated>
+     <Document:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:Updated>
      <Document:StatusId xsi:type="xsd:int">0</Document:StatusId>
      <Document:Status xsi:type="xsd:string"></Document:Status>
      <Document:TextId xsi:type="xsd:int">0</Document:TextId>
-     <Document:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishTo>
-     <Document:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishFrom>
+     <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishTo>
+     <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishFrom>
      <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
      <Document:URLName xsi:type="xsd:string"></Document:URLName>
      <Document:ProjectNumber xsi:type="xsd:string"></Document:ProjectNumber>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
     </Document:Project>
-    <Document:Date xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:Date>
+    <Document:Date xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:Date>
     <Document:ExternalRef xsi:type="xsd:string"></Document:ExternalRef>
     <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
     <Document:ActiveLinks xsi:type="xsd:int">0</Document:ActiveLinks>
@@ -537,7 +537,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:LockSemantics xsi:type="Document:DocumentLockSemantics">None</Document:LockSemantics>
     <Document:Sale xsi:type="Document:Sale">
      <Document:ContactName xsi:type="xsd:string"></Document:ContactName>
-     <Document:SaleDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:SaleDate>
+     <Document:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:SaleDate>
      <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
      <Document:Probability xsi:type="xsd:short">0</Document:Probability>
      <Document:Title xsi:type="xsd:string"></Document:Title>
@@ -559,7 +559,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:PersonFullName xsi:type="xsd:string"></Document:PersonFullName>
      <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
-     <Document:NextDueDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:NextDueDate>
+     <Document:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:NextDueDate>
      <Document:Number xsi:type="xsd:string"></Document:Number>
     </Document:Sale>
     <Document:SuggestedDocumentId xsi:type="xsd:int">0</Document:SuggestedDocumentId>
@@ -582,9 +582,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:Value xsi:type="xsd:string"></Document:Value>
      </Document:StringKeyValuePair>
     </Document:CustomFields>
-    <Document:PublishEventDate xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishEventDate>
-    <Document:PublishTo xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishTo>
-    <Document:PublishFrom xsi:type="xsd:dateTime">2021-03-25T21:36:56Z</Document:PublishFrom>
+    <Document:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishEventDate>
+    <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishTo>
+    <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:37Z</Document:PublishFrom>
     <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
     <Document:VisibleFor xsi:type="Document:ArrayOfVisibleFor">
      <Document:VisibleFor xsi:type="Document:VisibleFor">

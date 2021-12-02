@@ -1,10 +1,10 @@
 ---
-uid: services87-saint-regeneratestatusmonitors
 title: Services87.SaintAgent.RegenerateStatusMonitors SOAP
-Generated: true
+generated: 1
+uid: Services87-Saint-RegenerateStatusMonitors
 ---
 
-# Services87 Saint RegenerateStatusMonitors SOAP
+# Services87 Saint RegenerateStatusMonitors
 
 SOAP request and response examples **Remote/Services87/Saint.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.RegenerateStatusMonitors">SuperOffice.Services87.ISaintAgent.RegenerateStatusMonitors</see> method.
@@ -79,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2021-03-25T21:36:44Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>

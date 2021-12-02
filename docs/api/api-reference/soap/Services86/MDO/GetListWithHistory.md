@@ -1,10 +1,10 @@
 ---
-uid: services86-mdo-getlistwithhistory
 title: Services86.MDOAgent.GetListWithHistory SOAP
-Generated: true
+generated: 1
+uid: Services86-MDO-GetListWithHistory
 ---
 
-# Services86 MDO GetListWithHistory SOAP
+# Services86 MDO GetListWithHistory
 
 SOAP request and response examples **Remote/Services86/MDO.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetListWithHistory">SuperOffice.Services86.IMDOAgent.GetListWithHistory</see> method.

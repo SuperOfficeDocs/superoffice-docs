@@ -1,10 +1,10 @@
 ---
-uid: services85-archive-getarchivelist
 title: Services85.ArchiveAgent.GetArchiveList SOAP
-Generated: true
+generated: 1
+uid: Services85-Archive-GetArchiveList
 ---
 
-# Services85 Archive GetArchiveList SOAP
+# Services85 Archive GetArchiveList
 
 SOAP request and response examples **Remote/Services85/Archive.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetArchiveList">SuperOffice.Services85.IArchiveAgent.GetArchiveList</see> method.

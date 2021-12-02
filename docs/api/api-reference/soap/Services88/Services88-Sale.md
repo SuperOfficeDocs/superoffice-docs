@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Sale
 title: Services88.SaleAgent WSDL
 ---
 
@@ -1386,6 +1386,36 @@ title: Services88.SaleAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetSalesFromContact">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+            <xs:element minOccurs="0" name="OnlyOpenSales" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSalesFromContactResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q120:ArrayOfSale" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSalesFromPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="OnlyOpenSales" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSalesFromPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q121:ArrayOfSale" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetSaleStakeholder">
         <xs:complexType>
           <xs:sequence>
@@ -1396,21 +1426,21 @@ title: Services88.SaleAgent WSDL
       <xs:element name="GetSaleStakeholderResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q120:SaleStakeholder" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:SaleStakeholder" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetSaleStakeholderList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SaleStakeholderIds" nillable="true" type="q121:ArrayOfint" xmlns:q121="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SaleStakeholderIds" nillable="true" type="q123:ArrayOfint" xmlns:q123="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetSaleStakeholderListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ArrayOfSaleStakeholder" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q124:ArrayOfSaleStakeholder" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1424,35 +1454,35 @@ title: Services88.SaleAgent WSDL
       <xs:element name="GetSaleStakeholdersResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ArrayOfSaleStakeholder" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ArrayOfSaleStakeholder" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateSaleStakeholders">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Stakeholders" nillable="true" type="q124:ArrayOfSaleStakeholder" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Stakeholders" nillable="true" type="q126:ArrayOfSaleStakeholder" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateSaleStakeholdersResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ArrayOfSaleStakeholder" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q127:ArrayOfSaleStakeholder" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetSaleStakeholderById">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SaleStakeholderIds" nillable="true" type="q126:ArrayOfint" xmlns:q126="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SaleStakeholderIds" nillable="true" type="q128:ArrayOfint" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetSaleStakeholderByIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q127:ArrayOfSaleStakeholder" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:ArrayOfSaleStakeholder" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1468,7 +1498,7 @@ title: Services88.SaleAgent WSDL
       <xs:element name="GetSummaryByAssociateResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q128:SaleSummary" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:SaleSummary" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1484,7 +1514,7 @@ title: Services88.SaleAgent WSDL
       <xs:element name="GetSummaryByGroupResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:SaleSummary" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q131:SaleSummary" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1500,7 +1530,7 @@ title: Services88.SaleAgent WSDL
       <xs:element name="GetSummaryByContactResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:SaleSummary" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q132:SaleSummary" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2048,6 +2078,40 @@ title: Services88.SaleAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetSalesFromContactRequest">
+    <wsdl:part name="parameters" element="tns:GetSalesFromContact" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromContactRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromContactResponse">
+    <wsdl:part name="parameters" element="tns:GetSalesFromContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromContactResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromPersonRequest">
+    <wsdl:part name="parameters" element="tns:GetSalesFromPerson" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromPersonResponse">
+    <wsdl:part name="parameters" element="tns:GetSalesFromPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesFromPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetSaleStakeholderRequest">
     <wsdl:part name="parameters" element="tns:GetSaleStakeholder" />
   </wsdl:message>
@@ -2395,6 +2459,20 @@ title: Services88.SaleAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsLost" name="SetAsLostRequest" message="tns:SetAsLostRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsLostResponse" name="SetAsLostResponse" message="tns:SetAsLostResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesFromContact">
+      <wsdl:documentation>
+        <summary>Returns all sales for the contact provided.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromContact" name="GetSalesFromContactRequest" message="tns:GetSalesFromContactRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromContactResponse" name="GetSalesFromContactResponse" message="tns:GetSalesFromContactResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesFromPerson">
+      <wsdl:documentation>
+        <summary>Returns all sales for the person provided.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromPerson" name="GetSalesFromPersonRequest" message="tns:GetSalesFromPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromPersonResponse" name="GetSalesFromPersonResponse" message="tns:GetSalesFromPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStakeholder">
       <wsdl:documentation>
@@ -2922,6 +3000,38 @@ title: Services88.SaleAgent WSDL
         <soap:header message="tns:SetAsLostResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetAsLostResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetAsLostResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesFromContact">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromContact" style="document" />
+      <wsdl:input name="GetSalesFromContactRequest">
+        <soap:header message="tns:GetSalesFromContactRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSalesFromContactRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSalesFromContactRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSalesFromContactResponse">
+        <soap:header message="tns:GetSalesFromContactResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSalesFromContactResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSalesFromContactResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSalesFromContactResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesFromPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromPerson" style="document" />
+      <wsdl:input name="GetSalesFromPersonRequest">
+        <soap:header message="tns:GetSalesFromPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSalesFromPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSalesFromPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSalesFromPersonResponse">
+        <soap:header message="tns:GetSalesFromPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSalesFromPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSalesFromPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSalesFromPersonResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

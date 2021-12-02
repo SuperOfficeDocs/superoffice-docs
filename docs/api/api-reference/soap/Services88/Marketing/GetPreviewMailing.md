@@ -1,10 +1,10 @@
 ---
-uid: services88-marketing-getpreviewmailing
 title: Services88.MarketingAgent.GetPreviewMailing SOAP
-Generated: true
+generated: 1
+uid: Services88-Marketing-GetPreviewMailing
 ---
 
-# Services88 Marketing GetPreviewMailing SOAP
+# Services88 Marketing GetPreviewMailing
 
 SOAP request and response examples **Remote/Services88/Marketing.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.GetPreviewMailing">SuperOffice.Services88.IMarketingAgent.GetPreviewMailing</see> method.
@@ -64,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailing">
-    <Marketing:SendingTime xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:SendingTime>
+    <Marketing:SendingTime xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:SendingTime>
     <Marketing:Status xsi:type="Marketing:ShipmentAddrStatus">Unknown</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>
@@ -76,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentType xsi:type="xsd:string"></Marketing:ShipmentType>
     <Marketing:MessageId xsi:type="xsd:int">0</Marketing:MessageId>
     <Marketing:MessageSubject xsi:type="xsd:string"></Marketing:MessageSubject>
-    <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-    <Marketing:Opened xsi:type="xsd:dateTime">2021-03-25T21:37:03Z</Marketing:Opened>
+    <Marketing:DocumentMessageId xsi:type="xsd:int">0</Marketing:DocumentMessageId>
+    <Marketing:Opened xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Opened>
     <Marketing:LinkClicks xsi:type="xsd:int">0</Marketing:LinkClicks>
    </Marketing:Response>
   </Marketing:GetPreviewMailingResponse>

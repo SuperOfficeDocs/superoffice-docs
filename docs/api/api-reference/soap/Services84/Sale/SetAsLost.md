@@ -1,10 +1,10 @@
 ---
-uid: services84-sale-setaslost
 title: Services84.SaleAgent.SetAsLost SOAP
-Generated: true
+generated: 1
+uid: Services84-Sale-SetAsLost
 ---
 
-# Services84 Sale SetAsLost SOAP
+# Services84 Sale SetAsLost
 
 SOAP request and response examples **Remote/Services84/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.SetAsLost">SuperOffice.Services84.ISaleAgent.SetAsLost</see> method.

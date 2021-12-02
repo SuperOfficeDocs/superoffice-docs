@@ -1,10 +1,10 @@
 ---
-uid: services84-email-cachefolderlist
 title: Services84.EMailAgent.CacheFolderList SOAP
-Generated: true
+generated: 1
+uid: Services84-EMail-CacheFolderList
 ---
 
-# Services84 EMail CacheFolderList SOAP
+# Services84 EMail CacheFolderList
 
 SOAP request and response examples **Remote/Services84/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.CacheFolderList">SuperOffice.Services84.IEMailAgent.CacheFolderList</see> method.

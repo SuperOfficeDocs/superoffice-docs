@@ -1,7 +1,7 @@
 ---
-uid: services87-database
 title: Services87.DatabaseAgent SOAP
-Generated: true
+uid: Services87-Database-soap
+generated: 1
 ---
 
 # Services87 Database SOAP
@@ -17,3 +17,4 @@ Download [WSDL file for Services87/Database](../Services87-Database.md) if you n
 
 * [GetStepsFromNetServerCode](GetStepsFromNetServerCode.md)
 * [GetStepsInDatabase](GetStepsInDatabase.md)
+

@@ -1,10 +1,10 @@
 ---
-uid: services87-soprincipal-authenticateimplicit
 title: Services87.SoPrincipalAgent.AuthenticateImplicit SOAP
-Generated: true
+generated: 1
+uid: Services87-SoPrincipal-AuthenticateImplicit
 ---
 
-# Services87 SoPrincipal AuthenticateImplicit SOAP
+# Services87 SoPrincipal AuthenticateImplicit
 
 SOAP request and response examples **Remote/Services87/SoPrincipal.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.AuthenticateImplicit">SuperOffice.Services87.ISoPrincipalAgent.AuthenticateImplicit</see> method.
@@ -88,7 +88,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-03-25T21:36:46Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:27Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>

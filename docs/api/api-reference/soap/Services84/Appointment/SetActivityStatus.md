@@ -1,10 +1,10 @@
 ---
-uid: services84-appointment-setactivitystatus
 title: Services84.AppointmentAgent.SetActivityStatus SOAP
-Generated: true
+generated: 1
+uid: Services84-Appointment-SetActivityStatus
 ---
 
-# Services84 Appointment SetActivityStatus SOAP
+# Services84 Appointment SetActivityStatus
 
 SOAP request and response examples **Remote/Services84/Appointment.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.SetActivityStatus">SuperOffice.Services84.IAppointmentAgent.SetActivityStatus</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-configuration-getcrmurl
 title: Services84.ConfigurationAgent.GetCRMUrl SOAP
-Generated: true
+generated: 1
+uid: Services84-Configuration-GetCRMUrl
 ---
 
-# Services84 Configuration GetCRMUrl SOAP
+# Services84 Configuration GetCRMUrl
 
 SOAP request and response examples **Remote/Services84/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetCRMUrl">SuperOffice.Services84.IConfigurationAgent.GetCRMUrl</see> method.

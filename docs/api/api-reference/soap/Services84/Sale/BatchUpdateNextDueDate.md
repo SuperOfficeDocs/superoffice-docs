@@ -1,10 +1,10 @@
 ---
-uid: services84-sale-batchupdatenextduedate
 title: Services84.SaleAgent.BatchUpdateNextDueDate SOAP
-Generated: true
+generated: 1
+uid: Services84-Sale-BatchUpdateNextDueDate
 ---
 
-# Services84 Sale BatchUpdateNextDueDate SOAP
+# Services84 Sale BatchUpdateNextDueDate
 
 SOAP request and response examples **Remote/Services84/Sale.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.BatchUpdateNextDueDate">SuperOffice.Services84.ISaleAgent.BatchUpdateNextDueDate</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-customerservice-savesmsconfig
 title: Services84.CustomerServiceAgent.SaveSmsConfig SOAP
-Generated: true
+generated: 1
+uid: Services84-CustomerService-SaveSmsConfig
 ---
 
-# Services84 CustomerService SaveSmsConfig SOAP
+# Services84 CustomerService SaveSmsConfig
 
 SOAP request and response examples **Remote/Services84/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.SaveSmsConfig">SuperOffice.Services84.ICustomerServiceAgent.SaveSmsConfig</see> method.

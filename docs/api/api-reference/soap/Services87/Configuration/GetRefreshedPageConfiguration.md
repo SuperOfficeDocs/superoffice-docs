@@ -1,10 +1,10 @@
 ---
-uid: services87-configuration-getrefreshedpageconfiguration
 title: Services87.ConfigurationAgent.GetRefreshedPageConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services87-Configuration-GetRefreshedPageConfiguration
 ---
 
-# Services87 Configuration GetRefreshedPageConfiguration SOAP
+# Services87 Configuration GetRefreshedPageConfiguration
 
 SOAP request and response examples **Remote/Services87/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetRefreshedPageConfiguration">SuperOffice.Services87.IConfigurationAgent.GetRefreshedPageConfiguration</see> method.

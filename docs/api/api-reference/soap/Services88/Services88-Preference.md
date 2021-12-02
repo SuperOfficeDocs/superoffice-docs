@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Preference
 title: Services88.PreferenceAgent WSDL
 ---
 
@@ -368,6 +368,32 @@ title: Services88.PreferenceAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="PreferenceDescriptionLine" nillable="true" type="tns:PreferenceDescriptionLine" />
+      <xs:element name="SavePreferenceDescriptionLine">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PreferenceDescriptionLine" nillable="true" type="tns:PreferenceDescriptionLine" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SavePreferenceDescriptionLineResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreferenceDescriptionLine" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePreferenceDescriptionLine">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PreferenceDescriptionLineId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePreferenceDescriptionLineResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SavePreference">
         <xs:complexType>
           <xs:sequence>
@@ -635,6 +661,76 @@ title: Services88.PreferenceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetPreferenceDescriptionLinesByPrefDescId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PrefDescId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreferenceDescriptionLinesByPrefDescIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfPreferenceDescriptionLine" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfPreferenceDescriptionLine">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="PreferenceDescriptionLine" nillable="true" type="tns:PreferenceDescriptionLine" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfPreferenceDescriptionLine" nillable="true" type="tns:ArrayOfPreferenceDescriptionLine" />
+      <xs:element name="SavePreferenceDescriptionLines">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PreferenceDescriptionLines" nillable="true" type="tns:ArrayOfPreferenceDescriptionLine" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SavePreferenceDescriptionLinesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfPreferenceDescriptionLine" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePreferenceDescriptionLines">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PrefDescLineIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePreferenceDescriptionLinesResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePrefDescLinesByPrefDescId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PrefDescId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePrefDescLinesByPrefDescIdResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePrefDescLinesByPrefDescIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PrefDescIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeletePrefDescLinesByPrefDescIdsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPreferences">
         <xs:complexType>
           <xs:sequence>
@@ -861,6 +957,40 @@ title: Services88.PreferenceAgent WSDL
     <wsdl:part name="parameters" element="tns:CreateDefaultPreferenceDescriptionLineResponse" />
   </wsdl:message>
   <wsdl:message name="CreateDefaultPreferenceDescriptionLineResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLineRequest">
+    <wsdl:part name="parameters" element="tns:SavePreferenceDescriptionLine" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLineRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLineResponse">
+    <wsdl:part name="parameters" element="tns:SavePreferenceDescriptionLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLineResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLineRequest">
+    <wsdl:part name="parameters" element="tns:DeletePreferenceDescriptionLine" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLineRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLineResponse">
+    <wsdl:part name="parameters" element="tns:DeletePreferenceDescriptionLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLineResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1189,6 +1319,91 @@ title: Services88.PreferenceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetPreferenceDescriptionLinesByPrefDescIdRequest">
+    <wsdl:part name="parameters" element="tns:GetPreferenceDescriptionLinesByPrefDescId" />
+  </wsdl:message>
+  <wsdl:message name="GetPreferenceDescriptionLinesByPrefDescIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreferenceDescriptionLinesByPrefDescIdResponse">
+    <wsdl:part name="parameters" element="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreferenceDescriptionLinesByPrefDescIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLinesRequest">
+    <wsdl:part name="parameters" element="tns:SavePreferenceDescriptionLines" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLinesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLinesResponse">
+    <wsdl:part name="parameters" element="tns:SavePreferenceDescriptionLinesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SavePreferenceDescriptionLinesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLinesRequest">
+    <wsdl:part name="parameters" element="tns:DeletePreferenceDescriptionLines" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLinesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLinesResponse">
+    <wsdl:part name="parameters" element="tns:DeletePreferenceDescriptionLinesResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePreferenceDescriptionLinesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdRequest">
+    <wsdl:part name="parameters" element="tns:DeletePrefDescLinesByPrefDescId" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdResponse">
+    <wsdl:part name="parameters" element="tns:DeletePrefDescLinesByPrefDescIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdsRequest">
+    <wsdl:part name="parameters" element="tns:DeletePrefDescLinesByPrefDescIds" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdsResponse">
+    <wsdl:part name="parameters" element="tns:DeletePrefDescLinesByPrefDescIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePrefDescLinesByPrefDescIdsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreferencesRequest">
     <wsdl:part name="parameters" element="tns:GetPreferences" />
   </wsdl:message>
@@ -1330,6 +1545,20 @@ title: Services88.PreferenceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/CreateDefaultPreferenceDescriptionLine" name="CreateDefaultPreferenceDescriptionLineRequest" message="tns:CreateDefaultPreferenceDescriptionLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/CreateDefaultPreferenceDescriptionLineResponse" name="CreateDefaultPreferenceDescriptionLineResponse" message="tns:CreateDefaultPreferenceDescriptionLineResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SavePreferenceDescriptionLine">
+      <wsdl:documentation>
+        <summary>Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLine" name="SavePreferenceDescriptionLineRequest" message="tns:SavePreferenceDescriptionLineRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLineResponse" name="SavePreferenceDescriptionLineResponse" message="tns:SavePreferenceDescriptionLineResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePreferenceDescriptionLine">
+      <wsdl:documentation>
+        <summary>Deletes the PreferenceDescriptionLine</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLine" name="DeletePreferenceDescriptionLineRequest" message="tns:DeletePreferenceDescriptionLineRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLineResponse" name="DeletePreferenceDescriptionLineResponse" message="tns:DeletePreferenceDescriptionLineResponse" />
+    </wsdl:operation>
     <wsdl:operation name="SavePreference">
       <wsdl:documentation>
         <summary>Save this preference</summary>
@@ -1463,6 +1692,41 @@ title: Services88.PreferenceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionLineFromIdAndValue" name="GetPreferenceDescriptionLineFromIdAndValueRequest" message="tns:GetPreferenceDescriptionLineFromIdAndValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionLineFromIdAndValueResponse" name="GetPreferenceDescriptionLineFromIdAndValueResponse" message="tns:GetPreferenceDescriptionLineFromIdAndValueResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetPreferenceDescriptionLinesByPrefDescId">
+      <wsdl:documentation>
+        <summary>Get all preference description lines from a prefDesc_id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionLinesByPrefDescId" name="GetPreferenceDescriptionLinesByPrefDescIdRequest" message="tns:GetPreferenceDescriptionLinesByPrefDescIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionLinesByPrefDescIdResponse" name="GetPreferenceDescriptionLinesByPrefDescIdResponse" message="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePreferenceDescriptionLines">
+      <wsdl:documentation>
+        <summary>Saves the PreferenceDescriptionLine array in the SuperOffice database</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLines" name="SavePreferenceDescriptionLinesRequest" message="tns:SavePreferenceDescriptionLinesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLinesResponse" name="SavePreferenceDescriptionLinesResponse" message="tns:SavePreferenceDescriptionLinesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePreferenceDescriptionLines">
+      <wsdl:documentation>
+        <summary>Delete the PrefDescLines in the SuperOffice database</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLines" name="DeletePreferenceDescriptionLinesRequest" message="tns:DeletePreferenceDescriptionLinesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLinesResponse" name="DeletePreferenceDescriptionLinesResponse" message="tns:DeletePreferenceDescriptionLinesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePrefDescLinesByPrefDescId">
+      <wsdl:documentation>
+        <summary>Delete the PrefDescLines associated with Preference Description Id in the SuperOffice database</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescId" name="DeletePrefDescLinesByPrefDescIdRequest" message="tns:DeletePrefDescLinesByPrefDescIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescIdResponse" name="DeletePrefDescLinesByPrefDescIdResponse" message="tns:DeletePrefDescLinesByPrefDescIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePrefDescLinesByPrefDescIds">
+      <wsdl:documentation>
+        <summary>Delete the PrefDescLines associated with Preference Description Ids in the SuperOffice database</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescIds" name="DeletePrefDescLinesByPrefDescIdsRequest" message="tns:DeletePrefDescLinesByPrefDescIdsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescIdsResponse" name="DeletePrefDescLinesByPrefDescIdsResponse" message="tns:DeletePrefDescLinesByPrefDescIdsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreferences">
       <wsdl:documentation>
         <summary>Get one or more preferences based on a set of specifications.&lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)</summary>
@@ -1587,6 +1851,38 @@ title: Services88.PreferenceAgent WSDL
         <soap:header message="tns:CreateDefaultPreferenceDescriptionLineResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CreateDefaultPreferenceDescriptionLineResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CreateDefaultPreferenceDescriptionLineResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePreferenceDescriptionLine">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLine" style="document" />
+      <wsdl:input name="SavePreferenceDescriptionLineRequest">
+        <soap:header message="tns:SavePreferenceDescriptionLineRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLineRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLineRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SavePreferenceDescriptionLineResponse">
+        <soap:header message="tns:SavePreferenceDescriptionLineResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLineResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLineResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLineResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePreferenceDescriptionLine">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLine" style="document" />
+      <wsdl:input name="DeletePreferenceDescriptionLineRequest">
+        <soap:header message="tns:DeletePreferenceDescriptionLineRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLineRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLineRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeletePreferenceDescriptionLineResponse">
+        <soap:header message="tns:DeletePreferenceDescriptionLineResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLineResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLineResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLineResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -1891,6 +2187,86 @@ title: Services88.PreferenceAgent WSDL
         <soap:header message="tns:GetPreferenceDescriptionLineFromIdAndValueResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPreferenceDescriptionLineFromIdAndValueResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPreferenceDescriptionLineFromIdAndValueResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPreferenceDescriptionLinesByPrefDescId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionLinesByPrefDescId" style="document" />
+      <wsdl:input name="GetPreferenceDescriptionLinesByPrefDescIdRequest">
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreferenceDescriptionLinesByPrefDescIdResponse">
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreferenceDescriptionLinesByPrefDescIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePreferenceDescriptionLines">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SavePreferenceDescriptionLines" style="document" />
+      <wsdl:input name="SavePreferenceDescriptionLinesRequest">
+        <soap:header message="tns:SavePreferenceDescriptionLinesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLinesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLinesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SavePreferenceDescriptionLinesResponse">
+        <soap:header message="tns:SavePreferenceDescriptionLinesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLinesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLinesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SavePreferenceDescriptionLinesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePreferenceDescriptionLines">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePreferenceDescriptionLines" style="document" />
+      <wsdl:input name="DeletePreferenceDescriptionLinesRequest">
+        <soap:header message="tns:DeletePreferenceDescriptionLinesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLinesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLinesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeletePreferenceDescriptionLinesResponse">
+        <soap:header message="tns:DeletePreferenceDescriptionLinesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLinesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLinesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeletePreferenceDescriptionLinesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePrefDescLinesByPrefDescId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescId" style="document" />
+      <wsdl:input name="DeletePrefDescLinesByPrefDescIdRequest">
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeletePrefDescLinesByPrefDescIdResponse">
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePrefDescLinesByPrefDescIds">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/DeletePrefDescLinesByPrefDescIds" style="document" />
+      <wsdl:input name="DeletePrefDescLinesByPrefDescIdsRequest">
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeletePrefDescLinesByPrefDescIdsResponse">
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeletePrefDescLinesByPrefDescIdsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -1,10 +1,10 @@
 ---
-uid: services88-ticket-addattachments
 title: Services88.TicketAgent.AddAttachments SOAP
-Generated: true
+generated: 1
+uid: Services88-Ticket-AddAttachments
 ---
 
-# Services88 Ticket AddAttachments SOAP
+# Services88 Ticket AddAttachments
 
 SOAP request and response examples **Remote/Services88/Ticket.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.AddAttachments">SuperOffice.Services88.ITicketAgent.AddAttachments</see> method.

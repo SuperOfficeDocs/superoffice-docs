@@ -1,10 +1,10 @@
 ---
-uid: services86-document-getdocumentproperties
 title: Services86.DocumentAgent.GetDocumentProperties SOAP
-Generated: true
+generated: 1
+uid: Services86-Document-GetDocumentProperties
 ---
 
-# Services86 Document GetDocumentProperties SOAP
+# Services86 Document GetDocumentProperties
 
 SOAP request and response examples **Remote/Services86/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetDocumentProperties">SuperOffice.Services86.IDocumentAgent.GetDocumentProperties</see> method.

@@ -1,10 +1,10 @@
 ---
-uid: services84-erpsync-changeengineinterval
 title: Services84.ErpSyncAgent.ChangeEngineInterval SOAP
-Generated: true
+generated: 1
+uid: Services84-ErpSync-ChangeEngineInterval
 ---
 
-# Services84 ErpSync ChangeEngineInterval SOAP
+# Services84 ErpSync ChangeEngineInterval
 
 SOAP request and response examples **Remote/Services84/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.ChangeEngineInterval">SuperOffice.Services84.IErpSyncAgent.ChangeEngineInterval</see> method.

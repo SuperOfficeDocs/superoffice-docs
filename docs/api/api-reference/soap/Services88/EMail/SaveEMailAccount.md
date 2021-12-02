@@ -1,10 +1,10 @@
 ---
-uid: services88-email-saveemailaccount
 title: Services88.EMailAgent.SaveEMailAccount SOAP
-Generated: true
+generated: 1
+uid: Services88-EMail-SaveEMailAccount
 ---
 
-# Services88 EMail SaveEMailAccount SOAP
+# Services88 EMail SaveEMailAccount
 
 SOAP request and response examples **Remote/Services88/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SaveEMailAccount">SuperOffice.Services88.IEMailAgent.SaveEMailAccount</see> method.

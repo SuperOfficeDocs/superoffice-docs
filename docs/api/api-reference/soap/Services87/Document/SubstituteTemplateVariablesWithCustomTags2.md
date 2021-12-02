@@ -1,10 +1,10 @@
 ---
-uid: services87-document-substitutetemplatevariableswithcustomtags2
 title: Services87.DocumentAgent.SubstituteTemplateVariablesWithCustomTags2 SOAP
-Generated: true
+generated: 1
+uid: Services87-Document-SubstituteTemplateVariablesWithCustomTags2
 ---
 
-# Services87 Document SubstituteTemplateVariablesWithCustomTags2 SOAP
+# Services87 Document SubstituteTemplateVariablesWithCustomTags2
 
 SOAP request and response examples **Remote/Services87/Document.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SubstituteTemplateVariablesWithCustomTags2">SuperOffice.Services87.IDocumentAgent.SubstituteTemplateVariablesWithCustomTags2</see> method.

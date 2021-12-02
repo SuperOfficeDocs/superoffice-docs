@@ -1,10 +1,10 @@
 ---
-uid: services85-email-getreadysyncemailaccounts
 title: Services85.EMailAgent.GetReadySyncEmailAccounts SOAP
-Generated: true
+generated: 1
+uid: Services85-EMail-GetReadySyncEmailAccounts
 ---
 
-# Services85 EMail GetReadySyncEmailAccounts SOAP
+# Services85 EMail GetReadySyncEmailAccounts
 
 SOAP request and response examples **Remote/Services85/EMail.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetReadySyncEmailAccounts">SuperOffice.Services85.IEMailAgent.GetReadySyncEmailAccounts</see> method.

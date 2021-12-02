@@ -1,10 +1,10 @@
 ---
-uid: services88-ai-detectsentiment
 title: Services88.AIAgent.DetectSentiment SOAP
-Generated: true
+generated: 1
+uid: Services88-AI-DetectSentiment
 ---
 
-# Services88 AI DetectSentiment SOAP
+# Services88 AI DetectSentiment
 
 SOAP request and response examples **Remote/Services88/AI.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.DetectSentiment">SuperOffice.Services88.IAIAgent.DetectSentiment</see> method.

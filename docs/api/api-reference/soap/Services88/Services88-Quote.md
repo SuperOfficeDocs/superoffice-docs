@@ -1,6 +1,6 @@
 ---
-Generated: 1
-TOCExclude: 1
+generated: 1
+uid: wsdl-Services88-Quote
 title: Services88.QuoteAgent WSDL
 ---
 
@@ -1241,166 +1241,6 @@ title: Services88.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateAndSaveQuote">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
-            <xs:element minOccurs="0" name="ConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="FirstAlternativeName" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateAndSaveQuoteResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="QuoteEntity">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
-              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
-              <xs:element minOccurs="0" name="ERPQuoteKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPOrderKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ActiveQuoteVersionId" type="xs:int" />
-              <xs:element minOccurs="0" name="AcceptedQuoteAlternativeId" type="xs:int" />
-              <xs:element minOccurs="0" name="UseValuesFromQuote" type="xs:short" />
-              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PreferredEmailCulture" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="QuoteVersions" nillable="true" type="tns:ArrayOfQuoteVersion" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteEntity" nillable="true" type="tns:QuoteEntity" />
-      <xs:complexType name="ArrayOfQuoteVersion">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersion" nillable="true" type="tns:QuoteVersion" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfQuoteVersion" nillable="true" type="tns:ArrayOfQuoteVersion" />
-      <xs:element name="GetQuoteEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteEntityFromSaleId">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteEntityFromSaleIdResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveQuoteEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteEntity" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveQuoteEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateAndSaveQuoteFromSale">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CopyFromSaleId" type="xs:int" />
-            <xs:element minOccurs="0" name="CopyToSaleId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateAndSaveQuoteFromSaleResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="PlaceOrder">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
-            <xs:element minOccurs="0" name="MarkSaleAsSold" type="xs:boolean" />
-            <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Culture" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="PlaceOrderResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PluginUrlResponse" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="PluginUrlResponse">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="IsOk" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UserExplanation" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
-              <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="PluginUrlResponse" nillable="true" type="tns:PluginUrlResponse" />
-      <xs:element name="GetOrderState">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetOrderStateResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PluginUrlResponse" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteQuote">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteQuoteResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetQuoteAlternative">
         <xs:complexType>
           <xs:sequence>
@@ -1826,6 +1666,166 @@ title: Services88.QuoteAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:StringDictionary" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateAndSaveQuote">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+            <xs:element minOccurs="0" name="ConnectionId" type="xs:int" />
+            <xs:element minOccurs="0" name="FirstAlternativeName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateAndSaveQuoteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="QuoteEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
+              <xs:element minOccurs="0" name="ERPQuoteKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPOrderKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ActiveQuoteVersionId" type="xs:int" />
+              <xs:element minOccurs="0" name="AcceptedQuoteAlternativeId" type="xs:int" />
+              <xs:element minOccurs="0" name="UseValuesFromQuote" type="xs:short" />
+              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+              <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PreferredEmailCulture" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="QuoteVersions" nillable="true" type="tns:ArrayOfQuoteVersion" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteEntity" nillable="true" type="tns:QuoteEntity" />
+      <xs:complexType name="ArrayOfQuoteVersion">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersion" nillable="true" type="tns:QuoteVersion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuoteVersion" nillable="true" type="tns:ArrayOfQuoteVersion" />
+      <xs:element name="GetQuoteEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteEntityFromSaleId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteEntityFromSaleIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveQuoteEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteEntity" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveQuoteEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateAndSaveQuoteFromSale">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CopyFromSaleId" type="xs:int" />
+            <xs:element minOccurs="0" name="CopyToSaleId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateAndSaveQuoteFromSaleResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PlaceOrder">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
+            <xs:element minOccurs="0" name="MarkSaleAsSold" type="xs:boolean" />
+            <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Culture" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PlaceOrderResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PluginUrlResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PluginUrlResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="IsOk" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UserExplanation" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
+              <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PluginUrlResponse" nillable="true" type="tns:PluginUrlResponse" />
+      <xs:element name="GetOrderState">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetOrderStateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PluginUrlResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteQuote">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteQuoteResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateQuoteLine">
@@ -3001,142 +3001,6 @@ title: Services88.QuoteAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteRequest">
-    <wsdl:part name="parameters" element="tns:CreateAndSaveQuote" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteResponse">
-    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteEntity" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityFromSaleIdRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteEntityFromSaleId" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityFromSaleIdRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityFromSaleIdResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteEntityFromSaleIdResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteEntityFromSaleIdResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteEntityRequest">
-    <wsdl:part name="parameters" element="tns:SaveQuoteEntity" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteEntityResponse">
-    <wsdl:part name="parameters" element="tns:SaveQuoteEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteFromSaleRequest">
-    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteFromSale" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteFromSaleRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteFromSaleResponse">
-    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteFromSaleResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateAndSaveQuoteFromSaleResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="PlaceOrderRequest">
-    <wsdl:part name="parameters" element="tns:PlaceOrder" />
-  </wsdl:message>
-  <wsdl:message name="PlaceOrderRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="PlaceOrderResponse">
-    <wsdl:part name="parameters" element="tns:PlaceOrderResponse" />
-  </wsdl:message>
-  <wsdl:message name="PlaceOrderResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOrderStateRequest">
-    <wsdl:part name="parameters" element="tns:GetOrderState" />
-  </wsdl:message>
-  <wsdl:message name="GetOrderStateRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetOrderStateResponse">
-    <wsdl:part name="parameters" element="tns:GetOrderStateResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetOrderStateResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteQuoteRequest">
-    <wsdl:part name="parameters" element="tns:DeleteQuote" />
-  </wsdl:message>
-  <wsdl:message name="DeleteQuoteRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteQuoteResponse">
-    <wsdl:part name="parameters" element="tns:DeleteQuoteResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteQuoteResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetQuoteAlternativeRequest">
     <wsdl:part name="parameters" element="tns:GetQuoteAlternative" />
   </wsdl:message>
@@ -3608,6 +3472,142 @@ title: Services88.QuoteAgent WSDL
     <wsdl:part name="parameters" element="tns:SaveConnectionConfigFieldsResponse" />
   </wsdl:message>
   <wsdl:message name="SaveConnectionConfigFieldsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteRequest">
+    <wsdl:part name="parameters" element="tns:CreateAndSaveQuote" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteResponse">
+    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetQuoteEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetQuoteEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityFromSaleIdRequest">
+    <wsdl:part name="parameters" element="tns:GetQuoteEntityFromSaleId" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityFromSaleIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityFromSaleIdResponse">
+    <wsdl:part name="parameters" element="tns:GetQuoteEntityFromSaleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteEntityFromSaleIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveQuoteEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveQuoteEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteFromSaleRequest">
+    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteFromSale" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteFromSaleRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteFromSaleResponse">
+    <wsdl:part name="parameters" element="tns:CreateAndSaveQuoteFromSaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAndSaveQuoteFromSaleResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderRequest">
+    <wsdl:part name="parameters" element="tns:PlaceOrder" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderResponse">
+    <wsdl:part name="parameters" element="tns:PlaceOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStateRequest">
+    <wsdl:part name="parameters" element="tns:GetOrderState" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStateResponse">
+    <wsdl:part name="parameters" element="tns:GetOrderStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderStateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteQuoteRequest">
+    <wsdl:part name="parameters" element="tns:DeleteQuote" />
+  </wsdl:message>
+  <wsdl:message name="DeleteQuoteRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteQuoteResponse">
+    <wsdl:part name="parameters" element="tns:DeleteQuoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteQuoteResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -4331,62 +4331,6 @@ title: Services88.QuoteAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteFromSaleId" name="GetQuoteFromSaleIdRequest" message="tns:GetQuoteFromSaleIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteFromSaleIdResponse" name="GetQuoteFromSaleIdResponse" message="tns:GetQuoteFromSaleIdResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateAndSaveQuote">
-      <wsdl:documentation>
-        <summary>Creates a new quote on a sale.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuote" name="CreateAndSaveQuoteRequest" message="tns:CreateAndSaveQuoteRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteResponse" name="CreateAndSaveQuoteResponse" message="tns:CreateAndSaveQuoteResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteEntity">
-      <wsdl:documentation>
-        <summary>Get a Quote</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntity" name="GetQuoteEntityRequest" message="tns:GetQuoteEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityResponse" name="GetQuoteEntityResponse" message="tns:GetQuoteEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteEntityFromSaleId">
-      <wsdl:documentation>
-        <summary>Get a Quote for a sale</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleId" name="GetQuoteEntityFromSaleIdRequest" message="tns:GetQuoteEntityFromSaleIdRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleIdResponse" name="GetQuoteEntityFromSaleIdResponse" message="tns:GetQuoteEntityFromSaleIdResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveQuoteEntity">
-      <wsdl:documentation>
-        <summary>Saves a QuoteEntity. Versions and alternatives will not be saved by this call.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntity" name="SaveQuoteEntityRequest" message="tns:SaveQuoteEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntityResponse" name="SaveQuoteEntityResponse" message="tns:SaveQuoteEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="CreateAndSaveQuoteFromSale">
-      <wsdl:documentation>
-        <summary>Creates a copy the active version with connected alternatives and quotelines from another sale.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSale" name="CreateAndSaveQuoteFromSaleRequest" message="tns:CreateAndSaveQuoteFromSaleRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSaleResponse" name="CreateAndSaveQuoteFromSaleResponse" message="tns:CreateAndSaveQuoteFromSaleResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="PlaceOrder">
-      <wsdl:documentation>
-        <summary>Place an order in the ERP system.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrder" name="PlaceOrderRequest" message="tns:PlaceOrderRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrderResponse" name="PlaceOrderResponse" message="tns:PlaceOrderResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetOrderState">
-      <wsdl:documentation>
-        <summary>If there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderState" name="GetOrderStateRequest" message="tns:GetOrderStateRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderStateResponse" name="GetOrderStateResponse" message="tns:GetOrderStateResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteQuote">
-      <wsdl:documentation>
-        <summary>Delete a Quote</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuote" name="DeleteQuoteRequest" message="tns:DeleteQuoteRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteResponse" name="DeleteQuoteResponse" message="tns:DeleteQuoteResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetQuoteAlternative">
       <wsdl:documentation>
         <summary>Gets a QuoteAlternative object..</summary>
@@ -4582,6 +4526,62 @@ title: Services88.QuoteAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnectionConfigFields" name="SaveConnectionConfigFieldsRequest" message="tns:SaveConnectionConfigFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnectionConfigFieldsResponse" name="SaveConnectionConfigFieldsResponse" message="tns:SaveConnectionConfigFieldsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAndSaveQuote">
+      <wsdl:documentation>
+        <summary>Creates a new quote on a sale.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuote" name="CreateAndSaveQuoteRequest" message="tns:CreateAndSaveQuoteRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteResponse" name="CreateAndSaveQuoteResponse" message="tns:CreateAndSaveQuoteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteEntity">
+      <wsdl:documentation>
+        <summary>Get a Quote</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntity" name="GetQuoteEntityRequest" message="tns:GetQuoteEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityResponse" name="GetQuoteEntityResponse" message="tns:GetQuoteEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteEntityFromSaleId">
+      <wsdl:documentation>
+        <summary>Get a Quote for a sale</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleId" name="GetQuoteEntityFromSaleIdRequest" message="tns:GetQuoteEntityFromSaleIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleIdResponse" name="GetQuoteEntityFromSaleIdResponse" message="tns:GetQuoteEntityFromSaleIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveQuoteEntity">
+      <wsdl:documentation>
+        <summary>Saves a QuoteEntity. Versions and alternatives will not be saved by this call.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntity" name="SaveQuoteEntityRequest" message="tns:SaveQuoteEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntityResponse" name="SaveQuoteEntityResponse" message="tns:SaveQuoteEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAndSaveQuoteFromSale">
+      <wsdl:documentation>
+        <summary>Creates a copy the active version with connected alternatives and quotelines from another sale.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSale" name="CreateAndSaveQuoteFromSaleRequest" message="tns:CreateAndSaveQuoteFromSaleRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSaleResponse" name="CreateAndSaveQuoteFromSaleResponse" message="tns:CreateAndSaveQuoteFromSaleResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <wsdl:documentation>
+        <summary>Place an order in the ERP system.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrder" name="PlaceOrderRequest" message="tns:PlaceOrderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrderResponse" name="PlaceOrderResponse" message="tns:PlaceOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderState">
+      <wsdl:documentation>
+        <summary>If there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderState" name="GetOrderStateRequest" message="tns:GetOrderStateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderStateResponse" name="GetOrderStateResponse" message="tns:GetOrderStateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteQuote">
+      <wsdl:documentation>
+        <summary>Delete a Quote</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuote" name="DeleteQuoteRequest" message="tns:DeleteQuoteRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteResponse" name="DeleteQuoteResponse" message="tns:DeleteQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateQuoteLine">
       <wsdl:documentation>
@@ -5326,134 +5326,6 @@ title: Services88.QuoteAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CreateAndSaveQuote">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuote" style="document" />
-      <wsdl:input name="CreateAndSaveQuoteRequest">
-        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateAndSaveQuoteResponse">
-        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntity" style="document" />
-      <wsdl:input name="GetQuoteEntityRequest">
-        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteEntityResponse">
-        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteEntityFromSaleId">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleId" style="document" />
-      <wsdl:input name="GetQuoteEntityFromSaleIdRequest">
-        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteEntityFromSaleIdResponse">
-        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveQuoteEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntity" style="document" />
-      <wsdl:input name="SaveQuoteEntityRequest">
-        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveQuoteEntityResponse">
-        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateAndSaveQuoteFromSale">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSale" style="document" />
-      <wsdl:input name="CreateAndSaveQuoteFromSaleRequest">
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateAndSaveQuoteFromSaleResponse">
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="PlaceOrder">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrder" style="document" />
-      <wsdl:input name="PlaceOrderRequest">
-        <soap:header message="tns:PlaceOrderRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:PlaceOrderRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:PlaceOrderRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="PlaceOrderResponse">
-        <soap:header message="tns:PlaceOrderResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:PlaceOrderResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:PlaceOrderResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:PlaceOrderResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetOrderState">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderState" style="document" />
-      <wsdl:input name="GetOrderStateRequest">
-        <soap:header message="tns:GetOrderStateRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetOrderStateRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetOrderStateRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetOrderStateResponse">
-        <soap:header message="tns:GetOrderStateResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetOrderStateResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetOrderStateResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetOrderStateResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteQuote">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuote" style="document" />
-      <wsdl:input name="DeleteQuoteRequest">
-        <soap:header message="tns:DeleteQuoteRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteQuoteRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteQuoteRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteQuoteResponse">
-        <soap:header message="tns:DeleteQuoteResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteQuoteResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteQuoteResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteQuoteResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetQuoteAlternative">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteAlternative" style="document" />
       <wsdl:input name="GetQuoteAlternativeRequest">
@@ -5899,6 +5771,134 @@ title: Services88.QuoteAgent WSDL
         <soap:header message="tns:SaveConnectionConfigFieldsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveConnectionConfigFieldsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveConnectionConfigFieldsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAndSaveQuote">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuote" style="document" />
+      <wsdl:input name="CreateAndSaveQuoteRequest">
+        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateAndSaveQuoteResponse">
+        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntity" style="document" />
+      <wsdl:input name="GetQuoteEntityRequest">
+        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetQuoteEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetQuoteEntityResponse">
+        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetQuoteEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteEntityFromSaleId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleId" style="document" />
+      <wsdl:input name="GetQuoteEntityFromSaleIdRequest">
+        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetQuoteEntityFromSaleIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetQuoteEntityFromSaleIdResponse">
+        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetQuoteEntityFromSaleIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveQuoteEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntity" style="document" />
+      <wsdl:input name="SaveQuoteEntityRequest">
+        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveQuoteEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveQuoteEntityResponse">
+        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveQuoteEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAndSaveQuoteFromSale">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSale" style="document" />
+      <wsdl:input name="CreateAndSaveQuoteFromSaleRequest">
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateAndSaveQuoteFromSaleResponse">
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateAndSaveQuoteFromSaleResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrder" style="document" />
+      <wsdl:input name="PlaceOrderRequest">
+        <soap:header message="tns:PlaceOrderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:PlaceOrderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:PlaceOrderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PlaceOrderResponse">
+        <soap:header message="tns:PlaceOrderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:PlaceOrderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:PlaceOrderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:PlaceOrderResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderState">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderState" style="document" />
+      <wsdl:input name="GetOrderStateRequest">
+        <soap:header message="tns:GetOrderStateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetOrderStateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetOrderStateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetOrderStateResponse">
+        <soap:header message="tns:GetOrderStateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetOrderStateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetOrderStateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetOrderStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteQuote">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuote" style="document" />
+      <wsdl:input name="DeleteQuoteRequest">
+        <soap:header message="tns:DeleteQuoteRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteQuoteRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteQuoteRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteQuoteResponse">
+        <soap:header message="tns:DeleteQuoteResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteQuoteResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteQuoteResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteQuoteResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

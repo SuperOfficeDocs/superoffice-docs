@@ -1,10 +1,10 @@
 ---
-uid: services86-find-findfromrestrictionscolumnsorderby2
 title: Services86.FindAgent.FindFromRestrictionsColumnsOrderBy2 SOAP
-Generated: true
+generated: 1
+uid: Services86-Find-FindFromRestrictionsColumnsOrderBy2
 ---
 
-# Services86 Find FindFromRestrictionsColumnsOrderBy2 SOAP
+# Services86 Find FindFromRestrictionsColumnsOrderBy2
 
 SOAP request and response examples **Remote/Services86/Find.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.FindFromRestrictionsColumnsOrderBy2">SuperOffice.Services86.IFindAgent.FindFromRestrictionsColumnsOrderBy2</see> method.

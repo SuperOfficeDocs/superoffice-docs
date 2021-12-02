@@ -1,10 +1,10 @@
 ---
-uid: services87-customerservice-getmailboxes
 title: Services87.CustomerServiceAgent.GetMailboxes SOAP
-Generated: true
+generated: 1
+uid: Services87-CustomerService-GetMailboxes
 ---
 
-# Services87 CustomerService GetMailboxes SOAP
+# Services87 CustomerService GetMailboxes
 
 SOAP request and response examples **Remote/Services87/CustomerService.svc**
 Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.GetMailboxes">SuperOffice.Services87.ICustomerServiceAgent.GetMailboxes</see> method.

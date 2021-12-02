@@ -1,10 +1,10 @@
 ---
-uid: services84-favourite-getfavourites
 title: Services84.FavouriteAgent.GetFavourites SOAP
-Generated: true
+generated: 1
+uid: Services84-Favourite-GetFavourites
 ---
 
-# Services84 Favourite GetFavourites SOAP
+# Services84 Favourite GetFavourites
 
 SOAP request and response examples **Remote/Services84/Favourite.svc**
 Implemented by the <see cref="M:SuperOffice.Services84.IFavouriteAgent.GetFavourites">SuperOffice.Services84.IFavouriteAgent.GetFavourites</see> method.

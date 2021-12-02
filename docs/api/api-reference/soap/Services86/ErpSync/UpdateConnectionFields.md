@@ -1,10 +1,10 @@
 ---
-uid: services86-erpsync-updateconnectionfields
 title: Services86.ErpSyncAgent.UpdateConnectionFields SOAP
-Generated: true
+generated: 1
+uid: Services86-ErpSync-UpdateConnectionFields
 ---
 
-# Services86 ErpSync UpdateConnectionFields SOAP
+# Services86 ErpSync UpdateConnectionFields
 
 SOAP request and response examples **Remote/Services86/ErpSync.svc**
 Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.UpdateConnectionFields">SuperOffice.Services86.IErpSyncAgent.UpdateConnectionFields</see> method.

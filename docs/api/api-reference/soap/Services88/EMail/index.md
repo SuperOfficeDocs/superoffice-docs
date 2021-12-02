@@ -1,7 +1,7 @@
 ---
-uid: services88-email
 title: Services88.EMailAgent SOAP
-Generated: true
+uid: Services88-EMail-soap
+generated: 1
 ---
 
 # Services88 EMail SOAP
@@ -80,6 +80,13 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [GetPreviewAttachmentFromDocId](GetPreviewAttachmentFromDocId.md)
 * [GetPreviewAttachmentFromId](GetPreviewAttachmentFromId.md)
 * [GetReadySyncEmailAccounts](GetReadySyncEmailAccounts.md)
+* [GetUnsanitizedEMail](GetUnsanitizedEMail.md)
+* [GetUnsanitizedEMailFromAttachmentId](GetUnsanitizedEMailFromAttachmentId.md)
+* [GetUnsanitizedEMailFromDocumentAttachmentId](GetUnsanitizedEMailFromDocumentAttachmentId.md)
+* [GetUnsanitizedEMailFromDocumentId](GetUnsanitizedEMailFromDocumentId.md)
+* [GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream](GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream.md)
+* [GetUnsanitizedPreviewAttachmentFromDocId](GetUnsanitizedPreviewAttachmentFromDocId.md)
+* [GetUnsanitizedPreviewAttachmentFromId](GetUnsanitizedPreviewAttachmentFromId.md)
 * [HasMXRecord](HasMXRecord.md)
 * [HasNewMail](HasNewMail.md)
 * [LatestItemIdByFolder](LatestItemIdByFolder.md)
@@ -106,3 +113,4 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
+

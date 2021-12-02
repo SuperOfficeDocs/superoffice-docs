@@ -1,10 +1,10 @@
 ---
-uid: services88-numberallocation-setnumbereachtemplate
 title: Services88.NumberAllocationAgent.SetNumberEachTemplate SOAP
-Generated: true
+generated: 1
+uid: Services88-NumberAllocation-SetNumberEachTemplate
 ---
 
-# Services88 NumberAllocation SetNumberEachTemplate SOAP
+# Services88 NumberAllocation SetNumberEachTemplate
 
 SOAP request and response examples **Remote/Services88/NumberAllocation.svc**
 Implemented by the <see cref="M:SuperOffice.Services88.INumberAllocationAgent.SetNumberEachTemplate">SuperOffice.Services88.INumberAllocationAgent.SetNumberEachTemplate</see> method.

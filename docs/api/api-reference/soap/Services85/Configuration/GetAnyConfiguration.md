@@ -1,10 +1,10 @@
 ---
-uid: services85-configuration-getanyconfiguration
 title: Services85.ConfigurationAgent.GetAnyConfiguration SOAP
-Generated: true
+generated: 1
+uid: Services85-Configuration-GetAnyConfiguration
 ---
 
-# Services85 Configuration GetAnyConfiguration SOAP
+# Services85 Configuration GetAnyConfiguration
 
 SOAP request and response examples **Remote/Services85/Configuration.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetAnyConfiguration">SuperOffice.Services85.IConfigurationAgent.GetAnyConfiguration</see> method.

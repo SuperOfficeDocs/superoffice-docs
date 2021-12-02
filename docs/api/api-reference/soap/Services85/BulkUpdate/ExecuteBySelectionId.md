@@ -1,10 +1,10 @@
 ---
-uid: services85-bulkupdate-executebyselectionid
 title: Services85.BulkUpdateAgent.ExecuteBySelectionId SOAP
-Generated: true
+generated: 1
+uid: Services85-BulkUpdate-ExecuteBySelectionId
 ---
 
-# Services85 BulkUpdate ExecuteBySelectionId SOAP
+# Services85 BulkUpdate ExecuteBySelectionId
 
 SOAP request and response examples **Remote/Services85/BulkUpdate.svc**
 Implemented by the <see cref="M:SuperOffice.Services85.IBulkUpdateAgent.ExecuteBySelectionId">SuperOffice.Services85.IBulkUpdateAgent.ExecuteBySelectionId</see> method.
