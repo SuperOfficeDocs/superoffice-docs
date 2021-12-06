@@ -15,14 +15,14 @@ items:
     href: version-history.md
   - name: Migrate to Online
     href: migrate/index.md
-  - name: Test environment
-    href: test-environment/index.md
+  - name: Production sandbox
+    href: sandbox/index.md
     expanded: true
     items:
-    - name: Clone to test environment
-      href: test-environment/clone-to.md
-    - name: Replace test environment
-      href: test-environment/replace.md
+    - name: Clone to production sandbox
+      href: sandbox/clone-to.md
+    - name: Replace production sandbox
+      href: sandbox/replace.md
 - name: Identity Management
   href: ../identity-management/toc.yml
   topicHref: ../identity-management/index.yml
