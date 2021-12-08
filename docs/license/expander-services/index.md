@@ -56,6 +56,6 @@ Development products are **stand-alone products** that help customers utilize an
 [5]: ../../../../user-interface/docs/service-ui/custom-screens/index.md
 [6]: ../../apps/custom.md
 [7]: ../../../../crmscript/docs/custom-database/extra-tables.md
-[10]: ../../online/test-environment/index.md
+[10]: ../../online/sandbox/index.md
 [11]: ../../identity-management/scim/index.yml
 [12]: ../../mirroring/index.yml

@@ -125,9 +125,9 @@ conceptualContent:
     - title: Online integrations
       summary: ""
       links:
-        - text: Test environments
+        - text: Production sandbox
           itemType: concept
-          url: test-environment/index.md
+          url: sandbox/index.md
         - text: App store
           itemType: overview
           url: https://online.superoffice.com/appstore
