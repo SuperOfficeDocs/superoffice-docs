@@ -28,9 +28,9 @@ highlightedContent:
       itemType: overview
       url: ../../superoffice-docs/docs/mirroring/index.yml
     # Card
-    - title: Test environment
+    - title: Production sandbox
       itemType: overview
-      url: ../../superoffice-docs/docs/online/test-environment/index.md
+      url: ../../superoffice-docs/docs/online/sandbox/index.md
     # Card
     - title: "Table reference"
       itemType: reference
