@@ -1,12 +1,8 @@
 items:
 - name: SuperOffice APIs
   href: getting-started/index.md
-- name: Onsite vs. Online Development
-  href: getting-started/online-vs-onsite.md
 - name: NetServer fundamentals
   href: netserver/index.md
-- name: What is NetServer
-  href: netserver/what-is-netserver.md
 - name: Authentication
   href: authentication/index.yml
   items:
@@ -16,6 +12,19 @@ items:
     href: authentication/terminology.md
   - name: Users and associates
     href: authentication/users-and-associates.md
+  - name: WebAPI
+    href: authentication/webapi/index.md 
+    items:
+    - name: IAuthorization
+      href: authentication/webapi/iauthorization.md
+    - name: SystemUserClient
+      href: authentication/webapi/systemuserclient.md
+    - name: Enable Basic authentication (username + password)
+      href: authentication/webapi/enable-basic-auth.md
+    - name: Enable IIS Identity (AD)
+      href: authentication/webapi/enable-iis-identity.md
+    - name: Reuse session with X-XSRF-TOKEN
+      href: authentication/webapi/reuse-session.md
   - name: Online authentication
     href: authentication/online/index.md
     items:
@@ -64,15 +73,6 @@ items:
     items:
     - name: Pipeline and plug-ins
       href: authentication/onsite/pipeline.md
-    - name: WebAPI
-      href: authentication/onsite/webapi/index.md 
-      items:
-      - name: Enable Basic authentication (username + password)
-        href: authentication/onsite/webapi/enable-basic-auth.md
-      - name: Enable IIS Identity (AD)
-        href: authentication/onsite/webapi/enable-iis-identity.md
-      - name: Reuse session with X-XSRF-TOKEN
-        href: authentication/onsite/webapi/reuse-session.md
     - name: SoSession
       href: authentication/onsite/sosession/index.md
       items:
@@ -179,40 +179,34 @@ items:
   - name: Custom logger
     href: netserver/logging/create-custom-logger.md
 - name: Web Services
-  href: netserver/services/index.md
+  href: netserver/web-services/index.md
   items:
-  - name: Service Carriers
-    href: netserver/services/carriers/index.md
+  - name: Endpoints
+    href: netserver/web-services/endpoints/index.md
     items:
-    - name: Read-only Carriers
-      href: netserver/services/carriers/index.md
-    - name: Entity carriers
-      href: netserver/services/carriers/index.md#entity-carriers
-  - name: Service Agents
-    href: netserver/services/agents/index.md
-  - name: Service Script Engine
-    href: netserver/services/scripting/index.md
+    - name: Agents WebAPI
+      href: netserver/web-services/endpoints/agents-webapi/index.md
+    - name: REST WebAPI
+      href: netserver/web-services/endpoints/rest-webapi/index.md
+    - name: Get version
+      href: netserver/web-services/endpoints/get-webapi-version.md
+    - name: HTTP request headers
+      href: netserver/web-services/endpoints/http-headers.md
+    - name: SOAP
+      href: netserver/web-services/endpoints/soap/index.md
+  - name: Proxies
+    href: netserver/web-services/proxies/index.md
     items:
-    - name: Configuration
-      href: netserver/services/scripting/configure.md
-    - name: Basic scripting
-      href: netserver/services/scripting/basic-scripting.md
-    - name: Running scripts
-      href: netserver/services/scripting/run-scripts.md
-    - name: Reference
-      href: netserver/services/scripting/reference/
-  - name: How to...
-    items:
-    - name: Call service using NetServer Services Proxies
-      href: netserver/services/call-service-using-ns-proxy.md
-    - name: Call service using custom proxies
-      href: netserver/services/call-service-using-ns-proxy-ws.md
-    - name: Call service using NetServer binaries
-      href: netserver/services/call-service-using-ns-binaries.md
-    - name: Call service using NetServer version 6
-      href: netserver/services/make-soap-call-crm6.md
-    - name: Call service using NetServer version 7
-      href: netserver/services/make-soap-call-crm7.md
+    - name: Call using WebAPI client
+      href: netserver/web-services/proxies/webapi-client.md
+    - name: Call using NetServer Services proxies
+      href: netserver/web-services/proxies/built-in.md
+    - name: Call using custom proxies
+      href: netserver/web-services/proxies/custom.md
+  - name: Timezones
+    href: netserver/web-services/so-timezone.md
+  - name: How to set up REST
+    href: netserver/web-services/setup-rest.md
 - name: Entities
   href: netserver/entities/index.md
   items:
@@ -245,6 +239,10 @@ items:
 - name: Rows
   href: netserver/rows/index.md
   items:
+  - name: Introduction to Row and Rows
+    href: netserver/rows/index.md
+  - name: CustomSearch
+    href: netserver/rows/customsearch.md
   - name: Row events
     href: netserver/rows/events.md
   - name: How to...
@@ -268,7 +266,7 @@ items:
 - name: Objectified SQL
   href: netserver/osql/index.md
   items:
-  - name: Introduction to OSQL.
+  - name: Introduction to OSQL
     href: netserver/osql/index.md
   - name: OSQL Evolution
     href: netserver/osql/osql-evolution.md
@@ -499,6 +497,7 @@ items:
     - name: Ticket events
       href: netserver/webhooks/reference/ticket-events.md
 - name: Plug-ins
+  href: netserver/plug-ins/index.md
   items:
   - name: Document plug-in
     href: documents/plugins/soarc-document-plugin.md
@@ -563,7 +562,6 @@ items:
       href: netserver/erp-connectors/helpers.md
     - name: Sample ERP Sync connector
       href: netserver/erp-connectors/sample.md
-    
   - name: Sentry plug-in
     href: security/sentry/plugins/index.md
     items:
@@ -571,33 +569,3 @@ items:
       href: security/sentry/plugins/create-sentry-plugin.md
     - name: Use sentry plug-in
       href: security/sentry/plugins/use-sentry-plugin.md
-- name: WebApi
-  href: webapi/index.md
-  items:
-  - name: Agents
-    href: webapi/agents/index.md
-    items:
-    - name: Get version
-      href: webapi/agents/get-version.md
-  - name: REST
-    href: webapi/rest/index.md
-    items:
-    - name: Get version
-      href: webapi/rest/get-version.md
-    - name: How to submit a request
-      href: webapi/rest/submit-rest.md
-    - name: In-depth article
-      href: webapi/rest/rest.md
-  - name: HTTP request headers
-    href: webapi/headers/index.md
-    items:
-    - name: Language
-      href: webapi/headers/accept-language.md
-    - name: Content types
-      href: webapi/headers/content-type.md
-    - name: Modified and unmodified
-      href: webapi/headers/modified-unmodified.md
-  - name: Reverse proxy
-    href: webapi/reverse-proxy.md
-  - name: Timezones
-    href: webapi/so-timezone.md

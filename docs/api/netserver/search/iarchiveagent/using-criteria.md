@@ -1,7 +1,7 @@
 ---
-title: How to use multiple criteria with the IArchiveAgent
-uid: iarchiveagent_multi_criteria
-description: How to use multiple criteria with the IArchiveAgent
+title: How to use multiple criteria with the ArchiveAgent
+uid: archiveagent_multi_criteria
+description: How to use multiple criteria with the ArchiveAgent
 author: {github-id}
 keywords: 
 so.topic: howto
@@ -12,7 +12,7 @@ so.area: api-services
 # so.client:
 ---
 
-# How to use multiple criteria with the IArchiveAgent
+# How to use multiple criteria with the ArchiveAgent
 
 We have previously seen [how to set a single archive restriction][1] to limit the number of rows returned by the agent.
 

@@ -1,6 +1,6 @@
 ---
-title: ilistagent
-description: IListAgent
+title: listagent
+description: ListAgent
 author: {github-id}
 keywords: list,agent
 so.topic: concept
@@ -11,7 +11,7 @@ so.area: api-services
 # so.client:
 ---
 
-# IListAgent
+# ListAgent
 
 As the name implies, the `ListAgent` is the agent that provides us with **all the named lists**. This agent API consists of methods that are named the same as the list that is returned by the method.
 

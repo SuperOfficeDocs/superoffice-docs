@@ -2,9 +2,9 @@
 title: Create a new company
 uid: create_company_webapi_agents
 description: How to create a new Company using webapi contact agent.
-author: {github-id}
-so.date: 11.04.2021
-keywords: contact, company, services, API, webapi, agents, CreateDefaultContactEntity, JavaScript
+author: Bergfrid Dias
+so.date: 11.18.2021
+keywords: contact, company, services, API, WebAPI, agents, CreateDefaultContactEntity, JavaScript
 so.topic: howto
 # so.envir:
 # so.client:
@@ -22,3 +22,5 @@ company.Business.Id = 3
 company.NoMailing = true
 company = Post("api/v1/Agents/Contact/SaveContactEntity", company)
 ```
+
+[!include[Pseudocode](../../includes/note-javascripty.md)]

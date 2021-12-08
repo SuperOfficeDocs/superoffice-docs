@@ -1,209 +1,139 @@
 ---
-title: Understanding NetServer
-description: Understanding NetServer
+uid: what_is_netserver
+title: What is Netserver / Understanding NetServer
+description: NetServer is a multi-tiered database access layer that bridges communication between clients and the SuperOffice database.
 author: AnthonyYates
-so.date: 04.15.2021
-keywords:
+so.date: 12.02.2021
+keywords: API, NetServer, HDB, RDB, entity, row, archive, OSQL, web service, services
 so.topic: concept
+so.envir: cloud, onsite
+so.client: win, web
 ---
 
 # Understanding NetServer
 
+All SuperOffice clients, in one form or another, depend on NetServer for database access. While each client has its own extensibility points, NetServer also has extensibility points. Some of NetServer's extensibility options surface to the clients, such as the [Document Plug-in][14].
+
+As a **multi-tiered database access layer** that bridges communications between clients and the SuperOffice database, NetServer uses database-independent database access code, as well as high-level web services for both the SuperOffice Web and mobile clients.
+
+![NetServer architecture][img3]
+
+In a nutshell, NetServer is a layered, **factory-driven** library that enables developers to conduct Create, Read, Update and Delete (CRUD) operations to the SuperOffice database, and more. Whether deploying a solution to a local SuperOffice database installation or operating in a distributed environment, NetServer exposes an array of application programming interface (API) approaches to facilitate a wide range of solution implementations.
+
+Although the terrain is vast and complex and can be somewhat intimidating at first, the NetServer APIs accommodate a wide variety of developers by layering the architecture in various intuitive abstractions. The layered aspect of NetServer invites developers to tap into the database from several facets. In this article, we will guide you through the various regions of NetServer, show you the attractions, as well as point out the areas to avoid.
+
+## Persistence layers
+
 SuperOffice NetServer provides several **persistence layers**, each one allowing more fine-grain control than the next.
 
-The more control over the queries you have, the more responsibility you take on for handling ensuring that relationships and keys are maintained properly.
+![NetServer architecture, detailed][img4] <!-- TODO update fig to drawIO simplified services -->
 
-You can choose to work at the level that suits you best.
+You can choose to work at the level that suits you best. **Webhooks** are supported at both the low and high levels of NetServer.
 
-* [Web services][5]
-* [Archives][4]
-* [Entities][3]
-* [Rows][2]
-* [SQL Data Objects (OSQL)][1]
+### Domain-level APIs (NetServer Core)
 
-![NetServer Architecture][img1]
+The lowest layer of NetServer, the domain-level development APIs, is generally used by a client or application server. This layer does the heavy lifting and is responsible for **marshaling all the model-based data into raw SQL**.
 
-Each level is described briefly below and in detail in the linked sections.
+* [SQL data objects (OSQL)][1]: Low-level, high-performance, database-independent objectified SQL.
+* [Row and Rows][2]: Medium-level data table and data row-level access.
+* [Entities][3]: High-level business model classes that abstract multiple table joins.
+* [Archive providers][4] and [MDO Providers][17]: provide complex search capabilities across the entire database.
 
-## Web services
+### Service-orientated APIs
 
-When you are calling a web service, you typically **don’t have direct access to the database**. This is the highest level for working with NetServer.
+The highest level of NetServer data access is the [service-orientated architecture][5] and consists of:
 
-A typical service call looks like this when using the NetServer helper classes:
+* [Web service endpoints][15] based on **REST**ful WebAPI and WCF **SOAP**: IIS application used by SuperOffice Web and Mobile.
+* [Web service proxies][16]: Service agent pattern .NET assemblies used by clients to access the service endpoints.
 
-```csharp
-using SuperOffice.CRM.Services;
-using SuperOffice;
-using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //Create a Contact Agent
-  IContactAgent myContactAgent = AgentFactory.GetContactAgent();
+An important aspect of NetServer web service development is its **deployment flexibility**. It's capable of being embedded in a domain-centric fat client application, as well as a thin client deployed with NetServer service proxies for data access across the internet.
 
-  //Get a Contact carrier through the Contact Agent
-  ContactEntity myContact = myContactAgent.GetContactEntity(1234);
+The following sections present an overview of the NetServer API and the different aspects of NetServers service offerings. Each level is described briefly below and in detail in the linked sections.
 
-  //Retrieving the Name Property of the Contact
-  string name = myContact.Name;
+## Web services layer
 
-  // warning: hard-coded address layout assumption!
-  string city = myContact.Address[2][1];
-}
-```
+At the highest level, encapsulated in the **SuperOffice.Services namespace**, is an **agent** pattern-derived API that in terms of deployment is quite flexible. Access and modification to data in the database, using service objects, will always be coded the same, whether the application and database are located on the same server, or operating in a distributed environment. This flexibility does come at a performance price though.
 
-## Archives
+[Read more about web services.][5]
 
-An archive is a **configurable multi-column list** that flattens the complex relationships between tables into a simple grid.
+## Search
 
-Archives simplify searching and retrieving collections of related data efficiently. The archive system is very flexible and supports many different providers. Each provider describes a set of related columns from the database.
+[Archive providers][4] are similar to database views and simplify **searching and retrieving** collections of related data efficiently. They let you execute complex queries while masking the join logic and handling the security.
 
-Each provider supports a set of methods for finding out what columns are available. For simplicity, we have listed the basic set of columns in this help-file.
+Each provider describes a set of related **columns** from the database and supports a set of methods for finding out what columns are available.
 
-The example below shows how we can read the name+department as one field, and the postal address city as a separate field. Unlike an entity, the archive will not load categories or email addresses unless they are requested.
+[Read more about archive providers.][4]
 
-```csharp
-using SuperOffice;
-using SuperOffice.CRM.ArchiveLists;
-using SuperOffice.Util;
-using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
-{
-  IArchiveProvider contactArchive = ArchiveProviderFactory.CreateFindContactProvider();
+## Relational database layer (entities)
 
-  //Set the columns that needs to be returned
-  contactArchive.SetDesiredColumns("contactId", "nameDepartment", "address/city");
+The relational database (RDB) layer, conceptually the **business logic** layer, is encapsulated within the **SuperOffice.Entities namespace**. Relational database objects, such as `Contact`, `ContactCollection`, `Person`, and `PersonCollection`, are all found here. These objects abstract away the complexities required to access and present information from the database.
 
-  //set the paging properties of the provider.
-  contactArchive.SetPagingInfo(10, 0);
+RDB objects expose the data as neat and logical objects commonly referred to as [entities][3]. Entities **represent real-world objects**, such as companies and people.
 
-  //An array of restrictions with an implicit and in between them.
-  contactArchive.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", "1234"));
+> [!TIP]
+> This layer is great for **creating and saving** new entities, such as creating a new `Contact` or `Sale`, but is not as efficient as one of the lower layers when retrieving information.
 
-  //Display the retrieved data in another list box
-  foreach (ArchiveRow row in contactArchive.GetRows())
-  {
-    foreach (KeyValuePair<string, ArchiveColumnData> column in row.ColumnData)
-    {
-      resultsListbox.Items.Add(column.Value.ToString());
-    }
-    resultsListbox.Items.Add(" --- ");
-  }
-}
-```
+[Read more about Entities.][3]
 
-## Entities
+## High-level database layer (rows)
 
-An entity is a **composite object**, which contains several related rows in one object. The entity handles maintaining the relationships for you.
+The high-level database (HDB) layer, found under the **SuperOffice.Rows namespace**, is a table-object view of the database. This layer exposes **database tables** and the information they contain as row objects, such as `ContactRow` and `ContactRows`.
+
+Unlike RDB object properties, which are full-blown entities themselves, HDB object properties contain **ID values** that represent ID field values in a corresponding table.
 
 > [!NOTE]
-> Entities are business objects – not all tables have a corresponding entity.
+> The Row objects **do not contain any business logic**, so here you need to maintain the relationship between rows yourself.
 
-An entity is suitable for **one-at-a-time work**. Each entity will load its sub-objects greedily, so loading an entity will load its related data in one big SELECT. Entity collections should be used with care, since accessing a sub-entity of an item in the collection in a loop may trigger an extra SELECT for each item in the collection.
+[Read more about Row and Rows.][2]
 
-You can use an entity's properties without worrying about the relationship details in the database. The `PostalAddress` is related to the `Contact` through an `owner_id` and `atype_idx` field, but these details are hidden by the entity:
+## SuperOffice database interface layer (OSQL)
 
-```csharp
-using SuperOffice;
-using SuperOffice.CRM.Entities;
-using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //Get a contact through Idx class
-  Contact theContact = Contact.GetFromIdxContactId(1234);
+At the lowest levels of the framework is a database-independent objectified SQL library.
 
-  //Access the Name property
-  string name = theContact.Name;
+[OSQL][1] encompasses all **common SQL elements**, such as SELECT, JOIN, WHERE, AND, OR, and so forth. It exposes all of these elements as **class objects**, to be constructed and leveraged in an "object-orientated" manner.
 
-  //Update the postal address
-  theContact.PostalAddress.City = "Oslo";
+OSQL has the **best performance** of all NetServer API layers. When using OSQL to create code, the code will be more responsive and efficient than when using the Services, RDB, or the HDB layers.
 
-  // Saves the address row
-  theContact.Save();
-}
-```
+[Read more about OSQL.][1]
 
-## Rows
+## Programming with NetServer APIs
 
-Rows are simple, straightforward persistence objects. Each table in the database has a corresponding Row object and Rows collection.
+When programming with the NetServer API, other than calling the web services directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section group to an *app.config* file for Windows Forms applications, or the *web.config* file for an ASP.NET web application.
 
-The row objects **do not contain any business logic**, so here you need to maintain the relationship between rows yourself.
+The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options is well-defined in the [NetServer configuration documentation][12].
 
-You can use row objects to read and update the database. Each row object supports queries and `Save` and `Delete` methods.
+> [!NOTE]
+> The more control over the queries you have, the more responsibility you take on for handling ensuring that relationships and keys are maintained properly.
 
-```csharp
-using SuperOffice.CRM.Rows;
-using SuperOffice;
-using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //retrieve the contact row that we want to change
-  ContactRow theContact = ContactRow.GetFromIdxContactId(1234);
+All types of technology platforms, including Java, PHP, Python, Ruby, and many more can integrate with NetServer web services. Any technology stack that supports web services can connect to and exchange data with SuperOffice NetServer. SuperOffice supplies .NET proxy assemblies only. All other technology platforms must generate their own proxies, or use raw SOAP/XML, to access the web services.
 
-  //get the name
-  String name = theContact.Name;
+> [!TIP]
+> Before you start coding, brush up on your knowledge about [SuperOffice authentication][13].
 
-  //retrieve the address of the contact using the address type
-  // and the contact ID
-  AddressRow theAddressRow = AddressRow.GetFromIdxAtypeIdxOwnerId(
-      SuperOffice.Data.AddressType.ContactPostalAddress, 1234);
+## Summary
 
-  //change the address
-  theAddressRow.City = "Oslo";
-
-  //save the changed address row
-  theAddressRow.Save();
-}
-```
-
-The Address row will have the `owner_id` field set to 1234, and the `atypeidx` field set to 1 (postal address for contact).
-
-## SQL Data Objects (OSQL)
-
-SQL is the lowest-level API. This is a database-independent SQL that is compile-time checked (unlike SQL strings which are checked at run-time). Objectified SQL (OSQL) lets you build your own queries and SQL commands, without worrying about Oracle’s peculiarities.
-
-Another advantage is that the OSQL layer automatically adds transaction logging, computed fields updating, and security to your queries so that you don’t have to worry about these tedious details.
-
-**Transactionlogging** means that every time you update a field, you don’t have to manually add a new row to the `traveltransactionlog` table yourself.
-
-Computed fields are fields like the soundex fields or the last-updated-date fields. The OSQL system handles these for you.
-
-Security means that the OSQL system will not return hidden or private data to users who are not authorized to see it. It will also prevent updates to rows that are supposed to be locked for the user. This makes working with SuperOffice data much easier.
-
-The security system works by rewriting your query behind the scenes – so a simple query across the document table will join in the appointment and visiblefor tables. The security system needs data from these tables to work out if you can see each record or not.
-
-```csharp
-using SuperOffice.CRM.Data;
-using SuperOffice.Data.SQL;
-using SuperOffice.Data;
-using SuperOffice;
-using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //retrieve the table info
-  ContactTableInfo c = TablesInfo.GetContactTableInfo();
-
-  //Creating an Instance of the Update Class of the person table
-  Select contactQuery = S.NewSelect();
-  contactQuery.ReturnFields.Add( c.ContactId, c.Name, c.Department );
-  contactQuery.Restriction = c.ContactId.Equal( S.Parameter(1234) );
-
-  using( QueryExecutionHelper qeh = new QueryExecutionHelper(contactQuery) )
-  {
-    while( qeh.Reader.Read() )
-    {
-      string name = qeh.Reader.GetString( c.Name );
-    }
-  }
-}
-```
-
-The `ContactTableInfo` object represents an alias to a table in the database.
-
-It exposes properties that represent the fields in the table, as well as dictionary information about the table (like its name, table-number in the dictionary). Each field also contains dictionary information (like the field type, size, name).
-
-The fields support composition using SQL-like methods: `c.ContactId.Equal( S.Parameter(1234) )` or `c.Name.Like( S.Parameter( "SuperOffice%") )`
+This has been a high-level view of NetServer. As you can see, there is a vast difference between the different approaches. Be aware though that, just because one layer takes longer to complete than another, it does not imply that a layer should be ignored. Each query type has its place in the development world when used judiciously.
 
 <!-- Referenced links -->
-[1]: ../netserver/osql/index.md
-[2]: ../netserver/rows/index.md
-[3]: ../netserver/entities/index.md
-[4]: ../netserver/archive-providers/index.md
-[5]: ../netserver/services/index.md
+[1]: osql/index.md
+[2]: rows/index.md
+[3]: entities/index.md
+[4]: archive-providers/index.md
+[5]: web-services/index.md
+[6]: ../api-reference/soap/index.md
+[7]: ../api-reference/netserver/services/index.md
+[8]: ../api-reference/netserver/core/index.md
+[9]: webhooks/index.md
+[10]: ../api-reference/webapi/index.md
+[11]: ../../../crmscript/docs/overview/index.md
+[12]: config/index.md
+[13]: ../authentication/overview.md
+[14]: ../documents/plugins/soarc-document-plugin.md
+[15]: web-services/endpoints/index.md
+[16]: web-services/proxies/index.md
+[17]: mdo-providers/reference/index.md
 
 <!-- Referenced images -->
-[img1]: media/netserver-components-overview.png
+[img1]: media/netserverhilevelview.png
+[img3]: media/netserver-components-overview.png
+[img4]: media/netserverarchitecture-blue-650.png

@@ -1,7 +1,7 @@
 
 private void DownloadDocument(int documentId)
 {
-  // create an IDocumentAgent object and retrieve a document
+  // create an DocumentAgent object and retrieve a document
   using(DocumentAgent agent = new DocumentAgent())
   {
     DocumentEntity documentEntityExisting = agent.GetDocumentEntity(documentId);

@@ -3,6 +3,7 @@ title: How to configure the external users
 uid: config_external_user
 description: How to configure the external users in the config file
 author: {github-id}
+so.date: 11.29.2021
 keywords:
 so.topic: howto
 # so.envir:
@@ -17,7 +18,7 @@ In the application config file, we can allow [external users][2] as shown below.
 <Explicit>
   <add key="ExternalPersonAllowed" value="True"/>
   <add key="EmployeeAllowed" value="True"/>
-  <add key="SystemAllowed" value="True"  />
+  <add key="SystemAllowed" value="True"/>
   <add key="DBUser" value="crm5"/>
   <add key="DBPassword" value="crm5myd"/>
   <add key="CommonDBConnection" value="True"/>
@@ -57,4 +58,4 @@ When retrieving a contact, we have passed the contact ID of this particular user
 <!-- Referenced links -->
 [1]: config-anonymous-user.md
 [2]: ../users-and-associates.md
-[3]: ../../netserver/services/agents/index.md
+[3]: ../../netserver/web-services/index.md#agents

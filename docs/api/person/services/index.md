@@ -10,8 +10,8 @@ so.topic: concept
 
 # Contact - services
 
-* [Get persons IContactAgent][1]
-* [Get persons IPersonAgent][2]
+* [Get persons ContactAgent][1]
+* [Get persons PersonAgent][2]
 * [Update person][3]
 * [Get person image (REST)][4]
 * [Update person image (REST)][5]
@@ -19,8 +19,8 @@ so.topic: concept
 * [Display image from BLOB table][7]
 
 <!-- Referenced links -->
-[1]: get-persons-icontactagent.md
-[2]: get-persons-ipersonagent.md
+[1]: get-persons-contactagent.md
+[2]: get-persons-personagent.md
 [3]: update-person-services.md
 [4]: get-person-image-rest.md
 [5]: update-person-image-rest.md

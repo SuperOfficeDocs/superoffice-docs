@@ -43,7 +43,7 @@ The first few lines of the codes initialize and declare the variables that we pl
 
 [!code-csharp[CS](includes/create-dynamic-services.cs?range=26)]
 
-With the execution of the above code we have retrieved criteria information from a set of saved criteria, for specific set columns. In the case of the example, this would be empty.
+With the execution of the above code, we have retrieved criteria information from a set of saved criteria, for specific set columns. In the case of the example, this would be empty.
 
 ### Create variable to store restrictions
 
@@ -66,11 +66,11 @@ Once all the required restrictions have been added the created restriction can b
 > [!NOTE]
 > Though we have added only 2 restrictions explicitly, it can be seen that there are many conditions. This is because we have got the criteria with the `GetSpecifiedCriteriaInformationWithDefaults` method, which returns all criteria with default values. However, this would not be affecting the outcome of the selection since the other criteria are not active – they have no values to search for.
 
-## View the result with ISelectionAgent or IArchiveAgent
+## View the result with SelectionAgent or ArchiveAgent
 
-We may also be able to view the results of the restriction with the `ISelectionAgent` or the `IArchiveAgent`.
+We may also be able to view the results of the restriction with the `SelectionAgent` or the `ArchiveAgent`.
 
-The following code shows how we can use the `ISelectionAgent` to retrieve information about the particular selection.
+The following code shows how we can use the `SelectionAgent` to retrieve information about the particular selection.
 
 ```csharp
 using SuperOffice;
@@ -88,7 +88,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 }
 ```
 
-If we wish to retrieve the details of the members in the selection we need to use the `IArchiveAgent`. After authenticating, set the parameters like below.
+If we wish to retrieve the details of the members in the selection we need to use the `ArchiveAgent`. After authenticating, set the parameters like below.
 
 [!code-csharp[CS](includes/get-members-services-3.cs?range=10,13,16-17,20-21,24,27,30)]
 

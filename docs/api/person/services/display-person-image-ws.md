@@ -1,7 +1,7 @@
 ---
 title: Display person image
 uid: display_person_image
-description: How to display person's image using web services.
+description: How to display a person's image using web services.
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
 keywords: person, contact, web services, API, ImageUtility
@@ -12,7 +12,7 @@ so.topic: howto
 
 # Display person image
 
-Displaying a person's picture involves using the `ImageUtility` to load the image via the web service, and then rendering the output in some way.
+Displaying a person's picture involves using the DCF `ImageUtility` to load the image via the web service, and then rendering the output in some way.
 
 Here is an example of a web page that renders a person's image to PNG.
 

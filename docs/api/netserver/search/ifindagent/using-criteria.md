@@ -1,7 +1,7 @@
 ---
-title: How to use multiple criteria with the IFindAgent
+title: How to use multiple criteria with the FindAgent
 uid: ifindagent_multi_criteria
-description: How to use multiple criteria with the IFindAgent
+description: How to use multiple criteria with the FindAgent
 author: {github-id}
 keywords: 
 so.topic: howto
@@ -12,7 +12,7 @@ so.area: api-services
 # so.client:
 ---
 
-# How to use multiple criteria with the IFindAgent
+# How to use multiple criteria with the FindAgent
 
 Unlike the [ArchiveAgent][1], the `FindAgent` supports saved restrictions and also handles some behind-the-scenes translation related to reporter criteria that the archive agent does not need to worry about.
 
@@ -69,7 +69,7 @@ Once all the required restrictions have been added, the created restriction may 
 
 [!code-csharp[CS](includes/ifindagent-person.cs?range=63)]
 
-With the use of the `SaveRestriction` method exposed in the `IFindAgent` interface, the restriction will be saved so that it could later be used as a search criteron including dynamic search and find statements. The method requires the parameters:
+With the use of the `SaveRestriction` method exposed in the `IFindAgent` interface, the restriction will be saved so that it could later be used as a search criterion including dynamic search and find statements. The method requires the parameters:
 
 * storageType
 * providerName

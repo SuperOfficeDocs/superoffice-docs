@@ -1,0 +1,13 @@
+<xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <SoCredentials xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
+      <Ticket>NHoZChzE8hxd4XkJOc8yAQ==<Ticket>
+    </SoCredentials>
+  <soap:Header>
+  <soap:Body>
+    <GetContact xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
+      <contactId>5</contactId>
+    <GetContact>
+  <soap:Body>
+<soap:Envelope>

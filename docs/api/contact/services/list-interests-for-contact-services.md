@@ -4,7 +4,7 @@ uid: list_contact_interests_ws
 description: How to list all selected interests for a contact using services
 author: {github-id}
 so.date: 11.04.2021
-keywords: contact, company, services, API, interest, IContactAgent, SelectableMDOListItem
+keywords: contact, company, services, API, interest, ContactAgent, SelectableMDOListItem
 so.topic: howto
 # so.envir:
 # so.client:
@@ -20,7 +20,7 @@ You can use  `SuperOffice.Services` and `SuperOffice.Services.Impl` DLLs to list
 
 ## Walk-through
 
-Using the `IContactAgent`, we first retrieve a `Contact` entity. Next is to retrieve the available interests of the contact. We use the `Interests` property of the entity and retrieve the interest list into a `SelectableMDOListItem` array.
+Using the `ContactAgent`, we first retrieve a `Contact` entity. Next is to retrieve the available interests of the contact. We use the `Interests` property of the entity and retrieve the interest list into a `SelectableMDOListItem` array.
 
 By iterating on the array, we can retrieve details of each interest available. Since we want only the *selected* interest, we add an if-condition to filter out any item that is not selected.
 

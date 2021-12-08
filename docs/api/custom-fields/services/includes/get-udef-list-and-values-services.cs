@@ -15,13 +15,13 @@ try
     if (!(String.IsNullOrEmpty(contactId.Trim())))
     {
       // Create a Contact Agent
-      IContactAgent agent = new ContactAgent();
+      ContactAgent agent = new ContactAgent();
 
       // Get a Contact Entity through the Contact Agent
       ContactEntity contactEntity = agent.GetContactEntity(int.Parse(contactId.Trim()));
 
-      // Create a IUserDefinedFieldInfoAgent
-      IUserDefinedFieldInfoAgent udefFieldInfoAgent = new UserDefinedFieldInfoAgent();
+      // Create a UserDefinedFieldInfoAgent
+      UserDefinedFieldInfoAgent udefFieldInfoAgent = new UserDefinedFieldInfoAgent();
 
       // Get the User defined field list on 'Contact'
       UserDefinedFieldInfo[] udefFieldInfo= udefFieldInfoAgent.GetUserDefinedFieldList(7);

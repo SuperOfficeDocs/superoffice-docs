@@ -2,9 +2,9 @@
 title: Authentication and SOAP calls
 uid: auth_and_soap_calls
 description: Authentication and SOAP calls
-author: {github-id}
-so.date:
-keywords: authentication, SOAP, SoSession
+ Bergfrid Dias
+so.date: 11.22.2021
+keywords: authentication, SOAP, SoSession, WcfSoPrincipalService, SoCredentials
 so.topic: concept
 so.envir: onsite
 # so.client: 
@@ -14,8 +14,10 @@ so.envir: onsite
 
 SOAP is a simple XML-based protocol used to let applications exchange information over HTTP. In SuperOffice we can access the web services using SOAP calls.
 
-* In CRM 6, the authentication was done using a special secret hash that was calculated and sent on each request.
-* In CRM 7, the secret is not used anymore. Instead, you must acquire a ticket from an authentication web service first. The ticket is what you send in the header instead of the secret.
+To authenticate, you must acquire a ticket from an authentication web service first. The ticket is what you send in the header.
+
+> [!NOTE]
+> In version 6, authentication was done using a special secret hash that was calculated and sent on each request. The secret is not used anymore.
 
 The Service `WcfSoPrincipalService` is responsible for carrying out authentication.
 
@@ -23,7 +25,7 @@ The Service `WcfSoPrincipalService` is responsible for carrying out authenticati
 
 `AuthenticateUsernamePassword` authenticates using a username and password. This can be a username and password of a domain user.
 
-A successful response to Authentication is a ticket that is passed in the Soap header of the subsequent requests.
+A successful response to Authentication is a ticket that is passed in the SOAP header of the subsequent requests.
 
 It is required that the web services are hosted on a machine that is a member of the Active Directory to support Active Directory Integration.
 
@@ -48,45 +50,26 @@ using (SoSession mySession = SoSession.Authenticate("SAL0", "SAL0"))
 {
   using(ContactAgent contactAgent = new ContactAgent())
   {
-    Contact aContact = contactAgent.GetContact(12);
+    Contact aContact = contactAgent.GetContact(5);
   }
 }
 ```
 
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <soap:Header>
-    <SoCredentials xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
-      <AuthenticationType>CRM5</AuthenticationType>
-      <UserId>SAL0</UserId>
-      <Secret>NHoZChzE8hxd4XkJOc8yAQ==</Secret>
-    </SoCredentials>
-  </soap:Header>
-  <soap:Body>
-   <GetContact xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
-      <contactId>12</contactId>
-    </GetContact>
-  </soap:Body>
-</soap:Envelope>
-```
+[!code-xml[XML](includes/soap-env.xml)]
 
 To authenticate SOAP calls against the NetServer backend, a special SOAP header must be used, and a special value sent back. This is to avoid sending the password directly to the server.
 
 The encrypted value of the password is sent to the server. Once the request is received by the server, it matches the encrypted value contained in the request with the encrypted value in the server if both match then the password is correct. This provides a secure means of providing passwords without actually sending the password across the network.
 
-An [agent][1] contains a set of methods corresponding to SOAP calls. These methods determine the properties of the `SoCredentials` header:
+An [agent][1] contains a set of methods corresponding to SOAP calls. These methods determine the properties of the `SoCredentials` header.
 
-* **AuthenticationType** - provides the highest level of security for the system
-* **Secret** – Sets the SOAP secret
-* **UserId** – Sets the `userId`
+### Behind the scenes
 
-## How to make SOAP calls
+What will happen behind the scene is the Proxy DLL will generate the SOAP header using the credentials and makes the SOAP call.
 
-* How to make SOAP calls [with CRM 6][2]
-* How to make SOAP calls [with CRM 7][3]
+This is the recommended calling pattern. The `Session` object is scoped with `using()` so that it is automatically closed at the end of the scope.
+
+You can use `SoSession.Suspend` and `Continue` to avoid authenticating all the time.
 
 <!-- Referenced links -->
-[1]: ../../../netserver/services/agents/index.md
-[2]: ../../../netserver/services/make-soap-call-crm6.md
-[3]: ../../../netserver/services/make-soap-call-crm7.md
+[1]: ../../../netserver/web-services/index.md#agents

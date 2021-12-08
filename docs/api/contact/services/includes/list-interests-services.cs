@@ -11,7 +11,7 @@ Console.WriteLine();
 using (SoSession newSession = SoSession.Authenticate(userName, passWord))
 {
   //Retrieve a Contact Entity using the Contact Agent
-  IContactAgent newConAgt = new ContactAgent();
+  ContactAgent newConAgt = new ContactAgent();
   ContactEntity newConEnt = newConAgt.GetContactEntity(10);
 
   //Retrieve all available Interests for a Contact

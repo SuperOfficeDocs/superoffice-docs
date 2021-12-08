@@ -22,7 +22,7 @@ using SuperOffice;
 
 using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
-  //create a IListAgent agent
+  //create a ListAgent
   using(ListAgent listAgent = new ListAgent())
   {
     //retrieve the list you want using the specific method

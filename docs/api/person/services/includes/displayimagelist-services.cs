@@ -6,8 +6,8 @@ private void DisplayImageList()
 {
   using (SoSession newSoSession = SoSession.Authenticate("sam", "sam"))
   {
-    //Select a list of Project Images using the IMDOAgent
-    IMDOAgent newMDOAgt = new MDOAgent();
+    //Select a list of Project Images using the MDOAgent
+    MDOAgent newMDOAgt = new MDOAgent();
     SelectableMDOListItem[] newSelLstArr = newMDOAgt.GetSelectableList("ProjectImage", true, "", false);
 
     foreach (SelectableMDOListItem newSelLst in newSelLstArr)

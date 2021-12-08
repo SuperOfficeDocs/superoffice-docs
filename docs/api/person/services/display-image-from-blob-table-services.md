@@ -4,7 +4,7 @@ uid: display_image_from_blob_ws
 description: How to display an image from the Blob table using services
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: person, contact, services, API, BinaryObject, image, BLOB, SelectableMDOListItem, IMDOAgent, GetSelectableListWithRestriction, GetBlobStream
+keywords: person, contact, services, API, BinaryObject, image, BLOB, SelectableMDOListItem, MDOAgent, GetSelectableListWithRestriction, GetBlobStream
 so.topic: howto
 # so.envir:
 # so.client:

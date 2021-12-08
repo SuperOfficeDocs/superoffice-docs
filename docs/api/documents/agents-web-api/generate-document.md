@@ -3,7 +3,7 @@ title: Generate document
 uid: generate_document_webapi
 description: How to generate a document with the WebAPI.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 11.18.2021
 keywords: contact, company, API, WebAPI, agents, SaveDocumentEntity, SetDocumentStreamFromId, CreateNewPhysicalDocumentFromTemplate
 so.topic: howto
 # so.envir:
@@ -43,3 +43,5 @@ doc = Post("api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate", req);
 ```
 
 This will generate a new document based on the template and return the updated document object to us.
+
+[!include[Pseudocode](../../includes/note-javascripty.md)]

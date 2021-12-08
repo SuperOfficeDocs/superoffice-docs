@@ -3,11 +3,10 @@ using SuperOffice.CRM.Services;
 using SuperOffice;
 using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
-  //create a Selection agent through the agent factory
-  ISelectionAgent selectionAgent = AgentFactory.GetSelectionAgent();
+  //create a Selection agent
+  SelectionAgent selectionAgent = new SelectionAgent();
 
-  //we will create a array of ContactPersonIds and add the array to the
-  //selection
+  //create an array of ContactPersonIds and add the array to the selection
   ContactPersonId[] personId = new ContactPersonId[3];
   personId[0] = new ContactPersonId();
   personId[0].ContactId = 21;
@@ -21,6 +20,6 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   personId[2].ContactId = 35;
   personId[2].PersonId = 83;
 
-  //now lets add the members to the selection that we want
+  //add the members to the selection
   selectionAgent.AddContactSelectionMembers(65, personId);
 }

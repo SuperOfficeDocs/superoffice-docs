@@ -5,10 +5,10 @@ IContactAgent agent = new ContactAgent();
 ContactEntity contactEntity = agent.GetContactEntity(int.Parse(txtContactId.Text.Trim()));
 if (contactEntity != null)
 {
-  // Create a IUserDefinedFieldInfoAgent
-  IUserDefinedFieldInfoAgent udefFieldInfoAgent = new UserDefinedFieldInfoAgent();
+  // Create a UserDefinedFieldInfoAgent
+  UserDefinedFieldInfoAgent udefFieldInfoAgent = new UserDefinedFieldInfoAgent();
 
-  // Get the UserDefinedFieldInfo of 'Udlist one' through the IUserDefinedFieldInfoAgent
+  // Get the UserDefinedFieldInfo of 'Udlist one' through the UserDefinedFieldInfoAgent
   UserDefinedFieldInfo udefFieldInfo = udefFieldInfoAgent.GetUserDefinedFieldFromFieldLabel("Udlist one", 7);
 
   // Get the ProgId of the udefField
@@ -22,6 +22,6 @@ if (contactEntity != null)
 
   // Save the contact details
   agent.SaveContactEntity(contactEntity);
-  MessageBox.Show("Contact details saved sucessfully.");
+  MessageBox.Show("Contact details saved successfully.");
   this.clearContents();
 }

@@ -3,8 +3,8 @@ title: NetServer archive providers
 uid: archive_providers
 description: NetServer archive providers
 author: Tony Yates
-so.date: 11.17.2017
-keywords:
+so.date: 12.02.2021
+keywords: archive provider, NetServer, search
 so.topic: concept
 ---
 
@@ -28,7 +28,7 @@ An archive provider is a mechanism that delivers data in a form suitable for dis
 
 ## What is an archive provider
 
-Fundamentally, an archive provider is similar to a database view. They each have a unique name, expose a fixed-set of selectable fields, and mask their join logic. Underneath the hood lies a dynamic system that, based on the requested fields, creates absolute necessary joins only. This of course increases query performance and throughput.
+Fundamentally, an archive provider is similar to a database view. They each have a unique name, expose a fixed set of selectable fields, and mask their join logic. Underneath the hood lies a dynamic system that, based on the requested fields, creates absolute necessary joins only. This of course increases query performance and throughput.
 
 An archive provider is determined by 3 main properties:
 
@@ -36,7 +36,7 @@ An archive provider is determined by 3 main properties:
 * Available Entities
 * Available Columns
 
-**Entities** add a dimension that database views do not possess. They act as an additional **filtering** capability. For example, not all, but several archive providers return rows that are of multiple types. This means that a single query can return rows of details that represent several different types of rows like appointment, sale, and document. On providers that support multiple entities, it possible to tell the provider to only return one or two types of rows, and ignore the rest.
+**Entities** add a dimension that database views do not possess. They act as an additional **filtering** capability. For example, not all, but several archive providers return rows that are of multiple types. This means that a single query can return rows of details that represent several different types of rows like appointment, sale, and document. On providers that support multiple entities, it is possible to tell the provider to only return one or two types of rows and ignore the rest.
 
 Executing complex queries requires a way to specify criteria, and archive providers do this with **archive restrictions**.
 
@@ -80,6 +80,39 @@ Namespace is `SuperOffice.CRM.ArchiveLists`.
 * [Metadata][13]
 * [Providers][6], [Extenders][7], and [Joiners][8]
 * [Base and helper classes][9]
+
+## Example
+
+The example below shows how we can read the name+department as one field, and the postal address city as a separate field. Unlike an entity, the archive will not load categories or email addresses unless they are requested.
+
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.ArchiveLists;
+using SuperOffice.Util;
+using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
+{
+  IArchiveProvider contactArchive = ArchiveProviderFactory.CreateFindContactProvider();
+
+  //Set the columns that needs to be returned
+  contactArchive.SetDesiredColumns("contactId", "nameDepartment", "address/city");
+
+  //set the paging properties of the provider.
+  contactArchive.SetPagingInfo(10, 0);
+
+  //An array of restrictions with an implicit and in between them.
+  contactArchive.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", "1234"));
+
+  //Display the retrieved data in another list box
+  foreach (ArchiveRow row in contactArchive.GetRows())
+  {
+    foreach (KeyValuePair<string, ArchiveColumnData> column in row.ColumnData)
+    {
+      resultsListbox.Items.Add(column.Value.ToString());
+    }
+    resultsListbox.Items.Add(" --- ");
+  }
+}
+```
 
 <!-- Referenced links -->
 [1]: reference/index.md

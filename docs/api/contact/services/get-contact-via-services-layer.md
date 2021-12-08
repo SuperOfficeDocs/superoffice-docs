@@ -22,7 +22,7 @@ using SuperOffice;
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a Contact Agent
-  IContactAgent myContactAgent = AgentFactory.GetContactAgent();
+  ContactAgent myContactAgent = new ContactAgent();
 
   //Get a Contact Entity through the Contact Agent
   Contact myContact = myContactAgent.GetContact(4);

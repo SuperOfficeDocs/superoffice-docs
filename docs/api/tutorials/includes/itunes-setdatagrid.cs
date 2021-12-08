@@ -39,7 +39,7 @@ private void setDataGrid()
   int pageSize = 500;
 
   // Create an ArchiveAgent object
-  IArchiveAgent newActivity = AgentFactory.GetArchiveAgent();
+  ArchiveAgent newActivity = AgentFactory.GetArchiveAgent();
 
   // Call the get ‘GetArchiveListByColumns’ method to retrieve the specified records
   ArchiveListItem[] activitytItems = newActivity.GetArchiveListByColumns(providerName, columns, archiveSrtOrd, restrictions, entities, page, pageSize);

@@ -20,7 +20,7 @@ This example shows you how to create an appointment using NetServer services. Th
 
 ## Walk-through
 
-In the example, we create an `Appointment` using the `CreateDefaultAppointmentEntityByTypeAndAssociate` method exposed through the agent factory. The method requires 2 parameters:
+In the example, we create an `Appointment` using the `CreateDefaultAppointmentEntityByTypeAndAssociate` method exposed through the agent. The method requires 2 parameters:
 
 * the type of the requested task
 * the `AssociateID` - the ID for whom the appointment should be created

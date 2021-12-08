@@ -23,7 +23,7 @@ Once registered, you will receive 2 tokens:
 * Application ID - a public ID you can embed in web pages: `4e5e6f90f529fede129bd25ad`
 * Application token - a secret ID you should not embed in web pages. `74252df1e0119f1913f64c6d8d`
 
-## Introduction to OAuth 2.0
+## <a name="oauth"></a>Introduction to OAuth 2.0
 
 OAuth is an open, industry-standard specification for token-based authorization. It allows 3rd-party applications to obtain limited access to an HTTP service.
 
@@ -64,7 +64,7 @@ The user does not authenticate directly with an online application itself. OAuth
 * OAuth doesn't provide the when, where, and how the authentication occurred.
 * **OAuth doesn’t allow federated single sign-on.**
 
-## OpenID Connect
+## <a name="oidc"></a>OpenID Connect
 
 To understand how OpenID Connect (OIDC) works, we’ll review basic concepts such as participants, identity tokens, claims and scopes, and endpoints.
 

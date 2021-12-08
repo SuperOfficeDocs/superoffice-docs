@@ -89,13 +89,14 @@ When the login button is clicked, the username and password are retrieved from t
 Using the `Authenticate` method of the `SoSession` class, we try to authenticate the user. If authentication is successful a new session is created and the user is redirected to the **Sales** page.
 
 > [!NOTE]
-> This way of authenticating **with a secret** applies to SuperOffice 6.<br>[Version 7 and later uses a ticket][2]. See also [Authentication and SOAP calls][1].
+> This way of authenticating **with a secret** applies to SuperOffice 6.
+>
+> Version 7 and later uses a ticket. See also [Authentication and SOAP calls][1].
 
 **Next step:**  [Display open sales for the user][3] (build the **Sales** page)
 
 <!-- Referenced links -->
 [1]: ../../authentication/onsite/sosession/using-soap.md
-[2]: ../../netserver/services/make-soap-call-crm7.md
 [3]: display-open-sales-for-user.md
 
 <!-- Referenced images -->

@@ -24,17 +24,13 @@ highlightedContent:
       itemType: get-started
       url: getting-started/index.md
     # Card
-    - title: "Online vs Onsite Extensibility"
-      itemType: overview
-      url: getting-started/online-vs-onsite.md
-    # Card
     - title: "Authentication overview."
       itemType: overview
       url: authentication/overview.md
     # Card
     - title: "Learn NetServer."
       itemType: learn
-      url: netserver/what-is-netserver.md
+      url: netserver/index.md
     # Card
     - title: "Learn Bulk Operations"
       itemType: learn
@@ -81,7 +77,7 @@ conceptualContent:
         - url: netserver/index.md
           itemType: overview
           text: NetServer overview
-        - url: netserver/what-is-netserver.md
+        - url: netserver/index.md
           itemType: concept
           text: What is NetServer
         - url: netserver/entities/index.md
@@ -99,13 +95,16 @@ conceptualContent:
       links:
         - text: NetServer Services overview
           itemType: concept
-          url: netserver/services/index.md
-        - text: Service Agents
+          url: netserver/web-services/index.md
+        - text: Service agents and carriers
           itemType: concept
-          url: netserver/services/agents/index.md
-        - text: NetServer Carriers
+          url: netserver/web-services/index.md#agents
+        - text: NetServer endpoints
           itemType: concept
-          url: netserver/services/carriers/index.md
+          url: netserver/web-services/endpoints/index.md
+        - text: NetServer proxies
+          itemType: concept
+          url: netserver/web-services/proxies/index.md
     # Card
     - title: NetServer Search options
       summary: Start searching with NetServer

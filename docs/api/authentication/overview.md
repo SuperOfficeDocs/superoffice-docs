@@ -68,7 +68,7 @@ You might also be interested in:
 [5]: onsite/config-external-user.md
 [6]: onsite/com/index.md
 [7]: onsite/sosession/index.md
-[8]: onsite/webapi/index.md
+[8]: webapi/index.md
 [9]: onsite/custom-proxies/index.md
 
 <!-- Referenced images -->

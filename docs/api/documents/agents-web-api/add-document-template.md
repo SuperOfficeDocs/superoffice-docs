@@ -2,8 +2,8 @@
 title: Add template
 uid:  add_document_template_webapi_agents
 description: How to add a document template using the WebAPI.
-author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+author: Bergfrid Dias
+so.date: 11.18.2021
 keywords: document, WebAPI, agents, SetDocumentTemplateStream, SaveDocumentTemplateEntity, SaveDocumentTemplateStream
 so.topic: howto
 # so.envir:
@@ -30,3 +30,5 @@ item = Post("api/v1/Agents/List/SetDocumentTemplateStream", req)
 
 At this point, the document template record has been created, and the content
 has been written to the archive.
+
+[!include[Pseudocode](../../includes/note-javascripty.md)]

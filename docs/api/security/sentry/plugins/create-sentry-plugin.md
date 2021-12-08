@@ -48,7 +48,7 @@ In the sample code, we have retrieved the department field info object and pass 
 
 Then we will check whether the field is empty, the value ends with `_`, and the logged-in user is not the owner of the record. The owner of the record will anyway have full rights to the record, changing that will not be logical. If these conditions are satisfied, we go ahead and modify the rights of the rights object that we received as a parameter. Here we make them all read-only. Now we have developed a sentry mechanism that will be triggered only if the department value ends with an underscore.
 
-## ModifySelect
+### ModifySelect
 
 Notice that we have developed another class called `SentryPluginQueryTableUpdaterContact` which implements the `IsentryPluginQueryTableUpdater interface`.
 
@@ -58,7 +58,7 @@ We have to cast the `TableInfo` object that we receive to the type we want - in 
 
 Then we can add our extra field to sentry SQL. In fact, out of all the methods in the above class, this is the method that will be fired first. We can understand this well when we get into the explanation of the calling program of this Plugin.
 
-## ModifyFieldRights
+### ModifyFieldRights
 
 The next important method is `ModifyFieldRights` method which accepts a `FieldRights` object as the parameter. Here what we can restrict access to the individual fields of the contact object. In this case we don’t do anything special, but the same principle applies as for the `TableRights`. You modify the collection passed in as a parameter with new values for the fields you want to restrict.
 

@@ -4,16 +4,16 @@ using SuperOffice;
 using (SoSession newSession = SoSession.Authenticate("user", "pass"))
 {
   // Create the AppointmentAgent
-  IAppointmentAgent agent = new AppointmentAgent();
+  AppointmentAgent agent = new AppointmentAgent();
 
   // Create an AppointmentEntity
   AppointmentEntity recurringAppointment = agent.CreateDefaultAppointmentEntity();
 
   // Set the appointment text
-  recurringAppointment.Description = "This is a recurring appointment..";
+  recurringAppointment.Description = "This is a recurring appointment.";
 
   // Set the appointment contact
-  IContactAgent contactAgent = new ContactAgent();
+  ContactAgent contactAgent = new ContactAgent();
   recurringAppointment.Contact=contactAgent.GetContact(2);
 
   // Set the appointment duration

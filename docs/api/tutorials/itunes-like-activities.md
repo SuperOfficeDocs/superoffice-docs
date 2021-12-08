@@ -33,7 +33,7 @@ Section 1 shows how the parameters required by the `GetArchiveListByColumns` met
 * the order in which the results to be sorted
 * the entities to be included in the search
 
-Next, an `IArchiveAgent` object is retrieved using the AgentFactory. Then the `GetArchiveListByColumns` method is invoked to get the activity information.
+Next, an `ArchiveAgent` object is created. Then the `GetArchiveListByColumns` method is invoked to get the activity information.
 
 ### Section 2 (convert)
 

@@ -31,7 +31,7 @@ Console.WriteLine();
 using (SoSession newSession = SoSession.Authenticate(userName, passWord))
 {
   //Gets the Appointment Agent
-  IAppointmentAgent newAppAgt = new AppointmentAgent();
+  AppointmentAgent newAppAgt = new AppointmentAgent();
 
   //Retrieves and Appointment Entity using the Agent
   AppointmentEntity newAppEnt = newAppAgt.GetAppointmentEntity(162);

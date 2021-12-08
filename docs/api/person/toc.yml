@@ -4,10 +4,10 @@ items:
 - name: Web services
   href: services/index.md
   items:
-  - name: Get persons IContactAgent
-    href: services/get-persons-icontactagent.md
-  - name: Get persons IPersonAgent
-    href: services/get-persons-ipersonagent.md
+  - name: Get persons ContactAgent
+    href: services/get-persons-contactagent.md
+  - name: Get persons PersonAgent
+    href: services/get-persons-personagent.md
   - name: Update person
     href: services/update-person-services.md
   - name: Get person image (REST)

@@ -2,21 +2,34 @@
 title: Collections
 uid: entity_collections
 description: Entity collections
-author: {github-id}
-keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+author: AnthonyYates
+so.date: 11.16.2021
+keywords: data access, entity, entities, RDB
+so.topic: concept
+so.envir: cloud, onsite
+so.client: win, web
 ---
 
 # Collections
 
-Some Entities consist of a collection of Entities as one of its properties.
-The Entity layer exposes us to Entity collections as well.
+Some Entities consist of a collection of Entities as one of its properties. The Entity layer exposes us to Entity collections as well.
 
-For example, the `Contact` Entity has a property called `Persons`, which is a **Collection of Person Entities**.
+For example, the `Contact` Entity has a property called `Persons`, which is a **Collection of Person Entities**. In other words, the `Contact.Persons` property is of type `PersonCollection`
 
 There are two major types of Collections: Collection of Entity types and Collection of Row types.
+
+## Entities and their relevant collections
+
+| Entity | Collection |
+|---|---|
+| Appointment | AppointmentCollection |
+| Contact | ContactCollection |
+| Document | DocumentCollection |
+| Person | PersonCollection |
+| Project | ProjectCollection |
+| ProjectMember | ProjectMemberCollection |
+| Sale | SaleCollection |
+| Selection | SelectionCollection |
 
 ## Create
 
@@ -127,7 +140,7 @@ newContact. Persons[0].Delete();
 
 ### Deleting Rows vs. an Entity Collection
 
-Rows, which consist of Row types, are another type which can be a property of an Entity. Therefore, it is possible to use the `Delete` method to delete such a set of Rows. The difference is that when Rows are deleted, it is removed from the database, whereas when an Entity Collection is deleted it is not.
+Rows, which consist of Row types, are another type that can be a property of an Entity. Therefore, it is possible to use the `Delete` method to delete such a set of Rows. The difference is that when Rows are deleted, it is removed from the database, whereas when an Entity Collection is deleted it is not.
 
 ```csharp
 using SuperOffice.CRM.Entities;
@@ -148,3 +161,20 @@ If you wish to delete a particular Row of the collection, here's how:
 ```csharp
 newContact.Emails[0].Delete();
 ```
+
+## Working with Entities through Entities
+
+**How to:**
+
+* [Get an entity through an entity][5]
+* [Create an entity through an entity][7]
+* [Update an entity through an entity][9]
+* [Delete an entity through an entity][11]
+
+<!-- Referenced links -->
+[5]: get-entity-from-entity.md
+[7]: create-entity-in-entity.md
+[9]: update-entity-in-entity.md
+[11]: delete-entity-from-entity.md
+
+<!-- Referenced images -->

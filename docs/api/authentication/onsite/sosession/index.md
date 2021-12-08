@@ -4,7 +4,7 @@ uid: authentication_sosession
 description: NetServer Core & Service proxy authentication using SoSession, session handling
 author: AnthonyYates
 so.date: 05.08.2018
-keywords: security, authentication, SoSession, IPrincipal, SoSession.Principal
+keywords: security, authentication, SoSession, IPrincipal, SoSession.Principal, SoCredentials, SoCredentials.Ticket
 so.topic: concept
 so.envir: onsite
 so.client: 
@@ -12,7 +12,7 @@ so.client:
 
 # NetServer Core & Service proxy authentication using SoSession
 
-While most data access layers require only database credentials for access database resources, SuperOffice requires a valid SuperOffice user too when authenticating using NetServer.
+While most data access layers require only database credentials for access to database resources, SuperOffice requires a valid SuperOffice user too when authenticating using NetServer.
 
 The user must establish an **SoSession**, which is an `IPrincipal` container and has several overloads for authentication. Using explicit credentials is one of the most common ways to instantiate an `SoSession`.
 
@@ -57,9 +57,9 @@ using (var session = SoSession.Authenticate(identity))
 
 ## Authenticate with SoCredentials
 
-Now let's look at the final authentication overloads, using an `SoCredentials` or `SoCredentials.Ticket`. SoCredentials only contains one property, Ticket. Ticket represents a stored credential record that can be used to authenticate a user.
+Now let's look at the final authentication overloads, using `SoCredentials` or `SoCredentials.Ticket`. SoCredentials contains only one property, Ticket. **Ticket** represents a stored credential record that can be used to authenticate a user.
 
-The code below demonstrates a user authenticating, getting an SoCredentials, and then using the credential to authenticate.
+The code below demonstrates a user authenticating, getting `SoCredentials`, and then using the credential to authenticate.
 
 ```csharp
 SoCredentials credentials = null;

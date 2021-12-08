@@ -15,7 +15,7 @@ using(SoSession mySession = SoSession.Authenticate("sam", "sam"))
     string storageKey = "selection=61";
     string[] staticColumns = new string[] { "name", "contactId" };
 
-    //Making use of a method exposed in the IFindAgent
+    //Making use of a method exposed in the FindAgent
     //GetAvailableRestrictionColumns - which Gets a list of
     //the column names corresponding to available restrictions for
     //a certain archive provider and restriction storage provider.

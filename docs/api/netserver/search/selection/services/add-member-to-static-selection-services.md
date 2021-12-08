@@ -16,7 +16,7 @@ so.topic: howto
 
 [!code-csharp[CS](includes/add-to-static-services-1.cs)]
 
-In the above example, we are using the agent factory of the NetServer to create all the agents we require. We have used the methods provided in the contact agent to retrieve the contact we want to add its persons to a selection.
+In the above example, we create all the agents we require. We have used the methods provided in the contact agent to retrieve the contact we want to add its persons to a selection.
 
 We have used the `AddConactSelectionMembers` method of the selection agent to add the members to a static selection. As you can see, the second parameter of the method is an array of `ContactPersonId` objects. In the example, we loop through the `persons` array of the contact entity and adding the person IDs to the `ContactPersonId` array. By doing this, we do not need to add the specific `person_id`, but if we want it’s also possible to add a new selection member by `person_id`. As one can see, we have added only one contact person to the selection, but if we want we can add persons from different contacts to a static selection.
 

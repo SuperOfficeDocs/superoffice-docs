@@ -27,7 +27,7 @@ landingContent:
           - text: NetServer Custom Proxies
             url: onsite/custom-proxies/index.md
           - text: REST WebApi
-            url: onsite/webapi/index.md
+            url: webapi/index.md
           - text: COM API
             url: onsite/com/index.md
   # Card

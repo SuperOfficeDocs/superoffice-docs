@@ -5,7 +5,7 @@ using System.IO;
 //  The ID of the document to be updated
 private void UpdateDocument(int documentId)
 {
-  // Create an IDocumentAgent object and retrieve a document
+  // Create an DocumentAgent object and retrieve a document
   using(DocumentAgent agent = new DocumentAgent())
   {
     DocumentEntity documentEntityExisting = agent.GetDocumentEntity(documentId);
