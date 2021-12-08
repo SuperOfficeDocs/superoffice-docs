@@ -18,7 +18,7 @@ namespace ControlsAndDataHandlers
     private const string COLOR_LIST         = "PersonalColorList";
     private const string PERSON_CARRIER     = "PersonCarrier";
     private PersonalColorCarrier _personalColorCarrier = null;
-    private IPersonAgent _personAgent;
+    private PersonAgent _personAgent;
     public string PersonDataSourceName { get; set; }
     public string UDFieldProgId { get; set; }
     public string UDListId { get; set; }

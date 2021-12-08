@@ -37,7 +37,7 @@ public partial class Appointments : System.Web.UI.Page
       DateTime endDate = DateTime.Parse(ed.Text);
 
       //retrive the appointments list using the Agent
-      IAppointmentAgent newAppAgt = AgentFactory.GetAppointmentAgent();
+      AppointmentAgent newAppAgt = new AppointmentAgent();
 
       ActivityInformationListItem[] newAppArr = newAppAgt.GetActivityInformationListByDatesAndAssociate(activeDate, endDate, 103);
 

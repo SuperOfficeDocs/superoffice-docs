@@ -332,7 +332,7 @@ When a save request gets posted from a particular card, how does the card know w
 
 Below, Listing Ten contains the datahandler source code. It declared a few constant variables that contain a value equal to the element names defined in the datahandlers section of Listing Nine. As stated earlier, the datahandler base class does not as of this writing support populating properties with the values defined in elements from the config section with the same name. Therefore, it is done explicitly in this datahandlers Initialize method.
 
-Two other members of interest are the PersonColorCarrier and IPersonAgent types. The PersonColorCarrier type is the class that will hold the personal information about the current person, while the IPersonAgent is used to fetch that information.
+Two other members of interest are the PersonColorCarrier and PersonAgent types. The PersonColorCarrier type is the class that will hold the personal information about the current person, while the PersonAgent is used to fetch that information.
 
 The constructor calls into the base and specifies that this datahandlers PrimaryCurrent property is to contain the keyword that represents the current person, which is "person". This is not necessary but used rather as a convenience. It is used here to look up the current person id in the Load method.
 

@@ -28,7 +28,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 private void GetList()
 {
-  IForeignSystemAgent agent = new ForeignSystemAgent();
+  ForeignSystemAgent agent = new ForeignSystemAgent();
   ForeignKey[] fks = agent.GetDeviceKeysOnDeviceIdentifierTableRecordId("DevNet", "Demo", _fkDeviceId, "sale", _saleId);
   dgFkList.DataSource = fks;
   dgFkList.DataBind();

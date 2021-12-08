@@ -5,7 +5,7 @@ public class AjaxDemo
     SaleEntity sale = AgentFactory.GetSaleAgent().GetSaleEntity(SuperStateManager.GetCurrentId("sale"));
     if (sale != null)
     {
-      IAppointmentAgent agent = new AppointmentAgent();
+      AppointmentAgent agent = new AppointmentAgent();
       AppointmentEntity app = agent.CreateDefaultAppointmentEntityByType(SuperOffice.Data.TaskType.Appointment);
       app.Contact = sale.Contact;
       app.Person = sale.Person;
