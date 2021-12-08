@@ -2,13 +2,13 @@
 title: REST Web API search
 uid: odata_rest_api_search
 description: REST Web API search using ODATA
-author: {github-id}
-keywords: search,odata
-so.date:
+author: Bergfrid Dias
+so.date: 12.06.2021
+keywords: search, ODATA, REST, WebAPI, web services
 so.topic: concept
 ---
 
-# REST Web API search
+# REST WebAPI search
 
 SuperOffice REST APIs expose search endpoints that API consumers use to submit search queries.
 
@@ -27,11 +27,10 @@ OData is a standard for specifying queries and getting results back. OData is a 
 
 The OData URIs are expected in a structured query format, which is then server-side transformed into data structures understood by [archive providers][2].
 
-`/api/v1/contact?$select=field1,field2&$filter=contactId eq 5`
-
--root---/-resource-/-query options ----------------------/
-
----
+```http
+/api/v1/contact?$select=field1,field2&$filter=contactId eq 5
+/-root-/-resource-/-query options --------------------------/
+```
 
 An OData URI accepts any number of the following options that are used to formulate logical database queries.
 
@@ -62,17 +61,19 @@ The name of the archive provider is located just above the Filter section. Locat
 
 The GET Sale endpoint uses the `FindSale` archive provider.
 
-![GetSale][img1]
+214, 157, 133
+
+![GetSale -screenshot][img1]
 
 ## $select columns
 
 All available columns, shown under the blue rectangle, are listed under the **Supported Columns** text on the FindSale archive provider page.
 
-![GetSale][img2]
+![GetSale -screenshot][img2]
 
-Archive provider pages also list the column datatypes and whether or not the column can by used in an `ORDER BY` statement.
+Archive provider pages also list the column data types and whether or not the column can be used in an `ORDER BY` statement.
 
-![GetSale][img3]
+![GetSale -screenshot][img3]
 
 ## $filter operators
 

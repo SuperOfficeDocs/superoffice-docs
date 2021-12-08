@@ -398,7 +398,7 @@ items:
     - name: Base and helper classes
       href: netserver/archive-providers/base-and-helper-classes.md
   - name: Archive provider reference
-    href: netserver/archive-providers/reference/
+    href: netserver/archive-providers/reference/toc.yml
   - name: MDO providers
     href: netserver/mdo-providers/
   - name: OData Search in WebApi
