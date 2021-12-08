@@ -2,9 +2,11 @@
 title: Mobile
 uid: mobile_intro
 description: Introduction to SuperOffice mobile applications
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 12.02.2021
+keywords: SuperOffice Mobile, Pocket CRM
 so.topic: concept
+so.client: pocket, mobile
 ---
 
 # Mobile applications
@@ -31,7 +33,11 @@ SuperOffice Mobile (v. 9.1 and newer) and Pocket CRM (v. 8.x and older) are free
 
 * You can stay up-to-date with projects.
 
-* Better customer satisfaction since
- you can deal with enquiries instantly.
+* Better customer satisfaction since you can deal with enquiries instantly.
 
 * Save valuable time and increase data quality by updating information while you are on a visit, instead of having to wait until you return to the office.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->

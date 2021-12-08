@@ -1,5 +1,5 @@
 ---
-title: Reuirements
+title: Requirements
 uid: mirroring_requirements
 description: SQLServer prerequisites for database mirroring
 author: {github-id}
@@ -36,7 +36,6 @@ The **hardware** requirements are reduced to what the interface actually needs (
 * SQL Server Express Edition (or standard edition, depending on if SQL agent is needed)
 * IIS 8.5 or higher
 * DNS entry plus a valid public certificate
-  * To make the view of the SAP documents available in SuperOffice CRM Online
   * For the event-based call to the interface from SuperOffice CRM Online (push mechanism)
 
 Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online) and in ERP.

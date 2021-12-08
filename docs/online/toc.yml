@@ -15,6 +15,8 @@ items:
     href: version-history.md
   - name: Migrate to Online
     href: migrate/index.md
+  - name: Integrate with Online
+    href: integrate/index.md
   - name: Production sandbox
     href: sandbox/index.md
     expanded: true

@@ -1,6 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
 so.date: 10.20.2021
+keywords: dashboard
 ---
 
 # New and improved Core CRM
@@ -10,7 +11,15 @@ so.date: 10.20.2021
 * [Dashboards – Hide currency info (10.0.2)][2]
 * [Dashboards – Tiles for web panel and HTML text and images (10.0.2)][2]
 * [Dashboards – Old dashboard with read-mode on tile (10.0.2)][2]
+* [Dashboards – Preview in navigator (10.0.3)][3]
+* [Dashboards – Full screen with tasks (10.0.3)][3]
+* [Dashboards – Donut tile with totals (10.0.3)][3]
+* [Dashboards – Tooltip on title (10.0.3)][3]
+* [Dashboards – List tile with image preview (10.0.3)][3]
+* [Dashboards – Warning when changing tile name when multiple languages (10.0.3)][3]
+* [Company and Contact – Copy to clipboard button on phone, email and URL (10.0.3)][3]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
+[3]: 10.0.3-update.md

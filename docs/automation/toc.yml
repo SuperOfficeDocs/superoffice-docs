@@ -3,6 +3,8 @@ items:
   href: index.yml
   expanded: true
   items:
+  - name: Overview
+    href: overview.md
   - name: CRMScript
     href: ../../../crmscript/docs/00-custom/toc.yml
     expanded: true
@@ -41,5 +43,16 @@ items:
       items:
       - name: Add msg to ticket with GitHub webhook
         href: webhook/tutorials/add-msg-to-ticket/index.md
+  - name: NetServer Script Engine
+    href: netserver-scripting/index.md
+    items:
+    - name: Configuration
+      href: netserver-scripting/configure.md
+    - name: Basic scripting
+      href: netserver-scripting/basic-scripting.md
+    - name: Running scripts
+      href: netserver-scripting/run-scripts.md
+    - name: Reference
+      href: netserver-scripting/reference/
   - name: Win script and event system
     href: windows/win-script-event-system.md

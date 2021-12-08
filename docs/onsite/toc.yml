@@ -86,7 +86,7 @@ items:
       - name: Prepare client PC
         href: install/win-client/prepare-client.md
       - name: Install Win 8 client
-        href: install/win-client/win8-client.md       
+        href: install/win-client/win8-client.md
     - name: Install SuperOffice Web
       href: install/web-client/index.md
       items:
@@ -94,6 +94,8 @@ items:
         href: reporter/config.md
       - name: Install NetServer web services
         href: install/netserver/index.md
+      - name: WCF primer
+        href: install/netserver/wcf-primer.md
   - name: Upgrade Onsite
     expanded: true
     items:
@@ -152,6 +154,12 @@ items:
         href: config/username-ini.md
       - name: Web.config
         href: config/web-config.md
+  - name: Integrate
+    items:
+    - name: With the Web client
+      href: integrate/web-client/index.md
+    - name: With the Win client
+      href: integrate/win-client/index.md
   - name: Debug
     items:
     - name: Web client
