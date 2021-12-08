@@ -52,9 +52,9 @@ The current `SuperOffice.WebApi` package dependencies are not the latest Microso
 <!-- Referenced links -->
 
 [1]: https://www.nuget.org/packages/AspNet.Security.OAuth.SuperOffice/
-[2]: ../netserver/web-services/proxy/index.md
-[3]: ../netserver/web-services/endpoints/agents-webapi/index.md
+[2]: ../../netserver/web-services/proxies/index.md
+[3]: ../../netserver/web-services/endpoints/agents-webapi/index.md
 [4]: ../../authentication/online/index.md#oauth
 [5]: ../../authentication/online/index.md#oidc
-[6]: ../netserver/web-services/index.md
-[7]: ../netserver/web-services/proxy/webapi-client.md
+[6]: ../../netserver/web-services/index.md
+[7]: ../../netserver/web-services/proxies/webapi-client.md

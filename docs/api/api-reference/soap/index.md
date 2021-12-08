@@ -21,4 +21,4 @@ WSDL files are available as:
 
 To download all versions of all endpoint WSDL files, click the link below:
 
-<a href="../../../assets/downloads/wsdl.zip" download>Download WSDL.zip</a>
+<a href="../../assets/downloads/wsdl.zip" download>Download WSDL.zip</a>
