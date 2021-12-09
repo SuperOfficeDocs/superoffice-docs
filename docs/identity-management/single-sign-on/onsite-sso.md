@@ -75,7 +75,7 @@ Steps to configure in the *web.config* file:
 
 1. Configure the installation as SSO.
 
-2. Make sure the [symmetricKey and symmetricSecret values are the same between SuperOffice Web and Customer Service config files][1]
+2. Make sure the [SymmetricKey and SymmetricSecret values][1] are the same between SuperOffice Web and Customer Service config files.
 
 3. Add a [CustomerService section][2] in the `SuperOffice` section group:
 

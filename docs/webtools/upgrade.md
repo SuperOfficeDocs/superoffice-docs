@@ -3,10 +3,10 @@ title: Upgrade
 uid: upgrade_webtools
 description: Upgrade Web Tools, Hide download dialog
 author: {github-id}
-keywords:
+keywords: WebTools, upgrade
 so.topic: howto
 so.envir: onsite
-so.client:
+so.client: web
 ---
 
 # Upgrading
@@ -15,7 +15,7 @@ When the user logs in to an updated Web installation, Web Tools will detect ther
 
 ## Turn off upgrade prompt
 
-The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting `SuperOffice\Downloads\WebToolVersion` in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
+The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting [SuperOffice\Downloads\WebToolVersion][1] in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
 
 ![Logging in to Sales and Marketing (upgrade) -screenshot][img4]
 
@@ -65,6 +65,9 @@ If you are unsure which Web Tools version you have, right-click on any DLL start
 ![x -screenshot][img3]
 
 <!-- Referenced links -->
+[1]: ../../../../data-access/docs/netserver/config/downloads.md
+
+<!-- Referenced images -->
 [img1]: media/2018-06-11.png
 [img2]: media/14503-31826.jpg
 [img3]: media/2018-12-21.png

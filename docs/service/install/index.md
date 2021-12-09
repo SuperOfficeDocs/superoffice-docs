@@ -133,10 +133,10 @@ From version **8.4 R04**, Service needs to know NetServer's symmetric keys, whic
 
 When prompted:
 
-1. Enter the SymmetricKey value without quotes.
-2. Enter the SymmetricSecret value without quotes.
+1. Enter the `SymmetricKey` value without quotes.
+2. Enter the `SymmetricSecret` value without quotes.
 
-You will find both values in the NetServer's *web.config*, in the Security - Cryptography section.
+You will find both values in the NetServer's *web.config*, in the [Security - Cryptography section][1].
 
 For installations where you run upgrade.exe (or ejTermsetup.exe for new installations), the program asks for the keys if they do not exist. It will then test whether the keys are correct.
 
@@ -177,6 +177,7 @@ You are now ready to log in and use Service by opening your client browser and g
 [Previous][15] | [Next][14] | [Back to guide][13]
 
 <!-- Referenced links -->
+[1]: ../../../../data-access/docs/netserver/config/security.md
 [2]: manual-steps.md
 [13]: ../../onsite/install/guide.md
 [14]: ../../onsite/install/web-client/index.md

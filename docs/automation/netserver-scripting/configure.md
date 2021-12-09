@@ -16,7 +16,7 @@ When installing SuperOffice CRM Web, a new scripting section is added to the web
 
 **SoAppConfig.exe utility with the Scripting section displayed:**
 
-![setup][img2]
+![setup -screenshot][img1]
 
 The configuration options are:
 
@@ -25,18 +25,7 @@ The configuration options are:
 * The timeout limit is how much time is allowed on synchronous scripts. Asynchronous scripts are not affected by the limit.
 * The Script violation limit is the number of times a script can violate the time limit before being disabled.
 
-The *SoAppConfig.exe* utility will the section as seen in Listing One in *web.config*.
-
-*SoAppConfig*: Scripting section added to the application configuration file.
-
-```XML
-<Scripting>
-  <add key="EnableScripting" value="False" />
-  <add key="ScriptPath" value="" />
-  <add key="TimeoutLimit" value="20000" />
-  <add key="MaxTimeouts" value="5" />
-</Scripting>
-```
+The *SoAppConfig.exe* utility will use the [Scripting section][1] of the NetServer configuration.
 
 ## Document section
 
@@ -48,6 +37,9 @@ One more important configuration section is the documents section. The reason fo
   <addkey\="TemporaryPath"value\="C:\\Temp" />
 </Documents\>
 ```
+
+<!-- Referenced links -->
+[1]: ../../../../data-access/docs/netserver/config/scripting.md
 
 <!-- Referenced images -->
 [img1]: media/scriptingsetup.png

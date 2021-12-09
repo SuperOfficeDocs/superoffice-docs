@@ -3,7 +3,7 @@ title: The Identity Management Gateway
 uid: identity_management_gw
 description: The Identity Management Gateway Architecture, User interface, and Pre-requisites
 author:
-keywords: Identity, Management, Gateway, Architecture, SuperId, 
+keywords: Identity, Management, Gateway, Architecture, SuperID, 
 so.topic: reference
 so.date:
 so.envir:  cloud

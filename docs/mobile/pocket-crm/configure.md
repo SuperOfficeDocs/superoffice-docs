@@ -76,12 +76,12 @@ Installing a second NetServer in DMZ and connecting it via web services to the r
 
 If you want to change the default Pocket CRM configuration URL, you can do so by setting a configuration value of SuperOffice Web in the *web.config* file.
 
-The key name is PocketCrmServiceUrl and the value is the new URL for Pocket connection. You'll find this in the `<SoFormsAuthentication> - <Pages>` section.
+The key name is **PocketCrmServiceUrl** and the value is the new URL for Pocket connection. You'll find this in the [\<SoFormsAuthentication>\<Pages>][9] section.
 
 Example:
 
 ```xml
-<add key="PocketCrmServiceUrl" value="[http://pocket.customer.com/](http://pocket.superoffice.com/NetserverPocket/remote/Services80)" />
+<add key="PocketCrmServiceUrl" value="[http://pocket.customer.com/](http://pocket.superoffice.com/NetserverPocket/remote/Services88)" />
 ```
 
 > [!NOTE]
@@ -102,3 +102,4 @@ Example:
 [6]: upgrade-to-8.md
 [7]: ../../onsite/install/iis/reverse-proxy.md
 [8]: ../../../../data-access/docs/netserver/config/diagnostics.md
+[9]: ../../../../data-access/docs/netserver/config/SoFormsAuthentication.md
