@@ -50,7 +50,7 @@ The Mobile CRM also has:
 
 * 1-way communication from Google and Apple: Push notifications (-> Mobile CRM, not sending, only receiving)
 
-If IdP is set up towards user's user account, the user will be forwarded to the IdP service to validate the user.
+If IdP is set up towards a user's user account, the user will be forwarded to the IdP service to validate the user.
 
 ## Server-side security
 

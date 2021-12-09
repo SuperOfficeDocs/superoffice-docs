@@ -77,7 +77,7 @@ The system user is defined in the `<SuperOffice><Data><Explicit>` section.
 
 ## Enable debug
 
-For enabling logging and set logpath, see [Enable debug][3].
+For enabling logging and setting logpath, see [Enable debug][3].
 
 ## Use a seperate SuperOffice.config
 

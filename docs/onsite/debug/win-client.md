@@ -50,4 +50,4 @@ See the [SuperOffice.config reference][2] for details.
 <!-- Referenced links -->
 [1]: ../config/superoffice-ini.md
 [2]: ../config/superoffice-config.md
-[3]: netserver.md
+[3]: index.md

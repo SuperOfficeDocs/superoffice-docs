@@ -2,7 +2,8 @@
 title: Upgrade to 8.1 with old Sales domain
 uid: upgrade_to_81_sales
 description: Upgrade to 8.1 when using the old Sales domain
-author: {github-id}
+author: Martin Pavlas
+so.date: 12.08.2021
 keywords: upgrade
 so.topic: howto
 so.envir: onsite

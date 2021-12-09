@@ -26,7 +26,7 @@ The Batch task service is automatically set up during installation of the Sales
 
 ![x -screenshot][img2]
 
-When the server is started, it will instantiate and connect to NetServer using the configuration settings found in the SoBatchService.exe.Config file (see path to executable)
+When the server is started, it will instantiate and connect to NetServer using the configuration settings found in the [SoBatchService.exe.Config][2] file.
 
 **The main difference between the web.config file and the SoBatchService.exe.Config file is in the Session.mode. For the Batch task server the session.mode = Process and not HttpContext.**
 
@@ -52,6 +52,7 @@ Task execution can timeout. This is handled in the batch processor in NetServer.
 
 <!-- Referenced links -->
 [1]: ../../../data-access/docs/tutorials/sem-batch-processing/index.md
+[2]: ../../../data-access/docs/netserver/config/batchservice.md
 
 <!-- Referenced images -->
 [img1]: media/runtaskinprocess.png

@@ -1,10 +1,10 @@
 ---
 title: Single sign-on
-uid: onfigure_sso_in_iis_onsite
+uid: configure_sso_in_iis_onsite
 description: Configure single sign-on in IIS onsite
 author: {github-id}
-so.date:
-keywords:
+so.date: 12.08.2021
+keywords: authentication, SSO, single sign-on, IIS, Windows Authentication
 so.topic: howto
 so.envir: onsite
 so.client: web
@@ -12,7 +12,7 @@ so.client: web
 
 # Single sign-on
 
-SuperOffice CRM Web supports single sign-on using Windows Authentication.
+SuperOffice CRM Web supports single sign-on (SSO) using Windows Authentication.
 
 ## Checklist for CRM 8
 
@@ -28,6 +28,8 @@ SuperOffice CRM Web supports single sign-on using Windows Authentication.
 You will need to add the site to trusted sites in IE if you are using IE and if IE thinks that the site is not on a local intranet. Other browsers don't need configuration to give an SSO experience.
 
 Testing SSO on the same server as SuperOffice usually fails. Accessing the site from the internet will prompt the user for credentials since the KDC is unavailable.
+
+SSO will not work when using the recommended installation scenario, but the user may still authenticate with their AD username and password. Also, note that using Remote web services for Web (where web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][3].
 
 ## Single sign-on with Windows authentication
 
@@ -75,7 +77,7 @@ Steps to configure in the *web.config* file:
 
 2. Make sure the [symmetricKey and symmetricSecret values are the same between SuperOffice Web and Customer Service config files][1]
 
-3. Add a `CustomerService` section in the `SuperOffice` section group:
+3. Add a [CustomerService section][2] in the `SuperOffice` section group:
 
     ```xml
     <sectionGroup name="SuperOffice">
@@ -96,14 +98,14 @@ Steps to configure in the *web.config* file:
 
 5. Update the values to be correct for the installation:
 
-* ImpersonateCsUser must be set to True
-* CsUserName is the AD user to impersonate
-* CsPassword is the corresponding password
-* CsDomain is the AD domain where the user is registered
+    * `ImpersonateCsUser` must be set to True.
+    * `CsUserName` is the AD user to impersonate.
+    * `CsPassword` is the corresponding password.
+    * `CsDomain` is the AD domain where the user is registered.
 
 ## Other configuration options
 
-### Single sign-on for Web Tools alone
+### Single sign-on for WebTools alone
 
 1. Open IIS Manager.
 2. Select the Services folder for the CRM Web site.
@@ -112,6 +114,8 @@ Steps to configure in the *web.config* file:
 
 <!-- Referenced links -->
 [1]: ../../service/install/index.md
+[2]: ../../../../data-access/docs/netserver/config/customerservice.md
+[3]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
 
 <!-- Referenced images -->
 [img1]: media/imagegb896.png

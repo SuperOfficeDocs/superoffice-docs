@@ -2,8 +2,9 @@
 title: Manual steps
 uid: install_service_manually
 description: Manual steps to install Service
-author: {github-id}
-keywords:
+author: Martin Pavlas
+so.date: 12.08.2021
+keywords: install, Service, CS, CustomerService
 so.topic: howto
 so.envir: onsite
 # so.client:
@@ -23,7 +24,7 @@ If the website is created, then you may create the application first, and just p
 
 ![x -screenshot][img1]
 
-Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\superoffice*.
+Run the SuperOffice.CustomerService.exe file to install the software on the server, the default location is *c:\superoffice*.
 
 ![x -screenshot][img2]
 

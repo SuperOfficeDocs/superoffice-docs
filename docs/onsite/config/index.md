@@ -32,8 +32,6 @@ The database user and password go the other way, from superoffice.config to both
 
 3. Find the file *SuperOffice.ini*, and open this file.
 
-
-
 ## SuperOffice Web
 
 [Enable debug log (Web)][5]
@@ -103,4 +101,3 @@ The following steps are recommended to increase security:
 [12]: ../../service/automated-tasks/index.md
 
 <!-- Referenced images -->
-

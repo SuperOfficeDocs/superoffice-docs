@@ -2,7 +2,8 @@
 title: Set-up guide
 uid: install_service
 description: Service set-up guide
-author: {github-id}
+author: Martin Pavlas
+so.date: 12.08.2021
 keywords: install
 so.topic: howto
 so.envir: onsite
@@ -25,13 +26,13 @@ You need to have a working SuperOffice web services installation before you proc
 
 The installer will copy the necessary files to the Service program folder.
 
-1. Run the SuperOffice.CustomerService.exe
+1. Run the SuperOffice.CustomerService.exe file.
 
 2. When asked, select a destination folder for the installation of SuperOffice Service.
 
 3. **Choose your hostname**. The hostname should be the registered DNS name you will be using to access both CRM web and Customer Service request management interface in your web browser.
 
-4. You also have the option of installing and overwriting the customer web templates, or leave your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
+4. You also have the option of installing and overwriting the customer web templates, or leaving your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
 
 5. Let the installer create an IIS site based on the hostname you entered. If the IIS website is already available on the web server then you need to uncheck the **Create IIS website**.
 
@@ -47,7 +48,7 @@ You need to configure some startup data that is specific to your installation �
 
 **Choose system language:**
 
-Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities, and so on). You will not be able to changes this later.
+Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities, and so on). You will not be able to change this later.
 
 **Hostname:**
 
@@ -169,7 +170,7 @@ These applications in turn will perform tasks like importing email, sending emai
 6. To start the service at boot, right-click **ejSchedule**, select **Properties** and make sure **Startup type** is set to **Automatic**.
 7. Click **Start** to start the service
 
-You are now ready to log in and use Service by opening your client browser and go to *[Hostname]/scripts/ticket.fcgi*
+You are now ready to log in and use Service by opening your client browser and going to *[Hostname]/scripts/ticket.fcgi*
 
 ***
 

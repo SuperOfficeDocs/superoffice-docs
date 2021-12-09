@@ -123,17 +123,19 @@ items:
       - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
     - name: To version 9
-      href: upgrade/to-9/index.md        
+      href: upgrade/to-9/index.md
   - name: Config
     href: config/index.md
     expanded: true
     items:
+    - name: Feature toggles
+      href: feature-toggles.md
     - name: DBSetup
       href: install/database/dbsetup-exe.md
     - name: Batch task server
       href: batch-task-server.md
     - name: SuperOffice Reports
-      href: Reports.md      
+      href: Reports.md
     - name: Command line switches
       href: command-line-switches.md
     - name: Files
@@ -161,6 +163,7 @@ items:
     - name: With the Win client
       href: integrate/win-client/index.md
   - name: Debug
+    href: debug/index.md
     items:
     - name: Web client
       href: debug/web-client.md

@@ -37,16 +37,16 @@ Under configuration, add and replace username and password with the information 
 
 ```xml
 <appSettings>
-    <!-- Company name, provided by SMS Teknik  -->
-    <add key="smsteknik\serviceId" value="[ServiceID]" />
-    <!-- Username, provided by SMS Teknik  -->
-    <add key="smsteknik_username" value="[Username]" />
-    <!-- Password, provided by SMS Teknik -->
-    <add key="smsteknik_password" value="[Password]" />
-    <!-- 0=disabled (160 char), 1=enabled (up to 918 chars) -->
-    <add key="smsteknik_multisms" value="1" />
-    <!-- 0=disabled, 1-6 SMS count (max) -->
-    <add key="smsteknik_maxmultisms" value="6"/>
+  <!-- Company name, provided by SMS Teknik  -->
+  <add key="smsteknik\serviceId" value="[ServiceID]" />
+  <!-- Username, provided by SMS Teknik  -->
+  <add key="smsteknik_username" value="[Username]" />
+  <!-- Password, provided by SMS Teknik -->
+  <add key="smsteknik_password" value="[Password]" />
+  <!-- 0=disabled (160 char), 1=enabled (up to 918 chars) -->
+  <add key="smsteknik_multisms" value="1" />
+  <!-- 0=disabled, 1-6 SMS count (max) -->
+  <add key="smsteknik_maxmultisms" value="6"/>
 </appSettings>
 ```
 
@@ -60,9 +60,9 @@ Under configuration -> system.serviceModel add:
 
 ```xml
 <client>
-      <endpoint address="https://www.smsteknik.se/webservices/SendSMSws1/Service.asmx"
-          binding="basicHttpBinding" bindingConfiguration="SendSMSSoap"
-          contract="SMSTeknikGW.SendSMSSoap" name="SendSMSSoap" />
+  <endpoint address="https://www.smsteknik.se/webservices/SendSMSws1/Service.asmx"
+            binding="basicHttpBinding" bindingConfiguration="SendSMSSoap"
+            contract="SMSTeknikGW.SendSMSSoap" name="SendSMSSoap" />
 </client>
 ```
 
@@ -70,34 +70,32 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 ```xml
 <basicHttpBinding>
-        <binding name="SendSMSSoap" closeTimeout="00:01:00" openTimeout="00:01:00"
-            receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false"
-            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
-            maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536"
-            messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
-            useDefaultWebProxy="true">
-          <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
-              maxBytesPerRead="4096" maxNameTableCharCount="16384" />
-          <security mode="Transport">
-            <transport clientCredentialType="None" proxyCredentialType="None"
-                realm="" />
-            <message clientCredentialType="UserName" algorithmSuite="Default" />
-          </security>
-        </binding>
-        <binding name="SendSMSSoap1" closeTimeout="00:01:00" openTimeout="00:01:00"
-            receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false"
-            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
-            maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536"
-            messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
-            useDefaultWebProxy="true">
-          <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
-              maxBytesPerRead="4096" maxNameTableCharCount="16384" />
-          <security mode="None">
-            <transport clientCredentialType="None" proxyCredentialType="None"
-                realm="" />
-            <message clientCredentialType="UserName" algorithmSuite="Default" />
-          </security>
-        </binding>
+  <binding name="SendSMSSoap" closeTimeout="00:01:00" openTimeout="00:01:00"
+           receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false"
+           bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+           maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536"
+           messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
+           useDefaultWebProxy="true">
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+    <security mode="Transport">
+      <transport clientCredentialType="None" proxyCredentialType="None" realm="" />
+      <message clientCredentialType="UserName" algorithmSuite="Default" />
+    </security>
+  </binding>
+  <binding name="SendSMSSoap1" closeTimeout="00:01:00" openTimeout="00:01:00"
+           receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false"
+           bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+           maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536"
+           messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
+           useDefaultWebProxy="true">
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                  maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+    <security mode="None">
+      <transport clientCredentialType="None" proxyCredentialType="None" realm="" />
+      <message clientCredentialType="UserName" algorithmSuite="Default" />
+    </security>
+  </binding>
 </basicHttpBinding>
 ```
 

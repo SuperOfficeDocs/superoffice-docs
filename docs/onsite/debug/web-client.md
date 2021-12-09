@@ -66,7 +66,7 @@ We do, however, also have some online services configurable in the *web.config* 
 <!-- Referenced links -->
 [1]: ../security/deployment-scenarios.md
 [2]: ../config/web-config.md
-[3]: netserver.md
+[3]: index.md
 
 <!-- Referenced images -->
 [img1]: media/image0sx5s.png
