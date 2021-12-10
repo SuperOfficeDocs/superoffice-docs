@@ -15,7 +15,6 @@ From SuperOffice 9 the SuperOffice Windows client is not available. The SuperOff
 
 The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
-
 ## Installer
 
 All installation tasks are performed by the installer found in the folder *SuperOffice Server\Client*.

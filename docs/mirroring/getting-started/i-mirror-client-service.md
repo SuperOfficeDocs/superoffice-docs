@@ -23,7 +23,7 @@ The `MirroringClientService` class file is the [database mirroring][1] web servi
   * create the database if necessary
   * discover and provide the service's ApplicationToken and the private certificate key required to sign the token
 
-Luckily for you, these 3 tasks are implemented in the *MirroringClientService.cs* file. However, you still must provide those key pieces of information in the projects *web.config* file.
+Luckily for you, these 3 tasks are implemented in the *MirroringClientService.cs* file. However, you still must provide those key pieces of information in the project's *web.config* file.
 
 ## Methods
 
@@ -50,7 +50,7 @@ All implementations of `IMirrorClientService` **must be multi-tenant and fully r
 
 ### Authenticate
 
-This method is called once per customer, at the beginning of a mirroring cycle,  to establish that the URL of the registered application actually belongs to someone who has the private key of the same application.
+This method is called once per customer, at the beginning of a mirroring cycle, to establish that the URL of the registered application actually belongs to someone who has the private key of the same application.
 
 It is used to exchange and validate signed tokens by both the Mirroring Task and the Mirroring Client.
 

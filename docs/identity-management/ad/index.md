@@ -2,7 +2,7 @@
 title: netserver-authentication-ad
 description: Active Directory
 so.date: 05.08.2018
-keywords: web.config
+keywords: Active Directory, AD, identity
 so.topic: concept
 ---
 
@@ -117,7 +117,7 @@ IIS Authentication can be used together with Services, but not in a Remote setup
 
 ## Two server (remote) configuration
 
-![Two servers]()
+![Two servers][img5]
 
 The AD User’s identity transfers from the Browser to the Web Server, but the web server cannot transfer this identity on to the app server – the web server cannot prove to the app server that it knows the user’s identity. The web server can only prove the that web-browser knows the user’s identity.
 

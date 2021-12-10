@@ -134,4 +134,4 @@ In the central SuperOffice.ini file.
 | ServerSetup folder | For information only |
 
 <!-- Referenced links -->
-[1]: ../install/database/dbsetup-exe.md
+[1]: ../database/dbsetup-exe.md

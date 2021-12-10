@@ -3,7 +3,7 @@ title: Create WFC
 uid: create_mirroring_wfc
 description: Get your mirroring service up and running in 10 minutes or less using NuGet
 author: {github-id}
-keywords:
+keywords: mirroring, WFC, appSettings
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -19,7 +19,7 @@ These steps were documented using Visual Studio 2015.
 
 > [!NOTE]
 > You can download the completed result of these steps on GitHub.
-> View the [DevNet-Database-Mirroring repository](https://github.com/SuperOffice/devnet-database-mirroring) on GitHub.
+> View the [DevNet-Database-Mirroring repository][3] on GitHub.
 
 ## Create a new WCF Service Application in Visual Studio
 
@@ -54,6 +54,7 @@ These steps were documented using Visual Studio 2015.
     1. When you see the *successfully installed* message in the **Package Manager Console**, go back to the **Solution Explorer**.
 
     2. Confirm that you have a new assembly references and that the following files have been added to your project: *MirroringClientService.svc*, *MirroringClientService.cs,* and *Private.txt*.
+
     3. Open the *package.config* file and check that you now have the new Mirroring package and its 2 dependencies. Your package versions may be different, and that is OK.
 
     ![x -screenshot][img5]
@@ -94,68 +95,59 @@ You get the private certificate key for SOD from SuperOffice. **You must provide
 
 ### system.serviceModel section
 
-Because synchronizing database requires a lot of data, it's important to set size options to the maximum capabilities for the mirroring service.
+Because synchronizing a database requires a lot of data, it's important to set size options to the maximum capabilities for the mirroring service.
 
 A complete system.serviceModel configuration example:
 
 ```xml
 <system.serviceModel>
-    <behaviors>
-      <serviceBehaviors>
-        <behavior>
-          <!-- To avoid disclosing metadata information, 
-               set the values below to false before deployment -->
-          <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />
-          <!-- To receive exception details in faults for debugging purposes, 
-               set the value below to true. Set to false before deployment to 
-               avoid disclosing exception information -->
-          <serviceDebug includeExceptionDetailInFaults="false" />
-        </behavior>
-      </serviceBehaviors>
-    </behaviors>
-    <protocolMapping>
-        <add binding="basicHttpBinding" 
-             scheme="https" 
-             bindingConfiguration="DbMirroring" />
-    </protocolMapping>    
-    <serviceHostingEnvironment 
-      aspNetCompatibilityEnabled="true" 
-    multipleSiteBindingsEnabled="true" />
-    <bindings>
-      <basicHttpBinding>
-        <binding name="DbMirroring" 
-                 maxBufferPoolSize="2147483647" 
-                 maxReceivedMessageSize="2147483647" 
-                 maxBufferSize="2147483647">
-
-          <!-- Uncomment the security element if 
-           experiencing 404 service not found
-           or unavailable.-->  
-          <!--<security mode="Transport">
-            <transport clientCredentialType="None" />
-          </security>-->
-      
-          <readerQuotas maxDepth="2147483647" 
-                        maxStringContentLength="2147483647" 
-                        maxArrayLength="2147483647" 
-                        maxBytesPerRead="2147483647" 
-                        maxNameTableCharCount="2147483647" />
-        </binding>
-      </basicHttpBinding>
-    </bindings>
-    <services>
-      <service name="DatabaseMirroringProject.SuperOfficeMirror.MirroringClientService">
-        <endpoint binding="basicHttpBinding" 
-                  bindingConfiguration="DbMirroring" 
-                  contract="SuperOffice.Online.Mirroring.Contract.IMirroringClientService" />
-      </service>
-    </services>
-  </system.serviceModel>
+  <behaviors>
+    <serviceBehaviors>
+      <behavior>
+        <!-- To avoid disclosing metadata information, 
+             set the values below to false before deployment -->
+        <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />
+        <!-- To receive exception details in faults for debugging purposes, 
+             set the value below to true. Set to false before deployment to 
+             avoid disclosing exception information -->
+        <serviceDebug includeExceptionDetailInFaults="false" />
+      </behavior>
+    </serviceBehaviors>
+  </behaviors>
+  <protocolMapping>
+    <add binding="basicHttpBinding" scheme="https" bindingConfiguration="DbMirroring" />
+  </protocolMapping>
+  <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true" />
+  <bindings>
+    <basicHttpBinding>
+      <binding name="DbMirroring" 
+               maxBufferPoolSize="2147483647" 
+               maxReceivedMessageSize="2147483647" 
+               maxBufferSize="2147483647">
+        <!-- Uncomment the security element if experiencing 404 service not found or unavailable.-->  
+        <!--<security mode="Transport"> <transport clientCredentialType="None" /> </security>-->
+        <readerQuotas maxDepth="2147483647" 
+                      maxStringContentLength="2147483647" 
+                      maxArrayLength="2147483647" 
+                      maxBytesPerRead="2147483647" 
+                      maxNameTableCharCount="2147483647" />
+      </binding>
+    </basicHttpBinding>
+  </bindings>
+  <services>
+    <service name="DatabaseMirroringProject.SuperOfficeMirror.MirroringClientService">
+      <endpoint binding="basicHttpBinding" 
+                bindingConfiguration="DbMirroring" 
+                contract="SuperOffice.Online.Mirroring.Contract.IMirroringClientService" />
+    </service>
+  </services>
+</system.serviceModel>
 ```
 
-The naming and linking of key items is annotated in the following image.
+The naming and linking of key items are annotated in the following image.
 
 ![x -screenshot][img12]
+
 ## Expose service to a public secure URL
 
 **Open the service in a browser:**
@@ -176,6 +168,7 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [2]: ../mirroring-task.md
+[3]: https://github.com/SuperOffice/devnet-database-mirroring
 
 <!-- Referenced images -->
 [img1]: media/createwcfservice.png

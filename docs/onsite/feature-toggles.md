@@ -3,8 +3,8 @@ title: Feature toggles
 uid: feature_toggles
 description: Feature toggles
 author: Bergfrid Dias
-so.date: 12.09.2021
-keywords: feature toggle, FeatureToggles, feature_toggle, web.config
+so.date: 12.10.2021
+keywords: feature toggle, FeatureToggles, feature_toggle, web.config, SuperOffice.config
 so.topic: howto
 so.envir: onsite
 so.client: web
@@ -14,7 +14,10 @@ so.client: web
 
 Some features are enabled by **feature toggles**.
 
-To enable toggled features - you need to add two sections manually in your *web.config* file.
+To enable toggled features - you need to add two sections manually in your NetServer configuration file.
+
+* Windows Application: *SuperOffice.config* and *SOUSER.INI*
+* Web Application: *web.config*
 
 > [!NOTE]
 > If you have used feature toggles before and want to enable a new feature, simply add a new key to your existing configuration.
@@ -39,7 +42,7 @@ To enable toggled features - you need to add two sections manually in your *web.
     </sectionGroup>
     ```
 
-3. Add (or update) the `FeatureToggles` section:
+3. Add (or update) the [FeatureToggles section][1]:
 
     Locate the SuperOffice element:
 
@@ -113,6 +116,7 @@ for (Integer i = 0; i < featureToggles.length(); i++)
 > You can retrieve the `feature_toggle` field value using the dynamic archive provider when using the SuperOffice web services.
 
 <!-- Referenced links -->
+[1]: ../../../data-access/docs/netserver/config/featuretoggles.md
 
 <!-- Referenced images -->
 [img2]: media/feature-toggle-result.png

@@ -24,7 +24,6 @@ so.envir: onsite
 8. [Install Service][8]
 9. [Install SuperOffice Web][6]
 
-
 <!-- Referenced links -->
 [1]: server/prepare.md
 [2]: win-client/prepare-client.md

@@ -26,6 +26,7 @@ When installing SuperOffice onsite, you should consider:
 We recognize that organizations have differing use cases and security requirements and that our advice may not suit everyone.
 
 These recommendations may change over time as new security mechanisms are implemented or vulnerabilities in protocols and software surface.
+
 ## Do not want to think about secure installations?
 
 SuperOffice CRM Online is our cloud offering. We take care of the hosting, backups, upgrades, and so on, which gives you more time to focus on your business and not worry about IT operations.

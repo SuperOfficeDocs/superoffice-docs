@@ -35,9 +35,9 @@ Open *web.config* on the server where Sales & Marketing web is installed and a
 
 ```xml
 <sectionGroup name="SuperOffice">
-...
-<section name="Downloads" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
-...
+  ...
+  <section name="Downloads" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+  ...
 ```
 
 ![x -screenshot][img1]
@@ -46,7 +46,7 @@ Now below `</Documents>` add the following new
 
 ```xml
 <Downloads>
-  <add key="WebToolVersion" value="8.0.6004.1310" />
+  <add key="WebToolVersion" value="8.0.6004.1310" />
 </Downloads>
 ```
 
@@ -65,7 +65,7 @@ If you are unsure which Web Tools version you have, right-click on any DLL start
 ![x -screenshot][img3]
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/netserver/config/downloads.md
+[1]: ../../../data-access/docs/netserver/config/downloads.md
 
 <!-- Referenced images -->
 [img1]: media/2018-06-11.png

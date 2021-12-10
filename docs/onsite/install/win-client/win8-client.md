@@ -66,7 +66,6 @@ After the installation is completed both Mail Link and Windows client are instal
 [4]: ../../compatibility/oracle.md
 [5]: prepare-client.md
 
-
 <!-- Referenced images -->
 [img1]: media/crm-8-win-install1.png
 [img2]: media/crm-8-win-install2.png

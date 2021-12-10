@@ -40,6 +40,12 @@ items:
     href: travel-gateway/activity-types.md
   - name: Troubleshooting
     href: travel-gateway/troubleshooting.md
+  - name: Config
+    items:
+    - name: RemoteTravel.ini
+      href: travel-gateway/remotetravel-ini.md
+    - name: Username.ini
+      href: travel-gateway/username-ini.md
 - name: Area management
   href: area-management/index.md
   expanded: true
