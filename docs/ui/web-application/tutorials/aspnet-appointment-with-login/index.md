@@ -16,7 +16,7 @@ This tutorial demonstrates how to create an ASP.NET website with SuperOffice con
 
 **Goal:** a login page using SO controls and then to allow the user to retrieve a list of appointment details based on associate ID, appointment active date, and end date entered by the user.
 
-![14][img1]
+![14 -screenshot][img1]
 
 ## Adding the references
 
@@ -26,11 +26,11 @@ Once the GUI state of the site is complete we need to have certain DLLs that ena
 
 ### The basic references needed to create an ASP.Net website using SO controls
 
-![11][img2]
+![11 -screenshot][img2]
 
 ## The web.config
 
-When creating any website, it is necessary to have a *web.config* file. Here, we copy it from the SuperOffice application and modify it as required. The SuperOffice Services and Database sections need to remain in the config file so that we can talk to the database:
+When creating any website, it is necessary to have a *web.config* file. Here, we copy it from the SuperOffice application and modify it as required. The SuperOffice [Services][] and [Database][] sections need to remain in the config file so that we can talk to the database:
 
 [!code-xml[XML](includes/webconfig.xml)]
 
@@ -57,7 +57,7 @@ Add the *Theme* folder to ASP.net (via the special ADD ASP.NET FOLDER menu) and 
 
 Add the *IMAGES* folder to the website to complete the look:
 
-![12][img3]
+![12 -screenshot][img3]
 
 ## Login page
 
@@ -97,11 +97,11 @@ Next, we have used the Session class’s `Session.Authenticate` method to valida
 
 **The login screen without the styles or themes in place:**
 
-![13][img4]
+![13 -screenshot][img4]
 
 **With theme and images in place it looks more like SuperOffice:**
 
-![14][img1]
+![14 -screenshot][img1]
 
 ## Appointments
 
@@ -123,16 +123,17 @@ The appointments retrieve from the agent are stored in an array of type `Activit
 
 **Before:**
 
-![15][img5]
+![15 -screenshot][img5]
 
 **After:**
 
-![16][img6]
+![16 -screenshot][img6]
 
 <a href="../../../assets/downloads/testwebsite.zip" download>Click to download website source code</a>
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../../../../data-access/docs/netserver/config/services.md
+[2]: ../../../../../data-access/docs/netserver/config/data.md#database
 
 <!-- Referenced images -->
 [img1]: media/image014.jpg

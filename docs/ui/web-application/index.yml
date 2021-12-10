@@ -30,8 +30,6 @@ landingContent:
           url: pagebuilder/config/soml.md
         - text: Folder structure
           url: getting-started/folder-structure.md
-        - text: Clientconfigurationprovider
-          url: getting-started/clientconfigurationprovider.md
   # Card
   - title: PageBuilder
     linkLists:

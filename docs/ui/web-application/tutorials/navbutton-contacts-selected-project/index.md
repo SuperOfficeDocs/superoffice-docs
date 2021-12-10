@@ -31,7 +31,7 @@ What we have done is added a code segment to the *SoNavigatorPanel.config* file 
 > [!NOTE]
 > IIS should be restarted to make all changes take effect before refreshing SuperOffice.
 
-Alternatively, you can enable the `CacheConfigurations` parameter in the `ClientConfigurationProvider` section of the *web.config* file to force the PageBuilder to load the config files from disk every time. Turning on this option will cause SuperOffice to run more slowly.
+Alternatively, you can enable the `CacheConfigurations` parameter in the [ClientConfigurationProvider section][1] of the *web.config* file to force the PageBuilder to load the config files from disk every time. Turning on this option will cause SuperOffice to run more slowly.
 
 The new button should now be visible in the Navigator panel on the left side of the screen. By clicking the button, we would be able to our **Test** page (Custom Page).
 
@@ -91,7 +91,7 @@ It consists of 4 panels and multiple cards and views.
 <!-- **See Also:** System.Web.UI.WebControls.Button -->
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

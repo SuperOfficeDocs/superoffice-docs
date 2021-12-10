@@ -45,7 +45,7 @@ Alternatively, you can use implicit object mapping by decorating the Ajax class 
 When the configuration is done and the class is ready, use the `AjaxMethodDispatcher` from anywhere in the application to invoke the method.
 
 > [!NOTE]
-> Make sure the ClientConfigurationProvider/CacheConfigurations key in *web.config* is set to false for any configuration file changes to take effect immediately. If you do not have that set to true, you must restart IIS (do an iisreset) for your changes to take effect and be observed.
+> Make sure the `CacheConfigurations` key in the [ClientConfigurationProvider section][2] of *web.config* is set to false for any configuration file changes to take effect immediately. If you do not have that set to true, you must restart IIS (do an iisreset) for your changes to take effect and be observed.
 
 Since we wanted to create a follow-up appointment for a sale, we'll add a new button to the Sale page that calls our new server-side method from Javascript.
 
@@ -96,6 +96,7 @@ If you take a look at for example *Scripts/Dialog.js*, you will find there are a
 
 <!-- Referenced links -->
 [1]: ../../pagebuilder/config/index.md
+[2]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image006.jpg

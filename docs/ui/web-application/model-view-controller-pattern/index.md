@@ -14,7 +14,7 @@ so.client: web
 
 Many enterprise software applications base their application design on solid patterns that have been tried and proven true in high-demand environments. SuperOffice is no exception. From inception, the intent for the SuperOffice web client was to incorporate the most sensible patterns needed to build a rock-solid enterprise CRM application, yet remain flexible enough to facilitate a great deal of customizability. As the title states, it has accomplished this by leveraging an architectural design loosely based on the Model-View-Controller pattern. In this article, I walk you through the main aspects of the architecture and demonstrate how the different pieces fit together.
 
-**Figure One**: How some people may understand MVC architecture prior to actually working with it.
+**Figure One**: How some people may understand MVC architecture before actually working with it.
 
 ![x][img1]
 
@@ -38,8 +38,8 @@ The current system is one of the fundamental pieces used to drive the applicatio
 
 ## Getting started
 
-The general idea for this article is to demonstrate the fundamental concepts involved with the SuperOffice web client application design. I’ll do this by building a new dialog, populating some controls in the dialog with data, and then demonstrate how to save the changes back to the database.  
-I’ll discuss the different components that make up the architecture, seen in the above figure, and attempt to show where and how each is used. I’ll discuss how they apply to the SuperOffice Web Client architecture, and introduce topics such as page configuration, built-in controls, custom controls, data handlers, and data carriers.
+The general idea for this article is to demonstrate the fundamental concepts involved with the SuperOffice web client application design. I'll do this by building a new dialog, populating some controls in the dialog with data, and then demonstrate how to save the changes back to the database.  
+I’ll discuss the different components that make up the architecture, seen in the above figure and attempt to show where and how each is used. I’ll discuss how they apply to the SuperOffice Web Client architecture, and introduce topics such as page configuration, built-in controls, custom controls, data handlers, and data carriers.
 
 ## Page Configuration – the Inevitable View
 

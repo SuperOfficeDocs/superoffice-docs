@@ -11,8 +11,6 @@ items:
     href:  getting-started/folder-structure.md
   - name: Set up custom folder
     href:  getting-started/set-up-custom-folder.md
-  - name: Clientconfigurationprovider
-    href:  getting-started/clientconfigurationprovider.md
   - name: Change system config
     href:  getting-started/change-system-config.md
   - name: Change page config

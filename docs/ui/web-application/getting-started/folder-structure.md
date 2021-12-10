@@ -17,9 +17,9 @@ The following table describes the folders most likely to be involved when creati
 
 | Folder | Description |
 |---|---|
-| App\_Data | All SOML configuration files that constitute the entire application structure.<br>Edit existing pages or add your own. |
-| App\_Themes | Version-specific folders containing all CSS and Skin files used by the default theme.<br>The use of themes also lets you change all of the design elements, like fonts and colors in the entire application |
-| Bin | All  application-dependent assemblies, from archive providers to web controls, along with all NetServer assemblies needed for running the Services layer against the SuperOffice database. |
+| App_Data | All SOML configuration files that constitute the entire application structure.<br>Edit existing pages or add your own. |
+| App_Themes | Version-specific folders containing all CSS and Skin files used by the default theme.<br>The use of themes also lets you change all of the design elements, like fonts and colors in the entire application |
+| Bin | All application-dependent assemblies, from archive providers to web controls, along with all NetServer assemblies needed for running the Services layer against the SuperOffice database. |
 | Config | The SuperOffice configuration tool used for setting up database connection parameters, logging, language settings, and more.<br>Writes changes to *web.config*. |
 | Images | All images used by SuperOffice. |
 | JavaScripts | JavaScript (.js) files used by the Atlas (AJAX) framework. |
@@ -33,7 +33,7 @@ The following table describes the folders most likely to be involved when creati
 
 ## Configuration files
 
-The configuration files found in the *App\_Data/WebClient/Web* folder define what pages exist in the application, what cards exist on each page, and what controls and fields exist on each card.
+The configuration files found in the *App_Data/WebClient/Web* folder define what pages exist in the application, what cards exist on each page, and what controls and fields exist on each card.
 
 The main configuration files you need to know about are:
 
