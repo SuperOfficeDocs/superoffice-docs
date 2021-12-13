@@ -113,6 +113,18 @@ To summarize: **The agent presents the services and the carrier (such as Person 
 
 Entity carriers resemble [NetServer Core Entities][1]. In contrast, read-only carrier are more similar to [NetServer Core Rows][10].
 
+### Restricted agents
+
+The following agents are not available in Online by default. Access must be requested specifically when an app is registered.
+
+* CRMScriptAgent
+* EMailAgent
+* ErpSyncAgent
+* MessagingAgent
+* ReplicationAgent
+* UserAgent
+* WebhookAgent
+
 ## Calling a web service
 
 Access to the web services is included in your [Developer Tools][4] subscription.
