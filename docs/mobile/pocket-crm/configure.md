@@ -66,7 +66,7 @@ Both iOS and Android have default support for encrypting all content if a pin co
 
 ## Expose NetServer to internet
 
-To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on an internal network and SuperOffice Web in DMZ][5], that means only eb server part is available on the internet.
+To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on an internal network and SuperOffice Web in DMZ][5], that means only web server part is available on the internet.
 
 A solution is to use [Reverse proxy][7] to make also NetServer available on the internet.
 
