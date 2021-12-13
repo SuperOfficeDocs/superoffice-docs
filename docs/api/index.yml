@@ -32,19 +32,23 @@ highlightedContent:
       itemType: learn
       url: netserver/index.md
     # Card
-    - title: "Learn Bulk Operations"
+    - title: "Learn web services"
+      itemType: learn
+      url: netserver/web-services/index.md
+    # Card
+    - title: "Learn bulk operations"
       itemType: learn
       url: netserver/bulk-operations/index.md 
     # Card
-    - title: "Use the APIs to search"
+    - title: "Learn search APIs"
       itemType: learn
-      url: netserver/search/find-selection/index.md
+      url: netserver/search/index.md
     # Card
-    - title: "NetServer API Reference"
+    - title: "NetServer API reference"
       itemType: reference
       url: api-reference/netserver/index.md
     # Card
-    - title: "RESTful API Reference"
+    - title: "RESTful API reference"
       itemType: reference
       url: api-reference/restful/index.md
 
@@ -55,24 +59,8 @@ conceptualContent:
   summary: "A data access layer for building all your SuperOffice integrations and applications: web, mobile, desktop, IoT, and more."
   items:
     # Card
-    - title: Understanding NetServer
-      summary: Learn about NetServer Core
-      links:
-        - text: NetServer fundamentals
-          itemType: concept
-          url: netserver/index.md
-        - text: SuperOffice WebApi client
-          itemType: get-started
-          url: https://www.nuget.org/packages/SuperOffice.WebApi
-        - text: SuperOffice WebApi client API reference
-          itemType: reference
-          url: api-reference/webapi/index.md
-        - text: SOAP API Reference
-          itemType: reference
-          url: api-reference/soap/index.md
-    # Card
-    - title: NetServer Core concepts
-      summary: Learn the fundamental of NetServer Core
+    - title: Core concepts
+      summary: Learn the fundamental of NetServer core
       links:
         - url: netserver/index.md
           itemType: overview
@@ -90,8 +78,8 @@ conceptualContent:
           itemType: overview
           text: NetServer OSQL
      # Card
-    - title: NetServer Services concepts
-      summary: Learn the fundamentals of NetServer Services
+    - title: Web service concepts
+      summary: Learn the fundamentals of NetServer web services
       links:
         - text: NetServer Services overview
           itemType: concept
@@ -106,7 +94,7 @@ conceptualContent:
           itemType: concept
           url: netserver/web-services/proxies/index.md
     # Card
-    - title: NetServer Search options
+    - title: Search options
       summary: Start searching with NetServer
       links:
         - text: Using Find API
@@ -119,6 +107,25 @@ conceptualContent:
       footerLink:
         url: https://community.superoffice.com
         text: All architecture guides
+    # Card
+    - title: API Reference
+      summary: Quick access to API reference
+      links:
+        - text: NetServer core client
+          itemType: reference
+          url: api-reference/netserver/core/index.md
+        - text: SOAP API
+          itemType: reference
+          url: api-reference/soap/index.md
+        - text: NetServer SOAP proxy client
+          itemType: concept
+          url: api-reference/netserver/services/index.md
+        - text: REST API
+          itemType: reference
+          url: api-reference/restful/index.md
+        - text: NetServer REST proxy client
+          itemType: concept
+          url: api-reference/webapi/index.md
 
 # tools section (optional)
 ## Languages: C#, VB, F#, 
@@ -209,31 +216,31 @@ additionalContent:
       summary: Search the NetServer API and language reference documentation. # < 160 chars (optional)
       items:
        # Card
-      - title: "CRMScript API reference"
+      - title: "CRMScript API"
         summary: CRMScript API reference documentation for Service
         url: ../../crmscript/docs/api-reference/index.md
       # Card
-      - title: "NetServer Core API reference"
+      - title: "NetServer Core API"
         summary: API reference documentation for NetServer Core
         url: api-reference/netserver/core/index.md
       # Card
-      - title: "NetServer Services API reference"
+      - title: "NetServer Web Services API"
         summary: API reference documentation for NetServer Services
         url: api-reference/netserver/services/index.md
       # Card
-      - title: "NetServer SOAP API reference"
+      - title: "NetServer SOAP API"
         summary: API reference documentation for SOAP endpoints
         url: api-reference/soap/index.md
       # Card
-      - title: "RESTful REST API reference"
+      - title: "RESTful REST API"
         summary: API reference documentation for REST endpoints
         url: api-reference/restful/rest/index.md
       # Card
-      - title: "RESTful AGENT API reference"
+      - title: "RESTful AGENT API"
         summary: API reference documentation for AGENT REST endpoints
         url: api-reference/restful/agent/index.md
       # Card
-      - title: "Service SOAP API reference"
+      - title: "Customer Service SOAP API"
         summary: API reference documentation for Service SOAP endpoints
         url: service-soap/overview.md
       # Card

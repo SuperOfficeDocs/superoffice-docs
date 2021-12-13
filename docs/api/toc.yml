@@ -347,6 +347,7 @@ items:
     - name: Protected Tables
       href: netserver/bulk-operations/mass-operations/protected-tables.md
 - name: Search APIs
+  href: netserver/search/index.md
   items:
   - name: Find Selection API
     href: netserver/search/find-selection/index.md

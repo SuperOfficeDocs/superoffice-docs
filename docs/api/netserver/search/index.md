@@ -1,16 +1,15 @@
 ---
 title: search      
 description: Search
-author: {github-id}
+author: SuperOfficeDevNet
 so.date:
-keywords:
+keywords: search
 so.topic:
 ---
 
 # Search
 
-A search is when we are trying to retrieve a set of data that matches our specifications. We can pass our specifications as a set of restrictions to the search.
-
+SuperOffice provides search capabilities via [Archive Providers][0]. A search is performed by querying an archive provider, which acts as a data source, that returns a set of data that matches a set specification of criterion.
 ## Criteria and restrictions
 
 Documentation and the user interface will often talk about **criterion** and **criteria**. The corresponding concept in NetServer is known as an **archive-restriction.**
@@ -23,10 +22,16 @@ Both represent an object consisting of:
 
 ## A word about archives
 
-Archives consist of lists of Persons, Activities, Projects, and many more. The Archives contains a vast collection of data that are either Contact specific or Project specific.
+Archives providers consist of lists of Persons, Activities, Projects, [and many more][1]. The archives providers contains a vast collection of data that are contextually specific to the archive provider called. For example, the available fields from the SimpleContact archive provider are only fields about contacts themselves. However, the ContactActivity archive provider exposes fields from not just the contact table itself but related table data, i.e. documents, appointments, mailings, etc.
 
-A typical archive would be all the persons for a given contact. That can be expressed as a request to the person archive for all persons where `contact_id = 123`.
+A typical search performed by an archive provider is to return all the persons for a given contact. That is expressed as a request to the SimplePerson archive provider with a restriction where `contact_id = 123`.
 
-Searches are different use of archives. The basic principles and technologies are the same. Searches use more general restrictions such as `person/firstname = John`.
+[Find searches][2] are a different use of archives. The basic principles and technologies are the same, but Find searches use the same subsystem as the [SuperOffice Selection][3] feature.
 
-The search and the person archive would just be two different search requests to the same person archive.
+
+<!-- Links -->
+
+[0]: ../archive-providers/index.md
+[1]: ../archive-providers/reference/index.md
+[2]: find-selection/index.md
+[3]: https://community.superoffice.com/en/customer/learn/standard/selections/
