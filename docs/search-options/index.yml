@@ -22,11 +22,11 @@ highlightedContent:
     # Card
     - title: Search options (in the UI)
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=StandardCRM%2Fchap01%2FSearch_options_in_CRM.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap01%2FSearch_options_in_CRM.htm
     # Card
     - title: User-help for selections
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=StandardCRM%2Fchap04%2FSelection.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap04%2FSelection.htm
     # Card
     - title: Template variables
       itemType: reference
@@ -88,16 +88,16 @@ conceptualContent:
           url: ../admin/user-preferences/reference/freetext.md
         - text: Enable free-text search
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap06%2FEnabling_freetext_search.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FEnabling_freetext_search.htm
         - text: Specify search criteria
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap06%2FSpecifying_search_criteria.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FSpecifying_search_criteria.htm
         - text: Stopwords
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap06%2FStopwords.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FStopwords.htm
         - text: Regenerate the free-text index
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap06%2FRegenerating_a_freetext_index.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FRegenerating_a_freetext_index.htm
 
     # Card
     - title: UI options
@@ -133,7 +133,7 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options

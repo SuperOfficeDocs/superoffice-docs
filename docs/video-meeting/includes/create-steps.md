@@ -3,8 +3,8 @@
 3. Complete the information in the **Follow-up** dialog as described in the [user guide][2].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Add_activities.htm
-[2]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Dialog_for_followups.htm
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FAdd_activities.htm
+[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FDialog_for_followups.htm
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/videomeeting_inactive.png

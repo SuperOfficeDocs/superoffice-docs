@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/sale/sale.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fsale%2Fsale.htm
     # Card
     - title: Template variables
       itemType: reference
@@ -84,13 +84,13 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Lists - Sale stage
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Sale_-_Stage.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FSale_-_Stage.htm
         - text: Lists - Sale type, stages, quote
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Sale_-_Sales_type_(for_stages).htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FSale_-_Sales_type_(for_stages).htm
         - text: Lists - sale amount
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Adding_items_to_the_Sale_-_Amount_class_list.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdding_items_to_the_Sale_-_Amount_class_list.htm
 
     # Card
     - title: UI options
@@ -135,7 +135,7 @@ conceptualContent:
         url: ../../../data-access/docs/netserver/webhooks/reference/quote-events.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options

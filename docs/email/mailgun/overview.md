@@ -147,5 +147,3 @@ It is a good idea to allow (whitelist) access to your own SMTP server from our O
 [img6]: media/2-out-dkim-hi.gif
 [img7]: media/2-in-hi.gif
 [img8]: media/guidelines.png
-
-<!-- FYI: MP4 videos were available at https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/ -->

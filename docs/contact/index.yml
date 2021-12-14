@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/person/Contact_main.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/StandardCRM/person/Contact_main.htm
     # Card
     - title: Template variables
       itemType: reference
@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Address formats
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/EN/CRM/9.2/UserHelp/index.htm#t=StandardCRM%2Fchap03%2FAddress_formats_for_different_countries.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap03%2FAddress_formats_for_different_countries.htm
     # Card
     - title: Person database table
       itemType: reference
@@ -85,7 +85,7 @@ conceptualContent:
           url: ../admin/user-preferences/reference/find-contact.md
         - text: Lists - General Country
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Adding_items_to_the_Country_list_web.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/chap08/Adding_items_to_the_Country_list_web.htm
 
     # Card
     - title: UI options
@@ -130,7 +130,7 @@ conceptualContent:
         url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
       - text: SCIM - sync user
         itemType: how-to-guide
         url: ../identity-management/scim/provisioning/sync-user.md

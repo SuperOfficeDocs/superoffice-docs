@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap05/Project.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap05%2FProject.htm
     # Card
     - title: Template variables
       itemType: reference
@@ -72,10 +72,10 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Lists - Project status
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Project_-_Status.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Status.htm
         - text: Lists - Project type status
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Project_-_Type.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Type.htm
 
     # Card
     - title: UI options
@@ -123,7 +123,7 @@ conceptualContent:
         url: ../../../data-access/docs/netserver/webhooks/reference/project-member-events.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options
