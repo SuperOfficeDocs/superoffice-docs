@@ -138,7 +138,7 @@ To try this out for yourself, we have provided [an example on GitHub][7].
 [3]: structure-method.md
 [4]: impfilenames-method.md
 [5]: custompriming-method.md
-[6]: https://community.superoffice.com/en/content/resources/superoffice-expander-sdk/devnet-toolbox/
+[6]: https://github.com/Superoffice
 [7]: https://github.com/SuperOffice/DevNet/tree/master/ContinuousDatabase
 
 <!-- Referenced images -->
