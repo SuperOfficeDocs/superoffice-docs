@@ -56,10 +56,10 @@ conceptualContent:
       links:
       - text: Create a document
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/documents/create-a-document/
+        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
       - text: Create a follow-up
         itemType: how-to-guide
-        url: https://community.superoffice.com/en/customer/learn/standard/documents/install-web-tools/
+        url: https://community.superoffice.com/en/learning/user-guide/get-started/connect-email-documents/install-web-tools/
 
     # Card
     - title: Videos

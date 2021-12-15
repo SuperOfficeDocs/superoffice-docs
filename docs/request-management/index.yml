@@ -48,16 +48,16 @@ conceptualContent:
       links:
       - text: Request management
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/service/requests/
+        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/
       - text: How to reply to customers
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/service/requests/how-to-handle-a-request/
+        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/reply-to-request/
       - text: Step-by-step request handling
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/service/requests/how-to-handle-requests-step-by-step/
+        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/handle-requests/
       - text: How to archive emails as requests
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/service/create/how-to-archive-emails-as-requests/
+        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/archive-emails/
 
     # Card
     - title: Videos

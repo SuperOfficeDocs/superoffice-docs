@@ -44,22 +44,22 @@ conceptualContent:
       links:
       - text: Register sales
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/prioritize/how-to-register-your-sales/
+        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/register-sales/
       - text: Sales guide
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/prioritize/how-to-use-the-sales-guide/
+        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/sales-guide/
       - text: Pipeline management
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/planning/
+        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/
       - text: Forecast and selections
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/planning/how-to-use-selections-to-forecast-sales/
+        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/forecasting-with-selections/
       - text: Document templates
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/proposals/how-to-write-a-proposal-with-a-document-template/
+        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
       - text: Create quotes
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/sales/proposals/how-to-create-a-quote/
+        url: https://community.superoffice.com/en/learning/user-guide/sales/quote/create-quotes/
 
     # Card
     - title: Videos

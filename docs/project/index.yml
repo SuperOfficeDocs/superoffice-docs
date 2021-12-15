@@ -44,10 +44,10 @@ conceptualContent:
       links:
       - text: Organize files and activities in projects
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/projects/
+        url: https://community.superoffice.com/en/learning/user-guide/project/
       - text: Create project
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/projects/how-to-create-a-project/
+        url: https://community.superoffice.com/en/learning/user-guide/project/create-projects/
 
     # Card
     - title: Videos

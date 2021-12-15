@@ -45,7 +45,7 @@ v=spf1 include:_spf.online.superoffice.com ~all
 ```
 
 <!-- Referenced links -->
-[2]: https://community.superoffice.com/en/customer/learn/settings-maintenance/service/inquiry/how-to-setup-mailboxes-for-superoffice/
+[2]: https://community.superoffice.com/en/learning/admin-guide/Service/request-setup/service-mailbox-setup/
 [3]: https://support.google.com/a/answer/33786?hl=en
 
 <!-- Referenced images -->

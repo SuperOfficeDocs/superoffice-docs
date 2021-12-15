@@ -48,22 +48,19 @@ conceptualContent:
       links:
       - text: How to search for information
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/search-for-information/
+        url: https://community.superoffice.com/en/learning/user-guide/selections/
       - text: How to use a typical search
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/typical-search/
+        url: https://community.superoffice.com/en/learning/user-guide/selections/typical-search/
       - text: How to create a search and save it as a selection
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/create-search-save-as-selection/
+        url: https://community.superoffice.com/en/learning/user-guide/selections/save-search-as-selection/
       - text: How to create a dynamic selection
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/dynamic-selections/
-      - text: How to create a combined selection
+        url: https://community.superoffice.com/en/learning/user-guide/selections/dynamic-static-selections/
+      - text: How to broaden a search using the "OR" function
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/combined-selections/
-      - text: How to broaden a search using the “OR” function
-        itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/selections/or-function/
+        url: https://community.superoffice.com/en/learning/user-guide/selections/or-search-function/
 
     # Card
     - title: Videos

@@ -48,13 +48,13 @@ conceptualContent:
       links:
       - text: Register activities in the diary
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/diary/
+        url: https://community.superoffice.com/en/learning/user-guide/diary/
       - text: Create a follow-up
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/diary/register-an-appointment/
+        url: https://community.superoffice.com/en/learning/user-guide/diary/create-appointment/
       - text: Invite participants
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/diary/invite-your-colleagues/
+        url: https://community.superoffice.com/en/learning/user-guide/diary/invite-contact-to-appointment/
 
     # Card
     - title: Videos

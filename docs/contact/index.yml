@@ -48,13 +48,13 @@ conceptualContent:
       links:
       - text: Why adding companies and contacts to CRM is important
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/
+        url: https://community.superoffice.com/en/learning/user-guide/company-contact/
       - text: How to add a contact
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-add-a-contact-manually/
+        url: https://community.superoffice.com/en/learning/user-guide/company-contact/add-contact/
       - text: How to search for contacts
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-search-for-information/
+        url: https://community.superoffice.com/en/learning/user-guide/get-started/search-find/
 
     # Card
     - title: Videos
