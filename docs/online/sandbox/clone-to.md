@@ -43,4 +43,4 @@ so.client: online
 | 24 | Enter Running Mode | The production sandbox may now be logged in to! |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/webhelpadmin/index.htm#t=topics_script%2Fblogic.listScheduledTasks.html
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=topics_script%2Fblogic.listScheduledTasks.html

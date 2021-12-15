@@ -113,7 +113,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
-[5]: https://community.superoffice.com/en/technical/forms/register-sub-idp/
+[5]: https://community.superoffice.com/register-sub-idp
 
 <!-- Referenced images -->
 [img1]: media/choose-idp.png

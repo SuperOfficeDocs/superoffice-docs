@@ -56,10 +56,10 @@ conceptualContent:
       links:
       - text: Create a document
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/documents/create-a-document/
+        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
       - text: Create a follow-up
         itemType: how-to-guide
-        url: https://community.superoffice.com/en/customer/learn/standard/documents/install-web-tools/
+        url: https://community.superoffice.com/en/learning/user-guide/get-started/connect-email-documents/install-web-tools/
 
     # Card
     - title: Videos
@@ -87,7 +87,7 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: List Document template
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Document_template.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FDocument_template.htm
 
     # Card
     - title: UI options
@@ -126,7 +126,7 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options

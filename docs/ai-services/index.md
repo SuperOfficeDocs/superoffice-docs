@@ -37,7 +37,7 @@ You can save time and reduce manual work by automating various business processe
 | Chatbot | Chatbot |
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/customer/news/pilot-programs/sign-up-pilot-programs/?action=formFrame&formId=F-MITXUrxp
+[1]: https://community.superoffice.com/en/product-releases/pilot-programs/sign-up-pilot-programs/?action=formFrame&formId=F-MITXUrxp
 [2]: configuration-ai/index.md
 [3]: text-analysis/index.md
 

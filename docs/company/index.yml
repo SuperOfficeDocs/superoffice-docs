@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap03/Companies.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/StandardCRM/chap03/Companies.htm
     # Card
     - title: Template variables
       itemType: reference
@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Address formats
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/EN/CRM/9.2/UserHelp/index.htm#t=StandardCRM%2Fchap03%2FAddress_formats_for_different_countries.htm
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap03%2FAddress_formats_for_different_countries.htm
     # Card
     - title: Contact database table
       itemType: reference
@@ -48,13 +48,13 @@ conceptualContent:
       links:
       - text: Why adding companies and contacts to CRM is important
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/
+        url: https://community.superoffice.com/en/learning/user-guide/company-contact/
       - text: How to add a company
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-enter-contacts/
+        url: https://community.superoffice.com/en/learning/user-guide/company-contact/add-company/
       - text: How to search for companies
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-search-for-information/
+        url: https://community.superoffice.com/en/learning/user-guide/get-started/search-find/
 
     # Card
     - title: Videos
@@ -124,7 +124,7 @@ conceptualContent:
         url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
       - text: Zapier
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
       - text: SCIM - sync company
         itemType: how-to-guide
         url: ../identity-management/scim/provisioning/sync-company.md

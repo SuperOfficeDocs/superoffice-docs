@@ -38,7 +38,9 @@ Provisioning a partner application may involve configuration or settings in both
 
 ![x -screenshot][img1]
 
-This example was presented at Expander World 2016. See also the full presentation from Expander world 2016 here: [Online Application Lifecycle presentation][1].
+This example was presented at Expander World 2016.
+
+<!-- See also the full presentation from Expander world 2016 here: [Online Application Lifecycle presentation][1]. -->
 
 ## Automatic or manual provisioning?
 
