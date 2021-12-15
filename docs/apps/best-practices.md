@@ -350,7 +350,7 @@ Read about [effective visual design][6].
 [4]: https://community.superoffice.com/change-application
 [5]: ../../../data-access/docs/authentication/online/validate-security-tokens.md
 [6]: ../../../user-interface/docs/design/index.md
-[7]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/
+[7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [8]: ../../../data-access/docs/authentication/online/sign-in-user/index.md
 [9]: ../../../data-access/docs/authentication/online/auth-application/index.md
 [10]: tenant-status/notifications.md

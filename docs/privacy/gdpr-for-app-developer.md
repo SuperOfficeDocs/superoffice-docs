@@ -80,4 +80,4 @@ The [bulk update][3] feature lets businesses change personal details for a large
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/whats-new/product/consent-management/
 [2]: https://community.superoffice.com/en/product-releases/whats-new/product/subscription-management/
-[3]: https://community.superoffice.com/en/customer/news/product/superoffice-8.2/bulk-update/
+[3]: https://community.superoffice.com/en/product-releases/whats-new/product/bulk-update/
