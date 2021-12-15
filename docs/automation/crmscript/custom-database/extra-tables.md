@@ -135,6 +135,6 @@ In addition, each type has its own set of properties. For example, items for a l
 For a complete list of properties, see the [help files][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html
 [2]: ../searchengine/index.md
-[3]: https://community.superoffice.com/documentation/help/en/crm/10.0/userhelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
+[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
