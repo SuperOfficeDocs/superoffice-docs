@@ -34,7 +34,7 @@ This means that SuperOffice Operations Center does not recognize your user as an
 
 ### How to resolve 'account does not have access' error
 
-You can resolve this issue by signing in to SuperOffice, navigate to settings and maintenance (admin), then make any change to the user and then save. Next, change back and save again.
+You can resolve this issue by signing in to SuperOffice, navigate to settings and maintenance (admin), then make a change to the user like user level or role and then save. Next, change back and save again.
 
 Your user is now able to successfully approve the application.
 
