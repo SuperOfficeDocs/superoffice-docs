@@ -15,5 +15,5 @@ However, when we release new service releases there may be new template variable
 If you encounter a problem with templates check [Document templates troubleshooting][2].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/help-center/
+[1]: https://community.superoffice.com
 [2]: troubleshooting.md

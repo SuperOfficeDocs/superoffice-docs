@@ -105,7 +105,7 @@ To stop this from happening you have to activate a registry key named **UseBorde
 [Previous][11] | [Next][12] | [Back to guide][13]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265
+[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=11900&azure=1
 <!-- workitem=11900 -->
 [2]: deploy-on-citrix.md
 [11]: ../../../service/install/prepare.md
