@@ -74,9 +74,11 @@ The image below demonstrates setting the `apppool` permissions.
 ## Video References
 
 * [Scripting in the Web World][1]
+* [Web Client and Interactive NetServer Web Service Scripts][2]
 
 <!-- Referenced links -->
 [1]: https://www.youtube.com/watch?v=5iJmyaIpr0g
+[2]: https://www.youtube.com/watch?v=f5JIx4uP7ZI&t=2291s
 
 <!-- Referenced images -->
 [img3]: media/permissions2.png
