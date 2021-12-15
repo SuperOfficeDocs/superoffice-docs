@@ -103,10 +103,6 @@ conceptualContent:
         - text: Using Archive Providers
           itemType: overview
           url: netserver/search/index.md
-      # footerLink (optional)
-      footerLink:
-        url: https://community.superoffice.com
-        text: All architecture guides
     # Card
     - title: API Reference
       summary: Quick access to API reference

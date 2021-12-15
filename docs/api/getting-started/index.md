@@ -146,7 +146,7 @@ With the understanding that each SuperOffice platform provides a lot of integrat
 Read more about each platform API in the SDK documentation.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/forum/
+[1]: https://community.superoffice.com/en/technical/forums/api-forums/
 [2]: mailto:sdk@superoffice.com
 [3]: ../../../crmscript/docs/overview/index.md
 [4]: ../../../superoffice-docs/docs/service/integrate/index.md

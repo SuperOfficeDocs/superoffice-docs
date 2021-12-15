@@ -28,10 +28,9 @@ A typical search performed by an archive provider is to return all the persons f
 
 [Find searches][2] are a different use of archives. The basic principles and technologies are the same, but Find searches use the same subsystem as the [SuperOffice Selection][3] feature.
 
-
 <!-- Links -->
 
 [0]: ../archive-providers/index.md
 [1]: ../archive-providers/reference/index.md
 [2]: find-selection/index.md
-[3]: https://community.superoffice.com/en/customer/learn/standard/selections/
+[3]: https://community.superoffice.com/en/learning/user-guide/selections/

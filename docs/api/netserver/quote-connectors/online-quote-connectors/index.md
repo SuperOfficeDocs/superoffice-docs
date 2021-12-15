@@ -42,5 +42,4 @@ Have fun building quote connectors for SuperOffice CRM Online!
 [5]: https://www.nuget.org/packages/System.IdentityModel.Tokens.Jwt
 [6]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
 [7]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.IntegrationServer
-[8]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/
 [9]: https://www.nuget.org/packages/SuperOffice.NetServer.Core/

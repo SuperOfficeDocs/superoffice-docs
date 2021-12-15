@@ -46,4 +46,4 @@ Type: System.ArgumentOutOfRangeException
 Please use the [Continuous Database forum][1] to communicate any **questions or concerns** you may have about this change.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/Developer/Forum/Rooms/superoffice-product-api-group/continuous-database-development/
+[1]: https://community.superoffice.com/en/technical/forums/api-forums/client-libraries-and-tools/

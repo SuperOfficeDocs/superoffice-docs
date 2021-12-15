@@ -106,7 +106,7 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
     }
     ```
 
-8. Send a useful reply to the browser before processing the JWT. For example, give a warning message informing that the browser is about to re-direct to the community site, and set the refresh properties to do so after 5 seconds.
+8. Send a useful reply to the browser before processing the JWT. For example, give a warning message informing that the browser is about to re-direct to the help center, and set the refresh properties to do so after 5 seconds.
 
     ```csharp
     // sends an HTTP response to the browser.
@@ -119,7 +119,7 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
                   content='5;url=https://community.superoffice.com'>
         </head>
         <body>
-            <h1>Redirecting you to the SuperOffice Community...</h1>
+            <h1>Redirecting you to the SuperOffice Help Center...</h1>
         </body>
     </html>";
     // convert the markup to byte\[\] format
