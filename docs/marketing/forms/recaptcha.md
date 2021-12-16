@@ -31,11 +31,11 @@ If you are interested in the reCAPTCHA statistics, you can make your reCAPTCHA p
 
 ## SuperOffice Onsite
 
-For SuperOffice Onsite you need to make your reCAPTCHA profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCAPTCHA form element, you can specify them in the *web.config* file for the NetServer used by Service. Then you do not need to give the keys for each form you create.
+For SuperOffice Onsite you need to make your reCAPTCHA profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCAPTCHA form element, you can specify them in the [GoogleRecaptcha section][3] of the *web.config* file for the NetServer used by Service. Then you do not need to give the keys for each form you create.
 
 For reCAPTCHA to work in an Onsite installation, the NetServer needs to have access to the Google verification URL (see below). This is used to verify the reCAPTCHA attempt.
 
-The following *web.config* changes need to be done only if you want to [specify the keys in the file][3]. reCAPTCHA will work without these but you will have to add the keys to the form each time.
+The following *web.config* changes need to be done only if you want to specify the keys in the file. reCAPTCHA will work without these but you will have to add the keys to the form each time.
 
 You need to add this line under the `<sectionGroup name="SuperOffice">`:
 
@@ -73,7 +73,7 @@ After you press Submit, your Site key and Secret key will be shown:
 <!-- Referenced links -->
 [1]: https://www.google.com/recaptcha/admin
 [2]: https://www.google.com/u/0/recaptcha/admin/create
-[3]: ../../../data-access/docs/netserver/config/recaptcha.md
+[3]: ../../../../data-access/docs/netserver/config/googlerecaptcha.md
 
 <!-- Referenced images -->
 [img1]: media/imagehkoheq.png
