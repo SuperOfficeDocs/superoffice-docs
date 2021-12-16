@@ -40,7 +40,7 @@ There are multiple ways how [SuperOffice can be deployed][1]. If SuperOffice We
 
 2. Double-click on the **SoAppConfig.exe** app.
 
-## Usin the Product Configurator
+## Using the Product Configurator
 
 ![Product configurator -screenshot][img1]
 
@@ -72,11 +72,12 @@ SuperOffice Inbox and Pocket CRM use NetServer service to send emails. If you wa
 Logging will create 2 files - one for incoming emails (communication with IMAP server) and one for outgoing emails (communication with SMTP server).
 
 > [!NOTE]
-> This is not a debug log for MailLink.
+> This is not a debug log for MailLink. That log file is in *%appdata%\SuperOffice\MailLink\Log*. [Read more about debugging MailLink][3].
 
 <!-- Referenced links -->
 [1]: ../security/deployment-scenarios.md
 [2]: index.md
+[3]: ../../email/maillink/debug.md
 
 <!-- Referenced images -->
 [img1]: media/image0sx5s.png
