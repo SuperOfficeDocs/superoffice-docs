@@ -1,5 +1,6 @@
 items:
 - name: Onsite
+  href: index.yml
   expanded: true
   items:
   - name: Install Onsite
