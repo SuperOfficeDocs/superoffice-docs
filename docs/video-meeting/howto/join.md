@@ -22,7 +22,7 @@ There are several ways you can join a video meeting in SuperOffice:
     ![Join meeting -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Details_tab_follow-ups.htm
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FDetails_tab_follow-ups.htm
 
 <!-- Referenced images -->
 [img1]: media/join-meeting-diary.png

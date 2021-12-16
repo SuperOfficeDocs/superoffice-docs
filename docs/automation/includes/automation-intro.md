@@ -5,4 +5,4 @@ While automation code is usually defined by customer requirements, consultants o
 Internal automation APIs are very useful for managing predetermined routines based on customers' requirements and providing user interaction within the application. They can make complex multiple-step tasks easier by programmatically automating the mundane details, and let the user focus on the task at hand.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/forum/
+[1]: https://community.superoffice.com/en/technical/forums/api-forums/

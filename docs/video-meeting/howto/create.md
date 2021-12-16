@@ -28,8 +28,8 @@ If you have turned on email invitations for the participants of the follow-up, a
 > Click ![copy link -screenshot][img4] to copy the video meeting link. You can then paste the link in the description of the appointment or send it to others via direct messaging.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Add_activities.htm
-[2]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap02/Dialog_for_followups.htm
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FAdd_activities.htm
+[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FDialog_for_followups.htm
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/videomeeting_inactive.png

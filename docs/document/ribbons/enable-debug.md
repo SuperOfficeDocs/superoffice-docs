@@ -28,4 +28,4 @@ EnableRibbonLog = 1
 
 <!-- Referenced links -->
 [1]: ../../onsite/install/win-client/superoffice-ini.md
-[2]: https://community.superoffice.com/en/technical/Forum/rooms/topic/superoffice-product-group/crm-windows-application/why-we-should-not-run-vsto-installer-manually/
+[2]: https://community.superoffice.com/en/technical/forums/product-forums/crm-windows-application/why-we-should-not-run-.vsto-installer-manually/

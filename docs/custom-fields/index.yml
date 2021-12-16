@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/Service/topics/blogic.listExtraTables.html
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -36,7 +36,7 @@ conceptualContent:
       links:
       - text: How to create a user-defined field
         itemType: learn
-        url: hhttps://community.superoffice.com/en/customer/learn/settings-maintenance/marketing/how-to-create-a-user-defined-field/
+        url: https://community.superoffice.com/en/learning/admin-guide/create-fields/
       - text: How to create an extra field (Service)
         itemType: learn
         url: https://community.superoffice.com/en/customer/learn/settings-maintenance/marketing/how-to-set-up-an-extra-field-for-a-contact/
@@ -61,10 +61,10 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Lists - Project status
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Project_-_Status.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Status.htm
         - text: Lists - Project type status
           itemType: how-to-guide
-          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Project_-_Type.htm
+          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Type.htm
 
     # Card
     - title: UI options

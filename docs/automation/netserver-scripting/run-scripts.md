@@ -78,7 +78,7 @@ The image below demonstrates setting the `apppool` permissions.
 
 <!-- Referenced links -->
 [1]: https://www.youtube.com/watch?v=5iJmyaIpr0g
-[2]: https://community.superoffice.com/en/developer/videos/video-player/?videoId=841
+[2]: https://www.youtube.com/watch?v=f5JIx4uP7ZI&t=2291s
 
 <!-- Referenced images -->
 [img3]: media/permissions2.png

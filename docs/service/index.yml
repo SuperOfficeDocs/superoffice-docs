@@ -46,7 +46,7 @@ highlightedContent:
     # Card
     - title: "Macros and scripts"
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
+      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -63,13 +63,13 @@ conceptualContent:
         url: ../reply-templates/index.md
       - text: Standard fields
         itemType: reference
-        url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
+        url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
       - text: System templates
         itemType: concept
         url: ../reply-templates/system-templates.md
       - text: Create new template
         itemType: how-to-guide
-        url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html
+        url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html
       - text: Using CRMScript
         itemType: how-to-guide
         url: ../../../crmscript/docs/parser-and-templates/reply-template.md

@@ -66,8 +66,8 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 [Back to upgrade overview][9]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
-[2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
+[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [3]: ../../../admin/overview.md
 [5]: ../../install/guide.md
 [6]: ../../install/win-client/index.md

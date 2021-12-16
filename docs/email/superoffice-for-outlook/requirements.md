@@ -49,7 +49,7 @@ If an add-in update significantly increases the scope of data access, you must r
 [1]: deploy-centrally.md
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
-[4]: https://community.superoffice.com/en/customer/forum/rooms/topic/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
+[4]: https://community.superoffice.com/en/forums/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
 [5]: https://aka.ms/centralized-deployment-guidance
 
 <!-- Referenced images -->

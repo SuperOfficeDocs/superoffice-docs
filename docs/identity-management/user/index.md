@@ -55,5 +55,5 @@ What a user can do follows an accumulative CRUD pattern. Functional rights perta
 We have defined a [set of default roles][2] that you can change and expand to tailor the access control to the needs of your organization. The roles named **User level 0–5** cover the range from full access (0) to read-only access (5).
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/search/#/faq/113494
-[2]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=Rolle%2FRole.htm
+[1]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=Rolle%2FRole.htm

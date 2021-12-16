@@ -26,4 +26,4 @@ You can read more about [policies for **onsite** installations][3] in our forums
 <!-- Referenced links -->
 [1]: ../superid/overview.md
 [2]: ../federated-id-and-identity-providers.md
-[3]: https://community.superoffice.com/en/search/#/faq/113578
+[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-enforce-a-strong-password-policy-in-superoffice-crm-onsite/

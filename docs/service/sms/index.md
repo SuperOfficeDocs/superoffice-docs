@@ -70,7 +70,7 @@ You may read more about how to use the SMS plugins in the [help file][1]. The i
 * [TxtLocal][10]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
 [2]: ../automated-tasks/ejournalcron.md
 [3]: ../../../../crmscript/docs/index.yml
 [4]: cm.md

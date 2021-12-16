@@ -190,7 +190,7 @@ landingContent:
       - linkListType: reference
         links:
         - text: Release notes
-          url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-documents/
+          url: https://community.superoffice.com/en/product-releases/whats-new/
         - text: Version history
           url: ../version-history.md
 
