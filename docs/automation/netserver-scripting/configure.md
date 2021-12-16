@@ -25,7 +25,7 @@ The configuration options are:
 * The timeout limit is how much time is allowed on synchronous scripts. Asynchronous scripts are not affected by the limit.
 * The Script violation limit is the number of times a script can violate the time limit before being disabled.
 
-The *SoAppConfig.exe* utility will use the [Scripting section][1] of the NetServer configuration.
+The *SoAppConfig.exe* utility sets the [Scripting section][1] of the NetServer configuration.
 
 ## Document section
 
