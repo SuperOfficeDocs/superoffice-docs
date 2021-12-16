@@ -31,7 +31,7 @@ Enable logging in the *web.config* file as for CRM Web in the [Diagnostics secti
 
 When initiating phone calls from Pocket CRM the numbers must be formatted in a way that the phone can use. SuperOffice NetServer has the functionality to return all phone numbers from the SuperOffice database in a clean formatted way, without spaces, commas, and including country prefix, like this: +4712345678.
 
-To enable this feature in NetServer make sure that *web.config* contains this element:
+To enable this feature in NetServer make sure that the [Globalization section][10] in *web.config* contains this element:
 
 ```xml
 <add key="AllwaysUseGsmPhoneStyle" value="True" />
@@ -103,3 +103,4 @@ Example:
 [7]: ../../onsite/install/iis/reverse-proxy.md
 [8]: ../../../../data-access/docs/netserver/config/diagnostics.md
 [9]: ../../../../data-access/docs/netserver/config/SoFormsAuthentication.md
+[10]: ../../../../data-access/docs/netserver/config/globalization.md
