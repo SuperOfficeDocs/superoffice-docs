@@ -73,7 +73,7 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 ![x -screenshot][img5]
 
 > [!NOTE]
-> To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under:
+> To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under [SoFormsAuthentication][7]:
 
 ```xml
 <SoFormsAuthentication>
