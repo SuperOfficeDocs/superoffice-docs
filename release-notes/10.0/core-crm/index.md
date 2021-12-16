@@ -18,8 +18,10 @@ keywords: dashboard
 * [Dashboards – List tile with image preview (10.0.3)][3]
 * [Dashboards – Warning when changing tile name when multiple languages (10.0.3)][3]
 * [Company and Contact – Copy to clipboard button on phone, email and URL (10.0.3)][3]
+* [Dashboards – Navigation preview with own dashboards (10.0.4)][4]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
 [3]: 10.0.3-update.md
+[4]: 10.0.4-update.md
