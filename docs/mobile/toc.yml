@@ -29,7 +29,7 @@ items:
         href: pocket-crm/system-requirements.md
       - name: Deployment guide
         href: pocket-crm/deploy.md
-      - name: Config
+      - name: Configure
         href: pocket-crm/configure.md
       - name: Upgrade to 8
         href: pocket-crm/upgrade-to-8.md

@@ -3,10 +3,11 @@ title: Set-up guide
 uid: install_service
 description: Service set-up guide
 author: Martin Pavlas
-so.date: 12.08.2021
-keywords: install
+so.date: 12.17.2021
+keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
 so.topic: howto
 so.envir: onsite
+so.version: 8.1
 # so.client:
 ---
 
@@ -26,7 +27,7 @@ You need to have a working SuperOffice web services installation before you proc
 
 The installer will copy the necessary files to the Service program folder.
 
-1. Run the SuperOffice.CustomerService.exe file.
+1. Run **SuperOffice.CustomerService.exe**.
 
 2. When asked, select a destination folder for the installation of SuperOffice Service.
 
@@ -123,7 +124,7 @@ The full HTTP path to your server, except the cgi-bin part. If you let the insta
 
 Enable this option if your Service Server installation is online on the Internet. This will unlock some functionality in the Service Server that relies on an Internet connection.
 
-**Do  you want to start the ejScheduler service:**
+**Do you want to start the ejScheduler service:**
 
 If you start the service, the application will begin to import and send emails as soon as you configure it. The service is also used for all background processes, like escalating requests, sending alerts, and so forth. If you answer "no" here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
 

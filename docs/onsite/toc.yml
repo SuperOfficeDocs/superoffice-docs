@@ -125,7 +125,7 @@ items:
         href: upgrade/to-81/move-crm-server.md
     - name: To version 9
       href: upgrade/to-9/index.md
-  - name: Config
+  - name: Configuration
     href: config/index.md
     expanded: true
     items:
