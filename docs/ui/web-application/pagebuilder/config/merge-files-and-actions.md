@@ -105,6 +105,6 @@ This example will replace the controlgroup `maingroup_2` in the page named Conta
 > Not all elements are based on ID alone, so remember to use the correct element/identifier when applying changes.
 
 <!-- Referenced links -->
-[1]:../../getting-started/clientconfigurationprovider.md
+[1]:../../getting-started/set-up-custom-folder.md
 
 <!-- Referenced images -->

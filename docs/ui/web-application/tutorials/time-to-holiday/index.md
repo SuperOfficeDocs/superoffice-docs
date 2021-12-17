@@ -37,7 +37,7 @@ Next, we need to add an *Image* folder with the relevant images used by the styl
 
 ## Create web.config
 
-Once this is done, we need to create a *web.config* file. Here, we have copied the file from SuperOffice and made some changes to suit our needs. One such change is to remove the authentication tags. Next, we have made changes to the ImplicitAnonymous tags section to which is reflected below.
+Once this is done, we need to create a *web.config* file. Here, we have copied the file from SuperOffice and made some changes to suit our needs. One such change is to remove the authentication tags. Next, we have made changes to the [ImplicitAnonymous][1] tags section to which is reflected below.
 
 ```XML
 <ImplicitAnonymous>
@@ -91,9 +91,10 @@ When looking at the above code it can be seen that the SO controls can be used i
 
 ![09][img3]
 
-To run the code in addition to following the above steps, the `Database` elements of the *web.config* file should be modified to reflect the SuperOffice Database of the machine that the site is been run on. Further, the *Images* and the *App\_Themes* folders should be copied from the SuperOffice installation folder.
+To run the code in addition to following the above steps, the `Database` elements of the *web.config* file should be modified to reflect the SuperOffice Database of the machine that the site is been run on. Further, the *Images* and the *App_Themes* folders should be copied from the SuperOffice installation folder.
 
 <!-- Referenced links -->
+[1]: ../../../../../data-access/docs/netserver/config/data.md
 
 <!-- Referenced images -->
 [img1]: media/image007.jpg

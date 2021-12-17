@@ -26,7 +26,7 @@ The JavaScript solution, which I'm not going to talk anymore about in this artic
 
 NetServer web service event handing is discussed in further detail in [this article][2], and will not be discussed here.
 
-Validation components, which I am going to be discussing in this article, are well documented in the SDK and read more about them reviewing the [documentation covering the ValidationBase class][3].
+Validation components, which I am going to be discussing in this article, are well documented in the SDK. Read more about them reviewing the [documentation covering the ValidationBase class][3].
 
 Probably the most widely used validation component is the MandatoryValidator. The validator component in the code below is used by appending an element as a child in the element declaration.
 
@@ -136,7 +136,7 @@ For SuperOffice 6.3, the best place for this control is in the *SoSalePage.confi
 
 For SuperOffice 7.0, place the control declaration in the *SoSaleMainViewView.config* file, as the last control in the element.
 
-If you have `CacheConfigurations` set to True in the *web.config*, remember to first log in and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
+If you have [CacheConfigurations][4] set to True in the *web.config*, remember to first log in and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
 
 The next time you try to edit and save a sale, you should observe that it's not possible to save and will see the message box with the error displayed.
 
@@ -192,6 +192,7 @@ This technique should be used when you want to add business logic to a page, an
 [1]: ../override-default-save-button/index.md
 [2]: ../../../../../superoffice-docs/docs/automation/netserver-scripting/index.md
 [3]: <xref:SuperOffice.DCF.Web.UI.Validations.ValidationBase>
+[4]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

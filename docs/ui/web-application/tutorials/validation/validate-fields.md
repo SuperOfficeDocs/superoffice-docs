@@ -106,13 +106,13 @@ Copy your compiled Validation.dll to the SO_WEB_CUSTOMPATH_VALIDATION\bin folder
 
 ### Edit web.config
 
-We need to tell SuperOffice WEB that we have a Custom Path and a new validation.dll to load. Add the following key in the `DynamicLoad` section in SuperOffice *web.config* file:
+We need to tell SuperOffice WEB that we have a Custom Path and a new validation.dll to load. Add the following key in the [DynamicLoad section][2] in SuperOffice *web.config* file:
 
 ```xml
 <add key="Validation" value="C:\SuperOffice\SuperOffice75\SO_WEB_CUSTOMPATH_VALIDATION\bin\Validation.dll" />
 ```
 
-Add the following Key to `ClientConfigurationProviders` section:
+Add the following key to the [ClientConfigurationProvider section][1]:
 
 ```xml
 <add key="CustomPath" value="C:\SuperOffice\SuperOffice75\SO_WEB_CUSTOMPATH_VALIDATION" />
@@ -137,7 +137,11 @@ If you log in, try to create a new sale, and do not select a project you will se
 
 ![message][img1]
 
-You can use this method on every entity in SuperOffice by editing the config files and add rules to your DLL file.
+You can use this method on every entity in SuperOffice by editing the config files and adding rules to your DLL file.
+
+<!-- Referenced links -->
+[1]: ../../../../../data-access/docs/netserver/config/clientconfigurationprovider.md
+[2]: ../../../../../data-access/docs/netserver/config/factory.md
 
 <!-- Referenced images -->
 [img1]: media/7237_12447.jpg

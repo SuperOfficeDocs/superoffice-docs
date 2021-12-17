@@ -14,7 +14,7 @@ so.envir: onsite
 
 The client is built using the **NetServer Services API layer**, which enables the web server to be run on a separate server from the business logic implemented in the web services. It also uses the **Dynamic Client Foundation** (DCF) on top of the web services to handle globalization and to define the page builder infrastructure.
 
-After you have installed the SuperOffice web application, you will see that the application is an **ASP.NET web application** with standard elements like *App\_Data*, *App\_Themes*, and *web.config*.
+After you have installed the SuperOffice web application, you will see that the application is an **ASP.NET web application** with standard elements like *App_Data*, *App_Themes*, and [web.config][10].
 
 ## Components
 
@@ -48,3 +48,4 @@ When creating your own controls and assemblies to be used by the application, yo
 [7]: strategic-goals.md
 [8]: technical-info.md
 [9]: getting-started/index.md
+[10]: ../../../data-access/docs/netserver/config/index.md
