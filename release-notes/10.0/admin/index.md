@@ -15,8 +15,10 @@ keywords: screen designer, settings and maintenance, admin
 * [Screen designer – Info for last published by and date (10.0.3)][3]
 * [Screen designer – Custom buttons with tooltip (10.0.3)][3]
 * [CRMScript – Intellisense experience (10.0.3)][3]
+* [Document list – Template variable for semi long date (10.0.4)][4]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
 [3]: 10.0.3-update.md
+[4]: 10.0.4-update.md

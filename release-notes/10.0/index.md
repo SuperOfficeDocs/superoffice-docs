@@ -28,10 +28,11 @@ After your upgrade to SuperOffice 10, there are some changes to note:  
 * 10.0.1: Configurable screens, Dashboards, Forms
 * 10.0.2: Dashboards, Screen designer, Forms, Scripts
 * 10.0.3: Dashboards, Screen designer, Chat
+* 10.0.4: Dashboards, Mailing, Chat
 
 You can read more about these in the [product news][1].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/customer/news/product/superoffice-10/
+[1]: https://community.superoffice.com/en/product-releases/whats-new/product/superoffice-10/
 
 <!-- Referenced images -->
