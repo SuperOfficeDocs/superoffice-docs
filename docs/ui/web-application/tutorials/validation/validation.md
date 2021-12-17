@@ -136,7 +136,7 @@ For SuperOffice 6.3, the best place for this control is in the *SoSalePage.confi
 
 For SuperOffice 7.0, place the control declaration in the *SoSaleMainViewView.config* file, as the last control in the element.
 
-If you have [CacheConfigurations][] set to True in the *web.config*, remember to first log in and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
+If you have [CacheConfigurations][4] set to True in the *web.config*, remember to first log in and then flush the cached configuration from the database by appending and invoking "?flush" in the URL of the browser address bar, i.e. `http://crm.yourcompany.com/default.aspx?flush`.
 
 The next time you try to edit and save a sale, you should observe that it's not possible to save and will see the message box with the error displayed.
 

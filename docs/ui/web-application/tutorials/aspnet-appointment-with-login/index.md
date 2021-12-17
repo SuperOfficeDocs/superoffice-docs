@@ -30,7 +30,7 @@ Once the GUI state of the site is complete we need to have certain DLLs that ena
 
 ## The web.config
 
-When creating any website, it is necessary to have a *web.config* file. Here, we copy it from the SuperOffice application and modify it as required. The SuperOffice [Services][] and [Database][] sections need to remain in the config file so that we can talk to the database:
+When creating any website, it is necessary to have a *web.config* file. Here, we copy it from the SuperOffice application and modify it as required. The SuperOffice [Services][1] and [Database][2] sections need to remain in the config file so that we can talk to the database:
 
 [!code-xml[XML](includes/webconfig.xml)]
 
