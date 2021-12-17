@@ -41,6 +41,14 @@ Any changes to the following files do require an IIS reset:
 
 Once an archive provider is initialized with column definitions in an `archive` element, the column definitions are persisted like preferences in the `SUPERLISTCOLUMNSIZE` table of the database.
 
+To delete rows from the `SUPERLISTCOLUMNSIZE` table, use the `archive` attribute guiname value as the key with the following delete query.
+
+```SQL
+-- replace [guiname] with the real archive guiname
+DELETE * FROM [CRM7].[DATABASENAME].[SUPERLISTCOLUMNSIZE]
+WHERE listOwner = '[guiname]'
+```
+
 <!-- Referenced links -->
 [1]: 1-add-archive-control.md
 [2]: 2-add-archive-row-context-menu.md
