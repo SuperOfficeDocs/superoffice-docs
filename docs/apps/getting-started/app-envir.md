@@ -77,7 +77,7 @@ For each application and within each environment, you must define the following 
 * [client ID][10]
 * client secret (token)
 * [certificates][11]
-* SoFederation Gateway (SuperId)
+* SoFederation Gateway (SuperID)
 * SuperOffice Certificate ID
 
 ![x -screenshot][img2]

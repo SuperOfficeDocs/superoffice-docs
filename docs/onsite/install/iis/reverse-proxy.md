@@ -142,7 +142,7 @@ When enabling HTTPS, the value **UrlPortOverride** should be changed to **443** 
 >[!NOTE]
 > To make HTTPS work with Web Tools, the certificate used on the proxy server needs to be a valid, signed certificate, otherwise the Web Tools client will not be able to make a connection. Self-signed certificates won't work.
 
-Make sure that the **Client** section in the *web.config* file is defined at the top of the file inside the `<configSections>` directive. The screenshots below show what the file should look like.
+Make sure that the [Client section][3] in the *web.config* file is defined at the top of the file inside the `<configSections>` directive. The screenshots below show what the file should look like.
 
 ![x -screenshot][img15]
 
@@ -218,6 +218,7 @@ If you just want to expose the Customer center, Chat, or Mailings to the Interne
 <!-- Referenced links -->
 [1]: ../../security/deployment-scenarios.md#scenario2
 [2]: https://www.microsoft.com/web/downloads/platform.aspx
+[3]: ../../../../../data-access/docs/netserver/config/client.md
 
 <!-- Referenced images -->
 [img1]: media/server-role-security.jpg

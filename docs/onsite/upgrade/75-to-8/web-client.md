@@ -32,7 +32,7 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 2. To start the installation you need to accept the license agreement.
 
-3. Specify the SuperOffice 8 Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
+3. Specify the SuperOffice 8 Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to choose a name that correlates to the type of installation.
 
     > [!NOTE]
     > Our [recommended scenario (#2)][4] does not require you to split web and NetServer web services.

@@ -20,7 +20,7 @@ so.client: pocket
 
 1. Make sure a connection to the server is available (NetServer).
 2. Make sure all Pocket CRM users have a Pocket CRM license.
-3. Download and install the Pocket CRM App on all the devices.
+3. Download and install the Pocket CRM App on all devices.
 4. Configure **the connection path to the server** on each of the Pocket CRM App.
 
 ## Step 1: prepare NetServer
@@ -47,7 +47,7 @@ Open a browser and enter the domain name address to the remote NetServer install
 
 ![x -screenshot][img1]
 
-Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet).
+Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from mobile phones (from the internet).
 
 ## Step 2: assign a Pocket license
 
@@ -73,7 +73,7 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 ![x -screenshot][img5]
 
 > [!NOTE]
-> To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under:
+> To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under [SoFormsAuthentication][7]:
 
 ```xml
 <SoFormsAuthentication>
@@ -88,6 +88,7 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 [4]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
 [5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
 [6]: install.md
+[7]: ../../../../data-access/docs/netserver/config/soformsauthentication.md
 
 <!-- Referenced images -->
 [img1]: media/image.png

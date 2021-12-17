@@ -20,7 +20,9 @@ so.topic: reference
 ![x -screenshot][img2]
 
 > [!NOTE]
-> It adds the associate ID when you ask for other users and will check the database for this associate's current user group.<br>Documents from other users are only copied down to the travel user, not from travel user to central.
+> It adds the associate ID when you ask for other users and will check the database for this associate's current user group.
+>
+> Documents from other users are only copied down to the travel user, not from a Travel user to central.
 
 SuperOffice Remote Travel Server (SORTS.exe) must be run from the travel gateway to process this file. This will generate the *Copylist-username.txt* file with a list of documents that should be copied to the travel user next time they run the Remote Travel client.
 

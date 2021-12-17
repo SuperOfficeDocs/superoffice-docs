@@ -2,11 +2,13 @@
 title: Upgrade to 8.1 with new domains
 uid: upgrade_to_81_new
 description: Upgrade to 8.1 when using new domains
-author: {github-id}
+author: Martin Pavlas
+so.date: 12.08.2021
 keywords: upgrade
 so.topic: howto
 so.envir: onsite
 # so.client:
+so.version: 8.1
 ---
 
 # Upgrade to 8.1 or newer when choosing a brand new domain for both clients

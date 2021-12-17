@@ -76,23 +76,27 @@ If you work part-time, for example, Monday, Wednesday, and Friday, you can edit 
 
 ## FeatureToggles - Onsite Windows client
 
-Some features are enabled by "FeatureToggles".
+Some features are enabled by [FeatureToggles][1].
+
 This is how you do it for the Onsite Windows client:
 
 Both SOUSER.INI and [SuperOffice.config][1] files for each client need to be updated.
 
 **How to update SOUSER.INI:**
-To enable toggled features - you need access to the installation files for the SuperOffice Windows installation **pr. client / PC / user:**
 
-Open SOUSER.INI
+To enable toggled features - you need access to the installation files for the SuperOffice Windows installation **per client / PC / user:**
 
-Add these two lines to the file, replace 'FeatureTogleName' with the actual FeatureTogle name and save the file (you may add multiple feature toggles, each on a seperate line):
-```
-[FeatureToggle]
-FeatureTogleName=1
-```
-You can see some of the previous FeatureToggle names here: https://docs.superoffice.com/onsite/config/web-config.html#feature-toggles
+1. Open SOUSER.INI
 
+2. Add these two lines to the file, replace 'FeatureToggleName' with the actual FeatureToggle name and save the file:
+
+    ```text
+    [FeatureToggle]
+    FeatureToggleName=1
+    ```
+
+> [!TIP]
+> You may add multiple feature toggles, each on a separate line.
 
 <!-- Referenced links -->
-[1]: https://docs.superoffice.com/onsite/config/superoffice-config.html#FeatureToggles---Onsite-Windows-client
+[1]: ../../feature-toggles.md

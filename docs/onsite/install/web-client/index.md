@@ -18,7 +18,7 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 
 ## Before you begin
 
-The server where you install SuperOffice Web needs to have an internet connection and access to our Licence server on [https://license.superoffice.com][8].
+The server where you install SuperOffice Web needs to have an internet connection and access to our License server on [https://license.superoffice.com][8].
 
 * Install the SuperOffice CRM Server to set up or upgrade the database.
 * A SuperOffice database must be available, to install see [CRM Server][1].
@@ -31,11 +31,11 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 **Download the Web installer package, extract the content and run setup.exe.**
 
-1. Upon launching the installer, you might be prompted to install some prerequisites, install these by clicking the "Install" button.
+1. Upon launching the installer, you might be prompted to install some prerequisites, install them by clicking the "Install" button.
 
 2. To start the installation you need to accept the license agreement.
 
-3. Specify the SuperOffice Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
+3. Specify the SuperOffice Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to choose a name that correlates to the type of installation.
 
 4. Select the first option if you want to install both SuperOffice Web and SuperOffice NetServer on the same application. Select the second setup type if you want to split SuperOffice Web and SuperOffice NetServer into two separate installations, either because you want to install them on different servers or just want to split the application. Please note our [recommended scenario (#2)][7] does not require you to split web and NetServer web services.
 
@@ -51,13 +51,13 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 10. On the **Database driver** section, choose the database system for the database you installed on with server setup and click **Next**.
 
-11. In the **Database settings** section fill in the fields to configure your connection to the database. Click the **Test connection** to be sure that the configuration is correct. The user here must be a database system user. When it works, click **Next**.
+11. In the [Database settings][14] section fill in the fields to configure your connection to the database. Click the **Test connection** to be sure that the configuration is correct. The user here must be a database system user. When it works, click **Next**.
 
-12. In the **Document Archive** section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a Temporary Path.
+12. In the [Document Archive][6] section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a Temporary Path.
 
     * Make sure the Temporary Part is a local path, not a UNC path, otherwise you can get performance issues or errors while working with documents. **We recommend you add an impersonate user with sufficient rights to read and write to both SO_Arc and the temp area.** Check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO_ARC) is located. Validate and click **Next**.
 
-    * More than one archivepath? You need to edit *web.config* and add more Archive Paths under the Documents section:
+    * More than one archivepath? You need to edit *web.config* and add more Archive Paths under the [Documents section][6]:
 
     ```xml
     <Documents>
@@ -66,13 +66,13 @@ The server where you install SuperOffice Web needs to have an internet connectio
     <add key="ArchivePath2" value="E:\SuperOffice\SO_ARC2" />
     ```
 
-13. On the **Security**, click to generate keys for the Symmetric key and Symmetric secret text. The **Expose NetServer web services** is ticked by default, this allows you to use the NetServer web services with Service.
+13. On the [Security][12], click to generate keys for the Symmetric key and Symmetric secret text. The **Expose NetServer web services** is ticked by default, this allows you to use the NetServer web services with Service.
 
-14. In **AD integration**, you may add information about your Active Directory where you want to pick users from. Note that the user added needs read rights to pick up the users.
+14. In [AD integration][12], you may add information about your Active Directory where you want to pick users from. Note that the user added needs read rights to pick up the users.
 
-15. In the **Globalization** section, choose your country in the **Application country code** if it exists. If not, choose English.
+15. In the [Globalization][15] section, choose your country in the **Application country code** if it exists. If not, choose English.
 
-16. In **Diagnostics**. make sure the impersonate user from the document archive chapter has sufficient rights to writhe to the folder where **Log to file** points.
+16. In [Diagnostics][10], make sure the impersonate user from the document archive chapter has sufficient rights to writhe to the folder where **Log to file** points.
 
 17. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the *web.config* file. Click **Finish**.
 
@@ -82,7 +82,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 20. Click **Finish"** to finalize the installation.
 
-[Previous][11] | [Back to guide][13]
+[Previous][11] | [Back to guide][1]
 
 <!-- Referenced links -->
 [1]: ../guide.md
@@ -90,9 +90,12 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [3]: ../../../mobile/pocket-crm/deploy.md
 [4]: ../../security/secure-deployment-guide.md
 [5]: ../iis/index.md
+[6]: ../../../../../data-access/docs/netserver/config/documents.md
 [7]: ../../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
 [9]: ../../reporter/config.md
+[10]: ../../../../../data-access/docs/netserver/config/diagnostics.md
 [11]: ../../../service/install/index.md
-[13]: ../guide.md
-
+[12]: ../../../../../data-access/docs/netserver/config/security.md
+[14]: ../../../../../data-access/docs/netserver/config/data.md#database
+[15]: ../../../../../data-access/docs/netserver/config/globalization.md

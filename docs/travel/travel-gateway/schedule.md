@@ -3,8 +3,8 @@ title: Schedule
 uid: schedule
 description: Schedule tasks for Travel gateway
 author: {github-id}
-keywords:
-so.date:
+keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
+so.date: 12.17.2021
 so.topic: howto
 so.envir: onsite
 so.client: win
@@ -17,7 +17,7 @@ so.client: win
 
 To add a new activity to be run automatically:
 
-1. Run SuperOffice Travel Gateway - start the SOTrvGate.exe file located in the SuperOffice program files folder.
+1. Run SuperOffice Travel Gateway - start **SOTrvGate.exe** located in the SuperOffice program files folder.
 
 2. Click **New** to open the dialog where you specify what SuperOffice Travel Gateway should do.
 

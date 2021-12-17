@@ -2,10 +2,12 @@
 title: Set-up guide
 uid: install_service
 description: Service set-up guide
-author: {github-id}
-keywords: install
+author: Martin Pavlas
+so.date: 12.17.2021
+keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
 so.topic: howto
 so.envir: onsite
+so.version: 8.1
 # so.client:
 ---
 
@@ -25,13 +27,13 @@ You need to have a working SuperOffice web services installation before you proc
 
 The installer will copy the necessary files to the Service program folder.
 
-1. Run the SuperOffice.CustomerService.exe
+1. Run **SuperOffice.CustomerService.exe**.
 
 2. When asked, select a destination folder for the installation of SuperOffice Service.
 
 3. **Choose your hostname**. The hostname should be the registered DNS name you will be using to access both CRM web and Customer Service request management interface in your web browser.
 
-4. You also have the option of installing and overwriting the customer web templates, or leave your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
+4. You also have the option of installing and overwriting the customer web templates, or leaving your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
 
 5. Let the installer create an IIS site based on the hostname you entered. If the IIS website is already available on the web server then you need to uncheck the **Create IIS website**.
 
@@ -47,7 +49,7 @@ You need to configure some startup data that is specific to your installation �
 
 **Choose system language:**
 
-Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities, and so on). You will not be able to changes this later.
+Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities, and so on). You will not be able to change this later.
 
 **Hostname:**
 
@@ -122,7 +124,7 @@ The full HTTP path to your server, except the cgi-bin part. If you let the insta
 
 Enable this option if your Service Server installation is online on the Internet. This will unlock some functionality in the Service Server that relies on an Internet connection.
 
-**Do  you want to start the ejScheduler service:**
+**Do you want to start the ejScheduler service:**
 
 If you start the service, the application will begin to import and send emails as soon as you configure it. The service is also used for all background processes, like escalating requests, sending alerts, and so forth. If you answer "no" here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
 
@@ -132,10 +134,10 @@ From version **8.4 R04**, Service needs to know NetServer's symmetric keys, whic
 
 When prompted:
 
-1. Enter the SymmetricKey value without quotes.
-2. Enter the SymmetricSecret value without quotes.
+1. Enter the `SymmetricKey` value without quotes.
+2. Enter the `SymmetricSecret` value without quotes.
 
-You will find both values in the NetServer's *web.config*, in the Security - Cryptography section.
+You will find both values in the NetServer's *web.config*, in the [Security - Cryptography section][1].
 
 For installations where you run upgrade.exe (or ejTermsetup.exe for new installations), the program asks for the keys if they do not exist. It will then test whether the keys are correct.
 
@@ -169,13 +171,14 @@ These applications in turn will perform tasks like importing email, sending emai
 6. To start the service at boot, right-click **ejSchedule**, select **Properties** and make sure **Startup type** is set to **Automatic**.
 7. Click **Start** to start the service
 
-You are now ready to log in and use Service by opening your client browser and go to *[Hostname]/scripts/ticket.fcgi*
+You are now ready to log in and use Service by opening your client browser and going to *[Hostname]/scripts/ticket.fcgi*
 
 ***
 
 [Previous][15] | [Next][14] | [Back to guide][13]
 
 <!-- Referenced links -->
+[1]: ../../../../data-access/docs/netserver/config/security.md
 [2]: manual-steps.md
 [13]: ../../onsite/install/guide.md
 [14]: ../../onsite/install/web-client/index.md

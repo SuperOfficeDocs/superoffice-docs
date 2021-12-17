@@ -2,17 +2,43 @@
 title: Config and INI files
 uid: config_and_ini
 description: Config and INI files
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 12.10.2021
+keywords: NetServer config, INI, web.config, superoffice.config, superoffice.ini
 so.topic: concept
 so.envir: onsite
 ---
 
 # Config and INI files
 
-## .ini versus .config
+The SuperOffice Web client (as well as remote web services and Service) uses **web.config** to specify database connection details.
 
-The SuperOffice Web client uses **web.config** to specify database connection details. SuperOffice Windows client uses **superoffice.config**, in addition to **superoffice.ini**.
+SuperOffice Windows client uses **superoffice.config**, in addition to **superoffice.ini**.
+
+> [!NOTE]
+> The *web.config* file is an XML file that can be changed as needed, but we recommend [running the SuperOffice Web Configurator][5]. Administrators can use configuration files to set policies that affect how applications run on their computers.
+
+## SuperOffice Web
+
+* [Enable debug log (Web)][5]
+* [Web.config][6]
+* [Web Tools Diagnostics][7]
+
+## Service
+
+* [Web.config][6]
+* [Service log files][10]
+* [Service config][11]
+* [Debug service tasks failing or not running][12]
+
+## SuperOffice Win
+
+* [Enable debug log (Win)][1]
+* [SOUser.ini][2] Used by SOCRM.exe, SOAdmin.exe, and ReporterStudio.exe
+* [SuperOffice.config][3] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
+* [Command line][4] switches for SOCRM.exe, SOAdmin.exe
+
+### .ini versus .config (Windows)
 
 **superoffice.config** is a NetServer config file in the same place as *superoffice.ini* (also found in the same way, if you come in via COM).
 
@@ -24,55 +50,13 @@ The SERVER and DATABASE are dictated by the ODBC source in the *superoffice.ini*
 
 The database user and password go the other way, from superoffice.config to both NetServer and the C++ code.
 
-## How to find SuperOffice.ini
+### How to find SuperOffice.ini
 
 1. To find the configuration file for SuperOffice (*SuperOffice.ini*), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
 
 2. In the window that opens up click **Open File Location**. A file explorer window will open and you will see the SuperOffice program files.
 
 3. Find the file *SuperOffice.ini*, and open this file.
-
-
-
-## SuperOffice Web
-
-[Enable debug log (Web)][5]
-
-[Web.config][6]
-
-[Web Tools Diagnostics][7]
-
-## SuperOffice Win
-
-[Enable debug log (Win)][1]
-
-[SOUser.ini][2] Used by SOCRM.exe, SOAdmin.exe, and ReporterStudio.exe
-
-[SuperOffice.config][3] Used by SOCRM.exe, SOAdmin.exe and ReporterStudio.exe
-
-[Command line][4] switches for SOCRM.exe, SOAdmin.exe
-
-## Service
-
-[Web.config][6]
-
-[Service log files][10]
-
-[Service config][11]
-
-[Debug service tasks failing or not running][12]
-
-## Outlook Mail Link
-
-[Enable debug for Outlook Mail Link][8]
-
-## Notes link
-
-[Enable debug for Notes Mail Link][8]
-
-## Ribbons
-
-[Enable debug for Ribbons][9]
 
 ## Security considerations
 
@@ -90,17 +74,14 @@ The following steps are recommended to increase security:
 
 <!-- Referenced links -->
 [1]: ../debug/win-client.md
-[2]: souser-ini.md
-[3]: superoffice-config.md
+[2]: ../install/win-client/souser-ini.md
+[3]: ../install/win-client/superoffice-config.md
 [4]: ../command-line-switches.md
 [5]: ../debug/web-client.md
-[6]: web-config.md
+[6]: ../../../../data-access/docs/netserver/config/index.md
 [7]: ../../webtools/debug.md
-[8]: ../../email/maillink/debug.md
-[9]: ../../document/ribbons/enable-debug.md
 [10]: ../../service/log-files.md
-[11]: service-config.md
+[11]: ../../service/config/index.md
 [12]: ../../service/automated-tasks/index.md
 
 <!-- Referenced images -->
-

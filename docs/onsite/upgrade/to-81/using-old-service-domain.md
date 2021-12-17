@@ -2,9 +2,11 @@
 title: Upgrade to 8.1 with old Service domain
 uid: upgrade_to_81_sevice
 description: Upgrade to 8.1 when using the old Service domain
-author: {github-id}
-keywords: upgrade
+author: Martin Pavlas
+so.date: 12.17.2021
+keywords: upgrade, Service, SetupExe.exe, SuperOffice.CustomerService.exe, Setup.exe, SuperOffice Product Configuration, nsEndPoint
 so.topic: howto
+so.version: 8.1
 so.envir: onsite
 # so.client:
 ---
@@ -15,7 +17,7 @@ so.envir: onsite
 
 1. Run the **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database.
 
-2. Run the **SuperOffice.CustomerService.exe** to upgrade Service software.
+2. Run **SuperOffice.CustomerService.exe** to upgrade Service software.
 
 3. Run the **SuperOffice Web client** **Setup.exe** to install the SuperOffice Sales web client on the existing Service domain.
 

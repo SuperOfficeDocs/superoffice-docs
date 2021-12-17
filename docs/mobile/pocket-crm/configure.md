@@ -3,7 +3,8 @@ title: Configure
 uid: configure_pocket_onsite
 description: Pocket CRM config
 author: {github-id}
-keywords:
+so.date: 12.08.2021
+keywords: Pocket CRM, NetServer, config
 so.topic: howto
 so.envir: onsite
 so.client: pocket
@@ -20,11 +21,17 @@ so.client: pocket
 
 ## Enable logging
 
-Enable [logging][1] in the *web.config* file like for CRM Web under SuperOffice>Diagnostics>LogToFile
+Enable logging in the *web.config* file as for CRM Web in the [Diagnostics section][8].
+
+```xml
+<add key="LogToFile" value="true" />
+```
 
 ## NetServer configuration - GSM formatted phone numbers
 
-When initiating phone calls from Pocket CRM it is important that the numbers are formatted in a way that the phone can use. SuperOffice NetServer has the functionality to return all phone numbers from the SuperOffice database in a clean formatted way, without spaces, commas, and including country prefix, like this: +4712345678. To enable this feature in NetServer make sure that *web.config* contains this element:
+When initiating phone calls from Pocket CRM the numbers must be formatted in a way that the phone can use. SuperOffice NetServer has the functionality to return all phone numbers from the SuperOffice database in a clean formatted way, without spaces, commas, and including country prefix, like this: +4712345678.
+
+To enable this feature in NetServer make sure that the [Globalization section][10] in *web.config* contains this element:
 
 ```xml
 <add key="AllwaysUseGsmPhoneStyle" value="True" />
@@ -32,11 +39,11 @@ When initiating phone calls from Pocket CRM it is important that the numbers are
 
 ## Client configuration - Setting up an email account
 
-To use and be able to send an email within Pocket CRM an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web Client.
+To use and be able to send an email within Pocket CRM an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web client.
 
 ## Admin configuration - Add a Template for incoming images (jpeg)
 
-Open SuperOffice Admin client and select Lists section > Lists tab > double click **Template** and select **+ Add** bottom of the **Lists items**. Add this List item where filename has extension **.jpg**. The file may be empty, we use the extension to look up the correct template when a new file is saved.
+Open SuperOffice Admin client and select Lists section > Lists tab > double click **Template** and select **+ Add** bottom of the **Lists items**. Add this List item where the file name has extension **.jpg**. The file may be empty, we use the extension to look up the correct template when a new file is saved.
 
 ## Admin configuration - Add a Follow-up type for SMS
 
@@ -59,7 +66,7 @@ Both iOS and Android have default support for encrypting all content if a pin co
 
 ## Expose NetServer to internet
 
-To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on an internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on the internet.
+To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on an internal network and SuperOffice Web in DMZ][5], that means only web server part is available on the internet.
 
 A solution is to use [Reverse proxy][7] to make also NetServer available on the internet.
 
@@ -69,12 +76,12 @@ Installing a second NetServer in DMZ and connecting it via web services to the r
 
 If you want to change the default Pocket CRM configuration URL, you can do so by setting a configuration value of SuperOffice Web in the *web.config* file.
 
-The key name is PocketCrmServiceUrl and the value is the new URL for Pocket connection. You'll find this in the `<SoFormsAuthentication> - <Pages>` section.
+The key name is **PocketCrmServiceUrl** and the value is the new URL for Pocket connection. You'll find this in the [\<SoFormsAuthentication>\<Pages>][9] section.
 
 Example:
 
 ```xml
-<add key="PocketCrmServiceUrl" value="[http://pocket.customer.com/](http://pocket.superoffice.com/NetserverPocket/remote/Services80)" />
+<add key="PocketCrmServiceUrl" value="[http://pocket.customer.com/](http://pocket.superoffice.com/NetserverPocket/remote/Services88)" />
 ```
 
 > [!NOTE]
@@ -94,3 +101,6 @@ Example:
 [5]: ../../onsite/security/deployment-scenarios.md
 [6]: upgrade-to-8.md
 [7]: ../../onsite/install/iis/reverse-proxy.md
+[8]: ../../../../data-access/docs/netserver/config/diagnostics.md
+[9]: ../../../../data-access/docs/netserver/config/SoFormsAuthentication.md
+[10]: ../../../../data-access/docs/netserver/config/globalization.md

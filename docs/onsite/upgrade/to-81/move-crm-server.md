@@ -2,7 +2,8 @@
 title: Move CRM Server
 uid: move_crm_server
 description: Move SuperOffice CRM Server
-author: {github-id}
+author: Martin Pavlas
+so.date: 12.08.2021
 keywords: upgrade
 so.topic: howto
 so.envir: onsite
@@ -38,7 +39,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
     Open the SuperOffice.ini file and change the Archivepath to the new value.
 
- 2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
+2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
 
     ![image7byzr.png -screenshot][img6]
 

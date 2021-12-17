@@ -50,7 +50,7 @@ items:
       href: automated-tasks/importmail.md
     - name: upgrade
       href: automated-tasks/upgrade.md
-  - name: Config
+  - name: Configuration
     href: config/index.md
     items:
     - name: FAQ
@@ -80,7 +80,7 @@ items:
     items:
     - name: Overview
       href: ../customer-center/overview.md
-    - name: Config
+    - name: Configuration
       href: ../customer-center/config.md
     - name: Templates
       href: ../customer-center/templates.md

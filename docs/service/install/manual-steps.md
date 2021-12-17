@@ -2,10 +2,12 @@
 title: Manual steps
 uid: install_service_manually
 description: Manual steps to install Service
-author: {github-id}
-keywords:
+author: Martin Pavlas
+so.date: 12.17.2021
+keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetup.exe
 so.topic: howto
 so.envir: onsite
+so.version: 8.1
 # so.client:
 ---
 
@@ -23,11 +25,11 @@ If the website is created, then you may create the application first, and just p
 
 ![x -screenshot][img1]
 
-Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\superoffice*.
+Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *c:\superoffice*.
 
 ![x -screenshot][img2]
 
-If you upgrade an existing site, do not tick the Create IIS website since it will cause the installer to fail. , we will create/update the application manually.
+If you upgrade an existing site, do not tick the Create IIS website since it will cause the installer to fail. We will create/update the application manually.
 
 ![x -screenshot][img3]
 
@@ -55,7 +57,7 @@ Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` 
 
 ejTermSetup.exe is only run for NEW installations
 
-Now run ejTermSetup found in the Bin folder, when asked for Hostname give the path including the application, s`ocrm.myorganization.com/service` which will correctly set the value for database table registry where `reg_id = 109` to /service/
+Now run ejTermSetup found in the Bin folder, when asked for Hostname give the path including the application, `socrm.myorganization.com/service` which will correctly set the value for database table registry where `reg_id = 109` to /service/
 
 ![x -screenshot][img9]
 

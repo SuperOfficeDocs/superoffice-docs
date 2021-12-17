@@ -150,21 +150,21 @@ additionalContent:
       # Card
       - title: Config and ini files
         links:
-          - url: config/remotetravel-ini.md
+          - url: ../travel/travel-gateway/remotetravel-ini.md
             text: Remotetravel.ini
-          - url: config/service-config.md
+          - url: ../service/config/index.md
             text: Service config
-          - url: config/sotables-ini.md
+          - url: install/database/sotables-ini.md
             text: Sotables.ini
-          - url: config/souser-ini.md
+          - url: install/win-client/souser-ini.md
             text: Souser.ini
-          - url: config/superoffice-config.md
+          - url: install/win-client/superoffice-config.md
             text: Superoffice.config
-          - url: config/superoffice-ini.md
+          - url: install/win-client/superoffice-ini.md
             text: Superoffice.ini
-          - url: config/username-ini.md
+          - url: ../travel/travel-gateway/username-ini.md
             text: Username.ini
-          - url: config/web-config.md
+          - url: ../../../data-access/docs/netserver/config/index.md
             text: Web.config
           - url: ../online/cookies.md
             text: Cookies

@@ -37,7 +37,7 @@ The document plugin uses the Drive Service APIs provided by Google (Google, 201
 
 ## SuperOffice CRM Online and SuperID with Cloud document service providers
 
-SuperOffice CRM installations in Online delegate the authentication to SuperId, which supports authentication with Google Workspace and Microsoft 365. SuperID functions as the component login page. All Online installations share the same registered application in both Microsoft 365 and Google Workspace. Note that none of the online installations have access to the client secret.
+SuperOffice CRM installations in Online delegate the authentication to SuperID, which supports authentication with Google Workspace and Microsoft 365. SuperID functions as the component login page. All Online installations share the same registered application in both Microsoft 365 and Google Workspace. Note that none of the online installations have access to the client secret.
 
 ## Privacy and other considerations
 

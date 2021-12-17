@@ -27,5 +27,5 @@ EnableRibbonLog = 1
 > Running Ribbon vsto file can cause issues and this should not be done. Read more info on the [Community forum][2].
 
 <!-- Referenced links -->
-[1]: ../../onsite/config/superoffice-ini.md
+[1]: ../../onsite/install/win-client/superoffice-ini.md
 [2]: https://community.superoffice.com/en/technical/forums/product-forums/crm-windows-application/why-we-should-not-run-.vsto-installer-manually/

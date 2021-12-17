@@ -54,7 +54,7 @@ There is no support in the SuperOffice Microsoft 365 SharePoint integration for 
 
 ## Update access rights for the users (b)
 
-### During login to CRM Online with Microsoft 365 authentication activated (N/A for SuperId with IDP)
+### During login to CRM Online with Microsoft 365 authentication activated (N/A for SuperID with IDP)
 
 * "We were unable to log you in through Microsoft 365. Error: access_denied."
 

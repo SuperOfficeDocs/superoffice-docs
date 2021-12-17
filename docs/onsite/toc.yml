@@ -1,5 +1,6 @@
 items:
 - name: Onsite
+  href: index.yml
   expanded: true
   items:
   - name: Install Onsite
@@ -123,37 +124,29 @@ items:
       - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
     - name: To version 9
-      href: upgrade/to-9/index.md        
-  - name: Config
+      href: upgrade/to-9/index.md
+  - name: Configuration
     href: config/index.md
     expanded: true
     items:
+    - name: Feature toggles
+      href: feature-toggles.md
     - name: DBSetup
       href: install/database/dbsetup-exe.md
+    - name: SoTables.ini
+      href: install/database/sotables-ini.md
     - name: Batch task server
       href: batch-task-server.md
     - name: SuperOffice Reports
-      href: Reports.md      
+      href: reports.md
     - name: Command line switches
       href: command-line-switches.md
-    - name: Files
-      items:
-      - name: RemoteTravel.ini
-        href: config/remotetravel-ini.md
-      - name: Service config
-        href: config/service-config.md
-      - name: SoTables.ini
-        href: config/sotables-ini.md
-      - name: SoUser.ini
-        href: config/souser-ini.md
-      - name: SuperOffice.config
-        href: config/superoffice-config.md
-      - name: SuperOffice.ini
-        href: config/superoffice-ini.md
-      - name: Username.ini
-        href: config/username-ini.md
-      - name: Web.config
-        href: config/web-config.md
+    - name: SoUser.ini (Win)
+      href: install/win-client/souser-ini.md
+    - name: SuperOffice.config (Win)
+      href: install/win-client/superoffice-config.md
+    - name: SuperOffice.ini (Win)
+      href: install/win-client/superoffice-ini.md
   - name: Integrate
     items:
     - name: With the Web client
@@ -161,6 +154,7 @@ items:
     - name: With the Win client
       href: integrate/win-client/index.md
   - name: Debug
+    href: debug/index.md
     items:
     - name: Web client
       href: debug/web-client.md

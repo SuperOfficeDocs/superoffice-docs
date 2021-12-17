@@ -49,10 +49,12 @@ Install the web services on a separate server, or as a separate web application 
 Install the web services as part of the Sales & Marketing or the Customer Service web client.
 
 * One installation – one configuration – less stuff to maintain.
+
 * Web and Web Services has always the same version.
   * What version is required by Pocket and Customer Service?
   * You will not be guarantied that all products are released at the same time in the future.
-* Do you want Web to be accessible from Internet?
+
+* Do you want Web to be accessible from the internet?
   * What about your web services? Security considerations...
 
 ## Configuration
@@ -67,7 +69,7 @@ In the *web.config* file for the application server you can turn on help pages t
 
 ![config-web-server][img2]
 
-For the web server to talk to the backend you must change the `DefaultMode` to "Remote".
+For the web server to talk to the backend you must change the [DefaultMode][1] to "Remote".
 
 * With ASMX services, that was enough.
 * With WCF, you must also set up the WCF binding to connect the web server to the app server. Configuration of a binding includes SOAP version, protocol, security, and so on.
@@ -76,9 +78,8 @@ For the web server to talk to the backend you must change the `DefaultMode` to "
 
 Where to look if something goes wrong.
 
-### Configuration
-
-The most common issue by far is to low default values on the bindings. Remember to Increase both server and client sides when there are problems.
+> [!NOTE]
+> The most common issue by far is to low default values on the bindings. Remember to increase both server and client sides when there are problems.
 
 ![troubleshooting][img3]
 
@@ -93,6 +94,9 @@ Use the web browser to navigate to the web-service end-point and see what you ge
 Use Fiddler to look at the HTTP traffic between the client and the web service to see what is going on.
 
 Fiddler is an HTTP Proxy that allows you to look at HTTP traffic between local clients and a server (possibly running on your local machine).
+
+<!-- Referenced links -->
+[1]: ../../../../../data-access/docs/netserver/config/services.md
 
 <!-- Referenced images -->
 [img1]: media/config-app-server.png

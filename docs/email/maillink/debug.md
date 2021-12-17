@@ -2,8 +2,9 @@
 title: Debug
 uid: debug_maillink
 description: Debug MailLink
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 12.16.2011
+keywords: MailLink, debug, log_settings.xml, EnableDebug
 so.topic: howto
 so.envir: onsite
 ---
@@ -14,9 +15,9 @@ If you need to enable debug logging for MailLink, open SuperOffice CRM Options, 
 
 The log file is located at *%appdata%\SuperOffice\MailLink\Log*  (both for Windows- and Web users.)
 
-In the same folder you can also enable debug log by edit the *log_settings.xml* file, set `<EnableDebug>true</EnableDebug>`
+In the same folder, you can also enable debug log by editing the *log_settings.xml* file, set `<EnableDebug>true</EnableDebug>`
 
-![x -screenshot][img1]
+![Enable debug logging for MailLink -screenshot][img1]
 
 <!-- Referenced images -->
 [img1]: media/maillink-enabledebuglog-web.png

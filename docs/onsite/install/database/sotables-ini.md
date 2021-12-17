@@ -2,8 +2,9 @@
 title: SoTables.ini
 uid: sotables_ini
 description: SoTables.ini
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 12.10.2021
+keywords: database, DBSetup, SoTables.ini
 so.topic: reference
 # so.envir:
 # so.client:
@@ -25,7 +26,7 @@ Some sections may be re-run to update or add additional data, and you may also c
 
 ## Sections in this file
 
-Init - Register - Upgrade are hidden from the Load or re-load initial data into an 8.1+ database dropdown in SuperOffice CRM Database Maintenance (DBsetup.exe) menu.
+Sections Init, Register, and Upgrade are hidden from the Load or re-load initial data into an 8.1+ database dropdown in SuperOffice CRM Database Maintenance (DBsetup.exe) menu.
 
 You may add your own import files and add a section inside brackets, like: `[MyImportSection]`
 
@@ -54,8 +55,8 @@ If you need to reuse a privacy key later, in another table you may use variables
 ![x -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: ../install/database/dbsetup-exe.md
-[2]: ../../../../database/docs/dictionary/howto-make-db-changes.md
+[1]: dbsetup-exe.md
+[2]: ../../../../../database/docs/dictionary/howto-make-db-changes.md
 
 <!-- Referenced links -->
 [img1]:media/primaryforeignkey.png

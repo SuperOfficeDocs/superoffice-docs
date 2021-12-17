@@ -24,7 +24,7 @@ The SuperOffice.config is a SuperOffice NetServer .NET Application Configuration
 
 The SoAdmin.exe administration client uses user-administration implemented within NetServer. This implementation is plug-in-based and the plug-in implementing the Active Directory support is called **ActiveDirectoryCredentialPlugin**. Two areas of the *SuperOffice.config* file need to be modified to provide a detailed configuration for this plugin.
 
-1. Declare the existence of this configuration section. This has to be added within the SuperOffice `<sectionGroup>` declaration. A new section group security and a new section `ActiveDirectoryCredentialPlugin` have to be added.
+1. Declare the existence of this configuration section. This has to be added within the SuperOffice `<sectionGroup>` declaration. A new section group security and a new section [ActiveDirectoryCredentialPlugin][1] have to be added.
 
     ```xml
     <sectionGroup name="Security">
@@ -90,6 +90,9 @@ Limiting users to a particular organization unit can be an example of this.
 By specifying the full name of this Organization Unit in the SuperOffice.config file, searches will be restricted to this node.
 
 ![image][10]
+
+<!-- Referenced links -->
+[1]:../../../../data-access/docs/netserver/config/security.md
 
 <!-- Referenced images -->
 [img1]: media/1642-1987.jpg
