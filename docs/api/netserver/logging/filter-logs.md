@@ -1,6 +1,7 @@
 ---
 uid: filter_netserver_logs
 title: Logging in NetServer
+description: How to filter NetServer logs.
 author: xt1
 so.date: 05.07.2021
 keywords: logging
@@ -9,7 +10,7 @@ so.topic: howto
 
 # Filtering the logs
 
-The NetServer config file supports filtering logging to specific namespaces or classes.
+The [NetServer config file][1] supports filtering logging to specific namespaces or classes.
 
 ```xml
 <Diagnostics>
@@ -39,3 +40,8 @@ The **Log...From** supports both class names and namespaces.
   <add key="LogWarningFrom" value="SoCommand,SoDataReader,SuperOffice.CRM.Webhooks">
 </Diagnostics>
 ```
+
+<!-- Referenced links -->
+[1]: ../config/diagnostics.md
+
+<!-- Referenced images -->

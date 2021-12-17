@@ -92,7 +92,7 @@ Add the **SuperOffice.CRM.Online.Core** package so we can decode the SuperID res
 
 If we were going to use SOAP we would add `SuperOffice.NetServer.Services` – this would add the client code needed to talk to the web services API via SOAP. This will also bring in the `SuperOffice.NetServer.Core` package with the shared definitions. We are going to use REST APIs, so we don’t need these.
 
-We will need to call SuperId from the server, so we need a REST client, like [RestSharp][1].
+We will need to call SuperID from the server, so we need a REST client, like [RestSharp][1].
 
 ![restsharp][img12]
 

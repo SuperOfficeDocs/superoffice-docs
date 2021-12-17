@@ -4,7 +4,7 @@ uid: create_resx_file
 description: Create our own resx file
 author: {github-id}
 so.date:
-keywords:
+keywords: resx, ResourceStrings, translation, globalization, ResXmlFileProvider
 so.topic: howto
 # so.envir:
 # so.client:

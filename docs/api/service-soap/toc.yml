@@ -3,7 +3,7 @@ items:
   href: overview.md
 - name: Compatibility
   href: compatibility.md
-- name: Config
+- name: Configuration
   href: config.md
 - name: Error codes
   href: error-codes.md

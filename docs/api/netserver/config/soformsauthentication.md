@@ -1,10 +1,10 @@
 ---
 title: SoFormsAuthentication element
 uid: ns_config_soformsauthentication
-description: NetServer SoFormsAuthentication element
-so.date: 06.06.2018
-author: {github-id}
-keywords: config
+description: NetServer configuration settings used to control access and used by the web client FormsAuthentication.
+so.date: 12.07.2021
+author: Bergfrid Dias
+keywords: config, NetServer, web.config, SoFormsAuthentication, FormsAuthentication, IgnoreList, Pages, LoginUrl, DefaultUrl, LogoutUrl, PocketCrmLoginPage
 so.topic: reference
 so.envir: onsite
 ---
@@ -37,3 +37,8 @@ The `SoFormsAuthentication` group contains configuration settings used to contro
 |---|---|
 | IgnoreList | List of pages and folders the `SoFormsAuthentication` should ignore. |
 | Pages | List of pages. Should contain a dictionary with the following keys:<br>Mandatory: LoginUrl and DefaultUrl<br>Optional: LogoutUrl and PocketCrmLoginPage |
+
+See the [NetServer Core reference][1] for details about handling this programmatically.
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.Configuration.ConfigFile.SoFormsAuthentication>

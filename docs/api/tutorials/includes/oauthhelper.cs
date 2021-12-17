@@ -7,7 +7,7 @@ public class OAuthHelper
 
   void GetSuperIdTokens(HttpServer server, HttpSession session, string code, string refreshToken, string grant_type)
   {
-    // Make new request from SuperId to get refresh token
+    // Make new request from SuperID to get refresh token
 
     string appId = ConfigurationManager.AppSettings["SoAppId"];
     string appToken = ConfigurationManager.AppSettings["SoAppToken"];

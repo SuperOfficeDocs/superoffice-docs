@@ -51,9 +51,12 @@ The objective of the below is to introduce you to how to get past the first hurd
 
 ## NetServer configuration
 
-All NetServer integrations **that use SuperOffice assemblies** require settings in an application's configuration file, *app.config* or *web.config*.
+All NetServer integrations **that use SuperOffice assemblies** require settings in an [application's configuration file][10], *app.config* or *web.config*.
 
-Having connection issues? Check the [Data element][1].
+This is not the case for custom web service proxies or REST. This applies only when an application makes a file reference to *SOCore.dll*, *SoDatabase.dll*, and other required SuperOffice DLLs.
+
+> [!NOTE]
+> The [Data element][1] contains the session, database, and explicit sections. Often, the cause of connectivity problems lays here.
 
 You might also be interested in:
 
@@ -61,7 +64,7 @@ You might also be interested in:
 * [Configuring the external user][5]
 
 <!-- Referenced links -->
-[1]: onsite/netserver-config.md
+[1]: ../netserver/config/data.md
 [2]: ../netserver/osql/index.md
 [3]: ../../../superoffice-docs/docs/identity-management/federated-auth.md
 [4]: onsite/config-anonymous-user.md
@@ -70,6 +73,7 @@ You might also be interested in:
 [7]: onsite/sosession/index.md
 [8]: webapi/index.md
 [9]: onsite/custom-proxies/index.md
+[10]: ../netserver/config/index.md
 
 <!-- Referenced images -->
 [img1]: media/authenticate-overview.png

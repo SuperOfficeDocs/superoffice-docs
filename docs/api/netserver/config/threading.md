@@ -1,10 +1,10 @@
 ---
 title: Threading element
 uid: ns_config_Threading
-description: NetServer Threading element
-so.date: 06.06.2018
-author: {github-id}
-keywords: config
+description: NetServer configuration values related to threading.
+so.date: 12.07.2021
+author: Bergfrid Dias
+keywords: config, NetServer, web.config, Threading, DisableMultithreading, ForceMultithreading, MaxParellalThreads, single-threaded, multi-threaded, parallel
 so.topic: reference
 so.envir: onsite
 ---
@@ -21,8 +21,13 @@ Configuration values related to threading.
 </Threading>
 ```
 
-| Name | Description |
-|---|---|
-| MaxParellalThreads | Max parallel operations that are permitted to be run in parallel. -1 is infinite.<br>Default: 30 |
-| DisableMultithreading | Determines whether NetServer should run in single-threaded mode.<br>Default: false |
-| ForceMultithreading | Determines whether NetServer should force multi-threaded mode.<br>Default: false |
+| Name | Description | Default |
+|---|---|---|
+| DisableMultithreading | Determines whether NetServer should run in single-threaded mode. | false |
+| ForceMultithreading | Determines whether NetServer should force multi-threaded mode. | false |
+| MaxParellalThreads | Max parallel operations that are permitted to be run in parallel. -1 is infinite. | 30 |
+
+See the [NetServer Core reference][1] for details about handling this programmatically.
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.Configuration.ConfigFile.Threading>

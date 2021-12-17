@@ -1,6 +1,7 @@
 ---
 uid: create_custom_logger
 title: Building your own logger
+description: How to create a custom logger,
 author: xt1
 so.date: 05.07.2021
 keywords: logging

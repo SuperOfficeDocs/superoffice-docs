@@ -88,8 +88,6 @@ items:
       href: authentication/onsite/custom-proxies/index.md
     - name: Configuration
       items:
-      - name: NetServer
-        href: authentication/onsite/netserver-config.md
       - name: Enable anonymous user
         href: authentication/onsite/config-anonymous-user.md
       - name: Enable external user
@@ -103,16 +101,20 @@ items:
 - name: Configuration
   href: netserver/config/index.md
   items:
-  - name: Batchservice
+  - name: AccessGateway
+    href: netserver/config/accessgateway.md
+  - name: BatchService
     href: netserver/config/batchservice.md
   - name: Client
     href: netserver/config/client.md
-  - name: Clientconfigurationprovider
+  - name: ClientConfigurationProvider
     href: netserver/config/clientconfigurationprovider.md
   - name: Cloud
     href: netserver/config/cloud.md
   - name: CssSprite
     href: netserver/config/csssprite.md
+  - name: CustomerService
+    href: netserver/config/customerservice.md
   - name: CustomProxy
     href: netserver/config/customproxy.md
   - name: Data
@@ -129,12 +131,18 @@ items:
     href: netserver/config/featuretoggles.md
   - name: Globalization
     href: netserver/config/globalization.md
+  - name: GoogleRecaptcha
+    href: netserver/config/googlerecaptcha.md
+  - name: Infrastructure
+    href: netserver/config/infrastructure.md
   - name: IntelliSyncConnector
     href: netserver/config/intellisyncconnector.md
   - name: Mail
     href: netserver/config/mail.md
   - name: Messaging
     href: netserver/config/messaging.md
+  - name: OidcLogin
+    href: netserver/config/oidclogin.md
   - name: Pocket
     href: netserver/config/pocket.md
   - name: Reporter

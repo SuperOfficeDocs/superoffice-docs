@@ -1,10 +1,10 @@
 ---
 title: Pocket element
 uid: ns_config_pocket
-description: NetServer Pocket element
-so.date: 06.06.2018
-author: {github-id}
-keywords: config
+description: NetServer configuration values for Pocket-specific features.
+so.date: 12.07.2021
+author: Bergfrid Dias
+keywords: config, NetServer, web.config, Pocket, AzureNotificationHubConnectionString, AzureNotificationHubName
 so.topic: reference
 so.envir: onsite
 ---
@@ -17,3 +17,8 @@ Configuration values for Pocket-specific features.
 |---|---|
 | AzureNotificationHubConnectionString | Connection string from Azure notification hub access policies. |
 | AzureNotificationHubName | The name of the Azure notification hub. |
+
+See the [NetServer Core reference][1] for details about handling this programmatically.
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.Configuration.ConfigFile.Pocket>

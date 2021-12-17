@@ -1,15 +1,15 @@
 ---
-title: Timezone Element
+title: TimeZone element
 uid: ns_config_timezone
-description: NetServer Timezone Element
-so.date: 06.06.2018
-author: {github-id}
-keywords: config
+description: NetServer configuration values related to TimeZone.
+so.date: 12.07.2021
+author: Bergfrid Dias
+keywords: config, NetServer, web.config, TimeZone, ServiceUrl
 so.topic: reference
 so.envir: onsite
 ---
 
-# NetServer Timezone Element (SuperOffice only)
+# NetServer TimeZone element (SuperOffice only)
 
 Configuration values related to TimeZone.
 
@@ -22,3 +22,8 @@ Configuration values related to TimeZone.
 | Name | Description |
 |---|---|
 | ServiceUrl | URL for the TimeZone service. |
+
+See the [NetServer Core reference][1] for details about handling this programmatically.
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.Configuration.ConfigFile.TimeZone>

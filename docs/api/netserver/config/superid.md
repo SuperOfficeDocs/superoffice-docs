@@ -1,17 +1,17 @@
 ---
 title: SuperId element
 uid: ns_config_superid
-description: NetServer SuperId element
-so.date: 06.06.2018
-author: {github-id}
-keywords: config
+description: NetServer configuration values for accessing SuperID.
+so.date: 12.09.2021
+author: Bergfrid Dias
+keywords: config, NetServer, web.config, SuperID, TenantKey, TenantId, Environment
 so.topic: reference
 so.envir: onsite
 ---
 
 # NetServer SuperId element (SuperOffice only)
 
-Configuration values for accessing SuperID.
+Configuration values for accessing [SuperID][2].
 
 ```XML
 <SuperId>
@@ -24,7 +24,13 @@ Configuration values for accessing SuperID.
 
 | Name | Description |
 |---|---|
-| Url | URL to SuperID. |
-| TenantKey | A shared secret between SuperID and NetServer. |
-| TenantId | TenantId in SuperID. |
 | Environment | Environment in SuperID. |
+| TenantId | TenantId in SuperID. |
+| TenantKey | A shared secret between SuperID and NetServer. |
+| Url | URL to SuperID. |
+
+See the [NetServer Core reference][1] for details about handling this programmatically.
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.Configuration.ConfigFile.SuperId>
+[2]: ../../../../superoffice-docs/docs/identity-management/superid/overview.md

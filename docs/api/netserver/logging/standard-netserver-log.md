@@ -1,6 +1,7 @@
 ---
 uid: logging_superoffice
 title: SuperOffice.Logging
+description: The standard NetServer logger.
 author: xt1
 so.date: 05.07.2021
 keywords: logging
@@ -11,7 +12,7 @@ so.topic: concept
 
 This is the **standard NetServer logger**. It lives in *SuperOffice.Logging.dll*. It reads configuration from the NetServer *web.config* file's [Diagnostics section][2]
 
-Like all logging, it is subject to filtering according to the NetServer Diagnostics settings.
+Like all logging, it is subject to filtering according to the NetServer `Diagnostics` settings.
 
 ```xml
 <Diagnostics>

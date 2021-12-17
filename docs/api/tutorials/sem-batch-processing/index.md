@@ -16,9 +16,9 @@ This article will introduce you to the high-level aspects of SuperOffice web bac
 
 ## Introduction
 
-Certain tasks related to CRM are potentially very time consuming. Performing a mail-merge, for example, has the potential of taking minutes to complete. Within the context of any application, conducting such a time-consuming task synchronously would be disastrous for the user-experience. SuperOffice Background Computing (SBC), sometimes referred to as Batch Processing,  was created to counter such an event, and enhance the overall experience and functionality of the platform.
+Certain tasks related to CRM are potentially very time-consuming. Performing a mail-merge, for example, has the potential of taking minutes to complete. Within the context of any application, conducting such a time-consuming task synchronously would be disastrous for the user experience. SuperOffice Background Computing (SBC), sometimes referred to as Batch Processing,  was created to counter such an event, and enhance the overall experience and functionality of the platform.
 
-The remainder of this article will focus on how Background computing is accomplished in SuperOffice SuperOffice web.
+The remainder of this article will focus on how background computing is accomplished in SuperOffice Web.
 
 ## Server Event Manager
 
@@ -48,7 +48,7 @@ A ServerEventObject, specifically the EventType and Data properties, becomes ver
 
 ### Plug-In Conditions
 
-For each SEM plug-in discovered, there are a set of conditions that define when the plug-in is allowed to be called. Each condition is checked verified true, the SEM plug-in is invoked and begins processing.
+For each SEM plug-in discovered, there are a set of conditions that define when the plug-in is allowed to be called. Each condition is checked verified true, the SEM plug-in is invoked, and begins processing.
 
 **Condition Definitions:**
 
@@ -106,7 +106,7 @@ SBS itself is based on a plug-in model. SBS comes out of the box with 3 standard
 
 ### Batch Processing
 
-The conceptual overview of processing batch tasks is seen in below. The basic idea is that a user will create a batch task (#1 in the figure), such as conducting a mail-merge.
+The conceptual overview of processing batch tasks is seen below. The basic idea is that a user will create a batch task (#1 in the figure), such as conducting a mail-merge.
 
 When the client sends a mail-merge task to the web server, it sends an asynchronous request to the web server with the parameters of the mail merge operation. The request contains a JavaScript callback method that is called when the operation has been completed, however, this does not represent the completed state of the batch task; just the invocation of it. When the request reaches the web server, it reacts by contacting the application server and telling it about the new task.
 
@@ -130,7 +130,7 @@ As seen below, the database plays a vital role in batch processing; it is at the
 
 The BatchTaskDefinition table contains details about each available batch task plug-in discovered by the SoBatchService. The discovery process is a little bit like Lazy Loading in the respect that, if a submitted batch task does not already contain a BatchTaskDefinition, a new BatchTaskDefinition record is created.
 
-The BatchTask table defines all batch tasks that either waiting to start or are running. It also contains the state of each batch task. Tasks are removed when they have been completed.
+The BatchTask table defines all batch tasks that are either waiting to start or are running. It also contains the state of each batch task. Tasks are removed when they have been completed.
 
 Because a batch task may require a complex set of parameters to execute, such as reports requiring layout, language, and other settings, all parameters for a task are stored in a binaryobject record. The container for task parameters is a StringDictionary datatype (located in the SuperOffice.CRM.Services namespace) defined in NetServer. This facilitates passing any number of required parameters to run a particular task.
 
@@ -152,7 +152,7 @@ The custom batch task I will demonstrate is not necessarily an ideal batch task,
 
 ### Creating the Plug-In
 
-The bare minimum needed to get away with creating a custom batch task is a class library with a reference to the SoBatchProcessing.dll library. Contained within the SoBatchProcessing library are types required to easily run a batch task. The quickest and recommended way to create a custom batch task is to create a class that inherits from BatchTaskBase. Now all you need to do is override the Run method, decorate the class with the BatchTask attribute and define the name of the plug-in. That is all there really is to create a custom batch task. The code below shows a barebones batch task plug-in that demonstrates a couple of interesting concepts. The public constants are used to define the name of the plugin and the interval at which SEM should check for progress. The latter is demonstrated in the next section. The Run method demonstrates how to use the base class GetTaskInfo method to access the BatchTaskInfo type that defines everything needed to execute this batch task. Notice how the ParameterObject property of the BatchTaskInfo is used to access the retrieve all parameters passed to this batch task.
+The bare minimum needed to get away with creating a custom batch task is a class library with a reference to the SoBatchProcessing.dll library. Contained within the SoBatchProcessing library are types required to easily run a batch task. The quickest and recommended way to create a custom batch task is to create a class that inherits from BatchTaskBase. Now all you need to do is override the Run method, decorate the class with the BatchTask attribute and define the name of the plug-in. That is all there really is to create a custom batch task. The code below shows a bare-bone batch task plug-in that demonstrates a couple of interesting concepts. The public constants are used to define the name of the plugin and the interval at which SEM should check for progress. The latter is demonstrated in the next section. The Run method demonstrates how to use the base class GetTaskInfo method to access the BatchTaskInfo type that defines everything needed to execute this batch task. Notice how the ParameterObject property of the BatchTaskInfo is used to access the retrieve all parameters passed to this batch task.
 
 Batch tasks are ideal for long-running operations. You probably do not want to leverage batch tasks for quick tasks that you would probably be better completed in a server-side AJAX method. Here the task is just being put to sleep for 15 seconds.
 
@@ -209,7 +209,7 @@ public class SampleReturn
 
 In order for the custom batch task to be useful, a new record must be created in the table BatchTask. The new record defines the name and other parameters for the plug-in. The easiest way to accomplish this in the web world is to create a server-side AJAX method and do the actual record creation in the body of the method. This is really only feasible when in local mode and there is not a firewall between the web application and application server. If both are hosted on the same machine, then this perfectly fine. Although not demonstrated here, a better approach would be to from the AJAX method call a custom web service on the application server and create the record there. This scenario is required when the web application's service mode is set to remote and communication with the application server is by using web services through a firewall.
 
-Server-side AJAX methods for the SuperOffice web client are easy to create. You can do this by simply creating a class that inherits from the IWebObject interface and decorate the class with the SoWebObject attribute. As seen below, there are four important things to consider when creating a batch task. The first is to have a type that is returned to the client to be sure the batch task was created successfully. The second is to organize any parameters needed by the batch task in a StringDictionary and pass that into the BatchData.SaveBatchTaskInfo method. The third important thing is to set the ServerEventManager interval, which defines how often the ServerEventManager is allowed to call the plug-in. The final and most important thing is to actually create an instance of a BatchTaskInfo type, defined its properties, and then save it. This is facilitated by using the BatchData type. BatchData is primarily a data-access class and resides in the SoDatabase.dll. In the event of deploying the web application in remote mode, then you will be required to create a web service on the application server and call it to create the BatchTaskInfo using BatchData.
+Server-side AJAX methods for the SuperOffice web client are easy to create. You can do this by simply creating a class that inherits from the IWebObject interface and decorate the class with the SoWebObject attribute. As seen below, there are four important things to consider when creating a batch task. The first is to have a type that is returned to the client to be sure the batch task was created successfully. The second is to organize any parameters needed by the batch task in a StringDictionary and pass that into the BatchData.SaveBatchTaskInfo method. The third important thing is to set the ServerEventManager interval, which defines how often the ServerEventManager is allowed to call the plug-in. The final and most important thing is to actually create an instance of a BatchTaskInfo type, define its properties, and then save it. This is facilitated by using the BatchData type. BatchData is primarily a data-access class and resides in the SoDatabase.dll. In the event of deploying the web application in remote mode, then you will be required to create a web service on the application server and call it to create the BatchTaskInfo using BatchData.
 
 **A Sample Ajax method that creates a new BatchTask entry in the database:**
 
@@ -308,7 +308,10 @@ The OnSampleEvent method iterates over the returned status of results of each ba
 
 ## Conclusion
 
-This article has covered the full breadth of SuperOffice Background Computing. You have been introduced to the Server Event Manager, and explained how intricate of a role it plays in the execution of batch tasks. You have been given insight into how a client action begins the series of steps required to successfully create a batch task, monitor the tasks progress, as well as invoke a callback on the client when the batch task has been completed. Finally, you have seen code that can be used to successfully execute a custom batch task through the web application.
+This article has covered the full breadth of SuperOffice Background Computing. You have been introduced to the Server Event Manager, and explained how intricate of a role it plays in the execution of batch tasks. You have been given insight into how a client action begins the series of steps required to successfully create a batch task, monitor the task's progress, as well as invoke a callback on the client when the batch task has been completed. Finally, you have seen code that can be used to successfully execute a custom batch task through the web application.
+
+<!-- Referenced links -->
+[1]: ../../../../superoffice-docs/docs/onsite/batch-task-server.md
 
 <!-- Referenced images -->
 [img1]: media/servereventmanager4-initial.png

@@ -3,7 +3,7 @@ uid: what_is_netserver
 title: What is Netserver / Understanding NetServer
 description: NetServer is a multi-tiered database access layer that bridges communication between clients and the SuperOffice database.
 author: AnthonyYates
-so.date: 12.02.2021
+so.date: 12.10.2021
 keywords: API, NetServer, HDB, RDB, entity, row, archive, OSQL, web service, services
 so.topic: concept
 so.envir: cloud, onsite
@@ -98,9 +98,12 @@ OSQL has the **best performance** of all NetServer API layers. When using OSQL t
 
 ## Programming with NetServer APIs
 
-When programming with the NetServer API, other than calling the web services directly, every solution needs a SuperOffice-specific section group in your application configuration file. This means adding a SuperOffice-specific section group to an *app.config* file for Windows Forms applications, or the *web.config* file for an ASP.NET web application.
+When programming with the NetServer API, other than calling the web services directly, every solution needs a [SuperOffice-specific section group][12] in your application configuration file.
 
-The SuperOffice section group contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options is well-defined in the [NetServer configuration documentation][12].
+* For Windows Forms applications, add a SuperOffice-specific section group to an *app.config* file.
+* For an ASP.NET web application, add a SuperOffice-specific section group to the *web.config* file.
+
+The **SuperOffice section group** contains configuration options relevant NetServer operations, such as logging, document handling, security, database options, and so forth. Everything you need to know about the SuperOffice configuration options is well-defined in the [NetServer configuration documentation][12].
 
 > [!NOTE]
 > The more control over the queries you have, the more responsibility you take on for handling ensuring that relationships and keys are maintained properly.

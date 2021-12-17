@@ -168,7 +168,7 @@ Certificates have not been installed on the partner's server. When setting up a 
 
 **Problem:**
 
-The web application *web.config* file declared a session mode equal to `PartnerHttpContext`, but that class is not included in the project or an assembly located in the website's *bin* folder.
+The web application *web.config* file declared a [session mode][3] equal to `PartnerHttpContext`, but that class is not included in the project or an assembly located in the website's *bin* folder.
 
 **Resolution:**
 
@@ -181,3 +181,4 @@ Ensure your web project contains the following files from the sample project `Su
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/change-application
 [2]: ../certificates/configure.md
+[3]: ../../../netserver/config/data.md#session

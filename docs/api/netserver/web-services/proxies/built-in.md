@@ -87,8 +87,8 @@ To call a NetServer web service remotely:
 
     ```XML
     <Services>
-      <addkey="DefaultMode" value="Remote" />
-      <addkey="RemoteBaseURL" value="http://hostname/WebServices/" />
+      <add key="DefaultMode" value="Remote" />
+      <add key="RemoteBaseURL" value="http://hostname/WebServices/" />
     </Services>
     ```
 

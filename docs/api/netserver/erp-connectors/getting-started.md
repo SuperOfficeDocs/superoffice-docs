@@ -4,7 +4,7 @@ uid: erp_connector_guide
 description: Getting started with ERP development
 author: {github-id}
 so.date: 05.11.2016
-keywords: debug
+keywords: ERP, ErpConnector, DynamicLoad
 so.topic: guide
 # so.envir:
 # so.client:
@@ -36,7 +36,7 @@ This can make certain kinds of debugging easier and saves the setup of a site, t
 
 To utilize direct-loading, you need to
 
-* Include your connector assembly in the `<dynamicLoad>` section in *web.config*
+* Include your connector assembly in the [DynamicLoad section][6] in *web.config*
 
 * Instead of a site URL for the connector, use `plugin://<connectorname>`, where `<connectorname>` represents the name given in the `ErpConnector` attribute on the implementing class.
 
@@ -66,6 +66,7 @@ Each connection will have to be able to inform ERP Sync about which actor types 
 [3]: setup-mapping.md
 [4]: setup-defaults.md
 [5]: ranking-fields.md
+[6]: ../config/factory.md
 
 <!-- Referenced images -->
 [img1]: media/sync-connector-plugin.png

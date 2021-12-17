@@ -147,7 +147,7 @@ The response body contains the following helper text:
 Use the HTTP <code>Authenticate</code> header to log in.<br/>
 <p>BASIC scheme with Base64 encoded SuperOffice username:password.</p>
 <p>SOTICKET scheme with the SuperOffice ticket (7T:abc123==) without any encoding.</p>
-<p>BEARER scheme with OAuth access token AbCXyz123== returned from SuperId.</p>
+<p>BEARER scheme with OAuth access token AbCXyz123== returned from SuperID.</p>
 ```
 
 The `Authorization` header specifies the authentication mechanism, in this case, *Basic*, followed by the username and password. Although, the string `aHR0cHdhdGNoOmY=` may look encrypted it is not. It is a base64 encoded version of `<username>:<password>`.

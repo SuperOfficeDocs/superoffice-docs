@@ -25,7 +25,8 @@ The **Resource Manager** handles reading the resource strings from various sourc
     <Application name="WebClient" instance="Web" />
     <Globalization>
       <ResourceProviders>
-        <add name="DllFile" rank="20" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResourceDllProvider" params="SuperOffice.Web.Globalization.ResourceStrings;SuperOffice.Web.Globalization" />
+        <add name="DllFile" rank="20" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResourceDllProvider"
+             params="SuperOffice.Web.Globalization.ResourceStrings;SuperOffice.Web.Globalization" />
         <add name="FieldLabelFromDB" rank="10" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.FieldLabelProvider" />
         <add name="ResxFile" rank="30" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResXmlFileProvider" params=".\TestXmlResources" />
       </ResourceProviders>

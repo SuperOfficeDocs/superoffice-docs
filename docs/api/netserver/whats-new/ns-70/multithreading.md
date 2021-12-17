@@ -17,14 +17,14 @@ In the general case, multi-threading/parallel programming is hard. Why?
 * And because the syntax for working with threads tends to be complicated
   NetServer uses multi-threading internally, and we have some useful infrastructure
 
-* .NET 4.0 and the Task Parallell Library are also very nice
+* .NET 4.0 and the Task Parallel Library are also very nice
 
 ## Easy Multi-threading
 
-If your problem can be partitioned into independent parts, then you’re home free.
+If your problem can be partitioned into independent parts, then you’re home-free.
 
 * Put each part in a method
-* Call the methods in parallell using the ThreadManager
+* Call the methods in parallel using the ThreadManager
 * Use the results
 
 The real trick is to recognize these cases in your code!
@@ -61,7 +61,7 @@ Do you have multiple cores, or are you waiting for external data? If not, then t
 
 Again, it all depends on your problem. Multi-threading is a powerful tool and you should know about it, and about what NetServer can do to help you. Beyond that, it’s your call.
 
-## Multi-thread db reading
+## Multi-thread database reading
 
 ![ALT][img2]
 
@@ -74,7 +74,7 @@ It’s the `ThreadManager.Invoke` call that does the magic. Its parameter is an 
 
 ![ALT][img3]
 
-Here we have moved the parallel code into a separate method, and use scope capture in the lambdas to send different parameters to them in a very nice and clean way. Recommended, whenever your lambda would otherwise become large, or you see too many similarities.
+Here we have moved the parallel code into a separate method and used scope capture in the lambdas to send different parameters to them in a very nice and clean way. Recommended, whenever your lambda would otherwise become large, or you see too many similarities.
 
 <!-- Referenced images -->
 [img1]: media/image016.jpg

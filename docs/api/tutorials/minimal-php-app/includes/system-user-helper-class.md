@@ -2,9 +2,9 @@
 class SystemUserHelper
 {
    /*
-   * Sign system token from callback and authenticate it with the SuperId service
+   * Sign system token from callback and authenticate it with the SuperID service
    *
-   * return system user token from SuperId service
+   * return system user token from SuperID service
    */
    public static function GetSystemUserToken($returnTokenType) {
       $context = SessionHelper::getSoContext();

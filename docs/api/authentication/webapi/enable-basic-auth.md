@@ -28,9 +28,9 @@ If you enable **Basic authentication** on the IIS site, then IIS will try to use
 
 The SuperOffice WebAPI can check usernames and passwords against the SuperOffice users without Basic authentication being enabled on IIS. We need to enable it for SuperOffice in *web.config*.
 
-## SuperOffice Web.Config
+## SuperOffice web.config
 
-You must explicitly enable the authentication methods you want to use in the *web.config* file.
+You must explicitly [enable the authentication methods][2] you want to use in the *web.config* file.
 
 ```XML
 <WebApi>
@@ -100,6 +100,7 @@ This returns the contact info
 
 <!-- Referenced links -->
 [1]: https://www.getpostman.com/
+[2]: ../../netserver/config/webapi.md
 
 <!-- Referenced images -->
 [img1]: media/iis-config-site.png

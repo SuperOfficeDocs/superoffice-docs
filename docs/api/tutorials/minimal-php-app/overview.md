@@ -43,7 +43,7 @@ A **system user ticket** is only good for a short period of time. Therefore, you
 
 Every application in production must demonstrate their application validates the token upon each successful login to SuperID within the application's callback location.
 
-Each application must also validate each token received by SuperId when exchanging a system user token for a system user ticket. These types of checks are tested when certifying an application.
+Each application must also validate each token received by SuperID when exchanging a system user token for a system user ticket. These types of checks are tested when certifying an application.
 
 ## Public key certificates
 
