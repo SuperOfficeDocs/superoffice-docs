@@ -29,7 +29,7 @@ items:
     href: pagebuilder/master-and-content-pages.md
   - name: Rights system
     href: pagebuilder/rights-system.md
-  - name: Config
+  - name: Configuration
     href:  pagebuilder/config/index.md
     items:
     - name: Soml
