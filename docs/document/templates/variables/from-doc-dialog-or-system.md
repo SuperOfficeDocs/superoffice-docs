@@ -17,6 +17,7 @@ so.topic: reference
 | apid | Appointment ID |
 | atti | Title of the contact the document will be sent to |
 | attn | Selected contact in the Document dialog or text that is specified in the Company field for a recipient of the document |
+| dat1 | Date in semi long format, for example, 10. December 2004 (from 10.0.4) |
 | date | Date in long format, for example, 10 December 2004 |
 | desc | Description of the created document |
 | df01-10 | User-defined field 1-10 of the decimal number type |
@@ -48,5 +49,5 @@ so.topic: reference
 
 > [!NOTE]
 > The short and long date formats will be determined by your computer’s settings for the Windows client. You can edit the settings in Control Panel in Windows.
-
-For the web client, it's the web servers setting based on the Local settings that appear on the button beside Help where you choose Active Language, Number and Date format, and Email client.
+>
+> For the web client, it's the web server's setting based on the Local settings that appear on the button beside Help where you choose Active Language, Number and Date format, and Email client.
