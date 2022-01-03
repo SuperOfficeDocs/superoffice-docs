@@ -67,7 +67,7 @@ We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches
 [1]: https://mxtoolbox.com/
 [2]: https://support.office.com/en-us/article/general-instructions-for-creating-dns-records-for-office-365-e21a9a4a-7b14-42cb-b39b-03aee92da95f
 [3]: https://mxtoolbox.com/spf.aspx
-[4]: https://docs.superoffice.com/email/mailgun/spf/set-up.html
+[4]: ../dkim/set-up.md
 
 <!-- Referenced images -->
 [img1]: media/image.png

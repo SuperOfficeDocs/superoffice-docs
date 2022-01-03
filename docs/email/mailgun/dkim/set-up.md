@@ -99,7 +99,7 @@ Once the DKIM DNS record has been propagated and it tests OK, SuperOffice needs 
 [5]: https://mxtoolbox.com/dkim.aspx
 [6]: https://www.mail-tester.com/spf-dkim-check
 [7]: https://www.mxtoolbox.com/dkim.aspx
-[8]: https://docs.superoffice.com/email/mailgun/spf/set-up.html
+[8]: ../spf/set-up.md
 
 <!-- Referenced images -->
 [img8]: media/mxtoolsboxdkim.png
