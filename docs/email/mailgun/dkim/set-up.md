@@ -53,7 +53,8 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
     ![x -screenshot][img4]
 
-3. Click **Save** to update the information.
+3. We also need to add an spf record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
+4. Click **Save** to update the information.
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
@@ -98,6 +99,7 @@ Once the DKIM DNS record has been propagated and it tests OK, SuperOffice needs 
 [5]: https://mxtoolbox.com/dkim.aspx
 [6]: https://www.mail-tester.com/spf-dkim-check
 [7]: https://www.mxtoolbox.com/dkim.aspx
+[8]: https://docs.superoffice.com/email/mailgun/spf/set-up.html
 
 <!-- Referenced images -->
 [img8]: media/mxtoolsboxdkim.png
