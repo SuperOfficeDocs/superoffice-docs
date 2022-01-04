@@ -22,7 +22,7 @@ so.envir:
 |UDefField\_Id|Primary key|PK| |
 |ownerTable\_id|ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it&apos;s an enum|UShort| |
 |tabOrder|Tab order value, sets the field processing sequence|UShort| |
-|fieldType|Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox|UShort| |
+|fieldType|Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Check box, 7 = Drop-down, 8 = Decimal|UShort| |
 |listTableId|The table ID of the source table for lists: kTableAssoc, kTableContInt or whatever|TableNumber|&#x25CF;|
 |UDListDefinition\_id|List to use for populating dropdown or listbox|FK [UDListDefinition](udlistdefinition.md)| |
 |columnId|The ID of the database column this field corresponds to|FieldId| |
