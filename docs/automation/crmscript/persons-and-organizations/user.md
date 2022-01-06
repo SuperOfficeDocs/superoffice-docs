@@ -136,14 +136,33 @@ printLine(p.getVariable("user.username", 0));
 |:-------------|:------------|:----------------------------------|
 | id           | id          | ID (primary key)                  |
 | username     | username    | Unique username or uid            |
-| profileId    | profoile_id | The user's profile (profile.id)   |
+| profileId    | profile_id | The user's profile (profile.id)   |
 | firstname    | firstname   | The first name of the person      |
 | lastname     | lastname    | The last name of the person       |
 | email        | Email       | 1 or more                         |
 | ownerCompany |             | The ID of the company linked to user's person entity |
 | group        | usergroup   | The primary group for the user    |
 | status       | status      | Status<br>active (1), not present(2), deleted (3) |
-| language     | language    | The user's language<br>("no" or "en") |
+| language     | language    | The user's language, see list below for values |
+
+#### Language values
+
+| Value | Description            |
+|:-----:|------------------------|
+| 0 | Norwegian |
+| 1 | English |
+| 2 | German |
+| 3 | Swedish |
+| 4 | Danish |
+| 5 | Dutch |
+| 6 | French |
+| 7 | Spanish |
+| 8 | Italian |
+| 9 | Czech |
+| 10 | Finnish |
+| 11 | Polish |
+| 12 | Russian |
+| 13 | Ukrainian |
 
 ### Sign-in info
 
