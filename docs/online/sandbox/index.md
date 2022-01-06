@@ -70,9 +70,12 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * If you plan to test a partner app, ask them ahead of time if the app supports authenticating against multiple tenants.
 
-## Community users and your test database
+## Community users and your test database (onsite installation only)
 
-We are aware that some use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
+> [!NOTE]
+> This section only applies to onsite installations.
+
+We are aware that some onsite installations use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
 
 Each SuperOffice database sends information to us, that is both Onsite from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
 
