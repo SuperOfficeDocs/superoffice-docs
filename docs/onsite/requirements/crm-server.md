@@ -17,6 +17,7 @@ See also requirements for [IIS][2].
 
 ## Server Operating System
 
+* Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
 * Microsoft Windows Server 2012 R2
