@@ -29,7 +29,7 @@ if(orgNr.isEmpty())
 {
   ed.setMessage("Please type in a Org.Nr");
   blockExecution = true;
-}// If the orgNr field has letters or is not 9 digits
+}// If the orgNr field has letters or is not 9 digits
 else if(!orgNr.isDigit() || orgNr.getLength() != 9)
 {
   ed.setMessage("Please type in a valid Org.Nr (9 digits)");

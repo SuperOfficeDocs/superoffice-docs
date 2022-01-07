@@ -21,6 +21,8 @@ items:
       href: event-model/mailbox-before-save.md
     - name: Saving a request
       href: event-model/saving-a-request.md
+  - name: Macro
+    href: macro/index.md
   - name: Trigger
     href: trigger/index.md
     expanded: true

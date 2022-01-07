@@ -2,8 +2,8 @@
 uid: superoffice_automation
 title: Automation
 description: Automation in SuperOffice; script language options by platform
-author: Tony Yates
-so.date: 11.26.2021
+author: Bergfrid Dias
+so.date: 01.07.2022
 keywords: automation, API, integration point, scripting, Jscript, Javascript, VB.NET, C#
 so.topic: concept
 so.envir: cloud, onsite
@@ -15,6 +15,30 @@ so.client: win, web, service
 ## What is automation?
 
 [!include[What is automation?](includes/automation-intro.md)]
+
+## Terminology
+
+A trigger, as defined in Settings and Maintenance, is either a CRMScript or a macro. However, scripts and macros don't have to be triggers. Confused? Let's look at the process in general terms first.
+
+1. **Event:** the thing that happens
+
+2. **Trigger:** condition or filter
+
+3. **Handler:** response logic
+
+In this flow, a trigger connects the event to the handler in an if-this-then-that kind of way. Unfortunately, the distinction between event and trigger, as well as between trigger and handler, gets blurry.
+
+What we call a trigger in the user interface is the result of setting up both the condition and response to **built-in UI events**. You select the event **first**, then define the condition, and finally the action to take.
+
+[!include[Introduction to macros](includes/macro-intro.md)]
+
+In addition, there are a few more options for Service:
+
+* [Hook scripts:][5] alternative to triggers and runs every time a particular screen in Service is loaded (beforeSetFromCgi, afterSetFromCgi, beforePrint)
+
+* [Extra menu:][3] triggers a script or macro from a Service menu option (or performs custom navigation)
+
+* [Button script:][4] assigned to a custom button in Service and runs when clicked (bLogic action = doScript)
 
 ## <a name="languages"></a>Script language options by platform
 
@@ -78,5 +102,8 @@ var contact = AjaxMethodDispatcher.CallSync(
 
 <!-- Referenced links -->
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
+[3]: ../../../user-interface/docs/service-ui/extra-menus.md
+[4]: ../../../user-interface/docs/service-ui/button-scripts.md
+[5]: ../../../user-interface/docs/service-ui/screen-events.md
 
 <!-- Referenced images -->
