@@ -250,11 +250,21 @@ Archive searches accept a wide variety of [search operators][21]. Difference dat
 
 #### Optimization
 
-Optimized searches means putting in as many restrictions as possible that will translate to good SQL, thereby off-loading the heavy lifting to the database server. Therefore, consider the following recommendations:
+Here are some thoughts for constructing optimal queries:
+
+* Design efficient queries. Think about how the queries are translated and executed on the database server.
+* Optimize and fine tune your queries. Try a variation of query techniques for a given scenario and choose the one, not that is easiest to implement for the developer, but with the best performance for online services.
+* Perform efficient transactions. Target as few fields as possible, use indexed fields, and avoid large table joins. Pre-fetch lists to avoid performing lookups for each record with list IDs.
+* Identify and eliminate sub-optimal queries. Instead of creating queries that contain lots of duplicate criterion field restrictions, i.e. contact_id=1 OR contact_id=2 OR contactID=3, use a more appropriate clause that will result in better performance - such as Contact_id IN (1,2,3).
+* Test and monitor your data access performance. Do not wait for customer complaints. Have a data performance monitoring strategy, set conservative tolerance thresholds, and take action to refactor problems.
+
+Optimized searches means using smart restrictions that will translate to optimal SQL. Therefore, consider the following recommendations:
 
 1. Always use an __$orderby__={primarykey}
 2. Strongly suggest use a __$filter__={criteria} (especially when using __\$top__)
 3. If using __\$top__, use __\$skip__ for further optimization. (do __NOT__ ask for all records every request)
+
+ By creating well-defined It's good to off-loading heavy lifting queries to the database server, .
 
 ### Polling
 
