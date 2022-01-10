@@ -22,9 +22,9 @@ landingContent:
           url: overview.md
       - linkListType: how-to-guide
         links:
-        - text: Install SuperOffice Mobile (v.9.1 and newer)
+        - text: Install SuperOffice Mobile (v. 9.1 and newer)
           url: superoffice-mobile/install.md
-        - text: Install Pocket CRM (v.8x and older)
+        - text: Install Pocket CRM (v. 8 and older)
           url: pocket-crm/install.md
 
   # Card

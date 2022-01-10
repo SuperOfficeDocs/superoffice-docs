@@ -11,23 +11,10 @@ so.client: pocket
 
 # How to install and configure the CRM Pocket client
 
-Pocket CRM is included in all user plans of SuperOffice CRM Online and in Onsite Subscription, and you can just download and install Pocket CRM. If you have an Onsite Buy license type, see the [deployment guide][2].
+Pocket CRM is included in Onsite Subscription and you can just download and install the Pocket CRM app. If you have an Onsite Buy license type, see the [deployment guide][2].
 
 ## Online
-
-1. Open a web browser on your device and navigate to [online.superoffice.com/mobile][1].
-
-2. Choose Google Play if you use an Android phone, choose App Store if you use an Apple device:
-
-    ![x -screenshot][img2]
-
-3. Open the installed application on your mobile device.
-
-4. Configure and set the connection URL to the CRM Online site by choosing **CRM Online** on the first start-up:
-
-    ![x -screenshot][img3]
-
-5. Sign in with the same email address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM!
+Pocket CRM will not be able to log in to SuperOffice version 10 and later. You need to upgrade to [Mobile CRM][1] to benefit from the latest features.
 
 ## Onsite
 
@@ -53,7 +40,7 @@ Pocket CRM is included in all user plans of SuperOffice CRM Online and in Onsite
 
 ## Reset the Pocket CRM client
 
-If you need to either reset the settings or configure the client with another connection URL you can delete the settings by uninstalling the app then install it again - then you will be asked to choose how to connect (CRMOnline / Onsite) once more.
+If you need to either reset the settings or configure the client with another connection URL you can delete the settings by uninstalling the app then install it again - then you will be asked to choose how to connect (CRM Online / Onsite) once more.
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/mobile
@@ -62,7 +49,5 @@ If you need to either reset the settings or configure the client with another co
 [5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343
 
 <!-- Referenced images -->
-[img2]: media/mobile-download.png
-[img3]: media/InstallOnline.jpg
-[img4]: media/InstallOnsite.jpg
+[img4]: media/install-onsite.jpg
 [img5]: media/set-url.png
