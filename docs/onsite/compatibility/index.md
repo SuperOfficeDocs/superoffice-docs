@@ -15,6 +15,23 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+## MacOS Monterey
+
+![macos-monterey.jpg][img15]
+
+We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Monterey. No issues were found during testing. The report was made on November 26th 2021.
+
+<a href="../../assets/downloads/compatibility/maclink---os-macosmonterey.xlsx" download>Click to download report</a>
+
+## Windows Server 2022
+
+![win-server-2022.jpg][img16]
+
+We have tested Windows Server 2022 with SuperOffice 10.0.2 Onsite. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome and Edge browsers. The report was made on November 17th 2021.
+
+<a href="../../assets/downloads/compatibility/windows-server-2022.xlsx" download>Click to download report</a>
+
+
 ## Windows 11
 
 ![windows11.jpg][img14]
@@ -145,3 +162,5 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img12]: media/sqlexpress.png
 [img13]: media/microsoft-sql.png
 [img14]: media/windows11.jpg
+[img15]: media/macos-monterey.jpg
+[img16]: media/win-server-2022.jpg

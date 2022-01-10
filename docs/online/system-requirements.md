@@ -18,9 +18,10 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * Windows 11
 * Windows 10
 * Windows 8.1
-* Mac OS 11.0 (Big Sur)
-* Mac OS 10.15 (Catalina)
-* Mac OS 10.14 (Mojave)
+* MacOS Monterey
+* MacOS Big Sur
+* MacOS Catalina
+
 
 
 ## Browsers

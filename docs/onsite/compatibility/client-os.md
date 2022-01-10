@@ -19,13 +19,13 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 
 ## Windows
 
-| OS                  | 8.0 - 8.3 R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 | 9.2 | 10 |
-|---------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Windows 11          | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
-| Windows 10          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows 8.1         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1]
-| Windows 8           | ![i][img1] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
-| Windows 7 SP2   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] |
+| OS                  | 8.0 - 8.3 R03 | 8.3 R04 - 8.4 | 8.5 | 9 | 10 |
+|---------------------|:--:|:--:|:--:|:--:|:--:|
+| Windows 11          | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
+| Windows 10          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Windows 8.1         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1]
+| Windows 8           | ![i][img1] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
+| Windows 7 SP2       | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 
 > [!NOTE]
@@ -33,16 +33,17 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 
 ## Mac
 
-| OS                      | 8.0, SR1 - SR2 | 8.0 SR3 - SR6 | 8.1 | 8.2 | 8.3 | 8.4 | 8.5 | 9.1 | 9.2 | 10 |
-|-------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MacOS Big Sur | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MacOS Catalina | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MacOS Mojave | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| MacOS High Sierra | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
-| MacOS Sierra  | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] |
-| MacOS X El Capitan | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] |
-| MacOS X Yosemite | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] |
-| MacOS X Mavericks |![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] |
+| OS                 | 8.0, SR1, SR2 | 8.0 SR3 - 8.1 | 8.2 - 8.3 | 8.4 | 8.5 | 9 | 10 |
+|--------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MacOS Monterey     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
+| MacOS Big Sur      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
+| MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MacOS Mojave       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
+| MacOS High Sierra  | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| MacOS Sierra       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
+| MacOS X El Capitan | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
+| MacOS X Yosemite   | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
+| MacOS X Mavericks  | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
 > For Mac users, the biggest source of incompatibility is our WebTools. So for the Mac OS versions not part of our tested configurations, this is the most likely part of the product that will not work.

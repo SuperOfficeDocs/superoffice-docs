@@ -24,6 +24,7 @@ This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOf
 
 ## Operating system
 
+* Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
 * Microsoft Windows Server 2012 R2
