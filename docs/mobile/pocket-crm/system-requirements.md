@@ -9,9 +9,9 @@ so.envir: onsite
 so.client: pocket
 ---
 
-# System requirements for Pocket CRM - onsite
+# System requirements for Pocket CRM - Onsite
 
-These requirements are specific to onsite installations of SuperOffice. They supplement the requirements for the [client application][1].
+These requirements are specific to Onsite installations of SuperOffice. They supplement the requirements for the [client application][1].
 
 > [!NOTE]
 > To be able to use all released features for Pocket CRM, you need to use the direct NetServer connection mode.

@@ -28,6 +28,10 @@ highlightedContent:
       itemType: overview
       url: ../service/index.yml
     # Card
+    - title: "SuperOffice mobile"
+      itemType: learn
+      url: ../mobile/index.yml      
+    # Card
     - title: "Installation guide (Web)"
       itemType: overview
       url: install/index.yml

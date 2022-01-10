@@ -8,9 +8,9 @@ so.envir: online
 so.client: mobile
 ---
 
-# Mobile CRM security in CRM Online
+# Mobile CRM security in SuperOffice CRM Online
 
-This article describes the security and requirements in CRM Online for Mobile CRM
+This article describes the security and requirements in SuperOffice CRM Online for Mobile CRM.
 
 ## Client-side security
 

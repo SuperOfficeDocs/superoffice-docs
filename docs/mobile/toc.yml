@@ -23,7 +23,7 @@ items:
       href: pocket-crm/install.md
     - name: Client requirements
       href: pocket-crm/client-requirements.md
-    - name: For Web (onsite)
+    - name: For Web (Onsite)
       items:
       - name: System requirements
         href: pocket-crm/system-requirements.md

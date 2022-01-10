@@ -11,7 +11,7 @@ so.client: mobile
 
 # Requirements for SuperOffice Mobile CRM client
 
-SuperOffice Mobile is an application for iOS and Android to give you access to your CRM data on mobile devices.
+SuperOffice Mobile is an application for iOS and Android to give you access to your CRM data on mobile devices, for both SuperOffice Online and SuperOffice Onsite.
 
 ## SuperOffice
 
