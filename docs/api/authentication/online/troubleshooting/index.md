@@ -3,7 +3,8 @@ title: Error code
 uid: auth_error_codes
 description: Problems with application authorization, tokens, and certificate
 author: {github-id}
-keywords:
+so.date: 01.04.2022
+keywords: authorization error, token, certificate
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -21,7 +22,7 @@ Description of error codes related to authorizing an application and working wit
 |:----:|-------|-------------|
 | 0 | NoError | |
 | 1 | Revoked | Application's access to the tenant has been revoked |
-| 2 | InvalidRedirectUrl | The redirect URL you used is not registered in the SuperOffice operation center on the app - you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
+| 2 | InvalidRedirectUrl | The redirect URL you used is not registered in the SuperOffice operation center on the app - you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
 | 3 | Expired | The application authorization on this tenant has expired |
 | 4 | Denied | The applications access to this tenant has been denied |
 | 5 | NeedsReapproval | Authorization needs to be re-approved |
@@ -40,7 +41,7 @@ Description of error codes related to authorizing an application and working wit
 The certificate is not found:
 
 * the certificates are not installed on the local machine, or
-* the certificates are not configured to load the *SuperOfficeFederatedLogin.crt* certificate by using the `CertificateFileCertificateStoreTokenResolver` class
+* the certificates are not configured to load the *SuperOfficeFederatedLogin.crt* certificate by using the `CertificateFileCertificateStoreTokenResolver` class
 
 **Resolution:**
 
@@ -72,9 +73,9 @@ The **SuperIdCertificate** appSetting value doesn't correlate to an installed ce
 **Resolution:**
 
 1. [Install the correct certificates][2] for the correct environment (SOD, Stage, Production) into the local certificate store.
-2. Make sure the thumbprint is correct: use the arrow keys or **Backspace** to verify that there is no hidden character before the thumbprint value.
+2. Make sure the thumbprint is correct: use the arrow keys or **Backspace** to verify that there is no hidden character before the thumbprint value.
 
-Alternatively, override the `IssuerTokenRsolver` and set the `CertificateValidator` to *X509CertificateValidator.None*.
+Alternatively, override the `IssuerTokenResolver` and set the `CertificateValidator` to *X509CertificateValidator.None*.
 
 ### Error: ID4148
 
@@ -106,9 +107,7 @@ tokenHandler.ValidateToken(token, SuperOffice.SuperID.Contracts.SystemUser.V1.To
 ### Error: IDX10708
 
 > [!NOTE]
-> 'System.IdentityModel.Tokens.JwtSecurityTokenHandler' cannot read this string: `PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48QXNzZXJ0aW9uIElEPSJfZWQ4OTVmMzktZjc4Yi00NDFkLWFiY2QtYjllZWMzOGUyZDNhIiBJc3N1ZUluc3RhbnQ9IjIwMTUtMTAtMDZUMjA6NTg6NDMuNzI5WiIgVmVyc2lvbj0iMi4wIiB4bWxucz0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI`
-
-Problem:
+> System.IdentityModel.Tokens.JwtSecurityTokenHandler cannot read this string: `PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idX...shortened for brevity...W9uIElEPSJfZWQ4O`
 
 **Problem:**
 
@@ -117,8 +116,8 @@ Problem:
 **Resolution:**
 
 * Don't set the `tokenHandler.JwtIssuerSigningCertificate` property if you use locally installed certificates.
-* Don't set `tokenHandler.IssuerTokenResolver` to a new `CertificateFileCertificateStoreTokenResolver` instance if you use a relative certificate file.
-* Change the `TokenType` enumeration from *Jwt* to *SAML* in the `Validate` method.
+* Don't set `tokenHandler.IssuerTokenResolver` to a new `CertificateFileCertificateStoreTokenResolver` instance if you use a relative certificate file.
+* Change the `TokenType` enumeration from *Jwt* to *SAML* in the `Validate` method.
 
 ```csharp
 //Disable looking up the certificate PeerTrust when using CertificateFileCertificateStoreTokenResolver or JWT tokens.
