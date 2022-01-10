@@ -93,6 +93,4 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 <!-- Referenced images -->
 [img1]: media/image.png
 [img2]: media/assign-licence.png
-[img3]: media/configure-envir.png
-[img4]: media/set-url.png
 [img5]: media/preferences.png

@@ -35,17 +35,17 @@ Pocket CRM is included in all user plans of SuperOffice CRM Online and in Onsite
 
     [![Get it on Google Play](../../media/google-play-badge.png "Get it on Google Play")][4]
 
-    [![Get it on Apple App Store](../../media/download-on-appstore.svg "Get it on Apple App Store")][5]
+    [![Get it on Apple App Store](../../media/download-on-appstore.png "Get it on Apple App Store")][5]
 
 2. Open the installed application on your mobile device.
 
 3. The first time you start the app, you will be asked to configure what type of environment your SuperOffice server is using. Choose **SuperOffice CRM**.
 
-    ![x -screenshot][img3]
-
-4. You must now set the URL in the app to connect it to the server by setting the *connection URL /connection string / URL to your Pocket server / NetServer installation*:
-
     ![x -screenshot][img4]
+
+4. You must now set the URL in the app to connect it to the server by setting the *connection URL / connection string / URL to your Pocket server / NetServer installation*:
+
+    ![x -screenshot][img5]
 
     Your administrator should know where to find this URL.
 
@@ -63,4 +63,6 @@ If you need to either reset the settings or configure the client with another co
 
 <!-- Referenced images -->
 [img2]: media/mobile-download.png
-[img3]: media/1v.jpg
+[img3]: media/InstallOnline.jpg
+[img4]: media/InstallOnsite.jpg
+[img5]: media/set-url.png
