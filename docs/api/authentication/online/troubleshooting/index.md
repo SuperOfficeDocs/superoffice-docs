@@ -107,7 +107,7 @@ tokenHandler.ValidateToken(token, SuperOffice.SuperID.Contracts.SystemUser.V1.To
 ### Error: IDX10708
 
 > [!NOTE]
-> System.IdentityModel.Tokens.JwtSecurityTokenHandler cannot read this string: `PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48QXNzZXJ0aW9uIElEPSJfZWQ4O`
+> System.IdentityModel.Tokens.JwtSecurityTokenHandler cannot read this string: `PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idX...shortened for brevity...W9uIElEPSJfZWQ4O`
 
 **Problem:**
 
