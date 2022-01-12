@@ -9,7 +9,7 @@ keywords:
 
 ## What is SPF?
 
-An SPF record is a type of [Domain Name Service][1] (DNS) record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain (whitelist and/or blacklist of IP / domains). Apply these restrictions by adding an [MX record][2] in your DNS zone.
+An SPF record is a type of [Domain Name Service][1] (DNS) record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain (whitelist and/or blacklist of IP / domains). Apply these restrictions by adding an [MX record][2] in your DNS zone.
 
 ## Why is it Important?
 
@@ -21,7 +21,7 @@ The purpose of an SPF record is to prevent spammers from sending messages with f
 
 **More info:**
 
-Google article [About SPF records][3]
+Google article [About SPF records][3]
 
 <!-- Referenced links -->
 [1]: https://en.wikipedia.org/wiki/Domain_Name_System

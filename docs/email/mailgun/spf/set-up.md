@@ -11,7 +11,7 @@ so.client: online
 
 # How to set up SPF Record
 
-Before creating the SPF record for your domain, it is important to find out what the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
+Before creating the SPF record for your domain, it is important to find out what the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
 
 [!include[ALT](../includes/envir-google.md)]
 
@@ -27,17 +27,20 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 ## Add the SPF record
 
-1. Go to **Host Records** in the DNS console. The existing SPF record for your Google account is there by default.
+1. Go to **Host Records** in the DNS console. The existing SPF record for your Google account is there by default.
 
     ![x -screenshot][img1]
 
-2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new one. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`. (Note for customers using DKIM (only): you need to add 'include:mailgun.org ~all' to be able to send and receive emails. Read more in [DKIM setup][4])
+2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new one. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
-    1. Click **Edit.** Update the existing record (text field) with the new combined record.
+    > [!NOTE]
+    > For customers using DKIM (only): you need to add `"include:mailgun.org ~all"` to be able to send and receive emails. Read more in [DKIM setup][4].
+
+    1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
          ![x -screenshot][img2]
 
-    2. Click **Save** to update the information.
+    2. Click **Save** to update the information.
 
         ![x -screenshot][img3]
 
@@ -45,15 +48,15 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 ## Test a new SPF record
 
-There are several tools available online to test your SPF record. Here we use [MX Toolbox][1].
+There are several tools available online to test your SPF record. Here we use [MX Toolbox][1].
 
 1. Open the [SPF tool][3].
 
-2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
+2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
 
     ![x -screenshot][img5]
 
-3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
+3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
 
 ### What’s the difference between ~all and -all?
 
@@ -61,7 +64,7 @@ Given many receivers are not actively bouncing mail based on SPF pass/fail, ther
 
 What should I publish?
 
-We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small user base. Many ISPs will check SPF before sending back a bounce and so an `-all` record can decrease the amount of blowback the domain owner has to deal with.
+We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small user base. Many ISPs will check SPF before sending back a bounce and so an `-all` record can decrease the amount of blowback the domain owner has to deal with.
 
 <!-- Referenced links -->
 [1]: https://mxtoolbox.com/

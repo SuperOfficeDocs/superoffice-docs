@@ -21,7 +21,7 @@ Please plan and schedule for this change as soon as possible, and no later than 
 
 1. Remove current DKIM for Mailgun from your DNS
 
-2. Notify SuperOffice you have removed the current DKIM (use this [form][1]).
+2. Notify SuperOffice you have removed the current DKIM (use this [form][1])
     * SuperOffice will:
 
         a) Delete the US DKIM key for your domain
@@ -39,7 +39,7 @@ Please plan and schedule for this change as soon as possible, and no later than 
 
       b) Send you a confirmation email when new settings are in place
 
-More information on setting up DKIM in this [article][2].
+More information on setting up DKIM in this [article][2].
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/change-dkim/

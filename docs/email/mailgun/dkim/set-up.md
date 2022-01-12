@@ -11,7 +11,7 @@ so.client: online
 
 # How to set up a DKIM Record
 
-Before creating the DKIM record for your domain, it is important to find out what the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
+Before creating the DKIM record for your domain, it is important to find out what the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
 
 ## Overview
 
@@ -40,21 +40,21 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 ## Add the DKIM record
 
-1. Go to **Host Records** in the DNS console. The existing records for your Google account are there by default.
+1. Go to **Host Records** in the DNS console. The existing records for your Google account are there by default.
 
     ![x -screenshot][img3]
 
-2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
+2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
 
-    * Some DNS servers may require "version of DKIM". Add this by adding "v=DKIM1; " in front of the key: `Example: "k=rsa; p=XXX..."  -->  "_v=DKIM1;_ k=rsa; p=XXX..."`
+    * Some DNS servers may require "version of DKIM". Add this by adding "v=DKIM1; " in front of the key: `Example: "k=rsa; p=XXX..."  -->  "_v=DKIM1;_ k=rsa; p=XXX..."`
     * Add "Host name" value ("pic._domainkey.[yourdomainName]") you received from us.
-    * Add "Address" value ("_v=DKIM1;_ k=rsa; p=XXX..") you received from us (see note above)
+    * Add "Address" value ("_v=DKIM1;_ k=rsa; p=XXX..") you received from us (see note above)
     * Choose "txt" as record type
 
     ![x -screenshot][img4]
 
 3. We also need to add an spf record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
-4. Click **Save** to update the information.
+4. Click **Save** to update the information.
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
@@ -62,13 +62,13 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 Use a tool to make sure the DKIM is propagated. Via CMD:
 
-1. Open Windows Command Prompt: Press Win+R, type `CMD`, and click **OK**.
+1. Open Windows Command Prompt: Press Win+R, type `CMD`, and click **OK**.
 
 2. Type `nslookup` and press Enter.
 
 3. Type `set type=txt` and press Enter.
 
-4. Type: `pic._domainkey.yourdomainName` and press Enter.
+4. Type: `pic._domainkey.yourdomainName` and press Enter.
 
 If your key is deployed successfully, it should return your key.
 
@@ -77,17 +77,17 @@ There are several tools online to use - to test your DKIM record.
 * [https://mxtoolbox.com/dkim.aspx#][5]
 * [https://www.mail-tester.com/spf-dkim-check][6]
 
-Here, we have used [MX Toolbox][7]. "DKIM Record Lookup"
+Here, we have used [MX Toolbox][7]. "DKIM Record Lookup"
 
 1. Open the DKIM tool:
 
     ![x -screenshot][img1]
 
-2. Add your domain name and "DKIM Selector" you received from us, and click **DKIM Lookup**.
+2. Add your domain name and "DKIM Selector" you received from us, and click **DKIM Lookup**.
 
 3. The result should show the values of your public DKIM key data:
 
-![x -screenshot][img2]
+    ![x -screenshot][img2]
 
 ## Verify back to SuperOffice
 
@@ -102,7 +102,7 @@ Once the DKIM DNS record has been propagated and it tests OK, SuperOffice needs 
 [8]: ../spf/set-up.md
 
 <!-- Referenced images -->
-[img8]: media/mxtoolsboxdkim.png
-[img9]: media/mxtoolsboxdkimresult.png
+[img1]: media/mxtoolsboxdkim.png
+[img2]: media/mxtoolsboxdkimresult.png
 [img3]: media/enomdkimedit.png
 [img4]: media/enomdkimadd.png
