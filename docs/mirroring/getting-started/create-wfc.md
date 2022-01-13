@@ -89,7 +89,7 @@ The functionality in the *MirroringClientService.cs* file helps you resolve a te
 
 **PrivateFileKey:** the name of the file that contains your private certificate key in the RSA XML `<RSAKeyPair>` and `<RSAKeyValue>` format. **Critical for initial authentication!**
 
-You get the private certificate key for SOD from SuperOffice. **You must provide your own certificates for the stage and production environments.**
+You get the private certificate key for all environments from SuperOffice.
 
 ![x -screenshot][img8]
 
