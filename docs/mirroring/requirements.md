@@ -9,36 +9,23 @@ so.envir: cloud
 so.client: online
 ---
 
-# SQLServer pre-requisites for database mirroring
+# Database Mirroring Requirements
 
-If you need to set up [database mirroring][1].
-
-Customers who want to use the [database mirroring application][2] must have a valid mirroring subscription. Standard applications that incorporate database mirroring don't require a mirroring subscription.
-
-## System requirements
+Database mirroring only works with **Microsoft SQL Server** database server. Customers who want to use the [database mirroring application][2] must have a valid mirroring subscription. Standard applications that incorporate database mirroring don't require a mirroring subscription.
 
 ### Stand-alone server
 
 * 8 gigabytes of RAM (minimum 4)
-* 100 gigabytes of available hard-drive space (minimum 50)
-
-### Existing server
-
-The **hardware** requirements are reduced to what the interface actually needs (primarily the SQL Server databases) because there is no space to reserve for the operating system.
-
-**SQL Server databases** require:
-
-* The mirror database (DatabaseMirroring)
-* The interface databases (test and production)
+* 100 gigabytes of available hard-drive space (minimum 50)
 
 ## Software requirements
 
 * SQL Server Express Edition (or standard edition, depending on if SQL agent is needed)
 * IIS 8.5 or higher
-* DNS entry plus a valid public certificate
+* DNS entry plus a valid public SSL certificate
   * For the event-based call to the interface from SuperOffice CRM Online (push mechanism)
 
-Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online) and in ERP.
+Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online).
 
 <!-- Referenced links -->
 [1]: overview.md
