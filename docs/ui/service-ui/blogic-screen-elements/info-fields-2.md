@@ -101,3 +101,23 @@ where.0.valueId = true
 where.length = 1
 width = 100%
 ```
+
+## Functions
+
+### setFieldValue(String action, Map value)
+
+| Action                | Map keys               | Description                                                             |
+|:----------------------|:-----------------------|:------------------------------------------------------------------------|
+| addField             | label<br>value<br>fieldType                  | Adds field to element with specified label, value and field type|
+
+### fieldType
+
+| Value                | Type |
+|:---------------------|:------------|
+|1|FieldTypeDatabase|
+|2|FieldTypeStatic|
+|3|FieldTypeFunction   
+|4|FieldTypeGroup|
+|5|FieldTypeBreak|
+|6|FieldTypeStatusMonitor|
+|6|FieldTypeElement|
