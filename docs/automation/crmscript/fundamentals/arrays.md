@@ -1,19 +1,19 @@
 ---
 uid: crmscript_fundamentals_arrays
 title: Arrays
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 01.14.2022
+keywords: crmscript, arrary, length, push, pop
+so.topic: concept
 ---
 
 # Arrays
 
-An array is a special variable that can store more than 1 value at the same time. It can be 1-dimensional like a list, 2-dimensional like a spreadsheet, 3-dimensional like a cube, or multidimensional. The length and number of dimensions is virtually unlimited.
+An array is a special variable that can store more than 1 value at the same time. It can be 1-dimensional like a list, 2-dimensional like a spreadsheet, 3-dimensional like a cube, or multidimensional. The length and number of dimensions are virtually unlimited.
 
 In CRMScript, arrays can only contain items of a single data type. All arrays are considered variables, which are passed, copied, and so on by reference.
 
-SuperOffice currently has 5 user plans: standard, marketing, sales, service, and complete. To store these in a CRMScript, you could either declare 5 different variables of type String or put them all in a single array of type String.
+SuperOffice version 9 had 5 user plans: standard, marketing, sales, service, and complete. To store these in a CRMScript, you could either declare 5 different variables of type String or put them all in a single array of type String.
 
 ## Creating an array
 
@@ -88,7 +88,7 @@ CRMScript has a set of functions for retrieving the 1st and last element in a co
 * last() returns the last element, same as \[length() -1\]
 * if the collection is empty, you will get an out-of-range exception
 
-If we add the following code to the previous example, print would output the same value as before.
+If we add the following code to the previous example, print() would output the same value as before.
 
 ```crmscript
 String plan = userPlans.last();
@@ -187,7 +187,7 @@ for(Integer i = 0; i < userPlans.length(); i++) {
 }
 ```
 
-In this example, we start by pushing an empty element, and then we push \"Standard\" before it. Notice how the length increases and that we are able to use \[pos\] to access even the empty element.
+In this example, we start by pushing an empty element, and then we push \"Standard\" before it. Notice how the length increases and that we can use \[pos\] to access even the empty element.
 
 **Add to back:**
 

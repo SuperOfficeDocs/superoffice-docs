@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_generic
 title: Generic data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -18,6 +18,8 @@ There's a close connection between Generic and [structs][1]:
 * possible to change which variables are members without having to hard-code each field
 
 By using this datatype, especially with structs, you can limit the amount of code. You won't have to create as many duplicate functions to handle different types - simply place all logic inside 1 function and let it act accordingly to the type.
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Type and value
 

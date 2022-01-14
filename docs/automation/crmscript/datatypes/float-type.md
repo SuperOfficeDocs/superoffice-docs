@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_float
 title: Float data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -15,6 +15,8 @@ Floats are approximations of real numbers written with decimals. If you don't ne
 Integer i = 42;
 Float f = 3.14;
 ```
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_string
 title: String data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords: CRMScript, string
 so.topic: concept
 ---
@@ -17,6 +17,8 @@ String myCompany = "SuperOffice";
 String myLocation = 'Oslo';
 String onion = "The 'onion' has many layers.";
 ```
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

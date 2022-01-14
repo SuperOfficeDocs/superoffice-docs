@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_datetime
 title: DateTime data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -19,6 +19,8 @@ print(dt.toString());
 ```
 
 This will print today's date and the current time.
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_time
 title: Time data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -19,6 +19,8 @@ print(t.toString());
 ```
 
 This will print the current time.
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

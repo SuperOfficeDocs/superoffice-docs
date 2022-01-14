@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_date
 title: Date data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -19,6 +19,8 @@ print(d.toString());
 ```
 
 This will print today's date.
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

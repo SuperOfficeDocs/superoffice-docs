@@ -1,8 +1,8 @@
 ---
 uid: crmscript_datatypes_int
 title: Integer data type
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 01.14.2022
 keywords:
 so.topic: concept
 ---
@@ -15,6 +15,8 @@ Integers are positive and negative whole numbers without decimals. If you need t
 Integer i = 42;
 Float f = 3.14;
 ```
+
+[!include[Note about arrays](includes/note-arrays.md)]
 
 ## Constructors
 

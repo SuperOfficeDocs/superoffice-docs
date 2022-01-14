@@ -3,7 +3,7 @@ uid: crmscript_eventdata
 title: EventData
 description: EventData gives you access to contextual information in an event handler.
 author: Bergfrid Dias
-so.date: 10.18.2021
+so.date: 01.14.2022
 keywords: crmscript, eventdata, event handler, CGI
 so.topic: concept
 ---
