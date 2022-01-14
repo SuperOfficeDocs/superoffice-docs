@@ -20,7 +20,8 @@ SELECT * FROM UserPreference WHERE prefsection='System'
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
 | AllowCentralLogin | Travel users allowed to log into the central database | No | List | Admin, Admin users, Wizard |
-| AllowForcedLogin | Allow users to log on to the system even if they are already logged in on another computer | No | Bool | Admin, Admin users, Wizard || BaseCurrencyId | Base currency for your system. This is a common currency for reports etc. | | ListTableRef | Admin, Admin users, Wizard |
+| AllowForcedLogin | Allow users to log on to the system even if they are already logged in on another computer | No | Bool | Admin, Admin users, Wizard |
+| BaseCurrencyId | Base currency for your system. This is a common currency for reports etc. | | ListTableRef | Admin, Admin users, Wizard |
 | CurrentUdefVersioncontact | The current version number for user-defined fields in the Company screen | | Number | Wizard |
 | CurrentUdefVersionperson | The current version number for user-defined fields in the Contact dialog | | Number | Wizard |
 | CurrentUdefVersionproject | The current version number for user-defined fields in the Project screen | | Number | Wizard |
