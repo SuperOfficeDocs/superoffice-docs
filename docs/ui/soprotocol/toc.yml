@@ -30,6 +30,8 @@ items:
   href: in-crmscript.md
 - name: In web panels
   items:
+  - name: Mobile
+    href: used-in-webpanels-mobile.md
   - name: Web
     href: used-in-webpanels-web.md
   - name: Windows
