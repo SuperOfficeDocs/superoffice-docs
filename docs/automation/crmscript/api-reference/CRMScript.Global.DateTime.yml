@@ -236,10 +236,11 @@ items:
   fullName: CRMScript.Global.DateTime.toString(Integer, Integer, Bool)
   type: Method
   summary: "\nA variant of toString() that takes codes for mode and language as Integers and a boolean indicator for 12- or 24-hour clock.\n"
+  remarks: "\n<h3>Modes:</h3><table><thead><tr><th>Code</th><th>Name</th><th>Format</th><th>Example</th></tr></thead><tbody><tr><td>0</td><td>modeNewDate</td><td>YYYY-MM-DD</td><td>2020-05-29</td></tr><tr><td>1</td><td>modeNew2Min</td><td>YYYY-MM-DD hh:mm</td><td>2020-05-29 13:37</td></tr><tr><td>2</td><td>modeNew2Sec</td><td>YYYY-MM-DD hh:mm:ss</td><td>2020-05-29 13:37:42</td></tr><tr><td>3</td><td>modeTextDate</td><td>DD. MMM YYYY (no)</td><td>May 29. 2020</td></tr><tr><td></td><td></td><td>MMM DD. YYYY (en)</td><td>29. Mai 2020</td></tr><tr><td>4</td><td>modeText2Min</td><td>DD. MMM YYYY 11:23</td><td>May 29. 2020 13:37</td></tr><tr><td>5</td><td>modeText2Sec</td><td>DD. MMM YYYY 11:23:15</td><td>May 29. 2020 13:37:42</td></tr><tr><td>6</td><td>modeText2MinLong</td><td>DD. MMM YYYY hh:mm (no)</td><td>29. Mai 2020 13:37</td></tr><tr><td></td><td></td><td>MMM. DD. YYYY hh:mm (en)</td><td>May 29. 2020 13:37</td></tr><tr><td>7</td><td>modeShort2Min</td><td>MM/DD/YYYY hh:mm (no)</td><td>29/05/2020 13:37</td></tr><tr><td></td><td></td><td>DD/MM/YYYY hh:mm (en)</td><td>05/29/2020 13:37</td></tr><tr><td>8</td><td>modeNumeric</td><td>YYYYMMDDhhmmss</td><td>20200529133742</td></tr><tr><td>9</td><td>modeTime2Min</td><td>hh:mm</td><td>13:37</td></tr><tr><td>10</td><td>modeTime2Sec</td><td>hh:mm:ss</td><td>13:37:42</td></tr><tr><td>11</td><td>modeCompressed</td><td>YYYYMMDDhhmmss</td><td>20200529133942</td></tr><tr><td>12</td><td>modeRFC1123</td><td>ddd, DD MMM YY hh:mm:ss GMT</td><td>Fri, 29 May 20 13:37:42 GMT</td></tr><tr><td>13</td><td>modeSoap</td><td>YYYY-DD-MMThh:mm:ss</td><td>2020-05-29T13:37:42</td></tr><tr><td>14</td><td>modeRFC822</td><td>ddd, DD MMM YYYY hh:mm:ss +hhmm</td><td>Fri, 29 May 2020 13:37:42 +0200</td></tr><tr><td>15</td><td>modeDateFirst</td><td>MM.DD.YYYY hh.mm</td><td>29.05.2020 13:37</td></tr><tr><td>16</td><td>modeSlash2Min</td><td>MM/DD/YYYY hh.mm</td><td>29/05/2020 13:37</td></tr></tbody></table><p></p>\n"
   example:
   - "\n<pre><code>DateTime dt;\nprintLine(dt.toString(6,1,true));</code></pre>\n"
   syntax:
-    content: String toStringInteger mode, Integer language, Bool 24HourMode)
+    content: String toString(Integer mode, Integer language, Bool 24HourMode)
     parameters:
     - id: mode
       type: CRMScript.Global.Integer
