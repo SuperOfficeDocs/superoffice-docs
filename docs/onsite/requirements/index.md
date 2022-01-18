@@ -33,7 +33,7 @@ The installer will handle the installation of .NET 4.8 for you, but some clients
 
 Windows 10 May 2019 Update comes with .NET 4.8 included.
 
-### Microsoft .NET v 4.7.1 required from SuperOffice 8.3 R04
+### Microsoft .NET 4.7.1 required from SuperOffice 8.3 R04
 
 This requirement applies to:
 
