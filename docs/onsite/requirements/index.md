@@ -27,7 +27,7 @@ Use this overview to get to the specific requirements.
 
 ## Microsoft .NET
 
-### Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer
+### Microsoft .NET 4.8 from SuperOffice 8.5 R05
 
 The installer will handle the installation of .NET 4.8 for you, but some clients may like to pre-install it themselves.
 

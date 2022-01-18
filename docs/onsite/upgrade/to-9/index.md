@@ -18,7 +18,7 @@ You can upgrade to SuperOffice 9 from SuperOffice 8.0 or newer. The recommended 
 [!include[ALT](../../includes/warn-win-client-discontinued.md)]
 
 > [!NOTE]
-> Microsoft .NET v 4.8 is required for SuperOffice 9
+> Microsoft .NET 4.8 is required for SuperOffice 9
 >
 > The installer will handle the installation of .NET 4.8 for you, but some clients may like to pre-install it themselves.
 

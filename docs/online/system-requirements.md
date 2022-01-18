@@ -79,8 +79,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 
 For the built-in mail client, the following ports must be opened between the Online web server and the mail server:
 
-* IMAP: Port 143 or 993 (SSL)
-* SMTP: Port 25 or 465 (SSL)
+[!include[Mail client ports](../onsite/includes/mail-client-ports.md)]
 
 ## Mobile applications
 
