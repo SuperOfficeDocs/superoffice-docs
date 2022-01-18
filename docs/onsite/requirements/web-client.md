@@ -95,13 +95,11 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 ## Requisites installed by the client installer
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
-* Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
-* Microsoft .NET v 4.5.1 (as a web download)
+[!include[.NET Requirements](../includes/dotnet-requirements.md)]
 
 * VSTO 2010 runtime (32bit or 64bit) for Ribbons on MS Office 2010 / 2013 / 2016 / 2019
-* Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
-* Reporter runtime (version 9.0.30729.17)
+* Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
+* Reporter runtime (version 9.0.30729.17)
 
 > [!NOTE]
 > When running SuperOffice in Citrix and Terminal-server environments where users share the memory, actual requirements, and product functionality may vary based on your system configuration.

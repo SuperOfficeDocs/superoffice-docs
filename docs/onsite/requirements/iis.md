@@ -47,19 +47,16 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 * Domino Server 9.0
 * MAPI/SoMaGate (Win client only)
 
-## IMAP
+## Built-in mail client
 
-* Port 143 or 993 (SSL) must be opened between the Sales & Marketing web server and the mail server
+For the built-in mail client, the following ports must be opened between the Sales & Marketing web server and the mail server:
 
-## SMTP
-
-* Port 25 or 465 (SSL) must be opened between the Sales & Marketing web server and the mail server
+[!include[Mail client ports](../includes/mail-client-ports.md)]
 
 ## Requisites
 
-* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and newer**
-* Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
-* Microsoft .NET v 4.5.1 (as a web download)
+[!include[.NET Requirements](../includes/dotnet-requirements.md)]
+
 * Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
 * Local administrator rights (installation)
 
