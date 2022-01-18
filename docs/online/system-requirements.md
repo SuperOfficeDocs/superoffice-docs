@@ -75,9 +75,15 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 >
 > Outlook desktop app users must have version 2001 and newer of Outlook, to be able to use Send and Archive (due to missing APIs in older versions).
 
+## Built-in mail client
+
+For the built-in mail client, the following ports must be opened between the Online web server and the mail server:
+
+* IMAP: Port 143 or 993 (SSL)
+* SMTP: Port 25 or 465 (SSL)
+
 ## Mobile applications
 
-* [Pocket CRM][3]
 * [SuperOffice Mobile][4]
 
 ## WebTools
@@ -90,6 +96,5 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 <!-- Referenced links-->
 [1]: https://www3.superoffice.com/DownloadService/
 [2]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
-[3]: ../mobile/pocket-crm/system-requirements.md
 [4]: ../mobile/superoffice-mobile/client-requirements.md
 [5]: ../webtools/system-requirements.md
