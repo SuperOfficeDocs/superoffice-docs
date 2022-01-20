@@ -53,6 +53,8 @@ items:
         href: user-preferences/reference/numbering.md
       - name: Phone
         href: user-preferences/reference/phone.md
+      - name: Pocket Tasks
+        href: user-preferences/reference/pocket-tasks.md        
       - name: Scripting
         href: user-preferences/reference/scripting.md
       - name: Sorting
