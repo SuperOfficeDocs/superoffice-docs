@@ -22,4 +22,4 @@ or which item did I select last time I used this drop-down list.
 |---|---|---|---|---|
 | AssocSubListWeb | Preference used to remember what sublist in the associate selector that was last used<br>-2 = All users<br>-1 = History<br>>0 = ID of department | | Number | crm |
 | ResourceSubListWeb | Preference used to remember the setup/state of the Filter dialog<br>-2 = All resources<br>-1 = History<br>>0 = ID of resource heading | | Number | crm |
-
+| AssocHomeCountry | Home country of associate if it differs from company | | | |
