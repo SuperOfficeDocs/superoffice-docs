@@ -28,9 +28,9 @@ highlightedContent:
       itemType: overview
       url: superoffice-for-outlook/index.md
     # Card
-    - title: "Debug MailLink"
-      itemType: how-to-guide
-      url: maillink/debug.md
+    - title: "MailLink"
+      itemType: overview
+      url: maillink/index.md
 
 # Card with summary style
 additionalContent:
@@ -53,10 +53,10 @@ additionalContent:
       # Card
       - title: MailLink
         links:
+          - url: maillink/index.md
+            text: What is MailLink?
           - url: maillink/debug.md
             text: Debug
-          - url: maillink/changes-in-7-1.md
-            text: Changes in 7.1
       # Card
       - title: MailKit
         links:

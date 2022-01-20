@@ -7,10 +7,10 @@ items:
     href: maillink/index.md
     expanded: true
     items:
-    - name: Changes in 7.1
-      href: maillink/changes-in-7-1.md
     - name: Debug
       href: maillink/debug.md
+    - name: Changes in 7.1
+      href: maillink/changes-in-7-1.md
   - name: SuperOffice for Outlook
     href: superoffice-for-outlook/index.md
     expanded: true
