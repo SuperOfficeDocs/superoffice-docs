@@ -27,7 +27,7 @@ The Functions section contains a variety of preferences that affect the SuperOff
 | CapitalFirstLetterPersonName | Should the first letter in every word in the contact name automatically be converted to a capital letter? | YES | Bool | Admin, Crm, Admin users, Wizard |
 | DisableContactDogEar | Removes the corner tabs on the Company card if there are too many companies (more than this number) | | Bool | Admin, Admin users, Wizard |
 | DisableDelKey | If YES, the user has to use the menu to delete a company, project, or selection | YES | Bool | Admin, Admin users, Wizard |
-| DisplayDateFormatInLists | Specifies the date format used in section tabs| (ex. dd.mm.yyyy hh:mm). | computer's regional settings for short date format | Text | Wizard |
+| DisplayDateFormatInLists | Specifies the date format used in section tabs (ex. dd.mm.yyyy hh:mm).| computer's regional settings for short date format | Text | Wizard |
 | EditIfVisible | Allows other users to add and remove members from any selection visible to the user | | Bool | Admin, Admin users, Wizard |
 | EnableBackgroundDocumentCheck | Documents on the Activities section tab can be checked in the background.<br>The availability of a specified document plug-in and of each individual document is checked. This may happen at the cost of server capacity.<br>Alternatively, documents are checked when the user enables the right-click menu. It will then take longer for a document to open since it first has to be checked. | ON | Bool | Admin, Admin users, Wizard |
 | FilterBookingSlaves | Filter out invitations for everyone except the person making the invitation, to avoid duplicates in the list. | | Bool | Admin, Crm, Admin users, Wizard |
