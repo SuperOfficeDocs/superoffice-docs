@@ -1,13 +1,13 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 10.20.2021
+so.date: 01.25.2022
 ---
 
 # What’s new in SuperOffice 10.0
 
 ## Summary of highlights
 
-**SuperOffice 10** – a new version of SuperOffice CRM – is now ready to offer you brand new & improved features that are designed to help you turn relationships into revenue.  
+**SuperOffice 10** – a new version of SuperOffice CRM – is now ready to offer you brand new & improved features that are designed to help you turn relationships into revenue.
 
 Adding flexibility are keywords for this first release of SuperOffice 10: To start, this version brings a new price and packaging model that increases the flexibility where customers can choose the products that fit their business best. The new model includes new product names, several editions of our solutions, and introduces new add-on products.
 
@@ -15,13 +15,13 @@ Furthermore, SuperOffice 10 launches the advanced dashboards feature that expand
 
 With the new product packaging, new features, technological and feature improvements, and introducing new add-ons, SuperOffice 10 is a solution available today and created for tomorrow’s CRM needs.
 
-After your upgrade to SuperOffice 10, there are some changes to note:  
+After your upgrade to SuperOffice 10, there are some changes to note:
 
-* The sorting and placing of your user-defined fields will change and automatically presents themselves into two columns in the More tab of your solution.  
+* The sorting and placing of your user-defined fields will change and automatically presents themselves into two columns in the More tab of your solution.
 
-* If you want to revert to the layout used to be, we suggest that you document today's layout. The easiest way is to take a picture of the More tab.
+* If you want to revert to the layout used to be, we suggest that you document today's layout. The easiest way is to take a picture of the More tab.
 
-* If you are not happy with the auto-generated layout, you need the new Screen designer to adjust it, available as a feature in Development Tools.  
+* If you are not happy with the auto-generated layout, you need the new Screen designer to adjust it, available as a feature in Development Tools.
 
 ## Details of the new features
 
@@ -29,6 +29,7 @@ After your upgrade to SuperOffice 10, there are some changes to note:  
 * 10.0.2: Dashboards, Screen designer, Forms, Scripts
 * 10.0.3: Dashboards, Screen designer, Chat
 * 10.0.4: Dashboards, Mailing, Chat
+* 10.0.5: Mailing, Chat, Mobile CRM, APIs (Online and Onsite release)
 
 You can read more about these in the [product news][1].
 
