@@ -33,6 +33,8 @@ items:
   items:
   - name: 10.0.4 update
     href: marketing/10.0.4-update.md
+  - name: 10.0.5 update
+    href: marketing/10.0.5-update.md
 - name: CEP
   href: cep/index.md
   items:
@@ -42,6 +44,8 @@ items:
     href: cep/10.0.3-update.md
   - name: 10.0.4 update
     href: cep/10.0.4-update.md
+  - name: 10.0.5 update
+    href: cep/10.0.5-update.md
 - name: Mobile
   href: mobile/index.md
   items:
@@ -54,6 +58,8 @@ items:
   items:
   - name: 10.0.1 update
     href: api/10.0.1-update.md
+  - name: 10.0.5 update
+    href: api/10.0.5-update.md
 - name: Developer Products
   href: developer-products/index.md
   items:
