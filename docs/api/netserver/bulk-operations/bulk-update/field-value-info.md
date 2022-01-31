@@ -4,7 +4,7 @@ uid: bulkupdate_field_value_info
 description: BulkUpdateSystem FieldValueInfo
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, FieldValueInfo
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -14,7 +14,7 @@ so.client: online
 
 Whether you choose to get a list of entity identities using OSQL, CustomSearch, or leveraging [archive providers][3], we assume that you know how to execute a query that will result in one or more entity identities to update.
 
-With a list of entity identities to iterate over, bulk update operations are performed against the fields of that entity, i.e. `Person.Title` and `Person.Interest`. The way bulk update understands which fields need to be updated is by using a `FieldValueInfo` instance, containing the following information:
+With a list of entity identities to iterate over, bulk update operations are performed against the fields of that entity, that is, `Person.Title` and `Person.Interest`. The way bulk update understands which fields need to be updated is by using a `FieldValueInfo` instance, containing the following information:
 
 * **Key:** the field name.
 * **Operation:** the action to be performed.

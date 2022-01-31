@@ -321,7 +321,7 @@ items:
     - name: Examples
       href: netserver/bulk-operations/bulk-update/ns-core-examples.md
     - name: Reference
-      href: netserver/bulk-operations/bulk-update/reference/appointment-table.md
+      href: netserver/bulk-operations/bulk-update/reference/index.md
       items:
       - name: Appointment table
         href: netserver/bulk-operations/bulk-update/reference/appointment-table.md
@@ -337,6 +337,8 @@ items:
         href: netserver/bulk-operations/bulk-update/reference/sale-table.md
       - name: Selection table
         href: netserver/bulk-operations/bulk-update/reference/selection-table.md
+      - name: Ticket table
+        href: netserver/bulk-operations/bulk-update/reference/ticket-table.md
       - name: Extra fields
         href: netserver/bulk-operations/bulk-update/reference/extra-fields.md
       - name: User-defined fields

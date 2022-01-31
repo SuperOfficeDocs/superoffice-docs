@@ -1,16 +1,16 @@
 ---
-title: Selection Table
+title: Selection table
 uid: bulkupdate_selection_table
-description: Bulk update Selection table
+description: Bulk update selection table
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, selection
 so.topic: reference
 so.envir: cloud
 so.client: online
 ---
 
-# Selection Table
+# Selection table
 
 Selection fields. Key constants are in `BulkUpdateSystem.SelectionFieldValueKeys`.
 

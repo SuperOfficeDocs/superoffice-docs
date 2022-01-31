@@ -1,17 +1,17 @@
 ---
-title: Appointment Table
+title: Appointment table
 uid: bulkupdate_appointment_table
-description: Bulk update Appointment table
+description: Bulk update appointment table
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, appointment
 so.topic: reference
 so.envir: cloud
 so.client: online
 ---
 
 
-# Appointment Table
+# Appointment table
 
 Appointment fields. Key constants are in `BulkUpdateSystem.AppointmentFieldValueKeys`.
 
@@ -301,7 +301,7 @@ Appointment fields. Key constants are in `BulkUpdateSystem.AppointmentFieldValue
     </tbody>
 </table>
 
-See [User-Defined Fields][1].
+See [User-defined fields][1].
 
 <!-- Referenced links -->
 [1]: user-defined-fields.md

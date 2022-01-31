@@ -4,7 +4,7 @@ uid: operations_and_values
 description: Operations and values
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -25,48 +25,48 @@ One of the simplest operations `BulkUpdateSystem.OperationTypes.Toggle`, simply 
 
 | OperationTypes | Description |
 |---|---|
-| SelectOne | One or two values expected for this operation. |
+| SelectOne | One or two values are expected for this operation. |
 | Clear | No values are used for this operation. Whatever value exists will be set to an empty string. |
-| Set | One or two values expected for this operation. |
+| Set | One or two values are expected for this operation. |
 | Check |One value is expected for this operation.<br>Check is used for mostly Boolean and short field types. |
 | Toggle | No values are used for this operation. Boolean fields will be Set to this opposite Setting. Fields with number values are either 1 or 0 and will be swapped accordingly. |
 | AddItems | Multiple values allowed. Values are added to the target. |
 | RemoveItems | Multiple values allowed. Values are removed from the target. |
 | Add | Two values expected. |
 | Remove | One value expected. |
-| ReplaceWith | Two values expected. Removes existing items and updates matching record. |
+| ReplaceWith | Two values expected. Removes existing items and updates matching records. |
 | SearchAndReplace | Finds all matches and replaces existing information. |
 | RegEx | Uses in conjunction with SearchAndReplace, for advanced search scenarios. |
 
 Most updates of existing values will only need one or two values.
 
-The trickiest thing about bulk update is that, for different operations, which not only expect different numbers of parameters, the parameters must be passed in specific indexes within the `Values` array.
+The trickiest thing about bulk updates is that for different operations, which not only expect different numbers of parameters, the parameters must be passed in specific indexes within the `Values` array.
 
 ## Example
 
-Using the `Set` operation as an example, only the first index of the array is expected to exist with a value to populate the field property. However, the `SearchAndReplace` operation expects the `Values` array to contain at least three but up to four indexes. Fields that accept the `Set`, `Clear`, `SearchAndReplace`, and `RegEx` operation types, and perform a `SeachAndReplace` operation only use the second (\[1\]) and third (\[2\]) index for execution.
+Using the `Set` operation as an example, only the first index of the array is expected to exist with a value to populate the field property. However, the `SearchAndReplace` operation expects the `Values` array to contain at least three but up to four indexes. Fields that accept the `Set`, `Clear`, `SearchAndReplace`, and `RegEx` operation types, and perform a `SearchAndReplace` operation only use the second (\[1\]) and third (\[2\]) index for execution.
 
 **Values array for: Set, Clear, SearchAndReplace, RegEx:**
 
-![x][img1]
+![Bulk update Values array][img1]
 
 When used with a field that accepts the `Add`, `Remove`, `ReplaceWith`, `Clear`, `SearchAndReplace`, and `RegEx` operation types, `SearchAndReplace` expects parameters to exist in the third (\[2\]) and fourth (\[3\]) index.
 
 **Values array for: Add, Remove, ReplaceWith, Clear, SearchAndReplace, RegEx:**
 
-![x][img2]
+![Bulk update Values array][img2]
 
 > [!NOTE]
 > There will be cases when some index values are populated but not used. Take the following code example, where a RegEx operation is performed. The first four indexes in the `Values` property are not used. For performing a `RegEx` operation, only the last three indexes are required.
 
 [!code-csharp[example 1](includes/bulk-update-set.cs)]
 
-**Next:** In [Entities and field types][1], each field details what parameters are expected at which index in the `Expected Field Values` column.
+**Next:** In [Entities and field types][1], each field details what parameters are expected at which index in the **Expected Field Values** column.
 
 <!-- Referenced links -->
 [1]: entities-field-types.md
 [2]: field-value-info.md
-[3]: reference/appointment-table.md
+[3]: reference/index.md
 
 <!-- Referenced images -->
 [img1]: media/image010.jpg

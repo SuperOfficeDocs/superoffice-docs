@@ -4,7 +4,7 @@ uid: bulkupdate_user_defined_fields
 description: Bulk update user-defined fields
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, custom field, udef
 so.topic: reference
 so.envir: cloud
 so.client: online

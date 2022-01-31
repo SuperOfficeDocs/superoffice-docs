@@ -1,16 +1,16 @@
 ---
-title: Person Table
+title: Person table
 uid: bulkupdate_person_table
-description: Bulk update Person table
+description: Bulk update person table
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, person
 so.topic: reference
 so.envir: cloud
 so.client: online
 ---
 
-# Person Table
+# Person table
 
 Person fields. Key constants are in ``BulkUpdateSystem.PersonFieldValueKeys`.
 
@@ -52,10 +52,10 @@ Person fields. Key constants are in ``BulkUpdateSystem.PersonFieldValueKeys`.
             <td>
                 <p>Number</p>
             </td>
-            <td rowspan="12">
+            <td rowspan="14">
                 <p>Set, Clear, SearchAndReplace, RegEx</p>
             </td>
-            <td rowspan="12">
+            <td rowspan="14">
                 <p>Values Count = 0 to 7</p>
                 <p>Set: Values[0] = (string)</p>
                 <p>Clear: Clears value</p>

@@ -4,7 +4,7 @@ uid: bulkupdate_extra_fields
 description: Bulk update extra-fields
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, custom field, extra field
 so.topic: reference
 so.envir: cloud
 so.client: online

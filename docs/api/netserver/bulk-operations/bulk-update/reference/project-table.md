@@ -1,18 +1,21 @@
 ---
-title: Project Table
+title: Project table
 uid: bulkupdate_project_table
-description: Bulk update Project table
+description: Bulk update project table
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, project
 so.topic: reference
 so.envir: cloud
 so.client: online
 ---
 
-# Project Table
+# Project table
 
 Project fields. Key constants are in `BulkUpdateSystem.ProjectFieldValueKeys`.
+
+> [!NOTE]
+> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][12].
 
 <table>
     <title>Project</title>
@@ -223,3 +226,4 @@ See [User-Defined Fields][1].
 
 <!-- Referenced links -->
 [1]: user-defined-fields.md
+[2]: ../../../../../../superoffice-docs/docs/license/user-plans.md

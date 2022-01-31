@@ -1,16 +1,16 @@
 ---
-title: Document Table
+title: Document table
 uid: bulkupdate_document_table
-description: Bulk update Document table
+description: Bulk update document table
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update, document
 so.topic: reference
 so.envir: cloud
 so.client: online
 ---
 
-# Document Table
+# Document table
 
 Document fields. Key constants are in `BulkUpdateSystem.DocumentFieldValueKeys`.
 

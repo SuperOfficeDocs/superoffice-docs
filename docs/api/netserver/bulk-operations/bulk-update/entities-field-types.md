@@ -1,10 +1,10 @@
 ---
 title: Entities and field types
 uid: entities_field_types
-description: Entities and field types
+description: Bulk update entities and field types
 author: Tony Yates
 so.date: 06.23.2017
-keywords:
+keywords: bulk update
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -12,15 +12,15 @@ so.client: online
 
 # Entities and field types
 
-With a general understanding of how [BulkUpdate][1] works, the following table lists all available properties for each entity, details what [operations][2] are allowed one each property, and details what the expected values are for each operation.
+With a general understanding of how [bulk update][1] works, the following table lists all available properties for each entity, details what [operations][2] are allowed one each property, and details what the expected values are for each operation.
 
-* [Appointment Table][3]
-* [Contact Table][4]
-* [Document Table][5]
-* [Person Table][6]
-* [Project Table][7]
-* [Sale Table][8]
-* [Selection Table][9]
+* [appointment table][3]
+* [contact table][4]
+* [document table][5]
+* [person table][6]
+* [project table][7]
+* [sale table][8]
+* [selection table][9]
 
 ## Operations and user-defined and extra fields
 
