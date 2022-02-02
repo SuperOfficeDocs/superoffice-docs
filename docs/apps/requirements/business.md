@@ -1,9 +1,10 @@
 ---
 title: Business requirements
 uid: business_requirements
-description: Business requirements
-author: {github-id}
-keywords: certification
+description: "Business requirements for certifying standard applications."
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: certification, apps
 so.topic: reference
 so.envir: cloud
 so.client: online

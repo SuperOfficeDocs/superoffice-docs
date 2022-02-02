@@ -6,13 +6,13 @@ brand: devdocs
 
 metadata:
   title: Contact
-  description: "Persons"
+  description: "Learn about and work with persons, customers, and employees: a contact in the UI; a person in the database."
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 04.23.2021
+  so.date: 02.02.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items

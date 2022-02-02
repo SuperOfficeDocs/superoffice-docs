@@ -1,9 +1,9 @@
 ---
 title: provisioning
-description: Provisioning
-author: {github-id}
-so.date:
-keywords:
+description: "Learn what app provisioning is and the benefits of automating it."
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: provisioning, set-up, apps
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -17,7 +17,7 @@ Applications that compliment SuperOffice with additional functionality generally
 
 When the customer clicks **I approve,** it should automatically set up your application. This is accomplished by a tenant administrator user installing the application and interacting with its provisioning routines:
 
-1. The user successfully signs into SuperID, is then forward to the application's installation pages, and the application begins to use the administrative credentials it received from SuperID to access and set up the tenant via the APIs.
+1. The user successfully signs into SuperID, is then forwarded to the application's installation pages, and the application begins to use the administrative credentials it received from SuperID to access and set up the tenant via the APIs.
 2. The application creates whatever it needs to exist and function inside SuperOffice (such as web panels, buttons, lists, and list items).
 
 Provisioning a partner application may involve configuration or settings in both SuperOffice and the other partner service depending on what the application actually does.

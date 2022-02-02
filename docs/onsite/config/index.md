@@ -1,7 +1,7 @@
 ---
 title: Config and INI files
 uid: config_and_ini
-description: Config and INI files
+description: "Introduction to the SuperOffice config and INI files."
 author: Bergfrid Dias
 so.date: 12.10.2021
 keywords: NetServer config, INI, web.config, superoffice.config, superoffice.ini

@@ -1,11 +1,11 @@
 ---
 title: Variables for Quote info
 uid: variables_for_quote_info
-description: Variables for Quote info
-author: {github-id}
-keywords:
+description: "Template variable reference for Quote info."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: template variables
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
 # so.envir:
 # so.client:
 ---

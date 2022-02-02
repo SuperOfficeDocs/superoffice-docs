@@ -6,13 +6,13 @@ brand: devdocs
 
 metadata:
   title: Identity Management
-  description: Identity Management
+  description: "Learn about identity management, user admin, SuperID, SCIM, and authentication concepts."
   so.product: superid
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.26.2021
+  so.date: 02.02.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items

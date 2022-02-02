@@ -1,9 +1,10 @@
 ---
-title: Technical reqirements
+title: Technical requirements
 uid: technical_requirements
-description: Technical requirements
-author: {github-id}
-keywords: certification
+description: "Technical requirements for certifying standard applications."
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: certification, apps, availability, performance
 so.topic: reference
 so.envir: cloud
 so.client: online

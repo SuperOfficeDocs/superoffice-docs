@@ -1,9 +1,10 @@
 ---
 title: User contexts
 uid: user_contexts
-description: User contexts
-author: {github-id}
-keywords:
+description: "Learn the difference of and requirements for an interactive user session and non-interactive background services."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: user context, session, application user, system user
 so.topic: concept
 so.envir: cloud
 so.client: online

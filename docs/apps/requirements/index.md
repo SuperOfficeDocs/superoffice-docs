@@ -2,8 +2,9 @@
 title: Requirements
 uid: app_requirements
 description: Online application requirements and guidelines
-author: {github-id}
-keywords:
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: requirements
 ---
 
 # Online application requirements and guidelines

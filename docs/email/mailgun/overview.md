@@ -1,8 +1,12 @@
 ---
 title: mailgun
-description: Mailgun
+uid: mailgun
+description: "Learn about the alternatives for sending and receiving emails in SuperOffice and how to configure them."
 author: {github-id}
-keywords:
+so.date: 02.02.2022
+keywords: Mailgun, email, suocrm
+so.topic: concept
+so.envir: online
 ---
 
 # Mailgun

@@ -1,9 +1,9 @@
 ---
 title: Tenant status
-description: Tenant status
-author: {github-id}
-so.date:
-keywords: status,monitor,tenant
+description: "SuperOffice offers both a pull and a push approach to get tenant status."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: status, monitor, tenant, State Change URL
 so.topic: concept
 so.envir: cloud
 so.client: online

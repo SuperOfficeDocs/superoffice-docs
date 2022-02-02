@@ -5,9 +5,11 @@ summary: Mailgun
 
 metadata:
   title: Mailgun
-  description: Mailgun
-  ms.topic: landing-page
-  ms.date: 03.28.2021
+  description: "Learn about the alternatives for sending and receiving emails in SuperOffice and how to configure them."
+  so.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 02.02.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 

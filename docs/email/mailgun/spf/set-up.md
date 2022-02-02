@@ -1,9 +1,10 @@
 ---
 title: How to set up SPF Record
 uid: set_up_spf
-description: How to set up SPF Record
+description: "How to set up an SPF Record."
 author: {github-id}
-keywords:
+so.date: 02.02.2022
+keywords: SPF, email, DNS record, domain
 so.topic: howto
 so.envir: cloud
 so.client: online

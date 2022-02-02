@@ -1,9 +1,10 @@
 ---
 title: Federated authentication
 uid: federated_auth
-description: Federated authentication
-author: {github-id}
-keywords:
+description: "Introduction to federated authentication."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: federated authentication, SuperID, identity provider, sign-in
 so.topic: concept
 so.envir: cloud
 so.client: online

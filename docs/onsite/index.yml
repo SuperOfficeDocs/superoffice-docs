@@ -6,13 +6,13 @@ brand: devdocs
 
 metadata:
   title: Set up SuperOffice successfully
-  description: SuperOffice Onsite installation, upgrade, and migration.
+  description: "Learn about SuperOffice Onsite installation, configuration, upgrade, and migration."
   so.product: onsite
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.26.2021
+  so.date: 02.02.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: "SuperOffice mobile"
       itemType: learn
-      url: ../mobile/index.yml      
+      url: ../mobile/index.yml
     # Card
     - title: "Installation guide (Web)"
       itemType: overview

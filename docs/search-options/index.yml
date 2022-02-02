@@ -6,13 +6,13 @@ brand: devdocs
 
 metadata:
   title: Search
-  description: Search, selection, find, CRMScript SearchEngine
+  description: "Learn about search, selection, find, the CRMScript SearchEngine, and search APIs."
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 05.20.2021
+  so.date: 02.02.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items

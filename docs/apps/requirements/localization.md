@@ -1,9 +1,10 @@
 ---
 title: Localization requirements
 uid: localization_requirements
-description:  Requirements for localization and language support
-author: {github-id}
-keywords: certification
+description: "Localization and language support requirements for certifying standard applications."
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: certification, apps
 so.topic: reference
 so.envir: cloud
 so.client: online

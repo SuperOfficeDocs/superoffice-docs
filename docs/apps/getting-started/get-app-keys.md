@@ -1,8 +1,9 @@
 ---
 title: Get application keys
 uid: get_app_keys
-description: Get application keys
-author: {github-id}
+description: "How to register your application idea to get your unique client ID and client secret."
+author: Bergfrid Dias
+so.date: 02.02.2022
 keywords: client ID, app ID
 so.topic: howto
 so.envir: cloud
