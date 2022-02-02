@@ -1,9 +1,9 @@
 ---
 title: globalization
-description: Globalization 
+description: "Learn about how the CRM.web application handles globalization."
 author: {github-id}
 so.date: 06.24.2016
-keywords:
+keywords: globalization, resources, culture
 so.topic: concept
 so.envir: onsite
 so.client: web
@@ -11,7 +11,7 @@ so.client: web
 
 # Globalization
 
-In this section, we will discuss how the CRM.web application handles globalization issues. The problem with globalization is when displaying the same page in different languages without a lot of extra work.
+In this section, we will discuss how the CRM.web application handles globalization issues. The problem with globalization is to display the same page in different languages without a lot of extra work.
 
 ## The mechanism behind providing the resources for a page
 

@@ -6,8 +6,8 @@ brand: devdocs
 
 metadata:
   title: User interface
-  description: User interface
-  so.product: superid
+  description: "Learn about ways to customize the SuperOffice user interface."
+  so.product: superoffice
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
