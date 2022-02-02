@@ -1,9 +1,10 @@
 ---
 uid: crmscript_def
 title: What is CRMScript?
-author:
-so.date:
-keywords:
+description: "Introduction to CRMScript, an interpreted scripting language specific to SuperOffice."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: CRMScript
 so.topic: concept
 ---
 

@@ -1,9 +1,10 @@
 ---
 uid: crmscript_start
 title: Getting started with CRMScript
+description: "Advice for getting started with CRMScript."
 author: Bergfrid Dias
 so.date: 10.27.2021
-keywords:
+keywords: CRMScript
 so.topic: concept
 ---
 
