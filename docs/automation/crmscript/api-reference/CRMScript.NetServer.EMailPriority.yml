@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.EMailPriority
+  # Same as SuperOffice.Data.EMailPriority
+  commentId: T:CRMScript.NetServer.EMailPriority
+  id: EMailPriority
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.EMailPriority.NoPriority
+  - CRMScript.NetServer.EMailPriority.Highest
+  - CRMScript.NetServer.EMailPriority.High
+  - CRMScript.NetServer.EMailPriority.Normal
+  - CRMScript.NetServer.EMailPriority.Low
+  - CRMScript.NetServer.EMailPriority.Lowest
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: CRMScript.NetServer.EMailPriority
+  type: Enum
+  summary: # TODO
+- uid: CRMScript.NetServer.EMailPriority.NoPriority
+  commentId: F:CRMScript.NetServer.EMailPriority.NoPriority
+  id: EMailPriority.NoPriority
+  langs:
+  - crmscript
+  name: EMailPriority.NoPriority
+  nameWithType: EMailPriority.NoPriority
+  fullName: CRMScript.NetServer.EMailPriority.NoPriority
+  type: Field
+  summary: "\n0: NoPriority\n"
+  syntax: 
+    content: NoPriority = 0
+    type: CRMScript.NetServer.EMailPriority
+- uid: CRMScript.NetServer.EMailPriority.Highest
+  commentId: F:CRMScript.NetServer.EMailPriority.Highest
+  id: EMailPriority.Highest
+  langs:
+  - crmscript
+  name: EMailPriority.Highest
+  nameWithType: EMailPriority.Highest
+  fullName: CRMScript.NetServer.EMailPriority.Highest
+  type: Field
+  summary: "\n1: Highest\n"
+  syntax: 
+    content: Highest = 1
+    type: CRMScript.NetServer.EMailPriority
+- uid: CRMScript.NetServer.EMailPriority.High
+  commentId: F:CRMScript.NetServer.EMailPriority.High
+  id: EMailPriority.High
+  langs:
+  - crmscript
+  name: EMailPriority.High
+  nameWithType: EMailPriority.High
+  fullName: CRMScript.NetServer.EMailPriority.High
+  type: Field
+  summary: "\n2: High\n"
+  syntax: 
+    content: High = 2
+    type: CRMScript.NetServer.EMailPriority
+- uid: CRMScript.NetServer.EMailPriority.Normal
+  commentId: F:CRMScript.NetServer.EMailPriority.Normal
+  id: EMailPriority.Normal
+  langs:
+  - crmscript
+  name: EMailPriority.Normal
+  nameWithType: EMailPriority.Normal
+  fullName: CRMScript.NetServer.EMailPriority.Normal
+  type: Field
+  summary: "\n3: Normal\n"
+  syntax: 
+    content: Normal = 3
+    type: CRMScript.NetServer.EMailPriority
+- uid: CRMScript.NetServer.EMailPriority.Low
+  commentId: F:CRMScript.NetServer.EMailPriority.Low
+  id: EMailPriority.Low
+  langs:
+  - crmscript
+  name: EMailPriority.Low
+  nameWithType: EMailPriority.Low
+  fullName: CRMScript.NetServer.EMailPriority.Low
+  type: Field
+  summary: "\n4: Low\n"
+  syntax: 
+    content: Low = 4
+    type: CRMScript.NetServer.EMailPriority
+- uid: CRMScript.NetServer.EMailPriority.Lowest
+  commentId: F:CRMScript.NetServer.EMailPriority.Lowest
+  id: EMailPriority.Lowest
+  langs:
+  - crmscript
+  name: EMailPriority.Lowest
+  nameWithType: EMailPriority.Lowest
+  fullName: CRMScript.NetServer.EMailPriority.Lowest
+  type: Field
+  summary: "\n5: Lowest\n"
+  syntax: 
+    content: Lowest = 5
+    type: CRMScript.NetServer.EMailPriority
+references:
+- uid: CRMScript.NetServer.EMailPriority
+  commentId: T:CRMScript.NetServer.EMailPriority
+  isExternal: true
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: CRMScript.NetServer.EMailPriority

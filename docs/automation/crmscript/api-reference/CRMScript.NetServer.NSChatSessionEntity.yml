@@ -1,0 +1,1437 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatSessionEntity
+  commentId: T:CRMScript.NetServer.NSChatSessionEntity
+  id: NSChatSessionEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatSessionEntity.#ctor
+  - CRMScript.NetServer.NSChatSessionEntity.GetAlertLevel()
+  - CRMScript.NetServer.NSChatSessionEntity.GetChatbotIsActive()
+  - CRMScript.NetServer.NSChatSessionEntity.GetChatSessionId()
+  - CRMScript.NetServer.NSChatSessionEntity.GetContact()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerAlias()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerCompanyName()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerConsented()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerEmail()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerHost()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerName()
+  - CRMScript.NetServer.NSChatSessionEntity.GetCustomerPhone()
+  - CRMScript.NetServer.NSChatSessionEntity.GetFirstMessage()
+  - CRMScript.NetServer.NSChatSessionEntity.GetFlags()
+  - CRMScript.NetServer.NSChatSessionEntity.GetInitialQueuePos()
+  - CRMScript.NetServer.NSChatSessionEntity.GetLastMessage()
+  - CRMScript.NetServer.NSChatSessionEntity.GetPerson()
+  - CRMScript.NetServer.NSChatSessionEntity.GetProject()
+  - CRMScript.NetServer.NSChatSessionEntity.GetRank()
+  - CRMScript.NetServer.NSChatSessionEntity.GetSale()
+  - CRMScript.NetServer.NSChatSessionEntity.GetSessionKey()
+  - CRMScript.NetServer.NSChatSessionEntity.GetStatus()
+  - CRMScript.NetServer.NSChatSessionEntity.GetTicket()
+  - CRMScript.NetServer.NSChatSessionEntity.GetTopicId()
+  - CRMScript.NetServer.NSChatSessionEntity.GetTransferTo()
+  - CRMScript.NetServer.NSChatSessionEntity.GetUser()
+  - CRMScript.NetServer.NSChatSessionEntity.GetWhenEnded()
+  - CRMScript.NetServer.NSChatSessionEntity.GetWhenFetched()
+  - CRMScript.NetServer.NSChatSessionEntity.GetWhenIdle()
+  - CRMScript.NetServer.NSChatSessionEntity.GetWhenRequested()
+  - CRMScript.NetServer.NSChatSessionEntity.GetWhenStarted()
+  - CRMScript.NetServer.NSChatSessionEntity.SetAlertLevel(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetChatbotIsActive(Bool)
+  - CRMScript.NetServer.NSChatSessionEntity.SetChatSessionId(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetContact(NSContact)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerAlias(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerCompanyName(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerConsented(Bool)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerEmail(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerHost(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerName(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetCustomerPhone(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetFirstMessage(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetFlags(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetInitialQueuePos(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetLastMessage(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetPerson(NSPerson)
+  - CRMScript.NetServer.NSChatSessionEntity.SetProject(NSProject)
+  - CRMScript.NetServer.NSChatSessionEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetSale(NSSale)
+  - CRMScript.NetServer.NSChatSessionEntity.SetSessionKey(String)
+  - CRMScript.NetServer.NSChatSessionEntity.SetStatus(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetTicket(NSTicket)
+  - CRMScript.NetServer.NSChatSessionEntity.SetTopicId(Integer)
+  - CRMScript.NetServer.NSChatSessionEntity.SetTransferTo(NSAssociate)
+  - CRMScript.NetServer.NSChatSessionEntity.SetUser(NSAssociate)
+  - CRMScript.NetServer.NSChatSessionEntity.SetWhenEnded(DateTime)
+  - CRMScript.NetServer.NSChatSessionEntity.SetWhenFetched(DateTime)
+  - CRMScript.NetServer.NSChatSessionEntity.SetWhenIdle(DateTime)
+  - CRMScript.NetServer.NSChatSessionEntity.SetWhenRequested(DateTime)
+  - CRMScript.NetServer.NSChatSessionEntity.SetWhenStarted(DateTime)
+  name: NSChatSessionEntity
+  nameWithType: NSChatSessionEntity
+  fullName: CRMScript.NetServer.NSChatSessionEntity
+  type: Class
+  summary: "\nChat sessions belong to a chat topic, and contain messages to/from users. Carrier object for ChatSessionEntity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatSessionEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatSessionEntity
+  langs:
+  - crmscript
+  name: NSChatSessionEntity()
+  nameWithType: NSChatSessionEntity.#ctor
+  fullName: CRMScript.NetServer.NSChatSessionEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatSessionEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity
+  example: 
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetAlertLevel()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetAlertLevel()
+  id: 'GetAlertLevel()'
+  so.intellisense: NSChatSessionEntity.GetAlertLevel
+  langs:
+  - crmscript
+  name: 'GetAlertLevel()'
+  nameWithType: NSChatSessionEntity.GetAlertLevel()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetAlertLevel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAlertLevel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The alert level for this chat session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger alertLevel = thing.GetAlertLevel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetChatbotIsActive()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetChatbotIsActive()
+  id: 'GetChatbotIsActive()'
+  so.intellisense: NSChatSessionEntity.GetChatbotIsActive
+  langs:
+  - crmscript
+  name: 'GetChatbotIsActive()'
+  nameWithType: NSChatSessionEntity.GetChatbotIsActive()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetChatbotIsActive()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChatbotIsActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nBool chatbotIsActive = thing.GetChatbotIsActive();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetChatSessionId()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetChatSessionId()
+  id: 'GetChatSessionId()'
+  so.intellisense: NSChatSessionEntity.GetChatSessionId
+  langs:
+  - crmscript
+  name: 'GetChatSessionId()'
+  nameWithType: NSChatSessionEntity.GetChatSessionId()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetChatSessionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatSessionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger chatSessionId = thing.GetChatSessionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetContact()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSChatSessionEntity.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSChatSessionEntity.GetContact()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+      description: "Contact this session is connected to. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerAlias()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerAlias()
+  id: 'GetCustomerAlias()'
+  so.intellisense: NSChatSessionEntity.GetCustomerAlias
+  langs:
+  - crmscript
+  name: 'GetCustomerAlias()'
+  nameWithType: NSChatSessionEntity.GetCustomerAlias()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerAlias()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerAlias()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The alias for the customer."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerAlias = thing.GetCustomerAlias();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerCompanyName()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerCompanyName()
+  id: 'GetCustomerCompanyName()'
+  so.intellisense: NSChatSessionEntity.GetCustomerCompanyName
+  langs:
+  - crmscript
+  name: 'GetCustomerCompanyName()'
+  nameWithType: NSChatSessionEntity.GetCustomerCompanyName()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the customers company, if provided."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerCompanyName = thing.GetCustomerCompanyName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerConsented()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerConsented()
+  id: 'GetCustomerConsented()'
+  so.intellisense: NSChatSessionEntity.GetCustomerConsented
+  langs:
+  - crmscript
+  name: 'GetCustomerConsented()'
+  nameWithType: NSChatSessionEntity.GetCustomerConsented()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerConsented()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCustomerConsented()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The customer consented when starting the session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nBool customerConsented = thing.GetCustomerConsented();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerEmail()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerEmail()
+  id: 'GetCustomerEmail()'
+  so.intellisense: NSChatSessionEntity.GetCustomerEmail
+  langs:
+  - crmscript
+  name: 'GetCustomerEmail()'
+  nameWithType: NSChatSessionEntity.GetCustomerEmail()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerEmail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The email address of the customer, if provided."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerEmail = thing.GetCustomerEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerHost()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerHost()
+  id: 'GetCustomerHost()'
+  so.intellisense: NSChatSessionEntity.GetCustomerHost
+  langs:
+  - crmscript
+  name: 'GetCustomerHost()'
+  nameWithType: NSChatSessionEntity.GetCustomerHost()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerHost()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerHost()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The hostname or IP address for the customer."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerHost = thing.GetCustomerHost();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerName()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerName()
+  id: 'GetCustomerName()'
+  so.intellisense: NSChatSessionEntity.GetCustomerName
+  langs:
+  - crmscript
+  name: 'GetCustomerName()'
+  nameWithType: NSChatSessionEntity.GetCustomerName()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of customer, if provided."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerName = thing.GetCustomerName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetCustomerPhone()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetCustomerPhone()
+  id: 'GetCustomerPhone()'
+  so.intellisense: NSChatSessionEntity.GetCustomerPhone
+  langs:
+  - crmscript
+  name: 'GetCustomerPhone()'
+  nameWithType: NSChatSessionEntity.GetCustomerPhone()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetCustomerPhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomerPhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The phone number of the customer, if provided."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerPhone = thing.GetCustomerPhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetFirstMessage()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetFirstMessage()
+  id: 'GetFirstMessage()'
+  so.intellisense: NSChatSessionEntity.GetFirstMessage
+  langs:
+  - crmscript
+  name: 'GetFirstMessage()'
+  nameWithType: NSChatSessionEntity.GetFirstMessage()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetFirstMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFirstMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A copy of the first message in the chat session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString firstMessage = thing.GetFirstMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetFlags()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetFlags()
+  id: 'GetFlags()'
+  so.intellisense: NSChatSessionEntity.GetFlags
+  langs:
+  - crmscript
+  name: 'GetFlags()'
+  nameWithType: NSChatSessionEntity.GetFlags()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetFlags()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Various flags for the chat session. See <xref href=\"CRMScript.NetServer.ChatSessionFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger flags = thing.GetFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetInitialQueuePos()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetInitialQueuePos()
+  id: 'GetInitialQueuePos()'
+  so.intellisense: NSChatSessionEntity.GetInitialQueuePos
+  langs:
+  - crmscript
+  name: 'GetInitialQueuePos()'
+  nameWithType: NSChatSessionEntity.GetInitialQueuePos()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetInitialQueuePos()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetInitialQueuePos()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The initial queue pos (the number of pending sessions + 1) when the session was requested."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger initialQueuePos = thing.GetInitialQueuePos();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetLastMessage()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetLastMessage()
+  id: 'GetLastMessage()'
+  so.intellisense: NSChatSessionEntity.GetLastMessage
+  langs:
+  - crmscript
+  name: 'GetLastMessage()'
+  nameWithType: NSChatSessionEntity.GetLastMessage()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetLastMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLastMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A copy of the last message in the chat session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString lastMessage = thing.GetLastMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetPerson()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetPerson()
+  id: 'GetPerson()'
+  so.intellisense: NSChatSessionEntity.GetPerson
+  langs:
+  - crmscript
+  name: 'GetPerson()'
+  nameWithType: NSChatSessionEntity.GetPerson()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetPerson()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPerson GetPerson()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPerson
+      description: "Customer person in this session. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSPerson person = thing.GetPerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetProject()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetProject()
+  id: 'GetProject()'
+  so.intellisense: NSChatSessionEntity.GetProject
+  langs:
+  - crmscript
+  name: 'GetProject()'
+  nameWithType: NSChatSessionEntity.GetProject()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetProject()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProject GetProject()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProject
+      description: "Project the session is connected to. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSProject project = thing.GetProject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSChatSessionEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSChatSessionEntity.GetRank()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Lowest possible unique number for active sessions for user. User for color index. Starting at 1."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetSale()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetSale()
+  id: 'GetSale()'
+  so.intellisense: NSChatSessionEntity.GetSale
+  langs:
+  - crmscript
+  name: 'GetSale()'
+  nameWithType: NSChatSessionEntity.GetSale()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetSale()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSale GetSale()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSale
+      description: "Sale the session is connected to. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSSale sale = thing.GetSale();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetSessionKey()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetSessionKey()
+  id: 'GetSessionKey()'
+  so.intellisense: NSChatSessionEntity.GetSessionKey
+  langs:
+  - crmscript
+  name: 'GetSessionKey()'
+  nameWithType: NSChatSessionEntity.GetSessionKey()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetSessionKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSessionKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Key used to authenticate the session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString sessionKey = thing.GetSessionKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetStatus()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSChatSessionEntity.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSChatSessionEntity.GetStatus()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The status for the session. See <xref href=\"CRMScript.NetServer.ChatSessionStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetTicket()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetTicket()
+  id: 'GetTicket()'
+  so.intellisense: NSChatSessionEntity.GetTicket
+  langs:
+  - crmscript
+  name: 'GetTicket()'
+  nameWithType: NSChatSessionEntity.GetTicket()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetTicket()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicket GetTicket()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicket
+      description: "Ticket the session is connected to. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSTicket ticket = thing.GetTicket();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetTopicId()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetTopicId()
+  id: 'GetTopicId()'
+  so.intellisense: NSChatSessionEntity.GetTopicId
+  langs:
+  - crmscript
+  name: 'GetTopicId()'
+  nameWithType: NSChatSessionEntity.GetTopicId()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetTopicId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTopicId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat topic."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger topicId = thing.GetTopicId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetTransferTo()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetTransferTo()
+  id: 'GetTransferTo()'
+  so.intellisense: NSChatSessionEntity.GetTransferTo
+  langs:
+  - crmscript
+  name: 'GetTransferTo()'
+  nameWithType: NSChatSessionEntity.GetTransferTo()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetTransferTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetTransferTo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "User agent that has a pending transfer of the chat session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSAssociate transferTo = thing.GetTransferTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetUser()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetUser()
+  id: 'GetUser()'
+  so.intellisense: NSChatSessionEntity.GetUser
+  langs:
+  - crmscript
+  name: 'GetUser()'
+  nameWithType: NSChatSessionEntity.GetUser()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetUser()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "User agent handling this session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSAssociate user = thing.GetUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetWhenEnded()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetWhenEnded()
+  id: 'GetWhenEnded()'
+  so.intellisense: NSChatSessionEntity.GetWhenEnded
+  langs:
+  - crmscript
+  name: 'GetWhenEnded()'
+  nameWithType: NSChatSessionEntity.GetWhenEnded()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetWhenEnded()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenEnded()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the session was ended."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenEnded = thing.GetWhenEnded();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetWhenFetched()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetWhenFetched()
+  id: 'GetWhenFetched()'
+  so.intellisense: NSChatSessionEntity.GetWhenFetched
+  langs:
+  - crmscript
+  name: 'GetWhenFetched()'
+  nameWithType: NSChatSessionEntity.GetWhenFetched()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetWhenFetched()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenFetched()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The last time the customer's client re-fetched the data. Used to detect dead session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenFetched = thing.GetWhenFetched();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetWhenIdle()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetWhenIdle()
+  id: 'GetWhenIdle()'
+  so.intellisense: NSChatSessionEntity.GetWhenIdle
+  langs:
+  - crmscript
+  name: 'GetWhenIdle()'
+  nameWithType: NSChatSessionEntity.GetWhenIdle()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetWhenIdle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenIdle()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The last time anyone sent a message for this session."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenIdle = thing.GetWhenIdle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetWhenRequested()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetWhenRequested()
+  id: 'GetWhenRequested()'
+  so.intellisense: NSChatSessionEntity.GetWhenRequested
+  langs:
+  - crmscript
+  name: 'GetWhenRequested()'
+  nameWithType: NSChatSessionEntity.GetWhenRequested()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetWhenRequested()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenRequested()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the session was requested by the customer."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenRequested = thing.GetWhenRequested();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.GetWhenStarted()
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.GetWhenStarted()
+  id: 'GetWhenStarted()'
+  so.intellisense: NSChatSessionEntity.GetWhenStarted
+  langs:
+  - crmscript
+  name: 'GetWhenStarted()'
+  nameWithType: NSChatSessionEntity.GetWhenStarted()
+  fullName: CRMScript.NetServer.NSChatSessionEntity.GetWhenStarted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenStarted()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the session was accepted by a user."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenStarted = thing.GetWhenStarted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetAlertLevel(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetAlertLevel(Integer)
+  id: 'SetAlertLevel(Integer)'
+  so.intellisense: NSChatSessionEntity.SetAlertLevel
+  langs:
+  - crmscript
+  name: 'SetAlertLevel(Integer)'
+  nameWithType: NSChatSessionEntity.SetAlertLevel(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetAlertLevel(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAlertLevel(Integer alertLevel)
+    parameters:
+    - id: alertLevel
+      type: CRMScript.Global.Integer
+      description: "The alert level for this chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger alertLevel;\nthing.SetAlertLevel(alertLevel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetChatbotIsActive(Bool)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetChatbotIsActive(Bool)
+  id: 'SetChatbotIsActive(Bool)'
+  so.intellisense: NSChatSessionEntity.SetChatbotIsActive
+  langs:
+  - crmscript
+  name: 'SetChatbotIsActive(Bool)'
+  nameWithType: NSChatSessionEntity.SetChatbotIsActive(Bool)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetChatbotIsActive(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatbotIsActive(Bool chatbotIsActive)
+    parameters:
+    - id: chatbotIsActive
+      type: CRMScript.Global.Bool
+      description: "Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nBool chatbotIsActive;\nthing.SetChatbotIsActive(chatbotIsActive);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetChatSessionId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetChatSessionId(Integer)
+  id: 'SetChatSessionId(Integer)'
+  so.intellisense: NSChatSessionEntity.SetChatSessionId
+  langs:
+  - crmscript
+  name: 'SetChatSessionId(Integer)'
+  nameWithType: NSChatSessionEntity.SetChatSessionId(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetChatSessionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatSessionId(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger chatSessionId;\nthing.SetChatSessionId(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSChatSessionEntity.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSChatSessionEntity.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters: 
+    - id: contact
+      type: CRMScript.NetServer.NSContact
+      description: "Contact this session is connected to. Could be empty if we don't know exactly."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerAlias(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerAlias(String)
+  id: 'SetCustomerAlias(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerAlias
+  langs:
+  - crmscript
+  name: 'SetCustomerAlias(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerAlias(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerAlias(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerAlias(String customerAlias)
+    parameters:
+    - id: customerAlias
+      type: CRMScript.Global.String
+      description: "The alias for the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerAlias;\nthing.SetCustomerAlias(customerAlias);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerCompanyName(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerCompanyName(String)
+  id: 'SetCustomerCompanyName(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerCompanyName
+  langs:
+  - crmscript
+  name: 'SetCustomerCompanyName(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerCompanyName(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerCompanyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerCompanyName(String customerCompanyName)
+    parameters:
+    - id: customerCompanyName
+      type: CRMScript.Global.String
+      description: "The name of the customers company, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerCompanyName;\nthing.SetCustomerCompanyName(customerCompanyName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerConsented(Bool)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerConsented(Bool)
+  id: 'SetCustomerConsented(Bool)'
+  so.intellisense: NSChatSessionEntity.SetCustomerConsented
+  langs:
+  - crmscript
+  name: 'SetCustomerConsented(Bool)'
+  nameWithType: NSChatSessionEntity.SetCustomerConsented(Bool)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerConsented(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerConsented(Bool customerConsented)
+    parameters:
+    - id: customerConsented
+      type: CRMScript.Global.Bool
+      description: "The customer consented when starting the session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nBool customerConsented;\nthing.SetCustomerConsented(customerConsented);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerEmail(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerEmail(String)
+  id: 'SetCustomerEmail(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerEmail
+  langs:
+  - crmscript
+  name: 'SetCustomerEmail(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerEmail(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerEmail(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerEmail(String customerEmail)
+    parameters:
+    - id: customerEmail
+      type: CRMScript.Global.String
+      description: "The email address of the customer, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerEmail;\nthing.SetCustomerEmail(customerEmail);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerHost(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerHost(String)
+  id: 'SetCustomerHost(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerHost
+  langs:
+  - crmscript
+  name: 'SetCustomerHost(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerHost(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerHost(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerHost(String customerHost)
+    parameters:
+    - id: customerHost
+      type: CRMScript.Global.String
+      description: "The hostname or IP address for the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerHost;\nthing.SetCustomerHost(customerHost);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerName(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerName(String)
+  id: 'SetCustomerName(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerName
+  langs:
+  - crmscript
+  name: 'SetCustomerName(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerName(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerName(String customerName)
+    parameters:
+    - id: customerName
+      type: CRMScript.Global.String
+      description: "The name of customer, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerName;\nthing.SetCustomerName(customerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerPhone(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetCustomerPhone(String)
+  id: 'SetCustomerPhone(String)'
+  so.intellisense: NSChatSessionEntity.SetCustomerPhone
+  langs:
+  - crmscript
+  name: 'SetCustomerPhone(String)'
+  nameWithType: NSChatSessionEntity.SetCustomerPhone(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetCustomerPhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerPhone(String customerPhone)
+    parameters:
+    - id: customerPhone
+      type: CRMScript.Global.String
+      description: "The phone number of the customer, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString customerPhone;\nthing.SetCustomerPhone(customerPhone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetFirstMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetFirstMessage(String)
+  id: 'SetFirstMessage(String)'
+  so.intellisense: NSChatSessionEntity.SetFirstMessage
+  langs:
+  - crmscript
+  name: 'SetFirstMessage(String)'
+  nameWithType: NSChatSessionEntity.SetFirstMessage(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetFirstMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFirstMessage(String firstMessage)
+    parameters:
+    - id: firstMessage
+      type: CRMScript.Global.String
+      description: "A copy of the first message in the chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString firstMessage;\nthing.SetFirstMessage(firstMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetFlags(Integer)
+  id: 'SetFlags(Integer)'
+  so.intellisense: NSChatSessionEntity.SetFlags
+  langs:
+  - crmscript
+  name: 'SetFlags(Integer)'
+  nameWithType: NSChatSessionEntity.SetFlags(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "n"
+  syntax: 
+    content: Void SetFlags(Integer flags)
+    parameters:
+    - id: flags
+      type: CRMScript.Global.Integer
+      description: "Various flags for the chat session. See <xref href=\"CRMScript.NetServer.ChatSessionFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger flags;\nthing.SetFlags(flags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetInitialQueuePos(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetInitialQueuePos(Integer)
+  id: 'SetInitialQueuePos(Integer)'
+  so.intellisense: NSChatSessionEntity.SetInitialQueuePos
+  langs:
+  - crmscript
+  name: 'SetInitialQueuePos(Integer)'
+  nameWithType: NSChatSessionEntity.SetInitialQueuePos(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetInitialQueuePos(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInitialQueuePos(Integer initialQueuePos)
+    parameters:
+    - id: initialQueuePos
+      type: CRMScript.Global.Integer
+      description: "The initial queue pos (the number of pending sessions + 1) when the session was requested."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger initialQueuePos;\nthing.SetInitialQueuePos(initialQueuePos);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetLastMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetLastMessage(String)
+  id: 'SetLastMessage(String)'
+  so.intellisense: NSChatSessionEntity.SetLastMessage
+  langs:
+  - crmscript
+  name: 'SetLastMessage(String)'
+  nameWithType: NSChatSessionEntity.SetLastMessage(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetLastMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastMessage(String lastMessage)
+    parameters:
+    - id: lastMessage
+      type: CRMScript.Global.String
+      description: "A copy of the last message in the chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString lastMessage;\nthing.SetLastMessage(lastMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetPerson(NSPerson)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetPerson(NSPerson)
+  id: 'SetPerson(NSPerson)'
+  so.intellisense: NSChatSessionEntity.SetPerson
+  langs:
+  - crmscript
+  name: 'SetPerson(NSPerson)'
+  nameWithType: NSChatSessionEntity.SetPerson(NSPerson)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetPerson(NSPerson)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPerson(NSPerson person)
+    parameters:
+    - id: person
+      type: CRMScript.NetServer.NSPerson
+      description: "Customer person in this session. Could be empty if we don't know exactly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSPerson person;\nthing.SetPerson(person);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetProject(NSProject)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetProject(NSProject)
+  id: 'SetProject(NSProject)'
+  so.intellisense: NSChatSessionEntity.SetProject
+  langs:
+  - crmscript
+  name: 'SetProject(NSProject)'
+  nameWithType: NSChatSessionEntity.SetProject(NSProject)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetProject(NSProject)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProject(NSProject project)
+    parameters:
+    - id: project
+      type: CRMScript.NetServer.NSProject
+      description: "Project the session is connected to. Could be empty if we don't know exactly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSProject project;\nthing.SetProject(project);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSChatSessionEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSChatSessionEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Lowest possible unique number for active sessions for user. User for color index. Starting at 1."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetSale(NSSale)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetSale(NSSale)
+  id: 'SetSale(NSSale)'
+  so.intellisense: NSChatSessionEntity.SetSale
+  langs:
+  - crmscript
+  name: 'SetSale(NSSale)'
+  nameWithType: NSChatSessionEntity.SetSale(NSSale)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetSale(NSSale)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSale(NSSale sale)
+    parameters:
+    - id: sale
+      type: CRMScript.NetServer.NSSale
+      description: "Sale the session is connected to. Could be empty if we don't know exactly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSSale sale;\nthing.SetSale(sale);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetSessionKey(String)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetSessionKey(String)
+  id: 'SetSessionKey(String)'
+  so.intellisense: NSChatSessionEntity.SetSessionKey
+  langs:
+  - crmscript
+  name: 'SetSessionKey(String)'
+  nameWithType: NSChatSessionEntity.SetSessionKey(String)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetSessionKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSessionKey(String sessionKey)
+    parameters:
+    - id: sessionKey
+      type: CRMScript.Global.String
+      description: "Key used to authenticate the session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nString sessionKey;\nthing.SetSessionKey(sessionKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSChatSessionEntity.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSChatSessionEntity.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "The status for the session. See <xref href=\"CRMScript.NetServer.ChatSessionStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetTicket(NSTicket)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetTicket(NSTicket)
+  id: 'SetTicket(NSTicket)'
+  so.intellisense: NSChatSessionEntity.SetTicket
+  langs:
+  - crmscript
+  name: 'SetTicket(NSTicket)'
+  nameWithType: NSChatSessionEntity.SetTicket(NSTicket)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetTicket(NSTicket)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicket(NSTicket ticket)
+    parameters:
+    - id: ticket
+      type: CRMScript.NetServer.NSTicket
+      description: "Ticket the session is connected to. Could be empty if we don't know exactly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSTicket ticket;\nthing.SetTicket(ticket);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetTopicId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetTopicId(Integer)
+  id: 'SetTopicId(Integer)'
+  so.intellisense: NSChatSessionEntity.SetTopicId
+  langs:
+  - crmscript
+  name: 'SetTopicId(Integer)'
+  nameWithType: NSChatSessionEntity.SetTopicId(Integer)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetTopicId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTopicId(Integer topicId)
+    parameters:
+    - id: topicId
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nInteger topicId;\nthing.SetTopicId(topicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetTransferTo(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetTransferTo(NSAssociate)
+  id: 'SetTransferTo(NSAssociate)'
+  so.intellisense: NSChatSessionEntity.SetTransferTo
+  langs:
+  - crmscript
+  name: 'SetTransferTo(NSAssociate)'
+  nameWithType: NSChatSessionEntity.SetTransferTo(NSAssociate)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetTransferTo(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTransferTo(NSAssociate transferTo)
+    parameters:
+    - id: transferTo
+      type: CRMScript.NetServer.NSAssociate
+      description: "User agent that has a pending transfer of the chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSAssociate transferTo;\nthing.SetTransferTo(transferTo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetUser(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetUser(NSAssociate)
+  id: 'SetUser(NSAssociate)'
+  so.intellisense: NSChatSessionEntity.SetUser
+  langs:
+  - crmscript
+  name: 'SetUser(NSAssociate)'
+  nameWithType: NSChatSessionEntity.SetUser(NSAssociate)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetUser(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUser(NSAssociate user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSAssociate
+      description: "User agent handling this session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nNSAssociate user;\nthing.SetUser(user);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetWhenEnded(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetWhenEnded(DateTime)
+  id: 'SetWhenEnded(DateTime)'
+  so.intellisense: NSChatSessionEntity.SetWhenEnded
+  langs:
+  - crmscript
+  name: 'SetWhenEnded(DateTime)'
+  nameWithType: NSChatSessionEntity.SetWhenEnded(DateTime)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetWhenEnded(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenEnded(DateTime whenEnded)
+    parameters:
+    - id: whenEnded
+      type: CRMScript.Global.DateTime
+      description: "When the session was ended."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenEnded;\nthing.SetWhenEnded(whenEnded);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetWhenFetched(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetWhenFetched(DateTime)
+  id: 'SetWhenFetched(DateTime)'
+  so.intellisense: NSChatSessionEntity.SetWhenFetched
+  langs:
+  - crmscript
+  name: 'SetWhenFetched(DateTime)'
+  nameWithType: NSChatSessionEntity.SetWhenFetched(DateTime)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetWhenFetched(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenFetched(DateTime whenFetched)
+    parameters:
+    - id: whenFetched
+      type: CRMScript.Global.DateTime
+      description: "The last time the customer's client re-fetched the data. Used to detect dead session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenFetched;\nthing.SetWhenFetched(whenFetched);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetWhenIdle(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetWhenIdle(DateTime)
+  id: 'SetWhenIdle(DateTime)'
+  so.intellisense: NSChatSessionEntity.SetWhenIdle
+  langs:
+  - crmscript
+  name: 'SetWhenIdle(DateTime)'
+  nameWithType: NSChatSessionEntity.SetWhenIdle(DateTime)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetWhenIdle(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenIdle(DateTime whenIdle)
+    parameters:
+    - id: whenIdle
+      type: CRMScript.Global.DateTime
+      description: "The last time anyone sent a message for this session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenIdle;\nthing.SetWhenIdle(whenIdle);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetWhenRequested(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetWhenRequested(DateTime)
+  id: 'SetWhenRequested(DateTime)'
+  so.intellisense: NSChatSessionEntity.SetWhenRequested
+  langs:
+  - crmscript
+  name: 'SetWhenRequested(DateTime)'
+  nameWithType: NSChatSessionEntity.SetWhenRequested(DateTime)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetWhenRequested(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenRequested(DateTime whenRequested)
+    parameters:
+    - id: whenRequested
+      type: CRMScript.Global.DateTime
+      description: "When the session was requested by the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenRequested;\nthing.SetWhenRequested(whenRequested);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSessionEntity.SetWhenStarted(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSessionEntity.SetWhenStarted(DateTime)
+  id: 'SetWhenStarted(DateTime)'
+  so.intellisense: NSChatSessionEntity.SetWhenStarted
+  langs:
+  - crmscript
+  name: 'SetWhenStarted(DateTime)'
+  nameWithType: NSChatSessionEntity.SetWhenStarted(DateTime)
+  fullName: CRMScript.NetServer.NSChatSessionEntity.SetWhenStarted(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenStarted(DateTime whenStarted)
+    parameters:
+    - id: whenStarted
+      type: CRMScript.Global.DateTime
+      description: "When the session was accepted by a user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSessionEntity thing;\nDateTime whenStarted;\nthing.SetWhenStarted(whenStarted);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatSessionEntity
+  commentId: T:CRMScript.NetServer.NSChatSessionEntity
+  isExternal: true
+  name: NSChatSessionEntity
+  nameWithType: NSChatSessionEntity
+  fullName: CRMScript.NetServer.NSChatSessionEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSProject
+  commentId: T:CRMScript.NetServer.NSProject
+  isExternal: true
+  name: NSProject
+  nameWithType: NSProject
+  fullName: CRMScript.NetServer.NSProject
+- uid: CRMScript.NetServer.NSSale
+  commentId: T:CRMScript.NetServer.NSSale
+  isExternal: true
+  name: NSSale
+  nameWithType: NSSale
+  fullName: CRMScript.NetServer.NSSale
+- uid: CRMScript.NetServer.NSTicket
+  commentId: T:CRMScript.NetServer.NSTicket
+  isExternal: true
+  name: NSTicket
+  nameWithType: NSTicket
+  fullName: CRMScript.NetServer.NSTicket
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags
+- uid: CRMScript.NetServer.ChatSessionStatus
+  commentId: T:CRMScript.NetServer.ChatSessionStatus
+  isExternal: true
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

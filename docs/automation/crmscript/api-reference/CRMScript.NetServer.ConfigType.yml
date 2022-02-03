@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ConfigType
+  # Same as SuperOffice.Data.ConfigType
+  commentId: T:CRMScript.NetServer.ConfigType
+  id: ConfigType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ConfigType.Options
+  - CRMScript.NetServer.ConfigType.Style
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: CRMScript.NetServer.ConfigType
+  type: Enum
+  summary: "\nValue for field type in table cust_config.\n"
+- uid: CRMScript.NetServer.ConfigType.Style
+  commentId: F:CRMScript.NetServer.ConfigType.Style
+  id: ConfigType.Style
+  langs:
+  - crmscript
+  name: ConfigType.Style
+  nameWithType: ConfigType.Style
+  fullName: CRMScript.NetServer.ConfigType.Style
+  type: Field
+  summary: "\n0: The row contains style data\n"
+  syntax: 
+    content: Style = 0
+    type: CRMScript.NetServer.ConfigType
+- uid: CRMScript.NetServer.ConfigType.Options
+  commentId: F:CRMScript.NetServer.ConfigType.Options
+  id: ConfigType.Options
+  langs:
+  - crmscript
+  name: ConfigType.Options
+  nameWithType: ConfigType.Options
+  fullName: CRMScript.NetServer.ConfigType.Options
+  type: Field
+  summary: "\n1: The row contains options data\n"
+  syntax: 
+    content: Options = 1
+    type: CRMScript.NetServer.ConfigType
+references:
+- uid: CRMScript.NetServer.ConfigType
+  commentId: T:CRMScript.NetServer.ConfigType
+  isExternal: true
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: CRMScript.NetServer.ConfigType

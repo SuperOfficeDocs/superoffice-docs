@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.TimeZone
+  commentId: T:CRMScript.Native.TimeZone
+  id: TimeZone
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.TimeZone.#ctor 
+  - CRMScript.Native.TimeZone.getTimeZone()
+  - CRMScript.Native.TimeZone.getTimeZoneSecs()
+  name: TimeZone
+  nameWithType: TimeZone
+  fullName: CRMScript.Native.TimeZone
+  type: Class
+  summary: "\nGives access to timezone info. Call the global function getLocalTimeZone() to get the object.\n"
+  example: 
+- uid: CRMScript.Native.TimeZone.#ctor
+  commentId: M:CRMScript.Native.TimeZone.#ctor
+  id: '#ctor'
+  so.intellisense: Void.TimeZone
+  langs:
+  - crmscript
+  name: TimeZone()
+  nameWithType: TimeZone.#ctor
+  fullName: CRMScript.Native.TimeZone.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the TimeZone class.\n"
+  remarks: 
+  syntax: 
+    content: TimeZone
+  example: 
+- uid: CRMScript.Native.TimeZone.getTimeZone()
+  commentId: M:CRMScript.Native.TimeZone.getTimeZone()
+  id: 'getTimeZone()'
+  so.intellisense: TimeZone.getTimeZone
+  langs:
+  - crmscript
+  name: 'getTimeZone()'
+  nameWithType: TimeZone.getTimeZone()
+  fullName: CRMScript.Native.TimeZone.getTimeZone()
+  type: Method
+  summary: "\nThis functions will give you the difference from GMT in hours and minutes.\n"
+  remarks: 
+  syntax: 
+    content: String getTimeZone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The time zone string on the form &quot;+0100&quot;, &quot;-0545&quot; etc."
+  example: 
+- uid: CRMScript.Native.TimeZone.getTimeZoneSecs()
+  commentId: M:CRMScript.Native.TimeZone.getTimeZoneSecs()
+  id: 'getTimeZoneSecs()'
+  so.intellisense: TimeZone.getTimeZoneSecs
+  langs:
+  - crmscript
+  name: 'getTimeZoneSecs()'
+  nameWithType: TimeZone.getTimeZoneSecs()
+  fullName: CRMScript.Native.TimeZone.getTimeZoneSecs()
+  type: Method
+  summary: "\nDifference from GMT in seconds.\n"
+  remarks: 
+  syntax: 
+    content: Integer getTimeZoneSecs()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Difference from GMT in seconds."
+  example: 
+references:
+- uid: CRMScript.Native.TimeZone
+  commentId: T:CRMScript.Native.TimeZone
+  isExternal: true
+  name: TimeZone
+  nameWithType: TimeZone
+  fullName: CRMScript.Native.TimeZone
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.PreferenceLevel
+  # Same as SuperOffice.Data.PreferenceLevel
+  commentId: T:CRMScript.NetServer.PreferenceLevel
+  id: PreferenceLevel
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.PreferenceLevel.Undefined
+  - CRMScript.NetServer.PreferenceLevel.HardDefault
+  - CRMScript.NetServer.PreferenceLevel.SystemWide
+  - CRMScript.NetServer.PreferenceLevel.Database
+  - CRMScript.NetServer.PreferenceLevel.Group
+  - CRMScript.NetServer.PreferenceLevel.Individual
+  - CRMScript.NetServer.PreferenceLevel.PC
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: CRMScript.NetServer.PreferenceLevel
+  type: Enum
+  summary: "\nValue for field deflevel in table userpreference.\n"
+- uid: CRMScript.NetServer.PreferenceLevel.Undefined
+  commentId: F:CRMScript.NetServer.PreferenceLevel.Undefined
+  id: PreferenceLevel.Undefined
+  langs:
+  - crmscript
+  name: PreferenceLevel.Undefined
+  nameWithType: PreferenceLevel.Undefined
+  fullName: CRMScript.NetServer.PreferenceLevel.Undefined
+  type: Field
+  summary: "\n0: Undefined value (error)\n"
+  syntax: 
+    content: Undefined = 0
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.HardDefault
+  commentId: F:CRMScript.NetServer.PreferenceLevel.HardDefault
+  id: PreferenceLevel.HardDefault
+  langs:
+  - crmscript
+  name: PreferenceLevel.HardDefault
+  nameWithType: PreferenceLevel.HardDefault
+  fullName: CRMScript.NetServer.PreferenceLevel.HardDefault
+  type: Field
+  summary: "\n1: Default value used if no other value has been specified\n"
+  syntax: 
+    content: HardDefault = 1
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.SystemWide
+  commentId: F:CRMScript.NetServer.PreferenceLevel.SystemWide
+  id: PreferenceLevel.SystemWide
+  langs:
+  - crmscript
+  name: PreferenceLevel.SystemWide
+  nameWithType: PreferenceLevel.SystemWide
+  fullName: CRMScript.NetServer.PreferenceLevel.SystemWide
+  type: Field
+  summary: "\n2: Value valid for all databases under this licence\n"
+  syntax: 
+    content: SystemWide = 2
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.Database
+  commentId: F:CRMScript.NetServer.PreferenceLevel.Database
+  id: PreferenceLevel.Database
+  langs:
+  - crmscript
+  name: PreferenceLevel.Database
+  nameWithType: PreferenceLevel.Database
+  fullName: CRMScript.NetServer.PreferenceLevel.Database
+  type: Field
+  summary: "\n3: Value valid for this database\n"
+  syntax: 
+    content: Database = 3
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.Group
+  commentId: F:CRMScript.NetServer.PreferenceLevel.Group
+  id: PreferenceLevel.Group
+  langs:
+  - crmscript
+  name: PreferenceLevel.Group
+  nameWithType: PreferenceLevel.Group
+  fullName: CRMScript.NetServer.PreferenceLevel.Group
+  type: Field
+  summary: "\n4: Value valid for this group\n"
+  syntax: 
+    content: Group = 4
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.Individual
+  commentId: F:CRMScript.NetServer.PreferenceLevel.Individual
+  id: PreferenceLevel.Individual
+  langs:
+  - crmscript
+  name: PreferenceLevel.Individual
+  nameWithType: PreferenceLevel.Individual
+  fullName: CRMScript.NetServer.PreferenceLevel.Individual
+  type: Field
+  summary: "\n5: Value valid for this user\n"
+  syntax: 
+    content: Individual = 5
+    type: CRMScript.NetServer.PreferenceLevel
+- uid: CRMScript.NetServer.PreferenceLevel.PC
+  commentId: F:CRMScript.NetServer.PreferenceLevel.PC
+  id: PreferenceLevel.PC
+  langs:
+  - crmscript
+  name: PreferenceLevel.PC
+  nameWithType: PreferenceLevel.PC
+  fullName: CRMScript.NetServer.PreferenceLevel.PC
+  type: Field
+  summary: "\n6: Value valid for this computer (note: stored in the Registry, not in the database)\n"
+  syntax: 
+    content: PC = 6
+    type: CRMScript.NetServer.PreferenceLevel
+references:
+- uid: CRMScript.NetServer.PreferenceLevel
+  commentId: T:CRMScript.NetServer.PreferenceLevel
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: CRMScript.NetServer.PreferenceLevel

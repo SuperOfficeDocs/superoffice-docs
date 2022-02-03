@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ExtraDataFieldType
+  # Same as SuperOffice.Data.ExtraDataFieldType
+  commentId: T:CRMScript.NetServer.ExtraDataFieldType
+  id: ExtraDataFieldType
+  children:
+  - CRMScript.NetServer.ExtraDataFieldType.Image
+  - CRMScript.NetServer.ExtraDataFieldType.String
+  - CRMScript.NetServer.ExtraDataFieldType.Url
+  langs:
+  - crmscript
+  name: ExtraDataFieldType
+  nameWithType: ExtraDataFieldType
+  fullName: CRMScript.NetServer.ExtraDataFieldType
+  type: Enum
+  summary: "\nString, int, decimal, image, url, etc. How should the value be interpreted.\n"
+- uid: CRMScript.NetServer.ExtraDataFieldType.String
+  commentId: F:CRMScript.NetServer.ExtraDataFieldType.String
+  id: String
+  langs:
+  - crmscript
+  name: String
+  nameWithType: ExtraDataFieldType.String
+  fullName: CRMScript.NetServer.ExtraDataFieldType.String
+  type: Field
+  summary: "\n0: Anything to be shown as text, left aligned. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user&apos;s computer is set up).\n"
+  syntax:
+    content: String = 0
+    return:
+      type: CRMScript.NetServer.ExtraDataFieldType
+- uid: CRMScript.NetServer.ExtraDataFieldType.Url
+  commentId: F:CRMScript.NetServer.ExtraDataFieldType.Url
+  id: Url
+  langs:
+  - crmscript
+  name: Url
+  nameWithType: ExtraDataFieldType.Url
+  fullName: CRMScript.NetServer.ExtraDataFieldType.Url
+  type: Field
+  summary: "\n1: A web address\n"
+  syntax:
+    content: Url = 1
+    return:
+      type: CRMScript.NetServer.ExtraDataFieldType
+- uid: CRMScript.NetServer.ExtraDataFieldType.Image
+  commentId: F:CRMScript.NetServer.ExtraDataFieldType.Image
+  id: Image
+  langs:
+  - crmscript
+  name: Image
+  nameWithType: ExtraDataFieldType.Image
+  fullName: CRMScript.NetServer.ExtraDataFieldType.Image
+  type: Field
+  summary: "\n2: Contains the URL of the image, or a base64 encoded version of it.\n"
+  syntax:
+    content: Image = 2
+    return:
+      type: CRMScript.NetServer.ExtraDataFieldType
+references:
+- uid: CRMScript.NetServer.ExtraDataFieldType
+  commentId: T:CRMScript.NetServer.ExtraDataFieldType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ExtraDataFieldType
+  nameWithType: ExtraDataFieldType
+  fullName: CRMScript.NetServer.ExtraDataFieldType

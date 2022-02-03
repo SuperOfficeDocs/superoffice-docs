@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.MailboxType
+  # Same as SuperOffice.Data.MailboxType
+  commentId: T:CRMScript.NetServer.MailboxType
+  id: MailboxType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.MailboxType.Unknown
+  - CRMScript.NetServer.MailboxType.Pop
+  - CRMScript.NetServer.MailboxType.Imap
+  - CRMScript.NetServer.MailboxType.Mapi
+  - CRMScript.NetServer.MailboxType.Facebook
+  - CRMScript.NetServer.MailboxType.Pops
+  - CRMScript.NetServer.MailboxType.Imaps
+  - CRMScript.NetServer.MailboxType.SmsPlugin
+  - CRMScript.NetServer.MailboxType.Mailgun
+  - CRMScript.NetServer.MailboxType.ImapOAuth
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: CRMScript.NetServer.MailboxType
+  type: Enum
+  summary: "\nService mailbox type\n"
+- uid: CRMScript.NetServer.MailboxType.Unknown
+  commentId: F:CRMScript.NetServer.MailboxType.Unknown
+  id: MailboxType.Unknown
+  langs:
+  - crmscript
+  name: MailboxType.Unknown
+  nameWithType: MailboxType.Unknown
+  fullName: CRMScript.NetServer.MailboxType.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Pop
+  commentId: F:CRMScript.NetServer.MailboxType.Pop
+  id: MailboxType.Pop
+  langs:
+  - crmscript
+  name: MailboxType.Pop
+  nameWithType: MailboxType.Pop
+  fullName: CRMScript.NetServer.MailboxType.Pop
+  type: Field
+  summary: "\n1: Pop\n"
+  syntax: 
+    content: Pop = 1
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Imap
+  commentId: F:CRMScript.NetServer.MailboxType.Imap
+  id: MailboxType.Imap
+  langs:
+  - crmscript
+  name: MailboxType.Imap
+  nameWithType: MailboxType.Imap
+  fullName: CRMScript.NetServer.MailboxType.Imap
+  type: Field
+  summary: "\n2: Imap - without OAuth support. Use ImapOAuth instead if OAuth is needed\n"
+  syntax: 
+    content: Imap = 2
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Mapi
+  commentId: F:CRMScript.NetServer.MailboxType.Mapi
+  id: MailboxType.Mapi
+  langs:
+  - crmscript
+  name: MailboxType.Mapi
+  nameWithType: MailboxType.Mapi
+  fullName: CRMScript.NetServer.MailboxType.Mapi
+  type: Field
+  summary: "\n3: Mapi\n"
+  syntax: 
+    content: Mapi = 3
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Facebook
+  commentId: F:CRMScript.NetServer.MailboxType.Facebook
+  id: MailboxType.Facebook
+  langs:
+  - crmscript
+  name: MailboxType.Facebook
+  nameWithType: MailboxType.Facebook
+  fullName: CRMScript.NetServer.MailboxType.Facebook
+  type: Field
+  summary: "\n4: Facebook\n"
+  syntax: 
+    content: Facebook = 4
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Pops
+  commentId: F:CRMScript.NetServer.MailboxType.Pops
+  id: MailboxType.Pops
+  langs:
+  - crmscript
+  name: MailboxType.Pops
+  nameWithType: MailboxType.Pops
+  fullName: CRMScript.NetServer.MailboxType.Pops
+  type: Field
+  summary: "\n5: Pop SSL\n"
+  syntax: 
+    content: Pops = 5
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Imaps
+  commentId: F:CRMScript.NetServer.MailboxType.Imaps
+  id: MailboxType.Imaps
+  langs:
+  - crmscript
+  name: MailboxType.Imaps
+  nameWithType: MailboxType.Imaps
+  fullName: CRMScript.NetServer.MailboxType.Imaps
+  type: Field
+  summary: "\n6: Imap SSL\n"
+  syntax: 
+    content: Imaps = 6
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.SmsPlugin
+  commentId: F:CRMScript.NetServer.MailboxType.SmsPlugin
+  id: MailboxType.SmsPlugin
+  langs:
+  - crmscript
+  name: MailboxType.SmsPlugin
+  nameWithType: MailboxType.SmsPlugin
+  fullName: CRMScript.NetServer.MailboxType.SmsPlugin
+  type: Field
+  summary: "\n7: Incoming SMS, using a plugin\n"
+  syntax: 
+    content: SmsPlugin = 7
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.Mailgun
+  commentId: F:CRMScript.NetServer.MailboxType.Mailgun
+  id: MailboxType.Mailgun
+  langs:
+  - crmscript
+  name: MailboxType.Mailgun
+  nameWithType: MailboxType.Mailgun
+  fullName: CRMScript.NetServer.MailboxType.Mailgun
+  type: Field
+  summary: "\n8: Used by mailboxes set up as a Mailgun route\n"
+  syntax: 
+    content: Mailgun = 8
+    type: CRMScript.NetServer.MailboxType
+- uid: CRMScript.NetServer.MailboxType.ImapOAuth
+  commentId: F:CRMScript.NetServer.MailboxType.ImapOAuth
+  id: MailboxType.ImapOAuth
+  langs:
+  - crmscript
+  name: MailboxType.ImapOAuth
+  nameWithType: MailboxType.ImapOAuth
+  fullName: CRMScript.NetServer.MailboxType.ImapOAuth
+  type: Field
+  summary: "\n9: This is a Imap mailbox using OAuth authentication\n"
+  syntax: 
+    content: ImapOAuth = 9
+    type: CRMScript.NetServer.MailboxType
+references:
+- uid: CRMScript.NetServer.MailboxType
+  commentId: T:CRMScript.NetServer.MailboxType
+  isExternal: true
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: CRMScript.NetServer.MailboxType

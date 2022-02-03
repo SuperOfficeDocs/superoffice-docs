@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ImportAction
+  # Same as SuperOffice.Data.ImportAction
+  commentId: T:CRMScript.NetServer.ImportAction
+  id: ImportAction
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ImportAction.Unknown
+  - CRMScript.NetServer.ImportAction.PersonAdded
+  - CRMScript.NetServer.ImportAction.PersonUpdated
+  - CRMScript.NetServer.ImportAction.PersonNoChange
+  - CRMScript.NetServer.ImportAction.ContactAdded
+  - CRMScript.NetServer.ImportAction.ContactUpdated
+  - CRMScript.NetServer.ImportAction.ContactNoChange
+  - CRMScript.NetServer.ImportAction.ProductAdded
+  - CRMScript.NetServer.ImportAction.ProductUpdated
+  - CRMScript.NetServer.ImportAction.ProductNoChange
+  - CRMScript.NetServer.ImportAction.Obs
+  - CRMScript.NetServer.ImportAction.ObsERPDuplicate
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: CRMScript.NetServer.ImportAction
+  type: Enum
+  summary: "\nAction being done for the import row.\n"
+- uid: CRMScript.NetServer.ImportAction.Unknown
+  commentId: F:CRMScript.NetServer.ImportAction.Unknown
+  id: ImportAction.Unknown
+  langs:
+  - crmscript
+  name: ImportAction.Unknown
+  nameWithType: ImportAction.Unknown
+  fullName: CRMScript.NetServer.ImportAction.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.PersonAdded
+  commentId: F:CRMScript.NetServer.ImportAction.PersonAdded
+  id: ImportAction.PersonAdded
+  langs:
+  - crmscript
+  name: ImportAction.PersonAdded
+  nameWithType: ImportAction.PersonAdded
+  fullName: CRMScript.NetServer.ImportAction.PersonAdded
+  type: Field
+  summary: "\n1: PersonAdded\n"
+  syntax: 
+    content: PersonAdded = 1
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.PersonUpdated
+  commentId: F:CRMScript.NetServer.ImportAction.PersonUpdated
+  id: ImportAction.PersonUpdated
+  langs:
+  - crmscript
+  name: ImportAction.PersonUpdated
+  nameWithType: ImportAction.PersonUpdated
+  fullName: CRMScript.NetServer.ImportAction.PersonUpdated
+  type: Field
+  summary: "\n2: PersonUpdated\n"
+  syntax: 
+    content: PersonUpdated = 2
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.PersonNoChange
+  commentId: F:CRMScript.NetServer.ImportAction.PersonNoChange
+  id: ImportAction.PersonNoChange
+  langs:
+  - crmscript
+  name: ImportAction.PersonNoChange
+  nameWithType: ImportAction.PersonNoChange
+  fullName: CRMScript.NetServer.ImportAction.PersonNoChange
+  type: Field
+  summary: "\n4: PersonNoChange\n"
+  syntax: 
+    content: PersonNoChange = 4
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ContactAdded
+  commentId: F:CRMScript.NetServer.ImportAction.ContactAdded
+  id: ImportAction.ContactAdded
+  langs:
+  - crmscript
+  name: ImportAction.ContactAdded
+  nameWithType: ImportAction.ContactAdded
+  fullName: CRMScript.NetServer.ImportAction.ContactAdded
+  type: Field
+  summary: "\n8: ContactAdded\n"
+  syntax: 
+    content: ContactAdded = 8
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ContactUpdated
+  commentId: F:CRMScript.NetServer.ImportAction.ContactUpdated
+  id: ImportAction.ContactUpdated
+  langs:
+  - crmscript
+  name: ImportAction.ContactUpdated
+  nameWithType: ImportAction.ContactUpdated
+  fullName: CRMScript.NetServer.ImportAction.ContactUpdated
+  type: Field
+  summary: "\n16: ContactUpdated\n"
+  syntax: 
+    content: ContactUpdated = 16
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ContactNoChange
+  commentId: F:CRMScript.NetServer.ImportAction.ContactNoChange
+  id: ImportAction.ContactNoChange
+  langs:
+  - crmscript
+  name: ImportAction.ContactNoChange
+  nameWithType: ImportAction.ContactNoChange
+  fullName: CRMScript.NetServer.ImportAction.ContactNoChange
+  type: Field
+  summary: "\n32: ContactNoChange\n"
+  syntax: 
+    content: ContactNoChange = 32
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ProductAdded
+  commentId: F:CRMScript.NetServer.ImportAction.ProductAdded
+  id: ImportAction.ProductAdded
+  langs:
+  - crmscript
+  name: ImportAction.ProductAdded
+  nameWithType: ImportAction.ProductAdded
+  fullName: CRMScript.NetServer.ImportAction.ProductAdded
+  type: Field
+  summary: "\n64: ProductAdded\n"
+  syntax: 
+    content: ProductAdded = 64
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ProductUpdated
+  commentId: F:CRMScript.NetServer.ImportAction.ProductUpdated
+  id: ImportAction.ProductUpdated
+  langs:
+  - crmscript
+  name: ImportAction.ProductUpdated
+  nameWithType: ImportAction.ProductUpdated
+  fullName: CRMScript.NetServer.ImportAction.ProductUpdated
+  type: Field
+  summary: "\n128: ProductUpdated\n"
+  syntax: 
+    content: ProductUpdated = 128
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ProductNoChange
+  commentId: F:CRMScript.NetServer.ImportAction.ProductNoChange
+  id: ImportAction.ProductNoChange
+  langs:
+  - crmscript
+  name: ImportAction.ProductNoChange
+  nameWithType: ImportAction.ProductNoChange
+  fullName: CRMScript.NetServer.ImportAction.ProductNoChange
+  type: Field
+  summary: "\n256: ProductNoChange\n"
+  syntax: 
+    content: ProductNoChange = 256
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.Obs
+  commentId: F:CRMScript.NetServer.ImportAction.Obs
+  id: ImportAction.Obs
+  langs:
+  - crmscript
+  name: ImportAction.Obs
+  nameWithType: ImportAction.Obs
+  fullName: CRMScript.NetServer.ImportAction.Obs
+  type: Field
+  summary: "\n512: Obs\n"
+  syntax: 
+    content: Obs = 512
+    type: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportAction.ObsERPDuplicate
+  commentId: F:CRMScript.NetServer.ImportAction.ObsERPDuplicate
+  id: ImportAction.ObsERPDuplicate
+  langs:
+  - crmscript
+  name: ImportAction.ObsERPDuplicate
+  nameWithType: ImportAction.ObsERPDuplicate
+  fullName: CRMScript.NetServer.ImportAction.ObsERPDuplicate
+  type: Field
+  summary: "\n1024: ObsERPDuplicate\n"
+  syntax: 
+    content: ObsERPDuplicate = 1024
+    type: CRMScript.NetServer.ImportAction
+references:
+- uid: CRMScript.NetServer.ImportAction
+  commentId: T:CRMScript.NetServer.ImportAction
+  isExternal: true
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: CRMScript.NetServer.ImportAction

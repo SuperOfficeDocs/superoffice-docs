@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.DocTmplPrivacyType
+  # Same as SuperOffice.Data.DocTmplPrivacyType
+  commentId: T:CRMScript.NetServer.DocTmplPrivacyType
+  id: DocTmplPrivacyType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.DocTmplPrivacyType.None
+  - CRMScript.NetServer.DocTmplPrivacyType.PersonRegistered
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: CRMScript.NetServer.DocTmplPrivacyType
+  type: Enum
+  summary: "\nIs this document template some kind of quote document, and if so what.\n"
+- uid: CRMScript.NetServer.DocTmplPrivacyType.None
+  commentId: F:CRMScript.NetServer.DocTmplPrivacyType.None
+  id: DocTmplPrivacyType.None
+  langs:
+  - crmscript
+  name: DocTmplPrivacyType.None
+  nameWithType: DocTmplPrivacyType.None
+  fullName: CRMScript.NetServer.DocTmplPrivacyType.None
+  type: Field
+  summary: "\n0: This document template is in no way related to GDPR\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.DocTmplPrivacyType
+- uid: CRMScript.NetServer.DocTmplPrivacyType.PersonRegistered
+  commentId: F:CRMScript.NetServer.DocTmplPrivacyType.PersonRegistered
+  id: DocTmplPrivacyType.PersonRegistered
+  langs:
+  - crmscript
+  name: DocTmplPrivacyType.PersonRegistered
+  nameWithType: DocTmplPrivacyType.PersonRegistered
+  fullName: CRMScript.NetServer.DocTmplPrivacyType.PersonRegistered
+  type: Field
+  summary: "\n1: This is a template for the &apos;you have been added to our system&apos; kind of email; must be an .html email template\n"
+  syntax: 
+    content: PersonRegistered = 1
+    type: CRMScript.NetServer.DocTmplPrivacyType
+references:
+- uid: CRMScript.NetServer.DocTmplPrivacyType
+  commentId: T:CRMScript.NetServer.DocTmplPrivacyType
+  isExternal: true
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: CRMScript.NetServer.DocTmplPrivacyType

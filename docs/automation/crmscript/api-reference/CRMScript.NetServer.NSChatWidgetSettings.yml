@@ -1,0 +1,1101 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatWidgetSettings
+  commentId: T:CRMScript.NetServer.NSChatWidgetSettings
+  id: NSChatWidgetSettings
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatWidgetSettings.#ctor
+  - CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqCategory()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqEnabled()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetColor()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetFont()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetLanguageIsoCode()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetLogoBlobId()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetLogoEnabled()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetLogoName()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetOfflineFields()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetOfflineHeader()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetOfflineMessage()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPostFormEnabled()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPostFormHeader()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPostFormMessage()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPostTranscriptEnabled()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPreFormEnabled()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetPreFormMessage()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetRequiredFields()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetShowAgentPhoto()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetSize()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetTheme()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeMessage()
+  - CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeTitle()
+  - CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqCategory(NSKbCategory)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqEnabled(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetColor(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetFont(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetLanguageIsoCode(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetLogoBlobId(Integer)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetLogoEnabled(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetLogoName(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetOfflineFields(Integer)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetOfflineHeader(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetOfflineMessage(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPostFormEnabled(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPostFormHeader(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPostFormMessage(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPostTranscriptEnabled(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPreFormEnabled(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetPreFormMessage(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetRequiredFields(Integer)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetShowAgentPhoto(Bool)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetSize(Integer)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetTheme(Integer)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeMessage(String)
+  - CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeTitle(String)
+  name: NSChatWidgetSettings
+  nameWithType: NSChatWidgetSettings
+  fullName: CRMScript.NetServer.NSChatWidgetSettings
+  type: Class
+  summary: "\nDefines the look of the chat widget. Carrier object for ChatWidgetSettings.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatWidgetSettings.#ctor
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatWidgetSettings
+  langs:
+  - crmscript
+  name: NSChatWidgetSettings()
+  nameWithType: NSChatWidgetSettings.#ctor
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatWidgetSettings class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatWidgetSettings
+  example: 
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqCategory()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqCategory()
+  id: 'GetAutoFaqCategory()'
+  so.intellisense: NSChatWidgetSettings.GetAutoFaqCategory
+  langs:
+  - crmscript
+  name: 'GetAutoFaqCategory()'
+  nameWithType: NSChatWidgetSettings.GetAutoFaqCategory()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSKbCategory GetAutoFaqCategory()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSKbCategory
+      description: "Root folder for FAQ suggestions."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nNSKbCategory autoFaqCategory = thing.GetAutoFaqCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqEnabled()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqEnabled()
+  id: 'GetAutoFaqEnabled()'
+  so.intellisense: NSChatWidgetSettings.GetAutoFaqEnabled
+  langs:
+  - crmscript
+  name: 'GetAutoFaqEnabled()'
+  nameWithType: NSChatWidgetSettings.GetAutoFaqEnabled()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetAutoFaqEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAutoFaqEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable automatic FAQ suggestions."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool autoFaqEnabled = thing.GetAutoFaqEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetColor()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetColor()
+  id: 'GetColor()'
+  so.intellisense: NSChatWidgetSettings.GetColor
+  langs:
+  - crmscript
+  name: 'GetColor()'
+  nameWithType: NSChatWidgetSettings.GetColor()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetColor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetColor()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The base color of the widget."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString color = thing.GetColor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetFont()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetFont()
+  id: 'GetFont()'
+  so.intellisense: NSChatWidgetSettings.GetFont
+  langs:
+  - crmscript
+  name: 'GetFont()'
+  nameWithType: NSChatWidgetSettings.GetFont()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetFont()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFont()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The font used in the widget."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString font = thing.GetFont();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetLanguageIsoCode()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetLanguageIsoCode()
+  id: 'GetLanguageIsoCode()'
+  so.intellisense: NSChatWidgetSettings.GetLanguageIsoCode
+  langs:
+  - crmscript
+  name: 'GetLanguageIsoCode()'
+  nameWithType: NSChatWidgetSettings.GetLanguageIsoCode()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetLanguageIsoCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLanguageIsoCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The language ISO code for the widget language."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString languageIsoCode = thing.GetLanguageIsoCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetLogoBlobId()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetLogoBlobId()
+  id: 'GetLogoBlobId()'
+  so.intellisense: NSChatWidgetSettings.GetLogoBlobId
+  langs:
+  - crmscript
+  name: 'GetLogoBlobId()'
+  nameWithType: NSChatWidgetSettings.GetLogoBlobId()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetLogoBlobId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLogoBlobId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Blob ID that contains logo image."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger logoBlobId = thing.GetLogoBlobId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetLogoEnabled()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetLogoEnabled()
+  id: 'GetLogoEnabled()'
+  so.intellisense: NSChatWidgetSettings.GetLogoEnabled
+  langs:
+  - crmscript
+  name: 'GetLogoEnabled()'
+  nameWithType: NSChatWidgetSettings.GetLogoEnabled()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetLogoEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetLogoEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if the logo should be shown in the widget."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool logoEnabled = thing.GetLogoEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetLogoName()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetLogoName()
+  id: 'GetLogoName()'
+  so.intellisense: NSChatWidgetSettings.GetLogoName
+  langs:
+  - crmscript
+  name: 'GetLogoName()'
+  nameWithType: NSChatWidgetSettings.GetLogoName()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetLogoName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLogoName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "filename/description of logo (from blob)."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString logoName = thing.GetLogoName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineFields()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetOfflineFields()
+  id: 'GetOfflineFields()'
+  so.intellisense: NSChatWidgetSettings.GetOfflineFields
+  langs:
+  - crmscript
+  name: 'GetOfflineFields()'
+  nameWithType: NSChatWidgetSettings.GetOfflineFields()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineFields()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOfflineFields()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Required field when creating ticket in offline mode. See <xref href=\"CRMScript.NetServer.WidgetRequiredFields\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger offlineFields = thing.GetOfflineFields();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineHeader()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetOfflineHeader()
+  id: 'GetOfflineHeader()'
+  so.intellisense: NSChatWidgetSettings.GetOfflineHeader
+  langs:
+  - crmscript
+  name: 'GetOfflineHeader()'
+  nameWithType: NSChatWidgetSettings.GetOfflineHeader()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOfflineHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Offline text shown in widget header."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString offlineHeader = thing.GetOfflineHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineMessage()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetOfflineMessage()
+  id: 'GetOfflineMessage()'
+  so.intellisense: NSChatWidgetSettings.GetOfflineMessage
+  langs:
+  - crmscript
+  name: 'GetOfflineMessage()'
+  nameWithType: NSChatWidgetSettings.GetOfflineMessage()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetOfflineMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOfflineMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Offline message shown in widget."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString offlineMessage = thing.GetOfflineMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormEnabled()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPostFormEnabled()
+  id: 'GetPostFormEnabled()'
+  so.intellisense: NSChatWidgetSettings.GetPostFormEnabled
+  langs:
+  - crmscript
+  name: 'GetPostFormEnabled()'
+  nameWithType: NSChatWidgetSettings.GetPostFormEnabled()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetPostFormEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable post chat form."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool postFormEnabled = thing.GetPostFormEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormHeader()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPostFormHeader()
+  id: 'GetPostFormHeader()'
+  so.intellisense: NSChatWidgetSettings.GetPostFormHeader
+  langs:
+  - crmscript
+  name: 'GetPostFormHeader()'
+  nameWithType: NSChatWidgetSettings.GetPostFormHeader()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPostFormHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Header text to show in post chat form."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString postFormHeader = thing.GetPostFormHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormMessage()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPostFormMessage()
+  id: 'GetPostFormMessage()'
+  so.intellisense: NSChatWidgetSettings.GetPostFormMessage
+  langs:
+  - crmscript
+  name: 'GetPostFormMessage()'
+  nameWithType: NSChatWidgetSettings.GetPostFormMessage()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPostFormMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPostFormMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Message text to show in post chat form."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString postFormMessage = thing.GetPostFormMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPostTranscriptEnabled()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPostTranscriptEnabled()
+  id: 'GetPostTranscriptEnabled()'
+  so.intellisense: NSChatWidgetSettings.GetPostTranscriptEnabled
+  langs:
+  - crmscript
+  name: 'GetPostTranscriptEnabled()'
+  nameWithType: NSChatWidgetSettings.GetPostTranscriptEnabled()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPostTranscriptEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetPostTranscriptEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable transcript of chat session."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool postTranscriptEnabled = thing.GetPostTranscriptEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPreFormEnabled()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPreFormEnabled()
+  id: 'GetPreFormEnabled()'
+  so.intellisense: NSChatWidgetSettings.GetPreFormEnabled
+  langs:
+  - crmscript
+  name: 'GetPreFormEnabled()'
+  nameWithType: NSChatWidgetSettings.GetPreFormEnabled()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPreFormEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetPreFormEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable pre-chat form for anonymous users."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool preFormEnabled = thing.GetPreFormEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetPreFormMessage()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetPreFormMessage()
+  id: 'GetPreFormMessage()'
+  so.intellisense: NSChatWidgetSettings.GetPreFormMessage
+  langs:
+  - crmscript
+  name: 'GetPreFormMessage()'
+  nameWithType: NSChatWidgetSettings.GetPreFormMessage()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetPreFormMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPreFormMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Message to be shown in a pre-chat."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString preFormMessage = thing.GetPreFormMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetRequiredFields()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetRequiredFields()
+  id: 'GetRequiredFields()'
+  so.intellisense: NSChatWidgetSettings.GetRequiredFields
+  langs:
+  - crmscript
+  name: 'GetRequiredFields()'
+  nameWithType: NSChatWidgetSettings.GetRequiredFields()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetRequiredFields()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRequiredFields()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Fields required to start a chat. See <xref href=\"CRMScript.NetServer.WidgetRequiredFields\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger requiredFields = thing.GetRequiredFields();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetShowAgentPhoto()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetShowAgentPhoto()
+  id: 'GetShowAgentPhoto()'
+  so.intellisense: NSChatWidgetSettings.GetShowAgentPhoto
+  langs:
+  - crmscript
+  name: 'GetShowAgentPhoto()'
+  nameWithType: NSChatWidgetSettings.GetShowAgentPhoto()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetShowAgentPhoto()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowAgentPhoto()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Use agent photo and name when chatting."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool showAgentPhoto = thing.GetShowAgentPhoto();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetSize()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetSize()
+  id: 'GetSize()'
+  so.intellisense: NSChatWidgetSettings.GetSize
+  langs:
+  - crmscript
+  name: 'GetSize()'
+  nameWithType: NSChatWidgetSettings.GetSize()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetSize()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSize()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Chat widget size - normal or large. See <xref href=\"CRMScript.NetServer.ChatWidgetSize\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger size = thing.GetSize();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetTheme()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetTheme()
+  id: 'GetTheme()'
+  so.intellisense: NSChatWidgetSettings.GetTheme
+  langs:
+  - crmscript
+  name: 'GetTheme()'
+  nameWithType: NSChatWidgetSettings.GetTheme()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetTheme()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTheme()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Predefined themes for the chat widget. See <xref href=\"CRMScript.NetServer.WidgetTheme\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger theme = thing.GetTheme();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeMessage()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeMessage()
+  id: 'GetWelcomeMessage()'
+  so.intellisense: NSChatWidgetSettings.GetWelcomeMessage
+  langs:
+  - crmscript
+  name: 'GetWelcomeMessage()'
+  nameWithType: NSChatWidgetSettings.GetWelcomeMessage()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWelcomeMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Short message displayed as long as the request is in queue or active."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString welcomeMessage = thing.GetWelcomeMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeTitle()
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeTitle()
+  id: 'GetWelcomeTitle()'
+  so.intellisense: NSChatWidgetSettings.GetWelcomeTitle
+  langs:
+  - crmscript
+  name: 'GetWelcomeTitle()'
+  nameWithType: NSChatWidgetSettings.GetWelcomeTitle()
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.GetWelcomeTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWelcomeTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Short welcome message when user initiates a chat."
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString welcomeTitle = thing.GetWelcomeTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqCategory(NSKbCategory)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqCategory(NSKbCategory)
+  id: 'SetAutoFaqCategory(NSKbCategory)'
+  so.intellisense: NSChatWidgetSettings.SetAutoFaqCategory
+  langs:
+  - crmscript
+  name: 'SetAutoFaqCategory(NSKbCategory)'
+  nameWithType: NSChatWidgetSettings.SetAutoFaqCategory(NSKbCategory)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqCategory(NSKbCategory)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAutoFaqCategory(NSKbCategory autoFaqCategory)
+    parameters:
+    - id: autoFaqCategory
+      type: CRMScript.NetServer.NSKbCategory
+      description: "Root folder for FAQ suggestions."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nNSKbCategory autoFaqCategory;\nthing.SetAutoFaqCategory(autoFaqCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqEnabled(Bool)
+  id: 'SetAutoFaqEnabled(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetAutoFaqEnabled
+  langs:
+  - crmscript
+  name: 'SetAutoFaqEnabled(Bool)'
+  nameWithType: NSChatWidgetSettings.SetAutoFaqEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetAutoFaqEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAutoFaqEnabled(Bool autoFaqEnabled)
+    parameters:
+    - id: autoFaqEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable automatic FAQ suggestions."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool autoFaqEnabled;\nthing.SetAutoFaqEnabled(autoFaqEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetColor(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetColor(String)
+  id: 'SetColor(String)'
+  so.intellisense: NSChatWidgetSettings.SetColor
+  langs:
+  - crmscript
+  name: 'SetColor(String)'
+  nameWithType: NSChatWidgetSettings.SetColor(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetColor(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColor(String color)
+    parameters:
+    - id: color
+      type: CRMScript.Global.String
+      description: "The base color of the widget."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString color;\nthing.SetColor(color);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetFont(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetFont(String)
+  id: 'SetFont(String)'
+  so.intellisense: NSChatWidgetSettings.SetFont
+  langs:
+  - crmscript
+  name: 'SetFont(String)'
+  nameWithType: NSChatWidgetSettings.SetFont(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetFont(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFont(String font)
+    parameters:
+    - id: font
+      type: CRMScript.Global.String
+      description: "The font used in the widget."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString font;\nthing.SetFont(font);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetLanguageIsoCode(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetLanguageIsoCode(String)
+  id: 'SetLanguageIsoCode(String)'
+  so.intellisense: NSChatWidgetSettings.SetLanguageIsoCode
+  langs:
+  - crmscript
+  name: 'SetLanguageIsoCode(String)'
+  nameWithType: NSChatWidgetSettings.SetLanguageIsoCode(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetLanguageIsoCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLanguageIsoCode(String languageIsoCode)
+    parameters:
+    - id: languageIsoCode
+      type: CRMScript.Global.String
+      description: "The language ISO code for the widget language."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString languageIsoCode;\nthing.SetLanguageIsoCode(languageIsoCode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetLogoBlobId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetLogoBlobId(Integer)
+  id: 'SetLogoBlobId(Integer)'
+  so.intellisense: NSChatWidgetSettings.SetLogoBlobId
+  langs:
+  - crmscript
+  name: 'SetLogoBlobId(Integer)'
+  nameWithType: NSChatWidgetSettings.SetLogoBlobId(Integer)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetLogoBlobId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLogoBlobId(Integer logoBlobId)
+    parameters:
+    - id: logoBlobId
+      type: CRMScript.Global.Integer
+      description: "Blob ID that contains logo image."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger logoBlobId;\nthing.SetLogoBlobId(logoBlobId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetLogoEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetLogoEnabled(Bool)
+  id: 'SetLogoEnabled(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetLogoEnabled
+  langs:
+  - crmscript
+  name: 'SetLogoEnabled(Bool)'
+  nameWithType: NSChatWidgetSettings.SetLogoEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetLogoEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLogoEnabled(Bool logoEnabled)
+    parameters:
+    - id: logoEnabled
+      type: CRMScript.Global.Bool
+      description: "Indicates if the logo should be shown in the widget."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool logoEnabled;\nthing.SetLogoEnabled(logoEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetLogoName(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetLogoName(String)
+  id: 'SetLogoName(String)'
+  so.intellisense: NSChatWidgetSettings.SetLogoName
+  langs:
+  - crmscript
+  name: 'SetLogoName(String)'
+  nameWithType: NSChatWidgetSettings.SetLogoName(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetLogoName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLogoName(String logoName)
+    parameters:
+    - id: logoName
+      type: CRMScript.Global.String
+      description: "filename/description of logo (from blob)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString logoName;\nthing.SetLogoName(logoName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineFields(Integer)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetOfflineFields(Integer)
+  id: 'SetOfflineFields(Integer)'
+  so.intellisense: NSChatWidgetSettings.SetOfflineFields
+  langs:
+  - crmscript
+  name: 'SetOfflineFields(Integer)'
+  nameWithType: NSChatWidgetSettings.SetOfflineFields(Integer)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineFields(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetOfflineFields(Integer offlineFields)
+    parameters:
+    - id: offlineFields
+      type: CRMScript.Global.Integer
+      description: "Required field when creating a ticket in offline mode. See <xref href=\"CRMScript.NetServer.WidgetRequiredFields\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger offlineFields;\nthing.SetOfflineFields(offlineFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineHeader(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetOfflineHeader(String)
+  id: 'SetOfflineHeader(String)'
+  so.intellisense: NSChatWidgetSettings.SetOfflineHeader
+  langs:
+  - crmscript
+  name: 'SetOfflineHeader(String)'
+  nameWithType: NSChatWidgetSettings.SetOfflineHeader(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOfflineHeader(String offlineHeader)
+    parameters:
+    - id: offlineHeader
+      type: CRMScript.Global.String
+      description: "Offline text shown in widget header."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString offlineHeader;\nthing.SetOfflineHeader(offlineHeader);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetOfflineMessage(String)
+  id: 'SetOfflineMessage(String)'
+  so.intellisense: NSChatWidgetSettings.SetOfflineMessage
+  langs:
+  - crmscript
+  name: 'SetOfflineMessage(String)'
+  nameWithType: NSChatWidgetSettings.SetOfflineMessage(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOfflineMessage(String offlineMessage)
+    parameters:
+    - id: offlineMessage
+      type: CRMScript.Global.String
+      description: "Offline message shown in widget."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString offlineMessage;\nthing.SetOfflineMessage(offlineMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPostFormEnabled(Bool)
+  id: 'SetPostFormEnabled(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetPostFormEnabled
+  langs:
+  - crmscript
+  name: 'SetPostFormEnabled(Bool)'
+  nameWithType: NSChatWidgetSettings.SetPostFormEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostFormEnabled(Bool postFormEnabled)
+    parameters:
+    - id: postFormEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable post chat form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool postFormEnabled;\nthing.SetPostFormEnabled(postFormEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormHeader(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPostFormHeader(String)
+  id: 'SetPostFormHeader(String)'
+  so.intellisense: NSChatWidgetSettings.SetPostFormHeader
+  langs:
+  - crmscript
+  name: 'SetPostFormHeader(String)'
+  nameWithType: NSChatWidgetSettings.SetPostFormHeader(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostFormHeader(String postFormHeader)
+    parameters:
+    - id: postFormHeader
+      type: CRMScript.Global.String
+      description: "Header text to show in post chat form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString postFormHeader;\nthing.SetPostFormHeader(postFormHeader);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPostFormMessage(String)
+  id: 'SetPostFormMessage(String)'
+  so.intellisense: NSChatWidgetSettings.SetPostFormMessage
+  langs:
+  - crmscript
+  name: 'SetPostFormMessage(String)'
+  nameWithType: NSChatWidgetSettings.SetPostFormMessage(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPostFormMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostFormMessage(String postFormMessage)
+    parameters:
+    - id: postFormMessage
+      type: CRMScript.Global.String
+      description: "Message text to show in post chat form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString postFormMessage;\nthing.SetPostFormMessage(postFormMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPostTranscriptEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPostTranscriptEnabled(Bool)
+  id: 'SetPostTranscriptEnabled(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetPostTranscriptEnabled
+  langs:
+  - crmscript
+  name: 'SetPostTranscriptEnabled(Bool)'
+  nameWithType: NSChatWidgetSettings.SetPostTranscriptEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPostTranscriptEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostTranscriptEnabled(Bool postTranscriptEnabled)
+    parameters:
+    - id: postTranscriptEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable transcript of chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool postTranscriptEnabled;\nthing.SetPostTranscriptEnabled(postTranscriptEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPreFormEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPreFormEnabled(Bool)
+  id: 'SetPreFormEnabled(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetPreFormEnabled
+  langs:
+  - crmscript
+  name: 'SetPreFormEnabled(Bool)'
+  nameWithType: NSChatWidgetSettings.SetPreFormEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPreFormEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreFormEnabled(Bool preFormEnabled)
+    parameters:
+    - id: preFormEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable pre-chat form for anonymous users."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool preFormEnabled;\nthing.SetPreFormEnabled(preFormEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetPreFormMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetPreFormMessage(String)
+  id: 'SetPreFormMessage(String)'
+  so.intellisense: NSChatWidgetSettings.SetPreFormMessage
+  langs:
+  - crmscript
+  name: 'SetPreFormMessage(String)'
+  nameWithType: NSChatWidgetSettings.SetPreFormMessage(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetPreFormMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreFormMessage(String preFormMessage)
+    parameters:
+    - id: preFormMessage
+      type: CRMScript.Global.String
+      description: "Message to be shown in a pre-chat."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString preFormMessage;\nthing.SetPreFormMessage(preFormMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetRequiredFields(Integer)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetRequiredFields(Integer)
+  id: 'SetRequiredFields(Integer)'
+  so.intellisense: NSChatWidgetSettings.SetRequiredFields
+  langs:
+  - crmscript
+  name: 'SetRequiredFields(Integer)'
+  nameWithType: NSChatWidgetSettings.SetRequiredFields(Integer)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetRequiredFields(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetRequiredFields(Integer requiredFields)
+    parameters:
+    - id: requiredFields
+      type: CRMScript.Global.Integer
+      description: "Fields required to start a chat. See <xref href=\"CRMScript.NetServer.WidgetRequiredFields\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger requiredFields;\nthing.SetRequiredFields(requiredFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetShowAgentPhoto(Bool)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetShowAgentPhoto(Bool)
+  id: 'SetShowAgentPhoto(Bool)'
+  so.intellisense: NSChatWidgetSettings.SetShowAgentPhoto
+  langs:
+  - crmscript
+  name: 'SetShowAgentPhoto(Bool)'
+  nameWithType: NSChatWidgetSettings.SetShowAgentPhoto(Bool)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetShowAgentPhoto(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowAgentPhoto(Bool showAgentPhoto)
+    parameters:
+    - id: showAgentPhoto
+      type: CRMScript.Global.Bool
+      description: "Use agent photo and name when chatting."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nBool showAgentPhoto;\nthing.SetShowAgentPhoto(showAgentPhoto);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetSize(Integer)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetSize(Integer)
+  id: 'SetSize(Integer)'
+  so.intellisense: NSChatWidgetSettings.SetSize
+  langs:
+  - crmscript
+  name: 'SetSize(Integer)'
+  nameWithType: NSChatWidgetSettings.SetSize(Integer)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetSize(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSize(Integer size)
+    parameters:
+    - id: size
+      type: CRMScript.Global.Integer
+      description: "Chat widget size - normal or large. See <xref href=\"CRMScript.NetServer.ChatWidgetSize\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger size;\nthing.SetSize(size);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetTheme(Integer)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetTheme(Integer)
+  id: 'SetTheme(Integer)'
+  so.intellisense: NSChatWidgetSettings.SetTheme
+  langs:
+  - crmscript
+  name: 'SetTheme(Integer)'
+  nameWithType: NSChatWidgetSettings.SetTheme(Integer)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetTheme(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetTheme(Integer theme)
+    parameters:
+    - id: theme
+      type: CRMScript.Global.Integer
+      description: "Predefined themes for the chat widget. See <xref href=\"CRMScript.NetServer.WidgetTheme\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nInteger theme;\nthing.SetTheme(theme);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeMessage(String)
+  id: 'SetWelcomeMessage(String)'
+  so.intellisense: NSChatWidgetSettings.SetWelcomeMessage
+  langs:
+  - crmscript
+  name: 'SetWelcomeMessage(String)'
+  nameWithType: NSChatWidgetSettings.SetWelcomeMessage(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWelcomeMessage(String welcomeMessage)
+    parameters:
+    - id: welcomeMessage
+      type: CRMScript.Global.String
+      description: "Short message displayed as long as the request is in queue or active."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString welcomeMessage;\nthing.SetWelcomeMessage(welcomeMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeTitle(String)
+  commentId: M:CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeTitle(String)
+  id: 'SetWelcomeTitle(String)'
+  so.intellisense: NSChatWidgetSettings.SetWelcomeTitle
+  langs:
+  - crmscript
+  name: 'SetWelcomeTitle(String)'
+  nameWithType: NSChatWidgetSettings.SetWelcomeTitle(String)
+  fullName: CRMScript.NetServer.NSChatWidgetSettings.SetWelcomeTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWelcomeTitle(String welcomeTitle)
+    parameters:
+    - id: welcomeTitle
+      type: CRMScript.Global.String
+      description: "Short welcome message when user initiates a chat."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatWidgetSettings thing;\nString welcomeTitle;\nthing.SetWelcomeTitle(welcomeTitle);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatWidgetSettings
+  commentId: T:CRMScript.NetServer.NSChatWidgetSettings
+  isExternal: true
+  name: NSChatWidgetSettings
+  nameWithType: NSChatWidgetSettings
+  fullName: CRMScript.NetServer.NSChatWidgetSettings
+- uid: CRMScript.NetServer.NSKbCategory
+  commentId: T:CRMScript.NetServer.NSKbCategory
+  isExternal: true
+  name: NSKbCategory
+  nameWithType: NSKbCategory
+  fullName: CRMScript.NetServer.NSKbCategory
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.WidgetRequiredFields
+  commentId: T:CRMScript.NetServer.WidgetRequiredFields
+  isExternal: true
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ChatWidgetSize
+  commentId: T:CRMScript.NetServer.ChatWidgetSize
+  isExternal: true
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: CRMScript.NetServer.ChatWidgetSize
+- uid: CRMScript.NetServer.WidgetTheme
+  commentId: T:CRMScript.NetServer.WidgetTheme
+  isExternal: true
+  name: WidgetTheme
+  nameWithType: WidgetTheme
+  fullName: CRMScript.NetServer.WidgetTheme
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

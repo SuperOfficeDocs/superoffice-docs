@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.RoleType
+  # Same as SuperOffice.Data.RoleType
+  commentId: T:CRMScript.NetServer.RoleType
+  id: RoleType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.RoleType.Employee
+  - CRMScript.NetServer.RoleType.ExternalUser
+  - CRMScript.NetServer.RoleType.Anonymous
+  - CRMScript.NetServer.RoleType.System
+  name: RoleType
+  nameWithType: RoleType
+  fullName: CRMScript.NetServer.RoleType
+  type: Enum
+  summary: # TODO
+- uid: CRMScript.NetServer.RoleType.Employee
+  commentId: F:CRMScript.NetServer.RoleType.Employee
+  id: RoleType.Employee
+  langs:
+  - crmscript
+  name: RoleType.Employee
+  nameWithType: RoleType.Employee
+  fullName: CRMScript.NetServer.RoleType.Employee
+  type: Field
+  summary: "\n0: Normal employee\n"
+  syntax: 
+    content: Employee = 0
+    type: CRMScript.NetServer.RoleType
+- uid: CRMScript.NetServer.RoleType.ExternalUser
+  commentId: F:CRMScript.NetServer.RoleType.ExternalUser
+  id: RoleType.ExternalUser
+  langs:
+  - crmscript
+  name: RoleType.ExternalUser
+  nameWithType: RoleType.ExternalUser
+  fullName: CRMScript.NetServer.RoleType.ExternalUser
+  type: Field
+  summary: "\n1: External User\n"
+  syntax: 
+    content: ExternalUser = 1
+    type: CRMScript.NetServer.RoleType
+- uid: CRMScript.NetServer.RoleType.Anonymous
+  commentId: F:CRMScript.NetServer.RoleType.Anonymous
+  id: RoleType.Anonymous
+  langs:
+  - crmscript
+  name: RoleType.Anonymous
+  nameWithType: RoleType.Anonymous
+  fullName: CRMScript.NetServer.RoleType.Anonymous
+  type: Field
+  summary: "\n2: Anonymous (implicit) users.\n"
+  syntax: 
+    content: Anonymous = 2
+    type: CRMScript.NetServer.RoleType
+- uid: CRMScript.NetServer.RoleType.System
+  commentId: F:CRMScript.NetServer.RoleType.System
+  id: RoleType.System
+  langs:
+  - crmscript
+  name: RoleType.System
+  nameWithType: RoleType.System
+  fullName: CRMScript.NetServer.RoleType.System
+  type: Field
+  summary: "\n3: System users - sentry is bypassed for this kind of users.\n"
+  syntax: 
+    content: System = 3
+    type: CRMScript.NetServer.RoleType
+references:
+- uid: CRMScript.NetServer.RoleType
+  commentId: T:CRMScript.NetServer.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: CRMScript.NetServer.RoleType

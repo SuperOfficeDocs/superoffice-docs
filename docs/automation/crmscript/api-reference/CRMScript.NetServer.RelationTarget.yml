@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.RelationTarget
+  # Same as SuperOffice.Data.RelationTarget
+  commentId: T:CRMScript.NetServer.RelationTarget
+  id: RelationTarget
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.RelationTarget.None
+  - CRMScript.NetServer.RelationTarget.Contact
+  - CRMScript.NetServer.RelationTarget.Person
+  - CRMScript.NetServer.RelationTarget.Both
+  name: RelationTarget
+  nameWithType: RelationTarget
+  fullName: CRMScript.NetServer.RelationTarget
+  type: Enum
+  summary: "\nTarget type of relation. (Contact, person or both).\n"
+- uid: CRMScript.NetServer.RelationTarget.None
+  commentId: F:CRMScript.NetServer.RelationTarget.None
+  id: RelationTarget.None
+  langs:
+  - crmscript
+  name: RelationTarget.None
+  nameWithType: RelationTarget.None
+  fullName: CRMScript.NetServer.RelationTarget.None
+  type: Field
+  summary: "\n0: None\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.RelationTarget
+- uid: CRMScript.NetServer.RelationTarget.Contact
+  commentId: F:CRMScript.NetServer.RelationTarget.Contact
+  id: RelationTarget.Contact
+  langs:
+  - crmscript
+  name: RelationTarget.Contact
+  nameWithType: RelationTarget.Contact
+  fullName: CRMScript.NetServer.RelationTarget.Contact
+  type: Field
+  summary: "\n1: Contact\n"
+  syntax: 
+    content: Contact = 1
+    type: CRMScript.NetServer.RelationTarget
+- uid: CRMScript.NetServer.RelationTarget.Person
+  commentId: F:CRMScript.NetServer.RelationTarget.Person
+  id: RelationTarget.Person
+  langs:
+  - crmscript
+  name: RelationTarget.Person
+  nameWithType: RelationTarget.Person
+  fullName: CRMScript.NetServer.RelationTarget.Person
+  type: Field
+  summary: "\n2: Person\n"
+  syntax: 
+    content: Person = 2
+    type: CRMScript.NetServer.RelationTarget
+- uid: CRMScript.NetServer.RelationTarget.Both
+  commentId: F:CRMScript.NetServer.RelationTarget.Both
+  id: RelationTarget.Both
+  langs:
+  - crmscript
+  name: RelationTarget.Both
+  nameWithType: RelationTarget.Both
+  fullName: CRMScript.NetServer.RelationTarget.Both
+  type: Field
+  summary: "\n3: Both\n"
+  syntax: 
+    content: Both = 3
+    type: CRMScript.NetServer.RelationTarget
+references:
+- uid: CRMScript.NetServer.RelationTarget
+  commentId: T:CRMScript.NetServer.RelationTarget
+  isExternal: true
+  name: RelationTarget
+  nameWithType: RelationTarget
+  fullName: CRMScript.NetServer.RelationTarget

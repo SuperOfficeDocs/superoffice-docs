@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.SystemEventScope
+  # Same as SuperOffice.Data.SystemEventScope
+  commentId: T:CRMScript.NetServer.SystemEventScope
+  id: SystemEventScope
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.SystemEventScope.Undefined
+  - CRMScript.NetServer.SystemEventScope.SystemWide
+  - CRMScript.NetServer.SystemEventScope.Database
+  - CRMScript.NetServer.SystemEventScope.Group
+  - CRMScript.NetServer.SystemEventScope.User
+  name: SystemEventScope
+  nameWithType: SystemEventScope
+  fullName: CRMScript.NetServer.SystemEventScope
+  type: Enum
+  summary: "\nValue for field scope in table systemevent.\n"
+- uid: CRMScript.NetServer.SystemEventScope.Undefined
+  commentId: F:CRMScript.NetServer.SystemEventScope.Undefined
+  id: SystemEventScope.Undefined
+  langs:
+  - crmscript
+  name: SystemEventScope.Undefined
+  nameWithType: SystemEventScope.Undefined
+  fullName: CRMScript.NetServer.SystemEventScope.Undefined
+  type: Field
+  summary: "\n0: Undefined value (error)\n"
+  syntax: 
+    content: Undefined = 0
+    type: CRMScript.NetServer.SystemEventScope
+- uid: CRMScript.NetServer.SystemEventScope.SystemWide
+  commentId: F:CRMScript.NetServer.SystemEventScope.SystemWide
+  id: SystemEventScope.SystemWide
+  langs:
+  - crmscript
+  name: SystemEventScope.SystemWide
+  nameWithType: SystemEventScope.SystemWide
+  fullName: CRMScript.NetServer.SystemEventScope.SystemWide
+  type: Field
+  summary: "\n1: Value valid for all databases under this licence\n"
+  syntax: 
+    content: SystemWide = 1
+    type: CRMScript.NetServer.SystemEventScope
+- uid: CRMScript.NetServer.SystemEventScope.Database
+  commentId: F:CRMScript.NetServer.SystemEventScope.Database
+  id: SystemEventScope.Database
+  langs:
+  - crmscript
+  name: SystemEventScope.Database
+  nameWithType: SystemEventScope.Database
+  fullName: CRMScript.NetServer.SystemEventScope.Database
+  type: Field
+  summary: "\n2: Value valid for this database\n"
+  syntax: 
+    content: Database = 2
+    type: CRMScript.NetServer.SystemEventScope
+- uid: CRMScript.NetServer.SystemEventScope.Group
+  commentId: F:CRMScript.NetServer.SystemEventScope.Group
+  id: SystemEventScope.Group
+  langs:
+  - crmscript
+  name: SystemEventScope.Group
+  nameWithType: SystemEventScope.Group
+  fullName: CRMScript.NetServer.SystemEventScope.Group
+  type: Field
+  summary: "\n3: Value valid for this group\n"
+  syntax: 
+    content: Group = 3
+    type: CRMScript.NetServer.SystemEventScope
+- uid: CRMScript.NetServer.SystemEventScope.User
+  commentId: F:CRMScript.NetServer.SystemEventScope.User
+  id: SystemEventScope.User
+  langs:
+  - crmscript
+  name: SystemEventScope.User
+  nameWithType: SystemEventScope.User
+  fullName: CRMScript.NetServer.SystemEventScope.User
+  type: Field
+  summary: "\n4: Value valid for this user\n"
+  syntax: 
+    content: User = 4
+    type: CRMScript.NetServer.SystemEventScope
+references:
+- uid: CRMScript.NetServer.SystemEventScope
+  commentId: T:CRMScript.NetServer.SystemEventScope
+  isExternal: true
+  name: SystemEventScope
+  nameWithType: SystemEventScope
+  fullName: CRMScript.NetServer.SystemEventScope

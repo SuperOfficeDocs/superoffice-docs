@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent
+  # Same as SuperOffice.Data.TicketPriorityEscalateEvent
+  commentId: T:CRMScript.NetServer.TicketPriorityEscalateEvent
+  id: TicketPriorityEscalateEvent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketPriorityEscalateEvent.None
+  - CRMScript.NetServer.TicketPriorityEscalateEvent.Stop
+  - CRMScript.NetServer.TicketPriorityEscalateEvent.Continue
+  - CRMScript.NetServer.TicketPriorityEscalateEvent.Restart
+  name: TicketPriorityEscalateEvent
+  nameWithType: TicketPriorityEscalateEvent
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent
+  type: Enum
+  summary: "\nThe different types of escalate events that can be set.\n"
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent.None
+  commentId: F:CRMScript.NetServer.TicketPriorityEscalateEvent.None
+  id: TicketPriorityEscalateEvent.None
+  langs:
+  - crmscript
+  name: TicketPriorityEscalateEvent.None
+  nameWithType: TicketPriorityEscalateEvent.None
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent.None
+  type: Field
+  summary: "\n-1: No escalate event set\n"
+  syntax: 
+    content: None = -1
+    type: CRMScript.NetServer.TicketPriorityEscalateEvent
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent.Stop
+  commentId: F:CRMScript.NetServer.TicketPriorityEscalateEvent.Stop
+  id: TicketPriorityEscalateEvent.Stop
+  langs:
+  - crmscript
+  name: TicketPriorityEscalateEvent.Stop
+  nameWithType: TicketPriorityEscalateEvent.Stop
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent.Stop
+  type: Field
+  summary: "\n0: This event will stop the escalation chain\n"
+  syntax: 
+    content: Stop = 0
+    type: CRMScript.NetServer.TicketPriorityEscalateEvent
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent.Continue
+  commentId: F:CRMScript.NetServer.TicketPriorityEscalateEvent.Continue
+  id: TicketPriorityEscalateEvent.Continue
+  langs:
+  - crmscript
+  name: TicketPriorityEscalateEvent.Continue
+  nameWithType: TicketPriorityEscalateEvent.Continue
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent.Continue
+  type: Field
+  summary: "\n1: Continue the escalation event from where it was previously stopped.\n"
+  syntax: 
+    content: Continue = 1
+    type: CRMScript.NetServer.TicketPriorityEscalateEvent
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent.Restart
+  commentId: F:CRMScript.NetServer.TicketPriorityEscalateEvent.Restart
+  id: TicketPriorityEscalateEvent.Restart
+  langs:
+  - crmscript
+  name: TicketPriorityEscalateEvent.Restart
+  nameWithType: TicketPriorityEscalateEvent.Restart
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent.Restart
+  type: Field
+  summary: "\n2: Restart\n"
+  syntax: 
+    content: Restart = 2
+    type: CRMScript.NetServer.TicketPriorityEscalateEvent
+references:
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent
+  commentId: T:CRMScript.NetServer.TicketPriorityEscalateEvent
+  isExternal: true
+  name: TicketPriorityEscalateEvent
+  nameWithType: TicketPriorityEscalateEvent
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent

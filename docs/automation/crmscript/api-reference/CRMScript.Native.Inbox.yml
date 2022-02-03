@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Inbox
+  commentId: T:CRMScript.Native.Inbox
+  id: Inbox
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Inbox.#ctor
+  - CRMScript.Native.Inbox.addSmtpMail(String,String,Integer)
+  name: Inbox
+  nameWithType: Inbox
+  fullName: CRMScript.Native.Inbox
+  type: Class
+  summary: "\nA class for managing the inbox.\n"
+  example: 
+- uid: CRMScript.Native.Inbox.#ctor
+  commentId: M:CRMScript.Native.Inbox.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Inbox
+  langs:
+  - crmscript
+  name: Inbox()
+  nameWithType: Inbox.#ctor
+  fullName: CRMScript.Native.Inbox.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Inbox class.\n"
+  remarks: 
+  syntax: 
+    content: Inbox
+  example:
+- uid: CRMScript.Native.Inbox.addSmtpMail(String,String,Integer)
+  commentId: M:CRMScript.Native.Inbox.addSmtpMail(String,String,Integer)
+  id: 'addSmtpMail(String,String,Integer)'
+  so.intellisense: Inbox.addSmtpMail
+  langs:
+  - crmscript
+  name: 'addSmtpMail(String,String,Integer)'
+  nameWithType: Inbox.addSmtpMail(String,String,Integer)
+  fullName: CRMScript.Native.Inbox.addSmtpMail(String,String,Integer)
+  type: Method
+  summary: "\nInserts an SMTP formatted email into Service's inbox, which then will be imported when ejournalCron runs.\n"
+  remarks: 
+  syntax: 
+    content: Integer addSmtpMail(String smtpMail, String uidl, Integer filterId)
+    parameters:
+    - id: smtpMail
+      type: CRMScript.Global.String
+      description: "A string with an SMTP formatted mail. Must conform to the SMTP standard."
+    - id: uidl
+      type: CRMScript.Global.String
+      description: "The UIDL for this email. Can be anything, but it has to be unique for each email"
+    - id: filterId
+      type: CRMScript.Global.Integer
+      description: "The ID of the mailbox that this mail will be imported under."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the inserted email."
+  example: 
+references:
+- uid: CRMScript.Native.Inbox
+  commentId: T:CRMScript.Native.Inbox
+  isExternal: true
+  name: Inbox
+  nameWithType: Inbox
+  fullName: CRMScript.Native.Inbox
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer

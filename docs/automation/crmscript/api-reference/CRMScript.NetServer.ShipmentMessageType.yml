@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ShipmentMessageType
+  # Same as SuperOffice.Data.ShipmentMessageType
+  commentId: T:CRMScript.NetServer.ShipmentMessageType
+  id: ShipmentMessageType
+  children:
+  - CRMScript.NetServer.ShipmentMessageType.Document
+  - CRMScript.NetServer.ShipmentMessageType.Html
+  - CRMScript.NetServer.ShipmentMessageType.Plain
+  - CRMScript.NetServer.ShipmentMessageType.Sms
+  - CRMScript.NetServer.ShipmentMessageType.SourceView
+  langs:
+  - crmscript
+  name: ShipmentMessageType
+  nameWithType: ShipmentMessageType
+  fullName: CRMScript.NetServer.ShipmentMessageType
+  type: Enum
+  summary: "\nBitmask defining what type of shipment message this is. Consists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.ShipmentMessageType.Plain
+  commentId: F:CRMScript.NetServer.ShipmentMessageType.Plain
+  id: Plain
+  langs:
+  - crmscript
+  name: Plain
+  nameWithType: ShipmentMessageType.Plain
+  fullName: CRMScript.NetServer.ShipmentMessageType.Plain
+  type: Field
+  summary: "\n0: Contains a plain part\n"
+  syntax:
+    content: Plain = 0
+    return:
+      type: CRMScript.NetServer.ShipmentMessageType
+- uid: CRMScript.NetServer.ShipmentMessageType.Html
+  commentId: F:CRMScript.NetServer.ShipmentMessageType.Html
+  id: Html
+  langs:
+  - crmscript
+  name: Html
+  nameWithType: ShipmentMessageType.Html
+  fullName: CRMScript.NetServer.ShipmentMessageType.Html
+  type: Field
+  summary: "\n1: Contains a HTML part\n"
+  syntax:
+    content: Html = 1
+    return:
+      type: CRMScript.NetServer.ShipmentMessageType
+- uid: CRMScript.NetServer.ShipmentMessageType.SourceView
+  commentId: F:CRMScript.NetServer.ShipmentMessageType.SourceView
+  id: SourceView
+  langs:
+  - crmscript
+  name: SourceView
+  nameWithType: ShipmentMessageType.SourceView
+  fullName: CRMScript.NetServer.ShipmentMessageType.SourceView
+  type: Field
+  summary: "\n2: Obsolete\n"
+  syntax:
+    content: SourceView = 2
+    return:
+      type: CRMScript.NetServer.ShipmentMessageType
+- uid: CRMScript.NetServer.ShipmentMessageType.Sms
+  commentId: F:CRMScript.NetServer.ShipmentMessageType.Sms
+  id: Sms
+  langs:
+  - crmscript
+  name: Sms
+  nameWithType: ShipmentMessageType.Sms
+  fullName: CRMScript.NetServer.ShipmentMessageType.Sms
+  type: Field
+  summary: "\n4: Contains a SMS\n"
+  syntax:
+    content: Sms = 4
+    return:
+      type: CRMScript.NetServer.ShipmentMessageType
+- uid: CRMScript.NetServer.ShipmentMessageType.Document
+  commentId: F:CRMScript.NetServer.ShipmentMessageType.Document
+  id: Document
+  langs:
+  - crmscript
+  name: Document
+  nameWithType: ShipmentMessageType.Document
+  fullName: CRMScript.NetServer.ShipmentMessageType.Document
+  type: Field
+  summary: "\n8: Contains a document. The document_message field contains the id of the actual document\n"
+  syntax:
+    content: Document = 8
+    return:
+      type: CRMScript.NetServer.ShipmentMessageType
+references:
+- uid: CRMScript.NetServer.ShipmentMessageType
+  commentId: T:CRMScript.NetServer.ShipmentMessageType
+  isExternal: true
+  name: ShipmentMessageType
+  nameWithType: ShipmentMessageType
+  fullName: CRMScript.NetServer.ShipmentMessageType

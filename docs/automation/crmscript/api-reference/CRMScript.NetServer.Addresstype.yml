@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.AddressType
+  # Same as SuperOffice.Data.AddressType
+  commentId: T:CRMScript.NetServer.AddressType
+  id: AddressType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.AddressType.Unknown
+  - CRMScript.NetServer.AddressType.ContactPostalAddress
+  - CRMScript.NetServer.AddressType.ContactStreetAddress
+  - CRMScript.NetServer.AddressType.PersonPrivateAddress
+  - CRMScript.NetServer.AddressType.QuoteBillingAddress
+  - CRMScript.NetServer.AddressType.QuoteShippingAddress
+  name: AddressType
+  nameWithType: AddressType
+  fullName: CRMScript.NetServer.AddressType
+  type: Enum
+  summary: "\nThe type of Address.\n"
+- uid: CRMScript.NetServer.AddressType.Unknown
+  commentId: F:CRMScript.NetServer.AddressType.Unknown
+  id: AddressType.Unknown
+  langs:
+  - crmscript
+  name: AddressType.Unknown
+  nameWithType: AddressType.Unknown
+  fullName: CRMScript.NetServer.AddressType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing.\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.AddressType
+- uid: CRMScript.NetServer.AddressType.ContactPostalAddress
+  commentId: F:CRMScript.NetServer.AddressType.ContactPostalAddress
+  id: AddressType.ContactPostalAddress
+  langs:
+  - crmscript
+  name: AddressType.ContactPostalAddress
+  nameWithType: AddressType.ContactPostalAddress
+  fullName: CRMScript.NetServer.AddressType.ContactPostalAddress
+  type: Field
+  summary: "\n1: ContactPostalAddress. The address is a contact&apos;s postal address.\n"
+  syntax: 
+    content: ContactPostalAddress = 1
+    type: CRMScript.NetServer.AddressType
+- uid: CRMScript.NetServer.AddressType.ContactStreetAddress
+  commentId: F:CRMScript.NetServer.AddressType.ContactStreetAddress
+  id: AddressType.ContactStreetAddress
+  langs:
+  - crmscript
+  name: AddressType.ContactStreetAddress
+  nameWithType: AddressType.ContactStreetAddress
+  fullName: CRMScript.NetServer.AddressType.ContactStreetAddress
+  type: Field
+  summary: "\n2: ContactStreetAddress. The address is a contact&apos;s street address.\n"
+  syntax: 
+    content: ContactStreetAddress = 2
+    type: CRMScript.NetServer.AddressType
+- uid: CRMScript.NetServer.AddressType.PersonPrivateAddress
+  commentId: F:CRMScript.NetServer.AddressType.PersonPrivateAddress
+  id: AddressType.PersonPrivateAddress
+  langs:
+  - crmscript
+  name: AddressType.PersonPrivateAddress
+  nameWithType: AddressType.PersonPrivateAddress
+  fullName: CRMScript.NetServer.AddressType.PersonPrivateAddress
+  type: Field
+  summary: "\n16387: PersonPrivateAddress. The address is a person&apos;s private address.\n"
+  syntax: 
+    content: PersonPrivateAddress = 16387
+    type: CRMScript.NetServer.AddressType
+- uid: CRMScript.NetServer.AddressType.QuoteBillingAddress
+  commentId: F:CRMScript.NetServer.AddressType.QuoteBillingAddress
+  id: AddressType.QuoteBillingAddress
+  langs:
+  - crmscript
+  name: AddressType.QuoteBillingAddress
+  nameWithType: AddressType.QuoteBillingAddress
+  fullName: CRMScript.NetServer.AddressType.QuoteBillingAddress
+  type: Field
+  summary: "\n8196: QuoteBillingAddress\n"
+  syntax: 
+    content: QuoteBillingAddress = 8196
+    type: CRMScript.NetServer.AddressType
+- uid: CRMScript.NetServer.AddressType.QuoteShippingAddress
+  commentId: F:CRMScript.NetServer.AddressType.QuoteShippingAddress
+  id: AddressType.QuoteShippingAddress
+  langs:
+  - crmscript
+  name: AddressType.QuoteShippingAddress
+  nameWithType: AddressType.QuoteShippingAddress
+  fullName: CRMScript.NetServer.AddressType.QuoteShippingAddress
+  type: Field
+  summary: "\n8197: QuoteShippingAddress. The address is the shipping address for a quote.\n"
+  syntax: 
+    content: QuoteShippingAddress = 8197
+    type: CRMScript.NetServer.AddressType
+references:
+- uid: CRMScript.NetServer.AddressType
+  commentId: T:CRMScript.NetServer.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: CRMScript.NetServer.AddressType

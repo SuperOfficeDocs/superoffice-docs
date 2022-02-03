@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.PublishType
+  # Same as SuperOffice.Data.PublishType
+  commentId: T:CRMScript.NetServer.PublishType
+  id: PublishType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.PublishType.Undefined
+  - CRMScript.NetServer.PublishType.External
+  name: PublishType
+  nameWithType: PublishType
+  fullName: CRMScript.NetServer.PublishType
+  type: Enum
+  summary: "\nShould this field be published by default?\n"
+- uid: CRMScript.NetServer.PublishType.Undefined
+  commentId: F:CRMScript.NetServer.PublishType.Undefined
+  id: PublishType.Undefined
+  langs:
+  - crmscript
+  name: PublishType.Undefined
+  nameWithType: PublishType.Undefined
+  fullName: CRMScript.NetServer.PublishType.Undefined
+  type: Field
+  summary: "\n0: Undefined\n"
+  syntax: 
+    content: Undefined = 0
+    type: CRMScript.NetServer.PublishType
+- uid: CRMScript.NetServer.PublishType.External
+  commentId: F:CRMScript.NetServer.PublishType.External
+  id: PublishType.External
+  langs:
+  - crmscript
+  name: PublishType.External
+  nameWithType: PublishType.External
+  fullName: CRMScript.NetServer.PublishType.External
+  type: Field
+  summary: "\n1: Published to external persons\n"
+  syntax: 
+    content: External = 1
+    type: CRMScript.NetServer.PublishType
+references:
+- uid: CRMScript.NetServer.PublishType
+  commentId: T:CRMScript.NetServer.PublishType
+  isExternal: true
+  name: PublishType
+  nameWithType: PublishType
+  fullName: CRMScript.NetServer.PublishType

@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.FormSubmissionStatus
+  # Same as SuperOffice.Data.FormSubmissionStatus
+  commentId: T:CRMScript.NetServer.FormSubmissionStatus
+  id: FormSubmissionStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.FormSubmissionStatus.Unknown
+  - CRMScript.NetServer.FormSubmissionStatus.InProgress
+  - CRMScript.NetServer.FormSubmissionStatus.EmailVerification
+  - CRMScript.NetServer.FormSubmissionStatus.Submitted
+  - CRMScript.NetServer.FormSubmissionStatus.Processed
+  - CRMScript.NetServer.FormSubmissionStatus.Failed
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: CRMScript.NetServer.FormSubmissionStatus
+  type: Enum
+  summary: "\nWhat is the status of this submission.\n"
+- uid: CRMScript.NetServer.FormSubmissionStatus.Unknown
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.Unknown
+  id: FormSubmissionStatus.Unknown
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.Unknown
+  nameWithType: FormSubmissionStatus.Unknown
+  fullName: CRMScript.NetServer.FormSubmissionStatus.Unknown
+  type: Field
+  summary: "\n0: Unknown status\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.FormSubmissionStatus
+- uid: CRMScript.NetServer.FormSubmissionStatus.InProgress
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.InProgress
+  id: FormSubmissionStatus.InProgress
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.InProgress
+  nameWithType: FormSubmissionStatus.InProgress
+  fullName: CRMScript.NetServer.FormSubmissionStatus.InProgress
+  type: Field
+  summary: "\n1: The customer has started filling out fields but has not yet submitted.\n"
+  syntax: 
+    content: InProgress = 1
+    type: CRMScript.NetServer.FormSubmissionStatus
+- uid: CRMScript.NetServer.FormSubmissionStatus.EmailVerification
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.EmailVerification
+  id: FormSubmissionStatus.EmailVerification
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.EmailVerification
+  nameWithType: FormSubmissionStatus.EmailVerification
+  fullName: CRMScript.NetServer.FormSubmissionStatus.EmailVerification
+  type: Field
+  summary: "\n2: The customer has submitted but we are waiting for click from sent email.\n"
+  syntax: 
+    content: EmailVerification = 2
+    type: CRMScript.NetServer.FormSubmissionStatus
+- uid: CRMScript.NetServer.FormSubmissionStatus.Submitted
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.Submitted
+  id: FormSubmissionStatus.Submitted
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.Submitted
+  nameWithType: FormSubmissionStatus.Submitted
+  fullName: CRMScript.NetServer.FormSubmissionStatus.Submitted
+  type: Field
+  summary: "\n3: The form is submitted but has not yet been executed.\n"
+  syntax: 
+    content: Submitted = 3
+    type: CRMScript.NetServer.FormSubmissionStatus
+- uid: CRMScript.NetServer.FormSubmissionStatus.Processed
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.Processed
+  id: FormSubmissionStatus.Processed
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.Processed
+  nameWithType: FormSubmissionStatus.Processed
+  fullName: CRMScript.NetServer.FormSubmissionStatus.Processed
+  type: Field
+  summary: "\n4: The actions of the form have been executed.\n"
+  syntax: 
+    content: Processed = 4
+    type: CRMScript.NetServer.FormSubmissionStatus
+- uid: CRMScript.NetServer.FormSubmissionStatus.Failed
+  commentId: F:CRMScript.NetServer.FormSubmissionStatus.Failed
+  id: FormSubmissionStatus.Failed
+  langs:
+  - crmscript
+  name: FormSubmissionStatus.Failed
+  nameWithType: FormSubmissionStatus.Failed
+  fullName: CRMScript.NetServer.FormSubmissionStatus.Failed
+  type: Field
+  summary: "\n5: There was an error when processing the form.\n"
+  syntax: 
+    content: Failed = 5
+    type: CRMScript.NetServer.FormSubmissionStatus
+references:
+- uid: CRMScript.NetServer.FormSubmissionStatus
+  commentId: T:CRMScript.NetServer.FormSubmissionStatus
+  isExternal: true
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: CRMScript.NetServer.FormSubmissionStatus

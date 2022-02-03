@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.SenderMailMode
+  # Same as SuperOffice.Data.SenderMailMode
+  commentId: T:CRMScript.NetServer.SenderMailMode
+  id: SenderMailMode
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.SenderMailMode.UseDefaultSender
+  - CRMScript.NetServer.SenderMailMode.UseOurContact
+  - CRMScript.NetServer.SenderMailMode.UseSupportContact
+  - CRMScript.NetServer.SenderMailMode.UseLoggedInUser
+  name: SenderMailMode
+  nameWithType: SenderMailMode
+  fullName: CRMScript.NetServer.SenderMailMode
+  type: Enum
+  summary: "\nSender email mode\n"
+- uid: CRMScript.NetServer.SenderMailMode.UseDefaultSender
+  commentId: F:CRMScript.NetServer.SenderMailMode.UseDefaultSender
+  id: SenderMailMode.UseDefaultSender
+  langs:
+  - crmscript
+  name: SenderMailMode.UseDefaultSender
+  nameWithType: SenderMailMode.UseDefaultSender
+  fullName: CRMScript.NetServer.SenderMailMode.UseDefaultSender
+  type: Field
+  summary: "\n0: Use default sender, saved in template SenderEmailAddress\n"
+  syntax: 
+    content: UseDefaultSender = 0
+    type: CRMScript.NetServer.SenderMailMode
+- uid: CRMScript.NetServer.SenderMailMode.UseOurContact
+  commentId: F:CRMScript.NetServer.SenderMailMode.UseOurContact
+  id: SenderMailMode.UseOurContact
+  langs:
+  - crmscript
+  name: SenderMailMode.UseOurContact
+  nameWithType: SenderMailMode.UseOurContact
+  fullName: CRMScript.NetServer.SenderMailMode.UseOurContact
+  type: Field
+  summary: "\n1: Use persons our contact email address\n"
+  syntax: 
+    content: UseOurContact = 1
+    type: CRMScript.NetServer.SenderMailMode
+- uid: CRMScript.NetServer.SenderMailMode.UseSupportContact
+  commentId: F:CRMScript.NetServer.SenderMailMode.UseSupportContact
+  id: SenderMailMode.UseSupportContact
+  langs:
+  - crmscript
+  name: SenderMailMode.UseSupportContact
+  nameWithType: SenderMailMode.UseSupportContact
+  fullName: CRMScript.NetServer.SenderMailMode.UseSupportContact
+  type: Field
+  summary: "\n2: Use persons support contact.\n"
+  syntax: 
+    content: UseSupportContact = 2
+    type: CRMScript.NetServer.SenderMailMode
+- uid: CRMScript.NetServer.SenderMailMode.UseLoggedInUser
+  commentId: F:CRMScript.NetServer.SenderMailMode.UseLoggedInUser
+  id: SenderMailMode.UseLoggedInUser
+  langs:
+  - crmscript
+  name: SenderMailMode.UseLoggedInUser
+  nameWithType: SenderMailMode.UseLoggedInUser
+  fullName: CRMScript.NetServer.SenderMailMode.UseLoggedInUser
+  type: Field
+  summary: "\n3: Use logged in user.\n"
+  syntax: 
+    content: UseLoggedInUser = 3
+    type: CRMScript.NetServer.SenderMailMode
+references:
+- uid: CRMScript.NetServer.SenderMailMode
+  commentId: T:CRMScript.NetServer.SenderMailMode
+  isExternal: true
+  name: SenderMailMode
+  nameWithType: SenderMailMode
+  fullName: CRMScript.NetServer.SenderMailMode

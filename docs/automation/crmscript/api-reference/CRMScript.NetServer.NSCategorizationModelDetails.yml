@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCategorizationModelDetails
+  commentId: T:CRMScript.NetServer.NSCategorizationModelDetails
+  id: NSCategorizationModelDetails
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCategorizationModelDetails.#ctor
+  - CRMScript.NetServer.NSCategorizationModelDetails.GetAccuracy()
+  - CRMScript.NetServer.NSCategorizationModelDetails.GetModelBuiltDateTime()
+  - CRMScript.NetServer.NSCategorizationModelDetails.GetTicketCountForTraining()
+  - CRMScript.NetServer.NSCategorizationModelDetails.SetAccuracy(Float)
+  - CRMScript.NetServer.NSCategorizationModelDetails.SetModelBuiltDateTime(DateTime)
+  - CRMScript.NetServer.NSCategorizationModelDetails.SetTicketCountForTraining(Integer)
+  name: NSCategorizationModelDetails
+  nameWithType: NSCategorizationModelDetails
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails
+  type: Class
+  summary: "\nDetails about a categorization model in HugoAI. Carrier object for CategorizationModelDetails\n"
+  example: 
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.#ctor
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCategorizationModelDetails
+  langs:
+  - crmscript
+  name: NSCategorizationModelDetails()
+  nameWithType: NSCategorizationModelDetails.#ctor
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCategorizationModelDetails class.\n"
+  remarks: 
+  syntax: 
+    content: NSCategorizationModelDetails
+  example: 
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.GetAccuracy()
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.GetAccuracy()
+  id: 'GetAccuracy()'
+  so.intellisense: NSCategorizationModelDetails.GetAccuracy
+  langs:
+  - crmscript
+  name: 'GetAccuracy()'
+  nameWithType: NSCategorizationModelDetails.GetAccuracy()
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.GetAccuracy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAccuracy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Accuracy of the trained model."
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nFloat accuracy = thing.GetAccuracy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.GetModelBuiltDateTime()
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.GetModelBuiltDateTime()
+  id: 'GetModelBuiltDateTime()'
+  so.intellisense: NSCategorizationModelDetails.GetModelBuiltDateTime
+  langs:
+  - crmscript
+  name: 'GetModelBuiltDateTime()'
+  nameWithType: NSCategorizationModelDetails.GetModelBuiltDateTime()
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.GetModelBuiltDateTime()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetModelBuiltDateTime()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Time the training finished."
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nDateTime modelBuiltDateTime = thing.GetModelBuiltDateTime();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.GetTicketCountForTraining()
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.GetTicketCountForTraining()
+  id: 'GetTicketCountForTraining()'
+  so.intellisense: NSCategorizationModelDetails.GetTicketCountForTraining
+  langs:
+  - crmscript
+  name: 'GetTicketCountForTraining()'
+  nameWithType: NSCategorizationModelDetails.GetTicketCountForTraining()
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.GetTicketCountForTraining()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketCountForTraining()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of tickets used to train the model."
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nInteger ticketCountForTraining = thing.GetTicketCountForTraining();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.SetAccuracy(Float)
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.SetAccuracy(Float)
+  id: 'SetAccuracy(Float)'
+  so.intellisense: NSCategorizationModelDetails.SetAccuracy
+  langs:
+  - crmscript
+  name: 'SetAccuracy(Float)'
+  nameWithType: NSCategorizationModelDetails.SetAccuracy(Float)
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.SetAccuracy(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAccuracy(Float accuracy)
+    parameters:
+    - id: accuracy
+      type: CRMScript.Global.Float
+      description: "Accuracy of the trained model."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nFloat accuracy;\nthing.SetAccuracy(accuracy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.SetModelBuiltDateTime(DateTime)
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.SetModelBuiltDateTime(DateTime)
+  id: 'SetModelBuiltDateTime(DateTime)'
+  so.intellisense: NSCategorizationModelDetails.SetModelBuiltDateTime
+  langs:
+  - crmscript
+  name: 'SetModelBuiltDateTime(DateTime)'
+  nameWithType: NSCategorizationModelDetails.SetModelBuiltDateTime(DateTime)
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.SetModelBuiltDateTime(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetModelBuiltDateTime(DateTime modelBuiltDateTime)
+    parameters:
+    - id: modelBuiltDateTime
+      type: CRMScript.Global.DateTime
+      description: "Time the training finished."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nDateTime modelBuiltDateTime;\nthing.SetModelBuiltDateTime(modelBuiltDateTime);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationModelDetails.SetTicketCountForTraining(Integer)
+  commentId: M:CRMScript.NetServer.NSCategorizationModelDetails.SetTicketCountForTraining(Integer)
+  id: 'SetTicketCountForTraining(Integer)'
+  so.intellisense: NSCategorizationModelDetails.SetTicketCountForTraining
+  langs:
+  - crmscript
+  name: 'SetTicketCountForTraining(Integer)'
+  nameWithType: NSCategorizationModelDetails.SetTicketCountForTraining(Integer)
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails.SetTicketCountForTraining(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketCountForTraining(Integer ticketCountForTraining)
+    parameters:
+    - id: ticketCountForTraining
+      type: CRMScript.Global.Integer
+      description: "Number of tickets used to train the model."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationModelDetails thing;\nInteger ticketCountForTraining;\nthing.SetTicketCountForTraining(ticketCountForTraining);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCategorizationModelDetails
+  commentId: T:CRMScript.NetServer.NSCategorizationModelDetails
+  isExternal: true
+  name: NSCategorizationModelDetails
+  nameWithType: NSCategorizationModelDetails
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

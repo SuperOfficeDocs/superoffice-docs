@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.FieldMetadataType
+  # Same as SuperOffice.Data.FieldMetadataType
+  commentId: T:CRMScript.NetServer.FieldMetadataType
+  id: FieldMetadataType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.FieldMetadataType.Checkbox
+  - CRMScript.NetServer.FieldMetadataType.Text
+  - CRMScript.NetServer.FieldMetadataType.Password
+  - CRMScript.NetServer.FieldMetadataType.Integer
+  - CRMScript.NetServer.FieldMetadataType.Double
+  - CRMScript.NetServer.FieldMetadataType.List
+  - CRMScript.NetServer.FieldMetadataType.Date
+  - CRMScript.NetServer.FieldMetadataType.Label
+  name: FieldMetadataType
+  nameWithType: FieldMetadataType
+  fullName: CRMScript.NetServer.FieldMetadataType
+  type: Enum
+  summary: "\nDescribes the different types of controls that can appear in the Configure connection dialog.\n"
+- uid: CRMScript.NetServer.FieldMetadataType.Checkbox
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Checkbox
+  id: FieldMetadataType.Checkbox
+  langs:
+  - crmscript
+  name: FieldMetadataType.Checkbox
+  nameWithType: FieldMetadataType.Checkbox
+  fullName: CRMScript.NetServer.FieldMetadataType.Checkbox
+  type: Field
+  summary: "\n0: Checkbox widget: Boolean value\n"
+  syntax: 
+    content: Checkbox = 0
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Text
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Text
+  id: FieldMetadataType.Text
+  langs:
+  - crmscript
+  name: FieldMetadataType.Text
+  nameWithType: FieldMetadataType.Text
+  fullName: CRMScript.NetServer.FieldMetadataType.Text
+  type: Field
+  summary: "\n1: Single-line textbox\n"
+  syntax: 
+    content: Text = 1
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Password
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Password
+  id: FieldMetadataType.Password
+  langs:
+  - crmscript
+  name: FieldMetadataType.Password
+  nameWithType: FieldMetadataType.Password
+  fullName: CRMScript.NetServer.FieldMetadataType.Password
+  type: Field
+  summary: "\n2: Single-line edit field with password characters - input is hidden.\n"
+  syntax: 
+    content: Password = 2
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Integer
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Integer
+  id: FieldMetadataType.Integer
+  langs:
+  - crmscript
+  name: FieldMetadataType.Integer
+  nameWithType: FieldMetadataType.Integer
+  fullName: CRMScript.NetServer.FieldMetadataType.Integer
+  type: Field
+  summary: "\n3: Single-line integer number field.\n"
+  syntax: 
+    content: Integer = 3
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Double
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Double
+  id: FieldMetadataType.Double
+  langs:
+  - crmscript
+  name: FieldMetadataType.Double
+  nameWithType: FieldMetadataType.Double
+  fullName: CRMScript.NetServer.FieldMetadataType.Double
+  type: Field
+  summary: "\n4: Single-line decimal number field.\n"
+  syntax: 
+    content: Double = 4
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.List
+  commentId: F:CRMScript.NetServer.FieldMetadataType.List
+  id: FieldMetadataType.List
+  langs:
+  - crmscript
+  name: FieldMetadataType.List
+  nameWithType: FieldMetadataType.List
+  fullName: CRMScript.NetServer.FieldMetadataType.List
+  type: Field
+  summary: "\n5: Drop-down listbox. The list name must be provided. The list items are provided by another interface. The default value should be the list key, not the text of the list item.\n"
+  syntax: 
+    content: List = 5
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Date
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Date
+  id: FieldMetadataType.Date
+  langs:
+  - crmscript
+  name: FieldMetadataType.Date
+  nameWithType: FieldMetadataType.Date
+  fullName: CRMScript.NetServer.FieldMetadataType.Date
+  type: Field
+  summary: "\n6: Date\n"
+  syntax: 
+    content: Date = 6
+    type: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldMetadataType.Label
+  commentId: F:CRMScript.NetServer.FieldMetadataType.Label
+  id: FieldMetadataType.Label
+  langs:
+  - crmscript
+  name: FieldMetadataType.Label
+  nameWithType: FieldMetadataType.Label
+  fullName: CRMScript.NetServer.FieldMetadataType.Label
+  type: Field
+  summary: "\n99: Static text - has no input widget associated with it. Can be used for spacing/layout.\n"
+  syntax: 
+    content: Label = 99
+    type: CRMScript.NetServer.FieldMetadataType
+references:
+- uid: CRMScript.NetServer.FieldMetadataType
+  commentId: T:CRMScript.NetServer.FieldMetadataType
+  isExternal: true
+  name: FieldMetadataType
+  nameWithType: FieldMetadataType
+  fullName: CRMScript.NetServer.FieldMetadataType

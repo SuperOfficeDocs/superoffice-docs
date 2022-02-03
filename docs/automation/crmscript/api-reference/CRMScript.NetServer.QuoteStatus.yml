@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.QuoteStatus
+  # Same as SuperOffice.Data.QuoteStatus
+  commentId: T:CRMScript.NetServer.QuoteStatus
+  id: QuoteStatus
+  children:
+  - CRMScript.NetServer.QuoteStatus.Error
+  - CRMScript.NetServer.QuoteStatus.Ok
+  - CRMScript.NetServer.QuoteStatus.OkWithInfo
+  - CRMScript.NetServer.QuoteStatus.Warning
+  langs:
+  - crmscript
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: CRMScript.NetServer.QuoteStatus
+  type: Enum
+  summary: "\nThe state of a quote-alternative or line.\n"
+- uid: CRMScript.NetServer.QuoteStatus.Ok
+  commentId: F:CRMScript.NetServer.QuoteStatus.Ok
+  id: Ok
+  langs:
+  - crmscript
+  name: Ok
+  nameWithType: QuoteStatus.Ok
+  fullName: CRMScript.NetServer.QuoteStatus.Ok
+  type: Field
+  summary: "\n0: OK, all is good\n"
+  syntax:
+    content: Ok = 0
+    return:
+      type: CRMScript.NetServer.QuoteStatus
+- uid: CRMScript.NetServer.QuoteStatus.OkWithInfo
+  commentId: F:CRMScript.NetServer.QuoteStatus.OkWithInfo
+  id: OkWithInfo
+  langs:
+  - crmscript
+  name: OkWithInfo
+  nameWithType: QuoteStatus.OkWithInfo
+  fullName: CRMScript.NetServer.QuoteStatus.OkWithInfo
+  type: Field
+  summary: "\n1: All is good, but there is some additional information that the user should be made aware of.\n"
+  syntax:
+    content: OkWithInfo = 1
+    return:
+      type: CRMScript.NetServer.QuoteStatus
+- uid: CRMScript.NetServer.QuoteStatus.Warning
+  commentId: F:CRMScript.NetServer.QuoteStatus.Warning
+  id: Warning
+  langs:
+  - crmscript
+  name: Warning
+  nameWithType: QuoteStatus.Warning
+  fullName: CRMScript.NetServer.QuoteStatus.Warning
+  type: Field
+  summary: "\n2: There is a problem that the user must be made aware of.\n"
+  syntax:
+    content: Warning = 2
+    return:
+      type: CRMScript.NetServer.QuoteStatus
+- uid: CRMScript.NetServer.QuoteStatus.Error
+  commentId: F:CRMScript.NetServer.QuoteStatus.Error
+  id: Error
+  langs:
+  - crmscript
+  name: Error
+  nameWithType: QuoteStatus.Error
+  fullName: CRMScript.NetServer.QuoteStatus.Error
+  type: Field
+  summary: "\n3: There is a problem that the system will not be able to get around. The user needs to do something. Example: The user has registered a quote line that is discontinued and the amount the user has registered is not in stock.\n"
+  syntax:
+    content: Error = 3
+    return:
+      type: CRMScript.NetServer.QuoteStatus
+references:
+- uid: CRMScript.NetServer.QuoteStatus
+  commentId: T:CRMScript.NetServer.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: CRMScript.NetServer.QuoteStatus

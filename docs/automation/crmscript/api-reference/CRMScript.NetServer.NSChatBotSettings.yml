@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatBotSettings
+  commentId: T:CRMScript.NetServer.NSChatBotSettings
+  id: NSChatBotSettings
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatBotSettings.#ctor
+  - CRMScript.NetServer.NSChatBotSettings.GetBotMessageReceivedScriptId()
+  - CRMScript.NetServer.NSChatBotSettings.GetBotName()
+  - CRMScript.NetServer.NSChatBotSettings.GetBotRegisterScriptId()
+  - CRMScript.NetServer.NSChatBotSettings.GetBotSessionChangedScriptId()
+  - CRMScript.NetServer.NSChatBotSettings.GetBotSessionCreatedScriptId()
+  - CRMScript.NetServer.NSChatBotSettings.SetBotMessageReceivedScriptId(Integer)
+  - CRMScript.NetServer.NSChatBotSettings.SetBotName(String)
+  - CRMScript.NetServer.NSChatBotSettings.SetBotRegisterScriptId(Integer)
+  - CRMScript.NetServer.NSChatBotSettings.SetBotSessionChangedScriptId(Integer)
+  - CRMScript.NetServer.NSChatBotSettings.SetBotSessionCreatedScriptId(Integer)
+  name: NSChatBotSettings
+  nameWithType: NSChatBotSettings
+  fullName: CRMScript.NetServer.NSChatBotSettings
+  type: Class
+  summary: "\nChat topic bot settings. Trigger script ids to run on bot events. Carrier object for ChatBotSettings.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatBotSettings.#ctor
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatBotSettings
+  langs:
+  - crmscript
+  name: NSChatBotSettings()
+  nameWithType: NSChatBotSettings.#ctor
+  fullName: CRMScript.NetServer.NSChatBotSettings.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatBotSettings class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatBotSettings
+  example: 
+- uid: CRMScript.NetServer.NSChatBotSettings.GetBotMessageReceivedScriptId()
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.GetBotMessageReceivedScriptId()
+  id: 'GetBotMessageReceivedScriptId()'
+  so.intellisense: NSChatBotSettings.GetBotMessageReceivedScriptId
+  langs:
+  - crmscript
+  name: 'GetBotMessageReceivedScriptId()'
+  nameWithType: NSChatBotSettings.GetBotMessageReceivedScriptId()
+  fullName: CRMScript.NetServer.NSChatBotSettings.GetBotMessageReceivedScriptId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBotMessageReceivedScriptId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Script ID to run when new messages received from customer."
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botMessageReceivedScriptId = thing.GetBotMessageReceivedScriptId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.GetBotName()
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.GetBotName()
+  id: 'GetBotName()'
+  so.intellisense: NSChatBotSettings.GetBotName
+  langs:
+  - crmscript
+  name: 'GetBotName()'
+  nameWithType: NSChatBotSettings.GetBotName()
+  fullName: CRMScript.NetServer.NSChatBotSettings.GetBotName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBotName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Chatbot name."
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nString botName = thing.GetBotName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.GetBotRegisterScriptId()
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.GetBotRegisterScriptId()
+  id: 'GetBotRegisterScriptId()'
+  so.intellisense: NSChatBotSettings.GetBotRegisterScriptId
+  langs:
+  - crmscript
+  name: 'GetBotRegisterScriptId()'
+  nameWithType: NSChatBotSettings.GetBotRegisterScriptId()
+  fullName: CRMScript.NetServer.NSChatBotSettings.GetBotRegisterScriptId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBotRegisterScriptId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Script ID to register/unregister chatbot. 0 if there is no bot."
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botRegisterScriptId = thing.GetBotRegisterScriptId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.GetBotSessionChangedScriptId()
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.GetBotSessionChangedScriptId()
+  id: 'GetBotSessionChangedScriptId()'
+  so.intellisense: NSChatBotSettings.GetBotSessionChangedScriptId
+  langs:
+  - crmscript
+  name: 'GetBotSessionChangedScriptId()'
+  nameWithType: NSChatBotSettings.GetBotSessionChangedScriptId()
+  fullName: CRMScript.NetServer.NSChatBotSettings.GetBotSessionChangedScriptId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBotSessionChangedScriptId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Script ID to run when session state changes."
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botSessionChangedScriptId = thing.GetBotSessionChangedScriptId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.GetBotSessionCreatedScriptId()
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.GetBotSessionCreatedScriptId()
+  id: 'GetBotSessionCreatedScriptId()'
+  so.intellisense: NSChatBotSettings.GetBotSessionCreatedScriptId
+  langs:
+  - crmscript
+  name: 'GetBotSessionCreatedScriptId()'
+  nameWithType: NSChatBotSettings.GetBotSessionCreatedScriptId()
+  fullName: CRMScript.NetServer.NSChatBotSettings.GetBotSessionCreatedScriptId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBotSessionCreatedScriptId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Script ID to run on new session."
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botSessionCreatedScriptId = thing.GetBotSessionCreatedScriptId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.SetBotMessageReceivedScriptId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.SetBotMessageReceivedScriptId(Integer)
+  id: 'SetBotMessageReceivedScriptId(Integer)'
+  so.intellisense: NSChatBotSettings.SetBotMessageReceivedScriptId
+  langs:
+  - crmscript
+  name: 'SetBotMessageReceivedScriptId(Integer)'
+  nameWithType: NSChatBotSettings.SetBotMessageReceivedScriptId(Integer)
+  fullName: CRMScript.NetServer.NSChatBotSettings.SetBotMessageReceivedScriptId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotMessageReceivedScriptId(Integer botMessageReceivedScriptId)
+    parameters:
+    - id: botMessageReceivedScriptId
+      type: CRMScript.Global.Integer
+      description: "Script ID to run when new messages received from customer."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botMessageReceivedScriptId;\nthing.SetBotMessageReceivedScriptId(botMessageReceivedScriptId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.SetBotName(String)
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.SetBotName(String)
+  id: 'SetBotName(String)'
+  so.intellisense: NSChatBotSettings.SetBotName
+  langs:
+  - crmscript
+  name: 'SetBotName(String)'
+  nameWithType: NSChatBotSettings.SetBotName(String)
+  fullName: CRMScript.NetServer.NSChatBotSettings.SetBotName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotName(String botName)
+    parameters:
+    - id: botName
+      type: CRMScript.Global.String
+      description: "Chatbot name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nString botName;\nthing.SetBotName(botName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.SetBotRegisterScriptId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.SetBotRegisterScriptId(Integer)
+  id: 'SetBotRegisterScriptId(Integer)'
+  so.intellisense: NSChatBotSettings.SetBotRegisterScriptId
+  langs:
+  - crmscript
+  name: 'SetBotRegisterScriptId(Integer)'
+  nameWithType: NSChatBotSettings.SetBotRegisterScriptId(Integer)
+  fullName: CRMScript.NetServer.NSChatBotSettings.SetBotRegisterScriptId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotRegisterScriptId(Integer botRegisterScriptId)
+    parameters:
+    - id: botRegisterScriptId
+      type: CRMScript.Global.Integer
+      description: "Script ID to register/unregister chatbot. 0 if there is no bot."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botRegisterScriptId;\nthing.SetBotRegisterScriptId(botRegisterScriptId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.SetBotSessionChangedScriptId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.SetBotSessionChangedScriptId(Integer)
+  id: 'SetBotSessionChangedScriptId(Integer)'
+  so.intellisense: NSChatBotSettings.SetBotSessionChangedScriptId
+  langs:
+  - crmscript
+  name: 'SetBotSessionChangedScriptId(Integer)'
+  nameWithType: NSChatBotSettings.SetBotSessionChangedScriptId(Integer)
+  fullName: CRMScript.NetServer.NSChatBotSettings.SetBotSessionChangedScriptId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotSessionChangedScriptId(Integer botSessionChangedScriptId)
+    parameters:
+    - id: botSessionChangedScriptId
+      type: CRMScript.Global.Integer
+      description: "Script ID to run when session state changes."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botSessionChangedScriptId;\nthing.SetBotSessionChangedScriptId(botSessionChangedScriptId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatBotSettings.SetBotSessionCreatedScriptId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatBotSettings.SetBotSessionCreatedScriptId(Integer)
+  id: 'SetBotSessionCreatedScriptId(Integer)'
+  so.intellisense: NSChatBotSettings.SetBotSessionCreatedScriptId
+  langs:
+  - crmscript
+  name: 'SetBotSessionCreatedScriptId(Integer)'
+  nameWithType: NSChatBotSettings.SetBotSessionCreatedScriptId(Integer)
+  fullName: CRMScript.NetServer.NSChatBotSettings.SetBotSessionCreatedScriptId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotSessionCreatedScriptId(Integer botSessionCreatedScriptId)
+    parameters:
+    - id: botSessionCreatedScriptId
+      type: CRMScript.Global.Integer
+      description: "Script ID to run on new session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatBotSettings thing;\nInteger botSessionCreatedScriptId;\nthing.SetBotSessionCreatedScriptId(botSessionCreatedScriptId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatBotSettings
+  commentId: T:CRMScript.NetServer.NSChatBotSettings
+  isExternal: true
+  name: NSChatBotSettings
+  nameWithType: NSChatBotSettings
+  fullName: CRMScript.NetServer.NSChatBotSettings
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

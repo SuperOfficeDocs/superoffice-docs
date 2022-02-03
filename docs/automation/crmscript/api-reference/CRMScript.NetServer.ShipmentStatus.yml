@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ShipmentStatus
+  # Same as SuperOffice.Data.ShipmentStatus
+  commentId: T:CRMScript.NetServer.ShipmentStatus
+  id: ShipmentStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ShipmentStatus.AwaitPopulate
+  - CRMScript.NetServer.ShipmentStatus.Canceled
+  - CRMScript.NetServer.ShipmentStatus.Deleted
+  - CRMScript.NetServer.ShipmentStatus.None
+  - CRMScript.NetServer.ShipmentStatus.Ok
+  - CRMScript.NetServer.ShipmentStatus.PopulateAborted
+  - CRMScript.NetServer.ShipmentStatus.PopulateError
+  - CRMScript.NetServer.ShipmentStatus.Populating
+  - CRMScript.NetServer.ShipmentStatus.PopulatingOnly
+  - CRMScript.NetServer.ShipmentStatus.Retry
+  - CRMScript.NetServer.ShipmentStatus.Started
+  - CRMScript.NetServer.ShipmentStatus.StatusFailed
+  - CRMScript.NetServer.ShipmentStatus.TooManyRecipients
+  - CRMScript.NetServer.ShipmentStatus.Waiting
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: CRMScript.NetServer.ShipmentStatus
+  type: Enum
+  summary: "\nStatus for shipment (started, cancelled etc).\n"
+- uid: CRMScript.NetServer.ShipmentStatus.None
+  commentId: F:CRMScript.NetServer.ShipmentStatus.None
+  id: None
+  langs:
+  - crmscript
+  name: None
+  nameWithType: ShipmentStatus.None
+  fullName: CRMScript.NetServer.ShipmentStatus.None
+  type: Field
+  summary: "\n0: Initial status, shipment is left alone, can be used for working with shipment\n"
+  syntax:
+    content: None = 0
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Ok
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Ok
+  id: Ok
+  langs:
+  - crmscript
+  name: Ok
+  nameWithType: ShipmentStatus.Ok
+  fullName: CRMScript.NetServer.ShipmentStatus.Ok
+  type: Field
+  summary: "\nFinished, no errors.\n"
+  syntax:
+    content: Ok = 1
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Canceled
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Canceled
+  id: Canceled
+  langs:
+  - crmscript
+  name: Canceled
+  nameWithType: ShipmentStatus.Canceled
+  fullName: CRMScript.NetServer.ShipmentStatus.Canceled
+  type: Field
+  summary: "\nStopped by user.\n"
+  syntax:
+    content: Canceled = 2
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Waiting
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Waiting
+  id: Waiting
+  langs:
+  - crmscript
+  name: Waiting
+  nameWithType: ShipmentStatus.Waiting
+  fullName: CRMScript.NetServer.ShipmentStatus.Waiting
+  type: Field
+  summary: "\nReady for execution, in the queue.\n"
+  syntax:
+    content: Waiting = 3
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Started
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Started
+  id: Started
+  langs:
+  - crmscript
+  name: Started
+  nameWithType: ShipmentStatus.Started
+  fullName: CRMScript.NetServer.ShipmentStatus.Started
+  type: Field
+  summary: "\nExecuting (sending).\n"
+  syntax:
+    content: Started = 4
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.StatusFailed
+  commentId: F:CRMScript.NetServer.ShipmentStatus.StatusFailed
+  id: StatusFailed
+  langs:
+  - crmscript
+  name: StatusFailed
+  nameWithType: ShipmentStatus.StatusFailed
+  fullName: CRMScript.NetServer.ShipmentStatus.StatusFailed
+  type: Field
+  summary: "\nFinished, had some errors.\n"
+  syntax:
+    content: StatusFailed = 5
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Retry
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Retry
+  id: Retry
+  langs:
+  - crmscript
+  name: Retry
+  nameWithType: ShipmentStatus.Retry
+  fullName: CRMScript.NetServer.ShipmentStatus.Retry
+  type: Field
+  summary: "\nRetrying the addresses which did not work\n"
+  syntax:
+    content: Retry = 6
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Populating
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Populating
+  id: Populating
+  langs:
+  - crmscript
+  name: Populating
+  nameWithType: ShipmentStatus.Populating
+  fullName: CRMScript.NetServer.ShipmentStatus.Populating
+  type: Field
+  summary: "\nBetween waiting and starting. Used when we populate the recipient lists.\n"
+  syntax:
+    content: Populating = 7
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.Deleted
+  commentId: F:CRMScript.NetServer.ShipmentStatus.Deleted
+  id: Deleted
+  langs:
+  - crmscript
+  name: Deleted
+  nameWithType: ShipmentStatus.Deleted
+  fullName: CRMScript.NetServer.ShipmentStatus.Deleted
+  type: Field
+  summary: "\nDeleted\n"
+  syntax:
+    content: Deleted = 8
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.AwaitPopulate
+  commentId: F:CRMScript.NetServer.ShipmentStatus.AwaitPopulate
+  id: AwaitPopulate
+  langs:
+  - crmscript
+  name: AwaitPopulate
+  nameWithType: ShipmentStatus.AwaitPopulate
+  fullName: CRMScript.NetServer.ShipmentStatus.AwaitPopulate
+  type: Field
+  summary: "\nAwaiting ejournalCron to start populate\n"
+  syntax:
+    content: AwaitPopulate = 9
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.PopulatingOnly
+  commentId: F:CRMScript.NetServer.ShipmentStatus.PopulatingOnly
+  id: PopulatingOnly
+  langs:
+  - crmscript
+  name: PopulatingOnly
+  nameWithType: ShipmentStatus.PopulatingOnly
+  fullName: CRMScript.NetServer.ShipmentStatus.PopulatingOnly
+  type: Field
+  summary: "\neJournalCron has started populateOnly after someone saved choose recipients screen.\n"
+  syntax:
+    content: PopulatingOnly = 10
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.PopulateAborted
+  commentId: F:CRMScript.NetServer.ShipmentStatus.PopulateAborted
+  id: PopulateAborted
+  langs:
+  - crmscript
+  name: PopulateAborted
+  nameWithType: ShipmentStatus.PopulateAborted
+  fullName: CRMScript.NetServer.ShipmentStatus.PopulateAborted
+  type: Field
+  summary: "\neJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.\n"
+  syntax:
+    content: PopulateAborted = 11
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.PopulateError
+  commentId: F:CRMScript.NetServer.ShipmentStatus.PopulateError
+  id: PopulateError
+  langs:
+  - crmscript
+  name: PopulateError
+  nameWithType: ShipmentStatus.PopulateError
+  fullName: CRMScript.NetServer.ShipmentStatus.PopulateError
+  type: Field
+  summary: "\nPopulateError\n"
+  syntax:
+    content: PopulateError = 12
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+- uid: CRMScript.NetServer.ShipmentStatus.TooManyRecipients
+  commentId: F:CRMScript.NetServer.ShipmentStatus.TooManyRecipients
+  id: TooManyRecipients
+  langs:
+  - crmscript
+  name: TooManyRecipients
+  nameWithType: ShipmentStatus.TooManyRecipients
+  fullName: CRMScript.NetServer.ShipmentStatus.TooManyRecipients
+  type: Field
+  summary: "\nTooManyRecipients\n"
+  syntax:
+    content: TooManyRecipients = 13
+    return:
+      type: CRMScript.NetServer.ShipmentStatus
+references:
+- uid: CRMScript.NetServer.ShipmentStatus
+  commentId: T:CRMScript.NetServer.ShipmentStatus
+  isExternal: true
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: CRMScript.NetServer.ShipmentStatus

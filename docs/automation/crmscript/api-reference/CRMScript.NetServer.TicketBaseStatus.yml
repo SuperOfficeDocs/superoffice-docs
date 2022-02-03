@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketBaseStatus
+  # Same as SuperOffice.Data.TicketBaseStatus
+  commentId: T:CRMScript.NetServer.TicketBaseStatus
+  id: TicketBaseStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketBaseStatus.Unknown
+  - CRMScript.NetServer.TicketBaseStatus.Active
+  - CRMScript.NetServer.TicketBaseStatus.Closed
+  - CRMScript.NetServer.TicketBaseStatus.Postponed
+  - CRMScript.NetServer.TicketBaseStatus.Deleted
+  - CRMScript.NetServer.TicketBaseStatus.Merged
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: CRMScript.NetServer.TicketBaseStatus
+  type: Enum
+  summary: "\nStatus of a ticket/request.\n"
+- uid: CRMScript.NetServer.TicketBaseStatus.Unknown
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Unknown
+  id: TicketBaseStatus.Unknown
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Unknown
+  nameWithType: TicketBaseStatus.Unknown
+  fullName: CRMScript.NetServer.TicketBaseStatus.Unknown
+  type: Field
+  summary: "\n0: Unknown / uninitialized\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TicketBaseStatus
+- uid: CRMScript.NetServer.TicketBaseStatus.Active
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Active
+  id: TicketBaseStatus.Active
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Active
+  nameWithType: TicketBaseStatus.Active
+  fullName: CRMScript.NetServer.TicketBaseStatus.Active
+  type: Field
+  summary: "\n1: Request is currently active\n"
+  syntax: 
+    content: Active = 1
+    type: CRMScript.NetServer.TicketBaseStatus
+- uid: CRMScript.NetServer.TicketBaseStatus.Closed
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Closed
+  id: TicketBaseStatus.Closed
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Closed
+  nameWithType: TicketBaseStatus.Closed
+  fullName: CRMScript.NetServer.TicketBaseStatus.Closed
+  type: Field
+  summary: "\n2: Request has been closed\n"
+  syntax: 
+    content: Closed = 2
+    type: CRMScript.NetServer.TicketBaseStatus
+- uid: CRMScript.NetServer.TicketBaseStatus.Postponed
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Postponed
+  id: TicketBaseStatus.Postponed
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Postponed
+  nameWithType: TicketBaseStatus.Postponed
+  fullName: CRMScript.NetServer.TicketBaseStatus.Postponed
+  type: Field
+  summary: "\n3: Request has been postponed\n"
+  syntax: 
+    content: Postponed = 3
+    type: CRMScript.NetServer.TicketBaseStatus
+- uid: CRMScript.NetServer.TicketBaseStatus.Deleted
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Deleted
+  id: TicketBaseStatus.Deleted
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Deleted
+  nameWithType: TicketBaseStatus.Deleted
+  fullName: CRMScript.NetServer.TicketBaseStatus.Deleted
+  type: Field
+  summary: "\n4: Request has been deleted\n"
+  syntax: 
+    content: Deleted = 4
+    type: CRMScript.NetServer.TicketBaseStatus
+- uid: CRMScript.NetServer.TicketBaseStatus.Merged
+  commentId: F:CRMScript.NetServer.TicketBaseStatus.Merged
+  id: TicketBaseStatus.Merged
+  langs:
+  - crmscript
+  name: TicketBaseStatus.Merged
+  nameWithType: TicketBaseStatus.Merged
+  fullName: CRMScript.NetServer.TicketBaseStatus.Merged
+  type: Field
+  summary: "\n5: Request has been merged with another request\n"
+  syntax: 
+    content: Merged = 5
+    type: CRMScript.NetServer.TicketBaseStatus
+references:
+- uid: CRMScript.NetServer.TicketBaseStatus
+  commentId: T:CRMScript.NetServer.TicketBaseStatus
+  isExternal: true
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: CRMScript.NetServer.TicketBaseStatus

@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.FHBitSet
+  commentId: T:CRMScript.Native.FHBitSet
+  id: FHBitSet
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.FHBitSet.#ctor
+  - CRMScript.Native.FHBitSet.getBitNo(Integer)
+  - CRMScript.Native.FHBitSet.set(Integer)
+  - CRMScript.Native.FHBitSet.set(String)
+  - CRMScript.Native.FHBitSet.setBitNo(Integer,Bool)
+  - CRMScript.Native.FHBitSet.toInteger()
+  - CRMScript.Native.FHBitSet.toLsbString()
+  name: FHBitSet
+  nameWithType: FHBitSet
+  fullName: CRMScript.Native.FHBitSet
+  type: Class
+  summary: "\nUsed to represent and manipulate a 32 bit bitset.\n"
+  example: 
+  - "\n<pre><code>FHBitSet fh;\n\nfh.set(43);\nfh.setBitNo(15, true);\nprintLine(fh.toLsbString()); // Prints &quot;00000000000000001000000000101011&quot;</code></pre>\n"
+- uid: CRMScript.Native.FHBitSet.#ctor
+  commentId: M:CRMScript.Native.FHBitSet.#ctor
+  id: '#ctor'
+  so.intellisense: Void.FHBitSet
+  langs:
+  - crmscript
+  name: FHBitSet()
+  nameWithType: FHBitSet.#ctor
+  fullName: CRMScript.Native.FHBitSet.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the FHBitSet class.\n"
+  remarks: 
+  syntax: 
+    content: FHBitSet
+  example: 
+  - "\n<pre><code>FHBitSet fh;\n\nfh.set(43);\nfh.setBitNo(15, true);\nprintLine(fh.toLsbString()); // Prints &quot;00000000000000001000000000101011&quot;</code></pre>\n"
+- uid: CRMScript.Native.FHBitSet.getBitNo(Integer)
+  commentId: M:CRMScript.Native.FHBitSet.getBitNo(Integer)
+  id: 'getBitNo(Integer)'
+  so.intellisense: FHBitSet.getBitNo
+  langs:
+  - crmscript
+  name: 'getBitNo(Integer)'
+  nameWithType: FHBitSet.getBitNo(Integer)
+  fullName: CRMScript.Native.FHBitSet.getBitNo(Integer)
+  type: Method
+  summary: "\nChecks if a specified bit is set.\n"
+  remarks: 
+  syntax: 
+    content: Bool getBitNo(Integer number)
+    parameters:
+    - id: number
+      type: CRMScript.Global.Integer
+      description: "Bit number to check (0-31)."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if a specified bit is set; otherwise, false."
+  example: 
+- uid: CRMScript.Native.FHBitSet.set(Integer)
+  commentId: M:CRMScript.Native.FHBitSet.set(Integer)
+  id: 'set(Integer)'
+  so.intellisense: FHBitSet.set
+  langs:
+  - crmscript
+  name: 'set(Integer)'
+  nameWithType: FHBitSet.set(Integer)
+  fullName: CRMScript.Native.FHBitSet.set(Integer)
+  type: Method
+  summary: "\nInitializes the bitset from an Integer.\n"
+  remarks: 
+  syntax: 
+    content: Void set(Integer value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "Used to initialize the bitset."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>FHBitSet fh;\n\nfh.set(44);\nprint(fh.toLsbString());</code></pre>\n"
+- uid: CRMScript.Native.FHBitSet.set(String)
+  commentId: M:CRMScript.Native.FHBitSet.set(String)
+  id: 'set(String)'
+  so.intellisense: FHBitSet.set
+  langs:
+  - crmscript
+  name: 'set(String)'
+  nameWithType: FHBitSet.set(String)
+  fullName: CRMScript.Native.FHBitSet.set(String)
+  type: Method
+  summary: "\nInitializes the bitset from a String.\n"
+  remarks: 
+  syntax: 
+    content: Void set(String rep)
+    parameters:
+    - id: rep
+      type: CRMScript.Global.String
+      description: "Used to initialize the bitset. For example, &quot;1234&quot;"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.FHBitSet.setBitNo(Integer,Bool)
+  commentId: M:CRMScript.Native.FHBitSet.setBitNo(Integer,Bool)
+  id: 'setBitNo(Integer,Bool)'
+  so.intellisense: FHBitSet.setBitNo
+  langs:
+  - crmscript
+  name: 'setBitNo(Integer,Bool)'
+  nameWithType: FHBitSet.setBitNo(Integer,Bool)
+  fullName: CRMScript.Native.FHBitSet.setBitNo(Integer,Bool)
+  type: Method
+  summary: "\nSets a specific bit.\n"
+  remarks: 
+  syntax: 
+    content: Void setBitNo(Integer number, Bool val)
+    parameters:
+    - id: number
+      type: CRMScript.Global.Integer
+      description: "Index of the bit to set"
+    - id: val
+      type: CRMScript.Global.Bool
+      description: "Value to set this bit to - (True/False - 1/0)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>FHBitSet fh;\n\nBool b = true;\nfh.set(0);\nfh.setBitNo(15, b);\nprint(fh.toLsbString());</code></pre><strong>Output:</strong> 00000000000000001000000000000000\n"
+- uid: CRMScript.Native.FHBitSet.toInteger()
+  commentId: M:CRMScript.Native.FHBitSet.toInteger()
+  id: 'toInteger()'
+  so.intellisense: FHBitSet.toInteger
+  langs:
+  - crmscript
+  name: 'toInteger()'
+  nameWithType: FHBitSet.toInteger()
+  fullName: CRMScript.Native.FHBitSet.toInteger()
+  type: Method
+  summary: "\nReturns the bitset as an integer.\n"
+  remarks: 
+  syntax: 
+    content: Integer toInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The Integer representation of the bitset."
+  example: 
+- uid: CRMScript.Native.FHBitSet.toLsbString()
+  commentId: M:CRMScript.Native.FHBitSet.toLsbString()
+  id: 'toLsbString()'
+  so.intellisense: FHBitSet.toLsbString
+  langs:
+  - crmscript
+  name: 'toLsbString()'
+  nameWithType: FHBitSet.toLsbString()
+  fullName: CRMScript.Native.FHBitSet.toLsbString()
+  type: Method
+  summary: "\nReturns an LSB (Least Significant Byte first) string representation of the bitset.\n"
+  remarks: 
+  syntax: 
+    content: String toLsbString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The LSB string representation of the bitset."
+  example: 
+  - "\n<pre><code>FHBitSet fh;\n\nfh.set(44);\nprint(fh.toLsbString());</code></pre><strong>Output:</strong> 00000000000000000000000000101100\n"
+references:
+- uid: CRMScript.Native.FHBitSet
+  commentId: T:CRMScript.Native.FHBitSet
+  isExternal: true
+  name: FHBitSet
+  nameWithType: FHBitSet
+  fullName: CRMScript.Native.FHBitSet
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAttachmentEntity
+  commentId: T:CRMScript.NetServer.NSAttachmentEntity
+  id: NSAttachmentEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAttachmentEntity.#ctor
+  - CRMScript.NetServer.NSAttachmentEntity.GetAttachmentId()
+  - CRMScript.NetServer.NSAttachmentEntity.GetAttSize()
+  - CRMScript.NetServer.NSAttachmentEntity.GetContentId()
+  - CRMScript.NetServer.NSAttachmentEntity.GetContentType()
+  - CRMScript.NetServer.NSAttachmentEntity.GetInlineImage()
+  - CRMScript.NetServer.NSAttachmentEntity.GetName()
+  - CRMScript.NetServer.NSAttachmentEntity.SetAttachmentId(Integer)
+  - CRMScript.NetServer.NSAttachmentEntity.SetAttSize(Integer)
+  - CRMScript.NetServer.NSAttachmentEntity.SetContentId(String)
+  - CRMScript.NetServer.NSAttachmentEntity.SetContentType(String)
+  - CRMScript.NetServer.NSAttachmentEntity.SetInlineImage(Bool)
+  - CRMScript.NetServer.NSAttachmentEntity.SetName(String)
+  name: NSAttachmentEntity
+  nameWithType: NSAttachmentEntity
+  fullName: CRMScript.NetServer.NSAttachmentEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSAttachmentEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAttachmentEntity
+  langs:
+  - crmscript
+  name: NSAttachmentEntity()
+  nameWithType: NSAttachmentEntity.#ctor
+  fullName: CRMScript.NetServer.NSAttachmentEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSAttachmentEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSAttachmentEntity
+  example: 
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetAttachmentId()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetAttachmentId()
+  id: 'GetAttachmentId()'
+  so.intellisense: NSAttachmentEntity.GetAttachmentId
+  langs:
+  - crmscript
+  name: 'GetAttachmentId()'
+  nameWithType: NSAttachmentEntity.GetAttachmentId()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetAttachmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAttachmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nInteger attachmentId = thing.GetAttachmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetAttSize()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetAttSize()
+  id: 'GetAttSize()'
+  so.intellisense: NSAttachmentEntity.GetAttSize
+  langs:
+  - crmscript
+  name: 'GetAttSize()'
+  nameWithType: NSAttachmentEntity.GetAttSize()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetAttSize()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAttSize()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The size (in bytes) for the attachment."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nInteger attSize = thing.GetAttSize();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetContentId()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetContentId()
+  id: 'GetContentId()'
+  so.intellisense: NSAttachmentEntity.GetContentId
+  langs:
+  - crmscript
+  name: 'GetContentId()'
+  nameWithType: NSAttachmentEntity.GetContentId()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetContentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The content_id of this attachment, used for inline images."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString contentId = thing.GetContentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetContentType()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetContentType()
+  id: 'GetContentType()'
+  so.intellisense: NSAttachmentEntity.GetContentType
+  langs:
+  - crmscript
+  name: 'GetContentType()'
+  nameWithType: NSAttachmentEntity.GetContentType()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetContentType()
+  type: Method
+  summary: # TODO
+  remarks: "\nTypes can for example be 'application/octet-stream' or 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'\n"
+  syntax: 
+    content: String GetContentType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The content type for the attachment."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString contentType = thing.GetContentType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetInlineImage()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetInlineImage()
+  id: 'GetInlineImage()'
+  so.intellisense: NSAttachmentEntity.GetInlineImage
+  langs:
+  - crmscript
+  name: 'GetInlineImage()'
+  nameWithType: NSAttachmentEntity.GetInlineImage()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetInlineImage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetInlineImage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if this attachment is inlined in the html_body."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nBool inlineImage = thing.GetInlineImage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSAttachmentEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSAttachmentEntity.GetName()
+  fullName: CRMScript.NetServer.NSAttachmentEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The filename for the attachment."
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetAttachmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetAttachmentId(Integer)
+  id: 'SetAttachmentId(Integer)'
+  so.intellisense: NSAttachmentEntity.SetAttachmentId
+  langs:
+  - crmscript
+  name: 'SetAttachmentId(Integer)'
+  nameWithType: NSAttachmentEntity.SetAttachmentId(Integer)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetAttachmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAttachmentId(Integer attachmentId)
+    parameters:
+    - id: attachmentId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nInteger attachmentId;\nthing.SetAttachmentId(attachmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetAttSize(Integer)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetAttSize(Integer)
+  id: 'SetAttSize(Integer)'
+  so.intellisense: NSAttachmentEntity.SetAttSize
+  langs:
+  - crmscript
+  name: 'SetAttSize(Integer)'
+  nameWithType: NSAttachmentEntity.SetAttSize(Integer)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetAttSize(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAttSize(Integer attSize)
+    parameters:
+    - id: attSize
+      type: CRMScript.Global.Integer
+      description: "The size (in bytes) for the attachment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nInteger attSize;\nthing.SetAttSize(attSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetContentId(String)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetContentId(String)
+  id: 'SetContentId(String)'
+  so.intellisense: NSAttachmentEntity.SetContentId
+  langs:
+  - crmscript
+  name: 'SetContentId(String)'
+  nameWithType: NSAttachmentEntity.SetContentId(String)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetContentId(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContentId(String contentId)
+    parameters:
+    - id: contentId
+      type: CRMScript.Global.String
+      description: "The content_id of this attachment, used for inline images."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString contentId;\nthing.SetContentId(contentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetContentType(String)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetContentType(String)
+  id: 'SetContentType(String)'
+  so.intellisense: NSAttachmentEntity.SetContentType
+  langs:
+  - crmscript
+  name: 'SetContentType(String)'
+  nameWithType: NSAttachmentEntity.SetContentType(String)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetContentType(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nTypes can for example be 'application/octet-stream' or 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'.\n"
+  syntax: 
+    content: Void SetContentType(String contentType)
+    parameters:
+    - id: contentType
+      type: CRMScript.Global.String
+      description: "The content type for the attachment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString contentType;\nthing.SetContentType(contentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetInlineImage(Bool)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetInlineImage(Bool)
+  id: 'SetInlineImage(Bool)'
+  so.intellisense: NSAttachmentEntity.SetInlineImage
+  langs:
+  - crmscript
+  name: 'SetInlineImage(Bool)'
+  nameWithType: NSAttachmentEntity.SetInlineImage(Bool)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetInlineImage(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInlineImage(Bool inlineImage)
+    parameters:
+    - id: inlineImage
+      type: CRMScript.Global.Bool
+      description: "True if this attachment is inlined in the html_body."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nBool inlineImage;\nthing.SetInlineImage(inlineImage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAttachmentEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSAttachmentEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSAttachmentEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSAttachmentEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSAttachmentEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The filename for the attachment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAttachmentEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAttachmentEntity
+  commentId: T:CRMScript.NetServer.NSAttachmentEntity
+  isExternal: true
+  name: NSAttachmentEntity
+  nameWithType: NSAttachmentEntity
+  fullName: CRMScript.NetServer.NSAttachmentEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

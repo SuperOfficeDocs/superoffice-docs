@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Priority
+  commentId: T:CRMScript.Native.Priority
+  id: Priority
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Priority.#ctor
+  - CRMScript.Native.Priority.checkEscalating(Integer,Integer)
+  name: Priority
+  nameWithType: Priority
+  fullName: CRMScript.Native.Priority
+  type: Class
+  summary: "\nUsed to handle priorities.\n"
+  example: 
+- uid: CRMScript.Native.Priority.#ctor
+  commentId: M:CRMScript.Native.Priority.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Priority
+  langs:
+  - crmscript
+  name: Priority()
+  nameWithType: Priority.#ctor
+  fullName: CRMScript.Native.Priority.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Priority class.\n"
+  remarks: 
+  syntax: 
+    content: Priority
+  example: 
+- uid: CRMScript.Native.Priority.checkEscalating(Integer,Integer)
+  commentId: M:CRMScript.Native.Priority.checkEscalating(Integer,Integer)
+  id: 'checkEscalating(Integer,Integer)'
+  so.intellisense: Priority.checkEscalating
+  langs:
+  - crmscript
+  name: 'checkEscalating(Integer,Integer)'
+  nameWithType: Priority.checkEscalating(Integer,Integer)
+  fullName: CRMScript.Native.Priority.checkEscalating(Integer,Integer)
+  type: Method
+  summary: "\nChecks if the ticket should change its alert level based on the priority and action. If it is to change, the alert level and alert timeout for the ticket will be updated.\n"
+  remarks: "\nUseful if you want to change the state of a ticket that is monitored by the its priority. It will take care of all the escalation routines so you do not have to do this manually.<p></p>\nPossible action values: Ticket changed owner = 0 Ticket change owner = 1 Ticket received new information = 2 Ticket closed = 3 Ticket changed priority = 4 New ticket = 5\n"
+  syntax: 
+    content: Void checkEscalating(Integer ticketId, Integer action)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to check"
+    - id: action
+      type: CRMScript.Global.Integer
+      description: "The action that triggered this escalation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.Priority
+  commentId: T:CRMScript.Native.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: Priority
+  fullName: CRMScript.Native.Priority
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

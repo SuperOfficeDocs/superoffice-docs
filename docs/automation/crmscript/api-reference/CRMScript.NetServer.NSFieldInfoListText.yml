@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoListText
+  commentId: T:CRMScript.NetServer.NSFieldInfoListText
+  id: NSFieldInfoListText
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoListText.#ctor
+  - CRMScript.NetServer.NSFieldInfoListText.GetChoices()
+  - CRMScript.NetServer.NSFieldInfoListText.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoListText.GetTextLength()
+  - CRMScript.NetServer.NSFieldInfoListText.SetChoices(String[])
+  - CRMScript.NetServer.NSFieldInfoListText.SetDefaultValue(String)
+  - CRMScript.NetServer.NSFieldInfoListText.SetTextLength(Integer)
+  name: NSFieldInfoListText
+  nameWithType: NSFieldInfoListText
+  fullName: CRMScript.NetServer.NSFieldInfoListText
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoListText.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoListText
+  langs:
+  - crmscript
+  name: NSFieldInfoListText()
+  nameWithType: NSFieldInfoListText.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoListText.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoListText class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoListText
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoListText.GetChoices()
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.GetChoices()
+  id: 'GetChoices()'
+  so.intellisense: NSFieldInfoListText.GetChoices
+  langs:
+  - crmscript
+  name: 'GetChoices()'
+  nameWithType: NSFieldInfoListText.GetChoices()
+  fullName: CRMScript.NetServer.NSFieldInfoListText.GetChoices()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetChoices()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "List of items to choose from."
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nString[] choices = thing.GetChoices();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoListText.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoListText.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoListText.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoListText.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default string value."
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nString defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoListText.GetTextLength()
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.GetTextLength()
+  id: 'GetTextLength()'
+  so.intellisense: NSFieldInfoListText.GetTextLength
+  langs:
+  - crmscript
+  name: 'GetTextLength()'
+  nameWithType: NSFieldInfoListText.GetTextLength()
+  fullName: CRMScript.NetServer.NSFieldInfoListText.GetTextLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTextLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Length (in characters) of a text field, 0 for other types."
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nInteger textLength = thing.GetTextLength();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoListText.SetChoices(String[])
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.SetChoices(String[])
+  id: 'SetChoices(String[])'
+  so.intellisense: NSFieldInfoListText.SetChoices
+  langs:
+  - crmscript
+  name: 'SetChoices(String[])'
+  nameWithType: NSFieldInfoListText.SetChoices(String[])
+  fullName: CRMScript.NetServer.NSFieldInfoListText.SetChoices(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChoices(String[] choices)
+    parameters:
+    - id: choices
+      type: CRMScript.Global.String[]
+      description: "List of items to choose from."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nString[] choices;\nthing.SetChoices(choices);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoListText.SetDefaultValue(String)
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.SetDefaultValue(String)
+  id: 'SetDefaultValue(String)'
+  so.intellisense: NSFieldInfoListText.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(String)'
+  nameWithType: NSFieldInfoListText.SetDefaultValue(String)
+  fullName: CRMScript.NetServer.NSFieldInfoListText.SetDefaultValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(String defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.String
+      description: "Default string value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nString defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoListText.SetTextLength(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldInfoListText.SetTextLength(Integer)
+  id: 'SetTextLength(Integer)'
+  so.intellisense: NSFieldInfoListText.SetTextLength
+  langs:
+  - crmscript
+  name: 'SetTextLength(Integer)'
+  nameWithType: NSFieldInfoListText.SetTextLength(Integer)
+  fullName: CRMScript.NetServer.NSFieldInfoListText.SetTextLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTextLength(Integer textLength)
+    parameters:
+    - id: textLength
+      type: CRMScript.Global.Integer
+      description: "Length (in characters) of a text field, 0 for other types."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoListText thing;\nInteger textLength;\nthing.SetTextLength(textLength);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoListText
+  commentId: T:CRMScript.NetServer.NSFieldInfoListText
+  isExternal: true
+  name: NSFieldInfoListText
+  nameWithType: NSFieldInfoListText
+  fullName: CRMScript.NetServer.NSFieldInfoListText
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

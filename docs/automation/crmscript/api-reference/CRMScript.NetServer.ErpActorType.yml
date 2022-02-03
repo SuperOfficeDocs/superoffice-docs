@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ErpActorType
+  # Same as SuperOffice.Data.ErpActorType
+  commentId: T:CRMScript.NetServer.ErpActorType
+  id: ErpActorType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ErpActorType.Unknown
+  - CRMScript.NetServer.ErpActorType.Customer
+  - CRMScript.NetServer.ErpActorType.Supplier
+  - CRMScript.NetServer.ErpActorType.Partner
+  - CRMScript.NetServer.ErpActorType.Person
+  - CRMScript.NetServer.ErpActorType.Project
+  - CRMScript.NetServer.ErpActorType.Employee
+  - CRMScript.NetServer.ErpActorType.Sale
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: CRMScript.NetServer.ErpActorType
+  type: Enum
+  summary: "\nActor type within the ERP system, related but not identical to SuperOffice Entity type.\n"
+- uid: CRMScript.NetServer.ErpActorType.Unknown
+  commentId: F:CRMScript.NetServer.ErpActorType.Unknown
+  id: ErpActorType.Unknown
+  langs:
+  - crmscript
+  name: ErpActorType.Unknown
+  nameWithType: ErpActorType.Unknown
+  fullName: CRMScript.NetServer.ErpActorType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Customer
+  commentId: F:CRMScript.NetServer.ErpActorType.Customer
+  id: ErpActorType.Customer
+  langs:
+  - crmscript
+  name: ErpActorType.Customer
+  nameWithType: ErpActorType.Customer
+  fullName: CRMScript.NetServer.ErpActorType.Customer
+  type: Field
+  summary: "\n1: ERP customer\n"
+  syntax: 
+    content: Customer = 1
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Supplier
+  commentId: F:CRMScript.NetServer.ErpActorType.Supplier
+  id: ErpActorType.Supplier
+  langs:
+  - crmscript
+  name: ErpActorType.Supplier
+  nameWithType: ErpActorType.Supplier
+  fullName: CRMScript.NetServer.ErpActorType.Supplier
+  type: Field
+  summary: "\n2: Supplier or vendor\n"
+  syntax: 
+    content: Supplier = 2
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Partner
+  commentId: F:CRMScript.NetServer.ErpActorType.Partner
+  id: ErpActorType.Partner
+  langs:
+  - crmscript
+  name: ErpActorType.Partner
+  nameWithType: ErpActorType.Partner
+  fullName: CRMScript.NetServer.ErpActorType.Partner
+  type: Field
+  summary: "\n3: Both customer and supplier\n"
+  syntax: 
+    content: Partner = 3
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Person
+  commentId: F:CRMScript.NetServer.ErpActorType.Person
+  id: ErpActorType.Person
+  langs:
+  - crmscript
+  name: ErpActorType.Person
+  nameWithType: ErpActorType.Person
+  fullName: CRMScript.NetServer.ErpActorType.Person
+  type: Field
+  summary: "\n4: Contact person\n"
+  syntax: 
+    content: Person = 4
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Project
+  commentId: F:CRMScript.NetServer.ErpActorType.Project
+  id: ErpActorType.Project
+  langs:
+  - crmscript
+  name: ErpActorType.Project
+  nameWithType: ErpActorType.Project
+  fullName: CRMScript.NetServer.ErpActorType.Project
+  type: Field
+  summary: "\n5: Project\n"
+  syntax: 
+    content: Project = 5
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Employee
+  commentId: F:CRMScript.NetServer.ErpActorType.Employee
+  id: ErpActorType.Employee
+  langs:
+  - crmscript
+  name: ErpActorType.Employee
+  nameWithType: ErpActorType.Employee
+  fullName: CRMScript.NetServer.ErpActorType.Employee
+  type: Field
+  summary: "\n6: Employee, often mapped to associate\n"
+  syntax: 
+    content: Employee = 6
+    type: CRMScript.NetServer.ErpActorType
+- uid: CRMScript.NetServer.ErpActorType.Sale
+  commentId: F:CRMScript.NetServer.ErpActorType.Sale
+  id: ErpActorType.Sale
+  langs:
+  - crmscript
+  name: ErpActorType.Sale
+  nameWithType: ErpActorType.Sale
+  fullName: CRMScript.NetServer.ErpActorType.Sale
+  type: Field
+  summary: "\n7: Sale\n"
+  syntax: 
+    content: Sale = 7
+    type: CRMScript.NetServer.ErpActorType
+references:
+- uid: CRMScript.NetServer.ErpActorType
+  commentId: T:CRMScript.NetServer.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: CRMScript.NetServer.ErpActorType

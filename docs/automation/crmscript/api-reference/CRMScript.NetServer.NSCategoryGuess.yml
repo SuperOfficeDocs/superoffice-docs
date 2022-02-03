@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCategoryGuess
+  commentId: T:CRMScript.NetServer.NSCategoryGuess
+  id: NSCategoryGuess
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCategoryGuess.#ctor
+  - CRMScript.NetServer.NSCategoryGuess.GetDummy()
+  - CRMScript.NetServer.NSCategoryGuess.SetDummy(String)
+  name: NSCategoryGuess
+  nameWithType: NSCategoryGuess
+  fullName: CRMScript.NetServer.NSCategoryGuess
+  type: Class
+  summary: "\nCurrently not used!\n"
+  example: 
+- uid: CRMScript.NetServer.NSCategoryGuess.#ctor
+  commentId: M:CRMScript.NetServer.NSCategoryGuess.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCategoryGuess
+  langs:
+  - crmscript
+  name: NSCategoryGuess()
+  nameWithType: NSCategoryGuess.#ctor
+  fullName: CRMScript.NetServer.NSCategoryGuess.#ctor
+  type: Constructor
+  summary: "\nCurrently not used!\n"
+  remarks: 
+  syntax: 
+    content: NSCategoryGuess
+  example: 
+- uid: CRMScript.NetServer.NSCategoryGuess.GetDummy()
+  commentId: M:CRMScript.NetServer.NSCategoryGuess.GetDummy()
+  id: 'GetDummy()'
+  so.intellisense: NSCategoryGuess.GetDummy
+  langs:
+  - crmscript
+  name: 'GetDummy()'
+  nameWithType: NSCategoryGuess.GetDummy()
+  fullName: CRMScript.NetServer.NSCategoryGuess.GetDummy()
+  type: Method
+  summary: "\nCurrently not used!\n"
+  remarks: 
+  syntax: 
+    content: String GetDummy()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCategoryGuess thing;\nString dummy = thing.GetDummy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategoryGuess.SetDummy(String)
+  commentId: M:CRMScript.NetServer.NSCategoryGuess.SetDummy(String)
+  id: 'SetDummy(String)'
+  so.intellisense: NSCategoryGuess.SetDummy
+  langs:
+  - crmscript
+  name: 'SetDummy(String)'
+  nameWithType: NSCategoryGuess.SetDummy(String)
+  fullName: CRMScript.NetServer.NSCategoryGuess.SetDummy(String)
+  type: Method
+  summary: "\nCurrently not used!\n"
+  remarks: 
+  syntax: 
+    content: Void SetDummy(String dummy)
+    parameters:
+    - id: dummy
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategoryGuess thing;\nString dummy;\nthing.SetDummy(dummy);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCategoryGuess
+  commentId: T:CRMScript.NetServer.NSCategoryGuess
+  isExternal: true
+  name: NSCategoryGuess
+  nameWithType: NSCategoryGuess
+  fullName: CRMScript.NetServer.NSCategoryGuess
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

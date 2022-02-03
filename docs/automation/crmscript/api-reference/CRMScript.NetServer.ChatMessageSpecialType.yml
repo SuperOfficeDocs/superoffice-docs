@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ChatMessageSpecialType
+  # Same as SuperOffice.Data.ChatMessageSpecialType
+  commentId: T:CRMScript.NetServer.ChatMessageSpecialType
+  id: ChatMessageSpecialType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ChatMessageSpecialType.None
+  - CRMScript.NetServer.ChatMessageSpecialType.Welcome
+  - CRMScript.NetServer.ChatMessageSpecialType.Url
+  - CRMScript.NetServer.ChatMessageSpecialType.Block
+  - CRMScript.NetServer.ChatMessageSpecialType.NewSession
+  - CRMScript.NetServer.ChatMessageSpecialType.TransferedSession
+  - CRMScript.NetServer.ChatMessageSpecialType.Error
+  - CRMScript.NetServer.ChatMessageSpecialType.SessionDeleted
+  - CRMScript.NetServer.ChatMessageSpecialType.FaqSuccessQuestion
+  - CRMScript.NetServer.ChatMessageSpecialType.ClosedByUser
+  - CRMScript.NetServer.ChatMessageSpecialType.ClosedByCustomer
+  - CRMScript.NetServer.ChatMessageSpecialType.ClosedByIdle
+  - CRMScript.NetServer.ChatMessageSpecialType.TransferRejected
+  - CRMScript.NetServer.ChatMessageSpecialType.ReopenedByCustomer
+  - CRMScript.NetServer.ChatMessageSpecialType.ClickedOption
+  - CRMScript.NetServer.ChatMessageSpecialType.BotMessage
+  - CRMScript.NetServer.ChatMessageSpecialType.Options
+  name: ChatMessageSpecialType
+  nameWithType: ChatMessageSpecialType
+  fullName: CRMScript.NetServer.ChatMessageSpecialType
+  type: Enum
+  summary: "\nChat Message Special type\n"
+- uid: CRMScript.NetServer.ChatMessageSpecialType.None
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.None
+  id: ChatMessageSpecialType.None
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.None
+  nameWithType: ChatMessageSpecialType.None
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.None
+  type: Field
+  summary: "\n0: None\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.Welcome
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.Welcome
+  id: ChatMessageSpecialType.Welcome
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.Welcome
+  nameWithType: ChatMessageSpecialType.Welcome
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.Welcome
+  type: Field
+  summary: "\n1: Welcome\n"
+  syntax: 
+    content: Welcome = 1
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.Url
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.Url
+  id: ChatMessageSpecialType.Url
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.Url
+  nameWithType: ChatMessageSpecialType.Url
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.Url
+  type: Field
+  summary: "\n2: Url\n"
+  syntax: 
+    content: Url = 2
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.Block
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.Block
+  id: ChatMessageSpecialType.Block
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.Block
+  nameWithType: ChatMessageSpecialType.Block
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.Block
+  type: Field
+  summary: "\n3: Block\n"
+  syntax: 
+    content: Block = 3
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.NewSession
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.NewSession
+  id: ChatMessageSpecialType.NewSession
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.NewSession
+  nameWithType: ChatMessageSpecialType.NewSession
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.NewSession
+  type: Field
+  summary: "\n5: NewSession\n"
+  syntax: 
+    content: NewSession = 5
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.TransferedSession
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.TransferedSession
+  id: ChatMessageSpecialType.TransferedSession
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.TransferedSession
+  nameWithType: ChatMessageSpecialType.TransferedSession
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.TransferedSession
+  type: Field
+  summary: "\n6: TransferedSession\n"
+  syntax: 
+    content: TransferedSession = 6
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.Error
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.Error
+  id: ChatMessageSpecialType.Error
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.Error
+  nameWithType: ChatMessageSpecialType.Error
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.Error
+  type: Field
+  summary: "\n7: Error\n"
+  syntax: 
+    content: Error = 7
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.SessionDeleted
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.SessionDeleted
+  id: ChatMessageSpecialType.SessionDeleted
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.SessionDeleted
+  nameWithType: ChatMessageSpecialType.SessionDeleted
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.SessionDeleted
+  type: Field
+  summary: "\n8: SessionDeleted\n"
+  syntax: 
+    content: SessionDeleted = 8
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.FaqSuccessQuestion
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.FaqSuccessQuestion
+  id: ChatMessageSpecialType.FaqSuccessQuestion
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.FaqSuccessQuestion
+  nameWithType: ChatMessageSpecialType.FaqSuccessQuestion
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.FaqSuccessQuestion
+  type: Field
+  summary: "\n9: FaqSuccessQuestion\n"
+  syntax: 
+    content: FaqSuccessQuestion = 9
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.ClosedByUser
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.ClosedByUser
+  id: ChatMessageSpecialType.ClosedByUser
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.ClosedByUser
+  nameWithType: ChatMessageSpecialType.ClosedByUser
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.ClosedByUser
+  type: Field
+  summary: "\n10: ClosedByUser\n"
+  syntax: 
+    content: ClosedByUser = 10
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.ClosedByCustomer
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.ClosedByCustomer
+  id: ChatMessageSpecialType.ClosedByCustomer
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.ClosedByCustomer
+  nameWithType: ChatMessageSpecialType.ClosedByCustomer
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.ClosedByCustomer
+  type: Field
+  summary: "\n11: ClosedByCustomer\n"
+  syntax: 
+    content: ClosedByCustomer = 11
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.ClosedByIdle
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.ClosedByIdle
+  id: ChatMessageSpecialType.ClosedByIdle
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.ClosedByIdle
+  nameWithType: ChatMessageSpecialType.ClosedByIdle
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.ClosedByIdle
+  type: Field
+  summary: "\n12: ClosedByIdle\n"
+  syntax: 
+    content: ClosedByIdle = 12
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.TransferRejected
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.TransferRejected
+  id: ChatMessageSpecialType.TransferRejected
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.TransferRejected
+  nameWithType: ChatMessageSpecialType.TransferRejected
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.TransferRejected
+  type: Field
+  summary: "\n13: TransferRejected\n"
+  syntax: 
+    content: TransferRejected = 13
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.ReopenedByCustomer
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.ReopenedByCustomer
+  id: ChatMessageSpecialType.ReopenedByCustomer
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.ReopenedByCustomer
+  nameWithType: ChatMessageSpecialType.ReopenedByCustomer
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.ReopenedByCustomer
+  type: Field
+  summary: "\n14: ReopenedByCustomer\n"
+  syntax: 
+    content: ReopenedByCustomer = 14
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.ClickedOption
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.ClickedOption
+  id: ChatMessageSpecialType.ClickedOption
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.ClickedOption
+  nameWithType: ChatMessageSpecialType.ClickedOption
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.ClickedOption
+  type: Field
+  summary: "\n15: ClickedOption\n"
+  syntax: 
+    content: ClickedOption = 15
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.BotMessage
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.BotMessage
+  id: ChatMessageSpecialType.BotMessage
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.BotMessage
+  nameWithType: ChatMessageSpecialType.BotMessage
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.BotMessage
+  type: Field
+  summary: "\n16: BotMessage\n"
+  syntax: 
+    content: BotMessage = 16
+    type: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.NetServer.ChatMessageSpecialType.Options
+  commentId: F:CRMScript.NetServer.ChatMessageSpecialType.Options
+  id: ChatMessageSpecialType.Options
+  langs:
+  - crmscript
+  name: ChatMessageSpecialType.Options
+  nameWithType: ChatMessageSpecialType.Options
+  fullName: CRMScript.NetServer.ChatMessageSpecialType.Options
+  type: Field
+  summary: "\n17: Options\n"
+  syntax: 
+    content: Options = 17
+    type: CRMScript.NetServer.ChatMessageSpecialType
+references:
+- uid: CRMScript.NetServer.ChatMessageSpecialType
+  commentId: T:CRMScript.NetServer.ChatMessageSpecialType
+  isExternal: true
+  name: ChatMessageSpecialType
+  nameWithType: ChatMessageSpecialType
+  fullName: CRMScript.NetServer.ChatMessageSpecialType

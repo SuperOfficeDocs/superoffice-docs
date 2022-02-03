@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.StatLib
+  commentId: T:CRMScript.Native.StatLib
+  id: StatLib
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.StatLib.#ctor
+  - CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer)
+  - CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer,Integer)
+  - CRMScript.Native.StatLib.addCallback(Integer,String)
+  - CRMScript.Native.StatLib.addGroup(Integer,Bool)
+  - CRMScript.Native.StatLib.addGroup(Integer,Bool,Bool)
+  - CRMScript.Native.StatLib.dropOrder()
+  - CRMScript.Native.StatLib.execute(Parser)
+  - CRMScript.Native.StatLib.execute(StatResult)
+  - CRMScript.Native.StatLib.setGenericSearch()
+  - CRMScript.Native.StatLib.setName(String)
+  - CRMScript.Native.StatLib.setSearchEngine()
+  - CRMScript.Native.StatLib.setSql(String)
+  - CRMScript.Native.StatLib.setStringMatrix()
+  name: StatLib
+  nameWithType: StatLib
+  fullName: CRMScript.Native.StatLib
+  type: Class
+  summary: "\nClass for using the Service statistics library.\n"
+  example: 
+- uid: CRMScript.Native.StatLib.#ctor
+  commentId: M:CRMScript.Native.StatLib.#ctor
+  id: '#ctor'
+  so.intellisense: Void.StatLib
+  langs:
+  - crmscript
+  name: StatLib()
+  nameWithType: StatLib.#ctor
+  fullName: CRMScript.Native.StatLib.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the StatLib class.\n"
+  remarks: 
+  syntax: 
+    content: StatLib
+  example: 
+- uid: CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer)
+  commentId: M:CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer)
+  id: 'addAggregate(Integer,Integer,String,String,Integer)'
+  so.intellisense: StatLib.addAggregate
+  langs:
+  - crmscript
+  name: 'addAggregate(Integer,Integer,String,String,Integer)'
+  nameWithType: StatLib.addAggregate(Integer,Integer,String,String,Integer)
+  fullName: CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer)
+  type: Method
+  summary: "\nAdds an aggregate function to the specified group<p></p>\nAn aggregate function is a function that is calculated for all values for a given column in a group. For example, the average response time for each category.\n"
+  remarks: "\nAvailable functions:<ul><li>Count</li><li>Sum</li><li>Avg</li><li>Max</li><li>Min</li></ul>\n"
+  syntax: 
+    content: Void addAggregateStatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals, Integer uniqueColumn)
+    parameters:
+    - id: groupColumn
+      type: CRMScript.Global.Integer
+      description: "The column used for grouping."
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column used for the calculation."
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the calculated variable in the Parser or StatResult"
+    - id: type
+      type: CRMScript.Global.String
+      description: "The type of function."
+    - id: decimals
+      type: CRMScript.Global.Integer
+      description: "The number of decimals to use in the calculated value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer,Integer)
+  commentId: M:CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer,Integer)
+  id: 'addAggregate(Integer,Integer,String,String,Integer,Integer)'
+  so.intellisense: StatLib.addAggregate
+  langs:
+  - crmscript
+  name: 'addAggregate(Integer,Integer,String,String,Integer,Integer)'
+  nameWithType: StatLib.addAggregate(Integer,Integer,String,String,Integer,Integer)
+  fullName: CRMScript.Native.StatLib.addAggregate(Integer,Integer,String,String,Integer,Integer)
+  type: Method
+  summary: "\nAdds an aggregate function to the specified group<p></p>\nAn aggregate function is a function that is calculated for all values for a given column in a group. For example, the average response time for each category.\n"
+  remarks: "\nAvailable functions:<ul><li>Count</li><li>Sum</li><li>Avg</li><li>Max</li><li>Min</li></ul>\n"
+  syntax: 
+    content: Void addAggregateStatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals, Integer uniqueColumn)
+    parameters:
+    - id: groupColumn
+      type: CRMScript.Global.Integer
+      description: "The column used for grouping."
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column used for the calculation."
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the calculated variable in the Parser or StatResult"
+    - id: type
+      type: CRMScript.Global.String
+      description: "The type of function."
+    - id: decimals
+      type: CRMScript.Global.Integer
+      description: "The number of decimals to use in the calculated value"
+    - id: uniqueColumn
+      type: CRMScript.Global.Integer
+      description: "The value is only calculated for the rows which have a unique value in this column."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.addCallback(Integer,String)
+  commentId: M:CRMScript.Native.StatLib.addCallback(Integer,String)
+  id: 'addCallback(Integer,String)'
+  so.intellisense: StatLib.addCallback
+  langs:
+  - crmscript
+  name: 'addCallback(Integer,String)'
+  nameWithType: StatLib.addCallback(Integer,String)
+  fullName: CRMScript.Native.StatLib.addCallback(Integer,String)
+  type: Method
+  summary: "\nAdds a callback. A callback is a PARSER-snippet that will be executed for the given column for each row.\n"
+  remarks: "\n This is an old method. Use StatResult and iterate instead.\n"
+  syntax: 
+    content: Void addCallback(Integer column, String script)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column for which this callback should be executed."
+    - id: script
+      type: CRMScript.Global.String
+      description: "The Parser code to execute."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.addGroup(Integer,Bool)
+  commentId: M:CRMScript.Native.StatLib.addGroup(Integer,Bool)
+  id: 'addGroup(Integer,Bool)'
+  so.intellisense: StatLib.addGroup
+  langs:
+  - crmscript
+  name: 'addGroup(Integer,Bool)'
+  nameWithType: StatLib.addGroup(Integer,Bool)
+  fullName: CRMScript.Native.StatLib.addGroup(Integer,Bool)
+  type: Method
+  summary: "\nAdds a group to the StatLib instance. A group is a subset of the results that have a common value for a given column. Aggregate values can be calculated for groups, for example, the average response time per category.\n"
+  remarks: 
+  syntax: 
+    content: Void addGroup(Integer column, Bool desc)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column to used to identify the groups"
+    - id: desc
+      type: CRMScript.Global.Bool
+      description: "Sort order. True = descending, otherwise ascending."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.addGroup(Integer,Bool,Bool)
+  commentId: M:CRMScript.Native.StatLib.addGroup(Integer,Bool,Bool)
+  id: 'addGroup(Integer,Bool,Bool)'
+  so.intellisense: StatLib.addGroup
+  langs:
+  - crmscript
+  name: 'addGroup(Integer,Bool,Bool)'
+  nameWithType: StatLib.addGroup(Integer,Bool,Bool)
+  fullName: CRMScript.Native.StatLib.addGroup(Integer,Bool,Bool)
+  type: Method
+  summary: "\nAdds a group to the StatLib instance. A group is a subset of the results that have a common value for a given column. Aggregate values can be calculated for groups, for example, the average response time per category.\n"
+  remarks: 
+  syntax: 
+    content: Void addGroup(Integer column, Bool desc, Bool compareAsNumber)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column to used to identify the groups"
+    - id: desc
+      type: CRMScript.Global.Bool
+      description: "Sort order. True = descending, otherwise ascending"
+    - id: compareAsNumber
+      type: CRMScript.Global.Bool
+      description: "True if the value is a number and you want numeric sorting/grouping."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.dropOrder()
+  commentId: M:CRMScript.Native.StatLib.dropOrder()
+  id: 'dropOrder()'
+  so.intellisense: StatLib.dropOrder
+  langs:
+  - crmscript
+  name: 'dropOrder()'
+  nameWithType: StatLib.dropOrder()
+  fullName: CRMScript.Native.StatLib.dropOrder()
+  type: Method
+  summary: "\nCalling this function will make the StatLib instance skip sorting the results in the groups.\n"
+  remarks: 
+  syntax: 
+    content: Void dropOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.execute(Parser)
+  commentId: M:CRMScript.Native.StatLib.execute(Parser)
+  id: 'execute(Parser)'
+  so.intellisense: StatLib.execute
+  langs:
+  - crmscript
+  name: 'execute(Parser)'
+  nameWithType: StatLib.execute(Parser)
+  fullName: CRMScript.Native.StatLib.execute(Parser)
+  type: Method
+  summary: "\nRuns the query and aggregations and stores the results in a Parser\n"
+  remarks: "\nYou can choose between storing in a Parser or a StatResult by passing the appropriate object.\n"
+  syntax: 
+    content: Void execute(Parser parser)
+    parameters:
+    - id: parser
+      type: CRMScript.Native.Parser
+      description: "The instance to store the results in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.execute(StatResult)
+  commentId: M:CRMScript.Native.StatLib.execute(StatResult)
+  id: 'execute(StatResult)'
+  so.intellisense: StatLib.execute
+  langs:
+  - crmscript
+  name: 'execute(StatResult)'
+  nameWithType: StatLib.execute(StatResult)
+  fullName: CRMScript.Native.StatLib.execute(StatResult)
+  type: Method
+  summary: "\nRuns the query and aggregations and stores the results in a StatResult\n"
+  remarks: "\nYou can choose between storing in a Parser or a StatResult by passing the appropriate object.\n"
+  syntax: 
+    content: Void execute(StatResult result)
+    parameters:
+    - id: result
+      type: CRMScript.Native.StatResult
+      description: "The instance to store the results in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.setGenericSearch()
+  commentId: M:CRMScript.Native.StatLib.setGenericSearch()
+  id: 'setGenericSearch()'
+  so.intellisense: StatLib.setGenericSearch
+  langs:
+  - crmscript
+  name: 'setGenericSearch()'
+  nameWithType: StatLib.setGenericSearch()
+  fullName: CRMScript.Native.StatLib.setGenericSearch()
+  type: Method
+  summary: "\nUse the given GenericSearch entry as query (instead of SQL string).\n"
+  remarks: 
+  syntax: 
+    content: Void setGenericSearch(GenericSearch gs)
+    parameters:
+    - id: gs
+      type: CRMScript.Native.GenericSearch
+      description: "The GenericSearch entry to use."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.setName(String)
+  commentId: M:CRMScript.Native.StatLib.setName(String)
+  id: 'setName(String)'
+  so.intellisense: StatLib.setName
+  langs:
+  - crmscript
+  name: 'setName(String)'
+  nameWithType: StatLib.setName(String)
+  fullName: CRMScript.Native.StatLib.setName(String)
+  type: Method
+  summary: "\nSets the name for the instance. The name is used to prefix the result in the Parser.\n"
+  remarks: 
+  syntax: 
+    content: Void setName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name for the instance."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.setSearchEngine()
+  commentId: M:CRMScript.Native.StatLib.setSearchEngine()
+  id: 'setSearchEngine()'
+  so.intellisense: StatLib.setSearchEngine
+  langs:
+  - crmscript
+  name: 'setSearchEngine()'
+  nameWithType: StatLib.setSearchEngine()
+  fullName: CRMScript.Native.StatLib.setSearchEngine()
+  type: Method
+  summary: "\nUse the given SearchEngine entry as query (instead of SQL string).\n"
+  remarks: 
+  syntax: 
+    content: Void setSearchEngine(SearchEngine se)
+    parameters:
+    - id: se
+      type: CRMScript.Native.SearchEngine
+      description: "The SearchEngine entry to use."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.setSql(String)
+  commentId: M:CRMScript.Native.StatLib.setSql(String)
+  id: 'setSql(String)'
+  so.intellisense: StatLib.setSql
+  so.envir: onsite
+  langs:
+  - crmscript
+  name: 'setSql(String)'
+  nameWithType: StatLib.setSql(String)
+  fullName: CRMScript.Native.StatLib.setSql(String)
+  type: Method
+  summary: "\nSets the query for the instance. <strong>This method is not available in CRM Online.</strong>\n"
+  remarks: 
+  syntax: 
+    content: Void setSql(String sqlStatement)
+    parameters:
+    - id: sqlStatement
+      type: CRMScript.Global.String
+      description: "The SQL query to execute for the instance."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatLib.setStringMatrix()
+  commentId: M:CRMScript.Native.StatLib.setStringMatrix()
+  id: 'setStringMatrix()'
+  so.intellisense: StatLib.setStringMatrix
+  langs:
+  - crmscript
+  name: 'setStringMatrix()'
+  nameWithType: StatLib.setStringMatrix()
+  fullName: CRMScript.Native.StatLib.setStringMatrix()
+  type: Method
+  summary: "\nUse the given StringMatrix entry as query (instead of SQL string).\n"
+  remarks: 
+  syntax: 
+    content: Void setStringMatrix(StringMatrix sm)
+    parameters:
+    - id: sm
+      type: CRMScript.Native.StringMatrix
+      description: "The StringMatrix entry to use."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.StatLib
+  commentId: T:CRMScript.Native.StatLib
+  isExternal: true
+  name: StatLib
+  nameWithType: StatLib
+  fullName: CRMScript.Native.StatLib
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.Parser
+  commentId: T:CRMScript.Native.Parser
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: CRMScript.Native.Parser
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.SearchEngine
+  commentId: T:CRMScript.Native.SearchEngine
+  isExternal: true
+  name: SearchEngine
+  nameWithType: SearchEngine
+  fullName: CRMScript.Native.SearchEngine
+- uid: CRMScript.Native.StatResult
+  commentId: T:CRMScript.Native.StatResult
+  isExternal: true
+  name: StatResult
+  nameWithType: StatResult
+  fullName: CRMScript.Native.StatResult
+- uid: CRMScript.Native.StringMatrix
+  commentId: T:CRMScript.Native.StringMatrix
+  isExternal: true
+  name: StringMatrix
+  nameWithType: StringMatrix
+  fullName: CRMScript.Native.StringMatrix

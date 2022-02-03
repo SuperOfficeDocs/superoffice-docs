@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.LocalizedTextType
+  # Same as SuperOffice.Data.LocalizedTextType
+  commentId: T:CRMScript.NetServer.LocalizedTextType
+  id: LocalizedTextType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.LocalizedTextType.Unknown
+  - CRMScript.NetServer.LocalizedTextType.Label
+  - CRMScript.NetServer.LocalizedTextType.Table
+  - CRMScript.NetServer.LocalizedTextType.Column
+  - CRMScript.NetServer.LocalizedTextType.ImportField
+  - CRMScript.NetServer.LocalizedTextType.ImportObject
+  - CRMScript.NetServer.LocalizedTextType.ImportGUICategory
+  - CRMScript.NetServer.LocalizedTextType.StartupHints
+  - CRMScript.NetServer.LocalizedTextType.FunctionRightLabel
+  - CRMScript.NetServer.LocalizedTextType.FunctionRightDesc
+  - CRMScript.NetServer.LocalizedTextType.StatusMonitorName
+  - CRMScript.NetServer.LocalizedTextType.UdefContactLabel
+  - CRMScript.NetServer.LocalizedTextType.UdefPersonLabel
+  - CRMScript.NetServer.LocalizedTextType.UdefProjectLabel
+  - CRMScript.NetServer.LocalizedTextType.UdefSaleLabel
+  - CRMScript.NetServer.LocalizedTextType.UdefAppointmentLabel
+  - CRMScript.NetServer.LocalizedTextType.UdefDocumentLabel
+  - CRMScript.NetServer.LocalizedTextType.PushNotificationText
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: CRMScript.NetServer.LocalizedTextType
+  type: Enum
+  summary: "\nThe type of the locale text strings.\n"
+- uid: CRMScript.NetServer.LocalizedTextType.Unknown
+  commentId: F:CRMScript.NetServer.LocalizedTextType.Unknown
+  id: LocalizedTextType.Unknown
+  langs:
+  - crmscript
+  name: LocalizedTextType.Unknown
+  nameWithType: LocalizedTextType.Unknown
+  fullName: CRMScript.NetServer.LocalizedTextType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.Label
+  commentId: F:CRMScript.NetServer.LocalizedTextType.Label
+  id: LocalizedTextType.Label
+  langs:
+  - crmscript
+  name: LocalizedTextType.Label
+  nameWithType: LocalizedTextType.Label
+  fullName: CRMScript.NetServer.LocalizedTextType.Label
+  type: Field
+  summary: "\n1: field labels\n"
+  syntax: 
+    content: Label = 1
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.Table
+  commentId: F:CRMScript.NetServer.LocalizedTextType.Table
+  id: LocalizedTextType.Table
+  langs:
+  - crmscript
+  name: LocalizedTextType.Table
+  nameWithType: LocalizedTextType.Table
+  fullName: CRMScript.NetServer.LocalizedTextType.Table
+  type: Field
+  summary: "\n2: Table\n"
+  syntax: 
+    content: Table = 2
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.Column
+  commentId: F:CRMScript.NetServer.LocalizedTextType.Column
+  id: LocalizedTextType.Column
+  langs:
+  - crmscript
+  name: LocalizedTextType.Column
+  nameWithType: LocalizedTextType.Column
+  fullName: CRMScript.NetServer.LocalizedTextType.Column
+  type: Field
+  summary: "\n3: Column\n"
+  syntax: 
+    content: Column = 3
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.ImportField
+  commentId: F:CRMScript.NetServer.LocalizedTextType.ImportField
+  id: LocalizedTextType.ImportField
+  langs:
+  - crmscript
+  name: LocalizedTextType.ImportField
+  nameWithType: LocalizedTextType.ImportField
+  fullName: CRMScript.NetServer.LocalizedTextType.ImportField
+  type: Field
+  summary: "\n4: import system field names\n"
+  syntax: 
+    content: ImportField = 4
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.ImportObject
+  commentId: F:CRMScript.NetServer.LocalizedTextType.ImportObject
+  id: LocalizedTextType.ImportObject
+  langs:
+  - crmscript
+  name: LocalizedTextType.ImportObject
+  nameWithType: LocalizedTextType.ImportObject
+  fullName: CRMScript.NetServer.LocalizedTextType.ImportObject
+  type: Field
+  summary: "\n5: import system table names\n"
+  syntax: 
+    content: ImportObject = 5
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.ImportGUICategory
+  commentId: F:CRMScript.NetServer.LocalizedTextType.ImportGUICategory
+  id: LocalizedTextType.ImportGUICategory
+  langs:
+  - crmscript
+  name: LocalizedTextType.ImportGUICategory
+  nameWithType: LocalizedTextType.ImportGUICategory
+  fullName: CRMScript.NetServer.LocalizedTextType.ImportGUICategory
+  type: Field
+  summary: "\n6: import system table groups\n"
+  syntax: 
+    content: ImportGUICategory = 6
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.StartupHints
+  commentId: F:CRMScript.NetServer.LocalizedTextType.StartupHints
+  id: LocalizedTextType.StartupHints
+  langs:
+  - crmscript
+  name: LocalizedTextType.StartupHints
+  nameWithType: LocalizedTextType.StartupHints
+  fullName: CRMScript.NetServer.LocalizedTextType.StartupHints
+  type: Field
+  summary: "\n7: (languageid > 0)\n"
+  syntax: 
+    content: StartupHints = 7
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.FunctionRightLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.FunctionRightLabel
+  id: LocalizedTextType.FunctionRightLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.FunctionRightLabel
+  nameWithType: LocalizedTextType.FunctionRightLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.FunctionRightLabel
+  type: Field
+  summary: "\n11: (languageid > 0)\n"
+  syntax: 
+    content: FunctionRightLabel = 11
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.FunctionRightDesc
+  commentId: F:CRMScript.NetServer.LocalizedTextType.FunctionRightDesc
+  id: LocalizedTextType.FunctionRightDesc
+  langs:
+  - crmscript
+  name: LocalizedTextType.FunctionRightDesc
+  nameWithType: LocalizedTextType.FunctionRightDesc
+  fullName: CRMScript.NetServer.LocalizedTextType.FunctionRightDesc
+  type: Field
+  summary: "\n12: (languageid > 0)\n"
+  syntax: 
+    content: FunctionRightDesc = 12
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.StatusMonitorName
+  commentId: F:CRMScript.NetServer.LocalizedTextType.StatusMonitorName
+  id: LocalizedTextType.StatusMonitorName
+  langs:
+  - crmscript
+  name: LocalizedTextType.StatusMonitorName
+  nameWithType: LocalizedTextType.StatusMonitorName
+  fullName: CRMScript.NetServer.LocalizedTextType.StatusMonitorName
+  type: Field
+  summary: "\n16: languageid = 0\n"
+  syntax: 
+    content: StatusMonitorName = 16
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefContactLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefContactLabel
+  id: LocalizedTextType.UdefContactLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefContactLabel
+  nameWithType: LocalizedTextType.UdefContactLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefContactLabel
+  type: Field
+  summary: "\n19: (languageid = 0)\n"
+  syntax: 
+    content: UdefContactLabel = 19
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefPersonLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefPersonLabel
+  id: LocalizedTextType.UdefPersonLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefPersonLabel
+  nameWithType: LocalizedTextType.UdefPersonLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefPersonLabel
+  type: Field
+  summary: "\n20: (languageid = 0)\n"
+  syntax: 
+    content: UdefPersonLabel = 20
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefProjectLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefProjectLabel
+  id: LocalizedTextType.UdefProjectLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefProjectLabel
+  nameWithType: LocalizedTextType.UdefProjectLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefProjectLabel
+  type: Field
+  summary: "\n21: (languageid = 0)\n"
+  syntax: 
+    content: UdefProjectLabel = 21
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefSaleLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefSaleLabel
+  id: LocalizedTextType.UdefSaleLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefSaleLabel
+  nameWithType: LocalizedTextType.UdefSaleLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefSaleLabel
+  type: Field
+  summary: "\n22: (languageid = 0)\n"
+  syntax: 
+    content: UdefSaleLabel = 22
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefAppointmentLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefAppointmentLabel
+  id: LocalizedTextType.UdefAppointmentLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefAppointmentLabel
+  nameWithType: LocalizedTextType.UdefAppointmentLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefAppointmentLabel
+  type: Field
+  summary: "\n23: (languageid = 0)\n"
+  syntax: 
+    content: UdefAppointmentLabel = 23
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.UdefDocumentLabel
+  commentId: F:CRMScript.NetServer.LocalizedTextType.UdefDocumentLabel
+  id: LocalizedTextType.UdefDocumentLabel
+  langs:
+  - crmscript
+  name: LocalizedTextType.UdefDocumentLabel
+  nameWithType: LocalizedTextType.UdefDocumentLabel
+  fullName: CRMScript.NetServer.LocalizedTextType.UdefDocumentLabel
+  type: Field
+  summary: "\n24: (languageid = 0)\n"
+  syntax: 
+    content: UdefDocumentLabel = 24
+    type: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.LocalizedTextType.PushNotificationText
+  commentId: F:CRMScript.NetServer.LocalizedTextType.PushNotificationText
+  id: LocalizedTextType.PushNotificationText
+  langs:
+  - crmscript
+  name: LocalizedTextType.PushNotificationText
+  nameWithType: LocalizedTextType.PushNotificationText
+  fullName: CRMScript.NetServer.LocalizedTextType.PushNotificationText
+  type: Field
+  summary: "\n41: push notification text\n"
+  syntax: 
+    content: PushNotificationText = 41
+    type: CRMScript.NetServer.LocalizedTextType
+references:
+- uid: CRMScript.NetServer.LocalizedTextType
+  commentId: T:CRMScript.NetServer.LocalizedTextType
+  isExternal: true
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: CRMScript.NetServer.LocalizedTextType
