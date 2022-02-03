@@ -5,9 +5,12 @@ summary: ""
 
 metadata:
   title: SuperID
-  description: ""
-  ms.topic: landing-page
-  ms.date: 03.28.2021
+  description: "Learn about SuperID, identity providers, and federated sign-in."
+  so.product: superid
+  so.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 02.02.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 

@@ -1,9 +1,10 @@
 ---
 title: Application hosting
 uid: app_hosting
-description: Application hosting
-author: {github-id}
-keywords:
+description: "You are responsible for hosting your own applications. What to do before you try to authorize."
+author: Bergfrid Dias
+so.date: 02.02.2022
+keywords: apps, authorization, requirements
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -11,7 +12,7 @@ so.client: online
 
 # Application hosting
 
-You are responsible for hosting your own applications, regardless if you develop standard applications for the SuperOffice App Store or custom applications for a specific customer.
+You are responsible for hosting your own applications, regardless of you develop standard applications for the SuperOffice App Store or custom applications for a specific customer.
 
 SuperOffice will not bill, [provision][1], or host partner applications. Instead, the App Store redirects to our partners' websites where customers buy directly from the partner.
 

@@ -1,9 +1,10 @@
 ---
 title: Validation checklist
 uid: validation_checklist
-description: Validation checklist
-author: {github-id}
-keywords: custom app
+description: "The app validation checklist - what to consider before you ask for a validation test."
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: custom app, validation, checklist
 so.topic: reference
 so.envir: cloud
 so.client: online

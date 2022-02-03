@@ -1,9 +1,10 @@
 ---
 uid: crm_online
 title: About CRM Online
-description: About CRM Online
-author: {github-id}
-keywords:
+description: "Introduction to CRM Online: requirements, access, sign-in services, and integrations."
+author: Bergfrid Skaara
+so.date: 02.02.2022
+keywords: online, app store
 so.topic: concept
 so.envir: cloud
 so.client: online

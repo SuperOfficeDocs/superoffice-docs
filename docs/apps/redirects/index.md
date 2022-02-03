@@ -1,9 +1,13 @@
 ---
 title: Redirects
 uid: redirects
-description: Redirection endpoints
-author: {github-id}
+description: "Learn what a redirect URL, or callback URL, is and where to set it."
+author: Bergfrid Dias
+so.date: 02.02.2022
 keywords: callback
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Redirection endpoint

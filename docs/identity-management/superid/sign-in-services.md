@@ -1,10 +1,10 @@
 ---
 title: Sign-in services
 uid: sign_in_services
-description: Sign-in services
-author:
-keywords: SuperID
-so.date:
+description: "Learn about SuperOffice sign-in services."
+author: Bergfrid Dias
+keywords: SuperID, sign-in, user account
+so.date: 02.02.2022
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -23,7 +23,7 @@ Each provides the administrator and the end-user with a set of features to admin
 
 ## The SuperID sign-in service
 
-The [SuperID][1] sign-in service has 2 levels - basic and federated. Each CRM Online user accounts can belong to 1 SuperID user account. One CRM Online user account + password can belong to 1 or more sites.
+The [SuperID][1] sign-in service has 2 levels - basic and federated. Each CRM Online user account can belong to 1 SuperID user account. One CRM Online user account + password can belong to 1 or more sites.
 
 If you would like to use **SuperID - federated** features, you need to register an [identity provider][2].
 

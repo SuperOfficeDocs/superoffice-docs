@@ -1,9 +1,10 @@
 ---
 title: Design requirements
 uid: design_requirements
-description: Requirements for user UI and design
-author: {github-id}
-keywords: certification
+description: "Requirements for user UI and design"
+author: Margrethe Romnes
+so.date: 02.02.2022
+keywords: certification, apps
 so.topic: reference
 so.envir: cloud
 so.client: online

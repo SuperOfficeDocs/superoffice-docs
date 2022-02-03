@@ -6,13 +6,13 @@ brand: devdocs
 
 metadata:
   title: Service
-  description: Service
+  description: "Learn about SuperOffice Service features, installation, and configuration."
   so.product: service
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.26.2021
+  so.date: 02.02.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
